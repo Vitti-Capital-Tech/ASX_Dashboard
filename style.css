@@ -244,24 +244,35 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
 /* Stats */
 .stats-grid    { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
 .stat-card {
-  background: var(--bg-input);
-  border: 1px solid var(--border);
-  border-radius: var(--r-md);
-  padding: 10px 12px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.06), rgba(255,255,255,0));
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-light);
+  border-radius: var(--r-lg);
+  padding: 12px;
   display: flex; flex-direction: column; gap: 4px;
   position: relative; overflow: hidden;
-  transition: border-color var(--transition);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.02), inset 0 1px 0 rgba(255,255,255,0.4);
+  transition: all var(--transition-slow);
+}
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.04), inset 0 1px 0 rgba(255,255,255,0.4);
+  background-color: var(--bg-card-hover);
+  border-color: var(--accent-border);
 }
 .stat-card::after {
   content: '';
   position: absolute; bottom: 0; left: 0; right: 0;
-  height: 2px;
+  height: 3px;
   background: var(--gradient-accent);
-  opacity: 0.5;
-  border-radius: 0 0 var(--r-md) var(--r-md);
+  opacity: 0.6;
+  border-radius: 0 0 var(--r-lg) var(--r-lg);
+  transition: opacity var(--transition);
 }
+.stat-card:hover::after { opacity: 1; }
 .stat-card.sensitive::after { background: linear-gradient(90deg, var(--danger), transparent); }
 .stat-card.sensitive { border-color: var(--danger-border); }
+.stat-card.sensitive:hover { border-color: var(--danger); box-shadow: 0 8px 16px var(--danger-dim), inset 0 1px 0 rgba(255,255,255,0.4); }
 .stat-value {
   font-family: var(--mono);
   font-size: 1.4rem;

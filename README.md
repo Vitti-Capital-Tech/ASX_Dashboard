@@ -9,16 +9,16 @@ A daily intelligence tool that automatically fetches ASX announcements, generate
 ```
 GitHub Actions (cron 8am AEST)
   └── fetch_asx.py
-        ├── Fetches all ASX announcements via public API
-        ├── Sends each to Groq (llama-3.3-70b-versatile) - bullet-point summary + tags
-        ├── Preserves ASX's native market_sensitive flag
-        └── Writes logs/YYYY-MM-DD.json - auto-committed to repo
+        ├── Fetches all ASX announcements via the official MarkitDigital JSON API (bypassing legacy geo-blocks)
+        ├── Sends each to Groq (llama-3.3-70b-versatile) for a summary and tags
+        ├── Preserves the native `market_sensitive` flag directly from the API
+        └── Writes `logs/YYYY-MM-DD.json` - auto-committed to the repository
 
 index.html (open in browser or deploy to GitHub Pages)
-  ├── Reads logs/YYYY-MM-DD.json for selected date
-  ├── Search, tag filters, category tabs, market-sensitive toggle
-  ├── Detail modal per announcement
-  └── Download CSV / Print PDF
+  ├── Reads logs/YYYY-MM-DD.json for the selected date
+  ├── Offers search, tag filters, category tabs, and market-sensitive toggles
+  ├── Features a responsive, premium UI with mobile off-canvas menus
+  └── Allows download via CSV or Print PDF
 ```
 
 ---
