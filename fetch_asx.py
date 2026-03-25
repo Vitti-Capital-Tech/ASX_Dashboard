@@ -43,8 +43,9 @@ HEADERS = {
     "Referer": "https://www.asx.com.au/",
 }
 
-# ASX Market Announcements Platform RSS feed (publicly available)
-ASX_RSS_URL = "https://www.asx.com.au/asx/rss/market.do?by=asxCode"
+# ASX Market Announcements Platform API
+ASX_JSON_URL = "https://asx.api.markitdigital.com/asx-research/1.0/markets/announcements?entityXids=%5B%5D&page=0&itemsPerPage=200"
+ASX_PDF_URL_BASE = "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/"
 
 KNOWN_TAGS = [
     "Results", "AGM", "Capital Raise", "Dividend",
@@ -58,22 +59,65 @@ LOGS_DIR = Path(__file__).parent / "logs"
 
 
 # ─────────────────────────────────────────────────────────────
-# Fetch from RSS
+# Fetch from API
 # ─────────────────────────────────────────────────────────────
 
 def fetch_announcements(date_str: str, retries: int = 3) -> list[dict]:
     """
-    Fetch ASX announcements from the public RSS feed and
-    filter to announcements released on `date_str` (YYYY-MM-DD).
+    Fetch ASX announcements from the MarkitDigital API and
+    filter to announcements released on `date_str` (YYYY-MM-DD in AEST).
     """
     for attempt in range(1, retries + 1):
-        print(f"[fetch] Attempt {attempt}/{retries}: GET {ASX_RSS_URL}")
+        print(f"[fetch] Attempt {attempt}/{retries}: GET {ASX_JSON_URL.split('?')[0]}")
         try:
-            resp = requests.get(ASX_RSS_URL, headers=HEADERS, timeout=60)
+            resp = requests.get(ASX_JSON_URL, headers=HEADERS, timeout=60)
             resp.raise_for_status()
-            items = _parse_rss(resp.content, date_str)
-            print(f"[fetch] Success. Found {len(items)} announcements for {date_str}")
-            return items
+            
+            data = resp.json()
+            items = data.get("data", {}).get("items", [])
+            print(f"[fetch] Success. Downloaded {len(items)} raw announcements")
+            
+            filtered = []
+            for item in items:
+                raw_date = item.get("date", "")
+                if not raw_date: continue
+                
+                # Parse "2026-03-25T02:30:11.000Z"
+                try:
+                    dt_utc = datetime.strptime(raw_date[:19], "%Y-%m-%dT%H:%M:%S").replace(tzinfo=timezone.utc)
+                except ValueError:
+                    continue
+                
+                dt_aest = dt_utc.astimezone(AEST)
+                if dt_aest.strftime("%Y-%m-%d") != date_str:
+                    continue
+                
+                ticker = item.get("symbol", "")
+                company = ticker
+                company_info = item.get("companyInfo", [])
+                if company_info and len(company_info) > 0:
+                    company = company_info[0].get("displayName", ticker)
+                    
+                headline = item.get("headline", "").strip()
+                document_key = item.get("documentKey", "")
+                pdf_url = f"{ASX_PDF_URL_BASE}{document_key}" if document_key else ""
+                market_sensitive = item.get("isPriceSensitive", False)
+                
+                filtered.append({
+                    "ticker":           ticker[:6],
+                    "company":          company,
+                    "headline":         headline,
+                    "time":             dt_utc.isoformat(),
+                    "url":              pdf_url,
+                    "market_sensitive": bool(market_sensitive),
+                    "document_type":    _guess_doc_type(headline),
+                    "summary":          [],
+                    "tags":             [],
+                })
+                
+            print(f"[fetch] Filtering complete. Found {len(filtered)} matching {date_str} in AEST.")
+            return filtered
+            
         except Exception as e:
             print(f"[fetch] Attempt {attempt} failed: {e}")
             if attempt < retries:
@@ -83,105 +127,6 @@ def fetch_announcements(date_str: str, retries: int = 3) -> list[dict]:
             else:
                 print("[fetch] All retry attempts failed.")
     return []
-
-
-def _parse_rss(content: bytes, date_str: str) -> list[dict]:
-    """Parse RSS XML and return announcements matching the given date."""
-    
-    xml_text = content.decode('utf-8', errors='replace')
-    
-    # --- DEBUGGING TO GITHUB ACTIONS LOGS ---
-    print(f"\n[DEBUG] Raw Payload Preview (first 1000 chars):")
-    print(xml_text[:1000].replace('\n', ' '))
-    print(f"[DEBUG] End Preview\n")
-    # ----------------------------------------
-    
-    items = []
-    
-    # 1. Grab all <item>...</item> blocks
-    item_blocks = re.findall(r"<item>(.*?)</item>", xml_text, flags=re.DOTALL | re.IGNORECASE)
-    
-    for block in item_blocks:
-        # 2. Extract specific fields using regex
-        title_match = re.search(r"<title>(.*?)</title>", block, re.DOTALL | re.IGNORECASE)
-        link_match = re.search(r"<link>(.*?)</link>", block, re.DOTALL | re.IGNORECASE)
-        pub_date_match = re.search(r"<pubDate>(.*?)</pubDate>", block, re.DOTALL | re.IGNORECASE)
-        desc_match = re.search(r"<description>(.*?)</description>", block, re.DOTALL | re.IGNORECASE)
-        # creator often has namespace dc:creator
-        creator_match = re.search(r"<[^>]*?creator[^>]*>(.*?)</[^>]*?creator>", block, re.DOTALL | re.IGNORECASE)
-        
-        # Clean text
-        title       = _clean_xml_text(title_match.group(1)) if title_match else ""
-        link        = _clean_xml_text(link_match.group(1)) if link_match else ""
-        pub_date    = _clean_xml_text(pub_date_match.group(1)) if pub_date_match else ""
-        description = _clean_xml_text(desc_match.group(1)) if desc_match else ""
-        creator     = _clean_xml_text(creator_match.group(1)) if creator_match else ""
-        
-        if not title or not pub_date:
-            continue
-
-        # Parse pubDate → datetime
-        dt = _parse_pub_date(pub_date)
-        if dt is None:
-            continue
-
-        # Filter by date in AEST
-        dt_aest = dt.astimezone(AEST)
-        if dt_aest.strftime("%Y-%m-%d") != date_str:
-            continue
-
-        # Try to extract ticker from creator field or title
-        ticker  = creator.strip().upper() if creator.strip() else _extract_ticker(title)
-        company = _extract_company(description) or creator.strip()
-
-        # Market sensitive: ASX usually marks this in the title/description
-        market_sensitive = bool(
-            re.search(r"market[\s\-]?sensitive", title + description, re.IGNORECASE)
-        )
-
-        items.append({
-            "ticker":           ticker,
-            "company":          company,
-            "headline":         title.strip(),
-            "time":             dt.isoformat(),
-            "url":              link.strip(),
-            "market_sensitive": market_sensitive,
-            "document_type":    _guess_doc_type(title),
-            "summary":          [],
-            "tags":             [],
-        })
-
-    return items
-
-
-def _clean_xml_text(text: str) -> str:
-    """Helper to unescape standard XML entities cleanly"""
-    if not text: return ""
-    text = text.strip()
-    # Handle standard entities
-    text = text.replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", '"').replace("&apos;", "'")
-    text = text.replace("&#39;", "'")
-    # Ampersand last
-    text = text.replace("&amp;", "&")
-    # Clean up weird CDATA blocks if present
-    text = re.sub(r'<!\[CDATA\[(.*?)\]\]>', r'\1', text, flags=re.DOTALL)
-    # Strip any remaining HTML tags just in case
-    text = re.sub(r'<[^>]+>', '', text)
-    return text.strip()
-
-
-def _parse_pub_date(raw: str) -> datetime | None:
-    formats = [
-        "%a, %d %b %Y %H:%M:%S %z",
-        "%a, %d %b %Y %H:%M:%S GMT",
-        "%Y-%m-%dT%H:%M:%S%z",
-    ]
-    for fmt in formats:
-        try:
-            return datetime.strptime(raw.strip(), fmt)
-        except ValueError:
-            continue
-    return None
 
 
 def _extract_ticker(title: str) -> str:
