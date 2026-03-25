@@ -180,7 +180,7 @@ Respond in this exact JSON format (no markdown, no extra text):
 }}"""
 
 
-def summarise_batch(client: Groq, announcements: list[dict], delay: float = 0.5) -> list[dict]:
+def summarise_batch(client: Groq, announcements: list[dict], delay: float = 2.1) -> list[dict]:
     """Summarise announcements one by one with rate-limit delay."""
     total = len(announcements)
     for i, ann in enumerate(announcements, 1):
