@@ -87,21 +87,31 @@ def fetch_announcements(date_str: str, retries: int = 3) -> list[dict]:
 
 def _parse_rss(content: bytes, date_str: str) -> list[dict]:
     """Parse RSS XML and return announcements matching the given date."""
-    try:
-        root = ET.fromstring(content)
-    except ET.ParseError as e:
-        print(f"[parse] XML parse error: {e}")
-        return []
-
-    ns = {"dc": "http://purl.org/dc/elements/1.1/"}
+    
+    xml_text = content.decode('utf-8', errors='replace')
     items = []
-
-    for item in root.iter("item"):
-        title       = _text(item, "title")
-        link        = _text(item, "link")
-        pub_date    = _text(item, "pubDate")
-        description = _text(item, "description")
-        creator     = _text(item, "dc:creator", ns) or ""
+    
+    # 1. Grab all <item>...</item> blocks
+    item_blocks = re.findall(r"<item>(.*?)</item>", xml_text, flags=re.DOTALL | re.IGNORECASE)
+    
+    for block in item_blocks:
+        # 2. Extract specific fields using regex
+        title_match = re.search(r"<title>(.*?)</title>", block, re.DOTALL | re.IGNORECASE)
+        link_match = re.search(r"<link>(.*?)</link>", block, re.DOTALL | re.IGNORECASE)
+        pub_date_match = re.search(r"<pubDate>(.*?)</pubDate>", block, re.DOTALL | re.IGNORECASE)
+        desc_match = re.search(r"<description>(.*?)</description>", block, re.DOTALL | re.IGNORECASE)
+        # creator often has namespace dc:creator
+        creator_match = re.search(r"<[^>]*?creator[^>]*>(.*?)</[^>]*?creator>", block, re.DOTALL | re.IGNORECASE)
+        
+        # Clean text
+        title       = _clean_xml_text(title_match.group(1)) if title_match else ""
+        link        = _clean_xml_text(link_match.group(1)) if link_match else ""
+        pub_date    = _clean_xml_text(pub_date_match.group(1)) if pub_date_match else ""
+        description = _clean_xml_text(desc_match.group(1)) if desc_match else ""
+        creator     = _clean_xml_text(creator_match.group(1)) if creator_match else ""
+        
+        if not title or not pub_date:
+            continue
 
         # Parse pubDate → datetime
         dt = _parse_pub_date(pub_date)
@@ -137,16 +147,20 @@ def _parse_rss(content: bytes, date_str: str) -> list[dict]:
     return items
 
 
-def _text(element, tag: str, ns: dict | None = None) -> str:
-    child = element.find(tag, ns) if ns else element.find(tag)
-    if child is not None and child.text:
-        return child.text.strip()
-    # Try namespace-stripped fallback
-    local = tag.split(":")[-1]
-    for child in element:
-        if child.tag.endswith(f"}}{local}") or child.tag == local:
-            return (child.text or "").strip()
-    return ""
+def _clean_xml_text(text: str) -> str:
+    """Helper to unescape standard XML entities cleanly"""
+    if not text: return ""
+    text = text.strip()
+    # Handle standard entities
+    text = text.replace("&lt;", "<").replace("&gt;", ">").replace("&quot;", '"').replace("&apos;", "'")
+    text = text.replace("&#39;", "'")
+    # Ampersand last
+    text = text.replace("&amp;", "&")
+    # Clean up weird CDATA blocks if present
+    text = re.sub(r'<!\[CDATA\[(.*?)\]\]>', r'\1', text, flags=re.DOTALL)
+    # Strip any remaining HTML tags just in case
+    text = re.sub(r'<[^>]+>', '', text)
+    return text.strip()
 
 
 def _parse_pub_date(raw: str) -> datetime | None:
