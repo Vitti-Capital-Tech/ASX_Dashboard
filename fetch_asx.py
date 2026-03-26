@@ -218,8 +218,7 @@ def summarise_batch(client: Groq, announcements: list[dict], delay: float = 2.1)
                 break  # Successfully generated, exit the fallback loop
             except Exception as e:
                 # Print specific error and try the next model silently
-                e_str = f"{e}"
-                print(f"[groq] Model {model} failed for {ann['ticker']}: {e_str[:100]}...")
+                print(f"[groq] Model {model} failed for {ann['ticker']}: {repr(e)}")
                 continue
                 
         if not success:
