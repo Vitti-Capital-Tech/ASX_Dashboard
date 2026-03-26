@@ -70,7 +70,7 @@ export default function Dashboard() {
       } else {
         const data: DayLog = await res.json();
         setLog(data);
-        setLastUpdated(new Date());
+        setLastUpdated(data.generated_at ? new Date(data.generated_at) : new Date());
       }
     } catch {
       setError('Connection refused. Please ensure the local server is running properly.');
@@ -153,6 +153,28 @@ export default function Dashboard() {
       return new Date(b.time).getTime() - new Date(a.time).getTime(); // newest first
     });
   }, [filtered]);
+
+  // Memoize the heavy rendering of 100+ cards so Theme toggles (which trigger a page re-render) 
+  // don't force React to reconcile the entire tree, keeping css transitions buttery smooth.
+  const renderedGrid = useMemo(() => (
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+      {sorted.map((ann, i) => (
+        <div key={ann.url + i + ann.time} style={{ animationDelay: `${Math.min(i * 0.05, 0.5)}s` }} className="animate-fade-in-up">
+          <AnnouncementCard ann={ann} />
+        </div>
+      ))}
+    </div>
+  ), [sorted]);
+
+  const renderedList = useMemo(() => (
+    <div className="flex flex-col gap-3">
+      {sorted.map((ann, i) => (
+        <div key={ann.url + i + ann.time} style={{ animationDelay: `${Math.min(i * 0.03, 0.3)}s` }} className="animate-fade-in-up">
+          <AnnouncementRow ann={ann} />
+        </div>
+      ))}
+    </div>
+  ), [sorted]);
 
   function handleTagToggle(tag: string) {
     setActiveTags(prev => {
@@ -241,8 +263,17 @@ export default function Dashboard() {
           theme={theme}
           onViewChange={handleViewChange}
           onSearchChange={setSearch}
-          onThemeToggle={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}
+          onThemeToggle={() => {
+            if (!document.startViewTransition) {
+              setTheme(t => t === 'dark' ? 'light' : 'dark');
+              return;
+            }
+            document.startViewTransition(() => {
+              setTheme(t => t === 'dark' ? 'light' : 'dark');
+            });
+          }}
           onMenuToggle={() => setSidebarOpen(o => !o)}
+          onRefresh={() => fetchLog(date)}
           lastUpdated={lastUpdated}
         />
 
@@ -345,23 +376,7 @@ export default function Dashboard() {
                 </h2>
               </div>
 
-              {viewMode === 'grid' ? (
-                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
-                  {sorted.map((ann, i) => (
-                    <div key={ann.url + i + ann.time} style={{ animationDelay: `${Math.min(i * 0.05, 0.5)}s` }} className="animate-fade-in-up">
-                      <AnnouncementCard ann={ann} />
-                    </div>
-                  ))}
-                </div>
-              ) : (
-                <div className="flex flex-col gap-3">
-                  {sorted.map((ann, i) => (
-                    <div key={ann.url + i + ann.time} style={{ animationDelay: `${Math.min(i * 0.03, 0.3)}s` }} className="animate-fade-in-up">
-                      <AnnouncementRow ann={ann} />
-                    </div>
-                  ))}
-                </div>
-              )}
+              {viewMode === 'grid' ? renderedGrid : renderedList}
             </div>
           )}
         </div>

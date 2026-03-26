@@ -8,7 +8,7 @@ Every day, hundreds of companies release official announcements on the stock mar
 
 ---
 
-## 🌟 What This Tool Does For You
+## What This Tool Does For You
 
 1. **Auto-Fetches the News:** It automatically pulls all the latest official announcements from the ASX.
 2. **AI Summaries:** Instead of reading a 50-page PDF, Artificial Intelligence reads it instantly and gives you 3 simple bullet points explaining what happened.
@@ -18,7 +18,7 @@ Every day, hundreds of companies release official announcements on the stock mar
 
 ---
 
-## 🚀 How to Use the Dashboard
+## How to Use the Dashboard
 
 Using the dashboard is as simple as browsing a regular website. 
 
@@ -30,7 +30,7 @@ Using the dashboard is as simple as browsing a regular website.
 
 ---
 
-## 🛠️ How to Start the Dashboard (For Beginners)
+## How to Start the Dashboard (For Beginners)
 
 If you have downloaded this folder to your computer and want to start it up:
 
@@ -46,7 +46,7 @@ If you have downloaded this folder to your computer and want to start it up:
 
 ---
 
-## 📚 For Developers & Technical Users
+## For Developers & Technical Users
 
 If you are a programmer looking to understand how the underlying AI pipeline and Next.js Architecture works, please see our detailed documentation:
 
@@ -54,4 +54,4 @@ If you are a programmer looking to understand how the underlying AI pipeline and
 - [Low-Level Design (LLD)](docs/LLD.md)
 
 ---
-*Created by Tushar Bhardwaj for automated market intelligence.*
+*Created by [Tushar Bhardwaj](https://minianonlink.vercel.app/tusharbhardwaj) for automated market intelligence.*

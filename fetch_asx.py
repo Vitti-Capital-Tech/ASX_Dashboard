@@ -29,7 +29,7 @@ load_dotenv()
 # ─────────────────────────────────────────────────────────────
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-GROQ_MODEL   = "llama-3.3-70b-versatile"
+GROQ_MODELS  = ["llama-3.1-8b-instant", "llama3-8b-8192", "mixtral-8x7b-32768", "gemma2-9b-it"]
 
 AEST = timezone(timedelta(hours=11))
 
@@ -181,7 +181,7 @@ Respond in this exact JSON format (no markdown, no extra text):
 
 
 def summarise_batch(client: Groq, announcements: list[dict], delay: float = 2.1) -> list[dict]:
-    """Summarise announcements one by one with rate-limit delay."""
+    """Summarise announcements one by one with rate-limit fallback across multiple LLMs."""
     total = len(announcements)
     for i, ann in enumerate(announcements, 1):
         print(f"[groq] {i}/{total}  {ann['ticker']} - {ann['headline'][:60]}")
@@ -189,25 +189,32 @@ def summarise_batch(client: Groq, announcements: list[dict], delay: float = 2.1)
             ann["headline"], ann["company"],
             ann["document_type"], ann["market_sensitive"],
         )
-        try:
-            response = client.chat.completions.create(
-                model=GROQ_MODEL,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.3,
-                max_tokens=300,
-            )
-            raw    = response.choices[0].message.content.strip()
-            parsed = json.loads(raw)
-            ann["summary"] = parsed.get("summary", [])
-            ann["tags"]    = parsed.get("tags", [])
-        except json.JSONDecodeError:
-            print(f"[groq] JSON parse error for {ann['ticker']}, using fallback")
+        
+        success = False
+        for model in GROQ_MODELS:
+            try:
+                response = client.chat.completions.create(
+                    model=model,
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=0.3,
+                    max_tokens=300,
+                )
+                raw    = response.choices[0].message.content.strip()
+                parsed = json.loads(raw)
+                ann["summary"] = parsed.get("summary", [])
+                ann["tags"]    = parsed.get("tags", [])
+                success = True
+                break  # Successfully generated, exit the fallback loop
+            except Exception as e:
+                # Print specific error and try the next model silently
+                print(f"[groq] Model {model} failed for {ann['ticker']}: {str(e)[:100]}...")
+                continue
+                
+        if not success:
+            print(f"[groq] CRITICAL: All fallback models failed for {ann['ticker']}, using raw text")
             ann["summary"] = [f"ASX announcement: {ann['headline']}"]
             ann["tags"]    = ["Other"]
-        except Exception as e:
-            print(f"[groq] Error for {ann['ticker']}: {e}")
-            ann["summary"] = [f"ASX announcement: {ann['headline']}"]
-            ann["tags"]    = ["Other"]
+            
         if i < total:
             time.sleep(delay)
     return announcements
@@ -231,9 +238,9 @@ def save_log(date_str: str, announcements: list[dict]) -> Path:
         except Exception as e:
             print(f"[save] Error loading existing log: {e}")
 
-    # Deduplicate based on URL (unique document key)
-    seen_urls = {a["url"] for a in existing_announcements if "url" in a}
-    new_to_add = [a for a in announcements if a["url"] not in seen_urls]
+    # Deduplicate based on composite key (ticker, time, headline) to be absolutely bulletproof
+    seen_keys = {f"{a['ticker']}_{a['time']}_{a['headline']}" for a in existing_announcements}
+    new_to_add = [a for a in announcements if f"{a['ticker']}_{a['time']}_{a['headline']}" not in seen_keys]
     
     combined = existing_announcements + new_to_add
     # Sort by time descending
@@ -263,12 +270,12 @@ def run_process(args):
 
     # 1. Load existing log to find what we already have
     path = LOGS_DIR / f"{args.date}.json"
-    seen_urls = set()
+    seen_keys = set()
     if path.exists():
         try:
             with open(path, "r", encoding="utf-8") as f:
                 old_data = json.load(f)
-                seen_urls = {a["url"] for a in old_data.get("announcements", [])}
+                seen_keys = {f"{a['ticker']}_{a['time']}_{a['headline']}" for a in old_data.get("announcements", [])}
         except: pass
 
     # 2. Fetch latest from ASX
@@ -278,7 +285,7 @@ def run_process(args):
         return
 
     # 3. Filter only NEW announcements
-    new_announcements = [a for a in fetched if a["url"] not in seen_urls]
+    new_announcements = [a for a in fetched if f"{a['ticker']}_{a['time']}_{a['headline']}" not in seen_keys]
     if not new_announcements:
         print("[main] All fetched announcements are already in the log. Skipping AI.")
         return

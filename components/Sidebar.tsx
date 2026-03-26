@@ -38,7 +38,7 @@ export default function Sidebar({
       <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-400 opacity-100 dark:opacity-90 shadow-[0_0_12px_rgba(99,102,241,0.3)] dark:shadow-[0_0_20px_rgba(99,102,241,0.6)]" />
 
       {/* Logo Area */}
-      <div className="px-7 pt-9 pb-7 border-b border-slate-200 dark:border-white/5 relative overflow-hidden transition-colors">
+      <div className="px-7 pt-9 pb-7 border-b border-slate-200 dark:border-white/5 relative overflow-hidden transition-colors flex-shrink-0">
         {/* Decorative background glow */}
         <div className="absolute -top-12 -left-12 w-48 h-48 bg-indigo-500/5 dark:bg-indigo-500/10 rounded-full blur-[50px] pointer-events-none" />
         
@@ -65,7 +65,7 @@ export default function Sidebar({
       </div>
 
       {/* Date picker */}
-      <div className="px-7 py-6 border-b border-slate-200 dark:border-white/5 bg-white dark:bg-white/[0.01] transition-colors">
+      <div className="px-7 py-6 border-b border-slate-200 dark:border-white/5 transition-colors flex-shrink-0">
         <label className="block text-[0.65rem] font-bold uppercase tracking-[0.18em] text-slate-500 mb-2.5">
           Trading Date
         </label>
@@ -79,6 +79,7 @@ export default function Sidebar({
               text-slate-800 dark:text-slate-100 font-mono text-[0.9rem] outline-none shadow-inner
               focus:border-indigo-400 dark:focus:border-indigo-500/70 focus:ring-4 focus:ring-indigo-500/10 dark:focus:ring-indigo-500/15
               hover:border-slate-300 dark:group-hover:border-white/20
+              [color-scheme:light] dark:[color-scheme:dark]
               transition-all duration-200 cursor-pointer"
           />
         </div>
@@ -91,7 +92,7 @@ export default function Sidebar({
       </div>
 
       {/* Daily Stats */}
-      <div className="px-7 py-6 border-b border-slate-200 dark:border-white/5 transition-colors">
+      <div className="px-7 py-6 border-b border-slate-200 dark:border-white/5 transition-colors flex-shrink-0">
         <label className="block text-[0.65rem] font-bold uppercase tracking-[0.18em] text-slate-500 mb-4">
           Market Overview
         </label>
@@ -125,7 +126,7 @@ export default function Sidebar({
       </div>
 
       {/* Toggles & Export */}
-      <div className="px-7 py-6 border-b border-slate-200 dark:border-white/5 flex flex-col gap-6 transition-colors">
+      <div className="px-7 py-6 border-b border-slate-200 dark:border-white/5 flex flex-col gap-6 transition-colors flex-shrink-0">
         <div>
           <label className="block text-[0.65rem] font-bold uppercase tracking-[0.18em] text-slate-500 mb-3">
             Focus Mode
@@ -177,7 +178,7 @@ export default function Sidebar({
       </div>
 
       {/* Tags */}
-      <div className="px-7 py-6">
+      <div className="px-7 py-6 flex-shrink-0">
         <label className="block text-[0.65rem] font-bold uppercase tracking-[0.18em] text-slate-500 mb-3.5 flex items-center justify-between">
           <span>Active Topics</span>
           {activeTags.size > 0 && (

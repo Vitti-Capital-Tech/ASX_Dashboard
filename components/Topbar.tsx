@@ -12,12 +12,13 @@ interface Props {
   onSearchChange: (s: string) => void;
   onThemeToggle: () => void;
   onMenuToggle: () => void;
+  onRefresh: () => void;
   lastUpdated: Date | null;
 }
 
 export default function Topbar({
   dateLabel, viewMode, search, theme,
-  onViewChange, onSearchChange, onThemeToggle, onMenuToggle,
+  onViewChange, onSearchChange, onThemeToggle, onMenuToggle, onRefresh,
   lastUpdated,
 }: Props) {
   const [focused, setFocused] = useState(false);
@@ -77,17 +78,29 @@ export default function Topbar({
       {/* Right Area Controls */}
       <div className="flex items-center gap-3 flex-shrink-0">
         
-        {/* Auto-refresh indicator text */}
-        {lastUpdated && (
-          <div className="hidden md:flex flex-col items-end mr-2">
-            <span className="text-[0.6rem] font-bold uppercase tracking-[0.15em] text-slate-400 dark:text-slate-500">
-              Last Updated
-            </span>
-            <span className="font-mono text-[0.75rem] text-slate-600 dark:text-slate-300 font-medium">
-              {lastUpdated.toLocaleTimeString('en-AU', { hour: '2-digit', minute: '2-digit', hour12: true })}
-            </span>
-          </div>
-        )}
+        {/* Auto-refresh indicator text and button */}
+        <div className="flex items-center gap-1.5 mr-2">
+          {lastUpdated && (
+            <div className="hidden md:flex flex-col items-end mr-1">
+              <span className="text-[0.6rem] font-bold uppercase tracking-[0.15em] text-slate-400 dark:text-slate-500">
+                Last Updated
+              </span>
+              <span className="font-mono text-[0.75rem] text-slate-600 dark:text-slate-300 font-medium">
+                {lastUpdated.toLocaleTimeString('en-AU', { timeZone: 'Australia/Sydney', hour: '2-digit', minute: '2-digit', hour12: true, timeZoneName: 'short' })}
+              </span>
+            </div>
+          )}
+          
+          <button
+            onClick={onRefresh}
+            title="Refresh Data"
+            className="w-8 h-8 flex items-center justify-center rounded-lg text-slate-400 dark:text-slate-500 hover:text-indigo-600 dark:hover:text-indigo-400 hover:bg-slate-100 dark:hover:bg-indigo-500/10 transition-colors"
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="w-[1.1rem] h-[1.1rem]">
+              <path d="M21 2v6h-6M3 12a9 9 0 0 1 15-6.7L21 8M3 22v-6h6M21 12a9 9 0 0 1-15 6.7L3 16" />
+            </svg>
+          </button>
+        </div>
 
         {/* Global Search */}
         <div className="relative flex items-center">
@@ -120,28 +133,7 @@ export default function Topbar({
           )}
         </div>
 
-        {/* Theme Toggle */}
-        <button
-          onClick={onThemeToggle}
-          title={theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
-          className={`w-10 h-10 flex items-center justify-center rounded-xl transition-all duration-300 shadow-inner border
-            ${theme === 'dark'
-              ? 'bg-[#0d1022] text-amber-300 border-white/[0.08] hover:border-amber-500/40 hover:bg-white/5'
-              : 'bg-slate-50 text-indigo-500 border-slate-200 hover:border-indigo-300 hover:bg-white'}`}
-        >
-          {theme === 'dark' ? (
-            // Sun for Dark Mode (to turn on Light mode)
-            <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5">
-              <circle cx="12" cy="12" r="5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-              <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          ) : (
-            // Moon for Light Mode (to turn on Dark mode)
-            <svg viewBox="0 0 24 24" fill="none" className="w-5 h-5">
-              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-          )}
-        </button>
+
 
         {/* Layout View Toggle */}
         <div className={`flex border rounded-xl p-1 gap-1 shadow-inner
