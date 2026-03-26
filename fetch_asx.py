@@ -32,6 +32,7 @@ GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 GROQ_MODELS  = ["llama-3.1-8b-instant", "llama3-8b-8192", "mixtral-8x7b-32768", "gemma2-9b-it"]
 
 AEST = timezone(timedelta(hours=11))
+MARKET_SENSITIVE_ONLY = True  # Only process Alpha news (Price Sensitive, Halts, Placements)
 
 HEADERS = {
     "User-Agent": (
@@ -44,7 +45,7 @@ HEADERS = {
 }
 
 # ASX Market Announcements Platform API
-ASX_JSON_URL = "https://asx.api.markitdigital.com/asx-research/1.0/markets/announcements?entityXids=%5B%5D&page=0&itemsPerPage=200"
+ASX_JSON_URL = "https://asx.api.markitdigital.com/asx-research/1.0/markets/announcements?entityXids=%5B%5D&page=0&itemsPerPage=500"
 ASX_PDF_URL_BASE = "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/"
 
 KNOWN_TAGS = [
@@ -92,6 +93,16 @@ def fetch_announcements(date_str: str, retries: int = 3) -> list[dict]:
                 if dt_aest.strftime("%Y-%m-%d") != date_str:
                     continue
                 
+                market_sensitive = bool(item.get("isPriceSensitive", False))
+                headline = item.get("headline", "").strip()
+                
+                # ─── NOISE FILTER ───
+                # If True, skip all Admin noise (Director listings, minor Appendix updates, etc.)
+                if MARKET_SENSITIVE_ONLY:
+                    is_halt = "trading halt" in headline.lower() or "suspension" in headline.lower()
+                    if not (market_sensitive or is_halt):
+                        continue
+
                 ticker = item.get("symbol", "")
                 company = ticker
                 company_info = item.get("companyInfo", [])
@@ -207,7 +218,8 @@ def summarise_batch(client: Groq, announcements: list[dict], delay: float = 2.1)
                 break  # Successfully generated, exit the fallback loop
             except Exception as e:
                 # Print specific error and try the next model silently
-                print(f"[groq] Model {model} failed for {ann['ticker']}: {str(e)[:100]}...")
+                e_str = f"{e}"
+                print(f"[groq] Model {model} failed for {ann['ticker']}: {e_str[:100]}...")
                 continue
                 
         if not success:
