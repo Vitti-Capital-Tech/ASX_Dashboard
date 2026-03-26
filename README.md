@@ -26,7 +26,6 @@ Using the dashboard is as simple as browsing a regular website.
 2. **Pick a Date:** On the left side, choose the date you want to look at. The dashboard updates automatically.
 3. **Focus Mode:** If you only want to see the most important, price-moving news, flip the **"Market Sensitive"** switch on the left. All the boring stuff will disappear!
 4. **Search:** Need to find news about a specific company (like BHP)? Just type "BHP" into the search bar at the top right.
-5. **Theme Toggle:** Click the ☀️ / 🌙 icon at the top right to switch between the sleek dark theme ("Midnight Intelligence") and the bright, readable light theme ("Crisp Light").
 
 ---
 
