@@ -1,9 +1,45 @@
 {
   "date": "2026-03-27",
-  "total": 52,
-  "market_sensitive_count": 52,
-  "generated_at": "2026-03-26T23:23:13.347114+00:00",
+  "total": 54,
+  "market_sensitive_count": 54,
+  "generated_at": "2026-03-27T00:00:58.869762+00:00",
   "announcements": [
+    {
+      "ticker": "AGI",
+      "company": "AINSWORTH GAME TECHNOLOGY LIMITED",
+      "headline": "Bidder's Statement",
+      "time": "2026-03-26T23:57:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03072897-2A1662786",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The announcement is related to a bidder's statement, which is typically made by a company or entity that is making a takeover bid.",
+        "- The statement may provide details about the bidder's intentions, the terms of the offer, and the reasons for the bid.",
+        "- The announcement may also include information about the bidder's background, their financial position, and their plans for the target company."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "REV",
+      "company": "REVOLUTION PRIVATE CREDIT INCOME TRUST",
+      "headline": "Dividend/Distribution - REV",
+      "time": "2026-03-26T23:50:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03072894-3A690321",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "- The announcement is related to a dividend or distribution made by Revolution Private Credit Income Trust.",
+        "- The announcement may include details about the dividend amount, payment date, and any changes to the dividend policy.",
+        "- The announcement may also provide information about the ex-dividend date, record date, and any other relevant dates."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ]
+    },
     {
       "ticker": "LDX",
       "company": "LUMOS DIAGNOSTICS HOLDINGS LIMITED",
