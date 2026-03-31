@@ -1,9 +1,46 @@
 {
   "date": "2026-03-31",
-  "total": 161,
-  "market_sensitive_count": 117,
-  "generated_at": "2026-03-31T07:58:58.240538+00:00",
+  "total": 163,
+  "market_sensitive_count": 119,
+  "generated_at": "2026-03-31T08:40:52.169257+00:00",
   "announcements": [
+    {
+      "ticker": "A20",
+      "company": "BETASHARES AUSTRALIA 200 ETF",
+      "headline": "Final Distribution Announcement",
+      "time": "2026-03-31T08:19:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074356-2A1663555",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The announcement is related to the final distribution of the BETASHARES AUSTRALIA 200 ETF.",
+        "- The distribution amount and payment date are likely to be disclosed.",
+        "- The announcement may also provide information on the distribution frequency and any changes to the ETF's distribution policy."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "KOR",
+      "company": "KORAB RESOURCES LIMITED",
+      "headline": "Sale of Geolsec Mineral Lease - Update",
+      "time": "2026-03-31T08:05:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074345-6A1318843",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Update on the sale of Geolsec Mineral Lease",
+        "- Details of the sale agreement and terms",
+        "- Potential impact on KORAB RESOURCES LIMITED's operations and financials"
+      ],
+      "tags": [
+        "Mining",
+        "Finance",
+        "Compliance"
+      ]
+    },
     {
       "ticker": "AAA",
       "company": "BETASHARES AUSTRALIAN HIGH INTEREST CASH ETF",
