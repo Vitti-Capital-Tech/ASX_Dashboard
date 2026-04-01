@@ -1,9 +1,54 @@
 {
   "date": "2026-04-02",
-  "total": 81,
-  "market_sensitive_count": 70,
-  "generated_at": "2026-04-01T23:19:41.900723+00:00",
+  "total": 84,
+  "market_sensitive_count": 72,
+  "generated_at": "2026-04-01T23:38:30.406078+00:00",
   "announcements": [
+    {
+      "ticker": "ETM",
+      "company": "ENERGY TRANSITION MINERALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-04-01T23:30:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075218-6A1319185",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "ASX announcement: Trading Halt"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "ticker": "GDI",
+      "company": "GDI PROPERTY GROUP",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-01T23:22:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075211-2A1664128",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "ASX announcement: Becoming a substantial holder"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "ticker": "WMX",
+      "company": "WAM INCOME MAXIMISER LIMITED",
+      "headline": "Dividend/Distribution - WMX",
+      "time": "2026-04-01T23:18:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075209-2A1664127",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "ASX announcement: Dividend/Distribution - WMX"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
     {
       "ticker": "NHE",
       "company": "NOBLE HELIUM LIMITED",
