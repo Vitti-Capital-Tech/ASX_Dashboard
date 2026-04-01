@@ -1,9 +1,39 @@
 {
   "date": "2026-04-02",
-  "total": 84,
-  "market_sensitive_count": 72,
-  "generated_at": "2026-04-01T23:38:30.406078+00:00",
+  "total": 86,
+  "market_sensitive_count": 74,
+  "generated_at": "2026-04-01T23:54:19.074817+00:00",
   "announcements": [
+    {
+      "ticker": "LGM",
+      "company": "LEGACY MINERALS HOLDINGS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-01T23:40:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075223-2A1664134",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "ASX announcement: Trading Halt"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "ticker": "WMX",
+      "company": "WAM INCOME MAXIMISER LIMITED",
+      "headline": "WMX increases mthly FF divs and exceeds target income return",
+      "time": "2026-04-01T23:40:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075222-2A1664133",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX announcement: WMX increases mthly FF divs and exceeds target income return"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
     {
       "ticker": "ETM",
       "company": "ENERGY TRANSITION MINERALS LTD",
