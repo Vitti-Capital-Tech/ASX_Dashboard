@@ -1,9 +1,45 @@
 {
   "date": "2026-04-01",
-  "total": 123,
+  "total": 125,
   "market_sensitive_count": 94,
-  "generated_at": "2026-04-01T06:15:43.724574+00:00",
+  "generated_at": "2026-04-01T06:19:03.559051+00:00",
   "announcements": [
+    {
+      "ticker": "MND",
+      "company": "MONADELPHOUS GROUP LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-01T06:15:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074868-6A1319046",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- An investor or entity has made a change to their holdings in Monadelphous Group Limited.",
+        "- The change in substantial holding may involve an increase or decrease in the percentage of shares held.",
+        "- The announcement is related to the disclosure of a substantial holding under the Corporations Act 2001."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "IFL",
+      "company": "INSIGNIA FINANCIAL LTD",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-01T06:14:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074867-3A690651",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- A substantial shareholder of Insignia Financial Ltd has increased their stake in the company.",
+        "- The shareholder's new holding percentage exceeds the threshold for a substantial holder.",
+        "- The announcement discloses the shareholder's name, holding percentage, and number of shares."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
     {
       "ticker": "MFG",
       "company": "MAGELLAN FINANCIAL GROUP LIMITED",
