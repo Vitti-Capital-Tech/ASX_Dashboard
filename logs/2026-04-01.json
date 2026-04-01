@@ -1,9 +1,547 @@
 {
   "date": "2026-04-01",
-  "total": 93,
-  "market_sensitive_count": 85,
-  "generated_at": "2026-04-01T00:08:33.919060+00:00",
+  "total": 123,
+  "market_sensitive_count": 94,
+  "generated_at": "2026-04-01T06:15:43.724574+00:00",
   "announcements": [
+    {
+      "ticker": "MFG",
+      "company": "MAGELLAN FINANCIAL GROUP LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-01T06:12:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074866-2A1663915",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- A substantial shareholder has made a change to their holding in Magellan Financial Group Limited.",
+        "- The change may involve an increase or decrease in the percentage of shares held by the substantial shareholder.",
+        "- The announcement may provide details of the new holding percentage and the date of the change."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "ELV",
+      "company": "ELEVRA LITHIUM LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-01T06:09:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074865-2A1663914",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company, ELEVRA LITHIUM LIMITED, has become a substantial holder of shares.",
+        "- The substantial holding announcement may relate to a new or existing significant shareholder.",
+        "- The announcement may provide details on the number of shares held and the percentage of ownership."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "BRG",
+      "company": "BREVILLE GROUP LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-01T06:05:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074863-2A1663913",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The Breville Group Limited has ceased to be a substantial holder.",
+        "- A substantial holder is an individual or entity that holds more than 5% of a company's shares.",
+        "- This announcement is not market sensitive, indicating it does not have a significant impact on the company's share price."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ]
+    },
+    {
+      "ticker": "FID",
+      "company": "FIDUCIAN GROUP LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-01T06:02:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074857-2A1663908",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "- The company's shares have been halted from trading.",
+        "- The halt is likely due to a significant event that requires immediate attention.",
+        "- The announcement may provide details about the reason for the trading halt."
+      ],
+      "tags": [
+        "Trading Halt"
+      ]
+    },
+    {
+      "ticker": "ELV",
+      "company": "ELEVRA LITHIUM LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-01T05:54:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074853-2A1663906",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company has received a substantial holding notice from a shareholder.",
+        "- The shareholder's holdings in the company have exceeded a certain threshold.",
+        "- The announcement provides details about the shareholder's identity and holdings."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "HCW",
+      "company": "HEALTHCO HEALTHCARE AND WELLNESS REIT",
+      "headline": "Healthscope Update",
+      "time": "2026-04-01T05:48:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074850-2A1663905",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Update on Healthscope's current status, operations, or performance.",
+        "- Possible changes or developments related to Healthscope's healthcare business.",
+        "- Disclosure of new information or guidance affecting Healthscope's future prospects."
+      ],
+      "tags": [
+        "Healthcare",
+        "Property",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "CXU",
+      "company": "CAULDRON ENERGY LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-04-01T05:46:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074844-6A1319041",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Explanation of the reason behind the ASX price query.",
+        "- Clarification on any price movements or fluctuations related to Cauldron Energy Limited.",
+        "- Discussion on potential price volatility or market impact."
+      ],
+      "tags": [
+        "Energy",
+        "Finance",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "CBE",
+      "company": "COBRE LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-01T05:45:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074839-2A1663887",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a change in a substantial holding of Cobre Limited shares.",
+        "- A substantial holding refers to a holding of 5% or more of the company's shares.",
+        "- The announcement may disclose the name of the entity that has acquired or disposed of the substantial holding."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "NHF",
+      "company": "NIB HOLDINGS LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-01T05:41:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074835-2A1663879",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company, NIB HOLDINGS LIMITED, is ceasing to be a substantial holder.",
+        "- This announcement is related to the company's shareholding status.",
+        "- The substantial holding document type suggests that the announcement is about the company's share ownership."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "AUB",
+      "company": "AUB GROUP LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-01T05:40:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074833-2A1663877",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- A change in the substantial holding of AUB Group Limited has been reported.",
+        "- This announcement may involve a change in the number of shares held by a substantial holder.",
+        "- The substantial holder's details, such as name, percentage of shares held, and number of shares acquired or disposed of, may be disclosed."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ]
+    },
+    {
+      "ticker": "EQT",
+      "company": "EQT HOLDINGS LIMITED",
+      "headline": "Ceasing to be a substantial holder from PPT",
+      "time": "2026-04-01T05:40:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074832-3A690646",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- EQT Holdings Limited is ceasing to be a substantial holder of PPT.",
+        "- This announcement is related to EQT Holdings' shareholding position in PPT.",
+        "- The company's substantial holding status in PPT is being updated."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ]
+    },
+    {
+      "ticker": "NUF",
+      "company": "NUFARM LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-01T05:38:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074829-3A690645",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company, NuFarm Limited, has become a substantial holder of its own shares.",
+        "- The announcement is related to the company's shareholding structure.",
+        "- The substantial holding may be due to a change in share ownership or a new significant investor."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "PPM",
+      "company": "PEPPER MONEY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-01T05:30:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074825-2A1663873",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a change in the substantial holding of PEPPER MONEY LIMITED.",
+        "- A substantial holding is typically a significant stake in a company, so this announcement may cover a change in ownership or a significant increase/decrease in shares held by an entity.",
+        "- The announcement may provide details on the entity that has made the change, the number of shares involved, and the percentage of the company's shares that the entity now holds."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "KIT",
+      "company": "KAPSTREAM INVESTMENT TRUST",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-01T05:24:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074820-3A690642",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The KAPSTREAM INVESTMENT TRUST has become a substantial holder of the company's shares.",
+        "- The announcement likely discloses the number of shares held by the substantial holder.",
+        "- The substantial holder's identity and any relevant details may be disclosed in the announcement."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "TZL",
+      "company": "TZ LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-01T05:12:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074813-2A1663869",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a change in the substantial holding of TZ LIMITED.",
+        "- A substantial holding refers to a significant stake in the company's shares, typically held by an individual or entity.",
+        "- The announcement may disclose the name of the entity or individual that has acquired or disposed of the shares, and the percentage of shares they now hold."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ]
+    },
+    {
+      "ticker": "3PL",
+      "company": "3P LEARNING LIMITED..",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-01T05:08:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074809-2A1663867",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a change in the substantial holding of 3P LEARNING LIMITED.",
+        "- A substantial holding refers to a significant stake in the company's shares held by an individual or entity.",
+        "- The announcement may disclose the name of the entity or individual that has made the change in their substantial holding."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "SIQ",
+      "company": "SMARTGROUP CORPORATION LTD",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-01T05:03:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074806-2A1663866",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company has received a substantial holding notice.",
+        "- The notice is related to a significant shareholding in SMARTGROUP CORPORATION LTD.",
+        "- The announcement details the percentage of shares held by the substantial holder."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ]
+    },
+    {
+      "ticker": "DOW",
+      "company": "DOWNER EDI LIMITED",
+      "headline": "Ceasing to be a substantial holder from MQG",
+      "time": "2026-04-01T05:01:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074804-2A1663864",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- Downer EDI Limited is ceasing to be a substantial holder of MQG.",
+        "- The substantial holding threshold has been met or breached, triggering this announcement.",
+        "- The announcement is related to a change in Downer EDI Limited's shareholding in MQG."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "FID",
+      "company": "FIDUCIAN GROUP LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-04-01T04:50:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074802-2A1663861",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company has paused trading, indicating a potential issue or concern.",
+        "- The pause in trading may be due to a market-sensitive matter requiring immediate attention.",
+        "- The announcement may provide details on the reason for the trading pause and any subsequent actions."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "MP1",
+      "company": "MP1",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-01T04:10:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074789-2A1663854",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company, MP1, is ceasing to be a substantial holder.",
+        "- A substantial holder is an individual or entity that holds a significant amount of shares in the company.",
+        "- This announcement may provide information on the percentage of shares held by the substantial holder and the reason for ceasing to be a substantial holder."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "ALD",
+      "company": "ALD",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-01T04:08:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074786-2A1663850",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company, ALD, is ceasing to be a substantial holder.",
+        "- This announcement is related to the company's shareholding status.",
+        "- The document type, Substantial Holding, indicates that the announcement is about the company's shareholding position."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "PXA",
+      "company": "PXA",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-04-01T03:51:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074778-3A690632",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- PXA's response to an ASX price query is likely to address any discrepancies or concerns regarding the company's stock price.",
+        "- The announcement may provide clarification on the factors influencing PXA's stock price movement.",
+        "- PXA may also address any potential price queries or allegations made by investors or the ASX.",
+        "- The announcement could include information on any actions taken by the company to rectify any price-related issues."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "ACF",
+      "company": "ACF",
+      "headline": "ACF confirms FY26 guidance & provides initial FY27 guidance",
+      "time": "2026-04-01T02:29:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074737-6A1319014",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- ACF confirms its financial guidance for FY26.",
+        "- The company provides initial guidance for FY27.",
+        "- The announcement may include details on ACF's expected performance, revenue, or earnings for FY26 and FY27."
+      ],
+      "tags": [
+        "Finance",
+        "Results"
+      ]
+    },
+    {
+      "ticker": "DME",
+      "company": "DME",
+      "headline": "Convertible Notes",
+      "time": "2026-04-01T01:50:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074725-2A1663815",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, DME, is issuing convertible notes.",
+        "- The convertible notes may be used for capital raising purposes.",
+        "- The announcement is market sensitive, indicating potential material impact on the company's share price."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "KAT",
+      "company": "KAT",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-01T01:21:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074715-6A1319009",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a change in the substantial holding of KAT shares.",
+        "- A substantial holding refers to a significant stake in the company held by an individual or entity.",
+        "- The announcement may disclose the name of the individual or entity that has made the change in their holding."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "MGT",
+      "company": "MGT",
+      "headline": "Security Class Reinstatement to Quotation - MGTOG",
+      "time": "2026-04-01T00:58:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074697-6A1319000",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company MGT has had its security class reinstated to quotation.",
+        "- The reinstatement is related to the MGTOG security class.",
+        "- This announcement is market sensitive and may have a significant impact on the market."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "EIG",
+      "company": "EIG",
+      "headline": "EIGA Estimated Distribution March 2026",
+      "time": "2026-04-01T00:41:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074690-2A1663801",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- EIGA is expected to announce its estimated distribution for March 2026.",
+        "- The announcement is likely related to the company's distribution forecast.",
+        "- The estimated distribution may have implications for EIGA's future financial performance."
+      ],
+      "tags": [
+        "Finance",
+        "Results"
+      ]
+    },
+    {
+      "ticker": "VNT",
+      "company": "VNT",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-01T00:34:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074688-2A1663800",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company, VNT, has reached a substantial holding threshold.",
+        "- A substantial holder has been identified.",
+        "- The announcement is likely to disclose the details of the substantial holder's interest in the company."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ]
+    },
+    {
+      "ticker": "OML",
+      "company": "OML",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-01T00:29:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074685-2A1663798",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a change in the substantial holding of OML shares.",
+        "- A substantial holding is defined as a holding of 5% or more of the company's shares.",
+        "- The announcement may disclose the name and percentage of shares held by the new substantial holder."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Compliance",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "FRS",
+      "company": "FRS",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-01T00:19:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074677-6A1318994",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company, FRS, is ceasing to be a substantial holder.",
+        "- A substantial holder is an individual or entity that holds a significant percentage of a company's shares.",
+        "- This announcement may indicate a change in share ownership or a sale of shares by a substantial holder."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ]
+    },
     {
       "ticker": "BDM",
       "company": "BURGUNDY DIAMOND MINES LIMITED",
