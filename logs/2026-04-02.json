@@ -1,9 +1,137 @@
 {
   "date": "2026-04-02",
-  "total": 137,
-  "market_sensitive_count": 93,
-  "generated_at": "2026-04-02T06:01:06.808835+00:00",
+  "total": 144,
+  "market_sensitive_count": 96,
+  "generated_at": "2026-04-02T06:18:11.714481+00:00",
   "announcements": [
+    {
+      "ticker": "PEN",
+      "company": "PENINSULA ENERGY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-02T06:16:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075535-6A1319263",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a change in the substantial holding of Peninsula Energy Limited.",
+        "- A substantial holding refers to a change in the shareholding of a company that exceeds a certain threshold, typically 5%.",
+        "- The announcement may disclose the name of the entity that has made the substantial holding change and the number of shares involved."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "DN1",
+      "company": "DOMINION INCOME TRUST 1",
+      "headline": "Dividend/Distribution - DN1",
+      "time": "2026-04-02T06:16:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075534-2A1664402",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "- The announcement is related to a dividend or distribution made by Dominion Income Trust 1.",
+        "- The dividend or distribution amount and payment details are likely to be disclosed.",
+        "- The announcement may include information on the ex-dividend date, record date, and payment date."
+      ],
+      "tags": [
+        "Dividend"
+      ]
+    },
+    {
+      "ticker": "BMN",
+      "company": "BANNERMAN ENERGY LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-02T06:14:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075530-6A1319262",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a change in the substantial holding of Bannerman Energy Ltd.",
+        "- A substantial holding refers to a significant shareholding in the company, typically exceeding 5%.",
+        "- The announcement may disclose the name of the entity that has acquired or disposed of the shares, and the number of shares involved."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "CAZ",
+      "company": "CAZALY RESOURCES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-02T06:09:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075526-6A1319260",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- A substantial holding has been reported in CAZALY RESOURCES LIMITED, indicating a significant change in share ownership.",
+        "- The announcement may relate to a change in the percentage of shares held by a substantial holder, such as an individual or institution.",
+        "- The substantial holding may be a result of buying or selling shares, and the announcement will provide details of the change."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Compliance",
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "1AI",
+      "company": "ALGORAE PHARMACEUTICALS LIMITED",
+      "headline": "Algorae Pharmaceuticals Ltd Raises $3.9m",
+      "time": "2026-04-02T06:08:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075524-2A1664399",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Algorae Pharmaceuticals Ltd has successfully raised $3.9 million through a capital raise.",
+        "- The announcement is market sensitive, indicating that the information may impact the company's stock price.",
+        "- The details of the capital raise, including the purpose and terms, are likely to be disclosed in the market update."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "WOR",
+      "company": "WORLEY LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-02T06:06:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075519-2A1664395",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a substantial holding in WORLEY LIMITED.",
+        "- A substantial holder has acquired or disposed of a significant number of shares in the company.",
+        "- The announcement may include details about the substantial holder's identity, the number of shares involved, and the date of the transaction."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "MTC",
+      "company": "METALSTECH LIMITED",
+      "headline": "Receipt of Notices under Sections 203D and 249D",
+      "time": "2026-04-02T06:04:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075509-6A1319246",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, Metalstech Limited, has received notices under Sections 203D and 249D, indicating potential regulatory scrutiny.",
+        "- These notices may relate to the company's compliance with ASX listing rules or corporate governance requirements.",
+        "- The announcement may provide details on the company's response to the notices and any associated actions or timelines."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ]
+    },
     {
       "ticker": "JNS",
       "company": "JANUS ELECTRIC HOLDINGS LIMITED",
