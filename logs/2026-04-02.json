@@ -1,9 +1,138 @@
 {
   "date": "2026-04-02",
-  "total": 144,
-  "market_sensitive_count": 96,
-  "generated_at": "2026-04-02T06:18:11.714481+00:00",
+  "total": 151,
+  "market_sensitive_count": 98,
+  "generated_at": "2026-04-02T06:56:31.617781+00:00",
   "announcements": [
+    {
+      "ticker": "RCA",
+      "company": "RESOLUTION CAP GLOBAL PROP SEC FUND - ACTIVE ETF",
+      "headline": "Final Distribution Details",
+      "time": "2026-04-02T06:54:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075579-2A1664439",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Details of the final distribution amount per unit.",
+        "- Date of the final distribution payment.",
+        "- Any changes to the distribution frequency or payment schedule.",
+        "- Information about the distribution type (e.g. income, capital, or a combination of both)."
+      ],
+      "tags": [
+        "Finance",
+        "Dividend",
+        "Results"
+      ]
+    },
+    {
+      "ticker": "MCE",
+      "company": "MATRIX COMPOSITES & ENGINEERING LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-02T06:52:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075578-6A1319285",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a change in the substantial holding of MATRIX COMPOSITES & ENGINEERING LIMITED.",
+        "- This change may involve a significant increase or decrease in the percentage of shares held by a particular entity or individual.",
+        "- The announcement is likely to provide details about the entity or individual involved in the change and the new percentage of shares held."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "AXI",
+      "company": "AXTEC LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-02T06:50:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075575-2A1664438",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement likely relates to a change in the substantial holding of AXTec Limited's shares.",
+        "- This change may involve a significant increase or decrease in the percentage of shares held by an individual or entity.",
+        "- The announcement may provide details on the new substantial holder, their percentage of shares, and any relevant dates."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "NEC",
+      "company": "NINE ENTERTAINMENT CO. HOLDINGS LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-02T06:47:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075573-2A1664436",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company, NINE ENTERTAINMENT CO. HOLDINGS LIMITED, has made a substantial holding announcement.",
+        "- This announcement is related to a change in the company's substantial holding status.",
+        "- The announcement is likely to disclose information about the entity that has ceased to be a substantial holder."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "TNE",
+      "company": "TECHNOLOGY ONE LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-02T06:45:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075572-2A1664435",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- A substantial shareholder has made a change to their holdings in TECHNOLOGY ONE LIMITED.",
+        "- The change may involve an increase or decrease in the percentage of shares held by the substantial shareholder.",
+        "- The announcement may include details of the substantial shareholder's new holding percentage."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance",
+        "Technology"
+      ]
+    },
+    {
+      "ticker": "TOE",
+      "company": "TORO ENERGY LIMITED",
+      "headline": "Update on IsoEnergy acquisition of Toro",
+      "time": "2026-04-02T06:22:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075544-6A1319265",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "- The announcement is related to the IsoEnergy acquisition of Toro Energy Limited.",
+        "- The acquisition may involve terms such as purchase price, conditions, and timeline.",
+        "- The announcement may provide information on the impact of the acquisition on Toro Energy's operations and shareholders."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "TWE",
+      "company": "TREASURY WINE ESTATES LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-02T06:18:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075538-3A690771",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- A substantial shareholder of Treasury Wine Estates Limited has made a significant shareholding disclosure.",
+        "- The announcement may detail the number of shares held by the substantial shareholder.",
+        "- The shareholder's percentage of ownership in the company may be disclosed."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
     {
       "ticker": "PEN",
       "company": "PENINSULA ENERGY LIMITED",
