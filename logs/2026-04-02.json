@@ -1,9 +1,54 @@
 {
   "date": "2026-04-02",
-  "total": 108,
-  "market_sensitive_count": 88,
-  "generated_at": "2026-04-02T04:00:51.830659+00:00",
+  "total": 111,
+  "market_sensitive_count": 89,
+  "generated_at": "2026-04-02T04:50:51.547334+00:00",
   "announcements": [
+    {
+      "ticker": "BBC",
+      "company": "BNK BANKING CORPORATION LIMITED",
+      "headline": "CEO Transition",
+      "time": "2026-04-02T04:42:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075380-6A1319227",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX announcement: CEO Transition"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "ticker": "PNR",
+      "company": "PANTORO GOLD LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-02T04:13:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075361-6A1319225",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "ASX announcement: Change in substantial holding"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "ticker": "EOS",
+      "company": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-02T04:09:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075360-2A1664226",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "ASX announcement: Ceasing to be a substantial holder"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
     {
       "ticker": "CVV",
       "company": "CARAVEL MINERALS LIMITED",
