@@ -1,9 +1,144 @@
 {
   "date": "2026-04-02",
-  "total": 93,
-  "market_sensitive_count": 78,
-  "generated_at": "2026-04-02T01:40:20.852286+00:00",
+  "total": 102,
+  "market_sensitive_count": 83,
+  "generated_at": "2026-04-02T02:36:23.093805+00:00",
   "announcements": [
+    {
+      "ticker": "ARL",
+      "company": "ARDEA RESOURCES LIMITED",
+      "headline": "Successful $340k received from SPP following $5m Placement",
+      "time": "2026-04-02T02:30:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075311-6A1319206",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "ASX announcement: Successful $340k received from SPP following $5m Placement"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "ticker": "EQR",
+      "company": "EQ RESOURCES LIMITED",
+      "headline": "Notice of Change of Interests of Substantial Holder",
+      "time": "2026-04-02T02:28:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075310-2A1664200",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "ASX announcement: Notice of Change of Interests of Substantial Holder"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "ticker": "ID8",
+      "company": "IDENTITII LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-02T02:28:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075309-2A1664201",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "ASX announcement: Becoming a substantial holder"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "ticker": "ESK",
+      "company": "ETHERSTACK PLC",
+      "headline": "Australian Government Contract Award ($9m)",
+      "time": "2026-04-02T02:04:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075303-2A1664191",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX announcement: Australian Government Contract Award ($9m)"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "ticker": "EE1",
+      "company": "EARTHS ENERGY LIMITED",
+      "headline": "Response to ASX Query Letter",
+      "time": "2026-04-02T01:56:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075301-6A1319202",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX announcement: Response to ASX Query Letter"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "ticker": "ERL",
+      "company": "EMPIRE RESOURCES LIMITED",
+      "headline": "Yuinmery RC Drilling Program Commencing 7 April 2026",
+      "time": "2026-04-02T01:56:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075300-6A1319201",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX announcement: Yuinmery RC Drilling Program Commencing 7 April 2026"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "ticker": "AR1",
+      "company": "AUSTRAL RESOURCES AUSTRALIA LTD",
+      "headline": "Notice of change of interests of substantial holder",
+      "time": "2026-04-02T01:54:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075299-2A1664190",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "ASX announcement: Notice of change of interests of substantial holder"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "ticker": "ORA",
+      "company": "ORORA LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-02T01:46:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075296-3A690739",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "ASX announcement: Change in substantial holding"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
+    {
+      "ticker": "JEP",
+      "company": "JPMORGAN EQUITY PREMIUM INCOME (HEDGED) ACTIVE ETF",
+      "headline": "Distribution Notice",
+      "time": "2026-04-02T01:44:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075295-2A1664185",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX announcement: Distribution Notice"
+      ],
+      "tags": [
+        "Other"
+      ]
+    },
     {
       "ticker": "KOA",
       "company": "THE KOALA COMPANY LIMITED",
