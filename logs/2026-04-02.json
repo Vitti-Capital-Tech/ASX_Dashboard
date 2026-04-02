@@ -1,9 +1,64 @@
 {
   "date": "2026-04-02",
-  "total": 156,
-  "market_sensitive_count": 99,
-  "generated_at": "2026-04-02T07:54:47.382553+00:00",
+  "total": 159,
+  "market_sensitive_count": 101,
+  "generated_at": "2026-04-02T08:15:47.595376+00:00",
   "announcements": [
+    {
+      "ticker": "GSB",
+      "company": "COMMONWEALTH OF AUSTRALIA.",
+      "headline": "Suspension and removal from official quotation",
+      "time": "2026-04-02T08:03:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075621-2A1664454",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The Commonwealth of Australia has been suspended from official quotation.",
+        "- The suspension is likely due to a significant event or issue affecting the company.",
+        "- The removal from official quotation may be a result of the suspension or a separate action."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "KLS",
+      "company": "KELSIAN GROUP LIMITED",
+      "headline": "Award Liverpool Contracts",
+      "time": "2026-04-02T08:00:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075619-2A1664452",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Kelsian Group Limited has secured new contracts in Liverpool.",
+        "- The contracts are likely related to transportation or logistics services.",
+        "- The announcement may provide details on the value, duration, or scope of the contracts."
+      ],
+      "tags": [
+        "Finance",
+        "Transportation"
+      ]
+    },
+    {
+      "ticker": "KIT",
+      "company": "KAPSTREAM INVESTMENT TRUST",
+      "headline": "Becoming a substantial holder from HUB",
+      "time": "2026-04-02T07:54:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075615-3A690782",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- KAPSTREAM INVESTMENT TRUST has become a substantial holder of the company.",
+        "- The substantial holder is HUB.",
+        "- The announcement is not market sensitive, indicating that it does not have a significant impact on the company's share price or trading.",
+        "- The announcement may provide information about the substantial holder's stake in the company, including the number of shares held and the percentage of ownership."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
     {
       "ticker": "NHF",
       "company": "NIB HOLDINGS LIMITED",
