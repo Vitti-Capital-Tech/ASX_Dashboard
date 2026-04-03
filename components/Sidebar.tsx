@@ -203,7 +203,7 @@ export default function Sidebar({
           <select
             value={date}
             onChange={e => onDateChange(e.target.value)}
-            className="w-full px-4 py-2.5 rounded-xl font-mono text-[0.875rem] outline-none cursor-pointer appearance-none transition-all"
+            className="w-full pl-3 pr-9 py-2.5 rounded-xl font-mono text-[0.8rem] outline-none cursor-pointer appearance-none transition-all truncate"
             style={{
               background: 'var(--border-subtle)',
               border: '1px solid var(--border-med)',
@@ -218,7 +218,7 @@ export default function Sidebar({
               <option key={d} value={d} style={{ background: 'var(--bg-sidebar)', color: 'var(--text-primary)' }}>{formatDateLabel(d)}</option>
             ))}
           </select>
-          <div className="absolute right-3.5 top-1/2 -translate-y-1/2 pointer-events-none text-slate-500 group-hover:text-indigo-400 transition-colors">
+          <div className="absolute right-3.5 top-1/2 -translate-y-1/2 pointer-events-none text-slate-400 group-hover:text-indigo-400 transition-colors">
             <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5">
               <path d="M4 6l4 4 4-4"/>
             </svg>

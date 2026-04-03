@@ -15,7 +15,7 @@ export function formatDateLabel(dateStr: string): string {
   try {
     const d = new Date(dateStr + 'T00:00:00');
     return d.toLocaleDateString('en-AU', {
-      weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
+      weekday: 'short', day: 'numeric', month: 'short', year: 'numeric',
       timeZone: 'Australia/Sydney'
     });
   } catch { return dateStr; }
