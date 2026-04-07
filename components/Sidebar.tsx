@@ -1,7 +1,7 @@
 'use client';
 
 import { DayLog } from '@/types';
-import { formatDateLabel, isBullish } from '@/lib/utils';
+import { formatDateLabel, getSentiment } from '@/lib/utils';
 import { useState, useEffect } from 'react';
 
 interface Props {
@@ -34,7 +34,9 @@ export default function Sidebar({
            a.tags.some(tag => ['halt', 'suspension', 'pause'].some(k => tag.toLowerCase().includes(k)));
   }).length ?? 0;
 
-  const bullishCount = log?.announcements.filter(a => isBullish(a)).length ?? 0;
+  const bullishCount = log?.announcements.filter(a => getSentiment(a) === 'bullish').length ?? 0;
+  const bearishCount = log?.announcements.filter(a => getSentiment(a) === 'bearish').length ?? 0;
+  const neutralCount = log?.announcements.filter(a => getSentiment(a) === 'neutral').length ?? 0;
 
   const substantialCount = log?.announcements.filter(a =>
     a.tags?.some(t => t.toLowerCase().includes('substantial')) ||
@@ -79,6 +81,24 @@ export default function Sidebar({
         <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><path d="M2.5 13.5l4-4 3 3 7.5-7.5M17 5v5m0-5h-5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
       ),
       color: 'emerald',
+    },
+    {
+      label: 'Bearish Signals',
+      value: bearishCount,
+      sub: 'downside risk',
+      icon: (
+        <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><path d="M17.5 6.5l-4 4-3-3-7.5 7.5M2.5 15v-5m0 5h5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
+      ),
+      color: 'fuchsia',
+    },
+    {
+      label: 'Neutral',
+      value: neutralCount,
+      sub: 'balanced / procedural',
+      icon: (
+        <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><path d="M4 10h12" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg>
+      ),
+      color: 'slate',
     },
     {
       label: 'Active Tickers',
@@ -240,30 +260,40 @@ export default function Sidebar({
           Market Overview
         </label>
         <div className="grid grid-cols-2 gap-2.5">
-          {stats.map(({ label, value, sub, icon, color }) => (
+          {stats.map(({ label, value, sub, icon, color }) => {
+            const cssVar = (
+              color === 'indigo' || color === 'blue' ? 'accent'
+              : color === 'emerald' ? 'success'
+              : color === 'rose' || color === 'fuchsia' ? 'danger'
+              : color === 'amber' ? 'warning'
+              : color === 'slate' ? 'text-dim'
+              : 'accent'
+            );
+            return (
               <div key={label}
                 className={`relative rounded-[14px] p-3.5 border group cursor-default overflow-hidden hover:-translate-y-0.5 hover:brightness-110 transition-all duration-200`}
                 style={{
-                  background: `color-mix(in srgb, var(--${color === 'indigo' ? 'accent' : color}), transparent 92%)`,
-                  borderColor: `color-mix(in srgb, var(--${color === 'indigo' ? 'accent' : color}), transparent 80%)`,
+                  background: `color-mix(in srgb, var(--${cssVar}), transparent 92%)`,
+                  borderColor: `color-mix(in srgb, var(--${cssVar}), transparent 80%)`,
                   boxShadow: 'var(--glow-accent)',
                 }}>
                 <div className={`w-6 h-6 rounded-lg flex items-center justify-center mb-2.5`}
                   style={{ 
-                    background: `color-mix(in srgb, var(--${color === 'indigo' ? 'accent' : color}), transparent 85%)`,
-                    color: `var(--${color === 'indigo' ? 'accent' : color})`
+                    background: `color-mix(in srgb, var(--${cssVar}), transparent 85%)`,
+                    color: `var(--${cssVar})`
                   }}>
                   {icon}
                 </div>
                 <div className={`font-mono text-[1.55rem] font-bold leading-none tracking-tight mb-1`}
-                   style={{ color: `var(--${color === 'indigo' ? 'accent' : color})` }}>
+                   style={{ color: `var(--${cssVar})` }}>
                   {value}
                 </div>
                 <div className="text-[0.6rem] font-semibold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>
                   {label}
                 </div>
               </div>
-          ))}
+            );
+          })}
         </div>
       </div>
 

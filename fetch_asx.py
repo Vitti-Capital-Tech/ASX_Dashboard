@@ -25,14 +25,22 @@ from groq import Groq
 # Load environment variables from .env if present
 load_dotenv()
 
+
+def _env_or_default(key: str, default: str) -> str:
+    """GitHub Actions often injects empty strings; treat those as unset."""
+    v = (os.environ.get(key) or "").strip()
+    return v if v else default
+
+
 # ─────────────────────────────────────────────────────────────
 # Config
 # ─────────────────────────────────────────────────────────────
 
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-ANTHROPIC_MODEL   = os.environ.get("ANTHROPIC_MODEL", "claude-opus-4-6")
-GROQ_API_KEY      = os.environ.get("GROQ_API_KEY", "")
-GROQ_MODEL        = os.environ.get("GROQ_MODEL", "llama3-70b-8192")
+ANTHROPIC_API_KEY = (os.environ.get("ANTHROPIC_API_KEY") or "").strip()
+ANTHROPIC_MODEL   = _env_or_default("ANTHROPIC_MODEL", "claude-opus-4-6")
+GROQ_API_KEY      = (os.environ.get("GROQ_API_KEY") or "").strip()
+# llama3-70b-8192 was retired; see https://console.groq.com/docs/deprecations
+GROQ_MODEL        = _env_or_default("GROQ_MODEL", "llama-3.3-70b-versatile")
 
 AEST = timezone(timedelta(hours=11))
 MARKET_SENSITIVE_ONLY = True  # Only process Alpha news (Price Sensitive, Halts, Placements)
@@ -58,6 +66,8 @@ KNOWN_TAGS = [
     "Compliance", "Mining", "Healthcare", "Technology",
     "Finance", "Energy", "Property", "Retail", "Other",
 ]
+
+SENTIMENT_VALUES = frozenset({"bullish", "bearish", "neutral"})
 
 LOGS_DIR = Path(__file__).parent / "logs"
 
@@ -181,6 +191,10 @@ TASKS:
 1. MANDATORY: provide EXACTLY 3 high-impact bullet points. 
 2. INSIGHT: Focus on the "so what?" (e.g. cash runway, revenue growth, or technical significance).
 3. TAGS: Select 1-3 relevant categories from this list ONLY: {tags_list}
+4. SENTIMENT: Classify expected near-term share-price bias for this headline ONLY as exactly one of: bullish, bearish, neutral.
+   - bullish: net positive for valuation or sentiment (e.g. strong results, accretive deal, favourable outcome)
+   - bearish: net negative (e.g. large loss, dilution, downgrade, covenant breach, major impairment)
+   - neutral: procedural, administrative, unclear impact, or balanced / wait-for-detail (use when not clearly bullish or bearish)
 
 Strict Output Format (JSON ONLY):
 {{
@@ -189,7 +203,8 @@ Strict Output Format (JSON ONLY):
     "Insightful point 2 - focus on numbers/results",
     "Insightful point 3 - focus on next steps/outlook"
   ],
-  "tags": ["Category 1", "Category 2"]
+  "tags": ["Category 1", "Category 2"],
+  "sentiment": "bullish"
 }}"""
 
 
@@ -232,6 +247,13 @@ def _call_ai_one(client, model: str, prompt: str, provider: str) -> dict:
     return parsed
 
 
+def normalise_sentiment(raw) -> str:
+    s = raw.strip().lower() if isinstance(raw, str) else ""
+    if s in SENTIMENT_VALUES:
+        return s
+    return "neutral"
+
+
 def summarise_with_failover(anthropic_client, groq_client, ann) -> dict:
     """Implement 3x Anthropic followed by 3x Groq logic."""
     prompt = build_prompt(
@@ -244,7 +266,9 @@ def summarise_with_failover(anthropic_client, groq_client, ann) -> dict:
         for attempt in range(1, 4):
             try:
                 print(f"[anthropic] {ann['ticker']} attempt {attempt}/3...")
-                return _call_ai_one(anthropic_client, ANTHROPIC_MODEL, prompt, 'anthropic')
+                out = _call_ai_one(anthropic_client, ANTHROPIC_MODEL, prompt, 'anthropic')
+                print(f"[anthropic] {ann['ticker']} ok")
+                return out
             except Exception as e:
                 print(f"[anthropic] Attempt {attempt} failed: {e}")
                 if attempt < 3: time.sleep(1)
@@ -254,15 +278,19 @@ def summarise_with_failover(anthropic_client, groq_client, ann) -> dict:
         for attempt in range(1, 4):
             try:
                 print(f"   [groq] {ann['ticker']} failover attempt {attempt}/3...")
-                return _call_ai_one(groq_client, GROQ_MODEL, prompt, 'groq')
+                out = _call_ai_one(groq_client, GROQ_MODEL, prompt, 'groq')
+                print(f"   [groq] {ann['ticker']} ok")
+                return out
             except Exception as e:
                 print(f"   [groq] Attempt {attempt} failed: {e}")
                 if attempt < 3: time.sleep(1)
 
     # Final Fallback
+    print(f"[ai] {ann['ticker']} fallback (no LLM response) — placeholder summary")
     return {
         "summary": [f"High-priority announcement from {ann['ticker']}", f"Topic: {ann['headline']}", "Review PDF for full details."],
-        "tags": ["Other"]
+        "tags": ["Other"],
+        "sentiment": "neutral",
     }
 
 
@@ -275,6 +303,7 @@ def summarise_batch(anthropic_client, groq_client, announcements: list[dict], de
         result = summarise_with_failover(anthropic_client, groq_client, ann)
         ann["summary"] = result.get("summary", [])[0:4] # Cap at 4
         ann["tags"]    = result.get("tags", [])
+        ann["sentiment"] = normalise_sentiment(result.get("sentiment"))
         
         if i < total:
             time.sleep(delay)
@@ -355,6 +384,14 @@ def run_process(args):
 
     # 4. AI summarise ONLY new ones
     if not args.no_ai:
+        print(
+            f"[ai] Anthropic: {'on' if ANTHROPIC_API_KEY else 'OFF (set ANTHROPIC_API_KEY)'} "
+            f"model={ANTHROPIC_MODEL} | "
+            f"Groq: {'on' if GROQ_API_KEY else 'OFF (set GROQ_API_KEY)'} "
+            f"model={GROQ_MODEL}"
+        )
+        if not ANTHROPIC_API_KEY and not GROQ_API_KEY:
+            print("[ai] WARNING: No LLM keys — placeholder summaries only.")
         a_client = Anthropic(api_key=ANTHROPIC_API_KEY) if ANTHROPIC_API_KEY else None
         g_client = Groq(api_key=GROQ_API_KEY) if GROQ_API_KEY else None
         new_announcements = summarise_batch(a_client, g_client, new_announcements)
@@ -362,6 +399,7 @@ def run_process(args):
         for a in new_announcements:
             a["summary"] = [f"ASX announcement: {a['headline']}"]
             a["tags"]    = ["Other"]
+            a["sentiment"] = "neutral"
 
     # 5. Save/Append
     save_log(args.date, new_announcements)

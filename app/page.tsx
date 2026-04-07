@@ -2,14 +2,14 @@
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { Announcement, DayLog, ViewMode } from '@/types';
-import { isBullish } from '@/lib/utils';
+import { getSentiment, sentimentRank } from '@/lib/utils';
 import Sidebar from '@/components/Sidebar';
 import Topbar from '@/components/Topbar';
 import AnnouncementCard from '@/components/AnnouncementCard';
 import AnnouncementRow from '@/components/AnnouncementRow';
 
 const CATEGORIES = [
-  'All Activity', 'Bullish', 'Quarterly', 'Results', 'Dividend',
+  'All Activity', 'Bullish', 'Bearish', 'Neutral', 'Quarterly', 'Results', 'Dividend',
   'Capital Raise', 'AGM', 'Merger & Acquisition',
   'Trading Halt', 'Board Change', 'Substantial Holding',
 ];
@@ -121,8 +121,8 @@ export default function Dashboard() {
     return log.announcements.filter(ann => {
       if (activeCategory !== 'All Activity') {
         const cleanCat = activeCategory.toLowerCase();
-        if (cleanCat === 'bullish') {
-          if (!isBullish(ann)) return false;
+        if (cleanCat === 'bullish' || cleanCat === 'bearish' || cleanCat === 'neutral') {
+          if (getSentiment(ann) !== cleanCat) return false;
         } else {
           const searchTerms = cleanCat === 'substantial holding' ? ['substantial hold'] : [cleanCat];
           const tagMatch = ann.tags?.some(tag => searchTerms.some(term => tag.toLowerCase().includes(term)));
@@ -152,9 +152,9 @@ export default function Dashboard() {
     return [...filtered].sort((a, b) => {
       if (a.market_sensitive && !b.market_sensitive) return -1;
       if (!a.market_sensitive && b.market_sensitive) return 1;
-      const aBull = isBullish(a); const bBull = isBullish(b);
-      if (aBull && !bBull) return -1;
-      if (!aBull && bBull) return 1;
+      const sa = getSentiment(a); const sb = getSentiment(b);
+      const ra = sentimentRank(sa); const rb = sentimentRank(sb);
+      if (ra !== rb) return ra - rb;
       return new Date(b.time).getTime() - new Date(a.time).getTime();
     });
   }, [filtered]);
@@ -185,10 +185,11 @@ export default function Dashboard() {
   function handleViewChange(v: ViewMode) { setViewMode(v); localStorage.setItem('vitti-view', v); }
   function handleCsvDownload() {
     if (!sorted.length) return;
-    const headers = ['Ticker', 'Company', 'Headline', 'Time', 'Market Sensitive', 'Summary', 'Tags', 'URL'];
+    const headers = ['Ticker', 'Company', 'Headline', 'Time', 'Market Sensitive', 'Sentiment', 'Summary', 'Tags', 'URL'];
     const rows = sorted.map(a => [
       a.ticker, a.company, `"${a.headline.replace(/"/g, '""')}"`,
       a.time, a.market_sensitive ? 'Yes' : 'No',
+      getSentiment(a),
       `"${(a.summary || []).join(' | ').replace(/"/g, '""')}"`,
       (a.tags || []).join(', '), a.url,
     ].join(','));

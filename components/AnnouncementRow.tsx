@@ -1,30 +1,39 @@
 'use client';
 
 import { Announcement } from '@/types';
-import { formatTime, isBullish, tagClass, TAG_BG } from '@/lib/utils';
+import { formatTime, getSentiment, tagClass, TAG_BG } from '@/lib/utils';
 
 interface Props {
   ann: Announcement;
 }
 
 export default function AnnouncementRow({ ann }: Props) {
-  const bullish = isBullish(ann);
+  const sentiment = getSentiment(ann);
   const sensitive = ann.market_sensitive;
+
+  const rowStyle =
+    sentiment === 'bullish'
+      ? {
+          background: 'color-mix(in srgb, var(--success), transparent 92%)',
+          border: '1px solid color-mix(in srgb, var(--success), transparent 82%)',
+          borderLeft: '3px solid var(--success)',
+        }
+      : sentiment === 'bearish'
+        ? {
+            background: 'color-mix(in srgb, var(--danger), transparent 92%)',
+            border: '1px solid color-mix(in srgb, var(--danger), transparent 82%)',
+            borderLeft: '3px solid var(--danger)',
+          }
+        : {
+            background: 'var(--border-subtle)',
+            border: '1px solid var(--border-subtle)',
+            borderLeft: '3px solid color-mix(in srgb, var(--text-dim), transparent 50%)',
+          };
 
   return (
     <div
       className="group flex items-center gap-4 px-5 py-3 rounded-[14px] cursor-default select-none transition-all duration-150"
-      style={{
-        background: bullish
-          ? 'color-mix(in srgb, var(--success), transparent 92%)'
-          : 'var(--border-subtle)',
-        border: bullish
-          ? '1px solid color-mix(in srgb, var(--success), transparent 82%)'
-          : '1px solid var(--border-subtle)',
-        borderLeft: bullish
-          ? '3px solid var(--success)'
-          : '3px solid transparent',
-      }}
+      style={rowStyle}
     >
 
       {/* ── Ticker + Signals ── */}
@@ -34,13 +43,28 @@ export default function AnnouncementRow({ ann }: Props) {
           {ann.ticker}
         </span>
 
-        {bullish && (
+        {sentiment === 'bullish' && (
           <span className="flex items-center gap-0.5 font-mono text-[0.52rem] font-bold uppercase tracking-[0.06em]"
             style={{ color: 'var(--success)' }}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="w-2.5 h-2.5">
               <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/>
             </svg>
             Bullish
+          </span>
+        )}
+        {sentiment === 'bearish' && (
+          <span className="flex items-center gap-0.5 font-mono text-[0.52rem] font-bold uppercase tracking-[0.06em]"
+            style={{ color: 'var(--danger)' }}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="w-2.5 h-2.5">
+              <polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/><polyline points="17 18 23 18 23 12"/>
+            </svg>
+            Bearish
+          </span>
+        )}
+        {sentiment === 'neutral' && (
+          <span className="flex items-center gap-0.5 font-mono text-[0.52rem] font-bold uppercase tracking-[0.06em]"
+            style={{ color: 'var(--text-dim)' }}>
+            Neutral
           </span>
         )}
 

@@ -1,17 +1,12 @@
 name: Daily ASX Announcements
 
 on:
-  # ASX trades 10:00 AM – 4:00 PM AEST (23:00 – 05:00 UTC)
-  # Runs every 20 minutes across the full session Mon–Fri
-  # Using offset minutes (3,23,43) to avoid peak GitHub scheduler congestion
+  # GitHub schedule is UTC-only. We trigger every 5 min during UTC hours that can overlap
+  # ASX hours in Australia/Sydney (AEST/AEDT). Job "gate" skips unless local Sydney time is:
+  #   Mon–Fri: 09:00–09:55 every 5 min, then 10:00–16:00 on the hour only.
+  # Weekends: no fetch (gate off). Manual workflow_dispatch always runs the fetch.
   schedule:
-    - cron: "3,23,43 23 * * 1-5"   # 23:03, 23:23, 23:43 UTC  (10:03–10:43 AM AEST)
-    - cron: "3,23,43 0  * * 2-6"   # 00:03, 00:23, 00:43 UTC  (11:03–11:43 AM AEST)
-    - cron: "3,23,43 1  * * 2-6"   # 01:03, 01:23, 01:43 UTC  (12:03–12:43 PM AEST)
-    - cron: "3,23,43 2  * * 2-6"   # 02:03, 02:23, 02:43 UTC  (01:03–01:43 PM AEST)
-    - cron: "3,23,43 3  * * 2-6"   # 03:03, 03:23, 03:43 UTC  (02:03–02:43 PM AEST)
-    - cron: "3,23,43 4  * * 2-6"   # 04:03, 04:23, 04:43 UTC  (03:03–03:43 PM AEST)
-    - cron: "3,23,43 5  * * 2-6"   # 05:03, 05:23, 05:43 UTC  (04:03–04:43 PM AEST)
+    - cron: "*/5 20,21,22,23,0,1,2,3,4,5,6,7,8,9 * * *"
 
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
@@ -21,8 +16,29 @@ on:
         required: false
         default: ""
 
+# Secrets (Settings → Secrets and variables → Actions):
+#   GROQ_API_KEY        — recommended; failover if Anthropic errors
+#   ANTHROPIC_API_KEY   — optional primary (Claude); omit to use Groq only
+# Variables (optional overrides; leave unset to use fetch_asx.py defaults):
+#   GROQ_MODEL, ANTHROPIC_MODEL
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      proceed: ${{ steps.pick.outputs.proceed }}
+    steps:
+      - id: pick
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          OUT=$(python3 -c "from datetime import datetime; import zoneinfo; z=zoneinfo.ZoneInfo('Australia/Sydney'); n=datetime.now(z); print('false' if n.weekday()>=5 else 'true' if (n.hour==9 and n.minute%5==0 and n.minute<=55) else 'true' if (10<=n.hour<=16 and n.minute==0) else 'false')")
+          echo "proceed=$OUT" >> "$GITHUB_OUTPUT"
+
   fetch-and-summarise:
+    needs: gate
+    if: needs.gate.outputs.proceed == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: write  # needed to commit logs/ back to the repo
@@ -41,12 +57,17 @@ jobs:
 
       - name: Run ASX fetcher
         env:
+          PYTHONUNBUFFERED: "1"
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GROQ_MODEL: ${{ vars.GROQ_MODEL }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
         run: |
+          # Blank date → default logic in fetch_asx.py (scheduled runs have no inputs)
           if [ -n "${{ github.event.inputs.date }}" ]; then
-            python fetch_asx.py --date "${{ github.event.inputs.date }}"
+            python -u fetch_asx.py --date "${{ github.event.inputs.date }}"
           else
-            python fetch_asx.py
+            python -u fetch_asx.py
           fi
 
       - name: Commit and push log file

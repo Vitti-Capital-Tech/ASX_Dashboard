@@ -1,5 +1,7 @@
 // TypeScript types for ASX announcement data
 
+export type SentimentLabel = 'bullish' | 'bearish' | 'neutral';
+
 export interface Announcement {
   ticker: string;
   company: string;
@@ -10,6 +12,8 @@ export interface Announcement {
   document_type: string;
   summary: string[];
   tags: string[];
+  /** From AI (Claude/Groq); older logs omit this and the UI infers a fallback. */
+  sentiment?: SentimentLabel;
 }
 
 export interface DayLog {

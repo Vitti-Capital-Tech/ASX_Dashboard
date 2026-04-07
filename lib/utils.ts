@@ -1,5 +1,7 @@
 // Utility functions shared across the dashboard
 
+import type { SentimentLabel } from '@/types';
+
 export function formatTime(iso: string): string {
   if (!iso) return '';
   try {
@@ -28,15 +30,32 @@ export function todayAEST(): string {
   return aest.toISOString().slice(0, 10);
 }
 
-export function isBullish(ann: { market_sensitive: boolean; headline: string; summary: string[] }): boolean {
-  const text = (ann.headline + ' ' + (ann.summary || []).join(' ')).toLowerCase();
-  
-  // Rule 1: Major ownership entry is almost always bullish
-  if (text.includes('becoming a substantial holder')) return true;
-  
-  // Rule 2: For other news, we generally stick to market-sensitive price-movers
-  if (!ann.market_sensitive) return false;
+type AnnText = { market_sensitive: boolean; headline: string; summary: string[]; sentiment?: string };
 
+export function isBullish(ann: AnnText): boolean {
+  return getSentiment(ann) === 'bullish';
+}
+
+function inferBearishHeuristic(ann: AnnText): boolean {
+  const text = (ann.headline + ' ' + (ann.summary || []).join(' ')).toLowerCase();
+  const ceaseSub =
+    ((text.includes('ceasing') || text.includes('ceases')) && text.includes('substantial')) ||
+    text.includes('ceases to be a substantial');
+  if (!ann.market_sensitive) return ceaseSub;
+  const keywords = [
+    'impairment', 'downgrade', 'loss after tax', 'statutory loss', 'net loss',
+    'capital raising', 'entitlement offer', 'accelerated', 'non-renounceable',
+    'breach', 'covenant', 'going concern', 'administration', 'liquidat',
+    'class action', 'investigation', 'suspension', 'failed to', 'withdrawn',
+    'terminat', 'writedown', 'write-down', 'dilut', 'shortfall',
+  ];
+  return ceaseSub || keywords.some(k => text.includes(k));
+}
+
+function inferBullishHeuristic(ann: AnnText): boolean {
+  const text = (ann.headline + ' ' + (ann.summary || []).join(' ')).toLowerCase();
+  if (text.includes('becoming a substantial holder')) return true;
+  if (!ann.market_sensitive) return false;
   const keywords = [
     'discovery', 'intercept', 'high-grade', 'record', 'dividend', 'profit',
     'growth', 'expansion', 'success', 'partnership', 'favourable', 'increase',
@@ -44,6 +63,21 @@ export function isBullish(ann: { market_sensitive: boolean; headline: string; su
     'merger', 'award', 'contract', 'buy-back', 'buyback', 'placement', 'raising',
   ];
   return keywords.some(k => text.includes(k));
+}
+
+/** Prefer model `sentiment`; for older logs without it, use light keyword heuristics. */
+export function getSentiment(ann: AnnText): SentimentLabel {
+  const s = ann.sentiment?.toLowerCase();
+  if (s === 'bullish' || s === 'bearish' || s === 'neutral') return s;
+  if (inferBullishHeuristic(ann)) return 'bullish';
+  if (inferBearishHeuristic(ann)) return 'bearish';
+  return 'neutral';
+}
+
+export function sentimentRank(s: SentimentLabel): number {
+  if (s === 'bullish') return 0;
+  if (s === 'bearish') return 1;
+  return 2;
 }
 
 export function tagClass(tag: string): string {
