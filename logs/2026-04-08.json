@@ -1,9 +1,253 @@
 {
   "date": "2026-04-08",
-  "total": 51,
-  "market_sensitive_count": 46,
-  "generated_at": "2026-04-07T23:21:55.788221+00:00",
+  "total": 64,
+  "market_sensitive_count": 58,
+  "generated_at": "2026-04-07T23:56:58.720749+00:00",
   "announcements": [
+    {
+      "ticker": "RML",
+      "company": "RESOLUTION MINERALS LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-04-07T23:52:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076464-2A1664957",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Resolution Minerals has entered a trading pause, typically preceding a material announcement such as a capital raise, acquisition, or significant operational update that requires orderly disclosure.",
+        "As a junior explorer, any trading halt raises immediate questions about cash runway adequacy — a capital raise scenario would likely be dilutive to existing shareholders given the company's micro-cap status.",
+        "Investors should await the pending announcement before repositioning; the nature of the halt (pause vs voluntary) suggests the company is finalizing details on a market-sensitive disclosure expected imminently."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MRD",
+      "company": "MOUNT RIDLEY MINES LIMITED",
+      "headline": "Metallurgical Review Supports HREE at Mount Ridley",
+      "time": "2026-04-07T23:52:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076463-6A1319622",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Metallurgical review confirms the presence of Heavy Rare Earth Elements (HREE) at Mount Ridley, validating the project's strategic value amid surging global demand for critical minerals used in defence and clean energy applications.",
+        "Positive metallurgical results de-risk the project technically by demonstrating that HREE can be identified and potentially extracted, which is a key milestone for advancing toward resource definition and attracting potential partners or offtake interest.",
+        "Next steps likely involve further metallurgical testwork, resource estimation updates, and potential scoping studies — catalysts that could re-rate this micro-cap explorer if results continue to support economic viability of HREE recovery."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TBN",
+      "company": "TAMBORAN RESOURCES CORPORATION",
+      "headline": "Pause in Trading",
+      "time": "2026-04-07T23:52:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076462-2A1664956",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tamboran Resources has entered a trading pause, typically preceding a material announcement such as a capital raise, acquisition, or significant operational update related to its Beetaloo Basin gas assets.",
+        "As a pre-production gas explorer/developer with significant capex requirements, any trading pause raises immediate questions around potential equity dilution or a transformative corporate transaction that could materially alter the company's capital structure.",
+        "Investors should monitor for the pending announcement closely — the pause suggests imminent disclosure of market-sensitive information that will likely drive a re-rating of the stock upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RNT",
+      "company": "RENT.COM.AU LIMITED",
+      "headline": "Response to ASX Aware Query",
+      "time": "2026-04-07T23:52:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076461-6A1319621",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "RENT.COM.AU has responded to an ASX Aware Query, typically triggered by unusual price or volume movements, indicating the exchange is seeking clarification on whether the company has undisclosed material information driving recent trading activity.",
+        "ASX Aware Queries often signal heightened regulatory scrutiny and can reflect speculative trading or potential information asymmetry; the market-sensitive designation suggests the response contains substantive disclosure that may reset investor expectations.",
+        "Investors should closely monitor whether the response reveals previously undisclosed corporate developments (e.g. partnerships, financial distress, or M&A discussions) that could materially alter the company's near-term valuation trajectory in the micro-cap property-tech space."
+      ],
+      "tags": [
+        "Compliance",
+        "Property",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NEU",
+      "company": "NEUREN PHARMACEUTICALS LIMITED",
+      "headline": "DAYBUE STIX now broadly available in US for Rett syndrome",
+      "time": "2026-04-07T23:47:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076454-2A1664950",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DAYBUE STIX (trofinetide oral soluble film) is now broadly available across US pharmacies for Rett syndrome, removing a key distribution bottleneck and significantly expanding patient access beyond the prior liquid formulation.",
+        "The new oral soluble film formulation addresses major compliance and palatability challenges that limited DAYBUE uptake, potentially accelerating prescription volumes and improving Acadia's (Neuren's US partner) revenue trajectory — directly impacting Neuren's royalty stream from US sales.",
+        "Broader US availability of a more patient-friendly formulation is a meaningful commercial catalyst; investors should monitor upcoming Acadia quarterly sales data for evidence of improved new patient starts and reduced discontinuation rates, which would flow through to Neuren's royalty economics."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SMX",
+      "company": "STRATA MINERALS LIMITED.",
+      "headline": "Strata Expands Zelica Gold Corridor to 9.5km",
+      "time": "2026-04-07T23:47:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076453-6A1319617",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strata Minerals has significantly expanded the Zelica Gold Corridor strike length from previous estimates to 9.5km, representing a material increase in the prospective exploration target and enhancing the project's scale potential for future resource definition.",
+        "The corridor expansion signals strong geological continuity across the tenement, which for an early-stage explorer can be a key catalyst for re-rating as it de-risks the exploration thesis and increases the probability of hosting economically significant gold mineralisation.",
+        "Next steps will likely involve systematic drill testing across the expanded corridor to convert surface geochemistry and structural targets into confirmed gold intercepts — investors should watch for upcoming drill program announcements and assay results as the primary near-term catalysts."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LDX",
+      "company": "LUMOS DIAGNOSTICS HOLDINGS LIMITED",
+      "headline": "Lumos secures new contract manufacturing agreement",
+      "time": "2026-04-07T23:45:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076451-2A1664948",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lumos Diagnostics has secured a new contract manufacturing agreement, signaling commercial traction and potential revenue diversification beyond proprietary diagnostics products, which is critical for a micro-cap healthcare company seeking to demonstrate business sustainability.",
+        "The contract manufacturing model provides more predictable, recurring revenue streams and improved capacity utilization, which should support gross margin improvement and extend cash runway — a key concern for investors given Lumos's historically cash-consumptive operations.",
+        "Execution on this agreement will be a key near-term catalyst; investors should monitor for details on contract value, duration, and customer identity to assess materiality, as well as any impact on the company's ability to scale its own FebriDx and other proprietary product lines."
+      ],
+      "tags": [
+        "Healthcare",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FUL",
+      "company": "FULCRUM LITHIUM LTD",
+      "headline": "Thick Continuous Lithium Mineralisation Confirmed at Alkali",
+      "time": "2026-04-07T23:37:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076446-2A1664942",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Fulcrum Lithium confirms thick, continuous lithium mineralisation at its Alkali project, a technically significant milestone that validates the geological model and de-risks the deposit for further resource definition drilling.",
+        "Confirmation of continuous mineralisation over meaningful widths strengthens the pathway toward a maiden or upgraded mineral resource estimate, which is a key value catalyst for junior lithium explorers in the current market.",
+        "Next steps likely include additional infill and extensional drilling to define resource boundaries and support a JORC-compliant resource estimate, though investors should note the company remains pre-revenue with ongoing exploration funding requirements."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FNR",
+      "company": "FAR NORTHERN RESOURCES LIMITED",
+      "headline": "Bridge Creek Phase 2 Drilling Results",
+      "time": "2026-04-07T23:37:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076444-2A1664945",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FAR Northern Resources has released Phase 2 drilling results from its Bridge Creek project, a market-sensitive disclosure indicating material findings that could redefine the resource potential at this exploration-stage asset.",
+        "Phase 2 drilling programs at Bridge Creek are designed to follow up on earlier intercepts and extend mineralisation — positive assay results with significant widths and grades would validate the geological model and support future resource estimation upgrades.",
+        "Investors should watch for implications on resource size expansion, potential for a maiden or updated JORC resource estimate, and whether results are sufficient to attract farm-in partners or justify further capital deployment into Phase 3 drilling."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ARD",
+      "company": "ARGENT MINERALS LIMITED",
+      "headline": "Managing Director Transition",
+      "time": "2026-04-07T23:31:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076438-6A1319612",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "Argent Minerals is undergoing a Managing Director transition, signaling a strategic leadership change at the top that could shift the company's direction on its exploration and development portfolio.",
+        "For a micro-cap explorer like Argent Minerals, MD transitions carry outsized risk as they may signal internal disagreements, strategic pivots, or challenges in advancing key projects such as the Kempfield polymetallic deposit.",
+        "Investors should monitor whether the incoming MD brings fresh capital market relationships or technical expertise, and watch for any accompanying changes to corporate strategy, budget allocation, or project timelines in subsequent announcements."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IFG",
+      "company": "INFOCUS GROUP HOLDINGS LIMITED",
+      "headline": "Global Preview Launch of Sweepstakes Casino Platform",
+      "time": "2026-04-07T23:24:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076424-6A1319569",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "InFocus Group Holdings has launched a global preview of its sweepstakes casino platform, signaling a strategic pivot into the fast-growing online social/sweepstakes gaming vertical — a sector with lower regulatory barriers than traditional iGaming.",
+        "As a micro-cap ASX entity, the platform launch represents a potential new revenue stream, but monetization timelines and user acquisition costs remain unquantified; investors should scrutinize upcoming disclosures on cash burn rate and customer economics before assigning material revenue uplift.",
+        "The 'preview' nature of the launch suggests the platform is pre-scale, with full commercial rollout and geographic expansion likely dependent on user feedback and further capital deployment — watch for follow-up announcements on user metrics, partnerships, and any capital raise requirements."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HCT",
+      "company": "HOLISTA COLLTECH LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-07T23:22:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076418-6A1319609",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Holista CollTech has entered a trading halt, typically requested by the company pending a material announcement that could significantly impact the share price.",
+        "As a micro-cap company operating in health food ingredients and technology, any pending announcement could relate to a capital raise, partnership, or acquisition — each carrying meaningful dilution or re-rating risk given the company's limited market capitalisation and liquidity.",
+        "Investors should await the forthcoming announcement before repositioning; the halt signals imminent material news, with the stock likely to resume trading within 1-2 business days once the disclosure is made."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TGH",
+      "company": "TERRAGEN HOLDINGS LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-07T23:20:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076414-2A1664923",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Terragen Holdings, indicating a significant reduction in ownership below the 5% threshold, which may signal a shift in investor confidence or portfolio rebalancing by the exiting party.",
+        "The disposal of a substantial stake could increase free float and potentially weigh on near-term price action if the sell-down was executed on-market, though the non-market-sensitive classification suggests an orderly or off-market transaction.",
+        "Investors should monitor whether additional substantial holders follow suit or if this is an isolated event; the identity of the departing holder and the nature of the disposal (on-market vs. off-market) will be key to assessing broader implications for Terragen's shareholder register stability."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GNM",
       "company": "GREAT NORTHERN MINERALS LIMITED",
