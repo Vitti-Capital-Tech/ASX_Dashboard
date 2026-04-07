@@ -1,9 +1,216 @@
 {
   "date": "2026-04-08",
-  "total": 40,
-  "market_sensitive_count": 39,
-  "generated_at": "2026-04-07T23:05:21.569388+00:00",
+  "total": 51,
+  "market_sensitive_count": 46,
+  "generated_at": "2026-04-07T23:21:55.788221+00:00",
   "announcements": [
+    {
+      "ticker": "GNM",
+      "company": "GREAT NORTHERN MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-07T23:19:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076412-6A1319606",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Great Northern Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant operational update that requires price-sensitive disclosure.",
+        "As a junior mining company, trading halts frequently precede equity raisings which could be dilutive to existing shareholders, though they may also signal positive developments such as exploration results or strategic partnerships.",
+        "Investors should await the detailed announcement expected within the standard two-business-day halt period to assess the materiality and directional impact on the company's valuation and cash position."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGR",
+      "company": "AGUIA RESOURCES LIMITED",
+      "headline": "Official Product Registration Received For Aguia Fertilisers",
+      "time": "2026-04-07T23:19:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076411-2A1664922",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Aguia has received official product registration from Brazilian authorities (MAPA) for its phosphate fertiliser products, a critical regulatory milestone that clears the path to commercial sales from its Três Estradas project.",
+        "Product registration de-risks the near-term revenue timeline for a company with limited cash runway, enabling Aguia to legally market and sell its natural phosphate fertiliser in Brazil's large agricultural market.",
+        "Next steps involve scaling up production and establishing distribution channels; investors should monitor for offtake agreements, initial sales volumes, and any further permitting progress at Três Estradas to gauge commercialisation momentum."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TOR",
+      "company": "TORQUE METALS LIMITED..",
+      "headline": "Significant New Thick High-Grade Intercepts at Paris Gold",
+      "time": "2026-04-07T23:13:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076398-6A1319604",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Torque Metals reports significant new thick high-grade gold intercepts at the Paris Gold project, suggesting meaningful resource upside potential and validating the geological model for continued exploration investment.",
+        "The use of 'thick' and 'high-grade' in the headline signals intercepts that could materially improve resource tonnage and grade estimates, which is critical for a junior explorer seeking to demonstrate economic viability and attract further funding or strategic interest.",
+        "As a market-sensitive announcement, this is likely a precursor to an updated resource estimate or expanded drilling program; investors should watch for follow-up assay results, potential capital raises to fund further exploration, and any movement toward a scoping or pre-feasibility study."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RGO",
+      "company": "RUSSELL SUST GLOBAL OPPORTUNITIES COMPLEX ETF",
+      "headline": "Update - Dividend/Distribution - RGOS",
+      "time": "2026-04-07T23:11:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076395-2A1664909",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Russell Sustainable Global Opportunities Complex ETF (RGOS) has issued an updated dividend/distribution notice, signaling an adjustment to previously announced distribution details that investors need to incorporate into income projections.",
+        "As a market-sensitive update to an existing distribution announcement, the revision likely reflects changes to the composition, amount, or timing of the payout — key for institutional holders managing franking credits, tax treatment, or reinvestment strategies.",
+        "Investors should review the updated distribution components (including any changes to foreign income, capital gains, or return of capital elements) to assess yield implications and ensure portfolio income forecasts remain accurate ahead of the payment date."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACM",
+      "company": "AUSTRALIAN CRITICAL MINERALS LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-07T23:08:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076387-6A1319601",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Australian Critical Minerals Limited, indicating a significant sell-down below the 5% threshold, which may signal reduced institutional conviction in the company's near-term prospects.",
+        "The disposal of a substantial stake in a junior critical minerals company could reflect portfolio rebalancing or concerns about the company's funding position and project development timeline, warranting scrutiny of remaining shareholder register concentration.",
+        "Investors should monitor whether additional substantial holders follow suit and assess any impact on liquidity; the filing is procedural but the exit of a major shareholder in a small-cap miner can weigh on sentiment and reduce share price support."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ACM",
+      "company": "AUSTRALIAN CRITICAL MINERALS LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-07T23:07:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076386-6A1319600",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Australian Critical Minerals Limited, indicating a significant reduction in ownership below the 5% threshold, which may signal reduced institutional conviction or portfolio rebalancing.",
+        "The exit of a substantial holder could increase free float and potentially weigh on near-term liquidity dynamics, though the announcement is flagged as not market sensitive, suggesting an orderly disposition rather than a forced or distressed sale.",
+        "Investors should monitor whether additional substantial holders follow suit or if this creates an opportunity for new strategic investors to build positions in the critical minerals space, particularly given ongoing government support for the sector."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HCH",
+      "company": "HOT CHILI LIMITED",
+      "headline": "Major High-Grade Cu-Au Extension Confirmed at La Verde",
+      "time": "2026-04-07T23:06:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076384-6A1319599",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade copper-gold extension at La Verde significantly enhances the resource potential of Hot Chili's flagship Costa Fuego project, potentially improving project economics and attracting strategic interest in a tight copper market.",
+        "Confirmation of major high-grade Cu-Au mineralisation extension suggests the existing resource base could materially expand at upcoming resource updates, directly impacting NPV estimates and positioning the asset among larger-scale Latin American copper-gold development projects.",
+        "Near-term catalysts include updated resource estimates incorporating the new extension drilling, which could trigger re-rating as the market prices in a larger, higher-grade deposit profile ahead of feasibility-level studies."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ACM",
+      "company": "AUSTRALIAN CRITICAL MINERALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-07T23:04:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076380-6A1319597",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Australian Critical Minerals Limited has filed a change in their holding, signaling a notable shift in ownership structure that institutional investors should monitor for potential strategic positioning.",
+        "The filing is classified as not market sensitive, suggesting the change likely reflects portfolio rebalancing or passive threshold crossing rather than a material corporate event or activist accumulation.",
+        "Investors should review the specific direction of the holding change (increase vs decrease) and the identity of the substantial holder to assess whether this reflects informed conviction in the critical minerals sector or routine portfolio adjustment."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STK",
+      "company": "STRICKLAND METALS LIMITED",
+      "headline": "Becoming a substantial holder - Zijin Mining Group",
+      "time": "2026-04-07T23:02:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076374-6A1319596",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Zijin Mining Group, a major Chinese gold and copper producer with a ~US$50B market cap, has crossed the 5% substantial holder threshold in Strickland Metals, signaling strategic interest in the company's gold exploration assets in Western Australia.",
+        "The entry of a well-capitalized global mining major as a substantial shareholder provides a strong validation signal for Strickland's project portfolio and could serve as a floor for the share price, while also raising the prospect of future corporate activity.",
+        "Institutional investors should monitor whether Zijin continues accumulating shares, as this initial stake could be a precursor to a farm-in agreement, joint venture, or eventual takeover bid — consistent with Zijin's established M&A strategy in the Australian gold sector."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GGE",
+      "company": "GRAND GULF ENERGY LIMITED",
+      "headline": "Red Helium Project",
+      "time": "2026-04-07T23:01:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076371-6A1319594",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Grand Gulf Energy has released a market-sensitive update on its Red Helium Project, signaling material developments in its helium exploration/production activities in the US that could impact near-term valuation.",
+        "Helium remains a critical strategic commodity with constrained global supply; any positive drilling or resource update positions GGE to capture premium pricing in a tight market, though micro-cap status means execution risk remains elevated.",
+        "Investors should monitor for specific details on well results, flow rates, or resource estimates that would determine whether the project can transition from exploration to commercial viability, which is the key de-risking catalyst for the stock."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RAD",
+      "company": "RADIOPHARM THERANOSTICS LIMITED",
+      "headline": "RAD202 Phase 1 HEAT Trial Advances to Dose Level 3",
+      "time": "2026-04-07T23:00:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076367-2A1664894",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "RAD202 Phase 1 HEAT trial has successfully escalated to Dose Level 3, indicating acceptable safety and tolerability at lower dose levels — a critical de-risking milestone for the radiopharmaceutical candidate targeting solid tumors.",
+        "Dose escalation progression without reported dose-limiting toxicities supports the therapeutic index of RAD202 and strengthens the clinical narrative ahead of potential recommended Phase 2 dose determination, which is key to unlocking partnership or licensing value.",
+        "As a pre-revenue biotech, continued clinical advancement is essential for maintaining investor confidence and supporting future capital raises; investors should monitor cash runway closely given the capital-intensive nature of Phase 1 oncology trials and the company's burn rate."
+      ],
+      "tags": [
+        "Healthcare",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ARN",
       "company": "ALDORO RESOURCES LIMITED",
