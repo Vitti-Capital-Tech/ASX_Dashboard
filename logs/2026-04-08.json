@@ -1,9 +1,162 @@
 {
   "date": "2026-04-08",
-  "total": 64,
-  "market_sensitive_count": 58,
-  "generated_at": "2026-04-07T23:56:58.720749+00:00",
+  "total": 72,
+  "market_sensitive_count": 64,
+  "generated_at": "2026-04-08T01:01:05.383053+00:00",
   "announcements": [
+    {
+      "ticker": "AR1",
+      "company": "AUSTRAL RESOURCES AUSTRALIA LTD",
+      "headline": "Notice of change of interests of substantial holder",
+      "time": "2026-04-08T00:49:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076486-2A1664971",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A substantial holder in Austral Resources has filed a notice of change in their interest, indicating a shift in ownership dynamics that institutional investors should monitor for potential strategic implications.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is likely incremental rather than a transformative block trade or activist accumulation, limiting near-term price impact.",
+        "Investors should track whether this forms part of a broader pattern of accumulation or disposal by the substantial holder, which could signal changing sentiment toward Austral Resources' copper exploration and development prospects."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MSI",
+      "company": "MULTISTACK INTERNATIONAL LIMITED",
+      "headline": "Agreement to sell all assets and liabilities of MSI",
+      "time": "2026-04-08T00:38:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076485-3A690947",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Multistack International has agreed to sell all assets and liabilities, effectively representing a full disposal of the business — this signals a potential wind-down, shell company transformation, or reverse takeover vehicle scenario for MSI shareholders.",
+        "The sale of the entire asset and liability base will crystallize the net asset value for shareholders; the key question is whether proceeds exceed current market capitalization and what distribution mechanism (if any) is planned for residual cash.",
+        "Post-completion, MSI will likely become a cash shell listed on the ASX, making it a potential target for a backdoor listing or requiring re-compliance with ASX listing rules — investors should watch for subsequent announcements on use of proceeds and ongoing listing status."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TZL",
+      "company": "TZ LIMITED",
+      "headline": "TZL Secures Additional Funding & Growth Initiatives Update",
+      "time": "2026-04-08T00:33:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076482-2A1664958",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TZ Limited has secured additional funding to extend its cash runway, providing near-term liquidity relief for a company that has historically operated with tight working capital constraints.",
+        "The coupling of funding with a 'growth initiatives update' signals management is positioning for revenue expansion, though the nature of the funding (debt vs equity) and any dilutive impact on existing shareholders requires close scrutiny.",
+        "Investors should monitor the terms of the additional funding — if equity-based, dilution risk is material given TZL's micro-cap status; if debt-based, servicing costs could pressure an already lean balance sheet amid uncertain revenue conversion timelines."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RML",
+      "company": "RESOLUTION MINERALS LTD",
+      "headline": "Resolution Secures White House FAST-41 Status",
+      "time": "2026-04-08T00:26:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076481-2A1664962",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Resolution Minerals has secured FAST-41 status from the White House Federal Permitting Improvement Steering Council, a significant de-risking milestone that streamlines and accelerates the federal permitting process for its US-based critical minerals project.",
+        "FAST-41 designation provides enhanced inter-agency coordination, fixed permitting timelines, and accountability mechanisms — materially reducing regulatory uncertainty and potentially compressing the development timeline by years compared to standard federal permitting pathways.",
+        "This status positions Resolution among a select group of projects deemed nationally significant for US critical minerals supply chain security, potentially unlocking access to federal funding mechanisms (e.g., DOE loans, Defense Production Act support) and enhancing the company's attractiveness as a strategic partner or acquisition target."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RSG",
+      "company": "RESOLUTE MINING LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-08T00:25:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076478-6A1319626",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Resolute Mining Limited, triggering a mandatory disclosure under ASX substantial holding rules, signaling active institutional portfolio rebalancing in the gold miner.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is relatively modest and unlikely to reflect a strategic takeover approach or aggressive accumulation/disposal pattern.",
+        "Investors should monitor whether this forms part of a broader trend of institutional positioning shifts in Resolute, particularly given the company's ongoing operational developments across its African gold assets."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PGY",
+      "company": "PILOT ENERGY LIMITED",
+      "headline": "Continuation of Suspension",
+      "time": "2026-04-08T00:10:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076474-6A1319624",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Pilot Energy remains in voluntary suspension, signaling unresolved corporate or transactional matters that prevent normal trading — a prolonged halt raises concerns about the company's ability to meet ASX listing requirements or complete pending deals.",
+        "Extended suspension periods for micro-cap energy explorers like Pilot Energy often correlate with capital raise negotiations, asset restructuring, or compliance remediation — each scenario carries meaningful dilution or operational risk for existing shareholders.",
+        "Investors should monitor for the company's reinstatement conditions and any accompanying announcements; continued suspension erodes liquidity and market confidence, potentially pressuring the stock upon eventual resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TBN",
+      "company": "TAMBORAN RESOURCES CORPORATION",
+      "headline": "Trading Halt",
+      "time": "2026-04-08T00:03:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076471-2A1664961",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Tamboran Resources has entered a trading halt, typically preceding a material announcement such as a capital raise, acquisition, or significant operational update related to its Beetaloo Basin gas assets.",
+        "As an emerging gas producer with substantial capital requirements for its Northern Territory drilling program, a trading halt may signal an equity raising to fund accelerated development — investors should watch for potential dilution versus growth acceleration trade-off.",
+        "The halt removes price discovery temporarily; institutional investors should prepare for a potential re-rating event upon resumption, with the nature of the announcement (capital raise vs. operational milestone vs. M&A) being the key determinant of direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEQ",
+      "company": "SEQUOIA FINANCIAL GROUP LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-04-07T23:59:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03076469-2A1664960",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sequoia Financial Group has requested a pause in trading, typically indicating a pending material announcement such as a potential acquisition, capital raise, or significant corporate action that requires price-sensitive disclosure.",
+        "As a diversified financial services firm (wealth management, broking, lending), any trading halt could signal transformative M&A activity or a strategic restructuring — investors should monitor for details on deal size and funding mechanism.",
+        "Trading will likely resume upon release of the material announcement; institutional investors should prepare for potential volatility on resumption and assess any implications for Sequoia's balance sheet and earnings trajectory."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "RML",
       "company": "RESOLUTION MINERALS LTD",
