@@ -1,12 +1,13 @@
 name: Daily ASX Announcements
 
 on:
-  # GitHub schedule is UTC-only. We trigger every 5 min during UTC hours that can overlap
-  # ASX hours in Australia/Sydney (AEST/AEDT). Job "gate" skips unless local Sydney time is:
-  #   Mon–Fri: 09:00–09:55 every 5 min, then 10:00–16:00 on the hour only.
+  # GitHub schedule is UTC-only. We trigger every 5 min during UTC hours that overlap
+  # the desired AEST window (UTC+10). Job "gate" skips unless local Sydney time is:
+  #   Mon–Fri: 09:00–09:55 every 5 min, then 10:00–14:00 on the hour only.
   # Weekends: no fetch (gate off). Manual workflow_dispatch always runs the fetch.
+  # 9am AEST = 23:00 UTC | 2pm AEST = 04:00 UTC
   schedule:
-    - cron: "*/5 20,21,22,23,0,1,2,3,4,5,6,7,8,9 * * *"
+    - cron: "*/5 23,0,1,2,3,4 * * 1-5"
 
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
@@ -33,7 +34,7 @@ jobs:
             echo "proceed=true" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          OUT=$(python3 -c "from datetime import datetime; import zoneinfo; z=zoneinfo.ZoneInfo('Australia/Sydney'); n=datetime.now(z); print('false' if n.weekday()>=5 else 'true' if (n.hour==9 and n.minute%5==0 and n.minute<=55) else 'true' if (10<=n.hour<=16 and n.minute==0) else 'false')")
+          OUT=$(python3 -c "from datetime import datetime; import zoneinfo; z=zoneinfo.ZoneInfo('Australia/Sydney'); n=datetime.now(z); print('false' if n.weekday()>=5 else 'true' if (n.hour==9 and n.minute%5==0 and n.minute<=55) else 'true' if (10<=n.hour<=13 and n.minute==0) else 'true' if (n.hour==14 and n.minute==0) else 'false')")
           echo "proceed=$OUT" >> "$GITHUB_OUTPUT"
 
   fetch-and-summarise:

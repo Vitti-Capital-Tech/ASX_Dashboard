@@ -1,8 +1,8 @@
 'use client';
 
+import React, { useState, useEffect } from 'react';
 import { DayLog } from '@/types';
 import { formatDateLabel, getSentiment } from '@/lib/utils';
-import { useState, useEffect } from 'react';
 
 interface Props {
   date: string;
@@ -10,15 +10,20 @@ interface Props {
   log: DayLog | null;
   filtered: number;
   activeTags: Set<string>;
+  activeCategory: string;
+  marketSensitiveOnly: boolean;
   onDateChange: (d: string) => void;
   onTagToggle: (tag: string) => void;
+  onMarketSensitiveToggle: () => void;
+  onCategoryChange: (cat: string) => void;
   onCsvDownload: () => void;
   tagCounts: Record<string, number>;
 }
 
 export default function Sidebar({
   date, availableDates, log, filtered,
-  activeTags, onDateChange,
+  activeTags, activeCategory, marketSensitiveOnly,
+  onDateChange, onMarketSensitiveToggle, onCategoryChange,
   onTagToggle, onCsvDownload, tagCounts,
 }: Props) {
   const [maxDate, setMaxDate] = useState('');
@@ -45,7 +50,19 @@ export default function Sidebar({
 
   const sensitiveCount = log?.announcements.filter(a => a.market_sensitive).length ?? 0;
 
-  const stats = [
+  // Map each stat to its filter action:
+  // 'category' → sets the top category tab
+  // 'sensitive' → toggles marketSensitiveOnly
+  // 'all'       → resets to All Activity
+  // null        → informational only
+  const stats: {
+    label: string;
+    value: number | string;
+    sub: string;
+    icon: React.ReactNode;
+    color: string;
+    action: { type: 'category'; value: string } | { type: 'sensitive' } | { type: 'all' } | null;
+  }[] = [
     {
       label: 'Announcements',
       value: log?.announcements.length ?? '–',
@@ -54,6 +71,7 @@ export default function Sidebar({
         <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><path d="M4 4h12v2H4zM4 9h12v2H4zM4 14h8v2H4z" fill="currentColor" opacity="0.9"/></svg>
       ),
       color: 'indigo',
+      action: { type: 'all' },
     },
     {
       label: 'Market Sensitive',
@@ -63,6 +81,7 @@ export default function Sidebar({
         <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><path d="M10 2l2.5 5 5.5.8-4 3.9.95 5.5L10 14.5l-4.95 2.7L6 11.7 2 7.8l5.5-.8z" fill="currentColor"/></svg>
       ),
       color: 'rose',
+      action: { type: 'sensitive' },
     },
     {
       label: 'Substantial Holders',
@@ -72,6 +91,7 @@ export default function Sidebar({
         <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><path d="M10 2a4 4 0 100 8 4 4 0 000-8zM3 18a7 7 0 0114 0H3z" fill="currentColor"/></svg>
       ),
       color: 'blue',
+      action: { type: 'category', value: 'Substantial Holding' },
     },
     {
       label: 'Bullish Signals',
@@ -81,6 +101,7 @@ export default function Sidebar({
         <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><path d="M2.5 13.5l4-4 3 3 7.5-7.5M17 5v5m0-5h-5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
       ),
       color: 'emerald',
+      action: { type: 'category', value: 'Bullish' },
     },
     {
       label: 'Bearish Signals',
@@ -90,6 +111,7 @@ export default function Sidebar({
         <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><path d="M17.5 6.5l-4 4-3-3-7.5 7.5M2.5 15v-5m0 5h5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
       ),
       color: 'fuchsia',
+      action: { type: 'category', value: 'Bearish' },
     },
     {
       label: 'Neutral',
@@ -99,16 +121,9 @@ export default function Sidebar({
         <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><path d="M4 10h12" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/></svg>
       ),
       color: 'slate',
+      action: { type: 'category', value: 'Neutral' },
     },
-    {
-      label: 'Active Tickers',
-      value: log ? new Set(log.announcements.map(a => a.ticker)).size : '–',
-      sub: 'companies active',
-      icon: (
-        <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><circle cx="10" cy="10" r="8" stroke="currentColor" strokeWidth="1.8"/><path d="M7 10.5l2 2 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
-      ),
-      color: 'indigo',
-    },
+
     {
       label: 'Trading Halts',
       value: haltCount,
@@ -117,6 +132,7 @@ export default function Sidebar({
         <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><rect x="5" y="4" width="4" height="12" rx="1.5" fill="currentColor"/><rect x="11" y="4" width="4" height="12" rx="1.5" fill="currentColor"/></svg>
       ),
       color: 'amber',
+      action: { type: 'category', value: 'Trading Halt' },
     },
   ];
 
@@ -260,7 +276,7 @@ export default function Sidebar({
           Market Overview
         </label>
         <div className="grid grid-cols-2 gap-2.5">
-          {stats.map(({ label, value, sub, icon, color }) => {
+          {stats.map(({ label, value, sub, icon, color, action }) => {
             const cssVar = (
               color === 'indigo' || color === 'blue' ? 'accent'
               : color === 'emerald' ? 'success'
@@ -269,32 +285,119 @@ export default function Sidebar({
               : color === 'slate' ? 'text-dim'
               : 'accent'
             );
+
+            // Determine if this card's filter is currently active
+            const isActive = (
+              action?.type === 'all' ? activeCategory === 'All Activity' && !marketSensitiveOnly
+              : action?.type === 'sensitive' ? marketSensitiveOnly
+              : action?.type === 'category' ? activeCategory === action.value
+              : false
+            );
+
+            const handleClick = () => {
+              if (!action) return;
+              if (action.type === 'all') {
+                onCategoryChange('All Activity');
+                onMarketSensitiveToggle && marketSensitiveOnly && onMarketSensitiveToggle();
+              } else if (action.type === 'sensitive') {
+                onMarketSensitiveToggle();
+              } else if (action.type === 'category') {
+                onCategoryChange(isActive ? 'All Activity' : action.value);
+              }
+            };
+
             return (
-              <div key={label}
-                className={`relative rounded-[14px] p-3.5 border group cursor-default overflow-hidden hover:-translate-y-0.5 hover:brightness-110 transition-all duration-200`}
+              <button
+                key={label}
+                onClick={handleClick}
+                disabled={!action}
+                className={`relative rounded-[14px] p-3.5 border overflow-hidden transition-all duration-200 text-left
+                  ${ action ? 'cursor-pointer hover:-translate-y-0.5 hover:brightness-110 active:scale-[0.98]' : 'cursor-default' }`}
                 style={{
-                  background: `color-mix(in srgb, var(--${cssVar}), transparent 92%)`,
-                  borderColor: `color-mix(in srgb, var(--${cssVar}), transparent 80%)`,
-                  boxShadow: 'var(--glow-accent)',
+                  background: isActive
+                    ? `color-mix(in srgb, var(--${cssVar}), transparent 80%)`
+                    : `color-mix(in srgb, var(--${cssVar}), transparent 92%)`,
+                  borderColor: isActive
+                    ? `color-mix(in srgb, var(--${cssVar}), transparent 50%)`
+                    : `color-mix(in srgb, var(--${cssVar}), transparent 80%)`,
+                  boxShadow: isActive
+                    ? `0 0 18px color-mix(in srgb, var(--${cssVar}), transparent 60%), inset 0 1px 0 rgba(255,255,255,0.08)`
+                    : 'none',
                 }}>
-                <div className={`w-6 h-6 rounded-lg flex items-center justify-center mb-2.5`}
-                  style={{ 
+                {/* Active indicator dot */}
+                {isActive && (
+                  <span className="absolute top-2.5 right-2.5 w-1.5 h-1.5 rounded-full animate-pulse"
+                    style={{ background: `var(--${cssVar})`, boxShadow: `0 0 6px var(--${cssVar})` }} />
+                )}
+                <div className="w-6 h-6 rounded-lg flex items-center justify-center mb-2.5"
+                  style={{
                     background: `color-mix(in srgb, var(--${cssVar}), transparent 85%)`,
                     color: `var(--${cssVar})`
                   }}>
                   {icon}
                 </div>
-                <div className={`font-mono text-[1.55rem] font-bold leading-none tracking-tight mb-1`}
-                   style={{ color: `var(--${cssVar})` }}>
+                <div className="font-mono text-[1.55rem] font-bold leading-none tracking-tight mb-1"
+                  style={{ color: `var(--${cssVar})` }}>
                   {value}
                 </div>
                 <div className="text-[0.6rem] font-semibold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>
                   {label}
                 </div>
-              </div>
+              </button>
             );
           })}
         </div>
+      </div>
+
+      {/* ── Market Sensitive Toggle ── */}
+      <div className="px-6 py-4 flex-shrink-0" style={{ borderBottom: '1px solid rgba(255,255,255,0.045)' }}>
+        <button
+          onClick={onMarketSensitiveToggle}
+          className="w-full flex items-center justify-between px-4 py-3 rounded-xl text-[0.82rem] font-bold tracking-wide transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 border"
+          style={marketSensitiveOnly ? {
+            background: 'color-mix(in srgb, #f43f5e, transparent 85%)',
+            border: '1px solid color-mix(in srgb, #f43f5e, transparent 65%)',
+            color: '#fda4af',
+            boxShadow: '0 4px 20px rgba(244,63,94,0.2), inset 0 1px 0 rgba(255,255,255,0.08)',
+          } : {
+            background: 'rgba(255,255,255,0.03)',
+            border: '1px solid rgba(255,255,255,0.07)',
+            color: 'rgba(148,163,184,0.7)',
+            boxShadow: 'none',
+          }}
+        >
+          <span className="flex items-center gap-2.5">
+            {/* Star / sensitive icon */}
+            <span className="w-6 h-6 rounded-lg flex items-center justify-center flex-shrink-0"
+              style={marketSensitiveOnly ? {
+                background: 'rgba(244,63,94,0.2)',
+              } : {
+                background: 'rgba(255,255,255,0.06)',
+              }}>
+              <svg viewBox="0 0 20 20" fill="currentColor" className="w-3.5 h-3.5">
+                <path d="M10 2l2.5 5 5.5.8-4 3.9.95 5.5L10 14.5l-4.95 2.7L6 11.7 2 7.8l5.5-.8z" />
+              </svg>
+            </span>
+            Market Sensitive
+          </span>
+          {/* Toggle pill */}
+          <span className="relative w-9 h-5 rounded-full transition-all duration-200 flex-shrink-0"
+            style={marketSensitiveOnly ? {
+              background: 'linear-gradient(135deg, #f43f5e, #fb923c)',
+              boxShadow: '0 0 12px rgba(244,63,94,0.5)',
+            } : {
+              background: 'rgba(255,255,255,0.1)',
+            }}>
+            <span className="absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white shadow transition-all duration-200"
+              style={marketSensitiveOnly ? { transform: 'translateX(16px)' } : {}} />
+          </span>
+        </button>
+        {marketSensitiveOnly && (
+          <p className="text-[0.65rem] font-medium mt-2 flex items-center gap-1.5" style={{ color: 'rgba(253,164,175,0.7)' }}>
+            <span className="w-1.5 h-1.5 rounded-full bg-rose-400 animate-pulse" />
+            Showing {sensitiveCount} market-sensitive only
+          </p>
+        )}
       </div>
 
       {/* ── Export Button ── */}

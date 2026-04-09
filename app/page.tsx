@@ -26,6 +26,7 @@ export default function Dashboard() {
   const [search, setSearch] = useState('');
   const [activeCategory, setActiveCategory] = useState('All Activity');
   const [activeTags, setActiveTags] = useState<Set<string>>(new Set());
+  const [marketSensitiveOnly, setMarketSensitiveOnly] = useState(false);
   const [theme, setTheme] = useState<'dark' | 'light'>('dark');
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -119,6 +120,7 @@ export default function Dashboard() {
   const filtered = useMemo<Announcement[]>(() => {
     if (!log) return [];
     return log.announcements.filter(ann => {
+      if (marketSensitiveOnly && !ann.market_sensitive) return false;
       if (activeCategory !== 'All Activity') {
         const cleanCat = activeCategory.toLowerCase();
         if (cleanCat === 'bullish' || cleanCat === 'bearish' || cleanCat === 'neutral') {
@@ -139,7 +141,7 @@ export default function Dashboard() {
       }
       return true;
     });
-  }, [log, activeCategory, activeTags, search]);
+  }, [log, activeCategory, activeTags, search, marketSensitiveOnly]);
 
   const tagCounts = useMemo<Record<string, number>>(() => {
     if (!log) return {};
@@ -183,7 +185,7 @@ export default function Dashboard() {
     setActiveTags(prev => { const next = new Set(prev); if (next.has(tag)) next.delete(tag); else next.add(tag); return next; });
   }
   function handleViewChange(v: ViewMode) { setViewMode(v); localStorage.setItem('vitti-view', v); }
-  function handleCsvDownload() {
+  const handleCsvDownload = useCallback(() => {
     if (!sorted.length) return;
     const headers = ['Ticker', 'Company', 'Headline', 'Time', 'Market Sensitive', 'Sentiment', 'Summary', 'Tags', 'URL'];
     const rows = sorted.map(a => [
@@ -197,9 +199,19 @@ export default function Dashboard() {
     const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
-    a.href = url; a.download = `Vitti_ASX_Export_${date}.csv`; a.click();
+    // Build a descriptive filename that reflects active filters
+    const filterSlug = activeCategory !== 'All Activity'
+      ? `_${activeCategory.replace(/[^a-z0-9]/gi, '-').toLowerCase()}`
+      : activeTags.size > 0
+        ? `_tagged-${[...activeTags].slice(0, 2).join('-').replace(/[^a-z0-9]/gi, '-').toLowerCase()}`
+        : search.trim()
+          ? `_search-${search.trim().replace(/[^a-z0-9]/gi, '-').toLowerCase()}`
+          : '';
+    a.href = url;
+    a.download = `Vitti_ASX_Export_${date}${filterSlug}_${sorted.length}rows.csv`;
+    a.click();
     URL.revokeObjectURL(url);
-  }
+  }, [sorted, date, activeCategory, activeTags, search]);
 
   const dateLabel = date
     ? new Date(date + 'T00:00:00').toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' })
@@ -250,7 +262,11 @@ export default function Dashboard() {
           log={log}
           filtered={sorted.length}
           activeTags={activeTags}
-          onDateChange={d => { setDate(d); setActiveCategory('All Activity'); setActiveTags(new Set()); setSearch(''); }}
+          activeCategory={activeCategory}
+          marketSensitiveOnly={marketSensitiveOnly}
+          onMarketSensitiveToggle={() => setMarketSensitiveOnly(v => !v)}
+          onCategoryChange={setActiveCategory}
+          onDateChange={d => { setDate(d); setActiveCategory('All Activity'); setActiveTags(new Set()); setSearch(''); setMarketSensitiveOnly(false); }}
           onTagToggle={handleTagToggle}
           onCsvDownload={handleCsvDownload}
           tagCounts={tagCounts}
