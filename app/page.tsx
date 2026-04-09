@@ -203,7 +203,7 @@ export default function Dashboard() {
     const filterSlug = activeCategory !== 'All Activity'
       ? `_${activeCategory.replace(/[^a-z0-9]/gi, '-').toLowerCase()}`
       : activeTags.size > 0
-        ? `_tagged-${[...activeTags].slice(0, 2).join('-').replace(/[^a-z0-9]/gi, '-').toLowerCase()}`
+        ? `_tagged-${Array.from(activeTags).slice(0, 2).join('-').replace(/[^a-z0-9]/gi, '-').toLowerCase()}`
         : search.trim()
           ? `_search-${search.trim().replace(/[^a-z0-9]/gi, '-').toLowerCase()}`
           : '';

@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Allow reading files from the logs directory (outside app/)
-  serverExternalPackages: [],
+  // Option serverExternalPackages removed as it is invalid/unnecessary in Next.js 14.2.3
 };
 
 export default nextConfig;
