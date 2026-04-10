@@ -1,9 +1,235 @@
 {
   "date": "2026-04-10",
-  "total": 35,
-  "market_sensitive_count": 21,
-  "generated_at": "2026-04-09T23:24:45.724501+00:00",
+  "total": 47,
+  "market_sensitive_count": 33,
+  "generated_at": "2026-04-10T00:08:02.158669+00:00",
   "announcements": [
+    {
+      "ticker": "MFG",
+      "company": "MAGELLAN FINANCIAL GROUP LIMITED",
+      "headline": "2026 EGM presentation and proxy summary",
+      "time": "2026-04-09T23:53:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03077507-2A1665713",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Magellan Financial Group has released its EGM presentation and proxy summary for 2026, signaling active shareholder engagement on governance or strategic matters that could reshape the company's direction amid ongoing FUM recovery efforts.",
+        "The proxy summary will reveal institutional voting intentions on key resolutions, providing critical insight into whether major shareholders support or oppose management's proposed changes — a key signal for market confidence in the board's strategic vision.",
+        "The EGM context suggests potential board composition changes, capital management initiatives, or structural proposals that investors should monitor closely, as outcomes could materially impact Magellan's ability to stabilize fund flows and rebuild its premium asset management franchise."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ERE",
+      "company": "EUROPEAN RESOURCES LIMITED",
+      "headline": "Security Class Suspension from Quotation - EREN and EREOA",
+      "time": "2026-04-09T23:48:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03077504-2A1665710",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX has suspended quotation of both EREN ordinary shares and EREOA options, indicating a serious compliance or regulatory issue that removes all secondary market liquidity for holders.",
+        "Suspension of multiple security classes simultaneously suggests a material corporate event — potentially failure to meet listing requirements, outstanding disclosure obligations, or a pending enforcement action that institutional investors should treat as a significant red flag.",
+        "Investors are effectively locked in with no exit mechanism until the suspension is lifted; the path to reinstatement will depend on the company satisfying ASX conditions, which could involve recapitalization, compliance remediation, or potential delisting risk."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "FG1",
+      "company": "FLYNN GOLD LIMITED",
+      "headline": "Flynn Ramps Up Gold Exploration at Golden Ridge, NE Tasmania",
+      "time": "2026-04-09T23:46:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03077502-3A691103",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Flynn Gold is accelerating exploration at its Golden Ridge project in NE Tasmania, signaling management confidence in the prospectivity of the tenement and willingness to deploy capital into drill-ready targets.",
+        "As a junior explorer with no production revenue, the ramp-up in exploration activity will accelerate cash burn — investors should monitor the company's cash runway and potential near-term capital raise requirements to fund ongoing programs.",
+        "Positive exploration momentum and market-sensitive classification suggest the company may be positioning for newsflow catalysts (assay results, resource estimates), which could drive re-rating if results confirm high-grade gold mineralization."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TOT",
+      "company": "360 CAPITAL REIT",
+      "headline": "Leasing Update",
+      "time": "2026-04-09T23:45:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03077499-2A1665706",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "360 Capital REIT has announced a leasing update, signaling active tenant engagement and portfolio management activity that directly impacts occupancy rates and forward rental income visibility.",
+        "Positive leasing momentum is a key driver for REIT valuations, as improved occupancy and lease terms underpin distributable earnings and reduce vacancy risk across the portfolio.",
+        "Investors should monitor the specifics of lease tenure, rental escalation terms, and any incentive packages offered, as these will determine the net effective rent impact and whether the update is accretive to FY distributions."
+      ],
+      "tags": [
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NNW",
+      "company": "NANUK NEW WORLD FUND (CURRENCY HEDGED) ACTIVE ETF",
+      "headline": "Pause in Trading",
+      "time": "2026-04-09T23:42:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03077495-2A1665703",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nanuk New World Fund (Currency Hedged) Active ETF has entered a trading pause, likely pending a material announcement that could affect NAV or fund structure.",
+        "As a currency-hedged thematic ETF focused on sustainability/new world sectors, any structural change (e.g., fund termination, merger, or rebalancing disclosure) could have meaningful implications for unitholders' hedging costs and exposure.",
+        "Investors should await the pending announcement before taking action; trading pauses in ETFs are relatively uncommon and typically signal significant operational or structural developments rather than routine updates."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CGH",
+      "company": "CLAREMONT GLOBAL FUND (HEDGED) ACTIVE ETF",
+      "headline": "Pause in Trading",
+      "time": "2026-04-09T23:41:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03077491-2A1665700",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Claremont Global Fund (Hedged) Active ETF has entered a trading pause, typically indicating a pending material announcement such as a corporate action, NAV adjustment, or structural change to the fund.",
+        "As a hedged global equity ETF, a trading pause may relate to significant portfolio rebalancing, distribution announcement, or potential changes to the fund's management or investment mandate that require orderly market disclosure.",
+        "Investors should await the accompanying announcement that triggered the pause; trading halts for ETFs are relatively uncommon and often signal substantive changes rather than routine administrative matters, warranting close monitoring upon resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IVZ",
+      "company": "INVICTUS ENERGY LTD",
+      "headline": "Environmental Impact Assessment Renewal",
+      "time": "2026-04-09T23:36:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03077489-6A1319975",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Invictus Energy has secured renewal of its Environmental Impact Assessment (EIA) certificate for its Cabora Bassa project in Zimbabwe, removing a key regulatory hurdle that could have stalled exploration and appraisal activities.",
+        "The EIA renewal is a prerequisite for continued drilling operations and farm-in partner engagement; without it, the company's ability to monetize its gas/oil discovery would face significant delays, impacting an already tight cash runway for a pre-revenue explorer.",
+        "With the regulatory pathway now clear, the market will refocus on Invictus's ability to secure funding or a farm-out partner for its next drilling campaign — the EIA renewal de-risks the asset but does not resolve the critical capital question."
+      ],
+      "tags": [
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ERE",
+      "company": "EUROPEAN RESOURCES LIMITED",
+      "headline": "Renounceable Rights Issue - Repricing",
+      "time": "2026-04-09T23:33:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03077485-2A1665694",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "European Resources has repriced its renounceable rights issue, signaling weaker-than-expected demand at the original offer price and potential difficulty in raising targeted capital",
+        "Repricing of a rights issue typically implies a lower issue price per share, increasing dilution for non-participating shareholders and reflecting deteriorating market sentiment toward the stock",
+        "Investors should monitor the revised terms closely for take-up rate implications and assess whether the repriced raise provides sufficient cash runway to fund near-term exploration or operational commitments"
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RML",
+      "company": "RESOLUTION MINERALS LTD",
+      "headline": "Antimony Ridge Model Shows Extensive Antimony Vein Swarms",
+      "time": "2026-04-09T23:32:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03077483-2A1665692",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "3D geological modelling at Antimony Ridge (NT, Australia) reveals extensive antimony-bearing vein swarms across multiple prospects, significantly expanding the scale of the mineralised system and reinforcing the project's strategic importance given antimony's critical mineral status and surging prices above US$60,000/t.",
+        "The modelling identifies coherent, steeply-dipping vein structures extending over substantial strike lengths and depths, providing high-confidence drill targets that could materially de-risk the resource potential ahead of planned drilling programs.",
+        "With antimony supply chains under geopolitical pressure following China's export restrictions, Resolution Minerals is well-positioned to attract investor and offtake interest as it advances toward resource definition drilling at a project in a tier-1 jurisdiction."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LDX",
+      "company": "LUMOS DIAGNOSTICS HOLDINGS LIMITED",
+      "headline": "Prospectus",
+      "time": "2026-04-09T23:31:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03077480-2A1665690",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lumos Diagnostics has lodged a prospectus, signaling an imminent capital raise that will dilute existing shareholders — a critical consideration for current holders of this micro-cap diagnostics company.",
+        "The prospectus filing suggests the company likely needs to shore up its cash runway, consistent with the typical funding challenges faced by pre-profit or early-revenue healthcare/diagnostics firms on the ASX.",
+        "Investors should closely monitor the offer terms (pricing, discount to market, and use of proceeds) to assess the degree of dilution and whether funds are earmarked for growth initiatives or working capital survival."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MRQ",
+      "company": "MRG METALS LIMITED",
+      "headline": "More High-Grade Heavy Minerals Alluvial Assays at Adriano",
+      "time": "2026-04-09T23:27:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03077472-3A691099",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MRG Metals reports additional high-grade heavy mineral (HM) assay results from alluvial sampling at its Adriano project, reinforcing the prospectivity of the target area and potentially expanding the mineralised footprint beyond prior drilling results.",
+        "High-grade alluvial assays are technically significant as they validate surface expression of heavy mineral concentrations, which can de-risk future resource drilling programs and support the case for economic HM grades at depth.",
+        "As a pre-revenue explorer, the key watch is whether these results translate into a maiden or upgraded mineral resource estimate and whether MRG will need to raise additional capital to fund follow-up drilling — investors should monitor cash runway closely given the company's micro-cap status."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GNM",
+      "company": "GREAT NORTHERN MINERALS LIMITED",
+      "headline": "$1.9M Received and Golden Ant Divestment Completed",
+      "time": "2026-04-09T23:20:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03077465-6A1319969",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Great Northern Minerals has completed the divestment of its Golden Ant project, receiving $1.9M in cash proceeds — a meaningful liquidity event for a micro-cap explorer that strengthens near-term cash runway.",
+        "The $1.9M inflow provides balance sheet flexibility to fund ongoing exploration or corporate activities without immediate need for dilutive capital raising, a positive signal for existing shareholders.",
+        "With the Golden Ant divestment finalized, the company can now streamline its portfolio focus toward its remaining core assets, with investors watching for redeployment strategy and upcoming exploration catalysts."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AGI",
       "company": "AINSWORTH GAME TECHNOLOGY LIMITED",
