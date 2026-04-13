@@ -50,7 +50,7 @@ jobs:
 
           if weekday < 5:  # Mon–Fri
               # 09:00–09:55 window (every ~5 min, tolerate delay)
-              if hour >= 8 and and hour <10 and  minute <= 59:
+              if hour >= 8 and hour <10 and  minute <= 59:
                   run = True
 
               # 10:00–14:00 hourly with tolerance (<= 30 min)
