@@ -1,9 +1,313 @@
 {
   "date": "2026-04-13",
-  "total": 84,
-  "market_sensitive_count": 72,
-  "generated_at": "2026-04-12T23:51:15.313065+00:00",
+  "total": 100,
+  "market_sensitive_count": 88,
+  "generated_at": "2026-04-13T01:04:13.024167+00:00",
   "announcements": [
+    {
+      "ticker": "WHI",
+      "company": "WHITEFIELD INCOME LIMITED",
+      "headline": "Whitefield Income Monthly Divs Apr, May, Jun",
+      "time": "2026-04-13T00:32:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078070-2A1666127",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Whitefield Income Limited has declared monthly dividends for April, May, and June, reinforcing its commitment to regular income distributions for shareholders in a listed investment company structure.",
+        "The forward declaration of three months of dividends provides income visibility and cash flow certainty for yield-focused institutional and retail investors, a key differentiator for income-oriented LICs on the ASX.",
+        "Consistent dividend scheduling signals stable underlying portfolio income generation and supports the stock's appeal as a defensive yield play amid uncertain macro conditions; investors should monitor franking levels and any changes to distribution quantum."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "QEM",
+      "company": "QEM LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-13T00:14:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078065-6A1320193",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "QEM Limited has entered a trading halt, typically requested by the company pending a material announcement that could significantly impact its share price.",
+        "As a junior mining/resources company focused on its Julia Creek vanadium and oil shale project, trading halts often precede capital raises, project updates, or strategic transactions that may affect cash runway and dilution risk.",
+        "Investors should await the pending announcement before repositioning; the halt signals imminent material news, with capital raise being the most common catalyst for small-cap ASX resource companies requesting voluntary halts."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LPM",
+      "company": "LITHIUM PLUS MINERALS LTD.",
+      "headline": "Chief Executive Officer appointed to accelerate Lei Lithium",
+      "time": "2026-04-13T00:05:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078058-2A1666121",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lithium Plus Minerals has appointed a dedicated CEO to accelerate development of its Lei Lithium project, signaling a strategic shift from exploration-phase governance to active project advancement and operational readiness.",
+        "The appointment of a CEO specifically tasked with accelerating the Lei Lithium asset suggests the company is moving toward key development milestones — potentially feasibility studies, permitting, or offtake negotiations — which could be catalytic for re-rating in a depressed lithium market.",
+        "Investors should monitor for near-term announcements on project timelines, funding strategy, and whether this executive hire precedes a capital raise to fund the next phase of development, as the appointment alone does not address cash runway or resource economics."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BLG",
+      "company": "BLUGLASS LIMITED",
+      "headline": "BLG completes A$8 million Placement to accelerate growth",
+      "time": "2026-04-13T00:01:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078050-2A1666087",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "BluGlass completed an A$8 million placement to institutional and sophisticated investors, providing growth capital but introducing dilution to existing shareholders at what is likely a discount to the prevailing share price.",
+        "The capital raise is positioned to accelerate growth initiatives, suggesting the company is at an inflection point in commercializing its GaN laser diode technology, though the relatively modest raise size indicates near-term cash needs rather than transformational funding.",
+        "Investors should monitor the use of proceeds, any accompanying SPP for retail shareholders, and whether this runway extends operations sufficiently to reach key revenue or technical milestones — the raise signals confidence in near-term catalysts but also highlights ongoing cash burn in this pre-profit technology company."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NNW",
+      "company": "NANUK NEW WORLD FUND (CURRENCY HEDGED) ACTIVE ETF",
+      "headline": "NNWH-lifting of trading halt",
+      "time": "2026-04-13T00:00:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078049-2A1666114",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt on NNWH (Nanuk New World Fund Currency Hedged Active ETF) has been lifted, restoring normal trading and liquidity for unitholders on the ASX.",
+        "The halt was likely procedural in nature, potentially related to NAV reconciliation, portfolio rebalancing, or administrative requirements typical for active ETF structures — no indication of material adverse events.",
+        "Resumption of trading signals operational normalcy; investors should monitor for any accompanying announcements regarding underlying portfolio changes or fund-level disclosures that may have triggered the original halt."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PKD",
+      "company": "PARKD LTD",
+      "headline": "PKD Strategic Investment by Azzurri Concrete",
+      "time": "2026-04-13T00:00:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078048-6A1320191",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Azzurri Concrete, a major precast concrete manufacturer, has made a strategic investment in PARKD Ltd, providing both capital and a potential pathway to commercial validation of PARKD's modular parking structure technology through an industry partner.",
+        "The investment signals strategic alignment with a concrete supply chain participant, which could de-risk PARKD's go-to-market execution by embedding a key materials supplier as a financially aligned stakeholder — critical for a pre-revenue company.",
+        "The partnership with Azzurri may accelerate PARKD's ability to secure pilot projects and demonstrate commercial viability of its prefabricated car park systems, with the strategic investor likely providing manufacturing expertise and supply chain efficiencies."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "QEM",
+      "company": "QEM LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-04-12T23:57:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078046-6A1320189",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "QEM Limited has requested a pause in trading, which is market sensitive — typically indicating a pending material announcement such as a capital raise, asset transaction, or significant corporate development.",
+        "As a junior explorer/developer (Julia Creek vanadium-oil shale project), any trading halt raises questions about cash runway and potential dilutive funding given the company's pre-revenue status and ongoing development expenditure.",
+        "Investors should await the accompanying announcement that triggered the halt; the nature of the pending news (capital raise vs. strategic partnership vs. regulatory update) will be the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CUE",
+      "company": "CUE ENERGY RESOURCES LIMITED",
+      "headline": "New Gas Sales Agreement Supports Two New Palm Valley Wells",
+      "time": "2026-04-12T23:56:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078045-3A691200",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "New gas sales agreement at Palm Valley provides revenue visibility and commercial underpinning for two new development wells, de-risking the investment decision and supporting near-term production growth for Cue Energy's onshore Australian gas portfolio.",
+        "The commitment to drill two new wells at Palm Valley signals confidence in reservoir deliverability and demand dynamics in the Northern Territory gas market, likely requiring modest capex funded from existing cash flows or reserves given Cue's minority interest in the joint venture.",
+        "Securing offtake ahead of drilling materially reduces execution risk and strengthens Cue's forward cash flow profile, with production uplift from new wells expected to offset natural decline rates and potentially improve the company's valuation on a reserves-per-share basis."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ERE",
+      "company": "EUROPEAN RESOURCES LIMITED",
+      "headline": "Prospectus",
+      "time": "2026-04-12T23:52:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078043-2A1666113",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "European Resources Limited has lodged a Prospectus, signaling an imminent capital raise that will dilute existing shareholders but provide fresh funding for operations or project advancement.",
+        "As a market-sensitive announcement, the prospectus likely details specific offer terms, pricing, and use of proceeds — institutional investors should scrutinize the discount to market price and dilution impact on a micro-cap with limited liquidity.",
+        "The capital raise extends the company's cash runway, which is critical for early-stage resource explorers, but the need to tap equity markets may reflect limited alternative funding options and near-term cash constraints."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TZL",
+      "company": "TZ LIMITED",
+      "headline": "TZL Announces Completion of Placement",
+      "time": "2026-04-12T23:50:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078037-2A1666112",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "TZ Limited has completed a capital raising placement, providing immediate liquidity but introducing shareholder dilution — a common trade-off for micro-cap companies needing to fund operations or growth initiatives.",
+        "The completion of the placement signals that institutional or sophisticated investor demand was sufficient to fill the raise, which provides a near-term cash runway extension for the company's technology-focused operations.",
+        "Investors should monitor the use of proceeds disclosure and any subsequent SPP (Share Purchase Plan) offering to retail shareholders, as well as the dilutive impact on per-share metrics and whether the funds are directed toward revenue-generating activities or working capital."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NTM",
+      "company": "NT MINERALS LIMITED",
+      "headline": "Proposed Acquisition of Slipstream Paynes Find",
+      "time": "2026-04-12T23:50:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078035-6A1320150",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "NT Minerals is proposing to acquire Slipstream Resources' Paynes Find project, signaling a strategic push to consolidate gold or mineral assets in Western Australia's established Paynes Find mining district.",
+        "As a market-sensitive M&A announcement for a micro-cap explorer, investors should scrutinize the deal structure closely — likely involving scrip consideration which could be dilutive, and assess whether the target asset materially enhances NT Minerals' resource base or near-term production pathway.",
+        "Key next steps include due diligence completion, shareholder approval requirements, and clarity on funding mechanics; the deal's value-accretive potential hinges on the quality of the Paynes Find tenements and whether they provide a credible path toward resource definition or production."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EML",
+      "company": "EML PAYMENTS LIMITED",
+      "headline": "FY26 Underlying EBITDA Guidance Revised",
+      "time": "2026-04-12T23:50:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078033-2A1666110",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EML Payments has revised its FY26 underlying EBITDA guidance, signaling a material change in near-term earnings expectations that will recalibrate consensus estimates and likely trigger analyst model revisions.",
+        "The direction of the revision (upgrade or downgrade) is critical — given EML's ongoing transformation and cost restructuring efforts, any downward revision would raise concerns about the sustainability of its turnaround trajectory and cash generation capacity.",
+        "Investors should watch for updated commentary on segment performance (particularly the European prepaid cards and gift card divisions), regulatory cost impacts, and whether management reaffirms or adjusts medium-term strategic targets alongside this guidance change."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "VKA",
+      "company": "VIKING MINES LIMITED",
+      "headline": "VIKING COMMENCES TRADING ON US OTC MARKETS",
+      "time": "2026-04-12T23:49:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078031-6A1320188",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Viking Mines has commenced trading on the US OTC Markets, broadening its investor base and improving accessibility for US-based institutional and retail investors seeking exposure to the company's assets.",
+        "OTC listing is a low-cost mechanism to increase liquidity and visibility without a full US exchange listing; however, for a junior explorer like Viking, the near-term volume impact on the ASX-listed stock is likely modest.",
+        "The move signals management's intent to attract North American capital, which could support future capital raises and reduce reliance on a narrow Australian investor base — watch for follow-on US-targeted marketing or placement activity."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CLA",
+      "company": "CELSIUS RESOURCES LIMITED.",
+      "headline": "Corporate Update",
+      "time": "2026-04-12T23:48:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078029-6A1320187",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Celsius Resources has issued a market-sensitive corporate update, likely addressing key operational or strategic developments across its copper-gold portfolio in the Philippines and Namibia, signaling material changes for investors to assess.",
+        "The 'Corporate Update' classification without specific deal or results language suggests potential restructuring, project milestone, funding arrangement, or strategic pivot that could materially impact the company's valuation and near-term trajectory.",
+        "Investors should closely monitor the specifics of this update for implications on cash runway, project development timelines, and any capital management decisions that could affect dilution risk or unlock value catalysts."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTP",
+      "company": "CENTRAL PETROLEUM LIMITED",
+      "headline": "New Gas Sale Agreement underwrites two new Palm Valley wells",
+      "time": "2026-04-12T23:44:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078028-6A1320186",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Central Petroleum has secured a new Gas Sale Agreement that directly underwrites the drilling of two new wells at Palm Valley, de-risking capital expenditure and providing revenue visibility for the asset.",
+        "The commitment to two new Palm Valley wells signals confidence in reserve deliverability and should support near-term production growth in the Northern Territory gas market, where supply remains tight and pricing favourable.",
+        "The GSA provides contracted cash flow certainty that strengthens Central Petroleum's financial position, potentially extending cash runway and reducing reliance on spot market exposure or additional capital raises."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WYX",
+      "company": "WESTERN YILGARN NL",
+      "headline": "Granted Status given over Gascoyne Gold Projects",
+      "time": "2026-04-12T23:43:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078026-6A1320185",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Western Yilgarn has received granted status on its Gascoyne Gold Projects tenements, removing a key regulatory hurdle and providing the company with secure tenure to advance exploration activities in the prospective Gascoyne region of Western Australia.",
+        "Tenement grant status is a material de-risking event for a junior explorer, as it converts pending applications into enforceable exploration rights, potentially enhancing the company's asset value and attractiveness to joint venture partners or acquirers.",
+        "With granted tenure now in hand, the company can proceed to plan and execute on-ground exploration programs including drilling, which will be the next key catalyst — investors should monitor for upcoming work program announcements and associated funding requirements."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "C7A",
       "company": "CLARA RESOURCES AUSTRALIA LTD",
