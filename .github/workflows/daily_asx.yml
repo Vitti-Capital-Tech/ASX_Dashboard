@@ -94,8 +94,8 @@ jobs:
           PYTHONUNBUFFERED: "1"
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GROQ_MODEL: ${{ vars.GROQ_MODEL }}
-          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          GROQ_MODEL: ${{ secrets.GROQ_MODEL }}
+          ANTHROPIC_MODEL: ${{ secrets.ANTHROPIC_MODEL }}
         run: |
           # Blank date → default logic in fetch_asx.py (scheduled runs have no inputs)
           if [ -n "${{ github.event.inputs.date }}" ]; then
