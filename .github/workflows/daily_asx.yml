@@ -8,7 +8,14 @@ on:
   # Weekends: no fetch (gate off). Manual workflow_dispatch always runs the fetch.
   # 9am AEST = 23:00 UTC | 2pm AEST = 04:00 UTC
   schedule:
-    - cron: "*/5 22,0,1,2,3,4 * * 1-5"
+   # Every 5 min during first hour (08:00–09:00 AEST)
+  - cron: "*/5 22 * * 1-5"
+
+  # Every 5 min during first hour (09:00–10:00 AEST)
+  - cron: "*/5 23 * * 1-5"
+
+  # Every hour after that (10:00–14:00 AEST)
+  - cron: "0 0-4 * * 1-5"
 
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
@@ -49,8 +56,8 @@ jobs:
           run = False
 
           if weekday < 5:  # Mon–Fri
-              # 09:00–09:55 window (every ~5 min, tolerate delay)
-              if hour >= 8 and hour <10 and  minute <= 59:
+              # 08:00–09:55 window (every ~5 min, tolerate delay)
+              if hour >= 8 and hour < 10 and  minute <= 59:
                   run = True
 
               # 10:00–14:00 hourly with tolerance (<= 30 min)
