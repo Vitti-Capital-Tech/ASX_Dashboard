@@ -1,9 +1,143 @@
 {
   "date": "2026-04-15",
-  "total": 81,
-  "market_sensitive_count": 73,
-  "generated_at": "2026-04-14T23:38:24.070588+00:00",
+  "total": 88,
+  "market_sensitive_count": 80,
+  "generated_at": "2026-04-14T23:58:23.461736+00:00",
   "announcements": [
+    {
+      "ticker": "ADN",
+      "company": "ANDROMEDA METALS LIMITED",
+      "headline": "Great White Project Early Works Update",
+      "time": "2026-04-14T23:52:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078959-2A1666593",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Andromeda Metals has provided an early works update on its Great White kaolin project, signaling progress toward development milestones which is critical for de-risking the asset and maintaining investor confidence in the project timeline.",
+        "Early works activities are a precursor to full construction and indicate the company is advancing toward production readiness, though the update likely details preparatory infrastructure rather than revenue-generating operations, keeping near-term cash burn in focus.",
+        "Progress on Great White is strategically significant as the project targets the high-purity alumina (HPA) and halloysite-kaolin market; investors should monitor for subsequent announcements on final investment decision, offtake agreements, and funding arrangements to assess commercial viability."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FID",
+      "company": "FIDUCIAN GROUP LIMITED",
+      "headline": "Appendix 4C quarterly & Update",
+      "time": "2026-04-14T23:50:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078957-2A1666588",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Fiducian Group's quarterly 4C filing provides updated cash flow visibility for the wealth management and funds platform business, with market-sensitive designation suggesting material operational or financial developments beyond routine reporting.",
+        "The accompanying 'Update' component signals management is providing forward-looking commentary or revised guidance alongside the cash flow statement, likely addressing funds under management (FUM) trends, net flows, or margin dynamics in the current market environment.",
+        "As a capital-light financial services business, Fiducian typically operates cash-flow positive; investors should scrutinize net operating cash flows relative to prior quarters and any commentary on FUM growth trajectory, adviser recruitment, and platform fee compression pressures."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OVT",
+      "company": "OVANTI LIMITED",
+      "headline": "OVT raises $5.27 million to advance global BNPL and Super Ap",
+      "time": "2026-04-14T23:50:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078956-2A1666591",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ovanti Limited raised $5.27 million in fresh capital to fund expansion of its global Buy Now Pay Later (BNPL) and Super App platforms, providing critical growth funding but introducing meaningful dilution for existing shareholders.",
+        "The $5.27 million raise provides near-term cash runway to accelerate product development and market penetration, though investors should scrutinize the terms (pricing, discount to market, any attaching options) to assess the true dilutive impact on per-share value.",
+        "Strategic focus on BNPL and Super App positions OVT in competitive fintech segments; execution risk remains elevated as the company must demonstrate revenue traction and user growth to justify the capital deployment against well-funded incumbents."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MQR",
+      "company": "MARQUEE RESOURCES LIMITED",
+      "headline": "MQR Redlings REE and ORNL NEAREST Investor Presentation",
+      "time": "2026-04-14T23:48:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078953-6A1320527",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Marquee Resources is presenting investor-facing materials on its Redlings Rare Earth Elements (REE) project, signaling active promotion of the asset at a time of heightened global interest in critical minerals supply chains.",
+        "The reference to ORNL (Oak Ridge National Laboratory) NEAREST program suggests MQR has engaged with a leading US government research institution for REE processing/characterization, potentially de-risking the technical pathway and adding credibility to the project's commercial viability.",
+        "As a micro-cap explorer, the market-sensitive designation on an investor presentation implies material new data or project milestones are being disclosed; investors should watch for updated resource estimates, metallurgical results, or strategic partnership details that could catalyze a re-rating."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LPM",
+      "company": "LITHIUM PLUS MINERALS LTD.",
+      "headline": "Trading Halt",
+      "time": "2026-04-14T23:46:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078952-2A1666587",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Lithium Plus Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update that requires price-sensitive disclosure.",
+        "As a junior lithium explorer, the halt likely signals either a capital raising to fund exploration/development activities or a potential asset transaction — both common catalysts for small-cap mining companies in the current lithium market environment.",
+        "Investors should await the formal announcement before repositioning; if a capital raise is confirmed, expect dilution pressure, while a strategic transaction or significant exploration result could provide upside catalyst."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RNV",
+      "company": "RENERVE LIMITED",
+      "headline": "Nerve Guide Matrix Enters Stage 3 of Commercial Development",
+      "time": "2026-04-14T23:45:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078951-6A1320526",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Renerve's Nerve Guide Matrix advancing to Stage 3 of commercial development represents a significant de-risking milestone, moving the product closer to market-ready status and potential revenue generation in the peripheral nerve repair space.",
+        "As a pre-revenue medtech company, progression through development stages is a critical value inflection point — investors should monitor remaining cash runway and whether this milestone triggers partnership discussions or necessitates further capital raising to fund commercialisation.",
+        "Stage 3 typically involves scale-up manufacturing, regulatory submissions, and pre-commercial activities — successful completion would position Renerve for market entry, though timeline and additional funding requirements remain key variables for near-term valuation."
+      ],
+      "tags": [
+        "Healthcare",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OM1",
+      "company": "OMNIA METALS GROUP LTD",
+      "headline": "OM1 Enters US Critical Minerals with Key Acquisitions",
+      "time": "2026-04-14T23:36:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078946-6A1320508",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "OMNIA Metals (OM1) is entering the US critical minerals space through key acquisitions, positioning the company to capitalize on growing US government incentives and supply chain security mandates under the Defense Production Act and Inflation Reduction Act frameworks.",
+        "As a micro-cap ASX explorer pivoting to US critical minerals, the deal's financial terms (consideration structure, dilution impact, and funding requirements) will be critical — investors should scrutinize whether the acquisitions are accretive or represent a speculative re-rating play with significant execution risk.",
+        "The strategic pivot signals management's intent to leverage the US critical minerals premium narrative; near-term catalysts will include completion of due diligence, shareholder approval if required, and clarity on any associated capital raise to fund development of the newly acquired assets."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "EDE",
       "company": "EDEN INNOVATIONS LTD",
