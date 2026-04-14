@@ -1,9 +1,294 @@
 {
   "date": "2026-04-15",
-  "total": 66,
-  "market_sensitive_count": 58,
-  "generated_at": "2026-04-14T23:18:53.950886+00:00",
+  "total": 81,
+  "market_sensitive_count": 73,
+  "generated_at": "2026-04-14T23:38:24.070588+00:00",
   "announcements": [
+    {
+      "ticker": "EDE",
+      "company": "EDEN INNOVATIONS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-04-14T23:33:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078941-6A1320522",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Eden Innovations (EDE) has entered a trading halt, typically indicating a pending material announcement such as a capital raise, strategic transaction, or significant operational update.",
+        "As a small-cap technology/clean energy company with historically tight cash reserves, any capital raise would likely be dilutive to existing shareholders, while a strategic partnership or contract win could be transformative for the company's valuation.",
+        "Investors should await the detailed announcement expected within the ASX-mandated two-business-day halt period to assess whether the news is accretive or dilutive before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AOF",
+      "company": "AUSTRALIAN UNITY OFFICE FUND",
+      "headline": "Update on the conditional sale of 150 Charlotte Street",
+      "time": "2026-04-14T23:32:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078939-3A691366",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Unity Office Fund is progressing the conditional sale of 150 Charlotte Street, Brisbane — a key asset disposal that signals active portfolio rationalization and potential capital recycling for the REIT.",
+        "Completion of the sale would materially impact the fund's asset base, gearing ratios, and distributable income profile; investors should monitor the sale price relative to book value for any implied write-down or premium realization.",
+        "The conditional nature of the sale introduces execution risk — key next steps include satisfaction of conditions precedent, with settlement timing and use of proceeds (debt reduction vs. redistribution) critical to near-term NAV and distribution guidance."
+      ],
+      "tags": [
+        "Property",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CHR",
+      "company": "CHARGER METALS NL",
+      "headline": "Medcalf Spodumene Mineralisation Continues to Grow",
+      "time": "2026-04-14T23:32:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078938-6A1320521",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Charger Metals reports continued expansion of spodumene (lithium-bearing) mineralisation at its Medcalf project, signalling growing resource potential that could materially enhance the project's economic viability and attract strategic interest.",
+        "Progressive drilling results are extending the known mineralised footprint, which is critical for underpinning a future JORC resource upgrade — a key de-risking catalyst for junior lithium explorers in the current market.",
+        "Next steps likely include further infill and extensional drilling to define resource boundaries, with a potential maiden or updated resource estimate on the horizon that could serve as a re-rating trigger for the stock."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LDR",
+      "company": "LODE RESOURCES LTD",
+      "headline": "Trading Halt",
+      "time": "2026-04-14T23:32:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078937-2A1666579",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "LODE RESOURCES LTD has entered a trading halt, typically requested by the company pending a material announcement that could significantly impact the share price.",
+        "As a junior mining/exploration company, trading halts frequently precede capital raises (placement or rights issue), which could result in dilution for existing shareholders, or alternatively may signal a significant exploration result or corporate transaction.",
+        "Investors should await the pending announcement before taking positions; the halt will likely be lifted within 1-2 trading days once the material information is disclosed to the market."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XRF",
+      "company": "XRF SCIENTIFIC LIMITED",
+      "headline": "March 2026 Quarterly Trading Report",
+      "time": "2026-04-14T23:28:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078933-6A1320519",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "XRF Scientific's March 2026 quarterly trading report is market sensitive, indicating material financial updates that institutional investors need to assess for potential re-rating of the stock.",
+        "As a niche manufacturer of XRF sample preparation equipment and platinum labware, quarterly revenue and margin trends will signal demand strength from mining and laboratory sectors — key leading indicators for the resources supply chain.",
+        "Investors should scrutinize cash flow generation, order book commentary, and any updated guidance to evaluate whether XRF's growth trajectory supports its premium small-cap valuation on the ASX."
+      ],
+      "tags": [
+        "Quarterly",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AAM",
+      "company": "AUMEGA METALS LTD",
+      "headline": "AuMEGA Metals Closes C$30.1 Million Financing",
+      "time": "2026-04-14T23:27:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078931-6A1320518",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AuMEGA Metals successfully closed a C$30.1 million financing, providing substantial capital to advance its exploration and development programs — a significant raise for a junior explorer that materially extends cash runway.",
+        "The C$30.1M raise signals strong institutional appetite and confidence in the company's asset base, though investors should monitor the dilutive impact on existing shareholders depending on the terms and pricing of the placement.",
+        "Proceeds are expected to fund near-term exploration catalysts and project advancement, positioning the company for potential value-accretive milestones that could re-rate the stock if drill results or resource updates deliver."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NOX",
+      "company": "NOXOPHARM LIMITED",
+      "headline": "Noxopharm appoints Dr Olivier Laczka as new CEO",
+      "time": "2026-04-14T23:27:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078930-3A691365",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Noxopharm appoints Dr Olivier Laczka as new CEO, signaling a strategic leadership refresh for the clinical-stage oncology and inflammation biotech; his background will be critical in advancing the pipeline through upcoming clinical milestones.",
+        "CEO transitions at micro-cap biotechs like Noxopharm (market cap sub-$20M) can be pivotal — new leadership may bring fresh capital market relationships and strategic direction, but also introduces execution uncertainty during a period when cash runway management is paramount.",
+        "Investors should watch for near-term strategic updates from the new CEO regarding prioritization of the Veyonda (idronoxil) program and any potential shifts in partnering strategy, capital allocation, or clinical trial timelines that could materially alter the company's trajectory."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IMM",
+      "company": "IMMUTEP LIMITED",
+      "headline": "Immutep receives FDA ODD for Efti in Soft Tissue Sarcoma",
+      "time": "2026-04-14T23:27:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078929-2A1666575",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FDA Orphan Drug Designation (ODD) for eftilagimod alpha (efti) in soft tissue sarcoma provides significant regulatory and commercial advantages including 7 years of market exclusivity post-approval, tax credits for clinical trial costs, and waived FDA application fees — materially de-risking the development pathway.",
+        "ODD validates efti's potential in an underserved oncology indication with limited treatment options, strengthening Immutep's pipeline narrative and potentially enhancing partnering leverage; soft tissue sarcoma represents a niche but high-value orphan market with premium pricing potential.",
+        "Designation accelerates Immutep's regulatory strategy and complements its broader LAG-3 platform development; investors should monitor upcoming clinical data readouts and cash runway (historically tight for pre-revenue biotech) to assess whether the company can advance efti through pivotal trials without significant dilutive capital raises."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TSL",
+      "company": "TITANIUM SANDS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-14T23:26:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078928-6A1320517",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Titanium Sands Limited has entered a trading halt, typically requested by the company pending a material announcement that could significantly impact its share price.",
+        "As a micro-cap mineral sands explorer, trading halts often precede capital raises, project updates, or corporate transactions — any of which could materially affect the company's tight cash runway and valuation.",
+        "Investors should await the pending announcement before repositioning; the halt will likely lift within two business days with clarity on whether the news is dilutive (capital raise) or value-accretive (project milestone or deal)."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RGL",
+      "company": "RIVERSGOLD LIMITED",
+      "headline": "Impressive Kalgoorlie Gold Project Drilling Results Continue",
+      "time": "2026-04-14T23:22:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078921-6A1320516",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Riversgold continues to deliver strong gold drilling results at its Kalgoorlie project, reinforcing the prospectivity of the tenement package in one of Australia's most prolific gold districts — a key de-risking signal for early-stage explorers.",
+        "Continuation of 'impressive' intercepts suggests potential for resource definition or expansion, which could materially re-rate the company if grades and widths support economic mineralisation at shallow depths.",
+        "Ongoing drilling momentum positions Riversgold for potential resource estimation milestones; investors should monitor for follow-up assays, updated geological models, and any move toward a maiden or upgraded JORC resource that could attract corporate interest or funding."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LRV",
+      "company": "LARVOTTO RESOURCES LIMITED",
+      "headline": "Hillgrove Development Advancing on Schedule",
+      "time": "2026-04-14T23:22:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078920-6A1320515",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hillgrove gold-antimony project development is tracking on schedule, signaling execution discipline and reducing de-risking concerns for a critical-minerals asset with strategic antimony exposure amid global supply tightness",
+        "On-schedule progress supports the company's pathway to production without flagging cost overruns or timeline slippage, which is material for a junior miner where capital efficiency and timeline adherence directly impact cash runway and investor confidence",
+        "Continued development momentum positions Larvotto to capitalize on elevated antimony prices driven by China's export restrictions, with near-term catalysts likely tied to further construction milestones and commissioning updates"
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WHK",
+      "company": "WHITEHAWK LIMITED",
+      "headline": "WhiteHawk Raises $1.5m at Premium",
+      "time": "2026-04-14T23:21:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078918-6A1320499",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WhiteHawk raised $1.5m at a premium to the prevailing market price, signaling strong investor confidence and demand for the cybersecurity company's equity at current levels.",
+        "Raising at a premium is relatively uncommon for micro-cap ASX-listed companies and suggests institutional or sophisticated investor appetite, reducing the typical dilutive impact on existing shareholders.",
+        "The $1.5m capital injection extends WhiteHawk's cash runway to support continued growth in its US government and enterprise cybersecurity risk management platform, with proceeds likely directed toward sales expansion and working capital."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MGU",
+      "company": "MAGNUM MINING AND EXPLORATION LIMITED",
+      "headline": "NEW MANAGING DIRECTOR TO LEAD MAGNUM GROWTH",
+      "time": "2026-04-14T23:20:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078916-6A1320514",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "Magnum Mining has appointed a new Managing Director to drive the company's growth strategy, signaling a strategic leadership refresh aimed at accelerating project development and value creation.",
+        "The appointment of a dedicated MD (versus a non-executive led structure) suggests the board sees sufficient near-term catalysts to warrant full-time executive leadership, potentially indicating upcoming operational milestones or capital deployment plans.",
+        "Investors should monitor for updated strategic direction, project timelines, and any associated capital raising activity that typically accompanies new executive appointments at junior exploration companies."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "XEN",
+      "company": "XENITRA LIMITED",
+      "headline": "Acquisition of Fukang OTC Pharmacy",
+      "time": "2026-04-14T23:20:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078915-2A1666569",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Xenitra is acquiring Fukang OTC Pharmacy, signaling a strategic push into the Chinese pharmaceutical retail sector — a move that diversifies revenue streams but introduces cross-border execution and regulatory risk for a small-cap ASX entity.",
+        "The acquisition of an operational pharmacy business could provide immediate revenue contribution, though the financial terms, valuation metrics, and funding mechanism will be critical to assess whether the deal is accretive or dilutive to existing shareholders.",
+        "Investors should watch for disclosure on purchase consideration (cash vs scrip), integration timeline, and how this fits Xenitra's broader corporate strategy — the market-sensitive tag suggests material impact on the company's financial profile and direction."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Healthcare",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GNM",
+      "company": "GREAT NORTHERN MINERALS LIMITED",
+      "headline": "Acquisition of Advanced Gold-Silver Project in Nevada",
+      "time": "2026-04-14T23:19:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078913-6A1320485",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Great Northern Minerals is acquiring an advanced gold-silver project in Nevada, USA, signaling a strategic pivot or diversification away from its existing Australian asset base into a tier-1 mining jurisdiction with established permitting frameworks.",
+        "The acquisition of an advanced-stage project (rather than greenfield) suggests potential for accelerated development timelines and near-term resource delineation, though the deal terms, consideration structure, and any associated dilution will be critical for assessing value accretion.",
+        "Investors should watch for details on the acquisition price, funding mechanism (cash vs scrip vs capital raise), existing JORC/43-101 resource estimates, and the company's cash runway to advance the Nevada project alongside its current portfolio commitments."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "SER",
       "company": "STRATEGIC ENERGY RESOURCES LIMITED",
