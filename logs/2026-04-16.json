@@ -1,9 +1,274 @@
 {
   "date": "2026-04-16",
-  "total": 60,
-  "market_sensitive_count": 51,
-  "generated_at": "2026-04-15T23:24:00.310662+00:00",
+  "total": 74,
+  "market_sensitive_count": 65,
+  "generated_at": "2026-04-15T23:37:29.488372+00:00",
   "announcements": [
+    {
+      "ticker": "NMT",
+      "company": "NEOMETALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-04-15T23:31:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079415-6A1320699",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "NeoMetals Ltd has entered a trading halt, typically requested by the company pending a material announcement that could significantly impact its share price.",
+        "As a lithium/vanadium/titanium-focused company, the halt could relate to a strategic transaction, asset deal, or partnership update given the active M&A environment in the critical minerals space.",
+        "Investors should await the pending announcement before repositioning; trading halts for NeoMetals historically have preceded material corporate developments including JV updates and asset monetisation events."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LIT",
+      "company": "LIVIUM LTD",
+      "headline": "Sell & Parker Agreement Variation",
+      "time": "2026-04-15T23:31:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079414-6A1320700",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Livium has varied its agreement with Sell & Parker, a key commercial relationship likely tied to its battery recycling or metals recovery operations, signaling evolving commercial terms that could affect revenue or cost structures.",
+        "As a market-sensitive announcement, the variation likely involves material changes to pricing, volume commitments, or contract duration that could meaningfully impact near-term cash flows for this micro-cap company with limited revenue diversification.",
+        "Investors should monitor whether the variation is favorable (expanded scope, better pricing) or defensive (reduced commitments, extended timelines), as this will be critical for assessing Livium's path to commercial viability and cash runway sustainability."
+      ],
+      "tags": [
+        "Other",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NUZ",
+      "company": "NEURIZON THERAPEUTICS LIMITED",
+      "headline": "Placement of Entitlement Offer Shortfall",
+      "time": "2026-04-15T23:28:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079411-6A1320698",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Neurizon has placed the shortfall from its entitlement offer, indicating the initial pro-rata raise was undersubscribed by existing shareholders, requiring placement to third parties to complete the capital raise.",
+        "Shortfall placement completes the funding round, providing the biotech with additional cash runway to advance its therapeutic pipeline, though the need to place shortfall shares suggests limited demand at the offer price.",
+        "The placement results in additional dilution for non-participating shareholders; investors should monitor the final raise amount, use of proceeds, and updated cash runway to assess whether funding is sufficient to reach the next clinical milestone."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BB1",
+      "company": "BLINKLAB LIMITED",
+      "headline": "BlinkLab Secures A$17.5M to Launch Autism Diagnostic Aid",
+      "time": "2026-04-15T23:27:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079410-6A1320676",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BlinkLab secured A$17.5M in funding to advance its smartphone-based autism diagnostic aid toward commercialization, providing significant capital runway for a pre-revenue digital health company and validating investor confidence in its technology platform.",
+        "The raise size of A$17.5M is substantial relative to BlinkLab's likely market capitalization, implying meaningful dilution for existing shareholders but materially de-risking the balance sheet and funding the critical path to regulatory clearance and market launch.",
+        "Near-term catalysts include FDA/TGA regulatory submissions for the autism diagnostic tool, with proceeds earmarked for clinical validation studies and go-to-market infrastructure — execution on these milestones will be key to justifying the capital injection."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NGS",
+      "company": "NUTRITIONAL GROWTH SOLUTIONS LTD",
+      "headline": "Board and Executive Update",
+      "time": "2026-04-15T23:25:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079406-6A1320697",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Board and executive leadership changes at Nutritional Growth Solutions signal potential strategic pivot or governance restructuring, which for a micro-cap company can materially alter operational direction and investor confidence.",
+        "Leadership turnover at this stage may reflect challenges in execution or capital management — investors should scrutinize whether departures are voluntary or forced and assess implications for the company's limited cash runway and commercialization timeline.",
+        "Market-sensitive designation suggests the changes are substantive rather than routine; watch for follow-up announcements regarding strategic review, capital raising activity, or revised guidance that typically accompany significant board reshuffles in small-cap healthcare/nutrition companies."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WMG",
+      "company": "WESTERN MINES GROUP LTD",
+      "headline": "Project Portfolio Review and New Project Acquisition",
+      "time": "2026-04-15T23:24:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079405-6A1320696",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Western Mines Group is conducting a strategic portfolio review alongside a new project acquisition, signaling a potential pivot or expansion in its asset base that could reshape the company's exploration and development pipeline.",
+        "The market-sensitive nature of this announcement suggests the acquisition is material relative to WMG's current market capitalization, warranting close attention to deal terms, consideration structure (cash vs scrip), and any associated dilution risk for existing shareholders.",
+        "Investors should monitor upcoming details on the acquired project's resource potential, stage of development, and how the acquisition aligns with WMG's cash position and funding strategy — a portfolio review often precedes asset divestments or write-downs to fund new priorities."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MM1",
+      "company": "MIDAS MINERALS LTD",
+      "headline": "Initial Resource at Otavi - Investor Presentation",
+      "time": "2026-04-15T23:23:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079403-6A1320664",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Midas Minerals has announced an initial Mineral Resource Estimate at its Otavi project in Namibia, a key de-risking milestone that transitions the asset from exploration-stage to resource-stage, potentially unlocking re-rating catalysts for the micro-cap explorer.",
+        "The investor presentation format suggests the company is actively marketing the resource to institutional and retail investors, likely positioning ahead of a potential capital raise or strategic partnership to fund further development and resource expansion drilling.",
+        "Establishment of an initial resource at Otavi provides a foundation for scoping/pre-feasibility studies and future resource growth, with near-term catalysts likely including infill drilling programs, metallurgical testwork, and potential resource upgrades that could materially impact valuation."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MM1",
+      "company": "MIDAS MINERALS LTD",
+      "headline": "Midas raises $28m to advance Otavi Project",
+      "time": "2026-04-15T23:22:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079401-6A1320660",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Midas Minerals has raised $28 million in fresh capital, providing substantial funding runway to advance its Otavi Project in Namibia — a significant raise for a junior explorer that signals strong institutional appetite and project conviction.",
+        "The $28m raise represents a material capital injection likely involving meaningful dilution for existing shareholders, though the scale suggests participation from sophisticated or institutional investors willing to back the project's development trajectory.",
+        "Proceeds earmarked for Otavi Project advancement should accelerate exploration and development milestones, with investors now focused on near-term catalysts including drilling results, resource updates, and feasibility work that must justify the capital deployed."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MM1",
+      "company": "MIDAS MINERALS LTD",
+      "headline": "Initial High-Grade Inferred Copper & Silver Resource, Otavi",
+      "time": "2026-04-15T23:22:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079399-6A1320657",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Midas Minerals has delivered its maiden JORC Inferred Resource at the Otavi Copper-Silver Project in Namibia, a key de-risking milestone that establishes a quantified resource base and supports further exploration and development investment.",
+        "The 'high-grade' characterisation of the copper and silver resource is significant for a junior explorer, as it implies potentially economic mineralisation that could attract farm-in partners or support future feasibility studies, enhancing the project's strategic value.",
+        "With an initial resource now in hand, the market will focus on next steps including infill drilling to upgrade resource confidence to Indicated/Measured categories, metallurgical testwork, and scoping studies — all of which will determine the pathway to potential development and further re-rating catalysts."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "L1M",
+      "company": "LIGHTNING MINERALS LTD",
+      "headline": "GOLD AND COPPER FOCUS WITH MT TURNER FLAGSHIP",
+      "time": "2026-04-15T23:22:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079398-6A1320695",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lightning Minerals is repositioning Mt Turner as its flagship project with a sharpened strategic focus on gold and copper, signaling a portfolio rationalization that could concentrate investor attention on higher-value commodities.",
+        "The pivot to gold and copper exposure is well-timed given elevated gold prices and strong copper demand fundamentals, potentially enhancing the company's re-rating prospects among resource-focused investors.",
+        "As a junior explorer, key watch items include upcoming drilling programs, resource definition milestones at Mt Turner, and cash runway adequacy to fund meaningful exploration without near-term dilutive capital raises."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ION",
+      "company": "IONDRIVE LIMITED",
+      "headline": "Iondrive Advances US-Focused Rare Earth Recycling Technology",
+      "time": "2026-04-15T23:20:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079396-2A1666811",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Iondrive is advancing rare earth recycling technology targeting the US market, positioning itself within the critical minerals supply chain diversification theme strongly supported by US government policy and funding incentives.",
+        "The US-focused strategy aligns with growing bipartisan support for domestic rare earth processing independence from China, potentially opening access to DOE grants, DOD contracts, and IRA-related subsidies that could materially de-risk the company's capital requirements.",
+        "As an early-stage technology play, investors should monitor upcoming milestones around pilot-scale demonstration, partnership announcements, and cash burn rate — commercial viability and timeline to revenue remain key risks for this micro-cap."
+      ],
+      "tags": [
+        "Technology",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BRU",
+      "company": "BURU ENERGY LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-15T23:19:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079395-6A1320694",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Buru Energy has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant operational update in its Canning Basin operations.",
+        "As a small-cap E&P company with limited cash reserves, any capital raise would likely be dilutive to existing shareholders, while an asset deal or farm-in could be value-accretive depending on terms.",
+        "Investors should await the detailed announcement expected within two business days; the nature of the pending news (equity raise vs. operational milestone vs. corporate transaction) will be the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TG6",
+      "company": "TG METALS LIMITED",
+      "headline": "Significant Increase in Indicated Resource at Van Uden",
+      "time": "2026-04-15T23:17:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079392-6A1320692",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TG Metals has significantly upgraded the Indicated Resource category at its Van Uden nickel-copper-PGE deposit, a key de-risking milestone that enhances project confidence and positions the asset closer to feasibility-stage evaluation.",
+        "The conversion from Inferred to Indicated Resource reflects improved geological confidence through additional drilling, which is critical for underpinning future ore reserve estimates and attracting potential development partners or offtake interest.",
+        "The upgraded resource base strengthens TG Metals' strategic positioning in the battery metals space; next catalysts likely include scoping/pre-feasibility studies and further exploration to test resource extensions, though project economics remain subject to nickel price recovery."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMU",
+      "company": "AMERICAN URANIUM LTD",
+      "headline": "Completion of Placement",
+      "time": "2026-04-15T23:17:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079391-6A1320693",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "American Uranium Ltd has completed a capital raising placement, securing fresh funding to advance its uranium exploration and development activities amid a supportive uranium price environment.",
+        "The placement introduces dilution for existing shareholders, a typical near-term headwind, though the capital injection extends the company's cash runway and reduces near-term funding risk for project milestones.",
+        "Investors should monitor the use of proceeds — whether directed toward drilling programs, resource definition, or corporate costs — as this will determine whether the raise is value-accretive or merely sustaining operations."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "VEA",
       "company": "VIVA ENERGY GROUP LIMITED",
