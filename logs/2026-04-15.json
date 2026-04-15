@@ -1,9 +1,516 @@
 {
   "date": "2026-04-15",
-  "total": 105,
-  "market_sensitive_count": 89,
-  "generated_at": "2026-04-15T04:59:11.703341+00:00",
+  "total": 132,
+  "market_sensitive_count": 95,
+  "generated_at": "2026-04-15T22:20:47.231123+00:00",
   "announcements": [
+    {
+      "ticker": "DGL",
+      "company": "DGL GROUP LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-04-15T09:00:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079227-3A691414",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DGL Group Limited shares are being reinstated to quotation on the ASX, ending a prior trading halt or suspension period that had prevented investor access to liquidity.",
+        "The reinstatement is flagged as market sensitive, suggesting the underlying issue that triggered the halt (likely a material announcement, compliance matter, or corporate action) has now been resolved or disclosed.",
+        "Investors should closely review the accompanying announcements made during the suspension period to assess any fundamental changes to DGL's financial position, operations, or corporate structure before re-engaging with the stock."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GYG",
+      "company": "GUZMAN Y GOMEZ LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-15T08:59:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079225-2A1666742",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Guzman y Gomez (GYG) has filed a change in their holding, signaling active portfolio rebalancing by a major institutional investor in the high-growth QSR chain.",
+        "The filing is classified as not market sensitive, suggesting the change in holding likely reflects a marginal shift around the 5% threshold rather than a dramatic accumulation or disposal that would alter the free-float dynamics materially.",
+        "Investors should monitor whether this reflects profit-taking after GYG's strong post-IPO performance or strategic repositioning ahead of upcoming earnings updates, as institutional flow patterns can foreshadow near-term sentiment shifts."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LIN",
+      "company": "LINDIAN RESOURCES LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-15T08:58:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079224-6A1320613",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Lindian Resources, crossing the 5% ownership threshold, signaling increased institutional or strategic interest in the junior mining company.",
+        "The filing is classified as not market sensitive, suggesting this is a routine disclosure rather than a precursor to an imminent takeover or activist campaign, though accumulation patterns warrant monitoring.",
+        "Investors should watch for follow-up filings indicating further share accumulation, potential board engagement, or strategic positioning ahead of Lindian's bauxite project development milestones."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TON",
+      "company": "TRITON MINERALS LTD",
+      "headline": "Maiden Drilling Confirms Gold Mineralisation with Copper Ano",
+      "time": "2026-04-15T08:29:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079218-6A1320606",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Maiden drilling program at Triton Minerals has confirmed gold mineralisation with associated copper anomalism, representing a significant de-risking milestone for the company's exploration thesis and potentially broadening the project's commodity exposure beyond graphite.",
+        "The presence of both gold and copper mineralisation in initial drilling results suggests a polymetallic system that could materially enhance the project's economic potential, though assay grades and widths will be critical to assess commercial viability in follow-up announcements.",
+        "Expect near-term catalysts including detailed assay results, geological modelling, and likely planning for follow-up drilling programs to define the extent and grade of mineralisation — investors should watch for resource definition timelines and potential capital requirements to fund expanded exploration."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EQR",
+      "company": "EQ RESOURCES LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-15T08:15:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079216-2A1666741",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in EQ Resources Limited, indicating a meaningful reduction in ownership below the 5% threshold, which may signal a shift in institutional conviction or portfolio rebalancing.",
+        "The exit of a substantial holder can increase free float and potentially improve liquidity, but may also reflect concerns about the company's near-term valuation or tungsten market outlook given EQ Resources' mining focus.",
+        "Investors should monitor whether this is an isolated event or part of a broader pattern of institutional selling, and watch for any follow-up disclosures or changes in the company's register that could impact share price support levels."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NAN",
+      "company": "NANOSONICS LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-15T08:04:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079213-2A1666738",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Nanosonics Limited (NAN), crossing the 5% ownership threshold, signaling growing institutional conviction in the infection prevention technology company.",
+        "The accumulation of a substantial position by a major investor may reflect confidence in Nanosonics' growth trajectory, particularly its Trophon device installed base expansion and pipeline development including the CORIS platform.",
+        "While substantial holder notices are procedural, the entry of a new large shareholder can improve secondary market liquidity and may precede further accumulation, warranting monitoring of subsequent Form 604 filings for directional intent."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GYG",
+      "company": "GUZMAN Y GOMEZ LIMITED",
+      "headline": "Change in substantial holding from MUFG",
+      "time": "2026-04-15T07:49:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079209-2A1666735",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "MUFG (Mitsubishi UFJ Financial Group) has filed a change in substantial holding for Guzman y Gomez, indicating a shift in position by a major global institutional investor in the fast-casual dining chain.",
+        "Changes in MUFG's holding likely reflect portfolio rebalancing across its asset management subsidiaries (e.g., First Sentier, Mitsubishi UFJ Trust) rather than a directional conviction call, given the filing is flagged as not market sensitive.",
+        "Institutional investors should monitor whether this forms part of a broader trend of international fund flows into or out of GYG, which listed on the ASX in mid-2024 and has seen elevated institutional interest amid its aggressive Australian and US expansion strategy."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NAG",
+      "company": "NAGAMBIE RESOURCES LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-15T07:47:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079206-3A691416",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Nagambie Resources, indicating a meaningful reduction in ownership below the 5% threshold, which may signal diminished confidence or portfolio rebalancing by a significant investor.",
+        "For a micro-cap explorer like Nagambie Resources, the exit of a substantial holder can reduce share register stability and may increase near-term selling pressure or liquidity volatility.",
+        "Investors should monitor whether this disposal is part of broader institutional de-risking from junior mining/exploration names or company-specific, and watch for any follow-on changes to the register or capital structure."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "A4N",
+      "company": "ALPHA HPA LIMITED",
+      "headline": "Change in substantial holding from MQG",
+      "time": "2026-04-15T07:42:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079201-2A1666732",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Macquarie Group (MQG) has filed a change in substantial holding notice for Alpha HPA, indicating a shift in its ownership stake — movements by major institutional holders often signal evolving conviction on the company's high-purity alumina growth trajectory.",
+        "The nature of the change (increase or decrease) will be critical to interpret; Macquarie's involvement as both a potential lender/advisor and equity holder in Alpha HPA's flagship HPA First project adds layers of strategic significance beyond passive portfolio management.",
+        "Alpha HPA investors should monitor whether this filing reflects routine portfolio rebalancing or a more deliberate positioning ahead of key project milestones, including offtake agreements and project financing for the company's Gladstone facility."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VNT",
+      "company": "VENTIA SERVICES GROUP LIMITED",
+      "headline": "Becoming a substantial holder from MQG",
+      "time": "2026-04-15T07:40:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079199-2A1666728",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Macquarie Group (MQG) has crossed the 5% threshold to become a substantial holder in Ventia Services Group, signaling meaningful institutional accumulation in the infrastructure services provider.",
+        "MQG's newly disclosed substantial position likely reflects conviction in Ventia's defensive earnings profile across infrastructure maintenance and environmental services, sectors benefiting from sustained government spending pipelines in Australia and New Zealand.",
+        "Institutional investors should monitor whether MQG continues to build its position, as further accumulation could tighten the free float and provide share price support, while also watching for any activist or strategic intent behind the stake."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HLS",
+      "company": "HEALIUS LIMITED",
+      "headline": "Becoming a substantial holder from MQG",
+      "time": "2026-04-15T07:38:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079197-2A1666725",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Macquarie Group (MQG) has crossed the 5% threshold to become a substantial holder in Healius Limited, signaling meaningful institutional accumulation in the healthcare diagnostics company during a period of operational restructuring.",
+        "MQG's new substantial position likely reflects a view that Healius is undervalued following its divestment of its day hospitals business and ongoing cost optimization efforts, potentially positioning ahead of an earnings recovery or further corporate activity.",
+        "Institutional investors should monitor whether MQG continues to build its stake, as further accumulation could indicate conviction in Healius's turnaround thesis or foreshadow potential strategic interest, while also providing a degree of share price support near current levels."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WEL",
+      "company": "WINCHESTER ENERGY LTD",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-15T07:20:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079184-6A1320592",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Winchester Energy Ltd, crossing the 5% ownership threshold, signaling concentrated investor interest in this small-cap energy explorer.",
+        "The filing is procedural in nature and classified as not market sensitive, suggesting this is likely a passive accumulation rather than a precursor to a takeover or activist campaign.",
+        "Investors should monitor whether the new substantial holder continues to accumulate shares, which could indicate conviction in Winchester's asset base or foreshadow strategic corporate activity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BOT",
+      "company": "BOT",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-15T07:11:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079178-6A1320590",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in BOT, indicating they have reduced their stake below the 5% disclosure threshold, which may signal diminished conviction or portfolio rebalancing by a significant investor.",
+        "The loss of a substantial holder can reduce institutional ownership visibility and may weigh on near-term liquidity and sentiment, particularly for a micro/small-cap name like BOT where large holder movements carry outsized signaling effects.",
+        "Investors should monitor whether this disposal was part of a broader sell-down or a one-off event, and watch for any follow-up changes in the register or potential overhang from further selling pressure."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TNC",
+      "company": "TNC",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-15T07:06:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079175-6A1320588",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in TNC has filed a change in holding notice, indicating a meaningful shift in ownership structure that institutional investors should monitor for potential block trade activity or strategic positioning.",
+        "The announcement is flagged as not market sensitive, suggesting the change in holding is likely incremental rather than a large-scale acquisition or disposal that would materially alter the shareholder register.",
+        "Investors should track whether this reflects accumulation by a strategic or institutional investor, which could signal confidence in TNC's outlook, or a reduction that may indicate profit-taking or portfolio rebalancing."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SLS",
+      "company": "SLS",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-15T07:05:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079173-6A1320587",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in SLS (Solaris Resources/SilverSun Technologies), crossing the 5% ownership threshold, signaling meaningful institutional or strategic investor conviction in the company's prospects.",
+        "The accumulation of a substantial position typically reflects a considered view on valuation; investors should monitor the identity of the holder and whether they are a strategic party, activist, or passive fund to assess implications for corporate governance and direction.",
+        "While the notice itself is procedural and not flagged as market sensitive, follow-on filings or further share accumulation could foreshadow a takeover approach, board representation push, or simply long-term portfolio positioning — warranting close monitoring of subsequent disclosures."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NSR",
+      "company": "NSR",
+      "headline": "ZSP:National Storage REIT to be removed from the S&P/ASX 200",
+      "time": "2026-04-15T07:02:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079168_PS-2A1666712",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "National Storage REIT (NSR) is being removed from the S&P/ASX 200 index, which will trigger forced selling by passive index-tracking funds and ETFs that replicate the benchmark, creating near-term downward pressure on the stock.",
+        "Index exclusion typically reflects a sustained decline in market capitalisation or free-float liquidity below the threshold required for ASX 200 inclusion, signaling NSR has underperformed relative to peers in the self-storage/property sector.",
+        "Post-rebalance, the forced selling overhang should clear, but NSR may face structurally lower institutional ownership and reduced analyst coverage going forward, potentially widening bid-ask spreads and increasing cost of capital for the REIT."
+      ],
+      "tags": [
+        "Property",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NHC",
+      "company": "NHC",
+      "headline": "New Convertible Notes Offering and Concurrent Repurchase",
+      "time": "2026-04-15T07:02:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079167-2A1666711",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NHC is issuing new convertible notes while simultaneously repurchasing existing notes, signaling proactive liability management to optimize its capital structure and potentially reduce near-term debt servicing costs.",
+        "The concurrent repurchase component partially offsets dilution risk from the new convertible issuance, though net dilution impact will depend on the conversion price, coupon, and volume of notes retired versus issued — key details institutional investors need to assess.",
+        "This dual transaction suggests NHC is taking advantage of current market conditions to extend debt maturity and improve financial flexibility, but the convertible structure introduces potential equity dilution overhang that may weigh on near-term sentiment."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEK",
+      "company": "SEK",
+      "headline": "Becoming a substantial holder from PPT",
+      "time": "2026-04-15T06:57:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079165-3A691408",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Perpetual (PPT) has become a substantial holder in Seek Limited (SEK), crossing the 5% ownership threshold, signaling meaningful institutional accumulation in the online employment marketplace operator.",
+        "The emergence of a new substantial holder from a major Australian fund manager like Perpetual suggests conviction in SEK's valuation at current levels, potentially reflecting a view that the stock is undervalued relative to its Asia-Pacific jobs platform fundamentals.",
+        "Investors should monitor whether Perpetual continues to build its position, as further accumulation could provide a supportive floor for the share price and may precede increased institutional interest from other fund managers reassessing SEK's risk-reward profile."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ORA",
+      "company": "ORA",
+      "headline": "Change in substantial holding from PPT",
+      "time": "2026-04-15T06:57:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079164-3A691407",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Perpetual (PPT) has filed a change in substantial holding for Orora (ORA), indicating an adjustment in its ownership stake — likely a routine portfolio rebalancing by one of Australia's largest fund managers.",
+        "Changes in PPT's substantial holding in ORA are closely watched given Perpetual's significant funds under management; even marginal shifts can signal evolving institutional conviction on the packaging sector amid ongoing margin and debt concerns post the Saverglass acquisition.",
+        "The filing is flagged as not market sensitive, suggesting the change is incremental rather than a material buy or sell — investors should monitor whether this forms part of a broader trend of institutional accumulation or distribution in ORA."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XRO",
+      "company": "XRO",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-15T06:43:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079155-3A691403",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Xero (XRO), triggering a mandatory disclosure under ASX rules — this is a routine regulatory filing and not flagged as market sensitive by the company.",
+        "Changes in substantial holdings for a high-profile SaaS name like Xero are closely watched by institutional investors as they can signal shifts in conviction from major fund managers, though the direction and magnitude of the change require review of the full notice.",
+        "No immediate operational or strategic implications for Xero; investors should monitor whether this reflects portfolio rebalancing or a directional view, and watch for any clustering of similar filings that could indicate broader institutional sentiment shifts."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TNE",
+      "company": "TNE",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-15T06:39:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079151-2A1666699",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Technology One (TNE), indicating their stake has fallen below the 5% disclosure threshold, likely through gradual sell-down or dilution from share issuance.",
+        "The departure of a substantial holder in a high-quality ASX tech name like TNE may reflect profit-taking given the stock's strong re-rating over recent years, rather than a fundamental concern — TNE trades at premium multiples reflecting its recurring SaaS revenue model.",
+        "Institutional investors should monitor whether this represents a single fund rebalancing or part of a broader pattern of register turnover; the filing is procedural and not flagged as market sensitive, suggesting orderly portfolio management rather than a distressed exit."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "A1N",
+      "company": "A1N",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-15T06:38:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079149-2A1666698",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for A1N (African Energy Metals) signals a notable shift in the shareholder register, which institutional investors should monitor for potential changes in corporate influence or strategic direction.",
+        "The filing is classified as not market sensitive by the ASX, suggesting the movement is likely a routine portfolio adjustment rather than an activist or strategic accumulation/disposal event.",
+        "Investors should review the updated holder's identity and percentage change to assess whether this reflects growing institutional conviction or profit-taking, with implications for near-term liquidity and share price support."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GSS",
+      "company": "GSS",
+      "headline": "Danish Supply Agreement - Additional Information",
+      "time": "2026-04-15T06:37:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079148-2A1666697",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GSS has released additional details on its Danish supply agreement, signaling regulatory or commercial progress that warranted a market-sensitive disclosure — likely clarifying contract scope, pricing, or volume terms for institutional scrutiny.",
+        "The supplementary information suggests the company is responding to market or ASX queries about the original announcement, which may firm up revenue visibility and de-risk forward earnings estimates tied to the Danish contract.",
+        "Investors should monitor whether the additional detail confirms material revenue contribution or highlights conditions precedent that could delay cash flow realization — the 'additional information' framing implies the original announcement may have lacked sufficient clarity."
+      ],
+      "tags": [
+        "Other",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AIS",
+      "company": "AIS",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-15T06:29:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079143-6A1320579",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in AIS (Aeris Resources), crossing the 5% ownership threshold, signaling growing institutional or strategic interest in the company's equity.",
+        "The accumulation of a substantial position may reflect confidence in AIS's underlying asset value or operational trajectory, though the identity and intent of the holder will be key to interpreting the signal.",
+        "Investors should monitor for any follow-up notices indicating further accumulation or potential activist/strategic intentions, as substantial holder movements can precede corporate activity or shifts in shareholder dynamics."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NRX",
+      "company": "NRX",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-15T06:28:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079141-6A1320578",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "NRX released its quarterly activities and Appendix 5B cash flow report, providing investors with an updated view of operational progress and cash position — a key disclosure for assessing near-term execution risk.",
+        "Cash flow details in the 5B will reveal the burn rate trajectory and remaining cash runway, which is critical for a company at NRX's stage to determine if additional capital raising may be required in the coming quarters.",
+        "Market-sensitive tagging suggests material updates within the quarterly — investors should scrutinize net operating cash outflows, receipts from customers (if any), and the estimated quarters of funding available to gauge dilution risk or operational inflection."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TAH",
+      "company": "TAH",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-15T05:28:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079114-3A691396",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has reduced their stake in Tabcorp Holdings (TAH) below the 5% threshold, triggering a ceasing to be a substantial holder notice — this signals a meaningful reduction in institutional conviction or portfolio rebalancing by a major shareholder.",
+        "The exit of a substantial holder can increase free float and potentially weigh on near-term price support, as the selling pressure required to move below the 5% threshold typically involves significant volume relative to TAH's market cap.",
+        "Investors should monitor whether this is an isolated portfolio adjustment or part of a broader trend of institutional de-risking in TAH, particularly given ongoing regulatory headwinds and competitive pressures in the Australian wagering and gaming sector."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DRR",
+      "company": "DRR",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-15T05:28:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079113-6A1320571",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in DRR (Deterra Royalties), indicating a significant sell-down below the 5% threshold, which may signal reduced conviction or portfolio rebalancing by a major institutional investor.",
+        "The exit of a substantial holder releases meaningful volume into the market; depending on the pace and method of disposal, this could create near-term overhang pressure on DRR's share price as the market absorbs the freed-up stock.",
+        "Investors should monitor whether this is an isolated event or part of a broader trend of institutional de-risking from royalty/mining exposure, and watch for any subsequent substantial holder notices that may indicate ownership rotation."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "DXI",
       "company": "DEXUS INDUSTRIA REIT.",
