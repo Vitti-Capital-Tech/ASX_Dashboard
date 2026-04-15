@@ -1,9 +1,218 @@
 {
   "date": "2026-04-15",
-  "total": 88,
-  "market_sensitive_count": 80,
-  "generated_at": "2026-04-14T23:58:23.461736+00:00",
+  "total": 99,
+  "market_sensitive_count": 88,
+  "generated_at": "2026-04-15T03:07:03.068526+00:00",
   "announcements": [
+    {
+      "ticker": "TIO",
+      "company": "TEMAS RESOURCES CORP.",
+      "headline": "Temas Announces Non-Brokered Private Placement of $1.5m",
+      "time": "2026-04-15T02:35:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079029-6A1320544",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Temas Resources is raising C$1.5M via non-brokered private placement, signaling limited institutional demand and reliance on insider/retail capital to fund operations.",
+        "The modest raise size suggests the company is addressing near-term working capital needs rather than funding a major growth initiative, with dilution impact dependent on current share count and pricing terms yet to be fully disclosed.",
+        "Non-brokered structure avoids underwriter fees but may indicate difficulty securing broker support; investors should monitor use of proceeds and whether this capital provides sufficient runway to reach the next value inflection point."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ECT",
+      "company": "ENVIRONMENTAL CLEAN TECHNOLOGIES LIMITED.",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-15T02:23:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079028-6A1320543",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Environmental Clean Technologies Limited (ECT) has filed a change in their holding, signaling a shift in institutional or major shareholder positioning in this small-cap clean technology company.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is likely incremental rather than a dramatic accumulation or disposal that would materially alter the shareholder register or imply a takeover approach.",
+        "Investors should monitor whether this forms part of a broader pattern of accumulation or divestment by substantial holders, which could signal evolving institutional sentiment toward ECT's commercialization prospects and cash position."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "C7A",
+      "company": "CLARA RESOURCES AUSTRALIA LTD",
+      "headline": "Geochem review highlights extensive Gold System",
+      "time": "2026-04-15T02:05:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079025-2A1666628",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Geochemical review at Clara Resources has identified an extensive gold system, potentially upgrading the scale and prospectivity of the company's exploration portfolio and supporting a re-rating of its resource potential.",
+        "The characterisation of a broad gold system from historical and new geochem data suggests multiple drill-ready targets, which could materially de-risk future exploration programs and attract farm-in or JV interest from larger operators.",
+        "Next steps likely involve prioritised drill planning to test the newly delineated gold targets; investors should watch for upcoming drill program announcements and funding arrangements, as Clara's micro-cap status means capital raise risk remains elevated to fund follow-up work."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TMK",
+      "company": "TMK ENERGY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-15T01:20:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079007-6A1320539",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in TMK Energy has adjusted their position, triggering a mandatory disclosure under ASX substantial holding rules — this is a routine regulatory filing rather than a strategic corporate action.",
+        "The change in substantial holding may reflect portfolio rebalancing by an institutional or significant investor, with the direction of the change (increase or decrease) being key to interpreting investor conviction in TMK's Mongolian energy assets.",
+        "As a non-market-sensitive filing, this is unlikely to drive near-term price action, but investors should monitor whether this forms part of a broader accumulation or distribution pattern by major holders."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MCG",
+      "company": "MUNRO CONCENTRATED GLOBAL GROWTH ACTIVE ETF",
+      "headline": "Lift in trading pause request",
+      "time": "2026-04-15T01:05:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079001-2A1666617",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Munro Concentrated Global Growth Active ETF has had its trading pause lifted, signaling the resolution of whatever issue prompted the original halt and allowing normal market trading to resume.",
+        "As an active ETF, the trading pause may have been related to portfolio rebalancing, NAV reconciliation, or a pending material disclosure — the lift suggests no ongoing structural concern for unitholders.",
+        "Investors should monitor for any accompanying announcements that may have triggered the original pause, as the lift itself is procedural but the underlying catalyst could carry material implications for fund positioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PYC",
+      "company": "PYC THERAPEUTICS LIMITED",
+      "headline": "ADOA Program - SRC Approve Progression to Multi-Dose Study",
+      "time": "2026-04-15T00:53:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078995-6A1320536",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PYC's Safety Review Committee has approved progression from single-dose to multi-dose cohorts in its Phase 1/2 ADOA (Autosomal Dominant Optic Atrophy) clinical trial, a key de-risking milestone confirming acceptable safety and tolerability in the initial patient cohort.",
+        "Advancement to multi-dose dosing is critical for demonstrating sustained therapeutic effect of PYC's RNA-based therapy in a rare inherited eye disease with no approved treatments, strengthening the program's clinical and commercial value proposition.",
+        "Progression to multi-dose study accelerates the clinical timeline and positions PYC closer to potential efficacy readouts, which could serve as a significant catalyst for partnership discussions or further capital raising to fund later-stage development."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MCG",
+      "company": "MUNRO CONCENTRATED GLOBAL GROWTH ACTIVE ETF",
+      "headline": "Pause in Trading",
+      "time": "2026-04-15T00:46:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078992-2A1666615",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Munro Concentrated Global Growth Active ETF has entered a pause in trading, typically triggered by market-making or NAV-related operational issues rather than fundamental concerns with the underlying portfolio.",
+        "As an active ETF structure, trading pauses can occur when the market maker is unable to provide continuous liquidity or when there is a significant divergence between the indicative NAV and the traded price, requiring recalibration.",
+        "Investors should monitor for the resumption notice and any accompanying disclosure on the cause; prolonged pauses could signal deeper operational or liquidity issues, though most ETF trading halts resolve within the same session."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IFL",
+      "company": "INSIGNIA FINANCIAL LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-15T00:21:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078980-3A691368",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Insignia Financial Ltd (IFL), signaling ongoing institutional portfolio rebalancing amid the company's strategic transformation and the pending Bain Capital acquisition proposal.",
+        "The change in substantial holding is a regulatory disclosure requirement and does not by itself indicate a directional view, though movements in major holder positions warrant monitoring given IFL's current takeover dynamics and potential for competing bids.",
+        "Institutional investors should track whether this reflects accumulation ahead of a potential scheme vote or portfolio trimming, as shifts in the shareholder register can influence deal certainty and any revised offer pricing from Bain Capital or other suitors."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CGR",
+      "company": "CGN RESOURCES LIMITED",
+      "headline": "Heritage Cleared, Drilling Locked In",
+      "time": "2026-04-15T00:18:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078979-6A1320531",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Heritage clearance removes a key permitting risk for CGN Resources, unlocking the pathway to commence drilling operations — a critical de-risking milestone for early-stage explorers that can attract renewed investor interest.",
+        "With drilling now 'locked in,' the company transitions from pre-activity holding pattern to active exploration, which typically catalyses share price re-rating as newsflow accelerates around assay results and target validation.",
+        "Investors should monitor upcoming drill program details (number of holes, target depths, expected timeline for results) and assess CGN's current cash position to determine whether the funded program can deliver meaningful results without near-term dilutive capital raising."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AS1",
+      "company": "ASARA RESOURCES LIMITED",
+      "headline": "Corporate Presentation",
+      "time": "2026-04-15T00:07:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078975-3A691367",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Asara Resources released a market-sensitive corporate presentation, likely showcasing updated project portfolio, exploration results, or strategic direction to attract institutional interest",
+        "As a small-cap ASX-listed resource company, the market-sensitive tag suggests material new information beyond routine updates — potentially including resource estimates, drilling results, or partnership developments that could re-rate the stock",
+        "Investors should scrutinize the presentation for cash runway details, upcoming catalysts, and any capital raise signals, as corporate presentations from junior miners often precede funding activities"
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QEM",
+      "company": "QEM LIMITED",
+      "headline": "Project Acquisition and Placement",
+      "time": "2026-04-14T23:59:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03078967-6A1320523",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "QEM Limited is acquiring a new project alongside a capital raise, signaling strategic portfolio expansion but introducing execution risk on integrating a new asset while advancing its existing Julia Creek vanadium-oil shale project.",
+        "The placement will result in dilution for existing shareholders; the pricing, size, and terms of the raise will be critical in determining whether the acquisition is value-accretive or represents a capital-intensive pivot at a micro-cap level.",
+        "Investors should scrutinize the quality and stage of the acquired project, the use-of-funds breakdown, and whether the raise provides sufficient cash runway to advance both the new acquisition and existing operations without near-term follow-on dilution."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "ADN",
       "company": "ANDROMEDA METALS LIMITED",
