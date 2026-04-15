@@ -1,9 +1,218 @@
 {
   "date": "2026-04-16",
-  "total": 74,
-  "market_sensitive_count": 65,
-  "generated_at": "2026-04-15T23:37:29.488372+00:00",
+  "total": 85,
+  "market_sensitive_count": 76,
+  "generated_at": "2026-04-15T23:58:15.549886+00:00",
   "announcements": [
+    {
+      "ticker": "HZN",
+      "company": "HORIZON OIL LIMITED",
+      "headline": "Second Supplementary Bidder's Statement",
+      "time": "2026-04-15T23:54:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079441-2A1666827",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Horizon Oil has issued a Second Supplementary Bidder's Statement, indicating material updates or corrections to the terms/conditions of an ongoing takeover bid, signaling active M&A progression",
+        "The market-sensitive classification suggests the supplementary statement contains information that could materially affect the bid price, acceptance conditions, or timeline — institutional investors should review for revised offer economics or extended deadlines",
+        "Filing of successive supplementary statements typically reflects evolving deal dynamics, potentially including responses to target board recommendations, competing bids, or regulatory conditions that could influence deal completion probability"
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CXZ",
+      "company": "CONNEXION MOBILITY LTD",
+      "headline": "Quarterly Report",
+      "time": "2026-04-15T23:53:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079439-3A691462",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Connexion Mobility's quarterly report is market-sensitive, signaling material updates on cash position, operational metrics, or strategic developments that investors need to assess for valuation implications.",
+        "As a small-cap technology/mobility company, key focus areas will be quarterly cash burn rate, remaining cash runway, and whether revenue trajectory supports the current operating model without near-term capital raise requirements.",
+        "Investors should scrutinize Appendix 4C details for net operating cash flows versus receipts from customers to gauge commercial traction, with any deterioration in cash runway below 2-3 quarters likely to trigger dilutive funding concerns."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CG1",
+      "company": "CARBONXT GROUP LIMITED",
+      "headline": "Carbonxt Secures $750,000 Convertible Note Funding",
+      "time": "2026-04-15T23:52:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079438-2A1666829",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Carbonxt secures $750,000 via convertible note, signaling tight cash position and reliance on dilutive short-term funding mechanisms typical of micro-cap companies under financial stress.",
+        "Convertible note structure implies future equity dilution for existing shareholders, with conversion terms likely favourable to the note holder given the company's constrained bargaining position.",
+        "The modest $750K raise provides only a limited cash runway extension, suggesting further capital raises are probable in the near term unless the company can rapidly accelerate revenue generation from its activated carbon operations."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ERE",
+      "company": "EUROPEAN RESOURCES LIMITED",
+      "headline": "Korsnas Resource Estimate Increased to 15.4Mt @ 1.00% TREO",
+      "time": "2026-04-15T23:52:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079437-2A1666828",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Korsnas rare earth deposit resource estimate increased to 15.4Mt at 1.00% TREO, representing a material upgrade that enhances the project's scale and potential economic viability in the critical minerals space.",
+        "A 1.00% TREO grade across 15.4Mt positions Korsnas as a potentially significant rare earth resource in Europe, where supply chain sovereignty concerns are driving strategic interest and government funding for domestic critical mineral projects.",
+        "The upgraded resource estimate is expected to underpin further technical studies (scoping/PFS) and could attract strategic partners or offtake interest, though European Resources will likely require additional capital to advance the project toward development."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DTM",
+      "company": "DART MINING NL",
+      "headline": "Infill Drilling Shows Expanding and Broad Gold Zone",
+      "time": "2026-04-15T23:42:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079434-3A691461",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Infill drilling at Dart Mining's gold project confirms an expanding and broad gold zone, suggesting the deposit is larger and more continuous than previously modeled — a material de-risking event for resource estimation upgrades.",
+        "Broadening mineralization widths from infill holes enhance the potential for open-pit or bulk mining scenarios, which could significantly improve project economics and attract development-stage capital or JV interest.",
+        "Results are expected to feed into an updated Mineral Resource Estimate, which would be the key near-term catalyst for re-rating; investors should watch for assay grades and continuity data to validate the geological model."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FME",
+      "company": "FUTURE METALS NL",
+      "headline": "Savannah Plant Assessment for Panton PGM Project",
+      "time": "2026-04-15T23:39:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079427-6A1320706",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Future Metals is assessing the Savannah processing plant as a potential pathway to accelerate development of the Panton PGM (Platinum Group Metals) Project, which could significantly de-risk the project by leveraging existing infrastructure rather than building greenfield processing capacity.",
+        "Utilising an existing plant would materially reduce upfront capex requirements and shorten the timeline to production, a critical consideration for a junior miner likely operating with constrained cash runway and needing to demonstrate a viable path to cash flow generation.",
+        "The assessment signals the company is advancing toward a feasibility/development decision on Panton; investors should watch for results of the plant suitability study and any subsequent offtake or processing agreements that would validate the project's economic viability in the current PGM price environment."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BCN",
+      "company": "BEACON MINERALS LIMITED",
+      "headline": "March Quarter Production Update",
+      "time": "2026-04-15T23:38:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079426-6A1320705",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Beacon Minerals released its March quarter production update, a market-sensitive disclosure signaling material operational metrics for institutional assessment of near-term gold output and cost performance at its Jaurdi Gold Project.",
+        "Quarterly production figures and all-in sustaining costs (AISC) will be critical to evaluate whether Beacon is tracking toward FY25 guidance, with any beat or miss on ounces poured and unit costs directly impacting cash flow projections and valuation multiples.",
+        "Investors should monitor cash position changes, forward guidance revisions, and any commentary on mine life extension or exploration success that could alter the company's production trajectory and strategic outlook for the remainder of CY2025."
+      ],
+      "tags": [
+        "Quarterly",
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HWK",
+      "company": "HAWK RESOURCES LIMITED.",
+      "headline": "Hawk Intersects Near Surface Copper in Cactus Corridor, Utah",
+      "time": "2026-04-15T23:36:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079424-6A1320702",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hawk Resources has intersected near-surface copper mineralisation in the Cactus Corridor, Utah — a technically significant result that validates the exploration thesis and could de-risk the broader project area for further drilling campaigns.",
+        "Near-surface copper intercepts are particularly meaningful as they imply potentially lower strip ratios and reduced extraction costs, which could materially improve project economics if grades and widths prove sufficient for resource estimation.",
+        "As a junior explorer, the key watch items are follow-up assay results with confirmed grades/widths, the pace of subsequent drilling to build out the mineralised envelope, and the company's cash runway to fund continued exploration without near-term dilutive capital raises."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SLS",
+      "company": "SOLSTICE MINERALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-15T23:35:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079423-6A1320704",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Solstice Minerals reports quarterly activities and cash flow, providing investors with an update on exploration progress and operational milestones across its Western Australian gold and base metals portfolio.",
+        "Cash flow details in the Appendix 5B will be critical to assess burn rate and remaining cash runway — key metrics for a pre-revenue explorer where capital management directly impacts dilution risk and project continuity.",
+        "Market-sensitive designation suggests material updates within the quarterly, potentially including significant drill results, new targets identified, or changes to forward exploration budgets that could re-rate the stock."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BAS",
+      "company": "BASS OIL LIMITED",
+      "headline": "Drilling Rig Mobilising to Location to Drill Bunian 6 Well",
+      "time": "2026-04-15T23:34:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079421-3A691459",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling rig is mobilising to the Bunian 6 well location, signaling imminent spud of a key appraisal/development well that could materially de-risk Bass Oil's Indonesian asset base and unlock additional reserves.",
+        "Successful drilling at Bunian 6 would be a significant catalyst for a micro-cap E&P like Bass Oil, where even modest production additions can meaningfully shift the company's production profile, cash flow trajectory, and valuation multiples.",
+        "Investors should watch for spud confirmation and early drilling results in coming weeks; positive flow rates would likely trigger a re-rating, while dry or sub-commercial results represent meaningful downside risk given the company's limited asset diversification."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FHS",
+      "company": "FREEHILL MINING LIMITED.",
+      "headline": "Aggregate Materials Sales Continue to Increase",
+      "time": "2026-04-15T23:33:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079418-3A691458",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Freehill Mining reports continued growth in aggregate materials sales, signaling improving revenue trajectory and commercial traction for its construction materials business",
+        "Sustained sales increases are critical for a micro-cap miner like Freehill as they extend cash runway and reduce reliance on capital raises to fund ongoing operations and development",
+        "Investors should monitor whether the sales growth trend translates into meaningful margin improvement and positive operating cash flow, which would represent a key inflection point for the company's valuation"
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "NMT",
       "company": "NEOMETALS LTD",
