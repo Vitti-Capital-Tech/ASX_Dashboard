@@ -1,9 +1,47 @@
 {
   "date": "2026-04-16",
-  "total": 94,
-  "market_sensitive_count": 82,
-  "generated_at": "2026-04-16T01:36:07.217040+00:00",
+  "total": 96,
+  "market_sensitive_count": 84,
+  "generated_at": "2026-04-16T03:06:18.871037+00:00",
   "announcements": [
+    {
+      "ticker": "HIQ",
+      "company": "HITIQ LIMITED",
+      "headline": "Receipt of $1M Loan and Proposed Issue of Convertible Notes",
+      "time": "2026-04-16T02:47:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079518-6A1320735",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "HitIQ received a $1M loan facility, signaling urgent near-term funding needs and likely constrained cash runway, raising going concern questions for the micro-cap head impact technology company.",
+        "Proposed issuance of convertible notes introduces significant dilution risk for existing shareholders, with conversion terms yet to be fully detailed — a common structure for distressed small-caps seeking bridge financing.",
+        "The reliance on debt and convertible instruments rather than equity placement or revenue-funded growth suggests limited institutional appetite and weak commercial traction, warranting close monitoring of upcoming quarterly cashflow reports."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IFL",
+      "company": "INSIGNIA FINANCIAL LTD",
+      "headline": "Federal Court of Australia approves Scheme of Arrangement",
+      "time": "2026-04-16T01:44:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079492-3A691473",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Federal Court approval of the Scheme of Arrangement removes the final major regulatory hurdle for the acquisition of Insignia Financial, significantly de-risking deal completion for shareholders expecting to receive the offer price.",
+        "Court approval follows prior shareholder vote and regulatory clearances, meaning the transaction is now effectively unconditional — expect shares to trade tightly around the scheme consideration with minimal spread risk.",
+        "Implementation date and record date for scheme consideration payments will follow shortly; investors should monitor for the effective date announcement and any residual timing considerations around delisting from the ASX."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "DBF",
       "company": "DUXTON FARMS LTD",
