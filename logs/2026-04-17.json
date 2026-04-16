@@ -1,9 +1,142 @@
 {
   "date": "2026-04-17",
-  "total": 52,
-  "market_sensitive_count": 44,
-  "generated_at": "2026-04-16T23:36:29.930833+00:00",
+  "total": 59,
+  "market_sensitive_count": 49,
+  "generated_at": "2026-04-16T23:56:08.075802+00:00",
   "announcements": [
+    {
+      "ticker": "SRR",
+      "company": "SARAMA RESOURCES LTD",
+      "headline": "Trading Halt",
+      "time": "2026-04-16T23:48:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079858-6A1320868",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Sarama Resources has entered a trading halt on the ASX, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant corporate development in its West African gold exploration portfolio.",
+        "As a junior gold explorer with limited revenue generation, any trading halt raises immediate questions about cash runway — a capital raise would be dilutive to existing shareholders, while an M&A event could be transformative for the company's valuation.",
+        "Investors should await the detailed announcement expected within two business days; the nature of the pending news (equity raising vs. asset deal vs. exploration results) will be the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TSL",
+      "company": "TITANIUM SANDS LIMITED",
+      "headline": "Project Status Update",
+      "time": "2026-04-16T23:44:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079856-6A1320846",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Titanium Sands provides a project status update flagged as market sensitive, suggesting material developments in its mineral sands exploration or development pipeline that could alter the company's near-term trajectory.",
+        "As a micro-cap ASX-listed mineral sands explorer, any project milestone update carries outsized significance for valuation given the company's limited revenue base and reliance on project advancement to justify market capitalization.",
+        "Investors should assess whether the update signals progress toward feasibility, permitting, or offtake agreements — or conversely flags delays, regulatory hurdles, or funding gaps that could pressure the stock and extend cash burn timelines."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NWH",
+      "company": "NRW HOLDINGS LIMITED",
+      "headline": "Fredon Contract Awards",
+      "time": "2026-04-16T23:42:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079854-6A1320867",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NRW Holdings' subsidiary Fredon has secured new contract awards, reinforcing the group's order book growth and diversification strategy across its services portfolio.",
+        "Contract wins for Fredon bolster NRW's revenue visibility and support forward earnings, with the electrical and communications services division continuing to capture market share in infrastructure and building services.",
+        "Continued contract momentum across NRW's subsidiaries signals strong demand conditions and supports management's growth trajectory, likely prompting positive consensus estimate revisions for FY25/FY26."
+      ],
+      "tags": [
+        "Other",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IVZ",
+      "company": "INVICTUS ENERGY LTD",
+      "headline": "Trading Halt",
+      "time": "2026-04-16T23:39:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079850-6A1320866",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Invictus Energy has entered a trading halt, typically preceding a material announcement such as a capital raise, farm-out deal, or significant operational update related to its Cabora Bassa Basin exploration in Zimbabwe.",
+        "As a junior explorer with limited cash reserves, a trading halt frequently signals an imminent equity raising or strategic transaction to fund ongoing drilling operations, which could be dilutive to existing shareholders.",
+        "Investors should await the pending announcement before repositioning; the nature of the halt (capital raise vs. operational milestone) will be the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QML",
+      "company": "QMINES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-16T23:37:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079848-6A1320864",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "QMines Limited has entered a trading halt, typically preceding a material announcement such as a capital raise, asset transaction, or significant exploration update for its copper-gold projects in Queensland.",
+        "As a junior explorer with limited revenue, any capital raise during the halt would likely be dilutive to existing shareholders, though it could extend cash runway needed to advance its Mt Chalmers and other projects.",
+        "Investors should await the pending announcement — the nature of the halt (voluntary and market-sensitive) suggests a transformative event such as a placement, farm-in agreement, or material drilling results that will reset the investment thesis."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AIM",
+      "company": "AI-MEDIA TECHNOLOGIES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-16T23:36:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079847-3A691554",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in AI-Media Technologies, signaling active portfolio repositioning by a significant shareholder that institutional investors should monitor for directional intent.",
+        "The filing is classified as not market sensitive, suggesting the change in holding likely reflects a marginal adjustment around the 5% threshold rather than a large-scale accumulation or disposal event.",
+        "Investors should cross-reference the direction of the change (increase vs decrease) with AI-Media's recent trading volumes and any upcoming catalysts, as substantial holder movements in small-cap tech names can foreshadow broader institutional sentiment shifts."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RR1",
+      "company": "REACH RESOURCES LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-16T23:36:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079846-6A1320865",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Reach Resources Limited, indicating a significant disposal of shares that has taken their holding below the 5% threshold requiring disclosure.",
+        "The exit of a substantial holder may signal reduced institutional or strategic investor confidence in the company's near-term prospects, though the specific identity and motivation of the seller would determine the true significance.",
+        "For a micro-cap explorer like Reach Resources, the loss of a substantial holder could weigh on liquidity and sentiment, with investors needing to monitor whether this reflects broader portfolio rebalancing or company-specific concerns."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "PCG",
       "company": "PENGANA CAPITAL GROUP LIMITED",
