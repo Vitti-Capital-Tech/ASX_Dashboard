@@ -1,9 +1,121 @@
 {
   "date": "2026-04-16",
-  "total": 85,
-  "market_sensitive_count": 76,
-  "generated_at": "2026-04-15T23:58:15.549886+00:00",
+  "total": 91,
+  "market_sensitive_count": 81,
+  "generated_at": "2026-04-16T00:33:31.047000+00:00",
   "announcements": [
+    {
+      "ticker": "FAU",
+      "company": "FIRST AU LIMITED",
+      "headline": "Notice of Initial Substantial Holder",
+      "time": "2026-04-16T00:30:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079466-3A691467",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in First Au Limited (ASX: FAU), crossing the 5% ownership threshold, signaling meaningful external interest in this junior explorer despite its micro-cap status.",
+        "The initial substantial holder notice is a disclosure-driven filing and not flagged as market sensitive, suggesting this may reflect portfolio accumulation rather than a strategic or activist position at this stage.",
+        "Investors should monitor for follow-up filings indicating whether the new holder continues to build their position, which could signal conviction in upcoming exploration catalysts or potential corporate activity around First Au's gold and critical minerals assets."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "T88",
+      "company": "TAITON RESOURCES LIMITED",
+      "headline": "Drilling at Highway Project Commences",
+      "time": "2026-04-16T00:14:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079461-6A1320723",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Taiton Resources has commenced drilling at its Highway Project, marking a key de-risking milestone that transitions the company from exploration planning to active ground-truthing, a catalyst typically watched by speculative resource investors.",
+        "As a junior explorer, the commencement of drilling is critical for maintaining market interest and validating the geological thesis — results from this program will be the primary near-term share price driver and will determine whether further capital deployment is warranted.",
+        "Investors should monitor upcoming assay results and drill hole intercepts closely, as positive mineralisation hits could trigger re-rating potential, while the company's cash runway to fund the full program without dilutive capital raises remains a key risk factor to watch."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GDM",
+      "company": "GREAT DIVIDE MINING LTD",
+      "headline": "Coonambula Drilling Confirms Broad Shallow Gold Zones",
+      "time": "2026-04-16T00:11:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079460-6A1320724",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling at Coonambula has confirmed broad, shallow gold mineralisation zones, de-risking the project's open-pit potential and supporting a low-cost extraction thesis that could attract further market interest in Great Divide Mining.",
+        "Shallow gold intercepts are technically significant as they imply lower strip ratios and reduced mining costs, which could materially improve project economics at feasibility stage even at moderate gold grades.",
+        "Results are expected to underpin follow-up drilling programs and resource definition work; investors should watch for maiden or updated resource estimates and any commentary on metallurgical recoveries as key near-term catalysts."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "T88",
+      "company": "TAITON RESOURCES LIMITED",
+      "headline": "Successful $1.25m Placement & Bonus Option Issue",
+      "time": "2026-04-16T00:10:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079455-6A1320663",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Taiton Resources completed a $1.25M placement, providing near-term funding for exploration activities, though the modest raise size suggests limited scale and likely tight cash runway for a junior explorer.",
+        "The inclusion of a bonus option issue sweetens the deal for placement participants but introduces additional dilution risk for existing shareholders if options are exercised, compounding the dilutive impact of the placement itself.",
+        "Proceeds are expected to fund ongoing exploration programs; investors should monitor upcoming drill results and work program updates to assess whether the capital raise translates into material value creation or merely extends operational runway."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MML",
+      "company": "MCLAREN MINERALS LIMITED",
+      "headline": "Launches $1.5 Million Underwritten Share Purchase Plan",
+      "time": "2026-04-16T00:09:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079449-6A1320714",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "McLaren Minerals launches a $1.5 million fully underwritten Share Purchase Plan (SPP), providing funding certainty given the underwrite commitment, which de-risks the capital raise execution.",
+        "The $1.5M raise is modest in absolute terms, typical for micro-cap explorers, and will result in dilution to existing shareholders — the underwrite suggests limited confidence in full retail participation at current market conditions.",
+        "Proceeds likely earmarked for exploration and working capital, extending cash runway for the junior miner; investors should monitor SPP pricing discount and any free-attaching options that could amplify dilution."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KYP",
+      "company": "KINATICO LTD",
+      "headline": "Investor webinar presentation",
+      "time": "2026-04-16T00:00:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079445-6A1320717",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kinatico Ltd has scheduled a market-sensitive investor webinar presentation, suggesting the company intends to disclose material updates on strategy, financials, or operational milestones beyond routine corporate communications.",
+        "The market-sensitive classification indicates the presentation likely contains new information on revenue pipeline, contract wins, product developments, or cash position that could materially affect the share price of this workforce compliance technology company.",
+        "Investors should monitor the webinar for details on customer acquisition momentum, ARR/MRR growth trajectory, and cash runway — key metrics for this micro-cap SaaS/RegTech business that will determine near-term re-rating potential."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "HZN",
       "company": "HORIZON OIL LIMITED",
