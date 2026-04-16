@@ -1,9 +1,370 @@
 {
   "date": "2026-04-17",
-  "total": 33,
-  "market_sensitive_count": 26,
-  "generated_at": "2026-04-16T23:19:54.329352+00:00",
+  "total": 52,
+  "market_sensitive_count": 44,
+  "generated_at": "2026-04-16T23:36:29.930833+00:00",
   "announcements": [
+    {
+      "ticker": "PCG",
+      "company": "PENGANA CAPITAL GROUP LIMITED",
+      "headline": "Monthly Funds Under Management - 31 March 2026",
+      "time": "2026-04-16T23:33:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079845-2A1667017",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Pengana Capital Group reports monthly FUM as at 31 March 2026, a key metric for revenue visibility given management fees are typically calculated on average FUM — any material change signals direct impact on forward earnings.",
+        "The market-sensitive designation suggests a notable shift in FUM levels, likely driven by net flows and/or market movements; institutional investors should compare against the prior month and quarterly trend to assess whether organic growth or redemptions are driving the change.",
+        "As a fund management business, sustained FUM growth or decline directly impacts Pengana's fee revenue run-rate and operating leverage — this update will be critical for refining FY26 earnings estimates and dividend expectations heading into the final quarter."
+      ],
+      "tags": [
+        "Finance",
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XST",
+      "company": "XSTATE RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-16T23:32:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079844-6A1320860",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "XState Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant operational update for this micro-cap energy explorer.",
+        "As a small-cap ASX-listed oil and gas company with limited revenue generation, any trading halt raises immediate questions about cash runway adequacy and potential dilutive capital raising activity.",
+        "Investors should await the detailed announcement expected within two business days; the nature of the pending disclosure will be critical in determining whether this represents a value-accretive catalyst or further equity dilution risk."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IMC",
+      "company": "IMMURON LIMITED",
+      "headline": "Immuron Double Digit 3Q Sales Growth",
+      "time": "2026-04-16T23:30:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079841-3A691551",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Immuron reported double-digit sales growth in Q3, signaling strengthening commercial traction for its hyperimmune products, likely driven by Travelan and/or defense-related contracts — a positive inflection for a micro-cap biotech historically reliant on milestone payments.",
+        "Consecutive quarters of accelerating revenue growth improve the company's path toward cash flow sustainability, potentially extending cash runway and reducing near-term dilution risk from capital raises — a key concern for institutional holders in sub-$50M market cap ASX healthcare names.",
+        "Investors should monitor whether the sales momentum translates into improved gross margins and whether management upgrades FY guidance; sustained double-digit growth could re-rate the stock as the market prices in a credible commercial-stage trajectory rather than a pre-revenue biotech discount."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AI1",
+      "company": "ADISYN LTD",
+      "headline": "Trading Halt",
+      "time": "2026-04-16T23:30:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079840-6A1320859",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "ADISYN LTD has entered a trading halt, typically requested by the company pending a material announcement that could significantly impact the share price.",
+        "As a small-cap technology/data company, trading halts often precede capital raises, strategic partnerships, or material transactions — investors should monitor for potential dilution or transformative deals.",
+        "Trading will remain suspended until the company releases its pending announcement or the halt period expires; the nature of the announcement will be the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEM",
+      "company": "MEMPHASYS LIMITED.",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-16T23:27:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079836-3A691550",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Memphasys' quarterly 4C report provides updated cash flow visibility for institutional investors, with key focus on operating cash burn rate and remaining cash runway critical for this pre-revenue/early-revenue life sciences company.",
+        "As a market-sensitive quarterly filing, investors should scrutinize net operating cash outflows against prior quarters and assess whether the company's cash reserves can sustain operations beyond 12 months without requiring additional capital raising or dilutive funding.",
+        "Near-term outlook hinges on commercialization progress of its Felix device for assisted reproduction technology; any delays or accelerating cash burn without corresponding revenue traction would heighten capital raise risk and potential shareholder dilution."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "A1G",
+      "company": "AFRICAN GOLD LTD.",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-16T23:26:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079835-6A1320857",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in African Gold Ltd has altered their position, triggering a mandatory disclosure under ASX substantial holding rules — this signals active portfolio repositioning by a significant shareholder.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is incremental rather than a transformative block trade or strategic stake build/unwind that would materially shift the register.",
+        "Investors should monitor whether this is part of a broader accumulation or disposal trend, as successive changes in substantial holdings can foreshadow corporate activity such as takeover interest or institutional exit from the micro-cap explorer."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CPM",
+      "company": "COOPER METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-16T23:26:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079832-6A1320858",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Cooper Metals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, significant exploration results, or corporate transaction for this junior explorer.",
+        "As a small-cap ASX-listed mining company, any capital raise during the halt would likely be dilutive to existing shareholders, though it could also signal funding for advanced exploration programs at its copper-gold projects.",
+        "Investors should await the detailed announcement expected within two business days to assess the nature and materiality of the news before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAM",
+      "company": "K2 ASSET MANAGEMENT HOLDINGS LTD",
+      "headline": "Strategic Update",
+      "time": "2026-04-16T23:26:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079830-3A691536",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "K2 Asset Management has issued a market-sensitive strategic update, signaling potential material changes to its business model, fund offerings, or corporate structure that could reshape its competitive positioning in the Australian funds management sector.",
+        "As a boutique asset manager, any strategic pivot is critical given the sector's ongoing fee compression and scale challenges — investors should assess implications for funds under management (FUM) trajectory and revenue sustainability.",
+        "The 'strategic update' framing suggests management is proactively communicating directional changes, which may include cost restructuring, product rationalization, or partnership/M&A activity — details will be key to determining whether this is value-accretive or defensive in nature."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EDE",
+      "company": "EDEN INNOVATIONS LTD",
+      "headline": "EdenShield Targets Defence & Critical Infrastructure Markets",
+      "time": "2026-04-16T23:25:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079826-6A1320843",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EdenShield is pivoting toward defence and critical infrastructure verticals, signaling a strategic shift to higher-value, longer-cycle contract opportunities with potentially stronger margins and recurring revenue profiles.",
+        "Targeting defence and critical infrastructure markets could materially expand Eden's total addressable market, though the announcement lacks specific contract values, pipeline details, or revenue timelines — investors should watch for concrete order flow to validate the strategy.",
+        "Defence procurement cycles are typically lengthy with high barriers to entry; while the strategic direction is positive for long-term positioning, near-term revenue impact is likely limited and execution risk remains elevated for a micro-cap with constrained resources."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EDE",
+      "company": "EDEN INNOVATIONS LTD",
+      "headline": "$4m Placement at Last Traded Price for EdenShield Expansion",
+      "time": "2026-04-16T23:24:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079823-6A1320836",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Eden Innovations raising $4M via placement at last traded price to fund EdenShield expansion, signaling demand-driven growth rather than distressed capital needs — pricing at market suggests reasonable institutional appetite.",
+        "Placement at last traded price minimizes immediate dilutive discount impact, though the small-cap nature of Eden means the equity dilution could still be material relative to existing market capitalization and free float.",
+        "Proceeds earmarked specifically for EdenShield product line expansion indicate the company is moving toward commercialization scale-up, a potential inflection point if EdenShield (agricultural pest deterrent technology) gains further market traction."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMU",
+      "company": "AMERICAN URANIUM LTD",
+      "headline": "Lo Herma Expands with New Mineral Rights and Claim Staking",
+      "time": "2026-04-16T23:23:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079821-6A1320855",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "American Uranium has expanded its Lo Herma project footprint through acquisition of new mineral rights and staking of additional claims, signaling aggressive land consolidation in a strengthening uranium market environment.",
+        "The expansion increases the company's strategic land position in Wyoming's uranium-prospective terrain, potentially enhancing resource upside ahead of future drilling programs, though no quantified resource impact has been disclosed yet.",
+        "Near-term catalysts include delineation of exploration targets on the newly acquired ground and integration into the broader Lo Herma project plan — investors should watch for follow-up exploration budgets and drilling timelines to assess materiality."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EMU",
+      "company": "EMU NL",
+      "headline": "Security Class Suspension from Quotation - EMUOA",
+      "time": "2026-04-16T23:22:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079819-6A1320853",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX has suspended the EMUOA security class (likely options) from quotation, which typically occurs when options have expired or the company has failed to meet a listing condition — this removes a potential liquidity/exercise pathway for holders.",
+        "Suspension of an options class does not directly impact the head stock (EMU) but signals administrative housekeeping or potential compliance issues that institutional investors should monitor for broader governance implications.",
+        "Investors should verify whether the suspension relates to option expiry (routine) or a compliance/regulatory trigger, as the latter could foreshadow further ASX action on the company's primary securities."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PIQ",
+      "company": "PROTEOMICS INTERNATIONAL LABORATORIES LTD",
+      "headline": "Restructure, Executive Appointment and Board Update",
+      "time": "2026-04-16T23:21:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079817-3A691545",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Proteomics International is undertaking a corporate restructure alongside executive appointment and board changes, signaling a strategic pivot likely aimed at improving operational efficiency or refocusing the business on core diagnostics commercialization efforts.",
+        "The combination of restructuring with leadership changes suggests potential cost reduction measures to extend cash runway — critical for a pre-profit biotech company where capital preservation directly impacts survival and ability to reach commercialization milestones.",
+        "Investors should monitor for details on the scope of the restructure (headcount reductions, cost savings targets) and whether the new executive appointment brings commercial deal-making expertise to accelerate PromarkerD licensing partnerships."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KNB",
+      "company": "KOONENBERRY GOLD LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-16T23:21:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079816-6A1320851",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Koonenberry Gold's quarterly report provides an update on exploration activities and cash position, critical for assessing the junior explorer's operational momentum and funding adequacy in its NSW gold projects.",
+        "As a pre-revenue explorer, the Appendix 5B cash flow report will reveal the burn rate and remaining cash runway — key metrics for determining whether near-term capital raising is likely, which would be dilutive to existing shareholders.",
+        "Market-sensitive designation suggests material updates on exploration progress or a significant shift in cash position; investors should monitor for any new drill results, tenement developments, or flagged going-concern commentary in the quarterly."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LDR",
+      "company": "LODE RESOURCES LTD",
+      "headline": "Completion of $4.5m Capital Raise",
+      "time": "2026-04-16T23:20:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079814-2A1666978",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "LODE RESOURCES completed a $4.5 million capital raise, providing fresh funding to advance exploration and development activities across its project portfolio.",
+        "The raise introduces meaningful dilution for existing shareholders, though the quantum suggests sufficient runway to fund near-term drilling programs and operational expenditure for a junior explorer of this scale.",
+        "Completion of the placement removes overhang uncertainty and positions the company to deploy capital into catalytic exploration work, with investor focus now shifting to how proceeds are allocated and upcoming drill results."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SLM",
+      "company": "SOLIS MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-16T23:19:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079813-6A1320852",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Solis Minerals has entered a trading halt, typically preceding a material announcement such as a capital raise, acquisition, or significant exploration update for the junior mining company.",
+        "As a small-cap ASX-listed explorer, any trading halt raises immediate questions about cash runway adequacy and whether an equity raising is imminent, which could be dilutive to existing shareholders.",
+        "Investors should await the pending announcement — the halt will likely resolve within 1-2 trading days, with the nature of the news (capital raise vs. asset deal vs. exploration results) being the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BRU",
+      "company": "BURU ENERGY LIMITED",
+      "headline": "Buru completes $5.3M Placement - Strategic Path to Drilling",
+      "time": "2026-04-16T23:16:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079810-6A1320820",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Buru Energy completed a $5.3M placement, providing near-term funding to advance its drilling program — a critical catalyst for a junior explorer where capital access directly determines operational momentum.",
+        "The placement size is modest, suggesting limited dilution relative to market cap, but signals management confidence in progressing to drill-ready status; pricing and discount terms will be key to assessing shareholder impact.",
+        "Proceeds are strategically earmarked for drilling activities, positioning Buru for potential re-rating if exploration results are positive — investors should watch for spud dates and target well announcements as the next material catalysts."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AXL",
+      "company": "AXEL REE LIMITED",
+      "headline": "Emerging Wealth Winners Conference Presentation",
+      "time": "2026-04-16T23:15:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079806-3A691542",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Axel REE Limited is presenting at the Emerging Wealth Winners Conference, signaling active investor engagement efforts to raise the company's profile among retail and institutional audiences.",
+        "Conference presentations for micro/small-cap ASX companies often precede or accompany capital raising activity; investors should monitor for any subsequent placement or SPP announcements.",
+        "The market-sensitive designation suggests the presentation may contain new material information beyond previously disclosed details — potentially updated project milestones, exploration results, or strategic direction."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IAG",
+      "company": "INSURANCE AUSTRALIA GROUP LIMITED",
+      "headline": "AXX: IAG's acq of RAC Insurance requires Phase 2 review",
+      "time": "2026-04-16T23:15:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079805_PS-2A1666985",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ACCC has escalated IAG's proposed acquisition of RAC Insurance to a Phase 2 review, signalling material competition concerns that could delay or block the deal, introducing significant execution risk for IAG's growth strategy in Western Australia.",
+        "A Phase 2 review typically extends the regulatory timeline by several months and may require IAG to offer undertakings or divestitures to address market concentration issues in the Australian general insurance sector, where IAG already holds dominant market share.",
+        "Investors should monitor for potential deal restructuring, price adjustments, or abandonment risk — any failure to complete the acquisition would remove an expected earnings-accretive bolt-on and could redirect capital toward buybacks or alternative M&A targets."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "OM1",
       "company": "OMNIA METALS GROUP LTD",
