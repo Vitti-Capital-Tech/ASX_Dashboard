@@ -1,9 +1,65 @@
 {
   "date": "2026-04-16",
-  "total": 91,
-  "market_sensitive_count": 81,
-  "generated_at": "2026-04-16T00:33:31.047000+00:00",
+  "total": 94,
+  "market_sensitive_count": 82,
+  "generated_at": "2026-04-16T01:36:07.217040+00:00",
   "announcements": [
+    {
+      "ticker": "DBF",
+      "company": "DUXTON FARMS LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-16T01:16:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079482-2A1666844",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Duxton Farms Ltd (DBF) has filed a change in their holding, signaling a notable shift in ownership concentration that institutional investors should monitor for governance and liquidity implications.",
+        "As a procedural filing, the change in substantial holding does not directly indicate operational performance shifts but may reflect portfolio rebalancing by a major shareholder or a strategic accumulation/disposal pattern worth tracking.",
+        "Investors should watch for follow-up disclosures to determine whether this represents an increase or decrease in holding, as directional changes by substantial holders in small-cap agricultural plays like Duxton Farms can meaningfully impact free float and share price dynamics."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BDM",
+      "company": "BURGUNDY DIAMOND MINES LIMITED",
+      "headline": "Response to ASX Query Letter",
+      "time": "2026-04-16T01:10:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079480-6A1320729",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Burgundy Diamond Mines issued a formal response to an ASX query letter, typically triggered by unusual price/volume movements or potential disclosure concerns, signaling heightened regulatory scrutiny on the company's compliance obligations.",
+        "ASX query responses often require companies to confirm whether they are in compliance with continuous disclosure rules and whether any undisclosed material information exists — the market-sensitive tag suggests the response contains substantive new information or clarifications that could move the stock.",
+        "Investors should closely monitor whether the response reveals previously undisclosed operational, financial, or corporate developments at the Ekati diamond mine; any admission of delayed disclosure or emerging liquidity/operational issues could weigh on near-term sentiment and trading activity."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MIO",
+      "company": "MACARTHUR MINERALS LIMITED",
+      "headline": "Form 604 Change in Substantial Holding (Gold Valley)",
+      "time": "2026-04-16T00:43:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079470-6A1320725",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Gold Valley has filed a Form 604 indicating a change in its substantial holding in Macarthur Minerals, signaling active portfolio repositioning by a notable shareholder that institutional investors should monitor for directional intent.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is incremental rather than a transformative block trade, likely reflecting routine portfolio adjustment rather than a strategic accumulation or exit.",
+        "Investors should watch for follow-up filings or further changes in Gold Valley's position, as sustained buying or selling by substantial holders in a micro-cap explorer like Macarthur Minerals can materially influence liquidity and share price dynamics."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "FAU",
       "company": "FIRST AU LIMITED",
