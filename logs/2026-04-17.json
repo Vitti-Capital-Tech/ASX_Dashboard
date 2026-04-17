@@ -1,9 +1,86 @@
 {
   "date": "2026-04-17",
-  "total": 76,
-  "market_sensitive_count": 64,
-  "generated_at": "2026-04-17T01:35:34.241640+00:00",
+  "total": 80,
+  "market_sensitive_count": 65,
+  "generated_at": "2026-04-17T03:06:13.267256+00:00",
   "announcements": [
+    {
+      "ticker": "FRE",
+      "company": "FIREBRICK PHARMA LIMITED",
+      "headline": "Change in substantial holding - Peter Molloy",
+      "time": "2026-04-17T03:03:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079950-6A1320905",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Peter Molloy's substantial holding in Firebrick Pharma has changed, signaling a shift in insider positioning that institutional investors should monitor for directional conviction signals.",
+        "As a change notice rather than an initial or ceasing notice, this likely reflects a marginal adjustment in Molloy's stake — the direction (increase vs decrease) is critical for interpreting insider sentiment in this micro-cap pharma name.",
+        "For a small-cap healthcare company like Firebrick Pharma, insider holding movements can have outsized signaling value given limited analyst coverage and thin liquidity — investors should cross-reference with any recent capital raises or on-market trades."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MCE",
+      "company": "MATRIX COMPOSITES & ENGINEERING LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-17T02:58:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079949-6A1320904",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Matrix Composites & Engineering (MCE), crossing the 5% threshold, signaling growing institutional or strategic interest in the subsea/oil & gas equipment manufacturer.",
+        "The accumulation of a substantial position suggests confidence in MCE's valuation or strategic direction, potentially reflecting improved outlook for subsea infrastructure spending and the company's order pipeline.",
+        "Investors should monitor whether this is a passive financial accumulation or a precursor to further stake-building, board engagement, or potential corporate activity given MCE's relatively small market capitalization."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OBL",
+      "company": "OMNI BRIDGEWAY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-17T02:31:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079937-6A1320900",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Omni Bridgeway (OBL), triggering a regulatory disclosure — this signals active institutional portfolio rebalancing in the litigation funder.",
+        "The change in substantial holding may reflect shifting institutional conviction around OBL's fund performance, case resolution pipeline, or broader sentiment toward the litigation funding sector amid regulatory scrutiny.",
+        "Investors should monitor whether this is part of a broader accumulation or distribution trend, as directional moves by substantial holders in illiquid names like OBL can foreshadow meaningful price action."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENN",
+      "company": "ELANOR INVESTORS GROUP",
+      "headline": "Completion of Balance Sheet Recapitalisation",
+      "time": "2026-04-17T01:44:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079921-2A1667055",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Elanor Investors Group has completed its balance sheet recapitalisation, signaling a material de-risking of the group's financial position and likely improved covenant headroom for ongoing operations.",
+        "Completion of the recap removes a key overhang that may have weighed on the stock, potentially unlocking re-rating as the market prices in reduced balance sheet risk and enhanced financial flexibility for future fund management and co-investment activities.",
+        "With the recapitalisation now finalised, management focus can shift to deploying capital into growth opportunities across its diversified real assets platform, with investors likely to watch for updated gearing metrics, distribution guidance, and AUM growth targets."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "IFL",
       "company": "INSIGNIA FINANCIAL LTD",
