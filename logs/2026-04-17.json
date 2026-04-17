@@ -1,9 +1,47 @@
 {
   "date": "2026-04-17",
-  "total": 74,
-  "market_sensitive_count": 62,
-  "generated_at": "2026-04-17T00:32:38.238194+00:00",
+  "total": 76,
+  "market_sensitive_count": 64,
+  "generated_at": "2026-04-17T01:35:34.241640+00:00",
   "announcements": [
+    {
+      "ticker": "IFL",
+      "company": "INSIGNIA FINANCIAL LTD",
+      "headline": "Scheme of Arrangement becomes legally effective",
+      "time": "2026-04-17T01:02:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079910-3A691561",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Insignia Financial's Scheme of Arrangement is now legally effective, marking the final regulatory milestone for the acquisition — this confirms the deal is unconditional and will proceed to implementation, removing residual deal-completion risk for shareholders.",
+        "With the scheme now binding, Insignia shareholders are locked in to receive the agreed consideration, and the company will transition to new ownership — this effectively ends IFL as an independent ASX-listed entity and removes any remaining bid-ask spread or merger arbitrage discount.",
+        "Next steps involve delisting from the ASX and payment of scheme consideration to eligible shareholders; institutional holders should prepare for portfolio rebalancing as IFL exits relevant indices and liquidity ceases post-delisting."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAF",
+      "company": "WEST AFRICAN RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-17T00:38:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079897-6A1320884",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "West African Resources (WAF) has entered a trading halt, typically preceding a material announcement such as a capital raise, acquisition, or significant operational update related to its Burkina Faso gold operations.",
+        "WAF has been actively expanding through its Kiéré gold project development and recent production ramp-up; a trading halt at this stage may signal a transformative corporate action or funding event that could materially alter the company's capital structure.",
+        "Investors should await the pending announcement before repositioning; if a capital raise is involved, near-term dilution risk exists, though proceeds directed toward growth assets could be value-accretive for the mid-cap gold producer."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AT1",
       "company": "ATOMO DIAGNOSTICS LIMITED",
