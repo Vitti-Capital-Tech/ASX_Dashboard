@@ -1,9 +1,294 @@
 {
   "date": "2026-04-17",
-  "total": 59,
-  "market_sensitive_count": 49,
-  "generated_at": "2026-04-16T23:56:08.075802+00:00",
+  "total": 74,
+  "market_sensitive_count": 62,
+  "generated_at": "2026-04-17T00:32:38.238194+00:00",
   "announcements": [
+    {
+      "ticker": "AT1",
+      "company": "ATOMO DIAGNOSTICS LIMITED",
+      "headline": "Response to ASX Aware Letter",
+      "time": "2026-04-17T00:23:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079889-2A1667036",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Atomo Diagnostics issued a formal response to an ASX Aware Letter, typically triggered by unusual price or volume movements, indicating the exchange is scrutinizing the company's disclosure compliance and potential information asymmetry in the market.",
+        "ASX Aware Letters often precede or follow significant share price volatility; the market-sensitive designation suggests material information may be clarified or confirmed, which could reset investor expectations around the company's operational or financial position.",
+        "Investors should monitor whether the response reveals previously undisclosed developments (partnerships, regulatory milestones, or cash position concerns) that may have driven recent trading activity, as compliance-related disclosures can signal governance risk or catalyze re-rating."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TSK",
+      "company": "TUSKER MINERALS LTD",
+      "headline": "Bonus Loyalty Options Offer",
+      "time": "2026-04-17T00:20:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079883-6A1320876",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tusker Minerals is offering bonus loyalty options to existing shareholders, a mechanism typically used by micro-cap explorers to reward holder retention and potentially raise additional future capital upon exercise without immediate dilution from a traditional placement.",
+        "The loyalty options offer, while not raising immediate capital, creates a deferred funding mechanism — if exercised, these options would bolster the company's cash runway for exploration activities, though the dilutive impact on existing shareholders depends on the exercise price and ratio yet to be fully assessed.",
+        "Investors should monitor the offer's terms (exercise price, expiry, ratio) closely; loyalty options often trade at minimal value for junior miners but signal management's intent to maintain shareholder support ahead of potential catalysts or upcoming capital needs."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TSK",
+      "company": "TUSKER MINERALS LTD",
+      "headline": "Bonus Loyalty Options Prospectus",
+      "time": "2026-04-17T00:20:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079881-6A1320874",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tusker Minerals is issuing bonus loyalty options to existing shareholders, a mechanism designed to reward holder retention but which introduces future dilution risk if options are exercised at below-market prices.",
+        "The prospectus for bonus loyalty options typically signals the company is seeking to strengthen its shareholder register and potentially raise additional capital upon exercise, extending cash runway without an immediate capital raise discount.",
+        "Investors should monitor the option exercise price, expiry date, and ratio to assess the true dilutive impact — loyalty options can be modestly positive for sentiment but represent latent equity issuance that could weigh on per-share value upon conversion."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TSK",
+      "company": "TUSKER MINERALS LTD",
+      "headline": "Sale of Tundulu REE Project to AuKing",
+      "time": "2026-04-17T00:20:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079880_PS-6A1320869",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tusker Minerals is divesting its Tundulu Rare Earth Elements project to AuKing Mining, signaling a strategic portfolio rationalization that could unlock capital or reduce holding costs for the company.",
+        "The sale of a REE asset comes amid elevated global interest in critical minerals, suggesting Tusker may be capitalizing on favorable market conditions to monetize a non-core asset and redirect resources toward higher-priority projects.",
+        "Investors should watch for disclosed transaction terms including consideration structure (cash vs scrip), any milestone payments, and how proceeds will be deployed — this will determine whether the deal is value-accretive or signals a retreat from the REE sector."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AKN",
+      "company": "AUKING MINING LIMITED",
+      "headline": "AuKing Acquires High-Grade Malawi REE Project, and $3M Raise",
+      "time": "2026-04-17T00:20:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079879_PS-2A1667028",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AuKing is acquiring a high-grade rare earth elements (REE) project in Malawi, pivoting toward the strategically significant critical minerals sector which could attract investor interest given global REE supply chain concerns and Western diversification efforts away from China.",
+        "The concurrent $3M capital raise provides near-term funding for project advancement but will dilute existing shareholders; the modest raise size suggests early-stage exploration economics and limited immediate cash flow generation from the asset.",
+        "Execution risk is elevated given Malawi's developing mining jurisdiction and AuKing's pivot to a new commodity and geography — investors should watch for detailed resource estimates, metallurgical testwork results, and permitting timelines to assess project viability."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AAM",
+      "company": "AUMEGA METALS LTD",
+      "headline": "Becoming a substantial holder - Nokomis Capital",
+      "time": "2026-04-17T00:15:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079876-6A1320879",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Nokomis Capital has crossed the 5% substantial holder threshold in Aumega Metals, signaling meaningful institutional interest in the junior explorer from a notable US-based activist/value-oriented fund.",
+        "The emergence of a new substantial holder often reflects conviction in underlying asset value or anticipation of near-term catalysts, potentially providing a floor for the stock and improving secondary market liquidity.",
+        "Investors should monitor whether Nokomis continues to accumulate shares, which could indicate strategic intentions such as pushing for corporate action, board representation, or asset monetization strategies."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CTO",
+      "company": "CITIGOLD CORPORATION LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-17T00:11:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079873-2A1667033",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for Citigold Corporation Limited signals a notable shift in ownership structure, with a major shareholder adjusting their position in this small-cap gold explorer/developer.",
+        "As a non-market-sensitive filing, this is a regulatory disclosure rather than a strategic event, but institutional investors should monitor whether the movement reflects accumulation or distribution by the substantial holder.",
+        "For a micro-cap like Citigold with limited liquidity, even modest changes in substantial holdings can influence free float dynamics and near-term trading patterns — investors should cross-reference with recent capital activity or placement history."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAF",
+      "company": "WEST AFRICAN RESOURCES LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-04-17T00:08:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079872-6A1320877",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "West African Resources (WAF) has entered a trading pause, typically preceding a material announcement such as a capital raise, acquisition, or significant operational update for the gold miner.",
+        "Given WAF's active growth profile — including the Kiéré project development and Sanbrado operations in Burkina Faso — the pause likely relates to a corporate transaction or material project update that could meaningfully shift the company's valuation.",
+        "Investors should await the pending announcement before repositioning; trading pauses often precede capital raises (potentially dilutive) or M&A activity, with the nature of the news determining near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LPM",
+      "company": "LITHIUM PLUS MINERALS LTD.",
+      "headline": "A$2.15 M Placement to Fund Development of Bynoe Lithium Proj",
+      "time": "2026-04-17T00:01:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079870-2A1667026",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Lithium Plus Minerals is raising A$2.15M via placement, implying meaningful dilution for a micro-cap explorer but providing critical near-term funding to advance the Bynoe Lithium Project in the Northern Territory.",
+        "The modest raise size suggests the company is likely operating with minimal cash reserves, and the placement pricing and discount to market will be key factors in determining the extent of shareholder dilution and near-term price pressure.",
+        "Proceeds are earmarked specifically for Bynoe project development, signaling management's intent to progress exploration/development milestones — investors should watch for upcoming drill results or resource updates as potential catalysts to justify the capital injection."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MSI",
+      "company": "MULTISTACK INTERNATIONAL LIMITED",
+      "headline": "Entered into a binding Asset Sale Deed with Willing Y Ltd",
+      "time": "2026-04-17T00:01:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079869-3A691544",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Multistack International has entered into a binding Asset Sale Deed with Willing Y Ltd, signaling a strategic divestiture that could unlock value or streamline the company's operations and balance sheet.",
+        "The binding nature of the deed indicates advanced-stage negotiations are complete, reducing execution risk and providing near-term certainty on the transaction proceeding to completion, subject to any conditions precedent.",
+        "Key investor focus will be on the sale consideration (cash vs. non-cash), use of proceeds (debt reduction, capital return, or reinvestment), and whether the divestiture materially impacts ongoing revenue streams or represents disposal of non-core assets."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KTA",
+      "company": "KRAKATOA RESOURCES LIMITED",
+      "headline": "Zopkhito Deal Restructured for Growth & Field Program Update",
+      "time": "2026-04-16T23:55:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079866-6A1320872",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Krakatoa has restructured its Zopkhito gold-copper project deal in Georgia, likely improving commercial terms or equity exposure to better position for value creation as the asset advances through exploration stages.",
+        "A field program update signals active on-ground work at Zopkhito, providing near-term catalysts from geological data that could de-risk the asset and support re-rating if results are positive.",
+        "The restructured deal framework suggests management is prioritizing capital efficiency and growth optionality, though investors should monitor cash runway implications and any changes to milestone obligations or dilution terms."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RIE",
+      "company": "RIEDEL RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-16T23:55:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079867-6A1320870",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Riedel Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update that requires price-sensitive disclosure.",
+        "As a junior explorer with limited revenue generation, any trading halt raises immediate questions around cash runway — a capital raise scenario would likely be dilutive to existing shareholders given the company's micro-cap status.",
+        "Investors should await the detailed announcement expected within two business days; the nature of the pending news (equity raise vs. asset transaction vs. exploration result) will be the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IR1",
+      "company": "IRIS METALS LIMITED",
+      "headline": "Quarterly Activities and Cash Flow Report",
+      "time": "2026-04-16T23:55:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079865-3A691558",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Iris Metals' quarterly report provides an update on exploration and development activities across its portfolio, with market-sensitive designation suggesting material progress or changes in project status worth monitoring.",
+        "Cash flow reporting will reveal the company's current burn rate and remaining cash runway — critical for an exploration-stage company with no revenue, as it signals proximity to potential capital raise requirements.",
+        "Investors should scrutinize the activities report for drilling results, resource updates, or strategic pivots that could serve as near-term catalysts, alongside any guidance on upcoming funding needs or corporate milestones."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GSN",
+      "company": "GREAT SOUTHERN MINING LIMITED",
+      "headline": "Edinburgh Park Exploration Update",
+      "time": "2026-04-16T23:55:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079864-6A1320871",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Great Southern Mining has released a market-sensitive exploration update for its Edinburgh Park project, signaling potentially material new findings that could re-rate the asset's prospectivity and attract investor attention to the junior explorer.",
+        "As a micro-cap explorer, any positive drill or geochemical results at Edinburgh Park are critical for sustaining market interest and supporting future capital raises needed to fund ongoing exploration programs — cash runway remains a key watch item for GSN.",
+        "Investors should monitor for follow-up assay results, resource definition drilling plans, and any farm-in or JV discussions that could validate the project's economic potential and reduce dilution risk for existing shareholders."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NSC",
+      "company": "NAOS SMALL CAP OPPORTUNITIES COMPANY LIMITED",
+      "headline": "Notification of buy-back - NSC",
+      "time": "2026-04-16T23:53:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03079862-2A1667024",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NAOS Small Cap Opportunities (NSC) has announced an on-market buy-back program, signaling management's view that shares are trading at a discount to intrinsic or net tangible asset (NTA) value — a common catalyst for LIC discount narrowing.",
+        "Buy-backs in listed investment companies are typically NTA-accretive for remaining shareholders, effectively boosting per-share value as shares are repurchased below NTA, which is a positive capital management signal for institutional holders.",
+        "Investors should monitor the pace and volume of buy-back execution alongside NTA discount trends; sustained buying could provide share price support and signal further capital management initiatives if the discount persists."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "SRR",
       "company": "SARAMA RESOURCES LTD",
