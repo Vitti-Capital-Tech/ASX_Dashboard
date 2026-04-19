@@ -1,9 +1,271 @@
 {
   "date": "2026-04-20",
-  "total": 97,
-  "market_sensitive_count": 91,
-  "generated_at": "2026-04-19T23:44:34.974278+00:00",
+  "total": 111,
+  "market_sensitive_count": 105,
+  "generated_at": "2026-04-19T23:52:36.261877+00:00",
   "announcements": [
+    {
+      "ticker": "LDX",
+      "company": "LUMOS DIAGNOSTICS HOLDINGS LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-19T23:49:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080382-2A1667283",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Lumos Diagnostics reports quarterly cash flow update as a market-sensitive disclosure, signaling material information on the company's financial position and burn rate that investors need to assess immediately.",
+        "As a diagnostics company with historically negative operating cash flows, the Appendix 4C will reveal whether cash receipts from customers are trending toward breakeven or if the cash burn rate remains elevated, directly impacting cash runway and potential need for future capital raises.",
+        "Investors should scrutinize the estimated quarters of funding available — any indication of fewer than 2-3 quarters of cash remaining would heighten dilution risk and raise going-concern considerations for this micro-cap healthcare name."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DBO",
+      "company": "DIABLO RESOURCES LIMITED",
+      "headline": "Silver - Antimony Mineralisation Confirmed at Star Range",
+      "time": "2026-04-19T23:47:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080377-6A1321115",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Diablo Resources has confirmed silver-antimony mineralisation at its Star Range project, a significant technical milestone that validates the exploration thesis and adds strategic value given antimony's classification as a critical mineral by multiple governments.",
+        "Antimony prices have surged to multi-year highs driven by Chinese export restrictions and supply chain concerns, meaning any confirmed antimony mineralisation carries outsized market relevance and potential re-rating catalyst for junior explorers like Diablo.",
+        "As an early-stage explorer, the confirmation is pre-resource and investors should watch for assay grades, mineralisation widths, and follow-up drilling programs to determine whether Star Range can advance toward a meaningful resource estimate and attract further funding or JV interest."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "4DX",
+      "company": "4DMEDICAL LIMITED",
+      "headline": "GSK contract, UK clearance for CTVQ, and ASX 200 inclusion",
+      "time": "2026-04-19T23:46:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080376-3A691637",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GSK contract represents a significant commercial validation from a global pharma giant, potentially unlocking recurring pharma services revenue and signaling broader industry adoption of 4DMedical's lung imaging technology.",
+        "UK regulatory clearance for CT Ventilation Quantification (CTVQ) expands the addressable market beyond the US and Australia, opening access to the NHS and UK private healthcare systems — a critical step toward international revenue diversification.",
+        "ASX 200 inclusion is a major liquidity catalyst, triggering mandatory index-fund buying and broadening the institutional investor base, which should structurally support trading volumes and reduce cost of capital going forward."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PPY",
+      "company": "PAPYRUS AUSTRALIA LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-19T23:45:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080374-2A1667278",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Papyrus Australia has entered a trading halt, typically requested by the company pending a material announcement that could significantly impact the share price.",
+        "As a micro-cap company with limited liquidity, any pending announcement — whether capital raise, partnership, or operational update — could drive outsized price volatility upon resumption of trading.",
+        "Investors should await the substantive announcement before repositioning; trading halts for micro-caps like PPY frequently precede capital raises or material corporate transactions that may involve dilution."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEI",
+      "company": "METEORIC RESOURCES NL",
+      "headline": "Trading Halt",
+      "time": "2026-04-19T23:41:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080369-6A1321110",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Meteoric Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant exploration update for the junior explorer.",
+        "As a small-cap mining company, a trading halt frequently precedes equity raisings which could be dilutive to existing shareholders but may also fund critical project milestones at its rare earths or gold projects.",
+        "Investors should await the detailed announcement expected within two business days to assess whether the halt relates to a capital raise (dilutive risk), corporate transaction, or material project development catalyst."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HTM",
+      "company": "HIGH-TECH METALS LTD",
+      "headline": "5,000m RC Drilling Underway Targeting Gold Resource Growth",
+      "time": "2026-04-19T23:41:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080368-6A1321111",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "HIGH-TECH METALS has commenced a 5,000m RC drilling program aimed at expanding its existing gold resource, signaling management confidence in geological potential and commitment to de-risking the asset through resource growth.",
+        "The scale of the program (5,000m) represents a meaningful exploration commitment for a junior explorer, and successful results could materially upgrade the resource base, potentially triggering re-rating catalysts as assay results flow through over coming weeks/months.",
+        "Investors should watch for drill assay results as the key near-term catalyst; a significant resource upgrade could attract larger strategic interest or support a future capital raise at improved terms to fund further development."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GDR",
+      "company": "GOLDEN DRAGON MINING LTD",
+      "headline": "3rd Round Drilling at Behring Bore and Coodardy",
+      "time": "2026-04-19T23:39:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080366-3A691636",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Golden Dragon Mining is commencing a third round of drilling at its Behring Bore and Coodardy projects, signaling continued exploration momentum and management confidence in prospectivity following earlier campaigns.",
+        "Sequential drilling rounds suggest prior results were sufficiently encouraging to justify further capital allocation to these targets, though without disclosed assay results or resource estimates the materiality remains speculative at this stage.",
+        "Investors should watch for upcoming drill results and any resource definition updates, which will be critical in determining whether these projects can advance toward economic viability and support the company's valuation."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ASX",
+      "company": "ASX LIMITED",
+      "headline": "ASX Confirms CHESS Release 1 Ready for Market Open",
+      "time": "2026-04-19T23:38:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080364-2A1667274",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX confirms CHESS Release 1 is ready for market open, marking a critical milestone in the long-delayed clearing and settlement infrastructure modernisation program that replaces the original blockchain-based CHESS replacement project scrapped in late 2022.",
+        "Successful deployment reduces key operational and regulatory risk for ASX, which had faced significant reputational damage and an estimated $250M+ write-down from the failed DLT-based project — execution on this release rebuilds credibility with regulators (ASIC, RBA) and market participants.",
+        "Release 1 represents the first phase of a multi-release program; investors should monitor subsequent release timelines and cost discipline closely, as further delays or budget overruns could reignite concerns about ASX's technology governance and weigh on its monopoly-premium valuation."
+      ],
+      "tags": [
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CAV",
+      "company": "CARNAVALE RESOURCES LIMITED",
+      "headline": "Bonanza grade gold confirmed with Feasibility on track",
+      "time": "2026-04-19T23:38:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080363-6A1321108",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bonanza-grade gold assays confirmed at Carnavale's project, representing a significant de-risking of the resource base and potentially upgrading the economic viability of the deposit for institutional consideration.",
+        "Confirmation of high-grade gold intercepts strengthens the geological model underpinning the feasibility study, which could materially improve projected mine economics including head grade, recovery rates, and NPV/IRR metrics.",
+        "Feasibility study remains on track, suggesting the company is progressing toward a key value inflection point; investors should watch for the study's completion timeline and any updated resource/reserve estimates that could trigger re-rating."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MCO",
+      "company": "MYECO GROUP LTD",
+      "headline": "Series 2 Convertible Note Program Update",
+      "time": "2026-04-19T23:35:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080361-3A691631",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MyEco Group provides an update on its Series 2 Convertible Note Program, signaling ongoing capital raising activity through debt-to-equity instruments that will likely result in shareholder dilution upon conversion.",
+        "Convertible note programs for micro-cap ASX companies typically indicate constrained access to traditional funding channels, raising concerns about cash runway sustainability and the cost of capital being borne by existing shareholders.",
+        "Investors should monitor conversion terms, discount rates, and the volume of shares issued upon conversion, as aggressive note conversion schedules can create persistent selling pressure on an already thinly-traded stock."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BTE",
+      "company": "BOTALA ENERGY LTD",
+      "headline": "African Cornerstone Investment",
+      "time": "2026-04-19T23:35:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080359-6A1321109",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Botala Energy has secured a cornerstone investment from an African-focused investor, signaling strategic validation of its Botswana energy assets and providing critical funding to advance exploration and development activities.",
+        "The capital injection strengthens Botala's cash runway at a pivotal stage, reducing near-term funding risk though likely introducing dilution for existing shareholders — the net effect depends on placement pricing relative to market.",
+        "The African cornerstone investor alignment suggests potential for follow-on strategic support, partnerships, or in-country facilitation that could accelerate project timelines and de-risk operational execution in Botswana."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AXL",
+      "company": "AXEL REE LIMITED",
+      "headline": "REE ISR Column Testing Achieves Flow-Through Milestone",
+      "time": "2026-04-19T23:33:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080355-3A691633",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Axel REE achieved a critical flow-through milestone in its In-Situ Recovery (ISR) column testing for rare earth elements, validating the technical feasibility of a lower-cost extraction method that could significantly de-risk the project's development pathway.",
+        "ISR technology, if proven at scale, offers substantially lower capital and operating costs compared to conventional open-pit mining for REE extraction — a key differentiator for a junior explorer seeking to attract development-stage funding in the competitive critical minerals space.",
+        "Next steps will likely involve scaling up from column tests to field-level pilot trials; investors should watch for pilot test timelines, recovery rate data, and any updated resource estimates that could materially re-rate the project's economic viability."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KKO",
+      "company": "KINETIKO ENERGY LTD",
+      "headline": "Kinetiko Launches Rolling Cluster Development Strategy",
+      "time": "2026-04-19T23:32:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080350-6A1321105",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kinetiko Energy is transitioning from exploration to a systematic rolling cluster development strategy for its South African gas resources, signaling a shift toward commercialization and production scalability that could materially de-risk the project timeline.",
+        "The cluster-based approach allows phased capital deployment across multiple well pads, potentially improving capital efficiency and reducing upfront funding requirements — a critical consideration given the company's micro-cap status and likely constrained cash runway.",
+        "Successful execution of the rolling development model would establish repeatable production units, providing a pathway to bankable feasibility and potential offtake agreements in South Africa's gas-starved energy market, though near-term cash flow generation remains dependent on regulatory approvals and drilling results."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PAB",
+      "company": "PATRYS LIMITED",
+      "headline": "$3.2 million Placement to Advance Clinical Trials",
+      "time": "2026-04-19T23:31:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080347-3A691628",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Patrys raising $3.2 million via placement, likely at a discount to market, which will dilute existing shareholders but provides critical funding to advance its clinical-stage pipeline",
+        "For a micro-cap biotech, $3.2M is a modest raise suggesting the company is managing dilution carefully, though cash runway extension will depend on burn rate relative to trial milestones — investors should assess whether this bridges to meaningful data catalysts",
+        "Proceeds earmarked specifically for clinical trial advancement signals the company is at an inflection point in its development programs, with near-term trial progress updates likely to be the key share price catalyst post-raise"
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "EUR",
       "company": "EUROPEAN LITHIUM LIMITED",
