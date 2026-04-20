@@ -17,6 +17,7 @@ import re
 import requests
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
+import zoneinfo
 from pathlib import Path
 from dotenv import load_dotenv
 from anthropic import Anthropic
@@ -42,7 +43,7 @@ GROQ_API_KEY      = (os.environ.get("GROQ_API_KEY") or "").strip()
 # llama3-70b-8192 was retired; see https://console.groq.com/docs/deprecations
 GROQ_MODEL        = _env_or_default("GROQ_MODEL", "llama-3.3-70b-versatile")
 
-AEST = timezone(timedelta(hours=11))
+AEST = zoneinfo.ZoneInfo("Australia/Sydney")  # Handles AEST/AEDT automatically
 MARKET_SENSITIVE_ONLY = True  # Only process Alpha news (Price Sensitive, Halts, Placements)
 
 HEADERS = {
@@ -408,12 +409,11 @@ def run_process(args):
 def main():
     parser = argparse.ArgumentParser(description="Fetch and summarise ASX announcements")
     # ─── Default Date Logic ───
+    # Always use today's AEST date. The cron runs during weekday market hours
+    # (8 AM – 2 PM), so today is always a valid trading day. For manual
+    # off-hours runs, use --date to specify a different date.
     now_aest = datetime.now(AEST)
-    # If before 10:00 AM AEST, default to yesterday's date
-    if now_aest.hour < 10:
-        default_date = (now_aest - timedelta(days=1)).strftime("%Y-%m-%d")
-    else:
-        default_date = now_aest.strftime("%Y-%m-%d")
+    default_date = now_aest.strftime("%Y-%m-%d")
 
     parser.add_argument(
         "--date",
