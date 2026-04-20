@@ -1,9 +1,48 @@
 {
   "date": "2026-04-20",
-  "total": 115,
-  "market_sensitive_count": 109,
-  "generated_at": "2026-04-20T00:07:20.365110+00:00",
+  "total": 117,
+  "market_sensitive_count": 111,
+  "generated_at": "2026-04-20T00:27:09.906861+00:00",
   "announcements": [
+    {
+      "ticker": "ADO",
+      "company": "ANTEOTECH LTD",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-20T00:11:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080400-2A1667291",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "AnteoTech's quarterly 4C report will reveal critical cash burn metrics and remaining runway, a key concern for this micro-cap diagnostics/technology company that has been navigating commercialisation challenges with limited revenue generation.",
+        "Investors will scrutinize customer receipts and operating cash outflows to assess whether the company's EuGeni diagnostic platform and AnteoBind surface chemistry technology are gaining meaningful commercial traction or remain pre-revenue stage.",
+        "Cash runway assessment is paramount — if the company holds less than ~2 quarters of operating cash, capital raise risk becomes elevated, presenting potential dilution headwinds for existing shareholders in the near term."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TAT",
+      "company": "TARTANA MINERALS LIMITED",
+      "headline": "Heap Restack Complete and Plant Upgrade Advances",
+      "time": "2026-04-20T00:09:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080399-2A1667290",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Heap restack completion marks a critical operational milestone, positioning Tartana to resume gold leaching operations and move closer to near-term revenue generation from its Queensland gold project.",
+        "Plant upgrade advances signal management is investing in processing efficiency improvements, which could enhance recovery rates and lower unit costs — key drivers for a small-cap miner's path to profitability.",
+        "With both the restack and upgrade progressing, the next catalyst will be commencement of active leaching and first gold pour timelines, which investors should monitor for validation of the production schedule and cash flow generation potential."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "SHN",
       "company": "SUNSHINE METALS LIMITED",
