@@ -1,9 +1,66 @@
 {
   "date": "2026-04-20",
-  "total": 119,
-  "market_sensitive_count": 113,
-  "generated_at": "2026-04-20T01:35:09.276421+00:00",
+  "total": 122,
+  "market_sensitive_count": 115,
+  "generated_at": "2026-04-20T03:05:32.299535+00:00",
   "announcements": [
+    {
+      "ticker": "CMO",
+      "company": "COSMO METALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-20T02:23:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080439-6A1321128",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Cosmo Metals Limited has filed a change in their holding, signaling a notable shift in ownership structure that institutional investors should monitor for potential strategic positioning.",
+        "Changes in substantial holdings for micro-cap ASX explorers like Cosmo Metals can reflect insider confidence or portfolio rebalancing — the direction of the change (increase vs decrease) is critical to interpreting the signal.",
+        "As a procedural disclosure filing marked not market sensitive, this is unlikely to drive immediate price action but warrants tracking alongside any upcoming capital raise activity or corporate developments."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BPM",
+      "company": "BPM MINERALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-20T02:22:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080438-6A1321126",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "BPM Minerals released its quarterly activities and Appendix 5B cash flow report, providing investors with an update on exploration progress and operational expenditure during the period.",
+        "As a junior explorer, the Appendix 5B will be closely scrutinized for cash burn rate and remaining cash runway — key metrics for assessing near-term funding risk and potential dilutive capital raise requirements.",
+        "Investors should monitor whether exploration results reported in the quarter are sufficiently compelling to support the company's valuation and attract future funding without significant equity dilution."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAY",
+      "company": "MELBANA ENERGY LIMITED",
+      "headline": "Update Block 9 Cuba",
+      "time": "2026-04-20T01:55:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080430-3A691648",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Melbana Energy has provided an operational update on its Block 9 exploration/development activities in Cuba, a high-risk frontier asset where progress updates are closely watched given the company's concentrated exposure to Cuban oil prospects.",
+        "Block 9 updates typically relate to drilling progress, well testing, or regulatory milestones — any positive flow-rate or resource confirmation would be materially significant given Melbana's small market cap and limited revenue base, making this a binary-style catalyst for the stock.",
+        "Investors should assess whether the update signals advancement toward commerciality or flags operational delays/setbacks; Cuba's geopolitical risk profile and sanctions complexity remain key overhangs that constrain institutional participation and partnering options."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "TMX",
       "company": "TERRAIN MINERALS LIMITED",
