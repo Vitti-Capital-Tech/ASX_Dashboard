@@ -1,9 +1,217 @@
 {
   "date": "2026-04-21",
-  "total": 60,
-  "market_sensitive_count": 55,
-  "generated_at": "2026-04-20T23:02:31.507327+00:00",
+  "total": 71,
+  "market_sensitive_count": 66,
+  "generated_at": "2026-04-20T23:17:54.833357+00:00",
   "announcements": [
+    {
+      "ticker": "XPD",
+      "company": "XPEDRA RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-20T23:15:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080764-6A1321257",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "XPEDRA RESOURCES LIMITED has entered a trading halt, suspending shares from trading pending a material announcement — typical of capital raises, asset acquisitions, or significant corporate transactions for micro-cap explorers.",
+        "As a small-cap resources company, any pending announcement likely involves either a capital raise (potentially dilutive) or a transformative asset deal; investors should monitor for details on terms, pricing, and strategic rationale.",
+        "Trading will remain halted until the company releases its announcement or until the commencement of normal trading on the second business day, giving the market time to digest the forthcoming material information before price discovery resumes."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CVR",
+      "company": "CAVALIER RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-20T23:13:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080759-6A1321255",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Cavalier Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration update for this junior mining company.",
+        "As a micro-cap ASX-listed explorer, any capital raise associated with this halt could result in meaningful dilution for existing shareholders, though it may also signal progress on project development requiring fresh funding.",
+        "Investors should await the detailed announcement expected within two business days to assess the nature and materiality of the news before repositioning; the trading halt prevents price discovery in the interim."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DVL",
+      "company": "DORSAVI LTD",
+      "headline": "RRAM-Neuromorphic Fusion Drives Robotics, Exoskeletons Gains",
+      "time": "2026-04-20T23:11:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080758-3A691707",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dorsavi announces RRAM-neuromorphic fusion technology advancement targeting robotics and exoskeleton applications, signaling a strategic pivot toward high-growth edge computing and wearable robotics markets beyond its traditional motion sensor business.",
+        "Market-sensitive designation suggests material commercial or partnership developments around neuromorphic chip integration; however, Dorsavi's micro-cap status (sub-$10M market cap) means any revenue contribution remains speculative and early-stage, with limited near-term earnings visibility.",
+        "The convergence of RRAM memory with neuromorphic processing for real-time motion control in exoskeletons could differentiate Dorsavi's sensor IP, but investors should monitor cash runway closely given the company's history of operating losses and the capital-intensive nature of hardware R&D commercialization."
+      ],
+      "tags": [
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MSG",
+      "company": "MCS SERVICES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-20T23:09:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080757-6A1321254",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "MCS Services Limited has entered a trading halt, suspending shares from trading pending a material announcement — the nature of the pending disclosure is not yet specified but warrants close monitoring.",
+        "For a micro/small-cap services company, trading halts frequently precede capital raises, acquisitions, or material contract announcements, any of which could significantly impact the company's valuation and liquidity profile.",
+        "Investors should await the forthcoming announcement before repositioning; the halt introduces near-term uncertainty around potential dilution (if capital raise) or strategic shift (if M&A), with the stock likely to see elevated volatility on resumption."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STM",
+      "company": "SUNSTONE METALS LTD",
+      "headline": "Bramaderos Gold-Copper Scoping Study presentation",
+      "time": "2026-04-20T23:07:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080754-2A1667465",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bramaderos Scoping Study presentation signals Sunstone Metals is advancing its flagship gold-copper project in Ecuador toward a development pathway, a key de-risking milestone for the asset and company valuation.",
+        "Market-sensitive classification suggests the study contains material economic parameters (NPV, IRR, capex/opex estimates) that could materially re-rate the stock depending on project economics and scale outlined in the presentation.",
+        "Successful scoping study outcomes typically trigger progression to pre-feasibility, which would require further funding — investors should watch for potential capital raise requirements and partnership/JV discussions to fund next-stage development."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STM",
+      "company": "SUNSTONE METALS LTD",
+      "headline": "Bramaderos Gold-Copper Project Scoping Study",
+      "time": "2026-04-20T23:06:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080752-2A1667463",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sunstone Metals has released a Scoping Study for its Bramaderos Gold-Copper Project in Ecuador, a key de-risking milestone that demonstrates potential economic viability and advances the asset toward pre-feasibility stage, signaling material project progression for a junior explorer.",
+        "The Scoping Study likely outlines preliminary mine plan economics including NPV, IRR, and capital/operating cost estimates for the gold-copper porphyry system — critical metrics that allow institutional investors to begin assigning fundamental valuation to what was previously an exploration-stage asset.",
+        "Next steps will likely involve advancement to a Pre-Feasibility Study (PFS), further infill drilling to upgrade resource confidence, and potential strategic partner engagement or project-level financing discussions, all of which could serve as near-term catalysts for re-rating."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MAF",
+      "company": "MA FINANCIAL GROUP LIMITED",
+      "headline": "MA Financial 1Q26 Operating Update",
+      "time": "2026-04-20T23:04:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080750-2A1667460",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MA Financial's 1Q26 operating update signals management confidence in providing early-cycle transparency to the market, typically indicating positive momentum in asset management, lending, or corporate advisory segments ahead of half-year results.",
+        "As a diversified financial services group with significant AUM-driven revenue, the quarterly update likely details flows, fee income trajectory, and credit book performance — key metrics institutional investors track for earnings visibility and multiple re-rating potential.",
+        "Market-sensitive designation suggests material new information on operating performance; investors should focus on AUM growth rates, net fund flows, credit quality metrics, and any forward guidance revisions that could reset consensus expectations for FY26."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SMS",
+      "company": "STAR MINERALS LIMITED",
+      "headline": "Tumblegum South Extensional Drilling Gold Results",
+      "time": "2026-04-20T23:02:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080747-6A1321253",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Star Minerals reports extensional drilling results from Tumblegum South gold project, indicating the company is actively delineating resource potential beyond the known deposit footprint — a key de-risking step for micro-cap explorers seeking to build economic scale.",
+        "Market-sensitive classification suggests the gold assay results contain material intercepts that could meaningfully upgrade the resource estimate or confirm continuity of mineralisation at depth/along strike, which is critical for advancing toward a maiden or updated JORC resource.",
+        "For a junior explorer like Star Minerals, positive extensional drilling results improve the narrative for future capital raises and potential farm-in/JV interest, though investors should monitor cash runway and whether follow-up drilling programs are funded from existing reserves."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PEX",
+      "company": "PEEL MINING LIMITED",
+      "headline": "New Cobar Basin Tenement Granted, Drilling Fast-tracked",
+      "time": "2026-04-20T23:00:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080745-6A1321251",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Peel Mining has been granted a new exploration tenement in the highly prospective Cobar Basin, expanding its landholding in a district known for high-grade polymetallic deposits — a strategic move to consolidate ground position ahead of competitors.",
+        "The company is fast-tracking drilling on the newly granted tenement, signalling management confidence in near-term target generation and potentially accelerating the discovery timeline, which is critical for a junior explorer's valuation re-rating.",
+        "Rapid mobilisation to drill suggests Peel has sufficient cash runway and pre-existing geological targets ready to test, reducing lead time to potential resource delineation and maintaining exploration momentum across its broader Cobar Basin portfolio."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NVQ",
+      "company": "NOVIQTECH LIMITED",
+      "headline": "Biochar CDR MOU Signed with Global Data Centres Operator",
+      "time": "2026-04-20T23:00:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080744-3A691703",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NoviqTech has signed a non-binding MOU with a global data centres operator for biochar-based carbon dioxide removal (CDR) credits, positioning the company at the intersection of two high-growth sectors — carbon markets and data centre sustainability mandates.",
+        "The MOU is non-binding and at an early stage, meaning no guaranteed revenue or contracted volumes yet; investors should treat this as a pipeline development signal rather than a near-term earnings catalyst, particularly given NoviqTech's micro-cap status and likely constrained cash runway.",
+        "Key next steps include conversion to a binding agreement with defined volumes, pricing, and delivery timelines — the commercial significance will depend on the scale of CDR credit offtake and whether the unnamed global operator commits to firm purchase obligations."
+      ],
+      "tags": [
+        "Energy",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "1AE",
+      "company": "AURORA ENERGY METALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-20T22:59:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080741-6A1321252",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Aurora Energy Metals' quarterly report provides an update on exploration and development activities at its uranium/lithium projects, with market-sensitive designation suggesting material operational or financial disclosures for investors to assess.",
+        "Cash flow reporting via Appendix 5B will reveal the company's current burn rate and remaining cash runway — critical for a pre-revenue explorer where funding adequacy directly impacts project continuity and potential dilution risk.",
+        "Investors should scrutinize exploration expenditure levels, any changes in project milestones or timelines, and whether the company's cash position necessitates a near-term capital raise that could weigh on the share price."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ARN",
       "company": "ALDORO RESOURCES LIMITED",
