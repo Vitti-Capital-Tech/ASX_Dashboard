@@ -1,9 +1,312 @@
 {
   "date": "2026-04-22",
-  "total": 83,
-  "market_sensitive_count": 75,
-  "generated_at": "2026-04-21T23:16:25.802371+00:00",
+  "total": 99,
+  "market_sensitive_count": 91,
+  "generated_at": "2026-04-21T23:32:27.015185+00:00",
   "announcements": [
+    {
+      "ticker": "AIQ",
+      "company": "ALTERNATIVE INVESTMENT TRUST",
+      "headline": "Dividend/Distribution - AIQ",
+      "time": "2026-04-21T23:28:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081224-2A1667677",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Alternative Investment Trust (AIQ) has announced a dividend/distribution, signaling ongoing capital return commitment to shareholders and reinforcing the trust's income-generating mandate.",
+        "As a market-sensitive announcement, the distribution details likely reflect the trust's portfolio performance and realized gains, providing a key read-through on alternative asset class returns in the current macro environment.",
+        "Investors should monitor the ex-dividend date, payment timeline, and any franking/tax components to assess yield attractiveness relative to peers and evaluate whether the distribution level is sustainable given AIQ's NAV trajectory."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RKB",
+      "company": "ROKEBY RESOURCES LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-04-21T23:28:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081226-6A1321447",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Rokeby Resources has been suspended from quotation on the ASX, indicating a potential compliance issue, pending corporate action, or failure to meet listing requirements that warrants immediate trading cessation.",
+        "Suspension from quotation (as distinct from a voluntary trading halt) is typically ASX-imposed, suggesting the company may have failed to lodge required documents, breached continuous disclosure obligations, or faces a material uncertainty that cannot be resolved through a standard trading halt.",
+        "Investors should monitor for a subsequent announcement detailing the reason for suspension and conditions for reinstatement; prolonged suspension carries risk of delisting and severely impairs liquidity, making position management effectively impossible in the interim."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ELS",
+      "company": "ELSIGHT LIMITED",
+      "headline": "Quarterly Activity Report and Appendix 4C",
+      "time": "2026-04-21T23:27:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081222-3A691792",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Elsight's quarterly activity report will reveal updated cash burn rates and operational milestones for its AI-driven connectivity platform (Halo), critical for assessing whether the company is progressing toward commercial scale or remains in pre-revenue cash consumption mode.",
+        "The Appendix 4C filing provides transparency on net operating cash outflows, remaining cash reserves, and estimated quarters of funding available — key metrics for a micro-cap technology company where cash runway is the primary survival indicator.",
+        "Market-sensitive designation suggests material information within the quarterly, potentially including new customer contracts, partnership updates for drone/autonomous vehicle connectivity solutions, or a shift in cash position that may signal near-term capital raise requirements."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RIV",
+      "company": "RIVCO AUSTRALIA LTD",
+      "headline": "Rivco Australia Executes Water Lease Agreement",
+      "time": "2026-04-21T23:27:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081221-2A1667678",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Rivco Australia has executed a water lease agreement, signaling a new revenue stream that could diversify income beyond its core operations and provide recurring cash flow from water rights monetization.",
+        "The market-sensitive designation suggests the agreement is material in scale relative to Rivco's current operations, potentially meaningful for a micro/small-cap company where even modest contract values can significantly impact valuation metrics.",
+        "Execution of the lease moves the company from negotiation to contracted revenue phase, with investors now needing to assess lease duration, annual payment terms, and whether this forms part of a broader water asset strategy that could attract further partnerships or acquisitions."
+      ],
+      "tags": [
+        "Property",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MPW",
+      "company": "METAL POWDER WORKS LIMITED",
+      "headline": "March 2026 Quarter Activities Update and Appendix 4C",
+      "time": "2026-04-21T23:24:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081220-6A1321446",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Metal Powder Works reports March 2026 quarter activities update, providing visibility into operational progress and cash position for this early-stage advanced manufacturing company.",
+        "Appendix 4C filing will reveal quarterly cash burn rate and remaining cash runway — critical metrics for a pre-revenue or early-revenue company where funding adequacy is the primary investor concern.",
+        "Investors should scrutinize net operating cash outflows relative to available cash to assess whether a near-term capital raise may be required, which could present dilution risk for existing shareholders."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "Gold Confirmed at Dollar Project, Drill Targeting Advancing",
+      "time": "2026-04-21T23:23:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081216-6A1321445",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Gold mineralisation confirmed at the Dollar Project through rock chip sampling, validating the exploration thesis and potentially de-risking the asset ahead of drilling — a positive catalyst for a micro-cap explorer seeking to build resource inventory.",
+        "Drill targeting is now advancing, indicating the company has sufficient geological confidence to progress toward a drilling program, though no assay grades or resource estimates have been disclosed yet, limiting the ability to assess economic significance.",
+        "As a pre-revenue junior explorer, EV Resources' near-term value will be driven by drill results and the ability to fund ongoing exploration — investors should monitor upcoming drill program details, funding position, and whether gold grades justify further investment in the Dollar Project."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MEI",
+      "company": "METEORIC RESOURCES NL",
+      "headline": "Strongly Supported $40M Placement Advances Caldeira Project",
+      "time": "2026-04-21T23:21:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081213-6A1321410",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Meteoric Resources completed a $40M placement to advance its Caldeira rare earths project in Brazil, signaling strong institutional demand and confidence in the project's development trajectory.",
+        "The placement was described as 'strongly supported,' suggesting oversubscription or robust participation from sophisticated/institutional investors, which provides meaningful validation of the asset's value proposition at current pricing levels.",
+        "Proceeds earmarked for Caldeira project advancement significantly extend the company's cash runway and de-risk the path toward key development milestones, reducing near-term funding uncertainty for this rare earths asset amid favorable macro tailwinds for critical minerals."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MRD",
+      "company": "MOUNT RIDLEY MINES LIMITED",
+      "headline": "Exploration Update",
+      "time": "2026-04-21T23:21:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081212-6A1321443",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mount Ridley Mines has released a market-sensitive exploration update, signaling potentially material progress at one or more of its project areas that the company considers significant enough to warrant immediate disclosure.",
+        "As a micro-cap explorer with limited revenue streams, any positive exploration results are critical to sustaining investor interest and justifying ongoing expenditure against a typically constrained cash runway — investors should scrutinize assay grades, widths, and geological context for materiality.",
+        "The market-sensitive tag suggests the update may contain drill results or geophysical findings that could serve as a catalyst for near-term re-rating, though follow-up work and resource definition remain key milestones before any value crystallization."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OVT",
+      "company": "OVANTI LIMITED",
+      "headline": "Ovanti Super App Secures Strategic Banking Infrastructure",
+      "time": "2026-04-21T23:20:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081208-2A1667673",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ovanti has secured a strategic banking infrastructure partnership for its Super App, a critical milestone enabling embedded financial services functionality that could unlock new revenue streams and enhance user stickiness within the platform.",
+        "For a micro-cap like Ovanti, securing banking infrastructure is a significant de-risking event — it validates the fintech proposition and reduces execution risk around regulatory and technical hurdles typically associated with embedded finance offerings.",
+        "Key watch items include the commercial terms of the banking partnership, timeline to product launch, user acquisition targets, and whether the company has sufficient cash runway to reach revenue generation — investors should monitor upcoming quarterly cashflow reports for burn rate clarity."
+      ],
+      "tags": [
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MME",
+      "company": "MONEYME LIMITED",
+      "headline": "3Q26 Update - $1.9bn loan book, positive normalised NPAT",
+      "time": "2026-04-21T23:19:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081207-2A1667671",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MoneyMe's loan book reached $1.9bn in 3Q26, signaling continued strong origination momentum and market share gains in the Australian digital lending space.",
+        "Achievement of positive normalised NPAT marks a critical inflection point, demonstrating the company's path to sustainable profitability after extended investment phases — a key de-risking milestone for institutional holders.",
+        "Sustained loan book growth combined with profitability inflection suggests improving unit economics and operating leverage, positioning the company for potential earnings upgrades if credit quality remains stable through FY26."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AOK",
+      "company": "AUSTRALIAN OIL COMPANY LIMITED.",
+      "headline": "Trading Halt",
+      "time": "2026-04-21T23:18:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081205-6A1321439",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Australian Oil Company Limited has entered a trading halt, suspending shares from trading pending a material announcement — the nature of the pending announcement is undisclosed, creating uncertainty for holders.",
+        "For a small-cap energy explorer, trading halts frequently precede capital raises (placement/rights issue) or material corporate transactions such as asset acquisitions/disposals, both of which carry dilution or strategic repositioning risk.",
+        "Investors should await the forthcoming announcement before adjusting positions; the halt signals imminent news flow that could materially reprice the stock in either direction upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCG",
+      "company": "SCENTRE GROUP",
+      "headline": "Operating Update",
+      "time": "2026-04-21T23:17:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081203-2A1667667",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Scentre Group has released a market-sensitive operating update, likely providing key metrics on occupancy rates, leasing spreads, and foot traffic across its Westfield living centre portfolio — critical indicators for REIT valuation.",
+        "As Australia's largest retail REIT, any update on tenant sales growth, rent collection rates, or FFO/distribution guidance revisions will directly impact institutional positioning and peer comparisons across the A-REIT sector.",
+        "Investors should focus on whether the update signals upgraded or maintained earnings guidance, specialty leasing momentum, and any commentary on consumer spending resilience amid the current interest rate environment."
+      ],
+      "tags": [
+        "Property",
+        "Retail",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AI1",
+      "company": "ADISYN LTD",
+      "headline": "Trading Halt",
+      "time": "2026-04-21T23:15:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081199-6A1321438",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "ADISYN LTD has entered a trading halt, typically requested by the company pending a material announcement that could significantly impact its share price.",
+        "As a small-cap technology/data company, trading halts often precede capital raises, strategic partnerships, or material transactions — investors should watch for potential dilution or transformative deals.",
+        "Shares will remain suspended until the announcement is released or the halt period expires (typically up to two trading days); the nature of the pending announcement will be critical in determining near-term direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HMY",
+      "company": "HARMONEY CORP LIMITED",
+      "headline": "3Q26 Investor Presentation",
+      "time": "2026-04-21T23:15:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081198-2A1667669",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Harmoney's 3Q26 investor presentation is market-sensitive, suggesting material updates on operational performance, loan book growth, or profitability trajectory for the digital lending platform.",
+        "As a quarterly update for a consumer finance company, investors will scrutinize net interest margin trends, credit quality metrics (arrears/impairments), and progress toward sustainable profitability — key drivers for re-rating the stock.",
+        "The presentation format signals management is proactively engaging institutional investors, likely highlighting improving unit economics or balance sheet strength to build confidence in the path to consistent cash generation."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HMY",
+      "company": "HARMONEY CORP LIMITED",
+      "headline": "3Q26 Trading Update",
+      "time": "2026-04-21T23:14:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081196-2A1667668",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Harmoney Corp releases 3Q26 trading update, providing investors with a mid-year operational snapshot of the digital personal lending platform's performance trajectory in the ANZ market.",
+        "As a market-sensitive quarterly update, key metrics to watch include loan origination volumes, net interest margin trends, credit quality indicators, and progress toward sustainable profitability — all critical for re-rating potential in the fintech lending space.",
+        "Investors should assess whether the update signals improving unit economics and a credible path to cash flow breakeven, as Harmoney's ability to fund growth while managing credit losses remains the central thesis driver for the stock."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WCE",
+      "company": "WEST COAST SILVER LIMITED",
+      "headline": "Elizabeth Hill - 2.8Moz Silver Mineral Resource Estimate",
+      "time": "2026-04-21T23:13:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081194-6A1321387",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "West Coast Silver has established a maiden JORC Mineral Resource Estimate of 2.8Moz silver at its Elizabeth Hill project, a significant de-risking milestone that transitions the asset from exploration to a defined resource stage, enhancing its credibility with institutional investors.",
+        "The 2.8Moz silver resource provides a quantifiable valuation anchor for the project; investors should assess the grade profile, resource classification split (Indicated vs Inferred), and how this compares to peer ASX-listed silver juniors to gauge relative attractiveness.",
+        "The maiden MRE is expected to underpin further studies (scoping/PFS) and potentially support future capital raising efforts; near-term catalysts include metallurgical testwork, resource expansion drilling, and any economic assessment that could demonstrate project viability."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "BSN",
       "company": "BASIN ENERGY LIMITED",
