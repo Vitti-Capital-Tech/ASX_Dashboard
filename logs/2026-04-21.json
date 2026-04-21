@@ -1,9 +1,105 @@
 {
   "date": "2026-04-21",
-  "total": 100,
-  "market_sensitive_count": 95,
-  "generated_at": "2026-04-20T23:58:07.145481+00:00",
+  "total": 105,
+  "market_sensitive_count": 100,
+  "generated_at": "2026-04-21T00:33:16.489081+00:00",
   "announcements": [
+    {
+      "ticker": "GLS",
+      "company": "L1 GLOBAL LONG SHORT FUND LIMITED",
+      "headline": "GLS Investor Presentation",
+      "time": "2026-04-21T00:30:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080836-2A1667492",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "L1 Global Long Short Fund released an investor presentation, likely detailing portfolio positioning, performance attribution, and market outlook — a proactive communication signal aimed at maintaining institutional confidence and transparency.",
+        "As a long-short equity fund, the market-sensitive designation suggests the presentation may contain material updates on NAV performance, discount-to-NTA dynamics, or changes in portfolio strategy that could influence trading in the LIC structure.",
+        "Investors should scrutinize any disclosed net/gross exposure shifts, top position changes, and commentary on macro hedging — key indicators of whether L1 is positioning defensively or offensively in the current environment."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GL1",
+      "company": "GLOBAL LITHIUM RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-21T00:13:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080835-6A1321290",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Global Lithium Resources has entered a trading halt, typically preceding a material announcement such as a capital raise, asset transaction, or significant corporate update in the lithium junior mining space.",
+        "Given the challenging lithium price environment and GL1's pre-revenue status with the Marble Bar and Manna projects, a capital raise is the most probable catalyst — likely dilutive to existing shareholders given depressed sector valuations.",
+        "Investors should monitor the pending announcement closely; if a capital raise is confirmed, the discount to last traded price and use of proceeds (exploration vs. working capital) will be critical in assessing near-term value impact."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DUI",
+      "company": "DIVERSIFIED UNITED INVESTMENT LIMITED",
+      "headline": "Scheme becomes effective",
+      "time": "2026-04-21T00:04:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080829-3A691726",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Diversified United Investment (DUI) scheme of arrangement has become legally effective, marking the final regulatory milestone before implementation of the corporate restructure or merger transaction.",
+        "With the scheme now effective, DUI shares will likely be suspended or delisted in the near term as the acquirer completes the transfer of ownership, removing the stock from the ASX investable universe for index and portfolio managers.",
+        "Shareholders should expect scheme consideration (cash and/or scrip) to be distributed on the implementation date; institutional holders need to ensure settlement and custody arrangements are finalized ahead of the record date."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XPD",
+      "company": "XPEDRA RESOURCES LIMITED",
+      "headline": "High Grade Neeld Gold Project Acquired from Saturn Metals",
+      "time": "2026-04-21T00:01:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080825-6A1321260",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Xpedra acquires the Neeld Gold Project from Saturn Metals, adding a high-grade gold asset to its portfolio — a potentially transformative deal for a small-cap explorer seeking to accelerate resource development in a proven gold district.",
+        "The 'high grade' characterization of the Neeld project is critical: if historical drill results support meaningful grade and tonnage, this acquisition could materially re-rate Xpedra's valuation, though investors should scrutinize acquisition terms, consideration structure (cash vs scrip), and whether a JORC resource is already defined.",
+        "Key next steps include confirmation of acquisition terms, planned exploration/drilling programs, and funding strategy — investors should watch for follow-up announcements on work programs and any associated capital raise to fund development activities."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VHM",
+      "company": "VHM LIMITED",
+      "headline": "VHM Announces Placement",
+      "time": "2026-04-20T23:56:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080822-3A691723",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "VHM Limited has announced a share placement, signaling near-term equity dilution for existing shareholders as the company raises fresh capital to fund its operations or project development.",
+        "The placement structure and pricing details will be critical to assess the extent of dilution — institutional investors should monitor the discount to last traded price and total shares issued relative to existing shares on issue.",
+        "Proceeds are likely earmarked for advancing VHM's mineral sands projects (notably the Goschen rare earths and mineral sands project in Victoria), extending cash runway and potentially de-risking the development pathway ahead of key milestones."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "CPM",
       "company": "COOPER METALS LIMITED",
