@@ -1,9 +1,355 @@
 {
   "date": "2026-04-22",
-  "total": 65,
-  "market_sensitive_count": 58,
-  "generated_at": "2026-04-21T22:59:38.568545+00:00",
+  "total": 83,
+  "market_sensitive_count": 75,
+  "generated_at": "2026-04-21T23:16:25.802371+00:00",
   "announcements": [
+    {
+      "ticker": "BSN",
+      "company": "BASIN ENERGY LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-21T23:12:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081193-6A1321436",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Basin Energy has entered a trading halt, typically preceding a material announcement such as a capital raise, asset acquisition, or significant exploration results in the uranium/energy space.",
+        "As a junior explorer with limited revenue, any capital raise during the halt would likely be dilutive to existing shareholders, though it could extend cash runway to advance key projects.",
+        "Investors should await the pending announcement — the trading halt suggests news is imminent, with shares expected to resume trading once the announcement is released or within two business days."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ILT",
+      "company": "ILTANI RESOURCES LIMITED.",
+      "headline": "ILT March 2026 Quarterly Activities Report & Appendix 5B",
+      "time": "2026-04-21T23:11:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081192-3A691783",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Iltani Resources' March 2026 quarterly report provides an operational update on exploration activities, with market-sensitive designation suggesting material developments or cash position changes that investors need to assess.",
+        "As a junior explorer, the Appendix 5B cash flow statement will be critical for evaluating remaining cash runway and burn rate — any significant drawdown could signal near-term capital raise requirements or operational scaling.",
+        "Investors should scrutinize net cash from operating and investing activities alongside closing cash balances to determine whether Iltani can fund planned exploration programs through the next quarter without dilutive equity raising."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TSK",
+      "company": "TUSKER MINERALS LTD",
+      "headline": "Security Class Suspension from Quotation - TSKO",
+      "time": "2026-04-21T23:10:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081190-6A1321434",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TSKO options class has been suspended from quotation by ASX, indicating a compliance or administrative issue that removes liquidity for holders of this specific security class.",
+        "Suspension of an options class often signals expiry, non-compliance with listing rules, or failure to meet exercise conditions — investors holding TSKO options face an inability to trade until further notice.",
+        "Investors should monitor for a follow-up announcement from Tusker Minerals clarifying the reason for suspension and any potential impact on the underlying ordinary shares (TSK) and broader capital structure."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NSC",
+      "company": "NAOS SMALL CAP OPPORTUNITIES COMPANY LIMITED",
+      "headline": "Media Release - Q3 FY26 Quarterly Dividend Declaration",
+      "time": "2026-04-21T23:07:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081187-2A1667662",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "NAOS Small Cap Opportunities (NSC) has declared its Q3 FY26 quarterly dividend, signaling continued commitment to regular shareholder distributions and confidence in portfolio cash flow generation.",
+        "The declaration of a quarterly dividend from a small-cap focused LIC is notable as it implies sufficient realized gains and/or income from the underlying portfolio to sustain payouts despite typically volatile small-cap market conditions.",
+        "Investors should monitor the dividend amount, franking level, and ex-dividend date details for yield implications, as well as any commentary on NTA movement and portfolio positioning heading into Q4 FY26."
+      ],
+      "tags": [
+        "Dividend",
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NAC",
+      "company": "NAOS EX-50 OPPORTUNITIES COMPANY LIMITED",
+      "headline": "Media Release - Q3 FY26 Quarterly Dividend Declaration",
+      "time": "2026-04-21T23:06:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081185-2A1667663",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "NAOS Ex-50 Opportunities Company (NAC) has declared its Q3 FY26 quarterly dividend, maintaining its commitment to regular shareholder distributions from its small/mid-cap focused listed investment company portfolio.",
+        "The dividend declaration signals continued portfolio income generation and sufficient franking credits or reserves to support ongoing payments, a key metric for LIC investors evaluating yield sustainability.",
+        "Investors should monitor the dividend amount relative to prior quarters and the company's NTA trajectory to assess whether the payout is being funded from investment returns or capital erosion — critical for valuing the LIC's premium/discount to NTA."
+      ],
+      "tags": [
+        "Dividend",
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HHI",
+      "company": "HEJAZ HIGH INNOVATION ACTIVE ETF",
+      "headline": "Notice of Closure",
+      "time": "2026-04-21T23:06:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081184-2A1667648",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hejaz High Innovation Active ETF is closing, signaling fund termination — investors face forced liquidation of holdings and need to plan for capital reallocation or potential tax events.",
+        "Closure likely reflects insufficient scale or AUM to justify ongoing management costs, a recurring theme among niche/thematic ETFs on the ASX that fail to attract critical mass from institutional or retail flows.",
+        "Unitholders should monitor the wind-up timeline, final NAV distributions, and any potential tracking deviation during the liquidation period as underlying positions are unwound."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GLH",
+      "company": "GLOBAL HEALTH LIMITED",
+      "headline": "March-26 QTR Business Activity Report and Appendix 4C",
+      "time": "2026-04-21T23:05:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081182-3A691781",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Global Health Limited's March-26 quarter Appendix 4C filing provides updated cash flow visibility for this healthcare technology company, with investors scrutinizing operating cash burn trends and remaining cash runway as key indicators of financial sustainability.",
+        "The quarterly business activity report will detail customer receipts, operating expenditure, and net operating cash flows — critical metrics for assessing whether the company is progressing toward cash flow breakeven or will require additional capital in the near term.",
+        "As a small-cap ASX-listed health IT provider, the market-sensitive designation suggests material information within the filing — investors should focus on any changes to cash reserves, revised guidance, and whether the company's SaaS/recurring revenue base is scaling sufficiently to support ongoing operations without dilutive capital raises."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HJZ",
+      "company": "HEJAZ PROPERTY FUND ACTIVE ETF",
+      "headline": "Notice of Closure",
+      "time": "2026-04-21T23:04:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081177-2A1667658",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hejaz Property Fund Active ETF is closing, signaling a wind-down of the Sharia-compliant property ETF — likely driven by insufficient scale or investor demand to sustain the product economically.",
+        "Unitholders face forced liquidation of their positions, with NAV realization risk depending on the orderly disposal of underlying property-linked assets and timing of final distributions.",
+        "The closure underscores broader challenges for niche thematic ETFs on the ASX, particularly those targeting smaller addressable markets; investors should monitor final distribution timeline and any discount to NAV at wind-up."
+      ],
+      "tags": [
+        "Property",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NAC",
+      "company": "NAOS EX-50 OPPORTUNITIES COMPANY LIMITED",
+      "headline": "Dividend/Distribution - NAC",
+      "time": "2026-04-21T23:03:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081173-2A1667650",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "NAOS Ex-50 Opportunities Company (NAC) has declared a dividend/distribution, signaling the LIC's commitment to returning capital to shareholders and maintaining its income-focused investment mandate targeting ex-ASX 50 opportunities.",
+        "The market-sensitive classification suggests the dividend parameters (amount, franking, or timing) may differ from prior periods or market expectations, warranting close attention to yield implications for income-oriented holders.",
+        "Investors should assess the dividend relative to NAC's NTA trajectory and portfolio performance to determine whether the payout is sustainable or represents a return of capital, which has different tax and valuation implications for the LIC structure."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PPT",
+      "company": "PERPETUAL LIMITED",
+      "headline": "Third Quarter FY26 Business Update",
+      "time": "2026-04-21T23:03:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081171-2A1667653",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Perpetual's Q3 FY26 business update provides a mid-cycle read on asset management flows, corporate trust revenues, and wealth management performance — critical for tracking post-KKR/Washington H. Soul Pattinson restructuring trajectory and standalone operating momentum.",
+        "Quarterly updates from Perpetual are closely watched for funds under management (FUM) trends, net flow direction, and margin resilience across its simplified business segments, with any positive flow inflection or cost discipline likely to support re-rating of the stock.",
+        "Market-sensitive designation signals material new information — investors should focus on whether AUM/FUM growth is organic vs. market-driven, fee margin trajectory, and any updated guidance or strategic commentary that could shift consensus earnings expectations for FY26."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYC",
+      "company": "CYCLOPHARM LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-21T23:03:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081170-2A1667656",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Cyclopharm Limited (ASX: CYC) has filed a change in their holding, signaling active institutional portfolio rebalancing in this healthcare-focused company specializing in nuclear medicine lung imaging products.",
+        "The change in substantial holding notice is classified as not market sensitive, suggesting the movement is likely a modest adjustment in position size rather than a transformative accumulation or disposal event.",
+        "Investors should monitor whether this forms part of a broader trend of institutional buying or selling in CYC, particularly given the company's ongoing commercialization efforts for its Technegas diagnostic imaging technology in key regulatory markets including the US FDA pathway."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NSC",
+      "company": "NAOS SMALL CAP OPPORTUNITIES COMPANY LIMITED",
+      "headline": "Dividend/Distribution - NSC",
+      "time": "2026-04-21T23:01:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081165-2A1667651",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "NAOS Small Cap Opportunities (NSC) has declared a dividend/distribution, signaling the LIC's commitment to returning capital to shareholders despite challenging small-cap market conditions.",
+        "The dividend announcement is market-sensitive, suggesting a material change in distribution terms — investors should assess whether the payout is fully franked and whether it is supported by realized portfolio gains or represents a return of capital.",
+        "For income-focused LIC holders, the distribution reinforces NSC's yield proposition; however, the sustainability of future payouts depends on the underlying portfolio performance and NTA trajectory in the small-cap segment."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NXT",
+      "company": "NEXTDC LIMITED",
+      "headline": "Successful Completion of Institutional Entitlement Offer",
+      "time": "2026-04-21T23:00:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081163-2A1667595",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "NEXTDC successfully completed the institutional component of its entitlement offer, signaling strong institutional demand for the data centre operator's equity raise amid surging AI-driven capacity requirements across Australia and Asia-Pacific.",
+        "The institutional entitlement offer likely raised significant capital to fund NEXTDC's aggressive hyperscale data centre expansion pipeline, with proceeds earmarked for new facility builds and capacity upgrades across its national platform — critical given the current supply-constrained environment.",
+        "Retail entitlement offer component expected to follow, with the institutional bookbuild outcome setting a strong pricing benchmark; investors should monitor take-up rates and any shortfall allocation as indicators of broader market confidence in NEXTDC's capital-intensive growth strategy."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "G6M",
+      "company": "GROUP 6 METALS LIMITED",
+      "headline": "G6M Executes Underground Mining Contract",
+      "time": "2026-04-21T22:59:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081162-2A1667588",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Group 6 Metals has executed an underground mining contract, a critical de-risking milestone that signals the Dolphin tungsten project is advancing toward production with a committed mining partner in place.",
+        "Securing a mining contractor locks in operational execution capability and provides greater cost certainty for underground development, reducing project delivery risk and supporting financing discussions with potential lenders.",
+        "The contract execution positions G6M to progress toward first ore extraction and revenue generation from its flagship tungsten asset, with tungsten prices remaining elevated amid tight global supply and strategic metal demand."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SYR",
+      "company": "SYRAH RESOURCES LIMITED",
+      "headline": "Syrah Completes Retail Entitlement Offer",
+      "time": "2026-04-21T22:59:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081160-3A691776",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Syrah Resources has completed the retail component of its entitlement offer, finalizing a capital raise that will bolster its balance sheet amid ongoing cash burn from its Balama graphite operations and Vidalia AAM facility ramp-up.",
+        "Retail entitlement offers typically see lower take-up rates than institutional tranches, and any shortfall shares allocated to sub-underwriters or the underwriter signal dilution risk for existing retail holders who did not participate.",
+        "The completed raise extends Syrah's cash runway at a critical juncture as the company navigates weak natural graphite pricing and US trade policy uncertainty around EV battery supply chains — investors should monitor deployment of proceeds and upcoming quarterly production updates."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "XGL",
+      "company": "XAMBLE GROUP LIMITED",
+      "headline": "Commercial Wins and YouthsToday Acquisition Completed",
+      "time": "2026-04-21T22:58:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081158-2A1667645",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Xamble Group has completed the acquisition of YouthsToday, a youth-focused media and content platform, expanding its digital ecosystem and audience reach in the Southeast Asian market — signaling a strategic push into content-driven monetization.",
+        "The announcement highlights concurrent commercial wins alongside the acquisition completion, suggesting near-term revenue pipeline growth and potential for cross-selling across the enlarged group's influencer marketing and media capabilities.",
+        "Investors should monitor integration execution risk, the revenue contribution timeline from YouthsToday, and any associated cash outflows or earn-out structures that could impact Xamble's cash runway given its micro-cap profile on the ASX."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BGD",
+      "company": "BARTON GOLD HOLDINGS LIMITED",
+      "headline": "Challenger West Assays Return Grades up to 60 g/t Au",
+      "time": "2026-04-21T22:57:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081156-6A1321432",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Challenger West drilling has returned exceptional high-grade gold assays up to 60 g/t Au, significantly de-risking the near-mine exploration target and potentially expanding the resource base adjacent to the historic Challenger gold mine in South Australia.",
+        "Grades of this magnitude (up to 60 g/t Au) are well above typical economic thresholds for underground gold mining, suggesting the potential for high-margin ounces that could materially enhance project economics and attract market re-rating.",
+        "These results are likely to accelerate follow-up drilling programs at Challenger West, with investors watching for resource estimate updates and integration into broader mine planning — a key catalyst pathway for Barton Gold's valuation in coming quarters."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SX2",
+      "company": "SOUTHERN CROSS GOLD CONSOLIDATED LTD.",
+      "headline": "SX2 drills 1.6m @ 55.3 g/t Gold and 1.9% Antimony",
+      "time": "2026-04-21T22:57:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081155-3A691775",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Southern Cross Gold reports a high-grade intercept of 1.6m @ 55.3 g/t gold and 1.9% antimony, representing exceptional grade that significantly exceeds typical economic thresholds and reinforces the project's potential as a high-value deposit.",
+        "The co-occurrence of gold with antimony — a critical mineral facing supply constraints due to Chinese export restrictions — adds a strategic premium to the asset and positions SXG favorably amid growing Western demand for antimony supply diversification.",
+        "Continued high-grade drill results at the Sunday Creek project are expected to support resource definition and de-risking ahead of potential future feasibility studies, likely sustaining investor interest and potentially catalyzing re-rating as the deposit's scale and continuity become clearer."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "IPT",
       "company": "IMPACT MINERALS LIMITED",
