@@ -1,9 +1,123 @@
 {
   "date": "2026-04-21",
-  "total": 107,
-  "market_sensitive_count": 102,
-  "generated_at": "2026-04-21T01:35:58.197539+00:00",
+  "total": 113,
+  "market_sensitive_count": 108,
+  "generated_at": "2026-04-21T03:06:44.249128+00:00",
   "announcements": [
+    {
+      "ticker": "RND",
+      "company": "RAND MINING LIMITED",
+      "headline": "FY2026 Quarter 3 - EKJV Exploration Report",
+      "time": "2026-04-21T03:02:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080901-6A1321315",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Rand Mining released its Q3 FY2026 exploration report for the East Kundana Joint Venture (EKJV), signaling ongoing active exploration activity at this key gold project in the Kalgoorlie region of Western Australia.",
+        "As a market-sensitive quarterly exploration update, the report likely contains material drilling results or resource delineation progress that could influence the company's resource base and future production outlook.",
+        "Investors should assess whether new assay results or geological findings from the EKJV support potential resource upgrades or mine life extensions, which would be critical for Rand Mining's valuation given its reliance on this joint venture asset."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REC",
+      "company": "RECHARGE METALS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-04-21T02:55:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080898-6A1321313",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Recharge Metals has entered a trading pause, typically preceding a material announcement such as a capital raise, acquisition, or significant operational update that requires orderly market disclosure.",
+        "As a small-cap explorer, any trading halt raises immediate questions around cash runway adequacy — a potential capital raise would be dilutive to existing shareholders but may fund critical exploration milestones.",
+        "Investors should monitor for the pending announcement closely; the nature of the disclosure (asset acquisition, placement, or drilling results) will determine whether this pause resolves as a catalyst or an overhang."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KZR",
+      "company": "KALAMAZOO RESOURCES LIMITED",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-04-21T02:34:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080889-6A1321305",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Kalamazoo Resources' quarterly activities report provides an update on exploration and development progress across its gold and lithium portfolio, with market-sensitive designation suggesting material operational developments disclosed.",
+        "Cash position and burn rate will be critical to assess given the company is pre-revenue; investors should scrutinize the quarterly cashflow statement for runway implications and any signals of near-term capital raise requirements.",
+        "Advancement of key projects including the Ashburton Gold Project and South Muckleford Gold Project will be evaluated for drill results, resource upgrades, or permitting milestones that could serve as near-term catalysts."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KZR",
+      "company": "KALAMAZOO RESOURCES LIMITED",
+      "headline": "Quarterly Cashflow Report",
+      "time": "2026-04-21T02:11:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080879-6A1321301",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Kalamazoo Resources' quarterly cashflow report provides updated visibility on the junior explorer's burn rate and remaining cash position, critical for assessing near-term funding requirements and operational continuity.",
+        "As a pre-revenue exploration company, investors should scrutinize net operating and investing cash outflows against closing cash balances to determine the implied cash runway — any material decline quarter-on-quarter would signal potential dilutive capital raise ahead.",
+        "Market-sensitive classification suggests the report may contain notable changes in expenditure patterns, project milestones, or treasury position that could prompt a reassessment of the company's ability to fund ongoing exploration programs without near-term equity issuance."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HLX",
+      "company": "HELIX RESOURCES LIMITED",
+      "headline": "Notice of General Meeting/Proxy Form",
+      "time": "2026-04-21T01:56:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080875-6A1321297",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Helix Resources has called a General Meeting requiring shareholder approval, typically signaling significant corporate actions such as capital raises, asset transactions, or board restructuring that could materially alter the company's trajectory.",
+        "The market-sensitive designation suggests the resolutions being put to shareholders carry material implications for valuation — investors should scrutinize the proxy form for potential dilution, related-party transactions, or strategic pivots.",
+        "For a junior explorer like Helix Resources, general meetings outside the AGM cycle often precede capital management decisions; shareholders should monitor voting outcomes closely as they may impact near-term cash runway and project funding capacity."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NSR",
+      "company": "NATIONAL STORAGE REIT",
+      "headline": "Schemes approved by Court and become legally effective",
+      "time": "2026-04-21T01:40:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03080868-2A1667513",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Court approval of the schemes makes the National Storage REIT restructure or acquisition legally effective, removing the final regulatory hurdle and providing deal certainty for unitholders and counterparties.",
+        "With schemes now binding, implementation mechanics (including any consideration payments, registry changes, or entity consolidation) are expected to proceed on the previously announced timetable, reducing execution risk premium in the security price.",
+        "Investors should monitor the effective date and any subsequent delisting or stapling changes, as liquidity dynamics may shift materially in the near term once scheme implementation is completed."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CPN",
       "company": "CASPIN RESOURCES LIMITED",
