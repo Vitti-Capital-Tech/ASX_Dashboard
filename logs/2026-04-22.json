@@ -1,9 +1,220 @@
 {
   "date": "2026-04-22",
-  "total": 99,
-  "market_sensitive_count": 91,
-  "generated_at": "2026-04-21T23:32:27.015185+00:00",
+  "total": 110,
+  "market_sensitive_count": 102,
+  "generated_at": "2026-04-21T23:51:05.639157+00:00",
   "announcements": [
+    {
+      "ticker": "HGO",
+      "company": "HILLGROVE RESOURCES LIMITED",
+      "headline": "Quarterly Report for 31 March 2026",
+      "time": "2026-04-21T23:45:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081256-2A1667697",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Hillgrove Resources releases March 2026 quarterly report, providing updated operational and financial metrics for its Kanmantoo copper-gold mining operations in South Australia — key focus will be on copper production volumes and unit costs relative to guidance.",
+        "Cash position, debt levels, and operating cash flow trends will be critical for assessing runway and ability to fund ongoing development without dilutive capital raises, particularly given copper price volatility.",
+        "Investors should watch for any updated FY26 production or cost guidance revisions, progress on underground mine development, and commentary on commodity hedging strategy as indicators of near-term earnings trajectory."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CPN",
+      "company": "CASPIN RESOURCES LIMITED",
+      "headline": "Mount Squires Divestment",
+      "time": "2026-04-21T23:44:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081255-6A1321455",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Caspin Resources is divesting its Mount Squires project, allowing the company to streamline its portfolio and concentrate capital and management attention on its higher-priority assets, likely the Yarawindah Brook project in Western Australia.",
+        "The divestment reduces ongoing holding costs and exploration expenditure commitments associated with Mount Squires, which should modestly extend Caspin's cash runway — a critical consideration for a junior explorer with limited revenue streams.",
+        "The transaction signals a strategic portfolio rationalization typical of small-cap explorers seeking to preserve capital; investors should watch for details on sale proceeds (if any), retained royalties, and how freed-up funds are redeployed into core exploration programs."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SHG",
+      "company": "SINGULAR HEALTH GROUP LTD",
+      "headline": "Key Milestone Achieved with PNS - USD$500,000 received",
+      "time": "2026-04-21T23:44:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081254-6A1321460",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Singular Health has received USD$500,000 from its PNS (likely a partnership, licensing, or milestone-based agreement), marking a key commercial validation event for the micro-cap healthcare technology company.",
+        "For a company of SHL's size (market cap typically sub-$20M), a USD$500K cash injection is material and meaningfully extends cash runway while demonstrating ability to monetize its 3Dicom medical imaging platform or related IP.",
+        "Achievement of this milestone de-risks the commercial pathway and may unlock further staged payments or deeper engagement with the PNS counterparty, providing a potential catalyst for re-rating if follow-on milestones are met."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BPP",
+      "company": "BABYLON PUMP & POWER LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-04-21T23:43:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081252-6A1321457",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Babylon Pump & Power has been suspended from quotation on the ASX, indicating a significant corporate event or compliance issue that prevents normal trading of its securities.",
+        "Suspension from quotation (as distinct from a voluntary trading halt) is typically imposed by ASX and may signal regulatory concerns, failure to meet listing requirements, or a pending material transaction requiring extended review — all of which carry elevated risk for existing holders.",
+        "Investors should monitor for a follow-up announcement detailing the reason for suspension and conditions for reinstatement; prolonged suspension could impair liquidity and signal deeper financial or governance issues at the micro-cap pump and power services company."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AMA",
+      "company": "AMA GROUP LIMITED",
+      "headline": "3Q26 Quarterly Business Update",
+      "time": "2026-04-21T23:35:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081240-3A691796",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "AMA Group's 3Q26 quarterly business update is market-sensitive, signaling material operational or financial developments in its automotive collision repair and parts business that could reset investor expectations.",
+        "As a quarterly update rather than full results, key metrics to watch include same-store revenue trends, margin recovery progress, labor cost management, and net debt trajectory — all critical given AMA's leveraged balance sheet and ongoing turnaround narrative.",
+        "Institutional focus will center on whether AMA is demonstrating sustainable operational improvement and adequate cash generation to service debt obligations, with any guidance revision or covenant commentary likely to drive near-term price action."
+      ],
+      "tags": [
+        "Quarterly",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMU",
+      "company": "AMERICAN URANIUM LTD",
+      "headline": "American Uranium Entitlement Offer Update",
+      "time": "2026-04-21T23:33:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081236-6A1321452",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "American Uranium is providing an update on its entitlement offer, signaling an active capital raise process to fund ongoing uranium exploration and development activities",
+        "Entitlement offers are inherently dilutive to existing shareholders who do not participate, and the update likely addresses take-up rates, shortfall allocation, or revised terms that will determine the final dilution impact",
+        "The market-sensitive designation suggests material new information regarding the raise's progress — investors should monitor final subscription levels and use of proceeds to assess whether the capital strengthens the company's cash runway for its US uranium asset portfolio"
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCW",
+      "company": "SCENTRE GROUP TRUST 1",
+      "headline": "SCG Operating Update",
+      "time": "2026-04-21T23:33:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081235-2A1667681",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Scentre Group has released a market-sensitive operating update, likely detailing key portfolio metrics including occupancy rates, leasing spreads, and foot traffic across its Westfield living centre portfolio — critical indicators for REIT valuation.",
+        "As Australia's largest retail REIT operator, any update on tenant sales growth, rent collection rates, or specialty leasing momentum will directly signal consumer spending resilience and rental income sustainability for institutional holders.",
+        "Operating updates from SCG typically precede or supplement formal earnings guidance; investors should watch for any revision to FFO per security guidance or distribution outlook, which would have immediate pricing implications for the stock."
+      ],
+      "tags": [
+        "Property",
+        "Retail",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ENV",
+      "company": "ENOVA MINING LIMITED",
+      "headline": "Enova Commences Deep Diamond Drilling at Cattle Creek",
+      "time": "2026-04-21T23:31:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081232-3A691794",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Enova Mining has commenced deep diamond drilling at its Cattle Creek gold-copper project, signaling an active exploration phase aimed at testing deeper high-grade mineralization targets beneath existing shallow intercepts.",
+        "The transition to diamond drilling from earlier RC programs suggests the company has identified sufficiently compelling geological targets to justify the higher-cost drilling method, indicating growing confidence in the deposit's potential at depth.",
+        "Results from this drilling campaign will be a key near-term catalyst; successful deep intercepts could materially upgrade the resource potential and re-rate the stock, while the program's cost will draw on Enova's cash reserves — investors should monitor burn rate relative to remaining treasury."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GL1",
+      "company": "GLOBAL LITHIUM RESOURCES LIMITED",
+      "headline": "Transformational funding secured to underpin development",
+      "time": "2026-04-21T23:31:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081231-6A1321435",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Global Lithium Resources has secured transformational funding to underpin the development of its lithium project, representing a critical de-risking milestone that shifts the company from explorer/developer toward potential producer status.",
+        "The funding package provides a strengthened balance sheet and extended cash runway, reducing near-term dilution risk and signaling institutional confidence in the project's economics at a time when lithium market sentiment remains challenged.",
+        "Next steps will focus on project development execution and construction milestones; investors should monitor the specific funding terms (debt vs equity mix, conditions precedent, and any offtake commitments) for dilution impact and strategic partner alignment."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MRR",
+      "company": "MINREX RESOURCES LIMITED",
+      "headline": "Appointment of Chief Executive Officer",
+      "time": "2026-04-21T23:30:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081230-6A1321448",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Minrex Resources has appointed a new CEO, signaling a strategic leadership transition that may indicate a shift in corporate direction or acceleration of exploration/development activities.",
+        "For a micro-cap explorer like Minrex, CEO appointments are pivotal as they often precede capital raises, project re-ratings, or strategic pivots — investors should assess the incoming CEO's track record and industry connections.",
+        "Market-sensitive designation suggests the appointment carries material implications; watch for follow-up announcements on revised strategy, project milestones, or funding plans under new leadership."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CLA",
+      "company": "CELSIUS RESOURCES LIMITED.",
+      "headline": "Trading Halt",
+      "time": "2026-04-21T23:30:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081229-6A1321449",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Celsius Resources has entered a trading halt, typically preceding a material announcement such as a capital raise, asset transaction, or significant project update for its copper-gold development portfolio.",
+        "As a junior mining company with the Maalinao-Caigutan-Biyog (MCB) copper-gold project in the Philippines as its flagship asset, any capital raise during the halt would likely be dilutive to existing shareholders given the company's pre-revenue status and limited cash runway.",
+        "Investors should monitor for the pending announcement closely — the nature of the halt (voluntary and market-sensitive) suggests a transformative corporate action that will reset the investment thesis for CLA."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AIQ",
       "company": "ALTERNATIVE INVESTMENT TRUST",
