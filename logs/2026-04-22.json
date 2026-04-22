@@ -1,9 +1,142 @@
 {
   "date": "2026-04-22",
-  "total": 123,
-  "market_sensitive_count": 114,
-  "generated_at": "2026-04-22T00:29:54.553538+00:00",
+  "total": 130,
+  "market_sensitive_count": 121,
+  "generated_at": "2026-04-22T01:36:36.242174+00:00",
   "announcements": [
+    {
+      "ticker": "ERM",
+      "company": "EMMERSON RESOURCES LIMITED",
+      "headline": "Scheme Update - Further Intention Statement",
+      "time": "2026-04-22T01:23:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081310-6A1321487",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Emmerson Resources has received a further intention statement related to an ongoing scheme of arrangement, signaling continued M&A activity and potential corporate control transaction progressing through regulatory stages.",
+        "The 'further intention statement' typically indicates an interested party is firming up or clarifying its position on a takeover/merger scheme, which maintains deal momentum and reduces uncertainty around transaction completion.",
+        "Investors should monitor for updated scheme booklet details, independent expert opinion, and shareholder vote timeline — the market-sensitive tag suggests material new information on bidder commitment or revised terms that could impact valuation."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RAC",
+      "company": "RACURA ONCOLOGY LTD",
+      "headline": "Racura presents MYC silencing data at AACR 2026",
+      "time": "2026-04-22T01:13:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081307-2A1667714",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Racura Oncology presented MYC gene silencing data at the prestigious AACR 2026 annual meeting, a tier-1 oncology conference that provides significant visibility among global pharma and biotech decision-makers, validating the scientific credibility of their platform.",
+        "MYC is one of the most sought-after yet historically 'undruggable' oncology targets, implicated in ~70% of human cancers; demonstrating silencing capability positions Racura in a high-value therapeutic space that could attract partnership or licensing interest from major pharma.",
+        "As a pre-revenue biotech, the key near-term watch is whether this data milestone catalyses partnering discussions or supports a future capital raise at improved terms; investors should monitor cash runway and any follow-up preclinical/clinical development timelines."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MSI",
+      "company": "MULTISTACK INTERNATIONAL LIMITED",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-04-22T01:11:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081305-3A691805",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Multistack International's quarterly activities report provides an update on operational performance and cash position, critical for assessing the company's near-term financial health and execution trajectory.",
+        "As a market-sensitive quarterly disclosure, investors should scrutinize cash burn rate, revenue trends, and working capital adequacy to evaluate whether the company can sustain operations without near-term capital raising.",
+        "The report's market-sensitive classification suggests material information on business momentum — institutional investors should assess any changes in order book, geographic revenue mix, or margin trends for the HVAC/chiller equipment business."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MSI",
+      "company": "MULTISTACK INTERNATIONAL LIMITED",
+      "headline": "Quarterly Appendix 4C Cash Flow Report",
+      "time": "2026-04-22T01:10:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081304-3A691804",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Multistack International's quarterly Appendix 4C filing provides mandatory cash flow transparency, with key focus on operating cash burn rate and remaining cash reserves to assess financial sustainability.",
+        "As a market-sensitive quarterly report, investors should scrutinize net operating cash flows versus receipts from customers to gauge whether the HVAC technology company is trending toward cash flow breakeven or widening its burn.",
+        "Cash runway implications are critical — the report's estimated quarters of funding available will signal whether a near-term capital raise may be required, which would be dilutive to existing shareholders."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPY",
+      "company": "PAPYRUS AUSTRALIA LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-04-22T01:07:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081302-2A1667713",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Papyrus Australia (PPY) has been suspended from quotation on the ASX, indicating a significant compliance or corporate action issue that prevents normal trading of its securities.",
+        "Suspension from quotation — as distinct from a voluntary trading halt — is typically imposed by ASX and may signal failure to meet listing rule obligations, outstanding disclosure requirements, or material financial distress at a micro-cap level.",
+        "Investors should monitor for a follow-up announcement detailing the reason for suspension and any conditions for reinstatement; prolonged suspension raises material risk of delisting or forced restructuring for this small-cap entity."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "EMU",
+      "company": "EMU NL",
+      "headline": "NRRI Results",
+      "time": "2026-04-22T00:49:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081292-6A1321479",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "EMU NL has released NRRI (Natural Remanent Magnetisation Ratio Index) results, a technical geophysical dataset that may help refine exploration targeting across the company's mineral tenements.",
+        "As a market-sensitive announcement flagged under 'Results', the NRRI data likely provides new geological insights that could influence the prospectivity assessment of EMU's exploration portfolio, though without specific assay or resource figures the immediate valuation impact is limited.",
+        "Investors should monitor follow-up drilling programs or updated exploration strategies that leverage the NRRI findings, as the real value catalyst will be whether these results translate into prioritised drill targets and eventual resource delineation."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "T3D",
+      "company": "333D LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-22T00:33:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081283-6A1321472",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "333D Limited's quarterly Appendix 4C filing provides updated cash flow visibility; as a micro-cap with historically minimal revenue, investors should scrutinize net operating cash outflows and remaining cash reserves to assess going-concern risk.",
+        "Key focus will be on the cash and cash equivalents at quarter-end relative to quarterly burn rate, which determines the company's cash runway and likelihood of near-term capital raising or dilutive equity issuance.",
+        "Market-sensitive designation suggests material information within the report — likely flagging either a significant deterioration in cash position, a change in business activity levels, or updated guidance that could prompt a re-rating or trading response."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "REC",
       "company": "RECHARGE METALS LIMITED",
