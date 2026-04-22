@@ -1,9 +1,201 @@
 {
   "date": "2026-04-22",
-  "total": 138,
-  "market_sensitive_count": 124,
-  "generated_at": "2026-04-22T03:07:09.309374+00:00",
+  "total": 148,
+  "market_sensitive_count": 132,
+  "generated_at": "2026-04-22T05:00:15.895936+00:00",
   "announcements": [
+    {
+      "ticker": "HCT",
+      "company": "HOLISTA COLLTECH LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-04-22T04:55:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081375-6A1321521",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Holista CollTech (HCT) has been reinstated to quotation on the ASX, ending a period of trading suspension that would have restricted liquidity and price discovery for shareholders.",
+        "Reinstatement typically signals the company has satisfied ASX compliance requirements — likely related to lodging outstanding financial reports, addressing query responses, or meeting re-listing conditions, removing a key overhang for the stock.",
+        "Investors should monitor near-term trading volumes closely as pent-up selling or buying pressure unwinds; the underlying fundamentals and any capital position disclosures made during the suspension period will be critical to establishing fair value."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HCT",
+      "company": "HOLISTA COLLTECH LIMITED",
+      "headline": "ProImmune Judgement and Settlement",
+      "time": "2026-04-22T04:55:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081374-6A1321515",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Holista CollTech has received a court judgement and/or reached a settlement related to ProImmune, which as a market-sensitive announcement likely involves material financial obligations or resolution of a significant legal dispute impacting the company's balance sheet.",
+        "Legal resolution removes an overhang of uncertainty for the micro-cap company, though the nature of the settlement terms (whether Holista is paying or receiving) will be critical in determining the net cash flow impact on an already thinly capitalised entity.",
+        "Investors should closely monitor any disclosed settlement amounts, payment timelines, and whether the outcome triggers impairments or provisions that could further strain Holista's limited cash runway and operational capacity."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SP8",
+      "company": "STREAMPLAY STUDIO LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-04-22T04:48:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081373-6A1321520",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "StreamPlay Studio received an ASX price query, typically triggered by unusual share price movement or trading volume, indicating the exchange is scrutinizing recent activity for potential undisclosed material information.",
+        "The company's response as a market-sensitive announcement suggests management has addressed whether there are any undisclosed developments driving price action — standard compliance procedure but flags heightened regulatory attention on this micro-cap name.",
+        "For institutional investors, ASX price queries on small-cap/micro-cap stocks often signal speculative trading or potential information asymmetry; the response itself is unlikely to be a catalyst but warrants monitoring for any follow-up disclosure or trading halt."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GSS",
+      "company": "GENETIC SIGNATURES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-22T04:47:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081372-2A1667745",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Genetic Signatures Limited (GSS), triggering a regulatory disclosure — this signals active institutional portfolio rebalancing in the small-cap diagnostics space.",
+        "As a non-market-sensitive filing, the change likely reflects a marginal shift (crossing the 1% threshold) rather than a dramatic accumulation or disposal, limiting immediate price impact for GSS.",
+        "Investors should monitor whether this forms part of a broader trend of institutional buying or selling in GSS, particularly given the company's ongoing commercialisation efforts and cash burn profile in the molecular diagnostics sector."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PEN",
+      "company": "PENINSULA ENERGY LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-04-22T04:29:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081364-6A1321517",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Peninsula Energy's shares are being reinstated to quotation on the ASX, ending a trading halt period that had suspended liquidity for shareholders — a key event for position management.",
+        "Reinstatement typically follows resolution of a material disclosure obligation (e.g., capital raise completion, corporate action, or compliance matter), signaling the company has satisfied ASX's information requirements.",
+        "Investors should monitor the accompanying announcements released during the halt period to assess any dilution from capital raises or material changes to the uranium developer's operational outlook and cash position."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PEN",
+      "company": "PENINSULA ENERGY LIMITED",
+      "headline": "Orders Granted",
+      "time": "2026-04-22T04:29:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081363-6A1321509",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Peninsula Energy has received court or regulatory orders granted, likely resolving a key legal or permitting matter that removes an overhang on the stock and de-risks the project pathway for its Lance uranium project in Wyoming.",
+        "The market-sensitive designation signals material importance — orders granted in the uranium space typically relate to mining permits, environmental approvals, or regulatory clearances critical to advancing ISR (in-situ recovery) operations and unlocking project value.",
+        "Positive resolution clears a significant milestone for Peninsula's transition to low-pH ISR operations, potentially accelerating the timeline to production restart and improving the company's positioning amid a structurally bullish uranium market."
+      ],
+      "tags": [
+        "Mining",
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DAI",
+      "company": "DECIDR AI INDUSTRIES LTD",
+      "headline": "March 2026 Quarterly Business Review & Appendix 4C",
+      "time": "2026-04-22T04:11:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081356-6A1321512",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "DECIDR AI Industries releases March 2026 quarterly Appendix 4C, providing critical visibility into cash burn rate and operational expenditure for this early-stage AI technology company.",
+        "As a micro-cap AI-focused entity, the quarterly cash flow statement will be closely scrutinized for customer receipts trajectory, net operating cash outflows, and remaining cash runway — key metrics for assessing going-concern risk and near-term funding requirements.",
+        "Market-sensitive designation suggests material information within the report, potentially including updated guidance, revised cash position, or strategic milestones that could trigger a capital raise or partnership announcement in coming quarters."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XST",
+      "company": "XSTATE RESOURCES LIMITED",
+      "headline": "Options Offers and Cleansing Offers Prospectus",
+      "time": "2026-04-22T04:06:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081353-6A1321508",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Xstate Resources has issued a cleansing prospectus in connection with options offers, a standard regulatory requirement to facilitate secondary trading of securities issued without disclosure — this is procedural rather than indicative of a new capital raise.",
+        "The issuance of options signals potential future dilution for existing shareholders, though the cleansing prospectus itself does not raise new capital; investors should monitor the terms (exercise price, expiry) to assess the dilutive impact on the company's micro-cap structure.",
+        "As a small-cap energy explorer, any options exercise would extend Xstate's cash runway — key to watch is whether these options are tied to director/advisor compensation or broader placement activity, which would clarify the strategic intent behind the issuance."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MMI",
+      "company": "METRO MINING LIMITED",
+      "headline": "Results of Meeting",
+      "time": "2026-04-22T04:00:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081351-2A1667738",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Metro Mining's general meeting resolutions were voted on, with results now disclosed to the market - typical procedural outcome for shareholder governance matters.",
+        "As a market-sensitive announcement, the results likely confirm approval of key resolutions (potentially related to capital management, board composition, or operational mandates) that remove uncertainty for the company's near-term strategic direction.",
+        "With resolutions passed, Metro Mining can proceed with its operational plans at the Bauxite Hills mine in Queensland, maintaining continuity for institutional investors tracking the company's production and export trajectory."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SOL",
+      "company": "WASHINGTON H. SOUL PATTINSON AND COMPANY LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-22T03:06:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081343-2A1667735",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Washington H. Soul Pattinson (WHSP) has ceased to be a substantial holder in an investee company, indicating its stake has fallen below the 5% threshold through either active disposal or dilution from capital raises.",
+        "As a diversified investment house with a portfolio spanning resources, telecommunications, and financial services, the divestiture signals ongoing portfolio rebalancing consistent with WHSP's active capital allocation strategy to optimize long-term returns.",
+        "Investors should monitor whether proceeds are being redeployed into higher-conviction positions or new opportunities, as WHSP's portfolio rotation decisions have historically been leading indicators of sector-level capital flows on the ASX."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "VUL",
       "company": "VULCAN ENERGY RESOURCES LIMITED",
