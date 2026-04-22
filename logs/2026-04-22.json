@@ -1,9 +1,86 @@
 {
   "date": "2026-04-22",
-  "total": 119,
-  "market_sensitive_count": 110,
-  "generated_at": "2026-04-22T00:05:37.755459+00:00",
+  "total": 123,
+  "market_sensitive_count": 114,
+  "generated_at": "2026-04-22T00:29:54.553538+00:00",
   "announcements": [
+    {
+      "ticker": "REC",
+      "company": "RECHARGE METALS LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-04-22T00:18:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081280-6A1321469",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Recharge Metals issued a response to an ASX price query, typically triggered by unusual share price movement or trading volume, indicating the exchange is scrutinizing recent trading activity for potential undisclosed material information.",
+        "As a small-cap explorer, price query responses often confirm no undisclosed information exists, but the query itself signals heightened speculative interest or potential information asymmetry that institutional investors should monitor closely.",
+        "The market-sensitive designation suggests the company's response may contain substantive commentary on recent developments, project milestones, or corporate activity that could explain the price movement and set near-term trading direction."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Acquisition of Frenchview and Paynesville Parks",
+      "time": "2026-04-22T00:17:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081279-2A1667709",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Eureka Group acquires Frenchview and Paynesville Parks in regional Victoria, expanding its portfolio of affordable rental housing communities and reinforcing its growth-through-acquisition strategy targeting seniors and low-income demographics.",
+        "The acquisition adds incremental rental income streams and occupancy capacity, which should be immediately accretive given Eureka's established operating model for manufactured home estates and rental villages, though specific deal metrics (price, yield, occupancy) will be key to watch.",
+        "Continued M&A activity signals management confidence in deploying capital into fragmented regional park assets at attractive yields; investors should monitor balance sheet leverage and funding mix (debt vs equity) to assess sustainability of the acquisition pipeline."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "QUB",
+      "company": "QUBE HOLDINGS LIMITED",
+      "headline": "ASX waiver received in connection with proposed Scheme",
+      "time": "2026-04-22T00:11:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081278-2A1667708",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Qube Holdings has received an ASX waiver in connection with a proposed Scheme of Arrangement, signaling regulatory progress toward completing a significant corporate transaction and removing a potential procedural hurdle.",
+        "ASX waivers are typically granted to facilitate M&A transactions by exempting parties from specific listing rule requirements, indicating the exchange is supportive of the deal structure and its compliance framework.",
+        "Investors should monitor for the next milestones including scheme booklet release, independent expert opinion, and shareholder vote timing — the waiver receipt suggests the transaction timeline remains on track."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ART",
+      "company": "AIRTASKER LIMITED",
+      "headline": "3Q26 Results Presentation",
+      "time": "2026-04-22T00:10:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081277-2A1667705",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Airtasker's 3Q26 results presentation is market-sensitive, signaling material updates on the company's quarterly performance metrics including marketplace GMV, revenue, and path to profitability that institutional investors will scrutinize closely.",
+        "As a technology-driven services marketplace, key focus areas will be revenue growth trajectory, take-rate trends, and operating cash flow position — critical indicators of whether the platform is scaling efficiently amid competitive pressures in the gig economy.",
+        "Investors should watch for updated FY26 guidance, customer acquisition cost trends, and international expansion progress (particularly UK operations), as these will determine whether the company can sustain its growth narrative and extend its cash runway."
+      ],
+      "tags": [
+        "Results",
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GML",
       "company": "GATEWAY MINING LIMITED",
