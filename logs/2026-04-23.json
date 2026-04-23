@@ -1,9 +1,255 @@
 {
   "date": "2026-04-23",
-  "total": 108,
-  "market_sensitive_count": 90,
-  "generated_at": "2026-04-22T23:39:13.759240+00:00",
+  "total": 121,
+  "market_sensitive_count": 102,
+  "generated_at": "2026-04-23T00:00:33.148936+00:00",
   "announcements": [
+    {
+      "ticker": "VSR",
+      "company": "VOLTAIC STRATEGIC RESOURCES LTD",
+      "headline": "Quarterly Activities Report & Cash Flow Report",
+      "time": "2026-04-22T23:57:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081745-6A1321696",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Voltaic Strategic Resources released its quarterly activities and cash flow report, providing an update on exploration and corporate activities across its portfolio of strategic resource projects.",
+        "Cash flow details will be critical to assess runway sustainability — as a pre-revenue explorer, the rate of cash burn relative to remaining reserves will determine near-term funding needs and potential dilution risk.",
+        "Investors should monitor whether the report signals any acceleration in exploration milestones or flags an imminent capital raise requirement, which would be typical for junior ASX-listed resource companies at this stage."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IVG",
+      "company": "INVERT GRAPHITE LIMITED",
+      "headline": "Quarterly Activities Report and Cash Flow Report",
+      "time": "2026-04-22T23:56:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081744-2A1667909",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Invert Graphite's quarterly activities and cash flow report provides a mandatory update on exploration/development progress and spending for the period, critical for assessing project milestones and capital allocation efficiency.",
+        "Cash flow report will reveal the company's burn rate and remaining cash runway — key metrics for a pre-revenue explorer where funding adequacy directly impacts ability to advance graphite assets without near-term dilutive capital raises.",
+        "Market-sensitive designation suggests material updates within the quarterly, potentially including new exploration results, revised resource estimates, or strategic developments that could re-rate the stock in the near term."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DRE",
+      "company": "DREADNOUGHT RESOURCES LTD",
+      "headline": "Star of Mangaroon Key Approval Paves the Way for Development",
+      "time": "2026-04-22T23:55:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081742-6A1321697",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dreadnought Resources has secured a key approval for its Star of Mangaroon rare earths project, removing a critical regulatory hurdle and de-risking the pathway toward development — a significant milestone for junior miners where permitting is often the primary bottleneck.",
+        "The approval paves the way for project development activities to commence, which should enable the company to advance feasibility studies, resource definition, and potentially attract offtake or JV partners in the strategically important rare earths sector.",
+        "With rare earths remaining a geopolitically sensitive commodity and Australian government policy increasingly supportive of critical minerals development, this approval positions Dreadnought to benefit from favourable macro tailwinds and could serve as a catalyst for re-rating as the project advances through development milestones."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SBR",
+      "company": "SABRE RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-22T23:55:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081741-6A1321695",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Sabre Resources has requested a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration result that requires price-sensitive disclosure.",
+        "As a junior mining/exploration company, trading halts frequently precede capital raises which could be dilutive to existing shareholders, though they may also signal positive catalytic news such as drill results or asset transactions.",
+        "Investors should await the detailed announcement expected within the standard two-business-day halt period to assess the nature and materiality of the pending disclosure before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MCP",
+      "company": "MCPHERSON'S LIMITED",
+      "headline": "Trading Update",
+      "time": "2026-04-22T23:52:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081733-2A1667905",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "McPherson's has issued a market-sensitive trading update, likely flagging a material deviation from prior earnings guidance or consensus expectations, which typically signals either an upgrade or downgrade to FY outlook.",
+        "As a consumer goods company with exposure to health, beauty and wellness categories, any trading update will be closely scrutinized for trends in retail sell-through, margin pressure from input costs, and inventory management across key channels.",
+        "Investors should watch for revised EBITDA/NPAT guidance ranges, commentary on Dr. LeWinn's brand performance in domestic and China channels, and any balance sheet implications including covenant headroom and dividend sustainability."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BP8",
+      "company": "BPH GLOBAL LTD",
+      "headline": "Development of Seaweed-based anti-aging supplement",
+      "time": "2026-04-22T23:49:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081729-2A1667902",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BPH Global is developing a seaweed-based anti-aging supplement, signaling a pivot or diversification into the nutraceuticals/wellness space — a sector with high consumer demand but intense competition and low barriers to entry.",
+        "As a micro-cap with limited revenue history, the announcement lacks disclosed financials (development costs, timeline to commercialization, or partnership details), raising questions about cash runway adequacy and path to monetization.",
+        "Market-sensitive designation suggests the company views this as material, but without clinical data, regulatory pathway clarity, or revenue projections, institutional investors should treat this as early-stage and speculative until further milestones are disclosed."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SBR",
+      "company": "SABRE RESOURCES LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-04-22T23:46:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081724-6A1321690",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sabre Resources has entered a trading pause, typically preceding a material announcement such as a capital raise, acquisition, or significant operational update that requires orderly market disclosure.",
+        "As a junior explorer with limited revenue generation, any forthcoming announcement could materially impact the company's cash runway, project portfolio, or capital structure — key variables for micro-cap investors.",
+        "Investors should await the substantive announcement that triggered the pause; the nature of the news (capital raise vs. asset deal vs. exploration results) will determine whether the impact is dilutive or value-accretive."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HYT",
+      "company": "HYTERRA LTD",
+      "headline": "Non-Renounceable Entitlement Offer",
+      "time": "2026-04-22T23:45:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081723-6A1321689",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "HyTerra Ltd is conducting a non-renounceable entitlement offer, a dilutive capital raise structure where existing shareholders cannot trade their rights, increasing pressure on current holders to participate or face dilution.",
+        "Non-renounceable structures typically signal urgency in funding needs and may reflect limited institutional demand for a renounceable or placement-style raise, suggesting the company may be operating with constrained cash runway.",
+        "Investors should monitor the offer price discount to market, funds sought, and intended use of proceeds — likely tied to advancing HyTerra's hydrogen exploration/development activities — to assess whether the raise is sufficient to reach key value inflection points."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "OVT",
+      "company": "OVANTI LIMITED",
+      "headline": "Prospectus Bonus Issue and Target Market Determination",
+      "time": "2026-04-22T23:43:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081720-2A1667896",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ovanti Limited is conducting a bonus issue via prospectus, which typically involves issuing free shares or options to existing shareholders — while non-dilutive to current holders, it signals potential future capital raising or incentive structuring.",
+        "The accompanying Target Market Determination (TMD) indicates compliance with Design and Distribution Obligations (DDO), suggesting the securities being offered may include complex instruments such as options or convertible notes requiring retail investor suitability assessment.",
+        "Investors should scrutinize the prospectus terms closely — bonus issues can precede capital raises or restructuring events, and the market-sensitive designation suggests material implications for Ovanti's capital structure and potential near-term dilution if options are exercised."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LGP",
+      "company": "LITTLE GREEN PHARMA LTD",
+      "headline": "Updated second court date and indicative timetable",
+      "time": "2026-04-22T23:42:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081718-6A1321687",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Little Green Pharma has updated its second court date and indicative timetable, signaling continued progression of a scheme of arrangement or merger transaction through the judicial approval process.",
+        "The rescheduling of the court date is procedural in nature but confirms the deal remains on track without apparent regulatory or shareholder obstacles that could derail the transaction timeline.",
+        "Investors should monitor the updated timetable closely for the scheme meeting date and final court approval, as any further delays could introduce uncertainty around deal completion and value realization."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DJW",
+      "company": "DJERRIWARRH INVESTMENTS LIMITED",
+      "headline": "Dividend/Distribution - DJW",
+      "time": "2026-04-22T23:42:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081717-3A691862",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Djerriwarrh Investments (DJW) has declared a dividend/distribution, signaling continued commitment to shareholder returns consistent with its mandate as a listed investment company focused on income generation from large-cap ASX equities and options strategies.",
+        "As a LIC primarily targeting retiree and income-focused investors, the dividend announcement reinforces DJW's yield proposition; the market-sensitive tag suggests the quantum or franking level may differ from prior periods, warranting close comparison to the interim/final payout history.",
+        "Investors should monitor the ex-dividend date for trading dynamics and assess whether the payout ratio remains sustainable relative to portfolio income and realized option premiums, particularly given recent volatility in underlying blue-chip holdings."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BTE",
+      "company": "BOTALA ENERGY LTD",
+      "headline": "Change in substantial holding - WGM",
+      "time": "2026-04-22T23:41:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081713-6A1321686",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding notice for Botala Energy (BTE) indicates WGM (likely Westoz Growth Managers or related entity) has adjusted its stake, signaling active institutional portfolio rebalancing in this small-cap energy explorer.",
+        "The filing is procedural and not marked as market sensitive, suggesting the change in holding crossed a regulatory threshold (typically 1% movement above/below 5%) rather than reflecting a strategic block trade or hostile accumulation.",
+        "Investors should monitor whether the direction of the change was an increase (potential confidence signal in Botala's Botswana gas assets) or decrease (possible de-risking), with the specifics in the Form 604 filing critical for interpreting institutional sentiment."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GHM",
+      "company": "GOLDEN HORSE MINERALS LIMITED",
+      "headline": "Hopes Hill Delivers More Visible Gold",
+      "time": "2026-04-22T23:37:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081710-6A1321682",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Golden Horse Minerals reports additional visible gold intersections at Hopes Hill, reinforcing the prospectivity of the project and building geological confidence ahead of further resource definition work.",
+        "Repeated visible gold occurrences across multiple drill holes is technically significant for a junior explorer, as it suggests potential for high-grade gold zones that could materially upgrade any future resource estimate.",
+        "Investors should watch for assay results from these intercepts as the key near-term catalyst — visible gold does not always correlate with economic grades, but positive assays could drive a meaningful re-rating for this micro-cap explorer."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ARI",
       "company": "ARIKA RESOURCES LIMITED",
