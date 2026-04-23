@@ -1,9 +1,391 @@
 {
   "date": "2026-04-24",
-  "total": 33,
-  "market_sensitive_count": 26,
-  "generated_at": "2026-04-23T22:21:28.991665+00:00",
+  "total": 53,
+  "market_sensitive_count": 46,
+  "generated_at": "2026-04-23T22:39:37.744469+00:00",
   "announcements": [
+    {
+      "ticker": "M7T",
+      "company": "MACH7 TECHNOLOGIES LIMITED",
+      "headline": "Q3 FY26 Results Presentation",
+      "time": "2026-04-23T22:34:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082079-3A691908",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "MACH7 Technologies reports Q3 FY26 results, a critical update for investors tracking the medical imaging software company's path toward sustained profitability and recurring revenue growth in the healthcare IT sector.",
+        "Quarterly results presentation will provide visibility into SaaS/recurring revenue trajectory, contract pipeline conversion, and cash burn metrics — key indicators for assessing whether the company is approaching cash flow breakeven or requires further capital.",
+        "Institutional focus will center on new contract wins, ARR growth rate, and operating cash flow trends, with the market-sensitive tag suggesting material information that could reset near-term valuation expectations for this small-cap health-tech name."
+      ],
+      "tags": [
+        "Results",
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RIM",
+      "company": "RIMFIRE PACIFIC MINING LIMITED",
+      "headline": "Gold Antimony confirmed at Windy Ridge",
+      "time": "2026-04-23T22:32:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082074-3A691910",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Rimfire confirms gold-antimony mineralisation at Windy Ridge prospect, validating the geological model and potentially adding strategic value given antimony's classification as a critical mineral with surging prices driven by Chinese export restrictions.",
+        "The confirmation of co-located gold and antimony mineralisation enhances the project's economic optionality, as antimony currently trades at elevated levels (~US$25,000/t+), which could materially improve any future resource economics beyond gold-only scenarios.",
+        "Next steps likely involve follow-up drilling to define the extent and grade of the gold-antimony system at Windy Ridge; investors should watch for assay results and resource definition timelines to assess whether this moves from exploration upside to material project value."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SBM",
+      "company": "ST BARBARA LIMITED",
+      "headline": "Touquoy Restart Final Investment Decision Approval",
+      "time": "2026-04-23T22:31:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082073-3A691909",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "St Barbara's Board has approved the Final Investment Decision (FID) to restart the Touquoy gold mine in Nova Scotia, Canada, signaling a major operational milestone and commitment to returning the asset to production.",
+        "The FID approval de-risks the project timeline and provides clarity on capital deployment, which should improve investor confidence in near-term gold production growth and future cash flow generation from the Atlantic Operations.",
+        "Restart of Touquoy is expected to be a key catalyst for St Barbara's production profile rebuild; investors should watch for updated guidance on restart capex, timeline to first gold pour, and integration with the broader Atlantic Gold hub strategy."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FMG",
+      "company": "FORTESCUE LTD",
+      "headline": "March 2026 Quarterly Production Report",
+      "time": "2026-04-23T22:31:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082072-6A1321851",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Fortescue's March 2026 quarterly production report is market-sensitive, signaling material operational data that will update investor expectations on iron ore shipment volumes, C1 costs, and realized pricing for the period.",
+        "Key metrics to watch include quarterly iron ore shipments relative to FY26 guidance, unit cost trajectory (C1 and all-in), and any revision to full-year production or cost guidance — all critical for consensus earnings estimates.",
+        "With iron ore prices subject to China demand volatility, the quarterly report will provide a near-term read on Fortescue's cash generation capacity, capital allocation priorities (including Fortescue Energy progress), and balance sheet strength heading into the final quarter of FY26."
+      ],
+      "tags": [
+        "Quarterly",
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "M7T",
+      "company": "MACH7 TECHNOLOGIES LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-23T22:30:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082071-3A691907",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Mach7 Technologies' quarterly Appendix 4C filing provides critical visibility into cash burn rate and operational funding position, key metrics for this health-tech imaging software company that remains in a growth/investment phase.",
+        "Investors should scrutinize customer receipts versus operating cash outflows to assess whether the company is trending toward cash flow breakeven, with particular attention to SaaS/recurring revenue momentum and any large contract milestones recognized during the quarter.",
+        "Cash runway analysis is paramount — the closing cash balance relative to quarterly net cash burn will determine whether Mach7 can fund operations through to profitability or may require additional capital raising, a key dilution risk for existing shareholders."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEK",
+      "company": "MEEKA METALS LIMITED",
+      "headline": "Mt Holland South Gold Acquisition",
+      "time": "2026-04-23T22:30:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082069-6A1321850",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Meeka Metals is acquiring the Mt Holland South Gold Project, expanding its gold portfolio in Western Australia's prolific gold belt — signaling a strategic pivot or consolidation to build critical mass in gold assets.",
+        "The acquisition is market-sensitive, suggesting material terms (consideration size, resource base, or strategic value) that could meaningfully impact Meeka's enterprise value and project pipeline economics.",
+        "Investors should watch for details on acquisition consideration (cash vs scrip and potential dilution), existing resource estimates at Mt Holland South, and how this integrates with Meeka's existing Murchison gold project to drive a re-rating thesis."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ITM",
+      "company": "ITECH MINERALS LTD",
+      "headline": "Quarterly Activities and Cashflow Report 31 March 2026",
+      "time": "2026-04-23T22:28:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082068-2A1668049",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "iTech Minerals reports quarterly activities and cashflow for Q1 FY26, providing investors with an update on exploration progress and project development across its critical minerals portfolio.",
+        "Cash flow report will reveal current burn rate and remaining cash reserves — key for assessing runway given iTech is pre-revenue; any material drawdown or capital raise signals will be closely watched by the market.",
+        "As a market-sensitive release, the quarterly likely contains material updates on drilling results, resource estimates, or strategic milestones at its South Australian rare earths and halloysite-kaolin projects that could re-rate the stock."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FMG",
+      "company": "FORTESCUE LTD",
+      "headline": "Fortescue Invests US$680m To Expand Pilbara Green Energy",
+      "time": "2026-04-23T22:27:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082067-6A1321849",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Fortescue commits US$680m (~A$1.1bn) to expand its Pilbara green energy hub, signaling a material capital allocation shift toward its energy transition strategy and reinforcing management's conviction in the green hydrogen/ammonia opportunity.",
+        "The investment scale is significant relative to Fortescue's recent capex profile and will be closely scrutinized by institutional investors for return hurdles and timeline to revenue generation, particularly given ongoing market skepticism around green hydrogen economics.",
+        "Expansion of Pilbara green energy infrastructure positions Fortescue to capture first-mover advantages in green energy supply chains, but increases execution risk and near-term cash outflows without immediate earnings contribution — watch for updated guidance on project milestones and funding mix."
+      ],
+      "tags": [
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TOU",
+      "company": "TLOU ENERGY LIMITED",
+      "headline": "Appendix 5B Cash Flow Report",
+      "time": "2026-04-23T22:26:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082065-2A1668047",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tlou Energy's Appendix 5B filing provides quarterly cash flow transparency, critical for assessing burn rate and funding adequacy for its Botswana CBM-to-power project development activities.",
+        "As a pre-revenue explorer/developer, the cash flow report will be scrutinized for operating and exploration outflows versus remaining cash reserves, with any material decline in cash runway likely to signal near-term capital raise requirements.",
+        "Investors should monitor net cash position relative to committed project milestones and any changes in financing activities that may indicate upcoming dilutive equity raises or debt arrangements to fund Lesedi power project progression."
+      ],
+      "tags": [
+        "Quarterly",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EBR",
+      "company": "EBR SYSTEMS INC.",
+      "headline": "TGA Grants Priority Review Determination for WiSE CRT System",
+      "time": "2026-04-23T22:24:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082063-3A691906",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TGA Priority Review designation for the WiSE Cardiac Resynchronization Therapy (CRT) System significantly accelerates the Australian regulatory pathway, potentially compressing approval timelines from ~255 to ~155 working days — a material de-risking event for commercialization.",
+        "Priority Review status signals TGA recognition of the WiSE CRT System as addressing an unmet clinical need in heart failure patients who fail conventional CRT, strengthening the clinical and commercial narrative ahead of potential reimbursement discussions in Australia.",
+        "This regulatory milestone complements EBR's ongoing FDA and CE Mark pathways, broadening the near-term catalyst calendar; investors should monitor cash runway adequacy to fund parallel multi-jurisdiction regulatory and commercial launch activities."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TOU",
+      "company": "TLOU ENERGY LIMITED",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-04-23T22:22:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082061-2A1668044",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Tlou Energy continues advancing its Lesedi CBM-to-power project in Botswana, with quarterly activities likely detailing progress toward first gas-to-power generation — a critical de-risking milestone for the company's sole material asset.",
+        "Cash position and burn rate are key watchpoints; as a pre-revenue explorer/developer, Tlou's cash runway is the primary near-term risk, with any indication of accelerated spend or funding gaps likely to pressure the stock given its micro-cap status.",
+        "Progress on power purchase agreements, grid connection, and regulatory approvals in Botswana will be the key catalysts — any slippage in timelines or lack of tangible commercial milestones could weigh on investor confidence in the development pathway."
+      ],
+      "tags": [
+        "Quarterly",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCL",
+      "company": "CUSCAL LIMITED",
+      "headline": "Paymark Acquisition French Works Council process complete",
+      "time": "2026-04-23T22:20:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082054-2A1668040",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Cuscal has completed the mandatory French Works Council consultation process for its acquisition of Paymark, removing a key regulatory/procedural hurdle and clearing the path toward transaction completion.",
+        "The Paymark acquisition positions Cuscal to expand its payments infrastructure capabilities, potentially adding significant transaction volume and revenue diversification across Australasian payment networks.",
+        "With the Works Council process now concluded, investors should watch for final settlement timing, integration planning disclosures, and any updated earnings guidance reflecting the combined entity's scale benefits."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SMN",
+      "company": "STRUCTURAL MONITORING SYSTEMS PLC",
+      "headline": "Quarterly Activities Report & Appendix 4C",
+      "time": "2026-04-23T22:20:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082050-6A1321845",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Quarterly Activities Report and Appendix 4C filing provides updated cash flow and operational metrics for Structural Monitoring Systems, a technology company focused on structural health monitoring solutions for aerospace and civil infrastructure sectors.",
+        "As a small-cap technology company, the Appendix 4C disclosure is critical for assessing cash burn rate and remaining cash runway — investors should scrutinize net operating cash outflows relative to available cash reserves to gauge funding risk over the next 12 months.",
+        "Market-sensitive designation suggests material information within the quarterly update — potential catalysts include new contract wins, changes in customer pipeline, or shifts in cash position that could necessitate future capital raising activity."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QOR",
+      "company": "QORIA LIMITED",
+      "headline": "Merger Update",
+      "time": "2026-04-23T22:19:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082049-6A1321841",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Qoria Limited has provided a market-sensitive update on its merger process, signaling active progression of a transformative corporate transaction that could materially alter the company's scale, product suite, or market positioning in the child digital safety technology space.",
+        "Merger updates at this stage typically indicate either revised terms, regulatory/shareholder approval milestones, or timeline adjustments — institutional investors should monitor for any changes to implied valuation multiples, scrip ratios, or cash components that could affect dilution or accretion analysis.",
+        "Next steps likely include shareholder vote scheduling, scheme booklet dispatch, or court approval processes; any delay or revised conditions could introduce uncertainty, while confirmation of on-track completion would be a positive catalyst for near-term price discovery."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FPR",
+      "company": "FLEETPARTNERS GROUP LIMITED",
+      "headline": "UPDATE ON DIVIDEND FRANKING AND 1H26 RESULTS",
+      "time": "2026-04-23T22:19:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082044-2A1668039",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "FleetPartners Group is providing an update on dividend franking status, which may signal a change in franking credit availability — a key consideration for yield-focused institutional investors given the tax implications of unfranked vs franked dividends.",
+        "The coupling of franking update with 1H26 results timing suggests the company is proactively managing market expectations, potentially indicating a shift from fully franked to partially franked or unfranked dividends that could affect after-tax returns for domestic shareholders.",
+        "Investors should monitor the 1H26 results release closely for underlying earnings quality and cash conversion metrics, as changes to franking capacity often reflect shifts in taxable income generation or utilisation of prior tax losses impacting the company's effective tax position."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MM8",
+      "company": "MEDALLION METALS LIMITED.",
+      "headline": "Forrestania Processing Opportunity",
+      "time": "2026-04-23T22:18:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082042-6A1321846",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Medallion Metals has identified a processing opportunity at its Forrestania project, potentially unlocking near-term value by leveraging existing infrastructure or third-party toll treatment arrangements to accelerate cash flow generation.",
+        "A processing pathway at Forrestania could materially de-risk the project economics by reducing upfront capital requirements, improving NPV metrics and shortening the timeline to first gold/nickel production revenue.",
+        "Investors should watch for follow-up announcements detailing processing capacity, commercial terms, and updated feasibility metrics — successful execution could serve as a significant re-rating catalyst for the junior miner."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AXN",
+      "company": "ALLIANCE NICKEL LIMITED",
+      "headline": "Encouraging Initial Gold Drilling Results",
+      "time": "2026-04-23T22:18:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082041-6A1321839",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Alliance Nickel reports encouraging initial gold drilling results, signaling potential diversification beyond its core nickel asset base and offering a new value catalyst for the company.",
+        "Early-stage gold intercepts, while requiring further detail on grades and widths, suggest the company is actively exploring additional mineralisation that could materially re-rate the stock if follow-up drilling confirms economic potential.",
+        "Next steps will likely involve expanded drilling programs to define gold resource potential; investors should watch for assay details, resource estimates, and any capital requirements to fund further exploration activity."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ELT",
+      "company": "ELEMENTOS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-23T22:17:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082035-2A1668031",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Elementos Limited's quarterly report provides an update on exploration and development activities, with the Appendix 5B cash flow statement revealing the company's current burn rate and remaining cash position — critical for assessing near-term funding needs for its Oropesa tin project and other assets.",
+        "As a pre-revenue explorer/developer, the cash flow report will detail operating and investing outflows; investors should focus on the net cash used in operations and closing cash balance to determine whether the company can sustain operations without a near-term capital raise or if dilution risk is elevated.",
+        "Market-sensitive designation suggests material information within the quarterly — likely relating to project milestones, permitting progress at Oropesa (Spain), or a significant shift in cash runway that could influence the company's timeline to development decision or necessitate strategic funding actions."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NXT",
+      "company": "NEXTDC LIMITED",
+      "headline": "A$750m Wholesale Notes Offer Successfully Priced & Allocated",
+      "time": "2026-04-23T22:17:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082033-2A1668018",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NEXTDC successfully priced and allocated A$750m in wholesale notes, demonstrating strong institutional demand for the data centre operator's debt and reinforcing confidence in its credit profile amid aggressive capacity expansion.",
+        "The wholesale notes offering bolsters NEXTDC's balance sheet and extends its cash runway, providing critical funding to support its multi-billion dollar pipeline of hyperscale data centre developments across Australia and Asia without equity dilution.",
+        "Debt funding at scale signals NEXTDC's ability to access diversified capital markets efficiently; investors should monitor the coupon rate and tenor details for implications on interest costs, with proceeds likely earmarked for near-term construction milestones and land acquisitions."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "M4M",
+      "company": "MACRO METALS LIMITED",
+      "headline": "Macro executes umbrella agreement with Metal Logic",
+      "time": "2026-04-23T22:16:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082024-6A1321837",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Macro Metals has executed an umbrella agreement with Metal Logic, signaling a formalized commercial partnership that could provide a structured framework for ongoing scrap metal or recycling transactions, potentially improving revenue visibility.",
+        "The market-sensitive designation suggests the agreement carries material financial implications — likely involving committed volumes, pricing mechanisms, or exclusivity terms that could meaningfully impact Macro's top-line or margin profile.",
+        "Investors should watch for disclosure of specific financial terms, volume commitments, and duration of the agreement to assess whether this partnership materially de-risks Macro's revenue base or represents a step-change in operational scale."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AGE",
       "company": "ALLIGATOR ENERGY LIMITED",
