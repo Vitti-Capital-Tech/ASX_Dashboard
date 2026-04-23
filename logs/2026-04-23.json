@@ -1,9 +1,197 @@
 {
   "date": "2026-04-23",
-  "total": 129,
-  "market_sensitive_count": 110,
-  "generated_at": "2026-04-23T01:36:28.537548+00:00",
+  "total": 139,
+  "market_sensitive_count": 120,
+  "generated_at": "2026-04-23T03:07:27.175843+00:00",
   "announcements": [
+    {
+      "ticker": "CMB",
+      "company": "CAMBIUM BIO LIMITED",
+      "headline": "FDA Confirms Single Pivotal Trial Pathway for Elate Ocular",
+      "time": "2026-04-23T03:01:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081820-2A1667942",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FDA confirmation of a single pivotal trial pathway for Elate Ocular significantly de-risks the regulatory strategy, potentially halving the time and cost typically associated with a two-trial requirement for approval.",
+        "A single pivotal trial pathway materially reduces the capital required to reach a potential NDA/BLA filing, extending effective cash runway and improving the risk-adjusted NPV of the asset for institutional investors.",
+        "Next catalysts will center on pivotal trial design finalization, site selection, and potential partnering discussions, with the streamlined FDA pathway likely to increase the asset's attractiveness for licensing or M&A interest."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NOR",
+      "company": "NORWOOD SYSTEMS LIMITED",
+      "headline": "Norwood secures additional working capital funding of $80k",
+      "time": "2026-04-23T03:00:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081819-6A1321723",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Norwood Systems secured a minimal $80k in additional working capital funding, signaling acute cash constraints and near-term survival mode for the micro-cap technology company.",
+        "The extremely small quantum of funding ($80k) suggests the company is operating on a hand-to-mouth basis with very limited cash runway, raising going concern questions for institutional holders.",
+        "Investors should monitor the funding terms closely — at this scale, dilutive or high-cost structures (e.g., convertible notes) could further erode already minimal shareholder value, with larger capital raises likely required imminently."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "N1H",
+      "company": "N1 HOLDINGS LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-23T02:48:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081816-2A1667941",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "N1 Holdings lodged its quarterly Appendix 4C cash flow report, providing updated visibility on operating cash flows, financing activities, and cash position for institutional assessment of the non-bank lending and financial services group.",
+        "As a micro-cap financial services company, the cash flow report will be closely scrutinized for net operating cash burn/generation trends, with the market-sensitive tag suggesting material movements in cash position or operational metrics versus prior quarters.",
+        "Investors should focus on cash runway adequacy, loan book growth trajectory, and whether the company is approaching cash flow breakeven or requires further capital raising — key determinants for near-term valuation support in the non-bank lending space."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WOA",
+      "company": "WIDE OPEN AGRICULTURE LTD",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-23T02:22:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081806-6A1321717",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Wide Open Agriculture's quarterly 4C report will reveal critical cash burn metrics for this pre-profit agri-food company, with investors closely watching operating cash outflows relative to prior quarters to assess execution progress.",
+        "Cash runway is the key metric — as a small-cap with limited revenue streams, any material decline in cash reserves or acceleration in burn rate could signal near-term capital raise requirements and potential dilution risk.",
+        "Market-sensitive designation suggests the report contains material information — likely either a significant shift in cash position, revenue trajectory from its regenerative food brands (Dirty Clean Food), or updated guidance on funding needs."
+      ],
+      "tags": [
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IBX",
+      "company": "IMAGION BIOSYSTEMS LIMITED",
+      "headline": "Appendix 4C and Quarterly Activities Report - March 2026",
+      "time": "2026-04-23T02:16:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081804-3A691873",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Imagion Biosystems' March 2026 quarterly report will reveal critical cash burn metrics and remaining runway for this pre-revenue MedTech company, which has historically relied on capital raises to fund operations.",
+        "As a development-stage healthcare company focused on MagSense nanoparticle technology for cancer detection, investors will scrutinize net operating cash outflows and any progress toward commercialization milestones or partnership revenues.",
+        "The market-sensitive tag suggests material disclosure — likely around cash position adequacy, potential need for near-term capital raising, or significant updates on clinical/regulatory progress that could impact the company's path to viability."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BRY",
+      "company": "BARYS RESOURCES LIMITED",
+      "headline": "Exploration Licence Grant in Kazakhstan",
+      "time": "2026-04-23T01:52:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081794-6A1321710",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Barys Resources has been granted an exploration licence in Kazakhstan, securing tenure over prospective ground and removing a key regulatory milestone risk for the company's project pipeline.",
+        "The licence grant is market sensitive, suggesting the tenement is material to the company's exploration strategy — for a micro-cap explorer, securing legal right to explore is a prerequisite to unlocking any future resource value.",
+        "Next steps will likely involve on-ground exploration programs (geophysics, geochemistry, drilling), which will require funding — investors should monitor upcoming capital raise activity and the company's cash runway to execute meaningful work programs on the newly granted licence."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FSI",
+      "company": "FLAGSHIP INVESTMENTS LIMITED",
+      "headline": "FSI Notes Quarterly Report - March 2026",
+      "time": "2026-04-23T01:46:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081793-2A1667933",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "FSI Notes (subordinated notes issued by Flagship Investments) quarterly report provides investors with an update on the financial health and interest coverage capacity of the underlying listed investment company portfolio.",
+        "As a market-sensitive quarterly disclosure, the report likely details NTA movements, portfolio performance, and the ability of FSI to service note obligations — critical for fixed-income holders assessing credit risk.",
+        "Institutional investors should scrutinize the interest coverage ratio and any changes in portfolio composition or leverage, as these directly impact the risk profile and pricing of FSI Notes in the secondary market."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ECP",
+      "company": "ECP EMERGING GROWTH LIMITED",
+      "headline": "ECP Notes Quarterly Report - March 2026",
+      "time": "2026-04-23T01:44:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081791-2A1667932",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "ECP Emerging Growth Limited has released its quarterly report for the March 2026 quarter, providing investors with an update on the performance and valuation of its listed investment portfolio focused on emerging growth companies.",
+        "As a Listed Investment Company (LIC), the quarterly NTA and portfolio composition data will be critical for assessing whether ECP is trading at a premium or discount to its net tangible assets, directly impacting investor sentiment and potential arbitrage opportunities.",
+        "Market-sensitive designation suggests material changes in portfolio value, cash position, or investment activity during the quarter that institutional investors should evaluate against prior quarters for trend analysis and forward positioning."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HYT",
+      "company": "HYTERRA LTD",
+      "headline": "Entitlement Issue Prospectus",
+      "time": "2026-04-23T01:37:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081790-6A1321708",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "HyTerra Ltd is conducting a non-renounceable entitlement issue, raising capital which will dilute existing shareholders who do not participate, a common concern for micro-cap explorers needing to fund ongoing operations.",
+        "The entitlement issue prospectus signals the company requires additional funding, likely to extend cash runway for its hydrogen exploration activities — investors should scrutinize the offer price discount, dilution magnitude, and use of proceeds for project advancement.",
+        "Key next steps include monitoring subscription rates and shortfall placement outcomes, as weak take-up would signal poor investor confidence and could pressure the share price further post-completion."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GFL",
+      "company": "GLOBAL MASTERS FUND LIMITED",
+      "headline": "GFL Notes Quarterly Report - March 2026",
+      "time": "2026-04-23T01:35:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081789-2A1667931",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Global Masters Fund Limited has released its quarterly report for GFL Notes (convertible/hybrid instruments) for the March 2026 quarter, providing investors with updated NAV and portfolio performance metrics tied to its Berkshire Hathaway-focused investment strategy.",
+        "As a market-sensitive disclosure, the report likely contains material updates on note valuations, interest coverage, or underlying portfolio returns that could impact pricing of the listed notes on ASX.",
+        "Institutional holders should assess any changes in the discount/premium to NTA, distribution coverage ratios, and the trajectory of the underlying Berkshire Hathaway holdings to gauge forward income sustainability and capital return potential."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "DDR",
       "company": "DICKER DATA LIMITED",
