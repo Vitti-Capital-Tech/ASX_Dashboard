@@ -1,9 +1,218 @@
 {
   "date": "2026-04-24",
-  "total": 67,
-  "market_sensitive_count": 60,
-  "generated_at": "2026-04-23T23:03:10.405063+00:00",
+  "total": 78,
+  "market_sensitive_count": 69,
+  "generated_at": "2026-04-23T23:18:45.976732+00:00",
   "announcements": [
+    {
+      "ticker": "DEM",
+      "company": "DE.MEM LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-23T23:13:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082151-6A1321878",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "DE.MEM's quarterly Appendix 4C filing provides updated cash flow visibility for the water treatment technology company, with investors closely watching operating cash burn rates and revenue trajectory from recurring membrane and consumables sales.",
+        "Key metrics to assess include net operating cash flows, customer receipts trend, and closing cash position which together determine the company's cash runway and potential need for near-term capital raising — critical for a micro-cap with scaling ambitions.",
+        "As a market-sensitive release, the report likely contains material updates on contract wins, revenue growth momentum, or margin improvement that could shift institutional sentiment on DE.MEM's path toward sustained cash flow breakeven."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CGR",
+      "company": "CGN RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-23T23:08:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082143-6A1321872",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "CGN Resources released its quarterly activities and Appendix 5B cash flow report, providing an update on exploration progress and financial position for the period — key for assessing operational momentum and capital allocation priorities.",
+        "As a junior explorer, the Appendix 5B will be closely scrutinized for net operating and investing cash outflows, with the cash runway calculation critical given CGN's pre-revenue status and likely reliance on future capital raises to fund ongoing exploration.",
+        "Investors should monitor the company's disclosed cash balance relative to planned exploration expenditure to assess whether a near-term capital raise or strategic pivot may be required to sustain operations beyond the next 1-2 quarters."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BHM",
+      "company": "BROKEN HILL MINES LIMITED",
+      "headline": "Quarterly Activities Report and Appendix 5B",
+      "time": "2026-04-23T23:08:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082142-6A1321875",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Broken Hill Mines reports quarterly activities highlighting exploration progress across its NSW mineral projects, with market-sensitive designation suggesting material updates on drilling or resource estimates.",
+        "Appendix 5B cash flow statement will reveal updated cash position and burn rate — critical for assessing runway given the company's pre-revenue exploration stage and potential need for future capital raises.",
+        "Investors should scrutinize net operating and investing cash outflows against remaining cash reserves to evaluate whether near-term dilutive funding is likely, alongside any commentary on upcoming drilling catalysts or JV developments."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCX",
+      "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
+      "headline": "Dividend/Distribution - PCX",
+      "time": "2026-04-23T23:08:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082141-2A1668081",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Pengana Global Private Credit Trust (PCX) has declared a distribution, reinforcing its commitment to regular income payments for unitholders in the private credit space.",
+        "The dividend announcement is market sensitive, suggesting the distribution amount or terms may represent a material update relative to prior periods or market expectations for the trust's yield profile.",
+        "Consistent distributions from PCX support its positioning as an income-generating vehicle; investors should monitor the distribution rate relative to NAV and compare against benchmark credit yields to assess sustainability and attractiveness."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VPR",
+      "company": "VOLT GROUP LIMITED",
+      "headline": "Quarterly Activities Report and Appendix 4C",
+      "time": "2026-04-23T23:07:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082140-6A1321869",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Volt Group's quarterly activities report and Appendix 4C filing provides updated cash flow visibility, critical for assessing the company's operational burn rate and near-term funding requirements in the current market environment.",
+        "As a market-sensitive disclosure, the report likely contains material movements in operating, investing, or financing cash flows that could signal shifts in revenue trajectory, cost management, or capital deployment strategies.",
+        "Investors should scrutinize the cash runway implied by closing cash balances relative to quarterly net cash outflows, as any indication of tightening liquidity could foreshadow near-term capital raising activity or operational restructuring."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BVR",
+      "company": "BELLAVISTA RESOURCES LTD",
+      "headline": "Pickle Crow Project Acquisition Conditions Satisfied/Waived",
+      "time": "2026-04-23T23:06:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082131-6A1321862",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "All conditions precedent for Bellavista's acquisition of the Pickle Crow Gold Project have been satisfied or waived, clearing the path for completion of this strategic M&A transaction and providing the company with a defined gold asset in Ontario, Canada.",
+        "Removal of conditionality de-risks the deal and signals regulatory/counterparty alignment, a key milestone that typically triggers re-rating as the market prices in the acquired asset's resource base and exploration upside.",
+        "Investors should now focus on the settlement timeline, any associated capital raise or share issuance to fund the acquisition, and management's near-term exploration/development plans for Pickle Crow to assess the project's impact on Bellavista's valuation and cash runway."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MRQ",
+      "company": "MRG METALS LIMITED",
+      "headline": "MRG HMS - Environment & Social Impact Assessment Lodged",
+      "time": "2026-04-23T23:05:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082130-3A691919",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MRG Metals has lodged its Environment & Social Impact Assessment (ESIA) for its Heavy Mineral Sands (HMS) project, a critical regulatory milestone required before mining license approval in Mozambique.",
+        "Lodgement of the ESIA de-risks the permitting pathway and signals the project is advancing toward development stage, though approval timelines remain uncertain and subject to government review processes.",
+        "Next catalyst will be ESIA approval by Mozambican authorities, which if granted would unlock the pathway to mining concession and project financing discussions — key value inflection points for this pre-revenue explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMU",
+      "company": "AMERICAN URANIUM LTD",
+      "headline": "Drilling at Lo Herma to Commence Early May 2026",
+      "time": "2026-04-23T23:05:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082128-6A1321865",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "American Uranium is advancing its Lo Herma uranium project in Wyoming with drilling set to commence in early May 2026, signaling active exploration progress and commitment to project de-risking in a supportive uranium price environment.",
+        "The drilling program represents a key catalyst for the junior explorer, with results expected to define resource potential and inform future development decisions — critical for a pre-revenue company where project milestones drive valuation.",
+        "Timing aligns with sustained institutional interest in uranium equities amid global nuclear energy tailwinds; successful drill results could unlock re-rating potential, though investors should monitor cash position and funding requirements for subsequent exploration phases."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ERM",
+      "company": "EMMERSON RESOURCES LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-23T23:05:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082127-6A1321867",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Emmerson Resources (ERM), crossing the 5% ownership threshold, signaling increased institutional or strategic interest in the junior gold/copper explorer.",
+        "The accumulation of a substantial position in a small-cap explorer like Emmerson may reflect confidence in the company's Tennant Creek mineral assets or anticipation of upcoming catalysts such as drill results or corporate activity.",
+        "Investors should monitor whether this stake continues to build toward a potential takeover threshold or strategic blocking position, as well as any subsequent notices indicating further buying or associated party transactions."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CLA",
+      "company": "CELSIUS RESOURCES LIMITED.",
+      "headline": "Corporate Update",
+      "time": "2026-04-23T23:04:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082123-6A1321819",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Celsius Resources issued a market-sensitive corporate update, signaling material developments in the company's strategic or operational positioning that warrant immediate investor attention.",
+        "As a junior mining company, any corporate update flagged as market sensitive likely involves key project milestones, financing arrangements, or partnership developments that could materially impact the company's valuation and cash runway.",
+        "Investors should closely monitor the specifics of this update for implications on project timelines, capital requirements, and potential catalysts that could drive near-term re-rating of the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PDI",
+      "company": "PREDICTIVE DISCOVERY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-23T22:59:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082114-6A1321861",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Predictive Discovery Limited (PDI), triggering a mandatory disclosure under ASX substantial holding rules, signaling active institutional portfolio rebalancing in the gold explorer.",
+        "As a non-market-sensitive filing, the change likely reflects a marginal shift around the 5% threshold rather than a large directional bet, limiting immediate price impact but warranting monitoring for trend continuation.",
+        "Investors should track whether this forms part of a broader accumulation or distribution pattern, particularly given PDI's advancing Bankan Gold Project in Guinea and upcoming development milestones that could attract further institutional interest."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "A8G",
       "company": "AUSTRALASIAN METALS LIMITED",
