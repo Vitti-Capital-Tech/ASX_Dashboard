@@ -1,9 +1,84 @@
 {
   "date": "2026-04-23",
-  "total": 125,
-  "market_sensitive_count": 106,
-  "generated_at": "2026-04-23T00:35:16.134609+00:00",
+  "total": 129,
+  "market_sensitive_count": 110,
+  "generated_at": "2026-04-23T01:36:28.537548+00:00",
   "announcements": [
+    {
+      "ticker": "DDR",
+      "company": "DICKER DATA LIMITED",
+      "headline": "Executive Update",
+      "time": "2026-04-23T01:14:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081782-2A1667926",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dicker Data has announced an executive-level change, which as a market-sensitive announcement signals a material leadership transition at one of Australia's largest IT distribution companies (ASX: DDR, ~$2B+ market cap)",
+        "Executive changes at founder-led businesses like Dicker Data carry elevated significance given the company's strong association with founder David Dicker's strategic direction and industry relationships that underpin supplier partnerships",
+        "Investors should monitor for any accompanying changes to strategic direction, guidance, or operational continuity — near-term uncertainty around leadership transitions may weigh on sentiment until clarity on succession and forward strategy is provided"
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AXP",
+      "company": "AXP ENERGY LIMITED",
+      "headline": "Charlie 1 Pump upgrade delivers 45 BOE per day",
+      "time": "2026-04-23T01:03:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081775-2A1667921",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Charlie 1 well pump upgrade has lifted production to 45 BOE per day, a material step-up for a micro-cap E&P that signals successful operational optimization and near-term revenue uplift from existing assets.",
+        "At 45 BOE/day, assuming ~US$70/bbl realised pricing, the well alone could generate annualised gross revenue of approximately US$1.15M — meaningful for AXP's scale and potentially improving cash flow sustainability without additional capital raises.",
+        "Successful pump upgrade de-risks the broader development strategy across AXP's US onshore portfolio; investors should watch for follow-on well interventions and whether aggregate field-level production can be scaled to reach cash flow breakeven."
+      ],
+      "tags": [
+        "Production",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PPY",
+      "company": "PAPYRUS AUSTRALIA LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-04-23T00:36:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081769-2A1667918",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Papyrus Australia (PPY) has been reinstated to quotation on the ASX, indicating resolution of a prior trading halt or suspension — likely tied to compliance or disclosure requirements that have now been satisfied.",
+        "Reinstatement signals the company has met ASX's conditions for resumption of trading, which may follow a capital raise, restructuring, or lodgement of overdue financial reports — investors should review the underlying trigger for the original suspension.",
+        "Near-term liquidity and price discovery will resume; expect elevated volatility on first day of trading as the market reprices the stock based on any new information disclosed during the suspension period."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPY",
+      "company": "PAPYRUS AUSTRALIA LIMITED",
+      "headline": "Capital Raising",
+      "time": "2026-04-23T00:34:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03081762-2A1667916",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Papyrus Australia is undertaking a capital raising, which will result in dilution for existing shareholders in a micro-cap company with limited liquidity, a typical bearish signal for near-term price action.",
+        "As a small-cap company focused on banana-waste-to-paper technology with minimal revenue generation, the capital raise likely addresses critical funding needs to extend cash runway and maintain operations.",
+        "Investors should scrutinize the terms of the raise (pricing, discount to market, placement vs rights issue) and assess whether proceeds are earmarked for commercialization milestones or simply sustaining working capital burn."
+      ],
+      "tags": [
+        "Capital Raise"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "OMA",
       "company": "OMEGA OIL & GAS LIMITED",
