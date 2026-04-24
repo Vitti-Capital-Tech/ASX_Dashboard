@@ -1,9 +1,161 @@
 {
   "date": "2026-04-24",
-  "total": 104,
-  "market_sensitive_count": 94,
-  "generated_at": "2026-04-24T00:34:55.318868+00:00",
+  "total": 112,
+  "market_sensitive_count": 101,
+  "generated_at": "2026-04-24T01:37:05.873508+00:00",
   "announcements": [
+    {
+      "ticker": "RKB",
+      "company": "ROKEBY RESOURCES LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-04-24T01:08:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082245-6A1321919",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Rokeby Resources has been reinstated to quotation on the ASX, ending a prior trading halt or suspension period — this restores liquidity for shareholders and signals resolution of the underlying issue that triggered the halt.",
+        "Reinstatement typically follows satisfaction of ASX compliance requirements, which may relate to a capital raise, recompliance listing, or resolution of a query — investors should review the accompanying announcements for details on any structural changes to the company's capital or operations.",
+        "Near-term trading may see elevated volatility as pent-up buy/sell orders are matched; institutional investors should monitor opening auction volumes and any updated disclosure (e.g., use of funds, updated cash position) to assess whether the reinstatement is accompanied by a material change in fundamentals."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "USC",
+      "company": "US1 CRITICAL MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-24T01:07:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082241-6A1321920",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "US1 Critical Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update in the critical minerals space.",
+        "As a junior critical minerals explorer, any trading halt raises immediate questions about cash runway adequacy and whether equity dilution via a capital raise is forthcoming — a common pattern for ASX-listed junior miners.",
+        "Investors should await the detailed announcement expected within two business days; the halt's resolution will clarify whether the catalyst is value-accretive (e.g., strategic partnership, offtake agreement) or dilutive (e.g., placement at discount)."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RKB",
+      "company": "ROKEBY RESOURCES LIMITED",
+      "headline": "Acquisition of High Grade Omeo Gold Project",
+      "time": "2026-04-24T01:07:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082240-6A1321915",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Rokeby Resources is acquiring the Omeo Gold Project, described as high-grade, signaling a strategic pivot or portfolio expansion into gold at a time of elevated gold prices — potentially transformative for a micro-cap explorer seeking to attract investor interest.",
+        "The 'high grade' characterization is critical: if supported by credible JORC resources, this acquisition could materially re-rate the company's valuation, though investors should scrutinize the acquisition terms, consideration structure (cash vs scrip), and whether dilution is involved.",
+        "Key next steps include disclosure of acquisition terms, any associated capital raise to fund the deal or advance exploration, and confirmation of resource estimates — the market will be watching for near-term drill programs and whether Rokeby can demonstrate a credible pathway to development."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "USC",
+      "company": "US1 CRITICAL MINERALS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-04-24T00:57:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082234-6A1321918",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "US1 Critical Minerals has entered a trading pause, typically preceding a material announcement such as a capital raise, acquisition, or significant operational update in the critical minerals space.",
+        "As a junior critical minerals explorer, any trading halt raises immediate questions about cash runway adequacy and whether the pause signals an imminent equity raising that could dilute existing shareholders.",
+        "Investors should await the substantive announcement that triggered the pause; the nature of the disclosure (capital raise vs. asset deal vs. operational milestone) will determine whether this is a value-creating or dilutive event."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IVR",
+      "company": "INVESTIGATOR SILVER LIMITED",
+      "headline": "Quarterly Activities and Cash Flow Report",
+      "time": "2026-04-24T00:49:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082232-2A1668132",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Investigator Silver's quarterly report provides an update on exploration and development activities at its Paris Silver Project in South Australia, a key milestone tracker for this pre-revenue junior explorer.",
+        "Cash flow and treasury position will be critical to assess — as a pre-production silver explorer, the cash runway and burn rate determine near-term dilution risk and ability to advance feasibility/permitting work without emergency capital raises.",
+        "Market sensitivity designation suggests material updates on project progress, resource delineation, or funding status that institutional investors should evaluate against the company's pathway to development decision and any upcoming capital requirements."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GNP",
+      "company": "GENUSPLUS GROUP LTD",
+      "headline": "Genus Awarded Koolunga Battery Energy Storage System Project",
+      "time": "2026-04-24T00:48:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082231-6A1321916",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GenusPlus awarded the Koolunga Battery Energy Storage System (BESS) project, reinforcing its positioning in the high-growth energy transition infrastructure segment and expanding its renewable energy project pipeline on the ASX.",
+        "The BESS contract win adds to GenusPlus's order book, providing incremental revenue visibility and supporting top-line growth trajectory — the market-sensitive designation suggests material contract value relative to the company's current revenue base.",
+        "Continued BESS project wins validate GenusPlus's strategic pivot toward energy storage infrastructure, a sector benefiting from strong policy tailwinds and grid modernisation investment across Australia, positioning the company for sustained earnings momentum."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKN",
+      "company": "SKIN ELEMENTS LIMITED",
+      "headline": "Section 249D Notice Fourth Notice",
+      "time": "2026-04-24T00:47:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082230-6A1321914",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Skin Elements has received a fourth Section 249D notice, indicating persistent and escalating shareholder activism seeking to force an extraordinary general meeting — a clear signal of deep dissatisfaction with current board and management direction.",
+        "Multiple successive 249D notices suggest a coordinated campaign by a dissident shareholder group, raising the probability of a board spill or significant governance overhaul that could materially alter the company's strategic trajectory.",
+        "For a micro-cap like SKN, prolonged boardroom disputes consume management bandwidth and cash resources, potentially distracting from core operations and undermining already limited investor confidence in the near term."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "A2M",
+      "company": "THE A2 MILK COMPANY LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-24T00:38:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082227-2A1668128",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in A2 Milk Company, crossing the 5% ownership threshold, signaling meaningful institutional conviction in the stock at current valuation levels.",
+        "The accumulation of a substantial position by a new investor may reflect confidence in A2 Milk's growth trajectory in China infant formula and broader APAC dairy markets, potentially providing a floor for the share price.",
+        "Investors should monitor whether this is a passive index/fund rebalancing event or an active accumulation strategy, as the latter could foreshadow further buying pressure or activist engagement."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "PCI",
       "company": "PERPETUAL CREDIT INCOME TRUST",
