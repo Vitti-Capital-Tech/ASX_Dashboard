@@ -1,9 +1,123 @@
 {
   "date": "2026-04-24",
-  "total": 98,
-  "market_sensitive_count": 89,
-  "generated_at": "2026-04-23T23:59:51.621370+00:00",
+  "total": 104,
+  "market_sensitive_count": 94,
+  "generated_at": "2026-04-24T00:34:55.318868+00:00",
   "announcements": [
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Dividend/Distribution - PCI",
+      "time": "2026-04-24T00:29:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082225-2A1668127",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Perpetual Credit Income Trust (PCI) has declared a distribution, reinforcing its commitment to regular income payments for unitholders in the listed credit fund space.",
+        "As a credit income trust focused on fixed-income and credit markets, consistent distributions signal stable portfolio yield generation and adequate cash flow from underlying credit assets, supporting NAV stability.",
+        "Market-sensitive classification suggests the distribution quantum or terms may differ from prior periods or market expectations — investors should monitor the per-unit amount and ex-date for portfolio rebalancing and yield comparison against peers."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LF1",
+      "company": "LA TROBE PRIVATE CREDIT FUND",
+      "headline": "Dividend/Distribution - LF1",
+      "time": "2026-04-24T00:26:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082224-2A1668126",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "La Trobe Private Credit Fund (LF1) has declared a distribution, reinforcing its consistent income-generation profile for unitholders in the private credit space.",
+        "As a market-sensitive announcement, the distribution details signal the fund continues to generate sufficient cash flows from its private credit portfolio to sustain regular payouts, a key metric for income-focused institutional investors.",
+        "Ongoing distribution capacity supports the fund's positioning as a defensive yield vehicle amid elevated interest rates, though investors should monitor underlying credit quality and any shifts in distribution rates relative to prior periods."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WRK",
+      "company": "WRKR LTD",
+      "headline": "Quarterly Activity Report and Appendix 4C",
+      "time": "2026-04-24T00:24:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082221-2A1668113",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "WRKR Ltd's quarterly activity report and Appendix 4C filing provides critical visibility into cash burn rate and operational progress for this technology-focused company, requiring close scrutiny of net operating cash flows versus prior quarters.",
+        "As a market-sensitive disclosure, the report likely contains material updates on revenue trajectory, customer acquisition metrics, or cash position changes that could signal whether the company is tracking toward profitability or may require additional capital.",
+        "Investors should focus on cash runway calculations — comparing closing cash balance against quarterly net cash outflows — to assess whether a near-term capital raise may be necessary, which would present dilution risk for existing shareholders."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARC",
+      "company": "ARC FUNDS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-23T23:59:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082210-2A1668105",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in ARC Funds Limited has filed a change in their holding, signaling a notable shift in ownership concentration that institutional investors should monitor for governance and liquidity implications.",
+        "As a listed investment entity, changes in substantial holdings can reflect strategic positioning by major shareholders, potentially indicating differing views on ARC's net asset value or portfolio performance outlook.",
+        "The filing is flagged as not market sensitive, suggesting the change is incremental rather than transformative, but investors should track whether this forms part of a broader accumulation or disposal pattern over coming weeks."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INF",
+      "company": "INFINITY METALS LIMITED",
+      "headline": "Quarterly Cashflow Report",
+      "time": "2026-04-23T23:58:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082207-6A1321909",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Infinity Metals' quarterly cashflow report provides a mandatory update on the explorer's cash position, critical for assessing near-term funding adequacy and operational burn rate during its pre-revenue stage.",
+        "As a junior explorer, key metrics to watch include net operating and investing cash outflows versus closing cash balance — any material decline in cash reserves without offsetting capital raises signals potential dilution risk or funding gap within the next 1-2 quarters.",
+        "Investors should monitor whether the company flagged any planned capital raises or cost-reduction measures, as the cash runway trajectory will dictate whether near-term equity issuance is required to sustain exploration activities."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INF",
+      "company": "INFINITY METALS LIMITED",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-04-23T23:58:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082206-6A1321907",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Infinity Metals' quarterly activities report provides an update on exploration and operational progress, with market-sensitive designation suggesting material developments or financial disclosures that could influence near-term trading.",
+        "As a junior explorer, cash runway is the critical metric — investors should scrutinize closing cash balance versus quarterly burn rate to assess whether a capital raise may be required within the next 2-3 quarters, which would pose dilution risk.",
+        "Forward outlook hinges on upcoming drill results, tenement developments, or strategic partnerships; the market-sensitive tag implies the company may have flagged new exploration targets or updated resource estimates that could serve as catalysts."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "HRE",
       "company": "HEAVY RARE EARTHS LIMITED",
