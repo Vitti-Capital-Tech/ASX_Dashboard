@@ -1,9 +1,257 @@
 {
   "date": "2026-04-24",
-  "total": 112,
-  "market_sensitive_count": 101,
-  "generated_at": "2026-04-24T01:37:05.873508+00:00",
+  "total": 125,
+  "market_sensitive_count": 112,
+  "generated_at": "2026-04-24T03:08:05.615283+00:00",
   "announcements": [
+    {
+      "ticker": "TRE",
+      "company": "TOUBANI RESOURCES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-24T03:03:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082303-6A1321945",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has altered their position in Toubani Resources, signaling a shift in institutional or major shareholder conviction in the junior gold explorer/developer",
+        "The change in substantial holding filing is classified as not market sensitive, suggesting the movement may be incremental rather than a dramatic entry or exit by the holder",
+        "Investors should monitor whether this reflects portfolio rebalancing or a directional view on Toubani's West African gold assets and upcoming development milestones"
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKK",
+      "company": "STAKK LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-24T02:26:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082291-6A1321939",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "STAKK LIMITED lodged its mandatory Quarterly Activities Report and Appendix 4C, providing updated cash flow transparency for institutional scrutiny on operational burn rate and funding position.",
+        "As a likely early-stage or micro-cap entity, the Appendix 4C will reveal net operating cash outflows, remaining cash reserves, and estimated quarters of funding available — critical for assessing near-term dilution or going-concern risk.",
+        "Investors should closely examine the cash runway metric (estimated quarters of funding) and any flagged capital raising activity, as sub-2 quarter runway would signal imminent equity raise or strategic pivot requirement."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NNG",
+      "company": "NEXION GROUP LTD",
+      "headline": "NNG Listing Strategy Update",
+      "time": "2026-04-24T02:25:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082290-6A1321933",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nexion Group is providing a strategic update on its listing approach, which may signal a potential relisting, dual-listing, or structural change to its ASX presence — a material development for shareholders assessing liquidity and market access.",
+        "The market-sensitive designation suggests the update contains substantive information beyond routine disclosure, potentially involving changes to listing venue, capital structure, or corporate strategy that could directly impact valuation.",
+        "Investors should closely monitor whether the listing strategy involves migration to another exchange, reverse takeover mechanics, or recapitalisation — each carrying distinct implications for dilution risk, trading liquidity, and institutional eligibility."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ERA",
+      "company": "ENERGY RESOURCES OF AUSTRALIA LIMITED",
+      "headline": "Quarterly Cashflow Report - Appendix 4C",
+      "time": "2026-04-24T02:14:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082286-2A1668159",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "ERA's quarterly cashflow report (Appendix 4C) provides critical visibility into the company's cash burn rate during its ongoing Ranger mine rehabilitation phase, a key focus for institutional investors monitoring execution risk and funding adequacy.",
+        "As a non-revenue generating entity focused on rehabilitation obligations, net operating and investing cash outflows will be closely scrutinized to assess whether ERA's existing cash reserves and Rio Tinto support arrangements remain sufficient to fund the multi-year closure program.",
+        "Market-sensitive designation signals material information within the filing — investors should examine any changes to estimated rehabilitation costs, cash runway projections, and potential need for additional capital support or equity raises to complete Ranger site remediation."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IXC",
+      "company": "INVEX THERAPEUTICS LTD",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-24T02:13:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082285-6A1321938",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Invex Therapeutics' quarterly 4C report provides critical visibility into cash burn rate and remaining runway for this clinical-stage biotech developing Presendin (exenatide) for neurological conditions, a key metric for pre-revenue healthcare companies.",
+        "As a clinical-stage company with no material revenue, investors will scrutinize net operating cash outflows against cash reserves to assess whether a near-term capital raise may be required, which would be dilutive to existing shareholders.",
+        "Key catalysts to monitor include progress on the Phase 3 clinical trial for idiopathic intracranial hypertension (IIH) and any regulatory milestones, with the cash runway determining the company's ability to reach value-inflecting data readouts without additional funding."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DKM",
+      "company": "DUKETON MINING LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-24T02:12:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082284-6A1321937",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Duketon Mining's quarterly report provides updated cash flow visibility via Appendix 5B, critical for assessing burn rate and cash runway at this exploration/development stage company.",
+        "As a market-sensitive release, the report likely contains material updates on exploration expenditure, project milestones, or significant changes in cash position that could re-rate the stock.",
+        "Investors should scrutinize net operating and investing cash outflows against closing cash balance to determine funding adequacy and whether a near-term capital raise may be required to sustain operations."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IXR",
+      "company": "IONIC RARE EARTHS LIMITED",
+      "headline": "March Quarterly Activities & Cash Flow Report",
+      "time": "2026-04-24T02:11:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082283-3A691939",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Ionic Rare Earths' March quarterly report provides critical visibility into cash burn rate and remaining runway, key metrics for a pre-revenue rare earths developer in a capital-intensive sector where funding risk is paramount.",
+        "As a junior explorer/developer, the cash flow report will reveal whether the company can sustain operations through upcoming milestones or faces near-term dilutive capital raise requirements — a material consideration for institutional holders.",
+        "The rare earths sector continues to benefit from strategic supply chain diversification tailwinds (China dependency reduction), but IonicRE's ability to advance its ionic clay and recycling technology projects hinges on maintaining adequate funding and hitting technical de-risking milestones outlined in this quarter."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EFE",
+      "company": "EASTERN RESOURCES LIMITED",
+      "headline": "March 2026 Quarterly Cashflow Report",
+      "time": "2026-04-24T02:07:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082281-6A1321935",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Eastern Resources' March 2026 quarterly cashflow report is market sensitive, suggesting material changes in cash position or operational spending that investors need to assess for potential dilution or funding risk.",
+        "As a junior explorer, the quarterly cashflow report will reveal the burn rate and remaining cash runway — critical metrics for determining whether a near-term capital raise may be required to sustain operations.",
+        "Investors should scrutinize exploration expenditure levels and any changes in financing activities, as these will signal the company's strategic priorities and likelihood of upcoming equity issuance or project milestones."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EFE",
+      "company": "EASTERN RESOURCES LIMITED",
+      "headline": "March 2026 Quarterly Activities Report",
+      "time": "2026-04-24T02:05:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082280-6A1321934",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Eastern Resources released its March 2026 quarterly activities report, providing an update on exploration and operational progress across its mineral portfolio on the ASX.",
+        "Cash position and burn rate will be critical to assess — as a junior explorer, the quarterly cashflow report (Appendix 5B) will reveal remaining cash runway and any near-term funding requirements or dilution risk.",
+        "Investors should monitor for any material drilling results, tenement developments, or capital raising plans flagged in the report that could act as catalysts or overhang on the stock in the near term."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ERA",
+      "company": "ENERGY RESOURCES OF AUSTRALIA LIMITED",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-04-24T02:04:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082279-2A1668155",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "ERA's quarterly activities report provides an update on the Ranger mine rehabilitation project, which remains the company's sole operational focus following the cessation of uranium processing, with progress and cost trajectory being critical metrics for investors assessing remaining liabilities.",
+        "Cash position and rehabilitation expenditure run-rate are key watchpoints, as ERA faces a finite funding envelope to complete environmental remediation obligations at Ranger within the Kakadu National Park — any cost overruns or delays could trigger further capital raises or reliance on majority shareholder Rio Tinto.",
+        "Regulatory milestones and stakeholder engagement with the Mirarr Traditional Owners and the Commonwealth Government on rehabilitation progress will dictate the timeline and potential for additional provisioning, making this quarter's disclosure essential for assessing downside risk to equity holders."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAK",
+      "company": "WA KAOLIN LIMITED",
+      "headline": "NOM Addendum and Entitlement Offer Extension",
+      "time": "2026-04-24T02:00:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082276-6A1321929",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "WA Kaolin has issued an addendum to its Notice of Meeting alongside an extension of its entitlement offer, signaling potential challenges in achieving target subscription levels within the original timeframe.",
+        "The extension of the entitlement offer timeline suggests softer-than-expected investor demand, which may raise concerns about the company's ability to fully fund its capital requirements and could increase dilution risk if shortfall shares are placed at discounted terms.",
+        "Investors should monitor the revised closing date and final subscription levels closely, as undersubscription could necessitate additional capital raising measures or force management to scale back operational plans for its kaolin projects."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DOW",
+      "company": "DOWNER EDI LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-24T01:54:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082270-2A1668150",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Downer EDI, triggering a mandatory disclosure under ASX substantial holding rules — this signals active institutional portfolio rebalancing in the infrastructure services name.",
+        "The change in substantial holding may reflect either accumulation or trimming by a major fund; the direction and magnitude of the shift will be key for gauging institutional conviction in DOW's turnaround strategy and margin recovery trajectory.",
+        "As a procedural filing with no market-sensitive designation, the announcement is unlikely to drive near-term price action but warrants monitoring for patterns of institutional accumulation or distribution ahead of upcoming earnings catalysts."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRH",
+      "company": "SAFEROADS HOLDINGS LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-24T01:44:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082269-3A691938",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Saferoads Holdings lodged its quarterly Appendix 4C cash flow report, providing updated visibility on operating cash flows, capital expenditure, and liquidity position for institutional assessment.",
+        "As a micro-cap infrastructure services company, the cash flow report will be scrutinised for net operating cash burn/generation trends and remaining cash runway, which are critical for assessing going-concern risk and near-term funding needs.",
+        "Market-sensitive designation suggests material information within the quarterly update — investors should examine whether operating receipts are trending toward breakeven or whether additional capital raising may be required in coming quarters."
+      ],
+      "tags": [
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "RKB",
       "company": "ROKEBY RESOURCES LIMITED",
