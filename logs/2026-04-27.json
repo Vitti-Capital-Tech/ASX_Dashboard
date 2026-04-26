@@ -1,9 +1,103 @@
 {
   "date": "2026-04-27",
-  "total": 63,
-  "market_sensitive_count": 52,
-  "generated_at": "2026-04-26T23:12:00.910148+00:00",
+  "total": 68,
+  "market_sensitive_count": 56,
+  "generated_at": "2026-04-26T23:14:51.011782+00:00",
   "announcements": [
+    {
+      "ticker": "GMN",
+      "company": "GOLD MOUNTAIN LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-26T23:13:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082624-2A1668315",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Gold Mountain Limited has entered a trading halt, suspending shares from trading pending a material announcement — the nature of which is undisclosed but typical for capital raises, acquisitions, or significant corporate developments in the junior mining space.",
+        "As a micro-cap ASX-listed explorer, any trading halt raises immediate questions about cash runway adequacy; a capital raise scenario would likely be dilutive to existing shareholders given the company's limited market capitalisation and typical funding constraints.",
+        "Investors should await the pending announcement before repositioning; the halt will remain in place until the earlier of the company's announcement or the commencement of normal trading on the second business day following the halt request."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Bidder's Statement",
+      "time": "2026-04-26T23:12:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082623-2A1668314",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A formal Bidder's Statement has been lodged for Atlas Arteria, signaling an active takeover attempt that typically places a floor under the share price and triggers institutional reassessment of fair value for the toll-road operator.",
+        "The market-sensitive classification confirms material price implications; investors should scrutinize the offer terms, implied premium to last traded price, and whether the bid is conditional on regulatory approvals or minimum acceptance thresholds.",
+        "Atlas Arteria's board will need to respond with a Target's Statement — the key next step is whether directors recommend acceptance, reject the offer, or seek competing bids, which will determine near-term price trajectory and potential for a bidding war."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TVN",
+      "company": "TIVAN LIMITED",
+      "headline": "Major Michael Stone Retd joins Tivan",
+      "time": "2026-04-26T23:11:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082619-6A1322109",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tivan Limited appoints Major Michael Stone (Retired) in a strategic hire likely aimed at strengthening the company's defence and government engagement credentials, relevant to its critical minerals positioning in the Northern Territory.",
+        "The appointment is flagged as market sensitive, suggesting Tivan views the hire as materially significant — potentially signalling upcoming defence-related offtake discussions or government funding opportunities tied to Australia's critical minerals strategy.",
+        "For institutional investors, the key question is whether this appointment accelerates Tivan's path to commercialisation of its TIVAN+ processing technology and secures strategic partnerships; watch for follow-up announcements on defence/government contracts or funding milestones."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BPP",
+      "company": "BABYLON PUMP & POWER LIMITED",
+      "headline": "Update on Voluntary Suspension",
+      "time": "2026-04-26T23:11:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082618-6A1322075",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Babylon Pump & Power remains in voluntary suspension, indicating an ongoing corporate action or transaction that has not yet been finalized — shares remain untradeable, limiting liquidity for holders.",
+        "The update is classified as not market sensitive, suggesting no material new information has been disclosed beyond confirming the continuation of the suspension, with the underlying catalyst still pending resolution.",
+        "Investors should monitor for the lifting of the suspension, which will likely coincide with a material announcement — potential catalysts include a capital raise, acquisition, or restructuring that could significantly re-rate the stock."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BRE",
+      "company": "BRAZILIAN RARE EARTHS LIMITED",
+      "headline": "March 2026 Quarterly Report and Appendix 5B",
+      "time": "2026-04-26T23:10:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082617-6A1322108",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Brazilian Rare Earths' March 2026 quarterly report will detail exploration and development progress at its rare earth projects in Brazil, a sector attracting heightened strategic interest amid global supply chain diversification away from China.",
+        "Key focus for investors will be cash burn rate and remaining cash runway from the Appendix 5B, as pre-revenue explorers face scrutiny on funding adequacy and potential near-term capital raise requirements.",
+        "Market-sensitive designation suggests material updates likely included — investors should watch for updated resource estimates, metallurgical results, or strategic partnership developments that could re-rate the stock."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BTL",
       "company": "BEETALOO ENERGY AUSTRALIA LIMITED",
