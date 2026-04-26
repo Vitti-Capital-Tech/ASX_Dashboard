@@ -1,0 +1,65 @@
+{
+  "date": "2026-04-27",
+  "total": 3,
+  "market_sensitive_count": 0,
+  "generated_at": "2026-04-26T22:15:35.102376+00:00",
+  "announcements": [
+    {
+      "ticker": "IMM",
+      "company": "IMMUTEP LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-26T22:13:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082496-2A1668261",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in Immutep Limited (ASX: IMM), signaling active institutional portfolio rebalancing in this clinical-stage immunotherapy company.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is likely incremental rather than a major accumulation or disposal that would materially shift the register.",
+        "Investors should monitor whether this forms part of a broader trend of institutional positioning ahead of Immutep's key clinical trial readouts for eftilagimod alpha (efti), its lead LAG-3 immunotherapy candidate."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAR",
+      "company": "ASTRAL RESOURCES NL",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-26T22:13:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082493-6A1322084",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Astral Resources NL, indicating a significant reduction in ownership below the 5% threshold, which may signal a shift in institutional conviction or portfolio rebalancing.",
+        "The departure of a substantial holder could increase free float and potentially create near-term selling pressure, though the filing is flagged as not market sensitive, suggesting an orderly exit rather than a distressed liquidation.",
+        "Investors should monitor whether this reflects broader institutional sentiment toward Astral Resources' gold exploration portfolio in the Leonora-Laverton region, or if other substantial holders adjust their positions in the coming weeks."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QOR",
+      "company": "QORIA LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-26T22:13:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082492-6A1322048",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has reduced their stake in Qoria Limited (formerly Family Zone) below the 5% threshold, triggering a ceasing notice — this signals a meaningful reduction in conviction or portfolio rebalancing by a significant investor.",
+        "The exit of a substantial holder can increase free float and potentially weigh on near-term price support, as the selling pressure required to move below 5% typically involves material volume relative to Qoria's modest market capitalisation.",
+        "Investors should monitor whether this is an isolated event or part of a broader pattern of institutional de-risking from Qoria, particularly given the company's ongoing path toward profitability in the child digital safety/technology space."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    }
+  ]
+}
