@@ -1,9 +1,103 @@
 {
   "date": "2026-04-27",
-  "total": 68,
-  "market_sensitive_count": 56,
-  "generated_at": "2026-04-26T23:14:51.011782+00:00",
+  "total": 73,
+  "market_sensitive_count": 60,
+  "generated_at": "2026-04-26T23:31:39.471318+00:00",
   "announcements": [
+    {
+      "ticker": "OZM",
+      "company": "OZAURUM RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-26T23:29:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082641-6A1322117",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Ozaurum Resources reports quarterly activities and cash flow update, providing visibility into exploration spend and operational progress across its gold-focused portfolio",
+        "Appendix 5B cash flow report will reveal critical cash burn rate and remaining cash runway — key metrics for this pre-revenue explorer that determine near-term dilution risk or need for capital raise",
+        "As a junior explorer, investors should scrutinize net operating and investing cash outflows against closing cash balance to assess whether a capital raise is imminent within the next 1-2 quarters"
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "Drilling Returns High-Grade Gold Intercepts",
+      "time": "2026-04-26T23:24:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082637-6A1322113",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Forrestania Resources has reported high-grade gold intercepts from its drilling program, a material de-risking event that validates the prospectivity of its tenement package and could attract market re-rating interest from gold-focused investors.",
+        "High-grade gold hits are particularly significant in the current elevated gold price environment (AUD ~$3,800+/oz), as even narrow high-grade intercepts can underpin economically viable mining scenarios and enhance resource estimation potential.",
+        "Key next steps will include assay confirmation of remaining holes, potential resource definition drilling, and whether results are sufficient to justify a maiden or upgraded mineral resource estimate — catalysts that could sustain momentum if grades and widths hold up across the prospect."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-26T23:23:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082636-2A1668324",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Atlas Arteria has adjusted their position, triggering a mandatory disclosure under ASX rules — this signals active institutional portfolio rebalancing around the toll-road infrastructure name.",
+        "The change in substantial holding likely reflects a crossing of the 1% threshold (up or down), which for a company of ALX's market cap (~$6-7B) represents a meaningful capital reallocation by a significant institutional investor.",
+        "As a procedural filing flagged as not market sensitive, the notice itself is unlikely to drive price action, but investors should monitor whether this forms part of a broader accumulation or distribution pattern ahead of any potential corporate activity or M&A developments."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SNT",
+      "company": "SYNTARA LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-26T23:22:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082635-2A1668322",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Syntara Limited has entered a trading halt, typically indicating a pending material announcement such as a capital raise, clinical trial update, or corporate transaction for this clinical-stage biotech.",
+        "As a pre-revenue healthcare company with limited cash runway, any trading halt raises immediate questions about potential equity dilution via capital raise or transformative deal activity.",
+        "Investors should await the forthcoming announcement before repositioning; the halt will likely lift within 1-2 trading days with clarity on the nature of the material event."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CHM",
+      "company": "CHIMERIC THERAPEUTICS LIMITED",
+      "headline": "CHM CORE-NK Phase 1B clinical trial achieves 60% CR/CRi",
+      "time": "2026-04-26T23:15:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082627-2A1668319",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CORE-NK Phase 1B trial achieved a 60% complete remission/complete remission with incomplete hematologic recovery (CR/CRi) rate in relapsed/refractory AML patients — a clinically meaningful response rate that compares favorably to existing salvage therapies and validates the allogeneic NK cell platform.",
+        "For a micro-cap biotech like CHM (market cap ~A$20M), a positive Phase 1B readout of this magnitude is a potential inflection point that could attract partnership interest or support a future capital raise at improved terms, though investors should monitor cash runway given the capital-intensive path to pivotal trials.",
+        "Key next steps include dose escalation cohort data, regulatory interactions for Phase 2 design, and potential partnering discussions — the 60% CR/CRi rate, if durable, positions CORE-NK competitively in the crowded AML space and could accelerate development timelines or trigger licensing interest from larger pharma players."
+      ],
+      "tags": [
+        "Healthcare",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "GMN",
       "company": "GOLD MOUNTAIN LIMITED",
