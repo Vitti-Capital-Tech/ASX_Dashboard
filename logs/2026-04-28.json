@@ -1,9 +1,443 @@
 {
   "date": "2026-04-28",
-  "total": 86,
-  "market_sensitive_count": 83,
-  "generated_at": "2026-04-27T22:48:10.888469+00:00",
+  "total": 109,
+  "market_sensitive_count": 106,
+  "generated_at": "2026-04-27T23:09:32.255654+00:00",
   "announcements": [
+    {
+      "ticker": "NAE",
+      "company": "NEW AGE EXPLORATION LIMITED",
+      "headline": "Quarterly Activities and Cashflow Report",
+      "time": "2026-04-27T23:02:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082959-3A692056",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "New Age Exploration's quarterly report provides an update on operational activities and cash position, critical for assessing the company's near-term viability and project advancement milestones.",
+        "Cash flow reporting will reveal the burn rate and remaining cash runway — key metrics for this exploration-stage company where revenue generation is typically minimal and capital preservation is paramount.",
+        "As a junior explorer, investors should scrutinize net operating and investing cash outflows against closing cash balances to gauge whether a near-term capital raise may be required to sustain operations and advance exploration programs."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Accelerated Copper Production at Mineral Hill",
+      "time": "2026-04-27T23:02:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082956-6A1322287",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kingston Resources is accelerating copper production at its Mineral Hill operation, signaling improved operational execution and a strategic pivot to capitalize on elevated copper prices, which should positively impact near-term revenue and cash flow generation.",
+        "Accelerated production timelines typically indicate either debottlenecking success or higher-grade ore access, both of which are margin-accretive for a junior miner and could materially improve the company's cash runway without requiring additional capital raises.",
+        "Investors should monitor upcoming quarterly reports for confirmation of production ramp-up rates, unit cash costs, and whether the acceleration translates into meaningful copper concentrate sales — execution risk remains the key variable for re-rating potential."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "M2M",
+      "company": "MT MALCOLM MINES NL",
+      "headline": "Rights Issue Offer Document",
+      "time": "2026-04-27T23:02:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082955-6A1322284",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mt Malcolm Mines is conducting a rights issue, indicating the company needs to raise capital likely to fund exploration or operational activities, which will result in share dilution for non-participating shareholders.",
+        "As a small-cap mining company, the rights issue offer document suggests the firm's existing cash runway is insufficient to meet near-term funding requirements, a common signal of balance sheet pressure in junior miners.",
+        "Investors should scrutinize the offer price discount to market, the total raise amount, and use of proceeds to assess whether the capital raise is value-accretive or signals deeper financial strain."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AUZ",
+      "company": "AUSTRALIAN MINES LIMITED",
+      "headline": "Flemington delivers standout Scoping Study economics",
+      "time": "2026-04-27T23:01:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082954-2A1668406",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Flemington Scoping Study delivers standout economics, signaling a potential de-risking catalyst for Australian Mines Limited and validating the project's commercial viability at a critical early-stage milestone.",
+        "Positive scoping study results typically highlight attractive NPV, IRR, and payback metrics — institutional investors will focus on the capital intensity, assumed commodity prices, and whether the economics justify progression to Pre-Feasibility Study (PFS).",
+        "Next steps likely include advancing to PFS, securing further exploration/development funding, and potential offtake discussions — watch for capital raise activity as the company moves to fund the next study phase."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GA8",
+      "company": "GOLDARC RESOURCES LIMITED",
+      "headline": "Bonanza Gold Grades Confirmed across 5km Niagara Trend",
+      "time": "2026-04-27T23:00:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082953-6A1322205",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bonanza-grade gold intercepts confirmed across a 5km strike length at the Niagara Trend, significantly de-risking the scale potential of the deposit and elevating the project's prospectivity for resource definition drilling.",
+        "High-grade gold results across multiple zones over an extensive corridor suggest potential for a multi-deposit system, which could materially impact future resource estimates and attract strategic interest from larger gold producers.",
+        "Next steps likely include infill and extensional drilling programs to convert these high-grade intercepts into a JORC-compliant resource, with the 5km trend providing substantial runway for further discovery and resource growth."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GHM",
+      "company": "GOLDEN HORSE MINERALS LIMITED",
+      "headline": "Quarterly Cashflow Report",
+      "time": "2026-04-27T23:00:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082951-6A1322282",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Golden Horse Minerals lodged its quarterly cashflow report, a routine disclosure for ASX-listed explorers that provides transparency on cash burn and funding position during the period.",
+        "As a minerals exploration-stage company, the key metric to watch is net operating and investing cash outflows versus closing cash balance, which determines the remaining cash runway before any further capital raise is required.",
+        "Investors should scrutinize the estimated quarters of funding available (Appendix 5B, Section 8.8); any indication of fewer than two quarters of cash remaining would signal near-term dilution risk via a capital raise or alternative funding."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VMS",
+      "company": "VENARI MINERALS NL",
+      "headline": "Red Mountain Project produces Battery-Grade Lithium Product",
+      "time": "2026-04-27T23:00:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082950-6A1322279",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Venari Minerals has successfully produced a battery-grade lithium product from its Red Mountain Project, representing a significant technical milestone that validates the project's processing pathway and potential commercial viability in the lithium supply chain.",
+        "Achievement of battery-grade specification is a critical de-risking event for the project, potentially enhancing its attractiveness to offtake partners and strategic investors at a time when downstream lithium processing capability is a key differentiator for junior miners.",
+        "Next steps likely involve scaling up from laboratory/pilot results to feasibility-level studies; investors should watch for details on product purity specifications, recovery rates, processing costs, and any engagement with potential offtake or JV partners to assess the path to commercialisation."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PIQ",
+      "company": "PROTEOMICS INTERNATIONAL LABORATORIES LTD",
+      "headline": "Proteomics Strategic Plan",
+      "time": "2026-04-27T22:59:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082949-3A692055",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Proteomics International has released a formal strategic plan, signaling management's intent to articulate a clear pathway for commercialization and growth — a move typically aimed at re-engaging institutional interest and providing valuation anchors for the PromarkerD diabetic kidney disease diagnostic platform.",
+        "The strategic plan release, marked as market sensitive, likely outlines key milestones around regulatory approvals, partnership/licensing deals, and revenue generation timelines for its lead diagnostic product, which are critical catalysts for a pre-revenue life sciences company with limited cash runway.",
+        "Investors should watch for specifics on near-term commercialization targets, potential partnering or licensing arrangements in key markets (US, EU), and any updated guidance on cash burn rate — the credibility of execution against this plan will be the primary driver of re-rating potential."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PNN",
+      "company": "POWER MINERALS LIMITED",
+      "headline": "Sampling program delivers extremely high-grade REE results",
+      "time": "2026-04-27T22:57:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082946-2A1668429",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Power Minerals reports 'extremely high-grade' rare earth element (REE) results from its sampling program, signaling potential for a significant REE discovery that could materially re-rate the company given surging global demand for critical minerals.",
+        "High-grade REE surface sampling results de-risk the project at an early stage and could attract strategic interest from offtake partners or government critical minerals funding programs, particularly amid Western supply chain diversification efforts.",
+        "Next steps likely include follow-up drilling to confirm grade continuity at depth and define a maiden resource estimate — successful progression would represent a key catalyst for further share price appreciation in a junior explorer with limited revenue."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GHM",
+      "company": "GOLDEN HORSE MINERALS LIMITED",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-04-27T22:57:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082945-6A1322277",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Golden Horse Minerals' quarterly activities report provides an update on exploration progress across its portfolio of mineral projects, with market-sensitive designation suggesting material developments or changes in project status worth investor attention.",
+        "Cash position and burn rate will be critical metrics for this pre-revenue explorer — investors should scrutinize the cash runway relative to planned exploration expenditure to assess near-term dilution risk from potential capital raises.",
+        "As a junior explorer, the forward work program and any new assay results or tenement acquisitions outlined in the quarterly will be key catalysts; absence of significant drill results or resource upgrades may weigh on sentiment given ongoing cash consumption."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "M2M",
+      "company": "MT MALCOLM MINES NL",
+      "headline": "Non-Renounceable Rights Issue to Raise up to $2.066 million",
+      "time": "2026-04-27T22:55:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082941-6A1322274",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MT Malcolm Mines is conducting a non-renounceable rights issue to raise up to $2.066 million, indicating the company needs fresh capital likely to fund exploration or working capital requirements given its small-cap mining profile.",
+        "Non-renounceable structure means existing shareholders cannot trade their rights, limiting flexibility and potentially leading to dilution for those who do not participate — a negative signal for minority holders.",
+        "The modest raise size (~$2M) suggests this is a near-term funding bridge rather than a transformational capital event; investors should monitor take-up rates and any shortfall placement terms for further dilution risk."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SKK",
+      "company": "STAKK LIMITED",
+      "headline": "Stakk Reports $5.52m Quarterly Revenue",
+      "time": "2026-04-27T22:55:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082940-6A1322271",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Stakk Limited reported quarterly revenue of $5.52m, a notable figure for a micro/small-cap ASX-listed company that signals meaningful commercial traction and potential path toward operational sustainability.",
+        "The revenue headline suggests sequential growth momentum — investors should scrutinize underlying cash receipts vs. accrued revenue, net cash burn rate, and remaining cash runway to assess whether the company can sustain operations without near-term capital raising.",
+        "Key watch items include customer concentration risk, gross margin trends, and whether management reaffirms or upgrades forward guidance — the quarterly Appendix 4C filing will reveal actual operating cash flows and any divergence from reported revenue."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SGQ",
+      "company": "ST GEORGE MINING LIMITED",
+      "headline": "Quarterly Activities and Cashflow Report",
+      "time": "2026-04-27T22:54:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082939-6A1322267",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "St George Mining's quarterly report provides an update on exploration and development activities, with market-sensitive designation suggesting material progress or changes in project economics worth monitoring.",
+        "Cash flow report will reveal current burn rate and remaining cash runway — critical for a junior explorer that relies on periodic capital raises to fund ongoing exploration programs across its nickel-copper-PGE and lithium assets.",
+        "Investors should assess whether drilling results, tenement developments, or strategic partnerships announced in the quarter materially de-risk the company's asset portfolio or signal an upcoming capital raise requirement."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMR",
+      "company": "BALLYMORE RESOURCES LIMITED",
+      "headline": "Broad, shallow gold intersections near Mt Leyshon gold mine",
+      "time": "2026-04-27T22:54:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082937-2A1668428",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ballymore reports broad, shallow gold intersections near the historic Mt Leyshon gold mine (which produced ~3.3Moz), suggesting potential for a near-surface, lower-cost gold resource that could significantly de-risk future development economics.",
+        "Proximity to a proven large-scale gold system enhances geological credibility of the discovery, though specific grades and widths will be critical to assess whether intersections are economically meaningful at current gold prices (~A$3,800/oz).",
+        "Results are early-stage exploration and will require follow-up drilling to define continuity and resource potential; investors should monitor upcoming assay details and whether the company moves toward a maiden resource estimate or requires additional capital to advance the project."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LTP",
+      "company": "LTR PHARMA LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-27T22:52:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082936-3A692054",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "LTR Pharma's quarterly 4C report provides critical visibility into cash burn rate and remaining runway for this clinical-stage pharmaceutical company, key metrics for assessing near-term funding risk.",
+        "As a pre-revenue biotech, the cash flow report will detail R&D expenditure levels and operating outflows, with investors closely scrutinizing whether the company can sustain operations through upcoming clinical milestones without immediate dilutive capital raises.",
+        "Market-sensitive designation suggests material disclosure within the quarterly update — potentially relating to clinical trial progress on its lead asset (Lateral Pharma's sublingual drug delivery platform) or updated cash position that may trigger reassessment of funding adequacy."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RML",
+      "company": "RESOLUTION MINERALS LTD",
+      "headline": "Tungsten Concentrates Produced from Golden Gate",
+      "time": "2026-04-27T22:51:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082935-2A1668426",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Resolution Minerals has successfully produced tungsten concentrates from its Golden Gate project, marking a significant technical milestone that validates the project's processing pathway and resource potential.",
+        "Tungsten is classified as a critical mineral by multiple governments globally, positioning Resolution to benefit from strategic supply chain diversification trends and potential premium pricing as Western nations seek non-Chinese sources.",
+        "Production of concentrates de-risks the project's metallurgical profile and could serve as a catalyst for advancing feasibility studies, attracting offtake interest, or securing government critical minerals funding support."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HMX",
+      "company": "HAMMER METALS LIMITED",
+      "headline": "Copper, Gold, Molybdenum Drilling Commences at Kalman",
+      "time": "2026-04-27T22:51:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082934-6A1322266",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hammer Metals has commenced drilling at the Kalman copper-gold-molybdenum deposit, signaling active advancement of its flagship project and potential for resource definition or expansion that could be a near-term catalyst.",
+        "The multi-commodity targeting (copper, gold, molybdenum) at Kalman enhances the project's economic optionality, particularly given strong prevailing copper and gold prices which improve the risk-reward profile for exploration spend.",
+        "As a junior explorer, investors should monitor upcoming assay results from this drill program for grade and width confirmation — positive intercepts could drive re-rating, while the cash burn from drilling warrants attention to balance sheet sustainability and potential future capital raise requirements."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CUV",
+      "company": "CLINUVEL PHARMACEUTICALS LIMITED",
+      "headline": "CLINUVEL update on Level II ADR upgrade, Nasdaq uplist",
+      "time": "2026-04-27T22:50:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082933-3A692053",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CLINUVEL is upgrading its US ADR program to Level II and pursuing a Nasdaq listing, significantly expanding its visibility and accessibility to US institutional investors, which could drive meaningful liquidity improvements and valuation re-rating.",
+        "A Nasdaq uplist would subject CLINUVEL to SEC reporting requirements but also position the company alongside global biotech peers, potentially unlocking US-focused healthcare fund flows and index inclusion opportunities for a company with an established commercial product (SCENESSE).",
+        "The dual-listing strategy signals management confidence in the company's growth trajectory and US market expansion plans; investors should watch for SEC registration filing timelines and any associated costs or capital requirements that may accompany the listing process."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CTN",
+      "company": "CATALINA RESOURCES LTD",
+      "headline": "Exploration Expanded at Beasley Creek & EIS Funding Secured",
+      "time": "2026-04-27T22:49:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082932-6A1322264",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Catalina Resources has expanded its exploration footprint at Beasley Creek, signaling increased conviction in the project's prospectivity and potential to define new mineralized zones that could materially enhance the resource base.",
+        "Securing EIS (Exploration Incentive Scheme) funding provides non-dilutive capital to advance drilling programs, preserving shareholder equity while de-risking early-stage exploration — a positive signal for a micro-cap explorer with limited cash runway.",
+        "Near-term catalysts include drill results from the expanded Beasley Creek program; successful outcomes could drive a re-rating, while the government co-funding reduces the capital burden and extends the company's ability to explore without immediate recourse to equity markets."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ERE",
+      "company": "EUROPEAN RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-27T22:45:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082929-2A1668423",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "European Resources Limited filed its quarterly activities and Appendix 5B cash flow report, providing investors with an updated view of exploration progress and financial position across its European-focused mineral assets.",
+        "Key focus will be on net operating cash outflows and closing cash balance to assess the company's cash runway — junior explorers with limited revenue are highly sensitive to burn rate and upcoming funding requirements.",
+        "Investors should monitor whether the quarterly signals any near-term capital raise necessity or whether existing cash reserves are sufficient to fund planned exploration activities through the next reporting period."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IIQ",
+      "company": "INOVIQ LTD",
+      "headline": "Quarterly Activities Report and Appendix 4C - March 2026",
+      "time": "2026-04-27T22:43:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082926-3A692052",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "INOVIQ's March 2026 quarterly report will reveal critical cash burn metrics and runway visibility for this pre-revenue diagnostics company, with investors closely watching whether operating cash outflows are tracking toward or away from profitability milestones.",
+        "As a clinical-stage healthcare company focused on cancer diagnostics (EXO-NET and SubB2M platforms), the Appendix 4C will disclose quarterly receipts from customers, R&D expenditure levels, and remaining cash reserves — key indicators of whether additional capital raising may be required in the near term.",
+        "Market-sensitive classification suggests material updates likely accompany the financials, potentially including clinical development progress on exosome-based diagnostics, partnership developments, or revised guidance on cash runway that could shift institutional positioning."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AHE",
+      "company": "ADHERIS HEALTH LIMITED",
+      "headline": "3Q FY26 Quarterly Activity Report and Appendix 4C",
+      "time": "2026-04-27T22:42:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082925-6A1322259",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Adheris Health's 3Q FY26 Appendix 4C filing provides critical visibility into cash burn rate and remaining runway for this healthcare company, with market-sensitive designation suggesting material developments in operating metrics.",
+        "Quarterly cash flow reporting will reveal whether the company is progressing toward revenue sustainability or faces near-term funding pressure — key for institutional assessment of dilution risk and capital raise timing.",
+        "Investors should scrutinize net operating cash outflows relative to prior quarters and available cash reserves to determine if additional capital raising is imminent, which would be a key catalyst for near-term price action."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SP8",
+      "company": "STREAMPLAY STUDIO LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-27T22:41:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082924-6A1322258",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Streamplay Studio lodged its quarterly Appendix 4C cash flow report, a mandatory disclosure for ASX-listed entities spending more cash than they generate — flagging ongoing cash burn dynamics that institutional investors should scrutinize closely.",
+        "Key metrics to watch include net operating cash outflows, remaining cash reserves, and the implied cash runway; any material deterioration quarter-on-quarter would raise going-concern risk for this micro-cap technology company.",
+        "As a market-sensitive filing, the report likely contains updated forward estimates or funding commentary — investors should assess whether additional capital raising or cost restructuring is signaled to sustain operations beyond the next 1-2 quarters."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "EIQ",
       "company": "ECHOIQ LIMITED",
