@@ -1,9 +1,392 @@
 {
   "date": "2026-04-28",
-  "total": 109,
-  "market_sensitive_count": 106,
-  "generated_at": "2026-04-27T23:09:32.255654+00:00",
+  "total": 129,
+  "market_sensitive_count": 126,
+  "generated_at": "2026-04-27T23:21:52.877395+00:00",
   "announcements": [
+    {
+      "ticker": "6KA",
+      "company": "6K ADDITIVE, INC.",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-27T23:17:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082990-3A692063",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "6K Additive filed its quarterly Appendix 4C cash flow report, providing transparency on operating, investing, and financing cash movements for the period — a critical update for assessing burn rate and capital efficiency in this pre-revenue/early-revenue stage company.",
+        "As a technology-focused advanced materials/additive manufacturing company, investors should scrutinize net operating cash outflows and remaining cash reserves to determine cash runway; any material deterioration could signal near-term capital raise requirements or dilution risk.",
+        "The market-sensitive designation suggests the report contains material new information — likely around cash position, funding adequacy, or revised spending guidance — that could drive re-rating depending on whether the company demonstrates a path toward self-sustainability or flags additional funding needs."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BPT",
+      "company": "BEACH ENERGY LIMITED",
+      "headline": "FY26 Third Quarter Activities Report",
+      "time": "2026-04-27T23:16:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082989-2A1668440",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Beach Energy's Q3 FY26 activities report provides a critical operational update on production volumes, capital expenditure, and development progress across its Cooper Basin, Otway, and Perth Basin assets — key metrics for tracking execution against FY26 guidance.",
+        "Quarterly production and revenue figures will be closely scrutinized for signs of volume recovery or decline, particularly given Beach's ongoing investment in Waitsia Stage 2 and Western Flank oil operations, with any beat/miss versus consensus driving near-term re-rating.",
+        "Cash flow generation and balance sheet positioning remain focal points for institutional investors assessing Beach's capacity to fund its capex-heavy development pipeline while maintaining shareholder returns and managing net debt trajectory."
+      ],
+      "tags": [
+        "Quarterly",
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AQD",
+      "company": "AUSQUEST LIMITED",
+      "headline": "Quarterly Activities and Cashflow Report",
+      "time": "2026-04-27T23:15:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082988-6A1322308",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "AusQuest's quarterly report provides an update on exploration activities across its portfolio of base metal and gold projects in Australia and Peru, with market-sensitive designation suggesting material developments in drilling or assay results.",
+        "Cash flow report will reveal the company's current burn rate and remaining cash runway — critical for a pre-revenue explorer where funding adequacy directly determines ability to advance key prospects without near-term dilutive capital raises.",
+        "Investors should scrutinize exploration expenditure levels relative to cash reserves and any signals regarding upcoming capital raising needs, farm-in/joint venture progress, or prioritization shifts across the project pipeline that could impact near-term valuation catalysts."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BIO",
+      "company": "BIOME AUSTRALIA LIMITED",
+      "headline": "Quarterly Activities & Cashflow Report",
+      "time": "2026-04-27T23:14:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082987-3A692062",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Biome Australia's quarterly activities and cashflow report is market sensitive, signaling material updates on operational performance and cash position that investors need to assess for potential changes in the company's trajectory.",
+        "Key focus will be on cash burn rate and remaining cash runway — as a micro-cap healthcare/consumer health company, any deterioration in net operating cash outflows or acceleration in spend without corresponding revenue growth would pressure the stock.",
+        "Investors should scrutinize receipts from customers versus prior quarters for evidence of revenue momentum in its probiotic and gut-health product lines, alongside any commentary on pathway to cash flow breakeven or need for further capital raising."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RMX",
+      "company": "RED MOUNTAIN MINING LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-27T23:14:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082986-6A1322307",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Red Mountain Mining has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration update for this junior mining company.",
+        "As a micro-cap explorer with limited revenue, any capital raise associated with this halt would likely be dilutive to existing shareholders, though it could extend cash runway needed for ongoing project development.",
+        "Investors should await the detailed announcement expected within two business days to assess whether the halt relates to a transformative corporate action or routine funding activity."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "14D",
+      "company": "1414 DEGREES LIMITED",
+      "headline": "SiNTL Update - Drone & UAV Market Engagement to Commence",
+      "time": "2026-04-27T23:14:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082985-2A1668439",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "1414 Degrees' SiNTL subsidiary is commencing market engagement in the drone and UAV sector, signaling a pivot toward high-growth defense and commercial unmanned aerial vehicle applications for its silicon-based thermal energy storage technology.",
+        "The announcement is light on financial specifics — no revenue figures, contracts, or partnership details disclosed — suggesting this is an early-stage commercial exploration rather than a near-term revenue catalyst, which limits immediate valuation uplift for a micro-cap with constrained cash runway.",
+        "Key next steps to watch include whether SiNTL can convert market engagement into binding offtake agreements or development partnerships; institutional investors should monitor upcoming quarterly reports for burn rate and any tangible commercial milestones in the drone/UAV vertical."
+      ],
+      "tags": [
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EUR",
+      "company": "EUROPEAN LITHIUM LIMITED",
+      "headline": "EUR to combine with CRML implied valuation $0.58 per share",
+      "time": "2026-04-27T23:14:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082984-6A1322214",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "European Lithium (EUR) announces a combination with Critical Metals (CRML), implying a valuation of $0.58 per EUR share — a significant premium signal designed to unlock value for shareholders in a consolidation play within the critical minerals space.",
+        "The implied $0.58 per share valuation represents a substantial premium to EUR's recent trading levels, suggesting the combined entity aims to achieve scale benefits, improved market relevance, and potentially enhanced access to capital markets for lithium/critical metals development.",
+        "Investors should monitor the transaction structure, dilution mechanics, completion conditions, and whether the combined group's pro-forma balance sheet and asset portfolio justify the implied valuation — execution risk remains until shareholder approval and regulatory clearances are secured."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PIQ",
+      "company": "PROTEOMICS INTERNATIONAL LABORATORIES LTD",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-27T23:13:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082983-3A692061",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Proteomics International's quarterly 4C report will reveal updated cash burn rate and runway metrics critical for this pre-revenue/early-revenue diagnostics company, with investors closely watching whether PromarkerD commercialisation is generating meaningful receipts from customers.",
+        "Cash flow from operations and net cash position will be scrutinised given the company's reliance on milestone payments and licensing revenue from its kidney disease diagnostic test, with any deterioration in cash reserves likely to raise capital raise concerns.",
+        "Market-sensitive designation suggests material information within the quarterly — potentially relating to commercial traction, partnership developments, or a shift in cash trajectory that could re-rate the stock in either direction depending on progress toward self-sustainability."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VTM",
+      "company": "VICTORY METALS LIMITED",
+      "headline": "72% Heavy Rare Earth ratio and a Second Zircon Hf Product",
+      "time": "2026-04-27T23:13:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082982-6A1322303",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Victory Metals reports a 72% heavy rare earth (HRE) ratio from its processing work, positioning the company in the premium segment of the rare earths market where HREs command significantly higher prices than light rare earths due to critical supply shortages.",
+        "Identification of a second zircon-hafnium product stream adds a valuable co-product revenue opportunity, potentially improving project economics and de-risking the overall value proposition by diversifying the mineral output beyond rare earths alone.",
+        "These metallurgical results strengthen the technical case for project advancement and are likely to support upcoming feasibility-level studies; investors should watch for scoping study updates and offtake discussions as the company seeks to capitalize on Western supply chain diversification demand for critical minerals."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PYC",
+      "company": "PYC THERAPEUTICS LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-27T23:12:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082980-6A1322306",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "PYC Therapeutics lodged its quarterly Appendix 4C cash flow report, providing updated visibility on cash burn rate and remaining runway — critical metrics for this pre-revenue RNA therapeutics company advancing its clinical pipeline.",
+        "Investors will scrutinize net operating cash outflows and closing cash balance to assess whether PYC can fund ongoing clinical programs (including its lead ocular program) through key milestones without near-term dilutive capital raising.",
+        "As a clinical-stage biotech, the quarterly report's significance lies in whether cash runway extends beyond 12 months — a threshold that, if breached, typically triggers going-concern disclosures and heightened dilution risk for shareholders."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PVT",
+      "company": "PIVOTAL METALS LIMITED",
+      "headline": "Horden Lake Strategy Update",
+      "time": "2026-04-27T23:11:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082979-6A1322305",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Pivotal Metals has issued a market-sensitive strategy update for its Horden Lake project, signaling a potential shift in development approach or prioritization that could materially affect the company's near-term resource allocation and project timeline.",
+        "Strategy updates for early-stage mining assets often precede capital deployment decisions or partnership announcements; investors should assess whether this signals acceleration of exploration spend or a pivot toward value-preserving optionality amid challenging junior mining conditions.",
+        "The market-sensitive classification suggests substantive changes beyond routine operational updates — key watch items include any revised exploration budgets, updated resource estimates, potential joint venture structures, or reallocation of capital toward higher-priority assets in the portfolio."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTP",
+      "company": "CENTRAL PETROLEUM LIMITED",
+      "headline": "Quarterly Activities Report & Appendix 5B",
+      "time": "2026-04-27T23:11:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082978-6A1322304",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Central Petroleum's quarterly activities report provides a critical update on production volumes, revenue, and operational performance across its Northern Territory and Queensland gas and oil assets, key for assessing near-term cash generation capacity.",
+        "The Appendix 5B cash flow statement will reveal net operating cash flows, capex spend, and closing cash balance — essential for evaluating cash runway and any potential need for capital raising given the company's historically tight balance sheet.",
+        "Investors should focus on gas sales contract delivery performance, progress on Range and Mereenie asset optimization, and any commentary on exploration or development milestones that could de-risk the company's reserve base and support forward earnings."
+      ],
+      "tags": [
+        "Quarterly",
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMB",
+      "company": "CAMBIUM BIO LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-27T23:10:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082976-2A1668435",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cambium Bio's quarterly Appendix 4C filing provides updated cash flow visibility for institutional investors, with key focus on operating cash burn rate and remaining cash runway for this pre-revenue biotech company.",
+        "As a market-sensitive quarterly report, investors should scrutinize net operating cash outflows relative to prior quarters and assess whether the company's cash reserves support operations beyond 12 months without requiring additional capital raising.",
+        "The filing's market-sensitive designation suggests material information within the cash flow details — potential triggers include accelerated burn from clinical/development milestones, changes in funding requirements, or signals of an upcoming capital raise to extend runway."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OCC",
+      "company": "ORTHOCELL LIMITED",
+      "headline": "Compelling 90% Success Rate for Remplir in Real World Study",
+      "time": "2026-04-27T23:10:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082974-6A1322302",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Orthocell's Remplir bone void filler achieved a 90% success rate in a real-world study, providing critical clinical validation that strengthens the commercial case for broader adoption in orthopaedic and spinal surgery markets.",
+        "Real-world evidence at this success rate is a significant differentiator in the competitive bone graft substitute market, potentially accelerating surgeon adoption and supporting premium pricing — key drivers for revenue inflection in a company still in early commercialisation phase.",
+        "This data milestone positions Orthocell to leverage the results in regulatory submissions, reimbursement negotiations, and sales expansion efforts, particularly in the US market where Remplir holds FDA clearance — watch for near-term distribution partnership updates and cash burn trajectory."
+      ],
+      "tags": [
+        "Healthcare",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EMT",
+      "company": "EMETALS LIMITED",
+      "headline": "Mineral Range Tungsten Project, Field Activities Commence",
+      "time": "2026-04-27T23:10:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082973-6A1322300",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "eMetals has commenced field activities at its Mineral Range Tungsten Project, signaling progression from desktop studies to on-ground exploration — a key de-risking milestone for this early-stage critical minerals play.",
+        "Tungsten is classified as a critical mineral by multiple governments, and any meaningful discovery could attract strategic interest given tight global supply chains dominated by China, potentially elevating the project's strategic value beyond its current market cap.",
+        "Field commencement is a necessary precursor to drilling programs and resource definition; investors should watch for initial sampling results and follow-up work programs to assess whether the project warrants further capital allocation or partnership interest."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TMB",
+      "company": "TAMBOURAH METALS LTD",
+      "headline": "Beatty Park Sth EIS Co-Funding and T1 Drilling",
+      "time": "2026-04-27T23:09:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082972-6A1322299",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tambourah Metals secures EIS (Exploration Incentive Scheme) co-funding for the Beatty Park South project, reducing the company's out-of-pocket drilling costs and effectively extending cash runway for exploration activities.",
+        "Planned drilling at the T1 prospect signals active advancement of the exploration program, with government co-funding validating the geological prospectivity of the target area and de-risking near-term expenditure.",
+        "Successful drill results from the co-funded program could serve as a catalyst for further investment or farm-in interest; investors should watch for assay results and follow-up program announcements in coming months."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "M79",
+      "company": "MAMMOTH MINERALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-27T23:05:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082970-6A1322297",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Mammoth Minerals lodged its quarterly activities and Appendix 5B cash flow report, providing investors with an update on exploration progress and operational expenditure during the period.",
+        "As a junior explorer, the cash flow report will be critical to assess remaining cash runway and burn rate — investors should scrutinize net operating and investing outflows against closing cash balances to evaluate funding adequacy for upcoming work programs.",
+        "Key forward-looking focus will be on whether the company can sustain exploration momentum without near-term capital raising; any material decline in cash reserves may signal imminent dilutive equity issuance."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TER",
+      "company": "TERRACOM LIMITED",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-04-27T23:05:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082968-2A1668430",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "TerraCom's quarterly activities report provides a market-sensitive update on coal production and sales volumes, likely reflecting ongoing operational performance across its Australian and South African mining assets amid volatile thermal coal pricing.",
+        "Key metrics to watch include ROM coal production trends, cash position and debt levels — any material decline in revenue or margins from softening coal prices could pressure the balance sheet given TerraCom's historically leveraged position.",
+        "Investors should assess forward guidance signals, cost management effectiveness, and any commentary on BNU (Blair Athol) mine life extension or South African asset performance, as these drive medium-term cash flow sustainability and dividend capacity."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DVL",
+      "company": "DORSAVI LTD",
+      "headline": "DVL Expands Robotics Strategy into Next-Gen Exoskeletons",
+      "time": "2026-04-27T23:04:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082966-3A692057",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dorsavi is expanding its wearable sensor and robotics strategy into next-generation exoskeletons, signaling a pivot toward higher-growth addressable markets in industrial and rehabilitation robotics.",
+        "As a micro-cap with historically limited revenue, the strategic expansion raises questions about funding requirements and cash runway — investors should monitor for potential capital raises to support R&D and commercialization timelines.",
+        "The exoskeleton market is projected to grow significantly globally; however, execution risk is elevated for a company of DVL's scale, and near-term value creation will depend on securing partnerships, regulatory milestones, or early customer commitments."
+      ],
+      "tags": [
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "REC",
+      "company": "RECHARGE METALS LIMITED",
+      "headline": "Recharge Starts Sunset Well Exploration, Appoints CEO",
+      "time": "2026-04-27T23:04:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082965-6A1322294",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Recharge Metals has commenced exploration at its Sunset Well project, signaling active deployment of capital into ground-level work — a key catalyst for early-stage mining companies seeking to de-risk assets and generate newsflow.",
+        "Appointment of a new CEO represents a strategic leadership transition that may signal a shift toward accelerated project development; investors should assess the incoming executive's track record and alignment with the company's exploration-to-discovery timeline.",
+        "For a micro-cap explorer, the dual announcement of operational activity and executive hiring is designed to build market confidence, but the real test will be initial drill results and whether the company's cash position can sustain a meaningful exploration program without near-term dilution."
+      ],
+      "tags": [
+        "Mining",
+        "Board Change"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "NAE",
       "company": "NEW AGE EXPLORATION LIMITED",
