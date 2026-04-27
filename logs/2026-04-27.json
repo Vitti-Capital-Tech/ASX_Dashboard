@@ -1,9 +1,67 @@
 {
   "date": "2026-04-27",
-  "total": 96,
-  "market_sensitive_count": 83,
-  "generated_at": "2026-04-27T00:34:18.256858+00:00",
+  "total": 99,
+  "market_sensitive_count": 86,
+  "generated_at": "2026-04-27T01:36:50.916876+00:00",
   "announcements": [
+    {
+      "ticker": "SVR",
+      "company": "SOLVAR LIMITED",
+      "headline": "Conclusion of ASIC matter",
+      "time": "2026-04-27T01:22:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082700-3A692012",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASIC regulatory matter has been concluded, removing a key overhang that likely weighed on institutional sentiment and valuation multiples for Solvar Limited",
+        "Resolution of the ASIC investigation eliminates potential financial penalties, remediation costs, and reputational risk that could have materially impacted the consumer finance business",
+        "With the compliance cloud cleared, management can refocus on operational execution and growth strategy, potentially re-opening the stock to institutional mandates that screen out companies under active regulatory scrutiny"
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PKY",
+      "company": "PATHKEY.AI LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-04-27T00:57:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082696-6A1322140",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PATHKEY.AI LTD has entered a trading pause, typically preceding a material announcement such as a capital raise, acquisition, or significant corporate update that requires orderly market disclosure.",
+        "As a micro-cap AI-focused company, any trading pause heightens uncertainty around cash runway and potential dilutive capital raising activity, which is a key risk for institutional holders.",
+        "Investors should await the forthcoming announcement that triggered the pause; the market-sensitive tag suggests the news will have direct implications for valuation and near-term trading dynamics."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SBR",
+      "company": "SABRE RESOURCES LIMITED",
+      "headline": "Transformational Copper Gold Acquisition and $2M Placement.",
+      "time": "2026-04-27T00:38:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082691-6A1322133",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Sabre Resources is acquiring a copper-gold asset described as 'transformational', signaling a strategic pivot toward higher-value commodities that could materially re-rate the company if the asset delivers on exploration or resource potential.",
+        "The $2M placement provides immediate funding for the acquisition and initial work programs, though the raise size is modest and will result in dilution for existing shareholders — investors should assess the placement price discount and new share count relative to the asset's prospectivity.",
+        "Key next steps include completion of the acquisition, detailed disclosure of the copper-gold asset's resource base or exploration targets, and deployment of placement proceeds — the market will need to evaluate whether the asset justifies the 'transformational' label beyond the headline."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AN1",
       "company": "ANAGENICS LIMITED",
