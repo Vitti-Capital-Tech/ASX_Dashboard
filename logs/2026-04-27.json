@@ -1,9 +1,86 @@
 {
   "date": "2026-04-27",
-  "total": 99,
-  "market_sensitive_count": 86,
-  "generated_at": "2026-04-27T01:36:50.916876+00:00",
+  "total": 103,
+  "market_sensitive_count": 90,
+  "generated_at": "2026-04-27T03:08:08.217251+00:00",
   "announcements": [
+    {
+      "ticker": "PKY",
+      "company": "PATHKEY.AI LTD",
+      "headline": "Trading Halt",
+      "time": "2026-04-27T03:05:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082718-6A1322147",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "PATHKEY.AI LTD has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant corporate development that requires price-sensitive disclosure.",
+        "As a small-cap AI/technology company, the halt likely signals either a capital raise to fund operations (potential dilution risk) or a strategic transaction; investors should monitor cash runway implications given the company's early-stage profile.",
+        "Trading will remain suspended until the company makes its announcement or the halt period expires; institutional investors should await the substantive disclosure before adjusting positions, as the direction of impact remains uncertain."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NUC",
+      "company": "NUCHEV LIMITED",
+      "headline": "Appendix 4C and Quarterly Activities Report",
+      "time": "2026-04-27T03:04:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082717-3A692017",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Nuchev's Appendix 4C filing provides critical visibility into quarterly cash burn and operating cash flows for this goat milk infant formula company, with market-sensitive designation suggesting material movements in cash position or revenue trajectory.",
+        "Investors should scrutinize net operating cash outflows relative to prior quarters and remaining cash reserves to assess whether the company's cash runway extends beyond 12 months or if a near-term capital raise may be required to fund ongoing operations.",
+        "The quarterly activities report will detail progress on domestic and international distribution channels, inventory management, and cost reduction initiatives — key catalysts for determining whether Nuchev is on a credible path toward cash flow breakeven or faces further dilutive funding events."
+      ],
+      "tags": [
+        "Quarterly",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BGT",
+      "company": "BIO-GENE TECHNOLOGY LTD",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-27T01:55:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082706-3A692014",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "BIO-GENE TECHNOLOGY reported its quarterly cash flow (Appendix 4C), a critical update for this pre-revenue biotech where cash burn rate and runway are the primary valuation drivers for institutional holders.",
+        "As a development-stage company focused on novel insecticide technologies, investors will scrutinize net operating cash outflows, R&D spend trajectory, and remaining cash reserves to assess whether additional capital raising may be required in the near term.",
+        "The market-sensitive tag suggests material information within the report — likely relating to cash position adequacy, updated milestones on Flavocide/Qcide platform commercialization, or potential changes to the company's funding outlook."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FCL",
+      "company": "FINEOS CORPORATION HOLDINGS PLC",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-27T01:53:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082705-2A1668340",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "FINEOS lodged its quarterly Appendix 4C cash flow report, a critical disclosure for this pre-profit SaaS insurer-tech company where cash burn trajectory and runway are key valuation drivers for institutional holders.",
+        "Investors will scrutinize operating cash outflows versus subscription revenue receipts to assess whether FINEOS is narrowing its path to cash flow breakeven, with any improvement in net operating cash flow likely to be a positive catalyst.",
+        "As a market-sensitive filing, the report may reveal updated cash reserves and forward guidance on ARR growth or cost management, setting the tone for near-term sentiment ahead of any full-year results cycle."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SVR",
       "company": "SOLVAR LIMITED",
