@@ -1,9 +1,105 @@
 {
   "date": "2026-04-27",
-  "total": 88,
-  "market_sensitive_count": 75,
-  "generated_at": "2026-04-26T23:53:45.836401+00:00",
+  "total": 93,
+  "market_sensitive_count": 80,
+  "generated_at": "2026-04-27T00:09:02.546555+00:00",
   "announcements": [
+    {
+      "ticker": "PAR",
+      "company": "PARADIGM BIOPHARMACEUTICALS LIMITED..",
+      "headline": "March 2026 Quarterly Activities Report & Appendix 4C",
+      "time": "2026-04-27T00:07:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082682-3A691968",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Paradigm Biopharmaceuticals' March 2026 quarterly report will detail cash burn trajectory and remaining runway, critical for a pre-revenue biotech reliant on capital markets to fund its pentosan polysulfate sodium (PPS) clinical programs through to potential commercialisation.",
+        "As a market-sensitive release, the Appendix 4C will reveal net operating cash outflows and closing cash position — key metrics for assessing whether the company can sustain operations without near-term dilutive capital raising, a persistent overhang for PAR shareholders.",
+        "Investors will scrutinize the activities report for updates on Phase 3 clinical trial progress for injectable PPS in osteoarthritis and any regulatory engagement milestones, which represent the primary value catalysts for the company's pipeline."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PAR",
+      "company": "PARADIGM BIOPHARMACEUTICALS LIMITED..",
+      "headline": "Upsized $14M Placement Extends Runway Post IA",
+      "time": "2026-04-27T00:05:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082679-3A692008",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Paradigm completed an upsized $14M placement (from an initially smaller target), signaling strong institutional demand and confidence in the company's clinical pipeline following its Investigational Agent (IA) milestone.",
+        "The capital raise extends Paradigm's cash runway at a critical juncture, providing funding to advance its pentosan polysulfate sodium (PPS) program through upcoming clinical and regulatory milestones without near-term liquidity concerns.",
+        "While the placement is dilutive to existing shareholders, the upsizing suggests supportive investor appetite; key watch points are the terms of the raise (discount to market), SPP details for retail holders, and upcoming clinical data readouts that will determine whether the dilution is value-accretive."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "FG1",
+      "company": "FLYNN GOLD LIMITED",
+      "headline": "March 2026 Quarterly Activities Report and Appendix 5B",
+      "time": "2026-04-27T00:03:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082678-3A692009",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Flynn Gold's March 2026 quarterly report provides an update on exploration activities across its Tasmanian gold projects, with market-sensitive designation suggesting material developments in drilling results or resource estimates.",
+        "Appendix 5B cash flow disclosure will reveal updated cash position and burn rate — critical for assessing runway given Flynn Gold's pre-revenue exploration stage and potential need for near-term capital raising.",
+        "Investors should scrutinize net operating and investing cash outflows against closing cash balance to determine whether the company can fund planned exploration programs through FY26 without dilutive equity issuance."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "4DS",
+      "company": "4DS MEMORY LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-04-26T23:52:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082675-6A1322131",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "4DS Memory Limited has been suspended from quotation on the ASX, indicating a significant corporate action or compliance issue that prevents normal trading of its securities.",
+        "For a pre-revenue deep-tech company focused on resistive RAM (ReRAM) technology, a suspension raises immediate concerns about cash runway, potential capital raise requirements, or material disclosure obligations that must be resolved before trading resumes.",
+        "Investors should monitor for the accompanying announcement that triggered the suspension — likely a pending capital raise, material transaction, or failure to meet ASX listing requirements — which will determine the trajectory and potential dilution risk upon reinstatement."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CXU",
+      "company": "CAULDRON ENERGY LIMITED",
+      "headline": "CXU receives two WA Govt EIS grants",
+      "time": "2026-04-26T23:51:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082674-6A1322132",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cauldron Energy received two Exploration Incentive Scheme (EIS) grants from the WA Government, providing non-dilutive co-funding that extends exploration cash runway and validates the prospectivity of its tenements.",
+        "EIS grants typically cover a meaningful portion of drilling costs (often up to 50%), reducing CXU's out-of-pocket exploration expenditure at a time when the micro-cap explorer needs to preserve capital carefully.",
+        "The grants will likely accelerate planned exploration programs in Western Australia, with upcoming drill results serving as potential near-term catalysts for re-rating in the uranium/energy exploration space."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "VKA",
       "company": "VIKING MINES LIMITED",
