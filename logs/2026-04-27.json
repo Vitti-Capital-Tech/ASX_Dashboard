@@ -1,9 +1,65 @@
 {
   "date": "2026-04-27",
-  "total": 93,
-  "market_sensitive_count": 80,
-  "generated_at": "2026-04-27T00:09:02.546555+00:00",
+  "total": 96,
+  "market_sensitive_count": 83,
+  "generated_at": "2026-04-27T00:34:18.256858+00:00",
   "announcements": [
+    {
+      "ticker": "AN1",
+      "company": "ANAGENICS LIMITED",
+      "headline": "AN1 - Appendix 4C & Activity Report for Q3 FY2026",
+      "time": "2026-04-27T00:31:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082689-2A1668335",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ANAGENICS LIMITED releases its Q3 FY2026 Appendix 4C, providing a critical update on cash flow position and operational spending trajectory for this healthcare/biotech company.",
+        "As a market-sensitive quarterly cash flow report, investors will scrutinize net operating cash outflows, remaining cash reserves, and estimated quarters of funding remaining to assess near-term dilution risk or capital raise necessity.",
+        "The accompanying Activity Report will detail commercial and clinical progress milestones; the combination of cash runway metrics and operational momentum will be key to determining whether AN1 can reach value-inflection points without further equity raises."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RDN",
+      "company": "RAIDEN RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-27T00:16:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082687-6A1322137",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Raiden Resources filed its quarterly activities and Appendix 5B cash flow report, providing investors with an update on exploration progress and financial position across its portfolio of mineral projects.",
+        "Cash flow details in the Appendix 5B will be critical to assess burn rate and remaining cash runway — junior explorers like Raiden typically face scrutiny on whether existing funds can sustain operations without near-term dilutive capital raises.",
+        "Market-sensitive classification suggests material updates on project milestones or a notable shift in cash position; investors should evaluate whether exploration expenditure is accelerating and if upcoming catalysts justify the current funding trajectory."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Atlas Arteria receives unsolicited Takeover Offer from IFM",
+      "time": "2026-04-27T00:11:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03082684-2A1668332",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "IFM Investors has launched an unsolicited takeover offer for Atlas Arteria, signaling strong institutional appetite for high-quality toll road infrastructure assets and likely establishing a price floor for ALX shares.",
+        "The unsolicited nature of the bid suggests IFM sees material undervaluation in Atlas Arteria's long-duration concession cash flows, particularly its flagship APRR motorway network in France, which could attract competing offers from other infrastructure funds.",
+        "Atlas Arteria's board will need to assess the offer against standalone value including distribution growth potential; investors should watch for an independent expert's report, potential bid price revisions, and whether rival bidders such as Macquarie or global pension funds emerge to create a competitive auction."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "PAR",
       "company": "PARADIGM BIOPHARMACEUTICALS LIMITED..",
