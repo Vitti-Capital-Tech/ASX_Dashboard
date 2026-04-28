@@ -1,9 +1,294 @@
 {
   "date": "2026-04-28",
-  "total": 199,
-  "market_sensitive_count": 195,
-  "generated_at": "2026-04-28T00:06:58.160597+00:00",
+  "total": 214,
+  "market_sensitive_count": 208,
+  "generated_at": "2026-04-28T00:38:21.002593+00:00",
   "announcements": [
+    {
+      "ticker": "FRA",
+      "company": "FRANKLIN AUS ABSOLUTE RETURN BND FUND - ACTIVE ETF",
+      "headline": "Distribution Details 30 April 2026",
+      "time": "2026-04-28T00:31:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083124-2A1668487",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Franklin Australian Absolute Return Bond Fund (Active ETF) has announced distribution details for the period ending 30 April 2026, signaling continued income generation for unitholders in the fixed income strategy.",
+        "The market-sensitive designation suggests the distribution amount may represent a material yield event, important for institutional investors benchmarking income returns against competing fixed income ETFs on the ASX.",
+        "Regular distribution announcements reinforce fund management discipline and cash flow visibility, supporting investor confidence in the fund's ability to deliver consistent income in a potentially volatile rate environment through 2026."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FDR",
+      "company": "FINDER ENERGY HOLDINGS LIMITED",
+      "headline": "Resources Mobilised on First Oil Acceleration Strategy",
+      "time": "2026-04-28T00:22:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083121-6A1322351",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Finder Energy has mobilised resources to accelerate its first oil strategy, signaling a transition from exploration to near-term production that could materially de-risk the company's valuation and shorten the timeline to revenue generation.",
+        "The market-sensitive designation indicates this is a substantive operational milestone rather than routine update, suggesting tangible commitments of capital and contractor resources that demonstrate management confidence in the asset's commercial viability.",
+        "Accelerated first oil timelines are critical for junior E&P companies as they compress the cash-burn period before self-funding production; investors should monitor upcoming updates on drilling schedules, capex estimates, and any associated funding requirements that may involve dilutive capital raises."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JNO",
+      "company": "JUNO MINERALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-28T00:20:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083119-6A1322359",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Juno Minerals released its quarterly activities and Appendix 5B cash flow report, providing investors with an update on exploration progress and operational expenditure across its mineral project portfolio.",
+        "Cash flow details in the Appendix 5B will be critical to assess burn rate and remaining cash runway — junior explorers with tightening cash positions face potential near-term dilution risk through capital raises.",
+        "Investors should scrutinize net operating and investing cash outflows relative to closing cash balance to determine whether a capital raise may be required within the next 1-2 quarters to sustain exploration activity."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GG8",
+      "company": "GORILLA GOLD MINES LTD",
+      "headline": "New Discoveries at Comet Vale",
+      "time": "2026-04-28T00:19:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083118-6A1322361",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "New discoveries at Comet Vale signal potential resource expansion for Gorilla Gold Mines, a market-sensitive update that could materially alter the company's resource base and project economics",
+        "Discovery-stage announcements at Comet Vale suggest successful exploration programs are yielding results, potentially de-risking the asset and supporting future mine planning or resource upgrades",
+        "Investors should watch for follow-up drill results, resource estimate updates, and any revised feasibility assessments that could further define the scale and grade of the new discoveries and their impact on production timelines"
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BOE",
+      "company": "BOSS ENERGY LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-28T00:17:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083117-6A1322360",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Boss Energy Ltd, triggering a mandatory disclosure under ASX substantial holding rules, signaling active institutional portfolio rebalancing in the uranium sector.",
+        "The change in substantial holding likely reflects a marginal shift in ownership percentage around the 5% threshold — without specific details on direction, the filing itself is procedural but warrants monitoring for accumulation or distribution patterns.",
+        "Investors should track whether this forms part of a broader trend of institutional positioning in BOE ahead of key catalysts including Honeymoon uranium project production ramp-up and evolving uranium spot price dynamics."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BKY",
+      "company": "BERKELEY ENERGIA LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-28T00:16:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083116-6A1322358",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Berkeley Energia, indicating a significant sell-down below the 5% threshold, which may signal reduced institutional conviction in the uranium developer's near-term prospects.",
+        "The departure of a substantial holder could increase free float and potentially weigh on share price in the short term due to the volume of shares likely sold to trigger the cessation notice.",
+        "Investors should monitor whether this is an isolated portfolio rebalancing event or part of a broader trend of institutional exits, particularly given Berkeley's ongoing regulatory challenges with its Salamanca uranium project in Spain."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SRN",
+      "company": "SUREFIRE RESOURCES NL",
+      "headline": "Trading Halt",
+      "time": "2026-04-28T00:16:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083115-6A1322357",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Surefire Resources NL has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant exploration update for this junior mining company.",
+        "As a small-cap ASX-listed explorer, any trading halt raises immediate questions about cash runway adequacy and whether the pending announcement involves equity dilution or a transformative corporate action.",
+        "Investors should await the detailed announcement expected within two business days; the nature of the disclosure will be critical in determining whether this represents a value-accretive catalyst or dilutive funding event."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADC",
+      "company": "ACDC METALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-04-28T00:10:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083113-3A692082",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "ACDC Metals Ltd has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update that requires price-sensitive disclosure.",
+        "As a small-cap ASX-listed metals company, any trading halt raises immediate questions about cash runway adequacy — a capital raise scenario would likely be dilutive to existing shareholders given the company's micro-cap status.",
+        "Investors should monitor for the resumption announcement closely; the halt will remain in effect until the company makes its disclosure or up to two trading days, with the nature of the announcement determining near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BAS",
+      "company": "BASS OIL LIMITED",
+      "headline": "Quarterly Activities Report and Appendix 5B - March 2026",
+      "time": "2026-04-28T00:08:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083111-3A692081",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Bass Oil's March 2026 quarterly report will reveal critical cash flow and production metrics from its Indonesian oil assets, with investors closely watching for any improvement in net operating cash flows given the company's micro-cap status and historical cash burn concerns.",
+        "The Appendix 5B filing will provide updated cash runway visibility — a key metric for a junior oil producer where funding adequacy and potential capital raise requirements are perennial investor concerns.",
+        "Market-sensitive designation suggests material operational or financial developments in the quarter; investors should focus on production rates from the Tangai-Sukananti KSO, any reserve/resource updates, and whether the company can sustain operations without near-term dilutive funding."
+      ],
+      "tags": [
+        "Quarterly",
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMD",
+      "company": "ARROW MINERALS LTD",
+      "headline": "Arrow enters into MOU with Soguipami",
+      "time": "2026-04-28T00:05:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083100-6A1322263",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Arrow Minerals has signed a Memorandum of Understanding with Soguipami (Guinea's state-owned mining company), signaling formal government-level endorsement and a pathway to advance its exploration and development assets in Guinea.",
+        "The MOU with a sovereign mining entity de-risks Arrow's in-country operations by establishing a cooperative framework, which is critical for junior explorers operating in West African jurisdictions where government relationships directly impact permitting and project continuity.",
+        "While an MOU is non-binding and pre-revenue, this development positions Arrow to progress toward definitive agreements and potentially attract JV partners or strategic investors seeking exposure to Guinea's mineral endowment, a key catalyst to watch in coming quarters."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMD",
+      "company": "ARROW MINERALS LTD",
+      "headline": "Successful $2.25M Capital Raising to Advance Yarraloola",
+      "time": "2026-04-28T00:05:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083099-6A1322261",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Arrow Minerals raised $2.25M to advance its Yarraloola iron ore project in Western Australia, providing near-term funding to progress exploration and development activities at a critical stage.",
+        "The capital raise, while modest in absolute terms, introduces dilution for existing shareholders in a micro-cap explorer — investors should assess the placement price relative to recent trading levels and the implied valuation impact.",
+        "Proceeds earmarked specifically for Yarraloola advancement signal management's confidence in the project's prospectivity, with upcoming drill results and resource definition work likely to serve as key catalysts."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMD",
+      "company": "ARROW MINERALS LTD",
+      "headline": "Arrow to acquire Yarraloola Copper Project in WA Pilbara",
+      "time": "2026-04-28T00:05:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083097-6A1322256",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Arrow Minerals is acquiring the Yarraloola Copper Project in Western Australia's Pilbara region, signaling a strategic pivot toward copper exposure in a tier-1 mining jurisdiction amid strong global copper demand fundamentals.",
+        "The acquisition diversifies Arrow's asset portfolio into copper — a critical energy transition metal — potentially re-rating the company if the project demonstrates meaningful resource potential, though acquisition terms and project maturity will be key to assessing value accretion.",
+        "Investors should watch for details on acquisition consideration (cash vs scrip and potential dilution), existing resource estimates or exploration targets at Yarraloola, and Arrow's cash position to fund near-term exploration programs without requiring immediate capital raises."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NVA",
+      "company": "NOVA MINERALS LIMITED",
+      "headline": "Dispatch of Scheme Booklet and Notice of Scheme Meeting",
+      "time": "2026-04-28T00:04:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083096-3A692079",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nova Minerals has dispatched the Scheme Booklet to shareholders, advancing the formal process for a proposed scheme of arrangement — a key milestone indicating the M&A transaction is progressing toward completion.",
+        "A Scheme Meeting has been scheduled, requiring shareholder approval; the dispatch of the booklet signals that all regulatory and board prerequisites (including independent expert assessment) have been satisfied to proceed to vote.",
+        "Institutional investors should monitor the scheme vote outcome and any competing proposals; successful approval would trigger the final court hearing and implementation, with the timeline now firmly set for near-term resolution."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IDT",
+      "company": "IDT AUSTRALIA LIMITED",
+      "headline": "March Quarter Update & Positive FY26 Guidance",
+      "time": "2026-04-28T00:03:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083094-3A692080",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "IDT Australia issues positive FY26 guidance alongside its March quarter update, signaling management confidence in revenue trajectory and operational momentum heading into the new financial year.",
+        "The combination of a quarterly operational update with forward-looking guidance suggests improving order book visibility and potentially strengthening contract manufacturing (CDMO) pipeline, critical for IDT's pharmaceutical services business model.",
+        "Institutional investors should focus on the specifics of FY26 revenue and margin guidance relative to FY25 run-rate, as positive forward guidance from a small-cap CDMO typically reflects secured contracts and capacity utilization improvements that de-risk near-term earnings."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PPY",
+      "company": "PAPYRUS AUSTRALIA LIMITED",
+      "headline": "TBS Milestone Update Execution of Board Production Contract",
+      "time": "2026-04-28T00:02:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083092-2A1668482",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Papyrus Australia has executed a Board Production Contract for its TBS (Tree-free Bio-packaging System), marking a critical commercialisation milestone that transitions the company from development stage toward revenue-generating production.",
+        "The execution of a formal production contract provides tangible validation of the TBS technology's commercial viability, potentially de-risking the investment case for a micro-cap that has historically been pre-revenue with limited cash runway.",
+        "Investors should monitor for details on contract value, production volumes, timeline to first deliveries, and whether this serves as a reference contract to unlock further orders — the pathway from single contract to scalable revenue pipeline remains the key value inflection point."
+      ],
+      "tags": [
+        "Production",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "USC",
       "company": "US1 CRITICAL MINERALS LIMITED",
