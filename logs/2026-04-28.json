@@ -1,9 +1,638 @@
 {
   "date": "2026-04-28",
-  "total": 166,
-  "market_sensitive_count": 162,
-  "generated_at": "2026-04-27T23:44:02.233768+00:00",
+  "total": 199,
+  "market_sensitive_count": 195,
+  "generated_at": "2026-04-28T00:06:58.160597+00:00",
   "announcements": [
+    {
+      "ticker": "USC",
+      "company": "US1 CRITICAL MINERALS LIMITED",
+      "headline": "Completes $1 million placement led by Snow Lake Energy",
+      "time": "2026-04-28T00:01:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083089-6A1322345",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "US1 Critical Minerals completed a $1 million placement led by strategic investor Snow Lake Energy, signaling external validation of the company's critical minerals portfolio but representing a modest raise that suggests near-term funding needs rather than transformational capital.",
+        "The relatively small $1M raise implies limited dilution but also a tight cash position — investors should monitor burn rate and whether this provides sufficient runway to reach key project milestones or if further capital raises are imminent.",
+        "Snow Lake Energy's lead role as a strategic participant in the placement could foreshadow deeper collaboration or offtake arrangements in the critical minerals/energy transition space, potentially adding strategic value beyond the capital itself."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADC",
+      "company": "ACDC METALS LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-04-28T00:01:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083088-3A692078",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ACDC Metals Ltd has entered a trading pause, typically preceding a material announcement such as a capital raise, acquisition, or significant operational update that requires orderly dissemination to the market.",
+        "As a small-cap explorer, any trading pause raises immediate questions around cash runway adequacy — a potential capital raise would be dilutive to existing shareholders while an asset transaction could be transformative for the company's valuation.",
+        "Investors should await the forthcoming announcement before repositioning; the pause signals imminent news flow that will likely reset the market's assessment of the company's near-term prospects."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FIN",
+      "company": "FIN RESOURCES LIMITED",
+      "headline": "26.2M AT 12 G/T AU CONFIRMS BROAD HIGH-GRADE GOLD SYSTEM",
+      "time": "2026-04-27T23:59:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083087-6A1322354",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FIN Resources reports a standout intercept of 26.2m at 12 g/t Au, confirming the presence of a broad, high-grade gold system — a technically significant result that materially de-risks the exploration thesis and could attract market re-rating.",
+        "At 12 g/t Au over 26.2m, the grade-width product (~314 gram-metres) is exceptional for an ASX junior explorer, positioning the project among high-quality gold discoveries and likely to draw institutional attention and peer comparisons.",
+        "The confirmation of a broad high-grade system sets the stage for accelerated follow-up drilling, potential resource definition, and possible corporate interest — investors should watch for upcoming drill program details and any capital raise to fund next-phase exploration."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OCN",
+      "company": "OCEANA METALS LIMITED",
+      "headline": "Serra Negra Project Acquisition Presentation",
+      "time": "2026-04-27T23:59:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083086-6A1322353",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Oceana Metals is acquiring the Serra Negra project, a potentially transformative M&A move for a junior explorer that signals a strategic pivot or expansion into a new mineral asset, likely in Brazil given the project name.",
+        "As a market-sensitive acquisition presentation, the deal likely involves significant consideration (cash, scrip, or both) which investors need to assess against Oceana's current market cap and cash reserves to evaluate dilution risk and value accretion.",
+        "Key next steps include evaluating the resource base, permitting status, and development timeline of Serra Negra, as well as any capital raise required to fund the acquisition and advance the project — execution risk remains elevated for a junior company taking on a new asset."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SRN",
+      "company": "SUREFIRE RESOURCES NL",
+      "headline": "Pause in Trading",
+      "time": "2026-04-27T23:59:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083085-6A1322352",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Surefire Resources NL has entered a trading pause, typically preceding a material announcement such as a capital raise, asset transaction, or significant operational update that requires orderly market disclosure.",
+        "As a junior mining explorer, any trading halt raises questions about cash runway adequacy — a potential capital raise would be dilutive to existing shareholders, while an asset deal could be transformative for the company's valuation.",
+        "Investors should await the pending announcement before repositioning; the nature of the disclosure (funding, JV, acquisition, or compliance matter) will determine whether this is a catalyst or a risk event for the stock."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TNY",
+      "company": "TINYBEANS GROUP LTD",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-04-27T23:57:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083083-2A1668479",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Tinybeans' quarterly activities report will detail key operating metrics including user growth, revenue trajectory, and monetisation progress — critical for assessing whether the family-focused digital platform is gaining traction toward profitability.",
+        "Cash position and burn rate are the primary focus for this micro-cap; investors will scrutinise net operating cash outflows and remaining cash runway to evaluate near-term capital raise risk or potential need for additional funding.",
+        "Market-sensitive designation suggests material new information on financial performance or strategic direction — any deviation from prior guidance on revenue growth or cost reduction targets could drive meaningful re-rating in either direction for this thinly traded stock."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACR",
+      "company": "ACRUX LIMITED",
+      "headline": "Acrux strategy focuses on Female Testosterone for low libido",
+      "time": "2026-04-27T23:56:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083082-3A692076",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Acrux is pivoting its strategic focus to female testosterone therapy for hypoactive sexual desire disorder (low libido), targeting a large underserved market with no FDA-approved testosterone product for women globally — a significant first-mover opportunity if regulatory pathways are navigated successfully.",
+        "The strategic refocus leverages Acrux's existing transdermal drug delivery expertise and IP portfolio, potentially reducing development costs and timelines compared to a de novo program, though investors should monitor cash runway given the company's micro-cap status and pre-revenue pipeline dependency.",
+        "Near-term catalysts will center on clinical development milestones, regulatory engagement (likely FDA), and potential partnering discussions; successful advancement could materially re-rate the stock given the multi-billion dollar addressable market for female sexual health therapeutics."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RR1",
+      "company": "REACH RESOURCES LIMITED",
+      "headline": "Rights Issue & Shortfall",
+      "time": "2026-04-27T23:55:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083080-6A1322350",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reach Resources is conducting a rights issue with an associated shortfall placement, indicating the company needs to raise capital to fund operations or project development, likely diluting existing shareholders.",
+        "The shortfall component suggests the company anticipates not all eligible shareholders will take up their entitlements, with unsubscribed shares to be placed to new or existing investors — a common signal of limited retail investor appetite in micro-cap explorers.",
+        "Investors should monitor the offer price discount to market, total raise size, and intended use of proceeds to assess whether the capital injection extends cash runway sufficiently or merely delays further dilutive raises."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LKE",
+      "company": "LAKE RESOURCES N.L.",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-27T23:55:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083079-2A1668477",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Lake Resources' quarterly report provides critical visibility into cash burn rates and remaining runway as the company advances its Kachi lithium brine project in Argentina through development stages without material revenue generation.",
+        "Cash flow details in the Appendix 5B will reveal the pace of exploration/development expenditure and whether the company's cash position is sufficient to fund near-term milestones or if further capital raising is likely required amid a challenging lithium price environment.",
+        "Investors should scrutinize operational progress at Kachi, any updates on the direct lithium extraction (DLE) technology partnership, and management's forward guidance on funding strategy given persistent sector headwinds and Lake's pre-revenue status."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HCL",
+      "company": "HIGHCOM LIMITED",
+      "headline": "A$9.81m Counter Small Uncrewed Aerial System Defence Order",
+      "time": "2026-04-27T23:55:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083078-3A692075",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Highcom secured a A$9.81m defence order for Counter Small Uncrewed Aerial System (C-sUAS) capabilities, representing a material contract win for a micro-cap company and validating its positioning in the rapidly growing counter-drone defence segment.",
+        "At A$9.81m, this single order likely represents a significant portion of Highcom's annual revenue base, providing meaningful near-term revenue visibility and cash flow certainty — a transformative contract for a company of this scale.",
+        "The C-sUAS market is experiencing surging global demand driven by drone proliferation in modern warfare (Ukraine, Middle East); this order positions Highcom as a credible supplier in a high-growth defence niche, potentially opening the door to follow-on orders from Australian and allied defence forces."
+      ],
+      "tags": [
+        "Technology",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CQT",
+      "company": "CONNEQT HEALTH LIMITED",
+      "headline": "March Quarterly Activities Report",
+      "time": "2026-04-27T23:55:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083077-2A1668475",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Conneqt Health's March quarterly report will detail operational progress and cash position, providing critical visibility into the company's burn rate and runway as a healthcare-focused entity on the ASX.",
+        "Investors will scrutinize quarterly cash receipts, operating expenditure, and net cash position to assess whether the company is tracking toward sustainable revenue growth or faces near-term funding pressure requiring additional capital raises.",
+        "As a market-sensitive quarterly update, any material deviation from prior guidance on customer acquisition, platform deployment milestones, or cash reserves could drive meaningful re-rating of the stock in either direction."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AT1",
+      "company": "ATOMO DIAGNOSTICS LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-04-27T23:53:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083075-2A1668478",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Atomo Diagnostics lodged its quarterly Appendix 4C cash flow report, providing updated visibility on operating cash burn and liquidity position critical for this pre-profit diagnostics company.",
+        "Investors should scrutinize net operating cash outflows relative to prior quarters and remaining cash reserves to assess whether the current runway supports operations without near-term dilutive capital raising.",
+        "As a rapid diagnostics developer, key forward indicators include commercial revenue traction from HIV and COVID-19 test platforms, regulatory milestones, and any guidance on path to cash flow breakeven."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KLI",
+      "company": "KILLI RESOURCES LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-04-27T23:53:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083074-6A1322346",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Killi Resources has been suspended from quotation on the ASX, indicating a regulatory or compliance-driven halt that removes trading liquidity for shareholders until further notice.",
+        "Suspension (as distinct from a voluntary trading halt) often signals more serious issues such as failure to meet listing rule requirements, outstanding disclosure obligations, or potential compliance breaches that may materially impact the company's listing status.",
+        "Investors should monitor for a subsequent ASX announcement detailing the conditions required for reinstatement; prolonged suspension raises risk of delisting and could impair the company's ability to raise capital or maintain market confidence."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "OCN",
+      "company": "OCEANA METALS LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-04-27T23:53:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083073-6A1322335",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Oceana Metals has been reinstated to quotation on the ASX, ending a period of trading suspension that likely related to compliance or corporate action requirements.",
+        "Reinstatement signals the company has satisfied ASX conditions for resumption of trading, removing a key liquidity overhang for existing shareholders who were previously unable to trade.",
+        "Investors should monitor the accompanying announcements made during the suspension period for material updates on the company's financial position, project status, or any capital raising activity that may have triggered the halt."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUE",
+      "company": "AURUM RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-27T23:52:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083072-6A1322348",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Aurum Resources released its quarterly activities and Appendix 5B cash flow report, providing investors with an update on exploration progress and operational expenditure across its mineral exploration portfolio.",
+        "Cash flow details in the Appendix 5B will be critical to assess burn rate and remaining cash runway — junior explorers with tightening cash positions face near-term dilution risk through capital raises.",
+        "Investors should monitor the company's forward exploration program commitments and whether current cash reserves are sufficient to fund planned activities without requiring near-term equity issuance."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OCN",
+      "company": "OCEANA METALS LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-04-27T23:52:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083071-6A1322329",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Oceana Metals issued a formal response to an ASX price query, typically triggered by unusual share price movement or trading volume, indicating the exchange is scrutinizing recent trading activity for potential undisclosed material information.",
+        "The company's response to the price query suggests either confirmation that it is not aware of any undisclosed information explaining the price movement, or potential disclosure of previously unreleased material developments — either scenario demands close monitoring by institutional holders.",
+        "As a micro-cap explorer, any unexplained price volatility combined with regulatory scrutiny raises governance and liquidity risk flags; investors should watch for follow-up announcements or potential trading halts that could signal pending material news or compliance concerns."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CQT",
+      "company": "CONNEQT HEALTH LIMITED",
+      "headline": "March Quarterly Appendix 4C",
+      "time": "2026-04-27T23:52:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083070-2A1668473",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Conneqt Health's March quarterly Appendix 4C filing provides critical visibility into cash burn rate and operational spending trends for the health technology company, a key metric for institutional investors assessing pre-profit stage companies.",
+        "As a market-sensitive quarterly cash flow report, investors will scrutinize net operating cash outflows relative to prior quarters to determine whether the company is progressing toward cash flow breakeven or accelerating its burn rate amid growth initiatives.",
+        "Cash runway analysis will be paramount — the closing cash balance relative to quarterly net cash usage will signal whether a near-term capital raise is likely, with any sub-4-quarter runway potentially triggering dilution concerns and placing pressure on the share price."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HOR",
+      "company": "HORSESHOE METALS LIMITED",
+      "headline": "Precious Metal Credits Add Significant Value to Copper DSO",
+      "time": "2026-04-27T23:52:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083069-6A1322344",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Precious metal (gold/silver) credits are materially enhancing the economics of Horseshoe Metals' copper direct shipping ore (DSO), effectively reducing net copper production costs and improving project margins",
+        "The by-product credit strategy signals that assay results show meaningful precious metal grades alongside copper mineralisation, potentially transforming the project's revenue profile beyond a pure copper play",
+        "Improved DSO economics could accelerate the pathway to near-term cash flow generation for this micro-cap explorer, though investors should assess whether grades and tonnages are sufficient to support sustained commercial operations"
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OCN",
+      "company": "OCEANA METALS LIMITED",
+      "headline": "Oceana acquires global-scale rare earths project in Brazil",
+      "time": "2026-04-27T23:50:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083065-6A1322268",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Oceana Metals has acquired a global-scale rare earths project in Brazil, representing a transformative pivot into the critical minerals space that aligns with surging demand for rare earth elements driven by energy transition and defence applications.",
+        "The acquisition of a Brazilian rare earths asset positions Oceana in a jurisdiction with established mining infrastructure and growing geopolitical importance as Western nations seek to diversify rare earth supply chains away from Chinese dominance.",
+        "Key next steps will include defining the resource base, securing necessary environmental permits in Brazil, and outlining exploration/development timelines — investors should watch for details on acquisition terms, dilution risk from potential capital raises to fund development, and technical validation of the project's scale claims."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AXI",
+      "company": "AXTEC LIMITED",
+      "headline": "Axtec Enters Strategic Partnership",
+      "time": "2026-04-27T23:50:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083064-2A1668474",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Axtec Limited has announced a strategic partnership, signaling a potential expansion of its market reach or capabilities — the market-sensitive designation suggests material terms that could meaningfully alter the company's growth trajectory.",
+        "Strategic partnerships for micro/small-cap ASX companies like Axtec can serve as de-risking catalysts by providing access to new revenue channels, shared infrastructure, or co-development opportunities, potentially reducing cash burn and extending runway without dilutive capital raises.",
+        "Investors should watch for follow-up disclosures detailing the financial terms, exclusivity provisions, and revenue-sharing mechanics of the partnership, as well as any near-term milestones or KPIs that would validate execution and drive re-rating potential."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SHN",
+      "company": "SUNSHINE METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-27T23:50:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083063-6A1322343",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Sunshine Metals Limited has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant operational update that requires price-sensitive disclosure.",
+        "As a junior mining company, trading halts frequently precede equity raisings which can be dilutive to existing shareholders, though they may also signal transformative asset deals or exploration results.",
+        "Investors should await the detailed announcement expected within two business days to assess the nature and materiality of the news before repositioning; the halt prevents uninformed trading in the interim."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUQ",
+      "company": "ALARA RESOURCES LIMITED",
+      "headline": "40th Copper Concentrate Shipment  Dispatched from Sohar Port",
+      "time": "2026-04-27T23:49:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083062-6A1322342",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alara Resources has dispatched its 40th copper concentrate shipment from Sohar Port, demonstrating sustained operational continuity at its Al Wash-hi Majaza copper-gold mine in Oman and consistent production cadence.",
+        "The milestone shipment signals reliable revenue generation from concentrate sales, which is critical for a junior miner's cash flow sustainability and reducing reliance on external capital raises.",
+        "Continued ramp-up in shipment frequency will be a key metric to watch — investors should monitor grade consistency, realised copper prices, and whether shipment cadence supports positive free cash flow in upcoming quarterly reports."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IR1",
+      "company": "IRIS METALS LIMITED",
+      "headline": "IR1 Updates Beecher MRE with Lithium inc High Grade Rubidium",
+      "time": "2026-04-27T23:49:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083061-3A692072",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "IRIS Metals has updated the Beecher Mineral Resource Estimate to include lithium alongside high-grade rubidium, potentially transforming the project's economic profile by adding a second critical mineral revenue stream.",
+        "The inclusion of rubidium — a rare and high-value critical mineral — alongside lithium positions Beecher as a multi-commodity asset, which could attract strategic interest from battery materials and specialty metals offtakers or JV partners.",
+        "Updated MRE serves as a de-risking catalyst ahead of further feasibility work; investors should watch for scoping study economics, metallurgical test results on lithium-rubidium co-extraction, and any near-term capital raise to fund advancement."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ELS",
+      "company": "ELSIGHT LIMITED",
+      "headline": "Elsight's Platform Granted US Blue List Status",
+      "time": "2026-04-27T23:49:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083060-3A692068",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Elsight's Halo platform has been granted US Blue List status, enabling streamlined procurement by US Department of Defense and federal agencies — a critical credentialing milestone that removes significant barriers to government contract wins.",
+        "Blue List inclusion signals that the platform has passed rigorous US government vetting for reliability and security, positioning Elsight to access the large and recurring US defense/government drone and autonomous systems communications market.",
+        "This approval is a major commercial catalyst for a micro-cap company; investors should watch for follow-through in the form of US government purchase orders and potential revenue inflection, though near-term cash runway and order conversion timelines remain key risks to monitor."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FTI",
+      "company": "FORTIFAI LTD",
+      "headline": "FortifAI Raises $15 Million in Strategic Placement",
+      "time": "2026-04-27T23:48:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083054-2A1668455",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "FortifAI Ltd has raised $15 million via strategic placement, providing significant capital injection to fund growth initiatives and extend cash runway for the AI-focused company.",
+        "The 'strategic' nature of the placement suggests participation from sophisticated or institutional investors, potentially signaling external validation of the company's technology and business model at current valuations.",
+        "Proceeds are expected to accelerate product development and market expansion; investors should monitor dilution impact on existing shareholders and watch for near-term deployment milestones to justify the capital raise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ADX",
+      "company": "ADX ENERGY LTD",
+      "headline": "ADX HOCH-1 Well Operations Update",
+      "time": "2026-04-27T23:47:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083052-6A1322339",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ADX Energy provides an operational update on the HOCH-1 well in Austria's Upper Austrian Molasse Basin, signaling active progress on its European onshore oil and gas exploration/appraisal program which is central to the company's near-term value catalyst.",
+        "Well operations updates for small-cap E&P companies like ADX are critical as successful drilling results can materially re-rate the stock given the company's modest market capitalization, while operational setbacks could pressure an already tight cash position.",
+        "Investors should watch for subsequent flow-test results and resource confirmation from HOCH-1, as positive outcomes would de-risk ADX's broader Austrian portfolio and potentially unlock farm-in or financing opportunities to extend cash runway."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FAU",
+      "company": "FIRST AU LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-27T23:45:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083050-6A1322340",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "First Au Limited released its quarterly activities and Appendix 5B cash flow report, providing an update on exploration progress and financial position for the period — critical for assessing burn rate at this pre-revenue stage.",
+        "As a junior explorer, the Appendix 5B will reveal net operating and investing cash outflows, with the cash runway calculation being the key metric for investors assessing potential near-term dilution risk via capital raises.",
+        "Market-sensitive designation suggests material updates on exploration activities or a notable shift in cash position; investors should scrutinize remaining cash reserves relative to committed expenditure to gauge funding needs over the next 1-2 quarters."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAZ",
+      "company": "CAZALY RESOURCES LIMITED",
+      "headline": "High-grade gold results confirm mineralisation",
+      "time": "2026-04-27T23:44:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083049-6A1322337",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-grade gold assay results confirm mineralisation at Cazaly Resources' project, providing critical de-risking of the resource and potentially enhancing the economic viability of future development scenarios.",
+        "Confirmation of high-grade gold zones is technically significant for a junior explorer, as it strengthens the geological model and could materially upgrade resource estimates in subsequent drilling campaigns, attracting further market attention.",
+        "Next steps likely include follow-up drilling to extend known mineralised zones and progress toward a resource estimate update, which could serve as a catalyst for re-rating or partnership/funding discussions given Cazaly's junior explorer capital constraints."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OMX",
+      "company": "ORANGE MINERALS NL",
+      "headline": "Trading Halt",
+      "time": "2026-04-27T23:43:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083048-6A1322336",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Orange Minerals NL has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant exploration results.",
+        "As a junior mining explorer, trading halts frequently precede equity raisings which may be dilutive to existing shareholders, though could also signal a transformative asset deal or high-grade drill results.",
+        "Investors should await the detailed announcement expected within two business days to assess the nature and materiality of the news before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BP8",
+      "company": "BPH GLOBAL LTD",
+      "headline": "Trading Results Rebound as Seasonal Conditions Improve",
+      "time": "2026-04-27T23:42:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083046-2A1668470",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "BPH Global reports a trading results rebound driven by improving seasonal conditions, signaling a potential inflection point in operational performance that may restore investor confidence in the micro-cap name.",
+        "The 'rebound' language suggests a recovery from prior weak periods — investors should scrutinize the magnitude of improvement relative to prior corresponding period and whether the uptick translates to meaningful revenue or remains marginal given BPH's historically thin financial base.",
+        "Seasonal tailwinds improving trading results may provide near-term momentum, but sustainability beyond the current cycle remains the key question — watch for follow-through in upcoming quarterly cashflow reports to assess whether improved conditions materially extend cash runway."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RZI",
+      "company": "RAIZ INVEST LIMITED",
+      "headline": "Q3 FY26 Quarterly Business Update",
+      "time": "2026-04-27T23:41:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083045-2A1668469",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Raiz Invest's Q3 FY26 quarterly update is market-sensitive, signaling material new information on business performance metrics including funds under management (FUM), active customer growth, and revenue trajectory that institutional investors will scrutinize for inflection signals.",
+        "As a fintech/micro-investing platform, key metrics to watch include FUM growth rate (driven by both net inflows and market appreciation), customer acquisition costs, and progress toward sustained profitability — any beat on prior quarter run-rates would be a positive catalyst for the stock.",
+        "The quarterly cadence allows investors to assess cash burn trajectory and runway; with Raiz historically operating near breakeven, any demonstration of operating leverage or improved unit economics in the Southeast Asian expansion would support a re-rating thesis."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CML",
+      "company": "CONNECTED MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-27T23:40:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083043-6A1322331",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Connected Minerals Limited has entered a trading halt, suspending shares from trading pending a material announcement — the nature of the pending announcement is not yet disclosed but warrants market-sensitive classification.",
+        "For a micro-cap mining explorer like Connected Minerals, trading halts frequently precede capital raises (placement/rights issue) or material transaction announcements such as acquisitions or asset deals, both of which carry dilution or re-rating risk.",
+        "Investors should await the forthcoming announcement before repositioning; the halt typically lasts up to two trading days, and the nature of the news will determine whether the stock faces dilutive pressure or a potential re-rating catalyst."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OSM",
+      "company": "OSMOND RESOURCES LIMITED",
+      "headline": "High-Grade Assay Results Continue at Orion Project",
+      "time": "2026-04-27T23:40:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083042-6A1322330",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Osmond Resources reports continued high-grade assay results at its Orion Project, reinforcing the prospectivity of the asset and potentially de-risking future resource definition drilling campaigns.",
+        "Consistent high-grade intercepts across multiple holes strengthen the geological model and could materially upgrade resource estimates, a key catalyst for junior explorers seeking to attract institutional capital or strategic partners.",
+        "Investors should watch for an updated mineral resource estimate or scoping study as next catalysts; continued high-grade results improve the project's economic viability and could accelerate development timelines or trigger corporate interest."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ATX",
       "company": "AMPLIA THERAPEUTICS LIMITED",
