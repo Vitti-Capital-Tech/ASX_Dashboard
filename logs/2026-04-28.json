@@ -1,9 +1,122 @@
 {
   "date": "2026-04-28",
-  "total": 214,
-  "market_sensitive_count": 208,
-  "generated_at": "2026-04-28T00:38:21.002593+00:00",
+  "total": 220,
+  "market_sensitive_count": 214,
+  "generated_at": "2026-04-28T01:37:42.556290+00:00",
   "announcements": [
+    {
+      "ticker": "AAM",
+      "company": "AUMEGA METALS LTD",
+      "headline": "AuMEGA Metals Provides Exploration Update",
+      "time": "2026-04-28T01:23:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083146-6A1322368",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AuMEGA Metals has released a market-sensitive exploration update, signaling potentially material progress at one or more of its project areas that the company considers significant enough to warrant immediate disclosure.",
+        "As a junior explorer, exploration updates are the primary value catalyst — positive drill results or new target identification could materially re-rate the stock, while the market-sensitive tag suggests results exceed routine reporting thresholds.",
+        "Investors should assess the specifics of assay results, geological interpretations, and planned follow-up programs to determine whether the update de-risks the resource base or opens new exploration upside that could attract further funding or partnership interest."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JEP",
+      "company": "JPMORGAN EQUITY PREMIUM INCOME (HEDGED) ACTIVE ETF",
+      "headline": "Distribution Notice",
+      "time": "2026-04-28T01:07:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083139-2A1668495",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "JPMorgan Equity Premium Income (Hedged) Active ETF has announced a distribution, signaling continued income generation from its covered call overlay strategy — a key attraction for yield-focused institutional and retail investors.",
+        "The distribution notice, flagged as market sensitive, suggests the payout quantum or timing may carry material information for holders, potentially reflecting strong option premium harvesting in recent volatile equity markets.",
+        "Consistent distribution payments reinforce the ETF's value proposition as a defensive income vehicle; investors should monitor the distribution yield relative to peers and assess whether capital erosion accompanies the income stream."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JAV",
+      "company": "JAVELIN MINERALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-28T00:59:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083133-6A1322365",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Javelin Minerals lodged its quarterly activities and Appendix 5B cash flow report, providing investors with an update on exploration progress and operational expenditure at its gold-focused projects in Western Australia.",
+        "As a pre-revenue explorer, the cash flow report will be scrutinised for net operating and investing outflows, with the cash runway and remaining balance critical to assessing near-term funding risk and potential dilutive capital raise requirements.",
+        "Market-sensitive designation suggests material updates within the quarterly — investors should assess whether drilling results, tenement developments, or a materially changed cash position signal a shift in the company's trajectory or timeline to next catalyst."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AQX",
+      "company": "ALICE QUEEN LIMITED",
+      "headline": "HORN ISLAND EXPLORATION TARGET",
+      "time": "2026-04-28T00:50:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083128-6A1322363",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alice Queen has defined an Exploration Target at Horn Island, signaling potential resource upside that could materially re-rate the company's gold project valuation if confirmed through further drilling.",
+        "Exploration Targets are early-stage estimates (not JORC Resources) but their disclosure as market-sensitive suggests the tonnage and grade ranges are significant enough to attract investor attention and potentially support future capital raising efforts.",
+        "Next steps will likely involve a targeted drilling program to convert the Exploration Target toward a JORC-compliant Mineral Resource, with funding requirements and timeline being key catalysts to monitor for near-term share price direction."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NME",
+      "company": "NEX METALS EXPLORATION LIMITED",
+      "headline": "NME March Qtr Activities-Cashflow",
+      "time": "2026-04-28T00:42:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083127-6A1322362",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NEX Metals Exploration released its March quarter activities and cashflow report, a routine disclosure for ASX-listed explorers that provides transparency on exploration spend, corporate costs, and remaining cash position.",
+        "As a junior explorer, the key metric to watch is the cash runway — investors should assess whether current cash reserves support planned exploration programs or signal an upcoming capital raise requirement within the next 1-2 quarters.",
+        "The market-sensitive tag suggests material information within the report, potentially relating to significant changes in cash burn rate, exploration expenditure ramp-up, or updated guidance on the company's Kalgoorlie gold projects."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TNY",
+      "company": "TINYBEANS GROUP LTD",
+      "headline": "Appendix 4C Cash Flow Report",
+      "time": "2026-04-28T00:40:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083126-2A1668489",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tinybeans lodged its quarterly Appendix 4C cash flow report, a mandatory disclosure for ASX-listed entities spending more cash than they generate — signaling the company remains in a cash-burn phase requiring close monitoring of runway.",
+        "Investors should scrutinize net operating cash outflows, remaining cash reserves, and the implied quarters of funding available; any material deterioration in burn rate or sub-3-quarter runway would raise near-term dilution or going-concern risk.",
+        "As a small-cap technology platform, Tinybeans' path to cash flow breakeven and any commentary on revenue trajectory or cost reduction initiatives within the 4C will be critical for assessing whether the company can avoid a near-term capital raise."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "FRA",
       "company": "FRANKLIN AUS ABSOLUTE RETURN BND FUND - ACTIVE ETF",
