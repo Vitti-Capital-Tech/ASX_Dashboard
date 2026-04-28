@@ -1,9 +1,180 @@
 {
   "date": "2026-04-29",
-  "total": 161,
-  "market_sensitive_count": 149,
-  "generated_at": "2026-04-28T23:14:05.416940+00:00",
+  "total": 170,
+  "market_sensitive_count": 158,
+  "generated_at": "2026-04-28T23:20:37.203029+00:00",
   "announcements": [
+    {
+      "ticker": "CC9",
+      "company": "CHARIOT RESOURCES LTD",
+      "headline": "Nigerian Lithium Portfolio Acquisition Update",
+      "time": "2026-04-28T23:16:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083670-6A1322646",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Chariot Resources is advancing acquisition of a Nigerian lithium portfolio, signaling strategic expansion into Africa's emerging lithium supply chain amid global battery metals demand.",
+        "The acquisition update suggests deal progression but key terms (consideration structure, resource size, and funding mechanism) will be critical in determining whether this is value-accretive or dilutive for existing shareholders.",
+        "Investors should watch for definitive agreement terms, due diligence outcomes, and any associated capital raise requirements — Nigerian jurisdiction adds sovereign and operational risk premiums that need to be priced in."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALM",
+      "company": "ALMA METALS LIMITED",
+      "headline": "Major Drilling Program Underway at Briggs Copper Project",
+      "time": "2026-04-28T23:16:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083671-6A1322644",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alma Metals has commenced a major drilling program at its Briggs Copper Project, signaling an aggressive exploration push that could materially de-risk the asset and drive re-rating if results confirm grade and continuity expectations.",
+        "The market-sensitive classification suggests the drilling program is of sufficient scale and strategic importance to potentially move the company's valuation — investors should watch for assay results as key catalysts in coming weeks/months.",
+        "As a junior explorer, the capital deployed into this drilling campaign will be a critical draw on cash reserves; success at Briggs could unlock further funding options or partnership interest, while disappointing results may pressure the balance sheet and necessitate future capital raises."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DEL",
+      "company": "DELOREAN CORPORATION LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-28T23:15:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083669-6A1322645",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Delorean Corporation has entered a trading halt, suspending shares from trading pending a material announcement — the nature of the announcement is not yet disclosed, creating uncertainty for holders.",
+        "As a small-cap energy/waste-to-energy company, trading halts often precede capital raises, asset transactions, or material contract updates — any of which could materially impact the company's tight cash position and project pipeline.",
+        "Investors should await the forthcoming announcement before repositioning; the halt typically lasts up to two trading days, and the market-sensitive tag suggests the pending news is price-material."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASL",
+      "company": "ANDEAN SILVER LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-28T23:13:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083664-6A1322643",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Andean Silver's quarterly report provides updated cash flow visibility via Appendix 5B, critical for assessing burn rate and funding runway at this exploration-stage mining company.",
+        "As a pre-revenue explorer, key metrics to watch include net operating cash outflows, exploration expenditure levels, and remaining cash reserves — any material decline in cash balance could signal near-term capital raise risk.",
+        "Market-sensitive designation suggests material information within the quarterly update, potentially including significant exploration results, revised project timelines, or a shift in cash position that could drive near-term trading activity."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CPO",
+      "company": "CULPEO MINERALS LIMITED",
+      "headline": "Quarterly Cashflow Report",
+      "time": "2026-04-28T23:12:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083662-6A1322641",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Culpeo Minerals' quarterly cashflow report provides a mandatory update on the junior explorer's cash position, critical for assessing near-term funding adequacy and operational burn rate across its copper-focused exploration portfolio.",
+        "As a pre-revenue explorer, key metrics to watch include net operating and investing cash outflows versus closing cash balance — any material decline in cash reserves without a corresponding capital raise signals potential dilution risk in coming quarters.",
+        "Investors should monitor the company's estimated quarters of funding remaining (Section 8.7 of the Appendix 5B) as a leading indicator of whether a near-term capital raise or asset monetization event is required to sustain exploration activities."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CPO",
+      "company": "CULPEO MINERALS LIMITED",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-04-28T23:11:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083659-6A1322639",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Culpeo Minerals' quarterly activities report provides an operational update on its copper-gold exploration portfolio in Chile, with market-sensitive designation suggesting material progress or developments disclosed within the period.",
+        "Cash position and burn rate will be critical for investors to assess given the company's pre-revenue exploration stage — quarterly cash outflows and remaining runway will determine near-term dilution risk or need for capital raising.",
+        "Investors should monitor drill results, assay outcomes, and any updated resource estimates from Chilean copper projects, as these are the key catalysts for re-rating in the junior explorer space amid supportive copper price fundamentals."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CUF",
+      "company": "CUFE LTD",
+      "headline": "Quarterly Activities and Cashflow Report",
+      "time": "2026-04-28T23:11:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083658-6A1322638",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "CUFE Ltd's quarterly activities and cashflow report provides a critical update on operational progress and cash position, key for assessing the company's near-term viability and project advancement.",
+        "Investors should scrutinize net operating cash outflows, remaining cash reserves, and any changes in exploration or development expenditure to gauge cash runway sustainability — early-stage miners with limited revenue are particularly sensitive to burn rate trends.",
+        "As a market-sensitive disclosure, any material shifts in project milestones, funding requirements, or strategic direction flagged in this report could drive near-term re-rating or necessitate future capital raises."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VTM",
+      "company": "VICTORY METALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-28T23:10:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083656-6A1322637",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Victory Metals reports quarterly activities and cash flow update, providing visibility into exploration spend and operational progress at its rare earths/critical minerals projects",
+        "Appendix 5B cash flow report will reveal cash burn rate and remaining cash runway — critical for an exploration-stage company with no revenue, where funding adequacy is the key near-term risk factor",
+        "Market-sensitive designation suggests material updates on exploration results or a notable shift in cash position; investors should assess whether additional capital raising will be required within the next 1-2 quarters"
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OVT",
+      "company": "OVANTI LIMITED",
+      "headline": "Security Class Suspension from Quotation - OVTO",
+      "time": "2026-04-28T23:09:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083654-2A1668693",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX has suspended the OVTO security class from quotation, signaling a potential compliance issue, corporate action, or failure to meet listing requirements that warrants immediate investor attention.",
+        "Suspension of a specific security class (OVTO - likely options) rather than all securities may indicate expiry, conversion terms not met, or administrative non-compliance related to that instrument, limiting direct impact on ordinary shares but flagging governance concerns.",
+        "Investors should monitor for follow-up announcements clarifying the reason for suspension and any potential flow-through effects on Ovanti's capital structure, liquidity, and ability to raise future funding through derivative instruments."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SVL",
       "company": "SILVER MINES LIMITED",
