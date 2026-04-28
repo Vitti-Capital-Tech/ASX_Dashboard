@@ -1,9 +1,237 @@
 {
   "date": "2026-04-28",
-  "total": 220,
-  "market_sensitive_count": 214,
-  "generated_at": "2026-04-28T01:37:42.556290+00:00",
+  "total": 232,
+  "market_sensitive_count": 224,
+  "generated_at": "2026-04-28T03:09:16.880520+00:00",
   "announcements": [
+    {
+      "ticker": "EVE",
+      "company": "EVE HEALTH GROUP LIMITED.",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-28T03:03:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083180-6A1322384",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in EVE Health Group, triggering a mandatory disclosure under ASX substantial holding rules, signaling active institutional or insider portfolio rebalancing.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is relatively modest or procedural rather than indicative of a major strategic shift or aggressive accumulation/disposal.",
+        "Investors should monitor whether this forms part of a broader trend of stake changes in EVE Health Group, which could signal evolving sentiment around the company's healthcare operations and growth trajectory."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REV",
+      "company": "REVOLUTION PRIVATE CREDIT INCOME TRUST",
+      "headline": "Dividend/Distribution - REV",
+      "time": "2026-04-28T02:49:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083176-3A692094",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Revolution Private Credit Income Trust (REV) has declared a dividend/distribution, reinforcing its income-focused mandate and signaling continued portfolio cash flow generation from its private credit investments.",
+        "Consistent distribution payments are critical for REV's investor base, which is predominantly yield-seeking; the market-sensitive tag suggests the distribution amount or timing may differ from prior expectations or consensus, warranting close attention to the per-unit figure and franking details.",
+        "Investors should monitor the ex-distribution date, payment date, and any accompanying commentary on portfolio credit quality or net asset value trends, as these factors will determine whether the yield remains sustainable and competitive relative to peers in the listed credit trust space."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DTI",
+      "company": "DTI GROUP LTD",
+      "headline": "Lodgement of Target's Statement",
+      "time": "2026-04-28T02:42:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083173-6A1322380",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DTI Group has lodged its Target's Statement in response to a takeover bid, providing the board's formal recommendation to shareholders on whether to accept or reject the offer — a critical inflection point for the company's ownership structure.",
+        "The lodgement of the Target's Statement is a mandatory regulatory step under the Corporations Act, signaling the bid process is advancing and shareholders will soon need to make a decision on the offer terms and implied valuation premium (or discount).",
+        "Investors should closely review the independent expert's opinion within the Target's Statement for fair value assessment; the board's recommendation and any competing proposals will be the key catalysts determining near-term price action around the bid price."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NIC",
+      "company": "NICKEL INDUSTRIES LIMITED",
+      "headline": "New US$450m Loan Facilities",
+      "time": "2026-04-28T02:37:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083171-2A1668514",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nickel Industries has secured US$450m in new loan facilities, significantly bolstering its liquidity position and providing substantial financial flexibility for operations and potential growth initiatives in a challenging nickel price environment.",
+        "The sizeable debt facility signals continued lender confidence in NIC's asset base and cash flow generation despite depressed nickel prices, though investors should monitor the cost of debt and any covenant conditions that may constrain capital allocation.",
+        "The refinancing extends NIC's cash runway and reduces near-term balance sheet risk, positioning the company to weather prolonged nickel price weakness while maintaining optionality for M&A or expansion of its Indonesian HPAL and RKEF operations."
+      ],
+      "tags": [
+        "Finance",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BOE",
+      "company": "BOSS ENERGY LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-28T02:28:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083167-6A1322376",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Boss Energy Ltd, triggering a mandatory disclosure under ASX substantial holding rules — this signals active institutional portfolio rebalancing in the uranium sector.",
+        "The change in substantial holding likely reflects a marginal shift in ownership percentage around the 5% threshold, which is standard procedural disclosure rather than indicative of a directional conviction trade.",
+        "Investors should monitor whether this forms part of a broader trend of institutional accumulation or distribution in BOE, particularly given the volatile uranium spot price environment and Boss Energy's Honeymoon mine ramp-up trajectory."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CUE",
+      "company": "CUE ENERGY RESOURCES LIMITED",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-04-28T02:25:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083166-3A692092",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Quarterly Activities Report filed as market-sensitive, signaling material operational or financial updates that CUE Energy considers price-relevant for investors in its oil and gas portfolio across Southeast Asia and New Zealand.",
+        "Key focus for institutional investors will be production volumes, revenue trends, and operating costs across CUE's producing assets (Mahato PSC in Indonesia and Maari field in New Zealand), with any deviation from prior quarter guidance likely to drive near-term price action.",
+        "Cash position and forward capital expenditure commitments are critical to assess runway and funding requirements — any material drawdown or flagged need for capital raising would shift the risk profile for this micro-cap energy explorer/producer."
+      ],
+      "tags": [
+        "Quarterly",
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NC1",
+      "company": "NICO RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-28T02:20:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083164-6A1322373",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Nico Resources filed its quarterly activities and Appendix 5B cash flow report, providing an update on exploration and development progress across its nickel-cobalt and critical minerals portfolio.",
+        "Cash flow details in the Appendix 5B will be critical to assess burn rate and remaining cash runway — as a pre-revenue explorer, any material decline in cash reserves or acceleration of expenditure could signal near-term capital raise risk.",
+        "Investors should scrutinize net operating and investing cash outflows versus closing cash balance to evaluate whether the company can fund planned activities through the next quarter without dilutive financing."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SNT",
+      "company": "SYNTARA LIMITED",
+      "headline": "Continuation of trading halt",
+      "time": "2026-04-28T02:06:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083159-2A1668507",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Syntara Limited has requested a continuation of its trading halt, indicating the company is still finalizing a material announcement that requires extended market suspension.",
+        "As a small-cap biotech/healthcare company, extended trading halts often signal pending capital raises, licensing deals, or significant clinical updates — investors should prepare for potential dilution or a transformative transaction.",
+        "Trading will remain suspended until the company makes its pending announcement or until a specified resumption date set by ASX; the nature of the underlying catalyst remains undisclosed, creating uncertainty around near-term positioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SNT",
+      "company": "SYNTARA LIMITED",
+      "headline": "Positive FDA feedback for Amsulostat P2b trial",
+      "time": "2026-04-28T02:06:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083158-2A1668505",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FDA has provided positive feedback on Syntara's Phase 2b trial design for Amsulostat, a critical de-risking milestone that validates the company's regulatory pathway and increases probability of successful trial execution in the US market.",
+        "Positive FDA engagement significantly enhances the asset's partnering and licensing value, as clear regulatory alignment reduces development risk for potential pharma partners — a key catalyst for a pre-revenue biotech with limited cash runway.",
+        "Next steps will focus on finalising the Phase 2b protocol and initiating the trial; investors should monitor upcoming capital requirements closely, as advancing into a US-based Phase 2b study will likely necessitate additional funding or a strategic partnership."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EAR",
+      "company": "PIMCO SHORT TERM ACTIVE YIELD ACTIVE ETF",
+      "headline": "PIMCO ETF - April 2026 Estimated Distribution",
+      "time": "2026-04-28T02:02:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083156-2A1668508",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PIMCO Short Term Active Yield ETF has announced its estimated distribution for April 2026, signaling continued income generation from the short-duration fixed income strategy amid an evolving rate environment.",
+        "As a market-sensitive announcement, the distribution estimate provides institutional holders with forward visibility on cash flows, important for portfolio income planning and yield benchmarking against competing short-duration products.",
+        "Regular distribution cadence reinforces PIMCO's active management approach in the short-term credit space; investors should compare the implied running yield against RBA rate expectations and peer ETF distributions to assess relative value."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IME",
+      "company": "IMEXHS LIMITED",
+      "headline": "IMEXHS launches agentic AI platform for radiology",
+      "time": "2026-04-28T02:00:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083154-3A692091",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "IMEXHS has launched an agentic AI platform for radiology, positioning the company at the intersection of two high-growth themes (healthcare AI and workflow automation), which could materially differentiate its PACS/RIS offering in a competitive market.",
+        "The platform leverages agentic AI — autonomous AI agents capable of executing multi-step clinical workflows — which represents a meaningful technical leap beyond basic AI-assisted reporting and could drive higher per-seat pricing and improved customer retention metrics.",
+        "As a micro-cap ASX-listed healthtech, the key question remains commercialisation velocity and cash runway; investors should monitor upcoming quarterly cashflow reports for evidence of customer adoption, ARR uplift, and whether the AI platform accelerates the path to profitability or requires additional capital."
+      ],
+      "tags": [
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HFR",
+      "company": "HIGHFIELD RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-04-28T01:54:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03083153-6A1322371",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Highfield Resources' quarterly report provides an update on the Muga Potash Project in Spain, with market-sensitive designation suggesting material developments in project financing, permitting, or partnership negotiations that could shift the investment thesis.",
+        "Cash flow reporting via Appendix 5B will reveal the current burn rate and remaining cash runway for this pre-revenue potash developer, critical for assessing near-term dilution risk or funding requirements as the company advances toward construction decision.",
+        "Investors should scrutinize exploration/development expenditure trends and any changes to the project timeline or capex estimates, as potash market dynamics and European energy security considerations continue to provide a supportive macro backdrop for the Muga project."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AAM",
       "company": "AUMEGA METALS LTD",
