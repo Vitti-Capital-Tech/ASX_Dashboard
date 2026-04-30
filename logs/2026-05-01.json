@@ -1,9 +1,122 @@
 {
   "date": "2026-05-01",
-  "total": 35,
-  "market_sensitive_count": 28,
-  "generated_at": "2026-04-30T23:08:47.989209+00:00",
+  "total": 41,
+  "market_sensitive_count": 33,
+  "generated_at": "2026-04-30T23:20:21.028582+00:00",
   "announcements": [
+    {
+      "ticker": "DUG",
+      "company": "DUG TECHNOLOGY LTD",
+      "headline": "FY26-Q3 Business Update",
+      "time": "2026-04-30T23:17:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085411-6A1323564",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DUG Technology's FY26-Q3 business update signals management is proactively communicating operational progress mid-year, suggesting material developments in their high-performance computing (HPC) and cloud services segments worth monitoring for revenue trajectory shifts.",
+        "As a market-sensitive quarterly update, investors should focus on key metrics including DUG's data centre utilisation rates, recurring revenue from DUG McCloud platform, and cash burn trajectory — critical indicators given the company's capital-intensive infrastructure buildout phase.",
+        "The timing of a Q3 update positions DUG ahead of full-year results, likely providing forward guidance or revised outlook on customer pipeline and contract wins in geoscience computing and broader HPC-as-a-service markets, which could reset consensus expectations."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MRQ",
+      "company": "MRG METALS LIMITED",
+      "headline": "JV Partner Funds Drilling at Corridor North HMS Project",
+      "time": "2026-04-30T23:16:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085410-3A692471",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "JV partner is funding drilling at the Corridor North Heavy Mineral Sands (HMS) project, significantly reducing MRG's near-term cash burn and exploration expenditure obligations while advancing the asset.",
+        "Partner-funded drilling de-risks MRG's balance sheet at a critical exploration stage, preserving cash runway for a micro-cap that would otherwise face dilutive capital raises to fund its own programs.",
+        "Successful drilling results could materially re-rate the Corridor North HMS project and validate the JV structure, with upcoming assay results likely to be the next key catalyst for the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TMS",
+      "company": "TENNANT MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-30T23:15:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085409-6A1323561",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Tennant Minerals has entered a trading halt, typically requested by micro-cap explorers ahead of material announcements such as capital raises, drilling results, or corporate transactions.",
+        "As a junior mining company, any trading halt raises immediate questions about cash runway — a capital raise would be dilutive to existing shareholders, while a significant exploration result could be a positive catalyst.",
+        "Investors should await the pending announcement (usually within 2 trading days) before repositioning; the halt removes price discovery and signals imminent material news flow."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RMI",
+      "company": "RESOURCE MINERALS INTERNATIONAL LTD",
+      "headline": "Trading Halt",
+      "time": "2026-04-30T23:10:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085399-6A1323556",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Resource Minerals International Ltd has entered a trading halt, suspending shares from trading pending a material announcement — typical for capital raises, acquisitions, or significant corporate developments in the junior mining space.",
+        "As a micro-cap resource company, any pending announcement likely involves either a capital raise (potentially dilutive) or a transformative asset transaction; investors should monitor for details on terms and pricing.",
+        "Trading will remain halted until the company releases its pending announcement or until the commencement of normal trading on the second business day, giving the market time to digest the forthcoming disclosure before price discovery resumes."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INR",
+      "company": "IONEER LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-30T23:10:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085397-2A1669392",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Ioneer Ltd, triggering a mandatory disclosure under ASX substantial holding rules, signaling active institutional portfolio rebalancing around the lithium-boron developer.",
+        "The filing is classified as a 'change' rather than a new or ceased holding, indicating the investor remains above the 5% threshold but has materially altered their stake — the direction (increase vs decrease) is critical for interpreting institutional conviction in Ioneer's Rhyolite Ridge project trajectory.",
+        "With Ioneer navigating DOE loan finalization and project development milestones, shifts in substantial holder positions warrant monitoring as a proxy for institutional confidence in the company's funding pathway and timeline to production."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NOX",
+      "company": "NOXOPHARM LIMITED",
+      "headline": "New data shows SOF-SKN active ingredient efficacy",
+      "time": "2026-04-30T23:08:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085393-3A692467",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Noxopharm reports new efficacy data for the active ingredient in its SOF-SKN topical product, providing additional scientific validation that could strengthen the commercial and regulatory pathway for this dermatology asset.",
+        "As a pre-revenue biotech, positive preclinical/clinical data is the primary value driver; however, the announcement's impact depends on whether the data meets thresholds for regulatory advancement or partnership discussions — investors should assess the specific endpoints and comparator performance disclosed.",
+        "Key next steps include potential progression toward formal clinical trials or regulatory submissions for SOF-SKN, with the company's cash runway and need for further capital raising remaining critical considerations for institutional positioning in this micro-cap name."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "SRJ",
       "company": "SRJ TECHNOLOGIES GROUP PLC",
