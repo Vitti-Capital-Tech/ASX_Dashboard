@@ -1,9 +1,333 @@
 {
   "date": "2026-05-01",
-  "total": 41,
-  "market_sensitive_count": 33,
-  "generated_at": "2026-04-30T23:20:21.028582+00:00",
+  "total": 58,
+  "market_sensitive_count": 48,
+  "generated_at": "2026-04-30T23:41:56.929678+00:00",
   "announcements": [
+    {
+      "ticker": "SEQ",
+      "company": "SEQUOIA FINANCIAL GROUP LTD",
+      "headline": "Update on Proposed Disposal of InterPrac",
+      "time": "2026-04-30T23:38:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085444-2A1669410",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sequoia Financial Group is providing an update on the proposed disposal of its InterPrac business, signaling active portfolio rationalization to streamline operations and focus on core wealth management and financial services segments.",
+        "The market-sensitive nature of this update suggests material developments in deal terms, pricing, or counterparty negotiations that could unlock embedded value or release capital from a non-core subsidiary, potentially improving group margins and balance sheet flexibility.",
+        "Investors should monitor for final transaction terms including consideration structure (cash vs deferred), expected completion timeline, and any regulatory or client transition conditions that could affect near-term earnings and capital allocation priorities including potential buybacks or debt reduction."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PRM",
+      "company": "PROMINENCE ENERGY LIMITED",
+      "headline": "Prominence Energy Secures $1.56m in Firm Funding Commitments",
+      "time": "2026-04-30T23:35:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085439-6A1323550",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Prominence Energy secured $1.56m in firm funding commitments, providing near-term capital to advance operations without requiring shareholder approval, signaling urgency and board confidence in upcoming catalysts.",
+        "For a micro-cap energy explorer, $1.56m represents meaningful runway extension, though the placement will result in significant dilution given the company's likely small market capitalization — investors should assess the implied discount and new share issuance terms.",
+        "Funds are expected to support ongoing exploration and corporate activities, with the firm commitment structure (rather than conditional raise) suggesting strong demand from sophisticated/institutional investors and reducing execution risk on capital deployment plans."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RTR",
+      "company": "RUMBLE RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-30T23:35:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085438-6A1323578",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Rumble Resources has entered a trading halt, typically requested by the company pending a material announcement — the market-sensitive flag suggests a significant corporate development is imminent.",
+        "As a junior explorer focused on base and precious metals (notably the Earaheedy zinc-lead project in WA), a trading halt often precedes capital raises, major drilling results, or potential transaction activity that could materially impact valuation.",
+        "Investors should monitor for the pending announcement closely; if a capital raise is involved, dilution risk is elevated for a pre-revenue explorer, while a material discovery or deal could provide meaningful upside catalyst."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RBR",
+      "company": "RBR GROUP LIMITED",
+      "headline": "Capital Raise",
+      "time": "2026-04-30T23:34:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085435-6A1323554",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "RBR Group Limited has announced a capital raise, which will result in dilution for existing shareholders but is intended to strengthen the company's balance sheet and fund ongoing operations or growth initiatives.",
+        "As a micro-cap ASX-listed company focused on workforce services, any capital raise is material relative to its market capitalisation — investors should assess the discount to market price, placement size, and whether participation rights are offered to existing holders.",
+        "Key next steps include monitoring the use of proceeds, any associated SPP for retail shareholders, and whether the raised capital provides sufficient runway to reach cash-flow positive operations or secure new contracts."
+      ],
+      "tags": [
+        "Capital Raise"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "STX",
+      "company": "STRIKE ENERGY LIMITED",
+      "headline": "Walyering West-1 Results",
+      "time": "2026-04-30T23:32:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085433-6A1323576",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Walyering West-1 exploration well results are market sensitive, indicating material findings that could significantly impact Strike Energy's Perth Basin gas portfolio and reserve/resource estimates.",
+        "The well results will be critical in determining whether Strike can expand its Walyering gas field footprint, directly affecting the company's production growth trajectory and ability to underpin domestic gas supply contracts.",
+        "Investors should watch for flow test data, resource upgrades, and any revised development plans — successful results could de-risk Strike's near-term commercialisation pathway and improve its competitive positioning in the tightening WA gas market."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SGA",
+      "company": "SARYTOGAN GRAPHITE LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-30T23:30:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085431-6A1323577",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in Sarytogan Graphite Limited, indicating a shift in ownership concentration among key shareholders that institutional investors should monitor for governance implications.",
+        "As a pre-revenue graphite exploration/development company, changes in substantial holdings can signal evolving investor confidence or portfolio rebalancing, though the announcement is flagged as not market sensitive, suggesting the change may be modest in scale.",
+        "Investors should track whether this reflects accumulation (bullish conviction in the graphite asset) or disposal (reduced confidence), and cross-reference with any upcoming capital raise activity given SRY's likely need for continued funding to advance its Kazakhstan graphite project."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KEY",
+      "company": "KEY PETROLEUM LIMITED",
+      "headline": "Change in substantial holding from AFA",
+      "time": "2026-04-30T23:29:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085430-6A1323573",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "AFA (likely a related entity or fund) has filed a change in substantial holding notice for Key Petroleum, indicating a shift in ownership stake that crosses a regulatory threshold — signaling active portfolio repositioning by a notable holder.",
+        "For a micro-cap explorer like Key Petroleum, changes in substantial holder positions can materially affect free float and liquidity dynamics, though the filing is flagged as not market sensitive, suggesting the change may be modest in magnitude.",
+        "Investors should monitor whether this represents accumulation or disposal by AFA, as directional moves by substantial holders in illiquid micro-caps can foreshadow strategic shifts or changes in confidence regarding Key Petroleum's exploration assets."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AKO",
+      "company": "AKORA RESOURCES LIMITED",
+      "headline": "31 March 2026 Quarterly Activities and Cashflow Report",
+      "time": "2026-04-30T23:25:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085425-3A692448",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Akora Resources reports quarterly activities and cashflow for the March 2026 quarter, providing critical visibility into the company's cash position and burn rate as it advances its Madagascar iron ore projects.",
+        "As a pre-revenue explorer, the cashflow report will be closely scrutinized for remaining cash runway and any changes in exploration expenditure intensity, which directly impacts potential near-term capital raise requirements.",
+        "Market-sensitive designation suggests material updates may be embedded within the quarterly — investors should assess whether operational milestones, tenement developments, or strategic partnerships signal de-risking of the project pipeline."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRJ",
+      "company": "SRJ TECHNOLOGIES GROUP PLC",
+      "headline": "Investor Presentation",
+      "time": "2026-04-30T23:23:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085424-2A1669389",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SRJ Technologies has released a market-sensitive investor presentation, signaling management is actively engaging institutional capital and seeking to highlight key value drivers or strategic milestones to the market.",
+        "As a technology-focused company listed on the ASX, the timing of a market-sensitive investor deck suggests potential updates on commercial traction, order pipeline, or partnership developments that could materially impact near-term valuation.",
+        "Investors should scrutinize the presentation for details on cash runway, revenue trajectory, and any forward guidance or capital raising signals that may indicate upcoming dilution or accelerated growth plans."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SRJ",
+      "company": "SRJ TECHNOLOGIES GROUP PLC",
+      "headline": "Prospectus",
+      "time": "2026-04-30T23:23:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085423-2A1669390",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SRJ Technologies has lodged a prospectus, signaling an imminent capital raise that will dilute existing shareholders but extend the company's cash runway to fund growth initiatives.",
+        "The prospectus filing as a market-sensitive announcement suggests material new equity issuance; investors should scrutinize the offer size, pricing discount, and use of proceeds for insight into the company's near-term funding needs and balance sheet position.",
+        "Key watch items include the terms of the offer (rights issue vs placement vs SPP), any institutional commitments or underwriting arrangements, and whether proceeds are earmarked for organic growth, acquisitions, or working capital — all of which will determine the dilutive impact and strategic signal."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SRJ",
+      "company": "SRJ TECHNOLOGIES GROUP PLC",
+      "headline": "Launches placement following recent contract awards",
+      "time": "2026-04-30T23:23:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085422-2A1669391",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "SRJ Technologies is raising capital via placement, leveraging momentum from recent contract awards to fund growth and working capital requirements ahead of revenue delivery.",
+        "Placement timing following contract wins suggests management is capitalising on positive sentiment to minimise dilution discount, though equity issuance will dilute existing shareholders in a micro-cap structure.",
+        "Key watch is placement size, pricing discount to last trade, and whether proceeds are earmarked for contract execution capacity — successful delivery on awarded contracts will be critical to justifying the dilution."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DAL",
+      "company": "DALAROO METALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-04-30T23:22:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085421-6A1323567",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Dalaroo Metals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration result that requires price-sensitive disclosure.",
+        "As a small-cap ASX-listed metals company, any trading halt raises immediate questions about cash runway adequacy and whether the halt precedes a dilutive equity raising to fund ongoing exploration activities.",
+        "Investors should await the detailed announcement expected within two business days; the nature of the pending news (capital raise vs. asset acquisition vs. exploration results) will be the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AKO",
+      "company": "AKORA RESOURCES LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-04-30T23:21:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085420-3A692473",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Akora Resources has been suspended from quotation on the ASX, indicating a significant corporate action or compliance issue that prevents normal trading of its securities.",
+        "Suspension from quotation typically signals either a pending material announcement, failure to meet listing requirements, or a voluntary request tied to a corporate transaction — all of which freeze liquidity for institutional holders.",
+        "Investors should monitor for the accompanying announcement explaining the suspension reason; prolonged suspensions for junior miners like Akora (iron ore exploration in Madagascar) can signal cash runway concerns or potential restructuring/delisting risk."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DBO",
+      "company": "DIABLO RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-04-30T23:20:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085417-6A1323565",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Diablo Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration update for this junior explorer.",
+        "As a micro-cap ASX-listed company, any capital raise associated with this halt could result in meaningful dilution for existing shareholders, given the typically tight liquidity and small market capitalisation of the stock.",
+        "Investors should await the detailed announcement expected within two business days to assess whether the catalyst is value-accretive (e.g. high-grade drill results) or dilutive (e.g. discounted placement), which will determine the directional move on resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PR1",
+      "company": "PURE RESOURCES LIMITED",
+      "headline": "US DOE Backed Oak Ridge National Lab Partnership-Garnet Hill",
+      "time": "2026-04-30T23:19:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085416-6A1323566",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Pure Resources has secured a partnership with Oak Ridge National Laboratory (ORNL), a US Department of Energy-backed institution, to advance characterisation and development of its Garnet Hill lithium project — a significant technical validation for an early-stage explorer.",
+        "ORNL's involvement brings world-class analytical capabilities and federal research credibility, potentially de-risking the project's geological and processing assumptions and enhancing the company's ability to attract future funding or offtake interest in the US critical minerals supply chain.",
+        "The partnership aligns with the US government's strategic push to onshore critical mineral supply chains, positioning Pure Resources to potentially benefit from DOE funding pathways, IRA incentives, and growing institutional appetite for domestically sourced lithium assets."
+      ],
+      "tags": [
+        "Mining",
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LTP",
+      "company": "LTR PHARMA LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-04-30T23:19:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085415-3A692457",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "LTR Pharma released a market-sensitive investor presentation, likely updating the market on its pharmaceutical pipeline progress and commercial strategy to attract institutional interest",
+        "As a micro-cap pharma company focused on drug development (notably its Lateral Pharma sexual health product LTP-01), any clinical milestone updates or partnership signals could materially re-rate the stock given its small market capitalisation",
+        "Investor presentations flagged as market sensitive typically contain new material information — investors should watch for updated timelines on regulatory submissions, trial data readouts, or cash position disclosures that clarify runway beyond current funding"
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LTP",
+      "company": "LTR PHARMA LIMITED",
+      "headline": "SPONTAN Phase II data show rapid onset, support FDA pathway",
+      "time": "2026-04-30T23:18:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085414-3A692456",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SPONTAN Phase II clinical data demonstrating rapid onset of action is a critical differentiator for LTR Pharma's drug candidate, potentially positioning it competitively against established erectile dysfunction treatments in a multi-billion dollar global market.",
+        "Positive Phase II results de-risk the FDA regulatory pathway, representing a significant clinical milestone that validates the company's sublingual delivery technology and strengthens the investment thesis for this pre-revenue biotech.",
+        "Data package supporting an FDA pathway signals the company is likely moving toward Phase III trial design and potential pre-IND/IND interactions with the FDA, though investors should monitor cash runway requirements for the next clinical stage which will demand substantially larger capital commitments."
+      ],
+      "tags": [
+        "Healthcare",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "DUG",
       "company": "DUG TECHNOLOGY LTD",
