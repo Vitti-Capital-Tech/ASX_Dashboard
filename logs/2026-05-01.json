@@ -1,9 +1,123 @@
 {
   "date": "2026-05-01",
-  "total": 29,
-  "market_sensitive_count": 22,
-  "generated_at": "2026-04-30T22:44:07.798838+00:00",
+  "total": 35,
+  "market_sensitive_count": 28,
+  "generated_at": "2026-04-30T23:08:47.989209+00:00",
   "announcements": [
+    {
+      "ticker": "SRJ",
+      "company": "SRJ TECHNOLOGIES GROUP PLC",
+      "headline": "Trading Halt",
+      "time": "2026-04-30T23:01:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085384-2A1669380",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "SRJ Technologies has entered a trading halt, typically preceding a material announcement such as a capital raise, acquisition, or significant contract update that requires price-sensitive disclosure.",
+        "As a small-cap technology company focused on industrial sealing solutions, any capital raise during a halt could be materially dilutive given SRJ's relatively modest market capitalization and likely limited cash runway.",
+        "Investors should await the pending announcement — the nature of the halt (voluntary and market-sensitive) suggests the company is finalizing terms on a transaction that could meaningfully reset the investment thesis."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WHK",
+      "company": "WHITEHAWK LIMITED",
+      "headline": "WHK SECURES ATTURA ENTERPRISE DISTRIBUTION FOR CLARITYAI",
+      "time": "2026-04-30T22:49:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085373-6A1323546",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WhiteHawk has secured Attura (a major Australian IT services provider with ~$300M+ revenue) as an enterprise distribution partner for its ClarityAI platform, significantly expanding its go-to-market reach across Australian enterprise and government sectors.",
+        "The Attura partnership provides a scalable, low-cost channel to market that could materially accelerate ClarityAI revenue without proportional increases in WHK's direct sales overhead — critical for a micro-cap with limited cash runway needing to demonstrate commercial traction.",
+        "This distribution agreement signals growing third-party validation of ClarityAI's commercial viability and positions WHK for potential recurring SaaS revenue streams; investors should watch for conversion metrics and first enterprise deals flowing through the Attura channel in coming quarters."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RC1",
+      "company": "REDCASTLE RESOURCES LIMITED",
+      "headline": "Key Regulatory Approval Secured",
+      "time": "2026-04-30T22:49:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085372-6A1323545",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Redcastle Resources has secured a key regulatory approval, removing a critical de-risking milestone that clears the pathway for project advancement — a material catalyst for a micro-cap explorer where permitting timelines often represent the primary bottleneck to value creation.",
+        "For a junior explorer like Redcastle, regulatory clearance preserves cash runway by avoiding costly delays and potential re-application expenses, while simultaneously enhancing the asset's attractiveness to potential JV partners or acquirers seeking permitted projects.",
+        "Next steps will likely involve mobilisation of exploration or development activities now that the regulatory hurdle is cleared; investors should watch for follow-up announcements on drilling programs, work commitments, and any associated capital requirements to fund the newly unlocked activity."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EVN",
+      "company": "EVOLUTION MINING LIMITED",
+      "headline": "Annual Mineral Resources and Ore Reserves Statement",
+      "time": "2026-04-30T22:46:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085370-2A1669373",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Evolution Mining's annual Mineral Resources and Ore Reserves update provides the market with a refreshed view of the company's asset base, a key input for NAV-based valuations and mine life assessments across its portfolio including Cowal, Ernest Henry, and Mungari.",
+        "Investors will scrutinize net changes in reserves and resources for evidence of successful reserve replacement — any material depletion without offsetting additions or upgrades could signal shortened mine lives and weigh on long-term production guidance.",
+        "As a market-sensitive disclosure, any meaningful upgrade in total gold ounces (resources or reserves) or extension of mine life at key assets would be a positive catalyst, while downgrades could prompt consensus estimate revisions and re-rating of the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WTM",
+      "company": "WARATAH MINERALS LIMITED",
+      "headline": "Drilling Returns second 200 gram-metre Intercept at Consols",
+      "time": "2026-04-30T22:45:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085366-6A1323544",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Waratah Minerals has delivered a second 200 gram-metre intercept at the Consols prospect, reinforcing the high-grade gold potential of the target and significantly de-risking the deposit's prospectivity for resource definition.",
+        "A repeated 200 g·m intercept is technically significant — it suggests mineralisation continuity and grade consistency, which are critical thresholds for advancing toward a maiden or expanded resource estimate at Consols.",
+        "Back-to-back high-grade drill results are likely to accelerate follow-up drilling programs and could attract market attention for a potential re-rating as the company builds toward a resource pathway; investors should watch for assay turnaround timelines and planned drill density."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SNX",
+      "company": "SIERRA NEVADA GOLD INC.",
+      "headline": "Exploration Licence Grant by Royal Decree",
+      "time": "2026-04-30T22:44:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085365-3A692459",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sierra Nevada Gold has been granted an exploration licence by Royal Decree, securing legal tenure over a prospective project area — a critical de-risking milestone that removes a key permitting overhang for the company.",
+        "The grant via Royal Decree signals government-level endorsement of the exploration program, which strengthens the company's social licence to operate and may improve its ability to attract joint venture partners or future capital raises on favourable terms.",
+        "With the licence now formally in hand, the company can advance on-ground exploration activities including drilling programs, which should generate newsflow and catalysts that drive re-rating potential in the near term."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "NH3",
       "company": "NH3 CLEAN ENERGY LIMITED",
