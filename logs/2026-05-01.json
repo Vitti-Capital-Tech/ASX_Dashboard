@@ -1,9 +1,84 @@
 {
   "date": "2026-05-01",
-  "total": 69,
-  "market_sensitive_count": 58,
-  "generated_at": "2026-05-01T00:04:15.850158+00:00",
+  "total": 73,
+  "market_sensitive_count": 62,
+  "generated_at": "2026-05-01T00:40:27.927257+00:00",
   "announcements": [
+    {
+      "ticker": "TMS",
+      "company": "TENNANT MINERALS LIMITED",
+      "headline": "Exceptional Gold Bismuth Copper Intersection at Bluebird",
+      "time": "2026-05-01T00:31:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085490-6A1323588",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tennant Minerals reports an exceptional high-grade gold-bismuth-copper intersection at the Bluebird prospect, signaling potential for a significant polymetallic discovery that could materially re-rate the company's exploration asset base.",
+        "The presence of gold alongside bismuth and copper mineralization suggests an IOCG (Iron Oxide Copper Gold) style system, which if confirmed at scale, could attract strategic interest from larger mining companies operating in the Tennant Creek mineral field.",
+        "As a junior explorer, the key watch items are follow-up drill program timing, assay turnaround for full results, and whether the company will need to raise capital to fund an expanded drilling campaign — any near-term capital raise could dilute existing holders but would validate management's confidence in the discovery."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PKP",
+      "company": "PEAK PROCESSING LIMITED",
+      "headline": "Successful A$2.4m Raise to Fund Q4FY26 Production Ramp-up",
+      "time": "2026-05-01T00:28:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085489-3A692477",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Peak Processing completed a $2.4M capital raise specifically earmarked for Q4 FY26 production ramp-up, signaling the company is transitioning from development to revenue-generating phase with a defined near-term timeline.",
+        "The relatively modest raise size suggests the company may be close to operational self-sufficiency, though existing shareholders face dilution — the key question is whether the production ramp delivers sufficient revenue to justify the equity cost.",
+        "Execution risk is concentrated in Q4 FY26 (April-June 2026), giving investors a clear catalyst timeline; failure to achieve production targets on schedule would likely necessitate further capital raising and erode market confidence."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FPC",
+      "company": "FAT PROPHETS GLOBAL CONTRARIAN FUND LTD",
+      "headline": "Notification of buy-back - FPC",
+      "time": "2026-05-01T00:21:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085486-2A1669432",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Fat Prophets Global Contrarian Fund (FPC) has announced an on-market buy-back, signaling management's view that shares are trading at a discount to net tangible assets — a common issue for listed investment companies (LICs) on the ASX.",
+        "Buy-backs in LICs are typically NTA-accretive for remaining shareholders, effectively boosting per-share value as shares are repurchased below intrinsic value, providing a tangible return mechanism beyond dividends.",
+        "The buy-back signals board confidence in the fund's underlying portfolio value and may help narrow the persistent NTA discount, though sustained volume and commitment will be key to meaningful share price support."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALV",
+      "company": "ALVO MINERALS LIMITED",
+      "headline": "Premium Placement to Strategic Investors",
+      "time": "2026-05-01T00:04:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085481-3A692483",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Alvo Minerals is raising capital through a premium placement to strategic investors, signaling strong institutional demand and confidence in the company's asset base at above-market pricing.",
+        "The premium pricing structure limits dilutive impact for existing shareholders compared to typical discounted placements, suggesting the company negotiated from a position of strength with incoming strategic partners.",
+        "Funds raised will likely extend cash runway to advance exploration and development programs, with the strategic nature of the investors potentially unlocking future operational synergies or partnership opportunities."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ALV",
       "company": "ALVO MINERALS LIMITED",
