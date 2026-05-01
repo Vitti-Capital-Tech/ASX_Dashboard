@@ -1,9 +1,103 @@
 {
   "date": "2026-05-01",
-  "total": 76,
-  "market_sensitive_count": 65,
-  "generated_at": "2026-05-01T01:37:58.506545+00:00",
+  "total": 81,
+  "market_sensitive_count": 67,
+  "generated_at": "2026-05-01T03:08:46.582546+00:00",
   "announcements": [
+    {
+      "ticker": "EUR",
+      "company": "EUROPEAN LITHIUM LIMITED",
+      "headline": "Becoming a substantial holder from MS",
+      "time": "2026-05-01T02:42:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085548-6A1323611",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Morgan Stanley has crossed the 5% substantial holding threshold in European Lithium Limited, signaling meaningful institutional interest in this ASX-listed lithium explorer/developer",
+        "The emergence of a major global investment bank as a substantial holder may reflect positioning ahead of potential catalysts related to EUR's Wolfsberg lithium project in Austria or broader lithium sector recovery expectations",
+        "While the filing is procedural and flagged as not market sensitive, institutional accumulation by Morgan Stanley could improve liquidity and lend credibility, potentially attracting further institutional flows into what has been a predominantly retail-held stock"
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LDR",
+      "company": "LODE RESOURCES LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-01T02:22:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085545-2A1669487",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has changed their position in Lode Resources Ltd, signaling a notable shift in ownership structure that institutional investors should monitor for potential strategic implications.",
+        "The filing is classified as not market sensitive, suggesting the change is likely incremental rather than a transformative block trade or activist accumulation that would materially alter the company's governance dynamics.",
+        "Investors should track whether this represents the beginning of a broader accumulation or disposal trend, as successive substantial holding changes in small-cap ASX miners can precede corporate actions or capital raises."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TOE",
+      "company": "TORO ENERGY LIMITED",
+      "headline": "Scheme Booklet registered with ASIC",
+      "time": "2026-05-01T02:00:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085536-6A1323606",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Toro Energy's Scheme Booklet has been registered with ASIC, marking a critical procedural milestone that advances the proposed acquisition/merger toward a shareholder vote, signaling the deal is progressing through regulatory gates on track.",
+        "ASIC registration confirms the regulator has completed its review without material objection, reducing a key execution risk for the transaction and increasing the probability of scheme completion.",
+        "Next catalyst is the scheme meeting where shareholders will vote on the proposal — institutional investors should monitor the independent expert's conclusion within the booklet and any competing proposal risk ahead of the vote date."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "Burracoppin Mineral Resource Estimate",
+      "time": "2026-05-01T01:56:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085534-6A1323605",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Forrestania Resources has delivered a maiden or updated Mineral Resource Estimate for its Burracoppin project, a key de-risking milestone that enhances the asset's credibility and provides a foundation for scoping or pre-feasibility studies.",
+        "The publication of a JORC-compliant MRE is a critical valuation catalyst for junior explorers, as it transitions the project from pure exploration risk to a quantified resource that can be modelled by institutional investors and potentially attract farm-in or M&A interest.",
+        "Next steps likely include metallurgical testwork, economic studies, and potential infill drilling to upgrade resource confidence categories — investors should watch for follow-up announcements on project economics and any capital requirements to advance development."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RIC",
+      "company": "RIDLEY CORPORATION LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-01T01:41:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085530-3A692494",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Ridley Corporation, signaling active institutional portfolio rebalancing in the animal nutrition and stockfeed sector.",
+        "The filing is classified as not market sensitive, indicating the change likely reflects a marginal shift around the 5% threshold rather than a large-scale accumulation or disposal event.",
+        "Investors should monitor whether this forms part of a broader trend of institutional positioning changes in Ridley, particularly given the company's steady earnings profile and defensive agri-business characteristics."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "OB1",
       "company": "ORBMINCO LIMITED",
