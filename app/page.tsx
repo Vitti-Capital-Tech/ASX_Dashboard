@@ -11,7 +11,7 @@ import AnnouncementRow from '@/components/AnnouncementRow';
 const CATEGORIES = [
   'All Activity', 'Bullish', 'Bearish', 'Neutral', 'Quarterly', 'Results', 'Dividend',
   'Capital Raise', 'AGM', 'Merger & Acquisition',
-  'Trading Halt', 'Board Change', 'Substantial Holding',
+  'Trading Halt', 'Board Change', 'Substantial Holding', 'Whatsapp Messages'
 ];
 
 const REFRESH_MS = 5 * 60 * 1000;
