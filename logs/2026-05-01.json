@@ -1,9 +1,66 @@
 {
   "date": "2026-05-01",
-  "total": 73,
-  "market_sensitive_count": 62,
-  "generated_at": "2026-05-01T00:40:27.927257+00:00",
+  "total": 76,
+  "market_sensitive_count": 65,
+  "generated_at": "2026-05-01T01:37:58.506545+00:00",
   "announcements": [
+    {
+      "ticker": "OB1",
+      "company": "ORBMINCO LIMITED",
+      "headline": "Majestic North  Gold Project - Development Update",
+      "time": "2026-05-01T01:23:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085524-2A1669480",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "OrbMinCo provides a development update on its Majestic North Gold Project, signaling active progression of the asset which is a positive catalyst for a junior explorer seeking to advance toward production milestones.",
+        "Market-sensitive classification suggests material new information — likely relating to drilling results, resource estimates, or permitting progress — that could meaningfully re-rate the company's valuation among gold-focused investors.",
+        "Development updates at this stage typically precede key de-risking events such as feasibility studies or resource upgrades, positioning the company for potential future capital raises or partnership discussions to fund next-phase activities."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KLV",
+      "company": "KLEVO REWARDS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-01T01:08:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085514-6A1323602",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Klevo Rewards Limited has entered a trading halt, suspending shares from trading pending a material announcement — the nature of the pending disclosure is not yet specified but warrants close monitoring given the company's micro-cap profile.",
+        "For a small-cap rewards/loyalty platform company, trading halts frequently precede capital raises or material transactions; any equity raising would likely be significantly dilutive given Klevo's limited market capitalisation and constrained cash runway.",
+        "Investors should await the forthcoming announcement before taking positions — the halt will remain in place until the earlier of the company's announcement or the commencement of normal trading on the second business day following the halt request."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KLV",
+      "company": "KLEVO REWARDS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-05-01T01:00:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03085511-6A1323601",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Klevo Rewards Limited has entered a trading pause, typically preceding a material announcement such as a capital raise, acquisition, or significant corporate update that requires orderly dissemination to the market.",
+        "As a micro-cap rewards/loyalty technology company, any trading pause raises questions about cash runway adequacy and whether the forthcoming announcement involves dilutive funding or a strategic pivot.",
+        "Investors should await the substantive announcement that triggered the pause; the halt prevents price discovery until full details are released, with trading expected to resume once the company satisfies ASX disclosure requirements."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "TMS",
       "company": "TENNANT MINERALS LIMITED",
