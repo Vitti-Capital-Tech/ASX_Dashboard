@@ -1,9 +1,198 @@
 {
   "date": "2026-05-04",
-  "total": 77,
-  "market_sensitive_count": 70,
-  "generated_at": "2026-05-03T23:18:48.476979+00:00",
+  "total": 87,
+  "market_sensitive_count": 78,
+  "generated_at": "2026-05-03T23:35:44.791876+00:00",
   "announcements": [
+    {
+      "ticker": "BTM",
+      "company": "BREAKTHROUGH MINERALS LIMITED",
+      "headline": "$5m Placement to Drive Resource Growth at NQCG Project",
+      "time": "2026-05-03T23:33:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086048-2A1669699",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Breakthrough Minerals raising $5M via placement to accelerate resource growth at its North Queensland Critical Gold (NQCG) Project, signaling confidence in the asset's exploration upside and providing near-term drilling catalysts.",
+        "The $5M raise, while dilutive to existing shareholders, provides meaningful cash runway for a junior explorer to fund resource definition drilling programs aimed at upgrading and expanding the mineral resource base.",
+        "Proceeds earmarked specifically for resource growth suggests the company is targeting a resource upgrade or maiden/expanded resource estimate, which could serve as a key re-rating catalyst if drill results deliver on geological targets."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AVW",
+      "company": "AVIRA RESOURCES LTD",
+      "headline": "Approvals Secured at the High-Grade Mt Cattlin Gold Project",
+      "time": "2026-05-03T23:30:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086043-6A1323840",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Avira Resources has secured key regulatory approvals for its high-grade Mt Cattlin Gold Project, removing a critical permitting hurdle that clears the path toward on-ground exploration and development activities.",
+        "Mt Cattlin is characterized as 'high-grade,' and securing approvals de-risks the project timeline, potentially accelerating drill programs that could define or expand the resource base and attract market re-rating for this micro-cap explorer.",
+        "Next steps likely involve mobilization of drilling rigs and commencement of exploration campaigns; investors should watch for upcoming drill results and resource estimates as key catalysts that will determine whether the project can advance toward feasibility."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALR",
+      "company": "ALTAIR MINERALS LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-05-03T23:27:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086041-3A692590",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Altair Minerals Limited, crossing the 5% ownership threshold, signaling meaningful external investor conviction in the early-stage explorer.",
+        "The accumulation of a substantial position in a micro-cap ASX explorer may reflect strategic positioning ahead of anticipated catalysts such as drilling results or asset acquisitions.",
+        "Investors should monitor whether this stake accumulation is followed by further buying, board engagement, or corporate activity that could influence the company's strategic direction."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HPC",
+      "company": "THE HYDRATION PHARMACEUTICALS COMPANY LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-05-03T23:25:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086039-3A692589",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hydration Pharmaceuticals has been reinstated to quotation on the ASX, signaling resolution of the compliance or disclosure issue that triggered the prior suspension, removing a key liquidity overhang for holders.",
+        "Reinstatement typically follows satisfaction of ASX conditions (e.g., lodgement of outstanding reports, completion of a capital raise, or meeting re-compliance requirements), suggesting the company has addressed material regulatory concerns.",
+        "Investors should monitor the first sessions of resumed trading closely for price discovery dynamics, as pent-up selling pressure or renewed buying interest will reveal market sentiment on the company's current fundamentals and cash position."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CND",
+      "company": "CONDOR ENERGY LIMITED",
+      "headline": "Condor raises $2.25m to advance offshore Peru portfolio",
+      "time": "2026-05-03T23:23:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086033-6A1323808",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Condor Energy raised $2.25M to fund advancement of its offshore Peru exploration portfolio, providing near-term working capital but introducing dilution for existing shareholders in a pre-revenue exploration company.",
+        "The capital raise signals continued investor appetite for the company's Peru assets, though the relatively modest size suggests limited cash runway — likely sufficient for near-term technical work and corporate costs rather than full drilling programs.",
+        "Proceeds will be directed toward progressing the offshore Peru portfolio, with investors needing to monitor how quickly capital is deployed and whether further raises will be required before any material de-risking catalysts such as farm-out agreements or drilling commitments."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AW1",
+      "company": "AMERICAN WEST METALS LIMITED",
+      "headline": "Stategic Placement to Raise A$10 Million",
+      "time": "2026-05-03T23:19:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086028-6A1323795",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "American West Metals is raising A$10 million via strategic placement, signaling institutional interest but introducing dilution for existing shareholders in a junior explorer context.",
+        "The 'strategic' nature of the placement suggests participation from cornerstone or sector-specific investors, potentially validating the company's copper-zinc asset portfolio and near-term development thesis.",
+        "Proceeds likely earmarked for advancing the West Desert or Storm copper projects, extending cash runway and funding critical exploration/development milestones needed to de-risk the asset base."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NXT",
+      "company": "NEXTDC LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-05-03T23:19:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086026-2A1669748",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in NEXTDC (NXT), signaling growing institutional conviction in Australia's leading data centre operator amid surging AI and cloud infrastructure demand.",
+        "The crossing of the 5% substantial holding threshold represents a meaningful capital allocation decision by the acquiring entity, reflecting confidence in NXT's long-term earnings trajectory and hyperscale expansion pipeline.",
+        "Investors should monitor whether this accumulation precedes further buying or strategic engagement, as increased institutional ownership concentration can reduce free float liquidity and support share price stability."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RON",
+      "company": "RONIN RESOURCES LTD",
+      "headline": "Au-Ag-Cu-W Anomalies & Magnetics Strengthen Porphyry Target",
+      "time": "2026-05-03T23:19:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086022-6A1323833",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ronin Resources has identified coincident gold-silver-copper-tungsten geochemical anomalies supported by magnetic survey data, significantly strengthening the case for a porphyry-style mineralisation target — a high-value deposit type that attracts institutional interest if confirmed.",
+        "The convergence of multi-element anomalies (Au-Ag-Cu-W) with geophysical signatures represents a meaningful de-risking of the exploration thesis, elevating the project from conceptual to drill-ready target status and potentially enhancing the company's strategic value.",
+        "Next steps will likely involve drill program planning to test the porphyry target at depth; investors should monitor for upcoming drill permits, funding capacity, and timeline announcements as the company progresses toward resource definition."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AHN",
+      "company": "ATHENA RESOURCES LIMITED",
+      "headline": "$3.5 Million Capital Raising to advance Narryer Project",
+      "time": "2026-05-03T23:18:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086021-6A1323789",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Athena Resources is raising $3.5 million to fund exploration and development at its Narryer Project, signaling commitment to advancing the asset but introducing meaningful dilution for existing shareholders of a micro-cap explorer.",
+        "The capital raise provides critical funding runway for a company likely operating with minimal cash reserves, enabling continued field work and potentially de-risking the Narryer Project through further drilling and geological studies.",
+        "Investors should monitor the placement terms (pricing, discount to market, and any attaching options) as well as the timeline for deploying funds at Narryer, with near-term catalysts likely tied to exploration results and resource definition progress."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LMS",
+      "company": "LITCHFIELD MINERALS LIMITED",
+      "headline": "Response to Price Query",
+      "time": "2026-05-03T23:15:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086018-2A1669742",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Litchfield Minerals issued a Response to Price Query, typically triggered by ASX after unusual share price or volume movements, indicating the exchange is seeking an explanation for recent trading activity",
+        "Standard price query responses generally confirm no undisclosed material information, but the market-sensitive designation suggests the company may have disclosed new information or context that could influence trading decisions",
+        "Investors should monitor whether the response reveals any previously undisclosed developments (e.g. exploration results, corporate activity, or capital raising plans) that may have driven speculative trading in this micro-cap explorer"
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GNG",
       "company": "GR ENGINEERING SERVICES LIMITED",
