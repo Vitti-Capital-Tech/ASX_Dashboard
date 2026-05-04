@@ -1,9 +1,348 @@
 {
   "date": "2026-05-05",
-  "total": 86,
-  "market_sensitive_count": 76,
-  "generated_at": "2026-05-04T23:20:37.837021+00:00",
+  "total": 104,
+  "market_sensitive_count": 92,
+  "generated_at": "2026-05-04T23:42:13.375121+00:00",
   "announcements": [
+    {
+      "ticker": "EPY",
+      "company": "EARLYPAY LTD",
+      "headline": "Change in substantial holding from Tiga Trading Pty Ltd",
+      "time": "2026-05-04T23:39:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086620-2A1670033",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Tiga Trading Pty Ltd has filed a change in substantial holding for Earlypay Ltd (EPY), signaling an adjustment in a significant shareholder's position that institutional investors should monitor for directional intent.",
+        "As a non-market-sensitive filing, the change likely reflects a modest adjustment in Tiga Trading's stake rather than a transformative block trade, but the direction of the change (increase vs decrease) will be key to interpreting strategic intent.",
+        "Investors should review the full notice for details on whether Tiga is accumulating or trimming its position, as sustained buying from a substantial holder could signal confidence in Earlypay's receivables financing business and growth trajectory."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENP",
+      "company": "ENTROPY NEURODYNAMICS LIMITED",
+      "headline": "Entropy files new US patent for IBS program",
+      "time": "2026-05-04T23:38:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086617-6A1324071",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Entropy Neurodynamics has filed a new US patent application for its Irritable Bowel Syndrome (IBS) treatment program, strengthening its intellectual property portfolio and potentially expanding its addressable market in the large US healthcare system.",
+        "For a micro-cap biotech, securing US patent filings is a critical de-risking milestone — IBS affects an estimated 25-45 million Americans, representing a multi-billion dollar therapeutic market that could significantly enhance the company's valuation if the patent is granted and the program advances clinically.",
+        "Investors should monitor the patent examination timeline (typically 18-36 months for US patents), any subsequent clinical trial milestones for the IBS program, and the company's cash runway to fund ongoing R&D and IP protection costs given its pre-revenue status."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EPY",
+      "company": "EARLYPAY LTD",
+      "headline": "Change in substantial holding from TOP",
+      "time": "2026-05-04T23:37:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086616-2A1670034",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Thorney Opportunities Ltd (TOP) has filed a change in substantial holding for Earlypay Ltd, signaling an adjustment in one of the company's key institutional investor positions that warrants monitoring for directional intent.",
+        "Changes in TOP's stake could reflect portfolio rebalancing or a shifting view on Earlypay's valuation in the specialty finance/invoice factoring space, with any material reduction potentially signaling reduced conviction.",
+        "As a non-market-sensitive filing, this is a regulatory disclosure rather than a strategic event; investors should watch for follow-up notices or further stake changes to determine if this represents a trend toward accumulation or divestment."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MRD",
+      "company": "MOUNT RIDLEY MINES LIMITED",
+      "headline": "Gravity Modelling Supports Expansion Potential at Mt Ridley",
+      "time": "2026-05-04T23:36:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086615-6A1324070",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Gravity modelling at Mt Ridley has identified expanded mineralisation potential, reinforcing the geological thesis for a larger-scale nickel-copper-PGE system beyond currently defined targets.",
+        "The geophysical data supports the presence of additional dense mafic-ultramafic intrusive bodies at depth, which could materially increase the project's exploration footprint and future resource base if confirmed by drilling.",
+        "Next steps likely involve follow-up drill programs to test newly identified gravity anomalies; however, as a pre-revenue explorer, Mount Ridley's ability to fund these programs will depend on its cash position and potential future capital raises."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GDR",
+      "company": "GOLDEN DRAGON MINING LTD",
+      "headline": "Excellent First Pass Drilling Results at Behring Bore",
+      "time": "2026-05-04T23:35:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086613-3A692690",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Golden Dragon Mining reports 'excellent' first pass drilling results at Behring Bore, signaling potential for a new gold discovery that could materially expand the company's resource base and re-rate the stock.",
+        "First pass results are significant as they validate the geological thesis at Behring Bore with minimal prior drilling, suggesting high-grade intercepts or broad mineralized zones that warrant follow-up exploration investment.",
+        "Expect near-term catalysts including assay results from remaining holes, follow-up drilling programs, and potential resource estimation — investors should watch for grade, width, and continuity data to assess economic viability."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STM",
+      "company": "SUNSTONE METALS LTD",
+      "headline": "Response to ASX Query Letter",
+      "time": "2026-05-04T23:35:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086612-2A1670032",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sunstone Metals has responded to an ASX query letter, typically issued when the exchange identifies unusual trading activity, potential disclosure concerns, or compliance questions — signaling heightened regulatory scrutiny on the company.",
+        "ASX query responses are procedural but can reveal material information gaps or force early disclosure of developments; the market-sensitive classification suggests the response contains substantive content beyond a routine administrative reply.",
+        "Investors should monitor whether the response satisfactorily addresses ASX concerns, as failure to do so could result in trading halts, additional compliance requirements, or reputational overhang that weighs on the junior explorer's already limited liquidity."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MCA",
+      "company": "MURRAY COD AUSTRALIA LIMITED",
+      "headline": "MCA - ANREO Completion of Institutional Entitlement Offer",
+      "time": "2026-05-04T23:33:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086608-2A1670024",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Murray Cod Australia has completed the institutional component of its accelerated non-renounceable entitlement offer (ANREO), signaling successful capital raising from institutional investors to fund growth or operational needs.",
+        "Completion of the institutional tranche typically locks in a significant portion of the total raise, providing near-term balance sheet certainty and extending cash runway for the aquaculture-focused company.",
+        "The retail entitlement offer component will follow, and investors should watch for take-up rates and any shortfall bookbuild, which will determine total dilution impact and final capital raised."
+      ],
+      "tags": [
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMT",
+      "company": "BEAMTREE HOLDINGS LIMITED",
+      "headline": "$2m Saudi contract win & Strategic Review Interim Update",
+      "time": "2026-05-04T23:33:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086606-2A1670031",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Beamtree secured a $2M contract win in Saudi Arabia, signaling meaningful international traction for its healthcare data analytics platform and validating its Middle East expansion strategy.",
+        "The new contract provides incremental recurring revenue that strengthens near-term cash flow visibility for a micro-cap that has historically faced cash runway scrutiny, with the Saudi market representing a high-growth vertical for health-tech providers.",
+        "A concurrent strategic review interim update suggests the board is actively evaluating corporate options — potentially including M&A, asset sales, or capital structure changes — which could serve as a near-term catalyst or overhang depending on outcomes."
+      ],
+      "tags": [
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "XGL",
+      "company": "XAMBLE GROUP LIMITED",
+      "headline": "$0.67m Placement to Accelerate YToday Integration",
+      "time": "2026-05-04T23:30:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086603-2A1670013",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Xamble Group raising $0.67M via placement to fund integration of YToday acquisition, signaling urgency to capture revenue synergies but highlighting limited balance sheet capacity for a micro-cap company.",
+        "The modest placement size suggests near-term cash runway concerns; at this scale, dilution is relatively contained but raises questions about whether further capital raises will be needed to fully execute the integration roadmap.",
+        "Proceeds earmarked specifically for YToday integration indicate the company is prioritizing this asset as a core growth driver — investors should watch for post-integration revenue metrics and whether the combined platform delivers meaningful user or revenue uplift."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AXL",
+      "company": "AXEL REE LIMITED",
+      "headline": "RIU Resources Round-Up Presentation",
+      "time": "2026-05-04T23:30:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086602-3A692686",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Axel REE Limited is presenting at the RIU Resources Round-Up conference, a key industry event that provides visibility to institutional and sophisticated investors, signaling management's intent to raise the company's profile among resource-focused capital allocators.",
+        "As a rare earth elements (REE) focused explorer, the market-sensitive designation suggests the presentation may contain material project updates, new exploration results, or strategic developments beyond previously disclosed information.",
+        "Conference presentations of this nature often precede capital raising activity or partnership discussions; investors should monitor for any new technical data, resource estimates, or funding commentary that could catalyze near-term re-rating."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "C7A",
+      "company": "CLARA RESOURCES AUSTRALIA LTD",
+      "headline": "LiDAR Survey Identifies Additional Targets at Mareeba",
+      "time": "2026-05-04T23:28:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086600-2A1670030",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "LiDAR survey at Mareeba project has identified additional exploration targets, expanding the prospective footprint and potentially increasing the resource upside for Clara Resources' gold/base metals portfolio.",
+        "The use of high-resolution LiDAR technology to delineate structural and geomorphological features suggests a systematic, data-driven approach to target generation, which could improve drill hit rates and reduce exploration risk in subsequent programs.",
+        "Next steps likely involve ground-truthing and prioritisation of newly identified targets for drilling, though the announcement remains early-stage with no resource or assay data — investors should watch for follow-up drill programs and associated funding requirements."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GA8",
+      "company": "GOLDARC RESOURCES LIMITED",
+      "headline": "High Grade RC Results Confirm Grade Continuity",
+      "time": "2026-05-04T23:27:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086599-6A1324066",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-grade RC drilling results confirm grade continuity at GoldArc's project, de-risking the resource and supporting potential resource upgrade or expansion in future estimates.",
+        "Confirmation of grade continuity through infill or step-out drilling is technically significant, suggesting the mineralised system is robust and may support higher-confidence resource categories (Indicated/Measured), which is critical for feasibility progression.",
+        "Positive drill results are likely to underpin further exploration investment and could serve as a catalyst for resource definition studies or attract farm-in/M&A interest from larger producers seeking high-grade gold assets."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CAN",
+      "company": "CANN GROUP LIMITED",
+      "headline": "Cann announces leadership transition",
+      "time": "2026-05-04T23:25:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086597-3A692685",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cann Group announces a leadership transition, signaling a strategic shift at the executive level that could reshape the company's direction in the competitive Australian medicinal cannabis market.",
+        "Leadership changes at micro-cap cannabis companies like Cann Group often reflect underlying operational or financial pressures; investors should monitor whether this transition is accompanied by any strategic pivot, cost restructuring, or capital management changes.",
+        "Key watch items include the incoming leader's track record, any changes to Cann's commercialization strategy for its Mildura facility, and whether the transition impacts partnerships, regulatory approvals, or the company's already constrained cash runway."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DAI",
+      "company": "DECIDR AI INDUSTRIES LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-04T23:24:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086595-6A1324064",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "DECIDR AI INDUSTRIES LTD has entered a trading halt, suspending shares from trading pending a material announcement — typical precursor to capital raise, acquisition, or significant corporate action in the AI/tech space.",
+        "As a micro-cap ASX-listed AI company, any capital raise during a trading halt would likely be dilutive; investors should watch for placement pricing relative to last traded price and the quantum of funds sought versus current market capitalisation.",
+        "The halt signals imminent disclosure — institutional investors should await the detailed announcement to assess whether the catalyst is transformative (e.g. major contract, M&A) or balance-sheet driven (e.g. equity raise to extend cash runway), which will determine directional bias."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAR",
+      "company": "ASTRAL RESOURCES NL",
+      "headline": "Mandilla Gold Project Exploration & Development Update",
+      "time": "2026-05-04T23:24:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086593-6A1324065",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Astral Resources provides a combined exploration and development update on its Mandilla Gold Project, signaling active progression toward potential production milestones and continued resource delineation efforts.",
+        "Market-sensitive classification suggests material new information — likely including updated drilling results, resource estimates, or development timeline revisions that could meaningfully impact the project's NPV and de-risk the asset for investors.",
+        "Dual focus on both exploration and development indicates the company is advancing on parallel tracks, which is a positive signal for near-term catalysts including feasibility study progress and potential resource upgrades at Mandilla."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DBO",
+      "company": "DIABLO RESOURCES LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-05-04T23:22:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086591-6A1324062",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Diablo Resources has been suspended from quotation on the ASX, indicating a potential compliance issue, corporate action, or failure to meet listing requirements that warrants immediate trading cessation.",
+        "Suspension from quotation (as distinct from a voluntary trading halt) is typically ASX-imposed, suggesting the company may have failed to lodge required documents, breached listing rules, or faces material uncertainty that the exchange deems necessitates investor protection.",
+        "Investors should monitor for follow-up announcements detailing the reason for suspension and any conditions for reinstatement; prolonged suspension risks illiquidity and potential delisting, which would be materially adverse for shareholders."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "VCD",
+      "company": "VICINITY CENTRES TRUST",
+      "headline": "March 2026 quarterly update",
+      "time": "2026-05-04T23:22:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086592-2A1670025",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Vicinity Centres Trust releases March 2026 quarterly update, providing investors with key operational metrics on its retail-focused property portfolio including occupancy rates, leasing spreads, and foot traffic trends across its major shopping centres.",
+        "As a major Australian retail REIT, quarterly updates typically detail comparable net operating income growth, specialty sales productivity ($/sqm), and portfolio occupancy — metrics critical for assessing rental income sustainability and distribution coverage.",
+        "Market-sensitive designation suggests material data points that could influence near-term trading; investors should focus on leasing momentum, tenant retention rates, and any updated FY26 guidance or distribution forecasts relative to consensus expectations."
+      ],
+      "tags": [
+        "Quarterly",
+        "Property",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VNT",
+      "company": "VENTIA SERVICES GROUP LIMITED",
+      "headline": "Ventia awarded Victorian Road Maintenance Contracts",
+      "time": "2026-05-04T23:21:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086590-2A1670023",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ventia has been awarded Victorian road maintenance contracts, reinforcing its position as a leading infrastructure services provider and expanding its government contract backlog, which provides long-term revenue visibility.",
+        "Victorian road maintenance contracts are typically multi-year agreements worth significant recurring revenue; this win strengthens Ventia's Infrastructure Services segment and supports top-line growth trajectory in a defensive, government-funded end market.",
+        "The contract award de-risks near-term earnings forecasts and signals continued momentum in securing large-scale public infrastructure mandates, positioning Ventia favorably ahead of further state and federal infrastructure spending cycles."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "PL3",
       "company": "PATAGONIA LITHIUM LTD",
