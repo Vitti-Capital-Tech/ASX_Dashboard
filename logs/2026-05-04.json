@@ -1,9 +1,388 @@
 {
   "date": "2026-05-04",
-  "total": 87,
-  "market_sensitive_count": 78,
-  "generated_at": "2026-05-03T23:35:44.791876+00:00",
+  "total": 107,
+  "market_sensitive_count": 95,
+  "generated_at": "2026-05-04T00:00:33.533739+00:00",
   "announcements": [
+    {
+      "ticker": "LGM",
+      "company": "LEGACY MINERALS HOLDINGS LIMITED",
+      "headline": "Mt Carrington Scoping Study",
+      "time": "2026-05-03T23:56:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086101-2A1669775",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Legacy Minerals has released a Scoping Study for its Mt Carrington project, a key de-risking milestone that signals the company is advancing toward pre-feasibility stage and demonstrates project viability to the market.",
+        "The Scoping Study will outline preliminary economics including potential production rates, capital and operating cost estimates, and project NPV/IRR — critical metrics for institutional investors to assess whether the asset warrants further investment or partnership interest.",
+        "Completion of the Scoping Study positions Legacy Minerals to pursue next-stage development decisions, potential joint ventures, or capital raising to fund a Pre-Feasibility Study, with the market-sensitive tag suggesting materially positive or defining economics for the project."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CLA",
+      "company": "CELSIUS RESOURCES LIMITED.",
+      "headline": "Pause in Trading",
+      "time": "2026-05-03T23:55:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086098-6A1323863",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Celsius Resources has entered a voluntary trading pause, typically preceding a material announcement such as a capital raise, asset transaction, or significant corporate update.",
+        "As a junior mining company with the Maalinao-Caigutan-Biyog (MCB) copper-gold project in the Philippines, any trading halt raises questions about funding adequacy and project development milestones given the capital-intensive nature of the asset.",
+        "Investors should monitor for the pending announcement closely — the market-sensitive tag suggests the forthcoming disclosure could materially impact valuation, with capital raise dilution being the most common outcome for junior miners requesting trading pauses."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DTI",
+      "company": "DTI GROUP LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-03T23:54:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086097-6A1323862",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in DTI Group Ltd has filed a change in their holding, signaling active portfolio repositioning by a significant shareholder in this small-cap technology company.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is relatively modest and unlikely to reflect a major strategic shift or takeover-related accumulation.",
+        "Investors should monitor whether this forms part of a broader pattern of accumulation or disposal, as successive substantial holding changes in micro/small-cap names like DTI can foreshadow liquidity events or corporate activity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IEL",
+      "company": "IDP EDUCATION LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-05-03T23:53:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086096-3A692605",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in IDP Education, indicating a major institutional investor has reduced their stake below the 5% disclosure threshold, which may signal a shift in conviction or portfolio rebalancing.",
+        "The exit of a substantial holder frees up a meaningful block of shares into the market, potentially increasing near-term liquidity but also raising questions about whether the seller sees limited upside at current valuations for IDP's IELTS testing and student placement business.",
+        "As a procedural filing marked not market sensitive, the immediate price impact is likely muted; however, investors should monitor whether other substantial holders follow suit or if this creates an opportunity for new institutional accumulation at current levels."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BDM",
+      "company": "BURGUNDY DIAMOND MINES LIMITED",
+      "headline": "ACDC files for Creditor Protection",
+      "time": "2026-05-03T23:51:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086095-6A1323842",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ACDC (Arctic Canadian Diamond Company), a key partner or counterparty to Burgundy Diamond Mines, has filed for creditor protection — signaling severe financial distress that could disrupt supply chains, joint venture arrangements, or receivables owed to BDM.",
+        "Creditor protection filings typically freeze obligations and restructure debts, raising material uncertainty around any revenue streams, offtake agreements, or asset interests Burgundy holds that are linked to ACDC's operations.",
+        "Investors should closely monitor whether BDM has direct financial exposure (receivables, deposits, or equity interests) to ACDC and assess potential impairment charges, operational disruptions, or forced renegotiation of commercial terms."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ZMM",
+      "company": "ZIMI LIMITED",
+      "headline": "Placement to raise A$1.4 million",
+      "time": "2026-05-03T23:49:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086087-6A1323851",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "ZIMI LIMITED is raising A$1.4 million via placement, indicating the micro-cap smart home technology company requires additional funding to sustain operations, signaling limited near-term self-funding capacity.",
+        "At this scale, the raise is likely to result in meaningful dilution for existing shareholders given ZIMI's small market capitalisation, with placement pricing and discount to last traded price being key metrics for assessing shareholder impact.",
+        "Proceeds are expected to extend cash runway and fund continued product development and commercialisation efforts, but the modest raise size suggests the company may need to return to market again if revenue traction does not accelerate."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NGI",
+      "company": "NAVIGATOR GLOBAL INVESTMENTS LIMITED",
+      "headline": "Acquisition and Equity Raising Investor Presentation",
+      "time": "2026-05-03T23:48:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086083-2A1669731",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Navigator Global Investments is pursuing a strategic acquisition supported by an equity raising, signaling a transformative growth move that will reshape the company's asset management platform and revenue profile",
+        "The concurrent equity raising introduces near-term dilution for existing shareholders, but the capital structure is being optimized to fund what management positions as an accretive transaction — investors should scrutinize pro-forma earnings, AUM uplift, and integration cost assumptions",
+        "Market-sensitive disclosure with investor presentation suggests the deal is material in scale; execution risk and integration timelines will be key watchpoints, with the equity raise likely placing a near-term floor under the stock via institutional pricing"
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "1AD",
+      "company": "ADALTA LIMITED",
+      "headline": "$2.5m placement",
+      "time": "2026-05-03T23:47:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086081-3A692586",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "AdAlta Limited raises $2.5m via placement, providing near-term funding but introducing dilution for existing shareholders in a micro-cap biotech with limited revenue generation capacity.",
+        "The modest size of the raise ($2.5m) suggests the company is managing cash burn incrementally rather than securing a substantial runway, signaling potential need for further capital raises in the near to medium term.",
+        "Proceeds likely directed toward advancing its i-body technology platform and lead candidate AD-214; investors should monitor upcoming clinical milestones and remaining cash runway post-placement to assess whether this capital is sufficient to reach value-inflecting catalysts."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NGI",
+      "company": "NAVIGATOR GLOBAL INVESTMENTS LIMITED",
+      "headline": "Acquisition and Equity Raising",
+      "time": "2026-05-03T23:46:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086078-2A1669730",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Navigator Global Investments is pursuing a strategic acquisition paired with an equity raising, signaling a transformative growth initiative that could materially expand AUM and diversify revenue streams across its alternative asset management platform.",
+        "The concurrent equity raising introduces near-term dilution risk for existing shareholders, though the capital structure implications depend on the size of the raise relative to market cap and the earnings accretion profile of the target asset — institutional investors should scrutinize the acquisition multiple and funding mix closely.",
+        "Market-sensitive disclosure suggests material terms have been agreed; key watch items include integration execution risk, pro-forma earnings guidance, and whether the deal accelerates Navigator's strategic pivot toward higher-margin alternative investment capabilities."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ADX",
+      "company": "ADX ENERGY LTD",
+      "headline": "ADX HOCH-1 Well Operations Update",
+      "time": "2026-05-03T23:46:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086077-6A1323857",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ADX Energy provides an operational update on the HOCH-1 well in Austria's Upper Austrian Molasse Basin, signaling active progress on a key European onshore energy asset that could materially de-risk the company's production growth strategy.",
+        "Well operations updates for exploration/appraisal wells are critical catalysts for micro-cap E&P companies like ADX; successful drilling results could unlock near-term production revenue and significantly re-rate the stock given its small market capitalization.",
+        "Investors should monitor upcoming flow test results and completion data from HOCH-1, as positive outcomes would strengthen ADX's pathway to cash-flow generation from its Austrian portfolio and reduce reliance on further capital raises."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALM",
+      "company": "ALMA METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-03T23:46:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086076-6A1323856",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Alma Metals has entered a trading halt, typically preceding a material announcement such as a capital raise, asset transaction, or significant exploration result for this junior mining company.",
+        "As a small-cap ASX-listed explorer (focused on copper-gold projects in Queensland), any capital raise during a trading halt would likely be dilutive to existing shareholders given the company's limited revenue base and reliance on equity funding.",
+        "Investors should await the pending announcement — the trading halt removes price discovery temporarily, and the nature of the news (capital raise vs. exploration milestone) will be the key determinant of near-term share price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZEO",
+      "company": "ZEOTECH LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-03T23:45:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086075-6A1323855",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Zeotech Limited has filed a change in their holding, signaling a notable shift in ownership concentration that institutional investors should monitor for governance and liquidity implications.",
+        "Without specific details on whether the holding increased or decreased, the filing is procedural in nature but may reflect portfolio rebalancing or strategic positioning by a major shareholder in this micro-cap technology company.",
+        "Investors should watch for follow-up disclosures or trading activity that could clarify whether this represents accumulation (potential confidence signal) or distribution (potential exit signal) by the substantial holder."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HAR",
+      "company": "HARANGA RESOURCES LIMITED.",
+      "headline": "High Grade Mineralised Repetitions Confirmed",
+      "time": "2026-05-03T23:43:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086072-6A1323826",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Haranga Resources has confirmed high-grade mineralised repetitions at its project, suggesting structural complexity that could significantly expand the resource base beyond initial estimates and enhance project economics.",
+        "Confirmation of repeated high-grade zones is technically significant as it indicates stacked or folded mineralisation, potentially multiplying mineable tonnage within a compact footprint and improving strip ratios for any future mining scenario.",
+        "Next steps likely involve updated resource modelling incorporating the repeated zones, which could serve as a catalyst for a resource upgrade and attract further market attention or partnership interest in the asset."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AUZ",
+      "company": "AUSTRALIAN MINES LIMITED",
+      "headline": "Strategic placement by internationally renowned fund",
+      "time": "2026-05-03T23:39:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086065-2A1669759",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Australian Mines Limited has secured a strategic placement from an internationally renowned fund, signaling strong institutional validation of the company's asset base and growth trajectory — a meaningful endorsement for a junior miner seeking credibility with larger capital allocators.",
+        "The placement introduces dilution for existing shareholders, but the involvement of a reputable global fund typically improves secondary market liquidity and can anchor future capital raises at more favorable terms, extending cash runway for project development.",
+        "Key watch items include the placement price relative to market (discount magnitude), use of proceeds (exploration vs. development vs. working capital), and whether the fund secured any strategic rights such as board representation or anti-dilution protections that could influence corporate governance."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DM1",
+      "company": "DESERT METALS LIMITED",
+      "headline": "Stream sediment sampling defines 5km gold anomaly at Adzope",
+      "time": "2026-05-03T23:38:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086062-6A1323849",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Desert Metals has identified a significant 5km gold anomaly at its Adzope project in Côte d'Ivoire through stream sediment sampling, representing a material exploration target that could substantially expand the project's prospectivity and resource potential.",
+        "The scale of the anomaly (5km strike length) is noteworthy for an early-stage explorer and suggests a potentially large gold system, though follow-up soil sampling and drilling will be required to confirm grade and continuity before any resource estimation.",
+        "As a micro-cap explorer, Desert Metals will likely need to fund follow-up programs including detailed geochemistry and drill testing; investors should monitor upcoming work programs and the company's cash position to assess whether a capital raise may be required to advance the target."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "Tycho Mineral Resource Estimate",
+      "time": "2026-05-03T23:37:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086061-6A1323846",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Forrestania Resources has delivered a maiden Mineral Resource Estimate for its Tycho deposit, a key de-risking milestone that establishes a quantified resource base and enhances the project's credibility for future development or partnership discussions.",
+        "The publication of a JORC-compliant MRE provides the market with defined tonnage and grade metrics, enabling institutional investors to benchmark Tycho against peer deposits and assess potential economic viability — critical for re-rating a junior explorer.",
+        "Next steps likely include scoping or pre-feasibility studies, additional infill drilling to upgrade resource confidence categories, and potential metallurgical testwork — all of which will determine the pathway to development and influence future capital requirements."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ODE",
+      "company": "ODESSA MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-03T23:35:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086055-6A1323844",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Odessa Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration update that requires price-sensitive disclosure.",
+        "As a micro-cap ASX-listed minerals explorer, any trading halt raises immediate questions about cash runway adequacy — a capital raise scenario would likely be dilutive to existing shareholders given the company's small market capitalisation.",
+        "Investors should await the formal announcement expected within two business days; the nature of the pending disclosure (equity raise vs. asset transaction vs. exploration result) will be the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMR",
+      "company": "BALLYMORE RESOURCES LIMITED",
+      "headline": "Entitlement Offer Prospectus",
+      "time": "2026-05-03T23:35:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086054-2A1669747",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Ballymore Resources is conducting a pro-rata entitlement offer, which will dilute existing shareholders but provide fresh capital to fund exploration and development activities at its gold-copper projects.",
+        "As a junior explorer, the capital raise is likely critical to extending cash runway given limited or no revenue generation, with the prospectus detailing the offer terms, pricing discount, and intended use of funds for advancing its mineral assets.",
+        "Investors should assess the offer price discount to market, participation rate expectations, and whether the raise is underwritten — key factors that will determine the degree of dilution and near-term price pressure on BMR shares."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BTE",
+      "company": "BOTALA ENERGY LTD",
+      "headline": "Replacement Response to ASX Price Query",
+      "time": "2026-05-03T23:35:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086053-6A1323843",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Botala Energy issued a replacement response to an ASX price query, indicating unusual trading activity that prompted exchange scrutiny — typically a signal of information asymmetry or speculative activity ahead of material developments.",
+        "The document is classified as a Capital Raise, suggesting the company may be preparing or has recently undertaken equity funding, which for a micro-cap energy explorer implies potential dilution but also near-term project funding certainty.",
+        "Investors should monitor for follow-up announcements detailing the capital raise terms (pricing, discount to VWAP, placement size) and any associated project milestones that may justify the recent price movement."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BMR",
+      "company": "BALLYMORE RESOURCES LIMITED",
+      "headline": "Capital raising of up to $4.7m to accelerate exploration",
+      "time": "2026-05-03T23:34:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086052-2A1669746",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ballymore Resources is raising up to $4.7M to accelerate exploration activities, signaling management confidence in advancing its project pipeline but introducing dilution for existing shareholders.",
+        "The relatively modest raise size suggests the company is likely at an early-stage exploration phase, with the capital intended to fund near-term drilling programs and extend cash runway rather than fund development or production milestones.",
+        "Investors should monitor the placement terms (pricing, discount to market, participation rights) and whether the funds are earmarked for specific high-priority targets that could serve as near-term catalysts for re-rating."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BTM",
       "company": "BREAKTHROUGH MINERALS LIMITED",
