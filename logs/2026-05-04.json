@@ -1,9 +1,219 @@
 {
   "date": "2026-05-04",
-  "total": 107,
-  "market_sensitive_count": 95,
-  "generated_at": "2026-05-04T00:00:33.533739+00:00",
+  "total": 118,
+  "market_sensitive_count": 106,
+  "generated_at": "2026-05-04T00:38:18.104597+00:00",
   "announcements": [
+    {
+      "ticker": "AM7",
+      "company": "ARCADIA MINERALS LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-05-04T00:27:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086132-6A1323871",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Arcadia Minerals issued a response to an ASX price query, typically triggered by unusual share price movement or trading volume, suggesting the exchange is scrutinizing recent market activity in the stock.",
+        "The company's response to the price query likely confirms no undisclosed material information, but the query itself signals heightened regulatory attention and potential speculative trading activity that institutional investors should monitor closely.",
+        "As a junior mining company, any unexplained price volatility without fundamental catalysts raises concerns about information asymmetry or market speculation; investors should await clarity on whether the price movement is driven by genuine project developments or market noise."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AM7",
+      "company": "ARCADIA MINERALS LIMITED",
+      "headline": "Retraction and Clarification to ASX Announcement 27.04.26",
+      "time": "2026-05-04T00:26:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086131-6A1323874",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Arcadia Minerals has issued a retraction and clarification to a prior ASX announcement dated 27 April 2026, suggesting material errors or misleading information were contained in the original release — a governance red flag for institutional investors.",
+        "Retractions of market-sensitive announcements can indicate internal compliance or disclosure process weaknesses, potentially undermining investor confidence and raising questions about the reliability of future company communications.",
+        "Investors should closely monitor the clarified details for any substantive changes to previously disclosed operational, financial, or strategic information that could alter the investment thesis or valuation assumptions for the junior miner."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AKO",
+      "company": "AKORA RESOURCES LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-05-04T00:21:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086129-3A692609",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Akora Resources has been reinstated to quotation on the ASX, ending a trading halt period that had suspended liquidity for shareholders — a procedural but necessary step to restore market access.",
+        "Reinstatement typically follows resolution of a compliance matter, capital raise completion, or material disclosure requirement — investors should review the preceding announcements during the halt period for the substantive catalyst.",
+        "Near-term trading may see elevated volume and volatility as pent-up buy/sell orders are executed; the underlying driver of the halt (likely related to the company's Madagascar iron ore assets or corporate activity) will determine sustained price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AKO",
+      "company": "AKORA RESOURCES LIMITED",
+      "headline": "Equity Raise Comprising Placement and Entitlement Offer",
+      "time": "2026-05-04T00:20:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086122-3A692584",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Akora Resources is conducting an equity raise comprising both a placement and entitlement offer, signaling near-term capital needs likely tied to advancing its iron ore exploration/development projects in Madagascar.",
+        "The combined placement and entitlement offer structure suggests the company is seeking to balance speed of funding (placement) with shareholder participation rights (entitlement offer), though the raise will result in meaningful dilution for a micro-cap explorer.",
+        "Proceeds are expected to extend cash runway and fund ongoing exploration or feasibility work; investors should watch for the offer price discount, total raise size, and whether institutional demand signals confidence in the project pipeline."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "EAR",
+      "company": "PIMCO SHORT TERM ACTIVE YIELD ACTIVE ETF",
+      "headline": "PIMCO ETF - April 2026 Final Distribution",
+      "time": "2026-05-04T00:09:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086114-2A1669778",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PIMCO Short Term Active Yield ETF has declared its final distribution for April 2026, signaling continued income generation for unitholders in the short-duration fixed income space.",
+        "As a market-sensitive announcement, the distribution details are material for investors tracking yield and cash flow from this actively managed short-term bond ETF, which serves as a cash-proxy allocation for institutional portfolios.",
+        "The final distribution designation suggests a periodic (likely monthly) payout consistent with PIMCO's distribution schedule; investors should monitor the ex-date and record date for portfolio positioning and reinvestment decisions."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BRX",
+      "company": "BELARAROX LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-04T00:05:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086112-6A1323869",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "BELARAROX LIMITED has entered a trading halt, suspending shares from trading pending a material announcement — typical for capital raises, asset transactions, or significant corporate developments for micro-cap explorers.",
+        "As a small-cap ASX-listed explorer, any trading halt raises immediate questions about cash runway; a capital raise scenario would likely be dilutive, while an acquisition or JV could be value-accretive depending on terms.",
+        "Investors should await the pending announcement before repositioning; the halt is expected to last up to two trading days per ASX Listing Rules, with the nature of the news determining near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NRZ",
+      "company": "NEURIZER LTD",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-05-04T00:03:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086111-2A1669776",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Neurizer Ltd's quarterly activities and Appendix 5B filing provides updated cash flow visibility — investors should scrutinize net operating cash outflows and remaining cash reserves to assess runway sustainability for this pre-revenue/early-stage technology company.",
+        "As a market-sensitive quarterly report, key metrics to watch include the rate of cash burn relative to prior quarters, any material changes in receipts from customers, and the adequacy of cash on hand to fund operations beyond the next 12 months without further capital raising.",
+        "The filing signals potential near-term capital management decisions — if cash runway is tightening, investors should anticipate possible dilutive capital raises or strategic pivots, while any improvement in commercial traction or reduced burn rate could provide upside catalyst."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALA",
+      "company": "AROVELLA THERAPEUTICS LIMITED",
+      "headline": "Board Refresh and CEO Resignation",
+      "time": "2026-05-04T00:00:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086109-3A692607",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CEO resignation combined with a board refresh signals significant strategic or operational disruption at Arovella Therapeutics, raising governance and execution risk for the pre-revenue biotech's clinical pipeline.",
+        "Leadership turnover at this stage is particularly concerning given Arovella's limited cash runway typical of micro-cap biotechs — investors should scrutinize whether this triggers delays to iNKT cell therapy development milestones or necessitates a near-term capital raise under weakened negotiating conditions.",
+        "Incoming board composition and speed of CEO replacement will be critical signals; prolonged vacancy or further departures would amplify uncertainty and likely weigh on an already thinly-traded stock."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BTL",
+      "company": "BEETALOO ENERGY AUSTRALIA LIMITED",
+      "headline": "SPP Fully Underwritten and Supplementary NOM",
+      "time": "2026-05-04T00:00:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086108-2A1669777",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Beetaloo Energy's Share Purchase Plan (SPP) is now fully underwritten, eliminating funding uncertainty and guaranteeing the company will raise the targeted capital regardless of retail investor participation levels.",
+        "Full underwriting of the SPP strengthens the company's cash runway and balance sheet, providing greater certainty for near-term exploration and development activities in the Beetaloo Sub-basin — a key emerging onshore gas play in the Northern Territory.",
+        "A Supplementary Notice of Meeting signals additional resolutions for shareholder consideration, potentially involving board changes, capital structure amendments, or strategic initiatives that investors should monitor closely for governance and strategic direction shifts."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SRZ",
+      "company": "STELLAR RESOURCES LIMITED",
+      "headline": "$22.1M Placement to Advance Heemskirk",
+      "time": "2026-05-03T23:59:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086106-3A692602",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Stellar Resources is raising $22.1M via placement to advance the Heemskirk tin project, signaling a significant step toward development funding for one of Australia's key undeveloped tin assets amid strong tin market fundamentals.",
+        "The $22.1M raise represents substantial dilution for existing shareholders, though the capital injection provides meaningful runway to progress Heemskirk through critical development milestones including feasibility work and potential permitting activities.",
+        "Placement proceeds earmarked specifically for Heemskirk advancement suggest the company is transitioning from exploration to a more capital-intensive development phase, with execution risk now shifting to project delivery and tin price sustainability."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BRX",
+      "company": "BELARAROX LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-05-03T23:58:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086104-6A1323865",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BelararoX Limited has entered a voluntary pause in trading, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update.",
+        "As a micro-cap ASX-listed explorer, any trading halt raises immediate questions about cash runway adequacy and whether the pause precedes a dilutive equity raising or transformative transaction.",
+        "Investors should await the accompanying announcement that triggered the halt; the market-sensitive tag suggests the forthcoming news will have a direct impact on valuation and trading activity upon resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "LGM",
       "company": "LEGACY MINERALS HOLDINGS LIMITED",
