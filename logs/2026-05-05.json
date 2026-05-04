@@ -1,9 +1,219 @@
 {
   "date": "2026-05-05",
-  "total": 75,
-  "market_sensitive_count": 65,
-  "generated_at": "2026-05-04T23:12:28.845414+00:00",
+  "total": 86,
+  "market_sensitive_count": 76,
+  "generated_at": "2026-05-04T23:20:37.837021+00:00",
   "announcements": [
+    {
+      "ticker": "PL3",
+      "company": "PATAGONIA LITHIUM LTD",
+      "headline": "Formentera Lithium Well 7 Environmental Study Completed",
+      "time": "2026-05-04T23:17:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086587-3A692684",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Completion of the environmental study for Formentera Lithium Well 7 represents a key regulatory milestone, clearing a pathway toward potential drilling and resource delineation at the project.",
+        "For a junior explorer like Patagonia Lithium, progressing permitting and environmental approvals is critical to de-risking the asset and maintaining project timelines without costly delays.",
+        "Next steps likely involve applying for drilling permits and commencing exploration activities at Well 7, with investors watching for resource estimates and further technical data to support valuation."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SOP",
+      "company": "SYNERTEC CORPORATION LIMITED",
+      "headline": "Synertec Enters Strategic Collaboration with Hitachi Energy",
+      "time": "2026-05-04T23:15:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086580-3A692679",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Synertec has entered a strategic collaboration with Hitachi Energy, a global leader in power systems, to jointly develop and deliver advanced energy solutions — a significant validation of Synertec's technology capabilities and a potential pathway to materially larger project pipelines.",
+        "The partnership with a $10B+ revenue multinational like Hitachi Energy could transform Synertec's revenue trajectory, providing access to Hitachi's global customer base and infrastructure projects, though specific financial terms and near-term revenue impact remain undisclosed.",
+        "For a micro-cap company (~A$20M market cap), this collaboration de-risks the commercialisation pathway and positions Synertec within the accelerating energy transition capex cycle — investors should watch for first joint project announcements and contract wins as key catalysts."
+      ],
+      "tags": [
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TR2",
+      "company": "TALI RESOURCES LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-04T23:14:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086577-6A1324060",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "TALI RESOURCES LTD has entered a trading halt, typically requested by the company pending a material announcement that could significantly impact the share price.",
+        "As a junior explorer, trading halts frequently precede capital raises (placing downward pressure via dilution) or material exploration results; investors should monitor the nature of the forthcoming announcement closely.",
+        "Trading will remain suspended until the announcement is released or a maximum of two business days, with the next disclosure likely to clarify whether this is a funding event or an operational update."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JNS",
+      "company": "JANUS ELECTRIC HOLDINGS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-04T23:13:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086575-2A1670014",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Janus Electric Holdings has entered a trading halt, typically requested by the company pending a material announcement — for a micro-cap EV infrastructure play, this often signals a capital raise or strategic transaction.",
+        "As a pre-revenue company focused on electric truck battery-swap technology, any capital raise would likely be dilutive and critical for extending cash runway, which is a key concern for institutional holders.",
+        "Investors should await the pending announcement for clarity on whether this relates to a capital raise, partnership, or other material development before reassessing position sizing and valuation."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GMD",
+      "company": "GENESIS MINERALS LIMITED",
+      "headline": "Outstanding Leonora drilling paves way for more organic grow",
+      "time": "2026-05-04T23:13:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086574-6A1324059",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Genesis Minerals reports outstanding drilling results at Leonora, signaling significant organic growth potential beyond existing mine plans and resource bases, which could materially extend mine life and enhance the production profile.",
+        "High-grade intercepts from the drilling program are expected to support resource upgrades and potentially feed into updated feasibility studies, strengthening the company's position as a consolidating mid-tier gold producer in the Leonora district.",
+        "The emphasis on organic growth pathways suggests Genesis can expand production without dilutive capital raises or M&A, preserving shareholder value while building a larger, longer-life gold operation in a tier-1 jurisdiction."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GMD",
+      "company": "GENESIS MINERALS LIMITED",
+      "headline": "Resources total 18.9Moz, including 4.4Moz in Reserves",
+      "time": "2026-05-04T23:12:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086573-6A1324057",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Genesis Minerals reports a substantial total resource base of 18.9Moz gold, with 4.4Moz converted to Ore Reserves, signaling a maturing asset portfolio that underpins long-term mine life and production growth potential in the Leonora gold district.",
+        "The 4.4Moz Reserve figure provides strong visibility on future production scheduling and cash flow generation, a critical metric for institutional investors assessing NAV and DCF valuations against current market capitalization.",
+        "Resource growth of this magnitude positions Genesis to potentially support expanded throughput scenarios, attract M&A interest, or pursue project financing on favorable terms, with the market likely to re-rate the stock closer to peer multiples on a per-ounce basis."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TG1",
+      "company": "TECHGEN METALS LTD",
+      "headline": "Sydney RIU Investor Presentation",
+      "time": "2026-05-04T23:12:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086571-6A1324058",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TechGen Metals presenting at the Sydney RIU Investor Conference, a key platform for junior explorers to attract institutional capital and raise market visibility among resource-focused investors.",
+        "Market-sensitive designation suggests the presentation may contain new exploration results, project updates, or strategic developments beyond previously disclosed information that could materially impact valuation.",
+        "Investor conference presentations by micro-cap explorers often precede capital raising activity; investors should monitor for follow-up announcements regarding placement or SPP activity in the near term."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPG",
+      "company": "SPC GLOBAL HOLDINGS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-04T23:12:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086570-3A692680",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "SPC Global Holdings has entered a trading halt, suspending shares from trading pending a material announcement — the nature of the pending disclosure is not yet specified but warrants close monitoring given the company's micro-cap profile.",
+        "Trading halts for small-cap ASX-listed companies frequently precede capital raises (placements or rights issues), potential acquisitions, or material contract announcements — any of which could materially shift the company's valuation and liquidity profile.",
+        "Investors should await the forthcoming announcement before repositioning; the halt introduces near-term uncertainty, and the specific catalyst will determine whether the outcome is dilutive (capital raise) or accretive (strategic transaction or contract win)."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SGQ",
+      "company": "ST GEORGE MINING LIMITED",
+      "headline": "Drilling Expands High-Grade Mineralisation at Araxa",
+      "time": "2026-05-04T23:11:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086569-6A1324056",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling at the Araxa rare earths/niobium project in Brazil has successfully expanded high-grade mineralisation zones, reinforcing the project's resource growth trajectory and strategic value amid strong global demand for critical minerals.",
+        "The expansion of high-grade intercepts beyond previously known boundaries suggests potential for material resource upgrades, which could meaningfully de-risk the asset and attract partner/offtake interest at a critical development stage for St George Mining.",
+        "Next catalysts include updated resource estimates incorporating the new drill results, with further drilling likely planned to test extensions — investors should monitor for a revised MRE and any strategic partnership announcements that could unlock value."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HCH",
+      "company": "HOT CHILI LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-05-04T23:11:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086568-6A1324051",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hot Chili responded to an ASX price query regarding unusual share price or volume movements, which typically indicates the exchange is seeking confirmation of any undisclosed material information driving recent trading activity.",
+        "ASX price queries often follow significant share price appreciation or elevated volumes; the company's response (likely confirming no undisclosed information) suggests recent price action may be speculative or driven by market sentiment rather than fundamental catalysts.",
+        "Investors should monitor for any follow-up announcements or potential capital raise activity, as price queries can sometimes precede corporate actions; the response itself is procedural but flags heightened market attention on the copper-gold developer."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ICR",
+      "company": "INTELICARE HOLDINGS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-04T23:09:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086565-6A1324053",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "InteliCare Holdings has entered a trading halt, typically preceding a material announcement such as a capital raise, acquisition, or significant corporate update for this micro-cap health-tech company.",
+        "As a small-cap ASX-listed technology/healthcare company with historically limited cash runway, a trading halt frequently signals an imminent capital raise which would likely be dilutive to existing shareholders.",
+        "Investors should await the pending announcement before taking positions; the halt will remain in place until the company makes its disclosure or until the commencement of normal trading, whichever is earlier."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CRI",
       "company": "CRITICA LIMITED",
