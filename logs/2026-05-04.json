@@ -1,9 +1,104 @@
 {
   "date": "2026-05-04",
-  "total": 118,
-  "market_sensitive_count": 106,
-  "generated_at": "2026-05-04T00:38:18.104597+00:00",
+  "total": 123,
+  "market_sensitive_count": 111,
+  "generated_at": "2026-05-04T01:37:42.549660+00:00",
   "announcements": [
+    {
+      "ticker": "MNC",
+      "company": "MERINO & CO. LIMITED",
+      "headline": "MERINO & CO. SECURES EXCLUSIVE CHINA DISTRIBUTION AGREEMENT",
+      "time": "2026-05-04T01:11:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086155-6A1323886",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Merino & Co. has secured an exclusive distribution agreement for the Chinese market, potentially unlocking significant revenue upside given China's scale as a consumer market for premium Australian products.",
+        "The market-sensitive designation signals material expected impact on financials; exclusive arrangements typically provide pricing power and volume certainty, which could meaningfully accelerate top-line growth and improve forward earnings visibility.",
+        "Execution risk remains key — investors should monitor channel partner details, minimum order commitments, regulatory approvals (SAMR/customs), and initial sell-through metrics in coming quarters to validate the commercial thesis."
+      ],
+      "tags": [
+        "Retail",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DEL",
+      "company": "DELOREAN CORPORATION LIMITED",
+      "headline": "Security Purchase Plan",
+      "time": "2026-05-04T00:57:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086146-6A1323883",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Delorean Corporation is launching a Security Purchase Plan (SPP), enabling existing shareholders to acquire additional shares — this signals an active capital raising effort likely to fund growth initiatives or strengthen the balance sheet.",
+        "SPPs typically involve issuance at a discount to market price, which will be dilutive to existing shareholders who do not participate; the quantum of the raise and pricing terms will be critical to assess the extent of dilution.",
+        "Investors should monitor the SPP terms (cap, pricing, timeline) and management's stated use of proceeds — whether directed toward working capital, debt reduction, or project development will determine whether this raise is value-accretive or a liquidity concern signal."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IPD",
+      "company": "IMPEDIMED LIMITED",
+      "headline": "Equity Raising Investor Presentation",
+      "time": "2026-05-04T00:55:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086144-2A1669753",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ImpediMed is conducting an equity raising, which will dilute existing shareholders but is likely aimed at strengthening the balance sheet to fund commercialization of its bioimpedance spectroscopy (BIS) technology and SOZO platform in key healthcare markets.",
+        "The investor presentation accompanying the capital raise will detail current revenue trajectory, cash position, and use of proceeds — critical metrics given ImpediMed's pre-profitability status and historical cash burn, making capital adequacy a key concern for institutional holders.",
+        "Near-term dilution risk is the dominant factor; however, successful execution of the raise extends cash runway and supports the company's US market expansion strategy following recent Medicare/CMS reimbursement milestones for lymphoedema prevention."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IPD",
+      "company": "IMPEDIMED LIMITED",
+      "headline": "ImpediMed announces a successful $15.2 million Capital Raise",
+      "time": "2026-05-04T00:55:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086143-2A1669719",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "ImpediMed raised $15.2 million in new capital, providing critical funding runway for the medical device company as it continues commercializing its bioimpedance spectroscopy (BIS) technology platform, particularly the SOZO platform for lymphoedema assessment.",
+        "The capital raise, while providing necessary growth funding, will result in meaningful dilution for existing shareholders given ImpediMed's relatively modest market capitalization — investors should assess the discount to last traded price and participation structure to gauge dilution impact.",
+        "Proceeds are expected to fund US market expansion and sales acceleration efforts, with the key question being whether ImpediMed can convert its growing clinical evidence base and FDA clearances into sustainable revenue growth before requiring additional capital."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CLA",
+      "company": "CELSIUS RESOURCES LIMITED.",
+      "headline": "Update on alternative conflict process",
+      "time": "2026-05-04T00:46:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086140-6A1323878",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Celsius Resources is progressing an alternative conflict resolution process, likely related to its Philippine mining operations or joint venture disputes, signaling ongoing uncertainty around key project development timelines",
+        "The market-sensitive designation suggests material implications for the company's asset base or operational continuity, which could affect near-term valuation and investor confidence in the Maalinao-Caigutan-Biyog (MCB) copper-gold project pathway",
+        "Investors should monitor resolution outcomes closely as prolonged disputes could strain Celsius's limited cash reserves and delay critical project milestones, while a favorable resolution could remove a significant overhang on the stock"
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AM7",
       "company": "ARCADIA MINERALS LIMITED",
