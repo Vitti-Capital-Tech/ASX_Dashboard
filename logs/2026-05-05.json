@@ -1,9 +1,84 @@
 {
   "date": "2026-05-05",
-  "total": 119,
-  "market_sensitive_count": 106,
-  "generated_at": "2026-05-05T01:36:42.396293+00:00",
+  "total": 123,
+  "market_sensitive_count": 108,
+  "generated_at": "2026-05-05T03:07:59.234045+00:00",
   "announcements": [
+    {
+      "ticker": "BGA",
+      "company": "BEGA CHEESE LIMITED",
+      "headline": "Becoming a substantial holder from MUFG",
+      "time": "2026-05-05T02:54:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086705-3A692708",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "MUFG (Mitsubishi UFJ Financial Group) has crossed the 5% substantial holder threshold in Bega Cheese, signaling meaningful institutional interest from one of the world's largest financial groups in the mid-cap dairy/FMCG name.",
+        "The emergence of a major global banking group as a substantial holder may reflect a fundamental re-rating thesis or portfolio positioning ahead of anticipated earnings recovery in Bega's branded consumer segment following recent margin pressures.",
+        "Investors should monitor whether MUFG continues to accumulate, as further buying above 5% could tighten the register and provide a supportive floor for the stock; however, the filing itself is procedural and does not guarantee directional intent."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAV",
+      "company": "CARNAVALE RESOURCES LIMITED",
+      "headline": "CAV appoints Humphrey Hale as Managing Director",
+      "time": "2026-05-05T02:35:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086702-6A1324112",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "Carnavale Resources appoints Humphrey Hale as Managing Director, signaling a strategic leadership upgrade from a likely non-executive or exploration-stage governance structure to a dedicated executive leader — a common inflection point for junior ASX miners seeking to accelerate project development.",
+        "The appointment of a full-time MD for a micro-cap explorer like CAV suggests the board sees sufficient project maturity or upcoming catalysts (e.g., drilling programs, resource estimates) to warrant increased executive bandwidth and accountability.",
+        "Investors should monitor for follow-on announcements regarding strategic direction, potential capital raises to fund accelerated work programs, and any changes to remuneration or incentive structures that align management with shareholder value creation."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BBT",
+      "company": "BETR ENTERTAINMENT LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-05-05T02:09:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086694-2A1670061",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has reduced their stake in Betr Entertainment below the 5% threshold, triggering a ceasing notice — this signals a meaningful reduction in conviction or portfolio rebalancing by a significant investor.",
+        "The exit of a substantial holder can increase free float and potentially weigh on near-term liquidity dynamics, particularly for a smaller-cap name like Betr Entertainment where institutional ownership concentration matters.",
+        "Investors should monitor whether this is an isolated event or part of a broader pattern of institutional selling, and watch for any follow-on capital raising activity or strategic announcements that may have prompted the divestment."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ERL",
+      "company": "EMPIRE RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-05T01:50:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086686-6A1324100",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Empire Resources Limited has entered a trading halt, suspending shares from trading pending a material announcement — the specific nature of the announcement is undisclosed, creating uncertainty for holders.",
+        "For a micro-cap explorer like Empire Resources, trading halts frequently precede capital raises (placement/SPP) or material transaction announcements such as asset acquisitions, both of which carry dilution or re-rating risk.",
+        "Investors should await the pending announcement before repositioning; the halt is expected to lift within two business days or upon release of the material announcement, whichever comes first."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ERL",
       "company": "EMPIRE RESOURCES LIMITED",
