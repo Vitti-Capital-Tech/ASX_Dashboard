@@ -1,9 +1,215 @@
 {
   "date": "2026-05-06",
-  "total": 59,
-  "market_sensitive_count": 50,
-  "generated_at": "2026-05-05T23:20:20.038913+00:00",
+  "total": 70,
+  "market_sensitive_count": 61,
+  "generated_at": "2026-05-05T23:40:54.176389+00:00",
   "announcements": [
+    {
+      "ticker": "NMR",
+      "company": "NATIVE MINERAL RESOURCES HOLDINGS LIMITED",
+      "headline": "NMR enters into $3.5M convertible note raising",
+      "time": "2026-05-05T23:37:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087131-2A1670412",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NMR is raising $3.5M via convertible notes, a structure that signals limited access to traditional equity markets and implies significant dilution risk for existing shareholders upon conversion.",
+        "Convertible note financing at this scale for a junior explorer typically carries unfavorable terms (discount to market, potential reset provisions), which can create sustained selling pressure as notes convert to equity.",
+        "The raising extends NMR's cash runway to fund exploration activities, but the dilutive nature of convertible debt — particularly for a micro-cap miner — weighs negatively on near-term per-share value and suggests constrained funding alternatives."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "EGY",
+      "company": "ENERGY TECHNOLOGIES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-05T23:37:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087132-2A1670413",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Energy Technologies Limited has entered a trading halt, suspending shares from trading pending a material announcement — the nature of the pending disclosure is not yet specified but warrants close monitoring given the company's micro-cap profile.",
+        "Trading halts for small-cap energy technology companies frequently precede capital raises, asset transactions, or material corporate developments that can significantly impact valuation and liquidity.",
+        "Investors should await the forthcoming announcement before repositioning; the halt signals imminent news flow that could materially alter the company's financial position, cash runway, or strategic direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BP8",
+      "company": "BPH GLOBAL LTD",
+      "headline": "Binding MoU to Progress Development of Makassar Coastal Site",
+      "time": "2026-05-05T23:37:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087130-2A1670411",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BPH Global has signed a binding MoU to progress development of a coastal site in Makassar, Indonesia, signaling a strategic push into international property or resource development that could diversify revenue streams for the micro-cap company.",
+        "As a sub-$10M market cap entity with limited operating revenue, the binding nature of the MoU is notable — but investors should scrutinize the capital requirements, funding mechanism, and whether this triggers further dilutive capital raises to fund development.",
+        "Key next steps include finalizing definitive agreements, securing regulatory approvals in Indonesia, and clarifying the commercial model — until these milestones are met, the announcement represents early-stage optionality rather than near-term value accretion."
+      ],
+      "tags": [
+        "Property",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ATT",
+      "company": "ALTITUDE MINERALS LTD",
+      "headline": "Successful Placement Completed",
+      "time": "2026-05-05T23:35:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087126-2A1670307",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Altitude Minerals has completed a successful placement, securing fresh capital to fund ongoing exploration and operational activities, extending its cash runway during a critical development phase.",
+        "The placement signals sufficient investor appetite to support the company at current levels, though the equity raise introduces dilution for existing shareholders — the net impact depends on placement pricing relative to market and the quantum raised.",
+        "Proceeds are likely earmarked for advancing mineral exploration programs; investors should monitor upcoming use-of-funds disclosures and any accelerated drilling or project milestones that could justify the capital injection."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AQN",
+      "company": "AQUIRIAN LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-05T23:34:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087124-6A1324305",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Aquirian Limited has entered a trading halt, suspending shares from trading pending a material announcement — the specific nature of the announcement is not yet disclosed, requiring investors to await further details.",
+        "Trading halts for small-cap ASX companies like Aquirian frequently precede capital raises (placement or entitlement offer), which could signal near-term dilution risk but also potential funding for growth initiatives.",
+        "Investors should monitor for the pending announcement closely; the halt is expected to last up to two trading days, with the catalyst likely to reset market expectations on valuation, cash runway, or strategic direction."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DVL",
+      "company": "DORSAVI LTD",
+      "headline": "DVL advances modular ultra-edge hardware platform",
+      "time": "2026-05-05T23:32:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087122-3A692773",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DVL is advancing a modular ultra-edge hardware platform, signaling a strategic pivot toward scalable, next-generation IoT/edge computing solutions that could open new revenue verticals beyond its core wearable sensor technology.",
+        "As a micro-cap with historically constrained cash runway, the commercial viability and time-to-revenue of this hardware platform will be critical — investors should monitor for partnership announcements, pilot deployments, or customer commitments that validate demand.",
+        "The market-sensitive designation suggests DVL views this as a material development; however, without disclosed revenue targets, customer contracts, or funding details, the announcement remains largely forward-looking and execution risk remains elevated for this pre-revenue initiative."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BWP",
+      "company": "BWP GROUP",
+      "headline": "Trading Halt",
+      "time": "2026-05-05T23:32:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087120-6A1324303",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "BWP Trust has entered a trading halt, typically preceding a material capital raise, asset transaction, or portfolio restructuring for this Bunnings-anchored REIT.",
+        "As a large-cap property trust (~$2B+ market cap) with concentrated Wesfarmers/Bunnings tenant exposure, any capital raise could signal acquisition activity or balance sheet repositioning, with potential dilution implications for unitholders.",
+        "Investors should await the pending announcement — the nature of the halt (voluntary, pending announcement) suggests a deliberate corporate action rather than regulatory concern, with details likely within 1-2 trading days."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AHK",
+      "company": "ARK MINES LIMITED",
+      "headline": "Gold Intercepted in Sandy Mitchell Paleochannel Drilling",
+      "time": "2026-05-05T23:17:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087108-2A1670394",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ARK Mines has confirmed gold intercepts in paleochannel drilling at the Sandy Mitchell project, validating the geological model and de-risking the alluvial/paleochannel gold exploration target — a positive catalyst for a micro-cap explorer.",
+        "Paleochannel gold discoveries can offer lower-cost, near-surface extraction potential compared to hard-rock deposits, which could materially improve project economics if grades and widths prove sufficient for resource estimation.",
+        "Next steps will be critical: investors should watch for assay results with specific gold grades, widths, and continuity data to assess whether the intercepts are economically significant and whether follow-up drilling programs will be funded from existing cash or require a capital raise."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CUF",
+      "company": "CUFE LTD",
+      "headline": "Orlando Copper-Gold Scoping Study Expanded",
+      "time": "2026-05-05T23:17:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087107-6A1324297",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CUFE Ltd is expanding the scope of its Orlando Copper-Gold Scoping Study, signaling increased confidence in the project's economic potential and resource base beyond initial parameters.",
+        "An expanded scoping study typically incorporates additional mineralisation, processing options, or scale scenarios — suggesting the company sees upside optionality that could materially improve project NPV and attract development-stage interest.",
+        "Investors should watch for updated study results including revised production targets, capex/opex estimates, and potential resource upgrades that could serve as catalysts for re-rating or partnership discussions."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AXL",
+      "company": "AXEL REE LIMITED",
+      "headline": "Woolrich REE Drilling Supports ISR and Resource Upgrade Path",
+      "time": "2026-05-05T23:16:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087102-3A692769",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling results at Woolrich REE project support viability of In-Situ Recovery (ISR) extraction methodology, a significantly lower-cost and lower-capex pathway compared to conventional mining that could materially improve project economics.",
+        "Results provide a clear pathway toward a JORC resource upgrade, which is a critical de-risking milestone for attracting institutional capital and advancing toward feasibility studies in the ionic clay rare earth space.",
+        "With global supply chain diversification away from Chinese REE dominance accelerating, positive ISR-amenable drill results position Axel REE to capture strategic investor interest as an emerging Australian rare earth developer."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TAM",
+      "company": "TANAMI GOLD NL",
+      "headline": "Trading Halt",
+      "time": "2026-05-05T23:16:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087101-6A1324295",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Tanami Gold NL has entered a trading halt, suspending shares from trading pending a material announcement — the nature of the pending announcement is undisclosed, creating uncertainty for holders.",
+        "As a junior gold miner operating in the Tanami region, trading halts frequently precede capital raises, corporate transactions, or significant operational updates that could materially alter the company's valuation profile.",
+        "Investors should await the forthcoming announcement before repositioning; the halt removes near-term liquidity and the outcome could range from dilutive equity raising to a potentially accretive M&A event or material exploration result."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "PTR",
       "company": "PTR MINERALS LTD",
