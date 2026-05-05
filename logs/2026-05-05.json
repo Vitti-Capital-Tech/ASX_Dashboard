@@ -1,9 +1,123 @@
 {
   "date": "2026-05-05",
-  "total": 113,
-  "market_sensitive_count": 101,
-  "generated_at": "2026-05-05T00:36:15.655637+00:00",
+  "total": 119,
+  "market_sensitive_count": 106,
+  "generated_at": "2026-05-05T01:36:42.396293+00:00",
   "announcements": [
+    {
+      "ticker": "ERL",
+      "company": "EMPIRE RESOURCES LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-05-05T01:24:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086670-6A1324095",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Empire Resources Limited has entered a trading pause, typically preceding a material announcement that could significantly impact the company's valuation or operations.",
+        "Trading pauses for micro-cap mining companies like Empire Resources often precede capital raises, asset transactions, or significant exploration results — investors should prepare for potential dilution or transformative news.",
+        "The market-sensitive designation signals the forthcoming announcement will be price-moving; institutional investors should monitor for the follow-up release to assess whether re-rating or de-rating is warranted."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTQ",
+      "company": "CARETEQ LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-05T01:24:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086669-2A1670051",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Careteq Limited has filed a change in their holding, signaling a notable shift in ownership concentration that institutional investors should monitor for governance and liquidity implications.",
+        "As a micro-cap ASX-listed company in the health-tech/aged care technology space, changes in substantial holdings can have outsized impact on free float and trading dynamics given typically thin liquidity.",
+        "The filing is flagged as not market sensitive, suggesting the change may be incremental rather than a major block trade or strategic stake build/unwind — investors should review the full notice for direction and magnitude of the change."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PEX",
+      "company": "PEEL MINING LIMITED",
+      "headline": "Court approves convening of Scheme Meeting and Booklet",
+      "time": "2026-05-05T01:14:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086667-6A1324093",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Federal Court has approved the convening of a Scheme Meeting and dispatch of the Scheme Booklet, advancing Peel Mining toward a formal shareholder vote on the proposed acquisition — a key procedural milestone that signals the deal is progressing on track with no regulatory objections at this stage.",
+        "Court approval of the Scheme Booklet means an Independent Expert's Report and all material deal terms have passed judicial scrutiny, providing institutional investors with confidence that the information basis for the transaction meets legal standards.",
+        "The next critical catalyst is the Scheme Meeting itself where shareholders will vote on the proposal; if approved by the requisite majorities (75% by value, 50% by number), the deal moves to a second court hearing for final implementation — timeline compression from here typically supports price convergence toward the scheme consideration."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JDO",
+      "company": "JUDO CAPITAL HOLDINGS LIMITED",
+      "headline": "Judo presentation Macquarie Australia Conference",
+      "time": "2026-05-05T01:00:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086661-2A1670047",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Judo Capital presenting at the Macquarie Australia Conference signals active engagement with institutional investors, likely showcasing its SME lending growth strategy and competitive positioning in the challenger bank space.",
+        "As a market-sensitive presentation, the document likely contains updated financial metrics, loan book growth trajectory, or revised guidance that could materially impact valuation — investors should scrutinize any changes to NIM guidance, credit quality trends, or deposit growth.",
+        "Conference presentations often serve as a catalyst for re-rating; institutional investor exposure at a tier-1 broker conference may drive increased coverage and liquidity, with the SME lending thematic remaining a key differentiator versus major bank peers."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "XEN",
+      "company": "XENITRA LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-05T00:49:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086656-2A1670044",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Xenitra Limited has entered a trading halt, suspending shares from trading pending a material announcement — the specific nature of the announcement is not yet disclosed, creating uncertainty for holders.",
+        "As a small-cap ASX-listed entity, trading halts for Xenitra often precede capital raises or material transactions; investors should monitor for potential dilution risk or transformative deal activity.",
+        "Shares will remain halted until the company makes its pending announcement or until the commencement of normal trading on the second business day after the halt, whichever comes first — clarity on direction is imminent."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PHO",
+      "company": "PHOSCO LTD",
+      "headline": "Maiden resources boost scale and economic outlook",
+      "time": "2026-05-05T00:46:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086654-3A692701",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Maiden resource estimate significantly boosts Phosco's project scale, enhancing the economic viability and de-risking the pathway toward development-stage milestones for institutional consideration.",
+        "The upgraded resource base strengthens the company's position for future scoping/feasibility studies and improves leverage in potential offtake or financing negotiations, directly impacting enterprise value metrics.",
+        "Next catalysts likely include progression to scoping or pre-feasibility studies, with the expanded resource providing a stronger foundation for economic modelling and potential strategic partnerships or capital raising activity."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ADN",
       "company": "ANDROMEDA METALS LIMITED",
