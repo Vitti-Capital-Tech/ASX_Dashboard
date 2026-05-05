@@ -1,9 +1,140 @@
 {
   "date": "2026-05-06",
-  "total": 52,
-  "market_sensitive_count": 43,
-  "generated_at": "2026-05-05T23:13:21.224429+00:00",
+  "total": 59,
+  "market_sensitive_count": 50,
+  "generated_at": "2026-05-05T23:20:20.038913+00:00",
   "announcements": [
+    {
+      "ticker": "PTR",
+      "company": "PTR MINERALS LTD",
+      "headline": "Final Assays from Rosewood East Received",
+      "time": "2026-05-05T23:16:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087099-2A1670381",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Final assay results from Rosewood East drilling program now received, providing PTR Minerals with a complete dataset to evaluate the prospectivity of this exploration target and guide next-phase decision-making.",
+        "As a micro-cap explorer, the significance hinges on whether assays return anomalous or economic-grade mineralisation — the market-sensitive tag suggests results contain material information that could re-rate the stock in either direction.",
+        "Investors should watch for management's interpretation of results and whether follow-up drilling is warranted, as this will signal conviction in the project's potential and implications for near-term capital allocation and possible future funding needs."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMX",
+      "company": "AEROMETREX LIMITED",
+      "headline": "MetroMap Partner Program Expands",
+      "time": "2026-05-05T23:15:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087096-2A1670393",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Aerometrex's MetroMap Partner Program expansion signals growing channel distribution for its aerial imagery subscription platform, potentially accelerating recurring revenue growth through third-party resellers and integrators.",
+        "Partner program expansion is a capital-light growth strategy that leverages existing imagery assets, improving unit economics and operating leverage without proportional increases in capture costs — a key margin driver for the subscription SaaS model.",
+        "Market-sensitive designation suggests material commercial traction; investors should monitor upcoming quarterly updates for evidence of partner-driven subscriber growth, ARR acceleration, and any uplift in MetroMap platform revenue contribution relative to traditional project-based services."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CTM",
+      "company": "CENTAURUS METALS LIMITED",
+      "headline": "Large-Scale Copper Targets Defined at Rio Novo",
+      "time": "2026-05-05T23:13:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087093-6A1324291",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Centaurus Metals has defined large-scale copper targets at its Rio Novo project, signaling a strategic pivot toward copper exploration that could materially expand the company's resource portfolio beyond its core Jaguar nickel sulphide project in Brazil.",
+        "The identification of defined copper targets at Rio Novo adds optionality to the asset base at a time when copper fundamentals remain structurally strong due to electrification and energy transition demand, potentially attracting re-rating interest from copper-focused investors.",
+        "Next steps will likely involve drill testing of the newly defined targets, with investors needing to monitor upcoming exploration budgets and timelines — success at Rio Novo could trigger a significant re-valuation, but near-term cash deployment on early-stage exploration may weigh on the balance sheet."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AS1",
+      "company": "ASARA RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-05T23:13:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087091-3A692767",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Asara Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant corporate development that requires price-sensitive disclosure.",
+        "As a micro-cap explorer, trading halts frequently precede equity raisings which may dilute existing shareholders, though they can also signal transformative asset acquisitions or material exploration results.",
+        "Investors should await the detailed announcement expected within two business days to assess the nature and magnitude of the pending news before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTN",
+      "company": "CATALINA RESOURCES LTD",
+      "headline": "Breakaway Dam Expands Strike - Copper Intercepts up to 2% Cu",
+      "time": "2026-05-05T23:12:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087089-6A1324289",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Breakaway Dam prospect delivers high-grade copper intercepts up to 2% Cu, significantly expanding the known strike length and reinforcing the prospectivity of Catalina's copper portfolio at a time of elevated copper prices.",
+        "Grade of up to 2% Cu in drill intercepts is well above typical exploration-stage thresholds for economic interest, potentially de-risking the asset and attracting partner or acquirer attention for a micro-cap explorer.",
+        "Strike expansion suggests further drilling campaigns are warranted; investors should watch for follow-up resource definition programs and any capital raise activity to fund accelerated exploration given the company's likely limited cash runway as a junior explorer."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JLL",
+      "company": "JINDALEE LITHIUM LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-05T23:11:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087087-6A1324288",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Jindalee Lithium has entered a trading halt, typically preceding a material announcement such as a capital raise, asset transaction, or significant project update in the lithium space.",
+        "As a lithium explorer/developer, the halt comes amid volatile lithium market conditions where any capital raise would likely be dilutive at depressed valuations, while a strategic transaction could unlock value depending on terms.",
+        "Investors should monitor for the pending announcement closely — the nature of the halt (voluntary, company-requested) suggests management is controlling information flow ahead of a price-sensitive disclosure expected within 1-2 trading days."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CPN",
+      "company": "CASPIN RESOURCES LIMITED",
+      "headline": "Drilling Returns Large High-Grade Tin Extension at Kelpie",
+      "time": "2026-05-05T23:10:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087083-6A1324286",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Caspin Resources has intersected a large high-grade tin extension at the Kelpie prospect, signaling meaningful resource growth potential at a time when tin prices remain elevated due to structural supply deficits and growing demand from electronics and energy transition sectors.",
+        "The drilling results extend known high-grade tin mineralisation, which if confirmed through further assays and resource modelling, could materially upgrade the project's economic profile and attract strategic interest given the scarcity of quality tin development assets globally.",
+        "Next steps will likely include follow-up drilling to define the full extent of the extension, updated resource estimates, and potential scoping/feasibility studies — key catalysts that institutional investors should monitor for re-rating potential in a junior explorer with limited revenue and reliance on exploration funding."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "M2M",
       "company": "MT MALCOLM MINES NL",
