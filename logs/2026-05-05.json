@@ -1,9 +1,159 @@
 {
   "date": "2026-05-05",
-  "total": 104,
-  "market_sensitive_count": 92,
-  "generated_at": "2026-05-04T23:42:13.375121+00:00",
+  "total": 112,
+  "market_sensitive_count": 100,
+  "generated_at": "2026-05-05T00:05:24.303888+00:00",
   "announcements": [
+    {
+      "ticker": "RHT",
+      "company": "RESONANCE HEALTH LIMITED",
+      "headline": "Profit Guidance Upgrade",
+      "time": "2026-05-04T23:58:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086637-6A1324081",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Resonance Health has issued a profit guidance upgrade, signaling stronger-than-expected financial performance for the period — a positive catalyst for a micro-cap healthcare technology company where earnings beats are rare and closely watched by institutional holders.",
+        "The upgrade likely reflects improving revenue traction from its FDA-cleared FerriScan and HepaFat-Scan diagnostic imaging products, suggesting growing clinical adoption and recurring SaaS-style licensing revenue that enhances earnings visibility.",
+        "As a market-sensitive announcement, this guidance upgrade may trigger a re-rating of the stock given RHT's historically modest valuation multiples; investors should watch for the full-year results to confirm margin expansion and assess sustainability of the earnings trajectory."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SRJ",
+      "company": "SRJ TECHNOLOGIES GROUP PLC",
+      "headline": "Secures A$2.57 Million to Advance Contract Pipeline",
+      "time": "2026-05-04T23:57:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086633-2A1670037",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SRJ Technologies raised A$2.57 million to fund advancement of its contract pipeline, providing near-term working capital to execute on secured and pending orders in its industrial technology segment.",
+        "The capital raise, while providing operational runway, introduces dilution for existing shareholders — the modest size suggests the company remains in early-stage commercialization with limited self-funding capacity from organic cash flows.",
+        "Investor focus should shift to conversion of the referenced contract pipeline into booked revenue; execution on these contracts will be the key catalyst to validate the raise and support further re-rating."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XEN",
+      "company": "XENITRA LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-05-04T23:54:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086630-2A1670038",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Xenitra Limited has requested a pause in trading, which is market sensitive and typically precedes a material announcement such as a capital raise, acquisition, or significant corporate update.",
+        "Trading halts for micro/small-cap ASX companies often signal pending capital raises or transformative transactions; investors should monitor for potential dilution or strategic repositioning.",
+        "The halt creates uncertainty in the near term — the key catalyst will be the nature of the forthcoming announcement, with resumption of trading contingent on disclosure of the material information."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARD",
+      "company": "ARGENT MINERALS LIMITED",
+      "headline": "Further Silver Mineralisation Intersected at Kempfield",
+      "time": "2026-05-04T23:51:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086629-6A1324079",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Argent Minerals has intersected further silver mineralisation at its Kempfield project, reinforcing the prospectivity of the deposit and potentially expanding the known resource envelope — a positive signal for the project's development trajectory.",
+        "As a market-sensitive update for a junior explorer, the confirmation of additional silver mineralisation at Kempfield could support re-rating if assay results demonstrate grades and widths consistent with or exceeding prior intercepts, though specific assay data will be critical for quantifying impact.",
+        "Next steps will likely involve completion of the current drill program, receipt of assay results, and potential resource estimate updates — investors should watch for grade confirmation and whether results justify further capital deployment or attract farm-in interest."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IPT",
+      "company": "IMPACT MINERALS LIMITED",
+      "headline": "New Discovery at Silica Hill",
+      "time": "2026-05-04T23:50:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086628-6A1324078",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Impact Minerals has announced a new discovery at its Silica Hill project, a potentially significant exploration milestone that could materially re-rate the company's asset base and attract renewed investor attention to the project area.",
+        "As a junior explorer, new discoveries are the primary value catalyst — the market sensitivity designation signals management believes the find is material enough to warrant price-sensitive disclosure, suggesting meaningful mineralisation grades or widths were encountered.",
+        "Key next steps will include follow-up drilling to define the extent and grade of the new discovery zone; investors should watch for assay results and resource estimation timelines, which will determine whether this translates into a substantive project advancement or remains an early-stage intercept."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EYE",
+      "company": "NOVA EYE MEDICAL LIMITED",
+      "headline": "EYE lifts Sales Guidance",
+      "time": "2026-05-04T23:48:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086627-2A1670036",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nova Eye Medical has upgraded its sales guidance, signaling stronger-than-expected commercial traction likely driven by its glaucoma treatment device portfolio, a positive read-through for revenue momentum and market adoption.",
+        "A guidance lift mid-period suggests underlying order flow or procedure volumes are tracking materially above prior forecasts, which for a small-cap medtech company can meaningfully alter the earnings trajectory and path to profitability.",
+        "Investors should watch for updated margin guidance and whether the sales uplift is driven by recurring consumable/procedure revenue versus one-off capital equipment sales, as the former would support a higher-quality re-rating of the stock."
+      ],
+      "tags": [
+        "Healthcare",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BTR",
+      "company": "BRIGHTSTAR RESOURCES LIMITED",
+      "headline": "High grade results continue in Sandstone drilling",
+      "time": "2026-05-04T23:45:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086624-6A1324076",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Brightstar Resources reports continued high-grade gold intercepts from its Sandstone drilling program, reinforcing the prospectivity of the project and potentially expanding the resource base in a historically productive gold district.",
+        "High-grade drill results at Sandstone are material for a junior explorer as they can significantly upgrade resource estimates, improve project economics, and enhance the viability of a development pathway or attract corporate interest.",
+        "Investors should watch for updated mineral resource estimates and feasibility-level studies following this drilling campaign, which could serve as a catalyst for re-rating if grades and widths support economic extraction at current gold prices above A$3,500/oz."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WTM",
+      "company": "WARATAH MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-04T23:40:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086622-6A1324074",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Waratah Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration result that requires price-sensitive disclosure.",
+        "As a junior mining company, the most probable catalysts include a capital raising (equity placement) to fund exploration programs, which could result in near-term dilution for existing shareholders.",
+        "Investors should await the detailed announcement expected within two business days; the halt prevents trading until the company can ensure an informed and orderly market upon release of the material information."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EPY",
       "company": "EARLYPAY LTD",
