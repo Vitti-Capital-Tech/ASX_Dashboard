@@ -1,9 +1,122 @@
 {
   "date": "2026-05-06",
-  "total": 29,
-  "market_sensitive_count": 21,
-  "generated_at": "2026-05-05T22:26:34.956024+00:00",
+  "total": 35,
+  "market_sensitive_count": 27,
+  "generated_at": "2026-05-05T22:46:45.555087+00:00",
   "announcements": [
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Reject IFM's Hostile Takeover Offer",
+      "time": "2026-05-05T22:42:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087010-2A1670349",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Atlas Arteria's board has formally recommended shareholders reject IFM Investors' hostile takeover bid, signaling the board believes the offer materially undervalues the company's long-term toll road concession cash flows and infrastructure asset base.",
+        "The rejection suggests the board views IFM's offer price as insufficient relative to the embedded value of APRR (French toll road) and other concession assets, likely supported by an independent expert's assessment that the bid is not fair and reasonable — a key signal for institutional holders to hold firm.",
+        "The hostile rejection sets up a potential standoff: IFM may need to raise its bid to gain traction, creating upward price tension, while Atlas Arteria may pursue alternative value-crystallization strategies or attract competing interest from other infrastructure-focused acquirers."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AR1",
+      "company": "AUSTRAL RESOURCES AUSTRALIA LTD",
+      "headline": "Snow Queen Drilling Delivers Royal Grades",
+      "time": "2026-05-05T22:38:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087007-2A1670350",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Snow Queen drilling has returned high-grade copper results, signaling potential resource upside at Austral Resources' Queensland copper operations and reinforcing the quality of the mineralised system.",
+        "The use of 'Royal Grades' in the headline suggests intercepts materially above typical deposit averages, which if confirmed over meaningful widths could significantly enhance the project's economic viability and NPV estimates.",
+        "Positive drill results are likely to accelerate follow-up exploration programs and could support a resource upgrade, positioning the company for improved market re-rating and potential funding discussions as it advances toward production decisions."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MNE",
+      "company": "MACALLUM NEW ENERGY LIMITED",
+      "headline": "Successful Completion of Barberton 3D Seismic Survey",
+      "time": "2026-05-05T22:36:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087006-6A1324256",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Macallum successfully completed its Barberton 3D seismic survey, a key de-risking milestone for its exploration program that validates operational execution capability in the field.",
+        "Completion of the 3D seismic acquisition phase enables the company to move into data processing and interpretation, which will define prospective drilling targets and refine resource potential — critical for future capital allocation decisions.",
+        "Next steps involve seismic data processing and identification of drill-ready prospects; positive interpretation results could serve as a catalyst for farm-in partnerships or further capital raises to fund an exploration drilling campaign."
+      ],
+      "tags": [
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MTM",
+      "company": "METALLIUM LIMITED",
+      "headline": "50% of Stage-1 E-Waste Feedstock Target Now Under Contract",
+      "time": "2026-05-05T22:34:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087005-6A1324254",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Metallium has secured contracts covering 50% of its Stage-1 e-waste feedstock target, a critical de-risking milestone that demonstrates commercial traction and supply chain viability ahead of operations ramp-up.",
+        "Locking in half the required feedstock under binding contracts provides greater revenue visibility and underpins the economic assumptions in the company's business case, reducing execution risk for investors evaluating the project's NPV.",
+        "The remaining 50% feedstock gap represents both near-term upside catalyst potential as additional contracts are announced and a key watch item — the pace of securing the balance will signal market confidence in Metallium's processing capability and pricing competitiveness."
+      ],
+      "tags": [
+        "Production",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AGL",
+      "company": "AGL ENERGY LIMITED.",
+      "headline": "Macquarie Conference Presentation & FY26 Guidance Update",
+      "time": "2026-05-05T22:34:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087004-2A1670347",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AGL Energy has issued an FY26 guidance update at the Macquarie Conference, signaling management confidence in providing forward-looking earnings visibility to institutional investors amid a dynamic energy market.",
+        "The market-sensitive designation suggests material changes to previously communicated FY26 expectations — likely covering EBITDA, generation volumes, or wholesale electricity price assumptions that could meaningfully shift consensus estimates.",
+        "Guidance updates at broker conferences typically precede re-rating activity; investors should focus on any narrowing or revision of EBITDA/underlying profit ranges and implications for AGL's capital allocation, dividend capacity, and energy transition investment timeline."
+      ],
+      "tags": [
+        "Energy",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EMR",
+      "company": "EMERALD RESOURCES NL",
+      "headline": "Works Approval Granted for Dingo Range Gold Project",
+      "time": "2026-05-05T22:24:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03086998-6A1324253",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Emerald Resources has secured Works Approval for its Dingo Range Gold Project, a critical regulatory milestone that de-risks the development pathway and moves the project closer to construction and production phases.",
+        "The approval signals advancing permitting momentum for Emerald's Australian growth pipeline, complementing its existing Okvau Gold Mine in Cambodia and reinforcing the company's multi-asset production strategy to drive future revenue diversification.",
+        "With Works Approval in hand, the market will now focus on subsequent Mining Proposal approvals, project financing arrangements, and construction timeline clarity — catalysts that could further re-rate the stock as Dingo Range progresses toward first gold pour."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "SKY",
       "company": "SKY METALS LIMITED",
