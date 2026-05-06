@@ -1,9 +1,234 @@
 {
   "date": "2026-05-06",
-  "total": 70,
-  "market_sensitive_count": 61,
-  "generated_at": "2026-05-05T23:40:54.176389+00:00",
+  "total": 82,
+  "market_sensitive_count": 73,
+  "generated_at": "2026-05-06T00:02:51.483088+00:00",
   "announcements": [
+    {
+      "ticker": "BWP",
+      "company": "BWP GROUP",
+      "headline": "Investor Presentation",
+      "time": "2026-05-05T23:59:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087171-6A1324314",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BWP Group has released a market-sensitive investor presentation, likely updating institutional investors on portfolio performance, occupancy metrics, and rental growth across its Bunnings Warehouse-anchored property portfolio",
+        "As a defensive REIT heavily weighted to Bunnings tenancies, any update on lease expiry profiles, WALE (weighted average lease expiry), or cap rate movements will be critical for assessing distribution sustainability and NAV trajectory",
+        "Investor presentations from BWP typically signal upcoming capital management decisions or portfolio repositioning — investors should monitor for guidance on FY25 distributions, asset recycling activity, and any development pipeline updates"
+      ],
+      "tags": [
+        "Property",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BWP",
+      "company": "BWP GROUP",
+      "headline": "Capital Deployment and Equity Raising",
+      "time": "2026-05-05T23:59:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087170-6A1324310",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BWP Group is undertaking a capital deployment initiative paired with an equity raising, signaling active portfolio expansion or asset acquisition activity within the property trust's strategy to grow its Bunnings-anchored retail warehouse portfolio.",
+        "The equity raising will result in dilution for existing unitholders; the key metric to watch is the discount to last traded price and the quantum raised relative to BWP's ~$2.5B market cap, as well as the yield accretion profile of the target asset(s).",
+        "Investors should assess whether the capital deployment is accretive to distributable earnings per unit on a pro-forma basis — if acquisitions are at cap rates above BWP's cost of equity, this supports long-term value; otherwise, dilution risk and compressed yields may weigh on near-term pricing."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Property"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ALM",
+      "company": "ALMA METALS LIMITED",
+      "headline": "Alma Raises $4 Million to Accelerate Briggs Copper Project",
+      "time": "2026-05-05T23:56:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087164-6A1324307",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alma Metals has raised $4 million in new capital specifically earmarked to accelerate exploration and development at its Briggs Copper Project, signaling management confidence in the asset's prospectivity amid strong copper market fundamentals.",
+        "The $4M raise provides near-term funding runway for drilling and resource definition work, though it introduces dilution to existing shareholders — the net impact depends on placement pricing and participation terms relative to the current share price.",
+        "Proceeds directed toward the Briggs Copper Project position Alma to advance toward resource delineation milestones, with upcoming drill results likely to be the key catalyst for re-rating; investors should watch for assay results and any updated resource estimates in coming quarters."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AQX",
+      "company": "ALICE QUEEN LIMITED",
+      "headline": "Rights Issue Prospectus",
+      "time": "2026-05-05T23:56:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087162-6A1324329",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alice Queen Limited is conducting a rights issue, indicating the company needs to raise capital likely to fund ongoing exploration or operational activities, signaling potential cash runway concerns at current burn rates.",
+        "Rights issues are inherently dilutive to existing shareholders who do not participate, typically placing near-term downward pressure on share price as new shares are issued at a discount to market price.",
+        "Investors should scrutinize the prospectus for the offer price discount, funds sought, use of proceeds, and any underwriting arrangements to assess the magnitude of dilution and whether the capital deployment strategy is value-accretive."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ATT",
+      "company": "ALTITUDE MINERALS LTD",
+      "headline": "Compelling Drill Targets Defined at Byrock Project",
+      "time": "2026-05-05T23:53:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087161-2A1670420",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Altitude Minerals has identified compelling drill targets at its Byrock Project in NSW, signaling progression from early-stage exploration toward a potential drill-ready phase — a key de-risking milestone for junior explorers.",
+        "The definition of specific drill targets suggests geophysical and/or geochemical work has yielded sufficient anomalism to justify capital allocation toward drilling, though the micro-cap nature of the company means funding capacity and dilution risk remain critical watchpoints.",
+        "Next catalyst will be the announcement of a drilling program timeline and budget; investors should monitor for upcoming capital raise activity to fund the drill campaign, which will be the true inflection point for the project's prospectivity."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AS2",
+      "company": "ASKARI METALS LIMITED",
+      "headline": "Trenching Results at PS Confirm Continuous Mineralisation",
+      "time": "2026-05-05T23:52:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087160-6A1324327",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Trenching results at the Patersons Range (PS) project confirm continuous mineralisation, a technically significant milestone that de-risks the deposit and supports the case for further resource definition drilling.",
+        "Confirmation of continuous mineralisation across trenches strengthens the geological model and could materially improve confidence in any future resource estimate, though specific grade and width assay results will be critical to quantify economic potential.",
+        "As a junior explorer, Askari Metals will likely need to follow up with deeper drilling programs and potentially additional capital raises to advance the project; investors should monitor upcoming assay results and cash position closely."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FHS",
+      "company": "FREEHILL MINING LIMITED.",
+      "headline": "Aggregate gross sales are up 23% month-on-month to a record",
+      "time": "2026-05-05T23:48:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087152-3A692775",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Freehill Mining reports record aggregate gross sales with a 23% month-on-month increase, signaling strong operational momentum and improving commercial traction for the company's mining operations.",
+        "The record sales milestone is particularly significant for a junior miner like Freehill as it demonstrates scaling revenue generation, which directly improves cash flow and extends cash runway, reducing near-term dilution risk from capital raises.",
+        "Sustained month-on-month sales growth trajectory suggests improving market conditions or operational efficiencies; investors should watch for whether this trend is maintained in subsequent updates and whether margins are expanding alongside top-line growth."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DAI",
+      "company": "DECIDR AI INDUSTRIES LTD",
+      "headline": "Successful Completion of $15m Placement",
+      "time": "2026-05-05T23:46:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087149-6A1324302",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Decidr AI Industries successfully completed a $15m placement, providing significant capital injection to fund growth initiatives in its AI-focused business operations.",
+        "The $15m raise represents meaningful dilution for existing shareholders but signals strong institutional demand and confidence in the company's AI strategy at current valuation levels.",
+        "Proceeds are expected to extend cash runway and accelerate product development and commercialization efforts, with investors now watching for deployment milestones and revenue traction to justify the capital raise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BTR",
+      "company": "BRIGHTSTAR RESOURCES LIMITED",
+      "headline": "RIU Sydney Conference Presentation",
+      "time": "2026-05-05T23:42:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087144-6A1324322",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Brightstar Resources presenting at the RIU Sydney Conference, a key institutional investor forum, signaling management's intent to raise the company's profile among sophisticated capital allocators and potentially lay groundwork for future funding or partnerships.",
+        "Conference presentations by junior miners at RIU events typically highlight updated resource estimates, exploration results, or strategic milestones — the market-sensitive tag suggests material project updates or forward-looking catalysts may be disclosed within the presentation.",
+        "Investors should monitor for any new technical data, revised project economics, or strategic direction changes embedded in the presentation materials, which could serve as a precursor to capital raising activity or corporate transactions in the near term."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCN",
+      "company": "SCORPION MINERALS LIMITED",
+      "headline": "New Gold Exploration Target at Old Prospect",
+      "time": "2026-05-05T23:42:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087142-6A1324309",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Scorpion Minerals has identified a new gold exploration target at the Old Prospect, signaling potential resource upside that could re-rate the company's project portfolio and attract speculative interest in a favorable gold price environment.",
+        "As a junior explorer, the announcement of a new target is early-stage and pre-resource; investors should note this is an exploration target only, not a defined mineral resource, meaning significant drilling and technical work is required before any economic assessment.",
+        "Next steps will likely involve planned drilling programs to test the gold target — watch for upcoming program details, funding requirements (potential capital raise risk), and assay results that will determine whether this prospect has meaningful scale and grade."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ODE",
+      "company": "ODESSA MINERALS LIMITED",
+      "headline": "Successful A$2.65m Placement",
+      "time": "2026-05-05T23:39:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087134-6A1324298",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Odessa Minerals successfully completed a A$2.65m placement, providing near-term funding for exploration and working capital needs — a positive signal of investor appetite for a micro-cap explorer despite challenging market conditions.",
+        "The relatively modest raise size suggests targeted capital deployment rather than a large-scale dilution event, though for a company of Odessa's market cap, the placement likely represents meaningful dilution that existing shareholders should monitor closely.",
+        "Proceeds are expected to extend cash runway and fund upcoming exploration programs; investors should watch for details on placement pricing, discount to market, and any attached options that could signal further dilution risk."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TG6",
+      "company": "TG METALS LIMITED",
+      "headline": "Van Uden Laterite Gold Targets Defined",
+      "time": "2026-05-05T23:39:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087133-6A1324311",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TG Metals has defined laterite gold targets at the Van Uden project, representing a potential new exploration vector that could add value beyond the company's existing resource base and diversify its commodity exposure.",
+        "Identification of defined gold targets at the laterite horizon suggests geological work has progressed to a stage where drill-ready targets may be imminent, though no resource estimates or grade data have been disclosed at this stage.",
+        "Next steps likely involve follow-up drilling programs to test the newly defined targets; investors should monitor for assay results and any associated capital requirements to fund exploration activity given TG Metals' micro-cap status and cash runway considerations."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "NMR",
       "company": "NATIVE MINERAL RESOURCES HOLDINGS LIMITED",
