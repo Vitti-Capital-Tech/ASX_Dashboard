@@ -1,9 +1,66 @@
 {
   "date": "2026-05-06",
-  "total": 88,
-  "market_sensitive_count": 76,
-  "generated_at": "2026-05-06T00:36:02.669168+00:00",
+  "total": 91,
+  "market_sensitive_count": 79,
+  "generated_at": "2026-05-06T01:36:50.182669+00:00",
   "announcements": [
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "TOV: ALX - Panel Receives Application",
+      "time": "2026-05-06T01:33:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087223_PS-2A1670459",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Takeovers Panel has received an application related to Atlas Arteria (ALX), likely concerning the IFM Investors-led takeover or a dispute around the bid process, signaling potential governance or deal-related friction.",
+        "Panel applications typically arise from concerns about unacceptable circumstances in a control transaction, which could delay or complicate the existing acquisition timeline and introduce uncertainty around deal completion and pricing.",
+        "Investors should monitor for the Panel's interim and final orders, as outcomes could range from requiring additional disclosure, imposing bid conditions, or potentially unwinding certain transactions — all of which may materially impact ALX's near-term trading range."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FDR",
+      "company": "FINDER ENERGY HOLDINGS LIMITED",
+      "headline": "Share Purchase Plan Offer Open",
+      "time": "2026-05-06T01:18:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087213-6A1324348",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Finder Energy has opened a Share Purchase Plan (SPP), following a prior placement, providing existing shareholders the opportunity to participate and reduce dilution from institutional raises.",
+        "The SPP typically signals near-term capital needs — likely funding exploration or development activities — and will result in additional share dilution, pressuring per-share metrics in the short term.",
+        "Investors should monitor the SPP pricing, discount to market, and total raise cap to assess the degree of dilution and whether proceeds materially extend the company's cash runway for its energy exploration portfolio."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BRN",
+      "company": "BRAINCHIP HOLDINGS LTD",
+      "headline": "Annual General Meeting Addresses and Presentation",
+      "time": "2026-05-06T00:47:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087203-2A1670437",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "BrainChip's AGM presentation is market-sensitive, suggesting management is disclosing material updates on commercialization progress, partnerships, or financial outlook beyond routine AGM business.",
+        "Investors will scrutinize cash runway details closely given BrainChip's pre-revenue/early-revenue status and historical cash burn; any update on Akida chip licensing revenue or design wins would be a key catalyst for the neuromorphic AI chipmaker.",
+        "The AGM addresses likely outline strategic roadmap for Akida technology adoption across edge AI applications — watch for updates on customer pipeline, IP licensing milestones, and any capital management commentary that could signal near-term dilution risk or path to profitability."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EMU",
       "company": "EMU NL",
