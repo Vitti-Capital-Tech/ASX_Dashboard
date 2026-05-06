@@ -1,9 +1,220 @@
 {
   "date": "2026-05-07",
-  "total": 57,
-  "market_sensitive_count": 50,
-  "generated_at": "2026-05-06T23:05:37.856676+00:00",
+  "total": 68,
+  "market_sensitive_count": 60,
+  "generated_at": "2026-05-06T23:19:31.822274+00:00",
   "announcements": [
+    {
+      "ticker": "WAK",
+      "company": "WA KAOLIN LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-05-06T23:17:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087620-6A1324505",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "WA Kaolin's quarterly report provides updated cash flow visibility; as a pre-revenue mining development company, the Appendix 5B will be scrutinized for cash burn rate and remaining runway to fund the Wickepin kaolin project toward production.",
+        "Market-sensitive designation suggests material updates within the quarterly activities report, potentially including progress on offtake agreements, project financing, or construction milestones for the company's halloysite-kaolin operation.",
+        "Investors should focus on net operating and investing cash outflows relative to cash reserves to assess whether a near-term capital raise may be required, which would represent dilution risk for existing shareholders."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "USL",
+      "company": "UNICO SILVER LIMITED",
+      "headline": "High Grade Drill Results Extend Joaquin MRE",
+      "time": "2026-05-06T23:16:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087618-3A692875",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-grade drill results at Joaquin project extend the existing Mineral Resource Estimate (MRE), signaling potential for meaningful resource upgrades that could materially re-rate the company's asset base and valuation.",
+        "The market-sensitive classification of these drill results suggests intercepts of sufficient grade and width to be considered commercially significant, likely in silver and potentially gold, reinforcing Joaquin as a cornerstone asset for Unico Silver.",
+        "Extension of the MRE footprint positions the company to deliver an updated resource estimate in coming quarters, which would serve as a key catalyst for institutional re-evaluation and could support future development studies or strategic partnership discussions."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EE1",
+      "company": "EARTHS ENERGY LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-05-06T23:15:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087616-6A1324508",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Earths Energy Limited has been suspended from quotation on the ASX, indicating a significant corporate event or compliance issue that prevents normal trading of its securities.",
+        "Suspension from quotation typically signals regulatory concerns, failure to meet listing requirements, or a pending material announcement that requires trading to cease — all of which carry downside risk for existing shareholders who lose liquidity.",
+        "Investors should monitor for the underlying cause of suspension (e.g. annual report lodgement failure, re-compliance with listing rules, or capital adequacy issues) as reinstatement conditions will determine the timeline and terms for resumption of trading."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GT3",
+      "company": "GREEN360 TECHNOLOGIES LIMITED",
+      "headline": "Successful Eco-Clay Trial For Shotcrete Applications",
+      "time": "2026-05-06T23:13:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087612-6A1324507",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Green360's Eco-Clay product has successfully completed trials for shotcrete applications, demonstrating technical viability as a sustainable cement replacement in a high-volume construction segment — potentially opening a significant new addressable market for the company.",
+        "Shotcrete is a multi-billion dollar global market used extensively in mining, tunnelling, and infrastructure; successful trial results position Eco-Clay as a differentiated green alternative that could attract ESG-conscious construction and mining clients seeking to reduce carbon-intensive cement usage.",
+        "As a micro-cap with limited revenue history, the key watch items are progression from trial to commercial offtake agreements, scalability of Eco-Clay production, and whether the company has sufficient cash runway to fund commercialisation without near-term dilutive capital raises."
+      ],
+      "tags": [
+        "Technology",
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VAR",
+      "company": "VARISCAN MINES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-06T23:12:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087609-6A1324504",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Variscan Mines has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration update that requires price-sensitive disclosure.",
+        "As a junior mining explorer, trading halts frequently precede equity raisings which may be dilutive to existing shareholders, though they can also signal transformative asset deals or high-grade drill results.",
+        "Investors should await the detailed announcement expected within two business days to assess the nature and materiality of the pending news before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPG",
+      "company": "SPC GLOBAL HOLDINGS LTD",
+      "headline": "Suspension from Quotation",
+      "time": "2026-05-06T23:09:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087602-3A692869",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SPC Global Holdings has been suspended from quotation on the ASX, indicating a significant corporate action or compliance issue that prevents normal trading of its securities.",
+        "Suspension from quotation (as distinct from a voluntary trading halt) is typically imposed by ASX and may signal regulatory concerns, failure to meet listing requirements, or pending material announcements that require resolution before trading can resume.",
+        "Institutional investors should monitor for follow-up announcements detailing the reason for suspension and any conditions for reinstatement; prolonged suspension carries liquidity risk and potential for adverse corporate outcomes."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SRL",
+      "company": "SUNRISE ENERGY METALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-06T23:06:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087600-3A692866",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Sunrise Energy Metals, signaling active institutional portfolio rebalancing around this nickel-cobalt-scandium development-stage company.",
+        "The change in substantial holding filing is procedural in nature and not flagged as market sensitive, suggesting the movement is likely a modest adjustment rather than a major accumulation or disposal event.",
+        "Investors should monitor whether this reflects broader institutional sentiment shifts toward critical minerals exposure, particularly given Sunrise's strategic positioning in the battery metals supply chain."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AA2",
+      "company": "ARIANA RESOURCES PLC",
+      "headline": "Update on Dokwe Project Feasibility Activities",
+      "time": "2026-05-06T23:06:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087598-6A1324500",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ariana Resources is advancing feasibility activities on its Dokwe Project, signaling progression toward potential development-stage milestones that could unlock value for shareholders.",
+        "The market-sensitive designation suggests material updates on project economics, resource estimates, or technical parameters that institutional investors should evaluate for potential re-rating catalysts.",
+        "Feasibility study progress de-risks the project pipeline and moves Ariana closer to investment decision stage, with upcoming results likely to define capital requirements and project timeline."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FMR",
+      "company": "FMR RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-06T23:04:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087595-6A1324498",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "FMR Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update that requires price-sensitive disclosure.",
+        "As a micro-cap explorer, trading halts frequently precede equity raisings which could be dilutive to existing shareholders, though they may also signal positive catalysts such as drill results or asset transactions.",
+        "Investors should await the formal announcement expected within two business days to assess the nature and materiality of the news before repositioning; liquidity constraints in micro-cap names amplify post-halt price volatility."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BOL",
+      "company": "BOOM LOGISTICS LIMITED",
+      "headline": "Q3 FY26 Trading Update and FY26 Guidance Upgrade",
+      "time": "2026-05-06T23:04:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087594-3A692867",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Boom Logistics has upgraded FY26 guidance, signaling stronger-than-expected operational performance through Q3 and improved earnings visibility for the remainder of the fiscal year.",
+        "The Q3 trading update likely reflects robust demand for crane and lifting services across infrastructure and resources sectors, driving revenue and margin expansion beyond prior management expectations.",
+        "A formal guidance upgrade is a high-conviction signal from management, suggesting sustained momentum into Q4 FY26 and potentially setting a higher earnings base for FY27 consensus estimates."
+      ],
+      "tags": [
+        "Quarterly",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PYC",
+      "company": "PYC THERAPEUTICS LIMITED",
+      "headline": "PKD - Initiation of Multiple Dose Clinical Trial",
+      "time": "2026-05-06T23:03:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087591-6A1324492",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PYC Therapeutics has initiated a multiple dose clinical trial for its polycystic kidney disease (PKD) program, representing a significant clinical milestone that de-risks the pipeline and validates the company's RNA therapeutics platform in a large addressable market.",
+        "Progression from single-dose to multiple-dose dosing is a critical inflection point, suggesting acceptable safety and tolerability data from earlier cohorts — a positive signal for the drug's therapeutic potential and regulatory pathway advancement.",
+        "Investors should monitor upcoming interim data readouts from the multiple-dose cohorts, as positive results could catalyze partnership discussions or further capital raising; cash runway adequacy will be key given the capital-intensive nature of clinical-stage biotech development."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "D3E",
       "company": "D3 ENERGY LIMITED",
