@@ -1,9 +1,125 @@
 {
   "date": "2026-05-06",
-  "total": 91,
-  "market_sensitive_count": 79,
-  "generated_at": "2026-05-06T01:36:50.182669+00:00",
+  "total": 97,
+  "market_sensitive_count": 83,
+  "generated_at": "2026-05-06T03:08:31.011347+00:00",
   "announcements": [
+    {
+      "ticker": "R8R",
+      "company": "REGENER8 RESOURCES NL",
+      "headline": "Shareholders Approve Srebrenica North Acquisition",
+      "time": "2026-05-06T02:52:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087257-6A1324366",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Shareholders have approved the acquisition of the Srebrenica North project, removing a key conditional hurdle and allowing Regener8 Resources to proceed with the transaction, signaling board confidence in the asset's strategic value.",
+        "Shareholder approval at a general meeting for an M&A transaction in a micro-cap explorer typically involves share-based consideration, which may introduce dilution but also adds a new project to the company's portfolio without significant cash outlay.",
+        "With the acquisition now approved, the market will focus on near-term catalysts including completion mechanics, integration of the Srebrenica North asset into the exploration pipeline, and any upcoming work programs or capital requirements to advance the project."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ORA",
+      "company": "ORORA LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-05-06T02:44:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087255-3A692789",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Orora Limited, indicating a meaningful reduction in ownership below the 5% threshold, which may reflect portfolio rebalancing or a shift in conviction on the stock.",
+        "The exit of a substantial holder can increase free float and potentially create short-term selling pressure, though the filing is classified as not market sensitive, suggesting an orderly disposition rather than a forced or distressed sale.",
+        "Investors should monitor whether other institutional holders adjust positions in sympathy and watch for any follow-on block trades or changes in Orora's shareholder register that could signal broader sentiment shifts around the packaging company's outlook."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DPM",
+      "company": "DPM METALS INC.",
+      "headline": "Q1 2026 Financial Statements",
+      "time": "2026-05-06T02:36:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087251-6A1324358",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DPM Metals has released its Q1 FY2026 financial statements, a market-sensitive disclosure that will provide institutional investors with updated visibility on revenue trajectory, cost structure, and balance sheet health following recent operational developments.",
+        "Quarterly financials will be scrutinized for cash runway sustainability, working capital position, and any material changes in production costs or revenue recognition that could signal inflection points in the company's financial profile.",
+        "Investors should focus on forward guidance commentary, capital expenditure commitments, and any revisions to production or exploration targets that may accompany the financial statements, as these will drive near-term re-rating potential."
+      ],
+      "tags": [
+        "Quarterly",
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DPM",
+      "company": "DPM METALS INC.",
+      "headline": "DPM Achieves Record FCF and Reports Q1 Financial Results",
+      "time": "2026-05-06T02:28:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087245-6A1324357",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "DPM Metals achieved record free cash flow in Q1, signaling strong operational execution and favorable commodity price tailwinds that significantly enhance the company's financial flexibility and capital return capacity.",
+        "Record FCF performance in a quarterly results period suggests robust margin expansion, likely driven by elevated gold/copper prices and disciplined cost management — a key positive signal for institutional investors assessing cash generation sustainability.",
+        "Strong Q1 sets a positive tone for FY guidance; investors should watch for potential dividend increases, accelerated debt reduction, or reinvestment into growth projects as management deploys surplus cash flow."
+      ],
+      "tags": [
+        "Results",
+        "Mining",
+        "Quarterly"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JNS",
+      "company": "JANUS ELECTRIC HOLDINGS LIMITED",
+      "headline": "JNS receives firm commitments for A$4.5M placement",
+      "time": "2026-05-06T02:00:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087236-2A1670447",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Janus Electric secured firm commitments for a A$4.5M placement, providing critical funding to advance its battery-swap technology for electric trucks and support near-term commercialisation efforts.",
+        "The capital raise will result in dilution for existing shareholders, though the firm commitment nature suggests institutional confidence in JNS's value proposition and growth trajectory in the heavy vehicle electrification space.",
+        "Proceeds are expected to extend cash runway and fund operational milestones, with investors watching for deployment progress and revenue generation from battery-swap station rollouts as key catalysts."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FSI",
+      "company": "FLAGSHIP INVESTMENTS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-06T01:50:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087234-2A1670560",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in Flagship Investments Limited (FSI), a listed investment company, signaling a notable shift in ownership structure that institutional investors should monitor for governance implications.",
+        "The change in substantial holding typically reflects either accumulation or disposal crossing the 1% threshold, which for a smaller LIC like Flagship can meaningfully impact liquidity and free float dynamics.",
+        "As a procedural disclosure with no market-sensitive designation, the filing itself is unlikely to drive near-term price action, but investors should review the direction of the holding change (increase vs decrease) for signals on insider or major shareholder conviction."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ALX",
       "company": "ATLAS ARTERIA",
