@@ -1,9 +1,122 @@
 {
   "date": "2026-05-06",
-  "total": 82,
-  "market_sensitive_count": 73,
-  "generated_at": "2026-05-06T00:02:51.483088+00:00",
+  "total": 88,
+  "market_sensitive_count": 76,
+  "generated_at": "2026-05-06T00:36:02.669168+00:00",
   "announcements": [
+    {
+      "ticker": "EMU",
+      "company": "EMU NL",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-06T00:29:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087197-6A1324341",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding notice for EMU NL signals a notable shift in ownership structure, with a major shareholder either increasing, decreasing, or restructuring their position above the 5% disclosure threshold.",
+        "As a non-market-sensitive filing, this is a regulatory compliance disclosure rather than a strategic corporate action, suggesting the movement may reflect portfolio rebalancing rather than a fundamental catalyst.",
+        "Investors should monitor whether this represents accumulation by a strategic investor (potentially supportive) or distribution/sell-down, and cross-reference with EMU NL's recent capital activity and exploration progress for directional context."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GPT",
+      "company": "GPT GROUP",
+      "headline": "March quarter 2026 operating update",
+      "time": "2026-05-06T00:19:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087187-2A1670429",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GPT Group's March quarter 2026 operating update is flagged as market sensitive, suggesting material disclosure on portfolio occupancy, leasing spreads, or funds from operations (FFO) guidance that could shift consensus estimates.",
+        "As one of Australia's largest diversified REITs with significant office, logistics, and retail exposure, quarterly operational metrics—particularly occupancy trends and rent reversion data—will be closely scrutinized for signs of structural demand shifts across asset classes.",
+        "Investors should watch for any changes to FY26 FFO/distribution guidance, updates on asset recycling or development pipeline progress, and commentary on cap rate movements which would directly impact NAV and trading premium/discount dynamics."
+      ],
+      "tags": [
+        "Quarterly",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HMG",
+      "company": "HAMELIN GOLD LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-06T00:19:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087186-6A1324339",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has changed their position in Hamelin Gold Limited, signaling a notable shift in institutional or major shareholder conviction in this junior gold explorer.",
+        "The filing is classified as not market sensitive, suggesting the change may reflect portfolio rebalancing or passive threshold crossing rather than a strategic block trade or activist accumulation.",
+        "Investors should monitor whether this is part of a broader trend of accumulation or distribution, as successive substantial holding changes can foreshadow capital raises, corporate actions, or shifts in market sentiment for small-cap miners."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HMG",
+      "company": "HAMELIN GOLD LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-05-06T00:18:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087185-6A1324337",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Hamelin Gold Limited, crossing the 5% ownership threshold, signaling growing institutional or strategic interest in the junior gold explorer.",
+        "The identity and nature of the substantial holder (strategic investor, fund, or insider) will be critical to assess whether this represents a precursor to further accumulation, a potential takeover approach, or passive portfolio positioning.",
+        "For a small-cap gold explorer like Hamelin Gold, substantial holder notices can precede increased corporate activity; investors should monitor for follow-up moves including further share purchases or board-level engagement."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SVY",
+      "company": "STAVELY MINERALS LIMITED",
+      "headline": "Follow-Up Drilling at Freddy's Find Gold and Silver Prospect",
+      "time": "2026-05-06T00:12:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087183-6A1324335",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Stavely Minerals is conducting follow-up drilling at the Freddy's Find gold and silver prospect, signaling sufficient initial results to warrant further capital allocation to this target and potential for resource delineation.",
+        "The decision to return for follow-up drilling implies earlier exploration returned encouraging gold-silver intercepts, which could materially expand the company's project pipeline beyond its core copper-gold focus in the Stavely Arc.",
+        "Investors should monitor upcoming assay results from this drill program as high-grade intercepts could serve as a catalyst for re-rating; however, as a junior explorer with no revenue, cash runway and future dilution risk remain key considerations."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SUH",
+      "company": "SOUTHERN HEMISPHERE MINING LIMITED",
+      "headline": "Diamond Drilling Program Commenced To Expand Llahuin",
+      "time": "2026-05-06T00:02:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087174-6A1324330",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Southern Hemisphere Mining has commenced a diamond drilling program at its Llahuin copper-gold project in Chile, signaling active resource expansion efforts aimed at upgrading and extending the known mineralization envelope.",
+        "The drilling campaign is designed to expand the existing resource base at Llahuin, which is critical for de-risking the project and potentially moving toward a pre-feasibility or scoping study — a key value inflection point for junior explorers.",
+        "For a micro-cap explorer like SUH, the commencement of drilling is a near-term catalyst that could drive re-rating on positive assay results, though investors should monitor cash burn and the likelihood of future capital raises to fund continued exploration."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "BWP",
       "company": "BWP GROUP",
