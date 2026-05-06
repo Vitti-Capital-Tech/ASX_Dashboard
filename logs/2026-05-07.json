@@ -1,9 +1,275 @@
 {
   "date": "2026-05-07",
-  "total": 43,
-  "market_sensitive_count": 40,
-  "generated_at": "2026-05-06T22:44:56.702662+00:00",
+  "total": 57,
+  "market_sensitive_count": 50,
+  "generated_at": "2026-05-06T23:05:37.856676+00:00",
   "announcements": [
+    {
+      "ticker": "D3E",
+      "company": "D3 ENERGY LIMITED",
+      "headline": "Material increase in South African Helium & Methane Resource",
+      "time": "2026-05-06T23:01:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087586-6A1324491",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "D3 Energy reports a material increase in its South African helium and methane resource estimate, signaling significant de-risking of the asset base and potential uplift in company valuation for a micro-cap explorer.",
+        "Helium is a strategic, non-renewable commodity with tight global supply dynamics; a meaningful resource upgrade positions D3 to attract offtake interest and potentially accelerate development timelines in an undersupplied market.",
+        "Key next steps for investors include the quantum of the resource upgrade (contingent vs prospective), pathway to pilot production or feasibility studies, and whether the company has sufficient cash runway to advance without near-term dilutive capital raises."
+      ],
+      "tags": [
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TAH",
+      "company": "TABCORP HOLDINGS LIMITED",
+      "headline": "AUSTRAC Compliance Assessment",
+      "time": "2026-05-06T22:58:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087581-3A692859",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AUSTRAC compliance assessment signals heightened regulatory scrutiny on Tabcorp's AML/CTF frameworks, echoing sector-wide enforcement actions that have previously resulted in material penalties for peers (e.g. Crown, Star Entertainment)",
+        "Market-sensitive designation suggests the assessment findings carry potential financial or operational consequences — investors should monitor for possible enforceable undertakings, remediation costs, or civil penalty proceedings that could weigh on earnings and capital allocation",
+        "Near-term overhang likely as the market prices in regulatory tail risk; key watch items include the scope of identified deficiencies, timeline for remediation, and whether AUSTRAC escalates to formal enforcement action"
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ACR",
+      "company": "ACRUX LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-06T22:58:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087580-3A692860",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Acrux Limited has entered a trading halt, typically requested by the company pending a material announcement that could significantly impact its share price.",
+        "As a pharmaceutical company focused on transdermal drug delivery, the halt could relate to a licensing deal, clinical milestone, regulatory update, or potential capital raise — all of which carry meaningful implications for its relatively small market cap and cash position.",
+        "Investors should await the pending announcement before repositioning; the halt removes near-term liquidity and signals the company is managing information asymmetry ahead of a potentially price-sensitive disclosure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SLC",
+      "company": "SUPERLOOP LIMITED",
+      "headline": "Macquarie Conference Presentation",
+      "time": "2026-05-06T22:56:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087577-2A1670774",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Superloop presenting at the Macquarie Conference signals active engagement with institutional investors, typically used to showcase growth strategy, competitive positioning in the Australian broadband/fibre market, and updated financial metrics.",
+        "As a market-sensitive presentation, the document likely contains forward-looking guidance or updated KPIs (subscriber growth, ARPU, EBITDA trajectory) that management deems material — suggesting new information beyond prior disclosures.",
+        "Conference presentations at Macquarie often precede increased institutional coverage and capital flows; investors should monitor for any revised FY25 guidance, consumer/business segment momentum, or commentary on integration of recent acquisitions driving margin expansion."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ADX",
+      "company": "ADX ENERGY LTD",
+      "headline": "HOCH-1 WELL ENCOUNTERS GAS IN HALL FORMATION",
+      "time": "2026-05-06T22:56:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087576-6A1324490",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ADX Energy's Hoch-1 well has encountered gas in the Hall Formation, a technically significant milestone that de-risks the Upper Austrian exploration play and validates the geological model underpinning the company's European gas strategy.",
+        "Gas discovery in the Hall Formation adds potential contingent resources to ADX's portfolio at a time when European gas prices remain elevated, potentially enhancing the company's asset valuation and near-term monetisation pathway through Austria's established gas infrastructure.",
+        "Next steps will focus on flow testing and reservoir characterisation to determine commerciality; investors should watch for test rates, gas composition data, and any resource upgrade announcements that could serve as catalysts for re-rating the stock."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ODY",
+      "company": "ODYSSEY GOLD LTD",
+      "headline": "Metallurgical Results Confirm 95% Gold Recoveries",
+      "time": "2026-05-06T22:55:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087573-6A1324489",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Metallurgical test work confirms 95% gold recoveries, a strong result that de-risks the processing pathway and supports project economics for Odyssey Gold's asset development",
+        "High recovery rates at this level are typically consistent with simple, low-cost gravity and/or CIL processing flowsheets, potentially reducing future capex requirements and improving NPV scenarios in any feasibility study",
+        "Results provide a key technical milestone that positions the company to advance toward resource definition, scoping studies, or attract potential JV partners, with further drilling and metallurgical optimisation likely next catalysts"
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SGA",
+      "company": "SARYTOGAN GRAPHITE LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-06T22:53:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087571-6A1324487",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in Sarytogan Graphite Limited, indicating a shift in ownership concentration among key shareholders that institutional investors should monitor for governance implications.",
+        "As a regulatory filing rather than a voluntary transaction disclosure, the change likely reflects passive threshold crossing or portfolio rebalancing rather than a deliberate strategic accumulation or disposal signal.",
+        "For a pre-revenue graphite explorer/developer like Sarytogan, movements in substantial holdings warrant watching in the context of future capital raise participation and shareholder register stability ahead of project milestones."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "88E",
+      "company": "88 ENERGY LIMITED",
+      "headline": "Rig Secured for Augusta-1 Exploration Well",
+      "time": "2026-05-06T22:51:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087569-6A1324485",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "88 Energy has secured a drilling rig for the Augusta-1 exploration well on Alaska's North Slope, representing a key de-risking milestone that moves the project from planning to execution phase and signals operational momentum.",
+        "Rig commitment locks in a critical path item for the upcoming winter drilling season, reducing schedule risk — the narrow Arctic drilling window means any delay in rig procurement could push the well back by a full year, making this a high-impact operational catalyst.",
+        "Investors should monitor upcoming announcements on spud timing, well cost estimates, and any farm-in partner contributions; with 88 Energy's historically tight cash position, the funding mechanism for the well (likely requiring a capital raise or farm-out) will be the next critical variable for dilution risk and project viability."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TG6",
+      "company": "TG METALS LIMITED",
+      "headline": "Change in substantial holding from FRS",
+      "time": "2026-05-06T22:51:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087567-6A1324484",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "FRS (likely a fund or substantial holder) has filed a change in substantial holding notice for TG Metals Limited, indicating a shift in ownership stake that crosses regulatory disclosure thresholds",
+        "As a micro-cap ASX-listed explorer, changes in substantial holder positions can signal either accumulation by a strategic investor or partial divestment, with the direction of change being critical for interpreting institutional conviction",
+        "The filing is flagged as not market sensitive, suggesting the change is incremental rather than a transformative block trade; investors should monitor subsequent filings for trend confirmation in holder positioning"
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LDR",
+      "company": "LODE RESOURCES LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-06T22:50:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087566-2A1670772",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in Lode Resources Ltd, signaling a notable shift in ownership structure that institutional investors should monitor for potential strategic intent.",
+        "As a non-market-sensitive filing, the change likely reflects routine portfolio rebalancing or passive threshold crossing rather than an activist or takeover-related accumulation, limiting immediate price impact.",
+        "Investors should review the specific direction of the holding change (increase vs decrease) and the identity of the substantial holder to assess whether this signals confidence in Lode's exploration pipeline or portfolio de-risking."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LDR",
+      "company": "LODE RESOURCES LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-06T22:50:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087564-2A1670771",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in Lode Resources Ltd, signaling a notable shift in ownership structure that institutional investors should monitor for potential strategic intent.",
+        "The change in substantial holding notice is classified as not market sensitive, suggesting the movement is likely incremental rather than a transformative block trade or activist accumulation.",
+        "Investors should review the specific direction of the holding change (increase vs decrease) and the identity of the substantial holder to assess whether this reflects informed insider confidence or portfolio rebalancing."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUQ",
+      "company": "ALARA RESOURCES LIMITED",
+      "headline": "41st Copper Concentrate Shipment Dispatched",
+      "time": "2026-05-06T22:45:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087561-6A1324483",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alara Resources has dispatched its 41st copper concentrate shipment from its Washihi mine in Oman, demonstrating sustained operational continuity and consistent production cadence at the project.",
+        "Ongoing regular shipments signal steady revenue generation from copper concentrate sales, supporting near-term cash flow visibility — critical for a junior miner's working capital and debt servicing requirements.",
+        "Continued production milestones reinforce operational reliability, though investors should monitor copper price trends and whether shipment frequency or tonnage is increasing to assess growth trajectory beyond maintenance-level output."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DSM",
+      "company": "DESERT MINERALS LTD",
+      "headline": "Strong Gold Anomalism in Ultrafine Soil Results",
+      "time": "2026-05-06T22:42:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087559-6A1324482",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Desert Minerals reports strong gold anomalism from ultrafine soil sampling, indicating potential for significant gold mineralisation that could de-risk further exploration and attract market interest in the company's tenements.",
+        "Ultrafine soil geochemistry is a cost-effective pathfinder technique; strong coherent gold anomalies at this stage suggest the company is efficiently advancing targets toward drill-ready status without heavy capital expenditure.",
+        "Next steps likely involve follow-up drilling programs to test the identified anomalies — successful drill results would be a key catalyst, though the company remains at early-stage exploration with no defined resource, limiting near-term revenue visibility."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MM8",
+      "company": "MEDALLION METALS LIMITED.",
+      "headline": "Further High-Grade results at Lounge Lizard",
+      "time": "2026-05-06T22:40:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087556-6A1324480",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Medallion Metals reports further high-grade drill results at the Lounge Lizard prospect, reinforcing the potential for a significant nickel-copper sulphide discovery that could materially re-rate the company's exploration portfolio.",
+        "High-grade intercepts at Lounge Lizard suggest mineralisation continuity and grade consistency, which are critical de-risking factors for advancing toward a resource estimate and attracting institutional interest in the asset.",
+        "Continued drilling success is likely to accelerate follow-up programs and could trigger a resource definition campaign, with the market watching for confirmation of scale and geometry to assess economic viability."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ATG",
       "company": "ARTICORE GROUP LIMITED",
