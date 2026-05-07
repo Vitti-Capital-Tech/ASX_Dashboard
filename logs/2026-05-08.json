@@ -1,9 +1,47 @@
 {
   "date": "2026-05-08",
-  "total": 49,
-  "market_sensitive_count": 40,
-  "generated_at": "2026-05-07T23:15:17.280084+00:00",
+  "total": 51,
+  "market_sensitive_count": 42,
+  "generated_at": "2026-05-07T23:19:57.018199+00:00",
   "announcements": [
+    {
+      "ticker": "GRE",
+      "company": "GREENTECH METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-07T23:14:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088127-6A1324672",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Greentech Metals Limited has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant corporate development.",
+        "As a small-cap ASX-listed metals company, any trading halt raises immediate questions about cash runway adequacy and whether equity dilution via a capital raise is forthcoming — a common scenario for junior miners at this stage.",
+        "Investors should await the detailed announcement expected within two business days; the nature of the pending news (capital raise vs. acquisition vs. exploration results) will be the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CZR",
+      "company": "CZR RESOURCES LTD",
+      "headline": "Management and Board Changes",
+      "time": "2026-05-07T23:13:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088126-6A1324670",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CZR Resources announces management and board changes, signaling a strategic leadership transition that may reflect a shift in corporate direction or project priorities for the junior explorer.",
+        "Board and management turnover at the micro-cap level can indicate either a strategic refresh to attract capital and advance projects, or internal challenges — investors should scrutinize the calibre and track record of incoming appointees.",
+        "Key watch items include whether new leadership accelerates development at CZR's Pilbara iron ore assets, any changes to capital allocation strategy, and whether the reshuffle precedes a capital raise or corporate restructuring."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EVG",
       "company": "EVION GROUP NL",
