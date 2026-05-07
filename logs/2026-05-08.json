@@ -1,9 +1,143 @@
 {
   "date": "2026-05-08",
-  "total": 51,
-  "market_sensitive_count": 42,
-  "generated_at": "2026-05-07T23:19:57.018199+00:00",
+  "total": 58,
+  "market_sensitive_count": 48,
+  "generated_at": "2026-05-07T23:41:09.274243+00:00",
   "announcements": [
+    {
+      "ticker": "MHC",
+      "company": "MANHATTAN GOLD CORPORATION LIMITED",
+      "headline": "Change in substantial holding from Mr Petroulas",
+      "time": "2026-05-07T23:36:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088167-6A1324685",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Mr Petroulas has filed a change in substantial holding notice for Manhattan Gold Corporation, signaling a shift in ownership concentration among key shareholders that institutional investors should monitor for governance implications.",
+        "The change in substantial holding — rather than a new or ceased notice — suggests an incremental adjustment to an existing significant position, likely through on-market trades or participation in a capital event, with the exact direction (increase or decrease) critical for interpreting insider conviction.",
+        "As a micro-cap gold explorer, any material movement by substantial holders can disproportionately affect liquidity and free float; investors should cross-reference this filing with any recent capital raises or share issuances to assess potential dilution or accumulation dynamics."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OVT",
+      "company": "OVANTI LIMITED",
+      "headline": "Security Class Reinstatement to Quotation - OVTO",
+      "time": "2026-05-07T23:34:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088166-2A1671173",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ovanti Limited's OVTO security class has been reinstated to quotation on the ASX, signaling resolution of a prior compliance or administrative issue that had suspended trading in this instrument.",
+        "Reinstatement of the security class restores liquidity for holders of OVTO, removing an overhang that may have constrained price discovery and investor participation during the suspension period.",
+        "Investors should monitor for any accompanying disclosure on the conditions that triggered the original suspension and whether ongoing compliance obligations remain, as this will determine the sustainability of the reinstatement."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPX",
+      "company": "SPENDA LIMITED",
+      "headline": "Spenda Divests Ledger Platform to APG Pay for $1.8M",
+      "time": "2026-05-07T23:25:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088147-3A692975",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Spenda divests its Ledger Platform business to APG Pay for $1.8M, signaling a strategic portfolio simplification to focus on core payments and lending operations, reducing operational complexity and overhead.",
+        "The $1.8M cash injection provides meaningful liquidity for a micro-cap like Spenda, extending cash runway and potentially reducing near-term dilution risk from capital raises, though the divested asset's revenue contribution needs scrutiny to assess net impact on top-line growth.",
+        "The transaction with APG Pay suggests Spenda is pivoting toward higher-margin or higher-growth segments within its fintech stack; investors should monitor whether proceeds are deployed toward debt reduction, working capital, or reinvestment into the retained payments/lending platform."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EGY",
+      "company": "ENERGY TECHNOLOGIES LIMITED",
+      "headline": "Announcement of Capital Raising",
+      "time": "2026-05-07T23:24:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088145-2A1671147",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Energy Technologies Limited has announced a capital raising, which will result in dilution to existing shareholders and signals a near-term funding need for operations or growth initiatives.",
+        "Without specific details on raise size, pricing, or discount to market, investors should watch for the terms of the offer — deep discounts or large placements would amplify dilutive impact and bearish pressure.",
+        "Key focus will be on use of proceeds: whether funds are earmarked for working capital (cash runway concerns), debt reduction, or growth capex will determine whether the market views this as defensive or strategic."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "X2M",
+      "company": "X2M CONNECT LIMITED",
+      "headline": "Signs MoU with Mawson for Smart Community deployments",
+      "time": "2026-05-07T23:23:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088143-3A692974",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "X2M Connect has signed a non-binding MoU with Mawson to collaborate on Smart Community deployments, signaling a strategic push into IoT-enabled residential and community infrastructure — though MoUs carry no revenue certainty and remain pre-commercial.",
+        "The partnership targets smart metering, energy management, and connected community solutions, potentially expanding X2M's addressable market in the growing Australian smart infrastructure segment, but no financial terms, contract values, or timelines have been disclosed.",
+        "As a micro-cap with limited revenue history, investors should watch for conversion of this MoU into binding agreements with defined scope and economics — execution risk remains high and the announcement is more indicative of pipeline development than near-term earnings impact."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EDE",
+      "company": "EDEN INNOVATIONS LTD",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-05-07T23:20:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088138-6A1324678",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Eden Innovations issued a response to an ASX price query, typically triggered by unusual share price movement or trading volume, indicating the exchange is seeking clarification on whether the company is aware of any undisclosed material information driving the activity.",
+        "The standard nature of ASX price queries suggests Eden may have confirmed compliance with continuous disclosure obligations, meaning the price movement may be driven by market speculation rather than undisclosed corporate developments.",
+        "As a micro-cap technology/energy company, Eden's share price is susceptible to speculative volatility; investors should monitor for any follow-up announcements regarding its EdenCrete or hydrogen technology segments that could substantiate recent trading activity."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AS1",
+      "company": "ASARA RESOURCES LIMITED",
+      "headline": "Asara raises $60m to fast track exploration",
+      "time": "2026-05-07T23:19:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088134-3A692957",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Asara Resources has secured a significant $60 million capital raise, providing substantial funding to accelerate its exploration programs and materially extending its cash runway for aggressive project advancement.",
+        "The $60m raise is a sizeable commitment for an exploration-stage company, signaling strong institutional confidence in the asset portfolio, though investors should monitor the degree of dilution relative to the pre-raise market capitalisation.",
+        "Proceeds earmarked for fast-tracking exploration suggest near-term catalytic drilling results and resource definition milestones, which could drive re-rating if successful but also imply elevated execution risk typical of early-stage miners."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "GRE",
       "company": "GREENTECH METALS LIMITED",
