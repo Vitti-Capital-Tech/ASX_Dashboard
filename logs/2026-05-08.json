@@ -1,9 +1,252 @@
 {
   "date": "2026-05-08",
-  "total": 36,
-  "market_sensitive_count": 28,
-  "generated_at": "2026-05-07T22:50:35.776028+00:00",
+  "total": 49,
+  "market_sensitive_count": 40,
+  "generated_at": "2026-05-07T23:15:17.280084+00:00",
   "announcements": [
+    {
+      "ticker": "EVG",
+      "company": "EVION GROUP NL",
+      "headline": "Trading Halt",
+      "time": "2026-05-07T23:10:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088121-6A1324668",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Evion Group NL has entered a trading halt, suspending shares from trading pending a material announcement — the nature of which is undisclosed but typical for micro-cap explorers considering capital raises or asset transactions.",
+        "As a small-cap entity with limited cash reserves, any forthcoming announcement around capital raising would likely be dilutive, while an acquisition or strategic partnership could shift the company's risk profile significantly.",
+        "Investors should await the pending announcement before taking positions; the halt is expected to last up to two trading days, with the release likely to clarify the company's near-term funding or strategic direction."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MXO",
+      "company": "MOTIO LTD",
+      "headline": "Motio Investor Presentation",
+      "time": "2026-05-07T23:09:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088118-6A1324666",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Motio Ltd has released a market-sensitive investor presentation, signaling management's intent to proactively communicate strategic positioning and growth narrative to institutional and retail investors.",
+        "As an investor presentation rather than a results or capital raise announcement, the document likely outlines key operational metrics, pipeline developments, and financial trajectory — investors should scrutinize for any updated revenue guidance, contract wins, or cash runway disclosures.",
+        "The market-sensitive tag suggests the presentation contains material new information beyond routine updates, potentially including forward-looking targets, partnership announcements, or strategic pivots that could re-rate the stock."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "M24",
+      "company": "MAMBA EXPLORATION LIMITED",
+      "headline": "SOIL SAMPLING IDENTIFIES OVER 20KM OF STRIKE",
+      "time": "2026-05-07T23:09:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088117-6A1324664",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Soil sampling at Mamba Exploration's project has delineated over 20km of prospective strike length, significantly expanding the scale of the exploration target and enhancing the project's strategic value for potential resource definition.",
+        "The identification of a 20km+ strike zone from early-stage soil geochemistry represents a material de-risking step for a junior explorer, likely to attract market attention and potentially support future capital raising at improved terms.",
+        "Next steps will likely involve follow-up ground-truthing, rock chip sampling, and drill target generation along the identified strike corridor — catalysts that could sustain momentum if anomalies are confirmed by higher-confidence methods."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CEL",
+      "company": "CHALLENGER GOLD LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-07T23:06:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088111-6A1324665",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Challenger Gold has entered a trading halt, typically requested by the company pending a material announcement — the market-sensitive flag suggests a significant corporate action is imminent.",
+        "For a junior gold explorer/developer like Challenger Gold, trading halts frequently precede capital raises (placement/entitlement offer) or material transaction announcements such as asset acquisitions, which could materially alter the company's capital structure or project portfolio.",
+        "Investors should await the pending announcement before repositioning; if a capital raise is confirmed, near-term dilution risk is elevated, though proceeds directed toward project advancement could support longer-term value creation."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FPR",
+      "company": "FLEETPARTNERS GROUP LIMITED",
+      "headline": "In-principle agreement to settle shareholder class action",
+      "time": "2026-05-07T23:04:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088108-2A1671148",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FleetPartners has reached an in-principle agreement to settle a shareholder class action, removing a significant legal overhang and reducing uncertainty around future cash outflows and management distraction.",
+        "Settlement terms will be critical to assess — the financial impact depends on whether the settlement amount is covered by existing provisions or D&O insurance, or whether it triggers a material below-the-line charge that could pressure earnings and capital ratios.",
+        "Resolution of the class action clears a key risk factor for institutional holders and may improve the company's ability to pursue capital management initiatives or strategic transactions without the litigation discount."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "T88",
+      "company": "TAITON RESOURCES LIMITED",
+      "headline": "Exploration Update",
+      "time": "2026-05-07T23:03:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088102-6A1324658",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Taiton Resources has released a market-sensitive exploration update, signaling potentially material progress at one or more of its exploration projects that the company considers price-sensitive for investors.",
+        "As a junior explorer, any positive drill results or target delineation could meaningfully re-rate the stock given its likely small market capitalization and early-stage asset base, though specifics on assay grades or resource estimates will be critical for validation.",
+        "Investors should monitor follow-up drilling programs, upcoming assay results, and the company's cash position to assess whether further capital raises will be needed to advance exploration toward a resource definition stage."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKS",
+      "company": "SKS TECHNOLOGIES GROUP LIMITED",
+      "headline": "$20M Increase in Bank Facilities to Support Growth",
+      "time": "2026-05-07T23:02:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088101-3A692965",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SKS Technologies secured a $20M increase in bank facilities, signaling lender confidence in the company's growth trajectory and balance sheet quality — a meaningful expansion for a small-cap services business.",
+        "The enlarged facility provides additional working capital headroom to support contract mobilization and revenue scaling, reducing the need for dilutive equity raises in the near term.",
+        "Facility upsizing suggests a strengthening pipeline or recently won contracts requiring upfront capital deployment — investors should watch for follow-on contract announcements that validate the expanded borrowing capacity."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CAY",
+      "company": "CANYON RESOURCES LIMITED",
+      "headline": "Minim Martap Development Update",
+      "time": "2026-05-07T22:59:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088099-6A1324656",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Canyon Resources provides a development update on its flagship Minim Martap bauxite project in Cameroon, signaling continued project advancement which is critical for de-risking the asset and attracting potential offtake or financing partners.",
+        "Market-sensitive classification suggests material new information on project milestones, permitting, financing, or partnership developments that could meaningfully impact the company's valuation trajectory and near-term catalysts.",
+        "Progress on the Minim Martap project is pivotal for Canyon's transition from explorer to developer; investors should monitor for updates on mining convention ratification, infrastructure agreements, and capital structure implications given the company's pre-revenue status and finite cash runway."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AQN",
+      "company": "AQUIRIAN LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-05-07T22:58:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088096-6A1324642",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Aquirian Limited has released a market-sensitive investor presentation, signaling the company is actively engaging institutional investors with material updates on strategy, operations, or financial positioning.",
+        "The market-sensitive designation suggests the presentation contains new information beyond previously disclosed data — potentially including updated guidance, contract wins, pipeline metrics, or capital allocation plans that could move the stock.",
+        "Investors should scrutinize the presentation for details on cash runway, revenue trajectory, and any forward-looking statements that may recalibrate consensus expectations for the company's near-term performance."
+      ],
+      "tags": [
+        "Other",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AQN",
+      "company": "AQUIRIAN LIMITED",
+      "headline": "Successful Completion of Placement",
+      "time": "2026-05-07T22:58:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088095-6A1324641",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Aquirian has successfully completed a capital raising placement, securing fresh equity funding which strengthens the company's balance sheet and extends its cash runway for near-term operational and growth initiatives.",
+        "As a completed placement, the raise introduces dilution to existing shareholders — the magnitude of which depends on the discount to market price and the quantum raised relative to existing shares on issue, details critical for assessing value impact.",
+        "Successful closure of the placement removes funding uncertainty and positions the company to execute on its strategic plans; investors should watch for the use-of-proceeds disclosure and any follow-on SPP offering to gauge management's capital allocation priorities."
+      ],
+      "tags": [
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PRU",
+      "company": "PERSEUS MINING LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-07T22:56:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088091-6A1324654",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in Perseus Mining, indicating a notable shift in institutional ownership that warrants monitoring for potential accumulation or distribution patterns.",
+        "As a mid-cap ASX gold producer, changes in substantial holdings can signal institutional conviction on gold price outlook and Perseus's operational trajectory across its West African assets (Edikan, Sissingué, Yaouré).",
+        "The filing is procedural and not marked as market sensitive, suggesting the change likely reflects portfolio rebalancing rather than a strategic block trade or activist position; investors should cross-reference the direction of the change (increase vs decrease) for clearer signal."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKS",
+      "company": "SKS TECHNOLOGIES GROUP LIMITED",
+      "headline": "$22M Contract Win for Major Retailers New HQ",
+      "time": "2026-05-07T22:55:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088090-3A692963",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SKS Technologies secured a $22M contract to deliver electrical and communications infrastructure for a major retailer's new headquarters, representing a significant single-contract win that materially bolsters the company's order book and near-term revenue visibility.",
+        "At ~$22M, this contract is substantial relative to SKS's market capitalisation and annual revenue base, likely providing meaningful earnings contribution over the project delivery period and reinforcing the company's credentials in large-scale commercial fit-out and infrastructure projects.",
+        "The win signals continued momentum in SKS's pipeline conversion and positions the company favourably for further large-scale commercial contracts; investors should monitor execution risk, project margins, and whether this catalyses additional work from the same or adjacent clients."
+      ],
+      "tags": [
+        "Retail",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CLZ",
+      "company": "CLASSIC MINERALS LTD",
+      "headline": "Market Update  Tenure and Court Proceedings",
+      "time": "2026-05-07T22:48:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088084-6A1324637",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Classic Minerals faces material tenure risk with court proceedings potentially threatening its mining tenement holdings, a critical issue for a junior explorer whose entire value proposition rests on its ground position.",
+        "Legal disputes over tenure create significant uncertainty around the company's ability to advance its Kat Gap and Forrestania gold projects, likely freezing any near-term development or financing activities until resolution.",
+        "Investors should monitor court outcomes closely as an adverse ruling could result in loss of key tenements, effectively destroying shareholder value, while a favourable outcome would remove a major overhang on the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "PIA",
       "company": "PENGANA INTERNATIONAL EQUITIES LIMITED",
