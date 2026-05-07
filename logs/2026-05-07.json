@@ -1,9 +1,66 @@
 {
   "date": "2026-05-07",
-  "total": 97,
-  "market_sensitive_count": 86,
-  "generated_at": "2026-05-07T00:37:57.191214+00:00",
+  "total": 100,
+  "market_sensitive_count": 89,
+  "generated_at": "2026-05-07T01:37:36.776314+00:00",
   "announcements": [
+    {
+      "ticker": "AEL",
+      "company": "AMPLITUDE ENERGY LIMITED",
+      "headline": "Annie Production Licence",
+      "time": "2026-05-07T01:21:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087756-2A1670854",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Amplitude Energy has secured a production licence for the Annie gas field, a critical regulatory milestone that de-risks the pathway to first gas and near-term revenue generation from this asset.",
+        "Granting of the Annie production licence signals the project is transitioning from exploration/development phase to commercialisation, which should positively impact the company's forward production profile and cash flow outlook.",
+        "With the licence now in hand, the market will focus on development timeline, capex requirements, and tie-in logistics to existing infrastructure — key catalysts that will determine the pace of value accretion for shareholders."
+      ],
+      "tags": [
+        "Production",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MML",
+      "company": "MCLAREN MINERALS LIMITED",
+      "headline": "Share Purchase Plan",
+      "time": "2026-05-07T00:51:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087745-6A1324554",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "McLaren Minerals is launching a Share Purchase Plan (SPP), providing existing shareholders the opportunity to acquire additional shares, signaling the company's need to raise capital likely for exploration or operational funding.",
+        "The SPP will result in dilution for non-participating shareholders; the pricing terms and cap size will be critical in determining the magnitude of dilutive impact on existing holders.",
+        "Proceeds are expected to extend the company's cash runway and fund near-term activities — investors should monitor the SPP uptake rate and any accompanying placement to gauge market confidence in the company's strategy."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AZ9",
+      "company": "ASIAN BATTERY METALS PLC",
+      "headline": "Initial Success at Red Hill (Maikhan Uul) Cu-Au Project",
+      "time": "2026-05-07T00:40:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087743-6A1324552",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Asian Battery Metals reports initial exploration success at the Red Hill (Maikhan Uul) copper-gold project, signaling potential for a meaningful Cu-Au discovery that could re-rate the company's exploration portfolio.",
+        "Early-stage results at Red Hill are market-sensitive, suggesting the company has encountered sufficiently significant mineralization or geological indicators to warrant formal disclosure — a positive signal for a junior explorer seeking to demonstrate asset quality.",
+        "Next steps will likely involve follow-up drilling and assay results to define grade and extent of mineralization; investors should watch for resource definition timelines and funding requirements, as further capital raises may be needed to advance the project."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AMU",
       "company": "AMERICAN URANIUM LTD",
