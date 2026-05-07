@@ -1,9 +1,161 @@
 {
   "date": "2026-05-07",
-  "total": 89,
-  "market_sensitive_count": 79,
-  "generated_at": "2026-05-07T00:02:08.282939+00:00",
+  "total": 97,
+  "market_sensitive_count": 86,
+  "generated_at": "2026-05-07T00:37:57.191214+00:00",
   "announcements": [
+    {
+      "ticker": "AMU",
+      "company": "AMERICAN URANIUM LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-07T00:33:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087739-6A1324550",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in American Uranium Ltd has altered their position, triggering a mandatory disclosure under ASX substantial holding rules, signaling active institutional or insider portfolio rebalancing.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is incremental rather than a transformative shift in ownership structure or control dynamics.",
+        "Investors should monitor whether this reflects a broader trend of accumulation or distribution by major shareholders, which could signal directional conviction on the company's uranium exploration assets."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OEC",
+      "company": "ORBITAL CORPORATION LIMITED",
+      "headline": "New Engine Order For US Coast Guard Program",
+      "time": "2026-05-07T00:30:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087738-6A1324548",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Orbital Corporation has secured a new engine order for the US Coast Guard program, reinforcing its position as a key supplier to US defense/government agencies and validating the commercial viability of its propulsion technology in a high-reliability application.",
+        "The US Coast Guard contract represents recurring revenue potential from an established government customer, which typically involves multi-year procurement cycles and follow-on orders — a positive signal for revenue visibility and cash flow stability for a small-cap company.",
+        "This order strengthens Orbital's defense sector pipeline and could serve as a reference contract for broader US Department of Defense or allied nation opportunities, potentially catalyzing further order flow and de-risking the company's growth trajectory."
+      ],
+      "tags": [
+        "Production",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AEG",
+      "company": "ALAND EQUITY GROUP LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-05-07T00:27:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087737-2A1670851",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Aland Equity Group responded to an ASX price query, typically triggered by unusual share price movement or trading volume, indicating the exchange is scrutinizing recent market activity in the stock.",
+        "The company's response to the price query suggests either confirmation of no undisclosed material information or potential disclosure of previously unreleased developments — either outcome provides clarity for institutional positioning.",
+        "As a property-focused group, any price-sensitive developments could relate to project milestones, asset revaluations, or financing arrangements — investors should monitor for follow-up announcements that may clarify the catalyst behind the price movement."
+      ],
+      "tags": [
+        "Compliance",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CHR",
+      "company": "CHARGER METALS NL",
+      "headline": "RIU Sydney Resources Round-up Investor Presentation",
+      "time": "2026-05-07T00:22:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087736-6A1324547",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Charger Metals presenting at the RIU Sydney Resources Round-up, a key institutional investor conference, signaling active engagement with the investment community to raise company profile and potentially attract capital interest.",
+        "As a junior explorer, investor presentations at prominent mining conferences are critical for maintaining market awareness and securing future funding; the market-sensitive tag suggests potential disclosure of new exploration results or strategic updates within the presentation.",
+        "Investors should monitor the presentation content for updated exploration targets, drilling timelines, and cash position details that could signal near-term catalysts or upcoming capital raise requirements."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SGR",
+      "company": "THE STAR ENTERTAINMENT GROUP LIMITED",
+      "headline": "Binding Facility Agreement with WhiteHawk Capital Partners",
+      "time": "2026-05-07T00:16:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087733-2A1670850",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Star Entertainment has secured a binding facility agreement with WhiteHawk Capital Partners, providing critical liquidity support as the company navigates ongoing regulatory challenges and operational restructuring pressures.",
+        "The facility from a specialist credit fund signals that traditional bank lenders may be pulling back, with WhiteHawk's involvement likely carrying higher interest costs and potentially more restrictive covenants — a sign of elevated credit risk perception in the market.",
+        "This financing arrangement extends Star's cash runway and reduces near-term insolvency risk, but the reliance on alternative capital providers underscores the severity of the company's financial position and may foreshadow further capital raises or asset sales."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "UNT",
+      "company": "UNITH LTD",
+      "headline": "Webinar Presentation",
+      "time": "2026-05-07T00:08:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087727-3A692815",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "UNITH LTD has released a market-sensitive webinar presentation, suggesting the company is communicating material updates to investors regarding its business strategy or product developments in the immersive technology space.",
+        "The market-sensitive designation indicates the presentation likely contains new information beyond routine corporate updates — potentially covering commercial traction, partnership announcements, or updated financial metrics that could move the stock.",
+        "Investors should review the presentation content for concrete revenue pipeline details, cash runway guidance, and any revised milestones, as micro-cap tech companies often use webinar formats to build institutional awareness ahead of capital events."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HUM",
+      "company": "HUMM GROUP LIMITED",
+      "headline": "High Court of Australia Proceedings",
+      "time": "2026-05-07T00:04:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087722-2A1670839",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Humm Group is involved in High Court of Australia proceedings, signaling a significant legal escalation that could carry material financial and reputational risk for the company.",
+        "Market-sensitive classification suggests potential for meaningful financial exposure — investors should assess contingent liabilities, possible provisioning impacts, and any disclosed quantum of claims that could affect earnings or capital adequacy.",
+        "Outcome uncertainty creates an overhang on the stock; institutional investors should monitor for further disclosure on legal costs, timeline, and any settlement or judgment scenarios that could impact the balance sheet or strategic direction."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "A11",
+      "company": "ATLANTIC LITHIUM LIMITED",
+      "headline": "Binding Scheme Implementation Deed with Huayou",
+      "time": "2026-05-07T00:01:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087718-2A1670838",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Atlantic Lithium has entered a binding Scheme Implementation Deed with Zhejiang Huayou Cobalt, signaling a formal takeover/merger process that provides a definitive exit or consolidation pathway for shareholders in a challenging lithium market environment.",
+        "The binding nature of the deed with Huayou — a major Chinese battery materials producer — validates Atlantic's Ewoyaa lithium project value and likely offers a premium to recent trading levels, providing price certainty amid depressed lithium equities.",
+        "Key next steps include Independent Expert's Report, shareholder vote, and regulatory approvals (including FIRB and Ghanaian authorities); execution risk remains but the binding commitment from a well-capitalized strategic acquirer significantly de-risks the transaction timeline."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ML8",
       "company": "MOONLIGHT RESOURCES LTD",
