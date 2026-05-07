@@ -1,9 +1,84 @@
 {
   "date": "2026-05-07",
-  "total": 100,
-  "market_sensitive_count": 89,
-  "generated_at": "2026-05-07T01:37:36.776314+00:00",
+  "total": 104,
+  "market_sensitive_count": 92,
+  "generated_at": "2026-05-07T03:09:03.531227+00:00",
   "announcements": [
+    {
+      "ticker": "CWY",
+      "company": "CLEANAWAY WASTE MANAGEMENT LIMITED",
+      "headline": "Decision regarding historical MRL landfill levies",
+      "time": "2026-05-07T02:48:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087794-3A692907",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cleanaway has received a decision regarding historical MRL (Melbourne Regional Landfill) levies, a long-running contingent liability that has created material uncertainty around potential back-payments and penalties for the company's landfill operations.",
+        "Resolution of this legacy levy dispute removes a key overhang on the stock; depending on the quantum of any required payment versus previously provisioned amounts, this could materially impact net debt, free cash flow, and FY guidance — institutional investors should focus on whether the outcome falls within or outside existing provisions.",
+        "Market-sensitive classification signals the decision carries financial materiality — a favourable ruling would be a catalyst for re-rating given Cleanaway's leverage to waste infrastructure thematic, while an adverse outcome could pressure near-term earnings and require balance sheet adjustments."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RWD",
+      "company": "REWARD MINERALS LTD",
+      "headline": "Exploration Update Newfoundland",
+      "time": "2026-05-07T02:13:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087780-6A1324564",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reward Minerals provides exploration update on its Newfoundland project, signaling active advancement of its diversified mineral portfolio beyond its core Lake Disappointment potash asset in Western Australia.",
+        "Market-sensitive classification suggests the update contains material new geological or assay data that could meaningfully impact the company's resource base or project economics — critical for a junior explorer with limited revenue streams.",
+        "Investors should assess whether the Newfoundland exploration results are sufficiently compelling to justify continued capital allocation given RWD's tight cash position, or whether this signals a strategic pivot to attract new investment interest."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FND",
+      "company": "FINDI LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-07T01:59:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087770-3A692901",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in Findi Limited, signaling active portfolio rebalancing by a significant shareholder that institutional investors should monitor for directional conviction.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is likely incremental rather than a dramatic shift in ownership concentration or a block trade event.",
+        "Investors should watch for follow-up disclosures to determine whether this reflects accumulation (bullish insider/institutional conviction) or distribution (potential de-risking), which could influence near-term liquidity and sentiment in this micro-cap name."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "URF",
+      "company": "US MASTERS RESIDENTIAL PROPERTY FUND",
+      "headline": "Dividend/Distribution - URF",
+      "time": "2026-05-07T01:55:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087767-2A1670860",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "US Masters Residential Property Fund (URF) has announced a dividend/distribution, signaling continued commitment to returning income to unitholders despite the fund's historically challenged performance and NAV discount.",
+        "The distribution announcement is market sensitive, suggesting the quantum or terms may represent a material change from prior periods — investors should scrutinize the per-unit amount, franking, and whether it is funded from operating income or capital returns.",
+        "For institutional holders, the key question is whether this distribution is sustainable given URF's US residential property portfolio dynamics, USD/AUD exposure, and ongoing fund restructuring considerations — any shift in payout policy could impact the persistent discount to NTA."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AEL",
       "company": "AMPLITUDE ENERGY LIMITED",
