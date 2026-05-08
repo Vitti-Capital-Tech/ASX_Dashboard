@@ -1,9 +1,104 @@
 {
   "date": "2026-05-08",
-  "total": 58,
-  "market_sensitive_count": 48,
-  "generated_at": "2026-05-07T23:41:09.274243+00:00",
+  "total": 63,
+  "market_sensitive_count": 53,
+  "generated_at": "2026-05-08T00:04:19.049800+00:00",
   "announcements": [
+    {
+      "ticker": "RNV",
+      "company": "RENERVE LIMITED",
+      "headline": "Quarterly Investor Presentation",
+      "time": "2026-05-08T00:02:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088192-6A1324705",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Renerve Limited's quarterly investor presentation is flagged as market sensitive, suggesting material updates on operational progress, financials, or strategic direction that could move the stock.",
+        "As a small-cap ASX-listed entity, quarterly presentations typically reveal critical cash position and burn rate data — investors should scrutinize cash runway and any signals of near-term capital raise requirements.",
+        "The presentation format indicates management is actively engaging the investment community, potentially foreshadowing upcoming catalysts such as new partnerships, product milestones, or funding initiatives."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TMS",
+      "company": "TENNANT MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-07T23:55:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088189-6A1324702",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Tennant Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, exploration results, or corporate transaction for this copper-gold explorer.",
+        "As a micro-cap ASX-listed explorer, any capital raise associated with this halt could be materially dilutive given the company's likely limited cash runway and small market capitalisation.",
+        "Investors should await the detailed announcement expected within two business days to assess whether the halt relates to a funding event, significant drill results from its Bluebird copper-gold project, or other corporate activity."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JLL",
+      "company": "JINDALEE LITHIUM LIMITED",
+      "headline": "Entitlement Offer and Options Prospectus",
+      "time": "2026-05-07T23:53:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088182-6A1324696",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Jindalee Lithium is conducting an entitlement offer with an accompanying options prospectus, signaling a need to raise capital likely to fund exploration/development of its lithium assets amid a challenging lithium price environment.",
+        "Entitlement offers are dilutive to existing shareholders who do not participate, and the inclusion of attaching options suggests the company needs to sweeten the deal to attract investor participation, indicating potential difficulty raising capital at current market conditions.",
+        "Proceeds will likely extend cash runway for the company's McDermitt lithium project in the US; investors should monitor the offer pricing discount, take-up rate, and any underwriting arrangements to gauge institutional confidence in the company's forward strategy."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "JLL",
+      "company": "JINDALEE LITHIUM LIMITED",
+      "headline": "Strongly Supported Placement & Rights Raising up to A$11M",
+      "time": "2026-05-07T23:53:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088181-6A1324691",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Jindalee Lithium is raising up to A$11M through a combined placement and rights issue, described as 'strongly supported' suggesting solid institutional backing despite challenging lithium market conditions.",
+        "The capital raise introduces meaningful dilution for non-participating shareholders, though the rights issue component provides existing holders an opportunity to maintain their pro-rata ownership and participate at placement terms.",
+        "Proceeds likely earmarked to advance the McDermitt Lithium Project in Oregon (USA), extending cash runway for permitting and feasibility work during a period of depressed lithium prices — positioning the company for an eventual market recovery."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PAT",
+      "company": "PATRIOT RESOURCES LIMITED",
+      "headline": "Completion of Strategic Placement",
+      "time": "2026-05-07T23:51:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088179-6A1324700",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Patriot Resources has completed a strategic placement, securing fresh capital to fund ongoing operations and exploration activities, strengthening its balance sheet position.",
+        "The placement introduces new strategic investors, which may signal institutional confidence in the company's asset portfolio and near-term development plans, though dilution to existing shareholders is an immediate consideration.",
+        "Proceeds are likely earmarked for advancing exploration programs or project development, with investors needing to assess the placement pricing relative to market and the resulting cash runway extension."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MHC",
       "company": "MANHATTAN GOLD CORPORATION LIMITED",
