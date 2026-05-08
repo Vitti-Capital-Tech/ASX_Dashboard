@@ -65,6 +65,64 @@ Remember: Output ONLY the HTML body content starting with <h1>, no markdown form
     return content.strip()
 
 
+def fetch_msg(summary_text: str) -> str:
+    prompt = f"""
+You are an investment analyst writing a WhatsApp update for a client.
+
+Based on the information below, write a short WhatsApp-ready summary in 5 or 6 informative lines.
+
+It must be in natural human tone. It should not read like an AI wrote it.
+
+IMPORTANT FORMATTING RULES:
+- Output plain text only
+- No HTML
+- No markdown bullets
+- No code blocks
+- No greeting or sign-off
+- Keep each line concise and easy to read on mobile
+- Focus on the most important investment takeaway
+- If there is not enough information, return exactly: not enough information
+
+Suggested structure:
+1. Company name and ticker
+2. What happened
+3. Why it matters
+4. Key number / funding / timing detail if available
+5. Near-term outlook or risk
+6. Overall takeaway
+
+Information:
+{summary_text}
+""".strip()
+    response = requests.post(
+        "https://api.anthropic.com/v1/messages",
+        headers={
+            "x-api-key": ANTHROPIC_API_KEY,
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json",
+        },
+        json={
+            "model": ANTHROPIC_MODEL,
+            "max_tokens": 500,
+            "temperature": 0.5,
+            "messages": [{"role": "user", "content": prompt}],
+        },
+        timeout=120,
+    )
+    if response.status_code != 200:
+        print(f"Anthropic API Error {response.status_code}: {response.text[:2000]}")
+        return ""
+    blocks = response.json().get("content", [])
+    content = "".join(block.get("text", "") for block in blocks if block.get("type") == "text").strip()
+    content = re.sub(r"^```\w*\s*", "", content, flags=re.IGNORECASE)
+    content = re.sub(r"\s*```$", "", content)
+    content = re.sub(r"\[\d+\]", "", content)
+    lines = [line.strip() for line in content.splitlines() if line.strip()]
+    if len(lines) > 6:
+        lines = lines[:6]
+    return "\n".join(lines).strip()
+
+
 
 
 """
@@ -499,7 +557,17 @@ def main():
         action="store_true",
         help="Run in a loop every 5 minutes during the 9:00 - 10:15 window",
     )
+    parser.add_argument(
+        "--input",
+        help="Raw input text to convert into a 5-6 line WhatsApp summary",
+    )
     args = parser.parse_args()
+
+    if args.input:
+        result = fetch_msg(args.input)
+        if result:
+            print(result)
+        return
 
     if args.loop:
         print(f"[loop] Starting morning loop (9:00 AM - 10:15 AM AEST)...")

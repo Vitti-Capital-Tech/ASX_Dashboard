@@ -1,12 +1,13 @@
 'use client';
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
-import { Announcement, DayLog, ViewMode } from '@/types';
+import { Announcement, DayLog, PlacementDayLog, ViewMode } from '@/types';
 import { getSentiment, sentimentRank } from '@/lib/utils';
 import Sidebar from '@/components/Sidebar';
 import Topbar from '@/components/Topbar';
 import AnnouncementCard from '@/components/AnnouncementCard';
 import AnnouncementRow from '@/components/AnnouncementRow';
+import PlacementCard from '@/components/PlacementCard';
 
 const CATEGORIES = [
   'All Activity', 'Bullish', 'Bearish', 'Neutral', 'Quarterly', 'Results', 'Dividend',
@@ -31,6 +32,9 @@ export default function Dashboard() {
   const [lastUpdated, setLastUpdated] = useState<Date | null>(null);
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [isClient, setIsClient] = useState(false);
+  const [placementLog, setPlacementLog] = useState<PlacementDayLog | null>(null);
+  const [placementLoading, setPlacementLoading] = useState(false);
+  const [placementDates, setPlacementDates] = useState<string[]>([]);
 
   useEffect(() => {
     setIsClient(true);
@@ -73,6 +77,11 @@ export default function Dashboard() {
       .then(r => r.json())
       .then(d => setAvailableDates(d))
       .catch(console.error);
+
+    fetch('/api/placements')
+      .then(r => r.json())
+      .then(d => setPlacementDates(d))
+      .catch(console.error);
   }, []);
 
   useEffect(() => {
@@ -110,7 +119,30 @@ export default function Dashboard() {
     }
   }, []);
 
+  const fetchPlacements = useCallback(async (d: string) => {
+    if (!d) return;
+    setPlacementLoading(true);
+    try {
+      const res = await fetch(`/api/placements/${d}`);
+      if (res.ok) {
+        const data: PlacementDayLog = await res.json();
+        setPlacementLog(data);
+      } else {
+        setPlacementLog(null);
+      }
+    } catch {
+      setPlacementLog(null);
+    } finally {
+      setPlacementLoading(false);
+    }
+  }, []);
+
   useEffect(() => { if (!isClient) return; fetchLog(date); }, [date, fetchLog, isClient]);
+
+  useEffect(() => {
+    if (!isClient || activeCategory !== 'Whatsapp Messages') return;
+    fetchPlacements(date);
+  }, [date, activeCategory, fetchPlacements, isClient]);
   useEffect(() => {
     if (!date || !isClient) return;
     const interval = setInterval(() => fetchLog(date), REFRESH_MS);
@@ -266,7 +298,7 @@ export default function Dashboard() {
           marketSensitiveOnly={marketSensitiveOnly}
           onMarketSensitiveToggle={() => setMarketSensitiveOnly(v => !v)}
           onCategoryChange={setActiveCategory}
-          onDateChange={d => { setDate(d); setActiveCategory('All Activity'); setActiveTags(new Set()); setSearch(''); setMarketSensitiveOnly(false); }}
+          onDateChange={d => { setDate(d); setActiveCategory('All Activity'); setActiveTags(new Set()); setSearch(''); setMarketSensitiveOnly(false); setPlacementLog(null); }}
           onTagToggle={handleTagToggle}
           onCsvDownload={handleCsvDownload}
           tagCounts={tagCounts}
@@ -398,8 +430,8 @@ export default function Dashboard() {
             </div>
           )}
 
-          {/* Empty state */}
-          {!loading && !error && sorted.length === 0 && log && (
+          {/* Empty state — hidden on Whatsapp Messages tab when placement data exists */}
+          {!loading && !error && sorted.length === 0 && log && !(activeCategory === 'Whatsapp Messages' && (placementLoading || (placementLog && placementLog.placements.length > 0))) && (
             <div className="flex flex-col items-center justify-center h-[52vh] gap-5 text-center px-8 animate-fade-in-up">
               <div className="w-16 h-16 rounded-3xl flex items-center justify-center animate-float"
                 style={{ background: 'rgba(99,102,241,0.07)', border: '1px solid rgba(99,102,241,0.12)', boxShadow: '0 0 40px rgba(99,102,241,0.08)' }}>
@@ -420,6 +452,32 @@ export default function Dashboard() {
                 style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)', color: 'rgba(148,163,184,0.8)' }}>
                 Clear Filters
               </button>
+            </div>
+          )}
+
+          {/* Placement summaries inside Whatsapp Messages tab */}
+          {activeCategory === 'Whatsapp Messages' && !placementLoading && placementLog && placementLog.placements.length > 0 && (
+            <div className="max-w-[1000px] mx-auto mb-8">
+              <div className="flex items-center justify-between mb-5 px-1 animate-fade-in-up">
+                <h2 className="text-[1rem] font-bold text-slate-200 flex items-center gap-3">
+                  Placement & IPO Summaries
+                  <span className="font-mono text-[0.7rem] font-semibold px-2.5 py-1 rounded-full"
+                    style={{ color: 'rgba(168,85,247,0.7)', background: 'rgba(168,85,247,0.06)', border: '1px solid rgba(168,85,247,0.15)' }}>
+                    {placementLog.placements.length} {placementLog.placements.length === 1 ? 'deal' : 'deals'}
+                  </span>
+                </h2>
+                <p className="text-[0.65rem] font-medium" style={{ color: 'rgba(100,116,139,0.5)' }}>
+                  Click a summary to select · Hover for copy button
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-4">
+                {placementLog.placements.map((p, i) => (
+                  <div key={p.ticker + p.received_at + i} style={{ animationDelay: `${Math.min(i * 0.06, 0.3)}s` }} className="animate-fade-in-up">
+                    <PlacementCard placement={p} />
+                  </div>
+                ))}
+              </div>
             </div>
           )}
 

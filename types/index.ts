@@ -24,4 +24,20 @@ export interface DayLog {
   announcements: Announcement[];
 }
 
+export interface PlacementSummary {
+  ticker: string;
+  company: string;
+  deal_type: 'Placement' | 'IPO';
+  subject: string;
+  summary: string;
+  received_at: string;
+}
+
+export interface PlacementDayLog {
+  date: string;
+  total: number;
+  generated_at: string;
+  placements: PlacementSummary[];
+}
+
 export type ViewMode = 'grid' | 'list';
