@@ -1,9 +1,104 @@
 {
   "date": "2026-05-08",
-  "total": 66,
-  "market_sensitive_count": 56,
-  "generated_at": "2026-05-08T01:37:56.874235+00:00",
+  "total": 71,
+  "market_sensitive_count": 58,
+  "generated_at": "2026-05-08T03:07:11.652240+00:00",
   "announcements": [
+    {
+      "ticker": "ASP",
+      "company": "ASPERMONT LIMITED.",
+      "headline": "ASP Investor Update Q2 FY26",
+      "time": "2026-05-08T03:00:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088281-6A1324732",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Aspermont's Q2 FY26 investor update signals management proactively communicating progress to the market, likely highlighting key operational and financial metrics mid-year — a positive transparency signal for institutional holders.",
+        "As a media and SaaS-focused company serving the mining and energy sectors, the update likely addresses subscription revenue trends, digital platform growth, and cash position — critical metrics given ASP's historically tight cash runway and path-to-profitability narrative.",
+        "Market-sensitive designation suggests material new information beyond routine updates, potentially including revised guidance, milestone achievements in recurring revenue, or strategic initiatives that could re-rate the stock near-term."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RRL",
+      "company": "REGIS RESOURCES LIMITED",
+      "headline": "Becoming a substantial holder from MS",
+      "time": "2026-05-08T02:48:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088277-6A1324730",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Morgan Stanley has crossed the 5% substantial holder threshold in Regis Resources (RRL), signaling meaningful institutional accumulation in the mid-cap gold producer.",
+        "The new substantial holding by a major global investment bank may reflect a positive view on RRL's valuation amid elevated gold prices and the company's Tropicana/Duketon operations outlook.",
+        "Institutional investors should monitor whether this position is primarily held via derivatives or direct equity, and watch for further accumulation that could indicate strategic positioning ahead of catalysts."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BVR",
+      "company": "BELLAVISTA RESOURCES LTD",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-05-08T02:08:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088261-6A1324726",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Bellavista Resources, indicating a significant sell-down or dilution below the 5% disclosure threshold, which may signal reduced institutional conviction in the company's near-term prospects.",
+        "The exit of a substantial holder in a micro-cap explorer like Bellavista could reflect portfolio rebalancing or concerns about the company's cash runway and project milestones, warranting scrutiny of upcoming funding requirements.",
+        "The filing is classified as not market sensitive, suggesting an orderly exit rather than a forced or distressed sale; investors should monitor for any subsequent capital raise announcements or changes in the share register."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAK",
+      "company": "WA KAOLIN LIMITED",
+      "headline": "WAK General Meeting Presentation",
+      "time": "2026-05-08T01:50:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088251-6A1324720",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WA Kaolin is presenting at a General Meeting with market-sensitive material, likely seeking shareholder approval for key corporate actions that could reshape the company's strategic direction or capital structure.",
+        "As a kaolin mining company, the presentation likely covers project development milestones, offtake agreements, or funding arrangements critical to advancing its Western Australian kaolin assets toward production.",
+        "General meeting presentations flagged as market sensitive typically signal material resolutions such as capital raises, asset transactions, or board restructuring that investors should monitor for dilution risk or value-accretive catalysts."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WEB",
+      "company": "WEB TRAVEL GROUP LIMITED",
+      "headline": "Change in substantial holding from MQG",
+      "time": "2026-05-08T01:48:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088248-3A692987",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Macquarie Group (MQG) has filed a change in substantial holding notice for Web Travel Group (WEB), signaling a meaningful shift in institutional positioning by one of Australia's largest financial groups.",
+        "Changes in MQG's substantial holding typically reflect portfolio rebalancing across its asset management and trading divisions; the direction of the change (increase vs decrease) will determine whether this represents accumulation or distribution pressure on WEB shares.",
+        "As a non-market-sensitive filing, this is a regulatory disclosure obligation rather than a strategic signal, but institutional investors should monitor whether this forms part of a broader trend of fund manager repositioning ahead of WEB's next reporting period."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "FLC",
       "company": "FLUENCE CORPORATION LIMITED",
