@@ -1,9 +1,159 @@
 {
   "date": "2026-05-11",
-  "total": 86,
-  "market_sensitive_count": 78,
-  "generated_at": "2026-05-10T23:39:43.971985+00:00",
+  "total": 94,
+  "market_sensitive_count": 83,
+  "generated_at": "2026-05-11T00:40:43.942206+00:00",
   "announcements": [
+    {
+      "ticker": "VSR",
+      "company": "VOLTAIC STRATEGIC RESOURCES LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-11T00:18:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088726-6A1324942",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Voltaic Strategic Resources has filed a change in holding notice, indicating a meaningful shift in ownership structure that institutional investors should monitor for potential strategic intent.",
+        "As a junior resources company, changes in substantial holdings can signal either accumulation by a strategic investor or portfolio rebalancing — the direction and magnitude of the change will determine whether this reflects growing conviction or reduced exposure.",
+        "This is a procedural disclosure filing flagged as not market sensitive, suggesting the change may be incremental rather than transformative; investors should cross-reference with recent capital raise activity or on-market trading patterns for fuller context."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADC",
+      "company": "ACDC METALS LTD",
+      "headline": "Exploration Program at Mount Jackson Gold Project commences",
+      "time": "2026-05-11T00:09:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088723-3A693053",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ACDC Metals has commenced an exploration program at its Mount Jackson Gold Project, signaling active deployment of capital toward resource delineation — a key catalyst for early-stage mining companies seeking to establish maiden or expanded resource estimates.",
+        "The commencement of fieldwork is market-sensitive, suggesting the company views this program as material to its valuation; investors should monitor for initial assay results and drilling targets that could de-risk the asset and support future resource announcements.",
+        "As a pre-revenue explorer, the pace and results of this program will be critical to sustaining market interest and potentially underpinning future capital raises; cash runway and burn rate during active exploration phases warrant close attention."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AIS",
+      "company": "AERIS RESOURCES LIMITED",
+      "headline": "EXCELLENT RESULTS RETURNED FROM TRITTON DRILLING",
+      "time": "2026-05-11T00:02:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088722-6A1324940",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Aeris Resources reports excellent drilling results at Tritton, signaling potential mine life extension and resource growth at a historically significant copper operation in NSW, which could materially improve the asset's NPV and justify continued investment.",
+        "High-grade intercepts from the Tritton drilling program suggest the deposit remains open at depth or along strike, providing upside to current resource estimates and potentially upgrading the mine plan with higher-grade feed to improve unit economics.",
+        "Positive exploration results at Tritton come at a critical time for Aeris as the company seeks to demonstrate organic growth optionality across its portfolio; successful resource conversion could reduce reliance on external capital and strengthen the investment thesis for institutional holders."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MNC",
+      "company": "MERINO & CO. LIMITED",
+      "headline": "Merino & Co. Secures $1.1 Million China Order",
+      "time": "2026-05-11T00:01:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088720-6A1324939",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Merino & Co. has secured a $1.1 million purchase order from a Chinese buyer, representing a material revenue event for a micro-cap company and validating its China market entry strategy.",
+        "The order size signals meaningful commercial traction in the Chinese market, which could serve as a beachhead for recurring orders and provide near-term revenue visibility and working capital support.",
+        "Successful execution and delivery on this order will be critical to establishing credibility with Chinese distribution partners and could catalyse further order flow, making fulfilment timelines and margin realisation key metrics to watch."
+      ],
+      "tags": [
+        "Retail",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OZM",
+      "company": "OZAURUM RESOURCES LIMITED",
+      "headline": "More High-Grade Shallow Gold at Mulgabbie North Paleochannel",
+      "time": "2026-05-10T23:50:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088715-6A1324937",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ozaurum has intersected further high-grade shallow gold mineralisation at the Mulgabbie North Paleochannel, reinforcing the prospectivity of this target and de-risking the broader exploration thesis for the project.",
+        "Shallow gold hits in paleochannel settings are technically significant as they typically offer low-cost, open-pit or free-dig mining potential, which could materially improve project economics if a resource is delineated.",
+        "Continued drilling success at Mulgabbie North is likely to support further exploration investment and could accelerate a maiden resource estimate, a key catalyst for re-rating this early-stage explorer."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KAO",
+      "company": "KAOKO METALS LIMITED",
+      "headline": "Becoming a substantial holder - O'Donovan",
+      "time": "2026-05-10T23:47:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088714-6A1324936",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "O'Donovan has crossed the 5% substantial holder threshold in Kaoko Metals Limited, signaling meaningful conviction from an individual investor in this early-stage explorer.",
+        "The substantial holding notice is a regulatory disclosure requirement and was flagged as not market sensitive, suggesting the accumulation occurred through ordinary on-market or off-market transactions rather than a strategic block trade.",
+        "Investors should monitor whether this stake accumulation precedes any board-level changes, capital raise participation, or signals alignment with upcoming exploration catalysts for the company."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OLL",
+      "company": "OPENLEARNING LIMITED",
+      "headline": "OLL Secures SaaS Agreement with Philippine Normal University",
+      "time": "2026-05-10T23:45:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088711-6A1324935",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "OpenLearning secured a new SaaS agreement with Philippine Normal University (PNU), the Philippines' national center for teacher education, expanding its Southeast Asian institutional footprint and validating its platform in the higher education vertical.",
+        "While specific contract value was not disclosed, the deal adds recurring SaaS revenue from a government-backed institution, incrementally improving revenue visibility for a micro-cap that has been focused on building annuity-style income streams to extend cash runway.",
+        "The PNU win reinforces OLL's Philippines market expansion strategy alongside its existing Malaysian and Australian operations, with potential for follow-on adoption across the broader Philippine state university network — a key pipeline catalyst to watch."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMU",
+      "company": "AMERICAN URANIUM LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-10T23:41:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088705-6A1324932",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in American Uranium Ltd has adjusted their position, triggering a mandatory disclosure under ASX substantial holding rules, signaling active institutional or strategic investor portfolio rebalancing.",
+        "The 'change in substantial holding' notice (rather than 'becoming' or 'ceasing') indicates the holder remains above the 5% threshold but has materially altered their stake — the direction and magnitude of the change will determine whether this reflects accumulation or partial exit.",
+        "As a non-market-sensitive filing, this is a regulatory compliance disclosure with limited immediate price catalyst, though investors should monitor whether the change reflects broader sentiment shifts in the junior uranium exploration sector."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "DBO",
       "company": "DIABLO RESOURCES LIMITED",
