@@ -1,9 +1,101 @@
 {
   "date": "2026-05-12",
-  "total": 44,
-  "market_sensitive_count": 39,
-  "generated_at": "2026-05-11T23:14:46.988430+00:00",
+  "total": 49,
+  "market_sensitive_count": 44,
+  "generated_at": "2026-05-11T23:21:19.794723+00:00",
   "announcements": [
+    {
+      "ticker": "AXE",
+      "company": "ARCHER MATERIALS LIMITED",
+      "headline": "Archer strengthens pathway to quantum device manufacturing",
+      "time": "2026-05-11T23:17:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089098-2A1671605",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Archer Materials has advanced its quantum chip manufacturing pathway, signaling progress toward commercial-scale fabrication of its 12CQ quantum computing chip — a critical de-risking milestone for this deep-tech company with no near-term revenue.",
+        "The strengthened manufacturing pathway likely involves partnerships or process validation at semiconductor foundries, which is technically significant as bridging the gap between lab-scale quantum device demonstration and reproducible manufacturing remains a key industry bottleneck.",
+        "For institutional investors, the announcement is a positive narrative catalyst but the company remains pre-revenue; focus should remain on cash runway adequacy, pace of technical milestones, and whether manufacturing partnerships translate into a credible timeline toward prototype delivery and eventual commercialisation."
+      ],
+      "tags": [
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GA8",
+      "company": "GOLDARC RESOURCES LIMITED",
+      "headline": "GoldArc Confirms High Grade Gold System at Cosmopolitan",
+      "time": "2026-05-11T23:16:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089094-6A1325048",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GoldArc has confirmed a high-grade gold system at its Cosmopolitan prospect, a significant de-risking milestone that validates the geological model and enhances the project's exploration upside for a junior explorer seeking to attract further investment.",
+        "Confirmation of high-grade gold mineralisation is technically meaningful as it suggests potential for resource definition drilling and eventual resource estimation, which are key catalysts for re-rating among ASX-listed gold juniors in the current elevated gold price environment.",
+        "Next steps likely involve follow-up drilling programs to test the extent and continuity of the high-grade system; investors should monitor upcoming drill results and any capital raise activity required to fund accelerated exploration at Cosmopolitan."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KNB",
+      "company": "KOONENBERRY GOLD LIMITED",
+      "headline": "KNB extends gold mineralisation at Sunnyside, Enmore Project",
+      "time": "2026-05-11T23:15:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089090-6A1325083",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "KNB has extended gold mineralisation at the Sunnyside prospect within the Enmore Project, indicating growing resource potential and validating the exploration thesis in a region with historical gold endowment.",
+        "Extension of mineralisation beyond previously known boundaries is technically significant for a junior explorer, as it increases the likelihood of defining a larger resource envelope that could attract farm-in partners or support future resource estimates.",
+        "Next steps will likely involve follow-up drilling programs to test the expanded mineralisation footprint; investors should monitor upcoming assay results and any updated resource or target estimates that could serve as re-rating catalysts."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AII",
+      "company": "ALMONTY INDUSTRIES INC.",
+      "headline": "Almonty Reports Q1 Financial Results",
+      "time": "2026-05-11T23:15:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089089-6A1325079",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Almonty's Q1 results are a critical read-through for investors tracking the Sangdong tungsten mine ramp-up timeline and near-term revenue trajectory as the company transitions toward major production milestones in South Korea.",
+        "As a dual-listed tungsten pure-play, quarterly financials will reveal cash burn rate and balance sheet resilience — key metrics given the capital-intensive nature of Sangdong's development and the company's reliance on project financing and offtake agreements.",
+        "With tungsten prices supported by supply concentration risks (China dominance) and Western critical minerals policy tailwinds, Almonty's operational progress and cash runway disclosed in Q1 results will shape near-term institutional positioning ahead of anticipated production inflection."
+      ],
+      "tags": [
+        "Results",
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TCG",
+      "company": "TURACO GOLD LIMITED",
+      "headline": "Drilling To Deliver Further Gold Growth Along Afema Shear",
+      "time": "2026-05-11T23:13:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089086-6A1325081",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Turaco Gold is advancing drilling along the Afema Shear Zone in Côte d'Ivoire, targeting further gold resource growth at a project that already hosts a significant resource base, signaling continued exploration momentum.",
+        "The planned drilling program is designed to extend known mineralization along strike and at depth, which if successful could materially increase the resource inventory and enhance project economics ahead of future development studies.",
+        "As a market-sensitive update, the announcement signals management confidence in geological prospectivity; investors should watch for assay results in coming weeks/months as a key catalyst for re-rating, while monitoring the company's cash position to fund ongoing exploration."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AII",
       "company": "ALMONTY INDUSTRIES INC.",
