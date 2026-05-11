@@ -1,9 +1,103 @@
 {
   "date": "2026-05-11",
-  "total": 96,
-  "market_sensitive_count": 85,
-  "generated_at": "2026-05-11T01:38:04.168757+00:00",
+  "total": 101,
+  "market_sensitive_count": 89,
+  "generated_at": "2026-05-11T03:10:28.380470+00:00",
   "announcements": [
+    {
+      "ticker": "DUN",
+      "company": "DUNDAS MINERALS LIMITED",
+      "headline": "Dundas Extends Gold Mineralisation at Rockland",
+      "time": "2026-05-11T02:57:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088782-6A1324959",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dundas Minerals has extended gold mineralisation at its Rockland prospect, indicating the deposit remains open and has potential for further resource growth — a positive signal for early-stage exploration value uplift.",
+        "Extension of mineralisation suggests drilling results are delivering continuity and grade consistency beyond previously known boundaries, which is critical for de-risking the asset and attracting future funding or JV interest.",
+        "Next steps likely involve follow-up drilling programs to test strike and depth extensions at Rockland; investors should watch for assay results and any updated resource estimates that could serve as catalysts for re-rating."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IOV",
+      "company": "ION VIDEO LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-11T02:50:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088780-6A1324958",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "ION Video Ltd has entered a trading halt, suspending shares from trading pending a material announcement — the nature of the pending disclosure is not yet specified but warrants close monitoring given the company's micro-cap profile.",
+        "For a small-cap technology company like ION Video, trading halts frequently precede capital raises or material transactions; any equity raising would likely be dilutive given the company's limited market capitalisation and trading liquidity.",
+        "Investors should await the forthcoming announcement before repositioning — the halt creates near-term uncertainty, and the resolution will determine whether the catalyst is balance-sheet supportive or value-dilutive."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STM",
+      "company": "SUNSTONE METALS LTD",
+      "headline": "Retraction announcement of scoping study",
+      "time": "2026-05-11T02:48:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088779-2A1671442",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sunstone Metals has retracted its previously released scoping study, which is a significant red flag suggesting potential material errors, regulatory concerns, or non-compliance with JORC/ASX reporting standards that required immediate correction.",
+        "Retraction of a scoping study undermines investor confidence in the project's economic parameters — NPV, IRR, capex, and opex assumptions previously communicated are now effectively void, creating material uncertainty around project valuation.",
+        "Investors should watch for a revised or corrected study release and any accompanying ASX query or compliance action; the retraction delays project de-risking milestones and may impact the company's ability to attract development-stage funding or JV partners."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SHN",
+      "company": "SUNSHINE METALS LIMITED",
+      "headline": "Change in substantial holding from LSX",
+      "time": "2026-05-11T02:29:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088774-6A1324956",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding notice from LSX indicates a shift in a major shareholder's position in Sunshine Metals, signaling potential portfolio rebalancing or strategic repositioning by an institutional investor.",
+        "The notice is flagged as not market sensitive, suggesting the change in holding is likely incremental rather than a large-scale entry or exit, limiting immediate price impact for SHN shareholders.",
+        "Investors should monitor whether this forms part of a broader accumulation or disposal trend by LSX, as sustained directional changes in substantial holder positions can foreshadow corporate activity or shifts in market confidence for this junior explorer."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCG",
+      "company": "COMMS GROUP LTD",
+      "headline": "Australian Microcaps Conference Presentation",
+      "time": "2026-05-11T01:47:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088763-3A693067",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "COMMS GROUP presenting at the Australian Microcaps Conference signals active engagement with institutional and sophisticated investors, potentially broadening the shareholder register and improving liquidity for this small-cap telco/IT services provider.",
+        "Conference presentations by microcap companies are typically used to highlight growth metrics, strategic direction, and investment thesis — the market-sensitive tag suggests the presentation may contain material forward-looking guidance or previously undisclosed financial details.",
+        "Investors should monitor for any new revenue run-rate figures, contract wins, or margin improvement targets disclosed in the presentation, as these could serve as catalysts for re-rating in a thinly traded stock."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ACR",
       "company": "ACRUX LIMITED",
