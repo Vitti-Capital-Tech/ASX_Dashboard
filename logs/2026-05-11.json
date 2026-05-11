@@ -1,9 +1,47 @@
 {
   "date": "2026-05-11",
-  "total": 94,
-  "market_sensitive_count": 83,
-  "generated_at": "2026-05-11T00:40:43.942206+00:00",
+  "total": 96,
+  "market_sensitive_count": 85,
+  "generated_at": "2026-05-11T01:38:04.168757+00:00",
   "announcements": [
+    {
+      "ticker": "ACR",
+      "company": "ACRUX LIMITED",
+      "headline": "Acrux raises $1.6 million via Share Placement",
+      "time": "2026-05-11T00:58:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088743-3A693060",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Acrux completed a $1.6 million share placement, a relatively modest raise for the specialty pharmaceutical company that signals near-term funding needs likely tied to ongoing R&D or operational expenditure rather than transformative growth investment.",
+        "The small size of the capital raise suggests limited dilution in absolute terms, but for a micro-cap like Acrux, the proportional impact on existing shareholders and the signal of insufficient organic cash generation warrants scrutiny of current cash runway and burn rate.",
+        "Investors should monitor how proceeds are deployed — whether directed toward advancing the transdermal drug delivery pipeline, supporting commercial partnerships, or simply bridging working capital — as this will determine whether the raise is value-accretive or merely survival capital."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IOV",
+      "company": "ION VIDEO LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-05-11T00:44:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088739-6A1324947",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ION Video Ltd has entered a trading pause, typically preceding a material announcement such as a capital raise, acquisition, or significant corporate update that requires orderly market disclosure.",
+        "As a micro-cap technology company, any trading pause raises immediate questions about cash runway adequacy and whether the forthcoming announcement involves dilutive funding or a transformative corporate action.",
+        "Investors should await the substantive announcement expected to follow the pause; the market-sensitive tag suggests the news will be material enough to potentially re-rate the stock in either direction upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "VSR",
       "company": "VOLTAIC STRATEGIC RESOURCES LTD",
