@@ -1,9 +1,257 @@
 {
   "date": "2026-05-12",
-  "total": 31,
-  "market_sensitive_count": 26,
-  "generated_at": "2026-05-11T22:49:56.544640+00:00",
+  "total": 44,
+  "market_sensitive_count": 39,
+  "generated_at": "2026-05-11T23:14:46.988430+00:00",
   "announcements": [
+    {
+      "ticker": "AII",
+      "company": "ALMONTY INDUSTRIES INC.",
+      "headline": "Almonty Q1 MD&A",
+      "time": "2026-05-11T23:10:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089083-6A1325078",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Almonty's Q1 MD&A release provides critical operational and financial transparency as the company advances its flagship Sangdong tungsten mine in South Korea toward commercial production, a key catalyst for re-rating given tungsten's strategic critical mineral status.",
+        "Investors should scrutinize cash burn rates, working capital position, and any updated capex guidance for Sangdong — the transition from development to revenue generation is the pivotal inflection point that will determine near-term cash runway adequacy and potential need for additional financing.",
+        "With tungsten prices supported by supply concentration risks (China dominance) and growing Western critical minerals policy tailwinds, Almonty's operational progress at Sangdong positions it as a strategic asset, though execution risk remains the key variable heading into anticipated production ramp-up."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AII",
+      "company": "ALMONTY INDUSTRIES INC.",
+      "headline": "Almonty Q1 Financial Statements",
+      "time": "2026-05-11T23:09:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089082-6A1325076",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Almonty Industries released Q1 financial statements, providing a quarterly update on the company's financial position as it progresses toward full-scale production at its flagship Sangdong tungsten mine in South Korea.",
+        "As a pre-revenue ramp-up stage company, investors will scrutinize cash burn rate, remaining liquidity, and any draw-downs on debt facilities to assess runway ahead of Sangdong commissioning — any deterioration in working capital or covenant metrics could pressure the stock.",
+        "The market-sensitive tag suggests material information within the financials; key watch items include construction capex spend versus budget, updated timeline to first concentrate production, and whether additional capital raising may be required to bridge to cash flow generation."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMU",
+      "company": "AMERICAN URANIUM LTD",
+      "headline": "Extension to Rights Issue Closing Date",
+      "time": "2026-05-11T23:09:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089079-6A1325075",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "American Uranium has extended the closing date of its rights issue, signaling potential undersubscription and weaker-than-expected shareholder demand for new equity.",
+        "Extensions to rights issue timelines are typically a red flag for capital raise execution risk, suggesting the company may struggle to secure its targeted funding amount without further incentives or underwriter support.",
+        "Investors should monitor the final take-up rate and any shortfall placement arrangements, as incomplete funding could constrain the company's cash runway and near-term exploration/development plans in the uranium sector."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BUR",
+      "company": "BURLEY MINERALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-11T23:07:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089072-6A1325072",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Burley Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset acquisition, or significant exploration results that requires an orderly market.",
+        "As a junior minerals explorer, the most likely catalyst is either a capital raising (potentially dilutive) or a transformative corporate action — investors should monitor for details on pricing and terms if equity issuance is involved.",
+        "Trading is expected to remain halted until the company makes its announcement or until the commencement of normal trading on the second business day, with the specific nature of the news yet to be disclosed."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ELV",
+      "company": "ELEVRA LITHIUM LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-11T23:06:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089070-2A1671589",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Elevra Lithium has entered a trading halt, typically preceding a material announcement such as a capital raise, acquisition, or significant operational update in the lithium exploration space.",
+        "As a junior lithium explorer, any trading halt raises immediate questions about cash runway adequacy — a capital raise would be dilutive but common for pre-revenue miners needing to fund exploration programs.",
+        "Investors should await the pending announcement (usually within 1-2 trading days) to assess whether the catalyst is value-accretive (e.g. strategic partnership, resource upgrade) or dilutive (equity raising at discount)."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "Completion of Hyden Gold Project Acquisition",
+      "time": "2026-05-11T23:04:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089068-6A1325071",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Forrestania Resources has completed the acquisition of the Hyden Gold Project, adding a new gold asset to its portfolio and signaling a strategic pivot or diversification into gold exploration/development in Western Australia.",
+        "As a micro-cap explorer, the completion of this M&A transaction is likely to have involved share-based consideration or modest cash outlay; investors should monitor the dilutive impact and remaining cash runway to fund exploration programs on the newly acquired tenements.",
+        "Near-term catalysts will include maiden or follow-up drilling programs at Hyden, with the market watching for resource definition milestones that could re-rate the stock; integration risk is low for a project-stage acquisition but execution on exploration targets will be key."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FLC",
+      "company": "FLUENCE CORPORATION LIMITED",
+      "headline": "FLC Wins Strategic $3.7M Industrial Water Contract in US",
+      "time": "2026-05-11T22:58:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089061-3A693126",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Fluence secured a $3.7M industrial water treatment contract in the US, signaling meaningful traction in a high-value market segment and geographic expansion beyond its traditional emerging-market footprint.",
+        "The contract value, while modest in absolute terms for large-cap peers, is strategically significant for FLC's revenue base and validates its decentralized water treatment technology for US industrial applications, potentially opening a larger addressable pipeline.",
+        "Winning a US industrial client strengthens Fluence's credibility for follow-on contracts in the world's largest water infrastructure market, with potential recurring revenue from operations and maintenance components that could improve long-term cash flow visibility."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EBR",
+      "company": "EBR SYSTEMS INC.",
+      "headline": "Q1 2026 Quarterly Activity Report and Form 10-Q Submission",
+      "time": "2026-05-11T22:57:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089060-3A693124",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "EBR Systems filed its Q1 FY2026 quarterly activity report alongside its SEC Form 10-Q, providing updated financial and operational metrics for its wireless cardiac pacing technology — a key milestone for investor transparency on cash burn and commercialization progress.",
+        "As a pre-revenue/early-revenue medtech company, the quarterly report will be scrutinized for cash position, operating expenditure trajectory, and any updates on the FDA approval pathway or post-approval commercial ramp for the WiSE system, which are critical to near-term valuation support.",
+        "Investors should monitor net cash used in operations, remaining cash runway (typically a focal point for ASX-listed medtech), and any guidance on reimbursement milestones or implant volumes that could signal inflection toward revenue sustainability."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORN",
+      "company": "ORION MINERALS LTD",
+      "headline": "Drilling Extends Significant Copper Mineralisation at Okiep",
+      "time": "2026-05-11T22:54:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089058-3A693123",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling at Okiep Copper Complex has extended significant copper mineralisation beyond previously known boundaries, de-risking the resource base and supporting potential mine life extensions for Orion's flagship South African copper project.",
+        "The results are technically significant as they demonstrate continuity and grade potential in a historically productive copper district, which could materially increase the resource inventory ahead of future feasibility updates and enhance project economics.",
+        "Near-term catalysts include updated mineral resource estimates incorporating the new drill data, progression toward development decisions at Okiep, and potential re-rating as the market prices in expanded copper exposure amid a constructive macro backdrop for base metals."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TMS",
+      "company": "TENNANT MINERALS LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-05-11T22:50:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089047-6A1325063",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tennant Minerals issued a response to an ASX price query, indicating unusual trading activity or price movement that triggered exchange scrutiny — typically associated with speculative interest or information asymmetry in micro-cap explorers.",
+        "As a standard ASX compliance response, the company likely confirmed it has no undisclosed material information, though the query itself signals heightened market attention and potential volatility in the near term.",
+        "Investors should monitor for any follow-up announcements regarding exploration results, capital raising activity, or corporate developments that may have driven the price movement prompting the query."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENL",
+      "company": "ENLITIC INC.",
+      "headline": "Ensight go-live at NZs largest private radiology provider",
+      "time": "2026-05-11T22:50:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089046-3A693119",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Enlitic's Ensight platform has gone live at New Zealand's largest private radiology provider, representing a significant commercial milestone that validates the product's enterprise-grade readiness and expands its footprint in the Australasian healthcare market.",
+        "Securing NZ's largest private radiology provider as a live customer is a high-signal reference account that could accelerate pipeline conversion across the region, with recurring SaaS revenue implications as the deployment scales across the provider's imaging volumes.",
+        "This go-live de-risks the commercialisation narrative for Enlitic and positions the company to pursue further radiology network partnerships in ANZ and beyond; investors should watch for follow-on contract announcements and any disclosure of ARR or per-study pricing metrics to gauge revenue trajectory."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TMS",
+      "company": "TENNANT MINERALS LIMITED",
+      "headline": "Re-Assays Confirm Exceptional Bluebird Au-Bi-Cu Drill Hit",
+      "time": "2026-05-11T22:50:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089045-6A1325041",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Re-assay results have confirmed exceptional gold-bismuth-copper mineralisation at the Bluebird prospect, validating the original high-grade drill intercept and reducing the risk of assay error — a key de-risking event for the project's geological model.",
+        "Confirmation of high-grade Au-Bi-Cu association strengthens the case for a polymetallic deposit with potential economic significance, likely to attract increased market attention to Tennant Minerals' exploration portfolio in the Tennant Creek mineral field.",
+        "With confirmed high-grade results in hand, the company is well-positioned to plan follow-up drilling programs to test continuity and scale of mineralisation — upcoming drill planning and potential resource definition work will be critical catalysts for re-rating."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "4DS",
+      "company": "4DS MEMORY LIMITED",
+      "headline": "Company Update",
+      "time": "2026-05-11T22:49:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089044-6A1325061",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "4DS Memory issued a market-sensitive company update, likely addressing progress on its Interface Switching ReRAM technology development or partnership milestones with key semiconductor players",
+        "As a pre-revenue deep-tech company, any update on cash runway, burn rate, or funding requirements is critical — investors should scrutinize remaining cash reserves against projected milestones to assess dilution risk",
+        "The market-sensitive tag suggests material news that could move the stock — potential catalysts include technology validation results, partner engagement updates, or strategic pivots that redefine the company's commercialization timeline"
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "PL3",
       "company": "PATAGONIA LITHIUM LTD",
