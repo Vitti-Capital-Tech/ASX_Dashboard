@@ -1,9 +1,64 @@
 {
   "date": "2026-05-12",
-  "total": 75,
-  "market_sensitive_count": 69,
-  "generated_at": "2026-05-12T00:37:02.192510+00:00",
+  "total": 78,
+  "market_sensitive_count": 72,
+  "generated_at": "2026-05-12T01:37:09.590997+00:00",
   "announcements": [
+    {
+      "ticker": "AVE",
+      "company": "AVECHO BIOTECHNOLOGY LIMITED",
+      "headline": "Expiry of Listed Options",
+      "time": "2026-05-12T00:54:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089170-3A693139",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Expiry of listed options without exercise represents a missed opportunity for additional capital raising, meaning Avecho will not receive any proceeds from these instruments to bolster its cash runway.",
+        "The lapse of listed options removes potential dilution overhang from the share register, which marginally simplifies the capital structure and eliminates future uncertainty around option exercise timing.",
+        "With no capital inflow from option exercise, investors should monitor Avecho's existing cash position and upcoming funding requirements closely, as the biotech may need to pursue alternative capital raising mechanisms to fund ongoing operations and clinical programs."
+      ],
+      "tags": [
+        "Healthcare",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGL",
+      "company": "MAGONTEC LIMITED",
+      "headline": "Executive Chairman's AGM Address to Shareholders",
+      "time": "2026-05-12T00:50:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089168-2A1671641",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Executive Chairman's AGM address flagged as market sensitive, suggesting material forward-looking statements or strategic updates beyond routine procedural commentary, warranting close attention from investors.",
+        "Magontec operates in the niche magnesium alloys and cathodic corrosion protection space; any commentary on European/Asian demand trends, pricing dynamics, or margin trajectory would be highly relevant given the company's historically thin profitability.",
+        "As an AGM address, key watch items include capital allocation priorities, potential restructuring or growth capex plans, and any guidance revisions — the market-sensitive tag implies substantive disclosure that could reset near-term expectations."
+      ],
+      "tags": [
+        "AGM"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUV",
+      "company": "AURAVELLE METALS LIMITED",
+      "headline": "High Impact RC Drilling at Nuckulla Hill Commencing Soon",
+      "time": "2026-05-12T00:35:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089163-6A1325103",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Auravelle Metals is commencing high-impact RC drilling at Nuckulla Hill, signaling an active exploration phase that could serve as a near-term catalyst if results confirm prospective mineralisation at the target.",
+        "The 'high impact' characterisation and market-sensitive designation suggest the company views this drill program as potentially transformative for the project's resource potential, though no assay results or resource estimates are yet available to quantify upside.",
+        "Investors should watch for drill results in the coming weeks/months as the key de-risking event; pre-drill announcements in junior explorers typically generate speculative interest but meaningful re-rating depends entirely on intercept quality and grade."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "SND",
       "company": "SAUNDERS INTERNATIONAL LIMITED",
