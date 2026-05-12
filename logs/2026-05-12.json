@@ -1,9 +1,217 @@
 {
   "date": "2026-05-12",
-  "total": 62,
-  "market_sensitive_count": 57,
-  "generated_at": "2026-05-11T23:44:42.465339+00:00",
+  "total": 73,
+  "market_sensitive_count": 67,
+  "generated_at": "2026-05-12T00:09:21.489441+00:00",
   "announcements": [
+    {
+      "ticker": "ELV",
+      "company": "ELEVRA LITHIUM LIMITED",
+      "headline": "Purchase of Moblan Offtake Rights",
+      "time": "2026-05-12T00:04:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089153-2A1671609",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Elevra Lithium is acquiring offtake rights to the Moblan lithium project, signaling a strategic move to secure downstream supply chain positioning without direct mine ownership — a capital-light approach to lithium exposure.",
+        "The purchase of offtake rights provides Elevra with contracted access to lithium supply, which could be highly valuable if lithium prices recover, effectively giving the company a trading/marketing margin on future production volumes.",
+        "Key details to watch include the purchase consideration (cash vs equity), volume and pricing terms of the offtake, and counterparty risk — the commercial viability hinges on Moblan reaching production and Elevra's ability to on-sell or process the material profitably."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ELV",
+      "company": "ELEVRA LITHIUM LIMITED",
+      "headline": "Strategic Funding Presentation",
+      "time": "2026-05-12T00:04:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089152-2A1671608",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Elevra Lithium has released a strategic funding presentation, signaling the company is actively pursuing capital or financing arrangements to advance its lithium projects amid a challenging commodity price environment.",
+        "The market-sensitive designation suggests the presentation may contain material details on funding structure, potential dilution, or strategic partnerships that could meaningfully impact the company's capital structure and existing shareholder value.",
+        "Investors should scrutinize the terms of any proposed funding — including equity dilution, debt covenants, or offtake commitments — as junior lithium explorers face heightened funding risk given depressed lithium prices and tightened capital markets for pre-revenue miners."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SNT",
+      "company": "SYNTARA LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-11T23:57:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089148-2A1671631",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has altered their position in Syntara Limited, signaling a shift in institutional or major shareholder conviction in this clinical-stage healthcare company.",
+        "The filing is classified as not market sensitive, suggesting the change may be incremental or administrative (e.g. dilution from a capital raise or minor portfolio rebalancing) rather than a large directional bet.",
+        "Investors should monitor whether this reflects ongoing dilution from Syntara's capital management activities, which is critical given the company's pre-revenue status and reliance on external funding for its drug development pipeline."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ELV",
+      "company": "ELEVRA LITHIUM LIMITED",
+      "headline": "Transformational Financing Package to Accelerate Growth",
+      "time": "2026-05-11T23:56:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089147-2A1671607",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Elevra Lithium has secured a transformational financing package designed to accelerate its growth strategy, signaling strong lender/investor confidence in the company's lithium assets despite a challenging commodity price environment.",
+        "The financing structure is likely to extend the company's cash runway and fund critical development milestones, though investors should scrutinize the terms for potential dilution, debt covenants, or equity-linked components that could impact existing shareholders.",
+        "With lithium market sentiment still recovering, the ability to lock in growth capital positions Elevra ahead of peers who may face funding constraints — execution on deployment of proceeds into value-accretive exploration or development will be the key near-term catalyst."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RCM",
+      "company": "RAPID CRITICAL METALS LIMITED",
+      "headline": "New Drill Program to Commence at Webbs",
+      "time": "2026-05-11T23:55:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089143-2A1671628",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Rapid Critical Metals is commencing a new drill program at its Webbs prospect, signaling active exploration advancement and commitment to de-risking the asset through ground-truthing geological targets.",
+        "The market-sensitive designation suggests the drill program may target high-priority zones with potential to materially upgrade the resource base or confirm critical metals mineralization that could shift the project's economic profile.",
+        "For institutional investors, the key watch points are drill results turnaround time, assay grades relative to prior intercepts, and whether the company's cash position can sustain the program without near-term dilutive capital raising."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IBR",
+      "company": "IRON BEAR RESOURCES LTD",
+      "headline": "Indicated Mineral Resource increased to 4.5BT @ 29% Fe",
+      "time": "2026-05-11T23:52:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089142-6A1325100",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Iron Bear has upgraded its Indicated Mineral Resource to 4.5 billion tonnes at 29% Fe, a significant milestone that de-risks the project and strengthens its position for potential offtake negotiations and financing discussions.",
+        "A 4.5Bt Indicated Resource at 29% Fe represents a globally significant iron ore deposit by tonnage, though the relatively low grade (vs ~60%+ direct shipping ore) means beneficiation economics, capex intensity, and magnetite concentrate pricing will be critical to project viability.",
+        "The resource upgrade from Inferred to Indicated category is a key prerequisite for advancing pre-feasibility and feasibility studies, likely catalysing near-term catalysts around scoping economics, potential JV partnerships, or further drilling to expand the resource envelope."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NES",
+      "company": "NELSON RESOURCES LIMITED.",
+      "headline": "Rehabilitation Completed at Orleans Mine",
+      "time": "2026-05-11T23:49:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089139-6A1325099",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nelson Resources has completed rehabilitation at the Orleans Mine, fulfilling environmental obligations and clearing a key regulatory milestone that de-risks the asset for future development or divestiture.",
+        "Completion of rehabilitation reduces ongoing carrying costs and potential environmental liabilities, modestly improving the company's balance sheet position — critical for a junior explorer likely operating with limited cash runway.",
+        "With rehabilitation obligations now discharged, management can redirect capital and operational focus toward active exploration targets, potentially accelerating progress on higher-priority gold prospects in the Woodline project area."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVG",
+      "company": "EVION GROUP NL",
+      "headline": "Evion to acquire high-grade U.S. Fluorspar Project in Nevada",
+      "time": "2026-05-11T23:48:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089135-6A1325064",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Evion Group is acquiring a high-grade fluorspar project in Nevada, USA, pivoting into a critical mineral that is on the U.S. government's critical minerals list — potentially unlocking strategic value amid supply chain security concerns and federal incentive programs.",
+        "The Nevada location offers jurisdictional advantages including mining-friendly regulation, established infrastructure, and proximity to end-markets, while 'high-grade' designation suggests potentially favorable economics if resource estimates and metallurgical studies confirm viability.",
+        "As a micro-cap ASX-listed entity, investors should scrutinize acquisition terms, funding structure (likely requiring capital raise), and whether Evion has the technical team and balance sheet to advance the project — the deal signals a strategic repositioning but execution risk remains elevated."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LSR",
+      "company": "LODESTAR MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-11T23:48:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089134-6A1325096",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Lodestar Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant exploration results that requires price-sensitive disclosure.",
+        "As a junior mining company, trading halts frequently precede equity raisings which can be dilutive to existing shareholders, though they may also signal transformative corporate developments or high-impact drill results.",
+        "Investors should await the detailed announcement expected within two business days to assess the nature and materiality of the news before repositioning; the halt prevents uninformed trading in the interim."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COF",
+      "company": "CENTURIA OFFICE REIT",
+      "headline": "Q3 FY26 Operating Update",
+      "time": "2026-05-11T23:46:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089131-2A1671623",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Centuria Office REIT's Q3 FY26 operating update provides a mid-year checkpoint on leasing activity, occupancy trends, and rental income performance across its diversified Australian office portfolio — critical for assessing distribution sustainability.",
+        "Key metrics to watch include occupancy rate trajectory, weighted average lease expiry (WALE), and any movement in like-for-like net operating income, as the office sector continues to face structural headwinds from hybrid work and elevated vacancy rates nationally.",
+        "Market-sensitive classification signals material new information — likely updated FY26 guidance, significant leasing deals, or asset valuation changes — which will be pivotal for investor positioning ahead of the full-year result and any potential distribution adjustments."
+      ],
+      "tags": [
+        "Quarterly",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HLO",
+      "company": "HELLOWORLD TRAVEL LIMITED",
+      "headline": "Peter Costello to join Helloworld Board",
+      "time": "2026-05-11T23:44:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089129-2A1671622",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Former Australian Treasurer Peter Costello appointed to Helloworld Travel's board, bringing significant political and economic policymaking credentials that could enhance government relations, strategic partnerships, and corporate governance profile.",
+        "The appointment of a high-profile public figure signals board-level confidence in the company's trajectory and may attract increased institutional investor attention, though the direct financial impact on near-term earnings remains limited.",
+        "Investors should monitor whether Costello's appointment precedes any strategic pivot, M&A activity, or capital market initiatives, as boards often recruit heavyweight directors ahead of transformational corporate actions."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "LRV",
       "company": "LARVOTTO RESOURCES LIMITED",
