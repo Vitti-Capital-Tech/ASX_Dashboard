@@ -1,9 +1,329 @@
 {
   "date": "2026-05-13",
-  "total": 56,
-  "market_sensitive_count": 36,
-  "generated_at": "2026-05-12T22:55:08.149417+00:00",
+  "total": 73,
+  "market_sensitive_count": 52,
+  "generated_at": "2026-05-12T23:24:41.142239+00:00",
   "announcements": [
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "2026 AGM addresses and proxy voting results",
+      "time": "2026-05-12T23:21:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089571-2A1671819",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Atlas Arteria's 2026 AGM proxy voting results provide transparency on shareholder support levels for board resolutions, key for gauging governance confidence in the toll-road operator post its strategic review period.",
+        "Market-sensitive tagging suggests potential material outcomes in voting — investors should scrutinize remuneration report approval levels and any director election results for signs of shareholder dissent or activist pressure.",
+        "With Atlas Arteria's portfolio concentrated in APRR (France) and Dulles Greenway (US), AGM outcomes on capital allocation and board composition signal the strategic direction for distributions and potential asset recycling."
+      ],
+      "tags": [
+        "AGM"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NUZ",
+      "company": "NEURIZON THERAPEUTICS LIMITED",
+      "headline": "Ethics Approval Received for NUZ-001 Oral Liquid P1 Study",
+      "time": "2026-05-12T23:19:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089569-6A1325280",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Neurizon has received ethics approval for its Phase 1 clinical study of NUZ-001 oral liquid formulation, a key regulatory milestone that de-risks the pathway toward first-in-human dosing and validates the company's clinical development strategy.",
+        "Ethics approval for the oral liquid formulation suggests Neurizon is advancing a potentially more patient-friendly delivery mechanism for NUZ-001, which could differentiate the asset in its therapeutic area and improve future trial recruitment and compliance metrics.",
+        "With ethics clearance secured, the next critical catalysts are site activation, patient recruitment commencement, and initial safety/tolerability data — investors should monitor the company's cash runway closely as Phase 1 trials represent a capital-intensive stage for pre-revenue biotech firms."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMU",
+      "company": "AMERICAN URANIUM LTD",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-05-12T23:16:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089566-6A1325279",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in American Uranium Ltd, indicating a significant reduction in ownership below the 5% threshold, which may signal diminished conviction from a major investor.",
+        "The disposal of a substantial holding can increase free float and potentially weigh on near-term price action if the exit involved on-market selling, though the filing is flagged as not market sensitive.",
+        "Investors should monitor whether this reflects portfolio rebalancing by the exiting holder or a broader reassessment of American Uranium's fundamentals, particularly given the current uranium market dynamics."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "R8R",
+      "company": "REGENER8 RESOURCES NL",
+      "headline": "Srebrenica North SPA Executed",
+      "time": "2026-05-12T23:11:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089562-6A1325275",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Regener8 Resources has executed a Share Purchase Agreement (SPA) for the Srebrenica North project, signaling a concrete step toward acquiring a new mineral asset in the Balkans region, which could materially expand the company's exploration portfolio.",
+        "The execution of the SPA represents a binding commitment, moving beyond indicative terms — investors should monitor the consideration structure (cash vs scrip) and any conditions precedent that could affect completion timeline and potential dilution.",
+        "As a micro-cap explorer, the acquisition's value will hinge on the geological prospectivity of the Srebrenica North tenement and the company's ability to fund exploration programs post-completion, making cash runway and future capital raise requirements critical watch items."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CNJ",
+      "company": "CONICO LTD",
+      "headline": "CNJ applies for two highly prospective projects in Greenland",
+      "time": "2026-05-12T23:08:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089553-6A1325270",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Conico Ltd has applied for two new mineral exploration licences in Greenland, signalling a strategic expansion of its project portfolio in a jurisdiction known for critical mineral prospectivity.",
+        "As a micro-cap explorer with no revenue, the addition of new tenements without disclosed acquisition costs raises questions about capital allocation and cash runway adequacy to fund expanded exploration commitments.",
+        "Applications are pending approval from Greenland authorities; successful granting would increase CNJ's ground position but near-term value creation depends on securing funding for exploration programs across a now-larger project suite."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PSC",
+      "company": "PROSPECT RESOURCES LIMITED",
+      "headline": "Phase 3 Drilling Commences at Mumbezhi",
+      "time": "2026-05-12T23:08:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089551-6A1325271",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Phase 3 drilling at Mumbezhi copper project signals continued exploration momentum, with the company advancing its flagship asset through systematic de-risking stages — a positive signal for resource definition and potential upgrade catalysts.",
+        "Commencement of Phase 3 implies prior drilling phases yielded sufficiently encouraging results to justify further capital deployment, suggesting management confidence in the mineralisation potential at Mumbezhi in Zambia's copper belt.",
+        "Investors should watch for assay results and updated resource estimates from this drilling campaign, which could serve as near-term share price catalysts; key risk remains the pre-revenue explorer's cash runway and potential future dilution to fund ongoing exploration."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GA8",
+      "company": "GOLDARC RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-12T23:07:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089550-6A1325269",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "GoldArc Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration results for this junior mining company.",
+        "As a micro-cap explorer, any trading halt raises immediate questions about cash runway adequacy — a capital raise scenario would likely be dilutive to existing shareholders given the company's limited market capitalisation.",
+        "Investors should await the formal announcement (expected within two trading days per ASX rules) before repositioning; the nature of the pending news will determine whether this is a value-creating catalyst or a dilution event."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OD6",
+      "company": "OD6 METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-12T23:06:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089547-6A1325272",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "OD6 Metals Limited has entered a trading halt, typically requested by the company pending a material announcement that could significantly impact the share price.",
+        "As a junior mining/exploration company, trading halts frequently precede capital raises (placement or entitlement offers), which could be dilutive, or potentially significant exploration results or corporate transactions.",
+        "Investors should await the pending announcement before taking positions; the halt signals imminent news flow that will clarify the company's near-term strategic direction and potential impact on cash runway."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PDN",
+      "company": "PALADIN ENERGY LTD",
+      "headline": "Interim Financial Report (Canadian document filing)",
+      "time": "2026-05-12T23:05:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089542-6A1325262",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Paladin Energy files its interim financial report as a Canadian document filing on ASX, providing updated financial visibility into the uranium producer's H1 performance and balance sheet position.",
+        "As a dual-listed entity (ASX/TSX), this cross-filing is procedural but will contain key metrics including Langer Heinrich production ramp-up costs, revenue from uranium sales, and cash/liquidity position critical for assessing operational execution.",
+        "Investors should scrutinize cash burn rate relative to Langer Heinrich restart milestones and any updated production guidance, as the uranium spot price environment remains supportive but execution risk on ramp-up remains the key near-term variable."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORD",
+      "company": "ORDELL MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-12T23:05:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089541-6A1325268",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Ordell Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset acquisition, or significant exploration results for this junior explorer.",
+        "As a small-cap minerals company, any capital raise during the halt would likely be dilutive to existing shareholders, while a material discovery or acquisition could be transformative given the company's modest market capitalisation.",
+        "Investors should await the detailed announcement expected within two business days to assess the nature and materiality of the pending news before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ELV",
+      "company": "ELEVRA LITHIUM LIMITED",
+      "headline": "Successful Completion of A$275M Institutional Placement",
+      "time": "2026-05-12T23:04:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089540-2A1671749",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Elevra Lithium successfully raised A$275M via institutional placement, providing substantial capital to advance its lithium development strategy and significantly extending its cash runway during a challenging lithium price environment.",
+        "The A$275M raise represents a sizeable capital injection for a lithium developer, signaling strong institutional demand and confidence in the company's asset base despite depressed lithium spot prices — though existing shareholders face meaningful dilution.",
+        "Proceeds are expected to fund project development, exploration, and working capital; investors should watch for the likely accompanying Share Purchase Plan (SPP) for retail holders and monitor deployment milestones to assess capital allocation discipline."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TTT",
+      "company": "TITOMIC LIMITED",
+      "headline": "Titomic Enters Scheme to Redomicile to the United States",
+      "time": "2026-05-12T23:04:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089539-3A693209",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Titomic is pursuing a scheme of arrangement to redomicile from Australia to the United States, signaling a strategic pivot to access deeper US capital markets, potentially improved valuation multiples, and closer proximity to key defense/aerospace customers for its cold spray additive manufacturing technology.",
+        "Redomiciliation via scheme requires shareholder and court approval, introducing execution risk and timeline uncertainty; the move suggests management views the ASX listing as undervaluing the company relative to US-listed peers in the advanced manufacturing/defense technology sector.",
+        "Investors should monitor scheme details including the proposed US listing venue, any capital raise tied to the restructure, and potential ASX delisting timeline — near-term trading may see increased volatility as arbitrage and event-driven funds assess the deal mechanics."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GTI",
+      "company": "GRATIFII LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-12T23:02:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089534-2A1671807",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Gratifii Limited has entered a trading halt, suspending shares from trading pending a material announcement — the nature of which is undisclosed but typical for micro-cap tech companies considering capital raises or corporate transactions.",
+        "As a small-cap loyalty and engagement technology company with historically constrained cash reserves, any pending announcement likely relates to funding (dilutive capital raise) or a potential M&A event, both of which carry significant implications for existing shareholders.",
+        "Investors should await the formal announcement before repositioning; the trading halt removes near-term liquidity and the outcome will determine whether the catalyst is value-accretive or dilutive for this thinly traded stock."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BEZ",
+      "company": "BESRA GOLD INC.",
+      "headline": "Conditional Renewal Terms Received ML05/20121D Jugan Project",
+      "time": "2026-05-12T22:59:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089531-6A1325261",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Besra Gold has received conditional renewal terms for its ML05/20121D mining licence at the Jugan Project, signaling continued regulatory engagement and potential pathway to maintain operational tenure over this asset.",
+        "The conditional nature of the renewal introduces execution risk — the company must satisfy specific terms before the licence is formally renewed, which could involve financial commitments, environmental obligations, or development milestones that may strain limited resources.",
+        "For a micro-cap gold explorer like Besra, retaining mining licences is critical to preserving asset value and attracting future investment; investors should monitor whether conditions are met within required timeframes to assess project viability."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LGM",
+      "company": "LEGACY MINERALS HOLDINGS LIMITED",
+      "headline": "New Silver-Gold & Copper Drill Program to Commence",
+      "time": "2026-05-12T22:56:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089527-2A1671803",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Legacy Minerals is commencing a new drill program targeting silver-gold and copper mineralisation, signaling active exploration momentum and potential for resource definition catalysts in the near term.",
+        "The dual-commodity focus across silver-gold and copper targets diversifies exploration risk and positions the company to benefit from strong base and precious metals pricing environments, though pre-revenue explorers remain highly dependent on drill results for re-rating.",
+        "Investors should monitor upcoming drill results as key share price catalysts; however, with no production revenue, cash runway and potential future capital raise requirements remain critical considerations for the stock's risk profile."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NXN",
+      "company": "NEXSEN LIMITED",
+      "headline": "Nexsen secures first hospital partner in Asia",
+      "time": "2026-05-12T22:55:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089521-2A1671799",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nexsen has secured its first hospital partnership in Asia, representing a significant geographic expansion milestone that validates the company's healthcare technology proposition in a high-growth regional market.",
+        "The partnership de-risks the commercialisation pathway by establishing a beachhead in Asia's hospital sector, potentially opening a pipeline of follow-on deals across the region and providing early revenue or pilot-stage validation critical for a small-cap healthcare company.",
+        "Investors should monitor for details on contract economics, revenue contribution timeline, and whether this partnership can be leveraged to accelerate additional hospital sign-ups — the scalability of this model will be the key determinant of material revenue impact."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CXO",
+      "company": "CORE LITHIUM LTD",
+      "headline": "Core Awards BP33 Underground Mining Contract at Finniss",
+      "time": "2026-05-12T22:52:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089517-6A1325258",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Core Lithium has awarded the BP33 underground mining contract at its Finniss Lithium Project, signaling a concrete step toward transitioning from open-pit to higher-grade underground ore sources, which is critical for improving unit economics in a depressed lithium price environment.",
+        "The contract award de-risks the operational timeline for underground development at BP33, which is expected to access higher-grade spodumene zones and extend mine life — a key consideration for investors assessing the company's path to sustainable cash flow generation.",
+        "Execution on underground mining will be closely watched as a catalyst; successful ramp-up could materially improve Core's cost position and production profile, though the company's tight cash runway amid weak lithium prices means delivery risk remains elevated."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ARN",
       "company": "ALDORO RESOURCES LIMITED",
