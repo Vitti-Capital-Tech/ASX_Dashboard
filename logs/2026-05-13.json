@@ -1,9 +1,160 @@
 {
   "date": "2026-05-13",
-  "total": 48,
-  "market_sensitive_count": 28,
-  "generated_at": "2026-05-12T22:34:52.646420+00:00",
+  "total": 56,
+  "market_sensitive_count": 36,
+  "generated_at": "2026-05-12T22:55:08.149417+00:00",
   "announcements": [
+    {
+      "ticker": "ARN",
+      "company": "ALDORO RESOURCES LIMITED",
+      "headline": "DD003C confirms Niobium at Kameelburg's Northeast Margin",
+      "time": "2026-05-12T22:51:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089514-6A1325255",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drill hole DD003C has confirmed niobium mineralisation at the northeast margin of the Kameelburg intrusion, validating the geological model and expanding the known extent of the niobium-bearing system — a critical step toward resource delineation.",
+        "Confirmation of niobium at the margin zone is technically significant given the strategic importance of niobium as a critical mineral used in high-strength steel alloys and superconductors, positioning Aldoro within a supply-constrained commodity thematic favoured by institutional capital.",
+        "Next steps likely include additional infill and step-out drilling to define the scale and grade continuity of the niobium mineralisation at Kameelburg, with assay results from DD003C expected to be a key near-term catalyst for re-rating potential."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CR3",
+      "company": "CORE ENERGY MINERALS LTD",
+      "headline": "High-grade TREO & MREO from Assays - Campo Largo Brazil",
+      "time": "2026-05-12T22:44:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089508-2A1671789",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Core Energy Minerals reports high-grade Total Rare Earth Oxide (TREO) and Magnet Rare Earth Oxide (MREO) assay results from its Campo Largo project in Brazil, signaling potential for a commercially significant rare earth deposit in an increasingly strategic commodity class.",
+        "The emphasis on MREO content is technically significant as magnet rare earths (neodymium, praseodymium, dysprosium, terbium) command premium pricing and are critical for EV motors and wind turbines — high MREO ratios relative to TREO substantially enhance project economics versus bulk rare earth deposits.",
+        "As an early-stage explorer, the key next steps will be resource definition drilling and metallurgical testwork to confirm recoverability; investors should watch for follow-up assays, maiden resource estimates, and any capital raise activity to fund continued exploration at Campo Largo."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LIS",
+      "company": "LI-S ENERGY LIMITED",
+      "headline": "LIS secures key approvals to ship cells to the USA",
+      "time": "2026-05-12T22:43:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089507-2A1671791",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "LI-S Energy has secured critical regulatory approvals (likely UN38.3 transport certification and/or ITAR/export clearances) enabling shipment of its lithium-sulfur battery cells to the USA, a key milestone for commercialisation and partner engagement in the world's largest defence and EV market.",
+        "The approval removes a significant logistical bottleneck that had previously constrained the company's ability to deliver prototype and evaluation cells to prospective US-based customers and collaborators, directly de-risking the path to revenue-generating partnerships.",
+        "Next steps will centre on completing cell shipments to US evaluation partners, with investors watching for follow-on announcements regarding testing outcomes, offtake discussions, or strategic partnerships that could validate LI-S Energy's solid-state lithium-sulfur technology at scale."
+      ],
+      "tags": [
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AR1",
+      "company": "AUSTRAL RESOURCES AUSTRALIA LTD",
+      "headline": "High-Grade Copper Intersection Assays at Snow Queen",
+      "time": "2026-05-12T22:43:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089504-2A1671792",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Austral Resources has reported high-grade copper intersection assays at the Snow Queen prospect, signaling potential for a meaningful resource upgrade that could enhance the company's near-term development pipeline in the Mt Isa copper district.",
+        "High-grade copper intercepts at Snow Queen are technically significant as they may support accelerated feasibility work and improve the economic viability of future mining operations, particularly given the current elevated copper price environment above US$9,000/t.",
+        "Next steps likely include follow-up drilling to define the extent and continuity of the high-grade zone, with potential for resource estimation updates that could serve as a catalyst for re-rating if mineralisation proves consistent at depth and along strike."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "E25",
+      "company": "ELEMENT 25 LIMITED",
+      "headline": "Butcherbird Expansion Project Delivery Update",
+      "time": "2026-05-12T22:41:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089502-6A1325252",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Element 25 provides a delivery update on its Butcherbird Expansion Project, signaling progress on scaling up manganese production capacity — a key catalyst for transitioning from junior producer to meaningful mid-tier output.",
+        "Expansion project execution updates are critical for E25's valuation as the company seeks to capitalize on elevated manganese prices and growing demand from steel and battery supply chains; any delays or cost overruns would materially impact cash flow projections and financing requirements.",
+        "Investors should monitor capital expenditure tracking versus budget, commissioning timelines, and any revised production guidance — successful ramp-up would de-risk the equity story and potentially attract offtake or strategic partnership interest."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TMX",
+      "company": "TERRAIN MINERALS LIMITED",
+      "headline": "New IP Program Targets Repetition of the Lightning Discovery",
+      "time": "2026-05-12T22:38:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089500-6A1325253",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Terrain Minerals is launching a new Induced Polarisation (IP) geophysical survey program designed to identify structural repetitions of its Lightning gold discovery, signaling an aggressive exploration strategy to expand the resource base at its key project.",
+        "The IP program targets analogous geological signatures to the Lightning discovery, which if successful could materially de-risk and expand the prospectivity of the broader tenement package — a critical catalyst for a junior explorer with limited revenue streams.",
+        "Near-term catalysts include IP survey results and potential follow-up drilling programs; investors should monitor cash position closely as sustained exploration spend without capital raises will pressure the balance sheet for this pre-revenue explorer."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TPW",
+      "company": "TEMPLE & WEBSTER GROUP LTD",
+      "headline": "Trading Update",
+      "time": "2026-05-12T22:34:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089499-2A1671787",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Temple & Webster issued a market-sensitive trading update, signaling material new information on revenue trajectory — critical for a high-growth online furniture retailer where top-line momentum drives valuation multiples.",
+        "As a pure-play Australian online homewares/furniture platform, any acceleration or deceleration in revenue growth will be closely scrutinized given the stock typically trades at elevated forward revenue multiples and is sensitive to consumer discretionary spending trends.",
+        "Investors should watch for updated FY guidance, commentary on customer acquisition costs and repeat purchase rates, and any signals on the macro housing/renovation cycle which directly impacts Temple & Webster's addressable market."
+      ],
+      "tags": [
+        "Retail",
+        "Quarterly"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AVR",
+      "company": "ANTERIS TECHNOLOGIES GLOBAL CORP.",
+      "headline": "Results for the First Quarter of 2026",
+      "time": "2026-05-12T22:30:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089495-6A1325251",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Anteris Technologies reports Q1 FY2026 results as a market-sensitive disclosure, signaling material updates on the company's financial position and progress with its ADAPT TAVI heart valve platform toward commercialization milestones.",
+        "As a pre-revenue medical device company, investors will scrutinize cash burn rate and remaining cash runway — any acceleration in spending tied to clinical trials or regulatory submissions would be critical to assess dilution risk versus value inflection timing.",
+        "Quarterly results cadence suggests alignment with US reporting norms post-NASDAQ dual listing ambitions; outlook hinges on DurAVR pivotal trial enrollment progress and FDA engagement, which remain the key catalysts for re-rating."
+      ],
+      "tags": [
+        "Results",
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "PEB",
       "company": "PACIFIC EDGE LIMITED",
