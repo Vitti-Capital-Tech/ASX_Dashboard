@@ -1,9 +1,85 @@
 {
   "date": "2026-05-12",
-  "total": 78,
-  "market_sensitive_count": 72,
-  "generated_at": "2026-05-12T01:37:09.590997+00:00",
+  "total": 82,
+  "market_sensitive_count": 73,
+  "generated_at": "2026-05-12T03:08:36.775544+00:00",
   "announcements": [
+    {
+      "ticker": "MM1",
+      "company": "MIDAS MINERALS LTD",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-05-12T02:43:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089205-6A1325118",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has reduced their stake in Midas Minerals below the 5% threshold, triggering a ceasing to be substantial holder notice — signals potential loss of investor confidence or portfolio rebalancing by a key shareholder.",
+        "For a micro-cap explorer like Midas Minerals, the exit of a substantial holder can reduce share register stability and may increase near-term selling pressure or liquidity concerns.",
+        "Investors should monitor whether additional substantial holders follow suit and whether the company provides any capital raise or operational update to offset potential negative sentiment from the departure."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ANN",
+      "company": "ANSELL LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-05-12T02:15:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089197-3A693145",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Ansell Limited, crossing the 5% ownership threshold, signaling meaningful institutional accumulation in the protective gloves and safety solutions company.",
+        "The filing is classified as not market sensitive, suggesting this is a routine disclosure triggered by gradual position building rather than an aggressive or activist-driven stake acquisition.",
+        "Investors should monitor subsequent filings for further accumulation or any indication of activist intent, though at this stage the move appears to reflect constructive institutional conviction in Ansell's valuation or strategic outlook."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FDR",
+      "company": "FINDER ENERGY HOLDINGS LIMITED",
+      "headline": "Change in substantial holding - Longreach",
+      "time": "2026-05-12T02:10:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089195-6A1325116",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Longreach has filed a change in substantial holding notice for Finder Energy Holdings, indicating a shift in their ownership stake that institutional investors should monitor for potential strategic positioning in the junior energy explorer.",
+        "Changes in Longreach's holding may reflect portfolio rebalancing or altered conviction levels in Finder Energy's exploration assets, with the direction of the change (increase vs decrease) being critical to interpreting the signal for other shareholders.",
+        "As a procedural substantial holding notice flagged as not market sensitive, the filing is primarily a regulatory compliance disclosure; investors should cross-reference with Finder Energy's upcoming operational catalysts and cash position to assess materiality."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LF1",
+      "company": "LA TROBE PRIVATE CREDIT FUND",
+      "headline": "LF1 - June 2026 Quarter Off Market Buy Back",
+      "time": "2026-05-12T02:05:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089193-2A1671654",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "La Trobe Private Credit Fund is conducting an off-market buy-back for the June 2026 quarter, signaling ongoing capital management to support unit price stability and address any discount to NAV for listed fund units.",
+        "Off-market buy-backs in listed credit funds typically indicate management confidence in underlying portfolio quality while providing liquidity options for unitholders seeking to exit at or near NAV rather than at market-traded discounts.",
+        "Institutional investors should monitor the buy-back pricing mechanism and volume limits, as the scale of participation will signal market sentiment toward private credit exposures and could tighten the trading discount if meaningful volume is retired."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AVE",
       "company": "AVECHO BIOTECHNOLOGY LIMITED",
