@@ -1,9 +1,47 @@
 {
   "date": "2026-05-12",
-  "total": 73,
-  "market_sensitive_count": 67,
-  "generated_at": "2026-05-12T00:09:21.489441+00:00",
+  "total": 75,
+  "market_sensitive_count": 69,
+  "generated_at": "2026-05-12T00:37:02.192510+00:00",
   "announcements": [
+    {
+      "ticker": "SND",
+      "company": "SAUNDERS INTERNATIONAL LIMITED",
+      "headline": "Revised FY26 Guidance - Timing Delays on Existing Projects",
+      "time": "2026-05-12T00:32:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089160-2A1671639",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Saunders International has downgraded FY26 guidance due to timing delays on existing projects, signaling near-term revenue and earnings shortfall that will weigh on investor confidence in execution capability.",
+        "Timing delays on construction/infrastructure projects typically compress margins and push revenue recognition into future periods, creating a negative earnings revision cycle that may trigger broker downgrades and consensus estimate reductions.",
+        "Investors will focus on whether delayed projects represent deferred rather than lost revenue, the impact on working capital and cash flow, and whether the company can maintain its order book momentum despite execution headwinds."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DDR",
+      "company": "DICKER DATA LIMITED",
+      "headline": "Dividend/Distribution - DDR",
+      "time": "2026-05-12T00:28:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089159-2A1671638",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Dicker Data has declared a dividend distribution, reinforcing its established track record of consistent shareholder returns as Australia's largest listed IT distributor.",
+        "The market-sensitive classification suggests the dividend quantum or terms may differ from consensus expectations, warranting close attention to payout ratio and franking levels relative to prior periods.",
+        "Sustained dividend payments signal management confidence in cash flow generation and earnings visibility, supporting DDR's appeal as a yield play within the ASX technology distribution sector."
+      ],
+      "tags": [
+        "Dividend",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ELV",
       "company": "ELEVRA LITHIUM LIMITED",
