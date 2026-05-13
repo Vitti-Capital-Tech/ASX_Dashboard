@@ -1,9 +1,314 @@
 {
   "date": "2026-05-14",
-  "total": 31,
-  "market_sensitive_count": 23,
-  "generated_at": "2026-05-13T22:27:19.387983+00:00",
+  "total": 47,
+  "market_sensitive_count": 38,
+  "generated_at": "2026-05-13T22:31:00.610167+00:00",
   "announcements": [
+    {
+      "ticker": "AEM",
+      "company": "ADVANCED ENERGY MINERALS LTD",
+      "headline": "Investor Presentation GC Rapid Insights Sydney 14 May 2026",
+      "time": "2026-05-13T22:27:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089919-6A1325419",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Advanced Energy Minerals is presenting at the GC Rapid Insights investor conference in Sydney, signaling active engagement with the institutional and retail investor community to raise company visibility and potentially attract capital.",
+        "The market-sensitive designation suggests the presentation may contain material new information beyond previously disclosed data — potentially updated project milestones, resource estimates, or strategic developments that could move the stock.",
+        "Investor presentations at this stage often precede capital raising activity; institutional investors should monitor for follow-up announcements including placement terms, drilling results, or partnership agreements in the near term."
+      ],
+      "tags": [
+        "Mining",
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GNC",
+      "company": "GRAINCORP LIMITED",
+      "headline": "GrainCorp announces 1H26 result and reaffirms FY26 guidance",
+      "time": "2026-05-13T22:26:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089915-2A1671995",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GrainCorp's 1H26 result release paired with reaffirmation of FY26 guidance signals management confidence in full-year earnings trajectory, providing institutional investors with greater visibility on forward earnings amid volatile agricultural commodity markets.",
+        "The reaffirmation of guidance is a positive signal that grain receivals and processing margins are tracking in line with expectations, reducing downside risk concerns that often weigh on agri-sector stocks during mid-cycle reporting periods.",
+        "Investors should focus on grain intake volumes, storage & handling margins, and any commentary on east coast crop conditions for 2H26, as these will be the key swing factors determining whether GrainCorp can deliver at the upper or lower end of its guidance range."
+      ],
+      "tags": [
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DEL",
+      "company": "DELOREAN CORPORATION LIMITED",
+      "headline": "Delorean receives R&D Tax Cash Refund of $5.76 million",
+      "time": "2026-05-13T22:26:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089913-6A1325417",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Delorean received a $5.76 million R&D Tax Incentive cash refund, providing a material non-dilutive cash injection that significantly strengthens the company's balance sheet and near-term liquidity position.",
+        "The substantial refund size signals meaningful R&D expenditure on Delorean's waste-to-energy and biogas projects, validating the technical development pipeline and reducing the effective cost of innovation for shareholders.",
+        "The cash boost extends operational runway and reduces near-term capital raise pressure, allowing management to focus on project delivery and commercialisation milestones without immediate funding constraints."
+      ],
+      "tags": [
+        "Other",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GNC",
+      "company": "GRAINCORP LIMITED",
+      "headline": "Half Year Accounts",
+      "time": "2026-05-13T22:25:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089912-2A1671993",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "GrainCorp's half-year results release is market sensitive, indicating material financial disclosures that will reset consensus expectations for FY25 earnings trajectory amid variable Australian crop conditions.",
+        "Investors should focus on Agribusiness segment margins, grain handling volumes, and any revision to full-year EBITDA guidance — key drivers given the cyclical sensitivity of GrainCorp's earnings to East Coast Australian harvest quality and size.",
+        "Balance sheet metrics including net debt position, working capital movements tied to grain inventory financing, and any update on capital management (buybacks/dividends) will be critical for near-term valuation support and institutional positioning."
+      ],
+      "tags": [
+        "Results",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EMN",
+      "company": "EURO MANGANESE INC",
+      "headline": "EMN Announces Positive Preliminary Economic Assessment",
+      "time": "2026-05-13T22:25:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089909-2A1671981",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Euro Manganese's positive Preliminary Economic Assessment (PEA) represents a critical de-risking milestone for its Chvaletice Manganese Project in Czech Republic, validating the technical and economic feasibility of producing high-purity manganese for the EV battery supply chain.",
+        "A positive PEA typically establishes key economic metrics (NPV, IRR, capex/opex estimates) that institutional investors use to benchmark project viability — the market-sensitive designation signals material financial parameters that could meaningfully re-rate the stock relative to prior assumptions.",
+        "Next catalysts include progression toward a Definitive Feasibility Study (DFS), securing offtake agreements, and advancing project financing — investors should watch for EU Critical Raw Materials Act funding support and strategic partnerships that could accelerate development timelines and reduce dilution risk."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ENX",
+      "company": "ENEGEX LIMITED",
+      "headline": "RC Drilling Starts at Gogo & AC Drilling Confirms AW1 Target",
+      "time": "2026-05-13T22:25:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089908-6A1325416",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "RC drilling has commenced at the Gogo gold project, representing a significant escalation in exploration intensity and commitment to delineating potential resources at this target.",
+        "Air-core drilling has confirmed the AW1 target, validating earlier geochemical and geophysical anomalies and providing confidence in the geological model — a key de-risking milestone for this early-stage explorer.",
+        "With dual drilling programs now active across multiple targets, Enegex is entering a catalyst-rich period where assay results over coming weeks could materially re-rate the stock, though investors should note the pre-revenue, exploration-stage risk profile."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NES",
+      "company": "NELSON RESOURCES LIMITED.",
+      "headline": "Prospective Tungsten Claims Secured in Pilot Mountain, US.",
+      "time": "2026-05-13T22:24:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089904-6A1325415",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nelson Resources has secured tungsten mining claims at Pilot Mountain, Nevada — a historically significant tungsten district in the US, positioning the company to capitalize on surging critical minerals demand amid supply chain diversification away from China.",
+        "The strategic pivot to US-based tungsten exploration represents a material shift in the company's asset portfolio; tungsten is classified as a critical mineral by both the US and Australian governments, potentially unlocking access to government incentives and offtake support.",
+        "As a micro-cap ASX explorer, investors should monitor near-term capital requirements to advance the Pilot Mountain claims — any drilling programs or feasibility work will likely necessitate additional funding, with the market-sensitive tag suggesting management views this as a share-price catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MP1",
+      "company": "MEGAPORT LIMITED",
+      "headline": "Megaport Secures Major Compute, Network & Storage Contracts",
+      "time": "2026-05-13T22:24:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089903-2A1671978",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Megaport has secured major contracts spanning compute, network, and storage services, signaling successful expansion beyond its core Network-as-a-Service offering into adjacent infrastructure verticals — a strategic diversification that could materially expand its total addressable market.",
+        "The announcement is flagged as market sensitive, suggesting the contract values are material to revenue forecasts; institutional investors should watch for disclosure of contract terms, duration, and recurring revenue contribution in upcoming updates.",
+        "Winning bundled compute, network, and storage deals positions Megaport as a more comprehensive cloud infrastructure provider, potentially improving customer stickiness, reducing churn, and supporting higher average revenue per user (ARPU) — key metrics for re-rating the stock."
+      ],
+      "tags": [
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NXT",
+      "company": "NEXTDC LIMITED",
+      "headline": "Successful Completion of Retail Entitlement Offer",
+      "time": "2026-05-13T22:24:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089902-2A1671976",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "NEXTDC has successfully completed the retail component of its entitlement offer, finalizing a significant capital raise that strengthens the company's balance sheet to fund its aggressive data centre expansion pipeline across Australia and Asia-Pacific.",
+        "The retail entitlement offer follows the institutional component, with combined proceeds expected to provide substantial funding runway for contracted and planned hyperscale and enterprise data centre capacity buildouts, reducing near-term refinancing risk.",
+        "While the equity raise is dilutive to existing shareholders, the capital is earmarked for high-demand data centre infrastructure — a sector benefiting from structural AI and cloud tailwinds — positioning NEXTDC to capture long-term contracted revenue growth and maintain its competitive moat."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TBN",
+      "company": "TAMBORAN RESOURCES CORPORATION",
+      "headline": "Third Quarter Results Presentation",
+      "time": "2026-05-13T22:24:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089900-2A1671974",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Tamboran's Q3 results presentation is market-sensitive, likely detailing progress on its Beetaloo Basin gas development — a critical update for investors tracking the company's transition from exploration to commercialisation in Australia's most prospective onshore gas play.",
+        "Key metrics to watch include drilling/completion activity, production test results, cash burn rate, and remaining cash runway, as Tamboran is pre-revenue and reliant on capital management to fund its multi-well appraisal program through to FID on the EP 161 development.",
+        "Outlook hinges on whether operational milestones (flow rates, well costs, infrastructure progress) support the company's pathway to first gas and whether the balance sheet can sustain activity without near-term dilutive capital raises — pivotal for institutional positioning ahead of potential de-risking catalysts."
+      ],
+      "tags": [
+        "Results",
+        "Quarterly",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MI6",
+      "company": "MINERALS 260 LIMITED",
+      "headline": "Strategic Tenements Acquired at Bullabulling Gold Project",
+      "time": "2026-05-13T22:24:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089899-6A1325420",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Minerals 260 has acquired strategic tenements at the Bullabulling Gold Project, consolidating its land position in a historically significant gold district — a move that enhances exploration optionality and potential resource expansion pathways.",
+        "The acquisition of additional tenements is accretive to the project's footprint, potentially unlocking new exploration targets adjacent to known mineralisation and improving the economics of any future development scenario.",
+        "Next steps will likely involve integration of the new tenements into the existing exploration program, with investors watching for updated drill targets, resource estimates, and any associated acquisition costs or earn-in obligations that could impact cash runway."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TBN",
+      "company": "TAMBORAN RESOURCES CORPORATION",
+      "headline": "Third Quarter Activities Report",
+      "time": "2026-05-13T22:24:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089898-2A1671972",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tamboran's Q3 activities report provides a critical operational update on its Beetaloo Basin gas development in the Northern Territory, a key unconventional gas play that institutional investors are watching as a potential contributor to east coast gas supply.",
+        "Quarterly production and drilling metrics will be scrutinized for evidence of commercial flow rates and well performance consistency — any positive inflection in reservoir deliverability or cost efficiency would be a significant de-risking catalyst for the company's multi-billion dollar resource base.",
+        "Cash position and capital expenditure trajectory are pivotal given Tamboran's pre-revenue, capital-intensive development phase; investors should assess remaining cash runway against upcoming drilling commitments and any signals on future capital raise requirements or offtake agreements."
+      ],
+      "tags": [
+        "Quarterly",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORE",
+      "company": "OREZONE GOLD CORPORATION",
+      "headline": "Q1 Management Discussion and Analysis - 31 March 2026",
+      "time": "2026-05-13T22:23:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089895-6A1325414",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Orezone Gold's Q1 2026 MD&A release provides a comprehensive operational and financial update, offering institutional investors critical visibility into production performance, cost metrics, and balance sheet health at the Bomboré gold mine in Burkina Faso.",
+        "As a market-sensitive disclosure, the MD&A likely contains material updates on gold production volumes, all-in sustaining costs (AISC), revenue generation, and cash position — key metrics that will be benchmarked against prior quarters and full-year guidance to assess execution trajectory.",
+        "Investors should scrutinize the company's cash runway, debt covenants, and any revised production or cost guidance for FY2026, as well as geopolitical risk commentary related to Burkina Faso operations, which remains a material overhang on valuation multiples."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORE",
+      "company": "OREZONE GOLD CORPORATION",
+      "headline": "Q1 Financial Statements - 31 March 2026",
+      "time": "2026-05-13T22:23:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089894-6A1325413",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Orezone Gold Corporation releases Q1 2026 financial statements, providing a key transparency checkpoint for institutional investors to assess operational performance, cost management, and balance sheet health at its Bomboré gold mine in Burkina Faso.",
+        "As a market-sensitive filing, the financials likely contain material updates on revenue, production costs (AISC), cash position, and potentially debt covenants — critical metrics for evaluating whether the company is tracking toward full-year guidance and sustaining margins amid gold price volatility.",
+        "Investors should scrutinize cash flow from operations, capital expenditure on the Phase II hard rock expansion, and any revisions to production or cost guidance that could signal inflection points in the company's growth trajectory or funding requirements."
+      ],
+      "tags": [
+        "Results",
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMM",
+      "company": "BAYAN MINING AND MINERALS LIMITED",
+      "headline": "MoU Executed with US Critical Materials Corp",
+      "time": "2026-05-13T22:22:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089888-6A1325408",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bayan Mining has executed a Memorandum of Understanding with US Critical Materials Corp, signaling strategic alignment with the growing US push to secure domestic critical minerals supply chains — a thematic tailwind supported by federal policy incentives.",
+        "As an MoU rather than a binding agreement, the arrangement is preliminary and non-committal; no financial terms, offtake volumes, or investment commitments have been disclosed, meaning material revenue or cash flow impact remains speculative at this stage.",
+        "The partnership positions Bayan to potentially access US government-backed funding pathways and offtake demand for critical minerals, but investors should watch for conversion to a binding agreement with defined commercial terms as the key de-risking catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DGT",
+      "company": "DIGICO INFRASTRUCTURE REIT",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-13T22:22:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089886-2A1671965",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in DigiCo Infrastructure REIT, triggering a mandatory disclosure under ASX rules — this signals active institutional portfolio rebalancing in the digital infrastructure space.",
+        "The change in substantial holding may reflect shifting institutional conviction around DigiCo's data centre and digital infrastructure assets, which are increasingly in demand amid AI and cloud computing tailwinds across the ASX property/infrastructure sector.",
+        "Investors should monitor whether this is part of a broader accumulation or reduction trend, as successive substantial holding notices can foreshadow meaningful shifts in register composition and potential governance implications."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Property",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "OCN",
       "company": "OCEANA METALS LIMITED",
