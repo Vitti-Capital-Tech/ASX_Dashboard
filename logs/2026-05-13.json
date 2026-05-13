@@ -1,9 +1,104 @@
 {
   "date": "2026-05-13",
-  "total": 98,
-  "market_sensitive_count": 75,
-  "generated_at": "2026-05-13T00:41:15.256775+00:00",
+  "total": 103,
+  "market_sensitive_count": 80,
+  "generated_at": "2026-05-13T01:39:33.617118+00:00",
   "announcements": [
+    {
+      "ticker": "WQG",
+      "company": "WCM GLOBAL GROWTH LIMITED",
+      "headline": "Q3 FY26 Quarterly Dividend Announcement",
+      "time": "2026-05-13T01:30:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089667-3A693227",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "WCM Global Growth Limited has declared its Q3 FY26 quarterly dividend, maintaining its commitment to regular shareholder distributions from its global equity portfolio managed by WCM Investment Management.",
+        "The dividend announcement signals continued portfolio income generation and NAV stability, providing institutional investors with visibility on the LIC's yield profile amid volatile global equity markets.",
+        "Investors should monitor the ex-dividend date and record date for portfolio positioning, while assessing whether the dividend level reflects underlying portfolio performance or potential capital return adjustments."
+      ],
+      "tags": [
+        "Dividend",
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MC2",
+      "company": "MARIMACA COPPER CORP.",
+      "headline": "Q1 2026 Condensed Interim Consolidated Financial Statements",
+      "time": "2026-05-13T01:17:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089656-6A1325306",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Marimaca Copper Corp releases Q1 2026 condensed interim financials, providing institutional investors with updated visibility on the company's financial position during its critical pre-production/development phase for its flagship Chilean copper project.",
+        "As a development-stage copper company, key metrics to watch include cash burn rate, remaining cash runway, and any changes in capitalized development expenditures — these will signal whether additional capital raises may be needed before production commences.",
+        "The market-sensitive designation suggests material information within the financials (potentially significant changes in cash position, impairments, or updated cost estimates) that could recalibrate near-term valuation expectations for the stock."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DCO",
+      "company": "DAINTREE CORE INCOME ACTIVE ETF",
+      "headline": "DCOR Estimated Distribution April 2026",
+      "time": "2026-05-13T01:06:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089654-2A1671858",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Daintree Core Income Active ETF (DCOR) has announced its estimated distribution for April 2026, signaling continued regular income payments to unitholders consistent with the fund's fixed-income mandate.",
+        "As a core income ETF focused on Australian fixed-income securities, the distribution announcement provides visibility on yield for institutional investors benchmarking against cash and bond alternatives in the current rate environment.",
+        "Regular estimated distribution disclosures maintain transparency for investors managing portfolio cash flows; the actual distribution amount and ex-date details will be key for those positioning around income capture or rebalancing."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MMA",
+      "company": "MARONAN METALS LIMITED",
+      "headline": "Executive Leadership Update",
+      "time": "2026-05-13T00:54:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089650-2A1671856",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Maronan Metals has announced a change in executive leadership, a market-sensitive move that signals potential strategic repositioning for the junior explorer/developer",
+        "Leadership transitions at micro-cap mining companies can materially impact project timelines, capital raising capability, and stakeholder confidence — investors should assess the incoming executive's track record and alignment with current project milestones",
+        "Key watch items include any accompanying changes to corporate strategy, near-term funding requirements, and whether the transition triggers any change-of-control or contractual implications for the company's Maronan polymetallic project"
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MDI",
+      "company": "MIDDLE ISLAND RESOURCES LIMITED",
+      "headline": "Major Polymetallic Target Emerges at Bobija",
+      "time": "2026-05-13T00:43:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089645-6A1325301",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Middle Island Resources has identified a major polymetallic target at Bobija, suggesting potential for a multi-element mineral system that could significantly expand the project's resource base and economic appeal beyond single-commodity exposure.",
+        "The emergence of a polymetallic target is technically significant as it may indicate a larger, more complex mineralising system at depth, potentially upgrading the geological prospectivity of the broader tenement package and attracting joint venture or farm-in interest.",
+        "Next steps will likely involve follow-up drilling programs to test the polymetallic target's extent and grade, which will require capital allocation — investors should monitor upcoming funding strategies and assay results to assess whether this discovery translates into material value uplift for the micro-cap explorer."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "OR3",
       "company": "ORE RESOURCES LIMITED",
