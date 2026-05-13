@@ -1,5 +1,9 @@
 name: Daily ASX Announcements
 
+concurrency:
+  group: "daily-asx-fetch"
+  cancel-in-progress: false
+
 on:
   # GitHub schedule is UTC-only. We trigger every 5 min during UTC hours that overlap
   # the desired AEST window (UTC+10). Job "gate" skips unless local Sydney time is:
