@@ -1,9 +1,87 @@
 {
   "date": "2026-05-13",
-  "total": 94,
-  "market_sensitive_count": 72,
-  "generated_at": "2026-05-13T00:15:04.337487+00:00",
+  "total": 98,
+  "market_sensitive_count": 75,
+  "generated_at": "2026-05-13T00:41:15.256775+00:00",
   "announcements": [
+    {
+      "ticker": "OR3",
+      "company": "ORE RESOURCES LIMITED",
+      "headline": "Notice of Initial Substantial Holder",
+      "time": "2026-05-13T00:37:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089643-6A1325300",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Ore Resources Limited, crossing the 5% ownership threshold, signaling fresh institutional or strategic interest in the micro-cap explorer.",
+        "Initial substantial holder notices often precede further accumulation or strategic engagement; investors should monitor for follow-up filings indicating whether the position is being built toward a potential takeover or influence play.",
+        "As a procedural disclosure with no immediate operational or financial impact, the filing is primarily a watchlist trigger — the identity and intent of the new holder will determine whether this translates into meaningful share price catalysts."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CF1",
+      "company": "COMPLII FINTECH SOLUTIONS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-13T00:31:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089641-6A1325299",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Complii FinTech Solutions has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant corporate action that requires price-sensitive disclosure.",
+        "As a small-cap fintech operating in the compliance and financial services technology space, any capital raise could be materially dilutive given the company's modest market capitalisation and historically tight liquidity.",
+        "Investors should await the detailed announcement expected upon lifting of the halt; the nature of the pending news (capital raise vs. M&A vs. other) will be critical in determining whether this is value-accretive or dilutive for existing shareholders."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FCT",
+      "company": "FIRSTWAVE CLOUD TECHNOLOGY LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-13T00:25:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089639-2A1671853",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "FirstWave Cloud Technology has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant corporate development for this small-cap cybersecurity firm.",
+        "As a micro-cap technology company with historically constrained cash runway, a trading halt frequently precedes equity raisings which carry dilution risk for existing shareholders.",
+        "Investors should await the detailed announcement upon lifting of the halt to assess whether the catalyst is accretive (e.g., major contract win or partnership) or dilutive (e.g., placement at discount to market)."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CF1",
+      "company": "COMPLII FINTECH SOLUTIONS LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-05-13T00:17:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03089637-6A1325298",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Complii FinTech Solutions has requested a pause in trading, typically indicating a pending material announcement such as a capital raise, acquisition, or significant corporate action that requires an orderly disclosure process.",
+        "As a micro-cap fintech operating in the compliance and financial services technology space, any trading halt raises questions about cash runway adequacy and whether the pause precedes a dilutive capital raise or a potentially transformative corporate event.",
+        "Investors should monitor for the follow-up announcement closely — the nature of the underlying event (M&A, funding, or regulatory matter) will be the key determinant of near-term price direction upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BML",
       "company": "BOAB METALS LIMITED",
