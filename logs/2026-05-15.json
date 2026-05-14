@@ -1,9 +1,294 @@
 {
   "date": "2026-05-15",
-  "total": 41,
-  "market_sensitive_count": 24,
-  "generated_at": "2026-05-14T22:52:03.722728+00:00",
+  "total": 56,
+  "market_sensitive_count": 38,
+  "generated_at": "2026-05-14T23:15:42.245745+00:00",
   "announcements": [
+    {
+      "ticker": "DTZ",
+      "company": "DOTZ NANO LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-14T23:12:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090421-3A693370",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "DOTZ NANO LIMITED has entered a trading halt, suspending shares from trading pending a material announcement — typical for capital raises, M&A activity, or significant corporate developments for micro-cap ASX-listed companies.",
+        "As a nano-technology company with limited revenue generation, any capital raise during the halt would likely be dilutive to existing shareholders and raises questions about cash runway sustainability.",
+        "Investors should await the pending announcement before repositioning; the nature of the halt (voluntary, company-requested) suggests management is controlling the information flow ahead of a potentially market-moving disclosure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VCD",
+      "company": "VICINITY CENTRES TRUST",
+      "headline": "Acquisition of Eastern Creek Quarter retail asset",
+      "time": "2026-05-14T23:09:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090419-2A1672218",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Vicinity Centres Trust is acquiring Eastern Creek Quarter, a major retail asset in Western Sydney's high-growth corridor, signaling strategic portfolio expansion into suburban retail catchments with strong population tailwinds.",
+        "The acquisition is market-sensitive, suggesting material scale — Eastern Creek Quarter is a well-positioned large-format and convenience retail centre, likely accretive to Vicinity's FFO given the asset class's yield premium over CBD retail.",
+        "The deal reinforces Vicinity's pivot toward mixed-use and suburban retail assets post-COVID, with Western Sydney infrastructure investment (including the new airport) providing a structural demand catalyst for the catchment area."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Property",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RKB",
+      "company": "ROKEBY RESOURCES LIMITED",
+      "headline": "Mining Licence Renewed for Omeo Gold Project",
+      "time": "2026-05-14T23:08:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090417-6A1325623",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Rokeby Resources has secured renewal of its mining licence for the Omeo Gold Project, removing a key regulatory overhang and preserving the company's right to advance development activities at the Victorian gold asset.",
+        "Mining licence renewal is a critical de-risking milestone for junior explorers, as failure to maintain tenure can result in total loss of project value — this ensures continuity of the company's primary asset base and underpins any future resource development or JV discussions.",
+        "With the licence now secured, the market will look for near-term catalysts including updated exploration programs, resource definition drilling plans, or potential strategic partnerships to fund advancement of the Omeo Gold Project."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EXL",
+      "company": "ELIXINOL WELLNESS LIMITED",
+      "headline": "The Healthy Chef expands into Priceline",
+      "time": "2026-05-14T23:05:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090411-3A693365",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Healthy Chef brand (acquired by Elixinol Wellness) secures national distribution through Priceline's ~470+ store network, significantly expanding retail footprint and brand visibility in the Australian health and wellness market.",
+        "Priceline entry represents a meaningful channel expansion for a company that has been pivoting toward consumer wellness; incremental revenue contribution will depend on SKU count and shelf placement, but access to Priceline's high-traffic customer base is a material step-up in distribution scale.",
+        "Expansion into a major pharmacy/retail chain signals commercial traction for The Healthy Chef portfolio post-acquisition, potentially de-risking Elixinol's revenue diversification strategy and improving the path toward cash-flow breakeven — investors should watch for follow-through in upcoming quarterly revenue figures."
+      ],
+      "tags": [
+        "Retail",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AKO",
+      "company": "AKORA RESOURCES LIMITED",
+      "headline": "Entitlement Offer Booklet",
+      "time": "2026-05-14T23:05:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090409-3A693367",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Akora Resources is conducting a non-renounceable entitlement offer, which will dilute existing shareholders who do not participate, typical for junior explorers needing to extend cash runway amid limited revenue generation.",
+        "The entitlement offer booklet signals near-term capital needs, likely to fund ongoing exploration or development activities at its Madagascar iron ore projects, with the raise size and pricing critical to assessing dilution impact.",
+        "Investors should monitor the offer terms (discount to market, ratio, and total raise amount) closely — participation rates and any shortfall facility will determine the degree of dilution and whether strategic or institutional investors are backstopping the raise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RAC",
+      "company": "RACURA ONCOLOGY LTD",
+      "headline": "CPACS Trial Cleared to Escalate to Next RC220 Dose Level",
+      "time": "2026-05-14T23:04:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090408-2A1672212",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CPACS Phase I trial of RC220 has cleared safety review to escalate to the next dose level, a key de-risking milestone indicating acceptable tolerability in the current cohort and advancing the program toward therapeutic dose identification.",
+        "Dose escalation clearance by the Safety Review Committee signals no dose-limiting toxicities were observed at the current level, which is a critical positive signal for a pre-revenue oncology biotech where clinical progress is the primary value driver.",
+        "Next catalyst will be safety and preliminary efficacy data from the higher dose cohort; investors should monitor cash runway closely as continued dose escalation extends the trial timeline and associated burn rate before any potential pivotal study readout."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VCX",
+      "company": "VICINITY CENTRES",
+      "headline": "Acquisition of Eastern Creek Quarter retail asset",
+      "time": "2026-05-14T23:04:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090407-3A693366",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Vicinity Centres is acquiring Eastern Creek Quarter, a major retail asset in Western Sydney, signaling strategic portfolio expansion into one of Australia's fastest-growing population corridors and reinforcing its focus on high-growth suburban retail catchments.",
+        "The acquisition is market-sensitive, suggesting material scale — Eastern Creek Quarter is a large-format/mixed-use retail centre that would meaningfully add to Vicinity's AUM and rental income base, potentially enhancing portfolio diversification and NOI growth trajectory.",
+        "Key investor focus will be on acquisition metrics (cap rate vs WACR, NPI yield, occupancy, WALE), funding structure (debt vs equity), and whether the deal is immediately FFO/AFFO accretive — any equity raising component could temper near-term sentiment despite long-term strategic merit."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Property",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CDT",
+      "company": "CASTLE MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-14T23:03:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090405-6A1325621",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Castle Minerals has entered a trading halt, typically preceding a material announcement such as a capital raise, asset transaction, or significant exploration result for this junior mining company.",
+        "As a micro-cap explorer with limited revenue, any capital raise associated with this halt would likely be dilutive to existing shareholders, though it could extend cash runway for ongoing exploration programs.",
+        "Investors should await the pending announcement — the trading halt will remain in place until the company releases its announcement or until the commencement of normal trading on the second business day, whichever comes first."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RML",
+      "company": "RESOLUTION MINERALS LTD",
+      "headline": "Tungsten and Gold Drilling Underway and High Gold Recoveries",
+      "time": "2026-05-14T23:03:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090404-2A1672210",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Resolution Minerals has commenced drilling at its tungsten and gold project, signaling active exploration progress that could de-risk the asset and attract market attention given strong global tungsten demand and critical minerals thematic.",
+        "Metallurgical testwork has returned high gold recoveries, a technically significant result that enhances project economics and supports the viability of future resource development and potential processing pathways.",
+        "Drilling results expected in coming weeks will be the key catalyst — positive intercepts could materially re-rate the stock given RML's micro-cap status, while confirming both tungsten and gold mineralisation would strengthen the dual-commodity value proposition."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PTX",
+      "company": "PRESCIENT THERAPEUTICS LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-05-14T23:01:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090399-3A693361",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Prescient Therapeutics responded to an ASX price query regarding unusual share price or volume movements, which typically indicates the exchange is seeking confirmation of any undisclosed material information driving trading activity.",
+        "As a clinical-stage biotech with limited revenue, any price volatility is particularly significant given the company's reliance on capital markets for funding its cell therapy pipeline - investors should monitor for potential upcoming catalysts or capital raise activity.",
+        "The standard ASX price query response is procedural, but the market-sensitive designation suggests the company may have disclosed forward-looking information or confirmed awareness of developments that could sustain near-term trading interest."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KCC",
+      "company": "KINCORA COPPER LIMITED",
+      "headline": "Kincora Copper 2026 Q1 Financials Package",
+      "time": "2026-05-14T23:01:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090397-6A1325618",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kincora Copper released its Q1 2026 financials package, providing a comprehensive update on the company's cash position, expenditure, and exploration activities for the quarter ending March 2026.",
+        "As a pre-revenue copper exploration company, the key metric to watch is cash burn rate and remaining cash runway — any material decline in cash reserves without corresponding asset progress would signal near-term dilution risk via capital raise.",
+        "Investors should scrutinize the quarterly cash flow statement for exploration spend efficiency and assess whether current cash balances support operations through the next 2+ quarters without requiring additional funding."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STN",
+      "company": "SATURN METALS LIMITED",
+      "headline": "Native Title Mining Agreement - Apollo Hill Gold Project",
+      "time": "2026-05-14T22:59:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090393-6A1325616",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Saturn Metals has secured a Native Title Mining Agreement for its Apollo Hill Gold Project, removing a critical permitting hurdle and de-risking the pathway toward mining lease approval and project development.",
+        "The agreement with Traditional Owners provides regulatory certainty for the 1.46Moz Apollo Hill gold deposit in Western Australia's Goldfields, a key prerequisite that institutional investors and potential acquirers/JV partners typically require before committing capital.",
+        "With the NTA now in place, Saturn can advance its Mining Lease application and progress feasibility-level studies, positioning the company for potential value inflection as it moves from exploration toward development-stage catalysts."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CVW",
+      "company": "CLEARVIEW WEALTH LIMITED",
+      "headline": "ACCC determination received",
+      "time": "2026-05-14T22:58:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090392-2A1672195",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ClearView Wealth has received an ACCC determination, a significant regulatory milestone that likely relates to a proposed transaction or market conduct review, signaling clarity on the company's strategic direction.",
+        "ACCC determinations for financial services firms can unlock or block M&A activity, distribution arrangements, or competitive conduct — the market-sensitive tag suggests material implications for ClearView's business model or corporate structure.",
+        "Investors should closely monitor the specifics of the determination (approval vs rejection, conditions imposed) as this will directly influence ClearView's near-term strategic optionality and valuation trajectory in the life insurance and wealth management space."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRL",
+      "company": "SUNRISE ENERGY METALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-14T22:56:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090391-3A693358",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Sunrise Energy Metals, signaling active institutional portfolio rebalancing in the critical minerals/energy metals space.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is incremental rather than a dramatic accumulation or disposal that would materially shift the register.",
+        "Investors should monitor whether this forms part of a broader trend of institutional positioning ahead of any project milestones or strategic developments at Sunrise Energy Metals."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARN",
+      "company": "ALDORO RESOURCES LIMITED",
+      "headline": "DD008D - 504m of Mineralisation, 2.39% TREO at Depth",
+      "time": "2026-05-14T22:51:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090383-6A1325614",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DD008D drill hole at Aldoro's rare earth project intersected 504m of continuous mineralisation with 2.39% TREO at depth, representing a significant intercept that could materially expand the resource envelope and underscores the scale potential of the deposit.",
+        "A 2.39% TREO grade at depth is commercially meaningful for rare earth projects, particularly given the extended 504m mineralised interval which suggests substantial tonnage upside — critical for demonstrating economic viability in a sector where scale and grade are key value drivers.",
+        "This result is expected to support further drilling to test depth and lateral extensions, with potential for resource upgrades that could attract strategic interest given the current geopolitical premium on non-Chinese rare earth supply chains."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "M4M",
       "company": "MACRO METALS LIMITED",
