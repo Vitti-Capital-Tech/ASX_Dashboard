@@ -1,9 +1,85 @@
 {
   "date": "2026-05-14",
-  "total": 99,
-  "market_sensitive_count": 82,
-  "generated_at": "2026-05-14T00:42:41.871393+00:00",
+  "total": 103,
+  "market_sensitive_count": 84,
+  "generated_at": "2026-05-14T01:40:48.118241+00:00",
   "announcements": [
+    {
+      "ticker": "RMI",
+      "company": "RESOURCE MINERALS INTERNATIONAL LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-14T01:37:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090091-6A1325489",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has changed their position in Resource Minerals International, signaling a shift in major shareholder dynamics that institutional investors should monitor for potential strategic implications.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is likely incremental rather than a transformative block trade or activist accumulation.",
+        "Investors should review the specific direction of the holding change (increase vs decrease) and whether it reflects insider confidence or portfolio rebalancing, as this may foreshadow future corporate activity in the micro-cap mining space."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FLG",
+      "company": "FLAGSHIP MINERALS LIMITED",
+      "headline": "Isidora Gold Project - MRE - 2.1Moz Gold",
+      "time": "2026-05-14T01:27:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090084-6A1325488",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Flagship Minerals has delivered a maiden or updated Mineral Resource Estimate (MRE) of 2.1 million ounces of gold at the Isidora Gold Project, a significant milestone that establishes the project as a substantial gold asset and materially de-risks the exploration narrative.",
+        "A 2.1Moz gold resource positions Isidora among mid-tier gold development projects globally; at current gold prices (~A$3,800+/oz), the in-ground value is substantial and likely to attract market re-rating, strategic interest, or potential M&A attention from larger producers seeking ounce replacement.",
+        "Key next steps will include resource classification breakdown (Indicated vs Inferred), metallurgical testwork, and progression toward a scoping or pre-feasibility study — investors should watch for grade, strip ratio, and processing assumptions that will determine economic viability and project advancement timeline."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OMH",
+      "company": "OM HOLDINGS LIMITED",
+      "headline": "AGM Investor Presentation",
+      "time": "2026-05-14T01:17:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090079-6A1325487",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "OM Holdings' AGM investor presentation is flagged as market sensitive, suggesting management is disclosing material updates on operations, strategy, or financial outlook beyond routine AGM business.",
+        "As a vertically integrated manganese company with mining, smelting, and trading operations, key metrics to watch include manganese ore production volumes, ferroalloy output, and margin trends amid volatile commodity pricing.",
+        "The market-sensitive tag on an AGM presentation typically signals forward-looking guidance or strategic initiatives that could re-rate the stock — investors should scrutinize any capital allocation changes, production targets, or balance sheet updates."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WBT",
+      "company": "WEEBIT NANO LTD",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-05-14T00:53:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090070-3A693303",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Weebit Nano, crossing the 5% threshold, signaling growing institutional or strategic interest in the ReRAM technology company.",
+        "The filing is classified as not market sensitive, suggesting this is a routine disclosure rather than a precursor to a takeover or activist campaign, though accumulation patterns warrant monitoring.",
+        "For Weebit Nano — a pre-revenue semiconductor IP company — any meaningful share register shift can influence liquidity dynamics and may reflect confidence in the company's commercialization trajectory with foundry partners."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MML",
       "company": "MCLAREN MINERALS LIMITED",
