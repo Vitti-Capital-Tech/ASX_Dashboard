@@ -1,9 +1,215 @@
 {
   "date": "2026-05-14",
-  "total": 86,
-  "market_sensitive_count": 71,
-  "generated_at": "2026-05-13T23:49:18.391732+00:00",
+  "total": 97,
+  "market_sensitive_count": 80,
+  "generated_at": "2026-05-14T00:15:18.637984+00:00",
   "announcements": [
+    {
+      "ticker": "PLC",
+      "company": "PREMIER1 LITHIUM LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-05-13T23:56:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090041-3A693296",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Premier1 Lithium has entered a trading pause, typically preceding a material announcement such as a capital raise, acquisition, or significant corporate update that requires orderly dissemination to the market.",
+        "As a junior lithium explorer, any trading halt raises questions about cash runway adequacy — a pause often signals an imminent capital raise or transformative transaction given the company's pre-revenue status and ongoing exploration funding needs.",
+        "Investors should await the substantive announcement that triggered the pause; the nature of the disclosure (equity raising vs. asset deal vs. regulatory matter) will determine whether this is dilutive or value-accretive for existing shareholders."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LSR",
+      "company": "LODESTAR MINERALS LIMITED",
+      "headline": "Drilling Confirms Mineralisation Model at Ned's Creek",
+      "time": "2026-05-13T23:56:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090039-6A1325465",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling results at Ned's Creek validate Lodestar's geological mineralisation model, de-risking the project and supporting the case for continued exploration investment in the gold-prospective tenement package.",
+        "Confirmation of the mineralisation model through drill intercepts is technically significant as it increases confidence in resource potential, though specific grade and width assays will be critical to assess economic viability — investors should watch for detailed assay results.",
+        "As a micro-cap explorer with no revenue, Lodestar's ability to leverage positive drill results into further funding (via capital raises or JV partnerships) will be key to sustaining exploration momentum and extending cash runway at Ned's Creek."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "49M",
+      "company": "49 METALS LIMITED",
+      "headline": "High Grade Gold & Silver Mineralisation at Gold Mountain",
+      "time": "2026-05-13T23:55:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090037-6A1325472",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "49 Metals reports high-grade gold and silver mineralisation at its Gold Mountain project, signaling potential resource upside that could materially re-rate the company's exploration portfolio valuation.",
+        "The discovery of high-grade intercepts is technically significant for a junior explorer, as it validates the geological model and could attract farm-in partners or support future capital raises at improved terms.",
+        "Next steps will likely involve follow-up drilling programs to test continuity and extent of mineralisation — investors should watch for resource estimation timelines and funding requirements to advance the project."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CTQ",
+      "company": "CARETEQ LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-05-13T23:54:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090034-2A1672043",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Careteq Limited (CTQ), crossing the 5% ownership threshold, signaling concentrated investor interest in this micro-cap healthcare technology company.",
+        "The filing is classified as not market sensitive, suggesting this is likely a passive accumulation rather than a precursor to a takeover bid or activist campaign, though the identity and intent of the holder warrants monitoring.",
+        "For a thinly-traded micro-cap like Careteq, a substantial holding notice can materially impact free float dynamics and liquidity, potentially creating price support but also raising questions about exit risk for other holders."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "Grinding Dry Commissioning and Feedstock MOU",
+      "time": "2026-05-13T23:53:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090033-6A1325470",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EV Resources has completed dry commissioning of its grinding circuit, a key de-risking milestone that moves the project closer to wet commissioning and eventual production, signaling tangible operational progress for a junior miner.",
+        "The company has secured a Memorandum of Understanding (MOU) for feedstock supply, which is critical for ensuring input material availability and underpins the commercial viability of processing operations — though an MOU remains non-binding and subject to definitive agreement execution.",
+        "Near-term catalysts include wet commissioning, first production runs, and conversion of the feedstock MOU into a binding offtake agreement; investors should monitor cash burn rates during the ramp-up phase given EV Resources' micro-cap status and likely limited cash runway."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HYD",
+      "company": "HYDRIX LIMITED",
+      "headline": "NIOA contracts Hydrix to advance counter-drone technology",
+      "time": "2026-05-13T23:51:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090030-3A693288",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hydrix has been contracted by NIOA — Australia's largest privately-owned defence company — to advance counter-drone (C-UAS) technology, validating Hydrix's defence-tech capabilities and providing a credible pathway to recurring defence revenue.",
+        "The contract with a major defence prime positions Hydrix within the rapidly growing counter-drone market, a sector receiving accelerated government funding globally amid escalating drone threats in modern warfare, potentially transforming the company's revenue profile from a small-cap medtech/engineering firm.",
+        "For a micro-cap like Hydrix (market cap sub-$20M), securing a contract with NIOA signals potential for follow-on orders and integration into broader defence supply chains; investors should watch for contract value disclosure, milestone payments, and whether this leads to longer-term program involvement."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SPG",
+      "company": "SPC GLOBAL HOLDINGS LTD",
+      "headline": "Investor Presentation - Equity Raising",
+      "time": "2026-05-13T23:51:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090029-3A693293",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SPC Global Holdings is conducting an equity raising, which will dilute existing shareholders but provide fresh capital to fund strategic initiatives or strengthen the balance sheet.",
+        "The investor presentation accompanying the raise signals management is actively marketing the opportunity to institutional investors, suggesting a structured placement and/or entitlement offer is underway.",
+        "Key focus for investors will be the size of the raise relative to market cap, pricing discount to last traded price, and intended use of proceeds — all critical to assessing whether the dilution is value-accretive or a red flag on cash runway."
+      ],
+      "tags": [
+        "Capital Raise"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CEL",
+      "company": "CHALLENGER GOLD LIMITED",
+      "headline": "Request for Extension of Voluntary Suspension",
+      "time": "2026-05-13T23:51:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090028-6A1325433",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Challenger Gold has requested an extension of its existing voluntary suspension, indicating an ongoing corporate action or transaction that remains incomplete and cannot yet be disclosed to the market.",
+        "Voluntary suspension extensions in junior miners often signal advanced-stage M&A negotiations, asset acquisitions, or capital raising activities that require additional time to finalize terms and documentation.",
+        "Investors should monitor for the eventual reinstatement announcement, which will reveal the nature of the underlying transaction and its implications for the company's valuation, capital structure, and strategic direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPG",
+      "company": "SPC GLOBAL HOLDINGS LTD",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-05-13T23:49:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090027-3A693290",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SPC Global Holdings has been reinstated to quotation on the ASX, ending a period of trading suspension that likely stemmed from compliance or disclosure requirements — signaling the company has satisfied ASX conditions for resumption of trading.",
+        "Reinstatement typically follows resolution of outstanding regulatory matters, completion of a capital raise, or lodgement of required financial reports, suggesting a material corporate milestone has been cleared.",
+        "Investors should monitor initial trading volumes and price discovery closely post-reinstatement, as pent-up selling or buying pressure may create significant short-term volatility; any accompanying announcements detailing the basis for reinstatement will be critical for assessing fundamental value."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPG",
+      "company": "SPC GLOBAL HOLDINGS LTD",
+      "headline": "SPG Fully Underwritten Equity Raising",
+      "time": "2026-05-13T23:49:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090026-3A693277",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SPC Global Holdings is conducting a fully underwritten equity raising, providing certainty of funding but signaling potential dilution for existing shareholders who do not participate.",
+        "The fully underwritten nature reduces execution risk and suggests institutional support or underwriter confidence in the company's prospects, though pricing terms and discount to market will be critical for assessing dilutive impact.",
+        "Investors should monitor the use of proceeds — whether directed toward growth initiatives, debt reduction, or working capital — as this will determine whether the raise is value-accretive or signals balance sheet stress."
+      ],
+      "tags": [
+        "Capital Raise"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PEN",
+      "company": "PENINSULA ENERGY LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-13T23:48:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090025-6A1325463",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Peninsula Energy has entered a trading halt, likely pending a material announcement that could involve a capital raise, asset transaction, or significant operational update related to its Lance uranium project in Wyoming.",
+        "As a uranium developer transitioning to ISR operations, any capital raise during the current supportive uranium price environment could be strategically timed but may introduce near-term dilution risk for existing shareholders.",
+        "Investors should await the pending announcement before the trading halt lifts; the nature of the disclosure (funding, offtake, or operational milestone) will be critical in determining whether this is value-accretive or dilutive."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ORD",
       "company": "ORDELL MINERALS LIMITED",
