@@ -1,9 +1,47 @@
 {
   "date": "2026-05-14",
-  "total": 97,
-  "market_sensitive_count": 80,
-  "generated_at": "2026-05-14T00:15:18.637984+00:00",
+  "total": 99,
+  "market_sensitive_count": 82,
+  "generated_at": "2026-05-14T00:42:41.871393+00:00",
   "announcements": [
+    {
+      "ticker": "MML",
+      "company": "MCLAREN MINERALS LIMITED",
+      "headline": "Successful Completion of Share Purchase Plan to raise $1.65m",
+      "time": "2026-05-14T00:41:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090065-6A1325484",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "McLaren Minerals successfully completed its Share Purchase Plan raising $1.65m, providing additional working capital to advance exploration and development activities without the need for more dilutive institutional placements.",
+        "The SPP raise of $1.65m signals solid retail shareholder support and participation, though the relatively modest size suggests the company remains in early-stage exploration with limited near-term revenue generation.",
+        "Proceeds will likely extend cash runway for the junior explorer, but investors should monitor burn rate and upcoming catalysts to assess whether further capital raises will be required in the near term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PLC",
+      "company": "PREMIER1 LITHIUM LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-14T00:15:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090056-3A693300",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Premier1 Lithium has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update for this early-stage lithium explorer.",
+        "As a micro-cap lithium explorer on the ASX, any capital raise during the halt would likely be dilutive to existing shareholders, while the depressed lithium price environment limits upside from exploration news alone.",
+        "Investors should await the formal announcement expected within two business days to assess whether this relates to equity funding, asset transactions, or a strategic pivot — all of which will materially impact the company's cash runway and valuation trajectory."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "PLC",
       "company": "PREMIER1 LITHIUM LIMITED",
