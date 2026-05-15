@@ -1,9 +1,47 @@
 {
   "date": "2026-05-15",
-  "total": 77,
-  "market_sensitive_count": 58,
-  "generated_at": "2026-05-15T00:39:59.542455+00:00",
+  "total": 79,
+  "market_sensitive_count": 60,
+  "generated_at": "2026-05-15T01:38:53.102568+00:00",
   "announcements": [
+    {
+      "ticker": "CNQ",
+      "company": "CLEAN TEQ WATER LIMITED",
+      "headline": "CNQ Awarded ATA Dewatering Contract at Rasp Mine",
+      "time": "2026-05-15T01:13:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090503-3A693383",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Clean TeQ Water secured a contract to supply its proprietary ATA (Acid Treated Alumina) dewatering technology at CBH Resources' Rasp Mine in Broken Hill, representing a meaningful commercial validation of its mining water treatment capabilities.",
+        "The contract win strengthens CNQ's revenue pipeline in the mining sector, diversifying its customer base and providing recurring revenue potential from operational mine site deployments, though specific contract value was not disclosed.",
+        "This award reinforces CNQ's strategic pivot toward commercializing its water treatment technologies in the resources sector, with the Rasp Mine deployment serving as a reference site that could catalyze further adoption across Australian and international mining operations."
+      ],
+      "tags": [
+        "Mining",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AT1",
+      "company": "ATOMO DIAGNOSTICS LIMITED",
+      "headline": "Share Purchase Plan Results",
+      "time": "2026-05-15T01:06:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090501-2A1672255",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Atomo Diagnostics has completed its Share Purchase Plan (SPP), raising additional capital to supplement its balance sheet — the results announcement signals the final quantum of funds raised and level of shareholder participation, which is critical for assessing near-term cash runway for the diagnostics company.",
+        "The SPP follows a broader capital raise process, and the participation rate and total funds raised will determine the extent of dilution to existing shareholders — a key metric for institutional investors evaluating the post-raise share structure and potential overhang.",
+        "Proceeds are expected to fund ongoing commercialisation of Atomo's rapid diagnostic platform and working capital needs; investors should monitor whether the combined raise provides sufficient runway to reach key revenue milestones or if further capital raises may be required."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ACU",
       "company": "ACUMENTIS GROUP LIMITED",
