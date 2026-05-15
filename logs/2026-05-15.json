@@ -1,9 +1,48 @@
 {
   "date": "2026-05-15",
-  "total": 79,
+  "total": 81,
   "market_sensitive_count": 60,
-  "generated_at": "2026-05-15T01:38:53.102568+00:00",
+  "generated_at": "2026-05-15T03:08:55.893871+00:00",
   "announcements": [
+    {
+      "ticker": "HMG",
+      "company": "HAMELIN GOLD LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-15T02:58:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090538-6A1325663",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Hamelin Gold Limited has filed a change in their holding, signaling active portfolio repositioning by a significant shareholder in this ASX-listed gold explorer.",
+        "The change in substantial holding notice is classified as not market sensitive, suggesting the movement is likely a modest adjustment rather than a transformative stake build or exit.",
+        "Investors should monitor whether this forms part of a broader accumulation or distribution pattern, as directional shifts by substantial holders in small-cap gold explorers can precede strategic corporate activity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTQ",
+      "company": "CARETEQ LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-05-15T01:56:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090515-2A1672263",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Careteq Limited (CTQ), crossing the 5% ownership threshold, signaling concentrated investor interest in this micro-cap healthcare technology company.",
+        "The filing is classified as not market sensitive, suggesting this is likely a passive accumulation rather than a precursor to a takeover bid or activist campaign, though the identity and intent of the holder warrants monitoring.",
+        "For a thinly traded micro-cap like Careteq, substantial holder movements can materially impact liquidity dynamics and may foreshadow further share register consolidation or strategic positioning ahead of corporate activity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CNQ",
       "company": "CLEAN TEQ WATER LIMITED",
