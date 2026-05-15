@@ -38,7 +38,7 @@ export default function Dashboard() {
 
   useEffect(() => {
     setIsClient(true);
-    
+
     // Get current date in Sydney
     const sydneyTime = new Intl.DateTimeFormat('en-CA', {
       timeZone: 'Australia/Sydney',
@@ -69,7 +69,7 @@ export default function Dashboard() {
 
     const savedView = localStorage.getItem('vitti-view') as ViewMode;
     const savedTheme = localStorage.getItem('vitti-theme') as 'dark' | 'light';
-    
+
     if (savedView) setViewMode(savedView);
     if (savedTheme) setTheme(savedTheme);
 
@@ -101,7 +101,7 @@ export default function Dashboard() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch(`http://3.25.70.124:8000/api/placements/${d}`);
+      const res = await fetch(`https://3.25.70.124:8000/api/placements/${d}`);
       if (!res.ok) {
         if (res.status === 404) setError(`No market data found for ${d}.`);
         else setError('Failed to load market data.');
@@ -269,8 +269,8 @@ export default function Dashboard() {
         {/* Dot grid */}
         <div className="absolute inset-0 opacity-[0.1]"
           style={{
-            backgroundImage: theme === 'dark' 
-              ? 'radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px)' 
+            backgroundImage: theme === 'dark'
+              ? 'radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px)'
               : 'radial-gradient(rgba(0,0,0,0.05) 1px, transparent 1px)',
             backgroundSize: '36px 36px',
           }} />
@@ -394,12 +394,12 @@ export default function Dashboard() {
                   }}>
                   {error.includes('No market data') ? (
                     <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" style={{ color: '#818cf8' }}>
-                      <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>
-                      <path d="M12 6v6l4 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" />
+                      <path d="M12 6v6l4 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   ) : (
                     <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" style={{ color: '#fb7185' }}>
-                      <path d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+                      <path d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                     </svg>
                   )}
                 </div>
@@ -437,7 +437,7 @@ export default function Dashboard() {
                 style={{ background: 'rgba(99,102,241,0.07)', border: '1px solid rgba(99,102,241,0.12)', boxShadow: '0 0 40px rgba(99,102,241,0.08)' }}>
                 <svg viewBox="0 0 24 24" fill="none" className="w-8 h-8" style={{ color: 'rgba(129,140,248,0.5)' }}>
                   <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                    stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                    stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </div>
               <div>
