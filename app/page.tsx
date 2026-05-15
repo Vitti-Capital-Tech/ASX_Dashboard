@@ -101,7 +101,7 @@ export default function Dashboard() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch(`https://3.25.70.124:8000/api/placements/${d}`);
+      const res = await fetch(`/api/logs/${d}`);
       if (!res.ok) {
         if (res.status === 404) setError(`No market data found for ${d}.`);
         else setError('Failed to load market data.');
