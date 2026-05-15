@@ -1,9 +1,104 @@
 {
   "date": "2026-05-15",
-  "total": 69,
-  "market_sensitive_count": 51,
-  "generated_at": "2026-05-14T23:43:10.088135+00:00",
+  "total": 74,
+  "market_sensitive_count": 56,
+  "generated_at": "2026-05-15T00:07:40.557322+00:00",
   "announcements": [
+    {
+      "ticker": "AT4",
+      "company": "AMERICAN TUNGSTEN & ANTIMONY LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-05-14T23:57:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090477-6A1325644",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "American Tungsten & Antimony Ltd has entered a trading pause, typically preceding a material announcement such as a capital raise, acquisition, or significant operational update in the critical minerals space.",
+        "As a company focused on tungsten and antimony — both classified as critical minerals with heightened geopolitical demand amid supply chain diversification away from China — any material update could carry outsized market significance.",
+        "Investors should await the pending announcement before repositioning; the market-sensitive designation suggests the forthcoming disclosure will likely have a direct impact on valuation and trading activity upon resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EOS",
+      "company": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+      "headline": "MARSS Business and Transaction Update",
+      "time": "2026-05-14T23:53:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090475-2A1672238",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EOS provides a business and transaction update on its MARSS segment, signaling potential strategic repositioning or deal progress that could materially impact the company's defence technology portfolio and revenue mix.",
+        "The market-sensitive designation suggests material new information regarding MARSS — likely involving acquisition/divestiture terms, contract milestones, or revised financial metrics that institutional investors need to reprice into their models.",
+        "Investors should watch for clarity on how the MARSS transaction affects EOS's consolidated balance sheet, cash runway, and ability to fund its core space and defence programs, with near-term catalysts tied to deal completion timelines."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGR",
+      "company": "AGUIA RESOURCES LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-05-14T23:45:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090468-2A1672236",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Aguia Resources has entered a trading pause, typically preceding a material announcement such as a capital raise, corporate transaction, or significant operational update that requires orderly market disclosure.",
+        "A trading pause (as distinct from a voluntary trading halt) is generally initiated by the ASX itself, suggesting the exchange may be seeking clarification on price-sensitive information or ensuring compliance with continuous disclosure obligations.",
+        "Investors should await the forthcoming announcement before repositioning; the pause introduces near-term uncertainty but the market-sensitive tag signals a potentially material catalyst for the micro-cap explorer."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RTR",
+      "company": "RUMBLE RESOURCES LIMITED",
+      "headline": "Sale of Lamil Project to Aventine Resources",
+      "time": "2026-05-14T23:44:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090467-6A1325639",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Rumble Resources is divesting its Lamil Project to Aventine Resources, signaling a strategic portfolio rationalization that allows management to focus capital and attention on its core assets and reduce holding costs on non-priority exploration ground.",
+        "The sale terms and consideration structure will be critical for investors to assess — any cash component would bolster Rumble's balance sheet and extend cash runway, while scrip or milestone-based payments may limit near-term financial impact for the junior explorer.",
+        "The transaction marks a shift in Rumble's exploration strategy, and investors should monitor how proceeds (if any) are redeployed and whether the company accelerates activity on its remaining project pipeline, particularly its flagship Western Queen and Earaheedy zinc assets."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GTI",
+      "company": "GRATIFII LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-05-14T23:41:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090464-2A1672225",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Gratifii Limited has released a market-sensitive investor presentation, signaling the company is actively engaging institutional and retail investors with updated strategic messaging and potentially new financial or operational milestones.",
+        "As a micro-cap technology company focused on customer engagement and loyalty platforms, any updated metrics on ARR growth, client pipeline, or path to profitability will be critical for re-rating potential given the stock's limited liquidity and coverage.",
+        "The market-sensitive tag suggests the presentation likely contains material new information — investors should scrutinize for updated cash runway guidance, contract wins, or revised forward estimates that could shift near-term valuation expectations."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "GTI",
       "company": "GRATIFII LIMITED",
