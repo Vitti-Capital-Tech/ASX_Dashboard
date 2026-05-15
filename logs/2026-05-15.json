@@ -1,9 +1,65 @@
 {
   "date": "2026-05-15",
-  "total": 74,
-  "market_sensitive_count": 56,
-  "generated_at": "2026-05-15T00:07:40.557322+00:00",
+  "total": 77,
+  "market_sensitive_count": 58,
+  "generated_at": "2026-05-15T00:39:59.542455+00:00",
   "announcements": [
+    {
+      "ticker": "ACU",
+      "company": "ACUMENTIS GROUP LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-15T00:37:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090490-2A1672251",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Acumentis Group Limited has filed a change in their holding, signaling active portfolio repositioning by a significant shareholder that institutional investors should monitor for directional intent.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is likely incremental rather than a transformative block trade or aggressive accumulation/disposal event.",
+        "Investors should review the Form 604 details to determine whether the substantial holder increased or decreased their stake, as the direction of change could signal insider confidence or distribution ahead of potential corporate activity."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGR",
+      "company": "AGUIA RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-15T00:11:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090481-2A1672242",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Aguia Resources has entered a trading halt, typically requested by the company pending a material announcement — the market-sensitive designation signals potentially significant news for shareholders.",
+        "As a junior mining company focused on phosphate and copper assets in Brazil, trading halts often precede capital raises, asset transactions, or material project updates that could meaningfully impact the company's valuation and cash position.",
+        "Investors should await the pending announcement before repositioning; the halt will likely be lifted within two business days per ASX rules, with the nature of the news determining whether dilution risk or value-accretive catalysts emerge."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AT4",
+      "company": "AMERICAN TUNGSTEN & ANTIMONY LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-15T00:08:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090480-6A1325645",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "American Tungsten & Antimony Ltd has entered a trading halt, likely pending a material announcement related to capital raising, acquisition, or strategic update given the company's critical minerals focus.",
+        "As a junior explorer in the strategically important tungsten and antimony space, any corporate action could significantly impact the company's valuation given heightened geopolitical interest in securing non-Chinese supply of these critical minerals.",
+        "Investors should await the pending announcement before repositioning; the halt suggests information asymmetry that the company is seeking to address, with trading expected to resume once the announcement is released."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AT4",
       "company": "AMERICAN TUNGSTEN & ANTIMONY LTD",
