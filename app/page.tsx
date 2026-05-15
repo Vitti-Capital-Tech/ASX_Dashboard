@@ -101,7 +101,7 @@ export default function Dashboard() {
     setLoading(true);
     setError(null);
     try {
-      const res = await fetch(`/api/logs/${d}`);
+      const res = await fetch(`http://3.25.70.124:8000/api/placements/${d}`);
       if (!res.ok) {
         if (res.status === 404) setError(`No market data found for ${d}.`);
         else setError('Failed to load market data.');
@@ -123,7 +123,7 @@ export default function Dashboard() {
     if (!d) return;
     setPlacementLoading(true);
     try {
-      const res = await fetch(`/api/placements/${d}`);
+      const res = await fetch(`http://3.25.70.124:8000/api/placements/${d}`);
       if (res.ok) {
         const data: PlacementDayLog = await res.json();
         setPlacementLog(data);
