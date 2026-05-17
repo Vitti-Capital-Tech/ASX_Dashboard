@@ -1,9 +1,218 @@
 {
   "date": "2026-05-18",
-  "total": 78,
-  "market_sensitive_count": 56,
-  "generated_at": "2026-05-17T23:09:18.805140+00:00",
+  "total": 89,
+  "market_sensitive_count": 66,
+  "generated_at": "2026-05-17T23:20:54.672453+00:00",
   "announcements": [
+    {
+      "ticker": "DAI",
+      "company": "DECIDR AI INDUSTRIES LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-17T23:14:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090914-6A1325843",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Decidr AI Industries has altered their position, signaling a potential shift in institutional or insider conviction around this early-stage AI technology company.",
+        "Without specific details on whether the holding increased or decreased, the filing is procedural in nature and flagged as not market sensitive, suggesting the change may be marginal or technical rather than a major strategic repositioning.",
+        "Investors should monitor subsequent disclosures to determine if this reflects accumulation by a strategic backer or gradual divestment, which could influence liquidity and sentiment in a thinly traded micro-cap name."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PME",
+      "company": "PRO MEDICUS LIMITED",
+      "headline": "PME signs 7-Year A$90M Deal with Beth Israel Lahey Health",
+      "time": "2026-05-17T23:13:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090913-3A693462",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Pro Medicus secures a landmark A$90M, 7-year contract with Beth Israel Lahey Health, one of New England's largest health systems, reinforcing PME's dominance in the US radiology imaging market and its ability to win major academic medical center accounts.",
+        "At ~A$12.9M per annum, this is one of PME's largest disclosed contracts and materially adds to its recurring SaaS revenue base, providing strong revenue visibility and underpinning consensus growth forecasts through FY31.",
+        "The deal further validates PME's land-and-expand strategy with tier-1 US health systems; continued momentum in large enterprise wins strengthens the competitive moat and supports premium valuation multiples, with investors likely to watch for further pipeline conversion."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TMK",
+      "company": "TMK ENERGY LIMITED",
+      "headline": "POWER PROJECT PARTERING AGREEMENT",
+      "time": "2026-05-17T23:13:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090910-6A1325840",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TMK Energy has secured a partnering agreement for its power project, signaling a strategic move to monetize its gas resources through downstream energy infrastructure, potentially accelerating the path to revenue generation.",
+        "A formal partnering arrangement de-risks project execution by sharing capital expenditure and leveraging partner expertise, which is critical for a junior energy company with limited balance sheet capacity to fund large-scale power development independently.",
+        "The market-sensitive designation suggests material commercial terms have been agreed; investors should watch for details on partner identity, funding commitments, project timeline, and offtake arrangements that will determine the true value impact on TMK's enterprise valuation."
+      ],
+      "tags": [
+        "Energy",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMN",
+      "company": "AGRIMIN LIMITED",
+      "headline": "Completion of Acquisition",
+      "time": "2026-05-17T23:13:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090908-6A1325833",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Agrimin has completed its acquisition, marking a transformative corporate milestone that signals strategic repositioning and potential re-rating catalyst for the stock.",
+        "Completion of the deal removes execution and regulatory uncertainty, which typically weighed on the share price during the pending period — expect improved investor confidence and potential institutional re-engagement.",
+        "Investors should now focus on integration execution, any revised guidance or pro-forma financials, and whether the combined entity unlocks synergies or accelerates project development timelines."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TAM",
+      "company": "TANAMI GOLD NL",
+      "headline": "Release of Offer Booklet & Entitlement Form",
+      "time": "2026-05-17T23:13:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090907-6A1325839",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Tanami Gold has released its Offer Booklet and Entitlement Form, formalizing a capital raise via an entitlement offer — a dilutive event that increases share count for existing holders who do not participate.",
+        "The market-sensitive designation signals material capital raising activity, likely aimed at funding exploration, development, or operational needs at Tanami's gold projects, with the specific terms and pricing in the booklet critical for assessing dilution impact.",
+        "Investors should review the offer ratio, issue price discount to market, and intended use of proceeds to determine whether the raise is accretive to long-term value or signals near-term funding pressure on the balance sheet."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "EBR",
+      "company": "EBR SYSTEMS INC.",
+      "headline": "Purchasing Agreement Secured with Advocate Health",
+      "time": "2026-05-17T23:12:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090904-3A693461",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EBR Systems has secured a purchasing agreement with Advocate Health, one of the largest US health systems with 67 hospitals across six states, significantly expanding commercial access for its WiSE™ wireless cardiac pacing technology.",
+        "This agreement follows FDA approval and represents a critical milestone in EBR's US commercialization strategy, converting regulatory clearance into tangible revenue-generating hospital contracts that de-risk the revenue ramp trajectory.",
+        "Securing a major integrated health network like Advocate Health provides a template for further system-wide purchasing agreements, potentially accelerating adoption beyond single-site implants and supporting near-term revenue inflection as the company scales toward profitability."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AA2",
+      "company": "ARIANA RESOURCES PLC",
+      "headline": "Sale of 13.6% Interest in Zenit for US$19.5 Million in Cash",
+      "time": "2026-05-17T23:12:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090903-6A1325835",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ariana Resources is divesting a 13.6% stake in Zenit for US$19.5 million in cash, crystallizing value from a non-core holding and significantly bolstering the company's balance sheet and financial flexibility.",
+        "The US$19.5 million cash consideration represents a meaningful liquidity event for a junior/mid-cap miner, potentially extending cash runway and reducing the need for dilutive capital raises in the near term.",
+        "Proceeds are likely to be redeployed into core gold exploration and development assets in Turkey, sharpening strategic focus and potentially accelerating project milestones — investors should watch for capital allocation guidance in upcoming updates."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EOS",
+      "company": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-17T23:11:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090901-2A1672416",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "EOS Holdings has entered a trading halt, typically preceding a material announcement such as a capital raise, contract award, or strategic transaction given the company's defence-technology focus and historically tight cash position.",
+        "EOS has faced persistent balance sheet pressures with elevated debt and lumpy defence contract revenues; any capital raise would likely be dilutive but could address near-term liquidity concerns that have weighed on the stock.",
+        "Investors should await the pending announcement — the nature of the halt (voluntary, pending announcement) will determine whether this is a positive catalyst (major contract/M&A) or a dilutive event (equity raising/placement), with the stock likely to gap on resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CRI",
+      "company": "CRITICA LIMITED",
+      "headline": "Jupiter MREO Advances to 97% TREO",
+      "time": "2026-05-17T23:10:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090897-6A1325834",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Jupiter MREO (Mixed Rare Earth Oxide) product has achieved 97% TREO (Total Rare Earth Oxide) purity, a significant technical milestone that substantially enhances the commercial viability and value proposition of Critica's rare earth processing pathway.",
+        "Achieving 97% TREO purity positions the product closer to downstream separation-ready feedstock specifications, potentially commanding premium pricing from rare earth refiners and reducing the discount typically applied to lower-grade concentrates.",
+        "This advancement de-risks the processing flowsheet and strengthens Critica's position in offtake negotiations, with the next catalysts likely being pilot-scale validation, offtake agreements, and progression toward feasibility studies on the Jupiter rare earths project."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EMD",
+      "company": "EMYRIA LIMITED",
+      "headline": "Emyria Activates First Victorian Empax Clinic",
+      "time": "2026-05-17T23:10:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090896-6A1325832",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Emyria has activated its first Victorian EMPAX clinic in Melbourne, expanding its geographic footprint beyond Western Australia and signaling execution on its multi-state clinic rollout strategy for psychedelic-assisted therapy services.",
+        "The Victorian expansion leverages Emyria's proprietary EMD technology platform and EMPAX clinical model, potentially unlocking a significantly larger addressable patient population in Australia's second-most populous state, which could accelerate near-term revenue growth from clinical services.",
+        "Successful activation of interstate clinics is a key de-risking milestone for the scalability thesis; investors should monitor patient throughput ramp-up, clinic economics, and whether additional state expansions follow, particularly given the company's likely constrained cash position as a micro-cap healthcare operator."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LMS",
+      "company": "LITCHFIELD MINERALS LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-05-17T23:07:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090892-2A1672413",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Litchfield Minerals issued a formal response to an ASX price query, typically triggered by unusual share price movement or trading volume, indicating the exchange is scrutinizing recent trading activity for potential undisclosed material information.",
+        "The standard ASX price query response generally confirms the company is not aware of any undisclosed information that could explain the price movement, though the market-sensitive classification suggests the response may contain substantive disclosure or context beyond a routine denial.",
+        "For institutional investors, the query itself signals elevated speculative activity around this micro-cap explorer; the lack of a fundamental catalyst behind price moves raises caution about sustainability of recent gains and potential for near-term retracement."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GNG",
       "company": "GR ENGINEERING SERVICES LIMITED",
