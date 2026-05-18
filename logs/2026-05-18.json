@@ -1,9 +1,28 @@
 {
   "date": "2026-05-18",
-  "total": 141,
-  "market_sensitive_count": 115,
-  "generated_at": "2026-05-18T00:43:22.966484+00:00",
+  "total": 142,
+  "market_sensitive_count": 116,
+  "generated_at": "2026-05-18T01:42:42.449316+00:00",
   "announcements": [
+    {
+      "ticker": "CVC",
+      "company": "CVC LIMITED",
+      "headline": "MARKET UPDATE - LIVERPOOL INVESTMENT",
+      "time": "2026-05-18T00:51:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091038-2A1672485",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CVC Limited has issued a market-sensitive update regarding its Liverpool investment, signaling a material development in the valuation or status of this portfolio holding that could impact CVC's net asset position.",
+        "As a listed investment company, any significant movement in key portfolio assets like Liverpool directly flows through to CVC's NTA per share, which is the primary valuation metric watched by institutional holders.",
+        "Investors should assess whether this update reflects a realization event (disposal/liquidity), revaluation (write-up or impairment), or structural change in the Liverpool investment that alters CVC's forward earnings profile and capital allocation strategy."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "NTU",
       "company": "NORTHERN MINERALS LIMITED",
