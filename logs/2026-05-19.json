@@ -1,9 +1,178 @@
 {
   "date": "2026-05-19",
-  "total": 65,
-  "market_sensitive_count": 55,
-  "generated_at": "2026-05-18T23:24:58.288556+00:00",
+  "total": 74,
+  "market_sensitive_count": 64,
+  "generated_at": "2026-05-18T23:50:42.913394+00:00",
   "announcements": [
+    {
+      "ticker": "TNC",
+      "company": "TRUE NORTH COPPER LIMITED",
+      "headline": "Geophysics extends Aquila discovery",
+      "time": "2026-05-18T23:40:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091435-6A1326059",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Geophysical surveys have extended the Aquila copper discovery beyond initial drill-defined boundaries, suggesting the mineralised system is significantly larger than previously modelled — a material de-risking event for the asset's resource potential.",
+        "Extension of the geophysical anomaly strengthens the case for a larger resource base at Aquila, which could meaningfully improve project economics and attract farm-in or M&A interest given True North Copper's micro-cap status and limited cash runway.",
+        "Next steps will likely involve follow-up drilling programs to test the geophysical targets; investors should watch for drill program timing, funding requirements (potential capital raise risk), and whether results convert the anomaly into JORC-compliant resource upgrades."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ESR",
+      "company": "ESTRELLA RESOURCES LIMITED",
+      "headline": "Advanced UAV Survey Commenced",
+      "time": "2026-05-18T23:35:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091434-6A1326057",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Estrella Resources has commenced an advanced UAV (drone) survey, signaling active exploration progress and commitment to de-risking its mineral assets through modern geophysical data collection.",
+        "The market-sensitive designation suggests the survey targets are considered material to the company's exploration thesis, potentially covering key prospective zones that could drive future resource definition or drilling decisions.",
+        "As a junior explorer, the survey represents a relatively low-cost but high-value exploration step; investors should watch for survey results and any subsequent drilling program announcements that could serve as near-term catalysts."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DTZ",
+      "company": "DOTZ NANO LIMITED",
+      "headline": "CEO Appointment and Board Changes",
+      "time": "2026-05-18T23:34:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091432-3A693525",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DOTZ NANO has appointed a new CEO, signaling a strategic leadership transition that may indicate a shift in corporate direction or acceleration of commercialization efforts for its nano-technology platform.",
+        "Concurrent board changes alongside the CEO appointment suggest a broader governance restructuring, which for a micro-cap like DOTZ (limited revenue, pre-profitability stage) could reflect investor or board-level pressure to improve execution and capital allocation.",
+        "Investors should monitor for follow-up announcements detailing the new CEO's strategic priorities, any changes to cash burn trajectory, and whether the leadership refresh is accompanied by updated guidance or a capital raise to fund revised plans."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DTZ",
+      "company": "DOTZ NANO LIMITED",
+      "headline": "Dotz Announces Private Placement Offering",
+      "time": "2026-05-18T23:34:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091431-3A693550",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Dotz Nano is conducting a private placement, which will result in shareholder dilution but provides near-term capital to fund operations and extend cash runway for the nano-technology company.",
+        "As a micro-cap ASX-listed company with limited revenue generation, the capital raise signals ongoing reliance on external funding rather than organic cash flow, a key risk factor for institutional investors.",
+        "Investors should monitor the placement pricing, discount to market, and use of proceeds — the terms will determine the degree of dilutive impact and whether the raise is sufficient to reach meaningful commercial milestones."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "EG1",
+      "company": "EVERGOLD MINERALS LIMITED",
+      "headline": "RC Drilling Commences at Mt Monger Project-Priority Targets",
+      "time": "2026-05-18T23:28:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091427-6A1326054",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Evergold has commenced RC drilling at its Mt Monger Project in the Eastern Goldfields of WA, targeting priority gold prospects — a key catalyst for re-rating if results confirm mineralisation at depth or along strike.",
+        "The commencement of drilling signals the company is deploying capital into the ground, which for a junior explorer is a critical inflection point that can drive near-term newsflow and investor interest ahead of assay results.",
+        "Investors should watch for initial drill results over the coming weeks, as high-grade intercepts at Mt Monger — located in a prolific gold-producing district near Kalgoorlie — could materially shift the company's valuation and attract further market attention."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AX8",
+      "company": "ACCELERATE RESOURCES LIMITED",
+      "headline": "AX8 Expands Balagundi and Divests Kanowna East",
+      "time": "2026-05-18T23:28:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091426-6A1326053",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AX8 is expanding its Balagundi project footprint, signaling strategic focus on its core asset and potentially unlocking additional exploration upside in a priority tenement area.",
+        "Divestment of Kanowna East represents a portfolio rationalization move, likely freeing up capital and management bandwidth — key for a micro-cap explorer needing to concentrate limited resources on highest-conviction assets.",
+        "Net effect is a leaner, more focused exploration portfolio; investors should watch for terms of the Kanowna East divestment (cash vs equity consideration) and upcoming exploration plans at Balagundi to assess near-term catalysts."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BMR",
+      "company": "BALLYMORE RESOURCES LIMITED",
+      "headline": "Gravity Survey Underway Across Ruddygore Mineral Corridor",
+      "time": "2026-05-18T23:26:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091424-2A1672686",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ballymore has commenced a detailed gravity survey across the Ruddygore Mineral Corridor, signaling an active exploration phase aimed at defining subsurface geological structures and potential mineralisation targets in a prospective area.",
+        "Gravity surveys are a cost-effective, early-stage geophysical tool; while they demonstrate exploration momentum, they are pre-drill and do not yet confirm any resource — investors should view this as a de-risking step rather than a value-crystallising event.",
+        "Results from the gravity survey are expected to inform future drill targeting decisions, with successful anomaly identification potentially catalysing a more capital-intensive drilling program and providing a clearer pathway to resource definition."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAK",
+      "company": "WA KAOLIN LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-05-18T23:25:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091423-6A1326052",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WA Kaolin Limited has been reinstated to quotation on the ASX, ending a period of trading suspension that likely related to compliance or disclosure requirements, restoring liquidity for shareholders.",
+        "Reinstatement signals the company has satisfied ASX conditions for resumption of trading, which may include lodgement of outstanding financial reports, capital raise completion, or resolution of a query — a necessary hurdle cleared for continued listing.",
+        "Investors should monitor the first sessions of trading closely for price discovery, as pent-up selling or buying pressure during the suspension period could drive elevated volatility; any accompanying announcements detailing the reason for suspension will be critical for assessing fundamental outlook."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAK",
+      "company": "WA KAOLIN LIMITED",
+      "headline": "Completion of Entitlement Offer raising A$16.1M",
+      "time": "2026-05-18T23:25:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091417-6A1326047",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "WA Kaolin completed its entitlement offer raising A$16.1M, providing critical funding to advance its kaolin project development but introducing meaningful dilution to existing shareholders who did not participate.",
+        "The A$16.1M raise strengthens the company's balance sheet and extends cash runway, likely earmarked for project capex, feasibility work, or operational ramp-up at its Western Australian kaolin assets.",
+        "Completion of the capital raise removes near-term funding uncertainty, but investors should monitor the use of proceeds and any subsequent project milestones to assess whether the dilution delivers value-accretive outcomes."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AIQ",
       "company": "ALTERNATIVE INVESTMENT TRUST",
