@@ -1,9 +1,222 @@
 {
   "date": "2026-05-18",
-  "total": 130,
-  "market_sensitive_count": 105,
-  "generated_at": "2026-05-18T00:09:21.759690+00:00",
+  "total": 141,
+  "market_sensitive_count": 115,
+  "generated_at": "2026-05-18T00:43:22.966484+00:00",
   "announcements": [
+    {
+      "ticker": "NTU",
+      "company": "NORTHERN MINERALS LIMITED",
+      "headline": "Treasurer makes further disposal orders",
+      "time": "2026-05-18T00:40:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091035-6A1325893",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Australian Treasurer has issued further disposal orders targeting Northern Minerals, likely compelling certain foreign investors (potentially linked to Chinese interests) to divest their holdings, escalating national security-related regulatory intervention in the rare earths sector.",
+        "Forced disposal orders create significant overhang risk as mandated sellers must liquidate positions regardless of price, potentially depressing NTU's share price in the near term and signaling ongoing sovereign risk concerns around the company's shareholder register.",
+        "The repeated nature of these orders ('further' disposal) suggests unresolved foreign ownership concerns that could complicate Northern Minerals' ability to attract capital and advance its Browns Range heavy rare earths project, a strategically important critical minerals asset."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HYD",
+      "company": "HYDRIX LIMITED",
+      "headline": "Accelerated renounceable entitlement offer to raise $8.18m",
+      "time": "2026-05-18T00:34:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091034-3A693488",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Hydrix is raising $8.18m via an accelerated renounceable entitlement offer, signaling urgent capital needs and likely significant dilution for existing shareholders who do not participate.",
+        "The renounceable structure allows shareholders to trade their rights, providing some protection, but the capital raise size relative to Hydrix's micro-cap status suggests material equity dilution and potential balance sheet stress.",
+        "Proceeds will likely extend cash runway for the medtech/technology company, but investors should scrutinize the use of funds and whether this raise addresses a near-term liquidity gap or funds growth initiatives."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HYD",
+      "company": "HYDRIX LIMITED",
+      "headline": "Prospectus - Entitlement Offer",
+      "time": "2026-05-18T00:32:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091031-3A693485",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Hydrix Limited is conducting a pro-rata entitlement offer via prospectus, signaling an immediate need to bolster its balance sheet — typical for micro-cap companies facing cash runway constraints in the medtech/technology space.",
+        "Entitlement offers are dilutive to existing shareholders who do not participate, and the market-sensitive classification suggests material capital raising size relative to Hydrix's current market capitalization, likely pressuring near-term share price.",
+        "Investors should scrutinize the offer price discount, use of proceeds (whether for working capital, debt reduction, or growth investment), and any underwriting arrangements to assess whether the raise is defensive (survival) or offensive (growth-oriented)."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CEL",
+      "company": "CHALLENGER GOLD LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-05-18T00:25:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091026-6A1325891",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Challenger Gold Limited has been reinstated to quotation on the ASX, ending a prior trading halt or suspension period that had restricted investor access to the stock.",
+        "Reinstatement signals the company has satisfied ASX compliance requirements or conditions that triggered the original suspension, removing a key overhang for existing shareholders.",
+        "Investors should monitor initial trading volumes and price discovery closely post-reinstatement, as pent-up selling or buying pressure may create near-term volatility; any accompanying capital raise or corporate action details will be critical for assessing dilution risk."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CEL",
+      "company": "CHALLENGER GOLD LIMITED",
+      "headline": "$85m Placement and New Leadership Appointments",
+      "time": "2026-05-18T00:24:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091021-6A1325831",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Challenger Gold raises $85m via placement, significantly bolstering its balance sheet and providing substantial cash runway to advance exploration and development activities across its gold portfolio.",
+        "The capital raise size ($85m) is material for a junior/mid-tier gold explorer, likely involving significant dilution to existing shareholders — investors should assess the placement price discount and new share count relative to pre-raise market cap.",
+        "New leadership appointments signal a strategic pivot or acceleration phase, with fresh management potentially repositioning the company for project advancement, M&A activity, or a transition toward production readiness."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CEL",
+      "company": "CHALLENGER GOLD LIMITED",
+      "headline": "Pre-Feasibility Study Summary Report",
+      "time": "2026-05-18T00:24:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091020-6A1325829",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Challenger Gold has released a Pre-Feasibility Study (PFS) summary, a critical de-risking milestone that typically precedes financing decisions and moves the project closer to a development decision, signaling meaningful advancement in project maturity.",
+        "The PFS will detail key economic metrics including NPV, IRR, capex/opex estimates, mine life, and production profiles — institutional investors will scrutinize these figures against peer benchmarks to assess whether the project clears hurdle rates for funding.",
+        "Completion of the PFS positions Challenger Gold to progress toward a Definitive Feasibility Study (DFS) or seek project financing/strategic partnerships, with the market-sensitive tag suggesting the study contains material valuation-relevant data likely to re-rate the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CEL",
+      "company": "CHALLENGER GOLD LIMITED",
+      "headline": "Completion of Hualilan Pre-Feasibility Study",
+      "time": "2026-05-18T00:24:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091019-6A1325828",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Completion of the Hualilan Pre-Feasibility Study represents a critical de-risking milestone for Challenger Gold's flagship Argentine gold project, potentially unlocking the pathway toward a Definitive Feasibility Study and project financing discussions.",
+        "PFS delivery provides institutional investors with key economic metrics including NPV, IRR, capex/opex estimates, and mine life parameters that will be essential for re-rating the stock and benchmarking against peer gold development projects on the ASX.",
+        "Next catalysts include release of detailed PFS economics, advancement toward DFS, and potential strategic partner or offtake discussions — the market will closely scrutinize project returns relative to capital intensity and permitting timelines in Argentina's evolving regulatory environment."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EOS",
+      "company": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+      "headline": "Investor Presentation - Capital Raising",
+      "time": "2026-05-18T00:17:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091018-2A1672477",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Electro Optic Systems is conducting a capital raising, likely dilutive to existing shareholders, with the investor presentation signaling near-term funding needs for its defence technology operations and growth initiatives.",
+        "The capital raise comes amid EOS's ongoing transition toward recurring defence revenue streams; investors should scrutinize the raise size relative to market cap, use of proceeds, and whether it addresses a critical cash runway shortfall or funds expansion.",
+        "Market-sensitive designation suggests material terms — institutional investors should watch for placement discount, participation rights for retail holders, and any updated revenue or contract guidance embedded in the presentation."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "EOS",
+      "company": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+      "headline": "Capital Raising to Support Growth Opportunities",
+      "time": "2026-05-18T00:15:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091017-2A1672476",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Electro Optic Systems is conducting a capital raising to fund growth opportunities, implying near-term equity dilution for existing shareholders but signaling management confidence in pipeline expansion, likely in defence/space technology segments.",
+        "The capital raise, flagged as market sensitive, suggests a material issuance size relative to EOS's market cap; investors should watch for placement discount, participation rights, and total proceeds to assess dilution impact and cash runway extension.",
+        "Proceeds earmarked for 'growth opportunities' indicate potential contract wins, capacity expansion, or strategic investments in EOS's defence and space divisions — execution on deployment of funds will be the key catalyst for whether the raise proves accretive or value-destructive."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KLV",
+      "company": "KLEVO REWARDS LIMITED",
+      "headline": "Klevo to acquire an Australian Credit Licence holder",
+      "time": "2026-05-18T00:14:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091015-6A1325890",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Klevo Rewards is acquiring an Australian Credit Licence (ACL) holder, signaling a strategic pivot into regulated financial services and lending, which could materially expand its addressable market beyond its existing rewards platform.",
+        "The acquisition of an ACL provides immediate regulatory infrastructure that would otherwise take significant time and cost to obtain organically, potentially accelerating Klevo's ability to offer credit-related products and generate new revenue streams.",
+        "Investors should watch for disclosure on acquisition terms, consideration structure (cash vs scrip dilution risk), and how the ACL integrates with Klevo's existing rewards ecosystem — the commercial logic and near-term monetisation pathway remain key unknowns."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ADC",
+      "company": "ACDC METALS LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-18T00:07:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091011-3A693483",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in ACDC Metals Ltd, signaling a notable shift in ownership structure that institutional investors should monitor for potential strategic positioning.",
+        "The filing is classified as not market sensitive, suggesting the change is likely incremental rather than a transformative block trade or activist accumulation, limiting immediate price impact.",
+        "Investors should review the direction of the change (increase vs decrease) and the identity of the substantial holder to assess whether this reflects insider confidence or portfolio rebalancing in this early-stage metals explorer."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ADC",
       "company": "ACDC METALS LTD",
