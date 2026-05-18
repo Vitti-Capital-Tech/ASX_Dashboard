@@ -1,9 +1,255 @@
 {
   "date": "2026-05-19",
-  "total": 45,
-  "market_sensitive_count": 35,
-  "generated_at": "2026-05-18T22:47:22.493229+00:00",
+  "total": 58,
+  "market_sensitive_count": 48,
+  "generated_at": "2026-05-18T23:17:11.445592+00:00",
   "announcements": [
+    {
+      "ticker": "ORN",
+      "company": "ORION MINERALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-18T23:13:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091400-3A693546",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Orion Minerals has entered a trading halt, typically preceding a material announcement such as a capital raise, asset transaction, or significant project update for its South African base metals portfolio.",
+        "As a pre-revenue junior miner with limited cash reserves, a trading halt frequently signals an impending equity raising, which would be dilutive to existing shareholders but could extend cash runway to advance the Prieska Copper-Zinc Mine development.",
+        "Investors should await the pending announcement — if confirmed as a capital raise, the discount to last traded price and placement size will be critical in assessing near-term dilution impact versus longer-term project de-risking."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WJL",
+      "company": "WEBJET GROUP LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-18T23:13:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091398-3A693547",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Webjet Group has entered a trading halt, typically preceding a material announcement such as a capital raise, acquisition, or significant corporate action — investors should prepare for potential portfolio-impacting news.",
+        "As a dual-platform travel technology business (WebBeds B2B and Webjet OTA), any capital raise could signal an acquisition opportunity to consolidate market share in the recovering global travel sector, though dilution risk remains a key concern.",
+        "Trading will remain suspended pending the announcement; institutional investors should monitor for details on the nature of the halt, with the most likely catalysts being a capital raise or M&A activity given Webjet's stated growth ambitions."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CPV",
+      "company": "CLEARVUE TECHNOLOGIES LIMITED",
+      "headline": "Certification for ClearVue's Thermal Management Junction Box",
+      "time": "2026-05-18T23:12:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091397-6A1326046",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ClearVue has obtained certification for its proprietary Thermal Management Junction Box, a critical component enabling its solar glass technology to manage heat dissipation — this removes a key technical barrier to commercial-scale deployment and product reliability validation.",
+        "Certification de-risks the product pathway for building-integrated photovoltaic (BIPV) glass panels, potentially accelerating customer adoption and revenue generation from a company that remains pre-revenue with limited cash runway, making each commercialisation milestone material.",
+        "With the junction box now certified, ClearVue can progress toward full product certification and integration into construction supply chains — investors should watch for follow-on announcements regarding building code compliance, customer pilots, and any impact on near-term order pipeline."
+      ],
+      "tags": [
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KCC",
+      "company": "KINCORA COPPER LIMITED",
+      "headline": "Kincora receives payment for Mongolian Asset divestment",
+      "time": "2026-05-18T23:09:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091394-6A1326045",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kincora Copper has received payment for the divestment of its Mongolian assets, converting a non-core holding into immediate cash and simplifying the corporate structure for investors.",
+        "The cash inflow strengthens Kincora's balance sheet and extends its cash runway, reducing near-term dilution risk and providing working capital to advance its remaining exploration portfolio.",
+        "With the Mongolian exit now complete, management can fully redirect focus and capital toward its core copper exploration assets, a strategic pivot that should sharpen the investment thesis for institutional holders."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TG6",
+      "company": "TG METALS LIMITED",
+      "headline": "Lake Johnson Lithium Advances Toward Development",
+      "time": "2026-05-18T23:06:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091385-6A1326041",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TG Metals' Lake Johnson Lithium project is advancing toward development stage, signaling meaningful de-risking and progression along the mine development pipeline — a positive catalyst for a junior explorer seeking to transition toward producer status.",
+        "The market-sensitive designation suggests material new information on project economics, resource definition, or development milestones that could re-rate the company's valuation among lithium-focused investors, particularly relevant given ongoing lithium market dynamics.",
+        "Near-term catalysts likely include feasibility study updates, permitting progress, or offtake discussions — investors should monitor for capital requirements and potential funding mechanisms (equity raise or debt) that could impact dilution risk as the project moves toward construction."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STK",
+      "company": "STRICKLAND METALS LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-05-18T23:04:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091380-6A1326040",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strickland Metals issued a formal response to an ASX price query, typically triggered by unusual share price movement or trading volume, indicating the exchange is scrutinizing recent market activity in the stock.",
+        "The company's response to the price query suggests either material information may be circulating in the market or speculative trading is driving price action — investors should assess whether any undisclosed catalysts (e.g., drill results, corporate activity) are pending.",
+        "ASX price queries are procedural but often precede further disclosure obligations; the market-sensitive tag signals the response contains substantive content that could clarify or confirm the drivers behind recent share price volatility."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FAL",
+      "company": "FALCON METALS LTD",
+      "headline": "Gold Intersected at Blue Moon Over 600m of Strike Length",
+      "time": "2026-05-18T23:00:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091377-6A1326037",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Falcon Metals has confirmed gold mineralisation across 600m of strike length at the Blue Moon prospect, significantly expanding the known footprint and de-risking the exploration target — a material step for a junior explorer seeking to define a resource.",
+        "The extended strike length provides critical mass for potential resource estimation work, which could serve as a catalyst for re-rating if grades and widths prove economic across the expanded zone.",
+        "Investors should watch for follow-up assay results, infill drilling programs, and any move toward a maiden or updated resource estimate at Blue Moon, which would be the next key value inflection point for the stock."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LRM",
+      "company": "LION ROCK MINERALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-18T22:58:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091374-6A1326032",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Lion Rock Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration results.",
+        "As a junior minerals company, trading halts frequently precede equity raisings which may be dilutive to existing shareholders but could also fund critical exploration or development milestones.",
+        "Investors should await the detailed announcement expected within two business days to assess the nature and materiality of the pending disclosure before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RTR",
+      "company": "RUMBLE RESOURCES LIMITED",
+      "headline": "Western Queen Toll Milling Agreement Signed",
+      "time": "2026-05-18T22:55:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091368-6A1326028",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Rumble Resources has signed a toll milling agreement for its Western Queen gold project, providing a near-term pathway to revenue generation without the capital expenditure burden of building its own processing facility.",
+        "The toll milling arrangement is a capital-efficient strategy that de-risks the project economics by leveraging existing third-party processing infrastructure, preserving cash runway while enabling gold production and cash flow.",
+        "Execution of the agreement signals progression from exploration/development toward production phase, a key catalyst for re-rating junior miners — investors should watch for mining commencement timelines, grade reconciliation, and unit cost guidance in upcoming updates."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DRX",
+      "company": "DIATREME RESOURCES LIMITED",
+      "headline": "Significant Mineral Resource Estimate upgrade at Si2",
+      "time": "2026-05-18T22:49:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091363-2A1672660",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Diatreme Resources has announced a significant upgrade to the Mineral Resource Estimate at its Si2 silica sand project, a key de-risking milestone that enhances the project's economic fundamentals and strengthens its position for offtake negotiations and project financing.",
+        "The MRE upgrade likely increases total tonnage and/or confidence classification (Indicated/Measured), which directly improves the bankability of the project and supports a more robust feasibility study outcome — critical for a junior miner seeking to advance toward development decisions.",
+        "Next steps will likely include progression of the Definitive Feasibility Study, securing binding offtake agreements, and advancing permitting — the upgraded resource base provides stronger leverage in discussions with potential partners, financiers, and customers in the high-purity silica market."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NTM",
+      "company": "NT MINERALS LIMITED",
+      "headline": "Withdrawal of Offer and Cancellation of General Meeting",
+      "time": "2026-05-18T22:48:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091362-6A1326001",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NT Minerals has withdrawn its offer and cancelled the associated general meeting, signalling a material shift in corporate strategy or a breakdown in deal negotiations that removes a previously anticipated transaction from the table.",
+        "The withdrawal eliminates potential dilution or structural changes that shareholders were set to vote on, but also removes any upside optionality the deal may have offered — net impact depends on the nature of the original offer and whether alternative transactions are being pursued.",
+        "Investors should monitor for follow-up announcements clarifying the rationale behind the withdrawal, any revised corporate strategy, and whether this signals broader issues with the company's deal pipeline or financial position."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TG1",
+      "company": "TECHGEN METALS LTD",
+      "headline": "Western Reefs Gold Target - Dalgaranga Project",
+      "time": "2026-05-18T22:47:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091361-6A1326026",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TechGen Metals has identified a new gold target at the Western Reefs prospect within its Dalgaranga Project in Western Australia, signaling potential resource expansion in a proven gold-producing district near Gascoyne Resources' Dalgaranga mine.",
+        "The announcement is market-sensitive, suggesting the company has generated meaningful geological data (likely geochemical/geophysical anomalies) that could materially impact the project's prospectivity and warrant follow-up drilling programs.",
+        "As a junior explorer, TechGen will need to advance this target through drilling to demonstrate economic potential; investors should monitor upcoming drill planning timelines and the company's cash position to fund exploration without significant dilution."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ILA",
+      "company": "ISLAND PHARMACEUTICALS LIMITED",
+      "headline": "Island Bolsters US Biodefence Readiness Ahead of Trials",
+      "time": "2026-05-18T22:44:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091356-3A693536",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Island Pharmaceuticals is strengthening its US biodefence infrastructure positioning, signaling strategic alignment with US government funding channels (BARDA/DoD) which could unlock non-dilutive capital for its antiviral programs.",
+        "Pre-trial operational readiness in the US biodefence space suggests the company is advancing toward clinical milestones, potentially de-risking its pipeline ahead of key catalysts and enhancing its value proposition to institutional and government partners.",
+        "Successful integration into US biodefence frameworks could provide a significant revenue pathway independent of traditional pharma commercialisation, though near-term cash burn and trial execution risk remain key watchpoints for this micro-cap biotech."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "KNB",
       "company": "KOONENBERRY GOLD LIMITED",
