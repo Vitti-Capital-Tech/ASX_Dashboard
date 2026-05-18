@@ -1,9 +1,142 @@
 {
   "date": "2026-05-19",
-  "total": 58,
-  "market_sensitive_count": 48,
-  "generated_at": "2026-05-18T23:17:11.445592+00:00",
+  "total": 65,
+  "market_sensitive_count": 55,
+  "generated_at": "2026-05-18T23:24:58.288556+00:00",
   "announcements": [
+    {
+      "ticker": "AIQ",
+      "company": "ALTERNATIVE INVESTMENT TRUST",
+      "headline": "AIQ Announcement of Placement of Units",
+      "time": "2026-05-18T23:22:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091414-2A1672646",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Alternative Investment Trust (AIQ) has announced a placement of units, signaling a capital raise that will increase the trust's investable capital but dilute existing unitholders' positions",
+        "As a market-sensitive announcement, the placement terms (pricing, discount to NAV, and volume) will be critical for assessing the degree of dilution and whether institutional demand signals confidence in the trust's strategy",
+        "Investors should monitor the use of proceeds — whether deployed into new alternative investments or used to strengthen the balance sheet — as this will determine whether the raise is accretive or value-destructive over the medium term"
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRZ",
+      "company": "STELLAR RESOURCES LIMITED",
+      "headline": "Drilling at Montana Hits High-Grade Tin",
+      "time": "2026-05-18T23:22:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091413-3A693549",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade tin intercepts at Montana project represent a material de-risking event for Stellar Resources, potentially upgrading the resource base and improving project economics in a structurally tight tin market.",
+        "The market-sensitive classification signals management views these drill results as meaningfully above expectations, likely featuring intercepts that could shift the project toward development-stage feasibility assessments.",
+        "Positive drilling results at this stage could catalyse renewed investor interest in Stellar's tin portfolio, with next steps likely including follow-up drilling programs, updated resource estimates, and potential scoping/pre-feasibility studies — all of which will test the company's cash runway and potential need for further capital."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IVX",
+      "company": "INVION LIMITED",
+      "headline": "Photosoft Platform Expands to Eye Diseases Via Partnership",
+      "time": "2026-05-18T23:21:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091412-2A1672683",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Invion's Photosoft photodynamic therapy platform has secured a partnership to expand into ophthalmic diseases, representing a meaningful new therapeutic vertical beyond oncology and potentially broadening the platform's addressable market significantly.",
+        "For a micro-cap like Invion (minimal revenue, pre-clinical stage), partnership-driven validation is critical — this deal likely provides non-dilutive funding or milestone payments that could extend cash runway without requiring near-term capital raises, though specific financial terms need scrutiny.",
+        "Key next steps include disclosure of partnership economics (upfront payments, milestones, royalty structure), identification of lead ophthalmic indications, and timeline to preclinical/clinical proof-of-concept — investors should watch for whether this translates to tangible value inflection or remains early-stage optionality."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FUL",
+      "company": "FULCRUM LITHIUM LTD",
+      "headline": "Alkali Flats Metallurgy Update",
+      "time": "2026-05-18T23:20:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091411-2A1672682",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Fulcrum Lithium has released metallurgical test results for its Alkali Flats lithium project, a market-sensitive update suggesting meaningful progress in demonstrating the technical viability of lithium extraction from the asset.",
+        "Metallurgy updates at this stage are critical for de-risking the project pathway — positive results would support future resource estimates, feasibility studies, and potential offtake discussions, while poor results could stall development timelines.",
+        "Investors should watch for specific lithium recovery rates, impurity profiles, and whether the metallurgical process aligns with commercially proven extraction methods, as these factors will directly influence project economics and future capital requirements for this early-stage explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALI",
+      "company": "ARGO GLOBAL LISTED INFRASTRUCTURE LIMITED",
+      "headline": "Share Purchase Plan",
+      "time": "2026-05-18T23:20:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091410-2A1672681",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Argo Global Listed Infrastructure (ALI) is launching a Share Purchase Plan, providing existing shareholders the opportunity to acquire additional shares, typically at a discount to market price, which will increase shares on issue and modestly dilute existing holdings.",
+        "As a listed investment company focused on global infrastructure assets, the SPP proceeds will likely be deployed into the portfolio, potentially enhancing scale and reducing the management expense ratio on a per-share basis, though near-term NTA dilution is a key consideration.",
+        "Investors should monitor the SPP pricing mechanism, cap on total raising, and any discount offered relative to the prevailing NTA and share price to assess whether participation is value-accretive or if secondary market acquisition offers better entry."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "L1M",
+      "company": "LIGHTNING MINERALS LTD",
+      "headline": "SIGNIFICANT TUNGSTEN POTENTIAL IDENTIFIED AT WARBY PROJECT",
+      "time": "2026-05-18T23:18:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091409-6A1326050",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lightning Minerals has identified significant tungsten potential at its Warby Project, a timely development given tungsten's classification as a critical mineral and elevated global pricing driven by supply constraints from China's export controls.",
+        "Early-stage identification of tungsten mineralisation adds a new commodity dimension to the Warby Project, potentially enhancing the asset's strategic value for offtake or partnership discussions with government-backed critical minerals programs.",
+        "Next steps likely involve targeted geochemical sampling and drilling to define the scale and grade of tungsten mineralisation — investors should watch for resource definition timelines and funding requirements that may necessitate a capital raise."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MX1",
+      "company": "MICRO-X LIMITED",
+      "headline": "$1.3m Checkpoint Contract Extension Awarded by DHS",
+      "time": "2026-05-18T23:15:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091402-3A693548",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Micro-X secures a US$1.3m contract extension from the US Department of Homeland Security (DHS) for its checkpoint security screening technology, validating continued US government confidence in the company's carbon nanotube X-ray platform.",
+        "The DHS contract extension provides meaningful near-term revenue for a micro-cap company with limited recurring income streams, helping to extend cash runway and fund ongoing development of its security imaging products for the US market.",
+        "Continued DHS engagement positions Micro-X for potential larger-scale procurement contracts if checkpoint technology progresses through evaluation phases, representing a significant addressable market in US airport and border security infrastructure."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ORN",
       "company": "ORION MINERALS LTD",
