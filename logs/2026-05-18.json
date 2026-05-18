@@ -1,9 +1,311 @@
 {
   "date": "2026-05-18",
-  "total": 114,
-  "market_sensitive_count": 90,
-  "generated_at": "2026-05-17T23:45:32.723308+00:00",
+  "total": 130,
+  "market_sensitive_count": 105,
+  "generated_at": "2026-05-18T00:09:21.759690+00:00",
   "announcements": [
+    {
+      "ticker": "ADC",
+      "company": "ACDC METALS LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-18T00:05:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091010-3A693482",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in ACDC Metals Ltd, signaling a notable shift in ownership concentration that institutional investors should monitor for governance and liquidity implications.",
+        "The filing is classified as not market sensitive, suggesting the change is likely incremental rather than a transformative block trade or activist accumulation, limiting immediate price impact.",
+        "Investors should track whether this forms part of a broader pattern of accumulation or disposal by the substantial holder, as successive movements could signal strategic intent or changing confidence in ACDC Metals' exploration-stage outlook."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASM",
+      "company": "AUSTRALIAN STRATEGIC MATERIALS LIMITED",
+      "headline": "ASIC Registration of Energy Fuels Scheme Booklet",
+      "time": "2026-05-18T00:03:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091009-6A1325889",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASIC has registered the Scheme Booklet for Energy Fuels' proposed acquisition of Australian Strategic Materials, a key procedural milestone that advances the merger toward shareholder vote and potential completion.",
+        "Registration signals regulatory clearance at the ASIC level, reducing deal uncertainty and moving the transaction closer to the scheme meeting where ASM shareholders will vote on the takeover terms.",
+        "Investors should now focus on the scheme meeting date, any competing proposals, and whether the independent expert's opinion supports the deal as fair and reasonable — these will determine final deal execution and price realization."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AIQ",
+      "company": "ALTERNATIVE INVESTMENT TRUST",
+      "headline": "Trading Halt",
+      "time": "2026-05-18T00:02:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091008-2A1672478",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Alternative Investment Trust (AIQ) has entered a trading halt, suspending shares from trading pending a material announcement — the nature of which is undisclosed but flagged as market sensitive.",
+        "As a listed investment trust, trading halts typically precede significant portfolio restructuring, capital management initiatives, or potential M&A activity that could materially alter the trust's NAV or structure.",
+        "Investors should await the forthcoming announcement before repositioning; the halt signals management is managing information asymmetry ahead of a potentially price-moving disclosure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PLC",
+      "company": "PREMIER1 LITHIUM LIMITED",
+      "headline": "Maiden RC drilling commences at Rochefort Gold Prospect",
+      "time": "2026-05-18T00:01:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091007-3A693459",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Premier1 Lithium has commenced maiden RC drilling at its Rochefort Gold Prospect, marking a significant de-risking milestone as the company transitions from target generation to drill-testing phase on a previously undrilled prospect.",
+        "The commencement of first-pass drilling at a gold prospect signals strategic diversification beyond the company's core lithium focus, potentially broadening the asset base and appeal to a wider investor audience amid strong gold price tailwinds.",
+        "Results from this maiden campaign will be a key near-term catalyst; positive intercepts could materially re-rate the stock given the early-stage nature of the prospect, while the market will closely watch for follow-up drill programs and resource definition timelines."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PLC",
+      "company": "PREMIER1 LITHIUM LIMITED",
+      "headline": "$1.8 Million Raised to Advance Gold Exploration",
+      "time": "2026-05-18T00:00:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091006-3A693456",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Premier1 Lithium raised $1.8 million to fund gold exploration activities, signaling a strategic pivot or diversification away from its core lithium focus toward gold assets amid stronger gold price dynamics.",
+        "The $1.8M raise provides near-term funding runway for exploration programs, though the relatively modest size suggests early-stage work and implies potential for further dilutive capital raises as programs advance.",
+        "The pivot to gold exploration reflects broader ASX junior miner trends of repositioning toward commodities with stronger near-term price support, with investors needing to assess the quality of gold tenements and upcoming drill results for re-rating catalysts."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NTU",
+      "company": "NORTHERN MINERALS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-05-17T23:57:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091003-6A1325888",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Northern Minerals has entered a trading pause, typically preceding a formal trading halt request and a material announcement that could significantly impact the company's valuation or corporate structure.",
+        "Given Northern Minerals' recent history involving foreign ownership concerns (Chinese-linked shareholders) and government intervention under critical minerals policy, this pause may relate to a corporate action, regulatory development, or strategic transaction.",
+        "Investors should await the forthcoming announcement before repositioning; the pause creates near-term uncertainty but signals imminent material news that could reset the investment thesis for this rare earths developer."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGH",
+      "company": "MAAS GROUP HOLDINGS LIMITED",
+      "headline": "Corporate update - with guidance reaffirmed",
+      "time": "2026-05-17T23:54:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091001-2A1672475",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MAAS Group reaffirms FY guidance, signaling management confidence in earnings trajectory despite broader macro uncertainty — a positive signal for institutional holders seeking earnings visibility in the mid-cap industrials space.",
+        "Corporate update likely addresses operational performance across its diversified civil, construction, and real estate segments; guidance reaffirmation suggests no material deterioration in order book or project pipeline margins.",
+        "Market-sensitive classification combined with guidance reaffirmation typically acts as a floor for near-term share price, reducing downside risk and potentially attracting momentum buyers ahead of full-year results."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AIQ",
+      "company": "ALTERNATIVE INVESTMENT TRUST",
+      "headline": "Pause in Trading",
+      "time": "2026-05-17T23:53:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090997-2A1672473",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alternative Investment Trust has entered a trading pause, typically indicating a pending material announcement such as a capital raise, corporate action, or significant portfolio update that requires orderly market disclosure.",
+        "As a listed investment trust, a trading pause may signal a potential restructuring, wind-up proposal, or material change in net tangible assets that could impact unit holder value — investors should monitor for follow-up announcements closely.",
+        "Trading will remain halted until the company releases the pending announcement; the nature and magnitude of the underlying news will determine whether this represents a value catalyst or risk event for holders."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BML",
+      "company": "BOAB METALS LIMITED",
+      "headline": "DeGrussa Process Plant Acquisition Completion",
+      "time": "2026-05-17T23:52:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090996-6A1325883",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Boab Metals has completed the acquisition of Sandfire Resources' DeGrussa process plant, securing critical infrastructure that significantly de-risks and accelerates development of its Sorby Hills lead-silver project by avoiding the cost and timeline of building a new plant from scratch.",
+        "The acquisition of an existing, proven processing facility is expected to materially reduce upfront capital expenditure requirements for Sorby Hills, improving project economics and potentially shortening the path to production — a key catalyst for re-rating junior miners.",
+        "With the plant acquisition now complete, the market will focus on Boab's next steps including plant relocation logistics, updated feasibility economics incorporating the acquired infrastructure, and securing project financing to advance toward construction and first production."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WCN",
+      "company": "WHITE CLIFF MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-17T23:51:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090995-6A1325881",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "White Cliff Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant exploration results.",
+        "As a small-cap minerals explorer, trading halts frequently precede equity raisings which can be dilutive to existing shareholders, though they may also signal transformative corporate activity.",
+        "Investors should await the detailed announcement expected within two business days to assess the nature and materiality of the pending disclosure before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENV",
+      "company": "ENOVA MINING LIMITED",
+      "headline": "Enova Appoints REE Discovery Expert Alexandre Da Rocha",
+      "time": "2026-05-17T23:51:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090994-3A693480",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Enova Mining has appointed Alexandre Da Rocha, a recognized rare earth elements (REE) discovery expert, signaling a strategic commitment to advancing its REE exploration portfolio and adding critical technical credibility to the team.",
+        "Da Rocha's track record in REE discoveries could materially de-risk Enova's exploration programs, potentially accelerating resource definition timelines and enhancing the company's positioning in the increasingly strategic critical minerals sector.",
+        "The appointment aligns with growing global demand and government support for REE supply chain diversification away from China, positioning Enova to attract institutional interest and potential funding as it progresses exploration milestones."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LDX",
+      "company": "LUMOS DIAGNOSTICS HOLDINGS LIMITED",
+      "headline": "FebriDx U.S. Rollout and Reimbursement Update",
+      "time": "2026-05-17T23:49:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090990-2A1672472",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FebriDx U.S. commercial rollout progressing with reimbursement pathway updates, signaling a critical inflection point for Lumos Diagnostics' revenue generation from its flagship rapid diagnostic test for differentiating bacterial vs viral infections.",
+        "Reimbursement clarity is the key gating factor for U.S. adoption at scale; any positive CMS or commercial payer coding/coverage developments would materially de-risk the revenue trajectory and improve the company's cash runway outlook given its micro-cap status and limited operating cash flows.",
+        "Investors should monitor near-term milestones including payer coverage decisions, initial ordering volumes from U.S. healthcare systems, and updated cash burn guidance — successful U.S. traction could transform the company's valuation but execution risk remains elevated for a pre-profitability diagnostics company."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MBG",
+      "company": "MB GOLD LIMITED",
+      "headline": "Heritage survey completed at Razorback and NSR terminated",
+      "time": "2026-05-17T23:49:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090988-6A1325877",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Completion of heritage survey at Razorback clears a key permitting hurdle, enabling MB Gold to advance exploration activities at the project without further cultural heritage constraints in the surveyed area.",
+        "Termination of the Net Smelter Royalty (NSR) removes a future cash-flow burden on production economics, directly enhancing the project's net present value and improving attractiveness to potential partners or acquirers.",
+        "With both regulatory and commercial encumbrances now resolved, the company is positioned to accelerate drill planning and resource definition work at Razorback, a catalyst pathway that could drive near-term re-rating for this micro-cap explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VRL",
+      "company": "VERITY RESOURCES LIMITED",
+      "headline": "Drilling Commenced Across 5 Gold Targets",
+      "time": "2026-05-17T23:49:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090989-6A1325879",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Verity Resources has commenced drilling across 5 gold targets simultaneously, signaling an aggressive exploration campaign designed to rapidly de-risk multiple prospects and accelerate potential resource definition.",
+        "Multi-target drilling approach spreads geological risk but also increases near-term expenditure burn; investors should monitor cash runway closely given the capital-intensive nature of concurrent programs at an exploration-stage company.",
+        "Assay results from this campaign will be the key catalyst — positive intercepts across multiple targets could materially re-rate the stock, while the breadth of the program suggests management is positioning for a significant newsflow period in coming weeks."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SCN",
+      "company": "SCORPION MINERALS LIMITED",
+      "headline": "$2 Million Funding Secured for Old Prospect Development",
+      "time": "2026-05-17T23:47:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090983-6A1325875",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Scorpion Minerals has secured $2 million in funding to advance development of its Old Prospect project, providing critical near-term capital to progress exploration and development activities without immediate need for a broader capital raise.",
+        "The $2M funding injection is significant for a micro-cap explorer, likely extending cash runway and enabling key value-adding work programs that could de-risk the asset and support future resource definition.",
+        "Investors should monitor the funding structure (debt vs equity, terms, and potential dilution) and upcoming development milestones at Old Prospect, which will be key catalysts for re-rating the stock."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AUG",
+      "company": "AUGUSTUS MINERALS LIMITED",
+      "headline": "$2.5m Raised to Fast Track Stage 2 Drilling at Music Well",
+      "time": "2026-05-17T23:44:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03090979-6A1325846",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Augustus Minerals raised $2.5M to accelerate Stage 2 drilling at its Music Well project, signaling strong investor appetite and management confidence in the asset's prospectivity despite the micro-cap's early-stage profile.",
+        "The capital raise provides near-term funding certainty to advance exploration without delay, though the placement likely introduces meaningful dilution for existing shareholders given the company's small market capitalisation.",
+        "Fast-tracking Stage 2 drilling suggests the company is building on encouraging Stage 1 results, with upcoming drill assays representing a key catalyst that could materially re-rate the stock depending on mineralisation outcomes."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CF1",
       "company": "COMPLII FINTECH SOLUTIONS LTD",
