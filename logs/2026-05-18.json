@@ -1,9 +1,232 @@
 {
   "date": "2026-05-18",
-  "total": 142,
-  "market_sensitive_count": 116,
-  "generated_at": "2026-05-18T01:42:42.449316+00:00",
+  "total": 154,
+  "market_sensitive_count": 124,
+  "generated_at": "2026-05-18T03:11:01.163319+00:00",
   "announcements": [
+    {
+      "ticker": "A2M",
+      "company": "THE A2 MILK COMPANY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-18T03:07:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091082-2A1672516",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in A2 Milk Company, triggering a mandatory disclosure under ASX substantial holding rules — this signals active institutional portfolio rebalancing in the stock.",
+        "The change in substantial holding likely reflects a movement above or below the 1% threshold change requirement, indicating meaningful volume activity by a major shareholder that institutional investors should monitor for directional conviction.",
+        "As a procedural filing flagged as not market sensitive, the announcement itself is unlikely to drive near-term price action, but investors should review the specific holder identity and direction of change for potential read-through on institutional sentiment toward A2M's China/ANZ infant formula outlook."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPG",
+      "company": "SPC GLOBAL HOLDINGS LTD",
+      "headline": "Commencement of Rights Trading on ASX & Offer Booklet",
+      "time": "2026-05-18T03:07:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091081-3A693494",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SPC Global Holdings has commenced trading of renounceable rights on ASX, signaling an active capital raise phase where existing shareholders can trade their entitlements on-market before the offer closes.",
+        "The release of the Offer Booklet provides full terms of the rights issue, with dilutionary impact on existing shareholders who do not participate — institutional investors should assess the discount to market price and take-up assumptions.",
+        "Rights trading commencement creates a defined window for arbitrage and participation decisions; the capital raised will be critical to evaluate against SPC's current cash runway and stated use-of-funds priorities."
+      ],
+      "tags": [
+        "Capital Raise"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MEC",
+      "company": "MORPHIC ETHICAL EQUITIES FUND LIMITED",
+      "headline": "Dividend/Distribution - MEC",
+      "time": "2026-05-18T03:05:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091079-2A1672514",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Morphic Ethical Equities Fund (MEC) has declared a dividend/distribution, signaling the fund's ability to generate returns and pass income through to shareholders despite global equity market volatility.",
+        "As a listed investment company focused on ethical/ESG global equities, the distribution reinforces MEC's commitment to regular shareholder returns and may reflect realized gains or income from the underlying portfolio.",
+        "Investors should monitor the ex-dividend date, record date, and payment timeline for portfolio positioning, as well as any franking credits attached which impact after-tax yield for domestic holders."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AGR",
+      "company": "AGUIA RESOURCES LIMITED",
+      "headline": "OPERATING LICENCE ISSUED FOR TRES ESTRADAS",
+      "time": "2026-05-18T02:55:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091076-2A1672510",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Aguia Resources has received the critical Operating Licence (Licença de Operação) for its Tres Estradas phosphate project in Brazil, removing the final major regulatory hurdle that has been a key de-risking catalyst for the stock.",
+        "The operating licence issuance is transformational for the company's valuation, transitioning Tres Estradas from a permitted development asset to a construction-ready project, unlocking the pathway to near-term revenue generation from phosphate production.",
+        "Next steps will focus on securing project financing and commencing construction; investors should monitor for updates on capital raising activities, offtake agreements, and construction timelines, with cash runway and funding structure becoming the critical variables for execution risk."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PLA",
+      "company": "PACIFIC LIME AND CEMENT LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-18T02:19:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091065-2A1672504",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Pacific Lime and Cement Limited has altered their stake, triggering a mandatory disclosure under ASX substantial holding rules — investors should monitor whether this reflects accumulation or distribution by a key shareholder.",
+        "Without specific details on the direction of the change (increase vs decrease), the filing is procedural in nature but signals active portfolio repositioning by a significant stakeholder in this small-cap materials company.",
+        "Institutional investors should watch for follow-up filings or trading activity that may clarify whether this change reflects strategic intent such as a potential takeover approach, block trade, or passive rebalancing."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MPW",
+      "company": "METAL POWDER WORKS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-18T02:19:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091064-6A1325901",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Metal Powder Works Limited has altered their position, signaling a shift in institutional or insider conviction that warrants monitoring for further accumulation or disposal patterns.",
+        "The announcement is flagged as not market sensitive, suggesting the change in holding is relatively modest or procedural rather than indicative of a major strategic repositioning by the holder.",
+        "Investors should track subsequent substantial holding notices to determine whether this reflects the beginning of a trend (accumulation or unwinding) that could influence liquidity and share price dynamics in this micro-cap name."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HLX",
+      "company": "HELIX RESOURCES LIMITED",
+      "headline": "Placement",
+      "time": "2026-05-18T02:09:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091062-6A1325898",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Helix Resources is conducting a capital raise via placement, which will dilute existing shareholders but provide fresh funding to advance exploration or operational activities.",
+        "The placement terms (price, discount to last trade, and total raise size) will be critical in determining the degree of dilution and whether institutional demand signals confidence in the company's asset portfolio.",
+        "Proceeds are likely earmarked for exploration programs across Helix's copper-gold projects in NSW, extending cash runway and enabling near-term drilling catalysts that could re-rate the stock."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SSM",
+      "company": "SERVICE STREAM LIMITED",
+      "headline": "Service Stream Major Contracts Update",
+      "time": "2026-05-18T02:07:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091061-3A693493",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Service Stream has secured or extended major contracts, reinforcing its revenue pipeline and providing greater earnings visibility for institutional investors assessing forward cash flows.",
+        "Major contract wins/extensions in the essential infrastructure services space signal strong demand from key utility and telecommunications clients, underpinning recurring revenue streams and supporting top-line growth momentum.",
+        "The contracts update de-risks the medium-term earnings outlook, likely prompting consensus estimate upgrades and reinforcing Service Stream's competitive positioning in the Australian infrastructure maintenance market."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "COI",
+      "company": "COMET RIDGE LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-05-18T02:06:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091059-2A1672500",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Comet Ridge has requested a pause in trading, typically preceding a material announcement such as a capital raise, asset transaction, or significant operational update in its gas exploration portfolio.",
+        "As a junior gas explorer/developer focused on the Mahalo and Galilee Basin assets, any trading halt raises questions about potential funding arrangements or farm-in deals critical to advancing its capital-intensive development pipeline.",
+        "Investors should monitor for the forthcoming announcement closely — the nature of the news (equity raise vs. strategic partnership vs. operational milestone) will be the key determinant of near-term price direction and dilution risk."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JEG",
+      "company": "JPM GLOBAL EQUITY PREMIUM INCOME COMPLEX ETF",
+      "headline": "Distribution Notice",
+      "time": "2026-05-18T02:06:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091058-2A1672499",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "JPM Global Equity Premium Income Complex ETF has announced a distribution, signaling continued income generation from its covered call/options overlay strategy on global equities, reinforcing its yield-focused mandate for income-seeking investors.",
+        "Distribution notices from premium income ETFs are closely watched as they reflect both underlying dividend income and options premium harvested — the quantum and consistency of payouts are key metrics for assessing the fund's attractiveness relative to peers and benchmark yields.",
+        "Investors should monitor the ex-distribution date and reinvestment terms; sustained or growing distributions support unit price stability and inflows, while any reduction could signal deteriorating options premium or underlying equity performance."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AQN",
+      "company": "AQUIRIAN LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-05-18T01:48:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091055-6A1325897",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Aquirian Limited, crossing the 5% ownership threshold, signaling meaningful institutional or strategic investor interest in the company.",
+        "The accumulation of a substantial position may reflect confidence in Aquirian's underlying asset value or growth prospects, potentially tightening the free float and providing a floor for the share price.",
+        "Investors should monitor whether this is a passive investment or a precursor to further accumulation, board engagement, or potential corporate activity such as a takeover approach."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LDX",
+      "company": "LUMOS DIAGNOSTICS HOLDINGS LIMITED",
+      "headline": "FebriDx U.S. Rollout and Reimbursement Update - Amended",
+      "time": "2026-05-18T01:42:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091054-2A1672496",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FebriDx U.S. rollout update signals commercial progress for Lumos Diagnostics' flagship rapid diagnostic test, with reimbursement pathway clarity being a critical catalyst for revenue generation and market adoption.",
+        "Reimbursement update is pivotal — securing favorable CPT coding and Medicare/commercial payer coverage is the key gating factor for meaningful U.S. sales volumes, directly impacting the company's path to revenue inflection given its current micro-cap, pre-profitability status.",
+        "The 'Amended' tag suggests a correction or material update to a prior announcement, warranting close attention to what changed — investors should monitor for revised timelines, pricing, or distribution scope that could alter near-term cash burn assumptions and capital raise requirements."
+      ],
+      "tags": [
+        "Healthcare",
+        "Market Update"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CVC",
       "company": "CVC LIMITED",
