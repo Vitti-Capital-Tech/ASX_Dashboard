@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { readFile } from 'fs/promises';
-import path from 'path';
+
+const EC2_API = 'http://3.25.70.124:8000';
 
 export async function GET(
   request: Request,
@@ -12,24 +12,14 @@ export async function GET(
     return NextResponse.json({ error: `Invalid date format: ${date}` }, { status: 400 });
   }
 
-  const year = parseInt(date.slice(0, 4));
-  if (year < 2020 || year > 2100) {
-    return NextResponse.json({ error: `Invalid year in date: ${date}` }, { status: 400 });
-  }
-
   try {
-    const placementsDir = path.join(process.cwd(), 'placements');
-    const filePath = path.join(placementsDir, `${date}.json`);
-    const content = await readFile(filePath, 'utf-8');
-    const data = JSON.parse(content);
-    return NextResponse.json(data);
-  } catch (err: unknown) {
-    if ((err as NodeJS.ErrnoException).code === 'ENOENT') {
-      return NextResponse.json(
-        { error: `No placement data found for ${date}.` },
-        { status: 404 }
-      );
+    const res = await fetch(`${EC2_API}/api/placements/${date}`, { cache: 'no-store' });
+    if (!res.ok) {
+      return NextResponse.json({ error: `No placement data found for ${date}.` }, { status: 404 });
     }
-    return NextResponse.json({ error: 'Failed to read placement data' }, { status: 500 });
+    const data = await res.json();
+    return NextResponse.json(data);
+  } catch {
+    return NextResponse.json({ error: 'Failed to connect to placement API' }, { status: 502 });
   }
 }
