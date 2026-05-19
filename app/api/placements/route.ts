@@ -1,24 +1,14 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+
+const EC2_API = 'http://3.25.70.124:8000';
 
 export async function GET() {
   try {
-    const placementsDir = path.join(process.cwd(), 'placements');
-
-    if (!fs.existsSync(placementsDir)) {
-      return NextResponse.json([]);
-    }
-
-    const files = fs.readdirSync(placementsDir);
-    const dates = files
-      .filter(f => f.endsWith('.json') && /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
-      .map(f => f.replace('.json', ''))
-      .sort((a, b) => b.localeCompare(a));
-
-    return NextResponse.json(dates);
-  } catch (error) {
-    console.error('Error scanning placements directory:', error);
-    return NextResponse.json([], { status: 500 });
+    const res = await fetch(`${EC2_API}/api/placements`, { cache: 'no-store' });
+    if (!res.ok) return NextResponse.json([]);
+    const data = await res.json();
+    return NextResponse.json(data.dates || []);
+  } catch {
+    return NextResponse.json([]);
   }
 }

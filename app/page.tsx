@@ -123,7 +123,7 @@ export default function Dashboard() {
     if (!d) return;
     setPlacementLoading(true);
     try {
-      const res = await fetch(`https://3.25.70.124:8000/api/placements/${d}`);
+      const res = await fetch(`/api/placements/${d}`);
       if (res.ok) {
         const data: PlacementDayLog = await res.json();
         setPlacementLog(data);
