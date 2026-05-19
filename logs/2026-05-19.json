@@ -1,9 +1,103 @@
 {
   "date": "2026-05-19",
-  "total": 103,
-  "market_sensitive_count": 93,
-  "generated_at": "2026-05-19T01:42:49.266270+00:00",
+  "total": 108,
+  "market_sensitive_count": 94,
+  "generated_at": "2026-05-19T03:09:27.211842+00:00",
   "announcements": [
+    {
+      "ticker": "CCE",
+      "company": "CARNEGIE CLEAN ENERGY LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-05-19T03:07:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091525-6A1326100",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Carnegie Clean Energy issued a response to an ASX price query, typically triggered by unusual share price movement or trading volume, indicating the exchange is seeking clarification on whether the company is aware of any undisclosed material information driving recent activity.",
+        "ASX price queries for micro-cap clean energy companies like Carnegie often signal speculative trading or potential information asymmetry; the company's response will be scrutinized for any hints of undisclosed contracts, funding developments, or operational milestones related to its wave energy and solar/battery projects.",
+        "Standard price query responses that confirm no undisclosed material information tend to result in a cooling of speculative momentum; investors should monitor for any follow-up announcements that may substantiate or deflate the recent price action."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QOR",
+      "company": "QORIA LIMITED",
+      "headline": "Becoming a substantial holder from MS",
+      "time": "2026-05-19T03:03:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091523-6A1326099",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Morgan Stanley has crossed the 5% substantial holder threshold in Qoria Limited, signaling meaningful institutional interest in the child safety technology company from a major global investment bank.",
+        "The emergence of a bulge-bracket institution as a substantial holder may reflect a strategic positioning ahead of potential catalysts, given Qoria's ongoing efforts to scale its SaaS-based digital safety platform and improve its path to profitability.",
+        "Institutional accumulation at this level could improve liquidity and provide a valuation floor, though investors should monitor whether this is a principal position or held on behalf of clients, as the nature of the holding influences the signal strength."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CWY",
+      "company": "CLEANAWAY WASTE MANAGEMENT LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-05-19T02:24:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091513-3A693563",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Cleanaway Waste Management (CWY), indicating their stake has fallen below the 5% disclosure threshold, likely through active selling or dilution from capital management activities.",
+        "The exit of a substantial holder can signal reduced conviction from a major institutional investor, though it may also reflect portfolio rebalancing rather than a fundamental view change on CWY's waste management operations.",
+        "Investors should monitor whether this represents an isolated portfolio adjustment or part of a broader pattern of institutional selling, while watching for any corresponding accumulation by other substantial holders that could offset sentiment impact."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKY",
+      "company": "SKY METALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-19T01:56:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091507-2A1672718",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in Sky Metals Limited, signaling a notable shift in institutional or major shareholder positioning in this small-cap explorer.",
+        "The nature of the change (increase or decrease) will determine whether this reflects growing conviction in SKY's exploration portfolio or portfolio rebalancing/profit-taking by a significant investor.",
+        "As a non-market-sensitive filing, this is a regulatory disclosure obligation rather than a strategic corporate action, but investors should monitor whether this forms part of a broader accumulation or distribution pattern in the register."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NC6",
+      "company": "NANOLLOSE LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-05-19T01:45:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091502-6A1326086",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Nanollose Limited (NC6), crossing the 5% ownership threshold, signaling meaningful external conviction in the micro-cap biocellulose technology company.",
+        "For a company with Nanollose's small market capitalization, a substantial holding notice can reflect strategic accumulation and may reduce free float, potentially increasing share price volatility on any further buying or selling activity.",
+        "Investors should monitor whether this accumulation is part of a broader strategic positioning — such as a precursor to a takeover, partnership, or capital raise participation — or simply passive portfolio allocation by a fund manager."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CR9",
       "company": "CORELLA RESOURCES LTD",
