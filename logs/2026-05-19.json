@@ -1,9 +1,104 @@
 {
   "date": "2026-05-19",
-  "total": 90,
-  "market_sensitive_count": 80,
-  "generated_at": "2026-05-19T00:19:08.044121+00:00",
+  "total": 95,
+  "market_sensitive_count": 85,
+  "generated_at": "2026-05-19T00:44:05.999620+00:00",
   "announcements": [
+    {
+      "ticker": "AYT",
+      "company": "AUSTIN METALS LIMITED",
+      "headline": "Austin Defines Multiple Drill-Ready BIF-Hosted Gold Targets",
+      "time": "2026-05-19T00:39:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091477-2A1672702",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Austin Metals has identified multiple drill-ready BIF (Banded Iron Formation)-hosted gold targets, a geological setting analogous to several high-grade gold deposits globally, signalling meaningful exploration upside and potential re-rating catalyst ahead of drilling.",
+        "The definition of drill-ready targets de-risks the next phase of exploration spend by providing prioritised, geologically supported locations, though the company remains pre-revenue and investors should monitor cash runway relative to planned drill programs.",
+        "Near-term catalysts include commencement of drilling campaigns on the defined targets; positive assay results could materially shift market perception, while the multi-target approach diversifies single-hole risk across the project portfolio."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NTU",
+      "company": "NORTHERN MINERALS LIMITED",
+      "headline": "Treasurer Issues New Disposal Order - Update",
+      "time": "2026-05-19T00:26:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091472-6A1326075",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Australian Treasurer has issued a new disposal order targeting Northern Minerals, likely requiring a foreign entity (previously Chinese-linked shareholders) to divest their stake, reinforcing national security concerns over critical minerals assets.",
+        "This regulatory intervention creates significant overhang on the share price as forced selling of a substantial holding could depress near-term liquidity and valuation, while also introducing uncertainty around the company's shareholder register and strategic direction.",
+        "Investors should monitor compliance timelines and whether the disposal order triggers broader strategic review or alternative foreign investment proposals, as Northern Minerals' Browns Range rare earths project remains strategically important under Australia's critical minerals policy."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining",
+        "Substantial Holding"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SOP",
+      "company": "SYNERTEC CORPORATION LIMITED",
+      "headline": "Synertec Executes Letter of Intent for Major Energy Project",
+      "time": "2026-05-19T00:25:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091471-3A693556",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Synertec has executed a Letter of Intent (LOI) for a major energy project, signaling potential significant revenue uplift for a micro-cap company and validating its engineering capabilities in the energy sector.",
+        "While the LOI is non-binding and pre-contract, securing intent on a 'major' project suggests a material pipeline expansion that could meaningfully shift the company's revenue trajectory if converted to a binding agreement.",
+        "Key next steps include conversion from LOI to definitive contract, with investors needing to monitor timeline, project scope/value disclosure, and Synertec's capacity to deliver — the LOI stage carries execution risk but demonstrates commercial traction."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ASN",
+      "company": "ANSON RESOURCES LIMITED",
+      "headline": "Engineering Study Confirms Green River as Low-Cost Producer",
+      "time": "2026-05-19T00:22:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091470-6A1326074",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Engineering study validates Anson Resources' Green River Lithium Project as a low-cost producer, strengthening its competitive positioning in the increasingly cost-sensitive lithium market and de-risking the path to development financing.",
+        "Confirmation of low-cost production economics is critical given the current depressed lithium price environment — projects that can demonstrate bottom-quartile cost structures are more likely to attract offtake partners and secure project finance on favorable terms.",
+        "The study outcome positions Anson to advance toward a definitive feasibility study (DFS) or final investment decision (FID), with the next key catalysts being offtake agreements, permitting milestones, and potential strategic partnerships or funding arrangements."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SDI",
+      "company": "SDI LIMITED",
+      "headline": "Scheme Booklet amended lodgment header",
+      "time": "2026-05-19T00:21:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091468-3A693558",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SDI Limited has lodged an amended Scheme Booklet, indicating an active merger or acquisition process is progressing through formal regulatory and shareholder approval stages.",
+        "The amended lodgment header suggests procedural corrections or updates to scheme documentation, which is standard practice but confirms the transaction remains on track without material derailment.",
+        "Investors should monitor for the upcoming scheme meeting date and any changes to the independent expert's valuation or scheme consideration, as the amended booklet may contain updated financial or disclosure information."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BDX",
       "company": "BCAL DIAGNOSTICS LIMITED",
