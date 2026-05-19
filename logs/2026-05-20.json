@@ -1,9 +1,637 @@
 {
   "date": "2026-05-20",
-  "total": 46,
-  "market_sensitive_count": 38,
-  "generated_at": "2026-05-19T22:57:27.258807+00:00",
+  "total": 79,
+  "market_sensitive_count": 71,
+  "generated_at": "2026-05-19T23:29:38.499418+00:00",
   "announcements": [
+    {
+      "ticker": "CEN",
+      "company": "CONTACT ENERGY LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-19T23:24:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091875-2A1672897",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Contact Energy has entered a trading halt on the ASX, suspending share trading pending a material announcement — the nature of the underlying event remains undisclosed, requiring investors to await further detail before repositioning.",
+        "As a major New Zealand electricity generator and retailer (dual-listed on NZX/ASX), a trading halt of this nature could signal a significant capital raise, asset transaction, or strategic corporate action given the company's scale in the energy sector.",
+        "Institutional investors should monitor for the pending announcement closely; the halt prevents price discovery in the interim, and the market-sensitive classification suggests the forthcoming disclosure will likely have a meaningful impact on valuation."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HYD",
+      "company": "HYDRIX LIMITED",
+      "headline": "Hydrix positioned for Defence tech expansion",
+      "time": "2026-05-19T23:23:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091870-3A693629",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hydrix is signaling strategic pivot toward Defence technology, positioning to capture growing Australian and allied defence spending amid heightened geopolitical tensions and increased government procurement budgets.",
+        "As a micro-cap with historically constrained revenue from its medical device and technology services segments, a credible Defence tech expansion could materially diversify revenue streams and improve contract visibility, though execution risk remains elevated given the company's limited balance sheet.",
+        "Investors should monitor for concrete Defence contract announcements, partnership details, and any associated capital requirements — the announcement is currently strategic positioning rather than confirmed revenue, making near-term re-rating dependent on tangible order flow."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HYD",
+      "company": "HYDRIX LIMITED",
+      "headline": "Hydrix raises $3.89m under Institutional Entitlement Offer",
+      "time": "2026-05-19T23:22:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091868-3A693627",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Hydrix raised $3.89m through the institutional component of its entitlement offer, signaling institutional support but also highlighting the company's ongoing need for external capital to fund operations.",
+        "The raise is relatively modest at sub-$4m, suggesting limited near-term cash runway extension for a small-cap company, with dilution likely to weigh on existing shareholders pending the retail component.",
+        "A retail entitlement offer will follow, and the total raise size and take-up rate will be critical in determining whether Hydrix secures sufficient funding to execute its strategy without requiring further near-term capital raises."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NOX",
+      "company": "NOXOPHARM LIMITED",
+      "headline": "Noxopharms Sofra assets to be presented at global conference",
+      "time": "2026-05-19T23:21:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091866-3A693633",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Noxopharm's Sofra (formerly SOF-RAD) radiotherapy enhancement assets will be presented at a global oncology conference, providing external validation and visibility to the scientific community and potential partners.",
+        "Conference presentation signals continued clinical/preclinical progress on the Sofra platform, which is central to Noxopharm's pipeline value proposition — though no new efficacy data or partnership details were disclosed in the announcement.",
+        "For a micro-cap biotech with limited revenue, conference exposure serves as a catalyst for potential licensing or collaboration discussions, but investors should monitor cash runway and upcoming milestones for material re-rating triggers."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IME",
+      "company": "IMEXHS LIMITED",
+      "headline": "AGM - Chairman and CEO Addresses and Presentation",
+      "time": "2026-05-19T23:20:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091864-3A693632",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "IMEXHS AGM presentation likely outlines strategic direction and operational progress for the medical imaging software company, with Chairman and CEO addresses signaling management confidence in communicating directly with shareholders.",
+        "As a market-sensitive AGM presentation, the document likely contains material forward-looking guidance or updated financial metrics that management considers price-sensitive, suggesting substantive content beyond routine procedural matters.",
+        "Investors should scrutinize the presentation for updates on recurring revenue growth, customer pipeline expansion in Latin American and international markets, and cash runway sustainability given IMEXHS's micro-cap status and historical cash burn profile."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MPK",
+      "company": "MANY PEAKS MINERALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-19T23:19:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091863-6A1326223",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Many Peaks Minerals has entered a trading halt, typically requested by the company pending a material announcement that could significantly impact the share price.",
+        "As a small-cap minerals explorer on the ASX, trading halts frequently precede capital raises (potential dilution), significant exploration results, or corporate transactions — investors should prepare for a range of outcomes.",
+        "The halt will likely remain in place until the company releases its pending announcement or until the commencement of normal trading on the second business day, with the nature of the news determining near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EBR",
+      "company": "EBR SYSTEMS INC.",
+      "headline": "Purchasing Agreement Secured with CHRISTUS Health",
+      "time": "2026-05-19T23:19:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091862-3A693631",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EBR Systems has secured a purchasing agreement with CHRISTUS Health, a major US-based health system operating over 60 hospitals across multiple states, signaling meaningful commercial traction for its WiSE™ wireless cardiac pacing technology.",
+        "The agreement with a large integrated delivery network (IDN) like CHRISTUS Health validates EBR's go-to-market strategy of targeting institutional purchasers, which can drive higher-volume, more predictable revenue streams versus individual hospital-level sales.",
+        "This contract win adds to EBR's growing US commercial footprint following FDA approval, and further IDN agreements could materially accelerate the revenue ramp needed to demonstrate a viable path toward cash flow breakeven for a company still in early-stage commercialization."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OSL",
+      "company": "ONCOSIL MEDICAL LTD",
+      "headline": "OncoSil Medical Receives TGA Approval in Australia",
+      "time": "2026-05-19T23:17:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091859-2A1672892",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "OncoSil Medical has secured TGA (Therapeutic Goods Administration) approval in Australia, a critical regulatory milestone that enables commercial sales of its brachytherapy device for pancreatic cancer in its home market, removing a key de-risking hurdle for investors.",
+        "TGA approval complements the company's existing CE Mark in Europe, broadening the addressable market and potentially accelerating revenue generation — significant for a pre-revenue medtech company likely operating on limited cash runway.",
+        "The approval strengthens OncoSil's regulatory dossier and may serve as a catalyst for additional market approvals globally, while near-term focus shifts to Australian reimbursement pathways and commercial launch execution to convert regulatory success into meaningful sales traction."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IOV",
+      "company": "ION VIDEO LTD",
+      "headline": "US Media Tech Leader Joins ION Advisory Board",
+      "time": "2026-05-19T23:16:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091856-6A1326222",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ION Video has appointed a US media technology leader to its advisory board, signaling a strategic push to deepen its credibility and network within the North American media/entertainment ecosystem — a key target market for its video technology solutions.",
+        "For a micro-cap ASX-listed company, advisory board appointments of this nature are typically pre-revenue or early-commercialization signals; investors should assess whether this translates into concrete partnership pipelines or remains a governance optic with limited near-term revenue impact.",
+        "The market-sensitive designation suggests ION management views this as material to its US go-to-market strategy; watch for follow-up announcements regarding US distribution deals, pilot programs, or customer wins that would validate the appointment's commercial significance."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MEL",
+      "company": "METGASCO LTD",
+      "headline": "Debt Bridging Facility",
+      "time": "2026-05-19T23:16:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091857-2A1672891",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Metgasco has secured a debt bridging facility, signaling potential near-term liquidity pressures that necessitate short-term financing rather than longer-term capital solutions",
+        "Bridging facilities typically carry higher interest costs and shorter tenors, suggesting urgency in addressing cash flow needs which may indicate operational funding gaps or an imminent transaction requiring interim financing",
+        "Investors should monitor for follow-on announcements regarding the purpose of the facility — whether it bridges to a capital raise (dilutive risk), asset sale, or revenue milestone — as this will determine the medium-term equity impact"
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GNP",
+      "company": "GENUSPLUS GROUP LTD",
+      "headline": "A$200M Placement for Acquisition of MPC Kinetic",
+      "time": "2026-05-19T23:16:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091855-6A1326177",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "GenusPlus is raising A$200M via institutional placement to fund the acquisition of MPC Kinetic, a significant transformative deal that substantially scales the group's workforce and service capabilities across energy, resources, and infrastructure sectors.",
+        "The A$200M placement represents material dilution for existing shareholders, though the strategic rationale of acquiring MPC Kinetic — a major labour hire and services business — could be EPS accretive if integration synergies and cross-selling opportunities are realised against the enlarged capital base.",
+        "The acquisition signals GenusPlus's ambition to become a vertically integrated essential services provider; investors should watch for deal completion conditions, integration execution risk, and updated pro-forma earnings guidance to assess whether the premium paid delivers shareholder value."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Merger & Acquisition",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RC1",
+      "company": "REDCASTLE RESOURCES LIMITED",
+      "headline": "Placement to Raise A$2 million",
+      "time": "2026-05-19T23:15:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091852-6A1326201",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Redcastle Resources is raising A$2 million via placement, which for a micro-cap explorer represents meaningful dilution but provides critical funding to advance exploration programs and maintain operational continuity.",
+        "The A$2 million raise signals the company is in capital consumption mode with no near-term revenue, and investors should assess the discount to market price and dilutionary impact on existing shareholders relative to the company's current market capitalisation.",
+        "Proceeds are likely earmarked for upcoming drilling or exploration campaigns; the key question for investors is whether this capital is sufficient to reach a value-inflection catalyst or if further raises will be required in the near term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HRE",
+      "company": "HEAVY RARE EARTHS LIMITED",
+      "headline": "Heritage Clearance Received for South Ridge Maiden Drilling",
+      "time": "2026-05-19T23:15:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091851-3A693630",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Heritage clearance secured for maiden drilling at South Ridge prospect within the Cowalinya Rare Earths Project in Western Australia, removing a key permitting hurdle and enabling near-term exploration activity.",
+        "South Ridge represents a new target area that could expand the project's resource base; maiden drilling programs at greenfield rare earth prospects carry high exploration risk but also significant upside potential for a junior explorer.",
+        "Drilling is now expected to commence imminently, with results likely to be a key catalyst — positive intercepts could materially re-rate the stock given Heavy Rare Earths' small market capitalisation and the strategic importance of rare earth supply chains."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CRI",
+      "company": "CRITICA LIMITED",
+      "headline": "Jupiter attracts MRIWA and Trailblazer Grant Funding",
+      "time": "2026-05-19T23:14:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091849-6A1326221",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Critica Limited's Jupiter rare earths project secured dual government grant funding from MRIWA (Minerals Research Institute of Western Australia) and the Trailblazer program, validating the project's strategic significance in the critical minerals supply chain.",
+        "Non-dilutive grant funding extends cash runway and reduces R&D expenditure burden for the company, which is particularly meaningful for a junior explorer/developer where capital preservation is critical for shareholders.",
+        "Government co-funding signals institutional confidence in Jupiter's technical viability and aligns with Australia's national critical minerals strategy, potentially positioning Critica for further public funding rounds and strategic partnerships as the project advances."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NYR",
+      "company": "NYRADA INC.",
+      "headline": "Xolatryp Enhances Anthracycline Anti-Tumour Efficacy",
+      "time": "2026-05-19T23:13:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091847-2A1672870",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nyrada's lead drug candidate Xolatryp demonstrated enhanced anti-tumour efficacy when combined with anthracycline chemotherapy, providing critical preclinical validation of a combination therapy approach that could significantly expand its addressable oncology market opportunity.",
+        "The positive preclinical data de-risks the Xolatryp program by establishing a mechanistic rationale for combination use with a widely prescribed class of chemotherapeutics, potentially positioning Nyrada for partnership discussions or licensing deals with larger oncology-focused pharma companies.",
+        "As a pre-revenue biotech with limited cash runway, this data catalyst is important for sustaining investor interest and supporting future capital raises; investors should monitor upcoming milestones including any IND-enabling studies, regulatory pathway clarity, and cash position updates in the next quarterly."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MMA",
+      "company": "MARONAN METALS LIMITED",
+      "headline": "$22 Million Strategic Investment by Kinterra Capital",
+      "time": "2026-05-19T23:13:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091845-2A1672832",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kinterra Capital commits $22 million strategic investment in Maronan Metals, providing a substantial cash injection that significantly strengthens the company's balance sheet and extends its operational runway for exploration and development activities.",
+        "The $22M raise represents a major capital event for a junior explorer, likely involving significant dilution for existing shareholders but bringing in an institutional-calibre strategic partner with potential to add credibility and future funding support.",
+        "The strategic nature of Kinterra's investment suggests alignment on long-term project development, potentially accelerating advancement of Maronan's copper-gold-silver assets and positioning the company for its next phase of resource definition and feasibility work."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CR1",
+      "company": "CONSTELLATION RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-19T23:12:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091842-6A1326218",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Constellation Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration result that requires price-sensitive disclosure.",
+        "As a junior explorer, the trading halt most likely signals either a capital raising to fund ongoing exploration programs or a material transaction, both of which carry dilution risk or transformative potential for the company's valuation.",
+        "Investors should await the detailed announcement expected within two business days; the nature of the pending news will determine whether this represents a catalyst or a dilutive event for existing shareholders."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WJL",
+      "company": "WEBJET GROUP LIMITED",
+      "headline": "FY26 Investor Presentation",
+      "time": "2026-05-19T23:11:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091840-3A693609",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Webjet Group's FY26 Investor Presentation signals management confidence in forward strategy, likely detailing updated growth targets and operational metrics across its B2B (WebBeds) and B2C segments post-demerger restructuring.",
+        "As a market-sensitive release, the presentation likely contains material forward guidance, updated TTV (Total Transaction Value) trajectories, margin expansion plans, or revised earnings targets that could reset consensus expectations for FY26.",
+        "Investor presentations of this nature typically serve as catalysts for re-rating if management delivers upgraded guidance or demonstrates accelerating momentum in WebBeds' global hotel distribution platform, a key institutional focus area."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WIA",
+      "company": "WIA GOLD LIMITED",
+      "headline": "Wia raises A$92m to Advance Kokoseb Development",
+      "time": "2026-05-19T23:11:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091839-6A1326200",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WIA Gold raised A$92 million in a capital raise to advance the Kokoseb gold development project in Namibia, providing significant funding to progress toward construction and de-risk the project timeline.",
+        "The substantial raise size (A$92m) signals strong institutional appetite for the Kokoseb asset, though investors should assess the dilutionary impact on existing shareholders relative to the project's NPV and expected returns.",
+        "Proceeds earmarked for Kokoseb development suggest the company is transitioning from exploration/feasibility to a construction-phase junior miner, with upcoming catalysts likely including final investment decision, permitting milestones, and construction commencement updates."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WJL",
+      "company": "WEBJET GROUP LIMITED",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-05-19T23:10:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091837-3A693608",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Webjet Group delivers FY26 full-year results in a market-sensitive announcement, signaling material financial updates that institutional investors will scrutinize for revenue trajectory across its B2B (WebBeds) and B2C segments post-demerger restructuring.",
+        "As a dual-platform online travel business, key metrics to watch include Total Transaction Value (TTV) growth, EBITDA margins, and net cash position — any beat or miss versus consensus will drive near-term price action given the stock's premium travel-sector multiple.",
+        "Forward guidance and commentary on global travel demand trends, particularly in European and APAC hotel markets, will be critical for setting FY27 earnings expectations and validating the group's post-restructure growth strategy."
+      ],
+      "tags": [
+        "Results",
+        "Retail",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WJL",
+      "company": "WEBJET GROUP LIMITED",
+      "headline": "Appendix 4E and Annual Report",
+      "time": "2026-05-19T23:09:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091834-3A693606",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Webjet Group's Appendix 4E and Annual Report release is market-sensitive, signaling material financial disclosures that institutional investors will scrutinize for full-year revenue, EBITDA, and net profit performance across its B2B (WebBeds) and B2C segments.",
+        "The dual-segment travel technology group has been benefiting from the global travel recovery cycle; investors will focus on TTV (Total Transaction Value) growth, margin expansion in WebBeds, and whether the B2C OTA business is maintaining competitive positioning against direct booking channels.",
+        "Key watch items include cash generation, balance sheet strength, any dividend declaration or capital management initiatives, and forward guidance commentary — particularly around WebBeds' market share trajectory and the group's ability to sustain above-market growth rates in a normalizing travel environment."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WJL",
+      "company": "WEBJET GROUP LIMITED",
+      "headline": "Change to Commercial Agreements with Virgin Australia",
+      "time": "2026-05-19T23:08:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091833-3A693604",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Webjet Group has disclosed a change to its commercial agreements with Virgin Australia, a key airline partner, signaling a potential renegotiation of distribution terms that could materially impact the WebBeds or Webjet OTA segment's margin structure and revenue economics.",
+        "Given Virgin Australia's significance as a major domestic carrier, any alteration to commission rates, content access, or distribution arrangements could affect Webjet's competitive positioning in the Australian OTA market and its ability to offer comprehensive domestic airfare inventory.",
+        "Investors should monitor whether the revised terms are more or less favorable — if Virgin is reducing commissions or restricting content, this would pressure Webjet's OTA margins; conversely, an expanded partnership could be a growth catalyst, with further detail likely required to assess full P&L impact."
+      ],
+      "tags": [
+        "Retail",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WA1",
+      "company": "WA1 RESOURCES LTD",
+      "headline": "Corporate Presentation - Luni Niobium Project",
+      "time": "2026-05-19T23:07:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091830-6A1326216",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WA1 Resources is advancing its flagship Luni Niobium Project in Western Australia, with a corporate presentation likely showcasing updated geological data, resource potential, and strategic positioning in the critical minerals space — niobium is a key input for high-strength steel alloys and superconductors.",
+        "The market-sensitive designation suggests the presentation contains material new information, potentially including updated drilling results, resource estimates, or metallurgical testwork that could meaningfully re-rate the project's value proposition for investors.",
+        "Niobium supply is heavily concentrated (Brazil's CBMM controls ~80% of global production), positioning WA1's Luni project as a strategically significant Western-aligned alternative — any demonstration of project scale and grade could attract institutional and sovereign interest in the critical minerals thematic."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LEX",
+      "company": "LEFROY EXPLORATION LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-19T23:05:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091829-6A1326217",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Lefroy Exploration has entered a trading halt, typically indicating a pending material announcement such as a capital raise, significant exploration results, or a potential corporate transaction.",
+        "As a junior gold explorer focused on the Eastern Goldfields region of Western Australia, any trading halt likely relates to funding requirements or drill results that could materially impact the company's valuation and cash runway.",
+        "Investors should await the forthcoming announcement before repositioning; the halt will likely resolve within 1-2 trading days, with the nature of the news (capital raise vs. exploration success) being the key determinant of price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AM3",
+      "company": "AMARA MINERALS LIMITED",
+      "headline": "High-Grade Antimony System Emerging at Lauriston",
+      "time": "2026-05-19T23:03:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091827-6A1326214",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Amara Minerals reports an emerging high-grade antimony system at its Lauriston project, a strategically significant commodity given antimony's classification as a critical mineral and China's recent export restrictions driving prices to multi-year highs.",
+        "The 'high-grade' characterization in the headline suggests assay results or geological indicators materially above economic thresholds for antimony, which could rapidly re-rate the company given the current supply-constrained market where antimony prices have surged above US$25,000/t.",
+        "As an early-stage explorer, investors should watch for follow-up drilling programs, resource definition timelines, and potential funding requirements; the market-sensitive designation signals management views this as a material inflection point for the project's prospectivity."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "XRG",
+      "company": "XREALITY GROUP LTD",
+      "headline": "First European Contract",
+      "time": "2026-05-19T23:03:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091826-2A1672885",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "XReality Group has secured its first European contract, marking a significant geographic expansion beyond its existing markets and validating its technology offering in a new region with potentially larger addressable market opportunities.",
+        "For a micro-cap company like XReality, the first European contract serves as a critical proof-of-concept for international scalability, though the financial materiality will depend on contract size and recurring revenue potential — details likely to be scrutinized by investors given the company's early-stage revenue profile.",
+        "The European beachhead could serve as a platform for further regional expansion and partnership development, but investors should monitor execution risk, currency exposure, and whether this translates into a meaningful pipeline or remains a one-off engagement."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BGD",
+      "company": "BARTON GOLD HOLDINGS LIMITED",
+      "headline": "Challenger Assays Extend New Open Pittable Mineralisation",
+      "time": "2026-05-19T23:03:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091825-6A1326215",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "New assay results at Challenger have extended open pittable mineralisation, potentially expanding the resource envelope and improving the economics of a lower-cost open pit mining scenario versus underground-only approaches.",
+        "Extension of near-surface mineralisation is technically significant as it could materially increase mineable ounces within an open pit shell, directly impacting future feasibility study outcomes and project NPV for Barton Gold's flagship Challenger asset.",
+        "Results are expected to feed into updated resource estimates and ongoing study work, with investors watching for a revised mineral resource estimate and scoping/pre-feasibility study updates that could serve as re-rating catalysts."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STN",
+      "company": "SATURN METALS LIMITED",
+      "headline": "Drilling Results Strengthen Resource Upgrade Potential",
+      "time": "2026-05-19T23:02:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091824-6A1326213",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "New drilling results at Saturn Metals' Apollo Hill gold project demonstrate improved geological confidence, strengthening the pathway toward a potential resource upgrade from Inferred to Indicated category — a critical milestone for feasibility advancement.",
+        "Infill and extensional drill holes have returned consistent gold mineralisation that validates and in some cases enhances the existing resource model, supporting higher-confidence tonnage estimates that could materially improve project economics and attract development-stage investor interest.",
+        "Results position Saturn Metals to deliver an updated Mineral Resource Estimate, which would be a key catalyst for progressing scoping/pre-feasibility studies and potentially de-risking the asset for future partnership or funding discussions."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "COI",
+      "company": "COMET RIDGE LIMITED",
+      "headline": "Suspension from Official Quotation",
+      "time": "2026-05-19T22:56:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091815-2A1672879",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Comet Ridge Limited (COI) has been suspended from official quotation on the ASX, indicating a significant corporate action or compliance issue requiring resolution before trading can resume.",
+        "Suspension typically follows a company-requested trading halt that has expired without the underlying matter being resolved, or may relate to a pending material announcement such as a capital raise, acquisition, or regulatory matter — investors should monitor for the triggering disclosure.",
+        "Until the suspension is lifted and the underlying catalyst is disclosed, shareholders face liquidity risk with no ability to trade; institutional investors should assess portfolio exposure and watch for the accompanying announcement that will clarify the nature and duration of the suspension."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PLT",
+      "company": "PLENTI GROUP LIMITED",
+      "headline": "FY26 results presentation",
+      "time": "2026-05-19T22:56:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091814-2A1672878",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Plenti Group's FY26 results presentation is market-sensitive, signaling material financial updates that institutional investors will scrutinize for profitability trajectory and loan book growth in the Australian consumer and renewable energy lending space.",
+        "Key metrics to watch include net interest margin trends, credit quality (arrears and loss rates), origination volumes, and whether the company has achieved or is approaching sustained statutory profitability — a critical inflection point for this fintech lender.",
+        "Forward guidance on funding diversification, warehouse capacity, and cost-to-income ratio improvements will be pivotal in determining whether Plenti can scale profitably and justify its current valuation amid a competitive lending environment."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AGR",
+      "company": "AGUIA RESOURCES LIMITED",
+      "headline": "Operation & Grade Improvements at Santa Barbara Gold Project",
+      "time": "2026-05-19T22:56:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091813-2A1672880",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Aguia Resources reports operational and grade improvements at its Santa Barbara Gold Project, signaling progress in optimizing mine performance which could enhance project economics and near-term production metrics.",
+        "Higher gold grades typically translate directly to improved unit economics — reduced cost per ounce and stronger margins — which is material for a junior miner where grade is the critical lever for cash flow generation and project viability.",
+        "Continued operational improvements at Santa Barbara could de-risk the asset and support a re-rating, though investors should monitor whether grade gains are sustained across broader mining areas and whether throughput volumes scale alongside quality improvements."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PLT",
+      "company": "PLENTI GROUP LIMITED",
+      "headline": "FY26 results announcement",
+      "time": "2026-05-19T22:55:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091812-2A1672869",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Plenti Group Limited has released its FY26 full-year results, a market-sensitive announcement that will be closely scrutinized for loan book growth, net interest margin trends, and progress toward sustained profitability in the competitive Australian consumer lending space.",
+        "As a fintech lender, key metrics to watch include origination volumes, credit quality (arrears and loss rates), cost-to-income ratio improvements, and whether the company has achieved or is approaching cash flow breakeven — critical for investor confidence in the business model's scalability.",
+        "The FY26 results will set the tone for Plenti's forward guidance and strategic direction, with institutional focus likely on funding diversification, warehouse facility headroom, and any commentary on competitive dynamics in auto and personal lending markets."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PL9",
+      "company": "PRAIRIE LITHIUM LIMITED",
+      "headline": "Premium Priced At-The-Market Raise",
+      "time": "2026-05-19T22:55:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091811-6A1326210",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Prairie Lithium is conducting an at-the-market (ATM) capital raise at a premium to the prevailing share price, signaling strong institutional demand and confidence in the company's valuation trajectory.",
+        "The premium pricing structure is notable as it minimizes dilution for existing shareholders compared to typical discounted placements, suggesting the company has sufficient leverage with investors to command favorable terms.",
+        "Proceeds are expected to fund ongoing lithium exploration and development activities in Saskatchewan, Canada, extending the company's cash runway and advancing its direct lithium extraction (DLE) technology toward commercialization milestones."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CXO",
       "company": "CORE LITHIUM LTD",
