@@ -1,9 +1,162 @@
 {
   "date": "2026-05-19",
-  "total": 95,
-  "market_sensitive_count": 85,
-  "generated_at": "2026-05-19T00:44:05.999620+00:00",
+  "total": 103,
+  "market_sensitive_count": 93,
+  "generated_at": "2026-05-19T01:42:49.266270+00:00",
   "announcements": [
+    {
+      "ticker": "CR9",
+      "company": "CORELLA RESOURCES LTD",
+      "headline": "Investor Presentation - May 2026",
+      "time": "2026-05-19T01:33:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091497-6A1326084",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Corella Resources has released a market-sensitive investor presentation for May 2026, signaling the company is actively engaging institutional and retail investors with updated project narratives and likely new exploration or development milestones.",
+        "As a junior ASX-listed explorer, the timing and market-sensitive classification of the presentation suggests material updates on project progress, resource estimates, or strategic direction that could re-rate the stock — investors should scrutinize any changes to resource tonnage, grade, or economic study parameters.",
+        "The investor presentation format typically precedes or accompanies capital raising activity; institutional investors should monitor for potential equity dilution via placement or SPP, while assessing whether updated project economics support current or higher valuations."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VAR",
+      "company": "VARISCAN MINES LIMITED",
+      "headline": "Completion of First Tranche of $5million Placement",
+      "time": "2026-05-19T01:32:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091496-6A1326085",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Variscan completed the first tranche of a $5 million placement, providing immediate capital injection to fund exploration and corporate activities, though the total raise implies meaningful dilution for existing shareholders of this junior explorer.",
+        "The two-tranche structure suggests the second tranche likely requires shareholder approval, introducing execution risk and a potential delay before the full $5 million is secured — investors should monitor the timeline and any conditions attached.",
+        "For a junior mining company, the $5 million raise materially extends cash runway and signals management's confidence in advancing its project pipeline, but the placement pricing and discount to market will be key metrics to assess shareholder value impact."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BNZ",
+      "company": "BENZ MINING CORP.",
+      "headline": "Widespread Tungsten Mineralisation Confirmed at Glenburgh",
+      "time": "2026-05-19T01:30:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091494-6A1326083",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Benz Mining confirms widespread tungsten mineralisation at Glenburgh project, validating the exploration thesis and potentially positioning the asset as a significant tungsten resource in a market facing critical mineral supply constraints.",
+        "Confirmation of mineralisation across a broad area enhances the project's scale potential, which is material given tungsten's strategic importance and elevated pricing driven by China supply concentration risks and Western reshoring demand.",
+        "Next catalysts will centre on resource definition drilling, maiden resource estimates, and metallurgical testwork — investors should watch for drill program scope and funding requirements that may necessitate a capital raise."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CZN",
+      "company": "CORAZON MINING LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-05-19T01:10:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091489-6A1326079",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Corazon Mining has been reinstated to quotation on the ASX, ending a period of trading suspension that likely related to compliance or disclosure requirements, restoring liquidity for shareholders.",
+        "Reinstatement signals the company has satisfied ASX conditions for resumption of trading, which may have involved completing a capital raise, providing outstanding disclosures, or meeting re-compliance listing requirements.",
+        "Investors should monitor initial trading volumes and price discovery closely post-reinstatement, as pent-up selling pressure or renewed buying interest could drive significant short-term volatility in this micro-cap explorer."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CZN",
+      "company": "CORAZON MINING LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-05-19T01:10:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091488-6A1326071",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Corazon Mining issued a response to an ASX price query, typically triggered by unusual share price movement or trading volume, indicating the exchange is scrutinizing recent trading activity for potential undisclosed material information.",
+        "The company's standard response to a price query generally confirms compliance with continuous disclosure obligations, but the market-sensitive designation suggests investors should monitor for any underlying catalysts or forthcoming announcements driving the price action.",
+        "For a micro-cap explorer like Corazon Mining, ASX price queries often precede periods of elevated volatility; institutional investors should assess liquidity risk and await clarity on whether the price movement reflects genuine fundamental developments or speculative trading."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CZN",
+      "company": "CORAZON MINING LIMITED",
+      "headline": "Two Pools drilling results",
+      "time": "2026-05-19T01:10:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091487-6A1326022",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Corazon Mining has released drilling results from its Two Pools prospect, a market-sensitive announcement suggesting material findings that could influence the company's resource base and project economics.",
+        "As a junior explorer, drilling results are the primary value catalyst — the market will scrutinize intercept grades, widths, and continuity to assess whether Two Pools can contribute to a meaningful resource upgrade or new discovery narrative.",
+        "Investors should watch for follow-up drilling programs, updated resource estimates, and any implications for Corazon's cash runway given the capital-intensive nature of exploration-stage mining companies."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CZN",
+      "company": "CORAZON MINING LIMITED",
+      "headline": "Chalice Gold Project acquistion and capital raising",
+      "time": "2026-05-19T01:09:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091485_PS-6A1326072",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Corazon Mining is acquiring the Chalice Gold Project, signaling a strategic pivot or diversification into gold assets which could reshape the company's resource portfolio and valuation metrics",
+        "Concurrent capital raising alongside the acquisition indicates dilution for existing shareholders, with the terms and pricing of the raise critical to determining the net impact on per-share value",
+        "Execution risk remains elevated as the company must successfully integrate the new gold asset, deploy raised capital efficiently, and demonstrate the project's economic viability to justify the acquisition premium and associated dilution"
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OD6",
+      "company": "OD6 METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-19T00:41:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091479-6A1326078",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "OD6 Metals Limited has entered a trading halt, typically requested by the company pending a material announcement that could significantly impact the share price.",
+        "As a junior mining/exploration company, trading halts frequently precede capital raises (placement or entitlement offers), which could be dilutive, or potentially significant exploration results or corporate transactions.",
+        "Investors should await the pending announcement before repositioning; the halt removes near-term liquidity and signals imminent news flow that will reset the market's valuation framework for OD6."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AYT",
       "company": "AUSTIN METALS LIMITED",
