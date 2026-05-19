@@ -1,9 +1,426 @@
 {
   "date": "2026-05-20",
-  "total": 79,
-  "market_sensitive_count": 71,
-  "generated_at": "2026-05-19T23:29:38.499418+00:00",
+  "total": 101,
+  "market_sensitive_count": 92,
+  "generated_at": "2026-05-19T23:52:19.645221+00:00",
   "announcements": [
+    {
+      "ticker": "SMX",
+      "company": "STRATA MINERALS LIMITED.",
+      "headline": "High-Grade Gold From Phase 2 Drilling",
+      "time": "2026-05-19T23:47:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091914-6A1326242",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Phase 2 drilling at Strata Minerals has returned high-grade gold intercepts, providing significant de-risking of the resource and potentially upgrading the project's economic viability for future development or JV discussions.",
+        "High-grade gold results from follow-up drilling suggest continuity and grade consistency beyond initial Phase 1 findings, which is technically significant for resource estimation and could materially increase the project's in-situ value.",
+        "Expect near-term catalysts including updated resource estimates, potential Phase 3 drilling programs, and possible strategic interest from larger miners — investors should monitor for assay details, widths, and depth of mineralisation to assess scalability."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EOS",
+      "company": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+      "headline": "$150m Placement Complete & $40m Strategic Placement launched",
+      "time": "2026-05-19T23:47:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091913-2A1672908",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "$150m institutional placement completed, with an additional $40m strategic placement launched, raising up to $190m in total — a substantial capital injection that significantly strengthens EOS's balance sheet and extends cash runway for its defence technology programs.",
+        "The scale of the raise ($190m combined) relative to EOS's market capitalisation signals meaningful dilution for existing shareholders, though strong institutional demand for the $150m tranche suggests confidence in the company's defence sector pipeline and growth trajectory.",
+        "The $40m strategic placement component indicates a cornerstone or aligned investor is being brought in, potentially signalling deeper commercial or strategic partnerships that could de-risk execution on key contracts and provide validation of EOS's technology platform."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ODY",
+      "company": "ODYSSEY GOLD LTD",
+      "headline": "Kirkalocka Toll Milling Agreement for Tuckanarra Project",
+      "time": "2026-05-19T23:46:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091911-6A1326227",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Odyssey Gold has secured a toll milling agreement at Kirkalocka for its Tuckanarra Gold Project, providing a critical processing pathway without the capital expenditure of building its own plant — a significant de-risking step for near-term production.",
+        "Access to existing toll milling infrastructure materially shortens the timeline from resource to revenue, improving the project's economics and preserving cash runway by avoiding hundreds of millions in processing plant construction costs.",
+        "The agreement positions Odyssey Gold to advance Tuckanarra toward production status, with the next catalysts likely being mining approvals, mine scheduling, and potential resource upgrades to underpin a bankable production plan."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SOR",
+      "company": "STRATEGIC ELEMENTS LIMITED",
+      "headline": "SOR Restricted Share Purchase Plan",
+      "time": "2026-05-19T23:46:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091910-6A1326241",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic Elements is launching a Restricted Share Purchase Plan, a mechanism typically used to incentivize and retain key personnel through equity-based compensation with vesting conditions, signaling management's focus on aligning insider interests with shareholders.",
+        "As a market-sensitive announcement, the plan likely involves meaningful share issuance that could result in modest dilution for existing shareholders, though restricted plans generally impose lock-up periods that limit near-term selling pressure.",
+        "Investors should monitor the plan's specifics — including the number of shares, discount to market price, vesting conditions, and eligible participants — to assess the true dilutive impact and whether this signals confidence in the company's forward pipeline across its technology-focused portfolio."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RTH",
+      "company": "RAS TECHNOLOGY HOLDINGS LIMITED",
+      "headline": "New Deals and Contract Extensions",
+      "time": "2026-05-19T23:45:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091908-3A693645",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "RAS Technology Holdings has secured new customer deals and extended existing contracts, signaling growing market traction and customer retention for its technology platform across the racing and wagering industry.",
+        "Contract extensions provide improved revenue visibility and recurring income stability, strengthening the company's forward revenue pipeline and reducing near-term churn risk for institutional investors assessing cash flow predictability.",
+        "The combination of new wins and renewals suggests expanding market share and validates the product-market fit, positioning RAS for potential revenue acceleration if deal momentum continues through the remainder of FY25."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MCO",
+      "company": "MYECO GROUP LTD",
+      "headline": "MCO awarded 3-to-5-year FOGO supply agreement by Penrith CC",
+      "time": "2026-05-19T23:43:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091907-3A693642",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MyEco Group secured a 3-to-5-year FOGO (Food Organics Garden Organics) supply agreement with Penrith City Council, providing a contracted revenue stream that materially improves earnings visibility for a micro-cap with historically limited recurring income.",
+        "The multi-year contract structure with a major Western Sydney council (population ~220,000) signals growing municipal demand for organic waste processing, positioning MCO as a credible operator in the circular economy / waste-to-resource sector and potentially opening doors to additional council contracts.",
+        "The agreement de-risks near-term cash flow and could serve as a reference contract for further local government tenders; investors should monitor for details on contract value, volume commitments, and margin profile to assess true earnings accretion."
+      ],
+      "tags": [
+        "Production",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WCN",
+      "company": "WHITE CLIFF MINERALS LIMITED",
+      "headline": "Astrotricha Capital SECZ Cornerstones WCNO Underwriting",
+      "time": "2026-05-19T23:42:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091903-6A1326197",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Astrotricha Capital has committed to cornerstone and underwrite White Cliff Minerals' WCNO (listed options) offering, providing critical funding certainty for the micro-cap explorer during a challenging capital markets environment.",
+        "The underwriting arrangement de-risks the capital raise by ensuring minimum proceeds will be secured through option exercise, bolstering WCN's cash runway to advance its exploration programs without immediate further dilutionary measures.",
+        "Institutional backing from a specialist resource fund signals external validation of WCN's asset portfolio; investors should monitor the WCNO exercise price terms and total underwritten amount for dilution impact and net cash position implications."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SOR",
+      "company": "STRATEGIC ELEMENTS LIMITED",
+      "headline": "Shares Purchase Plan Booklet",
+      "time": "2026-05-19T23:41:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091902-6A1326238",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic Elements is conducting a Share Purchase Plan (SPP), offering existing eligible shareholders the opportunity to acquire additional shares, which will result in dilution to non-participating holders but strengthens the company's cash position.",
+        "As a pre-revenue technology company focused on battery and AI-related innovations, the capital raise is critical for extending cash runway and funding ongoing R&D activities — the SPP booklet release signals the formal offer period is now underway.",
+        "Investors should monitor the SPP pricing, discount to market, and participation rate to gauge demand and potential overhang; the raise follows a likely preceding placement, with the SPP providing retail shareholders pro-rata participation rights."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "M7T",
+      "company": "MACH7 TECHNOLOGIES LIMITED",
+      "headline": "M7T Signs New Customer, Shortens Sales, Deployment Timeframe",
+      "time": "2026-05-19T23:41:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091899-3A693640",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "M7T has signed a new customer win, reinforcing commercial traction for its enterprise imaging platform and supporting the pipeline-to-revenue conversion narrative critical for small-cap health-tech valuations.",
+        "Shortened sales and deployment timeframes signal operational maturity and improved go-to-market efficiency, which should compress the cash-burn period per deal and improve unit economics — a key concern for investors monitoring M7T's path to sustained profitability.",
+        "Accelerated deployment cycles could catalyse a faster cadence of new contract announcements and recurring SaaS revenue recognition, potentially bringing forward revenue inflection and strengthening the company's competitive positioning against larger imaging vendors."
+      ],
+      "tags": [
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FIN",
+      "company": "FIN RESOURCES LIMITED",
+      "headline": "Multiple Shallow High-Grade Gold Zones Confirmed",
+      "time": "2026-05-19T23:40:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091898-6A1326237",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FIN Resources confirms multiple shallow high-grade gold zones, a technically significant result that enhances the project's near-term development potential and reduces future mining costs due to shallow depth.",
+        "High-grade gold intercepts at shallow depths materially improve the economic viability of the deposit, potentially supporting a low-capex open-pit mining scenario that could attract farm-in partners or accelerate feasibility studies.",
+        "Next steps likely include infill and extensional drilling to define a JORC resource estimate, which would be a key catalyst for re-rating; investors should monitor upcoming drill programs and any resource upgrade announcements."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SOR",
+      "company": "STRATEGIC ELEMENTS LIMITED",
+      "headline": "Transaction Specific Prospectus (Options)",
+      "time": "2026-05-19T23:37:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091896-6A1326236",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic Elements has issued a Transaction Specific Prospectus for options, indicating a capital raise mechanism that will facilitate exercise of existing options into shares, providing a potential future cash injection for the company.",
+        "The prospectus is market sensitive, suggesting material terms or pricing that could impact the company's capital structure and dilution profile — investors should monitor the strike price, expiry, and number of options to assess potential dilution impact.",
+        "As a pre-revenue technology/innovation company, the ability to convert options into cash is critical for extending cash runway and funding ongoing R&D activities, making the terms of this prospectus a key indicator of near-term financial sustainability."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VIT",
+      "company": "VITURA HEALTH LIMITED",
+      "headline": "Former CEO Legal Action Initiated",
+      "time": "2026-05-19T23:37:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091895-3A693635",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Vitura Health has initiated legal action against its former CEO, signaling potential governance concerns or disputes over contractual obligations, fiduciary duties, or mismanagement that could distract management and consume corporate resources.",
+        "Legal proceedings against a former CEO are typically costly and may weigh on the company's cash position; investors should monitor for any disclosed financial claims, potential liabilities, or counterclaims that could materially impact the balance sheet of this small-cap healthcare company.",
+        "The market-sensitive classification suggests the company views this action as material — investors should watch for further disclosures on the nature of claims, any interim injunctions, and whether the dispute reveals deeper operational or financial issues that preceded the CEO's departure."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ENV",
+      "company": "ENOVA MINING LIMITED",
+      "headline": "FURTHER AUGER REE RESULTS EXTEND IAC MINERALISATION",
+      "time": "2026-05-19T23:34:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091892-3A693638",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Further auger drilling results have extended rare earth element (REE) mineralisation at the Ion Adsorption Clay (IAC) project, expanding the known footprint of prospective REE-bearing clays and enhancing the project's scale potential.",
+        "Extension of IAC mineralisation through additional auger results is technically significant as it supports the case for a larger resource base, critical for attracting development-stage investment in the high-demand REE sector.",
+        "Next steps likely include follow-up drilling to define resource boundaries and progress toward a maiden or updated mineral resource estimate, which would be a key de-risking catalyst for the stock."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SOR",
+      "company": "STRATEGIC ELEMENTS LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-05-19T23:32:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091888-6A1326231",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic Elements has issued a cleansing notice, indicating the company has completed a placement or share issuance without a prospectus, confirming compliance with ASX disclosure obligations.",
+        "The cleansing notice signals recent capital raising activity which will result in dilution to existing shareholders; investors should monitor the size and pricing of the issuance relative to market price for dilution impact.",
+        "While procedural in nature, the notice confirms fresh capital has been secured — investors should watch for follow-up announcements detailing use of proceeds and updated cash runway implications for the company's technology development pipeline."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VRC",
+      "company": "VOLT RESOURCES LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-05-19T23:32:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091887-6A1326233",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Volt Resources has been suspended from quotation on the ASX, indicating a significant corporate or compliance issue that prevents normal trading of its securities.",
+        "Suspension (as distinct from a voluntary trading halt) is typically imposed by ASX and may signal failure to meet listing rule obligations, outstanding disclosure requirements, or material financial distress — all negative signals for an already micro-cap explorer.",
+        "Investors should monitor for the release of further announcements detailing the reason for suspension and any conditions required for reinstatement; prolonged suspension raises delisting risk and severely impairs liquidity."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "OD6",
+      "company": "OD6 METALS LIMITED",
+      "headline": "HISTORIC MET TESTING ACHIEVED ACIDSPAR GRADE & HIGH RECOVERY",
+      "time": "2026-05-19T23:31:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091886-6A1326211",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "OD6 Metals achieved acidspar-grade fluorite (≥97% CaF₂) with high recovery rates from historic metallurgical testwork, a critical technical milestone that validates the commercial potential of their fluorite deposit and positions the project closer to development feasibility.",
+        "Attaining acidspar specification is significant as acidspar commands a substantial price premium over lower-grade metallurgical or ceramic-grade fluorspar, directly enhancing the project's potential revenue profile and economic viability in a market experiencing tight global supply.",
+        "Successful met testwork de-risks the pathway to a scoping or pre-feasibility study, likely catalysing further exploration investment and potentially attracting strategic interest from end-users in the aluminium, steel, and chemical industries that rely on high-purity fluorspar feedstock."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CLG",
+      "company": "CLOSE THE LOOP LTD.",
+      "headline": "Strategic Transformation Accelerates",
+      "time": "2026-05-19T23:31:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091885-3A693636",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Close the Loop is signaling a strategic transformation, likely involving portfolio restructuring, operational realignment, or pivot in business model — the 'market sensitive' tag suggests material changes to earnings profile or asset base that institutional investors should monitor closely.",
+        "The use of 'accelerates' language implies management is ahead of previously communicated timelines on transformation initiatives, which could indicate faster-than-expected cost savings, revenue diversification, or divestment proceeds flowing through to the balance sheet.",
+        "Investors should watch for follow-up detail on specific financial metrics — including updated guidance, margin trajectory, and any capital allocation changes — as 'strategic transformation' announcements without concrete numbers often require validation in subsequent quarterly results."
+      ],
+      "tags": [
+        "Other",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PAB",
+      "company": "PATRYS LIMITED",
+      "headline": "Patrys advances RLS-2202 toward Phase 1 Clinical Trial",
+      "time": "2026-05-19T23:31:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091884-3A693637",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Patrys is advancing its lead deoxymab candidate RLS-2202 toward a Phase 1 clinical trial, representing a significant pipeline de-risking milestone for this early-stage biotech focused on novel antibody therapeutics targeting intracellular DNA damage repair pathways.",
+        "Progression toward Phase 1 signals completion of key preclinical milestones including IND-enabling studies, manufacturing scale-up, and regulatory preparation — all capital-intensive steps that will pressure the company's cash runway and may foreshadow a near-term capital raise.",
+        "Successful entry into clinical trials would be a major catalyst for re-rating, but investors should monitor upcoming updates on trial design, regulatory feedback (FDA/TGA), timeline to first patient dosing, and the company's funding position to sustain operations through clinical readouts."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NXT",
+      "company": "NEXTDC LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-05-19T23:28:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091880-2A1672902",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in NEXTDC (NXT), indicating a significant reduction in ownership below the 5% threshold, which may reflect portfolio rebalancing or profit-taking by an institutional investor.",
+        "The disposal of a substantial stake in a high-growth data centre operator like NEXTDC could introduce near-term selling pressure, though the notice is flagged as not market sensitive, suggesting an orderly exit rather than a distressed sale.",
+        "Investors should monitor whether this reflects broader institutional rotation out of capital-intensive data centre plays amid rising interest rates, or an isolated portfolio adjustment — subsequent substantial holder notices and trading volumes will be key indicators."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "1TT",
+      "company": "THRIVE TRIBE TECHNOLOGIES LIMITED",
+      "headline": "Prospectus Bonus Issue and Target Market Determination",
+      "time": "2026-05-19T23:26:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091878-2A1672901",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Thrive Tribe Technologies is conducting a bonus issue of securities to existing shareholders, a non-cash corporate action that typically signals management's intent to reward holders or restructure capital without raising new funds.",
+        "The accompanying Target Market Determination (TMD) filing indicates regulatory compliance under Design and Distribution Obligations (DDO), suggesting the bonus issue involves a product requiring formal investor suitability assessment — potentially options or convertible instruments that could lead to future dilution.",
+        "While bonus issues can be modestly positive for sentiment, the micro-cap nature of Thrive Tribe and the need for a prospectus suggests complexity; investors should monitor the terms closely for exercise prices, expiry dates, and potential dilutive impact on the share register."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MBG",
+      "company": "MB GOLD LIMITED",
+      "headline": "Exceptional initial assay results from Twin Veins",
+      "time": "2026-05-19T23:25:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091877-6A1326228",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "MB Gold reports 'exceptional' initial assay results from the Twin Veins prospect, signaling potential for a high-grade gold discovery that could materially re-rate the company's exploration portfolio.",
+        "The use of 'exceptional' in the headline for a market-sensitive announcement suggests assay grades significantly above expectations, likely featuring high-grade gold intercepts that could attract institutional attention to this early-stage explorer.",
+        "Positive initial results at Twin Veins are expected to drive an accelerated drilling program and further exploration expenditure, with investors needing to monitor cash runway and potential capital raise requirements to fund follow-up work."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "COV",
+      "company": "CLEO DIAGNOSTICS LTD",
+      "headline": "CLEO Establishes U.S. Reimbursement Pathway",
+      "time": "2026-05-19T23:25:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091876-3A693634",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CLEO Diagnostics has established a U.S. reimbursement pathway, a critical de-risking milestone for commercialising its ovarian cancer diagnostic test in the world's largest healthcare market, significantly enhancing the product's addressable market potential.",
+        "Securing a reimbursement pathway is essential for institutional adoption by U.S. laboratories and healthcare providers, as it directly underpins revenue generation capability — without reimbursement, clinical uptake remains severely constrained regardless of test efficacy.",
+        "Next steps will likely involve obtaining a CPT code assignment, payer coverage negotiations, and potential CLIA lab partnerships; investors should monitor timeline to first U.S. commercial revenues and the company's cash runway to fund the remaining regulatory and market access milestones."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CEN",
       "company": "CONTACT ENERGY LIMITED",
