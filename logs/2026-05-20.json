@@ -1,9 +1,66 @@
 {
   "date": "2026-05-20",
-  "total": 113,
-  "market_sensitive_count": 103,
-  "generated_at": "2026-05-20T01:43:06.799482+00:00",
+  "total": 116,
+  "market_sensitive_count": 106,
+  "generated_at": "2026-05-20T03:09:22.914137+00:00",
   "announcements": [
+    {
+      "ticker": "INV",
+      "company": "INVESTSMART GROUP LIMITED",
+      "headline": "Proposed sale of Intelligent Investor to TIP",
+      "time": "2026-05-20T03:01:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092008-2A1672949",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "InvestSMART proposes to sell its Intelligent Investor business to The Intelligent Investor Pty Ltd (TIP), representing a significant divestiture of a core content and subscription asset that will fundamentally reshape the group's operating profile.",
+        "The transaction signals a strategic pivot, likely unlocking cash proceeds that could strengthen the balance sheet, fund remaining operations (such as the InvestSMART platform/SMA business), or be returned to shareholders — key details on valuation and terms will be critical for assessing whether the deal is accretive.",
+        "Investors should watch for disclosure of sale price, expected completion timeline, and management's articulated strategy for the remaining business; the market-sensitive tag suggests material financial implications that could re-rate the stock depending on deal terms relative to the segment's earnings contribution."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OZZ",
+      "company": "OZZ RESOURCES LIMITED",
+      "headline": "OZZ to Acquire Nickel-Copper-Cobalt aimed Sulphide Minerals",
+      "time": "2026-05-20T02:18:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091994-6A1326265",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "OZZ Resources is acquiring nickel-copper-cobalt sulphide mineral assets, pivoting toward battery metals that align with critical minerals demand themes and potentially repositioning the company's commodity exposure profile.",
+        "As a micro-cap explorer, the acquisition's value and funding mechanism will be critical — investors should watch for dilutive capital raises or scrip-based deals that could materially impact existing shareholders given OZZ's limited market capitalisation.",
+        "The focus on sulphide mineralisation (rather than laterite) is technically significant as sulphide-hosted nickel-copper-cobalt deposits are generally more amenable to conventional processing and attract higher market premiums, though exploration-stage risk remains elevated."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SNG",
+      "company": "SIREN GOLD LIMITED",
+      "headline": "Sams Creek Mining Permit Application Declined",
+      "time": "2026-05-20T01:49:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091982-6A1326267",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Siren Gold's mining permit application for the flagship Sams Creek gold project in New Zealand has been declined by regulators, representing a significant setback to the company's development pathway and timeline to potential production.",
+        "The permit denial effectively strands the company's exploration investment at Sams Creek and raises serious questions about the project's viability, likely pressuring the stock given Siren Gold's micro-cap status and limited alternative revenue-generating assets.",
+        "Investors should watch for management's response strategy — whether Siren Gold will appeal the decision, modify and resubmit the application, or pivot focus to alternative projects — as this will determine the company's forward capital allocation and cash burn trajectory."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "EGL",
       "company": "ENVIRONMENTAL GROUP LIMITED (THE)",
