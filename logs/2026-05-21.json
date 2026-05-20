@@ -1,9 +1,466 @@
 {
   "date": "2026-05-21",
-  "total": 56,
-  "market_sensitive_count": 44,
-  "generated_at": "2026-05-20T23:03:10.370495+00:00",
+  "total": 80,
+  "market_sensitive_count": 65,
+  "generated_at": "2026-05-20T23:31:40.160637+00:00",
   "announcements": [
+    {
+      "ticker": "MM1",
+      "company": "MIDAS MINERALS LTD",
+      "headline": "Further Exceptional Copper and Silver Intercepts, Otavi",
+      "time": "2026-05-20T23:26:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092363-6A1326398",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Midas Minerals reports further high-grade copper and silver intercepts at its Otavi project in Namibia, reinforcing the emerging significance of the deposit and potential for a substantial polymetallic resource.",
+        "The use of 'exceptional' in the headline signals intercepts likely materially above previous results or peer benchmarks, which for a micro-cap explorer can be a catalyst for re-rating if grades and widths are confirmed at scale.",
+        "Continued drilling success at Otavi positions the company to advance toward a maiden resource estimate; investors should monitor upcoming assay batches, cash position for sustained exploration, and any potential capital raise to fund follow-up programs."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ILA",
+      "company": "ISLAND PHARMACEUTICALS LIMITED",
+      "headline": "Island Adds Biodefence Leader as Filovirus Risks Escalate",
+      "time": "2026-05-20T23:25:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092362-3A693739",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Island Pharmaceuticals has appointed a biodefence leader to its team, signaling strategic positioning of its antiviral pipeline (likely isla-101) toward filovirus threats (Ebola/Marburg), potentially opening government/defence funding pathways such as BARDA contracts.",
+        "The appointment is timed to coincide with escalating filovirus risk narratives, which could catalyse investor interest in the company's early-stage antiviral assets and differentiate Island in a niche biodefence market with limited competition and high unmet need.",
+        "For a micro-cap biotech like Island Pharmaceuticals, securing biodefence advisory expertise could be a precursor to non-dilutive government grant funding or partnership discussions, which would be critical given likely constrained cash runway and the need to fund clinical development without heavy equity dilution."
+      ],
+      "tags": [
+        "Healthcare",
+        "Board Change"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TRU",
+      "company": "TRUSCREEN GROUP LIMITED",
+      "headline": "Rights Issue Offer Document",
+      "time": "2026-05-20T23:24:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092360-2A1673128",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TruScreen is conducting a rights issue, indicating the company needs to raise additional capital which will dilute existing shareholders - a common signal of cash runway concerns for this small-cap cervical cancer screening technology company.",
+        "The release of the formal Offer Document suggests the rights issue terms have been finalised, with institutional and retail investors now able to assess pricing, discount to market, and total raise size to evaluate dilution impact.",
+        "Investors should scrutinize the use of proceeds (working capital vs. growth investment), underwriting arrangements, and director participation as key indicators of management confidence and the company's near-term financial sustainability."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BOC",
+      "company": "BOUGAINVILLE COPPER LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-05-20T23:23:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092357-3A693738",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bougainville Copper (BOC) has been reinstated to quotation on the ASX, ending a trading halt period and restoring liquidity for shareholders — a significant event for a stock with historically thin trading volumes and complex sovereign risk considerations.",
+        "Reinstatement typically follows resolution of a disclosure or compliance matter; for BOC, this likely relates to updates on the Panguna mine redevelopment status or corporate governance matters involving the Autonomous Bougainville Government's majority stake.",
+        "Investors should monitor for the underlying announcement that triggered the halt — the reinstatement itself signals regulatory satisfaction with disclosure, potentially opening a re-rating window if accompanied by material progress on mining lease negotiations or stakeholder engagement."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TRU",
+      "company": "TRUSCREEN GROUP LIMITED",
+      "headline": "Corporate Action Notice",
+      "time": "2026-05-20T23:21:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092354-2A1673125",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TruScreen Group has issued a market-sensitive corporate action notice, likely signaling a capital structure change such as a share consolidation, rights issue, or other equity-related event that could materially affect shareholder positions.",
+        "For a micro-cap medical device company with limited revenue, any corporate action raises immediate questions about cash runway adequacy and whether this signals upcoming dilutive capital raising activity.",
+        "Investors should closely monitor follow-up disclosures for specifics on the nature of the corporate action, as the market-sensitive tag suggests potential near-term impact on trading dynamics and share price."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TRU",
+      "company": "TRUSCREEN GROUP LIMITED",
+      "headline": "Option Extension Prospectus",
+      "time": "2026-05-20T23:21:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092353-2A1673122",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TruScreen is issuing an Option Extension Prospectus, likely extending the exercise period of existing options, which signals the company is seeking to preserve potential future capital inflows without immediate dilution.",
+        "As a small-cap healthcare/medtech company, the option extension suggests current exercise prices may be out-of-the-money, indicating the share price has underperformed relative to prior capital raise expectations and reducing near-term cash conversion probability.",
+        "Investors should monitor whether the extended options eventually convert, as this represents a potential future dilution event; in the interim, TruScreen's cash runway remains dependent on operational performance and alternative funding sources."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TRU",
+      "company": "TRUSCREEN GROUP LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-05-20T23:18:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092349-2A1673121",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TruScreen Group is presenting an investor update marked as market sensitive, suggesting the presentation likely contains material new information on commercial progress, partnerships, or financial metrics beyond routine updates.",
+        "As a cervical cancer screening technology company, any disclosed expansion into new markets (particularly China and emerging economies) or regulatory milestones would be significant catalysts given the company's early-stage revenue profile and limited cash runway.",
+        "Investor presentations flagged as market sensitive often precede or accompany capital raising activity — institutional investors should monitor for potential equity issuance or strategic partnership announcements that could impact dilution or valuation."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TRU",
+      "company": "TRUSCREEN GROUP LIMITED",
+      "headline": "Truscreen Launches Capital Raise of N$2.9 million",
+      "time": "2026-05-20T23:18:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092346-2A1673119",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "TruScreen is raising NZ$2.9 million in new capital, a relatively small raise that signals near-term funding needs likely to extend cash runway for operations and commercialization of its cervical cancer screening technology.",
+        "The modest raise size suggests potential significant dilution risk for a micro-cap company, with existing shareholders facing equity dilution without a transformative growth catalyst to offset the capital structure impact.",
+        "Investors should monitor the terms of the raise (pricing, discount to market, participation rights) and whether proceeds are earmarked for working capital, regulatory approvals, or market expansion — key indicators of whether this is survival funding or growth capital."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "OMX",
+      "company": "ORANGE MINERALS NL",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-05-20T23:17:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092345-6A1326394",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Orange Minerals NL, signaling meaningful external investor conviction in the junior explorer's asset portfolio or strategic direction.",
+        "The crossing of the 5% substantial holding threshold represents a concentrated position in a micro-cap mining company, which can materially influence liquidity and trading dynamics given typically thin order books.",
+        "Investors should monitor whether this accumulation precedes a capital raise, board-level engagement, or potential corporate activity such as a takeover approach or strategic partnership."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RSG",
+      "company": "RESOLUTE MINING LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-20T23:15:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092343-6A1326392",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in Resolute Mining Limited, signaling active institutional portfolio rebalancing around the gold miner's register.",
+        "The nature of the change (increase or decrease) will determine whether this reflects growing conviction in RSG's outlook or profit-taking/risk reduction by a major shareholder, with implications for near-term liquidity and overhang risk.",
+        "Investors should monitor whether this forms part of a broader trend of institutional accumulation or distribution, particularly given Resolute's ongoing operational developments at its Syama gold mine in Mali and recent corporate activity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COI",
+      "company": "COMET RIDGE LIMITED",
+      "headline": "Reinstatement to Official Quotation",
+      "time": "2026-05-20T23:14:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092342-2A1673117",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Comet Ridge Limited (COI) has been reinstated to official quotation on the ASX, ending a trading halt period that had suspended share trading and restricted investor liquidity.",
+        "The reinstatement likely follows resolution of a material corporate action or information disclosure that triggered the original trading halt, with the market now able to fully price in the new information.",
+        "Investors should monitor the accompanying announcements released during the halt period to assess fundamental impact on Comet Ridge's gas exploration and development portfolio, particularly any capital raise dilution or asset transaction implications."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COI",
+      "company": "COMET RIDGE LIMITED",
+      "headline": "Update on Acquisition of Mahalo Gas Project",
+      "time": "2026-05-20T23:14:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092341-2A1673089",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Comet Ridge is progressing its acquisition of the Mahalo Gas Project, a strategically significant move to consolidate ownership in a key Queensland CSG asset that could materially increase the company's reserve base and production profile.",
+        "The Mahalo acquisition, if completed, would position Comet Ridge as a more substantial gas producer in the Bowen Basin, potentially unlocking value through operational synergies and enhanced development economics at a time of strong east coast gas market fundamentals.",
+        "Investors should monitor completion conditions, funding arrangements, and any dilutive capital raise requirements — the deal's accretiveness hinges on acquisition price relative to 2P reserves and the company's ability to fund development capex through to first gas revenues."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ORN",
+      "company": "ORION MINERALS LTD",
+      "headline": "Suspension from Quotation",
+      "time": "2026-05-20T23:14:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092337-3A693734",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Orion Minerals has been suspended from quotation on the ASX, indicating a significant corporate action or compliance matter is pending that prevents normal trading of shares.",
+        "Suspension typically follows a trading halt and suggests the company has not yet satisfied ASX requirements for reinstatement, potentially relating to a capital raise, material transaction, or disclosure obligation that remains incomplete.",
+        "Investors should monitor for the accompanying announcement that triggered the suspension; prolonged suspensions can signal elevated risk around capital structure, liquidity, or regulatory compliance for this junior mining company with limited cash runway."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ADO",
+      "company": "ANTEOTECH LTD",
+      "headline": "ULTRANODE 95 VALIDATED IN CELL FORMAT SUITED FOR DRONE USE",
+      "time": "2026-05-20T23:11:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092333-2A1673118",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AnteoTech's UltraNode 95 silicon anode material has been validated in a pouch cell format suitable for drone applications, representing a critical step from lab-scale testing toward commercial-relevant form factors in a high-growth UAV battery market.",
+        "Validation in drone-suited cell formats positions AnteoNode technology closer to potential offtake or licensing discussions with drone/eVTOL OEMs, though the company remains pre-revenue in its energy division and cash runway remains a key investor concern for this micro-cap.",
+        "Next catalysts include scaling to larger pouch cell formats, securing industry partnership or pilot agreements, and demonstrating cycle life and energy density metrics competitive with incumbent silicon anode solutions — all necessary to de-risk the path to commercialisation."
+      ],
+      "tags": [
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WWI",
+      "company": "WEST WITS MINING LIMITED",
+      "headline": "Binding Term Sheet for New ZAR 875M Senior Loan Facility",
+      "time": "2026-05-20T23:08:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092327-3A693732",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "West Wits has secured a binding term sheet for a ZAR 875 million (~A$75M) senior loan facility, representing a critical financing milestone for advancing its Witwatersrand Basin Gold Project (WBG) toward production.",
+        "The debt facility structure signals lender confidence in the project's bankability and cash flow projections, potentially reducing the need for further dilutive equity raises and strengthening the company's capital structure at a pivotal development stage.",
+        "Binding terms move the project materially closer to financial close and construction commencement — investors should watch for final documentation, drawdown conditions, and any remaining equity or offtake components required to complete the full funding package."
+      ],
+      "tags": [
+        "Finance",
+        "Mining",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ADR",
+      "company": "ADHERIUM LIMITED",
+      "headline": "Notice of Share Consolidation",
+      "time": "2026-05-20T23:07:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092325-3A693731",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Adherium is undertaking a share consolidation, a corporate action typically used to reduce the number of shares on issue and increase the per-share price, often signaling prior significant dilution or a need to meet minimum price thresholds for exchange compliance or capital raising purposes.",
+        "Share consolidations for micro-cap healthcare companies like Adherium frequently follow extended periods of capital consumption and share price erosion, suggesting the company may be positioning for a future capital raise or strategic transaction at a more institutional-friendly price point.",
+        "Investors should monitor for follow-on announcements regarding capital raising activity, updated cash runway guidance, or potential strategic partnerships, as consolidations are often a precursor to further corporate actions rather than standalone events."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ASM",
+      "company": "AUSTRALIAN STRATEGIC MATERIALS LIMITED",
+      "headline": "Dispatch of Scheme Booklet",
+      "time": "2026-05-20T23:06:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092322-6A1326386",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Strategic Materials has dispatched its Scheme Booklet to shareholders, advancing a formal scheme of arrangement process that signals an imminent corporate transaction or takeover is progressing through regulatory and shareholder approval stages.",
+        "Dispatch of the Scheme Booklet is a critical milestone indicating ASIC and court approvals have been obtained for the document, moving the deal closer to a shareholder vote — institutional investors should assess the implied premium and deal certainty embedded in the offer terms.",
+        "Next steps include the scheme meeting where shareholders will vote on the proposed transaction; the timeline to implementation and any competing proposals or regulatory conditions will be key watchpoints for near-term price action."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CR1",
+      "company": "CONSTELLATION RESOURCES LIMITED",
+      "headline": "Methane and Helium Confirmed in Newly Awarded SPA",
+      "time": "2026-05-20T23:03:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092319-6A1326367",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Constellation Resources has confirmed the presence of methane and helium within a newly awarded Special Prospecting Authority (SPA), validating the exploration thesis and potentially de-risking the asset ahead of further appraisal work.",
+        "Helium discovery is particularly noteworthy given the critical commodity's supply scarcity and premium pricing — confirmation of helium alongside methane enhances the commercial potential of the tenement and could attract strategic interest or JV partners.",
+        "Next steps will likely involve detailed geochemical sampling, flow testing, and resource estimation to determine commercial viability — investors should watch for follow-up drilling programs and any upgrade to the company's exploration budget or funding requirements."
+      ],
+      "tags": [
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VR1",
+      "company": "VECTION TECHNOLOGIES LTD",
+      "headline": "Vection Secures $1.1m in New Defence and AI Orders",
+      "time": "2026-05-20T23:03:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092318-6A1326383",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Vection Technologies secured $1.1M in new orders spanning defence and AI verticals, signalling growing traction in high-value government and enterprise segments that typically carry stronger margins and longer contract lifecycles.",
+        "While $1.1M is modest in absolute terms, for a micro-cap like Vection (market cap ~$20-30M range), incremental defence orders provide revenue visibility and validate the company's pivot toward higher-margin, sticky verticals — critical for demonstrating a path to profitability.",
+        "Defence and AI contract wins position Vection for potential follow-on orders and framework agreements; investors should monitor whether this pipeline converts into recurring revenue streams and whether the company can sustain order momentum without requiring further capital raises."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RML",
+      "company": "RESOLUTION MINERALS LTD",
+      "headline": "First 2026 Gold and Tungsten Drilling proving Encouraging",
+      "time": "2026-05-20T23:02:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092315-2A1673110",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Resolution Minerals reports encouraging results from its first 2026 drilling campaign targeting both gold and tungsten, signaling potential resource expansion at a time of elevated gold prices (~US$2,300+/oz) and growing strategic interest in critical minerals like tungsten.",
+        "Early-stage drilling success at a dual-commodity project could materially de-risk the asset and attract further market attention, though the use of 'encouraging' rather than specific assay results suggests investors should await detailed grades and intercept widths for confirmation.",
+        "Next catalysts will include full assay results from the current program and potential follow-up drilling; the market will be watching for grade continuity and whether results support a maiden or upgraded resource estimate that could unlock financing or JV discussions."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AGN",
+      "company": "ARGENICA THERAPEUTICS LIMITED",
+      "headline": "IND Application Advanced With Successful Completion of Assay",
+      "time": "2026-05-20T23:01:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092312-6A1326381",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Argenica has successfully completed a critical potency assay required for its IND (Investigational New Drug) application to the US FDA, removing a key regulatory milestone risk for its lead neuroprotective peptide ARG-007.",
+        "Completion of the assay validates the drug substance's biological activity and consistency, a prerequisite for advancing into US clinical trials — this de-risks the IND submission timeline and supports the company's pathway toward a Phase II stroke trial in the US.",
+        "Next catalyst is the formal IND submission to the FDA, which if accepted would significantly expand Argenica's clinical footprint beyond Australia and unlock access to the world's largest pharmaceutical market — critical for a pre-revenue biotech with limited cash runway."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EDE",
+      "company": "EDEN INNOVATIONS LTD",
+      "headline": "Antanas Guoga appointed to spearhead EdenShield in Europe",
+      "time": "2026-05-20T23:00:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092308-6A1326380",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Eden Innovations has appointed Antanas Guoga, a Lithuanian-born entrepreneur, former EU Parliament member, and well-connected European business figure, to lead the commercialisation of EdenShield fire-retardant technology across European markets — signaling a strategic push into a large addressable market.",
+        "The appointment leverages Guoga's political and business networks across the EU, potentially accelerating regulatory approvals and distribution partnerships for EdenShield, which could be a meaningful revenue catalyst for a micro-cap company that has historically struggled with commercialisation timelines.",
+        "Investors should monitor for follow-up announcements on European distribution agreements, pilot projects, or regulatory milestones — the appointment alone does not guarantee near-term revenue but positions EdenShield for potential market entry in a region with stringent fire safety standards and growing demand for non-toxic fire retardants."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MBK",
+      "company": "METAL BANK LIMITED",
+      "headline": "Placement Secured Raising $1.2M",
+      "time": "2026-05-20T23:00:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092307-3A693727",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Metal Bank secured a $1.2M placement, providing near-term funding but introducing dilution for existing shareholders in a micro-cap explorer with limited revenue generation capacity.",
+        "The relatively modest raise of $1.2M suggests the company is managing cash burn conservatively, though it signals tight liquidity and likely provides only a limited cash runway of several quarters at best for exploration activities.",
+        "Placement proceeds are expected to fund ongoing exploration programs; investors should monitor for upcoming drill results or project milestones that could justify the dilution and support further capital raises."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HIQ",
+      "company": "HITIQ LIMITED",
+      "headline": "Continued Suspension of Class from Quotation - HIQOA Only",
+      "time": "2026-05-20T22:59:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092303-6A1326376",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "HITIQ's HIQOA class of securities remains suspended from quotation on ASX, indicating ongoing compliance or regulatory issues that prevent normal trading in this specific security class.",
+        "Continued suspension signals unresolved conditions — potentially related to capital structure, disclosure requirements, or corporate actions — creating uncertainty around the company's ability to restore full market access for HIQOA holders.",
+        "Investors should monitor for subsequent ASX announcements detailing the conditions required for reinstatement; prolonged suspension typically reflects elevated corporate risk and may impair liquidity for affected security holders."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "HAR",
       "company": "HARANGA RESOURCES LIMITED.",
