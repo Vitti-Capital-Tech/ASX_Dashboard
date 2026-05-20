@@ -1,9 +1,28 @@
 {
   "date": "2026-05-20",
-  "total": 112,
-  "market_sensitive_count": 102,
-  "generated_at": "2026-05-20T00:45:07.295135+00:00",
+  "total": 113,
+  "market_sensitive_count": 103,
+  "generated_at": "2026-05-20T01:43:06.799482+00:00",
   "announcements": [
+    {
+      "ticker": "EGL",
+      "company": "ENVIRONMENTAL GROUP LIMITED (THE)",
+      "headline": "Trading Halt",
+      "time": "2026-05-20T00:45:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091960-2A1672928",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "The Environmental Group Limited (EGL) has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant contract win.",
+        "As a small-cap environmental services company, any capital raise could be materially dilutive given EGL's modest market capitalisation, while an acquisition could signal strategic growth in emissions control or waste management segments.",
+        "Investors should await the detailed announcement before repositioning; the halt will likely lift within 1-2 trading days with clarity on whether the catalyst is balance-sheet or growth-driven."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EGL",
       "company": "ENVIRONMENTAL GROUP LIMITED (THE)",
