@@ -1,9 +1,180 @@
 {
   "date": "2026-05-20",
-  "total": 101,
-  "market_sensitive_count": 92,
-  "generated_at": "2026-05-19T23:52:19.645221+00:00",
+  "total": 110,
+  "market_sensitive_count": 100,
+  "generated_at": "2026-05-20T00:17:57.622468+00:00",
   "announcements": [
+    {
+      "ticker": "CEN",
+      "company": "CONTACT ENERGY LIMITED",
+      "headline": "SPH - Macquarie  - beginning to have substantial holding",
+      "time": "2026-05-20T00:09:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091945-2A1672918",
+      "market_sensitive": true,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Macquarie Group has crossed the 5% threshold to become a substantial holder in Contact Energy Limited, signaling significant institutional interest in the New Zealand-based energy company listed on ASX.",
+        "The initial substantial holding filing suggests Macquarie has been actively accumulating shares, which for a major institutional player of this caliber typically reflects a constructive fundamental view on Contact Energy's valuation and earnings outlook.",
+        "Investors should monitor whether Macquarie continues to build its position, as further accumulation could provide price support and may precede strategic engagement or signal broader institutional re-rating of the NZ energy sector."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CEN",
+      "company": "CONTACT ENERGY LIMITED",
+      "headline": "SPH - Infratil - disclosure of movement of 1% or more",
+      "time": "2026-05-20T00:09:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091944-2A1672917",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Infratil has disclosed a movement of 1% or more in its substantial holding in Contact Energy, signaling a notable shift in ownership concentration by the infrastructure-focused investor.",
+        "As Infratil is Contact Energy's largest shareholder, any material change in its stake carries significant implications for governance, strategic direction, and potential future transactions involving the NZ energy utility.",
+        "Investors should monitor whether this movement reflects portfolio rebalancing, on-market activity, or precedes a broader strategic shift such as a potential sell-down or increased accumulation of Contact Energy shares."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AS1",
+      "company": "ASARA RESOURCES LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-05-20T00:01:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091934-3A693651",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Asara Resources Limited, indicating a significant disposal or dilution below the 5% threshold, which may signal reduced institutional confidence or portfolio rebalancing.",
+        "The exit of a substantial holder in a micro-cap explorer like Asara Resources could reduce share register stability and may reflect concerns about the company's cash runway, project progress, or future capital raise requirements.",
+        "Investors should monitor whether this is an isolated exit or part of a broader trend of institutional selling, and watch for any subsequent capital raise announcements that may have triggered the dilution below the substantial holding threshold."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRR",
+      "company": "SARAMA RESOURCES LTD",
+      "headline": "Sarama Raises A$1.5m in Private Placement",
+      "time": "2026-05-19T23:59:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091931-6A1326239",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Sarama Resources raised A$1.5m via private placement, a relatively modest capital raise that signals ongoing funding needs for its West African gold exploration portfolio without access to larger institutional support.",
+        "The small placement size suggests limited near-term cash runway extension, likely providing only several months of operational funding for exploration activities, and introduces dilution to existing shareholders at what is typically a discounted price.",
+        "Investors should monitor use of proceeds disclosure and whether this placement is a precursor to a larger capital raise or signals difficulty securing more substantial funding, which could pressure the share price further."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GIB",
+      "company": "GIBB RIVER DIAMONDS LIMITED",
+      "headline": "Drilling Results - Edjudina Gold Project WA",
+      "time": "2026-05-19T23:59:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091930-6A1326247",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Gibb River Diamonds reports drilling results from the Edjudina Gold Project in Western Australia, signaling active exploration progress at this gold-focused asset despite the company's diamond-oriented name, indicating strategic diversification into gold.",
+        "Market-sensitive classification suggests the drilling results contain material information — likely meaningful gold intercepts or geological findings that could impact the company's resource base and valuation for this micro-cap explorer.",
+        "Investors should watch for follow-up assay results, potential resource estimates, and further drilling programs at Edjudina; the key question remains whether grades and widths are sufficient to justify continued capital allocation given GIB's likely constrained cash position as a junior explorer."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GHY",
+      "company": "GOLD HYDROGEN LIMITED",
+      "headline": "Helium Development Potential at Ramsay",
+      "time": "2026-05-19T23:56:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091927-2A1672916",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Gold Hydrogen has identified helium development potential at its Ramsay project, adding a secondary high-value commodity stream alongside its natural hydrogen exploration — helium commands premium pricing and is classified as a critical mineral in multiple jurisdictions.",
+        "The helium opportunity at Ramsay could materially enhance project economics if concentrations prove commercially viable, as helium typically requires only modest concentrations (>0.3%) to justify extraction when co-produced with other gases.",
+        "This market-sensitive update signals Gold Hydrogen is building a multi-commodity value proposition to attract institutional interest and potential JV partners, with next steps likely involving further sampling and resource delineation at Ramsay to quantify the helium opportunity."
+      ],
+      "tags": [
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FLG",
+      "company": "FLAGSHIP MINERALS LIMITED",
+      "headline": "A$2.75 Million Strategic Placement at A$0.25 Per Share",
+      "time": "2026-05-19T23:52:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091921-6A1326244",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Flagship Minerals raising A$2.75 million via strategic placement at A$0.25 per share, issuing 11 million new shares which will result in meaningful dilution for existing shareholders of this early-stage explorer.",
+        "The A$0.25 placement price signals current market valuation benchmarking; investors should assess this against recent trading levels to gauge whether the placement represents a discount or premium to market.",
+        "Proceeds likely earmarked for exploration and working capital, extending cash runway for the company's mineral exploration programs — watch for details on use of funds and whether a follow-on SPP is offered to existing shareholders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KRM",
+      "company": "KINGSROSE MINING LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-19T23:51:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091920-6A1326243",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Kingsrose Mining has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant corporate development that requires price-sensitive disclosure.",
+        "As a small-cap gold/silver miner with historically constrained cash flow from its Indonesian operations, any capital raise during the halt could be dilutive to existing shareholders, while an asset acquisition or divestment could materially alter the company's risk profile.",
+        "Investors should await the detailed announcement expected within two business days; the nature of the pending disclosure will determine whether this represents a value-accretive catalyst or a dilutive funding event."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OVT",
+      "company": "OVANTI LIMITED",
+      "headline": "Prospectus and Target Market Determination",
+      "time": "2026-05-19T23:50:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091919-2A1672914",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ovanti Limited has lodged a Prospectus alongside a Target Market Determination, signaling an imminent capital raise that will likely result in share dilution for existing holders.",
+        "The filing of a formal Prospectus (rather than a simpler placement) suggests the company is seeking broader retail participation, potentially indicating difficulty securing institutional demand or a need to tap a wider investor base to meet funding requirements.",
+        "Investors should closely monitor the offer terms — pricing, discount to market, and use of proceeds — to assess whether the raise addresses a critical cash runway shortfall or funds growth initiatives, which will determine the net impact on valuation."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "SMX",
       "company": "STRATA MINERALS LIMITED.",
