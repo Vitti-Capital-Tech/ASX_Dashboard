@@ -1,9 +1,311 @@
 {
   "date": "2026-05-21",
-  "total": 80,
-  "market_sensitive_count": 65,
-  "generated_at": "2026-05-20T23:31:40.160637+00:00",
+  "total": 96,
+  "market_sensitive_count": 81,
+  "generated_at": "2026-05-20T23:58:17.826818+00:00",
   "announcements": [
+    {
+      "ticker": "PPY",
+      "company": "PAPYRUS AUSTRALIA LIMITED",
+      "headline": "TBS Milestone Update - Delivery of Product Samples",
+      "time": "2026-05-20T23:55:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092399-2A1673147",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Papyrus Australia has delivered product samples from its Tropical Banana Stem (TBS) technology, marking a key commercialisation milestone that validates the company's ability to produce tangible outputs from its proprietary biomass processing platform.",
+        "The delivery of physical product samples to potential partners/customers is a critical de-risking step for a pre-revenue company, though no commercial orders or revenue figures have been disclosed, leaving the path to monetisation still uncertain.",
+        "Next steps will likely focus on securing offtake agreements or partnership deals based on sample feedback; investors should watch for follow-up announcements on customer reception, pricing discussions, and any pilot or commercial-scale production commitments."
+      ],
+      "tags": [
+        "Production",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DXC",
+      "company": "DEXUS CONVENIENCE RETAIL REIT",
+      "headline": "Divestment of $8 million of assets at a 1.4% premium to book",
+      "time": "2026-05-20T23:52:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092398-3A693748",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dexus Convenience Retail REIT divested $8 million in assets at a 1.4% premium to book value, signaling supportive market pricing for convenience retail assets and validating current portfolio valuations.",
+        "The premium to book, while modest, is a positive read-through for the broader portfolio's carrying values and reduces risk of future impairments, reinforcing NAV credibility for unitholders.",
+        "Proceeds from the divestment are expected to be recycled into debt reduction or redeployment, improving balance sheet flexibility amid a higher interest rate environment and potentially supporting distribution sustainability."
+      ],
+      "tags": [
+        "Property",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ABG",
+      "company": "ABACUS GROUP",
+      "headline": "Pause in Trading",
+      "time": "2026-05-20T23:50:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092396-2A1673146",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Abacus Group has entered a trading pause, typically preceding a material announcement such as a potential merger, acquisition, capital raise, or significant corporate restructure — warranting close monitoring given the group's active portfolio management history.",
+        "As a diversified property group with exposure to self-storage and commercial real estate, any pending announcement could materially impact NAV and distribution guidance, particularly given ongoing sector repricing dynamics in Australian property markets.",
+        "Investors should await the substantive announcement that triggered the pause; the market-sensitive designation signals the forthcoming disclosure is expected to have a meaningful impact on Abacus's share price and potentially its corporate structure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BUR",
+      "company": "BURLEY MINERALS LTD",
+      "headline": "Security Purchase Plan",
+      "time": "2026-05-20T23:49:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092395-6A1326412",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Burley Minerals is launching a Security Purchase Plan (SPP), enabling existing shareholders to acquire additional shares, signaling the company's need to raise capital likely for exploration or operational funding.",
+        "The SPP introduces dilution risk for non-participating shareholders, though the extent depends on the offer price discount and total participation — details critical for assessing the magnitude of equity dilution.",
+        "Proceeds from the SPP will likely extend the company's cash runway for its mineral exploration programs; investors should monitor the offer terms, cap size, and intended use of funds for clarity on near-term project milestones."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RAP",
+      "company": "RAPTOR METALS LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-05-20T23:47:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092393-2A1673145",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Raptor Metals has entered a trading pause, typically preceding a material announcement such as a capital raise, acquisition, or significant exploration result that requires orderly dissemination to the market.",
+        "As a junior explorer, trading halts frequently precede capital raises which carry dilution risk, though they can also signal transformative drill results or corporate transactions — the nature of the pending announcement remains undisclosed.",
+        "Investors should await the substantive announcement expected within the trading pause window; the halt prevents price discovery until full details are released, making positioning premature until the catalyst is clarified."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BTR",
+      "company": "BRIGHTSTAR RESOURCES LIMITED",
+      "headline": "Goldfields Project Construction to Commence",
+      "time": "2026-05-20T23:47:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092392-6A1326410",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Brightstar Resources announces commencement of construction at its Goldfields Project, marking a critical de-risking milestone as the company transitions from development to near-term production phase.",
+        "Construction initiation signals that financing, permitting, and engineering prerequisites have been satisfied, suggesting the company has secured sufficient capital runway to fund the build-out — a key watch item for institutional holders monitoring dilution risk.",
+        "Investors should monitor upcoming updates on construction timeline, commissioning targets, and first gold pour guidance, as execution risk now becomes the primary variable driving near-term valuation re-rating potential."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LGP",
+      "company": "LITTLE GREEN PHARMA LTD",
+      "headline": "Appendix 4E and 2026 Annual Report",
+      "time": "2026-05-20T23:40:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092388-6A1326409",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Little Green Pharma's FY2026 Annual Report release as market sensitive suggests material financial disclosures — investors should scrutinize revenue trajectory in the medicinal cannabis segment and any shifts in gross margin profile amid competitive Australian and European market dynamics.",
+        "Key focus will be on cash burn rate and balance sheet strength; as a small-cap pharma company, cash runway and any need for near-term capital raising will be critical to sentiment and valuation sustainability.",
+        "The Appendix 4E filing provides audited full-year results, enabling comparison against prior period — watch for progress on international expansion (particularly German/UK markets), inventory management, and any impairments or going concern qualifications from auditors."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VKA",
+      "company": "VIKING MINES LIMITED",
+      "headline": "LINKA PROJECT - FIELDWORK IDENTIFIES ADDITIONAL STOCKPILES",
+      "time": "2026-05-20T23:34:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092379-6A1326406",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Viking Mines has identified additional surface stockpiles at the Linka Gold Project through fieldwork, potentially increasing near-term recoverable material without the need for significant new mining expenditure.",
+        "Discovery of additional stockpiles from historical mining operations could materially enhance the project's economics by providing low-cost feed material, improving the cost profile for any future processing scenario.",
+        "Next steps likely involve sampling, assaying, and quantification of the newly identified stockpiles to determine tonnage and grade, which will be critical for updating resource estimates and advancing development decisions."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NGS",
+      "company": "NUTRITIONAL GROWTH SOLUTIONS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-20T23:31:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092374-6A1326403",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Nutritional Growth Solutions (NGS) has entered a trading halt, typically indicating a pending material announcement such as a capital raise, corporate transaction, or significant operational update.",
+        "As a micro-cap health/nutrition company, any capital raise during a trading halt would likely be materially dilutive given the company's small market capitalisation and historically limited revenue base.",
+        "Investors should await the forthcoming announcement before taking positions; the halt will remain in place until the company releases its announcement or the commencement of normal trading, whichever is earlier."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EOL",
+      "company": "ENERGY ONE LIMITED",
+      "headline": "May Market Update",
+      "time": "2026-05-20T23:31:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092373-2A1673138",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Energy One has issued a market-sensitive May market update, likely providing trading metrics and operational KPIs that signal near-term revenue trajectory for its energy software and services business across ANZ and European markets.",
+        "As a recurring revenue-focused energy technology company, monthly updates are critical for tracking ARR/MRR growth, customer wins, and churn — any acceleration or deceleration in these metrics directly impacts forward valuation multiples for this small-cap name.",
+        "Investors should assess whether the update signals momentum heading into the FY25 result, particularly given Energy One's strategic push into European energy markets and the post-cyber-incident recovery trajectory that has been a key watch item for the stock."
+      ],
+      "tags": [
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GNG",
+      "company": "GR ENGINEERING SERVICES LIMITED",
+      "headline": "EPC Contract - Tower Hill Project",
+      "time": "2026-05-20T23:30:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092372_PS-6A1326395",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GR Engineering has secured a new EPC (Engineering, Procurement & Construction) contract for the Tower Hill Project, reinforcing its pipeline of mining services work and providing near-term revenue visibility for the company.",
+        "The contract win is a positive signal for GR Engineering's order book growth, which is critical for a project-based services firm where forward work underpins earnings certainty and utilisation rates across its workforce.",
+        "Investors should monitor the contract value disclosure (if provided) and execution timeline, as successful delivery could position GR Engineering for further contract awards in the gold/mining sector and support margin sustainability."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "TOV: ALX - Panel Declines to Make Declaration",
+      "time": "2026-05-20T23:29:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092369_PS-2A1673136",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Takeovers Panel has declined to make a declaration in relation to Atlas Arteria (ALX), effectively resolving a regulatory overhang and removing a potential obstacle to the current corporate action involving the company.",
+        "The Panel's decision not to intervene signals that the transaction or conduct in question was deemed compliant with takeover regulations, providing clarity for shareholders and reducing uncertainty around the deal process.",
+        "With the Panel matter now resolved, focus shifts back to the underlying M&A process and any remaining conditions precedent; institutional investors should monitor for updated scheme/offer timelines and any further regulatory or shareholder approvals required."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CPV",
+      "company": "CLEARVUE TECHNOLOGIES LIMITED",
+      "headline": "CPV Secures A$305,000 Commercial Retrofit Project in Cyprus",
+      "time": "2026-05-20T23:28:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092368-6A1326397",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ClearVue secured a A$305,000 commercial retrofit project in Cyprus, marking a meaningful validation of its solar glazing technology in the European retrofit market — a segment with significant scalability potential given EU energy efficiency mandates.",
+        "While the contract value is modest relative to institutional thresholds, it represents continued commercial traction for a pre-profit technology company; cumulative project wins are critical to demonstrating product-market fit and building a revenue pipeline toward cash flow sustainability.",
+        "The Cyprus project signals geographic expansion into Mediterranean/high-solar-irradiance markets and positions ClearVue for larger follow-on orders in the EU building-integrated photovoltaics (BIPV) retrofit segment, which could materially de-risk the company's commercialisation trajectory."
+      ],
+      "tags": [
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NME",
+      "company": "NEX METALS EXPLORATION LIMITED",
+      "headline": "NME and WTAC form Gold Exploration JV",
+      "time": "2026-05-20T23:27:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092366-6A1326400",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NEX Metals Exploration has formed a Joint Venture with WTAC for gold exploration, signaling a strategic partnership to advance its gold assets while sharing development risk and capital requirements — a positive de-risking move for a junior explorer with limited standalone funding capacity.",
+        "The JV structure likely provides NEX with access to additional technical expertise and funding from WTAC, potentially extending cash runway and accelerating exploration timelines across its gold tenements without requiring a dilutive capital raise in the near term.",
+        "Investors should watch for details on JV terms including earn-in thresholds, expenditure commitments, and which specific tenements are included — the value proposition hinges on whether WTAC's contribution materially advances NEX toward resource definition and eventual development milestones."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LKY",
+      "company": "LOCKSLEY RESOURCES LIMITED",
+      "headline": "High-Grade Antimony Intervals Intersected at DAM",
+      "time": "2026-05-20T23:27:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092365-6A1326401",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Locksley Resources has intersected high-grade antimony intervals at its DAM prospect, a strategically significant result given antimony's classification as a critical mineral and its surging price environment driven by China's export restrictions and supply constraints.",
+        "High-grade antimony intercepts at shallow depths could materially de-risk the project economics and accelerate development timelines, particularly relevant as antimony spot prices have more than doubled over the past 12 months, enhancing the potential economic viability of the deposit.",
+        "Results are expected to drive further drilling programs to define resource scale and continuity; investors should watch for follow-up assays, resource estimation timelines, and any metallurgical testwork that would underpin a scoping study pathway for this critical minerals play."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KNI",
+      "company": "KUNIKO LIMITED",
+      "headline": "High-Grade Gold & Silver at Commonwealth-Silica Hill",
+      "time": "2026-05-20T23:26:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092364-6A1326399",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kuniko reports high-grade gold and silver intercepts at the Commonwealth-Silica Hill project, signaling potential for a significant precious metals discovery that could materially re-rate the company's exploration portfolio.",
+        "The market-sensitive designation suggests assay results are materially above expectations, likely featuring headline-grabbing grades that differentiate this prospect from earlier-stage exploration targets in the company's pipeline.",
+        "Positive drill results at Commonwealth-Silica Hill (located in the prolific Lachlan Fold Belt, NSW) could catalyze follow-up drilling programs and attract farm-in interest, though investors should monitor Kuniko's cash position given its pre-revenue status and potential need for capital to advance the project."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "MM1",
       "company": "MIDAS MINERALS LTD",
