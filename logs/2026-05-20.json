@@ -1,9 +1,46 @@
 {
   "date": "2026-05-20",
-  "total": 110,
-  "market_sensitive_count": 100,
-  "generated_at": "2026-05-20T00:17:57.622468+00:00",
+  "total": 112,
+  "market_sensitive_count": 102,
+  "generated_at": "2026-05-20T00:45:07.295135+00:00",
   "announcements": [
+    {
+      "ticker": "EGL",
+      "company": "ENVIRONMENTAL GROUP LIMITED (THE)",
+      "headline": "Pause in Trading",
+      "time": "2026-05-20T00:25:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091955-2A1672926",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Environmental Group Limited has requested a pause in trading, which is market sensitive — typically indicating a pending material announcement such as a capital raise, acquisition, or significant corporate development.",
+        "Trading halts for small-cap ASX-listed companies like EGL often precede transformative events; investors should monitor for follow-up announcements regarding potential M&A activity, contract wins, or equity raisings that could materially alter the company's financial profile.",
+        "The halt creates near-term uncertainty — institutional investors should await the substantive announcement before adjusting positions, as the nature of the underlying news will determine whether the impact is dilutive, accretive, or operationally significant."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "First Supplementary Bidder's Statement",
+      "time": "2026-05-20T00:18:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03091953-2A1672925",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Atlas Arteria has lodged a First Supplementary Bidder's Statement, indicating an active takeover or merger process is progressing with updated or additional disclosure for target shareholders.",
+        "Supplementary bidder's statements typically address regulatory feedback, updated financials, or revised offer terms — the market-sensitive designation suggests material new information that could influence the bid's trajectory or valuation.",
+        "Institutional investors should monitor for any changes to offer price, conditions, or timeline, as supplementary filings often precede critical decision points in M&A processes and may shift the probability-weighted outcome for both bidder and target."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CEN",
       "company": "CONTACT ENERGY LIMITED",
