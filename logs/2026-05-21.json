@@ -1,9 +1,290 @@
 {
   "date": "2026-05-21",
-  "total": 41,
-  "market_sensitive_count": 29,
-  "generated_at": "2026-05-20T22:37:56.815865+00:00",
+  "total": 56,
+  "market_sensitive_count": 44,
+  "generated_at": "2026-05-20T23:03:10.370495+00:00",
   "announcements": [
+    {
+      "ticker": "HAR",
+      "company": "HARANGA RESOURCES LIMITED.",
+      "headline": "Trading Halt",
+      "time": "2026-05-20T22:57:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092301-6A1326379",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Haranga Resources has entered a trading halt, typically requested by the company pending a material announcement — the market-sensitive flag suggests a significant corporate action is imminent.",
+        "As a junior mining explorer with limited revenue, any trading halt raises questions around potential capital raise, asset transaction, or material project update that could materially alter the company's valuation and cash position.",
+        "Investors should await the pending announcement before repositioning; the halt will likely resolve within 1-2 trading days, with the nature of the news (dilutive raise vs. accretive deal) determining near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LSF",
+      "company": "L1 LONG SHORT FUND LIMITED",
+      "headline": "Shareholder Letter - May 2026",
+      "time": "2026-05-20T22:57:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092300-3A693724",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "L1 Long Short Fund released its May 2026 shareholder letter as a market-sensitive update, signaling material portfolio performance or positioning changes that management deemed significant enough to warrant immediate disclosure to the market.",
+        "As a long-short equity fund, the letter likely details monthly NAV performance, net/gross exposure shifts, and key portfolio attribution — critical metrics for institutional investors assessing alpha generation and risk management in the current market environment.",
+        "Shareholder letters from L1 Capital typically outline forward-looking thematic views and major position changes; investors should scrutinize any shifts in sector tilts, short book activity, or commentary on macro risks that could signal the fund's conviction on ASX market direction."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CNB",
+      "company": "CARNABY RESOURCES LIMITED",
+      "headline": "Trek 1 Footwall Lode Discovery Continues To Grow",
+      "time": "2026-05-20T22:55:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092299-6A1326378",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Trek 1 Footwall Lode discovery continues to expand, signaling potential for a materially larger resource base at Carnaby's Greater Dobbyn copper-gold project in the Mount Isa region, which could significantly re-rate the company's exploration value.",
+        "Ongoing drilling success at the Footwall Lode position suggests geological continuity and grade persistence, a critical de-risking factor for future resource estimation and potential development studies.",
+        "Continued growth of the discovery is likely to sustain exploration momentum and could attract strategic interest or partnership opportunities, with further assay results and extensional drilling expected to define the scale of the mineralised system."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DES",
+      "company": "DESOTO RESOURCES LIMITED",
+      "headline": "New Targets Emerge at Timbakouna",
+      "time": "2026-05-20T22:52:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092294-6A1326377",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DeSoto Resources has identified new exploration targets at its Timbakouna project, suggesting potential expansion of the mineralised footprint and increasing the prospectivity of the asset for future drilling campaigns.",
+        "Emergence of new targets at an early-stage exploration project is technically significant but pre-resource; no quantified mineralisation or economic metrics have been disclosed, meaning material value creation remains contingent on follow-up drill results.",
+        "Next steps will likely involve prioritisation and drill-testing of the newly identified targets — investors should watch for upcoming drill program announcements and funding adequacy given the company's micro-cap status and ongoing exploration expenditure requirements."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LRM",
+      "company": "LION ROCK MINERALS LTD",
+      "headline": "Lion Rock Appoints Former Sierra Rutile Leadership Team",
+      "time": "2026-05-20T22:51:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092290-6A1326370",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lion Rock has appointed key former executives from Sierra Rutile, a major mineral sands producer, signaling a significant upgrade in management capability and operational credibility for the company's mineral sands ambitions.",
+        "The recruitment of a proven leadership team with direct experience in large-scale rutile/mineral sands operations substantially de-risks project development and enhances the company's ability to attract institutional capital and strategic partners.",
+        "This management overhaul positions Lion Rock to accelerate its mineral sands project pipeline; investors should watch for near-term catalysts including updated feasibility work, offtake discussions, or potential capital raising to fund development milestones."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AVM",
+      "company": "ADVANCE METALS LIMITED",
+      "headline": "Advance moves to 100% ownership of Victorian Gold Projects",
+      "time": "2026-05-20T22:47:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092285-2A1673098",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Advance Metals has consolidated 100% ownership of its Victorian gold projects by acquiring the remaining interest, eliminating joint venture complexity and giving the company full control over exploration and development decisions.",
+        "Full ownership is strategically significant for a junior explorer as it removes partner risk, simplifies capital allocation, and positions the company to capture 100% of any future resource upside — a key consideration for institutional investors evaluating optionality value.",
+        "Next steps will likely involve accelerated exploration programs on the Victorian gold tenure; investors should monitor upcoming drilling plans, funding requirements, and whether a capital raise will be needed to advance the newly consolidated assets."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HGO",
+      "company": "HILLGROVE RESOURCES LIMITED",
+      "headline": "Hillgrove and Havilah Enter Mutooroo Partnership",
+      "time": "2026-05-20T22:45:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092282-2A1673091",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hillgrove Resources has entered a partnership with Havilah Resources over the Mutooroo copper-cobalt project, signaling strategic expansion of its copper portfolio beyond the Kanmantoo operations and diversifying its asset base.",
+        "The Mutooroo partnership provides Hillgrove access to a copper-cobalt deposit without bearing full exploration/development costs upfront, representing a capital-efficient growth strategy that preserves cash runway while adding optionality on critical minerals exposure.",
+        "The deal aligns with growing institutional interest in copper-cobalt assets driven by electrification demand; investors should watch for earn-in terms, work program commitments, and any resource definition milestones that could materially re-rate Hillgrove's valuation."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HAV",
+      "company": "HAVILAH RESOURCES LIMITED",
+      "headline": "Hillgrove and Havilah Enter Mutooroo Partnership",
+      "time": "2026-05-20T22:45:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092281-2A1673092",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Havilah Resources has entered a partnership with Hillgrove Mines (HGO) over the Mutooroo copper-cobalt project, potentially unlocking development capital and de-risking the asset without full dilution to HAV shareholders.",
+        "The Mutooroo partnership structure signals strategic validation of the copper-cobalt resource at a time of elevated base metals demand, providing a potential pathway to production funding that Havilah would struggle to achieve independently given its junior miner balance sheet.",
+        "Key next steps will be the specific earn-in terms, work program commitments, and timeline milestones — investors should watch for details on Hillgrove's expenditure obligations and any triggers that could accelerate or terminate the arrangement, as these will determine the true value transfer."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TRU",
+      "company": "TRUSCREEN GROUP LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-20T22:44:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092278-2A1673093",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "TruScreen Group Limited has entered a trading halt, suspending shares from trading pending a material announcement — the nature of the announcement is not yet disclosed but warrants immediate market sensitivity classification.",
+        "As a small-cap healthcare/medtech company with historically constrained cash runway, a trading halt frequently signals an impending capital raise or material corporate transaction that could significantly impact the share structure.",
+        "Investors should await the pending announcement before taking action; key watch items include potential equity dilution from a capital raise, partnership/licensing deal, or regulatory milestone that could reset the company's valuation trajectory."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EOS",
+      "company": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+      "headline": "Completion of MARSS Acquisition",
+      "time": "2026-05-20T22:43:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092276-2A1673094",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "EOS has completed the acquisition of MARSS, a maritime surveillance and autonomous threat detection technology company, expanding its defence technology portfolio and adding complementary capabilities in AI-driven situational awareness systems.",
+        "The completion of this M&A transaction is expected to be accretive to EOS's revenue base by adding MARSS's existing customer contracts and recurring revenue streams across naval and critical infrastructure protection markets, diversifying EOS beyond its core directed energy and space segments.",
+        "With the deal now closed, investor focus shifts to integration execution, potential cross-selling synergies across EOS's defence customer base, and whether the combined entity can accelerate pipeline conversion amid elevated global defence spending tailwinds."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ADR",
+      "company": "ADHERIUM LIMITED",
+      "headline": "Notice of Extraordinary General Meeting/Proxy Form",
+      "time": "2026-05-20T22:43:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092275-3A693719",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Adherium has called an Extraordinary General Meeting, signaling significant corporate actions requiring shareholder approval beyond the routine AGM cycle — typically involving capital raises, restructuring, or strategic transactions",
+        "For a micro-cap healthcare company like Adherium (digital health/respiratory monitoring), an EGM often precedes dilutive capital raising or asset transactions critical to extending cash runway, warranting close attention to the proxy form resolutions",
+        "Investors should scrutinize the specific resolutions being put to vote — approval of share placements, related-party transactions, or changes to company direction will determine whether this event is value-accretive or dilutive for existing shareholders"
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STM",
+      "company": "SUNSTONE METALS LTD",
+      "headline": "Drilling continues to intersect mineralisation",
+      "time": "2026-05-20T22:42:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092273-2A1673090",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sunstone Metals reports continued drilling success with ongoing mineralisation intersections at its exploration project, reinforcing the geological model and de-risking the resource potential for future development stages.",
+        "Consistent mineralisation hits across multiple drill holes suggest the deposit may have greater continuity and scale than previously modelled, which could materially impact any future resource estimate upgrade and enhance project economics.",
+        "Investors should watch for assay results from current drilling programs as the key near-term catalyst; positive grade confirmations would strengthen the investment case and could trigger re-rating, while the company's cash position and ability to fund continued exploration without dilutive capital raises remains a critical monitoring point."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NES",
+      "company": "NELSON RESOURCES LIMITED.",
+      "headline": "Drill equipment mobilised to Gold Point",
+      "time": "2026-05-20T22:38:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092269-6A1326375",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nelson Resources has mobilised drill equipment to its Gold Point prospect, signalling imminent commencement of an exploration drilling campaign — a key catalyst for a junior gold explorer seeking to define or extend mineralisation.",
+        "Mobilisation of drill rigs represents a tangible capital deployment milestone, indicating the company has secured funding and contractor availability to advance its gold exploration program in Western Australia's prospective goldfields region.",
+        "Upcoming drill results will be the next major share price catalyst; successful intersections at Gold Point could materially re-rate the stock, while the market-sensitive designation suggests management views this as a significant operational inflection point."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PL3",
+      "company": "PATAGONIA LITHIUM LTD",
+      "headline": "Excellent Brine Extraction from Formentera Lithium Well 7",
+      "time": "2026-05-20T22:35:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092265-3A693714",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Patagonia Lithium reports successful brine extraction from Well 7 at its Formentera project, signaling continued de-risking of the lithium brine resource and validating the prospectivity of the tenement package in Argentina's lithium triangle.",
+        "The 'excellent' characterization of brine extraction results suggests strong lithium concentrations and flow rates, which are critical technical milestones for advancing toward a resource estimate and eventual feasibility studies — key value inflection points for junior lithium explorers.",
+        "As a pre-revenue junior explorer, the near-term focus will shift to assay results from Well 7 and integration into the broader drilling program; investors should monitor lithium grade confirmations and the company's cash position to fund continued exploration without excessive dilution."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IPX",
+      "company": "IPERIONX LIMITED",
+      "headline": "IperionX Commissions Six-Axis Powder Metallurgy Press",
+      "time": "2026-05-20T22:34:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092262-6A1326372",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "IperionX has commissioned a six-axis powder metallurgy press at its Virginia facility, a critical milestone in scaling its titanium metal production capabilities from pilot to commercial-scale near-net-shape component manufacturing.",
+        "The advanced press enables production of complex titanium components using IperionX's proprietary hydrogen-assisted metallurgy process, positioning the company to target high-value defense, aerospace, and automotive supply chains where domestic US titanium sourcing is increasingly prioritized.",
+        "Commissioning de-risks the pathway toward commercial revenue generation and strengthens IperionX's positioning for US government and OEM offtake agreements, with the Virginia facility buildout progressing toward initial production milestones."
+      ],
+      "tags": [
+        "Production",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "IPG",
       "company": "IPD GROUP LTD",
