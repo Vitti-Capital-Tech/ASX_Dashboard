@@ -1,9 +1,200 @@
 {
   "date": "2026-05-22",
-  "total": 29,
-  "market_sensitive_count": 22,
-  "generated_at": "2026-05-21T22:58:51.207672+00:00",
+  "total": 39,
+  "market_sensitive_count": 31,
+  "generated_at": "2026-05-21T23:24:54.877224+00:00",
   "announcements": [
+    {
+      "ticker": "AS1",
+      "company": "ASARA RESOURCES LIMITED",
+      "headline": "More outstanding Results at the Kada Gold Project",
+      "time": "2026-05-21T23:21:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092758-3A693827",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Asara Resources reports further high-grade gold results at the Kada Gold Project, reinforcing the prospectivity of the asset and potential for resource definition — a key catalyst for junior explorer re-rating.",
+        "The use of 'outstanding results' in the headline signals significant assay grades likely exceeding prior intercepts, which if confirmed by detailed data, could materially upgrade the project's economic potential and attract market attention.",
+        "Continued exploration success at Kada positions Asara for potential resource estimation milestones, though investors should monitor cash reserves and any forthcoming capital raise requirements to fund ongoing drilling programs."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ORN",
+      "company": "ORION MINERALS LTD",
+      "headline": "Corresponding Voluntary Suspension Not Declared on JSE",
+      "time": "2026-05-21T23:14:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092751-3A693783",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Orion Minerals' voluntary suspension on the ASX was not mirrored by a corresponding suspension on the Johannesburg Stock Exchange (JSE), meaning shares remain tradeable on the JSE during the ASX halt period, creating a potential information asymmetry between the two exchanges.",
+        "The divergence in suspension status across dual-listed venues suggests the underlying trigger for the ASX halt may be procedural or ASX-specific rather than indicative of a material adverse event, though investors should monitor for the substantive announcement that prompted the original suspension request.",
+        "Institutional investors with JSE access may use the continued JSE trading as a price discovery mechanism; however, liquidity and pricing on the JSE during this period should be interpreted cautiously until the ASX suspension is lifted and the pending announcement is released."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MPK",
+      "company": "MANY PEAKS MINERALS LTD",
+      "headline": "A$27.5M Placement to Complete PFS and Extensive Drilling",
+      "time": "2026-05-21T23:13:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092747-6A1326526",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Many Peaks Minerals is raising A$27.5M via placement, providing substantial funding to advance its project through Pre-Feasibility Study completion — a significant de-risking milestone that could unlock further valuation uplift if results are positive.",
+        "The capital raise size is material for a junior explorer, suggesting strong institutional demand and confidence in the asset base, though existing shareholders face meaningful dilution at what is likely a discount to the last traded price.",
+        "Proceeds earmarked for extensive drilling programs alongside PFS work signals the company is accelerating exploration to expand or upgrade its resource base, with catalysts from drill results and PFS outcomes expected to drive near-term newsflow."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "APX",
+      "company": "APPEN LIMITED",
+      "headline": "AGM - CEO's Address & Presentation - Guidance Reaffirmed",
+      "time": "2026-05-21T23:13:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092746-2A1673309",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Appen reaffirmed FY guidance at its AGM, signaling management confidence in the current trajectory and reducing near-term earnings uncertainty for investors in a stock that has faced significant volatility.",
+        "CEO's address and presentation at the AGM likely highlighted progress on the strategic pivot toward generative AI data services, a critical growth vector as legacy data annotation revenues face structural headwinds from automation.",
+        "Guidance reaffirmation is particularly meaningful given Appen's history of downgrades in recent years; maintaining targets suggests stabilization in customer demand and contract pipeline, potentially marking an inflection point for sentiment recovery."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HIQ",
+      "company": "HITIQ LIMITED",
+      "headline": "Victorian Government Non-Dilutive Funding Grant Agreement",
+      "time": "2026-05-21T23:10:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092741-6A1326539",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "HitIQ secured a non-dilutive funding grant from the Victorian Government, providing capital injection without shareholder dilution — a positive signal for preserving equity value in a micro-cap company.",
+        "Non-dilutive government grants extend cash runway and validate the company's technology proposition, particularly significant for HitIQ's head impact sensing technology which aligns with growing sports safety and healthcare mandates.",
+        "The Victorian Government backing serves as a credibility marker that could support future commercial partnerships and additional grant applications, while the market-sensitive designation suggests the funding quantum is material relative to HitIQ's current capitalisation."
+      ],
+      "tags": [
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IG6",
+      "company": "INTERNATIONAL GRAPHITE LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-21T23:09:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092738-6A1326538",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "International Graphite Limited has entered a trading halt, typically indicating a pending material announcement such as a capital raise, strategic transaction, or significant operational update for this junior graphite developer.",
+        "As a micro-cap ASX-listed graphite company with limited revenue, any capital raise associated with this halt would likely be dilutive to existing shareholders and critical for extending cash runway to advance its Springdale graphite project and downstream processing ambitions.",
+        "Investors should await the detailed announcement post-halt to assess whether the catalyst is a funding event (bearish short-term due to dilution), offtake/partnership agreement (potentially bullish), or other material development impacting the company's critical minerals strategy."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FXG",
+      "company": "FELIX GOLD LIMITED",
+      "headline": "Further Near-Surface High-Grade Gold Across NW Array",
+      "time": "2026-05-21T23:06:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092734-2A1673308",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Felix Gold reports further near-surface high-grade gold intercepts across the NW Array at its Fairbanks Gold Project in Alaska, reinforcing the district-scale potential and continuity of mineralisation across multiple targets.",
+        "Near-surface, high-grade results are technically significant as they support potential for low strip-ratio, open-pit mining scenarios which could materially improve project economics and attract development-stage interest or JV partners.",
+        "Continued exploration success across the NW Array is expected to feed into resource definition work; investors should watch for upcoming resource estimates, metallurgical studies, and any capital raise to fund accelerated drilling programs given the company's junior explorer cash profile."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PCK",
+      "company": "PAINCHEK LTD",
+      "headline": "PainChek secures A$5.5m note to fund US expansion",
+      "time": "2026-05-21T23:05:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092733-2A1673310",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PainChek has secured A$5.5m in convertible note funding specifically earmarked for US market expansion, signaling a strategic pivot toward the significantly larger US healthcare and aged care market opportunity.",
+        "Convertible note structure introduces potential dilution risk for existing shareholders, though the non-equity immediate nature preserves current share structure while providing critical growth capital without a traditional capital raise discount.",
+        "US expansion represents a material inflection point for the digital pain assessment company — success in penetrating the US market could dramatically scale recurring SaaS revenues, but execution risk remains elevated given regulatory and competitive dynamics in US healthcare."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SPG",
+      "company": "SPC GLOBAL HOLDINGS LTD",
+      "headline": "Opening of Entitlement Offer",
+      "time": "2026-05-21T23:04:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092731-3A693820",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "SPC Global Holdings has opened its entitlement offer, signaling an active capital raise that will dilute existing shareholders unless they participate pro-rata in the offering.",
+        "The entitlement offer structure typically provides existing shareholders the right to subscribe at a discount to market price, with the capital likely earmarked for working capital, debt reduction, or growth initiatives — key details investors should scrutinize in the offer booklet.",
+        "Near-term share price pressure is expected as the market absorbs potential dilution and the offer price acts as a ceiling; investors should monitor take-up rates and any shortfall bookbuild arrangements for secondary market impact."
+      ],
+      "tags": [
+        "Capital Raise"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ARU",
+      "company": "ARAFURA RARE EARTHS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-21T23:03:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092730-6A1326535",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Arafura Rare Earths has entered a trading halt, likely preceding a material announcement related to its Nolans NdPr project financing, offtake agreements, or a potential capital raise given the company's ongoing funding requirements.",
+        "The company has been navigating a challenging funding environment for its flagship Nolans rare earths project (estimated capex ~A$1.6B+), and any halt may signal progress or restructuring of its capital strategy, with significant dilution risk for existing shareholders.",
+        "Investors should watch for the nature of the pending announcement — a strategic partnership or government funding commitment would be constructive, while an equity raise at current depressed levels would pressure the stock further given ARU's pre-revenue status and limited cash runway."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BEN",
       "company": "BENDIGO AND ADELAIDE BANK LIMITED",
