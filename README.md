@@ -16,6 +16,7 @@ Every day, hundreds of companies release official announcements on the stock mar
 4. **Highlights Bullish News:** Our AI analyzes text and flags positive announcements with a green **▲ BULLISH** badge and a glowing green card.
 5. **Tracks Substantial Holders:** Detects when major investors cross the 5% ownership threshold — a key signal for potential takeovers or institutional confidence.
 6. **Organizes by Category:** Filter news by type — Bullish, Dividends, Capital Raises, Results, Substantial Holding, Trading Halts, and more.
+7. **WhatsApp Summary Generation:** Formats copy-pastable, mobile-friendly 5-6 line summaries for Placement & IPO campaigns, facilitating direct sharing with clients.
 
 ---
 
@@ -23,9 +24,10 @@ Every day, hundreds of companies release official announcements on the stock mar
 
 1. **Pick a Date:** On the left sidebar, choose the date you want to inspect.
 2. **Filter by Category:** Use the tab bar at the top to filter by "Bullish", "Substantial Holding", "Results", etc.
-3. **Search:** Type a ticker (e.g. `BHP`) or company name into the search bar to find specific news.
-4. **Market Overview:** The sidebar shows a live summary — total announcements, sensitive news count, substantial holders, bullish signals, active tickers, and trading halts.
-5. **Export:** Click **Export CSV Data** in the sidebar to download the full day's data.
+3. **WhatsApp Messages Tab:** Access the **Whatsapp Messages** tab to view processed Placement & IPO summaries. Hover over any card and click the copy button to copy the pre-formatted 5-6 line summary directly to your clipboard.
+4. **Search:** Type a ticker (e.g. `BHP`) or company name into the search bar to find specific news.
+5. **Market Overview:** The sidebar shows a live summary — total announcements, sensitive news count, substantial holders, bullish signals, active tickers, and trading halts.
+6. **Export:** Click **Export CSV Data** in the sidebar to download the full day's data.
 
 ---
 
@@ -61,6 +63,18 @@ For a deeper understanding of the architecture and AI pipeline:
 
 - [High-Level Design (HLD)](docs/HLD.md)
 - [Low-Level Design (LLD)](docs/LLD.md)
+
+### Developer CLI & Export Commands
+
+To run the WhatsApp message generator CLI directly, you can pass a raw source text:
+```bash
+python fetch_msg.py --input "Raw text from placement document..."
+```
+
+To export Placement & IPO details from the sqlite database:
+```bash
+python scripts/export_placements.py --db path/to/state.db --out ./placements --date YYYY-MM-DD
+```
 
 ---
 *Created by [Tushar Bhardwaj](https://minianonlink.vercel.app/tusharbhardwaj) for automated market intelligence.*

@@ -20,20 +20,37 @@ The system is built on a **Decoupled Serverless Architecture**. It segregates th
 
 #### B. The Presentation Layer (Next.js 14)
 *   **Framework:** Built entirely on Next.js App Router with React 18.
-*   **Backend-for-Frontend (BFF):** A local API route (`/api/logs/[date]`) acts as a bridge, reading the JSON log files from the server's disk and serving them to the browser securely, bypassing CORS constraints.
-*   **Client Interface:** A highly responsive dashboard using Tailwind CSS ("Midnight Intelligence" theme). It features client-side text filtering, layout toggling, and theme switching.
+*   **Backend-for-Frontend (BFF):** Local API routes (`/api/logs/[date]` and `/api/placements/[date]`) act as bridges, reading local JSON logs or querying external backend APIs and serving them securely to the browser.
+*   **Client Interface:** A highly responsive dashboard using Tailwind CSS ("Midnight Intelligence" theme). It features client-side text filtering, layout toggling, theme switching, and a dedicated copy-to-clipboard system for WhatsApp messages.
+
+#### C. Placement/IPO Engine & WhatsApp Summary Generator
+*   **Source Database:** Reads approved/pending placement/IPO campaigns from the `Placement_copy` SQLite database.
+*   **AI Summary Pipeline (`fetch_msg.py`):** Integrates with the Anthropic Claude API to generate a highly concise 5-6 line summary optimized for mobile readability/sharing on WhatsApp. Also capable of drafting professional client emails.
+*   **Export Pipeline (`scripts/export_placements.py`):** Extracts, classifies (Placement vs. IPO), and serializes campaign details into daily JSON files (`placements/YYYY-MM-DD.json`).
+*   **EC2 API Integration:** The dashboard pulls live placement and campaign details through Next.js proxy routes referencing an external API server running on AWS EC2 (`http://3.25.70.124:8000`).
 
 ### 4. System Flow Diagram
 
 ```mermaid
 graph TD
-    A[ASX Markit API] -->|Raw JSON| B(fetch_asx.py)
-    B -->|Headline/Context| C{Groq LLaMA-3}
-    C -->|AI Summary & Tags| B
-    B -->|Appends to| D[(YYYY-MM-DD.json)]
-    D --> E[Next.js API Route]
-    E --> F[React Dashboard]
-    F -->|Polled every 5 mins| E
+    %% ASX Announcements Pipeline
+    ASX[ASX Markit API] -->|Raw JSON| FA(fetch_asx.py)
+    FA -->|Headline/Context| G{Groq LLaMA-3}
+    G -->|AI Summary & Tags| FA
+    FA -->|Appends to| DL[(logs/YYYY-MM-DD.json)]
+    DL --> BFF1[Next.js API: /api/logs/date]
+
+    %% Placement & IPO Pipeline
+    DB[(Placement DB: state.db)] -->|Pending Campaigns| EP(export_placements.py)
+    EP -->|Source Text| FM(fetch_msg.py)
+    FM -->|Claude API| WA[5-6 Line WhatsApp Summary]
+    EP -->|JSON Serialization| PL[(placements/YYYY-MM-DD.json)]
+    EC2[EC2 API Server :8000] -->|Serves placement data| BFF2[Next.js API: /api/placements/date]
+
+    %% Frontend Layer
+    BFF1 --> Dashboard[React Dashboard]
+    BFF2 --> Dashboard
+    Dashboard -->|Copy to Clipboard| Clip[Clipboard / Client Sharing]
 ```
 
 ### 5. Automation Strategy
