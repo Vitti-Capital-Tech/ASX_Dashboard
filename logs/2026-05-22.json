@@ -1,9 +1,197 @@
 {
   "date": "2026-05-22",
-  "total": 39,
-  "market_sensitive_count": 31,
-  "generated_at": "2026-05-21T23:24:54.877224+00:00",
+  "total": 49,
+  "market_sensitive_count": 41,
+  "generated_at": "2026-05-21T23:46:52.520474+00:00",
   "announcements": [
+    {
+      "ticker": "AVE",
+      "company": "AVECHO BIOTECHNOLOGY LIMITED",
+      "headline": "Receipt of Research & Development Tax Incentive",
+      "time": "2026-05-21T23:41:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092784-3A693834",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Avecho Biotechnology received an R&D Tax Incentive refund, providing a non-dilutive cash injection that directly extends the company's cash runway — critical for a pre-revenue biotech with ongoing development programs.",
+        "While the exact quantum is not disclosed in the headline, R&D tax incentive receipts for small-cap biotechs typically represent a material portion of annual cash reserves, reducing near-term capital raise pressure.",
+        "The refund signals continued eligible R&D expenditure, indicating active progression of Avecho's drug delivery platform (TPM technology); investors should monitor whether this cash bridge is sufficient to reach the next clinical or commercial milestone without dilutive funding."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NX1",
+      "company": "NEXALIS THERAPEUTICS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-21T23:38:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092783-3A693833",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Nexalis Therapeutics has entered a trading halt, typically indicating a pending material announcement such as a capital raise, clinical milestone, or corporate transaction that requires price-sensitive disclosure.",
+        "As a therapeutics-stage company, trading halts frequently precede equity raisings to fund clinical programs, which could signal near-term dilution but also potential pipeline advancement — investors should monitor cash runway implications closely.",
+        "The halt will remain in place until the company makes its announcement or the ASX-mandated maximum period expires; the nature of the pending disclosure will be critical in determining whether this is a value-creating or dilutive event."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TRI",
+      "company": "TRIVARX LTD",
+      "headline": "CRO Engaged to Advance Stabl-Im Phase 1 Trial",
+      "time": "2026-05-21T23:36:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092778-3A693832",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TrivarX has engaged a Contract Research Organisation (CRO) to advance its Stabl-Im Phase 1 clinical trial, signaling a meaningful de-risking milestone as the company transitions from preclinical to clinical-stage development.",
+        "CRO engagement implies committed near-term cash deployment toward trial execution; investors should monitor the company's cash runway and potential need for future capital raises to fund the Phase 1 program through completion.",
+        "Successful CRO onboarding accelerates the regulatory and operational timeline for the Stabl-Im program, with key upcoming catalysts including trial site activation, first patient enrollment, and interim safety/efficacy data readouts."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BLZ",
+      "company": "BLAZE MINERALS LIMITED",
+      "headline": "Exploration Update at Dinokwe",
+      "time": "2026-05-21T23:30:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092774-6A1326549",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Blaze Minerals has released a market-sensitive exploration update at its Dinokwe project, signaling potential progress in delineating mineralization that could materially impact the company's resource base and valuation trajectory.",
+        "As a micro-cap explorer, any positive drill or geophysical results at Dinokwe are critical to sustaining investor interest and justifying ongoing exploration expenditure against a likely constrained cash runway.",
+        "Investors should monitor follow-up assay results, planned drilling programs, and any capital raise requirements to fund continued exploration — the path from discovery to resource definition remains the key de-risking catalyst for Blaze Minerals."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GRL",
+      "company": "GODOLPHIN RESOURCES LIMITED",
+      "headline": "Appointment of Lead Manager to advance Critical Minerals IPO",
+      "time": "2026-05-21T23:29:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092773-6A1326529",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Godolphin Resources has appointed a lead manager to advance an IPO for its critical minerals assets, signaling intent to unlock value through a separate listing and potentially raise fresh capital for exploration/development.",
+        "The spin-out IPO structure suggests Godolphin is seeking to crystallize value in its critical minerals portfolio independently, which could provide a re-rating catalyst for the parent entity while attracting specialist investor capital to the new vehicle.",
+        "Key next steps include IPO pricing, asset delineation into the new entity, and regulatory approvals — execution risk remains, but the appointment of a lead manager indicates the process is materially progressing beyond conceptual stage."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BGT",
+      "company": "BIO-GENE TECHNOLOGY LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-21T23:28:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092771-3A693828",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "BIO-GENE TECHNOLOGY LTD has entered a trading halt, typically preceding a material announcement such as a capital raise, partnership deal, or significant clinical/regulatory update for the biotech company.",
+        "As a micro-cap biotech with limited revenue, any trading halt raises immediate questions about cash runway — a capital raise would be dilutive but could extend operations, while a licensing deal or M&A approach could be transformative.",
+        "Investors should await the pending announcement before repositioning; the nature of the disclosure (equity raise vs. commercial milestone) will be the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARU",
+      "company": "ARAFURA RARE EARTHS LTD",
+      "headline": "Arafura Launches A$350m Placement and A$25m SPP",
+      "time": "2026-05-21T23:27:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092769-6A1326544",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Arafura is raising A$375m (A$350m placement + A$25m SPP), representing substantial dilution for existing shareholders and signaling urgent funding needs likely tied to the Nolans NdPr rare earths project development.",
+        "The scale of the capital raise — potentially exceeding 50% of pre-raise market capitalisation — implies significant near-term dilution pressure, with the placement price discount likely to weigh heavily on the share price at open.",
+        "Proceeds are expected to fund project development milestones for Nolans, extending the cash runway and de-risking the path toward production, but execution risk remains elevated given the capital-intensive nature of rare earths processing infrastructure."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IMU",
+      "company": "IMUGENE LIMITED",
+      "headline": "Azer-cel Data from CAR T naive cohort in ASCO 2026 abstract",
+      "time": "2026-05-21T23:27:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092767-3A693829",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Imugene's azer-cel (azercabtagene zapreleucel) CAR-T therapy data from CAR-T naive patients has been accepted for presentation at ASCO 2026, one of the world's premier oncology conferences — a significant validation milestone for the company's lead cell therapy asset.",
+        "Inclusion of a CAR-T naive cohort is strategically important as it positions azer-cel as a potential earlier-line treatment option rather than salvage therapy, substantially expanding the addressable market and differentiation from competing CAR-T products.",
+        "ASCO abstract acceptance is a near-term catalyst that could attract partnering interest and support future capital raising efforts; investors should monitor the full data presentation for response rates, durability, and safety signals that will determine the asset's commercial viability and Imugene's cash runway requirements."
+      ],
+      "tags": [
+        "Healthcare",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LEX",
+      "company": "LEFROY EXPLORATION LIMITED",
+      "headline": "$3.6 Million Placement for Evaluation of Mt Martin Deposit",
+      "time": "2026-05-21T23:27:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092765-6A1326542",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Lefroy Exploration raising $3.6M via placement to fund evaluation of the Mt Martin gold deposit, signaling a strategic pivot toward advancing this asset to a potential development decision.",
+        "The placement will dilute existing shareholders but provides critical funding for resource evaluation work; at junior explorer scale, $3.6M offers a meaningful 12-18 month runway for technical studies and drilling programs.",
+        "Proceeds earmarked specifically for Mt Martin deposit evaluation suggest the company sees sufficient geological merit to justify capital allocation — investors should watch for upcoming resource estimates, metallurgical results, and scoping study milestones."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AVW",
+      "company": "AVIRA RESOURCES LTD",
+      "headline": "Siteworks Commence At The High-Grade Mt Cattlin Gold Project",
+      "time": "2026-05-21T23:24:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092764-6A1326548",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Avira Resources has commenced siteworks at its Mt Cattlin Gold Project, signaling a transition from exploration planning to active ground operations — a key de-risking milestone for this junior explorer.",
+        "The 'high-grade' characterization in the announcement suggests the company is targeting mineralization with potentially economic gold grades, though investors should await assay results and resource estimates to validate this claim.",
+        "Commencement of physical siteworks typically precedes drilling campaigns and could serve as a near-term catalyst if initial results confirm high-grade gold intercepts, though AVW's micro-cap status means execution risk and funding requirements remain critical watchpoints."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AS1",
       "company": "ASARA RESOURCES LIMITED",
