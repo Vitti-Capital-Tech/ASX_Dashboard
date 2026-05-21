@@ -1,9 +1,142 @@
 {
   "date": "2026-05-21",
-  "total": 96,
-  "market_sensitive_count": 81,
-  "generated_at": "2026-05-20T23:58:17.826818+00:00",
+  "total": 103,
+  "market_sensitive_count": 88,
+  "generated_at": "2026-05-21T00:45:22.006553+00:00",
   "announcements": [
+    {
+      "ticker": "ABG",
+      "company": "ABACUS GROUP",
+      "headline": "Media Speculation",
+      "time": "2026-05-21T00:31:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092416-2A1673156",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Abacus Group has issued a market-sensitive response to media speculation, typically indicating potential M&A activity, asset disposal, or corporate restructuring that has leaked to the press before formal announcement",
+        "Media speculation announcements for property groups like Abacus often relate to portfolio transactions, merger proposals, or takeover interest — any of which could materially re-rate the stock depending on terms and strategic rationale",
+        "Investors should monitor for a follow-up substantive announcement; the market-sensitive tag suggests the company may be confirming or partially addressing the speculation rather than simply denying it, which could accelerate near-term price discovery"
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AVE",
+      "company": "AVECHO BIOTECHNOLOGY LIMITED",
+      "headline": "Avecho completes treatment for Phase III interim analysis",
+      "time": "2026-05-21T00:16:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092410-3A693752",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Avecho has completed treatment of all patients required for the pre-specified interim analysis of its Phase III clinical trial, a key de-risking milestone that moves the program closer to a potential regulatory catalyst.",
+        "The interim analysis by an independent Data Safety Monitoring Board (DSMB) will assess efficacy and safety data, with the outcome likely to determine whether the trial continues, is modified, or achieves early success — a binary event for the stock.",
+        "Investors should watch for the DSMB's recommendation in the near term; a positive interim readout could significantly re-rate the company, while the micro-cap's limited cash runway makes trial progression timelines critical to funding requirements."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KPO",
+      "company": "KALINA POWER LIMITED",
+      "headline": "MAJOR REGULATORY AGREEMENT ENHANCES KALiNAS PROJECTS",
+      "time": "2026-05-21T00:14:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092408-6A1326414",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kalina Power has secured a major regulatory agreement that materially de-risks its project pipeline, potentially accelerating development timelines and reducing permitting uncertainty for its KalinaCycle waste heat recovery technology.",
+        "Regulatory clarity is a critical milestone for a pre-revenue company like Kalina (market cap sub-$20M), as it strengthens the commercial viability of projects and improves the company's positioning for offtake agreements and potential project financing.",
+        "Next steps will be execution-dependent — investors should watch for conversion of this regulatory framework into binding commercial contracts, construction milestones, and any capital raise requirements to fund project development given the company's limited cash runway."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AFP",
+      "company": "AFT PHARMACEUTICALS LIMITED",
+      "headline": "Dividend distribution update",
+      "time": "2026-05-21T00:07:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092404-2A1673149",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "AFT Pharmaceuticals has announced a dividend distribution update, signaling confidence in cash flow generation and a commitment to returning capital to shareholders — a positive signal for a specialty pharma company that has historically reinvested heavily in growth.",
+        "The initiation or continuation of dividends suggests AFT's revenue streams (including Maxigesic and licensed products) are maturing sufficiently to support both R&D investment and shareholder returns, indicating improving free cash flow dynamics.",
+        "Investors should monitor the dividend quantum, payout ratio, and franking status for implications on AFT's capital allocation strategy and whether this signals a structural shift toward sustained distributions or remains a one-off event."
+      ],
+      "tags": [
+        "Dividend",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EQT",
+      "company": "EQT HOLDINGS LIMITED",
+      "headline": "ETSLs intention to defend First Guardian ASIC proceedings",
+      "time": "2026-05-21T00:07:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092403-3A693751",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EQT Holdings' subsidiary Equity Trustees Superannuation Limited (ETSL) has signaled its intention to defend ASIC proceedings related to First Guardian, indicating potential legal costs and management distraction that could weigh on near-term earnings and sentiment.",
+        "The ASIC proceedings likely relate to trustee oversight obligations in connection with the collapsed First Guardian fund, raising regulatory risk for EQT's trustee services business — a core revenue segment — and potential reputational concerns among institutional clients.",
+        "The decision to defend rather than settle suggests EQT believes it has a strong legal position, but the outcome remains uncertain; investors should monitor for provision updates, legal cost disclosures, and any potential penalties that could impact capital allocation and dividend capacity."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RAP",
+      "company": "RAPTOR METALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-20T23:58:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092401-2A1673148",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Raptor Metals has entered a trading halt, typically preceding a material announcement such as a capital raise, significant exploration results, or corporate transaction for this early-stage mining explorer.",
+        "As a micro-cap ASX-listed explorer, any capital raise associated with this halt would likely be dilutive; investors should monitor the size and pricing of any potential placement relative to recent trading levels.",
+        "Trading is expected to resume upon release of the pending announcement or within two business days; the nature of the announcement will be critical in determining whether this represents a value catalyst or dilution event."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FND",
+      "company": "FINDI LIMITED",
+      "headline": "FY26 Guidance and Operational Update improvements",
+      "time": "2026-05-20T23:55:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092400-3A693749",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Findi Limited has issued FY26 guidance alongside operational update improvements, signaling management confidence in forward earnings visibility and business trajectory — a positive signal for institutional holders seeking clarity on growth path.",
+        "The explicit provision of FY26 guidance suggests the company has reached sufficient operational maturity and revenue predictability to commit to forward estimates, which typically de-risks the equity story and supports re-rating potential in small-cap fintech/payments names.",
+        "Operational improvements flagged in the update likely relate to Findi's Indian ATM and digital payments network — investors should focus on transaction volume growth, margin expansion, and any revised revenue/EBITDA targets relative to prior consensus to assess upside materiality."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "PPY",
       "company": "PAPYRUS AUSTRALIA LIMITED",
