@@ -1,9 +1,142 @@
 {
   "date": "2026-05-22",
-  "total": 22,
-  "market_sensitive_count": 15,
-  "generated_at": "2026-05-21T22:33:59.221069+00:00",
+  "total": 29,
+  "market_sensitive_count": 22,
+  "generated_at": "2026-05-21T22:58:51.207672+00:00",
   "announcements": [
+    {
+      "ticker": "BEN",
+      "company": "BENDIGO AND ADELAIDE BANK LIMITED",
+      "headline": "BEN 3Q26 Additional Credit Risk Tables",
+      "time": "2026-05-21T22:44:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092714-3A693814",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bendigo and Adelaide Bank released supplementary credit risk tables for 3Q26, providing granular asset quality data that institutional investors use to assess provisioning adequacy and portfolio risk trends.",
+        "The additional credit risk disclosure, flagged as market sensitive, suggests material changes in credit metrics that the bank considers significant enough to warrant standalone release beyond standard quarterly reporting.",
+        "Investors should cross-reference these tables against prior quarter credit risk data to identify shifts in impaired assets, provisioning coverage ratios, and sector-specific exposures that could signal emerging stress in the loan book."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TVN",
+      "company": "TIVAN LIMITED",
+      "headline": "Tivan signs binding agreements in Timor-Leste",
+      "time": "2026-05-21T22:39:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092710-6A1326524",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tivan has executed binding agreements in Timor-Leste, signaling a concrete step toward securing new project assets or partnerships in the resource-rich Southeast Asian nation, potentially diversifying its geographic and revenue base beyond Australia.",
+        "For a micro-cap explorer/developer like Tivan, binding (not indicative) agreements represent a material de-risking event, likely improving market perception of execution capability and providing a clearer pathway to future resource development or processing revenues.",
+        "Key next steps for investors include clarity on the commercial terms, capital requirements, and timeline to first revenue from Timor-Leste operations — any significant capex obligations or equity funding needs could weigh on the company's already constrained cash runway."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AGI",
+      "company": "AINSWORTH GAME TECHNOLOGY LIMITED",
+      "headline": "Trading Update - Half 1 CY26",
+      "time": "2026-05-21T22:37:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092706-2A1673297",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ainsworth Game Technology issues a half-year trading update for H1 CY26, signaling management is proactively communicating material financial performance trends to the market ahead of formal results.",
+        "As a market-sensitive announcement, the update likely contains revised earnings guidance or notable deviations from consensus expectations, which could drive significant re-rating of the stock depending on whether the update flags outperformance or headwinds in gaming machine sales and recurring revenue streams.",
+        "Investors should watch for commentary on North American and Australian market share dynamics, ship-share trends, and recurring revenue growth from the digital/online segment, as these are key valuation drivers for Ainsworth under Novomatic's majority ownership."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WCN",
+      "company": "WHITE CLIFF MINERALS LIMITED",
+      "headline": "White Cliff Awarded CAD$250k Exploration Grant",
+      "time": "2026-05-21T22:37:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092705-6A1326525",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "White Cliff Minerals secured a CAD$250,000 (~A$280k) exploration grant from the Ontario Junior Exploration Program, providing non-dilutive funding that preserves shareholder equity while advancing Canadian exploration assets.",
+        "For a micro-cap explorer, the grant represents meaningful supplementary funding that extends cash runway for field programs without requiring a capital raise, though the absolute amount remains modest relative to typical drill program costs.",
+        "The grant validates the prospectivity of White Cliff's Ontario exploration portfolio in the eyes of government assessors, potentially de-risking the asset ahead of future exploration campaigns and supporting the company's narrative for subsequent funding rounds."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BEN",
+      "company": "BENDIGO AND ADELAIDE BANK LIMITED",
+      "headline": "BEN Basel III Pillar 3 Disclosures APS 330",
+      "time": "2026-05-21T22:36:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092704-3A693813",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bendigo and Adelaide Bank has released its Basel III Pillar 3 (APS 330) disclosures, providing updated transparency on capital adequacy, credit risk, and leverage ratios — a key regulatory compliance update for institutional credit and equity analysts.",
+        "The market-sensitive tag suggests material changes in capital metrics (e.g., CET1 ratio, risk-weighted assets, or credit quality) that could influence the bank's perceived financial resilience and ability to support dividends or growth lending.",
+        "Investors should scrutinize movements in CET1 and Tier 1 capital ratios relative to APRA minimums and peer benchmarks (CBA, NAB, WBC, ANZ), as any tightening of buffers could signal constraints on capital management or shareholder returns."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TUA",
+      "company": "TUAS LIMITED",
+      "headline": "Termination of M1 Sale and Purchase Agreement",
+      "time": "2026-05-21T22:35:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092700-2A1673296",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TUAS LIMITED has terminated the Sale and Purchase Agreement for M1, signaling the collapse of a significant M&A transaction that would have reshaped the company's asset portfolio and strategic positioning in the Singapore telecoms market.",
+        "The termination removes a potential capital inflow or restructuring catalyst, likely leaving TUAS to continue operating M1 under its existing structure, which may disappoint investors who had priced in deal-related upside or strategic optionality.",
+        "Investors should watch for management commentary on the rationale for termination — whether driven by regulatory hurdles, valuation disagreements, or strategic pivot — and any revised capital allocation or growth strategy that follows."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ALI",
+      "company": "ARGO GLOBAL LISTED INFRASTRUCTURE LIMITED",
+      "headline": "Share Purchase Plan details",
+      "time": "2026-05-21T22:32:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092699-2A1673292",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Argo Global Listed Infrastructure (ALI) is launching a Share Purchase Plan, enabling existing shareholders to acquire additional shares, which will raise capital but introduces potential dilution to existing holders.",
+        "SPP details signal the company is seeking to grow its capital base, likely to fund further investments in global listed infrastructure assets or manage balance sheet positioning amid current market conditions.",
+        "Investors should monitor the SPP pricing mechanism (typically at a discount to market), participation rate, and total raise size to assess the degree of dilution and whether proceeds are deployed accretively into the infrastructure portfolio."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GYG",
       "company": "GUZMAN Y GOMEZ LIMITED",
