@@ -1,9 +1,123 @@
 {
   "date": "2026-05-21",
-  "total": 104,
-  "market_sensitive_count": 89,
-  "generated_at": "2026-05-21T01:41:58.280037+00:00",
+  "total": 110,
+  "market_sensitive_count": 92,
+  "generated_at": "2026-05-21T03:10:14.247666+00:00",
   "announcements": [
+    {
+      "ticker": "RMI",
+      "company": "RESOURCE MINERALS INTERNATIONAL LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-21T02:54:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092468-6A1326439",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has altered their position in Resource Minerals International Ltd, signaling a shift in major shareholder dynamics that institutional investors should monitor for potential strategic implications.",
+        "Changes in substantial holdings for micro-cap resource companies like RMI can reflect insider confidence adjustments or portfolio rebalancing, though the filing is flagged as not market sensitive, suggesting a routine threshold crossing rather than a material strategic move.",
+        "Investors should track whether this change precedes further accumulation or disposal activity, as sequential substantial holding notices can foreshadow takeover interest, capital raise participation, or orderly exit by a major holder."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BOC",
+      "company": "BOUGAINVILLE COPPER LIMITED",
+      "headline": "Appointment of CEO - Sir Melchior Togolo CBE",
+      "time": "2026-05-21T02:30:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092458-3A693755",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bougainville Copper appoints Sir Melchior Togolo CBE as CEO, signaling a strategic leadership move likely aimed at advancing stakeholder engagement and the long-term restart of the Panguna copper-gold mine in Bougainville, Papua New Guinea.",
+        "Sir Melchior's CBE honour and local prominence suggest the appointment is designed to strengthen relationships with the Autonomous Bougainville Government and landowner groups — critical prerequisites before any mine redevelopment can proceed, directly impacting the company's ability to unlock its dormant asset base.",
+        "The CEO appointment marks a shift from a largely dormant governance structure to active management, potentially catalysing renewed investor interest; however, material cash flow and production timelines remain highly uncertain given the complex political and social licence requirements."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CMX",
+      "company": "CHEMX MATERIALS LIMITED",
+      "headline": "March 2026 Quarterly Activities/Appendix 5B",
+      "time": "2026-05-21T02:14:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092456-6A1326433",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "ChemX Materials filed its March 2026 quarterly activities report and Appendix 5B cash flow statement, providing updated operational and financial metrics for institutional scrutiny on this pre-revenue materials company.",
+        "As a development-stage company, the Appendix 5B will reveal critical cash burn rates and remaining cash reserves — key metrics for assessing runway before any potential capital raise requirement or funding milestone.",
+        "Investors should closely examine exploration/development expenditure trends and any commentary on project advancement timelines, as the cash position relative to upcoming milestones will determine near-term dilution risk and project viability."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACU",
+      "company": "ACUMENTIS GROUP LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-21T02:05:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092453-2A1673180",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Acumentis Group Limited has filed a change in their holding, signaling active portfolio repositioning by a significant shareholder that institutional investors should monitor for directional intent.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is relatively modest or procedural in nature, unlikely to trigger immediate price volatility but worth tracking for accumulation or distribution patterns.",
+        "Investors should watch for follow-up filings to determine whether this represents the beginning of a broader accumulation strategy or a gradual exit, which could influence liquidity dynamics in this micro-cap property services company."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VGL",
+      "company": "VISTA GROUP INTERNATIONAL LIMITED.",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-21T01:55:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092447-3A693753",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Vista Group International, triggering a mandatory disclosure under ASX/NZX substantial holding rules, signaling active institutional portfolio rebalancing.",
+        "The change in substantial holding is classified as not market sensitive, suggesting the movement is likely a marginal threshold crossing rather than a large-scale accumulation or disposal that would materially shift the register.",
+        "Investors should monitor whether this forms part of a broader trend of institutional buying or selling in Vista Group, a cinema technology provider, as successive holding changes can signal evolving conviction among key shareholders."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SHE",
+      "company": "STONEHORSE ENERGY LIMITED",
+      "headline": "Production & Wells Update for the Drumheller Development",
+      "time": "2026-05-21T01:48:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092441-6A1326424",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Stonehorse Energy provides a production and wells update for its Drumheller Development, signaling operational progress at a key asset that could materially impact near-term revenue generation and reserve confidence.",
+        "Market-sensitive classification suggests the update contains material new information on production rates or well performance — likely positive drilling or flow-rate data that could re-rate the company's production profile and cash flow outlook.",
+        "Investors should watch for updated production guidance, well completion timelines, and any capital expenditure revisions that could affect Stonehorse's cash runway and ability to self-fund further development without dilutive capital raises."
+      ],
+      "tags": [
+        "Production",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "TEM",
       "company": "TEMPEST MINERALS LIMITED",
