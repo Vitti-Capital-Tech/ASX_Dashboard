@@ -1,9 +1,85 @@
 {
   "date": "2026-05-22",
-  "total": 58,
-  "market_sensitive_count": 48,
-  "generated_at": "2026-05-22T01:42:14.156882+00:00",
+  "total": 62,
+  "market_sensitive_count": 51,
+  "generated_at": "2026-05-22T03:09:55.990882+00:00",
   "announcements": [
+    {
+      "ticker": "STG",
+      "company": "STRAKER LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-22T02:15:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092841-2A1673362",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Straker Limited has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant corporate development that requires price-sensitive disclosure.",
+        "As a technology-focused translation and language services company, Straker's small-cap status means any capital raise could result in meaningful dilution, while an acquisition could signal strategic expansion in the AI/language services space.",
+        "Investors should await the detailed announcement expected within the standard two-business-day halt period to assess whether the catalyst is accretive (M&A, contract win) or dilutive (equity raising) before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAM",
+      "company": "CLIME CAPITAL LIMITED",
+      "headline": "2026 June Quarter Dividend Declaration",
+      "time": "2026-05-22T02:13:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092839-2A1673361",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Clime Capital Limited has declared its June quarter 2026 dividend, signaling continued commitment to regular shareholder distributions and confidence in portfolio income generation.",
+        "As a Listed Investment Company (LIC) focused on Australian equities, the dividend declaration reinforces Clime's yield-oriented investment mandate and provides visibility on near-term income returns for shareholders.",
+        "Investors should monitor the dividend amount, franking level, and ex-dividend date details for portfolio positioning, as consistent or growing dividends from LICs typically support share price trading closer to NTA."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JEG",
+      "company": "JPM GLOBAL EQUITY PREMIUM INCOME COMPLEX ETF",
+      "headline": "Distribution Notice",
+      "time": "2026-05-22T02:06:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092837-2A1673358",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "JPM Global Equity Premium Income Complex ETF has announced a distribution, signaling continued income generation from its covered call/premium income strategy for unitholders.",
+        "Distribution notices from premium income ETFs are closely watched by yield-focused investors; the regularity and quantum of payouts reflect the fund's ability to monetize volatility in global equity markets.",
+        "Investors should monitor the distribution yield relative to peers and assess whether the payout level is sustainable given current global equity market conditions and implied volatility trends."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RMI",
+      "company": "RESOURCE MINERALS INTERNATIONAL LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-22T01:42:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092831-6A1326566",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Resource Minerals International has altered their position, triggering a mandatory disclosure under ASX rules — signaling active portfolio repositioning by a significant shareholder.",
+        "Changes in substantial holdings for micro-cap resource companies like RMI can materially shift the free float and liquidity profile, potentially impacting price discovery and bid-ask spreads for institutional participants.",
+        "Investors should monitor whether this change reflects accumulation (potential confidence signal) or disposal (potential de-risking), and watch for any follow-up announcements regarding strategic direction or capital management."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "VMT",
       "company": "VMOTO LIMITED",
