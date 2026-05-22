@@ -1,9 +1,47 @@
 {
   "date": "2026-05-22",
-  "total": 53,
-  "market_sensitive_count": 44,
-  "generated_at": "2026-05-22T00:13:27.194215+00:00",
+  "total": 55,
+  "market_sensitive_count": 45,
+  "generated_at": "2026-05-22T00:43:04.132579+00:00",
   "announcements": [
+    {
+      "ticker": "KKC",
+      "company": "KKR CREDIT INCOME FUND",
+      "headline": "Dividend/Distribution - KKC",
+      "time": "2026-05-22T00:30:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092805-2A1673341",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "KKR Credit Income Fund (KKC) has declared a dividend/distribution, reinforcing its commitment to regular income payments for unitholders and signaling confidence in underlying credit portfolio cash flows.",
+        "The distribution announcement, flagged as market sensitive, suggests the payout level may contain new information relative to prior periods — investors should compare the per-unit distribution against recent quarters to assess yield trajectory and NAV sustainability.",
+        "Consistent distributions from KKC support its appeal as a yield vehicle in the current rate environment; key watch items include any changes to distribution frequency, franking levels, and whether the payout is funded from income or capital, which impacts long-term NAV."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AAU",
+      "company": "ANTILLES GOLD LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-22T00:30:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092804-2A1673342",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Antilles Gold Limited (ASX: AAU) has filed a change in their holding, signaling a notable shift in ownership structure that institutional investors should monitor for potential strategic implications.",
+        "The change in substantial holding is classified as not market sensitive, suggesting the movement is likely incremental rather than a transformative block trade or activist accumulation, limiting immediate price impact.",
+        "Investors should review the detailed filing to assess whether the holder increased or decreased their position, as directional changes by substantial holders in small-cap mining explorers like Antilles Gold can foreshadow future capital raises or strategic shifts in the company's Cuban gold-copper development projects."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "STG",
       "company": "STRAKER LIMITED",
