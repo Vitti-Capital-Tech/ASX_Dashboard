@@ -1,9 +1,83 @@
 {
   "date": "2026-05-22",
-  "total": 49,
-  "market_sensitive_count": 41,
-  "generated_at": "2026-05-21T23:46:52.520474+00:00",
+  "total": 53,
+  "market_sensitive_count": 44,
+  "generated_at": "2026-05-22T00:13:27.194215+00:00",
   "announcements": [
+    {
+      "ticker": "STG",
+      "company": "STRAKER LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-05-22T00:05:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092798-2A1673338",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Straker Limited has requested a pause in trading, which is typically a precursor to a material announcement such as a capital raise, acquisition, or significant corporate action.",
+        "As a technology-focused translation and language services company, any trading halt could signal strategic M&A activity or a material contract win/loss that would meaningfully impact the company's revenue trajectory and valuation.",
+        "Investors should await the pending announcement before repositioning; the market-sensitive designation suggests the forthcoming disclosure will have direct implications for Straker's share price and potentially its capital structure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGL",
+      "company": "ENVIRONMENTAL GROUP LIMITED (THE)",
+      "headline": "Trading Update and Revised FY26 Earnings Guidance",
+      "time": "2026-05-21T23:55:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092794-2A1673302",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Environmental Group has issued revised FY26 earnings guidance, signaling a material change in expected financial performance that warrants reassessment of forward estimates by institutional holders.",
+        "The trading update likely reflects shifting project timelines, contract wins/losses, or margin pressures in the company's environmental services and energy segments — key details on revenue and EBITDA revisions will determine the magnitude of consensus re-rating.",
+        "Investors should monitor whether the guidance revision is driven by structural demand shifts (positive for long-term thesis in emissions control/clean energy) or execution issues, with the direction of the revision critical for near-term price action and FY26 valuation multiples."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RPM",
+      "company": "RPM AUTOMOTIVE GROUP LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-05-21T23:51:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092790-2A1673333",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in RPM Automotive Group, indicating a significant sell-down that has reduced their stake below the 5% disclosure threshold, potentially signaling reduced confidence from a major investor.",
+        "The exit of a substantial holder may increase free float and could create near-term selling pressure, though the filing is classified as not market sensitive, suggesting the disposal may have occurred gradually over time.",
+        "Investors should monitor whether this reflects broader institutional de-risking in the automotive services micro-cap space or is an isolated portfolio rebalancing event, with attention to any follow-on selling or changes in RPM's register composition."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BMR",
+      "company": "BALLYMORE RESOURCES LIMITED",
+      "headline": "New Drilling Expands High-Grade Torpys Silver Discovery",
+      "time": "2026-05-21T23:47:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092788-2A1673332",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "New drilling at Torpys Silver Discovery has expanded the high-grade mineralisation footprint, signalling the deposit may be materially larger than initially modelled — a potential re-rating catalyst for Ballymore Resources.",
+        "High-grade silver intercepts from the latest drill program reinforce the quality of the Torpys discovery, with results likely to support upgraded resource estimates and attract market attention to the company's exploration portfolio.",
+        "Further drilling campaigns and resource definition work are expected as Ballymore advances Torpys toward a maiden or updated resource estimate, with continued exploration success critical to sustaining momentum and potentially attracting strategic interest or funding."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AVE",
       "company": "AVECHO BIOTECHNOLOGY LIMITED",
