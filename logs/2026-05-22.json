@@ -1,9 +1,66 @@
 {
   "date": "2026-05-22",
-  "total": 55,
-  "market_sensitive_count": 45,
-  "generated_at": "2026-05-22T00:43:04.132579+00:00",
+  "total": 58,
+  "market_sensitive_count": 48,
+  "generated_at": "2026-05-22T01:42:14.156882+00:00",
   "announcements": [
+    {
+      "ticker": "VMT",
+      "company": "VMOTO LIMITED",
+      "headline": "Response to ASX Query Letter",
+      "time": "2026-05-22T01:25:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092825-6A1326562",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "VMoto received an ASX query letter, typically triggered by unusual price/volume movements or disclosure concerns, requiring the company to publicly explain potential market-sensitive information gaps.",
+        "The response to an ASX compliance query signals heightened regulatory scrutiny, which may weigh on near-term sentiment as investors assess whether material information was adequately disclosed.",
+        "Investors should closely monitor the substance of VMoto's response for any previously undisclosed material developments, potential continuous disclosure breaches, or clarification on recent trading activity that could affect the stock's risk profile."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MYX",
+      "company": "MAYNE PHARMA GROUP LIMITED",
+      "headline": "Court awards MYX $13.27m for legal costs from Cosette",
+      "time": "2026-05-22T01:08:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092818-3A693838",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Court awarded Mayne Pharma $13.27 million in legal costs recovery from Cosette, representing a meaningful cash inflow and validation of MYX's legal position in the dispute.",
+        "The $13.27m award directly bolsters MYX's balance sheet and cash position — a material amount for a company with a market cap in the low hundreds of millions, improving near-term financial flexibility.",
+        "The favourable ruling removes legal cost overhang and signals resolution of the Cosette dispute, allowing management to refocus resources on core pharmaceutical operations and growth initiatives."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DTI",
+      "company": "DTI GROUP LTD",
+      "headline": "Notice of Bidder's Intention to Not Extend Offer Period",
+      "time": "2026-05-22T01:02:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03092816-6A1326558",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The bidder has formally notified its intention not to extend the offer period for DTI Group Ltd, signaling the takeover timeline is nearing conclusion and creating urgency for remaining shareholders to accept or reject the offer.",
+        "Non-extension of the offer period removes the possibility of improved terms or a higher bid, effectively capping the acquisition price and reducing optionality for minority shareholders seeking a premium.",
+        "Shareholders who have not yet tendered must now decide before the offer closes; post-close, any remaining minority holders risk being locked into an illiquid position if the bidder achieves compulsory acquisition thresholds."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "KKC",
       "company": "KKR CREDIT INCOME FUND",
