@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Export placement/IPO email summaries from the Placement_copy SQLite database
+Export placement/IPO email summaries from a placement SQLite database
 into JSON files that the ASX dashboard can serve.
 
 Usage:
     python scripts/export_placements.py [--db PATH] [--out DIR] [--date YYYY-MM-DD]
 
 Defaults:
-    --db   ../Placement_copy/email_processor/state.db
+    --db   $PLACEMENT_DB_PATH
     --out  ./placements
     --date (today in AEST)
 """
@@ -55,8 +55,9 @@ def make_summary(source_text: str) -> str:
     """
     try:
         import sys
-        placement_root = os.path.join(os.path.dirname(__file__), "..", "..", "Placement_copy")
-        sys.path.insert(0, os.path.abspath(placement_root))
+        repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+        if repo_root not in sys.path:
+            sys.path.insert(0, repo_root)
         from fetch_msg import fetch_msg
         result = fetch_msg(source_text)
         if result and result.strip():
@@ -101,8 +102,8 @@ def main():
     parser = argparse.ArgumentParser(description="Export placement summaries to JSON")
     parser.add_argument(
         "--db",
-        default=os.path.join(os.path.dirname(__file__), "..", "..", "Placement_copy", "email_processor", "state.db"),
-        help="Path to the Placement_copy SQLite database",
+        default=os.environ.get("PLACEMENT_DB_PATH"),
+        help="Path to the placement SQLite database. Defaults to PLACEMENT_DB_PATH.",
     )
     parser.add_argument(
         "--out",
@@ -115,6 +116,8 @@ def main():
         help="Date to export (YYYY-MM-DD), defaults to today AEST",
     )
     args = parser.parse_args()
+    if not args.db:
+        parser.error("--db is required unless PLACEMENT_DB_PATH is set")
     export_day(os.path.abspath(args.db), os.path.abspath(args.out), args.date)
 
 

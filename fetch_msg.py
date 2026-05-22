@@ -1,3 +1,29 @@
+import os
+import json
+import time
+import argparse
+import re
+import requests
+import xml.etree.ElementTree as ET
+from datetime import datetime, timezone, timedelta
+import zoneinfo
+from pathlib import Path
+from dotenv import load_dotenv
+
+try:
+    from anthropic import Anthropic
+except ImportError:
+    Anthropic = None
+
+try:
+    from groq import Groq
+except ImportError:
+    Groq = None
+
+
+def _fallback_whatsapp_summary(source_text: str) -> str:
+    lines = [line.strip() for line in source_text.splitlines() if line.strip()]
+    return "\n".join(lines[:6])
 
 
 def generate_client_email(summary_text: str) -> str:
@@ -66,6 +92,10 @@ Remember: Output ONLY the HTML body content starting with <h1>, no markdown form
 
 
 def fetch_msg(summary_text: str) -> str:
+    if not ANTHROPIC_API_KEY:
+        print("Anthropic API Error: ANTHROPIC_API_KEY is not set")
+        return _fallback_whatsapp_summary(summary_text)
+
     prompt = f"""
 You are an investment analyst writing a WhatsApp update for a client.
 
@@ -94,24 +124,29 @@ Suggested structure:
 Information:
 {summary_text}
 """.strip()
-    response = requests.post(
-        "https://api.anthropic.com/v1/messages",
-        headers={
-            "x-api-key": ANTHROPIC_API_KEY,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
-        },
-        json={
-            "model": ANTHROPIC_MODEL,
-            "max_tokens": 500,
-            "temperature": 0.5,
-            "messages": [{"role": "user", "content": prompt}],
-        },
-        timeout=120,
-    )
+    try:
+        response = requests.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={
+                "x-api-key": ANTHROPIC_API_KEY,
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            json={
+                "model": ANTHROPIC_MODEL,
+                "max_tokens": 500,
+                "temperature": 0.5,
+                "messages": [{"role": "user", "content": prompt}],
+            },
+            timeout=120,
+        )
+    except requests.RequestException as exc:
+        print(f"Anthropic API Error: request failed: {exc}")
+        return _fallback_whatsapp_summary(summary_text)
+
     if response.status_code != 200:
         print(f"Anthropic API Error {response.status_code}: {response.text[:2000]}")
-        return ""
+        return _fallback_whatsapp_summary(summary_text)
     blocks = response.json().get("content", [])
     content = "".join(block.get("text", "") for block in blocks if block.get("type") == "text").strip()
     content = re.sub(r"^```\w*\s*", "", content, flags=re.IGNORECASE)
@@ -120,7 +155,11 @@ Information:
     lines = [line.strip() for line in content.splitlines() if line.strip()]
     if len(lines) > 6:
         lines = lines[:6]
-    return "\n".join(lines).strip()
+    result = "\n".join(lines).strip()
+    if not result:
+        print("Anthropic API Error: response contained no text content")
+        return _fallback_whatsapp_summary(summary_text)
+    return result
 
 
 
@@ -135,20 +174,6 @@ Usage:
     python fetch_asx.py [--date YYYY-MM-DD]  (defaults to today)
     python fetch_asx.py --no-ai              (skip AI, useful for testing)
 """
-
-import os
-import json
-import time
-import argparse
-import re
-import requests
-import xml.etree.ElementTree as ET
-from datetime import datetime, timezone, timedelta
-import zoneinfo
-from pathlib import Path
-from dotenv import load_dotenv
-from anthropic import Anthropic
-from groq import Groq
 
 # Load environment variables from .env if present
 load_dotenv()
@@ -520,8 +545,8 @@ def run_process(args):
         )
         if not ANTHROPIC_API_KEY and not GROQ_API_KEY:
             print("[ai] WARNING: No LLM keys — placeholder summaries only.")
-        a_client = Anthropic(api_key=ANTHROPIC_API_KEY) if ANTHROPIC_API_KEY else None
-        g_client = Groq(api_key=GROQ_API_KEY) if GROQ_API_KEY else None
+        a_client = Anthropic(api_key=ANTHROPIC_API_KEY) if ANTHROPIC_API_KEY and Anthropic else None
+        g_client = Groq(api_key=GROQ_API_KEY) if GROQ_API_KEY and Groq else None
         new_announcements = summarise_batch(a_client, g_client, new_announcements)
     else:
         for a in new_announcements:

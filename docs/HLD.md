@@ -24,9 +24,9 @@ The system is built on a **Decoupled Serverless Architecture**. It segregates th
 *   **Client Interface:** A highly responsive dashboard using Tailwind CSS ("Midnight Intelligence" theme). It features client-side text filtering, layout toggling, theme switching, and a dedicated copy-to-clipboard system for WhatsApp messages.
 
 #### C. Placement/IPO Engine & WhatsApp Summary Generator
-*   **Source Database:** Reads approved/pending placement/IPO campaigns from the `Placement_copy` SQLite database.
+*   **Source:** Placement and campaign details are served by the external placement backend on AWS EC2.
 *   **AI Summary Pipeline (`fetch_msg.py`):** Integrates with the Anthropic Claude API to generate a highly concise 5-6 line summary optimized for mobile readability/sharing on WhatsApp. Also capable of drafting professional client emails.
-*   **Export Pipeline (`scripts/export_placements.py`):** Extracts, classifies (Placement vs. IPO), and serializes campaign details into daily JSON files (`placements/YYYY-MM-DD.json`).
+*   **Export Pipeline (`scripts/export_placements.py`):** Optional local/offline helper that extracts from a configured placement SQLite database path and serializes campaign details into daily JSON files (`placements/YYYY-MM-DD.json`).
 *   **EC2 API Integration:** The dashboard pulls live placement and campaign details through Next.js proxy routes referencing an external API server running on AWS EC2 (`http://3.25.70.124:8000`).
 
 ### 4. System Flow Diagram
@@ -41,7 +41,7 @@ graph TD
     DL --> BFF1[Next.js API: /api/logs/date]
 
     %% Placement & IPO Pipeline
-    DB[(Placement DB: state.db)] -->|Pending Campaigns| EP(export_placements.py)
+    DB[(Configured Placement DB)] -->|Pending Campaigns| EP(export_placements.py)
     EP -->|Source Text| FM(fetch_msg.py)
     FM -->|Claude API| WA[5-6 Line WhatsApp Summary]
     EP -->|JSON Serialization| PL[(placements/YYYY-MM-DD.json)]

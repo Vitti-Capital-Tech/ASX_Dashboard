@@ -53,7 +53,7 @@ To retrieve, parse, enrich, and serialize the daily ASX market announcements.
 *   **CLI Interface:** Accepts `--input` to process a string argument, `--loop` to fetch morning updates repeatedly, or `--date` to target specific days.
 
 #### B. Placements Exporter (`scripts/export_placements.py`)
-*   **Database Ingestion:** Queries the `pending_approval_campaigns` table in the SQLite database (`../Placement_copy/email_processor/state.db`) for campaigns created on a given date.
+*   **Database Ingestion:** Optional local/offline helper. Queries the `pending_approval_campaigns` table in a configured SQLite database path (`--db` or `PLACEMENT_DB_PATH`) for campaigns created on a given date.
 *   **Deal Classification:** Inspects the email subject and deal name using the `classify_deal` function to categorize the campaign as `"IPO"` or `"Placement"`.
 *   **Summary Logic:** Resolves the WhatsApp text using `fetch_msg(source_text)` from `fetch_msg.py` if available; falls back to the first 6 non-empty lines of raw source text if API keys or imports are missing.
 *   **Serialization:** Saves a daily JSON document structured as `PlacementDayLog` to `placements/{date}.json`.

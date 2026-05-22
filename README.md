@@ -73,7 +73,7 @@ python fetch_msg.py --input "Raw text from placement document..."
 
 To export Placement & IPO details from the sqlite database:
 ```bash
-python scripts/export_placements.py --db path/to/state.db --out ./placements --date YYYY-MM-DD
+python scripts/export_placements.py --db path/to/placement/state.db --out ./placements --date YYYY-MM-DD
 ```
 
 ---
