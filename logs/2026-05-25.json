@@ -1,9 +1,28 @@
 {
   "date": "2026-05-25",
-  "total": 56,
-  "market_sensitive_count": 53,
-  "generated_at": "2026-05-24T22:48:02.336274+00:00",
+  "total": 57,
+  "market_sensitive_count": 54,
+  "generated_at": "2026-05-24T23:11:26.114029+00:00",
   "announcements": [
+    {
+      "ticker": "1AD",
+      "company": "ADALTA LIMITED",
+      "headline": "Prospectus",
+      "time": "2026-05-24T22:44:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093194-3A693904",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AdAlta Limited has lodged a Prospectus, signaling an imminent capital raise that will dilute existing shareholders but extend the company's cash runway — critical for this pre-revenue biotech developing i-body therapeutic candidates.",
+        "The market-sensitive designation suggests material terms (pricing, discount, size) that could meaningfully impact the company's capital structure; AdAlta's historically tight cash position makes the raise likely essential for continued clinical development operations.",
+        "Investors should watch for the offer size relative to current market cap, any institutional cornerstone commitments, and whether proceeds are earmarked for advancing lead candidate AD-214 through clinical milestones — key catalysts for re-rating potential."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "CHC",
       "company": "CHARTER HALL GROUP",
