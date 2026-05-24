@@ -1,9 +1,499 @@
 {
   "date": "2026-05-25",
-  "total": 57,
-  "market_sensitive_count": 54,
-  "generated_at": "2026-05-24T23:11:26.114029+00:00",
+  "total": 83,
+  "market_sensitive_count": 77,
+  "generated_at": "2026-05-24T23:48:26.331850+00:00",
   "announcements": [
+    {
+      "ticker": "NSB",
+      "company": "NEUROSCIENTIFIC BIOPHARMACEUTICALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-24T23:44:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093287-6A1326771",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "NEUROSCIENTIFIC BIOPHARMACEUTICALS has entered a trading halt, typically preceding a material announcement such as a capital raise, clinical milestone, or corporate transaction for this early-stage biotech.",
+        "As a micro-cap biopharmaceutical company with limited revenue, any capital raise during the halt would likely be dilutive and could pressure the share price, while a clinical data readout could move shares significantly in either direction.",
+        "Investors should await the pending announcement before taking positions; the trading halt is expected to last up to two trading days, with the nature of the announcement critical to determining near-term valuation impact."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCX",
+      "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
+      "headline": "Dividend/Distribution - PCX",
+      "time": "2026-05-24T23:40:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093285-2A1673534",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Pengana Global Private Credit Trust (PCX) has declared a distribution, reinforcing its commitment to regular income payments for unitholders in the private credit space, a key attraction for yield-seeking institutional investors.",
+        "The market-sensitive classification suggests the distribution amount or terms may differ from prior periods or market expectations, warranting close attention to the yield implied and any changes to payout frequency or franking.",
+        "Consistent distributions support PCX's positioning as a reliable income vehicle; investors should monitor the trust's NAV trajectory and underlying credit portfolio quality to assess sustainability of future payouts amid evolving credit market conditions."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GHY",
+      "company": "GOLD HYDROGEN LIMITED",
+      "headline": "Change in substantial holding (Simonds)",
+      "time": "2026-05-24T23:40:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093283-2A1673536",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Change in substantial holding by Simonds in Gold Hydrogen Limited reflects a shift in a major shareholder's position, requiring regulatory disclosure under ASX substantial holding rules.",
+        "As a substantial holder notice, this likely reflects either an increase or decrease in Simonds' stake crossing a percentage threshold, which institutional investors should monitor for directional conviction signals in this early-stage natural hydrogen explorer.",
+        "Gold Hydrogen remains a speculative energy play focused on natural hydrogen exploration in South Australia; changes in substantial holder positions can signal insider sentiment but the non-market-sensitive classification suggests this is largely procedural in nature."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "1TT",
+      "company": "THRIVE TRIBE TECHNOLOGIES LIMITED",
+      "headline": "Security Class Suspension from Quotation - 1TTO",
+      "time": "2026-05-24T23:38:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093280-2A1673527",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Thrive Tribe Technologies (1TT) has had its securities suspended from quotation on the ASX, indicating a serious compliance or regulatory issue that removes all liquidity for existing shareholders.",
+        "Suspension of the 1TTO security class suggests the company may have failed to meet ASX listing requirements, potentially related to continuous disclosure obligations, financial reporting deadlines, or minimum operational thresholds.",
+        "Investors should monitor for further ASX announcements clarifying the reason for suspension and any remediation pathway; prolonged suspension raises material risk of eventual delisting and total capital loss."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HTG",
+      "company": "HARVEST TECHNOLOGY GROUP LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-24T23:34:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093275-6A1326768",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Harvest Technology Group (HTG) has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant contract win for this small-cap technology company.",
+        "HTG operates in the remote communications and data transmission space; any capital raise would likely be dilutive given the company's micro-cap status and historically constrained cash runway, warranting close attention to terms.",
+        "Investors should await the detailed announcement before repositioning; the nature of the halt — whether tied to equity issuance or a transformative commercial development — will be the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Dividend/Distribution - PCI",
+      "time": "2026-05-24T23:27:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093270-2A1673526",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Perpetual Credit Income Trust (PCI) has declared a distribution, reinforcing its commitment to regular income payments for unitholders in the credit/fixed income space.",
+        "As a market-sensitive announcement, the distribution details (amount, record date, payment date) signal the trust continues to generate sufficient portfolio income to sustain payouts, a key metric for income-focused institutional investors.",
+        "Consistent distributions from PCI support unitholder yield expectations and may attract further demand from yield-seeking investors, particularly in the current elevated interest rate environment which benefits credit income strategies."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GLN",
+      "company": "GALAN LITHIUM LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-24T23:27:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093269-6A1326767",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Galan Lithium has entered a trading halt, typically preceding a material announcement such as a capital raise, asset transaction, or significant project update for its South American lithium brine assets.",
+        "As a pre-revenue lithium explorer/developer with limited cash reserves, a trading halt frequently signals an imminent equity raising, which would be dilutive to existing shareholders but may extend critical cash runway needed for project advancement.",
+        "Investors should await the pending announcement — the nature of the disclosure (capital raise vs. strategic partnership vs. offtake agreement) will be the key determinant of near-term price direction and longer-term valuation implications."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WMG",
+      "company": "WESTERN MINES GROUP LTD",
+      "headline": "Further High-Grade Results from Mulga Tank",
+      "time": "2026-05-24T23:26:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093267-6A1326764",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Western Mines Group reports further high-grade assay results from its Mulga Tank nickel-cobalt project, reinforcing the prospectivity of the deposit and potentially upgrading resource confidence for future development decisions.",
+        "The use of 'high-grade' in a market-sensitive announcement signals results materially above average grades for the deposit, which could positively impact resource estimates and project economics in subsequent updates.",
+        "Continued drilling success at Mulga Tank strengthens the exploration narrative and may support future capital raising efforts or attract joint venture interest, though the project remains at an early exploration stage with no near-term production catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DTI",
+      "company": "DTI GROUP LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-24T23:24:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093264-6A1326766",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in DTI Group Ltd has filed a change in their holding, signaling active portfolio repositioning by a significant shareholder in this small-cap technology company.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is likely incremental rather than a transformative shift in ownership structure or control dynamics.",
+        "Investors should monitor whether this forms part of a broader accumulation or disposal pattern, as sustained directional changes in substantial holdings can foreshadow strategic moves such as takeover interest or institutional exit."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OM1",
+      "company": "OMNIA METALS GROUP LTD",
+      "headline": "HIGH-PRIORITY CARBONATITE REE-NB SYSTEM IDENTIFIED AT RADIX",
+      "time": "2026-05-24T23:23:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093262-6A1326762",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "OMNIA has identified a high-priority carbonatite-hosted rare earth element (REE) and niobium (Nb) system at its Radix project, representing a potentially significant critical minerals discovery that aligns with global supply chain diversification themes away from Chinese dominance.",
+        "Carbonatite-hosted REE-Nb systems are among the highest-grade and most economically attractive deposit types globally (e.g., Mt Weld, Araxa), and early-stage identification elevates the project's strategic value and potential to attract joint venture or offtake interest from critical minerals-focused counterparties.",
+        "As an early-stage explorer, OMNIA will likely need to advance drilling programs to confirm the system's scale and grade — investors should monitor upcoming capital raise activity to fund follow-up exploration, as the company's cash runway will be a key constraint on pace of de-risking."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ATT",
+      "company": "ALTITUDE MINERALS LTD",
+      "headline": "Drilling Permits Issued & Rig Contracted for Byrock Project",
+      "time": "2026-05-24T23:23:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093260-2A1673521",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Altitude Minerals has secured drilling permits and contracted a rig for its Byrock Project in NSW, signaling imminent transition from planning to active exploration — a key de-risking milestone for early-stage miners.",
+        "The permitting and rig contracting removes a significant execution overhang, allowing the company to test high-priority targets; however, as a pre-revenue explorer, investors should monitor cash burn relative to remaining treasury to assess funding adequacy for the program.",
+        "Near-term catalysts now shift to drill commencement, assay results, and potential follow-up programs — successful intercepts at Byrock could materially re-rate the stock given its micro-cap status and leverage to exploration upside."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SRJ",
+      "company": "SRJ TECHNOLOGIES GROUP PLC",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-05-24T23:22:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093259-2A1673520",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SRJ Technologies responded to an ASX price query regarding unusual trading activity, which typically indicates the exchange is seeking explanation for abnormal price or volume movements in the stock.",
+        "The company's response is market sensitive, suggesting material information may have been disclosed or confirmed that could be driving recent share price action — investors should review the full response for any previously undisclosed developments.",
+        "ASX price queries often precede periods of heightened volatility; institutional investors should monitor for potential follow-up announcements including contract wins, capital raises, or other catalysts that may have triggered the exchange's inquiry."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORD",
+      "company": "ORDELL MINERALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-24T23:21:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093257-6A1326763",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Ordell Minerals has filed a change in their holding, signaling a notable shift in ownership structure that institutional investors should monitor for potential strategic implications.",
+        "Changes in substantial holdings for micro/small-cap explorers like Ordell Minerals can indicate insider confidence shifts or pre-positioning ahead of material exploration or corporate developments.",
+        "As a procedural disclosure with no market-sensitive flag, the immediate price impact is limited, but investors should track whether this forms part of a broader accumulation or distribution pattern in coming weeks."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AA2",
+      "company": "ARIANA RESOURCES PLC",
+      "headline": "Trading Halt",
+      "time": "2026-05-24T23:21:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093256-6A1326761",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Ariana Resources has entered a trading halt, suspending shares from trading pending a material announcement — the nature of the pending disclosure is not yet specified but warrants close monitoring given the company's gold mining operations in Turkey.",
+        "Trading halts for junior miners like Ariana often precede capital raises, asset transactions, or significant operational updates; institutional investors should prepare for potential dilution or transformative deal flow.",
+        "The halt creates near-term uncertainty — investors should await the full announcement before repositioning, with key focus on whether the news relates to funding, M&A activity, or operational milestones at the Kiziltepe or other project assets."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FUL",
+      "company": "FULCRUM LITHIUM LTD",
+      "headline": "Thickest and Highest Grade Lithium at Alkali Flats",
+      "time": "2026-05-24T23:21:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093255-2A1673519",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Fulcrum Lithium reports the thickest and highest-grade lithium intercepts to date at its Alkali Flats project, signaling a material upgrade to the resource potential and de-risking the exploration thesis for this early-stage lithium play.",
+        "The headline result suggests meaningful geological continuity and grade improvement, which could support future resource estimation and attract strategic interest in a market where quality lithium brine/clay assets remain scarce despite subdued lithium prices.",
+        "Investors should watch for follow-up drilling programs, maiden or updated resource estimates, and any metallurgical testwork that would further validate the economic viability of the Alkali Flats deposit and provide catalysts for re-rating."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CLA",
+      "company": "CELSIUS RESOURCES LIMITED.",
+      "headline": "Corporate Update",
+      "time": "2026-05-24T23:14:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093247-6A1326751",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Celsius Resources has issued a market-sensitive corporate update, likely addressing key operational or strategic developments at its flagship Maalinao-Caigutan-Biyog (MCB) copper-gold project in the Philippines or its Opuwo cobalt-zinc project in Namibia.",
+        "As a pre-revenue explorer/developer, any corporate update flagged as market sensitive may signal material changes to project timelines, financing arrangements, or partnership structures that directly impact the company's cash runway and path to development.",
+        "Investors should closely monitor whether this update involves capital raising activity, permitting milestones, or changes to project economics, as these factors are critical to Celsius's near-term valuation trajectory given its reliance on external funding to advance development-stage assets."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LSR",
+      "company": "LODESTAR MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-24T23:11:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093241-6A1326756",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Lodestar Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant exploration results.",
+        "As a junior mining company, trading halts frequently precede equity raisings which can be dilutive to existing shareholders, though they may also signal transformative corporate developments.",
+        "Investors should await the detailed announcement expected within two business days to assess the nature and materiality of the pending disclosure before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GDM",
+      "company": "GREAT DIVIDE MINING LTD",
+      "headline": "GDM Secures Gold Concentrate Offtake Agreement",
+      "time": "2026-05-24T23:09:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093239-6A1326755",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Great Divide Mining has secured a gold concentrate offtake agreement, a critical de-risking milestone that provides revenue certainty and strengthens the commercial pathway toward production at its gold project.",
+        "Locking in an offtake partner ahead of production reduces marketing risk and can serve as a key enabler for project financing, potentially accelerating the timeline to first gold pour and improving bankability with lenders.",
+        "With the offtake now in place, the market will focus on remaining catalysts including final feasibility outcomes, construction financing arrangements, and permitting progress to assess the company's transition from explorer/developer to producer."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PEC",
+      "company": "PERPETUAL RESOURCES LIMITED",
+      "headline": "Pegmatites Confirmed Across Four Trenches at Mauricio",
+      "time": "2026-05-24T23:08:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093236-6A1326754",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Perpetual Resources confirmed pegmatite occurrences across all four trenches at the Mauricio project, validating the geological model and de-risking the exploration target for potential lithium-bearing mineralisation.",
+        "The confirmation of pegmatites at surface across multiple trenches strengthens the case for a drill program, a critical catalyst for a micro-cap explorer where positive assay results could materially re-rate the stock.",
+        "Next steps will likely involve sampling and assay analysis from the trenching program followed by a targeted drilling campaign; investors should watch for lithium/cesium/tantalum grade results which will determine whether the project has economic potential."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NIC",
+      "company": "NICKEL INDUSTRIES LIMITED",
+      "headline": "Sampala Project Update",
+      "time": "2026-05-24T23:06:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093229-2A1673508",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nickel Industries has provided a market-sensitive update on its Sampala nickel project, signaling material developments in project progression that could impact the company's production trajectory and asset valuation.",
+        "The Sampala project is a key growth asset within NIC's Indonesian RKEF (Rotary Kiln Electric Furnace) operations portfolio; any update on commissioning timelines, production ramp-up, or capital expenditure revisions will directly affect near-term earnings guidance and cash flow forecasts.",
+        "Investors should monitor whether the update reflects accelerated or delayed timelines versus prior guidance, as this will influence NIC's ability to capitalize on current nickel pricing dynamics and maintain its position as a low-cost nickel pig iron producer."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MA1",
+      "company": "MA CREDIT INCOME TRUST",
+      "headline": "MA1 May 2026 Estimate Distribution Announcement",
+      "time": "2026-05-24T22:58:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093220-2A1673500",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MA Credit Income Trust (MA1) has announced its estimated distribution for May 2026, signaling continued income generation and commitment to regular unitholder payments in the credit/fixed income space.",
+        "As a market-sensitive announcement, the distribution estimate likely provides forward visibility on yield, which is a key metric for institutional investors benchmarking MA1 against other credit and income-focused listed investment trusts on the ASX.",
+        "Consistent distribution announcements reinforce MA1's positioning as a reliable income vehicle; investors should monitor the distribution rate relative to prior months and the trust's NAV for any signs of yield compression or credit portfolio stress."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ARU",
+      "company": "ARAFURA RARE EARTHS LTD",
+      "headline": "Commitments Received for A$350m Placement",
+      "time": "2026-05-24T22:58:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093219-6A1326741",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Arafura secured A$350m in binding commitments via institutional placement, providing critical funding to advance the Nolans NdPr rare earths project toward construction — a significant de-risking milestone for the company's development timeline.",
+        "The substantial capital raise size signals strong institutional appetite for rare earths exposure amid global supply chain diversification themes, though existing shareholders face meaningful dilution given Arafura's pre-raise market capitalisation.",
+        "Proceeds are expected to be directed toward project development and working capital, with investors now focused on whether remaining funding gaps (debt facilities, government support) can be closed to reach final investment decision and full project financing."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IXR",
+      "company": "IONIC RARE EARTHS LIMITED",
+      "headline": "IXR STARTS REO SUPPLY TO AML FOR USA NdFeB MAGNETS",
+      "time": "2026-05-24T22:56:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093214-3A693907",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ionic Rare Earths has commenced supply of separated rare earth oxides (REO) to Advanced Magnet Lab (AML) for production of NdFeB permanent magnets in the USA, marking a tangible commercial milestone for the company's ionic clay rare earth strategy.",
+        "The supply arrangement positions IXR within the critical minerals supply chain for US-based magnet manufacturing, potentially unlocking revenue streams aligned with US government incentives to de-risk rare earth supply from China — a significant strategic tailwind.",
+        "This initial supply represents an early-stage commercial validation; investors should monitor for volume ramp-up details, pricing terms, and whether this evolves into a binding offtake agreement that could materially impact IXR's revenue trajectory and project financing prospects."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AVR",
+      "company": "ANTERIS TECHNOLOGIES GLOBAL CORP.",
+      "headline": "Prospectus Supplement and Sales Agreement",
+      "time": "2026-05-24T22:53:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093209-6A1326747",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Anteris Technologies has filed a prospectus supplement and entered into a sales agreement, signaling an at-the-market (ATM) equity offering facility that provides flexible capital raising capability but introduces potential dilution for existing shareholders.",
+        "The ATM structure suggests the company is seeking to opportunistically raise funds to extend its cash runway, likely to support ongoing clinical development and commercialization of its DurAVR transcatheter aortic valve replacement (TAVR) technology — a capital-intensive pre-revenue stage.",
+        "Investors should monitor the pace and pricing of any share sales under the agreement, as aggressive utilization could pressure the stock price, while measured use would indicate disciplined capital management ahead of key clinical milestones."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CY5",
+      "company": "CYGNUS METALS LIMITED",
+      "headline": "High-Grade Golden Eye Results",
+      "time": "2026-05-24T22:50:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093203-6A1326745",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Cygnus Metals reports high-grade results from its Golden Eye prospect, signaling potential for a significant gold discovery that could materially re-rate the company's exploration portfolio and attract market attention.",
+        "High-grade intercepts at Golden Eye are critical for demonstrating economic viability at shallow depths, which could substantially reduce future development costs and accelerate any pathway toward resource definition.",
+        "Follow-up drilling programs and further assay results will be key catalysts; investors should watch for resource estimation timelines and whether grades are sustained across broader mineralized zones to confirm deposit scale."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WCN",
+      "company": "WHITE CLIFF MINERALS LIMITED",
+      "headline": "First Assays Confirm District Scale Copper System at Danvers",
+      "time": "2026-05-24T22:49:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093201-6A1326744",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "First assay results from the Danvers project confirm a district-scale copper system, a significant de-risking milestone that validates the exploration thesis and could attract strategic interest from larger copper-focused miners.",
+        "The confirmation of widespread copper mineralisation across the Danvers tenement package elevates the project's prospectivity, though early-stage assays will need to demonstrate grade continuity and economic thresholds to drive meaningful re-rating.",
+        "Investors should watch for follow-up drilling programs and additional assay batches to determine whether grades and widths support a potential resource estimate — the company's cash position and ability to fund continued exploration without dilutive capital raises will be critical."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "1AD",
       "company": "ADALTA LIMITED",
