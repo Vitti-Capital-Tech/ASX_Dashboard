@@ -1,9 +1,275 @@
 {
   "date": "2026-05-26",
-  "total": 44,
-  "market_sensitive_count": 41,
-  "generated_at": "2026-05-25T22:51:54.223401+00:00",
+  "total": 58,
+  "market_sensitive_count": 55,
+  "generated_at": "2026-05-25T23:20:14.661011+00:00",
   "announcements": [
+    {
+      "ticker": "AV1",
+      "company": "ADVERITAS LIMITED",
+      "headline": "Trading Update",
+      "time": "2026-05-25T23:10:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093653-6A1326922",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Adveritas has issued a market-sensitive trading update, signaling material changes in business performance or outlook that the company deems price-sensitive for investors.",
+        "As a digital ad-fraud detection technology company, any trading update likely addresses key metrics such as Annual Recurring Revenue (ARR), customer acquisition, or cash burn trajectory — critical for assessing viability of this micro-cap tech name.",
+        "Investors should scrutinize the update for revised guidance on cash runway and path to profitability, as micro-cap ad-tech firms on ASX face persistent funding risk and the market-sensitive tag suggests a meaningful deviation from prior expectations."
+      ],
+      "tags": [
+        "Technology",
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GNG",
+      "company": "GR ENGINEERING SERVICES LIMITED",
+      "headline": "EPC Contract - Laverton Processing Plant",
+      "time": "2026-05-25T23:08:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093650-6A1326920",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GR Engineering has secured a new EPC (Engineer, Procure, Construct) contract for the Laverton Processing Plant, reinforcing its pipeline of gold-sector infrastructure work and supporting near-term revenue visibility.",
+        "The EPC contract win is a material positive for GR Engineering's order book, with Laverton being a well-established gold processing hub in Western Australia — the contract likely represents a meaningful contribution to FY25/FY26 revenues given the company's typical project scale.",
+        "Continued EPC contract wins in the gold sector underscore strong demand for processing plant construction amid elevated gold prices, positioning GR Engineering for sustained earnings momentum and potential for further contract announcements."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NWH",
+      "company": "NRW HOLDINGS LIMITED",
+      "headline": "Fredon Contract awards",
+      "time": "2026-05-25T23:00:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093642-6A1326918",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NRW's subsidiary Fredon has secured new contract awards, reinforcing the group's diversified services revenue pipeline and strengthening its order book visibility for institutional investors tracking backlog growth.",
+        "Contract wins at the Fredon level signal continued momentum in the electrical and communications services segment, which has been a key growth vertical for NRW following its acquisition strategy to broaden beyond traditional civil and mining services.",
+        "The market-sensitive designation suggests the contract values are material to NRW's earnings outlook; investors should monitor the next quarterly update for updated order book figures and any margin guidance uplift from these awards."
+      ],
+      "tags": [
+        "Other",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OSX",
+      "company": "OSTEOPORE LIMITED",
+      "headline": "OSX secures Hainan FDA approval for orthopaedic devices",
+      "time": "2026-05-25T22:59:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093636-6A1326914",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Osteopore secured Hainan FDA (HNMPA) approval for its 3D-printed bioresorbable orthopaedic implants, opening access to China's large and growing orthopaedic device market via the Hainan Free Trade Port's expedited regulatory pathway.",
+        "This approval is strategically significant as it provides a commercial beachhead into China ahead of a full NMPA (national) registration, potentially accelerating near-term revenue from a market where Osteopore has limited prior penetration — critical for a micro-cap with constrained cash runway.",
+        "Next steps will centre on converting regulatory approval into distribution agreements and clinical adoption in Hainan's medical tourism hub, while the approval may also de-risk the broader China national registration pathway and support future capital raising narratives."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STK",
+      "company": "STRICKLAND METALS LIMITED",
+      "headline": "50% Increase in Gradina Resource to 1.8Moz @ 2.8g/t Au",
+      "time": "2026-05-25T22:59:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093637-6A1326917",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strickland Metals delivers a significant 50% increase in the Gradina gold resource to 1.8Moz at a robust grade of 2.8g/t Au, materially enhancing the project's scale and economic potential for future development studies.",
+        "The 2.8g/t Au average grade is notably strong for an open-pit/underground resource of this size, positioning Gradina as a high-quality gold asset that could attract corporate interest or support standalone development economics.",
+        "The substantial resource upgrade is likely to catalyse next steps including scoping or pre-feasibility studies, further extensional drilling to grow the resource, and potential re-rating as the market prices in the enlarged inventory."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FLT",
+      "company": "FLIGHT CENTRE TRAVEL GROUP LIMITED",
+      "headline": "Investor Day Presentation (including trading update)",
+      "time": "2026-05-25T22:59:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093635-2A1673765",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Flight Centre's Investor Day includes a trading update, signaling management confidence in providing forward-looking guidance to the market — a positive signal for institutional investors seeking visibility on FY25 trajectory.",
+        "The combination of an Investor Day presentation with a market-sensitive trading update suggests material new financial data is being disclosed, likely covering TTV trends, margin progression, and segment performance across Corporate and Leisure divisions.",
+        "Investor Day format typically showcases strategic initiatives and medium-term targets; paired with a trading update, this creates a catalyst event that could drive consensus estimate revisions depending on whether current trading is tracking ahead or behind market expectations."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FMR",
+      "company": "FMR RESOURCES LIMITED",
+      "headline": "Cu & Au Rockchip Results Highlight La Lorena Scale Potential",
+      "time": "2026-05-25T22:58:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093633-6A1326916",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Rockchip sampling at La Lorena project has returned significant copper and gold assay results, reinforcing the scale potential of the mineralised system and validating the exploration thesis for a large porphyry-style target.",
+        "High-grade surface samples with elevated Cu and Au values across a broad area suggest a substantial mineralised footprint, which is critical for de-risking the project ahead of drill targeting and attracting potential JV or farm-in partners.",
+        "Next steps likely involve systematic geochemical surveys and drill program planning to test subsurface continuity; for a micro-cap explorer like FMR, these results are pivotal in sustaining market interest and supporting future capital raises to fund advancement."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BCN",
+      "company": "BEACON MINERALS LIMITED",
+      "headline": "Encouraging Results from Iguana Drilling Program",
+      "time": "2026-05-25T22:55:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093629-6A1326912",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Beacon Minerals reports encouraging drill results from the Iguana prospect, signaling potential resource expansion that could extend mine life and enhance the company's production pipeline beyond its existing Jaurdi Gold Project operations.",
+        "The use of 'encouraging results' in a market-sensitive announcement suggests meaningful gold intercepts that may support future resource definition drilling and potential inclusion in mine planning, though specific grades and widths will be critical for assessing economic viability.",
+        "Positive exploration outcomes at Iguana could provide a near-term catalyst for re-rating if results demonstrate continuity and grade sufficient to justify development, with follow-up drilling programs likely to be announced to advance the prospect toward resource estimation."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EIQ",
+      "company": "ECHOIQ LIMITED",
+      "headline": "$762k R&D Tax Incentive Received",
+      "time": "2026-05-25T22:54:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093628-2A1673766",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EchoIQ received $762k in R&D Tax Incentive cash refund, providing a non-dilutive funding boost to a likely cash-constrained micro-cap developing AI-driven cardiac imaging technology.",
+        "The R&D tax incentive validates ongoing eligible R&D expenditure and signals continued investment in product development, with the refund materially extending cash runway for a company at pre-revenue or early-revenue stage.",
+        "Receipt of the refund strengthens the near-term balance sheet without shareholder dilution, potentially deferring the need for a capital raise and allowing management to focus on commercialization milestones."
+      ],
+      "tags": [
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WHI",
+      "company": "WHITEFIELD INCOME LIMITED",
+      "headline": "Entitlement Offer Booklet",
+      "time": "2026-05-25T22:54:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093627-2A1673763",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Whitefield Income Limited is conducting a pro-rata entitlement offer, which will dilute existing shareholders who do not participate while raising fresh capital for the listed investment company.",
+        "As a market-sensitive capital raise for an income-focused LIC, the offer structure and pricing relative to NTA will be critical — any discount to NTA could pressure the share price near-term while providing an entry point for participating investors.",
+        "Investors should assess the offer ratio, issue price versus current NTA backing, and intended use of proceeds to determine whether the raise is accretive or dilutive to per-share portfolio value and future dividend capacity."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GNM",
+      "company": "GREAT NORTHERN MINERALS LIMITED",
+      "headline": "Significant Expansion of Iron Butte Gold-Silver Project",
+      "time": "2026-05-25T22:53:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093626-6A1326913",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Great Northern Minerals has significantly expanded its Iron Butte Gold-Silver Project footprint, signaling strategic commitment to growing its US-based precious metals portfolio and potentially increasing resource inventory.",
+        "The expansion of tenement holdings at Iron Butte enhances the project's exploration upside, though as a micro-cap explorer, GNM remains pre-revenue with limited cash runway — investors should monitor upcoming capital requirements closely.",
+        "Next steps likely involve follow-up exploration programs across the expanded project area, with drilling results expected to be the key near-term catalyst for re-rating; the market-sensitive designation suggests management views this as material to valuation."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ARX",
+      "company": "AROA BIOSURGERY LIMITED",
+      "headline": "FY26 Full Year Results Presentation",
+      "time": "2026-05-25T22:51:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093624-2A1673762",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "AROA Biosurgery delivers FY26 full year results presentation, a market-sensitive release indicating material financial updates for the regenerative tissue technology company listed on ASX.",
+        "As a healthcare/biotech company transitioning toward profitability, key metrics to watch include revenue growth trajectory in the US soft tissue repair market, gross margin expansion, and progress toward cash flow breakeven — all critical for institutional valuation.",
+        "Investors should focus on updated FY27 guidance, cash runway sustainability, and any commentary on OUS expansion or new product launches (e.g., Myriad platform adoption) as catalysts for re-rating."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MEK",
+      "company": "MEEKA METALS LIMITED",
+      "headline": "Barrenjoey Emerging Gold Investor Day Presentation",
+      "time": "2026-05-25T22:49:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093623-6A1326911",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Meeka Metals presenting at Barrenjoey Emerging Gold Investor Day signals active engagement with institutional capital and efforts to raise profile among sophisticated gold-focused investors.",
+        "The presentation being marked as market sensitive suggests it likely contains material updates on the company's gold project development, resource estimates, or strategic direction that could move the stock.",
+        "Participation at a Barrenjoey-hosted event positions Meeka alongside emerging gold peers at a time of elevated gold prices, potentially catalysing institutional interest and improving liquidity in the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ARX",
+      "company": "AROA BIOSURGERY LIMITED",
+      "headline": "FY26 Appendix 4E and Full Year Results",
+      "time": "2026-05-25T22:48:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093621-2A1673761",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "AROA Biosurgery reports FY26 full-year results via Appendix 4E, a market-sensitive disclosure indicating material financial updates for the regenerative tissue technology company listed on ASX.",
+        "As a growth-stage healthcare company, key metrics to watch include revenue trajectory from its OviTex and Myriad product lines, progress toward profitability, and cash burn rate — all critical for assessing remaining cash runway and potential future capital needs.",
+        "Full-year results filing signals a pivotal update for institutional positioning; investors should focus on US commercial traction, gross margin trends, and any updated FY27 guidance to gauge whether AROA is on track to reach cash flow breakeven without further dilution."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SLM",
       "company": "SOLIS MINERALS LIMITED",
