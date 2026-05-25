@@ -1,9 +1,66 @@
 {
   "date": "2026-05-25",
-  "total": 97,
-  "market_sensitive_count": 89,
-  "generated_at": "2026-05-25T00:45:43.704905+00:00",
+  "total": 100,
+  "market_sensitive_count": 91,
+  "generated_at": "2026-05-25T01:44:51.446101+00:00",
   "announcements": [
+    {
+      "ticker": "SKY",
+      "company": "SKY METALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-25T01:30:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093337-2A1673556",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has changed their position in Sky Metals Limited, signaling a notable shift in institutional or major shareholder conviction in this junior mining explorer.",
+        "As a non-market-sensitive filing, the change likely reflects portfolio rebalancing or passive threshold crossing rather than a strategic block trade, limiting immediate price impact.",
+        "Investors should monitor whether this represents accumulation or disposal, as directional changes in substantial holdings for small-cap miners like SKY can foreshadow future capital raise participation or exit positioning."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RAP",
+      "company": "RAPTOR METALS LTD",
+      "headline": "Drilling Validates High-Grade Copper System at Chester",
+      "time": "2026-05-25T01:06:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093324-2A1673552",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling at the Chester copper project has validated a high-grade copper system, providing critical geological confidence that could de-risk the asset and attract further investment or partnership interest for this early-stage explorer.",
+        "The confirmation of high-grade copper mineralisation through drilling is technically significant, as it transitions Chester from a surface-level prospect to a drill-validated system — a key inflection point for junior miners seeking to build resource estimates.",
+        "Next steps will likely involve follow-up drilling programs to define the extent and continuity of the copper system; investors should monitor upcoming assay results, resource estimation timelines, and the company's cash position to fund continued exploration without excessive dilution."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ROG",
+      "company": "RED SKY ENERGY LIMITED.",
+      "headline": "Results of Rights Issue",
+      "time": "2026-05-25T00:45:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093322-3A693928",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Red Sky Energy's rights issue results reveal the level of shareholder participation and capital raised, which is critical for assessing near-term funding adequacy for the micro-cap energy explorer.",
+        "Rights issues for companies of this size typically see low take-up rates, and the shortfall (if any) and its placement will determine the degree of dilution and signal institutional appetite for the stock.",
+        "Proceeds will likely be directed toward working capital and advancing energy exploration/development programs, with the cash runway extension being the key metric for investors to monitor going forward."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "IME",
       "company": "IMEXHS LIMITED",
