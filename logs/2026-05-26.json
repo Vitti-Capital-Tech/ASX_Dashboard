@@ -1,9 +1,292 @@
 {
   "date": "2026-05-26",
-  "total": 59,
-  "market_sensitive_count": 56,
-  "generated_at": "2026-05-25T23:25:46.873361+00:00",
+  "total": 74,
+  "market_sensitive_count": 71,
+  "generated_at": "2026-05-25T23:52:55.687125+00:00",
   "announcements": [
+    {
+      "ticker": "GT1",
+      "company": "GREEN TECHNOLOGY METALS LIMITED",
+      "headline": "DFS Update & Additional Critical Mineral Streams Identified",
+      "time": "2026-05-25T23:46:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093699-6A1326939",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DFS update signals project advancement for Green Technology Metals' lithium assets, with identification of additional critical mineral streams potentially enhancing project economics and diversifying revenue beyond lithium alone.",
+        "Discovery of supplementary critical mineral byproduct streams could materially improve NPV and IRR metrics in the final DFS, reducing single-commodity risk and potentially unlocking additional government incentive pathways tied to critical minerals strategies.",
+        "Investors should watch for the completed DFS release timeline and detailed economics on the newly identified mineral streams, as these will be key catalysts for de-risking the project and attracting offtake or financing partners."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ASX",
+      "company": "ASX LIMITED",
+      "headline": "ASX Provides Financial Guidance",
+      "time": "2026-05-25T23:44:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093697-2A1673790",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX Limited has issued forward financial guidance, signaling management confidence in providing earnings visibility to the market — a relatively uncommon step for exchange operators and typically indicative of material shifts in revenue or cost trajectory.",
+        "Guidance updates from ASX often reflect changes in listing activity, trading volumes, technology investment (including CHESS replacement costs), or regulatory-driven fee adjustments, all of which directly impact operating leverage and margin outlook.",
+        "Institutional investors should closely examine the specific metrics guided (revenue, EBITDA, capex) and compare against consensus estimates — any deviation will likely drive near-term re-rating given ASX's defensive, high-multiple valuation profile."
+      ],
+      "tags": [
+        "Finance",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HGO",
+      "company": "HILLGROVE RESOURCES LIMITED",
+      "headline": "AGM - CEO & Managing Director Presentation",
+      "time": "2026-05-25T23:40:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093693-2A1673794",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Hillgrove Resources' CEO presentation at AGM flagged as market sensitive, suggesting material operational or strategic updates beyond routine AGM business — likely includes updated production guidance, resource estimates, or project milestones at the Kanmantoo copper operation.",
+        "Market-sensitive AGM presentations from mining companies typically contain forward-looking production targets, cost guidance, or exploration results that could materially re-rate the stock, warranting close attention to any revised copper output or expansion capital figures.",
+        "Investors should monitor for any updated mine life extensions, processing capacity changes, or balance sheet commentary that could signal a shift in Hillgrove's growth trajectory or near-term funding requirements as the company advances its copper operations."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AX8",
+      "company": "ACCELERATE RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-25T23:36:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093687-6A1326935",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Accelerate Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update that requires price-sensitive disclosure.",
+        "As a micro-cap explorer on the ASX, any trading halt raises immediate questions about cash runway adequacy — a capital raise scenario would likely be dilutive to existing shareholders given the company's limited market capitalisation.",
+        "Investors should await the formal announcement (usually within 2 trading days per ASX rules) to assess whether the catalyst is value-accretive (e.g. asset acquisition, major drill results) or dilutive (e.g. placement at discount)."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GNG",
+      "company": "GR ENGINEERING SERVICES LIMITED",
+      "headline": "EPC Contract - Sorby Hills Silver-Lead Project",
+      "time": "2026-05-25T23:35:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093686-6A1326931",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GR Engineering has secured an EPC contract for the Sorby Hills Silver-Lead Project, reinforcing its pipeline of mineral processing construction work and providing near-term revenue visibility in a favourable metals price environment.",
+        "The contract win strengthens GR Engineering's order book and positions the company as a key contractor in the base metals space; contract value, while not disclosed in the headline, is material enough to warrant market-sensitive classification, suggesting meaningful revenue contribution.",
+        "Execution of the Sorby Hills EPC contract will be a key catalyst to watch — successful delivery could enhance GR Engineering's track record and support future contract wins, while any cost overruns or delays would weigh on margins given the fixed-price nature typical of EPC agreements."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BML",
+      "company": "BOAB METALS LIMITED",
+      "headline": "Boab Metals Executes EPC Contract for Sorby Hills",
+      "time": "2026-05-25T23:35:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093685-6A1326929",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Boab Metals has executed a binding EPC (Engineering, Procurement & Construction) contract for the Sorby Hills lead-silver project, representing a critical de-risking milestone that transitions the project from development planning to construction-ready status.",
+        "Execution of the EPC contract locks in project costs and timeline, providing institutional investors with greater certainty on capital expenditure requirements and expected first production — a key catalyst for re-rating junior miners approaching the build phase.",
+        "With the EPC now in place, near-term focus shifts to securing remaining project financing, achieving final investment decision (FID), and commencing construction — any delays in funding or permitting remain key risks to monitor."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VPR",
+      "company": "VOLT GROUP LIMITED",
+      "headline": "4D Delta WA Goldfields Alliance",
+      "time": "2026-05-25T23:34:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093683-6A1326932",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Volt Group has formed a strategic alliance with 4D Delta targeting the WA Goldfields region, potentially providing access to high-demand gold exploration and production services in one of Australia's most prolific mining districts.",
+        "The alliance structure suggests a capital-light approach to expanding Volt's footprint in the resources sector, leveraging partnerships rather than direct acquisition, which preserves balance sheet flexibility for a micro-cap company.",
+        "Market-sensitive designation signals management views this as material to valuation; investors should watch for follow-up details on contract scope, revenue potential, and timeline for first earnings contribution from the alliance."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AZ9",
+      "company": "ASIAN BATTERY METALS PLC",
+      "headline": "Massive Sulphide Zone Extended at Red Hill Cu-Au Project",
+      "time": "2026-05-25T23:34:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093682-6A1326933",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Massive sulphide zone at Red Hill Cu-Au project has been extended, indicating growing scale potential for the copper-gold deposit and de-risking the geological model for future resource estimation.",
+        "Extension of the sulphide zone is technically significant as it suggests continuity of mineralisation at depth/along strike, which could materially increase the project's resource base and attract strategic interest in the copper-gold space.",
+        "Next steps likely include follow-up drilling to define the extent of the expanded sulphide zone and progress toward a maiden or updated resource estimate — a key catalyst for re-rating given the current strong copper price environment."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "1TT",
+      "company": "THRIVE TRIBE TECHNOLOGIES LIMITED",
+      "headline": "Capital Raise",
+      "time": "2026-05-25T23:33:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093681-2A1673789",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Thrive Tribe Technologies is conducting a capital raise, which typically signals near-term funding needs and will result in shareholder dilution — a key concern for a micro-cap ASX-listed company where liquidity is already thin.",
+        "Without disclosed raise size or pricing details in the headline, investors should watch for the discount to last traded price and participation by existing institutional holders as indicators of market confidence in the company's trajectory.",
+        "The capital raise likely extends cash runway for operations or growth initiatives, but for a small technology company, repeated equity funding rounds without corresponding revenue milestones tend to weigh on sentiment and share price."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "FUL",
+      "company": "FULCRUM LITHIUM LTD",
+      "headline": "Dry Canyon geophysical results lead to claims expansion",
+      "time": "2026-05-25T23:31:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093677-2A1673788",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Geophysical survey results at Dry Canyon have identified compelling subsurface targets, providing sufficient technical justification for Fulcrum Lithium to expand its claims position — a positive signal for resource potential upside.",
+        "Claims expansion increases the company's ground position, enhancing the scale of the exploration opportunity and potentially improving the project's attractiveness for future joint ventures or capital raises.",
+        "Next steps likely involve follow-up drilling programs to test geophysical anomalies; investors should monitor upcoming drill planning timelines and funding capacity to advance exploration on the expanded tenement package."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NSB",
+      "company": "NEUROSCIENTIFIC BIOPHARMACEUTICALS LTD",
+      "headline": "Remarkable Results from Patients treated with StemSmart",
+      "time": "2026-05-25T23:30:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093676-6A1326910",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "NEUROSCIENTIFIC BIOPHARMACEUTICALS reports 'remarkable' patient outcomes from its StemSmart treatment program, a market-sensitive disclosure signaling potentially meaningful clinical validation for its neuroscience-focused therapeutic pipeline.",
+        "As a micro-cap biotech, positive patient-level results — while not equivalent to controlled clinical trial data — can serve as critical proof-of-concept to support future fundraising, partnership discussions, and regulatory pathway planning; investors should scrutinize sample size, endpoints, and statistical rigor.",
+        "Key next steps will be whether these results are sufficient to advance StemSmart into formal clinical trials, secure regulatory approvals for expanded use, or attract strategic partners — all of which would be required to de-risk the asset and extend the company's limited cash runway."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TTX",
+      "company": "TETRATHERIX LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-25T23:29:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093675-2A1673786",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Tetratherix Limited has entered a trading halt, suspending shares from trading pending a material announcement — the nature of which is undisclosed but flagged as market sensitive, suggesting a potentially significant corporate development.",
+        "As a small-cap/micro-cap entity, trading halts often precede capital raises, material transactions, or regulatory updates; investors should monitor for dilutive equity issuance risk or transformative deal flow.",
+        "Shares will remain halted until the company releases its pending announcement or the exchange-imposed deadline expires; institutional investors should await full disclosure before reassessing position sizing or valuation."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BTR",
+      "company": "BRIGHTSTAR RESOURCES LIMITED",
+      "headline": "BTR Approves Final Investment Decision at Goldfields Project",
+      "time": "2026-05-25T23:26:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093670_PS-6A1326923",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Brightstar Resources has approved the Final Investment Decision (FID) for its Goldfields Project, signaling transition from development to production phase — a critical de-risking milestone for junior miners that typically drives re-rating.",
+        "FID approval implies the project has met internal economic hurdles including bankable feasibility metrics, securing of funding pathways, and permitting readiness, providing institutional investors with greater confidence in near-term cash flow generation.",
+        "Key next steps will center on construction timeline execution, commissioning targets, and any remaining financing arrangements — investors should monitor for capital raise announcements or offtake agreements that typically follow FID approvals in the junior gold space."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AGC",
+      "company": "AUSTRALIAN GOLD AND COPPER LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-25T23:26:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093669-6A1326925",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Australian Gold and Copper Ltd has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration result that requires price-sensitive disclosure.",
+        "As a junior explorer, the most likely catalysts are a capital raising (potentially dilutive) or a material drilling/resource update — investors should monitor the nature of the announcement closely for balance sheet implications.",
+        "Trading will remain suspended until the company releases its announcement or the halt period expires, with the next disclosure likely to set near-term price direction and sentiment for the stock."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NAE",
+      "company": "NEW AGE EXPLORATION LIMITED",
+      "headline": "Lammerlaw Phase 2 Drilling Nears Completion",
+      "time": "2026-05-25T23:24:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093667-3A694005",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Phase 2 drilling at Lammerlaw gold project in New Zealand is nearing completion, signaling continued exploration momentum and potential for resource definition advancement for New Age Exploration.",
+        "Completion of this drilling phase will provide critical assay data that could materially impact the company's resource estimate and project valuation — a key catalyst for a micro-cap explorer with limited revenue streams.",
+        "Investors should watch for upcoming assay results and any resource upgrade announcements, which will determine whether the project can progress toward feasibility studies and attract further funding or partnership interest."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "LEL",
       "company": "LITHIUM ENERGY LIMITED",
