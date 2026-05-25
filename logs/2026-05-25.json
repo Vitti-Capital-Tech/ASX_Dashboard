@@ -1,9 +1,66 @@
 {
   "date": "2026-05-25",
-  "total": 100,
+  "total": 103,
   "market_sensitive_count": 91,
-  "generated_at": "2026-05-25T01:44:51.446101+00:00",
+  "generated_at": "2026-05-25T03:10:36.511620+00:00",
   "announcements": [
+    {
+      "ticker": "CEN",
+      "company": "CONTACT ENERGY LIMITED",
+      "headline": "Change in substantial holding from IFT",
+      "time": "2026-05-25T02:50:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093349-2A1673564",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Infratil (IFT) has filed a change in substantial holding notice for Contact Energy, indicating a shift in its ownership stake — this is a routine disclosure but signals active portfolio management by one of Contact Energy's largest shareholders.",
+        "Any material reduction in IFT's stake could signal a potential strategic repositioning or capital reallocation away from Contact Energy, while an increase would reinforce long-term conviction in the NZ/AU energy sector.",
+        "Investors should monitor the direction and magnitude of the holding change in the detailed filing, as significant moves by Infratil have historically influenced Contact Energy's trading liquidity and market sentiment."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAK",
+      "company": "WA KAOLIN LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-25T02:44:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093348-6A1326797",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in WA Kaolin Limited (WAK) has filed a change in their holding, signaling active portfolio repositioning by a significant shareholder that institutional investors should monitor for directional intent.",
+        "The change in substantial holding notice is classified as not market sensitive, suggesting the movement is likely a routine adjustment rather than a strategic block trade or activist accumulation/disposal.",
+        "Investors should review the specific direction of the change (increase vs decrease) and the identity of the holder to assess whether this reflects confidence in WAK's kaolin project development pipeline or a rebalancing away from the stock."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACL",
+      "company": "AUSTRALIAN CLINICAL LABS LIMITED",
+      "headline": "Change in substantial holding from CBA",
+      "time": "2026-05-25T01:54:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093339-3A693936",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Commonwealth Bank of Australia (CBA) has filed a change in substantial holding notice for Australian Clinical Labs (ACL), indicating a shift in its ownership stake that institutional investors should monitor for potential passive index-related or lending-driven activity.",
+        "CBA's holding changes in pathology stocks like ACL are typically driven by custodial, lending, or derivative positions rather than active investment conviction, limiting direct read-through on fundamental views of the company.",
+        "The filing is procedural and not marked as market sensitive; investors should watch for any follow-up movements or clustering of substantial holder changes that could signal broader institutional repositioning ahead of potential sector M&A activity in the Australian pathology space."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SKY",
       "company": "SKY METALS LIMITED",
