@@ -1,9 +1,273 @@
 {
   "date": "2026-05-25",
-  "total": 83,
-  "market_sensitive_count": 77,
-  "generated_at": "2026-05-24T23:48:26.331850+00:00",
+  "total": 97,
+  "market_sensitive_count": 89,
+  "generated_at": "2026-05-25T00:45:43.704905+00:00",
   "announcements": [
+    {
+      "ticker": "IME",
+      "company": "IMEXHS LIMITED",
+      "headline": "IMEXHS Wins Aquila Public Tender in Mexico",
+      "time": "2026-05-25T00:36:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093317-3A693927",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "IMEXHS secured the Aquila public tender in Mexico, signaling meaningful geographic expansion and validation of its medical imaging and health informatics platform in the Latin American market.",
+        "Winning a public tender typically implies a multi-year contracted revenue stream with a government or institutional buyer, which should improve revenue visibility and recurring income for a micro-cap company that needs to demonstrate commercial traction.",
+        "The contract win strengthens IMEXHS's competitive positioning in Mexico and could serve as a reference case for further public-sector opportunities across Latin America, though investors should monitor contract value disclosure and implementation timelines for materiality assessment."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NGS",
+      "company": "NUTRITIONAL GROWTH SOLUTIONS LTD",
+      "headline": "Transformational Acquisition",
+      "time": "2026-05-25T00:25:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093315-6A1326769",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Nutritional Growth Solutions announces a transformational acquisition, signaling a strategic pivot or significant scale-up that could materially alter the company's revenue base and market positioning",
+        "As a micro-cap ASX-listed company in the nutritional/health space, any transformational M&A deal will be scrutinized for funding structure — potential dilution via capital raise or scrip consideration is a key risk factor for existing shareholders",
+        "Market-sensitive designation suggests material terms have been agreed; investors should watch for details on target financials, deal consideration (cash vs equity), integration timeline, and whether shareholder approval is required"
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "M2M",
+      "company": "MT MALCOLM MINES NL",
+      "headline": "Exploration Drilling Planned at Calypso",
+      "time": "2026-05-25T00:24:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093314-6A1326787",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mt Malcolm Mines is advancing exploration at its Calypso prospect with planned drilling, signaling active project development and potential for resource delineation in a gold-prospective region of Western Australia.",
+        "As an early-stage explorer, the announcement of planned drilling rather than results means no immediate resource upgrade or valuation catalyst — investors should monitor for assay results and drill intercepts as the true value inflection point.",
+        "The market-sensitive tag suggests management views the Calypso drilling program as material to the company's near-term narrative, potentially attracting speculative interest and positioning the stock ahead of newsflow from drill results."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VRC",
+      "company": "VOLT RESOURCES LIMITED",
+      "headline": "Continuation of Suspension from Quotation",
+      "time": "2026-05-25T00:08:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093312-6A1326785",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Volt Resources remains suspended from ASX quotation, signaling unresolved compliance or disclosure issues that prevent the company from resuming normal trading activities.",
+        "Prolonged suspension raises significant concerns about the company's ability to access equity capital markets, potentially constraining cash runway and operational funding for its graphite and gold projects.",
+        "Investors should monitor for further ASX announcements detailing the specific conditions required for reinstatement, as continued suspension increases the risk of value erosion and potential delisting if compliance milestones are not met."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SSM",
+      "company": "SERVICE STREAM LIMITED",
+      "headline": "Service Stream enters agreement to acquire RIE Group",
+      "time": "2026-05-25T00:05:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093311-3A693925",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Service Stream has entered a binding agreement to acquire RIE Group, signaling strategic expansion likely aimed at broadening its infrastructure services capabilities and addressable market across utilities and telecommunications sectors.",
+        "The acquisition is flagged as market sensitive, suggesting material scale — investors should watch for disclosed enterprise value, funding mix (debt vs equity), and whether the deal is immediately EPS-accretive or requires integration spend that pressures near-term margins.",
+        "Successful execution would diversify Service Stream's revenue base and deepen its exposure to essential infrastructure maintenance tailwinds in Australia, though integration risk and potential balance sheet leverage warrant close monitoring of pro-forma financials and synergy targets."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ABY",
+      "company": "ADORE BEAUTY GROUP LIMITED",
+      "headline": "Company Update",
+      "time": "2026-05-25T00:01:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093310-3A693924",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Adore Beauty has issued a market-sensitive company update, likely addressing strategic, operational, or financial developments that could materially affect the company's trajectory in the competitive online beauty retail space.",
+        "As a pure-play online beauty retailer, any update on customer acquisition costs, active customer metrics, or margin trajectory will be critical for reassessing the path to sustained profitability and cash flow generation.",
+        "Investors should closely monitor whether the update signals a change in guidance, strategic pivot (e.g. M&A, partnerships), or operational restructuring that could reset market expectations for FY25 and beyond."
+      ],
+      "tags": [
+        "Retail",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CXZ",
+      "company": "CONNEXION MOBILITY LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-25T00:01:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093309-3A693923",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Connexion Mobility Ltd has filed a change in their holding, signaling a notable shift in ownership structure that institutional investors should monitor for potential strategic implications.",
+        "The filing is classified as not market sensitive, suggesting the change is likely a routine adjustment in position size rather than a transformative block trade or activist accumulation.",
+        "For a micro-cap technology company like Connexion Mobility, movements in substantial holdings can materially impact free float and liquidity dynamics, warranting close attention to whether this reflects accumulation or distribution by the holder."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IFN",
+      "company": "INFRAGREEN GROUP LIMITED",
+      "headline": "Trading Update and Earnings Guidance",
+      "time": "2026-05-25T00:01:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093308-2A1673547",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "InfraGreen Group has issued a trading update with earnings guidance, signaling management confidence in providing forward-looking financial metrics to the market — a positive transparency signal for institutional investors assessing the company's trajectory.",
+        "The market-sensitive classification indicates material information on revenue, EBITDA, or profit expectations that could meaningfully re-rate the stock depending on whether guidance meets, beats, or misses consensus estimates.",
+        "Investors should closely monitor the specific guidance ranges and any commentary on infrastructure/green energy project pipeline, contract wins, or margin trends that would underpin medium-term earnings visibility and cash flow sustainability."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PMM",
+      "company": "PIONEER MINERALS LIMITED",
+      "headline": "Springfield Mine Access Works to Accelerate North Pine",
+      "time": "2026-05-24T23:58:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093303-6A1326781",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Pioneer Minerals is commencing access works at the Springfield Mine to accelerate exploration and development at the North Pine prospect, signaling a shift toward active ground operations and near-term drill targeting.",
+        "Leveraging existing mine infrastructure at Springfield reduces upfront capital requirements and shortens the timeline to potential resource delineation at North Pine, a strategically important move for a junior explorer seeking to demonstrate value.",
+        "Accelerated access works suggest management confidence in North Pine's prospectivity; investors should watch for upcoming drill program announcements and assay results as key catalysts that could materially re-rate the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EQU",
+      "company": "EQUUS ENERGY LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-05-24T23:58:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093301-6A1326779",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Equus Energy Limited, crossing the 5% ownership threshold, signaling meaningful external conviction in the company's prospects or strategic positioning.",
+        "For a micro-cap energy explorer like Equus Energy, the accumulation of a substantial stake may indicate anticipation of upcoming catalysts such as exploration results, asset transactions, or corporate activity.",
+        "Investors should monitor whether this accumulation is followed by further buying, board engagement, or corporate proposals, as substantial holder notices in small-cap energy names can precede activist or M&A-driven re-ratings."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HAR",
+      "company": "HARANGA RESOURCES LIMITED.",
+      "headline": "Lincoln Gold Project - Maiden JORC Resource Presentation",
+      "time": "2026-05-24T23:54:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093298-6A1326774",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Haranga Resources has delivered a maiden JORC-compliant resource estimate for its Lincoln Gold Project, a key de-risking milestone that establishes a quantified resource base and enhances the project's credibility for future development or partnership discussions.",
+        "The presentation format suggests the company is actively marketing the resource to institutional investors and potential strategic partners, signaling confidence in the project's scale and grade metrics sufficient to attract external interest.",
+        "A maiden resource typically triggers follow-up catalysts including scoping/pre-feasibility studies, additional drilling to expand or upgrade the resource classification, and potential re-rating as the market prices in defined ounces — investors should watch for resource size, grade, and metallurgical details in the full announcement."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HAR",
+      "company": "HARANGA RESOURCES LIMITED.",
+      "headline": "Lincoln delivers 402koz @ 5.1g/t Gold Maiden JORC Resource",
+      "time": "2026-05-24T23:54:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093297-6A1326772",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Haranga's Lincoln project delivers a maiden JORC resource of 402koz at 5.1g/t gold, a high-grade result that significantly de-risks the asset and establishes a meaningful resource base for a junior explorer.",
+        "The 5.1g/t average grade is well above typical open-pit economic thresholds, suggesting strong potential economics and positioning Lincoln as a quality development-stage gold asset that could attract corporate interest or partnership opportunities.",
+        "A maiden resource of this scale and grade is likely to catalyse further drilling to expand the resource envelope, with potential for scoping/PFS studies to follow — a key inflection point that could unlock re-rating and funding pathways."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PXR",
+      "company": "PACIFIC RESOURCES LIMITED",
+      "headline": "PXR to Acquire High-Grade Precious Metals Project",
+      "time": "2026-05-24T23:52:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093295-2A1673546",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Pacific Resources Limited is acquiring a high-grade precious metals project, signaling a strategic pivot or portfolio expansion that could materially re-rate the company if the asset delivers on grade and resource potential.",
+        "The 'high-grade' descriptor is critical — if validated by JORC-compliant resources, this could significantly enhance PXR's net asset value and attract institutional interest in a micro-cap that may currently trade below intrinsic value.",
+        "Key watch items include acquisition terms (cash vs scrip dilution), due diligence results, existing resource estimates, and near-term exploration/development catalysts that will determine whether this is value-accretive or a capital drain on a small-cap balance sheet."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "TOV: ALX - Panel Declines to Conduct Proceedings",
+      "time": "2026-05-24T23:47:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093289_PS-2A1673543",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Takeovers Panel has declined to conduct proceedings regarding Atlas Arteria (ALX), effectively dismissing the application brought against the company — this removes a key regulatory overhang and reduces uncertainty around corporate governance or M&A-related disputes.",
+        "The Panel's decision signals that no material breach of takeover rules or unacceptable circumstances was found, which is a procedurally positive outcome for ALX's board and current strategic direction, reducing litigation/regulatory risk for institutional holders.",
+        "With the Panel matter resolved, investor focus can return to ALX's core toll road fundamentals — traffic volumes, concession valuations, and distribution sustainability — without the distraction of potential Panel-imposed remedies or deal disruptions."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "NSB",
       "company": "NEUROSCIENTIFIC BIOPHARMACEUTICALS LTD",
