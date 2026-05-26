@@ -1,9 +1,65 @@
 {
   "date": "2026-05-26",
-  "total": 85,
-  "market_sensitive_count": 81,
-  "generated_at": "2026-05-26T01:40:10.415498+00:00",
+  "total": 88,
+  "market_sensitive_count": 83,
+  "generated_at": "2026-05-26T03:09:24.388182+00:00",
   "announcements": [
+    {
+      "ticker": "SX2",
+      "company": "SOUTHERN CROSS GOLD CONSOLIDATED LTD.",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-26T02:22:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093760-3A694032",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Southern Cross Gold Consolidated Ltd, triggering a mandatory disclosure under ASX substantial holding rules — this signals active institutional portfolio rebalancing around the junior gold explorer.",
+        "The change in substantial holding (rather than a new or ceased holding) suggests the investor is fine-tuning their exposure rather than exiting entirely, indicating continued conviction in the company's exploration-stage value proposition.",
+        "Investors should monitor whether this adjustment reflects broader sector rotation within gold equities or is company-specific; upcoming drilling results and cash position updates will be key catalysts to watch for directional clarity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STG",
+      "company": "STRAKER LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-05-26T02:14:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093757-2A1673824",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Straker Limited (STG) has been suspended from quotation on the ASX, indicating a significant corporate event is pending that prevents normal trading — this could relate to a potential acquisition, capital raise, or compliance matter requiring resolution before trading resumes.",
+        "Suspension from quotation removes liquidity for institutional holders and signals elevated uncertainty; investors should assess exposure and monitor for the underlying announcement that triggered the halt, as prolonged suspensions can materially impact portfolio valuations.",
+        "Key next step is the release of the substantive announcement that necessitated the suspension — the nature of that disclosure (M&A, funding shortfall, or regulatory issue) will be the primary driver of re-rating upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Second Supplementary Bidder's Statement",
+      "time": "2026-05-26T02:13:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093756-2A1673825",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Atlas Arteria has issued a Second Supplementary Bidder's Statement, indicating an active and evolving takeover process with updated or additional information for shareholders to consider in their acceptance decision.",
+        "Supplementary bidder's statements typically address regulatory feedback, updated financials, or revised offer terms — the market-sensitive designation suggests material new information that could influence the bid's outcome or valuation assessment.",
+        "Institutional investors should closely review the supplementary document for any changes to offer price, conditions, or timeline, as successive supplements often signal either increased bidder commitment or responses to competing proposals/regulatory requirements."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CGH",
       "company": "CLAREMONT GLOBAL FUND (HEDGED) ACTIVE ETF",
