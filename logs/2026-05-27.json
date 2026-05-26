@@ -1,9 +1,349 @@
 {
   "date": "2026-05-27",
-  "total": 48,
-  "market_sensitive_count": 37,
-  "generated_at": "2026-05-26T22:59:49.038349+00:00",
+  "total": 66,
+  "market_sensitive_count": 54,
+  "generated_at": "2026-05-26T23:27:55.863083+00:00",
   "announcements": [
+    {
+      "ticker": "IVZ",
+      "company": "INVICTUS ENERGY LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-26T23:23:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094108-6A1327095",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Invictus Energy has entered a trading halt, typically preceding a material announcement such as a capital raise, farm-out deal, or significant operational update related to its Cabora Bassa Basin exploration in Zimbabwe.",
+        "As a pre-revenue junior explorer with limited cash reserves, any trading halt raises immediate questions about potential equity dilution via capital raise to fund ongoing drilling and operational commitments.",
+        "Investors should monitor for the pending announcement closely — the nature of the news (farm-in partner, drilling results, or capital raise) will be the key determinant of near-term price direction and project viability."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CRS",
+      "company": "CAPRICE RESOURCES LTD",
+      "headline": "High-Grade Gold Growth Continues Across Island Gold System",
+      "time": "2026-05-26T23:22:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094106-6A1327094",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Caprice Resources reports continued high-grade gold intercepts across the Island Gold System, signaling resource expansion potential that could materially upgrade the project's economic profile and attract further market attention to this early-stage explorer.",
+        "The use of 'high-grade' in the headline suggests intercepts meaningfully above typical cutoff grades, which if confirmed by assay details would support a pathway toward resource definition and potentially improve the project's attractiveness for joint venture or acquisition interest.",
+        "Ongoing drilling success across multiple zones within the Island Gold System indicates structural continuity and scale potential; investors should watch for upcoming resource estimates, metallurgical results, and any capital raise activity to fund continued exploration programs."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NUZ",
+      "company": "NEURIZON THERAPEUTICS LIMITED",
+      "headline": "HEALEY ALS Trial Regimen I Expands to 240 Participants",
+      "time": "2026-05-26T23:20:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094102-6A1327093",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "HEALEY ALS Platform Trial Regimen I (NRZ compound) expansion from initial cohort to 240 participants represents a significant de-risking milestone, signaling the Data Safety Monitoring Board sees sufficient safety/efficacy signals to warrant larger enrollment.",
+        "Expansion within the HEALEY ALS platform trial — a prestigious multi-regimen adaptive trial run by Massachusetts General Hospital — provides external validation of Neurizon's therapeutic candidate and reduces clinical development costs versus a standalone Phase II/III trial.",
+        "Larger participant pool accelerates statistical powering for efficacy readouts; investors should monitor upcoming interim data milestones and assess whether Neurizon's cash runway is sufficient to fund its contribution through expanded trial completion without near-term dilution."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MNB",
+      "company": "MINBOS RESOURCES LIMITED",
+      "headline": "IDC Security Agreement Signed - Drawdown Request Submitted",
+      "time": "2026-05-26T23:18:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094100-6A1327091",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Minbos has signed the security agreement with the Industrial Development Corporation (IDC) and submitted a drawdown request, representing a critical financing milestone for its Cabinda phosphate project in Angola.",
+        "Execution of the IDC security agreement unlocks access to project debt funding, significantly de-risking the capital structure and improving near-term cash runway to advance construction and development activities.",
+        "With the drawdown request now submitted, investors should watch for confirmation of funds receipt and any remaining conditions precedent, which would mark the transition from financing to active project execution phase."
+      ],
+      "tags": [
+        "Finance",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LSR",
+      "company": "LODESTAR MINERALS LIMITED",
+      "headline": "Lodestar Raises $4.7 Million",
+      "time": "2026-05-26T23:17:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094096-6A1327050",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lodestar Minerals successfully raised $4.7 million in new capital, providing significant funding to advance exploration and development activities across its project portfolio",
+        "The capital raise, while providing essential cash runway, will result in dilution to existing shareholders — the terms and pricing of the placement will be critical in determining the net impact on per-share value",
+        "Strengthened balance sheet positions Lodestar to accelerate near-term exploration programs, with investors now focused on how proceeds will be deployed and upcoming catalysts from drilling or resource updates"
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NFN",
+      "company": "NUFARM FINANCE (NZ) LIMITED",
+      "headline": "Nufarm HY26 results presentation",
+      "time": "2026-05-26T23:13:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094092-2A1673986",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Nufarm's HY26 results presentation is market-sensitive, indicating material financial disclosures that institutional investors will scrutinize for earnings trajectory, margin performance, and segment-level dynamics across crop protection and seed technologies.",
+        "As a half-year results release, key metrics to watch include underlying EBITDA trends, working capital management, net debt levels, and any revision to FY26 guidance — particularly given volatile global ag-chem pricing and channel destocking headwinds that have impacted the sector.",
+        "Filed under the NZ finance subsidiary but relevant to the broader Nufarm group (ASX: NUF), investors should assess balance sheet leverage, covenant headroom, and capital allocation priorities including the Omega-3 and carinata seed technology pipeline commercialization progress."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NFN",
+      "company": "NUFARM FINANCE (NZ) LIMITED",
+      "headline": "Nufarm Limited 1H26 results",
+      "time": "2026-05-26T23:12:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094088-2A1673984",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Nufarm reports 1H26 results as a market-sensitive announcement, signaling material financial updates that institutional investors need to assess for earnings trajectory and balance sheet health across its crop protection and seed technologies segments.",
+        "Key focus will be on revenue performance amid global agricultural commodity price pressures, margin recovery trends, and whether cost-out initiatives are translating into improved underlying EBITDA relative to prior corresponding period.",
+        "Investors should watch for updated FY26 guidance, net debt positioning, working capital management given seasonal inventory build cycles, and any commentary on Omega-3 canola (Nuseed) commercialization progress as a long-term value catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HTG",
+      "company": "HARVEST TECHNOLOGY GROUP LTD",
+      "headline": "Placement Raises A$6.5 million",
+      "time": "2026-05-26T23:12:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094086-6A1327081",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Harvest Technology Group raised A$6.5 million via placement, providing critical funding for a micro-cap technology company but introducing meaningful dilution for existing shareholders at what is likely a discount to market price.",
+        "The capital raise size of $6.5M is significant relative to HTG's market capitalisation, suggesting the company needed to bolster its balance sheet — investors should assess the implied cash runway and whether this funds operations through to profitability or merely extends the timeline.",
+        "Key focus for investors will be the placement price, discount to last traded price, use of proceeds (growth capex vs. working capital), and whether a follow-on SPP is offered to retail shareholders to mitigate dilution concerns."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LU7",
+      "company": "LITHIUM UNIVERSE LIMITED",
+      "headline": "Acquires Breakthrough Gold & Copper Extraction Technology",
+      "time": "2026-05-26T23:11:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094085-6A1327088",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lithium Universe is pivoting beyond its core lithium focus by acquiring gold and copper extraction technology, signaling a strategic diversification that may raise questions about management's commitment to its primary lithium thesis and capital allocation discipline.",
+        "The acquisition of 'breakthrough' extraction technology is unproven at commercial scale — institutional investors should scrutinize the terms, valuation paid, and whether this represents genuine IP value or speculative optionality in a micro-cap vehicle with limited cash runway.",
+        "The move could be read as an attempt to re-rate the stock by tapping into gold/copper thematic momentum, but execution risk is high and the company will likely need additional capital to develop or commercialize the technology, implying potential dilution ahead."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MPW",
+      "company": "METAL POWDER WORKS LIMITED",
+      "headline": "Westinghouse Partnership for Advanced Nuclear Applications",
+      "time": "2026-05-26T23:10:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094082-6A1327089",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Metal Powder Works has secured a partnership with Westinghouse Electric Company, a globally recognized nuclear technology leader, for advanced nuclear applications — a significant validation of MPW's metal powder capabilities and a potential gateway to a high-value, regulated supply chain.",
+        "The nuclear fuel and components market is experiencing a structural tailwind driven by global energy security concerns and the resurgence of nuclear power investment; this partnership positions MPW to capture demand in a sector with long contract cycles and premium pricing for qualified suppliers.",
+        "As a micro-cap ASX company, the Westinghouse partnership materially de-risks the commercialization pathway and could accelerate revenue timelines, though investors should monitor for details on contract scope, exclusivity terms, and near-term capital requirements to fund production scale-up."
+      ],
+      "tags": [
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KNO",
+      "company": "KNOSYS LIMITED",
+      "headline": "ANZ signs 2-year contract extension for $3.8m",
+      "time": "2026-05-26T23:09:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094081-3A694100",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ANZ, Knosys's largest customer, has extended its contract for 2 years at $3.8m (~$1.9m ARR), providing critical revenue visibility and validating the KnowledgeIQ platform's enterprise-grade stickiness with a major Tier-1 bank.",
+        "The $3.8m contract extension materially de-risks near-term revenue for a micro-cap SaaS company, likely representing a significant portion of total ARR and strengthening cash runway without dilutive capital raising.",
+        "Retention of a flagship customer like ANZ serves as a powerful reference case for pipeline conversion with other large financial institutions, potentially accelerating Knosys's enterprise sales momentum and supporting a re-rating of the stock."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NFN",
+      "company": "NUFARM FINANCE (NZ) LIMITED",
+      "headline": "NUFARM LIMITED FINANCIAL RESULTS FOR HY2026",
+      "time": "2026-05-26T23:09:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094080-2A1673982",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Nufarm releases HY2026 financial results as a market-sensitive announcement, signaling material information for investors regarding the agricultural chemicals company's mid-year performance and trajectory.",
+        "As a results announcement from Nufarm's NZ finance subsidiary, this likely contains consolidated group financials including revenue, EBITDA, and net profit metrics that will be benchmarked against prior corresponding period and consensus estimates.",
+        "Investors will focus on crop protection segment margins, Omega-3/seed technologies growth, balance sheet leverage, and any updated FY2026 guidance — key catalysts for near-term re-rating given Nufarm's ongoing portfolio transformation strategy."
+      ],
+      "tags": [
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DTM",
+      "company": "DART MINING NL",
+      "headline": "Trading Halt",
+      "time": "2026-05-26T23:08:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094079-3A694099",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Dart Mining NL has entered a trading halt, suspending shares from trading pending a material announcement — typical for junior miners this often precedes a capital raise, asset transaction, or significant exploration result.",
+        "As a small-cap explorer on the ASX, any capital raise associated with this halt could be materially dilutive given Dart's likely constrained cash runway and low market capitalisation.",
+        "Investors should await the pending announcement for clarity; the trading halt mechanism suggests the company needs to manage price-sensitive information flow, with trading expected to resume once the announcement is released or within two business days."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FSC",
+      "company": "FIRST SENTIER ACTIVE CASH FUND ACTIVE ETF",
+      "headline": "Distribution Announcement",
+      "time": "2026-05-26T23:07:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094078-2A1673980",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "First Sentier Active Cash Fund ETF has announced a distribution, signaling consistent income generation from its active cash management strategy, reinforcing its appeal as a defensive yield vehicle for institutional portfolios.",
+        "As a cash-equivalent active ETF, the distribution reflects the current elevated interest rate environment, with returns likely tracking near or above RBA cash rate benchmarks — a key consideration for investors assessing short-duration allocation opportunities.",
+        "The market-sensitive designation suggests the distribution quantum may differ materially from prior periods or market expectations, warranting review of the per-unit payout relative to recent distribution history and competing cash ETF products."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HCL",
+      "company": "HIGHCOM LIMITED",
+      "headline": "A$4.5m Loan Facility with Commonwealth Bank",
+      "time": "2026-05-26T23:05:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094076-3A694098",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "HighCom secured a A$4.5m loan facility with Commonwealth Bank, signaling improved institutional lender confidence in the company's creditworthiness and business fundamentals",
+        "Access to CBA debt financing provides a non-dilutive capital source, preserving existing shareholder equity compared to alternative equity raises, and likely at competitive institutional lending rates",
+        "The facility strengthens HighCom's cash runway and balance sheet flexibility, positioning the company to fund working capital needs or growth initiatives without immediate shareholder dilution"
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EOS",
+      "company": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+      "headline": "Change in substantial holding from SOL",
+      "time": "2026-05-26T23:03:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094074-2A1673978",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Washington H. Soul Pattinson (SOL) has filed a change in substantial holding notice for Electro Optic Systems (EOS), signaling a shift in one of Australia's most prominent long-term investment houses' position in the defence technology company.",
+        "Any reduction in SOL's stake could indicate diminished conviction in EOS's turnaround trajectory, while an increase would represent a meaningful endorsement given SOL's disciplined value-investing approach and deep due diligence process.",
+        "Institutional investors should monitor whether this reflects portfolio rebalancing or a directional view on EOS's defence and space segments, particularly given the company's ongoing efforts to stabilize operations and capitalize on growing defence spending tailwinds."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PET",
+      "company": "PHOSLOCK ENVIRONMENTAL TECHNOLOGIES LIMITED",
+      "headline": "Chair's Address to Shareholders",
+      "time": "2026-05-26T23:03:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094073-2A1673976",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Chair's AGM address signals strategic direction and operational priorities for Phoslock Environmental Technologies, providing forward-looking commentary to shareholders on the company's positioning in the water remediation market.",
+        "As a market-sensitive announcement, the address likely contains material updates on financial performance, contract pipeline, or operational milestones that could influence near-term valuation — investors should scrutinize any revenue guidance or cash position disclosures.",
+        "Phoslock's outlook hinges on scaling its phosphorus-locking technology across global water treatment markets; any commentary on new geographic expansion, regulatory approvals, or major contract wins would be key catalysts for re-rating."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CRI",
+      "company": "CRITICA LIMITED",
+      "headline": "Jupiter Pilot Plant Delivers 14x Upgrade to 3% Concentrate",
+      "time": "2026-05-26T23:02:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094072-6A1327087",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Jupiter pilot plant achieved a 14x upgrade ratio, concentrating rare earth minerals from feed grade to a 3% concentrate — a critical metallurgical milestone demonstrating the viability of the beneficiation process and de-risking the pathway toward a feasibility study.",
+        "A 3% concentrate grade significantly reduces downstream processing volumes and costs, potentially improving project economics materially by lowering the capital and operating expenditure required for hydrometallurgical extraction of rare earth elements.",
+        "Successful pilot-scale results position Critica to advance toward larger-scale demonstration or definitive feasibility work on the Jupiter rare earths project, with the concentrate upgrade ratio likely to attract strategic partner interest amid growing demand for critical minerals supply chain diversification."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "TRJ",
       "company": "TRAJAN GROUP HOLDINGS LIMITED",
