@@ -1,9 +1,29 @@
 {
   "date": "2026-05-26",
-  "total": 81,
-  "market_sensitive_count": 77,
-  "generated_at": "2026-05-26T00:17:06.937649+00:00",
+  "total": 82,
+  "market_sensitive_count": 78,
+  "generated_at": "2026-05-26T00:42:35.494572+00:00",
   "announcements": [
+    {
+      "ticker": "NX1",
+      "company": "NEXALIS THERAPEUTICS LTD",
+      "headline": "Suspension from Quotation",
+      "time": "2026-05-26T00:34:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093731-3A694025",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nexalis Therapeutics has been suspended from quotation on the ASX, indicating a significant corporate action or compliance issue that prevents normal trading of its securities.",
+        "Suspension from quotation (as distinct from a voluntary trading halt) is typically imposed by ASX and may signal regulatory concerns, failure to meet listing requirements, or pending material announcements that require resolution before trading can resume.",
+        "Investors should monitor for follow-up announcements detailing the reason for suspension and any conditions for reinstatement; prolonged suspension could impair liquidity and raise questions about the company's ongoing listing viability and cash position."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "MGT",
       "company": "MAGNETITE MINES LIMITED.",
