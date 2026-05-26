@@ -1,9 +1,67 @@
 {
   "date": "2026-05-26",
-  "total": 82,
-  "market_sensitive_count": 78,
-  "generated_at": "2026-05-26T00:42:35.494572+00:00",
+  "total": 85,
+  "market_sensitive_count": 81,
+  "generated_at": "2026-05-26T01:40:10.415498+00:00",
   "announcements": [
+    {
+      "ticker": "CGH",
+      "company": "CLAREMONT GLOBAL FUND (HEDGED) ACTIVE ETF",
+      "headline": "CGHE - Lifting of Trading Pause",
+      "time": "2026-05-26T01:17:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093740-2A1673811",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Trading pause on CGHE (Claremont Global Fund Hedged Active ETF) has been lifted, restoring normal market trading and liquidity for unitholders.",
+        "The trading pause was likely procedural, potentially linked to NAV recalculation, portfolio rebalancing, or an associated corporate action requiring temporary suspension of on-market activity.",
+        "With trading resumed, investors can now transact at market prices; focus shifts to any underlying portfolio changes or announcements that triggered the original pause for potential valuation impact."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IG6",
+      "company": "INTERNATIONAL GRAPHITE LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-05-26T00:56:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093735-6A1326954",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "International Graphite Limited (IG6) has been suspended from quotation on the ASX, indicating a significant corporate action or compliance issue that prevents normal trading activity.",
+        "Suspension from quotation typically signals potential capital raising, restructuring, failure to meet listing requirements, or pending material announcements — all of which carry meaningful risk for existing shareholders given IG6's micro-cap status and pre-revenue graphite development profile.",
+        "Investors should monitor for the reinstatement conditions and any accompanying announcements; prolonged suspension could impair liquidity and signal deeper financial or operational distress for this early-stage mining company."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AGR",
+      "company": "AGUIA RESOURCES LIMITED",
+      "headline": "Pampafos Commercialisation Approval",
+      "time": "2026-05-26T00:48:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093734-2A1673810",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Aguia Resources has received commercialisation approval for its Pampafos phosphate product, a critical regulatory milestone that clears the path to revenue generation from its Brazilian phosphate assets.",
+        "This approval de-risks the project significantly by removing a key regulatory hurdle, potentially unlocking near-term cash flows for a company that has been pre-revenue and reliant on capital raises to fund operations.",
+        "Next steps will focus on scaling production and securing offtake agreements; investors should monitor for updates on production ramp-up timelines, distribution partnerships, and working capital requirements to assess the pace of commercialisation."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "NX1",
       "company": "NEXALIS THERAPEUTICS LTD",
