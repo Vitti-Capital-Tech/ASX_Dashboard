@@ -1,9 +1,142 @@
 {
   "date": "2026-05-26",
-  "total": 74,
-  "market_sensitive_count": 71,
-  "generated_at": "2026-05-25T23:52:55.687125+00:00",
+  "total": 81,
+  "market_sensitive_count": 77,
+  "generated_at": "2026-05-26T00:17:06.937649+00:00",
   "announcements": [
+    {
+      "ticker": "MGT",
+      "company": "MAGNETITE MINES LIMITED.",
+      "headline": "Leadership Transition and Strategic Reset",
+      "time": "2026-05-26T00:09:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093719-6A1326945",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Leadership transition signals a strategic reset at Magnetite Mines, likely indicating dissatisfaction with prior direction and potential pivot in project development or capital allocation strategy for the Razorback iron ore project.",
+        "A 'strategic reset' at a pre-revenue junior miner raises critical questions about cash runway adequacy and whether the company can sustain operations without near-term dilutive capital raises, particularly given the capital-intensive nature of magnetite projects.",
+        "Incoming leadership will need to articulate a credible path forward — investors should watch for revised feasibility timelines, potential asset divestments, or partnership/JV announcements that could de-risk the balance sheet and project execution."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WIN",
+      "company": "WIN METALS LTD",
+      "headline": "High-Grade Princess Royal Results Confirm Acquisition Upside",
+      "time": "2026-05-26T00:08:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093718-6A1326944",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "High-grade assay results from the Princess Royal project validate the strategic rationale behind WIN Metals' acquisition, potentially de-risking the deal thesis and enhancing the company's resource base with confirmed mineralisation upside.",
+        "The 'high-grade' characterisation in a market-sensitive announcement suggests results materially exceed expectations or prior drilling, which could drive near-term re-rating as the market prices in expanded resource potential at Princess Royal.",
+        "Confirmation of acquisition upside likely positions WIN Metals to accelerate exploration and resource definition drilling at Princess Royal, with investors watching for updated resource estimates and integration milestones as key catalysts."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CGH",
+      "company": "CLAREMONT GLOBAL FUND (HEDGED) ACTIVE ETF",
+      "headline": "Pause in Trade",
+      "time": "2026-05-26T00:02:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093715-2A1673803",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Claremont Global Fund (Hedged) Active ETF has entered a pause in trade, typically triggered by pending material announcements or NAV-related disclosures that require orderly market management.",
+        "As a hedged global equity ETF, a trading pause may signal an upcoming portfolio restructure, NAV adjustment, or corporate action affecting the underlying fund structure that could impact unit pricing.",
+        "Investors should monitor for the subsequent announcement that prompted the pause; resumption of trading will depend on ASX satisfaction that the market has been adequately informed, with potential short-term liquidity implications for holders."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BGT",
+      "company": "BIO-GENE TECHNOLOGY LTD",
+      "headline": "Results of Placement",
+      "time": "2026-05-25T23:59:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093711-3A694013",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "BIO-GENE TECHNOLOGY completed a placement, raising capital which will dilute existing shareholders but provides near-term funding for operations and development programs in its biopesticide technology pipeline.",
+        "The placement results confirm investor appetite for the stock at the offer price, though the level of dilution and discount to market price will be key metrics for assessing the impact on existing shareholder value.",
+        "Proceeds are expected to extend cash runway to fund regulatory and commercialization milestones for its Flavocide and Qcide platform technologies, with any shortfall potentially addressed through a Share Purchase Plan (SPP) for retail investors."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ARC",
+      "company": "ARC FUNDS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-25T23:58:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093710-2A1673802",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in ARC Funds Limited has filed a change in substantial holding notice, signaling a meaningful shift in ownership structure that institutional investors should monitor for potential strategic implications.",
+        "Changes in substantial holdings can indicate either accumulation by a confident investor or partial disposal, with the direction and magnitude of the change being critical for assessing whether this reflects positive or negative conviction in ARC Funds' outlook.",
+        "As a listed investment entity, shifts in substantial holder positions in ARC Funds may foreshadow governance actions, potential activist involvement, or portfolio rebalancing — investors should review the full notice for the identity of the holder and precise movement in voting power."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PHO",
+      "company": "PHOSCO LTD",
+      "headline": "Breakthrough Metallurgical Test Results",
+      "time": "2026-05-25T23:57:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093709-3A694020",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Phosco Ltd reports breakthrough metallurgical test results, signaling a potentially transformative step in validating its phosphate processing technology or ore beneficiation pathway — a key de-risking milestone for project economics.",
+        "Successful metallurgical outcomes typically underpin bankable feasibility studies and improve NPV/IRR assumptions; investors should watch for specific recovery rates, concentrate grades, and impurity rejection metrics that determine commercial viability.",
+        "Next catalysts likely include integration of met results into a scoping or feasibility study, potential offtake discussions, and further pilot-scale testing — all of which could accelerate the pathway toward project financing and development decisions."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CPV",
+      "company": "CLEARVUE TECHNOLOGIES LIMITED",
+      "headline": "ClearVue enters Indian Market with Aria Holding",
+      "time": "2026-05-25T23:53:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03093707-6A1326942",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ClearVue has signed a partnership with Aria Holding to enter the Indian market, potentially opening access to one of the world's fastest-growing construction and renewable energy markets for its solar glass technology.",
+        "India's aggressive renewable energy targets (500 GW by 2030) and rapidly expanding commercial building sector represent a significant addressable market, though the announcement lacks specific revenue projections or order commitments, making near-term financial impact uncertain.",
+        "The partnership model with a local distributor reduces ClearVue's capital outlay for market entry, but investors should watch for conversion to binding orders and pilot project announcements as key catalysts to validate commercial traction in the region."
+      ],
+      "tags": [
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "GT1",
       "company": "GREEN TECHNOLOGY METALS LIMITED",
