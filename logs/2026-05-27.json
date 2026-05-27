@@ -1,9 +1,83 @@
 {
   "date": "2026-05-27",
-  "total": 87,
-  "market_sensitive_count": 74,
-  "generated_at": "2026-05-27T00:44:18.671638+00:00",
+  "total": 91,
+  "market_sensitive_count": 77,
+  "generated_at": "2026-05-27T01:44:16.861827+00:00",
   "announcements": [
+    {
+      "ticker": "MPP",
+      "company": "METRO PERFORMANCE GLASS LIMITED",
+      "headline": "Metroglass provides FY26 results (audited)",
+      "time": "2026-05-27T01:26:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094182-2A1674026",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Metro Performance Glass has released its audited FY26 full-year results, a market-sensitive announcement that will be closely scrutinized for revenue trajectory and margin recovery in the New Zealand and Australian glass processing markets.",
+        "Key metrics to watch include top-line revenue growth (or contraction) relative to NZ residential building consent trends, EBITDA margins, net debt levels, and free cash flow generation — all critical for assessing the company's deleveraging progress and dividend capacity.",
+        "Forward guidance and commentary on housing market activity across NZ and Australia will be pivotal for institutional positioning, particularly given the cyclical nature of the building products sector and the interest rate environment's influence on construction volumes."
+      ],
+      "tags": [
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GEM",
+      "company": "G8 EDUCATION LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-05-27T01:07:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094181-2A1674025",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in G8 Education, indicating a significant sell-down below the 5% threshold, which may reflect a shift in institutional conviction or portfolio rebalancing.",
+        "The departure of a substantial holder increases free float and could create near-term selling pressure, though the announcement is flagged as not market sensitive, suggesting an orderly exit rather than a distressed liquidation.",
+        "Investors should monitor whether other substantial holders adjust positions in sympathy and watch for any follow-on block trades or changes in G8 Education's register composition that could signal broader institutional sentiment shifts."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRA",
+      "company": "FRANKLIN AUS ABSOLUTE RETURN BND FUND - ACTIVE ETF",
+      "headline": "Distribution Details 31 May 2026",
+      "time": "2026-05-27T00:58:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094179-2A1674024",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Franklin Australian Absolute Return Bond Fund (Active ETF) has announced distribution details for the period ending 31 May 2026, signaling continued income generation for unitholders in the fixed-income strategy.",
+        "The market-sensitive classification suggests the distribution amount may represent a material yield event, relevant for institutional investors benchmarking income returns against competing fixed-income ETFs on the ASX.",
+        "Regular distribution announcements reinforce fund management discipline and cash flow visibility, supporting ongoing demand from yield-seeking investors in the current rate environment."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EAR",
+      "company": "PIMCO SHORT TERM ACTIVE YIELD ACTIVE ETF",
+      "headline": "PIMCO ETF - May 2026 Estimated Distribution",
+      "time": "2026-05-27T00:54:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094177-2A1674021",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PIMCO Short Term Active Yield ETF has announced its estimated distribution for May 2026, signaling continued income generation from the short-duration fixed income portfolio amid the current rate environment.",
+        "As a market-sensitive announcement, the estimated distribution provides forward visibility for institutional holders managing cash flow expectations and portfolio yield calculations across their fixed income ETF allocations.",
+        "Regular distribution announcements from PIMCO's active short-term yield strategy reinforce the fund's income reliability, which is critical for investors benchmarking against cash and term deposit alternatives in the Australian market."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "LEL",
       "company": "LITHIUM ENERGY LIMITED",
