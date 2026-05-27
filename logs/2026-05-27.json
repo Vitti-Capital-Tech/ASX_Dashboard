@@ -1,9 +1,240 @@
 {
   "date": "2026-05-27",
-  "total": 91,
-  "market_sensitive_count": 77,
-  "generated_at": "2026-05-27T01:44:16.861827+00:00",
+  "total": 103,
+  "market_sensitive_count": 85,
+  "generated_at": "2026-05-27T03:11:11.020457+00:00",
   "announcements": [
+    {
+      "ticker": "DEL",
+      "company": "DELOREAN CORPORATION LIMITED",
+      "headline": "Completion of Share Purchase Plan",
+      "time": "2026-05-27T02:59:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094224-6A1327141",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Delorean Corporation has completed its Share Purchase Plan (SPP), raising additional capital to strengthen its balance sheet and fund ongoing operations or growth initiatives in the energy sector.",
+        "The SPP completion signals existing shareholder participation and support, though the dilutive effect of new shares issued will weigh on per-share metrics — investors should monitor the final subscription amount and take-up rate for demand signals.",
+        "With fresh capital secured, the focus shifts to deployment efficiency — management's ability to convert raised funds into revenue-generating assets or reduce near-term funding risk will be the key determinant of whether the raise proves accretive."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BDM",
+      "company": "BURGUNDY DIAMOND MINES LIMITED",
+      "headline": "Update on CCAA Process and appointment of CFO",
+      "time": "2026-05-27T02:43:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094221-6A1327138",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Burgundy Diamond Mines is progressing through the CCAA (Companies' Creditors Arrangement Act) process, signaling significant financial distress and potential restructuring of the company's Canadian operations, which raises material going-concern risk for equity holders.",
+        "Appointment of a new CFO during an active creditor protection process suggests management is attempting to stabilize operations and financial oversight, though this typically indicates the company is in a critical phase requiring specialized turnaround expertise.",
+        "Investors should closely monitor CCAA proceedings for potential dilution, asset sales, or debt-for-equity conversions that could materially impair existing shareholder value; the outcome of creditor negotiations will be the key determinant of any residual equity value."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GOO",
+      "company": "JANUS HENDERSON SUSTAINABLE CREDIT ACTIVE ETF",
+      "headline": "GOOD - May 2026 Distribution Estimate CPU",
+      "time": "2026-05-27T02:38:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094216-2A1674036",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Janus Henderson Sustainable Credit Active ETF (GOOD) has released its May 2026 distribution estimate on a per-unit basis, providing forward visibility on income for unitholders in this fixed-income ESG product.",
+        "The distribution estimate signals ongoing yield generation from the sustainable credit portfolio, which is a key metric for income-focused institutional investors benchmarking against comparable active credit ETFs on the ASX.",
+        "Market-sensitive classification suggests the distribution estimate may represent a material change from prior periods or market expectations, warranting close comparison to historical distribution levels and underlying credit portfolio performance."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SPA",
+      "company": "SPACETALK LTD",
+      "headline": "Change in substantial holding from Tiga Trading Pty Ltd",
+      "time": "2026-05-27T02:37:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094213-2A1674037",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Tiga Trading Pty Ltd has filed a change in substantial holding notice for Spacetalk Ltd (SPA), indicating a shift in their ownership stake that crosses a reportable threshold under ASX disclosure rules.",
+        "Changes in substantial holdings by active trading entities like Tiga Trading can signal evolving investor conviction; the direction of the change (increase or decrease) will be key to interpreting whether this reflects accumulation or profit-taking in the micro-cap tech name.",
+        "As a non-market-sensitive filing, this is a regulatory compliance disclosure rather than a catalyst event, though institutional investors should monitor whether further stake changes follow, potentially signaling a broader strategic move or block trade activity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPA",
+      "company": "SPACETALK LTD",
+      "headline": "Change in substantial holding from TEK",
+      "time": "2026-05-27T02:37:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094212-2A1674039",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "TEK (likely a strategic or institutional holder) has filed a change in substantial holding for Spacetalk Ltd, signaling a shift in ownership concentration that institutional investors should monitor for potential block trade or strategic repositioning.",
+        "The notice is classified as not market sensitive, suggesting the change in holding is incremental rather than a major disposal or acquisition, likely reflecting portfolio rebalancing rather than a fundamental view change on the company.",
+        "Investors should watch for follow-up filings to determine whether TEK is accumulating or reducing its stake, as directional trends in substantial holder activity can foreshadow takeover interest, capital raises, or shifts in board influence for this small-cap technology company."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DDR",
+      "company": "DICKER DATA LIMITED",
+      "headline": "AGM Presentation",
+      "time": "2026-05-27T02:28:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094209-2A1674034",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Dicker Data's AGM presentation is flagged as market sensitive, suggesting management is likely disclosing forward-looking guidance, updated trading conditions, or strategic initiatives beyond routine AGM business that could materially impact valuation.",
+        "As Australia's largest listed IT distributor, any commentary on enterprise/government IT spending trends, vendor relationships, or margin trajectory will be closely watched given the company's leverage to the AI infrastructure and cybersecurity investment cycle.",
+        "Investors should monitor for updated FY25 revenue/earnings guidance, commentary on working capital management and dividend sustainability, and any signals on M&A or new vendor partnerships that could drive incremental growth."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ARX",
+      "company": "AROA BIOSURGERY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-27T02:23:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094203-2A1674032",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in AROA Biosurgery has filed a change in their holding, signaling a notable shift in institutional ownership that may reflect evolving conviction in the company's growth trajectory in the soft-tissue regeneration space.",
+        "The direction of the change (increase or decrease) will be critical for gauging whether smart money is accumulating ahead of potential catalysts or reducing exposure, with implications for near-term liquidity and share price support levels.",
+        "As a dual-listed (ASX/NZX) healthcare company with a niche position in biologic wound care, any material change in substantial holder positions warrants monitoring alongside upcoming revenue milestones and US market penetration progress."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CLZ",
+      "company": "CLASSIC MINERALS LTD",
+      "headline": "Classic Issues Notice of Decision to Commence Mining",
+      "time": "2026-05-27T02:19:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094201-6A1327131",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Classic Minerals has issued a formal Notice of Decision to commence mining operations, representing a critical de-risking milestone as the company transitions from explorer to producer status at its Kat Gap gold project in Western Australia.",
+        "The commencement of mining signals near-term gold production revenue potential for a micro-cap that has historically been cash-consumptive; investors should monitor the company's funding position and whether existing cash reserves or additional capital raises are required to sustain mining operations through to first pour.",
+        "Key execution risks remain around mining costs, grade reconciliation, and processing arrangements; the market will be watching for updates on ore haulage logistics, toll treatment agreements, and initial production metrics to validate the project's economic viability."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PEN",
+      "company": "PENINSULA ENERGY LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-05-27T02:05:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094196-6A1327129",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Peninsula Energy, signaling institutional or strategic investor accumulation in the uranium-focused company, which may reflect growing confidence in the uranium market outlook.",
+        "The crossing of the 5% substantial holding threshold is a regulatory disclosure event; the identity and intent of the new holder (passive vs. activist) will be critical for assessing whether this represents a strategic positioning ahead of catalysts such as Lance project ramp-up.",
+        "Investors should monitor for follow-on buying or any associated board engagement, as substantial holder notices in small-cap uranium names can precede corporate activity or serve as a precursor to takeover interest in a consolidating sector."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAK",
+      "company": "WA KAOLIN LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-05-27T02:04:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094195-6A1327127",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WA Kaolin Limited has been suspended from quotation on the ASX, indicating a significant corporate event or compliance issue that prevents normal trading of its securities.",
+        "Suspension from quotation (as distinct from a voluntary trading halt) is typically imposed by ASX and may signal failure to meet listing rule obligations, pending material announcements, or financial distress — all of which carry elevated risk for existing holders.",
+        "Investors should monitor for the release of the underlying reason for suspension; reinstatement will require the company to satisfy ASX conditions, and prolonged suspension could lead to delisting risk and severe liquidity constraints."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SOR",
+      "company": "STRATEGIC ELEMENTS LIMITED",
+      "headline": "SPP Funds to Accelerate Energy Ink, EdgeiQ and Discovery Pip",
+      "time": "2026-05-27T02:03:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094193-6A1327126",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic Elements is deploying SPP (Share Purchase Plan) proceeds to accelerate development across three key verticals: Energy Ink battery technology, EdgeiQ AI/edge computing, and Discovery Pip mineral exploration — signalling management confidence in near-term commercialisation milestones.",
+        "The capital raise via SPP provides additional funding runway to progress Energy Ink's printed battery technology toward commercial partnerships and scale EdgeiQ's AI capabilities, though the raise introduces dilution for existing shareholders who did not participate.",
+        "Multi-pronged deployment of funds across technology and exploration assets suggests a portfolio de-risking strategy; investors should monitor upcoming milestones across all three programs for catalysts, particularly any Energy Ink offtake or licensing agreements that could validate the technology commercially."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WAK",
+      "company": "WA KAOLIN LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-05-27T01:56:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094191-6A1327125",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WA Kaolin Limited has entered a trading pause, typically preceding a material announcement such as a capital raise, corporate transaction, or significant operational update that requires orderly market disclosure.",
+        "As a pre-revenue kaolin development company, any trading halt raises questions about cash runway adequacy and potential equity dilution — investors should monitor for signs of a capital raise or offtake agreement.",
+        "The market-sensitive designation signals the forthcoming announcement is expected to be price-moving; investors should await the full disclosure before repositioning, with the halt likely lifting within 1-2 trading days."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MPP",
       "company": "METRO PERFORMANCE GLASS LIMITED",
