@@ -1,9 +1,143 @@
 {
   "date": "2026-05-27",
-  "total": 77,
-  "market_sensitive_count": 65,
-  "generated_at": "2026-05-26T23:53:32.608711+00:00",
+  "total": 84,
+  "market_sensitive_count": 71,
+  "generated_at": "2026-05-27T00:19:21.178679+00:00",
   "announcements": [
+    {
+      "ticker": "STG",
+      "company": "STRAKER LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-05-27T00:14:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094159-2A1674009",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Straker Limited has been reinstated to quotation on the ASX, ending a prior trading halt or suspension period that had prevented share trading.",
+        "Reinstatement typically follows the resolution of a disclosure obligation, compliance matter, or completion of a corporate action such as a capital raise or material transaction — investors should review the preceding announcements for context on what triggered the halt.",
+        "Liquidity is now restored for shareholders; near-term price action will depend on the nature of the announcement(s) made during the suspension period and how the market digests any new material information."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STG",
+      "company": "STRAKER LIMITED",
+      "headline": "Market Update regarding US bank account transaction anomalie",
+      "time": "2026-05-27T00:13:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094158-2A1673998",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Straker Limited has disclosed anomalies in US bank account transactions, signaling potential fraud, unauthorized access, or internal control failures — a serious governance red flag for a small-cap technology company.",
+        "Any material cash loss from bank account irregularities could directly impair Straker's already constrained cash runway, with the company historically operating near breakeven or at a loss, making liquidity preservation critical.",
+        "Investors should watch for follow-up disclosures on the quantum of funds affected, whether insurance or recovery mechanisms apply, and any board or management accountability actions — uncertainty will likely weigh on the stock near-term."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HPC",
+      "company": "THE HYDRATION PHARMACEUTICALS COMPANY LIMITED",
+      "headline": "Notice of initial substantial holder",
+      "time": "2026-05-27T00:13:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094157-3A694113",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Hydration Pharmaceuticals (HPC), crossing the 5% threshold, signaling meaningful institutional or strategic investor interest in this micro-cap healthcare/consumer company.",
+        "Initial substantial holder notices often precede further accumulation or strategic engagement; investors should monitor for follow-up notices indicating continued buying or potential board/governance involvement.",
+        "As a procedural disclosure with no immediate operational or financial impact, the filing is primarily a sentiment signal — the identity and intent of the new holder will be key to assessing whether this represents a passive investment or a precursor to corporate activity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGC",
+      "company": "AUSTRALIAN GOLD AND COPPER LTD",
+      "headline": "Acquisition of Junee Gold Project",
+      "time": "2026-05-26T23:59:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094150-6A1327075",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Australian Gold and Copper Ltd is acquiring the Junee Gold Project, expanding its portfolio in a strategic move to consolidate gold assets in NSW, signaling management's commitment to growth through inorganic opportunities in a strong gold price environment.",
+        "The acquisition adds near-term exploration upside and potentially defined gold resources to AGC's asset base, though the deal terms (consideration structure, dilution impact, and funding mechanism) will be critical in determining whether this is value-accretive for existing shareholders.",
+        "Key next steps include due diligence completion, regulatory approvals, and integration of the Junee project into AGC's exploration pipeline — investors should watch for details on acquisition cost, any associated capital raise, and planned drilling programs to unlock value from the new asset."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EMT",
+      "company": "EMETALS LIMITED",
+      "headline": "Notice of General Meeting/Proxy Form",
+      "time": "2026-05-26T23:58:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094147-6A1327113",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "eMetals Limited has called a General Meeting requiring shareholder approval, flagged as market sensitive — suggesting resolutions beyond routine administrative matters, potentially involving capital structure changes, asset transactions, or strategic pivots.",
+        "The market-sensitive classification of a Notice of General Meeting typically signals proposed resolutions with material financial impact, such as share consolidation, placement approvals, related-party transactions, or changes to the company's direction that could affect dilution or asset base.",
+        "Investors should closely review the proxy form details for specific resolutions — key watchpoints include any capital raise authorizations that could dilute existing holders, board composition changes, or asset acquisition/disposal proposals that redefine the company's risk profile."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VGL",
+      "company": "VISTA GROUP INTERNATIONAL LIMITED.",
+      "headline": "Cinemex signs agreement with Vista Group",
+      "time": "2026-05-26T23:55:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094145-3A694109",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cinemex, one of the world's largest cinema chains operating ~350 theatres across Mexico, has signed a new agreement with Vista Group, representing a significant customer win that expands the company's footprint in the Latin American market.",
+        "The deal likely encompasses Vista's cinema management software suite, adding material recurring SaaS revenue from a major exhibitor and reinforcing Vista Group's position as the dominant global cinema technology platform provider.",
+        "This contract win strengthens Vista Group's growth narrative ahead of future earnings updates, demonstrating continued momentum in converting large-scale exhibitors and deepening market penetration in under-represented geographies."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AVG",
+      "company": "AUSTRALIAN VINTAGE LTD",
+      "headline": "AVG Re-financing to 2029",
+      "time": "2026-05-26T23:54:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094144-2A1674008",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Vintage has secured refinancing of its debt facilities extending maturity to 2029, removing near-term balance sheet risk and providing multi-year funding certainty for the wine producer.",
+        "The refinancing eliminates a potential liquidity overhang, strengthening AVG's cash runway and financial flexibility at a time when the Australian wine industry faces ongoing structural challenges including oversupply and China trade normalization.",
+        "Extended debt maturity to 2029 gives management a longer runway to execute operational turnaround strategies without near-term refinancing pressure, which should reduce equity risk premium for institutional holders."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "IG6",
       "company": "INTERNATIONAL GRAPHITE LIMITED",
