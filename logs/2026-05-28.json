@@ -1,9 +1,348 @@
 {
   "date": "2026-05-28",
-  "total": 45,
-  "market_sensitive_count": 38,
-  "generated_at": "2026-05-27T23:05:36.578557+00:00",
+  "total": 63,
+  "market_sensitive_count": 54,
+  "generated_at": "2026-05-27T23:30:32.601089+00:00",
   "announcements": [
+    {
+      "ticker": "BTR",
+      "company": "BRIGHTSTAR RESOURCES LIMITED",
+      "headline": "Visible gold in multiple DD holes in Sandstone drilling",
+      "time": "2026-05-27T23:26:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094588-6A1327290",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Visible gold intersected in multiple diamond drill holes at the Sandstone Gold Project represents a significant de-risking event, suggesting high-grade mineralisation continuity and potential resource upgrade at depth.",
+        "Multiple DD holes returning visible gold is a strong geological indicator that could materially enhance the existing resource base, with assay results pending to quantify grade and thickness of mineralised intervals.",
+        "Assay turnaround will be the key near-term catalyst; positive grade confirmation could accelerate feasibility studies and attract strategic interest in Brightstar's Sandstone consolidation strategy in the established WA goldfields."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "COD",
+      "company": "CODA MINERALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-27T23:26:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094586-6A1327296",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Coda Minerals has requested a trading halt, typically preceding a material announcement such as a capital raise, significant drilling results, or corporate transaction for this copper-gold explorer.",
+        "As a junior explorer with limited revenue, any trading halt raises immediate questions about cash runway — a capital raise would be dilutive but could fund critical exploration programs at its Elizabeth Creek or Cameron River projects.",
+        "Investors should watch for the nature of the pending announcement; drill results or a strategic partnership would be constructive, while an equity raise at current levels could pressure the share price near-term."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SHV",
+      "company": "SELECT HARVESTS LIMITED",
+      "headline": "SHV Investor Presentation Half Year Ending 31/3/26",
+      "time": "2026-05-27T23:26:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094585-3A694190",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Select Harvests reports H1 FY26 results via investor presentation, a market-sensitive release likely containing updated almond pricing, production volumes, and margin guidance that will reset consensus expectations for the full year.",
+        "Key focus for institutional investors will be almond price realisation trends (USD/kg), water cost dynamics, and any improvement in EBITDA margins given the sector has been recovering from multi-year lows in global almond prices — strong results here would validate the cyclical recovery thesis.",
+        "Outlook commentary on FY26 crop estimates, orchard productivity metrics, and capital allocation (debt reduction vs reinvestment) will be critical in determining whether SHV can sustain earnings momentum into H2 and beyond amid volatile commodity and FX conditions."
+      ],
+      "tags": [
+        "Results",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "Critical Permit Milestone Achieved",
+      "time": "2026-05-27T23:22:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094577-6A1327293",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EV Resources has achieved a critical permit milestone, removing a key regulatory de-risking hurdle that advances the project toward development stage and enhances asset value for potential partners or acquirers.",
+        "Permit approval is a significant catalyst for a micro-cap explorer as it unlocks the ability to progress exploration/development activities, potentially accelerating timelines and reducing the discount applied to the company's resource base.",
+        "Next steps will likely involve mobilization of field activities and potential capital raising to fund the permitted work programs — investors should monitor for follow-up announcements on drilling plans, budget requirements, and any strategic partnership discussions."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TTX",
+      "company": "TETRATHERIX LIMITED",
+      "headline": "Successful Completion $15M Placement",
+      "time": "2026-05-27T23:22:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094576-2A1674202",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Tetratherix successfully completed a $15M placement, providing significant capital injection to fund ongoing operations and development programs, signaling strong institutional demand for the company's equity.",
+        "The $15M raise, while providing meaningful cash runway extension, introduces dilution to existing shareholders — the net impact depends on the discount to market price and the number of new shares issued, which investors should scrutinize closely.",
+        "Proceeds are expected to accelerate the company's pipeline and operational milestones; investors should monitor upcoming announcements for deployment strategy and whether the capital is directed toward value-accretive catalysts or general working capital."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FEG",
+      "company": "FAR EAST GOLD LTD",
+      "headline": "Xingye's change in substantial holding",
+      "time": "2026-05-27T23:22:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094573-2A1674211",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Xingye has filed a change in substantial holding notice for Far East Gold Ltd, indicating a shift in their ownership stake that triggers ASX disclosure requirements (crossing the 1% movement threshold).",
+        "As a substantial holder change rather than a new substantial holder notice, Xingye was already a significant shareholder — the direction of the change (increase or decrease) is critical for interpreting strategic intent and potential supply/demand dynamics in FEG shares.",
+        "The notice is flagged as not market sensitive, suggesting the change is relatively modest or procedural; however, institutional investors should monitor whether this forms part of a broader accumulation or disposal pattern by Xingye in this junior gold explorer."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SHV",
+      "company": "SELECT HARVESTS LIMITED",
+      "headline": "SHV Results Announcement Half Year Ending 31/3/26",
+      "time": "2026-05-27T23:21:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094570-3A694189",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Select Harvests reports H1 FY26 results, a critical update given the company's turnaround trajectory following prior-year losses driven by drought impacts and volatile almond prices — market-sensitive designation signals material deviation from expectations.",
+        "As Australia's largest almond grower, the half-yearly result will be closely scrutinized for almond price realizations (USD/kg), crop yield recovery, water cost trends, and progress on debt reduction — all key drivers for institutional valuation models.",
+        "Outlook commentary on FY26 full-year crop estimates, forward almond pricing (which has been recovering globally), and any capital management initiatives will be pivotal in determining whether the stock re-rates further or consolidates at current levels."
+      ],
+      "tags": [
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WRX",
+      "company": "WESTERN RIDGE RESOURCES LIMITED",
+      "headline": "Significant Expansion of Keystone Project",
+      "time": "2026-05-27T23:18:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094566-6A1327287",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Western Ridge Resources has announced a significant expansion of its Keystone Project, indicating increased resource potential or tenement area that could materially enhance the company's asset base and exploration upside.",
+        "Project expansion at this stage signals management confidence in geological prospectivity, potentially attracting institutional interest and improving the company's competitive positioning among ASX-listed junior explorers.",
+        "Investors should watch for follow-up details on exploration programs, drilling timelines, and funding requirements — any capital raise to fund expanded exploration could introduce near-term dilution risk despite the positive strategic development."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "YAL",
+      "company": "YANCOAL AUSTRALIA LIMITED",
+      "headline": "2026 Annual General Meeting Address and Presentation",
+      "time": "2026-05-27T23:17:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094561-2A1674207",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Yancoal's AGM address and presentation marked as market sensitive suggests disclosure of material operational or financial updates beyond routine procedural matters, warranting close attention from institutional holders.",
+        "As one of Australia's largest coal producers, any forward guidance on production volumes, cost management, or capital allocation (including potential dividend signals) embedded in the AGM presentation could materially impact valuation given volatile thermal and met coal pricing.",
+        "Investors should scrutinize the presentation for commentary on Yancoal's cash position, shareholder return framework, and strategic direction amid evolving energy transition dynamics and the company's relationship with majority shareholder Yankuang Energy."
+      ],
+      "tags": [
+        "AGM",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SHV",
+      "company": "SELECT HARVESTS LIMITED",
+      "headline": "SHV App 4D and Financial Report Half Year Ended 31/3/26",
+      "time": "2026-05-27T23:13:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094557-3A694184",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Select Harvests reports H1 FY26 half-yearly results, a critical update for investors tracking the almond producer's recovery trajectory amid volatile commodity pricing and prior-period weather impacts on crop yields.",
+        "The half-year ended 31 March 2026 financials will reveal whether SHV has delivered on margin improvement and debt reduction targets, with almond price realisation and cost-per-kilogram metrics being key focal points for institutional holders assessing earnings quality.",
+        "Market-sensitive designation signals material information — investors should watch for updated FY26 crop guidance, balance sheet leverage ratios, and any commentary on water costs and orchard productivity that will shape second-half earnings expectations and dividend capacity."
+      ],
+      "tags": [
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCG",
+      "company": "PENGANA CAPITAL GROUP LIMITED",
+      "headline": "Temporary Suspension of On-Market Buy-back",
+      "time": "2026-05-27T23:12:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094555-2A1674205",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Pengana Capital has temporarily suspended its on-market buy-back program, likely due to an upcoming corporate event, capital deployment decision, or regulatory blackout period that restricts share purchases.",
+        "The temporary nature of the suspension and its classification as non-market-sensitive suggest this is procedural rather than indicative of liquidity concerns or a fundamental shift in capital allocation strategy.",
+        "Investors should monitor for follow-up announcements — temporary buy-back suspensions often precede results releases, capital management changes, or potential M&A activity that could materially impact the stock."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BRY",
+      "company": "BARYS RESOURCES LIMITED",
+      "headline": "A Second Exploration Licence Grant in Kazakhstan",
+      "time": "2026-05-27T23:11:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094554-6A1327284",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Barys Resources has been granted a second exploration licence in Kazakhstan, expanding its tenement footprint and reinforcing its strategic commitment to the Central Asian mineral province — a positive signal for early-stage resource delineation.",
+        "The additional licence grant effectively doubles the company's exploration optionality in Kazakhstan, though as a pre-revenue explorer, the near-term value impact hinges on the quality of targets identified and available cash to fund exploration programs.",
+        "Next steps will likely involve geological mapping, geochemical sampling, and potential drilling programs on the new licence area; investors should monitor upcoming work program announcements and cash position updates to assess execution capability."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SHN",
+      "company": "SUNSHINE METALS LIMITED",
+      "headline": "Share Purchase Plan closes with overwhelming support",
+      "time": "2026-05-27T23:08:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094551-6A1327282",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sunshine Metals' Share Purchase Plan closed with overwhelming shareholder support, signaling strong retail investor confidence in the company's strategy and near-term prospects",
+        "The oversubscribed SPP bolsters the company's cash position, extending its funding runway for exploration and development activities without needing to rely solely on institutional placements",
+        "Strong SPP participation reduces near-term capital raise risk and positions the company to accelerate its project pipeline, though the additional share issuance introduces modest dilution for non-participating holders"
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PLY",
+      "company": "PLAYSIDE STUDIOS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-27T23:07:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094550-3A694182",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "PlaySide Studios has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant contract win for the gaming studio.",
+        "As a small-cap ASX-listed game developer (~A$100-200M market cap range), any capital raise could result in meaningful dilution, while a strategic partnership or acquisition could be transformative for the company's growth trajectory.",
+        "Investors should await the detailed announcement expected within the standard two-business-day halt period; the nature of the pending news will be critical in determining whether this is accretive or dilutive for shareholders."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACL",
+      "company": "AUSTRALIAN CLINICAL LABS LIMITED",
+      "headline": "Appointment of new Group CEO",
+      "time": "2026-05-27T23:06:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094548-3A694181",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Clinical Labs has appointed a new Group CEO, signaling a strategic leadership transition that may herald a shift in operational priorities or growth strategy for the pathology services provider.",
+        "Leadership change at the CEO level in a mid-cap healthcare company often triggers investor reassessment of forward earnings trajectory, cost discipline, and M&A appetite — key watch items given ACL's competitive positioning against Sonic Healthcare and Healius.",
+        "Market participants should monitor the incoming CEO's background and strategic mandate closely; any pivot toward organic growth investment, margin improvement programs, or consolidation activity could materially re-rate the stock."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "T88",
+      "company": "TAITON RESOURCES LIMITED",
+      "headline": "Yogi Drill Core For Assay And Soil Program to Commence",
+      "time": "2026-05-27T23:05:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094543-6A1327281",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Taiton Resources is advancing its Yogi gold project by submitting drill core samples for assay, a key de-risking step that could deliver near-term catalytic results and define mineralisation potential at the Murchison region prospect.",
+        "A systematic soil geochemistry program is set to commence, designed to identify additional drill targets and expand the prospective footprint — signalling the company is actively building its exploration pipeline beyond initial drilling.",
+        "As a micro-cap explorer, assay results from the Yogi drill program will be a critical share price catalyst; positive gold intercepts could materially re-rate the stock, while the soil program timeline suggests sustained newsflow over coming weeks."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ACR",
+      "company": "ACRUX LIMITED",
+      "headline": "Acrux licenses Lenzetto for Australian market for AUD5.4m",
+      "time": "2026-05-27T23:04:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094542-3A694180",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Acrux has licensed its Lenzetto menopausal hormone therapy (estradiol transdermal spray) to Pharma Health Australia for the Australian market, securing AUD 5.4 million in upfront and milestone payments — a meaningful revenue event for a small-cap specialty pharma company.",
+        "The deal structure likely includes upfront licensing fees plus sales-based milestones, providing near-term cash injection to bolster Acrux's balance sheet and extend cash runway while adding a recurring royalty/milestone revenue stream from a marketed product in a familiar regulatory jurisdiction.",
+        "This licensing agreement signals Acrux's continued strategy of monetizing its transdermal drug delivery platform through regional partnerships; investors should watch for TGA registration timelines and whether this deal catalyzes further licensing agreements in other geographies."
+      ],
+      "tags": [
+        "Healthcare",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MDI",
+      "company": "MIDDLE ISLAND RESOURCES LIMITED",
+      "headline": "Resignation of CEO",
+      "time": "2026-05-27T23:04:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094540-6A1327280",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CEO resignation at Middle Island Resources creates leadership uncertainty at a critical stage for the junior gold explorer/developer, potentially disrupting strategic continuity and project advancement timelines.",
+        "For a micro-cap ASX miner, CEO departures often signal internal disagreements on strategy or capital allocation — investors should monitor whether this triggers a broader board reshuffle or strategic pivot at the Sandstone Gold Project.",
+        "Key watch items include the speed of successor appointment, any interim leadership arrangements, and whether the departure coincides with changes to the company's development timeline or funding strategy, which could pressure an already constrained cash position."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "GHM",
       "company": "GOLDEN HORSE MINERALS LIMITED",
