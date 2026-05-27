@@ -1,9 +1,67 @@
 {
   "date": "2026-05-27",
-  "total": 84,
-  "market_sensitive_count": 71,
-  "generated_at": "2026-05-27T00:19:21.178679+00:00",
+  "total": 87,
+  "market_sensitive_count": 74,
+  "generated_at": "2026-05-27T00:44:18.671638+00:00",
   "announcements": [
+    {
+      "ticker": "LEL",
+      "company": "LITHIUM ENERGY LIMITED",
+      "headline": "Exploration Target for Burke-Mt Dromedary Graphite Projects",
+      "time": "2026-05-27T00:36:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094168-6A1327120",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lithium Energy has established an Exploration Target for its Burke and Mt Dromedary graphite projects, signaling progression of its graphite asset portfolio beyond its core lithium focus and potentially unlocking additional value from diversified critical minerals exposure.",
+        "The announcement of an Exploration Target (not yet JORC-compliant resource) represents an early-stage milestone; investors should note this is a conceptual target range and further drilling is required before any resource estimate can be declared, limiting near-term valuation impact.",
+        "The market-sensitive designation suggests the Exploration Target tonnage/grade ranges are material enough to warrant investor attention, with next steps likely involving planned drilling programs to convert the target into a JORC resource — watch for capital allocation decisions and potential funding requirements."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CXU",
+      "company": "CAULDRON ENERGY LIMITED",
+      "headline": "Exploration Target on Recently Acquired Tenements",
+      "time": "2026-05-27T00:23:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094163-6A1327119",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cauldron Energy has established an exploration target on recently acquired tenements, signaling early-stage resource delineation that could materially expand the company's asset base if confirmed through drilling.",
+        "As an exploration-stage company, the announcement of a new exploration target is a catalyst for market interest but carries inherent uncertainty — investors should note that exploration targets are conceptual in nature and not JORC-compliant mineral resources or reserves.",
+        "Key next steps will include planned drilling programs to test the exploration target; the company's ability to fund these programs (cash runway and potential capital raise requirements) will be critical to watch in upcoming quarters."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GLN",
+      "company": "GALAN LITHIUM LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-05-27T00:17:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094160-6A1327117",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Galan Lithium has been suspended from quotation on the ASX, indicating a significant corporate action or compliance issue that prevents normal trading of shares.",
+        "Suspension typically follows a trading halt and suggests the company has not yet satisfied ASX requirements to resume trading, raising concerns about potential capital raise, material transaction, or regulatory compliance matters.",
+        "Investors should monitor for the accompanying announcement explaining the suspension basis; prolonged suspension could impair liquidity and signal elevated corporate risk for this junior lithium explorer/developer."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "STG",
       "company": "STRAKER LIMITED",
