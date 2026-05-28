@@ -1,9 +1,218 @@
 {
   "date": "2026-05-28",
-  "total": 78,
-  "market_sensitive_count": 69,
-  "generated_at": "2026-05-27T23:54:44.634045+00:00",
+  "total": 89,
+  "market_sensitive_count": 79,
+  "generated_at": "2026-05-28T00:17:39.104376+00:00",
   "announcements": [
+    {
+      "ticker": "BTE",
+      "company": "BOTALA ENERGY LTD",
+      "headline": "Serowe CBM Project Update",
+      "time": "2026-05-28T00:11:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094644-6A1327322",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Botala Energy provides a project update on its Serowe Coal Bed Methane (CBM) project in Botswana, signaling continued operational progress in an early-stage gas development play with significant resource potential in the Kalahari Basin.",
+        "Market-sensitive designation suggests material new information — likely relating to well results, flow testing data, or resource estimates that could meaningfully re-rate the company's valuation for a micro-cap explorer.",
+        "Investors should assess whether the update demonstrates commercial gas flow rates or resource upgrades, as these are critical de-risking milestones for CBM projects that determine pathway to pilot production and future funding requirements."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TOK",
+      "company": "TOLU MINERALS LIMITED.",
+      "headline": "Tolu Drilling Results",
+      "time": "2026-05-28T00:06:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094642-6A1327321",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Tolu Minerals has released drilling results marked as market sensitive, indicating potentially significant mineralisation findings that could materially impact the company's resource base and valuation.",
+        "As an early-stage explorer on the ASX, positive drill results are a key catalyst for re-rating; the market-sensitive designation suggests the results contain material intercepts or grade improvements that exceed prior expectations.",
+        "Investors should watch for updated resource estimates, follow-up drilling programs, and any capital raise activity that may follow to fund accelerated exploration or feasibility work on the back of these results."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VBS",
+      "company": "VECTUS BIOSYSTEMS LIMITED",
+      "headline": "Change in substantial holding KHPL",
+      "time": "2026-05-27T23:57:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094637-2A1674232",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Change in substantial holding by KHPL (likely a key insider or related entity) signals a shift in ownership dynamics at Vectus Biosystems, a pre-revenue biotech focused on cardiovascular therapies.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is incremental rather than a major acquisition or disposal that would materially alter the shareholder register.",
+        "Investors should monitor whether this reflects gradual accumulation or dilution from capital raises, as Vectus's limited cash runway makes shareholder composition changes particularly relevant to future funding capacity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CIA",
+      "company": "CHAMPION IRON LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-05-27T23:56:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094636-2A1674231",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Champion Iron has entered a trading halt, typically preceding a material announcement such as a capital raise, acquisition, or significant operational update that requires price-sensitive disclosure.",
+        "As a dual-listed iron ore producer (ASX/TSX) with operations in Quebec, any halt raises immediate questions around potential M&A activity, project financing, or material changes to its Bloom Lake or Kami project pipeline.",
+        "Investors should await the pending announcement before repositioning; the halt removes near-term liquidity and signals management is managing information asymmetry ahead of a potentially market-moving event."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GLN",
+      "company": "GALAN LITHIUM LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-05-27T23:54:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094635-6A1327318",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Galan Lithium has been reinstated to quotation on the ASX following a prior trading halt or suspension, signaling resolution of the issue that triggered the pause in trading.",
+        "Reinstatement as market sensitive suggests material information has been disclosed to the market, likely related to a capital raise, corporate action, or compliance matter that preceded the halt — investors should review accompanying announcements for full context.",
+        "Near-term trading may see elevated volume and volatility as the market reprices the stock based on any new information released during the suspension period; lithium sector sentiment remains a key overlay for price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GLN",
+      "company": "GALAN LITHIUM LIMITED",
+      "headline": "HMW Commissioning Complete & First Processed Lithium Brine",
+      "time": "2026-05-27T23:54:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094634-6A1327242",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Galan Lithium has completed commissioning of its HMW (Hombre Muerto West) processing facility and produced first processed lithium brine, marking a critical de-risking milestone that transitions the project from development to operational validation stage.",
+        "Achievement of first processed brine demonstrates the technical viability of Galan's extraction and concentration process at the Argentine salar, a key proof-of-concept that strengthens the project's bankability and positions the company for potential offtake and financing discussions.",
+        "Next steps will likely focus on scaling throughput, optimizing brine grades and recovery rates, and progressing toward commercial production — investors should monitor upcoming operational data on lithium concentrations and processing efficiency to assess timeline to revenue generation."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AEU",
+      "company": "ATOMIC EAGLE LTD",
+      "headline": "Muntanga North Ground Radiometrics",
+      "time": "2026-05-27T23:53:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094633-6A1327317",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Atomic Eagle has completed ground radiometric surveys at its Muntanga North uranium project, a key de-risking step that identifies prospective zones for follow-up drilling and advances the exploration pipeline.",
+        "Ground radiometrics provide higher-resolution targeting data compared to airborne surveys, potentially delineating discrete uranium anomalies that could accelerate resource definition at Muntanga North.",
+        "Results from this survey program will inform the next phase of exploration activity, with investors watching for anomaly identification and drill target generation that could serve as near-term catalysts for this early-stage explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VRX",
+      "company": "VRX SILICA LIMITED",
+      "headline": "Entitlement Offer Prospectus",
+      "time": "2026-05-27T23:52:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094631-6A1327316",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "VRX Silica is conducting a pro-rata entitlement offer, which will dilute existing shareholders but provide capital to advance its silica sand projects in Western Australia — a sector benefiting from growing demand for high-purity silica in solar and semiconductor applications.",
+        "The entitlement offer structure allows existing shareholders to participate and maintain their proportional holdings, but the capital raise signals near-term funding needs and suggests the company lacks sufficient internal cash flow to self-fund development activities.",
+        "Investors should monitor the offer pricing relative to the current share price (discount level), total raise size, and intended use of proceeds — particularly whether funds are earmarked for Arrowsmith North or other project milestones that could serve as near-term catalysts."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AX8",
+      "company": "ACCELERATE RESOURCES LIMITED",
+      "headline": "AX8 Raises $2M to Advance Gold and Manganese Projects",
+      "time": "2026-05-27T23:52:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094629-6A1327271",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Accelerate Resources raised $2M in fresh capital, providing near-term funding to advance its gold and manganese project portfolio — critical for a micro-cap explorer where cash runway is the primary survival metric.",
+        "The capital raise introduces dilution for existing shareholders, though the relatively modest $2M size suggests limited equity erosion while enabling meaningful exploration expenditure across dual commodity exposure (gold + manganese).",
+        "Proceeds earmarked for project advancement signal upcoming drilling or resource definition catalysts; investors should watch for near-term exploration updates that could justify the raise and drive re-rating potential in a supportive gold price environment."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SMX",
+      "company": "STRATA MINERALS LIMITED.",
+      "headline": "Trading Halt",
+      "time": "2026-05-27T23:52:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094628-6A1327315",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Strata Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update that requires price-sensitive disclosure.",
+        "As a junior mining company, trading halts frequently precede equity raisings which can be dilutive to existing shareholders, though they may also signal transformative asset acquisitions or exploration results.",
+        "Investors should await the formal announcement expected within the ASX-mandated two-business-day window to assess the nature and materiality of the pending disclosure before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACW",
+      "company": "ACTINOGEN MEDICAL LIMITED",
+      "headline": "Actinogen receives positive scientific advice from EMA",
+      "time": "2026-05-27T23:51:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094627-2A1674230",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EMA positive scientific advice represents a critical regulatory de-risking milestone for Actinogen's lead drug candidate Xanamem, significantly strengthening the pathway toward European market approval and enhancing partnering/licensing attractiveness.",
+        "EMA feedback likely validates the clinical development strategy and trial design, reducing the probability of costly late-stage protocol amendments — a key concern for pre-revenue biotech companies operating on limited cash reserves.",
+        "Positive EMA engagement positions Actinogen to advance toward pivotal Phase 2b/3 trials with greater regulatory clarity, potentially accelerating timelines and improving the company's negotiating leverage with prospective pharmaceutical partners for global commercialization."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "TGH",
       "company": "TERRAGEN HOLDINGS LIMITED",
