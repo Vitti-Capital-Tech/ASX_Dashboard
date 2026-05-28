@@ -1,9 +1,180 @@
 {
   "date": "2026-05-28",
-  "total": 94,
-  "market_sensitive_count": 83,
-  "generated_at": "2026-05-28T00:40:54.264839+00:00",
+  "total": 103,
+  "market_sensitive_count": 90,
+  "generated_at": "2026-05-28T01:38:01.757858+00:00",
   "announcements": [
+    {
+      "ticker": "SAN",
+      "company": "SAGALIO ENERGY LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-05-28T01:32:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094694-6A1327336",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Sagalio Energy Limited, crossing the 5% ownership threshold, signaling meaningful external investor conviction in the company's energy assets or strategic direction.",
+        "The filing is classified as not market sensitive, suggesting this is a routine disclosure crossing the substantial holding threshold rather than an aggressive accumulation or hostile positioning.",
+        "Institutional investors should monitor whether this represents the beginning of a larger stake-building campaign, which could foreshadow corporate activity such as a takeover approach, board representation push, or strategic partnership in the energy sector."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IFN",
+      "company": "INFRAGREEN GROUP LIMITED",
+      "headline": "Announcement of On-market Share Buy-back",
+      "time": "2026-05-28T01:32:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094693-2A1674260",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "InfraGreen Group has announced an on-market share buy-back, signaling management's view that shares are undervalued and demonstrating confidence in the company's balance sheet strength and cash position.",
+        "The buy-back is accretive to remaining shareholders by reducing shares on issue, improving per-share metrics (EPS, NTA) and providing price support in what may be a thinly traded stock.",
+        "Investors should monitor the pace and scale of buy-back execution relative to available free cash flow, as aggressive repurchases could constrain capital available for growth investments in the infrastructure/green energy pipeline."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IFN",
+      "company": "INFRAGREEN GROUP LIMITED",
+      "headline": "Strategic Review Update - Presentation",
+      "time": "2026-05-28T01:29:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094692-2A1674259",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "InfraGreen Group has announced a strategic review update, signaling potential corporate restructuring, asset divestiture, or transformation that could materially alter the company's direction and valuation profile",
+        "The market-sensitive designation of this presentation suggests the strategic review has yielded substantive outcomes or options that investors need to price in, potentially including changes to capital allocation, business model, or portfolio composition",
+        "Institutional investors should closely monitor for details on any proposed transactions, timeline for execution, and whether the review points toward value-unlocking events such as asset sales, mergers, or a shift in strategic focus within the infrastructure/green energy space"
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IFN",
+      "company": "INFRAGREEN GROUP LIMITED",
+      "headline": "Strategic Review Update",
+      "time": "2026-05-28T01:21:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094689-2A1674257",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "InfraGreen Group has provided an update on its strategic review process, signaling potential corporate restructuring, asset divestment, or M&A activity that could materially alter the company's direction and valuation profile.",
+        "The market-sensitive designation indicates the update contains material information likely involving concrete developments rather than a routine procedural notice, suggesting the review has progressed to an actionable stage with identifiable counterparties or structural options.",
+        "Institutional investors should monitor for follow-up announcements detailing specific transaction terms, timeline to completion, and any associated capital management initiatives that could unlock or impair shareholder value depending on the strategic path chosen."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RCL",
+      "company": "READCLOUD LIMITED",
+      "headline": "1H FY26 Results Presentation",
+      "time": "2026-05-28T01:14:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094685-3A694206",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "ReadCloud's 1H FY26 results presentation is market-sensitive, indicating material financial updates that could shift investor expectations for this small-cap EdTech provider on the ASX.",
+        "As a micro-cap technology company focused on digital education platforms, investors will scrutinize revenue trajectory, SaaS recurring revenue metrics, and path to profitability — any improvement in unit economics or ARR growth would be significant given the company's scale.",
+        "Cash runway and operating cash burn will be critical signals; with limited analyst coverage, the half-yearly results serve as a key re-rating catalyst and will determine whether the company can sustain operations without further capital raises."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RCL",
+      "company": "READCLOUD LIMITED",
+      "headline": "1H FY26 Results release",
+      "time": "2026-05-28T01:11:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094682-3A694204",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "ReadCloud released its 1H FY26 half-yearly results, a market-sensitive announcement that will be scrutinised for revenue trajectory and path to profitability in the competitive EdTech space.",
+        "As a micro-cap ASX-listed education technology company, investors will focus on recurring revenue growth from its digital textbook platform, customer acquisition metrics, and whether operating losses are narrowing relative to prior corresponding period.",
+        "Cash runway remains the critical variable for ReadCloud — any deterioration in cash burn or need for near-term capital raising would weigh on sentiment, while evidence of improving unit economics and school/publisher adoption could support re-rating."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPN",
+      "company": "SPARC TECHNOLOGIES LIMITED",
+      "headline": "Notice of ceasing to be a substantial holder",
+      "time": "2026-05-28T01:10:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094681-3A694203",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Sparc Technologies, indicating a significant reduction in ownership below the 5% threshold, which may signal a shift in institutional confidence or portfolio rebalancing.",
+        "The disposal of a substantial holding in a small-cap technology/materials company like SPN can amplify selling pressure in a thinly traded stock, potentially impacting near-term liquidity and price discovery.",
+        "Investors should monitor whether this is an isolated exit or part of a broader trend of institutional departures, and assess whether Sparc's cash runway and commercialisation milestones remain on track to attract replacement capital."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RCL",
+      "company": "READCLOUD LIMITED",
+      "headline": "Appendix 4D and Half Year Financial Report",
+      "time": "2026-05-28T01:07:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094680-3A694202",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "ReadCloud's half-year report is market sensitive, suggesting material changes in financial performance metrics that could move the stock — investors should scrutinize revenue trajectory and path to profitability for this EdTech micro-cap.",
+        "As a small-cap ASX technology company in the digital education space, key focus areas will be recurring SaaS revenue growth, customer acquisition costs, and cash burn rate relative to remaining cash reserves to assess runway sustainability.",
+        "The Appendix 4D filing provides a comparative period benchmark — institutional investors should evaluate whether ReadCloud is demonstrating operating leverage and margin improvement as it scales its digital textbook and learning platform across Australian schools."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FCT",
+      "company": "FIRSTWAVE CLOUD TECHNOLOGY LIMITED",
+      "headline": "FirstWave Shareholder Webinar",
+      "time": "2026-05-28T00:44:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094669-2A1674248",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FirstWave Cloud Technology is hosting a shareholder webinar, signaling management's intent to communicate strategic updates directly to investors — typically used to address key concerns or highlight upcoming catalysts.",
+        "As a micro-cap cybersecurity/cloud company, shareholder webinars often precede or accompany material developments such as contract wins, capital management updates, or revised guidance — investors should monitor for substantive disclosures.",
+        "The market-sensitive tag suggests the webinar may contain material information beyond routine engagement, potentially covering financial performance, partnership developments, or capital runway updates that could move the stock."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CIA",
       "company": "CHAMPION IRON LIMITED",
