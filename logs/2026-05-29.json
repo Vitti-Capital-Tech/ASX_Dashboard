@@ -1,9 +1,239 @@
 {
   "date": "2026-05-29",
-  "total": 31,
-  "market_sensitive_count": 25,
-  "generated_at": "2026-05-28T23:04:49.307533+00:00",
+  "total": 43,
+  "market_sensitive_count": 37,
+  "generated_at": "2026-05-28T23:30:41.200090+00:00",
   "announcements": [
+    {
+      "ticker": "14D",
+      "company": "1414 DEGREES LIMITED",
+      "headline": "SiNTL Battery Tech Scale-up Commenced",
+      "time": "2026-05-28T23:28:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095067-2A1674469",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "1414 Degrees has commenced scale-up of its SiNTL (Silicon Nitride Thermal Lattice) battery technology, signaling a transition from R&D to commercialization phase — a critical de-risking milestone for this pre-revenue energy storage company.",
+        "The scale-up of silicon-based thermal energy storage represents a potentially differentiated technology in the increasingly competitive long-duration energy storage market, though the company's micro-cap status and cash constraints mean execution risk remains elevated.",
+        "Investors should monitor upcoming milestones around prototype performance data, partnership announcements, and cash runway adequacy — any capital raise to fund scale-up activities would be dilutive given the company's small market capitalization."
+      ],
+      "tags": [
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NGI",
+      "company": "NAVIGATOR GLOBAL INVESTMENTS LIMITED",
+      "headline": "Successful Completion of Retail Entitlement Offer",
+      "time": "2026-05-28T23:26:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095064-2A1674470",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Navigator Global Investments has successfully completed its retail entitlement offer, securing additional capital to support its strategic growth initiatives and balance sheet flexibility.",
+        "The completion of the retail component follows the institutional tranche, finalizing the full equity raise and resulting in dilution for non-participating shareholders — investors should assess the total raise quantum relative to existing market cap for dilution impact.",
+        "Proceeds are expected to strengthen NGI's capital position for potential acquisitions or investment in its alternative asset management platform, with execution on deployment being the key catalyst to watch."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMU",
+      "company": "AMERICAN URANIUM LTD",
+      "headline": "Extension to Entitlement Offer Closing Date",
+      "time": "2026-05-28T23:23:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095061-6A1327494",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "American Uranium has extended the closing date of its entitlement offer, suggesting potential undersubscription or a desire to maximize participation, which may signal softer-than-expected investor demand for the capital raise.",
+        "Extensions to entitlement offer closing dates often indicate the company needs additional time to secure full subscription, raising questions about the strength of shareholder support and the adequacy of underwriting arrangements.",
+        "Investors should monitor the final subscription level and any shortfall placement details, as significant undersubscription could lead to increased dilution risk or reliance on sub-underwriters at potentially discounted terms."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ELS",
+      "company": "ELSIGHT LIMITED",
+      "headline": "ELS Receives US$2M Follow-On U.S. Order",
+      "time": "2026-05-28T23:21:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095058-3A694274",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Elsight secured a US$2M follow-on order from an existing U.S. customer, signaling strong product validation and repeat demand for its Halo connectivity platform in the defense/enterprise segment.",
+        "A follow-on order of this magnitude is material for a micro-cap like Elsight, likely representing a significant portion of near-term revenue and improving cash runway while demonstrating commercial traction beyond initial pilot stages.",
+        "Repeat U.S. orders strengthen Elsight's foothold in the critical U.S. defense and autonomous systems market, potentially serving as a catalyst for further contract wins and scaling toward recurring revenue streams."
+      ],
+      "tags": [
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AOF",
+      "company": "AUSTRALIAN UNITY OFFICE FUND",
+      "headline": "Trading halt",
+      "time": "2026-05-28T23:21:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095057-3A694275",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Australian Unity Office Fund (AOF) has entered a trading halt, typically preceding a material announcement such as a capital raise, asset transaction, or potential M&A activity given the fund's REIT structure and recent sector consolidation trends.",
+        "AOF has been subject to ongoing takeover interest and strategic review processes; a trading halt in this context raises the probability of a binding proposal, scheme of arrangement, or significant portfolio transaction being imminent.",
+        "Investors should await the detailed announcement expected within the ASX-mandated two-business-day halt period, with particular attention to any implied valuation premium or discount to the fund's latest reported NTA."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Property",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "YUG",
+      "company": "YUGO METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-28T23:20:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095056-6A1327493",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "YUGO METALS LIMITED has entered a trading halt, typically requested by the company pending a material announcement that could significantly impact the share price.",
+        "As a junior mining/metals company, trading halts frequently precede capital raises (potential dilution), significant exploration results, or corporate transactions such as acquisitions or asset deals.",
+        "Investors should await the pending announcement before taking positions; the halt signals imminent material news, with the nature of the catalyst (capital raise vs. positive operational update) determining directional impact."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BGD",
+      "company": "BARTON GOLD HOLDINGS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-28T23:17:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095047-6A1327490",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Barton Gold Holdings has entered a trading halt, typically preceding a material announcement such as a capital raise, acquisition, or significant exploration update in the gold sector.",
+        "As a junior gold explorer/developer on the ASX, trading halts frequently signal pending equity raisings which could be dilutive to existing shareholders, though proceeds may fund value-accretive drilling or project advancement.",
+        "Investors should await the pending announcement — the trading halt will likely resolve within 1-2 trading days, with the nature of the news (capital raise vs. operational update) being the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AII",
+      "company": "ALMONTY INDUSTRIES INC.",
+      "headline": "Almonty Set to Join Large-Cap Russell 1000 Index",
+      "time": "2026-05-28T23:16:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095045-6A1327488",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Almonty Industries is set to join the Russell 1000 Index, a major large-cap benchmark, which will trigger mandatory passive fund buying and significantly increase institutional visibility and liquidity for the stock.",
+        "Russell 1000 inclusion signals that Almonty has crossed critical market capitalisation thresholds, reflecting the market's re-rating of the company likely driven by its Sangdong tungsten mine ramp-up and strategic positioning as a Western-aligned critical minerals supplier.",
+        "Index inclusion typically drives sustained demand from ETFs and index-tracking funds, creating a structural bid that can support share price appreciation and reduce cost of capital for future growth initiatives or project financing."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STG",
+      "company": "STRAKER LIMITED",
+      "headline": "Delay of Prelim report",
+      "time": "2026-05-28T23:09:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095039-2A1674429",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Straker Limited has notified the market of a delay in lodging its preliminary (Appendix 4E) report, which may signal internal reporting challenges, audit complications, or potential restatement issues that warrant close monitoring.",
+        "Delays in preliminary financial reporting are often viewed negatively by institutional investors as they can indicate underlying issues with financial controls, revenue recognition, or going-concern considerations — particularly relevant for a small-cap technology company where cash runway visibility is critical.",
+        "Investors should watch for the revised lodgement timeline and any accompanying commentary on the reasons for delay; prolonged delays risk ASX compliance action and could trigger further selling pressure in an already thinly traded stock."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology",
+        "Results"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TBN",
+      "company": "TAMBORAN RESOURCES CORPORATION",
+      "headline": "Tamboran Competes Acquisition of Falcon Oil & Gas Limited",
+      "time": "2026-05-28T23:07:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095038-2A1674453",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Tamboran has completed its acquisition of Falcon Oil & Gas Limited, consolidating full ownership of key Beetaloo Basin acreage and eliminating a joint venture partner, which simplifies the corporate structure and strengthens Tamboran's position as the dominant operator in the basin.",
+        "The deal is strategically accretive as it secures 100% working interest across Tamboran's core Beetaloo Sub-basin permits (EP 76, EP 98, EP 117), removing future royalty/carry obligations and giving full control over development timing and capital allocation in one of Australia's most prospective onshore gas plays.",
+        "With the acquisition now closed, the market will focus on Tamboran's updated reserves/resources statement, revised development capex guidance, and progress toward FID on its proposed Beetaloo gas development — catalysts that could materially re-rate the stock if commercialisation milestones are met."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BGE",
+      "company": "BRIDGE SAAS LIMITED",
+      "headline": "Prospectus Bonus Issue and Target Market Determination",
+      "time": "2026-05-28T23:05:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095034-2A1674454",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bridge SaaS Limited is conducting a bonus issue of securities via prospectus, which typically signals management's intent to reward existing shareholders or restructure capital without requiring new cash investment from holders.",
+        "The accompanying Target Market Determination (TMD) filing indicates compliance with Design and Distribution Obligations (DDO), a regulatory requirement that suggests the securities being issued may include options or other complex instruments requiring formal product governance.",
+        "While bonus issues are generally non-dilutive to existing shareholders on a proportional basis, investors should scrutinize the terms of the securities being issued — particularly exercise prices and expiry dates — to assess potential future dilution and the company's underlying capital needs given its micro-cap SaaS profile."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORN",
+      "company": "ORION MINERALS LTD",
+      "headline": "Completion of Conversion of IDC Loan Facility",
+      "time": "2026-05-28T23:04:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095032-3A694268",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "IDC (Industrial Development Corporation) loan facility has been fully converted into equity, eliminating a debt obligation from Orion Minerals' balance sheet and strengthening the company's financial position ahead of its Prieska Copper-Zinc Mine development in South Africa.",
+        "The conversion is dilutive to existing shareholders as new shares are issued to replace the debt, but removes ongoing interest obligations and potential covenant risks, improving the company's ability to secure further project financing.",
+        "With the IDC now holding an equity stake rather than a debt position, this aligns a key South African development finance institution as a strategic shareholder, potentially facilitating smoother regulatory and funding pathways for the Prieska project."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SLM",
       "company": "SOLIS MINERALS LIMITED",
