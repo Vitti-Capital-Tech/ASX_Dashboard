@@ -1,9 +1,102 @@
 {
   "date": "2026-05-28",
-  "total": 103,
-  "market_sensitive_count": 90,
-  "generated_at": "2026-05-28T01:38:01.757858+00:00",
+  "total": 108,
+  "market_sensitive_count": 95,
+  "generated_at": "2026-05-28T03:11:30.244612+00:00",
   "announcements": [
+    {
+      "ticker": "TCO",
+      "company": "TRANSMETRO CORPORATION LIMITED",
+      "headline": "Dividend/Distribution - TCO",
+      "time": "2026-05-28T03:02:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094735-2A1674300",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "TransMetro Corporation (TCO) has declared a dividend/distribution, signaling confidence in cash flow generation and a commitment to returning capital to shareholders.",
+        "As a market-sensitive announcement, the dividend declaration suggests the payout is material relative to TCO's market capitalization, which is noteworthy for a micro-cap ASX-listed entity and may attract yield-focused investors.",
+        "Investors should monitor the ex-dividend date, record date, and payment timeline, as well as the franking level, to assess the tax-effective yield and whether the payout ratio is sustainable given TCO's underlying earnings and cash position."
+      ],
+      "tags": [
+        "Dividend"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IMC",
+      "company": "IMMURON LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-05-28T02:57:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094733-3A694216",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Immuron responded to an ASX price query regarding unusual share price movement, indicating the company is not aware of any undisclosed information that could explain the trading activity — a standard compliance response that typically follows a notable price spike.",
+        "The price query itself signals that ASX detected abnormal trading patterns (volume and/or price), which often reflects speculative interest or potential information asymmetry ahead of a material development in Immuron's clinical or commercial pipeline.",
+        "As a micro-cap biotech, Immuron's elevated volatility warrants caution; the lack of any new disclosed catalyst suggests the move may be speculative, and investors should monitor for follow-up announcements regarding its IMM-124E or defense-related programs that could validate or deflate the price action."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGU",
+      "company": "MAGNUM MINING AND EXPLORATION LIMITED",
+      "headline": "Chair's Address to Shareholders",
+      "time": "2026-05-28T02:19:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094715-6A1327343",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Chair's AGM address marked as market sensitive suggests disclosure of material strategic updates or project milestones beyond routine governance matters for this junior mining explorer",
+        "As a small-cap exploration company, any forward-looking commentary on project development timelines, funding requirements, or resource estimates could materially impact valuation given typically thin liquidity",
+        "Investors should scrutinize the address for signals on capital raising plans, joint venture discussions, or changes to exploration priorities that could define the company's near-term trajectory"
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VPR",
+      "company": "VOLT GROUP LIMITED",
+      "headline": "AGM Presentation to Shareholders",
+      "time": "2026-05-28T02:18:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094713-6A1327346",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Volt Group Limited's AGM presentation is flagged as market sensitive, suggesting it contains material updates beyond routine shareholder business — likely including forward guidance, strategic initiatives, or financial metrics not previously disclosed.",
+        "Investors should scrutinize the presentation for updated revenue run-rate, cash position, and any revised outlook for the staffing/workforce solutions business, as market-sensitive AGM presentations typically signal management is resetting expectations.",
+        "The market-sensitive tag at an AGM often precedes near-term catalytic events such as new contract wins, restructuring plans, or capital management initiatives — warranting close monitoring for actionable detail on growth trajectory and balance sheet health."
+      ],
+      "tags": [
+        "AGM"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GPR",
+      "company": "GEOPACIFIC RESOURCES LTD",
+      "headline": "AGM Update on Woodlark Gold Project",
+      "time": "2026-05-28T01:44:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094699-6A1327339",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Geopacific Resources provided a project update on the Woodlark Gold Project at its AGM, signaling continued development focus on the Papua New Guinea asset despite historical funding and execution challenges.",
+        "Market-sensitive designation suggests material new information was disclosed regarding project status, potentially including updated timelines, capital requirements, or partnership arrangements that could impact the company's valuation trajectory.",
+        "Investors should monitor for details on funding pathways and project restart economics, as Geopacific's ability to secure financing and advance Woodlark remains the critical catalyst for re-rating from its current depressed valuation."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SAN",
       "company": "SAGALIO ENERGY LIMITED",
