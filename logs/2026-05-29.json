@@ -1,9 +1,142 @@
 {
   "date": "2026-05-29",
-  "total": 24,
-  "market_sensitive_count": 18,
-  "generated_at": "2026-05-28T22:37:27.315194+00:00",
+  "total": 31,
+  "market_sensitive_count": 25,
+  "generated_at": "2026-05-28T23:04:49.307533+00:00",
   "announcements": [
+    {
+      "ticker": "SLM",
+      "company": "SOLIS MINERALS LIMITED",
+      "headline": "Solis Minerals Completes A$6 Million Placement",
+      "time": "2026-05-28T22:59:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095024-6A1327480",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Solis Minerals completed a A$6 million placement, providing fresh capital to advance its exploration portfolio — the raise signals continued investor appetite for the junior explorer despite challenging market conditions for small-cap miners.",
+        "The A$6M raise, while modest, likely extends the company's cash runway to fund near-term drilling and exploration programs across its lithium and copper-gold projects, reducing the need for immediate follow-on capital raises.",
+        "Key focus shifts to deployment of proceeds — investors will be watching for upcoming drill results and project milestones to justify the dilution, with any SPP (Share Purchase Plan) component potentially adding further capital but also additional share overhang."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KTK",
+      "company": "KTEK AEROSYSTEMS LTD",
+      "headline": "KTEK Resumes Deliveries as Supply Chain Constraints Ease",
+      "time": "2026-05-28T22:56:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095019-6A1327484",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "KTEK has resumed product deliveries following easing of supply chain constraints, signaling a return to revenue-generating operations and potential backlog conversion that should positively impact near-term cash flows.",
+        "The resumption of deliveries suggests previously delayed orders can now be fulfilled, which is critical for a small-cap aerospace company where delivery timing directly impacts revenue recognition and working capital cycles.",
+        "Investors should monitor upcoming quarterly results for evidence of accelerated delivery cadence and margin recovery, as the ability to sustain supply chain stability will be key to re-rating the stock and demonstrating operational resilience."
+      ],
+      "tags": [
+        "Production",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AQD",
+      "company": "AUSQUEST LIMITED",
+      "headline": "Cangallo Diamond Drilling to Commence",
+      "time": "2026-05-28T22:55:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095017-6A1327485",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AusQuest is commencing diamond drilling at its Cangallo copper-gold project in Peru, signaling progression from earlier exploration phases to higher-confidence drill testing of identified targets — a key de-risking milestone for the project.",
+        "Diamond drilling represents a material escalation in exploration expenditure compared to surface sampling or RC drilling, implying management confidence in the geological prospectivity and willingness to deploy capital on higher-cost, higher-quality data collection.",
+        "Successful drill results from Cangallo could serve as a near-term catalyst for re-rating, with investors likely to watch for assay results in coming weeks/months that could define resource potential and attract potential JV partners or further funding."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AEM",
+      "company": "ADVANCED ENERGY MINERALS LTD",
+      "headline": "Investor Presentation Annual General Meeting 29 May 2026",
+      "time": "2026-05-28T22:49:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095013-6A1327481",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Advanced Energy Minerals is presenting an investor deck at its AGM, signaling management's intent to communicate strategic direction and project milestones to shareholders amid a market-sensitive disclosure framework.",
+        "As a junior minerals explorer, the AGM presentation likely outlines exploration progress, cash position, and capital allocation priorities — key metrics for assessing near-term cash runway and dilution risk for institutional holders.",
+        "Investors should scrutinize the presentation for any updated resource estimates, upcoming drilling programs, or capital raise intentions that could materially impact the company's valuation trajectory in the energy minerals space."
+      ],
+      "tags": [
+        "AGM",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXS",
+      "company": "DEXUS",
+      "headline": "Trading Halt",
+      "time": "2026-05-28T22:47:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095011-2A1674445",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "DEXUS has entered a trading halt, typically preceding a material announcement such as a capital raise, acquisition, or significant portfolio transaction given its profile as a major ASX-listed REIT.",
+        "Trading halts for large-cap property groups like DEXUS often signal equity raisings or asset disposals/acquisitions that can materially impact NAV, gearing ratios, and distribution guidance — investors should prepare for potential dilution or portfolio reshaping.",
+        "Market participants should monitor for the pending announcement closely; the halt removes price discovery temporarily, and the nature of the underlying event will determine whether re-rating is warranted upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BUB",
+      "company": "BUBS AUSTRALIA LIMITED",
+      "headline": "FY26 Trading Update",
+      "time": "2026-05-28T22:40:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095009-6A1327479",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bubs Australia issues FY26 trading update flagged as market sensitive, signaling material new information on revenue trajectory or operational performance that could reset consensus expectations for the infant formula and dairy nutrition company.",
+        "As a mid-cap ASX consumer staples name with prior US FDA pathway momentum, any update on US market penetration, China SAMR re-registration progress, or gross margin recovery would be critical for institutional positioning and valuation multiples.",
+        "Investors should scrutinize cash burn rate, inventory levels, and channel sell-through metrics closely — Bubs' path to sustained profitability remains the key swing factor, and this update likely provides forward guidance that will anchor near-term trading range."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MAU",
+      "company": "MAGNETIC RESOURCES NL",
+      "headline": "Notice of Second Court Hearing",
+      "time": "2026-05-28T22:38:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095004-6A1327477",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Second court hearing notice signals the scheme of arrangement or restructuring transaction is progressing toward final judicial approval, a key milestone before implementation.",
+        "This procedural step typically follows successful shareholder approval, indicating the deal has cleared its most significant corporate governance hurdle and is nearing completion.",
+        "Investors should watch for the court's final orders and the subsequent effective date, which will trigger any consideration payments or structural changes to the entity."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EGR",
       "company": "ECOGRAF LIMITED",
