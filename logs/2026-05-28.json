@@ -1,9 +1,106 @@
 {
   "date": "2026-05-28",
-  "total": 89,
-  "market_sensitive_count": 79,
-  "generated_at": "2026-05-28T00:17:39.104376+00:00",
+  "total": 94,
+  "market_sensitive_count": 83,
+  "generated_at": "2026-05-28T00:40:54.264839+00:00",
   "announcements": [
+    {
+      "ticker": "CIA",
+      "company": "CHAMPION IRON LIMITED",
+      "headline": "Investor Presentation Q4 and FY2026",
+      "time": "2026-05-28T00:33:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094662-2A1674237",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Champion Iron's Q4/FY2026 investor presentation signals management confidence in operational trajectory, likely showcasing production milestones and cost performance at its Bloom Lake iron ore operations in Quebec, Canada.",
+        "Market-sensitive designation suggests the presentation contains material forward-looking guidance or updated financial metrics that could reprice the stock — investors should focus on iron ore premium realisation rates, AISC trends, and any updated Phase II ramp-up economics.",
+        "Key watch items include progress on the DRPF (direct reduction pellet feed) project which positions Champion as a premium supplier to the green steel transition, potentially unlocking significant valuation re-rating if commissioning timelines and capex remain on track."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CIA",
+      "company": "CHAMPION IRON LIMITED",
+      "headline": "Press Release FY2026 Results",
+      "time": "2026-05-28T00:32:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094661-2A1674235",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Champion Iron reports FY2026 full-year results, a key catalyst for re-rating given the company's position as a premium iron ore producer with direct exposure to high-grade iron ore pricing and decarbonization demand trends.",
+        "Market-sensitive results release signals material financial disclosures — investors will focus on revenue trajectory, EBITDA margins, cost performance at Bloom Lake, and any updates on the Phase II expansion or DRPF project economics.",
+        "Outlook and capital allocation priorities will be critical: dividend sustainability, balance sheet strength, and progress on value-accretive growth projects (including potential Kami project advancement) will drive near-term institutional positioning."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CIA",
+      "company": "CHAMPION IRON LIMITED",
+      "headline": "FY2026 Appendix 4E",
+      "time": "2026-05-28T00:32:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094658-2A1674233",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Champion Iron's FY2026 Appendix 4E release provides full-year financial results, a critical disclosure for institutional investors assessing the iron ore producer's earnings trajectory and operational performance against consensus expectations.",
+        "As a market-sensitive announcement, the results likely contain material updates on revenue, net profit, cash flow, and potentially dividend declarations tied to Champion's high-grade iron ore operations at Bloom Lake in Canada — key metrics driving valuation for ASX-listed dual-listed miners.",
+        "Investors should scrutinize margins relative to iron ore price movements, progress on the Phase II expansion and DRPF project capex, and any forward guidance commentary that signals FY2027 production and cost outlook amid volatile steel demand from China."
+      ],
+      "tags": [
+        "Results",
+        "Mining",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGA",
+      "company": "METALSGROVE MINING LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-28T00:30:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094655-6A1327330",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in MetalsGrove Mining has altered their position, triggering a mandatory disclosure under ASX rules — this signals active portfolio repositioning by a significant shareholder in a micro-cap explorer.",
+        "The change in substantial holding, while not flagged as market sensitive, warrants monitoring for whether the holder increased or decreased their stake, as directional moves in thinly traded micro-caps can materially impact liquidity and share price dynamics.",
+        "Investors should watch for follow-up filings or trading patterns that may indicate whether this reflects profit-taking, dilution from a capital raise, or strategic accumulation ahead of upcoming exploration catalysts."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PR1",
+      "company": "PURE RESOURCES LIMITED",
+      "headline": "Completion of Placement and Issue of Securities",
+      "time": "2026-05-28T00:21:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03094651-6A1327328",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Pure Resources has completed a capital raising placement, issuing new securities which will dilute existing shareholders but provide fresh funding for operations and exploration activities.",
+        "The completion of the placement signals successful execution of the capital raise, indicating sufficient institutional and sophisticated investor appetite to support the company at the offered price.",
+        "Proceeds are expected to extend the company's cash runway and fund near-term work programs, though investors should monitor the placement price relative to market and the quantum of dilution for valuation impact."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BTE",
       "company": "BOTALA ENERGY LTD",
