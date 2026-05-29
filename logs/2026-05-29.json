@@ -1,9 +1,27 @@
 {
   "date": "2026-05-29",
-  "total": 61,
-  "market_sensitive_count": 55,
-  "generated_at": "2026-05-29T00:47:37.649255+00:00",
+  "total": 62,
+  "market_sensitive_count": 56,
+  "generated_at": "2026-05-29T01:42:02.414119+00:00",
   "announcements": [
+    {
+      "ticker": "G50",
+      "company": "G50 CORP LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-29T00:54:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095144-2A1674528",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "G50 Corp Limited has entered a trading halt, suspending shares from trading pending a material announcement — the nature of the announcement is not yet disclosed, requiring investors to await further details.",
+        "As a micro-cap entity, any material announcement (likely capital raise or corporate transaction) could have outsized impact on share price and liquidity, with dilution risk a key concern for existing holders.",
+        "Investors should monitor for the pending announcement closely; trading halts for small-cap ASX companies frequently precede capital raises or transformative corporate actions that reset valuation expectations."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "NSM",
       "company": "NORTH STAWELL MINERALS LTD",
