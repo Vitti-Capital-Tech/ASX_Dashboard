@@ -1,9 +1,122 @@
 {
   "date": "2026-05-29",
-  "total": 62,
-  "market_sensitive_count": 56,
-  "generated_at": "2026-05-29T01:42:02.414119+00:00",
+  "total": 68,
+  "market_sensitive_count": 61,
+  "generated_at": "2026-05-29T03:10:29.372104+00:00",
   "announcements": [
+    {
+      "ticker": "PPY",
+      "company": "PAPYRUS AUSTRALIA LIMITED",
+      "headline": "Monthly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-05-29T02:44:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095192-2A1674550",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Papyrus Australia lodged its mandatory Appendix 4C quarterly cash flow report, providing transparency on cash burn and operational spending for the period — critical for assessing viability of this micro-cap entity.",
+        "As a pre-revenue or minimal-revenue company, the cash flow report will be scrutinized for net operating cash outflows and remaining cash reserves to determine cash runway and potential need for near-term capital raising.",
+        "The market-sensitive tag suggests material information within the filing — investors should examine closing cash balances and any flagged going concern risks, as further dilutive funding rounds may be required to sustain operations."
+      ],
+      "tags": [
+        "Quarterly",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ACR",
+      "company": "ACRUX LIMITED",
+      "headline": "Update - Licensing Lenzetto for Australia for AUD5.4m",
+      "time": "2026-05-29T02:19:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095179-3A694293",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Acrux has secured the Australian licensing rights for Lenzetto (estradiol transdermal spray for menopausal symptoms) for AUD 5.4 million, signaling a strategic shift toward direct commercialization in its home market and diversifying revenue beyond royalty-dependent models.",
+        "The AUD 5.4m upfront acquisition cost is modest relative to the potential recurring revenue stream from an established, approved product, and should be fundable from Acrux's existing cash reserves without requiring dilutive capital raising.",
+        "Key execution risks center on Acrux's ability to secure TGA registration, establish local distribution partnerships, and achieve meaningful market penetration in Australia's competitive HRT segment — investors should watch for regulatory and launch timeline updates in coming quarters."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EPY",
+      "company": "EARLYPAY LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-29T02:16:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095174-2A1674541",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Earlypay Ltd (EPY) has filed a change in their holding, signaling active portfolio repositioning by a significant shareholder that institutional investors should monitor for directional intent.",
+        "The nature of the change—whether an increase or decrease—will determine if this reflects growing conviction in EPY's invoice finance and trade finance business or a strategic exit, with implications for free float and liquidity.",
+        "As a procedural filing marked not market sensitive, the immediate price impact is limited, but investors should cross-reference with recent EPY trading volumes and any concurrent corporate activity such as buybacks or M&A discussions."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENN",
+      "company": "ELANOR INVESTORS GROUP",
+      "headline": "Market Update - Acquisition of Firmus Capital",
+      "time": "2026-05-29T02:15:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095171-2A1674537",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Elanor Investors Group is acquiring Firmus Capital, a credit and private debt fund manager, expanding its alternative asset management capabilities and diversifying revenue streams beyond its core real estate platform.",
+        "The acquisition is strategically significant as it adds private credit AUM to Elanor's platform, tapping into the rapidly growing Australian private debt market and providing a recurring fee base that is complementary to existing property funds management income.",
+        "Integration of Firmus Capital's team and investment capabilities should accelerate Elanor's FUM growth trajectory and enhance earnings quality through product diversification, though execution risk around retention of key personnel and fund performance continuity warrants monitoring."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KLI",
+      "company": "KILLI RESOURCES LIMITED",
+      "headline": "King Louie Growth Continues at Mt Rawdon Project",
+      "time": "2026-05-29T02:12:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095168-6A1327526",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "King Louie prospect at Mt Rawdon Project continues to demonstrate growth, suggesting expanding mineralisation footprint that could materially enhance the project's resource potential for this early-stage explorer.",
+        "Continued positive drilling or geochemical results at King Louie reinforce the prospectivity of the broader Mt Rawdon tenure, potentially de-risking the asset and supporting re-rating for KILLI Resources (KLI) at its current micro-cap valuation.",
+        "Further follow-up drilling programs are likely to be planned to test extensions of the King Louie mineralisation, with upcoming assay results and resource definition work representing key near-term catalysts for the stock."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DTM",
+      "company": "DART MINING NL",
+      "headline": "DTM Acquires Gold, Copper, Uranium & Tungsten Package",
+      "time": "2026-05-29T01:43:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095156-3A694290",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dart Mining has acquired a multi-commodity package spanning gold, copper, uranium, and tungsten, significantly expanding its exploration portfolio and commodity diversification in a single transaction.",
+        "The acquisition of uranium and tungsten exposure is strategically timed given elevated global prices and supply concerns for both critical minerals, potentially enhancing DTM's re-rating prospects among resource-focused investors.",
+        "Key next steps will be assessing the quality of the acquired tenements, planned exploration expenditure commitments, and whether DTM has sufficient cash runway to advance multiple commodity targets without near-term dilutive capital raises."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "G50",
       "company": "G50 CORP LIMITED",
