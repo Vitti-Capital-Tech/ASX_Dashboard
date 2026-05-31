@@ -1,9 +1,348 @@
 {
   "date": "2026-06-01",
-  "total": 34,
-  "market_sensitive_count": 30,
-  "generated_at": "2026-05-31T22:49:41.010159+00:00",
+  "total": 52,
+  "market_sensitive_count": 46,
+  "generated_at": "2026-05-31T23:16:56.249843+00:00",
   "announcements": [
+    {
+      "ticker": "FUN",
+      "company": "FORTUNA METALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-31T23:14:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095682-6A1327739",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Fortuna Metals Ltd has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration results that requires price-sensitive disclosure.",
+        "As a junior mining/exploration company, the halt most likely relates to a capital raising or material project update — investors should monitor for potential dilution or value-accretive news upon resumption.",
+        "Trading will remain suspended until the company makes its announcement or the halt period expires; institutional investors should prepare for potential liquidity shifts and reassess positioning once details are released."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AHC",
+      "company": "AUSTCO HEALTHCARE LIMITED",
+      "headline": "FY26 Trading Update",
+      "time": "2026-05-31T23:10:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095676-3A694392",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Austco Healthcare has issued an FY26 trading update, signaling management's proactive communication on current-year performance trajectory — a move typically prompted by material deviation (positive or negative) from market expectations.",
+        "As a healthcare technology provider specializing in nurse call and clinical workflow solutions, any revenue or margin guidance update carries outsized relevance given the company's relatively small market cap and sensitivity to contract timing and hospital capex cycles.",
+        "Investors should scrutinize the update for order book momentum, recurring revenue mix, and any commentary on pipeline conversion rates across key geographies (ANZ, North America, Asia) to assess whether the company is tracking toward sustainable growth or facing near-term headwinds."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "COD",
+      "company": "CODA MINERALS LTD",
+      "headline": "$6.7m Placement to Expedite PFS Workstreams",
+      "time": "2026-05-31T23:10:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095673-6A1327729",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "CODA Minerals raising $6.7m via placement to accelerate Pre-Feasibility Study (PFS) workstreams at its copper-gold projects, signaling management confidence in advancing toward development milestones.",
+        "The placement introduces dilution for existing shareholders, though the relatively modest raise size suggests the company is targeting specific near-term catalysts rather than a broad capital restructure, preserving upside leverage.",
+        "Proceeds earmarked for PFS acceleration should compress the timeline to key de-risking milestones, with successful PFS completion potentially unlocking significant re-rating as the project transitions from exploration to development stage."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "L1M",
+      "company": "LIGHTNING MINERALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-31T23:09:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095670-6A1327735",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Lightning Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration results for this junior explorer.",
+        "As a small-cap mining company, any capital raise during the halt would likely be dilutive to existing shareholders, while positive drill results could provide a meaningful re-rating catalyst.",
+        "Investors should await the detailed announcement expected within two business days to assess the nature and materiality of the pending news before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STG",
+      "company": "STRAKER LIMITED",
+      "headline": "Market Update regarding US bank account transaction anomalie",
+      "time": "2026-05-31T23:07:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095667-2A1674761",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Straker Limited has disclosed anomalies in US bank account transactions, signaling potential fraud, unauthorized access, or internal control failures — a material governance red flag for institutional holders.",
+        "The nature and scale of the anomalies remain unclear, but any cash leakage from a small-cap technology company with limited free cash flow could materially impact liquidity and near-term cash runway, warranting close monitoring of subsequent disclosures.",
+        "Investors should watch for follow-up announcements detailing the quantum of funds affected, remediation steps, any insurance recovery prospects, and whether external forensic or regulatory investigations have been initiated."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TG6",
+      "company": "TG METALS LIMITED",
+      "headline": "Mining Lease Lodged for Burmeister Lithium DSO Development",
+      "time": "2026-05-31T23:06:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095666-6A1327734",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TG Metals has lodged a Mining Lease application for its Burmeister Lithium project, signaling a concrete step toward Direct Shipping Ore (DSO) development — a low-capex pathway that could accelerate near-term revenue generation.",
+        "The DSO strategy targets high-grade lithium mineralization that can be shipped with minimal processing, potentially reducing time-to-market and capital requirements compared to conventional hard-rock lithium development pathways.",
+        "The mining lease lodgement triggers a regulatory approval timeline that investors should monitor closely; successful granting would be a key de-risking catalyst, though permitting timelines and lithium spot price volatility remain material risks to the development case."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EWC",
+      "company": "ENERGY WORLD CORPORATION LTD",
+      "headline": "Trading Halt",
+      "time": "2026-05-31T23:04:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095665-2A1674784",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Energy World Corporation has entered a trading halt, suspending shares from trading pending a material announcement — the nature of which is undisclosed, creating uncertainty for holders.",
+        "Given EWC's historically tight liquidity, small market cap, and ongoing LNG project challenges, the halt could relate to a capital raise, asset transaction, or material operational update that may significantly impact valuation.",
+        "Investors should await the pending announcement before repositioning; trading halts for micro-cap energy companies frequently precede dilutive capital raises or transformative corporate actions."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BGD",
+      "company": "BARTON GOLD HOLDINGS LIMITED",
+      "headline": "$25 Million Institutional Placement",
+      "time": "2026-05-31T23:02:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095657-6A1327718",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Barton Gold has raised $25 million via institutional placement, providing significant funding to advance its South Australian gold exploration and development portfolio, though introducing meaningful dilution for existing shareholders.",
+        "The $25M raise signals strong institutional appetite for the company's assets, likely priced at a discount to market, which typically pressures near-term share price but validates the project's strategic value proposition.",
+        "Proceeds are expected to fund drilling programs, resource definition, and development activities, extending the company's cash runway and potentially de-risking the path toward production milestones."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SYR",
+      "company": "SYRAH RESOURCES LIMITED",
+      "headline": "Tesla offtake alleged default resolved",
+      "time": "2026-05-31T23:02:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095656-3A694388",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Resolution of Tesla offtake alleged default removes a critical overhang on Syrah's revenue visibility and de-risks the company's primary commercial relationship for its Balama graphite and Vidalia AAM operations.",
+        "Clearing the default dispute secures continuity of Syrah's most significant offtake agreement, which underpins project financing assumptions and cash flow projections — vital given the company's tight cash runway and ongoing capital needs.",
+        "With the dispute resolved, investor focus shifts to operational execution at Balama and Vidalia ramp-up, as well as any updated terms or volumes under the Tesla agreement that may emerge in subsequent disclosures."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TAS",
+      "company": "TASMAN RESOURCES LTD",
+      "headline": "Change in substantial holding - 7 Enterprises Pty Ltd",
+      "time": "2026-05-31T23:00:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095653-6A1327731",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "7 Enterprises Pty Ltd has filed a change in substantial holding notice for Tasman Resources, signaling a shift in ownership concentration among key shareholders in this junior explorer.",
+        "Changes in substantial holdings for micro-cap explorers like Tasman Resources can indicate strategic positioning or portfolio rebalancing, though without specific directional detail the materiality remains limited.",
+        "Investors should monitor whether this holding change precedes further corporate activity such as capital raises, asset transactions, or board-level changes that could affect Tasman's strategic direction."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALR",
+      "company": "ALTAIR MINERALS LIMITED",
+      "headline": "Simon Bolster Appointed as Technical Advisor",
+      "time": "2026-05-31T22:58:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095645-3A694382",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Altair Minerals has appointed Simon Bolster as Technical Advisor, signaling a strategic move to bolster geological and technical expertise as the company advances its exploration programs.",
+        "For a junior explorer like Altair, the appointment of an experienced technical advisor can be a precursor to accelerated exploration activity or project evaluation, though no immediate financial impact is expected from this personnel addition alone.",
+        "Investors should watch for subsequent announcements on exploration targets, drilling programs, or project acquisitions that may follow this advisory appointment, which could serve as a catalyst for re-rating the stock."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FG1",
+      "company": "FLYNN GOLD LIMITED",
+      "headline": "Expanded Drilling Program at Firetower Gold-Tungsten Project",
+      "time": "2026-05-31T22:57:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095644-3A694383",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Flynn Gold is expanding its drilling program at the Firetower Gold-Tungsten Project, signaling management confidence in the prospectivity of the asset and willingness to accelerate exploration spend — a positive catalyst for a junior explorer seeking to de-risk resource potential.",
+        "The dual gold-tungsten commodity exposure adds strategic value given tungsten's critical mineral status and supply constraints, potentially attracting government co-funding or strategic partner interest beyond pure gold economics.",
+        "As a pre-revenue junior explorer, investors should monitor the company's cash runway relative to the expanded program scope; any material drill results from the expanded campaign will be the key near-term share price catalyst, while funding risk remains if further capital is required."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DTI",
+      "company": "DTI GROUP LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-31T22:55:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095641-6A1327730",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in DTI Group Ltd has filed a change in their holding, signaling active portfolio repositioning by a significant shareholder in this small-cap technology company.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is relatively modest and unlikely to represent a major shift in ownership dynamics or trigger a takeover scenario.",
+        "Investors should monitor whether this is part of a broader accumulation or disposal trend, as sustained directional moves by substantial holders in illiquid small-caps like DTI can materially impact price discovery."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEN",
+      "company": "SENETAS CORPORATION LIMITED",
+      "headline": "Proposed Equal Capital Reduction of $3.5 million",
+      "time": "2026-05-31T22:54:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095640-3A694379",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Senetas proposes an equal capital reduction of $3.5 million, returning approximately $0.0065 per share to shareholders, signaling the board views the company as holding surplus capital beyond operational needs.",
+        "The return of capital rather than a dividend suggests tax-efficient distribution, likely treated as a capital return for shareholders rather than assessable income, which is typically favorable for institutional holders.",
+        "The relatively modest $3.5 million distribution indicates management is balancing shareholder returns with maintaining adequate cash reserves for ongoing cybersecurity operations; shareholders should monitor the impact on cash runway and whether this signals a shift toward regular capital management initiatives."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LLC",
+      "company": "LENDLEASE GROUP",
+      "headline": "Lendlease announces sale of MSG North",
+      "time": "2026-05-31T22:53:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095638-2A1674773",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lendlease is divesting MSG North as part of its ongoing strategic portfolio simplification, accelerating capital recycling and sharpening focus on core development and investment platforms.",
+        "The sale proceeds will bolster Lendlease's balance sheet and improve liquidity, supporting the group's stated objective of reducing non-core asset exposure and strengthening its cash position amid a challenging property market environment.",
+        "This transaction signals continued execution on Lendlease's urban regeneration pivot and asset-light strategy; investors should monitor the sale price relative to book value for potential impairment or gain-on-sale implications at the next results update."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PGO",
+      "company": "PACGOLD LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-31T22:50:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095632-3A694376",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "PacGold Limited has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update that requires price-sensitive disclosure.",
+        "As a small-cap ASX-listed gold explorer, any trading halt raises immediate questions around funding adequacy — a capital raise would be dilutive to existing shareholders, while an acquisition or JV could be value-accretive depending on terms.",
+        "Investors should await the formal announcement expected within two business days; the nature of the pending disclosure will be critical in determining whether this represents a liquidity event, strategic pivot, or routine compliance measure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RFF",
+      "company": "RURAL FUNDS GROUP",
+      "headline": "Dividend/Distribution - RFF",
+      "time": "2026-05-31T22:49:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095631-2A1674772",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Rural Funds Group (RFF) has declared a distribution, signaling continued income generation from its diversified agricultural asset portfolio and commitment to regular unitholder returns.",
+        "The dividend announcement reinforces RFF's positioning as a yield-oriented REIT, which is critical for institutional investors benchmarking against income-focused mandates in the agricultural property sector.",
+        "Investors should monitor the distribution amount, ex-date, and payout ratio relative to AFFO to assess sustainability of distributions amid ongoing operational and macroeconomic pressures on Australian agriculture."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SUH",
+      "company": "SOUTHERN HEMISPHERE MINING LIMITED",
+      "headline": "Target L Assays Confirm Broad Mineralised Porphyry System",
+      "time": "2026-05-31T22:48:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095630-6A1327727",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Assay results from Target L confirm a broad mineralised porphyry system, validating the geological model and de-risking the exploration thesis at Southern Hemisphere Mining's project — a key catalyst for junior mining re-ratings.",
+        "Broad mineralisation intervals in a porphyry setting suggest potential for a large-scale, bulk-tonnage deposit, which if confirmed through further drilling could materially upgrade the resource base and attract strategic interest from larger miners.",
+        "Next steps will likely involve follow-up drilling to define grade continuity and resource estimation; investors should watch for additional assay releases and any move toward a maiden or updated mineral resource estimate as the key value inflection point."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "VNT",
       "company": "VENTIA SERVICES GROUP LIMITED",
