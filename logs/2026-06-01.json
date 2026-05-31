@@ -1,9 +1,106 @@
 {
   "date": "2026-06-01",
-  "total": 52,
-  "market_sensitive_count": 46,
-  "generated_at": "2026-05-31T23:16:56.249843+00:00",
+  "total": 57,
+  "market_sensitive_count": 51,
+  "generated_at": "2026-05-31T23:24:39.599212+00:00",
   "announcements": [
+    {
+      "ticker": "FTI",
+      "company": "FORTIFAI LTD",
+      "headline": "CEO Appointment",
+      "time": "2026-05-31T23:22:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095702-2A1674797",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FortifAI Ltd has appointed a new CEO, signaling a strategic leadership transition that could reshape the company's direction and execution priorities in the near term.",
+        "As a market-sensitive announcement, the appointment suggests the board views this hire as material to investor perception — likely bringing domain expertise or credibility that the prior leadership lacked or that aligns with a pivotal growth phase.",
+        "Investors should monitor for follow-up announcements detailing the new CEO's strategic vision, any changes to capital allocation, and whether the appointment is accompanied by revised guidance or operational restructuring."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RZI",
+      "company": "RAIZ INVEST LIMITED",
+      "headline": "Appointment of new Chief Executive Officer",
+      "time": "2026-05-31T23:22:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095700-2A1674794",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Raiz Invest has appointed a new CEO, signaling a strategic leadership transition that could reshape the fintech's growth trajectory and operational priorities in the competitive micro-investing space.",
+        "Leadership change at this stage is significant given Raiz's ongoing push toward profitability — the incoming CEO's background and mandate will be critical in determining whether the company accelerates customer acquisition or pivots toward margin improvement.",
+        "Investors should monitor for any accompanying strategic review or updated guidance, as new CEO appointments at sub-scale fintechs often precede shifts in capital allocation, product roadmap, or potential M&A activity."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEM",
+      "company": "MEMPHASYS LIMITED.",
+      "headline": "South-East Asian Commercialization Agreement Secured",
+      "time": "2026-05-31T23:21:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095697-3A694397",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Memphasys has secured a commercialization agreement for its Felix device in South-East Asia, opening a significant new geographic market for its sperm separation technology and signaling commercial traction beyond its existing footprint.",
+        "The agreement with a regional partner de-risks the go-to-market strategy by leveraging local distribution expertise, potentially accelerating revenue generation without requiring heavy direct investment in sales infrastructure — critical for a micro-cap with limited cash reserves.",
+        "Execution milestones and revenue contribution from this agreement will be key watchpoints; investors should monitor for initial order volumes, regulatory clearances in target SE Asian markets, and any upfront or milestone payments that could extend cash runway."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "49M",
+      "company": "49 METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-31T23:20:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095693-6A1327745",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "49 Metals Limited has entered a trading halt, suspending shares from trading pending a material announcement — the nature of which is undisclosed but flagged as market sensitive, suggesting a significant corporate action is imminent.",
+        "Given 49 Metals' junior mining profile and typical trading halt catalysts in the sector, the most likely triggers include a capital raise (equity placement), asset acquisition/divestment, or a material exploration update that requires price-sensitive disclosure.",
+        "Investors should monitor for the pending announcement closely; if a capital raise is confirmed, expect potential dilution pressure on resumption, whereas a material discovery or M&A event could drive re-rating depending on terms and strategic merit."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AQX",
+      "company": "ALICE QUEEN LIMITED",
+      "headline": "Extension of Rights Issue Closing Date",
+      "time": "2026-05-31T23:17:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095686-6A1327742",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alice Queen has extended the closing date of its rights issue, signaling potential undersubscription and weak investor demand for the capital raise, which raises concerns about the company's ability to secure planned funding.",
+        "Extensions of rights issue closing dates are typically a red flag for small-cap miners, suggesting existing shareholders are not fully taking up their entitlements, potentially leading to shortfall shares and greater dilution risk.",
+        "Investors should monitor the final subscription level and any underwriter/sub-underwriter arrangements; failure to raise targeted funds could constrain Alice Queen's cash runway and delay exploration or development activities."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "FUN",
       "company": "FORTUNA METALS LTD",
