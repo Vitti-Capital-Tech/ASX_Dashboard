@@ -1,9 +1,309 @@
 {
   "date": "2026-06-02",
-  "total": 50,
-  "market_sensitive_count": 41,
-  "generated_at": "2026-06-01T22:50:18.802629+00:00",
+  "total": 66,
+  "market_sensitive_count": 57,
+  "generated_at": "2026-06-01T23:20:58.670928+00:00",
   "announcements": [
+    {
+      "ticker": "DSM",
+      "company": "DESERT MINERALS LTD",
+      "headline": "DSM Raises $1 Million at Premium to Market",
+      "time": "2026-06-01T23:17:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096162-6A1327897",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Desert Minerals raised $1 million via placement at a premium to the prevailing market price, signaling strong investor demand and confidence in the company's near-term prospects — a relatively uncommon outcome for micro-cap explorers.",
+        "Raising at a premium minimizes dilution for existing shareholders compared to typical discounted placements, preserving per-share value while bolstering the balance sheet with fresh capital for exploration or operational activities.",
+        "The $1M injection extends DSM's cash runway, likely funding upcoming exploration programs or drilling campaigns; investors should watch for near-term catalysts including drill results or project updates that justified the premium pricing."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SPX",
+      "company": "SPENDA LIMITED",
+      "headline": "Voluntary suspension",
+      "time": "2026-06-01T23:17:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096160-3A694522",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Spenda Limited has entered a voluntary suspension, typically indicating a material corporate action such as a capital raise, acquisition, or significant operational update is pending disclosure.",
+        "Voluntary suspensions for micro-cap technology companies like Spenda (fintech/payments sector) frequently precede capital raises, which could signal balance sheet pressure or funding needs given the company's historically tight cash runway.",
+        "Investors should monitor for the lifting of suspension and accompanying announcement — the nature of the pending news (dilutive raise vs. accretive deal) will be the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EWC",
+      "company": "ENERGY WORLD CORPORATION LTD",
+      "headline": "EWC to Sell its Siemens Gas and Steam Turbines for US$350m",
+      "time": "2026-06-01T23:16:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096159-2A1675006",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EWC plans to sell its Siemens gas and steam turbines for US$350 million, representing a significant asset monetisation that could dramatically improve the company's balance sheet and liquidity position given its historically constrained cash position.",
+        "The US$350m headline figure is substantial relative to EWC's market capitalisation, suggesting the transaction — if completed — could be highly value-accretive, though execution risk and buyer certainty remain key considerations for investors.",
+        "Proceeds from the turbine sale could fund debt reduction, advance the company's LNG project pipeline, or be returned to shareholders — investors should watch for binding sale agreements, completion timelines, and management's stated use of proceeds."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JAN",
+      "company": "JANISON EDUCATION GROUP LIMITED",
+      "headline": "Investor Update - FY26 Major Program Deliveries Completed",
+      "time": "2026-06-01T23:14:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096157-2A1675032",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Janison has completed major FY26 program deliveries, a significant de-risking event that confirms execution capability on key contracts and reduces near-term operational uncertainty for investors.",
+        "Completion of major program milestones likely triggers revenue recognition and cash inflows tied to delivery-based payment schedules, potentially improving cash position and supporting path toward profitability in the education technology segment.",
+        "With major deliveries now behind them, Janison can redirect resources toward scaling recurring revenue streams and pursuing new contract wins, positioning the company for improved operating leverage heading into the remainder of FY26."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CEL",
+      "company": "CHALLENGER GOLD LIMITED",
+      "headline": "First Gold Pour at Hualilan",
+      "time": "2026-06-01T23:12:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096154-6A1327902",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Challenger Gold has achieved its first gold pour at the Hualilan project in Argentina, marking a critical de-risking milestone as the company transitions from explorer/developer to producer status — a re-rating catalyst for junior gold miners.",
+        "First gold production validates the project's metallurgical flowsheet and operational readiness, potentially unlocking self-funding cash flows that reduce future dilution risk and extend cash runway at a time of elevated gold prices (>US$2,300/oz).",
+        "Investors should watch for ramp-up guidance, steady-state production targets, and all-in sustaining cost (AISC) metrics in coming quarters to assess whether Hualilan can deliver commercially meaningful margins and support further resource expansion drilling."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FHE",
+      "company": "FRONTIER ENERGY LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-01T23:10:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096152-6A1327903",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Frontier Energy has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant project update for the junior energy explorer/developer.",
+        "Trading halts for small-cap energy companies like Frontier Energy frequently precede equity raisings, which could be dilutive to existing shareholders but may extend cash runway to advance key projects including its Bristol Springs Solar and green hydrogen initiatives.",
+        "Investors should await the detailed announcement expected within two business days to assess the nature and materiality of the news before repositioning; the halt removes price discovery in the interim."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VYS",
+      "company": "VYSARN LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-01T23:06:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096146-6A1327900",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Vysarn Limited has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant contract win that requires price-sensitive disclosure.",
+        "As a drilling services company operating in the Australian market, the halt may relate to a transformative corporate action — investors should monitor for potential dilution risk if a capital raise is forthcoming or upside if tied to a major contract or M&A activity.",
+        "Trading will remain suspended until the company makes its announcement or the halt period expires; institutional investors should prepare for potential liquidity and volatility impacts upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TXR",
+      "company": "TALONX RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-01T23:06:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096145-6A1327899",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "TalonX Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration result that requires price-sensitive disclosure.",
+        "As a small-cap resources company, the halt likely relates to either a capital raising to fund exploration activities or a material project update — both of which carry dilution risk or re-rating potential depending on the nature of the announcement.",
+        "Investors should await the detailed announcement expected within two business days; the trading halt prevents uninformed trading and signals management is preparing disclosure that could materially impact the company's valuation."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IBX",
+      "company": "IMAGION BIOSYSTEMS LIMITED",
+      "headline": "Imagion Biosystems Receives IND Clearance from US FDA",
+      "time": "2026-06-01T23:05:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096140-3A694516",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FDA IND (Investigational New Drug) clearance is a critical regulatory milestone that allows Imagion Biosystems to proceed with human clinical trials of its MagSense technology in the US, significantly de-risking the development pathway and validating the company's approach to cancer detection.",
+        "IND clearance materially enhances the company's partnering and licensing optionality with major pharmaceutical and diagnostic companies, potentially unlocking near-term non-dilutive funding opportunities — a key consideration given IBX's micro-cap status and likely constrained cash runway.",
+        "Next catalysts include initiation of a US-based clinical trial, patient enrollment timelines, and interim data readouts; investors should monitor upcoming quarterly cash flow reports to assess whether existing funds are sufficient to reach meaningful clinical data or if a capital raise will be required."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TR2",
+      "company": "TALI RESOURCES LTD",
+      "headline": "Commencement of Drilling",
+      "time": "2026-06-01T23:03:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096137-6A1327898",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tali Resources has commenced drilling operations, marking a key de-risking milestone that signals active exploration progress and potential near-term catalytic assay results for the market.",
+        "As a junior explorer, the commencement of drilling is a critical inflection point — capital is being deployed into the ground, and investors will now focus on drill results to assess resource potential and justify current market valuation.",
+        "Next steps hinge on timely delivery of drill results; positive intercepts could drive significant re-rating for this micro-cap, while the cash burn associated with active drilling programs narrows the runway and may necessitate future capital raises."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKK",
+      "company": "STAKK LIMITED",
+      "headline": "Stakk Lands New Client Win Taking Revenue Run Rate to $26m",
+      "time": "2026-06-01T23:02:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096135-6A1327896",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Stakk secures new client win lifting annualised revenue run rate to $26m, signaling strong commercial traction and validating the company's go-to-market strategy in its target verticals.",
+        "The $26m run rate represents a material step-up for a micro/small-cap ASX-listed technology company, with the incremental client win demonstrating organic growth momentum without apparent dilutive capital raising.",
+        "Investors should monitor whether the elevated run rate translates into sustained contracted recurring revenue and improved cash flow generation, as run rate figures can overstate near-term earnings if driven by one-off or lumpy project-based engagements."
+      ],
+      "tags": [
+        "Technology",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MP1",
+      "company": "MEGAPORT LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-01T23:01:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096132-2A1675022",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Megaport has entered a trading halt, typically preceding a material announcement such as a capital raise, M&A activity, or significant corporate update — the lack of specificity heightens uncertainty for investors.",
+        "As a high-growth technology company in the network-as-a-service space, any capital raise would likely be dilutive but could fund accelerated expansion; conversely, M&A speculation could be value-accretive given Megaport's strategic position in cloud interconnection.",
+        "Investors should await the detailed announcement expected before trading resumes; the halt signals management is managing price-sensitive information flow, with the nature of the news critical to determining whether this is a buying or selling catalyst."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TNC",
+      "company": "TRUE NORTH COPPER LIMITED",
+      "headline": "Great Australia RC Results Support Cloncurry Development",
+      "time": "2026-06-01T22:58:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096130-6A1327894",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "RC drilling results at Great Australia deposit reinforce the viability of True North Copper's Cloncurry Hub development strategy, potentially de-risking the pathway to production in a copper-favourable pricing environment.",
+        "Positive drill intercepts at Great Australia add confidence to the resource base underpinning the Cloncurry project, with results likely to feed into updated resource estimates and feasibility-level studies critical for financing decisions.",
+        "The results support near-term catalysts including resource upgrades and advancement toward development milestones, though investors should monitor the company's cash position and funding strategy given its pre-revenue, exploration-stage status."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RFG",
+      "company": "RETAIL FOOD GROUP LIMITED",
+      "headline": "Market Update",
+      "time": "2026-06-01T22:58:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096129-2A1675020",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Retail Food Group has issued a market-sensitive update, likely addressing operational performance, strategic initiatives, or revised guidance across its franchise portfolio (Gloria Jean's, Donut King, Brumby's, etc.)",
+        "As a market-sensitive announcement, the update likely contains material information on earnings trajectory, network performance, or balance sheet restructuring that could shift consensus estimates for the franchise operator",
+        "Investors should assess whether the update signals improving same-store sales trends and debt reduction progress, which remain key catalysts for re-rating given RFG's historically leveraged balance sheet and franchise network contraction"
+      ],
+      "tags": [
+        "Retail",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENP",
+      "company": "ENTROPY NEURODYNAMICS LIMITED",
+      "headline": "Entropy completes Cohort 1 dosing in BED trial",
+      "time": "2026-06-01T22:56:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096128-6A1327893",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Entropy Neurodynamics has completed Cohort 1 dosing in its Binge Eating Disorder (BED) clinical trial, representing a key de-risking milestone for its lead therapeutic program and validating its ability to execute on clinical timelines.",
+        "Successful completion of the first dosing cohort without flagged safety concerns (implied by progression language) supports the therapeutic candidate's tolerability profile, a critical gate for advancing to subsequent cohorts and attracting potential partner interest.",
+        "Next catalysts include Cohort 1 data readout, initiation of Cohort 2 dosing, and interim safety/efficacy signals — each representing potential inflection points for a micro-cap biotech where clinical milestones are the primary value drivers given likely limited near-term revenue."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LGM",
+      "company": "LEGACY MINERALS HOLDINGS LIMITED",
+      "headline": "Aurelia Metals to Farm in to Legacy Minerals Cobar Project",
+      "time": "2026-06-01T22:49:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096119_PS-2A1675012",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Aurelia Metals, a mid-tier ASX-listed gold and base metals producer with existing Cobar Basin operations, is farming into Legacy Minerals' Cobar Project, providing strong validation of the exploration target and de-risking Legacy's expenditure on the asset.",
+        "The farm-in structure allows Legacy to retain exposure to upside discovery while transferring near-term exploration funding obligations to a well-capitalised operator with deep regional geological expertise in the Cobar Basin.",
+        "This deal materially extends Legacy's effective cash runway by reducing direct exploration spend on the Cobar Project, enabling the junior explorer to allocate capital toward its other portfolio assets while maintaining optionality on a high-potential copper-gold district."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "WCN",
       "company": "WHITE CLIFF MINERALS LIMITED",
