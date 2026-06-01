@@ -1,9 +1,84 @@
 {
   "date": "2026-06-01",
-  "total": 74,
-  "market_sensitive_count": 67,
-  "generated_at": "2026-05-31T23:50:51.120922+00:00",
+  "total": 78,
+  "market_sensitive_count": 70,
+  "generated_at": "2026-06-01T00:15:23.666171+00:00",
   "announcements": [
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-01T00:03:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095776-2A1674826",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Eureka Group Holdings has filed a change in their holding, signaling active portfolio repositioning by a significant shareholder that institutional investors should monitor for directional intent.",
+        "The notice is flagged as not market sensitive, suggesting the change in holding is likely incremental rather than a large block trade or a move through a critical ownership threshold that would materially alter the register dynamics.",
+        "Investors should track whether this forms part of a broader accumulation or disposal pattern, as successive changes in substantial holdings can foreshadow takeover interest, activist positioning, or a strategic exit from the affordable seniors housing operator."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RDY",
+      "company": "READYTECH HOLDINGS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-05-31T23:57:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095772-2A1674823",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ReadyTech Holdings has requested a pause in trading, which typically precedes a material announcement such as a potential acquisition, capital raise, or corporate transaction given the company's M&A-active history in the education and workforce solutions SaaS space.",
+        "As a market-sensitive trading halt, this signals the company is managing price-sensitive information that could materially impact valuation — investors should note ReadyTech has previously been the subject of takeover interest from private equity, raising the possibility of a renewed bid or strategic transaction.",
+        "Trading will remain paused until the company makes its pending announcement; institutional investors should prepare for potential portfolio rebalancing depending on whether the news involves inbound M&A activity, a transformative acquisition, or capital management initiative."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PLY",
+      "company": "PLAYSIDE STUDIOS LIMITED",
+      "headline": "Meta Contract Update",
+      "time": "2026-05-31T23:53:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095763-3A694406",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PlaySide Studios has received a contract update from Meta, likely relating to ongoing or expanded work-for-hire development for Meta's VR/AR gaming ecosystem, reinforcing the company's position as a key development partner for major global tech platforms.",
+        "A positive Meta contract update could materially impact revenue visibility and cash flow certainty, given PlaySide's work-for-hire segment has historically been a significant contributor to top-line revenue and provides more predictable earnings versus original IP titles.",
+        "Investors should monitor whether the update signals contract expansion, extension, or modification — any increase in scope or value would be a meaningful catalyst for near-term earnings upgrades and validates PlaySide's scalable studio model targeting tier-1 clients."
+      ],
+      "tags": [
+        "Technology",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Third Supplementary Bidder's Statement",
+      "time": "2026-05-31T23:51:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095758-2A1674815",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Atlas Arteria has released a Third Supplementary Bidder's Statement, indicating an active and evolving takeover process with material updates to the bid terms or conditions that institutional investors need to reassess.",
+        "The issuance of multiple supplementary statements suggests ongoing negotiations or regulatory requirements, potentially reflecting revised offer pricing, extended timelines, or updated financial disclosures relevant to the transaction's valuation.",
+        "Shareholders and arbitrageurs should closely monitor acceptance levels and any further conditions precedent changes, as the progression to a third supplement may signal the bidder's determination to complete the acquisition or address competing interests."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "RNV",
       "company": "RENERVE LIMITED",
