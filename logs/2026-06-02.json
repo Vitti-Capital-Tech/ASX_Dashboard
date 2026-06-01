@@ -1,9 +1,121 @@
 {
   "date": "2026-06-02",
-  "total": 66,
-  "market_sensitive_count": 57,
-  "generated_at": "2026-06-01T23:20:58.670928+00:00",
+  "total": 72,
+  "market_sensitive_count": 62,
+  "generated_at": "2026-06-01T23:32:34.387556+00:00",
   "announcements": [
+    {
+      "ticker": "HWK",
+      "company": "HAWK RESOURCES LIMITED.",
+      "headline": "Lab Assays Confirm Strong Near Surface Copper at Cactus",
+      "time": "2026-06-01T23:30:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096187-6A1327909",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lab assays have confirmed significant near-surface copper mineralisation at the Cactus prospect, validating earlier field results and de-risking the exploration thesis for Hawk Resources' copper portfolio.",
+        "Near-surface copper hits are technically significant as they imply lower potential strip ratios and reduced extraction costs, which could materially improve project economics if grades and widths support further resource delineation.",
+        "Confirmation of strong copper assays is likely to catalyse follow-up drilling programs at Cactus; investors should watch for upcoming drill planning announcements, resource estimates, and any capital raise to fund accelerated exploration."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "Additional Feedstock MOUs for over 50% of Plant Capacity",
+      "time": "2026-06-01T23:28:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096181-6A1327907",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EV Resources has secured additional feedstock MOUs covering over 50% of its planned plant capacity, significantly de-risking the supply side of its processing operations and strengthening the project's commercial viability.",
+        "Locking in more than half of plant capacity through binding or semi-binding agreements provides a credible pathway to revenue generation, though MOUs are non-binding and conversion to definitive offtake agreements remains a key execution risk.",
+        "The milestone positions EVR to advance towards final investment decision and project financing discussions, with feedstock security being a critical prerequisite for lender and investor confidence in the project's economics."
+      ],
+      "tags": [
+        "Production",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RAU",
+      "company": "RESOURO STRATEGIC METALS INC.",
+      "headline": "Executes Binding Mining and Processing Agreement for Novo Mu",
+      "time": "2026-06-01T23:27:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096180-6A1327908",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Resouro Strategic Metals has executed a binding mining and processing agreement for its Novo Munim rare earth project, a significant de-risking milestone that moves the asset closer to production and validates the project's commercial viability.",
+        "The binding nature of the agreement signals strong counterparty commitment and provides a defined pathway to revenue generation from the rare earth deposit, which is strategically important given global supply chain concerns around critical minerals.",
+        "Next steps will likely focus on permitting, financing, and construction timelines — investors should watch for details on capital requirements, offtake pricing mechanisms, and any associated equity dilution needed to fund development."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EDE",
+      "company": "EDEN INNOVATIONS LTD",
+      "headline": "Change in substantial holding - 7 Enterprises Pty Ltd",
+      "time": "2026-06-01T23:25:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096177-6A1327906",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "7 Enterprises Pty Ltd has filed a change in substantial holding notice for Eden Innovations Ltd (EDE), signaling a shift in ownership concentration among key shareholders that institutional investors should monitor for governance implications.",
+        "As a substantial holder notice rather than a new substantial holder filing, this indicates an adjustment in an existing position — the direction (increase or decrease) will determine whether this reflects insider confidence or portfolio rebalancing.",
+        "Eden Innovations is a micro-cap technology company focused on clean technology products; changes in substantial holdings at this market cap level can have outsized impact on liquidity and free float dynamics."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Release of Supplementary Target's Statement",
+      "time": "2026-06-01T23:21:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096170-2A1675036",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Atlas Arteria has released a Supplementary Target's Statement, indicating an active M&A process where the board is providing additional material information to shareholders to inform their decision on a takeover or scheme proposal.",
+        "Supplementary target statements typically address updated financial data, revised independent expert opinions, or new material developments since the original Target's Statement — suggesting evolving deal dynamics that institutional investors should closely monitor for valuation implications.",
+        "Shareholders should watch for any change in the board's recommendation, updated valuation ranges, or competing bid developments that could materially shift the expected transaction outcome and near-term price trajectory."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LED",
+      "company": "LDR CAPITAL PROPERTY FUND",
+      "headline": "LED commences repositioning with sale of Cannon Hill",
+      "time": "2026-06-01T23:20:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096168-2A1675037",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "LDR Capital Property Fund has commenced portfolio repositioning by divesting its Cannon Hill asset, signaling an active capital recycling strategy to optimize the fund's property portfolio composition.",
+        "The sale of Cannon Hill generates liquidity that can be redeployed into higher-returning assets or used to reduce gearing, potentially improving the fund's balance sheet metrics and distribution capacity.",
+        "Investors should monitor for further asset sales or acquisitions as part of the broader repositioning program, which will define the fund's future income profile and NAV trajectory."
+      ],
+      "tags": [
+        "Property",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "DSM",
       "company": "DESERT MINERALS LTD",
