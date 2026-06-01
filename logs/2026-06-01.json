@@ -1,9 +1,65 @@
 {
   "date": "2026-06-01",
-  "total": 78,
-  "market_sensitive_count": 70,
-  "generated_at": "2026-06-01T00:15:23.666171+00:00",
+  "total": 81,
+  "market_sensitive_count": 72,
+  "generated_at": "2026-06-01T00:48:40.609088+00:00",
   "announcements": [
+    {
+      "ticker": "PAR",
+      "company": "PARADIGM BIOPHARMACEUTICALS LIMITED..",
+      "headline": "Results of Share Purchase Plan",
+      "time": "2026-06-01T00:34:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095791-3A694422",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Paradigm Biopharmaceuticals completed its Share Purchase Plan, raising additional capital to support its clinical-stage pipeline — the level of participation and total funds raised will be critical in assessing shareholder confidence and near-term cash runway.",
+        "SPP results typically follow a preceding placement, meaning cumulative dilution from the broader capital raise needs to be assessed against the company's current market cap and existing cash reserves to determine the impact on per-share value.",
+        "Proceeds are expected to fund ongoing Phase 3 clinical trials for pentosan polysulfate sodium (PPS) in osteoarthritis — execution on trial milestones will be the key catalyst, but the capital raise provides operational runway to reach upcoming data readouts."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTO",
+      "company": "CITIGOLD CORPORATION LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-01T00:26:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095788-2A1674841",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has changed their position in Citigold Corporation Limited, signaling a shift in major shareholder dynamics that institutional investors should monitor for potential strategic implications.",
+        "As a non-market-sensitive filing, this likely reflects a marginal change around the 5% threshold rather than a dramatic accumulation or disposal, limiting immediate price impact but warranting tracking of directional intent.",
+        "Investors should review the Form 604 details for whether this represents accumulation (potential confidence signal in Citigold's Charters Towers gold project) or disposal (potential de-risking), and monitor for follow-up substantial holder notices indicating continued momentum in either direction."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGU",
+      "company": "MAGNUM MINING AND EXPLORATION LIMITED",
+      "headline": "MAGNUM ADVANCES IAC REE DISCOVERY AT PIRACANJUBA",
+      "time": "2026-06-01T00:14:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095784-6A1327775",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Magnum Mining reports advancement of its Ionic Adsorption Clay (IAC) Rare Earth Element discovery at the Piracanjuba project in Brazil, signaling potential for a low-cost, environmentally favorable REE extraction pathway that could differentiate it from hard-rock competitors.",
+        "IAC-hosted REE deposits are globally scarce outside China and represent a strategically significant discovery given Western supply chain diversification efforts; market sensitivity designation suggests material exploration results that could re-rate the company's resource potential.",
+        "Near-term catalysts include further delineation drilling and metallurgical testwork to confirm grade, tonnage, and heap-leach amenability — investors should watch for a maiden or updated resource estimate as the key value inflection point."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "EGH",
       "company": "EUREKA GROUP HOLDINGS LIMITED",
