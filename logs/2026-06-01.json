@@ -1,9 +1,122 @@
 {
   "date": "2026-06-01",
-  "total": 81,
-  "market_sensitive_count": 72,
-  "generated_at": "2026-06-01T00:48:40.609088+00:00",
+  "total": 87,
+  "market_sensitive_count": 76,
+  "generated_at": "2026-06-01T01:49:26.022693+00:00",
   "announcements": [
+    {
+      "ticker": "OIL",
+      "company": "OPTISCAN IMAGING LIMITED",
+      "headline": "Second Anniversary of Optiscan and Mayo Clinic Agreement",
+      "time": "2026-06-01T01:32:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095809-3A694428",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Optiscan marks two-year milestone of its collaboration agreement with Mayo Clinic, signaling ongoing institutional validation of its endomicroscopy technology platform in a prestigious clinical research setting.",
+        "The anniversary update is largely ceremonial with no disclosed revenue milestones, new contract terms, or quantified commercial outcomes — limiting near-term fundamental re-rating catalysts for the micro-cap.",
+        "Investors should monitor for concrete commercialization developments or expanded scope of the Mayo Clinic partnership, as the collaboration's translation into recurring revenue streams remains the key value inflection point for Optiscan."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TNE",
+      "company": "TECHNOLOGY ONE LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-01T01:22:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095803-2A1674849",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in TechnologyOne (TNE), triggering a mandatory disclosure under ASX rules — this signals active institutional portfolio rebalancing in a high-quality SaaS name.",
+        "TNE trades at premium multiples (~50x+ forward earnings) reflecting its dominant position in Australian/NZ government and education ERP; any shift in institutional ownership composition is closely watched for signals on valuation comfort at current levels.",
+        "The filing is procedural and not market sensitive — investors should monitor whether this reflects profit-taking after TNE's strong run or a rotation, with the identity and direction of the holding change being the key detail to assess."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-01T01:13:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095800-6A1327780",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Kingston Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant operational update for the junior mining company.",
+        "As a small-cap explorer/developer (focused on gold/copper projects including Misima in PNG), any capital raise during a trading halt would likely be dilutive to existing shareholders and could pressure the share price upon resumption.",
+        "Investors should await the substantive announcement before repositioning; the nature of the pending disclosure — whether equity raising, M&A activity, or project milestone — will determine the directional impact on valuation."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMA",
+      "company": "AMA GROUP LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-01T00:57:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095798-3A694423",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in AMA Group Limited, triggering a regulatory disclosure under ASX substantial holding rules, signaling active institutional portfolio rebalancing.",
+        "The change in substantial holding may reflect shifting investor conviction around AMA Group's valuation or strategic direction, particularly relevant given the company's ongoing transformation in the automotive collision repair sector.",
+        "Investors should monitor whether this filing is part of a broader accumulation or disposal trend, as successive changes in substantial holdings can foreshadow takeover activity, block trades, or changes in shareholder influence dynamics."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RDY",
+      "company": "READYTECH HOLDINGS LIMITED",
+      "headline": "Unsolicited Non-Binding Indicative Proposal to acquire RDY",
+      "time": "2026-06-01T00:51:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095795-2A1674845",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ReadyTech has received an unsolicited non-binding indicative proposal to acquire the company, signaling external recognition of the firm's strategic value in the education and workforce management SaaS space and likely establishing a price floor for shares.",
+        "The non-binding and indicative nature of the proposal means no certainty of a transaction, but the approach typically triggers a formal assessment process by the board and potentially invites competing bids, which could drive a premium above the indicative offer price.",
+        "Investors should watch for the board's formal response, engagement of independent advisers, and whether additional suitors emerge — any competitive tension would be materially positive for shareholder value extraction in a take-private or strategic M&A scenario."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-06-01T00:48:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03095793-6A1327778",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kingston Resources has entered a trading pause, typically preceding a material announcement such as a capital raise, acquisition, or significant operational update that requires orderly market disclosure.",
+        "A 'Pause in Trading' (distinct from a voluntary trading halt) is often initiated by ASX itself, suggesting the exchange may be seeking clarification on potentially price-sensitive information or pending disclosure obligations.",
+        "Investors should await the substantive announcement that follows; the market-sensitive tag indicates the forthcoming news is expected to have a material impact on the company's valuation, with the nature of the catalyst yet to be confirmed."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "PAR",
       "company": "PARADIGM BIOPHARMACEUTICALS LIMITED..",
