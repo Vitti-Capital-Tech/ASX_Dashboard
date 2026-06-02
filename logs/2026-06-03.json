@@ -1,9 +1,141 @@
 {
   "date": "2026-06-03",
-  "total": 53,
-  "market_sensitive_count": 46,
-  "generated_at": "2026-06-02T23:24:25.159033+00:00",
+  "total": 60,
+  "market_sensitive_count": 53,
+  "generated_at": "2026-06-02T23:34:55.545834+00:00",
   "announcements": [
+    {
+      "ticker": "WAU",
+      "company": "WA GOLD LIMITED",
+      "headline": "Priority Gold Targets at Bullabulling",
+      "time": "2026-06-02T23:29:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096666-6A1328103",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WA Gold has identified priority gold targets at its Bullabulling project, signaling advancement of exploration efforts in a historically productive Western Australian gold belt — a catalyst for re-rating if drill results confirm prospectivity.",
+        "The designation of 'priority' targets suggests the company has completed systematic geological work (likely geophysics, geochemistry, or structural analysis) to de-risk exploration spend and focus capital on highest-probability zones, improving exploration ROI for a junior explorer with limited cash runway.",
+        "Market-sensitive classification indicates the company views these targets as material to valuation; investors should watch for imminent drill program announcements and funding requirements, as progression to drilling will likely necessitate capital raising or farm-in partnerships."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "XPN",
+      "company": "XPON TECHNOLOGIES GROUP LIMITED",
+      "headline": "XPON Divests Alpha Digital",
+      "time": "2026-06-02T23:26:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096661-2A1675250",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "XPON is divesting its Alpha Digital business, signaling a strategic portfolio simplification to focus on its core technology platform and higher-margin SaaS/data capabilities, which should sharpen the investment thesis for institutional holders.",
+        "The divestiture removes a lower-margin digital services revenue stream; investors should scrutinize the sale price relative to Alpha Digital's revenue contribution (historically a significant portion of group revenue) to assess whether the transaction is value-accretive or a distressed exit.",
+        "Post-divestiture, XPON's cash runway and path to profitability on its remaining technology operations will be the key focus — proceeds from the sale could extend runway, but the slimmed-down revenue base raises questions about near-term scale and operating leverage."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CPN",
+      "company": "CASPIN RESOURCES LIMITED",
+      "headline": "New High-Grade Lode Position Discovered",
+      "time": "2026-06-02T23:25:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096658-6A1328101",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Caspin Resources has discovered a new high-grade lode position, representing a potentially significant expansion of the known mineralised footprint and adding exploration upside to the project's resource base.",
+        "The market-sensitive designation signals management views this as a material discovery — high-grade intercepts at new lode positions can meaningfully de-risk resource growth and improve project economics if grades and widths are confirmed in follow-up drilling.",
+        "Investors should watch for assay results, follow-up drill programs, and any updated resource estimates; a sustained high-grade discovery could catalyse re-rating for this junior explorer, though near-term cash runway and funding requirements remain key considerations."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OMG",
+      "company": "OMG GROUP LIMITED",
+      "headline": "Sales up 57% to $6.2m as matcha growth accelerates",
+      "time": "2026-06-02T23:23:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096655-3A694630",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "OMG Group reported a 57% surge in sales to $6.2m, driven by accelerating matcha product demand — a strong top-line growth signal that suggests the company's consumer brand strategy is gaining meaningful traction.",
+        "The magnitude of revenue growth (57%) materially outpaces typical ASX small-cap consumer goods peers, indicating potential operating leverage if gross margins are maintained or expanding alongside the sales ramp.",
+        "Sustained matcha category momentum positions OMG for potential re-rating as investors assess whether the growth trajectory is durable and whether the company can approach cash flow breakeven or profitability on the back of scaling revenues."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EQR",
+      "company": "EQ RESOURCES LIMITED",
+      "headline": "EQR Approves Mt Carbine Expansion",
+      "time": "2026-06-02T23:22:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096651-2A1675246",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EQ Resources has approved the expansion of its Mt Carbine tungsten mine, signaling a strategic commitment to scale up production at Australia's only operating tungsten mine amid elevated global tungsten prices and supply chain concerns driven by China's export restrictions.",
+        "The expansion decision de-risks the project's growth trajectory and is expected to materially increase tungsten concentrate output, positioning EQR to capture higher margins as Western nations seek non-Chinese critical mineral supply — a key valuation catalyst for institutional investors.",
+        "Execution risk now shifts to construction timelines, capex discipline, and securing offtake agreements at favorable terms; investors should monitor upcoming updates on funding structure, production ramp-up milestones, and any capital raise requirements to fund the expansion."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALD",
+      "company": "AMPOL LIMITED",
+      "headline": "ACCC Approves Ampol's Acquisition of EG Australia",
+      "time": "2026-06-02T23:21:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096649-2A1675243",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "ACCC has granted unconditional approval for Ampol's acquisition of EG Australia, removing the key regulatory hurdle and clearing the path to completion of a transformative deal that significantly expands Ampol's convenience retail and fuel distribution footprint across Australia.",
+        "The acquisition of EG Australia's ~540 site network is expected to be materially accretive to Ampol's earnings, enhancing scale economies in fuel supply and retail operations while consolidating Ampol's position as Australia's dominant fuel retailer alongside its existing ~1,900 site network.",
+        "With ACCC clearance secured, investor focus shifts to deal completion timing, integration execution risk, and any potential synergy targets — the unconditional nature of the approval (no divestiture requirements) is a notably positive outcome that preserves the full strategic value of the transaction."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Energy",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PHO",
+      "company": "PHOSCO LTD",
+      "headline": "Outstanding drilling results at DOH",
+      "time": "2026-06-02T23:20:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096647-3A694628",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Phosco Ltd reports 'outstanding' drilling results at its DOH project, signaling potential resource upgrade or expansion that could materially re-rate the company's asset base and attract market attention.",
+        "The market-sensitive classification indicates the drilling intercepts are likely of sufficient grade and width to meaningfully impact resource estimates, a key catalyst for junior explorers seeking to advance toward feasibility studies.",
+        "Investors should watch for updated resource estimates, metallurgical testwork, and any follow-up drilling programs that could further de-risk the DOH project and provide a clearer pathway to development or potential offtake discussions."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "HE8",
       "company": "HELIOS ENERGY LTD",
