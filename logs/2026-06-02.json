@@ -1,9 +1,103 @@
 {
   "date": "2026-06-02",
-  "total": 88,
-  "market_sensitive_count": 78,
-  "generated_at": "2026-06-02T00:02:16.730750+00:00",
+  "total": 93,
+  "market_sensitive_count": 83,
+  "generated_at": "2026-06-02T00:49:58.888795+00:00",
   "announcements": [
+    {
+      "ticker": "RR1",
+      "company": "REACH RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-02T00:42:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096239-6A1327928",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Reach Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant corporate development that requires price-sensitive disclosure.",
+        "As a micro-cap ASX-listed resources company, any trading halt raises immediate questions about cash runway adequacy — a capital raise scenario would likely be dilutive to existing shareholders given the company's small market capitalisation.",
+        "Investors should await the detailed announcement expected within two business days; the nature of the pending news (whether equity raising, acquisition, or operational update) will be the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SHE",
+      "company": "STONEHORSE ENERGY LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-06-02T00:28:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096235-6A1327925",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Stonehorse Energy has entered a trading pause, typically preceding a material announcement such as a capital raise, acquisition, or significant operational update that requires orderly market disclosure.",
+        "As a small-cap energy company, any forthcoming announcement could materially impact liquidity and valuation — investors should monitor for potential dilutive capital raises or transformative corporate actions.",
+        "Trading will remain paused until the company releases the pending announcement; the nature of the underlying news will determine whether this resolves as a positive catalyst or a risk event for shareholders."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "G50",
+      "company": "G50 CORP LIMITED",
+      "headline": "Golconda Mineralization Extended to 1.3 km",
+      "time": "2026-06-02T00:17:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096232-2A1675068",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "G50 Corp has extended known mineralization at its Golconda project to 1.3 km strike length, a significant scale-up that enhances the project's prospectivity and potential resource base for future drilling campaigns.",
+        "The extension of mineralization along strike is a technically meaningful de-risking event for an early-stage explorer, suggesting geological continuity that could support a larger resource estimate and improve the project's economic viability.",
+        "Investors should watch for follow-up assay results and planned drill programs to confirm grade continuity across the expanded mineralized zone, which will be critical in determining whether the strike extension translates into material resource growth."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VFY",
+      "company": "VITRAFY LIFE SCIENCES LIMITED",
+      "headline": "Vitrafy enters a partnership with Vitalant Innovation Center",
+      "time": "2026-06-02T00:08:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096231-3A694538",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Vitrafy Life Sciences has partnered with Vitalant Innovation Center, one of the largest US blood service organizations, to evaluate its proprietary lyophilization (freeze-drying) technology for blood product preservation — a potentially transformative application in the blood banking sector.",
+        "The partnership provides critical US market validation for Vitrafy's platform technology; Vitalant processes ~1.8 million blood donations annually, representing significant commercial scale if the technology proves viable for extending shelf life and improving logistics of blood products.",
+        "This is an early-stage R&D collaboration with no disclosed financial terms, meaning near-term revenue impact is negligible — but successful proof-of-concept could open a large addressable market in blood product logistics and military/emergency medicine applications, warranting monitoring of milestone updates."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RR1",
+      "company": "REACH RESOURCES LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-06-02T00:00:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096227-6A1327924",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reach Resources has entered a trading pause, typically preceding a formal trading halt request pending a material announcement to the market.",
+        "As a micro-cap explorer, any trading pause raises questions about potential capital raise, asset transaction, or material project update that could significantly impact the company's trajectory.",
+        "Investors should await the formal announcement — trading pauses often precede capital raises (dilutive) or transformative deals, with the nature of the pending news critical to determining directional impact."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "DTZ",
       "company": "DOTZ NANO LIMITED",
