@@ -1,9 +1,309 @@
 {
   "date": "2026-06-02",
-  "total": 72,
-  "market_sensitive_count": 62,
-  "generated_at": "2026-06-01T23:32:34.387556+00:00",
+  "total": 88,
+  "market_sensitive_count": 78,
+  "generated_at": "2026-06-02T00:02:16.730750+00:00",
   "announcements": [
+    {
+      "ticker": "DTZ",
+      "company": "DOTZ NANO LIMITED",
+      "headline": "Extension of Maturity Date for Convertible Notes",
+      "time": "2026-06-01T23:58:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096226-3A694537",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dotz Nano has extended the maturity date on its convertible notes, signaling potential difficulty in repaying or refinancing the debt on original terms and raising concerns about the company's liquidity position and cash runway.",
+        "Convertible note extensions typically indicate limited near-term funding alternatives and increase the risk of future equity dilution if notes are ultimately converted rather than repaid, pressuring existing shareholders.",
+        "Investors should monitor whether this extension is accompanied by modified conversion terms or additional financing arrangements, as repeated extensions without a clear path to repayment or revenue generation would further erode market confidence."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "1TT",
+      "company": "THRIVE TRIBE TECHNOLOGIES LIMITED",
+      "headline": "Security Class Reinstatement to Quotation - 1TTO",
+      "time": "2026-06-01T23:56:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096225-2A1675061",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX has reinstated Thrive Tribe Technologies' securities (1TTO) to quotation, indicating the company has satisfied the exchange's conditions that previously led to suspension — a positive signal for compliance resolution.",
+        "Reinstatement restores trading liquidity for shareholders, removing the overhang of suspension risk and enabling price discovery after what was likely a period of restricted trading activity.",
+        "Investors should monitor the company's next disclosures closely to assess whether the underlying issues that triggered the original suspension (likely compliance or continuous disclosure related) have been fully remedied and whether the business fundamentals support sustained relisting."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NOR",
+      "company": "NORWOOD SYSTEMS LIMITED",
+      "headline": "Norwood Secures A$595,000 CogVoice Contract Enhancement",
+      "time": "2026-06-01T23:56:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096222-6A1327922",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Norwood Systems secured a A$595,000 contract enhancement for its CogVoice AI platform, signaling growing customer adoption and willingness to expand scope with existing clients — a key validation metric for early-stage tech companies.",
+        "For a micro-cap like Norwood, a $595K incremental contract is material to near-term revenue and cash runway, potentially reducing dilution pressure from future capital raises while demonstrating commercial traction in the AI/voice technology space.",
+        "The contract enhancement suggests deepening client engagement with CogVoice, which could serve as a reference case for pipeline expansion; investors should watch for follow-on contract announcements and quarterly cash burn updates to assess sustainability."
+      ],
+      "tags": [
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKN",
+      "company": "SKIN ELEMENTS LIMITED",
+      "headline": "TOV: SKN - Panel Accepts Undertaking and Declines to Conduct",
+      "time": "2026-06-01T23:54:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096218_PS-6A1327921",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Takeovers Panel has accepted an undertaking from a party involved in the SKN (Skin Elements) matter and declined to conduct proceedings, resolving the regulatory dispute without formal panel orders — removing a key overhang on the stock.",
+        "The acceptance of an undertaking rather than formal proceedings suggests the panel found sufficient remedial action was offered, indicating the contested conduct (likely related to a takeover or control transaction) has been addressed to the regulator's satisfaction.",
+        "With the Takeovers Panel matter now resolved, investor focus shifts back to SKN's underlying fundamentals and any pending corporate actions; the removal of regulatory uncertainty is modestly positive but the micro-cap nature of the company limits institutional relevance."
+      ],
+      "tags": [
+        "Compliance",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GOO",
+      "company": "JANUS HENDERSON SUSTAINABLE CREDIT ACTIVE ETF",
+      "headline": "GOOD - May 2026 Distribution Final",
+      "time": "2026-06-01T23:52:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096216-2A1675059",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Janus Henderson Sustainable Credit Active ETF (GOOD) has announced its final distribution for May 2026, confirming income return to unitholders and signaling ongoing portfolio yield generation from its sustainable fixed-income strategy.",
+        "As a market-sensitive distribution announcement, the final payment amount will be a key data point for investors benchmarking the ETF's yield against comparable credit ETFs and assessing the consistency of its income stream.",
+        "Distribution finalization provides clarity for income-focused institutional investors on ex-date and payment timing, supporting portfolio cash flow planning and potentially attracting yield-seeking capital into the fund."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DAL",
+      "company": "DALAROO METALS LTD",
+      "headline": "Peak 2,188ppb Au Defines 4.3km Gold-in-Soil Anomaly",
+      "time": "2026-06-01T23:51:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096214-6A1327918",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dalaroo Metals has identified a significant 4.3km gold-in-soil anomaly with a peak assay of 2,188 ppb Au, representing a compelling early-stage exploration target that could materially de-risk the project's prospectivity and attract market attention.",
+        "The scale of the anomaly (4.3km strike length) combined with high-grade surface geochemistry suggests a potentially substantial gold system at depth, providing strong justification for follow-up drilling programs that could unlock significant value for a junior explorer.",
+        "Next steps will likely involve detailed ground-truthing, infill soil sampling, and drill target generation — investors should monitor for upcoming drilling approvals and funding capacity, as the company will need adequate cash runway to advance this target through to resource definition."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DRO",
+      "company": "DRONESHIELD LIMITED",
+      "headline": "US Joint Interagency Task Force 401 Contract",
+      "time": "2026-06-01T23:51:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096213-2A1675058",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DroneShield has secured a contract with the US Joint Interagency Task Force (JIATF) 401, a high-profile US Department of Defense entity focused on counter-threat operations, validating the company's counter-drone technology within elite US military/interagency frameworks.",
+        "While specific contract value is not disclosed, JIATF contracts signal strong US government procurement traction — a critical revenue diversification catalyst beyond Australian Defence, and positions DRO for follow-on orders and broader US DoD program-of-record opportunities.",
+        "This contract reinforces DroneShield's growing US footprint and strengthens its competitive moat in the rapidly expanding counter-UAS market; investors should watch for further US government contract announcements and potential acceleration of FY25 revenue guidance."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKK",
+      "company": "STAKK LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-06-01T23:46:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096205-6A1327916",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "STAKK LIMITED has requested a pause in trading, typically indicating a pending material announcement that could significantly impact the company's valuation or operations.",
+        "Trading halts for micro/small-cap ASX-listed companies like STAKK often precede capital raises, acquisitions, or material contract announcements — investors should monitor for dilutive or transformative outcomes.",
+        "The market-sensitive designation signals that the forthcoming announcement is expected to move the share price; institutional investors should prepare for potential volatility upon resumption of trading and assess any new information against current positioning."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCP",
+      "company": "SCALARE PARTNERS HOLDINGS LIMITED",
+      "headline": "SCP acquires Fishburners",
+      "time": "2026-06-01T23:41:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096202-3A694533",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Scalare Partners Holdings (SCP) has acquired Fishburners, one of Australia's most established startup incubator and coworking communities, signaling a strategic push into the innovation ecosystem and potentially expanding SCP's portfolio of technology-adjacent assets.",
+        "The acquisition is market-sensitive, suggesting material terms or strategic significance; Fishburners' established brand and community network could provide SCP with recurring revenue streams from memberships, events, and corporate innovation programs, though financial details will be critical to assess accretiveness.",
+        "Integration execution and retention of Fishburners' community-driven culture will be key risks to monitor; investors should watch for disclosure of acquisition price, funding mechanism (cash vs scrip), and any impact on SCP's balance sheet and cash runway."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PR1",
+      "company": "PURE RESOURCES LIMITED",
+      "headline": "Vice Admiral Jeff Trussler USNavy (Ret) Joins Advisory Board",
+      "time": "2026-06-01T23:40:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096200-6A1327915",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Appointment of Vice Admiral Jeff Trussler (Ret), former Deputy Chief of Naval Operations for Information Warfare, signals Pure Resources is positioning for US defense and government sector engagement, potentially opening high-value contract pathways.",
+        "Advisory board additions of this caliber typically precede strategic business development initiatives targeting defense procurement channels — a credibility signal for institutional investors evaluating the company's addressable market expansion.",
+        "The market-sensitive designation suggests management views this appointment as material to near-term strategy execution; investors should watch for follow-on announcements regarding US defense partnerships, contract bids, or government-related revenue pipelines."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BTE",
+      "company": "BOTALA ENERGY LTD",
+      "headline": "Serowe CBM Project Update",
+      "time": "2026-06-01T23:39:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096198-6A1327914",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Botala Energy provides a project update on its Serowe Coal Bed Methane (CBM) project in Botswana, signaling ongoing operational progress in an early-stage gas exploration and development asset.",
+        "As a market-sensitive update, the announcement likely contains material information on well performance, gas flow rates, or resource estimates that could meaningfully re-rate the company's valuation for this micro-cap explorer.",
+        "Investors should monitor for details on dewatering progress, gas saturation levels, and pathway to commercialization — key milestones that will determine whether the Serowe project can transition from exploration to production and extend the company's cash runway."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CY5",
+      "company": "CYGNUS METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-01T23:38:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096197-6A1327913",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Cygnus Metals has entered a trading halt, typically preceding a material announcement such as a capital raise, acquisition, or significant exploration result for this junior mining company.",
+        "As a small-cap explorer (lithium/gold assets in Canada and Australia), any capital raise during a trading halt would likely be dilutive, though proceeds could extend cash runway and fund critical drilling programs.",
+        "Investors should await the pending announcement — the halt signals imminent news that could materially re-rate the stock in either direction depending on the nature of the disclosure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TMK",
+      "company": "TMK ENERGY LIMITED",
+      "headline": "Technical and Commercial Appointments",
+      "time": "2026-06-01T23:35:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096194-6A1327912",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TMK Energy has made key technical and commercial hires, signaling the company is gearing up for an operational acceleration phase likely tied to its Mongolian gas assets development timeline.",
+        "The appointments suggest TMK is transitioning from pure exploration toward commercialization readiness, which typically precedes significant capital deployment and potential offtake negotiations.",
+        "New technical and commercial capabilities position TMK to better execute on its development strategy, though investors should watch for follow-up announcements on project milestones and funding requirements that these hires are likely preparing for."
+      ],
+      "tags": [
+        "Board Change",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AVW",
+      "company": "AVIRA RESOURCES LTD",
+      "headline": "Drilling Commences at the High-Grade Mt Cattlin Gold Project",
+      "time": "2026-06-01T23:34:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096193-6A1327911",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Avira Resources has commenced drilling at the Mt Cattlin Gold Project, a significant de-risking catalyst for a junior explorer that signals progression from target generation to active validation of high-grade gold potential.",
+        "The 'high-grade' descriptor in the announcement suggests the company is targeting structurally controlled or historically proven gold mineralization at Mt Cattlin, which if confirmed by assay results could materially re-rate the stock given Avira's micro-cap status.",
+        "Investors should watch for drill results over the coming weeks as the key near-term catalyst; successful intercepts at meaningful grades and widths would likely trigger renewed market interest, while the company's cash position and ability to fund follow-up programs remains a critical consideration."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ZEO",
+      "company": "ZEOTECH LIMITED",
+      "headline": "Methane Control Program Update",
+      "time": "2026-06-01T23:33:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096192-6A1327910",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Zeotech provides an update on its methane control program, signaling ongoing development of its zeolite-based technology for methane capture/mitigation — a sector with growing regulatory tailwinds and ESG-driven demand.",
+        "As a pre-revenue micro-cap, the market sensitivity designation suggests material progress or milestones in the program, potentially de-risking the technology pathway and supporting future commercialization timelines.",
+        "Investors should monitor for details on pilot results, partnership developments, or funding requirements; any demonstration of technical efficacy at scale would be a significant catalyst, though cash runway and dilution risk remain key concerns for this early-stage company."
+      ],
+      "tags": [
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SIS",
+      "company": "SIMBLE SOLUTIONS LIMITED",
+      "headline": "Strategic Macquarie Uni Partnership Advances Nanosensor Tech",
+      "time": "2026-06-01T23:32:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096190-2A1675050",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SIMBLE has secured a strategic partnership with Macquarie University to advance nanosensor technology, signaling a shift toward deep-tech R&D capabilities that could differentiate its product offering in IoT/energy management markets.",
+        "University partnerships of this nature typically leverage government grants and co-funded research, potentially extending SIMBLE's cash runway without significant equity dilution — critical for a micro-cap with limited revenue scale.",
+        "Commercialization timelines for nanosensor technology remain uncertain; investors should monitor for concrete milestones, IP ownership terms, and any near-term revenue contribution versus the risk this remains a long-dated R&D initiative with no immediate earnings impact."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "HWK",
       "company": "HAWK RESOURCES LIMITED.",
