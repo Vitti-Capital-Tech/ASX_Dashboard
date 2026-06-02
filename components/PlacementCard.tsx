@@ -149,22 +149,22 @@ export default function PlacementCard({ placement }: Props) {
       </h3>
 
       {/* Summary - the copy-pastable block */}
-      <div className="relative">
+      <div className="relative group">
         <div
           className="rounded-xl p-4"
           style={{
-            background: 'var(--bg-summary, rgba(0,0,0,0.2))',
-            border: '1px solid var(--border-subtle, rgba(255,255,255,0.05))',
-            color: 'var(--text-primary, #e2e8f0)',
+            background: 'var(--bg-card-hover)',
+            border: '1px solid var(--border-subtle)',
+            color: 'var(--text-primary)',
           }}
         >
           {metadata.length > 0 && (
-            <div className="mb-4 pb-4 border-b overflow-x-auto" style={{ borderColor: 'var(--border-subtle, rgba(255,255,255,0.1))' }}>
+            <div className="mb-4 pb-4 border-b overflow-x-auto" style={{ borderColor: 'var(--border-subtle)' }}>
               <table className="w-full text-left border-collapse min-w-max">
                 <thead>
-                  <tr className="border-b" style={{ borderColor: 'rgba(255,255,255,0.05)' }}>
+                  <tr className="border-b" style={{ borderColor: 'var(--border-subtle)' }}>
                     {metadata.map((item, idx) => (
-                      <th key={idx} className="pb-2 pr-6 text-[0.65rem] font-bold uppercase tracking-wider whitespace-nowrap align-bottom" style={{ color: 'var(--text-dim, rgba(148,163,184,0.8))' }}>
+                      <th key={idx} className="pb-2 pr-6 text-[0.65rem] font-bold uppercase tracking-wider whitespace-nowrap align-bottom" style={{ color: 'var(--text-dim)' }}>
                         {item.key}
                       </th>
                     ))}
@@ -185,58 +185,55 @@ export default function PlacementCard({ placement }: Props) {
           <div className="text-[0.8rem] leading-[1.7] whitespace-pre-wrap font-sans select-all cursor-text">
             {narrative}
           </div>
-        </div>
 
-        {/* Copy button */}
-        <button
-          onClick={handleCopy}
-          className="absolute top-2.5 right-2.5 flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-[0.68rem] font-bold uppercase tracking-[0.1em] transition-all duration-150 opacity-0 group-hover:opacity-100 focus:opacity-100"
-          style={{
-            background: copied
-              ? 'rgba(16,185,129,0.2)'
-              : 'rgba(99,102,241,0.15)',
-            color: copied ? '#6ee7b7' : '#a5b4fc',
-            border: copied
-              ? '1px solid rgba(16,185,129,0.3)'
-              : '1px solid rgba(99,102,241,0.3)',
-            backdropFilter: 'blur(8px)',
-          }}
-        >
-          {copied ? (
-            <>
-              <svg viewBox="0 0 16 16" fill="none" className="w-3 h-3">
-                <path
-                  d="M3 8.5l3 3 7-7"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-              Copied
-            </>
-          ) : (
-            <>
-              <svg viewBox="0 0 16 16" fill="none" className="w-3 h-3">
-                <rect
-                  x="5"
-                  y="5"
-                  width="9"
-                  height="9"
-                  rx="1.5"
-                  stroke="currentColor"
-                  strokeWidth="1.4"
-                />
-                <path
-                  d="M11 5V3.5A1.5 1.5 0 009.5 2h-6A1.5 1.5 0 002 3.5v6A1.5 1.5 0 003.5 11H5"
-                  stroke="currentColor"
-                  strokeWidth="1.4"
-                />
-              </svg>
-              Copy
-            </>
-          )}
-        </button>
+          {/* Copy button */}
+          <div className="mt-5 flex justify-end">
+            <button
+              onClick={handleCopy}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-[0.68rem] font-bold uppercase tracking-[0.1em] transition-all duration-150 opacity-0 group-hover:opacity-100 focus:opacity-100"
+              style={{
+                background: copied ? 'rgba(16,185,129,0.15)' : 'var(--accent-dim)',
+                color: copied ? 'var(--success)' : 'var(--accent)',
+                border: copied ? '1px solid rgba(16,185,129,0.3)' : '1px solid var(--border-accent)',
+              }}
+            >
+              {copied ? (
+                <>
+                  <svg viewBox="0 0 16 16" fill="none" className="w-3 h-3">
+                    <path
+                      d="M3 8.5l3 3 7-7"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                  Copied
+                </>
+              ) : (
+                <>
+                  <svg viewBox="0 0 16 16" fill="none" className="w-3 h-3">
+                    <rect
+                      x="5"
+                      y="5"
+                      width="9"
+                      height="9"
+                      rx="1.5"
+                      stroke="currentColor"
+                      strokeWidth="1.4"
+                    />
+                    <path
+                      d="M11 5V3.5A1.5 1.5 0 009.5 2h-6A1.5 1.5 0 002 3.5v6A1.5 1.5 0 003.5 11H5"
+                      stroke="currentColor"
+                      strokeWidth="1.4"
+                    />
+                  </svg>
+                  Copy
+                </>
+              )}
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
