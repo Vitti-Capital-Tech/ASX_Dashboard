@@ -1,9 +1,104 @@
 {
   "date": "2026-06-02",
-  "total": 100,
-  "market_sensitive_count": 90,
-  "generated_at": "2026-06-02T01:52:27.046620+00:00",
+  "total": 105,
+  "market_sensitive_count": 94,
+  "generated_at": "2026-06-02T03:12:31.951337+00:00",
   "announcements": [
+    {
+      "ticker": "DME",
+      "company": "DOME GOLD MINES LIMITED",
+      "headline": "Convertible Note",
+      "time": "2026-06-02T02:54:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096291-2A1675091",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dome Gold Mines has issued a convertible note, signaling the company is raising capital through debt instruments that will likely convert to equity, implying potential shareholder dilution ahead.",
+        "Convertible note financing for a junior mining company typically indicates limited access to traditional equity markets or a desire to minimize immediate dilution, raising questions about the company's current cash runway and near-term funding needs.",
+        "Investors should monitor the conversion terms (discount, conversion price, maturity) closely as these will determine the magnitude of dilution and whether the note structure is favorable or punitive to existing shareholders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SVY",
+      "company": "STAVELY MINERALS LIMITED",
+      "headline": "Change in substantial holding - P Ironside",
+      "time": "2026-06-02T02:35:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096284-6A1327947",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "P Ironside has filed a change in substantial holding notice for Stavely Minerals, indicating a shift in ownership stake that crosses the regulatory disclosure threshold, signaling active portfolio repositioning by a significant shareholder.",
+        "Changes in substantial holdings by individual investors in junior explorers like Stavely Minerals can reflect insider confidence dynamics, though the direction of the change (increase vs decrease) is critical for interpreting the signal — this filing is procedural and not flagged as market sensitive.",
+        "Investors should monitor whether this change reflects dilution from recent capital raises or active buying/selling, and watch for any follow-up corporate activity that may have prompted the ownership adjustment."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "G6M",
+      "company": "GROUP 6 METALS LIMITED",
+      "headline": "ASX Listing Rule 10.1 Breaches and Remedial Action",
+      "time": "2026-06-02T02:12:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096272-2A1675080",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Group 6 Metals has disclosed breaches of ASX Listing Rule 10.1, which governs transactions with related parties requiring shareholder approval — indicating governance failures that may attract regulatory scrutiny and erode institutional confidence.",
+        "The disclosure of remedial action suggests the breaches have been identified retrospectively, raising questions about the adequacy of internal compliance frameworks and board oversight at the company.",
+        "Investors should monitor whether ASX imposes any penalties or conditions, and whether the remedial actions (likely including retrospective shareholder ratification) are sufficient to resolve the breaches without further operational or financial disruption."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "JLL",
+      "company": "JINDALEE LITHIUM LIMITED",
+      "headline": "US Elemental Files S-4 Registration Statement",
+      "time": "2026-06-02T02:09:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096270-6A1327937",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "US Elemental (the US-listed entity being created from Jindalee's McDermitt Lithium Project demerger) has filed its S-4 registration statement with the SEC, a critical regulatory milestone required before the spin-off can proceed to shareholder vote and completion.",
+        "The S-4 filing signals the demerger transaction is progressing on schedule, which is designed to unlock value by listing the flagship McDermitt Lithium Project on a US exchange where it can attract dedicated US lithium/critical minerals investor capital and potentially command a higher standalone valuation.",
+        "Next steps include SEC review and potential comments on the S-4, followed by scheduling of shareholder meetings for both entities — investors should monitor for SEC clearance timing and any material changes to demerger terms as the transaction moves toward expected completion."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RR1",
+      "company": "REACH RESOURCES LIMITED",
+      "headline": "REEcycle To List on Nasdaq",
+      "time": "2026-06-02T01:52:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096266-6A1327935",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "REEcycle, a rare earth recycling technology company associated with Reach Resources, is pursuing a Nasdaq listing, potentially unlocking access to deeper US capital markets and significantly higher valuations for rare earth/critical minerals plays.",
+        "A Nasdaq listing for REEcycle could serve as a major catalyst for Reach Resources shareholders if they retain exposure through equity stakes or spin-off arrangements, though the exact financial terms and ownership structure require close scrutiny.",
+        "The strategic move aligns with growing US policy support for domestic critical minerals supply chains, positioning REEcycle to capitalize on IRA/DoD funding tailwinds and potentially attracting institutional US investor interest in rare earth recycling technology."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "EAR",
       "company": "PIMCO SHORT TERM ACTIVE YIELD ACTIVE ETF",
