@@ -1,9 +1,141 @@
 {
   "date": "2026-06-02",
-  "total": 93,
-  "market_sensitive_count": 83,
-  "generated_at": "2026-06-02T00:49:58.888795+00:00",
+  "total": 100,
+  "market_sensitive_count": 90,
+  "generated_at": "2026-06-02T01:52:27.046620+00:00",
   "announcements": [
+    {
+      "ticker": "EAR",
+      "company": "PIMCO SHORT TERM ACTIVE YIELD ACTIVE ETF",
+      "headline": "PIMCO ETF - May 2026 Final Distribution",
+      "time": "2026-06-02T01:48:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096264-2A1675082",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PIMCO Short Term Active Yield ETF has declared its final distribution for May 2026, providing income certainty for unitholders and signaling consistent yield generation from the short-duration fixed income portfolio.",
+        "As a market-sensitive announcement, the final distribution figure will be closely watched by institutional investors benchmarking short-term credit ETF yields against prevailing cash rates and RBA policy expectations.",
+        "The 'final' designation suggests this may relate to a wind-down, maturity event, or end-of-period reconciliation — investors should monitor for any structural changes to the fund or potential capital return implications."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LDR",
+      "company": "LODE RESOURCES LTD",
+      "headline": "New Silver-Zinc Mineralisation System Discovery Montezuma",
+      "time": "2026-06-02T01:44:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096263-2A1675077",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lode Resources has discovered a new silver-zinc mineralisation system at its Montezuma project, representing a potentially significant expansion of the known mineralised footprint and adding exploration upside to the asset.",
+        "The discovery of a distinct new mineralisation system (silver-zinc) suggests polymetallic potential that could enhance the project's economic viability if grades and widths prove substantial in follow-up drilling programs.",
+        "As an early-stage explorer, the key next steps will be defining the extent and grade of this new system through systematic drilling — investors should monitor upcoming assay results and any resource estimate implications, while noting the company's cash position to fund continued exploration."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IPD",
+      "company": "IMPEDIMED LIMITED",
+      "headline": "CEO Business Update",
+      "time": "2026-06-02T01:42:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096261-2A1675078",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CEO Business Update flagged as market sensitive suggests material operational or strategic developments at ImpediMed, likely addressing commercial traction of its SOZO bioimpedance spectroscopy platform in the US healthcare market.",
+        "As a pre-profit medtech company with historically tight cash runway, any update on contract wins, reimbursement progress (particularly CMS/private payer coverage for lymphoedema assessment), or revised guidance would be critical for near-term valuation.",
+        "Investors should scrutinize whether the update signals accelerating US hospital adoption rates, changes to cash burn trajectory, or potential need for further capital raising — all key catalysts for this small-cap healthcare name."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SVG",
+      "company": "SAVANNAH GOLDFIELDS LIMITED",
+      "headline": "Update On Plans To Resume Agate Creek Gold Project Mining",
+      "time": "2026-06-02T01:30:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096258-2A1675073",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Savannah Goldfields is signaling a restart of mining operations at the Agate Creek Gold Project, suggesting the company has resolved prior operational or financial hurdles that led to the suspension, a potentially transformative catalyst for a junior miner.",
+        "Resumption plans indicate management confidence in project economics at current gold prices (AUD ~$3,800/oz+), which could materially improve revenue generation and cash flow visibility for a company likely operating with limited cash runway.",
+        "Investors should watch for details on funding mechanisms (equity raise risk), timeline to first gold pour, and updated mine plan economics — the path to production restart will be critical in determining whether this is a genuine re-rating event or requires dilutive capital support."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKK",
+      "company": "STAKK LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-06-02T01:08:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096254-6A1327933",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "STAKK LIMITED issued a formal response to an ASX price query, typically triggered by unusual share price movement or trading volume, indicating the exchange is scrutinizing recent market activity in the stock.",
+        "The company's response to the price query suggests either no material undisclosed information exists or a potential disclosure of previously unreleased developments — the market-sensitive tag implies substantive content that could move the stock.",
+        "Investors should monitor for any follow-up announcements or trading restrictions; ASX price queries often precede periods of heightened volatility and can signal either speculative activity or forthcoming corporate developments requiring careful due diligence."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFG",
+      "company": "AUSTRALIAN FINANCE GROUP LTD",
+      "headline": "On-Market Share Buyback",
+      "time": "2026-06-02T01:03:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096249-6A1327931",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Finance Group has announced an on-market share buyback, signaling management's confidence that shares are undervalued and committing to returning capital to shareholders rather than pursuing alternative uses of excess cash.",
+        "The buyback is expected to be EPS-accretive by reducing shares on issue, improving per-share metrics and potentially supporting the share price through sustained on-market demand — a positive signal for a mid-cap financial services company.",
+        "Investors should monitor the pace and volume of buyback execution relative to the total authorization, as well as any impact on AFG's balance sheet flexibility and capacity to fund growth initiatives in the mortgage broking and lending segments."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SHE",
+      "company": "STONEHORSE ENERGY LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-02T00:55:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096242-6A1327930",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Stonehorse Energy has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update in the energy sector.",
+        "As a small-cap energy company, any capital raise during a trading halt would likely be dilutive and could pressure the share price, while an acquisition or asset deal could shift the company's risk profile materially.",
+        "Investors should await the detailed announcement expected within two business days; the nature of the pending disclosure will be critical in determining whether this represents a value-accretive catalyst or a dilution event."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "RR1",
       "company": "REACH RESOURCES LIMITED",
