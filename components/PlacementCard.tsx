@@ -10,14 +10,19 @@ interface Props {
 export default function PlacementCard({ placement }: Props) {
   const [copied, setCopied] = useState(false);
 
+  // Replace standard tilde (~) with Unicode Tilde Operator (∼, U+223C)
+  // WhatsApp aggressively strips invisible characters and will still trigger strikethrough
+  // if standard tildes are present. Using a different character prevents this completely.
+  const safeSummary = placement.summary.replace(/~/g, '∼');
+
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText(placement.summary);
+      await navigator.clipboard.writeText(safeSummary);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     } catch {
       const textarea = document.createElement('textarea');
-      textarea.value = placement.summary;
+      textarea.value = safeSummary;
       textarea.style.position = 'fixed';
       textarea.style.opacity = '0';
       document.body.appendChild(textarea);
@@ -37,6 +42,39 @@ export default function PlacementCard({ placement }: Props) {
     : '';
 
   const isPO = placement.deal_type === 'IPO';
+
+  const parseSummary = (text: string) => {
+    if (!text) return { metadata: [], narrative: '' };
+    
+    const parts = text.trim().split(/\n\s*\n/);
+    if (parts.length < 2) return { metadata: [], narrative: text };
+
+    const firstBlock = parts[0];
+    const lines = firstBlock.split('\n');
+    
+    const metadata: { key: string; value: string }[] = [];
+    let isMetadataBlock = true;
+    for (const line of lines) {
+      const match = line.match(/^([^:]+):\s*(.+)$/);
+      if (match) {
+        metadata.push({ key: match[1].trim(), value: match[2].trim() });
+      } else {
+        isMetadataBlock = false;
+        break;
+      }
+    }
+
+    if (isMetadataBlock && metadata.length > 0) {
+      return {
+        metadata,
+        narrative: parts.slice(1).join('\n\n')
+      };
+    }
+
+    return { metadata: [], narrative: text };
+  };
+
+  const { metadata, narrative } = parseSummary(safeSummary);
 
   return (
     <div
@@ -112,17 +150,42 @@ export default function PlacementCard({ placement }: Props) {
 
       {/* Summary - the copy-pastable block */}
       <div className="relative">
-        <pre
-          className="text-[0.8rem] leading-[1.7] whitespace-pre-wrap font-sans rounded-xl p-4 select-all"
+        <div
+          className="rounded-xl p-4"
           style={{
             background: 'var(--bg-summary, rgba(0,0,0,0.2))',
             border: '1px solid var(--border-subtle, rgba(255,255,255,0.05))',
             color: 'var(--text-primary, #e2e8f0)',
-            cursor: 'text',
           }}
         >
-          {placement.summary}
-        </pre>
+          {metadata.length > 0 && (
+            <div className="mb-4 pb-4 border-b overflow-x-auto" style={{ borderColor: 'var(--border-subtle, rgba(255,255,255,0.1))' }}>
+              <table className="w-full text-left border-collapse min-w-max">
+                <thead>
+                  <tr className="border-b" style={{ borderColor: 'rgba(255,255,255,0.05)' }}>
+                    {metadata.map((item, idx) => (
+                      <th key={idx} className="pb-2 pr-6 text-[0.65rem] font-bold uppercase tracking-wider whitespace-nowrap align-bottom" style={{ color: 'var(--text-dim, rgba(148,163,184,0.8))' }}>
+                        {item.key}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    {metadata.map((item, idx) => (
+                      <td key={idx} className="pt-2 pr-6 text-[0.8rem] font-medium leading-snug align-top">
+                        {item.value}
+                      </td>
+                    ))}
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          )}
+          <div className="text-[0.8rem] leading-[1.7] whitespace-pre-wrap font-sans select-all cursor-text">
+            {narrative}
+          </div>
+        </div>
 
         {/* Copy button */}
         <button

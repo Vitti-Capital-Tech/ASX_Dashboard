@@ -355,8 +355,8 @@ export default function Dashboard() {
         {/* ── Scrollable Feed ── */}
         <div className="flex-1 overflow-auto pb-16 px-5 sm:px-7 pt-6">
 
-          {/* Loading */}
-          {loading && (
+          {/* Market Loading */}
+          {loading && activeCategory !== 'Whatsapp Messages' && (
             <div className="flex flex-col items-center justify-center h-[52vh] gap-5 animate-fade-in-up">
               <div className="relative w-12 h-12">
                 <div className="absolute inset-0 rounded-full"
@@ -373,8 +373,26 @@ export default function Dashboard() {
             </div>
           )}
 
+          {/* Placement Loading */}
+          {activeCategory === 'Whatsapp Messages' && placementLoading && (
+            <div className="flex flex-col items-center justify-center h-[52vh] gap-5 animate-fade-in-up">
+              <div className="relative w-12 h-12">
+                <div className="absolute inset-0 rounded-full"
+                  style={{ border: '2px solid rgba(168,85,247,0.3)', borderTopColor: '#a855f7', animation: 'spin 0.8s linear infinite' }} />
+                <div className="absolute inset-2.5 rounded-full"
+                  style={{ border: '2px solid rgba(168,85,247,0.3)', borderTopColor: '#c084fc', animation: 'spin 0.5s linear infinite reverse' }} />
+              </div>
+              <div className="text-center">
+                <h3 className="text-[1rem] font-bold text-slate-200">Fetching Placement Data</h3>
+                <p className="text-[0.8rem] mt-1" style={{ color: 'rgba(100,116,139,0.7)' }}>
+                  Analyzing placements for {dateLabel}…
+                </p>
+              </div>
+            </div>
+          )}
+
           {/* Error / Pending state */}
-          {error && !loading && (
+          {error && !loading && activeCategory !== 'Whatsapp Messages' && (
             <div className="mx-auto max-w-xl mt-10 animate-fade-in-up">
               <div className="rounded-[20px] p-7 flex items-start gap-5"
                 style={{
@@ -430,8 +448,50 @@ export default function Dashboard() {
             </div>
           )}
 
-          {/* Empty state — hidden on Whatsapp Messages tab when placement data exists */}
-          {!loading && !error && sorted.length === 0 && log && !(activeCategory === 'Whatsapp Messages' && (placementLoading || (placementLog && placementLog.placements.length > 0))) && (
+          {/* Placement Empty State */}
+          {activeCategory === 'Whatsapp Messages' && !placementLoading && (!placementLog || placementLog.placements.length === 0) && (
+            <div className="mx-auto max-w-xl mt-10 animate-fade-in-up">
+              <div className="rounded-[20px] p-7 flex items-start gap-5"
+                style={{
+                  background: 'rgba(168,85,247,0.06)',
+                  border: '1px solid rgba(168,85,247,0.18)',
+                }}>
+                {/* Icon */}
+                <div className="w-12 h-12 rounded-2xl flex items-center justify-center flex-shrink-0"
+                  style={{
+                    background: 'rgba(168,85,247,0.12)',
+                    border: '1px solid rgba(168,85,247,0.2)',
+                    boxShadow: '0 0 30px rgba(168,85,247,0.15)',
+                  }}>
+                  <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" style={{ color: '#c084fc' }}>
+                    <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" />
+                    <path d="M12 6v6l4 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </div>
+
+                <div className="pt-0.5">
+                  <h3 className="text-[1rem] font-bold mb-2" style={{ color: '#d8b4fe' }}>
+                    No Placement Activity
+                  </h3>
+                  <p className="text-[0.85rem] leading-relaxed mb-5" style={{ color: 'rgba(148,163,184,0.75)' }}>
+                    No placement summaries found for this date.
+                  </p>
+                  <button
+                    onClick={() => fetchPlacements(date)}
+                    className="px-5 py-2.5 rounded-xl text-white text-[0.8rem] font-bold tracking-wide transition-all duration-150 hover:-translate-y-0.5"
+                    style={{
+                      background: '#a855f7',
+                      boxShadow: '0 4px 20px rgba(168,85,247,0.35)',
+                    }}>
+                    Check Again
+                  </button>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Empty state — hidden on Whatsapp Messages tab */}
+          {activeCategory !== 'Whatsapp Messages' && !loading && !error && sorted.length === 0 && log && (
             <div className="flex flex-col items-center justify-center h-[52vh] gap-5 text-center px-8 animate-fade-in-up">
               <div className="w-16 h-16 rounded-3xl flex items-center justify-center animate-float"
                 style={{ background: 'rgba(99,102,241,0.07)', border: '1px solid rgba(99,102,241,0.12)', boxShadow: '0 0 40px rgba(99,102,241,0.08)' }}>
