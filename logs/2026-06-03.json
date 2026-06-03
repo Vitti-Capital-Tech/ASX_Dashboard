@@ -1,9 +1,122 @@
 {
   "date": "2026-06-03",
-  "total": 91,
-  "market_sensitive_count": 79,
-  "generated_at": "2026-06-03T01:56:36.517293+00:00",
+  "total": 97,
+  "market_sensitive_count": 81,
+  "generated_at": "2026-06-03T03:15:59.081147+00:00",
   "announcements": [
+    {
+      "ticker": "DTM",
+      "company": "DART MINING NL",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-03T02:59:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096804-3A694652",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Dart Mining NL, crossing the 5% ownership threshold, signaling concentrated investor interest in this junior explorer",
+        "The substantial holding notice is a regulatory disclosure requirement and does not inherently indicate a takeover approach, though accumulation in a micro-cap miner warrants monitoring for further share register movements",
+        "Investors should watch for any follow-up notices (increases in holding, association with board members, or potential creep provisions) that could signal strategic intent or a precursor to a corporate action"
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RMI",
+      "company": "RESOURCE MINERALS INTERNATIONAL LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-03T02:49:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096801-6A1328161",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Resource Minerals International has altered their position, triggering a mandatory disclosure under ASX rules — signaling active portfolio repositioning by a significant shareholder.",
+        "Changes in substantial holdings for micro-cap resource companies like RMI can reflect shifting confidence in the company's exploration or development prospects, though the filing is flagged as not market sensitive, suggesting the change may be incremental rather than transformative.",
+        "Investors should monitor whether this change represents accumulation (potential bullish signal from an informed holder) or disposal (potential de-risking), and watch for any follow-up corporate activity such as capital raises or project updates that may have prompted the move."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVZ",
+      "company": "EVZ LIMITED",
+      "headline": "Change in substantial holding from Tiga Trading Pty Ltd",
+      "time": "2026-06-03T02:36:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096797-3A694651",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Tiga Trading Pty Ltd has filed a change in substantial holding notice for EVZ Limited, indicating a shift in their ownership stake that warrants monitoring for potential activist or strategic positioning.",
+        "As a substantial holder change rather than a new substantial holder notice, this suggests Tiga Trading has adjusted an existing position — the direction (increase vs decrease) will determine whether this reflects accumulation or profit-taking in EVZ shares.",
+        "The filing is flagged as not market sensitive, suggesting the change is relatively modest in magnitude; however, institutional investors should track subsequent filings for any pattern of continued accumulation or disposal that could signal a change-of-control thesis."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CHL",
+      "company": "CAMPLIFY HOLDINGS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-03T02:26:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096794-2A1675383",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has altered their position in Camplify Holdings (CHL), signaling a shift in institutional or major shareholder conviction in the RV/campervan sharing platform company.",
+        "The change in substantial holding filing is classified as not market sensitive, suggesting the movement is likely a modest adjustment rather than a dramatic accumulation or disposal that would materially alter the register.",
+        "Investors should monitor whether this forms part of a broader trend of institutional repositioning in CHL, particularly given the company's growth-stage profile and sensitivity to changes in key shareholder support."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MX1",
+      "company": "MICRO-X LIMITED",
+      "headline": "MX1 - Human Imaging Study Commences with Micro-X Head CT",
+      "time": "2026-06-03T02:06:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096779-3A694650",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Micro-X has commenced its first human imaging study using its novel carbon nanotube-based portable head CT scanner (Rover), marking a critical clinical validation milestone that de-risks the pathway toward regulatory clearance and commercialisation.",
+        "Transition from phantom/cadaver testing to live human imaging represents a significant technical inflection point for the company's differentiated cold-cathode X-ray technology, potentially positioning it ahead of competitors in the portable CT market targeting stroke diagnosis and emergency medicine.",
+        "Successful human imaging results would support future FDA/TGA regulatory submissions and strengthen the commercial case for the Rover platform; investors should monitor study outcomes closely as positive data could catalyse partnership discussions and accelerate the timeline to revenue generation for a pre-revenue company with finite cash runway."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SHE",
+      "company": "STONEHORSE ENERGY LIMITED",
+      "headline": "Stonehorse to Participate in Four New Wells at Drumheller",
+      "time": "2026-06-03T01:59:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096778-6A1328149",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Stonehorse Energy is participating in four new wells at its Drumheller asset in Alberta, Canada, signaling an active drilling program and commitment to expanding its production base in a proven oil-producing region.",
+        "The decision to drill new wells suggests confidence in the economics of the Drumheller project, with incremental production expected to contribute to near-term revenue growth and improve the company's reserve/resource profile.",
+        "Investors should monitor upcoming flow-rate results and capital expenditure details from the four-well program, as successful outcomes could serve as a catalyst for further development activity and potential re-rating of the stock."
+      ],
+      "tags": [
+        "Production",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "RAU",
       "company": "RESOURO STRATEGIC METALS INC.",
