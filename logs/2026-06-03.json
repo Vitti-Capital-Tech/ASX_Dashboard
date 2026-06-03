@@ -1,9 +1,140 @@
 {
   "date": "2026-06-03",
-  "total": 79,
-  "market_sensitive_count": 71,
-  "generated_at": "2026-06-03T00:15:10.983495+00:00",
+  "total": 86,
+  "market_sensitive_count": 76,
+  "generated_at": "2026-06-03T00:55:19.432931+00:00",
   "announcements": [
+    {
+      "ticker": "BIM",
+      "company": "BINDI METALS LIMITED",
+      "headline": "Ravni Intersects Broad Alteration System with Sulphides",
+      "time": "2026-06-03T00:47:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096752-6A1328141",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bindi Metals reports broad alteration system with sulphide mineralisation intersected at its Ravni project, indicating potential for a significant porphyry-style copper-gold system — a technically meaningful result for an early-stage explorer.",
+        "The presence of broad alteration zones with sulphides provides geological validation of the target model, though assay results are still pending — investors should await geochemical confirmation before drawing conclusions on grade and economic viability.",
+        "Next steps will likely involve assay turnaround and potential follow-up drilling; as a micro-cap explorer, Bindi's cash runway and ability to fund continued exploration without excessive dilution will be critical to watch in coming quarters."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "Becoming a substantial holder from CBA",
+      "time": "2026-06-03T00:46:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096750-3A694647",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Commonwealth Bank of Australia (CBA) has crossed the 5% threshold to become a substantial holder in Karoon Energy, signaling meaningful institutional accumulation in the mid-cap oil & gas producer.",
+        "CBA's emergence as a substantial holder likely reflects growing institutional confidence in Karoon's production profile and valuation, potentially driven by the company's Brazilian and Peruvian oil assets at current commodity price levels.",
+        "Investors should monitor whether CBA continues to build its position, as initial substantial holder notices from major banks often precede further accumulation; this also increases institutional ownership concentration which can influence liquidity dynamics."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HJH",
+      "company": "HEJAZ HIGH INCOME ACTIVE ETF",
+      "headline": "Pause in Trade",
+      "time": "2026-06-03T00:41:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096749-2A1675290",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "HEJAZ HIGH INCOME ACTIVE ETF has been subject to a pause in trade, indicating a potential material announcement or operational issue requiring market disclosure before trading resumes.",
+        "As a Sharia-compliant high income ETF, any trading pause raises immediate questions about underlying portfolio composition, NAV integrity, or compliance with Islamic finance screening criteria that institutional holders must monitor closely.",
+        "Investors should await the accompanying announcement that triggered the pause; resolution timeline and nature of the disclosure will determine whether this is a routine procedural halt or signals deeper structural concerns for the fund."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKU",
+      "company": "HEJAZ SUKUK ACTIVE ETF",
+      "headline": "Pause in Trade",
+      "time": "2026-06-03T00:39:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096748-2A1675289",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hejaz Sukuk Active ETF has been subject to a pause in trade, indicating a potential material announcement or operational issue requiring market disclosure before trading resumes.",
+        "As a Sharia-compliant fixed income ETF, any trading pause raises concerns about underlying asset liquidity, NAV pricing integrity, or potential structural changes to the fund that could affect unitholder value.",
+        "Investors should await the accompanying announcement that triggered the pause; resolution timeline and the nature of the disclosure will be critical in determining whether this is procedural or signals deeper fund-level issues."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ISL",
+      "company": "HEJAZ EQUITIES FUND ACTIVE ETF",
+      "headline": "Pause in Trading",
+      "time": "2026-06-03T00:36:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096746-2A1675285",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hejaz Equities Fund Active ETF has been subject to a pause in trading, which typically signals a pending material announcement or regulatory/compliance matter requiring resolution before trading resumes.",
+        "As a Sharia-compliant active ETF, any trading pause raises questions about underlying portfolio issues, NAV calculation concerns, or potential structural changes to the fund that could affect unit holder value.",
+        "Investors should monitor for the accompanying announcement that triggered the pause; resolution timeline and the nature of the disclosure will be critical in determining whether this is a routine procedural matter or indicative of deeper fund-level concerns."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGI",
+      "company": "AINSWORTH GAME TECHNOLOGY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-03T00:26:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096737-2A1675277",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Ainsworth Game Technology, signaling potential shifts in institutional investor sentiment toward the gaming technology company.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is likely incremental rather than a transformative block trade or activist accumulation.",
+        "Investors should monitor whether this forms part of a broader trend of institutional accumulation or distribution in AGI, particularly given the competitive dynamics in the Australian gaming equipment sector."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXN",
+      "company": "DXN LIMITED",
+      "headline": "A$8.8m Maiden AI HPC Contract Signed",
+      "time": "2026-06-03T00:25:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096736-3A694645",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DXN secures its maiden AI High-Performance Computing (HPC) contract worth A$8.8m, marking a strategic pivot into the high-growth AI infrastructure segment and validating its data centre capabilities for compute-intensive workloads.",
+        "The A$8.8m contract is material for a micro-cap like DXN, likely representing a significant uplift to annualised revenue and providing near-term revenue visibility — critical for improving cash runway and potentially moving toward profitability.",
+        "This maiden contract positions DXN as an emerging player in Australia's AI/HPC infrastructure market, with potential to attract follow-on contracts and re-rate the stock as investors price in recurring AI-driven revenue streams."
+      ],
+      "tags": [
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AT4",
       "company": "AMERICAN TUNGSTEN & ANTIMONY LTD",
