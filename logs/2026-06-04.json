@@ -1,9 +1,576 @@
 {
   "date": "2026-06-04",
-  "total": 38,
-  "market_sensitive_count": 25,
-  "generated_at": "2026-06-03T22:48:57.906177+00:00",
+  "total": 68,
+  "market_sensitive_count": 52,
+  "generated_at": "2026-06-03T23:26:41.662364+00:00",
   "announcements": [
+    {
+      "ticker": "TXR",
+      "company": "TALONX RESOURCES LIMITED",
+      "headline": "Shallow High-Grade RC Hits Expand Gold System at Viking",
+      "time": "2026-06-03T23:20:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097152-6A1328237",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Shallow high-grade RC drill results at the Viking prospect demonstrate meaningful expansion of the gold mineralisation system, enhancing the project's resource potential and economic viability due to lower strip ratios at shallow depths.",
+        "High-grade intercepts from reverse circulation drilling provide strong geological confidence in grade continuity, which is critical for de-risking the asset and attracting further investment or partnership interest at the exploration stage.",
+        "Follow-up drilling programs are likely to be accelerated to define resource boundaries and progress toward a maiden or updated mineral resource estimate, representing a key near-term catalyst for re-rating."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JNS",
+      "company": "JANUS ELECTRIC HOLDINGS LIMITED",
+      "headline": "North America Commercial Update",
+      "time": "2026-06-03T23:20:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097151-2A1675564",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Janus Electric provides a commercial update on its North American operations, signaling active market development efforts in a key international growth region for its battery-swap technology for heavy transport.",
+        "Expansion into North America represents a significant addressable market opportunity, potentially transforming the company's revenue trajectory from its Australian base if commercial traction is achieved with fleet operators.",
+        "Investors should monitor for concrete contract announcements, pilot program details, and capital requirements to fund the North American rollout, as execution risk remains elevated for a micro-cap entering a competitive EV/clean transport market."
+      ],
+      "tags": [
+        "Energy",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AI1",
+      "company": "ADISYN LTD",
+      "headline": "Trading Halt",
+      "time": "2026-06-03T23:19:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097150-6A1328289",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "ADISYN LTD has entered a trading halt, suspending shares from trading pending a material announcement — the market-sensitive flag suggests a significant corporate action is imminent.",
+        "As a small-cap technology/data company, trading halts for ADISYN frequently precede capital raises or strategic transactions, with potential dilution risk for existing shareholders given the company's early-stage profile and likely limited cash runway.",
+        "Investors should await the forthcoming announcement before repositioning; the halt typically lasts up to two trading days, and the nature of the pending disclosure will be critical in determining near-term valuation impact."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DVL",
+      "company": "DORSAVI LTD",
+      "headline": "RRAM Tech Evaluation Indicates 2x Battery Life in Robotics",
+      "time": "2026-06-03T23:18:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097149-3A694729",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "RRAM Tech evaluation demonstrates 2x battery life improvement in robotics applications, a potentially significant competitive differentiator that could accelerate commercial adoption and expand addressable market for Dorsavi's sensor technology platform.",
+        "Doubling battery life addresses a critical pain point in industrial robotics and wearable sensor deployments, where downtime for recharging directly impacts productivity and total cost of ownership — this positions RRAM Tech for higher-value commercial partnerships.",
+        "As a micro-cap pivoting toward technology commercialization, the key next step is converting this technical milestone into binding commercial agreements or licensing deals; investors should monitor for revenue-generating partnerships and cash runway sustainability given the company's pre-revenue profile in this segment."
+      ],
+      "tags": [
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AR1",
+      "company": "AUSTRAL RESOURCES AUSTRALIA LTD",
+      "headline": "Rocklands Restart Advances as Major Milestones Achieved",
+      "time": "2026-06-03T23:16:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097147-2A1675561",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Austral Resources is advancing the restart of its Rocklands copper operation, achieving major project milestones that signal a near-term pathway to production and potential revenue generation from an established mining asset.",
+        "Completion of key restart milestones de-risks the project timeline and reduces the gap between current pre-production expenditure and cash flow generation, a critical consideration given the company's likely constrained cash runway as a junior miner.",
+        "Investors should monitor upcoming commissioning timelines, copper price assumptions underpinning project economics, and any additional capital requirements — the transition from restart milestones to sustained production remains the key execution risk."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EBR",
+      "company": "EBR SYSTEMS INC.",
+      "headline": "CMS Initiates National Coverage Determination for WiSE",
+      "time": "2026-06-03T23:15:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097146-3A694730",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CMS (Centers for Medicare & Medicaid Services) has formally initiated a National Coverage Determination (NCD) for EBR's WiSE wireless cardiac pacing system — a critical regulatory milestone that could unlock broad Medicare reimbursement across the US, the world's largest healthcare market.",
+        "An NCD represents the highest level of Medicare coverage decision, applying nationally rather than through fragmented local carrier determinations; successful completion would dramatically expand the addressable patient population and provide reimbursement certainty that is essential for commercial scale-up and revenue generation.",
+        "The NCD process typically takes 6-9 months to complete; investors should monitor the proposed decision memo and public comment period as key catalysts, with a positive determination potentially transforming EBR's US commercial trajectory and significantly de-risking the revenue ramp thesis."
+      ],
+      "tags": [
+        "Healthcare",
+        "Market Update"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BIT",
+      "company": "BIOTRON LIMITED",
+      "headline": "$525K R&D Rebate Received",
+      "time": "2026-06-03T23:13:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097141-2A1675559",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Biotron received a $525K R&D tax incentive rebate, providing a modest but meaningful cash injection for this pre-revenue biotech — directly extending operational runway without shareholder dilution.",
+        "For a micro-cap with historically tight cash balances, the rebate represents a material proportion of quarterly burn, reinforcing the company's ability to fund ongoing antiviral drug development programs in the near term.",
+        "The rebate signals continued eligibility under the Australian R&D Tax Incentive scheme, confirming active R&D expenditure and program progression — investors should monitor upcoming clinical milestones and remaining cash position for dilution risk timing."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TMK",
+      "company": "TMK ENERGY LIMITED",
+      "headline": "Operations Update - May 2026",
+      "time": "2026-06-03T23:12:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097138-6A1328287",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TMK Energy provides a market-sensitive operations update for May 2026, signaling material developments in its energy exploration or production activities that warrant investor attention.",
+        "As a Mongolia-focused gas exploration company, operational updates typically relate to drilling progress, flow testing results, or resource estimates at the Gurvantes XXXV coal seam gas project — any positive data points could materially re-rate the stock given its early-stage profile.",
+        "Investors should scrutinize the update for well performance metrics, timeline to pilot production, and any capital expenditure guidance that may signal near-term funding requirements or accelerated development milestones."
+      ],
+      "tags": [
+        "Production",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HIQ",
+      "company": "HITIQ LIMITED",
+      "headline": "Continued Suspension of Class from Quotation - HIQOA Only",
+      "time": "2026-06-03T23:12:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097137-6A1328284",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "HITIQ's HIQOA class of securities remains suspended from quotation on ASX, indicating ongoing compliance or regulatory issues that prevent normal trading in this specific security class.",
+        "Continued suspension suggests unresolved conditions — potentially related to capital structure, disclosure requirements, or corporate actions — that the company has yet to satisfy for reinstatement.",
+        "Institutional investors should monitor for further ASX announcements detailing the conditions required for lifting the suspension; prolonged suspension raises liquidity risk and may signal deeper corporate governance concerns."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LKY",
+      "company": "LOCKSLEY RESOURCES LIMITED",
+      "headline": "LKY Confirms El Campo High-Grade Rare Earth Mineralisation",
+      "time": "2026-06-03T23:10:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097136-6A1328285",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Locksley Resources confirms high-grade rare earth element (REE) mineralisation at El Campo, validating the project's exploration thesis and potentially positioning the asset as a significant REE discovery on the ASX at a time of heightened critical minerals interest.",
+        "Confirmation of high-grade REE results is technically significant for a micro-cap explorer, likely to drive re-rating potential as the market prices in resource upside — though investors should note the early-stage nature with no defined resource estimate yet.",
+        "Next steps will likely involve follow-up drilling programs and maiden resource estimation at El Campo; the company's ability to fund continued exploration without excessive dilution will be a key watchpoint for institutional investors assessing capital efficiency."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OSL",
+      "company": "ONCOSIL MEDICAL LTD",
+      "headline": "Trading Halt",
+      "time": "2026-06-03T23:09:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097134-2A1675556",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "OncoSil Medical has entered a trading halt, typically preceding a material announcement such as a capital raise, corporate transaction, or significant clinical/regulatory update for the brachytherapy device company.",
+        "As a pre-revenue medical device company with historically constrained cash runway, any trading halt raises immediate questions about potential equity dilution or strategic transaction to fund ongoing operations and commercialization efforts.",
+        "Investors should await the pending announcement before repositioning; the nature of the halt (voluntary vs ASX-requested) and timing will be critical in determining whether this signals a transformative deal or further balance sheet pressure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XEN",
+      "company": "XENITRA LIMITED",
+      "headline": "$1.1m in OPAL-Tokenised Product Sales in First 7 Weeks",
+      "time": "2026-06-03T23:08:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097133-2A1675551",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Xenitra reports $1.1M in OPAL-tokenised product sales within just 7 weeks of launch, signalling strong early commercial traction for its blockchain-based tokenisation platform and validating market demand for digitised real-world assets.",
+        "The rapid revenue ramp provides a meaningful near-term cash injection for a micro-cap company, potentially extending cash runway and reducing near-term dilution risk, though sustainability of this sales velocity beyond the initial launch period remains the key question.",
+        "Early momentum in tokenised product sales could position Xenitra to attract institutional partnerships and scale distribution channels; investors should watch for repeat purchase rates, pipeline disclosures, and whether the company can maintain or accelerate this run-rate toward annualised revenues north of $8M."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LEX",
+      "company": "LEFROY EXPLORATION LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-03T23:07:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097132-6A1328286",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Lefroy Exploration, triggering a mandatory disclosure under ASX substantial holding rules, signaling active institutional portfolio rebalancing in this gold exploration junior.",
+        "As a non-market-sensitive filing, the change likely reflects a marginal shift around the 5% threshold rather than a dramatic accumulation or disposal, limiting immediate price impact for LEX shareholders.",
+        "Investors should monitor whether this forms part of a broader trend of institutional accumulation or reduction, which could signal evolving confidence in Lefroy's exploration pipeline and gold asset portfolio in the Eastern Goldfields region."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IPX",
+      "company": "IPERIONX LIMITED",
+      "headline": "Titan DFS Confirms High-Return US Critical Minerals Project",
+      "time": "2026-06-03T23:07:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097131-6A1328283",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Definitive Feasibility Study for the Titan critical minerals project confirms strong economic returns, positioning IperionX as a key US-based titanium supply chain player amid growing domestic critical minerals policy support.",
+        "DFS likely validates robust NPV and IRR metrics for the Virginia-based titanium project, reinforcing the investment case at a time when US government incentives (IRA, Defense Production Act) are accelerating funding for domestic critical mineral projects.",
+        "Completion of the DFS is a major de-risking milestone that should unlock next-phase financing discussions, potential offtake agreements, and positions the company for construction decision — watch for capital raise or strategic partnership announcements in coming quarters."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ITM",
+      "company": "ITECH MINERALS LTD",
+      "headline": "Drilling Commenced at Reynolds Range Gold-Antimony Prospects",
+      "time": "2026-06-03T23:06:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097129-2A1675553",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "iTech Minerals has commenced drilling at Reynolds Range gold-antimony prospects in the Northern Territory, targeting a commodity (antimony) that has surged to record prices due to Chinese export restrictions, positioning the company in a critical minerals supply narrative.",
+        "The dual gold-antimony targeting strategy enhances the project's economic optionality — antimony is classified as a critical mineral by multiple Western governments, and any meaningful intercepts could materially re-rate the stock given current antimony prices exceeding US$25,000/t.",
+        "As an early-stage explorer, results from this drill program will be the key near-term catalyst; investors should monitor for assay turnaround timelines and whether intercepts justify follow-up drilling or resource definition work, with cash runway a key watch item given no revenue generation."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "C79",
+      "company": "CHRYSOS CORPORATION LIMITED",
+      "headline": "$200 Million Debt Facility Executed to Accelerate Growth",
+      "time": "2026-06-03T23:04:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097126-2A1675546",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Chrysos has secured a $200 million debt facility, providing significant non-dilutive capital to accelerate deployment of its PhotonAssay units — a strong signal of lender confidence in the company's recurring revenue model and asset base.",
+        "The debt facility replaces equity-funded growth with leverage, preserving shareholder value and extending the company's capacity to scale its installed fleet without further capital raises, materially improving the capital efficiency of its rollout strategy.",
+        "The accelerated deployment pathway should drive faster revenue growth as each additional PhotonAssay unit generates long-term contracted recurring income, with the facility likely structured against predictable cash flows from existing and committed unit placements."
+      ],
+      "tags": [
+        "Finance",
+        "Technology",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STV",
+      "company": "SWIFT TV LTD",
+      "headline": "Trading Halt",
+      "time": "2026-06-03T23:03:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097125-6A1328281",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Swift TV Ltd has entered a trading halt, suspending shares from trading pending a material announcement — the nature of which is undisclosed but flagged as market sensitive, suggesting a potentially significant corporate action.",
+        "For a micro-cap media/technology company like Swift TV, trading halts frequently precede capital raises, acquisitions, or material contract announcements — any of which could materially alter the company's cash runway and valuation profile.",
+        "Investors should await the pending announcement before repositioning; the halt creates short-term liquidity risk and uncertainty, with the outcome likely to drive a sharp re-rating in either direction upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ILA",
+      "company": "ISLAND PHARMACEUTICALS LIMITED",
+      "headline": "Island Advances Galidesivir GMP Manufacturing for Biodefence",
+      "time": "2026-06-03T23:03:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097124-3A694727",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Island Pharmaceuticals is advancing GMP (Good Manufacturing Practice) manufacturing of galidesivir, a broad-spectrum antiviral, positioning the company within the high-priority US biodefence market — a sector with significant government funding tailwinds post-pandemic.",
+        "Progress on GMP manufacturing is a critical de-risking milestone, as it demonstrates the company's ability to produce clinical/commercial-grade drug product, which is essential for securing US government procurement contracts (e.g., BARDA/DoD) that could represent substantial non-dilutive revenue.",
+        "For a micro-cap like Island (limited revenue, cash-constrained), achieving manufacturing readiness without a capital raise announcement signals disciplined execution; however, investors should monitor upcoming cash runway disclosures closely as GMP manufacturing is capital-intensive and further funding may be required."
+      ],
+      "tags": [
+        "Healthcare",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FGR",
+      "company": "FIRST GRAPHENE LIMITED",
+      "headline": "FGR Acquires MITO Material Solutions Inc",
+      "time": "2026-06-03T22:59:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097116-6A1328282",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "First Graphene acquires MITO Material Solutions Inc, a US-based graphene additives company, signaling a strategic push to expand its product portfolio and geographic reach into the North American market.",
+        "The acquisition is expected to be accretive by combining FGR's graphene production capabilities with MITO's established customer relationships and proprietary dispersion technology, potentially accelerating commercial revenue pathways for both entities.",
+        "Integration execution risk and the financial terms of the deal (including any scrip/cash consideration and potential dilution) will be critical to monitor, alongside near-term milestones for cross-selling synergies and combined revenue trajectory."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CTQ",
+      "company": "CARETEQ LIMITED",
+      "headline": "Conversion of Convertible Notes",
+      "time": "2026-06-03T22:57:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097113-2A1675540",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Conversion of convertible notes into equity eliminates debt obligations but results in share dilution for existing CARETEQ shareholders, a common trade-off for micro-cap companies managing cash runway.",
+        "The conversion signals the company may be preserving cash by reducing interest-bearing liabilities, though the specific conversion terms (price, number of shares issued) will determine the magnitude of dilutive impact on existing holders.",
+        "Investors should monitor the post-conversion capital structure closely, as repeated note conversions in micro-caps often precede further capital raises and can create sustained selling pressure from new shareholders looking to exit."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BTM",
+      "company": "BREAKTHROUGH MINERALS LIMITED",
+      "headline": "High-Grade Copper in Barbara Confirms Growth Potential",
+      "time": "2026-06-03T22:57:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097112-2A1675541",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade copper intercepts at the Barbara deposit confirm mineralisation continuity and growth potential, reinforcing the asset's prospectivity for resource expansion in a strong copper price environment.",
+        "The market-sensitive designation signals management views these results as material — high-grade copper hits at an early-stage explorer can significantly re-rate valuation multiples if grades and widths support economic extraction.",
+        "Next steps likely include follow-up drilling to extend known mineralisation at Barbara, with potential for updated resource estimates that could attract farm-in partners or support future capital raises to advance the project."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "H2G",
+      "company": "H2G LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-03T22:53:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097107-2A1675536",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in H2G Limited, crossing the 5% ownership threshold, signaling growing external investor interest in the micro-cap hydrogen/green energy company.",
+        "The filing is classified as not market sensitive, suggesting this is a routine disclosure rather than a precursor to a takeover bid or activist campaign at this stage.",
+        "Investors should monitor for any subsequent increases in the substantial holder's stake or association with board-level engagement, which could indicate strategic intentions beyond passive investment."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MIO",
+      "company": "MACARTHUR MINERALS LIMITED",
+      "headline": "Macarthur Consents to Gold Valley Destec JV Arrangement",
+      "time": "2026-06-03T22:53:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097106-6A1328279",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Macarthur Minerals has consented to a joint venture arrangement at its Gold Valley project with Destec, signaling a strategic partnership that could unlock value from its gold assets without requiring sole capital expenditure.",
+        "The JV structure likely reduces Macarthur's funding burden on the Gold Valley project, preserving cash runway for its core Lake Giles iron ore project while maintaining exposure to gold exploration upside.",
+        "Investors should monitor forthcoming JV terms including earn-in thresholds, expenditure commitments, and dilution mechanics to assess whether this arrangement is materially accretive or primarily a capital preservation strategy for the micro-cap explorer."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RAC",
+      "company": "RACURA ONCOLOGY LTD",
+      "headline": "Emerging Companies Specialist Invests in Racura",
+      "time": "2026-06-03T22:50:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097101-2A1675533",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "An emerging companies specialist fund has taken a strategic investment in Racura Oncology, providing a credibility signal for the pre-revenue oncology company and potentially validating its pipeline or technology platform.",
+        "The involvement of a specialist investor focused on emerging companies suggests due diligence has been conducted on Racura's clinical assets, which may improve the company's ability to attract further institutional capital and extend its cash runway.",
+        "This investment acts as a potential catalyst for increased market awareness and liquidity; investors should watch for details on investment size, any associated capital raise terms, and whether this signals upcoming clinical milestones or partnership developments."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TAT",
+      "company": "TARTANA MINERALS LIMITED",
+      "headline": "Tartana Copper resource expansion drilling continues",
+      "time": "2026-06-03T22:49:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097100-2A1675531",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tartana Minerals is actively drilling to expand its copper resource base, signaling confidence in the deposit's potential and commitment to advancing the project toward a larger resource estimate.",
+        "Resource expansion drilling programs at this stage are critical for de-risking the asset and potentially upgrading resource classifications, which could materially impact project economics and attract further investment interest.",
+        "Continued drilling results will be key catalysts — successful intercepts could support a resource upgrade, improved feasibility metrics, and strengthen the company's position for future development or partnership discussions."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VMM",
+      "company": "VIRIDIS MINING AND MINERALS LIMITED",
+      "headline": "Viridis Executes First Major Project Delivery Contract",
+      "time": "2026-06-03T22:47:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097099-6A1328278",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Viridis has secured its first major project delivery contract, marking a significant commercial milestone that validates the company's operational capabilities and positions it for revenue generation.",
+        "Execution of a first major contract is a critical inflection point for junior/emerging companies, potentially transitioning Viridis from pre-revenue exploration to active project delivery with near-term cash flow implications.",
+        "Investors should monitor contract value disclosure, delivery timeline, and whether this serves as a reference project to unlock a pipeline of future contracts, which would materially de-risk the company's growth trajectory."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "UBN",
+      "company": "URBANISE.COM LIMITED",
+      "headline": "New Strata Payments, NAB Banking Integration and Portal",
+      "time": "2026-06-03T22:46:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097095-2A1675528",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Urbanise launches integrated strata payments platform with NAB banking integration, enabling automated levy collection, payment processing, and trust account management — a significant product expansion targeting the high-volume strata management vertical.",
+        "New owner/tenant portal and payments capability positions Urbanise to capture transactional revenue streams beyond SaaS subscriptions, potentially improving ARPU and revenue quality across its existing strata customer base.",
+        "Strategic banking partnership with NAB adds institutional credibility and could accelerate enterprise adoption; the payments layer creates switching cost stickiness that should improve customer retention and lifetime value."
+      ],
+      "tags": [
+        "Technology",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CR3",
+      "company": "CORE ENERGY MINERALS LTD",
+      "headline": "Strong Infill Auger Results Confirm Tunas REE Continuity",
+      "time": "2026-06-03T22:45:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097094-2A1675527",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Infill auger drilling at the Tunas REE project confirms continuity of rare earth element mineralisation, de-risking the deposit and strengthening the geological model ahead of resource estimation upgrades.",
+        "Strong assay results from infill drilling validate earlier exploration data, suggesting the REE mineralisation is laterally extensive and consistent — a critical factor for potential economic viability and future resource classification upgrades.",
+        "Confirmed continuity positions Core Energy Minerals to advance toward a maiden or updated JORC resource estimate, a key catalyst that could attract strategic partners or funding in the increasingly supply-constrained critical minerals sector."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VRL",
+      "company": "VERITY RESOURCES LIMITED",
+      "headline": "97% Gold Recovery at Waihi Deposit",
+      "time": "2026-06-03T22:45:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097091-6A1328276",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Verity Resources reports exceptional 97% gold recovery rate at its Waihi Deposit, a technically significant metallurgical result that substantially de-risks the project's processing pathway and supports future feasibility economics.",
+        "A 97% recovery rate is well above industry averages for gold projects and, if confirmed at scale, would materially enhance projected revenue per tonne mined, improving the deposit's NPV and attractiveness to potential JV partners or acquirers.",
+        "Next catalysts likely include resource definition drilling, further metallurgical testwork at varying ore types/depths, and progression toward scoping or pre-feasibility studies — investors should monitor for resource estimate updates that pair tonnage/grade with this high recovery metric."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DTM",
+      "company": "DART MINING NL",
+      "headline": "More High-grade Gold, Silver, and Antimony at Banshee",
+      "time": "2026-06-03T22:44:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097090-3A694720",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dart Mining reports continued high-grade gold, silver, and antimony intercepts at the Banshee prospect, reinforcing the polymetallic potential of the project and supporting resource expansion ambitions.",
+        "The inclusion of antimony is strategically significant given antimony's classification as a critical mineral with surging prices driven by China's export restrictions, potentially enhancing the project's economic appeal beyond precious metals alone.",
+        "Further drilling and assay results at Banshee are expected to build toward a maiden or updated resource estimate, a key catalyst for re-rating as the company advances from exploration toward development-stage milestones."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "OIL",
       "company": "OPTISCAN IMAGING LIMITED",
