@@ -1,9 +1,365 @@
 {
   "date": "2026-06-03",
-  "total": 60,
-  "market_sensitive_count": 53,
-  "generated_at": "2026-06-02T23:34:55.545834+00:00",
+  "total": 79,
+  "market_sensitive_count": 71,
+  "generated_at": "2026-06-03T00:15:10.983495+00:00",
   "announcements": [
+    {
+      "ticker": "AT4",
+      "company": "AMERICAN TUNGSTEN & ANTIMONY LTD",
+      "headline": "Trading Halt",
+      "time": "2026-06-03T00:11:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096730-6A1328135",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "American Tungsten & Antimony Ltd has entered a trading halt, likely pending a material announcement related to a capital raise, acquisition, or significant corporate development given the market-sensitive classification.",
+        "As a critical minerals-focused company dealing in tungsten and antimony — both classified as strategic/critical minerals by major economies — any corporate action could carry outsized significance amid heightened geopolitical supply chain concerns.",
+        "Investors should await the pending announcement before repositioning; the trading halt mechanism suggests the company needs time to finalise terms or documentation, with shares expected to resume trading upon release of the material update."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ANX",
+      "company": "ANAX METALS LIMITED",
+      "headline": "Placement to Accelerate Exploration & Director Appointment",
+      "time": "2026-06-03T00:05:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096725-6A1328107",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "ANAX Metals is conducting a capital raise via placement to fund accelerated exploration activities, signaling management confidence in near-term drill targets but introducing equity dilution for existing shareholders.",
+        "The simultaneous director appointment alongside the placement suggests strategic board refreshment to support the next phase of growth, potentially bringing new technical or capital markets expertise.",
+        "Investors should monitor placement pricing, discount to last traded price, and use of proceeds details to assess dilution impact versus exploration upside potential at the company's base metals projects."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IEL",
+      "company": "IDP EDUCATION LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-03T00:01:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096723-3A694643",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in IDP Education, signaling active portfolio rebalancing by a major institutional investor in the international education services company.",
+        "IDP Education, with a market cap exceeding $5B, is closely watched by institutional investors; shifts in substantial holdings can indicate evolving views on the company's growth trajectory amid changing international student enrollment dynamics.",
+        "This is a regulatory disclosure filing and does not indicate a takeover or activist campaign; investors should monitor whether the change reflects accumulation or reduction to assess directional institutional sentiment."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAP",
+      "company": "MICROBA LIFE SCIENCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-03T00:00:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096722-2A1675272",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Microba Life Sciences has entered a trading halt, typically preceding a material announcement such as a capital raise, partnership deal, or corporate transaction for this pre-profit microbiome diagnostics company.",
+        "As a cash-burning life sciences company with limited revenue streams, a trading halt most likely signals an equity capital raise which would be dilutive to existing shareholders but could extend critical cash runway.",
+        "Investors should await the pending announcement before repositioning; the nature of the halt (voluntary, company-requested) suggests management is controlling the information flow ahead of a potentially market-moving disclosure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AT4",
+      "company": "AMERICAN TUNGSTEN & ANTIMONY LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-06-03T00:00:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096721-6A1328133",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "American Tungsten & Antimony Ltd has entered a trading pause, typically preceding a material announcement such as a capital raise, acquisition, or significant operational update in the critical minerals space.",
+        "As a company focused on tungsten and antimony — both classified as critical minerals with heightened geopolitical significance — any pending announcement could carry outsized market relevance given current US/Western supply chain diversification efforts.",
+        "Investors should await the substantive announcement that triggered the pause; the market-sensitive designation suggests the forthcoming disclosure is expected to have a material impact on the company's valuation or strategic direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-06-02T23:57:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096718-6A1328130",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kingston Resources has been suspended from quotation on the ASX, halting all trading activity and removing near-term liquidity for shareholders.",
+        "Suspension from quotation (as distinct from a voluntary trading halt) typically signals a more serious compliance or corporate issue, potentially involving failure to meet ASX Listing Rule requirements or pending material corporate action such as a restructure or acquisition.",
+        "Investors should monitor for a follow-up announcement clarifying the reason for suspension; prolonged suspension risks delisting and raises concerns about the company's ability to maintain continuous disclosure and governance obligations."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "VYS",
+      "company": "VYSARN LIMITED",
+      "headline": "Acquisition of NewGround",
+      "time": "2026-06-02T23:55:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096714-6A1328038",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Vysarn Limited is acquiring NewGround, a strategic M&A move that likely expands its service capabilities or geographic footprint in the drilling and water management sectors, signaling management's intent to accelerate growth through inorganic means.",
+        "As a market-sensitive announcement, the acquisition is expected to be material to Vysarn's revenue base and operational scale — investors should watch for disclosed deal metrics including purchase price, funding structure (cash vs scrip), and any earnings accretion guidance provided by management.",
+        "Integration execution risk and potential balance sheet impact (including goodwill and possible capital raise to fund the deal) will be key near-term considerations; successful integration could meaningfully enhance Vysarn's competitive positioning in the Australian infrastructure and resources services market."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RAN",
+      "company": "RANGE INTERNATIONAL LIMITED",
+      "headline": "Secured Loan Facility to Accelerate Growth Initiatives",
+      "time": "2026-06-02T23:55:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096713-2A1675270",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Range International has secured a loan facility to fund growth initiatives, providing near-term capital without immediate equity dilution, though debt servicing obligations will need to be monitored given the company's micro-cap status and historically constrained cash position.",
+        "The secured nature of the facility implies company assets have been pledged as collateral, introducing downside risk if growth initiatives fail to generate sufficient returns to service the debt — a critical consideration for a company with limited revenue scale.",
+        "The facility is positioned to accelerate growth plans, suggesting management sees near-term opportunities requiring capital deployment; investors should watch for specifics on use of proceeds, interest terms, maturity profile, and any covenants that could constrain operational flexibility."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "G88",
+      "company": "GOLDEN MILE RESOURCES LTD",
+      "headline": "SIGNIFICANT BROAD GOLD ANOMALISM AT AURORA",
+      "time": "2026-06-02T23:55:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096712-3A694637",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Golden Mile Resources reports significant broad gold anomalism at its Aurora prospect, suggesting a potentially large-scale gold system that could materially upgrade the project's exploration value and attract market attention.",
+        "The characterization of anomalism as 'significant' and 'broad' implies widespread gold mineralization across the target area, which if confirmed by follow-up drilling could substantially de-risk the asset and support resource definition.",
+        "Next steps will likely involve follow-up drilling programs to test the anomalous zones; investors should monitor upcoming drill results and assess the company's cash position to fund continued exploration without near-term dilutive capital raises."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AR9",
+      "company": "ARCHTIS LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-06-02T23:53:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096710-6A1328128",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ARCHTIS responded to an ASX price query regarding unusual share price or volume movements, which typically indicates the exchange is seeking confirmation of any undisclosed material information driving recent trading activity.",
+        "The market-sensitive designation suggests the company may have disclosed previously unannounced developments or confirmed awareness of factors contributing to price movement, warranting close monitoring of the specific response content.",
+        "Investors should scrutinize whether the response reveals pending contracts, partnership discussions, or other catalysts for the cybersecurity/data security firm, or whether the company confirmed it has no explanation for the price movement beyond general market conditions."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENN",
+      "company": "ELANOR INVESTORS GROUP",
+      "headline": "Appointment of Chief Executive Officer and Board Transition",
+      "time": "2026-06-02T23:51:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096709-2A1675265",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Elanor Investors Group has appointed a new CEO, signaling a strategic leadership transition that may shift the company's direction in funds management and real asset investment — a key watch point for institutional holders assessing management continuity risk.",
+        "Board transition accompanying the CEO appointment suggests a broader governance refresh, which could indicate either a response to underperformance or a proactive repositioning of the platform for growth — investors should monitor for any concurrent changes to strategy or capital allocation priorities.",
+        "As a market-sensitive announcement, the timing and nature of the leadership change will be critical to near-term sentiment; investors should watch for follow-up commentary on strategic priorities, AUM targets, and any impact on existing fund mandates or co-investment arrangements."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SMX",
+      "company": "STRATA MINERALS LIMITED.",
+      "headline": "High-Grade Gold System Confirmed at Zelica",
+      "time": "2026-06-02T23:50:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096707-6A1328124",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strata Minerals has confirmed a high-grade gold system at its Zelica prospect, a significant de-risking milestone that validates the exploration thesis and could attract further market attention to the asset.",
+        "The 'high-grade' characterisation suggests assay results materially above typical economic thresholds for gold, potentially enhancing the project's NPV profile and positioning it for resource definition drilling — critical detail for investors will be actual grades, widths, and continuity.",
+        "Next steps likely involve follow-up drilling programs to test strike and depth extensions; investors should monitor upcoming drill planning announcements and assess the company's cash position to fund continued exploration without near-term dilutive capital raises."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MAP",
+      "company": "MICROBA LIFE SCIENCES LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-06-02T23:49:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096705-2A1675268",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Microba Life Sciences has entered a pause in trading, typically preceding a material announcement such as a capital raise, acquisition, or significant corporate update that requires orderly market disclosure.",
+        "As a small-cap healthcare/diagnostics company with historically constrained cash runway, any trading halt raises immediate questions about potential equity dilution or transformative corporate activity.",
+        "Investors should monitor for the pending announcement closely — the market-sensitive classification signals material news is imminent, with the nature of the halt likely to define near-term price direction upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKY",
+      "company": "SKY METALS LIMITED",
+      "headline": "Tallebung Key NSW Approvals Milestone Achieved",
+      "time": "2026-06-02T23:49:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096704-2A1675267",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sky Metals has secured key NSW regulatory approvals for its Tallebung project, removing a significant permitting hurdle that de-risks the pathway toward exploration and potential development activities.",
+        "Achievement of this approvals milestone is material for a junior explorer as it unlocks the ability to advance drilling programs and resource definition work, which are critical catalysts for re-rating in the near term.",
+        "Next steps likely involve mobilisation of exploration activities at Tallebung, with investors watching for drill program commencement timelines and results that could further define the project's economic potential."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MBH",
+      "company": "MAGGIE BEER HOLDINGS LTD",
+      "headline": "Non-Binding Indicative Offer for HGA received",
+      "time": "2026-06-02T23:49:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096703-3A694639",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Maggie Beer Holdings has received a non-binding indicative offer for its Hamlyn Grange Australia (HGA) business, signaling potential strategic divestment as the company reshapes its portfolio around core brands",
+        "A non-binding indicative offer at this stage is preliminary — key details including price, conditions, and due diligence requirements will be critical in determining whether the transaction is value-accretive for shareholders",
+        "The market-sensitive designation suggests the offer is material enough to impact valuation; investors should watch for board response, formal due diligence commencement, and whether competing bids emerge to drive price tension"
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "L1M",
+      "company": "LIGHTNING MINERALS LTD",
+      "headline": "STRONGLY SUPPORTED A$1.85 MILLION CAPITAL RAISING",
+      "time": "2026-06-02T23:45:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096695-6A1328109",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lightning Minerals raised A$1.85 million in a capital raising described as 'strongly supported,' indicating solid investor demand despite the company's early-stage exploration profile.",
+        "The raise provides near-term funding for continued exploration activities, though the equity dilution at what is likely a discount to market price will weigh on existing shareholders in the short term.",
+        "The 'strongly supported' characterization suggests institutional or sophisticated investor backing, which may signal confidence in upcoming exploration catalysts and provide a cash runway extension for drilling programs."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VAR",
+      "company": "VARISCAN MINES LIMITED",
+      "headline": "Drill Program Advancing at The Novales Project",
+      "time": "2026-06-02T23:45:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096692-6A1328122",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Variscan is advancing its drill program at the Novales zinc-lead project in northern Spain, signaling active exploration momentum and potential for near-term resource delineation catalysts.",
+        "Market-sensitive classification suggests the drilling results or progress disclosed contain material information — likely indicating encouraging geological indicators or meaningful program milestones that could impact valuation.",
+        "Successful drill results at Novales could de-risk the asset and support a pathway toward resource estimation or expansion, providing a potential re-rating catalyst for the junior explorer in the base metals space."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "49M",
+      "company": "49 METALS LIMITED",
+      "headline": "High Grade Gold Discovery at Gold Mountain",
+      "time": "2026-06-02T23:43:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096689-6A1328075",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "49 Metals has announced a high-grade gold discovery at its Gold Mountain project, a potentially transformative exploration result that could materially re-rate the company if confirmed by follow-up drilling and resource estimation.",
+        "The market-sensitive designation signals management views the discovery as material to valuation — investors should focus on reported grades, intercept widths, and geological continuity to assess whether this represents a genuine economic deposit or isolated high-grade hits.",
+        "Key next steps include infill and extensional drilling programs to define the scale and geometry of the mineralised system; the company's cash position and ability to fund aggressive follow-up exploration without significant dilution will be critical to watch."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HTM",
+      "company": "HIGH-TECH METALS LTD",
+      "headline": "FREE MILLING GOLD RECOVERIES 92.7% CONFIRMED - WAGTAIL",
+      "time": "2026-06-02T23:38:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096677-6A1328111",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Metallurgical testwork at the Wagtail gold project confirms 92.7% gold recovery via free milling (gravity + CIL), signaling a straightforward, low-cost processing pathway that significantly de-risks the project's economic viability.",
+        "Free milling characteristics eliminate the need for complex or capital-intensive processing infrastructure, potentially lowering capex and opex assumptions in any future feasibility study and improving project-level margins at current gold prices.",
+        "The confirmed high recovery rate strengthens the case for advancing Wagtail toward resource definition and scoping studies, likely catalyzing further exploration investment and potentially attracting JV or M&A interest in a buoyant gold market."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "WAU",
       "company": "WA GOLD LIMITED",
