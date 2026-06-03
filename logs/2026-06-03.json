@@ -1,9 +1,103 @@
 {
   "date": "2026-06-03",
-  "total": 86,
-  "market_sensitive_count": 76,
-  "generated_at": "2026-06-03T00:55:19.432931+00:00",
+  "total": 91,
+  "market_sensitive_count": 79,
+  "generated_at": "2026-06-03T01:56:36.517293+00:00",
   "announcements": [
+    {
+      "ticker": "RAU",
+      "company": "RESOURO STRATEGIC METALS INC.",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-03T01:25:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096769-6A1328148",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for Resouro Strategic Metals indicates a notable shift in ownership structure, with a major shareholder either increasing, decreasing, or restructuring their position in the company.",
+        "The filing is classified as not market sensitive, suggesting the change is likely incremental or administrative rather than reflecting a dramatic shift in investor conviction or a block trade at a significant premium/discount.",
+        "Institutional investors should monitor whether this reflects portfolio rebalancing or a directional view on Resouro's strategic metals assets; follow-up filings or trading patterns will clarify intent and potential impact on free float and liquidity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUV",
+      "company": "AURAVELLE METALS LIMITED",
+      "headline": "Sheoak Trend Expanded",
+      "time": "2026-06-03T01:07:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096761-6A1328146",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Auravelle Metals has expanded the Sheoak Trend mineralisation footprint, signaling growing scale potential at the project and increasing the prospectivity of the broader tenement package for future resource definition.",
+        "Expansion of a key exploration trend is a positive de-risking signal for early-stage explorers, potentially attracting institutional attention and improving the company's positioning ahead of any future resource estimate or capital raise.",
+        "Next steps likely include follow-up drilling programs to test the expanded trend's continuity and grade, which will be critical catalysts for re-rating — investors should watch for assay results and updated geological interpretations in coming quarters."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HTM",
+      "company": "HIGH-TECH METALS LTD",
+      "headline": "FREE MILLING GOLD RECOVERIES 97.2% CONFIRMED - AMENDED",
+      "time": "2026-06-03T01:03:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096758-6A1328142",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-Tech Metals confirmed exceptional free milling gold recoveries of 97.2%, indicating highly amenable ore to conventional processing with low metallurgical risk — a critical de-risking milestone for project economics and potential development decisions.",
+        "Near-perfect recovery rates significantly enhance the project's NPV potential by minimizing gold losses during processing, reducing the need for complex or costly extraction methods such as refractory ore treatment.",
+        "The 'amended' nature of the announcement suggests a correction to prior disclosure, but the core metallurgical result remains a strong catalyst that should support further advancement toward feasibility studies and attract potential JV or M&A interest."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EIG",
+      "company": "PERENNIAL INCOME GENERATOR ACTIVE ETF",
+      "headline": "EIGA Estimated Distribution May 2026",
+      "time": "2026-06-03T01:03:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096757-2A1675358",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Perennial Income Generator Active ETF (EIGA) has announced an estimated distribution for May 2026, signaling continued income generation and commitment to regular unitholder payments.",
+        "The market-sensitive classification suggests the estimated distribution amount may represent a material yield signal for income-focused investors, reinforcing the ETF's positioning as a reliable income vehicle in the active ETF space.",
+        "Investors should monitor the ex-distribution and payment dates closely, as confirmed distribution amounts will determine actual yield metrics and may drive short-term flows into or out of the fund around key dates."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JDO",
+      "company": "JUDO CAPITAL HOLDINGS LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-06-03T01:00:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03096756-2A1675359",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Judo Capital Holdings, indicating their stake has fallen below the 5% disclosure threshold, which may reflect portfolio rebalancing or a deliberate reduction in exposure to the challenger bank.",
+        "The exit of a substantial holder can increase free float and potentially create short-term selling pressure, though the filing is classified as not market sensitive, suggesting an orderly disposition rather than a forced or distressed sale.",
+        "Investors should monitor whether this reflects broader institutional sentiment shifts toward Judo Capital amid the competitive SME lending landscape, and watch for any replacement substantial holder notices or changes in register composition."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BIM",
       "company": "BINDI METALS LIMITED",
