@@ -1,9 +1,83 @@
 {
   "date": "2026-06-04",
-  "total": 82,
-  "market_sensitive_count": 66,
-  "generated_at": "2026-06-04T00:14:28.965306+00:00",
+  "total": 86,
+  "market_sensitive_count": 69,
+  "generated_at": "2026-06-04T00:54:48.128026+00:00",
   "announcements": [
+    {
+      "ticker": "NGI",
+      "company": "NAVIGATOR GLOBAL INVESTMENTS LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-06-04T00:29:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097228-2A1675604",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Navigator Global Investments, indicating a meaningful reduction in ownership below the 5% threshold, which may signal a shift in institutional conviction or portfolio rebalancing.",
+        "The exit of a substantial holder can increase free float and potentially create near-term selling pressure, though the announcement is flagged as not market sensitive, suggesting an orderly disposition rather than a forced or distressed sale.",
+        "Investors should monitor whether this is part of broader institutional repositioning ahead of any corporate activity at Navigator Global, particularly given the company's ongoing strategic evolution in the alternative asset management space."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LAC",
+      "company": "LAC GOLD LIMITED",
+      "headline": "Multiple Exceptional High-Grade Gold Intersections at Rouyn",
+      "time": "2026-06-04T00:28:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097226-6A1328310",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "LAC Gold reports multiple exceptional high-grade gold intersections at its Rouyn project, signaling significant exploration upside that could materially re-rate the company's resource potential and attract market attention to this early-stage explorer.",
+        "The use of 'exceptional' and 'multiple' high-grade hits suggests intercepts well above typical economic thresholds, which if confirmed with robust widths and continuity, could fast-track resource definition and enhance the project's economic viability in a strong gold price environment.",
+        "Investors should watch for detailed assay results including grades, widths, and geological context to assess whether these intersections represent a coherent ore system capable of supporting a meaningful resource estimate and advancing toward feasibility studies."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SRJ",
+      "company": "SRJ TECHNOLOGIES GROUP PLC",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-06-04T00:24:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097225-2A1675602",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SRJ Technologies responded to an ASX price query regarding unusual share price or volume movements, a standard compliance procedure triggered by abnormal trading activity that suggests heightened market interest or speculative positioning.",
+        "The company's response typically confirms or denies awareness of any undisclosed material information — the market-sensitive designation indicates the response contains substantive content that could influence trading decisions.",
+        "Investors should monitor for potential catalysts such as contract wins, partnership announcements, or corporate actions that may have driven the unusual activity, as price queries often precede or coincide with material developments in small-cap industrials."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TEA",
+      "company": "TASMEA LIMITED",
+      "headline": "TEA Special Dividend of 10.0 cents per share (fully franked)",
+      "time": "2026-06-04T00:19:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097221-6A1328308",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Tasmea Limited declares a special dividend of 10.0 cents per share, fully franked, signaling strong surplus cash generation and management confidence in the balance sheet beyond ordinary capital requirements.",
+        "The fully franked nature of the special dividend maximizes after-tax value for domestic shareholders and suggests robust underlying taxable earnings, pointing to solid operational profitability in the current period.",
+        "Special dividends of this nature often indicate either a one-off windfall (asset sale, contract completion) or sustained outperformance versus internal targets — investors should monitor for accompanying commentary on capital allocation priorities and whether this signals a structural uplift in shareholder returns."
+      ],
+      "tags": [
+        "Dividend"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "EBR",
       "company": "EBR SYSTEMS INC.",
