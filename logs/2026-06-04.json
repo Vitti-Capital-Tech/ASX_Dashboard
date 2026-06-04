@@ -1,9 +1,216 @@
 {
   "date": "2026-06-04",
-  "total": 71,
-  "market_sensitive_count": 55,
-  "generated_at": "2026-06-03T23:33:47.051953+00:00",
+  "total": 82,
+  "market_sensitive_count": 66,
+  "generated_at": "2026-06-04T00:14:28.965306+00:00",
   "announcements": [
+    {
+      "ticker": "EBR",
+      "company": "EBR SYSTEMS INC.",
+      "headline": "Trading Halt",
+      "time": "2026-06-04T00:06:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097210-3A694746",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "EBR Systems has entered a trading halt, typically preceding a material announcement such as a capital raise or significant corporate development for this pre-revenue medical device company focused on wireless cardiac pacing technology.",
+        "As a cash-burning medtech company awaiting FDA approval for its WiSE system, any trading halt likely signals an equity raise to extend cash runway, which would be dilutive to existing shareholders but necessary for operational continuity.",
+        "Investors should watch for the pending announcement — if a capital raise, the discount to last traded price and size relative to market cap will be critical; if regulatory or clinical news, it could materially re-rate the stock in either direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPG",
+      "company": "SPC GLOBAL HOLDINGS LTD",
+      "headline": "Entitlement Offer Results",
+      "time": "2026-06-04T00:05:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097208-3A694747",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "SPC Global Holdings has completed its entitlement offer, with results now disclosed to market — the level of shareholder participation and any shortfall will be critical in assessing dilution impact and investor confidence in the company's strategy.",
+        "As a capital raise outcome announcement, the key metrics to watch are total funds raised versus target, take-up rate among eligible shareholders, and whether underwriters or sub-underwriters were required to absorb any shortfall, all of which signal market appetite for SPC at the offer price.",
+        "Proceeds from the entitlement offer will bolster SPC's balance sheet and extend cash runway — investors should monitor how management deploys the capital (debt reduction, working capital, or growth initiatives) and whether the dilutive impact is offset by near-term earnings catalysts."
+      ],
+      "tags": [
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WMX",
+      "company": "WAM INCOME MAXIMISER LIMITED",
+      "headline": "Increased monthly FF divs, investment portfolio outperforms",
+      "time": "2026-06-04T00:01:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097206-2A1675586",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WAM Income Maximiser has increased its monthly fully franked dividend, signaling management confidence in sustainable income generation and enhancing the yield proposition for income-focused investors.",
+        "The investment portfolio has outperformed its benchmark, demonstrating active management alpha and validating the fund's strategy in current market conditions — a key metric for LIC premium/discount dynamics.",
+        "The combination of rising distributions and portfolio outperformance should support a narrowing of any NTA discount and attract renewed institutional and retail demand for the LIC."
+      ],
+      "tags": [
+        "Dividend",
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SRJ",
+      "company": "SRJ TECHNOLOGIES GROUP PLC",
+      "headline": "Pause in Trading",
+      "time": "2026-06-03T23:57:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097204-2A1675585",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SRJ Technologies has requested a pause in trading, typically indicating a pending material announcement such as a capital raise, acquisition, or significant corporate development.",
+        "Trading halts for small-cap technology companies like SRJ often precede capital raises or strategic transactions, with potential dilution risk or transformative deal implications for existing shareholders.",
+        "Investors should monitor for the forthcoming announcement that triggered the halt, as the nature of the disclosure will determine whether the impact is accretive or dilutive to shareholder value."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WMX",
+      "company": "WAM INCOME MAXIMISER LIMITED",
+      "headline": "Dividend/Distribution - WMX",
+      "time": "2026-06-03T23:54:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097200-2A1675580",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "WAM Income Maximiser (WMX) has declared a dividend/distribution, reinforcing its commitment to delivering regular income streams to shareholders in the listed investment company (LIC) space.",
+        "The dividend announcement is market-sensitive, suggesting the distribution amount, record date, or payment terms carry material implications for yield-focused investors tracking WMX's payout consistency and franking levels.",
+        "Investors should monitor the ex-dividend date for trading positioning and assess whether the distribution is fully franked, as WMX's yield profile relative to peers in the WAM stable (WAM Capital, WAM Leaders) remains a key differentiator for income-oriented portfolios."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ARL",
+      "company": "ARDEA RESOURCES LIMITED",
+      "headline": "KNP Goongarrie Hub Awarded Lead Agency Status",
+      "time": "2026-06-03T23:54:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097197-6A1328303",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ardea's Kalgoorlie Nickel Project (KNP) Goongarrie Hub has been granted Lead Agency Status by the WA Government, streamlining the approvals process by coordinating all regulatory agencies through a single point of contact — a significant de-risking milestone for the project.",
+        "Lead Agency Status is typically reserved for projects of state significance, signaling government recognition of KNP's strategic importance as one of the world's largest undeveloped nickel-cobalt laterite deposits, enhancing its credibility with potential offtake partners and financiers.",
+        "This approval pathway acceleration is expected to compress permitting timelines, bringing Ardea closer to a Final Investment Decision and improving the project's attractiveness amid growing demand for battery metals critical to the energy transition supply chain."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EBR",
+      "company": "EBR SYSTEMS INC.",
+      "headline": "Pause in Trading",
+      "time": "2026-06-03T23:52:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097193-3A694743",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EBR Systems has entered a trading pause, typically preceding a material announcement such as a capital raise, regulatory update, or corporate transaction — investors should prepare for potential portfolio-moving news.",
+        "As a clinical-stage medical device company (wireless cardiac pacing), EBR's cash runway is a persistent concern; a trading pause often precedes equity raises which could be dilutive to existing shareholders.",
+        "Institutional investors should monitor for the pending announcement closely — the nature of the news (capital raise vs. FDA/regulatory milestone vs. M&A) will determine whether the stock re-rates positively or faces selling pressure on resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCM",
+      "company": "CADOUX LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-03T23:48:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097186-6A1328301",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Cadoux Limited has entered a trading halt, suspending shares from trading pending a material announcement — the specific nature of the announcement is undisclosed, creating uncertainty for holders.",
+        "For a micro/small-cap ASX company, trading halts frequently precede capital raises (potentially dilutive) or transformative transactions such as acquisitions; investors should prepare for either scenario.",
+        "Trading will remain halted until the company releases its pending announcement or until the commencement of normal trading on the second business day, whichever comes first — clarity on the catalyst is imminent."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "L1M",
+      "company": "LIGHTNING MINERALS LTD",
+      "headline": "HIGH-GRADE TUNGSTEN ASSAYS CONFIRM EXTENSIVE MINERALISATION",
+      "time": "2026-06-03T23:46:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097182-6A1328299",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lightning Minerals has confirmed extensive high-grade tungsten mineralisation, a critical mineral with strong demand tailwinds from defence, semiconductor, and clean energy sectors, potentially positioning the company as a strategically significant ASX-listed tungsten play.",
+        "High-grade assay results validate the geological model and de-risk the resource, which could materially upgrade any future resource estimate and attract strategic or offtake interest given the current global tungsten supply concentration in China.",
+        "Next steps likely include follow-up drilling to expand the mineralised footprint and progress toward a maiden or updated mineral resource estimate, with the market-sensitive designation signalling management views these results as materially value-accretive."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MGU",
+      "company": "MAGNUM MINING AND EXPLORATION LIMITED",
+      "headline": "MGU SIGNIFICANTLY EXPANDS FOOTPRINT AROUND IAC REE DISCOVERY",
+      "time": "2026-06-03T23:39:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097174-6A1328296",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Magnum Mining has significantly expanded its tenement holdings around the IAC Rare Earth Elements discovery, increasing its strategic land position to capture potential extensions of REE mineralisation — a critical move given surging global demand for rare earths in energy transition technologies.",
+        "The expanded footprint de-risks future exploration by securing ground around a known REE discovery before competitors, potentially enhancing the project's resource upside and improving the company's negotiating position with potential partners or offtake counterparties.",
+        "Next steps will likely involve systematic exploration across the newly acquired tenements to define drill targets; investors should watch for upcoming geochemical/geophysical survey results and any resource estimate updates that could serve as material catalysts for re-rating."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BUR",
+      "company": "BURLEY MINERALS LTD",
+      "headline": "Cane Bore North Heritage Survey to Commence",
+      "time": "2026-06-03T23:35:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097169-6A1328295",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Burley Minerals is commencing a heritage survey at Cane Bore North, a critical pre-drilling regulatory step that signals the company is advancing toward on-ground exploration at this prospect.",
+        "Completion of the heritage survey is a key de-risking milestone, as it clears the pathway for drill permitting and subsequent exploration programs that could generate material newsflow for this early-stage explorer.",
+        "Investors should monitor for survey completion timelines and subsequent drilling approvals, as any delays in heritage clearance could push back exploration catalysts and extend the company's pre-revenue cash burn period."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AW1",
       "company": "AMERICAN WEST METALS LIMITED",
