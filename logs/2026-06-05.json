@@ -1,9 +1,179 @@
 {
   "date": "2026-06-05",
-  "total": 12,
-  "market_sensitive_count": 10,
-  "generated_at": "2026-06-04T22:34:11.576304+00:00",
+  "total": 21,
+  "market_sensitive_count": 19,
+  "generated_at": "2026-06-04T23:01:16.200794+00:00",
   "announcements": [
+    {
+      "ticker": "MP1",
+      "company": "MEGAPORT LIMITED",
+      "headline": "Megaport Completes Institutional Entitlement Offer",
+      "time": "2026-06-04T22:58:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097557-2A1675874",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Megaport has successfully completed the institutional component of its entitlement offer, signaling strong institutional demand and providing near-term funding certainty for the company's growth initiatives.",
+        "The completion of the institutional tranche is a critical milestone in the capital raise process, with proceeds likely earmarked for network expansion, potential M&A, or balance sheet strengthening — key details on pricing and take-up rates will determine the degree of dilution for existing shareholders.",
+        "The retail entitlement offer component remains ahead, and investors should monitor the take-up rate and any shortfall bookbuild as indicators of broader market confidence; the additional capital extends Megaport's cash runway as it scales its software-defined networking platform globally."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPT",
+      "company": "PERPETUAL LIMITED",
+      "headline": "PCT acquisition and Perpetual improves gross debt position",
+      "time": "2026-06-04T22:56:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097554-2A1675897",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Perpetual has completed the acquisition by KKR-backed consortium, with PCT shareholders receiving scheme consideration, marking the conclusion of a transformative M&A process for the company.",
+        "The company has improved its gross debt position in conjunction with the transaction, strengthening the balance sheet and potentially reducing interest costs — a material positive for ongoing financial flexibility.",
+        "Post-acquisition, investors should monitor integration execution, any changes to fund management mandates, and the strategic direction under new ownership, as KKR's involvement signals potential operational restructuring and efficiency gains."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CIP",
+      "company": "CENTURIA INDUSTRIAL REIT",
+      "headline": "Dividend/Distribution - CIP",
+      "time": "2026-06-04T22:55:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097553-2A1675896",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Centuria Industrial REIT (CIP) has declared a distribution, signaling continued income generation from its industrial property portfolio and commitment to regular unitholder returns.",
+        "As a market-sensitive announcement, the distribution details (amount, record date, payment date) will be closely watched by income-focused investors for any change in payout levels relative to prior periods, which would indicate underlying portfolio performance trends.",
+        "Consistent distributions from CIP reinforce the defensive appeal of Australian industrial REITs amid ongoing demand for logistics and warehouse assets; investors should monitor distribution per unit trends and payout ratios for signs of earnings sustainability or compression."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NME",
+      "company": "NEX METALS EXPLORATION LIMITED",
+      "headline": "Completion of Arika JV divestment unlocks value for NME",
+      "time": "2026-06-04T22:50:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097551-6A1328435",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NEX Metals has completed the divestment of its Arika Joint Venture interest, unlocking value and simplifying the company's asset portfolio, which should allow management to focus capital and resources on core exploration targets.",
+        "The completion of the JV divestment likely provides NME with near-term cash proceeds or reduced expenditure obligations, improving the company's financial flexibility and extending cash runway for its remaining exploration activities in the Eastern Goldfields region.",
+        "With the Arika JV resolved, NME can now redirect strategic focus toward its flagship Kookynie and other gold exploration projects, with the market likely to re-rate the stock based on the clarity of its streamlined asset base and upcoming exploration catalysts."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SVL",
+      "company": "SILVER MINES LIMITED",
+      "headline": "Option Underwriting Agreement Executed",
+      "time": "2026-06-04T22:47:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097549-2A1675893",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Silver Mines Limited has secured an underwriting agreement for its options, providing certainty of capital inflow upon option exercise and reducing funding risk for ongoing exploration and development activities.",
+        "The underwriting arrangement effectively backstops potential dilution by guaranteeing proceeds from option conversions, strengthening the company's near-term cash runway without needing to pursue alternative capital raising mechanisms at potentially less favorable terms.",
+        "Execution of the underwriting agreement signals confidence from the underwriter in Silver Mines' valuation and project pipeline, though investors should monitor the terms and any discount to market pricing that may cap near-term upside."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FND",
+      "company": "FINDI LIMITED",
+      "headline": "Findi Board Transition and Strategic Business Review",
+      "time": "2026-06-04T22:44:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097546-3A694801",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Board transition signals potential strategic shift, with leadership changes often preceding material corporate actions such as asset sales, restructuring, or pivots in business direction — investors should monitor for follow-through announcements.",
+        "A concurrent 'Strategic Business Review' alongside board changes suggests the company may be evaluating underperforming segments, capital allocation, or potential M&A activity, which could materially alter Findi's valuation trajectory depending on outcomes.",
+        "Near-term uncertainty is elevated as the market awaits clarity on the scope and timeline of the strategic review; institutional investors should watch for updates on any operational restructuring, cost rationalization, or capital management initiatives."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AKA",
+      "company": "AUREKA LIMITED",
+      "headline": "MAG Survey Identifies New High Priority Targets",
+      "time": "2026-06-04T22:40:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097542-3A694800",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ground magnetic survey at Aureka's exploration project has identified new high-priority targets, potentially expanding the prospective footprint and adding drill-ready opportunities to the pipeline.",
+        "MAG survey results represent a de-risking step for future drilling programs by providing geophysical evidence to prioritize targets, though no resource or assay data accompanies this announcement — the value remains contingent on follow-up work.",
+        "Next steps will likely involve detailed target ranking and drill planning; investors should watch for upcoming drill program announcements and funding capacity to execute, as early-stage explorers face ongoing dilution risk to fund fieldwork."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EZL",
+      "company": "EUROZ HARTLEYS GROUP LIMITED",
+      "headline": "Response to Media Speculation",
+      "time": "2026-06-04T22:38:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097539-6A1328434",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Euroz Hartleys has issued a formal response to media speculation, likely addressing rumours around potential M&A activity, strategic review, or corporate restructuring involving the financial services group.",
+        "As a market-sensitive announcement, the response suggests the speculation is material enough to warrant ASX disclosure obligations, indicating the company may be in active discussions or evaluating a significant corporate transaction.",
+        "Investors should monitor for follow-up announcements; 'response to media speculation' filings often precede formal deal confirmations or denials, with the stock likely to see elevated volatility until clarity is provided on the nature of the speculation."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AKN",
+      "company": "AUKING MINING LIMITED",
+      "headline": "Tundulu Airborne Survey Defines Large Carbonatite System",
+      "time": "2026-06-04T22:33:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097536-2A1675880",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Airborne geophysical survey at Tundulu (Malawi) has delineated a large carbonatite system spanning approximately 6km, significantly expanding the prospective target area for rare earth elements and phosphate mineralisation beyond the known Tundulu complex.",
+        "The survey identified multiple discrete magnetic and radiometric anomalies within and adjacent to the carbonatite, providing high-priority drill targets that could materially increase the project's resource potential — critical for a micro-cap explorer where discovery-stage catalysts drive valuation.",
+        "Next steps include ground-truthing of anomalies and drill target prioritisation, with AuKing positioning Tundulu as a potential multi-commodity REE-phosphate project; investors should monitor upcoming exploration budgets and cash runway given the capital-intensive nature of follow-up drilling programs."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AKN",
       "company": "AUKING MINING LIMITED",
