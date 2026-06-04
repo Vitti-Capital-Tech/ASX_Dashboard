@@ -1,9 +1,159 @@
 {
   "date": "2026-06-04",
-  "total": 86,
-  "market_sensitive_count": 69,
-  "generated_at": "2026-06-04T00:54:48.128026+00:00",
+  "total": 94,
+  "market_sensitive_count": 73,
+  "generated_at": "2026-06-04T01:56:07.388071+00:00",
   "announcements": [
+    {
+      "ticker": "BOL",
+      "company": "BOOM LOGISTICS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-04T01:43:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097254-3A694758",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Boom Logistics, signaling active institutional portfolio rebalancing in the small-cap industrial services space.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is incremental rather than a major accumulation or disposal that would materially shift the register.",
+        "Investors should monitor whether this forms part of a broader trend of institutional buying or selling in BOL, which could influence liquidity and near-term price discovery for the thinly-traded stock."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EBR",
+      "company": "EBR SYSTEMS INC.",
+      "headline": "EBR to Raise A$150m via Fully Underwritten Capital Raising",
+      "time": "2026-06-04T01:41:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097253-3A694754",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EBR Systems is raising A$150m through a fully underwritten capital raising, signaling strong institutional support but introducing significant dilution for existing shareholders of this medical device company focused on wireless cardiac pacing technology.",
+        "The fully underwritten nature of the raise provides execution certainty, suggesting lead managers have secured sufficient institutional demand at the offer price, though the size relative to EBR's market cap implies material dilutive impact on per-share metrics.",
+        "Proceeds are likely earmarked to fund the commercialization pathway for the WiSE (Wireless Stimulation Endocardially) system, extending cash runway through critical FDA approval milestones and early-stage market launch activities."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TEA",
+      "company": "TASMEA LIMITED",
+      "headline": "TEA Special Dividend of 10.0 cents per share (updated)",
+      "time": "2026-06-04T01:41:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097252-6A1328318",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Tasmea Limited has declared a special dividend of 10.0 cents per share, signaling strong free cash flow generation and balance sheet confidence beyond its regular distribution commitments.",
+        "The 'updated' tag on the announcement suggests a revision to previously disclosed terms — investors should verify changes to record date, payment date, or franking status, as any shift in franking could alter after-tax yield attractiveness.",
+        "A special dividend of this magnitude from a services-oriented company like Tasmea reinforces management's capital discipline and may indicate limited near-term M&A deployment, potentially re-rating the stock on yield appeal among income-focused institutional investors."
+      ],
+      "tags": [
+        "Dividend"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NGS",
+      "company": "NUTRITIONAL GROWTH SOLUTIONS LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-04T01:29:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097243-6A1328316",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Nutritional Growth Solutions Ltd (NGS) has filed a change in their holding, signaling a shift in institutional or major shareholder positioning in this micro-cap healthcare/nutrition company.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is likely incremental rather than a transformative block trade or activist accumulation/disposal event.",
+        "Investors should monitor whether this reflects gradual accumulation (potential confidence signal) or disposal (liquidity exit), particularly given NGS's limited free float and the outsized impact major holder movements can have on thinly traded ASX-listed stocks."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMR",
+      "company": "BALLYMORE RESOURCES LIMITED",
+      "headline": "Successful Completion of Entitlement Offer",
+      "time": "2026-06-04T01:24:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097240-2A1675608",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Ballymore Resources has successfully completed its entitlement offer, securing fresh capital to advance its exploration and development pipeline, signaling strong enough shareholder support to fill the raise.",
+        "The successful completion reduces near-term funding risk and extends the company's cash runway, though the equity issuance introduces dilution for non-participating shareholders — a typical trade-off for junior resource companies at this stage.",
+        "Investors should monitor deployment of proceeds toward key project milestones and any follow-on placement or shortfall allocation details, which will determine whether the capital raise translates into meaningful value creation."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "C1X",
+      "company": "COSMOS EXPLORATION LIMITED",
+      "headline": "Becoming a substantial holder x 3",
+      "time": "2026-06-04T01:13:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097235-6A1328313",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Three simultaneous substantial holder notices indicate a coordinated or related-party accumulation of significant voting power in Cosmos Exploration Limited, suggesting strategic positioning by new investors.",
+        "The filing of three separate Form 603s points to multiple entities crossing the 5% threshold concurrently, which may reflect a placement or capital raise event that has concentrated ownership among a small group of holders.",
+        "Institutional investors should monitor for follow-up announcements regarding the nature of the share acquisitions (on-market vs off-market), any associated capital raise terms, and potential implications for board influence or corporate strategy changes."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ROG",
+      "company": "RED SKY ENERGY LIMITED.",
+      "headline": "Site Works Underway for Innamincka Drilling",
+      "time": "2026-06-04T01:13:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097234-3A694751",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Red Sky Energy has commenced site preparation works at its Innamincka project in the Cooper Basin, signaling imminent drilling activity and a transition from planning to execution phase — a key de-risking milestone for this exploration-stage company.",
+        "Commencement of physical site works validates the company's operational timeline and suggests sufficient near-term funding is in place to progress drilling, though investors should monitor cash burn closely given the capital-intensive nature of onshore gas exploration.",
+        "The upcoming drilling program at Innamincka represents a binary catalyst event — successful results could materially re-rate the stock by proving up hydrogen/helium or conventional gas resources in the Cooper Basin, while failure would weigh heavily on a micro-cap with limited revenue streams."
+      ],
+      "tags": [
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "XST",
+      "company": "XSTATE RESOURCES LIMITED",
+      "headline": "Notice of Ceasing to be a Substantial Holder",
+      "time": "2026-06-04T01:05:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097233-6A1328312",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Xstate Resources, indicating a significant sell-down or dilution event that reduced their stake below the 5% threshold required for disclosure.",
+        "For a micro-cap energy explorer like Xstate, the departure of a substantial holder may signal waning institutional or strategic investor confidence, potentially reducing share price support and liquidity.",
+        "Investors should monitor whether the exit was driven by portfolio rebalancing or fundamental concerns, and watch for any subsequent capital raise or corporate activity that may have triggered the dilution."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "NGI",
       "company": "NAVIGATOR GLOBAL INVESTMENTS LIMITED",
