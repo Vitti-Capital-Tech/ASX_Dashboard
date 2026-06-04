@@ -1,9 +1,331 @@
 {
   "date": "2026-06-05",
-  "total": 21,
-  "market_sensitive_count": 19,
-  "generated_at": "2026-06-04T23:01:16.200794+00:00",
+  "total": 38,
+  "market_sensitive_count": 36,
+  "generated_at": "2026-06-04T23:28:28.039782+00:00",
   "announcements": [
+    {
+      "ticker": "SKU",
+      "company": "HEJAZ SUKUK ACTIVE ETF",
+      "headline": "Suspension from Trading Status",
+      "time": "2026-06-04T23:25:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097619-2A1675949",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hejaz Sukuk Active ETF has been suspended from trading on the ASX, signaling a significant disruption to investor liquidity and raising questions about the fund's operational or compliance status.",
+        "As a Sharia-compliant fixed income ETF, a trading suspension is particularly notable given the niche nature of the product — any prolonged halt could erode investor confidence in the emerging Islamic finance ETF segment on the ASX.",
+        "Investors should monitor for follow-up announcements clarifying the reason for suspension (e.g., NAV calculation issues, regulatory concerns, or voluntary delisting) as the path to reinstatement or wind-up will determine recovery prospects for unitholders."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "EBR",
+      "company": "EBR SYSTEMS INC.",
+      "headline": "Successful Completion of Institutional Offer",
+      "time": "2026-06-04T23:25:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097617-3A694804",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EBR Systems has successfully completed its institutional offer, securing committed funding that strengthens its balance sheet and extends cash runway to support commercialization of its wireless cardiac pacing technology (WiSE system).",
+        "Strong institutional participation signals confidence in EBR's clinical and regulatory trajectory, though the capital raise introduces dilution for existing shareholders — the net impact depends on pricing relative to market and the quantum raised.",
+        "Proceeds are expected to fund ongoing FDA approval efforts and early commercial launch activities, with the institutional completion now paving the way for any retail component and accelerating the path toward US market entry."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ISL",
+      "company": "HEJAZ EQUITIES FUND ACTIVE ETF",
+      "headline": "Suspension from Trading Status",
+      "time": "2026-06-04T23:24:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097615-2A1675946",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hejaz Equities Fund Active ETF has been suspended from trading on the ASX, signaling a significant operational or compliance issue that removes liquidity for unitholders and raises governance concerns.",
+        "Suspension from trading status — distinct from a voluntary trading halt — typically indicates regulatory action, failure to meet listing requirements, or material unresolved disclosure obligations, all of which carry elevated risk for investors.",
+        "Investors should monitor for follow-up announcements regarding the reason for suspension, any remediation timeline, and whether the fund faces potential delisting or restructuring, as re-admission to quotation is not guaranteed."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HJH",
+      "company": "HEJAZ HIGH INCOME ACTIVE ETF",
+      "headline": "Suspension from Trading Status",
+      "time": "2026-06-04T23:23:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097614-2A1675944",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hejaz High Income Active ETF has been suspended from trading on the ASX, signaling a significant compliance or structural issue that prevents normal market operations for unitholders.",
+        "Suspension of an ETF is a rare and serious event, typically triggered by inability to meet continuous disclosure obligations, NAV calculation issues, or regulatory intervention — all of which carry material risk to investor capital and liquidity.",
+        "Investors should monitor for further announcements regarding the cause of suspension, potential fund wind-up or restructuring, and any impact on underlying Sharia-compliant fixed income holdings and redemption mechanisms."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PKO",
+      "company": "PEAKO LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-04T23:23:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097612-3A694810",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Peako Limited has entered a trading halt, typically requested by the company pending a material announcement that could significantly impact the share price.",
+        "As a junior mining/exploration company, trading halts frequently precede capital raises (potentially dilutive), significant exploration results, or corporate transactions such as acquisitions or asset deals.",
+        "Investors should await the pending announcement before taking positions; the halt signals imminent material news that will clarify the company's near-term direction and potential impact on valuation."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EMP",
+      "company": "EMPEROR ENERGY LIMITED",
+      "headline": "Technical Update - Judith-2 Appraisal Well",
+      "time": "2026-06-04T23:19:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097606-2A1675935",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Emperor Energy has released a technical update on the Judith-2 appraisal well, signaling active progression of its Gippsland Basin gas exploration program — a key catalyst for this micro-cap explorer's valuation trajectory.",
+        "The market-sensitive classification suggests material new subsurface or operational data has been obtained, potentially de-risking the Judith gas prospect and providing critical information for resource estimation or future development decisions.",
+        "Investors should monitor for follow-up announcements on flow test results, resource upgrades, or farm-in partner interest, as successful appraisal could significantly re-rate the stock given Emperor's tight capital structure and exposure to east coast Australian gas supply dynamics."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CHW",
+      "company": "CHILWA MINERALS LTD",
+      "headline": "Niobium Mineralisation Extended South",
+      "time": "2026-06-04T23:17:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097602-6A1328446",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Chilwa Minerals has extended niobium mineralisation to the south of its project area, indicating a potentially larger resource footprint that could materially increase the scale of any future resource estimate and enhance project economics.",
+        "The southern extension of mineralisation is technically significant as it demonstrates geological continuity beyond previously defined zones, a key de-risking factor for early-stage exploration companies seeking to attract further investment or joint venture partners.",
+        "Next steps likely involve follow-up drilling to define the extent and grade of the southern extension, with results expected to feed into an updated mineral resource estimate — a critical catalyst for re-rating in the niobium space given growing demand for niobium in steel and advanced materials applications."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RNV",
+      "company": "RENERVE LIMITED",
+      "headline": "ReNerve appoints distribution partner for Malaysian Market",
+      "time": "2026-06-04T23:15:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097599-6A1328444",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ReNerve has secured a distribution partner for the Malaysian market, signaling geographic expansion of its neuromodulation/medical device portfolio into Southeast Asia — a region with growing healthcare infrastructure spend and unmet neurological treatment demand.",
+        "The appointment of a local distribution partner de-risks market entry by leveraging existing regulatory knowledge and commercial networks, though revenue materiality will depend on contract terms, exclusivity arrangements, and the pace of regulatory approvals in Malaysia.",
+        "As a micro-cap ASX-listed company, new distribution agreements are critical catalysts for demonstrating commercial traction; investors should monitor for follow-through milestones including first orders, regulatory clearances, and any revenue guidance updates in upcoming quarters."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KNG",
+      "company": "KINGSLAND MINERALS LTD",
+      "headline": "TOV: KNG - Panel Receives Application",
+      "time": "2026-06-04T23:14:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097595_PS-6A1328445",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Takeovers Panel has received an application related to Kingsland Minerals (KNG), likely concerning a contested transaction or shareholder dispute involving TOV (likely Tovelex or related entity), signaling corporate governance uncertainty.",
+        "Panel applications typically involve allegations of unacceptable circumstances in takeover or control transactions, which can freeze deal activity and create significant share price volatility until resolved.",
+        "Investors should monitor for interim orders (such as trading halts or deal suspensions) and the Panel's decision timeline, as outcomes can materially alter deal terms, block transactions, or mandate corrective disclosure."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ATP",
+      "company": "ATLAS PEARLS LTD",
+      "headline": "Update - Kobe Auction June 2026",
+      "time": "2026-06-04T23:08:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097580-6A1328442",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Atlas Pearls has announced an update regarding its Kobe pearl auction scheduled for June 2026, signaling continued engagement with the premium Japanese pearl market which is a key revenue channel for the company.",
+        "The Kobe auction is a critical sales event for Atlas Pearls, and any update on timing, lot composition, or buyer interest could materially impact near-term revenue expectations and cash flow positioning for the micro-cap pearl producer.",
+        "Market-sensitive classification suggests the update contains material information — investors should watch for details on expected auction volumes, pricing trends, and whether this signals stronger or weaker demand conditions in the luxury pearl market heading into FY26."
+      ],
+      "tags": [
+        "Production",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AII",
+      "company": "ALMONTY INDUSTRIES INC.",
+      "headline": "Proposed Convertible Senior Notes Offering",
+      "time": "2026-06-04T23:05:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097575-6A1328440",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Almonty Industries is proposing a convertible senior notes offering, signaling a need to raise capital likely to fund operations or development at its Sangdong tungsten mine — a dilutive instrument that could pressure existing equity holders upon conversion.",
+        "Convertible notes typically carry below-market coupon rates but embed equity upside for noteholders; the conversion premium and total raise size will be critical to assess the degree of potential dilution and whether the terms are favorable or punitive for current shareholders.",
+        "Investors should watch for final pricing terms, use of proceeds disclosure, and any concurrent hedging or capped call transactions — the structure will determine whether this is a growth-enabling capital raise or a sign of constrained financing alternatives."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Release of Second Supplementary Target's Statement",
+      "time": "2026-06-04T23:05:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097574-2A1675908",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Atlas Arteria has released a Second Supplementary Target's Statement, indicating material developments or updated information relevant to an ongoing takeover or merger proposal that shareholders need to consider before voting or accepting.",
+        "The release of supplementary target statements typically signals evolving deal dynamics — potentially revised terms, updated independent expert opinions, or new material information that could affect the board's recommendation and ultimate deal valuation.",
+        "Institutional investors should closely review the supplementary disclosure for any changes to the independent expert's valuation range, updated traffic/toll revenue forecasts, or revised board recommendations, as these will be critical in determining whether the current offer adequately reflects Atlas Arteria's intrinsic infrastructure asset value."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IFG",
+      "company": "INFOCUS GROUP HOLDINGS LIMITED",
+      "headline": "Operational restructure to deliver material cost reduction",
+      "time": "2026-06-04T23:03:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097572-6A1328439",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "InFocus Group Holdings is undertaking an operational restructure aimed at delivering material cost reductions, signaling management's urgency to improve profitability and preserve cash amid challenging operating conditions.",
+        "The market-sensitive nature of the announcement suggests the cost cuts are substantial enough to meaningfully impact the P&L, likely involving headcount reductions, office consolidations, or business line rationalization that could improve near-term EBITDA margins.",
+        "While restructuring charges may weigh on near-term earnings, the initiative should extend cash runway and position the company for improved operating leverage — investors should watch for quantified savings targets, implementation timeline, and any associated one-off costs in follow-up disclosures."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AQD",
+      "company": "AUSQUEST LIMITED",
+      "headline": "Drilling update Playa Kali and Lantana",
+      "time": "2026-06-04T23:01:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097568-6A1328437",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AusQuest provides a drilling update on its Playa Kali and Lantana prospects, signaling active exploration progress that could de-risk these targets and drive near-term re-rating if results are positive.",
+        "The market-sensitive designation suggests the drilling results contain material information — likely significant intersections or geological findings that could meaningfully impact the company's resource potential and valuation.",
+        "Investors should watch for assay results and follow-up drilling programs at both prospects, as successful outcomes could catalyze further exploration investment and potentially attract farm-in partners to advance development."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ARN",
+      "company": "ALDORO RESOURCES LIMITED",
+      "headline": "DD003B confirms both Nb-Rich Margin and REE-Rich Core",
+      "time": "2026-06-04T23:01:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097566-6A1328438",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drill hole DD003B at Aldoro's Narndee Igneous Complex has confirmed a dual-zone mineralisation model with a niobium-rich margin and REE-rich core, significantly de-risking the geological thesis and supporting resource potential for both critical minerals.",
+        "The confirmation of both Nb and REE enrichment zones in a single drill hole strengthens the case for a polymetallic deposit, which could enhance project economics through diversified revenue streams from high-demand critical minerals.",
+        "Results are expected to accelerate further drilling and resource definition work; investors should watch for assay grades, metallurgical testwork, and any updated resource estimates that will determine whether the project can advance toward scoping study stage."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CIP",
+      "company": "CENTURIA INDUSTRIAL REIT",
+      "headline": "June 2026 Distribution Declaration",
+      "time": "2026-06-04T23:01:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097564-2A1675903",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Centuria Industrial REIT has declared its distribution for the June 2026 quarter, signaling continued commitment to regular unitholder returns and confidence in forward cash flow generation from its industrial property portfolio.",
+        "The declaration provides visibility on income distributions approximately 12 months out, which is notable for institutional investors modeling yield and total return expectations for CIP units.",
+        "As a market-sensitive announcement, the distribution level will be closely scrutinized for any change versus prior quarters — any uplift would reflect improving rental income and occupancy trends across the industrial REIT's portfolio, while a flat or reduced payout could signal caution on leasing conditions or capital allocation priorities."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARN",
+      "company": "ALDORO RESOURCES LIMITED",
+      "headline": "Kameelburg delivers 99% Sr & 72% REE in Maiden Leach Results",
+      "time": "2026-06-04T23:00:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097563-6A1328436",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Maiden leach test results from Kameelburg project delivered exceptional 99% strontium and 72% rare earth element recoveries, demonstrating strong amenability to hydrometallurgical processing and de-risking the flowsheet pathway.",
+        "High recovery rates at this early stage are technically significant for a junior explorer, potentially positioning the project favorably against peers in the critical minerals space where processing complexity is often a key bottleneck.",
+        "Results likely to catalyze further metallurgical optimization work and support progression toward scoping/feasibility studies; investors should watch for follow-up resource definition drilling and process refinement to assess commercial viability and timeline to development."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "MP1",
       "company": "MEGAPORT LIMITED",
