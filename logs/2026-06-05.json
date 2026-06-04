@@ -1,9 +1,143 @@
 {
   "date": "2026-06-05",
-  "total": 38,
-  "market_sensitive_count": 36,
-  "generated_at": "2026-06-04T23:28:28.039782+00:00",
+  "total": 45,
+  "market_sensitive_count": 43,
+  "generated_at": "2026-06-04T23:54:28.073345+00:00",
   "announcements": [
+    {
+      "ticker": "AAU",
+      "company": "ANTILLES GOLD LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-06-04T23:51:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097645-2A1675971",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Antilles Gold has requested a pause in trading, typically preceding a material announcement such as a capital raise, asset transaction, or significant corporate development in its Cuban gold-copper projects.",
+        "As a junior explorer with limited revenue, any forthcoming announcement could materially impact the company's cash runway, project financing, or strategic direction — key variables for valuation.",
+        "Investors should await the pending announcement before repositioning; the trading halt removes near-term liquidity and signals imminent disclosure of price-sensitive information."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DN1",
+      "company": "DOMINION INCOME TRUST 1",
+      "headline": "Dividend/Distribution - DN1",
+      "time": "2026-06-04T23:44:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097639-2A1675964",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Dominion Income Trust 1 (DN1) has announced a dividend/distribution, signaling continued income generation and commitment to returning capital to unitholders in the current market environment.",
+        "As a market-sensitive announcement, the distribution details likely reflect the trust's underlying portfolio yield and cash flow capacity, which is a key metric for income-focused institutional investors evaluating the trust's sustainability.",
+        "Investors should monitor the ex-distribution date, payment date, and whether the distribution level is maintained, increased, or reduced relative to prior periods, as any change would signal shifts in the trust's earnings outlook or asset quality."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AII",
+      "company": "ALMONTY INDUSTRIES INC.",
+      "headline": "Trading Halt",
+      "time": "2026-06-04T23:40:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097638-6A1328448",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Almonty Industries has entered a trading halt on the ASX, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update related to its tungsten mining operations.",
+        "As a tungsten-focused miner with the flagship Sangdong mine in South Korea nearing production, any halt-related announcement could materially impact valuation given the strategic importance of tungsten in critical minerals supply chains.",
+        "Investors should await the pending announcement before repositioning; the halt removes near-term liquidity and the nature of the disclosure will determine whether this is dilutive (capital raise) or accretive (offtake deal, project milestone, or M&A)."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAP",
+      "company": "MICROBA LIFE SCIENCES LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-06-04T23:39:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097637-2A1675961",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Microba Life Sciences (MAP) has been suspended from quotation on the ASX, indicating a significant corporate event is pending — likely a capital raise, acquisition, or material transaction requiring a trading halt escalation to full suspension.",
+        "For a micro-cap healthcare/biotech company like Microba, a suspension often signals cash runway concerns or a transformative deal; investors should monitor for potential dilutive capital raising or a possible takeover/scheme of arrangement.",
+        "Trading will remain halted until the company makes a further announcement satisfying ASX requirements — the nature and terms of the pending announcement will be critical in determining whether this is value-accretive or dilutive for existing shareholders."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ERA",
+      "company": "ENERGY RESOURCES OF AUSTRALIA LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-04T23:39:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097636-2A1675959",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Energy Resources of Australia (ERA) has entered a trading halt, likely pending a material announcement related to its Ranger uranium mine rehabilitation obligations or corporate restructuring given the company's ongoing wind-down phase.",
+        "ERA's financial position is critically constrained with significant rehabilitation liabilities at the Ranger Project Area; any capital raise or restructuring announcement could materially impact the stock given its tight cash runway and reliance on parent Rio Tinto for support.",
+        "Investors should await the pending announcement before repositioning — key catalysts include potential capital raising, rehabilitation cost updates, or a possible corporate action involving majority shareholder Rio Tinto (which holds ~86% of ERA)."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COF",
+      "company": "CENTURIA OFFICE REIT",
+      "headline": "June 2026 Distribution Declaration",
+      "time": "2026-06-04T23:35:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097631-2A1675957",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Centuria Office REIT has declared its distribution for the June 2026 period, signaling continued commitment to regular unitholder returns despite ongoing headwinds in the Australian office sector.",
+        "The declaration being marked as market sensitive suggests the distribution quantum may represent a material change from prior periods — investors should scrutinize the per-unit amount relative to prior guidance and FY26 DPU trajectory.",
+        "Forward distribution visibility is critical for office REITs facing elevated vacancy rates and cap rate expansion; the declaration provides a near-term income signal but investors should monitor occupancy trends and debt refinancing costs for sustainability."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AT4",
+      "company": "AMERICAN TUNGSTEN & ANTIMONY LTD",
+      "headline": "High-Grade Drill Results Extend Antimony Canyon System",
+      "time": "2026-06-04T23:30:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097627-6A1328416",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-grade drill results extending the Antimony Canyon system signal meaningful resource growth potential at a time when antimony prices are elevated due to Chinese export restrictions, positioning the company favorably in a critical minerals supply narrative.",
+        "Extension of the mineralized system through drilling suggests the deposit remains open and could support a larger resource estimate, which is technically significant for a junior explorer seeking to advance toward a development-stage asset.",
+        "Continued high-grade intercepts provide the geological confidence needed to justify further drilling investment and potential resource definition studies, with near-term catalysts likely including updated resource estimates and metallurgical testwork."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "SKU",
       "company": "HEJAZ SUKUK ACTIVE ETF",
