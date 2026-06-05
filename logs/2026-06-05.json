@@ -1,9 +1,102 @@
 {
   "date": "2026-06-05",
-  "total": 45,
-  "market_sensitive_count": 43,
-  "generated_at": "2026-06-04T23:54:28.073345+00:00",
+  "total": 50,
+  "market_sensitive_count": 47,
+  "generated_at": "2026-06-05T00:21:59.343033+00:00",
   "announcements": [
+    {
+      "ticker": "HMX",
+      "company": "HAMMER METALS LIMITED",
+      "headline": "Mount Isa JV and Earn-in Updates",
+      "time": "2026-06-05T00:19:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097676-6A1328456",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hammer Metals provides updates on its Mount Isa Joint Venture and earn-in arrangements, signaling active project advancement and partner engagement in a prolific mining district",
+        "JV and earn-in structures allow Hammer to leverage partner funding to de-risk exploration expenditure, preserving cash runway while maintaining exposure to potential upside from discovery or resource growth",
+        "Investors should monitor upcoming drilling results and earn-in milestone triggers, as these will determine whether partners commit further capital and whether Hammer's retained interest translates into material value accretion"
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAU",
+      "company": "ANTILLES GOLD LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-05T00:10:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097669-2A1675984",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Antilles Gold has requested a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant corporate development in its Cuban gold-copper projects.",
+        "As a junior explorer with limited revenue, any trading halt raises immediate questions about capital raising activity and potential dilution for existing shareholders, given the company's reliance on external funding for its development pipeline.",
+        "Investors should await the detailed announcement upon resumption of trading; the nature of the pending disclosure will be critical in determining whether this represents a value-accretive catalyst or a dilutive capital event."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Request for Extension of Voluntary Suspension",
+      "time": "2026-06-05T00:09:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097667-6A1328450",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Kingston Resources has requested an extension of its existing voluntary suspension, indicating an ongoing corporate action or transaction that remains incomplete and requires additional time to finalise.",
+        "Extended voluntary suspensions often signal complex negotiations such as potential acquisitions, capital raises, or restructuring — investors should monitor for the nature of the underlying announcement that triggered the original halt.",
+        "Shares will remain untradeable until the company makes its pending announcement or the ASX lifts the suspension, creating near-term liquidity risk and uncertainty for existing holders."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LGM",
+      "company": "LEGACY MINERALS HOLDINGS LIMITED",
+      "headline": "Harden and Thomson Project Updates",
+      "time": "2026-06-05T00:00:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097659-2A1675982",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Legacy Minerals provides exploration updates on its Harden and Thomson projects, signaling continued advancement of its NSW-based gold and base metals portfolio despite being a pre-revenue junior explorer.",
+        "Market-sensitive classification suggests material new geological or drilling data that could re-rate the company's resource potential, though specifics on assay results or resource estimates will be critical for valuation impact.",
+        "Investors should monitor upcoming drill results and cash position closely, as continued exploration spend without near-term revenue generation may necessitate future capital raises to maintain project momentum."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NSM",
+      "company": "NORTH STAWELL MINERALS LTD",
+      "headline": "Follow Up DIAMOND DRILLING Commences at DARLINGTON",
+      "time": "2026-06-04T23:53:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097646-6A1328449",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "North Stawell Minerals has commenced follow-up diamond drilling at the Darlington prospect, signaling confidence in earlier results and continued exploration momentum at this target within the Stawell Corridor gold project.",
+        "The designation as market sensitive suggests the company views Darlington as a potentially significant discovery or resource expansion opportunity, warranting investor attention on upcoming assay results that could materially impact valuation.",
+        "As a junior explorer, the pace and success of drilling programs are critical to maintaining market interest and securing future funding; investors should monitor drill results over coming weeks for grade and width intersections that could de-risk the asset."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AAU",
       "company": "ANTILLES GOLD LIMITED",
