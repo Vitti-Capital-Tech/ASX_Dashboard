@@ -1,9 +1,85 @@
 {
   "date": "2026-06-05",
-  "total": 52,
-  "market_sensitive_count": 49,
-  "generated_at": "2026-06-05T00:47:09.756097+00:00",
+  "total": 56,
+  "market_sensitive_count": 51,
+  "generated_at": "2026-06-05T01:46:33.072514+00:00",
   "announcements": [
+    {
+      "ticker": "GCM",
+      "company": "GCM CORPORATION LIMITED",
+      "headline": "Proposed Share Consolidation to Support Potential US Listing",
+      "time": "2026-06-05T01:18:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097709-6A1328467",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GCM Corporation is proposing a share consolidation specifically designed to meet minimum share price thresholds required for a potential US exchange listing, signaling strategic intent to access deeper capital markets and broaden its investor base.",
+        "Share consolidations ahead of US listings typically aim to achieve the US$1-$4+ minimum bid price requirements for NASDAQ/NYSE; while mechanically neutral, the consolidation itself does not change market capitalization but may reduce liquidity on the ASX in the near term.",
+        "A successful US dual-listing could unlock access to significantly larger pools of institutional capital and improve valuation multiples, but execution risk remains high — investors should watch for details on the consolidation ratio, target exchange, and any accompanying capital raise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GCM",
+      "company": "GCM CORPORATION LIMITED",
+      "headline": "Notice of General Meeting/Proxy Form",
+      "time": "2026-06-05T01:09:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097704-6A1328464",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GCM Corporation has called a General Meeting, flagged as market sensitive, suggesting resolutions beyond routine administrative matters that could materially impact the company's direction or structure.",
+        "The market-sensitive classification indicates potential corporate actions such as capital raises, asset transactions, or significant board/constitutional changes that require shareholder approval.",
+        "Investors should closely review the proxy form details for dilutive resolutions or transformative proposals; the outcome of voting could reset the company's strategic trajectory and near-term valuation."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NGS",
+      "company": "NUTRITIONAL GROWTH SOLUTIONS LTD",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-06-05T01:03:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097702-6A1328463",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Nutritional Growth Solutions Ltd, indicating a significant sell-down that has reduced their stake below the 5% substantial holding threshold.",
+        "The exit of a substantial holder in a micro-cap like NGS may signal reduced institutional confidence or portfolio rebalancing, potentially increasing free float but also raising concerns about near-term selling pressure.",
+        "Investors should monitor whether this disposal was part of a broader liquidation trend or an isolated event, and watch for any follow-on selling or changes in the company's shareholder register composition."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LLC",
+      "company": "LENDLEASE GROUP",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-05T00:45:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097691-2A1675841",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Lendlease Group, triggering a regulatory disclosure — this is a routine filing requirement when holdings cross the 1% threshold and is flagged as not market sensitive.",
+        "The change in substantial holding signals active institutional portfolio rebalancing in Lendlease, which has been undergoing a strategic transformation including asset divestments and a pivot toward its development pipeline and funds management platform.",
+        "Investors should monitor whether this reflects a broader trend of institutional accumulation or reduction, as directional shifts by major holders can foreshadow sentiment changes around Lendlease's ongoing urban regeneration projects and capital management strategy."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MYX",
       "company": "MAYNE PHARMA GROUP LIMITED",
