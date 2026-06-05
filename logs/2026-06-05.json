@@ -1,9 +1,84 @@
 {
   "date": "2026-06-05",
-  "total": 56,
-  "market_sensitive_count": 51,
-  "generated_at": "2026-06-05T01:46:33.072514+00:00",
+  "total": 60,
+  "market_sensitive_count": 52,
+  "generated_at": "2026-06-05T03:10:27.001304+00:00",
   "announcements": [
+    {
+      "ticker": "A2M",
+      "company": "THE A2 MILK COMPANY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-05T03:09:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097744-2A1676060",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in A2 Milk, signaling a notable shift in institutional ownership that warrants monitoring for potential changes in shareholder dynamics and governance influence.",
+        "Changes in substantial holdings for A2M often reflect institutional portfolio rebalancing; the direction (increase vs decrease) and magnitude will determine whether this represents a conviction call or routine adjustment around the ~5% threshold.",
+        "As a procedural filing, the immediate price impact is limited, but investors should track whether this forms part of a broader accumulation or distribution pattern by major institutional holders ahead of A2M's next earnings update."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGC",
+      "company": "AUSTRALIAN GOLD AND COPPER LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-05T02:26:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097735-6A1328477",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in Australian Gold and Copper Ltd, signaling active portfolio repositioning by a significant shareholder that institutional investors should monitor for directional intent.",
+        "The nature of the change (increase or decrease) will determine whether this reflects growing conviction in AGC's exploration/development pipeline or profit-taking/risk reduction by a major stakeholder.",
+        "As a junior mining company, shifts in substantial holder positions can materially impact liquidity and sentiment; investors should cross-reference this filing with recent capital raise activity or upcoming catalysts to assess strategic implications."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPG",
+      "company": "SPC GLOBAL HOLDINGS LTD",
+      "headline": "Completion of Shortfall Bookbuild",
+      "time": "2026-06-05T02:23:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097734-3A694829",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SPC Global Holdings has completed the shortfall bookbuild from its entitlement offer, indicating full or near-full take-up of remaining shares and securing the targeted capital raise proceeds",
+        "Completion of the shortfall bookbuild removes uncertainty around the total funds raised, strengthening the company's balance sheet and providing clarity on dilution levels for existing shareholders",
+        "Investors should monitor deployment of raised capital toward stated use-of-funds objectives; successful execution on growth or operational initiatives will be key to offsetting dilutive impact on per-share metrics"
+      ],
+      "tags": [
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NVA",
+      "company": "NOVA MINERALS LIMITED",
+      "headline": "Trading Halt and Shareholder Information",
+      "time": "2026-06-05T01:49:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03097725-3A694825",
+      "market_sensitive": false,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Nova Minerals has entered a trading halt, typically preceding a material announcement such as a capital raise, asset transaction, or significant corporate update that requires price-sensitive disclosure.",
+        "The halt being flagged as 'not market sensitive' alongside a 'Shareholder Information' component suggests a procedural or administrative matter, though trading halts frequently precede dilutive capital raises for junior miners with limited cash runway.",
+        "Investors should monitor for the pending announcement closely — Nova Minerals' Estelle gold project in Alaska is capital-intensive, and any equity raising would further dilute existing holders in a company already reliant on external funding."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GCM",
       "company": "GCM CORPORATION LIMITED",
