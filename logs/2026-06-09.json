@@ -1,9 +1,271 @@
 {
   "date": "2026-06-09",
-  "total": 88,
-  "market_sensitive_count": 71,
-  "generated_at": "2026-06-08T23:07:30.524542+00:00",
+  "total": 102,
+  "market_sensitive_count": 84,
+  "generated_at": "2026-06-08T23:28:53.807619+00:00",
   "announcements": [
+    {
+      "ticker": "SNM",
+      "company": "SENTINEL METALS LIMITED",
+      "headline": "Maiden drilling underway at the Columbia Gold-Silver Project",
+      "time": "2026-06-08T23:24:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098225-6A1328700",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sentinel Metals has commenced maiden drilling at its Columbia Gold-Silver Project, marking a significant de-risking milestone as the company transitions from exploration target to drill-tested asset, which could catalyse re-rating if results confirm mineralisation.",
+        "As a maiden drill program, this represents the first substantive test of the project's geological thesis — successful intercepts would validate prior surface sampling and geophysical work, while failure would materially diminish the project's perceived value for a micro-cap explorer with limited diversification.",
+        "Investors should watch for assay results in the coming weeks/months as the key near-term catalyst; the timing and scale of follow-up drilling will signal management's confidence and inform whether additional capital raising may be required to fund expanded exploration."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DTM",
+      "company": "DART MINING NL",
+      "headline": "DTM enters into agreement with Indigo Metals Limited",
+      "time": "2026-06-08T23:18:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098219-3A694912",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dart Mining NL has entered into a formal agreement with Indigo Metals Limited, signaling a potential strategic transaction that could unlock value or provide access to additional resources, capital, or exploration assets.",
+        "As a market-sensitive announcement, the agreement likely involves material terms — potentially a farm-in, joint venture, or asset sale/acquisition — that could meaningfully alter DTM's project portfolio or financial position.",
+        "Investors should monitor forthcoming details on deal structure, consideration terms, and any conditions precedent; the transaction's impact on DTM's cash runway and exploration pipeline will be critical to assessing whether this is value-accretive for shareholders."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LRV",
+      "company": "LARVOTTO RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-08T23:17:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098217-6A1328697",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Larvotto Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration result for this junior mining company.",
+        "As a small-cap ASX explorer, any capital raise during a trading halt would likely be dilutive to existing shareholders, though the use of proceeds (e.g., advancing drill programs or acquisitions) will determine net impact on valuation.",
+        "Investors should await the detailed announcement expected within two business days to assess whether the halt relates to a transformative corporate action or routine funding activity."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPN",
+      "company": "SPARC TECHNOLOGIES LIMITED",
+      "headline": "PV Paint to Commercialise ecosparc Enhanced Coating Range",
+      "time": "2026-06-08T23:13:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098207-3A694913",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SPARC Technologies has secured a commercialisation pathway for its ecosparc graphene-enhanced coating range through PV Paint, transitioning from R&D to potential revenue generation — a key inflection point for the micro-cap.",
+        "The partnership leverages PV Paint's existing distribution and manufacturing infrastructure, reducing SPARC's capital expenditure requirements for market entry and potentially accelerating time-to-revenue for its graphene IP portfolio.",
+        "Investors should monitor for initial order volumes, pricing terms, and royalty/margin structures as the commercial arrangement ramps — near-term revenue contribution likely modest but validates the technology platform and could attract further licensing or partnership interest."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AQI",
+      "company": "ALICANTO MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-08T23:12:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098205-6A1328695",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Alicanto Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration results for this junior explorer.",
+        "As a small-cap mining company, any trading halt raises immediate questions about cash runway — a capital raise would be dilutive but may extend operational funding for its gold-copper exploration projects in Finland and Australia.",
+        "Investors should await the detailed announcement expected within two business days; the nature of the pending news (equity raise vs. asset transaction vs. drill results) will be the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Fifth Supplementary Bidder's Statement",
+      "time": "2026-06-08T23:11:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098201-2A1676375",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Atlas Arteria has issued a Fifth Supplementary Bidder's Statement, indicating an evolving and potentially contested M&A process with multiple rounds of updated disclosure to shareholders.",
+        "The filing of successive supplementary statements suggests material developments in bid terms, conditions, or regulatory/competitive dynamics that require ongoing disclosure — investors should scrutinize for revised offer pricing, condition changes, or competing proposals.",
+        "As a market-sensitive update in an active takeover context, this signals the transaction remains live and fluid; institutional holders should monitor for final offer terms and any independent expert revisions ahead of the scheme/offer close date."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MM8",
+      "company": "MEDALLION METALS LIMITED.",
+      "headline": "Major Milestones Achieved at Cosmic Boy",
+      "time": "2026-06-08T23:10:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098200-6A1328688",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Medallion Metals has achieved major milestones at its Cosmic Boy processing facility, signaling meaningful progress toward production readiness and de-risking the project timeline for investors.",
+        "Completion of key infrastructure and operational milestones at Cosmic Boy strengthens the company's pathway to near-term gold production, which is critical for transitioning from explorer/developer to cash-generating producer.",
+        "Achieving these milestones reduces execution risk and positions Medallion to advance toward commissioning and first pour, with upcoming catalysts likely including processing plant commissioning updates and maiden production targets."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TG1",
+      "company": "TECHGEN METALS LTD",
+      "headline": "Drilling Permits Approved at Blue Devil",
+      "time": "2026-06-08T23:08:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098197-6A1328692",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TECHGEN METALS has secured drilling permits at its Blue Devil project, removing a key regulatory hurdle and enabling the company to advance exploration activities — a positive de-risking catalyst for a junior explorer.",
+        "Permit approval signals progression toward drill-testing targets, which for a micro-cap explorer like TG1 represents a material step in the value creation pipeline and could attract speculative investor interest ahead of drill results.",
+        "Next steps will focus on mobilising drill rigs and commencing the drilling program; investors should monitor for timing of spud dates, target depths, and whether the company has sufficient cash runway to fund the campaign without near-term dilution."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GT1",
+      "company": "GREEN TECHNOLOGY METALS LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-08T23:07:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098196-6A1328691",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Green Technology Metals Limited, signaling meaningful accumulation of shares past the 5% threshold and potential strategic interest in the lithium-focused explorer/developer.",
+        "The appearance of a substantial holder in a junior lithium company like GT1 may reflect institutional conviction in the company's asset base or anticipation of upcoming catalysts, though the identity and intent of the holder will be key to interpreting the signal.",
+        "Investors should monitor whether this stake accumulation precedes further buying, a potential takeover approach, or strategic partnership — particularly relevant given the current consolidation phase in the lithium sector and GT1's Canadian lithium project portfolio."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARV",
+      "company": "ARTEMIS RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-08T23:07:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098195-6A1328693",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Artemis Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update for the junior explorer.",
+        "As a small-cap ASX-listed mining company focused on gold and base metals in the Pilbara region, any capital raise during a halt would likely be dilutive to existing shareholders given typical junior miner funding dynamics.",
+        "Investors should await the detailed announcement expected within two business days; the nature of the pending news (capital raise vs. asset deal vs. exploration results) will be the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MNE",
+      "company": "MACALLUM NEW ENERGY LIMITED",
+      "headline": "Successful Completion of Condor 2D Seismic Survey",
+      "time": "2026-06-08T23:07:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098193-6A1328690",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Macallum successfully completed the Condor 2D seismic survey, a key de-risking milestone for its exploration program that validates operational execution capability in the field.",
+        "Completion of seismic acquisition enables the company to move into the data processing and interpretation phase, which will be critical for identifying drillable prospects and refining resource potential across the permit area.",
+        "Next steps involve seismic data analysis and prospect maturation, with results expected to inform future drilling decisions — investors should watch for interpretation outcomes that could materially re-rate the company's acreage value."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AW1",
+      "company": "AMERICAN WEST METALS LIMITED",
+      "headline": "Significant indium-zinc-gold discovery at West Desert",
+      "time": "2026-06-08T23:05:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098187-6A1328686",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "American West Metals has announced a significant new indium-zinc-gold discovery at its West Desert project in Utah, potentially adding a high-value critical mineral (indium) to the project's resource profile and enhancing its strategic importance amid growing demand for indium in semiconductor and solar panel applications.",
+        "The discovery of indium mineralisation alongside zinc and gold adds a polymetallic dimension that could materially improve project economics — indium commands premium pricing (~US$300-400/kg) and its classification as a critical mineral by the US government may unlock additional permitting and funding pathways.",
+        "Next steps will likely include expanded drilling to define the extent of indium mineralisation and potential resource estimation updates; investors should watch for metallurgical test results confirming indium recoverability, which will be critical to determining whether this discovery translates into meaningful value uplift."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NIM",
+      "company": "NIMY RESOURCES LIMITED",
+      "headline": "Strong Gold soil assays at Mons",
+      "time": "2026-06-08T23:05:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098186-6A1328684",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nimy Resources reports strong gold-in-soil assay results at its Mons project, indicating potential for a significant gold discovery that could materially re-rate the company if confirmed by follow-up drilling.",
+        "Soil geochemistry results are a low-cost, early-stage exploration tool — while encouraging, these anomalies require validation through RC or diamond drilling to establish grade, continuity, and economic potential.",
+        "Next steps will likely involve drill target definition and a drilling program at Mons; investors should monitor for upcoming drill permits, program timing, and whether the company has sufficient cash runway to fund the next exploration phase without near-term dilution."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FMR",
+      "company": "FMR RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-08T23:04:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098184-6A1328689",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "FMR Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update that requires price-sensitive disclosure.",
+        "As a micro-cap explorer, trading halts frequently precede equity raisings which could be dilutive to existing shareholders, though the specific nature of the announcement remains undisclosed at this stage.",
+        "Investors should await the detailed announcement expected within two business days to assess the impact on FMR's cash runway, project pipeline, and shareholder value before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "WCN",
       "company": "WHITE CLIFF MINERALS LIMITED",
