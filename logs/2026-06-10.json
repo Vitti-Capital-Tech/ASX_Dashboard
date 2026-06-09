@@ -1,9 +1,271 @@
 {
   "date": "2026-06-10",
-  "total": 24,
-  "market_sensitive_count": 19,
-  "generated_at": "2026-06-09T22:37:01.447480+00:00",
+  "total": 38,
+  "market_sensitive_count": 33,
+  "generated_at": "2026-06-09T23:06:50.515279+00:00",
   "announcements": [
+    {
+      "ticker": "AYT",
+      "company": "AUSTIN METALS LIMITED",
+      "headline": "Drilling Commences at the Austin Gold Project",
+      "time": "2026-06-09T23:00:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098678-2A1676663",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Austin Metals has commenced drilling at its Austin Gold Project, representing a key de-risking catalyst as the company transitions from exploration planning to active ground-truthing of prospective targets.",
+        "Commencement of drilling signals the company is deploying capital into its flagship asset, which will be a critical factor for near-term newsflow and potential resource definition — investors should monitor for assay results that could materially re-rate the stock.",
+        "As a junior explorer, the drilling program's success or failure will directly impact cash runway considerations; upcoming drill results and any follow-up programs will be pivotal for sustaining market interest and potential future capital raises."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BGD",
+      "company": "BARTON GOLD HOLDINGS LIMITED",
+      "headline": "$26 Million Institutional Placement Completed",
+      "time": "2026-06-09T22:58:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098676-6A1328876",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "$26 million institutional placement completed, providing significant funding for Barton Gold's exploration and development activities — a meaningful capital injection for a junior gold explorer that signals strong institutional appetite at current valuations.",
+        "The placement size suggests the company has secured backing from sophisticated investors, likely at a discount to market, which will dilute existing shareholders but substantially extends the cash runway to advance key gold projects in South Australia.",
+        "Proceeds are expected to fund accelerated drilling programs and resource development, positioning Barton Gold to deliver near-term catalysts; investors should watch for the SPP details and any updated resource estimates as the company deploys capital."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "INF",
+      "company": "INFINITY METALS LIMITED",
+      "headline": "Yambacoona Tin Project - Drilling Approval Request Submitted",
+      "time": "2026-06-09T22:54:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098672-6A1328875",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Infinity Metals has submitted a drilling approval request for its Yambacoona Tin Project in Tasmania, signaling progression toward active exploration at a time when tin prices remain elevated due to global supply constraints.",
+        "The submission is a pre-drilling procedural milestone — no drill results or resource estimates are imminent, meaning near-term catalysts remain dependent on regulatory approval timelines which can vary significantly in Tasmania.",
+        "For a micro-cap explorer, the key watch items are the pace of approval, planned drill program scope and funding adequacy; investors should monitor for follow-up announcements on program design, budget, and whether additional capital raising will be required to fund the campaign."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ILA",
+      "company": "ISLAND PHARMACEUTICALS LIMITED",
+      "headline": "Island Secures USAMRIID Support for Galidesivir Study",
+      "time": "2026-06-09T22:53:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098671-3A694994",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "USAMRIID (US Army Medical Research Institute of Infectious Diseases) will provide direct support for Island's galidesivir antiviral study, representing a significant de-risking event and validation from a premier US government biodefense institution.",
+        "Government partnership materially reduces Island's clinical development costs and extends cash runway, as USAMRIID support typically includes access to BSL-4 facilities, expertise, and potentially funding — critical for a micro-cap biotech with limited resources.",
+        "The collaboration positions galidesivir within the US biodefense pipeline, opening a pathway to potential BARDA/government procurement contracts which represent large, non-dilutive revenue opportunities if the drug advances through development milestones."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TZL",
+      "company": "TZ LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-09T22:51:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098667-2A1676658",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "TZ Limited has entered a trading halt, suspending shares from trading pending a material announcement - the nature of the announcement is undisclosed, creating uncertainty for holders.",
+        "Given TZ's micro-cap status and historically constrained cash position, the halt likely relates to a capital raise, corporate transaction, or material operational update that could significantly impact the company's financial trajectory.",
+        "Investors should await the full announcement before repositioning; trading halts for micro-caps like TZ often precede dilutive capital raises, though M&A or strategic partnership scenarios cannot be ruled out."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PRX",
+      "company": "PRODIGY GOLD NL",
+      "headline": "2026 Exploration Grant for Drilling at Hyperion Received",
+      "time": "2026-06-09T22:50:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098666-6A1328873",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Prodigy Gold has secured a 2026 exploration grant specifically for drilling at its Hyperion prospect, providing non-dilutive funding that preserves shareholder equity while advancing a key target.",
+        "Grant funding reduces the company's out-of-pocket exploration expenditure, extending cash runway for a junior explorer where capital preservation is critical to sustaining operations and maintaining tenement commitments.",
+        "Drilling at Hyperion represents a potential catalyst for resource delineation or discovery; successful results could materially re-rate the stock, with the grant enabling the program to proceed on an accelerated timeline in 2026."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LU7",
+      "company": "LITHIUM UNIVERSE LIMITED",
+      "headline": "Gold and Copper Recoveries from GCDE Technology",
+      "time": "2026-06-09T22:48:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098663-6A1328871",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lithium Universe reports successful gold and copper recoveries from its proprietary GCDE (Graphite Cathode Direct Electrolysis) technology, signaling potential diversification beyond lithium into precious and base metals processing.",
+        "Demonstration of multi-commodity recovery capability from a single technology platform could materially enhance the company's value proposition and addressable market, though commercial-scale validation and economic parameters remain to be proven.",
+        "Next steps will be critical — investors should watch for pilot-scale results, recovery rate benchmarks versus conventional methods, and any partnership or offtake discussions that would validate the technology's commercial viability and near-term revenue potential."
+      ],
+      "tags": [
+        "Technology",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GHM",
+      "company": "GOLDEN HORSE MINERALS LIMITED",
+      "headline": "Regional Exploration Success At Southern Cross",
+      "time": "2026-06-09T22:48:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098661-6A1328869",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Golden Horse Minerals reports regional exploration success at its Southern Cross project, signaling potential for resource expansion in a historically productive Western Australian gold district.",
+        "Market-sensitive classification suggests meaningful drill results or geochemical findings that could materially upgrade the project's prospectivity and attract further investor interest in this early-stage explorer.",
+        "Successful regional exploration de-risks the broader tenement package and may support future capital raising efforts to fund follow-up drilling programs, though the company remains pre-revenue with limited cash runway typical of junior explorers."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GNG",
+      "company": "GR ENGINEERING SERVICES LIMITED",
+      "headline": "Preferred Contractor - Sulphur Springs Project",
+      "time": "2026-06-09T22:46:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098658-6A1328867",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GR Engineering has been appointed as preferred contractor for the Sulphur Springs copper-zinc project, signaling a near-term pipeline addition that strengthens revenue visibility and order book depth.",
+        "The Sulphur Springs project (owned by Develop Global) is a significant base metals development in WA's Pilbara region, and securing preferred contractor status positions GRE ahead of final contract negotiation for what could be a material EPC/EPCM engagement.",
+        "Progression from preferred contractor to formal contract award will be the key catalyst to watch; execution would bolster GRE's earnings trajectory and reinforce its track record in mid-tier mineral processing construction."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DTM",
+      "company": "DART MINING NL",
+      "headline": "DTM completes the 4000m at Coonambula",
+      "time": "2026-06-09T22:45:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098656-3A694991",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dart Mining has completed its 4,000-metre drilling program at the Coonambula gold project, marking a significant exploration milestone that de-risks the asset and advances it toward resource definition.",
+        "Completion of the full planned drilling program signals disciplined execution and efficient capital deployment; investors should watch for assay results which will be the key catalyst for re-rating the project's prospectivity.",
+        "Next steps will centre on assay turnaround and geological interpretation — positive intercepts could trigger upgraded resource estimates and potentially attract farm-in or JV interest, while the market awaits confirmation of mineralisation continuity at depth."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DEL",
+      "company": "DELOREAN CORPORATION LIMITED",
+      "headline": "SA1 Accredited for GreenPower Renewable Gas Certification",
+      "time": "2026-06-09T22:44:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098655-6A1328865",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Delorean's SA1 biogas facility has achieved GreenPower Renewable Gas Certification accreditation, enabling the company to sell verified renewable gas certificates — a premium product that commands higher margins than standard gas sales.",
+        "This certification creates a new revenue stream through the sale of GreenPower-accredited certificates to corporate and government buyers seeking to decarbonise their gas consumption, potentially improving the economics of the SA1 facility beyond base biogas offtake agreements.",
+        "The accreditation positions Delorean as an early mover in Australia's nascent renewable gas certification market, strengthening its competitive moat ahead of expected tightening in emissions reporting requirements and growing ESG-driven demand for verified green gas products."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DVL",
+      "company": "DORSAVI LTD",
+      "headline": "dorsaVi Licenses Human Robot Collaboration IP",
+      "time": "2026-06-09T22:38:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098644-3A694987",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "dorsaVi has licensed its Human Robot Collaboration (HRC) intellectual property, representing a monetization pathway for its wearable sensor technology in industrial/robotics applications — a potentially high-value vertical beyond its core healthcare segment.",
+        "As a micro-cap with limited revenue streams, any IP licensing deal provides incremental non-dilutive income and validates the commercial applicability of dorsaVi's motion-sensing platform, though deal financial terms will be critical to assess materiality.",
+        "The licensing model signals a strategic pivot toward capital-light revenue generation; investors should watch for disclosure of deal economics (upfront fees, royalties, exclusivity terms) and whether this opens a pipeline of further industrial automation partnerships."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TVN",
+      "company": "TIVAN LIMITED",
+      "headline": "Tivan awarded NT Government grant for Molyhil",
+      "time": "2026-06-09T22:38:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098642-6A1328861",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tivan Limited has been awarded a Northern Territory Government grant to advance the Molyhil tungsten-molybdenum project, providing non-dilutive funding that extends cash runway and validates the project's strategic importance to the NT.",
+        "Government grant support signals policy-level endorsement of critical minerals development in the NT, potentially de-risking the project for future financing and offtake negotiations given tungsten's classification as a critical mineral in Australia and allied nations.",
+        "The grant is expected to accelerate feasibility and development activities at Molyhil, with next catalysts likely including updated resource/reserve estimates, feasibility study milestones, and potential additional government or private sector funding commitments."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AZ9",
+      "company": "AZZURO RESOURCES PLC",
+      "headline": "High-Grade Assay Results & Extension at Red Hill Project",
+      "time": "2026-06-09T22:35:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098638-6A1328858",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Azzuro Resources reports high-grade assay results at the Red Hill Project, signaling potential for a significant mineral discovery that could materially re-rate the company's exploration asset base.",
+        "Mineralization extends beyond previously known boundaries, increasing the prospective strike length and enhancing the project's resource potential — a key catalyst for early-stage explorers seeking to demonstrate scale.",
+        "Follow-up drilling programs are likely to be prioritized to define the extent of high-grade zones, with upcoming results serving as critical de-risking milestones that could attract farm-in partners or support future capital raises."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "HLI",
       "company": "HELIA GROUP LIMITED",
