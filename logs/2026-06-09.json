@@ -1,9 +1,84 @@
 {
   "date": "2026-06-09",
-  "total": 150,
-  "market_sensitive_count": 131,
-  "generated_at": "2026-06-09T01:40:09.908422+00:00",
+  "total": 154,
+  "market_sensitive_count": 132,
+  "generated_at": "2026-06-09T03:09:31.602974+00:00",
   "announcements": [
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-09T03:02:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098380-2A1676513",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Eureka Group Holdings (EGH) has filed a change in their holding, signaling active portfolio repositioning by a significant shareholder in this seniors living/affordable housing operator.",
+        "The nature of the change (increase or decrease) will determine whether this reflects growing institutional conviction or profit-taking/exit — investors should review the Form 604 details for precise movement in voting power percentage.",
+        "As a non-market-sensitive filing, this is a regulatory disclosure obligation rather than a strategic corporate action, but sustained accumulation or disposal patterns by substantial holders can serve as a leading indicator of informed sentiment on EGH's valuation trajectory."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NUF",
+      "company": "NUFARM LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-09T02:59:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098379-3A694950",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Nufarm Limited, triggering a mandatory disclosure under ASX substantial holding rules, signaling active institutional portfolio rebalancing in the agricultural chemicals sector.",
+        "The change in substantial holding — whether an increase or decrease — reflects shifting institutional conviction on Nufarm's outlook amid ongoing global crop protection market dynamics and the company's strategic pivot toward seed technologies and omega-3 platforms.",
+        "Investors should monitor whether this filing is part of a broader accumulation or distribution trend by the substantial holder, as sustained directional moves could influence liquidity and near-term price support or resistance levels."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JEG",
+      "company": "JPM GLOBAL EQUITY PREMIUM INCOME COMPLEX ETF",
+      "headline": "Estimated Distribution announcement",
+      "time": "2026-06-09T01:56:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098360-2A1676496",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "JPM Global Equity Premium Income Complex ETF has announced an estimated distribution, signaling continued income generation from its covered call/premium income strategy for unitholders.",
+        "The estimated distribution announcement provides forward visibility on yield, a key metric for income-focused institutional investors evaluating the ETF's attractiveness relative to peers and benchmark rates.",
+        "Investors should monitor the ex-distribution and payment dates closely, as the market-sensitive designation suggests the distribution quantum may differ materially from prior periods or market expectations."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HUB",
+      "company": "HUB24 LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-09T01:45:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098352-2A1676491",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in HUB24, signaling growing institutional interest in the specialist platform provider as it continues to capture market share in the wealth management infrastructure space.",
+        "The crossing of the 5% substantial holding threshold represents a meaningful position build, suggesting the acquiring entity sees value in HUB24's growth trajectory and its expanding funds under administration (FUA) which has been a key driver of platform revenue.",
+        "Investors should monitor whether this stake accumulation is a precursor to further buying, potential board engagement, or strategic positioning ahead of HUB24's continued consolidation play in the Australian wealth platform sector."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "PIX",
       "company": "PLATINUM INTERNATIONAL FUND ACTIVE ETF",
