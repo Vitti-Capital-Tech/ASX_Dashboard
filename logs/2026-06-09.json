@@ -1,9 +1,124 @@
 {
   "date": "2026-06-09",
-  "total": 131,
-  "market_sensitive_count": 112,
-  "generated_at": "2026-06-08T23:56:43.047262+00:00",
+  "total": 137,
+  "market_sensitive_count": 118,
+  "generated_at": "2026-06-09T00:18:10.122622+00:00",
   "announcements": [
+    {
+      "ticker": "14D",
+      "company": "1414 DEGREES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-09T00:14:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098299-2A1676422",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "1414 Degrees has entered a trading halt, typically preceding a material announcement such as a capital raise, asset transaction, or significant corporate development for this energy storage technology company.",
+        "As a micro-cap with historically constrained cash runway, any trading halt raises immediate questions about potential equity dilution or strategic pivots that could materially impact existing shareholders.",
+        "Investors should await the pending announcement — the halt signals imminent news that will likely reset the market's valuation framework for the stock upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HYD",
+      "company": "HYDRIX LIMITED",
+      "headline": "Security Class Suspension from Quotation - HYDOC",
+      "time": "2026-06-09T00:13:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098298-3A694934",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "HYDOC (Hydrix convertible notes or hybrid securities) has been suspended from quotation, indicating a potential compliance issue, restructuring event, or failure to meet ASX listing requirements for this security class.",
+        "Suspension of a specific security class rather than the entire company suggests targeted action — possibly related to non-payment of interest/distributions, conversion triggers, or breaches of terms tied to the HYDOC instrument, raising concerns about Hydrix's financial health and cash position.",
+        "Investors should monitor for follow-up announcements clarifying the reason for suspension and any implications for HYDOC holders' rights, potential dilution from conversion scenarios, or broader solvency concerns for the micro-cap medtech company."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PAX",
+      "company": "PLATINUM ASIA FUND COMPLEX ETF",
+      "headline": "Pause in Trading",
+      "time": "2026-06-09T00:12:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098297-2A1676423",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Platinum Asia Fund Complex ETF has entered a trading pause, typically indicating a pending material announcement such as a structural change, fund restructure, or corporate action that requires orderly dissemination of information.",
+        "As a listed managed fund (LMF/ETF), trading pauses can signal potential wind-up, merger with another fund vehicle, fee restructure, or change in investment mandate — all of which directly impact NAV tracking and liquidity for institutional holders.",
+        "Investors should monitor for the subsequent announcement that triggered the pause; any fund restructure or closure could force portfolio rebalancing and may affect Platinum Investment Management's (PTM) broader funds under management trajectory."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SHN",
+      "company": "SUNSHINE METALS LIMITED",
+      "headline": "Sunshine Divests Non-Core Hodgkinson Project",
+      "time": "2026-06-08T23:59:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098290-6A1328721",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sunshine Metals is divesting its non-core Hodgkinson project, signaling a strategic portfolio rationalization to concentrate capital and management attention on higher-priority assets, likely its flagship Dotswood and other Queensland projects.",
+        "The divestiture, while removing optionality on the Hodgkinson gold-copper tenure, should reduce holding costs and potentially inject cash proceeds that extend the company's runway — critical for a junior explorer managing burn rate in a tight funding environment.",
+        "The move suggests management is prioritizing near-term value creation on core assets; investors should watch for reinvestment of proceeds into accelerated exploration or development at remaining projects, and any updated resource targets or drilling programs."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXN",
+      "company": "DXN LIMITED",
+      "headline": "Pause in trading",
+      "time": "2026-06-08T23:57:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098289-3A694929",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DXN Limited has requested a pause in trading, typically indicating a pending material announcement such as a capital raise, acquisition, or significant contract update that requires price-sensitive disclosure.",
+        "As a micro-cap data centre and technology infrastructure provider, any trading halt raises questions about balance sheet adequacy and whether the company may be seeking additional funding to support operations or growth initiatives.",
+        "Investors should await the accompanying announcement that triggered the halt; the nature of the disclosure (capital raise vs. contract win vs. M&A) will be the key determinant of near-term price direction upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENN",
+      "company": "ELANOR INVESTORS GROUP",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-06-08T23:55:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098285-2A1676411",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Elanor Investors Group's quarterly Appendix 4C filing provides critical visibility into operating cash flows and burn rate for the diversified real assets fund manager, with market-sensitive designation suggesting material movements in cash position or operational metrics.",
+        "As a fund management platform spanning property, hotels, and credit, the cash flow report will reveal fee income sustainability and whether funds under management (FUM) trends are translating into adequate operating cash generation amid a challenging real estate environment.",
+        "Investors should scrutinize the cash runway, any drawdowns on credit facilities, and capital deployment activity — particularly given the higher interest rate environment's impact on property fund valuations and potential for capital calls or redemption pressures across Elanor's managed funds."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "14D",
       "company": "1414 DEGREES LIMITED",
