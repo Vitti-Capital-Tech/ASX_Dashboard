@@ -1,9 +1,160 @@
 {
   "date": "2026-06-09",
-  "total": 142,
-  "market_sensitive_count": 123,
-  "generated_at": "2026-06-09T00:43:12.380834+00:00",
+  "total": 150,
+  "market_sensitive_count": 131,
+  "generated_at": "2026-06-09T01:40:09.908422+00:00",
   "announcements": [
+    {
+      "ticker": "PIX",
+      "company": "PLATINUM INTERNATIONAL FUND ACTIVE ETF",
+      "headline": "Request to resume trading",
+      "time": "2026-06-09T01:21:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098339-2A1676440",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Platinum International Fund Active ETF has requested resumption of trading following a prior trading halt, indicating resolution of the issue that triggered the pause",
+        "As a managed fund ETF, the trading halt likely related to NAV disclosure, fund restructuring, or regulatory compliance matter - resumption suggests no material adverse outcome",
+        "Investors should monitor for any accompanying announcements detailing the reason for the original halt, as the request to resume alone is procedural but clears the path for normal price discovery"
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PAX",
+      "company": "PLATINUM ASIA FUND COMPLEX ETF",
+      "headline": "Request to resume trading",
+      "time": "2026-06-09T01:21:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098338-2A1676439",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Platinum Asia Fund Complex ETF has requested resumption of trading following a prior trading halt, indicating the resolution of the matter that triggered the suspension",
+        "As a managed fund ETF, the trading halt likely related to NAV disclosure, portfolio restructuring, or regulatory compliance — resumption signals operational normalcy has been restored",
+        "Investors should monitor for any accompanying announcements detailing the reason for the original halt, as the underlying cause may carry residual implications for fund flows and investor confidence"
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AQX",
+      "company": "ALICE QUEEN LIMITED",
+      "headline": "Further Extension of Rights Issue Closing Date",
+      "time": "2026-06-09T01:11:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098331-6A1328727",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alice Queen has extended the closing date of its rights issue for a further time, signaling weak investor demand and potential difficulty in raising the targeted capital — a negative read-through for market confidence in the company.",
+        "Repeated extensions of a rights issue typically indicate significant undersubscription, raising concerns about the company's ability to secure adequate funding and maintain its cash runway for ongoing operations and exploration activities.",
+        "Investors should monitor the final take-up rate and any underwriter shortfall arrangements; failure to raise sufficient capital could force further dilutive measures or constrain the company's ability to advance its mining projects."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PIX",
+      "company": "PLATINUM INTERNATIONAL FUND ACTIVE ETF",
+      "headline": "Trading Halt",
+      "time": "2026-06-09T00:55:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098325-2A1676434",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Platinum International Fund Active ETF (PIXX) has entered a trading halt, likely pending a material announcement related to fund restructuring, corporate action, or potential wind-up/conversion given broader Platinum Asset Management strategic developments.",
+        "Trading halts for listed managed funds/active ETFs are relatively uncommon and typically signal significant structural changes such as mergers with other vehicles, fee restructuring, or changes to the responsible entity — institutional holders should assess liquidity implications.",
+        "Investors should await the pending announcement before repositioning; the halt prevents price discovery in the interim, and any structural change could impact NAV tracking, redemption mechanisms, or the fund's continued ASX listing."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPX",
+      "company": "SPENDA LIMITED",
+      "headline": "Accelerated pro-rata renounceable entitlement offer",
+      "time": "2026-06-09T00:55:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098324-3A694946",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Spenda Limited is conducting an accelerated pro-rata renounceable entitlement offer, signaling an immediate need for capital that will result in meaningful shareholder dilution given the company's micro-cap status.",
+        "The renounceable structure allows existing shareholders to trade their rights, providing some protection against dilution, but the accelerated timeline suggests urgency in funding requirements — potentially to shore up working capital or fund near-term obligations.",
+        "Investors should closely monitor the offer price discount to market, the size of the raise relative to current market cap, and intended use of proceeds to assess whether this capital injection extends cash runway sufficiently or signals deeper financial stress."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IMU",
+      "company": "IMUGENE LIMITED",
+      "headline": "Azer-cel Granted FDA Fast Track Designation for CLL and MZL",
+      "time": "2026-06-09T00:50:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098323-3A694947",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FDA Fast Track Designation for azer-cel (azercabtagene zapreleucel) in chronic lymphocytic leukemia (CLL) and marginal zone lymphoma (MZL) provides accelerated regulatory pathway, potentially shortening time to market and reducing development costs for Imugene's lead CAR-T asset acquired via the Celesta Therapeutics deal.",
+        "Fast Track status enables more frequent FDA interactions, rolling review submission, and eligibility for priority review and accelerated approval — a significant de-risking catalyst for a pre-revenue biotech currently reliant on cash reserves to fund clinical programs.",
+        "Designation validates the unmet medical need in relapsed/refractory CLL and MZL, positioning azer-cel competitively in the allogeneic CAR-T space; investors should monitor upcoming clinical data readouts and cash runway given Imugene's burn rate as it advances multiple pipeline programs simultaneously."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SPX",
+      "company": "SPENDA LIMITED",
+      "headline": "PROSPECTUS",
+      "time": "2026-06-09T00:47:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098321-3A694944",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Spenda Limited has lodged a prospectus, signaling an imminent capital raise that will result in share dilution for existing shareholders, a common pressure point for micro-cap ASX stocks.",
+        "The prospectus filing, marked as market sensitive, suggests the company likely needs to bolster its cash runway — a critical consideration given Spenda's position as a pre-profit fintech/payments technology company with ongoing cash burn.",
+        "Investors should monitor the offer terms (pricing, discount to market, and any attaching options) closely, as the degree of dilution and use of proceeds will determine whether this raise is growth-accretive or purely survival capital."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "OML",
+      "company": "OOH!MEDIA LIMITED",
+      "headline": "Response to media article",
+      "time": "2026-06-09T00:46:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098319-2A1676430",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "OOH!Media issued a market-sensitive response to a media article, likely addressing speculation around M&A activity, strategic review, or material corporate developments that required ASX clarification",
+        "The need for a formal ASX response suggests the media report contained material information that could influence trading decisions, indicating heightened corporate activity or market speculation around the company",
+        "Investors should monitor for follow-up announcements as 'response to media' disclosures often precede formal confirmations or denials of strategic transactions, potentially impacting near-term valuation and trading volumes"
+      ],
+      "tags": [
+        "Other",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CCM",
       "company": "CADOUX LIMITED",
