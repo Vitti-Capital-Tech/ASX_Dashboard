@@ -1,9 +1,410 @@
 {
   "date": "2026-06-10",
-  "total": 38,
-  "market_sensitive_count": 33,
-  "generated_at": "2026-06-09T23:06:50.515279+00:00",
+  "total": 59,
+  "market_sensitive_count": 49,
+  "generated_at": "2026-06-09T23:31:44.575402+00:00",
   "announcements": [
+    {
+      "ticker": "LCL",
+      "company": "LCL RESOURCES LIMITED",
+      "headline": "Tiger Gold Exercises Option Over Colombian Assets",
+      "time": "2026-06-09T23:23:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098729-6A1328894",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tiger Gold has exercised its option to acquire Colombian gold assets from LCL Resources, triggering a potential transaction that could unlock value or provide LCL with proceeds from the divestiture of non-core international holdings.",
+        "The exercise of the option signals external validation of the Colombian assets' prospectivity, while allowing LCL to potentially streamline its portfolio and redeploy capital toward its primary Australian-focused exploration strategy.",
+        "Key next steps include completion of the transaction, any regulatory approvals required for the Colombian asset transfer, and clarity on consideration terms (cash, scrip, or milestone payments) which will determine the net financial impact for LCL shareholders."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WCN",
+      "company": "WHITE CLIFF MINERALS LIMITED",
+      "headline": "Exceptional-Grade Copper Discovery at Danvers",
+      "time": "2026-06-09T23:22:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098723-6A1328855",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "White Cliff Minerals has announced an exceptional-grade copper discovery at its Danvers project, a potentially transformative event for a micro-cap explorer that could significantly re-rate the stock if results are confirmed through follow-up drilling.",
+        "The use of 'exceptional-grade' in the headline signals copper intercepts materially above typical discovery thresholds, which if substantiated with assay details (grade, width, depth), could attract significant market and institutional attention in the current strong copper price environment.",
+        "Key next steps will be confirmation of grade continuity and mineralisation extent through step-out and infill drilling programs; investors should monitor upcoming assay results, resource estimation timelines, and the company's cash position to fund an accelerated exploration campaign without excessive dilution."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HJH",
+      "company": "HEJAZ HIGH INCOME ACTIVE ETF",
+      "headline": "Reinstatement to Trading Status",
+      "time": "2026-06-09T23:21:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098721-2A1676691",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hejaz High Income Active ETF has been reinstated to trading on the ASX following a prior trading halt, restoring liquidity access for unitholders and enabling price discovery to resume.",
+        "The reinstatement suggests the resolution of whatever issue triggered the original halt — likely related to compliance, NAV disclosure, or fund administration matters — removing a key overhang for the product.",
+        "Investors should monitor the first sessions of resumed trading closely for any NAV premium/discount dislocation and watch for any accompanying announcements clarifying the reason for the original halt."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HJH",
+      "company": "HEJAZ HIGH INCOME ACTIVE ETF",
+      "headline": "Removal of Voluntary suspension",
+      "time": "2026-06-09T23:21:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098720-2A1676676",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "HEJAZ HIGH INCOME ACTIVE ETF has had its voluntary suspension lifted, restoring normal trading on the ASX — the removal suggests the issue prompting the halt has been resolved or addressed to the exchange's satisfaction.",
+        "As a Sharia-compliant high income ETF, the suspension period may have created liquidity concerns for holders; resumption of trading allows price discovery to resume and investors to rebalance positions.",
+        "Investors should monitor for any accompanying announcements detailing the reason for the original voluntary suspension, as the underlying cause could have material implications for fund NAV, mandate compliance, or structural changes."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SIS",
+      "company": "SIMBLE SOLUTIONS LIMITED",
+      "headline": "Simble Advances Nanosensor Platform Across Key Markets",
+      "time": "2026-06-09T23:21:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098719-2A1676687",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Simble is advancing its nanosensor platform across multiple key markets, signaling commercial traction and potential revenue diversification beyond its core energy SaaS business — a strategic pivot that could re-rate the stock if validated by contracts.",
+        "As a micro-cap with historically thin revenues, the market-sensitive designation suggests material developments (likely partnerships, pilots, or orders) that could meaningfully shift the company's revenue trajectory, though specifics on deal values and timelines are critical for assessing near-term impact.",
+        "Investors should watch for concrete milestones including binding agreements, pilot program results, and cash burn guidance — the company's limited cash runway means execution speed and capital management remain key risks to the nanosensor growth thesis."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKU",
+      "company": "HEJAZ SUKUK ACTIVE ETF",
+      "headline": "Reinstatement to Trading Status",
+      "time": "2026-06-09T23:20:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098718-2A1676690",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hejaz Sukuk Active ETF has been reinstated to trading on the ASX, resolving a prior trading halt that had suspended liquidity for unitholders — a positive signal that any outstanding compliance or administrative issues have been addressed.",
+        "Reinstatement implies the fund has met ASX listing rule requirements, which for ETFs often relates to NAV disclosure, responsible entity obligations, or portfolio compliance — removing a key overhang for existing holders.",
+        "Investors should monitor post-reinstatement trading volumes and any bid-ask spread widening as a gauge of market confidence; the niche Sharia-compliant fixed income ETF space has limited ASX peers, making orderly resumption critical for the product's viability."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKU",
+      "company": "HEJAZ SUKUK ACTIVE ETF",
+      "headline": "Removal of Voluntary Suspension",
+      "time": "2026-06-09T23:20:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098717-2A1676674",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Hejaz Sukuk Active ETF has been removed from voluntary suspension, restoring normal trading and liquidity access for unitholders after a period of halted activity.",
+        "The voluntary suspension likely related to operational, compliance, or structural matters within the Sharia-compliant fixed income ETF; resolution signals the fund has addressed the underlying issue to ASX's satisfaction.",
+        "Investors should monitor for any accompanying announcements detailing the reason for the suspension and whether NAV, fund composition, or distribution schedules were materially affected during the suspension period."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CUL",
+      "company": "CULLEN RESOURCES LIMITED",
+      "headline": "Exploration Update - Yardilla",
+      "time": "2026-06-09T23:19:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098716-6A1328891",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cullen Resources has released a market-sensitive exploration update for its Yardilla project, signaling potential progress in delineating prospective mineralisation that could re-rate the company's exploration portfolio.",
+        "As a micro-cap explorer, any positive drill results or geochemical anomalies at Yardilla are material to Cullen's valuation, though investors should note the early-stage nature and lack of defined resources — cash runway and future capital needs remain key risks.",
+        "Next steps likely involve follow-up drilling or geophysical surveys at Yardilla; the market-sensitive tag suggests management views the results as sufficiently significant to warrant investor attention, potentially setting up a catalyst for further exploration funding or JV interest."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ISL",
+      "company": "HEJAZ EQUITIES FUND ACTIVE ETF",
+      "headline": "Reinstatement to Trading Status",
+      "time": "2026-06-09T23:19:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098715-2A1676689",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "HEJAZ Equities Fund Active ETF has been reinstated to trading on the ASX, resolving a prior trading halt that had suspended investor access to liquidity in the fund.",
+        "Reinstatement signals that the issuer has satisfied ASX's information or compliance requirements that triggered the original halt, removing a key overhang for unitholders.",
+        "Investors should monitor for any accompanying disclosure or updated NAV data that may have been released during the halt period, as price discovery upon reopening could see elevated volatility."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ISL",
+      "company": "HEJAZ EQUITIES FUND ACTIVE ETF",
+      "headline": "Removal of Voluntary Suspension",
+      "time": "2026-06-09T23:19:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098713-2A1676669",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Hejaz Equities Fund Active ETF has been removed from voluntary suspension, indicating resolution of the underlying issue that prompted the trading halt and restoring normal market access for unitholders.",
+        "Voluntary suspensions for ETFs typically relate to NAV calculation issues, market-making disruptions, or structural fund changes — the lifting suggests operational normalcy has been restored, reducing uncertainty for existing investors.",
+        "Investors should monitor for any accompanying announcements detailing what triggered the suspension and whether any changes to fund structure, mandate, or liquidity arrangements have been implemented during the halt period."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAU",
+      "company": "ANTILLES GOLD LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-06-09T23:18:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098712-2A1676680",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Antilles Gold Limited has been suspended from quotation on the ASX, halting all trading activity and removing near-term liquidity for shareholders.",
+        "Suspension from quotation is a more severe action than a trading halt, often indicating unresolved compliance issues, failure to meet listing requirements, or a pending corporate action that requires extended resolution.",
+        "Investors should monitor for follow-up announcements detailing the reason for suspension and any conditions for reinstatement, as prolonged suspension carries risk of eventual delisting or significant dilutive restructuring."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AAU",
+      "company": "ANTILLES GOLD LIMITED",
+      "headline": "U.S. Sanctions of Cuban Joint Venture Company",
+      "time": "2026-06-09T23:18:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098711-2A1676653",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "U.S. sanctions targeting Antilles Gold's Cuban joint venture company represent a severe operational and legal risk, potentially freezing the company's core development asset and cutting off access to U.S.-linked financial systems and partners.",
+        "With the company's primary growth strategy centered on Cuban mining projects, sanctions effectively strand invested capital and eliminate near-term revenue pathways, raising material going-concern questions for a pre-production explorer with limited alternative assets.",
+        "Investors should expect prolonged uncertainty as the company navigates geopolitical headwinds; any resolution depends on U.S. foreign policy shifts toward Cuba, making the timeline unpredictable and significantly increasing the risk premium on AAU shares."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ERM",
+      "company": "EMMERSON RESOURCES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-09T23:16:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098707-6A1328890",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Emmerson Resources (ERM) has filed a change in their holding, signaling a notable shift in institutional or major shareholder positioning in this ASX-listed gold/copper explorer.",
+        "The change in substantial holding may reflect either accumulation or disposal by a key investor, which institutional investors should monitor for directional conviction signals on ERM's valuation trajectory.",
+        "As a procedural disclosure with no market-sensitive designation, the filing itself is unlikely to drive immediate price action but warrants tracking for patterns of insider or major holder activity that could precede strategic corporate developments."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AII",
+      "company": "ALMONTY INDUSTRIES INC.",
+      "headline": "Closing Oversubscribed Convertible Senior Notes Offer",
+      "time": "2026-06-09T23:13:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098705-6A1328889",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Almonty closed an oversubscribed convertible senior notes offering, signaling strong institutional demand and investor confidence in the company's tungsten mining strategy and Sangdong mine development trajectory.",
+        "Oversubscription indicates the company likely raised more capital than initially targeted, strengthening its balance sheet and extending cash runway to fund operations and project milestones without immediate need for further equity dilution.",
+        "While convertible notes carry future dilution risk upon conversion, the successful raise at favorable terms provides near-term financial flexibility and validates the market's positive view on Almonty's critical minerals positioning amid global tungsten supply concerns."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MTH",
+      "company": "MITHRIL SILVER AND GOLD LIMITED",
+      "headline": "MITHRIL DRILLS 7.25 M @ 4.01 G/T AU, 225 G/T AG AT T1",
+      "time": "2026-06-09T23:12:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098702-2A1676678",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mithril reports a high-grade intercept of 7.25m @ 4.01 g/t Au and 225 g/t Ag at the T1 target, representing significant gold-silver mineralisation that could materially enhance the project's resource potential.",
+        "The combined gold-equivalent grade (incorporating ~225 g/t silver) is compelling for a junior explorer, suggesting a polymetallic system with meaningful precious metals endowment that may attract market re-rating or partner interest.",
+        "Results are expected to drive follow-up drilling programs at T1 to test continuity and scale; investors should watch for resource estimation timelines and further assay results to assess whether this intercept reflects a broader mineralised zone or isolated high-grade pocket."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PVT",
+      "company": "PIVOTAL METALS LIMITED",
+      "headline": "High grade Cu, Ni and PGM Intersected in Alotta Drilling",
+      "time": "2026-06-09T23:09:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098695-6A1328884",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Pivotal Metals has intersected high-grade copper, nickel, and platinum group metals (PGMs) at its Alotta project, signalling potential for a polymetallic deposit that could materially enhance the project's economic profile and attract market attention to an early-stage explorer.",
+        "The combination of Cu, Ni, and PGM mineralisation in drilling results is technically significant as it suggests a magmatic sulphide system — a geological setting capable of hosting large-scale, high-value deposits, which could drive re-rating if grades and widths are confirmed in follow-up assays.",
+        "Investors should watch for detailed assay results including specific grades and intersection widths, as well as plans for follow-up drilling programs; the market-sensitive tag indicates the company views these results as material, but the stock's trajectory will depend on whether subsequent data confirms continuity and scale."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HUB",
+      "company": "HUB24 LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-09T23:07:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098691-2A1676670",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in HUB24, signaling growing institutional interest in the specialist platform provider as it continues to capture market share in the wealth management sector.",
+        "The crossing of the 5% substantial holding threshold represents a meaningful position build, suggesting the new holder sees value in HUB24's growth trajectory and funds under administration momentum.",
+        "Institutional accumulation at current levels may provide share price support; investors should monitor whether this is a passive index-driven acquisition or an active conviction position, as the latter could foreshadow further buying."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAE",
+      "company": "CANNINDAH RESOURCES LIMITED",
+      "headline": "Breccia Resource Expansion Drilling Continues to Deliver",
+      "time": "2026-06-09T23:07:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098690-6A1328880",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cannindah's resource expansion drilling at the Breccia prospect continues to return positive results, suggesting potential for a material upgrade to the existing mineral resource estimate and enhanced project economics.",
+        "Ongoing drill intercepts are extending mineralisation beyond the current resource boundary, which if confirmed through updated modelling, could significantly increase the scale and attractiveness of the deposit for future development or partnership discussions.",
+        "Next catalysts include completion of the current drill program, assay results from outstanding holes, and a potential updated Mineral Resource Estimate — all of which could serve as re-rating triggers for this micro-cap explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TRE",
+      "company": "TOUBANI RESOURCES LIMITED",
+      "headline": "Construction Advances with Earthworks Activities at Kobada",
+      "time": "2026-06-09T23:05:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098686-6A1328882",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Toubani Resources is advancing construction at its Kobada Gold Project in Mali with earthworks activities underway, signaling the project is transitioning from development to build phase — a key de-risking milestone for the asset.",
+        "Physical construction progress provides tangible evidence of project execution, though investors should monitor funding adequacy and capital expenditure burn rate given the company's micro-cap status and the capital-intensive nature of gold mine construction in West Africa.",
+        "Continued construction momentum at Kobada positions Toubani closer to first gold pour, but the market will be watching for updates on remaining financing arrangements, construction timeline adherence, and any sovereign/permitting risks in the Malian operating environment."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IPD",
+      "company": "IMPEDIMED LIMITED",
+      "headline": "Oversubscribed Share Purchase Plan Successfully Completed",
+      "time": "2026-06-09T23:05:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098684-2A1676665",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ImpediMed's Share Purchase Plan was oversubscribed, signaling strong retail investor confidence and demand for the company's equity at current levels, reinforcing the positive sentiment from the preceding institutional placement.",
+        "Successful completion of the SPP bolsters ImpediMed's balance sheet and extends cash runway, providing additional capital to fund commercialization efforts for its bioimpedance spectroscopy (SOZO) platform in the US healthcare market.",
+        "Oversubscription required a scale-back mechanism, indicating excess demand — a constructive signal for secondary market support, though existing shareholders face modest dilution from the combined capital raise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AUQ",
+      "company": "ALARA RESOURCES LIMITED",
+      "headline": "Proceedings Related to Al Wash-hi Majaza Project Dismissed",
+      "time": "2026-06-09T23:05:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098683-6A1328881",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Legal proceedings related to Alara's Al Wash-hi Majaza copper-gold project in Oman have been dismissed, removing a key overhang and de-risking the company's flagship asset.",
+        "Resolution of litigation eliminates potential financial liabilities and legal costs that could have further strained Alara's balance sheet, preserving capital for project advancement.",
+        "With the legal cloud cleared, Alara can refocus on progressing the Al Wash-hi Majaza project development pathway, potentially improving its ability to attract partners or financing."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AYT",
       "company": "AUSTIN METALS LIMITED",
