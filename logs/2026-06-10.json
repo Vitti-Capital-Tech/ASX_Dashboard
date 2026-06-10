@@ -1,9 +1,163 @@
 {
   "date": "2026-06-10",
-  "total": 77,
-  "market_sensitive_count": 64,
-  "generated_at": "2026-06-10T00:01:00.328758+00:00",
+  "total": 85,
+  "market_sensitive_count": 70,
+  "generated_at": "2026-06-10T00:49:32.068281+00:00",
   "announcements": [
+    {
+      "ticker": "PKO",
+      "company": "PEAKO LIMITED",
+      "headline": "PKO Saudia Arabia Gold Portfolio Acquisition Presentation",
+      "time": "2026-06-10T00:42:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098796-3A695005",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Peako Limited is pursuing a gold portfolio acquisition in Saudi Arabia, signaling a strategic pivot into an emerging mining jurisdiction with significant untapped mineral potential and government-backed sector development under Vision 2030.",
+        "The market-sensitive nature of the presentation suggests material terms are being disclosed, likely including project scale, resource estimates, and transaction structure — key details institutional investors need to assess valuation accretion and dilution risk.",
+        "Saudi Arabia's mining sector is attracting global interest due to its underexplored Arabian Shield geology; successful acquisition could re-rate PKO significantly, but execution risk remains high for a micro-cap entering a new jurisdiction with limited operational track record there."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PKO",
+      "company": "PEAKO LIMITED",
+      "headline": "Peako Acquires Drill-Ready Saudi Arabian Gold Portfolio",
+      "time": "2026-06-10T00:42:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098795-3A695025",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Peako has acquired a drill-ready gold portfolio in Saudi Arabia, signaling a strategic pivot into an emerging mining jurisdiction with significant geological potential and relatively untapped gold endowment.",
+        "The 'drill-ready' status implies the asset comes with existing exploration data and permits, potentially compressing the timeline to resource definition and reducing upfront exploration spend — critical for a micro-cap with limited cash runway.",
+        "Key execution risks include Saudi Arabian regulatory and operational complexities; investors should watch for details on acquisition consideration (cash vs scrip dilution), near-term drilling program funding, and any associated capital raise to fund exploration activity."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CBL",
+      "company": "CONTROL BIONICS LIMITED",
+      "headline": "Change in substantial holding - Nightingale",
+      "time": "2026-06-10T00:32:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098789-2A1676712",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Nightingale Partners has filed a change in substantial holding for Control Bionics (CBL), signaling a shift in ownership concentration among key shareholders in this micro-cap assistive technology company.",
+        "Changes in substantial holder positions in illiquid micro-caps like CBL (market cap sub-$10M) can materially impact free float dynamics and trading liquidity, warranting close monitoring by existing holders.",
+        "The filing is procedural in nature with no indication of activist intent or strategic repositioning; investors should watch for any follow-up notices indicating further accumulation or disposal patterns."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "L1M",
+      "company": "LIGHTNING MINERALS LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-10T00:16:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098784-6A1328918",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has altered their position in Lightning Minerals Ltd, signaling a shift in institutional or major shareholder conviction in this early-stage explorer.",
+        "The change in substantial holding filing is classified as not market sensitive, suggesting the movement may be incremental rather than a large-scale accumulation or disposal event.",
+        "Investors should monitor whether this reflects portfolio rebalancing or a directional view on Lightning Minerals' exploration assets, with follow-up filings potentially clarifying intent."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPX",
+      "company": "SPENDA LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-06-10T00:06:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098781-3A695022",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Spenda Limited (SPX) has been reinstated to quotation on the ASX, ending a prior trading halt or suspension period that had prevented shares from trading on the open market.",
+        "Reinstatement typically follows resolution of a compliance issue, completion of a capital raise, or satisfaction of ASX conditions — the market-sensitive flag suggests material information has been disclosed alongside the relisting.",
+        "Investors should closely review the accompanying announcements that triggered the original suspension, as pent-up buying or selling pressure may drive elevated volatility in the initial sessions post-reinstatement."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPX",
+      "company": "SPENDA LIMITED",
+      "headline": "$1.85 million raised under institutional entitlement offer",
+      "time": "2026-06-10T00:06:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098780-3A695017",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Spenda raised $1.85 million through the institutional component of an entitlement offer, signaling modest institutional appetite for a micro-cap fintech — the relatively small raise size suggests limited institutional conviction or a tightly sized capital need.",
+        "The raise provides near-term working capital but at this scale is unlikely to materially extend cash runway beyond 1-2 quarters for a company of Spenda's operating profile, making execution on revenue growth critical to avoid further dilutive raises.",
+        "A retail entitlement offer component is expected to follow, which could add incremental proceeds but also signals further dilution risk — investors should watch for the total raise size, pricing discount, and any use-of-funds detail to assess whether capital is directed toward growth or plugging operating shortfalls."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DGL",
+      "company": "DGL GROUP LIMITED",
+      "headline": "Fire Incident at Envirostore Facility",
+      "time": "2026-06-10T00:00:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098777-3A695020",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Fire incident at DGL's Envirostore facility poses operational disruption risk to the company's environmental services segment, with potential impacts on revenue continuity and remediation costs yet to be quantified.",
+        "Insurance coverage and extent of asset damage will be critical variables — any material uninsured losses or prolonged facility downtime could pressure near-term earnings and free cash flow, particularly if the facility is a key node in DGL's waste management operations.",
+        "Market will closely watch follow-up disclosures on cause of fire, timeline to resume operations, environmental liability exposure, and any regulatory action — all of which could compound downside risk beyond the immediate physical damage."
+      ],
+      "tags": [
+        "Other",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SDF",
+      "company": "STEADFAST GROUP LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-09T23:59:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098776-2A1676703",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Steadfast Group Limited (SDF) has entered a trading halt, typically preceding a material announcement such as a capital raise, acquisition, or significant corporate action for this serial acquirer in the insurance broking space.",
+        "As one of the largest general insurance broker networks in Australasia with a market cap exceeding $5B, any capital raise or M&A activity would likely be material in scale and closely watched by institutional holders for dilution or accretive growth signals.",
+        "Investors should await the pending announcement — historically SDF trading halts have preceded bolt-on acquisitions or equity raisings to fund network expansion, with the key question being whether any deal is EPS-accretive and strategically aligned with their consolidation thesis."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ODE",
       "company": "ODESSA MINERALS LIMITED",
