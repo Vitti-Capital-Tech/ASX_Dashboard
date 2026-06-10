@@ -1,9 +1,159 @@
 {
   "date": "2026-06-11",
-  "total": 62,
-  "market_sensitive_count": 55,
-  "generated_at": "2026-06-10T23:17:21.737832+00:00",
+  "total": 70,
+  "market_sensitive_count": 61,
+  "generated_at": "2026-06-10T23:33:04.526524+00:00",
   "announcements": [
+    {
+      "ticker": "BTL",
+      "company": "BEETALOO ENERGY AUSTRALIA LIMITED",
+      "headline": "Beetaloo Operations Update",
+      "time": "2026-06-10T23:30:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099174-2A1676907",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Beetaloo Energy provides an operations update on its Beetaloo Sub-basin activities, signaling active progress on its Northern Territory gas exploration/development program — a key catalyst for de-risking the asset base.",
+        "Market-sensitive classification suggests material new information on drilling, flow testing, or operational milestones that could meaningfully impact resource estimates or project economics for institutional investors tracking unconventional gas plays.",
+        "Continued operational momentum in the Beetaloo Sub-basin positions the company within Australia's strategic push for onshore gas supply; upcoming results from current operations will be critical for validating commerciality and attracting farm-in or funding partners."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WMX",
+      "company": "WAM INCOME MAXIMISER LIMITED",
+      "headline": "Dividend/Distribution - WMX",
+      "time": "2026-06-10T23:25:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099169-2A1676904",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "WAM Income Maximiser (WMX) has declared a dividend/distribution, reinforcing its income-focused mandate and signaling confidence in the portfolio's cash flow generation capacity to sustain regular payouts to shareholders.",
+        "As a Listed Investment Company managed by Wilson Asset Management, consistent dividend announcements are critical to WMX's investment proposition, with yield-seeking investors closely monitoring payout levels relative to NTA and prevailing market rates.",
+        "Investors should assess the dividend amount, franking level, and ex-date details against prior periods to gauge whether the payout is being maintained, increased, or reduced — any change would signal shifts in portfolio performance or distributable profits outlook."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ARV",
+      "company": "ARTEMIS RESOURCES LIMITED",
+      "headline": "ARV Raises A$8m to Accelerate Gold and Copper Exploration",
+      "time": "2026-06-10T23:25:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099166-6A1329052",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Artemis Resources raised A$8m via placement to accelerate gold and copper exploration programs, providing meaningful funding to advance its Pilbara-based project portfolio through near-term drilling campaigns.",
+        "The capital raise introduces dilution for existing shareholders, a typical trade-off for junior explorers needing to fund pre-revenue exploration activity; the size suggests sufficient runway for multiple drill programs but signals ongoing reliance on equity markets.",
+        "Proceeds earmarked for gold and copper exploration positions ARV to capitalize on elevated commodity prices, with upcoming drill results likely to serve as key catalysts for re-rating or further capital market activity."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "A1N",
+      "company": "ARN MEDIA LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-10T23:25:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099165-2A1676906",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in ARN Media Limited, triggering a mandatory disclosure under ASX substantial holding rules, signaling active institutional portfolio rebalancing in the media sector.",
+        "The change in substantial holding may reflect shifting institutional sentiment around ARN Media's valuation or strategic outlook, particularly as the Australian radio and media landscape faces ongoing structural pressures and consolidation dynamics.",
+        "Investors should monitor whether this is part of a broader accumulation or reduction trend by the substantial holder, as sustained directional moves could influence liquidity and signal informed views on ARN Media's near-term prospects."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RKN",
+      "company": "RECKON LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-10T23:24:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099164-2A1676905",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in Reckon Limited (RKN), signaling active portfolio repositioning by a significant shareholder that institutional investors should monitor for directional intent.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is likely incremental rather than a transformative block trade or activist accumulation/disposal event.",
+        "Investors should cross-reference the updated substantial holder percentage against recent trading volumes and any concurrent corporate activity (e.g., the ongoing Infomedia/other M&A interest) to assess whether this reflects conviction buying or passive rebalancing."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VHL",
+      "company": "VITASORA HEALTH LIMITED",
+      "headline": "VHL Raises $4m Cornerstoned by $3m Strategic Investment",
+      "time": "2026-06-10T23:24:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099161-3A695073",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "VHL raised $4m in total, with a $3m cornerstone strategic investment representing 75% of the raise, signaling strong conviction from a key investor and reducing execution risk on the capital raise.",
+        "The $3m strategic cornerstone investment suggests a meaningful partnership or aligned interest beyond passive capital, which could unlock commercial or operational synergies for VHL's health-focused business.",
+        "The $4m injection extends VHL's cash runway, providing working capital to advance its pipeline and operations; investors should monitor the terms of the raise (pricing, dilution) and any conditions attached to the strategic investor's participation."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RIM",
+      "company": "RIMFIRE PACIFIC MINING LIMITED",
+      "headline": "Seismic Survey Underway at Fifield",
+      "time": "2026-06-10T23:21:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099158-3A695095",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Rimfire Pacific Mining has commenced a seismic survey at its Fifield project, signaling active advancement of exploration activities targeting potential mineral deposits in the Lachlan Fold Belt of NSW.",
+        "Seismic surveys represent a meaningful de-risking step for early-stage explorers, providing subsurface structural data that can refine drill targeting and reduce future exploration expenditure waste — a positive signal for capital allocation discipline.",
+        "Results from the seismic program will be critical in determining whether Fifield progresses to a drilling phase; investors should watch for survey interpretation updates which could serve as a near-term catalyst if prospective structures are identified."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BRE",
+      "company": "BRAZILIAN RARE EARTHS LIMITED",
+      "headline": "Velhinhas Drilling Unlocks Over 9km Rare Earth Corridor",
+      "time": "2026-06-10T23:15:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099155-6A1329058",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Brazilian Rare Earths has identified a continuous rare earth mineralised corridor exceeding 9km at its Velhinhas project, significantly expanding the scale potential of the deposit and reinforcing the strategic value of its Brazilian rare earth assets amid global supply chain diversification efforts.",
+        "The drilling results demonstrate substantial lateral and depth continuity of rare earth mineralisation, which is critical for underpinning a future resource estimate upgrade and improving the project's economic viability for potential large-scale development.",
+        "Next catalysts include further infill and extensional drilling to convert the corridor into JORC-compliant resources, with the expanded footprint likely to attract strategic interest from offtake partners and government-backed critical minerals initiatives."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "NVQ",
       "company": "NOVIQTECH LIMITED",
