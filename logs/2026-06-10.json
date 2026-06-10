@@ -1,9 +1,66 @@
 {
   "date": "2026-06-10",
-  "total": 87,
-  "market_sensitive_count": 72,
-  "generated_at": "2026-06-10T01:45:07.414135+00:00",
+  "total": 90,
+  "market_sensitive_count": 74,
+  "generated_at": "2026-06-10T03:09:25.892926+00:00",
   "announcements": [
+    {
+      "ticker": "IVZ",
+      "company": "INVICTUS ENERGY LTD",
+      "headline": "Response to ASX Aware Letter",
+      "time": "2026-06-10T02:09:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098824-6A1328927",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Invictus Energy responded to an ASX Aware Letter, typically triggered by unusual price or volume movements, indicating the exchange is scrutinizing the company's disclosure compliance and potential information asymmetry in the market.",
+        "ASX Aware Letters often signal regulatory concern about whether material information has been adequately disclosed; the market-sensitive designation suggests the response contains substantive information that could reprice the stock.",
+        "Investors should monitor whether the response reveals previously undisclosed operational developments at Invictus's Cabora Bassa project in Zimbabwe, as any confirmation of undisclosed material information could trigger further regulatory action or trading restrictions."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MAU",
+      "company": "MAGNETIC RESOURCES NL",
+      "headline": "Scheme becomes Effective",
+      "time": "2026-06-10T01:59:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098822-6A1328925",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Magnetic Resources' scheme of arrangement has become legally effective, marking a critical milestone in the completion of the acquisition/merger transaction with the counterparty securing court and regulatory approvals.",
+        "With the scheme now effective, MAU shares will be suspended from trading on the ASX and shareholders will receive scheme consideration, removing further price discovery on the standalone entity.",
+        "Implementation of the scheme (transfer of shares and payment of consideration) is expected to follow shortly, with delisting anticipated — investors holding residual positions should prepare for final settlement mechanics."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMR",
+      "company": "BALLYMORE RESOURCES LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-10T01:54:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098818-2A1676723",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Ballymore Resources Limited, crossing the 5% ownership threshold, signaling growing institutional or strategic interest in the junior explorer.",
+        "The identity and intent of the substantial holder will be key — strategic investors accumulating positions in small-cap mining companies can foreshadow potential corporate activity or validate the underlying asset thesis.",
+        "While the notice itself is procedural and not market sensitive, investors should monitor for follow-on buying or any associated corporate developments that could indicate a takeover approach or strategic partnership."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SUH",
       "company": "SOUTHERN HEMISPHERE MINING LIMITED",
