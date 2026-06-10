@@ -1,9 +1,348 @@
 {
   "date": "2026-06-10",
-  "total": 59,
-  "market_sensitive_count": 49,
-  "generated_at": "2026-06-09T23:31:44.575402+00:00",
+  "total": 77,
+  "market_sensitive_count": 64,
+  "generated_at": "2026-06-10T00:01:00.328758+00:00",
   "announcements": [
+    {
+      "ticker": "ODE",
+      "company": "ODESSA MINERALS LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-06-09T23:56:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098773-6A1328916",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Odessa Minerals, indicating a significant sell-down below the 5% threshold, which may signal reduced institutional confidence in the micro-cap explorer.",
+        "The departure of a substantial holder in a thinly-traded micro-cap like Odessa Minerals could pressure liquidity and create near-term overhang if residual shares are still being unwound in the market.",
+        "Investors should monitor whether this is an isolated portfolio rebalancing event or part of a broader pattern of institutional exits, and watch for any corresponding capital raise or corporate activity that may have prompted the divestment."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DRR",
+      "company": "DETERRA ROYALTIES LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-09T23:56:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098772-6A1328915",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Deterra Royalties, signaling meaningful institutional or strategic interest in the iron ore royalty company at current valuation levels.",
+        "The crossing of the 5% substantial holding threshold represents a significant capital commitment and may reflect a view on the attractiveness of Deterra's royalty stream, particularly its MAC royalty over BHP's Mining Area C operations.",
+        "Investors should monitor whether this accumulation is part of a broader strategic play — potentially linked to M&A activity or activist positioning — or simply reflects portfolio rebalancing by a passive/index fund."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VKA",
+      "company": "VIKING MINES LIMITED",
+      "headline": "LINKA TUNGSTEN RECOVERY IMPROVED TO 76.0%",
+      "time": "2026-06-09T23:52:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098769-6A1328912",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Viking Mines achieved a significant improvement in tungsten recovery at its Linka project, reaching 76.0%, which strengthens the economic viability of the deposit and moves the project closer to commercial-grade metallurgical performance.",
+        "A 76% recovery rate represents a material uplift in processing efficiency, directly improving potential revenue per tonne of ore and enhancing the project's NPV in any future feasibility study or scoping assessment.",
+        "Improved metallurgical results de-risk the pathway toward a pre-feasibility or definitive feasibility study, potentially attracting strategic partners or offtake interest in a critical mineral (tungsten) that benefits from supply security tailwinds in Western markets."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HMX",
+      "company": "HAMMER METALS LIMITED",
+      "headline": "Extension to Voluntary Suspension",
+      "time": "2026-06-09T23:51:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098767-6A1328910",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Hammer Metals has requested an extension to its existing voluntary suspension, indicating an ongoing corporate action or transaction that remains incomplete and requires additional time to finalize.",
+        "Extended voluntary suspensions can signal complex negotiations such as potential acquisitions, capital raises, or restructuring — the lack of market sensitivity designation suggests procedural rather than material news at this stage.",
+        "Investors should monitor for the eventual reinstatement announcement, which will likely contain the substantive details driving the suspension; prolonged halts can create liquidity risk and uncertainty for existing shareholders."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SDF",
+      "company": "STEADFAST GROUP LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-06-09T23:49:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098766-2A1676702",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Steadfast Group Limited has requested a pause in trading, which typically precedes a material announcement such as a potential acquisition, capital raise, or significant corporate action given the company's active M&A history in the insurance broking sector.",
+        "As one of the largest general insurance broker networks on the ASX with a market cap exceeding $5 billion, any material transaction or strategic update could have meaningful implications for earnings trajectory and network scale.",
+        "Investors should monitor closely for the forthcoming announcement that triggered the trading halt, as the market-sensitive designation signals information likely to move the share price upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BUR",
+      "company": "BURLEY MINERALS LTD",
+      "headline": "Oversubscribed Successful Share Purchase Plan",
+      "time": "2026-06-09T23:48:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098765-6A1328911",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Burley Minerals' Share Purchase Plan was oversubscribed, signaling strong existing shareholder conviction and demand for the company's equity at the offer price.",
+        "Oversubscription indicates the company likely raised the maximum (or near-maximum) targeted amount, bolstering its cash runway for exploration and operational activities without needing to seek external funding in the near term.",
+        "Successful SPP completion, combined with any preceding placement, strengthens the balance sheet and positions the company to advance its mineral exploration programs, though investors should monitor the scale of dilution relative to the company's market cap."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CKA",
+      "company": "COKAL LIMITED",
+      "headline": "RKAB Approval Received and Coal Shipment Scheduled",
+      "time": "2026-06-09T23:46:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098764-6A1328909",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cokal has received RKAB (annual mining plan) approval from Indonesian authorities, removing a key regulatory bottleneck that had previously constrained production and shipment activities at its BBM coking coal project.",
+        "A coal shipment is now scheduled, signaling imminent revenue generation and the transition from development/permitting phase to active cash-flow production — critical for a junior miner with limited cash runway.",
+        "The RKAB approval de-risks the near-term operational outlook and positions Cokal to ramp up production volumes; investors should watch for shipment tonnage details, realized pricing, and whether sustained export cadence can be maintained."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AHK",
+      "company": "ARK MINES LIMITED",
+      "headline": "Sandy Mitchell-Concentrate to Product Test Result-Commercial",
+      "time": "2026-06-09T23:45:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098763-2A1676701",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ARK Mines has received commercial-scale test results for converting Sandy Mitchell concentrate to a final product, a critical de-risking milestone that validates the processing pathway and moves the project closer to production readiness.",
+        "Successful concentrate-to-product conversion at commercial scale demonstrates technical feasibility beyond lab/pilot stages, potentially unlocking offtake discussions and project financing opportunities for the junior miner.",
+        "Next steps likely involve finalizing processing parameters, securing offtake agreements, and advancing toward a definitive feasibility study or production decision — investors should monitor for follow-up announcements on economics and capital requirements."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MX1",
+      "company": "MICRO-X LIMITED",
+      "headline": "MX1 - Micro-X Completes Full Body CT Critical Design Review",
+      "time": "2026-06-09T23:43:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098761-3A695016",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Micro-X has completed the Critical Design Review (CDR) for its full body CT scanner, a major engineering milestone that validates the detailed design and clears the path toward prototype build and regulatory submissions — de-risking the program significantly.",
+        "The full body CT program leverages Micro-X's proprietary cold cathode X-ray technology, positioning the company in a high-value medical imaging market; successful CDR completion signals the technology is progressing from concept toward commercialisation, though revenue remains pre-commercial stage.",
+        "Next steps will focus on prototype manufacturing, verification/validation testing, and eventual regulatory clearance (likely FDA/TGA), with timelines and capital requirements critical to monitor given MX1's small-cap status and ongoing cash burn profile."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TTM",
+      "company": "TITAN MINERALS LIMITED",
+      "headline": "Dynasty Resource Drilling Recommenced",
+      "time": "2026-06-09T23:41:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098760-6A1328907",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Titan Minerals has recommenced drilling at its Dynasty Gold Resource in Ecuador, signaling renewed exploration momentum and commitment to advancing its key asset toward resource expansion.",
+        "The restart of drilling activity is a positive operational catalyst, though the market impact will depend on assay results and whether intercepts support meaningful resource upgrades beyond existing estimates.",
+        "Investors should monitor upcoming drill results closely as successful intercepts could de-risk the project and potentially attract strategic interest, while the company's cash position and burn rate during active drilling programs remain key considerations for runway assessment."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MGU",
+      "company": "MAGNUM MINING AND EXPLORATION LIMITED",
+      "headline": "FIRST 24 HOLES ALL INTERSECT NEAR-SURFACE REE MINERALISATION",
+      "time": "2026-06-09T23:41:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098759-6A1328906",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "All 24 initial drill holes at Magnum's REE project intersected near-surface rare earth element mineralisation, demonstrating exceptional geological continuity and significantly de-risking the resource potential.",
+        "Near-surface mineralisation is technically significant as it implies potential for lower-cost open-pit extraction, which could materially improve project economics compared to deeper REE deposits — a key differentiator in the competitive critical minerals space.",
+        "With a 100% hit rate across the first phase of drilling, the company is well-positioned to advance toward a maiden or expanded JORC resource estimate, which would be the next major catalyst for re-rating and potential strategic interest from offtake partners or government critical minerals funding."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PPS",
+      "company": "PRAEMIUM LIMITED",
+      "headline": "Technology Update",
+      "time": "2026-06-09T23:36:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098753-3A695015",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Praemium has issued a market-sensitive technology update, likely signaling a significant platform enhancement, new product capability, or system migration milestone that could differentiate its wealth management platform in a competitive SaaS landscape.",
+        "For a platform business with ~$50M+ revenue, technology upgrades are critical to client retention and FUA (funds under administration) growth — any improvement in advisor experience or operational efficiency directly impacts recurring revenue quality and margin expansion potential.",
+        "Investors should assess whether this update drives incremental FUA inflows, reduces churn risk, or opens new addressable market segments; execution on technology roadmap is a key catalyst for re-rating given Praemium's positioning against larger competitors like HUB24 and Netwealth."
+      ],
+      "tags": [
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DES",
+      "company": "DESOTO RESOURCES LIMITED",
+      "headline": "10,000M Maiden Drilling Program Commencing at Timbakouna",
+      "time": "2026-06-09T23:34:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098751-6A1328902",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DeSoto Resources is commencing a 10,000-metre maiden drilling program at its Timbakouna gold project in Mali, representing a significant de-risking catalyst for this early-stage explorer and a key inflection point for the stock.",
+        "The scale of the maiden program (10,000m) signals management confidence in the target quality and suggests sufficient funding is in place to complete a meaningful first-pass exploration campaign across the prospect.",
+        "Drilling results over coming months will be the primary share price driver; successful intercepts at Timbakouna could materially re-rate the company, while the market-sensitive designation underscores the materiality of this operational milestone for investors."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AQI",
+      "company": "ALICANTO MINERALS LIMITED",
+      "headline": "Successful $30m Placement to Fund Growth Drilling",
+      "time": "2026-06-09T23:34:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098750-6A1328892",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Alicanto Minerals raised $30M via placement, providing substantial funding to accelerate growth drilling programs — a strong signal of institutional confidence in the company's exploration pipeline.",
+        "The $30M capital raise likely introduces meaningful dilution for existing shareholders, though the dedicated allocation toward high-impact drilling suggests management is prioritizing near-term value catalysts over capital preservation.",
+        "Proceeds earmarked specifically for growth drilling indicate the company is at an inflection point in its exploration strategy, with upcoming drill results likely to serve as key share price catalysts over the next 6-12 months."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "Lirios 1 Geophysics Reveals New Targets and Scale Potential",
+      "time": "2026-06-09T23:34:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098749-6A1328901",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Geophysical survey at Lirios 1 copper-gold project has identified new exploration targets, suggesting the mineralised system may be significantly larger than previously understood, enhancing the project's scale potential.",
+        "New IP (Induced Polarisation) anomalies extend beyond known surface mineralisation, providing drill-ready targets that could materially expand the resource footprint if confirmed by follow-up drilling.",
+        "As a micro-cap explorer, EV Resources will likely need to prioritise capital allocation toward drill testing these new targets; investors should monitor upcoming drill program announcements and assess cash runway adequacy for meaningful exploration campaigns."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VNL",
+      "company": "VINYL GROUP LTD",
+      "headline": "Pedestrian and Time Out Acquisition Presentation",
+      "time": "2026-06-09T23:32:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098744-2A1676629",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Vinyl Group is acquiring Pedestrian Group and Time Out Australia, signaling a significant strategic pivot to scale its digital media and entertainment platform through M&A, potentially transforming the company's revenue profile and audience reach.",
+        "The acquisition of established media brands like Pedestrian (known for high youth engagement) and Time Out's Australian operations could deliver meaningful revenue uplift and cross-selling synergies across Vinyl's music and entertainment ecosystem, though deal terms and funding structure will be critical to assess dilution risk.",
+        "Market-sensitive designation suggests material deal size relative to Vinyl Group's current market cap; investors should watch for acquisition pricing, funding mechanism (scrip vs cash vs capital raise), and integration timeline to determine whether the transaction is genuinely accretive or introduces execution risk."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VNL",
+      "company": "VINYL GROUP LTD",
+      "headline": "Time Out acquisition and integration capital placement",
+      "time": "2026-06-09T23:30:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098742-2A1676628",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Vinyl Group is raising capital via placement to fund the acquisition of Time Out, signaling an M&A-driven growth strategy that could materially expand the company's revenue base and market presence in media/entertainment.",
+        "The placement structure implies near-term dilution for existing shareholders, with proceeds earmarked for both the acquisition purchase price and integration costs — investors should scrutinize the acquisition multiple and synergy assumptions.",
+        "Successful integration of Time Out's brand and audience could be transformative for Vinyl Group's scale, but execution risk is elevated given the capital-intensive nature of media acquisitions and the company's micro-cap status on the ASX."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TM1",
+      "company": "TERRA METALS LIMITED",
+      "headline": "High-Grade PGM-Cu-Ni From First 2026 Drilling at Southwest",
+      "time": "2026-06-09T23:30:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03098741-6A1328898",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Terra Metals reports high-grade PGM-Cu-Ni intercepts from the first drilling campaign of 2026 at its Southwest prospect, signaling potential for a meaningful polymetallic discovery that could materially re-rate the stock given its micro-cap status.",
+        "The combination of platinum group metals with copper and nickel mineralization enhances the project's economic attractiveness, as polymetallic deposits benefit from diversified commodity exposure and improved processing economics compared to single-commodity systems.",
+        "As an early-stage explorer, follow-up drilling results and resource definition work will be critical catalysts; investors should monitor assay turnaround timelines, drill program scope expansion, and any capital raise activity needed to fund continued exploration at Southwest."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "LCL",
       "company": "LCL RESOURCES LIMITED",
