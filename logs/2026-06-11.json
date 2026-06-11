@@ -1,9 +1,218 @@
 {
   "date": "2026-06-11",
-  "total": 95,
-  "market_sensitive_count": 83,
-  "generated_at": "2026-06-11T00:49:34.190119+00:00",
+  "total": 106,
+  "market_sensitive_count": 90,
+  "generated_at": "2026-06-11T01:53:05.836090+00:00",
   "announcements": [
+    {
+      "ticker": "SMM",
+      "company": "SOMERSET MINERALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-11T01:31:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099270-6A1329108",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Somerset Minerals has altered their position, triggering a mandatory disclosure under ASX substantial holding rules, signaling active portfolio repositioning by a significant shareholder.",
+        "The change in substantial holding — while not flagged as market sensitive — warrants monitoring for potential further buying or selling activity that could impact liquidity and share price dynamics in this micro-cap explorer.",
+        "Investors should track whether this represents the beginning of a broader accumulation or distribution pattern, as successive substantial holding changes can precede corporate actions such as takeover approaches or capital raises."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HWK",
+      "company": "HAWK RESOURCES LIMITED.",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-11T01:30:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099269-6A1329107",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Hawk Resources Limited, crossing the 5% ownership threshold, signaling meaningful external investor conviction in the company's prospects.",
+        "The filing is classified as not market sensitive, suggesting this is a routine disclosure rather than a precursor to an imminent takeover or strategic transaction, though accumulation at this level warrants monitoring.",
+        "Institutional investors should watch for further share acquisitions by this holder, as continued buying could indicate a potential board challenge, strategic stake-building, or pre-positioning ahead of a corporate catalyst."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "1TT",
+      "company": "THRIVE TRIBE TECHNOLOGIES LIMITED",
+      "headline": "Prospectus Placement Options and Target Market Determination",
+      "time": "2026-06-11T01:22:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099265-2A1676947",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Thrive Tribe Technologies is issuing a prospectus for placement options, indicating an active capital raise that will result in share dilution for existing holders in what is typically a micro-cap structure.",
+        "The inclusion of a Target Market Determination (TMD) suggests the offering involves retail-accessible securities, likely options exercisable at a set price, which signals the company needs to bolster its cash position to fund ongoing operations.",
+        "For a company of this scale, the capital raise raises questions about near-term cash runway adequacy; investors should monitor the raise size, option exercise price, and intended use of proceeds for clarity on whether this is growth-oriented or survival funding."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BGD",
+      "company": "BARTON GOLD HOLDINGS LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-11T01:09:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099259-6A1329103",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Barton Gold Holdings, crossing the 5% ownership threshold, signaling growing institutional or strategic interest in the junior gold explorer/developer.",
+        "The accumulation of a substantial position in a small-cap gold company may reflect conviction in the company's asset base or anticipation of upcoming catalysts such as drilling results, resource upgrades, or corporate activity.",
+        "Investors should monitor whether this stake continues to build toward a potential takeover threshold or strategic blocking position, as well as any follow-up announcements regarding the holder's intentions."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CGH",
+      "company": "CLAREMONT GLOBAL FUND (HEDGED) ACTIVE ETF",
+      "headline": "Lifting of trading pause",
+      "time": "2026-06-11T01:06:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099256-2A1676944",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Trading pause on Claremont Global Fund (Hedged) Active ETF has been lifted, restoring normal market liquidity and price discovery for unitholders.",
+        "The trading pause was likely procedural — commonly triggered by pending NAV updates, distribution announcements, or portfolio rebalancing disclosures — and its resolution removes short-term uncertainty for market participants.",
+        "Investors should monitor for any accompanying announcements (e.g., distribution changes or NAV adjustments) that may have prompted the original pause, as these could carry valuation implications for the hedged global equity strategy."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BGD",
+      "company": "BARTON GOLD HOLDINGS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-11T01:06:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099257-6A1329101",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Barton Gold Holdings has filed a change in their holding, signaling a notable shift in ownership structure that institutional investors should monitor for potential strategic intent or portfolio rebalancing.",
+        "The filing is classified as not market sensitive, suggesting the change likely reflects routine portfolio adjustments rather than a transformative block trade or activist accumulation that would materially alter the company's near-term trajectory.",
+        "Investors should track whether this represents the beginning of a broader accumulation or disposal pattern, as successive substantial holding changes in junior gold explorers can foreshadow corporate activity or shifts in market confidence around the asset base."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CGU",
+      "company": "CLAREMONT GLOBAL FUND ACTIVE ETF",
+      "headline": "Lifting of trading pause",
+      "time": "2026-06-11T01:05:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099255-2A1676942",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Trading pause on Claremont Global Fund Active ETF has been lifted, restoring normal market liquidity and enabling investors to transact at current NAV-reflective prices.",
+        "The trading pause was likely procedural in nature, potentially linked to portfolio rebalancing, NAV calculation updates, or regulatory compliance requirements typical for active ETFs.",
+        "Resumption of trading removes short-term uncertainty; investors should monitor for any accompanying announcements regarding portfolio changes or distribution updates that may have triggered the original pause."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OPP",
+      "company": "MAGELLAN GLOBAL OPPORTUNITIES FUND - ACTIVE ETF",
+      "headline": "Lifting of pause in trading",
+      "time": "2026-06-11T01:04:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099254-2A1676941",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Trading pause on Magellan Global Opportunities Fund Active ETF (MHG) has been lifted, restoring normal market access and liquidity for investors after a temporary halt period.",
+        "The lifting of the trading pause suggests resolution of the underlying issue that triggered the halt — likely related to NAV calculation, market-making, or disclosure requirements — removing a near-term overhang on the fund.",
+        "Investors should monitor for any accompanying announcements detailing the reason for the original pause, as well as potential NAV discrepancies or fund flow impacts that may have occurred during the suspension period."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HMX",
+      "company": "HAMMER METALS LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-06-11T00:47:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099249-6A1329098",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hammer Metals has been reinstated to quotation on the ASX, ending a trading halt period that had suspended liquidity for shareholders — a procedural but necessary step to resume normal market activity.",
+        "Reinstatement typically follows resolution of a compliance matter, capital raise completion, or material disclosure requirement — investors should review the accompanying announcements made during the suspension period for fundamental drivers.",
+        "Near-term trading may see elevated volume and volatility as pent-up buy/sell orders are executed; the underlying catalyst for the original halt will determine whether the stock re-rates higher or faces selling pressure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HMX",
+      "company": "HAMMER METALS LIMITED",
+      "headline": "Larvotto Resources To Acquire Hammer Metals",
+      "time": "2026-06-11T00:47:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099248-6A1329095",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Larvotto Resources is acquiring Hammer Metals in a corporate takeover, signaling consolidation in the junior mining space and likely offering Hammer shareholders a premium or strategic value proposition through the combined entity.",
+        "The deal is market-sensitive, suggesting material terms have been agreed — investors should assess the implied valuation, exchange ratio, and whether the offer represents a fair premium to Hammer's recent trading range and underlying asset value.",
+        "The merged entity would combine respective project portfolios (likely copper-gold assets in the Mt Isa region), potentially creating a more diversified and better-funded explorer with improved scale to attract institutional capital and advance development timelines."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LRV",
+      "company": "LARVOTTO RESOURCES LIMITED",
+      "headline": "Binding Agreement to Acquire Hammer Metals",
+      "time": "2026-06-11T00:47:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099246-6A1329086",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Larvotto Resources has entered a binding agreement to acquire Hammer Metals, consolidating a significant copper-gold portfolio in the Mt Isa region — a strategically accretive move that expands the company's resource base and exploration pipeline in a tier-1 mining jurisdiction.",
+        "The all-scrip acquisition structure typical of junior explorer M&A will result in dilution for existing LRV shareholders, but the combined entity gains critical mass with enhanced project scale that could attract institutional interest and improve market relevance.",
+        "Key catalysts ahead include shareholder approval, completion conditions, and integration planning — investors should monitor the merger ratio, combined cash position, and management's ability to advance priority targets post-merger to unlock value from the enlarged portfolio."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "GT1",
       "company": "GREEN TECHNOLOGY METALS LIMITED",
