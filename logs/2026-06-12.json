@@ -1,9 +1,121 @@
 {
   "date": "2026-06-12",
-  "total": 24,
-  "market_sensitive_count": 16,
-  "generated_at": "2026-06-11T22:40:10.279960+00:00",
+  "total": 30,
+  "market_sensitive_count": 21,
+  "generated_at": "2026-06-11T23:11:14.850537+00:00",
   "announcements": [
+    {
+      "ticker": "NUZ",
+      "company": "NEURIZON THERAPEUTICS LIMITED",
+      "headline": "HEALEY ALS Trial Surpasses 50% Dosing Ahead of Schedule",
+      "time": "2026-06-11T23:07:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099562-6A1329221",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "HEALEY ALS Platform Trial has surpassed 50% dosing of NRZ participants ahead of schedule, signaling strong site enrollment momentum and operational execution for Neurizon's lead candidate in amyotrophic lateral sclerosis.",
+        "Accelerated dosing timelines reduce the risk of trial delays and could bring forward key efficacy/safety readouts, a critical catalyst for a pre-revenue biotech where clinical milestones are the primary valuation driver.",
+        "Faster-than-expected enrollment strengthens Neurizon's position to preserve cash runway by potentially shortening the trial period, while upcoming data milestones will be pivotal for partnership discussions or further capital raising."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-11T23:06:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099559-6A1329220",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Kingston Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant operational update for the junior mining company.",
+        "As a small-cap explorer focused on gold and copper assets (notably the Misima Gold Project in PNG), any capital raise during a trading halt would likely be dilutive to existing shareholders given the company's limited revenue generation profile.",
+        "Investors should monitor for the pending announcement closely — the nature of the halt (capital raise vs. acquisition vs. operational milestone) will be the key determinant of near-term price direction upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AM3",
+      "company": "AMARA MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-11T23:05:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099558-6A1329219",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Amara Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration result that requires price-sensitive disclosure.",
+        "As a junior minerals explorer, the most likely catalysts are a capital raising (potentially dilutive) or a transformative asset/exploration update — investors should monitor the nature of the forthcoming announcement closely.",
+        "Trading will remain suspended until the company releases its announcement or the halt period expires, with the next disclosure expected to clarify the strategic direction and any impact on the company's cash position and share structure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EIQ",
+      "company": "ECHOIQ LIMITED",
+      "headline": "Research collaboration secured with Mayo Clinic",
+      "time": "2026-06-11T23:02:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099555-2A1677067",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EchoIQ has secured a research collaboration with Mayo Clinic, one of the world's most prestigious medical institutions, providing significant clinical validation credibility for its AI-driven cardiac diagnostic technology and enhancing its pathway toward regulatory and commercial milestones.",
+        "For a micro-cap ASX-listed health-tech company, a Mayo Clinic partnership represents a disproportionately high-value endorsement that could materially de-risk the technology narrative and attract institutional attention, though near-term revenue impact is likely minimal as this is a research-stage collaboration.",
+        "Key next steps to watch include the scope and timeline of joint research outputs, any resulting publications or regulatory submissions leveraging Mayo data, and whether the collaboration converts into a commercial licensing or integration agreement — investors should also monitor cash runway given the pre-revenue stage."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ARN",
+      "company": "ALDORO RESOURCES LIMITED",
+      "headline": "Kameelburg Tier 1 scale grade confirmed every direction",
+      "time": "2026-06-11T22:53:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099545-6A1329215",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Aldoro confirms Tier 1 scale mineralisation at Kameelburg with high-grade results extending in every direction, significantly de-risking the deposit's scale potential and enhancing the project's strategic value.",
+        "Grade continuity confirmed across multiple drill directions supports a potentially large-tonnage resource, which is critical for justifying future development economics and attracting farm-in or M&A interest at this early stage.",
+        "Next steps likely include expanded drilling programs and maiden or updated resource estimates; investors should monitor upcoming assay results and any capital raise activity to fund accelerated exploration."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OPT",
+      "company": "OPTHEA LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-11T22:51:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099543-3A695186",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Opthea Limited (OPT), crossing the 5% ownership threshold, signaling meaningful institutional or strategic interest in the clinical-stage ophthalmology biotech.",
+        "The accumulation of a substantial position in a pre-revenue biotech like Opthea suggests the new holder sees value in the company's pipeline, particularly its sozinibercept (OPT-302) program targeting wet AMD, ahead of potential catalysts.",
+        "Investors should monitor whether this substantial holding is a precursor to further accumulation, potential M&A interest, or strategic partnership discussions, which could materially impact Opthea's valuation and funding outlook."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "QGL",
       "company": "QUANTUM GRAPHITE LIMITED",
