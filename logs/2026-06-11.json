@@ -1,9 +1,239 @@
 {
   "date": "2026-06-11",
-  "total": 83,
-  "market_sensitive_count": 73,
-  "generated_at": "2026-06-11T00:05:17.427231+00:00",
+  "total": 95,
+  "market_sensitive_count": 83,
+  "generated_at": "2026-06-11T00:49:34.190119+00:00",
   "announcements": [
+    {
+      "ticker": "GT1",
+      "company": "GREEN TECHNOLOGY METALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-11T00:44:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099244-6A1329099",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Green Technology Metals (GT1) has filed a change in holding notice, signaling a meaningful shift in institutional or strategic investor positioning in this lithium-focused explorer/developer.",
+        "The change in substantial holding — whether an increase or decrease — provides a key signal on informed investor conviction in GT1's asset portfolio and near-term development trajectory amid volatile lithium market conditions.",
+        "As a non-market-sensitive filing, this is a regulatory disclosure rather than a catalyst event, but investors should monitor whether the movement reflects accumulation ahead of project milestones or portfolio rebalancing/exit by a major holder."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OPP",
+      "company": "MAGELLAN GLOBAL OPPORTUNITIES FUND - ACTIVE ETF",
+      "headline": "Pause in Trading",
+      "time": "2026-06-11T00:39:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099243-2A1676937",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Magellan Global Opportunities Fund (Active ETF) has entered a trading pause, typically indicating a pending material announcement such as a structural change, wind-up proposal, or corporate action affecting the fund.",
+        "For an active ETF structure, a trading pause is notable as it disrupts the continuous liquidity mechanism that differentiates ETFs from traditional managed funds, potentially impacting market makers and arbitrage activity.",
+        "Investors should monitor for the subsequent announcement closely — possible catalysts include fund restructuring, merger with another Magellan vehicle, or changes to investment mandate, all of which could affect NAV realization and unitholder returns."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-06-11T00:23:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099227-6A1329093",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kingston Resources has been reinstated to ASX quotation, ending a trading halt period that had suspended liquidity for shareholders — the reinstatement signals resolution of the underlying issue that triggered the halt.",
+        "Reinstatement typically follows completion of a material corporate action such as a capital raise, acquisition milestone, or compliance requirement — investors should review any concurrent announcements for details on potential dilution or structural changes.",
+        "Near-term trading may see elevated volume as pent-up buy/sell orders are executed post-halt; the stock's price discovery phase will be critical in establishing the new equilibrium valuation."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Mineral Hill Operational Update and Capital Raising",
+      "time": "2026-06-11T00:23:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099225-6A1329072",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kingston Resources is conducting a capital raising alongside a Mineral Hill operational update, signaling likely need for additional funding to sustain or expand mining operations at the NSW polymetallic project.",
+        "The combined announcement of operational update with capital raise suggests potential production challenges or accelerated development plans requiring immediate equity funding, which will dilute existing shareholders.",
+        "Investors should scrutinize the terms of the capital raise (discount, size, placement vs rights issue) and whether Mineral Hill operational metrics justify continued investment or indicate deteriorating project economics."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KLI",
+      "company": "KILLI RESOURCES LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-06-11T00:14:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099221-6A1329090",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "KILLI RESOURCES LIMITED has been reinstated to quotation on the ASX, ending a prior trading halt or suspension period that had restricted investor access to the stock.",
+        "Reinstatement typically follows resolution of a compliance issue, completion of a capital raise, or satisfaction of ASX conditions — signaling the company has met regulatory requirements to resume normal trading.",
+        "Investors should monitor initial trading volumes and price discovery closely post-reinstatement, as pent-up demand or selling pressure may create near-term volatility; review any accompanying announcements for details on the catalyst behind the suspension."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CGU",
+      "company": "CLAREMONT GLOBAL FUND ACTIVE ETF",
+      "headline": "Pause in Trading",
+      "time": "2026-06-11T00:14:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099220-2A1676925",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Claremont Global Fund Active ETF has entered a trading pause, typically indicating a pending material announcement such as a portfolio restructuring, NAV adjustment, or corporate action that requires market disclosure before trading resumes.",
+        "As an active ETF, a trading pause may signal a significant divergence between the indicative NAV and market price, or an operational issue requiring resolution — investors should monitor for potential NAV markdowns or portfolio rebalancing disclosures.",
+        "Investors should await the subsequent announcement that triggered the pause; resumption of trading will depend on ASX satisfaction that the market has been adequately informed, with near-term liquidity potentially impacted upon reopening."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KLI",
+      "company": "KILLI RESOURCES LIMITED",
+      "headline": "Lodestone Iron Project Acquisition Presentation",
+      "time": "2026-06-11T00:13:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099218-6A1329065",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Killi Resources is acquiring the Lodestone Iron Project, signaling a strategic pivot or diversification into iron ore assets, which could materially alter the company's commodity exposure and valuation profile for institutional investors.",
+        "As a micro-cap ASX explorer, the acquisition's terms (consideration structure, dilution impact, and implied project valuation) will be critical — the market-sensitive designation suggests material deal parameters that could significantly move the stock on a thin register.",
+        "Key next steps include due diligence completion, shareholder approval requirements, and assessment of the Lodestone project's resource base, infrastructure proximity, and capex pathway to determine whether this is genuinely value-accretive or a speculative land grab in the current iron ore price environment."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KLI",
+      "company": "KILLI RESOURCES LIMITED",
+      "headline": "Killi Acquires Major WA Iron Ore Project",
+      "time": "2026-06-11T00:13:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099217-6A1329062",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Killi Resources has acquired a major iron ore project in Western Australia, representing a significant strategic pivot or portfolio expansion that could materially alter the company's asset base and valuation trajectory.",
+        "The acquisition of a WA iron ore asset positions Killi in one of Australia's most prolific mining jurisdictions, potentially providing access to established infrastructure corridors and proximity to key export hubs for Asian markets.",
+        "Key investor focus will be on acquisition terms (cash vs scrip), resource size and grade, capex requirements to advance the project, and whether the deal necessitates a capital raise — details critical to assessing dilution risk and timeline to value realization."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KLI",
+      "company": "KILLI RESOURCES LIMITED",
+      "headline": "Response to ASX Price and Volume Query",
+      "time": "2026-06-11T00:13:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099216-6A1329085",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Killi Resources issued a formal response to an ASX price and volume query, indicating unusual trading activity that triggered exchange scrutiny — typically a sign of speculative interest or potential information asymmetry in the market.",
+        "ASX price queries are standard compliance mechanisms; the company's response likely confirms no undisclosed material information, but the query itself highlights elevated volatility and volume that institutional investors should monitor for potential catalysts or speculative positioning.",
+        "As a junior mining explorer, any unexplained price spikes may relate to market speculation around exploration results or corporate activity — investors should watch for follow-up announcements that could clarify the underlying driver of the trading anomaly."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SGQ",
+      "company": "ST GEORGE MINING LIMITED",
+      "headline": "Strong Metallurgical Results at Araxa",
+      "time": "2026-06-11T00:13:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099215-6A1329091",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "St George Mining reports strong metallurgical test results at its Araxa rare earth project in Brazil, validating the processing pathway and de-risking the project's technical feasibility for potential development.",
+        "Positive metallurgical outcomes at this stage are critical for advancing toward a pre-feasibility or feasibility study, potentially improving the project's NPV assumptions and attracting strategic partners in the rare earths space.",
+        "Next steps likely include further optimisation of the flowsheet, resource definition drilling, and progression toward a scoping or pre-feasibility study — key catalysts that could drive re-rating if the project demonstrates economic viability at scale."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CGH",
+      "company": "CLAREMONT GLOBAL FUND (HEDGED) ACTIVE ETF",
+      "headline": "Pause in trading",
+      "time": "2026-06-11T00:12:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099212-2A1676922",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Claremont Global Fund (Hedged) Active ETF has entered a trading pause, typically indicating a pending material announcement such as a structural change, distribution update, or portfolio-related disclosure.",
+        "As a hedged global equity ETF, a trading pause may relate to NAV recalculation issues, fund restructuring, or significant corporate action affecting underlying holdings — investors should monitor for follow-up announcements closely.",
+        "Trading pauses for ETFs are generally short-duration and procedural; however, the market-sensitive designation suggests the forthcoming announcement could have meaningful implications for unit pricing or fund continuity."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BOL",
+      "company": "BOOM LOGISTICS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-11T00:06:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099209-3A695107",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Boom Logistics, signaling active institutional portfolio rebalancing in the small-cap industrial services space.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is incremental rather than a major accumulation or disposal that would materially shift the register.",
+        "Investors should monitor whether this forms part of a broader trend of institutional buying or selling in BOL, particularly given the company's leverage to infrastructure and resources activity cycles."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EBR",
       "company": "EBR SYSTEMS INC.",
