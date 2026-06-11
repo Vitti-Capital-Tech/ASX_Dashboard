@@ -1,9 +1,256 @@
 {
   "date": "2026-06-11",
-  "total": 70,
-  "market_sensitive_count": 61,
-  "generated_at": "2026-06-10T23:33:04.526524+00:00",
+  "total": 83,
+  "market_sensitive_count": 73,
+  "generated_at": "2026-06-11T00:05:17.427231+00:00",
   "announcements": [
+    {
+      "ticker": "EBR",
+      "company": "EBR SYSTEMS INC.",
+      "headline": "Retail Entitlement Offer Opens",
+      "time": "2026-06-10T23:59:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099203-3A695104",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "EBR Systems has opened its retail entitlement offer as part of a broader capital raise, signaling near-term dilution for existing shareholders who do not participate in the offer.",
+        "The retail component follows an institutional tranche, suggesting the company is executing a structured equity raise to fund operations — likely extending cash runway for its WiSE (Wireless Stimulation Endocardially) cardiac pacing technology through key regulatory and commercialization milestones.",
+        "Investors should monitor the offer's take-up rate and any shortfall bookbuild outcome, as weak retail participation could amplify dilutive pressure and signal softer sentiment toward the company's near-term prospects."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PL3",
+      "company": "PATAGONIA LITHIUM LTD",
+      "headline": "$11.4M Placement to Progress Formentera Lithium Project",
+      "time": "2026-06-10T23:54:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099198-3A695097",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "$11.4M placement provides critical funding to advance the Formentera Lithium Project in Argentina, signaling management's commitment to progressing exploration and development milestones despite a challenging lithium market.",
+        "The capital raise introduces meaningful dilution for existing shareholders, a common concern for junior explorers; investors should assess the placement price relative to recent trading levels and the discount offered to institutional participants.",
+        "Proceeds earmarked specifically for project advancement suggest near-term catalytic activity such as drilling programs or feasibility work at Formentera, which could drive re-rating if results are positive but extends the pre-revenue cash burn period."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GNM",
+      "company": "GREAT NORTHERN MINERALS LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-06-10T23:48:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099196-6A1329083",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Great Northern Minerals (GNM) has been suspended from quotation on the ASX, indicating a significant corporate action or compliance issue that halts all trading activity in the stock.",
+        "Suspension from quotation is a more severe measure than a standard trading halt, suggesting potential ongoing compliance concerns, failure to meet listing requirements, or a material corporate event requiring extended resolution.",
+        "Investors should monitor for subsequent announcements detailing the reason for suspension and any conditions for reinstatement; liquidity is now zero and positions cannot be exited until the suspension is lifted."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RNV",
+      "company": "RENERVE LIMITED",
+      "headline": "ReNerve appoints J4 as second Empliq manufacturing partner",
+      "time": "2026-06-10T23:47:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099195-6A1329084",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ReNerve has appointed J4 as a second manufacturing partner for its Empliq device, de-risking supply chain concentration and signaling commercial readiness as the company moves toward scaled production.",
+        "Adding a second contract manufacturer suggests growing confidence in demand trajectory for Empliq and positions ReNerve to meet potential volume requirements without single-supplier bottlenecks — critical for a pre-revenue medtech company seeking commercial traction.",
+        "Dual-source manufacturing capability strengthens ReNerve's negotiating position with distributors and regulatory bodies, and may accelerate market entry timelines; investors should watch for subsequent regulatory milestones and first commercial orders as key catalysts."
+      ],
+      "tags": [
+        "Healthcare",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CSX",
+      "company": "CLEANSPACE HOLDINGS LIMITED",
+      "headline": "New Product Launch - CleanSpace AGILE",
+      "time": "2026-06-10T23:46:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099193-2A1676915",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CleanSpace launches AGILE, a new powered air-purifying respirator (PAPR) product, signaling portfolio expansion beyond core offerings and potential to capture incremental market share in respiratory protection across healthcare and industrial segments.",
+        "New product launch is critical for a company that has seen revenue normalize post-COVID; AGILE could re-accelerate top-line growth if it addresses unmet needs in lighter-weight, more ergonomic respiratory protection — a key differentiator in competitive PAPR markets.",
+        "Market-sensitive designation suggests management views this as material to revenue outlook; investors should watch for early adoption metrics, distribution channel uptake, and any updated revenue guidance in upcoming quarterly updates to assess commercial traction."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "14D",
+      "company": "1414 DEGREES LIMITED",
+      "headline": "14D Enters Ukraine Drone Market",
+      "time": "2026-06-10T23:46:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099192-2A1676911",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "1414 Degrees is pivoting into the Ukraine drone market, signaling a significant strategic shift away from its core thermal energy storage technology into defence/aerospace, raising questions about management focus and capital allocation discipline.",
+        "Entry into the Ukrainian drone sector taps into a rapidly expanding wartime procurement market with strong demand tailwinds, but 14D's lack of established defence credentials and likely need for additional capital to fund this pivot increases execution and dilution risk for shareholders.",
+        "Investors should closely monitor upcoming disclosures for details on revenue pipeline, partnership structures, regulatory approvals, and funding requirements — the market-sensitive tag suggests material commitments, but the disconnect from 14D's original energy thesis may weigh on institutional confidence."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ILA",
+      "company": "ISLAND PHARMACEUTICALS LIMITED",
+      "headline": "Investor presentation",
+      "time": "2026-06-10T23:46:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099191-3A695100",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Island Pharmaceuticals is presenting an investor update, likely detailing progress on its antiviral drug pipeline including lead candidate ISLA-101, signaling active engagement with the investment community to build institutional awareness.",
+        "As a pre-revenue biotech, the presentation will be scrutinized for cash runway details and burn rate — key metrics for assessing dilution risk and timeline to next clinical milestones or data readouts.",
+        "Market-sensitive classification suggests the presentation may contain material new information such as clinical trial updates, partnership discussions, or strategic pivots that could catalyze near-term trading activity."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MHM",
+      "company": "MOUNT HOPE MINING LIMITED",
+      "headline": "MHM RIU Gold Coast Presentation",
+      "time": "2026-06-10T23:44:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099189-6A1329080",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mount Hope Mining presenting at the RIU Gold Coast conference, a key institutional investor-facing event that typically signals management's intent to raise market visibility and potentially attract capital or strategic interest.",
+        "As a market-sensitive presentation, the materials likely contain new or updated project data, resource estimates, or exploration results that could materially impact valuation — investors should review slide content for any upgraded metrics or timeline accelerations.",
+        "Conference presentations at RIU often precede capital raises or strategic announcements; institutional investors should monitor for follow-up ASX filings including potential placement activity or updated feasibility work in the near term."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MBK",
+      "company": "METAL BANK LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-10T23:43:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099188-3A695099",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Metal Bank Limited (MBK), crossing the 5% ownership threshold, signaling meaningful external investor conviction in the micro-cap explorer's prospects.",
+        "The filing is classified as not market sensitive, suggesting this is likely a passive accumulation rather than a strategic or hostile stake build, though the identity and intent of the holder will be key to watch.",
+        "For a small-cap ASX mining company, substantial holder notices can precede further share accumulation, potential board engagement, or serve as a precursor to corporate activity — investors should monitor for follow-up notices or changes in trading volume."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FXG",
+      "company": "FELIX GOLD LIMITED",
+      "headline": "US Antimony Platform Established",
+      "time": "2026-06-10T23:41:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099186-2A1676914",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Felix Gold has established a US antimony platform, positioning itself to capitalize on critical mineral supply chain concerns as the US seeks to reduce dependence on Chinese antimony imports following China's export restrictions.",
+        "Strategic pivot into antimony — a mineral designated as critical by the US government — could unlock significant valuation re-rating potential given the commodity's price surge and bipartisan political support for domestic supply security.",
+        "Key execution risks remain around resource definition, permitting timelines, and funding requirements to advance from platform establishment to production; investors should monitor upcoming drilling programs and offtake discussions for de-risking catalysts."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LM1",
+      "company": "LEEUWIN METALS LTD",
+      "headline": "Leeuwin signs MOU with Bain & MEGA to advance Marda",
+      "time": "2026-06-10T23:38:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099184-6A1329077",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Leeuwin Metals has signed a non-binding MOU with Bain & Company and MEGA (Middle East Green Aluminium) to advance the Marda Gold-Vanadium Project, signalling serious strategic interest from globally recognised partners in the project's development pathway.",
+        "The involvement of Bain & Company (a top-tier global consultancy) and a Middle East-backed green aluminium entity suggests potential access to significant capital and offtake arrangements, which could materially de-risk the project and reduce future dilution for existing shareholders.",
+        "As the MOU is non-binding, investors should monitor for conversion to definitive agreements; key catalysts ahead include feasibility study outcomes, binding commercial terms, and clarity on funding structures that will determine the project's timeline and economics."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JAV",
+      "company": "JAVELIN MINERALS LIMITED",
+      "headline": "Strategic Placement",
+      "time": "2026-06-10T23:38:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099183-6A1329079",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Javelin Minerals has announced a strategic placement, raising capital likely aimed at funding exploration or development activities at its mining projects, with the 'strategic' label suggesting participation from a cornerstone or industry-aligned investor.",
+        "As a micro-cap explorer, the placement will result in dilution for existing shareholders, though the strategic nature of the investor may partially offset negative sentiment by signaling external validation of the company's asset quality or growth potential.",
+        "Key details to watch include the placement price relative to last traded price (discount magnitude), use of proceeds, and whether the strategic investor brings operational expertise or offtake alignment that could accelerate project milestones."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OZM",
+      "company": "OZAURUM RESOURCES LIMITED",
+      "headline": "More High-Grade Shallow Gold at Mulgabbie North Paleochannel",
+      "time": "2026-06-10T23:35:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099179-6A1329075",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ozaurum reports further high-grade shallow gold intercepts at Mulgabbie North Paleochannel, reinforcing the prospectivity of this near-surface target and potentially de-risking future resource definition with lower extraction costs.",
+        "Shallow paleochannel-hosted gold mineralisation is technically significant as it typically supports low-cost open-pit or free-dig mining scenarios, which could materially improve project economics for a junior explorer with limited cash runway.",
+        "Continued drilling success at Mulgabbie North is expected to underpin further resource delineation work and could serve as a catalyst for a maiden or expanded resource estimate, potentially attracting farm-in partners or supporting a future capital raise."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "BTL",
       "company": "BEETALOO ENERGY AUSTRALIA LIMITED",
