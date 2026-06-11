@@ -1,9 +1,103 @@
 {
   "date": "2026-06-12",
-  "total": 30,
-  "market_sensitive_count": 21,
-  "generated_at": "2026-06-11T23:11:14.850537+00:00",
+  "total": 35,
+  "market_sensitive_count": 26,
+  "generated_at": "2026-06-11T23:32:32.856970+00:00",
   "announcements": [
+    {
+      "ticker": "WCN",
+      "company": "WHITE CLIFF MINERALS LIMITED",
+      "headline": "Completion of Great Bear Divestment & Receipt of $1.2M Cash",
+      "time": "2026-06-11T23:19:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099587-6A1329204",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "White Cliff Minerals has completed the divestment of its Great Bear project, receiving $1.2M in cash proceeds — a meaningful liquidity injection for a micro-cap explorer that strengthens near-term cash runway.",
+        "The $1.2M cash receipt provides balance sheet relief and reduces the immediate need for dilutive capital raises, allowing management to focus capital allocation on remaining core assets.",
+        "Completion of the divestment signals a strategic portfolio rationalization; investors should monitor how proceeds are deployed — whether toward exploration on retained projects, working capital, or further corporate activity."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SLS",
+      "company": "SOLSTICE MINERALS LIMITED",
+      "headline": "Step-Out Drilling Extends Nanadie Copper-Gold Mineralisation",
+      "time": "2026-06-11T23:19:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099586-6A1329225",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Step-out drilling at Nanadie has successfully extended copper-gold mineralisation beyond the previously known envelope, demonstrating the deposit remains open and has meaningful scale potential — a key de-risking milestone for this early-stage explorer.",
+        "Extension of mineralisation through step-out holes increases the likelihood of a resource upgrade or expansion at Nanadie, which could materially re-rate the project's economic viability and attract farm-in or M&A interest in the copper-gold space.",
+        "Investors should watch for upcoming assay results from the step-out program and any revised resource estimate, as these will determine whether the mineralisation extensions carry sufficient grade to move the project toward scoping or pre-feasibility studies."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MRQ",
+      "company": "MRG METALS LIMITED",
+      "headline": "Garies REE Mining Right Conversion Application Lodged",
+      "time": "2026-06-11T23:16:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099582-3A695198",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MRG Metals has lodged a Mining Right Conversion Application for its Garies Rare Earth Elements project in South Africa, representing a significant permitting milestone that transitions the asset from exploration toward potential development stage.",
+        "The conversion from a prospecting right to a mining right is a critical de-risking step for the Garies REE project, though the approval process with South African DMRE can be lengthy and uncertain, meaning near-term cash flow impact remains distant.",
+        "Successful conversion would position MRG to advance feasibility and development planning for Garies, but investors should monitor the company's cash runway and potential need for capital raises to fund ongoing permitting and project advancement activities."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TZL",
+      "company": "TZ LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-06-11T23:13:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099579-2A1677072",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TZ Limited has been suspended from quotation on the ASX, indicating a serious compliance or disclosure issue that prevents normal trading — this is a materially negative development for liquidity and investor confidence.",
+        "Suspension from quotation (as distinct from a voluntary trading halt) is typically imposed by ASX when a company fails to meet listing rule obligations, such as lodging financial reports, maintaining adequate operations, or addressing query concerns — suggesting potential structural issues with the company.",
+        "Investors should monitor for further ASX announcements regarding conditions for reinstatement; prolonged suspension raises the risk of eventual delisting, which would severely impair any residual equity value and exit options for holders."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RR1",
+      "company": "REACH RESOURCES LIMITED",
+      "headline": "Positioned for Growth",
+      "time": "2026-06-11T23:11:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099574-6A1329222",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reach Resources releases a market-sensitive 'Positioned for Growth' update, signaling strategic repositioning or asset development milestones that management views as material to the company's trajectory.",
+        "As a junior explorer, the 'growth positioning' narrative likely highlights project pipeline advancement, potential new tenement acquisitions, or partnership developments — investors should scrutinize whether this is backed by tangible catalysts or remains aspirational without near-term cash flow visibility.",
+        "Key watch items include cash runway sustainability given typical junior explorer burn rates, any capital raise implications embedded in the growth strategy, and whether upcoming drilling or resource definition work provides de-risking catalysts in the near term."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "NUZ",
       "company": "NEURIZON THERAPEUTICS LIMITED",
