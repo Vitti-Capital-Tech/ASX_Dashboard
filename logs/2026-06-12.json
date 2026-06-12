@@ -1,9 +1,142 @@
 {
   "date": "2026-06-12",
-  "total": 54,
-  "market_sensitive_count": 44,
-  "generated_at": "2026-06-12T00:09:20.059144+00:00",
+  "total": 61,
+  "market_sensitive_count": 51,
+  "generated_at": "2026-06-12T00:51:50.129771+00:00",
   "announcements": [
+    {
+      "ticker": "SRZ",
+      "company": "STELLAR RESOURCES LIMITED",
+      "headline": "Notice of Extraordinary General Meeting/Proxy Form",
+      "time": "2026-06-12T00:49:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099661-3A695215",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Stellar Resources has called an Extraordinary General Meeting, signaling significant corporate actions requiring shareholder approval outside the normal AGM cycle — typically indicative of capital raises, asset transactions, or board restructuring",
+        "The market-sensitive designation suggests the EGM resolutions carry material implications for the company's valuation, potentially involving dilutive equity issuances, related-party transactions, or strategic pivots for the tin-focused explorer",
+        "Investors should closely review the proxy form details for any proposed share consolidations, placements, or changes to company direction that could impact Stellar's already tight cash position and near-term development timeline"
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VLS",
+      "company": "VITA LIFE SCIENCES LIMITED..",
+      "headline": "Guidance",
+      "time": "2026-06-12T00:40:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099657-3A695214",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Vita Life Sciences has issued forward guidance, signaling management confidence in providing earnings visibility to the market — a positive signal for a small-cap healthcare/consumer health company that historically provides limited forward-looking commentary.",
+        "The issuance of guidance as a market-sensitive announcement suggests a material update to earnings expectations, likely reflecting either an upgrade or a meaningful change in operating trajectory that warrants formal disclosure under ASX continuous disclosure rules.",
+        "Institutional investors should assess whether the guidance implies organic revenue growth momentum across key APAC markets or margin expansion, and monitor for any revision to consensus estimates that could drive re-rating of the stock."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PTN",
+      "company": "PATRONUS RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-12T00:34:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099655-6A1329247",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Patronus Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration result that requires orderly disclosure.",
+        "As a small-cap explorer, trading halts frequently precede equity raisings which could be dilutive to existing shareholders, though they may also signal transformative asset acquisitions or high-impact drill results.",
+        "Investors should await the detailed announcement expected within two business days; the nature of the pending news will determine whether this is a catalyst for re-rating or a dilution event."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OSM",
+      "company": "OSMOND RESOURCES LIMITED",
+      "headline": "Ongoing Positive Progress on Scoping Study",
+      "time": "2026-06-12T00:19:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099647-6A1329243",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Osmond Resources reports ongoing positive progress on its Scoping Study, signaling the project is advancing through key technical and economic evaluation milestones — a de-risking catalyst for early-stage investors.",
+        "While specific financial metrics or resource estimates were not disclosed in the headline, the market-sensitive designation suggests the update contains material information that could influence valuation assumptions around project economics or timeline.",
+        "Investors should watch for forthcoming Scoping Study completion and detailed results including NPV, IRR, capex/opex estimates, and resource confidence levels, which will be critical in determining whether the project progresses to Pre-Feasibility Study stage."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "M2M",
+      "company": "MT MALCOLM MINES NL",
+      "headline": "Completion of Rights Issue",
+      "time": "2026-06-12T00:18:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099646-6A1329244",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mt Malcolm Mines has completed its rights issue, securing additional capital to fund ongoing operations and exploration activities, providing near-term cash runway certainty.",
+        "Completion of the rights issue implies dilution for non-participating shareholders, though the capital injection strengthens the balance sheet and reduces near-term funding risk.",
+        "Investors should monitor upcoming disclosures for details on total funds raised, participation rate, and planned allocation of proceeds toward exploration or development milestones."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PET",
+      "company": "PHOSLOCK ENVIRONMENTAL TECHNOLOGIES LIMITED",
+      "headline": "Class Action mediation update",
+      "time": "2026-06-12T00:17:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099643-2A1677132",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Phoslock has entered mediation in its class action lawsuit, signaling potential movement toward settlement which could reduce prolonged litigation costs and uncertainty for the company.",
+        "The outcome of mediation will be critical for assessing potential financial liability — any settlement or adverse ruling could materially impact the company's balance sheet and cash reserves, which are already constrained given its small-cap status.",
+        "Investors should monitor for a follow-up announcement on mediation results; a successful resolution could remove a significant overhang on the stock, while failure to settle would mean continued legal costs and ongoing share price drag."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WQG",
+      "company": "WCM GLOBAL GROWTH LIMITED",
+      "headline": "Renewal of Existing On-Market Share Buy-Back",
+      "time": "2026-06-12T00:11:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099639-3A695210",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WCM Global Growth Limited is renewing its existing on-market share buy-back program, signaling management's continued commitment to addressing any persistent discount to NTA and returning capital to shareholders.",
+        "The renewal is a continuation rather than a new initiative, suggesting the board views the current share price as undervalued relative to the underlying portfolio and sees buy-backs as an efficient use of capital versus alternatives.",
+        "For LIC/LIT investors, an active buy-back program provides ongoing price support and can incrementally narrow the discount to NTA, making this modestly positive for near-term sentiment and liquidity dynamics."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "PTN",
       "company": "PATRONUS RESOURCES LIMITED",
