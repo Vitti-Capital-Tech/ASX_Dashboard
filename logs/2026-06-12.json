@@ -1,9 +1,369 @@
 {
   "date": "2026-06-12",
-  "total": 35,
-  "market_sensitive_count": 26,
-  "generated_at": "2026-06-11T23:32:32.856970+00:00",
+  "total": 54,
+  "market_sensitive_count": 44,
+  "generated_at": "2026-06-12T00:09:20.059144+00:00",
   "announcements": [
+    {
+      "ticker": "PTN",
+      "company": "PATRONUS RESOURCES LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-06-12T00:00:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099634-6A1329238",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Patronus Resources has entered a trading pause, typically preceding a formal trading halt request and a material announcement that could significantly impact the company's valuation.",
+        "As a junior resources company, trading pauses often precede capital raises, asset acquisitions, or significant exploration results — investors should prepare for potential dilution or transformative news.",
+        "Shares will remain suspended until the company releases its pending announcement or the exchange lifts the pause; institutional investors should monitor for the follow-up ASX release to assess positioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MFG",
+      "company": "MAGELLAN FINANCIAL GROUP LIMITED",
+      "headline": "ACCC Approval and Group Rebrand",
+      "time": "2026-06-11T23:59:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099633-2A1677128",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ACCC has granted regulatory approval for Magellan Financial Group's proposed transaction, removing a key hurdle and de-risking the deal timeline for investors.",
+        "The concurrent group rebrand signals a strategic repositioning of the business, likely aimed at broadening the platform beyond the legacy Magellan brand and supporting diversified fund flows post-transaction.",
+        "With ACCC clearance secured, focus shifts to any remaining conditions precedent and implementation timing — completion would be a catalyst for re-rating if it unlocks cost synergies or distribution scale."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GRV",
+      "company": "GREENVALE ENERGY LTD",
+      "headline": "Trading Halt",
+      "time": "2026-06-11T23:58:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099632-2A1677127",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Greenvale Energy has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant corporate development that requires price-sensitive disclosure.",
+        "As a small-cap energy company, any trading halt raises immediate questions about cash runway adequacy and whether the halt precedes dilutive equity issuance or a transformative asset deal.",
+        "Investors should monitor for the resumption announcement closely; the nature of the pending news will determine whether this represents a value-accretive catalyst or a dilution event for existing shareholders."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GNM",
+      "company": "GREAT NORTHERN MINERALS LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-06-11T23:58:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099630-6A1329235",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Great Northern Minerals has been reinstated to quotation on the ASX, ending a period of trading suspension that likely related to compliance or disclosure requirements — removing a key liquidity barrier for existing shareholders.",
+        "Reinstatement signals the company has satisfied ASX conditions for resumption of trading, which may have involved completing a capital raise, lodging outstanding reports, or resolving a regulatory query — details of the underlying trigger are critical for assessing forward risk.",
+        "Near-term trading may see elevated volatility as pent-up buy/sell demand clears; investors should monitor the accompanying announcements for any material changes to the company's capital structure, cash position, or project status during the suspension period."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GNM",
+      "company": "GREAT NORTHERN MINERALS LIMITED",
+      "headline": "Mineral Resource of 480,000 Oz Au&11.5m Oz Ag at Iron Butte",
+      "time": "2026-06-11T23:58:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099627-6A1329233",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Great Northern Minerals has declared a maiden JORC Mineral Resource of 480,000 oz gold and 11.5 million oz silver at its Iron Butte project, representing a significant de-risking milestone that establishes the project's scale and potential economic viability.",
+        "The combined gold-silver resource at Iron Butte provides a meaningful inventory for a junior explorer, with the silver endowment adding substantial by-product credit potential that could materially improve project economics in a favourable precious metals price environment.",
+        "The maiden resource estimate is expected to underpin further technical studies including scoping or pre-feasibility work, while also potentially enhancing GNM's ability to attract farm-in partners or raise capital on improved terms to advance the asset toward development."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ATT",
+      "company": "ALTITUDE MINERALS LTD",
+      "headline": "Drilling Commenced at Byrock Copper Gold Project",
+      "time": "2026-06-11T23:53:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099625-2A1677124",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Altitude Minerals has commenced drilling at its Byrock Copper-Gold Project in NSW, representing a key de-risking catalyst for the early-stage explorer as it tests prospective targets for copper and gold mineralisation.",
+        "The commencement of on-ground drilling activity is a tangible deployment of capital into exploration, which for a micro-cap explorer signals management's confidence in target quality and maintains momentum for potential resource definition.",
+        "Results from this drilling program will be the next critical catalyst — positive intercepts could materially re-rate the stock, while the market will closely watch assay turnaround timelines and whether follow-up drilling is warranted."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GRV",
+      "company": "GREENVALE ENERGY LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-06-11T23:52:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099624-2A1677125",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Greenvale Energy has entered a trading pause, typically preceding a formal trading halt request and a material announcement that the company is not yet ready to disclose.",
+        "As a micro-cap energy explorer, any pending announcement could relate to asset transactions, capital raising, or a strategic pivot — all of which carry significant implications for the company's limited cash runway and shareholder dilution risk.",
+        "Investors should await the formal announcement before acting; trading pauses often precede capital raises or M&A activity, which for a company of this size could be transformative or highly dilutive."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAY",
+      "company": "MELBANA ENERGY LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-11T23:50:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099623-3A695205",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Melbana Energy has entered a trading halt, typically preceding a material announcement such as a capital raise, farm-in/farm-out deal, or significant operational update related to its Cuban exploration assets.",
+        "As a junior explorer with limited revenue, any trading halt raises immediate questions about cash runway — a capital raise would be dilutive but potentially necessary to fund ongoing drilling commitments in Block 9 PSC, Cuba.",
+        "Investors should await the pending announcement before repositioning; the halt signals imminent material news that could significantly re-rate the stock in either direction depending on the nature of the disclosure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMD",
+      "company": "CASSIUS MINING LIMITED",
+      "headline": "Loyalty Issue of Bonus Options to Shareholders",
+      "time": "2026-06-11T23:49:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099621-2A1677123",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cassius Mining is issuing bonus loyalty options to existing shareholders, a mechanism typically used to reward holder retention and potentially raise future capital upon exercise without immediate dilution from a traditional capital raise.",
+        "The loyalty option structure signals the company may be positioning for future funding needs — exercise of these options would provide non-dilutive (at grant) capital runway, though actual dilution occurs if/when options are exercised, expanding the share count.",
+        "Investors should monitor the option exercise price and expiry terms closely, as these will determine the effective discount to market and the realistic probability of future capital inflow from this instrument."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DGT",
+      "company": "DIGICO INFRASTRUCTURE REIT",
+      "headline": "DigiCo Contracts LAX Sale",
+      "time": "2026-06-11T23:48:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099619-2A1677121",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DigiCo Infrastructure REIT has contracted the sale of its LAX (Los Angeles) data centre asset, signaling active portfolio optimization and capital recycling within its digital infrastructure portfolio.",
+        "Proceeds from the LAX disposal are expected to strengthen the balance sheet, reduce gearing, and provide capital for redeployment into higher-returning digital infrastructure opportunities — a key strategic priority for the recently listed REIT.",
+        "The contracted sale de-risks execution on DigiCo's stated asset rotation strategy; investors should watch for disclosure of sale price, expected settlement timing, and management guidance on use of proceeds and impact on distributable earnings."
+      ],
+      "tags": [
+        "Property",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MAP",
+      "company": "MICROBA LIFE SCIENCES LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-06-11T23:46:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099617-2A1677115",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Microba Life Sciences has been reinstated to quotation on the ASX, ending a trading halt period that had suspended share trading — restoring liquidity for institutional and retail holders.",
+        "Reinstatement typically follows resolution of a material disclosure obligation or completion of a capital raise/corporate action; investors should review any concurrent announcements for details on the underlying trigger and potential dilution or strategic shift.",
+        "Near-term trading may see elevated volume and price volatility as the market digests whatever material information prompted the original halt, with price discovery likely to dominate the first sessions post-reinstatement."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYP",
+      "company": "CYNATA THERAPEUTICS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-11T23:46:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099616-3A695204",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Cynata Therapeutics has entered a trading halt, typically preceding a material announcement such as a capital raise, clinical trial update, or strategic transaction for this pre-revenue stem cell therapeutics company.",
+        "As a clinical-stage biotech with limited cash runway, a trading halt frequently signals an imminent capital raise which would be dilutive to existing shareholders but may extend operational runway for its Cymerus MSC platform.",
+        "Investors should await the pending announcement before repositioning; the nature of the disclosure (equity raise vs. partnership/licensing deal vs. clinical milestone) will be the key determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAP",
+      "company": "MICROBA LIFE SCIENCES LIMITED",
+      "headline": "Investor presentation - path to cashflow breakeven",
+      "time": "2026-06-11T23:46:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099610-2A1677106",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Microba Life Sciences has outlined a clear path to cashflow breakeven, signaling management confidence in reaching self-sustaining operations without further dilutive capital raises — a critical inflection point for this pre-profit healthcare company.",
+        "The investor presentation likely details key revenue growth drivers across its microbiome testing and therapeutics divisions, with breakeven guidance providing institutional investors a concrete timeline to assess cash runway adequacy against current burn rate.",
+        "Market-sensitive classification suggests the presentation contains material new information beyond routine updates — potentially including revised financial targets, cost reduction initiatives, or commercial milestones that reframe the company's near-term valuation trajectory."
+      ],
+      "tags": [
+        "Healthcare",
+        "Market Update"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MAP",
+      "company": "MICROBA LIFE SCIENCES LIMITED",
+      "headline": "$5M secured to deliver cashflow breakeven and testing growth",
+      "time": "2026-06-11T23:45:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099609-2A1677105",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Microba secured $5M in funding to bridge the company to cashflow breakeven, signaling management confidence in near-term self-sustainability but also highlighting current cash constraints for the micro-cap diagnostics company.",
+        "The capital raise provides runway specifically tied to growing its microbiome testing business, suggesting the company is approaching an inflection point where revenue from testing services could cover operating costs.",
+        "While the pathway to breakeven is a positive strategic milestone, the $5M raise at this stage implies dilution for existing shareholders and underscores that the company remains pre-profitability with limited financial buffer."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EOS",
+      "company": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+      "headline": "Completion and Upsize of Share Purchase Plan",
+      "time": "2026-06-11T23:39:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099603-2A1677114",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EOS completed and upsized its Share Purchase Plan, indicating strong retail investor demand and confidence in the company's equity story, providing additional capital beyond the initial target.",
+        "The upsize decision suggests management is capitalising on favourable investor appetite to maximise balance sheet strength, though the additional dilution will weigh on per-share metrics in the near term.",
+        "Proceeds are expected to bolster EOS's cash runway to support its defence technology and space operations, reducing near-term funding risk but investors should monitor deployment efficiency and upcoming contract milestones."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WDS",
+      "company": "WOODSIDE ENERGY GROUP LTD",
+      "headline": "Woodside exercises Browse pre-emption right",
+      "time": "2026-06-11T23:38:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099602-6A1329231",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Woodside has exercised its pre-emption right over Browse gas project interests, consolidating its position in one of Australia's largest undeveloped LNG resources and signaling strategic commitment to the long-delayed project.",
+        "The pre-emption exercise likely relates to a partner's attempted stake sale, allowing Woodside to increase its equity in Browse at potentially favorable terms — accretive to long-term reserves and future production if the project proceeds to FID.",
+        "Key watch items are the acquisition price, funding mechanism (balance sheet vs debt), and whether this signals accelerated Browse development timelines — any movement toward FID would be a material catalyst for Woodside's growth narrative."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SPG",
+      "company": "SPC GLOBAL HOLDINGS LTD",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-11T23:34:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099600-3A695201",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in SPC Global Holdings Ltd, crossing the 5% ownership threshold, signaling meaningful external investor conviction in the company's prospects",
+        "The accumulation of a substantial position by an outside investor may reflect perceived undervaluation or strategic interest in SPC Global's business, warranting monitoring of further share registry movements",
+        "Investors should watch for any follow-up notices indicating continued accumulation or potential activist intentions, as well as whether this triggers additional institutional interest in the stock"
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VFY",
+      "company": "VITRAFY LIFE SCIENCES LIMITED",
+      "headline": "Vitrafy Equity Raising Presentation",
+      "time": "2026-06-11T23:33:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099596-3A695170",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Vitrafy Life Sciences is conducting an equity raising, which will dilute existing shareholders but is intended to strengthen the balance sheet and fund growth initiatives in its life sciences operations.",
+        "The capital raise presentation signals the company requires additional funding, suggesting current cash runway may be insufficient to support near-term operational and development milestones without external capital injection.",
+        "Investors should scrutinize the raise terms including pricing discount, size, and use of proceeds to assess whether the capital deployment strategy is value-accretive or signals underlying financial pressure."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "VFY",
+      "company": "VITRAFY LIFE SCIENCES LIMITED",
+      "headline": "Vitrafy Placement Completion and SPP Announcement",
+      "time": "2026-06-11T23:32:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099595-3A695169",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Vitrafy completed a placement raising capital, with the announcement of a Share Purchase Plan (SPP) offering existing shareholders the opportunity to participate on equivalent terms, signaling strong demand from institutional investors.",
+        "The dual-tranche capital raise structure (placement + SPP) is dilutive to existing shareholders but provides critical funding to extend cash runway and support operational growth in the life sciences/nutraceuticals manufacturing space.",
+        "The SPP component gives retail shareholders anti-dilution protection, but investors should monitor the discount to market price and total dilution impact once both tranches are finalized to assess valuation implications."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "WCN",
       "company": "WHITE CLIFF MINERALS LIMITED",
