@@ -1,9 +1,84 @@
 {
   "date": "2026-06-12",
-  "total": 65,
-  "market_sensitive_count": 53,
-  "generated_at": "2026-06-12T01:50:33.970214+00:00",
+  "total": 69,
+  "market_sensitive_count": 54,
+  "generated_at": "2026-06-12T03:10:29.414265+00:00",
   "announcements": [
+    {
+      "ticker": "ERM",
+      "company": "EMMERSON RESOURCES LIMITED",
+      "headline": "Notice of Second Court Hearing",
+      "time": "2026-06-12T02:54:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099722-6A1329264",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Emmerson Resources has scheduled a Second Court Hearing, indicating the scheme of arrangement (likely acquisition or merger) is progressing through its final judicial approval stage after shareholder vote.",
+        "The Second Court Hearing is typically the last major procedural hurdle before scheme implementation, suggesting deal completion is imminent barring any unexpected objections or regulatory issues.",
+        "Investors should monitor the court outcome closely as approval would trigger the scheme becoming effective, leading to share cancellation/transfer and consideration payment on the designated implementation date."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXN",
+      "company": "DXN LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-12T02:16:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099708-3A695222",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in DXN Limited has filed a change in their holding, signaling a notable shift in ownership concentration that institutional investors should monitor for potential governance or strategic implications.",
+        "The filing is classified as not market sensitive, suggesting the change is likely incremental rather than a transformative block trade or activist accumulation, limiting immediate price impact.",
+        "Investors should track whether this forms part of a broader accumulation or distribution pattern, as successive substantial holding changes in small-cap technology/infrastructure names like DXN can precede corporate activity or liquidity shifts."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PAC",
+      "company": "PACIFIC CURRENT GROUP LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-12T02:12:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099706-2A1677168",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in Pacific Current Group Limited, signaling active portfolio repositioning by a significant institutional investor in the asset management-focused company.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is likely incremental rather than a transformative block trade or activist accumulation that would materially shift the shareholder register.",
+        "Investors should monitor whether this forms part of a broader accumulation or disposal pattern, particularly given Pacific Current Group's ongoing strategic review and potential M&A activity in the boutique asset management sector."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BST",
+      "company": "BORESIGHT LTD",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-12T01:55:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099699-2A1677162",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Boresight Ltd, crossing the 5% ownership threshold, signaling meaningful external investor conviction in the company's prospects.",
+        "The accumulation of a substantial position suggests the incoming holder sees value at current price levels, potentially providing a floor for the stock and reducing free float.",
+        "Investors should monitor for any follow-up notices indicating further accumulation or potential strategic intentions, as substantial holder activity can precede corporate actions or board-level engagement."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "FNR",
       "company": "FAR NORTHERN RESOURCES LIMITED",
