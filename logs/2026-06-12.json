@@ -1,9 +1,82 @@
 {
   "date": "2026-06-12",
-  "total": 61,
-  "market_sensitive_count": 51,
-  "generated_at": "2026-06-12T00:51:50.129771+00:00",
+  "total": 65,
+  "market_sensitive_count": 53,
+  "generated_at": "2026-06-12T01:50:33.970214+00:00",
   "announcements": [
+    {
+      "ticker": "FNR",
+      "company": "FAR NORTHERN RESOURCES LIMITED",
+      "headline": "31% MRE Upgrade at Bridge Creek's Central Gold Deposit",
+      "time": "2026-06-12T01:48:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099697-2A1677160",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FAR Northern Resources achieved a 31% upgrade to the Mineral Resource Estimate at Bridge Creek's Central Gold Deposit, signaling meaningful resource growth that could materially enhance project economics and attract development-stage investor interest.",
+        "The MRE uplift likely reflects successful infill or extensional drilling converting inferred resources to higher-confidence categories and/or adding new ounces, which is a key de-risking milestone for junior gold explorers seeking to advance toward feasibility studies.",
+        "Next catalysts will center on whether the upgraded resource supports a scoping or pre-feasibility study, additional drilling to test further upside potential, and whether the company has sufficient cash runway to fund continued exploration without near-term dilutive capital raises."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BST",
+      "company": "BORESIGHT LTD",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-12T01:46:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099696-2A1677159",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Boresight Ltd, crossing the 5% ownership threshold, signaling meaningful external investor conviction in the company's prospects.",
+        "The accumulation of a substantial position in a micro/small-cap ASX-listed company can reduce free float and increase price sensitivity to future buying or selling activity.",
+        "Investors should monitor subsequent Form 604 filings for any further accumulation or association details, as this could precede strategic moves such as a takeover approach or board representation request."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TAH",
+      "company": "TABCORP HOLDINGS LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-12T01:19:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099682-3A695219",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Tabcorp Holdings Limited, crossing the 5% ownership threshold, signaling meaningful institutional accumulation in the wagering and media company.",
+        "The identity and intent of the new substantial holder will be critical to assess — activist positioning, passive index rebalancing, or strategic stake-building each carry different implications for governance and valuation.",
+        "Investors should monitor for any follow-up notices (association/concert party disclosures or further acquisitions) that could indicate a potential takeover approach or push for strategic review of Tabcorp's underperforming segments."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMD",
+      "company": "CASSIUS MINING LIMITED",
+      "headline": "Prospectus - Loyalty Issue of Bonus Options to Shareholders",
+      "time": "2026-06-12T01:15:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03099678-2A1677145",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cassius Mining is issuing bonus loyalty options to existing shareholders via a prospectus, rewarding current holders without requiring additional capital outlay at this stage, though future exercise would raise funds for the company.",
+        "Loyalty options are typically issued at a premium to current share price with a future expiry, representing potential future dilution but also a mechanism to raise capital upon exercise — key details on strike price and expiry will determine the real value proposition for shareholders.",
+        "As a junior mining company, the loyalty option structure signals management's intent to incentivize shareholder retention while building a potential future capital raise pipeline, likely to fund exploration or development activities without immediate dilutive placement."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SRZ",
       "company": "STELLAR RESOURCES LIMITED",
