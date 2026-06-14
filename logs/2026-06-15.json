@@ -1,9 +1,427 @@
 {
   "date": "2026-06-15",
-  "total": 97,
-  "market_sensitive_count": 85,
-  "generated_at": "2026-06-14T23:32:35.423948+00:00",
+  "total": 119,
+  "market_sensitive_count": 106,
+  "generated_at": "2026-06-14T23:57:29.025982+00:00",
   "announcements": [
+    {
+      "ticker": "DVL",
+      "company": "DORSAVI LTD",
+      "headline": "dorsaVi Well Funded Following $500k Options Exercise",
+      "time": "2026-06-14T23:52:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100185-3A695308",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "dorsaVi raised $500k through options exercise, providing non-dilutive (at the option level) capital injection that strengthens the company's cash position without requiring a new capital raise or placement discount.",
+        "For a micro-cap like dorsaVi, $500k is a meaningful addition to working capital, potentially extending cash runway by several months and reducing near-term funding risk that typically weighs on small healthcare/tech names.",
+        "The options exercise signals insider or existing holder confidence in the company's trajectory; however, investors should monitor whether this capital is sufficient to reach key commercial milestones or if further fundraising will be required."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BMT",
+      "company": "BEAMTREE HOLDINGS LIMITED",
+      "headline": "Beamtree appoints Gareth Pye as Chief Executive Officer",
+      "time": "2026-06-14T23:51:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100183-2A1677382",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Beamtree has appointed Gareth Pye as CEO, signaling a leadership transition that could reset strategic direction for the health data analytics company at a critical growth phase.",
+        "New CEO appointment suggests the board is seeking fresh execution capability, potentially to accelerate commercialization of Beamtree's AI-driven clinical decision support and data integrity products across hospital networks.",
+        "Investors should monitor for any accompanying strategic review or updated guidance from the incoming CEO, as leadership changes at micro-cap tech companies often precede shifts in capital allocation, partnership strategy, or M&A activity."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KTA",
+      "company": "KRAKATOA RESOURCES LIMITED",
+      "headline": "Zopkhito Drilling Restart Imminent",
+      "time": "2026-06-14T23:48:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100181-6A1329457",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Krakatoa Resources is set to restart drilling at its Zopkhito project, signaling operational momentum and continued commitment to advancing this exploration asset despite typical junior miner capital constraints.",
+        "The imminent drilling restart suggests the company has secured necessary funding, permits, and contractor arrangements — a positive operational milestone that de-risks near-term execution for investors tracking exploration catalysts.",
+        "Upcoming drill results will be a key share price catalyst; successful intercepts at Zopkhito could materially re-rate the stock, while the market-sensitive designation underscores management's view that this program carries significant newsflow potential."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BTE",
+      "company": "BOTALA ENERGY LTD",
+      "headline": "Serowe CBM Project Update",
+      "time": "2026-06-14T23:48:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100180-6A1329459",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Botala Energy provides a project update on its Serowe Coal Bed Methane (CBM) project in Botswana, signaling ongoing operational progress in an early-stage gas development asset that could be material for the company's valuation trajectory.",
+        "As a micro-cap explorer, any positive drilling or flow-rate data from Serowe would be highly significant given the company's limited revenue base; market-sensitive designation suggests substantive new information rather than routine disclosure.",
+        "Investors should monitor for details on gas desorption results, well productivity, and pathway to commercialization — key catalysts that will determine whether the Serowe CBM project can transition from exploration to development stage and support the company's cash runway requirements."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SRT",
+      "company": "STRATA INVESTMENT HOLDINGS PLC",
+      "headline": "Corrective Announcement - A$8m Placement",
+      "time": "2026-06-14T23:48:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100179-6A1329455",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Strata Investment Holdings issued a corrective announcement for its A$8m placement, suggesting material errors or omissions in the original capital raise disclosure that required regulatory rectification.",
+        "The A$8m placement represents meaningful dilution for existing shareholders; the corrective nature of the announcement raises governance and disclosure quality concerns that institutional investors should monitor closely.",
+        "Investors should scrutinize the corrected terms — including pricing, participant identity, and use of proceeds — to assess whether the placement is being conducted at a discount and whether cash runway implications have materially changed from the original announcement."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "XPN",
+      "company": "XPON TECHNOLOGIES GROUP LIMITED",
+      "headline": "Divestment of Google GMP and GCP Business to Incubeta",
+      "time": "2026-06-14T23:48:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100178-2A1677379",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "XPON is divesting its Google GMP (Google Marketing Platform) and GCP (Google Cloud Platform) business to Incubeta, signaling a strategic portfolio simplification to focus on higher-margin or higher-growth segments of its technology services offering.",
+        "The divestment removes what was likely a lower-margin reseller/services business, potentially improving group-level margins but reducing top-line revenue — investors should watch for disclosed consideration and impact on FY revenue guidance.",
+        "Post-divestment, XPON's remaining operations will need to demonstrate standalone growth credibility; the transaction may provide near-term cash to extend runway or fund reinvestment into core data analytics and experience optimization capabilities."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VTA",
+      "company": "VITA RESOURCES NL",
+      "headline": "Vita Raises $2.9 Million",
+      "time": "2026-06-14T23:47:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100176-2A1677349",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Vita Resources successfully raised $2.9 million in new capital, providing near-term funding to advance its project portfolio and extend cash runway for operational activities.",
+        "The capital raise, while providing necessary funding, introduces dilution for existing shareholders — the magnitude of which depends on the pricing and terms relative to the prevailing share price.",
+        "Proceeds are expected to be deployed toward exploration, development, or working capital needs; investors should monitor upcoming disclosures on use of funds and any associated milestones or catalysts."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BAS",
+      "company": "BASS OIL LIMITED",
+      "headline": "Operations Update - May 2026",
+      "time": "2026-06-14T23:46:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100172-3A695307",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bass Oil provides a market-sensitive operations update for May 2026, signaling material developments in its production or field activities that warrant investor attention.",
+        "As a micro-cap oil producer focused on onshore Indonesian and Australian assets, any operational update likely addresses production volumes, well performance, or cost metrics — key drivers for near-term cash flow and valuation in a commodity-price-sensitive business.",
+        "Investors should scrutinize the update for production trajectory changes, capex commitments, and any revised guidance that could affect the company's tight cash runway and ability to fund ongoing operations without further capital raises."
+      ],
+      "tags": [
+        "Production",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTM",
+      "company": "CENTAURUS METALS LIMITED",
+      "headline": "Para State Tax Incentives Granted for Jaguar Development",
+      "time": "2026-06-14T23:45:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100170-6A1329454",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Centaurus Metals has secured Para State tax incentives for its Jaguar nickel sulphide project in Brazil, materially reducing the state-level tax burden and improving project economics at a critical pre-development stage.",
+        "Tax incentives of this nature in Brazilian mining jurisdictions can significantly enhance after-tax NPV and IRR metrics, potentially improving the bankability of the Jaguar project and strengthening the company's position in financing negotiations with lenders and offtake partners.",
+        "The incentive grant de-risks the permitting and fiscal framework for Jaguar's development pathway, with the next key catalysts being the completion of the Definitive Feasibility Study and securing project financing in a nickel market facing structural supply concerns."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TZL",
+      "company": "TZ LIMITED",
+      "headline": "Extension of Voluntary Suspension",
+      "time": "2026-06-14T23:44:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100166-2A1677370",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "TZ Limited has requested an extension of its voluntary suspension, signaling ongoing uncertainty around a material corporate action or compliance matter that remains unresolved.",
+        "Prolonged voluntary suspensions typically indicate complex negotiations, capital raising difficulties, or potential solvency concerns — all of which erode investor confidence and liquidity for existing holders.",
+        "Investors should monitor for the eventual reinstatement announcement, which will reveal the underlying catalyst; extended suspensions in micro-cap names like TZL often precede significant dilution or restructuring events."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SXE",
+      "company": "SOUTHERN CROSS ELECTRICAL ENGINEERING LTD",
+      "headline": "Investor Presentation - Trading Update and Equity Raising",
+      "time": "2026-06-14T23:38:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100160-6A1329433",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Southern Cross Electrical Engineering is conducting an equity raising alongside a trading update, signaling potential balance sheet strengthening but introducing near-term dilution risk for existing shareholders.",
+        "The combined trading update and capital raise suggests the company may be positioning to fund growth opportunities or secure working capital for its pipeline of electrical engineering projects across resources and infrastructure sectors.",
+        "Investors should scrutinize the raise pricing, discount to last traded price, and use of proceeds — the market-sensitive designation indicates material new information on financial position or forward earnings trajectory."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SXE",
+      "company": "SOUTHERN CROSS ELECTRICAL ENGINEERING LTD",
+      "headline": "New Works Awards, Trading Update and Equity Raising",
+      "time": "2026-06-14T23:38:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100159-6A1329431",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SCEE has secured significant new works awards, reinforcing its order book strength and revenue visibility in the electrical engineering services sector, a positive signal for forward earnings momentum.",
+        "The company is undertaking an equity raising alongside the trading update, which will dilute existing shareholders but is likely intended to fund growth capacity and working capital requirements tied to the expanded project pipeline.",
+        "The combined announcement of new contract wins with a capital raise suggests management is positioning for accelerated growth; investors should monitor the raise's pricing, discount to market, and use of proceeds to assess net impact on shareholder value."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PEC",
+      "company": "PERPETUAL RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-14T23:37:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100157-6A1329448",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Perpetual Resources Limited has entered a trading halt, suspending shares from trading pending a material announcement — the specific nature of the announcement is undisclosed, creating uncertainty for holders.",
+        "As a micro-cap ASX-listed company, trading halts for Perpetual Resources often precede capital raises or potential asset transactions, both of which could materially impact the company's tight balance sheet and share structure.",
+        "Investors should await the forthcoming announcement before repositioning; the halt is expected to last up to two trading days per ASX Listing Rules, with the catalyst likely to drive significant price volatility on resumption."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NWH",
+      "company": "NRW HOLDINGS LIMITED",
+      "headline": "ALi technology update",
+      "time": "2026-06-14T23:37:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100155-6A1329446",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NRW Holdings has issued a market-sensitive technology update on its ALi (Autonomous Loading Intelligence) system, signaling meaningful progress in automation capabilities that could differentiate its mining services offering and improve operational efficiency margins.",
+        "Advancement in autonomous loading technology positions NRW to capture productivity gains and reduce labour dependency across its civil and mining contracts, potentially enhancing contract win rates and margin expansion in a tight labour market environment.",
+        "Successful commercialisation of ALi technology could unlock a new revenue stream through licensing or deployment across NRW's extensive fleet and client base, providing a strategic competitive moat in the increasingly tech-driven mining services sector."
+      ],
+      "tags": [
+        "Technology",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ADX",
+      "company": "ADX ENERGY LTD",
+      "headline": "HOCH-1 Production Test Update",
+      "time": "2026-06-14T23:36:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100154-6A1329447",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "HOCH-1 production test update signals ADX Energy is advancing its Austrian oil and gas assets toward commercialization, a key de-risking milestone for the company's European onshore portfolio.",
+        "Production test results will be closely scrutinized by investors for flow rates, fluid composition, and reservoir quality indicators that directly impact resource estimates and potential near-term revenue generation from the Upper Austrian Molasse Basin.",
+        "Successful production testing at HOCH-1 could materially improve ADX's cash flow outlook and reduce reliance on capital raises, while also providing a catalyst for re-rating given the company's micro-cap status and need to demonstrate operational delivery."
+      ],
+      "tags": [
+        "Production",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HPC",
+      "company": "THE HYDRATION PHARMACEUTICALS COMPANY LIMITED",
+      "headline": "Capital raising, board renewal and management changes",
+      "time": "2026-06-14T23:35:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100152-3A695304",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hydration Pharmaceuticals is undertaking a capital raising alongside simultaneous board renewal and management changes, signaling a strategic reset likely driven by operational or financial pressures requiring fresh capital and leadership.",
+        "The combined capital raise and board/management overhaul suggests existing leadership may have been unable to deliver on targets; new management will need to articulate a credible path to profitability or risk further investor skepticism and dilution.",
+        "Investors should closely monitor the terms of the capital raising (pricing, dilution, use of proceeds) and the credentials of incoming board members/management to assess whether this restructuring extends cash runway sufficiently and positions the company for sustainable growth."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GNG",
+      "company": "GR ENGINEERING SERVICES LIMITED",
+      "headline": "EPC Contract - Davyhurst Expansion Project",
+      "time": "2026-06-14T23:35:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100151-6A1329442",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GR Engineering has secured a new EPC contract for the Davyhurst Expansion Project, reinforcing its pipeline of gold-sector engineering work and providing near-term revenue visibility for the company.",
+        "The Davyhurst contract adds to GEN's established track record in mid-tier gold processing infrastructure, with EPC contracts typically generating meaningful revenue contributions over 12-18 month construction periods and supporting margin stability.",
+        "Continued contract wins in the WA gold sector signal robust demand for GEN's services; investors should monitor contract value disclosure (if forthcoming) and the cumulative order book trajectory as a leading indicator for FY25-FY26 earnings growth."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WIA",
+      "company": "WIA GOLD LIMITED",
+      "headline": "Targets identified increasing Kokoseb underground potential",
+      "time": "2026-06-14T23:35:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100150-6A1329445",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WIA Gold has identified new underground targets at Kokoseb, expanding the potential resource envelope beyond the existing open-pit conceptual framework and signaling a pathway to higher-grade, longer-life mining scenarios.",
+        "The identification of underground potential at Kokoseb is technically significant as it suggests mineralisation extends to depth with sufficient grade continuity to warrant further evaluation, which could materially increase the project's economic attractiveness and NPV if confirmed by drilling.",
+        "Next steps will likely involve targeted deeper drilling programs to test underground extensions, with successful results potentially catalysing a re-rating as the market prices in expanded resource upside at the Namibian gold project."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EPM",
+      "company": "ECLIPSE METALS LIMITED.",
+      "headline": "Fluorite and Critical Minerals Confirmed at Ivigtut Mine",
+      "time": "2026-06-14T23:28:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100139-6A1329440",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Eclipse Metals confirms fluorite and critical minerals at the historic Ivigtut Mine in Greenland, potentially positioning the company to supply strategically important minerals amid growing Western supply chain diversification efforts.",
+        "Confirmation of fluorite (fluorspar) — classified as a critical mineral by the EU, US, and Australia — alongside other critical minerals enhances the project's strategic value, though the announcement lacks quantified resource estimates or grade data at this stage.",
+        "Next steps likely involve further drilling and resource definition work; investors should monitor for JORC-compliant resource estimates and offtake discussions to assess whether the project can advance toward economic viability given Greenland's challenging operating environment."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ODE",
+      "company": "ODESSA MINERALS LIMITED",
+      "headline": "Exploration Update Lockier Range",
+      "time": "2026-06-14T23:27:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100137-6A1329439",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Odessa Minerals has released a market-sensitive exploration update for its Lockier Range project, signaling meaningful progress in delineating prospective mineralisation that could re-rate the asset's perceived value.",
+        "As a micro-cap explorer, the market sensitivity designation suggests results may include notable assay data or geological findings that differentiate Lockier Range from routine exploration activity — investors should watch for grade and width details that could support resource definition.",
+        "Next steps likely involve follow-up drilling or further geophysical work; for a company of Odessa's scale, the key question remains whether cash reserves are sufficient to advance the project without near-term dilutive capital raising."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ION",
+      "company": "IONDRIVE LIMITED",
+      "headline": "93.5% Dysprosium Recovery from Commercial US E-waste",
+      "time": "2026-06-14T23:27:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100136-2A1677365",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "IONDRIVE achieved 93.5% dysprosium recovery from commercial US e-waste using its proprietary extraction technology, a technically significant milestone that validates the process at commercially relevant recovery rates for a critical rare earth element essential to EV motors and defense applications.",
+        "Dysprosium is among the most supply-constrained and China-dependent rare earth elements, with prices historically volatile; demonstrating high-yield recovery from domestic e-waste feedstock positions IONDRIVE within the US critical minerals supply chain narrative, potentially unlocking government funding and strategic partnerships.",
+        "The result is from commercial-scale US e-waste rather than synthetic or lab-grade material, suggesting the technology is approaching commercial readiness; investors should watch for pilot plant scale-up timelines, offtake discussions, and any US Department of Energy or Defense engagement as key de-risking catalysts."
+      ],
+      "tags": [
+        "Technology",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BHD",
+      "company": "BENJAMIN HORNIGOLD LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-06-14T23:27:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100135-2A1677364",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Benjamin Hornigold Limited (BHD) has been suspended from quotation on the ASX, halting all trading activity and removing liquidity for shareholders until further notice.",
+        "Suspension from quotation is a more severe action than a trading halt, typically indicating serious compliance concerns, failure to meet listing requirements, or prolonged inability to provide material information to the market.",
+        "Investors should monitor for subsequent ASX announcements detailing the reason for suspension and any conditions for reinstatement; prolonged suspension raises the risk of eventual delisting and permanent capital impairment."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "14D",
       "company": "1414 DEGREES LIMITED",
