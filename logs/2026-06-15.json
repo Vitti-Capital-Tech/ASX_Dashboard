@@ -1,9 +1,85 @@
 {
   "date": "2026-06-15",
-  "total": 130,
-  "market_sensitive_count": 117,
-  "generated_at": "2026-06-15T01:52:31.864629+00:00",
+  "total": 134,
+  "market_sensitive_count": 120,
+  "generated_at": "2026-06-15T03:12:14.483628+00:00",
   "announcements": [
+    {
+      "ticker": "PKY",
+      "company": "PATHKEY.AI LTD",
+      "headline": "Response to ASX Price and Volume Query",
+      "time": "2026-06-15T03:10:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100258-6A1329480",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PATHKEY.AI received an ASX price and volume query, indicating unusual trading activity that triggered exchange surveillance — typically a signal of speculative interest or potential information asymmetry ahead of material developments.",
+        "The company's response is market-sensitive, suggesting management may have disclosed previously unreleased information or confirmed awareness of factors driving the abnormal trading, which institutional investors should scrutinize for any forward-looking guidance or undisclosed catalysts.",
+        "ASX price queries often precede periods of heightened volatility; investors should monitor for follow-up announcements including potential capital raises, partnership deals, or product milestones that may have leaked into the market ahead of formal disclosure."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PEX",
+      "company": "PEEL MINING LIMITED",
+      "headline": "Peel Shareholders vote in favour of Scheme and Demerger",
+      "time": "2026-06-15T03:05:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100256-6A1329478",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Peel Mining shareholders have approved both the Scheme of Arrangement and the Demerger, clearing a critical governance hurdle for the transaction to proceed — this removes a key uncertainty overhang on the stock.",
+        "The dual approval structure (Scheme + Demerger) suggests a corporate restructuring that will separate assets, likely unlocking value by allowing distinct investor bases to price each entity independently based on their respective risk/return profiles.",
+        "Next steps will involve Court approval of the Scheme and implementation of the Demerger; investors should monitor for the Second Court Hearing date and effective/record dates, which will determine the timeline for any share transfers, new listings, or capital distributions."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KLV",
+      "company": "KLEVO REWARDS LIMITED",
+      "headline": "Klevo to launch stablecoin trial",
+      "time": "2026-06-15T02:06:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100244-6A1329473",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Klevo Rewards is launching a stablecoin trial, signaling a strategic pivot into digital payments and blockchain-based loyalty infrastructure — a potentially transformative but high-risk move for a micro-cap rewards company.",
+        "As a market-sensitive announcement without disclosed financial metrics, investors should scrutinize the capital requirements, regulatory pathway, and partnership details underpinning the trial; the absence of revenue or cost guidance raises execution risk concerns for a company with likely limited cash runway.",
+        "The stablecoin trial positions Klevo at the intersection of fintech and loyalty rewards, but near-term value creation depends on successful pilot outcomes, regulatory clarity (particularly under evolving Australian digital asset frameworks), and the company's ability to fund development without excessive dilution."
+      ],
+      "tags": [
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ABB",
+      "company": "AUSSIE BROADBAND LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-15T02:04:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100241-3A695322",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Aussie Broadband (ABB), crossing the 5% ownership threshold, signaling growing institutional or strategic interest in the mid-cap telco",
+        "The accumulation of a substantial position suggests confidence in ABB's growth trajectory as the company continues to expand its NBN market share and enterprise/government segments",
+        "Investors should monitor whether this stake is a passive investment or a precursor to further accumulation, potential board engagement, or strategic activity given ABB's position as a consolidator in Australian telecoms"
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CQE",
       "company": "CHARTER HALL SOCIAL INFRASTRUCTURE REIT",
