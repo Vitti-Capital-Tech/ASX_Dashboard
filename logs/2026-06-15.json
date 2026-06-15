@@ -1,9 +1,162 @@
 {
   "date": "2026-06-15",
-  "total": 119,
-  "market_sensitive_count": 106,
-  "generated_at": "2026-06-14T23:57:29.025982+00:00",
+  "total": 127,
+  "market_sensitive_count": 114,
+  "generated_at": "2026-06-15T00:45:16.223168+00:00",
   "announcements": [
+    {
+      "ticker": "NVQ",
+      "company": "NOVIQTECH LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-06-15T00:16:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100208-3A695313",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NoviqTech Limited has been suspended from quotation on the ASX, indicating a significant compliance or corporate action issue that removes liquidity for shareholders until resolved.",
+        "Suspension from quotation (as distinct from a voluntary trading halt) typically signals regulatory concern, failure to meet listing requirements, or inability to provide material information to the market — all carrying elevated risk for holders.",
+        "Investors should monitor for subsequent ASX announcements detailing the reason for suspension and any conditions for reinstatement; prolonged suspension could lead to delisting and permanent capital impairment."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NVQ",
+      "company": "NOVIQTECH LIMITED",
+      "headline": "Binding Term Sheet to Divest Carbon & Fuel Central Assets",
+      "time": "2026-06-15T00:16:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100207-3A695275",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NoviqTech has signed a binding term sheet to divest its Carbon & Fuel Central assets, signaling a strategic pivot away from energy/carbon operations to focus on its core technology business, which should simplify the corporate structure and reduce operating costs.",
+        "The divestiture is expected to unlock capital or remove cash-burning assets from the balance sheet, potentially extending cash runway for the remaining technology-focused operations — key details on consideration and terms will be critical for assessing value realization.",
+        "Completion remains subject to conditions precedent and due diligence; investors should watch for the definitive agreement and any shareholder approval requirements, as execution risk remains until the transaction formally closes."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ELD",
+      "company": "ELDERS LIMITED",
+      "headline": "Killara Divestment Update",
+      "time": "2026-06-15T00:10:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100203-2A1677394",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Elders is providing an update on the divestment of its Killara Feedlot operation, signaling continued portfolio rationalization and strategic focus on core rural services businesses.",
+        "The market-sensitive nature of the update suggests material progress on the sale process — likely involving binding agreements, revised terms, or completion milestones that could unlock capital and reduce balance sheet complexity.",
+        "Proceeds from the Killara divestment would strengthen Elders' cash position and deleveraging capacity, potentially supporting future capital returns or reinvestment into higher-margin segments amid a challenging agricultural cycle."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HWK",
+      "company": "HAWK RESOURCES LIMITED.",
+      "headline": "Lab Assays Extend Near Surface Copper in Cactus Corridor",
+      "time": "2026-06-15T00:09:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100202-6A1329465",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lab assays have confirmed and extended near-surface copper mineralisation within the Cactus Corridor, validating earlier field results and expanding the prospective footprint — a technically significant de-risking milestone for the project.",
+        "Near-surface copper intercepts are particularly valuable as they imply lower strip ratios and potentially lower capital intensity for any future development scenario, enhancing the project's economic appeal at an early stage.",
+        "Extension of the mineralised zone is expected to support follow-up drilling programs and resource definition work, providing catalysts for further re-rating as Hawk Resources advances toward a maiden or expanded resource estimate."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VEN",
+      "company": "VINTAGE ENERGY LTD",
+      "headline": "Agreements signed for $5 million grants",
+      "time": "2026-06-15T00:05:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100199-2A1677386",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Vintage Energy has secured $5 million in government grant agreements, providing non-dilutive funding that directly strengthens the company's cash position without shareholder equity erosion — a material positive for a micro-cap explorer.",
+        "The $5 million in grants significantly extends cash runway and reduces the need for near-term capital raises, allowing management to allocate existing funds more aggressively toward development and exploration activities.",
+        "Execution of formal agreements signals the grants have moved beyond conditional approval to binding commitments, de-risking the funding and providing greater certainty for forward project planning and investor confidence."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PTN",
+      "company": "PATRONUS RESOURCES LIMITED",
+      "headline": "Sale of Pine Creek Uranium Rights To Greenvale Energy",
+      "time": "2026-06-15T00:01:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100193_PS-6A1329377",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Patronus Resources is divesting its Pine Creek uranium rights to Greenvale Energy, signaling a strategic portfolio rationalization and potential shift in commodity focus away from uranium assets.",
+        "The sale monetizes a non-core asset, potentially bolstering Patronus's cash position and improving capital allocation toward its primary exploration or development priorities.",
+        "Investors should watch for disclosed transaction terms and use-of-proceeds details, as the deal's value relative to the company's market cap will determine whether this is materially accretive or simply housekeeping."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GRV",
+      "company": "GREENVALE ENERGY LTD",
+      "headline": "GRV Consolidates a Major Uranium District in the NT",
+      "time": "2026-06-15T00:01:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100192_PS-2A1677381",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Greenvale Energy has consolidated a major uranium district in the Northern Territory, significantly expanding its landholding and strategic positioning in Australia's uranium sector amid strengthening global uranium demand dynamics.",
+        "The consolidation of multiple tenements into a unified district-scale package enhances exploration efficiency and could attract joint venture or M&A interest from larger uranium players seeking development-ready Australian assets.",
+        "Near-term catalysts include planned exploration programs across the consolidated ground; however, as a junior explorer, investors should monitor cash reserves and potential capital raise requirements to fund upcoming fieldwork."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ENP",
+      "company": "ENTROPY NEURODYNAMICS LIMITED",
+      "headline": "DSMB Clears TRP 8803 to Advance to Cohort 2",
+      "time": "2026-06-14T23:55:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100188-6A1329461",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Data Safety Monitoring Board (DSMB) has cleared TRP-8803 to advance to Cohort 2 in its clinical trial, confirming acceptable safety and tolerability at the initial dose level — a key de-risking milestone for the program.",
+        "Successful progression through dose-escalation cohorts is critical for early-stage biotech valuation; clearing Cohort 1 without safety signals strengthens the clinical thesis and supports continued investor confidence in the asset's development trajectory.",
+        "Next catalyst will be Cohort 2 dosing and subsequent DSMB reviews; investors should monitor cash runway adequacy to fund remaining cohorts and any potential capital raise requirements as the trial advances through later stages."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "DVL",
       "company": "DORSAVI LTD",
