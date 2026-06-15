@@ -1,9 +1,405 @@
 {
   "date": "2026-06-16",
-  "total": 44,
-  "market_sensitive_count": 36,
-  "generated_at": "2026-06-15T22:48:02.519039+00:00",
+  "total": 65,
+  "market_sensitive_count": 57,
+  "generated_at": "2026-06-15T23:25:11.159791+00:00",
   "announcements": [
+    {
+      "ticker": "RR1",
+      "company": "REACH RESOURCES LIMITED",
+      "headline": "Additional Funding from Sale of Non-Core Assets",
+      "time": "2026-06-15T23:21:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100571-6A1329611",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reach Resources is divesting non-core assets to generate additional funding, signaling a strategic focus on core operations while addressing near-term liquidity needs — a common move for micro-cap explorers facing cash constraints.",
+        "The sale of non-core assets provides incremental cash runway without equity dilution, which is marginally positive for existing shareholders compared to alternative funding mechanisms such as placements or rights issues.",
+        "Investors should monitor the quantum of proceeds, settlement timing, and whether the funding is sufficient to sustain operations through the next reporting period or if further capital management actions will be required."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-06-15T23:19:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100567-6A1329613",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kingston Resources has been suspended from quotation on the ASX, halting all trading activity and removing liquidity for shareholders until further notice.",
+        "Suspension from quotation (distinct from a voluntary trading halt) typically signals a more serious compliance or regulatory issue, potentially involving failure to meet ASX Listing Rule requirements or a pending corporate action requiring resolution.",
+        "Investors should monitor for follow-up announcements clarifying the reason for suspension — key risks include potential delisting, forced capital restructuring, or prolonged inability to trade, all of which materially impact portfolio positioning."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NVX",
+      "company": "NOVONIX LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-15T23:18:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100565-2A1677569",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "NOVONIX has entered a trading halt, typically preceding a material announcement such as a capital raise, strategic partnership, or significant corporate transaction in the battery materials space.",
+        "Given NOVONIX's pre-revenue/early-commercialization status and ongoing cash burn funding its synthetic graphite anode operations, a capital raise is the most probable catalyst — potentially dilutive to existing shareholders depending on pricing and size.",
+        "Investors should monitor for details on the nature of the announcement; if tied to a strategic offtake agreement or government grant (e.g., US DOE/IRA-related funding), sentiment could shift materially positive despite any concurrent equity raising."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SWP",
+      "company": "SWOOP HOLDINGS LIMITED",
+      "headline": "Mobile Wholesale Partnership with TPG Telecom",
+      "time": "2026-06-15T23:16:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100564-2A1677568",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Swoop has secured a mobile wholesale partnership with TPG Telecom, enabling it to offer mobile services leveraging TPG's extensive network infrastructure — a significant strategic expansion from its fixed wireless and broadband roots into the mobile segment.",
+        "The partnership positions Swoop as a Mobile Virtual Network Operator (MVNO), unlocking a new recurring revenue stream with relatively low capex requirements, potentially improving unit economics and broadening its addressable market across existing and new customer bases.",
+        "Execution risk remains key: success will depend on Swoop's ability to bundle mobile with existing broadband/fixed wireless offerings and achieve meaningful subscriber scale, but the deal materially enhances the company's competitive positioning in the Australian telco market."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Release of Third Supplementary Target's Statement",
+      "time": "2026-06-15T23:14:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100562-2A1677567",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Atlas Arteria has released a Third Supplementary Target's Statement, indicating an evolving and contested M&A process with material new information or revised positions requiring disclosure to shareholders ahead of a vote or acceptance deadline.",
+        "Multiple supplementary statements suggest ongoing negotiations or competing considerations around bid terms, potentially signaling that the board is actively responding to bidder revisions or addressing regulatory/shareholder concerns to protect value.",
+        "Investors should closely monitor the updated recommendation and any revised independent expert opinion within the supplement, as these will be critical in determining whether the current offer adequately reflects the intrinsic value of Atlas Arteria's toll road concession assets."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CRS",
+      "company": "CAPRICE RESOURCES LTD",
+      "headline": "Metallurgical Testwork Confirms High Gold Recovery",
+      "time": "2026-06-15T23:13:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100561-6A1329606",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Metallurgical testwork confirms high gold recovery rates at Caprice Resources' project, de-risking the processing pathway and strengthening the economic case for development or resource advancement.",
+        "High recovery results are a critical technical milestone for junior explorers, as they validate that mineralisation can be economically extracted — a key input for scoping/feasibility studies and potential offtake discussions.",
+        "Positive met testwork positions the company to advance toward resource definition, feasibility-level studies, or attract potential JV/acquisition interest, though further drilling and economic analysis will be required to unlock value."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LGM",
+      "company": "LEGACY MINERALS HOLDINGS LIMITED",
+      "headline": "New Gold Discovery Confirmed with Further Drilling Assays",
+      "time": "2026-06-15T23:06:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100557-2A1677566",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Legacy Minerals has confirmed a new gold discovery through follow-up drilling assays, representing a potentially significant de-risking event for the company's exploration portfolio and providing a catalyst for re-rating by the market.",
+        "Confirmation of gold mineralisation through multiple drill holes strengthens the geological model and increases confidence in the prospect's potential resource scale, which is critical for a junior explorer seeking to advance toward a maiden resource estimate.",
+        "Next steps will likely involve expanded drilling programs to define the extent and grade continuity of the discovery, which will require careful capital management given Legacy's micro-cap status — investors should monitor upcoming funding requirements and whether results justify further exploration spend."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CUV",
+      "company": "CLINUVEL PHARMACEUTICALS LIMITED",
+      "headline": "CLINUVEL publicly files 20-F to U.S. SEC",
+      "time": "2026-06-15T23:06:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100556-3A695376",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CLINUVEL has publicly filed its 20-F annual report with the U.S. SEC, a key regulatory step that maintains its compliance with U.S. listing and reporting obligations, signaling continued commitment to accessing U.S. capital markets and investor base.",
+        "The 20-F filing provides comprehensive financial and operational disclosure to U.S. institutional investors, potentially broadening the shareholder base and improving liquidity for the dual-listed specialty pharmaceutical company (SCENESSE/afamelanotide franchise).",
+        "Filing completion removes any overhang risk related to SEC compliance deadlines; investors should now focus on upcoming commercial revenue trajectory for SCENESSE in the U.S. and EU markets, pipeline expansion updates, and any material disclosures embedded within the 20-F document."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WSR",
+      "company": "WESTAR RESOURCES LIMITED",
+      "headline": "NT Government Grant awarded to Westar's Bunda Creek Project",
+      "time": "2026-06-15T23:05:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100554-2A1677563",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Westar Resources secured a Northern Territory Government grant for its Bunda Creek Project, providing non-dilutive funding that extends exploration capability without shareholder dilution — a positive signal for a junior explorer with limited cash reserves.",
+        "Government grant co-funding validates the geological prospectivity of the Bunda Creek Project, effectively de-risking early-stage exploration expenditure and signaling institutional-level confidence in the project's mineral potential.",
+        "The grant will likely accelerate planned exploration activities at Bunda Creek, with upcoming drill programs or geophysical surveys expected to generate newsflow that could serve as near-term catalysts for the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AQX",
+      "company": "ALICE QUEEN LIMITED",
+      "headline": "HORN ISLAND PROJECT DEFINITION STUDY",
+      "time": "2026-06-15T23:03:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100551-6A1329601",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alice Queen has released a Project Definition Study for its Horn Island gold project, a key de-risking milestone that typically precedes financing and development decisions for junior miners.",
+        "The study likely outlines updated resource estimates, mining methods, processing routes, and capital/operating cost parameters — critical inputs for institutional investors assessing project economics and NPV sensitivity.",
+        "Completion of the PDS positions Alice Queen to advance toward a Definitive Feasibility Study or seek project financing/JV partners, with the market-sensitive tag suggesting materially new data that could re-rate the stock."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "INF",
+      "company": "INFINITY METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-15T23:03:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100550-6A1329602",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Infinity Metals Limited has entered a trading halt, suspending shares from trading pending a material announcement — the nature of which is undisclosed but flagged as market sensitive.",
+        "For a micro-cap explorer like Infinity Metals, trading halts frequently precede capital raises (placement/entitlement offer) or material exploration results, both of which carry significant implications for dilution or re-rating potential.",
+        "Investors should await the pending announcement before repositioning; the halt will likely lift within two business days per ASX requirements, with the catalyst determining near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SLS",
+      "company": "SOLSTICE MINERALS LIMITED",
+      "headline": "Multiple Growth Targets Identified at Nanadie",
+      "time": "2026-06-15T23:02:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100547-6A1329598",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Solstice Minerals has identified multiple growth targets at its Nanadie project, signaling potential resource expansion that could materially enhance the project's scale and economic viability for future development decisions.",
+        "The identification of multiple targets suggests geological work (likely geophysical surveys or drilling) has delineated new zones of mineralization beyond existing known resources, providing a pipeline of drill-ready prospects that could drive near-term catalysts.",
+        "Next steps will likely involve prioritized drill programs to test the newly identified targets, with upcoming assay results and resource updates serving as key share price catalysts — investors should monitor funding capacity and exploration timeline commitments."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "QUB",
+      "company": "QUBE HOLDINGS LIMITED",
+      "headline": "Scheme Meetings - Chairman's Address",
+      "time": "2026-06-15T22:59:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100541-2A1677558",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Qube Holdings is holding scheme meetings, indicating an active M&A process is progressing toward shareholder approval stage - a critical milestone for deal completion",
+        "Chairman's address at scheme meetings typically signals board's formal recommendation and rationale to shareholders, reinforcing confidence in the transaction's strategic and financial merits",
+        "Market-sensitive designation suggests material new information or updated commentary on deal terms, conditions precedent, or regulatory approvals that could influence the scheme vote outcome"
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "AGM"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ANG",
+      "company": "AUSTIN ENGINEERING LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-15T22:59:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100540-6A1329596",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Austin Engineering has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant corporate transaction that requires price-sensitive disclosure.",
+        "As a mining equipment manufacturer with a market cap in the mid-cap range, any capital raise could introduce dilution risk, while an acquisition could signal strategic expansion in the mining services value chain.",
+        "Investors should await the detailed announcement expected within the standard two-business-day halt period to assess whether the catalyst is accretive or dilutive before repositioning."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SHN",
+      "company": "SUNSHINE METALS LIMITED",
+      "headline": "Sunshine commences Airborne Magnetics Survey at Sybil",
+      "time": "2026-06-15T22:58:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100538-6A1329597",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sunshine Metals has commenced a high-resolution airborne magnetics survey at its Sybil project, signaling active exploration momentum and commitment to advancing this asset through the discovery pipeline.",
+        "Airborne magnetics surveys are a cost-effective early-stage exploration tool that can identify subsurface geological structures and potential mineralisation targets, potentially de-risking future drilling programs and improving capital allocation efficiency.",
+        "Results from the survey will be critical in defining drill targets and shaping the next phase of exploration; positive outcomes could serve as a near-term catalyst for re-rating, while the market-sensitive designation suggests management views this as a material step for the company."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BGD",
+      "company": "BARTON GOLD HOLDINGS LIMITED",
+      "headline": "Expansion of Tunkillia Phase 2 Upgrade Drilling",
+      "time": "2026-06-15T22:56:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100535-6A1329595",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Barton Gold is expanding its Phase 2 upgrade drilling program at the Tunkillia gold project, signaling confidence in resource potential and likely targeting a material upgrade to the existing Mineral Resource Estimate.",
+        "Expansion of the drilling program suggests early results from Phase 2 have been sufficiently encouraging to justify additional capital deployment, a positive read-through for grade continuity and deposit scale at Tunkillia.",
+        "Investors should watch for updated resource estimates and assay results as catalysts; successful resource upgrades at Tunkillia could meaningfully de-risk the project and support re-rating of the stock ahead of any feasibility-stage milestones."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TG1",
+      "company": "TECHGEN METALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-06-15T22:53:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100529-6A1329593",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "TechGen Metals (TG1) has entered a trading halt, typically preceding a material announcement such as a capital raise, acquisition, or significant exploration results for this junior mining explorer.",
+        "As a micro-cap ASX-listed explorer with limited cash reserves, a trading halt frequently signals an imminent capital raise which would be dilutive to existing shareholders but may extend operational runway.",
+        "Investors should await the pending announcement — the nature of the disclosure (equity raising vs. exploration breakthrough vs. corporate transaction) will be the key determinant of near-term price direction upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYP",
+      "company": "CYNATA THERAPEUTICS LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-06-15T22:53:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100528-3A695372",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cynata Therapeutics has been suspended from quotation on the ASX, indicating a significant corporate action or compliance issue that prevents normal trading of shares.",
+        "For a pre-revenue stem cell therapeutics company with limited cash runway, a suspension raises critical concerns about the company's ability to continue operations, fund clinical programs, or complete a potential corporate transaction.",
+        "Investors should monitor for the follow-up announcement explaining the suspension reason — likely candidates include a pending capital raise, merger/acquisition, or failure to meet ASX listing requirements, each carrying materially different implications for shareholders."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DLI",
+      "company": "DELTA LITHIUM LIMITED",
+      "headline": "Exploration Update and Tenement Acquisition",
+      "time": "2026-06-15T22:53:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100527-6A1329592",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Delta Lithium is expanding its tenement portfolio through acquisition, signaling strategic consolidation of ground position in a competitive lithium exploration landscape — a move aimed at bolstering resource optionality ahead of potential development decisions.",
+        "The exploration update paired with tenement acquisition suggests the company is deploying capital into ground-level growth rather than near-term production, which may extend the timeline to cash generation but enhances long-term asset value if lithium prices recover.",
+        "Investors should watch for details on acquisition cost, earn-in terms, and how the new tenements integrate with Delta's existing Mt Ida and Yinnetharra project areas — the strategic fit and exploration upside will determine whether this is genuinely accretive or merely land-banking."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HCH",
+      "company": "HOT CHILI LIMITED",
+      "headline": "Strong Copper-Gold Results Continue at La Verde",
+      "time": "2026-06-15T22:43:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100516-6A1329586",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Hot Chili continues to deliver strong copper-gold intercepts at La Verde, reinforcing the potential to expand the resource base at its flagship Costa Fuego project in Chile, which is critical for de-risking the development pathway and attracting strategic partners.",
+        "Continued high-grade copper-gold results suggest mineralisation extends beyond current resource boundaries, potentially supporting a future resource upgrade that could materially improve project economics and NPV estimates for the integrated Costa Fuego hub.",
+        "Ongoing drilling success at La Verde is expected to feed into an updated Mineral Resource Estimate, a key catalyst for re-rating as the company advances toward feasibility-level studies and seeks to consolidate its position as a mid-tier copper development story on the ASX."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BHD",
+      "company": "BENJAMIN HORNIGOLD LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-06-15T22:41:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100514-2A1677544",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Benjamin Hornigold Limited has been reinstated to quotation on the ASX, ending a prior trading halt or suspension period that had restricted investor access to the stock.",
+        "Reinstatement signals the company has satisfied ASX compliance requirements or conditions that triggered the original suspension, removing a key overhang for existing shareholders.",
+        "Liquidity returns immediately for holders; investors should monitor for accompanying announcements detailing the resolution of underlying issues and any changes to the company's financial position or structure."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SNX",
       "company": "SIERRA NEVADA GOLD INC.",
