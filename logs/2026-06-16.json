@@ -1,9 +1,46 @@
 {
   "date": "2026-06-16",
-  "total": 95,
-  "market_sensitive_count": 81,
-  "generated_at": "2026-06-16T01:58:42.879266+00:00",
+  "total": 97,
+  "market_sensitive_count": 82,
+  "generated_at": "2026-06-16T03:22:53.075591+00:00",
   "announcements": [
+    {
+      "ticker": "RAC",
+      "company": "RACURA ONCOLOGY LTD",
+      "headline": "Racura raised $34.3m to Advance Three Oncology Trials",
+      "time": "2026-06-16T02:36:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100671-2A1677614",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Racura Oncology raised $34.3 million in fresh capital, providing substantial funding runway to advance its clinical-stage oncology pipeline across three separate trials — a significant milestone for a pre-revenue biotech.",
+        "The capital raise size ($34.3m) signals strong institutional appetite and confidence in the company's therapeutic candidates, though existing shareholders face meaningful dilution from the equity issuance.",
+        "Proceeds earmarked for three concurrent oncology trials suggest the company is pursuing a diversified clinical strategy to de-risk its pipeline, with upcoming trial readouts likely to serve as key catalysts over the next 12-18 months."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FFI",
+      "company": "FFI HOLDINGS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-16T02:07:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100667-6A1329645",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in FFI Holdings Limited, signaling a notable shift in ownership structure that institutional investors should monitor for potential strategic intent.",
+        "The filing is classified as not market sensitive, suggesting the change is likely incremental rather than a transformative block trade or activist accumulation, limiting immediate price impact.",
+        "Investors should review the updated holding percentage and direction of change (increase vs decrease) to assess whether this reflects growing conviction or portfolio rebalancing by the substantial holder."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "A2M",
       "company": "THE A2 MILK COMPANY LIMITED",
