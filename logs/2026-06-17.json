@@ -1,9 +1,253 @@
 {
   "date": "2026-06-17",
-  "total": 39,
-  "market_sensitive_count": 33,
-  "generated_at": "2026-06-16T23:15:06.665475+00:00",
+  "total": 52,
+  "market_sensitive_count": 46,
+  "generated_at": "2026-06-16T23:33:23.492931+00:00",
   "announcements": [
+    {
+      "ticker": "BUY",
+      "company": "BOUNTY OIL & GAS NL",
+      "headline": "Trading Halt",
+      "time": "2026-06-16T23:30:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101019-2A1677788",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Bounty Oil & Gas has entered a trading halt, typically indicating a pending material announcement such as a capital raise, asset transaction, or significant operational update in the energy sector.",
+        "As a micro-cap oil and gas explorer with limited cash reserves, any trading halt raises immediate questions about balance sheet sustainability and potential dilutive capital raising activity.",
+        "Investors should await the detailed announcement before repositioning; the halt will likely resolve within 1-2 trading days with clarity on whether the catalyst is accretive (asset deal) or dilutive (equity raise)."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IG6",
+      "company": "INTERNATIONAL GRAPHITE LIMITED",
+      "headline": "JV Technical & Financial Evaluation",
+      "time": "2026-06-16T23:30:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101018-6A1329774",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "International Graphite is progressing a joint venture technical and financial evaluation, signaling potential strategic partnership to advance its graphite processing or mining operations, which could de-risk project development and reduce capital burden.",
+        "The market-sensitive designation suggests the JV evaluation involves material terms or a counterparty of significance, potentially unlocking value through shared infrastructure, offtake arrangements, or co-investment in downstream processing capabilities.",
+        "Investors should monitor for JV term sheet details, partner identity, and funding structure — a successful JV could materially extend cash runway and accelerate the pathway to production for this micro-cap critical minerals player."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MMR",
+      "company": "MEC RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-16T23:30:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101017-6A1329781",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "MEC Resources has entered a trading halt, typically preceding a material announcement such as a capital raise, asset transaction, or significant operational update for this energy-focused investment vehicle.",
+        "As a small-cap holding company with interests in energy projects (notably Advent Energy and its PEP-11 offshore gas permit), any pending announcement could materially shift the company's valuation given its tight capital structure and limited revenue base.",
+        "Investors should await the pending announcement before repositioning; the trading halt suggests the company needs time to finalise details, with shares expected to resume trading once the announcement is released or within the standard two-day halt period."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BLZ",
+      "company": "BLAZE MINERALS LIMITED",
+      "headline": "Trenching Completed at Krokodil Prospect",
+      "time": "2026-06-16T23:27:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101015-6A1329780",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Blaze Minerals has completed trenching at the Krokodil Prospect, a key exploration milestone that advances understanding of near-surface mineralisation and de-risks the target ahead of potential drilling programs.",
+        "As a micro-cap explorer, completion of on-ground fieldwork is a critical value inflection point; investors should monitor assay results from trench samples, which will determine whether the prospect warrants further capital allocation and drilling expenditure.",
+        "Next catalysts include release of trench assay results and a decision on follow-up drilling — positive grades could materially re-rate the stock, while the company's cash runway and ability to fund subsequent exploration phases remain key risks to watch."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TCG",
+      "company": "TURACO GOLD LIMITED",
+      "headline": "Investor Presentation - Afema PFS",
+      "time": "2026-06-16T23:26:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101013-6A1329777",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Turaco Gold has released a Pre-Feasibility Study (PFS) for its Afema Gold Project in Côte d'Ivoire, a key de-risking milestone that signals the project is advancing toward development-stage readiness and could attract strategic interest or funding partners.",
+        "The investor presentation format suggests management is actively marketing the PFS economics to institutional investors, likely highlighting NPV, IRR, capex, and production metrics that underpin the project's commercial viability — a catalyst for re-rating if economics are robust.",
+        "Market-sensitive designation indicates the PFS contains material new information; next steps likely include a Definitive Feasibility Study (DFS), permitting advancement, and potential capital raise to fund development, with the PFS serving as the foundation for project financing discussions."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NOR",
+      "company": "NORWOOD SYSTEMS LIMITED",
+      "headline": "OpenSpan Paid Pilot Trial Agreement with a major UK Telco",
+      "time": "2026-06-16T23:23:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101010-6A1329776",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Norwood Systems has secured a paid pilot trial agreement with a major UK telco for its OpenSpan platform, representing a significant commercial validation milestone for the company's enterprise communications technology in a tier-1 market.",
+        "A paid pilot with a major UK telco signals genuine commercial intent rather than a free evaluation, providing near-term revenue contribution and potentially de-risking the path to a full-scale deployment contract — critical for a micro-cap with limited cash runway.",
+        "Successful execution of this pilot could serve as a reference case for broader telco industry adoption of OpenSpan, with the UK market acting as a gateway to European expansion; investors should watch for conversion to a full commercial agreement and any disclosed contract values."
+      ],
+      "tags": [
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EQR",
+      "company": "EQ RESOURCES LIMITED",
+      "headline": "EQ Resources Advances Barruecopardo Ore Access Works",
+      "time": "2026-06-16T23:23:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101011-2A1677786",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EQ Resources is advancing ore access works at its Barruecopardo tungsten mine in Spain, signaling progress toward production readiness and de-risking the restart timeline for this strategic critical mineral asset.",
+        "The advancement of physical mine works represents tangible capital deployment and operational momentum, which is critical for a junior miner transitioning from development to production — investors should monitor associated capex burn and funding adequacy.",
+        "Successful ore access is a key prerequisite for mine restart and first production; achieving this milestone positions EQ Resources to capitalize on elevated tungsten prices driven by supply chain security concerns and Western critical minerals policy tailwinds."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PL3",
+      "company": "PATAGONIA LITHIUM LTD",
+      "headline": "Significant Assays from Formentera Well 7",
+      "time": "2026-06-16T23:23:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101008-3A695456",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Patagonia Lithium reports significant assay results from Formentera Well 7, indicating meaningful lithium brine grades that could de-risk the broader exploration program and support resource estimation efforts.",
+        "Positive assay data from Well 7 adds to the growing dataset across the Formentera project, potentially enhancing the company's ability to define a JORC-compliant resource and attract further investment or partnership interest.",
+        "Next steps likely include additional drilling, flow testing, and integration of Well 7 results into an updated geological model — catalysts that could drive further re-rating if grades and volumes prove commercially viable."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NIC",
+      "company": "NICKEL INDUSTRIES LIMITED",
+      "headline": "Operating Update",
+      "time": "2026-06-16T23:21:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101004-2A1677782",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nickel Industries has released a market-sensitive operating update, likely detailing production metrics across its Indonesian nickel pig iron (NPI) and HPAL operations, which are critical for assessing whether the company is tracking to full-year guidance amid depressed nickel prices.",
+        "With nickel prices remaining under pressure (LME ~$15,000-16,000/t range), operational cost performance and volume throughput are key determinants of margin resilience — any beat or miss on unit costs will directly impact near-term earnings expectations and peer-relative valuation.",
+        "Investors should focus on whether the update signals any production curtailments, expansion timeline changes at key assets (e.g., Oracle/ENC HPAL), or revised cost guidance, as these would materially shift the company's cash flow profile and ability to service its debt obligations in a low-price environment."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUQ",
+      "company": "ALARA RESOURCES LIMITED",
+      "headline": "49th Copper Concentrate Shipment Dispatched from Sohar Port",
+      "time": "2026-06-16T23:21:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101003-6A1329775",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alara Resources has dispatched its 49th copper concentrate shipment from Sohar Port, demonstrating sustained operational continuity at its Al Wash-hi Majaza mine in Oman and consistent production cadence.",
+        "The milestone signals steady revenue generation from copper concentrate sales, providing ongoing cash flow visibility for a junior miner — approaching the psychologically significant 50th shipment mark which underscores production maturity.",
+        "Continued regular shipments amid elevated copper prices (~US$9,500/t range) position Alara to benefit from favourable macro tailwinds, though investors should monitor grade, tonnage per shipment, and net smelter returns for margin clarity."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RKB",
+      "company": "ROKEBY RESOURCES LIMITED",
+      "headline": "Leadership and Board Appointments",
+      "time": "2026-06-16T23:19:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101001-6A1329773",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Rokeby Resources has announced new leadership and board appointments, signaling a strategic refresh at the governance level which may indicate a shift in corporate direction or project focus for the junior explorer.",
+        "Board changes at micro-cap explorers like Rokeby are often precursors to capital raises, asset acquisitions, or pivots in exploration strategy — investors should monitor for follow-on announcements in the near term.",
+        "The market-sensitive classification suggests the appointments carry material strategic implications beyond routine succession, potentially bringing new technical expertise or industry connections to accelerate project development."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACF",
+      "company": "ACROW LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-16T23:16:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100997-6A1329769",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Acrow Limited (ACF) has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant corporate action that requires price-sensitive disclosure.",
+        "As a formwork and scaffolding services provider, any trading halt could relate to a strategic acquisition to expand geographic or service capabilities, or a capital raise to fund growth initiatives in the infrastructure sector.",
+        "Investors should await the detailed announcement before repositioning; the halt prevents trading until the company releases the underlying material information, with resumption expected within two business days per ASX rules."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IG6",
+      "company": "INTERNATIONAL GRAPHITE LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-16T23:12:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100991-6A1329768",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "International Graphite Limited has entered a trading halt, typically requested by the company pending a material announcement that could significantly impact the share price.",
+        "As a junior graphite explorer/developer, trading halts often precede capital raises, project updates, or strategic transactions — any of which could materially alter the company's cash runway and development trajectory.",
+        "Investors should await the pending announcement before repositioning; the halt signals imminent news flow that will clarify the company's near-term direction and potential dilution risk if a capital raise is involved."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "IBR",
       "company": "IRON BEAR RESOURCES LTD",
