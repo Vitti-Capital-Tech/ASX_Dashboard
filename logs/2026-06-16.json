@@ -1,9 +1,294 @@
 {
   "date": "2026-06-16",
-  "total": 73,
-  "market_sensitive_count": 63,
-  "generated_at": "2026-06-15T23:35:01.326555+00:00",
+  "total": 88,
+  "market_sensitive_count": 77,
+  "generated_at": "2026-06-16T00:14:35.258197+00:00",
   "announcements": [
+    {
+      "ticker": "MEM",
+      "company": "MEMPHASYS LIMITED.",
+      "headline": "Trading Halt",
+      "time": "2026-06-16T00:08:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100634-3A695395",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Memphasys Limited has entered a trading halt, typically preceding a material announcement such as a capital raise, partnership deal, or significant corporate update for this micro-cap medical device company.",
+        "As a pre-revenue biotech focused on assisted reproductive technology (Felix device), any trading halt raises immediate questions about cash runway adequacy and potential equity dilution given the company's historically tight balance sheet.",
+        "Investors should await the pending announcement before repositioning; the halt's market-sensitive classification suggests material news that could meaningfully re-rate the stock in either direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "Operational updates and revised CY26 production guidance",
+      "time": "2026-06-16T00:02:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100630-3A695394",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Karoon Energy has revised its CY26 production guidance downward, signaling potential operational challenges at its key producing assets that may weigh on near-term revenue and cash flow expectations.",
+        "Operational updates likely reflect issues such as well performance, maintenance shutdowns, or reservoir underperformance at Baúna (Brazil) or Neon/Glow (Australia), requiring investors to reassess forward earnings models.",
+        "Revised guidance introduces uncertainty around Karoon's ability to fund its capital program organically and may pressure management to revisit capital allocation priorities including buybacks, debt reduction, or development timelines."
+      ],
+      "tags": [
+        "Production",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ILA",
+      "company": "ISLAND PHARMACEUTICALS LIMITED",
+      "headline": "Investor Presentation - Asia Dengue Summit",
+      "time": "2026-06-15T23:58:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100626-3A695392",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Island Pharmaceuticals is presenting at the Asia Dengue Summit, signaling active engagement with key opinion leaders and potential partners in the dengue therapeutic space — a market with no approved antiviral treatment and significant unmet need across Asia-Pacific.",
+        "The investor presentation, marked as market sensitive, likely contains updated clinical or strategic data on ISLA-101 (the company's lead dengue antiviral candidate), which could include trial progress, partnership discussions, or revised development timelines that may move the stock.",
+        "As a pre-revenue biotech with limited cash runway, any signals around partnership interest, grant funding, or capital strategy from this presentation will be critical for assessing the company's ability to fund its next clinical milestones without excessive dilution."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GHY",
+      "company": "GOLD HYDROGEN LIMITED",
+      "headline": "Cessation as a Substantial Holder",
+      "time": "2026-06-15T23:55:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100623-2A1677591",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased to hold a 5%+ stake in Gold Hydrogen Limited, indicating a meaningful reduction in their position through either on-market selling or dilution from capital raises.",
+        "The departure of a substantial holder may signal reduced institutional conviction in GHY's near-term prospects, though it could also reflect portfolio rebalancing unrelated to company fundamentals.",
+        "Investors should monitor whether this is an isolated event or part of a broader pattern of institutional exits, and watch for any follow-on selling pressure in what is typically a thinly traded exploration-stage stock."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEM",
+      "company": "MEMPHASYS LIMITED.",
+      "headline": "Pause in Trading",
+      "time": "2026-06-15T23:54:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100622-3A695390",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Memphasys Limited has requested a pause in trading, typically indicating a pending material announcement that could significantly impact the company's valuation or operations.",
+        "As a micro-cap medical device company focused on sperm separation technology, any trading halt raises questions about capital adequacy, partnership developments, or potential corporate actions given the company's limited revenue base and cash constraints.",
+        "Investors should await the accompanying announcement that triggered the trading pause, which will clarify whether this relates to a capital raise (dilutive risk), strategic partnership, or regulatory/commercial milestone."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Investor Presentation - Unlocking Mineral Hill Potential",
+      "time": "2026-06-15T23:52:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100620-6A1329629",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kingston Resources is presenting an investor deck focused on unlocking value at its Mineral Hill polymetallic project in NSW, signaling a strategic push to advance the asset and attract institutional interest in its base and precious metals portfolio.",
+        "The market-sensitive designation suggests the presentation likely contains material new information — potentially updated resource estimates, exploration results, or development pathway economics — that could re-rate the company's valuation beyond routine corporate updates.",
+        "Investor presentations of this nature typically precede capital raising activity or strategic partnerships; institutional investors should monitor for near-term follow-through including drilling programs, feasibility milestones, or funding announcements that would validate the 'unlocking potential' thesis."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MEM",
+      "company": "MEMPHASYS LIMITED.",
+      "headline": "Memphasys Executes Supply Agreement with Monash IVF Group",
+      "time": "2026-06-15T23:51:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100619-3A695389",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Memphasys has secured a formal supply agreement with Monash IVF Group, one of Australia's largest IVF providers, representing a significant commercial validation of its FELIX sperm separation technology and a pathway to recurring revenue.",
+        "The agreement with Monash IVF — which operates ~40 clinics across Australia and Southeast Asia — provides a scalable distribution channel that could materially accelerate device placement and consumable sales, critical for a pre-profit medtech company needing to demonstrate commercial traction.",
+        "Execution of a supply deal with a tier-1 IVF group is likely to serve as a reference case for further clinic partnerships domestically and internationally, de-risking the commercialisation pathway and potentially improving Memphasys' negotiating position for future capital raises or strategic deals."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IVG",
+      "company": "INVERT GRAPHITE LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-06-15T23:50:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100618-2A1677589",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Invert Graphite has entered a trading pause, typically preceding a formal trading halt request pending a material announcement — investors should anticipate a significant corporate update imminently.",
+        "As a small-cap graphite explorer, any pending announcement could relate to capital raising, asset transactions, or material exploration results — each carrying meaningful implications for the company's tight cash runway and valuation.",
+        "Trading will remain suspended until the company releases further details; institutional investors should monitor for the formal trading halt notice and subsequent announcement to assess re-entry or position sizing."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FLG",
+      "company": "FLAGSHIP MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-15T23:47:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100614-6A1329631",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Flagship Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update that requires price-sensitive disclosure.",
+        "As a minerals-focused company, the halt may relate to exploration results, project acquisition, or equity raising — any of which could materially alter the company's valuation and capital structure.",
+        "Investors should await the detailed announcement expected within the ASX's standard two-business-day trading halt window to assess the nature and magnitude of the pending news before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AM3",
+      "company": "AMARA MINERALS LIMITED",
+      "headline": "Placement secured to raise $2.2 million",
+      "time": "2026-06-15T23:41:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100606_PS-6A1329605",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Amara Minerals secured a $2.2 million placement, providing near-term funding for exploration activities but introducing dilution for existing shareholders in a junior explorer context.",
+        "The relatively modest raise size suggests the company is funding specific work programs rather than a transformational capital event, with cash runway likely extending 6-12 months depending on burn rate and exploration intensity.",
+        "Investors should monitor the use of proceeds and whether the capital is directed toward high-priority drill targets or general working capital, as this will determine whether the raise is value-accretive or merely survival funding."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TZL",
+      "company": "TZ LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-06-15T23:40:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100605-2A1677581",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TZ Limited shares are being reinstated to quotation on the ASX, ending a period of trading suspension that likely related to compliance or disclosure requirements — a necessary step for restoring liquidity to shareholders.",
+        "Reinstatement signals that ASX is satisfied the company has met the conditions required for lifting the suspension, though investors should scrutinize what triggered the original halt and whether underlying issues (capital adequacy, reporting obligations) have been fully resolved.",
+        "Near-term trading may see elevated volatility as pent-up buy/sell demand clears; institutional investors should monitor the first sessions for price discovery signals and any accompanying announcements on the company's financial position or strategic direction."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TZL",
+      "company": "TZ LIMITED",
+      "headline": "TZL Investor Presentation",
+      "time": "2026-06-15T23:39:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100602-2A1677556",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TZ Limited has released a market-sensitive investor presentation, signaling management's intent to proactively communicate strategic direction or material developments to the investment community.",
+        "As a micro-cap technology company focused on intelligent device and asset management solutions, any update on commercial traction, recurring revenue metrics, or partnership pipeline will be critical for reassessing the company's path to profitability.",
+        "Investors should scrutinize the presentation for cash runway details, updated revenue guidance, and any capital management initiatives, as TZ's historically tight balance sheet makes funding sustainability a key risk factor."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TZL",
+      "company": "TZ LIMITED",
+      "headline": "Entitlement Offer Booklet",
+      "time": "2026-06-15T23:39:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100601-2A1677552",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "TZ Limited is conducting a pro-rata entitlement offer, signaling an immediate need for capital which will dilute existing shareholders who do not participate in the raise.",
+        "As a micro-cap technology company with a history of operating losses, the capital raise likely extends cash runway but raises concerns about the company's ability to achieve self-sustaining revenue generation without repeated equity issuance.",
+        "Investors should scrutinize the offer price discount, funds sought, and intended use of proceeds — key details in the booklet will determine whether this raise is growth-oriented or survival capital, with significant implications for near-term share price pressure."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TZL",
+      "company": "TZ LIMITED",
+      "headline": "TZL Announces Placement & Entitlement Offer",
+      "time": "2026-06-15T23:39:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100600-2A1677548",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "TZ Limited is raising capital through a combined placement and entitlement offer, signaling an immediate need for funding that will dilute existing shareholders who do not participate in the offer.",
+        "The placement component suggests institutional demand was sought upfront, with the entitlement offer providing pro-rata participation rights to retail/existing holders — key details on pricing discount and total raise size will determine the severity of dilution.",
+        "Proceeds are likely earmarked for working capital and/or growth initiatives, but for a micro-cap like TZL, the raise raises questions about cash runway sustainability and whether the company can achieve self-funding operations in the near term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AEU",
+      "company": "ATOMIC EAGLE LTD",
+      "headline": "Muntanga Exploration Update",
+      "time": "2026-06-15T23:33:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100595-6A1329624",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Atomic Eagle provides an exploration update on its Muntanga project, signaling active fieldwork and continued commitment to advancing the asset — a positive signal for early-stage resource delineation.",
+        "As a micro-cap explorer, the market sensitivity designation suggests material new geological data or results that could re-rate the company's perceived project prospectivity and resource potential.",
+        "Investors should watch for follow-up assay results and drilling program details, which will be critical in determining whether Muntanga can progress toward a maiden resource estimate and sustain market interest."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "NVA",
       "company": "NOVA MINERALS CORP",
