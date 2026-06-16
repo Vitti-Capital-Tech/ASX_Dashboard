@@ -1,9 +1,66 @@
 {
   "date": "2026-06-16",
-  "total": 92,
-  "market_sensitive_count": 80,
-  "generated_at": "2026-06-16T00:56:47.480409+00:00",
+  "total": 95,
+  "market_sensitive_count": 81,
+  "generated_at": "2026-06-16T01:58:42.879266+00:00",
   "announcements": [
+    {
+      "ticker": "A2M",
+      "company": "THE A2 MILK COMPANY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-16T01:51:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100663-2A1677610",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in A2 Milk Company, triggering a mandatory disclosure under ASX substantial holding rules, signaling active institutional portfolio rebalancing in the stock.",
+        "The change in substantial holding — whether an increase or decrease — reflects shifting institutional conviction in A2 Milk's growth trajectory amid its ongoing China infant formula strategy and margin recovery narrative.",
+        "As a non-market-sensitive filing, this is a regulatory compliance disclosure; investors should monitor whether this forms part of a broader accumulation or distribution trend by cross-referencing subsequent substantial holder notices."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GMG",
+      "company": "GOODMAN GROUP",
+      "headline": "Dividend/Distribution - GMG",
+      "time": "2026-06-16T01:24:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100655-2A1677604",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Goodman Group has declared a distribution, signaling continued capital returns to unitholders consistent with its track record as one of the ASX's largest property groups with strong cash generation from its global logistics and data centre portfolio.",
+        "The dividend announcement, marked as market sensitive, likely reflects either an increase in distribution or a change in payout structure — key metrics for institutional investors benchmarking GMG's yield against property sector peers and its reinvestment capacity.",
+        "Investors should monitor the ex-distribution date, DRP participation rates, and any accompanying guidance update, as GMG's distribution policy directly reflects management's confidence in forward earnings from its $80B+ AUM platform and development pipeline."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GSS",
+      "company": "GENETIC SIGNATURES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-16T01:24:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100654-2A1677605",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Genetic Signatures Limited (GSS), triggering a mandatory disclosure under ASX substantial holding rules, signaling active institutional portfolio rebalancing in this molecular diagnostics company.",
+        "The change in substantial holding — rather than a new or ceased holding — suggests the investor is fine-tuning their position size rather than making a directional entry or exit, which limits immediate read-through on conviction shifts.",
+        "For GSS, which operates in the competitive molecular diagnostics space with ongoing cash burn considerations, investors should monitor whether this adjustment reflects broader institutional sentiment shifts or routine portfolio management ahead of upcoming financial updates."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CMB",
       "company": "CAMBIUM BIO LIMITED",
