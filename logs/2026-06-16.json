@@ -1,9 +1,86 @@
 {
   "date": "2026-06-16",
-  "total": 88,
-  "market_sensitive_count": 77,
-  "generated_at": "2026-06-16T00:14:35.258197+00:00",
+  "total": 92,
+  "market_sensitive_count": 80,
+  "generated_at": "2026-06-16T00:56:47.480409+00:00",
   "announcements": [
+    {
+      "ticker": "CMB",
+      "company": "CAMBIUM BIO LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-16T00:43:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100646-2A1677601",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Cambium Bio Limited, crossing the 5% ownership threshold, signaling concentrated investor interest in this small-cap name.",
+        "The filing is classified as not market sensitive, suggesting this is a routine disclosure rather than a hostile or activist accumulation, though the identity and intent of the new holder warrants monitoring.",
+        "Institutional investors should watch for follow-on buying or any accompanying strategic proposals, as substantial holder notices in micro/small-cap stocks can precede corporate activity or governance shifts."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAY",
+      "company": "MELBANA ENERGY LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-06-16T00:33:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100643-3A695399",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Melbana Energy has been suspended from quotation on the ASX, indicating a significant corporate action or compliance issue that prevents normal trading of its securities.",
+        "Suspension from quotation (as distinct from a voluntary trading halt) may signal regulatory concerns, failure to meet ASX listing requirements, or a pending material announcement that requires resolution before trading can resume.",
+        "Investors should monitor for follow-up announcements clarifying the reason for suspension and expected timeline for reinstatement; prolonged suspension creates liquidity risk and may indicate deeper operational or financial challenges for the small-cap explorer."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy",
+        "Trading Halt"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IVG",
+      "company": "INVERT GRAPHITE LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-16T00:24:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100639-2A1677598",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Invert Graphite Limited has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update that requires price-sensitive disclosure.",
+        "As a junior mining/graphite explorer, trading halts frequently precede equity raisings which may be dilutive to existing shareholders, though could also signal a transformative asset acquisition or partnership in the critical minerals space.",
+        "Investors should await the formal announcement expected within two business days; the nature of the pending disclosure will determine whether this represents a value-accretive catalyst or a dilutive capital event."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXB",
+      "company": "DIMERIX LIMITED",
+      "headline": "Dimerix Licenses DMX200 to Everest for China and Asia Region",
+      "time": "2026-06-16T00:20:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03100638-3A695397",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dimerix has secured a licensing deal with Everest Medicines for DMX200 across China and broader Asia, providing non-dilutive capital and validating the asset's commercial potential in a major pharmaceutical market.",
+        "The partnership with Everest — a well-capitalized, Asia-focused biopharma company — de-risks Dimerix's path to commercialization in the region while retaining rights in other key markets, potentially unlocking milestone payments and royalties that extend cash runway significantly.",
+        "This deal signals increasing partner interest in DMX200's clinical profile (targeting kidney disease), and positions Dimerix to pursue additional regional licensing agreements or partnerships in the US/EU, which could serve as further near-term catalysts."
+      ],
+      "tags": [
+        "Healthcare",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "MEM",
       "company": "MEMPHASYS LIMITED.",
