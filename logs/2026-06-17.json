@@ -1,9 +1,122 @@
 {
   "date": "2026-06-17",
-  "total": 70,
-  "market_sensitive_count": 63,
-  "generated_at": "2026-06-17T01:52:22.602093+00:00",
+  "total": 76,
+  "market_sensitive_count": 66,
+  "generated_at": "2026-06-17T03:10:56.525886+00:00",
   "announcements": [
+    {
+      "ticker": "QOR",
+      "company": "QORIA LIMITED",
+      "headline": "Ceasing to be a substantial holder from MS",
+      "time": "2026-06-17T02:56:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101116-6A1329805",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Morgan Stanley has ceased to be a substantial holder in Qoria Limited (QOR), indicating its stake has fallen below the 5% threshold, which may reflect portfolio rebalancing or reduced conviction in the company's near-term outlook.",
+        "The exit of a major institutional holder like Morgan Stanley can signal weakening institutional support and may reduce liquidity depth, though it could also reflect index-driven or fund-flow mechanical selling rather than a fundamental view change.",
+        "Investors should monitor whether other substantial holders follow suit or if new institutional buyers emerge; absence of replacement demand could weigh on the stock, while Qoria's underlying cash runway and path to profitability in the child safety tech space remain key watchpoints."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Eighth Supplementary Bidder's Statement",
+      "time": "2026-06-17T02:45:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101112-2A1677834",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Atlas Arteria has filed an Eighth Supplementary Bidder's Statement, indicating an active and evolving takeover process with multiple iterations of disclosure — suggesting ongoing negotiations or regulatory requirements that are extending the bid timeline.",
+        "The high number of supplementary statements (eighth iteration) signals material complexity in the transaction, potentially involving updated financial information, revised conditions, or responses to competing proposals that institutional investors should scrutinize for changes to bid terms or valuation.",
+        "Market-sensitive classification suggests this supplement contains new material information — investors should assess whether it includes updated independent expert opinions, revised offer pricing, or changes to conditions precedent that could shift the probability of deal completion."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "T92",
+      "company": "TERRA CRITICAL MINERALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-17T02:26:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101109-6A1329802",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Terra Critical Minerals has adjusted their position, triggering a mandatory disclosure under ASX substantial holding rules — signaling active portfolio repositioning by a significant shareholder.",
+        "The change in substantial holding notice, while not flagged as market sensitive, warrants monitoring for the direction and magnitude of the stake change, as it may indicate shifting investor confidence in the critical minerals junior.",
+        "For a micro-cap explorer like Terra Critical Minerals, movements by substantial holders can have outsized implications for liquidity and share price stability — investors should watch for follow-up filings or further stake reductions/increases."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGE",
+      "company": "ALLIGATOR ENERGY LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-06-17T02:20:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101106-2A1677830",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alligator Energy has requested a pause in trading, typically preceding a material announcement such as a capital raise, acquisition, or significant operational update in its uranium/energy portfolio.",
+        "Trading halts for junior explorers like AGE often signal imminent capital raising activity, which could be dilutive to existing shareholders but may also fund critical exploration or development milestones.",
+        "Investors should monitor for the accompanying announcement upon trading resumption, as the nature of the news (capital raise vs. operational milestone) will determine near-term price direction and sentiment."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GDI",
+      "company": "GDI PROPERTY GROUP",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-17T02:14:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101104-2A1677829",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in GDI Property Group, triggering a mandatory disclosure under ASX rules — this signals active institutional portfolio rebalancing in the A-REIT sector.",
+        "The change in substantial holding may reflect shifting institutional views on GDI's office-focused property portfolio amid evolving CBD office market dynamics and occupancy trends across Australian capital cities.",
+        "Investors should monitor whether this is part of a broader accumulation or disposal trend, as successive substantial holding notices can foreshadow takeover interest, activist positioning, or sustained de-risking by a major holder."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYP",
+      "company": "CYNATA THERAPEUTICS LIMITED",
+      "headline": "CYP-001 GvHD Trial Primary Evaluation Results",
+      "time": "2026-06-17T02:05:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101100-3A695478",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "CYP-001 Phase 2 GvHD trial met its primary endpoint evaluation, a critical clinical milestone for Cynata's iPSC-derived mesenchymal stem cell platform that validates the therapeutic approach in a serious condition with high unmet medical need.",
+        "Positive primary evaluation results in graft-versus-host disease represent a significant de-risking event for the Cymerus technology platform, potentially enhancing partnering discussions and licensing deal prospects that are essential for the company's pre-revenue business model.",
+        "Next steps will likely involve detailed data presentation at medical conferences, regulatory strategy refinement, and pursuit of strategic partnerships or licensing agreements to fund pivotal trials — investors should monitor cash runway closely given the capital-intensive path to commercialisation."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "HIQ",
       "company": "HITIQ LIMITED",
