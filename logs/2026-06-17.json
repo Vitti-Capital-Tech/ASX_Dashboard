@@ -1,9 +1,48 @@
 {
   "date": "2026-06-17",
-  "total": 68,
-  "market_sensitive_count": 61,
-  "generated_at": "2026-06-17T00:51:40.364666+00:00",
+  "total": 70,
+  "market_sensitive_count": 63,
+  "generated_at": "2026-06-17T01:52:22.602093+00:00",
   "announcements": [
+    {
+      "ticker": "HIQ",
+      "company": "HITIQ LIMITED",
+      "headline": "Security Class Reinstatement to Quotation - HIQOA",
+      "time": "2026-06-17T01:45:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101093-6A1329798",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "HITIQ's HIQOA security class (likely options) has been reinstated to quotation on ASX, indicating resolution of any prior compliance or administrative suspension issues that had halted trading in this instrument.",
+        "Reinstatement of options to trading restores liquidity for holders and may signal the company has satisfied ASX conditions — potentially related to disclosure obligations, capital structure updates, or prospectus requirements.",
+        "Investors should monitor whether the reinstatement coincides with recent capital raising activity or corporate actions, as newly tradeable options could introduce dilution risk if exercised, impacting the ordinary share price dynamics."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HIQ",
+      "company": "HITIQ LIMITED",
+      "headline": "Result of HIQOA Court Application",
+      "time": "2026-06-17T01:45:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101092-6A1329778",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Court application result regarding HIQOA (likely a scheme of arrangement or corporate restructuring matter) signals a key milestone in HitIQ's ongoing corporate process, with the outcome directly impacting the company's strategic trajectory",
+        "Market-sensitive designation indicates the court ruling carries material implications for shareholders — potentially affecting share structure, merger terms, or compliance obligations that institutional investors need to assess immediately",
+        "Investors should monitor whether the court outcome clears the path for a transaction to proceed or introduces delays/conditions that could alter the company's timeline, valuation, or capital position"
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AMX",
       "company": "AEROMETREX LIMITED",
