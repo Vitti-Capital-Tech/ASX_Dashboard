@@ -1,9 +1,354 @@
 {
   "date": "2026-06-18",
-  "total": 65,
-  "market_sensitive_count": 54,
-  "generated_at": "2026-06-17T23:34:03.217302+00:00",
+  "total": 83,
+  "market_sensitive_count": 71,
+  "generated_at": "2026-06-18T00:05:42.381079+00:00",
   "announcements": [
+    {
+      "ticker": "MAY",
+      "company": "MELBANA ENERGY LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-06-17T23:57:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101489-3A695545",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Melbana Energy has been reinstated to quotation on the ASX, ending a trading halt period that had suspended share trading - this restores liquidity for institutional holders and signals resolution of the issue that triggered the halt.",
+        "Reinstatement as a market-sensitive announcement suggests material information has been disclosed to the market during the halt period, with the company now meeting ASX continuous disclosure requirements to resume trading.",
+        "Investors should closely review the underlying announcement that preceded the trading halt (likely related to operational, capital, or compliance matters) to assess any fundamental re-rating implications for Melbana's Cuban exploration assets and cash position."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAY",
+      "company": "MELBANA ENERGY LIMITED",
+      "headline": "Cuba Operational Update",
+      "time": "2026-06-17T23:57:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101488-3A695542",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Melbana Energy provides an operational update on its Cuban exploration/production activities, a market-sensitive disclosure indicating material developments in its high-risk, high-reward frontier asset base.",
+        "Cuba operations remain the company's core value driver; any progress (or setback) on drilling, testing, or production directly impacts the speculative valuation thesis given Melbana's limited revenue base and constrained cash runway.",
+        "Investors should monitor for specifics on well results, flow rates, or timeline changes — operational updates in frontier jurisdictions like Cuba carry elevated sovereign and execution risk that can drive outsized share price volatility in either direction."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BDX",
+      "company": "BCAL DIAGNOSTICS LIMITED",
+      "headline": "BCAL Develops New Blood Test for Breast Cancer Recurrence",
+      "time": "2026-06-17T23:52:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101484-2A1678023",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BCAL Diagnostics has developed a new blood-based test targeting breast cancer recurrence monitoring, a significant pipeline expansion beyond its initial early-detection focus that broadens the company's total addressable market in the oncology diagnostics space.",
+        "A blood test for recurrence monitoring addresses a large unmet clinical need — approximately 30% of early-stage breast cancer patients experience recurrence — positioning BCAL in a high-value surveillance segment where current imaging-based approaches have well-documented limitations.",
+        "As a pre-revenue diagnostic company, investors should watch for clinical validation timelines, regulatory pathway clarity, and cash runway adequacy; the announcement is a positive R&D milestone but commercialisation remains distant and likely requires further capital."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MEM",
+      "company": "MEMPHASYS LIMITED.",
+      "headline": "Successful $1.2M Placement and Convertible Note Extended",
+      "time": "2026-06-17T23:52:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101482-3A695544",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Memphasys raised $1.2M via placement at what is likely a discounted price, providing near-term working capital but introducing meaningful dilution for a micro-cap company with limited revenue generation.",
+        "Extension of an existing convertible note signals the company was unable to repay the obligation from operating cash flows, suggesting continued cash burn and reliance on external funding to maintain operations.",
+        "The combined placement and convertible note extension buys additional runway, but institutional investors should monitor the burn rate closely — the modest raise size suggests limited runway (likely 2-3 quarters) before further capital needs arise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-06-17T23:51:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101481-6A1329982",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kingston Resources has been reinstated to quotation on the ASX, ending a trading halt period that had suspended share trading and restricted investor access to liquidity.",
+        "Reinstatement typically follows resolution of a material disclosure requirement or compliance matter, signaling the company has satisfied ASX conditions for resumption of normal trading.",
+        "Investors should monitor the accompanying announcements released during the halt period for details on any capital raise, transaction, or operational update that triggered the suspension, as these will drive near-term price action."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "$12.9M Capital Raising to Unlock Mineral Hill Potential",
+      "time": "2026-06-17T23:51:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101479-6A1329959",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kingston Resources raising $12.9M to advance the Mineral Hill project, signaling commitment to unlocking value at the polymetallic asset but introducing meaningful dilution for existing shareholders in a micro-cap context.",
+        "Capital raise size of $12.9M is substantial relative to Kingston's market capitalization, suggesting significant near-term equity dilution that will weigh on per-share metrics despite funding project development activities.",
+        "Proceeds earmarked to unlock Mineral Hill potential indicate the company is transitioning toward development/production milestones, with investors needing to monitor deployment efficiency and whether the raise provides sufficient runway to reach key value inflection points."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AVW",
+      "company": "AVIRA RESOURCES LTD",
+      "headline": "Drilling Update - Mt Cattlin Gold Project",
+      "time": "2026-06-17T23:47:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101477-6A1329981",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Avira Resources provides a drilling update at its Mt Cattlin Gold Project, signaling active exploration progress that could de-risk the asset and drive near-term re-rating if results confirm mineralisation continuity.",
+        "Market-sensitive classification suggests the update contains material new information — likely assay results or significant geological intersections — that institutional investors should evaluate for resource upgrade potential.",
+        "As a micro-cap explorer, drilling milestones are critical catalysts; investors should monitor follow-up assays, resource estimates, and cash position to assess whether further capital raises may be required to fund continued exploration."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AGR",
+      "company": "AGUIA RESOURCES LIMITED",
+      "headline": "Pampafos Launch Delivers $600k in Sales within 14 Days",
+      "time": "2026-06-17T23:40:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101471-2A1678019",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Pampafos phosphate fertilizer product generated A$600k in sales within just 14 days of commercial launch, demonstrating strong early market traction and validating the company's transition from explorer to revenue-generating producer in Brazil's agricultural heartland.",
+        "Rapid initial sales uptake is a critical proof-of-concept for Aguia's direct-application phosphate strategy, potentially de-risking the revenue model and providing near-term cash flow to reduce reliance on external capital raises for a micro-cap that has historically been pre-revenue.",
+        "Key watch items include sustainability of sales momentum beyond the initial launch period, gross margins on Pampafos product, scalability of production to meet demand, and whether early revenue can meaningfully extend cash runway and reduce dilution risk for shareholders."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VSR",
+      "company": "VOLTAIC STRATEGIC RESOURCES LTD",
+      "headline": "Regains 100% Ownership of Ti-Tree Lithium Project",
+      "time": "2026-06-17T23:38:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101469-6A1329970",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Voltaic has regained 100% ownership of the Ti-Tree Lithium Project, eliminating any joint venture or earn-in partner dilution and consolidating full strategic control over the asset during a period of renewed lithium market interest.",
+        "Full ownership simplifies the corporate structure and enhances optionality — Voltaic can now pursue development, farm-out, or sale on its own terms without third-party consent requirements, which is material for a micro-cap explorer seeking to maximise asset value.",
+        "Key next steps will be whether Voltaic can fund meaningful exploration at Ti-Tree independently; investors should watch for follow-up announcements on planned drilling programs, updated resource estimates, and any capital raise to fund project advancement."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PV1",
+      "company": "PROVARIS ENERGY LTD",
+      "headline": "Trading Halt",
+      "time": "2026-06-17T23:38:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101468-6A1329978",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Provaris Energy has entered a trading halt, typically preceding a material announcement such as a capital raise, strategic partnership, or significant project update in the compressed hydrogen shipping space.",
+        "As a pre-revenue hydrogen logistics company with limited cash reserves, any trading halt raises immediate questions about potential equity dilution through a capital raise to fund ongoing development activities.",
+        "Investors should await the pending announcement — the nature of the disclosure (capital raise vs. commercial agreement vs. regulatory milestone) will be critical in determining whether this is dilutive or value-accretive for shareholders."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PGM",
+      "company": "PLATINA RESOURCES LIMITED",
+      "headline": "Completion of Mt Morgans South Project Acquisition",
+      "time": "2026-06-17T23:38:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101467-2A1678017",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Platina Resources has completed the acquisition of the Mt Morgans South Gold Project, marking a strategic expansion into a proven Western Australian gold district that could materially enhance the company's resource base and exploration pipeline.",
+        "The completion of this M&A transaction signals management's commitment to building gold exposure, though investors should scrutinize the acquisition terms, consideration paid (cash/scrip mix), and any associated dilution to assess whether the deal is value-accretive at current gold prices.",
+        "Near-term catalysts will center on integration milestones, commencement of exploration programs at Mt Morgans South, and any updated resource estimates — the market will be watching for drill results and geological data to validate the acquisition thesis."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AAU",
+      "company": "ANTILLES GOLD LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-06-17T23:38:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101466-2A1678015",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Antilles Gold Limited has been reinstated to quotation on the ASX, ending a prior trading halt or suspension period that had restricted investor access to the stock.",
+        "Reinstatement signals that the company has satisfied ASX compliance requirements or disclosure obligations that triggered the original suspension, removing a key overhang for existing shareholders.",
+        "Investors should monitor the accompanying announcements made during the suspension period for material updates on project developments, capital structure changes, or corporate actions that may drive near-term price discovery upon resumed trading."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAU",
+      "company": "ANTILLES GOLD LIMITED",
+      "headline": "US Sanctions of Cuban Joint Venture Company",
+      "time": "2026-06-17T23:37:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101465-2A1678011",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "US sanctions have been imposed on Antilles Gold's Cuban joint venture company, creating significant operational and financial risk for the company's core development assets in Cuba, likely restricting access to US-linked banking, equipment, and services.",
+        "The sanctions effectively jeopardize the company's flagship gold-copper projects in Cuba, which represent the bulk of Antilles Gold's asset value and future revenue pipeline, raising serious questions about project viability and capital deployment.",
+        "Investors should expect heightened uncertainty around the company's ability to advance its Cuban operations, with potential for asset impairments, partner withdrawal, and difficulty raising future capital given the geopolitical overhang."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SPX",
+      "company": "SPENDA LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-17T23:35:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101461-3A695543",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Spenda Limited (SPX), crossing the 5% ownership threshold, signaling concentrated investor interest in the small-cap fintech/payments company.",
+        "The filing is procedural in nature and classified as not market sensitive, suggesting the accumulation occurred gradually through on-market purchases rather than a strategic block trade or takeover-related activity.",
+        "Investors should monitor whether this substantial holder continues to accumulate shares, as further buying could indicate conviction in Spenda's growth trajectory in payments and lending technology, or potentially foreshadow corporate activity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CPV",
+      "company": "CLEARVUE TECHNOLOGIES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-17T23:35:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101462-6A1329975",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "ClearVue Technologies has entered a trading halt, typically preceding a material announcement such as a capital raise, partnership, or significant corporate development for this solar glass technology company.",
+        "As a small-cap technology company with limited revenue generation to date, any capital raise would likely be dilutive to existing shareholders, while a strategic partnership could materially re-rate the stock given its niche in building-integrated photovoltaic (BIPV) glass.",
+        "Investors should await the pending announcement before taking positions; the halt signals imminent news flow that will clarify the company's near-term funding position and strategic direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VKA",
+      "company": "VIKING MINES LIMITED",
+      "headline": "ORE SORTING SUCCESS AT LINKA TUNGSTEN PROJECT",
+      "time": "2026-06-17T23:34:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101460-6A1329976",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ore sorting test results at the Linka Tungsten Project in Nevada demonstrate successful pre-concentration capability, potentially reducing downstream processing costs and improving project economics significantly for Viking Mines.",
+        "Successful ore sorting is a critical de-risking milestone for tungsten projects, as it can materially improve head grades fed to processing plants and reduce energy/reagent consumption — key factors for economic viability in a market where tungsten is classified as a critical mineral by multiple governments.",
+        "Positive metallurgical results position Viking to advance Linka toward feasibility-level studies, with tungsten's strategic importance (defense, manufacturing applications) and supply concentration risk from China providing a favorable macro backdrop for project development and potential offtake discussions."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "T92",
+      "company": "TERRA CRITICAL MINERALS LIMITED",
+      "headline": "High Grade Tin and Indium Confirmed at Tamworth Project",
+      "time": "2026-06-17T23:33:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101457-6A1329973",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Terra Critical Minerals has confirmed high-grade tin and indium mineralisation at its Tamworth Project in NSW, validating the project's prospectivity for critical minerals that are increasingly strategic given global supply chain concerns and government critical minerals policies.",
+        "The confirmation of both tin and indium — two minerals on Australia's Critical Minerals List — at elevated grades enhances the project's economic potential and could attract strategic investment or offtake interest, particularly given indium's niche demand in electronics and solar panels.",
+        "Results are expected to drive further exploration activity and resource definition drilling at Tamworth, with the company likely to accelerate work programs to establish a maiden resource estimate — a key catalyst for re-rating in the junior explorer space."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IVG",
+      "company": "INVERT GRAPHITE LIMITED",
+      "headline": "InVert to Acquire RapidPulse Graphite Processing Technology",
+      "time": "2026-06-17T23:32:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101454-2A1677984",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "InVert Graphite is acquiring RapidPulse graphite processing technology, a potentially transformative move that could differentiate its processing capabilities in the competitive graphite/battery materials space and reduce reliance on traditional purification methods.",
+        "The acquisition signals a strategic pivot toward proprietary technology ownership, which if commercially viable could significantly lower processing costs and improve margins versus conventional graphite purification techniques that rely on harsh chemical processes.",
+        "Key unknowns remain around acquisition terms, consideration structure (cash vs scrip dilution risk), technology readiness level, and timeline to commercial deployment — investors should watch for follow-up details on deal economics and integration milestones."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "TGN",
       "company": "TUNGSTEN MINING NL",
