@@ -1,9 +1,123 @@
 {
   "date": "2026-06-19",
-  "total": 40,
-  "market_sensitive_count": 33,
-  "generated_at": "2026-06-18T23:24:44.513408+00:00",
+  "total": 46,
+  "market_sensitive_count": 39,
+  "generated_at": "2026-06-18T23:34:51.246283+00:00",
   "announcements": [
+    {
+      "ticker": "MAN",
+      "company": "MANDRAKE RESOURCES LIMITED",
+      "headline": "Drilling contract signed for Berinka Pine Creek AuCu Project",
+      "time": "2026-06-18T23:33:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101849-6A1330125",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mandrake Resources has signed a drilling contract for its Berinka Pine Creek Gold-Copper Project, signaling a transition from exploration planning to active ground-truthing — a key de-risking catalyst for junior miners.",
+        "The commitment to contracted drilling expenditure provides visibility on near-term capital deployment and suggests the company has sufficient cash runway to fund this exploration phase, though investors should monitor burn rate relative to last reported cash position.",
+        "Successful drill results at Berinka could materially re-rate the stock given the project's location in the prospective Pine Creek region (NT), with upcoming assay results likely to serve as the next major share price catalyst."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MQR",
+      "company": "MARQUEE RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-18T23:27:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101843-6A1330121",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Marquee Resources has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration update for this junior explorer.",
+        "As a micro-cap ASX-listed company, any capital raise associated with this halt could result in meaningful dilution for existing shareholders, making the terms of any potential placement critical to monitor.",
+        "Investors should await the detailed announcement expected within two business days to assess whether the catalyst is value-accretive (e.g., high-grade drill results or strategic asset acquisition) or dilutive (equity raising at a discount)."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYP",
+      "company": "CYNATA THERAPEUTICS LIMITED",
+      "headline": "Reinstatement to Official Quotation",
+      "time": "2026-06-18T23:22:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101837-3A695626",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cynata Therapeutics has been reinstated to official quotation on the ASX, ending a trading halt period that had suspended share trading — this restores liquidity for institutional and retail holders.",
+        "Reinstatement typically follows resolution of a material disclosure obligation or completion of a capital raise/corporate action that triggered the original halt, signaling the company has satisfied ASX compliance requirements.",
+        "Investors should closely review the accompanying announcements released during the halt period to assess any dilution from capital raises, updated cash runway, or material changes to the company's mesenchymal stem cell (Cymerus) clinical pipeline."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYP",
+      "company": "CYNATA THERAPEUTICS LIMITED",
+      "headline": "CYP-004 Osteoarthritis Trial Results",
+      "time": "2026-06-18T23:22:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101836-3A695619",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "CYP-004 Phase II osteoarthritis trial results are market-sensitive, representing a critical clinical milestone for Cynata's iPSC-derived mesenchymal stem cell (Cymerus) platform — outcome will directly determine pipeline viability and partnership potential.",
+        "Trial results will be scrutinized for efficacy endpoints (pain reduction, functional improvement) versus placebo; positive data could de-risk the platform across multiple indications and support a significant re-rating for this pre-revenue biotech.",
+        "With Cynata's limited cash runway typical of ASX-listed clinical-stage biotechs, strong results would strengthen the company's position for potential licensing deals, partnerships, or capital raises on favorable terms, while negative data could materially impair near-term funding options."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "M4M",
+      "company": "MACRO METALS LIMITED",
+      "headline": "Extension Iron Ore Additional Exploration Results",
+      "time": "2026-06-18T23:21:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101835-6A1330118",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Macro Metals has released additional exploration results from its Extension Iron Ore project, signaling continued resource delineation efforts that could expand the project's mineral inventory and de-risk future development pathways.",
+        "As a market-sensitive announcement, the exploration results likely contain material assay data or geological findings that may upgrade confidence in tonnage/grade estimates — critical for a junior miner seeking to advance toward a JORC resource update or feasibility study.",
+        "Investors should watch for follow-up announcements including updated resource estimates, metallurgical testwork outcomes, and any offtake or partnership discussions that would validate the project's commercial viability in the current iron ore price environment."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BOA",
+      "company": "BOA RESOURCES LTD",
+      "headline": "Suspension from Quotation",
+      "time": "2026-06-18T23:20:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101834-6A1330117",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BOA Resources has been suspended from quotation on the ASX, halting all trading activity and removing liquidity for existing shareholders until further notice.",
+        "Suspension from quotation (as distinct from a voluntary trading halt) typically signals a more serious compliance or regulatory issue, such as failure to meet listing requirements, outstanding disclosure obligations, or potential delisting risk.",
+        "Investors should monitor for follow-up announcements detailing the reason for suspension and any conditions for reinstatement; prolonged suspension materially increases the risk of permanent capital impairment for holders."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "HAS",
       "company": "HASTINGS TECHNOLOGY METALS LTD",
