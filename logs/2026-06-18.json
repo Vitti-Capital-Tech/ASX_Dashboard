@@ -1,9 +1,101 @@
 {
   "date": "2026-06-18",
-  "total": 92,
-  "market_sensitive_count": 79,
-  "generated_at": "2026-06-18T01:53:35.637231+00:00",
+  "total": 97,
+  "market_sensitive_count": 83,
+  "generated_at": "2026-06-18T03:10:39.686941+00:00",
   "announcements": [
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Notice of Status of Defeating Conditions",
+      "time": "2026-06-18T02:31:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101542-2A1678048",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Atlas Arteria has issued a notice on the status of defeating conditions related to an ongoing takeover or scheme, signaling the transaction is progressing through its conditional milestones — a key procedural step for deal completion.",
+        "The market-sensitive classification suggests material information regarding whether conditions precedent (likely regulatory approvals, shareholder thresholds, or financing) have been satisfied or waived, directly impacting deal certainty and pricing.",
+        "Investors should monitor whether all defeating conditions are declared fulfilled or free, as this would move the transaction closer to completion and likely narrow any remaining bid-ask spread to the offer price, reducing arbitrage opportunity."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MXO",
+      "company": "MOTIO LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-18T02:25:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101539-6A1330003",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in Motio Ltd has filed a change in their holding, signaling active portfolio rebalancing by a significant shareholder that institutional investors should monitor for directional conviction.",
+        "Without specific details on whether the holding increased or decreased, the filing is procedural in nature; however, any material reduction could indicate waning confidence while an increase may reflect accumulation at current price levels.",
+        "Investors should watch for follow-up disclosures or trading activity to determine whether this reflects a broader strategic shift, particularly given Motio's micro-cap status where substantial holder movements can meaningfully impact liquidity and sentiment."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASM",
+      "company": "AUSTRALIAN STRATEGIC MATERIALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-18T01:59:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101537-6A1330001",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Australian Strategic Materials (ASM) has entered a trading halt, typically requested by the company pending a material announcement — given ASM's critical minerals focus, this could relate to a capital raise, offtake agreement, or strategic partnership development.",
+        "ASM has been navigating a challenging cash position as it advances its Korean Metals Plant and Dubbo Project; any capital raise would likely be dilutive but could extend runway, while a strategic deal could be transformative for valuation.",
+        "Investors should watch for the nature of the pending announcement — a capital raise would pressure the stock near-term, while a binding offtake or government funding agreement for its rare earth and critical minerals assets could provide significant upside catalyst."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RRE",
+      "company": "RIGHT RESOURCES LIMITED",
+      "headline": "PhotonAssay Refines Gold Distribution at Pilot",
+      "time": "2026-06-18T01:56:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101536-6A1329999",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PhotonAssay analysis at the Pilot Gold Project has refined gold distribution understanding, providing higher-confidence geological data that could de-risk future resource estimates and drilling programs.",
+        "The use of PhotonAssay technology — which analyses whole samples non-destructively — addresses the nugget effect common in coarse gold deposits, potentially upgrading previously underestimated or variable grade zones at Pilot.",
+        "Refined gold distribution data positions Right Resources to better target high-grade zones in upcoming drill campaigns, a catalyst for potential resource upgrades and improved project economics."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ASM",
+      "company": "AUSTRALIAN STRATEGIC MATERIALS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-06-18T01:54:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101535-6A1330000",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Strategic Materials (ASM) has entered a trading pause, typically preceding a material announcement such as a capital raise, corporate transaction, or significant operational update.",
+        "As a critical minerals company focused on rare earths and titanium processing, any pause may signal developments related to offtake agreements, project financing, or strategic partnerships — all high-impact catalysts for this pre-revenue stage company with limited cash runway.",
+        "Investors should await the pending announcement before repositioning; the nature of the disclosure (dilutive capital raise vs. value-accretive deal) will determine directional impact on the stock."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "XF1",
       "company": "XREF LIMITED",
