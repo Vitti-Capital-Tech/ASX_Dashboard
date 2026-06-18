@@ -1,9 +1,66 @@
 {
   "date": "2026-06-18",
-  "total": 89,
-  "market_sensitive_count": 77,
-  "generated_at": "2026-06-18T00:52:01.091109+00:00",
+  "total": 92,
+  "market_sensitive_count": 79,
+  "generated_at": "2026-06-18T01:53:35.637231+00:00",
   "announcements": [
+    {
+      "ticker": "XF1",
+      "company": "XREF LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-18T01:50:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101533-2A1678043",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder in XREF LIMITED has filed a change in their holding, signaling active portfolio repositioning by a significant shareholder in this HR-tech company.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is likely incremental rather than a dramatic shift in ownership concentration or a block trade event.",
+        "Investors should monitor whether this reflects a broader trend of institutional accumulation or distribution in XF1, particularly given the company's small-cap status where substantial holder movements can meaningfully impact liquidity and sentiment."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EOS",
+      "company": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-18T01:35:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101528-2A1678039",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "EOS Holdings has entered a trading halt, typically preceding a material announcement such as a capital raise, acquisition, or significant contract update given the company's defence technology focus.",
+        "EOS has faced ongoing balance sheet pressures and cash runway concerns; a trading halt could signal an equity raising to shore up liquidity, which would be dilutive to existing shareholders.",
+        "Investors should await the pending announcement — the nature of the halt (capital raise vs. contract win vs. strategic transaction) will be the key determinant of near-term price direction and longer-term thesis."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NVQ",
+      "company": "NOVIQTECH LIMITED",
+      "headline": "Response to ASX Query Letter",
+      "time": "2026-06-18T01:16:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101522-3A695550",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NoviqTech received an ASX query letter, typically triggered by unusual price/volume activity or disclosure concerns, signaling heightened regulatory scrutiny on the company's recent market activity or announcements.",
+        "As a market-sensitive response to an ASX compliance query, this suggests the exchange has identified potential information asymmetry or trading irregularities that required formal explanation from the company.",
+        "Investors should monitor whether the ASX response satisfactorily addresses concerns — unresolved compliance issues could lead to trading halts, additional disclosure requirements, or further regulatory action that may weigh on near-term sentiment."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "INF",
       "company": "INFINITY METALS LIMITED",
