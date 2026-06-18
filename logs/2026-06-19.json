@@ -1,9 +1,425 @@
 {
   "date": "2026-06-19",
-  "total": 18,
-  "market_sensitive_count": 12,
-  "generated_at": "2026-06-18T22:43:27.855326+00:00",
+  "total": 40,
+  "market_sensitive_count": 33,
+  "generated_at": "2026-06-18T23:24:44.513408+00:00",
   "announcements": [
+    {
+      "ticker": "HAS",
+      "company": "HASTINGS TECHNOLOGY METALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-06-18T23:16:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101827-6A1330115",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Hastings Technology Metals has entered a trading halt, typically preceding a material announcement such as a capital raise, asset transaction, or significant corporate update for this pre-revenue rare earths developer.",
+        "Given Hastings' ongoing capital-intensive Yangibana rare earths project and historically tight cash position, the halt likely signals an equity raising or strategic partnership to fund development — investors should watch for dilution risk.",
+        "The halt suspends trading pending an announcement; institutional investors should monitor for details on pricing, structure, and any strategic implications for the broader rare earths sector and Hastings' project timeline."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CHW",
+      "company": "CHILWA MINERALS LTD",
+      "headline": "Mpyupyu Doubles to 109.6 Mt, 89% Measured & Indicated",
+      "time": "2026-06-18T23:14:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101820-6A1330109",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mpyupyu resource doubles to 109.6 Mt with 89% in the higher-confidence Measured & Indicated categories, significantly de-risking the deposit and strengthening the project's bankability for future feasibility studies.",
+        "The substantial upgrade from ~55 Mt to 109.6 Mt represents a transformational increase in resource scale, potentially improving project economics through longer mine life and enhanced economies of scale for any development scenario.",
+        "With the majority of tonnage now classified as Measured & Indicated, Chilwa Minerals is well-positioned to advance toward pre-feasibility or definitive feasibility studies, with the upgraded resource likely to attract greater institutional and strategic partner interest."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AL3",
+      "company": "AML3D LIMITED",
+      "headline": "First ARCEMY Operation at Largest US Military Shipbuilder",
+      "time": "2026-06-18T23:11:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101812-6A1330106",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AML3D has commenced first ARCEMY wire-arc additive manufacturing operations at Huntington Ingalls Industries (HII), the largest US military shipbuilder, representing a significant validation of the company's technology by a Tier-1 US defense prime contractor.",
+        "Operational deployment at HII signals potential for recurring revenue streams through consumables, service contracts, and additional unit orders as the technology is integrated into naval shipbuilding workflows — a market with substantial long-term defense budget tailwinds.",
+        "This milestone de-risks AML3D's US defense market penetration strategy and could serve as a catalyst for broader adoption across the US Navy's industrial base, positioning the company for follow-on contracts and potential scale-up in a sector where supply chain resilience is a national priority."
+      ],
+      "tags": [
+        "Technology",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ASM",
+      "company": "AUSTRALIAN STRATEGIC MATERIALS LIMITED",
+      "headline": "Postponement of Scheme Meetings",
+      "time": "2026-06-18T23:10:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101810-6A1330090",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Strategic Materials has postponed its scheme meetings, signaling potential complications or renegotiation in an ongoing M&A process that introduces uncertainty for shareholders awaiting a transaction outcome.",
+        "Postponement of scheme meetings is often indicative of regulatory hurdles, insufficient shareholder support, or revised deal terms — any of which could materially alter the implied valuation or deal certainty premium currently embedded in the share price.",
+        "Investors should monitor for updated scheme documentation, revised timelines, or potential changes to deal consideration; prolonged delays increase execution risk and may erode the market's confidence in deal completion."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TAR",
+      "company": "TARUGA MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-18T23:10:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101809-6A1330108",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Taruga Minerals has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant exploration update for this junior explorer.",
+        "As a micro-cap minerals explorer, any capital raise associated with this halt would likely be dilutive to existing shareholders, given the company's limited revenue base and reliance on equity funding.",
+        "Investors should await the detailed announcement expected within two business days to assess the nature and materiality of the news before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "M2M",
+      "company": "MT MALCOLM MINES NL",
+      "headline": "Placement of Entitlement Offer Shortfall",
+      "time": "2026-06-18T23:10:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101808-6A1330107",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Mt Malcolm Mines has placed the shortfall from its entitlement offer, indicating existing shareholders did not fully subscribe, requiring the company to find alternative investors to complete the capital raise.",
+        "Placement of the shortfall ensures the company secures the full targeted raise amount, bolstering near-term cash runway for exploration and operational activities, though it signals limited enthusiasm from the existing shareholder base.",
+        "The additional dilution from shortfall placement may weigh on near-term share price, but successful completion removes funding uncertainty and provides capital to advance the company's mining projects."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BUY",
+      "company": "BOUNTY OIL & GAS NL",
+      "headline": "PEP11 UPDATE",
+      "time": "2026-06-18T23:09:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101807-2A1678118",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PEP11 permit update signals ongoing regulatory or operational progress for Bounty Oil & Gas's key offshore Sydney Basin exploration asset, a permit that has been subject to prolonged government approval uncertainty.",
+        "PEP11 represents a potentially transformative exploration opportunity with significant gas resources offshore NSW; any positive movement on permit renewal or work program approval would materially re-rate the stock given its micro-cap status.",
+        "Investors should monitor whether this update confirms advancement toward drilling or seismic activity, as further delays or permit rejection would likely erode remaining market confidence in the company's core exploration thesis."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GT3",
+      "company": "GREEN360 TECHNOLOGIES LIMITED",
+      "headline": "G360 Expands Cement Platform",
+      "time": "2026-06-18T23:09:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101806-6A1330110",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GREEN360 Technologies is expanding its cement platform, signaling strategic growth ambitions in the building materials/green technology space that could open new revenue streams and market opportunities.",
+        "Platform expansion suggests the company is moving beyond initial proof-of-concept toward commercialization, a critical inflection point for micro-cap technology companies — investors should watch for details on capital requirements, partnership structures, and expected revenue timelines.",
+        "For a small-cap ASX-listed company, the market-sensitive designation indicates management views this as material to valuation; key next steps include monitoring execution capability, customer pipeline development, and whether additional capital raising will be needed to fund the expansion."
+      ],
+      "tags": [
+        "Technology",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MAP",
+      "company": "MICROBA LIFE SCIENCES LIMITED",
+      "headline": "Disclosure Document - Prospectus",
+      "time": "2026-06-18T23:09:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101805-2A1678168",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Microba Life Sciences has lodged a prospectus, signaling an imminent capital raise that will dilute existing shareholders but extend the company's cash runway — critical for a pre-profit life sciences company.",
+        "The prospectus filing as a market-sensitive announcement suggests material new equity issuance; investors should watch for offer size, pricing discount, and use-of-proceeds details to assess dilution impact and strategic rationale.",
+        "Proceeds are likely earmarked for advancing Microba's microbiome diagnostics and therapeutics pipeline, with the capital raise providing operational funding but introducing near-term selling pressure on the stock."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CVV",
+      "company": "CARAVEL MINERALS LIMITED",
+      "headline": "Updated Ore Reserve - Caravel Copper Project",
+      "time": "2026-06-18T23:04:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101803-6A1330105",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Caravel Minerals has released an updated Ore Reserve for its flagship Caravel Copper Project, signaling advancement in project development maturity and potentially de-risking the asset for future financing and offtake discussions.",
+        "An updated reserve estimate typically reflects refined geological modelling, optimized mine planning, and current commodity price assumptions — institutional investors should scrutinize changes in contained copper tonnes, grade, strip ratio, and cut-off grade versus the prior reserve for material valuation impacts.",
+        "The market-sensitive classification suggests meaningful changes to reserve parameters; this update positions Caravel closer to a potential Definitive Feasibility Study completion or project financing milestone, which are key catalysts for re-rating in the pre-development copper space."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TEG",
+      "company": "TRIANGLE ENERGY (GLOBAL) LIMITED",
+      "headline": "Onshore Perth Basin Update",
+      "time": "2026-06-18T23:01:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101797-6A1330104",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Triangle Energy provides an operational update on its onshore Perth Basin assets, a market-sensitive disclosure signaling material developments in its core exploration or production activities in Western Australia.",
+        "Perth Basin updates are closely watched given the region's emerging significance for domestic gas supply; any progress on drilling, flow testing, or resource upgrades could materially re-rate Triangle's valuation given its small-cap status and leveraged exposure to basin success.",
+        "Investors should monitor for specifics on well results, production rates, or farm-in/farm-out arrangements that could extend cash runway or de-risk the asset base, with near-term catalysts likely tied to operational milestones and partner activity."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "XRG",
+      "company": "XREALITY GROUP LTD",
+      "headline": "Operator XR signs MOU with Thales Australia",
+      "time": "2026-06-18T22:59:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101795-2A1678159",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "XReality Group's subsidiary Operator XR has signed a Memorandum of Understanding with Thales Australia, a major global defence and technology contractor, signaling potential entry into high-value defence/government supply chains and lending significant credibility to the company's XR technology platform.",
+        "For a micro-cap like XReality Group, an MOU with a Tier-1 defence prime such as Thales (part of the €18B+ revenue Thales Group) represents a transformative partnership opportunity, though MOUs are non-binding and no revenue or contract value has been disclosed — investors should temper expectations until definitive agreements materialise.",
+        "Key next steps will be conversion of the MOU into binding commercial agreements with defined scope, timelines, and revenue terms; successful execution could open doors to broader defence and critical infrastructure applications across Australia and allied nations under AUKUS-aligned procurement frameworks."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "UM1",
+      "company": "UNITY METALS LIMITED",
+      "headline": "Rohav Mountain Gold Mineralisation Strengthening",
+      "time": "2026-06-18T22:56:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101792-6A1330101",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Unity Metals reports strengthening gold mineralisation at Rohav Mountain, suggesting improving geological confidence and potential resource upside at this exploration-stage project.",
+        "The market-sensitive designation indicates material new assay results or geological data that could meaningfully re-rate the project's prospectivity and influence near-term valuation for this micro-cap explorer.",
+        "Continued positive exploration momentum could support future capital raising efforts and accelerate the pathway toward a maiden or upgraded resource estimate, though investors should monitor cash position given ongoing exploration expenditure."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NSM",
+      "company": "NORTH STAWELL MINERALS LTD",
+      "headline": "AIG Victoria Round-Up Presentation",
+      "time": "2026-06-18T22:56:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101791-6A1330100",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "North Stawell Minerals presenting at AIG Victoria Round-Up, a key industry forum that increases visibility among institutional and technical audiences for its gold exploration assets in the Stawell Corridor.",
+        "Presentation likely showcases latest exploration results and geological models at the Stawell Gold Corridor project, reinforcing the company's thesis on prospectivity adjacent to the historic Stawell Gold Mine.",
+        "Market-sensitive designation suggests the presentation may contain new or material technical data not previously disclosed, potentially catalysing renewed investor interest in the junior gold explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EQR",
+      "company": "EQ RESOURCES LIMITED",
+      "headline": "Barruecopardo Commences Drilling to Support Resource Growth",
+      "time": "2026-06-18T22:55:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101787-2A1678153",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EQ Resources has commenced a drilling program at its Barruecopardo tungsten mine in Spain, targeting resource growth beyond the current mine plan to extend mine life and support long-term production sustainability.",
+        "The drilling campaign is strategically significant as Barruecopardo is one of the few operating tungsten mines in the Western world, positioning EQR to benefit from critical minerals demand amid supply chain diversification away from China.",
+        "Successful resource expansion could materially enhance the project's NPV and underpin future financing or offtake negotiations, with results expected to feed into updated resource estimates in coming quarters."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HYD",
+      "company": "HYDRIX LIMITED",
+      "headline": "Reinstatement of security class- HYDOC",
+      "time": "2026-06-18T22:53:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101785-3A695624",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX has reinstated trading in Hydrix Limited's HYDOC security class, indicating the company has satisfied outstanding compliance or disclosure requirements that previously led to suspension.",
+        "Reinstatement of the specific HYDOC class (likely convertible notes or options) restores liquidity for holders of that instrument, which is critical for investors managing exposure or seeking to exit positions.",
+        "Investors should monitor whether the reinstatement signals resolution of broader corporate governance or financial reporting issues, and assess any updated disclosures for implications on Hydrix's cash runway and operational outlook."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "14D",
+      "company": "1414 DEGREES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-18T22:51:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101784-2A1678154",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "1414 Degrees has entered a trading halt, typically preceding a material announcement such as a capital raise, asset transaction, or significant corporate development for this energy storage technology company.",
+        "As a micro-cap with historically constrained cash runway, any trading halt raises immediate questions about potential equity dilution via capital raise or a transformative corporate action.",
+        "Investors should await the pending announcement before repositioning; the halt signals imminent material news that will likely reset the stock's near-term valuation trajectory."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APA",
+      "company": "APA GROUP",
+      "headline": "APA Estimated Final Distribution",
+      "time": "2026-06-18T22:45:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101781-2A1678150",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "APA Group has announced its estimated final distribution for the period, providing visibility on income returns for unitholders ahead of the formal record and payment dates.",
+        "As a market-sensitive update, the estimated distribution figure signals management's confidence in cash flow generation from APA's regulated and contracted energy infrastructure portfolio, reinforcing its yield appeal for income-focused institutional investors.",
+        "Investors should monitor the confirmed distribution amount, any tax-deferred component details, and forward guidance on distribution sustainability given APA's ongoing capex program and regulatory resets across its gas pipeline network."
+      ],
+      "tags": [
+        "Dividend",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXC",
+      "company": "DEXUS CONVENIENCE RETAIL REIT",
+      "headline": "Portfolio valuation and buy-back update",
+      "time": "2026-06-18T22:45:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101780-3A695623",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Portfolio valuation update signals potential write-down or revaluation of convenience retail assets, directly impacting NTA per unit and investor sentiment in the retail REIT sector",
+        "On-market buy-back update indicates management views units as trading below intrinsic value, with capital being deployed to support unit price and enhance per-unit metrics for remaining holders",
+        "Combined disclosure of valuation and buy-back suggests management is proactively managing balance sheet optics ahead of reporting season, with investors needing to assess cap rate movements and gearing implications"
+      ],
+      "tags": [
+        "Property",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZNC",
+      "company": "ZENITH MINERALS LIMITED",
+      "headline": "Notice of change of interests of substantial holder from FRS",
+      "time": "2026-06-18T22:43:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101779-6A1330095",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "FRS (likely a substantial holder) has filed a change of interest notice in Zenith Minerals, signaling a shift in ownership dynamics that institutional investors should monitor for potential strategic positioning or portfolio rebalancing.",
+        "The notice is classified as not market sensitive, suggesting the change in holding is incremental rather than a major acquisition or disposal that would materially alter the company's shareholder register or control dynamics.",
+        "Investors should track whether this forms part of a broader accumulation or divestment pattern by FRS, as sustained directional changes in substantial holder positions can foreshadow corporate activity or shifts in market confidence for junior miners like Zenith."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AR1",
+      "company": "AUSTRAL RESOURCES AUSTRALIA LTD",
+      "headline": "Significant Copper Oxide System Confirmed Near Mt Kelly",
+      "time": "2026-06-18T22:42:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101775-2A1678149",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Austral Resources has confirmed a significant copper oxide system near its existing Mt Kelly processing infrastructure, potentially reducing capital expenditure requirements for future development by leveraging proximity to established heap leach and SX-EW facilities.",
+        "The discovery of a substantial oxide copper system adds to the company's resource pipeline in the Mt Isa copper corridor, which could materially enhance the project's mine life and production profile if grades and tonnages prove economic in upcoming resource estimates.",
+        "Next steps will likely involve follow-up drilling to define the extent and grade of the oxide mineralisation, with results expected to feed into updated resource estimates — a key catalyst for re-rating given the company's strategy to restart copper production from oxide ores."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DXC",
+      "company": "DEXUS CONVENIENCE RETAIL REIT",
+      "headline": "Dividend/Distribution - DXC",
+      "time": "2026-06-18T22:41:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101774-3A695622",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Dexus Convenience Retail REIT (DXC) has announced a distribution, signaling continued income delivery to unitholders from its portfolio of fuel and convenience retail assets across Australia.",
+        "As a market-sensitive dividend announcement, the distribution level will be closely scrutinized by institutional investors for signals on underlying rental income stability, occupancy rates, and payout sustainability relative to funds from operations (FFO).",
+        "Investors should monitor the ex-distribution date, payment timeline, and whether the distribution per unit is maintained, increased, or reduced compared to prior periods, as any change would directly impact yield-based valuation and trading sentiment for this defensive REIT."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "DXI",
       "company": "DEXUS INDUSTRIA REIT.",
