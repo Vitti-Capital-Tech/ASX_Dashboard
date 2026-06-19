@@ -1,9 +1,275 @@
 {
   "date": "2026-06-19",
-  "total": 46,
-  "market_sensitive_count": 39,
-  "generated_at": "2026-06-18T23:34:51.246283+00:00",
+  "total": 60,
+  "market_sensitive_count": 53,
+  "generated_at": "2026-06-19T00:14:08.436206+00:00",
   "announcements": [
+    {
+      "ticker": "RCT",
+      "company": "REEF CASINO TRUST",
+      "headline": "Estimated distribution for the 6 months ending 30 June 2026",
+      "time": "2026-06-19T00:09:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101885-2A1678211",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reef Casino Trust has provided an estimated distribution for the six months ending 30 June 2026, signaling management confidence in forward cash flow visibility from the Cairns casino operations.",
+        "The pre-announcement of an estimated distribution is a positive signal for income-focused unitholders, as it provides early guidance on expected yield and suggests stable or improving operational performance at the Reef Hotel Casino.",
+        "Investors should monitor the final distribution announcement closer to the record date for any variance from the estimate, as well as underlying gaming revenue trends in the North Queensland tourism market which drive distributable income."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CNI",
+      "company": "CENTURIA CAPITAL GROUP",
+      "headline": "June 2026 Final Distribution Declaration",
+      "time": "2026-06-19T00:05:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101883-2A1678209",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Centuria Capital Group has declared its final distribution for the period ending June 2026, signaling confidence in forward earnings visibility and commitment to returning capital to unitholders across its diversified real estate platform.",
+        "The declaration of a final distribution provides clarity on FY26 income returns, a key metric for institutional investors benchmarking Centuria's yield against REIT peers and assessing payout sustainability relative to funds from operations.",
+        "As a forward-dated declaration (June 2026), this announcement locks in distribution guidance well in advance, suggesting management has strong conviction in underlying rental income streams and portfolio cash flow stability over the coming period."
+      ],
+      "tags": [
+        "Dividend",
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RCT",
+      "company": "REEF CASINO TRUST",
+      "headline": "Dividend/Distribution - RCT",
+      "time": "2026-06-19T00:04:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101882-2A1678207",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Reef Casino Trust has declared a distribution, signaling continued cash generation from its Cairns casino operations and commitment to returning capital to unitholders.",
+        "As a yield-focused trust, the distribution announcement reinforces RCT's income appeal; investors should compare the implied yield against prior periods to assess whether gaming revenues are trending up or stabilising post-COVID recovery.",
+        "Market-sensitive classification suggests the distribution quantum may differ from consensus expectations — unitholders should review the ex-date and record date for portfolio positioning and franking/tax-deferred composition for after-tax return optimisation."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BPH",
+      "company": "BPH ENERGY LTD",
+      "headline": "PEP11 Update",
+      "time": "2026-06-19T00:01:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101878-6A1330138",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BPH Energy has released a market-sensitive update on PEP11 (Petroleum Exploration Permit 11), a highly contested offshore Sydney Basin gas exploration permit that has been a key catalyst for the stock's speculative interest.",
+        "Any advancement in PEP11 permitting or exploration activity would be material for BPH given the company's micro-cap status and limited alternative revenue streams, making the permit's status a binary risk event for shareholders.",
+        "Investors should monitor whether the update signals regulatory progress toward drilling approval or further delays, as PEP11's path forward remains subject to federal government decision-making and joint venture partner alignment."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CNI",
+      "company": "CENTURIA CAPITAL GROUP",
+      "headline": "Dividend/Distribution - CNI",
+      "time": "2026-06-19T00:01:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101877-2A1678205",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Centuria Capital Group (CNI) has declared a dividend/distribution, signaling continued commitment to returning capital to unitholders amid a challenging commercial real estate environment.",
+        "As a diversified real estate fund manager with significant office and industrial exposure, the distribution announcement provides visibility on CNI's cash flow generation and payout sustainability — a key metric for REIT-focused institutional investors.",
+        "Investors should monitor the distribution quantum, payout ratio relative to operating earnings (FFO/AFFO), and any accompanying guidance commentary to assess whether CNI is maintaining, growing, or trimming distributions in the current rate cycle."
+      ],
+      "tags": [
+        "Dividend",
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JLL",
+      "company": "JINDALEE LITHIUM LIMITED",
+      "headline": "Security Class Reinstatement to Quotation - JLLOB",
+      "time": "2026-06-18T23:56:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101875-6A1330137",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "JLLOB securities (likely options) reinstated to quotation on ASX, restoring trading liquidity for this security class after a period of suspension or administrative hold.",
+        "Reinstatement is typically procedural, following satisfaction of ASX compliance requirements or completion of a corporate action such as a capital raise or restructuring that temporarily halted trading in the specific security class.",
+        "For Jindalee Lithium holders, the reinstatement enables price discovery and liquidity for JLLOB instruments, though the underlying lithium exploration story and cash runway remain the key fundamental drivers to monitor."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KNG",
+      "company": "KINGSLAND MINERALS LTD",
+      "headline": "TOV: KNG - Panel Declines to Conduct Proceedings",
+      "time": "2026-06-18T23:51:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101872_PS-6A1330136",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Takeovers Panel has declined to conduct proceedings regarding Kingsland Minerals (KNG), effectively resolving the dispute raised by TOV (likely a competing bidder or substantial holder) without intervention, removing a key overhang on the stock.",
+        "The Panel's decision not to intervene suggests the current transaction or corporate action involving KNG was deemed compliant with takeover regulations, providing regulatory clarity and reducing deal uncertainty for shareholders.",
+        "With the Panel proceedings now resolved, focus shifts back to the underlying M&A or corporate activity involving KNG — investors should monitor for any revised offers, updated timelines, or further strategic developments."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MMR",
+      "company": "MEC RESOURCES LIMITED",
+      "headline": "PEP11 Update - Federal Court Judgement",
+      "time": "2026-06-18T23:50:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101867-6A1330132",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Federal Court judgment on PEP11 (offshore Sydney Basin petroleum exploration permit) represents a critical legal milestone that could determine whether the permit remains active or is effectively terminated, directly impacting MEC Resources' core asset value.",
+        "MEC Resources holds indirect exposure to PEP11 through its investment in Advent Energy; any favorable court ruling preserving the permit's validity would materially re-rate the company given PEP11 is its primary value driver in a micro-cap structure with limited other revenue-generating assets.",
+        "Investors should monitor whether the judgment enables progression toward drilling activity or imposes further regulatory/legal hurdles — the outcome will dictate near-term capital raising requirements and strategic direction for the company."
+      ],
+      "tags": [
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPY",
+      "company": "STATE STREET SPDR S&P 500 ETF",
+      "headline": "Distribution Rate Announcement",
+      "time": "2026-06-18T23:44:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101862-2A1678193",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "State Street has announced the distribution rate for its SPDR S&P 500 ETF (SPY), a market-sensitive update that signals upcoming cash returns to unitholders tracking the benchmark US large-cap index.",
+        "Distribution announcements for SPY on the ASX reflect underlying dividend flows from S&P 500 constituents, providing a key income signal for Australian-domiciled investors with USD-denominated exposure and potential franking/withholding tax implications.",
+        "Investors should monitor the ex-distribution and payment dates closely, as the announcement may drive short-term trading activity around the record date and influence demand dynamics for the ASX-listed ETF relative to its US-listed equivalent."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JLL",
+      "company": "JINDALEE LITHIUM LIMITED",
+      "headline": "Entitlement Offer Raises A$2.4 Million",
+      "time": "2026-06-18T23:43:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101861-6A1330130",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Jindalee Lithium completed a non-renounceable entitlement offer raising A$2.4 million, providing near-term funding for its lithium exploration and development activities amid a challenging lithium market environment.",
+        "The relatively modest A$2.4 million raise signals constrained investor appetite and implies meaningful dilution for a junior explorer, likely reflecting subdued lithium sentiment and limited near-term catalysts.",
+        "Proceeds will extend cash runway but the small raise size suggests the company may need to return to capital markets in the medium term if lithium prices remain depressed, keeping dilution risk elevated for existing shareholders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AX8",
+      "company": "ACCELERATE RESOURCES LIMITED",
+      "headline": "Follow up Drilling Commences at Spencers Gold Discovery",
+      "time": "2026-06-18T23:40:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101859-6A1330128",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Accelerate Resources has commenced follow-up drilling at its Spencers Gold Discovery, signaling confidence in the initial results and commitment to advancing the project toward resource definition.",
+        "The commencement of follow-up drilling suggests prior exploration returned sufficiently encouraging gold intercepts to justify further capital deployment, a positive de-risking signal for this early-stage explorer.",
+        "Investors should watch for assay results from this drilling program as a key near-term catalyst that could materially re-rate the stock if high-grade or wide gold intercepts are confirmed at depth or along strike."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PHO",
+      "company": "PHOSCO LTD",
+      "headline": "A$1.1M Cash Received from EBRD",
+      "time": "2026-06-18T23:39:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101857-3A695631",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Phosco received A$1.1M cash payment from the European Bank for Reconstruction and Development (EBRD), providing a meaningful near-term liquidity injection for the micro-cap company and validating its relationship with a major multilateral development institution.",
+        "The EBRD payment likely relates to project-related milestones or contractual obligations, signaling progress on Phosco's operational activities and reducing near-term funding uncertainty for the company.",
+        "The cash receipt strengthens Phosco's balance sheet and extends cash runway, potentially reducing the need for near-term dilutive capital raises and supporting continued project development activities."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CHR",
+      "company": "CHARGER METALS NL",
+      "headline": "Charger to sell 100% of the Bynoe Lithium Project",
+      "time": "2026-06-18T23:39:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101856-6A1330126",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Charger Metals is divesting its 100% interest in the Bynoe Lithium Project, signaling a strategic portfolio rationalization amid a challenging lithium price environment where junior explorers struggle to fund non-core assets.",
+        "The sale will generate cash proceeds (terms to be confirmed) that could extend Charger's cash runway and allow reallocation of capital toward its higher-priority exploration assets, reducing ongoing holding and compliance costs for the Bynoe tenements.",
+        "The divestment reflects broader ASX lithium sector consolidation trends; investors should monitor the sale price relative to book value and any conditions precedent, as well as how proceeds are deployed — whether toward exploration, working capital, or debt reduction."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACF",
+      "company": "ACROW LIMITED",
+      "headline": "Completion of fully underwritten $70m two-tranche placement",
+      "time": "2026-06-18T23:39:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101855-6A1330120",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Acrow completed a fully underwritten $70m two-tranche placement, providing significant capital for strategic growth initiatives — the fully underwritten nature signals strong institutional demand and underwriter confidence in the company's outlook.",
+        "A $70m raise for a company of Acrow's size represents material dilution for existing shareholders, though the two-tranche structure (likely splitting pre and post-shareholder approval) helps manage immediate dilutive impact on the register.",
+        "Proceeds are expected to fund acquisition-led growth or balance sheet strengthening in Acrow's formwork and scaffolding operations, positioning the company to capitalize on the robust Australian infrastructure pipeline — investors should watch for deployment details and any associated M&A announcements."
+      ],
+      "tags": [
+        "Capital Raise"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "MAN",
       "company": "MANDRAKE RESOURCES LIMITED",
