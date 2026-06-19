@@ -1,9 +1,103 @@
 {
   "date": "2026-06-19",
-  "total": 69,
-  "market_sensitive_count": 62,
-  "generated_at": "2026-06-19T01:59:36.586854+00:00",
+  "total": 74,
+  "market_sensitive_count": 64,
+  "generated_at": "2026-06-19T03:25:11.181881+00:00",
   "announcements": [
+    {
+      "ticker": "ERM",
+      "company": "EMMERSON RESOURCES LIMITED",
+      "headline": "Court Approves Scheme",
+      "time": "2026-06-19T03:14:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101948-6A1330165",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Federal Court has approved the scheme of arrangement for Emmerson Resources, removing the final major legal hurdle for the acquisition to proceed — a key de-risking event for shareholders awaiting deal completion.",
+        "Court approval signals high certainty of transaction closure, meaning shareholders can expect to receive the scheme consideration at the agreed price, effectively placing a floor under the stock at deal terms.",
+        "Next steps involve lodgement of the court order with ASIC, setting the effective date, followed by the record date and implementation date when scheme consideration will be paid — investors should monitor for any residual conditions precedent or regulatory approvals still outstanding."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RSG",
+      "company": "RESOLUTE MINING LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-19T02:49:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101939-6A1330161",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Resolute Mining Limited, crossing the 5% ownership threshold, signaling growing institutional or strategic interest in the gold miner.",
+        "The accumulation of a substantial position may reflect confidence in Resolute's operational trajectory, particularly given its African gold mining assets and recent corporate developments including the resolution of its Mali tax dispute.",
+        "Investors should monitor whether this stake represents a passive investment or a precursor to further accumulation, potential board engagement, or strategic activity that could influence Resolute's corporate direction."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CLW",
+      "company": "CHARTER HALL LONG WALE REIT",
+      "headline": "Dividend/Distribution - CLW",
+      "time": "2026-06-19T02:42:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101934-2A1678228",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Charter Hall Long WALE REIT has declared a distribution, signaling continued income delivery consistent with its long-weighted average lease expiry portfolio strategy, reinforcing its appeal to yield-focused institutional investors.",
+        "The market-sensitive classification suggests the distribution amount or terms may contain new information — potentially a change in payout level, franking, or DRP pricing that could shift yield expectations for CLW unitholders.",
+        "Investors should assess the distribution per unit relative to prior periods and FY guidance to determine whether CLW is tracking in-line, above, or below consensus, with implications for forward yield spread versus peers in the A-REIT sector."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SXE",
+      "company": "SOUTHERN CROSS ELECTRICAL ENGINEERING LTD",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-19T02:39:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101932-6A1330157",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Southern Cross Electrical Engineering (SXE), crossing the 5% threshold, signaling growing institutional or strategic interest in the electrical engineering contractor.",
+        "The accumulation of a substantial position suggests confidence in SXE's outlook, potentially driven by the company's exposure to infrastructure and energy project pipelines across Australia.",
+        "Investors should monitor whether this stake continues to build toward a potential takeover approach or remains a passive investment; further substantial holder notices would confirm directional intent."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SRH",
+      "company": "SAFEROADS HOLDINGS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-19T02:03:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101926-3A695643",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in Saferoads Holdings Limited, signaling active portfolio repositioning by a significant shareholder that institutional investors should monitor for directional intent.",
+        "The nature of the change (increase or decrease) will determine whether this reflects growing conviction in Saferoads' outlook or a strategic exit — either scenario carries implications for liquidity and free float dynamics in this micro-cap name.",
+        "As a procedural filing with no market-sensitive designation, the immediate price impact is limited, but investors should track subsequent filings for patterns of accumulation or distribution that may precede corporate activity."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ADR",
       "company": "ADHERIUM LIMITED",
