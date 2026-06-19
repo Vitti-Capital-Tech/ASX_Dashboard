@@ -1,9 +1,47 @@
 {
   "date": "2026-06-19",
-  "total": 67,
-  "market_sensitive_count": 60,
-  "generated_at": "2026-06-19T00:56:19.918991+00:00",
+  "total": 69,
+  "market_sensitive_count": 62,
+  "generated_at": "2026-06-19T01:59:36.586854+00:00",
   "announcements": [
+    {
+      "ticker": "ADR",
+      "company": "ADHERIUM LIMITED",
+      "headline": "Results of Extraordinary General Meeting",
+      "time": "2026-06-19T01:01:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101916-3A695639",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Adherium's Extraordinary General Meeting results are market sensitive, suggesting key resolutions were voted on that could materially impact the company's direction, likely involving capital structure changes or strategic transactions.",
+        "As a micro-cap digital health company with limited revenue, any EGM resolutions approving share issuances or capital raises would be significant given the likely tight cash runway and potential dilution to existing shareholders.",
+        "Investors should monitor whether approved resolutions enable near-term capital raising or strategic partnerships that extend operational runway, as execution on these mandates will be critical for the company's viability."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AIS",
+      "company": "AERIS RESOURCES LIMITED",
+      "headline": "Peel Mining Scheme of Arrangement Approved by Court",
+      "time": "2026-06-19T01:01:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101915-6A1330146",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Court approval of the Scheme of Arrangement for Peel Mining acquisition removes the final regulatory hurdle, clearing the path for Aeris Resources to consolidate ownership and integrate Peel's copper-gold assets in the Cobar region of NSW.",
+        "Completion of the Peel Mining acquisition is expected to be accretive for Aeris by expanding its resource base and production pipeline, enhancing scale efficiencies across its multi-asset copper portfolio and strengthening its competitive positioning among mid-tier ASX copper producers.",
+        "With court approval secured, the scheme is expected to be implemented imminently — investors should watch for the effective date, share issuance mechanics, and management's updated guidance on combined production targets and synergy realisation timelines."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AGE",
       "company": "ALLIGATOR ENERGY LIMITED",
