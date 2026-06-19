@@ -1,9 +1,142 @@
 {
   "date": "2026-06-19",
-  "total": 60,
-  "market_sensitive_count": 53,
-  "generated_at": "2026-06-19T00:14:08.436206+00:00",
+  "total": 67,
+  "market_sensitive_count": 60,
+  "generated_at": "2026-06-19T00:56:19.918991+00:00",
   "announcements": [
+    {
+      "ticker": "AGE",
+      "company": "ALLIGATOR ENERGY LIMITED",
+      "headline": "Samphire Resource Increases By 67%",
+      "time": "2026-06-19T00:54:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101908-2A1678221",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Samphire uranium resource increased by 67%, a material upgrade that significantly enhances the project's scale and strengthens Alligator Energy's position in the uranium exploration/development space.",
+        "A resource increase of this magnitude typically improves project economics and could attract strategic interest, particularly given the constructive uranium price environment and growing demand for nuclear energy globally.",
+        "The upgraded resource positions the company for potential advancement toward feasibility studies or further delineation drilling, with the larger resource base potentially de-risking future development decisions and improving the asset's attractiveness for offtake or partnership discussions."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AGE",
+      "company": "ALLIGATOR ENERGY LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-06-19T00:45:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101903-2A1678220",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alligator Energy issued a standard ASX price query response, typically triggered by unusual share price or volume movements, indicating the exchange is seeking clarification on whether the company is aware of any undisclosed material information driving recent trading activity.",
+        "Price queries for junior uranium/energy explorers like Alligator Energy often coincide with speculative trading around commodity price movements or project developments; the response itself is procedural but flags heightened market attention on the stock.",
+        "Investors should monitor for any subsequent material announcements that may follow the price query, as companies occasionally release previously undisclosed information or accelerate disclosure timelines in response to ASX scrutiny."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CQT",
+      "company": "CONNEQT HEALTH LIMITED",
+      "headline": "CONNEQT Completes $5.5m Placement",
+      "time": "2026-06-19T00:43:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101900-2A1678171",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "CONNEQT Health completed a $5.5 million placement, providing near-term capital to fund growth initiatives but introducing dilution for existing shareholders at what is likely a discount to the prevailing market price.",
+        "The $5.5m raise is modest in scale, suggesting the company is funding specific operational milestones or bridging to revenue inflection rather than undertaking a transformational capital event.",
+        "Investors should monitor for a potential Share Purchase Plan (SPP) to follow, use-of-funds disclosure, and whether the placement pricing signals institutional confidence or reflects constrained funding options for this healthcare-stage company."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GDI",
+      "company": "GDI PROPERTY GROUP",
+      "headline": "Dividend/Distribution - GDI",
+      "time": "2026-06-19T00:34:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101895-2A1678216",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "GDI Property Group has declared a dividend/distribution, signaling continued commitment to returning capital to unitholders and maintaining its income-focused REIT strategy amid a challenging office property market.",
+        "The market-sensitive classification suggests the distribution level may represent a material change from prior periods — investors should compare the per-unit amount and payout ratio against recent halves to assess whether earnings coverage is tightening or stable.",
+        "Sustained distributions support GDI's yield proposition and may underpin near-term price support, though the outlook hinges on office occupancy trends across its Perth and Brisbane-weighted portfolio and any capital management initiatives."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PEX",
+      "company": "PEEL MINING LIMITED",
+      "headline": "Court approves Scheme of Arrangement",
+      "time": "2026-06-19T00:20:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101891-6A1330141",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Federal Court has approved the Scheme of Arrangement for Peel Mining, clearing the final major legal hurdle for the acquisition to proceed — this effectively locks in the transaction for shareholders.",
+        "Court approval signals near-certain deal completion, meaning PEX shareholders can expect to receive the scheme consideration imminently, removing deal-risk discount from the stock.",
+        "Next steps involve lodgement of the court order with ASIC, scheme implementation date, and delisting — investors should prepare for liquidity to cease as the register closes and shares are transferred to the acquirer."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IG6",
+      "company": "INTERNATIONAL GRAPHITE LIMITED",
+      "headline": "Successful Placement Accelerates Operations",
+      "time": "2026-06-19T00:18:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101888-6A1330102",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "International Graphite completed a successful placement, raising capital to accelerate operational activities across its graphite development pipeline, signaling strong investor appetite despite challenging junior mining market conditions.",
+        "The capital raise introduces dilution for existing shareholders, though the funds are earmarked for operational acceleration rather than survival funding, suggesting the company is advancing toward production milestones rather than merely extending cash runway.",
+        "Proceeds will be directed toward advancing the company's integrated graphite mining and processing strategy, with the placement positioning IG to progress key development workstreams and potentially de-risk the project ahead of future financing events."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EOS",
+      "company": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+      "headline": "RWS order (US$124m) and UAE JV laser & RWS",
+      "time": "2026-06-19T00:15:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03101887-2A1678212",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EOS secures a US$124m (~A$195m) Remote Weapon Station (RWS) order, representing a transformative contract win that significantly bolsters the company's defence order book and provides substantial near-term revenue visibility for a company with a market cap under A$500m.",
+        "Establishment of a UAE joint venture for laser and RWS systems signals strategic international expansion into a high-spending Middle Eastern defence market, potentially unlocking recurring revenue streams and positioning EOS as a preferred regional partner for advanced directed energy and weapons systems.",
+        "Combined, these announcements materially de-risk EOS's cash runway and operational outlook, likely triggering upward earnings revisions and reinforcing the company's pivot from a loss-making trajectory toward sustained profitability in its defence segment."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "RCT",
       "company": "REEF CASINO TRUST",
