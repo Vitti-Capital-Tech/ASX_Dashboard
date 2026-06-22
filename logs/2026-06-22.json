@@ -1,9 +1,123 @@
 {
   "date": "2026-06-22",
-  "total": 108,
-  "market_sensitive_count": 98,
-  "generated_at": "2026-06-22T00:50:51.083731+00:00",
+  "total": 114,
+  "market_sensitive_count": 102,
+  "generated_at": "2026-06-22T01:52:57.573670+00:00",
   "announcements": [
+    {
+      "ticker": "TOT",
+      "company": "360 CAPITAL REIT",
+      "headline": "Dividend/Distribution - TOT",
+      "time": "2026-06-22T01:38:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102474-2A1678478",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "360 Capital REIT (TOT) has declared a distribution, confirming continued income returns to unitholders — critical for yield-focused investors assessing the trust's ability to sustain distributions amid a challenging commercial property environment with elevated interest rates compressing cap rates.",
+        "The market-sensitive classification signals the distribution quantum or timing may deviate materially from prior guidance or consensus expectations, warranting close scrutiny of the cents-per-unit figure relative to the prior period and any accompanying payout ratio or earnings coverage commentary.",
+        "With Australian REITs under ongoing pressure from refinancing risk and asset revaluations, the sustainability of this distribution will hinge on TOT's underlying funds from operations (FFO) coverage and gearing metrics — investors should monitor any accompanying NTA update or debt facility disclosures for forward distribution risk signals."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ESK",
+      "company": "ETHERSTACK PLC",
+      "headline": "North American Equipment Order",
+      "time": "2026-06-22T01:37:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102473-2A1678477",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Etherstack has secured a new equipment order from a North American customer, signalling continued commercial traction in one of its key target markets — critical for a small-cap technology company needing to demonstrate repeatable revenue generation beyond its core waveform licensing business.",
+        "The market-sensitive classification suggests the order is material in size relative to Etherstack's revenue base; investors should watch for disclosed contract value and delivery timelines as indicators of near-term revenue recognition and contribution to cash flow, given the company's historically tight cash position.",
+        "North American defence and public safety radio markets represent a high-growth opportunity driven by FirstNet and military modernisation programs — a foothold order could serve as a reference win to unlock larger follow-on contracts, making customer identity and end-use case the key due diligence questions from here."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PBL",
+      "company": "PARABELLUM RESOURCES LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-06-22T01:27:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102469-6A1330385",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has dropped below the 5% ownership threshold in Parabellum Resources (PBL), signalling a meaningful reduction in concentrated institutional or sophisticated investor exposure — this exit warrants monitoring for potential ongoing selling pressure in a typically illiquid small-cap.",
+        "The cessation of substantial holder status implies the departing entity sold down from a previously declared position of ≥5%, representing a notable volume event relative to PBL's likely thin average daily turnover — the scale of disposal could have absorbed or suppressed near-term price discovery.",
+        "For remaining shareholders, the key watch point is whether this represents a one-off portfolio rebalancing or the beginning of a broader de-risking trend; any follow-on Form 604 filings or further substantial holder notices in coming weeks would confirm directional conviction from informed sellers."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IEL",
+      "company": "IDP EDUCATION LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-06-22T01:23:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102463-3A695733",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has dropped below the 5% ownership threshold in IDP Education (IEL), triggering a mandatory disclosure — this signals a meaningful reduction in a previously significant institutional position, representing notable selling pressure from a major investor.",
+        "The exit of a substantial holder can indicate waning conviction in IEL's near-term earnings recovery story, particularly relevant given the company's ongoing headwinds from tightened student visa policies in key markets (Australia, Canada, UK) that have weighed on volumes and revenue guidance.",
+        "Investors should monitor the register closely for further substantial holder movements — concentrated institutional selling can precede broader re-rating events, and IEL's current valuation multiple remains sensitive to any deterioration in international student flow data or regulatory developments in core corridors."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PEX",
+      "company": "PEEL MINING LIMITED",
+      "headline": "Scheme of Arrangement becomes legally effective",
+      "time": "2026-06-22T01:01:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102457-6A1330378",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Scheme of Arrangement becoming legally effective marks the point of no return for the transaction — Peel Mining shareholders have lost the ability to trade out of the deal on-market at a premium, with the register now locked in ahead of the implementation date and compulsory acquisition of all remaining shares.",
+        "This milestone confirms the acquirer has cleared all regulatory, court, and shareholder approval hurdles, eliminating deal-break risk that had previously kept the share price at a modest discount to the scheme consideration — that spread should now compress to near-zero as arbitrageurs exit positions.",
+        "Next step is the scheme implementation date (typically 5–7 business days post-effectiveness), at which point scheme shareholders receive cash or scrip consideration; investors should monitor the record date and payment timeline closely, as the stock will effectively cease to trade as an independent entity on the ASX imminently."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RNU",
+      "company": "RENASCOR RESOURCES LIMITED",
+      "headline": "PSG Demonstration Plant - Graphite Processing Commenced",
+      "time": "2026-06-22T00:50:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102452-2A1678468",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of graphite processing at the PSG Demonstration Plant marks a critical de-risking milestone — moving Renascor from a development-stage story to one with tangible proof-of-concept for its purified spherical graphite (PSG) product, directly targeting the battery anode supply chain.",
+        "The demonstration plant is designed to validate the full processing flowsheet at scale, which is essential for securing offtake agreements and project financing for the Siviour Battery Anode Material project — one of the largest graphite deposits outside Africa and a key strategic asset for ex-China anode supply diversification.",
+        "Successful processing outcomes could accelerate engagement with battery manufacturers and potential strategic partners, particularly given heightened Western demand for non-Chinese critical mineral supply chains under IRA and EU battery regulation tailwinds — a catalyst that could materially re-rate the stock if results confirm commercial-grade PSG output."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ERM",
       "company": "EMMERSON RESOURCES LIMITED",
