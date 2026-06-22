@@ -1,9 +1,431 @@
 {
   "date": "2026-06-23",
-  "total": 72,
-  "market_sensitive_count": 57,
-  "generated_at": "2026-06-22T23:32:51.176239+00:00",
+  "total": 94,
+  "market_sensitive_count": 79,
+  "generated_at": "2026-06-22T23:59:32.239244+00:00",
   "announcements": [
+    {
+      "ticker": "SFY",
+      "company": "STATE STREET SPDR S&P/ASX 50 ETF",
+      "headline": "Distribution Estimate",
+      "time": "2026-06-22T23:50:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102885-2A1678739",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "State Street's SPDR S&P/ASX 50 ETF (SFY) has released a distribution estimate, providing unitholders with advance visibility on income payments — critical for yield-focused institutional investors managing cash flow timing and reinvestment strategies.",
+        "The market-sensitive classification signals the distribution quantum is material enough to influence near-term unit pricing; investors should monitor the per-unit estimate closely relative to prior periods to assess whether the payout reflects underlying blue-chip dividend strength or compression across the ASX 50 constituents.",
+        "With the ASX 50 heavily weighted toward financials and resources, the distribution level serves as a proxy for sector health — any step-up or step-down versus prior distributions will inform positioning ahead of the ex-distribution date, particularly for income mandates and ETF arbitrage desks."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MRD",
+      "company": "MOUNT RIDLEY MINES LIMITED",
+      "headline": "Further Scandium Assays Extend Mineralisation",
+      "time": "2026-06-22T23:49:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102884-6A1330566",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mineralisation extension confirms the scandium deposit has greater lateral and/or depth continuity than previously modelled — a critical de-risking milestone that directly supports a larger resource estimate and improves project economics for potential offtake or JV discussions.",
+        "Further assay results expanding the known footprint of scandium mineralisation are material for resource upgrade potential; scandium commands premium pricing (~$2,000–$4,000/kg oxide) given its niche but growing use in solid oxide fuel cells and aluminium alloys, making even modest tonnage increases highly value-accretive.",
+        "The next catalyst to watch is a formal JORC resource update incorporating the extended mineralisation — until then, investors should monitor drill spacing, grade continuity, and whether the company has sufficient cash runway to complete the infill/extensional program without a near-term capital raise."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "14D",
+      "company": "1414 DEGREES LIMITED",
+      "headline": "14D Secures $8.45m Placement",
+      "time": "2026-06-22T23:49:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102882-2A1678730",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "1414 Degrees has secured $8.45M via placement, providing a critical capital injection for its thermal energy storage technology commercialisation — the raise materially extends cash runway and reduces near-term funding risk for a pre-revenue stage company.",
+        "The placement size, while modest, signals continued institutional appetite for 1414 Degrees' silicon-based grid-scale energy storage proposition amid growing demand for long-duration storage solutions in Australia's energy transition — pricing and dilution terms will be key to assess shareholder impact.",
+        "Proceeds are expected to fund ongoing development and potential project deployment milestones; investors should watch for deployment announcements or offtake agreements as the next catalysts to validate the capital allocation and de-risk the commercialisation pathway."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CTO",
+      "company": "CITIGOLD CORPORATION LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-06-22T23:47:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102881-2A1678743",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Citigold has requested a pause in trading, triggering a market-sensitive halt that suspends price discovery — institutional investors should note this typically precedes a material announcement such as a capital raise, M&A activity, or significant operational update.",
+        "The market-sensitive classification elevates the risk profile of this halt; unlike routine administrative pauses, this designation signals the pending disclosure is expected to have a direct and meaningful impact on valuation, warranting close monitoring for the nature of the forthcoming release.",
+        "Next steps hinge entirely on the content of the pending announcement — if the halt relates to a capital raise, dilution risk is the primary concern given Citigold's historical funding challenges at its Charters Towers gold project; conversely, a strategic transaction or resource update could be a positive catalyst."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DAL",
+      "company": "DALAROO METALS LTD",
+      "headline": "Mobilisation Commences for 2026 Blue Lagoon REE Exploration",
+      "time": "2026-06-22T23:47:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102880-6A1330564",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mobilisation commencement signals the company is transitioning from planning to active fieldwork at Blue Lagoon, a critical de-risking milestone that reduces execution uncertainty for a project in the increasingly strategic rare earth elements (REE) sector — a space attracting heightened institutional attention amid global supply chain diversification away from China.",
+        "The market-sensitive classification elevates this beyond routine operational updates, suggesting management believes the exploration program has material potential to influence the company's valuation; investors should monitor initial assay results closely as REE discovery grades and mineralisation continuity will be the key value catalysts in coming weeks.",
+        "With mobilisation now underway for a 2026-targeted program, the near-term newsflow pipeline is active — drill results, resource estimates, or strategic partnership announcements could serve as re-rating triggers, though the company's cash position and burn rate through the exploration campaign remain critical variables to assess before sizing any position."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CLZ",
+      "company": "CLASSIC MINERALS LTD",
+      "headline": "Classic Files Supreme Court Action Over 80% Gold Rights",
+      "time": "2026-06-22T23:45:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102874-6A1330490",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Classic Minerals has escalated a dispute over 80% of its gold rights to the Supreme Court level, signalling a material threat to the company's core asset base — the outcome could fundamentally alter the company's resource ownership and valuation if the claim is unsuccessful.",
+        "The market-sensitive classification underscores the potential magnitude of the legal exposure; for a micro-cap gold explorer, losing 80% of gold rights would be catastrophic to any resource estimate, project economics, and future capital-raising capacity.",
+        "Investors should monitor court timelines and any interim injunctions closely — until resolution, the legal overhang will likely suppress institutional interest and increase the cost of capital, while a favourable ruling could act as a significant re-rating catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ALR",
+      "company": "ALTAIR MINERALS LIMITED",
+      "headline": "Completion of Premium Priced Placement & Cleansing Notice",
+      "time": "2026-06-22T23:44:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102873-3A695796",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "The 'premium priced' placement is a notable structural positive — pricing above market signals strong institutional conviction and reduces the typical dilution discount concern that weighs on small-cap capital raises, suggesting demand exceeded supply at elevated levels.",
+        "As a cleansing notice accompanies the placement, shares issued under the placement are now freely tradeable without a prospectus, confirming the raise is complete and eliminating regulatory overhang — investors can assess the full dilutive impact immediately rather than waiting for shareholder approval.",
+        "Key near-term focus will be on how Altair deploys the fresh capital: with no material revenue base typical of early-stage miners, the critical metric is whether proceeds extend the cash runway sufficiently to reach the next value-creating exploration or development milestone without requiring a further raise in the near term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CXU",
+      "company": "CAULDRON ENERGY LIMITED",
+      "headline": "Substantial New Palaeochannel identified next to Bennet Well",
+      "time": "2026-06-22T23:43:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102872-6A1330562",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Discovery of a substantial new palaeochannel adjacent to the existing Bennet Well target materially expands the prospective uranium mineralisation footprint, potentially increasing the resource inventory beyond current estimates — a key re-rating catalyst for a small-cap explorer.",
+        "Palaeochannel uranium systems (roll-front/calcrete-hosted) are highly amenable to low-cost in-situ recovery (ISR) mining; a second proximal channel structure could significantly improve project economics and justify accelerated drilling expenditure, with market-sensitive classification signalling management views this as a genuine value inflection point.",
+        "Near-term focus will shift to follow-up RC/aircore drilling to define the geometry and grade continuity of the new channel — investors should watch for drill programme announcements and assay results as the primary share-price catalysts, while monitoring cash position to assess whether a capital raise may be required to fund the expanded work programme."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CPV",
+      "company": "CLEARVUE TECHNOLOGIES LIMITED",
+      "headline": "CPV Unique Gen 3 Tech Passes Certification per EN 1279-5",
+      "time": "2026-06-22T23:42:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102870-6A1330561",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ClearVue's Generation 3 solar glass technology achieving EN 1279-5 certification — the mandatory European standard for insulated glass units — removes a critical regulatory barrier to commercial sales across the EU and UK markets, representing a significant de-risking milestone for a company that has struggled to convert its technology into material revenue.",
+        "The certification validates product quality and durability for building-integrated photovoltaic (BIPV) applications, which is a prerequisite for specification by architects, developers, and glazing contractors in major construction projects; this opens the door to binding purchase orders and long-term supply agreements that were previously inaccessible without compliance documentation.",
+        "Near-term focus will shift to whether ClearVue can leverage this certification into signed commercial contracts — investors should watch for announcements of distribution partnerships or pilot project agreements in Europe, as the company's cash position and path to revenue remain the key valuation risk factors that this certification alone does not resolve."
+      ],
+      "tags": [
+        "Technology",
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SFY",
+      "company": "STATE STREET SPDR S&P/ASX 50 ETF",
+      "headline": "Dividend/Distribution - SFY",
+      "time": "2026-06-22T23:41:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102867-2A1678736",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "SFY has declared a distribution to unitholders, confirming the ETF continues to pass through dividend income from its underlying S&P/ASX 50 constituents — a routine but income-positive event for yield-focused institutional holders tracking large-cap Australian equities.",
+        "The market-sensitive flag warrants attention as the distribution quantum and ex-date will directly affect the ETF's NAV and unit price on the ex-distribution date, creating a predictable short-term price adjustment that arbitrageurs and passive rebalancers should factor into execution timing.",
+        "For institutional investors using SFY as a core large-cap Australian equity proxy, reinvestment decisions and DRP participation (if applicable) will influence near-term flow dynamics; the distribution also serves as a benchmark signal for the aggregate dividend yield health of Australia's top 50 listed companies heading into the current earnings cycle."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HAS",
+      "company": "HASTINGS TECHNOLOGY METALS LTD",
+      "headline": "Strategic $1 million Investment from Malaco Mining",
+      "time": "2026-06-22T23:41:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102868-6A1330508",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Malaco Mining's $1M strategic investment signals external validation of Hastings' Yangibana rare earths project at a critical funding juncture, providing modest but meaningful near-term liquidity support for a company that has faced persistent cash runway pressures.",
+        "At $1M, the quantum is relatively small against Yangibana's multi-hundred-million dollar development capex requirement, suggesting this is a relationship-building or optionality play by Malaco rather than a transformative funding solution — investors should scrutinise the deal structure, pricing, and any attached rights or board representation.",
+        "The strategic framing implies potential for follow-on collaboration, offtake discussions, or a larger capital partnership, particularly relevant given global critical minerals supply chain urgency; however, execution risk remains elevated until a credible full project financing package is announced."
+      ],
+      "tags": [
+        "Mining",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AEG",
+      "company": "ALAND EQUITY GROUP LIMITED",
+      "headline": "AEG Executes Chinnerys Property Funding Deed",
+      "time": "2026-06-22T23:41:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102865-2A1678735",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AEG has executed a formal Property Funding Deed over the Chinnerys project, signalling the company is advancing from negotiation to binding commitment — a critical de-risking milestone for what appears to be a property development financing arrangement.",
+        "The market-sensitive classification indicates material financial exposure or capital deployment is involved; investors should scrutinise the deed's terms including funding quantum, interest/return structure, security ranking, and any recourse provisions that could affect AEG's balance sheet risk profile.",
+        "Next steps hinge on project execution and drawdown conditions — key watch points include settlement timelines, development milestones triggering funding tranches, and whether AEG retains equity upside or is positioned purely as a debt/mezzanine funder, which will determine earnings contribution and capital efficiency."
+      ],
+      "tags": [
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VEA",
+      "company": "VIVA ENERGY GROUP LIMITED",
+      "headline": "Residue Catalytic Cracking Unit Restart at Geelong Refinery",
+      "time": "2026-06-22T23:38:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102859-3A695793",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The restart of the Residue Catalytic Cracking Unit (RCCU) at Geelong Refinery is operationally significant — the RCCU is a core conversion unit that upgrades low-value heavy residues into higher-margin transport fuels (petrol, diesel, LPG), directly restoring Viva Energy's refining margins and throughput capacity that were impaired during the outage.",
+        "The timing carries material financial implications: any prolonged RCCU downtime suppresses the Geelong Refinery Processing Agreement (RPA) earnings and increases Viva's reliance on more expensive imported product to meet retail and commercial fuel obligations, so a confirmed restart removes a key near-term earnings headwind and reduces supply cost pressure across its downstream network.",
+        "Investors should monitor the ramp-up trajectory and any guidance update on lost production volumes or insurance recovery — if the outage duration was extended, management may need to revise FY25 refining earnings guidance, but a clean restart positions Viva to recapture margin in a period where regional crack spreads remain constructive."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SLF",
+      "company": "STATE STREET SPDR S&P/ASX 200 LISTED PROPERTY ETF",
+      "headline": "Dividend/Distribution - SLF",
+      "time": "2026-06-22T23:37:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102858-2A1678733",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "SLF has declared a distribution, confirming continued income pass-through to unitholders from its underlying A-REIT portfolio — critical for yield-focused institutional mandates tracking the S&P/ASX 200 A-REIT index.",
+        "The market-sensitive classification signals the distribution quantum or timing may carry meaningful implications for NAV and ex-distribution pricing, warranting close attention to the per-unit amount relative to prior quarters as a gauge of underlying REIT income health.",
+        "With Australian listed property under pressure from elevated interest rates, the distribution level will serve as a key read-through on the earnings resilience of major A-REIT constituents (Goodman, Scentre, Dexus et al.), informing broader sector positioning ahead of upcoming REIT reporting seasons."
+      ],
+      "tags": [
+        "Dividend",
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CPV",
+      "company": "CLEARVUE TECHNOLOGIES LIMITED",
+      "headline": "Capital Raising Update",
+      "time": "2026-06-22T23:35:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102856-6A1330555",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Capital raising signals near-term liquidity pressure — without disclosed terms, investors should scrutinise whether this is opportunistic growth funding or a defensive cash preservation measure, given ClearVue's pre-revenue stage and historically thin cash reserves.",
+        "Dilution risk is the immediate concern: any equity raise for a micro-cap technology company at current depressed valuations locks in shareholder value destruction, and the market-sensitive classification suggests material size relative to existing capital structure.",
+        "Next steps hinge entirely on the raise's structure, price, and use-of-funds disclosure — strategic deployment toward commercialisation milestones (e.g. building-integrated photovoltaic product rollout or partnership execution) would be the key differentiator between a re-rating catalyst and a dilutive survival raise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LYL",
+      "company": "LYCOPODIUM LIMITED",
+      "headline": "Doropo Gold Project Announcement",
+      "time": "2026-06-22T23:34:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102854-6A1330559",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lycopodium's Doropo Gold Project announcement signals a material contract or project milestone for the engineering and project delivery firm, directly impacting its order book and near-term revenue visibility — critical metrics for an engineering services company where backlog drives earnings guidance.",
+        "As a market-sensitive disclosure, the Doropo announcement likely involves a definitive engineering, procurement, or construction (EPC/EPCM) contract award or a significant project phase decision, which would represent incremental contracted revenue potentially in the range of tens to hundreds of millions of dollars depending on scope.",
+        "Investors should monitor whether this represents a new contract win versus a project update (e.g. FID by client Predictive Discovery), as a confirmed EPCM award would strengthen Lycopodium's African gold project pipeline and support earnings growth into FY26, reinforcing the company's niche positioning in African and emerging-market gold infrastructure."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TRE",
+      "company": "TOUBANI RESOURCES LIMITED",
+      "headline": "High-Grade Drilling Results from Kobada",
+      "time": "2026-06-22T23:34:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102852-6A1330554",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-grade drilling results at Kobada signal potential resource upgrade momentum, a critical catalyst for Toubani as it advances its Mali-based gold project toward a development decision — stronger intercepts could materially re-rate the resource base and attract institutional attention.",
+        "Market-sensitive classification underscores the materiality of the assay results; investors should scrutinise intercept widths, grades (g/t Au), and depth continuity relative to the existing resource model to assess whether results confirm, extend, or surprise versus the current mineral resource estimate.",
+        "Near-term focus will shift to whether these results accelerate a revised resource estimate or feasibility study timeline — any upgrade to the Kobada MRE or improvement in project economics would be a key de-risking milestone for a company still in the pre-production phase seeking project financing."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IBX",
+      "company": "IMAGION BIOSYSTEMS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-22T23:33:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102850-3A695789",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt requested by Imagion Biosystems (IBX) signals an imminent material announcement — most likely a capital raise, strategic partnership, or clinical development update given the company's stage as a pre-revenue medical imaging biotech focused on MagSense® cancer detection technology.",
+        "As a micro-cap healthcare company with historically limited cash reserves, any capital raise emerging from this halt would carry meaningful dilution risk for existing shareholders; investors should monitor the size and pricing of any placement relative to the last traded price.",
+        "The market-sensitive classification elevates the probability of a substantive corporate event rather than a routine administrative halt — watch for announcements around FDA/TGA regulatory progress, licensing deals, or a strategic investor entry that could serve as a near-term re-rating catalyst."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VRX",
+      "company": "VRX SILICA LIMITED",
+      "headline": "State Govt Confirms Support for Muchea Land Swap Proposal",
+      "time": "2026-06-22T23:32:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102849-6A1330553",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Western Australian State Government confirmation of support for the Muchea land swap is a critical de-risking milestone for VRX Silica, removing a key sovereign/regulatory overhang that had been blocking the path to development approval for the Muchea Silica Sand Project.",
+        "The land swap mechanism — exchanging Crown land to facilitate project development — is a non-dilutive pathway to unlocking what is a strategically located, high-purity silica asset near Muchea industrial estate with established logistics infrastructure, materially improving project economics and bankability for potential offtake and financing discussions.",
+        "Next catalysts to watch include formal execution of the land swap agreement, progression toward a Mining Proposal and Environmental Review submission, and any updates on binding offtake negotiations — State backing materially accelerates the timeline toward a Final Investment Decision and positions VRX more credibly in front of institutional project financiers."
+      ],
+      "tags": [
+        "Mining",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STW",
+      "company": "STATE STREET SPDR S&P/ASX 200 ETF",
+      "headline": "Dividend/Distribution - STW",
+      "time": "2026-06-22T23:32:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102847-2A1678729",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "STW has declared a distribution to unitholders, maintaining its role as Australia's flagship broad-market ETF tracking the S&P/ASX 200 — the quantum and yield rate will be critical for income-focused institutional investors benchmarking against competing passive vehicles and term deposit rates in the current high-rate environment.",
+        "The market-sensitive classification signals a material distribution amount that could influence near-term fund flows; investors should assess the ex-distribution date carefully as NAV will adjust downward by the distribution amount, creating a technical price reset that may attract tax-loss or yield-harvesting activity around the key dates.",
+        "With RBA rate trajectory remaining a key macro variable, the implied annualised yield from this distribution will be closely watched as a barometer of ASX 200 aggregate dividend health — any compression versus prior periods could signal broader earnings pressure across the index's top constituents, particularly the major banks and miners that dominate STW's weighting."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OZM",
+      "company": "OZAURUM RESOURCES LIMITED",
+      "headline": "Paleochannel Final Assays Confirm Consistent High-Grade Gold",
+      "time": "2026-06-22T23:32:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102846-6A1330551",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Final assay results from the paleochannel program confirm consistent high-grade gold mineralisation, de-risking the deposit's geological model and materially strengthening the case for a maiden resource estimate — a critical value-inflection milestone for this early-stage explorer.",
+        "The 'high-grade' characterisation across final assays suggests grade continuity rather than isolated intercepts, which is the key differentiator institutional investors scrutinise when assessing whether a paleochannel system warrants escalated drill spend or resource definition work.",
+        "With assay data now complete, OZR's near-term catalysts centre on resource estimation and potential drill program expansion; the quality of these results is likely to support future capital raises at improved terms and may attract farm-in or JV interest from mid-tier gold producers seeking near-surface, low-strip targets."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MGU",
+      "company": "MAGNUM MINING AND EXPLORATION LIMITED",
+      "headline": "INTEGRATED GEOPHYSICS MOVES PARKER TOWARDS INITIAL DRILLING",
+      "time": "2026-06-22T23:29:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102844-6A1330549",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Integration of geophysical data has successfully delineated priority drill targets at the Parker Project, representing a critical de-risking milestone that transitions the project from exploration concept to drill-ready status — a key value inflection point for junior explorers.",
+        "The convergence of multiple geophysical methods (typically gravity, magnetics, and/or IP surveys) into a coherent targeting model suggests management has sufficient geological conviction to commit capital to initial drilling, implying near-term newsflow catalysts as drill results are anticipated.",
+        "As a market-sensitive announcement, investors should monitor the upcoming drill program timeline, planned hole depths, and target mineralisation style closely — maiden drill results will be the next binary event determining whether the market re-rates the stock or retraces exploration premium."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "FEG",
       "company": "FAR EAST GOLD LTD",
