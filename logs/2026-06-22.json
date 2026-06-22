@@ -1,9 +1,374 @@
 {
   "date": "2026-06-22",
-  "total": 84,
-  "market_sensitive_count": 75,
-  "generated_at": "2026-06-21T23:32:50.023186+00:00",
+  "total": 103,
+  "market_sensitive_count": 93,
+  "generated_at": "2026-06-22T00:01:17.950017+00:00",
   "announcements": [
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Supp. Target Statement - asset sale and distribution update",
+      "time": "2026-06-21T23:50:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102426-2A1678453",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Atlas Arteria's supplementary target statement signals a material update to its asset sale process and associated capital return, suggesting the board is actively managing shareholder value amid ongoing M&A activity — likely in response to a bidder's offer or competing proposal requiring clarification or revision.",
+        "The distribution update component is critical: any revision to the quantum or timing of proceeds returned to shareholders from asset disposals will directly impact NTA-based valuation models and income-focused institutional holders who anchored positions around expected cash returns.",
+        "Next steps hinge on the final terms disclosed in the supplementary statement — investors should scrutinise whether the distribution per security has been revised up or down, the timeline to payment, and any conditions precedent that could delay or reduce proceeds, as these will drive near-term price action."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MNB",
+      "company": "MINBOS RESOURCES LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-06-21T23:49:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102425-6A1330373",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Minbos Resources has entered a trading pause, signalling an imminent material announcement is pending — historically, such halts in junior miners precede capital raises, M&A activity, or significant project developments that require price-sensitive disclosure management.",
+        "The market-sensitive classification elevates the stakes: investors should monitor for announcements related to Minbos' Cabinda phosphate fertiliser project in Angola, where funding arrangements, offtake agreements, or strategic partnerships would represent transformative catalysts for this pre-revenue developer.",
+        "Until the nature of the pending announcement is disclosed, all positioning carries binary risk — the halt could resolve bullishly (deal/funding news) or bearishly (dilutive raise or project setback), warranting a cautious wait-and-see approach before re-entry or accumulation."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LOT",
+      "company": "LOTUS RESOURCES LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-06-21T23:48:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102424-6A1330371",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lotus Resources (LOT) has been suspended from quotation on the ASX, a procedural step typically preceding a material announcement such as a capital raise, merger, or significant transaction — the market-sensitive classification signals this is not routine administrative action.",
+        "The suspension creates a hard information blackout for existing shareholders and institutional investors, preventing price discovery and liquidity access until trading resumes — heightening execution risk for any active positions or pending orders.",
+        "Investors should monitor closely for an imminent announcement, most likely within 1-2 trading sessions; given LOT's focus on the Kayelekera uranium project in Malawi, potential catalysts include a strategic partnership, offtake agreement, or equity raising to fund project restart amid elevated uranium market conditions."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PV1",
+      "company": "PROVARIS ENERGY LTD",
+      "headline": "Capital Raising Completed to Support 2026 Program",
+      "time": "2026-06-21T23:47:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102422-6A1330364",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Capital raise completion provides Provaris with a defined funding runway into 2026, critical for a pre-revenue hydrogen infrastructure company where cash preservation and milestone execution are the primary valuation drivers watched by institutional investors.",
+        "The market-sensitive classification signals material dilution impact — investors should scrutinise the raise size, price relative to last traded price, and any placement discount to assess NAV erosion and whether new capital is sufficient to reach the next de-risking catalyst without a further raise.",
+        "Proceeds earmarked for the 2026 program suggest advancement of Provaris's compressed hydrogen shipping vessel development and commercial offtake negotiations; execution against this timeline will be the key re-rating trigger, but the stock remains high-risk given the early-stage nature of the technology and absence of contracted revenue."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PL3",
+      "company": "PATAGONIA LITHIUM LTD",
+      "headline": "Notice of change of interests of substantial holder",
+      "time": "2026-06-21T23:45:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102420-3A695722",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A substantial holder has filed a change of interest notice for Patagonia Lithium (PL8), signalling a shift in the ownership structure among major shareholders — the direction (increase or decrease) will determine whether this reflects accumulation or distribution pressure on the register.",
+        "Movements in substantial holder positions (typically ≥5% threshold) can indicate institutional conviction changes; an increase would suggest growing confidence in PL8's lithium exploration assets in Argentina, while a decrease may signal reduced risk appetite for early-stage lithium plays amid ongoing lithium price weakness.",
+        "Investors should monitor subsequent filings and on-market trading activity to assess whether this represents strategic positioning ahead of potential catalysts such as drill results or resource updates, or a routine portfolio rebalancing with limited near-term implications for the stock."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Ninth Supplementary Bidder's Statement",
+      "time": "2026-06-21T23:42:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102418-2A1678449",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The ninth supplementary bidder's statement signals an active and evolving takeover contest for Atlas Arteria, indicating the bidder is continuing to refine or update terms — potentially in response to regulatory feedback, target board resistance, or competing interest, all of which sustain deal optionality for shareholders.",
+        "Multiple supplementary statements in a bid process typically reflect material developments such as revised offer pricing, updated financial information, or responses to independent expert findings — each iteration can shift the probability-weighted outcome and implied control premium embedded in ALX's share price.",
+        "Institutional investors should monitor whether this supplementary statement contains revised consideration, updated conditions precedent, or an extension of the offer period, as these factors will be critical in determining whether the bid reaches the minimum acceptance threshold and ultimately closes."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GLF",
+      "company": "GEMLIFE COMMUNITIES GROUP",
+      "headline": "Distribution - year ending 30 June 2026",
+      "time": "2026-06-21T23:42:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102417-2A1678452",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GemLife Communities Group has flagged its distribution policy for the full year ending 30 June 2026, a market-sensitive disclosure that signals management's forward income visibility and confidence in cash generation from its land-lease retirement community portfolio.",
+        "The announcement of a forward distribution guidance is a key yield signal for income-focused investors — land-lease community operators typically distribute based on recurring rental and management fee income, so any quantum or frequency detail will be critical in benchmarking GemLife's yield against listed peers such as Lifestyle Communities (LIC) and Ingenia Communities (INA).",
+        "Investors should monitor the specific distribution quantum and payment schedule when released, as this will determine whether GemLife's yield profile is competitive enough to attract institutional income mandates and support valuation re-rating in a sector where demographic tailwinds remain strong but rising construction costs and settlement timing risk persist."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ADN",
+      "company": "ANDROMEDA METALS LIMITED",
+      "headline": "High Purity Alumina Project Update",
+      "time": "2026-06-21T23:39:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102412-2A1678450",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals a material development in Andromeda's High Purity Alumina (HPA) project — likely a significant technical milestone, offtake progress, or feasibility update that could re-rate the stock given HPA's premium pricing dynamics driven by EV battery and LED demand.",
+        "HPA projects command significant value inflection points at key development stages; any positive feasibility outcomes, resource upgrades, or strategic partnerships would materially de-risk the path to production and strengthen the investment case for a company at this stage of the development curve.",
+        "Investors should monitor for specifics around capital cost estimates, production capacity targets, and any binding commercial agreements — these metrics will determine whether Andromeda can attract project financing and transition from explorer to producer in a competitive HPA market increasingly scrutinised for supply chain security."
+      ],
+      "tags": [
+        "Mining",
+        "Production",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ATR",
+      "company": "ASTRON LIMITED",
+      "headline": "Donald Project financing progress update",
+      "time": "2026-06-21T23:39:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102411-2A1678447",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Financing progress on the Donald Mineral Sands & Rare Earth Project signals a critical de-risking milestone — securing project finance is typically the final major hurdle before a Final Investment Decision (FID), making this update highly material for project advancement timelines.",
+        "The Donald Project, one of the largest undeveloped mineral sands and rare earth deposits globally, carries significant capital requirements estimated in the hundreds of millions; any confirmed lender engagement or debt facility progress would materially reduce equity dilution risk and validate project economics to institutional investors.",
+        "Next catalyst to watch is formal FID announcement and financial close — if financing terms are being locked in, construction commencement and first production timelines become investable, potentially re-rating the stock from explorer/developer to near-term producer status."
+      ],
+      "tags": [
+        "Mining",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AXL",
+      "company": "AXEL REE LIMITED",
+      "headline": "Axel Validates Ionic REE ISR Development Pathway",
+      "time": "2026-06-21T23:38:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102410-3A695720",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Validation of an ionic clay REE deposit amenable to In-Situ Recovery (ISR) is a pivotal de-risking milestone — ISR processing typically delivers materially lower capex and opex versus conventional hard-rock mining, directly improving project economics and attracting a broader pool of development-stage capital.",
+        "The 'ionic' classification of the REE mineralisation is technically significant: ionic adsorption clays are the dominant source of the heavy rare earth elements (HREEs) critical to permanent magnets and defence applications, commanding substantial price premiums and strategic interest from offtake partners and government-backed funds.",
+        "With the ISR pathway now validated, the company's near-term catalysts should focus on scoping/PFS-level metallurgical testwork, resource definition drilling, and potential strategic partnership or offtake discussions — investors should monitor cash burn rate closely to assess whether a capital raise will be required to fund these next-stage studies."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HCL",
+      "company": "HIGHCOM LIMITED",
+      "headline": "FY26 Guidance Update",
+      "time": "2026-06-21T23:36:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102408-3A695719",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FY26 guidance update is market sensitive, signalling a material deviation from prior expectations — investors should scrutinise whether this represents an upgrade or downgrade to revenue and EBITDA targets, as HighCom operates in the defence and protective equipment sector where contract timing can significantly skew annual results.",
+        "HighCom's revenue visibility is heavily dependent on government and defence procurement cycles; any guidance revision tied to contract delays, order deferrals, or supply chain disruptions would carry outsized earnings risk given the company's relatively small revenue base and thin margin profile typical of the sector.",
+        "Near-term focus should be on whether management has provided revised quantitative guidance ranges and commentary on order book health — a credible pipeline update with confirmed contract wins would be needed to restore confidence if this update reflects a downgrade scenario."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "EDE",
+      "company": "EDEN INNOVATIONS LTD",
+      "headline": "EdenCrete - Strong Concrete Trial Results in India",
+      "time": "2026-06-21T23:35:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102407-6A1330359",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "EdenCrete demonstrated statistically significant performance improvements in Indian concrete trials, a critical validation step for penetrating one of the world's largest and fastest-growing construction markets — India's cement consumption exceeds 350 million tonnes annually, representing a substantial addressable market for admixture solutions.",
+        "The market-sensitive classification signals material trial outcomes likely exceeding internal benchmarks; strong compressive strength or durability gains would differentiate EdenCrete from commodity admixtures and support premium pricing negotiations with Indian construction majors and government infrastructure contractors.",
+        "Successful India trials accelerate the commercialisation pathway through potential distribution partnerships or offtake agreements with local cement/concrete producers — investors should watch for follow-on announcements detailing pilot-to-commercial scale timelines, which would be the key catalyst for revenue inflection in this geography."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SEN",
+      "company": "SENETAS CORPORATION LIMITED",
+      "headline": "Notice of Extraordinary General Meeting/Proxy Form",
+      "time": "2026-06-21T23:35:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102405-3A695718",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "An Extraordinary General Meeting signals a time-sensitive corporate action requiring shareholder approval outside the normal AGM cycle — likely tied to a material transaction, capital structure change, or strategic pivot that management cannot defer, elevating event-driven risk for holders.",
+        "The market-sensitive classification indicates the EGM resolution(s) could have a direct and material impact on SEN's valuation — investors should scrutinise the proxy form details closely for resolutions involving dilutive capital raises, asset disposals, or M&A activity given Senetas' ongoing strategic repositioning in network encryption and cybersecurity.",
+        "Proxy voting outcomes will be the key near-term catalyst; institutional investors should assess whether the resolutions align with Senetas' stated strategy of commercialising its high-assurance encryption technology, and monitor for any associated capital requirements that could affect the company's cash position ahead of its next quarterly update."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGT",
+      "company": "MAGNETITE MINES LIMITED.",
+      "headline": "Ironback Hill Rare Earths Drilling Results",
+      "time": "2026-06-21T23:32:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102402-6A1330365",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive rare earths drilling results at Ironback Hill represent a potential strategic pivot for Magnetite Mines, which has historically been focused on iron ore — any meaningful REE intercepts could fundamentally re-rate the asset base and attract a new investor audience amid sustained institutional demand for critical minerals exposure.",
+        "The quality of the drilling results will be critical: investors should scrutinise TREO (Total Rare Earth Oxide) grades, depth continuity, and the ratio of high-value magnet rare earths (NdPr, Dy, Tb) to total REE content, as these metrics determine economic viability and differentiate a world-class discovery from a marginal one.",
+        "Next steps hinge on whether results justify a follow-up drilling program and resource estimation pathway — any guidance on planned extensional drilling, metallurgical testwork, or a formal JORC resource target timeline will be key catalysts; without these, the market may treat initial results as speculative rather than de-risking."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CNI",
+      "company": "CENTURIA CAPITAL GROUP",
+      "headline": "Investor Presentation",
+      "time": "2026-06-21T23:32:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102400-2A1678436",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material new information likely to move the stock — investors should scrutinise any updated AUM figures, earnings guidance revisions, or capital deployment commentary that could reset consensus estimates for CNI's FY25 outlook.",
+        "Centuria's dual-listed REIT platform (CNI, CIP, COF) means any repricing of cap rates, occupancy trends, or debt refinancing disclosures in the presentation carries amplified valuation implications across the broader Centuria ecosystem, particularly given elevated interest rate sensitivity in Australian commercial property.",
+        "Key watch items include progress on third-party capital raising targets, any commentary on asset divestments or revaluations in the office/industrial portfolio, and management's positioning on the rate-cut cycle as a catalyst for NAV recovery and fund inflows — critical for fee income trajectory."
+      ],
+      "tags": [
+        "Property",
+        "Finance",
+        "Market Update"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CNI",
+      "company": "CENTURIA CAPITAL GROUP",
+      "headline": "CNI launches $300M fully underwritten equity raising",
+      "time": "2026-06-21T23:31:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102399-2A1678437",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CNI is executing a $300M fully underwritten equity raise, signalling high conviction from underwriters and management — full underwriting removes placement risk and suggests strong institutional demand, though the scale implies meaningful dilution for existing shareholders depending on the issue price discount.",
+        "The raise is classified as market sensitive, indicating material deployment intent — likely targeting acquisitions or balance sheet recapitalisation within CNI's diversified real estate platform; at ~$300M, this represents a substantial capital event relative to CNI's market cap, and the use-of-proceeds disclosure will be critical in determining whether this is accretive or defensive in nature.",
+        "Near-term focus shifts to the institutional bookbuild outcome and any accompanying asset or strategy announcement — investors should watch for the issue price relative to last traded price (discount quantum), pro-rata entitlement offer structure for retail holders, and whether proceeds are tied to a specific acquisition that could re-rate the stock on completion."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CXO",
+      "company": "CORE LITHIUM LTD",
+      "headline": "BP33 Underground Portal Commencement and First Shipment",
+      "time": "2026-06-21T23:29:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102395-6A1330363",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The commencement of the BP33 Underground Portal marks a critical operational inflection point for Core Lithium, transitioning from open-pit to higher-grade underground mining at Finniss — a move that could materially improve ore grades and unit economics if executed on schedule, directly addressing the cost pressures that forced the company to suspend mining operations in early 2024.",
+        "The first shipment milestone signals a resumption of revenue-generating activity, which is significant given Core Lithium's depleted cash position and the need to demonstrate commercial viability to retain offtake relationships and investor confidence amid a prolonged lithium price downturn.",
+        "Near-term execution risk remains elevated — underground development timelines and ramp-up costs must be closely monitored, as any delays or cost overruns in the BP33 decline could accelerate cash burn and potentially trigger further capital raises or asset review; investors should watch for Q1 FY26 quarterly cash flow data as the key validation point."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CPV",
+      "company": "CLEARVUE TECHNOLOGIES LIMITED",
+      "headline": "CPV Raises $6M to Drive New World First Products and Growth",
+      "time": "2026-06-21T23:28:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102391-6A1330326",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ClearVue has secured a $6M capital raise, providing meaningful runway to commercialise its transparent solar glass technology — critical for a pre-revenue stage company where cash burn management is existential; investors should scrutinise the implied dilution and post-raise cash position relative to quarterly burn rate.",
+        "The 'World First Products' framing signals new product variants or applications entering the pipeline, which could expand addressable markets beyond current building-integrated photovoltaics (BIPV) targets — however, without disclosed revenue milestones or offtake agreements, execution risk remains elevated.",
+        "Near-term catalysts to watch include deployment of raised capital into product development and potential partnership or pilot announcements; the market-sensitive classification suggests material new information, but sustained re-rating will depend on converting technology milestones into binding commercial contracts."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PEC",
+      "company": "PERPETUAL RESOURCES LIMITED",
+      "headline": "Perpetual Secures Nevada Scheelite Tungsten Project Dataset",
+      "time": "2026-06-21T23:28:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102389-6A1330361",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Perpetual Resources has secured a historical dataset for a Nevada scheelite tungsten project, providing a low-cost entry point to a critical mineral with significant strategic value — tungsten is a NATO-designated critical mineral facing supply concentration risk given China controls ~80% of global production, making Western-jurisdiction assets increasingly attractive to institutional and government-backed capital.",
+        "The acquisition of an existing dataset (rather than greenfield exploration) materially de-risks early-stage capital deployment by leveraging prior drilling and geophysical work, potentially compressing the timeline to resource definition and reducing the exploration spend required to reach a maiden JORC/NI 43-101 estimate.",
+        "Key near-term catalysts to watch include the scope and quality of the historical data (drill intercepts, grades, continuity), whether the company moves to secure tenure or option agreements over the ground, and any indication of a follow-on capital raise to fund validation drilling — investors should monitor for a subsequent technical announcement or funding activity within 60–90 days."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CNI",
       "company": "CENTURIA CAPITAL GROUP",
