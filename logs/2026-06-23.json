@@ -1,9 +1,295 @@
 {
   "date": "2026-06-23",
-  "total": 57,
-  "market_sensitive_count": 44,
-  "generated_at": "2026-06-22T23:08:55.079594+00:00",
+  "total": 72,
+  "market_sensitive_count": 57,
+  "generated_at": "2026-06-22T23:32:51.176239+00:00",
   "announcements": [
+    {
+      "ticker": "FEG",
+      "company": "FAR EAST GOLD LTD",
+      "headline": "Xingye change in substantial holding",
+      "time": "2026-06-22T23:28:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102841-2A1678726",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Xingye's change in substantial holding signals a shift in a key insider or strategic investor's position in Far East Gold, warranting close attention to whether this represents accumulation or distribution of shares above the 5% threshold.",
+        "The direction of the holding change (increase or decrease) is critical — a reduction by Xingye could indicate waning confidence in FAR's gold exploration pipeline or a portfolio rebalancing, while an increase would suggest conviction in near-term catalysts such as drill results or resource updates.",
+        "Investors should monitor whether this triggers further substantial holder movements or a change in the register's composition, as shifts among major holders in small-cap gold explorers can precede corporate activity including placements, board restructuring, or M&A approaches."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BEO",
+      "company": "BEONIC LTD",
+      "headline": "Results of Renounceable Entitlement Offer",
+      "time": "2026-06-22T23:27:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102840-2A1678724",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "The renounceable entitlement offer outcome will determine the degree of shareholder dilution and whether Beonic has secured sufficient capital to fund its SaaS-driven growth strategy — a critical read for existing holders given the company's ongoing cash burn profile.",
+        "Uptake rate is the key metric: strong institutional and retail subscription levels would signal market confidence in Beonic's AI-powered people-sensing platform, while a high shortfall placed to underwriters or new investors would indicate weak demand and amplify near-term dilution pressure.",
+        "Proceeds from the raise are expected to extend cash runway and accelerate commercial deployment across retail, transport, and venue verticals — investors should monitor whether management reaffirms prior revenue guidance and timeline to cash-flow breakeven in the accompanying commentary."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CQT",
+      "company": "CONNEQT HEALTH LIMITED",
+      "headline": "CONNEQT Lodges FDA Pre-Submission for SphygmoCor Cloud",
+      "time": "2026-06-22T23:27:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102838-2A1678723",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Regulatory milestone with commercial optionality: Lodging an FDA Pre-Submission (Q-Sub) for SphygmoCor Cloud is a critical de-risking step that formally opens dialogue with the FDA on the regulatory pathway — materially reducing uncertainty around US market entry for what is a clinically validated arterial stiffness and central blood pressure platform.",
+        "Market access implications are significant: FDA clearance would unlock the US digital health and remote patient monitoring market, where SphygmoCor's non-invasive cardiovascular diagnostics could be positioned within hospital systems, cardiology networks, and telehealth platforms — a TAM that dwarfs CONNEQT's current revenue base and justifies a re-rating of the pipeline's risk-adjusted value.",
+        "Near-term catalyst watch: The FDA typically responds to Pre-Submission requests within 60–90 days, meaning investors should anticipate a follow-on announcement in Q3 2025 that will either confirm the regulatory strategy or require pivotal study design — making this a defined, time-bound binary catalyst that warrants close monitoring ahead of any potential capital raise to fund US commercialisation."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KNG",
+      "company": "KINGSLAND MINERALS LTD",
+      "headline": "TOV: KNG Panel Receives Review Application",
+      "time": "2026-06-22T23:27:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102837_PS-6A1330550",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A Review Application has been lodged with the ASX Takeovers Panel regarding KNG (Kingsland Minerals), signalling a formal legal challenge to an existing Panel decision or conduct — this introduces material uncertainty and potential delays to any corporate transaction currently underway.",
+        "Panel review processes can result in orders including unwinding of share acquisitions, restraining further dealings, or requiring disclosure — any such outcome could materially alter the ownership structure or deal dynamics affecting KNG shareholders.",
+        "Investors should monitor Panel proceedings closely as next steps hinge on whether the Panel accepts the application for review; if accepted, a reconstituted Panel will re-examine the matter, potentially extending the timeline for resolution of the underlying corporate action by weeks to months."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RIM",
+      "company": "RIMFIRE PACIFIC MINING LIMITED",
+      "headline": "Early Encouragement from Murga Scandium Metallurgy",
+      "time": "2026-06-22T23:21:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102831-3A695786",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Early metallurgical results from the Murga Scandium project are showing positive recoveries, a critical de-risking milestone for a commodity with limited global supply and high-value applications in aerospace and solid oxide fuel cells — validating the project's technical pathway toward potential development.",
+        "Scandium projects face significant commercialisation hurdles given the nascent market and processing complexity; encouraging metallurgical data suggests Rimfire may be achieving viable extraction economics, which is a key gating factor for attracting offtake interest or strategic partnership capital.",
+        "Next steps will likely focus on optimising recovery rates and producing a higher-grade scandium oxide concentrate suitable for downstream processing — investors should watch for quantified recovery percentages and any indication of pilot-scale testwork or engagement with potential end-users to assess commercial readiness."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ELT",
+      "company": "ELEMENTOS LIMITED",
+      "headline": "Overriding Public Interest Granted - Oropesa Tin Project",
+      "time": "2026-06-22T23:19:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102830-2A1678693",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Overriding Public Interest (OPI) designation is a critical regulatory milestone for the Oropesa Tin Project in Spain, effectively overriding local planning obstacles and unlocking a streamlined permitting pathway — a significant de-risking event that removes one of the key development bottlenecks for what is Europe's largest undeveloped tin deposit.",
+        "The OPI grant materially enhances project bankability and positions Elementos to advance toward construction financing; tin's strategic metal status in the EU (critical raw material for electronics and green energy transition) strengthens the case for offtake agreements and potential European sovereign-backed funding support.",
+        "Near-term catalysts to watch include the progression of the Environmental Impact Assessment (EIA) approval and updated project economics — investors should monitor whether this regulatory win accelerates a formal development decision or attracts a strategic partner/acquirer given the project's scale and European critical minerals context."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NMT",
+      "company": "NEOMETALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-06-22T23:18:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102828-6A1330547",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt requested pending a material announcement — the market-sensitive classification signals a significant corporate development is imminent, likely a capital raise, M&A transaction, or major partnership update given Neometals' active battery materials and recycling commercialisation pipeline.",
+        "Neometals has multiple high-value catalysts in play across its lithium-ion battery recycling JV (Primobius), vanadium recovery, and EV materials projects — any halt-triggering announcement could materially re-rate the stock given the company's relatively modest market capitalisation against its technology asset base.",
+        "Investors should monitor closely for the resumption announcement; if the halt relates to a capital raise, dilution risk is the key concern, whereas a licensing deal, offtake agreement, or JV milestone would be a net positive catalyst — position sizing should remain cautious until the nature of the announcement is confirmed."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CNI",
+      "company": "CENTURIA CAPITAL GROUP",
+      "headline": "Completion of placement and institutional entitlement offer",
+      "time": "2026-06-22T23:18:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102825-2A1678706",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Completion of the placement and institutional entitlement offer signals Centuria has successfully secured institutional backing, reducing execution risk and providing near-term balance sheet reinforcement — critical for a property fund manager navigating elevated refinancing pressures in the current rate environment.",
+        "The successful close of the institutional tranche locks in fresh equity capital, which will likely be deployed to reduce gearing, fund acquisitions, or support existing fund platforms — key metrics to watch include the final raise quantum relative to announced targets and any implied NTA dilution per security.",
+        "Retail entitlement offer component is expected to follow, meaning further dilution pressure is not yet fully absorbed by the market; investors should monitor the retail shortfall outcome and whether any oversubscription signals broader confidence in Centuria's asset management pipeline and distribution sustainability."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TZL",
+      "company": "TZ LIMITED",
+      "headline": "TZL Announces Completion of Placement",
+      "time": "2026-06-22T23:17:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102822-2A1678713",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "TZ Limited has completed a capital placement, injecting fresh equity into the business — the critical question for investors is the size, price, and degree of dilution relative to the prevailing share price, which will determine whether existing holders are materially impacted.",
+        "Placement completions marked as market sensitive typically signal a meaningful capital raise relative to company size; for a micro-cap like TZL, even a modest raise can significantly alter the share count and near-term cash runway, potentially extending operational longevity but at a dilutive cost.",
+        "Next steps to watch: deployment of proceeds (growth capex, debt reduction, or working capital), any lead manager or cornerstone investor involvement signalling institutional confidence, and whether a Share Purchase Plan (SPP) follows to offer retail shareholders participation rights."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PTR",
+      "company": "PTR MINERALS LTD",
+      "headline": "Rosewood Titanium Project Maiden Mineral Resource Estimate",
+      "time": "2026-06-22T23:16:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102820-2A1678710",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Maiden Mineral Resource Estimate (MRE) for the Rosewood Titanium Project is a critical de-risking milestone, converting exploration ground into a JORC-compliant resource and materially improving the project's investability and optionality for PTR Minerals — a key inflection point for a junior explorer.",
+        "The market-sensitive classification signals the MRE contains resource tonnage and grade metrics deemed material to valuation; institutional focus will centre on contained titanium dioxide (TiO2) tonnes, heavy mineral concentrate (HMC) grades, and how the resource compares to peer titanium sand projects on the ASX to assess economic viability.",
+        "Next steps will likely include a Scoping Study or Preliminary Economic Assessment (PEA) to translate the resource into project economics, with potential for capital raising to fund further drilling and feasibility work — investors should monitor whether the resource scale justifies development expenditure and watch for any strategic partnership or offtake interest given current critical minerals demand."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ASN",
+      "company": "ANSON RESOURCES LIMITED",
+      "headline": "Appoints Baker Hughes to Complete Green River Engineering",
+      "time": "2026-06-22T23:15:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102818-6A1330545",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Engaging Baker Hughes — a global oilfield services giant with deep process engineering credentials — to complete Green River Basin engineering signals a material de-risking step for Anson's lithium-boron project, lending institutional-grade credibility to the project's technical pathway.",
+        "The appointment of a Tier-1 engineering firm to finalise front-end engineering design (FEED) or equivalent work is a critical precursor to securing project financing and offtake agreements, directly addressing a key valuation discount the market has applied to Anson relative to more advanced lithium peers.",
+        "Near-term catalysts to watch: delivery of the completed engineering study will set definitive capital cost estimates and process flow parameters, which are prerequisite milestones for a Final Investment Decision (FID) and potential strategic partnership or funding announcements — both significant re-rating events if delivered on schedule."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "E25",
+      "company": "ELEMENT 25 LIMITED",
+      "headline": "First Equipment for Butcherbird Expansion Lands in WA",
+      "time": "2026-06-22T23:11:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102815-6A1330544",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Physical arrival of first major equipment at Butcherbird signals the expansion project has moved from planning to execution phase — a critical de-risking milestone that reduces schedule uncertainty and demonstrates capital deployment is on track.",
+        "The market-sensitive classification underscores that this development is material to the investment thesis; for a manganese producer targeting battery-grade output, on-time equipment delivery directly supports production ramp timelines and offtake commitments that underpin revenue forecasts.",
+        "Next catalyst to watch is commissioning and first expanded production output — investors should monitor whether equipment installation proceeds without delays, as any slippage could pressure the company's funding runway and force reassessment of capex guidance."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Change in substantial holding - IFM",
+      "time": "2026-06-22T23:09:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102813-2A1678705",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "IFM Investors has filed a change in substantial holding for Atlas Arteria (ALX), signalling a shift in one of the company's most strategically significant shareholder positions — IFM has historically held a major stake (~20%+) and any directional change warrants close monitoring for potential influence on corporate strategy or M&A outcomes.",
+        "The nature of the change (increase or decrease) will determine the read-through: a reduction by IFM could signal portfolio rebalancing or reduced conviction in ALX's toll road assets amid elevated interest rate pressures on infrastructure valuations, while an increase would reinforce long-term institutional confidence in the APRR and Dulles Greenway asset base.",
+        "With ALX subject to ongoing strategic review dynamics and IFM's dual role as both shareholder and infrastructure fund manager, any material movement in IFM's holding could foreshadow shifts in board influence, dividend policy negotiations, or positioning ahead of a potential privatisation or asset restructure scenario."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORP",
+      "company": "ORPHEUS URANIUM LIMITED",
+      "headline": "Inaugural Drilling Program to Commence at Frome Project",
+      "time": "2026-06-22T23:07:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102810-2A1678704",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Orpheus Uranium is mobilising for its inaugural drill program at the Frome Project in South Australia, marking a critical de-risking milestone that transitions the company from explorer to active driller — a catalyst that typically re-rates junior uranium stocks on the ASX.",
+        "The Frome Basin is an established uranium-prospective region hosting historical mineralisation, meaning drill results carry meaningful discovery potential; any positive intercepts could rapidly revalue the asset given the current elevated uranium price environment (~USD 80+/lb) and renewed institutional appetite for nuclear energy exposure.",
+        "Near-term newsflow will be dominated by drill assay results, which represent a binary catalyst — investors should monitor hole depths, target geology (calcrete vs. sandstone-hosted), and whether results confirm or extend known mineralisation trends as the key determinants of sustained share price momentum."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CHR",
+      "company": "CHARGER METALS NL",
+      "headline": "Medcalf Lithium Resource Increases 34%",
+      "time": "2026-06-22T23:07:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102809-6A1330541",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 34% resource increase at Medcalf Lithium is a material re-rating catalyst for Charger Metals, directly expanding the project's economic footprint and improving its attractiveness to potential acquirers or JV partners in a sector where scale increasingly drives deal flow.",
+        "The quantum of the upgrade matters — institutional investors will scrutinise the updated tonnage, grade, and classification split (Inferred vs. Indicated) to assess whether this represents genuine confidence-building conversion or simply boundary extensions at lower confidence levels.",
+        "Near-term focus shifts to a Scoping Study or PFS update that can translate the larger resource into revised project economics; without a clear pathway to development milestones, the resource upgrade alone may deliver only a short-term share price re-rating rather than sustained re-valuation."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "LRV",
       "company": "LARVOTTO RESOURCES LIMITED",
