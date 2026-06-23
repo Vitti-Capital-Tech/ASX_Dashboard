@@ -1,9 +1,85 @@
 {
   "date": "2026-06-23",
-  "total": 104,
-  "market_sensitive_count": 85,
-  "generated_at": "2026-06-23T01:42:27.354229+00:00",
+  "total": 108,
+  "market_sensitive_count": 88,
+  "generated_at": "2026-06-23T03:08:52.461250+00:00",
   "announcements": [
+    {
+      "ticker": "UM1",
+      "company": "UNITY METALS LIMITED",
+      "headline": "Response to ASX Price and Volume Query",
+      "time": "2026-06-23T03:04:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102939-6A1330594",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Unity Metals has been formally queried by ASX over unusual price and/or volume movements, triggering a mandatory market-sensitive response — this signals heightened regulatory scrutiny and suggests the market may have been pricing in undisclosed information ahead of any formal announcement.",
+        "The 'Response to ASX Query' classification indicates management has been required to either confirm awareness of no undisclosed material information or disclose a catalyst; the market-sensitive flag strongly implies a substantive disclosure is imminent or has been made, which could include exploration results, a capital raise, or a corporate transaction.",
+        "Institutional investors should monitor the full response text closely for any forward-looking disclosures — if management confirms no known reason for the price/volume movement, the stock may retrace; however, if a material catalyst is revealed, a re-rating event could follow depending on the nature of the news."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXS",
+      "company": "DEXUS",
+      "headline": "Estimated distribution details for 30 June 2026",
+      "time": "2026-06-23T02:47:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102936-2A1678779",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DEXUS has flagged estimated distribution details for the June 2026 half-year period, providing income-focused investors with forward visibility on yield — a key valuation anchor for A-REIT pricing in the current rate environment.",
+        "The market-sensitive classification signals the distribution estimate carries material information content, likely reflecting management's current view on distributable income, asset performance, and potential adjustments to payout ratios amid ongoing portfolio repositioning and asset divestment activity.",
+        "Investors should scrutinise the estimated figure against consensus forecasts and the prior corresponding period — any compression in the distribution rate could signal continued pressure on funds from operations (FFO), while an in-line or improved estimate would support the stock's yield-relative valuation thesis heading into FY26."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXS",
+      "company": "DEXUS",
+      "headline": "Dividend/Distribution - DXS",
+      "time": "2026-06-23T02:43:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102935-2A1678778",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "DEXUS (DXS) has declared a distribution announcement flagged as market sensitive, signalling a potential deviation from prior guidance or consensus expectations — either a cut or beat in distribution quantum will directly reprice the stock given income-focused investor base.",
+        "As one of Australia's largest diversified property groups managing ~$60B in assets, any change to distribution per security is a key valuation lever — a reduction would compress the yield support underpinning DXS's current trading price amid ongoing office sector headwinds and elevated debt costs.",
+        "Investors should monitor the distribution per security figure against the FY24 guidance and prior period comparatives; in the current high-rate environment, distribution sustainability and payout ratio relative to funds from operations (FFO) will be the critical metrics determining near-term institutional positioning."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TNC",
+      "company": "TRUE NORTH COPPER LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-23T01:47:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102926-6A1330586",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of True North Copper (TNC), indicating a major investor has crossed or moved through the 5% ownership threshold — a development worth monitoring for potential accumulation or distribution trends.",
+        "The direction of the change (increase or decrease) is critical context: an increase in substantial holding could reflect growing institutional conviction in TNC's copper exploration assets, particularly relevant given elevated copper prices driven by energy transition demand; a decrease may signal profit-taking or strategic exit.",
+        "Investors should track whether this holder is a strategic cornerstone (e.g. a copper producer or resource-focused fund) or a passive financial investor, as strategic accumulation could be a precursor to a takeover approach or significant capital injection into TNC's project pipeline."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CTO",
       "company": "CITIGOLD CORPORATION LIMITED",
