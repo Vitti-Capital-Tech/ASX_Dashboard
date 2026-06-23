@@ -1,9 +1,103 @@
 {
   "date": "2026-06-23",
-  "total": 99,
-  "market_sensitive_count": 83,
-  "generated_at": "2026-06-23T00:45:55.014488+00:00",
+  "total": 104,
+  "market_sensitive_count": 85,
+  "generated_at": "2026-06-23T01:42:27.354229+00:00",
   "announcements": [
+    {
+      "ticker": "CTO",
+      "company": "CITIGOLD CORPORATION LIMITED",
+      "headline": "Update on Secured Loan Facility",
+      "time": "2026-06-23T01:39:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102925-2A1678775",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Secured loan facility update signals potential liquidity stress — for a junior gold explorer like Citigold, any amendment, extension, or breach of secured debt terms carries material risk of dilution or asset encumbrance, making this a critical watch item for existing holders.",
+        "The market-sensitive classification elevates concern that this is not a routine administrative update — likely involves a material change to facility terms, drawdown conditions, or lender negotiations that could directly impact the company's near-term operational funding capacity and cash runway.",
+        "Next steps hinge on whether the facility has been extended, restructured, or is in default — investors should scrutinise the full announcement for covenants, repayment schedules, and any equity conversion provisions that could trigger shareholder dilution at the Charters Towers gold project level."
+      ],
+      "tags": [
+        "Finance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ANO",
+      "company": "ADVANCE ZINCTEK LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-23T01:31:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102923-2A1678777",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Advance Zinctek (AZV), indicating a holder has crossed (or moved through) the 5% threshold — warranting close monitoring of whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase or decrease in holding) is critical context: an increase could signal growing conviction in AZV's zinc anti-corrosion technology commercialisation thesis, while a decrease may reflect profit-taking or loss of confidence in near-term catalysts.",
+        "Institutional investors should track subsequent substantial holder notices closely — a pattern of accumulation by a single entity could foreshadow a strategic stake-building exercise or precursor to a corporate action, particularly given AZV's relatively small market capitalisation and niche industrial technology positioning."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VHL",
+      "company": "VITASORA HEALTH LIMITED",
+      "headline": "Updated Notice of Initial Substantial Holder",
+      "time": "2026-06-23T01:18:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102919-3A695803",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "An updated substantial holder notice signals a change in the ownership structure at Vitasora Health, with a filer crossing or adjusting a position at or above the 5% threshold — warranting close attention to whether this reflects accumulation or partial divestment by a key stakeholder.",
+        "The 'updated' nature of the notice (versus an initial filing) indicates the substantial holder's voting power has shifted since the original disclosure, which could reflect on-market buying, selling, or changes via derivative/lending arrangements that alter effective control dynamics.",
+        "Investors should monitor subsequent filings and any associated Form 604 details to determine the direction of travel — sustained accumulation by a sophisticated holder in a small-cap healthcare name can be an early signal of strategic interest or a precursor to a corporate action."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RSG",
+      "company": "RESOLUTE MINING LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-06-23T01:17:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102918-6A1330582",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has dropped below the 5% ownership threshold in Resolute Mining (RSG), signalling a meaningful reduction in concentrated institutional exposure — this could reflect portfolio rebalancing, risk-off positioning, or loss of conviction in the gold miner's near-term outlook.",
+        "The exit of a substantial holder introduces potential near-term selling pressure overhang; depending on the pace of disposal, this may have already weighed on RSG's share price or could continue to do so if residual stock is still being unwound in the market.",
+        "Investors should monitor subsequent substantial holding notices and on-market volume patterns to assess whether this represents isolated profit-taking or a broader institutional de-risking trend in RSG — particularly relevant given the company's operational exposure to West Africa and ongoing gold price dynamics."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CHR",
+      "company": "CHARGER METALS NL",
+      "headline": "Revised Resource Investor Presentation",
+      "time": "2026-06-23T00:56:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102915-6A1330580",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A revised investor presentation flagged as market sensitive signals a material update to Charger Metals' resource narrative — likely incorporating an updated mineral resource estimate or revised project economics that could re-rate the stock's perceived value among resource investors.",
+        "The 'revised' nature of the presentation suggests prior figures or assumptions have been materially altered; investors should scrutinise changes to resource tonnage, grade, classification (Inferred vs Indicated), or project NPV/IRR inputs, as any downgrade would be a red flag while upgrades could catalyse re-rating.",
+        "Next steps hinge on whether the revision supports a clear pathway to a Scoping Study or Pre-Feasibility Study — institutional investors will be watching for updated timelines, capital requirements, and any indication of strategic partnership or funding strategy to advance the project."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CVW",
       "company": "CLEARVIEW WEALTH LIMITED",
