@@ -1,9 +1,105 @@
 {
   "date": "2026-06-23",
-  "total": 94,
-  "market_sensitive_count": 79,
-  "generated_at": "2026-06-22T23:59:32.239244+00:00",
+  "total": 99,
+  "market_sensitive_count": 83,
+  "generated_at": "2026-06-23T00:45:55.014488+00:00",
   "announcements": [
+    {
+      "ticker": "CVW",
+      "company": "CLEARVIEW WEALTH LIMITED",
+      "headline": "ASIC Registers Scheme Booklet",
+      "time": "2026-06-23T00:40:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102911-2A1678767",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASIC registration of the Scheme Booklet is a critical regulatory milestone, confirming the proposed scheme of arrangement has cleared a key hurdle and is now cleared to proceed to shareholder vote — materially reducing deal execution risk.",
+        "The market-sensitive classification signals this is a binding step in a change-of-control transaction; with the booklet now registered, ClearView shareholders can formally assess deal terms, implying an imminent scheme meeting date and potential near-term liquidity event for holders.",
+        "Next steps will be the dispatch of the Scheme Booklet to shareholders, the Independent Expert's conclusion on fairness and reasonableness, and the scheme meeting vote — any recommendation from the board and expert in favour of the deal will likely sustain or lift the share price toward the offer price."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AV1",
+      "company": "ADVERITAS LIMITED",
+      "headline": "Becoming a substantial holder from PCG",
+      "time": "2026-06-23T00:38:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102908-6A1330579",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "PCG has crossed the 5% substantial holder threshold in Adveritas (AV1), signalling meaningful accumulation by a new institutional-grade investor — a notable vote of confidence in the ad-fraud detection technology play.",
+        "The filing establishes PCG as a substantial holder, implying a position likely worth several million dollars at current market cap levels; the scale of the stake relative to AV1's typically thin register could meaningfully tighten available free float.",
+        "Investors should monitor for further Form 604 notices from PCG, as continued accumulation beyond this initial disclosure threshold could act as a technical catalyst, while any future strategic intent (e.g. board representation or M&A interest) would materially re-rate the stock."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MQR",
+      "company": "MARQUEE RESOURCES LIMITED",
+      "headline": "MARQUEE TO ACQUIRE HIGH-GRADE TUNGSTEN PROJECT IN NEVADA",
+      "time": "2026-06-23T00:26:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102903-6A1330563",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic critical minerals pivot: Tungsten is a NATO-designated critical mineral with ~85% of global supply controlled by China, making a Nevada-based high-grade asset highly strategic amid escalating US-China trade tensions and Western supply chain diversification imperatives.",
+        "Nevada jurisdiction de-risks the acquisition — the state ranks among the world's top mining-friendly jurisdictions, potentially accelerating permitting timelines and attracting US government offtake interest or grant funding under the Defense Production Act or IRA-aligned programs.",
+        "Key due diligence triggers to watch: deal consideration structure (scrip vs. cash), grade benchmarks relative to the ~0.3% WO₃ industry threshold for economic viability, and whether a JORC/NI 43-101 resource estimate exists — these will determine whether this is a genuine re-rating catalyst or an early-stage speculative play."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ID8",
+      "company": "IDENTITII LIMITED",
+      "headline": "Patent infringement claim update",
+      "time": "2026-06-23T00:15:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102899-2A1678763",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Patent infringement litigation represents a material binary risk for Identitii — outcome could either validate the company's IP moat or expose it to significant damages, legal costs, and potential injunctions that could disrupt core product operations.",
+        "As a small-cap technology company, Identitii's limited cash reserves make prolonged litigation particularly damaging to runway; investors should scrutinise the balance sheet closely for any disclosed legal provisions or contingent liabilities that could accelerate cash burn.",
+        "The market-sensitive classification signals the ASX views this update as potentially price-moving — next steps hinge on whether the claim is being defended, settled, or dismissed, with any adverse ruling or escalation likely to weigh heavily on the stock given the company's size and IP-dependent business model."
+      ],
+      "tags": [
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LRT",
+      "company": "LOWELL RESOURCES FUND",
+      "headline": "Dividend/Distribution - LRT",
+      "time": "2026-06-23T00:02:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03102890-3A695799",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Lowell Resources Fund (LRT) has declared a dividend/distribution, signalling the fund is generating sufficient income or realised gains from its resources-focused portfolio to return capital to unitholders — a positive indicator of portfolio performance in the current commodities environment.",
+        "As a closed-end listed investment trust focused on small-to-mid cap resources stocks, distribution announcements are closely watched as a proxy for NAV realisation events; investors should scrutinise the distribution rate relative to the current unit price to assess yield attractiveness and whether this reflects capital gains distributions or income.",
+        "With the announcement flagged as market sensitive, the distribution quantum or timing may be materially different from prior periods — unitholders and prospective investors should review the full distribution notice for ex-dividend date, record date, payment date, and cents-per-unit figures to assess reinvestment or positioning decisions ahead of the ex-date."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "SFY",
       "company": "STATE STREET SPDR S&P/ASX 50 ETF",
