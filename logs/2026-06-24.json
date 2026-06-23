@@ -1,9 +1,315 @@
 {
   "date": "2026-06-24",
-  "total": 52,
-  "market_sensitive_count": 32,
-  "generated_at": "2026-06-23T22:59:02.733550+00:00",
+  "total": 68,
+  "market_sensitive_count": 46,
+  "generated_at": "2026-06-23T23:26:54.845664+00:00",
   "announcements": [
+    {
+      "ticker": "TA1",
+      "company": "TRANSURBAN FINANCE COMPANY PTY LTD",
+      "headline": "FY26 Distribution and 2026 Annual General Meetings",
+      "time": "2026-06-23T23:22:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103267-2A1678920",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Transurban has flagged its FY26 distribution guidance alongside AGM scheduling — a market-sensitive disclosure that signals management confidence in forward cash flow generation from its toll road portfolio, critical for yield-focused institutional holders.",
+        "Distribution clarity for FY26 provides income visibility at a time when infrastructure assets are under scrutiny for interest rate sensitivity; any uplift versus FY25 distributions would reinforce the investment thesis around traffic volume recovery and CPI-linked toll escalation mechanisms.",
+        "The dual AGM structure (reflecting Transurban's stapled group arrangement) means investors should monitor resolutions closely for any capital management signals, remuneration outcomes, or strategic commentary on pipeline projects including the West Gate Tunnel and Sydney/North American assets."
+      ],
+      "tags": [
+        "AGM",
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TZL",
+      "company": "TZ LIMITED",
+      "headline": "TZL Entitlement Offer Announcement & Offer Booklet",
+      "time": "2026-06-23T23:20:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103263-2A1678917",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "TZ Limited is executing an entitlement offer to raise fresh capital, signalling the company is likely operating under cash pressure — institutional investors should scrutinise the offer price discount to last traded price as a key indicator of balance sheet stress and management's urgency to secure liquidity.",
+        "The market-sensitive classification elevates the significance of this raise; the dilutive impact on existing shareholders will depend critically on the offer ratio and pricing, with heavily discounted entitlement offers historically triggering near-term share price compression as the market reprices to the new capital structure.",
+        "Next steps hinge on shareholder take-up rates and whether any shortfall facility or underwriting arrangement is in place — a fully underwritten offer would provide greater funding certainty, while an ununderwritten raise leaves TZL exposed to potential underfunding if retail/institutional participation is weak."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PR1",
+      "company": "PURE RESOURCES LIMITED",
+      "headline": "Assessed ''Awardable'' for DARPA ERIS Marketplace Funding",
+      "time": "2026-06-23T23:14:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103254-6A1330745",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Pure Resources has been assessed as 'Awardable' by DARPA for its ERIS (Environmental Reconnaissance and Intelligence System) Marketplace program — a critical de-risking milestone that signals the company has cleared technical and administrative eligibility thresholds required before contract execution, distinguishing it from a mere application or expression of interest.",
+        "DARPA funding, while non-dilutive and prestigious, is typically structured in phases with milestone-gated tranches; investors should scrutinise the announcement for disclosed contract value, phase structure, and timeline to first cash receipt, as 'Awardable' status does not guarantee final contract execution or immediate revenue recognition.",
+        "For a small-cap ASX explorer pivoting toward or augmenting a defence/technology narrative, DARPA endorsement materially elevates the company's credibility with institutional investors and potential strategic partners — however, the near-term re-rating will depend on whether a binding contract follows and whether the funding is material relative to the company's current cash position and market capitalisation."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Mineral Resource Increase at Mineral Hill",
+      "time": "2026-06-23T23:14:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103255-6A1330746",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A mineral resource increase at Mineral Hill is a direct positive re-rating catalyst — larger resource inventories typically underpin higher NPV estimates and strengthen Kingston's negotiating position for project financing, JV partnerships, or M&A interest from larger producers.",
+        "The market-sensitive classification signals the resource upgrade is material in scale; investors should scrutinise the updated tonnage, grade, and classification mix (Measured/Indicated vs. Inferred) to assess whether the increase translates to economically mineable ounces/tonnes that can support a revised mine plan or feasibility study.",
+        "Near-term focus will shift to whether Kingston can convert this resource growth into a development decision — key milestones to watch include an updated scoping or pre-feasibility study, permitting progress, and any capital requirements that could trigger equity dilution to fund the next stage of work at Mineral Hill."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NIC",
+      "company": "NICKEL INDUSTRIES LIMITED",
+      "headline": "HPAL Investment - TMI",
+      "time": "2026-06-23T23:13:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103253-2A1678914",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nickel Industries is making a strategic investment into High Pressure Acid Leach (HPAL) technology via TMI, marking a significant pivot toward battery-grade nickel sulphate production — a higher-margin product directly aligned with EV supply chain demand and commanding premium pricing over NPI (nickel pig iron).",
+        "The HPAL investment signals a deliberate move up the value chain, potentially diversifying revenue streams beyond NI's existing RKEF (rotary kiln electric furnace) operations in Indonesia; key financial metrics to watch include the capital commitment size, ownership stake secured, and projected production capacity/timeline which will determine earnings accretion.",
+        "Investors should monitor the funding structure closely — whether this is debt, equity, or a joint venture arrangement will determine dilution risk and balance sheet impact; given NI's existing Indonesian partnerships (including with Tsingshan), any strategic alignment with existing partners could accelerate permitting and execution, reducing development risk materially."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EMH",
+      "company": "EUROPEAN METALS HOLDINGS LIMITED",
+      "headline": "Cinovec LCP Optimisation Delivers Potential Savings",
+      "time": "2026-06-23T23:13:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103252-6A1330744",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Cinovec Life of Mine (LCP) optimisation signals potential material reductions in capital and/or operating expenditure, directly improving project economics and NPV — a critical de-risking milestone for what is one of Europe's largest hard-rock lithium deposits ahead of final investment decision.",
+        "Cost savings from LCP optimisation could strengthen the project's bankability and attract strategic or offtake-linked financing, particularly relevant given the current subdued lithium price environment where margin preservation is essential to justify development capital.",
+        "Next steps will centre on quantifying the savings in an updated feasibility or technical study, with investor focus on revised capex/opex figures and timeline to DFS completion — any material reduction in the ~€500M+ development cost estimate would be a significant positive catalyst for the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GRV",
+      "company": "GREENVALE ENERGY LTD",
+      "headline": "Field season commences with major new airborne survey",
+      "time": "2026-06-23T23:11:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103249-2A1678912",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of a major new airborne geophysical survey signals a significant escalation in exploration activity, typically a value-inflection catalyst for early-stage resource companies as it materially de-risks target definition ahead of drilling — market-sensitive classification underscores management's view of materiality.",
+        "Airborne surveys (likely VTEM, ZTEM, or aeromagnetic) cover large ground quickly and cost-effectively, suggesting Greenvale is prioritising efficient capital deployment to generate high-quality drill targets; the scale descriptor 'major' implies broad coverage that could substantially expand the prospective footprint being evaluated.",
+        "Near-term newsflow is likely to be data-rich — survey results, anomaly identification, and subsequent drill target announcements represent a pipeline of potential re-rating events over the coming months, making this a key watch point for speculative resource investors tracking the stock's exploration timeline."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "Flotation Test Work Delivers 81% Antimony Recovery",
+      "time": "2026-06-23T23:10:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103248-6A1330743",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The 81% antimony flotation recovery rate is a technically significant milestone — recoveries above 80% are generally considered commercially viable for processing economics, de-risking the path to a Preliminary Economic Assessment (PEA) or scoping study and validating the project's metallurgical fundamentals.",
+        "Antimony is a critical mineral currently experiencing supply constraints due to China's export restrictions imposed in late 2024, making high-recovery projects outside China strategically valuable to Western supply chains and potentially attractive to offtake partners or government-backed critical minerals funds.",
+        "Next steps will likely focus on optimising flotation parameters to push recovery rates higher, followed by locked-cycle or pilot-scale testing — successful progression here could catalyse a resource upgrade or pre-feasibility study, representing key re-rating catalysts for EVR in the near term."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KAU",
+      "company": "KAISER REEF LIMITED",
+      "headline": "Surface Drilling Campaign Commenced at Maldon",
+      "time": "2026-06-23T23:09:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103246-6A1330742",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kaiser Reef has mobilised a surface drilling rig at its Maldon gold project in Victoria, marking a tangible step-up in exploration activity at a historically significant goldfield — the commencement of drilling is a key de-risking catalyst that the market has been waiting on to validate the company's resource expansion thesis.",
+        "The market-sensitive classification signals management expects material newsflow from this campaign; Maldon hosts historical production of over 1.5Moz Au, and any intercepts extending known mineralisation at depth or along strike could meaningfully re-rate the current resource base and underpin a revised mine plan.",
+        "Near-term catalysts hinge on assay results from this campaign — investors should monitor hole depths, target geology (reef vs. disseminated), and turnaround times from the laboratory; a successful first-pass result would likely trigger follow-up drilling and could support a capital raise to accelerate resource definition."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TCL",
+      "company": "TRANSURBAN GROUP",
+      "headline": "FY26 Distribution and 2026 Annual General Meetings",
+      "time": "2026-06-23T23:08:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103245-3A695859",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Transurban has confirmed its FY26 distribution guidance, a critical signal for income-focused institutional investors given the stock's infrastructure yield mandate — any uplift versus FY25's 62.5 cents per security would reinforce the inflation-linked toll revenue growth thesis.",
+        "The market-sensitive classification elevates this beyond routine AGM procedure, suggesting the distribution quantum or forward guidance contains material new information that could reset consensus yield expectations and NAV-based valuation models.",
+        "The AGM forum provides management the opportunity to update on key growth catalysts including the West Gate Tunnel completion timeline, North East Link progress, and US/Canadian corridor performance — any traffic volume or revenue guidance revision will be closely scrutinised by infrastructure fund managers."
+      ],
+      "tags": [
+        "AGM",
+        "Dividend"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Change in substantial holding - IFM",
+      "time": "2026-06-23T23:06:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103239-2A1678905",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "IFM Investors has filed a change in substantial holding for Atlas Arteria (ALX), signalling a shift in one of the company's most strategically significant shareholder positions — IFM has historically been a major long-term infrastructure investor in ALX with stakes that have influenced governance and strategic direction.",
+        "The nature of the change (increase or decrease) will determine the read-through: a reduction by IFM could signal portfolio rebalancing or diminishing conviction in ALX's toll road assets amid elevated interest rate pressures on infrastructure valuations, while an increase would reinforce institutional confidence in the APRR and Dulles Greenway asset base.",
+        "Institutional investors should monitor whether this filing reflects a passive reweighting or an active strategic shift — given IFM's dual role as both a shareholder and infrastructure manager, any meaningful movement in their holding could have implications for future board influence, M&A activity, or a potential privatisation play on ALX's undervalued toll road portfolio."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENN",
+      "company": "ELANOR INVESTORS GROUP",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-23T23:05:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103238-2A1678907",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the ownership structure of Elanor Investors Group (ENN), with a holder crossing or moving through the 5% threshold — warranting close monitoring of whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase vs. decrease) is critical: an increase in substantial holding could indicate growing institutional conviction in ENN's diversified real assets platform, while a decrease may signal reduced confidence or portfolio rebalancing amid ongoing pressure on listed property and fund management vehicles.",
+        "Investors should track the identity of the substantial holder and any associated voting power changes, as concentrated ownership shifts in smaller ASX-listed fund managers like ENN can foreshadow strategic activity including board influence, M&A interest, or activist positioning."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ECH",
+      "company": "ECHELON RESOURCES LIMITED",
+      "headline": "Echelon Signs Gas Supply Agreement for Kupe",
+      "time": "2026-06-23T23:04:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103236-3A695855",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Echelon has secured a gas supply agreement for its Kupe project, a critical de-risking milestone that transforms the asset from exploration-stage to one with a defined offtake pathway — materially reducing commercial uncertainty and strengthening the investment case.",
+        "The market-sensitive classification signals this agreement carries meaningful financial weight; a contracted gas supply underpins project economics, likely enabling Echelon to advance financing discussions, attract project-level debt, or accelerate development timelines with greater certainty on revenue visibility.",
+        "Near-term catalysts to watch include disclosure of contract terms (volume, pricing, duration), counterparty identity, and whether this agreement triggers any project FID (Final Investment Decision) — each of which could serve as a further re-rating event for the stock."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BBN",
+      "company": "BABY BUNTING GROUP LIMITED",
+      "headline": "FY26 Trading Update",
+      "time": "2026-06-23T23:02:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103234-3A695854",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Baby Bunting's FY26 trading update signals a critical inflection point for the turnaround thesis — investors will be scrutinising whether comparable store sales growth has returned to positive territory following the prolonged margin compression and volume weakness that plagued FY24-FY25.",
+        "Key metrics to watch include gross margin trajectory (prior guidance flagged recovery toward ~37-38% range), cost-out program execution, and whether the private label mix expansion is driving meaningful basket size improvement amid ongoing consumer spending pressure in the discretionary baby goods segment.",
+        "With the stock having de-rated significantly from peak valuations, any confirmation of sustained top-line recovery and EBITDA margin stabilisation could act as a meaningful re-rating catalyst; conversely, a further downgrade to FY26 guidance would likely test multi-year support levels and raise questions about the viability of the current store rollout strategy."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMI",
+      "company": "AURELIA METALS LIMITED",
+      "headline": "Financial Close Achieved on New A$150M Financing Facilities",
+      "time": "2026-06-23T22:58:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103230-2A1678903",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Financial close on A$150M in new debt facilities significantly strengthens Aurelia's balance sheet, replacing or supplementing existing debt with what appears to be improved terms — reducing near-term refinancing risk and extending the company's financial runway to fund ongoing operations and growth capital at its Peak and Federation mines.",
+        "The quantum of the facility (A$150M) is material relative to Aurelia's market capitalisation, signalling lender confidence in the asset base and cash flow profile — institutional investors will focus on the cost of debt, covenant structure, and whether this is purely refinancing or includes incremental liquidity for development expenditure.",
+        "With financing secured, Aurelia can now accelerate execution on its Federation mine development timeline without balance sheet uncertainty overhang; the next key catalysts to watch are drawdown confirmation, updated capital expenditure guidance, and any revision to production or cost guidance for FY25/FY26."
+      ],
+      "tags": [
+        "Finance",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PCX",
+      "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
+      "headline": "Dividend/Distribution - PCX",
+      "time": "2026-06-23T22:57:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103228-2A1678901",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "PCX has declared a distribution, reinforcing its income-generation mandate as a private credit trust — consistent dividend flow is a core value proposition for yield-seeking institutional investors in the current rate environment.",
+        "The market-sensitive classification signals the distribution quantum or yield rate may deviate materially from prior periods or market expectations, warranting close scrutiny of the cents-per-unit figure and annualised yield relative to the trust's NTA and peer benchmarks.",
+        "Sustained distributions from a global private credit vehicle signal underlying loan book performance remains intact — investors should monitor reinvestment rates, credit quality of the underlying portfolio, and any currency hedging costs that could compress future net distributions."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "RTR",
       "company": "RUMBLE RESOURCES LIMITED",
