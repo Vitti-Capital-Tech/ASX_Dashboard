@@ -1,9 +1,487 @@
 {
   "date": "2026-06-25",
-  "total": 71,
-  "market_sensitive_count": 56,
-  "generated_at": "2026-06-24T23:28:03.437064+00:00",
+  "total": 96,
+  "market_sensitive_count": 78,
+  "generated_at": "2026-06-24T23:55:15.922554+00:00",
   "announcements": [
+    {
+      "ticker": "LLC",
+      "company": "LENDLEASE GROUP",
+      "headline": "Pause in Trading",
+      "time": "2026-06-24T23:51:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103800-2A1679342",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lendlease has requested a trading halt ahead of what is likely a material announcement — historically, pauses of this nature for major property groups precede capital raises, asset divestments, or significant strategic restructuring events, all of which carry meaningful valuation implications.",
+        "Given Lendlease's well-documented balance sheet pressures, ongoing international asset monetisation program, and prior guidance on reducing offshore exposure, this halt may signal a landmark transaction or equity event that could materially alter the group's capital structure or gearing profile.",
+        "Investors should monitor closely for the resumption announcement — key variables to watch include any discount to NTA on a potential capital raise, proceeds and settlement timeline on asset sales, or any revision to FY25 earnings guidance that may accompany the disclosure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AR3",
+      "company": "AUSTRALIAN RARE EARTHS LIMITED",
+      "headline": "Koppamurra Pre-Feasibility Study",
+      "time": "2026-06-24T23:47:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103797-2A1679335",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The PFS represents a critical de-risking milestone for Koppamurra, moving AR3 from exploration-stage to a project with defined capital costs, operating economics, and production targets — a key inflection point that typically re-rates junior rare earth developers toward project valuations rather than resource multiples.",
+        "Investors should scrutinise the headline NPV, IRR, and capex figures closely against peer projects; given the current soft rare earth pricing environment (particularly NdPr oxide), the discount rate assumptions and price deck used will be pivotal in determining whether the economics are robust or contingent on a price recovery cycle.",
+        "The PFS outcome sets the stage for a Definitive Feasibility Study (DFS) decision, potential offtake negotiations, and project financing discussions — near-term catalysts include whether management signals a DFS mandate and whether strategic or government funding (e.g. NAIF, Export Finance Australia) is flagged to underpin the capital pathway."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AR3",
+      "company": "AUSTRALIAN RARE EARTHS LIMITED",
+      "headline": "Maiden Ore Reserve positions Koppamurra for development",
+      "time": "2026-06-24T23:46:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103796-2A1679328",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The maiden Ore Reserve at Koppamurra represents a critical de-risking milestone, converting exploration-stage resources into a bankable, JORC-compliant reserve — a prerequisite for project financing, offtake negotiations, and attracting strategic or institutional capital into the rare earths development story.",
+        "The establishment of a maiden reserve quantifies mineable inventory for the first time, providing the foundation for a Definitive Feasibility Study (DFS) and enabling management to model project economics, capital intensity, and NPV with materially greater confidence — key metrics institutional investors and potential JV partners will scrutinise.",
+        "With rare earths supply chain diversification remaining a geopolitical priority for Western governments and manufacturers, a development-ready Australian rare earths project with a defined reserve is well-positioned to pursue government grant funding, critical minerals financing facilities (e.g. Export Finance Australia), and strategic partnerships — near-term catalysts that could re-rate the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SRL",
+      "company": "SUNRISE ENERGY METALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-24T23:46:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103795-3A695957",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register — investors should monitor whether this reflects accumulation or disposal by a major holder, as either scenario has implications for near-term liquidity and price discovery in this thinly traded critical minerals explorer.",
+        "The filing itself does not disclose the direction of the change (increase or decrease), but any movement through the 5% substantial holder threshold is a key governance and ownership event that can precede strategic activity such as a takeover approach, placement participation, or an exit by a cornerstone investor.",
+        "For Sunrise Energy Metals — which holds the flagship Sunrise nickel-cobalt-scandium project in NSW — shifts in the substantial holder register warrant close attention given the project's long development timeline and ongoing capital requirements; a reduction in a major holder's stake could signal waning conviction, while an increase may indicate renewed strategic interest in battery metals exposure."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GIB",
+      "company": "GIBB RIVER DIAMONDS LIMITED",
+      "headline": "Phase 2 Drilling Commences - Edjudina Gold Project",
+      "time": "2026-06-24T23:45:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103794-6A1330947",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Phase 2 drilling commencement at Edjudina Gold Project signals meaningful exploration progression, with the market-sensitive classification suggesting management anticipates material results that could redefine the resource base or confirm high-grade targets identified in Phase 1.",
+        "Notably, Gibb River Diamonds is pivoting exploration capital into gold rather than its namesake diamond assets — a strategic repositioning that reflects current commodity market dynamics and may attract a broader investor base, but also raises questions about portfolio focus and capital allocation discipline.",
+        "Key near-term catalysts will be drill assay results from Phase 2; investors should monitor hole depths, target geology, and any resource estimate updates, as positive intercepts in a gold-favourable macro environment could serve as a significant re-rating event for this small-cap explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HYT",
+      "company": "HYTERRA LTD",
+      "headline": "Trading Halt",
+      "time": "2026-06-24T23:45:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103793-6A1330945",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Hyterra Ltd (HY1) has entered a trading halt pending an announcement, suspending price discovery and liquidity for institutional and retail investors until further notice — the market-sensitive flag elevates the probability of a material corporate event.",
+        "The combination of 'market sensitive' classification and a voluntary trading halt strongly suggests an imminent capital raise, M&A transaction, or significant operational update related to its natural hydrogen exploration activities in Kansas, USA — any of which could materially reprice the stock.",
+        "Investors should monitor the forthcoming announcement closely; natural hydrogen explorers remain highly speculative with binary risk profiles, meaning the pending disclosure could trigger outsized price movement in either direction upon resumption of trade."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SGL",
+      "company": "RICEGROWERS LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-06-24T23:44:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103791-2A1679336",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Preliminary Final Report signals full-year earnings crystallisation for Ricegrowers (SunRice), a key catalyst for institutional positioning — headline financials will reveal whether the cooperative has navigated volatile rice commodity prices, energy cost pressures, and FX headwinds across its international operations in CY/FY close.",
+        "As a diversified agri-food business with significant exposure to global rice markets, branded consumer goods (SunRice, Riviana), and regulated grower pool structures, the reported NPAT and revenue trajectory will be scrutinised against prior-year benchmarks — any margin compression in the branded segment or pool payment adjustments to growers would be a material signal for earnings quality.",
+        "Investors should watch for commentary on the Australian rice crop volume outlook, working capital movements tied to grower pool obligations, and any update on the strategic review of international assets — these forward-looking elements will drive near-term re-rating potential beyond the headline statutory numbers."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RNU",
+      "company": "RENASCOR RESOURCES LIMITED",
+      "headline": "Exploration Update",
+      "time": "2026-06-24T23:42:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103790-2A1679331",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive exploration update signals potentially material new findings at Renascor's Siviour graphite project or surrounding tenements in South Australia — the 'market sensitive' flag elevates this above routine drilling news and suggests resource expansion or discovery-grade results that could meaningfully re-rate the stock.",
+        "Renascor's Siviour deposit is already one of the largest graphite resources globally, so any resource upgrade or high-grade intercepts would strengthen the project's economics and reinforce its strategic positioning as a domestic battery anode material supplier amid growing EV supply chain demand.",
+        "Near-term catalysts to watch include whether the update triggers a resource estimate revision, advances offtake discussions, or supports the company's purified spherical graphite (PSG) downstream strategy — all of which are critical milestones for project financing and potential government grant support under Australia's critical minerals agenda."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "B1S",
+      "company": "BELL GLOBAL EMERGING COMPANIES CLASS A ACTIVE ETF",
+      "headline": "Distribution Notice",
+      "time": "2026-06-24T23:39:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103786-2A1679325",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bell Global Emerging Companies Class A Active ETF has declared a distribution, confirming income generation from its emerging markets equity portfolio — a positive signal for yield-seeking investors in an asset class not traditionally associated with regular income.",
+        "The market-sensitive classification of this distribution notice warrants attention to the per-unit distribution quantum and ex-distribution date, as these directly impact NAV step-down and short-term pricing dynamics for ETF unitholders.",
+        "Investors should monitor the reinvestment vs. cash payout election window and assess whether the distribution reflects realised capital gains or dividend income, as the tax treatment differs materially and may influence institutional demand heading into the next distribution cycle."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OMA",
+      "company": "OMEGA OIL & GAS LIMITED",
+      "headline": "Change in substantial holding - Ilwella",
+      "time": "2026-06-24T23:39:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103785-2A1679326",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Ilwella Pty Ltd has filed a change in substantial holding notice for Omega Oil & Gas (OMG), signalling a shift in the ownership structure among major shareholders — a development worth monitoring for potential influence over corporate strategy or future capital decisions.",
+        "The direction of the change (increase or decrease in Ilwella's stake) is critical context: a reduction could indicate a loss of conviction from an insider-aligned holder, while an increase would suggest accumulation ahead of anticipated catalysts such as drilling results or farm-out activity.",
+        "With Omega Oil & Gas at an early-stage exploration phase, any material movement in substantial holder positions can disproportionately impact liquidity and price discovery given the typically thin trading volumes in junior energy explorers — investors should track the updated voting power percentage disclosed in the Form 604 for directional cues."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CUL",
+      "company": "CULLEN RESOURCES LIMITED",
+      "headline": "Northern Finland Joint Venture - Progress Report",
+      "time": "2026-06-24T23:37:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103784-6A1330944",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cullen Resources is advancing its Northern Finland JV at a time when European critical minerals supply chains are under intense geopolitical scrutiny, potentially elevating strategic value beyond typical junior explorer metrics — any positive drill results or partner commitments could attract re-rating interest.",
+        "As a progress report rather than a results announcement, the key institutional watch-point is whether the update confirms funded work programs and JV partner contribution milestones, which would de-risk the project's cash burn profile and validate the partnership structure.",
+        "Next catalysts to monitor include drill program commencement timelines, JV partner identity/credibility confirmation, and any resource estimate upgrades — Finland's stable mining jurisdiction and EU Critical Raw Materials Act tailwinds provide a favourable backdrop for near-term newsflow."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CTD",
+      "company": "CORPORATE TRAVEL MANAGEMENT LIMITED",
+      "headline": "Corporate Travel Management Provides Update on Financial Sta",
+      "time": "2026-06-24T23:37:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103783-2A1679315",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive financial status update signals a material deviation from prior guidance or market expectations — the 'update' framing typically precedes either an earnings downgrade or covenant/liquidity disclosure, warranting immediate scrutiny of FY guidance revisions.",
+        "Corporate Travel Management operates in a sector still navigating uneven corporate travel recovery; any financial status update touching on revenue run-rates, client attrition, or cost pressures could materially reset consensus EBITDA estimates currently anchored to a recovery trajectory.",
+        "Investors should watch for specifics on cash position, debt facility headroom, and whether management reaffirms or withdraws full-year earnings guidance — the absence of a concurrent trading halt suggests the update may be pre-scheduled, but the market-sensitive flag demands rapid reassessment of risk exposure."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "OMA",
+      "company": "OMEGA OIL & GAS LIMITED",
+      "headline": "Change in substantial holding - Tri-Star",
+      "time": "2026-06-24T23:36:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103781-2A1679324",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Tri-Star has filed a change in substantial holding notice for Omega Oil & Gas, signalling a shift in its ownership position — either an increase or decrease crossing a disclosure threshold, which warrants close monitoring of the direction of movement to assess conviction in the stock.",
+        "Substantial holder movements in small-cap energy names like Omega Oil & Gas can meaningfully impact liquidity and price discovery; a reduction by Tri-Star could signal waning institutional confidence, while an increase would suggest accumulation ahead of potential catalysts.",
+        "Investors should track subsequent Form 604 filings and any associated on-market activity to determine whether Tri-Star's position change reflects strategic portfolio rebalancing or a more deliberate thesis shift on Omega's exploration or development prospects."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYM",
+      "company": "CYPRIUM METALS LIMITED",
+      "headline": "Operations Update - Nifty Copper Complex",
+      "time": "2026-06-24T23:35:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103778-6A1330941",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals a material operational development at the Nifty Copper Complex — likely a production disruption, equipment failure, or significant operational setback that could reset near-term copper output guidance and cash flow expectations.",
+        "Nifty is Cyprium's flagship asset and primary value driver; any downgrade to throughput, recovery rates, or heap leach SX-EW production metrics would directly impair the company's path to sustained cash generation and erode the investment thesis for a copper developer transitioning to producer.",
+        "Investors should scrutinise revised production guidance, updated cost-per-pound estimates, and any commentary on remediation timelines — a prolonged operational interruption could accelerate balance sheet pressure and raise questions around funding adequacy given typical working capital demands at this stage of ramp-up."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KGL",
+      "company": "KGL RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-24T23:35:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103777-2A1679323",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "KGL Resources has entered a trading halt, suspending price discovery for the stock — historically a precursor to a material announcement such as a capital raise, M&A activity, or significant operational update at its Jervois Copper Project in the Northern Territory.",
+        "The market-sensitive classification signals the pending disclosure is expected to have a quantifiable impact on valuation; given KGL's ongoing funding challenges and the capital-intensive nature of advancing Jervois toward production, a capital raise or strategic partnership announcement is the most probable catalyst.",
+        "Investors should monitor the resumption announcement closely — if the halt resolves into equity dilution (placement or rights issue), near-term selling pressure is likely; conversely, a strategic offtake deal or farm-in agreement could materially re-rate the stock given the project's stranded-asset risk profile."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TGM",
+      "company": "THETA GOLD MINES LIMITED",
+      "headline": "TGME Gold Project - Major Construction Milestones Achieved",
+      "time": "2026-06-24T23:33:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103773-6A1330937",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Achievement of major construction milestones at the TGME Gold Project signals the company is advancing toward production readiness, a critical de-risking event that typically re-rates junior gold developers toward net asset value — reducing the execution discount that has historically weighed on TGM's share price.",
+        "The market-sensitive classification underscores material progress beyond routine updates; investors should monitor whether milestones include completion of processing infrastructure, tailings facilities, or grid power connections, as these are the highest-cost and longest-lead items that determine first-pour timelines and capital expenditure certainty.",
+        "Near-term catalysts to watch include commissioning schedules, remaining capex drawdown requirements, and any updated production guidance — particularly given the current elevated gold price environment (AUD gold >A$5,000/oz), which meaningfully improves project economics and potential free cash flow generation at first production."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FAU",
+      "company": "FIRST AU LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-24T23:29:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103765-6A1330936",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "First AU Limited (FAU) has entered a trading halt, suspending price discovery and liquidity for investors — historically, halts of this nature on micro-cap ASX explorers precede a material announcement such as a capital raise, M&A activity, or a significant asset update.",
+        "The market-sensitive classification signals regulators and the company anticipate the forthcoming announcement could materially move the share price, elevating the risk profile for any existing short positions or pending orders in the market.",
+        "Investors should monitor for the lifting of the halt — typically within 2 trading days under ASX Listing Rule 17.1 — with the nature of the catalyst (dilutive capital raise vs. accretive deal or discovery) being the key determinant of directional price impact upon resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GTN",
+      "company": "GTN LIMITED",
+      "headline": "GTN Earnings and Capital Management Update",
+      "time": "2026-06-24T23:28:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103761-2A1679314",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Capital management signal is the key catalyst here — any buyback, special dividend, or balance sheet optimisation announcement alongside earnings would confirm management's confidence in cash generation and could re-rate the stock given GTN's historically conservative capital deployment.",
+        "GTN's earnings update will be scrutinised against its radio traffic broadcasting network performance across Australia, UK, and Canada — investors should focus on whether advertising revenue trends show recovery or continued pressure from digital substitution and macro-driven ad spend pullbacks.",
+        "The dual nature of this release (earnings + capital management) suggests a coordinated investor relations strategy, likely designed to offset softer headline numbers with a shareholder return sweetener — watch for guidance on free cash flow conversion and any revision to full-year earnings expectations as the critical forward indicator."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IBX",
+      "company": "IMAGION BIOSYSTEMS LIMITED",
+      "headline": "IBX Secures Firm Commitments for $3.75m for Clinical Trial",
+      "time": "2026-06-24T23:28:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103760-3A695941",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "IBX has secured firm commitments for a $3.75M capital raise specifically earmarked for clinical trial progression, providing a defined funding runway for its next key de-risking milestone — critical for a pre-revenue biotech where trial execution is the primary value driver.",
+        "The raise signals institutional or sophisticated investor conviction in IBX's clinical pipeline; the 'firm commitments' designation (versus indicative interest) reduces execution risk and suggests pricing and allocation are largely settled, minimising overhang uncertainty for existing shareholders.",
+        "Near-term focus shifts to trial commencement timelines and patient enrolment updates — investors should monitor whether this capital is sufficient to reach a meaningful clinical readout or whether a further raise will be required before data inflection, which would be the key dilution risk to watch."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STM",
+      "company": "SUNSTONE METALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-06-24T23:28:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103759-2A1679316",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Sunstone Metals (STM) has entered a trading halt pending a market-sensitive announcement, suspending price discovery and liquidity for institutional participants until further notice — the market-sensitive classification signals material information is imminent.",
+        "Trading halts of this nature on junior ASX explorers most commonly precede capital raises, M&A activity, or significant exploration results; given STM's copper-gold focus in Ecuador, a drill result or strategic transaction (JV/farm-in) would be the highest-probability catalysts.",
+        "Investors should monitor the resumption announcement closely — if the halt resolves into a capital raise, dilution risk is the key concern; if it resolves into a discovery or corporate transaction, a re-rating opportunity may emerge, particularly given current elevated copper price sentiment."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABR",
+      "company": "ALBRIGHT METALS LTD",
+      "headline": "Gold and Antimony Mineralisation Confirmed and Extended",
+      "time": "2026-06-24T23:27:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103758-6A1330932",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dual-commodity confirmation of both gold and antimony mineralisation materially de-risks the project thesis — antimony's critical mineral status (NATO/EU strategic stockpiling demand) adds a premium re-rating catalyst beyond gold alone, potentially attracting specialist critical minerals investors and government grant eligibility.",
+        "Extension of mineralisation beyond previously defined zones suggests the deposit remains open and underexplored, implying current resource estimates (if any) are likely conservative — this is the key value-creation inflection point for early-stage investors ahead of a formal resource update.",
+        "Next catalysts to watch: maiden or updated JORC resource estimate, metallurgical testwork confirming recoveries for both commodities, and potential strategic interest from offtake partners or larger miners given antimony's supply chain scarcity (China controls ~48% of global production)."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HIQ",
+      "company": "HITIQ LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-24T23:26:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103757-6A1330934",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "HITIQ has entered a trading halt pending a market-sensitive announcement, suspending price discovery and liquidity for investors — the 'market sensitive' designation signals material information is imminent that could significantly reprice the stock in either direction.",
+        "Trading halts of this nature on small-cap ASX technology companies most commonly precede capital raises, M&A activity, or material contract announcements — given HITIQ's focus on head injury monitoring technology (HIQ), a strategic partnership or licensing deal would be the highest-value catalyst to watch for.",
+        "Investors should monitor the resumption announcement closely; the halt duration (typically 1-2 trading days maximum under ASX Listing Rules) means clarity is near-term — positioning ahead of resumption carries binary risk given the unknown nature of the pending disclosure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SER",
+      "company": "STRATEGIC ENERGY RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-24T23:25:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103756-3A695953",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Strategic Energy Resources (SER) has entered a trading halt, suspending price discovery and liquidity for investors — the halt is pending an announcement, suggesting a material corporate development is imminent that management deems market-sensitive.",
+        "Trading halts of this nature on small-cap ASX energy explorers most commonly precede capital raises, M&A activity, or significant asset/project updates — any of which could materially reset the company's valuation baseline and alter its cash position or strategic direction.",
+        "Institutional investors should monitor the forthcoming announcement closely; if the trigger is a capital raise, dilution risk is the primary concern, whereas an asset deal or farm-in agreement could be a re-rating catalyst — position sizing should remain cautious until full details are disclosed."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CLU",
+      "company": "CLUEY LTD",
+      "headline": "Cluey Ltd Voluntary Delisting from ASX",
+      "time": "2026-06-24T23:25:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103755-2A1679308",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cluey Ltd is voluntarily delisting from the ASX, signalling the board has determined public market costs and obligations outweigh the benefits — a common outcome for micro-cap EdTech companies unable to attract sufficient institutional liquidity or research coverage.",
+        "The voluntary nature of the delisting (rather than a forced removal for non-compliance) suggests the company remains operational, but retail and institutional shareholders face an immediate loss of price discovery and a significantly impaired exit pathway once trading ceases.",
+        "Investors should monitor whether a buyback offer, scheme of arrangement, or private acquirer is accompanying the delisting — absent a liquidity event, minority shareholders risk being stranded in an illiquid, unlisted entity with limited recourse."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NMT",
+      "company": "NEOMETALS LTD",
+      "headline": "Update on Settlement of Tranche 2 Placement",
+      "time": "2026-06-24T23:24:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103754-6A1330921",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Tranche 2 settlement completion removes a key execution risk from the capital raise process, confirming fresh equity proceeds are flowing onto the balance sheet — critical for a pre-revenue critical minerals developer with ongoing project expenditure commitments.",
+        "The placement structure (split into tranches) suggests Neometals required shareholder approval for the second tranche, indicating the raise exceeded the ASX Listing Rule 7.1 placement capacity — implying meaningful dilution that existing shareholders have now formally sanctioned.",
+        "With settlement finalised, investor focus will shift to how proceeds are deployed across Neometals' lithium recycling (Primobius JV) and vanadium recovery projects; capital allocation clarity in forthcoming updates will be the key re-rating catalyst."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MTL",
       "company": "MANTLE MINERALS LIMITED",
