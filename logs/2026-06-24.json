@@ -1,9 +1,143 @@
 {
   "date": "2026-06-24",
-  "total": 96,
-  "market_sensitive_count": 71,
-  "generated_at": "2026-06-24T00:40:49.926075+00:00",
+  "total": 103,
+  "market_sensitive_count": 77,
+  "generated_at": "2026-06-24T01:40:33.750962+00:00",
   "announcements": [
+    {
+      "ticker": "ERD",
+      "company": "EROAD LIMITED",
+      "headline": "EROAD 2026 Annual Shareholders Meeting Addresses",
+      "time": "2026-06-24T01:26:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103351-2A1678960",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EROAD's ASM addresses carry market-sensitive designation, signalling potential disclosure of material strategic or financial updates beyond routine shareholder formalities — investors should scrutinise CEO/Chair remarks for any guidance revisions or strategic pivots in the fleet telematics space.",
+        "The company has been navigating a challenging post-merger integration following its NZ$185M acquisition of Coretex, with profitability pressures and subscriber growth headwinds in North America; any commentary on EBITDA trajectory, churn rates, or cost-out progress will be closely watched by institutional holders.",
+        "Key forward indicators to monitor from the ASM include FY26 revenue guidance confirmation, progress on the path to positive free cash flow, and any update on the competitive positioning against global telematics players — failure to reaffirm targets could trigger renewed selling pressure given the stock's elevated sensitivity to execution risk."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMD",
+      "company": "ARROW MINERALS LTD",
+      "headline": "Arrow completes Yarraloola Copper Project acquisition",
+      "time": "2026-06-24T01:14:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103349-6A1330790",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Arrow Minerals has completed the acquisition of the Yarraloola Copper Project, marking a strategic portfolio expansion into copper — a commodity with strong structural demand tailwinds driven by electrification and energy transition themes, potentially re-rating the stock's thematic appeal to institutional investors.",
+        "The completion of the acquisition (rather than announcement) removes execution risk and signals management's ability to close deals, though investors will now scrutinise the consideration paid, any dilution from scrip/cash components, and the project's resource base or exploration upside to assess deal value accretion.",
+        "Near-term catalysts will hinge on Arrow releasing an exploration program or maiden resource estimate for Yarraloola — the speed and quality of this work will be critical to sustaining post-acquisition momentum and justifying the strategic pivot toward copper exposure."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AV1",
+      "company": "ADVERITAS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-24T01:04:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103345-6A1330788",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register for Adveritas (AV1), indicating a holder has crossed above or below the 5% threshold — warranting close attention to whether this reflects accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase vs. decrease) is critical: an increase could signal growing institutional conviction in AV1's TrafficGuard ad fraud platform amid a competitive digital verification market, while a decrease may indicate profit-taking or portfolio rebalancing by an existing major holder.",
+        "Investors should monitor subsequent substantial holder notices and on-market trading patterns closely, as register movements in small-cap tech stocks like AV1 can be a leading indicator of upcoming corporate activity, capital raises, or strategic partnerships."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Dividend/Distribution - PCI",
+      "time": "2026-06-24T01:01:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103343-2A1678958",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "PCI has declared a distribution, confirming continued income delivery to unitholders — critical for a credit income trust where consistent cash distributions are the primary value proposition and a key retention signal for yield-focused investors.",
+        "The market-sensitive classification elevates this announcement above routine dividend notices, suggesting the distribution rate, timing, or structure may deviate materially from prior periods — investors should scrutinise the cents-per-unit figure against the trailing distribution history and annualised yield relative to NTA.",
+        "With credit markets navigating a higher-for-longer rate environment, PCI's ability to sustain or grow distributions reflects portfolio credit quality and floating-rate exposure benefits; any compression in distribution rate would signal deteriorating underlying asset performance or elevated redemption pressure on the trust."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MRE",
+      "company": "METRICS REAL ESTATE MULTI-STRATEGY FUND",
+      "headline": "Dividend/Distribution - MRE",
+      "time": "2026-06-24T00:57:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103341-2A1678956",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "MRE has declared a distribution, reinforcing its income-generation mandate as a real estate multi-strategy fund — consistency of distributions is a key valuation anchor for yield-focused institutional investors tracking this vehicle.",
+        "The market-sensitive classification signals the distribution quantum or timing may deviate materially from prior periods or market expectations, warranting close scrutiny of the per-unit amount and annualised yield relative to peers in the listed property/credit space.",
+        "Investors should monitor the distribution composition (income vs. return of capital) and any accompanying commentary on underlying asset performance, as deteriorating commercial real estate conditions could pressure future payout sustainability and NAV stability."
+      ],
+      "tags": [
+        "Dividend",
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MOT",
+      "company": "METRICS INCOME OPPORTUNITIES TRUST",
+      "headline": "Dividend/Distribution - MOT",
+      "time": "2026-06-24T00:56:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103340-2A1678955",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "MOT has declared a distribution to unitholders, reinforcing its mandate as an income-focused trust — consistency of distributions is the primary performance metric for this vehicle and any continuation signals underlying loan book health and cash generation remain intact.",
+        "The market-sensitive classification warrants close attention to the distribution quantum relative to prior periods; any step-up or step-down in the per-unit amount will directly signal whether the private credit portfolio's net interest margin is compressing or expanding amid the current elevated rate environment.",
+        "For institutional investors, the key forward consideration is duration risk and reinvestment yield — with the RBA rate cycle potentially pivoting, MOT's floating-rate loan book exposure and distribution sustainability into FY26 will be critical to monitor against any guidance provided in accompanying documentation."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MXT",
+      "company": "METRICS MASTER INCOME TRUST",
+      "headline": "Dividend/Distribution - MXT",
+      "time": "2026-06-24T00:55:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103339-2A1678954",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "MXT has declared a distribution, reinforcing its track record of consistent monthly income delivery to unitholders — a key differentiator for yield-focused institutional and retail investors in the current rate environment.",
+        "The market-sensitive classification signals the distribution quantum or yield rate may deviate from prior periods, warranting close scrutiny of the cents-per-unit figure relative to the trailing 12-month average and the RBA cash rate benchmark.",
+        "With credit markets tightening and private debt spreads under pressure, the distribution level will serve as a real-time indicator of portfolio health and loan book performance within Metrics' underlying corporate lending strategy — any compression could signal deteriorating credit conditions."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CMB",
       "company": "CAMBIUM BIO LIMITED",
