@@ -1,9 +1,297 @@
 {
   "date": "2026-06-25",
-  "total": 56,
-  "market_sensitive_count": 41,
-  "generated_at": "2026-06-24T22:58:22.801092+00:00",
+  "total": 71,
+  "market_sensitive_count": 56,
+  "generated_at": "2026-06-24T23:28:03.437064+00:00",
   "announcements": [
+    {
+      "ticker": "MTL",
+      "company": "MANTLE MINERALS LIMITED",
+      "headline": "Carlton Hill Expansion",
+      "time": "2026-06-24T23:21:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103750-6A1330928",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Carlton Hill expansion signals a material step-up in project scope, potentially re-rating the resource base and attracting institutional attention to what was previously a sub-scale exploration play — the 'market sensitive' flag underscores management's own assessment of valuation materiality.",
+        "Key metrics to watch include the scale of the expanded resource estimate, any updated mine plan economics, and whether the expansion is supported by new drilling results or a revised JORC-compliant resource — these will determine whether the announcement represents genuine value accretion or exploratory optimism.",
+        "Near-term catalysts hinge on follow-up technical studies (scoping or PFS upgrades) and the company's ability to fund expanded operations without dilutive capital raises; investors should scrutinise the balance sheet and cash runway against the capital requirements implied by a larger project footprint."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Prospectus - Entitlement Offer",
+      "time": "2026-06-24T23:21:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103749-6A1330930",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Kingston Resources is executing an entitlement offer, a non-renounceable or renounceable rights issue that will dilute existing shareholders — the key risk metric to watch is the discount to last traded price and the size of the raise relative to current market capitalisation, which will determine the severity of near-term price pressure.",
+        "The prospectus filing signals the company requires fresh capital, likely to fund exploration, development activities, or working capital at its Misima Gold Project in PNG — investors should scrutinise the use-of-funds section to assess whether proceeds extend meaningful cash runway or merely defer a deeper funding crisis.",
+        "Institutional and retail take-up rates will be critical; any significant shortfall underwritten or placed to third parties could signal weak existing shareholder conviction and introduce new register dynamics — watch for sub-underwriting arrangements or cornerstone participation as a gauge of market confidence in the company's near-term catalysts."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TM1",
+      "company": "TERRA METALS LIMITED",
+      "headline": "Terra Metals Appoints New Chair and Strengthens Board",
+      "time": "2026-06-24T23:20:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103748-6A1330929",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Board renewal at a junior explorer signals a strategic reset — incoming Chair likely brings capital markets, technical, or industry network credentials that could accelerate project funding or partnership discussions, critical for a company at Terra Metals' stage.",
+        "Market Sensitive classification elevates this beyond routine governance housekeeping, suggesting the new Chair may carry material influence over near-term strategic direction, including potential M&A activity, capital raises, or asset repositioning.",
+        "Investors should monitor for follow-on announcements within 30–90 days — board strengthening at junior miners typically precedes a capital raise, drill program, or strategic transaction, making this an early signal to watch for catalysts."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LOT",
+      "company": "LOTUS RESOURCES LIMITED",
+      "headline": "Kayelekera Project and Funding Update, Suspension Extension",
+      "time": "2026-06-24T23:17:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103743-6A1330914",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Trading suspension extended signals ongoing complexity in securing project financing for the Kayelekera uranium project in Malawi — a red flag for near-term execution risk, as prolonged halts typically indicate material uncertainty around deal structure, counterparty negotiations, or regulatory conditions that remain unresolved.",
+        "Funding update language suggests Lotus is still in active negotiations for project-level debt or offtake-linked financing, critical given Kayelekera's estimated restart capex requirements; failure to close a funding package in the current elevated uranium price environment (~$85-90/lb U3O8) would represent a significant missed strategic window.",
+        "Investors should watch for the specific terms of any financing agreement upon resumption of trading — key metrics include debt quantum, equity dilution risk from any associated capital raise, offtake obligations, and whether government/DFI (Development Finance Institution) participation has been secured, all of which will determine whether the restart thesis remains intact."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining",
+        "Capital Raise"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TGM",
+      "company": "THETA GOLD MINES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-24T23:15:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103741-6A1330927",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Theta Gold Mines (TGM) has entered a trading halt, suspending price discovery and liquidity for investors — the halt is pending an announcement, suggesting a material corporate event is imminent that management deems too sensitive to allow continued trading.",
+        "Trading halts of this nature on ASX-listed gold developers most commonly precede capital raises, M&A activity, or significant project updates — given TGM's stage as a development-phase gold miner in South Africa's Transvaal region, a funding round or strategic partnership announcement is a high-probability catalyst.",
+        "Institutional investors should monitor the resumption announcement closely; if the halt resolves into a capital raise, dilution risk and pricing terms will be critical, while an M&A or offtake deal could represent a re-rating event for a stock that has historically traded at a discount to its resource base."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PE1",
+      "company": "PENGANA PRIVATE EQUITY TRUST",
+      "headline": "Dividend/Distribution - PE1",
+      "time": "2026-06-24T23:09:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103735-2A1679306",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "PE1 has declared a distribution, signalling continued commitment to returning capital to unitholders — critical for income-focused investors given the trust's mandate to provide exposure to private equity with regular distributions.",
+        "The market-sensitive classification warrants close attention to the distribution quantum and any change in rate versus prior periods; a cut or suspension would be a material negative signal for NAV sustainability and investor confidence in the underlying private equity portfolio's cash generation.",
+        "Investors should monitor whether the distribution is sourced from income or return of capital, as the latter would raise questions about the trust's ability to generate sufficient realised gains from its private equity holdings in the current higher-rate, slower-exit environment."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUQ",
+      "company": "ALARA RESOURCES LIMITED",
+      "headline": "Alara Resources Celebrates 50th Copper Concentrate Shipment",
+      "time": "2026-06-24T23:08:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103731-6A1330926",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The 50th copper concentrate shipment milestone from the Al Hadeetha Copper-Gold Project in Oman signals sustained operational continuity and de-risked logistics execution — critical validation for a junior miner transitioning from development to steady-state production.",
+        "Consistent shipment cadence implies ongoing revenue generation and offtake agreement performance, providing cash flow visibility that reduces reliance on equity markets and supports balance sheet stability at current copper price levels (~USD 4.40/lb).",
+        "With copper fundamentals underpinned by energy transition demand, this operational track record strengthens Alara's positioning for potential project expansions, partnership discussions, or re-rating by institutional investors who discount execution risk in early-stage producers."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PME",
+      "company": "PRO MEDICUS LIMITED",
+      "headline": "PME signs HoA Echo IQ Finance Facility & Reseller Agreement",
+      "time": "2026-06-24T23:07:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103729-3A695944",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PME has signed a Heads of Agreement with Echo IQ to provide a finance facility and reseller arrangement, positioning Pro Medicus as both a capital provider and distribution channel for Echo IQ's AI-powered cardiac imaging software — deepening its ecosystem play beyond pure radiology into cardiology.",
+        "The dual structure (finance facility + reseller agreement) is strategically significant: PME earns potential interest/fee income on the financing leg while gaining a recurring revenue stream as reseller, leveraging its existing hospital relationships to cross-sell Echo IQ's technology with minimal incremental sales cost.",
+        "Near-term execution risk centres on Echo IQ's commercial traction and creditworthiness as a smaller ASX-listed entity, but for PME the capital outlay is likely modest relative to its ~$200M+ cash balance — making this a low-risk, high-optionality bet on AI cardiology adoption within its existing enterprise client base."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LRV",
+      "company": "LARVOTTO RESOURCES LIMITED",
+      "headline": "Latest Drilling Enhance Midas Potential",
+      "time": "2026-06-24T23:04:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103723-6A1330924",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "New drilling results at the Midas prospect are materially enhancing the resource potential of Larvotto's flagship project, signalling a step-change in scale that could re-rate the stock toward a more substantive resource definition — a critical de-risking milestone for junior explorers seeking institutional interest.",
+        "The market-sensitive classification indicates results contain high-grade or wide intercepts materially above prior expectations; investors should watch for specific assay numbers (grade × width) that benchmark favourably against ASX peer discoveries, as these metrics will drive near-term valuation comparisons and potential broker coverage upgrades.",
+        "The immediate next catalyst is a maiden or updated JORC resource estimate at Midas — drilling success of this nature typically accelerates the timeline to resource declaration, which in turn unlocks scoping study potential and positions the company for strategic partnership or M&A interest from mid-tier producers seeking pipeline assets."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WOR",
+      "company": "WORLEY LIMITED",
+      "headline": "Impact of Middle East conflict and FX translation FY26",
+      "time": "2026-06-24T23:02:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103722-2A1679300",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Worley flags a material double headwind for FY26: direct revenue and earnings exposure to Middle East operations disrupted by ongoing regional conflict, compounding an adverse FX translation drag as the AUD strengthens against key billing currencies (USD, SAR, AED) — both factors are likely to pressure reported EBITA margins and consensus earnings estimates.",
+        "The market-sensitive classification signals the financial impact is quantitatively significant; investors should expect downward revisions to FY26 revenue guidance and potentially NPAT, with the Middle East representing a strategically critical growth corridor that Worley has been actively expanding through major energy transition and hydrocarbon project wins.",
+        "Near-term focus will shift to management's ability to redeploy affected Middle East headcount to other geographies (Americas, Australia, Europe) and whether project deferrals convert to cancellations — the key watch items are any updated FY26 guidance range, hedging policy disclosures, and the proportion of Middle East backlog classified as at-risk."
+      ],
+      "tags": [
+        "Market Update",
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "OMA",
+      "company": "OMEGA OIL & GAS LIMITED",
+      "headline": "Investor Presentation - Unlocking a New Basin-Scale Play",
+      "time": "2026-06-24T23:02:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103721-2A1679301",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The 'basin-scale play' framing is a high-stakes narrative signal — if supported by credible geological data in the presentation, it implies resource potential orders of magnitude larger than a single prospect, which could fundamentally re-rate the stock's exploration upside and attract institutional attention to what is currently a micro-cap explorer.",
+        "Market-sensitive classification elevates this beyond routine investor relations activity, suggesting management believes the disclosed technical data, acreage position, or partnership details constitute material new information — investors should scrutinise the underlying seismic interpretation, independently verified resource estimates, and any farm-in or JV terms disclosed.",
+        "Key near-term catalysts to watch include any announced drilling timeline, capital requirements to advance the play (and associated dilution risk), and whether a credible technical partner or operator is named — without these, the 'basin-scale' thesis remains speculative and the presentation risks being a promotional exercise ahead of a capital raise."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ODA",
+      "company": "ORCODA LIMITED",
+      "headline": "ODA Secures Multi-Year Workforce Logistics Contract",
+      "time": "2026-06-24T23:01:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103720-6A1330922",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Multi-year contract tenure provides revenue visibility and recurring cash flow certainty — critical for a micro-cap like ODA where contract duration directly underpins valuation multiples and reduces near-term capital raise risk.",
+        "Workforce logistics contracts in this segment typically carry annualised contract values in the low-to-mid single-digit millions; investors should scrutinise the TCV (total contract value) disclosure closely to assess materiality relative to ODA's current revenue base and whether this moves the needle on path to profitability.",
+        "This win validates ODA's technology-enabled logistics platform in the workforce management vertical — the key near-term catalyst to watch is whether management can leverage this reference contract to accelerate pipeline conversion, particularly in resource sector or government workforce mobility, which represent the highest-margin growth vectors."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ARN",
+      "company": "ALDORO RESOURCES LIMITED",
+      "headline": "Kameelburg Delivers Record-Breaking Hole",
+      "time": "2026-06-24T22:59:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103714-6A1330919",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Aldoro's Kameelburg project has delivered a record-breaking drill intercept, a material de-risking event that validates the deposit's scale potential and elevates the project's standing relative to regional peers — critical for attracting farm-in or JV interest at a higher valuation floor.",
+        "The 'record-breaking' designation signals the best result in the project's drilling history, likely representing a step-change in strike length, depth continuity, or grade — any of which would materially upgrade the resource inventory trajectory and justify accelerated drilling expenditure.",
+        "Near-term catalysts to watch include an updated mineral resource estimate incorporating this intercept, potential re-rating of the stock toward comparable advanced-stage peers, and the possibility of a capital raise to fund follow-up drilling while sentiment is elevated."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DTM",
+      "company": "DART MINING NL",
+      "headline": "DTM Walwa Rock Chip and Site Visit",
+      "time": "2026-06-24T22:57:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103712-3A695940",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Rock chip sampling at Walwa represents a low-cost, high-optionality exploration catalyst — results from surface sampling can rapidly de-risk or upgrade the target's prospectivity, potentially re-rating the stock if assays confirm meaningful mineralisation.",
+        "The site visit component signals active stakeholder and investor engagement at the project level, suggesting management is building confidence in the Walwa target ahead of a potential drill program — a key value-inflection event for this micro-cap explorer.",
+        "As a market-sensitive disclosure, any rock chip assay results with anomalous grades (particularly gold, copper or REE depending on target commodity) could serve as a near-term share price trigger; investors should monitor follow-up announcements for drill targeting decisions and capital allocation implications."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "XPD",
+      "company": "XPEDRA RESOURCES LIMITED",
+      "headline": "Assays Confirm Further Wide Gold Intercepts at Springfield",
+      "time": "2026-06-24T22:56:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103708-6A1330917",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Assay confirmation of wide gold intercepts at Springfield materially de-risks the deposit's geological model, signalling potential resource upgrade potential and increasing the likelihood of a maiden or expanded JORC resource estimate — a key re-rating catalyst for junior explorers.",
+        "The market-sensitive classification underscores the materiality of the intercepts; wide intersections (as opposed to narrow high-grade hits) are particularly significant for open-pit economic assessments, suggesting favourable strip ratios and bulk-tonnage optionality that institutional investors typically assign higher confidence multiples to.",
+        "Near-term focus will shift to follow-up drilling density, assay turnaround timelines, and whether Xpedra moves to define a resource — any announcement of an accelerated drill program or resource consultant engagement would serve as the next meaningful price catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Market Update"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CR3",
       "company": "CORE ENERGY MINERALS LTD",
