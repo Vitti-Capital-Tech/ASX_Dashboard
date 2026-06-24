@@ -1,9 +1,67 @@
 {
   "date": "2026-06-24",
-  "total": 93,
-  "market_sensitive_count": 69,
-  "generated_at": "2026-06-24T00:12:22.141567+00:00",
+  "total": 96,
+  "market_sensitive_count": 71,
+  "generated_at": "2026-06-24T00:40:49.926075+00:00",
   "announcements": [
+    {
+      "ticker": "CMB",
+      "company": "CAMBIUM BIO LIMITED",
+      "headline": "Change in substantial holding - ZYBT",
+      "time": "2026-06-24T00:28:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103325-2A1678949",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for Cambium Bio (ZYBT) signals a shift in the ownership structure of a key institutional or major shareholder, crossing either above or below the 5% disclosure threshold — warranting close monitoring of the direction of movement (accumulation vs. disposal).",
+        "Without confirmed transaction details, the filing could reflect either strategic accumulation by a sophisticated investor signalling conviction in Cambium Bio's pipeline, or a reduction that may indicate waning institutional confidence — the net directional change is the critical data point for positioning.",
+        "Investors should cross-reference this filing against recent capital raise activity, any upcoming clinical or regulatory catalysts for Cambium Bio, and broader sector flows in ASX-listed biotech/healthcare to assess whether this represents smart money entering or exiting the register."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CBL",
+      "company": "CONTROL BIONICS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-24T00:11:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103324-2A1678948",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Control Bionics (CBL) has entered a trading halt, suspending price discovery and liquidity for investors — historically, halts for micro-cap medtech companies most commonly precede a capital raise or material transaction announcement, warranting close monitoring of the subsequent release.",
+        "With CBL's last reported cash position under pressure and the company still in commercialisation phase for its NeuroNode assistive technology, any capital raise would carry meaningful dilution risk for existing shareholders given the likely need for equity funding at current market prices.",
+        "Investors should watch for the lifting of the halt — expected within 2 ASX trading days per exchange rules — with the nature of the announcement (capital raise vs. strategic deal vs. regulatory update) being the critical determinant of near-term price direction and sentiment reset."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RCE",
+      "company": "RECCE PHARMACEUTICALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-06-24T00:08:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103322-6A1330774",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt requested pending a material announcement — the market-sensitive classification signals a potentially significant corporate development, most likely a capital raise, partnership deal, or clinical trial update given Recce's stage as a pre-revenue biotech.",
+        "Recce has historically used trading halts to precede capital raises; with the company burning cash to fund its RECCE® 327 and RECCE® 529 antimicrobial pipeline, any equity raise would raise dilution concerns for existing shareholders and warrants close monitoring of pricing and structure.",
+        "Investors should watch for the resumption announcement closely — a positive catalyst such as a licensing deal, FDA/TGA regulatory milestone, or strategic partnership could be transformative for this small-cap healthcare name, while a discounted placement would likely pressure the share price near-term."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "KM1",
       "company": "KALI METALS LIMITED",
