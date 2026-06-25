@@ -1,9 +1,66 @@
 {
   "date": "2026-06-25",
-  "total": 112,
-  "market_sensitive_count": 94,
-  "generated_at": "2026-06-25T00:45:51.081246+00:00",
+  "total": 115,
+  "market_sensitive_count": 96,
+  "generated_at": "2026-06-25T01:43:34.703637+00:00",
   "announcements": [
+    {
+      "ticker": "SDI",
+      "company": "SDI LIMITED",
+      "headline": "Scheme becomes effective",
+      "time": "2026-06-25T01:15:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103857-3A695963",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The scheme of arrangement becoming effective marks the point of no return for SDI Limited's acquisition — shareholders who voted in favour are now legally locked in, with the transaction proceeding to implementation and delisting from the ASX imminent.",
+        "This milestone typically triggers the release of scheme consideration to shareholders within 5–10 business days, meaning investors should expect cash or scrip proceeds to be distributed shortly — a key liquidity event for existing holders.",
+        "Post-effectiveness, SDI will cease to be a publicly traded entity on the ASX, eliminating any remaining market price discovery; institutional holders should ensure custodial and settlement arrangements are in place ahead of the record date to avoid delays in receiving scheme consideration."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RAU",
+      "company": "RESOURO STRATEGIC METALS INC.",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-25T01:11:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103856-6A1330967",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Resouro Strategic Metals, indicating a major shareholder has crossed (or moved through) a 5% ownership threshold — warranting close monitoring of whether this reflects accumulation or distribution of stock.",
+        "The direction of the holding change is critical context: if a substantial holder is increasing their position, it may reflect conviction in Resouro's strategic metals assets (notably its Tiros titanium project in Brazil); a reduction could signal profit-taking or loss of institutional confidence in near-term catalysts.",
+        "Investors should track subsequent substantial holding notices to identify emerging ownership concentration or dispersion trends, as shifts in the register of a junior explorer can materially influence liquidity, takeover speculation, and future capital raise dynamics."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BOA",
+      "company": "BOA RESOURCES LTD",
+      "headline": "Presentation Acquisition of Neds Creek Copper Deposits",
+      "time": "2026-06-25T00:49:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103849-6A1330963",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "BOA Resources is acquiring the Neds Creek Copper Deposits, a strategically significant move given the structural tailwinds for copper demand driven by global electrification and energy transition themes — positioning the company to capture re-rating potential if the asset demonstrates meaningful resource scale.",
+        "The market-sensitive classification signals material new information; investors will be closely scrutinising acquisition terms including consideration structure (cash, scrip, or hybrid), any implied resource valuation metrics, and whether the deal is dilutive to existing shareholders via a capital raise component.",
+        "Key near-term catalysts to watch include the release of historical drilling data or JORC resource estimates for Neds Creek, any planned exploration programs to define or upgrade the resource, and management's articulated pathway to production — all of which will determine whether this acquisition translates into tangible value creation."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CBL",
       "company": "CONTROL BIONICS LIMITED",
