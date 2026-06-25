@@ -1,9 +1,239 @@
 {
   "date": "2026-06-25",
-  "total": 96,
-  "market_sensitive_count": 78,
-  "generated_at": "2026-06-24T23:55:15.922554+00:00",
+  "total": 108,
+  "market_sensitive_count": 90,
+  "generated_at": "2026-06-25T00:22:09.269991+00:00",
   "announcements": [
+    {
+      "ticker": "REZ",
+      "company": "RESOURCES & ENERGY GROUP LIMITED",
+      "headline": "Investor Update",
+      "time": "2026-06-25T00:14:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103825-2A1679353",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification elevates urgency — the 'Investor Update' label on a market-sensitive filing typically signals a material development such as a project milestone, capital event, or strategic transaction that could re-rate the stock near-term.",
+        "Without disclosed financials or operational metrics in the headline, the critical watch points are cash position and burn rate for this small-cap resources and energy play, where liquidity risk is a persistent concern for institutional holders.",
+        "Next catalyst focus should be on whether this update precedes a capital raise, JV/farm-out agreement, or exploration result — common triggers for investor updates in the junior resources sector that will define the near-term price trajectory."
+      ],
+      "tags": [
+        "Mining",
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KGL",
+      "company": "KGL RESOURCES LIMITED",
+      "headline": "Issue of Cleansing Notice under section 708AA(2)(f) Corps Ac",
+      "time": "2026-06-25T00:10:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103824-2A1679351",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "KGL Resources has lodged a cleansing notice under s708AA(2)(f) of the Corporations Act, confirming the company has completed a capital raise — likely a placement — without a prospectus, relying on the continuous disclosure exemption to ensure new shares are freely tradeable on ASX.",
+        "The cleansing notice signals fresh equity has been issued, implying dilution for existing shareholders; the quantum, pricing, and use of proceeds are critical details that will determine the net impact on the balance sheet and project funding capacity for the Jervois copper project in the Northern Territory.",
+        "Investors should monitor the accompanying placement terms closely — KGL has historically faced funding challenges at Jervois, so the size and investor quality of this raise will be a key indicator of market confidence in the project's development timeline and near-term cash runway."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REZ",
+      "company": "RESOURCES & ENERGY GROUP LIMITED",
+      "headline": "RC Drilling Confirms Gold Mineralisation at Gigante Grande",
+      "time": "2026-06-25T00:09:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103823-2A1679352",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "RC drilling at Gigante Grande has confirmed gold mineralisation, validating the geological thesis and de-risking the project at an early stage — a critical inflection point that shifts the asset from speculative to drill-confirmed, potentially re-rating the stock on a per-ounce discovery basis.",
+        "The market-sensitive classification signals material new information; investors will scrutinise intercept widths, grades (g/t Au), and continuity of mineralisation to assess whether results are economically significant or require further infill drilling to establish resource potential.",
+        "Next catalysts will likely include assay results turnaround (typically 4–8 weeks), follow-up step-out or infill drilling programs, and potential maiden resource estimation — the pace of capital deployment and cash runway will be key constraints on how aggressively the company can advance the project."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KGL",
+      "company": "KGL RESOURCES LIMITED",
+      "headline": "Equity Raising Presentation",
+      "time": "2026-06-25T00:08:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103822-2A1679349",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "KGL Resources is executing an equity raising that will dilute existing shareholders — the critical unknown is pricing and size relative to current market cap, which will determine whether this is opportunistic capital or distress-driven funding for its Jervois copper-cobalt project in the NT.",
+        "The market-sensitive classification signals material new information is being disclosed; investors should scrutinise the use-of-proceeds carefully — any allocation toward project construction or feasibility advancement at Jervois would be strategically positive, whereas debt servicing or working capital burn would be a red flag.",
+        "Near-term outlook hinges on whether institutional support is secured at a credible price — a heavily discounted raise or reliance on underwriters would signal weak demand and likely trigger further selling pressure, while an oversubscribed book at a modest discount could stabilise the register and re-rate the stock on improved funding certainty."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SKN",
+      "company": "SKIN ELEMENTS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-25T00:03:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103819-6A1330955",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Skin Elements Limited (SKN) has entered a trading halt, suspending price discovery and liquidity for investors — the halt is flagged as market sensitive, signalling a material corporate event is imminent rather than routine administrative action.",
+        "Trading halts of this nature on micro-cap ASX-listed consumer healthcare companies most commonly precede a capital raise, M&A announcement, or material business update — given SKN's historically thin cash position and early-stage commercialisation profile, a capital raise to fund operations or a strategic partnership deal are the highest-probability catalysts.",
+        "Investors should monitor the resumption announcement closely; if the halt resolves into a dilutive placement or rights issue at a discount, near-term selling pressure is likely, whereas a strategic partnership or licensing deal could re-rate the stock — position sizing should remain cautious until the nature of the pending announcement is confirmed."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FLG",
+      "company": "FLAGSHIP MINERALS LIMITED",
+      "headline": "Flagship sells RK Lithium for A$5.8 million cash",
+      "time": "2026-06-24T23:59:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103815-6A1330954",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Flagship Minerals has divested its RK Lithium asset for A$5.8M in cash, representing a clean exit from a non-core lithium position at a time when lithium market sentiment remains depressed — suggesting the company prioritised liquidity over holding for a potential price recovery.",
+        "The A$5.8M cash injection is likely material relative to Flagship's market capitalisation and existing cash reserves, potentially extending runway significantly and reducing near-term capital raise risk — a key positive for existing shareholders facing dilution concerns.",
+        "The strategic pivot implied by this divestment warrants close attention: proceeds redeployment into core assets or a new focus area will be the critical next catalyst, and management's stated use of funds will determine whether this transaction is value-accretive or simply a balance sheet stabilisation move."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SGL",
+      "company": "RICEGROWERS LIMITED",
+      "headline": "FY26 Results Investor Presentation",
+      "time": "2026-06-24T23:57:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103814-2A1679346",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 investor presentation signals a formal results cycle milestone for Ricegrowers (SunRice), with market-sensitive classification indicating material financial disclosures that could reset earnings expectations across its branded rice and food ingredients divisions.",
+        "Key metrics to watch include EBITDA margin trajectory across the CopRice, SunRice International, and Riviana segments, given recent headwinds from Australian rice pool volumes, input cost inflation, and FX exposure on export revenues — any beat on consensus EBIT will be a near-term catalyst.",
+        "Forward guidance on paddy rice pool size for FY27 and capital allocation priorities (dividends, debt reduction, or M&A) will be critical for institutional holders, particularly given the cooperative structure's sensitivity to grower returns and balance sheet leverage ratios."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KGL",
+      "company": "KGL RESOURCES LIMITED",
+      "headline": "A$300M Equity Raising to Fully Fund Development of  Jervois",
+      "time": "2026-06-24T23:56:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103813-2A1679337",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "KGL is raising A$300M in equity to fully fund the Jervois copper-cobalt project in the Northern Territory — a rare 'fully funded' milestone that eliminates project finance execution risk and removes a major overhang that has historically discounted junior developers at this stage.",
+        "The scale of the raise is significant relative to KGL's market cap, implying substantial dilution for existing shareholders; the key variables to watch are the issue price discount, the composition of the investor syndicate (strategic vs. institutional), and whether offtake agreements underpin the raise — all of which will determine whether dilution is offset by de-risking premium.",
+        "With full funding secured, KGL can now move to a Final Investment Decision (FID) and construction commencement at Jervois, positioning the company as a near-term copper and cobalt producer at a time when both metals face structural supply deficits driven by energy transition demand — a compelling macro tailwind for project valuation."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MSB",
+      "company": "MESOBLAST LIMITED",
+      "headline": "Mesoblast Draws US$50M from Five-Year Non-Dilutive Facility",
+      "time": "2026-06-24T23:55:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103812-3A695959",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mesoblast has drawn the full US$50M tranche from its non-dilutive debt facility, preserving existing shareholder equity — a critical distinction given the company's history of equity raises and investor sensitivity to dilution; this structure signals improved balance sheet confidence and lender conviction in the Ryoncil commercialisation pathway.",
+        "The US$50M drawdown materially extends cash runway at a pivotal inflection point, with Ryoncil (remestemcel-L) now FDA-approved for paediatric SR-aGVHD and the company scaling US commercial operations — this capital directly funds the commercial ramp without forcing shareholders to absorb dilution at current price levels.",
+        "The five-year tenor of the facility provides medium-term financial visibility through anticipated revenue milestones, reducing near-term refinancing risk; investors should monitor the facility's covenant structure and drawdown conditions in the full agreement, as these will determine operational flexibility and downside protection if commercial uptake lags projections."
+      ],
+      "tags": [
+        "Healthcare",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SGL",
+      "company": "RICEGROWERS LIMITED",
+      "headline": "FY26 Financial Results Announcement",
+      "time": "2026-06-24T23:55:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103809-2A1679339",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 full-year financial results announcement is market sensitive, signalling material variance from prior expectations — investors should brace for potentially significant earnings movement relative to consensus estimates for this rice and food processing cooperative.",
+        "As a vertically integrated agribusiness (SunRice brand), key metrics to watch include rice pool returns to growers, EBITDA margins across the Consumer Foods and Riviana segments, and the impact of Australian rice crop volumes which have been subject to weather variability in the Riverina region.",
+        "Outlook commentary will be critical given ongoing cost pressures in food manufacturing, FX headwinds on export revenues, and any guidance on the FY27 rice pool price — a key driver of grower sentiment and future paddy supply commitments that underpin the company's processing volumes."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEM",
+      "company": "MEMPHASYS LIMITED.",
+      "headline": "UK Market Entry & Acceleration of Commercial Expansion",
+      "time": "2026-06-24T23:53:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103806-3A695958",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "UK market entry represents a significant geographic expansion for Memphasys's Felix sperm separation device, opening access to one of Europe's largest IVF markets (~70,000+ cycles annually) and providing a credible pathway to revenue diversification beyond Australia — critical for a pre-scale medtech with limited commercial traction to date.",
+        "The 'acceleration' framing of commercial expansion is strategically important but warrants scrutiny: Memphasys has historically struggled to convert clinical validation into meaningful revenue, so investors should monitor whether this announcement is underpinned by a distribution agreement, named partner, or binding commercial terms versus an indicative MOU or letter of intent.",
+        "Near-term catalysts to watch include confirmation of a UK regulatory pathway (UKCA marking post-Brexit), distribution channel specifics, and any implied revenue timeline — the company's cash runway will be a key constraint on how aggressively it can fund UK market development without triggering a dilutive capital raise."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKN",
+      "company": "SKIN ELEMENTS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-06-24T23:52:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103804-6A1330951",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Skin Elements has requested a pause in trading (voluntary suspension), signalling a material corporate event is imminent — likely a capital raise, M&A activity, or a significant business development requiring market-sensitive disclosure preparation.",
+        "As a micro-cap ASX-listed skincare company, any trading halt typically precedes announcements that could materially re-rate the stock in either direction; investors should note the 'market sensitive' flag elevates the probability of a substantive, price-moving disclosure rather than routine administrative action.",
+        "Key watch points upon resumption include: terms of any capital raise (dilution risk for existing holders), nature of any partnership or distribution deal, and whether the announcement addresses the company's cash runway — a persistent concern for small-cap consumer healthcare names at this stage of development."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "LLC",
       "company": "LENDLEASE GROUP",
