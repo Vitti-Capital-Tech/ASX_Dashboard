@@ -1,9 +1,87 @@
 {
   "date": "2026-06-25",
-  "total": 108,
-  "market_sensitive_count": 90,
-  "generated_at": "2026-06-25T00:22:09.269991+00:00",
+  "total": 112,
+  "market_sensitive_count": 94,
+  "generated_at": "2026-06-25T00:45:51.081246+00:00",
   "announcements": [
+    {
+      "ticker": "CBL",
+      "company": "CONTROL BIONICS LIMITED",
+      "headline": "Completion of Placement",
+      "time": "2026-06-25T00:40:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103836-2A1679354",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Placement completion signals immediate dilution risk for existing shareholders, with new shares issued at a likely discount to market price — a common structural negative for near-term price action in small-cap healthcare names on the ASX.",
+        "The capital raise provides Control Bionics with fresh liquidity to extend its cash runway, critical for a pre-profitability medtech company reliant on external funding to commercialise its assistive communication technology (NeuroNode) across US and Australian markets.",
+        "Investor appetite and the placement price relative to the last traded price will be the key signal to watch — a tight discount with strong institutional participation would indicate confidence in the company's near-term growth trajectory, while a steep discount would flag ongoing funding pressure."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LLC",
+      "company": "LENDLEASE GROUP",
+      "headline": "Lendlease announces divestment of its interest in Keyton",
+      "time": "2026-06-25T00:31:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103833-2A1679359",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lendlease is divesting its stake in Keyton (formerly Lendlease Retirement Living), a capital-intensive aged-care/retirement village operator — this accelerates the group's strategic pivot toward a leaner, development-and-investment-management model and reduces balance sheet drag from non-core assets.",
+        "The divestment is expected to unlock meaningful capital for redeployment or debt reduction; Keyton was valued at approximately A$1.7–2bn in prior market estimates, meaning proceeds could materially strengthen LLC's liquidity position and improve gearing metrics at a time when the group has faced significant balance sheet pressure.",
+        "This transaction represents a critical execution milestone in CEO Tony Lombardo's asset-shedding program — successful completion would validate the group's turnaround narrative, though investors will scrutinise the final sale price relative to book value for any impairment risk and the timeline for proceeds to flow through to the balance sheet."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BOA",
+      "company": "BOA RESOURCES LTD",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-06-25T00:24:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103832-6A1330961",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BOA Resources has been reinstated to quotation on the ASX, signalling that the company has satisfied exchange compliance requirements — the nature and outcome of the underlying suspension event will be the critical determinant of near-term price direction upon resumption of trading.",
+        "Reinstatement announcements are classified as market sensitive, suggesting the suspension was tied to a material corporate event (e.g. capital raise, acquisition, or significant asset update) rather than a routine administrative matter — investors should scrutinise the accompanying disclosure for dilution risk or asset revaluation implications.",
+        "First-day trading volume and price action post-reinstatement will be closely watched as a sentiment barometer; historically, ASX small-cap reinstatements following material events can exhibit elevated volatility, and institutional participants should assess the liquidity profile and free float before establishing or adjusting positions."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BOA",
+      "company": "BOA RESOURCES LTD",
+      "headline": "BOA Acquires Copper Deposits in the Neds Creek Project, WA",
+      "time": "2026-06-25T00:24:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03103830-6A1330953",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BOA Resources has acquired copper deposits within the Neds Creek Project in Western Australia, expanding its resource base in a jurisdiction highly prospective for base metals — a strategically significant move given copper's critical role in the global energy transition and sustained price strength above USD $4/lb.",
+        "The market-sensitive classification signals material information content; investors should scrutinise acquisition terms including consideration structure (scrip vs. cash), any deferred payments or royalty obligations, and whether the deal is dilutive to existing shareholders — details that will determine whether this is value-accretive or a capital efficiency risk.",
+        "Near-term catalysts to watch include the release of historical or maiden resource estimates for the Neds Creek copper deposits, planned exploration drilling programs, and any updated corporate strategy outlining how this acquisition integrates with BOA's existing portfolio — all of which will be critical for re-rating the stock from explorer to developer status."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "REZ",
       "company": "RESOURCES & ENERGY GROUP LIMITED",
