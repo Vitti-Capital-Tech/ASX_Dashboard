@@ -1,9 +1,180 @@
 {
   "date": "2026-06-26",
-  "total": 24,
-  "market_sensitive_count": 10,
-  "generated_at": "2026-06-25T22:36:11.243517+00:00",
+  "total": 33,
+  "market_sensitive_count": 19,
+  "generated_at": "2026-06-25T23:04:18.225543+00:00",
   "announcements": [
+    {
+      "ticker": "AQD",
+      "company": "AUSQUEST LIMITED",
+      "headline": "Coober Pedy IOCG Drilling Update",
+      "time": "2026-06-25T23:01:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104189-6A1331100",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AusQuest's Coober Pedy IOCG (Iron Oxide Copper-Gold) drilling program represents a high-impact exploration catalyst — IOCG systems can host world-class deposits (e.g. Olympic Dam), making any meaningful intercepts potentially transformative for a junior explorer of AusQuest's market capitalisation.",
+        "The market-sensitive classification signals management believes drilling results contain material information capable of moving the share price — investors should scrutinise assay grades, intercept widths, and depth to mineralisation against the company's pre-drill target model to assess whether the system has economic scale.",
+        "Near-term focus will be on follow-up drilling decisions and timeline to further assay results; a positive outcome could accelerate farm-out or JV discussions with a major, while disappointing results risk a re-rating of the Coober Pedy project and potential reallocation of the company's limited exploration budget."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LLC",
+      "company": "LENDLEASE GROUP",
+      "headline": "Lendlease completes recycling of UK BTR assets",
+      "time": "2026-06-25T22:58:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104187-2A1679615",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Capital recycling execution: Lendlease has completed the divestment of its UK Build-to-Rent (BTR) assets, representing a meaningful step in the group's ongoing portfolio simplification strategy to exit non-core international development exposures and redeploy capital into higher-conviction platforms.",
+        "Balance sheet relief: Proceeds from the UK BTR recycling are expected to reduce gearing and improve liquidity headroom at a time when Lendlease faces elevated debt scrutiny — the quantum and net book value realised relative to carrying value will be the critical metric for investors assessing whether value was preserved or crystallised at a discount.",
+        "Strategic pivot reinforced: The exit aligns with CEO Tony Lombardo's stated priority of concentrating the group's development pipeline on core Australian and select international urbanisation projects, reducing geographic complexity and management bandwidth — further asset sales in non-core markets should be anticipated as the simplification program progresses."
+      ],
+      "tags": [
+        "Property",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CZR",
+      "company": "CZR RESOURCES LTD",
+      "headline": "CZR Resources acquisition of Zuleika Gold Presentation",
+      "time": "2026-06-25T22:57:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104185-6A1331097",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "CZR Resources is acquiring Zuleika Gold in a market-sensitive transaction that signals a strategic pivot toward gold exposure, potentially diversifying away from its iron ore base and repositioning the company for a higher-valuation commodity cycle — critical context given gold's current strength above US$2,300/oz.",
+        "The deal structure and consideration terms (scrip, cash, or hybrid) will be the key valuation lever to watch; any significant equity component risks near-term dilution for existing CZR shareholders, while an all-scrip deal may indicate limited balance sheet capacity and warrants scrutiny of the combined entity's pro-forma cash position and burn rate.",
+        "Next steps hinge on shareholder approval, regulatory clearance, and the quality of Zuleika's resource base — investors should assess whether the acquisition adds JORC-compliant ounces at a competitive acquisition cost per resource ounce relative to ASX gold sector peers, and whether management has the operational capability to execute a gold development strategy."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CZR",
+      "company": "CZR RESOURCES LTD",
+      "headline": "CZR AND ZULEIKA TO MERGE VIA RECOMMENDED TAKEOVER OFFER",
+      "time": "2026-06-25T22:57:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104184-6A1331095",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "CZR Resources and Zuleika Gold are merging via a recommended scrip takeover, signalling board-level conviction in the strategic rationale — 'recommended' status materially reduces deal-break risk and typically compresses target discount to implied offer price, creating near-term re-rating pressure for CZR shareholders.",
+        "The all-scrip structure preserves cash for both entities post-merger, critical for junior miners facing elevated exploration and development capex; investors should scrutinise the exchange ratio and resulting ownership split to assess whether CZR holders are acquiring Zuleika's gold assets at an accretive or dilutive implied valuation relative to JORC resources.",
+        "Key near-term catalysts to monitor include the independent expert's report (fair and reasonable determination), any competing bid risk given Zuleika's gold exposure in a rising gold price environment, and the shareholder vote timeline — any delay or emergence of a rival offer could significantly reprice both stocks."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CNI",
+      "company": "CENTURIA CAPITAL GROUP",
+      "headline": "Opening of the Retail Entitlement Offer",
+      "time": "2026-06-25T22:54:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104183-2A1679614",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "The opening of the Retail Entitlement Offer signals the final phase of Centuria's capital raise, extending participation rights to retail shareholders — typically at a fixed discount to market price, which creates near-term dilution pressure on existing holders who do not participate.",
+        "Retail entitlement offers in the property sector are closely watched for take-up rates; low participation could leave significant shortfall stock to be placed in the market, adding overhang risk, while strong uptake would validate investor confidence in Centuria's balance sheet and deployment strategy.",
+        "Proceeds are likely earmarked for debt reduction, asset acquisition, or balance sheet recapitalisation within Centuria's diversified real estate platform — investors should monitor the use-of-funds disclosure and any updated NTA guidance to assess whether the raise is accretive or dilutive to long-term per-security value."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TA1",
+      "company": "TRANSURBAN FINANCE COMPANY PTY LTD",
+      "headline": "North America update",
+      "time": "2026-06-25T22:53:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104181-2A1679613",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive North America update signals a potentially material development in Transurban's US operations, which span key assets including the 495, 95, and 395 Express Lanes in Virginia and the A25 in Montreal — collectively representing a meaningful portion of group revenue and growth optionality.",
+        "North America remains a strategic growth pillar for Transurban, contributing approximately 20-25% of proportional EBITDA; any update on traffic volumes, toll revenue performance, or capital project milestones will directly inform near-term earnings trajectory and distribution sustainability.",
+        "Investors should watch for commentary on the I-495 Capital Beltway Express Lanes extension or other development pipeline updates, as project delays or cost escalations in the US corridor could pressure the group's capital allocation framework and long-dated return assumptions."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TCL",
+      "company": "TRANSURBAN GROUP",
+      "headline": "North America update",
+      "time": "2026-06-25T22:45:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104177-3A696022",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive North America update signals a potentially material development in Transurban's US portfolio (comprising ~15% of group proportional EBITDA), which includes the 95 Express Lanes, A25, and Greater Washington assets — any traffic or revenue revision here carries direct earnings implications.",
+        "North American toll roads have faced headwinds from hybrid work patterns suppressing peak-hour traffic recovery; any guidance revision or traffic data disclosed in this update will be closely scrutinised against the FY25 consensus EBITDA forecasts and distribution sustainability targets.",
+        "Investors should monitor whether this update relates to a concession amendment, refinancing event, or operational performance reset — each carries distinct valuation consequences for Transurban's asset-backed distribution model and its ability to maintain the ~4% distribution yield underpinning institutional demand."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NWH",
+      "company": "NRW HOLDINGS LIMITED",
+      "headline": "Golding - Contract awards",
+      "time": "2026-06-25T22:40:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104173-6A1331094",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NRW Holdings' Golding division has secured new contract awards, directly bolstering the group's order book and providing near-term revenue visibility — a key valuation driver for construction and mining services companies trading on forward earnings multiples.",
+        "The market-sensitive classification signals material contract value; institutional investors should monitor the aggregate dollar quantum disclosed, as Golding's bulk earthworks and civil construction contracts typically range from $50M–$300M+, with meaningful EBITDA margin contribution to NRW's consolidated earnings.",
+        "Contract wins reinforce Golding's competitive positioning in the east-coast bulk materials and civil infrastructure pipeline, supporting NRW's FY25 revenue guidance trajectory and reducing execution risk around work-in-hand replenishment — a critical metric heading into the next earnings update."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "S2R",
+      "company": "S2 RESOURCES LTD",
+      "headline": "Jillewarra JV - Tenements granted, drilling imminent",
+      "time": "2026-06-25T22:35:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104169-6A1331093",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tenement grant removes a key regulatory overhang for the Jillewarra JV, confirming ground tenure and unlocking the pathway to drill-ready status — a critical de-risking milestone that institutional investors in early-stage explorers closely monitor before committing capital.",
+        "The imminent drilling program represents the first hard-data catalyst for the JV, with results likely to serve as the primary near-term share price driver; success could attract JV partner interest or re-rate the stock on discovery metrics, while a miss would test current speculative premiums.",
+        "S2 Resources' ability to advance Jillewarra to drill-ready stage signals disciplined project execution; investors should watch for drill hole count, target depth, and commodity focus (likely gold/base metals given S2's Western Australian exploration profile) in the forthcoming program details to assess scale of the opportunity."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CHW",
       "company": "CHILWA MINERALS LTD",
