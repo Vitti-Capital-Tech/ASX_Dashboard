@@ -1,9 +1,278 @@
 {
   "date": "2026-06-26",
-  "total": 47,
-  "market_sensitive_count": 32,
-  "generated_at": "2026-06-25T23:31:07.389604+00:00",
+  "total": 61,
+  "market_sensitive_count": 46,
+  "generated_at": "2026-06-26T00:00:36.649420+00:00",
   "announcements": [
+    {
+      "ticker": "DJW",
+      "company": "DJERRIWARRH INVESTMENTS LIMITED",
+      "headline": "Update on the upcoming Quarterly Dividend",
+      "time": "2026-06-25T23:54:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104275-3A696035",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Market-sensitive classification signals a material change to the upcoming quarterly dividend — likely a cut or suspension relative to prior expectations, warranting immediate attention from income-focused investors who rely on DJW's consistent distribution track record.",
+        "Djerriwarrh's dividend is directly tied to option premium income and franking credit availability from its covered-call LIC strategy; any shortfall in option writing revenue or franking credits from underlying holdings (predominantly major banks and blue-chips) would mechanically compress the payout.",
+        "Investors should monitor the revised dividend quantum against the prior quarterly rate and assess whether this reflects a one-off disruption or a structural reset of DJW's income generation capacity, which could reprice the stock relative to its NTA and peer LICs."
+      ],
+      "tags": [
+        "Dividend",
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DGR",
+      "company": "DGR GLOBAL LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-06-25T23:49:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104273-2A1679699",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DGR Global has entered a trading pause (distinct from a formal trading halt), suggesting imminent material news is pending — likely a capital raise, asset transaction, or significant exploration update requiring price-sensitive disclosure management.",
+        "The market-sensitive classification elevates the urgency; institutional investors should note that trading pauses on junior resource companies like DGR Global (focused on gold and base metals exploration) frequently precede farm-out agreements, JV announcements, or equity placements that can materially re-rate the stock.",
+        "Next steps: Monitor for a follow-up ASX announcement within 24–48 hours — if the catalyst is a capital raise, expect short-term dilution pressure; if it is an M&A or strategic partnership, the re-rating potential could be significant given DGR's diversified project portfolio including its stake in SolGold."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BDC",
+      "company": "MUZINICH BDC INCOME FUND - ACTIVE ETF",
+      "headline": "Actual Distribution for month end 30 June 2026 Revised Title",
+      "time": "2026-06-25T23:45:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104262-2A1679692",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Muzinich BDC Income Fund has issued a revised distribution announcement for the month ending 30 June 2026, flagged as market sensitive — suggesting a material change to the previously communicated distribution amount that warrants immediate investor attention.",
+        "As an active ETF focused on Business Development Company (BDC) income exposure, any revision to the declared distribution directly impacts the fund's yield profile and income predictability, which are core metrics for the income-oriented institutional investors this product targets.",
+        "Investors should scrutinise whether the revision represents an upward or downward adjustment to the distribution rate, as a reduction could signal deteriorating underlying BDC credit quality or portfolio income compression, while an increase would reinforce the fund's income thesis ahead of the financial year-end."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SBZ",
+      "company": "SCHOOLBLAZER LIMITED",
+      "headline": "Completion of Refinance",
+      "time": "2026-06-25T23:44:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104261-2A1679691",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Refinancing completion removes near-term balance sheet uncertainty — investors should scrutinise the new facility's tenor, interest rate, and any covenant changes relative to the prior structure to assess whether terms are materially improved or simply rolled over under tighter conditions.",
+        "As a market-sensitive disclosure, the refinance likely involves a material change in debt quantum, lender composition, or security structure; the absence of specific facility size and rate details in the headline warrants close reading of the full announcement to quantify impact on interest expense and free cash flow.",
+        "Successful refinancing typically extends the debt maturity runway and signals lender confidence in the business — next focus for investors will be whether the new facility provides sufficient headroom to fund growth initiatives or whether covenants constrain operational flexibility in the near term."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SIV",
+      "company": "SIV CAPITAL LIMITED",
+      "headline": "SIV - Market update",
+      "time": "2026-06-25T23:42:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104259-2A1679685",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material undisclosed information — investors should treat this as a potential price-moving event until full details are released, warranting heightened attention to position sizing and risk management.",
+        "The absence of specific financial metrics or operational data in the headline limits quantitative assessment, but the 'Market Update' document type from a capital markets-focused entity (SIV Capital) typically precedes announcements on fund performance, asset revaluations, or strategic transactions.",
+        "Next steps hinge entirely on the substance of the update — key watch points include any revision to net asset values, changes to investment mandates, liquidity events, or regulatory developments that could materially alter SIV Capital's earnings trajectory or capital structure."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "14D",
+      "company": "1414 DEGREES LIMITED",
+      "headline": "Bonus Loyalty Options Offer",
+      "time": "2026-06-25T23:41:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104257-2A1679689",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bonus loyalty options offer signals a retention-focused capital strategy, rewarding existing shareholders with free options to incentivise holding behaviour — a common tactic for micro-cap companies seeking to stabilise their register without immediate cash dilution.",
+        "The market-sensitive classification warrants scrutiny on strike price and expiry terms: if options are issued at a material discount to market with near-term expiry, this represents latent dilution risk that could weigh on the share price upon exercise, particularly given 1414 Degrees' historically tight cash position as a pre-revenue energy storage technology company.",
+        "Near-term focus should be on the offer ratio, eligibility record date, and exercise price relative to current NTA — investors should assess whether this loyalty mechanism is a precursor to a broader capital raise, as bonus option programs are frequently used to soften the market ahead of a subsequent placement or rights issue."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FTI",
+      "company": "FORTIFAI LTD",
+      "headline": "FortifAI Appoints Inaugural Advisory Board Members",
+      "time": "2026-06-25T23:41:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104254-2A1679690",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FortifAI's inaugural advisory board appointment signals a deliberate credentialing push — for early-stage AI/tech companies, the calibre and domain relevance of advisors can materially influence institutional perception, partnership pipeline, and future capital raising capacity.",
+        "The market-sensitive classification elevates this beyond routine governance, suggesting management believes the advisory appointments carry strategic weight — likely indicating advisors with significant industry networks, government connections, or enterprise AI commercialisation experience that could accelerate revenue pathways.",
+        "As a pre-revenue or early-revenue AI company, the critical next step is converting advisory credibility into tangible outcomes (contracts, partnerships, or grant funding); investors should monitor whether these appointments are followed within 90 days by commercial announcements or a capital raise at improved terms."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NOV",
+      "company": "NOVATTI GROUP LIMITED",
+      "headline": "Novatti realises $1.2m from partial sale of stake in AUDC",
+      "time": "2026-06-25T23:41:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104255-3A696033",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Novatti has monetised $1.2M from a partial divestment of its stake in AU10TIX (AUDC), providing a meaningful cash injection that directly improves near-term liquidity — critical for a company that has faced ongoing cash burn pressures and the need to demonstrate a credible path to sustainability.",
+        "The partial — not full — sale signals Novatti retains residual upside exposure to AUDC while locking in realised gains; the key question for investors is the implied valuation of the remaining stake and whether the book value held on the balance sheet is now supported or potentially subject to further write-down or opportunistic monetisation.",
+        "This asset sale strategy suggests management is actively recycling non-core or minority holdings to fund operations rather than pursuing equity dilution via a capital raise — a relatively shareholder-friendly approach, though investors should monitor whether further stake sales are needed to sustain the runway into FY26."
+      ],
+      "tags": [
+        "Finance",
+        "Technology",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CAY",
+      "company": "CANYON RESOURCES LIMITED",
+      "headline": "Minim Martap Development Progress and Corporate Update",
+      "time": "2026-06-25T23:40:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104253-6A1331125",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Canyon Resources is advancing the Minim Martap bauxite project in Cameroon, one of the largest undeveloped high-grade bauxite deposits globally — progress on development milestones is critical to de-risking the asset and unlocking institutional interest in what remains a pre-revenue, capital-intensive project.",
+        "The corporate update signals ongoing engagement with potential offtake partners and project financiers, which is the key gating factor for Minim Martap; any formalisation of binding agreements would be materially re-rating given the project's scale, but absence of definitive deals keeps near-term catalysts limited.",
+        "With no production revenue, Canyon's cash runway and burn rate remain the primary near-term risk to monitor — investors should scrutinise the balance sheet position disclosed in this update, as further capital raises are likely required to fund feasibility and permitting work through to a final investment decision."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WCM",
+      "company": "WCM QUALITY GLOBAL GROWTH FUND - ACTIVE ETF",
+      "headline": "Estimated distribution for quarter ending 30 June 2026",
+      "time": "2026-06-25T23:34:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104244-2A1679649",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WCM Quality Global Growth Fund has flagged an estimated distribution for the quarter ending 30 June 2026, providing unitholders with advance visibility on income — a key consideration for yield-focused and income-mandated investors managing cash flow timing.",
+        "The market-sensitive classification signals the distribution estimate is material enough to potentially influence trading decisions; investors should monitor the final confirmed distribution rate against the estimate for any variance that could affect net asset value per unit around the ex-distribution date.",
+        "As an Active ETF, the distribution announcement reinforces the fund's income distribution cadence and may attract reinvestment activity or redemption pressure depending on the quantum — unitholders should assess the distribution yield relative to current unit price and comparable global equity ETF peers on the ASX."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GMD",
+      "company": "GENESIS MINERALS LIMITED",
+      "headline": "Drilling builds case for production growth at Laverton",
+      "time": "2026-06-25T23:34:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104243-6A1331117",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling results at Laverton are building a resource expansion case that could materially underpin a production growth pathway, a key re-rating catalyst for Genesis as it executes on its multi-asset consolidation strategy in WA's goldfields.",
+        "Market-sensitive classification signals the intercepts are likely of sufficient grade and width to move resource estimates or mine planning assumptions — investors should watch for step-out hits that extend mineralisation beyond current reserve boundaries and lift the production ceiling above existing guidance.",
+        "With Genesis having recently integrated the Dacian acquisition, positive Laverton drilling outcomes de-risk the broader asset portfolio and strengthen the investment case for sustaining or growing the ~300kozpa production target, potentially pulling forward capital allocation decisions on Laverton infrastructure."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "V50",
+      "company": "VANGUARD S&P 500 US SHARES INDEX ETF",
+      "headline": "Estimated Distribution Announcement",
+      "time": "2026-06-25T23:34:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104242-2A1679644",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Vanguard S&P 500 ETF (ASX: VTS/VOO equivalent) has flagged an estimated distribution, signalling a forthcoming income event for unitholders — the market-sensitive classification suggests the quantum may be material relative to prior periods or consensus expectations.",
+        "Estimated distributions from S&P 500 index ETFs are driven by underlying constituent dividends and any capital gains realisations; a higher-than-expected figure would boost yield metrics and could attract income-focused institutional rebalancing into the fund.",
+        "Investors should monitor the finalised distribution rate against the estimate and assess ex-distribution date timing, as any compression between NAV and unit price around the ex-date presents a short-term tactical consideration for both existing holders and prospective buyers."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SWT",
+      "company": "SWITZER DIVIDEND GROWTH FUND - ACTIVE ETF",
+      "headline": "Estimated distribution for month ending 30 June 2026",
+      "time": "2026-06-25T23:32:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104241-2A1679645",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The estimated distribution announcement for the month ending 30 June 2026 signals the fund is maintaining its regular income cadence, critical for yield-focused investors who rely on SWTZ's monthly distribution schedule as a core holding rationale.",
+        "As a market-sensitive disclosure, the estimated distribution quantum will directly influence near-term unit price behaviour — any distribution above or below trailing monthly averages could trigger rebalancing activity among income-oriented ETF holders and advisers.",
+        "With the June distribution marking the final month of FY2026, investors should assess the full-year distribution yield against the fund's stated growth objective; consistency or uplift in this final payment would reinforce the fund's positioning as a reliable active income vehicle heading into the new financial year."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DBF",
+      "company": "DUXTON FARMS LTD",
+      "headline": "Divestment of 'Duxton Apples' Assets",
+      "time": "2026-06-25T23:31:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104239-2A1679647",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Duxton Farms is divesting its 'Duxton Apples' horticultural assets, signalling a strategic pivot to concentrate on its core broadacre cropping and water entitlement operations — reducing operational complexity and potentially improving capital efficiency across the portfolio.",
+        "The divestment is market sensitive, suggesting the transaction involves material proceeds that could meaningfully strengthen the balance sheet or fund distributions; investors will be focused on the sale price relative to book value to assess whether value is being crystallised or impaired.",
+        "Proceeds from the asset sale provide management with strategic optionality — potential for capital returns to shareholders, debt reduction, or redeployment into higher-margin broadacre or water assets — making near-term capital allocation guidance the critical next catalyst to watch."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "MAT",
       "company": "MATSA RESOURCES LIMITED",
