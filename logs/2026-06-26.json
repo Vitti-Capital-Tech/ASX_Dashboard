@@ -1,9 +1,162 @@
 {
   "date": "2026-06-26",
-  "total": 71,
-  "market_sensitive_count": 55,
-  "generated_at": "2026-06-26T00:47:43.526382+00:00",
+  "total": 79,
+  "market_sensitive_count": 62,
+  "generated_at": "2026-06-26T01:45:54.535419+00:00",
   "announcements": [
+    {
+      "ticker": "AAS",
+      "company": "AIRLIE AUSTRALIAN SHARE FUND - ACTIVE ETF",
+      "headline": "Lifting of pause in trading",
+      "time": "2026-06-26T01:43:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104357-2A1679757",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Trading in AIRLIE Australian Share Fund (AASF) has resumed following a temporary pause, restoring full market access for investors and eliminating the liquidity risk associated with the halt period — a critical consideration for ETF arbitrage mechanisms and NAV tracking efficiency.",
+        "The lifting of the trading pause signals that the underlying operational or administrative trigger (likely a material portfolio event, index rebalance, or compliance review) has been resolved to ASX's satisfaction, reducing uncertainty around the fund's net asset value integrity.",
+        "Investors should monitor the fund's next iNAV disclosure and any accompanying portfolio update to assess whether the pause was linked to a significant position change or corporate action within the underlying Australian equities portfolio — key for gauging any residual price dislocation at market open."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MIC",
+      "company": "MAGELLAN INFRA FUND (CURRENCY HEDGED) - ACTIVE ETF",
+      "headline": "Lifting of pause in trading",
+      "time": "2026-06-26T01:41:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104355-2A1679756",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Trading in MICH has resumed following a halt, restoring market access for investors — the critical question is what material information triggered the pause and whether the disclosed catalyst is net positive or negative for NAV.",
+        "As a currency-hedged active ETF focused on global infrastructure, any trading halt typically signals a material portfolio event, valuation adjustment, or structural change — investors should scrutinise the accompanying disclosure for NAV restatements or significant holding changes.",
+        "Next steps: market participants should monitor the first post-resumption NAV print and bid/ask spread closely for price discovery signals, as liquidity and premium/discount dynamics may be temporarily elevated in the immediate trading sessions following a halt."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HPC",
+      "company": "THE HYDRATION PHARMACEUTICALS COMPANY LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-26T01:29:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104349-3A696039",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in The Hydration Pharmaceuticals Company Limited, signalling that an investor has crossed the 5% ownership threshold — a meaningful accumulation event that warrants monitoring for potential strategic intent or passive index-driven buying.",
+        "The identity, entry price, and total consideration paid by the substantial holder will be critical data points; if acquired at a premium to recent market prices, this could indicate conviction in the company's pipeline or near-term catalysts, while a low average cost basis may suggest opportunistic accumulation.",
+        "Investors should watch for any follow-on disclosures — including changes to substantial holding notices — as further accumulation beyond 10–15% could signal a precursor to a board influence play, strategic partnership, or M&A approach in the small-cap healthcare space."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MIC",
+      "company": "MAGELLAN INFRA FUND (CURRENCY HEDGED) - ACTIVE ETF",
+      "headline": "Pause in Trading",
+      "time": "2026-06-26T01:21:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104345-2A1679752",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A trading pause on MICH signals a material pending announcement is imminent — the market-sensitive classification elevates the risk of a significant structural or operational development, such as a fund restructure, fee change, or manager-level event at Magellan Financial Group.",
+        "As an active currency-hedged infrastructure ETF, any disruption to normal trading directly impacts investors relying on intraday liquidity for hedged exposure to global infrastructure assets — the pause removes price discovery and creates short-term execution risk for institutional holders.",
+        "Investors should monitor for the resumption announcement closely; given Magellan's history of high-profile management and product changes, the catalyst could range from a portfolio manager departure to a fund wind-up or merger with another Magellan vehicle, all of which carry meaningful NAV and strategy implications."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAS",
+      "company": "AIRLIE AUSTRALIAN SHARE FUND - ACTIVE ETF",
+      "headline": "Pause in Trading",
+      "time": "2026-06-26T01:19:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104344-2A1679751",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Airlie Australian Share Fund (AASF) has entered a trading pause, temporarily halting secondary market transactions on ASX — a procedural mechanism typically invoked ahead of a material announcement, NAV rebalancing event, or significant portfolio action that requires price discovery to be suspended.",
+        "As an Active ETF, a trading halt in this vehicle is notable given the fund's continuous pricing structure; unlike listed investment companies, Active ETFs rely on market makers for liquidity, meaning any suspension disrupts arbitrage mechanisms and could signal an imminent structural or portfolio-level disclosure from Airlie Funds Management (a Magellan subsidiary).",
+        "Investors should monitor for the resumption announcement closely — the nature of the subsequent disclosure (e.g. fee changes, fund restructure, significant holding adjustment, or corporate action) will determine directional impact; in the interim, holders are unable to exit positions on-market, creating short-term liquidity risk."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HWK",
+      "company": "HAWK RESOURCES LIMITED.",
+      "headline": "Security Class Reinstatement to Quotation - HWKOB",
+      "time": "2026-06-26T01:17:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104340-6A1331154",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reinstatement of HWKOB securities to quotation signals the resolution of a prior compliance or administrative suspension, restoring full market liquidity for option holders who were previously unable to trade — a critical unlock for affected investors.",
+        "The 'OB' suffix denotes an options class, meaning this reinstatement specifically impacts Hawk Resources' listed options rather than ordinary shares (HWK); investors should monitor whether this triggers renewed interest in the underlying equity as option pricing re-establishes market-implied volatility.",
+        "As a market-sensitive announcement, institutional participants should assess whether the reinstatement coincides with any pending corporate activity — such as a capital raise, asset update, or expiry event — that may have precipitated the original suspension and could now catalyse near-term price movement in both the options and underlying shares."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "B1S",
+      "company": "BELL GLOBAL EMERGING COMPANIES CLASS A ACTIVE ETF",
+      "headline": "Updated Distribution Notice",
+      "time": "2026-06-26T00:55:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104329-2A1679741",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The updated distribution notice signals a revision to previously communicated distribution figures, which may reflect changes in underlying income, realised gains, or tax component allocations — critical for unitholders managing tax positions and yield expectations.",
+        "As a market-sensitive filing, the amendment carries material implications: any upward revision to the per-unit distribution would be accretive to income-focused investors, while a downward revision could trigger redemption pressure or reallocation away from the fund.",
+        "Investors should reconcile the updated figures against the original notice to assess the magnitude of the change; discrepancies in emerging markets ETF distributions often stem from currency hedging costs, foreign tax withholding adjustments, or late-arriving income from offshore holdings — all of which affect net yield delivered to Australian unitholders."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASM",
+      "company": "AUSTRALIAN STRATEGIC MATERIALS LIMITED",
+      "headline": "Indicative timing for Scheme Meetings",
+      "time": "2026-06-26T00:54:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104328-6A1331152",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASM has confirmed indicative timing for Scheme Meetings, signalling the proposed merger/acquisition transaction is progressing through regulatory and shareholder approval milestones — a critical de-risking event for deal completion certainty.",
+        "The market-sensitive classification underscores that scheme meeting timing directly impacts arbitrage positioning and deal spread dynamics; any slippage or acceleration in the schedule will materially affect the risk/reward calculus for merger arbitrageurs holding ASM stock.",
+        "Next step is formal shareholder vote at the Scheme Meeting — investors should monitor for Independent Expert Report release and any competing bid emergence in the window before the meeting, as these represent the primary binary risk events remaining before scheme implementation."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "FRA",
       "company": "FRANKLIN AUS ABSOLUTE RETURN BND FUND - ACTIVE ETF",
