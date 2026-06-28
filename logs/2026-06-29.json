@@ -1,9 +1,335 @@
 {
   "date": "2026-06-29",
-  "total": 43,
-  "market_sensitive_count": 40,
-  "generated_at": "2026-06-28T22:51:30.919878+00:00",
+  "total": 60,
+  "market_sensitive_count": 57,
+  "generated_at": "2026-06-28T23:18:10.501521+00:00",
   "announcements": [
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "Bauna SPS-92 production restart and 2026 guidance updated",
+      "time": "2026-06-28T23:13:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104823-3A696122",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bauna SPS-92 well restart signals recovery of a key production unit — the resumption directly restores lost barrels and is critical to Karoon meeting its revised 2026 full-year guidance, with any sustained uptime materially improving free cash flow generation from its core Brazilian asset.",
+        "The 2026 guidance update is the pivotal number to watch — investors should scrutinise whether the revised range represents a net downgrade (bearish re-rate risk) or a tightening/upgrade post-restart, as the delta versus prior guidance will drive near-term earnings and NAV revisions across the broker community.",
+        "With Karoon carrying meaningful debt and reliant on Bauna cash flows to fund both debt service and potential growth capital, sustained SPS-92 production stability is a prerequisite for balance sheet confidence — any further unplanned downtime would materially pressure the investment thesis and could trigger covenant scrutiny."
+      ],
+      "tags": [
+        "Production",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STW",
+      "company": "STATE STREET SPDR S&P/ASX 200 ETF",
+      "headline": "Update - Dividend/Distribution - STW",
+      "time": "2026-06-28T23:13:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104821-2A1679992",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "STW distribution update signals ongoing income delivery to unitholders tracking the S&P/ASX 200 index — the market-sensitive flag warrants attention as any revision to distribution quantum or timing can directly influence yield-focused institutional and retail positioning in Australia's most widely held broad-market ETF.",
+        "As Australia's largest and most liquid domestic equity ETF by AUM (~A$6B+), STW's distribution rate serves as a real-time proxy for aggregate S&P/ASX 200 dividend health — any uplift versus prior periods would reflect improving corporate payout momentum across heavyweight sectors including Financials, Materials, and Energy.",
+        "Investors should cross-reference the per-unit distribution against the prior quarter to assess whether franking credit pass-through remains intact, as changes to the franking component materially affect after-tax yield calculations for domestic superannuation funds and other tax-sensitive institutional holders."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MM1",
+      "company": "MIDAS MINERALS LTD",
+      "headline": "First drilling at Deblin intersects visual Cu mineralisation",
+      "time": "2026-06-28T23:12:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104819-6A1331351",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "First-pass drilling at the Deblin prospect has returned visual copper mineralisation, a meaningful early validation signal that confirms the target model and justifies accelerated follow-up — critical for a junior explorer where proof-of-concept drilling is the primary value catalyst.",
+        "Visual Cu intersections, while pending assay confirmation, indicate sufficient grade or mineralised width to be visible to the naked eye, historically correlating with economically significant copper concentrations; assay results will be the next binary event that either re-rates or de-risks the stock materially.",
+        "The market-sensitive classification signals management's own assessment of materiality; investors should watch for the quantitative assay data release (typically 4–8 weeks post-drilling) as the true inflection point, with drill spacing and strike continuity data key to determining whether Deblin can evolve into a resource-definition target."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BCM",
+      "company": "BRAZILIAN CRITICAL MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-28T23:12:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104818-6A1331353",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Brazilian Critical Minerals (BCM) has entered a trading halt, suspending price discovery and liquidity for investors — a standard precursor to a material announcement that the company is not yet ready to disclose to the market.",
+        "The market-sensitive classification signals the pending announcement is likely to be a capital raise, M&A activity, or a significant operational update related to its critical minerals assets in Brazil, all of which carry meaningful valuation implications.",
+        "Investors should monitor the halt closely for resumption conditions — if capital raising is the catalyst, dilution risk is the key concern; if it is a strategic partnership or offtake agreement, upside re-rating potential exists given the heightened global demand for critical minerals supply chain diversification."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DIF",
+      "company": "PERPETUAL DIVERSIFIED INCOME ACTIVE ETF",
+      "headline": "Estimated Distribution Announcement - June 2026",
+      "time": "2026-06-28T23:12:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104817-2A1679988",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Estimated distribution announcement for June 2026 signals continued income generation from the fund's diversified fixed income portfolio, providing unitholders with forward visibility on yield — a key attraction for income-focused institutional allocators in the current rate environment.",
+        "As a market-sensitive disclosure, the estimated distribution quantum will be closely scrutinised relative to prior periods; any compression in per-unit distributions could indicate deteriorating credit spreads, duration headwinds, or reduced portfolio income, while an uplift would reinforce the fund's yield competitiveness against benchmark peers.",
+        "Investors should monitor the final confirmed distribution rate against the estimate at ex-distribution date, as material variances may prompt tactical rebalancing among ETF arbitrageurs and income mandates — particularly relevant given active ETF structures can see NAV/price dislocations around distribution events."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KGL",
+      "company": "KGL RESOURCES LIMITED",
+      "headline": "Successful approx. A$180M Conditional Placement Bookbuild",
+      "time": "2026-06-28T23:11:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104816-2A1679959",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "KGL Resources has secured approximately A$180M via a conditional placement bookbuild, representing a transformational capital injection that materially de-risks the development pathway for its Jervois Copper Project in the Northern Territory — one of Australia's most significant undeveloped copper assets.",
+        "The scale of the raise (~A$180M) signals strong institutional appetite and likely provides sufficient funding to advance Jervois toward construction-readiness or early-stage development, significantly extending cash runway and reducing near-term equity dilution risk from smaller, piecemeal raises.",
+        "Key near-term catalysts to watch include disclosure of placement price (and implied discount to last traded price), identity and composition of incoming institutional investors, and any updated project timeline or feasibility milestones that may accompany the capital raise announcement — all of which will determine whether the dilution is offset by re-rating potential."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SLF",
+      "company": "STATE STREET SPDR S&P/ASX 200 LISTED PROPERTY ETF",
+      "headline": "Update - Dividend/Distribution - SLF",
+      "time": "2026-06-28T23:11:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104815-2A1679987",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "SLF has issued an updated distribution notice, signalling a revision to a previously announced dividend — investors should scrutinise whether the per-unit amount has been adjusted up or down, as any reduction would pressure income-focused holders and could trigger near-term selling in a yield-sensitive vehicle.",
+        "As a passive ETF tracking the S&P/ASX 200 A-REIT index, SLF's distribution is a direct pass-through of underlying REIT income; an update to this figure reflects real changes in aggregate trust distributions from constituents such as Goodman Group, Scentre, and Dexus, making it a useful barometer for the broader listed property sector's cash generation health.",
+        "The market-sensitive classification elevates this beyond routine administration — institutional holders running income mandates or benchmark-relative property allocations should reassess their distribution yield assumptions and tax-adjusted return models ahead of the ex-distribution date to ensure positioning remains aligned with revised income expectations."
+      ],
+      "tags": [
+        "Dividend",
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "Acquisition of Edna May Gold Project",
+      "time": "2026-06-28T23:10:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104812_PS-6A1331343",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Forrestania Resources is acquiring the Edna May Gold Project, a historically significant Western Australian gold asset previously operated by Evolution Mining — signalling a strategic pivot toward near-term gold production potential and materially re-rating the company's asset base.",
+        "The deal terms and consideration structure will be critical to assess dilution risk; if funded via scrip or a capital raise, existing shareholders face potential dilution, while a cash-light structure could preserve balance sheet flexibility and be viewed as highly accretive given current elevated gold prices (~A$5,000/oz).",
+        "Near-term catalysts will centre on resource definition drilling, feasibility studies, and any restart timeline for the Edna May processing infrastructure — investors should watch for updated JORC resource estimates and capital cost guidance as key de-risking milestones."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GIV",
+      "company": "PERPETUAL ESG AUSTRALIAN SHARE ACTIVE ETF",
+      "headline": "Estimated Distribution Announcement - June 2026",
+      "time": "2026-06-28T23:09:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104811-2A1679986",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Perpetual ESG Australian Share Active ETF has flagged an estimated distribution for June 2026, signalling the fund is generating sufficient income from its ESG-screened Australian equity portfolio to support a payout — a positive indicator of underlying portfolio yield and fund health.",
+        "The market-sensitive classification warrants attention: estimated distribution announcements can trigger unit price adjustments as the ETF trades ex-distribution, with NAV expected to decline by the distribution amount — investors should factor this into near-term entry/exit timing decisions.",
+        "For institutional holders, this distribution reinforces the fund's income-generation credentials within the ESG equity space; however, the final confirmed quantum will be critical — any material variance from the estimate could influence reinvestment decisions and comparative yield positioning against peer ESG-focused ETFs on the ASX."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SFY",
+      "company": "STATE STREET SPDR S&P/ASX 50 ETF",
+      "headline": "Update - Dividend/Distribution - SFY",
+      "time": "2026-06-28T23:08:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104810-2A1679985",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "State Street's SPDR S&P/ASX 50 ETF (SFY) has issued an updated distribution notice — the market-sensitive flag signals a material revision to previously communicated dividend figures, warranting close attention from income-focused institutional holders tracking yield expectations.",
+        "Any upward revision to the distribution per unit would directly enhance the ETF's trailing yield against its NAV, potentially attracting passive income mandates and superannuation funds benchmarked to large-cap Australian equity income; a downward revision would have the inverse effect on demand dynamics.",
+        "Investors should reconcile the updated distribution quantum against the original announcement to assess the magnitude of the revision — the ex-distribution date, record date, and payment date remain key operational triggers for portfolio positioning and tax lot management ahead of settlement."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ECT",
+      "company": "ENVIRONMENTAL CLEAN TECHNOLOGIES LIMITED.",
+      "headline": "ECT PFAS Destruction Submission to US EPA",
+      "time": "2026-06-28T23:05:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104804-6A1331347",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ECT has formally submitted its PFAS destruction technology to the US EPA, positioning itself in a multi-billion dollar remediation market following the EPA's landmark 2024 designation of PFAS compounds as hazardous substances under CERCLA — a regulatory tailwind that mandates cleanup across thousands of contaminated US sites.",
+        "The submission represents a critical de-risking milestone: EPA recognition or listing on approved treatment technologies would dramatically lower the commercial adoption barrier for ECT's process, potentially unlocking government-funded contracts and partnerships with major US environmental remediation firms.",
+        "Near-term catalysts to watch include EPA response timelines, any pilot program commitments, and whether ECT can leverage this submission to secure a US-based strategic partner or licensing agreement — the latter being the most likely path to material revenue given ECT's limited balance sheet and early-stage commercialisation status."
+      ],
+      "tags": [
+        "Technology",
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RMS",
+      "company": "RAMELIUS RESOURCES LIMITED",
+      "headline": "Sale of Edna May Gold Hub",
+      "time": "2026-06-28T23:05:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104806_PS-6A1331344",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ramelius has divested the Edna May Gold Hub, a non-core Western Australian asset, which signals a deliberate portfolio rationalisation strategy to concentrate capital and operational focus on higher-margin, longer-life assets such as Mt Magnet and Musgrave — a structurally positive move for capital efficiency.",
+        "The sale generates an inflow of cash or consideration (terms to be confirmed in full release) that strengthens Ramelius's balance sheet, potentially accelerating debt reduction, funding exploration at tier-one assets, or supporting future M&A optionality — all key valuation levers for a mid-tier gold producer.",
+        "Near-term outlook hinges on the deal terms, including any deferred payments, royalties, or earnout provisions tied to gold price or production milestones; investors should scrutinise whether the sale price reflects fair value relative to Edna May's remaining reserve base and prior carrying value to assess any impairment risk."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TAR",
+      "company": "TARUGA MINERALS LIMITED",
+      "headline": "Field Exploration Programs Advance Agadul Priority Targets",
+      "time": "2026-06-28T23:05:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104802-6A1331345",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Taruga is actively advancing field exploration at its Agadul project, with priority targets now under systematic investigation — a critical de-risking milestone for an early-stage explorer where target definition directly drives re-rating potential.",
+        "The market-sensitive classification signals management believes the exploration findings carry material valuation implications, suggesting results from the field program may be substantive enough to shift the market's assessment of resource potential.",
+        "Near-term catalysts hinge on the quality of data returned from current field programs — investors should watch for follow-up announcements detailing soil/rock chip assays, geophysical results, or drill target confirmation, which will determine whether Agadul advances to a drill-ready stage."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TCA",
+      "company": "TEN CAP ALPHA PLUS COMPLEX ETF",
+      "headline": "TCAP - Estimated Distribution - June 2026",
+      "time": "2026-06-28T22:57:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104783-2A1679965",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TCAP has flagged an estimated distribution for June 2026, triggering a market-sensitive disclosure — investors should note this is an estimate only and final quantum may differ materially based on underlying portfolio performance and income accruals through to period end.",
+        "As a complex ETF structure, the distribution level will reflect realised gains, income, and any return-of-capital components from the underlying strategy — institutional holders should assess tax treatment carefully, particularly given the 'Alpha Plus' mandate which may carry higher derivative or leverage exposure influencing distributable income.",
+        "The market-sensitive classification elevates this beyond routine distribution guidance — investors should monitor the finalised distribution announcement and any accompanying NAV or unit price adjustments at ex-distribution date, as complex ETF distributions can trigger meaningful price resets relative to the estimated per-unit figure."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALC",
+      "company": "ALCIDION GROUP LIMITED",
+      "headline": "Reconfirming FY26 Guidance and Acquisition Completion",
+      "time": "2026-06-28T22:54:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104772-3A696113",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Alcidion's reconfirmation of FY26 guidance signals management confidence in revenue visibility and integration execution — a critical credibility signal given the company's history of navigating a challenging healthcare IT sales cycle and prior guidance misses.",
+        "Acquisition completion removes a key overhang risk; investors will now focus on whether the acquired asset accelerates recurring revenue growth and improves the group's ARR mix, which has been central to Alcidion's re-rating thesis in the healthcare SaaS space.",
+        "Near-term catalysts include disclosure of acquisition financial contribution, any updated pro-forma revenue or EBITDA metrics, and evidence of cross-sell synergies into Alcidion's existing NHS and ANZ hospital client base — watch for a more detailed investor update or quarterly activity report."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RRE",
+      "company": "RIGHT RESOURCES LIMITED",
+      "headline": "Second R&D Funding Tranche Secured",
+      "time": "2026-06-28T22:52:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104771-6A1331340",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Securing a second R&D funding tranche signals successful milestone delivery under the prior funding agreement, validating the company's technical progress and reducing near-term cash burn pressure without equity dilution.",
+        "R&D grant funding directly improves cash runway — the quantum and timing of this tranche will be critical to assess, as non-dilutive government-backed capital is typically a meaningful positive for small-cap resource or tech-adjacent companies on the ASX.",
+        "Continued R&D funding eligibility positions Right Resources to advance its core project pipeline; investors should monitor whether this tranche unlocks further commercialisation milestones or triggers additional funding tranches, which would materially de-risk the development timeline."
+      ],
+      "tags": [
+        "Technology",
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ORN",
+      "company": "ORION MINERALS LTD",
+      "headline": "New Intercept Confirms High-Grade Copper Continuity at Okiep",
+      "time": "2026-06-28T22:49:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104766-3A696111",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade copper continuity confirmed at Okiep strengthens the geological case for a maiden resource upgrade, a critical de-risking milestone that directly underpins project economics and potential development financing discussions.",
+        "New intercept results validate strike and depth extensions of the mineralised system, suggesting the known resource footprint may be materially understated — a key re-rating catalyst for a junior explorer at this stage of the resource definition cycle.",
+        "With market-sensitive classification, the announcement signals management confidence in the materiality of results; near-term focus shifts to follow-up drilling density, updated resource estimate timing, and whether results are sufficient to attract a strategic or JV partner in the current copper demand environment."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "IIQ",
       "company": "INOVIQ LTD",
