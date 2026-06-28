@@ -1,9 +1,273 @@
 {
   "date": "2026-06-29",
-  "total": 60,
-  "market_sensitive_count": 57,
-  "generated_at": "2026-06-28T23:18:10.501521+00:00",
+  "total": 74,
+  "market_sensitive_count": 71,
+  "generated_at": "2026-06-28T23:25:56.956992+00:00",
   "announcements": [
+    {
+      "ticker": "HYT",
+      "company": "HYTERRA LTD",
+      "headline": "Shortfall Offer Update",
+      "time": "2026-06-28T23:23:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104855-6A1331355",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Shortfall offer update signals incomplete take-up of a prior capital raise, indicating weaker-than-expected retail investor demand and potential difficulty in fully funding Hyterra's natural hydrogen exploration program at the targeted raise size.",
+        "The shortfall mechanism allows the underwriter or lead manager to place unsubscribed shares with institutional or sophisticated investors — the pricing and volume of this shortfall placement will be critical in determining the degree of dilution and whether the company achieves its full capital target.",
+        "Investors should monitor the final shortfall allocation outcome closely: a fully absorbed shortfall would restore confidence in the raise and provide Hyterra with sufficient runway for its Kansas hydrogen drilling campaign, while a partial absorption would raise questions about near-term funding adequacy and may pressure the share price."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "VKA",
+      "company": "VIKING MINES LIMITED",
+      "headline": "VIKING DIVESTS NON-CORE GOLD PROJECT FOR UP TO $5M",
+      "time": "2026-06-28T23:23:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104854_PS-6A1331363",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Viking Mines is divesting a non-core gold project for up to $5M, a capital-light move that sharpens portfolio focus and signals disciplined capital allocation — proceeds could meaningfully extend cash runway for a junior explorer likely operating with limited liquidity.",
+        "The deal structure featuring 'up to $5M' implies contingent or milestone-based payments (e.g. staged cash, royalties, or exploration success payments), meaning the full consideration is not guaranteed upfront — investors should scrutinise the payment schedule and counterparty quality before pricing in the full $5M.",
+        "Divestment of non-core assets typically precedes a strategic pivot or accelerated development of flagship assets; watch for follow-on announcements detailing how proceeds will be deployed, whether into drilling programs, working capital, or a potential capital raise to fund core project advancement."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SFY",
+      "company": "STATE STREET SPDR S&P/ASX 50 ETF",
+      "headline": "Distribution Announcement June 2026",
+      "time": "2026-06-28T23:20:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104849-2A1680007",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "State Street's SPDR S&P/ASX 50 ETF has declared its June 2026 distribution, providing income certainty for unitholders tracking Australia's 50 largest blue-chip companies — the quantum of the distribution will be the key determinant of yield competitiveness versus peer ETFs such as iShares IOZ and Vanguard VAS.",
+        "The market-sensitive classification signals the distribution amount is material enough to influence unitholder decision-making; investors should scrutinise the cents-per-unit figure against prior periods to assess whether underlying dividend income from ASX 50 constituents (dominated by BHP, CBA, CSL, and the major banks) has grown, contracted, or held steady — a proxy for large-cap earnings health.",
+        "Ex-distribution and payment dates are critical near-term catalysts: income-focused institutional and retail investors may tactically accumulate units ahead of the ex-date, while post-ex-date selling pressure is a known technical pattern for high-yield ETFs — positioning around these dates warrants attention in the context of current ASX large-cap valuations."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TRE",
+      "company": "TOUBANI RESOURCES LIMITED",
+      "headline": "Toubani to Acquire 19.9% of Avanti Gold",
+      "time": "2026-06-28T23:20:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104850-6A1331362",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic foothold play: Toubani is acquiring a 19.9% stake in Avanti Gold, a threshold deliberately chosen to maximise influence without triggering a mandatory takeover bid under ASX/ASIC rules — signalling this is likely a precursor to a fuller consolidation move in the West African gold space.",
+        "The 19.9% blocking stake gives Toubani meaningful board influence and veto power over competing acquirers, effectively locking in a first-mover advantage on Avanti's asset base while limiting dilution risk to existing TRE shareholders compared to an outright acquisition.",
+        "Investors should watch for a subsequent binding term sheet or scrip-based merger proposal — the strategic logic of cross-holding in a junior gold peer points to near-term M&A escalation, with any resource consolidation potentially re-rating Toubani's NAV if Avanti's gold inventory is additive to its Kobada project pipeline in Mali."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "Commencement of a further on-market share buyback",
+      "time": "2026-06-28T23:20:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104848-3A696124",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Karoon is initiating a further on-market share buyback, signalling management's conviction that the stock is undervalued relative to intrinsic worth — a direct capital return mechanism that reduces share count and supports EPS accretion without requiring a special dividend structure.",
+        "The continuation of buyback activity (described as 'further') implies the prior program was either completed or near completion, demonstrating sustained balance sheet strength and free cash flow generation from its Brazilian oil assets (Baúna/Neon fields) sufficient to fund both operations and capital returns.",
+        "For institutional investors, the key watch points are the buyback size, duration, and funding source — if financed from operating cash flow rather than debt, this reinforces Karoon's disciplined capital allocation thesis and could act as a share price floor in a volatile oil price environment."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AAR",
+      "company": "ASTRAL RESOURCES NL",
+      "headline": "Additional Broad Zones of Gold Mineralisation at Theia Deeps",
+      "time": "2026-06-28T23:20:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104847-6A1331360",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Discovery of additional broad zones of gold mineralisation at Theia Deeps materially expands the known footprint of the deposit, suggesting the system remains open at depth and could support a larger resource estimate than currently modelled — a key de-risking milestone for institutional investors assessing project scale.",
+        "The 'broad zones' characterisation is technically significant: wide intercepts typically indicate bulk-tonnage potential rather than narrow high-grade veins, which improves the economic case for open-pit or large-scale underground mining scenarios and enhances project bankability metrics.",
+        "Near-term catalysts to watch include an updated Mineral Resource Estimate (MRE) incorporating these new intercepts and potential step-out drilling to test lateral and down-dip extensions; any resource upgrade would be a direct re-rating event for Astral Resources given the market-sensitive classification of this announcement."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BNZ",
+      "company": "BENZ MINING CORP.",
+      "headline": "Multiple Thick High-Grade Hits Validate and Grow Icon Camp",
+      "time": "2026-06-28T23:19:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104845-6A1331359",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Multiple thick, high-grade intercepts at Icon Camp materially de-risk the deposit's geological model, confirming continuity and scale — a critical inflection point for resource definition and potential maiden or upgraded resource estimate.",
+        "The 'validate and grow' language signals drill results are expanding the known mineralised footprint beyond existing boundaries, which typically re-rates exploration-stage miners by increasing implied resource tonnage and grade confidence ahead of a formal resource update.",
+        "Near-term catalysts to watch include a resource estimate revision, potential scoping or PEA study initiation, and increased institutional attention as Icon Camp moves from discovery-phase to development-optionality — making this a key de-risking milestone for Benz Mining's valuation narrative."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TGM",
+      "company": "THETA GOLD MINES LIMITED",
+      "headline": "Investor Presentation - Pathway to Production",
+      "time": "2026-06-28T23:18:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104842-6A1331350",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The 'Pathway to Production' framing signals Theta Gold Mines is actively positioning for a construction decision at its TGME project in South Africa, a critical de-risking milestone that could re-rate the stock if a credible timeline and funding structure are presented.",
+        "Key metrics to scrutinise include the updated capital cost estimate, projected all-in sustaining costs against current gold prices (~USD 3,300/oz), and any disclosed offtake or debt financing arrangements that would validate project bankability without excessive equity dilution.",
+        "Near-term catalysts hinge on whether the presentation discloses a definitive feasibility study update, binding finance commitments, or a construction start date — any concrete funding solution or strategic partner announcement would materially accelerate the path to first gold and shareholder value realisation."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PAF",
+      "company": "PAN AFRICAN RESOURCES PLC",
+      "headline": "Pan African Resources Issue of New Shares",
+      "time": "2026-06-28T23:18:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104839-6A1331358",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Pan African Resources is issuing new shares, representing a dilutive capital event that warrants scrutiny of the use-of-proceeds rationale — whether for debt reduction, growth capex, or operational funding will be critical in determining net value impact for existing shareholders.",
+        "As a dual-listed gold producer (JSE/AIM/ASX), any equity issuance by Pan African carries cross-market implications; institutional investors should monitor the pricing of new shares relative to prevailing market price to assess the degree of dilution and whether the raise is structured at a discount that signals balance sheet stress or opportunistic growth funding.",
+        "Near-term focus should be on management's deployment timeline and whether the capital raise aligns with known project catalysts such as the Mintails tailings retreatment project or Mogale Gold expansion — strategic alignment would temper dilution concerns and support a re-rating thesis."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TGM",
+      "company": "THETA GOLD MINES LIMITED",
+      "headline": "US$18.6M combined Equity Raise and Options Exercise",
+      "time": "2026-06-28T23:17:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104836-6A1331339",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Theta Gold Mines has secured US$18.6M through a combined equity raise and options exercise, materially strengthening its balance sheet and providing critical funding runway to advance its TGME gold project in South Africa's Mpumalanga province toward production — a key de-risking milestone for institutional investors.",
+        "The dual-structure raise (new equity plus options exercise) signals existing shareholder conviction, as options being exercised rather than lapsing indicates holders see near-term value accretion; the quantum of US$18.6M is substantial relative to Theta's market capitalisation and suggests funding is sufficient to cover near-term capital expenditure requirements without immediate need for further dilutive raisings.",
+        "With funding now in place, the critical next catalyst is management's deployment timeline — investors should monitor whether capital is directed toward mine development, permitting milestones, or infrastructure at TGME, as execution speed will determine whether this raise translates into a re-rating or merely defers the next funding event."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EIQ",
+      "company": "ECHOIQ LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-28T23:16:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104835-2A1680000",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "EchoIQ Limited (EIQ) has entered a trading halt pending a material announcement, suspending price discovery and liquidity for investors — the halt itself signals a significant corporate event is imminent, likely requiring ASX Listing Rule compliance before trading can resume.",
+        "The market-sensitive classification elevates the probability this relates to a capital raise, M&A transaction, or material contract/partnership — all of which carry meaningful valuation implications for this small-cap AI/healthcare technology company, warranting close monitoring of the forthcoming release.",
+        "Investors should anticipate the halt lifting within 2 trading days per ASX rules; positioning ahead of the announcement carries binary risk — upside if the catalyst is accretive (e.g. strategic deal or funding), downside if dilutive (e.g. discounted equity raise or adverse regulatory outcome)."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VRL",
+      "company": "VERITY RESOURCES LIMITED",
+      "headline": "Botswana Critical Metals Exploration Re-Commences",
+      "time": "2026-06-28T23:15:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104833-6A1331356",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Resumption of exploration at Botswana critical metals project signals operational momentum after a period of inactivity — a key re-rating catalyst for a junior explorer where 'boots on ground' activity directly drives speculative interest and news flow.",
+        "Botswana's tier-1 mining jurisdiction status (stable regulatory environment, established infrastructure) reduces sovereign risk premium typically associated with African exploration plays, potentially attracting institutional attention if target metals align with battery/EV supply chain themes such as lithium, cobalt, or nickel.",
+        "The market-sensitive classification suggests management anticipates material exploration results or a significant program scope — investors should monitor upcoming drill results or resource updates as near-term catalysts that could define the stock's trajectory and justify current market capitalisation."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FAU",
+      "company": "FIRST AU LIMITED",
+      "headline": "FAU to Acquire High-Grade Kalgoorlie Resource",
+      "time": "2026-06-28T23:14:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104830_PS-6A1331311",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic resource acquisition in Kalgoorlie — one of Australia's premier gold-producing jurisdictions — signals a meaningful step-change in FAU's asset quality, with 'high-grade' designation suggesting potential for superior economics relative to peers if resource estimates are substantiated by independent verification.",
+        "The market-sensitive classification indicates material resource size or grade metrics that management believes will move the stock; investors should scrutinise the JORC classification (Inferred vs. Indicated/Measured), tonnes, and g/t gold equivalent to assess whether the acquisition price reflects fair value or a discount to in-situ value.",
+        "Key near-term catalysts to monitor include deal funding structure (scrip vs. cash vs. hybrid — with scrip raising dilution risk), completion conditions, and any planned drilling or resource upgrade programs that could serve as re-rating events for this small-cap explorer."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FLG",
+      "company": "FLAGSHIP MINERALS LIMITED",
+      "headline": "Isidora Gold - Met Drilling and Trenching Completed",
+      "time": "2026-06-28T23:14:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104828-6A1331354",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Completion of metallurgical drilling and trenching at Isidora Gold marks a critical de-risking milestone, providing the sample material needed to assess gold recoveries and processing options — a key gating factor before any resource or scoping study can advance.",
+        "The market-sensitive classification signals management expects material new data from met testwork results; positive recoveries (typically >85-90% for free-milling gold) could meaningfully re-rate the project's economic viability and attract JV or M&A interest given Flagship's small-cap status.",
+        "Near-term catalysts hinge on laboratory turnaround times for metallurgical results (typically 6-12 weeks), with subsequent resource estimate updates and potential preliminary economic assessment work representing the next value-inflection points investors should monitor closely."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "KAR",
       "company": "KAROON ENERGY LTD",
