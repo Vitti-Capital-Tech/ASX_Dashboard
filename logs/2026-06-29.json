@@ -1,9 +1,47 @@
 {
   "date": "2026-06-29",
-  "total": 118,
+  "total": 120,
   "market_sensitive_count": 110,
-  "generated_at": "2026-06-29T01:46:18.888501+00:00",
+  "generated_at": "2026-06-29T03:10:47.829046+00:00",
   "announcements": [
+    {
+      "ticker": "CD1",
+      "company": "CD PRIVATE EQUITY FUND I",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-29T02:31:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104977-2A1680085",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a shift in the ownership structure of CD Private Equity Fund I, which may reflect a rebalancing of positions by a major investor crossing or falling below the 5% disclosure threshold — warranting close monitoring for directional intent.",
+        "Without specific numerical detail in the headline, the filing could indicate either accumulation or disposal of units; either scenario carries implications for fund liquidity and secondary market pricing, particularly relevant given the illiquid nature of private equity fund structures listed on ASX.",
+        "Investors should track subsequent filings to determine whether this represents a strategic entry or exit by an institutional holder, as sustained selling pressure from a substantial holder in a closed-end private equity vehicle can weigh on the fund's market price relative to its NAV."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADS",
+      "company": "ADSLOT LTD.",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-06-29T02:16:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104974-3A696140",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has fallen below the 5% ownership threshold in Adslot Ltd (ADS), signalling a meaningful reduction in concentrated institutional or strategic ownership — this reduces the stock's perceived sponsorship and could weigh on near-term liquidity.",
+        "The exit of a substantial holder from a micro-cap technology stock like Adslot — which operates a programmatic advertising marketplace — may reflect diminished conviction in the company's growth trajectory or a portfolio reallocation, warranting scrutiny of the seller's identity and disposal pace.",
+        "With the register now more fragmented, Adslot may face increased share price volatility on thin volumes; investors should monitor whether this triggers further selling pressure or creates an entry opportunity if the disposal was non-fundamental in nature (e.g. fund wind-down or index rebalancing)."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "OB1",
       "company": "ORBMINCO LIMITED",
