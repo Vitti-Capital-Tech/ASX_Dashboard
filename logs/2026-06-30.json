@@ -1,9 +1,316 @@
 {
   "date": "2026-06-30",
-  "total": 68,
-  "market_sensitive_count": 55,
-  "generated_at": "2026-06-29T23:17:13.440891+00:00",
+  "total": 84,
+  "market_sensitive_count": 67,
+  "generated_at": "2026-06-29T23:47:26.867494+00:00",
   "announcements": [
+    {
+      "ticker": "FTI",
+      "company": "FORTIFAI LTD",
+      "headline": "Nol8 Joins the Megaport AI Exchange",
+      "time": "2026-06-29T23:43:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105448-2A1680572",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FORTIFAI's Nol8 platform joining the Megaport AI Exchange represents a meaningful distribution milestone — Megaport's established global network fabric of 800+ enabled data centres provides immediate access to enterprise customers without FORTIFAI needing to build its own sales infrastructure, significantly de-risking go-to-market execution.",
+        "The partnership signals commercial validation of Nol8's AI capabilities by a credible, ASX-listed infrastructure partner (Megaport, MP1), which could accelerate pipeline conversion and recurring revenue generation — critical metrics for an early-stage AI company where revenue visibility and cash burn are key investor concerns.",
+        "Near-term catalysts to watch include disclosure of any revenue-sharing or licensing terms, customer wins originating through the Megaport channel, and whether this integration is exclusive or replicable across other AI marketplace platforms — the absence of financial detail in this announcement means the revenue impact remains unquantified and investors should await follow-on disclosures."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JAV",
+      "company": "JAVELIN MINERALS LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-29T23:43:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105446-6A1331575",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Javelin Minerals Limited, crossing the 5% ownership threshold — a key regulatory trigger that signals meaningful accumulation and potential strategic interest in the company.",
+        "The identity, entry price, and total stake size of the substantial holder will be critical to assess whether this represents passive portfolio exposure or a more activist/strategic positioning ahead of potential corporate activity.",
+        "Investors should monitor for follow-on disclosures — further share accumulation beyond the initial threshold, or a change of substantial holding notice, could signal a creeping acquisition or precursor to a takeover approach in this small-cap mining name."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAN",
+      "company": "CANN GROUP LIMITED",
+      "headline": "Early Redemption of Convertible Notes",
+      "time": "2026-06-29T23:41:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105443-3A696241",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Early redemption of convertible notes eliminates a key overhang risk — retiring this debt instrument removes the threat of future equity dilution from note-to-share conversion, which is structurally positive for existing shareholders in a thinly capitalised cannabis company.",
+        "The cash outlay required to redeem the notes will pressure Cann Group's already constrained balance sheet; investors should scrutinise the remaining cash position and whether this redemption materially shortens the company's operational runway ahead of its next quarterly update.",
+        "This move signals management's intent to clean up the capital structure, potentially positioning the company for a fresh capital raise or strategic transaction — watch for follow-on announcements regarding refinancing, asset sales, or partnership activity in the near term."
+      ],
+      "tags": [
+        "Finance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPY",
+      "company": "PAPYRUS AUSTRALIA LIMITED",
+      "headline": "Monthly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-06-29T23:37:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105440-2A1680565",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cash runway is the critical watch item for Papyrus Australia — as a pre-revenue or early-stage commercialisation play, the Appendix 4C will reveal whether the company has sufficient liquidity to fund operations without an imminent capital raise, with any sub-2-quarter runway signalling near-term dilution risk for shareholders.",
+        "Operating cash outflows and any receipts from customers will indicate whether the company's banana fibre/biomass technology is generating meaningful commercial traction — persistent zero or near-zero receipts against ongoing R&D and admin spend would confirm the business remains in a cash-consumption phase with no clear revenue inflection yet.",
+        "Investors should scrutinise any financing cash inflows (loans or equity placements) disclosed in the period, as reliance on external funding to sustain operations rather than organic revenue growth remains the key structural risk, and any undisclosed capital raise activity flagged in the report would likely trigger further dilution concerns."
+      ],
+      "tags": [
+        "Quarterly",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAT",
+      "company": "MATSA RESOURCES LIMITED",
+      "headline": "Board and Management Team Changes to Focus on Lake Carey",
+      "time": "2026-06-29T23:37:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105439-6A1331572",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic pivot signals intensified focus on Lake Carey gold project — board and management restructuring typically precedes accelerated exploration or development activity, suggesting management believes the asset warrants dedicated resource allocation to unlock value.",
+        "Personnel changes at the board level carry execution risk in the near term, as transition periods can disrupt operational continuity and investor confidence; the market will scrutinise whether incoming leadership brings relevant gold exploration credentials and capital markets experience to advance Lake Carey.",
+        "Key watch items include any accompanying disclosure of exploration budgets, drilling timelines, or capital requirements for Lake Carey — without these specifics, the restructure remains a signalling event rather than a value catalyst, and investors should await a follow-up operational update to assess true strategic direction."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EMN",
+      "company": "EURO MANGANESE INC",
+      "headline": "EMN Announces Filing of NI 43-101 and JORC Code Report",
+      "time": "2026-06-29T23:37:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105438-2A1680569",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Filing of both NI 43-101 (Canadian) and JORC Code (Australian) compliant resource reports simultaneously signals EMN is actively maintaining dual-market credibility, critical for attracting institutional capital from both TSX and ASX investor bases for its Chvaletice Manganese Project in Czech Republic.",
+        "The dual-standard technical report publication is a prerequisite milestone for any future capital raise, offtake negotiations, or project financing — its release suggests EMN is advancing toward a formal funding process for what would be Europe's only significant high-purity manganese producer targeting battery supply chains.",
+        "With the EU Critical Raw Materials Act driving urgency around domestic battery-grade manganese supply, a freshly filed, independently verified resource estimate materially de-risks the project for European strategic investors and potential EV/battery manufacturer offtake partners — watch for partnership or financing announcements as the logical next catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SNT",
+      "company": "SYNTARA LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-29T23:36:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105437-2A1680568",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in holding for Syntara Limited (SNT), signalling a shift in the ownership structure of this ASX-listed clinical-stage pharmaceutical company — the direction of change (increase or decrease) will determine whether this reflects growing institutional conviction or a notable exit.",
+        "Movements at the substantial holder threshold (5%+) in small-cap biotech stocks like Syntara can meaningfully impact liquidity and float dynamics; a reduction in a major holder's position could pressure the share price given the company's limited trading volume and ongoing cash burn profile.",
+        "Investors should monitor whether this filing reflects accumulation by a strategic or institutional investor — which could signal anticipated catalysts such as clinical trial readouts or partnership discussions — or a disposal that may indicate waning confidence in Syntara's near-term pipeline milestones."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TRU",
+      "company": "TRUSCREEN GROUP LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-29T23:34:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105436-2A1680567",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a shift in the ownership structure of TruScreen Group (TSC), with a holder crossing or moving through the 5% threshold — warranting close monitoring of whether this represents accumulation or distribution by a key investor.",
+        "For a micro-cap healthcare technology company like TruScreen, substantial holder movements can have outsized impact on liquidity and price discovery, given the typically thin free float and limited institutional coverage in this segment.",
+        "Investors should track whether this filing reflects a strategic investor building a position ahead of potential catalysts — such as commercialisation milestones for its cervical cancer screening technology — or conversely, a major holder reducing exposure, which could signal near-term selling pressure."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TRU",
+      "company": "TRUSCREEN GROUP LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-06-29T23:34:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105434-2A1680564",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in TruScreen Group (TSN), crossing the 5% ownership threshold — a notable development for a micro-cap healthcare company, signalling potential accumulation interest from a sophisticated investor.",
+        "The identity and scale of the new substantial holder warrants close scrutiny: if this represents a strategic or institutional investor building a position, it could indicate growing conviction in TruScreen's cervical cancer screening technology commercialisation pipeline, particularly in emerging markets.",
+        "Investors should monitor for any follow-on activity — further share accumulation, board engagement, or a strategic partnership announcement — as substantial holder filings in small-cap healthcare names often precede more material corporate activity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MST",
+      "company": "MORNINGSTAR INTERNATIONAL SHARES ACTIVE ETF",
+      "headline": "Distribution estimate - Jun 26",
+      "time": "2026-06-29T23:33:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105433-2A1680522",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Morningstar International Shares Active ETF has flagged a June 2026 distribution estimate, signalling income visibility for unitholders ahead of the end-of-financial-year distribution cycle — a key consideration for yield-focused and SMSF investors managing tax timing.",
+        "The market-sensitive classification warrants attention: distribution estimates for active ETFs can reflect realised capital gains, dividend income from underlying international holdings, and FX translation effects — any of which may differ materially from prior periods given elevated global equity volatility and AUD/USD movements in H1 2025.",
+        "Investors should monitor the final confirmed distribution rate against the estimate, as variance could signal portfolio repositioning activity or currency hedging outcomes within the fund; the estimate itself provides a near-term benchmark for assessing yield competitiveness against passive international ETF peers."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACD",
+      "company": "GLOBAL X BATTERY TECH & LITHIUM ETF",
+      "headline": "Estimated Distribution Announcement June 2026 *REVISED",
+      "time": "2026-06-29T23:32:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105431-2A1680471",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A revised estimated distribution announcement for June 2026 signals a material change to the originally projected payout — investors should scrutinise whether the revision reflects an upward or downward adjustment to underlying income, as lithium and battery technology sector volatility can significantly compress ETF distribution yields.",
+        "The 'MARKET SENSITIVE' classification elevates this beyond routine ETF administration — a downward revision would directly impact yield-seeking holders and may trigger rebalancing among income-focused institutional mandates tracking this thematic ETF.",
+        "With lithium prices remaining under sustained pressure through 2025-2026 and battery tech equities facing headwinds from oversupply and EV demand softness, any distribution cut would reinforce negative sentiment around the sector, while an upward revision could signal unexpected portfolio income recovery worth monitoring for re-entry signals."
+      ],
+      "tags": [
+        "Dividend",
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LMG",
+      "company": "LATROBE MAGNESIUM LIMITED",
+      "headline": "Magnesium Metal Update June",
+      "time": "2026-06-29T23:31:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105426-2A1680483",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals a material operational or commercial development at LMG's magnesium demonstration plant — likely relating to production milestones, offtake progress, or process efficiency gains that could re-rate near-term valuation expectations.",
+        "As a pre-revenue, development-stage company reliant on periodic capital raises, any positive production update reduces technical risk and strengthens the investment case for securing project financing or strategic partnerships needed to scale to commercial output.",
+        "Investors should watch for specifics on metal purity levels, throughput rates, and cash burn trajectory — these metrics are the critical gating factors determining whether LMG can attract the industrial offtake agreements or government co-funding required to advance beyond pilot scale."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "V50",
+      "company": "VANGUARD S&P 500 US SHARES INDEX ETF",
+      "headline": "Updated Estimated Distribution Announcement",
+      "time": "2026-06-29T23:30:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105425-2A1680473",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Vanguard has revised its estimated distribution for the S&P 500 ETF (ASX: VTS equivalent structure), a market-sensitive update that directly impacts yield-focused investors and income-planning decisions ahead of the ex-distribution date — any upward revision signals stronger-than-expected underlying dividend income from US constituents.",
+        "The updated estimate reflects the aggregated dividend flow from S&P 500 holdings, which have been supported by resilient US corporate earnings and a favourable AUD/USD translation effect — a weaker Australian dollar amplifies distribution income when converted, potentially boosting per-unit payouts above prior guidance.",
+        "Investors should monitor the finalised distribution rate against the initial estimate to assess tracking accuracy and fund management efficiency; a materially higher revised figure could trigger short-term buying interest as yield-seeking capital rotates into the ETF ahead of the record date, while also reinforcing Vanguard's competitive positioning in the passive ETF space on the ASX."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SLD",
+      "company": "SALUDA MEDICAL, INC.",
+      "headline": "SLD Receives FDA Approval for CAP24 Surgical Paddle Lead",
+      "time": "2026-06-29T23:29:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105419-2A1680480",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FDA approval for the CAP24 Surgical Paddle Lead is a material regulatory milestone, expanding Saluda Medical's addressable market for its Evoke closed-loop spinal cord stimulation platform into the surgical implant segment — a higher-acuity, higher-revenue-per-procedure category that complements its existing percutaneous lead offering.",
+        "The CAP24 approval strengthens Saluda's competitive positioning against established SCS players (Medtronic, Abbott, Boston Scientific) by offering surgeons a differentiated paddle lead option with closed-loop capability, potentially accelerating hospital and surgeon adoption and driving average selling price uplift across the product portfolio.",
+        "Near-term commercial focus will be on U.S. market penetration and reimbursement pathway confirmation for the CAP24; investors should monitor upcoming quarterly updates for early sales traction, any ex-U.S. regulatory submissions leveraging the FDA clearance, and whether this approval catalyses partnership or distribution discussions that could accelerate the path to profitability."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CQT",
+      "company": "CONNEQT HEALTH LIMITED",
+      "headline": "CQT Announces SPP Launch, Booklet & Timetable",
+      "time": "2026-06-29T23:29:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105418-2A1680478",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Conneqt Health has launched a Share Purchase Plan (SPP), giving existing retail shareholders the opportunity to participate in capital raising alongside institutional investors — a key equity dilution event that warrants close monitoring of the offer price relative to prevailing market price to assess discount depth and dilution impact.",
+        "The release of the SPP booklet and timetable signals the company is actively seeking to bolster its cash position, likely to fund operational runway or growth initiatives; investors should scrutinise the offer size cap and use-of-proceeds disclosure to assess whether the raise is defensive (liquidity-driven) or growth-oriented.",
+        "Near-term share price pressure is probable as the market digests potential dilution from the SPP; the critical next catalyst will be the SPP closing date and take-up rate, which will determine the final capital raised and signal retail investor confidence in the company's strategic direction."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BTN",
+      "company": "BUTN LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-29T23:24:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105414-3A696239",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "BUTN Limited has entered a trading halt, suspending price discovery and liquidity for investors — the halt is classified as market sensitive, signalling a material corporate event is imminent rather than routine administrative action.",
+        "Trading halts of this nature on ASX-listed fintech/lending platforms like BUTN typically precede capital raises, M&A activity, or a significant business update; the market-sensitive flag elevates the probability of a value-altering announcement over a procedural matter.",
+        "Investors should monitor the resumption announcement closely — the nature of the pending disclosure will be the key determinant of direction, with capital raise scenarios carrying dilution risk while M&A or strategic partnership news could be re-rating catalysts."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ICL",
       "company": "ICENI GOLD LIMITED",
