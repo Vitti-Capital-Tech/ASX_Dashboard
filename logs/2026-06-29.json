@@ -1,9 +1,48 @@
 {
   "date": "2026-06-29",
-  "total": 112,
-  "market_sensitive_count": 107,
-  "generated_at": "2026-06-29T00:20:11.201120+00:00",
+  "total": 114,
+  "market_sensitive_count": 108,
+  "generated_at": "2026-06-29T00:47:03.034318+00:00",
   "announcements": [
+    {
+      "ticker": "SGQ",
+      "company": "ST GEORGE MINING LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-29T00:40:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104952-6A1331387",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of St George Mining (SGQ), indicating a holder has crossed (or moved through) the 5% threshold — warranting close monitoring of whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase or decrease) is critical: an increase could reflect growing conviction in SGQ's nickel-copper-PGE exploration assets in Western Australia, while a decrease may signal reduced institutional confidence or profit-taking at current valuations.",
+        "Investors should track subsequent Form 604/603 filings to determine the identity and intent of the substantial holder — strategic accumulation by a major mining house or fund could be a precursor to a cornerstone investment, takeover approach, or capital raise participation."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SER",
+      "company": "STRATEGIC ENERGY RESOURCES LIMITED",
+      "headline": "SER Successfully Raises $1.5M to Underpin Drill Program",
+      "time": "2026-06-29T00:18:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104934-3A696127",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SER has secured $1.5M via a capital raise specifically earmarked for a drill program, providing near-term catalysts that could materially re-rate the stock if results confirm resource potential — the targeted use of proceeds reduces execution risk versus general working capital raises.",
+        "The raise size is modest, suggesting minimal dilution relative to market cap for a junior explorer, but investors should monitor the placement price discount and any broker fee structures to assess true cost of capital and shareholder impact.",
+        "The funded drill program now positions SER for imminent newsflow — drill results represent the highest-impact binary event for a junior explorer, meaning the stock enters a period of elevated volatility with asymmetric upside if intersections are positive."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "SGQ",
       "company": "ST GEORGE MINING LIMITED",
