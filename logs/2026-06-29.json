@@ -1,9 +1,389 @@
 {
   "date": "2026-06-29",
-  "total": 92,
-  "market_sensitive_count": 89,
-  "generated_at": "2026-06-28T23:51:51.039794+00:00",
+  "total": 112,
+  "market_sensitive_count": 107,
+  "generated_at": "2026-06-29T00:20:11.201120+00:00",
   "announcements": [
+    {
+      "ticker": "SGQ",
+      "company": "ST GEORGE MINING LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-29T00:12:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104928-6A1331382",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register — investors should monitor whether this reflects accumulation or distribution by a major holder, as either scenario carries implications for near-term liquidity and price support for this small-cap explorer.",
+        "St George Mining (SGQ) operates in the nickel-copper-PGE exploration space in Western Australia; any reduction in a substantial holder's position could indicate waning conviction in the project pipeline, while an increase may signal strategic interest ahead of potential catalysts.",
+        "Institutional investors should track the identity of the substantial holder and the direction of the change — if a cornerstone investor is exiting, it may pressure the stock given SGQ's reliance on market sentiment and capital market access to fund ongoing exploration activities."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DGR",
+      "company": "DGR GLOBAL LIMITED",
+      "headline": "DGR Acquires Strategic Stake in Sunstone Metals",
+      "time": "2026-06-29T00:00:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104922_PS-2A1680001",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DGR Global has acquired a strategic stake in Sunstone Metals, signalling a deliberate portfolio expansion into what management views as a high-value exploration asset — the 'so what' is whether this stake is large enough to influence project direction or merely represents a passive financial position with limited control premium.",
+        "The market-sensitive classification demands scrutiny of the acquisition price versus Sunstone's current market capitalisation and net asset value; if DGR acquired shares at a discount or via a placement, this could represent immediate book value accretion, but dilution risk to DGR's own balance sheet must be assessed against its existing cash reserves and burn rate.",
+        "Next steps hinge on DGR's strategic intent — a creep acquisition toward a blocking stake or full takeover would be a material catalyst, while a passive minority holding limits near-term upside; investors should watch for any shareholder agreement, board representation rights, or offtake/JV provisions that could unlock deeper value from Sunstone's underlying copper-gold assets."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HIQ",
+      "company": "HITIQ LIMITED",
+      "headline": "Private Placement to Raise $1.4 million",
+      "time": "2026-06-29T00:00:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104920-6A1331370",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "HITIQ is raising $1.4M via private placement, a modest but meaningful capital injection for a micro-cap technology company — the key question is whether this extends runway sufficiently or signals a pattern of dilutive top-ups that erodes shareholder value over time.",
+        "At $1.4M, the raise is relatively small in absolute terms, suggesting the company is not funding a major strategic initiative but rather addressing near-term working capital needs — investors should scrutinise the placement price relative to last traded price to assess the degree of dilution being absorbed.",
+        "The market-sensitive classification warrants attention; next steps hinge on the use-of-funds disclosure — if proceeds are directed toward commercialisation of HITIQ's head impact monitoring technology or a specific contract milestone, sentiment could shift constructively, but absent that clarity, dilution risk dominates the narrative."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BON",
+      "company": "STATE STREET SPDR S&P/ASX IBOXX AUSTRALIAN BOND ETF",
+      "headline": "Distribution Announcement June 2026",
+      "time": "2026-06-28T23:59:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104919-2A1680053",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "State Street's SPDR S&P/ASX iBoxx Australian Bond ETF has declared its June 2026 distribution, confirming continued income delivery to unitholders — the market-sensitive classification signals the distribution quantum may be material relative to prior periods or consensus expectations.",
+        "The timing of this distribution announcement is significant given the prevailing Australian interest rate environment; with the RBA's easing cycle underway, bond ETF distributions reflect the lagged coupon income from the underlying fixed-income portfolio, meaning yield-on-distribution metrics warrant close comparison against recent quarters to assess income trajectory.",
+        "Institutional investors should monitor the ex-distribution date and reinvestment dynamics closely — elevated demand for yield-generating fixed-income products amid rate uncertainty could support NAV stability, but any compression in distribution per unit versus prior periods would signal portfolio yield dilution as higher-coupon bonds mature and are replaced at lower rates."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GOV",
+      "company": "STATE STREET SPDR S&P/ASX IBOXX AUS GOVERNMENT BOND ETF",
+      "headline": "Distribution Announcement June 2026",
+      "time": "2026-06-28T23:57:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104918-2A1680050",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "State Street's SPDR S&P/ASX iBoxx Australian Government Bond ETF (GOVT) has declared its June 2026 distribution, confirming continued income delivery to unitholders at a time when Australian government bonds remain a key defensive allocation amid elevated rate uncertainty.",
+        "The market-sensitive classification signals the distribution quantum is material relative to NAV — institutional investors should assess the per-unit distribution rate against prevailing RBA cash rate expectations and benchmark yield movements to gauge whether the fund's income profile remains competitive versus direct bond holdings or cash equivalents.",
+        "With the RBA's rate trajectory under scrutiny heading into H2 2026, this distribution announcement reinforces GOVT's role as a liquid, low-cost vehicle for duration exposure; investors should monitor any shift in distribution yield as a leading indicator of portfolio repositioning within the Australian fixed income complex."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BDX",
+      "company": "BCAL DIAGNOSTICS LIMITED",
+      "headline": "BCAL Secures Funding for FY2027",
+      "time": "2026-06-28T23:57:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104917-2A1680049",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Securing funding through FY2027 eliminates near-term capital risk for BCAL, providing a critical runway extension that allows management to focus on clinical validation and commercialisation of its breast cancer blood test without the distraction of imminent dilutive raises.",
+        "The market-sensitive classification signals this is a material funding event — investors should scrutinise the structure (grant, equity, debt, or partnership) as dilution terms or non-dilutive government/grant funding will be the key valuation swing factor for this pre-revenue diagnostics company.",
+        "With funding secured to FY2027, BCAL now has a defined window to advance its BCAL-143 biomarker test toward regulatory milestones and potential commercialisation partnerships — the next catalyst to watch is clinical trial data readouts and any strategic licensing or distribution agreements that could de-risk the path to revenue."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CU6",
+      "company": "CLARITY PHARMACEUTICALS LTD",
+      "headline": "Data on SAR-bisPSMA to be presented at EANM",
+      "time": "2026-06-28T23:56:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104915-2A1680048",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Clarity's SAR-bisPSMA data presentation at EANM (European Association of Nuclear Medicine) — one of the world's premier nuclear medicine conferences — provides high-visibility, peer-validated exposure to the global oncology and radiopharmaceutical community, a critical credibility milestone for a pre-revenue biotech seeking partnership or licensing interest.",
+        "The bisPSMA targeting approach, leveraging Clarity's proprietary Targeted Copper Theranostics (TCT) platform, is designed to improve tumour uptake and retention versus first-generation PSMA agents — any positive dosimetry or efficacy signals presented could meaningfully de-risk the prostate cancer pipeline and differentiate CU6 from competing PSMA-targeted therapies including Novartis's Pluvicto.",
+        "With Clarity's cash runway and ongoing Phase I/II SAR-bisPSMA trial progress under scrutiny, a strong EANM data readout could serve as a near-term catalyst for partnership discussions or non-dilutive funding, making the conference presentation a key watch event for investors monitoring the path to commercialisation."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WXO",
+      "company": "STATE STREET SPDR S&P WORLD EX AUSTRALIA CARBON AWARE ETF",
+      "headline": "Distribution Announcement June 2026",
+      "time": "2026-06-28T23:56:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104914-2A1680047",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "State Street's SPDR S&P World ex-Australia Carbon Aware ETF has declared its June 2026 distribution, confirming continued income generation for unitholders — the quantum and ex-distribution date will be critical for yield-sensitive institutional allocators managing cash flow timing.",
+        "The market-sensitive classification signals the distribution amount or yield may be materially different from prior periods, warranting close scrutiny of the per-unit distribution figure relative to the fund's NAV to assess whether yield compression or expansion is occurring across the underlying global equity basket.",
+        "For ESG-mandated institutional portfolios, this announcement reaffirms the fund's operational continuity and income-producing capacity; however, investors should monitor whether the carbon-aware tilt is affecting total return relative to unscreened global benchmarks, particularly given ongoing volatility in energy sector weightings."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STM",
+      "company": "SUNSTONE METALS LTD",
+      "headline": "Sunstone raises $10M in share placement",
+      "time": "2026-06-28T23:56:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104913_PS-2A1679972",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Sunstone Metals has secured $10M via share placement, providing meaningful capital injection for an explorer of its scale — this likely extends cash runway by 12–24 months and removes near-term funding risk that has historically weighed on junior mining equities.",
+        "The placement is market sensitive, signalling a material step-change in activity — proceeds are likely earmarked for accelerated drilling or resource definition at its Ecuador copper-gold projects, where recent results have drawn investor attention.",
+        "Key near-term catalysts to watch include the placement price relative to last traded price (indicative of institutional demand strength), any strategic investor participation, and whether the raise is accompanied by a revised exploration program or updated resource estimate timeline."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WXH",
+      "company": "STATE STREET SPDR S&P WORLD EX AUS CARBON AWARE (HEDGED) ETF",
+      "headline": "Distribution Announcement June 2026",
+      "time": "2026-06-28T23:56:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104912-2A1680045",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "State Street's SPDR S&P World ex-Australia Carbon Aware (Hedged) ETF has declared its June 2026 distribution, confirming continued income delivery to unitholders — the market-sensitive classification suggests the distribution quantum may be materially different from prior periods, warranting close attention to the per-unit amount relative to trailing distributions.",
+        "As a currency-hedged, carbon-aware global equity ETF, the distribution level reflects both underlying dividend income from international holdings and any hedge roll gains or losses — investors should assess whether AUD/USD and other cross-currency hedge costs have compressed or enhanced the net distribution yield compared to the unhedged equivalent.",
+        "Institutional investors holding this ETF for ESG mandate compliance should note the distribution timing and reinvestment implications for end-of-financial-year portfolio positioning; any deviation in yield from prior quarters could prompt rebalancing flows or benchmark tracking reviews ahead of the 30 June fiscal year-end."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AQX",
+      "company": "ALICE QUEEN LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-28T23:56:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104911-6A1331381",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a shift in the ownership structure of Alice Queen Limited (AQX), with a holder crossing or moving through the 5% threshold — warranting close attention to whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase or decrease in holding) is critical: an increase could indicate growing conviction in AQX's gold exploration assets, while a decrease may signal waning institutional confidence or portfolio rebalancing ahead of upcoming catalysts.",
+        "Investors should monitor subsequent substantial holder notices and on-market activity to determine if this represents the beginning of a larger position build or an exit strategy, particularly given AQX's relatively small market capitalisation which makes large holder movements disproportionately impactful on liquidity and price discovery."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WEM",
+      "company": "STATE STREET SPDR S&P EMERGING MARKETS CARBON AWARE ETF",
+      "headline": "Distribution Announcement June 2026",
+      "time": "2026-06-28T23:54:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104908-2A1680044",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "State Street's SPDR S&P Emerging Markets Carbon Aware ETF has declared its June 2026 distribution, confirming continued income generation for unitholders — the market-sensitive classification suggests the distribution quantum may be material relative to prior periods or NAV, warranting close attention to the per-unit amount and ex-distribution date.",
+        "Carbon-aware emerging markets strategies have faced headwinds from EM currency volatility and shifting ESG capital flows; the distribution level will serve as a key signal of underlying portfolio yield health and whether the fund's carbon-tilt methodology is delivering competitive income versus standard EM benchmarks.",
+        "Institutional investors should monitor the announced distribution rate against the fund's trailing yield to assess whether reinvestment or redemption pressure is likely — any meaningful step-up or step-down in distribution could trigger rebalancing activity given the ETF's passive, rules-based structure and its ESG mandate constraints."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QMI",
+      "company": "STATE STREET SPDR MSCI WORLD QUALITY MIX ETF",
+      "headline": "Distribution Announcement June 2026",
+      "time": "2026-06-28T23:54:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104907-2A1680041",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "State Street's SPDR MSCI World Quality Mix ETF has declared its June 2026 distribution, confirming continued income generation for unitholders — the market-sensitive flag suggests the distribution quantum may be materially different from prior periods, warranting close attention to the per-unit amount relative to historical payouts.",
+        "The timing of this distribution announcement is significant for yield-focused institutional investors, as the MSCI World Quality Mix methodology blends quality, value, and low-volatility factors — any shift in distribution yield reflects both underlying portfolio income and potential currency hedging costs or gains on the global equity exposure.",
+        "Investors should monitor the ex-distribution date and record date closely to assess positioning opportunities; a higher-than-expected distribution could trigger short-term inflows into the ETF, while the reinvestment of distributions by accumulation-oriented holders may provide modest price support in the near term."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LDX",
+      "company": "LUMOS DIAGNOSTICS HOLDINGS LIMITED",
+      "headline": "Lumos Receives Research & Development Tax Rebate",
+      "time": "2026-06-28T23:54:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104906-2A1680043",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "R&D tax rebate receipt directly extends cash runway for Lumos, a critical lifeline for a pre-profitability diagnostics company where liquidity management is a key investor concern — the quantum of the rebate will determine materiality to burn rate.",
+        "The ATO's R&D Tax Incentive program typically refunds 43.5 cents per dollar of eligible R&D expenditure for companies with turnover under A$20M, suggesting the rebate size is directly correlated to Lumos's prior-year R&D spend and signals continued investment in product development pipeline.",
+        "While non-recurring in nature, the cash injection reduces near-term capital raise pressure and buys management additional runway to advance commercialisation of its FebriDx and point-of-care diagnostics portfolio without immediate dilutive equity issuance."
+      ],
+      "tags": [
+        "Healthcare",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DJR",
+      "company": "STATE STREET SPDR DOW JONES GBL REAL ESTATE ESG TILTED ETF",
+      "headline": "Distribution Announcement June 2026",
+      "time": "2026-06-28T23:52:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104903-2A1680040",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "State Street's SPDR Dow Jones Global Real Estate ESG Tilted ETF has declared its June 2026 distribution, confirming continued income generation for unitholders — the market-sensitive classification suggests the distribution quantum may differ materially from prior periods, warranting close attention to the per-unit amount relative to trailing distributions.",
+        "As a globally diversified real estate ETF with an ESG tilt, the distribution level serves as a proxy for underlying REIT dividend health across major markets (US, Europe, Asia-Pacific); any compression in the payout could signal deteriorating cash flows from global property trusts amid persistent higher-for-longer rate environments.",
+        "Investors should benchmark this distribution against the ETF's trailing yield and NAV to assess whether income return is being maintained or eroded — a key consideration for yield-focused mandates and superannuation funds that hold this vehicle as a core property allocation; reinvestment or rebalancing decisions may follow the ex-distribution date."
+      ],
+      "tags": [
+        "Dividend",
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WDI",
+      "company": "STATE STREET SPDR S&P GLOBAL DIVIDEND ETF",
+      "headline": "Distribution Announcement June 2026",
+      "time": "2026-06-28T23:52:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104902-2A1680039",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "State Street's SPDR S&P Global Dividend ETF has declared its June 2026 distribution, confirming continued income delivery to unitholders — the market-sensitive flag suggests the distribution quantum may deviate materially from prior periods, warranting close attention to the per-unit amount relative to trailing distributions.",
+        "The distribution level will be a key signal of the underlying portfolio's dividend health across global equities; any compression in the payout could reflect deteriorating dividend coverage among constituent high-yield stocks, while an uplift would reinforce the ETF's income thesis in a potentially shifting rate environment.",
+        "Investors should benchmark this distribution against the ETF's trailing yield and NAV to assess whether the income profile remains competitive versus domestic fixed income alternatives — particularly relevant as institutional allocators reassess global equity income exposure heading into H2 2026."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ART",
+      "company": "AIRTASKER LIMITED",
+      "headline": "Early Settlement of Australian Media Partnership Notes",
+      "time": "2026-06-28T23:51:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104901-2A1680037",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Early settlement of the Australian Media Partnership Notes removes a structured debt obligation ahead of schedule, directly improving Airtasker's balance sheet clarity and reducing future interest/fee drag — a meaningful positive for a company at this stage of its profitability journey.",
+        "The market-sensitive classification signals the settlement terms (likely a discount to face value or a lump-sum cash payment) are material to the company's financial position; investors should scrutinise the net cash cost versus the carrying value of the notes to assess whether this was settled at par, a premium, or a discount.",
+        "Eliminating this media partnership liability simplifies the capital structure and may signal management's confidence in cash reserves — however, if settled with cash, near-term liquidity should be monitored closely given Airtasker's historically tight cash runway; guidance on remaining cash position post-settlement will be critical."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ACP",
+      "company": "AUDALIA RESOURCES LIMITED",
+      "headline": "Update of Funding and Capital Raising",
+      "time": "2026-06-28T23:49:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104900-6A1331377",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Capital raising activity signals potential cash runway pressure — investors should scrutinise the terms, size, and pricing of any placement or rights issue relative to current market capitalisation to assess dilution risk.",
+        "A funding update classified as market sensitive typically indicates material changes to the company's financial position or capital structure, suggesting prior funding arrangements may have lapsed, been renegotiated, or proved insufficient for operational needs.",
+        "Next steps hinge on the specific structure of the raise (institutional placement vs. retail entitlement offer) and whether proceeds are tied to a defined project milestone at Audalia's Medcalf phosphate project — clarity on use-of-funds will be critical to near-term sentiment."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HWK",
+      "company": "HAWK RESOURCES LIMITED.",
+      "headline": "Hawk Intersects More Near Surface Copper in Cactus Corridor",
+      "time": "2026-06-28T23:49:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104899-6A1331376",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Repeated near-surface copper intersections in the Cactus Corridor de-risk the deposit's shallow geometry, lowering potential future capex for open-pit extraction and meaningfully improving project economics at early-stage scoping — a critical re-rating catalyst for a junior explorer.",
+        "The 'more' qualifier in the headline signals continuity of mineralisation across multiple drill holes, suggesting the copper system has lateral and/or strike persistence beyond initial discovery holes — this increases the probability of a resource estimate upgrade and attracts institutional attention to scale potential.",
+        "Near-term focus will shift to whether Hawk Resources can convert these intersections into a maiden or upgraded JORC resource estimate; investors should monitor upcoming assay results, drill spacing, and any move toward a Scoping Study as the key value-unlock milestones in the next 1–2 quarters."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ABY",
+      "company": "ADORE BEAUTY GROUP LIMITED",
+      "headline": "Refinancing of Debt Facilities",
+      "time": "2026-06-28T23:49:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03104898-3A696134",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Adore Beauty has refinanced its debt facilities, a market-sensitive development that signals the company is actively managing its balance sheet — critical for a capital-light e-commerce retailer where liquidity headroom directly underpins marketing spend, inventory cycles, and growth investment capacity.",
+        "The refinancing removes near-term debt maturity risk and likely resets covenant terms, which is materially significant given the company has been navigating a challenging discretionary retail environment with pressure on top-line growth and EBITDA margins — cleaner debt terms reduce financial distress risk and improve operational flexibility.",
+        "Next steps for investors centre on the specific terms disclosed: the size of the facility, interest rate margin, tenor, and any associated covenants will determine whether this is a straightforward rollover or a more expensive restructure — if terms are broadly in line with or better than prior arrangements, this removes a key balance sheet overhang and supports a re-rating of the stock."
+      ],
+      "tags": [
+        "Finance",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "VBC",
       "company": "VERBREC LIMITED",
