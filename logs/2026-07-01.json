@@ -1,9 +1,619 @@
 {
   "date": "2026-07-01",
-  "total": 72,
-  "market_sensitive_count": 59,
-  "generated_at": "2026-06-30T23:01:00.687374+00:00",
+  "total": 104,
+  "market_sensitive_count": 91,
+  "generated_at": "2026-06-30T23:32:20.452069+00:00",
   "announcements": [
+    {
+      "ticker": "AXE",
+      "company": "ARCHER MATERIALS LIMITED",
+      "headline": "Archer enters strategic agreement with quantum leader, IonQ",
+      "time": "2026-06-30T23:27:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106164-2A1681062",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Archer Materials (AXE) has secured a strategic agreement with IonQ (NYSE: IONQ), a publicly listed and commercially operating quantum computing company with ~US$400M market cap — this is a significant credibility signal, as IonQ represents one of the few scaled, revenue-generating players in the quantum hardware space, lending external validation to Archer's qubit processor development program.",
+        "The partnership likely provides Archer access to IonQ's trapped-ion quantum architecture expertise and potentially a commercialisation pathway for its 12CQ chip technology — critical for a pre-revenue ASX micro-cap that has faced persistent investor scrutiny over its timeline to tangible milestones; any technology integration or co-development terms will be key to watch in follow-up disclosures.",
+        "Near-term catalysts hinge on the depth of the agreement's commercial terms — whether it involves IP licensing, joint development, or distribution rights will determine whether this is transformative or largely reputational; investors should monitor for a follow-up technical update or capital raise, as strategic agreements of this nature often precede funding rounds to accelerate development timelines."
+      ],
+      "tags": [
+        "Technology",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NDO",
+      "company": "NIDO EDUCATION LIMITED",
+      "headline": "Loan Facility Extension",
+      "time": "2026-06-30T23:24:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106158-3A696348",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Loan facility extension removes near-term refinancing risk, preserving liquidity headroom for Nido's childcare centre operations and any bolt-on acquisition activity — a critical signal given the capital-intensive nature of early childhood education infrastructure.",
+        "The market-sensitive classification suggests material terms are involved, likely including extended tenor, revised covenants, or amended pricing; investors should scrutinise whether the extension reflects lender confidence or a negotiated compromise under tighter credit conditions.",
+        "With the childcare sector facing ongoing cost pressures from wage inflation and government subsidy dynamics, securing extended debt facilities provides operational stability and positions Nido to pursue its centre rollout strategy without near-term balance sheet constraints."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JYC",
+      "company": "JOYCE CORPORATION LTD",
+      "headline": "Completion of KWB Group Leadership Transition",
+      "time": "2026-06-30T23:23:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106156-6A1331861",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "KWB Group leadership transition completion removes a key operational uncertainty for Joyce Corporation, with management continuity critical given KWB's role as a core revenue contributor within the group's furniture and bedding retail portfolio.",
+        "The market-sensitive classification signals the transition carries material implications — investors should scrutinise whether the incoming leadership maintains vendor relationships, franchise performance metrics, and margin discipline that underpinned KWB's historical earnings contribution to the consolidated group.",
+        "Near-term focus shifts to execution risk under new leadership; any guidance reaffirmation or retention of key operational personnel alongside this announcement would be a positive signal, while absence of such detail warrants monitoring of KWB's comparable sales trajectory in upcoming quarterly disclosures."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTO",
+      "company": "CITIGOLD CORPORATION LIMITED",
+      "headline": "Response to ASX Aware Letter",
+      "time": "2026-06-30T23:22:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106154-2A1681071",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX-initiated aware letter signals the exchange flagged unusual trading activity or a potential disclosure breach — the market-sensitive classification elevates regulatory scrutiny risk and may indicate undisclosed material information was circulating prior to the response.",
+        "Citigold's formal response to the ASX query is a compliance obligation, but the market-sensitive flag suggests the company's reply contains substantive disclosures (e.g. exploration results, corporate activity, or financial developments) that could materially move the share price upon digestion by the market.",
+        "Investors should monitor for any accompanying operational or corporate updates embedded within the response — historically, ASX aware letter disclosures for junior gold explorers like Citigold can precede capital raises, resource announcements, or M&A activity, making the underlying content of the response the critical near-term catalyst to watch."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WTM",
+      "company": "WARATAH MINERALS LIMITED",
+      "headline": "Continued Growth at the Spur Gold Zone",
+      "time": "2026-06-30T23:22:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106153-6A1331860",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Continued mineralisation growth at the Spur Gold Zone signals a potentially expanding resource footprint, a critical de-risking milestone for early-stage explorers that can materially re-rate market capitalisation if intercepts confirm structural continuity.",
+        "The market-sensitive classification implies new drill results or resource estimate updates of material significance — investors should scrutinise intercept grades and widths against prior holes to assess whether the zone is tracking toward a maiden JORC resource or resource upgrade.",
+        "Near-term catalysts will hinge on the pace of follow-up drilling and whether Waratah can sustain newsflow momentum; the ability to convert exploration success into a defined resource estimate within the next 1-2 quarters is the key value inflection point for institutional interest."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SOR",
+      "company": "STRATEGIC ELEMENTS LIMITED",
+      "headline": "Key Energy Ink Moisture Energy Patent Granted in Japan",
+      "time": "2026-06-30T23:21:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106151-6A1331858",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Japan patent grant for the 'Energy Ink' moisture-harvesting technology significantly expands Strategic Elements' IP moat into one of the world's largest and most IP-rigorous jurisdictions, strengthening commercial licensing leverage and deterring competitor replication in a key Asian market.",
+        "The granted patent adds tangible balance-sheet value to an early-stage technology company where IP portfolio depth is a primary valuation driver — institutional investors should note Japan joins a growing suite of jurisdictions, incrementally de-risking the path to commercialisation and potential licensing revenue.",
+        "Near-term catalysts to watch include whether the Japan grant accelerates engagement with Japanese electronics or energy-harvesting manufacturers (Sony, Panasonic, Murata are natural strategic partners), and whether management will leverage this milestone to advance partnership or licensing discussions that could crystallise non-dilutive revenue."
+      ],
+      "tags": [
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EXT",
+      "company": "EXCITE TECHNOLOGY SERVICES LTD",
+      "headline": "Trading halt",
+      "time": "2026-06-30T23:20:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106150-3A696346",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt requested by Excite Technology Services (ASX: ET1) signals an imminent material announcement — most likely a capital raise, M&A transaction, or significant corporate development requiring price-sensitive disclosure protocols.",
+        "The 'market sensitive' classification elevates the probability this is not a routine administrative halt; historically, such designations on small-cap tech names precede equity placements, strategic partnerships, or asset acquisitions that carry dilution or re-rating risk.",
+        "Investors should monitor the resumption announcement closely — if the halt resolves into a capital raise at a discount, near-term selling pressure is likely; a strategic deal or revenue-generating contract could trigger a sharp re-rating given ET1's typically thin liquidity profile."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NWM",
+      "company": "NORWEST MINERALS LIMITED",
+      "headline": "Bulgera Heap Leach Gold Project update",
+      "time": "2026-06-30T23:20:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106149-6A1331856",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Heap leach project update signals potential low-capex, near-term gold production pathway for Norwest Minerals — a critical de-risking milestone for this junior explorer that could materially re-rate the stock if economics stack up.",
+        "Heap leach methodology is particularly significant for bulk, lower-grade gold deposits as it offers substantially reduced processing costs versus conventional milling; any disclosed recoveries, grade confirmation, or metallurgical test results will be the key valuation drivers to watch in this announcement.",
+        "As a market-sensitive release, institutional investors should scrutinise disclosed resource estimates, leach recovery rates, and indicative project economics closely — progression toward a scoping study or feasibility milestone would represent a clear catalyst for re-rating this small-cap gold play against peers."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WAU",
+      "company": "WA GOLD LIMITED",
+      "headline": "DRILLING COMMENCES AT BULLABULLING, WA",
+      "time": "2026-06-30T23:20:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106148-6A1331857",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drill commencement at Bullabulling marks a tangible operational catalyst for WA Gold — the Bullabulling project hosts a historically defined multi-million ounce resource in WA's prolific Goldfields region, meaning any positive intercepts could materially re-rate the stock given the project's scale potential.",
+        "The market-sensitive classification signals management expects drill results to be share-price moving — investors should monitor for assay results, with high-grade intercepts near existing resource boundaries likely to drive significant re-rating given the project's proximity to major infrastructure and processing facilities.",
+        "Near-term newsflow will be dominated by drill results turnaround times (typically 4–8 weeks for RC assays); the key watch points are depth, width, and grade of intercepts relative to the existing resource model — success here could underpin a resource upgrade cycle and attract institutional attention to what remains a relatively underfollowed junior gold explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DXN",
+      "company": "DXN LIMITED",
+      "headline": "Strategic Divestment of Non-Core Tasmanian Data Centre",
+      "time": "2026-06-30T23:19:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106145-3A696344",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic capital recycling move: DXN is divesting a non-core Tasmanian data centre asset, signalling a deliberate portfolio rationalisation toward higher-value or higher-growth facilities — a positive signal for capital discipline and focus on core operations.",
+        "The cash proceeds from the divestment are critical to watch — any injection into the balance sheet could meaningfully extend DXN's cash runway or fund expansion of its edge data centre network, particularly relevant given the capital-intensive nature of data centre rollouts.",
+        "Investors should monitor whether management redeploys proceeds into its core edge DC pipeline or uses funds to reduce debt; execution on redeployment will be the key determinant of whether this divestment is genuinely value-accretive or merely a liquidity measure."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IMI",
+      "company": "INFINITY MINING LIMITED",
+      "headline": "Orivium Metallurgical Update",
+      "time": "2026-06-30T23:18:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106144-6A1331854",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Metallurgical update on the Orivium project signals a de-risking milestone for Infinity Mining — positive testwork results at this stage typically validate processing assumptions underpinning resource economics, directly supporting project feasibility progression and potential re-rating of the asset.",
+        "The market-sensitive classification indicates material new data has emerged from metallurgical testwork; investors should scrutinise recovery rates, concentrate grades, and any changes to processing flowsheet assumptions, as these metrics directly drive NPV sensitivity and capital cost estimates.",
+        "Near-term catalysts to watch include whether this update accelerates a Scoping Study or PFS timeline — confirmation of favourable metallurgy removes a key technical risk gate and could attract strategic or institutional interest ahead of the next funding or development decision."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AR9",
+      "company": "ARCHTIS LIMITED",
+      "headline": "AR9 Awarded $3.2M Australian Department of Defence Contract",
+      "time": "2026-06-30T23:18:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106143-6A1331855",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The $3.2M Department of Defence contract represents a meaningful revenue injection for archTis, a small-cap cybersecurity firm, and validates its NC Protect and sovereign data security capabilities within Australia's most demanding and security-conscious procurement environment — a critical reference win for future government pipeline expansion.",
+        "For a company of archTis's scale, a single $3.2M contract is materially significant to near-term revenue recognition and cash runway; investors should monitor whether this is structured as a lump-sum or milestone-based payment schedule, as timing of cash receipts will directly impact quarterly burn rate and cash position.",
+        "Defence sector penetration opens a high-value, sticky customer channel — Australian Defence contracts typically carry renewal and expansion optionality, and this award strengthens archTis's credentials for broader Five Eyes allied government opportunities and positions it competitively ahead of anticipated increases in sovereign cyber defence spending under the 2024 Australian Cyber Security Strategy."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ASL",
+      "company": "ANDEAN SILVER LIMITED",
+      "headline": "Managing Director Appointment",
+      "time": "2026-06-30T23:16:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106136-6A1331852",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "Leadership transition at a critical juncture: The appointment of a new Managing Director signals a potential strategic pivot or acceleration of Andean Silver's exploration and development agenda, with institutional investors watching closely for any shift in capital allocation priorities or project timelines.",
+        "Market-sensitive classification elevates significance: The ASX's designation of this announcement as market sensitive suggests the incoming MD carries material credentials or the appointment structure (remuneration, equity incentives, or prior industry relationships) could meaningfully influence near-term corporate direction and deal-making capacity.",
+        "Key near-term catalyst to monitor: Investors should scrutinise the new MD's background for alignment with Andean Silver's silver-focused Latin American asset base — prior experience in South American jurisdictions, major mining house networks, or M&A track record could unlock re-rating potential or signal an imminent capital raise or JV partnership."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EIQ",
+      "company": "ECHOIQ LIMITED",
+      "headline": "Echo IQ Raises A$110m via Institutional Placement",
+      "time": "2026-06-30T23:15:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106132-2A1681012",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "A$110m institutional placement represents a substantial capital injection for EchoIQ, likely providing multi-year cash runway to accelerate commercialisation of its AI-driven cardiac diagnostics platform — scale of raise signals strong institutional conviction in the technology's near-term revenue potential.",
+        "The size of the raise is significant relative to EchoIQ's pre-raise market capitalisation, indicating meaningful dilution for existing shareholders; pricing and discount to last traded price will be critical in determining near-term secondary market pressure once shares resume trading.",
+        "Proceeds are expected to fund expanded US and international market penetration, clinical partnerships, and potential regulatory approvals — execution on these milestones over the next 12–18 months will be the key catalyst watch for institutional investors assessing whether the capital is deployed efficiently."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DXN",
+      "company": "DXN LIMITED",
+      "headline": "DXN Wins $1M Pacific Telecoms Infrastructure Contract",
+      "time": "2026-06-30T23:15:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106131-3A696342",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DXN has secured a ~$1M Pacific telecoms infrastructure contract, providing meaningful near-term revenue visibility for a small-cap operator — at current scale, a single contract of this size can materially move the revenue needle and signals credible traction in international markets beyond its domestic data centre footprint.",
+        "The Pacific region win diversifies DXN's geographic revenue base and validates its edge data centre and infrastructure capabilities in emerging/frontier telecoms markets, where demand for resilient connectivity infrastructure is structurally growing — this could serve as a reference contract for further regional expansion.",
+        "Investors should watch for contract execution milestones, margin disclosure, and whether this deal opens a pipeline of follow-on work in the Pacific; the 'market sensitive' classification suggests management views the revenue contribution as material relative to current earnings, making delivery timelines and repeat-business potential key catalysts to monitor."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RYD",
+      "company": "RYDER CAPITAL LIMITED",
+      "headline": "Declaration of June Quarterly Dividend - Q4FY26",
+      "time": "2026-06-30T23:12:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106124-2A1681058",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Ryder Capital has declared its Q4 FY26 quarterly dividend, maintaining its consistent income distribution cadence — a key attraction for yield-focused investors in this Listed Investment Company (LIC) structure.",
+        "The declaration signals the portfolio is generating sufficient income and/or realised gains to sustain shareholder distributions, providing a read-through on underlying portfolio health and NAV stability heading into FY26 year-end.",
+        "Investors should monitor the dividend quantum relative to prior quarters and any movement in the NTA discount/premium, as sustained or growing dividends typically support narrowing of the LIC discount and underpin share price support near term."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Quarterly"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WWI",
+      "company": "WEST WITS MINING LIMITED",
+      "headline": "Financial Close and First Drawdown of Senior Loan Facility",
+      "time": "2026-06-30T23:12:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106123-3A696339",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Financial close of the senior loan facility marks a critical de-risking milestone for West Wits, confirming that a third-party lender has completed full due diligence and deemed the Witwatersrand Basin Project (WBP) bankable — a significant credibility signal for institutional investors evaluating project viability.",
+        "First drawdown provides immediate liquidity injection, reducing reliance on equity markets and limiting near-term dilution risk for existing shareholders; the quantum and terms of the facility will be key to assessing debt serviceability against the project's production ramp-up timeline.",
+        "With construction financing now secured, execution risk shifts to operational delivery — investors should monitor upcoming milestones including construction commencement, commissioning timelines, and any conditions precedent attached to subsequent drawdown tranches that could gate further capital deployment."
+      ],
+      "tags": [
+        "Mining",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "A30",
+      "company": "GLOBAL X AUSTRALIA 300 ETF",
+      "headline": "Notification to Unit Holders",
+      "time": "2026-06-30T23:11:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106119-2A1681054",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive notification to unit holders signals a material change in ETF structure, index composition, or distribution policy that could directly affect the fund's tracking characteristics and investor positioning in the ASX 300 universe.",
+        "As a broad-market ETF tracking the ASX 300, any rebalancing, fee adjustment, or index reconstitution event carries flow-on implications for underlying constituent stocks — particularly smaller-cap names where ETF ownership represents a meaningful percentage of free float.",
+        "Institutional investors should monitor the specific nature of the notification closely: if distribution-related, tax treatment and yield expectations may shift; if index or structural changes are involved, forced buying/selling activity in affected constituents could create short-term price dislocations and tactical opportunities."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RML",
+      "company": "RESOLUTION MINERALS LTD",
+      "headline": "Drill Program Progressing well at Horse Heaven Project",
+      "time": "2026-06-30T23:11:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106115-2A1681052",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material drill results or significant geological intersections are expected imminently, elevating investor attention on Horse Heaven as a potential value catalyst for this junior explorer.",
+        "Progress confirmation at Horse Heaven — likely a copper, gold, or critical minerals target in the US — suggests the program is on schedule and within budget, reducing execution risk and maintaining the exploration timeline that underpins the current market valuation.",
+        "Next steps hinge on assay results turnaround times; investors should watch for follow-up announcements detailing intercept grades and widths, which will determine whether Horse Heaven warrants resource definition drilling and potential re-rating of the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ENL",
+      "company": "ENLITIC INC.",
+      "headline": "First Australian Ensight Contract Secured with Lumus Imaging",
+      "time": "2026-06-30T23:10:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106112-3A696336",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "First commercial contract for Enlitic's Ensight platform in Australia with Lumus Imaging — a major national radiology network — validates product-market fit and provides a critical reference customer to accelerate domestic and regional sales pipeline conversion.",
+        "The deal represents a tangible revenue inflection point for a company that has been pre-commercial in the Australian market; while contract value is undisclosed, Lumus Imaging's scale (100+ sites nationally) implies meaningful recurring SaaS or licensing revenue potential if deployment expands across the network.",
+        "This milestone de-risks the Australian go-to-market strategy and strengthens Enlitic's negotiating position with other large imaging groups (e.g. I-MED, Capitol Health); near-term focus will be on execution quality and demonstrating measurable clinical/operational outcomes to drive upsell and competitive displacement."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IIQ",
+      "company": "INOVIQ LTD",
+      "headline": "EXO-OC algorithm and clinical study update",
+      "time": "2026-06-30T23:10:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106111-3A696323",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "INOVIQ's EXO-OC algorithm update signals a critical de-risking milestone for its ovarian cancer liquid biopsy program — algorithmic refinement directly impacts sensitivity/specificity metrics, which are the key gating factors for any future regulatory submission or commercial partnership discussions.",
+        "Clinical study progress is market-sensitive because trial data readouts represent the primary near-term value inflection point for this pre-revenue biotech; any indication of improved diagnostic performance or expanded patient cohort data could materially re-rate the stock given the large unmet need in early-stage ovarian cancer detection.",
+        "Investors should monitor whether the update includes a revised timeline to pivotal study completion or commercialisation pathway clarity — INOVIQ's cash position and burn rate remain central risks, and any acceleration or delay in the clinical program will directly influence the company's next capital raise decision."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RCE",
+      "company": "RECCE PHARMACEUTICALS LTD",
+      "headline": "AUD $3.7M Income Tax Refund Received",
+      "time": "2026-06-30T23:07:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106106-6A1331847",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The AUD $3.7M tax refund — likely sourced from Australia's R&D Tax Incentive scheme — provides a meaningful, non-dilutive cash injection for a pre-revenue biotech, directly extending runway without shareholder dilution at a critical clinical development stage.",
+        "For a company of Recce's size and burn rate, a $3.7M refund is materially significant; it reduces near-term capital raise pressure and signals the company has been deploying substantial qualifying R&D expenditure, consistent with active clinical trial activity for its synthetic anti-infective pipeline.",
+        "Investors should monitor how management deploys this capital — prioritisation toward Phase II/III trial progression or regulatory milestones would be the highest-value use, and any accompanying guidance on updated cash runway or operational timeline would be the key catalyst to watch."
+      ],
+      "tags": [
+        "Healthcare",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RYD",
+      "company": "RYDER CAPITAL LIMITED",
+      "headline": "Dividend/Distribution - RYD",
+      "time": "2026-06-30T23:05:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106105-2A1681045",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Ryder Capital (RYD) has declared a dividend/distribution, signalling the LIC continues to generate sufficient income from its small-cap equity portfolio to return capital to shareholders — a key differentiator for income-focused investors in the closed-end fund space.",
+        "The market-sensitive classification suggests the distribution quantum or timing may deviate materially from prior periods, warranting close attention to the per-unit amount and franking level, as these directly influence the fund's yield premium/discount to NTA dynamics.",
+        "Investors should monitor the ex-dividend date and any accompanying NTA update — distribution sustainability relative to portfolio income generation remains the critical metric for assessing whether RYD can maintain its payout cadence without eroding underlying asset value."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IMB",
+      "company": "INTELLIGENT MONITORING GROUP LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-30T23:04:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106099-6A1331845",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Intelligent Monitoring Group (IMB) has entered a trading halt, suspending price discovery and liquidity for investors — the halt is classified as market sensitive, signalling a material corporate event is imminent rather than a routine administrative pause.",
+        "Trading halts of this nature on the ASX most commonly precede a capital raise, M&A transaction, or significant earnings revision — given IMB's position in the security monitoring sector, a strategic acquisition or equity placement to fund growth would be consistent with recent sector consolidation trends.",
+        "Investors should monitor the resumption announcement closely; the nature of the disclosure will be the key determinant of directional impact — a dilutive capital raise would pressure the share price, while an accretive M&A or contract win could re-rate the stock materially to the upside."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "1AD",
+      "company": "ADALTA LIMITED",
+      "headline": "Second BZDS1901 milestone paid",
+      "time": "2026-06-30T23:03:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106096-3A696335",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AdAlta has received its second milestone payment from partner Boehringer Ingelheim under the BZDS1901 licensing agreement, confirming the program is advancing through agreed development gates and validating the i-body platform's commercial traction with a major pharma partner.",
+        "The milestone payment — while undisclosed in quantum — represents non-dilutive, non-recourse cash inflow that directly extends AdAlta's runway, a critical consideration for a pre-revenue biotech operating in a constrained capital environment; investors should monitor the total milestone schedule to assess materiality relative to current burn rate.",
+        "Continued milestone achievement de-risks the partnership and signals Boehringer Ingelheim's sustained commitment to BZDS1901 (targeting fibrosis), keeping the program on track for potential further value-inflection events including clinical readouts — the next catalyst to watch is any Phase I/II progression announcement that could trigger larger, pre-agreed milestone tranches."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AXE",
+      "company": "ARCHER MATERIALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-30T23:03:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106094-2A1681041",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Archer Materials (AXE) has entered a trading halt pending an announcement, most likely related to a capital raise or material corporate development — the market-sensitive classification signals information asymmetry that warrants close monitoring upon resumption.",
+        "As a pre-revenue quantum computing and semiconductor technology company, AXE's cash position is a critical variable; any capital raise would raise dilution concerns but could also extend runway for its 12CQ qubit processor and biochip programs, which are at pivotal development stages.",
+        "Investors should watch for the nature of the forthcoming announcement — a strategic partnership or licensing deal would be a bullish catalyst, while a discounted equity raise without accompanying news would likely pressure the share price on resumption given current sector sentiment toward early-stage tech stocks."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "1AI",
+      "company": "ALGORAE PHARMACEUTICALS LIMITED",
+      "headline": "Algorae Awarded NSW Health Public Hospital Supply Contract",
+      "time": "2026-06-30T23:03:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106093-2A1681043",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Government contract validation is a critical de-risking milestone for a small-cap pharma — securing a NSW Health public hospital supply contract provides Algorae with a recurring, sovereign-backed revenue stream that materially reduces commercial execution risk and lends institutional credibility to its product pipeline.",
+        "The contract signals product approval and formulary listing within the NSW public hospital system, one of Australia's largest healthcare procurement networks, implying meaningful volume potential; investors should watch for disclosed contract value, duration, and exclusivity terms to size the revenue contribution relative to current cash burn.",
+        "Near-term catalysts to monitor include management guidance on contract commencement timelines, supply chain readiness, and whether this NSW win positions the company to pursue similar state health department contracts in Victoria, Queensland, or federally — a replicable model could significantly re-rate the stock's revenue multiple."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BTL",
+      "company": "BEETALOO ENERGY AUSTRALIA LIMITED",
+      "headline": "Beetaloo Operations Update",
+      "time": "2026-06-30T23:02:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106092-2A1681042",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material operational developments in the Beetaloo Sub-basin, a frontier onshore gas province in the NT that has attracted significant institutional interest given its potential to underpin Australia's domestic gas supply — any drilling or flow-rate updates could be re-rating catalysts.",
+        "Operational updates from Beetaloo-focused explorers are closely watched for well completion milestones, flow test results, or rig mobilisation progress, as these directly de-risk resource estimates and inform commercialisation timelines for what could be a multi-tcf gas play.",
+        "Investors should monitor for specifics on well performance metrics (IP rates, reservoir pressure data) and any commentary on farm-in interest or infrastructure partnerships, as these are the key value-unlock triggers that would justify re-rating the stock toward development-stage multiples."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AOK",
+      "company": "AUSTRALIAN OIL COMPANY LIMITED.",
+      "headline": "Surat Oil Basin Phase 1 Development Initiatives Commence",
+      "time": "2026-06-30T23:01:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106089-6A1331842",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of Phase 1 development in the Surat Basin marks a critical de-risking milestone for AOC, transitioning the project from exploration/appraisal into active field development — a stage change that typically re-rates junior oil and gas companies on production optionality and reserve conversion potential.",
+        "The market-sensitive classification signals material operational progress that management believes could influence the share price; investors should scrutinise the Phase 1 scope (well count, capital commitment, and targeted flow rates) to assess whether near-term production volumes justify current market capitalisation and implied per-barrel valuations.",
+        "Key near-term catalysts to monitor include initial well results, any updated resource-to-reserve conversion announcements, and whether Phase 1 execution triggers farm-in interest or project financing discussions — all of which could serve as meaningful re-rating events for a small-cap energy name in a market hungry for domestic hydrocarbon exposure."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CHM",
+      "company": "CHM",
+      "headline": "Appointment of Financial Adviser for Strategic Review",
+      "time": "2026-06-30T23:01:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106088-2A1681038",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The appointment of a financial adviser to conduct a strategic review is a strong signal that CHM's board is actively exploring value-unlocking options — most likely including a merger, acquisition, asset sale, or capital restructure — elevating M&A probability materially.",
+        "Market-sensitive classification indicates the board believes this process could have a material impact on share price, suggesting the scope of the review is substantive rather than routine; investors should watch for indicative bids, data room access, or exclusivity announcements as key catalysts.",
+        "Next steps hinge on the adviser's mandate scope and timeline — if a formal sale or merger process is confirmed, a bidder premium could be embedded into the share price quickly, but execution risk, deal fatigue, or a 'no transaction' outcome remain tail risks that could unwind any re-rating."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SGQ",
+      "company": "SGQ",
+      "headline": "199m of High-Grade Rare Earths and Niobium from Surface",
+      "time": "2026-06-30T23:00:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106087-6A1331841",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SGQ has intersected 199 metres of high-grade rare earths and niobium from surface — the 'from surface' characteristic is critical, as it eliminates overburden stripping costs and significantly de-risks open-pit economics, a key differentiator versus deeper peer deposits.",
+        "The combination of rare earths and niobium in a single mineralised system is strategically significant: niobium commands premium pricing (~$40/kg ferroniobium) and rare earths remain on critical minerals lists globally, positioning SGQ favourably for offtake interest and potential government-backed financing pathways.",
+        "This market-sensitive intercept is likely a catalyst for a resource upgrade or maiden resource estimate, with the shallow, wide mineralisation suggesting strong potential for bulk-tonnage open-pit scenarios — investors should watch for follow-up drilling announcements and scoping study timelines to assess project advancement pace."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OD6",
+      "company": "OD6",
+      "headline": "MULTIPLE NEW HIGH-PRIORITY DRILL TARGETS AT QUINN",
+      "time": "2026-06-30T22:59:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106086-6A1331839",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Identification of multiple new high-priority drill targets at the Quinn project materially expands OD6's exploration pipeline, signalling the deposit system may be larger and more structurally complex than previously modelled — a key re-rating catalyst for early-stage rare earth/mineral explorers.",
+        "The market-sensitive classification underscores management's view that these targets carry genuine resource-growth potential; institutional investors should monitor upcoming drill program announcements for target spacing, geophysical anomaly sizing, and proximity to existing resource boundaries to assess scale-up optionality.",
+        "Near-term catalysts hinge on drill program commencement timing and funding adequacy — investors should scrutinise OD6's current cash position and whether a capital raise may be required to execute a multi-target drill campaign, as execution risk and dilution potential are the primary downside considerations from here."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "IPX",
       "company": "IPERIONX LIMITED",
