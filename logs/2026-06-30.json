@@ -1,9 +1,47 @@
 {
   "date": "2026-06-30",
-  "total": 94,
-  "market_sensitive_count": 77,
-  "generated_at": "2026-06-30T00:15:24.971063+00:00",
+  "total": 96,
+  "market_sensitive_count": 78,
+  "generated_at": "2026-06-30T01:42:55.470994+00:00",
   "announcements": [
+    {
+      "ticker": "BMH",
+      "company": "BAUMART HOLDINGS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-06-30T01:37:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105508-6A1331587",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Baumart Holdings has requested a voluntary pause in trading, signalling that a material corporate development is imminent — likely a capital raise, M&A transaction, or significant operational announcement requiring price-sensitive disclosure management.",
+        "The market-sensitive classification elevates the significance of this halt; institutional investors should note that voluntary trading pauses of this nature typically precede announcements that could materially reprice the stock in either direction, warranting close monitoring of the resumption announcement.",
+        "Next steps hinge entirely on the nature of the pending disclosure — if the pause resolves into a dilutive capital raise or distressed asset sale, downside risk is elevated; conversely, a strategic acquisition or partnership could act as a re-rating catalyst for this small-cap holding company."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HWK",
+      "company": "HAWK RESOURCES LIMITED.",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-06-30T00:55:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105489-6A1331584",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has fallen below the 5% ownership threshold in Hawk Resources Limited (HAWk), triggering a mandatory cease-to-be notice — signalling a meaningful reduction or full exit of a previously significant equity position.",
+        "The disposal of a substantial stake introduces potential near-term selling pressure overhang concerns, though the absence of a market-sensitive flag suggests the position was unwound gradually or at minimal market impact, limiting acute price dislocation risk.",
+        "Institutional investors should monitor the register closely for follow-on changes — the departure of a substantial holder can alter the shareholder power dynamic, potentially opening the register to new strategic investors or increasing free float liquidity, which may attract fresh institutional interest."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MTH",
       "company": "MITHRIL SILVER AND GOLD LIMITED",
