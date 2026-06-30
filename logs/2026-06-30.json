@@ -1,9 +1,123 @@
 {
   "date": "2026-06-30",
-  "total": 96,
-  "market_sensitive_count": 78,
-  "generated_at": "2026-06-30T01:42:55.470994+00:00",
+  "total": 102,
+  "market_sensitive_count": 82,
+  "generated_at": "2026-06-30T03:09:05.494681+00:00",
   "announcements": [
+    {
+      "ticker": "PCG",
+      "company": "PENGANA CAPITAL GROUP LIMITED",
+      "headline": "Change in substantial holding for Russel Pillemer",
+      "time": "2026-06-30T02:55:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105573-2A1680706",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Russel Pillemer, co-founder and CEO of Pengana Capital Group, has filed a change in substantial holding notice, signalling a shift in his ownership stake — either an increase or decrease — which warrants close monitoring given his insider status and influence over the firm's strategic direction.",
+        "As a key principal, any reduction in Pillemer's holding could be interpreted as a softening of founder conviction, while an increase would reinforce alignment with minority shareholders; the precise direction and quantum of the change are critical to assessing materiality for institutional holders.",
+        "Investors should cross-reference this filing against Pengana's recent funds under management (FUM) trajectory and share price performance, as substantial holder movements by senior executives in boutique asset managers often precede or reflect internal views on near-term business momentum and valuation."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HPC",
+      "company": "THE HYDRATION PHARMACEUTICALS COMPANY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-06-30T02:52:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105572-3A696260",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a shift in the register of a major shareholder (≥5% threshold), which may indicate accumulation or partial exit by an institutional or sophisticated investor — the direction and magnitude of the change will determine whether this represents growing conviction or distribution pressure.",
+        "For a micro-cap healthcare name like Hydration Pharmaceuticals, movements at the substantial holder level can have an outsized impact on liquidity and price discovery, given typically thin trading volumes and a concentrated share register.",
+        "Investors should monitor whether this reflects a new entrant crossing the 5% threshold or an existing holder increasing/decreasing their position, as follow-on filings or on-market activity in coming sessions will clarify the strategic intent and potential overhang risk."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMH",
+      "company": "BAUMART HOLDINGS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-06-30T02:24:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105545-6A1331591",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Baumart Holdings (ASX: BMH) has entered a trading halt, suspending share price discovery — historically, halts of this nature precede a material announcement such as a capital raise, M&A transaction, or significant corporate development requiring regulatory compliance.",
+        "The 'market sensitive' classification signals the pending disclosure carries material information that could meaningfully re-rate the stock in either direction; investors should note that trading halts typically last 1-2 sessions before the underlying catalyst is revealed.",
+        "Given Baumart's profile as a small-cap building materials and hardware distributor, the most probable catalysts include a strategic acquisition, equity raising to fund expansion, or a material contract win — institutional investors should monitor the follow-on announcement closely before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NTD",
+      "company": "NTAW HOLDINGS LIMITED",
+      "headline": "UPDATED BORROWING FACILITY AND FINANCIAL COVENANTS",
+      "time": "2026-06-30T02:21:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105541-2A1680681",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NTAW has secured an updated borrowing facility with revised financial covenants, suggesting the company was likely facing pressure on existing covenant thresholds — a red flag indicating underlying balance sheet stress or earnings deterioration that necessitated renegotiation with lenders.",
+        "Covenant amendments typically come at a cost: expect tighter monitoring conditions, potentially higher interest margins, or additional security requirements — all of which could compress free cash flow and limit operational flexibility in the near term.",
+        "Investors should scrutinise the revised covenant headroom, facility size, and any associated fees or equity-linked conditions in the full disclosure; if the renegotiation merely buys time without addressing root causes of financial strain, further capital management actions (dilutive raise or asset sales) remain a material risk."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GMV",
+      "company": "VANECK GEARED AUSTRALIAN EQUAL WEIGHT COMPLEX ETF",
+      "headline": "Final Dividend/Distribution for period ending 30 June 2026",
+      "time": "2026-06-30T02:01:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105530-2A1680666",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "VanEck's Geared Australian Equal Weight Complex ETF has declared its final distribution for the period ending 30 June 2026, confirming the fund continues to generate distributable income despite its leveraged structure — a key signal for income-focused investors monitoring geared product sustainability.",
+        "The market-sensitive classification warrants attention: distribution quantum and yield rate relative to NAV will be critical metrics to assess whether the geared strategy is delivering amplified returns commensurate with its elevated risk profile, particularly given recent ASX equity market volatility.",
+        "Investors should monitor the ex-distribution date and payment timeline closely, as geared ETF distributions can reflect both income generation and return-of-capital components — understanding the composition is essential for tax efficiency and true yield assessment ahead of end-of-financial-year portfolio positioning."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IMU",
+      "company": "IMUGENE LIMITED",
+      "headline": "First Complete Response in Concurrent BTKi azer-cel Cohort",
+      "time": "2026-06-30T01:45:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03105518-3A696254",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Clinical milestone achieved: Imugene's azer-cel CAR-T therapy delivered the first complete response (CR) in the concurrent BTK inhibitor (BTKi) cohort — a heavily pre-treated patient population historically resistant to standard therapies, validating the combination approach and differentiating azer-cel from competing CAR-T platforms.",
+        "The CR in a BTKi-concurrent setting is particularly significant as it addresses a critical unmet need; patients on BTK inhibitors (e.g. for relapsed/refractory B-cell malignancies) typically have limited options, and a confirmed CR strengthens the clinical thesis ahead of potential partnership discussions or further capital deployment into the program.",
+        "Near-term catalysts to watch include additional response data from expanded cohort enrolment and any updated durability/follow-up data, which will be essential for de-risking the asset ahead of a potential licensing deal or IND expansion — key given Imugene's ongoing cash burn and the need to demonstrate value inflection points to support future funding rounds."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "BMH",
       "company": "BAUMART HOLDINGS LIMITED",
