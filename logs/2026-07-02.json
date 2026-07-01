@@ -1,9 +1,563 @@
 {
   "date": "2026-07-02",
-  "total": 53,
-  "market_sensitive_count": 40,
-  "generated_at": "2026-07-01T22:59:42.221995+00:00",
+  "total": 82,
+  "market_sensitive_count": 66,
+  "generated_at": "2026-07-01T23:33:07.280213+00:00",
   "announcements": [
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Eleventh Supplementary Bidder's Statement",
+      "time": "2026-07-01T23:27:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106807-2A1681671",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The filing of an eleventh supplementary bidder's statement signals the Atlas Arteria takeover bid remains highly contested and procedurally complex, with repeated supplementary disclosures typically indicating material new information, regulatory responses, or evolving bid terms that bidders are compelled to address — each iteration raising execution risk and deal fatigue for both parties.",
+        "Institutional investors should scrutinise whether this supplement contains revised offer price, updated financing conditions, or responses to target board rebuttals, as any of these could materially shift the probability-weighted value of the bid and inform arbitrage positioning around the current share price versus implied offer value.",
+        "The volume of supplementary statements (eleventh iteration) suggests a protracted and potentially contentious process; investors should monitor for any ASIC intervention, bid extension deadlines, or shifts in major shareholder acceptances, as these will be the key catalysts determining whether the bid succeeds, lapses, or is restructured at a higher price."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VKA",
+      "company": "VIKING MINES LIMITED",
+      "headline": "LINKA TAILS DAM SAMPLING SUPPORTS HIGH HISTORICAL RECOVERIES",
+      "time": "2026-07-01T23:26:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106805-6A1332147",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tails dam sampling at Linka confirms mineralisation consistency with historical processing records, de-risking the reprocessing thesis and potentially validating a low-capex, near-term production pathway from already-mined material.",
+        "High historical recovery rates supported by new sampling data suggest the tails resource could offer superior economics versus greenfield development — a critical value inflection point for a junior explorer seeking to demonstrate project viability without heavy upfront capital.",
+        "Next steps will likely centre on a formal resource estimate or scoping study for the tails dam; positive outcomes here could catalyse a re-rating and underpin a capital raise to advance toward feasibility or pilot-scale processing."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LEV",
+      "company": "FIRST SENTIER GEARED AUSTRALIAN SHARE COMPLEX ETF",
+      "headline": "Distribution Announcement",
+      "time": "2026-07-01T23:26:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106804-2A1681669",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "First Sentier's geared Australian share ETF has declared a distribution, confirming income generation from its leveraged equity exposure — critical for yield-focused investors who use this product for amplified ASX market participation.",
+        "As a geared (leveraged) ETF, the distribution quantum relative to NAV will be closely watched; elevated borrowing costs in the current rate environment can compress net income available for distribution, making the yield sustainability a key metric to monitor.",
+        "Investors should assess the distribution rate against the fund's gearing ratio and underlying portfolio performance — in a volatile ASX environment, leveraged structures can experience accelerated NAV erosion, which may impact future distribution capacity and total return."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PWR",
+      "company": "PETER WARREN AUTOMOTIVE HOLDINGS LIMITED",
+      "headline": "Update on Wakeling Automotive Acquisition",
+      "time": "2026-07-01T23:25:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106802-2A1681668",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Peter Warren is progressing the Wakeling Automotive acquisition, signalling continued M&A-driven consolidation strategy in the fragmented Australian automotive dealership market — a key growth lever given organic volume pressures facing the sector.",
+        "The market-sensitive classification suggests material deal terms or timeline updates are being disclosed, which could meaningfully shift consensus estimates for revenue and EBITDA if the acquisition scale or financing structure differs from prior guidance.",
+        "Investors should monitor integration cost assumptions, funding mix (debt vs. equity), and whether the deal is earnings-accretive in FY25 — particularly given elevated interest rates compressing dealership margins and the broader softening in new vehicle demand."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "XX2",
+      "company": "FIRST SENTIER EX-20 AUSTRALIAN SHARE ACTIVE ETF",
+      "headline": "Distribution Announcement",
+      "time": "2026-07-01T23:24:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106799-2A1681662",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "First Sentier Ex-20 Australian Share Active ETF has declared a distribution, providing income return to unitholders invested in the fund's active strategy targeting ASX-listed companies outside the top 20 by market cap — a segment historically offering higher growth potential than large-cap peers.",
+        "The market-sensitive classification signals the distribution quantum is material enough to influence unitholder decision-making; investors should monitor the CPU (cents per unit) figure and ex-distribution date closely, as the NAV will adjust downward post-distribution, creating a potential entry point for new investors.",
+        "For institutional holders, this distribution reinforces the fund's income-generation credentials within the mid/small-cap active ETF space — ongoing distributions support the case for continued allocation, though the sustainability of the payout rate relative to underlying portfolio yield and capital gains will be key to watch in subsequent quarters."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Change in substantial holding - IFM",
+      "time": "2026-07-01T23:23:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106798-2A1681663",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "IFM Investors has filed a change in substantial holding for Atlas Arteria (ALX), signalling a shift in one of the company's most strategically significant shareholder positions — IFM, as a major infrastructure-focused fund manager, has historically held a meaningful stake and any directional change warrants close monitoring for potential influence on corporate strategy or M&A outcomes.",
+        "The nature of the change (increase or decrease) will determine the read-through: a reduction by IFM could signal waning conviction in ALX's toll road asset valuations amid elevated interest rate headwinds and ongoing APRR traffic normalisation, while an increase would suggest renewed confidence in long-duration infrastructure cash flows as a rate-cut cycle approaches.",
+        "With ALX subject to ongoing strategic review dynamics and IFM being a sophisticated infrastructure investor with deep sector knowledge, any material shift in their holding above or below the 5% substantial holder threshold could be a precursor to broader shareholder engagement, board-level dialogue, or positioning ahead of a potential privatisation or asset restructuring scenario."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCP",
+      "company": "SCALARE PARTNERS HOLDINGS LIMITED",
+      "headline": "General Meeting Notice of Meeting, Access Letter & Proxy",
+      "time": "2026-07-01T23:23:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106795-3A696463",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Scalare Partners Holdings has called a General Meeting, signalling a likely shareholder vote on a material corporate action — the market-sensitive classification strongly suggests resolutions beyond routine business, potentially including a capital raise, asset acquisition, or significant structural change that could reshape the company's trajectory.",
+        "The combination of a proxy form and access letter indicates resolutions requiring shareholder approval under ASX Listing Rules or Corporations Act thresholds, meaning institutional and retail holders face a binary decision that could directly impact share count, ownership dilution, or strategic direction in the near term.",
+        "Investors should scrutinise the Notice of Meeting documentation closely for resolution specifics — key watch items include any proposed share issuances above 15% placement capacity, related-party transactions, or board-level changes that could alter governance and capital allocation priorities ahead of the meeting date."
+      ],
+      "tags": [
+        "AGM",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPL",
+      "company": "STARPHARMA HOLDINGS LIMITED",
+      "headline": "Positive DEP HER2-Lu preclinical data support Phase 1 entry",
+      "time": "2026-07-01T23:22:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106792-3A696461",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Preclinical data for DEP HER2-Lu — a dendrimer-enhanced radioligand therapy targeting HER2-positive cancers — met the efficacy and safety thresholds required to justify Phase 1 clinical entry, a critical de-risking milestone that validates Starpharma's DEP platform in the high-growth radioligand space alongside players like Novartis (Lutathera/Pluvicto).",
+        "The HER2-Lu asset addresses a large addressable market across breast, gastric, and other HER2-overexpressing tumours; positive preclinical tolerability and tumour uptake data suggest the DEP conjugation technology is successfully improving the therapeutic window of lutetium-based payloads — a key differentiator if replicated in humans.",
+        "Phase 1 trial initiation represents the next near-term catalyst to watch, with investor focus shifting to IND/CTA filing timelines, trial site selection, and partnership or licensing interest from larger radiopharmaceutical or oncology players who could provide non-dilutive capital to fund clinical progression."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MRQ",
+      "company": "MRG METALS LIMITED",
+      "headline": "Garies REE Project - Significant Gallium Identified",
+      "time": "2026-07-01T23:21:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106789-3A696460",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic critical minerals diversification: The identification of significant gallium at the Garies REE Project materially expands MRG Metals' commodity exposure beyond rare earth elements into gallium — a critical technology metal facing severe supply constraints given China's 2023 export restrictions, which have disrupted global supply chains and driven prices sharply higher.",
+        "Valuation re-rating catalyst: Gallium is a high-value by-product with spot prices elevated well above historical norms; if assay results confirm economic concentrations, the project's NPV could be substantially re-rated as dual-commodity (REE + Ga) projects typically attract premium valuations and heightened strategic interest from defence and semiconductor supply chain investors.",
+        "Early-stage but market-sensitive: The announcement is flagged market sensitive, signalling management believes the discovery is material — however, investors should monitor follow-up drilling results, independent resource estimates, and metallurgical testwork to validate commercial viability before extrapolating the full upside case."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKK",
+      "company": "STAKK LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-01T23:20:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106788-6A1332141",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "STAKK Limited has entered a trading halt, suspending price discovery and liquidity for investors — the halt is classified as market sensitive, signalling a material corporate development is imminent rather than a routine administrative pause.",
+        "Trading halts on small-cap ASX stocks most commonly precede capital raises, M&A activity, or significant operational announcements; institutional investors should monitor for a potential equity issuance that could be dilutive, or a transformative deal that may re-rate the stock.",
+        "The halt duration is typically capped at two trading days under ASX Listing Rules, meaning a substantive announcement is expected imminently — positioning ahead of resumption carries elevated binary risk given the unknown nature of the pending disclosure."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPL",
+      "company": "STARPHARMA HOLDINGS LIMITED",
+      "headline": "DEP radiopharmaceutical data supports patent application",
+      "time": "2026-07-01T23:20:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106786-3A696459",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Starpharma's DEP radiopharmaceutical platform has generated preclinical data compelling enough to support a new patent application, signalling meaningful IP differentiation in the fast-growing targeted radionuclide therapy (TRT) space — a sector attracting multi-billion dollar deals (e.g. Bristol-Myers/RayzeBio at ~$4.1B, Eli Lilly/Point Biopharma at ~$1.4B).",
+        "The patent filing strengthens Starpharma's proprietary moat around DEP-enhanced radiopharmaceutical delivery, potentially improving tumour uptake and reducing off-target toxicity versus conventional small-molecule conjugates — key differentiators that could underpin licensing or partnership discussions with large pharma radiopharmaceutical programs.",
+        "Near-term catalysts to watch include further preclinical efficacy/safety data releases, identification of lead isotope-payload combinations (likely PSMA or GRPR-targeting given sector trends), and any partnering activity — though the program remains early-stage, meaning meaningful revenue contribution is likely 3–5+ years away, keeping execution risk elevated."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PVT",
+      "company": "PIVOTAL METALS LIMITED",
+      "headline": "Drill Program Expanded at Belleterre",
+      "time": "2026-07-01T23:20:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106784-6A1332139",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drill program expansion at Belleterre signals management confidence in early-stage results, suggesting initial intercepts are sufficiently compelling to justify accelerated capital deployment — a key de-risking milestone for this exploration-stage asset.",
+        "Expanded drilling scope directly increases the probability of a maiden resource estimate or resource upgrade in the near term, which would serve as a critical re-rating catalyst for a junior miner where resource definition is the primary value driver.",
+        "Investors should monitor upcoming assay results closely — expanded programs at this stage typically precede a news-flow acceleration cycle, but execution risk remains elevated given the capital intensity of expanded drilling relative to Pivotal Metals' likely limited cash reserves."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IPX",
+      "company": "IPERIONX LIMITED",
+      "headline": "Acquisition Delivers High Value Critical Minerals",
+      "time": "2026-07-01T23:19:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106783-6A1332140",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Iperionx has executed a strategic acquisition targeting high-value critical minerals, directly strengthening its supply chain position in titanium and rare earth materials — sectors commanding significant US government and defence procurement interest amid ongoing China supply chain diversification.",
+        "The market-sensitive classification signals material asset or resource value uplift; investors should watch for disclosed acquisition cost, resource tonnage, and grade metrics to assess whether the deal is accretive relative to current enterprise value and project development timelines.",
+        "This move accelerates Iperionx's vertically integrated critical minerals strategy ahead of anticipated US domestic sourcing mandates — a key de-risking catalyst that could unlock offtake agreements, DoD funding, or strategic partnerships in the near term."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "C29",
+      "company": "C29 METALS LIMITED",
+      "headline": "Update on Cancun Transaction and Capital Raising",
+      "time": "2026-07-01T23:19:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106781-6A1332125",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "C29 Metals is progressing the Cancun Transaction alongside a capital raising, signalling the company is actively funding a material asset acquisition — the simultaneous capital raise suggests the deal is near execution and requires fresh equity, implying near-term dilution for existing shareholders.",
+        "The market-sensitive classification indicates the transaction and raise are likely material in scale relative to C29's current market capitalisation — investors should monitor the raise price and structure (placement vs. rights issue) as a key indicator of institutional confidence and dilution severity.",
+        "Next steps hinge on shareholder approval and/or settlement of the Cancun Transaction; any delay or failure to close would leave the company with raised capital but no deployed asset, creating execution risk — deal completion timeline and use-of-funds disclosure will be critical catalysts to watch."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COH",
+      "company": "COCHLEAR LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-01T23:18:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106778-2A1681658",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in COH's institutional ownership structure — investors should monitor whether this reflects accumulation or partial exit by a major fund, as either can signal conviction-level views on the stock's near-term trajectory.",
+        "Cochlear trades at a significant premium to ASX healthcare peers (~50x forward earnings), meaning any large-scale institutional repositioning — particularly a reduction in a substantial holder's stake — can amplify downside price volatility given the stock's sensitivity to fund flow dynamics.",
+        "Next step is to review the Form 604 detail for the identity of the substantial holder, the direction of change (increase vs. decrease), and the new percentage held — crossing below the 5% threshold by a key institutional name would warrant closer scrutiny as a potential leading indicator of sentiment shift."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORD",
+      "company": "ORDELL MINERALS LIMITED",
+      "headline": "Extensive Gold Anomalism at Goodia and Fisher South Projects",
+      "time": "2026-07-01T23:17:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106777-6A1332137",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Extensive gold anomalism identified across both Goodia and Fisher South Projects signals meaningful early-stage discovery potential, elevating the geological prospectivity of Ordell's tenure and providing a credible catalyst for re-rating in a sector where new target generation is scarce.",
+        "The market-sensitive classification underscores management's view that the anomaly scale and distribution are materially significant — investors should watch for follow-up assay results and drill target definition, which will be the key value inflection points determining whether this anomalism converts to a resource-grade discovery.",
+        "Next steps will likely involve systematic RC or diamond drilling programs to test priority targets at depth; the pace of capital deployment and any subsequent capital raise to fund drilling will be critical watchpoints for institutional investors assessing dilution risk versus discovery upside."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GHM",
+      "company": "GOLDEN HORSE MINERALS LIMITED",
+      "headline": "Southern Cross Gold Project Update",
+      "time": "2026-07-01T23:17:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106776-6A1332136",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material new information from the Southern Cross Gold Project, likely involving significant drill results, resource update, or discovery that could re-rate the stock — the nature of the update warrants immediate attention from resource-focused investors.",
+        "Golden Horse Minerals' Southern Cross project update arrives at a time of elevated gold prices (AU$ gold near all-time highs), meaning any positive resource or exploration data carries amplified NPV implications and could attract institutional and M&A interest in the junior gold space.",
+        "Key near-term catalysts to watch include whether the update contains maiden resource estimates, high-grade intercepts, or expanded drill programs — any of these would define the timeline to feasibility-stage milestones and materially influence the company's funding requirements and capital structure."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SVG",
+      "company": "SAVANNAH GOLDFIELDS LIMITED",
+      "headline": "Significant Increase in Mineral Resource for Red Dam",
+      "time": "2026-07-01T23:15:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106773-2A1681653",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A significant mineral resource upgrade at Red Dam is a material de-risking event for Savannah Goldfields, directly expanding the project's economic footprint and strengthening the investment case for future development or partnership discussions — critical for a junior explorer where resource size is a primary valuation driver.",
+        "The quantum of the resource increase will be the key metric to watch in the full announcement; a meaningful uplift in contained gold ounces (particularly in the Indicated category) signals improved geological confidence and moves the project closer to feasibility-stage economics, potentially re-rating the stock relative to peers on an EV/oz basis.",
+        "Near-term catalysts to monitor include whether the company will leverage this resource upgrade to underpin a scoping study, attract a JV partner, or support a capital raise — any of which would represent a logical next step in the project development pathway and could sustain buying momentum beyond the initial announcement."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FEM",
+      "company": "FIDELITY GLOBAL EMERGING MARKETS ACTIVE ETF",
+      "headline": "Final Distribution & Reinvestment Price - 30 June 2026",
+      "time": "2026-07-01T23:15:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106772-2A1681650",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Fidelity Global Emerging Markets Active ETF has confirmed its final distribution for the period ending 30 June 2026, a market-sensitive event that directly impacts unitholders' income entitlements and signals the fund's ability to generate distributable income from its EM equity portfolio.",
+        "The simultaneous release of a reinvestment price is critical for DRP participants — the reinvestment price determines the NAV-based unit cost for those electing to compound returns rather than take cash, with any discount or premium to market price influencing the attractiveness of reinvestment versus open-market purchase.",
+        "Investors should monitor the ex-distribution date and payment timeline closely, as post-distribution NAV adjustment will mechanically reduce the ETF's unit price; active EM exposure means underlying currency moves and emerging market volatility remain key risks heading into the next distribution period."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SNM",
+      "company": "SENTINEL METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-01T23:12:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106766-6A1332133",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Sentinel Metals has entered a trading halt marked as market sensitive, strongly indicating a material corporate event is imminent — most likely a capital raise, M&A transaction, or significant asset/exploration announcement that requires price-sensitive disclosure management.",
+        "The market-sensitive classification elevates the probability this is not routine administration — institutional investors should monitor closely for a potential equity raising (placement or rights issue) or a transformative deal that could materially reprice the stock upon resumption.",
+        "Trading halts on junior ASX miners like Sentinel Metals typically resolve within 1-2 trading days; the nature of the pending announcement will be the critical determinant of direction, with capital raises historically presenting short-term dilution risk while M&A or resource upgrades tend to be re-rating catalysts."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPX",
+      "company": "SPENDA LIMITED",
+      "headline": "Security Class Suspension (ASX Code- SPXOB)",
+      "time": "2026-07-01T23:11:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106765-3A696452",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX has suspended trading in Spenda's SPXOB security class, signalling a regulatory or structural event requiring immediate investor attention — suspension of a specific security class (options/bonds) rather than the ordinary shares suggests a targeted compliance or expiry-related action rather than a broader company-wide halt.",
+        "The market-sensitive classification elevates this beyond routine administration — investors holding SPXOB instruments face immediate liquidity risk with no ability to exit positions during the suspension period, potentially crystallising losses or preventing hedging activity.",
+        "Key next steps hinge on the reason for suspension: if linked to expiry or conversion of the SPXOB instrument class, holders should monitor Spenda's forthcoming clarification announcement closely for conversion terms, cash settlement details, or any dilutive equity issuance that could pressure the ordinary share price (ASX: SPX)."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BTR",
+      "company": "BRIGHTSTAR RESOURCES LIMITED",
+      "headline": "Goldfields Project Development Update",
+      "time": "2026-07-01T23:04:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106761-6A1332132",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material new information on the Goldfields project — likely a development milestone, resource update, or permitting outcome that could re-rate the stock; investors should assess whether this shifts the project timeline toward production or introduces execution risk.",
+        "Without disclosed financials in the headline, the key metrics to watch will be capital cost estimates, resource tonnage/grade revisions, or offtake/funding arrangements — any of which could materially alter the NPV and funding gap assumptions currently priced into BTR.",
+        "Near-term catalysts hinge on whether this update accelerates a construction decision or feasibility completion; if a development pathway is confirmed with secured funding, this could serve as a de-risking event that narrows the discount to peer valuations in the WA Goldfields corridor."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GT1",
+      "company": "GREEN TECHNOLOGY METALS LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-07-01T23:03:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106759-6A1332131",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has fallen below the 5% ownership threshold in Green Technology Metals (GT1), triggering a mandatory disclosure — signalling meaningful selling pressure or stake redistribution by a previously significant institutional or strategic investor.",
+        "The exit of a substantial holder typically reflects reduced conviction in GT1's near-term catalysts, which may include its Ontario lithium projects (Seymour, Root, Wisa Lake); with lithium sentiment already subdued globally, institutional exits can amplify downward price momentum in small-cap explorers.",
+        "Investors should monitor subsequent substantial holding notices and GT1's register closely — if the departing holder was a strategic partner or cornerstone investor, it could complicate future capital raises or offtake negotiations critical to advancing the company's lithium development pipeline."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TAR",
+      "company": "TARUGA MINERALS LIMITED",
+      "headline": "Gold Assays Confirm Epithermal System Across Northern Weioko",
+      "time": "2026-07-01T23:02:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106754-6A1332128",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Gold assay results confirming an epithermal system across Northern Weioko represent a significant geological de-risking milestone — epithermal systems are a well-established host for high-grade gold deposits, and system-wide confirmation upgrades the prospectivity of the entire tenure rather than isolated intercepts.",
+        "The market-sensitive classification signals material new information likely to move the stock; investors will scrutinise assay grades, widths, and spatial extent to assess whether the system has bulk-tonnage or high-grade vein potential — key determinants of project economics at this early stage.",
+        "Next catalysts will centre on follow-up drilling to test depth extensions and higher-grade core zones within the confirmed epithermal corridor; the company's ability to accelerate exploration will depend on current cash position and whether a capital raise is required to fund the next drill programme."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FFM",
+      "company": "FIREFLY METALS LTD",
+      "headline": "Results show continuity of high-grade copper core zone",
+      "time": "2026-07-01T23:02:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106753-6A1332127",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Drill results confirm structural continuity of the high-grade copper core zone, a critical de-risking milestone that supports resource upgrade potential and strengthens the geological model underpinning future mine planning at Green Bay, Newfoundland.",
+        "Continuity of high-grade mineralisation across the core zone signals that the deposit has the geometry and grade consistency institutional investors require to justify pre-feasibility advancement — a key value inflection point for a junior copper developer in the current copper supply-deficit narrative.",
+        "Near-term catalysts include an updated mineral resource estimate incorporating these results, with any resource expansion or grade improvement likely to attract re-rating interest given copper's strategic commodity status and Firefly's positioning as a development-stage pure-play copper story on the ASX."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALM",
+      "company": "ALMA METALS LIMITED",
+      "headline": "Alma Acquires Camp to Accelerate Drilling at Briggs",
+      "time": "2026-07-01T23:00:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106748-6A1332123",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Acquisition of on-site camp infrastructure directly removes a key logistical bottleneck at the Briggs copper-gold project, enabling faster drill mobilisation and reducing per-metre drilling costs — a meaningful operational de-risking step for a junior explorer.",
+        "The market-sensitive classification signals management views this as a material catalyst; accelerated drilling timelines compress the path to resource definition, which is the primary value-creation lever for pre-resource stage companies like Alma Metals.",
+        "Near-term focus will be on the drill program commencement date and planned metreage — investors should watch for a follow-up drilling update announcement as the next key share price catalyst, with results potentially re-rating the stock if copper-gold intersections confirm the Briggs mineralisation system."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SHN",
+      "company": "SUNSHINE METALS LIMITED",
+      "headline": "Mt Moss Acquisition Completed & Production Pathway Advanced",
+      "time": "2026-07-01T22:58:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106747-6A1332124",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Completion of the Mt Moss acquisition marks a material step-change for Sunshine Metals, transitioning the company from pure explorer to a near-term producer with an established operational asset — a re-rating catalyst that typically compresses the discount applied to development-stage companies.",
+        "The 'Production Pathway Advanced' language signals management has a defined timeline to first revenues, which is critical for cash runway assessment; investors should scrutinise the announcement for capex requirements, funding structure, and whether the acquisition was settled in cash, scrip, or a combination — each carrying distinct dilution and balance sheet implications.",
+        "Near-term catalysts to watch include the release of a maiden or updated resource estimate for Mt Moss, any offtake or toll-treatment agreements, and permitting milestones — these will determine whether the production pathway translates into tangible cash flow within 12–24 months and justify a sustained re-rating."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "QGF",
+      "company": "QUAY GLOBAL REAL ESTATE FUND (AUD) ACTIVE ETF",
+      "headline": "QGFH Final Distribution Price 30 Jun 26",
+      "time": "2026-07-01T22:56:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106746-2A1681640",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "QGFH has announced its final distribution price for the period ending 30 June 2026, a key event for income-focused investors as it crystallises the actual per-unit cash return for the full financial year — the quantum relative to prior periods will be the critical valuation signal.",
+        "As a market-sensitive filing, the distribution price directly impacts NAV-per-unit calculations and yield metrics; institutional holders will be benchmarking this payout against the fund's stated income objectives and peer global real estate ETFs to assess distribution sustainability.",
+        "With global real estate under pressure from elevated interest rates and currency headwinds on AUD-hedged offshore property exposure, the final distribution level will signal whether Quay's active management strategy has successfully navigated income preservation — setting the tone for FY27 inflows and redemption activity."
+      ],
+      "tags": [
+        "Dividend",
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QGR",
+      "company": "QGR",
+      "headline": "QGRU Final Distribution Price 30 Jun 26",
+      "time": "2026-07-01T22:56:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106745-2A1681639",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "QGR has formally set the final distribution price for the QGRU unit trust at the 30 June 2026 maturity date, providing unitholders with certainty on the terminal value of their investment — a critical milestone for structured product wind-down planning.",
+        "The market-sensitive classification signals the distribution price carries material valuation implications for QGRU holders; investors should assess whether the final price represents a premium or discount to current secondary market trading levels to determine any residual arbitrage or exit opportunity.",
+        "With the distribution price now locked in ahead of the June 2026 maturity, unitholders face a clear decision point: hold to maturity and receive the declared distribution, or exit via the secondary market — liquidity and tax timing considerations will drive near-term trading activity in QGRU units."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AMI",
       "company": "AURELIA METALS LIMITED",
