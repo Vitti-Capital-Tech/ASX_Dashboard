@@ -1,9 +1,144 @@
 {
   "date": "2026-07-01",
-  "total": 131,
-  "market_sensitive_count": 115,
-  "generated_at": "2026-07-01T01:47:43.022208+00:00",
+  "total": 138,
+  "market_sensitive_count": 118,
+  "generated_at": "2026-07-01T03:10:50.094010+00:00",
   "announcements": [
+    {
+      "ticker": "PPT",
+      "company": "PERPETUAL LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-01T02:53:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106358-2A1681209",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Perpetual has entered a trading halt, most likely pending a material announcement — given the company's ongoing strategic review and previously flagged separation of its asset management and corporate trust businesses, this halt likely signals an imminent deal, bid, or structural transaction update.",
+        "The market-sensitive classification elevates the probability of a significant corporate event such as a binding offer, revised scheme of arrangement, or major asset sale — Perpetual's ~A$2.5B market cap and the contested KKR/BPEA interest make any announcement potentially transformative for shareholder value.",
+        "Investors should monitor closely for resumption of trading and accompanying announcement; if a transaction is confirmed at or above prior indicative valuations, there is meaningful upside optionality, but deal risk, execution complexity, and potential capital structure changes remain key near-term uncertainties."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TLX",
+      "company": "TELIX PHARMACEUTICALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-01T02:38:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106350-3A696382",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in Telix's institutional ownership structure — investors should monitor whether this reflects accumulation or partial exit by a major holder, as either scenario carries implications for near-term liquidity and price support.",
+        "Substantial holding notices are triggered at the 5% threshold and at each 1% movement thereafter; the direction of change (increase vs. decrease) is critical — an increase would signal growing institutional conviction in Telix's commercial radiopharmaceutical pipeline, including the FDA-approved Illuccix, while a decrease could indicate profit-taking following TLX's strong multi-year re-rating.",
+        "Investors should cross-reference the filing with the identity of the notifying entity — if a global healthcare or life sciences fund is building a position, it may foreshadow increased analyst coverage or index-driven inflows, whereas a reduction by a founding or early-stage holder could create short-term overhang on the stock."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FLT",
+      "company": "FLIGHT CENTRE TRAVEL GROUP LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-07-01T02:37:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106349-2A1681205",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has dropped below the 5% ownership threshold in Flight Centre Travel Group (FLT), signalling a meaningful reduction in institutional conviction — the identity and scale of the exit will be critical to assess potential overhang risk on the register.",
+        "Depending on the exiting holder's prior stake size, this disposal could represent tens of millions of dollars in sell-side pressure absorbed by the market, which warrants monitoring of recent volume and price action for signs of residual block selling.",
+        "With FLT navigating a post-COVID travel recovery cycle and executing on its corporate travel and leisure margin improvement strategy, a substantial holder exit may reflect profit-taking at current valuations rather than a fundamental deterioration — investors should watch for any follow-on 13D/G equivalent disclosures or updated register changes in coming weeks."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GSS",
+      "company": "GENETIC SIGNATURES LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-07-01T02:20:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106340-2A1681198",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has dropped below the 5% ownership threshold in Genetic Signatures (GSS), signalling a meaningful reduction in institutional conviction — the identity and scale of the selling entity will be critical to assess potential ongoing overhang pressure on the stock.",
+        "The exit of a substantial holder from a small-cap diagnostics company like GSS (market cap ~A$70-80M range) can represent a material shift in the shareholder register, potentially increasing free float but also removing a stabilising anchor investor that may have provided strategic credibility.",
+        "Investors should monitor whether this disposal is part of a broader portfolio rebalancing or reflects specific concerns around GSS's near-term commercial pipeline, including its molecular diagnostics product traction in international markets — any further substantial holder exits would compound downside sentiment risk."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MVP",
+      "company": "MEDICAL DEVELOPMENTS INTERNATIONAL LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-01T02:07:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106330-3A696380",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Medical Developments International (MVP), indicating a holder has crossed or moved through the 5% threshold — warranting close attention to whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase or decrease) is critical context: if a substantial holder is reducing exposure, it may reflect diminished conviction in MVP's commercialisation trajectory for its Penthrox (methoxyflurane) pain relief product across key international markets, potentially pressuring near-term sentiment.",
+        "Institutional investors should monitor subsequent 604/603 filings to determine the identity and intent of the changing holder — activist or strategic interest could signal M&A optionality, while passive fund rebalancing would carry limited informational value for MVP's standalone outlook."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ERM",
+      "company": "EMMERSON RESOURCES LIMITED",
+      "headline": "Implementation of the Scheme",
+      "time": "2026-07-01T01:58:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106322-6A1331924",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Scheme implementation marks the formal completion of a corporate transaction for Emmerson Resources, meaning shareholders have received or will shortly receive scheme consideration — a definitive liquidity event that removes ongoing market uncertainty around deal execution risk.",
+        "As a market-sensitive announcement, the implementation notice signals the effective transfer of control, with Emmerson shares likely to be suspended or delisted from ASX imminently — investors holding residual positions face imminent loss of liquidity in the ordinary market.",
+        "Post-implementation, the acquirer gains full ownership of Emmerson's Northern Territory gold and copper assets; any remaining shareholder value crystallises at the scheme price, leaving no further upside optionality unless dissenting shareholders pursue appraisal rights or legal remedies."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PPT",
+      "company": "PERPETUAL LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-07-01T01:53:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106316-2A1681182",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Perpetual has requested a pause in trading, signalling that a material corporate development is imminent — most likely linked to the ongoing strategic review of its asset management and corporate trust businesses, which has attracted significant M&A interest from parties including KKR and others.",
+        "The trading halt is market sensitive, suggesting an announcement of substance is pending — potentially a binding transaction, revised offer, or scheme update that could crystallise significant value for shareholders given PPT's recent trading discount to sum-of-parts valuations estimated in the range of A$27–$30 per share.",
+        "Investors should monitor closely for a formal scheme of arrangement or asset sale announcement; any deal that unlocks the corporate trust or wealth management divisions separately could act as a meaningful re-rating catalyst, while a failed process or prolonged uncertainty would weigh on the stock."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "LDR",
       "company": "LODE RESOURCES LTD",
