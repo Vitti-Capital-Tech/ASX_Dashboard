@@ -1,9 +1,257 @@
 {
   "date": "2026-07-02",
-  "total": 40,
-  "market_sensitive_count": 27,
-  "generated_at": "2026-07-01T22:35:45.253469+00:00",
+  "total": 53,
+  "market_sensitive_count": 40,
+  "generated_at": "2026-07-01T22:59:42.221995+00:00",
   "announcements": [
+    {
+      "ticker": "AMI",
+      "company": "AURELIA METALS LIMITED",
+      "headline": "Leadership Update",
+      "time": "2026-07-01T22:55:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106744-2A1681638",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Leadership transition introduces execution risk at a critical juncture — Aurelia is navigating operational ramp-up at its Federation polymetallic project, meaning management continuity is a key valuation variable for institutional holders.",
+        "Incoming leadership profile and strategic alignment will be closely scrutinised; any shift away from the Federation development pathway or capital discipline framework could prompt re-rating of the stock's near-term production and cost guidance.",
+        "Investors should monitor whether the transition is internally promoted (lower disruption risk) or an external appointment (potential strategic pivot signal), as this will determine the pace of re-engagement with sell-side consensus estimates and project timelines."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WHK",
+      "company": "WHITEHAWK LIMITED",
+      "headline": "Appointment of Chief Executive Officer",
+      "time": "2026-07-01T22:55:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106742-6A1332122",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CEO appointment at WhiteHawk (WHK) signals a strategic inflection point for the cybersecurity firm — leadership stability is critical given the company's reliance on US federal government contracts and the competitive landscape for SME cyber risk solutions.",
+        "Investor focus should centre on the incoming CEO's track record in scaling SaaS/cybersecurity revenue and securing government procurement pipelines, as WHK has historically struggled to convert its platform capability into consistent top-line growth and positive operating cash flow.",
+        "Near-term catalysts to watch include any revised strategic direction, cost structure changes, or updated revenue guidance accompanying the appointment — particularly given WHK's thin cash position and the need to demonstrate a credible path to profitability before the next capital raise cycle."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IMB",
+      "company": "INTELLIGENT MONITORING GROUP LIMITED",
+      "headline": "IMB Project Amsterdam Investor Presentation",
+      "time": "2026-07-01T22:54:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106739-6A1332114",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Project Amsterdam signals a strategic pivot or major corporate action for Intelligent Monitoring Group (IMB), with the market-sensitive classification indicating material information likely involving a merger, acquisition, or significant capital transaction that could reshape the company's operating structure or ownership profile.",
+        "The investor presentation format suggests IMB is actively seeking institutional support or shareholder approval for the initiative, implying potential dilution risk or balance sheet restructuring — key metrics to watch include deal valuation multiples, any equity component, and impact on recurring revenue base from its security monitoring operations.",
+        "Next steps hinge on the specifics disclosed in the presentation — investors should scrutinise deal terms, timeline to completion, any regulatory or shareholder approval hurdles, and management's articulated synergy or growth case, as execution risk on transformative transactions in the mid-cap security services space can weigh heavily on near-term price action."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IMB",
+      "company": "INTELLIGENT MONITORING GROUP LIMITED",
+      "headline": "IMG UK Acquisition",
+      "time": "2026-07-01T22:54:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106738-6A1332099",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "IMG's UK acquisition signals a deliberate geographic expansion strategy, potentially diversifying revenue streams beyond the Australian market and reducing concentration risk — critical for re-rating as a scalable security monitoring platform.",
+        "The market-sensitive classification demands close scrutiny of deal terms including acquisition price, funding structure (cash/scrip/debt), and implied EV/EBITDA multiples relative to IMG's existing valuation — any significant equity dilution or debt loading could pressure near-term returns.",
+        "Integration execution will be the key watchpoint: investors should monitor whether the UK target brings recurring monitoring contracts, proprietary technology, or customer density that accelerates IMG's path to profitability, with management guidance on synergy timelines and cost-to-integrate likely to drive post-announcement price discovery."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TMK",
+      "company": "TMK ENERGY LIMITED",
+      "headline": "Operations Update - June 2026",
+      "time": "2026-07-01T22:53:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106737-6A1332120",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive operations update signals a potentially material development in TMK Energy's coal seam gas activities, likely relating to well performance, flow rates, or drilling progress at its Gurvantes XXXV project in Mongolia — details will be critical in assessing whether the asset is approaching commercial viability.",
+        "Any disclosed gas flow rates or reservoir data will be the key valuation driver; sustained or improving production metrics could materially re-rate the stock given TMK's small-cap status and the project's early-stage nature, while disappointing results would raise questions about timeline and capital requirements.",
+        "Investors should watch for guidance on next operational milestones, funding adequacy, and whether the update triggers a reassessment of the company's path to first commercial gas — particularly given the capital-intensive nature of CSG development and TMK's historically limited cash position."
+      ],
+      "tags": [
+        "Production",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EIQ",
+      "company": "ECHOIQ LIMITED",
+      "headline": "Exclusive Imaging Dataset Strengthens AI Competitive Moat",
+      "time": "2026-07-01T22:51:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106735-2A1681636",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EchoIQ has secured an exclusive imaging dataset, a critical differentiator in AI-driven diagnostics where proprietary training data is increasingly the primary barrier to entry — this directly widens the competitive moat against well-funded incumbents and new entrants attempting to replicate the model.",
+        "Exclusive data access is a non-replicable asset that can accelerate regulatory validation pathways (FDA/TGA) and improve model accuracy metrics, both of which are key value inflection points that institutional investors typically re-rate on — the market-sensitive flag signals management views this as material to valuation.",
+        "Near-term catalysts to watch include whether this dataset underpins a forthcoming clinical study, partnership announcement, or commercialisation milestone; investors should monitor for follow-on disclosures that convert this data advantage into contracted revenue or a licensing arrangement."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OSL",
+      "company": "ONCOSIL MEDICAL LTD",
+      "headline": "OncoSil Selected for Major European Pancreatic Cancer Study",
+      "time": "2026-07-01T22:46:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106728-2A1681632",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Selection for a major European pancreatic cancer study represents a significant third-party clinical validation of OncoSil's brachytherapy device, potentially accelerating regulatory credibility and commercial adoption in a market where pancreatic cancer carries a ~11% five-year survival rate and has limited treatment options.",
+        "Inclusion in a formal European study provides non-dilutive pathway to generating robust clinical evidence — critical for reimbursement approvals and hospital procurement decisions — while reducing the company's own R&D spend burden on trial costs, a material consideration given OncoSil's historically tight cash position.",
+        "Near-term catalysts to watch include disclosure of the study's scale, lead institution, and timeline; successful enrolment milestones could serve as re-rating events and strengthen the commercial case ahead of any potential partnership or licensing discussions with larger oncology-focused medtech players in Europe."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AW1",
+      "company": "AMERICAN WEST METALS LIMITED",
+      "headline": "Drilling Success Continues at West Desert",
+      "time": "2026-07-01T22:43:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106725-6A1332117",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Continued drilling success at West Desert reinforces resource expansion potential, a critical de-risking milestone for this pre-revenue explorer that directly supports future scoping/feasibility studies and attracts institutional attention to the zinc-copper-indium project in Utah.",
+        "Market-sensitive classification signals material new intercepts likely exceeding prior results — investors should watch for grade-thickness improvements and extensions to known mineralisation zones, which would meaningfully upgrade the resource inventory and underpin a higher valuation floor.",
+        "Near-term catalysts include updated resource estimates and potential maiden scoping study, with drilling momentum sustaining news flow that could support a capital raise at improved terms — key risk remains execution on converting drill results into a defined economic resource within a challenging junior mining funding environment."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EOS",
+      "company": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+      "headline": "New Sales Orders (A$38m)",
+      "time": "2026-07-01T22:40:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106722-2A1681630",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EOS has secured A$38m in new sales orders, providing a meaningful near-term revenue backlog boost for a company that has historically struggled with order flow consistency — this signals improving commercial traction in its space and defence systems divisions.",
+        "At A$38m, this order intake is materially significant relative to EOS's recent annual revenue base, suggesting potential for a step-change in near-term revenue recognition and improved cash conversion, which is critical given the company's history of cash burn and capital raises.",
+        "The market-sensitive classification underscores management's confidence in the materiality of this announcement; investors will now focus on delivery timelines, contract counterparties, and whether this momentum translates into a sustained order pipeline or represents a lumpy one-off win."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BMH",
+      "company": "BAUMART HOLDINGS LIMITED",
+      "headline": "Modular Housing Project Supplementary Information",
+      "time": "2026-07-01T22:40:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106721-6A1332113",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Supplementary disclosure on a modular housing project signals the company is under investor/regulatory scrutiny to clarify material details — the market-sensitive flag suggests prior disclosure may have been incomplete, raising governance concerns that could weigh on near-term sentiment.",
+        "Baumart Holdings remains a micro-cap with limited revenue history; any modular housing contract would represent a potentially transformative revenue event, but without confirmed contract value, counterparty creditworthiness, or construction timeline in this update, the financial impact remains unquantifiable.",
+        "Investors should watch for follow-on announcements confirming binding agreements, milestone payments, or off-take arrangements — the supplementary nature of this release suggests the market should treat the project as speculative until full contractual and financial terms are disclosed."
+      ],
+      "tags": [
+        "Property",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KCC",
+      "company": "KINCORA COPPER LIMITED",
+      "headline": "Kincora executes agreements for Mongolian Asset divestment",
+      "time": "2026-07-01T22:33:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106717-6A1332115",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kincora has executed binding agreements to divest its Mongolian copper assets, representing a strategic pivot that removes a non-core, capital-intensive exploration liability and sharpens focus on its North American portfolio — a rerating catalyst if proceeds are material.",
+        "The market-sensitive classification signals the transaction carries meaningful financial weight; key metrics to watch include total consideration received, any deferred/contingent payments (royalties or milestone payments), and net cash impact relative to Kincora's current burn rate and treasury position.",
+        "Completion of the divestment will be the critical next catalyst — investors should monitor whether proceeds are sufficient to extend cash runway meaningfully or fund drilling at North American projects, with any capital return or reinvestment announcement likely to drive near-term price action."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IMR",
+      "company": "IMRICOR MEDICAL SYSTEMS INC.",
+      "headline": "Imricor Receives FDA Pediatric Clearances for iMR Device",
+      "time": "2026-07-01T22:33:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106716-3A696444",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FDA pediatric clearance materially expands Imricor's total addressable market for its iMR (interventional MRI) cardiac ablation system, unlocking a previously inaccessible patient cohort — congenital heart disease procedures in children are complex, high-value cases where MRI-guided intervention offers a significant clinical advantage over conventional X-ray-based catheterisation labs.",
+        "Regulatory clearance in the US paediatric segment is a high-barrier milestone that strengthens Imricor's IP moat and competitive positioning; with CE Mark already held in Europe, dual-jurisdiction clearance across adult and paediatric indications substantially de-risks the commercial pathway and supports premium pricing conversations with hospital systems and payers.",
+        "Near-term catalysts to watch include paediatric centre adoption agreements, updated revenue guidance reflecting expanded addressable procedures, and potential partnership or licensing interest from larger medtech strategics — the paediatric clearance could accelerate M&A optionality given the scarcity of MRI-compatible electrophysiology platforms with this regulatory breadth."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CAF",
+      "company": "CENTREPOINT ALLIANCE LIMITED",
+      "headline": "Completion of Acquisition of Client Books",
+      "time": "2026-07-01T22:30:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106714-2A1681625",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Completion of the client book acquisition signals immediate expansion of Centrepoint Alliance's funds under advice (FUA) base, directly boosting recurring revenue streams from ongoing adviser service fees and platform flows — a key valuation driver in the wealth management sector.",
+        "Inorganic growth via client book acquisitions is a capital-efficient strategy for CAF, as it bypasses the high cost of adviser recruitment while locking in established client relationships; the market will scrutinise the acquisition multiple paid relative to projected revenue yield to assess accretion to earnings per share.",
+        "Near-term focus shifts to integration execution — retaining acquired clients and converting them onto Centrepoint's aligned platform ecosystem will be critical; any client attrition post-acquisition could erode the strategic rationale and pressure management to demonstrate organic retention metrics in upcoming quarterly updates."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "STM",
       "company": "SUNSTONE METALS LTD",
