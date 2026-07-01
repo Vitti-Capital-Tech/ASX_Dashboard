@@ -1,9 +1,125 @@
 {
   "date": "2026-07-01",
-  "total": 115,
-  "market_sensitive_count": 102,
-  "generated_at": "2026-06-30T23:55:22.018890+00:00",
+  "total": 121,
+  "market_sensitive_count": 108,
+  "generated_at": "2026-07-01T00:26:13.916544+00:00",
   "announcements": [
+    {
+      "ticker": "MFG",
+      "company": "MAGELLAN FINANCIAL GROUP LIMITED",
+      "headline": "Cleansing Statement",
+      "time": "2026-07-01T00:19:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106247-2A1681160",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A cleansing statement signals Magellan has recently completed a capital markets transaction — likely a placement or institutional raise — and is now fulfilling its continuous disclosure obligations to ensure all material information is publicly available, removing trading restrictions on participants.",
+        "The market-sensitive classification warrants close attention: the underlying transaction details (size, pricing, use of proceeds, and any associated dilution) will be critical in assessing the net impact on MFG's balance sheet and earnings per share trajectory, particularly given the firm's ongoing FUM recovery narrative.",
+        "Investors should monitor for the accompanying offer document or investor presentation to quantify dilution and strategic rationale — if proceeds are directed toward distribution partnerships or seed capital for new strategies, this could support medium-term FUM growth; if defensive in nature, it may signal balance sheet stress."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PEX",
+      "company": "PEEL MINING LIMITED",
+      "headline": "Implementation of Scheme",
+      "time": "2026-07-01T00:14:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106243_PS-6A1331881",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Scheme implementation marks the formal completion of a corporate takeover, meaning Peel Mining shareholders will receive their consideration and PEX shares will be suspended from ASX trading — a definitive liquidity event for existing holders.",
+        "The market-sensitive classification signals a binding, irreversible transaction milestone; any arbitrage spread between the scheme consideration and last traded price will now close, eliminating further price discovery on the open market.",
+        "Post-implementation, institutional investors should assess the acquirer's integration strategy for Peel's copper-gold assets (Wagga Tank, Mallee Bull) in NSW, as these projects now transfer to the acquiring entity's balance sheet and capital allocation framework."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AIS",
+      "company": "AERIS RESOURCES LIMITED",
+      "headline": "IMPLEMENTATION OF SCHEME",
+      "time": "2026-07-01T00:14:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106242_PS-6A1331887",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Scheme implementation marks the formal completion of a corporate takeover or merger transaction for Aeris Resources, meaning existing shareholders will receive consideration (cash and/or scrip) and the company will likely be delisted from the ASX — a definitive liquidity event for investors.",
+        "As a market-sensitive announcement, the implementation confirms all regulatory, court, and shareholder approvals have been satisfied, eliminating residual deal-break risk that may have kept the share price at a discount to the scheme consideration price.",
+        "Post-implementation, trading in Aeris shares will cease upon registry transfer and delisting; institutional holders should ensure scheme consideration has been received and reconcile any outstanding positions, as no further price discovery will occur on-market."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IMU",
+      "company": "IMUGENE LIMITED",
+      "headline": "New Complete Response in the Concurrent BTKi azer-cel Cohort",
+      "time": "2026-07-01T00:00:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106228-3A696359",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A new Complete Response (CR) in the concurrent BTKi (azer-cel) cohort represents a clinically meaningful milestone — CR is the gold-standard outcome in CAR-T oncology trials, strengthening the efficacy signal for azer-cel in a heavily pre-treated, difficult-to-treat lymphoma population that has already failed BTK inhibitor therapy.",
+        "The BTKi-concurrent cohort is strategically significant because it targets a large underserved patient segment; demonstrating CR in this setting differentiates azer-cel from competing CAR-T therapies and could support a broader label claim, materially expanding the addressable commercial opportunity if the program advances to pivotal trials.",
+        "Near-term catalysts to watch include updated overall response rate and durability data from the full cohort, potential partnership or licensing discussions leveraging this data readout, and the pace of cash burn — Imugene's limited cash runway remains a key risk, meaning positive clinical data must translate into non-dilutive funding or a deal to sustain momentum."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MFG",
+      "company": "MAGELLAN FINANCIAL GROUP LIMITED",
+      "headline": "Completion of Barrenjoey merger",
+      "time": "2026-06-30T23:58:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106223-2A1681139",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Magellan's full consolidation of Barrenjoey marks a strategic pivot toward diversified revenue streams beyond its core funds management business, which has been under sustained pressure from prolonged FUM outflows — the merged entity now provides exposure to investment banking and advisory fee income to offset cyclical headwinds.",
+        "The merger completion crystallises Magellan's stake in Barrenjoey into a fully integrated holding, removing minority interest complexity and potentially unlocking balance sheet efficiencies; investors will closely watch for disclosed consideration terms, any goodwill recognition, and the earnings accretion timeline given Barrenjoey's deal-flow dependency in a volatile M&A market.",
+        "Near-term focus shifts to integration execution and whether Barrenjoey's boutique culture and talent base can be retained post-merger — key risk is key-person departure among senior bankers, while the upside case rests on cross-selling opportunities between Magellan's institutional client network and Barrenjoey's advisory and ECM capabilities."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ASK",
+      "company": "ABACUS STORAGE KING",
+      "headline": "Completion of Internalisation and Change of Officers",
+      "time": "2026-06-30T23:55:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106217-2A1681136",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "Internalisation completion marks a structural inflection point for Abacus Storage King — eliminating external management fees and aligning management incentives directly with unitholders, a transition that typically re-rates self-storage REITs toward tighter cap rates and higher multiples over time.",
+        "The change of officers accompanying internalisation signals a new leadership configuration with direct accountability to the board, removing the principal-agent conflict inherent in externally managed structures and potentially reducing ongoing management cost drag on distributable income.",
+        "Near-term focus shifts to integration execution and whether cost savings from internalisation are quantified in upcoming guidance — investors should watch for any revised FY25 earnings or DPU outlook that crystallises the financial benefit of the structural change."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Board Change",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ADC",
       "company": "ACDC METALS LTD",
