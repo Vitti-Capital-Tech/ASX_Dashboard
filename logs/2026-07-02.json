@@ -1,9 +1,429 @@
 {
   "date": "2026-07-02",
-  "total": 82,
-  "market_sensitive_count": 66,
-  "generated_at": "2026-07-01T23:33:07.280213+00:00",
+  "total": 104,
+  "market_sensitive_count": 87,
+  "generated_at": "2026-07-02T00:00:19.002194+00:00",
   "announcements": [
+    {
+      "ticker": "SLB",
+      "company": "STELAR METALS LIMITED",
+      "headline": "Additional Tungsten Discovered at Hill of Leaders Project",
+      "time": "2026-07-01T23:55:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106859-6A1332166",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Discovery of additional tungsten mineralisation at Hill of Leaders expands the project's resource footprint beyond initial expectations, potentially upgrading the deposit's scale and economic viability — critical for a commodity facing structural supply constraints given China's dominance (~80% of global production) and Western critical minerals demand.",
+        "Tungsten's classification as a critical mineral by Australia, the EU, and the US positions Stelar Metals favourably for government grants, offtake interest from non-Chinese buyers, and potential inclusion in critical minerals investment frameworks — materially de-risking project financing pathways.",
+        "Near-term catalysts to watch include follow-up drilling results, an updated resource estimate, and any maiden JORC resource announcement, which would be the key re-rating event; investors should monitor drill intercept grades and continuity relative to existing mineralisation to assess whether this discovery translates into a commercially mineable resource."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SRZ",
+      "company": "STELLAR RESOURCES LIMITED",
+      "headline": "Severn Resource Up 64%",
+      "time": "2026-07-01T23:53:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106857-3A696475",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Stellar Resources has delivered a 64% uplift in the Severn resource estimate, a material re-rating catalyst that significantly expands the project's economic footprint and justifies a reassessment of net asset value by the market.",
+        "The scale of the resource increase suggests either successful step-out drilling or improved geological confidence in existing domains — both outcomes de-risk the deposit and strengthen the case for a future development decision or trade sale to a larger operator.",
+        "Near-term focus will shift to whether the updated resource supports an enhanced scoping or pre-feasibility study, with investors watching for an updated mine plan, revised economics, and any commentary on financing pathways or strategic partnerships to advance Severn toward production."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CMM",
+      "company": "CAPRICORN METALS LTD",
+      "headline": "Divestment of the Big Springs Gold Project",
+      "time": "2026-07-01T23:53:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106854_PS-6A1332162",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Capricorn Metals is divesting the Big Springs Gold Project, a non-core Nevada asset, allowing management to sharpen focus and capital allocation toward its flagship Karlawinda Gold Mine and the Mt Gibson Gold Project in WA — a strategically sound portfolio rationalisation.",
+        "The financial terms of the divestment will be critical to assess: any upfront cash consideration or royalty stream received would strengthen Capricorn's balance sheet and reduce holding costs associated with a geographically isolated US asset that was unlikely to attract near-term development capital.",
+        "Near-term investor attention will centre on deal structure details — including contingent payments, retained royalties, or equity consideration — as these will determine whether the transaction is genuinely value-accretive or simply a clean exit from a stranded asset with limited strategic fit."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FAU",
+      "company": "FIRST AU LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-01T23:50:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106848-6A1332164",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the ownership structure of First AU Limited (FAU), indicating that a major shareholder has either increased or decreased their position beyond the 5% disclosure threshold — warranting close monitoring of the direction and identity of the movement.",
+        "The nature of the transaction (buy-up or sell-down) will determine whether this reflects growing conviction from an institutional or strategic investor, or an exit by an existing substantial holder — either scenario has implications for near-term liquidity and price discovery in what is likely a thinly traded micro-cap stock.",
+        "Investors should scrutinise the Form 604/603 filing details including the acquirer's identity, associated entities, and any relevant voting power changes, as substantial holding shifts in small-cap ASX miners can often precede corporate activity such as board changes, capital raises, or M&A approaches."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HAL",
+      "company": "HALO TECHNOLOGIES HOLDINGS LTD",
+      "headline": "HALO to issue Convertible Notes to support growth plans",
+      "time": "2026-07-01T23:48:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106845-2A1681724",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Convertible note issuance signals Halo Technologies is prioritising growth capital without immediate equity dilution, though conversion risk remains a key overhang — investors should scrutinise conversion price, interest rate, and maturity terms to assess true dilution exposure.",
+        "The market-sensitive classification elevates urgency: the structure and quantum of the notes will be critical — if conversion discounts are steep or the coupon is elevated, it may indicate the company faced difficulty accessing conventional equity or debt markets at favourable terms.",
+        "Near-term focus should be on how proceeds are deployed across Halo's growth initiatives; without a clear revenue catalyst or defined use-of-funds breakdown, the capital raise risks being perceived as a liquidity bridge rather than a strategic accelerant, pressuring the share price until further detail is disclosed."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "1AI",
+      "company": "ALGORAE PHARMACEUTICALS LIMITED",
+      "headline": "Updated - NSW Health Public Hospital Supply Contract",
+      "time": "2026-07-01T23:47:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106843-2A1681722",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Algorae has secured or updated a public hospital supply contract with NSW Health, representing a meaningful commercial validation for a small-cap pharmaceutical company — direct government procurement agreements typically provide recurring, defensible revenue with lower counterparty risk than private sector deals.",
+        "The 'Updated' designation signals a material change to contract terms, scope, or value versus a prior announcement — investors should scrutinise whether this reflects an expansion (volume uplift, extended tenure, new product lines) or a reduction, as the delta will be the key valuation driver given Algorae's early-stage revenue base.",
+        "NSW Health is one of Australia's largest hospital networks, and a confirmed supply relationship could serve as a reference site to accelerate procurement discussions with other state health departments (VIC, QLD, WA), materially de-risking the commercial pathway and supporting near-term cash generation against what is likely a limited cash runway."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ESR",
+      "company": "ESTRELLA RESOURCES LIMITED",
+      "headline": "Timor Exploration Update - High Grade Manganese Rock Chips",
+      "time": "2026-07-01T23:47:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106842-6A1332160",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade manganese rock chip results from the Timor project signal meaningful discovery potential, with surface samples typically representing a low-cost, early-stage validation that can rapidly re-rate junior explorers if grades are economically significant — institutional attention will hinge on whether assay grades exceed the ~35% Mn threshold considered commercially viable for direct shipping ore.",
+        "The market-sensitive classification indicates management believes the assay results are materially above expectations, suggesting grades likely surprise to the upside relative to prior exploration benchmarks at Timor — a critical distinction that separates a routine update from a potential resource delineation catalyst.",
+        "Near-term focus will shift to follow-up drilling programs to test depth continuity and lateral extent of the high-grade zones; investors should monitor whether Estrella can convert rock chip anomalies into a maiden JORC resource, which would be the key de-risking milestone required to attract project-level funding or strategic partner interest."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SNM",
+      "company": "SENTINEL METALS LIMITED",
+      "headline": "Sentinel to acquire the 1.0Moz Big Springs Gold Project",
+      "time": "2026-07-01T23:41:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106833_PS-6A1332135",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sentinel is acquiring the Big Springs Gold Project, hosting a 1.0Moz gold resource — a transformational step that materially re-rates the company's resource base and positions it as a credible gold developer rather than an early-stage explorer.",
+        "The scale of the acquisition (1.0Moz) is significant for a small-cap ASX miner; deal terms, consideration structure (cash/scrip/deferred), and any implied acquisition cost per ounce will be critical valuation metrics — investors should scrutinise dilution risk if equity-funded.",
+        "Near-term catalysts to watch include completion conditions, regulatory approvals, and whether Sentinel outlines a clear development or resource upgrade pathway at Big Springs, as the market will price in execution risk against the headline resource figure."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FRB",
+      "company": "FIREBIRD METALS LIMITED",
+      "headline": "International Customer Testing Confirms 99.99% MnSO4",
+      "time": "2026-07-01T23:40:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106831-6A1332157",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Third-party international customer validation of 99.99% purity MnSO4 (battery-grade manganese sulphate) is a critical de-risking milestone — it confirms Firebird's product meets the stringent specifications required by EV battery supply chains, materially strengthening its offtake negotiating position.",
+        "Achieving 'four nines' purity is the threshold demanded by tier-1 cathode and precursor manufacturers (pCAM); this independent confirmation moves Firebird from a development-stage story to a commercially credible supplier, which could catalyse re-rating as the market prices in offtake probability.",
+        "The immediate next steps to watch are binding offtake term sheets, scale-up testwork volumes, and any disclosure of the customer's identity or geography — particularly whether this is a Korean, Japanese, or Chinese battery-supply-chain participant, which would signal the addressable market and pricing leverage Firebird can command."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ILA",
+      "company": "ISLAND PHARMACEUTICALS LIMITED",
+      "headline": "Singapore Patent Expands Island's ISLA 101 Viral Protection",
+      "time": "2026-07-01T23:38:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106829-3A696469",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Singapore patent grant for ISLA-101 meaningfully extends the company's IP moat into a strategically important Asia-Pacific jurisdiction, strengthening commercial and licensing optionality in a region with high dengue fever burden — a key target indication for the asset.",
+        "The expanded patent estate reduces the risk of generic competition and enhances ISLA-101's out-licensing or partnership appeal to regional pharma players, potentially improving deal economics in any future commercialisation negotiations.",
+        "With ISLA-101 still in clinical-stage development, the near-term catalyst focus remains on trial data readouts; however, this IP milestone supports a longer revenue runway post-approval and may assist in securing non-dilutive funding or regional co-development agreements."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LRT",
+      "company": "LOWELL RESOURCES FUND",
+      "headline": "Update - Dividend/Distribution - LRT",
+      "time": "2026-07-01T23:37:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106825-3A696468",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "LRT has issued a market-sensitive distribution update, signalling a potential revision to previously announced dividend/distribution figures — investors should monitor whether this reflects a reduction or increase in the per-unit payout, as either direction carries meaningful implications for yield-sensitive unitholders.",
+        "As a listed investment trust focused on resources sector exposure, any distribution adjustment directly impacts total return metrics and may reflect underlying portfolio valuation movements or realised gains/losses from resource equity holdings — context critical given current commodity price volatility.",
+        "Institutional holders should reassess distribution reinvestment plan (DRP) participation and ex-date positioning; if the update signals a cut, near-term selling pressure from income-focused investors is likely, whereas an upward revision could attract yield-driven buying in a sector already under scrutiny."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GOO",
+      "company": "JANUS HENDERSON SUSTAINABLE CREDIT ACTIVE ETF",
+      "headline": "GOOD - June 2026 Distribution Final",
+      "time": "2026-07-01T23:37:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106824-2A1681717",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Janus Henderson Sustainable Credit Active ETF has confirmed its June 2026 distribution as final, providing unitholders with certainty on income entitlements for the period — critical for yield-focused institutional investors managing cash flow timing and reinvestment decisions.",
+        "The market-sensitive classification signals the distribution quantum is material relative to the fund's NAV, warranting close attention to the ex-distribution date and any associated NAV step-down that could create short-term pricing dislocation in the ETF's secondary market trading.",
+        "As an actively managed sustainable credit ETF, consistent distribution delivery reinforces the fund's income thesis and ESG mandate execution — supporting ongoing inflows from mandates requiring both yield generation and responsible investment criteria, though investors should monitor the underlying credit portfolio for any duration or spread risk heading into the second half of 2026."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CHR",
+      "company": "CHARGER METALS NL",
+      "headline": "Excellent Medcalf Metallurgical Results",
+      "time": "2026-07-01T23:36:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106822-6A1332153",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Metallurgical results at Medcalf are described as 'excellent', a critical de-risking milestone for Charger Metals as positive met testwork directly supports the pathway to a viable processing flowsheet and underpins future resource development economics.",
+        "Strong metallurgical performance typically signals high recoveries and/or simple processing requirements — both key value drivers that reduce projected capital and operating costs, materially improving project NPV and bankability for potential offtake or JV discussions.",
+        "With met testwork now delivering positive outcomes, Charger Metals is positioned to advance towards a Scoping Study or PFS, with the next catalysts likely being resource estimate updates and formal economic assessments that could re-rate the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FUT",
+      "company": "JANUS HENDERSON GLOBAL SUSTAINABLE EQ ACTIVE ETF",
+      "headline": "FUTR - June 2026 Distribution Final",
+      "time": "2026-07-01T23:35:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106820-2A1681714",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FUTR has declared its June 2026 distribution as 'Final', confirming the fund is completing its scheduled semi-annual or quarterly income cycle — critical for yield-focused ETF investors managing income timing and reinvestment strategies.",
+        "The market-sensitive classification signals the distribution quantum is material relative to NAV, warranting close attention to the cents-per-unit figure and ex-distribution date, as these directly impact ETF pricing and short-term arbitrage dynamics around the record date.",
+        "Investors should monitor whether the distribution yield is consistent with or diverges from prior periods — any compression could reflect reduced dividend income from the underlying global sustainable equity portfolio amid ESG sector rotation or currency headwinds on AUD-hedged returns."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCP",
+      "company": "SCALARE PARTNERS HOLDINGS LIMITED",
+      "headline": "SCP secures binding $5M convertible note commitment agreed",
+      "time": "2026-07-01T23:35:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106819-3A696465",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The binding $5M convertible note commitment provides Scalare Partners with a meaningful liquidity injection, likely extending cash runway and enabling execution of near-term strategic initiatives without immediate equity dilution — critical for a small-cap operator managing growth capital needs.",
+        "Convertible note structure introduces future dilution risk contingent on conversion terms (conversion price, discount to market, interest rate) which are not yet fully disclosed — investors should scrutinise the note's conversion mechanics as these will determine the true cost of capital and potential share price overhang.",
+        "Securing a binding commitment rather than a conditional term sheet signals credible counterparty conviction; the next key catalyst will be formal settlement and deployment of proceeds, with the market watching closely for how capital is allocated across Scalare's investment and advisory platform."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NTI",
+      "company": "NEUROTECH INTERNATIONAL LIMITED",
+      "headline": "NTI secures Notices of Allowance for US patent applications",
+      "time": "2026-07-01T23:35:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106817-6A1332152",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Securing Notices of Allowance from the USPTO represents a critical de-risking milestone — patent protection in the US market provides NTI with a defensible IP moat for its neurotechnology platform, materially strengthening its commercial and licensing negotiation position with potential US partners or acquirers.",
+        "US patent allowance directly expands the addressable market opportunity, as the US represents the world's largest healthcare market; granted patents can underpin revenue-generating licensing agreements, distribution deals, or attract strategic investment that could extend NTI's cash runway beyond organic operations.",
+        "Near-term catalysts to watch include the formal grant issuance (typically 2-4 weeks post-allowance), any accompanying commercialisation announcements, and whether management leverages this IP milestone to accelerate US market entry discussions — investor focus should remain on converting patent protection into binding commercial agreements."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AVA",
+      "company": "AVA RISK GROUP LIMITED",
+      "headline": "Appointment to Australian Border Protection Technology Panel",
+      "time": "2026-07-01T23:35:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106818-3A696467",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AVA Risk Group has secured a position on Australia's Border Protection Technology Panel, granting it pre-qualified vendor status for government border security procurement — a structural competitive advantage that reduces sales cycle friction and positions the company for recurring government contract flow without repeated tender qualification processes.",
+        "The panel appointment is market sensitive, signalling management confidence that this creates material revenue opportunity; border protection technology spending in Australia is underpinned by long-term federal budget commitments, providing AVA with access to a relatively non-cyclical, high-margin government revenue stream that could meaningfully diversify its customer base beyond current commercial clients.",
+        "Near-term catalyst watch: investors should monitor for specific contract awards flowing from this panel appointment, as panel inclusion alone does not guarantee revenue — the key inflection point will be the first task order or contract win, which would validate commercial conversion and provide a basis for upgrading revenue forecasts."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ABX",
+      "company": "ABX GROUP LIMITED",
+      "headline": "ALCORE has potential cost advantage over fluorspar process",
+      "time": "2026-07-01T23:34:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106816-2A1681675",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ALCORE's aluminium fluoride production process appears to carry a structural cost advantage over the conventional fluorspar-based route — if validated at scale, this could position ABX as a low-cost producer in a market where input costs (fluorspar) have been volatile and supply is geopolitically concentrated in China and Mexico.",
+        "The market-sensitive classification signals management believes this cost differential is material to valuation; however, the announcement remains at the comparative/technical assessment stage, meaning no binding offtake, capex commitment, or independent feasibility data has yet been disclosed to anchor the claim quantitatively.",
+        "Key near-term catalysts to watch include independent cost verification (DFS or third-party benchmarking), potential strategic interest from aluminium smelters seeking fluoride supply chain diversification, and whether ABX can translate this cost narrative into a binding commercial partnership or project financing milestone."
+      ],
+      "tags": [
+        "Mining",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KTA",
+      "company": "KRAKATOA RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-01T23:33:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106813-6A1332150",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Krakatoa Resources (KTA) has entered a trading halt pending a market-sensitive announcement, suspending price discovery and liquidity for investors until further notice — the market-sensitive flag elevates the probability of a material corporate event.",
+        "Trading halts of this nature on small-cap ASX explorers most commonly precede a capital raise, M&A transaction, or significant exploration result; given KTA's junior mining profile, a placement or asset-level development is the most likely catalyst.",
+        "Investors should monitor the resumption announcement closely — the nature of the disclosure will be the key determinant of whether the halt resolves bullishly (discovery, deal, strategic partnership) or bearishly (dilutive raise, compliance issue); positioning ahead of resumption carries elevated binary risk."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "High Grade Extensions at Red Terror",
+      "time": "2026-07-01T23:33:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106812-6A1332149",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade extensions at Red Terror signal meaningful resource growth potential, with new intercepts likely expanding the known mineralised envelope — a critical de-risking milestone for a junior explorer seeking to demonstrate scale and economic viability to attract project-level funding or a strategic partner.",
+        "The market-sensitive classification underscores material drill results, suggesting intercept grades and widths are sufficiently significant to move the needle on resource estimates; investors should watch for specific assay data (g/t Au and true widths) to benchmark against existing resource parameters and peer comparables.",
+        "Near-term catalysts hinge on an updated mineral resource estimate incorporating these extensions — if grades are sustained at depth or along strike, this could materially re-rate Kingston's project economics and position Red Terror as a higher-priority development asset within the portfolio, potentially attracting M&A interest from mid-tier producers active in the region."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HGO",
+      "company": "HILLGROVE RESOURCES LIMITED",
+      "headline": "Kanmantoo Copper Mine Achieves 1.8Mtpa Run Rate",
+      "time": "2026-07-01T23:31:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106810-2A1681673",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kanmantoo reaching 1.8Mtpa throughput represents a critical operational milestone, confirming the underground mine restart is tracking to design capacity — de-risking the production ramp-up narrative that has underpinned HGO's investment case and reducing execution risk premium in the stock.",
+        "Achieving nameplate run rate signals the operation is now positioned to generate meaningful copper revenue at scale; with copper prices elevated near multi-year highs, timing of this throughput milestone materially improves near-term cash flow generation and potential path to free cash flow positivity.",
+        "The next key catalysts to watch are quarterly production figures confirming sustained throughput at this run rate, C1 cost metrics per tonne of copper produced, and any updated guidance or reserve/resource updates that could re-rate the stock toward peer multiples."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "V50",
+      "company": "VANGUARD S&P 500 US SHARES INDEX ETF",
+      "headline": "Final Distribution Announcement",
+      "time": "2026-07-01T23:31:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106808-2A1681670",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Vanguard S&P 500 ETF (ASX: VOO/VGS equivalent) has declared its final distribution, confirming income delivery to unitholders — a key event for yield-focused institutional investors and SMSF allocators who rely on predictable passive income streams from US equity exposure.",
+        "The market-sensitive classification signals the distribution quantum is material enough to influence near-term unit price behaviour; ex-distribution date mechanics will create a technical price adjustment, and the CPU (cents per unit) figure will be critical in assessing whether the payout tracks above or below prior periods amid USD/AUD currency translation effects.",
+        "Investors should monitor reinvestment flows post-distribution, as large ETF distributions typically trigger automatic DRP (Distribution Reinvestment Plan) activity that can support unit price recovery; additionally, the S&P 500's strong recent performance suggests underlying dividend income and capital gains distributions may be elevated relative to prior cycles."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ALX",
       "company": "ATLAS ARTERIA",
