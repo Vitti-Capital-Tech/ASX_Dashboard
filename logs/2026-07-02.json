@@ -1,9 +1,200 @@
 {
   "date": "2026-07-02",
-  "total": 104,
-  "market_sensitive_count": 87,
-  "generated_at": "2026-07-02T00:00:19.002194+00:00",
+  "total": 114,
+  "market_sensitive_count": 97,
+  "generated_at": "2026-07-02T00:45:35.563386+00:00",
   "announcements": [
+    {
+      "ticker": "TCA",
+      "company": "TEN CAP ALPHA PLUS COMPLEX ETF",
+      "headline": "TCAP - Actual Distribution & DRP - 30 June 2026",
+      "time": "2026-07-02T00:39:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106896-2A1681761",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TCAP has confirmed its actual distribution for the period ending 30 June 2026, a market-sensitive disclosure that provides unitholders with clarity on income yield — critical for income-focused institutional mandates benchmarking against distribution guidance.",
+        "The inclusion of a Dividend Reinvestment Plan (DRP) component signals the fund is actively managing capital recycling, allowing unitholders to compound returns by reinvesting distributions at potentially favourable pricing — a positive structural feature for long-term NAV accretion.",
+        "As a complex ETF structure, the confirmed distribution rate will directly influence near-term fund flows and secondary market pricing; investors should cross-reference the per-unit distribution against prevailing NAV to assess whether the fund is trading at a premium or discount ahead of the ex-distribution date."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCP",
+      "company": "SCALARE PARTNERS HOLDINGS LIMITED",
+      "headline": "Notice of Proposed Share Consolidation",
+      "time": "2026-07-02T00:33:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106892-3A696482",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Scalare Partners is proposing a share consolidation, a move typically deployed by micro-cap or distressed companies to lift a depressed share price above minimum thresholds — often a precursor to a capital raise, re-rating attempt, or compliance with ASX listing requirements on securities pricing.",
+        "Share consolidations are mechanically neutral to market capitalisation but historically signal near-term dilution risk, as management frequently follow consolidations with fresh equity issuances at the newly elevated price point — investors should monitor for an accompanying placement or rights issue announcement.",
+        "The market-sensitive classification elevates scrutiny; shareholders will need to assess the consolidation ratio (not yet disclosed) and vote at a forthcoming general meeting — the key near-term catalyst is the ratio announcement and any concurrent strategic update that justifies the restructure."
+      ],
+      "tags": [
+        "Compliance",
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NNU",
+      "company": "NANUK NEW WORLD FUND ACTIVE ETF",
+      "headline": "Pause in Trading",
+      "time": "2026-07-02T00:21:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106891-2A1681760",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nanuk New World Fund Active ETF has entered a trading pause, temporarily suspending secondary market liquidity on ASX — a procedural mechanism typically invoked when the fund's NAV cannot be reliably calculated or when a material pricing event requires resolution before fair trading can resume.",
+        "As an active ETF, the halt raises questions around underlying portfolio valuation integrity, potentially linked to pricing disruptions in global equity markets or illiquidity in specific holdings within the fund's thematic exposure to sustainability and resource-efficiency sectors.",
+        "Investors should monitor the resumption notice closely for disclosure on the halt's trigger — if linked to a structural or compliance issue rather than a routine operational pause, it could signal broader concerns around the fund's market-making arrangements or iNAV dissemination obligations under ASX ETF listing rules."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NNW",
+      "company": "NANUK NEW WORLD FUND (CURRENCY HEDGED) ACTIVE ETF",
+      "headline": "Pause in Trading",
+      "time": "2026-07-02T00:21:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106890-2A1681759",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Trading in the Nanuk New World Fund (Currency Hedged) Active ETF has been paused on the ASX, triggering a market-sensitive halt that prevents investors from buying or selling units on-market until the pause is lifted — a significant liquidity event for existing unitholders.",
+        "Currency-hedged ETF trading pauses are typically initiated to allow the responsible entity to address a material pricing, valuation, or operational discrepancy; given the fund's global equity exposure with active currency overlay, any dislocation in FX hedging costs or underlying NAV calculation could be the catalyst.",
+        "Investors should monitor the fund manager's subsequent announcement closely for reinstatement conditions and any revised iNAV (indicative Net Asset Value) disclosures — the duration of the halt and the nature of the resolution will be critical in assessing whether this reflects a contained technical issue or a more substantive structural concern."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "FRA",
+      "company": "FRANKLIN AUS ABSOLUTE RETURN BND FUND - ACTIVE ETF",
+      "headline": "Final Distribution Details 30 June 2026",
+      "time": "2026-07-02T00:19:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106888-2A1681749",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Franklin Australian Absolute Return Bond Fund has confirmed final distribution details for the period ending 30 June 2026, providing unitholders with certainty on income entitlements — critical for fixed-income ETF investors managing yield-based mandates and cash flow planning.",
+        "As a market-sensitive announcement, the distribution quantum and ex-distribution/payment dates will directly influence near-term trading activity around the ETF's NAV, with potential for price adjustment at ex-date as the distribution is stripped from unit value.",
+        "Institutional investors should assess the annualised distribution yield against prevailing RBA cash rate and bond market benchmarks to evaluate whether the fund continues to deliver its absolute return mandate, particularly in a shifting Australian interest rate environment heading into H2 2026."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYC",
+      "company": "CYCLOPHARM LIMITED",
+      "headline": "CYC First-Half 2026 Update",
+      "time": "2026-07-02T00:11:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106882-2A1681748",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mid-year trading update carries market-sensitive designation, signalling material variance from prior guidance or consensus expectations — investors should scrutinise whether revenue trajectory for Technegas units and consumables in the US FDA-approved market is tracking ahead or behind the FY2026 commercialisation ramp.",
+        "Key metrics to watch include US hospital account conversions, Technegas generator placements, and consumable pull-through revenue, which collectively determine whether CYC's capital-intensive US market entry is generating the unit economics needed to justify current valuation multiples.",
+        "With CYC historically cash-consumptive during its US commercial build-out phase, the update's implications for cash runway and potential need for additional capital are critical — any downward revision to revenue or upward revision to operating expenditure could pressure the balance sheet and trigger dilution risk."
+      ],
+      "tags": [
+        "Healthcare",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TLX",
+      "company": "TELIX PHARMACEUTICALS LIMITED",
+      "headline": "FDA Alignment to Advance ProstACT Global Phase 3 Trial",
+      "time": "2026-07-02T00:07:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106878-3A696480",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FDA alignment on ProstACT Global Phase 3 trial design is a critical de-risking milestone — regulatory concordance at this stage significantly reduces the probability of costly protocol amendments or clinical holds that have historically derailed radiopharmaceutical programs, protecting Telix's path to a potential second major US approval following Illuccix.",
+        "A Phase 3 trial advancing with FDA alignment strengthens Telix's competitive positioning in the therapeutic radiopharmaceuticals space against Novartis (Lutathera/Pluvicto) and Eli Lilly, and underpins the long-term revenue thesis for its prostate cancer therapeutic pipeline, which represents a multi-billion dollar addressable market beyond its current diagnostics revenue base (~A$900M+ FY2024).",
+        "Near-term catalysts to watch include trial commencement timelines, patient enrolment targets, and any disclosed Special Protocol Assessment (SPA) agreement with the FDA — an SPA would be a materially stronger signal, effectively locking in the registration-enabling study design and further compressing regulatory risk ahead of a potential NDA submission."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BDX",
+      "company": "BCAL DIAGNOSTICS LIMITED",
+      "headline": "BCAL to Acquire Shares in Genetic Signatures",
+      "time": "2026-07-02T00:04:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106874-2A1681742",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BCAL Diagnostics is acquiring shares in Genetic Signatures (GSS), a molecular diagnostics company with established commercial revenue — a strategic pivot that could provide BCAL with exposure to a revenue-generating diagnostics platform while its own breast cancer liquid biopsy technology remains pre-commercial.",
+        "The cross-holding structure raises questions around capital allocation discipline: BCAL is a cash-burning early-stage company, and deploying funds into a minority equity stake in a third party rather than accelerating its own clinical pipeline warrants scrutiny from institutional investors on use-of-cash rationale and deal terms.",
+        "Key near-term catalysts to watch include disclosure of the acquisition price, stake size, and any strategic rationale (e.g. technology synergies, distribution access, or board-level alignment) — without these details, the market will likely treat this as speculative until a fuller announcement or investor briefing is provided."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BTN",
+      "company": "BUTN LIMITED",
+      "headline": "Non-core asset sale of $4.1M and debt facility extension",
+      "time": "2026-07-02T00:03:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106873-3A696458",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The $4.1M non-core asset sale injects meaningful liquidity into BUTN's balance sheet, directly strengthening cash runway and reducing near-term funding pressure — critical for a fintech lender where balance sheet health underpins lending capacity and investor confidence.",
+        "The concurrent debt facility extension removes an imminent refinancing cliff, eliminating a key downside risk that had likely been weighing on the stock; together, the two actions signal the board is actively managing capital structure rather than being forced into dilutive equity raises.",
+        "Next steps to watch: deployment of sale proceeds (debt repayment vs. reinvestment in core lending book), revised facility terms and covenants, and whether management upgrades FY guidance — any clarity on these points will determine whether today's relief rally has legs or fades on execution risk."
+      ],
+      "tags": [
+        "Finance",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LKO",
+      "company": "LAKES BLUE ENERGY NL",
+      "headline": "Wombat Gas Project - Commercial Update",
+      "time": "2026-07-02T00:02:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106871-3A696478",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive commercial update on the Wombat Gas Project signals a potential material development in monetisation strategy or offtake arrangements — critical for a small-cap energy company where gas sales agreements directly underpin project economics and valuation re-rating.",
+        "Lakes Blue Energy's Wombat asset in Victoria's Otway Basin has been a long-dated development play; any commercial milestone — whether a gas sales agreement, binding term sheet, or infrastructure access deal — would materially de-risk the path to first revenue and compress the discount applied to 2C contingent resources.",
+        "Investors should watch for specifics on gas pricing terms, counterparty quality, and timeline to first gas, as these will determine whether the project can attract development financing and transition from exploration-stage to production-stage valuation multiples."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "SLB",
       "company": "STELAR METALS LIMITED",
