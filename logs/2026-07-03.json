@@ -1,9 +1,221 @@
 {
   "date": "2026-07-03",
-  "total": 25,
-  "market_sensitive_count": 17,
-  "generated_at": "2026-07-02T22:50:54.803735+00:00",
+  "total": 36,
+  "market_sensitive_count": 26,
+  "generated_at": "2026-07-02T23:21:13.105426+00:00",
   "announcements": [
+    {
+      "ticker": "ENP",
+      "company": "ENTROPY NEURODYNAMICS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-02T23:09:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107362-6A1332327",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt requested by Entropy Neurodynamics (ENL) signals an imminent material announcement — most likely a capital raise, M&A activity, or significant clinical/commercial development given the company's early-stage neurotechnology focus.",
+        "As a micro-cap healthcare/technology company, any capital raise emerging from this halt carries meaningful dilution risk; investors should monitor the halt duration and any accompanying placement terms closely for pricing relative to last traded price.",
+        "The market-sensitive classification elevates urgency — resolution expected within standard ASX trading halt parameters (maximum 2 trading days), after which the nature of the catalyst will determine whether the stock re-rates materially up or down."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KGL",
+      "company": "KGL RESOURCES LIMITED",
+      "headline": "Entitlement Offer Opens - Offer Booklet",
+      "time": "2026-07-02T23:08:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107361-2A1682062",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "KGL Resources has launched a formal Entitlement Offer, signalling the company requires fresh equity capital — likely to fund ongoing development or operational costs at its Jervois copper-cobalt project in the NT, where construction has been suspended since 2023 amid cost blowouts and financing challenges.",
+        "The market-sensitive classification underscores material dilution risk for existing shareholders; entitlement offers at distressed or capital-constrained juniors typically price at a significant discount to last traded price, compressing near-term share value and signalling limited access to alternative funding sources such as debt or strategic partnerships.",
+        "Investors should scrutinise the offer booklet closely for: the discount to market price, the size of the raise relative to current cash burn, any underwriting arrangements, and whether proceeds are sufficient to meaningfully de-risk the path to a Jervois restart — partial funding without a credible construction restart timeline will likely fail to restore market confidence."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HE8",
+      "company": "HELIOS ENERGY LTD",
+      "headline": "Director Resignation and Appendix 3Z",
+      "time": "2026-07-02T23:06:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107360-6A1332326",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director departure at Helios Energy signals potential instability at the board level of this early-stage energy explorer, raising questions about strategic alignment and internal governance at a critical phase of the company's development.",
+        "The Appendix 3Z filing confirms the cessation of the director's interest in company securities, requiring close scrutiny of any associated share disposal activity which could indicate reduced insider confidence in near-term catalysts.",
+        "With Helios Energy operating as a speculative explorer with limited revenue, board continuity is a key risk factor for institutional investors — the vacancy will need to be filled promptly to maintain ASX governance compliance and investor confidence in management execution."
+      ],
+      "tags": [
+        "Board Change",
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Release of Seventh Supplementary Target's Statement",
+      "time": "2026-07-02T23:04:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107358-2A1682058",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The release of a seventh supplementary target's statement signals an unusually protracted and contested takeover battle, indicating Atlas Arteria's board continues to refine its defence arguments — likely responding to updated bidder disclosures or regulatory developments that materially affect scheme valuation.",
+        "Multiple supplementary statements typically reflect evolving bid terms, independent expert updates, or new financial information; institutional investors should scrutinise whether revised valuation ranges, traffic/toll revenue forecasts, or WACC assumptions have shifted the independent expert's fairness conclusion on the offer price.",
+        "With the bid process entering an advanced and contentious phase, the critical near-term catalyst is the shareholder vote outcome — investors should monitor any changes to the recommended position of the Atlas Arteria board and whether a competing proposal or improved offer price has emerged to justify this additional disclosure round."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "1AI",
+      "company": "ALGORAE PHARMACEUTICALS LIMITED",
+      "headline": "Peter Mac Testing Validates AlgoraeOS v2",
+      "time": "2026-07-02T23:03:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107354-2A1682059",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Third-party clinical validation from Peter MacCallum Cancer Centre — Australia's leading oncology institution — materially de-risks AlgoraeOS v2 and provides a credible, independent endorsement that is critical for regulatory pathways and hospital procurement decisions.",
+        "Validation by a Tier-1 cancer centre significantly strengthens the commercial narrative for AlgoraeOS v2, potentially accelerating conversations with health networks and payers; however, investors should monitor whether this translates into a formal pilot agreement or revenue-generating contract in the near term.",
+        "Next catalysts to watch include conversion of this validation into a commercial partnership or licensing agreement with Peter Mac or affiliated health networks, TGA/FDA regulatory submissions leveraging the validation data, and any update on cash runway given the company's likely pre-revenue stage."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ENN",
+      "company": "ELANOR INVESTORS GROUP",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-02T23:01:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107349-2A1682055",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the ownership structure of Elanor Investors Group (ENN), with a holder crossing or moving through the 5% threshold — warranting close monitoring of whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase or decrease) is critical: an increase in substantial holding could indicate growing institutional conviction in ENN's diversified real assets platform, while a decrease may signal reduced confidence or portfolio rebalancing amid ongoing pressures in the Australian property and fund management sector.",
+        "Investors should track subsequent substantial holding notices to determine if this represents the beginning of a larger strategic position build — potentially foreshadowing a takeover approach, activist engagement, or simply passive index-driven flows — particularly given ENN's relatively small market capitalisation which makes it susceptible to ownership concentration effects."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GRE",
+      "company": "GREENTECH METALS LIMITED",
+      "headline": "GreenTech readies for Munni Munni and Whundo drill program",
+      "time": "2026-07-02T23:00:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107348-6A1332325",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GreenTech is mobilising drill rigs at two separate targets — Munni Munni (PGE-nickel-copper) and Whundo (copper-cobalt) — signalling a multi-commodity exploration catalyst that could unlock re-rating potential across both project areas simultaneously, a relatively rare dual-catalyst setup for a junior explorer.",
+        "The market-sensitive classification elevates investor attention: any meaningful intercepts at Munni Munni, a historically significant PGE project in WA's Pilbara region with past high-grade results, could draw institutional interest given elevated platinum-group element demand tied to hydrogen and catalytic converter supply chains.",
+        "Near-term newsflow risk/reward is skewed positively — drill results from two projects provide multiple bite-at-the-cherry opportunities for a share price re-rate, though execution risk remains; investors should monitor assay turnaround timelines and whether the company has sufficient cash runway (not disclosed here) to complete both programs without a dilutive capital raise."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OSM",
+      "company": "OSMOND RESOURCES LIMITED",
+      "headline": "Positive Initiatives to Drive Shareholder Value",
+      "time": "2026-07-02T22:57:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107347-6A1332324",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The vague headline 'Positive Initiatives to Drive Shareholder Value' without specific operational or financial disclosures is a classic signalling announcement — investors should scrutinise the substance carefully, as such language often precedes capital structure changes, asset sales, or strategic pivots that may not yet be fully defined.",
+        "As a small-cap ASX explorer (Osmond Resources), market-sensitive classification elevates urgency, but without disclosed metrics — such as resource upgrades, binding agreements, or cash position improvements — the materiality of these 'initiatives' remains unquantified and difficult to price with conviction.",
+        "Near-term focus should be on any accompanying detail around asset monetisation, potential M&A activity, or board-level strategic review; if the announcement lacks hard catalysts, the price reaction is likely to fade quickly, making this a watch-and-verify situation rather than an immediate entry signal."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OCC",
+      "company": "ORTHOCELL LIMITED",
+      "headline": "Orthocell Appoints Thailand Distributor for Remplir",
+      "time": "2026-07-02T22:56:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107346-6A1332323",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Thailand distributor appointment expands Remplir's commercial footprint into Southeast Asia, a strategically significant move given the region's growing medical tourism sector and rising surgical volumes — this adds a new revenue geography without material upfront capital outlay for Orthocell.",
+        "For a small-cap medtech like Orthocell, distributor-led market entry is capital-efficient but revenue contribution will be modest near-term; investors should monitor milestone-based contract terms, minimum purchase commitments, and timeline to first commercial sales to assess earnings impact on the FY25/26 P&L.",
+        "This appointment signals continued international commercialisation momentum for Remplir (collagen nerve wrap) following prior distribution deals; the next catalyst to watch is whether management can convert pipeline distributor discussions in other ASEAN or Asian markets into signed agreements, which would materially re-rate the stock's growth narrative."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TEK",
+      "company": "THORNEY TECHNOLOGIES LTD",
+      "headline": "Change in substantial holding from Thorney Holdings Pty Ltd",
+      "time": "2026-07-02T22:56:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107345-3A696554",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Thorney Holdings Pty Ltd — the private investment vehicle of billionaire Alex Waislitz — has filed a change in substantial holding in Thorney Technologies Ltd (TEK), signalling a shift in its ownership stake above or below a 5% threshold or a movement of 1%+ within a substantial holding position, warranting close monitoring of insider conviction levels.",
+        "As the founding and dominant shareholder, any reduction in Thorney Holdings' stake could indicate portfolio rebalancing or reduced conviction in TEK's near-term prospects, while an increase would reinforce alignment between the controlling entity and minority shareholders — the direction and quantum of the change are critical to interpreting the signal.",
+        "Institutional investors should cross-reference this filing with TEK's most recent quarterly cash flow and portfolio company updates; given TEK's small-cap, illiquid profile, even modest changes in the substantial holder's position can materially influence free float dynamics and secondary market liquidity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EMR",
+      "company": "EMERALD RESOURCES NL",
+      "headline": "Letters of Award Issued to MACA Mining",
+      "time": "2026-07-02T22:50:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107339-6A1332322",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Emerald Resources has issued Letters of Award to MACA Mining for mining services at its Okvau Gold Mine in Cambodia, signalling a formal contractor commitment that underpins production continuity and de-risks near-term operational execution at its flagship asset.",
+        "Engaging MACA — a proven, large-scale Australian mining contractor — provides institutional confidence in operational capability and cost discipline; the contract scope and value will be a key focus for investors assessing unit mining costs and EBITDA margin sustainability at Okvau.",
+        "This award marks a critical milestone ahead of any planned production ramp or life-of-mine extension, with the next catalysts being disclosure of contract terms, updated mine plan guidance, and confirmation of how the arrangement aligns with Emerald's broader growth strategy including its Cambodian and Norwegian exploration pipeline."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "RAC",
       "company": "RACURA ONCOLOGY LTD",
