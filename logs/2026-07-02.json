@@ -1,9 +1,199 @@
 {
   "date": "2026-07-02",
-  "total": 114,
-  "market_sensitive_count": 97,
-  "generated_at": "2026-07-02T00:45:35.563386+00:00",
+  "total": 124,
+  "market_sensitive_count": 105,
+  "generated_at": "2026-07-02T01:44:07.200165+00:00",
   "announcements": [
+    {
+      "ticker": "B1S",
+      "company": "BELL GLOBAL EMERGING COMPANIES CLASS A ACTIVE ETF",
+      "headline": "Final Distribution Announcement",
+      "time": "2026-07-02T01:32:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106928-2A1681782",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bell Global Emerging Companies Class A Active ETF has declared a final distribution, confirming income generation from its emerging markets equity portfolio — a positive signal for yield-seeking investors holding the fund at record date.",
+        "The market-sensitive classification suggests the distribution quantum or timing may be material relative to NAV; investors should scrutinise the cents-per-unit figure and ex-distribution date closely, as a large payout can create a post-distribution NAV step-down that may temporarily depress unit price.",
+        "For institutional holders, the final distribution triggers reinvestment or reallocation decisions — particularly relevant given current EM volatility; the distribution yield relative to peers will be a key benchmark for assessing whether BGEC remains competitive in the active EM ETF space on ASX."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APZ",
+      "company": "ASPEN GROUP",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-07-02T01:25:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106925-2A1681781",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Aspen Group (APZ), signalling meaningful accumulation of stock above the 5% disclosure threshold — a level that typically precedes activist positioning, strategic interest, or a precursor to a takeover approach in the property sector.",
+        "The identity and nature of the substantial holder (institutional, strategic, or activist) is critical context; if a property-focused fund or REIT peer has crossed the threshold, it may reflect conviction in APZ's undervalued affordable housing and land lease community portfolio relative to NTA.",
+        "Investors should monitor for any follow-on Form 604 notices indicating further accumulation, as a creep above 10–15% would materially increase M&A speculation around Aspen's defensive, yield-generating asset base — particularly attractive in the current affordable housing supply-constrained environment."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SFY",
+      "company": "STATE STREET SPDR S&P/ASX 50 ETF",
+      "headline": "Change in substantial holding from NWL",
+      "time": "2026-07-02T01:18:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106922-2A1681779",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Netwealth Group (NWL) has crossed a substantial holding threshold in the SPDR S&P/ASX 50 ETF, signalling a shift in its clients' or proprietary asset allocation toward large-cap Australian equities — a defensive repositioning worth monitoring for broader platform flow trends.",
+        "The change in substantial holding reflects movement above or below the 5% disclosure threshold, indicating meaningful rebalancing activity within Netwealth's managed portfolios or model portfolios that could represent tens of millions in AUM rotation into blue-chip ASX exposure.",
+        "For institutional investors, this filing is largely procedural and carries no direct price catalyst for the ETF itself given its passive, index-tracking structure — however, it provides a useful signal on how major platform operators are positioning client funds amid current macro conditions."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATS",
+      "company": "AUSTRALIS OIL & GAS LIMITED",
+      "headline": "Update on TMS Carried Work Program",
+      "time": "2026-07-02T01:11:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106920-6A1332181",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The TMS (Tuscaloosa Marine Shale) carried work program update signals a critical inflection point for Australis — any acceleration or delay in carried well activity directly impacts the company's ability to demonstrate resource commerciality without deploying its own capital, making this announcement pivotal for near-term valuation.",
+        "Investors should scrutinise whether the carried interest partner is fulfilling drilling obligations on schedule; any deferral or reduction in committed well count would materially impair the path to production milestones and could trigger a reassessment of the asset's NPV and Australis's cash position relative to its US operations.",
+        "Next steps hinge on confirmation of spud dates, well results, and whether the carry structure remains intact — a successful well outcome in the TMS would validate the play's economics and potentially re-rate the stock, while continued inactivity risks further market scepticism around a formation that has historically challenged operators on cost and productivity."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VAR",
+      "company": "VARISCAN MINES LIMITED",
+      "headline": "Termination of the BMEx Term Sheet",
+      "time": "2026-07-02T01:07:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106918-6A1332179",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Variscan has terminated its BMEx Term Sheet, signalling the collapse of a prospective transaction — the market-sensitive classification indicates material strategic consequences, likely removing a near-term growth or funding catalyst from the investment thesis.",
+        "The termination raises immediate questions around Variscan's pipeline optionality and capital allocation strategy; without the BMEx deal, investors will scrutinise the company's remaining cash position and whether alternative partnerships or project development pathways are in place to sustain operations.",
+        "Management must now articulate a credible path forward — key near-term catalysts to watch include any replacement deal announcements, updated exploration activity at core Spanish assets (Novales-Udías, Salave), or a capital raise to bridge the strategic gap left by this termination."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WOA",
+      "company": "WIDE OPEN AGRICULTURE LTD",
+      "headline": "Transition to Contract Manufacturing for Improved Economics",
+      "time": "2026-07-02T01:06:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106916-6A1332178",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Wide Open Agriculture is exiting in-house manufacturing in favour of contract manufacturing — a structurally significant shift that should reduce fixed overhead, lower capital intensity, and improve gross margins on its oat-milk and plant-based product lines, directly addressing the unit economics drag that has weighed on the business.",
+        "The move signals management is prioritising cash preservation and path-to-profitability over vertical integration; for a small-cap agri-food company with limited cash runway, outsourcing production removes the burden of maintaining and scaling owned facilities, which is a material de-risking of the balance sheet.",
+        "Key near-term watch points include the terms and scalability of the contract manufacturing agreements, any transition costs or one-off charges, and whether the improved cost structure is sufficient to accelerate the timeline to EBITDA breakeven — investors should seek quantified margin improvement guidance at the next quarterly update."
+      ],
+      "tags": [
+        "Production",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NGI",
+      "company": "NAVIGATOR GLOBAL INVESTMENTS LIMITED",
+      "headline": "Completion of Transaction",
+      "time": "2026-07-02T00:56:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106911-2A1681774",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Transaction completion removes execution risk and signals a definitive structural shift in Navigator Global Investments' business profile — institutional investors should reassess NAV and earnings trajectory under the new configuration immediately.",
+        "The market-sensitive classification indicates material financial or operational consequences from this deal closure; key metrics to watch include any changes to AUM, fee revenue streams, and balance sheet leverage ratios post-settlement.",
+        "Near-term focus shifts to integration execution, potential synergy realisation timelines, and whether management reaffirms or upgrades forward guidance — any accompanying earnings revision or capital management update will be the critical catalyst for re-rating."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NNW",
+      "company": "NANUK NEW WORLD FUND (CURRENCY HEDGED) ACTIVE ETF",
+      "headline": "Trading Halt - NNWH",
+      "time": "2026-07-02T00:49:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106906-2A1681773",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "NNWH has been placed in a trading halt, temporarily suspending market activity for this currency-hedged active ETF — a procedural mechanism typically invoked ahead of a material announcement, fund restructuring, or significant portfolio event requiring investor disclosure.",
+        "As a currency-hedged variant of the Nanuk New World Fund, NNWH provides exposure to global companies benefiting from resource efficiency and sustainability themes; a halt at the ETF level (rather than underlying holdings) suggests the trigger is fund-specific — potentially a liquidity event, fee/structure change, or responsible entity communication — rather than broad market dislocation.",
+        "Investors should monitor the resumption announcement closely for details on the nature of the halt; given the 'Market Sensitive' classification, the forthcoming disclosure is likely to carry meaningful implications for unitholders regarding fund terms, distributions, or structural changes that could affect the hedging mechanism or NAV."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NNU",
+      "company": "NANUK NEW WORLD FUND ACTIVE ETF",
+      "headline": "Trading Halt - NNUK",
+      "time": "2026-07-02T00:48:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106905-2A1681772",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "NNUK has entered a trading halt, suspending investor ability to buy or sell units on the ASX — a critical liquidity event for ETF holders who rely on continuous market access for portfolio management and risk adjustment.",
+        "As an Active ETF, trading halts can signal a pending material portfolio event such as a significant fund restructuring, a change in investment mandate, or a corporate action affecting underlying holdings — the market-sensitive classification amplifies urgency for institutional holders to monitor developments closely.",
+        "Investors should watch for the resumption announcement and accompanying disclosure; the halt duration and reason will be key determinants of whether this represents a transient administrative pause or a more substantive structural change to the fund — positions cannot be unwound until trading resumes."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NSM",
+      "company": "NORTH STAWELL MINERALS LTD",
+      "headline": "NSM Further Defines Gold Footprint Along Corridor Nth of SGM",
+      "time": "2026-07-02T00:47:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106904-6A1332177",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NSM has extended its gold mineralisation footprint along the corridor north of the St George Mine (SGM), a technically significant result that de-risks the exploration thesis and suggests structural continuity beyond the known resource — a key re-rating catalyst for a junior explorer.",
+        "The market-sensitive classification signals material new drill or geochemical data; further definition of the gold corridor implies potential resource upgrade optionality, which institutional investors will watch closely ahead of any maiden or updated JORC estimate.",
+        "Near-term focus will shift to follow-up drilling density and whether NSM can convert this footprint expansion into a defined resource — capital allocation decisions and potential funding requirements (equity raise risk) will be the critical variables to monitor in coming quarters."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "TCA",
       "company": "TEN CAP ALPHA PLUS COMPLEX ETF",
