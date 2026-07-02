@@ -1,9 +1,105 @@
 {
   "date": "2026-07-02",
-  "total": 124,
-  "market_sensitive_count": 105,
-  "generated_at": "2026-07-02T01:44:07.200165+00:00",
+  "total": 129,
+  "market_sensitive_count": 109,
+  "generated_at": "2026-07-02T03:07:54.725136+00:00",
   "announcements": [
+    {
+      "ticker": "NMR",
+      "company": "NATIVE MINERAL RESOURCES HOLDINGS LIMITED",
+      "headline": "NMR enters into $3,500,000 convertible note raising",
+      "time": "2026-07-02T02:40:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106964-2A1681807",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NMR has secured a $3.5M convertible note facility, providing immediate liquidity relief but introducing meaningful dilution risk — conversion terms, interest rate, and maturity profile are critical unknowns that will determine the true cost of capital and shareholder impact.",
+        "The convertible note structure signals NMR was unable or unwilling to raise equity at current market prices, suggesting management views the stock as undervalued or that institutional appetite for a direct placement was insufficient — either way, downside conversion pressure on the share price is a near-term overhang.",
+        "Proceeds deployment will be the key catalyst to watch: if funds are directed toward advancing a defined resource or near-term production milestone, the market may look through dilution risk; absent a clear use-of-funds narrative, the raise risks being perceived as a distressed liquidity event."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "EAR",
+      "company": "PIMCO SHORT TERM ACTIVE YIELD ACTIVE ETF",
+      "headline": "PIMCO ETF - June 2026 Final Distribution",
+      "time": "2026-07-02T02:33:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106962-2A1681806",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PIMCO Short Term Active Yield ETF has declared its June 2026 final distribution, confirming continued income delivery to unitholders — critical for yield-focused institutional investors benchmarking against cash and short-duration fixed income alternatives in the current rate environment.",
+        "The market-sensitive classification signals the distribution quantum is material enough to influence near-term unit pricing; investors should monitor the ex-distribution date closely as NAV will adjust downward by the distribution amount, creating a potential entry point for new capital deployment.",
+        "As a short-duration active fixed income ETF, the distribution level serves as a real-time indicator of PIMCO's portfolio yield capture — any compression versus prior periods would flag tightening credit spreads or reduced cash rate tailwinds, while stable or elevated payouts reinforce the fund's positioning as a defensive income vehicle amid rate uncertainty."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JEP",
+      "company": "JPMORGAN EQUITY PREMIUM INCOME (HEDGED) ACTIVE ETF",
+      "headline": "Distribution Notice",
+      "time": "2026-07-02T01:58:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106944-2A1681786",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "JPMorgan Equity Premium Income (Hedged) Active ETF (JEPI) has declared a distribution, confirming the fund's core income-generation mandate is being met — critical for yield-seeking institutional investors who benchmark against this ETF's monthly income consistency.",
+        "The market-sensitive classification signals the distribution quantum or timing may carry material implications for unit pricing, with ex-distribution date mechanics likely to create a near-term NAV adjustment that active traders should factor into entry/exit decisions.",
+        "As a hedged active ETF employing an options overlay (equity-linked notes) strategy on US equities, the distribution level serves as a real-time indicator of implied volatility conditions in US markets — elevated distributions may signal heightened options premiums and broader market uncertainty worth monitoring."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TON",
+      "company": "TRITON MINERALS LTD",
+      "headline": "Completion delay and issue of default notice",
+      "time": "2026-07-02T01:52:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106938-6A1332187",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Triton Minerals has received a formal default notice following a completion delay, signalling a critical contractual breach that could jeopardise the underlying transaction — likely a funding agreement or asset sale — and materially threatens the company's near-term strategic pathway.",
+        "The issuance of a default notice is a high-severity legal trigger that may accelerate repayment obligations, enable counterparty termination rights, or expose Triton to financial penalties, all of which compound existing balance sheet pressures for a pre-revenue graphite developer with limited cash resources.",
+        "Investors should monitor urgently for any cure period deadlines, board response, or capital raise announcement — failure to remedy the default within prescribed timeframes could force asset restructuring, dilutive emergency funding, or in a worst case, administration proceedings."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AIS",
+      "company": "AERIS RESOURCES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-02T01:45:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03106933-6A1332185",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a shift in the register composition for Aeris Resources (AIS), indicating a major shareholder has crossed a disclosure threshold — either accumulating or reducing their position, which warrants close monitoring for directional intent.",
+        "The nature of the movement (buy-up or sell-down) will determine whether this reflects growing institutional conviction in Aeris's copper and gold operations, or profit-taking/exit pressure from a key holder — both scenarios carry meaningful implications for near-term liquidity and price support.",
+        "Investors should track whether this represents a new strategic entrant building a stake ahead of potential corporate activity, or an existing holder trimming exposure — given Aeris's ongoing operational turnaround at Tritton and Cracow, any register reshuffling could signal changing confidence in management's execution trajectory."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "B1S",
       "company": "BELL GLOBAL EMERGING COMPANIES CLASS A ACTIVE ETF",
