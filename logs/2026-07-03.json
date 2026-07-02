@@ -1,9 +1,222 @@
 {
   "date": "2026-07-03",
-  "total": 37,
-  "market_sensitive_count": 27,
-  "generated_at": "2026-07-02T23:24:46.886670+00:00",
+  "total": 48,
+  "market_sensitive_count": 37,
+  "generated_at": "2026-07-02T23:50:01.075738+00:00",
   "announcements": [
+    {
+      "ticker": "ENL",
+      "company": "ENLITIC INC.",
+      "headline": "Investor Presentation - Capital Raising and CN Conversion",
+      "time": "2026-07-02T23:37:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107399-3A696558",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dual-action capital event signals acute liquidity pressure — the simultaneous capital raise and convertible note (CN) conversion suggests Enlitic is managing a tight cash runway, with the CN conversion likely dilutive as debt holders convert at potentially discounted terms to equity.",
+        "Convertible note conversion crystallises dilution risk for existing shareholders — depending on conversion price relative to current market price, this could represent meaningful equity dilution; investors should scrutinise the conversion ratio and any associated discount to assess the true cost of prior debt financing.",
+        "Capital raise terms and use-of-funds disclosure will be critical near-term catalysts — as a healthcare AI/technology company, Enlitic must demonstrate the raise is sufficient to fund a defined commercial milestone (e.g. SaaS revenue ramp or regulatory clearance) rather than merely extending a distressed balance sheet; failure to articulate a credible path to self-sufficiency will weigh on sentiment."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ENL",
+      "company": "ENLITIC INC.",
+      "headline": "A$15m Conditional Placement and Proposed Note Conversion",
+      "time": "2026-07-02T23:37:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107398-3A696550",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Enlitic is raising A$15m via a conditional placement, providing a meaningful capital injection for this AI-driven medical imaging company — the proceeds are critical to extending cash runway and funding commercialisation of its ENDEX and ENCODA platforms in a capital-intensive growth phase.",
+        "The proposed conversion of existing notes into equity signals insider/creditor confidence in the company's trajectory but introduces dilution risk; investors should scrutinise the conversion price relative to current market price to assess the magnitude of earnings-per-share dilution and any potential overhang.",
+        "Conditional nature of the placement warrants close attention — shareholder approval and/or regulatory conditions must be satisfied before funds are secured, meaning execution risk remains elevated; the outcome of any required EGM will be a key near-term catalyst for the stock."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MQR",
+      "company": "MARQUEE RESOURCES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-02T23:37:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107396-6A1332339",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Marquee Resources (MQR), indicating a major shareholder has either crossed above or below the 5% disclosure threshold — warranting close monitoring of the direction of movement (accumulation vs. disposal).",
+        "Without confirmed buy/sell direction, the key question is whether this reflects strategic accumulation by a sophisticated investor — potentially signalling confidence in MQR's exploration assets — or an exit that could weigh on near-term liquidity and sentiment in a thinly traded small-cap.",
+        "Institutional investors should track subsequent Form 604/603 filings to determine the identity of the substantial holder, their historical activism, and whether this represents a precursor to a board push, strategic partnership, or simply passive portfolio rebalancing."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EM3",
+      "company": "EMC GOLD CORPORATION",
+      "headline": "EMC Gold appoints Spain-based CEO",
+      "time": "2026-07-02T23:36:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107395-6A1332337",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Spain-based CEO appointment raises immediate questions around operational proximity to EMC Gold's assets — investors should scrutinise whether this geographic disconnect signals a pivot toward European capital markets, strategic partnerships, or M&A activity rather than hands-on project development.",
+        "Leadership transitions at junior gold explorers are high-stakes events; the incoming CEO's track record, network, and specific mandate (capital raising, project advancement, or corporate restructuring) will be the critical determinant of whether this appointment is value-accretive or a distraction from near-term catalysts.",
+        "The market-sensitive classification elevates this beyond routine board housekeeping — investors should monitor any accompanying strategic commentary or changes to project timelines, as a new CEO often precedes a reset of corporate strategy, potential capital raises, or revised resource development plans."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CRS",
+      "company": "CAPRICE RESOURCES LTD",
+      "headline": "West Arunta Divestment Completed",
+      "time": "2026-07-02T23:35:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107392-6A1332335",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Caprice Resources has completed the divestment of its West Arunta project, signalling a strategic portfolio rationalisation — investors should watch for disclosed consideration terms, as any cash proceeds will directly impact the company's liquidity position and extend its operational runway in a tight junior explorer funding environment.",
+        "The West Arunta divestment removes a non-core asset from the balance sheet, potentially reducing holding costs and exploration obligations tied to that tenement, which could improve capital allocation efficiency toward higher-priority projects — the materiality of this is amplified by the market-sensitive classification, suggesting the deal terms are financially meaningful.",
+        "Near-term focus shifts to how management deploys any proceeds or redirected exploration budget; investors should scrutinise the next quarterly activity report for updated project pipeline priorities and whether this divestment is part of a broader consolidation strategy or a precursor to a more targeted capital raise."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ECS",
+      "company": "ECS BOTANICS HOLDINGS LTD",
+      "headline": "German GMP Update Reinforces ECS Manufacturing Strategy",
+      "time": "2026-07-02T23:34:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107388-6A1332336",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GMP certification progress for German operations is a critical de-risking milestone — EU-GMP compliance is a non-negotiable prerequisite for accessing the high-margin European medicinal cannabis market, and any positive update directly validates ECS's manufacturing credibility with potential offtake partners and distributors.",
+        "The announcement signals ECS is advancing its vertically integrated strategy, positioning its manufacturing assets as a competitive moat; securing GMP status can unlock premium pricing tiers and B2B supply contracts that are structurally inaccessible to non-certified producers.",
+        "Near-term catalysts to watch include formal GMP certificate issuance, any binding supply agreements leveraging the certification, and whether the company can convert manufacturing credibility into revenue visibility — investors should monitor cash burn against the timeline to first certified product sales."
+      ],
+      "tags": [
+        "Production",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IMU",
+      "company": "IMUGENE LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-02T23:31:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107387-3A696566",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Imugene (IMU) has entered a trading halt pending a material announcement, most likely related to a capital raise — a recurring pattern for this cash-burning clinical-stage oncology biotech that has historically relied on equity markets to fund operations.",
+        "With IMU's last reported cash position providing a limited runway relative to its ongoing Phase I/II trial expenditure across multiple programs (CF33, HER-Vaxx, onCARlytics), any equity raise will be closely scrutinised for dilution magnitude and pricing relative to the prevailing share price.",
+        "Investors should monitor the nature of the forthcoming announcement closely — if a capital raise, the structure (placement vs. SPP), discount to market, and use-of-proceeds disclosure will be critical determinants of whether institutional sentiment stabilises or deteriorates further given the stock's already depressed valuation."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SPL",
+      "company": "STARPHARMA HOLDINGS LIMITED",
+      "headline": "DEP milestone triggers partner option fee",
+      "time": "2026-07-02T23:29:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107385-3A696564",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A DEP (DendrimerEnhanced Product) program milestone has triggered a partner option fee payment, confirming the technology is advancing through agreed development gates and validating Starpharma's out-licensing model — a key de-risking signal for investors who have questioned commercialisation timelines.",
+        "The option fee represents non-dilutive cash inflow tied to partner performance obligations, strengthening Starpharma's cash runway without equity issuance; the quantum of the fee will be critical to assess materiality against the company's current burn rate and cash position.",
+        "The partner retaining and exercising its option signals continued commercial confidence in the DEP platform, raising the probability of subsequent milestone payments and potential royalty streams — investors should watch for disclosure of the partner's identity and the next milestone trigger as catalysts for further re-rating."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "APL",
+      "company": "ASSOCIATE GLOBAL PARTNERS LIMITED",
+      "headline": "Business Update-New Partnership with Cathie Wood-ARK Invest",
+      "time": "2026-07-02T23:27:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107383-3A696565",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic partnership with ARK Invest — Cathie Wood's globally recognised thematic ETF manager with ~US$10B+ AUM — provides Associate Global Partners with significant brand credibility and potential access to disruptive innovation investment strategies, a differentiated offering in the competitive Australian wealth management landscape.",
+        "The ARK affiliation could materially expand AGP's product shelf and distribution capability, opening pathways to institutional and retail mandates aligned with high-growth technology themes; however, revenue uplift quantum and fee-sharing economics have not yet been disclosed, warranting scrutiny of the commercial terms.",
+        "Near-term catalyst watch: investors should monitor whether this partnership translates into a licensed product launch (e.g., an ARK-branded managed fund or ETF on ASX), formal distribution agreements, or FUM inflows — any of which would provide measurable financial validation beyond the headline announcement."
+      ],
+      "tags": [
+        "Finance",
+        "Technology",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RGL",
+      "company": "RIVERSGOLD LIMITED",
+      "headline": "Mining Lease Granted at Kalgoorlie Gold Project",
+      "time": "2026-07-02T23:26:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107379-6A1332332",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The granting of a Mining Lease at the Kalgoorlie Gold Project represents a critical de-risking milestone, converting exploration tenure into a legally sanctioned production-ready asset — a key regulatory hurdle that significantly reduces development timeline uncertainty for investors.",
+        "Kalgoorlie remains one of Australia's premier gold jurisdictions with established infrastructure, skilled labour pools, and proximity to processing facilities, meaning RGL can potentially leverage lower capital intensity to advance toward production compared to greenfield peers.",
+        "With the Mining Lease now secured, the company's near-term catalysts shift to feasibility studies, offtake negotiations, and potential project financing or JV discussions — any of which could serve as re-rating events in a gold price environment currently trading near all-time highs above USD $3,300/oz."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HTM",
+      "company": "HIGH-TECH METALS LTD",
+      "headline": "Mt Fisher Drilling Returns Multiple High-Grade Gold Results",
+      "time": "2026-07-02T23:24:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107375-6A1332331",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Multiple high-grade gold intercepts at Mt Fisher represent a material de-risking event for High-Tech Metals, validating the geological model and significantly increasing the probability of a maiden resource estimate — a key re-rating catalyst for this early-stage explorer.",
+        "The 'high-grade' characterisation in a market-sensitive release signals results likely exceed regional benchmarks; investors should scrutinise headline intercepts (g/t Au and downhole width) for economic cut-off grade thresholds, as grade continuity and true width will determine whether this advances toward resource definition drilling.",
+        "Near-term focus shifts to follow-up infill and extensional drilling programs to test strike and depth continuity of the high-grade zones — successful extension of mineralisation would support a resource estimate and could attract farm-in or JV interest from mid-tier gold producers seeking WA project pipeline."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "SNT",
       "company": "SYNTARA LIMITED",
