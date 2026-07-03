@@ -1,9 +1,28 @@
 {
   "date": "2026-07-03",
-  "total": 58,
-  "market_sensitive_count": 47,
-  "generated_at": "2026-07-03T00:17:51.033728+00:00",
+  "total": 59,
+  "market_sensitive_count": 48,
+  "generated_at": "2026-07-03T00:37:07.176911+00:00",
   "announcements": [
+    {
+      "ticker": "NNU",
+      "company": "NANUK NEW WORLD FUND ACTIVE ETF",
+      "headline": "NNUK-lifting of trading halt",
+      "time": "2026-07-03T00:15:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107441-2A1682096",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt on NNUK has been lifted, restoring normal market operations for the Nanuk New World Fund Active ETF — the resumption itself signals that whatever administrative or material disclosure triggered the halt has now been resolved to ASX's satisfaction.",
+        "The market-sensitive classification of the lifting notice warrants close attention: investors should scrutinise the accompanying disclosure or corporate action that precipitated the halt, as it may carry valuation implications for the fund's underlying global sustainability and new-economy equity holdings.",
+        "Next steps for institutional investors include reviewing any concurrent announcements (e.g. NAV restatement, portfolio rebalancing, or fund structure changes) released alongside the halt lifting, as these will determine whether the resumption is a clean all-clear or the beginning of a repricing event."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "NNW",
       "company": "NANUK NEW WORLD FUND (CURRENCY HEDGED) ACTIVE ETF",
