@@ -1,9 +1,47 @@
 {
   "date": "2026-07-03",
-  "total": 59,
+  "total": 61,
   "market_sensitive_count": 48,
-  "generated_at": "2026-07-03T00:37:07.176911+00:00",
+  "generated_at": "2026-07-03T01:35:23.016913+00:00",
   "announcements": [
+    {
+      "ticker": "PR2",
+      "company": "PICHE RESOURCES LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-07-03T01:12:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107485-6A1332357",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has fallen below the 5% ownership threshold in Piche Resources Limited, signalling a meaningful reduction in concentrated ownership — this could reflect a strategic exit or portfolio rebalancing by a previously significant investor.",
+        "The cessation of substantial holder status implies the departing entity has disposed of sufficient shares to drop below the 5% disclosure trigger, potentially introducing incremental selling pressure on what is likely a thinly traded junior resources stock.",
+        "For remaining investors, the key watch point is whether this exit represents a loss of a supportive cornerstone holder — particularly relevant for a small-cap explorer where institutional backing can be critical to future capital raises and market credibility."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RPL",
+      "company": "REGAL PARTNERS LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-07-03T00:36:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107454-2A1682109",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has crossed the 5% ownership threshold in Regal Partners (RPL), triggering mandatory disclosure — signalling meaningful institutional accumulation in the ASX-listed alternative asset manager.",
+        "The timing of this stake-building is notable given Regal's recent growth trajectory in funds under management (FUM) and its positioning as one of Australia's leading multi-strategy alternative investment platforms, suggesting the acquirer sees undervalued upside in RPL's earnings leverage to FUM growth.",
+        "Investors should monitor whether this represents a passive accumulation or a precursor to a strategic engagement; a single substantial holder crossing 5% can shift the shareholder register dynamic and attract further institutional attention or activist interest."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "NNU",
       "company": "NANUK NEW WORLD FUND ACTIVE ETF",
