@@ -1,9 +1,197 @@
 {
   "date": "2026-07-03",
-  "total": 48,
-  "market_sensitive_count": 37,
-  "generated_at": "2026-07-02T23:50:01.075738+00:00",
+  "total": 58,
+  "market_sensitive_count": 47,
+  "generated_at": "2026-07-03T00:17:51.033728+00:00",
   "announcements": [
+    {
+      "ticker": "NNW",
+      "company": "NANUK NEW WORLD FUND (CURRENCY HEDGED) ACTIVE ETF",
+      "headline": "NNWH-lifting of trading halt",
+      "time": "2026-07-03T00:13:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107439-2A1682095",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt on NNWH has been lifted, restoring normal market access for investors in this currency-hedged active ETF — the resumption signals that whatever administrative or structural matter triggered the halt has been resolved to ASX's satisfaction.",
+        "As a currency-hedged vehicle tracking global equities, any halt-and-lift cycle raises questions around NAV pricing integrity and hedging roll mechanics during the suspension period; investors should scrutinise the next published iNAV to confirm no material pricing dislocation occurred.",
+        "Next steps for institutional holders: monitor the fund manager's (Nanuk Asset Management) disclosure for any accompanying announcement explaining the halt's root cause — absent further detail, the lifting is procedurally neutral but the lack of transparency around the trigger warrants due diligence before re-establishing or increasing positions."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EXT",
+      "company": "EXCITE TECHNOLOGY SERVICES LTD",
+      "headline": "Placement to raise $3.26 million before costs",
+      "time": "2026-07-03T00:06:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107432-3A696569",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Excite Technology Services is raising $3.26M via placement, providing a near-term liquidity injection for a micro-cap operator — critical context given the company's historically thin cash reserves and the need to fund ongoing operational and growth initiatives.",
+        "The dilutive nature of the placement warrants scrutiny on pricing and scale: investors should assess the issue price relative to prevailing market price to gauge discount depth, which for small-cap placements typically ranges 15–25% and signals the degree of urgency behind the capital raise.",
+        "Use of proceeds will be the key determinant of whether this raise is value-accretive or merely defensive — if capital is directed toward revenue-generating technology contracts or platform expansion, near-term catalysts could offset dilution; absent clear deployment guidance, execution risk remains elevated."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NRX",
+      "company": "NORONEX LIMITED",
+      "headline": "Drilling in Namibia Confirms Broad Uranium Intersections",
+      "time": "2026-07-03T00:05:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107431-6A1332346",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drill results confirm broad uranium mineralisation in Namibia, a tier-1 uranium jurisdiction hosting world-class deposits including Rossing and Husab — geological validation in this region carries significant de-risking weight for resource estimation and potential project economics.",
+        "The 'broad intersections' language suggests wide, potentially bulk-tonnage style mineralisation consistent with alaskite-hosted uranium systems common in the Namibian belt, which could support open-pit, low-cost extraction scenarios — a key value driver if grades and widths are confirmed at resource-definition stage.",
+        "Near-term catalysts include assay results, maiden resource estimate progression, and potential re-rating as uranium spot prices remain elevated (~US$65-70/lb range); institutional interest in uranium explorers with credible Namibian ground positions is heightened given global nuclear energy policy tailwinds."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FG1",
+      "company": "FLYNN GOLD LIMITED",
+      "headline": "Drilling Confirms Strike-Extensive Silver System",
+      "time": "2026-07-03T00:04:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107430-3A696581",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strike-extensive silver system confirmation materially de-risks the project's geological thesis — lateral continuity of mineralisation is a critical valuation driver, as it underpins resource estimation scalability and potential mine-life economics at Flynn Gold's exploration asset.",
+        "The market-sensitive classification signals management believes drilling results are materially price-sensitive, suggesting intercept grades and widths are likely above expectations; investors should scrutinise assay results for silver equivalent grades, true widths, and comparison to historical drill data to assess resource upgrade potential.",
+        "Near-term catalysts to watch include a maiden or updated JORC resource estimate incorporating the confirmed strike extent, potential re-rating of the asset toward peer silver explorer multiples, and whether the company has sufficient cash runway (check last quarterly) to fund follow-up infill and extensional drilling without near-term dilutive capital raises."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BMR",
+      "company": "BALLYMORE RESOURCES LIMITED",
+      "headline": "Torpys Discovery Grows as Drilling and Field Work Delivers",
+      "time": "2026-07-03T00:04:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107429-2A1682094",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Torpys discovery is demonstrating meaningful scale expansion, with ongoing drilling and field work confirming geological continuity — a critical de-risking milestone that typically re-rates junior explorers toward resource definition stages.",
+        "Market-sensitive classification signals material new information, likely including significant intercept results or expanded footprint data that meaningfully upgrades the project's resource potential beyond prior expectations.",
+        "Next catalysts will centre on maiden or updated resource estimate timing, additional step-out drilling programs, and potential for a farm-in or strategic partnership as the discovery matures — all key valuation inflection points for institutional positioning."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AXE",
+      "company": "ARCHER MATERIALS LIMITED",
+      "headline": "Presentation - Bringing Quantum Computing to Australia",
+      "time": "2026-07-03T00:02:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107426-2A1682053",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Archer Materials is positioning itself as a domestic quantum computing hardware play at a time when Australia's federal government is actively funding quantum technology initiatives — strategic timing that could attract sovereign and institutional interest if the presentation signals government engagement or partnership pathways.",
+        "The 'Market Sensitive' classification elevates this beyond routine investor relations material, suggesting the presentation may contain material updates on the 12CQ qubit processor chip development milestones, IP status, or commercial partnership discussions that could meaningfully re-rate the stock from its speculative-stage valuation.",
+        "Key near-term catalyst to watch is whether Archer discloses a credible commercialisation timeline or licensing/collaboration agreement — without hard technical or commercial deliverables, the presentation risks being perceived as promotional, which could trigger a sell-the-news reaction given the stock's history of hype-driven volatility."
+      ],
+      "tags": [
+        "Technology",
+        "Market Update"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AXE",
+      "company": "ARCHER MATERIALS LIMITED",
+      "headline": "Archer Completes $7m Placement and Launches SPP Offer",
+      "time": "2026-07-03T00:02:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107425-2A1682089",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Archer has secured $7m via institutional placement, providing critical near-term liquidity for its capital-intensive qubit chip and 12CQ carbon-12 programs — both pre-revenue deep-tech initiatives where cash runway is the primary investor concern.",
+        "The accompanying Share Purchase Plan (SPP) signals management is seeking additional retail participation, likely targeting a further $1–3m; total raise size relative to Archer's typical market cap (~$50–80m range) implies meaningful dilution of 10–20%, which will pressure the share price in the near term.",
+        "Use of proceeds will be closely scrutinised — investors should watch for updated milestones on the qubit processor prototype and any partnership or licensing announcements, as these remain the key catalysts needed to justify the dilutive capital raise and sustain institutional support."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NNW",
+      "company": "NANUK NEW WORLD FUND (CURRENCY HEDGED) ACTIVE ETF",
+      "headline": "Final Distribution for 30 June 2026",
+      "time": "2026-07-02T23:59:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107420-2A1682088",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The final distribution announcement for the period ending 30 June 2026 confirms the fund is meeting its income distribution obligations, providing yield certainty for ETF unitholders — a key consideration for income-focused institutional allocators evaluating the currency-hedged wrapper.",
+        "As a currency-hedged active ETF, the distribution quantum will reflect both underlying portfolio income and any hedging cost drag or benefit; investors should scrutinise the per-unit distribution rate against the unhedged equivalent to assess whether the hedge overlay is accretive or dilutive to total return in the current AUD/USD environment.",
+        "The market-sensitive classification signals a material distribution amount that could influence near-term unit pricing; ex-distribution date mechanics will likely trigger a NAV step-down, and institutional investors should factor this into entry/exit timing decisions around the record date."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RWL",
+      "company": "RUBICON WATER LIMITED",
+      "headline": "FY26 Business Update",
+      "time": "2026-07-02T23:51:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107411-3A696573",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive FY26 business update signals a material development in Rubicon Water's operational or financial trajectory — the 'market sensitive' designation suggests guidance revision, contract win, or strategic shift that could meaningfully reprice the stock from current levels.",
+        "Rubicon's core business — smart irrigation technology and water management software for agricultural markets — means any revenue or order book update carries outsized significance given the company's relatively small revenue base and high exposure to capital expenditure cycles in global irrigation infrastructure.",
+        "Investors should watch for FY26 revenue guidance versus FY25 actuals, contract pipeline visibility across key markets (US, Australia, international), and any commentary on margin recovery or cost structure — these will be the key determinants of near-term re-rating potential."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NNU",
+      "company": "NANUK NEW WORLD FUND ACTIVE ETF",
+      "headline": "Final Distribution for 30 June 2026",
+      "time": "2026-07-02T23:48:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107409-2A1682086",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nanuk New World Fund has declared its final distribution for the year ending 30 June 2026, confirming the ETF is meeting its income distribution obligations — a key consideration for yield-focused institutional holders evaluating total return profiles.",
+        "As a market-sensitive announcement, the distribution quantum and any change in per-unit payout relative to prior periods will be critical: a higher-than-expected distribution could signal strong underlying portfolio performance in global sustainability/new world equities, while a cut would raise questions about NAV erosion or portfolio repositioning.",
+        "Investors should monitor the ex-distribution date and reinvestment plan (DRP) participation rates closely, as these will influence near-term unit price behaviour and secondary market liquidity — particularly relevant for ETF arbitrage desks tracking NAV-to-price spreads around the distribution event."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ENL",
       "company": "ENLITIC INC.",
