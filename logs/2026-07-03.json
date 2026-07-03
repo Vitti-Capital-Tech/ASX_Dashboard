@@ -1,9 +1,123 @@
 {
   "date": "2026-07-03",
-  "total": 61,
-  "market_sensitive_count": 48,
-  "generated_at": "2026-07-03T01:35:23.016913+00:00",
+  "total": 67,
+  "market_sensitive_count": 52,
+  "generated_at": "2026-07-03T03:06:28.215849+00:00",
   "announcements": [
+    {
+      "ticker": "ILA",
+      "company": "ISLAND PHARMACEUTICALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-03T02:23:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107514-3A696603",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Island Pharmaceuticals has entered a trading halt pending a material announcement — the market-sensitive classification signals a potentially significant corporate event such as a capital raise, partnership deal, or clinical trial update that could materially re-rate the stock.",
+        "As a small-cap ASX-listed biotech, trading halts of this nature are most commonly associated with capital raises or strategic transactions; given the company's stage of development and typical cash burn profile, a dilutive equity placement cannot be ruled out as the primary catalyst.",
+        "Investors should monitor the resumption announcement closely — the nature of the disclosure will be the key determinant of directional price movement, with a capital raise likely triggering short-term selling pressure while a licensing deal or positive clinical data could drive a sharp re-rating to the upside."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CUE",
+      "company": "CUE ENERGY RESOURCES LIMITED",
+      "headline": "Notice of ceasing to be a substantial holder from ECH",
+      "time": "2026-07-03T02:18:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107513-3A696601",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "ECH has fallen below the 5% substantial holder threshold in CUE Energy Resources (CUE), signalling a meaningful reduction in a previously significant ownership position — this removes a key institutional anchor from the register.",
+        "The cessation of substantial holder status typically implies ECH has sold down shares on-market, which may have contributed to recent selling pressure in CUE and could indicate waning institutional conviction in the stock's near-term outlook.",
+        "With ECH exiting the substantial holder register, CUE's shareholder base becomes less concentrated among institutional holders — watch for whether other substantial holders emerge or if management provides any strategic update to re-engage institutional interest."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HZN",
+      "company": "HORIZON OIL LIMITED",
+      "headline": "FORM 603 - Notice of initial substantial holder from ECH",
+      "time": "2026-07-03T02:18:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107512-2A1682180",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "ECH has crossed the 5% substantial holder threshold in Horizon Oil (HZN), triggering mandatory disclosure obligations under the Corporations Act — signalling a new significant investor has quietly accumulated a meaningful stake in the company.",
+        "The emergence of a new substantial holder can indicate strategic interest in HZN's Papua New Guinea and Chinese oil assets, potentially foreshadowing activist positioning, a block trade, or a precursor to M&A activity — warranting close monitoring of any follow-on Form 604 filings that would indicate further accumulation.",
+        "Investors should track whether ECH increases its position beyond the initial threshold, as sustained buying pressure from a substantial holder typically provides a technical floor for the share price and may prompt other institutional investors to reassess their own positioning in HZN."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ECH",
+      "company": "ECHELON RESOURCES LIMITED",
+      "headline": "COMPLETION OF CUE DIVESTMENT",
+      "time": "2026-07-03T02:16:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107511_PS-3A696595",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Echelon Resources has completed the divestment of its Cue asset, representing a strategic portfolio rationalisation that likely crystallises cash proceeds and removes ongoing holding costs or capital obligations associated with the project.",
+        "The completion of this transaction is market sensitive, suggesting material financial consideration — proceeds received will be critical to assess against book value to determine whether a gain or loss on disposal has been realised, directly impacting net asset value and cash position.",
+        "Post-divestment, the key investor focus shifts to capital allocation: how management deploys proceeds (exploration, acquisition, or balance sheet strengthening) will define the near-term investment thesis and re-rating potential for Echelon Resources."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SPH",
+      "company": "SPHERIA AUSTRALIAN SMALLER COMPANIES ACTIVE ETF",
+      "headline": "Updated Final Distribution Details",
+      "time": "2026-07-03T02:08:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107507-2A1682176",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Updated final distribution details signal a revision to previously announced figures — investors should scrutinise whether the amendment reflects a higher or lower per-unit distribution, as this directly impacts yield-sensitive ETF holders and may trigger rebalancing activity.",
+        "As a smaller companies active ETF, distribution quantum is a key performance signal — any upward revision would validate the manager's stock selection alpha in the period, while a downward revision could raise questions about realised gains and income generation within the underlying portfolio.",
+        "Market-sensitive classification elevates urgency for unitholders to review the updated figures ahead of ex-distribution and record dates; fund administrators and wrap platforms should ensure updated distribution data is reflected promptly to avoid incorrect tax reporting for investors."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ILA",
+      "company": "ISLAND PHARMACEUTICALS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-07-03T02:01:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107501-3A696593",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Trading pause signals a material pending announcement is imminent — likely a capital raise, clinical update, or partnership deal given Island Pharmaceuticals' stage-gate development model for its ISLA-101 and ISLA-202 assets.",
+        "As a pre-revenue clinical-stage biotech, any capital raise associated with this halt would be closely scrutinised for dilution risk and implied cash runway extension, particularly given the broader tightening of ASX small-cap biotech funding conditions.",
+        "Investors should monitor the resumption announcement closely — a positive clinical readout or strategic partnership could be a re-rating catalyst, while a discounted equity raise without accompanying newsflow would likely pressure the share price near-term."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "PR2",
       "company": "PICHE RESOURCES LIMITED",
