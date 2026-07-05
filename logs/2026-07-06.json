@@ -1,9 +1,160 @@
 {
   "date": "2026-07-06",
-  "total": 54,
-  "market_sensitive_count": 45,
-  "generated_at": "2026-07-05T23:14:36.744502+00:00",
+  "total": 62,
+  "market_sensitive_count": 52,
+  "generated_at": "2026-07-05T23:24:19.006791+00:00",
   "announcements": [
+    {
+      "ticker": "ODY",
+      "company": "ODYSSEY GOLD LTD",
+      "headline": "Cable Drilling Continues to Strengthen Development Pathway",
+      "time": "2026-07-05T23:18:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107993-6A1332575",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cable drilling program at Odyssey Gold's project is delivering structural continuity data critical to underpinning a maiden resource estimate — a key de-risking milestone that typically re-rates junior explorers toward development-stage valuations.",
+        "The market-sensitive classification signals material new intercepts or geological findings that management believes could meaningfully influence the company's valuation, suggesting drill results are likely exceeding or confirming high-grade targets rather than routine infill work.",
+        "Continued drilling momentum reduces the timeline risk to a JORC resource, positioning OEX for potential capital raise activity or strategic partnership discussions in the near term as the development pathway becomes more defined."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ZEO",
+      "company": "ZEOTECH LIMITED",
+      "headline": "Toondoon Kaolin Project Update",
+      "time": "2026-07-05T23:15:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107985-6A1332574",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material new information on the Toondoon Kaolin Project — likely a resource estimate update, drilling result, or offtake/partnership development that could re-rate the asset's commercial viability.",
+        "Kaolin is a high-value industrial mineral with growing demand in ceramics, paper coatings, and emerging battery/EV applications; any upgrade to resource confidence or purity metrics would directly expand the project's addressable market and potential revenue base.",
+        "Investors should watch for specifics on resource tonnage, halloysite content (a premium kaolin variant commanding significant price premiums), and any indication of development timeline or capital requirements as key catalysts for near-term valuation reassessment."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MI6",
+      "company": "MINERALS 260 LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-05T23:15:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107982-6A1332571",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Minerals 260 Limited (ML2) has entered a trading halt, suspending price discovery and liquidity for investors — the market-sensitive classification signals a material corporate event is imminent, likely within 1-2 trading sessions.",
+        "Trading halts of this nature on small-cap ASX miners most commonly precede a capital raise, M&A transaction, or significant asset/resource announcement — each carrying materially different valuation implications that investors cannot yet price in.",
+        "Institutional investors should monitor the resumption announcement closely; the nature of the pending disclosure will determine whether this represents a dilutive equity event or a value-accretive catalyst, with the stock's thin liquidity profile amplifying price volatility upon reinstatement of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARA",
+      "company": "ARIADNE AUSTRALIA LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-05T23:14:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107981-2A1682479",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a shift in the ownership register for Ariadne Australia (ARA), indicating a major shareholder has crossed a disclosure threshold — either accumulating or reducing their position, which warrants close monitoring for directional intent.",
+        "Without a corresponding capital raise or M&A announcement, this movement is likely driven by on-market activity, suggesting a sophisticated investor is quietly repositioning — potentially reflecting a view on Ariadne's underlying asset value or upcoming corporate catalysts.",
+        "Investors should track subsequent Form 604 filings to determine whether this represents a creep acquisition strategy toward a control position or a strategic exit, as either scenario could materially influence near-term price discovery and liquidity in this relatively thinly traded stock."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XF1",
+      "company": "XREF LIMITED",
+      "headline": "Xref Business Update July 2026",
+      "time": "2026-07-05T23:13:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107980-2A1682476",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material operational or financial developments that could meaningfully re-rate Xref's valuation — investors should scrutinise any revision to ARR, customer churn, or cash burn metrics relative to prior guidance.",
+        "As a SaaS-model HR-tech player, Xref's key metrics to watch include Annual Recurring Revenue trajectory, gross margin expansion, and customer acquisition costs — any deterioration in net revenue retention below ~100% would be a red flag for the growth thesis.",
+        "July business updates from Xref historically serve as a pre-results pulse check ahead of the FY reporting period; institutional focus will centre on whether the company is tracking toward profitability or requires additional capital to fund its international expansion strategy."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TG6",
+      "company": "TG METALS LIMITED",
+      "headline": "High Grade to Further Enhance Heap Leach Study Metrics",
+      "time": "2026-07-05T23:13:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107977-6A1332572",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade mineralisation intersected within the heap leach study area signals potential for materially improved project economics — higher feed grades directly translate to better recovery rates, lower unit costs, and stronger NPV outcomes in feasibility modelling.",
+        "The market-sensitive classification underscores that the grade uplift is quantitatively significant enough to alter key study metrics; investors should watch for revised resource estimates or updated economic parameters that could re-rate the project's viability threshold.",
+        "Next catalyst is the completion of the heap leach study incorporating these results — a positive outcome could de-risk the path to development decision and attract strategic or institutional interest in what remains a small-cap explorer with leverage to improved project returns."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ILT",
+      "company": "ILTANI RESOURCES LIMITED.",
+      "headline": "Further Orient West high-grade silver-indium mineralisation",
+      "time": "2026-07-05T23:11:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107974-3A696656",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Further high-grade silver-indium intercepts at Orient West reinforce the deposit's geological continuity, a critical de-risking milestone that supports resource upgrade potential and increases the likelihood of a maiden or expanded JORC resource estimate in the near term.",
+        "Indium co-occurrence with silver is a significant value differentiator — indium is a critical technology mineral commanding premium pricing (~USD 167/kg) used in semiconductors and flat-panel displays, potentially elevating the project's strategic appeal to technology-sector offtake partners and ESG-focused institutional capital.",
+        "As a market-sensitive disclosure, the company will need to follow up with a formal resource update or drilling program expansion to sustain momentum; investors should watch for drill hole assay tables, depth/width metrics, and any resource estimation timeline to assess whether this discovery scales to economic significance."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NPM",
+      "company": "NEWPEAK METALS LIMITED",
+      "headline": "First Hole Discovers Large Scale Gold Zinc and Silver System",
+      "time": "2026-07-05T23:11:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03107973-2A1682472",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "First drill hole at the project has intersected a large-scale polymetallic system hosting gold, zinc, and silver mineralisation — a significant de-risking event for an early-stage explorer, confirming the geological thesis and justifying continued capital deployment into the program.",
+        "The multi-metal discovery (Au-Zn-Ag) is strategically valuable given current elevated zinc and gold prices; if assay results confirm economic widths and grades, this could materially re-rate the stock from a speculative to a development-stage asset — key metrics to watch will be true width, grade continuity, and depth extent of the system.",
+        "As a market-sensitive announcement, institutional attention will focus on the upcoming assay results and whether follow-up holes can define a coherent mineralised envelope — the scale descriptor 'large' in the headline sets a high expectation bar that management must substantiate with quantitative data to sustain any share price re-rating."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ALX",
       "company": "ATLAS ARTERIA",
