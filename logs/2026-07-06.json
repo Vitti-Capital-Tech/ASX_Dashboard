@@ -1,9 +1,84 @@
 {
   "date": "2026-07-06",
-  "total": 88,
-  "market_sensitive_count": 78,
-  "generated_at": "2026-07-06T01:36:18.379811+00:00",
+  "total": 92,
+  "market_sensitive_count": 80,
+  "generated_at": "2026-07-06T03:08:09.344914+00:00",
   "announcements": [
+    {
+      "ticker": "VMC",
+      "company": "VENUS METALS CORPORATION LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-07-06T02:18:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108131-6A1332616",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Venus Metals Corporation (VMC), crossing the 5% ownership threshold — a regulatory trigger that signals meaningful accumulation and potential strategic interest in the company's Western Australian gold and base metals exploration assets.",
+        "The timing and scale of the stake-building warrants scrutiny: substantial holder notices often precede further on-market buying, board engagement, or M&A activity, particularly in junior explorers where a concentrated register can accelerate corporate action.",
+        "Institutional investors should monitor subsequent Form 604 (change in substantial holding) filings closely — any upward creep toward 10–15% ownership would materially shift the register dynamics and could signal a precursor to a takeover approach or strategic partnership in VMC's Youanmi and Currans Find project portfolio."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "A2M",
+      "company": "THE A2 MILK COMPANY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-06T02:03:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108124-2A1682564",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holding change in A2 Milk (ATM) signals a meaningful shift in institutional ownership structure, warranting close monitoring of the direction (increase or decrease) as it can indicate conviction-level positioning by a major fund — either accumulation ahead of anticipated catalysts or distribution following recent price strength.",
+        "ATM has been navigating a recovery trajectory in its China infant formula segment amid evolving regulatory and demographic headwinds; any large holder adjusting their stake above/below the 5% threshold reflects updated risk-reward assessments on these structural growth drivers and the company's ability to sustain market share gains.",
+        "Investors should track the identity of the substantial holder and the net change in voting power — if a passive index fund is rebalancing, impact is minimal, but if an active institutional manager is building or exiting, it may foreshadow upcoming earnings revisions or M&A speculation given ATM's historically attractive balance sheet and cash position."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACS",
+      "company": "ACCENT RESOURCES NL",
+      "headline": "Binding Agreement for Strategic Sale of Norseman Gold Assets",
+      "time": "2026-07-06T01:55:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108120-6A1332614",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The binding sale agreement for the Norseman Gold assets represents a strategic pivot for Accent Resources, unlocking latent value from non-core holdings and likely injecting near-term liquidity into a company that has historically operated with limited cash reserves — critical for funding ongoing exploration or reducing balance sheet stress.",
+        "The deal's market-sensitive classification signals material financial consideration; investors should scrutinise the sale price relative to the carrying value of the Norseman assets, as any premium to book value would confirm value crystallisation, while a discount could indicate distressed disposal dynamics.",
+        "Post-completion, Accent Resources' asset portfolio and strategic direction will be materially reshaped — the key near-term catalysts to watch are how sale proceeds are deployed (capital return, new acquisitions, or debt reduction) and whether management articulates a clear reinvestment thesis to justify the divestment."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NX1",
+      "company": "NEXALIS THERAPEUTICS LTD",
+      "headline": "Update on Funding Facility and Clinical Program",
+      "time": "2026-07-06T01:48:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108115-3A696675",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The dual focus on 'funding facility' and 'clinical program' in a market-sensitive update signals a likely material development in Nexalis's capital structure — investors should scrutinise whether this represents a drawdown, restructuring, or new debt/equity facility, as any dilutive terms or covenant changes would directly impact cash runway and near-term financing risk.",
+        "Clinical program updates from a pre-revenue biotech are binary catalysts — any disclosure of trial delays, patient enrolment issues, or regulatory setbacks would materially compress the valuation multiple, while positive progression data or milestone achievement could re-rate the stock given the typically thin liquidity profile of small-cap ASX therapeutics.",
+        "The combination of funding and clinical news in a single announcement suggests these developments are interdependent — a common scenario where clinical milestones trigger tranche releases or where funding constraints are forcing program adjustments; investors should assess whether the company retains sufficient runway (typically 12+ months is the institutional threshold) to reach the next de-risking event."
+      ],
+      "tags": [
+        "Healthcare",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "NES",
       "company": "NELSON RESOURCES LIMITED.",
