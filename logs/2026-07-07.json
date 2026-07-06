@@ -1,9 +1,164 @@
 {
   "date": "2026-07-07",
-  "total": 32,
-  "market_sensitive_count": 22,
-  "generated_at": "2026-07-06T22:32:16.251759+00:00",
+  "total": 40,
+  "market_sensitive_count": 30,
+  "generated_at": "2026-07-06T22:54:51.751521+00:00",
   "announcements": [
+    {
+      "ticker": "CBO",
+      "company": "COBRAM ESTATE OLIVES LIMITED",
+      "headline": "Australian Harvest and Business Update",
+      "time": "2026-07-06T22:51:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108419-3A696734",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian olive harvest outcome is a critical earnings driver for CBO given domestic production directly underpins premium branded oil margins — any volume or quality shortfall versus prior year would pressure FY revenue and EBITDA guidance materially.",
+        "Market-sensitive classification signals the harvest update contains quantitative data (likely yield volumes, oil content metrics, or crop size estimates) that deviates meaningfully from prior market expectations, warranting immediate reassessment of FY25 earnings models.",
+        "Investors should monitor whether the update revises full-year production guidance and any commentary on inventory positioning ahead of the key retail selling season, as CBO's ability to meet domestic and export demand from its own grove production is central to its vertically integrated margin thesis."
+      ],
+      "tags": [
+        "Production",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AD1",
+      "company": "ADNEO LIMITED",
+      "headline": "AdNeo wins Queensland Human Rights Commission contract",
+      "time": "2026-07-06T22:51:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108418-3A696735",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Government contract win with the Queensland Human Rights Commission (QHRC) provides AdNeo with a credible public-sector reference customer, a critical validation milestone for a small-cap technology company seeking to establish enterprise-grade credentials and reduce reliance on private-sector pipeline.",
+        "While contract value has not been disclosed, government contracts of this nature typically carry multi-year terms with structured renewal options — investors should scrutinise the announcement for total contract value (TCV) and duration to assess materiality relative to AdNeo's current revenue base and cash runway.",
+        "The QHRC win signals a deliberate push into the government and public-sector vertical, which offers lower churn, predictable billing cycles, and potential for panel arrangements across other Queensland state agencies — a meaningful pipeline expansion opportunity if AdNeo can leverage this as a reference case for broader whole-of-government procurement."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "E25",
+      "company": "ELEMENT 25 LIMITED",
+      "headline": "Revised Terms Agreed for US$166M HPMSM U.S. DoE Grant",
+      "time": "2026-07-06T22:45:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108412-6A1332748",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Element 25 has secured revised terms on its US$166M U.S. Department of Energy grant for its High-Purity Manganese Sulphate Monohydrate (HPMSM) facility, a critical de-risking milestone that preserves access to one of the largest non-dilutive funding packages available to an ASX-listed battery materials company — materially reducing equity dilution risk for existing shareholders.",
+        "The DoE grant represents a substantial portion of projected project capex, meaning revised (rather than cancelled) terms signals the U.S. government remains committed to onshoring critical battery supply chains under the IRA/DoE framework — Element 25's strategic positioning as a Tier 1 manganese supplier to U.S. EV manufacturers remains intact.",
+        "Key near-term catalysts to watch include finalisation of the revised grant agreement, updated project financing structure, and any revised construction timeline for the Louisiana HPMSM plant — investors should scrutinise whether revised terms introduce new conditions precedent, cost-sharing obligations, or drawdown schedule changes that could affect cash deployment timing."
+      ],
+      "tags": [
+        "Mining",
+        "Energy",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AUQ",
+      "company": "ALARA RESOURCES LIMITED",
+      "headline": "54th Copper Concentrate Shipment Dispatched from Sohar Port",
+      "time": "2026-07-06T22:44:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108410-6A1332747",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The 54th consecutive copper concentrate shipment from Sohar Port signals sustained operational continuity at the Al Hadeetha project in Oman, reinforcing Alara's status as a reliable producing asset rather than a development-stage speculative play — a key distinction for institutional risk assessment.",
+        "Sequential shipment milestones are a direct proxy for revenue cadence; with copper prices elevated near multi-year highs, each dispatch carries materially higher realised value than historical averages, providing a meaningful tailwind to operating cash flow and potential debt serviceability or dividend capacity.",
+        "Consistent logistics execution through Sohar Port reduces offtake and supply chain risk perception, but investors should monitor concentrate grade, shipment tonnage, and pricing terms in forthcoming quarterly disclosures to assess whether volume throughput is tracking in line with nameplate capacity and annual production guidance."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WC8",
+      "company": "WILDCAT RESOURCES LIMITED",
+      "headline": "POSITIVE METALLURGY TESTWORK FROM BOLT CUTTER CENTRAL",
+      "time": "2026-07-06T22:34:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108404-6A1332742",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Positive metallurgical testwork at Bolt Cutter Central de-risks the processing pathway for Wildcat's lithium project, a critical value inflection point that moves the asset closer to a viable development scenario and reduces technical uncertainty for institutional investors evaluating project economics.",
+        "Favourable metallurgy results — typically indicating strong lithium recovery rates and amenability to conventional processing — directly support future PFS/DFS assumptions, potentially underpinning higher NPV estimates and improving the project's attractiveness to strategic partners or acquirers in a competitive hard-rock lithium landscape.",
+        "With metallurgical confirmation now in hand, the logical next steps are resource expansion drilling and scoping/pre-feasibility study initiation; investors should watch for a maiden or updated Mineral Resource Estimate and any offtake or JV discussions that this testwork milestone may catalyse."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AR1",
+      "company": "AUSTRAL RESOURCES AUSTRALIA LTD",
+      "headline": "Non-Binding Indicative Proposal for Hammer Metals",
+      "time": "2026-07-06T22:33:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108401-2A1682982",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Austral Resources has lobbed a non-binding indicative proposal (NBIO) to acquire Hammer Metals, signalling a consolidation play in the copper-focused exploration space — the non-binding nature means execution risk remains high and due diligence hurdles could derail the deal before binding terms are reached.",
+        "The market-sensitive classification suggests material valuation implications for both parties; if the offer carries a meaningful premium to Hammer Metals' last traded price, Austral is effectively signalling confidence in Hammer's copper asset base at a time when copper demand fundamentals remain structurally strong, though any scrip-heavy consideration could dilute Austral shareholders.",
+        "Key near-term catalysts to watch include Hammer Metals' board response, whether an exclusivity period is granted, and the proposed transaction structure (scrip vs. cash vs. hybrid) — institutional investors should monitor for a formal due diligence announcement or a competing bid that could reprice either stock."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CP8",
+      "company": "CANADIAN PHOSPHATE LIMITED",
+      "headline": "Security Class Reinstatement to Quotation - CP8O",
+      "time": "2026-07-06T22:31:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108400-2A1682981",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reinstatement of CP8O (options) to quotation signals the resolution of whatever compliance or administrative issue triggered the suspension — a procedural clearance that removes a near-term overhang on the security class.",
+        "The market-sensitive classification warrants attention: reinstatement of a previously suspended options class can trigger repricing activity, particularly if the underlying shares (CP8) moved materially during the halt period, creating potential arbitrage or exercise dynamics.",
+        "Investors should monitor whether the reinstatement is accompanied by any disclosure around the original suspension trigger — if linked to a capital raise, restructure, or material asset update, secondary implications for the ordinary shares and company fundamentals could follow shortly."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining",
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HCH",
+      "company": "HOT CHILI LIMITED",
+      "headline": "Hot Chili Secures US$15 Million with OR Royalties Inc",
+      "time": "2026-07-06T22:30:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108397-6A1332737",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hot Chili has secured US$15M (~A$23M) in non-dilutive royalty financing from OR Royalties Inc, preserving existing shareholder equity while extending cash runway — a structurally superior outcome to an equity raise at current depressed junior miner valuations.",
+        "The royalty deal signals third-party institutional validation of the Costa Fuego copper-gold project's economics in Chile, with OR Royalties' willingness to commit US$15M suggesting confidence in resource scale and development trajectory ahead of a potential PFS or DFS milestone.",
+        "Proceeds are expected to fund critical de-risking work including feasibility studies and ongoing resource drilling; near-term catalysts such as updated resource estimates or study completions could act as re-rating events, making this financing a strategic bridge to a larger capital event or partnership."
+      ],
+      "tags": [
+        "Mining",
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ALX",
       "company": "ATLAS ARTERIA",
