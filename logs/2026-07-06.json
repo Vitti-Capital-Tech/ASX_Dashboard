@@ -1,9 +1,48 @@
 {
   "date": "2026-07-06",
-  "total": 86,
-  "market_sensitive_count": 76,
-  "generated_at": "2026-07-06T00:38:47.195221+00:00",
+  "total": 88,
+  "market_sensitive_count": 78,
+  "generated_at": "2026-07-06T01:36:18.379811+00:00",
   "announcements": [
+    {
+      "ticker": "NES",
+      "company": "NELSON RESOURCES LIMITED.",
+      "headline": "Board Changes & Gold Point Update",
+      "time": "2026-07-06T01:24:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108100-6A1332610",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Board composition shift signals a strategic reset — incoming directors with relevant exploration or capital markets experience could accelerate Nelson Resources' ability to fund and advance its Gold Point project, a critical catalyst watch for near-term re-rating.",
+        "The concurrent Gold Point update alongside board changes suggests management is attempting to maintain project momentum and investor confidence simultaneously, implying the asset may be at an inflection point requiring fresh leadership to unlock value or attract a joint venture/farm-in partner.",
+        "Investors should monitor whether the board changes trigger any shift in exploration strategy, budget allocation, or corporate activity appetite at Gold Point — given Nelson's typical junior explorer cash constraints, the new board's first capital allocation decisions will be the key near-term signal."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMP",
+      "company": "COMPUMEDICS LIMITED",
+      "headline": "FY26 Update",
+      "time": "2026-07-06T00:43:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108074-3A696672",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FY26 update signals a material mid-year operational or financial development warranting immediate investor attention — the market-sensitive classification indicates disclosure of information likely to move the stock, requiring careful assessment of whether guidance has been revised upward or downward.",
+        "Compumedics operates in high-value neurodiagnostic and sleep diagnostics hardware/software, where revenue is lumpy and contract-driven; any FY26 update at this stage of the fiscal year likely reflects either a significant order win, revenue shortfall, or cash position concern that deviates from prior market expectations.",
+        "Investors should monitor for revised revenue guidance, changes to the order book or pipeline, and any commentary on cash burn — given the company's historically thin operating margins, a negative revision could pressure the balance sheet and raise capital management questions heading into H2 FY26."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SKK",
       "company": "STAKK LIMITED",
