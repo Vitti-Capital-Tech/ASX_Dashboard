@@ -1,9 +1,123 @@
 {
   "date": "2026-07-08",
-  "total": 50,
-  "market_sensitive_count": 43,
-  "generated_at": "2026-07-07T23:16:18.249038+00:00",
+  "total": 56,
+  "market_sensitive_count": 48,
+  "generated_at": "2026-07-07T23:21:11.795853+00:00",
   "announcements": [
+    {
+      "ticker": "AUQ",
+      "company": "ALARA RESOURCES LIMITED",
+      "headline": "Prospectus",
+      "time": "2026-07-07T23:19:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108952-6A1332980",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alara Resources has lodged a Prospectus — a market-sensitive capital raise event that signals the company is seeking fresh equity funding, likely to advance its flagship Khnaiguiyah zinc-copper project in Saudi Arabia or fund near-term exploration/development activities.",
+        "The prospectus structure and pricing terms will be critical to assess dilution risk; institutional investors should scrutinise the offer price relative to last traded price, total shares on issue post-raise, and whether any lead manager firm commitments underpin the raise — all key indicators of demand quality and balance sheet uplift.",
+        "Near-term catalysts hinge on successful capital deployment: if proceeds are earmarked for a defined work program or feasibility milestone, the raise could re-rate the stock on project de-risking; however, if the use-of-funds is broad or exploratory, the dilutive overhang may suppress the share price until tangible newsflow emerges."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WAU",
+      "company": "WA GOLD LIMITED",
+      "headline": "ABERCROMBY GOLD DRILLING UPDATE",
+      "time": "2026-07-07T23:19:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108953-6A1332991",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive drilling update at Abercromby Gold signals material intercepts or resource-defining results that could meaningfully re-rate WAG's exploration asset base — the market-sensitive flag indicates results are likely outside the range of prior guidance or expectations.",
+        "Investors should scrutinise assay grades, intercept widths, and hole depths relative to any previously reported mineralisation to assess whether results support a maiden or expanded JORC resource estimate, which would be a key de-risking milestone for this early-stage explorer.",
+        "Near-term catalysts hinge on follow-up drilling programs and potential resource definition work; if results confirm structural continuity of gold mineralisation, WAG may be positioned to attract farm-in interest or pursue capital raising to accelerate exploration — watch for any commentary on planned drill hole count and timing."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AUQ",
+      "company": "ALARA RESOURCES LIMITED",
+      "headline": "Entitlement Offer to Raise Up To $3.84 Million",
+      "time": "2026-07-07T23:18:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108949-6A1332973",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Alara Resources is raising up to $3.84M via an entitlement offer, a relatively modest capital raise that signals the company requires near-term funding to sustain operations or advance project development — likely at its Khnaiguiyah zinc-copper project in Saudi Arabia, raising questions about existing cash runway adequacy.",
+        "The dilutive nature of an entitlement offer, while providing existing shareholders the right to maintain their proportional ownership, typically pressures the share price in the near term as the market discounts the new shares and assesses take-up risk — particularly concerning for a small-cap resource company where undersubscription could leave a shortfall.",
+        "Investors should scrutinise the offer price relative to the prevailing market price (discount depth), the intended use of proceeds, and whether a shortfall facility or underwriter is in place — these details will determine whether this raise stabilises the balance sheet sufficiently or merely delays a further capital event."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "EMH",
+      "company": "EUROPEAN METALS HOLDINGS LIMITED",
+      "headline": "Tunnel Kiln Testwork Points to Potential U$112m Capex Saving",
+      "time": "2026-07-07T23:17:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108944-6A1332989",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tunnel kiln testwork indicates a potential US$112M capital expenditure reduction — a transformational outcome for project economics that could materially improve the NPV and IRR of the Cinovec lithium-tin project, making it significantly more attractive to project financiers and strategic partners.",
+        "A capex saving of this magnitude (~US$112M) on what is already one of Europe's largest hard-rock lithium deposits could shift the project from marginal to bankable under current lithium price assumptions, directly addressing a key investor concern around the heavy upfront capital burden that has historically weighed on the stock.",
+        "Next steps will be critical: independent validation of the tunnel kiln process, integration into an updated Definitive Feasibility Study (DFS), and re-engagement with strategic partner CEZ Group will determine whether this testwork translates into a revised project timeline and accelerated development pathway toward production."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LRV",
+      "company": "LARVOTTO RESOURCES LIMITED",
+      "headline": "Competing Proposal Response",
+      "time": "2026-07-07T23:16:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108943-6A1332981",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Larvotto Resources has received a competing proposal, signalling that the company's asset base — likely its Hillgrove gold-antimony project — has attracted rival bidder interest, which typically creates a bidding war dynamic and floor-price support for the stock.",
+        "The existence of a competing proposal implies the incumbent suitor (likely the previously announced scheme or takeover bid) may need to revise its offer terms upward to remain competitive, directly benefiting target shareholders through potential value uplift.",
+        "Near-term focus shifts to the Board's fiduciary assessment of the competing proposal's superiority under scheme/takeover rules; investors should watch for a 'superior proposal' determination, any matching-right exercise by the original bidder, and revised offer pricing as key catalysts."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CAF",
+      "company": "CENTREPOINT ALLIANCE LIMITED",
+      "headline": "Change in substantial holding - Sage",
+      "time": "2026-07-07T23:15:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108942-2A1683363",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Sage has filed a change in substantial holding notice for Centrepoint Alliance (CAF), signalling a meaningful shift in its ownership position — either an accumulation or reduction above/below the 5% substantial holder threshold, which warrants close monitoring of intent.",
+        "Movements in substantial holdings for a mid-tier financial services firm like CAF can indicate strategic positioning by an institutional player, potentially foreshadowing a takeover approach, block trade, or portfolio rebalancing with implications for liquidity and free float.",
+        "Investors should track subsequent 604 filings and any associated Form 603/605 notices to determine the direction of Sage's stake change — an increasing position could compress available stock and support the share price, while a reduction may signal waning conviction in CAF's near-term outlook."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "WHK",
       "company": "WHITEHAWK LIMITED",
