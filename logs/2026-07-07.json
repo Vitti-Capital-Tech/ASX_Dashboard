@@ -1,9 +1,123 @@
 {
   "date": "2026-07-07",
-  "total": 79,
-  "market_sensitive_count": 69,
-  "generated_at": "2026-07-06T23:52:27.133225+00:00",
+  "total": 85,
+  "market_sensitive_count": 75,
+  "generated_at": "2026-07-07T00:19:13.573810+00:00",
   "announcements": [
+    {
+      "ticker": "SMI",
+      "company": "SANTANA MINERALS LIMITED",
+      "headline": "High-grade gold drill results support early-stage mine plan",
+      "time": "2026-07-07T00:04:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108546-6A1332795",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-grade drill results directly underpin the early-stage mine plan, de-risking the resource base and strengthening the geological confidence required for a maiden feasibility study — a critical value inflection point for institutional investors assessing project advancement.",
+        "Market-sensitive classification signals material grade or intercept data likely exceeding market expectations; high-grade continuity at depth or along strike would meaningfully upgrade the resource inventory and potentially improve project economics (strip ratio, head grade, mill throughput assumptions).",
+        "Positive drill results accelerate the pathway toward a Mineral Resource Estimate update and subsequent Pre-Feasibility Study, with near-term catalysts including further assay results, resource revision, and potential offtake or JV interest from larger gold producers seeking development-stage assets in a strong gold price environment."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AUQ",
+      "company": "ALARA RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-07T00:04:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108545-6A1332794",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Alara Resources (AUQ) has entered a trading halt pending a material announcement, suspending price discovery and liquidity for institutional participants — the market-sensitive classification signals a potentially significant corporate event is imminent.",
+        "Trading halts on small-cap ASX miners like Alara — which holds the Khnaiguiyah zinc-copper project in Saudi Arabia — are most commonly associated with capital raises, M&A activity, or major project developments; given Alara's historically thin cash position, a funding or partnership announcement is the highest-probability catalyst.",
+        "Investors should monitor the forthcoming announcement closely for deal terms, any associated dilution risk, or strategic partnership details with Saudi stakeholders, as any capital raise at a discount or transformative asset deal could materially reprice the stock in either direction upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BCM",
+      "company": "BRAZILIAN CRITICAL MINERALS LIMITED",
+      "headline": "$10 Million Institutional Placement To Advance Ema Project",
+      "time": "2026-07-07T00:03:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108541-6A1332792",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "BCM has secured a $10M institutional placement to advance its EMA rare earth project in Brazil, providing meaningful near-term cash runway for exploration and development activities at a time when critical minerals demand remains structurally elevated — the institutional backing signals credible investor conviction in the asset.",
+        "The placement size of $10M is material for a junior explorer and likely implies significant dilution to existing shareholders; investors should scrutinise the issue price relative to last traded price and the number of new shares issued to assess the dilution impact on NAV per share.",
+        "Proceeds are earmarked specifically for the EMA Project, suggesting the company is moving toward a defined development milestone — likely a resource upgrade, feasibility study, or drilling program — which will be the key catalyst to watch for re-rating potential in the near term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUQ",
+      "company": "ALARA RESOURCES LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-07-06T23:58:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108536-6A1332791",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alara Resources has requested a trading halt, suspending price discovery and liquidity for investors — the pause itself signals a material corporate event is imminent, most likely a capital raise, M&A transaction, or significant operational update requiring managed disclosure.",
+        "The 'Market Sensitive' classification elevates the urgency; ASX Listing Rules permit trading halts for a maximum of two trading days, meaning a substantive announcement is expected imminently — investors should monitor closely for deal terms, pricing, or asset-level developments that could materially reprice the stock.",
+        "For a small-cap resources company like Alara (focused on copper-gold assets in Oman), trading halts historically precede either equity raisings — which carry dilution risk — or strategic partnership/offtake announcements; the binary outcome warrants a cautious hold stance until the underlying catalyst is disclosed."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMR",
+      "company": "BALLYMORE RESOURCES LIMITED",
+      "headline": "Deep MT survey targeting Dittmer porphyry copper-gold system",
+      "time": "2026-07-06T23:55:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108533-2A1683035",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ballymore is deploying a deep Magnetotelluric (MT) geophysical survey over the Dittmer prospect, a technique capable of imaging conductive porphyry systems to depths exceeding 1–2km — significantly de-risking drill targeting before committing capital to expensive deep drilling programs.",
+        "The market-sensitive classification signals management believes MT results could materially re-rate the project; porphyry copper-gold systems are among the most sought-after deposit styles globally given scale potential, making a positive structural interpretation a potential catalyst for re-rating in a tight junior explorer market.",
+        "Next key inflection point is MT data acquisition and interpretation results — if the survey confirms a coherent conductive anomaly consistent with a porphyry root zone, the company is likely to fast-track a maiden drill program, which would represent the primary near-term share price catalyst to watch."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IMU",
+      "company": "IMUGENE LIMITED",
+      "headline": "$11.1 Million Placement Completed to Advance azer-cel",
+      "time": "2026-07-06T23:49:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108527-3A696741",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Imugene has raised $11.1M via placement to advance azer-cel, its allogeneic CAR-T cell therapy — a critical funding injection for a pre-revenue biotech that has been burning cash at approximately $25-30M annually, extending runway but likely only by 4-6 months without further capital events.",
+        "The placement signals continued institutional appetite for azer-cel's clinical narrative, though dilution is the immediate consequence — existing shareholders face equity erosion, and the raise size suggests this is a bridge rather than a transformational funding round, keeping the company in a perpetual capital-raise cycle typical of clinical-stage biotechs.",
+        "Near-term focus will shift to azer-cel clinical milestones — likely Phase 1/2 data readouts or patient enrolment updates — that must now justify the dilution; failure to deliver meaningful efficacy signals in the next 12 months would significantly pressure the stock and complicate future raises in an increasingly selective biotech funding environment."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "EXT",
       "company": "EXCITE TECHNOLOGY SERVICES LTD",
