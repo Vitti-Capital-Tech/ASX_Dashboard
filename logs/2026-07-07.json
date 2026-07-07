@@ -1,9 +1,106 @@
 {
   "date": "2026-07-07",
-  "total": 89,
-  "market_sensitive_count": 78,
-  "generated_at": "2026-07-07T01:36:08.735570+00:00",
+  "total": 94,
+  "market_sensitive_count": 82,
+  "generated_at": "2026-07-07T03:07:04.567597+00:00",
   "announcements": [
+    {
+      "ticker": "MA1",
+      "company": "MA CREDIT INCOME TRUST",
+      "headline": "MA1 June 2026 Distribution Announcement",
+      "time": "2026-07-07T02:57:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108620-2A1683072",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MA1 has declared its June 2026 distribution, confirming continued income delivery to unitholders — critical for yield-focused investors who rely on the trust's regular cash flow cadence as a core investment thesis.",
+        "The market-sensitive classification signals the distribution rate or quantum may carry material information relative to prior periods or market expectations, warranting close scrutiny of the annualised yield against the trust's stated income targets and prevailing credit market benchmarks.",
+        "Consistency of distributions in the current high-rate environment reinforces MA1's positioning as a defensive credit income vehicle; however, investors should monitor underlying loan book quality and any changes to distribution coverage ratios as rate cycles begin to turn."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKT",
+      "company": "SKY NETWORK TELEVISION LIMITED.",
+      "headline": "Sky secures NRL rights in exclusive seven-year partnership",
+      "time": "2026-07-07T02:32:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108616-2A1683069",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sky Network has secured exclusive NRL broadcast rights in New Zealand for seven years, a landmark content deal that materially strengthens its competitive moat against streaming rivals and reduces subscriber churn risk — live sport remains the most defensible content category in pay-TV economics.",
+        "The exclusivity and duration of the deal (seven years) signals a significant long-term financial commitment, likely running into hundreds of millions of NZD; while cost pressure is real, the revenue visibility from subscriber retention and potential acquisition uplift tied to premium rugby league content should support ARPU and platform stickiness.",
+        "This deal positions Sky NZ as the definitive destination for NRL in New Zealand ahead of the next rights cycle, creating a strategic barrier to entry for DAZN, Amazon, or domestic free-to-air competitors — management will need to demonstrate disciplined capital allocation to ensure the rights cost is accretive to margins rather than a defensive spend that erodes free cash flow."
+      ],
+      "tags": [
+        "Other",
+        "Technology",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NEC",
+      "company": "NINE ENTERTAINMENT CO. HOLDINGS LIMITED",
+      "headline": "Nine secures NRL & NRLW broadcast rights through to 2034",
+      "time": "2026-07-07T02:18:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108603-2A1683061",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nine Entertainment has locked in NRL and NRLW broadcast rights through to 2034, securing a marquee live sports content pillar that anchors free-to-air and streaming audiences on 9Network and Stan Sport — critical for advertiser yield and subscriber retention in an increasingly fragmented media landscape.",
+        "The extended rights deal materially de-risks Nine's content pipeline for a decade, providing advertisers with long-term premium inventory certainty; NRL consistently ranks among Australia's highest-rating broadcast events, directly supporting Nine's ~$1.5B+ television advertising revenue base and Stan Sport's subscriber growth trajectory.",
+        "With the deal extending well beyond the current rights cycle, management's next key disclosure will be the financial terms — cost escalation versus prior deal will be the critical variable, as rights inflation globally has compressed broadcaster margins; investors should watch for any capital allocation or balance sheet commentary accompanying the full terms."
+      ],
+      "tags": [
+        "Other",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HCH",
+      "company": "HOT CHILI LIMITED",
+      "headline": "Hot Chili Corporate Presentation Rule Symposium UPDATED",
+      "time": "2026-07-07T02:13:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108602-6A1332825",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hot Chili is actively marketing its Costa Fuego copper-gold project to institutional audiences via the Rule Symposium, signalling management is in active capital-raising or strategic partnership mode — critical given the project's multi-billion-dollar development capex requirement.",
+        "The 'UPDATED' designation on a market-sensitive corporate presentation suggests material changes to key project metrics, resource estimates, or financing strategy have been incorporated, warranting close scrutiny of any revised NPV, capex, or resource figures versus prior disclosures.",
+        "With copper demand narratives strengthening on energy transition themes, an updated investor presentation at a high-profile symposium positions Hot Chili to attract fresh institutional interest or advance offtake/JV discussions — the next catalyst to watch is any formal partnership or funding announcement that may follow."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BOE",
+      "company": "BOSS ENERGY LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-07T02:05:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108600-6A1332824",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in BOE's institutional ownership structure, with a holder crossing or moving through the 5% threshold — warranting close attention to whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase vs. decrease) is critical context: net selling by a substantial holder in a uranium developer like Boss Energy — currently ramping production at Honeymoon — could indicate profit-taking or loss of conviction in the near-term uranium price thesis.",
+        "Investors should monitor subsequent substantial holding notices over the coming weeks to determine if this is an isolated rebalancing or the beginning of a broader institutional exit/entry trend, particularly given elevated uranium spot price sensitivity and BOE's stage-gate production milestones."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BVR",
       "company": "BELLAVISTA RESOURCES LTD",
