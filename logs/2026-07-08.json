@@ -1,9 +1,413 @@
 {
   "date": "2026-07-08",
-  "total": 16,
-  "market_sensitive_count": 12,
-  "generated_at": "2026-07-07T22:27:31.061566+00:00",
+  "total": 37,
+  "market_sensitive_count": 30,
+  "generated_at": "2026-07-07T22:51:45.983923+00:00",
   "announcements": [
+    {
+      "ticker": "AQD",
+      "company": "AUSQUEST LIMITED",
+      "headline": "Copper confirmed at Playa Kali",
+      "time": "2026-07-07T22:47:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108915-6A1332970",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Copper mineralisation confirmed at Playa Kali represents a critical de-risking milestone for AusQuest, validating the exploration thesis and potentially re-rating the asset from speculative to drill-ready status — a key inflection point for junior explorers.",
+        "The market-sensitive classification signals management believes the confirmation is material to valuation; investors will scrutinise assay grades, intercept widths, and strike extent to assess whether this is a bulk-tonnage or high-grade discovery scenario, both of which carry distinct development economics.",
+        "Near-term catalysts to watch include follow-up drilling programs, resource estimation timelines, and any potential JV or farm-in interest from major copper producers — copper's structural demand outlook from energy transition themes amplifies the strategic significance of any new discovery in this commodity."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NXM",
+      "company": "NEXUS MINERALS LIMITED",
+      "headline": "Nexus Move to 100% Ownership of the Pinnacles Gold Project",
+      "time": "2026-07-07T22:44:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108909-6A1332968",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nexus Minerals is acquiring 100% ownership of the Pinnacles Gold Project, eliminating joint venture complexity and consolidating full economic exposure to what is a strategically significant gold asset in Western Australia — a structurally positive move that simplifies the corporate story for institutional investors.",
+        "Full ownership removes any future dilution of project economics from a JV partner, meaning Nexus captures 100% of resource upside, future production cash flows, and any M&A optionality — critical as gold prices remain elevated near all-time highs, materially enhancing the project's NPV contribution to Nexus's balance sheet.",
+        "The key near-term catalyst to watch is the consideration structure (cash, scrip, or deferred payments) disclosed in the full announcement — if funded via equity, dilution risk could temper the bullish read; if via cash or deferred royalty, the deal is cleanly accretive and positions Pinnacles as a standalone development asset ripe for resource expansion drilling or a trade sale to a mid-tier gold producer."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "C29",
+      "company": "C29 METALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-07T22:43:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108907-6A1332969",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of C29 Metals, indicating a holder has crossed (or moved through) the 5% threshold — warranting close monitoring of whether this represents accumulation or distribution by a sophisticated investor.",
+        "The identity and direction of the change (increasing vs. decreasing) is critical: if a fund or strategic investor is building a position, it could signal growing conviction in C29's copper/base metals exploration thesis; a reduction would flag potential near-term selling pressure on what is a thinly traded small-cap.",
+        "Investors should track subsequent Form 604/603 filings to determine if this is part of a broader accumulation pattern or a one-off rebalancing — in illiquid micro-cap explorers like C29, substantial holder movements can materially influence price discovery and liquidity dynamics."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ITM",
+      "company": "ITECH MINERALS LTD",
+      "headline": "Exceptional Gold-Antimony Results in Solis at Reynolds Range",
+      "time": "2026-07-07T22:41:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108905-2A1683352",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "The 'exceptional' gold-antimony intercepts at the Solis prospect within Reynolds Range represent a potentially significant discovery, with antimony's strategic critical mineral status adding a dual-commodity value proposition that could attract premium investor and offtake interest beyond pure gold plays.",
+        "Market-sensitive classification signals material drill results likely exceeding prior benchmarks — institutional investors should watch for headline grades and widths that could re-rate the resource base and trigger peer comparison against analogous gold-antimony systems such as Costerfield (Mandalay Resources).",
+        "Near-term catalysts include follow-up drilling to test strike and depth extensions of the Solis mineralisation, with a maiden resource estimate or scoping study the logical next milestone that would crystallise value and potentially attract M&A interest given antimony's inclusion on Australia's critical minerals list."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "Plant Production Timeline Pathway and Los Lirios Results",
+      "time": "2026-07-07T22:38:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108901-6A1332965",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "EV Resources has outlined a concrete production timeline pathway for its processing plant, a critical de-risking milestone that transitions the company from exploration-stage to near-term producer status — directly addressing the key valuation discount applied by the market.",
+        "Los Lirios drilling/sampling results provide additional resource confidence, with positive assays likely underpinning resource estimate upgrades and strengthening the economic case for plant commissioning — the 'so what' being improved project NPV and reduced technical risk for institutional due diligence.",
+        "The convergence of a defined plant production timeline with fresh resource results signals management is accelerating toward a feasibility/production decision; near-term catalysts to watch include plant commissioning dates, capital cost estimates, and any offtake or funding announcements that would validate the pathway."
+      ],
+      "tags": [
+        "Mining",
+        "Production",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FGX",
+      "company": "FUTURE GENERATION AUSTRALIA LIMITED",
+      "headline": "Strong total shareholder return and increased FF interim div",
+      "time": "2026-07-07T22:38:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108900-2A1683350",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FGX delivered strong total shareholder return (TSR) in the period, signalling outperformance relative to benchmark — a key metric for LIC investors evaluating whether the discount-to-NTA is likely to compress or widen near-term.",
+        "The increased fully franked interim dividend is a direct income catalyst, enhancing after-tax yield for domestic investors and reinforcing the board's confidence in distributable reserves — franking credits add meaningful value for Australian retail and SMSF holders.",
+        "As a Listed Investment Company with a philanthropic mandate (donating manager fees to youth mental health charities), sustained TSR and dividend growth strengthens FGX's dual value proposition, likely supporting share price re-rating and reducing the NTA discount over the medium term."
+      ],
+      "tags": [
+        "Results",
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SVM",
+      "company": "SOVEREIGN METALS LIMITED",
+      "headline": "SVM Advances U.S. Strategy as Rio Collaboration Concludes",
+      "time": "2026-07-07T22:37:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108897-6A1332964",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The conclusion of the Rio Tinto collaboration marks a critical strategic inflection point — while framed as an advance, investors should scrutinise whether this signals a breakdown in the partnership or a planned transition, as Rio's involvement was a key de-risking catalyst for SVM's Kasiya rutile-graphite project in Malawi.",
+        "Pivoting to a U.S. strategy likely targets critical minerals designation and potential offtake or funding pathways under the U.S. Defense Production Act or IRA-aligned supply chain initiatives — this could unlock non-dilutive capital or strategic partnerships, but execution timelines remain uncertain and near-term newsflow may be thin.",
+        "With no replacement strategic partner yet announced and Rio's technical/financial halo effect removed, SVM faces heightened pressure to demonstrate independent project advancement; the next 90 days of partner announcements or U.S. government engagement updates will be pivotal for re-rating the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Close of the IFM Takeover Offer",
+      "time": "2026-07-07T22:35:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108894-2A1683349",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "IFM Investors' takeover offer for Atlas Arteria (ALX) has formally closed, marking a critical inflection point — the outcome of acceptances will determine whether IFM crosses the compulsory acquisition threshold (~90% ownership), which would force out remaining minority holders at the offer price and delist ALX from the ASX.",
+        "The offer price represents a defined exit valuation for shareholders; any shortfall below the compulsory acquisition threshold leaves a rump of minority holders in an illiquid, potentially IFM-controlled entity — a materially worse outcome for those who did not tender, increasing the risk of a discount to NTA in any residual market.",
+        "Next steps hinge on IFM's disclosed acceptance level: if compulsory acquisition is triggered, ALX faces delisting within weeks; if not, IFM must decide whether to extend, revise terms, or operate as a dominant but non-controlling shareholder — each scenario carrying distinct implications for remaining investors' liquidity and governance rights."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KNI",
+      "company": "KUNIKO LIMITED",
+      "headline": "Drilling to Commence at Commonwealth Gold Silver Project",
+      "time": "2026-07-07T22:33:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108892-6A1332959",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kuniko is mobilising drill rigs at its Commonwealth Gold-Silver Project, marking a critical de-risking catalyst — first-pass drilling results will be the primary near-term valuation driver and could materially re-rate the stock if intersections confirm historical surface anomalies.",
+        "The market-sensitive classification signals management expects drilling results to be price-moving; investors should note that junior explorers at this stage typically see elevated volatility around assay releases, with binary outcomes depending on grade and width of mineralisation.",
+        "Upcoming drill results represent the key near-term newsflow trigger — a successful campaign could underpin a capital raise at a premium to fund follow-up drilling, while disappointing results risk a reversion toward cash backing; position sizing should reflect this asymmetric risk profile."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MM8",
+      "company": "MEDALLION METALS LIMITED.",
+      "headline": "Second High-Grade Gold Opportunity Emerging at Forrestania",
+      "time": "2026-07-07T22:31:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108888-6A1332956",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Medallion Metals has identified a second high-grade gold target at Forrestania, materially expanding the project's resource potential beyond the primary Kundip deposit and signalling the district may host a broader mineralised system — a key re-rating catalyst for a junior explorer.",
+        "The market-sensitive classification underscores management's view that this discovery is material to valuation; for institutional investors, a second high-grade lode at an existing project significantly improves the economics of shared infrastructure and reduces per-ounce development costs if both targets advance in parallel.",
+        "Near-term focus will shift to follow-up drilling to define grade continuity and tonnage at the new target — drill results over the coming weeks/months will be the critical value inflection point, with positive assays likely to drive upward resource estimate revisions and renewed market interest in the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DES",
+      "company": "DESOTO RESOURCES LIMITED",
+      "headline": "DeSoto-Fortuna Guinea Alliance Secures First Ground Package",
+      "time": "2026-07-07T22:26:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108886-6A1332949",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DeSoto Resources has secured its first ground package in Guinea through the Fortuna Guinea Alliance, marking a critical first-mover entry into West Africa's highly prospective mineral corridor — a region attracting significant junior and major explorer capital amid rising gold and critical mineral demand.",
+        "The market-sensitive classification signals material new asset exposure for DeSoto, a small-cap explorer where a new ground package can represent a step-change in the company's resource optionality and addressable exploration pipeline — investors should watch for tenure size, target commodities, and proximity to known deposits in upcoming disclosures.",
+        "Near-term catalysts will hinge on the speed of regulatory approvals, initial field reconnaissance, and whether DeSoto can leverage the Fortuna alliance structure to reduce upfront exploration costs — execution risk in Guinea remains elevated given political and sovereign risk considerations that institutional investors will need to price carefully."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CGS",
+      "company": "COGSTATE LTD",
+      "headline": "Cogstate 4Q26 and FY26 Business Update",
+      "time": "2026-07-07T22:25:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108884-3A696806",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals a material earnings or revenue development — likely a significant beat or miss versus prior guidance, making this a pivotal update for institutional positioning ahead of FY26 close.",
+        "Q4 and full-year business update will crystallise Cogstate's clinical trial services revenue trajectory and contract backlog visibility, key metrics given the company's dependence on Alzheimer's and CNS drug trial activity from major pharma clients.",
+        "Investors should focus on any revision to FY27 guidance or commentary on pipeline conversion rates, as Cogstate's valuation is highly sensitive to trial commencement timing and the broader pace of Alzheimer's drug development activity globally."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FGX",
+      "company": "FUTURE GENERATION AUSTRALIA LIMITED",
+      "headline": "Dividend/Distribution - FGX",
+      "time": "2026-07-07T22:25:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108882-2A1683342",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "FGX has declared a dividend/distribution, signalling continued capital return to shareholders — a key differentiator for this listed investment company (LIC) that also supports its charitable giving model, where fund managers donate their fees to children-at-risk charities.",
+        "The market-sensitive classification suggests the quantum or timing of the distribution may deviate from prior periods or market expectations, warranting close attention to the dividend rate relative to FGX's NTA and historical payout levels to assess yield sustainability.",
+        "Income-focused and ESG-aligned investors should monitor the ex-dividend date and franking credit attachment, as FGX's fully or partially franked distributions have historically enhanced after-tax yield appeal — any reduction in franking could temper demand from retail and SMSF holders who form a core part of the register."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OD6",
+      "company": "OD6 METALS LIMITED",
+      "headline": "SPECTACULAR GRADE & WIDTHS CONTINUES AT HORSESHOE",
+      "time": "2026-07-07T22:25:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108881-6A1332950",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Continued high-grade, wide intercepts at Horseshoe reinforce deposit scale potential, a critical de-risking milestone for a junior explorer — sustained grade consistency across multiple drill holes materially reduces geological risk and supports resource upgrade scenarios.",
+        "The 'spectacular' descriptor in a market-sensitive release signals results likely exceed prior intercepts in grade and/or width, which typically drives meaningful re-rating for small-cap explorers where each drill result can shift the resource envelope and peer-comparable valuation multiples significantly.",
+        "Near-term catalysts to watch include a maiden or updated JORC resource estimate and potential capital raise to fund extensional drilling — investors should monitor whether the company has sufficient cash runway to advance Horseshoe to a resource definition stage without near-term dilutive equity issuance."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CAF",
+      "company": "CENTREPOINT ALLIANCE LIMITED",
+      "headline": "Change in substantial holding from WAG",
+      "time": "2026-07-07T22:25:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108878-2A1683346",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "WAG (Washington H. Soul Pattinson or associated entity) has altered its substantial holding position in Centrepoint Alliance (CAF), signalling a meaningful shift in the register that warrants close monitoring — either an accumulation or partial exit by a sophisticated institutional holder can foreshadow strategic intent.",
+        "Changes in substantial holding thresholds (crossing or moving through 5%, 10%, 15% etc.) can materially affect the free float and liquidity dynamics of a relatively small-cap financial services stock like CAF, potentially amplifying price volatility on either side of the move.",
+        "Investors should review the full Form 604 filing to determine the direction and magnitude of the change — if WAG is reducing exposure, it may signal reduced conviction in CAF's near-term earnings trajectory within the financial advice and licensee services sector; accumulation would suggest the opposite and could attract copycat institutional interest."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TIO",
+      "company": "TEMAS RESOURCES CORP.",
+      "headline": "Temas's RCL Patent Portfolio Expands into Vanadium",
+      "time": "2026-07-07T22:24:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108874-6A1332945",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Temas has extended its Rare Critical Lithium (RCL) patent portfolio into vanadium extraction, a strategically significant move given vanadium's growing role in grid-scale energy storage (vanadium redox flow batteries), potentially broadening the company's total addressable market well beyond lithium-focused applications.",
+        "The patent expansion signals proprietary process technology differentiation — if the RCL method can be commercially validated for vanadium recovery, it could position Temas as a multi-critical-mineral IP licensor, a higher-margin business model than pure-play mining that may attract strategic partnership or licensing revenue interest from battery and energy storage players.",
+        "Near-term catalysts to watch include any disclosure of vanadium resource targets, pilot-scale test results, or licensing discussions; without these, the announcement remains an IP optionality play — investors should monitor whether the company has sufficient cash runway to advance vanadium R&D alongside its existing lithium-focused programs."
+      ],
+      "tags": [
+        "Mining",
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BRK",
+      "company": "BROOKSIDE ENERGY LIMITED",
+      "headline": "Brookside Commences Drilling Operations at Suttles Pad",
+      "time": "2026-07-07T22:24:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108873-6A1332944",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Spud confirmation at Suttles Pad marks a critical operational milestone, transitioning Brookside from planning to active value creation in the SCOOP/STACK play — a catalyst that typically compresses risk premium in small-cap E&P stocks and supports near-term re-rating.",
+        "The commencement of drilling operations signals capital is deployed and on schedule, reducing execution risk concerns that often weigh on pre-production juniors; investors will now focus on drilling days, target depth, and any early formation data as leading indicators of well quality.",
+        "Next key catalysts include completion operations, initial flow-rate data, and potential reserve/resource upgrades — with successful results at Suttles likely to underpin further pad development and strengthen Brookside's case for sustained production growth in its Oklahoma acreage."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALK",
+      "company": "ALKANE RESOURCES LIMITED",
+      "headline": "Production in Top Half of FY2026 Guidance",
+      "time": "2026-07-07T22:24:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108871-6A1332947",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alkane Resources is tracking in the top half of FY2026 production guidance, signalling operational outperformance at Tomingley Gold Operations and reducing the risk of a year-end guidance miss — a key de-risking catalyst for the stock.",
+        "Top-half guidance delivery typically implies stronger-than-modelled gold ounces produced, which directly supports higher free cash flow generation and improved unit cost metrics (AISC dilution), critical for margin expansion in the current elevated gold price environment above A$5,000/oz.",
+        "With production momentum confirmed mid-year, the market will now focus on whether Alkane upgrades full-year guidance outright or preserves upside optionality into H2 FY2026 — any formal upgrade would be a material re-rating trigger given the leverage to spot gold prices."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Change in substantial holding - IFM",
+      "time": "2026-07-07T22:24:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108870-2A1683337",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "IFM Investors has filed a change in substantial holding notice for Atlas Arteria (ALX), signalling a shift in one of the company's most strategically significant shareholder positions — IFM has historically held a major stake (~25%) and any movement warrants close monitoring for directional intent.",
+        "Changes in IFM's holding level carry outsized significance given IFM's long-standing influence over ALX's strategic direction, including past involvement in takeover discussions; even a marginal reduction or increase could signal evolving conviction on toll road asset valuations amid the current interest rate environment.",
+        "Institutional investors should watch for follow-on disclosures to determine whether this represents passive portfolio rebalancing or a more deliberate repositioning — any sustained reduction by IFM could remove a key support pillar for the stock and invite renewed speculation around ALX's ownership structure and M&A optionality."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RMD",
+      "company": "RESMED INC",
+      "headline": "Resmed Announces Agreement to Sell MatrixCare Business",
+      "time": "2026-07-07T22:24:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108869-2A1683336",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic portfolio simplification: ResMed is divesting MatrixCare, its long-term care software business acquired for ~US$750M in 2018, signalling a decisive pivot back to its core sleep and respiratory device franchise where margins and growth are structurally superior.",
+        "Capital reallocation catalyst: Proceeds from the sale — terms undisclosed but the asset could fetch a meaningful multiple given SaaS healthcare valuations — are expected to be deployed toward debt reduction, share buybacks, or accelerating R&D in connected device and AI-driven care management, all of which are higher-return uses of capital.",
+        "Near-term earnings impact warrants scrutiny: MatrixCare contributed to ResMed's SaaS revenue segment (~US$200M+ annually); investors should monitor whether the divestiture is EPS-accretive on a net basis and watch for updated FY25 guidance that strips out the divested revenue, which could reset consensus estimates."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RMS",
+      "company": "RAMELIUS RESOURCES LIMITED",
+      "headline": "2026 June Quarter Update",
+      "time": "2026-07-07T22:24:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108867_PS-6A1332943",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "June quarter update signals a forward-looking operational and financial snapshot ahead of FY26 close — market sensitivity flag suggests material production, cost, or guidance metrics that could meaningfully re-rate consensus estimates for Ramelius's gold output and AISC trajectory.",
+        "As a mid-tier ASX gold producer with ~300koz annual production guidance, any deviation in quarterly ounces delivered or all-in sustaining costs from the ~A$1,800–1,900/oz range will be closely scrutinised against the backdrop of elevated spot gold prices (~A$4,900+/oz), amplifying free cash flow sensitivity and balance sheet implications.",
+        "Investors should watch for updates on the Rebecca-Roe development pipeline, Mt Magnet and Edna May operational performance, and any revision to FY26 full-year guidance — these will be the key catalysts determining whether Ramelius can sustain its re-rating momentum and capital return capacity heading into FY27 planning."
+      ],
+      "tags": [
+        "Quarterly",
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "PDI",
       "company": "PREDICTIVE DISCOVERY LIMITED",
