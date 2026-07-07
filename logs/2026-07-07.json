@@ -1,9 +1,48 @@
 {
   "date": "2026-07-07",
-  "total": 87,
-  "market_sensitive_count": 77,
-  "generated_at": "2026-07-07T00:38:56.283820+00:00",
+  "total": 89,
+  "market_sensitive_count": 78,
+  "generated_at": "2026-07-07T01:36:08.735570+00:00",
   "announcements": [
+    {
+      "ticker": "BVR",
+      "company": "BELLAVISTA RESOURCES LTD",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-07-07T01:24:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108590-6A1332819",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has fallen below the 5% ownership threshold in Bellavista Resources Ltd, signalling a meaningful reduction in concentrated institutional or strategic ownership — this could reflect profit-taking, portfolio rebalancing, or a loss of conviction in the company's near-term prospects.",
+        "The exit of a substantial holder increases the free float, which can introduce short-term selling pressure as the market absorbs the displaced stock; for a small-cap ASX resources company, this volume impact can be disproportionately large relative to average daily turnover.",
+        "Investors should monitor whether this departure is isolated or part of a broader trend of institutional disengagement — subsequent substantial holder notices or a lack of replacement strategic investors would reinforce a cautious near-term outlook for the stock."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ID8",
+      "company": "IDENTITII LIMITED",
+      "headline": "$20 million Convertible Note Facility Signed",
+      "time": "2026-07-07T01:16:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03108584-2A1683056",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Identitii has secured a $20M convertible note facility, providing meaningful liquidity headroom for a company that has historically operated with limited cash reserves — this materially extends runway and reduces near-term equity dilution risk compared to a traditional placement.",
+        "Convertible note structures carry embedded dilution risk at conversion; institutional investors should scrutinise the conversion price, discount to market, interest rate, and maturity terms to assess the true cost of capital and potential downward pressure on the share price at conversion events.",
+        "The facility signals a strategic pivot toward growth-phase funding — likely to accelerate product commercialisation or business development in Identitii's financial crime compliance and payment transparency technology stack — but execution on revenue conversion remains the critical catalyst to watch."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "LEG",
       "company": "LEGEND MINING LIMITED",
