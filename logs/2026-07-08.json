@@ -1,9 +1,125 @@
 {
   "date": "2026-07-08",
-  "total": 85,
-  "market_sensitive_count": 76,
-  "generated_at": "2026-07-08T01:35:25.620051+00:00",
+  "total": 91,
+  "market_sensitive_count": 81,
+  "generated_at": "2026-07-08T03:05:03.149256+00:00",
   "announcements": [
+    {
+      "ticker": "C29",
+      "company": "C29 METALS LIMITED",
+      "headline": "Resignation of Managing Director Shannon Green",
+      "time": "2026-07-08T03:00:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109085-6A1333035",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "Leadership vacuum at a critical juncture: Shannon Green's resignation as Managing Director removes the key executive driving C29 Metals' exploration strategy, creating immediate uncertainty around project continuity and institutional confidence in a junior explorer where founder/MD departures often signal deeper operational or strategic tensions.",
+        "Market-sensitive classification amplifies downside risk: the ASX's designation of this announcement as market sensitive signals the exchange views this as material to valuation — for a small-cap miner like C29, MD departures can trigger re-rating as the market discounts execution risk and potential strategic pivot or asset review.",
+        "Succession clarity will be the critical near-term catalyst: investors should monitor whether an interim or permanent replacement is named promptly, whether Green retains any advisory role or shareholding, and if any board statement accompanies the resignation outlining strategic continuity — absence of these signals would likely accelerate selling pressure."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PGD",
+      "company": "PEREGRINE GOLD LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-07-08T02:46:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109083-6A1333034",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Peregrine Gold has entered a trading halt, suspending price discovery and liquidity for investors — the market-sensitive classification signals a material corporate event is imminent, likely a capital raise, M&A activity, or significant operational update.",
+        "Trading halts on small-cap ASX gold explorers are most commonly precursors to equity raisings (placements or rights issues), which historically carry dilution risk; however, they can also precede high-impact drill results or asset transactions that may be value-accretive.",
+        "Investors should monitor the resumption announcement closely — the nature of the pending disclosure will be the critical determinant of directional bias, and positioning ahead of the halt lift carries binary risk given the absence of detail at this stage."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VMC",
+      "company": "VENUS METALS CORPORATION LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-08T02:37:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109081-6A1333033",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Venus Metals Corporation (VMC), indicating a holder has crossed or moved through the 5% threshold — warranting close monitoring of whether this reflects accumulation or distribution pressure on a thinly traded junior explorer.",
+        "The non-market-sensitive classification suggests the movement is likely administrative or incremental rather than a strategic block trade, but register changes in small-cap miners can still foreshadow activist positioning, cornerstone investment ahead of a capital raise, or orderly exit by an existing major holder.",
+        "Investors should track subsequent substantial holder notices and any associated on-market activity to determine directional intent — particularly given VMC's ongoing exploration programs at Youanmi and Currans Find in Western Australia, where a supportive or departing cornerstone holder could materially influence future funding capacity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DHO",
+      "company": "DAINTREE HYBRID OPPORTUNITIES ACTIVE ETF",
+      "headline": "EOFY Distribution & Final Redemption Payment",
+      "time": "2026-07-08T02:26:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109076-2A1683425",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The combination of an EOFY distribution and a final redemption payment signals the fund is in wind-down or closure phase — unitholders should note this represents a return of capital and income, effectively marking the end of the fund's operational lifecycle on the ASX.",
+        "The 'final redemption payment' designation is critical: it indicates all remaining net assets are being distributed to unitholders, meaning no residual exposure to the fund's hybrid securities portfolio will remain post-payment — investors must redeploy capital elsewhere.",
+        "Institutional holders should confirm tax treatment of the combined distribution (income vs. return of capital components) ahead of EOFY lodgements, as the blended nature of a hybrid-focused ETF wind-down payment may carry complex CGT and income tax implications under Australian tax law."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ID8",
+      "company": "IDENTITII LIMITED",
+      "headline": "Notice of General Meeting/Proxy Form",
+      "time": "2026-07-08T02:25:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109072-2A1683430",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "General Meeting convened signals a pending shareholder vote on a material resolution — the market-sensitive classification suggests the agenda likely includes a capital raise, significant asset transaction, or board restructuring that could materially alter the company's strategic direction.",
+        "Identitii (ID8), a fintech operating in financial crime compliance and payment messaging infrastructure, has a history of capital-light SaaS growth but limited revenue scale; any dilutive equity issuance at this stage would be closely scrutinised given the company's cash position and burn rate relative to its small market capitalisation.",
+        "Institutional investors should review the proxy form details carefully ahead of the meeting — the outcome of the resolution(s) will be the key catalyst, with approval potentially unlocking strategic optionality (e.g. M&A, new contracts) or triggering near-term dilution risk depending on the nature of the resolutions put to shareholders."
+      ],
+      "tags": [
+        "AGM",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QOR",
+      "company": "QORIA LIMITED",
+      "headline": "Scheme becomes Effective",
+      "time": "2026-07-08T02:05:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109064-6A1333027",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The scheme of arrangement has become legally effective, marking the point of no return for the transaction — Qoria shareholders who voted in favour are now locked into the deal terms with no ability to exit via market sale at a premium, signalling the final stages of the company's delisting from ASX.",
+        "Effectiveness of the scheme triggers the implementation timeline, typically meaning scheme consideration (cash and/or scrip) will be dispatched to shareholders within 5 business days — investors should monitor the record date and payment date closely to confirm settlement mechanics and any foreign shareholder restrictions.",
+        "Post-implementation, Qoria will be suspended from ASX trading and subsequently delisted, eliminating any remaining liquidity optionality for shareholders who missed the market; institutional holders should ensure custodian and registry instructions are in place ahead of the implementation date to avoid settlement delays."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "QUB",
       "company": "QUBE HOLDINGS LIMITED",
