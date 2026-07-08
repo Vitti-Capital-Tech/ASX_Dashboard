@@ -1,9 +1,298 @@
 {
   "date": "2026-07-09",
-  "total": 52,
-  "market_sensitive_count": 47,
-  "generated_at": "2026-07-08T23:25:25.104746+00:00",
+  "total": 67,
+  "market_sensitive_count": 61,
+  "generated_at": "2026-07-08T23:52:32.833635+00:00",
   "announcements": [
+    {
+      "ticker": "RRE",
+      "company": "RIGHT RESOURCES LIMITED",
+      "headline": "Major Shareholders Support Successful $2.7M Placement",
+      "time": "2026-07-08T23:48:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109568-6A1333177",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Major shareholder participation in the $2.7M placement signals strong insider conviction, reducing execution risk and suggesting existing investors see near-term catalysts that justify dilution at current levels.",
+        "The $2.7M raise, while modest in absolute terms, provides critical working capital for a small-cap resources company — the key question for investors is the implied placement price relative to last traded price, which will determine the dilution discount and near-term price pressure.",
+        "Proceeds are expected to fund exploration or development activity; investors should monitor the accompanying use-of-funds disclosure closely, as capital deployment efficiency and upcoming drilling/resource milestones will be the primary re-rating triggers post-placement."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HRE",
+      "company": "HEAVY RARE EARTHS LIMITED",
+      "headline": "South Ridge Tin Drilling Approved, Host Structure Extended",
+      "time": "2026-07-08T23:44:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109565-3A696898",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling approval at South Ridge represents a material de-risking milestone — regulatory clearance removes a key near-term execution barrier and signals the company can advance its tin resource definition on schedule, critical for a junior explorer where permitting delays frequently destroy value.",
+        "Extension of the host geological structure is technically significant: a larger mineralised corridor increases the probability of resource tonnage upgrades, potentially re-rating the project's economic viability at a time when tin prices remain elevated amid global supply constraints and EV/electronics demand tailwinds.",
+        "Next catalyst to watch is drill results — assay data from the approved program will be the primary share-price driver; investors should monitor hole depths, intercept widths, and grade consistency against any existing JORC resource to assess whether the structural extension translates into economic mineralisation."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OCN",
+      "company": "OCEANA METALS LIMITED",
+      "headline": "High-Grade REE Intercepts Confirm Top-Tier Potential",
+      "time": "2026-07-08T23:44:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109564-6A1333196",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade rare earth element (REE) intercepts signal the project may rank among top-tier global REE discoveries, a critical distinction as institutional capital increasingly screens for quality deposits amid surging demand for critical minerals underpinning EV and defence supply chains.",
+        "The 'top-tier potential' framing in a market-sensitive release suggests drill results materially exceed prior resource estimates or peer benchmarks — investors should scrutinise grade-thickness composites and TREO (Total Rare Earth Oxide) percentages against comparable ASX-listed REE developers to assess whether this re-rates the asset.",
+        "Near-term catalysts will likely include an updated mineral resource estimate (MRE) or maiden JORC resource, infill and extensional drilling programs, and potential strategic partnership or offtake discussions — all of which could serve as successive re-rating events if grade consistency is maintained across the deposit."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "8CO",
+      "company": "8COMMON LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-08T23:41:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109560-2A1683726",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a small-cap SaaS/fintech, 8Common's operating cash burn rate relative to closing cash balance will determine whether a capital raise is imminent or if the business is approaching self-sufficiency; investors should scrutinise net operating cash outflows versus prior quarters for trajectory.",
+        "Revenue quality matters here — recurring receipts from customers (expense management and procurement platform subscriptions) need to show quarter-on-quarter growth to validate the company's SaaS transition thesis; any flat or declining receipts would signal customer churn or stalled enterprise contract wins.",
+        "With the report flagged as market sensitive, any material deviation from prior guidance — whether a surprise improvement in cash receipts, a significant new government or enterprise contract, or an unexpected acceleration in burn — will likely drive a sharp near-term price reaction; investors should cross-reference staff cost trends as a proxy for headcount decisions and cost discipline."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RAU",
+      "company": "RESOURO STRATEGIC METALS INC.",
+      "headline": "Private Placement to raise up to C$2M",
+      "time": "2026-07-08T23:40:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109557-6A1333192",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Resouro is raising up to C$2M via private placement, a relatively modest capital injection that signals early-stage funding needs — likely directed toward exploration or resource definition at its Tiros rare earth and titanium project in Brazil, preserving operational momentum without a major equity event.",
+        "The C$2M ceiling implies meaningful dilution risk relative to the company's small-cap market capitalisation, and the private placement structure (typically at a discount to market) creates near-term share price overhang as new shares are issued to a select investor group outside the open market.",
+        "Key watch points for institutional investors include the placement price (discount depth), use-of-funds disclosure, and whether strategic or cornerstone investors participate — any named institutional backing would materially de-risk the raise and signal confidence in the Tiros project's development timeline."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NHU",
+      "company": "NEU HORIZON URANIUM LIMITED",
+      "headline": "Becoming a substantial holder - Holland International",
+      "time": "2026-07-08T23:38:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109554-6A1333189",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Holland International has crossed the 5% substantial holder threshold in Neu Horizon Uranium Limited, triggering mandatory ASX disclosure — signalling a meaningful accumulation of stock that warrants close monitoring for further position building.",
+        "The emergence of a new substantial holder in a small-cap uranium explorer can indicate institutional or sophisticated investor conviction in the company's asset base or uranium sector outlook, potentially providing a valuation floor and reducing available free float.",
+        "Investors should watch for any follow-on activity from Holland International — including further on-market buying, a strategic placement, or board engagement — as substantial holder filings often precede more significant corporate activity in junior resource companies."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WHI",
+      "company": "WHITEFIELD INCOME LIMITED",
+      "headline": "Whitefield Income Monthly Divs and Half Yearly Top-Up Div",
+      "time": "2026-07-08T23:36:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109548-2A1683719",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Whitefield Income Limited has declared both its regular monthly dividend and a half-yearly top-up distribution, signalling the LIC's income generation remains on track and management is confident in the sustainability of its franked dividend stream — a key drawcard for yield-focused investors.",
+        "The combination of monthly dividends plus a supplementary top-up component suggests the portfolio's underlying franking credit reserves and net income are sufficient to deliver above-base distributions, which is a positive indicator of portfolio health and tax-effective income delivery for shareholders.",
+        "For income-oriented institutional and retail investors, the top-up dividend reinforces Whitefield's differentiated monthly income model; however, the quantum of the top-up relative to prior periods will be the critical data point to watch for any signal of earnings trajectory or franking credit utilisation trends heading into the second half."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NRX",
+      "company": "NORONEX LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-08T23:35:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109547-6A1333187",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Noronex Limited (NRX) has entered a trading halt, suspending price discovery and liquidity for investors — the halt is flagged as market sensitive, signalling a material corporate event is imminent rather than routine administrative action.",
+        "Trading halts of this nature on small-cap ASX miners most commonly precede a capital raise, M&A transaction, or significant asset/resource announcement — each carrying materially different valuation implications that cannot be assessed until the pending release is made public.",
+        "Institutional and retail holders should monitor the forthcoming announcement closely; the market-sensitive classification elevates the probability of a binary price re-rating event upon resumption of trade, requiring position risk to be reassessed accordingly."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GED",
+      "company": "GOLDEN DEEPS LIMITED.",
+      "headline": "Deeper Drilling Set to Commence at Graceland",
+      "time": "2026-07-08T23:32:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109545-6A1333186",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Golden Deeps is escalating its drilling program at the Graceland project with deeper holes, signalling management confidence in extending mineralisation at depth — a critical inflection point for resource definition and potential upgrade of the exploration target.",
+        "The market-sensitive classification elevates investor attention; deeper drilling typically carries higher cost per metre, meaning capital allocation discipline and remaining cash runway will be closely scrutinised by the market ahead of results.",
+        "Upcoming drill results from deeper intercepts will be the key near-term catalyst — confirmation of grade and width continuity at depth could materially re-rate the stock, while disappointing intersections risk a sharp pullback given the heightened market-sensitive flag."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EG1",
+      "company": "EVERGOLD MINERALS LIMITED",
+      "headline": "Duchess of York assays show significant Gold mineralisation",
+      "time": "2026-07-08T23:31:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109543-6A1333184",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Significant gold mineralisation confirmed at the Duchess of York prospect signals a potential resource-definition catalyst for Evergold Minerals, elevating the project's strategic value and likely attracting speculative institutional interest in what remains an early-stage explorer.",
+        "The market-sensitive classification underscores that assay results contain materially meaningful intercepts — investors should scrutinise headline grades, widths, and downhole depths against peer discoveries on the ASX to assess whether this represents a genuine discovery or incremental step-out drilling success.",
+        "Near-term focus will shift to whether Evergold can follow up with a maiden JORC resource estimate or expanded drill programme; the company's cash position and timeline to next assay results will be critical in determining whether current momentum can be sustained without dilutive capital raises."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "USL",
+      "company": "UNICO SILVER LIMITED",
+      "headline": "USL Secures Strategic Land Position for Joaquin Development",
+      "time": "2026-07-08T23:29:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109541-3A696893",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Unico Silver has secured a strategic land position surrounding its Joaquin silver-gold project in Argentina, a critical de-risking step that consolidates surface rights and removes a key potential bottleneck to future mine development and permitting — directly addressing a common execution risk for junior developers.",
+        "The market-sensitive classification signals material significance to the development timeline; controlling contiguous tenure typically enhances project economics by enabling optimised infrastructure layout, tailings placement, and access corridors, all of which can materially reduce capital intensity in feasibility studies.",
+        "With the land position now secured, the next catalysts to watch are an updated resource estimate or pre-feasibility study advancement at Joaquin — investors should monitor whether this land consolidation accelerates the pathway to a construction decision and attracts potential strategic or major mining company interest in the asset."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FDV",
+      "company": "FRONTIER DIGITAL VENTURES LIMITED",
+      "headline": "FDV Announces Change in Reporting Currency to USD",
+      "time": "2026-07-08T23:29:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109540-3A696894",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FDV's shift to USD reporting reflects the operational reality that its portfolio of emerging-market classifieds businesses (spanning Southeast Asia, MENA, and Latin America) generates revenues predominantly in USD or USD-correlated currencies, reducing the noise of AUD/USD translation volatility in reported financials.",
+        "The change is administratively significant but carries no direct P&L or cash flow impact — however, it may improve comparability with global digital classifieds peers (e.g. Adevinta, REA Group's international benchmarks), potentially broadening the institutional investor audience and improving valuation clarity.",
+        "Investors should watch for the first USD-denominated results release to assess whether the currency restatement reveals any material revaluation of previously reported AUD figures, particularly given AUD weakness over recent periods which may have been masking stronger underlying USD performance."
+      ],
+      "tags": [
+        "Other",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TSL",
+      "company": "TITANIUM SANDS LIMITED",
+      "headline": "Options Prospectus",
+      "time": "2026-07-08T23:28:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109539-6A1333182",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Titanium Sands is issuing an Options Prospectus, signalling a structured capital raise mechanism that could provide future equity dilution risk — investors should scrutinise exercise price, expiry terms, and total options on issue relative to current market capitalisation.",
+        "As a junior mineral sands explorer, the use of options as a fundraising tool suggests the company is conserving cash while attempting to incentivise participation without immediate dilution, though conversion upon exercise will pressure the share register if the stock trades above the strike price.",
+        "Near-term focus should be on whether the prospectus is tied to a broader capital raise or project milestone catalyst at its Sri Lanka mineral sands project — any linkage to drilling or development funding would be the key re-rating trigger to monitor."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RIM",
+      "company": "RIMFIRE PACIFIC MINING LIMITED",
+      "headline": "Rimfire Appoints Global Critical Minerals Advisor",
+      "time": "2026-07-08T23:27:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109538-3A696892",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Rimfire's appointment of a global critical minerals advisor signals a strategic pivot to attract international capital and offtake interest, potentially repositioning its Fifield cobalt-scandium-nickel project within the increasingly competitive critical minerals supply chain narrative.",
+        "The market-sensitive designation elevates this beyond a routine advisory appointment — investors should watch for whether this advisor brings concrete connections to EV battery supply chains, US IRA-aligned buyers, or sovereign wealth fund mandates that could fast-track project financing or a strategic partnership.",
+        "Next catalyst to monitor is whether this advisory relationship translates into a binding MOU, JV term sheet, or capital raise within the next 1-2 quarters; without tangible deal flow, the appointment risks being perceived as a sentiment play rather than a fundamental value driver."
+      ],
+      "tags": [
+        "Mining",
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKN",
+      "company": "SKIN ELEMENTS LIMITED",
+      "headline": "Execution of a Commercialisation Agreement with Farmlands",
+      "time": "2026-07-08T23:24:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109534-6A1333132",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Skin Elements has secured a commercialisation agreement with Farmlands Co-operative, New Zealand's largest rural retailer with ~80,000 members and ~70 retail outlets, providing immediate access to a scaled distribution network for its Soleo sunscreen and skincare range — a material step-change in addressable market reach.",
+        "The Farmlands partnership represents a new geographic revenue stream for a company that has historically struggled to convert product quality into consistent top-line growth; institutional investors will be watching closely for disclosed minimum order volumes, revenue share terms, or milestone-based payments that would quantify the deal's financial materiality.",
+        "Near-term execution risk centres on whether Farmlands' rural/agricultural customer base aligns with Soleo's premium positioning — management must demonstrate sell-through velocity within the first trading seasons to validate the channel fit and justify further investment in NZ market infrastructure."
+      ],
+      "tags": [
+        "Retail",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AXE",
       "company": "ARCHER MATERIALS LIMITED",
