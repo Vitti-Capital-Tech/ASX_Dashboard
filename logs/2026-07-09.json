@@ -1,9 +1,48 @@
 {
   "date": "2026-07-09",
-  "total": 50,
-  "market_sensitive_count": 45,
-  "generated_at": "2026-07-08T23:20:39.166924+00:00",
+  "total": 52,
+  "market_sensitive_count": 47,
+  "generated_at": "2026-07-08T23:25:25.104746+00:00",
   "announcements": [
+    {
+      "ticker": "AXE",
+      "company": "ARCHER MATERIALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-08T23:23:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109533-2A1683714",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — Archer Materials is a pre-revenue R&D company burning cash on its 12CQ quantum computing chip and biochip projects, making the closing cash balance and quarterly burn rate the primary valuation anchor for institutional investors.",
+        "As a technology development company with no operating revenue, any deterioration in cash reserves or acceleration in R&D expenditure without corresponding technical milestones (e.g. qubit coherence improvements, biochip reader progress) would signal heightened dilution risk via future capital raises.",
+        "Near-term focus will be on whether management has articulated a clear path to commercialisation or partnership agreements for either the quantum chip or biochip platform, as continued absence of licensing deals or strategic partners increases the probability of a discounted equity raise within the next 1-2 quarters."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BHM",
+      "company": "BROKEN HILL MINES LIMITED",
+      "headline": "BHM Delivers Record Quarterly Production",
+      "time": "2026-07-08T23:19:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109526-6A1333178",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Record quarterly production signals operational momentum is accelerating, a key de-risking milestone that typically re-rates junior miners toward higher valuation multiples and strengthens the equity story for institutional accumulation.",
+        "The market-sensitive flag elevates materiality — investors should scrutinise the absolute production figures, unit costs (AISC or C1), and whether output is tracking ahead of full-year guidance, as any beat on cost or volume metrics could drive meaningful earnings upgrades.",
+        "Near-term catalysts to watch include whether record output translates into improved operating cash flow in the accompanying cash flow statement, and how management guides for Q2 — sustaining or exceeding this level would validate capital allocation decisions and potentially support a re-rating or future capital raise from a position of strength."
+      ],
+      "tags": [
+        "Quarterly",
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "SDF",
       "company": "STEADFAST GROUP LIMITED",
