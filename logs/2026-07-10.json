@@ -1,9 +1,162 @@
 {
   "date": "2026-07-10",
-  "total": 25,
-  "market_sensitive_count": 19,
-  "generated_at": "2026-07-09T23:28:52.722198+00:00",
+  "total": 33,
+  "market_sensitive_count": 26,
+  "generated_at": "2026-07-09T23:54:45.158823+00:00",
   "announcements": [
+    {
+      "ticker": "INA",
+      "company": "INGENIA COMMUNITIES GROUP",
+      "headline": "Pause in Trading",
+      "time": "2026-07-09T23:46:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109888-2A1683864",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ingenia Communities Group has requested a trading halt ahead of what is likely a material announcement — the market-sensitive classification signals a significant corporate event is imminent, potentially a capital raise, asset transaction, or earnings update that could materially reprice the stock.",
+        "As an ASX-listed land lease and lifestyle communities operator with a ~$1.5B market cap, any capital raise would be closely scrutinised for dilution risk given the sector's elevated sensitivity to interest rate movements and development pipeline funding requirements.",
+        "Investors should monitor for the lifting of the halt and accompanying announcement — the nature of the disclosure (accretive acquisition vs. equity raise vs. guidance revision) will be the critical determinant of near-term price direction, with the halt itself providing no directional signal at this stage."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MHC",
+      "company": "MANHATTAN GOLD CORPORATION LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-09T23:44:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109886-6A1333329",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register for Manhattan Gold Corporation (MHC), with a holder crossing or moving through the 5% threshold — warranting close attention to whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase or decrease in holding) is critical: accumulation by an institutional or strategic investor could signal undisclosed value recognition in MHC's gold assets, while a reduction may indicate waning conviction or portfolio rebalancing pressure on the stock.",
+        "Investors should monitor for follow-on disclosures — a rising substantial holder could be a precursor to a takeover approach, strategic partnership, or board-level engagement, particularly relevant given the current elevated gold price environment supporting junior gold explorer valuations."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAT",
+      "company": "MATSA RESOURCES LIMITED",
+      "headline": "Fortitude North Multiple High Grade Gold Results",
+      "time": "2026-07-09T23:41:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109884-6A1333326",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Multiple high-grade gold intercepts at Fortitude North materially de-risk the project's resource expansion thesis, signalling potential for a meaningful resource upgrade that could re-rate the stock toward peers with defined high-grade deposits.",
+        "The 'multiple' qualifier in the headline suggests broad mineralisation across several drill holes rather than isolated hits — a critical distinction for institutional investors assessing continuity and scalability of the gold system at depth and along strike.",
+        "Near-term catalysts to watch include a maiden or updated JORC resource estimate incorporating these results, which would be the key trigger for re-rating; investors should monitor drill spacing and assay grades relative to the existing resource base to gauge the magnitude of potential tonnage additions."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NRX",
+      "company": "NORONEX LIMITED",
+      "headline": "Priority Copper Targets Defined Across Kalahari Copper Belt",
+      "time": "2026-07-09T23:41:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109883-6A1333318",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Noronex has delineated priority copper targets across its Kalahari Copper Belt (KCB) tenure, a globally significant sediment-hosted copper province that has attracted major miners including Sandfire Resources — elevating the geological credibility and potential scale of NRX's ground position.",
+        "The market-sensitive classification signals management believes the target definition represents a material step-change in project value; priority targeting typically precedes drill programs, meaning near-term catalysts are likely as the company moves from desktop/geophysical work to resource-defining drilling.",
+        "Next steps will centre on securing drill permits and mobilising rigs to test defined targets — execution speed and drill results will be the key valuation inflection points; investors should monitor for a follow-on capital raise to fund the program given the early-stage nature of the company."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PGD",
+      "company": "PEREGRINE GOLD LTD",
+      "headline": "Auriferous Paleo Gravels Discovered at Newman Gold Project",
+      "time": "2026-07-09T23:39:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109881-6A1333308",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Discovery of auriferous (gold-bearing) paleo gravels at the Newman Gold Project represents a potentially significant new mineralisation style, expanding the project's geological prospectivity beyond conventional hard-rock targets and opening a new exploration vector that could materially re-rate the asset.",
+        "Paleo gravel systems can host high-grade, near-surface alluvial gold accumulations that are typically lower-cost to extract — if grades and continuity are confirmed through follow-up sampling and drilling, this discovery could meaningfully improve the project's economic profile and attract broader investor attention.",
+        "The market-sensitive classification signals management views this as a material development; near-term catalysts to watch include assay results from the paleo gravel intercepts, resource estimation potential, and whether the company has sufficient cash runway to accelerate exploration — investors should monitor the next quarterly cash flow report for burn rate context."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FGG",
+      "company": "FUTURE GENERATION GLOBAL LIMITED",
+      "headline": "Strong total shareholder return and increased FF interim div",
+      "time": "2026-07-09T23:38:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109880-2A1683863",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Future Generation Global (FGG) delivered strong total shareholder return (TSR) for the period, signalling that its listed investment company (LIC) structure and underlying manager selection are generating alpha — a key differentiator in a competitive global equities LIC market.",
+        "The increased fully franked (FF) interim dividend is a direct capital return catalyst, enhancing yield appeal for income-focused institutional and retail investors while demonstrating board confidence in the sustainability of earnings and portfolio income generation.",
+        "With a market-sensitive classification, this update is likely to narrow any NTA discount FGG trades at — improved TSR and a higher FF dividend typically compress LIC discounts, making this a potential re-rating event worth monitoring against the next published NTA figure."
+      ],
+      "tags": [
+        "Results",
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EMT",
+      "company": "EMETALS LIMITED",
+      "headline": "Mineral Range Tungsten Project, Exploration Update",
+      "time": "2026-07-09T23:32:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109875-6A1333322",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals potentially material exploration results at Mineral Range Tungsten Project — tungsten is a critical mineral with significant strategic value given global supply chain concerns and China's dominance (~80% of world production), elevating investor interest in any credible Australian deposit.",
+        "Exploration updates at tungsten projects are closely watched for resource definition progress — key metrics to assess include drill intercept grades (>0.3% WO₃ considered economic), strike extensions, and whether results support a maiden or upgraded JORC resource estimate that could re-rate the stock.",
+        "Next steps will likely hinge on whether EME advances to a resource estimate, scoping study, or further drilling program — any confirmation of high-grade continuity or expanded mineralisation footprint would materially strengthen the project's development case and attract strategic partner or offtake interest given tungsten's critical mineral status in Australia."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BSR",
+      "company": "BISON RESOURCES LIMITED",
+      "headline": "Carlin System Pathfinders Identified at Bald Peaks Project",
+      "time": "2026-07-09T23:26:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109870-6A1333319",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Identification of Carlin-type system pathfinders at Bald Peaks is a material de-risking event — Carlin-style gold deposits (Nevada archetype) are among the world's highest-grade, large-tonnage gold systems, and confirming analogous geochemical signatures elevates the project's discovery potential significantly above typical early-stage exploration plays.",
+        "The market-sensitive classification signals management believes this geochemical/structural data materially re-rates the asset; investors should watch for the specific pathfinder suite reported (arsenic, antimony, mercury, thallium anomalies are hallmarks) as the strength and spatial coherence of these vectors will determine whether drill targeting is robust or still conceptual.",
+        "Near-term catalysts hinge on Bison converting these pathfinder results into a drill program — the critical next steps are securing drill permits and defining priority targets, with any announced maiden drilling campaign likely to serve as the next significant share price catalyst for this small-cap explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CVR",
       "company": "CAVALIER RESOURCES LIMITED",
