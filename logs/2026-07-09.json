@@ -1,9 +1,48 @@
 {
   "date": "2026-07-09",
-  "total": 78,
-  "market_sensitive_count": 71,
-  "generated_at": "2026-07-09T01:36:07.100156+00:00",
+  "total": 80,
+  "market_sensitive_count": 73,
+  "generated_at": "2026-07-09T03:06:10.714866+00:00",
   "announcements": [
+    {
+      "ticker": "SWT",
+      "company": "SWITZER DIVIDEND GROWTH FUND - ACTIVE ETF",
+      "headline": "Actual distribution for month ending 30 June 2026",
+      "time": "2026-07-09T03:02:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109637-2A1683757",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive distribution announcement for June 2026 signals the fund has confirmed its monthly income payment, a key metric for yield-focused investors tracking distribution consistency and annualised payout rates.",
+        "The actual distribution figure (vs. estimated) will determine whether SWTZ has met, exceeded, or missed prior guidance — any variance from the estimated distribution could trigger reallocation decisions among income-oriented ETF holders.",
+        "Investors should benchmark this distribution against prior months to assess whether the fund's active management strategy is sustaining or growing per-unit income, particularly relevant given equity market conditions heading into end of financial year 2026."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACU",
+      "company": "ACUMENTIS GROUP LIMITED",
+      "headline": "Withdrawal of 203D and 249D Notices",
+      "time": "2026-07-09T02:10:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109622-2A1683749",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Withdrawal of the Section 203D (director removal) and 249D (requisitioned general meeting) notices signals a de-escalation of what was an active boardroom challenge, removing a near-term governance overhang that had created uncertainty around management stability at Acumentis.",
+        "The resolution — without a contested meeting proceeding — suggests the requisitioning shareholders either reached a negotiated outcome with the board or lacked sufficient support to pursue the action, both scenarios reducing the risk of disruptive board turnover and associated strategic disruption to the property valuation business.",
+        "Investors should monitor for any accompanying disclosure on concessions made to requisitioning parties (e.g. board composition changes, strategic commitments), as the terms of any behind-the-scenes settlement will be the key determinant of whether this outcome is genuinely constructive or merely deferred conflict."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "PNR",
       "company": "PANTORO GOLD LIMITED",
