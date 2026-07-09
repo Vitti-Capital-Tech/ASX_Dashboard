@@ -1,9 +1,122 @@
 {
   "date": "2026-07-09",
-  "total": 67,
-  "market_sensitive_count": 61,
-  "generated_at": "2026-07-08T23:52:32.833635+00:00",
+  "total": 73,
+  "market_sensitive_count": 67,
+  "generated_at": "2026-07-09T00:19:38.617887+00:00",
   "announcements": [
+    {
+      "ticker": "FEG",
+      "company": "FAR EAST GOLD LTD",
+      "headline": "Supplementary Bidder's Statement",
+      "time": "2026-07-09T00:13:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109588-2A1683733",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A Supplementary Bidder's Statement signals FAR EAST GOLD is actively pursuing a takeover bid, requiring updated disclosure — likely reflecting material changes to offer terms, conditions, or target company information that could alter deal economics for shareholders.",
+        "The market-sensitive classification indicates the supplementary disclosure contains information capable of moving the target's share price, warranting close scrutiny of any revised consideration, funding arrangements, or updated independent expert conclusions that may shift the bid's attractiveness.",
+        "Institutional investors should monitor whether the supplement addresses regulatory conditions, minimum acceptance thresholds, or financing certainty — key variables that will determine whether the offer proceeds to completion or lapses, with binary price implications for the target."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CBE",
+      "company": "COBRE LIMITED",
+      "headline": "Cobre Completes A$90M Institutional Capital Raise",
+      "time": "2026-07-09T00:10:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109584-2A1683732",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Cobre has secured a substantial A$90M institutional raise, providing significant balance sheet firepower that materially de-risks exploration and development execution at its flagship Ngami Copper Project in Botswana — eliminating near-term funding overhang for institutional investors.",
+        "The scale of the raise (A$90M) signals strong institutional conviction in the copper thematic, likely attracting sophisticated cornerstone investors at a meaningful premium to pre-raise market cap — the pricing and dilution terms will be critical to assess whether existing shareholders face material value erosion.",
+        "With copper demand fundamentals underpinned by energy transition tailwinds, Cobre is now well-capitalised to accelerate drilling programs and potentially fast-track a resource upgrade or scoping study, positioning the company for a potential re-rating catalyst in the near-to-medium term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RNU",
+      "company": "RENASCOR RESOURCES LIMITED",
+      "headline": "Cost Study Supports Low-Cost PSG Purification Process",
+      "time": "2026-07-08T23:57:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109577-2A1683731",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The independent cost study validates Renascor's proprietary Purified Spherical Graphite (PSG) purification process as genuinely low-cost, a critical de-risking milestone that strengthens the commercial case for its Siviour battery anode material project — one of the largest graphite deposits outside Africa.",
+        "Hydrofluoric acid-free purification is a key differentiator: the study confirms Renascor's process avoids the costly and environmentally hazardous HF acid used by Chinese competitors, potentially unlocking premium pricing and supply chain preference from Western battery manufacturers and EV OEMs seeking ex-China sourcing.",
+        "With the DFS already completed and offtake discussions ongoing, this cost validation removes a major technical risk overhang and positions Renascor to accelerate project financing conversations — the next critical catalyst will be securing binding offtake or project finance commitments to advance to a final investment decision."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MEI",
+      "company": "METEORIC RESOURCES LIMITED",
+      "headline": "Caldeira Project Measured Resources Grow 246% to 128Mt",
+      "time": "2026-07-08T23:55:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109575-6A1333199",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The 246% surge in Measured Resources to 128Mt at the Caldeira Project represents a transformational upgrade in resource confidence, converting previously Inferred/Indicated material into the highest JORC classification — a critical de-risking milestone that materially strengthens the project's bankability and appeal to project financiers and strategic partners.",
+        "A Measured Resource base of 128Mt provides the foundation for a robust Definitive Feasibility Study (DFS), enabling mine scheduling with significantly higher confidence; the scale positions Caldeira as a globally significant rare earth (niobium/REE) project capable of supporting long-life, large-tonnage production scenarios that institutional capital typically demands.",
+        "With resource classification now substantially upgraded, Meteoric's near-term catalysts shift to DFS completion, offtake discussions, and potential strategic investment — the improved resource quality reduces technical risk discount applied by the market and could attract re-rating interest from resource-specialist funds and potential acquirers in the critical minerals space."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AXL",
+      "company": "AXEL REE LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-07-08T23:52:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109573-3A696899",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AXEL REE LIMITED has requested a trading halt, immediately suspending price discovery and liquidity for all shareholders — a procedural freeze that typically precedes a material corporate announcement such as a capital raise, M&A transaction, or significant operational update.",
+        "The 'Market Sensitive' classification signals the pending announcement carries material information that could meaningfully reprice the stock, elevating the risk profile for any outstanding short positions or options strategies tied to current price levels.",
+        "Investors should monitor the resumption announcement closely — the nature of the news driving the halt (dilutive capital raise vs. accretive deal vs. regulatory matter) will be the critical determinant of directional price action upon recommencement of trading."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GSN",
+      "company": "GREAT SOUTHERN MINING LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-08T23:51:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109572-6A1333200",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a junior explorer, Great Southern Mining's Appendix 5B will reveal net operating cash outflows and remaining cash reserves, with any runway below 2 quarters typically triggering near-term capital raise risk and share price pressure.",
+        "Exploration expenditure levels disclosed in the 5B will indicate whether the company is actively advancing its Mon Ami gold project in WA or conserving capital — reduced spend signals a tightening balance sheet, while sustained drilling investment supports a credible development narrative.",
+        "Investors should monitor for any commentary on upcoming catalysts such as assay results, resource estimate updates, or farm-in/JV discussions, as these forward-looking disclosures in the quarterly activities report are the primary re-rating triggers for a company at this stage of development."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "RRE",
       "company": "RIGHT RESOURCES LIMITED",
