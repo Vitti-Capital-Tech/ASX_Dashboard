@@ -1,9 +1,28 @@
 {
   "date": "2026-07-10",
-  "total": 14,
-  "market_sensitive_count": 8,
-  "generated_at": "2026-07-09T22:33:34.445094+00:00",
+  "total": 15,
+  "market_sensitive_count": 9,
+  "generated_at": "2026-07-09T22:59:16.187514+00:00",
   "announcements": [
+    {
+      "ticker": "GTI",
+      "company": "GRATIFII LIMITED",
+      "headline": "Market Update",
+      "time": "2026-07-09T22:49:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109833-2A1683843",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material information is forthcoming or has been disclosed — investors should treat this as a priority read given Gratifii's small-cap status where any operational or financial update can move the stock significantly.",
+        "Without specific financial metrics disclosed in the headline alone, the 'Market Update' label typically covers revenue guidance revisions, contract wins, or partnership announcements — any of which could materially reset consensus expectations for this loyalty and rewards technology company.",
+        "Near-term focus should be on whether the update addresses Gratifii's cash position and path to profitability, as the company has historically operated with tight liquidity; any positive revenue or partnership news could catalyse a re-rating, while a capital raise flag would be dilutive."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GDM",
       "company": "GREAT DIVIDE MINING LTD",
