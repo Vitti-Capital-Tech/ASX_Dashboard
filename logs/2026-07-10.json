@@ -1,9 +1,67 @@
 {
   "date": "2026-07-10",
-  "total": 39,
-  "market_sensitive_count": 31,
-  "generated_at": "2026-07-10T00:21:30.695789+00:00",
+  "total": 42,
+  "market_sensitive_count": 32,
+  "generated_at": "2026-07-10T00:37:47.194801+00:00",
   "announcements": [
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Update - Dividend/Distribution - PCI",
+      "time": "2026-07-10T00:35:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109909-2A1683883",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "PCI has flagged an update to its distribution, a market-sensitive event that signals a potential change in the quantum or composition of income payments — critical for yield-focused investors who hold the trust for its regular credit income stream.",
+        "As a listed credit income trust investing in investment-grade and sub-investment-grade fixed income, any distribution revision directly reflects the underlying portfolio's income generation capacity, credit quality, and the manager's ability to sustain target yield in the current rate environment.",
+        "Investors should monitor whether this update represents a distribution cut, reinstatement, or special payment — each carrying materially different implications for unit price support, with a reduction likely triggering redemption pressure given PCI's income-oriented unitholder base."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TPW",
+      "company": "TEMPLE & WEBSTER GROUP LTD",
+      "headline": "Becoming a substantial holder from AMP",
+      "time": "2026-07-10T00:24:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109906-2A1683881",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "AMP has crossed the 5% substantial holder threshold in Temple & Webster (TPW), signalling meaningful accumulation by a major institutional investor — this implies growing conviction in TPW's long-term e-commerce growth thesis among institutional allocators.",
+        "The filing establishes AMP as a new substantial holder, adding a credible institutional name to the register; concentrated institutional ownership can reduce free-float liquidity but typically signals quality validation for a growth-stage retailer like TPW.",
+        "Investors should monitor whether AMP continues to build its position beyond the initial disclosure threshold, as further accumulation could act as a technical support catalyst, while any subsequent reduction filings would warrant close attention given TPW's elevated valuation multiples."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NXL",
+      "company": "NUIX LIMITED",
+      "headline": "Becoming a substantial holder from AMP",
+      "time": "2026-07-10T00:21:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109905-2A1683879",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "AMP has crossed the 5% substantial holder threshold in Nuix (NXL), signalling a meaningful institutional accumulation event — this represents a vote of confidence in the intelligence software company's ongoing turnaround and growth trajectory under its refreshed leadership.",
+        "The crossing of the substantial holder threshold implies AMP has been systematically building its position on-market, suggesting the stock was considered undervalued relative to Nuix's improving fundamentals, including its shift toward recurring SaaS-style revenue and expanding international client base.",
+        "With a major institutional fund manager now a declared substantial holder, Nuix may attract increased analyst and fund coverage, potentially reducing the stock's historically elevated volatility and improving liquidity — watch for further accumulation or a potential board/strategic engagement if AMP's stake continues to grow beyond this initial disclosure."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ASN",
       "company": "ANSON RESOURCES LIMITED",
