@@ -1,9 +1,162 @@
 {
   "date": "2026-07-10",
-  "total": 42,
-  "market_sensitive_count": 32,
-  "generated_at": "2026-07-10T00:37:47.194801+00:00",
+  "total": 50,
+  "market_sensitive_count": 38,
+  "generated_at": "2026-07-10T01:36:56.553179+00:00",
   "announcements": [
+    {
+      "ticker": "TON",
+      "company": "TRITON MINERALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-07-10T01:25:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109925-6A1333343",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Triton Minerals (TON) has entered a trading halt pending a material announcement — the market-sensitive classification signals a potentially significant corporate event, most likely a capital raise, strategic transaction, or major project update related to its Mozambique graphite assets.",
+        "The halt removes price discovery temporarily, but the market-sensitive flag elevates the probability of a value-moving disclosure; investors should monitor for details around funding, offtake agreements, or M&A activity given TON's ongoing development-stage capital requirements.",
+        "Next steps hinge on the nature of the pending announcement — if capital raise-related, dilution risk is the key concern for existing shareholders; if deal or partnership-driven, the re-rate potential could be material given graphite's strategic importance in battery supply chains."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TON",
+      "company": "TRITON MINERALS LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-07-10T01:15:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109922-6A1333342",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Triton Minerals has requested a trading halt, suspending price discovery and liquidity for investors — the market-sensitive classification signals a material corporate development is imminent, likely a capital raise, M&A transaction, or significant asset update relating to its Mozambique graphite projects.",
+        "Trading halts on junior miners with flagship-stage assets (Triton's Ancuabe graphite project) frequently precede equity raisings; given the company's historically thin cash position and ongoing project development requirements, dilutive capital action remains the highest-probability catalyst behind this pause.",
+        "Investors should monitor the resumption announcement closely — the nature of the pending disclosure will be decisive for near-term price direction, with a capital raise likely pressuring the share price while a strategic partnership or offtake agreement could provide a meaningful re-rating catalyst for this pre-revenue graphite developer."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFG",
+      "company": "AUSTRALIAN FINANCE GROUP LTD",
+      "headline": "Ceasing to be a substantial holder from CBA",
+      "time": "2026-07-10T01:06:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109921-6A1333341",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Commonwealth Bank of Australia has fallen below the 5% substantial holder threshold in Australian Finance Group (AFG), signalling a meaningful reduction in CBA's strategic or investment stake in a key mortgage aggregation competitor/partner — a notable shift in the institutional ownership structure.",
+        "The disposal of shares to sub-substantial levels by a major bank raises questions about CBA's conviction in AFG's near-term earnings outlook, particularly given ongoing margin pressure in the mortgage broking sector and AFG's own lending book performance amid elevated interest rates.",
+        "With CBA's overhang potentially removed from the register, the exit could paradoxically open the door for a new strategic investor or reduce selling pressure over time; however, near-term sentiment may be dampened as the market digests the implied lack of confidence from a sophisticated institutional seller."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PPC",
+      "company": "PEET LIMITED",
+      "headline": "Response to media speculation",
+      "time": "2026-07-10T00:52:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109918-6A1333337",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Peet Limited has issued a market-sensitive response to media speculation, signalling that circulating reports — likely relating to M&A activity, a takeover approach, or strategic review — have reached a materiality threshold requiring ASX disclosure under continuous disclosure obligations.",
+        "The 'Response to media speculation' document type typically precedes or accompanies confirmation of corporate activity such as a takeover bid, merger discussions, or asset sale; investors should treat this as a potential catalyst event with binary price risk pending the full substance of the announcement.",
+        "Next steps hinge on whether Peet confirms or denies the speculation — a confirmation of M&A interest or strategic process would likely trigger a significant re-rating given Peet's residential land development portfolio, while a denial may see any speculative premium quickly unwind."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PL9",
+      "company": "PRAIRIE LITHIUM LIMITED",
+      "headline": "North America's Largest Commercial DLE Unit Arrives at Site",
+      "time": "2026-07-10T00:50:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109916-6A1333340",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Prairie Lithium has reached a critical de-risking milestone by delivering North America's largest commercial Direct Lithium Extraction (DLE) unit to site, transitioning the project from development-stage concept to tangible operational infrastructure — a key catalyst that typically re-rates lithium brine developers significantly.",
+        "The 'largest commercial DLE unit' designation is strategically significant: it positions Prairie as a technology-scale leader in a sector where DLE commercialisation remains the primary investor scepticism point, potentially attracting offtake interest and strategic partnership discussions from battery manufacturers and major miners seeking North American lithium supply chain exposure.",
+        "Near-term focus shifts to commissioning performance data — flow rates, lithium recovery efficiency, and reagent consumption metrics — which will be the critical proof points determining whether Prairie can convert this infrastructure milestone into a bankable feasibility study and unlock project financing; investors should watch for operational updates within the next 1-3 quarters."
+      ],
+      "tags": [
+        "Mining",
+        "Production",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SIX",
+      "company": "SPRINTEX LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-07-10T00:49:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109914-6A1333339",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Sprintex Limited (SPX), crossing the 5% ownership threshold — a signal of meaningful accumulation that warrants monitoring for potential strategic intent or activist positioning in this micro-cap supercharger technology company.",
+        "The timing and identity of the substantial holder are critical context: if this represents a cornerstone institutional or strategic investor building a stake, it could indicate growing conviction in Sprintex's commercialisation pipeline for its twin-screw supercharger technology, particularly in EV and hydrogen applications.",
+        "Investors should track whether this holding continues to grow beyond the initial disclosure threshold, as further accumulation could foreshadow a capital raise participation, board influence, or M&A-related positioning — all of which carry material implications for a company at Sprintex's early-revenue stage."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPC",
+      "company": "PEET LIMITED",
+      "headline": "INA: Response to media speculation",
+      "time": "2026-07-10T00:45:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109912-6A1333338",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Peet Limited has been compelled to respond to market speculation — likely M&A-related given the 'media speculation' framing — signalling that rumours of a takeover approach, asset sale, or strategic transaction are circulating and material enough to trigger an ASX disclosure obligation.",
+        "The market-sensitive classification elevates the significance of this announcement; under ASX Listing Rule 3.1, Peet's board is obligated to clarify or deny any price-sensitive information, meaning the underlying speculation is credible enough to warrant formal engagement rather than a standard 'no comment' posture.",
+        "Investors should monitor for a follow-up announcement confirming or denying a formal bid or strategic process — Peet's residential land development portfolio and established project pipeline across WA, VIC, and QLD could attract interest from major diversified property groups or private equity given current sector consolidation dynamics."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "INA",
+      "company": "INGENIA COMMUNITIES GROUP",
+      "headline": "Response to media speculation",
+      "time": "2026-07-10T00:45:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109911-2A1683875",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ingenia has issued a market-sensitive response to media speculation, signalling that circulating reports — likely relating to a potential takeover, asset sale, or strategic transaction — have reached a materiality threshold requiring ASX disclosure under continuous disclosure obligations.",
+        "The 'Response to media speculation' classification without an accompanying trading halt suggests management is either confirming, denying, or providing limited commentary on the rumoured activity — the absence of a halt implies no imminent binding transaction has been executed, but investor attention will be laser-focused on any language acknowledging 'discussions' or 'approaches'.",
+        "Ingenia's defensive land-lease and lifestyle communities portfolio has been a persistent M&A target given its recurring income streams and demographic tailwinds from ageing Australians; any confirmed strategic review or third-party interest could catalyse a re-rating toward NTA or a control premium, making near-term price action highly event-driven."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "PCI",
       "company": "PERPETUAL CREDIT INCOME TRUST",
