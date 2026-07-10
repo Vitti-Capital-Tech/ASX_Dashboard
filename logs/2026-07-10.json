@@ -1,9 +1,28 @@
 {
   "date": "2026-07-10",
-  "total": 50,
+  "total": 51,
   "market_sensitive_count": 38,
-  "generated_at": "2026-07-10T01:36:56.553179+00:00",
+  "generated_at": "2026-07-10T03:05:58.997148+00:00",
   "announcements": [
+    {
+      "ticker": "AMX",
+      "company": "AEROMETREX LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-10T02:33:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03109943-2A1683903",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Aerometrex (AMX), indicating a holder has crossed above or below the 5% threshold — warranting close monitoring of whether this reflects accumulation or distribution by a sophisticated investor.",
+        "Given AMX's relatively small market capitalisation and limited liquidity, any substantial holder movement can have an outsized impact on price discovery and float availability, making the identity and direction of the change (entry vs. exit) critical context for positioning.",
+        "Institutional investors should track whether this filing reflects a strategic stake-building ahead of potential corporate activity — such as a takeover or partnership — or conversely, a liquidation event that could create near-term selling pressure on an already thinly traded stock."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "TON",
       "company": "TRITON MINERALS LTD",
