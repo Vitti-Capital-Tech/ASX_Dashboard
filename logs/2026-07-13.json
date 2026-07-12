@@ -1,9 +1,257 @@
 {
   "date": "2026-07-13",
-  "total": 76,
-  "market_sensitive_count": 70,
-  "generated_at": "2026-07-12T23:19:48.129205+00:00",
+  "total": 89,
+  "market_sensitive_count": 82,
+  "generated_at": "2026-07-12T23:39:33.238234+00:00",
   "announcements": [
+    {
+      "ticker": "KLV",
+      "company": "KLEVO REWARDS LIMITED",
+      "headline": "Klevo Successfully Completes Stablecoin Platform Trial",
+      "time": "2026-07-12T23:36:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110323-6A1333566",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Successful completion of the stablecoin platform trial represents a critical de-risking milestone for Klevo, moving the technology from proof-of-concept to validated infrastructure — a key inflection point that typically precedes commercial deployment and partnership discussions.",
+        "As a market-sensitive disclosure, the trial outcome carries material weight; investors will scrutinise transaction volumes, settlement speeds, and counterparty participation rates from the trial to assess whether the platform can scale to revenue-generating operations.",
+        "The next catalyst to watch is commercialisation timeline and monetisation model — whether Klevo pursues a B2B licensing approach, merchant integration fees, or interchange-style revenue will determine the earnings trajectory and justify any re-rating of the stock."
+      ],
+      "tags": [
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NPM",
+      "company": "NEWPEAK METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-12T23:36:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110321-2A1684075",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "NEWPEAK METALS has entered a trading halt, suspending price discovery and liquidity for investors — a move typically preceding a material announcement such as a capital raise, M&A transaction, or significant asset update that requires market preparation.",
+        "The 'market sensitive' classification signals the pending disclosure carries meaningful valuation implications; for a small-cap metals explorer, the most probable catalysts are an equity raising (potentially dilutive) or a strategic asset deal, both of which carry binary price risk upon resumption.",
+        "Institutional investors should monitor the resumption announcement closely — trading halts on junior miners frequently precede placement-driven dilution at a discount to last traded price, making positioning ahead of the recommencement high-risk without clarity on the nature of the pending disclosure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VSR",
+      "company": "VOLTAIC STRATEGIC RESOURCES LTD",
+      "headline": "Acquisition of 100% Bundie Bore Burnakura Gold Corridor",
+      "time": "2026-07-12T23:29:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110314-6A1333560",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Voltaic has secured 100% ownership of the Bundie Bore Burnakura Gold Corridor, a strategically significant land package in Western Australia's prolific Murchison goldfield — a region with established multi-million-ounce endowment, materially expanding the company's resource optionality at a stage when gold trades near all-time highs above AUD $4,900/oz.",
+        "The 100% acquisition structure is critical: full ownership eliminates joint-venture dilution risk and positions Voltaic to capture the entire upside from any resource definition or discovery, though investors should scrutinise the consideration terms (scrip vs. cash vs. deferred payments) for dilution or contingent liability implications not yet fully disclosed.",
+        "Near-term catalysts will hinge on Voltaic's ability to rapidly deploy exploration capital — drilling programs, geophysical surveys, and historical data review — across the corridor; given the market-sensitive classification, management guidance on exploration timelines and funding adequacy will be the key determinant of whether this acquisition re-rates the stock or fades as a speculative land-banking exercise."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CHR",
+      "company": "CHARGER METALS NL",
+      "headline": "Sale of Bynoe Lithium Project",
+      "time": "2026-07-12T23:28:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110313-6A1333559",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Charger Metals is divesting its Bynoe Lithium Project, a strategic pivot that signals management is responding to the prolonged lithium price downturn by monetising non-core assets rather than continuing to fund exploration in a depressed commodity environment.",
+        "The sale terms and consideration received will be critical to assess — any meaningful cash inflow directly improves the company's balance sheet and extends runway, particularly important for a junior explorer with limited revenue streams in the current risk-off market for battery metals.",
+        "Post-divestment, investors should scrutinise what remaining assets constitute Charger's portfolio and whether the company has a credible redeployment strategy for sale proceeds, as the loss of a flagship lithium asset may prompt a strategic review or repositioning of the investment thesis."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AOK",
+      "company": "AUSTRALIAN OIL COMPANY LIMITED.",
+      "headline": "Surat Development Advances",
+      "time": "2026-07-12T23:27:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110311-6A1333558",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material progress at the Surat Basin project, likely indicating a drilling, permitting, or resource milestone that could re-rate the stock — investors should scrutinise the specific operational trigger disclosed in the body of the announcement.",
+        "As a small-cap energy developer, any confirmed advancement in the Surat development program (Queensland's prolific gas/oil fairway) materially de-risks the asset and could attract farm-in or JV interest, directly impacting near-term funding requirements and cash burn trajectory.",
+        "Next catalysts to monitor include regulatory approvals, well results, or a formal development decision — progression along this timeline would validate the company's path to production and is critical given the capital-intensive nature of Surat Basin development."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KCN",
+      "company": "KINGSGATE CONSOLIDATED LIMITED.",
+      "headline": "FY26 Guidance Achieved and June Quarterly Production",
+      "time": "2026-07-12T23:25:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110308-2A1684069",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "FY26 guidance achieved signals operational execution credibility at the Chatree Gold Mine in Thailand — a significant de-risking milestone given the asset's historically complex regulatory and operational history, likely to attract renewed institutional interest.",
+        "June quarterly production figures will be scrutinised for gold output consistency and all-in sustaining cost (AISC) trends; any improvement in cost metrics against a backdrop of elevated gold prices (~AUD 5,000/oz) would materially amplify free cash flow generation and balance sheet strength.",
+        "With full-year guidance met, market focus shifts to FY27 guidance, mine life extensions, and potential capital returns or exploration catalysts at Chatree — Kingsgate's ability to articulate a credible growth pathway will be the key re-rating driver in the near term."
+      ],
+      "tags": [
+        "Quarterly",
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CRI",
+      "company": "CRITICA LIMITED",
+      "headline": "Jupiter Resource Drilling Confirms Priority High-Grade Zones",
+      "time": "2026-07-12T23:25:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110307-6A1333556",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling at Jupiter Resource has confirmed high-grade mineralisation within priority target zones, a critical de-risking milestone that validates the geological model and strengthens the project's resource development thesis for institutional investors assessing exploration-stage risk.",
+        "The market-sensitive classification signals results materially exceed or diverge from prior expectations — investors should scrutinise assay grades, intercept widths, and depth continuity against the existing resource estimate to gauge potential resource upgrade magnitude and economic viability uplift.",
+        "Near-term catalysts hinge on follow-up infill and extensional drilling programs; confirmation of high-grade continuity could accelerate a maiden or updated JORC resource estimate, representing the next key re-rating event and potential trigger for project financing discussions or strategic partner interest."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MKR",
+      "company": "MANUKA RESOURCES LTD.",
+      "headline": "Updated Ore Reserve - Wonawinta Silver Mine",
+      "time": "2026-07-12T23:21:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110303-2A1684066",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "An updated Ore Reserve at Wonawinta is a market-sensitive catalyst — any material increase in contained silver ounces or reserve grade directly re-rates the project's NPV and strengthens the case for project financing or a restart decision, making the quantum of the revision the critical number to watch.",
+        "Reserve updates at silver projects are closely scrutinised for strip ratio, cut-off grade assumptions, and silver price deck used — if Manuka has applied a conservative silver price (e.g. US$22-24/oz) yet still grown the reserve, it signals genuine geological confidence and provides a buffer against spot price volatility currently above US$30/oz.",
+        "For a junior like Manuka Resources, a credible reserve upgrade at Wonawinta is a prerequisite for securing debt or offtake financing to fund a mine restart; investors should watch for any accompanying commentary on development timelines, capital cost estimates, or strategic partnership discussions as the logical next step."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KCN",
+      "company": "KINGSGATE CONSOLIDATED LIMITED.",
+      "headline": "Plant 1 Processing Interruption at the Chatree Gold Mine",
+      "time": "2026-07-12T23:21:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110301-2A1684067",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Unplanned processing interruption at Plant 1 of the Chatree Gold Mine signals an immediate operational disruption that will directly reduce gold output and near-term revenue generation — a material concern given Chatree is Kingsgate's sole producing asset and primary cash flow engine.",
+        "The market-sensitive classification underscores that management itself views the production shortfall as financially significant; investors should watch for quantification of lost throughput (tonnes and gold ounces foregone) and any revision to full-year production guidance in follow-up disclosures.",
+        "Key near-term focus will be on the speed of remediation, whether the interruption is mechanical or process-related, and whether Plant 2 capacity can partially offset losses — any extended downtime risks a formal guidance downgrade and heightened scrutiny of Kingsgate's operating cost absorption at reduced throughput rates."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KAU",
+      "company": "KAISER REEF LIMITED",
+      "headline": "Production and Cash Balance Update",
+      "time": "2026-07-12T23:19:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110298-6A1333553",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kaiser Reef's production and cash balance update signals a critical operational checkpoint — investors should scrutinise whether gold output is tracking in line with guidance, as any shortfall would pressure the company's ability to self-fund ongoing mine development without resorting to dilutive capital raises.",
+        "Cash balance disclosure is the key metric here: for a small-cap gold producer like Kaiser Reef, the absolute cash position and its trajectory relative to operational burn rate will determine near-term financial resilience and whether external funding is required in the coming quarters.",
+        "The market-sensitive classification elevates the importance of this release — if production numbers demonstrate improving mill throughput or grade reconciliation at the A1 Mine, it could catalyse a re-rating; conversely, operational underperformance or a deteriorating cash position would likely trigger selling pressure from momentum-driven investors."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REC",
+      "company": "RECHARGE METALS LIMITED",
+      "headline": "Recharge extends Prospero Gold Trend through Acquisition",
+      "time": "2026-07-12T23:18:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110296-6A1333550",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Recharge Metals has expanded its footprint along the Prospero Gold Trend through a strategic acquisition, directly extending its contiguous tenure and increasing the prospective strike length available for exploration — a critical value driver for early-stage gold explorers where land position often dictates re-rating potential.",
+        "The market-sensitive classification signals material new ground acquisition, likely involving consideration in scrip, cash, or a combination; investors should scrutinise deal terms for dilution risk and whether the acquired tenements carry existing resource estimates or historical drilling data that could fast-track newsflow.",
+        "Near-term catalysts hinge on Recharge's ability to integrate the new tenements into its exploration pipeline and deliver drill results across the extended trend — with gold sentiment broadly supportive at current spot prices, a well-executed follow-up drilling program could meaningfully re-rate the stock from its current early-stage valuation."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STM",
+      "company": "SUNSTONE METALS LTD",
+      "headline": "Becoming a substantial holder from DGR",
+      "time": "2026-07-12T23:17:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110295-2A1684064",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "DGR Global has crossed the 5% substantial holder threshold in Sunstone Metals, signalling a meaningful accumulation of stock by an experienced resource-focused investor — this level of conviction from an institutional-style holder can act as a quality signal to the broader market.",
+        "The filing triggers mandatory disclosure obligations under ASX Listing Rules, confirming DGR's stake has been built to a level that grants it formal influence over key shareholder votes, including capital raises and board resolutions — a structural shift in the register worth monitoring.",
+        "Investors should watch for any follow-on activity from DGR, including further on-market buying, a strategic partnership announcement, or board representation requests, as substantial holder filings at junior explorer level often precede corporate activity or increased strategic alignment."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FUN",
+      "company": "FORTUNA METALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-07-12T23:17:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110294-6A1333549",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Fortuna Metals (FME) has entered a trading halt pending a material announcement — the market-sensitive classification signals a potentially significant corporate event, most likely a capital raise, M&A transaction, or major asset update given the company's early-stage gold exploration profile in Canada.",
+        "As a junior explorer with limited revenue, any capital raise would be closely scrutinised for dilution risk and pricing relative to the last traded price; institutional investors should monitor the halt duration and any placement terms that emerge.",
+        "The trading halt is expected to remain in place until the company releases the pending announcement or at market open on the next trading day — investors should watch for details on deal structure, counterparties, or resource/drilling milestones that could materially re-rate the stock."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MGU",
       "company": "MAGNUM MINING AND EXPLORATION LIMITED",
