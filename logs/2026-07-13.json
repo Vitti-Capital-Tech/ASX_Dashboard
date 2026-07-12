@@ -1,9 +1,297 @@
 {
   "date": "2026-07-13",
-  "total": 61,
-  "market_sensitive_count": 56,
-  "generated_at": "2026-07-12T23:04:01.941601+00:00",
+  "total": 76,
+  "market_sensitive_count": 70,
+  "generated_at": "2026-07-12T23:19:48.129205+00:00",
   "announcements": [
+    {
+      "ticker": "MGU",
+      "company": "MAGNUM MINING AND EXPLORATION LIMITED",
+      "headline": "JACK LIFTON JOINS MAGNUM MINING",
+      "time": "2026-07-12T23:15:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110291-6A1333551",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Jack Lifton, a globally recognised critical minerals strategist and co-founder of Technology Metals Research, joining Magnum's advisory ranks signals a deliberate pivot toward positioning the company within the high-profile critical minerals supply chain narrative — a sector commanding premium investor attention and government-backed capital flows.",
+        "The appointment carries reputational weight that could accelerate institutional and strategic investor engagement, particularly from North American and European offtake or funding partners who recognise Lifton's influence in rare earth and technology metals circles — potentially de-risking the path to project financing.",
+        "Near-term catalysts to watch include whether Lifton's involvement translates into tangible offtake discussions, joint venture interest, or inclusion in critical minerals registries; without these follow-through steps, the market-sensitive classification risks overstating the immediate fundamental impact on a junior explorer."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BOT",
+      "company": "BOTANIX PHARMACEUTICALS LTD",
+      "headline": "Notice of Allowance for US patent on Sofdra drug substance",
+      "time": "2026-07-12T23:13:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110288-6A1333548",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The USPTO Notice of Allowance for Sofdra's drug substance patent significantly strengthens Botanix's IP moat around its FDA-approved topical anticholinergic, extending exclusivity protection and creating a higher barrier to generic competition — a critical value driver for a recently commercialised asset.",
+        "This patent layering strategy (adding drug substance protection on top of existing formulation/method patents) is a standard but highly effective lifecycle management tool; for a company of Botanix's market cap, it materially de-risks the revenue trajectory of Sofdra and enhances the asset's attractiveness to potential licensing or partnership counterparties.",
+        "With Sofdra's US commercial launch underway, securing this additional patent exclusivity supports longer-term revenue visibility and could strengthen Botanix's negotiating position in any future out-licensing, co-promotion, or M&A discussions — investors should watch for commercial uptake data and any partnership announcements as the next key catalysts."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LPE",
+      "company": "LOCALITY PLANNING ENERGY HOLDINGS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-12T23:13:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110287-2A1684061",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Locality Planning Energy (LPE) has entered a trading halt, suspending price discovery for the embedded energy network operator — the halt is flagged as market sensitive, signalling a material corporate or operational development is imminent rather than routine administrative action.",
+        "As a small-cap embedded electricity network provider servicing residential communities and retirement villages, LPE's market-sensitive halts historically precede capital raises or M&A activity; institutional investors should monitor for potential dilution risk or a strategic transaction that could re-rate the stock materially in either direction.",
+        "The trading halt provides LPE management a controlled window — typically up to two ASX business days — to finalise and release the pending announcement; investors should await the substantive disclosure before repositioning, as the binary nature of the outcome (deal/raise vs. operational issue) makes pre-announcement speculation high-risk."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TET",
+      "company": "TETRAGON ENERGY LIMITED",
+      "headline": "Tetragon Awards Key Philippines Seismic Processing Contract",
+      "time": "2026-07-12T23:11:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110285-6A1333547",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Awarding a seismic processing contract in the Philippines signals Tetragon is actively advancing its upstream exploration program, a critical de-risking milestone that moves the asset closer to drillable prospect generation and potential resource definition.",
+        "As a market-sensitive disclosure, the contract award implies material operational and financial commitment — investors should watch for contract value, counterparty credentials, and timeline to processed data delivery, as these will determine the pace of any resource upgrade or farm-out optionality.",
+        "Successful seismic processing could serve as a near-term catalyst for a farm-out, joint venture, or capital raise to fund drilling, making this a key inflection point for the company's Philippines acreage valuation and broader re-rating potential."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RCM",
+      "company": "RAPID CRITICAL METALS LIMITED",
+      "headline": "Outstanding Silver Lead & Zinc Flotation Recoveries",
+      "time": "2026-07-12T23:10:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110283-2A1684058",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Rapid Critical Metals has achieved commercially compelling flotation recoveries for silver, lead, and zinc — headline metrics that directly de-risk the metallurgical pathway and strengthen the economic case for a future processing facility, a critical gating factor for project financing and offtake negotiations.",
+        "Outstanding recovery rates (typically >90% in best-in-class base/precious metal flotation) validate the ore's amenability to conventional processing, materially reducing capital and operating cost uncertainty in any forthcoming Scoping Study or PFS — key inputs institutional investors will scrutinise for NPV sensitivity.",
+        "These results position the company to accelerate downstream study work and potential strategic partnerships or offtake discussions with smelters/traders; near-term catalysts to watch include resource estimate updates, maiden Scoping Study timelines, and any capital raise to fund the next study phase."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "COV",
+      "company": "CLEO DIAGNOSTICS LTD",
+      "headline": "CLEO Enters Analytical Validation Phase",
+      "time": "2026-07-12T23:10:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110281-3A697026",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Entering analytical validation is a critical de-risking milestone for Cleo's diagnostic platform — this phase tests assay accuracy, precision, and reproducibility against regulatory benchmarks, directly gating any pathway to clinical trials or regulatory submission (TGA/FDA).",
+        "For a pre-revenue diagnostics company, successful analytical validation materially compresses the timeline to commercialisation and typically catalyses re-rating by specialist healthcare investors tracking development-stage biotech inflection points.",
+        "Investors should monitor the validation outcomes closely — failure or delays here would stall the regulatory pathway and pressure cash runway, while positive data would set up the next catalyst: clinical validation studies and potential partnership or licensing discussions."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EQR",
+      "company": "EQ RESOURCES LIMITED",
+      "headline": "EQR Barruecopardo Back To Mining Higher Grade Ore",
+      "time": "2026-07-12T23:10:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110280-2A1684055",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Barruecopardo mine in Spain has returned to processing higher-grade tungsten ore, a critical operational inflection point that should directly improve concentrate output and unit economics after what appears to have been a period of lower-grade mining — a key catalyst for margin recovery at EQR's flagship asset.",
+        "Higher-grade ore feed typically translates to improved recovery rates and lower cost-per-unit of tungsten trioxide (WO₃) produced, meaning this development could materially lift near-term revenue without requiring additional capital expenditure or throughput increases — watch for upgraded production guidance in the next quarterly.",
+        "With tungsten classified as a critical mineral and supply chains under geopolitical scrutiny, any positive production signal from one of Europe's few operating tungsten mines carries outsized strategic weight; institutional investors should monitor whether this grade improvement is sustained through the next quarterly report (Q report) to confirm a durable operational turnaround rather than a short-term blip."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BGE",
+      "company": "BRIDGE SAAS LIMITED",
+      "headline": "Divestment of non-core Brightside Investment",
+      "time": "2026-07-12T23:09:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110277-2A1684052",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic portfolio rationalisation signals management's intent to sharpen focus on core SaaS operations — divesting non-core assets like Brightside typically reduces operational drag and can improve capital allocation efficiency for the primary business.",
+        "The financial terms of the divestment are critical: proceeds received (if any) will directly impact cash runway and reduce burn rate, a key metric for a SaaS-stage company where recurring revenue growth and path to profitability are under investor scrutiny.",
+        "Near-term watch points include whether divestment proceeds will be redeployed into product development or customer acquisition, and whether any residual liabilities or earnout obligations remain attached to the Brightside asset — details that will determine the true net benefit to shareholders."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CUP",
+      "company": "COUNT LIMITED",
+      "headline": "Acquisition update and enhanced credit facility secured",
+      "time": "2026-07-12T23:09:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110276-2A1684053",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "The dual announcement of an acquisition update combined with an enhanced credit facility signals Count Limited is actively scaling its financial advice network — the upgraded debt facility provides dry powder to fund integration costs and potential further bolt-on acquisitions without immediate equity dilution.",
+        "Securing an enhanced credit facility is a key de-risking event for the acquisition thesis, suggesting lenders have conducted due diligence and are comfortable with Count's balance sheet and earnings visibility — this materially reduces execution risk and improves deal certainty for the market.",
+        "Investors should watch for disclosure of revised facility limits, drawdown terms, and any updated earnings accretion guidance from the target acquisition, as these metrics will determine whether the deal is value-accretive at current multiples and whether Count's leverage profile remains within institutional comfort zones."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VFX",
+      "company": "VISIONFLEX GROUP LIMITED",
+      "headline": "Q4 FY26 Quarterly Activity Report",
+      "time": "2026-07-12T23:04:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110271-2A1684049",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash position and burn rate are critical watch items — as a small-cap healthcare technology company, VFX's Q4 FY26 quarterly will reveal whether the business has sufficient runway to fund operations without imminent dilutive capital raising, making cash receipts from customers versus operating outflows the key metric to scrutinise.",
+        "Revenue trajectory from telehealth device deployments and recurring SaaS/service contracts will indicate whether VFX is converting its clinical partnership pipeline into sustainable ARR growth, with any quarter-on-quarter uplift in customer receipts signalling commercial momentum in its remote patient monitoring platform.",
+        "Forward guidance on enterprise contract wins, new healthcare system integrations, or expansion into international markets (particularly the US and Middle East where VFX has previously flagged opportunities) will determine whether the company can scale beyond its current base and justify its market capitalisation against peers."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TIO",
+      "company": "TEMAS RESOURCES CORP.",
+      "headline": "Temas's RCL Patent Portfolio Expands into Chromium",
+      "time": "2026-07-12T23:03:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110270-6A1333545",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Temas has extended its Rare Caustic Leach (RCL) patent portfolio into chromium processing, materially broadening the addressable market beyond its initial focus — chromium is a critical mineral used in stainless steel, aerospace alloys, and battery technologies, adding significant commercial optionality to the IP estate.",
+        "The patent expansion signals a technology-first monetisation strategy, where licensing or joint-venture revenues from the RCL process could become a meaningful non-dilutive income stream; however, no financial terms, royalty structures, or commercialisation timelines have been disclosed, leaving near-term revenue contribution speculative.",
+        "Key near-term catalysts to watch include: confirmation of patent grant status and jurisdictions covered, identification of potential chromium processing partners or offtake counterparties, and any update on pilot-scale or commercial-scale validation of the RCL process for chromium — without these, the announcement remains largely indicative of strategic intent rather than de-risked value creation."
+      ],
+      "tags": [
+        "Mining",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VFX",
+      "company": "VISIONFLEX GROUP LIMITED",
+      "headline": "Q4 FY26 Appendix 4C",
+      "time": "2026-07-12T23:03:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110268-2A1684048",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-profitability healthtech, the Q4 Appendix 4C will reveal whether VFX has sufficient liquidity to fund operations through FY27 without requiring a dilutive capital raise, with investors scrutinising closing cash balance and net operating cash outflows.",
+        "Revenue trajectory and customer receipts will be key indicators of commercial traction — any sequential quarter-on-quarter growth in receipts from customers would signal that VisionFlex's telehealth and remote patient monitoring platform is gaining enterprise or government contract momentum, particularly in aged care and rural health verticals.",
+        "Guidance and strategic milestones disclosed alongside the 4C will determine near-term sentiment — confirmation of new contract wins, partnership expansions, or a pathway to cash flow breakeven would be material catalysts, while silence or deterioration in key metrics could pressure the stock given its small-cap, high-risk profile."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FXG",
+      "company": "FELIX GOLD LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-12T23:01:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110267-2A1684047",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Felix Gold Limited, indicating that a major shareholder has either increased or decreased their position beyond the 5% disclosure threshold — a key indicator of institutional conviction or exit pressure.",
+        "The nature of the movement (accumulation vs. disposal) will determine directional read-through; accumulation by a sophisticated holder could signal confidence in Felix Gold's Treasure Creek gold project in Alaska, while a reduction may flag waning institutional support for the early-stage explorer.",
+        "Investors should monitor subsequent filings to identify the counterparty and transaction price, as substantial holder movements in small-cap gold explorers can foreshadow strategic activity including placements, offtake discussions, or M&A approaches — particularly relevant given elevated gold prices providing a supportive macro backdrop."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KNI",
+      "company": "KUNIKO LIMITED",
+      "headline": "Phase 2 Drilling Commences",
+      "time": "2026-07-12T23:01:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110266-6A1333544",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Phase 2 drilling commencement signals Kuniko has met Phase 1 geological thresholds, de-risking the project and validating the exploration thesis — a critical inflection point for a battery metals explorer targeting European nickel, cobalt and copper deposits.",
+        "The market-sensitive classification elevates investor attention; institutional interest in European-sourced critical minerals remains elevated given EU Critical Raw Materials Act tailwinds, positioning any meaningful drill results as potential re-rating catalysts for this small-cap.",
+        "Key near-term watch points include drill hole targets, depth/strike extensions from Phase 1 intercepts, and updated resource estimates — investors should monitor whether Phase 2 scope has been expanded, which would signal increased management conviction in the deposit's scale."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IIQ",
+      "company": "INOVIQ LTD",
+      "headline": "Quarterly Activities Report and Appendix 4C - June 2026",
+      "time": "2026-07-12T23:01:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110265-3A697024",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue diagnostics biotech, INOVIQ's quarterly burn rate and closing cash balance will determine whether a near-term capital raise is required, with investors scrutinising whether the company has sufficient funds to reach its next clinical or commercial milestone without dilutive equity issuance.",
+        "Operational progress across its EV (extracellular vesicle) liquid biopsy platform and SUB-B breast cancer diagnostic program will be assessed for any partnership, licensing, or commercialisation signals that could de-risk the development timeline and validate the technology's market readiness.",
+        "Forward guidance on upcoming catalysts — including any clinical data readouts, regulatory submissions, or strategic partnership discussions — will be key to whether the market re-rates the stock; absence of material progress given the market-sensitive flag may trigger selling pressure from momentum investors."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "RC1",
       "company": "REDCASTLE RESOURCES LIMITED",
