@@ -1,9 +1,67 @@
 {
   "date": "2026-07-13",
-  "total": 102,
-  "market_sensitive_count": 95,
-  "generated_at": "2026-07-13T00:04:13.628202+00:00",
+  "total": 105,
+  "market_sensitive_count": 97,
+  "generated_at": "2026-07-13T00:33:15.011805+00:00",
   "announcements": [
+    {
+      "ticker": "XF1",
+      "company": "XREF LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-07-13T00:09:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110367-2A1684095",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has dropped below the 5% ownership threshold in Xref Limited (XF1), triggering a mandatory cease-to-be notice — indicating a meaningful sell-down of a previously significant stake in this HR technology company.",
+        "The exit of a substantial holder typically signals reduced conviction from a larger institutional or strategic investor, which can create near-term overhang as the market absorbs the freed-up stock and reassesses the register's composition.",
+        "Investors should monitor whether this departure reflects broader portfolio rebalancing or a more fundamental reassessment of Xref's growth trajectory in the competitive reference-checking and talent verification SaaS space — upcoming quarterly updates will be key to gauging underlying business momentum."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TRE",
+      "company": "TOUBANI RESOURCES LIMITED",
+      "headline": "Funding Secured to Advance Kobada into Production",
+      "time": "2026-07-13T00:05:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110363-6A1333575",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Funding secured represents a critical de-risking milestone for Kobada — eliminating the primary execution risk that has historically discounted junior gold developers; the market will now price Toubani closer to a construction-stage asset rather than an exploration-stage company.",
+        "The financing package removes near-term equity dilution uncertainty, suggesting the capital structure is sufficiently backstopped to advance Kobada (Mali) toward production without a heavily dilutive equity raise — a key concern for existing shareholders given the current gold price environment above US$2,300/oz which materially improves project economics.",
+        "Next catalyst focus shifts to construction commencement timelines, permitting milestones, and first-gold guidance; investors should monitor drawdown conditions and any offtake or streaming arrangements embedded in the funding structure, as these will define long-term margin capture and upside leverage to gold prices."
+      ],
+      "tags": [
+        "Mining",
+        "Capital Raise",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "C7A",
+      "company": "CLARA RESOURCES AUSTRALIA LTD",
+      "headline": "Maiden field program returns up to 27.3g/t Mareeba Gold",
+      "time": "2026-07-13T00:04:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110362-2A1684094",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Clara Resources' maiden field program at Mareeba has returned peak rock chip assays of 27.3g/t gold, a high-grade result that validates the project's prospectivity and meaningfully de-risks the exploration thesis for a company at an early-stage discovery phase.",
+        "The 'maiden' designation is critical context — this is the first systematic field work on the tenement, suggesting the high-grade surface hits represent the top of a potentially larger mineralised system yet to be drill-tested, with significant resource definition upside if grades persist at depth.",
+        "Near-term catalysts will hinge on the company's ability to convert these surface results into a drill program; investors should monitor for a follow-up announcement detailing drill targets, permitting timelines, and whether additional capital will be required to fund the next exploration phase given the company's likely limited cash position as a junior explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "LMG",
       "company": "LATROBE MAGNESIUM LIMITED",
