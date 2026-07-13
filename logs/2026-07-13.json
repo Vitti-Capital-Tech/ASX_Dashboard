@@ -1,9 +1,66 @@
 {
   "date": "2026-07-13",
-  "total": 112,
-  "market_sensitive_count": 103,
-  "generated_at": "2026-07-13T01:36:23.017398+00:00",
+  "total": 115,
+  "market_sensitive_count": 104,
+  "generated_at": "2026-07-13T03:05:38.949964+00:00",
   "announcements": [
+    {
+      "ticker": "OBL",
+      "company": "OMNI BRIDGEWAY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-13T02:56:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110433-6A1333612",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in Omni Bridgeway's institutional ownership structure, which warrants monitoring for directional intent — whether accumulation or partial exit — as it can foreshadow activist positioning or a strategic reassessment of the litigation finance sector.",
+        "Omni Bridgeway has faced sustained share price pressure amid concerns over fund performance, case duration extensions, and capital allocation efficiency; any reduction in a substantial holder's position could reflect diminishing conviction in near-term case monetisation timelines.",
+        "Investors should track whether this filing reflects a crossing of the 5% threshold upward or downward, as a declining stake from a key institutional holder may amplify selling pressure in an already thinly traded stock, while an increase could signal contrarian value interest ahead of potential portfolio realisation events."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HIQ",
+      "company": "HITIQ LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-07-13T02:29:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110427-6A1333608",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in HitIQ Limited (HIQ), crossing the 5% ownership threshold — a key signal of meaningful institutional or strategic interest in the company's concussion detection technology platform.",
+        "The filing triggers mandatory disclosure obligations under the Corporations Act, indicating the acquirer has accumulated a significant stake likely through on-market purchases, which may have provided quiet price support during the accumulation period.",
+        "Investors should monitor whether this represents a passive financial position or the precursor to a strategic move — given HitIQ's niche in wearable head impact sensors for elite sport, a substantial holder could signal partnership interest or a potential M&A approach down the line."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "G11",
+      "company": "G11 RESOURCES LIMITED",
+      "headline": "Tasmania Exploration - Drilling Update",
+      "time": "2026-07-13T02:21:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110423-2A1684122",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive drilling update from G11 Resources' Tasmania exploration program signals material newsflow that could re-rate the stock — investors should focus on intercept grades, widths, and whether results confirm or disappoint the geological model underpinning the project's resource potential.",
+        "As a junior explorer, G11's valuation is highly leverage to drill results; any significant mineralisation intersections would validate the exploration thesis and likely catalyse renewed institutional and retail interest in what remains a speculative-stage asset.",
+        "Near-term focus shifts to whether the company has sufficient cash runway to fund follow-up drilling if results are positive — investors should scrutinise the balance sheet and any commentary on future work programs or potential capital requirements to advance the project."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "KLV",
       "company": "KLEVO REWARDS LIMITED",
