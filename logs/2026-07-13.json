@@ -1,9 +1,144 @@
 {
   "date": "2026-07-13",
-  "total": 105,
-  "market_sensitive_count": 97,
-  "generated_at": "2026-07-13T00:33:15.011805+00:00",
+  "total": 112,
+  "market_sensitive_count": 103,
+  "generated_at": "2026-07-13T01:36:23.017398+00:00",
   "announcements": [
+    {
+      "ticker": "KLV",
+      "company": "KLEVO REWARDS LIMITED",
+      "headline": "Stablecoin announcement clarification",
+      "time": "2026-07-13T01:27:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110399-6A1333595",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Clarification announcement signals prior stablecoin disclosure created market confusion or potential regulatory concern — the need for a formal ASX clarification on a market-sensitive basis suggests the original announcement may have overstated or mischaracterised the company's stablecoin capabilities or partnerships, raising credibility risk.",
+        "Stablecoin-related narratives have historically driven speculative retail volume in small-cap ASX tech names; a walk-back or clarification typically deflates that momentum, with the key question being whether any commercial agreements or revenue projections underpinning the original announcement remain intact.",
+        "Investors should scrutinise the precise language of the clarification for any reduction in scope, partner confirmation, or timeline changes — if the clarification materially narrows the original claim, downside re-rating is likely; if it merely adds context without retraction, sentiment may stabilise quickly."
+      ],
+      "tags": [
+        "Technology",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BIT",
+      "company": "BIOTRON LIMITED",
+      "headline": "Sedarex First Milestone Met",
+      "time": "2026-07-13T01:24:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110397-2A1684112",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Biotron has confirmed the first milestone under its Sedarex licensing agreement has been met, triggering a milestone payment that provides a non-dilutive cash inflow — critical for a pre-revenue biotech managing burn rate without near-term equity raises.",
+        "Milestone achievement validates the commercial and technical progress of the Sedarex asset, de-risking the licensing deal structure and signalling the counterparty remains engaged and performing — a meaningful proof point for the underlying IP value.",
+        "Investors should watch for disclosure of the milestone payment quantum and the timeline to subsequent milestones, as the cadence of future payments will be a key determinant of cash runway extension and the need (or avoidance) of future capital raises."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MML",
+      "company": "MCLAREN MINERALS LIMITED",
+      "headline": "Completion of 2026 Drilling at McLaren",
+      "time": "2026-07-13T01:16:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110395-6A1333594",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Completion of the 2026 drilling program is a material catalyst milestone — results from this campaign will directly determine whether McLaren Minerals can advance its resource definition and support a maiden or upgraded JORC resource estimate, which is the key value inflection point for junior explorers.",
+        "The market-sensitive classification signals management expects drilling outcomes to be material to valuation — investors should watch closely for assay results and any resource estimate revisions, as these will drive re-rating potential or downside risk depending on grade and continuity data.",
+        "Next steps hinge on laboratory turnaround times for assay results and subsequent geological interpretation; any delay in results or disappointing intercepts could stall momentum, while strong hits could trigger institutional interest and re-rating in a sector where discovery-stage news flow is the primary share price driver."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NRX",
+      "company": "NORONEX LIMITED",
+      "headline": "NORONEX ACQUIRES SIGNIFICANT TIN PROJECT IN ALASKA, USA",
+      "time": "2026-07-13T01:13:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110391-6A1333592",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic portfolio expansion into a tier-1 mining jurisdiction: Noronex has acquired a tin project in Alaska, USA, diversifying beyond its existing African asset base and gaining exposure to a critical mineral increasingly prioritised by US industrial and defence supply chain policy — a potential re-rating catalyst if the asset has meaningful resource potential.",
+        "Tin's structural demand story strengthens the deal's strategic logic — the metal is a key input in electronics solder and emerging energy technologies, with global supply heavily concentrated in politically sensitive jurisdictions (China, Myanmar, Indonesia), making a US-domiciled asset potentially attractive to offtake partners and government-backed funding programs such as the US DPA Title III.",
+        "Key near-term catalysts to watch include the disclosure of acquisition terms (cash, scrip, or staged payments), any existing historical resource data on the Alaskan tenure, and whether Noronex will need to raise capital to fund exploration — with the company's cash position and burn rate critical to assessing dilution risk for existing shareholders."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ACU",
+      "company": "ACUMENTIS GROUP LIMITED",
+      "headline": "Notice Pursuant to section 249D of Corporations Act",
+      "time": "2026-07-13T01:12:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110390-2A1684108",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A Section 249D notice signals that a shareholder holding at least 5% of ACU's shares is compelling the board to convene a general meeting — a significant escalation indicating active shareholder dissatisfaction or a push for strategic/governance change.",
+        "This is a market-sensitive filing, suggesting the requisitioning party may be seeking board spills, strategic alternatives (including potential M&A), or a challenge to current management direction at Acumentis, Australia's largest independent property valuation firm.",
+        "Investors should watch for the formal meeting notice detailing the resolutions proposed — the outcome could materially alter the board composition or corporate strategy, making this a key catalyst event with binary risk for near-term share price movement."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance",
+        "Property"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HAS",
+      "company": "HASTINGS TECHNOLOGY METALS LTD",
+      "headline": "Updated DFS Confirms De-Risked Pathway to Production Revised",
+      "time": "2026-07-13T01:10:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110389-6A1333593",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The updated Definitive Feasibility Study signals a materially de-risked project configuration for the Yangibana Rare Earths Project, likely incorporating revised capex, opex, or phased development assumptions — critical for a company that has faced funding and construction challenges in a difficult rare earths market.",
+        "The 'revised pathway to production' language strongly implies scope or schedule changes designed to lower the capital hurdle and improve project economics, which could unlock previously stalled financing discussions with strategic partners, government bodies, or debt providers — a key re-rating catalyst if credible numbers are delivered.",
+        "Near-term focus will be on whether the DFS revision includes a staged or modular production approach that reduces upfront capital intensity, as this would be the clearest signal that management has addressed the bankability concerns that have weighed on HAS's valuation and delayed first production timelines."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AI1",
+      "company": "ADISYN LTD",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-07-13T00:46:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110380-6A1333591",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Adisyn Ltd (AD1), crossing the 5% ownership threshold — a key regulatory trigger that signals meaningful accumulation and warrants monitoring for potential strategic intent or passive index-driven buying.",
+        "The identity, entry price, and total consideration paid by the substantial holder will be critical data points; if acquired at or above market prices, this signals conviction in AD1's technology commercialisation thesis, particularly around its AI and advanced materials strategy.",
+        "Investors should watch for any follow-on Form 604 (change in substantial holding) filings, which could indicate the new holder is building toward a blocking stake (>10%) or positioning ahead of a potential corporate event such as a capital raise or strategic partnership announcement."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "XF1",
       "company": "XREF LIMITED",
