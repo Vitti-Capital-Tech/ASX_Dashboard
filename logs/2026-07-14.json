@@ -1,9 +1,104 @@
 {
   "date": "2026-07-14",
-  "total": 55,
-  "market_sensitive_count": 48,
-  "generated_at": "2026-07-13T23:09:17.905158+00:00",
+  "total": 60,
+  "market_sensitive_count": 53,
+  "generated_at": "2026-07-13T23:19:56.586308+00:00",
   "announcements": [
+    {
+      "ticker": "TEG",
+      "company": "TRIANGLE ENERGY (GLOBAL) LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-13T23:16:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110742-6A1333761",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt requested by Triangle Energy (Global) Limited signals a material pending announcement — historically, halts of this nature for small-cap energy companies precede capital raises, asset transactions, or significant operational updates that require price-sensitive disclosure management.",
+        "With Triangle Energy operating the Cliff Head oil field in Western Australia and carrying a relatively modest market capitalisation, any capital raise scenario carries meaningful dilution risk, while an M&A or farm-out deal could be materially re-rating — the binary nature of the outcome warrants caution until details emerge.",
+        "Investors should monitor the resumption announcement closely; the halt duration and any accompanying prospectus or term sheet will be critical in determining whether this is a value-accretive corporate event or a dilutive equity raise to fund operational shortfalls or well workover programs."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VRX",
+      "company": "VRX SILICA LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-13T23:14:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110740-6A1333760",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "VRX Silica has entered a trading halt, suspending price discovery and liquidity for investors — the halt is market sensitive, signalling a material corporate development is imminent rather than routine administrative action.",
+        "Trading halts on small-cap ASX miners like VRX are most commonly precursors to capital raises, M&A activity, or significant project/offtake announcements — given VRX's silica sand development pipeline (Arrowsmith North/South projects in WA), a strategic partnership or funding deal is a plausible catalyst.",
+        "Investors should monitor the pending announcement closely; if the halt resolves into a dilutive capital raise at a discount, near-term selling pressure is likely, whereas a binding offtake agreement or strategic investment could re-rate the stock materially given the high-purity silica sand sector's exposure to solar panel and semiconductor supply chains."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BNL",
+      "company": "BLUE STAR HELIUM LIMITED",
+      "headline": "First Helium Sold from Pinon Canyon",
+      "time": "2026-07-13T23:11:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110737-6A1333758",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Blue Star Helium has achieved a critical commercial milestone at Pinon Canyon with its first helium sales, transitioning from exploration/development phase to revenue-generating status — a de-risking event that materially changes the investment thesis for this early-stage helium producer.",
+        "First sales signal that wellhead processing infrastructure is operational and product meets offtake quality specifications; the key near-term focus for investors will be disclosed sale volumes, achieved price per Mcf, and whether this reflects a spot transaction or the commencement of a structured offtake agreement.",
+        "With helium commanding premium pricing globally (Grade-A helium typically USD $300–$900/Mcf depending on purity and contract terms), even modest initial production volumes can meaningfully extend cash runway and validate the path to scale — the next catalyst will be ramp-up guidance and confirmation of sustained flow rates from Pinon Canyon wells."
+      ],
+      "tags": [
+        "Production",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EQR",
+      "company": "EQ RESOURCES LIMITED",
+      "headline": "EQR Investor Presentation",
+      "time": "2026-07-13T23:10:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110733-2A1684305",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material new information likely to be disclosed — investors should scrutinise the presentation for updates on Mt Carbine tungsten operations, production guidance revisions, or potential capital structure changes that could reprice the stock.",
+        "EQ Resources' investment case hinges on tungsten's critical mineral status and European supply chain positioning via the Barruecopardo mine in Spain — any updated offtake agreements, resource upgrades, or cost-per-unit metrics in this presentation would be key valuation catalysts.",
+        "Watch for commentary on cash runway and near-term funding requirements; EQR has historically required equity support to sustain dual-asset development, and any guidance on capex timelines or debt facilities will be critical for assessing dilution risk and project delivery confidence."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BKB",
+      "company": "BLACK BEAR MINERALS LIMITED",
+      "headline": "Historic drillcore re-analysis delivers higher silver grades",
+      "time": "2026-07-13T23:08:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110732-6A1333756",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Re-analysis of historic drillcore at no incremental drilling cost has unlocked higher silver grades, directly improving the project's resource economics and potentially upgrading the mineral resource estimate — a capital-efficient catalyst that de-risks the asset without additional field expenditure.",
+        "Elevated silver grades from re-assaying existing core suggest prior analytical methods may have underestimated the deposit's true tenor, meaning the existing resource base could be materially understated — a significant revision risk to the upside for resource modelling and project NPV.",
+        "The next key inflection points will be whether Black Bear Minerals incorporates these revised grades into a formal resource update and whether the higher silver credits improve project economics sufficiently to attract joint venture or financing interest — investors should watch for a JORC resource revision announcement as the near-term catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "OLY",
       "company": "OLYMPIO METALS LIMITED",
