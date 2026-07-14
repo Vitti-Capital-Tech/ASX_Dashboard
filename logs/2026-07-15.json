@@ -1,9 +1,162 @@
 {
   "date": "2026-07-15",
-  "total": 51,
-  "market_sensitive_count": 46,
-  "generated_at": "2026-07-14T23:09:48.211889+00:00",
+  "total": 59,
+  "market_sensitive_count": 54,
+  "generated_at": "2026-07-14T23:19:24.389743+00:00",
   "announcements": [
+    {
+      "ticker": "L1G",
+      "company": "L1 GROUP LIMITED",
+      "headline": "Funds Under Management and FY26 Performance Fees - June 2026",
+      "time": "2026-07-14T23:17:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111167-2A1684507",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FUM trajectory is the critical valuation driver — any growth in assets under management signals improved base fee revenue and reinforces the scalability of L1's investment platform heading into FY26, with management fee income directly correlated to AUM levels disclosed in this update.",
+        "Performance fee crystallisation for FY26 is a high-margin, lumpy revenue event — if L1's flagship funds have cleared their hurdle rates, the performance fee accrual could represent a material uplift to earnings that consensus estimates may not have fully priced in, given the market-sensitive classification of this release.",
+        "Investors should watch for any commentary on fund outflows, redemption pressures, or changes in fee structures, as these would signal headwinds to the recurring revenue base — conversely, net inflows combined with strong absolute returns would validate the bull case for sustained earnings growth and potential dividend capacity."
+      ],
+      "tags": [
+        "Finance",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SPL",
+      "company": "STARPHARMA HOLDINGS LIMITED",
+      "headline": "Entitlement Offer Investor Presentation",
+      "time": "2026-07-14T23:15:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111166-3A697193",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Equity dilution risk is the immediate concern — an entitlement offer signals Starpharma requires fresh capital to fund operations, likely extending cash runway for its DEP drug delivery and VivaGel pipeline programs, but existing shareholders face dilution if they do not participate.",
+        "The market-sensitive classification suggests the raise is material in size relative to Starpharma's market capitalisation, warranting close scrutiny of the offer price discount to last traded price and the implied burn rate against current cash reserves disclosed in the presentation.",
+        "Key near-term catalysts to watch include whether proceeds are earmarked for specific clinical milestones (e.g. DEP cabazitaxel or partnered programs) or general working capital — the use-of-funds breakdown will be critical in determining whether this raise is strategically value-accretive or purely defensive."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MM8",
+      "company": "MEDALLION METALS LIMITED.",
+      "headline": "Medallion Accelerates Production at Forrestania",
+      "time": "2026-07-14T23:15:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111165-6A1333920",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Medallion is accelerating production at its Forrestania operation, signalling a deliberate shift toward near-term cash generation — a critical inflection point for a junior miner that reduces reliance on equity markets and de-risks the balance sheet.",
+        "The market-sensitive classification underscores material operational progress; investors will be watching closely for updated throughput rates, grade reconciliation, and whether production ramp-up translates into improved unit economics and a clearer path to positive operating cash flow.",
+        "Execution on accelerated production sets the stage for a potential resource/reserve upgrade or maiden production guidance revision — both of which would be meaningful re-rating catalysts and could attract institutional interest in what has historically been a development-stage story."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JGH",
+      "company": "JADE GAS HOLDINGS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-14T23:14:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111164-6A1333921",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Jade Gas Holdings has entered a trading halt flagged as market sensitive, strongly suggesting a material corporate event is imminent — most likely a capital raise, M&A transaction, or significant operational update requiring price-sensitive disclosure management.",
+        "The market-sensitive classification elevates the probability this is not routine administration; for a small-cap gas explorer, common catalysts include farm-in agreements, asset acquisitions, or equity placements that could materially alter the company's capital structure or project timeline.",
+        "Investors should monitor the resumption announcement closely — trading halts of this nature typically resolve within 1-2 trading days, and the nature of the disclosure will be the key determinant of whether the stock re-rates sharply higher or faces dilution-driven selling pressure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LPM",
+      "company": "LITHIUM PLUS MINERALS LTD.",
+      "headline": "Lei Resource Upgrade Delivers 34% Increase in Contained Lith",
+      "time": "2026-07-14T23:14:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111163-2A1684506",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 34% increase in contained lithium at the Lei Resource is a material upgrade that directly expands the project's economic footprint, potentially re-rating the asset's NPV and attracting renewed interest from strategic acquirers or offtake partners in a sector still sensitive to resource scale.",
+        "The quantum of the upgrade signals drilling extensional success beyond prior resource boundaries — investors should scrutinise the updated tonnage, grade profile, and classification split (Measured/Indicated vs. Inferred) to assess how much of the uplift is conversion of confidence versus new discovery, as this determines bankability.",
+        "With lithium sentiment still subdued on price weakness, a resource upgrade of this magnitude positions Lithium Plus Minerals to advance towards a Scoping Study or Pre-Feasibility Study, which would be the logical next catalyst; any accelerated timeline or partnership announcement could serve as a near-term re-rating trigger."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SPL",
+      "company": "STARPHARMA HOLDINGS LIMITED",
+      "headline": "Fully Underwritten Entitlement Offer to Raise $32 Million",
+      "time": "2026-07-14T23:10:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111159-3A697192",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Starpharma is raising $32M via a fully underwritten entitlement offer, providing a meaningful cash injection that should materially extend runway for its DEP drug delivery and VivaGel pipeline programs — the underwritten structure removes execution risk and signals institutional conviction in the raise completing at scale.",
+        "The fully underwritten nature is a key differentiator from a best-efforts raise, suggesting lead managers have secured sufficient institutional demand; however, dilution is unavoidable and existing shareholders face earnings-per-share and ownership dilution unless they participate — the pricing discount to last traded price will be a critical near-term overhang to monitor.",
+        "Proceeds are expected to fund advancement of DEP-based oncology candidates and commercial partnerships, with Starpharma needing to demonstrate near-term clinical or licensing catalysts post-raise to justify the dilution and re-rate the stock — investors should watch for any concurrent pipeline or partnering updates accompanying the offer documentation."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GL1",
+      "company": "GLOBAL LITHIUM RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-14T23:08:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111155-6A1333918",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Global Lithium Resources (GL1) has entered a trading halt pending a material announcement — the market-sensitive classification signals a significant corporate event is imminent, most likely a capital raise, M&A transaction, or major project update given the current distressed lithium market environment.",
+        "With lithium spot prices remaining deeply depressed (~USD 10-12/t spodumene), any capital raise would likely occur at a meaningful discount to NAV, raising dilution risk for existing shareholders; conversely, an M&A bid or strategic partnership could represent a significant premium catalyst.",
+        "Investors should monitor the nature of the pending announcement closely — if confirmed as a capital raise, assess the use-of-proceeds and implied valuation versus GL1's Marble Bar Lithium Project resource base; if M&A-related, scrutinise acquirer credentials and offer structure before the halt is lifted."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BDM",
+      "company": "BURGUNDY DIAMOND MINES LIMITED",
+      "headline": "Arctic Canadian Diamond Company Limited Receivership",
+      "time": "2026-07-14T23:07:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111154-6A1333888",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Arctic Canadian Diamond Company (ACDC), in which Burgundy holds a significant interest, has entered receivership — a severe credit event that likely results in a full or near-full impairment of Burgundy's investment, with material write-down risk to the balance sheet depending on carrying value disclosed in the next reporting period.",
+        "The receivership signals ACDC's inability to service its debt obligations, raising questions about the operational viability of the Ekati Diamond Mine — a tier-1 Canadian asset — and whether a distressed sale or restructuring will crystallise any residual equity value for Burgundy shareholders.",
+        "Burgundy must now clarify its direct financial exposure (loan recoverables, equity carrying value, and any guarantee obligations), define its strategic options (participation in a recapitalisation, asset acquisition out of receivership, or full exit), and manage investor confidence given this is a market-sensitive disclosure with significant uncertainty around recovery outcomes."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "SPL",
       "company": "STARPHARMA HOLDINGS LIMITED",
