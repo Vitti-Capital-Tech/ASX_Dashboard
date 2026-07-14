@@ -1,9 +1,47 @@
 {
   "date": "2026-07-14",
-  "total": 82,
-  "market_sensitive_count": 75,
-  "generated_at": "2026-07-14T00:03:44.349722+00:00",
+  "total": 84,
+  "market_sensitive_count": 76,
+  "generated_at": "2026-07-14T00:29:09.806480+00:00",
   "announcements": [
+    {
+      "ticker": "HIQ",
+      "company": "HITIQ LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-14T00:17:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110818-6A1333786",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of HITIQ Limited (HIQ), indicating a holder has crossed above or below the 5% threshold — warranting close monitoring of whether this reflects accumulation or distribution by a sophisticated investor.",
+        "For a micro-cap technology company like HITIQ — focused on head impact monitoring and concussion management solutions — substantial holder movements can disproportionately impact liquidity and price discovery given typically thin trading volumes on the ASX.",
+        "Investors should track the identity of the substantial holder and the direction of change (entry vs. exit); a new institutional entrant could signal growing conviction in HIQ's commercial pipeline, while an exit may reflect portfolio rebalancing or reduced confidence in near-term revenue catalysts."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MSB",
+      "company": "MESOBLAST LIMITED",
+      "headline": "Pivotal Phase 3 Trial in CLBP Achieves 300 Treated Patients",
+      "time": "2026-07-14T00:00:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03110805-3A697111",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reaching 300 treated patients in the pivotal Phase 3 trial for chronic low back pain (CLBP) is a critical de-risking milestone, confirming Mesoblast's ability to execute on enrolment — a historically problematic area for cell therapy trials that has derailed competitors and eroded investor confidence in the past.",
+        "Full enrolment completion is a prerequisite for the 12-month primary endpoint readout, meaning the clock is now running on the data package required for an FDA BLA submission; with 300 patients treated, top-line results could be expected within approximately 12 months, materially narrowing the timeline to potential commercialisation of a multi-billion dollar addressable CLBP market.",
+        "This milestone reduces binary trial risk and strengthens Mesoblast's negotiating position for potential partnership or licensing deals — particularly relevant given the company's ongoing need to manage cash burn; institutional investors should monitor upcoming quarterly cash flow reports to assess whether runway is sufficient to reach the primary endpoint readout without requiring dilutive capital."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "SOP",
       "company": "SYNERTEC CORPORATION LIMITED",
