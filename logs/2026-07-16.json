@@ -1,9 +1,145 @@
 {
   "date": "2026-07-16",
-  "total": 52,
-  "market_sensitive_count": 46,
-  "generated_at": "2026-07-15T23:11:27.145860+00:00",
+  "total": 59,
+  "market_sensitive_count": 53,
+  "generated_at": "2026-07-15T23:20:59.936142+00:00",
   "announcements": [
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "Trading Halt",
+      "time": "2026-07-15T23:18:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111548-6A1334094",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "EV Resources has entered a trading halt, suspending price discovery and liquidity for shareholders — the market-sensitive classification signals a material corporate development is imminent, likely a capital raise, M&A transaction, or significant asset update.",
+        "Trading halts on small-cap ASX miners (EV Resources operates in the electric vehicle minerals space) most commonly precede equity raisings or strategic partnership announcements; investors should anticipate potential dilution or a re-rating catalyst depending on the nature of the pending disclosure.",
+        "The halt duration will be closely watched — ASX rules typically limit halts to two trading days, meaning a formal announcement is expected imminently; institutional investors should monitor for a prospectus, cleansing notice, or material agreement that will define the directional trade thesis."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TLG",
+      "company": "TALGA GROUP LTD",
+      "headline": "Talga and Dainen Execute Offtake LOI for Japan Anode Supply",
+      "time": "2026-07-15T23:16:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111546-6A1334093",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Talga has secured a Letter of Intent with Japan's Dainen for anode material offtake, marking a critical commercial validation of its Swedish graphite-to-anode supply chain — Japan represents one of the world's most demanding and high-value battery supply chain markets, signalling Talga's product meets stringent quality thresholds.",
+        "While financial terms and volumes are undisclosed at LOI stage, a Japanese offtake partner materially de-risks Talga's path to project financing for its Vittangi anode project, as lenders typically require binding offtake commitments — this LOI adds to existing European customer MoUs and strengthens the commercial case for a Final Investment Decision.",
+        "Next catalysts to watch: conversion of this LOI into a binding offtake agreement, progress on EU permitting for Vittangi, and any project financing announcements — investors should monitor whether Dainen's involvement accelerates Japanese or broader Asian customer interest, given Japan's strategic push to diversify battery raw material supply away from China."
+      ],
+      "tags": [
+        "Mining",
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TRI",
+      "company": "TRIVARX LTD",
+      "headline": "Stabl-Im clinical trial supply milestone achieved",
+      "time": "2026-07-15T23:15:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111545-3A697247",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Trivarx has achieved a critical clinical trial supply milestone for its Stabl-Im program, confirming the trial remains on track and reducing execution risk — a key de-risking event that validates the company's development timeline and operational capability.",
+        "As a market-sensitive disclosure, this milestone likely triggers a pre-agreed supply or manufacturing threshold, signalling that patient dosing or trial commencement is imminent — a binary catalyst that could materially re-rate the stock if trial initiation follows in the near term.",
+        "Next catalyst to watch is first patient enrolment or dosing confirmation; investors should monitor cash runway relative to trial burn rate, as clinical supply readiness typically precedes a period of elevated operational expenditure that may necessitate future capital management decisions."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "UNT",
+      "company": "UNITH LTD",
+      "headline": "Placement and Entitlement Offer to raise $2.75M",
+      "time": "2026-07-15T23:14:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111542-3A697241",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "UNITH is raising $2.75M via a combined placement and entitlement offer, a relatively modest capital raise that signals the company is likely operating near the limits of its existing cash runway — institutional investors should scrutinise the implied burn rate and how many quarters of runway this injection provides.",
+        "The dual-structure raise (placement + entitlement offer) attempts to balance speed of capital access with retail shareholder fairness, but the small quantum suggests limited institutional appetite and raises questions about whether this will be sufficient to reach the next meaningful value inflection point without a follow-on raise.",
+        "Key near-term focus should be on the issue price relative to the last traded price (discount depth is a key dilution signal), use-of-funds disclosure, and whether management has articulated a clear path to revenue self-sufficiency — without these, the raise risks being perceived as a short-term survival measure rather than a growth catalyst."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MAP",
+      "company": "MICROBA LIFE SCIENCES LIMITED",
+      "headline": "Q4 FY26 Quarterly Investor Presentation & Webinar",
+      "time": "2026-07-15T23:12:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111538-2A1684678",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Market-sensitive designation signals material disclosure expected — investors should watch closely for updates on cash burn rate, revenue trajectory, and whether Microba is approaching a critical funding decision point given typical biotech cash runway pressures at this stage.",
+        "As a gut microbiome diagnostics and therapeutics company, Q4 FY26 results will be scrutinised for commercial traction in its MetaXplore testing service and any pipeline milestones for its therapeutic assets — sequential revenue growth or a path to cash flow breakeven would be a key re-rating catalyst.",
+        "The webinar format suggests management is actively managing investor relations, likely to address near-term capital needs or strategic partnerships; any guidance on FY27 revenue targets or confirmation of sufficient cash runway beyond 12 months will be pivotal for institutional confidence."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TEG",
+      "company": "TRIANGLE ENERGY (GLOBAL) LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-07-15T23:10:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111537-6A1334089",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Triangle Energy (TEG) has been suspended from quotation on the ASX, indicating a significant corporate event is imminent — most likely tied to a pending capital raise, merger/acquisition, or material disclosure requiring a trading halt to ensure market integrity.",
+        "Suspension from quotation is a market-sensitive event that prevents investors from trading TEG shares, creating forced illiquidity risk for existing holders and signalling that price-sensitive information is being withheld pending formal announcement — a critical red flag for short-term positioning.",
+        "Investors should monitor closely for the triggering announcement, which will define the directional outcome; given TEG's profile as a small-cap ASX energy producer (focused on Perth Basin oil assets), potential catalysts include asset sale, farm-out deal, or emergency equity raising to address balance sheet pressures."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LOT",
+      "company": "LOTUS RESOURCES LIMITED",
+      "headline": "Kayelekera Project Update and Voluntary Suspension Extension",
+      "time": "2026-07-15T23:09:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111535-6A1334087",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Voluntary suspension extension signals material complexity in ongoing project negotiations or financing arrangements at Kayelekera — the prolonged trading halt raises red flags around deal certainty and timeline slippage, which institutional investors will view cautiously until specifics are disclosed.",
+        "Kayelekera is a fully permitted, past-producing uranium project in Malawi with significant restart potential; however, any delay in project update delivery suggests offtake, funding, or regulatory hurdles may be more protracted than previously guided, directly impacting near-term catalysts the market had priced in.",
+        "Investors should watch for the substance of the forthcoming project update — key variables include binding offtake agreements, debt/equity financing structure, and updated capital cost estimates against a uranium spot price (~USD 65-70/lb) that remains supportive but below recent highs, which will determine whether restart economics are compelling enough to unlock institutional capital."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "EPI",
       "company": "EPIMINDER LIMITED",
