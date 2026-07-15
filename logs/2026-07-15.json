@@ -1,9 +1,162 @@
 {
   "date": "2026-07-15",
-  "total": 73,
-  "market_sensitive_count": 67,
-  "generated_at": "2026-07-14T23:39:31.562622+00:00",
+  "total": 81,
+  "market_sensitive_count": 74,
+  "generated_at": "2026-07-15T00:02:04.055471+00:00",
   "announcements": [
+    {
+      "ticker": "AMD",
+      "company": "ARROW MINERALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-07-14T23:56:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111215-6A1333939",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Arrow Minerals has entered a trading halt pending an announcement, with the market-sensitive classification signalling a material corporate development is imminent — most likely a capital raise, M&A activity, or significant asset update given the company's early-stage iron ore and base metals focus in West Africa.",
+        "The trading halt mechanism prevents price-sensitive information asymmetry, but for institutional investors the key risk is potential equity dilution if the pending announcement relates to a placement or rights issue, which is common for junior ASX explorers with limited cash reserves.",
+        "Investors should monitor the resumption announcement closely — if the catalyst is a strategic partnership, resource upgrade, or farm-in agreement on Arrow's Burkina Faso iron ore assets, the re-rate potential could be meaningful; conversely, a heavily discounted capital raise would likely pressure the share price on resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMD",
+      "company": "ARROW MINERALS LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-07-14T23:53:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111213-6A1333938",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Arrow Minerals has requested a trading halt, suspending price discovery and liquidity for investors — the market-sensitive classification signals a material corporate event is imminent, likely a capital raise, M&A transaction, or significant asset update.",
+        "Trading halts on small-cap ASX miners most commonly precede equity raisings (placements or rights issues), which historically carry dilution risk; institutional investors should monitor the resumption announcement closely for pricing and structure details.",
+        "The halt duration and subsequent disclosure will be critical — if linked to a strategic asset deal or resource upgrade in Arrow's African iron ore portfolio, the outcome could be transformative given the company's early-stage, low-market-cap profile; downside risk exists if a heavily discounted capital raise is confirmed."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAL",
+      "company": "ALFABS AUSTRALIA LIMITED",
+      "headline": "Quarterly Operational and Strategic Update - Q4 FY26",
+      "time": "2026-07-14T23:46:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111212-2A1684521",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Market-sensitive classification signals material operational or financial developments that could meaningfully re-rate the stock — investors should scrutinise cash position, revenue trajectory, and any guidance revisions within the Q4 FY26 update closely.",
+        "As a quarterly report for a smaller ASX-listed industrial/manufacturing entity, key metrics to watch include cash burn rate, receivables conversion, and whether the business is trending toward or away from operational cash flow breakeven heading into FY27.",
+        "The Q4 period typically sets the tone for full-year results and FY27 guidance — any commentary on contract wins, customer concentration risk, or capital requirements will be critical in assessing near-term funding needs and growth sustainability."
+      ],
+      "tags": [
+        "Quarterly",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PET",
+      "company": "PHOSLOCK ENVIRONMENTAL TECHNOLOGIES LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-14T23:45:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111210-2A1684522",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point for PET — as a commercialisation-stage environmental technology company, the Appendix 4C will reveal whether operating cash burn is being offset by receipts from customers, with any deterioration in net cash position signalling heightened dilution risk given the company's history of capital raises.",
+        "Revenue quality matters here: investors should scrutinise whether customer receipts reflect genuine project-based revenue from Phoslock lake treatment contracts or are lumpy one-off payments, as recurring contract momentum in Europe and Asia-Pacific is essential to underpin a credible path to cash flow breakeven.",
+        "Near-term outlook hinges on pipeline conversion — any commentary on new municipal or government contracts, particularly in China or the EU where water quality regulation is tightening, will be the key forward indicator; failure to demonstrate contract wins alongside persistent cash burn would likely accelerate selling pressure."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JAV",
+      "company": "JAVELIN MINERALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-14T23:43:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111209-6A1333937",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register — investors should monitor whether this reflects accumulation or disposal by a major holder, as either scenario carries implications for near-term liquidity and price discovery in this small-cap miner.",
+        "The filing triggers the 5% threshold disclosure requirement under the Corporations Act, indicating the relevant party's stake has either crossed above or moved materially — the direction of change (increase vs. decrease) is the critical data point for assessing institutional conviction in JAV's underlying asset base.",
+        "For a micro-cap exploration company like Javelin Minerals, substantial holder movements can disproportionately impact free float and trading volumes; any reduction by a cornerstone investor could pressure the stock, while fresh accumulation may signal renewed interest ahead of upcoming exploration catalysts."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTM",
+      "company": "CENTAURUS METALS LIMITED",
+      "headline": "HV National Power Grid Connection Approved for Jaguar",
+      "time": "2026-07-14T23:41:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111208-6A1333936",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Grid connection approval for the Jaguar nickel-cobalt project is a critical de-risking milestone — securing reliable HV national power infrastructure removes a key permitting uncertainty that has historically stalled Brazilian battery metals projects and materially improves project bankability for future debt financing discussions.",
+        "Power supply certainty directly underpins the project's processing economics; grid-connected power in Brazil typically costs significantly less than diesel or off-grid alternatives, strengthening the project's operating cost profile and NPV assumptions ahead of a definitive feasibility study or financing mandate.",
+        "This approval accelerates the critical path toward construction-readiness — with power infrastructure now de-risked, investor focus will shift to remaining permits, offtake negotiations, and capital structure, positioning Centaurus for potential re-rating as Jaguar moves closer to a final investment decision in a market hungry for ex-China battery metals supply."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BRX",
+      "company": "BELARAROX LIMITED",
+      "headline": "Further Drilling Targets Identified at the KCP",
+      "time": "2026-07-14T23:37:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111203-6A1333932",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Identification of additional drilling targets at the Koonenberry Copper Project (KCP) expands the prospective footprint beyond existing known mineralisation, materially increasing the optionality of the asset and supporting a higher resource growth narrative for institutional investors evaluating early-stage copper exposure.",
+        "The market-sensitive classification signals management views these targets as potentially significant to valuation — a deliberate flag to the market that the pipeline is not exhausted, which is critical for a junior explorer needing to sustain investor conviction between drill campaigns.",
+        "Next catalysts to watch are drill program commencement, assay results from any active holes, and whether the new targets correlate with existing geophysical anomalies or structural trends — outcomes that could re-rate the stock if copper grades are consistent with or exceed prior intercepts."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AEM",
+      "company": "ADVANCED ENERGY MINERALS LTD",
+      "headline": "AEM signs ceramics cooperation agreement with ZFS",
+      "time": "2026-07-14T23:37:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111202-6A1333929",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AEM has signed a ceramics cooperation agreement with ZFS, marking a strategic pivot or expansion into industrial ceramics applications — potentially leveraging its lithium/mineral assets as feedstock, which could open a new revenue stream beyond traditional mining or energy minerals exposure.",
+        "The market-sensitive classification signals management believes this agreement has material commercial significance; however, without disclosed financial terms, contract value, or revenue commitments, the near-term earnings impact remains unquantified and investors should seek further detail on exclusivity, duration, and milestone payments.",
+        "Next steps will be critical: the market will be watching for binding offtake or supply agreements, JV structure details, and whether ZFS brings established ceramics manufacturing scale — any follow-on announcement confirming commercialisation timelines or capital requirements will be the key re-rating catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ERA",
       "company": "ENERGY RESOURCES OF AUSTRALIA LIMITED",
