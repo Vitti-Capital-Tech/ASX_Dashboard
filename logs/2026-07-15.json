@@ -1,9 +1,106 @@
 {
   "date": "2026-07-15",
-  "total": 83,
-  "market_sensitive_count": 75,
-  "generated_at": "2026-07-15T00:27:13.124345+00:00",
+  "total": 88,
+  "market_sensitive_count": 78,
+  "generated_at": "2026-07-15T01:35:12.479060+00:00",
   "announcements": [
+    {
+      "ticker": "ARU",
+      "company": "ARAFURA RARE EARTHS LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-15T01:33:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111235-6A1333946",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a shift in the ownership structure of Arafura Rare Earths (ARU), which can indicate either accumulation or partial exit by a major institutional or strategic investor — the direction of movement is critical to assess near-term supply/demand dynamics for the stock.",
+        "Given ARU's capital-intensive Nolans NdPr project requires significant project financing, any reduction in a substantial holder's position could raise questions around investor confidence in funding timelines, while an increase may signal growing conviction in the project's bankability ahead of a Final Investment Decision.",
+        "Investors should monitor whether this change relates to a strategic partner (e.g. Korean or Japanese offtake partners) or a financial institution, as strategic holder movements carry outsized implications for ARU's ability to secure the ~A$1.6B in project financing required to advance Nolans to construction."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LPE",
+      "company": "LOCALITY PLANNING ENERGY HOLDINGS LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-07-15T01:14:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111231-2A1684532",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX has suspended Locality Planning Energy Holdings (LPE) from quotation, indicating a failure to meet continuous disclosure or listing rule obligations — a serious regulatory escalation that typically precedes a compliance-driven delisting or forced capital restructure.",
+        "Suspension removes all liquidity for existing shareholders with immediate effect, trapping capital and signalling that the company has likely failed to lodge required financial statements, maintain minimum spread requirements, or respond adequately to an ASX query — each carrying material downside risk to equity value.",
+        "Reinstatement to quotation will require LPE to satisfy ASX's outstanding conditions, which may include audited financials, a recapitalisation event, or board-level governance remediation — the timeline is uncertain and historically these situations result in significant dilution or permanent delisting for small-cap energy retailers."
+      ],
+      "tags": [
+        "Compliance",
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "JNS",
+      "company": "JANUS ELECTRIC HOLDINGS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-15T01:14:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111230-2A1684533",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Janus Electric has entered a trading halt pending an announcement, most likely related to a capital raise or material corporate development — the market-sensitive classification signals this is not a routine administrative pause and warrants close attention from institutional holders.",
+        "With no revenue-generating operations yet at scale, Janus Electric's cash position and burn rate are critical context; any capital raise emerging from this halt would likely signal the company is approaching a funding threshold, potentially dilutive to existing shareholders depending on pricing and structure.",
+        "Investors should monitor the forthcoming announcement closely for details on deal structure, counterparty, or funding terms — if this precedes a strategic partnership or offtake agreement in the electric heavy vehicle space, the read-through could shift the near-term narrative materially."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AXQ",
+      "company": "AURA CONSOLIDATED GROUP, INC.",
+      "headline": "Substantial Holder Notice",
+      "time": "2026-07-15T00:48:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111225-2A1684529",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A Substantial Holder Notice signals a party has crossed the 5% ownership threshold in Aura Consolidated Group, representing a meaningful shift in the register that warrants close monitoring for potential control implications or strategic positioning.",
+        "The identity and nature of the substantial holder — whether a strategic investor, institutional fund, or activist — is critical context; accumulation at current price levels may imply perceived undervaluation or a precursor to a corporate action such as a takeover bid or board engagement.",
+        "Investors should track any subsequent Form 604 (change in substantial holding) filings closely, as continued accumulation above 5% toward the 20% creep threshold could signal a longer-term control play or partnership discussion with management."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JNS",
+      "company": "JANUS ELECTRIC HOLDINGS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-07-15T00:45:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111223-2A1684528",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Janus Electric has entered a trading pause — distinct from a formal trading halt — suggesting the company is managing a time-sensitive disclosure, likely related to a capital raise, material agreement, or strategic transaction requiring imminent clarification to the market.",
+        "The market-sensitive classification elevates the significance of the pending announcement; institutional investors should note that trading pauses on ASX typically precede announcements that could materially reprice the stock, with electric vehicle and fleet electrification plays like Janus historically volatile around such events.",
+        "Until the substantive announcement is released, risk management is paramount — the binary nature of the pending disclosure means the stock could gap significantly in either direction upon resumption of trading, warranting caution on existing positions and close monitoring of the ASX company announcements feed."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "IEL",
       "company": "IDP EDUCATION LIMITED",
