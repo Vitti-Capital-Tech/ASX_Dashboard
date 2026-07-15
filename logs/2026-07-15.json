@@ -1,9 +1,47 @@
 {
   "date": "2026-07-15",
-  "total": 81,
-  "market_sensitive_count": 74,
-  "generated_at": "2026-07-15T00:02:04.055471+00:00",
+  "total": 83,
+  "market_sensitive_count": 75,
+  "generated_at": "2026-07-15T00:27:13.124345+00:00",
   "announcements": [
+    {
+      "ticker": "IEL",
+      "company": "IDP EDUCATION LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-15T00:23:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111221-3A697202",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has altered its position in IDP Education (IEL), triggering a disclosure obligation — the direction of change (increase or decrease) will determine whether this signals accumulating institutional conviction or a vote of no confidence in the stock's near-term prospects.",
+        "IDP has faced significant headwinds including regulatory caps on international student visas in Australia and Canada, which have materially pressured revenue guidance; any reduction in a major holder's stake could amplify selling pressure on an already challenged share price that has declined sharply from its 2021-2022 highs.",
+        "Investors should monitor the specific holder identity and quantum of the change — if a large passive or active fund is trimming exposure, it may foreshadow further index reweighting or active de-risking ahead of IDP's next earnings update, warranting close attention to upcoming volume and price action."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "M3M",
+      "company": "M3 MINING LIMITED",
+      "headline": "Quarterly Activities Report and Appendix 5B",
+      "time": "2026-07-15T00:00:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111216-6A1333940",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a junior explorer, M3 Mining's Appendix 5B cash flow statement will reveal net operating cash burn rate and remaining cash reserves, with any sub-2-quarter runway likely to trigger near-term capital raise concerns and share price pressure.",
+        "Exploration progress and any resource definition milestones disclosed in the quarterly activities report will be the primary valuation catalyst — investors should scrutinise drill results, metres drilled, and whether the company is advancing toward a maiden or updated JORC resource estimate.",
+        "With no disclosed revenue-generating operations, the key forward-looking signals are exploration expenditure commitments, any farm-in or JV discussions, and management's stated work program for the next quarter — these will determine whether M3 Mining can sustain momentum without dilutive equity issuance."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AMD",
       "company": "ARROW MINERALS LTD",
