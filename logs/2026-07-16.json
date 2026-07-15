@@ -1,9 +1,238 @@
 {
   "date": "2026-07-16",
-  "total": 40,
-  "market_sensitive_count": 34,
-  "generated_at": "2026-07-15T22:46:45.347140+00:00",
+  "total": 52,
+  "market_sensitive_count": 46,
+  "generated_at": "2026-07-15T23:11:27.145860+00:00",
   "announcements": [
+    {
+      "ticker": "EPI",
+      "company": "EPIMINDER LIMITED",
+      "headline": "Trading Update",
+      "time": "2026-07-15T23:08:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111534-3A697246",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Trading update designation as market sensitive signals a material development — likely relating to clinical progress, partnership activity, or cash position — that could meaningfully reprice the stock from current levels.",
+        "Epiminder, developer of the Minder implantable EEG monitoring system for epilepsy, remains pre-revenue and heavily reliant on capital markets; any update touching cash runway or funding milestones is critical given the typical burn profile of ASX-listed medtech companies at this stage.",
+        "Investors should watch for specifics around clinical trial timelines, regulatory submissions, or strategic partnership announcements, as these are the key de-risking catalysts that would justify a sustained re-rating for this early-stage healthcare technology company."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CHM",
+      "company": "CHIMERIC THERAPEUTICS LIMITED",
+      "headline": "CHM CDH17 Phase 1 clinical trial update - New DL 3 data",
+      "time": "2026-07-15T23:04:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111529-2A1684671",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dose Level 3 (DL3) data from the CDH17-CAR T-cell Phase 1 trial represents a critical de-risking milestone — tolerability and early efficacy signals at higher doses will determine whether CHM can advance to a recommended Phase 2 dose, the key value inflection point for this asset targeting gastrointestinal cancers.",
+        "As a small-cap clinical-stage biotech with no revenue, CHM's cash runway remains the dominant risk factor; positive DL3 safety data reduces the probability of a costly trial pause or redesign, but investors should scrutinise whether updated results support accelerated enrolment timelines that could extend cash burn into a potential partnering or capital raise window.",
+        "Next catalysts to watch include enrolment into DL4 or declaration of the maximum tolerated dose, alongside any objective response rate data — even a single confirmed partial response at DL3 in this heavily pre-treated GI cancer population would materially re-rate the stock and strengthen CHM's position in out-licensing or co-development discussions."
+      ],
+      "tags": [
+        "Healthcare",
+        "Market Update"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MAP",
+      "company": "MICROBA LIFE SCIENCES LIMITED",
+      "headline": "Q4 FY26 Quarterly Activities Report & Appendix 4C",
+      "time": "2026-07-15T23:03:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111528-2A1684672",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — Microba's Appendix 4C will reveal net operating cash burn rate and whether the company has sufficient runway to reach commercial milestones without a near-term capital raise, a key concern for this pre-profitability biotech.",
+        "Revenue trajectory from its MetaXplore gut microbiome testing services and any enterprise/research partnership receipts will signal whether the commercial engine is gaining traction, with investors looking for sequential quarter-on-quarter growth to validate the B2B2C strategy.",
+        "Forward guidance on pipeline catalysts — including progress on its MAP (Microbiome Assessment Program) partnerships with health insurers or pharmaceutical collaborators — will determine whether the stock can re-rate, as deal flow and recurring revenue contracts are the key de-risking events for FY26."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NIM",
+      "company": "NIMY RESOURCES LIMITED",
+      "headline": "Extensive Ground Base Metals EM Survey to Commence at Mons",
+      "time": "2026-07-15T23:03:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111526-6A1334086",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nimy Resources is deploying a ground-based electromagnetic (EM) survey at its Mons project, a technically superior method to airborne surveys for detecting conductive base metal sulphide targets at depth — signalling the company has identified priority drill targets warranting higher-resolution investigation.",
+        "The market-sensitive classification elevates investor attention: a positive EM anomaly result could rapidly de-risk the project and serve as a near-term catalyst for a re-rating, particularly relevant given the current institutional appetite for battery and base metals exposure on the ASX.",
+        "Next steps hinge on survey turnaround time and data interpretation — investors should monitor for a follow-up announcement detailing anomaly definition and drill program planning, which would represent the critical inflection point converting exploration spend into tangible resource potential."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BLG",
+      "company": "BLUGLASS LIMITED",
+      "headline": "BluGlass secures A$1.4 mil Phase II contract from Uviquity",
+      "time": "2026-07-15T23:00:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111523-2A1684668",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Revenue visibility strengthens materially: The A$1.4M Phase II contract from Uviquity represents a meaningful commercial milestone for BluGlass, directly extending cash runway for a company that has historically relied on capital raises — investors should scrutinise whether this converts to recurring revenue or remains project-based.",
+        "Phase II designation signals technical validation: Progression beyond Phase I implies Uviquity's satisfaction with BluGlass's laser diode performance, suggesting the proprietary RPCVD technology is gaining traction in the UV/violet laser market — a sector with growing demand in industrial, medical, and defence applications.",
+        "Watch for contract pipeline expansion: The key forward indicator is whether Uviquity deepens its commitment to a Phase III or volume production agreement, and whether BluGlass can leverage this reference customer to attract additional OEM or government-backed contracts — any such announcements would be a material re-rating catalyst."
+      ],
+      "tags": [
+        "Technology",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MEM",
+      "company": "MEMPHASYS LIMITED.",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-15T23:00:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111521-3A697243",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — Memphasys is a pre-revenue medtech burning cash on its Felix sperm separation device, making the Appendix 4C's closing cash balance and quarterly burn rate the primary indicators of near-term dilution risk or capital raise necessity.",
+        "Commercialisation progress on the Felix platform remains the key value catalyst; any update on clinical partnerships, regulatory milestones (TGA/FDA), or distribution agreements would materially shift the investment thesis for this early-stage reproductive health technology company.",
+        "With no meaningful operating revenue, institutional investors should scrutinise the net cash used in operating activities versus prior quarters for burn trajectory — any acceleration in spend without corresponding commercial traction signals heightened equity raising risk in the near term."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCG",
+      "company": "PENGANA CAPITAL GROUP LIMITED",
+      "headline": "Monthly Funds Under Management - 30 June 2026",
+      "time": "2026-07-15T22:59:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111519-2A1684667",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Monthly FUM disclosure is a direct revenue proxy for Pengana — management fees are calculated as a percentage of AUM, so any material movement in the June 2026 figure will immediately signal fee income trajectory and inform full-year earnings expectations for FY26.",
+        "The market-sensitive classification elevates this beyond routine disclosure, suggesting FUM movement (either inflows, outflows, or market-driven valuation shifts) is material enough to potentially move consensus revenue estimates — investors should scrutinise net flows versus benchmark performance attribution to distinguish organic growth from passive market appreciation.",
+        "June marks the financial year-end, making this FUM snapshot critical for FY26 annual results forecasting; sustained FUM growth would support dividend sustainability given Pengana's history of paying distributions linked to profitability, while a decline could pressure the stock's yield-driven valuation multiple."
+      ],
+      "tags": [
+        "Finance",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OSM",
+      "company": "OSMOND RESOURCES LIMITED",
+      "headline": "Mineral Resource Target Area Expanded",
+      "time": "2026-07-15T22:57:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111516-6A1334082",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Expansion of the mineral resource target area is a material re-rating catalyst for a junior explorer — a larger footprint directly increases the prospective resource inventory, potentially justifying higher enterprise value multiples ahead of any maiden or updated JORC resource estimate.",
+        "The market-sensitive classification signals management believes the expanded target area is quantifiably significant; investors should scrutinise the accompanying technical data (geophysics, geochemistry, drilling intercepts) to assess whether the scale-up is supported by hard evidence or remains conceptual at this stage.",
+        "Near-term focus will be on whether Osmond Resources has the capital and drilling programme in place to systematically test the expanded target — cash position, upcoming drill campaigns, and any potential capital raise to fund accelerated exploration will be the key variables to monitor."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VRC",
+      "company": "VOLT RESOURCES LIMITED",
+      "headline": "Zavalievsky Graphite to Launch July Production Campaign",
+      "time": "2026-07-15T22:50:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111512-6A1334079",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The July production campaign at Zavalievsky Graphite signals a resumption of operational activity, which is critical for Volt Resources to demonstrate revenue-generating capability and validate its Ukrainian graphite asset amid ongoing geopolitical risk — investors will be watching closely for tonnage targets and offtake clarity.",
+        "Market-sensitive classification elevates this announcement's significance; any disclosed production volumes, grades, or sales agreements will be key metrics to assess whether the asset can materially contribute to near-term cash flow and reduce reliance on equity markets for working capital.",
+        "Execution risk remains elevated given Ukraine's wartime operating environment — the ability to successfully complete and commercialise this campaign will be a pivotal proof-of-concept moment for management credibility and could serve as a re-rating catalyst if targets are met or exceeded."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "M2M",
+      "company": "MT MALCOLM MINES NL",
+      "headline": "New Golden Crown Drilling Targets Resource Growth",
+      "time": "2026-07-15T22:49:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111510-6A1334080",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mt Malcolm Mines is advancing drill targeting at its Golden Crown project with a resource growth mandate — a market-sensitive designation signals management believes results could materially re-rate the stock, elevating near-term investor attention.",
+        "The focus on resource growth drilling suggests the company is moving beyond exploration discovery toward defining a quantifiable JORC resource, a critical de-risking milestone that typically unlocks institutional interest and potential re-financing options for junior miners.",
+        "Next catalyst is drill results — investors should monitor assay turnaround timelines and any resource estimate upgrade announcements, as positive intercepts at Golden Crown could provide a meaningful uplift to the company's current market capitalisation given its junior ASX profile."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NGI",
+      "company": "NAVIGATOR GLOBAL INVESTMENTS LIMITED",
+      "headline": "June 2026 AUM Update",
+      "time": "2026-07-15T22:46:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111509-2A1684664",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AUM trajectory is the critical revenue driver for Navigator Global — any sequential growth in June 2026 AUM would signal improving management fee income and support earnings visibility, while a decline would pressure the top line given the firm's fee-dependent business model.",
+        "As a market-sensitive disclosure, the AUM figure likely represents a material deviation from prior expectations or consensus estimates — investors should benchmark the reported number against the March 2026 quarter AUM and any previously guided targets to assess the magnitude of the surprise.",
+        "Near-term focus will be on whether AUM growth is being driven by net inflows (positive structural signal indicating client retention and new mandates) versus market appreciation alone, as organic flow momentum is the key indicator of competitive positioning heading into FY27."
+      ],
+      "tags": [
+        "Finance",
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUC",
+      "company": "AUSGOLD LIMITED",
+      "headline": "Significant Down-Plunge Growth Potential at KGP",
+      "time": "2026-07-15T22:44:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111507-6A1334078",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AusGold's identification of significant down-plunge growth potential at Katanning Gold Project (KGP) signals the mineralised system remains open at depth, materially expanding the resource growth narrative beyond current defined boundaries — a key re-rating catalyst for a junior explorer.",
+        "Down-plunge extensions typically represent the highest-grade continuations of orogenic gold systems; if drill results confirm structural continuity, this could meaningfully upgrade the existing resource base and improve project economics ahead of any feasibility or development decision.",
+        "Near-term focus will be on follow-up drilling programs to test the down-plunge targets — investors should monitor drill hole spacing, assay turnaround timelines, and whether AusGold has sufficient cash runway to execute a substantive campaign without requiring near-term dilutive capital."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "WIA",
       "company": "WIA GOLD LIMITED",
