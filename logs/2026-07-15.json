@@ -1,9 +1,86 @@
 {
   "date": "2026-07-15",
-  "total": 88,
-  "market_sensitive_count": 78,
-  "generated_at": "2026-07-15T01:35:12.479060+00:00",
+  "total": 92,
+  "market_sensitive_count": 80,
+  "generated_at": "2026-07-15T03:04:04.312305+00:00",
   "announcements": [
+    {
+      "ticker": "GL1",
+      "company": "GLOBAL LITHIUM RESOURCES LIMITED",
+      "headline": "GL1 to acquire Nova Operation",
+      "time": "2026-07-15T02:56:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111257-6A1333955",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GL1 is acquiring the Nova Operation, a significant strategic pivot that could transform the company from pure explorer to operator — the 'so what' is whether this acquisition brings near-term production optionality or proven resources that de-risk the development timeline for institutional investors.",
+        "Deal terms and consideration structure are critical: any equity-funded component will be dilutive to existing shareholders, while a cash-heavy structure will pressure the balance sheet and likely necessitate a capital raise — investors should scrutinise the funding mix and implied valuation metrics against comparable lithium asset transactions.",
+        "The Nova Operation name carries strong brand recognition in Australian mining (historically associated with IGO/Western Areas nickel), but context here is key — if this is a lithium-bearing asset or adjacent infrastructure play, it could materially re-rate GL1's resource base and attract renewed institutional interest amid a recovering lithium sentiment cycle."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AIV",
+      "company": "ACTIVEX LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-15T02:21:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111249-2A1684543",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the ownership structure of ActiveX Limited, with a holder crossing or moving through the 5% threshold — warranting close attention to whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase or decrease) is critical: an increase in substantial holding could indicate a strategic investor building a position ahead of a potential catalyst, while a decrease may signal waning conviction or portfolio rebalancing by a major shareholder.",
+        "Investors should monitor subsequent filings and any associated Form 604/603 disclosures to determine the identity and intent of the substantial holder, as concentrated ownership shifts in small-cap ASX stocks can precede corporate activity such as board changes, M&A approaches, or capital structure events."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NTI",
+      "company": "NEUROTECH INTERNATIONAL LIMITED",
+      "headline": "Neurotech secures $3.15 million R&D tax incentive loan",
+      "time": "2026-07-15T02:11:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111245-6A1333953",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The $3.15M R&D tax incentive loan provides immediate non-dilutive liquidity, allowing Neurotech to accelerate its pipeline without triggering equity dilution — a critical distinction for a pre-revenue biotech where shareholder dilution risk is a persistent overhang.",
+        "Secured against an anticipated R&D tax refund, this facility effectively monetises a future government receivable, suggesting the company has sufficient qualifying R&D expenditure to underpin the loan — implying meaningful R&D activity and a credible refund claim in the near term.",
+        "The cash injection materially extends runway and reduces near-term capital raise pressure, but investors should monitor the loan's interest cost, repayment terms, and whether the underlying R&D tax refund is sufficient to fully retire the facility — key details that will determine the true net benefit."
+      ],
+      "tags": [
+        "Healthcare",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MEM",
+      "company": "MEMPHASYS LIMITED.",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-07-15T02:04:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111243-3A697205",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Memphasys (MEM), crossing the 5% ownership threshold — a meaningful signal of institutional or sophisticated investor conviction in the company's sperm separation technology platform at current valuations.",
+        "The timing of this substantial holding notice warrants scrutiny given MEM's early-stage commercialisation status and ongoing capital requirements; a large incoming holder could be positioning ahead of a potential capital raise, partnership announcement, or clinical milestone.",
+        "Investors should monitor whether this new substantial holder is a strategic (industry/biotech) or purely financial investor, as strategic interest would materially re-rate the stock's M&A optionality and validate the Felix sperm separation device's commercial pathway."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ARU",
       "company": "ARAFURA RARE EARTHS LTD",
