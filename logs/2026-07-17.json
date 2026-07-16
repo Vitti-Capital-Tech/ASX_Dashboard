@@ -1,9 +1,220 @@
 {
   "date": "2026-07-17",
-  "total": 22,
-  "market_sensitive_count": 16,
-  "generated_at": "2026-07-16T22:46:46.754414+00:00",
+  "total": 33,
+  "market_sensitive_count": 27,
+  "generated_at": "2026-07-16T23:10:37.367197+00:00",
   "announcements": [
+    {
+      "ticker": "KNB",
+      "company": "KOONENBERRY GOLD LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-16T23:06:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111856-6A1334243",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Koonenberry Gold has entered a trading halt pending a market-sensitive announcement, suspending price discovery and liquidity for investors — the 'market sensitive' classification signals material information is imminent, likely a capital raise, significant drilling result, or corporate transaction.",
+        "For a junior gold explorer, trading halts preceding announcements most commonly precede equity raisings (placements or rights issues), which carry dilution risk, or high-grade drill results that could re-rate the stock — the binary nature of the outcome warrants caution until details emerge.",
+        "Investors should monitor the forthcoming announcement closely; if capital raising-related, assess the pricing discount and use of proceeds relative to current cash position and exploration pipeline at the Koonenberry Gold Project in NSW — any dilutive raise at a discount to market will pressure near-term share price."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JGH",
+      "company": "JADE GAS HOLDINGS LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-07-16T23:05:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111855-6A1334242",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Jade Gas Holdings has been suspended from quotation on the ASX, indicating a significant regulatory or compliance event — suspension typically signals failure to meet continuous disclosure obligations, pending material announcement, or potential breach of listing rules, all of which carry elevated risk for existing shareholders.",
+        "Suspension from quotation effectively freezes liquidity for all investors, preventing entry or exit from positions — institutional holders face mark-to-market uncertainty and potential forced write-downs depending on fund valuation policies during the suspension period.",
+        "The critical next step is monitoring ASX's formal reinstatement conditions and any accompanying company announcement; resolution timelines can range from days to months depending on whether the suspension relates to a capital raise, compliance remediation, or more serious structural issues — prolonged suspension materially increases delisting risk."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HGO",
+      "company": "HILLGROVE RESOURCES LIMITED",
+      "headline": "Notice of General Meeting/Proxy Form",
+      "time": "2026-07-16T23:03:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111852-2A1684853",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification elevates this General Meeting notice above routine procedural status — investors should scrutinise the agenda closely as resolutions likely include capital structure changes, dilutive equity issuance, or material asset transactions that could reset the company's valuation baseline.",
+        "Hillgrove Resources, focused on the Kanmantoo copper project in South Australia, has been navigating a capital-intensive restart phase; any GM resolutions tied to funding mechanisms (placement, rights issue, or debt conversion) will be critical to assessing near-term dilution risk and cash runway adequacy.",
+        "Proxy lodgement deadline and resolution outcomes will be the key near-term catalyst — institutional holders should engage ahead of the meeting to influence outcomes on any resolutions that could alter the share count, board composition, or strategic direction of the copper development play."
+      ],
+      "tags": [
+        "AGM",
+        "Mining",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXB",
+      "company": "DIMERIX LIMITED",
+      "headline": "Dimerix Expands Pipeline with Acquisition of Phase 2 Asset",
+      "time": "2026-07-16T23:03:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111850-3A697297",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Pipeline diversification is a key de-risking move for Dimerix — adding a Phase 2 asset reduces binary event risk tied solely to its lead DMX-200 program in FSGS, potentially re-rating the company's risk-adjusted NPV in the eyes of institutional investors.",
+        "The acquisition terms and consideration structure are critical to assess dilution risk; if funded via scrip or a capital raise, existing shareholders face potential dilution at a stage where DMX-200 Phase 3 catalysts are still pending — investors should scrutinise the deal mechanics closely.",
+        "Near-term focus shifts to the identity and clinical profile of the acquired Phase 2 asset — therapeutic area alignment, remaining development costs, and time-to-readout will determine whether this is genuinely value-accretive or a capital allocation distraction ahead of Dimerix's pivotal FSGS trial milestones."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HMG",
+      "company": "HAMELIN GOLD LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-16T23:01:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111848-6A1334241",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Hamelin Gold has entered a trading halt pending a market-sensitive announcement, suspending price discovery and liquidity for investors — the 'market sensitive' classification signals a material corporate event is imminent rather than routine administration.",
+        "The nature of the halt is undisclosed, but for a junior gold explorer the most probable catalysts are a capital raise, M&A activity (asset acquisition or takeover), or a significant resource/exploration result — each carrying materially different valuation implications that institutional holders must monitor closely.",
+        "Investors should watch for the lifting announcement, expected within ASX's standard two-business-day window; the resolution will determine directional bias — a dilutive placement would pressure the stock, while an accretive deal or high-grade drill result could trigger a sharp re-rating."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXB",
+      "company": "DIMERIX LIMITED",
+      "headline": "Dimerix Non-Dilutive Funding Builds Pipeline, Boosts Runway",
+      "time": "2026-07-16T23:01:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111847-3A697295",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Non-dilutive funding secured preserves existing shareholder equity while extending cash runway — a critical positive for a pre-revenue biotech where dilution risk is a persistent overhang and capital efficiency directly impacts investor confidence.",
+        "The pipeline expansion funded without equity issuance signals Dimerix has attracted grant, partnership, or debt-based capital, suggesting external validation of its clinical assets (likely DMX-200 in FSGS) beyond what the current market cap may reflect.",
+        "Extended runway materially reduces near-term capital raise pressure, shifting investor focus toward upcoming clinical catalysts — any Phase 3 data readouts or regulatory milestones now carry greater weight as the company has more time to execute without forced dilution."
+      ],
+      "tags": [
+        "Healthcare",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "H3E",
+      "company": "H3 ENERGY LIMITED",
+      "headline": "Warro 3D reprocessing provides uplift to legacy data set",
+      "time": "2026-07-16T23:01:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111846-6A1334239",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "3D seismic reprocessing of the Warro gas field has materially improved subsurface imaging quality, potentially de-risking the resource estimate and strengthening the investment case for a field that has historically struggled to attract development capital due to geological uncertainty.",
+        "Enhanced legacy dataset interpretation could unlock upward revisions to contingent resource volumes at Warro — a large, long-known but undeveloped Perth Basin gas accumulation — which would be a meaningful re-rating catalyst given the current tight East and West Coast gas supply environment.",
+        "Near-term focus will be on whether the reprocessed data supports a revised competent person's report (CPR) or farm-out process; any move toward a development decision or strategic partner announcement would represent a significant step-change in H3 Energy's project maturity and market valuation."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MTO",
+      "company": "MOTORCYCLE HOLDINGS LIMITED",
+      "headline": "Statement regarding employee underpayments",
+      "time": "2026-07-16T23:00:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111845-2A1684851",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Motorcycle Holdings has self-disclosed an employee underpayment issue — a market-sensitive admission that signals potential material remediation costs, regulatory scrutiny from the Fair Work Ombudsman, and reputational risk across its ~60+ dealership network.",
+        "Quantum of underpayments is critical but undisclosed at this stage; comparable ASX retail/automotive sector cases (e.g. Super Retail Group, Eagers Automotive) have involved multi-million dollar back-pay liabilities plus penalties, suggesting a non-trivial balance sheet impact for a mid-cap operator of MTO's scale.",
+        "Next steps will centre on the scope of the independent audit, timeline for remediation payments, and whether the company has provisioned adequately — investors should watch for a quantified liability update and any guidance revision, as labour cost normalisation may also pressure forward margins."
+      ],
+      "tags": [
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AUC",
+      "company": "AUSGOLD LIMITED",
+      "headline": "Key Permitting Milestones Achieved",
+      "time": "2026-07-16T22:55:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111842-6A1334240",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Achievement of key permitting milestones removes a critical de-risking overhang for Ausgold's Katanning Gold Project in WA, materially advancing the project toward construction-readiness and unlocking the next phase of development capital deployment.",
+        "Regulatory approvals are typically a binary, time-sensitive gating factor for junior gold developers — securing these milestones significantly compresses the timeline to production and strengthens Ausgold's position in any future financing or M&A discussions with strategic partners or majors.",
+        "Near-term catalysts to watch include the progression to a final investment decision (FID), potential offtake negotiations, and project financing arrangements — permitting clearance now shifts investor focus squarely to funding structure and construction scheduling."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LTP",
+      "company": "LTR PHARMA LIMITED",
+      "headline": "LTR Executes Definitive U.S. Commercial Agreement with Shed",
+      "time": "2026-07-16T22:48:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111838-3A697301",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "LTR Pharma has executed a definitive commercial agreement with Shed for U.S. distribution of its lead product, marking a critical de-risking milestone — securing a commercial partner in the world's largest pharmaceutical market validates the product's commercial viability and significantly expands the addressable revenue opportunity beyond Australia.",
+        "The U.S. agreement is market sensitive, signalling material revenue potential; investors will be closely scrutinising deal economics including upfront payments, milestone structures, royalty rates, and minimum purchase commitments to assess near-term cash flow impact and long-term earnings leverage.",
+        "Near-term catalysts to watch include regulatory pathway clarity for U.S. market entry (FDA approval status or 505(b)(2) strategy), launch timelines, and any equity or cash consideration embedded in the deal — execution risk now shifts to commercialisation speed and Shed's distribution capability in a highly competitive U.S. market."
+      ],
+      "tags": [
+        "Healthcare",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DRX",
+      "company": "DIATREME RESOURCES LIMITED",
+      "headline": "Appendix 5B Cash Flow Report",
+      "time": "2026-07-16T22:44:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111835-2A1684847",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cash runway is the critical watch point for Diatreme — as a pre-revenue explorer, the Appendix 5B will reveal whether the company has sufficient liquidity to fund ongoing exploration at its flagship Cyclone zircon/titanium project in Queensland without requiring near-term dilutive capital raises.",
+        "Investors should scrutinise net cash used in operating and investing activities; any quarterly burn rate exceeding available cash reserves of less than 2 quarters would signal elevated funding risk and potential equity issuance pressure at current depressed small-cap valuations.",
+        "With the mineral sands sector facing mixed demand signals from titanium feedstock markets, Diatreme's ability to demonstrate disciplined expenditure management and progress toward a development decision on Cyclone will be key to maintaining institutional confidence and avoiding further share price erosion."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BCN",
       "company": "BEACON MINERALS LIMITED",
