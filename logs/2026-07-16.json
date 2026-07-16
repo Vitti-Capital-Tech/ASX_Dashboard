@@ -1,9 +1,126 @@
 {
   "date": "2026-07-16",
-  "total": 72,
-  "market_sensitive_count": 65,
-  "generated_at": "2026-07-15T23:44:42.020557+00:00",
+  "total": 78,
+  "market_sensitive_count": 71,
+  "generated_at": "2026-07-16T00:08:00.015161+00:00",
   "announcements": [
+    {
+      "ticker": "4DX",
+      "company": "4DMEDICAL LIMITED",
+      "headline": "Pause in trade",
+      "time": "2026-07-16T00:00:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111598-3A697255",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "4DMedical has entered a trading halt ('Pause in trade'), suspending price discovery and liquidity for investors — the market-sensitive classification signals a material corporate development is imminent, likely a capital raise, M&A event, or significant commercial announcement.",
+        "Trading halts on small-cap healthcare/medtech names like 4DMedical (4DX) are frequently precursors to equity raisings; given the company's ongoing commercialisation burn rate and US FDA-cleared XV LVAS technology rollout, a capital raise to fund growth or a strategic partnership deal are the most probable catalysts.",
+        "Investors should monitor the resumption announcement closely — if the halt resolves into a dilutive placement, near-term share price pressure is likely; conversely, a licensing deal or partnership with a major US healthcare system or OEM could be a significant re-rating event for this pre-profitability medtech."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TON",
+      "company": "TRITON MINERALS LTD",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-07-15T23:57:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111597-6A1334121",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reinstatement to quotation signals resolution of the underlying compliance or corporate action issue that triggered the trading halt — investors should scrutinise what conditions were met to secure ASX approval to resume trading, as these details are critical to assessing residual risk.",
+        "Market-sensitive classification elevates the significance of this reinstatement beyond routine administrative procedure — price discovery on resumption may be volatile, particularly if the halt was linked to a capital raise, material transaction, or regulatory matter that has now been disclosed or resolved.",
+        "Next steps for institutional investors: monitor opening volume and price action closely for directional conviction, review any accompanying disclosure lodged concurrently with reinstatement, and assess whether the catalyst for the halt has been fully de-risked or merely deferred."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TON",
+      "company": "TRITON MINERALS LTD",
+      "headline": "SSAP Update NQM Fails to Complete",
+      "time": "2026-07-15T23:57:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111596-6A1334115",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NQM's failure to complete the SSAP (Share Sale and Purchase Agreement) represents a material transaction collapse, leaving Triton Minerals without the anticipated proceeds and forcing a strategic reset — a significant setback for a company dependent on deal execution to advance its Mozambique graphite assets.",
+        "The breakdown eliminates a key near-term liquidity catalyst, raising immediate questions about Triton's cash runway and its ability to fund ongoing exploration, permitting, or development activities at Ancuabe without securing alternative financing or a new transaction partner.",
+        "Management must now urgently outline a revised capital strategy — whether via a fresh M&A process, capital raise, or asset-level partnership — and any delay in doing so risks prolonged share price weakness and erosion of investor confidence in the company's ability to monetise its graphite portfolio."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "JAV",
+      "company": "JAVELIN MINERALS LIMITED",
+      "headline": "Strong Eureka Gold Results Extend Mineralisation",
+      "time": "2026-07-15T23:45:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111593-6A1334119",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive classification signals material drill results at the Eureka Gold project, with mineralisation extensions typically de-risking the resource base and supporting a future JORC resource upgrade — a key re-rating catalyst for junior explorers.",
+        "Extending mineralisation along strike or at depth increases the geological confidence of the deposit, which directly improves the economics of any future scoping or feasibility study and enhances the project's attractiveness to potential acquirers or joint venture partners.",
+        "Near-term focus will be on whether Javelin follows up with additional infill or step-out drilling to convert extensions into defined resources; investors should watch for a resource estimate update or exploration target revision as the next material milestone."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IAM",
+      "company": "INCOME ASSET MANAGEMENT GROUP LIMITED.",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-15T23:43:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111591-2A1684693",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash flow sustainability is the critical watch point — as a financial services firm reporting under Appendix 4C, investors must scrutinise whether operating cash receipts from funds management and fixed income distribution activities are sufficient to cover operating outflows, with any net cash burn rate directly informing runway and potential dilution risk.",
+        "Revenue trajectory from IAM's fixed income marketplace and institutional distribution business will be the key performance indicator — growth in quarterly receipts would signal improving platform traction and adviser adoption, while flat or declining receipts would raise questions about competitive positioning in an increasingly crowded Australian bond distribution market.",
+        "Forward guidance on cost management and path to cash flow breakeven will be pivotal — institutional investors will focus on whether management reaffirms a credible timeline to self-funding operations, or whether the quarterly burn rate implies a near-term capital raise that could pressure the share price."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VMS",
+      "company": "VENARI MINERALS NL",
+      "headline": "Trading Halt",
+      "time": "2026-07-15T23:42:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111588-6A1334116",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Venari Minerals NL has entered a trading halt marked as market sensitive, strongly suggesting an imminent material announcement — most likely a capital raise, M&A activity, or significant exploration result that requires price-sensitive disclosure protocols.",
+        "The market-sensitive classification elevates the probability that the pending announcement carries meaningful valuation implications, distinguishing this halt from routine administrative pauses and warranting close monitoring by institutional holders.",
+        "Investors should anticipate the halt lifting within 1-2 trading sessions per ASX Listing Rule 17.1 requirements; the nature of the catalyst — whether dilutive (capital raise) or value-accretive (discovery/deal) — will be the critical determinant of directional price movement upon resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "FG1",
       "company": "FLYNN GOLD LIMITED",
