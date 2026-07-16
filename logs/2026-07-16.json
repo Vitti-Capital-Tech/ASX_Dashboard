@@ -1,9 +1,48 @@
 {
   "date": "2026-07-16",
-  "total": 79,
-  "market_sensitive_count": 72,
-  "generated_at": "2026-07-16T00:30:36.480348+00:00",
+  "total": 81,
+  "market_sensitive_count": 74,
+  "generated_at": "2026-07-16T01:34:54.288155+00:00",
   "announcements": [
+    {
+      "ticker": "NSM",
+      "company": "NORTH STAWELL MINERALS LTD",
+      "headline": "INVESTOR UPDATE",
+      "time": "2026-07-16T01:28:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111622-6A1334130",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material new information likely relating to exploration results, corporate activity, or a strategic update that could meaningfully re-rate the stock — investors should review the full release immediately before trading.",
+        "North Stawell Minerals operates in the historically prolific Stawell Corridor of Victoria, meaning any positive drilling or resource update carries significant re-rating potential given the district's gold endowment and the company's early-stage exploration profile.",
+        "As a small-cap explorer, the nature of this investor update — whether it confirms new intercepts, a capital raise, or a partnership — will be critical to assessing near-term dilution risk versus discovery upside; cash position and burn rate remain key variables to monitor alongside the announcement detail."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "4DX",
+      "company": "4DMEDICAL LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-16T00:45:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111609-3A697258",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "4DMedical (4DX) has entered a trading halt, most likely pending a material announcement — historically, halts of this nature for small-cap medtech companies precede capital raises, partnership deals, or significant regulatory/commercial milestones such as FDA clearance or a major US hospital contract.",
+        "With 4DX's cash position and ongoing commercialisation burn rate in focus, any capital raise would raise dilution concerns for existing shareholders, while a strategic partnership or licensing deal could be materially re-rating given the company's proprietary XV Technology lung imaging platform and its traction with the US Veterans Affairs health system.",
+        "Investors should monitor the resumption announcement closely — if the halt is tied to a non-dilutive catalyst (e.g. a significant commercial contract or regulatory approval), the stock could see a sharp re-rating; conversely, an equity raise at a discount would likely pressure the share price near-term."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "IMC",
       "company": "IMMURON LIMITED",
