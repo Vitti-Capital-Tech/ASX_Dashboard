@@ -1,9 +1,66 @@
 {
   "date": "2026-07-17",
-  "total": 56,
-  "market_sensitive_count": 49,
-  "generated_at": "2026-07-17T00:32:21.614199+00:00",
+  "total": 59,
+  "market_sensitive_count": 52,
+  "generated_at": "2026-07-17T01:35:21.119582+00:00",
   "announcements": [
+    {
+      "ticker": "ERE",
+      "company": "EUROPEAN RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-17T01:27:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111946-2A1684903",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point for this market-sensitive quarterly — as a junior explorer with no revenue, the Appendix 5B will reveal whether European Resources has sufficient working capital to sustain operations through its next exploration phase or faces imminent dilution risk via a capital raise.",
+        "The market-sensitive flag elevates urgency, suggesting the cash flow report likely discloses a materially low cash balance, significant quarterly burn rate, or a going-concern disclosure that could pressure the share price near-term.",
+        "Investors should scrutinise the 'estimated quarters of funding available' disclosure (Section 8 of Appendix 5B) alongside any commentary on upcoming drilling commitments or tenement expenditure obligations, as failure to meet minimum spend requirements could trigger licence forfeiture across its European asset portfolio."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AXQ",
+      "company": "AURA CONSOLIDATED GROUP, INC.",
+      "headline": "AXQ Scheme Implementation",
+      "time": "2026-07-17T01:14:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111941_PS-2A1684895",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Scheme implementation marks a structural inflection point for Aura Consolidated Group — the AXQ scheme completion signals a binding corporate transaction has reached execution stage, triggering shareholder entitlements and potential share consolidation or consideration transfer that will directly alter the register composition.",
+        "Market-sensitive classification underscores material price impact risk; institutional holders must assess whether scheme consideration represents a premium or discount to intrinsic value, as scheme mechanics typically lock in exit pricing and remove open-market optionality for affected shareholders.",
+        "Next steps centre on the effective date mechanics — court approval, CHESS suspension, and consideration dispatch timelines will be critical catalysts to monitor, with any delays or conditions precedent failures carrying meaningful downside risk to deal certainty and near-term price support."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IEQ",
+      "company": "INTERNATIONAL EQUITIES CORPORATION LIMITED.",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-17T01:02:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111939-6A1334272",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — without visibility into closing cash balance and quarterly burn rate from the Appendix 4C, investors must scrutinise whether IEQ has sufficient liquidity to fund operations beyond the near term, particularly given its small-cap international equities mandate which generates limited operating revenue.",
+        "Operating cash receipts and payments will reveal the sustainability of the business model — any net operating cash outflow widening quarter-on-quarter would signal accelerating capital consumption, raising the probability of a near-term equity raise that could be dilutive to existing shareholders.",
+        "The market-sensitive classification elevates this filing above routine disclosure — investors should focus on any material changes to investment portfolio valuations, management fee income trends, or commentary around strategic initiatives, as these will be the key catalysts determining whether the stock re-rates or faces further selling pressure."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "QOR",
       "company": "QORIA LIMITED",
