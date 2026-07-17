@@ -1,9 +1,66 @@
 {
   "date": "2026-07-17",
-  "total": 59,
-  "market_sensitive_count": 52,
-  "generated_at": "2026-07-17T01:35:21.119582+00:00",
+  "total": 62,
+  "market_sensitive_count": 54,
+  "generated_at": "2026-07-17T03:04:16.538138+00:00",
   "announcements": [
+    {
+      "ticker": "WNR",
+      "company": "WINGARA AG LTD",
+      "headline": "Appointment of Chief Executive Officer",
+      "time": "2026-07-17T03:01:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111964-3A697318",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Leadership transition signals a potential strategic reset for Wingara Ag, a small-cap agricultural company — incoming CEO's background and mandate will be critical in determining whether this appointment accelerates or delays execution of the company's growth strategy.",
+        "CEO appointments at micro/small-cap agri businesses are high-leverage events; the market will scrutinise the new appointee's track record in commercialising agricultural assets, managing capital allocation, and navigating the cyclical headwinds facing Australian agribusiness.",
+        "Near-term focus will shift to any accompanying strategic update or revised operational guidance — investors should watch for changes to capital deployment priorities, cost structure, or M&A appetite that the new CEO may signal in their first public communications."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OBL",
+      "company": "OMNI BRIDGEWAY LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-07-17T02:52:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111963-6A1334280",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has fallen below the 5% ownership threshold in Omni Bridgeway (OBL), triggering a cessation notice — this signals a meaningful reduction in institutional conviction or a strategic portfolio reallocation away from the litigation finance sector.",
+        "The exit of a substantial holder can increase near-term selling pressure and reduce the stock's institutional sponsorship, a notable concern for OBL given its already compressed valuation and ongoing challenges in monetising its litigation fund portfolio.",
+        "Investors should monitor whether this departure reflects broader institutional discomfort with OBL's business model uncertainty, including its strategic review and potential restructuring, as further substantial holder exits could signal deteriorating confidence in the company's near-term recovery thesis."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IBC",
+      "company": "IRONBARK BALANCED INCOME LIMITED",
+      "headline": "Notification of buy-back - IBC",
+      "time": "2026-07-17T02:24:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111959-2A1684913",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "IBC has initiated a formal on-market buy-back, signalling board confidence that shares are trading at a discount to intrinsic value — a direct capital management lever that reduces share count and can support NTA per share accretion for remaining holders.",
+        "For a balanced income-focused LIC/LIT structure, a buy-back is typically deployed when the discount to NTA widens materially; investors should monitor the scale and pace of repurchases as a proxy for how aggressively management views the current mispricing relative to portfolio fair value.",
+        "Near-term watch points include the maximum buy-back volume disclosed, ASIC notification compliance timelines, and whether this forms part of a broader capital management strategy — including any concurrent dividend policy adjustments — that could catalyse a re-rating of the persistent LIC discount."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ERE",
       "company": "EUROPEAN RESOURCES LIMITED",
