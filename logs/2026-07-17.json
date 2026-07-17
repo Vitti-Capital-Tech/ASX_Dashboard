@@ -1,9 +1,49 @@
 {
   "date": "2026-07-17",
-  "total": 54,
-  "market_sensitive_count": 48,
-  "generated_at": "2026-07-17T00:07:24.088777+00:00",
+  "total": 56,
+  "market_sensitive_count": 49,
+  "generated_at": "2026-07-17T00:32:21.614199+00:00",
   "announcements": [
+    {
+      "ticker": "QOR",
+      "company": "QORIA LIMITED",
+      "headline": "Implementation of Scheme and completion of Capital Raise",
+      "time": "2026-07-17T00:10:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111927-6A1334265",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Scheme implementation signals Qoria has successfully completed a transformative corporate transaction, likely a privatisation or acquisition by a strategic/financial buyer — removing the stock from ASX and crystallising value for shareholders at the agreed scheme price.",
+        "The concurrent capital raise suggests the acquirer or surviving entity required fresh equity to fund the transaction or shore up the balance sheet post-completion, a common structure in leveraged or hybrid scheme deals that warrants scrutiny of dilution terms and pricing relative to the scheme consideration.",
+        "With the scheme now implemented, remaining investor focus shifts to settlement mechanics, timing of scheme consideration payments to shareholders, and any post-completion integration or delisting timeline — shareholders should confirm registry instructions to ensure timely receipt of proceeds."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ORP",
+      "company": "ORPHEUS URANIUM LIMITED",
+      "headline": "Notice of Initial Substantial Holder - IsoEnergy Ltd",
+      "time": "2026-07-17T00:08:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03111926-2A1684893",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "IsoEnergy Ltd has crossed the 5% substantial holder threshold in Orpheus Uranium, signalling a strategic interest by a well-capitalised uranium developer with existing North American assets — this is not a passive portfolio position.",
+        "The filing establishes a formal ownership stake that could serve as a precursor to a takeover bid, joint venture, or asset consolidation play, particularly relevant given the current uranium sector re-rating driven by nuclear energy demand tailwinds.",
+        "Orpheus shareholders and the board should anticipate potential engagement from IsoEnergy regarding strategic direction; the substantial holding notice creates a disclosure trail that constrains IsoEnergy's ability to accumulate further without triggering mandatory bid thresholds under ASX/Corporations Act rules."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ILT",
       "company": "ILTANI RESOURCES LIMITED.",
