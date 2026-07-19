@@ -1,9 +1,236 @@
 {
   "date": "2026-07-20",
-  "total": 55,
-  "market_sensitive_count": 51,
-  "generated_at": "2026-07-19T23:05:57.379034+00:00",
+  "total": 67,
+  "market_sensitive_count": 63,
+  "generated_at": "2026-07-19T23:20:11.180473+00:00",
   "announcements": [
+    {
+      "ticker": "SKY",
+      "company": "SKY METALS LIMITED",
+      "headline": "New High-Grade Tin-Tungsten-Silver Intercepts at Tallebung",
+      "time": "2026-07-19T23:14:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112263-2A1685025",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade tin-tungsten-silver intercepts at Tallebung carry strategic significance given tight global supply chains for both tin (critical for electronics/solder) and tungsten (defence/industrial hardening), positioning SKY Metals favourably in a market where Western-aligned supply is at a premium amid China's dominance of tungsten production.",
+        "The market-sensitive classification signals materially better-than-expected drill results — investors should scrutinise headline grades and intercept widths against the existing resource estimate to assess whether these hits extend, upgrade, or define a new zone capable of meaningfully re-rating the project's economics.",
+        "Near-term catalysts to watch include updated resource estimates incorporating these intercepts, potential scoping or PFS timeline acceleration, and whether the polymetallic nature of the deposit (three payable metals) improves project IRR sufficiently to attract strategic or offtake interest from downstream processors or battery/defence supply chain players."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KZR",
+      "company": "KALAMAZOO RESOURCES LIMITED",
+      "headline": "Oversubscribed $8M Placement to Accelerate Ashburton Growth",
+      "time": "2026-07-19T23:14:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112257-6A1334424",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "The oversubscribed $8M placement signals strong institutional appetite for Kalamazoo's Ashburton gold project, with excess demand indicating the raise was priced attractively and that the market sees near-term catalysts — a key confidence signal for a junior explorer at this stage of development.",
+        "The capital injection materially extends Kalamazoo's cash runway and removes near-term funding risk, enabling accelerated drilling and resource definition at Ashburton without the overhang of imminent dilution — critical for de-risking the project timeline and supporting a re-rating.",
+        "Proceeds earmarked specifically to 'accelerate Ashburton growth' suggest an intensified exploration/resource upgrade program is imminent; investors should watch for upcoming drill results and potential maiden or upgraded resource estimates as the key near-term value inflection points."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ADX",
+      "company": "ADX ENERGY LTD",
+      "headline": "Trading Halt",
+      "time": "2026-07-19T23:12:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112255-6A1334456",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "ADX Energy has entered a trading halt pending a material announcement, suspending price discovery and liquidity for shareholders — the market-sensitive classification signals a potentially significant corporate development is imminent.",
+        "For a small-cap E&P operator like ADX Energy, trading halts of this nature most commonly precede capital raises, farm-out agreements, or material drilling/production updates — each carrying distinct valuation implications that investors should prepare to assess rapidly upon resumption.",
+        "Institutional investors should monitor the halt duration closely; ASX rules typically limit trading halts to two business days, meaning a substantive announcement is expected imminently — positioning ahead of resumption carries elevated binary risk given the unknown nature of the catalyst."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ION",
+      "company": "IONDRIVE LIMITED",
+      "headline": "Former BHP Head of Innovation, Dr Caffery, Appointed CEO",
+      "time": "2026-07-19T23:11:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112254-2A1685024",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-calibre appointment signals strategic intent: Dr Caffery's tenure as BHP's Head of Innovation brings deep industrial credibility and a network within major mining and resources players — a critical asset for a battery/energy storage company seeking commercial partnerships or offtake agreements at scale.",
+        "CEO transition is a material de-risking event for an early-stage company — institutional investors will scrutinise whether this hire accelerates the path to commercialisation, secures pilot programs with Tier-1 miners, or unlocks access to government and corporate R&D funding pipelines previously out of reach.",
+        "Near-term catalysts to watch: the market will expect a strategic update or roadmap revision within 90 days of the appointment, with key milestones likely to include partnership announcements, updated capital allocation strategy, and potential re-rating if Caffery signals a clear revenue timeline for IonDrive's core battery technology."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HTM",
+      "company": "HIGH-TECH METALS LTD",
+      "headline": "Mt Fisher Drilling Confirms Mineralisation Beyond Resource",
+      "time": "2026-07-19T23:10:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112253-6A1334454",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling at Mt Fisher has intersected mineralisation outside the existing resource boundary, directly expanding the geological footprint and signalling meaningful resource upgrade potential — a key de-risking milestone for a junior explorer seeking to justify further capital deployment.",
+        "The market-sensitive classification underscores material new information: confirmation that mineralisation extends beyond the current resource model implies the existing JORC estimate is likely understated, which could re-rate the project's economic viability and attract renewed institutional interest in resource definition drilling.",
+        "Next steps will centre on infill and extensional drilling to convert these new intersections into an updated resource estimate — investors should watch for assay results, drill spacing decisions, and any revised scoping or PFS timeline, as these will be the primary catalysts for sustained re-rating."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NOR",
+      "company": "NORWOOD SYSTEMS LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-19T23:07:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112250-6A1334452",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item for Norwood Systems — as a pre-revenue or early-revenue tech company, the Appendix 4C will reveal whether operating cash burn is accelerating or stabilising, directly determining how close the company is to requiring another capital raise and the associated dilution risk for existing shareholders.",
+        "Revenue and receipts from customers in the quarter will be scrutinised for any meaningful uptick in adoption of its World Phone and enterprise communications platform — any sequential growth in customer receipts would signal commercial traction, while flat or declining figures reinforce concerns about the pace of monetisation against ongoing operating expenditure.",
+        "Near-term outlook hinges on whether management reaffirms its commercialisation timeline and whether the cash balance provides at least two quarters of runway without a raise — any guidance on upcoming enterprise contracts, partnership milestones, or product launches will be key catalysts investors should monitor heading into the next quarter."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEX",
+      "company": "MINERALS EXPLORATION LIMITED",
+      "headline": "Sovereign Historic Gold Zones Reveal Key Drill Targets",
+      "time": "2026-07-19T23:07:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112247-6A1334449",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reinterpretation of historic gold zones at the Sovereign project has generated defined drill targets, a critical de-risking milestone that converts legacy data into actionable exploration upside — the key catalyst the market will be watching to assign a discovery premium.",
+        "The market-sensitive classification signals management believes the target identification materially changes the investment case; however, without disclosed target sizes, grades, or resource estimates, the quantitative upside remains speculative and dependent on upcoming drill results.",
+        "Near-term newsflow will be dominated by drill program commencement and initial assay results — investors should monitor announced meterage, target depth, and proximity to historic high-grade intercepts as the primary valuation triggers for re-rating potential."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AUV",
+      "company": "AURAVELLE METALS LIMITED",
+      "headline": "Strongly Supported Capital Raise",
+      "time": "2026-07-19T23:06:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112245-6A1334435",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "The 'strongly supported' characterisation signals robust institutional and sophisticated investor appetite, suggesting the raise was likely oversubscribed — a key quality indicator that reduces execution risk and implies confidence in the company's near-term catalysts.",
+        "Without disclosed raise size or pricing, the critical metrics to watch are the degree of dilution relative to pre-raise market cap and whether the placement price represents a discount to last traded price — typically 10-20% discounts are standard but deeper cuts signal desperation rather than strength.",
+        "Proceeds will likely be directed toward exploration or development activity; investors should monitor the accompanying use-of-funds disclosure closely to assess whether capital is being deployed into value-accretive drilling programs or is primarily covering operational burn — the former supports a re-rating thesis, the latter does not."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DSM",
+      "company": "DESERT MINERALS LTD",
+      "headline": "Drilling to Commence at Providence Prospect at Mt Monger",
+      "time": "2026-07-19T23:06:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112244-6A1334447",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Desert Minerals is mobilising drilling at the Providence Prospect within the Mt Monger district — a historically productive gold region in WA that hosts major operations including Evolution Mining's Mungari complex, lending immediate geological credibility to the target selection.",
+        "The market-sensitive classification signals management believes drill results carry material re-rating potential; for a junior explorer, a maiden or follow-up drill program at a well-located prospect is a binary catalyst that could rapidly reprice the stock on assay outcomes.",
+        "Investors should monitor drill depth, hole count, and target style (gold vs. base metals) in the forthcoming operational update — key metrics to watch include intercept widths and grade relative to the Mt Monger district average, which will determine whether a resource definition program is warranted."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PNC",
+      "company": "PIONEER CREDIT LIMITED",
+      "headline": "Equity Raise Presentation",
+      "time": "2026-07-19T23:05:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112242-6A1334423",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Pioneer Credit is executing an equity raise, introducing near-term dilution risk for existing shareholders — the size, pricing discount, and use of proceeds will be critical determinants of whether this is value-accretive or destructive, particularly given the company's leveraged balance sheet in the debt purchasing sector.",
+        "As a consumer debt purchaser, PNC's capital raise likely signals a need to fund new debt ledger acquisitions or shore up liquidity — in a rising interest rate environment, the cost of capital for such businesses has materially increased, making the terms of this raise a key indicator of financial health and management's confidence in forward returns on purchased debt portfolios.",
+        "Institutional investors should scrutinise the implied IRR assumptions on new ledger purchases disclosed in the presentation, the pro-forma gearing ratio post-raise, and whether any existing debt facility covenants are being addressed — these factors will determine if the raise stabilises the business or merely defers deeper structural challenges."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PNC",
+      "company": "PIONEER CREDIT LIMITED",
+      "headline": "Media Release - Equity Placement and Outlook",
+      "time": "2026-07-19T23:04:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112239-6A1334422",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Pioneer Credit is executing an equity placement to raise fresh capital, introducing near-term dilution risk for existing shareholders — the size, price, and discount to last traded price will be critical determinants of value destruction or strategic optionality.",
+        "The concurrent outlook update signals management is using the capital raise as an opportunity to reset market expectations, suggesting either a material change in earnings trajectory or a strategic pivot in debt purchasing activity that requires balance sheet reinforcement.",
+        "Institutional investors should scrutinise the use-of-proceeds disclosure closely — in the consumer debt purchasing sector, capital deployment into receivables portfolios at current interest rate levels carries meaningful IRR sensitivity, making the timing and pricing of new ledger acquisitions the key value driver post-raise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AGR",
+      "company": "AGUIA RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-19T23:04:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112238-2A1685021",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Aguia Resources (AGU) has entered a trading halt pending a material announcement, suspending price discovery and liquidity for institutional participants until further notice — the market-sensitive flag signals a potentially significant corporate development.",
+        "Historical context for AGU suggests the most probable catalysts for a market-sensitive halt include a capital raise, M&A activity, or a major project update related to its Brazilian phosphate or copper assets — each carrying materially different valuation implications.",
+        "Investors should monitor the forthcoming announcement closely: if halt-related to a capital raise, dilution risk is the key concern; if tied to a strategic partnership or offtake agreement for the Três Estradas phosphate project, the re-rate potential could be meaningful given fertiliser demand dynamics in Brazil."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "HRE",
       "company": "HEAVY RARE EARTHS LIMITED",
