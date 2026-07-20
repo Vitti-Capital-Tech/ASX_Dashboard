@@ -12,8 +12,14 @@ import PlacementCard from '@/components/PlacementCard';
 const CATEGORIES = [
   'All Activity', 'Bullish', 'Bearish', 'Neutral', 'Quarterly', 'Results', 'Dividend',
   'Capital Raise', 'AGM', 'Merger & Acquisition',
-  'Trading Halt', 'Board Change', 'Substantial Holding', 'Whatsapp Messages'
+  'Trading Halt', 'Board Change', 'Substantial Holding', 'Whatsapp Messages', 'US/Canada Summaries'
 ];
+
+// Summary tabs share the placements pipeline; each maps to a market region (see lib/markets.ts).
+const SUMMARY_TABS: Record<string, string> = {
+  'Whatsapp Messages': 'au',
+  'US/Canada Summaries': 'us',
+};
 
 const REFRESH_MS = 5 * 60 * 1000;
 
@@ -35,6 +41,10 @@ export default function Dashboard() {
   const [placementLog, setPlacementLog] = useState<PlacementDayLog | null>(null);
   const [placementLoading, setPlacementLoading] = useState(false);
   const [placementDates, setPlacementDates] = useState<string[]>([]);
+
+  // Which market region (if any) the active tab maps to; undefined for non-summary tabs.
+  const summaryRegion = SUMMARY_TABS[activeCategory];
+  const isSummaryTab = summaryRegion !== undefined;
 
   useEffect(() => {
     setIsClient(true);
@@ -119,11 +129,11 @@ export default function Dashboard() {
     }
   }, []);
 
-  const fetchPlacements = useCallback(async (d: string) => {
+  const fetchPlacements = useCallback(async (d: string, region: string) => {
     if (!d) return;
     setPlacementLoading(true);
     try {
-      const res = await fetch(`/api/placements/${d}`);
+      const res = await fetch(`/api/placements/${d}?region=${region}`);
       if (res.ok) {
         const data: PlacementDayLog = await res.json();
         setPlacementLog(data);
@@ -140,9 +150,10 @@ export default function Dashboard() {
   useEffect(() => { if (!isClient) return; fetchLog(date); }, [date, fetchLog, isClient]);
 
   useEffect(() => {
-    if (!isClient || activeCategory !== 'Whatsapp Messages') return;
-    fetchPlacements(date);
-  }, [date, activeCategory, fetchPlacements, isClient]);
+    if (!isClient || !summaryRegion) return; // narrows summaryRegion to string
+    setPlacementLog(null);
+    fetchPlacements(date, summaryRegion);
+  }, [date, summaryRegion, fetchPlacements, isClient]);
   useEffect(() => {
     if (!date || !isClient) return;
     const interval = setInterval(() => fetchLog(date), REFRESH_MS);
@@ -356,7 +367,7 @@ export default function Dashboard() {
         <div className="flex-1 overflow-auto pb-16 px-5 sm:px-7 pt-6">
 
           {/* Market Loading */}
-          {loading && activeCategory !== 'Whatsapp Messages' && (
+          {loading && !isSummaryTab && (
             <div className="flex flex-col items-center justify-center h-[52vh] gap-5 animate-fade-in-up">
               <div className="relative w-12 h-12">
                 <div className="absolute inset-0 rounded-full"
@@ -374,7 +385,7 @@ export default function Dashboard() {
           )}
 
           {/* Placement Loading */}
-          {activeCategory === 'Whatsapp Messages' && placementLoading && (
+          {isSummaryTab && placementLoading && (
             <div className="flex flex-col items-center justify-center h-[52vh] gap-5 animate-fade-in-up">
               <div className="relative w-12 h-12">
                 <div className="absolute inset-0 rounded-full"
@@ -392,7 +403,7 @@ export default function Dashboard() {
           )}
 
           {/* Error / Pending state */}
-          {error && !loading && activeCategory !== 'Whatsapp Messages' && (
+          {error && !loading && !isSummaryTab && (
             <div className="mx-auto max-w-xl mt-10 animate-fade-in-up">
               <div className="rounded-[20px] p-7 flex items-start gap-5"
                 style={{
@@ -449,7 +460,7 @@ export default function Dashboard() {
           )}
 
           {/* Placement Empty State */}
-          {activeCategory === 'Whatsapp Messages' && !placementLoading && (!placementLog || placementLog.placements.length === 0) && (
+          {isSummaryTab && !placementLoading && (!placementLog || placementLog.placements.length === 0) && (
             <div className="mx-auto max-w-xl mt-10 animate-fade-in-up">
               <div className="rounded-[20px] p-7 flex items-start gap-5"
                 style={{
@@ -477,7 +488,7 @@ export default function Dashboard() {
                     No placement summaries found for this date.
                   </p>
                   <button
-                    onClick={() => fetchPlacements(date)}
+                    onClick={() => fetchPlacements(date, summaryRegion ?? 'au')}
                     className="px-5 py-2.5 rounded-xl text-white text-[0.8rem] font-bold tracking-wide transition-all duration-150 hover:-translate-y-0.5"
                     style={{
                       background: '#a855f7',
@@ -490,8 +501,8 @@ export default function Dashboard() {
             </div>
           )}
 
-          {/* Empty state — hidden on Whatsapp Messages tab */}
-          {activeCategory !== 'Whatsapp Messages' && !loading && !error && sorted.length === 0 && log && (
+          {/* Empty state — hidden on summary tabs */}
+          {!isSummaryTab && !loading && !error && sorted.length === 0 && log && (
             <div className="flex flex-col items-center justify-center h-[52vh] gap-5 text-center px-8 animate-fade-in-up">
               <div className="w-16 h-16 rounded-3xl flex items-center justify-center animate-float"
                 style={{ background: 'rgba(99,102,241,0.07)', border: '1px solid rgba(99,102,241,0.12)', boxShadow: '0 0 40px rgba(99,102,241,0.08)' }}>
@@ -515,8 +526,8 @@ export default function Dashboard() {
             </div>
           )}
 
-          {/* Placement summaries inside Whatsapp Messages tab */}
-          {activeCategory === 'Whatsapp Messages' && !placementLoading && placementLog && placementLog.placements.length > 0 && (
+          {/* Placement summaries inside summary tabs (AU / US-Canada) */}
+          {isSummaryTab && !placementLoading && placementLog && placementLog.placements.length > 0 && (
             <div className="max-w-[1000px] mx-auto mb-8">
               <div className="flex items-center justify-between mb-5 px-1 animate-fade-in-up">
                 <h2 className="text-[1rem] font-bold text-slate-200 flex items-center gap-3">

@@ -1,19 +1,19 @@
 import { NextResponse } from 'next/server';
-
-const EC2_API = 'http://3.25.70.124:8000';
+import { marketApi } from '@/lib/markets';
 
 export async function GET(
   request: Request,
   { params }: { params: { date: string } }
 ) {
   const { date } = params;
+  const region = new URL(request.url).searchParams.get('region');
 
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
     return NextResponse.json({ error: `Invalid date format: ${date}` }, { status: 400 });
   }
 
   try {
-    const res = await fetch(`${EC2_API}/api/placements/${date}`, { cache: 'no-store' });
+    const res = await fetch(`${marketApi(region)}/api/placements/${date}`, { cache: 'no-store' });
     if (!res.ok) {
       return NextResponse.json({ error: `No placement data found for ${date}.` }, { status: 404 });
     }

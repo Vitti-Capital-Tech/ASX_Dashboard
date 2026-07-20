@@ -1,10 +1,10 @@
 import { NextResponse } from 'next/server';
+import { marketApi } from '@/lib/markets';
 
-const EC2_API = 'http://3.25.70.124:8000';
-
-export async function GET() {
+export async function GET(request: Request) {
+  const region = new URL(request.url).searchParams.get('region');
   try {
-    const res = await fetch(`${EC2_API}/api/placements`, { cache: 'no-store' });
+    const res = await fetch(`${marketApi(region)}/api/placements`, { cache: 'no-store' });
     if (!res.ok) return NextResponse.json([]);
     const data = await res.json();
     return NextResponse.json(data.dates || []);
