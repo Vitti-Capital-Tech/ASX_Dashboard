@@ -1,9 +1,68 @@
 {
   "date": "2026-07-20",
-  "total": 95,
-  "market_sensitive_count": 91,
-  "generated_at": "2026-07-20T00:07:39.285891+00:00",
+  "total": 98,
+  "market_sensitive_count": 93,
+  "generated_at": "2026-07-20T00:33:41.994201+00:00",
   "announcements": [
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "EVR to Undertake Rights Issue and Change of Management",
+      "time": "2026-07-20T00:29:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112344-6A1334475",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "Dual capital and governance reset signals the company is under significant pressure — a simultaneous rights issue and management overhaul typically indicates the incumbent strategy has failed to deliver, raising questions about the credibility of the incoming team and their ability to execute a turnaround in a competitive EV materials space.",
+        "The rights issue introduces near-term dilution risk for existing shareholders; without disclosed pricing, discount to market, or total raise quantum, investors cannot yet assess whether the capital injection is sufficient to fund meaningful exploration or operational milestones, or merely a short-term liquidity patch.",
+        "Incoming management will need to rapidly articulate a revised strategic roadmap — key watch points include the rights issue terms (expected imminently), any change in project focus or asset portfolio, and whether institutional support materialises to underwrite the raise, which would be a critical confidence signal for the market."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KLV",
+      "company": "KLEVO REWARDS LIMITED",
+      "headline": "Klevo Completes Acquisition of Australian Credit Licence",
+      "time": "2026-07-20T00:29:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112343-6A1334489",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Klevo has completed the acquisition of an Australian Credit Licence (ACL), a critical regulatory milestone that unlocks the ability to offer credit products directly to consumers — materially expanding its addressable market beyond a pure rewards/loyalty play into embedded finance and BNPL-adjacent services.",
+        "Holding an ACL removes the need for costly third-party credit intermediaries, improving unit economics and enabling Klevo to capture a greater share of the revenue stack on any credit-linked rewards or financing products it brings to market — a structurally significant margin lever for a small-cap fintech.",
+        "The immediate next steps to watch are product launch timelines leveraging the new licence, any partnership or distribution announcements that the ACL enables, and whether the company will need to raise additional capital to fund the compliance infrastructure and balance sheet requirements that typically accompany credit licence obligations."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RWL",
+      "company": "RUBICON WATER LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-20T00:26:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112342-3A697373",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a shift in the ownership structure of Rubicon Water, which warrants monitoring for directional intent — whether accumulation or distribution by a major holder can foreshadow future strategic moves or liquidity events.",
+        "Substantial holder movements in a mid/small-cap water technology company like Rubicon Water can meaningfully impact free float and trading liquidity; if the change reflects a reduction below the 5% threshold, it may indicate institutional profit-taking or portfolio rebalancing pressure on the stock.",
+        "Investors should track the identity and historical behaviour of the relevant substantial holder — if a strategic or sector-aligned investor is increasing their stake, it could signal growing conviction in Rubicon's irrigation automation and water management technology pipeline, particularly given global tailwinds in water efficiency infrastructure."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "WTL",
       "company": "WT FINANCIAL GROUP LIMITED",
