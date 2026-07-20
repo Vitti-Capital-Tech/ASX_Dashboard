@@ -1,9 +1,234 @@
 {
   "date": "2026-07-21",
-  "total": 62,
-  "market_sensitive_count": 57,
-  "generated_at": "2026-07-20T23:12:37.801815+00:00",
+  "total": 74,
+  "market_sensitive_count": 69,
+  "generated_at": "2026-07-20T23:22:55.778688+00:00",
   "announcements": [
+    {
+      "ticker": "GT3",
+      "company": "GREEN360 TECHNOLOGIES LIMITED",
+      "headline": "G360 Secures Improved Contractual Terms With Major Customer",
+      "time": "2026-07-20T23:19:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112689-6A1334661",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Renegotiated contract terms with a major customer signal improved commercial leverage for G360, potentially lifting margin profile and reducing revenue risk concentration — critical for a small-cap technology company where a single large customer can disproportionately impact earnings quality.",
+        "The market-sensitive classification indicates the revised terms are material to the company's financial position; investors should scrutinise whether improvements relate to pricing, volume commitments, payment terms, or exclusivity clauses, as each carries distinct implications for near-term cash flow and revenue visibility.",
+        "This development may strengthen G360's negotiating position with prospective customers by demonstrating the ability to extract better terms from established relationships, though sustained re-rating will depend on full disclosure of contract specifics and evidence of broader pipeline conversion."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WRK",
+      "company": "WRKR LTD",
+      "headline": "Trading Halt",
+      "time": "2026-07-20T23:18:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112688-2A1685235",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "WRKR Ltd has entered a trading halt pending a material announcement — the market-sensitive classification signals a significant corporate event is imminent, likely a capital raise, M&A transaction, or major contract/partnership disclosure.",
+        "Trading halts of this nature on small-cap ASX technology stocks (WRKR operates in payroll/superannuation tech) are most commonly associated with equity raisings, which carry dilution risk, or transformative deals that could re-rate the stock — investors should prepare for either scenario.",
+        "The halt duration will be critical to watch; a prolonged halt typically indicates complex documentation requirements (e.g. prospectus, binding term sheet), while a short halt may suggest a cleaner announcement such as a strategic partnership — monitor for the accompanying ASX release expected within 1-2 trading days."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WMG",
+      "company": "WESTERN MINES GROUP LTD",
+      "headline": "Further High-Grade Results up to 2.26% Ni 0.35% Cu",
+      "time": "2026-07-20T23:18:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112687-6A1334660",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-grade nickel intercepts of up to 2.26% Ni and 0.35% Cu materially strengthen the deposit's economic case, with grades well above typical bulk-tonnage nickel sulphide thresholds (~0.5-1.0% Ni), suggesting potential for a high-margin, selective mining scenario that could attract major battery-metals offtake interest.",
+        "The market-sensitive classification signals management confidence that these results represent a step-change in resource definition — repeated high-grade hits typically indicate continuity of a sulphide lens, which is the critical de-risking milestone that re-rates junior nickel explorers toward resource estimation and pre-feasibility stages.",
+        "Near-term catalysts to monitor include a maiden or updated JORC resource estimate incorporating these results, potential strategic partner or JV interest given the nickel-copper profile aligns with EV battery supply chain demand, and whether follow-up drilling is funded from existing cash or will require a capital raise that could dilute current holders."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CCE",
+      "company": "CARNEGIE CLEAN ENERGY LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-20T23:15:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112684-6A1334658",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Carnegie Clean Energy (CCE) has entered a trading halt, suspending price discovery and liquidity for investors — a move typically preceding a material announcement such as a capital raise, asset deal, or significant operational update in the clean energy space.",
+        "Given CCE's historical cash burn profile and its focus on wave energy and microgrids, the halt most likely signals an imminent equity raising or strategic partnership announcement — both of which carry dilution risk or re-rating potential depending on terms and pricing.",
+        "Investors should monitor the resumption announcement closely for deal structure, counterparty quality, and use-of-funds disclosure, as these will determine whether the halt resolves as a catalyst or an overhang on the stock."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MHC",
+      "company": "MANHATTAN GOLD CORPORATION LIMITED",
+      "headline": "Vanquish Prospect Delivers High-Grade Gold Sampling Results",
+      "time": "2026-07-20T23:14:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112683-6A1334653",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-grade surface sampling at the Vanquish Prospect signals meaningful discovery potential, a critical de-risking milestone for Manhattan Gold that could re-rate the stock if results translate to depth — early-stage gold explorers live and die by first-pass assay quality.",
+        "The market-sensitive classification underscores management's own assessment that these results are materially significant; institutional investors should scrutinise the grade-width combinations and spatial continuity of samples to distinguish a genuine discovery from isolated high-grade nugget effects.",
+        "Near-term catalysts to watch include follow-up RC or diamond drilling programs to test the high-grade zones at depth — conversion of surface anomalism to a JORC-compliant resource would be the next transformative value inflection point for this early-stage explorer."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GML",
+      "company": "GATEWAY MINING LIMITED",
+      "headline": "Cowza Grows to 2.5KM of Continuous High Grade Gold",
+      "time": "2026-07-20T23:14:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112681-2A1685229",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cowza prospect has now demonstrated 2.5km of continuous high-grade gold mineralisation, a material step-change in scale that significantly de-risks the project and elevates its potential to host a substantial resource — a key re-rating catalyst for a junior explorer of Gateway's size.",
+        "The 'continuous' nature of the strike length is the critical qualifier here: coherent, unbroken high-grade corridors command premium valuation multiples versus isolated intercepts, and this geometry supports future resource definition drilling with higher confidence and lower capital intensity.",
+        "Near-term focus will shift to resource estimation drilling to convert this strike extent into a maiden or expanded JORC resource — institutional investors should watch for upcoming drill programs, assay results, and any move toward a Scoping Study as the logical next catalysts in the value-creation sequence."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OMA",
+      "company": "OMEGA OIL & GAS LIMITED",
+      "headline": "OMA Commences Transformational Taroom Trough Drill Program",
+      "time": "2026-07-20T23:13:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112678_PS-2A1685228",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Omega Oil & Gas has commenced drilling at the Taroom Trough, a basin-scale play in Queensland's Surat/Bowen region that management characterises as 'transformational' — signalling this is a high-stakes, potentially company-making catalyst that warrants close monitoring given OMA's small-cap status on the ASX.",
+        "The drill program represents a binary value inflection point: success could unlock material resource upgrades and re-rate the stock significantly, while a dry or sub-commercial result would likely trigger a sharp de-rating — investors should assess OMA's cash position and whether additional capital raises may be required to fund multi-well programs if initial results are encouraging.",
+        "Near-term newsflow will be dominated by drilling progress updates, wireline log results, and any initial flow-rate data — institutional investors should watch for independent resource estimates or farm-in interest from larger E&P players as key validation signals that could accelerate the stock's re-rating thesis."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RIE",
+      "company": "RIEDEL RESOURCES LIMITED",
+      "headline": "Riedel Completes Acquisition of Australian Gold Assets",
+      "time": "2026-07-20T23:13:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112677-6A1334648",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Completion of the acquisition marks a strategic pivot for Riedel Resources into Australian gold assets, potentially re-rating the stock as investors price in exposure to domestic gold production/exploration at a time when gold prices remain elevated near all-time highs.",
+        "The market-sensitive classification signals material asset value or consideration size — investors should scrutinise deal terms including any scrip component, cash outlay, or deferred payments, as dilution risk or balance sheet strain could offset near-term upside from the asset addition.",
+        "Key near-term catalysts will be the release of maiden resource estimates, exploration work programs, or updated corporate guidance on the acquired tenements — execution speed and capital allocation discipline will be critical in validating the strategic rationale and sustaining post-announcement momentum."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SRR",
+      "company": "SARAMA RESOURCES LTD",
+      "headline": "Sarama Completes Sale of its West Australian Gold Assets",
+      "time": "2026-07-20T23:12:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112675-6A1334645",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Completion of the West Australian gold asset sale represents a strategic portfolio rationalisation, likely injecting fresh capital into Sarama's balance sheet and reducing holding costs associated with non-core exploration tenements — directly extending cash runway for its primary West African projects.",
+        "The transaction's market-sensitive classification signals material financial consideration; investors should scrutinise the disclosed sale proceeds relative to the carrying value of these assets to assess whether the deal was struck at a premium, at par, or at a write-down — a key determinant of near-term sentiment.",
+        "With WA gold assets now divested, Sarama's investment thesis sharpens around its core Burkina Faso/West African exploration pipeline; the freed-up capital and management bandwidth could accelerate drilling programmes or position the company as a more focused M&A target in the junior gold space."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NMG",
+      "company": "NEW MURCHISON GOLD LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-20T23:12:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112674-6A1334654",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue gold explorer, NMG's Appendix 5B will reveal net operating cash burn rate and remaining cash reserves, determining how many quarters the company can sustain exploration without additional capital; any runway below 2 quarters signals near-term dilution risk.",
+        "Exploration progress at the Murchison Gold Project in WA will be scrutinised for drill results, metres drilled, and any resource definition milestones — tangible newsflow here is the primary near-term re-rating catalyst for this micro-cap, where absence of material results keeps sentiment subdued.",
+        "With gold spot prices trading near multi-year highs above USD 3,000/oz, institutional attention on junior gold explorers is elevated — NMG's ability to demonstrate capital efficiency and a credible path to resource upgrade or JV partnership will determine whether it can attract fresh institutional interest in any upcoming capital raise."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NOU",
+      "company": "NOUMI LIMITED",
+      "headline": "Noumi Enters Into Scheme of Arrangement Deed with Arrovest",
+      "time": "2026-07-20T23:11:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112673-2A1685224",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Noumi has entered a Scheme of Arrangement Deed with Arrovest, signalling a binding takeover pathway that typically delivers a control premium to target shareholders — the market-sensitive flag suggests a material offer price relative to recent trading levels.",
+        "A Scheme of Arrangement structure requires Court approval and a shareholder vote (75% by value, 50% by number), meaning deal certainty hinges on these thresholds plus regulatory clearance — investors should scrutinise the implied EV against Noumi's debt-laden balance sheet and recent operational turnaround trajectory.",
+        "Next steps will centre on the Scheme Booklet release, independent expert opinion on fairness, and shareholder meeting timing — any competing bid or Arrovest bump scenario remains possible during the exclusivity window, keeping near-term upside optionality alive."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DUN",
+      "company": "DUNDAS MINERALS LIMITED",
+      "headline": "Native Title Cleared for drilling at Capricorn",
+      "time": "2026-07-20T23:10:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112672-6A1334652",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Native Title clearance removes a critical regulatory bottleneck at the Capricorn project, unlocking the path to drill testing — a key de-risking milestone that exploration-stage investors typically re-rate positively given the historical delays and uncertainty associated with Native Title negotiations in Western Australia.",
+        "The market-sensitive classification signals management views this as a material catalyst; for a junior explorer like Dundas Minerals, drill access approval directly accelerates the timeline to resource definition and potential discovery newsflow, which represents the primary value-creation event for the stock.",
+        "Near-term focus shifts to drill program commencement — investors should monitor for announcement of rig mobilisation, target depth/spacing details, and assay turnaround timelines, as these will determine the cadence of upcoming catalysts and whether the current market cap can be supported by discovery potential at Capricorn."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "FAL",
       "company": "FALCON METALS LTD",
