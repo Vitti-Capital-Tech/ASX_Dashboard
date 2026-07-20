@@ -1,9 +1,106 @@
 {
   "date": "2026-07-20",
-  "total": 101,
-  "market_sensitive_count": 96,
-  "generated_at": "2026-07-20T01:38:20.256783+00:00",
+  "total": 106,
+  "market_sensitive_count": 101,
+  "generated_at": "2026-07-20T03:05:43.460089+00:00",
   "announcements": [
+    {
+      "ticker": "WHK",
+      "company": "WHITEHAWK LIMITED",
+      "headline": "Options Prospectus",
+      "time": "2026-07-20T02:51:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112392-6A1334506",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WhiteHawk is issuing an Options Prospectus, indicating the company is activating previously issued options or offering new options to raise capital — a move that signals near-term funding needs and potential dilution risk for existing shareholders.",
+        "As a cybersecurity-focused technology company, WHK's recourse to an options-based capital mechanism rather than a traditional placement or rights issue may reflect limited institutional appetite at current price levels, raising questions about balance sheet strength and cash runway sustainability.",
+        "Investors should scrutinise the strike price, expiry terms, and total proceeds relative to WHK's current burn rate — if the options are materially in-the-money or carry a low exercise price, the dilutionary impact on the register could be significant and weigh on near-term share price performance."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "FCG",
+      "company": "FREEDOM CARE GROUP HOLDINGS LIMITED",
+      "headline": "Appendix 4C - 30 June 2026",
+      "time": "2026-07-20T02:28:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112390-6A1334500",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cash runway is the critical watchpoint for this Appendix 4C filing — as a small-cap healthcare operator, Freedom Care Group's net operating cash outflows and closing cash balance will determine whether a capital raise is imminent or if the business is approaching self-sufficiency.",
+        "Revenue trajectory and receipts from customers relative to prior quarters will signal whether the NDIS-focused care model is scaling effectively, with any quarter-on-quarter improvement in cash receipts being a key positive indicator for the investment thesis.",
+        "Investors should scrutinise staff cost burn and any disclosed financing activities closely — healthcare staffing pressures remain acute across the sector, and any deterioration in the operating cost structure or reliance on debt/equity drawdowns would flag near-term dilution risk."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FCG",
+      "company": "FREEDOM CARE GROUP HOLDINGS LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-20T02:28:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112389-6A1334497",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point for this micro-cap NDIS/aged care operator — without visibility on closing cash balance and quarterly burn rate, investors must scrutinise whether Freedom Care can sustain operations without an imminent capital raise, particularly given the capital-intensive nature of disability and home care service delivery.",
+        "Revenue trajectory and receipts from customers in the 4C will signal whether the group is converting its care contracts into meaningful cash inflows — any material gap between reported revenue and operating receipts would flag collection risk or structural working capital pressure common in NDIS-funded businesses reliant on government payment cycles.",
+        "Staff costs and operating expenditure discipline are paramount in the healthcare staffing model underpinning Freedom Care's business — elevated payroll outflows relative to receipts, combined with any disclosed net operating cash outflow, would reinforce near-term dilution risk and pressure management to demonstrate a credible path to cash flow breakeven."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JGH",
+      "company": "JADE GAS HOLDINGS LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-07-20T02:26:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112388-6A1334505",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reinstatement to quotation signals resolution of the underlying compliance or corporate action issue that triggered the trading halt — investors should scrutinise the accompanying disclosure to determine whether the suspension was linked to a capital raise, M&A activity, or regulatory matter, as this materially affects re-entry valuation.",
+        "Trading halts on small-cap energy names like Jade Gas Holdings typically precede material announcements; any associated capital raise or asset transaction could introduce near-term dilution risk or, conversely, a re-rating catalyst depending on deal terms and pricing relative to last traded price.",
+        "With reinstatement now effective, price discovery will be volatile in early trading as the market digests the suspension rationale — institutional participants should monitor volume, bid-ask spreads, and any updated guidance on Jade's Mongolia-focused coal bed methane operations before establishing or adjusting positions."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JGH",
+      "company": "JADE GAS HOLDINGS LIMITED",
+      "headline": "JGH Signs Non-Binding Agreement to Secure Est. $1.1B Funding",
+      "time": "2026-07-20T02:26:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112386-6A1334503",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The non-binding agreement to secure an estimated USD/AUD $1.1B in funding represents a transformational capital event for Jade Gas Holdings — dwarfing the company's current market capitalisation and signalling potential full-scale development of its Mongolian coal bed methane assets, which have long been constrained by funding gaps.",
+        "Critically, the agreement remains non-binding, introducing material execution risk; investors should scrutinise counterparty credibility, funding structure (debt vs. equity vs. offtake-linked), and any dilution mechanics before pricing in the headline figure — non-binding terms frequently lapse or are renegotiated in junior energy deals.",
+        "If binding terms are formalised, this funding quantum could underwrite multi-well drilling programs and gas commercialisation infrastructure, potentially catalysing a re-rating from explorer to developer status; near-term focus shifts to binding agreement timeline, regulatory approvals in Mongolia, and any conditions precedent disclosed in subsequent filings."
+      ],
+      "tags": [
+        "Energy",
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "KAL",
       "company": "KALGOORLIE GOLD MINING LIMITED",
