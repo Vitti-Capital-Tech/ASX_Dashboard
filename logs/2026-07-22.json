@@ -1,9 +1,313 @@
 {
   "date": "2026-07-22",
-  "total": 80,
-  "market_sensitive_count": 72,
-  "generated_at": "2026-07-21T23:08:49.194517+00:00",
+  "total": 96,
+  "market_sensitive_count": 88,
+  "generated_at": "2026-07-21T23:21:17.853257+00:00",
   "announcements": [
+    {
+      "ticker": "WYX",
+      "company": "WESTERN YILGARN NL",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-21T23:16:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113110-6A1334882",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item for this micro-cap explorer — Western Yilgarn's Appendix 5B will reveal whether current cash reserves are sufficient to fund ongoing exploration without an imminent capital raise, which would be dilutive to existing shareholders.",
+        "As a pre-revenue exploration company operating in the Yilgarn Craton of Western Australia, quarterly cash outflows on exploration activities and administration costs will determine how aggressively the company can advance its gold or base metals targets before needing to return to market for fresh funding.",
+        "Investors should monitor any disclosure of new drill results, resource updates, or farm-in/JV discussions flagged in the activities report, as these represent the primary near-term catalysts that could re-rate the stock — absent meaningful exploration newsflow, the quarterly is likely to remain a routine administrative update."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEQ",
+      "company": "SEQUOIA FINANCIAL GROUP LTD",
+      "headline": "Change of Leadership Team",
+      "time": "2026-07-21T23:15:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113108-2A1685402",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "Leadership transition at Sequoia Financial Group signals potential strategic pivot — incoming leadership composition and mandate will be critical to watch, particularly given the company's ongoing push to scale its licensee and wealth management divisions in a competitive AFSL market.",
+        "Management instability at a financial services firm carries execution risk: client retention, adviser attrition, and regulatory continuity (ASIC licensing obligations) are all pressure points that institutional investors should monitor closely in the near term.",
+        "Next steps hinge on the incoming team's strategic priorities — whether they accelerate M&A within the IFA consolidation space, rationalise underperforming segments, or pursue organic growth will define the re-rating catalyst; watch for any accompanying strategy update or investor briefing."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MNE",
+      "company": "MACALLUM NEW ENERGY LIMITED",
+      "headline": "Quarterly Activities / Appendix 5B Cash Flow Report",
+      "time": "2026-07-21T23:15:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113107-6A1334879",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue new energy explorer, the Appendix 5B will reveal net operating cash outflows and remaining cash reserves, determining how many quarters the company can sustain operations before requiring additional capital injection.",
+        "With zero disclosed revenue-generating assets at this stage, investors should scrutinise the breakdown of exploration/development expenditure versus administrative costs, as any material increase in burn rate without corresponding technical milestones signals capital efficiency concerns.",
+        "The market-sensitive classification elevates urgency — likely triggered by a material cash position update, potential capital raise disclosure, or significant project development news that could reset near-term valuation expectations for this small-cap energy transition play."
+      ],
+      "tags": [
+        "Quarterly",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BRE",
+      "company": "BRAZILIAN RARE EARTHS LIMITED",
+      "headline": "Alurion Resources IPO raises A$50 Million",
+      "time": "2026-07-21T23:14:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113105-6A1334866",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Brazilian Rare Earths has successfully spun out Alurion Resources via a A$50M IPO, crystallising value from its asset portfolio and signalling strong institutional appetite for rare earth exposure at a time of heightened critical minerals demand driven by EV and defence supply chain diversification.",
+        "The A$50M raise is a material capital event — proceeds flowing to Alurion provide a well-funded exploration and development runway, while BRE retains a strategic stake, meaning existing shareholders gain leveraged exposure to two separately capitalised rare earth vehicles without direct dilution to BRE's core asset base.",
+        "The IPO listing creates a near-term re-rating catalyst for BRE as the market prices in the implied value of its retained Alurion shareholding; investors will closely watch the IPO listing price versus BRE's carrying value and any post-IPO lock-up expiry timelines as key valuation triggers."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ATV",
+      "company": "ACTIVEPORT GROUP LTD",
+      "headline": "Trading Halt",
+      "time": "2026-07-21T23:13:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113103-6A1334876",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "ACTIVEPORT GROUP LTD has entered a trading halt, suspending price discovery for investors — the market-sensitive classification signals a material corporate development is imminent, likely a capital raise, M&A transaction, or significant contract announcement.",
+        "Trading halts on small-cap ASX technology names are most frequently precursors to equity raisings; given Activeport's stage as a network-as-a-service provider, any capital raise could signal accelerated growth investment or a cash runway concern requiring close scrutiny of terms and dilution impact.",
+        "Investors should monitor the resumption announcement closely — the nature of the pending disclosure (accretive deal vs. dilutive raise vs. regulatory matter) will be the key determinant of directional price movement upon reinstatement of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HLI",
+      "company": "HELIA GROUP LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-07-21T23:13:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113102-2A1685399",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX-triggered price query signals unusual share price or volume movement in Helia Group (HLI), a lenders mortgage insurer — the market-sensitive classification suggests the company's response may contain material information not previously disclosed, warranting close attention from institutional holders.",
+        "Helia's core business is highly sensitive to Australian housing market conditions, credit quality, and bank LMI volumes; any price query response that references earnings trajectory, claims experience, or capital position could materially reprice the stock given its concentrated exposure to high-LVR mortgage risk.",
+        "Investors should monitor the full ASX response for any forward guidance updates, capital management signals (buyback/dividend), or commentary on LMI volumes from major bank partners — Helia has been an active capital returner, and any deviation from that narrative would be a key catalyst in either direction."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MOH",
+      "company": "MOHO RESOURCES LIMITED",
+      "headline": "Bush Chook Exploration Update",
+      "time": "2026-07-21T23:13:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113101-6A1334877",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bush Chook project exploration update signals active field work is underway, a critical catalyst for re-rating a junior explorer where drill results or target definition can materially shift market sentiment and valuation multiples.",
+        "As a market-sensitive announcement, the update likely contains substantive new geological data — such as assay results, revised resource estimates, or high-priority drill targets — that could directly influence near-term capital allocation decisions and partner/JV interest.",
+        "Next steps will hinge on whether the update confirms a drill-ready target or expands the prospective footprint; investors should monitor for a follow-on capital raise to fund drilling, as junior explorers typically sequence exploration news ahead of equity issuance."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MEK",
+      "company": "MEEKA METALS LIMITED",
+      "headline": "June 2026 Quarterly Activity Report & Appendix 5B",
+      "time": "2026-07-21T23:11:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113095-6A1334874",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — Meeka Metals' Appendix 5B will reveal operating and exploration cash burn rates against current reserves, with any sub-2-quarter runway likely to signal near-term capital raise risk for this pre-production gold developer at its Murchison Gold Project in WA.",
+        "Project advancement milestones will be scrutinised for progress on the Murchison Gold Project's development pathway, including any updates to the DFS, resource estimates, or permitting status that could de-risk the timeline to first production and underpin a re-rating.",
+        "Given the market-sensitive classification, the quarterly likely contains a material update — either a financing development, strategic partnership, or significant drilling result — that could act as a near-term catalyst; investors should watch for any offtake, debt facility, or JV announcement that validates the project's economics ahead of a construction decision."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "X2M",
+      "company": "X2M CONNECT LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-21T23:09:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113094-3A697465",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "X2M Connect has entered a trading halt, suspending share price discovery — historically, trading halts for small-cap ASX technology companies precede material announcements such as capital raises, M&A activity, or significant contract wins that require controlled disclosure.",
+        "The 'market sensitive' classification signals the pending announcement carries meaningful valuation implications; given X2M's focus on IoT/smart metering infrastructure, a major utility contract or strategic partnership would represent a significant revenue catalyst for a company of its scale.",
+        "Investors should monitor the resumption announcement closely — the nature of the disclosure (dilutive capital raise vs. accretive deal) will be the key determinant of near-term price direction, with the halt duration providing early clues as to complexity of the underlying transaction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LSA",
+      "company": "LACHLAN STAR LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-21T23:09:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113093-6A1334873",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watchpoint for this micro-cap explorer — investors must scrutinise the closing cash balance and quarterly burn rate to assess whether a near-term capital raise is likely, which would be dilutive to existing holders.",
+        "Operational activity levels and any exploration or development expenditure disclosed in the Appendix 5B will signal whether Lachlan Star is advancing its gold-focused asset base or conserving cash in a holding pattern, directly impacting project valuation timelines.",
+        "As a market-sensitive filing, any material deviation from prior quarter cash flows — particularly receipts from customers, staff/administration costs, or financing inflows — could trigger a re-rating; institutional investors should cross-reference against prior 5B disclosures to identify trend deterioration or improvement."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRZ",
+      "company": "STELLAR RESOURCES LIMITED",
+      "headline": "June 2026 Quarterly Activities Report & Cashflow Report",
+      "time": "2026-07-21T23:09:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113092-3A697464",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue explorer, Stellar's quarterly cash burn rate and remaining cash balance will determine whether a capital raise is imminent, with any sub-2-quarter runway signalling near-term dilution risk for existing shareholders.",
+        "Operational progress at the Heemskirk Tin Project in Tasmania will be scrutinised for any advancement in permitting, resource definition drilling, or feasibility work, given tin's strategic metal status and elevated global pricing environment which could materially re-rate the project's economics.",
+        "The market-sensitive classification elevates investor attention — any disclosure of a material resource update, binding agreement, or unexpected expenditure deviation from prior guidance will set the near-term price trajectory, making the cashflow statement and activity commentary the key documents to parse on release."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BEN",
+      "company": "BENDIGO AND ADELAIDE BANK LIMITED",
+      "headline": "BEN Redemption of Subordinated Notes",
+      "time": "2026-07-21T23:06:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113089-3A697463",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bendigo and Adelaide Bank is redeeming subordinated notes, signalling active liability management and a deliberate reshaping of its capital stack — reducing Tier 2 capital instruments that carry higher funding costs relative to senior or deposit funding.",
+        "The redemption eliminates ongoing coupon obligations on the subordinated debt, which is net positive for net interest margin (NIM) if refinanced at lower cost or replaced with cheaper funding sources; however, it modestly reduces total regulatory capital buffers unless offset by retained earnings or new issuance.",
+        "Investors should monitor whether BEN intends to replace this Tier 2 capital with a new subordinated note issuance or AT1 instrument — the absence of a concurrent replacement announcement suggests the bank is comfortable with its current capital adequacy ratios above APRA's minimum requirements, consistent with a well-capitalised regional bank positioning."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LKY",
+      "company": "LOCKSLEY RESOURCES LIMITED",
+      "headline": "Resignation of Managing Director",
+      "time": "2026-07-21T23:06:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113088-6A1334870",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "Leadership vacuum at a critical juncture: The resignation of the Managing Director at Locksley Resources — a small-cap explorer — removes key strategic continuity and raises immediate questions about who will drive project advancement, capital allocation, and stakeholder relationships in the near term.",
+        "Market-sensitive classification signals material impact: ASX's designation of this announcement as market sensitive indicates the exchange views the MD departure as potentially price-moving, heightening scrutiny on whether the exit is voluntary, performance-driven, or linked to undisclosed strategic disagreements or company challenges.",
+        "Succession clarity is now the critical catalyst: Investors will be watching closely for an interim or permanent replacement announcement — a credible internal succession or high-profile external hire could stabilise sentiment, while a prolonged leadership gap risks stalling exploration programs, partner negotiations, and any pending capital raise activity."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MME",
+      "company": "MONEYME LIMITED",
+      "headline": "4Q26 Update - Loan book over $2bn, positive normalised NPAT",
+      "time": "2026-07-21T23:05:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113086-2A1685392",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Loan book crossing the $2bn threshold is a material milestone for MoneyMe, signalling sustained origination momentum and validating the company's post-restructure growth trajectory — a key de-risking event for institutional investors who had questioned scalability following prior balance sheet stress.",
+        "Achieving positive normalised NPAT in 4Q26 marks a critical inflection point: it demonstrates the business has moved beyond cost-of-funds headwinds and credit normalisation pressures to generate underlying profitability, strengthening the case for a sustainable earnings base rather than a growth-at-any-cost model.",
+        "The combination of loan book scale and returning profitability sets up MoneyMe for potential re-rating into FY27 — key watch items will be net interest margin trajectory, arrears trends within the expanded book, and whether management upgrades full-year guidance or signals a dividend/capital return pathway as the balance sheet strengthens."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ERE",
+      "company": "EUROPEAN RESOURCES LIMITED",
+      "headline": "Soil Geochemistry Detects Standout REE Zone and New Anomaly",
+      "time": "2026-07-21T23:05:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113085-2A1685393",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Soil geochemistry has delineated a standout Rare Earth Element (REE) zone, providing the first concrete geochemical validation of the project's mineralisation potential — a critical de-risking milestone for an early-stage explorer that shifts the narrative from prospective to drill-ready.",
+        "The identification of a second, previously unrecognised REE anomaly materially expands the target footprint, suggesting the deposit may have greater lateral continuity than initially modelled — a key value driver for institutional interest in REE projects given global supply chain pressures.",
+        "Next steps will likely involve drill target prioritisation and maiden drilling program announcement; investors should monitor whether the company has sufficient cash runway to fund follow-up work without near-term dilutive capital raises, as execution speed is critical in the competitive REE exploration space."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RAD",
+      "company": "RADIOPHARM THERANOSTICS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-21T23:04:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113084-2A1685391",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Radiopharm Theranostics (RNO) has entered a trading halt pending a material announcement — the market-sensitive classification signals a significant corporate development is imminent, likely a capital raise, partnership, or clinical milestone that management deems price-sensitive.",
+        "For a pre-revenue radiopharmaceutical company with ongoing cash burn funding its pipeline of PET imaging and therapeutic candidates, any capital raise would carry dilution risk; conversely, a licensing deal or strategic partnership could materially re-rate the stock given the sector's high valuation multiples.",
+        "Investors should monitor the forthcoming announcement closely — RNO's pipeline spans oncology theranostics targeting high-value indications, and a positive clinical readout or big-pharma collaboration could validate the platform and catalyse institutional re-engagement in what remains a thinly traded, speculative-stage biotech."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CWY",
       "company": "CLEANAWAY WASTE MANAGEMENT LIMITED",
