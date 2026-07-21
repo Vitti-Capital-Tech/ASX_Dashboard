@@ -1,9 +1,104 @@
 {
   "date": "2026-07-21",
-  "total": 95,
-  "market_sensitive_count": 89,
-  "generated_at": "2026-07-21T01:35:28.109487+00:00",
+  "total": 100,
+  "market_sensitive_count": 93,
+  "generated_at": "2026-07-21T03:04:45.880900+00:00",
   "announcements": [
+    {
+      "ticker": "TMX",
+      "company": "TERRAIN MINERALS LIMITED",
+      "headline": "Quarterly Activities and Cashflow Report",
+      "time": "2026-07-21T02:47:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112781-6A1334695",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — junior explorer Terrain Minerals typically operates with minimal revenue, making the closing cash balance and quarterly burn rate the primary indicators of near-term dilution risk or capital raise necessity.",
+        "Exploration activity and any drill results or resource updates disclosed in the quarter will determine whether the company is advancing its project pipeline toward a re-rating catalyst, or marking time with limited technical progress.",
+        "With no production revenue base, the next steps hinge entirely on securing additional funding (equity raise or JV partnership) to sustain field programs — investors should monitor any guidance on upcoming work programs and whether current cash reserves extend beyond two quarters."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RCE",
+      "company": "RECCE PHARMACEUTICALS LTD",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-21T02:20:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112776-6A1334691",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue clinical-stage biotech, Recce's quarterly burn rate and closing cash balance will determine how much time remains before a likely capital raise becomes unavoidable, making the Appendix 4C figures the single most important data point for near-term investor positioning.",
+        "With zero operating receipts expected, the market will scrutinise R&D expenditure trends and any payments to related parties, which can signal whether clinical trial activity is accelerating or stalling — any meaningful increase in spend without corresponding trial milestones would be a red flag for capital efficiency.",
+        "Forward outlook hinges on clinical pipeline progress for RECCE® 327 (bacterial infections/sepsis) and any disclosed guidance on upcoming trial readouts or partnering discussions; absence of a clear catalyst timeline alongside a thin cash buffer would likely trigger renewed dilution concerns and pressure on the share price."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FLG",
+      "company": "FLAGSHIP MINERALS LIMITED",
+      "headline": "USD4.0M for RK Lithium Received in Full",
+      "time": "2026-07-21T02:08:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112773-6A1334689",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Full receipt of USD4.0M (~AUD6.1M) for the RK Lithium asset sale eliminates counterparty settlement risk and delivers immediate, unencumbered cash to Flagship's balance sheet — a material liquidity event for a junior explorer.",
+        "The complete payment signals the transaction has closed without dispute or deferred consideration, removing overhang uncertainty and confirming the asset divestment at the agreed valuation — critical for investors who had priced in execution risk.",
+        "With the RK Lithium proceeds now in hand, market attention will pivot to capital allocation: whether management deploys funds into new exploration targets, returns capital, or uses the cash runway to advance remaining assets — the next strategic announcement will be the key re-rating catalyst."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LDX",
+      "company": "LUMOS DIAGNOSTICS HOLDINGS LIMITED",
+      "headline": "FebriDx Commercial Traction Across Priority US Accounts",
+      "time": "2026-07-21T02:08:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112772-2A1685275",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FebriDx is gaining measurable commercial traction in priority US accounts, a critical inflection signal for a diagnostics company that has struggled to convert its regulatory clearance into sustainable revenue — any evidence of repeat ordering or account expansion would materially de-risk the commercial execution thesis.",
+        "The US market remains the primary revenue driver for Lumos, and penetration of high-value institutional accounts (hospitals, urgent care chains, IDNs) typically signals scalable unit economics ahead; investors should scrutinise whether this update quantifies account numbers, order volumes, or revenue run-rate to assess whether growth is organic or driven by one-off placements.",
+        "With cash burn a persistent concern for Lumos, accelerating US commercial traction is essential to extend runway without further dilutive capital raises — near-term catalysts to watch include Q4 quarterly cash flow (4C) disclosures and whether gross margin improvement accompanies volume growth, as these will determine if the company can reach cash-flow breakeven on existing capital."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FND",
+      "company": "FINDI LIMITED",
+      "headline": "Update on Suspension of Trading",
+      "time": "2026-07-21T01:46:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112764-3A697422",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Findi remains in a trading suspension, signalling unresolved regulatory, compliance, or corporate governance issues that have yet to be cleared to the ASX's satisfaction — the extended halt itself is a red flag for institutional holders monitoring liquidity risk.",
+        "The 'not market sensitive' classification is procedurally notable but potentially misleading; prolonged suspensions typically erode investor confidence and can trigger forced selling or index exclusion reviews once trading resumes, compressing the re-entry price.",
+        "Key watch points for reinstatement include resolution of any outstanding disclosure obligations, auditor sign-off, or regulatory clearance — investors should monitor ASX correspondence and company announcements closely for a firm reinstatement timeline before re-engaging."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "CBY",
       "company": "CANTERBURY RESOURCES LIMITED",
