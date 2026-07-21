@@ -1,9 +1,66 @@
 {
   "date": "2026-07-21",
-  "total": 92,
-  "market_sensitive_count": 86,
-  "generated_at": "2026-07-21T00:07:51.862243+00:00",
+  "total": 95,
+  "market_sensitive_count": 89,
+  "generated_at": "2026-07-21T01:35:28.109487+00:00",
   "announcements": [
+    {
+      "ticker": "CBY",
+      "company": "CANTERBURY RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-21T01:03:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112751-2A1685265",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a junior explorer, Canterbury's Appendix 5B will reveal quarterly burn rate and remaining cash reserves, with any sub-2-quarter runway likely triggering near-term capital raise concerns and share price pressure.",
+        "Exploration expenditure and any drill results or resource update milestones disclosed in the activities report will determine whether the company is advancing its asset base or treading water — investors should scrutinise whether spend is translating into tangible technical progress.",
+        "Forward guidance on planned expenditure, upcoming catalysts (drilling programs, assay results, or JV/farm-in discussions) will be key to assessing whether Canterbury can sustain momentum without dilutive equity issuance in the near term."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LDR",
+      "company": "LODE RESOURCES LTD",
+      "headline": "Tasmania Exploration Update",
+      "time": "2026-07-21T00:58:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112748-2A1685263",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material new findings at Lode's Tasmanian tenements, likely indicating significant mineralisation intercepts or structural discoveries that could re-rate the exploration asset's perceived value.",
+        "As a small-cap explorer, any confirmation of high-grade or broad mineralisation zones in Tasmania would be a critical de-risking milestone, directly impacting the company's ability to attract joint venture partners or secure future capital raises at improved terms.",
+        "Near-term catalysts to monitor include follow-up drilling programs, JORC resource estimation timelines, and whether the update triggers institutional interest in a project area historically associated with polymetallic (copper, gold, silver) mineralisation in Tasmania's established mining corridors."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BIT",
+      "company": "BIOTRON LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-21T00:46:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03112744-2A1685262",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue clinical-stage biotech, Biotron's quarterly burn rate and ending cash balance will determine how close the company is to requiring a capital raise, with any sub-2-quarter runway signalling near-term dilution risk for existing shareholders.",
+        "Zero operating receipts confirm Biotron remains entirely dependent on its cash reserves and potential grant income, meaning the Appendix 4C will be scrutinised for any acceleration in R&D or administration spend that could compress the timeline to the next funding event.",
+        "Pipeline progress disclosure accompanying the 4C — particularly any update on BIT225 clinical development or partnering discussions — will be the key catalyst signal; absence of meaningful clinical milestones alongside a deteriorating cash position would reinforce a cautious near-term outlook."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "SVL",
       "company": "SILVER MINES LIMITED",
