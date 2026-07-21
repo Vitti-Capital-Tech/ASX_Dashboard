@@ -1,9 +1,469 @@
 {
   "date": "2026-07-22",
-  "total": 96,
-  "market_sensitive_count": 88,
-  "generated_at": "2026-07-21T23:21:17.853257+00:00",
+  "total": 120,
+  "market_sensitive_count": 112,
+  "generated_at": "2026-07-21T23:45:31.542347+00:00",
   "announcements": [
+    {
+      "ticker": "ADC",
+      "company": "ACDC METALS LTD",
+      "headline": "Survey Defines Drill Targets at Mount Jackson Gold Project",
+      "time": "2026-07-21T23:40:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113156-3A697475",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Geophysical survey results at Mount Jackson have successfully delineated discrete drill-ready targets, converting exploration acreage into actionable drill programs — a critical de-risking milestone that typically precedes near-term catalysts for junior gold explorers.",
+        "The market-sensitive classification signals management believes the target definition materially changes the investment case, suggesting the survey has identified high-priority anomalies with structural or geochemical signatures consistent with economic gold mineralisation rather than diffuse, low-confidence targets.",
+        "Upcoming drill results will be the key value inflection point — success in confirming gold mineralisation at depth could rapidly re-rate ACDC Metals given the current early-stage exploration discount applied to the stock, while failure to intersect meaningful grades would reset sentiment significantly."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "3DA",
+      "company": "AMAERO INC.",
+      "headline": "Investor Presentation",
+      "time": "2026-07-21T23:40:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113155-3A697474",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Investor presentation flagged as market sensitive signals material new information likely to move the stock — investors should scrutinise for undisclosed contracts, capital raise intentions, or strategic partnerships in Amaero's advanced metal additive manufacturing business.",
+        "Amaero's investment case hinges on its proprietary C103 refractory alloy powder technology targeting US defence and hypersonics markets — any update on offtake agreements, qualification milestones, or US DoD-linked customer traction would be a key valuation catalyst given the long commercialisation lead times in this sector.",
+        "Watch for guidance on cash runway and capex deployment at the Tennessee manufacturing facility — with the company still in pre-revenue scale-up phase, clarity on burn rate, funding adequacy, and timeline to first meaningful revenue will be critical for institutional positioning."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SPX",
+      "company": "SPENDA LIMITED",
+      "headline": "Spenda FY26 R&D Estimate to Exceed $1.75M",
+      "time": "2026-07-21T23:36:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113149-3A697473",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Spenda's FY26 R&D spend forecast exceeding $1.75M signals a meaningful uplift in innovation investment, likely qualifying for the ATO's R&D Tax Incentive offset — potentially returning up to ~$262K–$437K in cash refunds depending on eligibility tier, providing a non-dilutive capital buffer for this early-stage fintech.",
+        "The market-sensitive classification elevates this beyond routine disclosure, suggesting management views the R&D commitment as a material indicator of product pipeline acceleration — likely tied to its B2B payments and embedded finance platform development, which underpins future recurring revenue growth.",
+        "Investors should watch for the corresponding R&D tax incentive cash receipt in H1 FY27 as a key liquidity event; for a company of Spenda's scale, this refund could represent a material percentage of quarterly operating cash outflows, directly extending cash runway without equity dilution."
+      ],
+      "tags": [
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PAB",
+      "company": "PATRYS LIMITED",
+      "headline": "Appendix 4C - Quarterly - 30 June 2026",
+      "time": "2026-07-21T23:35:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113148-6A1334897",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point for this market-sensitive filing — as a pre-revenue clinical-stage biotech, Patrys' quarterly cash burn rate and closing cash balance will determine whether a near-term capital raise is imminent or if existing funds provide adequate runway to key clinical milestones.",
+        "Investors should scrutinise R&D expenditure trends and any commentary on the PAT-DX1 deoxymab program progress, as acceleration or deceleration in spend signals management's confidence in advancing its DNA-targeting antibody platform toward meaningful clinical readouts.",
+        "Any guidance on upcoming catalysts — including trial enrolment updates, partnership discussions, or anticipated grant funding — will be pivotal in assessing whether the company can reach value-inflection points without further dilutive equity issuance in the near term."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "3DA",
+      "company": "AMAERO INC.",
+      "headline": "Quarterly Activities Report and Appendix 4C",
+      "time": "2026-07-21T23:35:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113147-3A697472",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — Amaero's quarterly 4C will reveal operating cash burn against its treasury position; any runway below 6 quarters without a clear path to revenue inflection would be a material concern for this pre-revenue advanced manufacturing play.",
+        "Revenue and commercial traction from its high-temperature refractory alloy powder business (targeting aerospace and defence OEMs) will be scrutinised — any confirmed purchase orders or qualification milestones with tier-1 customers would represent a significant de-risking catalyst given the long aerospace qualification cycles.",
+        "Near-term outlook hinges on progress at its Tennessee manufacturing facility and whether capital expenditure is tracking to plan; any upward revision to capex guidance or delays to commissioning would pressure the share price given the company's reliance on external funding to reach commercial-scale production."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARD",
+      "company": "ARGENT MINERALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-21T23:34:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113144-6A1334890",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue explorer, Argent Minerals' Appendix 5B will reveal net operating cash outflows and remaining cash reserves, with any balance below ~$500K signalling imminent capital raise risk and potential dilution for existing shareholders.",
+        "Exploration expenditure levels disclosed in the 5B will indicate whether the company is actively advancing its Kempfield silver-zinc-lead project in NSW or conserving capital, with reduced spend suggesting a strategic pause that could delay any near-term resource upgrade or development catalyst.",
+        "The quarterly activities report should be assessed for any new drilling results, resource estimate updates, or partnership/JV discussions at Kempfield — absence of material newsflow alongside a tightening cash position would reinforce a bearish near-term outlook and increase probability of a discounted equity raise within the next 1-2 quarters."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SGC",
+      "company": "SINCLAIR GOLD LTD",
+      "headline": "Drilling Extends Gold Mineralisation Across Mt Henry",
+      "time": "2026-07-21T23:34:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113142-6A1334895",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling results extend gold mineralisation across the Mt Henry project, demonstrating lateral and/or depth continuity that materially de-risks the resource definition process — a critical value inflection point for an early-stage explorer seeking to establish a maiden or expanded JORC resource.",
+        "The market-sensitive classification signals management believes the intercepts are materially significant, suggesting grades and/or widths are above expectations; investors should scrutinise assay results for high-grade shoots that could anchor a future mining scenario and justify accelerated expenditure.",
+        "Near-term catalysts will likely include follow-up infill and step-out drilling programs, potential resource estimate upgrades, and possible capital raising to fund expanded exploration — all of which will be closely watched by institutional investors assessing whether Mt Henry can reach economic thresholds."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "USL",
+      "company": "UNICO SILVER LIMITED",
+      "headline": "June 2026 Quarterly Activities & Cashflow Reports",
+      "time": "2026-07-21T23:34:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113141-3A697471",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point for this micro-cap explorer — with no revenue stream, the June quarter cashflow report will reveal whether Unico Silver retains sufficient working capital to fund its next drilling campaign or faces an imminent capital raise that would dilute existing holders.",
+        "Operational progress at the Argentinian silver-polymetallic portfolio (including the flagship Cerro León project) will be scrutinised for any resource definition milestones, assay results, or permitting advances that could re-rate the stock given the current elevated silver price environment above US$30/oz.",
+        "Near-term catalysts hinge on the company's ability to maintain exploration momentum into the September quarter — any reduction in planned expenditure, deferral of drilling, or tightening cash position (typically sub-A$1.5M for companies of this size) would signal funding pressure and likely trigger a placement, making the quarterly's closing cash balance the single most market-moving data point."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FEG",
+      "company": "FAR EAST GOLD LTD",
+      "headline": "Second Supplementary Target's Statement Lodged",
+      "time": "2026-07-21T23:33:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113138-2A1685404",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The lodgement of a Second Supplementary Target's Statement signals an active and evolving takeover contest, indicating that the FAR East Gold board has identified material new information or developments significant enough to warrant a further update to shareholders beyond the initial and first supplementary responses — a strong indicator of deal complexity or competing interests.",
+        "Multiple supplementary statements typically reflect either a revised or competing bid, updated independent expert valuation, or a material change in the bidder's terms/conditions; institutional investors should scrutinise whether the board's recommendation has shifted and whether the independent expert's fairness conclusion remains intact, as these are the key valuation anchors.",
+        "With the takeover process now in an advanced and fluid stage, shareholders face an imminent decision deadline — the next critical catalysts are the offer closing date, any potential bid improvement, and whether the board's stance hardens or softens; failure to engage could result in compulsory acquisition or a thinly traded rump, making the current window a key liquidity event."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATA",
+      "company": "ATTURRA LIMITED",
+      "headline": "FY26 Earnings and Trading Update",
+      "time": "2026-07-21T23:33:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113137-2A1685412",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Atturra has issued a market-sensitive FY26 earnings and trading update, signalling a material deviation from prior expectations — the direction of revision (upgrade or downgrade) will be the critical determinant of near-term price action and institutional positioning.",
+        "As an IT services and technology solutions provider, key metrics to watch include managed services recurring revenue growth, EBITDA margin trajectory, and any commentary on contract wins or churn — particularly given the company's M&A-driven growth strategy in the competitive Australian IT services sector.",
+        "The FY26 timing of this update (early in the financial year) suggests management is either front-running a positive pipeline development or managing downside risk proactively; investors should scrutinise guidance specificity, cash conversion, and whether organic growth is keeping pace with acquired revenue bases."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPY",
+      "company": "PAPYRUS AUSTRALIA LIMITED",
+      "headline": "PPY Secures $200,000 Funding and Brokers Engagement",
+      "time": "2026-07-21T23:32:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113133-2A1685408",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The $200,000 funding injection is a modest lifeline for Papyrus Australia, a micro-cap with historically thin cash reserves — while it extends near-term runway, the quantum is insufficient to fund meaningful commercialisation of its banana fibre technology without further capital raises in the near term.",
+        "Broker engagement signals management is actively pursuing a broader capital markets strategy, likely as a precursor to a more substantial raise; investors should monitor for dilutive equity issuance, given PPY's track record of small tranched funding rounds at discounted prices.",
+        "The market-sensitive classification elevates the announcement's significance, but without disclosed terms — including interest rate, conversion rights, or broker mandate specifics — the true economic impact remains opaque, warranting caution until full terms are revealed in supplementary disclosures."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAG",
+      "company": "MAGMATIC RESOURCES LIMITED",
+      "headline": "Gold Intercepts Upgrade Weebo Project Exploration Potential",
+      "time": "2026-07-21T23:31:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113132-6A1334891",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "New gold intercepts at the Weebo Project materially upgrade the exploration thesis, suggesting potential for a more substantial mineralised system than previously modelled — a critical re-rating catalyst for an early-stage explorer where resource definition drives valuation.",
+        "The market-sensitive classification signals management confidence that drill results are meaningful enough to shift investor perception of project scale or grade continuity, with institutional focus likely on width, depth, and spatial distribution of intercepts relative to existing targets.",
+        "Near-term catalysts hinge on follow-up drilling programs and whether Weebo can be advanced toward a maiden JORC resource estimate — the key inflection point that would attract serious institutional and M&A interest in the current elevated gold price environment above US$2,300/oz."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "3DA",
+      "company": "AMAERO INC.",
+      "headline": "$6.5 Million Contract Awarded from U.S. Department of War",
+      "time": "2026-07-21T23:31:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113131-3A697470",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Amaero has secured a US$6.5M contract with the U.S. Department of Defense, representing a significant revenue catalyst for a company at an early commercial stage — this contract alone likely materially extends cash runway and validates its advanced manufacturing/metal powder technology in a high-barrier defence procurement environment.",
+        "A U.S. DoD contract award carries substantial strategic weight beyond the dollar value: defence contracts typically come with rigorous supplier qualification requirements, meaning Amaero has cleared a high-credibility vetting process that positions it as a trusted supplier and creates a strong reference point for future government and prime contractor pipeline development.",
+        "The contract signals a clear pathway toward recurring U.S. defence revenue, with potential for follow-on orders and scope expansion — investors should watch for further announcements on contract milestones, delivery timelines, and whether this opens dialogue with other U.S. defence primes (e.g. Lockheed, RTX, Northrop) or allied nation defence agencies."
+      ],
+      "tags": [
+        "Technology",
+        "Production",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MYE",
+      "company": "MASTERMYNE GROUP LIMITED",
+      "headline": "Mastermyne exceeds FY26 guidance",
+      "time": "2026-07-21T23:31:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113130-2A1685410",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mastermyne has delivered a positive earnings surprise by exceeding its own FY26 guidance ahead of year-end, signalling stronger-than-anticipated operational execution in underground coal mining services — a direct catalyst for upward earnings revisions from sell-side analysts.",
+        "The guidance beat implies revenue and/or EBITDA metrics have outperformed the previously communicated range, likely driven by elevated contract utilisation, favourable coal sector activity levels, and disciplined cost management in a tight labour market environment.",
+        "With FY26 guidance now surpassed, investor focus will shift to FY27 outlook commentary and whether management upgrades forward guidance — any indication of sustained contract pipeline strength or margin expansion would further re-rate the stock from current levels."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PGO",
+      "company": "PACGOLD LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-21T23:29:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113129-3A697469",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "PACGOLD has entered a trading halt pending a market-sensitive announcement, suspending price discovery and liquidity for investors — the market-sensitive flag elevates the probability this relates to a material corporate event rather than routine administration.",
+        "Historical precedent for junior ASX gold explorers entering market-sensitive trading halts most commonly precedes capital raises, M&A activity, or significant resource/discovery announcements — each carrying materially different valuation implications that investors cannot yet price.",
+        "Institutional investors should monitor the halt duration closely; ASX rules typically limit trading halts to two business days, meaning a substantive announcement is imminent — positioning ahead of the reveal carries binary risk given the unknown nature of the catalyst."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ELS",
+      "company": "ELSIGHT LIMITED",
+      "headline": "Quarterly Activity Report",
+      "time": "2026-07-21T23:27:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113127-3A697467",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Revenue trajectory and cash burn rate are the critical metrics to watch — as a defence/drone connectivity technology company, Elsight's ability to demonstrate accelerating commercial traction with its Halo platform will determine whether the current cash position supports operations through to profitability or necessitates a dilutive capital raise.",
+        "Quarterly reports from Elsight have historically highlighted contract wins and pipeline development in the UAV/unmanned systems sector; any disclosed increase in recurring revenue or multi-year contract bookings would signal meaningful de-risking of the commercial model and validate institutional interest in the defence-tech thematic.",
+        "Key forward indicators to monitor include customer concentration risk, progress with Tier-1 defence integrators, and whether management reaffirms guidance — any reduction in cash outflows or uplift in receipts from customers quarter-on-quarter would materially shift the near-term funding risk narrative."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PR2",
+      "company": "PICHE RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-21T23:27:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113126-6A1334887",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Piche Resources has entered a trading halt flagged as market sensitive, strongly suggesting a material corporate or capital event is imminent — most likely a capital raise, M&A transaction, or significant asset announcement that requires price-sensitive disclosure protocols.",
+        "The market-sensitive classification elevates the probability this is not a routine administrative halt; historically, ASX-listed junior resource companies invoke such halts ahead of transformative deals, major drill results, or equity placements that could materially reprice the stock.",
+        "Investors should monitor the resumption announcement closely — the nature of the pending disclosure will be the key determinant of direction, with a capital raise potentially signalling dilution risk while an asset or partnership deal could catalyse a re-rating of the company's resource pipeline."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "A4N",
+      "company": "ALPHA HPA LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-21T23:27:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113125-2A1685406",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue development-stage company, Alpha HPA's quarterly cash burn rate and remaining cash balance will determine whether a capital raise is imminent, making the Appendix 4C figures the primary valuation catalyst in this release.",
+        "Any update on the High Purity Alumina (HPA) First Principles Plant or the larger commercial-scale project financing progress will be closely scrutinised — milestone delays or cost overruns would signal execution risk, while on-schedule progress supports the development timeline narrative.",
+        "Institutional investors will focus on whether Alpha HPA has secured or advanced offtake agreements, government grants, or debt financing conversations, as these de-risking catalysts are essential to bridging the gap between current cash reserves and the substantial capital required for commercial HPA production."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PGL",
+      "company": "PILBARA GOLD LIMITED",
+      "headline": "Drilling Extends Gold Mineralisation at Mt York",
+      "time": "2026-07-21T23:25:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113121-3A697466",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling at Mt York has successfully extended the known gold mineralisation footprint, a critical de-risking milestone for Pilbara Gold that validates the project's scalability potential and supports a resource upgrade pathway — the key value catalyst for junior explorers at this stage.",
+        "The market-sensitive classification signals material new intercepts likely exceeding prior results in strike length, depth, or grade continuity; investors should scrutinise assay data for high-grade shoots (>2g/t Au over meaningful widths) that could anchor an initial JORC resource estimate or expand an existing one.",
+        "Next steps will hinge on whether the company has sufficient cash runway to fund follow-up infill and extensional drilling programs — balance sheet position and any upcoming capital raise risk are the key variables to monitor alongside the technical results disclosed in this announcement."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CCE",
+      "company": "CARNEGIE CLEAN ENERGY LIMITED",
+      "headline": "Carnegie Secures $2.5 Million Share Placement",
+      "time": "2026-07-21T23:23:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113119-6A1334875",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "The $2.5M placement provides critical near-term liquidity for Carnegie Clean Energy, a micro-cap clean energy developer that has historically operated with thin cash buffers — investors should scrutinise the implied cash runway and whether this bridges to a meaningful operational or revenue milestone.",
+        "Placement pricing and scale will be key: any material discount to the prevailing share price signals dilution pressure on existing shareholders, and at $2.5M the raise is modest, suggesting this is a survival/bridge raise rather than a growth-accelerating capital event.",
+        "Watch for disclosure on use of proceeds — if funds are directed toward Carnegie's wave energy or microgrid projects, the market will assess whether $2.5M is sufficient to de-risk those assets or merely defers a larger, potentially more dilutive raise in the near term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RCM",
+      "company": "RAPID CRITICAL METALS LIMITED",
+      "headline": "Excellent Ore Sorting Results-Ag Recoveries to over 1000g/t",
+      "time": "2026-07-21T23:22:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113117-2A1685405",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Ore sorting results demonstrate transformative grade uplift, with silver recoveries exceeding 1,000 g/t — a level that materially improves project economics by concentrating feed grade before downstream processing, potentially reducing per-tonne processing costs and capex requirements significantly.",
+        "The 'excellent' characterisation of ore sorting performance is technically significant: successful pre-concentration typically lifts head grades by 3–10x while rejecting waste, which can shift marginal projects into economically viable territory and compress payback periods — a key de-risking milestone for a critical metals junior.",
+        "Next catalysts to watch include a formal metallurgical study or scoping/PFS update incorporating the ore sorting data, which could trigger a meaningful re-rating if the economics translate into improved NPV and IRR figures; investors should monitor for an updated resource or processing flowsheet announcement."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SLB",
+      "company": "STELAR METALS LIMITED",
+      "headline": "New Tungsten Drill Targets Defined by UHD Airborne Survey",
+      "time": "2026-07-21T23:21:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113116-6A1334886",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ultra-high definition (UHD) airborne geophysics has delineated new discrete tungsten drill targets, materially de-risking the exploration program by prioritising high-probability zones before capital is deployed on drilling — a capital-efficient approach that institutional investors should view favourably given the small-cap cash burn context.",
+        "Tungsten is a critical mineral with significant strategic demand from defence, energy transition, and semiconductor industries; new target definition at a dedicated tungsten project positions Stelar Metals to attract offtake interest or strategic partnership attention, particularly given ongoing Western supply chain diversification away from China (which controls ~80% of global supply).",
+        "The immediate next catalyst is drill program commencement on the newly defined targets — investors should monitor for a drilling announcement and subsequent assay results, which will be the key binary event determining whether the geophysical anomalies translate to economic mineralisation and re-rating potential."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PEN",
+      "company": "PENINSULA ENERGY LIMITED",
+      "headline": "Operational and Production Guidance Update",
+      "time": "2026-07-21T23:20:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113115-6A1334861",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Peninsula Energy has issued a market-sensitive operational and production guidance update, signalling a material revision to previously communicated output expectations — investors should scrutinise whether this represents an upgrade or downgrade to near-term uranium production targets at the Lance Projects in Wyoming, as any shortfall could pressure the company's ability to meet offtake commitments and cash flow projections.",
+        "The timing of this update is critical given Peninsula's ongoing ramp-up of low-pH in-situ recovery (ISR) operations; any delay or reduction in wellfield performance metrics would extend the path to commercial-scale production and increase cash burn risk, particularly relevant given the company's reliance on equity markets and uranium spot price exposure for funding adequacy.",
+        "Institutional investors should monitor revised production volumes against the company's contracted sales book and operational cost guidance — a meaningful gap between guidance and prior targets could trigger reassessment of the company's break-even uranium price assumptions and timeline to sustained free cash flow generation, with near-term share price reaction likely amplified by the stock's high beta to uranium sentiment."
+      ],
+      "tags": [
+        "Production",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MEK",
+      "company": "MEEKA METALS LIMITED",
+      "headline": "52.3m @ 3gpt Au - High-Grade Gold 200m Below UG Reserve",
+      "time": "2026-07-21T23:17:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113113-6A1334883",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Discovery of 52.3m @ 3g/t Au sitting 200m below the existing underground reserve is a material find — it suggests the Murchison Gold Project's resource base has meaningful downside extension potential that is not yet captured in current mine plans or valuations.",
+        "The intercept grade of 3g/t over a 52.3m width is commercially significant for an underground operation, indicating this is not a low-grade peripheral hit but a potentially mineable continuation of the high-grade system, which could support reserve upgrades and extended mine life in future resource estimates.",
+        "The strategic implication is significant: if this zone can be delineated into a resource, it de-risks the project's long-term economics ahead of any financing or development decision, potentially re-rating the stock as the market prices in expanded mine life and improved project NPV."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "WYX",
       "company": "WESTERN YILGARN NL",
