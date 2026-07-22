@@ -1,9 +1,219 @@
 {
   "date": "2026-07-22",
-  "total": 120,
-  "market_sensitive_count": 112,
-  "generated_at": "2026-07-21T23:45:31.542347+00:00",
+  "total": 131,
+  "market_sensitive_count": 123,
+  "generated_at": "2026-07-22T00:06:07.363288+00:00",
   "announcements": [
+    {
+      "ticker": "YOW",
+      "company": "YOWIE GROUP LTD",
+      "headline": "Dec 2025 - Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-22T00:03:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113182-6A1334908",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — Yowie's Appendix 4C will reveal whether the confectionery brand's US-focused retail operations are generating sufficient operating cash flow to sustain the business without requiring near-term equity dilution, given its history of cash burn and limited balance sheet depth.",
+        "Revenue trajectory from US mass-market retail channels (Walmart, Target) will be closely scrutinised — any sequential improvement in receipts from customers versus prior quarters would signal stabilisation of the core Yowie chocolate surprise egg business after years of restructuring and SKU rationalisation.",
+        "Investors should monitor net operating cash outflows and closing cash balance for signs of a capital raise trigger — if cash reserves have fallen below ~A$2M with no clear path to breakeven, a dilutive placement or rights issue in H1 CY2026 becomes a material risk that the market will need to price in."
+      ],
+      "tags": [
+        "Quarterly",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BOA",
+      "company": "BOA RESOURCES LTD",
+      "headline": "BOA Drill Ready at Neds Creek Copper Project",
+      "time": "2026-07-22T00:03:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113181-6A1334911",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BOA Resources has reached drill-ready status at its Neds Creek Copper Project, a critical de-risking milestone that transitions the asset from exploration-stage planning to active resource definition — the highest-value inflection point for junior miners on the ASX.",
+        "The market-sensitive classification signals management believes upcoming drill results carry material re-rating potential; copper's structural demand tailwinds from energy transition themes add a favourable macro backdrop that could amplify investor interest in any positive intercepts.",
+        "Near-term catalysts hinge entirely on drill assay results — investors should monitor hole depths, target geology (porphyry vs. IOCG vs. sediment-hosted), and any resource estimate upgrades, as these will determine whether the project warrants further capital allocation or a potential farm-out/JV process."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "YOW",
+      "company": "YOWIE GROUP LTD",
+      "headline": "Sep 2025 Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-22T00:03:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113180-6A1334907",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a small-cap confectionery brand with limited revenue diversification, Yowie's quarterly cash burn rate and closing cash balance will determine whether a capital raise is imminent or if the business has sufficient runway to execute its US retail strategy through FY26.",
+        "Revenue trajectory from US retail channels (Walmart, Dollar Tree exposure) needs scrutiny — any sequential decline in receipts from customers would signal shelf-space erosion or promotional spend inefficiency, while growth would validate the brand's turnaround narrative under current management.",
+        "Operating cost discipline and any commentary on new licensing or product line extensions (e.g. new collectible characters or retail partnerships) will be key forward indicators — Yowie's model depends on novelty-driven repeat purchase cycles, making pipeline announcements as important as current-quarter financials."
+      ],
+      "tags": [
+        "Quarterly",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ITM",
+      "company": "ITECH MINERALS LTD",
+      "headline": "Quarterly Activities and Cashflow Report 30 June 2026",
+      "time": "2026-07-21T23:56:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113174-2A1685429",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue explorer, ITech's closing cash balance and quarterly burn rate will determine how much operational runway remains before a likely capital raise is required, with any balance below ~A$1.5M signalling near-term dilution risk.",
+        "Exploration progress at the Eyre Peninsula graphite and rare earths projects will be scrutinised for any resource definition milestones, drill results, or offtake/partnership developments that could re-rate the stock given the strategic importance of critical minerals to Australian and global supply chains.",
+        "Forward outlook hinges on whether management has flagged upcoming catalysts — including scoping studies, government grant outcomes, or strategic investor interest — that could provide non-dilutive funding pathways and sustain momentum without immediate equity issuance."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTO",
+      "company": "CITIGOLD CORPORATION LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-07-21T23:53:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113172-2A1685426",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Citigold has entered a trading pause, signalling an imminent material announcement is pending — historically these precede capital raises, M&A activity, or significant operational developments that require price-sensitive disclosure management.",
+        "As a micro-cap gold explorer with limited liquidity, any trading halt carries outsized price impact risk; investors should note Citigold's Charters Towers project in Queensland remains the core asset, and any announcement tied to funding or development milestones could be highly material to its market cap.",
+        "The market-sensitive classification of this halt elevates urgency — institutional participants should monitor for a subsequent announcement within the ASX-mandated 2-trading-day window, with particular attention to whether this relates to project financing, a strategic partnership, or equity issuance that could affect dilution and near-term valuation."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RPL",
+      "company": "REGAL PARTNERS LIMITED",
+      "headline": "Preliminary 1H26 Results, Record Net Flows, June 2026 FUM",
+      "time": "2026-07-21T23:48:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113167-2A1685419",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Record net inflows signal strong institutional and retail demand for Regal's alternative investment strategies, directly validating the firm's post-merger distribution platform and suggesting AUM-driven fee revenue is on a sustained upward trajectory.",
+        "Preliminary 1H26 results combined with June 2026 FUM disclosure provide a rare early earnings visibility window — if FUM growth has outpaced consensus estimates, this announcement likely triggers upward revisions to management fee and performance fee forecasts for the full year.",
+        "The convergence of record net flows and a preliminary results release ahead of the formal reporting period positions Regal to reset market expectations higher, with the key watch item being whether performance fees have crystallised meaningfully given volatile but opportunity-rich market conditions in 1H26."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ADX",
+      "company": "ADX ENERGY LTD",
+      "headline": "ADX Secures A$3.58 million Placement",
+      "time": "2026-07-21T23:48:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113164-6A1334898",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "ADX Energy has secured A$3.58 million via a placement, providing critical near-term liquidity for a small-cap explorer — the capital injection likely extends runway to advance its Austrian and Romanian oil and gas assets without immediate further dilution pressure, though the size signals the company remains in an early-stage funding cycle.",
+        "The placement quantum is modest relative to typical development-stage capital requirements, suggesting funds are likely earmarked for a specific near-term catalyst — potentially a well programme or licence commitment — rather than broad operational scaling; investors should scrutinise the use-of-funds disclosure closely for capital efficiency signals.",
+        "Near-term focus will shift to execution: whether ADX can deploy this capital into a value-accretive drilling or appraisal event within its European portfolio will be the key determinant of whether this raise is re-rated as strategic or merely dilutive; watch for a follow-up operational update within the next 1–2 quarters."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ODA",
+      "company": "ORCODA LIMITED",
+      "headline": "ODA ASX Market Update",
+      "time": "2026-07-21T23:48:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113162-6A1334905",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Insufficient detail available in the headline alone to assess materiality — the 'Market Sensitive' flag elevates urgency, but without disclosed content (contract win, earnings revision, capital action), the precise catalyst driving the ASX update remains unquantified.",
+        "Orcoda (ODA) operates across logistics technology and healthcare transport sectors; any market-sensitive update in this context most likely relates to a contract award, revenue guidance change, or strategic partnership — each carrying meaningfully different valuation implications for this micro-cap.",
+        "Institutional investors should await full document release before positioning — the market-sensitive classification mandates price-sensitive disclosure standards under ASX Listing Rule 3.1, suggesting the announcement contains information that could reasonably be expected to move the stock."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SMX",
+      "company": "STRATA MINERALS LIMITED.",
+      "headline": "Strata Expands District-Scale Zelica Gold Project",
+      "time": "2026-07-21T23:47:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113161-6A1334906",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strata Minerals has expanded its Zelica Gold Project footprint to district-scale, a strategically significant move that materially increases the exploration target area and optionality for resource definition — a key re-rating catalyst for early-stage gold explorers on the ASX.",
+        "The market-sensitive classification signals management believes this tenure expansion or structural discovery warrants immediate investor attention, suggesting the scale of the ground position or geological continuity identified is materially larger than previously disclosed — watch for follow-up drilling programs to quantify the upside.",
+        "Near-term focus will shift to whether Strata has sufficient cash runway to fund a district-scale drill-out; investors should scrutinise the next quarterly cash flow report (4C) for burn rate and any capital raise signals, as expanded ground positions typically require accelerated exploration spend to maintain tenure and demonstrate value."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EDE",
+      "company": "EDEN INNOVATIONS LTD",
+      "headline": "Positive Indian Government EdenCrete Trials",
+      "time": "2026-07-21T23:47:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113160-6A1334903",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Indian government-endorsed trials of EdenCrete (a carbon nanotube-enhanced concrete additive) represent a critical de-risking milestone — sovereign validation in a market of this scale materially improves commercial credibility and accelerates potential procurement pathways through state infrastructure programs.",
+        "India's infrastructure spend is among the largest globally, with the government targeting USD 1.4 trillion in capital expenditure under the National Infrastructure Pipeline; positive trial outcomes position Eden Innovations to tap into a high-volume, recurring-demand market where even marginal penetration could be transformative relative to the company's current small-cap revenue base.",
+        "Key near-term catalysts to monitor include formal offtake or supply agreements with Indian government agencies, any disclosed trial performance metrics (e.g. compressive strength improvements, cost-per-unit data), and whether Eden will require additional capital to scale manufacturing or distribution capacity to service Indian demand — cash position and burn rate remain critical watch items."
+      ],
+      "tags": [
+        "Technology",
+        "Production",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AGR",
+      "company": "AGUIA RESOURCES LIMITED",
+      "headline": "Successful Completion of $3m Capital Raising",
+      "time": "2026-07-21T23:45:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113158-2A1685416",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Aguia Resources has secured $3M in fresh equity capital, providing critical funding runway to advance its Brazilian phosphate and copper projects — alleviating near-term liquidity concerns that have historically constrained exploration activity.",
+        "The $3M raise, while modest in absolute terms, signals institutional or sophisticated investor conviction at a defined price point; the placement price relative to last traded price will be key to assessing dilution impact and market confidence in the company's asset base.",
+        "Proceeds are expected to accelerate drilling or feasibility work at its Três Estradas phosphate project in Brazil, with the next catalyst likely being updated resource estimates or permitting milestones — investors should watch for a use-of-funds breakdown and any associated timeline commitments."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ADC",
       "company": "ACDC METALS LTD",
