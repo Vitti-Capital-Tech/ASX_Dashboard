@@ -1,9 +1,201 @@
 {
   "date": "2026-07-23",
-  "total": 66,
-  "market_sensitive_count": 64,
-  "generated_at": "2026-07-22T23:15:13.927601+00:00",
+  "total": 76,
+  "market_sensitive_count": 74,
+  "generated_at": "2026-07-22T23:22:10.785899+00:00",
   "announcements": [
+    {
+      "ticker": "AHE",
+      "company": "ADHERIS HEALTH LIMITED",
+      "headline": "4Q FY26 Quarterly Activity Report and Appendix 4C",
+      "time": "2026-07-22T23:20:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113500-6A1335053",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Market-sensitive classification signals material developments in the quarter — investors should scrutinise cash receipts from customers, operating cash burn, and any shift in the trajectory of recurring revenue from Adheris Health's patient adherence and medication management platform.",
+        "The Appendix 4C will be the critical lens for cash runway assessment — with many small-cap healthcare technology companies under ASX scrutiny for burn rates, the ratio of operating cash outflows to closing cash balance will determine whether a near-term capital raise is a risk or if the business is approaching self-sufficiency.",
+        "As a Q4 FY26 report, this filing sets the baseline for full-year FY26 performance and will shape market expectations ahead of any annual results release — key metrics to watch include customer contract wins, platform engagement data, and any guidance or commentary on FY27 growth initiatives in the digital health adherence space."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARI",
+      "company": "ARIKA RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-22T23:19:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113499-6A1335052",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Arika Resources has entered a trading halt, suspending price discovery and liquidity for investors — the market-sensitive classification signals a material corporate event is imminent, likely within 1-2 trading days.",
+        "Trading halts on small-cap ASX explorers most commonly precede capital raises, M&A activity, or significant resource/exploration announcements — each carrying materially different valuation implications that cannot yet be assessed without further disclosure.",
+        "Investors should monitor the lifting of the halt closely; the nature of the pending announcement will be the critical determinant of direction, with a capital raise posing dilution risk while an M&A or discovery announcement could be re-rating catalysts."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KTA",
+      "company": "KRAKATOA RESOURCES LIMITED",
+      "headline": "Drilling & Development Update at Zopkhito",
+      "time": "2026-07-22T23:19:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113498-6A1335051",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Krakatoa's drilling update at its Zopkhito project (Georgia) carries market-sensitive status, signalling material new intersections or structural findings that could meaningfully re-rate the resource base — investors should scrutinise assay grades and hole depths against prior estimates to gauge scale of potential upgrade.",
+        "The development component of the announcement suggests progression beyond pure exploration, implying capital allocation decisions are being made; for a small-cap explorer this raises questions around cash burn rate and whether additional funding (equity or JV) will be required to sustain the programme.",
+        "Near-term catalysts hinge on follow-up drilling results and any maiden or updated resource estimate at Zopkhito — confirmation of continuity and grade consistency would be the key de-risking milestone, while any disappointment in assay results could sharply reverse sentiment given the market-sensitive flag raising expectations."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CTN",
+      "company": "CATALINA RESOURCES LTD",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-22T23:18:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113497-6A1335050",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watchpoint for this micro-cap explorer — with no revenue-generating operations, the Appendix 5B will reveal whether Catalina has sufficient liquidity to fund ongoing exploration without an imminent capital raise, which would be dilutive to existing shareholders.",
+        "Operational progress at its mineral projects will be scrutinised for any drilling results, resource updates, or permitting milestones that could catalyse a re-rating, given the company's early-stage status and reliance on exploration newsflow to sustain investor interest.",
+        "If quarterly cash outflows have accelerated or cash on hand has fallen below ~2 quarters of burn, the market should anticipate a near-term equity raising; conversely, evidence of cost discipline or incoming partner/JV funding could provide a short-term positive signal."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BCC",
+      "company": "BEAM COMMUNICATIONS HOLDINGS LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-22T23:15:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113496-3A697517",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a small-cap satellite communications hardware and services provider, Beam's quarterly cash burn rate relative to closing cash balance will determine whether a capital raise is imminent; investors should scrutinise the net operating cash outflow and months of funding remaining disclosed in the 4C.",
+        "Revenue trajectory from Beam's core satellite phone and IoT device sales (including Iridium and Thuraya products) alongside any recurring service revenue growth will signal whether the business is scaling toward cash flow breakeven, a key de-risking milestone for this stage of company.",
+        "Any commentary on new distribution agreements, government/defence contract wins, or progress in the growing IoT/satellite connectivity market will be pivotal for near-term re-rating potential, particularly given heightened global demand for non-terrestrial network solutions underpinning sector tailwinds."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPL",
+      "company": "PUREPROFILE LTD",
+      "headline": "Q4 FY26 Results Presentation",
+      "time": "2026-07-22T23:14:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113494-2A1685575",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive Q4 FY26 results flag a potentially material revenue or earnings outcome — investors should scrutinise whether Pureprofile's data analytics and research platform has achieved the scale inflection needed to sustain profitability after years of restructuring and cost reduction efforts.",
+        "Key metrics to watch include Q4 revenue run-rate versus prior quarters, EBITDA trajectory, and cash position — any deterioration in cash burn or client concentration would be a red flag given the company's historically thin balance sheet and reliance on organic growth in a competitive digital insights market.",
+        "Forward guidance and commentary on pipeline conversion will be critical; if management signals momentum in enterprise or government contract wins, this could re-rate the stock, but absence of a clear path to sustained free cash flow generation would likely keep institutional interest subdued."
+      ],
+      "tags": [
+        "Results",
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AR3",
+      "company": "AUSTRALIAN RARE EARTHS LIMITED",
+      "headline": "10km Magnetic Corridor Expands Niobium-REE Targets",
+      "time": "2026-07-22T23:12:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113492-2A1685600",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The identification of a 10km magnetic corridor materially expands the exploration footprint at AR3's South Australian project, elevating the scale of the niobium-REE system well beyond initial estimates and potentially repositioning the asset as a district-scale target — a key re-rating catalyst for early-stage explorers.",
+        "Niobium is a critical mineral commanding strong strategic interest given its use in high-strength steel and emerging battery technologies, while REE demand remains underpinned by EV and defence supply chain diversification away from China — dual commodity exposure amplifies the commercial significance of any resource delineation here.",
+        "The next material value inflection points will be follow-up drilling to test the full strike length of the corridor and any JORC resource upgrade; investors should monitor whether the company has sufficient cash runway (last reported ~A$3-4M) to fund an expanded drill program without near-term dilutive capital raising."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EDE",
+      "company": "EDEN INNOVATIONS LTD",
+      "headline": "Eden Expanding Coverage of Amrize Plants in USA and Canada",
+      "time": "2026-07-22T23:12:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113491-6A1335048",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Geographic expansion of Amrize plant coverage across the US and Canada signals accelerating commercial traction for Eden's concrete additive technology — a critical inflection point for a company historically challenged by slow adoption curves in the construction materials sector.",
+        "The market-sensitive classification suggests material new customer agreements or distribution partnerships are embedded in this announcement, potentially representing a step-change in addressable revenue given the scale of North American construction markets worth hundreds of billions annually.",
+        "Investors should watch for disclosed plant numbers, named partners, and any volume or revenue commitments — the conversion of coverage expansion into binding offtake or licensing revenue will be the key metric determining whether this announcement translates into sustainable earnings uplift or remains a pipeline story."
+      ],
+      "tags": [
+        "Production",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CUV",
+      "company": "CLINUVEL PHARMACEUTICALS LIMITED",
+      "headline": "CLINUVEL strategic reorganisation to refocus on U.S. markets",
+      "time": "2026-07-22T23:11:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113489-3A697516",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic pivot to U.S. markets signals a deliberate shift in commercial prioritisation, likely reflecting underwhelming European revenue traction for SCENESSE® and recognition that the FDA-approved U.S. erythropoietic protoporphyria (EPP) market represents the highest-value growth runway — investors should watch for updated U.S. revenue guidance and sales force investment disclosures.",
+        "The term 'reorganisation' carries meaningful execution risk: structural changes typically involve headcount rationalisation, cost reallocation, and potential one-off charges that could pressure near-term earnings — the market will scrutinise whether this is a genuine growth reorientation or a cost-cutting exercise dressed as strategy.",
+        "Next steps to monitor include: appointment of U.S.-focused commercial leadership, any revision to FY25 revenue or expense guidance, and clarity on the fate of non-U.S. operations (EU/ROW) — a credible U.S. commercialisation roadmap with measurable milestones would be the key catalyst needed to restore institutional confidence in the stock."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SS1",
+      "company": "SUN SILVER LIMITED",
+      "headline": "Strategic Acquisition and Land Consolidation at Maverick",
+      "time": "2026-07-22T23:10:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113486-6A1335042",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Sun Silver has executed a strategic land consolidation at its Maverick project, a move that typically signals management confidence in the district-scale potential of the asset and reduces future title risk — critical for attracting institutional interest in a silver exploration play.",
+        "The acquisition expands the company's footprint at Maverick, potentially increasing the total resource envelope and exploration upside; investors should watch for updated resource estimates or drill target announcements that could re-rate the stock on a per-ounce basis.",
+        "With silver prices elevated amid industrial demand tailwinds (solar, EVs) and macro safe-haven flows, consolidating ground at this stage positions Sun Silver to maximise leverage to the commodity cycle — the key near-term catalyst will be whether the acquisition is funded via cash reserves or equity, as dilution risk remains a watchpoint for smaller explorers."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "JNS",
       "company": "JANUS ELECTRIC HOLDINGS LIMITED",
