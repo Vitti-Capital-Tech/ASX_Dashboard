@@ -1,9 +1,162 @@
 {
   "date": "2026-07-22",
-  "total": 131,
-  "market_sensitive_count": 123,
-  "generated_at": "2026-07-22T00:06:07.363288+00:00",
+  "total": 139,
+  "market_sensitive_count": 131,
+  "generated_at": "2026-07-22T00:31:40.054224+00:00",
   "announcements": [
+    {
+      "ticker": "ADS",
+      "company": "ADSLOT LTD.",
+      "headline": "Update on Administration of 100% Subsidiary",
+      "time": "2026-07-22T00:19:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113194-3A697478",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 100% subsidiary of Adslot Ltd has entered administration, signalling material financial stress within the group structure — investors must assess whether this entity carries significant operational assets, revenue streams, or intercompany liabilities that could impair the parent's balance sheet.",
+        "The market-sensitive classification demands scrutiny of the subsidiary's contribution to consolidated group revenue and any cross-default or guarantee provisions that could expose Adslot Ltd to creditor claims, potentially threatening the parent's own solvency position.",
+        "Near-term focus shifts to administrator appointment details, creditor meetings, and whether Adslot intends to recapitalise, sell, or wind down the subsidiary — any contagion risk to the parent's core ad-tech platform operations or cash runway will be the critical determinant of share price trajectory."
+      ],
+      "tags": [
+        "Technology",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CDE",
+      "company": "CODEIFAI LIMITED",
+      "headline": "Codefai Completes Capital Raising",
+      "time": "2026-07-22T00:18:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113191-6A1334889",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Capital raise completion removes near-term funding uncertainty, though without disclosed quantum, pricing, or structure, dilution impact on existing shareholders cannot yet be assessed — critical details investors must scrutinise in the full prospectus or offer document.",
+        "As a technology-focused micro-cap (AI/code sector implied by name), fresh capital likely targets product development, go-to-market acceleration, or operational runway extension — the strategic deployment plan will be the key valuation driver to watch in accompanying materials.",
+        "Next catalysts to monitor include the allotment of new securities, any escrow arrangements on founder/lead investor shares, and a post-raise operational update that quantifies cash runway and near-term revenue or customer milestones to justify the raise price."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CXU",
+      "company": "CAULDRON ENERGY LIMITED",
+      "headline": "2026 Drill Program First Holes extend Mineralisation to 4kms",
+      "time": "2026-07-22T00:16:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113190-6A1334916",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cauldron's 2026 drill program has successfully extended mineralisation to 4km strike length from the first holes, a material step-change in resource scale that significantly de-risks the project's geological thesis and supports a larger resource estimate in future.",
+        "Early-stage drill results confirming lateral mineralisation continuity across 4km are technically significant for a junior explorer — this scale of footprint typically underpins resource upgrade potential and can attract institutional and major company attention, acting as a re-rating catalyst.",
+        "With drilling underway and results flowing, the near-term newsflow pipeline is strong; investors should watch for assay results, additional hole completions, and any resource estimate revision or updated scoping study that could crystallise the value of the expanded mineralised envelope."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CTO",
+      "company": "CITIGOLD CORPORATION LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-22T00:16:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113189-2A1685435",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Citigold Corporation (CTO) has entered a trading halt, suspending price discovery and liquidity for investors — the market-sensitive classification signals a material corporate event is imminent, likely a capital raise, M&A transaction, or significant operational update at its Charters Towers gold project in Queensland.",
+        "The 'market sensitive' designation elevates the risk profile: institutional holders face forced illiquidity until the halt is lifted, typically within 2 trading days under ASX Listing Rule 17.1, meaning the pending announcement carries sufficient materiality to potentially move the stock significantly on resumption.",
+        "Next steps hinge entirely on the nature of the forthcoming disclosure — given CTO's historical capital constraints and early-stage gold development status, investors should monitor for a placement or rights issue announcement, which would likely introduce dilution risk, versus a strategic partnership or resource update that could be re-rated positively."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NWM",
+      "company": "NORWEST MINERALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-22T00:12:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113188-6A1334914",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point for this micro-cap explorer — Norwest Minerals' Appendix 5B will reveal whether the company has sufficient liquidity to sustain exploration activities without an imminent capital raise, with any cash balance below ~A$1M signalling near-term dilution risk for shareholders.",
+        "Quarterly exploration expenditure and any material drilling or assay results disclosed in the activities report will determine whether the company is advancing its Western Australian gold and base metals projects on schedule, as stalled field programs typically compress junior explorer valuations.",
+        "Investors should monitor for any commentary on upcoming catalysts — including planned drill programs, joint venture discussions, or farm-out agreements — as Norwest's path to re-rating hinges on converting exploration spend into resource definition milestones that attract institutional interest."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RDN",
+      "company": "RAIDEN RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-22T00:06:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113185-6A1334910",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue explorer, Raiden's Appendix 5B will reveal net operating cash burn rate and remaining cash balance, with any runway below 2 quarters likely to signal near-term capital raise risk and shareholder dilution pressure.",
+        "Exploration expenditure quantum and allocation across its Scandinavian and Australian projects (including the Lapland copper-gold and WA lithium assets) will indicate whether the company is maintaining meaningful field activity or conserving cash, a key differentiator for re-rating potential in the current junior mining environment.",
+        "Investors should monitor any disclosed milestones, upcoming drill programs, or strategic partnership developments flagged in the activities report — absence of near-term catalysts combined with elevated cash burn would reinforce a cautious near-term outlook for this micro-cap explorer."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ELS",
+      "company": "ELSIGHT LIMITED",
+      "headline": "Appendix 4C",
+      "time": "2026-07-22T00:05:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113184-3A697477",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cash runway is the critical watch item — Elsight's Appendix 4C will reveal whether the company's burn rate has stabilised or accelerated, with any cash position below ~A$2M likely to trigger near-term capital raise concerns given its pre-revenue scale-up phase in drone connectivity solutions.",
+        "Revenue trajectory from its Halo platform partnerships (including defence and commercial UAV integrations) will be scrutinised for quarter-on-quarter growth momentum, as any meaningful uptick in receipts from customers would validate the commercial traction narrative the company has been building with institutional investors.",
+        "Forward guidance on customer pipeline conversion and any update on US/NATO-aligned defence contracts will be pivotal — failure to demonstrate progress on contracted deployments or a deteriorating cash-to-burn ratio could accelerate selling pressure ahead of any potential equity raising."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QML",
+      "company": "QMINES LIMITED",
+      "headline": "Multi-Rig 10,000m Drilling Program Underway at Mt Chalmers",
+      "time": "2026-07-22T00:05:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113183-6A1334912",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "QMines has mobilised a multi-rig campaign targeting 10,000 metres at Mt Chalmers, signalling a material step-up in exploration intensity — scale of program suggests management confidence in near-term resource definition or upgrade, which is a key de-risking catalyst for this copper-gold VMS project.",
+        "A 10,000m program represents a significant capital commitment for a junior explorer; investors should monitor cash burn rate against existing treasury, as drilling at this scale typically costs $2–4M+ depending on rig type and depth, making the next quarterly cash flow report a critical read-through on runway adequacy.",
+        "Mt Chalmers is a historically producing copper-gold-zinc VMS deposit near Rockhampton, QLD — successful drill results expanding the known resource envelope could re-rate the stock toward a maiden or updated JORC resource estimate, with potential to attract strategic or M&A interest given current elevated base and precious metal prices."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "YOW",
       "company": "YOWIE GROUP LTD",
