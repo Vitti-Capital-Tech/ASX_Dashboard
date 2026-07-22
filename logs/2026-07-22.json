@@ -1,9 +1,67 @@
 {
   "date": "2026-07-22",
-  "total": 139,
-  "market_sensitive_count": 131,
-  "generated_at": "2026-07-22T00:31:40.054224+00:00",
+  "total": 142,
+  "market_sensitive_count": 133,
+  "generated_at": "2026-07-22T01:35:23.154591+00:00",
   "announcements": [
+    {
+      "ticker": "BOE",
+      "company": "BOSS ENERGY LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-22T01:11:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113219-6A1334923",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the institutional ownership structure of Boss Energy (BOE), with a holder crossing or moving through the 5% threshold — warranting close attention to whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase vs. decrease) is critical context: net buying by a substantial holder in a uranium developer like BOE could reflect conviction in the uranium cycle thesis, while a reduction may signal profit-taking following BOE's ~300% re-rating over the past two years as Honeymoon Mine entered production.",
+        "Investors should monitor subsequent substantial holding notices and on-market flow data to determine if this represents a one-off rebalancing or the beginning of a sustained position change, particularly given BOE's elevated valuation relative to uranium spot price sensitivity and its status as one of the few ASX-listed producers."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DSK",
+      "company": "DUSK GROUP LIMITED",
+      "headline": "Dusk Group response to ACCC proceedings",
+      "time": "2026-07-22T01:09:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113217-2A1685448",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ACCC has initiated formal proceedings against Dusk Group, representing a material regulatory risk for the specialty retail operator — the nature, scope, and potential penalties of the action remain critical unknowns that could weigh on investor confidence until disclosed in full.",
+        "Financial exposure is the key variable: ACCC proceedings in consumer law or pricing/advertising matters can carry penalties in the millions of dollars under the Australian Consumer Law, and any remediation costs or operational changes required could pressure Dusk's already thin specialty retail margins.",
+        "Near-term focus shifts to Dusk's legal response strategy and timeline — investors should monitor whether the company contests or seeks to settle, as a protracted dispute could distract management and create reputational headwinds heading into the critical Christmas trading period, which is the company's highest-revenue season."
+      ],
+      "tags": [
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DSK",
+      "company": "DUSK GROUP LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-07-22T00:48:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113209-2A1685445",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dusk Group has requested a trading halt ahead of what is likely a material announcement — the market-sensitive classification signals a pending disclosure that could materially move the stock, warranting close attention from retail and institutional holders alike.",
+        "As a specialty retail candle and home fragrance brand, Dusk has faced ongoing margin pressure from discretionary spending headwinds; any forthcoming announcement relating to earnings guidance, a capital event, or M&A activity will be scrutinised against its already compressed valuation and thin retail trading environment.",
+        "Investors should monitor the resumption of trading closely — the nature of the pending disclosure (whether a profit warning, strategic transaction, or capital raise) will determine directional bias; until details emerge, positioning ahead of the halt lift carries elevated binary risk."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ADS",
       "company": "ADSLOT LTD.",
