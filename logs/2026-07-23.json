@@ -1,9 +1,219 @@
 {
   "date": "2026-07-23",
-  "total": 55,
-  "market_sensitive_count": 53,
-  "generated_at": "2026-07-22T22:50:13.416435+00:00",
+  "total": 66,
+  "market_sensitive_count": 64,
+  "generated_at": "2026-07-22T23:15:13.927601+00:00",
   "announcements": [
+    {
+      "ticker": "JNS",
+      "company": "JANUS ELECTRIC HOLDINGS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-22T23:09:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113484-2A1685594",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Janus Electric has entered a trading halt pending a material announcement — the market-sensitive classification signals a potentially significant corporate event, most likely a capital raise, strategic partnership, or M&A activity given the company's stage of development in electric heavy vehicle retrofitting.",
+        "As a pre-revenue, development-stage EV technology company, Janus Electric's trading halts historically precede funding rounds or commercial contract announcements — investors should monitor for dilution risk if a capital raise is confirmed, particularly given the company's ongoing cash burn profile.",
+        "The halt duration will be critical: ASX rules limit trading halts to two business days, meaning clarity on the underlying catalyst is imminent — institutional investors should position cautiously until the nature of the announcement is confirmed, as outcomes range from highly dilutive placements to value-accretive commercial milestones."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPL",
+      "company": "PUREPROFILE LTD",
+      "headline": "Pureprofile Reports Record FY26 Revenue and EBITDA",
+      "time": "2026-07-22T23:07:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113479-2A1685573",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Record FY26 revenue and EBITDA signals Pureprofile has successfully executed its growth strategy, with the 'record' designation indicating year-on-year acceleration that validates the company's data and insights platform positioning in a competitive market research sector.",
+        "The simultaneous achievement of record revenue AND record EBITDA is particularly significant — it demonstrates operating leverage is materialising, meaning top-line growth is flowing through to the bottom line rather than being consumed by cost inflation, a key de-risking milestone for this small-cap tech company.",
+        "With market-sensitive status attached, institutional investors should watch for the detailed results release to scrutinise cash conversion, recurring revenue mix, and any forward guidance — sustained EBITDA improvement could catalyse a re-rating given Pureprofile's historically compressed valuation multiples relative to SaaS/data peers on the ASX."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "M79",
+      "company": "MAMMOTH MINERALS LIMITED",
+      "headline": "Drilling underway across high-grade Excelsior targets",
+      "time": "2026-07-22T23:06:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113477-6A1335045",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling has commenced across multiple high-grade targets at the Excelsior project, a catalyst-rich phase that directly tests the company's core value proposition — success here could materially re-rate the stock given the 'high-grade' characterisation signals meaningful grade potential relative to peers.",
+        "The market-sensitive classification elevates this beyond routine operational news, suggesting management believes drill results carry genuine price-discovery potential; investors should monitor assay turnaround timelines closely as results flow, as near-term newsflow could be a significant share price driver.",
+        "For a junior explorer, active drilling across multiple targets simultaneously indicates sufficient capital deployment capacity — investors should cross-reference against the most recent cash balance and burn rate to assess whether the company can sustain drilling through to meaningful resource definition without an imminent capital raise."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NIM",
+      "company": "NIMY RESOURCES LIMITED",
+      "headline": "Quarterly Activities and Cashflow Report",
+      "time": "2026-07-22T23:05:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113475-6A1335044",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — junior explorers at this stage typically hold 12–18 months of operating capital, and any cash position below A$3M with no near-term catalysts would signal elevated dilution risk via a capital raise.",
+        "Exploration progress at the Mons nickel-PGE project in WA remains the core value driver; any drill results, resource estimate updates, or geophysical survey completions disclosed in this quarterly will be pivotal for re-rating given the strategic importance of battery metals supply chains.",
+        "With no production revenue, the company's near-term outlook hinges entirely on securing additional funding (grants, JV partnerships, or equity raises) and delivering newsflow from its flagship tenements — investors should monitor quarterly cash burn rate and committed expenditure obligations closely."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTQ",
+      "company": "CARETEQ LIMITED",
+      "headline": "Careteq confirms continued quotation",
+      "time": "2026-07-22T23:03:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113474-2A1685570",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Careteq has received ASX confirmation of continued quotation, resolving any near-term delisting risk and providing regulatory certainty for existing shareholders — a critical threshold for a micro-cap operating in the aged care technology space.",
+        "The market-sensitive classification suggests the company had previously been under scrutiny for compliance with ASX listing requirements (likely Listing Rule 12.1 or similar), meaning this confirmation removes a material overhang that may have been suppressing liquidity and institutional participation.",
+        "Near-term focus shifts to underlying business fundamentals — investors should monitor upcoming quarterly cash flow reports (4C) for evidence of revenue traction and cash runway sufficiency, as continued quotation alone does not address the operational sustainability questions typical of early-stage healthcare technology companies."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AX1",
+      "company": "ACCENT GROUP LIMITED",
+      "headline": "Takeover - extension of offer period",
+      "time": "2026-07-22T23:03:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113473-2A1685572",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "The extension of the offer period signals insufficient acceptances to date, suggesting target shareholders remain unconvinced by current bid terms — a classic indicator that the acquirer may need to sweeten the offer price or walk away entirely.",
+        "For Accent Group (AX1), prolonged deal uncertainty typically suppresses the share price trading range between the pre-bid level and the offer price, creating a binary risk/reward dynamic that institutional arbitrageurs will be actively monitoring for spread compression or widening.",
+        "Key near-term catalysts to watch include whether the bidder lifts its offer price, discloses updated acceptance levels, or allows the offer to lapse — any of these outcomes will be decisive for AX1's share price trajectory and should be treated as a hard catalyst event by event-driven desks."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COD",
+      "company": "CODA MINERALS LTD",
+      "headline": "Hydrogeological Drilling Starts at Elizabeth Creek",
+      "time": "2026-07-22T22:56:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113471-6A1335043",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of hydrogeological drilling at Elizabeth Creek is a critical de-risking milestone for the project's feasibility pathway — water resource confirmation is a prerequisite for any future mining operation and its absence would be a material constraint on development timelines.",
+        "The market-sensitive classification signals management views this as a value-inflection event; successful hydrogeological results could materially strengthen the project's bankability and attract partner or offtake interest in a copper-cobalt asset increasingly relevant to battery metals supply chains.",
+        "Investors should monitor drill results closely for aquifer yield and water quality data — positive outcomes would accelerate the project toward pre-feasibility or feasibility study completion, while disappointing results could force costly alternative water sourcing solutions and delay the development schedule."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DSM",
+      "company": "DESERT MINERALS LTD",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-22T22:53:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113470-6A1335041",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item for this early-stage explorer — investors should scrutinise the closing cash balance and quarterly burn rate to assess how many quarters of operations remain before Desert Minerals requires additional funding, with sub-$1M balances typically triggering near-term capital raise risk.",
+        "Exploration expenditure levels in the quarter will signal management's commitment to advancing its mineral projects; any material reduction in field activity or deferral of drilling programs would indicate capital preservation mode, reducing near-term newsflow catalysts for the stock.",
+        "With no disclosed revenue-generating operations, the company's re-rating potential hinges entirely on upcoming exploration results and its ability to maintain sufficient working capital — investors should monitor any commentary on planned capital raises, farm-out agreements, or JV discussions as the primary value unlock pathway."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HTG",
+      "company": "HARVEST TECHNOLOGY GROUP LTD",
+      "headline": "Strategic Partnership MOU with Ukrainian Technology Park",
+      "time": "2026-07-22T22:47:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113468-6A1335037",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The MOU with a Ukrainian Technology Park is largely symbolic at this stage — MOUs carry no binding commercial obligation, and with Ukraine's ongoing wartime economic disruption, the timeline and probability of converting this into revenue-generating contracts remains highly uncertain and speculative.",
+        "Harvest Technology Group's core business centres on bandwidth-efficient video streaming for remote operations; a Ukrainian tech park partnership could theoretically open defence, reconstruction, or critical infrastructure use cases, but no financial terms, contract values, or revenue milestones have been disclosed, leaving material impact unquantifiable.",
+        "Investors should monitor whether this MOU progresses to a binding agreement with defined deliverables and payment terms within the next 6–12 months — absent that, the announcement risks being perceived as headline-driven noise rather than a substantive commercial catalyst, particularly given HVT's need to demonstrate scalable revenue growth."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXB",
+      "company": "DIMERIX LIMITED",
+      "headline": "US Patent Granted for Dimerix New Asset DMX-652",
+      "time": "2026-07-22T22:46:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113466-3A697514",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "US patent grant for DMX-652 establishes critical IP protection in the world's largest pharmaceutical market, providing Dimerix with a defensible commercial moat and significantly enhancing the asset's licensing or partnering value to potential Big Pharma acquirers.",
+        "The patent expands Dimerix's IP estate beyond its lead asset DMX-200 (currently in Phase 3 for FSGS), signalling pipeline diversification and reducing single-asset risk — a key valuation concern for institutional investors in small-cap biotech.",
+        "With a granted US patent now in hand, management is better positioned to initiate formal out-licensing discussions or attract a development partner for DMX-652, potentially unlocking a non-dilutive capital pathway that could extend cash runway without equity issuance."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TKM",
+      "company": "TREK METALS LIMITED",
+      "headline": "IP Drilling Validates Concealed Manganese Targeting at Kuro",
+      "time": "2026-07-22T22:45:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113464-6A1335038",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "IP (Induced Polarisation) drilling results have successfully validated the geophysical targeting model at the Kuro project, confirming the presence of concealed manganese mineralisation beneath cover — a critical de-risking milestone that materially improves the geological confidence of the asset and justifies follow-up resource drilling.",
+        "The technical significance lies in IP's effectiveness at detecting disseminated sulphide or conductive mineralisation associated with manganese systems at depth; a validated drill-hole correlation with IP anomalies substantially reduces exploration risk and strengthens the case for a defined drill programme, which should attract institutional and strategic interest in the project.",
+        "Near-term catalysts to watch include the scope and timing of a follow-up RC or diamond drilling programme targeting the confirmed manganese zones — any resource estimate or JORC-compliant mineralisation announcement would be the next material value inflection point for Trek Metals (ASX: TKM)."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "GT3",
       "company": "GREEN360 TECHNOLOGIES LIMITED",
