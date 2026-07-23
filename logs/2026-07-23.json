@@ -1,9 +1,28 @@
 {
   "date": "2026-07-23",
-  "total": 104,
+  "total": 105,
   "market_sensitive_count": 102,
-  "generated_at": "2026-07-23T00:12:33.464327+00:00",
+  "generated_at": "2026-07-23T00:32:38.852760+00:00",
   "announcements": [
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-23T00:15:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113559-6A1335082",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register — investors should monitor whether this reflects accumulation or disposal by a major holder, as either scenario has implications for near-term liquidity and price discovery in this small-cap explorer.",
+        "The filing itself does not disclose the direction of the change (increase or decrease), but any movement crossing the 5% threshold or incremental 1% bands is a regulated disclosure event — the identity of the substantial holder and their revised stake percentage will be critical data points to assess strategic intent.",
+        "For Kingston Resources (KSN), a gold-focused explorer with its flagship Misima Gold Project in PNG, changes in substantial holdings can indicate institutional repositioning ahead of project milestones or capital activity — investors should cross-reference recent project updates and any upcoming funding requirements to contextualise this registry movement."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SNS",
       "company": "SENSEN NETWORKS LIMITED",
