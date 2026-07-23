@@ -1,9 +1,124 @@
 {
   "date": "2026-07-23",
-  "total": 114,
-  "market_sensitive_count": 109,
-  "generated_at": "2026-07-23T01:36:31.151114+00:00",
+  "total": 120,
+  "market_sensitive_count": 113,
+  "generated_at": "2026-07-23T03:05:00.770808+00:00",
   "announcements": [
+    {
+      "ticker": "HGO",
+      "company": "HILLGROVE RESOURCES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-23T02:39:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113609-2A1685647",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register for Hillgrove Resources (HGO), indicating a major shareholder has crossed a 5% threshold trigger — either accumulating or reducing their position, which warrants close monitoring of the direction of movement.",
+        "The identity and intent of the substantial holder is critical context: if a sophisticated institutional or strategic investor is building a stake, it could signal growing conviction in Hillgrove's copper development assets at Kanmantoo, potentially ahead of a catalytic event such as a funding decision or M&A activity.",
+        "Investors should track subsequent Form 604 filings to determine whether this represents a one-off repositioning or the beginning of a sustained accumulation pattern, as continued buying from a substantial holder could tighten the free float and support the share price near-term."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ECT",
+      "company": "ENVIRONMENTAL CLEAN TECHNOLOGIES LIMITED.",
+      "headline": "Pause in Trading",
+      "time": "2026-07-23T02:33:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113608-6A1335109",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ECT has requested a trading halt pending a market-sensitive announcement, signalling material undisclosed information is imminent — the nature of which (capital raise, partnership, or operational update) remains unknown but warrants close monitoring given the company's early-stage commercialisation status.",
+        "As a micro-cap clean technology developer with historically limited revenue and ongoing cash burn, any forthcoming announcement carries heightened significance for liquidity and funding runway — a capital raise scenario would likely be dilutive, while a strategic partnership or offtake agreement could be re-rating catalyst.",
+        "Investors should await the substantive announcement before repositioning; the halt duration and 'market sensitive' classification suggest the disclosure is non-routine and could materially reset the near-term valuation narrative for ECT's Coldry and Matmor technology commercialisation pathway."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZNC",
+      "company": "ZENITH MINERALS LIMITED",
+      "headline": "Change in Substantial Holding",
+      "time": "2026-07-23T02:23:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113604-6A1335106",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Zenith Minerals (ZNC), with a holder crossing or moving through the 5% threshold — warranting close attention to whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase or decrease in holding) is critical: an increase could indicate growing conviction in ZNC's exploration assets, while a decrease may signal reduced institutional confidence or portfolio rebalancing, both of which carry implications for near-term liquidity and price support.",
+        "Investors should monitor subsequent Form 604/603 filings and on-market activity to determine if this represents a strategic cornerstone position building or an exit — particularly relevant given ZNC's junior explorer status where register concentration can amplify price volatility."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ELT",
+      "company": "ELEMENTOS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-23T01:59:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113598-2A1685642",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue explorer, Elementos' Appendix 5B will reveal net operating cash burn rate and remaining cash balance, which directly determines how soon the company must return to market for fresh capital, a key dilution risk for existing shareholders.",
+        "The quarterly activities report will disclose progress at the flagship Oropesa tin project in Spain, where any updates on permitting milestones, resource development, or offtake discussions carry material re-rating potential given tin's strategic critical minerals status and tight global supply dynamics.",
+        "With the broader critical minerals sector under funding pressure, investors should scrutinise whether Elementos has secured any project financing commitments, strategic partnerships, or government grant support this quarter — absence of such catalysts alongside elevated cash burn would reinforce near-term bearish pressure on the stock."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MHC",
+      "company": "MANHATTAN GOLD CORPORATION LIMITED",
+      "headline": "June 2026 Quarter Activities and Cashflow Reports",
+      "time": "2026-07-23T01:47:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113593-6A1335102",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "As a junior gold explorer, Manhattan Gold's quarterly cashflow report is a critical liquidity checkpoint — investors should scrutinise ending cash balance and burn rate to assess whether a capital raise is imminent, particularly given the current gold price tailwinds that could influence timing of any equity issuance.",
+        "Operational activity levels during the June 2026 quarter — including drilling metres completed, assay results pending, and any resource estimate progress — will determine whether the company is advancing its asset toward a definable resource milestone or treading water on exploration spend.",
+        "The market-sensitive classification elevates the significance of this release; any material deviation from prior guidance on cash position, exploration results, or project timeline — positive or negative — could trigger a sharp re-rating, making the specific numbers within the report the key near-term catalyst to monitor."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AII",
+      "company": "ALMONTY INDUSTRIES INC.",
+      "headline": "Trading Halt",
+      "time": "2026-07-23T01:36:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113591-6A1335101",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Almonty Industries has entered a trading halt on the ASX, suspending price discovery and liquidity for investors — the market-sensitive classification signals a material corporate event is imminent, likely a significant announcement requiring controlled disclosure.",
+        "Trading halts on market-sensitive matters typically precede capital raises, M&A activity, or major operational updates; given Almonty's profile as a tungsten producer with its flagship Sangdong mine in South Korea nearing production, a project financing milestone or offtake agreement would be consistent with current corporate trajectory.",
+        "Institutional investors should monitor the resumption announcement closely — if the halt relates to Sangdong project financing (previously flagged as a key catalyst), this could represent a de-risking event for the stock; however, if equity dilution is involved, near-term price pressure is likely upon resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CTD",
       "company": "CORPORATE TRAVEL MANAGEMENT LIMITED",
