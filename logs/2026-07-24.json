@@ -1,9 +1,123 @@
 {
   "date": "2026-07-24",
-  "total": 41,
-  "market_sensitive_count": 34,
-  "generated_at": "2026-07-23T23:11:10.682450+00:00",
+  "total": 47,
+  "market_sensitive_count": 40,
+  "generated_at": "2026-07-23T23:20:19.986085+00:00",
   "announcements": [
+    {
+      "ticker": "EMT",
+      "company": "EMETALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-23T23:18:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113842-6A1335241",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue explorer, EMetals' Appendix 5B will reveal quarterly burn rate and remaining cash reserves, with any balance below ~$1M signalling imminent capital raise risk and potential dilution for existing shareholders.",
+        "Operational progress at flagship projects (likely copper/gold/nickel exploration) will be scrutinised for drill results, resource updates, or permit milestones that could justify current market capitalisation and underpin near-term catalysts.",
+        "The market-sensitive classification elevates this beyond a routine filing — investors should watch for any disclosed funding agreements, JV discussions, or material exploration outcomes that could serve as re-rating triggers in the current junior mining environment."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGN",
+      "company": "ARGENICA THERAPEUTICS LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-23T23:18:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113840-6A1335239",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue clinical-stage biotech, Argenica's quarterly burn rate and remaining cash balance will determine whether a capital raise is imminent, making the Appendix 4C figures the primary valuation signal in this report.",
+        "Operational progress on lead asset ARG-007 (neuroprotection in stroke) should be scrutinised for Phase 2 trial milestones, patient enrolment updates, or any regulatory interactions that could de-risk or re-rate the pipeline and justify current market capitalisation.",
+        "Any commentary on non-dilutive funding sources — such as R&D tax incentive receipts, grants, or partnership discussions — will be key to assessing whether management can extend runway without near-term equity dilution, a pivotal concern for existing shareholders."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEI",
+      "company": "METEORIC RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-23T23:16:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113837-6A1335240",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as an exploration-stage rare earths developer with no revenue, Meteoric's quarterly cash burn rate and remaining cash balance will determine how quickly the company needs to return to market for fresh capital, making the Appendix 5B figures the key read-through for near-term dilution risk.",
+        "Operational progress at the Caldeira ionic clay REE project in Brazil remains the valuation catalyst — any updates on resource definition drilling, metallurgical test work, or permitting milestones will signal whether the project is tracking toward a Pre-Feasibility Study and de-risking the development timeline for institutional investors.",
+        "With the global critical minerals and rare earths sector under heightened strategic scrutiny amid supply chain diversification themes, Meteoric's ability to demonstrate disciplined capital allocation and tangible project advancement this quarter will be pivotal in maintaining investor confidence ahead of what is likely to be a capital-intensive development phase."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RAD",
+      "company": "RADIOPHARM THERANOSTICS LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-07-23T23:14:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113835-2A1685719",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Radiopharm Theranostics (RNO) has been suspended from ASX quotation, halting all trading activity — a significant event for a clinical-stage radiopharmaceutical company that relies on capital market access to fund ongoing trials and operations.",
+        "The market-sensitive classification signals this is not a routine administrative action; suspension at this stage likely precedes a material announcement such as a capital raise, strategic transaction, or regulatory/compliance development — each carrying distinct valuation implications that investors cannot yet price.",
+        "With RNO historically burning cash to advance its pipeline (including radiolabelled therapeutics targeting oncology), any extended suspension heightens liquidity risk concerns; investors should monitor the nature of the subsequent announcement closely, as a dilutive equity raise would pressure the already speculative-grade stock while an M&A or partnership deal could be re-rating catalyst."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AII",
+      "company": "ALMONTY INDUSTRIES INC.",
+      "headline": "ALMONTY TO VOLUNTARILY DELIST FROM ASX",
+      "time": "2026-07-23T23:11:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113832-6A1335220",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Almonty Industries is voluntarily delisting from the ASX, signalling a strategic consolidation of its capital markets presence — likely reflecting insufficient liquidity, trading volumes, or cost-benefit justification for maintaining a dual-listing alongside its primary TSX Venture Exchange listing in Canada.",
+        "The delisting removes ASX-based institutional and retail investors from the register without a mandatory buyback or takeover offer, forcing existing ASX shareholders to either transfer holdings to the TSX or face illiquidity — a material structural risk for local holders who may lack access to Canadian markets.",
+        "Near-term focus shifts to the delisting timeline, any shareholder remediation mechanism (e.g. sale facility), and whether the move is accompanied by a broader corporate restructuring or capital event; investors should monitor the formal delisting notice for key dates and any compulsory acquisition provisions under ASX Listing Rules."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BTM",
+      "company": "BREAKTHROUGH MINERALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-23T23:09:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113830-2A1685717",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue explorer, Breakthrough Minerals' Appendix 5B will reveal net operating cash outflows and remaining cash reserves, with any runway below 2 quarters signalling imminent dilution risk via capital raise.",
+        "Exploration expenditure levels disclosed in the 5B will indicate whether the company is actively advancing its mineral projects or conserving cash, a key differentiator for institutional investors assessing management's commitment to the asset pipeline.",
+        "With no disclosed revenue-generating operations, the next catalyst hinges on drill results or resource definition milestones; investors should monitor whether the quarterly commentary outlines upcoming field programs or flags any project delays that could reset the timeline to value inflection."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GNG",
       "company": "GR ENGINEERING SERVICES LIMITED",
