@@ -1,9 +1,178 @@
 {
   "date": "2026-07-23",
-  "total": 105,
-  "market_sensitive_count": 102,
-  "generated_at": "2026-07-23T00:32:38.852760+00:00",
+  "total": 114,
+  "market_sensitive_count": 109,
+  "generated_at": "2026-07-23T01:36:31.151114+00:00",
   "announcements": [
+    {
+      "ticker": "CTD",
+      "company": "CORPORATE TRAVEL MANAGEMENT LIMITED",
+      "headline": "Managing Director and Group CEO Appointment",
+      "time": "2026-07-23T01:27:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113589-2A1685633",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "Leadership transition at the MD/Group CEO level is a high-stakes event for CTD given the company's ongoing recovery and strategic repositioning post-COVID — continuity of execution and investor confidence in the incoming appointee will be critical to near-term sentiment.",
+        "The market-sensitive classification signals the board views this appointment as material to valuation; institutional investors will scrutinise whether the new CEO is an internal promotion (continuity signal) or external hire (potential strategic pivot), and their track record in corporate travel or adjacent sectors.",
+        "Next steps to watch: investor day or briefing to outline the incoming CEO's strategic priorities, any changes to FY25/26 earnings guidance, and whether the transition triggers a review of CTD's M&A pipeline or capital allocation framework — all key catalysts for re-rating."
+      ],
+      "tags": [
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AII",
+      "company": "ALMONTY INDUSTRIES INC.",
+      "headline": "Pause in Trading",
+      "time": "2026-07-23T01:21:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113586-6A1335097",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Almonty Industries has entered a trading pause on the ASX, signalling that a material, market-sensitive development is imminent — likely a significant corporate event requiring price-sensitive disclosure before trading resumes.",
+        "As a tungsten-focused miner with its flagship Sangdong mine in South Korea nearing production ramp-up, any halt at this stage could relate to project financing, offtake agreements, or a strategic transaction — all of which carry meaningful valuation implications given the asset's scale.",
+        "Institutional investors should monitor the resumption announcement closely; the nature of the disclosure will be critical — a capital raise or dilutive financing would pressure the stock, while a strategic partnership, M&A approach, or binding offtake deal could be a significant re-rating catalyst."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "A2M",
+      "company": "THE A2 MILK COMPANY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-23T01:15:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113585-2A1685637",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holding change in A2 Milk (ATM) signals a meaningful shift in institutional ownership structure, which warrants monitoring for directional intent — whether accumulation or distribution — as either can precede significant price moves in a mid-cap consumer staples name.",
+        "A2 Milk's relatively concentrated register means threshold crossings (typically 5% increments) carry outsized significance; a rising substantial holder could indicate renewed institutional conviction in ATM's China infant formula recovery thesis and improving margin trajectory following recent earnings upgrades.",
+        "Investors should track the identity and historical behaviour of the disclosing entity — activist or passive fund involvement would carry very different implications for ATM's strategic direction, capital allocation, and potential for corporate activity in a sector where consolidation remains a live theme."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BHM",
+      "company": "BROKEN HILL MINES LIMITED",
+      "headline": "High Grade Ag-Pb-Zn Intersected in the Centenary Zone",
+      "time": "2026-07-23T00:59:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113581-6A1335095",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade silver-lead-zinc intersections in the Centenary Zone validate the geological model at Broken Hill, a historically prolific polymetallic district — confirmation of grade continuity at depth or along strike is a critical de-risking milestone for a junior explorer and directly supports resource expansion potential.",
+        "The market-sensitive classification signals materially significant assay results; institutional focus will be on headline grades (Ag g/t, Pb%, Zn%) and intersection widths relative to the Broken Hill district benchmark of ~150 g/t AgEq — any results exceeding this threshold would position the company competitively against peers operating in the same corridor.",
+        "Near-term catalysts hinge on follow-up drilling to test the Centenary Zone's lateral and down-dip extent, with a maiden or updated JORC resource estimate the logical next step — investors should monitor drill program sequencing and cash position to assess whether additional capital will be required to sustain exploration momentum."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PGO",
+      "company": "PACGOLD LIMITED",
+      "headline": "Significant High-Grade Gold & Copper Discovery at White Dam",
+      "time": "2026-07-23T00:59:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113580-3A697531",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A significant high-grade gold and copper discovery at White Dam represents a potential re-rating catalyst for PacGold, with dual-commodity mineralisation materially expanding the project's economic optionality beyond a single-metal story — a key differentiator for junior explorers in the current market.",
+        "The market-sensitive classification signals management confidence in the materiality of assay results; institutional focus will now centre on the grade-thickness intercepts and whether they benchmark favourably against peer discoveries in the same geological corridor to justify a step-change in resource valuation.",
+        "Near-term catalysts include follow-up drilling to test strike and depth extensions of the discovery zone, with a maiden or upgraded resource estimate the logical next milestone — investors should monitor drill permit status and cash position to assess how quickly PacGold can convert this discovery into a defined resource."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ZEU",
+      "company": "ZEUS RESOURCES LIMITED",
+      "headline": "Acquisition of high grade copper gold project in Mauritania",
+      "time": "2026-07-23T00:54:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113574-6A1335085",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Zeus Resources is expanding its footprint into Mauritania, a jurisdiction hosting Kinross's Tasiast gold mine and significant copper-gold mineralisation — the strategic fit signals management is targeting a high-grade, underexplored West African corridor that could materially re-rate the company's asset base if early results confirm continuity.",
+        "The market-sensitive classification suggests the acquisition terms, consideration structure (likely scrip, cash, or a combination), and the grade/resource profile of the copper-gold project are material enough to move the stock — investors should scrutinise the acquisition price relative to any existing resource estimate or historical drill results to assess whether value is being created or destroyed at the entry point.",
+        "Near-term catalysts will hinge on Zeus's ability to fund exploration at the Mauritanian project without excessive dilution; given the company's likely small-cap status, the market will closely watch for a concurrent capital raise announcement, timeline to first drill results, and whether any earn-in or JV structure limits upfront cash burn while preserving upside exposure."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ARC",
+      "company": "ARC FUNDS LIMITED",
+      "headline": "Becoming a substantial holder from TIP",
+      "time": "2026-07-23T00:53:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113572-2A1685635",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "ARC Funds Limited has crossed the 5% substantial holder threshold in an undisclosed target company (formerly held by TIP), triggering mandatory disclosure obligations under the Corporations Act — signalling a deliberate accumulation strategy rather than passive index exposure.",
+        "The transition of substantial holding 'from TIP' indicates a change in the registered holder or custodial arrangement, which warrants scrutiny of the underlying economic interest and whether voting rights have shifted — a key consideration for governance-focused institutional investors.",
+        "Investors should monitor whether this crossing represents the beginning of a larger stake-building campaign by ARC Funds; sustained buying pressure at the 5% threshold can act as a technical floor for the target stock and may attract copycat positioning from event-driven funds."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "M3M",
+      "company": "M3 MINING LIMITED",
+      "headline": "Exploration Update at Edjudina Gold Project",
+      "time": "2026-07-23T00:34:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113567-6A1335084",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material drill results or resource update at Edjudina Gold Project — likely new intercepts or resource expansion that could re-rate the stock, though headline grade and width will determine magnitude of market reaction.",
+        "Edjudina sits in the prolific Eastern Goldfields of WA, a proven high-grade gold corridor; any confirmation of continuity or extension of mineralisation adds tangible exploration upside to M3 Mining's asset base and strengthens the project's development case.",
+        "Near-term focus will be on whether results support a maiden or upgraded JORC resource estimate — a defined resource would be a key de-risking milestone, potentially attracting institutional interest or positioning the company for a capital raise or JV partnership."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SRL",
+      "company": "SUNRISE ENERGY METALS LIMITED",
+      "headline": "Sunrise Accelerates Expansion Study",
+      "time": "2026-07-23T00:32:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113565-3A697530",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Acceleration of the expansion study signals management confidence in project economics and resource scale at Sunrise, potentially de-risking the path to a larger production case — a key re-rating catalyst for a project that has historically struggled to attract development capital.",
+        "The market-sensitive classification suggests material new information on study scope, throughput capacity, or capital cost estimates; investors should watch for revised NPV/IRR metrics and whether the expanded case improves the project's viability threshold against current nickel, cobalt, and scandium pricing.",
+        "Next critical milestones will be the release of the expanded Pre-Feasibility or Feasibility Study outcomes, offtake partner engagement updates, and any indication of funding strategy — given the project's capital-intensive nature, clarity on financing structure remains the pivotal risk factor for institutional positioning."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "KSN",
       "company": "KINGSTON RESOURCES LIMITED",
