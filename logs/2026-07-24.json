@@ -1,9 +1,180 @@
 {
   "date": "2026-07-24",
-  "total": 85,
-  "market_sensitive_count": 76,
-  "generated_at": "2026-07-24T01:35:25.272525+00:00",
+  "total": 94,
+  "market_sensitive_count": 82,
+  "generated_at": "2026-07-24T03:05:08.680193+00:00",
   "announcements": [
+    {
+      "ticker": "GT3",
+      "company": "GREEN360 TECHNOLOGIES LIMITED",
+      "headline": "Amended - G360 Secures Binding Supply Agreement with Holcim",
+      "time": "2026-07-24T02:51:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113964-6A1335304",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Binding supply agreement with Holcim — a global top-3 building materials giant with ~$30B revenue — provides G360 with a blue-chip anchor customer, materially de-risking commercial execution and lending significant credibility to its waste-to-resource technology platform.",
+        "The 'amended' filing flag warrants scrutiny: investors should compare revised terms against the original announcement to identify any changes to volume commitments, pricing mechanisms, exclusivity clauses, or contract duration that could alter the revenue quality or strategic value of the deal.",
+        "Near-term catalysts to watch include disclosure of contract volumes and revenue potential in subsequent filings, potential for additional offtake agreements leveraging the Holcim relationship as a reference customer, and whether this triggers any milestone-based capital deployment or funding tranches."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FHE",
+      "company": "FRONTIER ENERGY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-24T02:36:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113961-6A1335302",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Frontier Energy (FHR), indicating a holder has crossed above or below the 5% threshold — warranting close monitoring of whether this reflects accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase or decrease) is critical context: an increase in a substantial holder's position in a green hydrogen/energy developer like FHR could signal growing institutional conviction in its Bristol Springs project pipeline, while a decrease may indicate profit-taking or strategic exit.",
+        "Investors should track whether this register movement is associated with a recent capital raise, on-market buying, or a strategic partnership — any of which could have implications for FHR's funding pathway toward its Western Australian green hydrogen development milestones."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARN",
+      "company": "ALDORO RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-24T02:26:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113959-6A1335300",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue explorer, Aldoro's Appendix 5B will reveal net operating cash burn rate and remaining cash reserves, with any balance below ~A$1M signalling imminent capital raise risk and potential dilution for existing shareholders.",
+        "Exploration activity and expenditure allocation across Aldoro's key projects (notably the Narndee Igneous Complex nickel-copper-PGE and Wyemandoo lithium assets) will indicate whether the company is advancing drill-ready targets or conserving cash, directly impacting near-term newsflow expectations.",
+        "Any disclosure of upcoming milestones — including planned drilling programs, JV negotiations, or farm-out discussions — will be pivotal for re-rating potential, particularly given the current subdued sentiment toward junior explorers in the nickel and lithium sectors."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGC",
+      "company": "AUSTRALIAN GOLD AND COPPER LTD",
+      "headline": "Becoming a substantial holder - BW Okahu Pty Ltd",
+      "time": "2026-07-24T02:04:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113953-6A1335295",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "BW Okahu Pty Ltd has crossed the 5% substantial holder threshold in Australian Gold and Copper Ltd, signalling a meaningful accumulation of stock that warrants monitoring for potential strategic intent — whether passive investment or a precursor to board influence or corporate action.",
+        "The emergence of a new substantial holder can tighten the effective free float, potentially reducing liquidity for other investors while simultaneously signalling that a sophisticated party sees value at current price levels in AGC's gold and copper asset base.",
+        "Investors should track any further Form 604 (change in substantial holding) filings from BW Okahu Pty Ltd, as incremental buying beyond the initial threshold disclosure could indicate escalating conviction and increase the probability of a control event or strategic partnership down the line."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AGC",
+      "company": "AUSTRALIAN GOLD AND COPPER LTD",
+      "headline": "Change in substantial holding - Geozen",
+      "time": "2026-07-24T01:59:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113952-6A1335294",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Geozen has triggered a substantial holding disclosure for Australian Gold and Copper Ltd (AGC), signalling a meaningful shift in the company's register — investors should monitor whether this represents accumulation ahead of a potential strategic move or simply a passive position adjustment.",
+        "The filing indicates a change (either increase or decrease) in Geozen's stake crossing a 5% threshold or a subsequent 1% movement — the direction and resulting holding percentage are critical to assess whether this reflects growing conviction in AGC's gold-copper exploration assets or an exit of a key cornerstone investor.",
+        "For a junior explorer like AGC, substantial holder movements can materially influence share price liquidity and future capital raise dynamics — if Geozen is building a position, it may signal insider confidence in upcoming exploration results or resource updates; a reduction would warrant scrutiny of project de-risking progress."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KEY",
+      "company": "KEY PETROLEUM LIMITED",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-07-24T01:57:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113951-6A1335293",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watchpoint for KEY — as a small-cap explorer with no production revenue, the quarterly cash balance and burn rate will determine whether a capital raise is imminent, with investors needing to scrutinise whether the company has sufficient funds to meet its next 12 months of committed exploration expenditure.",
+        "Operational progress on any drilling or seismic programs disclosed in the report will be the primary valuation catalyst — any positive well results or resource updates in KEY's Perth Basin or international acreage could materially re-rate the stock, while delays or dry holes would reinforce bearish pressure on an already thinly traded micro-cap.",
+        "Near-term outlook hinges on farm-out or JV partnership activity to dilute exploration risk and extend the cash runway — absence of a funding partner announcement alongside elevated quarterly spend would signal heightened dilution risk through equity issuance, a key concern for existing shareholders."
+      ],
+      "tags": [
+        "Quarterly",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KEY",
+      "company": "KEY PETROLEUM LIMITED",
+      "headline": "Appendix 5B Cash Flow Report",
+      "time": "2026-07-24T01:55:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113950-6A1335292",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cash runway is the critical watch point — as a micro-cap exploration company, Key Petroleum's quarterly cash flow report will reveal whether operating and exploration expenditure is outpacing any inflows, with investors needing to assess how many quarters of funding remain before a capital raise becomes necessary.",
+        "The market-sensitive classification signals material information likely embedded in the report — key metrics to scrutinise include net cash used in operating activities, exploration/evaluation spend, and any receipts from customers or farm-in partners that could indicate commercial progress on its Moroccan or other assets.",
+        "With no meaningful production revenue typical for a company at this stage, the balance sheet position and any disclosed funding arrangements or planned capital activities will be the primary determinants of near-term share price direction — a thin cash buffer or accelerating burn rate would materially elevate dilution risk."
+      ],
+      "tags": [
+        "Quarterly",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RCT",
+      "company": "REEF CASINO TRUST",
+      "headline": "Supplementary Bidder's Statement",
+      "time": "2026-07-24T01:49:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113948-2A1685764",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A Supplementary Bidder's Statement signals the acquirer has materially updated its takeover offer terms or disclosure — investors should scrutinise whether this reflects a price revision, regulatory condition change, or a response to a target board recommendation, all of which carry direct valuation implications for RCT unitholders.",
+        "Reef Casino Trust operates a single-asset, high-cash-flow gaming and hospitality property in Cairns, making any bid revision particularly sensitive to the implied EV/EBITDA multiple versus comparable gaming asset transactions — any uplift in consideration would directly crystallise premium value for unitholders currently holding at a discount to intrinsic worth.",
+        "Next steps hinge on whether this supplementary statement extends the offer period, adjusts minimum acceptance thresholds, or addresses FIRB/regulatory hurdles — unitholders should assess the revised offer against the independent expert's valuation range before the acceptance deadline to avoid being locked into a suboptimal outcome."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SNL",
+      "company": "SUPPLY NETWORK LIMITED",
+      "headline": "FY2026 Full Year Market Update",
+      "time": "2026-07-24T01:33:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113944-2A1685762",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive FY2026 full-year update signals a material earnings event ahead of formal results — institutional investors should treat this as a potential guidance revision or performance flag that could reset consensus estimates in either direction.",
+        "Supply Network (SNL) has consistently delivered double-digit revenue growth driven by its heavy commercial vehicle parts distribution network; any quantified revenue or margin data in this update will be closely scrutinised against the ~$400M+ revenue trajectory and historically strong EBIT margins (~14-15%) the market has priced in.",
+        "With SNL trading at a premium multiple reflective of its defensive, recurring-revenue model, any deviation — positive or negative — from expected organic growth, working capital discipline, or network expansion progress could trigger a sharp re-rating; investors should monitor for commentary on inventory levels and new branch openings as leading indicators."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AT4",
       "company": "AMERICAN TUNGSTEN & ANTIMONY LTD",
