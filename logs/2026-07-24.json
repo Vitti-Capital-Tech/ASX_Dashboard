@@ -1,9 +1,68 @@
 {
   "date": "2026-07-24",
-  "total": 76,
-  "market_sensitive_count": 67,
-  "generated_at": "2026-07-24T00:09:01.843422+00:00",
+  "total": 79,
+  "market_sensitive_count": 70,
+  "generated_at": "2026-07-24T00:30:07.588200+00:00",
   "announcements": [
+    {
+      "ticker": "CTO",
+      "company": "CITIGOLD CORPORATION LIMITED",
+      "headline": "Update on Secured Loan Facility",
+      "time": "2026-07-24T00:24:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113910-2A1685745",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Secured loan facility update signals potential liquidity stress — for a junior gold explorer like Citigold, any amendment, extension, or breach of debt covenants is a critical red flag given typically thin cash buffers and limited revenue generation at this stage of development.",
+        "Market-sensitive classification elevates urgency: the ASX flagged this as price-sensitive, suggesting material changes to loan terms, drawdown capacity, or repayment obligations that could directly impact the company's ability to fund ongoing exploration and operational activities at the Charters Towers gold project.",
+        "Investors should scrutinise whether this update reflects a refinancing/extension (modestly positive for runway) or a default/acceleration scenario (severely negative) — near-term share price direction hinges entirely on the specific terms disclosed, with dilutive equity raises a likely consequence if the debt position has deteriorated."
+      ],
+      "tags": [
+        "Finance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "OEC",
+      "company": "ORBITAL CORPORATION LIMITED",
+      "headline": "AATI flight trials commence and additional orders received",
+      "time": "2026-07-24T00:16:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113904-6A1335270",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of AATI (Advanced Aerial Target Integration) flight trials marks a critical de-risking milestone — moving from development to operational validation materially increases the probability of contract conversion and reduces technical execution risk for institutional investors monitoring program progress.",
+        "Additional orders received alongside trial commencement signals early commercial traction and customer confidence ahead of full program qualification, providing a near-term revenue catalyst and improving near-term cash flow visibility for a company where order flow is a key valuation driver.",
+        "The dual catalyst of trial initiation and incremental order intake positions Orbital for potential contract escalation or follow-on procurement announcements in coming quarters — investors should monitor trial outcomes and any defence customer disclosures as leading indicators of program scale-up."
+      ],
+      "tags": [
+        "Technology",
+        "Production",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BRN",
+      "company": "BRAINCHIP HOLDINGS LTD",
+      "headline": "Expiration of LDA Put Option Agreement",
+      "time": "2026-07-24T00:14:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03113903-2A1685744",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The expiration of the LDA (Lincoln Park or similar drawdown facility) Put Option Agreement removes a structural overhang on BRN's share register — put option arrangements typically allow counterparties to sell shares back to the company or draw down capital in ways that create dilutive pressure, so expiration without exercise is a net positive for existing shareholders.",
+        "Critically, if the facility expired unexercised, it signals BRN did not need to tap this funding mechanism, suggesting the company either has sufficient cash runway from existing reserves or chose to avoid the dilutive cost — investors should cross-reference against the most recent quarterly cash balance to assess true runway comfort.",
+        "Near-term focus shifts to whether BRN will seek a replacement capital facility or pursue alternative funding pathways; with the AI/neuromorphic chip sector under ongoing investor scrutiny, management's next capital strategy move will be a key signal of confidence in near-term commercialisation milestones and revenue generation from the Akida platform."
+      ],
+      "tags": [
+        "Technology",
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "IRI",
       "company": "INTEGRATED RESEARCH LIMITED",
