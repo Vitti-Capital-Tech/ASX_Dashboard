@@ -1,9 +1,199 @@
 {
   "date": "2026-07-27",
-  "total": 76,
-  "market_sensitive_count": 68,
-  "generated_at": "2026-07-26T23:11:38.412086+00:00",
+  "total": 86,
+  "market_sensitive_count": 78,
+  "generated_at": "2026-07-26T23:21:23.581009+00:00",
   "announcements": [
+    {
+      "ticker": "AFI",
+      "company": "AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
+      "headline": "Preliminary Final Results",
+      "time": "2026-07-26T23:19:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114301-3A697637",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "AFIC's preliminary final results carry significant weight as a bellwether for Australian equity market health — as one of the largest LICs by market cap (~$9B), its portfolio performance and NTA movement directly signal broad ASX blue-chip momentum and dividend sustainability across its ~140,000 retail and institutional shareholders.",
+        "Key metrics to watch include full-year dividend declaration (historically fully franked, providing critical yield signal), NTA per share versus share price premium/discount, and underlying portfolio return versus the S&P/ASX 200 Accumulation Index benchmark — any compression in franking capacity or NTA underperformance would be a material negative.",
+        "With Australian interest rates at elevated levels and equity valuations under pressure, AFIC's asset allocation shifts, cash weighting, and commentary on portfolio positioning will be closely scrutinised as a forward indicator — any reduction in dividend or cautious outlook language could trigger sector-wide LIC re-rating risk."
+      ],
+      "tags": [
+        "Results",
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SNT",
+      "company": "SYNTARA LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-26T23:18:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114300-2A1685910",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watchpoint — as a pre-revenue clinical-stage biotech, Syntara's quarterly burn rate and closing cash balance will determine whether a near-term capital raise is necessary, with investors scrutinising whether the company has sufficient funds to reach its next clinical milestone without dilutive equity issuance.",
+        "Operating cash outflows relative to prior quarters signal the pace of clinical spend — any acceleration in R&D expenditure could indicate advancing trial activity (positive for pipeline progress) but simultaneously compresses runway, creating a binary risk/reward dynamic typical of small-cap ASX healthcare names.",
+        "Near-term catalysts hinge on pipeline execution — investors should monitor any commentary on SNT-5505 or other program timelines alongside the cash position, as a sub-12-month runway without a clear funding pathway would likely trigger a re-rating event and potential placement, while a comfortable cash buffer extends optionality into data readouts."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "G50",
+      "company": "G50 CORP LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-26T23:17:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114299-2A1685908",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "G50 Corp Limited has entered a trading halt, suspending price discovery and liquidity for investors — the halt is classified as market sensitive, signalling a material corporate event is imminent rather than routine administrative action.",
+        "Trading halts of this nature on smaller ASX-listed entities most commonly precede a capital raise, M&A transaction, or significant asset/operational announcement; the market-sensitive designation elevates the probability of a value-moving disclosure requiring regulatory compliance before trading resumes.",
+        "Investors should monitor for the lifting of the halt — typically within two trading days under ASX Listing Rules — at which point the nature of the announcement will determine directional bias; positioning ahead of resumption carries elevated binary risk given the absence of disclosed details."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AON",
+      "company": "APOLLO MINERALS LIMITED",
+      "headline": "Couflens Update",
+      "time": "2026-07-26T23:15:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114297-6A1335464",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Apollo Minerals has released a market-sensitive update on its Couflens project in the French Pyrenees, signalling a potentially material development at this high-grade tungsten-gold asset — the nature of which (drill results, permitting milestone, or partnership) will be the key price catalyst to assess upon full document review.",
+        "Couflens hosts one of Europe's most strategically significant tungsten deposits at a time when critical minerals supply chains are under geopolitical scrutiny; any positive resource or development update carries outsized re-rating potential given tungsten's classification as a critical mineral by the EU and US.",
+        "Investors should monitor whether this update advances the project toward a resource upgrade, environmental permitting decision, or offtake/JV discussions — each representing a distinct de-risking milestone that could materially shift the project's NPV and Apollo's market capitalisation from its current small-cap base."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TOR",
+      "company": "TORQUE METALS LIMITED..",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-26T23:13:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114294-6A1335485",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — junior explorers at this stage typically carry 1-2 quarters of operating cash, and any burn rate exceeding A$1M/quarter without a near-term capital raise or resource milestone would signal elevated dilution risk for existing shareholders.",
+        "Exploration activity at the Paris Gold Project in Western Australia remains the core value driver; any reported drilling results, resource estimate progress, or geophysical survey completions this quarter will be key indicators of whether the company is advancing toward a maiden or updated JORC resource that could re-rate the stock.",
+        "With no production revenue, Torque Metals is entirely dependent on capital markets for funding — investors should scrutinise the Appendix 5B closely for net cash used in operating and investing activities, current cash balance, and any disclosed commitments or planned expenditure to assess whether a near-term equity raise is likely before the next quarterly."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BOT",
+      "company": "BOTANIX PHARMACEUTICALS LTD",
+      "headline": "Botanix Quarterly Activities Report and Appendix 4C Q4 FY26",
+      "time": "2026-07-26T23:12:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114290-6A1335482",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — Botanix's burn rate and closing cash balance will determine whether a near-term capital raise is required ahead of anticipated commercialisation of SOFDRA (sofpironium bromide), its FDA-approved hyperhidrosis treatment launched in the US market.",
+        "Revenue ramp from SOFDRA US commercial launch is the key earnings inflection point; any disclosed net product revenue figures or prescription volume data in this quarterly will signal whether the commercial trajectory justifies current market capitalisation and deferred profitability assumptions.",
+        "Pipeline progress updates on BTX 1503 (acne) and other synthetic cannabidiol dermatology assets will be closely watched by institutional investors as secondary catalysts, with any Phase 2/3 trial milestones or partnering discussions potentially re-rating the stock beyond the near-term SOFDRA commercialisation story."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACE",
+      "company": "ACUSENSUS LIMITED.",
+      "headline": "Mobile Phone and Seatbelt Tech.Contract Extension in QLD",
+      "time": "2026-07-26T23:10:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114286-2A1685904",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Contract extension with Queensland government validates Acusensus's incumbent position in road safety enforcement technology, reducing near-term revenue attrition risk and providing predictable recurring cash flows — a critical de-risking signal for a growth-stage tech company.",
+        "The QLD renewal reinforces the company's land-and-expand strategy across Australian jurisdictions; with existing deployments in NSW, VIC, and internationally, contract retention metrics will be closely watched by investors as a proxy for platform stickiness and competitive moat against emerging rivals.",
+        "Near-term focus shifts to contract value disclosure and duration terms — if the extension materially extends beyond 12 months or includes expanded scope (e.g., additional camera deployments or AI analytics modules), this could trigger upward revision to consensus revenue forecasts and support re-rating of the stock."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FAL",
+      "company": "FALCON METALS LTD",
+      "headline": "Green Light for Drilling at Errabiddy Gold Project",
+      "time": "2026-07-26T23:10:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114285-6A1335480",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Regulatory green light removes a key de-risking hurdle for Errabiddy, allowing Falcon Metals to advance its Western Australian gold project to the drill-bit stage — a critical value-inflection point for early-stage explorers where market re-rating potential is highest.",
+        "The market-sensitive classification signals management views drill commencement as a material catalyst; with gold trading near all-time highs above US$2,300/oz, any meaningful intercepts at Errabiddy could attract outsized investor and potential acquirer attention relative to Falcon's current market cap.",
+        "Near-term focus shifts to drill program design, timing, and depth targets — investors should monitor for assay results and whether Errabiddy's geology aligns with analogous Western Australian orogenic gold systems, which could underpin a resource estimate and justify further capital allocation."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IMI",
+      "company": "INFINITY MINING LIMITED",
+      "headline": "High-grade antimony-gold anomaly outlined over 500m in Vic.",
+      "time": "2026-07-26T23:09:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114283-6A1335481",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 500-metre antimony-gold anomaly is a materially significant discovery footprint for an early-stage explorer — antimony's strategic-metal status (critical mineral listings in Australia, US, and EU) adds a geopolitical premium to any resource delineation, potentially attracting government grants or strategic investor interest beyond typical gold plays.",
+        "High-grade characterisation of the anomaly is the key qualifier here; if assay results confirm grades consistent with economic antimony-gold deposits (typically >1% Sb and >1g/t Au), this could rapidly re-rate the company's exploration asset base, which is currently likely carrying minimal market value given its junior status.",
+        "Immediate next steps to watch include follow-up RC or diamond drilling to test depth continuity and convert the surface anomaly into a JORC-compliant resource — the speed and scale of that drill programme will be the critical catalyst determining whether this announcement translates into sustained share price momentum or fades as a one-hit news event."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PL3",
+      "company": "PATAGONIA LITHIUM LTD",
+      "headline": "Outstanding Packer Flow Rates at Cilon Well 8",
+      "time": "2026-07-26T23:09:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114281-3A697635",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Outstanding packer flow rates at Cilon Well 8 represent a technically significant de-risking milestone for Patagonia Lithium's brine resource, as strong aquifer flow rates are a critical precursor to demonstrating commercial-scale lithium extraction viability in Patagonia's Argentinian salar assets.",
+        "The market-sensitive classification signals management believes these results materially re-rate the project's development timeline and resource confidence — elevated flow rates directly improve projected lithium recovery economics and reduce the capital intensity of future production infrastructure.",
+        "Near-term catalysts to watch include updated resource estimates or maiden JORC resource upgrades underpinned by this flow data, potential farm-in or JV interest from larger lithium producers seeking proven brine assets, and progression toward a Preliminary Feasibility Study — all of which could serve as further re-rating events for this early-stage explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "BB1",
       "company": "BLINKLAB LIMITED",
