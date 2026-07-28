@@ -1,9 +1,165 @@
 {
   "date": "2026-07-28",
-  "total": 150,
-  "market_sensitive_count": 142,
-  "generated_at": "2026-07-28T01:34:39.279755+00:00",
+  "total": 158,
+  "market_sensitive_count": 147,
+  "generated_at": "2026-07-28T03:04:46.214610+00:00",
   "announcements": [
+    {
+      "ticker": "CND",
+      "company": "CONDOR ENERGY LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-07-28T02:26:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114872-6A1335742",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Condor Energy Limited, crossing the 5% ownership threshold — a key signal that a sophisticated investor has taken a meaningful strategic or speculative position in the company.",
+        "The identity, acquisition price, and total consideration paid by the substantial holder will be critical to assess whether this represents accumulation at a discount or a premium to market, and whether the stake was built quietly over time or acquired in a single block.",
+        "Investors should monitor for follow-on disclosures — a rising substantial holder position can be a precursor to board representation requests, a takeover approach, or simply reflects growing conviction in Condor Energy's asset base or upcoming catalysts in the energy sector."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SIS",
+      "company": "SIMBLE SOLUTIONS LIMITED",
+      "headline": "Appendix 4C and Quarterly Activities Report - updated",
+      "time": "2026-07-28T02:22:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114871-2A1686276",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "The 'updated' designation on this Appendix 4C filing is a red flag requiring scrutiny — restatements or corrections to quarterly cash flow reports can signal errors in prior disclosures, potentially affecting reported receipts, payments, or cash runway figures that institutional investors rely upon.",
+        "For a micro-cap technology company like Simble Solutions, cash runway is the critical metric — any downward revision to customer receipts or upward revision to operating cash outflows could materially shorten the runway and accelerate the need for dilutive capital raising.",
+        "Investors should cross-reference the updated 4C against the original filing to isolate the specific line items amended; if the revision touches revenue receipts or staff/administration costs, it may trigger reassessment of the company's path to cash flow breakeven and near-term funding requirements."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SDF",
+      "company": "STEADFAST GROUP LIMITED",
+      "headline": "Ceasing to be a substantial holder from CBA",
+      "time": "2026-07-28T02:00:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114869-2A1686274",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Commonwealth Bank of Australia has fallen below the 5% substantial holder threshold in Steadfast Group (SDF), triggering a mandatory disclosure — this signals a meaningful reduction in CBA's equity position in one of Australia's largest insurance broking networks.",
+        "The exit or reduction by a major institutional holder like CBA can introduce near-term selling pressure and may reflect portfolio rebalancing or a strategic reassessment of the financial services/insurance sector weighting, rather than a company-specific negative signal.",
+        "Investors should monitor the register for any corresponding increase by other institutional players, as CBA's departure could create an opportunity for new substantial holders to accumulate — the stock's liquidity and index weighting make it an attractive target for reallocation by other large funds."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BKI",
+      "company": "BKI INVESTMENT COMPANY LIMITED",
+      "headline": "BKI Investor Presentation - 2026 Full Year Results",
+      "time": "2026-07-28T01:46:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114864-2A1686271",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive FY2026 full-year results presentation signals material portfolio or earnings developments at BKI, a listed investment company managing ~$1.1B in ASX equities — any deviation from prior dividend guidance or NTA trajectory will be closely scrutinised by income-focused retail and institutional holders.",
+        "As a LIC, key metrics to watch include after-tax NTA per share movement, portfolio total return versus benchmark, and the sustainability of fully franked dividends — BKI has historically prioritised consistent dividend income, making any payout change a high-impact signal for yield-seeking investors.",
+        "The investor presentation format suggests management is actively engaging shareholders on portfolio positioning and capital allocation strategy; watch for commentary on sector rotation, cash weighting, and whether the dividend reserve (profit reserve buffer) has been maintained or drawn upon to sustain distributions."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BKI",
+      "company": "BKI INVESTMENT COMPANY LIMITED",
+      "headline": "BKI Announces 2026 Full Year Results",
+      "time": "2026-07-28T01:44:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114863-2A1686269",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Full-year results announcement carries market-sensitive designation, signalling material financial outcomes that could meaningfully move BKI's share price — investors should scrutinise NTA performance, dividend sustainability, and portfolio composition relative to prior year benchmarks.",
+        "As a Listed Investment Company (LIC), the key metrics to watch are after-tax NTA per share movement, operating profit after tax, and the fully franked dividend per share — any compression in NTA or dividend cut would be a significant negative signal for income-focused retail and institutional holders.",
+        "BKI's FY2026 results will set the tone for its upcoming dividend declaration and franking credit distribution; given the current high-yield investor demand environment on the ASX, maintaining or growing the dividend would reinforce the investment case and support the share price trading at or near NTA."
+      ],
+      "tags": [
+        "Results",
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NMT",
+      "company": "NEOMETALS LTD",
+      "headline": "Further Update on Settlement of Tranche 2 Placement",
+      "time": "2026-07-28T01:37:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114859-6A1335739",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Tranche 2 settlement delay signals ongoing regulatory or shareholder approval complexity, introducing execution risk and prolonging the period of capital uncertainty on the balance sheet — a concern for investors monitoring NMT's cash position against its lithium recycling and vanadium project expenditure timelines.",
+        "The 'further update' language implies this is at least a second notification of settlement friction, suggesting the placement process has encountered repeated hurdles; institutional investors should scrutinise whether the delay reflects cooling demand from placees or administrative/ASIC/ASX compliance issues that could affect final proceeds.",
+        "Until Tranche 2 funds are formally received and confirmed, NMT's available working capital and project development capacity remain constrained — investors should watch for a final settlement confirmation announcement as the key catalyst to re-establish a clean capital structure and restore forward guidance credibility."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BKI",
+      "company": "BKI INVESTMENT COMPANY LIMITED",
+      "headline": "BKI Dividend Reinvestment Plan Suspension",
+      "time": "2026-07-28T01:33:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114857-2A1686265",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "BKI has suspended its Dividend Reinvestment Plan (DRP), meaning all upcoming dividend distributions will be paid entirely in cash — removing the dilutive share issuance mechanism that typically suppresses per-share NAV growth for existing holders.",
+        "The suspension signals management's assessment that issuing new shares at current market prices is not in shareholders' best interests, implying the stock may be trading at or below intrinsic NAV — a subtle but meaningful valuation signal from the board.",
+        "For income-focused institutional holders, the shift to 100% cash dividends improves yield certainty and eliminates reinvestment-price risk; however, investors who relied on the DRP for automatic compounding will need to reinvest dividends manually, potentially increasing transaction costs and tax friction."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BKI",
+      "company": "BKI INVESTMENT COMPANY LIMITED",
+      "headline": "BKI FY26 Preliminary Final Report and Annual Report",
+      "time": "2026-07-28T01:33:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03114856-2A1686264",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "BKI's FY26 Preliminary Final Report marks a key accountability moment for this LIC — investors should scrutinise net tangible asset (NTA) per share movement and whether the portfolio has kept pace with the broader ASX, as persistent NTA discounts remain a structural overhang for the sector.",
+        "Dividend sustainability is the critical metric to watch: BKI has historically prioritised fully franked income distributions, so any change to payout levels or franking credit reserves will directly signal portfolio income health and management's confidence in recurring earnings from its blue-chip equity holdings.",
+        "With LICs facing ongoing pressure from activist shareholders and board accountability campaigns, the annual report's commentary on capital management strategy — including any share buyback activity or discount-narrowing initiatives — will be pivotal in determining near-term investor appetite and re-rating potential."
+      ],
+      "tags": [
+        "Results",
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EME",
       "company": "ENERGY METALS LTD",
