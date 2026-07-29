@@ -1,9 +1,143 @@
 {
   "date": "2026-07-29",
-  "total": 216,
-  "market_sensitive_count": 213,
-  "generated_at": "2026-07-29T01:35:55.634229+00:00",
+  "total": 223,
+  "market_sensitive_count": 219,
+  "generated_at": "2026-07-29T03:04:20.878985+00:00",
   "announcements": [
+    {
+      "ticker": "BMC",
+      "company": "BMC MINERALS LTD.",
+      "headline": "June 2026 Quarterly Activities Report",
+      "time": "2026-07-29T03:01:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115398-6A1336014",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Market-sensitive classification signals material developments within the June 2026 quarter — investors should scrutinise cash burn rate, exploration milestones, and any resource estimate updates that could re-rate the stock given BMC Minerals' early-stage profile.",
+        "As a minerals explorer on the ASX, the critical metrics to watch are quarterly cash outflows versus cash on hand — any deterioration in runway below 2 quarters without a flagged capital raise would represent a near-term liquidity risk and potential dilution overhang.",
+        "Next catalysts hinge on whether the quarterly discloses drill results, feasibility study progress, or binding offtake/JV agreements; absence of these milestones against peer activity could weigh on sentiment and widen the discount to net asset value."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMC",
+      "company": "BMC MINERALS LTD.",
+      "headline": "June 2026 Appendix 5B - Quarterly Cash Flow Report",
+      "time": "2026-07-29T02:57:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115396-6A1336013",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a minerals explorer, BMC Minerals' quarterly burn rate and closing cash balance will determine how many quarters of operational life remain before a capital raise becomes necessary, making this filing market-sensitive for liquidity risk assessment.",
+        "Exploration and staff cost trajectory matters: any material increase in cash used in operating or investing activities quarter-on-quarter signals accelerating spend ahead of a potential resource milestone, while a reduction may indicate project delays or cost-cutting that could defer catalysts.",
+        "Near-term funding risk is the key forward indicator — if closing cash falls below ~2 quarters of burn, institutional investors should anticipate an equity raise or strategic partnership announcement, which would likely be dilutive; conversely, a strong cash position buys optionality and de-risks the exploration timeline."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAP",
+      "company": "AUSTRALIAN AGRICULTURAL PROJECTS LIMITED",
+      "headline": "Quarterly Update and Appendix 4C - June 2026",
+      "time": "2026-07-29T02:09:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115388-6A1336009",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue or early-stage agricultural project operator, the Appendix 4C will reveal net operating cash outflows and whether AAP has sufficient liquidity to fund operations through the next development phase without requiring near-term equity dilution.",
+        "Revenue and receipts from customers will indicate whether any commercial harvests, offtake agreements, or project monetisation milestones have been achieved in the June quarter, providing the first hard evidence of whether the agricultural assets are transitioning from capital-consumption to cash-generation.",
+        "Investors should scrutinise any guidance on capital expenditure commitments, project timelines, and whether management has flagged the need for additional funding rounds — the market-sensitive classification suggests material information that could meaningfully re-rate the stock in either direction."
+      ],
+      "tags": [
+        "Quarterly",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADR",
+      "company": "ADHERIUM LIMITED",
+      "headline": "Adherium Announces CEO Transition",
+      "time": "2026-07-29T02:06:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115387-3A697820",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Leadership continuity risk flagged as market-sensitive — CEO transitions at micro-cap MedTech companies like Adherium (ADR) historically elevate execution uncertainty, particularly given the company's ongoing commercialisation challenges with its smart inhaler platform and limited cash reserves.",
+        "Investor focus will immediately shift to the outgoing CEO's tenure record — Adherium has struggled to achieve meaningful revenue scale or profitability, and the transition raises questions about whether the change is strategic repositioning or a response to underperformance against commercial milestones.",
+        "Key near-term watch points: identity and background of incoming CEO (operational vs. commercial profile), any changes to strategic direction or partnership pipeline, and whether the transition triggers any covenant or agreement clauses with key partners such as GSK — details critical to assessing downside risk."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SLB",
+      "company": "STELAR METALS LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-07-29T01:48:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115382-6A1336004",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has crossed the 5% ownership threshold in Stelar Metals Limited, triggering mandatory disclosure obligations under the Corporations Act — signalling meaningful accumulation activity in what remains a thinly traded junior explorer.",
+        "The identity, total voting power, and average acquisition cost of the incoming substantial holder are critical details to assess whether this represents strategic cornerstone positioning or passive index/fund accumulation, with either scenario potentially tightening the available free float.",
+        "For a small-cap metals explorer, substantial holder notices can act as a sentiment catalyst — institutional or sophisticated investor conviction at this stage of the company's development may attract follow-on interest, though investors should monitor for any associated placement or board engagement that could signal a deeper strategic agenda."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CAY",
+      "company": "CANYON RESOURCES LIMITED",
+      "headline": "Off-market takeover bid - Bidder's statement",
+      "time": "2026-07-29T01:45:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115381-6A1336003",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "An off-market takeover bid has been launched for Canyon Resources (CAY), triggering a formal Bidder's Statement — the most significant corporate event for shareholders, as it sets binding offer terms including price, conditions, and minimum acceptance thresholds that will determine deal viability.",
+        "The market-sensitive classification signals material price impact; without disclosed offer price details, the key valuation benchmark will be the premium offered relative to CAY's last traded price and its Mandabe bauxite project NPV — any sub-premium or highly conditional bid risks rejection and share price weakness.",
+        "Shareholders and the CAY board now enter a statutory response window (typically 14 days for a Target's Statement); institutional investors should monitor acceptance conditions — particularly any 'defeating conditions' around regulatory approvals or minimum acceptance levels — as these represent the primary deal-break risks before any value is realised."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RC1",
+      "company": "REDCASTLE RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-29T01:37:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115379-6A1336002",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point for Redcastle Resources — as a junior explorer with no revenue, the Appendix 5B will reveal whether the company has sufficient funds to sustain operations beyond the next 1-2 quarters without an imminent capital raise, which would be dilutive to existing shareholders.",
+        "Exploration expenditure levels disclosed in the 5B will indicate the pace of activity on its gold and base metals tenements in Victoria; any material reduction in spend quarter-on-quarter would signal a pullback in field programs and potentially delay newsflow catalysts that underpin speculative valuation.",
+        "With the report flagged as market sensitive, investors should scrutinise the closing cash balance and any commentary on upcoming milestones — if cash falls below ~A$500K without a financing solution disclosed, the company faces near-term funding pressure that could trigger a placement or rights issue in the coming quarter."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "BDC",
       "company": "MUZINICH BDC INCOME FUND - ACTIVE ETF",
