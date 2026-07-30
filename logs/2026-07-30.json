@@ -1,9 +1,86 @@
 {
   "date": "2026-07-30",
-  "total": 212,
-  "market_sensitive_count": 207,
-  "generated_at": "2026-07-30T00:12:33.320602+00:00",
+  "total": 216,
+  "market_sensitive_count": 210,
+  "generated_at": "2026-07-30T00:30:42.538901+00:00",
   "announcements": [
+    {
+      "ticker": "DWG",
+      "company": "DATAWORKS GROUP LIMITED",
+      "headline": "Appendix 4C & Quarterly Activities Report",
+      "time": "2026-07-30T00:17:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115880-6A1336273",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash position and burn rate are the critical metrics to watch — as a small-cap tech company filing a market-sensitive 4C, any deterioration in operating cash outflows or a cash runway below 2 quarters would signal near-term capital raise risk and pressure on the share price.",
+        "Revenue trajectory and customer receipts versus prior quarter will determine whether DataWorks is achieving commercial traction in its data management/analytics solutions — flat or declining receipts in a market-sensitive filing typically signals a material miss against growth expectations.",
+        "Forward outlook commentary on pipeline conversion, contract wins, or cost reduction initiatives will be key for institutional investors assessing whether management can extend runway organically or whether dilutive equity issuance is imminent to fund operations."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AN1",
+      "company": "ANAGENICS LIMITED",
+      "headline": "Appendix 4C & Activity Report for Q4 FY2026",
+      "time": "2026-07-30T00:17:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115879-2A1686650",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue or early-revenue biotech, Anagenics' Q4 Appendix 4C will reveal net operating cash burn rate and whether the company holds sufficient liquidity to fund operations through the next 12 months without a dilutive capital raise.",
+        "Revenue trajectory and receipts from customers will indicate whether Anagenics' commercial pipeline (likely nutraceutical or longevity-focused products given its brand positioning) is gaining traction, with any quarter-on-quarter growth in customer receipts a meaningful positive signal for the investment thesis.",
+        "The Activity Report narrative will be scrutinised for updates on product development milestones, distribution partnerships, or regulatory progress — any guidance on FY2027 commercialisation timelines or cost reduction initiatives will be key catalysts for near-term re-rating."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZNC",
+      "company": "ZENITH MINERALS LIMITED",
+      "headline": "Change in substantial holding from FRS",
+      "time": "2026-07-30T00:16:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115878-6A1336272",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "FRS (likely a fund or substantial holder) has altered its position in Zenith Minerals, triggering a formal substantial holding disclosure — the direction of change (increase or decrease) is critical to assessing whether smart money is accumulating or exiting this junior explorer.",
+        "Substantial holder movements in small-cap ASX miners like Zenith often signal shifts in institutional conviction; a reduction by FRS could compress liquidity and weigh on near-term price support, while an increase would indicate renewed confidence in the company's exploration pipeline.",
+        "Investors should monitor subsequent 604/603 filings and any accompanying on-market activity to determine if this represents a strategic repositioning or passive drift through dilution events such as placements or rights issues — context around Zenith's current cash position and upcoming drilling catalysts will be key to interpreting intent."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LIT",
+      "company": "LIVIUM LTD",
+      "headline": "Quarterly Activities & Cashflow Report - June 2026 (Q4FY26)",
+      "time": "2026-07-30T00:12:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115877-6A1336271",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue lithium-focused explorer/developer, Q4 cash outflows and closing cash balance will determine whether a near-term capital raise is inevitable, with any sub-$2M cash position signalling imminent dilution risk for existing shareholders.",
+        "Operational progress metrics — including any drilling results, resource estimate updates, or offtake/partnership developments disclosed in the quarter — will be the key valuation catalyst, given Livium's stage-of-development profile and the broader lithium market's sensitivity to project advancement milestones.",
+        "The Q4 FY26 report sets the baseline for FY27 planning; investors should scrutinise any guidance on upcoming expenditure commitments, permitting timelines, or strategic reviews, as the depressed lithium price environment continues to pressure junior developers to either accelerate to production or seek M&A outcomes."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "LIT",
       "company": "LIVIUM LTD",
