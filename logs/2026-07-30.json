@@ -1,9 +1,371 @@
 {
   "date": "2026-07-30",
-  "total": 216,
-  "market_sensitive_count": 210,
-  "generated_at": "2026-07-30T00:30:42.538901+00:00",
+  "total": 235,
+  "market_sensitive_count": 226,
+  "generated_at": "2026-07-30T01:36:38.379793+00:00",
   "announcements": [
+    {
+      "ticker": "CTQ",
+      "company": "CARETEQ LIMITED",
+      "headline": "CTQ Q4-FY26 Activities Report & Appendix 4C",
+      "time": "2026-07-30T01:31:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115908-2A1686662",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue or early-revenue aged-care tech company, the Appendix 4C will reveal whether CTQ has sufficient liquidity to fund operations without an imminent capital raise, with any cash balance below ~2 quarters of burn a red flag for dilution risk.",
+        "Revenue trajectory and customer acquisition metrics for CareTeq's platform (targeting aged care providers) will determine whether the company is converting its pipeline into recurring contract revenue, a key de-risking milestone that institutional investors require before meaningful re-rating.",
+        "Forward guidance on product deployment timelines and any commentary on aged-care sector tailwinds — particularly post-Royal Commission regulatory reforms driving technology adoption — will set the tone for FY27 expectations and whether management can credibly accelerate commercialisation."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "Directors' Statement re Takeover",
+      "time": "2026-07-30T01:31:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115907-2A1686661",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "The Board of Kip McGrath Education Centres (KME) has issued a formal Directors' Statement in response to a takeover bid, a market-sensitive disclosure that signals the company is now formally in play — a critical inflection point for shareholders evaluating whether to accept, reject, or await a competing offer.",
+        "The nature of the Board's recommendation (whether supportive, opposed, or recommending shareholders take no action pending further review) will be the key valuation driver; a 'recommend acceptance' stance typically implies the offer price represents fair value or a premium, while opposition may signal the Board believes intrinsic value exceeds the bid price.",
+        "Institutional investors should monitor for a Target's Statement filing (required within 15 business days under the Corporations Act), any independent expert report on fairness and reasonableness, and the potential for a competing bidder to emerge — all of which could materially influence the final acquisition price and deal outcome."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DCC",
+      "company": "DIGITALX LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-07-30T01:30:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115906-6A1336288",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in DigitalX Limited, signalling meaningful accumulation by an institutional or sophisticated investor crossing the 5% ownership threshold — a notable vote of confidence in a crypto-focused ASX-listed technology company.",
+        "The timing of this substantial holding notice warrants scrutiny against DigitalX's recent Bitcoin treasury strategy and asset management business trajectory; large-scale buying at current levels may reflect conviction on digital asset tailwinds or anticipated corporate activity.",
+        "Investors should monitor whether this new substantial holder is a passive accumulator or a strategic participant — any subsequent Form 604 (change in substantial holding) or board engagement could signal activist intent or precursor to M&A activity in the digital assets space."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ZMM",
+      "company": "ZIMI LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-30T01:30:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115905-6A1336289",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item for ZIMI — as a micro-cap technology company, the Appendix 4C will reveal whether operating cash burn is accelerating or moderating, with any sub-2-quarter runway likely to trigger near-term capital raise concerns and significant dilution risk.",
+        "Revenue trajectory and customer receipts will be scrutinised for evidence that ZIMI's cloud/SaaS or managed services offerings are gaining commercial traction — flat or declining receipts against persistent operating outflows would signal a deteriorating path to breakeven and undermine the investment thesis.",
+        "The market-sensitive flag elevates this filing above routine disclosure — investors should watch for any guidance updates, material contract wins or losses, or changes to the company's cash position that deviate materially from prior quarter trends, as these could act as near-term catalysts in either direction."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KTA",
+      "company": "KRAKATOA RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T01:24:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115903-6A1336287",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — junior explorer Krakatoa Resources typically operates with minimal revenue, making the Appendix 5B cash burn rate and remaining cash balance the primary indicators of near-term dilution risk or capital raise necessity.",
+        "Quarterly exploration expenditure and any disclosed drilling or assay results will determine whether the company is advancing its resource definition meaningfully, with market-sensitive classification suggesting potentially material operational or financial developments warranting close scrutiny.",
+        "Investors should monitor for any updated guidance on upcoming catalysts — including drill programs, resource estimates, or strategic partnerships — as these will be the key re-rating triggers for this small-cap explorer in the absence of production revenue."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IG6",
+      "company": "INTERNATIONAL GRAPHITE LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T01:22:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115901-6A1336285",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue graphite developer, International Graphite's Appendix 5B will reveal net operating cash burn rate and remaining cash reserves, with any runway below 2 quarters likely to trigger near-term capital raise concerns and share price pressure.",
+        "Operational progress at the Springdale graphite project and downstream micronisation/coating facility in Collie, WA will be scrutinised for any milestone advancement, offtake discussions, or grant funding receipts that could de-risk the path to first production and validate the company's battery anode material strategy.",
+        "With the global graphite supply chain under geopolitical pressure following China's export restrictions on graphite, any update on strategic partnerships, government funding (e.g. ARENA, CRF), or customer engagement will be key catalysts — failure to demonstrate commercial traction in this environment would be a missed opportunity given the favourable macro backdrop."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "T92",
+      "company": "TERRA CRITICAL MINERALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T01:21:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115900-6A1336286",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as an early-stage critical minerals explorer, Terra's Appendix 5B will reveal quarterly burn rate and remaining cash reserves, with any sub-2-quarter runway signalling imminent capital raise risk and near-term dilution pressure for existing shareholders.",
+        "Operational progress across critical minerals assets (likely rare earths, lithium, or similar battery/defence materials) will be scrutinised for drill results, resource estimate advancement, or permitting milestones that could validate or challenge the company's exploration thesis and market capitalisation.",
+        "The 'market sensitive' designation elevates this beyond a routine quarterly filing — investors should watch for material updates on project partnerships, offtake discussions, or government grant funding that could serve as near-term re-rating catalysts in the increasingly competitive ASX critical minerals space."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CXU",
+      "company": "CAULDRON ENERGY LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T01:11:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115898-6A1336283",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item for this micro-cap explorer — Cauldron Energy typically operates with minimal revenue, making the Appendix 5B cash burn rate and closing cash balance the primary indicators of near-term dilution risk and operational continuity.",
+        "Quarterly exploration expenditure and any disclosed drilling or resource update activity will determine whether the company is advancing its uranium/energy asset portfolio toward a meaningful catalyst, or simply maintaining holding costs with limited newsflow.",
+        "With no disclosed revenue-generating operations, the next steps hinge entirely on capital management — investors should scrutinise any planned capital raises, incoming farm-in proceeds, or partner funding arrangements that could extend runway without further equity dilution."
+      ],
+      "tags": [
+        "Quarterly",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TSR",
+      "company": "TURNSTONE RESOURCES LTD",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T01:07:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115897-6A1336281",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue explorer, Turnstone's Appendix 5B will reveal net operating cash outflows and remaining cash reserves, with any balance below ~$500K signalling imminent capital raise risk and potential dilution for existing shareholders.",
+        "Quarterly exploration expenditure and any updates on key project milestones (drilling results, resource estimates, or permit approvals) will determine whether the company is deploying capital productively or burning cash without near-term catalysts to justify current market capitalisation.",
+        "The market-sensitive flag elevates this beyond a routine filing — investors should scrutinise any disclosure of material exploration results, farm-in agreements, or strategic partnerships that could re-rate the stock, while also watching for any going-concern language or commentary on upcoming funding requirements."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-07-30T01:03:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115896-2A1686658",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Kip McGrath Education Centres (KME), crossing the 5% ownership threshold — signalling meaningful institutional or strategic interest in the tutoring and education services operator.",
+        "The timing of this accumulation warrants scrutiny: substantial holder filings reflect market purchases at prevailing prices, implying the acquirer sees value at current levels and may have built the position quietly over time, potentially supporting the share price floor.",
+        "Investors should monitor for further Form 604 notices (changes in substantial holding) or any associated 13D-style strategic intent disclosures — a rising register concentration in a small-cap education stock can be a precursor to board engagement, M&A interest, or activist positioning."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "Takeover Offer for KME",
+      "time": "2026-07-30T01:03:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115895-2A1686657",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "A formal takeover offer has been lodged for Kip McGrath Education Centres (KME), representing a potential control event that typically triggers an immediate re-rating of the target toward the offer price — investors should watch for the bid price relative to last traded levels to assess premium and arbitrage opportunity.",
+        "KME operates a globally franchised tutoring network across Australia, NZ, UK, and South Africa; any acquirer is likely targeting the recurring franchise fee revenue stream, brand equity, and post-COVID structural tailwinds in supplementary education demand — deal rationale appears strategically sound.",
+        "Key next steps include the KME Board's formal recommendation (or rejection), release of a Target's Statement with independent expert valuation, and any potential competing bids — institutional holders should assess whether to accept, hold for a bump, or await the independent expert's fair value range before acting."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NX1",
+      "company": "NEXALIS THERAPEUTICS LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-07-30T01:02:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115894-3A697893",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a shift in the ownership structure of Nexalis Therapeutics, with a holder crossing or moving through the 5% threshold — warranting close attention to whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase vs. decrease) is critical: an increase in substantial holding could indicate growing institutional conviction in Nexalis's therapeutic pipeline, while a decrease may signal profit-taking or loss of confidence in near-term catalysts.",
+        "Investors should monitor subsequent 604/603 filings and any associated on-market trading patterns to determine if this represents a strategic positioning ahead of a potential capital raise, partnership announcement, or clinical milestone — common triggers for substantial holder movements in small-cap ASX healthcare names."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYP",
+      "company": "CYNATA THERAPEUTICS LIMITED",
+      "headline": "June 2026 Quarterly Activity Report & Appendix 4C",
+      "time": "2026-07-30T01:02:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115893-3A697894",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue clinical-stage biotech, Cynata's quarterly cash burn rate and remaining cash balance will determine whether a capital raise is imminent, with any runway below 2 quarters likely to trigger near-term dilution risk for existing shareholders.",
+        "Pipeline progress across its Cymerus MSC platform — particularly any updates on GvHD, osteoarthritis, or COVID-19 trial milestones — will be the primary valuation driver, with positive clinical readouts or partnership discussions representing the key upside catalyst embedded in this report.",
+        "Operational expenditure trends and any disclosed partnering or licensing activity will signal whether management is executing on its commercialisation strategy; absence of new deals or continued cash depletion without catalysts would reinforce a bearish near-term outlook for this micro-cap therapeutic."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RHI",
+      "company": "RED HILL MINERALS LIMITED",
+      "headline": "Quarterly Activities Report, Tenements and App5B Cash Flow",
+      "time": "2026-07-30T01:01:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115892-6A1336280",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a minerals explorer, Red Hill's App5B cash flow statement will reveal whether the company has sufficient liquidity to fund ongoing exploration without an imminent capital raise, with any sub-2-quarter runway a significant red flag for dilution risk.",
+        "Tenement activity and exploration expenditure disclosed in the quarterly will signal whether the company is advancing its project pipeline or in capital preservation mode — any reduction in drilling or field activity relative to prior quarters would indicate a strategic pullback under cash constraints.",
+        "The market-sensitive classification elevates this beyond a routine quarterly filing, suggesting material news — potentially a significant exploration result, tenement acquisition/relinquishment, or a notable change in cash position — that could act as a near-term catalyst or overhang depending on the substance of the disclosure."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZLD",
+      "company": "ZELIRA THERAPEUTICS LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-30T01:00:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115891-6A1336279",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue or early-revenue cannabis therapeutics company, the Appendix 4C will reveal whether ZLD has sufficient liquidity to fund operations beyond the next 1-2 quarters without requiring a dilutive capital raise, which has been a persistent risk for the stock.",
+        "Operating cash outflows and any receipts from customers will signal whether ZLD's commercial partnerships (including its US and Australian distribution arrangements) are generating meaningful traction, or whether the business remains heavily reliant on grant income and financing activities to sustain itself.",
+        "Any disclosure of reduced burn rate, new licensing milestones, or improved product revenues would be a near-term catalyst; conversely, a cash balance below ~A$2M with no flagged funding solution would likely trigger a selloff given the company's history of small capital raises at discounts to market price."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CVW",
+      "company": "CLEARVIEW WEALTH LIMITED",
+      "headline": "Court Approves Scheme",
+      "time": "2026-07-30T00:50:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115890-2A1686656",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Court approval of the scheme represents the critical final legal hurdle cleared, effectively locking in the transaction and removing deal-break risk for shareholders — the scheme is now binding and proceeding to implementation.",
+        "With court sanction secured, the scheme consideration becomes certain and payable to CVW shareholders on the implementation date, crystallising value and eliminating the uncertainty discount that typically weighs on target company share prices pre-approval.",
+        "Next steps centre on the scheme record date and implementation/payment date, after which CVW shares will be suspended from ASX trading — investors holding through implementation will receive cash consideration, while arbitrageurs should note minimal remaining spread opportunity post-approval."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TGH",
+      "company": "TERRAGEN HOLDINGS LIMITED",
+      "headline": "Appendix 4C - 30 June 2026",
+      "time": "2026-07-30T00:47:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115887-2A1686654",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cash runway is the critical watch point — as a market-sensitive Appendix 4C filing, investors should scrutinise closing cash balance and net operating cash outflows to determine whether Terragen faces near-term funding pressure or has sufficient runway to execute its growth strategy without dilutive capital raises.",
+        "Revenue and receipts trajectory will signal commercial traction — any quarter-on-quarter improvement in customer receipts from operations would validate Terragen's biological agricultural products gaining market adoption, while a deterioration would raise concerns about sales execution heading into FY27.",
+        "Guidance and commentary on upcoming catalysts — management's outlook section should be assessed for any indication of partnership developments, product pipeline milestones, or capital management intentions, as these will be key determinants of near-term re-rating potential for this small-cap agri-biotech."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CEL",
+      "company": "CHALLENGER GOLD LIMITED",
+      "headline": "First Exploration Drilling in 3 Years Underway at Hualilan",
+      "time": "2026-07-30T00:46:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115886-6A1336278",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Resumption of drilling at Hualilan after a 3-year hiatus is a significant operational catalyst — the restart signals improved funding confidence and renewed commitment to advancing what is a multi-million ounce gold resource in Argentina's San Juan province, historically a tier-1 mining jurisdiction.",
+        "The drilling program targets resource expansion and/or infill at Hualilan, where CGN has previously defined a substantial gold resource; any positive intercepts could materially re-rate the stock given the extended period of exploration inactivity and likely low market expectations baked into the current share price.",
+        "Near-term newsflow will be drill-result driven, with assays expected to flow over coming weeks to months — investors should monitor hole depths, widths, and grades against the existing resource model as the key valuation trigger; failure to deliver meaningful intercepts would represent a downside risk to the current exploration narrative."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MRR",
+      "company": "MINREX RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T00:35:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115884-6A1336275",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a junior explorer, Minrex's Appendix 5B will reveal net operating cash outflows and current cash reserves, with any balance below ~A$1.5M flagging imminent capital raise risk and potential dilution for existing shareholders.",
+        "Exploration expenditure levels disclosed in the 5B will indicate whether Minrex is actively advancing its project pipeline or conserving cash, with reduced spend signalling a de-risking posture that may disappoint investors expecting near-term newsflow from its mineral tenements.",
+        "The market-sensitive classification elevates scrutiny — investors should focus on any material changes to exploration strategy, new resource findings, or commentary on upcoming catalysts such as drilling programs or joint venture discussions that could serve as re-rating events in the near term."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "DWG",
       "company": "DATAWORKS GROUP LIMITED",
