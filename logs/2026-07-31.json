@@ -1,9 +1,297 @@
 {
   "date": "2026-07-31",
-  "total": 168,
-  "market_sensitive_count": 165,
-  "generated_at": "2026-07-30T23:21:05.714539+00:00",
+  "total": 183,
+  "market_sensitive_count": 180,
+  "generated_at": "2026-07-30T23:23:58.078550+00:00",
   "announcements": [
+    {
+      "ticker": "NGX",
+      "company": "NGX LIMITED",
+      "headline": "June 2026 Quarterly Report",
+      "time": "2026-07-30T23:20:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116372-6A1336522",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Market-sensitive classification signals material operational or financial developments within the June 2026 quarter that could meaningfully re-rate NGX's valuation — investors should scrutinise cash burn, revenue trajectory, and any guidance revisions closely.",
+        "As a quarterly report, key metrics to assess include cash receipts versus operating outflows, closing cash balance, and whether the company is tracking toward or away from cash flow breakeven — any deterioration in runway below 2 quarters would be a red flag for near-term dilution risk.",
+        "The market-sensitive flag elevates the importance of forward-looking commentary; any updates on customer contracts, platform growth milestones, or strategic partnerships will be critical catalysts for institutional positioning in the near term."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FME",
+      "company": "FUTURE METALS NL",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:20:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116370-6A1336521",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue explorer, Future Metals' Appendix 5B will reveal net operating cash outflows and remaining cash reserves, with any balance below ~2 quarters of burn rate signalling near-term capital raise risk and potential dilution pressure.",
+        "Exploration activity and expenditure cadence at the Panton PGM project in Western Australia will be scrutinised — meaningful drilling or resource advancement spend signals management conviction, while reduced field activity may indicate capital preservation mode ahead of a potential raise or strategic review.",
+        "The 'market sensitive' flag elevates significance — investors should watch for any disclosed farm-in discussions, JV interest, or strategic partnerships at Panton, given elevated global palladium/platinum supply concerns; any such disclosure would materially re-rate the stock from its current early-stage explorer status."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HIO",
+      "company": "HAWSONS IRON LTD",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:20:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116371-2A1686879",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — exploration-stage iron juniors with no revenue are entirely dependent on their cash reserves and capital market access, making the Appendix 5B burn rate the single most important metric to assess near-term survival and project advancement capacity.",
+        "Hawsons Iron's Hawsons Iron Project in NSW targets a high-grade magnetite concentrate (~68% Fe) positioned for premium pricing, but with no production revenue, quarterly cash outflows for administration, studies, and permitting directly erode the path to a Final Investment Decision — any acceleration in spend without a corresponding funding announcement is a red flag.",
+        "Next catalysts to monitor include progress on offtake agreements, project financing discussions, and any updates to the Definitive Feasibility Study timeline; without near-term binding commercial agreements or a capital raise, the stock faces ongoing dilution risk and sentiment headwinds in a challenging bulk commodities funding environment."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AAI",
+      "company": "ALCOA CORPORATION",
+      "headline": "Dividend/Distribution - AAI",
+      "time": "2026-07-30T23:20:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116369-3A697967",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Alcoa Corporation (AAI) has declared a dividend distribution, signalling management confidence in near-term cash generation despite the cyclical nature of aluminium markets — a positive capital returns signal for income-focused institutional holders.",
+        "The market-sensitive classification warrants attention to the quantum and yield implications; any dividend above consensus expectations would represent a meaningful re-rating catalyst given AAI's historically volatile payout history tied to aluminium price cycles.",
+        "Investors should monitor the ex-dividend date and payment timeline closely, as the announcement may trigger short-term positioning adjustments — particularly from yield-seeking funds benchmarked against materials sector peers on the ASX."
+      ],
+      "tags": [
+        "Dividend",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CUF",
+      "company": "CUFE LTD",
+      "headline": "Quarterly Activities and Cashflow Report",
+      "time": "2026-07-30T23:19:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116367-6A1336519",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — CUFE's quarterly cashflow report will reveal whether the company has sufficient liquidity to fund ongoing iron ore and copper exploration activities, with junior miners at this stage typically holding 2-4 quarters of runway before requiring fresh capital.",
+        "Operational progress at the CuFe iron ore projects in Western Australia will be scrutinised for any advancement in offtake negotiations, resource definition drilling, or permitting milestones that could serve as near-term re-rating catalysts for this sub-$20M market cap explorer.",
+        "Any guidance on upcoming capital requirements or strategic partnerships will be pivotal — given the current tight junior mining funding environment, investors will assess whether CUFE can self-fund its work programs or faces near-term dilution risk through a placement or rights issue."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TSO",
+      "company": "TESORO GOLD LTD",
+      "headline": "Quarterly Cashflow Report",
+      "time": "2026-07-30T23:19:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116366-6A1336517",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — junior gold explorers filing market-sensitive quarterly cashflows typically signal a tight liquidity position, and investors should scrutinise ending cash balance against quarterly burn rate to assess whether a capital raise is imminent within 1-2 quarters.",
+        "Exploration-stage companies like Tesoro Gold generate no operating revenue, meaning the cashflow report will reflect net outflows from exploration/evaluation activities and corporate overhead — any acceleration in spend could indicate drilling progress at its Chilean gold assets, but also compresses runway.",
+        "If the report discloses cash of less than A$1-2M with no near-term funding catalyst disclosed, the market-sensitive classification likely flags a going-concern or funding risk, making this a potential precursor to an equity raise or strategic transaction that could be dilutive to existing shareholders."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AM3",
+      "company": "AMARA MINERALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:18:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116365-6A1336515",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item for this early-stage minerals explorer — investors should scrutinise the closing cash balance and quarterly burn rate to assess whether a capital raise is imminent, particularly given the 'market sensitive' flag which suggests a material disclosure within the report.",
+        "Exploration expenditure levels and any drilling or assay results disclosed in the activities section will determine near-term catalysts; absence of meaningful newsflow or a step-up in spend could signal a stalled program, while positive results would reframe the risk/reward profile.",
+        "With Amara Minerals carrying typical pre-revenue explorer characteristics, the next steps hinge on whether management can demonstrate progress toward a resource definition or strategic partnership — failure to show tangible advancement this quarter may pressure the stock given the heightened market sensitivity designation."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GBM",
+      "company": "GBM RESOURCES LIMITED.",
+      "headline": "June 2026 Quarterly Report",
+      "time": "2026-07-30T23:18:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116364-6A1336516",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — junior explorers like GBM Resources typically use quarterly reports to signal whether they have sufficient funds to sustain operations through the next 12 months, and any cash balance below ~A$2M with no near-term capital raise flagged would represent a material liquidity risk for investors.",
+        "Exploration progress at key gold and copper assets (including the Mt Coolon Gold Project in Queensland) will be scrutinised for any drill results, resource updates, or permitting milestones that could re-rate the stock — absence of meaningful newsflow in the quarter would reinforce a narrative of operational stagnation.",
+        "With GBM operating in a competitive junior mining funding environment, the quarterly's commentary on upcoming work programs, JV discussions, or strategic partnerships will be pivotal — any indication of deferred drilling or scaled-back expenditure would signal capital constraints and weigh on near-term sentiment."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OIL",
+      "company": "OPTISCAN IMAGING LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-30T23:18:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116363-3A697966",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watchpoint — as a pre-revenue or early-revenue medtech, Optiscan's quarterly burn rate and closing cash balance will determine whether a capital raise is imminent, with investors needing to assess whether the company has sufficient runway beyond 12 months without dilutive equity issuance.",
+        "Any disclosed receipts from customers or milestone payments tied to its confocal endomicroscopy partnerships (notably with Carl Zeiss Meditec or similar OEM arrangements) will be closely scrutinised as leading indicators of commercial traction and revenue conversion from its pipeline.",
+        "Forward guidance on product development milestones, regulatory submissions, or partnership expansion — particularly in the US or European surgical imaging markets — will be key catalysts; absence of progress updates or a deteriorating cash position could weigh on near-term sentiment for this small-cap healthcare technology play."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZMI",
+      "company": "ZINC OF IRELAND LIMITED",
+      "headline": "June 2026 Quarterly Report",
+      "time": "2026-07-30T23:17:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116362-6A1336514",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue Irish zinc explorer, the quarterly cash burn rate and remaining cash balance will determine whether a near-term capital raise is required, with any sub-2-quarter runway a significant red flag for dilution risk.",
+        "Exploration progress at the Kildare zinc project remains the key value catalyst; any updates on drilling results, resource estimate revisions, or permitting milestones will be closely scrutinised given zinc's strategic importance in the energy transition and current spot price dynamics.",
+        "With no disclosed revenue stream, the company's near-term outlook hinges entirely on its ability to advance the project to a resource definition or pre-feasibility stage — investors should monitor whether management is on track with stated work programs or flagging delays that could erode market confidence."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AON",
+      "company": "APOLLO MINERALS LIMITED",
+      "headline": "June 2026 Quarterly Report",
+      "time": "2026-07-30T23:17:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116361-6A1336513",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point for this junior explorer — without revenue, the June quarterly cash balance and burn rate will determine whether a capital raise is imminent, with any sub-2-quarter runway likely to trigger near-term dilution risk.",
+        "Operational progress at Apollo's key projects (likely Okiep Copper District, South Africa) will be scrutinised for drilling results, resource definition milestones, or permitting advances that could re-rate the stock — any material discovery or resource upgrade would be a significant catalyst given the current copper price environment.",
+        "Forward guidance on planned expenditure, upcoming drill programs, and any strategic partnership or offtake discussions will be key indicators of management's ability to advance assets toward development without excessive equity dilution — investors should watch for any commentary on non-dilutive funding pathways."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENP",
+      "company": "ENTROPY NEURODYNAMICS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-30T23:17:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116359-6A1336518",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt requested by Entropy Neurodynamics (ENL) signals an imminent material announcement — most likely a capital raise, M&A activity, or significant clinical/technology development given the company's neuroscience focus.",
+        "As a small-cap healthcare/technology company, any capital raise emerging from this halt carries meaningful dilution risk; investors should monitor the halt duration and any accompanying placement terms closely for pricing relative to last traded price.",
+        "The market-sensitive classification elevates urgency — the pending announcement is expected to materially move the share price upon resumption, making the nature and scale of the disclosure the critical variable for positioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HAV",
+      "company": "HAVILAH RESOURCES LIMITED",
+      "headline": "Sharewise Webinar Presentation",
+      "time": "2026-07-30T23:16:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116358-2A1686877",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Havilah is actively engaging retail and institutional investors via a Sharewise webinar, signalling management's intent to broaden its shareholder base and maintain market visibility — a common precursor to capital market activity or project milestone announcements.",
+        "The market-sensitive classification elevates this beyond routine investor relations, suggesting the presentation likely contains material updates on Havilah's flagship Kalkaroo copper-gold project or financing/development progress that could re-rate the stock.",
+        "Investors should monitor the webinar content closely for any disclosed timelines on project financing, offtake agreements, or development decisions at Kalkaroo, as these would be the key catalysts for near-term share price movement in this pre-revenue explorer/developer."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AW1",
+      "company": "AMERICAN WEST METALS LIMITED",
+      "headline": "Quarterly Activities and Cashflow Report",
+      "time": "2026-07-30T23:16:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116357-6A1336510",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — junior explorers filing market-sensitive quarterlies typically signal a cash position approaching minimum operational thresholds; investors should scrutinise the closing cash balance and quarterly burn rate to assess whether a capital raise is imminent within 1-2 quarters.",
+        "Operational progress at the Storm Copper Project in Nunavut, Canada remains the key value driver — any drilling results, resource estimate updates, or permitting milestones disclosed in this report will directly inform the market's view on project advancement and potential re-rating catalysts.",
+        "With AWM operating in a high-cost Arctic exploration environment, management's guidance on upcoming expenditure commitments, JV partner activity, or strategic partnership developments will be closely watched as indicators of whether the company can sustain its exploration program without significant dilution to existing shareholders."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUQ",
+      "company": "ALARA RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:16:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116356-6A1336512",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue explorer, Alara's Appendix 5B will reveal whether operating cash burn and administrative expenditure are accelerating toward a capital raise trigger, with any sub-2-quarter runway a material red flag for dilution risk.",
+        "Progress at the Khnaiguiyah zinc-copper project in Saudi Arabia (via Al Hadeetha Resources JV) will be scrutinised for drilling results, permitting milestones, or JV funding commitments that could re-rate the stock, given the project represents the core value driver for the company.",
+        "Any disclosure of deferred exploration spend, reduced headcount costs, or incoming JV partner contributions would signal disciplined capital management and extend the company's ability to advance assets without near-term equity dilution — investors should cross-reference receipts from customers against exploration outflows carefully."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BEO",
       "company": "BEONIC LTD",
