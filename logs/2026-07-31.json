@@ -1,9 +1,966 @@
 {
   "date": "2026-07-31",
-  "total": 183,
-  "market_sensitive_count": 180,
-  "generated_at": "2026-07-30T23:23:58.078550+00:00",
+  "total": 233,
+  "market_sensitive_count": 230,
+  "generated_at": "2026-07-30T23:50:45.238971+00:00",
   "announcements": [
+    {
+      "ticker": "KGL",
+      "company": "KGL RESOURCES LIMITED",
+      "headline": "Quarterly Activities and Cashflow Report",
+      "time": "2026-07-30T23:41:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116437-2A1686901",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — KGL's quarterly cashflow report will reveal whether the company has sufficient liquidity to advance the Jervois Copper Project through its current development phase, with any cash balance below ~A$5M likely to trigger near-term capital raise concerns.",
+        "Operational progress at Jervois remains the key value driver — investors will scrutinise any updates on permitting, feasibility milestones, or contractor engagements, as delays to the development timeline have historically weighed heavily on the stock given its single-asset, pre-revenue profile.",
+        "With no production revenue, KGL's burn rate and any disclosed funding strategy (debt, equity, or offtake-linked financing) will be pivotal for near-term sentiment — the absence of a clear funding pathway to construction remains the primary de-risking event the market is waiting on."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EDE",
+      "company": "EDEN INNOVATIONS LTD",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-30T23:41:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116436-6A1336568",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point for Eden Innovations — as a pre-revenue or early-revenue stage technology company, the Appendix 4C will reveal net operating cash burn rate and remaining cash reserves, determining whether a capital raise is imminent or if the company has sufficient runway to reach key milestones.",
+        "Any meaningful receipts from customers related to its EdenCrete (carbon nanotube-enhanced concrete additive) or OptiBlend (dual-fuel technology) products would signal commercial traction, with investors scrutinising whether quarterly receipts are trending upward to validate the company's path to self-sufficiency.",
+        "The market-sensitive classification elevates this report's significance — if cash reserves have fallen below ~2 quarters of operating expenditure or if the company has flagged a need for additional funding, near-term dilution risk rises materially, making the cash position and any forward guidance on commercialisation timelines the key catalysts for price movement."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RBX",
+      "company": "RESOURCE BASE LIMITED.",
+      "headline": "Placement to Raise $650,000",
+      "time": "2026-07-30T23:40:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116435-6A1336569",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Resource Base Limited is raising a modest $650,000 via placement — a small capital injection that signals the company is likely operating near minimum cash thresholds, raising questions about adequacy of runway and whether further tranches will be required in the near term.",
+        "The placement size is materially small for an ASX-listed entity, suggesting limited institutional appetite and likely reliance on existing shareholders or cornerstone investors; this constrains pricing power and increases dilution risk relative to the capital raised.",
+        "Investors should monitor the use-of-funds disclosure closely — at this scale, capital is likely directed at maintaining compliance, funding exploration activities, or bridging to a larger raise, rather than advancing a transformative operational milestone."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KLV",
+      "company": "KLEVO REWARDS LIMITED",
+      "headline": "Completion of Acquisition of AFS Licence Company",
+      "time": "2026-07-30T23:40:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116434-6A1336567",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Klevo Rewards has completed the acquisition of an Australian Financial Services (AFS) Licence holder, a critical regulatory milestone that unlocks the ability to legally offer financial products and services in Australia — materially expanding its addressable market beyond a pure loyalty/rewards play.",
+        "Holding an AFS Licence in-house eliminates the cost and dependency of third-party licence arrangements, improving unit economics and enabling faster product iteration; the strategic value is significant for a company pivoting toward embedded finance or rewards-linked financial products.",
+        "Near-term focus will shift to deploying the licence capability — investors should watch for product launches, partnership announcements, or revenue guidance updates that demonstrate commercial utilisation of this regulatory asset, as execution risk now becomes the key de-rating or re-rating catalyst."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AX1",
+      "company": "ACCENT GROUP LIMITED",
+      "headline": "TOV: AX1 - Panel Declines to Conduct Proceedings",
+      "time": "2026-07-30T23:39:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116433_PS-2A1686899",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Takeovers Panel has declined to conduct proceedings related to Accent Group (AX1), removing a key regulatory overhang — this outcome typically signals the Panel found no prima facie unacceptable circumstances in the contested matter, clearing a potential impediment to corporate activity.",
+        "The market-sensitive classification suggests the Panel proceedings were tied to a material transaction or control dispute; resolution without intervention preserves the status quo and reduces uncertainty for existing shareholders and any parties involved in a potential acquisition or substantial holding dispute.",
+        "Next steps hinge on the underlying trigger — if this relates to a takeover bid or substantial shareholding accumulation, the declination effectively allows the relevant party to proceed unimpeded, which could accelerate deal timelines or prompt further on-market activity in AX1 shares."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CPV",
+      "company": "CLEARVUE TECHNOLOGIES LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-30T23:39:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116432-6A1336565",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — ClearVue's Appendix 4C will reveal whether the company's burn rate is sustainable without near-term capital raising, given its pre-revenue stage and reliance on R&D grants and milestone payments to fund operations.",
+        "Revenue traction from pilot installations and commercial contracts will be scrutinised; any meaningful increase in receipts from customers — particularly from building-integrated photovoltaic (BIPV) window deployments in Europe or the Middle East — would signal early commercialisation momentum.",
+        "Investors should monitor guidance on upcoming trials, partnership updates, and whether the company flags a capital raise in coming quarters — any reduction in cash reserves below ~2 quarters of operating costs would likely trigger dilutive equity issuance and near-term share price pressure."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "T88",
+      "company": "TAITON RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:38:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116429-6A1336564",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point for this micro-cap explorer — without visibility on current cash reserves and quarterly burn rate from the Appendix 5B, investors must scrutinise whether Taiton can fund its next exploration phase without an imminent dilutive capital raise.",
+        "Operational progress at Taiton's resource projects will be assessed against expenditure efficiency; any meaningful drilling results or resource definition work completed during the quarter could justify cash deployment, but a high burn with minimal newsflow would signal poor capital discipline.",
+        "Near-term catalysts hinge on whether the quarterly report outlines a defined work program and timeline for resource advancement — absence of a clear pathway or evidence of funding stress would likely pressure the share price and increase the probability of a discounted equity raise in coming months."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JGH",
+      "company": "JADE GAS HOLDINGS LIMITED",
+      "headline": "Quarterly Activities Report & Appendix 5B",
+      "time": "2026-07-30T23:38:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116427-6A1336562",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — Jade Gas Holdings' Appendix 5B will reveal net operating cash burn rate against current reserves, with junior gas explorers at this stage typically holding 2-4 quarters of runway; any figure below 2 quarters signals imminent capital raise risk and dilution pressure.",
+        "Operational progress in Mongolia's coalbed methane (CBM) assets remains the key value catalyst — investors should scrutinise well flow rates, gas composition results, and any pilot production milestones that could de-risk the resource and support a maiden reserve upgrade or farm-in discussions.",
+        "Near-term outlook hinges on whether the company can secure a strategic partner or offtake agreement to fund development beyond exploration phase — absence of such announcements alongside elevated cash burn would materially increase the probability of a discounted equity raise in the next 1-2 quarters."
+      ],
+      "tags": [
+        "Quarterly",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TOK",
+      "company": "TOLU MINERALS LIMITED.",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:37:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116426-6A1336563",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — junior explorers like Tolu Minerals typically operate with limited cash reserves, and the Appendix 5B will reveal whether the company has sufficient funds to sustain operations beyond the next 1-2 quarters without requiring an imminent capital raise, which would be dilutive to existing shareholders.",
+        "Operational progress at the Papua New Guinea copper-gold project will be scrutinised for any advancement in drilling, resource definition, or permitting milestones — any material step-change in exploration results or resource upgrade would be a key valuation catalyst for this early-stage miner.",
+        "With the report flagged as market sensitive, investors should watch for any disclosure of a funding shortfall, strategic partnership, or unexpected exploration result that could materially re-rate the stock in either direction — the market sensitivity flag elevates the likelihood of a binary near-term price reaction."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CLA",
+      "company": "CELSIUS RESOURCES LIMITED.",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:37:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116425-6A1336561",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue explorer/developer, Celsius's Appendix 5B will reveal net operating cash outflows and closing cash balance, determining how many quarters of funding remain before a likely capital raise becomes necessary.",
+        "Operational progress at the Maalinao-Caigutan-Biyog (MCB) copper-gold project in the Philippines will be scrutinised for permitting milestones, feasibility study advancement, and any government or community engagement updates that could de-risk the development timeline.",
+        "With no production income, any increase in quarterly cash burn relative to prior periods — particularly on administration and corporate costs — would signal tightening financial headroom and elevate near-term dilution risk for existing shareholders."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BUB",
+      "company": "BUBS AUSTRALIA LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-30T23:35:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116424-6A1336559",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash position and burn rate are critical watch items — Bubs has historically operated with thin cash buffers, so any deterioration in quarterly receipts or acceleration in operating outflows could signal near-term capital raise risk, particularly given the company's ongoing investment in US market expansion post the 2022 FDA emergency authorisation opportunity.",
+        "Revenue trajectory from infant formula sales across China (daigou and cross-border e-commerce) and the US will be the key performance indicator — any sequential decline in customer receipts versus the prior quarter would confirm ongoing headwinds from Chinese consumer sentiment softness and intensifying competition from domestic Chinese brands.",
+        "Management's commentary on the US FDA pathway, retail shelf space retention, and any updated guidance on the path to operating cash flow breakeven will be pivotal for institutional holders assessing whether the current strategy warrants continued patience or signals a need for strategic review, including potential M&A or partnership activity."
+      ],
+      "tags": [
+        "Quarterly",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARI",
+      "company": "ARIKA RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:35:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116423-6A1336560",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a junior explorer, Arika Resources' Appendix 5B will reveal net operating cash burn rate and remaining cash reserves, with any runway below 2 quarters typically signalling imminent capital raise risk and near-term dilution pressure for existing shareholders.",
+        "Exploration activity metrics disclosed in the quarterly — including metres drilled, assay results pending, and any resource definition progress — will determine whether the company is advancing its asset base at a pace sufficient to justify its market capitalisation against peer comparables on the ASX.",
+        "Forward guidance on planned expenditure and any flagged farm-out, JV discussions, or upcoming catalysts (e.g. drill programs, resource estimates) will be key to assessing whether management has a credible near-term newsflow pipeline to sustain investor interest and avoid share price drift."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LDR",
+      "company": "LODE RESOURCES LTD",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:35:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116422-2A1686895",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue explorer, Lode Resources' Appendix 5B will reveal net operating cash outflows and remaining cash reserves, with any balance below ~2 quarters of burn signalling imminent capital raise risk and potential dilution for existing shareholders.",
+        "Quarterly exploration expenditure and any disclosed drilling or assay results at its flagship projects will determine whether the company is advancing its resource definition on schedule, with meaningful results capable of re-rating the stock while a quiet quarter confirms limited near-term catalysts.",
+        "Forward guidance on planned activities and committed expenditure in the coming quarter — including any farm-in discussions, JV negotiations, or upcoming drill programs — will be the key determinant of whether institutional interest is warranted or whether the stock enters a holding pattern pending the next newsflow trigger."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TGM",
+      "company": "THETA GOLD MINES LIMITED",
+      "headline": "Quarterly Activities & Cashflow Report - 30 June 2026",
+      "time": "2026-07-30T23:34:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116421-6A1336556",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway and burn rate are critical watch points — as a pre-revenue gold developer, Theta Gold's quarterly cash position and rate of expenditure will determine whether a capital raise is imminent, with investors needing to scrutinise ending cash balance against projected development spend at the TGME project in South Africa.",
+        "Operational progress at the flagship Transvaal Gold Mining Estates (TGME) project is the key value driver — any updates on permitting milestones, feasibility advancement, or construction readiness will materially influence the development timeline and re-rating potential for this historically significant high-grade gold asset.",
+        "With gold prices trading near multi-year highs, the market will assess whether Theta Gold is accelerating its path to production to capitalise on the favourable commodity environment — any delays, cost escalations, or funding gaps flagged in this report could weigh heavily on sentiment given the company's single-asset, development-stage risk profile."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ICL",
+      "company": "ICENI GOLD LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-30T23:33:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116419-6A1336555",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Iceni Gold has entered a trading halt pending a material announcement, suspending price discovery and liquidity for institutional participants — the market-sensitive classification signals a potentially significant corporate development is imminent.",
+        "Trading halts on junior ASX gold explorers most commonly precede capital raises, M&A activity, or major resource/discovery announcements; given Iceni's early-stage profile, a capital raise or strategic transaction represents the highest-probability catalyst.",
+        "Investors should monitor the resumption announcement closely — the nature of the pending disclosure will be the key determinant of near-term re-rating potential, with a capital raise likely dilutive and a discovery or M&A event potentially materially accretive to NAV."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABR",
+      "company": "ALBRIGHT METALS LTD",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:33:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116418-6A1336554",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue explorer, Albright Metals' Appendix 5B will reveal net operating cash outflows and closing cash balance, with any position below ~$1M signalling imminent capital raise risk and potential dilution pressure.",
+        "Quarterly exploration expenditure and any disclosed drilling or assay results across its metals projects will determine whether the company is deploying capital productively — investors should scrutinise whether spend is accelerating toward a resource definition milestone or being consumed by administration costs.",
+        "The 'market sensitive' flag elevates this beyond a routine quarterly filing, suggesting the report may contain a material operational update — such as a significant drill result, project acquisition, or funding development — that warrants close reading before the open."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GMN",
+      "company": "GOLD MOUNTAIN LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:32:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116417-2A1686893",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a junior gold explorer, Gold Mountain's Appendix 5B will reveal whether operating and exploration cash outflows are sustainable without an imminent capital raise, with any sub-2-quarter runway likely to trigger dilution risk for existing shareholders.",
+        "Exploration expenditure and any gold production or resource development milestones disclosed in the quarterly activities report will be key indicators of whether the company is progressing toward a de-risked resource estimate or remains in early-stage burn mode.",
+        "Investors should monitor for any commentary on upcoming catalysts — including drilling results, resource updates, or strategic partnerships — as these will determine whether the stock can attract institutional interest or remains reliant on retail sentiment to fund future work programs."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAU",
+      "company": "KAISER REEF LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:32:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116415-6A1336553",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash position and burn rate are critical watchpoints for this junior gold miner — investors should scrutinise the Appendix 5B closely for net operating cash outflows and whether the company is funding operations from production revenue or drawing down reserves, as any sub-$2M cash balance would signal near-term capital raise risk.",
+        "Production metrics from the A1 Gold Mine in Victoria will be the key performance indicator — any quarter-on-quarter improvement in gold poured, ore tonnes processed, or head grade recovery would signal operational momentum and underpin the investment case for this small-cap miner.",
+        "With gold prices trading near multi-year highs in AUD terms, Kaiser Reef's ability to convert elevated spot prices into meaningful free cash flow this quarter is the pivotal 'so what?' — failure to demonstrate cash generation at current gold prices would raise serious questions about mine economics and management execution ahead of any potential development capital decisions."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CZR",
+      "company": "CZR RESOURCES LTD",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:31:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116414-6A1336552",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue explorer, CZR's Appendix 5B will reveal net operating cash outflows and remaining cash reserves, with any balance below ~$2M signalling near-term capital raise risk and potential dilution for existing shareholders.",
+        "Exploration and development activity at the Robe Mesa iron ore project in the Pilbara will be scrutinised for drilling progress, resource definition spend, and any offtake or JV development milestones that could re-rate the stock toward a feasibility pathway.",
+        "Forward guidance on planned expenditure and any commentary on strategic partnerships or project financing will be key catalysts — given the current iron ore price environment, management's ability to demonstrate a credible path to development without excessive dilution will determine near-term investor confidence."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KNI",
+      "company": "KUNIKO LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:31:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116413-6A1336548",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue Norwegian battery metals explorer, Kuniko's Appendix 5B will reveal quarterly burn rate and remaining cash reserves, with any runway below 4-6 quarters likely to trigger near-term capital raise concerns and share price pressure.",
+        "Operational progress across its cobalt, nickel and copper projects in Norway remains the key value driver — investors should scrutinise any drill results, resource estimate updates, or permitting milestones disclosed in the activities report as catalysts for re-rating in a market increasingly focused on ex-China critical minerals supply chains.",
+        "With the EV battery metals sector under continued valuation pressure globally, Kuniko's ability to demonstrate disciplined cash management, strategic partnerships, or offtake interest from European battery manufacturers will be essential to maintaining investor confidence and avoiding dilutive emergency funding."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MNB",
+      "company": "MINBOS RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:31:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116412-6A1336551",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — Minbos typically operates with a lean balance sheet funding its Cabinda phosphate fertiliser project in Angola, making the closing cash balance and quarterly burn rate the key metrics investors must scrutinise to assess near-term dilution risk.",
+        "Operational progress at the Cabinda project, including any updates on plant commissioning, first production milestones, or offtake agreement execution, will determine whether the company is on track to transition from explorer/developer to revenue-generating entity — a re-rating catalyst if confirmed.",
+        "Any guidance on upcoming capital requirements, government approvals in Angola, or strategic partnerships disclosed in this quarterly will be pivotal; failure to demonstrate clear funding certainty or project advancement could pressure the share price given the high-risk frontier market exposure."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MYX",
+      "company": "MAYNE PHARMA GROUP LIMITED",
+      "headline": "Mayne Pharma reports unaudited Q4 and FY26 results",
+      "time": "2026-07-30T23:29:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116409-3A697969",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Unaudited Q4 and FY26 results flagged as market sensitive, signalling material variance from prior guidance or consensus expectations — investors should brace for significant price discovery upon full disclosure of revenue, EBITDA, and cash position metrics.",
+        "The 'unaudited' qualifier introduces execution risk around final numbers; any restatement or audit adjustment post-release could compound volatility, particularly given Mayne Pharma's ongoing transformation of its US generics and women's health portfolio amid a challenging pricing environment.",
+        "Key near-term catalysts to watch include management commentary on the Nextstellis commercial trajectory, US generic pricing pressure trends, and whether the balance sheet supports continued investment without requiring additional equity — cash runway and debt covenants will be critical focal points for institutional holders."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MKR",
+      "company": "MANUKA RESOURCES LTD.",
+      "headline": "June 2026 Quarter Activities and Cashlfow Reports",
+      "time": "2026-07-30T23:29:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116408-2A1686889",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cash runway is the critical watch point — as a junior miner, Manuka's quarterly cashflow report will reveal whether operating burn and capital expenditure are sustainable without an imminent capital raise, with any sub-2-quarter runway likely to trigger near-term dilution risk.",
+        "Operational progress at the Wonawinta silver project and Mt Boppy gold project will be scrutinised for production volumes, ore grades, and any deviation from guidance — meaningful underperformance on either asset could signal structural challenges in the company's dual-commodity strategy.",
+        "Forward outlook hinges on Manuka's ability to demonstrate a credible path to sustained cashflow positivity; investors will focus on any updated production targets, offtake arrangements, or strategic partnership signals that could de-risk the balance sheet ahead of the next quarter."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TRP",
+      "company": "TISSUE REPAIR LTD",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-30T23:28:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116407-2A1686888",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item for this pre-revenue biotech — investors must scrutinise net operating cash outflows against closing cash balance to determine quarters of funding remaining, with any sub-4-quarter runway likely to signal near-term capital raise risk and dilution pressure.",
+        "As a clinical-stage wound-care company, Tissue Repair's quarterly burn rate and any disclosed milestones around its TRP1 (recombinant human lactoferrin) topical gel program will be the primary valuation drivers — absence of new trial data or partnership news keeps the stock in a holding pattern.",
+        "The Appendix 4C filing triggers mandatory disclosure of any payments to related parties and customer receipts; near-zero receipts typical for this stage confirm continued reliance on equity markets, making the next capital raise timeline and any R&D tax incentive receipts key offsets to monitor for cash preservation."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LMG",
+      "company": "LATROBE MAGNESIUM LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:28:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116405-2A1686887",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point for LMG — as a pre-revenue magnesium developer, the Appendix 5B will reveal whether the company has sufficient liquidity to sustain operations through its next development milestones, with any sub-2-quarter runway likely to trigger near-term capital raise concerns.",
+        "Operational progress on LMG's proprietary hydromet process at its Latrobe Valley demonstration plant will be scrutinised for any advancement toward commercial-scale production, given the company's long-running timeline and investor fatigue around repeated delays in reaching meaningful output targets.",
+        "With global magnesium supply chains still heavily concentrated in China (~85% of world supply), any tangible update on offtake discussions, strategic partnerships, or government grant funding would materially re-rate the investment thesis — absence of such catalysts in this quarterly is likely to reinforce a holding pattern for institutional investors."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HAR",
+      "company": "HARANGA RESOURCES LIMITED.",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:28:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116404-6A1336547",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a junior explorer, Haranga's Appendix 5B will reveal net operating cash burn and remaining cash reserves, with any balance below ~A$2M signalling near-term capital raise risk and potential dilution pressure for existing shareholders.",
+        "Exploration activity cadence and expenditure allocation across Haranga's uranium and base metals projects (primarily Senegal) will indicate whether the company is advancing towards a resource definition milestone or conserving cash in a holding pattern — either outcome materially affects near-term catalysts.",
+        "With uranium spot prices remaining elevated relative to historical averages, any update on drilling progress, assay results pending, or strategic partnership discussions would be a key re-rating trigger; absence of such newsflow in the quarterly would reinforce a 'wait-and-see' investor stance heading into the next quarter."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RAN",
+      "company": "RANGE INTERNATIONAL LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-30T23:27:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116403-2A1686886",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a small-cap with historically tight liquidity, investors must scrutinise net operating cash outflows and closing cash balance to assess whether a capital raise is imminent or if the business is approaching self-sufficiency.",
+        "Revenue trajectory and customer receipts will signal whether Range International's recycled plastic pallet business is gaining commercial traction in key markets, with any quarter-on-quarter improvement in receipts being a meaningful indicator of demand validation.",
+        "Management commentary on operational milestones, cost reduction initiatives, and any guidance updates will be pivotal — given the company's stage of development, forward-looking statements on production scale-up or new customer wins could materially re-rate near-term sentiment."
+      ],
+      "tags": [
+        "Quarterly",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CHR",
+      "company": "CHARGER METALS NL",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:27:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116402-6A1336544",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — junior explorer Charger Metals must demonstrate sufficient liquidity to fund ongoing lithium and nickel exploration in WA, with any sub-2-quarter runway signalling near-term dilution risk via a capital raise.",
+        "Quarterly cash outflows from exploration and administration expenses will reveal the burn rate trajectory; any acceleration in spend without a corresponding resource milestone or partner funding would be a red flag for capital efficiency.",
+        "Near-term catalysts hinge on drill results and resource definition progress at flagship Lake Johnston and Bynoe projects — failure to deliver meaningful assay results or a resource upgrade this half could pressure the share price as the market reassesses exploration-stage risk."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DEL",
+      "company": "DELOREAN CORPORATION LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-30T23:27:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116401-6A1336545",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue or early-stage energy transition company, Delorean's Appendix 4C will reveal net operating cash burn rate and whether current reserves are sufficient to fund operations beyond 12 months without requiring a dilutive capital raise.",
+        "Revenue recognition and receipts from customers will indicate whether Delorean's biogas/renewable energy projects are generating meaningful commercial traction, with any quarter-on-quarter improvement in customer receipts signalling project commissioning progress and de-risking of the development pipeline.",
+        "Investor focus should centre on staff costs, R&D expenditure, and any payments to related parties disclosed in the 4C — elevated overhead relative to receipts would heighten near-term dilution risk, while a reduction in burn or disclosure of new offtake/project milestones could provide a positive re-rating catalyst heading into the next quarter."
+      ],
+      "tags": [
+        "Quarterly",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TTT",
+      "company": "TITOMIC LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-30T23:27:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116400-3A697968",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — Titomic's Appendix 4C will reveal net operating cash outflows against current reserves, with the company historically burning $2-4M per quarter; any deterioration in cash position or sub-2-quarter runway would signal near-term dilution risk via capital raise.",
+        "Revenue traction from defence and aerospace contracts is the key revenue signal — investors should scrutinise receipts from customers line for evidence that Titomic's Cold Spray and TKF additive manufacturing technology is converting pipeline announcements into billable milestones, particularly given recent MoU activity with defence primes.",
+        "Forward outlook hinges on whether management reaffirms commercialisation timelines for its industrial-scale systems — any guidance on order book conversion, new system deliveries, or strategic partnership progression will be pivotal in determining whether the current cash burn is investment-phase justified or a structural concern requiring recapitalisation."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AV1",
+      "company": "ADVERITAS LIMITED",
+      "headline": "Quarterly Activities Report & Appendix 4C",
+      "time": "2026-07-30T23:27:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116399-6A1336542",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway and burn rate are critical watchpoints for this micro-cap SaaS play — investors should scrutinise net operating cash outflows against current cash reserves to assess whether a capital raise is imminent, given Adveritas has historically operated at a loss while scaling its TrafficGuard ad fraud platform.",
+        "Revenue trajectory and customer metrics are the key valuation drivers — any acceleration in ARR (Annual Recurring Revenue), new enterprise client wins, or expansion of existing contracts would signal the business is approaching an inflection point toward cash flow breakeven, which remains the market's primary re-rating catalyst.",
+        "Near-term outlook hinges on management's ability to convert its pipeline of enterprise and channel partner deals into contracted revenue — progress on international expansion (particularly US and UK markets) and any guidance upgrade or maintained trajectory will determine whether the stock can sustain momentum or faces further selling pressure."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EPM",
+      "company": "ECLIPSE METALS LIMITED.",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:26:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116398-6A1336543",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item for Eclipse Metals — as a pre-revenue explorer, the Appendix 5B will reveal quarterly burn rate and remaining cash reserves, with any sub-2-quarter runway signalling near-term dilution risk via a capital raise.",
+        "Exploration expenditure levels and any updates on the Grønnedal-Ika alkaline complex in Greenland (uranium, REE, niobium) will indicate whether the company is maintaining field momentum or conserving cash, a key signal for project advancement credibility.",
+        "The market-sensitive classification elevates scrutiny — investors should watch for any material resource estimate updates, new assay results, or strategic partnership disclosures that could catalyse a re-rating of the stock from its current micro-cap status."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPQ",
+      "company": "SUPERIOR RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:26:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116397-2A1686885",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a junior explorer, Superior Resources' Appendix 5B will reveal net operating cash burn rate and whether the company has sufficient liquidity to fund ongoing exploration without an imminent capital raise, which would be dilutive to existing shareholders.",
+        "Exploration activity and expenditure levels disclosed in the quarterly will signal management's conviction in its Queensland copper-gold tenements; any reduction in drilling or field activity versus prior quarters would indicate capital preservation mode and reduced near-term newsflow.",
+        "With no revenue-generating operations, the company's next steps hinge entirely on exploration results and balance sheet strength — investors should monitor cash on hand relative to committed expenditure and whether any farm-out, JV, or capital raise is flagged to extend the exploration runway."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TG6",
+      "company": "TG METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-30T23:26:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116396-6A1336546",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "TG Metals has entered a trading halt, suspending price discovery and liquidity for investors — the halt is classified as market sensitive, signalling a material corporate event is imminent rather than a routine administrative pause.",
+        "Trading halts of this nature on small-cap ASX miners typically precede capital raises, M&A activity, or a significant resource/operational announcement; the market-sensitive flag narrows the probability toward value-moving news rather than procedural compliance matters.",
+        "Investors should monitor the resumption announcement closely — the nature of the pending disclosure will be the key determinant of directional impact, with a capital raise representing dilution risk and an M&A or resource upgrade representing potential re-rating catalysts."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGU",
+      "company": "MAGNUM MINING AND EXPLORATION LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:26:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116395-6A1336533",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point for this micro-cap explorer — Magnum's Appendix 5B will reveal whether operating and exploration cash burn is sustainable or whether a near-term capital raise is likely, with any cash balance below ~A$1–2M signalling elevated dilution risk.",
+        "Quarterly exploration activity and expenditure figures will indicate whether the company is advancing its key projects (historically focused on gold and base metals) at a meaningful pace, or conserving cash — either outcome materially affects the credibility of its near-term resource development timeline.",
+        "Investors should scrutinise receipts from customers and any financing cash flows closely; absence of revenue combined with net cash outflows above A$500K per quarter would compress the runway to under two quarters, making the next capital raise a near-certainty and a key overhang on the share price."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LCL",
+      "company": "LCL RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:26:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116394-6A1336540",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a junior explorer, LCL's Appendix 5B will reveal whether operating cash burn and exploration expenditure are sustainable without an imminent capital raise, with any sub-2-quarter runway a material red flag for dilution risk.",
+        "Exploration activity and spend levels disclosed in the quarterly will signal whether LCL is advancing its resource projects on schedule — any reduction in drilling or field activity versus prior quarters could indicate budget constraints or project de-prioritisation.",
+        "Near-term catalysts hinge on whether the report flags upcoming assay results, resource estimate updates, or farm-in/JV discussions — absence of meaningful newsflow guidance alongside tight cash reserves would likely pressure the share price heading into the next quarter."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CKA",
+      "company": "COKAL LIMITED",
+      "headline": "Quaterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:26:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116393-6A1336541",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cash runway is the critical watch item — as a pre-revenue coking coal developer, Cokal's Appendix 5B will reveal whether operating cash burn and admin costs are being managed within existing liquidity, or whether a near-term capital raise is becoming inevitable to fund BBM mine development in Indonesia.",
+        "Quarterly operational progress at the Bumi Barito Mineral (BBM) project — including any updates on mining permits, offtake negotiations, or infrastructure milestones — will determine whether the development timeline remains on track or faces further delays that could pressure the stock.",
+        "Investors should scrutinise net cash used in operating and investing activities against the closing cash balance; any balance below A$2–3M without a clear funding pathway would signal elevated dilution risk and likely weigh heavily on the share price in the near term."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CHN",
+      "company": "CHALICE MINING LIMITED",
+      "headline": "June 2026 Quarterly Activities & Cashflow Report",
+      "time": "2026-07-30T23:25:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116392-6A1336539",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — Chalice remains pre-revenue and exploration-stage, meaning quarterly cash burn rate and remaining cash balance will directly determine whether a capital raise is imminent or if the company has sufficient runway to reach its next de-risking milestone at the Gonneville PGE-Ni-Cu deposit in WA.",
+        "Progress on the Gonneville Definitive Feasibility Study (DFS) and any updated resource or reserve estimates will be the key value catalysts in this report — any delays, cost blowouts, or scope reductions to the DFS timeline would be materially negative for a project already facing challenging PGE market conditions and permitting complexity.",
+        "Investors should scrutinise exploration expenditure discipline and any strategic updates on partnership or offtake discussions — with PGE prices under pressure and the broader critical minerals funding environment tight, evidence of capital efficiency or a strategic partner engagement would be a significant re-rating trigger, while silence on these fronts reinforces near-term uncertainty."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "M79",
+      "company": "MAMMOTH MINERALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:24:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116390-6A1336537",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item for this junior explorer — without disclosed revenue, the Appendix 5B will reveal whether Mammoth Minerals has sufficient liquidity to sustain exploration programs or faces near-term capital raise pressure.",
+        "Quarterly exploration expenditure and any changes to cash burn rate will signal operational momentum; a material reduction in exploration spend could indicate project delays or capital conservation ahead of a potential funding round.",
+        "Investors should scrutinise commitments and contingent liabilities disclosed in the 5B, alongside any updates on drilling results or resource definition milestones, as these will be the primary catalysts for re-rating this early-stage minerals company."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "49M",
+      "company": "49 METALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:24:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116389-6A1336535",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point for this micro-cap explorer — with exploration-stage companies like 49 Metals typically burning cash with no revenue, investors must scrutinise the closing cash balance and quarterly burn rate to assess how many quarters of funding remain before a capital raise becomes necessary.",
+        "Appendix 5B disclosures will reveal exploration expenditure allocation across the company's copper-gold portfolio, with any acceleration in drilling activity or new target generation signalling management confidence in near-term catalysts, while a reduction could indicate capital preservation mode and deferred newsflow.",
+        "Near-term outlook hinges on whether 49 Metals can advance its flagship projects toward a maiden resource or significant drill intercept — absent a material discovery or strategic partnership announcement, the company faces the typical junior explorer dilemma of balancing exploration momentum against the likelihood of dilutive equity issuance to fund ongoing operations."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SLZ",
+      "company": "SULTAN RESOURCES LTD",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:24:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116388-6A1336536",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point for Sultan Resources — as a junior explorer with no revenue, the Appendix 5B will reveal whether the company has sufficient funds to sustain operations through the next drilling or exploration phase without an imminent capital raise.",
+        "Exploration expenditure and any material changes in cash burn rate versus prior quarters will signal whether Sultan is accelerating or deferring field activity, a key indicator of management's confidence in near-term project milestones.",
+        "Investors should scrutinise the 'estimated quarters of funding remaining' disclosure — if this falls below 2 quarters, a dilutive placement or rights issue becomes a near-term probability, representing a structural overhang on the share price."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMD",
+      "company": "CASSIUS MINING LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:24:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116387-2A1686883",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as a junior explorer, Cassius Mining's Appendix 5B will reveal net operating cash outflows and current cash reserves, with any balance below ~A$1-2M signalling imminent capital raise risk and potential dilution for shareholders.",
+        "Exploration activity and expenditure levels disclosed in the quarterly will indicate whether the company is actively advancing its gold projects (likely Western Australian assets), with reduced drilling or deferred programs suggesting capital preservation mode rather than value-creation momentum.",
+        "Near-term catalysts hinge on whether the report flags upcoming milestones — such as assay results, resource estimate updates, or farm-in/JV discussions — that could re-rate the stock; absence of such guidance typically signals a quiet period ahead with limited share price drivers."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CDT",
+      "company": "CASTLE MINERALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:23:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116386-6A1336534",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — as an early-stage explorer, Castle Minerals' Appendix 5B will reveal quarterly burn rate and remaining cash reserves, with any sub-2-quarter runway likely to signal imminent capital raise risk and near-term dilution pressure.",
+        "Exploration expenditure levels disclosed in the 5B will indicate whether the company is actively advancing its Ghana and Australian lithium/gold projects or conserving capital, with reduced spend potentially signalling a strategic pause or funding constraints.",
+        "The market-sensitive classification elevates scrutiny — investors should focus on any material exploration results, project updates, or commentary on upcoming catalysts (drilling programs, resource estimates) that could re-rate the stock in the near term."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RGT",
+      "company": "ARGENT BIOPHARMA LIMITED",
+      "headline": "CannEpil Global Licence Expands into Veterinary Healthcare",
+      "time": "2026-07-30T23:23:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116385-6A1336532",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Argent BioPharma has extended its CannEpil global licence into the veterinary healthcare market, meaningfully broadening the total addressable market for its cannabinoid-based epilepsy treatment beyond human therapeutics — a sector where pet CBD/cannabinoid products are experiencing double-digit global growth.",
+        "The veterinary expansion represents a capital-light revenue diversification strategy, leveraging an existing licence rather than requiring new R&D spend; however, investors should scrutinise whether milestone payments, royalty structures, or upfront fees are attached, as deal economics have not yet been fully disclosed.",
+        "Near-term catalysts to watch include regulatory pathway clarity for veterinary cannabinoid products across key jurisdictions (US, EU, Australia), commercial partnership announcements with veterinary distributors, and any revenue guidance — without these, the announcement risks remaining a headline-stage optionality play rather than a near-term earnings driver."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GL1",
+      "company": "GLOBAL LITHIUM RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:23:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116384-6A1336530",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — exploration-stage lithium companies with no revenue are highly sensitive to burn rate; investors should scrutinise net operating cash outflows and current cash balance against projected quarterly spend to assess months of funding remaining without a capital raise.",
+        "With lithium prices remaining depressed well below 2022-2023 peaks, any disclosure of project advancement milestones (drilling results, resource updates, or feasibility progress) at the Manna or Marble Bar projects will be key to justifying continued market confidence in the absence of near-term revenue.",
+        "The quarterly filing likely signals where Global Lithium sits on its development timeline — failure to demonstrate meaningful progress toward a maiden or updated JORC resource, or any reduction in exploration activity due to cash constraints, would heighten dilution risk and increase the probability of a near-term capital raise at a discount."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NTI",
+      "company": "NEUROTECH INTERNATIONAL LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-30T23:22:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116382-6A1336531",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Neurotech International (NTI) has entered a trading halt, suspending price discovery and liquidity for investors — the halt is flagged as market sensitive, signalling a material corporate development is imminent rather than routine administrative action.",
+        "Trading halts at small-cap healthcare/biotech companies like NTI most commonly precede a capital raise, material clinical update, or M&A activity; given NTI's historical cash burn profile and early-stage commercialisation of its NTx technology, a capital raise to extend runway is a plausible catalyst.",
+        "Investors should monitor the forthcoming announcement closely — if the halt resolves into a dilutive placement at a discount, near-term share price pressure is likely; conversely, a licensing deal or positive clinical milestone could be a re-rating event for this micro-cap."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LEX",
+      "company": "LEFROY EXPLORATION LIMITED",
+      "headline": "June 2026 Quarterly Cashflow Report",
+      "time": "2026-07-30T23:22:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116381-6A1336528",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue explorer, LEX's ending cash balance and quarterly burn rate will determine how many quarters of operational runway remain before a capital raise becomes necessary, with any balance below ~A$2M flagging near-term dilution risk.",
+        "Exploration expenditure quantum and allocation will signal management's conviction — investors should scrutinise whether spend is being directed toward high-priority targets at the Easter Bilby and Lefroy gold projects in WA's proven Eastern Goldfields, or whether activity is being curtailed due to funding constraints.",
+        "No revenue generation expected at this stage means the quarterly is purely a cash management and activity update — the key forward catalyst remains a maiden or updated resource estimate that could re-rate the stock, making drill result pipeline and upcoming field programs the primary valuation driver to monitor."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LEX",
+      "company": "LEFROY EXPLORATION LIMITED",
+      "headline": "June 2026 Quarterly Activities Report",
+      "time": "2026-07-30T23:21:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116377-6A1336526",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical near-term risk factor — as a pre-revenue explorer, Lefroy's quarterly cash burn rate and remaining cash balance will determine whether a capital raise is imminent, making the Q4 FY26 cash position the single most important data point for investors to scrutinise.",
+        "Drilling results and resource definition progress at the Easter Bilby and Burns gold-copper targets in WA's Eastern Goldfields remain the primary value catalysts — any new intercepts or resource estimate updates disclosed in this report will directly re-rate the stock against peer comparables in the region.",
+        "With the June quarter typically marking a strategic reset point for junior explorers, investors should watch for any guidance on upcoming drill programs, JV discussions, or farm-out activity that could signal a funding pathway and reduce dilution risk heading into FY27."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "Quarterly Activities and Cash Flow Report",
+      "time": "2026-07-30T23:21:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116376-6A1336527",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch item — junior explorer EV Resources typically carries minimal operating revenue, making the closing cash balance and quarterly burn rate the primary indicators of near-term dilution risk; investors should scrutinise whether the company has sufficient funds for at least two quarters of planned exploration activity without an imminent capital raise.",
+        "Exploration progress on the company's EV/battery metals portfolio (likely cobalt, nickel or lithium assets given the EV branding) will determine re-rating potential — any drill results, resource estimate updates or farm-in/JV activity disclosed in the activities section represent the key value catalysts for this stage of the business cycle.",
+        "With the report flagged as market sensitive, the disclosure likely contains a material update — either a significant cash position deterioration, a new exploration result, or a strategic development (e.g. binding agreement or asset acquisition) that warrants close attention before the market fully prices in the information."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GIB",
+      "company": "GIBB RIVER DIAMONDS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-30T23:20:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03116374-6A1336523",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue diamond explorer, GIB's Appendix 5B will reveal whether the company has sufficient working capital to sustain operations through the next drilling campaign at its Kimberley region tenements, with any cash balance below ~A$500K signalling near-term capital raise risk.",
+        "Operational progress at the Ellendale diamond field will be scrutinised for any kimberlite sampling results, bulk testing volumes, or resource definition milestones that could re-rate the stock — the absence of material field activity this quarter would reinforce a cash-burn-without-progress narrative that weighs on micro-cap explorers.",
+        "Near-term catalysts hinge on whether management has flagged upcoming drilling or partnership discussions; any commentary on strategic alliances or offtake interest from diamond buyers would be a meaningful signal given the global fancy yellow diamond supply deficit following Ellendale's prior closure under Kimberley Diamond Company."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "NGX",
       "company": "NGX LIMITED",
