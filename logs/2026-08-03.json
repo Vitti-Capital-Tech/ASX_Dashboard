@@ -1,9 +1,412 @@
 {
   "date": "2026-08-03",
-  "total": 90,
-  "market_sensitive_count": 84,
-  "generated_at": "2026-08-02T23:21:21.504549+00:00",
+  "total": 111,
+  "market_sensitive_count": 105,
+  "generated_at": "2026-08-02T23:45:56.115742+00:00",
   "announcements": [
+    {
+      "ticker": "WAR",
+      "company": "WAM STRATEGIC VALUE LIMITED",
+      "headline": "Dividend/Distribution - WAR",
+      "time": "2026-08-02T23:42:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117250-2A1687204",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "WAM Strategic Value (WAR) has declared a dividend/distribution, signalling the LIC continues to generate sufficient income to return capital to shareholders — a key credibility metric for Wilson Asset Management's closed-end fund franchise.",
+        "As a market-sensitive announcement, the quantum and franking level of the distribution will be critical: any reduction versus prior periods would pressure the share price and widen the NTA discount, while a maintained or increased dividend reinforces the income thesis for yield-focused investors.",
+        "Investors should monitor the ex-dividend date and payment timeline closely, as LIC dividend announcements of this nature often act as a short-term price support catalyst — particularly relevant given the current environment of elevated competition for yield from ETFs and direct equity income strategies."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CPV",
+      "company": "CLEARVUE TECHNOLOGIES LIMITED",
+      "headline": "CPV Unlocks Global BIPV Breakthrough",
+      "time": "2026-08-02T23:40:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117249-6A1337018",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ClearVue's BIPV (Building-Integrated Photovoltaic) breakthrough signals a potential step-change in addressable market — the global BIPV sector is projected to exceed USD $30B by 2030, and any validated technology differentiation could materially re-rate the company's commercial pipeline and licensing prospects.",
+        "The 'global breakthrough' framing is market-sensitive, suggesting either a significant certification, partnership, or performance milestone that could de-risk ClearVue's path to revenue — investors should scrutinise whether this translates to binding commercial agreements or remains at the demonstration/pilot stage, as the gap between these outcomes is critical for a pre-revenue technology company.",
+        "Near-term catalysts to watch include whether this announcement is accompanied by a named strategic partner, offtake agreement, or entry into a major international market (particularly Europe or the US where BIPV incentives are strongest) — without these specifics, the announcement risks being perceived as promotional rather than commercially transformative."
+      ],
+      "tags": [
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FUL",
+      "company": "FULCRUM LITHIUM LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-08-02T23:39:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117248-2A1687203",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Fulcrum Lithium has entered a trading pause, signalling an imminent material announcement — most likely a capital raise, M&A activity, or significant project update that requires price-sensitive disclosure management.",
+        "The market-sensitive classification elevates the probability that the pending announcement carries meaningful valuation implications, whether positive (asset deal, strategic partnership, resource upgrade) or negative (dilutive equity raise, project setback) — investors should await full details before positioning.",
+        "As a junior lithium explorer operating in a structurally challenged lithium price environment, any forthcoming capital raise would face scrutiny around dilution risk and use-of-funds discipline; conversely, an M&A or farm-in deal could provide a re-rating catalyst in a sector starved of positive newsflow."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BTE",
+      "company": "BOTALA ENERGY LTD",
+      "headline": "Serowe CBM Project Update",
+      "time": "2026-08-02T23:39:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117247-6A1337017",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals a material development at the Serowe Coal Bed Methane project in Botswana — likely a drilling result, resource update, or farm-in/JV outcome that could meaningfully re-rate the asset's perceived value and de-risk the project timeline.",
+        "CBM projects at Serowe have been a core value driver for Botala Energy, and any positive flow-rate data, resource certification, or commercial partnership announcement would directly validate the company's exploration thesis and underpin a potential path to monetisation in an energy-hungry Southern African market.",
+        "Investors should watch for specifics on well test results, gas composition data, or strategic partner involvement — these metrics will determine whether the project can attract the capital and offtake agreements needed to advance toward development-stage status and reduce reliance on equity dilution for funding."
+      ],
+      "tags": [
+        "Energy",
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SHN",
+      "company": "SUNSHINE METALS LIMITED",
+      "headline": "RC Drilling Commenced at Sybil Epithermal Gold Project",
+      "time": "2026-08-02T23:33:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117242-6A1337015",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of RC drilling at the Sybil Epithermal Gold Project marks a critical de-risking milestone — epithermal systems can host high-grade, near-surface gold mineralisation, making early drill results a potential significant re-rating catalyst for this small-cap explorer.",
+        "The market-sensitive classification signals management expects drill results to be materially price-moving; investors should monitor upcoming assay announcements closely, as epithermal gold intercepts — particularly bonanza-grade zones — can drive outsized share price reactions relative to company size.",
+        "Next steps hinge entirely on drill results and turnaround time for assays; any confirmation of high-grade gold mineralisation at Sybil would likely accelerate follow-up drilling programs and could attract institutional or strategic interest, while disappointing results risk a sharp re-rating given elevated market sensitivity flagging."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FIN",
+      "company": "FIN RESOURCES LIMITED",
+      "headline": "FIN Completes Placement to Fund Drilling at Cabin Lake",
+      "time": "2026-08-02T23:31:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117238-6A1337004",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Placement completion provides immediate drilling capital for Cabin Lake, a critical catalyst event — the market will now focus on whether the funded program can deliver discovery-grade intercepts to re-rate the stock from explorer to developer.",
+        "Equity dilution is the key near-term headwind; institutional investors should assess the placement price relative to the last traded price and the size of the raise to gauge the discount absorbed and its impact on NAV per share.",
+        "Drilling commencement at Cabin Lake represents the next hard newsflow trigger — timeline to first assay results and the geological prospectivity of the target will determine whether this capital raise is viewed as value-accretive or merely survival funding."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HRN",
+      "company": "HORIZON GOLD LIMITED",
+      "headline": "Horizon hits 23m at 5.3g/t gold from 188m at Kingfisher",
+      "time": "2026-08-02T23:30:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117236-6A1337014",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The 23m @ 5.3g/t intercept from 188m at Kingfisher represents a high-grade, near-surface hit that meaningfully de-risks the deposit's economic viability — grades above 5g/t are typically considered robust for open-pit or shallow underground scenarios in Western Australia, signalling potential resource upgrade potential.",
+        "The depth of 188m suggests the mineralisation sits within economically accessible range, and the width of 23m indicates a potentially mineable true width, both critical parameters that institutional investors will scrutinise when modelling future resource estimates and mine planning scenarios.",
+        "The market-sensitive classification underscores management's confidence in materiality; the key near-term catalyst to watch is whether this result is part of a broader infill/extensional drilling program that could trigger a JORC resource update, which would be the next significant re-rating event for the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "C7A",
+      "company": "CLARA RESOURCES AUSTRALIA LTD",
+      "headline": "Suspension from Quotation",
+      "time": "2026-08-02T23:29:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117235-2A1687198",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX has imposed a suspension from quotation on Clara Resources Australia Ltd (ASX: C7A), halting all trading in the company's securities — a regulatory action that typically signals unresolved compliance obligations, failure to meet continuous disclosure requirements, or incomplete lodgement of periodic financial reports.",
+        "Suspension from quotation is a materially adverse event for existing shareholders, as it eliminates liquidity and price discovery, effectively locking investors out of the market until the company satisfies ASX's reinstatement conditions — a process that can extend from days to months depending on the underlying breach.",
+        "Reinstatement to official quotation will require Clara Resources to fully remediate the triggering compliance failure and receive ASX approval; investors should monitor for subsequent announcements detailing the specific cause of suspension, any capital raise or restructuring activity, and a formal reinstatement application — all of which will be critical catalysts for re-rating."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WTM",
+      "company": "WARATAH MINERALS LIMITED",
+      "headline": "Waratah Unlocks 6km Expansion to Spur Gold Corridor",
+      "time": "2026-08-02T23:29:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117234-6A1337013",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Waratah has secured access to a 6km structural extension of its existing gold corridor, materially expanding the exploration footprint and potentially re-rating the project's resource scale — a significant de-risking event for early-stage investors given the contiguous nature of the tenure.",
+        "The corridor expansion directly increases the strike length available for drill targeting, which should support a more aggressive and capital-efficient drilling program by concentrating multiple high-priority targets within a single, connected geological system rather than disparate prospects.",
+        "Near-term catalysts hinge on the company converting this tenure unlock into a defined drill program with assay results; investors should monitor upcoming quarterly activity reports and any capital raise announcements that may be required to fund the expanded exploration campaign."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LU7",
+      "company": "LITHIUM UNIVERSE LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-02T23:28:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117230-6A1337012",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt requested pending a material announcement — the market-sensitive classification signals a potentially significant corporate event is imminent, most likely a capital raise, M&A activity, or major project update given Lithium Universe's early-stage development profile.",
+        "For a small-cap lithium explorer, a market-sensitive halt typically precedes either a dilutive equity raise (common in the current tight junior mining funding environment) or a strategic partnership/offtake deal — investors should prepare for potential near-term share price volatility upon resumption.",
+        "Next steps hinge entirely on the nature of the pending announcement; if capital raise-related, scrutinise pricing relative to last traded price and any attaching options that could amplify dilution — if project/deal-related, assess whether the news materially de-risks the company's Quebec lithium asset development timeline."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IPX",
+      "company": "IPERIONX LIMITED",
+      "headline": "IperionX Advances US Titanium Growth, Plans Redomiciliation",
+      "time": "2026-08-02T23:27:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117229-6A1337010",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "IperionX is accelerating its US titanium manufacturing strategy at a critical inflection point — growing defence and aerospace demand for domestically sourced titanium positions the company as a key beneficiary of US supply chain reshoring policy, with potential for significant government offtake contracts.",
+        "The planned redomiciliation (likely from Australia to the US) is a high-conviction strategic move that would improve access to US capital markets, defence procurement frameworks, and institutional investor pools — materially expanding the company's valuation ceiling and liquidity profile.",
+        "Near-term catalysts to watch include formal redomiciliation timeline, any updated capacity expansion figures at the Virginia facility, and progress on binding customer agreements — investors should monitor whether the growth narrative is backed by contracted revenue or remains largely indicative."
+      ],
+      "tags": [
+        "Production",
+        "Mining",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BB1",
+      "company": "BLINKLAB LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-02T23:24:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117226-6A1337008",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "BlinkLab has entered a trading halt pending a material announcement, suspending price discovery and liquidity for investors — the halt itself signals an imminent corporate event of sufficient significance to require market suspension under ASX Listing Rules.",
+        "The market-sensitive classification elevates the probability this relates to a capital raise, M&A activity, or a material clinical/commercial development — all of which carry meaningful valuation implications for this early-stage neurodevelopmental diagnostics technology company.",
+        "Investors should monitor the resumption announcement closely; for a micro-cap healthcare/technology name like BlinkLab, the nature of the pending disclosure (dilutive capital raise vs. strategic partnership or regulatory milestone) will be the critical determinant of near-term price direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAK",
+      "company": "WA KAOLIN LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-08-02T23:24:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117224-6A1337006",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WA Kaolin has been suspended from quotation on the ASX, halting all trading activity in its securities — a market-sensitive event that immediately removes price discovery and liquidity for existing shareholders until the suspension is lifted.",
+        "Suspension from quotation is typically triggered by a pending material announcement, failure to meet continuous disclosure obligations, or a significant corporate transaction — the market-sensitive classification strongly suggests a consequential event (e.g. M&A, capital raise, or regulatory issue) is imminent rather than a routine administrative matter.",
+        "Investors should monitor ASX announcements closely for the lifting of suspension and accompanying disclosure; the nature of the triggering event will be the key determinant of whether resumption is accompanied by a re-rating upward or downward — uncertainty risk is elevated in the interim."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PL3",
+      "company": "PATAGONIA LITHIUM LTD",
+      "headline": "Mineral Resource Estimate Interim Progress Report",
+      "time": "2026-08-02T23:24:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117223-3A698075",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Interim MRE progress report signals the company is advancing toward a formal resource estimate for its Patagonia lithium project, a critical de-risking milestone that underpins any future development or M&A optionality — the market-sensitive classification suggests material new geological data is being disclosed.",
+        "The interim nature of the update implies drilling and assay data compilation is still ongoing, meaning the final MRE tonnage and grade figures remain unconfirmed — investors should treat any preliminary resource numbers with caution until a JORC 2012-compliant estimate is formally published.",
+        "With global lithium majors actively consolidating South American lithium assets, a credible MRE outcome could position Patagonia Lithium as an acquisition target or partnership candidate; near-term focus will be on resource size, lithium grade (Li₂O or LCE), and classification confidence levels (Inferred vs. Indicated) to assess project economics."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FAL",
+      "company": "FALCON METALS LTD",
+      "headline": "High-Grade Gold Continues at Blue Moon",
+      "time": "2026-08-02T23:23:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117221-6A1337007",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Continued high-grade gold intercepts at Blue Moon reinforce deposit quality and resource expansion potential, a critical de-risking milestone for a junior explorer seeking to attract major partner or acquirer interest in a buoyant gold price environment.",
+        "Market-sensitive classification signals materially significant drill results — institutional investors should watch for grade-thickness (gram-metre) metrics relative to prior intercepts to assess whether this represents a step-change in resource confidence or incremental confirmation of known mineralisation.",
+        "Sustained high-grade continuity strengthens the case for an upcoming resource estimate upgrade or maiden resource definition, which would be the key near-term catalyst to re-rate the stock and support potential capital raise or strategic transaction discussions."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HRE",
+      "company": "HEAVY RARE EARTHS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-02T23:23:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117220-3A698081",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt requested pending a material announcement — the market-sensitive classification signals a potentially significant corporate development, most likely a capital raise, M&A activity, or major project update that could materially reprice the stock.",
+        "Heavy Rare Earths Limited operates in a strategically critical sector given global supply chain diversification away from China; any announcement relating to offtake agreements, JV partnerships, or resource upgrades would carry outsized valuation implications given the current geopolitical premium on ex-China rare earth assets.",
+        "Investors should monitor the resumption announcement closely — the nature of the pending news will determine directional bias; a capital raise would likely be dilutive near-term, while a strategic partnership or resource milestone could be a re-rating catalyst for this early-stage explorer."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGH",
+      "company": "MAAS GROUP HOLDINGS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-02T23:21:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117219-2A1687196",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "MAAS Group Holdings (MGH) has entered a trading halt pending an announcement, suspending price discovery at a critical juncture — the nature of the halt (capital raise, M&A, or material disclosure) remains unknown but the market-sensitive classification signals a potentially significant corporate event.",
+        "Trading halts at MGH have historically preceded capital raises or acquisition announcements, consistent with the company's aggressive growth-by-acquisition strategy in civil construction, real estate, and materials — institutional investors should monitor for dilution risk or balance sheet implications if a raise is forthcoming.",
+        "The halt is expected to be brief (typically 1-2 trading days under ASX Listing Rules), with the substantive announcement likely to define near-term price direction; until details emerge, risk-averse positioning is warranted given MGH's elevated debt load relative to peers in the infrastructure services sector."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ELV",
+      "company": "ELEVRA LITHIUM LIMITED",
+      "headline": "Issuance of Upfront Tranche of Convertible Notes",
+      "time": "2026-08-02T23:20:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117218-2A1687195",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Elevra Lithium has issued an upfront tranche of convertible notes, introducing structured debt financing that carries inherent dilution risk — convertible notes typically convert to equity at a discount to market price, pressuring existing shareholders upon conversion.",
+        "The market-sensitive classification signals material financial impact; key terms to scrutinise include the conversion price, interest rate, maturity date, and any conversion discount or floor price, as these will determine the magnitude of potential equity dilution and effective cost of capital.",
+        "For a junior lithium explorer, this financing mechanism suggests limited access to conventional equity or debt markets — likely reflecting the current depressed lithium price environment — and investors should monitor whether proceeds are sufficient to fund meaningful exploration milestones or merely extend near-term cash runway."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GIB",
+      "company": "GIBB RIVER DIAMONDS LIMITED",
+      "headline": "Phase 2 Drill Results - Edjudina Gold Project WA",
+      "time": "2026-08-02T23:20:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117217-6A1337003",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Phase 2 drilling at Edjudina Gold Project represents a material exploration catalyst for Gibb River Diamonds, a company pivoting beyond its namesake commodity — market-sensitive classification signals results are likely meaningful enough to move the share price in either direction.",
+        "Institutional focus will centre on intercept grades, widths, and continuity relative to Phase 1 results; any hits exceeding ~1g/t Au over meaningful widths in a Western Australian greenstone setting could validate a resource definition pathway and re-rate the stock.",
+        "Next steps hinge on whether results support a maiden JORC resource estimate or further infill/extensional drilling — a defined resource would be a transformative milestone for this micro-cap and could attract farm-in or JV interest from larger gold developers active in the WA goldfields."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RIM",
+      "company": "RIMFIRE PACIFIC MINING LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-02T23:19:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117216-3A698079",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Rimfire Pacific Mining (RIM) has entered a trading halt, suspending all share transactions pending a material announcement — the market-sensitive classification signals a potentially significant corporate or operational development is imminent.",
+        "Trading halts of this nature for junior ASX-listed miners most commonly precede capital raises, M&A activity, or material resource/exploration updates; given RIM's focus on the Fifield porphyry copper-gold project in NSW, a farm-in deal or funding announcement is a plausible catalyst.",
+        "Investors should monitor the resumption announcement closely — the nature of the disclosure will be the key price driver, with dilutive capital raises typically pressuring the share price while strategic partnerships or resource upgrades tend to be re-rated positively."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAV",
+      "company": "CARNAVALE RESOURCES LIMITED",
+      "headline": "Metallurgical Studies confirm outstanding recoveries at KGP",
+      "time": "2026-08-02T23:18:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117214-6A1337001",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Metallurgical test results confirming 'outstanding recoveries' at the Kookynie Gold Project (KGP) represent a critical de-risking milestone — strong recoveries directly underpin project economics and reduce processing cost assumptions in any future feasibility study, potentially lifting NPV materially.",
+        "High recovery rates validate the amenability of KGP ore to conventional processing, which is a key gating factor for attracting project financing or a strategic partner; this result meaningfully narrows the technical risk discount the market has been applying to the asset.",
+        "The next catalysts to watch are a resource update or scoping/PFS study that incorporates these metallurgical parameters — confirmation of recoveries is typically a precursor to an upgraded economic study, which would be the next material re-rating event for Carnavale shareholders."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "SPA",
       "company": "SPACETALK LTD",
