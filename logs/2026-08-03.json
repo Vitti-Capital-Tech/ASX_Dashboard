@@ -1,9 +1,256 @@
 {
   "date": "2026-08-03",
-  "total": 77,
-  "market_sensitive_count": 71,
-  "generated_at": "2026-08-02T23:07:57.461419+00:00",
+  "total": 90,
+  "market_sensitive_count": 84,
+  "generated_at": "2026-08-02T23:21:21.504549+00:00",
   "announcements": [
+    {
+      "ticker": "SPA",
+      "company": "SPACETALK LTD",
+      "headline": "Trading Halt",
+      "time": "2026-08-02T23:17:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117213-2A1687194",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt requested pending a material announcement — the market-sensitive classification signals a significant corporate event is imminent, most likely a capital raise, M&A transaction, or major partnership given Spacetalk's small-cap growth profile in the wearable tech/family safety device space.",
+        "For a micro-cap like Spacetalk (SPA), a market-sensitive halt typically precedes equity issuance or a strategic deal; investors should monitor for potential dilution risk if a placement is confirmed, or re-rating catalyst if a distribution/licensing agreement is the trigger.",
+        "Until the halt is lifted and the underlying announcement is disclosed, position sizing carries elevated binary risk — institutional participants should await full details before assessing impact on Spacetalk's cash runway, which has historically been a key vulnerability for the company."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ML8",
+      "company": "MOONLIGHT RESOURCES LTD",
+      "headline": "ML8 commences Maiden Drilling at Peak Downs Copper Prospect",
+      "time": "2026-08-02T23:16:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117211-2A1687193",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Maiden drilling commencement at Peak Downs Copper Prospect represents a critical de-risking milestone for ML8, transitioning the project from exploration-stage to drill-tested asset — a catalyst that typically re-rates junior explorers as the market prices in discovery optionality.",
+        "The market-sensitive classification signals management believes drill results carry material price impact, implying the target is substantive in scale; investors should monitor assay turnaround timelines closely as copper's structural demand tailwinds (energy transition, grid infrastructure) amplify any discovery significance.",
+        "Near-term share price trajectory will be highly binary and results-dependent — positive intercepts with meaningful copper grades could attract institutional attention given the commodity's strategic importance, while a miss risks a sharp pullback typical of speculative exploration plays; position sizing and cash runway post-drilling program warrant scrutiny."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "UNT",
+      "company": "UNITH LTD",
+      "headline": "UNITH Announces the Alpha Release of its New DEVA-1 AI Model",
+      "time": "2026-08-02T23:16:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117209-3A698077",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "UNITH's alpha release of DEVA-1 marks a critical de-risking milestone for the company's proprietary AI model stack, signalling a transition from concept to testable product — a key inflection point that institutional investors typically use to reassess technology-stage valuations.",
+        "The 'alpha' designation indicates early-stage functionality rather than commercial deployment, meaning revenue contribution remains speculative; investors should scrutinise upcoming beta timelines, enterprise pilot agreements, and cash burn rate to assess whether the runway supports a full commercial launch.",
+        "Near-term catalysts to watch include beta partner announcements, integration deals with enterprise clients, and any disclosed performance benchmarks for DEVA-1 relative to competing AI models — these will be the key determinants of whether this announcement translates into sustained re-rating or fades as a promotional update."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IXR",
+      "company": "IONIC RARE EARTHS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-02T23:14:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117204-3A698076",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt requested by Ionic Rare Earths (IXR) pending a material announcement — the market-sensitive classification signals a potentially significant corporate development, most likely a capital raise, strategic partnership, or project funding update for its Makuutu rare earths project in Uganda.",
+        "IXR has been navigating a challenging funding environment for its flagship ionic clay rare earths deposit; any announcement tied to project financing, offtake agreements, or a strategic investor would be a critical catalyst given the company's historically tight cash position and pre-revenue status.",
+        "Investors should monitor closely for resumption of trading — if the pending announcement relates to a cornerstone investor or debt facility, it could materially re-rate the stock; conversely, an equity raise at a discount would likely pressure the share price near-term."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MTM",
+      "company": "METALLIUM LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-02T23:14:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117202-6A1336999",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Metallium Limited (ASX: MLL) has entered a trading halt pending a material announcement, suspending price discovery and liquidity for investors — the market-sensitive classification signals a potentially significant corporate development is imminent.",
+        "Trading halts of this nature on small-cap ASX miners most commonly precede capital raises, M&A activity, or material resource/exploration updates — each carrying distinct valuation implications that cannot be assessed until the underlying announcement is released.",
+        "Investors should monitor the resumption announcement closely; the halt duration (typically 1-2 trading days under ASX Listing Rules) will determine when price action resumes, with the nature of the disclosure likely to drive a sharp directional move given MLL's small-cap liquidity profile."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DAL",
+      "company": "DALAROO METALS LTD",
+      "headline": "Strategic Funding Secured to Accelerate Bondoukou Drilling",
+      "time": "2026-08-02T23:13:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117199-6A1336959",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic funding secured removes a key near-term execution risk, enabling Dalaroo to advance drilling at its Bondoukou project without the dilutive overhang of an imminent equity raise — critical for a junior explorer where cash burn and capital access directly dictate newsflow cadence.",
+        "The market-sensitive classification signals material information content; investors should scrutinise funding terms closely — whether structured as debt, royalty, or convertible facility — as the cost of capital and any conversion/dilution mechanics will determine the true net benefit to existing shareholders.",
+        "Accelerated drilling at Bondoukou positions the company for a potential resource definition or discovery catalyst in the near term; success would be transformative given the project's West African jurisdiction, where analogous gold and base metal discoveries have historically re-rated small-cap explorers significantly."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PCX",
+      "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
+      "headline": "PCX Completion of Placement",
+      "time": "2026-08-02T23:12:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117193-2A1687187",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Placement completion signals successful capital formation for PCX, expanding the trust's investable capital base to deploy into global private credit markets — a sector benefiting from elevated base rates and bank disintermediation trends driving attractive risk-adjusted returns.",
+        "The equity raise, while dilutive to existing unitholders on a per-unit basis, is structurally accretive if proceeds are deployed at yields consistent with the trust's target return profile, with the key metric to watch being the speed and quality of capital deployment into underlying private credit assets.",
+        "Near-term focus shifts to deployment execution — investors should monitor the trust's ability to allocate placement proceeds efficiently without yield compression, as idle cash drag on a closed-end vehicle can materially impact NTA and distribution coverage ratios in the short term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "YOJ",
+      "company": "YOJEE LIMITED",
+      "headline": "Oversubscribed Capital Raising to Fast Track Growth",
+      "time": "2026-08-02T23:12:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117192-6A1336910",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Oversubscribed raise signals strong institutional and sophisticated investor demand, validating Yojee's logistics SaaS growth narrative and reducing near-term execution risk — a meaningful de-risking event for a micro-cap technology name.",
+        "The capital injection is earmarked to accelerate growth, implying deployment into sales, customer acquisition, or geographic expansion; investors should scrutinise the use-of-funds breakdown closely to assess whether the raise is dilutive relative to the revenue uplift it can realistically generate.",
+        "Oversubscription typically provides a short-term share price catalyst, but sustained re-rating will depend on Yojee converting fresh capital into measurable ARR growth and improved unit economics — watch the next quarterly (4C) for evidence of accelerating customer metrics."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "INF",
+      "company": "INFINITY METALS LIMITED",
+      "headline": "Option to acquire Molybdenum-Copper Project in Nevada",
+      "time": "2026-08-02T23:11:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117191-6A1336993",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic commodity pivot: Infinity Metals is optioning into a molybdenum-copper project in Nevada, adding exposure to molybdenum — a critical mineral increasingly in demand for steel hardening and clean energy applications — which could re-rate the company's commodity narrative with institutional investors seeking critical minerals leverage.",
+        "Nevada jurisdiction is a key value signal: the state consistently ranks among the world's top mining-friendly jurisdictions (Fraser Institute), reducing permitting risk and potentially compressing the timeline to resource definition, which is material for a small-cap explorer needing to demonstrate near-term catalysts.",
+        "Option structure limits upfront capital exposure while preserving optionality — investors should scrutinise the option terms (exercise price, milestones, and expiry) in the full announcement to assess dilution risk and whether the company has sufficient cash runway to fund exploration through to a decision point."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BIM",
+      "company": "BINDI METALS LIMITED",
+      "headline": "Sale of Biloela Project",
+      "time": "2026-08-02T23:09:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117190-6A1336992",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bindi Metals is divesting its Biloela Project, signalling a strategic portfolio rationalisation that likely frees up capital and management bandwidth to concentrate on higher-priority exploration assets — a common value-unlocking move for junior explorers with stretched resources.",
+        "The financial terms of the sale are critical to assess impact: any cash consideration received will directly bolster Bindi's cash runway, reducing near-term dilution risk from equity raises, while a scrip or deferred payment structure would warrant closer scrutiny of counterparty quality and milestone triggers.",
+        "Investors should monitor whether the divestment proceeds are earmarked for accelerated drilling or working capital at core projects, as the redeployment strategy will be the key determinant of whether this transaction creates or destroys shareholder value over the next 12 months."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GRV",
+      "company": "GREENVALE ENERGY LTD",
+      "headline": "Initial Fieldwork Confirms New Priority Prospects",
+      "time": "2026-08-02T23:07:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117188-2A1687188",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Initial fieldwork has delineated new priority prospects, representing a material de-risking milestone for Greenvale Energy's exploration pipeline — converting desktop targets into field-validated opportunities and increasing the probability of drill-ready assets in the near term.",
+        "The market-sensitive classification signals management views the prospect upgrades as potentially value-accretive; investors should watch for specifics on prospect size, geological analogues, and any resource estimates or geochemical data underpinning the prioritisation.",
+        "Next catalysts likely include a formal drilling program announcement and capital allocation decisions — key risks remain funding adequacy for follow-up work and the binary nature of exploration outcomes at this early stage."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "E25",
+      "company": "ELEMENT 25 LIMITED",
+      "headline": "Binding Offtake Signed for Butcherbird Manganese",
+      "time": "2026-08-02T23:05:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117183-6A1336988",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A binding offtake agreement for Butcherbird manganese ore removes a critical commercial de-risking hurdle, significantly improving the project's bankability and positioning Element 25 to advance project financing discussions with greater credibility.",
+        "The secured offtake provides revenue visibility and underpins project economics — key metrics investors should watch include contracted volumes, pricing mechanisms (fixed vs. index-linked), and contract duration, as these will directly determine NPV sensitivity and margin protection against manganese price volatility.",
+        "With offtake now binding, the logical next catalysts are project financing mandate, updated DFS/feasibility economics, and potential construction timeline announcement — making this a pivotal inflection point that could materially re-rate the stock if financing follows within a credible timeframe."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TA1",
+      "company": "TRANSURBAN FINANCE COMPANY PTY LTD",
+      "headline": "NSW Toll Reform and June traffic",
+      "time": "2026-08-02T23:03:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117182-2A1687185",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NSW Toll Reform represents a structural policy shift that could materially alter Transurban's revenue framework on Sydney assets — any cap, rebate scheme, or concession renegotiation carries direct implications for long-term cash flow visibility and WACC assumptions underpinning DCF valuations.",
+        "June traffic data is a key lead indicator for FY25 toll revenue; investors will scrutinise whether traffic volumes on Sydney corridors (M2, M7, NorthConnex) are recovering toward pre-reform run-rates or showing demand elasticity concerns driven by cost-of-living pressures on motorists.",
+        "Near-term focus will be on whether NSW Government reform terms are commercially compensable under existing concession deeds — if Transurban secures offsetting concession extensions or revenue guarantees, the overhang from reform risk diminishes significantly and re-rates the stock positively."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "VRL",
       "company": "VERITY RESOURCES LIMITED",
