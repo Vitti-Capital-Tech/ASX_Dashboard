@@ -1,9 +1,395 @@
 {
   "date": "2026-08-04",
-  "total": 58,
-  "market_sensitive_count": 53,
-  "generated_at": "2026-08-03T23:23:07.560036+00:00",
+  "total": 78,
+  "market_sensitive_count": 71,
+  "generated_at": "2026-08-03T23:51:14.334667+00:00",
   "announcements": [
+    {
+      "ticker": "BMR",
+      "company": "BALLYMORE RESOURCES LIMITED",
+      "headline": "Torpy's continues to grow with new high-grade results",
+      "time": "2026-08-03T23:43:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117676-2A1687428",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-grade drill results at Torpy's prospect signal a potentially significant mineralised system expanding in scale — 'new high-grade results' language in a market-sensitive filing typically indicates intercepts materially above resource cut-off grades, which can re-rate exploration-stage valuations rapidly.",
+        "Continued growth of the Torpy's footprint suggests systematic step-out drilling is confirming lateral and/or depth extensions, a critical de-risking milestone that increases the probability of a maiden or upgraded resource estimate and attracts institutional and M&A attention.",
+        "Near-term catalysts to watch include a formal resource estimate update, additional assay results from infill/extension drilling, and potential capital raising to accelerate exploration — investors should monitor drill hole spacing and grade-thickness (GT) values in the full release to assess economic viability."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FZR",
+      "company": "FITZROY RIVER CORPORATION LTD",
+      "headline": "Advisor Appointed - Potential Divestment of Bowdens Royalty",
+      "time": "2026-08-03T23:42:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117674-6A1337208",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FZR has formally engaged an advisor to explore the divestment of its Bowdens Silver royalty interest — a strategic move that signals management is actively seeking to monetise non-core assets, potentially unlocking latent balance sheet value that the market may not be fully pricing in.",
+        "The Bowdens royalty is tied to one of Australia's largest undeveloped silver-zinc-lead deposits (MAG Silver/Bowdens Silver project in NSW), meaning any sale price achieved could serve as a meaningful re-rating catalyst depending on deal terms and implied royalty valuation multiples versus FZR's current market cap.",
+        "Appointment of an advisor is an early-stage process indicator — investors should watch for binding offers or exclusivity announcements as the next material trigger; deal execution risk remains, and the divestment timeline is uncertain, warranting a cautious but attentive stance."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EUR",
+      "company": "EUROPEAN LITHIUM LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-03T23:42:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117673-6A1337205",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in European Lithium (EUR), crossing the 5% ownership threshold — signalling meaningful institutional or strategic interest in the company's Austrian Wolfsberg lithium project at a time when critical minerals remain geopolitically significant.",
+        "The identity and scale of the incoming substantial holder is critical context: if this represents a strategic cornerstone investor (e.g. battery manufacturer, EV supply chain player, or sovereign-backed fund), it could validate EUR's project economics and accelerate development financing conversations.",
+        "Investors should monitor whether this substantial holding triggers further on-market accumulation or precedes a formal strategic partnership or capital raise — substantial holder notices in junior miners frequently precede material corporate activity within 3–6 months."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CRI",
+      "company": "CRITICA LIMITED",
+      "headline": "Jupiter Hydromet Cuts Acid Consumption by Approximately 30%",
+      "time": "2026-08-03T23:41:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117671-6A1337207",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A ~30% reduction in acid consumption at the Jupiter Hydromet facility is a material operating cost improvement — sulphuric acid is typically one of the largest reagent cost inputs in hydrometallurgical processing, meaning this directly improves project economics and narrows the gap to commercial viability.",
+        "The achievement is technically significant as it validates process optimisation at the bench/pilot scale, de-risking the hydromet flowsheet ahead of any feasibility or scale-up decision — a key de-risking milestone that institutional investors will scrutinise for reproducibility at commercial scale.",
+        "Next catalyst to watch is whether Critica translates this efficiency gain into updated project cost models (OPEX reduction) or a formal resource/feasibility study update; sustained acid reduction at scale could meaningfully shift the project's NPV and attract strategic or offtake interest in the critical minerals processing space."
+      ],
+      "tags": [
+        "Mining",
+        "Production",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AM7",
+      "company": "ARCADIA MINERALS LIMITED",
+      "headline": "Exploration Analysis Defines Drill Targets at TVC Project",
+      "time": "2026-08-03T23:41:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117667-6A1337206",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Arcadia Minerals has completed systematic exploration analysis at its TVC Project, converting geochemical and geophysical data into actionable drill targets — a critical de-risking milestone that moves the project from early-stage exploration to drill-ready status, typically a key re-rating catalyst for junior explorers.",
+        "The market-sensitive classification signals management believes the defined drill targets carry material discovery potential; investors should scrutinise the target size, depth, and commodity focus (likely base/precious metals given Arcadia's Namibia-focused portfolio) to assess whether the scale justifies a meaningful re-rating versus peer comparables.",
+        "Near-term newsflow will be dominated by drill program announcement, contractor engagement, and permitting timelines — execution risk remains the key variable, and any delays in mobilisation or funding constraints for the drill campaign could temper the initial positive sentiment generated by this target-definition update."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BTR",
+      "company": "BRIGHTSTAR RESOURCES LIMITED",
+      "headline": "Goldfields Project July Construction Update",
+      "time": "2026-08-03T23:40:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117666-6A1337203",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Construction progress at the Goldfields Project signals Brightstar is advancing toward production-readiness, a critical de-risking milestone that typically re-rates junior gold developers as execution risk diminishes and timeline certainty improves.",
+        "A July construction update marked as market sensitive implies material progress — potentially commissioning timelines, capital expenditure tracking against budget, or key infrastructure completions — all of which directly impact the path to first gold pour and cash flow generation.",
+        "Investors should monitor whether the update confirms the project remains on schedule and within capital budget; any cost overruns or delays would pressure the balance sheet and likely require additional funding, while on-track delivery supports near-term production catalyst newsflow into H2 2025."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WAU",
+      "company": "WA GOLD LIMITED",
+      "headline": "HIGH-GRADE GOLD CONFIRMS CONTINUITY AT ABERCROMBY",
+      "time": "2026-08-03T23:39:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117662-6A1337201",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade gold intercepts at Abercromby confirm structural continuity of the mineralised system, a critical de-risking milestone that materially strengthens the geological model and supports resource definition drilling — reducing exploration risk premium typically embedded in early-stage gold equities.",
+        "The market-sensitive classification signals results likely exceed expectations in grade and/or width; high-grade continuity at depth or along strike expands the potential resource envelope, which could catalyse an upward revision to any existing resource estimate and attract institutional re-rating interest.",
+        "Near-term focus will shift to the pace and scale of follow-up drilling to convert these intercepts into a maiden or upgraded JORC resource — investors should monitor drill spacing, infill programme timelines, and whether the company has sufficient cash runway to sustain a systematic resource delineation campaign without near-term dilutive capital raises."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ECT",
+      "company": "ENVIRONMENTAL CLEAN TECHNOLOGIES LIMITED.",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-08-03T23:39:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117661-6A1337193",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reinstatement to quotation signals resolution of the compliance or disclosure issue that triggered the trading halt — investors should scrutinise the accompanying disclosure to determine whether the underlying catalyst (capital raise, material news, or regulatory matter) has been fully addressed or remains a lingering risk.",
+        "Trading halts on micro-cap environmental technology stocks like ECT typically precede capital raises or material announcements; any equity issuance at a discount to the pre-halt price would be immediately dilutive and warrants close attention to the terms disclosed upon reinstatement.",
+        "Near-term price action will be highly volatile given ECT's thin liquidity profile and speculative market cap — institutional participants should monitor volume and any updated cash position or project milestones (particularly its Coldry/Matmor technology commercialisation progress) to assess whether the reinstatement marks a genuine inflection point or a continued capital-consumption cycle."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ECT",
+      "company": "ENVIRONMENTAL CLEAN TECHNOLOGIES LIMITED.",
+      "headline": "ECT Signs Metallium Deal to Fast-Track MXenes Production",
+      "time": "2026-08-03T23:39:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117656-6A1337181",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ECT's deal with Metallium to accelerate MXenes production represents a strategic pivot into high-value advanced materials — MXenes command significant commercial interest across energy storage, electromagnetic shielding, and defence applications, potentially repositioning ECT beyond its traditional clean-tech identity and expanding its addressable market materially.",
+        "The market-sensitive classification signals management believes this agreement has genuine valuation implications, though key commercial terms — exclusivity, revenue-sharing structure, capital commitments, and production timelines — remain critical unknowns that institutional investors will need to scrutinise before sizing positions.",
+        "Near-term catalysts to watch include disclosure of binding contract terms, any offtake or licensing arrangements, and whether ECT's existing infrastructure (notably its Coldry/Matmor technology base) can be leveraged to reduce MXenes scale-up capex — execution risk remains elevated given ECT's historically limited revenue base and the early-stage nature of commercial MXenes manufacturing globally."
+      ],
+      "tags": [
+        "Technology",
+        "Production",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ECT",
+      "company": "ENVIRONMENTAL CLEAN TECHNOLOGIES LIMITED.",
+      "headline": "ECT Acquires Exclusive FJH Technology to Produce MXenes",
+      "time": "2026-08-03T23:38:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117654-6A1337179",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ECT has secured exclusive rights to Flash Joule Heating (FJH) technology for MXene production — a strategically significant move given MXenes are a high-value class of 2D nanomaterials with rapidly growing demand in energy storage, EMI shielding, and defence applications, potentially repositioning ECT beyond its legacy steelmaking focus.",
+        "The exclusivity of the licence is the critical commercial differentiator here — if ECT can scale FJH-based MXene synthesis cost-effectively, it could capture first-mover advantage in a nascent but high-margin materials market currently dominated by expensive, hazardous wet-chemistry processes, though no revenue figures or commercialisation timeline have been disclosed.",
+        "Key near-term catalysts to watch include: disclosure of licence terms and any upfront cash consideration (material for a small-cap with limited cash runway), proof-of-concept production milestones, and potential offtake or JV discussions — investors should scrutinise whether ECT has the balance sheet and technical capacity to execute without dilutive capital raises."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AGE",
+      "company": "ALLIGATOR ENERGY LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-03T23:37:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117649-2A1687426",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Alligator Energy (AGE) has entered a trading halt pending a material announcement, with the market-sensitive classification signalling a potentially significant corporate development — most likely a capital raise, asset update, or strategic transaction given the company's uranium exploration focus.",
+        "The trading halt mechanism prevents price-sensitive information asymmetry, but institutional investors should note AGE's recent activity around its Samphire Uranium Project in South Australia — any resource update, partnership, or funding news in the current uranium bull market could carry outsized re-rating potential.",
+        "Investors should monitor the resumption announcement closely; if the halt relates to a capital raise, dilution risk is the key concern, whereas a strategic partnership or resource milestone in the current elevated uranium price environment (~US$80+/lb) would likely be viewed as a net positive catalyst for the stock."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NH3",
+      "company": "NH3 CLEAN ENERGY LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-03T23:35:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117646-6A1337199",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "NH3 Clean Energy has entered a trading halt, suspending price discovery and liquidity for investors — the halt is classified as market sensitive, signalling a material corporate development is imminent rather than routine administrative action.",
+        "Trading halts at micro-cap clean energy companies of this profile are most commonly precursors to capital raises, M&A activity, or significant project announcements — given NH3's focus on green ammonia technology, a strategic partnership or funding round would be consistent with sector activity patterns.",
+        "Investors should monitor the resumption announcement closely; if the halt resolves into a dilutive placement at a discount, near-term selling pressure is likely, whereas a strategic offtake agreement or non-dilutive milestone could act as a re-rating catalyst for this speculative-stage energy play."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INF",
+      "company": "INFINITY METALS LIMITED",
+      "headline": "San Jose Update",
+      "time": "2026-08-03T23:34:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117645-6A1337196",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material new information from the San Jose project — likely drill results, resource update, or significant exploration discovery that could re-rate the stock near-term.",
+        "Infinity Metals' San Jose asset is the company's flagship focus; any positive assay results or expanded mineralisation would be a direct catalyst for valuation uplift given the early-stage nature of the company and leverage to exploration success.",
+        "Investors should watch for follow-up drilling programs, resource estimation timelines, or potential JV/farm-in interest as next logical steps if results confirm economic mineralisation — these would be key de-risking milestones for institutional consideration."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MTM",
+      "company": "METALLIUM LIMITED",
+      "headline": "First Commercial FJH Technology Services Agreement",
+      "time": "2026-08-03T23:34:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117644-6A1337142",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Metallium has secured its first commercial services agreement utilising Flash Joule Heating (FJH) technology — a critical de-risking milestone that transitions the company from R&D/pre-revenue stage to a fee-generating commercial entity, directly addressing investor concerns around technology viability and monetisation timeline.",
+        "The market-sensitive classification signals material revenue or contract value significance; institutional investors should scrutinise deal terms including contract duration, revenue quantum, and counterparty creditworthiness to assess whether this represents a scalable, repeatable revenue stream or a one-off proof-of-concept engagement.",
+        "This first commercial agreement establishes a reference case and commercial precedent for FJH technology services, potentially accelerating pipeline conversion with other prospective clients — the key near-term catalyst to watch is whether management can announce additional agreements within the next 1-2 quarters to validate a genuine commercial ramp."
+      ],
+      "tags": [
+        "Technology",
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AI1",
+      "company": "ADISYN LTD",
+      "headline": "Trading Halt",
+      "time": "2026-08-03T23:31:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117643-6A1337198",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "ADISYN LTD (AD1) has entered a trading halt, suspending price discovery and liquidity for investors — the halt is classified as market sensitive, signalling a material corporate event is imminent rather than routine administrative action.",
+        "Trading halts on small-cap ASX technology stocks most commonly precede capital raises, M&A announcements, or material contract disclosures; given AD1's focus on AI and advanced materials technology, a strategic partnership or funding round is the most probable catalyst.",
+        "Investors should monitor the resumption announcement closely — the nature of the pending disclosure will be the key determinant of direction, with a capital raise at a discount representing downside risk to existing holders while a strategic deal or revenue-generating contract could be a re-rating catalyst."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TG6",
+      "company": "TG METALS LIMITED",
+      "headline": "$2.5M Raised to Advance Gold and Lithium Strategies",
+      "time": "2026-08-03T23:28:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117640-6A1337183",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TG Metals has secured $2.5M in fresh capital, providing immediate liquidity to advance dual-commodity exposure across gold and lithium — a strategic positioning that broadens investor appeal amid divergent commodity cycles and reduces single-asset risk.",
+        "The raise size, while modest, signals early-stage capital deployment typical of junior explorers; key investor scrutiny should focus on the placement price relative to last traded price to assess dilution severity and whether cornerstone institutional support was secured.",
+        "Proceeds earmarked across two distinct commodity strategies suggest management is optioning multiple value pathways — near-term catalysts to watch include drill program commencement dates, resource estimate milestones, and any farm-in or JV activity that could validate asset quality without further dilution."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GDR",
+      "company": "GOLDEN DRAGON MINING LTD",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-03T23:27:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117637-3A698151",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Golden Dragon Mining Ltd, crossing the 5% ownership threshold — a key disclosure trigger under ASX Listing Rules that signals meaningful accumulation by a single entity or associated group.",
+        "The identity, total voting power percentage, and cost basis of the incoming substantial holder are critical details to assess whether this represents strategic positioning, passive investment, or a potential precursor to a control event such as a takeover or board influence play.",
+        "Investors should monitor for follow-on 13D/substantial holder amendments in coming weeks — repeated top-ups above the initial threshold often signal activist intent or M&A interest, particularly relevant for small-cap miners where concentrated ownership can rapidly shift corporate direction."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NTI",
+      "company": "NEUROTECH INTERNATIONAL LIMITED",
+      "headline": "Receipt of Binding Commitments for $4.5m Placement",
+      "time": "2026-08-03T23:26:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117636-6A1337167",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Neurotech has secured binding commitments for a $4.5M placement, providing a critical capital injection for this clinical-stage biotech — the immediate 'so what?' is extended cash runway, likely pushing operations 12–18 months forward depending on current burn rate, and reducing near-term insolvency risk.",
+        "The placement structure and pricing will be key: any significant discount to the last traded price signals dilution pressure and weak institutional demand, while a tighter discount would indicate stronger conviction from incoming investors — terms warrant close scrutiny upon full announcement release.",
+        "Proceeds are expected to fund ongoing clinical development and commercialisation activities; investors should monitor whether this raise is accompanied by a strategic update or partnership news, as standalone dilutive raises without catalysts often face selling pressure post-reinstatement from any trading halt."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HYT",
+      "company": "HYTERRA LTD",
+      "headline": "McCoy-1 Production Testing Results",
+      "time": "2026-08-03T23:22:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117631-6A1337191",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "McCoy-1 production test results represent a critical de-risking milestone for Hyterra's natural hydrogen exploration thesis — confirmed flow rates and gas composition data will determine whether the project is commercially viable, making this a binary catalyst for the stock.",
+        "Natural hydrogen (H2) concentration levels and sustained flow rates from the test are the key metrics investors must scrutinise; any commercially meaningful H2 percentages (typically >10-20%) alongside stable wellhead pressure would materially re-rate the asset and validate Hyterra's Kansas acreage position.",
+        "Next steps will likely centre on independent resource assessment, potential appraisal drilling, and partnership or offtake discussions — if results are positive, Hyterra could attract strategic interest from energy majors increasingly focused on low-cost, naturally occurring hydrogen as a zero-emission fuel source."
+      ],
+      "tags": [
+        "Results",
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MAT",
+      "company": "MATSA RESOURCES LIMITED",
+      "headline": "Fortitude North Delivers More High Grade Gold Intercepts",
+      "time": "2026-08-03T23:22:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117630-6A1337192",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade gold intercepts at Fortitude North reinforce the deposit's geological continuity and grade consistency, directly supporting a potential resource upgrade that could re-rate the stock on a per-ounce basis.",
+        "Market-sensitive classification signals results are materially above expectations — investors should scrutinise headline grades and widths against prior intercepts to assess whether this expands the high-grade core or extends strike/depth, both of which carry distinct valuation implications.",
+        "Near-term catalysts hinge on the pace of follow-up drilling and whether Matsa can translate these intercepts into an updated JORC resource estimate; any resource growth at Fortitude North would strengthen the project's standalone economics and potential M&A optionality in a buoyant gold price environment."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "SX2",
       "company": "SOUTHERN CROSS GOLD CONSOLIDATED LTD.",
