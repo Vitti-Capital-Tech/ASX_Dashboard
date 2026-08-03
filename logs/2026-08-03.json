@@ -1,9 +1,144 @@
 {
   "date": "2026-08-03",
-  "total": 129,
-  "market_sensitive_count": 122,
-  "generated_at": "2026-08-03T01:35:57.628417+00:00",
+  "total": 136,
+  "market_sensitive_count": 125,
+  "generated_at": "2026-08-03T03:05:35.283163+00:00",
   "announcements": [
+    {
+      "ticker": "BOC",
+      "company": "BOUGAINVILLE COPPER LIMITED",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-08-03T03:03:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117348-3A698101",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Bougainville Copper remains in a prolonged holding pattern with no active mining operations at the Panguna deposit — one of the world's largest undeveloped copper-gold resources — as the company continues to await political and regulatory clarity from the Autonomous Region of Bougainville (AROB) following its 2019 independence referendum, leaving shareholders exposed to extended timeline risk with no near-term revenue catalyst.",
+        "Cash preservation is the critical metric to watch: with zero operational revenue and ongoing administrative/holding costs, investors should scrutinise the quarterly cash burn rate and remaining liquidity to assess runway, as any acceleration in expenditure without a clear path to a mining licence would signal heightened dilution or capital raise risk.",
+        "The key forward catalyst remains the AROB government's progress on establishing a mining regulatory framework and any movement on the Panguna mine licence — until formal engagement with BCL is confirmed and a legislative pathway is established, the stock is effectively a long-dated option on Bougainville sovereignty and resource nationalism resolution, making near-term re-rating unlikely without a concrete policy announcement."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AYA",
+      "company": "ARTRYA LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-08-03T02:34:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117343-6A1337055",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has dropped below the 5% ownership threshold in Artrya Limited (ASX: AYA), signalling a meaningful reduction in institutional conviction — the identity and scale of the exit will be critical to assess selling pressure on the register.",
+        "For a small-cap MedTech like Artrya, which is commercialising AI-driven coronary artery disease diagnostics, the loss of a substantial holder can tighten liquidity and reduce institutional sponsorship at a sensitive stage of its commercial ramp.",
+        "Investors should monitor subsequent trading volumes and any follow-on substantial holder notices to determine whether this represents a full exit or a partial reduction, and whether other institutional buyers are absorbing the freed-up stock — a key indicator of near-term register stability."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HIQ",
+      "company": "HITIQ LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-03T02:32:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117342-6A1337054",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in HITIQ's register — investors should monitor whether this reflects accumulation or disposal by a key institutional or strategic holder, as either scenario carries implications for future capital structure and governance influence.",
+        "The filing triggers the 5% threshold disclosure requirement under the Corporations Act, meaning the relevant party has crossed a material ownership boundary; the direction of movement (increasing vs. decreasing) will determine whether this represents growing conviction in HITIQ's head impact technology platform or an exit by an existing major stakeholder.",
+        "For a micro-cap technology company like HITIQ, substantial holder movements can materially impact liquidity and price discovery — investors should cross-reference the filing details against recent trading volumes and any concurrent capital raise activity to assess whether this is part of a broader strategic positioning event."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STV",
+      "company": "SWIFT TV LTD",
+      "headline": "Change in substantial holding - Pure Asset Management",
+      "time": "2026-08-03T02:01:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117329-6A1337046",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Pure Asset Management has triggered a substantial holding disclosure for Swift TV Ltd (STV), indicating a crossing of the 5% ownership threshold — a key regulatory milestone that signals meaningful institutional accumulation in what remains a micro-cap media/technology play.",
+        "The change in substantial holding warrants scrutiny of the direction of movement: if Pure Asset Management is increasing its stake, this reflects deliberate conviction buying by a professional fund manager, potentially signalling undiscovered value; a reduction would flag early institutional exit and potential near-term selling pressure.",
+        "Investors should monitor whether this filing precedes any strategic engagement — substantial holders at this level in small-cap companies often act as catalysts for board-level dialogue, capital structure changes, or M&A activity, making the trajectory of Pure Asset Management's position a key watch item in coming quarters."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VRC",
+      "company": "VOLT RESOURCES LIMITED",
+      "headline": "Update on Bunyu Mining Licences",
+      "time": "2026-08-03T02:00:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117328-6A1337045",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mining licence status at the Bunyu graphite project in Tanzania is a critical gating factor for Volt Resources — any update on licence renewals or disputes directly determines whether the company can advance toward production, making this announcement a pivotal catalyst for near-term valuation.",
+        "Tanzanian regulatory risk has historically been a key overhang for Volt, with licence delays or conditions capable of materially impacting project timelines, capital deployment decisions, and the company's ability to secure offtake or project financing from institutional partners.",
+        "Investors should monitor whether this update signals resolution (licence granted/renewed) or continued uncertainty — a positive outcome would unlock the pathway to feasibility advancement and potential re-rating, while any adverse conditions or further delays would likely trigger renewed selling pressure on an already thinly capitalised junior miner."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKY",
+      "company": "SKY METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-03T01:39:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117322-2A1687250",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "SKY Metals has entered a trading halt pending an announcement, suspending price discovery and liquidity for investors — the nature of the pending news is undisclosed, creating binary risk for holders until details emerge.",
+        "Trading halts on small-cap ASX miners most commonly precede capital raises, M&A activity, or material resource/operational updates — given SKY Metals' exploration-stage profile, a capital raise or asset transaction is the most probable catalyst, either of which carries dilution or structural change risk.",
+        "Investors should monitor the resumption announcement closely; if the halt extends toward the maximum two-trading-day ASX limit without disclosure, it may signal complex negotiations or regulatory coordination, increasing uncertainty and potential for a volatile re-rating on resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HCF",
+      "company": "H&G HIGH CONVICTION LIMITED",
+      "headline": "Becoming a substantial holder - Alexander Beard",
+      "time": "2026-08-03T01:37:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117320-2A1687249",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Alexander Beard has crossed the 5% substantial holder threshold in H&G High Conviction Limited (HCF), triggering mandatory disclosure obligations under the Corporations Act — signalling a meaningful accumulation of stock that warrants monitoring for potential strategic intent.",
+        "The crossing of the substantial holder threshold indicates deliberate position-building by Alexander Beard, which could reflect conviction in HCF's underlying portfolio value or NAV discount opportunity, though no activist or takeover intent has been disclosed at this stage.",
+        "Investors should watch for any further Form 604 notices indicating continued accumulation beyond the initial threshold, as escalating ownership by a single entity in a listed investment company (LIC) structure can be a precursor to board engagement, strategic proposals, or secondary market pressure on the share price relative to NAV."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GLL",
       "company": "GALILEE ENERGY LIMITED",
