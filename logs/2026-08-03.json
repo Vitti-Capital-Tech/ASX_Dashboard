@@ -1,9 +1,67 @@
 {
   "date": "2026-08-03",
-  "total": 126,
-  "market_sensitive_count": 120,
-  "generated_at": "2026-08-03T00:34:41.330329+00:00",
+  "total": 129,
+  "market_sensitive_count": 122,
+  "generated_at": "2026-08-03T01:35:57.628417+00:00",
   "announcements": [
+    {
+      "ticker": "GLL",
+      "company": "GALILEE ENERGY LIMITED",
+      "headline": "Request for Extension of Voluntary Suspension",
+      "time": "2026-08-03T01:24:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117314-2A1687245",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Galilee Energy has requested an extension to its voluntary suspension, signalling that a material corporate or financing event remains unresolved — prolonged halts of this nature typically indicate complex negotiations around capital structure, asset transactions, or strategic partnerships that require additional time to finalise.",
+        "The absence of a 'market sensitive' classification is notable but not necessarily reassuring; the extension itself implies the underlying catalyst — whether a capital raise, M&A transaction, or regulatory outcome — has not yet reached a conclusion, leaving investors in a continued information vacuum with no price discovery mechanism.",
+        "Key near-term watchpoint is the new suspension deadline and any accompanying ASX query response; if the company fails to provide a substantive update or re-rating catalyst upon resumption, the stock faces significant re-entry risk as accumulated uncertainty and potential forced selling by short-term holders could weigh on the opening price."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GLL",
+      "company": "GALILEE ENERGY LIMITED",
+      "headline": "New Targets Identified as Drilling Confirms Geological Model",
+      "time": "2026-08-03T01:23:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117313-2A1687144",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling results have validated Galilee Energy's geological model at its Taroom Trough CSG project, a critical de-risking milestone that materially strengthens the investment case and reduces subsurface uncertainty for future development decisions.",
+        "The identification of new targets beyond the original drill program scope suggests resource upside potential is expanding — a key value driver for a pre-production CSG company where resource scale directly underpins project economics and offtake negotiations.",
+        "With confirmed geology and new targets in hand, the next catalysts will be follow-up drilling approvals, updated resource estimates, and progress on gas sales agreements — all of which will be closely watched by institutional investors assessing the path to first gas and commercialisation."
+      ],
+      "tags": [
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKY",
+      "company": "SKY METALS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-08-03T00:56:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117304-2A1687244",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SKY Metals has entered a trading halt, suspending price discovery and liquidity for investors — the absence of disclosed rationale heightens uncertainty and typically signals a material pending announcement such as a capital raise, M&A transaction, or significant operational update.",
+        "Trading halts on small-cap ASX miners like SKY Metals are frequently precursors to equity raisings, which carry dilution risk for existing shareholders; alternatively, a strategic transaction or resource update could be the catalyst, making the direction of impact binary and high-stakes.",
+        "Investors should monitor the resumption announcement closely — the nature of the disclosure will be the key determinant of whether the halt resolves bullishly (deal/discovery) or bearishly (dilutive raise/compliance issue); positioning ahead of resumption carries elevated event risk."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SLB",
       "company": "STELAR METALS LIMITED",
