@@ -1,9 +1,411 @@
 {
   "date": "2026-08-04",
-  "total": 14,
-  "market_sensitive_count": 10,
-  "generated_at": "2026-08-03T22:25:21.204542+00:00",
+  "total": 35,
+  "market_sensitive_count": 30,
+  "generated_at": "2026-08-03T22:49:02.370237+00:00",
   "announcements": [
+    {
+      "ticker": "COF",
+      "company": "CENTURIA OFFICE REIT",
+      "headline": "COF FY26 Appendix 4E",
+      "time": "2026-08-03T22:44:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117561-2A1687387",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 4E filing signals FY26 full-year results are being lodged — market-sensitive classification indicates material earnings or distribution outcomes that could reset valuation benchmarks for this pure-play office REIT at a time when sector sentiment remains fragile amid elevated vacancy rates and refinancing pressures.",
+        "Key metrics to watch include funds from operations (FFO) per unit versus guidance, net tangible asset (NTA) per unit movement reflecting any further cap rate expansion or asset write-downs, and the final distribution figure — any shortfall or cut would be a significant negative catalyst given COF's yield-focused investor base.",
+        "With Australian office fundamentals showing bifurcation between premium CBD assets and secondary stock, COF's portfolio occupancy trajectory, weighted average lease expiry (WALE), and any commentary on debt refinancing progress will be critical forward indicators for whether the trust can stabilise distributions and arrest NTA erosion into FY27."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CBY",
+      "company": "CANTERBURY RESOURCES LIMITED",
+      "headline": "Drilling Progress at Briggs and Monto",
+      "time": "2026-08-03T22:41:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117558-2A1687381",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Active drill programs running simultaneously at both Briggs and Monto projects signals accelerated exploration pace, which for a junior explorer typically indicates management confidence in near-term resource definition or discovery potential — a key re-rating catalyst.",
+        "Market-sensitive classification elevates the significance of this update; investors should watch closely for assay results from current holes, as any high-grade intercepts at either project could materially shift the resource narrative and attract institutional attention.",
+        "Dual-project drilling momentum improves the probability of at least one meaningful result in the near term, reducing binary risk — however, cash burn rate and remaining drill budget will be critical to monitor given the capital-intensive nature of concurrent programs for a small-cap explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TSK",
+      "company": "TUSKER MINERALS LTD",
+      "headline": "Proposed Sale of Machinga REE Project to AuKing Mining",
+      "time": "2026-08-03T22:39:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117557-6A1337158",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tusker Minerals is divesting its Machinga Rare Earth Elements (REE) project in Malawi to AuKing Mining, signalling a strategic portfolio rationalisation — the deal terms (consideration, cash vs. scrip split) will be critical in determining whether this unlocks meaningful capital for redeployment or merely sheds a non-core asset with limited upside.",
+        "The market-sensitive classification suggests material consideration is involved; investors should scrutinise whether Tusker receives cash, AuKing scrip, or a hybrid structure — scrip-heavy deals in illiquid micro-cap counterparties carry significant realisable value risk and could be dilutive to Tusker's effective NAV per share.",
+        "Next steps hinge on shareholder approval, regulatory clearance (including any Malawian government consents), and AuKing's ability to fund development of the REE asset — failure to complete would leave Tusker holding a stranded project in a frontier jurisdiction, while successful completion could catalyse a strategic pivot toward higher-priority assets."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRX",
+      "company": "FLEXIROAM LIMITED",
+      "headline": "Etihad Airways Selects FlexiRoam as Connectivity Partner",
+      "time": "2026-08-03T22:38:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117555-6A1337152",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Landing Etihad Airways as a connectivity partner represents a marquee enterprise win for FlexiRoam, providing immediate brand validation and a scalable distribution channel into a premium Middle Eastern carrier with ~18 million annual passengers — materially expanding addressable revenue beyond its existing retail eSIM base.",
+        "The partnership structure as a 'connectivity partner' (rather than a one-off supplier) implies recurring, transaction-linked revenue tied to passenger volumes, which could significantly de-risk FlexiRoam's revenue profile and improve earnings visibility — a key re-rating catalyst for a small-cap technology company historically reliant on consumer channels.",
+        "Execution risk and contract ramp-up timelines remain the critical watch items; investors should monitor upcoming quarterly cashflow reports (4C) for evidence of Etihad-attributed revenue conversion and whether this deal accelerates further airline or travel-sector partnership announcements, which would confirm a scalable B2B2C go-to-market strategy."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PNR",
+      "company": "PANTORO GOLD LIMITED",
+      "headline": "Racetrack drilling confirms continuity with bonanza grades",
+      "time": "2026-08-03T22:37:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117554-6A1337150",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bonanza-grade intercepts at Racetrack confirm structural continuity of high-grade mineralisation, materially de-risking resource expansion and supporting a potential upward revision to the Mineral Resource Estimate — a key re-rating catalyst for PNR.",
+        "The term 'bonanza grades' signals exceptional gold concentrations (typically >30g/t Au), which disproportionately improve project economics by boosting head grade, reducing processing costs per ounce, and enhancing free cash flow margins at current spot gold prices above A$4,800/oz.",
+        "Drilling continuity results are expected to feed into an updated resource model and mine plan; investors should watch for a revised MRE release and any implications for Norseman Gold Project production guidance and capital allocation priorities in upcoming quarterly reports."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CCP",
+      "company": "CREDIT CORP GROUP LIMITED",
+      "headline": "Credit Corp Group FY26 Results Presentation",
+      "time": "2026-08-03T22:31:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117551-2A1687380",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation signals full-year performance disclosure — institutional focus will centre on whether Credit Corp has delivered on prior guidance of NPAT recovery, given FY25 was marked by elevated US debt ledger impairments and margin compression in the lending segment.",
+        "Key metrics to scrutinise include US PDL (purchased debt ledger) collections performance and provisioning adequacy, as the US business has been the primary drag on group returns — any stabilisation or improvement would materially re-rate earnings quality and forward multiples.",
+        "Outlook commentary on Australian PDL supply pipeline, consumer lending arrears trends, and capital allocation (buyback vs. ledger investment) will be critical for consensus FY27 estimate revisions and determining whether the de-rating cycle has bottomed."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CCP",
+      "company": "CREDIT CORP GROUP LIMITED",
+      "headline": "Credit Corp Group FY26 Media Release",
+      "time": "2026-08-03T22:30:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117550-2A1687378",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FY26 guidance release signals management confidence in forward earnings visibility — institutional investors should scrutinise whether targets imply margin expansion or volume-driven growth in the debt purchasing and consumer lending segments, given the current high-rate environment compressing borrower quality.",
+        "Credit Corp's dual revenue streams (purchased debt ledgers and consumer lending) remain sensitive to credit cycle dynamics; any upward revision to PDL acquisition volumes or ledger yields would be a material positive, while deteriorating collection rates or rising impairments in the lending book would be the key downside risk to watch.",
+        "As a market-sensitive update, the FY26 media release likely contains explicit earnings guidance or a material operational update — investors should benchmark disclosed metrics against consensus NPAT estimates (~A$90-100M range) and monitor whether the US debt purchasing business is tracking to its recovery trajectory following prior-year headwinds."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CBL",
+      "company": "CONTROL BIONICS LIMITED",
+      "headline": "US FDA Registration and Device Listing for NeuroStrip",
+      "time": "2026-08-03T22:26:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117547-2A1687374",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "US FDA registration and device listing for NeuroStrip removes a critical regulatory barrier, granting Control Bionics legal authority to commercially market and sell the product directly into the world's largest medical device market — a pivotal de-risking milestone for the company.",
+        "The FDA clearance materially expands the addressable market for NeuroStrip beyond Australia, with the US representing a significantly larger revenue opportunity; this listing is a prerequisite for hospital procurement, insurance reimbursement pathways, and distribution partnerships with US healthcare networks.",
+        "Near-term catalysts to watch include the pace of US commercial rollout, appointment of US distribution partners or sales infrastructure, and whether management upgrades revenue guidance to reflect the expanded market access — investors should monitor Q1/Q2 FY26 quarterly cash flow reports for early US revenue contribution."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ZNO",
+      "company": "ZOONO GROUP LIMITED",
+      "headline": "Zoono makes strong start to the FY27 year",
+      "time": "2026-08-03T22:25:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117546-2A1687379",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The 'strong start to FY27' framing signals early revenue momentum that could reset market expectations for a company that has historically struggled with consistent top-line delivery — the key question is whether this reflects structural demand recovery or one-off contract wins.",
+        "As a microcap antimicrobial technology play, any quantified uplift in sales or order pipeline disclosed in this update would be materially significant given Zoono's historically thin cash buffers and reliance on recurring product revenue across healthcare and hygiene verticals.",
+        "Investors should scrutinise whether the FY27 momentum is underpinned by new distribution agreements or geographic expansion — particularly in the US or Middle East markets where Zoono has previously flagged growth ambitions — as these would provide more durable re-rating catalysts than seasonal volume spikes."
+      ],
+      "tags": [
+        "Market Update",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CCP",
+      "company": "CREDIT CORP GROUP LIMITED",
+      "headline": "Appendix 4E",
+      "time": "2026-08-03T22:24:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117545-2A1687376",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 4E signals full-year preliminary results are in — as a market-sensitive filing, this indicates material financial outcomes that deviate meaningfully from prior period performance or market expectations, warranting immediate attention from institutional holders.",
+        "Credit Corp operates across debt purchasing (PDL), consumer lending, and US operations — key metrics to watch include PDL book growth, net profit after tax trajectory, and US segment profitability, which has been a drag in recent periods and a critical swing factor for FY earnings quality.",
+        "With the company having previously guided toward earnings recovery driven by improved collections and disciplined PDL purchasing, this filing will confirm whether management has delivered on that trajectory — any upside surprise could catalyse a re-rating given the stock has traded at a discount to historical multiples amid macro credit concerns."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AUA",
+      "company": "AUDEARA LIMITED",
+      "headline": "Chip-level AI Licensing Partnership Commercial Production",
+      "time": "2026-08-03T22:24:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117544-2A1687375",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Audeara has transitioned its chip-level AI licensing partnership into commercial production — a critical de-risking milestone that validates the technology's readiness for mass deployment and shifts the revenue model from development-stage to recurring licensing income.",
+        "The chip-level integration signals deep OEM/hardware partner commitment, suggesting meaningful unit volume economics ahead; investors should watch for disclosed royalty rates or minimum volume commitments in the announcement, as these will determine the revenue materiality and scalability of this stream.",
+        "Near-term catalysts to monitor include the identity and scale of the manufacturing partner, initial production run volumes, and whether this triggers any milestone payments — key variables that will determine if this partnership can meaningfully extend Audeara's cash runway and reduce reliance on equity raisings."
+      ],
+      "tags": [
+        "Technology",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IOV",
+      "company": "ION VIDEO LTD",
+      "headline": "Operating runway extended",
+      "time": "2026-08-03T22:24:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117543-6A1337146",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Operating runway extension signals ION Video has secured additional liquidity headroom — critical for a pre-revenue or early-stage technology company where cash burn management is the primary survival metric for investors.",
+        "The market-sensitive classification suggests the runway extension is material in scale or mechanism (debt facility, equity injection, or cost restructuring), implying prior runway was sufficiently short to constitute a disclosure obligation — a red flag on historical cash management.",
+        "Near-term focus shifts to the source and terms of the extension: if achieved via dilutive equity or high-cost debt, any share price relief rally may be short-lived; investors should scrutinise the accompanying detail for dilution quantum, interest rates, or asset encumbrances before sizing positions."
+      ],
+      "tags": [
+        "Technology",
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMU",
+      "company": "AMERICAN URANIUM LTD",
+      "headline": "Lo Herma Resource Reaches 9.96Mlbs as Indicated Grows 72%",
+      "time": "2026-08-03T22:24:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117542-6A1337145",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Total Lo Herma resource now stands at 9.96Mlbs U3O8, with the Indicated category surging 72% — a material upgrade that de-risks the project and strengthens the case for a Preliminary Economic Assessment or scoping study, key milestones institutional investors watch before committing capital to uranium juniors.",
+        "The shift from Inferred to Indicated classification is strategically significant: it signals improved geological confidence, expands the pool of bankable resource for project financing, and positions American Uranium closer to a maiden reserve estimate — a critical value-inflection point in the uranium development lifecycle.",
+        "With uranium spot prices remaining elevated relative to historical averages and global nuclear capacity expansion driving long-term contract demand, a near-10Mlbs resource base at Lo Herma enhances the company's attractiveness as a potential acquisition or joint-venture target for larger uranium producers seeking to replenish pipeline assets in established U.S. jurisdictions."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RCT",
+      "company": "REEF CASINO TRUST",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-03T22:24:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117540-2A1687372",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the ownership structure of Reef Casino Trust, with a holder crossing or moving through the 5% threshold — warranting close attention to whether this represents accumulation or distribution by a sophisticated investor.",
+        "The identity and direction of the change (increase vs. decrease) is critical: institutional accumulation above 5% could signal confidence in the Trust's stable casino income distributions, while a reduction may indicate profit-taking or a strategic portfolio reallocation away from the leisure/gaming sector.",
+        "Investors should monitor for follow-on filings that may indicate a creep acquisition strategy toward a control position, particularly given Reef Casino Trust's concentrated asset base (Cairns casino) and its attractiveness as a yield vehicle in the current rate environment."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AKN",
+      "company": "AUKING MINING LIMITED",
+      "headline": "AuKing to Acquire High Grade Heavy Rare Earths Project",
+      "time": "2026-08-03T22:24:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117539-2A1687371",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AuKing is acquiring a high-grade heavy rare earths (HRE) project, a strategically significant move given surging global demand for HREs in defence, EVs, and clean energy — sectors where China currently dominates supply chains, creating a structural premium for ex-China sources.",
+        "The 'high grade' designation is critical: HRE projects are rare and grade is the primary economic differentiator, as heavy rare earths (dysprosium, terbium, yttrium) command materially higher prices than light rare earths — a credible high-grade asset could substantially re-rate AuKing's market capitalisation from its current small-cap base.",
+        "Key near-term catalysts to watch include disclosure of acquisition terms (scrip vs. cash, vendor consideration, and any dilution impact), independent resource estimates or historical drilling data, and whether the project carries existing JORC resources — all of which will determine whether this is a transformational deal or an early-stage exploration play."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VFY",
+      "company": "VITRAFY LIFE SCIENCES LIMITED",
+      "headline": "FY26 Full Year Results Presentation",
+      "time": "2026-08-03T22:23:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117533-3A698134",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive FY26 full-year results from Vitrafy Life Sciences signal a material disclosure event — investors should scrutinise revenue trajectory, operating cash burn, and any impairment charges given the company's early-stage life sciences profile and historically limited commercial revenues.",
+        "Cash runway remains the critical metric for a pre-revenue or early-revenue biotech; any reduction in cash reserves, increased R&D expenditure without corresponding milestone progress, or absence of a clear funding pathway to next catalysts would be a significant red flag for near-term dilution risk.",
+        "Outlook commentary on clinical pipeline progression, partnership discussions, or regulatory milestones will be the primary re-rating catalyst — absence of concrete near-term catalysts or guidance downgrades could pressure the stock, while positive pipeline updates or commercialisation agreements would support a bullish re-rating."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VFY",
+      "company": "VITRAFY LIFE SCIENCES LIMITED",
+      "headline": "FY26 Appendix 4E and Annual Report",
+      "time": "2026-08-03T22:22:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117530-3A698128",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual report filing for FY26 signals Vitrafy Life Sciences is operating on an accelerated fiscal calendar — investors should scrutinise cash burn rate and runway closely, as early-stage life sciences companies at this scale typically face imminent capital requirements within 12 months.",
+        "As a micro-cap healthcare/life sciences entity on the ASX, the key metrics to watch are R&D expenditure trajectory, any revenue recognition from licensing or product sales, and whether the auditor has issued a going-concern qualification — all critical indicators of near-term dilution risk.",
+        "The 'market sensitive' designation elevates the significance of this filing; institutional investors should assess whether the report contains material updates on clinical pipeline milestones, partnership agreements, or regulatory progress that could serve as re-rating catalysts or, conversely, reveal stalled development timelines."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RKN",
+      "company": "RECKON LIMITED",
+      "headline": "HY26 Results Investor Presentation",
+      "time": "2026-08-03T22:22:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117529-2A1687367",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "HY26 results carry market-sensitive designation, signalling material financial disclosures that could reset consensus expectations — investors should scrutinise revenue trajectory and EBITDA margins across Reckon's core SME accounting and legal practice management divisions for signs of accelerating or decelerating SaaS transition momentum.",
+        "Key metrics to watch include recurring subscription revenue mix (vs. legacy licence), customer churn rates, and operating cash flow conversion — any deterioration in net revenue retention or margin compression from cloud infrastructure costs would be a red flag for the bull case on Reckon's SaaS re-rating story.",
+        "With Reckon operating in a highly competitive SME accounting software market against Xero and MYOB, the HY26 presentation's forward guidance and any commentary on product roadmap investment or M&A optionality will be critical in determining whether the stock can sustain or expand its current valuation multiple."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVO",
+      "company": "EMBARK EARLY EDUCATION LIMITED",
+      "headline": "EVO Placement 4 August 26",
+      "time": "2026-08-03T22:22:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117528-2A1687366",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Embark Early Education is executing a placement (EVO Placement) dated 4 August 2026, representing a deliberate equity capital raise that will dilute existing shareholders — the key risk is whether proceeds are deployed into accretive growth or merely shore up a stressed balance sheet.",
+        "The market-sensitive classification signals material size relative to the company's market capitalisation; investors should scrutinise the placement price discount to last traded price and the implied dilution percentage to assess value destruction risk.",
+        "Near-term focus will be on management's stated use of proceeds — if capital is directed toward childcare centre acquisitions or greenfield expansion in a structurally undersupplied sector, the raise could be re-rated positively; however, absent that clarity, dilution overhang is likely to weigh on the share price."
+      ],
+      "tags": [
+        "Capital Raise"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ATX",
+      "company": "AMPLIA THERAPEUTICS LIMITED",
+      "headline": "Amplia signs Collaboration and Supply Agreement with Lilly",
+      "time": "2026-08-03T22:22:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117526-2A1687363",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic validation from a Big Pharma partner: Signing a Collaboration and Supply Agreement with Eli Lilly — a top-5 global pharmaceutical company — provides significant third-party validation of Amplia's FAK inhibitor platform, materially de-risking the clinical and commercial narrative for institutional investors.",
+        "Deal structure will be critical to watch: The market-sensitive classification signals potential milestone payments, upfront fees, or supply economics that could meaningfully extend Amplia's cash runway — a key concern for a pre-revenue clinical-stage biotech — with full financial terms expected to be disclosed in the announcement body.",
+        "Near-term catalysts accelerate: The Lilly collaboration likely provides access to proprietary compounds, patient data, or combination therapy frameworks that could fast-track Amplia's pipeline progression, potentially pulling forward IND filings or Phase II readouts and compressing the timeline to value-inflection points."
+      ],
+      "tags": [
+        "Healthcare",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RKN",
+      "company": "RECKON LIMITED",
+      "headline": "2026 Half Year Results Summary",
+      "time": "2026-08-03T22:22:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117525-2A1687364",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Headline flags a 2026 Half Year Results release — notably early timing suggests Reckon's fiscal year runs to December 2025, meaning this covers the period ending 30 June 2025; market-sensitive classification signals material financial disclosures that could move the stock meaningfully from current levels.",
+        "Reckon operates cloud-based accounting and legal practice management SaaS platforms, so key metrics to watch include recurring subscription revenue growth, ARPU trends, churn rates, and EBITDA margins — any acceleration in cloud migration away from legacy desktop products would be a strong positive signal for valuation re-rating.",
+        "Investors should monitor management commentary on competitive positioning against Xero and MYOB in the SME accounting segment, as well as any guidance updates or capital allocation signals (dividends, buybacks, or M&A) that could define the near-term share price trajectory given Reckon's historically modest market capitalisation."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "RKN",
       "company": "RECKON LIMITED",
