@@ -1,9 +1,201 @@
 {
   "date": "2026-08-03",
-  "total": 111,
-  "market_sensitive_count": 105,
-  "generated_at": "2026-08-02T23:45:56.115742+00:00",
+  "total": 121,
+  "market_sensitive_count": 115,
+  "generated_at": "2026-08-03T00:09:16.118176+00:00",
   "announcements": [
+    {
+      "ticker": "WAR",
+      "company": "WAM STRATEGIC VALUE LIMITED",
+      "headline": "Investment portfolio outperformance, increased FF dividend",
+      "time": "2026-08-03T00:00:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117271-2A1687214",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "WAM Strategic Value has delivered investment portfolio outperformance against its benchmark, signalling the active management strategy is generating alpha — a key differentiator for LIC investors evaluating NTA growth versus market alternatives.",
+        "The increased fully franked dividend is a direct capital return catalyst, enhancing yield appeal and franking credit value for domestic investors, particularly self-managed super funds (SMSFs) that prioritise tax-effective income streams.",
+        "A rising FF dividend alongside portfolio outperformance reduces the risk of the LIC trading at a persistent NTA discount — historically the primary valuation drag for the WAM stable — and may attract incremental institutional buying if the trend is sustained into the next reporting period."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AR1",
+      "company": "AUSTRAL RESOURCES AUSTRALIA LTD",
+      "headline": "Binding Proposal to Acquire Hammer Metals",
+      "time": "2026-08-02T23:59:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117269-2A1687208",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Austral Resources has tabled a binding proposal to acquire Hammer Metals, signalling a consolidation play in the copper-focused exploration space — likely targeting Hammer's Mount Isa region tenements to bolster Austral's own copper development pipeline and expand its resource base.",
+        "The deal's strategic rationale hinges on whether the acquisition is scrip-based, cash-funded, or a hybrid structure — dilution risk and balance sheet impact are critical unknowns; any all-scrip deal would pressure Austral's share price while preserving cash for development, whereas a cash component raises questions about funding capacity given typical junior miner liquidity constraints.",
+        "Next steps centre on Hammer Metals board acceptance, independent expert sign-off, and shareholder approval — deal execution risk remains elevated at this binding-proposal stage, and investors should watch for the scheme implementation deed and any competing offers that could emerge given Hammer's prospective copper assets in a commodity-favourable environment."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MFD",
+      "company": "MAYFIELD CHILDCARE LIMITED",
+      "headline": "Entitlement Issue Prospectus",
+      "time": "2026-08-02T23:57:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117268-3A698090",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Mayfield Childcare is executing an entitlement issue — a rights-based capital raise that dilutes existing shareholders proportionally, with the key risk being the discount to market price and take-up rate, which will signal institutional confidence in the company's growth pipeline.",
+        "The childcare sector faces ongoing margin pressure from wage inflation and government subsidy dynamics; proceeds deployment strategy will be critical — investors should scrutinise whether capital is directed toward greenfield centre expansion, acquisitions, or balance sheet repair, as each carries materially different return profiles.",
+        "Near-term focus shifts to the offer price, entitlement ratio, and underwriting status — an underwritten deal would reduce execution risk and provide a price floor, while any shortfall facility outcome post-close will be the key catalyst for share price stabilisation or further pressure."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Retail"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ION",
+      "company": "IONDRIVE LIMITED",
+      "headline": "Iondrive Commissions Five-Tonne Production Campaign",
+      "time": "2026-08-02T23:57:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117267-2A1687210",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commissioning a five-tonne production campaign marks a critical inflection point for Iondrive, signalling the transition from R&D/pilot scale to meaningful commercial-scale manufacturing — a de-risking milestone that materially narrows the gap between development-stage and revenue-generating status.",
+        "The scale of the campaign (five tonnes) provides a tangible benchmark for investors to assess production economics, yield rates, and cost-per-unit metrics; any disclosure of offtake agreements, pricing, or customer commitments tied to this output will be the key valuation driver to watch in subsequent releases.",
+        "Near-term catalysts hinge on successful campaign completion and quality validation — failure rates, timeline adherence, and whether this output feeds into binding commercial contracts or further trials will determine whether this milestone translates into sustained re-rating or remains a proof-of-concept event."
+      ],
+      "tags": [
+        "Production",
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FUL",
+      "company": "FULCRUM LITHIUM LTD",
+      "headline": "Trading Halt",
+      "time": "2026-08-02T23:56:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117266-2A1687212",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Fulcrum Lithium (FUL) has entered a trading halt marked as market sensitive, signalling a material corporate development is imminent — most likely a capital raise, M&A activity, or significant asset announcement given the current lithium sector consolidation environment.",
+        "The market-sensitive classification elevates the probability this is not routine administration; institutional investors should note that trading halts in junior lithium explorers frequently precede equity placements, often at a discount to last traded price, creating dilution risk for existing holders.",
+        "Investors should monitor the resumption announcement closely — key variables include the nature of the trigger event, any associated capital structure changes, and whether the development represents a strategic re-rating catalyst (e.g. JV, offtake, or resource upgrade) or a dilutive funding round in a challenged lithium price environment."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VTX",
+      "company": "VERTEX MINERALS LIMITED",
+      "headline": "Reward Gold Mine Pivotal Point - Stope Mining Commences",
+      "time": "2026-08-02T23:54:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117262-6A1337027",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of stope mining at Reward Gold Mine marks a critical operational inflection point — transitioning from development-phase capital consumption to active ore extraction and near-term revenue generation, materially de-risking the project timeline for investors.",
+        "Stope mining typically signals the highest-grade ore zones are being accessed; if Reward's stope grades align with or exceed resource estimates, this could drive a step-change in gold output and accelerate the path to positive operating cash flow for this small-cap producer.",
+        "Near-term catalysts to watch include first gold pour announcements, mill throughput and head grade data in upcoming quarterly reports, and any revision to production guidance — all of which will be key valuation triggers as the market re-rates VTX from explorer/developer to active producer."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MFD",
+      "company": "MAYFIELD CHILDCARE LIMITED",
+      "headline": "Entitlement Offer to Raise $3 Million",
+      "time": "2026-08-02T23:53:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117261-3A698089",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Mayfield Childcare is raising $3M via an entitlement offer, signalling the board sees near-term capital requirements that existing operating cash flows cannot fully satisfy — investors should scrutinise the use-of-funds disclosure carefully to distinguish growth capex from liquidity support.",
+        "At $3M, the raise is modest relative to Mayfield's market cap but dilution risk is real for retail shareholders who do not participate; the entitlement structure (pro-rata) provides existing holders a defence against dilution, though take-up rates will be a key signal of institutional conviction.",
+        "Proceeds likely earmarked for centre acquisitions, refurbishments, or working capital to navigate ongoing childcare sector cost pressures (wage inflation, CCS policy changes); successful deployment into accretive centres could underpin earnings recovery, but execution risk remains the critical watch point."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Retail"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AIS",
+      "company": "AERIS RESOURCES LIMITED",
+      "headline": "FY27 Guidance - Investing in next phase growth",
+      "time": "2026-08-02T23:52:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117260-6A1337022",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FY27 guidance signals a deliberate investment phase, implying near-term margin compression and elevated capex as Aeris funds its next growth cycle — investors should expect free cash flow to remain constrained while infrastructure and development spending peaks.",
+        "The 'investing in growth' framing suggests Aeris is likely committing capital to expand production capacity beyond current Tritton and Cracow operations, with FY27 targets potentially underpinning a step-change in copper-equivalent output that justifies short-term earnings dilution.",
+        "Institutional focus will centre on whether FY27 guidance is backed by sufficient balance sheet headroom — any debt facility drawdowns, equity raising risk, or reliance on commodity price assumptions will be critical variables to stress-test against current copper and gold spot prices."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPY",
+      "company": "PAPYRUS AUSTRALIA LIMITED",
+      "headline": "Update on TBS Supply Contract and Product Development",
+      "time": "2026-08-02T23:50:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117258-2A1687206",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Papyrus Australia's TBS (Thermo Bonded Sheeting) supply contract update signals a critical commercialisation milestone for this pre-revenue stage company — any confirmation of contract progression or volume commitments would materially de-risk the investment thesis and validate the technology's commercial readiness.",
+        "Product development updates in this context carry outsized significance given Papyrus's reliance on TBS as its primary revenue pathway; investors should scrutinise whether timelines have shifted, as delays in offtake agreements have historically been the key overhang suppressing the stock's re-rating potential.",
+        "Near-term catalysts to monitor include binding contract execution, first commercial shipment volumes, and any disclosed pricing or margin structure — without these specifics, the announcement risks being perceived as incremental rather than transformational, limiting sustained buying interest."
+      ],
+      "tags": [
+        "Production",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "QEM",
+      "company": "QEM LIMITED",
+      "headline": "QEM to Proceed with Acquisition",
+      "time": "2026-08-02T23:44:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117252-6A1337020",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "QEM Limited has confirmed it will proceed with an acquisition, a market-sensitive development that signals a strategic pivot or expansion — the nature, target, and deal structure will be critical in determining whether this is value-accretive or dilutive to existing shareholders.",
+        "Without disclosed deal terms, investors should scrutinise the consideration structure (cash vs. scrip), any implied valuation multiples, and whether the transaction requires a capital raise that could pressure the share price near-term.",
+        "Next steps will likely include a shareholder vote, independent expert report, and/or regulatory approvals — the timeline and conditions precedent will be key catalysts; watch for a supplementary announcement detailing the target's financials and strategic rationale."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "WAR",
       "company": "WAM STRATEGIC VALUE LIMITED",
