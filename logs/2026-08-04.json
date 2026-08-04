@@ -1,9 +1,105 @@
 {
   "date": "2026-08-04",
-  "total": 85,
-  "market_sensitive_count": 75,
-  "generated_at": "2026-08-04T00:16:02.263764+00:00",
+  "total": 90,
+  "market_sensitive_count": 80,
+  "generated_at": "2026-08-04T01:35:45.026027+00:00",
   "announcements": [
+    {
+      "ticker": "TON",
+      "company": "TRITON MINERALS LTD",
+      "headline": "Suspension from Quotation",
+      "time": "2026-08-04T01:28:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117721-6A1337230",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Triton Minerals (TON) has been suspended from quotation on the ASX, a market-sensitive event that immediately halts all trading activity and liquidity for existing shareholders — a significant operational disruption with no defined timeline disclosed in the headline.",
+        "Suspension from quotation is typically triggered by failure to meet ASX Listing Rule compliance requirements (e.g., overdue financial reports, unpaid ASX fees, or failure to maintain minimum spread/asset thresholds), raising material concerns about the company's administrative and financial governance health.",
+        "Institutional investors should monitor for an accompanying ASX query response or reinstatement application; prolonged suspension risks forced delisting under Listing Rule 17.12, which would crystallise losses for shareholders and eliminate any near-term recovery pathway for this graphite-focused explorer."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MGH",
+      "company": "MAAS GROUP HOLDINGS LIMITED",
+      "headline": "Corporate Update with Increased Earnings Guidance Range",
+      "time": "2026-08-04T01:05:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117713-2A1687436",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MAAS Group has upgraded its earnings guidance range, signalling management confidence in underlying business momentum — a direct positive catalyst for re-rating given the market-sensitive classification and the stock's historically tight relationship between guidance revisions and share price performance.",
+        "The increased guidance range implies stronger-than-anticipated revenue conversion across MAAS's diversified infrastructure, construction materials, and real estate segments, suggesting margin resilience despite ongoing cost pressures in the Australian civil construction sector.",
+        "Investors should monitor the quantum of the upgrade and any commentary on order book depth or project pipeline — a sustained guidance upgrade cycle would support a structural re-rating thesis, particularly as infrastructure spending tailwinds from government capex programs continue to underpin demand."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GIV",
+      "company": "PERPETUAL ESG AUSTRALIAN SHARE ACTIVE ETF",
+      "headline": "Pause in Trading",
+      "time": "2026-08-04T00:57:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117711-2A1687442",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Perpetual ESG Australian Share Active ETF (ASX: GIVE) has entered a trading pause, halting all market activity — this prevents investors from entering or exiting positions, creating forced illiquidity risk for unitholders who may need to rebalance or meet redemption obligations.",
+        "As a market-sensitive announcement, the trading halt likely precedes a material disclosure — potential catalysts include a significant portfolio reweighting, index methodology change, fee restructure, or a corporate action involving Perpetual Limited itself, which has been subject to ongoing strategic review and M&A activity.",
+        "Investors should monitor the resumption announcement closely; the nature of the subsequent disclosure will determine whether this is a routine administrative pause or signals a more structural change to the fund's mandate, management, or viability — particularly relevant given Perpetual's broader corporate transformation underway."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GLO",
+      "company": "BARROW HANLEY GLOBAL SHARE ACTIVE ETF",
+      "headline": "Pause in Trading",
+      "time": "2026-08-04T00:56:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117710-2A1687441",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Barrow Hanley Global Share Active ETF has entered a trading pause on the ASX, temporarily suspending secondary market liquidity for unitholders — a market-sensitive event that warrants close monitoring for the underlying trigger, which has not yet been disclosed.",
+        "As an actively managed ETF, a trading halt may signal a material portfolio event, pending announcement, or pricing/valuation concern related to its global equity holdings; institutional investors should assess exposure to underlying positions until clarity is provided.",
+        "Next steps hinge on the nature of the halt resolution — if linked to a corporate action or fund restructure, reinstatement of trading could come with revised NAV or structural changes; investors should monitor ASX announcements and the responsible entity's communications for the resumption timeline and rationale."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EAR",
+      "company": "PIMCO SHORT TERM ACTIVE YIELD ACTIVE ETF",
+      "headline": "PIMCO ETF - July 2026 Final Distribution",
+      "time": "2026-08-04T00:48:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117705-2A1687439",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PIMCO Short Term Active Yield ETF has declared its July 2026 final distribution, confirming continued income delivery to unitholders — critical for yield-focused institutional investors benchmarking against short-duration fixed income alternatives on the ASX.",
+        "As a market-sensitive announcement, the distribution quantum will be closely scrutinised against prevailing RBA cash rate expectations and short-term credit spreads; any compression in yield relative to prior periods could signal portfolio repositioning by PIMCO's active managers in response to shifting rate dynamics.",
+        "Investors should monitor the ex-distribution date and payment timeline, as reinvestment flows and potential unit price adjustments post-distribution may create short-term trading opportunities or rebalancing triggers for income-mandated funds holding this ETF."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "WBT",
       "company": "WEEBIT NANO LTD",
