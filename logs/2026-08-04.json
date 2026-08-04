@@ -1,9 +1,142 @@
 {
   "date": "2026-08-04",
-  "total": 78,
-  "market_sensitive_count": 71,
-  "generated_at": "2026-08-03T23:51:14.334667+00:00",
+  "total": 85,
+  "market_sensitive_count": 75,
+  "generated_at": "2026-08-04T00:16:02.263764+00:00",
   "announcements": [
+    {
+      "ticker": "WBT",
+      "company": "WEEBIT NANO LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-04T00:05:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117698-3A698157",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the ownership structure of Weebit Nano, a ReRAM semiconductor IP company — movements at this level (≥5% threshold) warrant close monitoring as they can precede strategic activity or signal shifting institutional conviction in the stock.",
+        "Depending on whether the filing reflects an increase or decrease in the substantial holder's position, this could indicate either growing institutional accumulation in anticipation of commercialisation milestones, or profit-taking/portfolio rebalancing following recent share price movements — the direction of the change is the critical data point for investors.",
+        "With Weebit Nano at a pivotal stage of transitioning from R&D to licensing revenue generation with partners such as SkyWater Technology, any large holder movements could influence near-term liquidity and price discovery; investors should cross-reference the filing date against recent news flow and upcoming licensing/partnership announcements to assess strategic intent."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGU",
+      "company": "MAGNUM MINING AND EXPLORATION LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-04T00:02:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117696-6A1337220",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a shift in the register of a major shareholder (≥5% threshold), which can indicate accumulation or partial exit by a sophisticated investor — the direction and magnitude of the change will determine whether this represents growing conviction or distribution pressure on MAG's thinly traded stock.",
+        "For a micro-cap explorer like Magnum Mining and Exploration, movements at the substantial holder level carry outsized influence on liquidity and price discovery, as institutional or cornerstone investor activity can represent a disproportionate share of average daily volume.",
+        "Investors should monitor whether this filing reflects an increase or decrease in the substantial holder's position — an increase could signal anticipated catalysts (drilling results, resource updates), while a decrease may warrant scrutiny of the company's near-term funding position and exploration pipeline."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GBE",
+      "company": "GLOBE METALS & MINING LIMITED",
+      "headline": "Globe Secures US$600,000 Working Capital Facility",
+      "time": "2026-08-04T00:01:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117693-6A1337219",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Globe has secured a US$600,000 (~A$920,000) working capital facility, providing critical short-term liquidity for a junior explorer that has historically operated with a thin cash buffer — this directly extends operational runway and reduces near-term equity dilution risk from a discounted capital raise.",
+        "The facility structure (terms, lender identity, interest rate, and drawdown conditions not yet disclosed) is key to assessing true cost of capital; if secured against project assets or convertible to equity, dilution risk remains a latent concern for existing shareholders.",
+        "With the Kanyika Niobium Project in Malawi advancing toward development milestones, this working capital injection likely funds ongoing permitting, feasibility work, or stakeholder engagement — watch for a follow-on project update or offtake/partnership announcement as the logical next catalyst."
+      ],
+      "tags": [
+        "Finance",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AIV",
+      "company": "ACTIVEX LIMITED",
+      "headline": "High-grade gold, silver, base metal identified at Georgetown",
+      "time": "2026-08-03T23:56:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117690-2A1687430",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade gold, silver, and base metal identification at Georgetown represents a potentially material discovery catalyst for ActiveX, with 'high-grade' characterisation in a market-sensitive release signalling results likely exceed typical exploration benchmarks and could re-rate the asset's perceived value.",
+        "The multi-metal nature of the find (gold + silver + base metals) enhances project economics optionality — polymetallic systems typically support higher revenue per tonne and broader offtake appeal, reducing single-commodity price risk and potentially attracting strategic or JV interest.",
+        "Key near-term focus for investors will be the follow-up drilling program scope, resource estimate timeline, and whether assay results support a maiden JORC resource — these milestones will determine whether this discovery translates into sustained share price momentum or remains a speculative exploration play."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FUL",
+      "company": "FULCRUM LITHIUM LTD",
+      "headline": "Alkali Flats Maiden Mineral Resource Estimate",
+      "time": "2026-08-03T23:54:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117689-2A1687416",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Maiden Mineral Resource Estimate (MRE) at Alkali Flats represents a critical de-risking milestone for Fulcrum Lithium, converting exploration tenure into a JORC-compliant resource and materially re-rating the asset's investability for institutional and strategic acquirers — the quantum and classification (Inferred vs. Indicated) will determine whether this is a foundation or a stepping stone.",
+        "The market-sensitive designation signals the MRE tonnage and grade are material enough to move the stock; investors should scrutinise lithium carbonate equivalent (LCE) tonnes and cut-off grade assumptions against peer brine/clay projects to assess whether the resource is economically competitive in the current subdued lithium price environment (~USD 10-12/t LCE).",
+        "A maiden MRE typically triggers the next phase of capital allocation decisions — scoping study, resource infill drilling, or strategic partnership — and Fulcrum's cash position and burn rate will be the key constraint determining how quickly the company can advance Alkali Flats toward a Preliminary Feasibility Study and attract farm-in or M&A interest."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALM",
+      "company": "ALMA METALS LIMITED",
+      "headline": "First Assays from 2026 Infill Drilling at Briggs",
+      "time": "2026-08-03T23:53:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117687-6A1337211",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "First assay results from the 2026 infill drilling campaign at the Briggs copper-gold deposit signal potential resource definition progress — infill drilling is typically aimed at upgrading inferred resources to indicated/measured categories, a critical step toward a maiden or updated JORC resource estimate that underpins project economics and development decisions.",
+        "The market-sensitive classification indicates the assay results contain material grade or intercept data that could meaningfully re-rate the deposit's perceived value; investors should scrutinise headline copper-equivalent grades and intercept widths against the existing resource model to assess whether the campaign is confirming, upgrading, or potentially downgrading mineralisation continuity.",
+        "Next catalysts to watch include the full infill drill program completion, an updated JORC resource estimate incorporating 2026 data, and any pre-feasibility study advancement — the pace of these milestones will determine whether Alma Metals can attract strategic or institutional interest in a copper market increasingly focused on long-dated supply optionality."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SOP",
+      "company": "SYNERTEC CORPORATION LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-03T23:50:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117683-3A698155",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the ownership structure of Synertec Corporation (SOP), with a holder crossing or moving through the 5% threshold — warranting close attention to whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase vs. decrease) is critical: an increase in substantial holding could indicate growing institutional conviction in Synertec's engineering and energy technology business, while a decrease may signal reduced confidence or portfolio rebalancing ahead of key catalysts.",
+        "Investors should monitor subsequent 604/603 filings to determine the identity and intent of the substantial holder, as concentrated ownership changes in small-cap ASX stocks like Synertec can materially influence liquidity, future capital raise dynamics, and potential M&A interest."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BMR",
       "company": "BALLYMORE RESOURCES LIMITED",
