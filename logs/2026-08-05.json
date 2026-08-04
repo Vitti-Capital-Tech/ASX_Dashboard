@@ -1,9 +1,201 @@
 {
   "date": "2026-08-05",
-  "total": 45,
-  "market_sensitive_count": 39,
-  "generated_at": "2026-08-04T23:22:49.240823+00:00",
+  "total": 55,
+  "market_sensitive_count": 47,
+  "generated_at": "2026-08-04T23:47:07.406850+00:00",
   "announcements": [
+    {
+      "ticker": "AI1",
+      "company": "ADISYN LTD",
+      "headline": "AI1 Major Graphene Scale-Up Milestone on 200mm Wafer",
+      "time": "2026-08-04T23:44:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118053-6A1337370",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Adisyn has achieved a critical scale-up milestone by successfully producing graphene on a 200mm wafer — a semiconductor-industry-standard substrate size — which meaningfully de-risks the path to commercial integration with existing chip fabrication infrastructure and signals readiness for engagement with tier-1 foundry partners.",
+        "The transition from smaller proof-of-concept substrates to 200mm wafer-scale production is a technically significant inflection point: it demonstrates uniformity, yield control, and process repeatability at commercially relevant dimensions, directly addressing the key barrier that has historically prevented graphene from entering mainstream semiconductor manufacturing.",
+        "Near-term catalysts to watch include potential licensing discussions, joint development agreements with semiconductor OEMs or foundries, and whether this milestone unlocks the next tranche of any existing grant or partnership funding — investors should monitor for follow-on announcements within 30–60 days given the market-sensitive classification."
+      ],
+      "tags": [
+        "Technology",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SMX",
+      "company": "STRATA MINERALS LIMITED.",
+      "headline": "Pre-Development Activities Advance at Zelica Gold Project",
+      "time": "2026-08-04T23:43:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118052-6A1337374",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Zelica Gold Project pre-development activity signals Strata Minerals is transitioning from pure exploration to a more advanced project stage — a key de-risking milestone that typically re-rates junior gold developers toward higher valuation multiples on the ASX.",
+        "The market-sensitive classification suggests material operational or contractual progress (e.g. permitting, site works, or contractor engagement) rather than routine exploration updates — investors should scrutinise the specific activities disclosed for indicators of capital commitment and timeline to first production or resource definition.",
+        "Near-term catalysts to watch include formal development approvals, updated resource estimates, or funding announcements to underpin pre-development expenditure; without a disclosed capital position or project economics, execution risk and cash burn remain the primary investor concerns at this stage."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GLL",
+      "company": "GALILEE ENERGY LIMITED",
+      "headline": "Request for Extension of Voluntary Suspension",
+      "time": "2026-08-04T23:42:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118050-2A1687659",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Galilee Energy has requested a further extension to its voluntary suspension, signalling that a material transaction or corporate development remains unresolved — prolonged halts of this nature typically indicate complex negotiations around an asset sale, farm-in, or M&A process that has not yet reached execution stage.",
+        "The extended suspension prevents price discovery and liquidity for existing shareholders, raising the risk of a valuation reset — either sharply positive or negative — once trading resumes, depending on the nature of the pending announcement.",
+        "Investors should monitor the ASX for the resumption notice closely; if the suspension relates to Galilee's Taroom Trough CSG assets in Queensland, any farm-in or strategic partnership announcement could be a significant catalyst given the project's scale and prior interest from east-coast gas buyers."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LFT",
+      "company": "LI-FT POWER LTD.",
+      "headline": "LIFT announces C$20 million public offering",
+      "time": "2026-08-04T23:35:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118049-6A1337369",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "LI-FT Power is raising C$20 million via public offering, providing meaningful capital injection to advance its Yellowknife Lithium Project in Canada's Northwest Territories — a critical hard-rock lithium asset at a time when battery metals financing remains selective and competitive.",
+        "The raise signals institutional appetite for LIFT's project pipeline despite a subdued lithium price environment, suggesting lead underwriters see near-term catalysts — likely resource expansion drilling or a maiden resource estimate — that justify the dilutive capital event.",
+        "Proceeds are expected to fund exploration and development activities, extending the company's cash runway and reducing near-term financing risk; however, existing shareholders face dilution pressure, and the offering price relative to the prevailing market price will be the key determinant of near-term share price reaction."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RIM",
+      "company": "RIMFIRE PACIFIC MINING LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-08-04T23:33:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118046-3A698226",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX has suspended Rimfire Pacific Mining (RIM) from quotation, indicating a regulatory or compliance-driven halt rather than a voluntary trading pause — this distinction is critical as it suggests the exchange initiated the action, potentially due to failure to meet listing requirements or pending material disclosure obligations.",
+        "Suspension from quotation is distinct from a standard trading halt and carries greater severity; it typically signals unresolved compliance issues such as outstanding financial reports, failure to maintain minimum spread/asset requirements, or a pending transaction requiring shareholder approval — all of which create material uncertainty for existing holders who cannot exit positions.",
+        "Investors should monitor ASX correspondence and any forthcoming RIM announcements closely for reinstatement conditions; the timeline to lift a suspension is indefinite and contingent on the company satisfying ASX's specific requirements, meaning liquidity risk is elevated and the stock remains untradeable until formal clearance is granted."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ADS",
+      "company": "ADSLOT LTD.",
+      "headline": "TOV: Adslot Ltd – Panel Declines to Conduct Proceedings",
+      "time": "2026-08-04T23:26:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118039_PS-3A698223",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Takeovers Panel declining to conduct proceedings removes a key governance overhang — this outcome typically signals the Panel found no prima facie case of unacceptable circumstances, effectively clearing the path for the contested transaction or corporate action to proceed without regulatory interference.",
+        "For a micro-cap technology stock like Adslot, a Panel dismissal is materially significant: it reduces litigation risk and associated legal costs that could otherwise strain a company with limited cash reserves, while also providing certainty to counterparties involved in the underlying transaction.",
+        "Next steps hinge on what triggered the Panel application in the first place — investors should monitor whether the underlying transaction (likely a capital raise, share issuance, or control event) now proceeds on its original terms, as the absence of Panel intervention removes the last formal challenge mechanism available to dissenting parties."
+      ],
+      "tags": [
+        "Compliance",
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GDR",
+      "company": "GOLDEN DRAGON MINING LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-04T23:26:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118038-3A698222",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a shift in the ownership structure of Golden Dragon Mining Ltd, with a holder crossing or moving through the 5% threshold — warranting close attention to whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase or decrease in holding) is critical: an increase may indicate informed conviction in the company's exploration or development pipeline, while a decrease could signal waning institutional confidence in near-term catalysts.",
+        "Investors should monitor subsequent filings and on-market activity to determine if this represents a strategic cornerstone position building or an exit by an early-stage backer, as either scenario could materially influence retail and institutional sentiment in a small-cap mining stock."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LU7",
+      "company": "LITHIUM UNIVERSE LIMITED",
+      "headline": "Placement Raises $0.90 Million",
+      "time": "2026-08-04T23:22:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118030-6A1337353",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Lithium Universe has raised a modest $0.90M via placement, a small capital injection that signals the company is operating with limited financial headroom — at typical junior explorer burn rates, this likely extends runway by only 3–6 months without additional funding rounds.",
+        "The sub-$1M raise size is notably small for a listed lithium explorer, suggesting either constrained institutional appetite for early-stage lithium plays amid the sector's ongoing price weakness, or deliberate staging of capital raises to minimise dilution — either way, it underscores execution risk.",
+        "Investors should watch closely for deployment details: if proceeds are directed toward a specific drilling program or resource definition milestone at the company's Quebec lithium assets, near-term catalysts could partially offset dilution concerns, but absent a clear use-of-funds narrative, further raises remain likely in the near term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RRE",
+      "company": "RIGHT RESOURCES LIMITED",
+      "headline": "HLS Produces High-grade Tungsten Sink from Blue Sample",
+      "time": "2026-08-04T23:21:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118029-6A1337368",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade tungsten sink production from the Heavy Liquid Separation (HLS) process on a blue sample confirms metallurgical amenability — a critical de-risking milestone that validates the project's processing pathway and reduces technical uncertainty ahead of any resource definition work.",
+        "Tungsten is a strategically significant critical mineral with tight global supply chains dominated by China; a confirmed high-grade concentrate result positions Right Resources to attract offtake interest and potentially qualify for government critical minerals funding programs, materially enhancing project economics narrative.",
+        "The next catalysts to watch are quantitative grade assay results from the HLS sink material and progression to bulk sampling or maiden resource estimation — without these, the announcement remains a qualitative proof-of-concept that institutional investors will need substantiated with hard tonnage and grade data before meaningful re-rating."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WMX",
+      "company": "WAM INCOME MAXIMISER LIMITED",
+      "headline": "WAM Income Maximiser Entitlement Offer now open",
+      "time": "2026-08-04T23:19:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118027-2A1687644",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "WAM Income Maximiser has opened its Entitlement Offer, allowing existing shareholders to subscribe for new shares — this is a dilutive capital raise that will increase shares on issue and may pressure NTA per share if new capital is deployed into a lower-yielding environment.",
+        "As a listed investment company (LIC) focused on income generation, the proceeds are intended to scale the portfolio and potentially enhance dividend capacity, but the accretion thesis hinges critically on whether new shares are issued at a premium or discount to pre-tax NTA — a key metric institutional investors should verify in the offer documents.",
+        "Shareholders face a binary decision: participate to avoid dilution of their economic interest, or allow their holding to be diluted — non-participation risk is elevated given LICs can trade at persistent discounts to NTA, making the offer price relative to NTA the pivotal near-term catalyst to monitor."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "GHY",
       "company": "GOLD HYDROGEN LIMITED",
