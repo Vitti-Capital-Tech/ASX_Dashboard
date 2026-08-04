@@ -1,9 +1,162 @@
 {
   "date": "2026-08-05",
-  "total": 34,
-  "market_sensitive_count": 28,
-  "generated_at": "2026-08-04T22:50:51.823348+00:00",
+  "total": 42,
+  "market_sensitive_count": 36,
+  "generated_at": "2026-08-04T23:17:58.431352+00:00",
   "announcements": [
+    {
+      "ticker": "WMX",
+      "company": "WAM INCOME MAXIMISER LIMITED",
+      "headline": "Entitlement Offer Booklet",
+      "time": "2026-08-04T23:13:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118018-2A1687639",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "WAM Income Maximiser has launched a formal Entitlement Offer, giving existing shareholders the right to subscribe for new shares — a structure that prioritises current holders but still introduces dilution risk if the offer is undersubscribed or heavily taken up at a discount to NTA.",
+        "As a Listed Investment Company (LIC) focused on income generation, the capital raise likely targets deployment into yield-generating assets; however, the critical metric to watch is whether the offer price represents a discount to pre-tax NTA, which would be immediately dilutive to non-participating shareholders.",
+        "Investors should scrutinise the offer ratio, pricing relative to NTA, and the intended use of proceeds — if funds are earmarked for income-producing securities at current elevated yield levels, the raise could be accretive to distributions over time, but near-term NTA dilution and execution risk remain key concerns."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LFT",
+      "company": "LI-FT POWER LTD.",
+      "headline": "Trading Halt",
+      "time": "2026-08-04T23:13:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118017-6A1337363",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "LI-FT Power has entered a trading halt, suspending share trading pending a material announcement — the market-sensitive classification signals a significant corporate event is imminent, most likely a capital raise, M&A transaction, or major resource update given the company's lithium exploration focus in Canada's Northwest Territories.",
+        "As a junior lithium explorer, LI-FT's most probable catalyst is an equity raising to fund ongoing drilling at its flagship Yellowknife Lithium Project — investors should monitor for dilution risk and pricing relative to last traded price, which will set the near-term technical floor.",
+        "The halt duration (typically 1–2 ASX trading sessions) means resolution is expected imminently; institutional investors should assess whether any capital raise is accompanied by a resource estimate upgrade or strategic partnership, as either would materially re-rate the stock's valuation relative to ASX-listed lithium peers."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MYE",
+      "company": "MASTERMYNE GROUP LIMITED",
+      "headline": "New Dendrobium mining services contract valued up to $255m",
+      "time": "2026-08-04T23:11:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118015-2A1687637",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mastermyne has secured a new underground mining services contract at Dendrobium (South32's NSW metallurgical coal operation) valued at up to $255M, representing a material revenue catalyst that could meaningfully extend the company's order book and provide multi-year earnings visibility.",
+        "The contract scale implies annualised revenue contribution potentially in the $50–85M range depending on duration, which against Mastermyne's recent annual revenues of ~$400–500M signals a significant backlog uplift and underpins forward revenue guidance credibility for FY25–FY27.",
+        "Dendrobium is a strategically important hard coking coal asset, and winning this contract reinforces Mastermyne's competitive positioning in underground coal services in NSW — investors should watch for updated order book disclosures and any margin guidance, as contract mix and pricing terms will determine the earnings quality of this win."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KTA",
+      "company": "KRAKATOA RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-04T23:10:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118013-6A1337358",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Krakatoa Resources (KTA) has entered a trading halt pending a market-sensitive announcement, suspending price discovery and liquidity for investors — the market-sensitive classification signals material information is imminent that could significantly re-rate the stock.",
+        "Trading halts of this nature on small-cap ASX explorers most commonly precede capital raises, M&A activity, or significant exploration results — given KTA's focus on lithium and critical minerals assets, a resource update or strategic transaction cannot be ruled out.",
+        "Investors should monitor the forthcoming announcement closely for details on any dilutive capital structure changes or transformative asset news; the halt duration (typically up to 2 trading days under ASX Listing Rules) limits the window before trading resumes and price re-adjustment occurs."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KLI",
+      "company": "KILLI RESOURCES LIMITED",
+      "headline": "Killi Starts Maiden Drilling Targeting Resource Growth",
+      "time": "2026-08-04T23:00:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118009-6A1337355",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Killi Resources has commenced its maiden drilling program, a critical de-risking milestone that signals transition from explorer to potential resource-definition stage — the market-sensitive classification underscores management's expectation of material newsflow from drill results.",
+        "The program is explicitly targeting resource growth, implying an existing or near-term JORC resource base is in scope; successful intercepts could catalyse a re-rating as the company moves toward a maiden or upgraded mineral resource estimate, the key valuation inflection point for junior explorers.",
+        "Near-term share price trajectory will be highly data-dependent — investors should monitor drill hole assay results and any resource estimate updates as the primary catalysts, while watching cash burn rate given drilling programs materially accelerate expenditure for small-cap explorers with typically limited cash runways."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TRE",
+      "company": "TOUBANI RESOURCES LIMITED",
+      "headline": "Completion of Retail Entitlement Offer",
+      "time": "2026-08-04T23:00:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118008-6A1337354",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Completion of the retail entitlement offer confirms successful execution of the capital raise program, with retail shareholders given the opportunity to participate alongside institutional investors — reducing the dilution asymmetry risk that often disadvantages smaller holders.",
+        "The closing of this offer tranche locks in fresh capital for Toubani Resources, likely directed toward advancing its Kobada Gold Project in Mali — a critical funding milestone for a development-stage miner with no operating cash flows and ongoing exploration/feasibility expenditure.",
+        "With the entitlement offer now complete, near-term focus shifts to deployment of proceeds and any updated project timeline or resource/reserve announcements; investors should monitor whether the raise fully funds the next defined work program or whether further dilutive capital events remain on the horizon."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DMP",
+      "company": "DOMINO'S PIZZA ENTERPRISES LIMITED",
+      "headline": "Announcement regarding CEO Appointment",
+      "time": "2026-08-04T22:57:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118005-2A1687631",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CEO succession is a critical inflection point for DMP given the stock has lost ~70% from its 2021 peak — the incoming appointment will be scrutinised heavily for strategic credibility, particularly around the contested store count growth targets and margin recovery across underperforming Asian markets.",
+        "Investor focus will immediately shift to whether the new CEO signals continuity or a strategic reset — any deviation from the existing international expansion playbook (Japan, France, Germany) or a formal review of the store economics model could materially reprice consensus earnings estimates.",
+        "Near-term execution risk remains elevated: DMP must stabilise franchisee profitability, address same-store sales weakness, and manage cost pressures — the new CEO's background and stated priorities will be the key determinant of whether institutional confidence is rebuilt or further eroded."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TNC",
+      "company": "TRUE NORTH COPPER LIMITED",
+      "headline": "Cloncurry Copper Project Strengthened by Wynberg Study",
+      "time": "2026-08-04T22:52:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118001-6A1337352",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Wynberg scoping/prefeasibility study materially de-risks the Cloncurry Copper Project by providing independent technical and economic validation — a critical milestone for a junior explorer seeking to attract project-level financing or a strategic partner in a tight capital environment.",
+        "Copper's structural demand tailwind from energy transition infrastructure gives any positive study outcome outsized re-rating potential for True North Copper; key metrics to watch include headline NPV, IRR, capital intensity (A$/t Cu), and assumed copper price deck relative to current spot (~US$4.40/lb), which will determine whether the project is genuinely competitive against peer development assets.",
+        "Near-term catalysts hinge on whether the study supports a clear pathway to a definitive feasibility study (DFS) and project financing — if capital costs and operating economics are within industry benchmarks, this announcement could serve as a springboard for a capital raise or M&A interest from mid-tier copper producers actively seeking development-stage assets in Tier-1 Australian jurisdictions."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "MEM",
       "company": "MEMPHASYS LIMITED.",
