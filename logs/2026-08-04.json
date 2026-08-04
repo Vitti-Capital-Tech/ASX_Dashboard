@@ -1,9 +1,85 @@
 {
   "date": "2026-08-04",
-  "total": 90,
-  "market_sensitive_count": 80,
-  "generated_at": "2026-08-04T01:35:45.026027+00:00",
+  "total": 94,
+  "market_sensitive_count": 82,
+  "generated_at": "2026-08-04T03:04:21.264881+00:00",
   "announcements": [
+    {
+      "ticker": "KGL",
+      "company": "KGL RESOURCES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-04T02:32:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117737-2A1687454",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in KGL Resources' register, with a holder crossing or moving through the 5% threshold — warranting close attention to whether this reflects accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase vs. decrease) is critical context: accumulation by an institutional or strategic holder could signal confidence in KGL's Jervois copper-cobalt project's development trajectory, while a reduction may indicate waning conviction in the project's near-term catalysts.",
+        "Investors should monitor for follow-on activity — substantial holding movements in small-cap miners like KGL often precede broader register consolidation, potential M&A interest, or shifts in board influence, particularly given the strategic value of the Jervois asset in the critical minerals landscape."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GLO",
+      "company": "BARROW HANLEY GLOBAL SHARE ACTIVE ETF",
+      "headline": "Lifting of pause in trading",
+      "time": "2026-08-04T02:06:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117731-2A1687450",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Trading in BHGG has resumed following a temporary pause, restoring full market access for investors and eliminating the liquidity risk that accompanies any halt in an ETF — a critical consideration given ETFs derive value from continuous arbitrage between NAV and market price.",
+        "The lifting of the trading pause removes the technical dislocation risk where the ETF price could diverge materially from its underlying global equities portfolio NAV; prolonged halts in active ETFs can create bid-ask spread widening and price discovery inefficiencies upon resumption.",
+        "Investors should monitor post-resumption trading volumes and any NAV-to-price premium/discount closely in the first sessions back — if the halt was related to a corporate action or portfolio rebalancing event, there may be short-term volatility as the market re-prices the fund's holdings."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GIV",
+      "company": "PERPETUAL ESG AUSTRALIAN SHARE ACTIVE ETF",
+      "headline": "Lift of pause in trading",
+      "time": "2026-08-04T02:06:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117729-2A1687449",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Trading in PERPETUAL ESG AUSTRALIAN SHARE ACTIVE ETF (ASX: ESGI) has resumed following a temporary pause, restoring full market access for investors and eliminating the liquidity constraint that a halt imposes on ETF unit holders.",
+        "The lift of the trading pause removes the pricing dislocation risk inherent during halts — where NAV can diverge from market price — meaning institutional investors can now transact at fair value without forced delay or spread widening.",
+        "No structural or fundamental issue appears to have triggered the halt (consistent with administrative/operational pauses common in active ETFs); investors should monitor whether any accompanying disclosure explains the root cause, as repeat occurrences could signal operational governance concerns for this ESG-focused product."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFG",
+      "company": "AUSTRALIAN FINANCE GROUP LTD",
+      "headline": "Ceasing to be a substantial holder from CBA",
+      "time": "2026-08-04T01:54:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03117725-6A1337231",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Commonwealth Bank of Australia has fallen below the 5% substantial holder threshold in Australian Finance Group (AFG), signalling a meaningful reduction in CBA's strategic stake — notable given CBA's historical role as a key banking partner and distribution ally for AFG's mortgage broking network.",
+        "The disposal reduces a major institutional anchor position, which could increase near-term share price volatility and overhang risk if residual CBA selling continues in the open market; investors should monitor any further Form 604 filings for the pace and scale of the exit.",
+        "From a governance and competitive dynamics perspective, CBA's reduced ownership may signal a strategic realignment — potentially loosening preferential lender relationships or product distribution arrangements — warranting scrutiny of AFG's lender panel revenue mix and any forthcoming management commentary on partnership agreements."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "TON",
       "company": "TRITON MINERALS LTD",
