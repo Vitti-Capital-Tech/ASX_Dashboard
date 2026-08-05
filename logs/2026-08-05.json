@@ -1,9 +1,47 @@
 {
   "date": "2026-08-05",
-  "total": 68,
-  "market_sensitive_count": 58,
-  "generated_at": "2026-08-05T00:32:05.137351+00:00",
+  "total": 70,
+  "market_sensitive_count": 59,
+  "generated_at": "2026-08-05T01:34:17.745984+00:00",
   "announcements": [
+    {
+      "ticker": "KGL",
+      "company": "KGL RESOURCES LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-05T01:29:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118106-2A1687689",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in KGL Resources, crossing the 5% ownership threshold — a meaningful signal of institutional conviction in the Jervois copper-cobalt project's long-term value proposition at a time when copper demand fundamentals remain structurally strong.",
+        "The filing triggers mandatory disclosure under the Corporations Act, but the critical detail for investors is the identity of the acquirer, the total voting power secured, and whether shares were accumulated on-market — indicating price-insensitive buying that could provide a near-term floor for KGL's depressed share price.",
+        "Substantial holder accumulation in a junior miner with a stranded development asset often precedes strategic activity — investors should monitor for follow-on 13D-equivalent disclosures, board engagement, or any shift in KGL's capital structure discussions, particularly given the project's unresolved funding gap."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EIG",
+      "company": "PERENNIAL INCOME GENERATOR ACTIVE ETF",
+      "headline": "EIGA Estimated Monthly Distribution July 2026",
+      "time": "2026-08-05T01:06:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118099-2A1687685",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EIGA has flagged its estimated monthly distribution for July 2026, signalling continued income generation capability — critical for yield-focused investors who rely on predictable cash flows from this active ETF structure.",
+        "The market-sensitive classification suggests the distribution quantum may deviate materially from prior months, warranting close attention to the per-unit amount relative to recent distribution history and the fund's trailing yield profile.",
+        "For institutional holders, the July distribution estimate provides a near-term income visibility anchor; any compression in the payout rate could trigger reallocation away from EIGA toward competing income-oriented ETFs in the current rate environment."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AOA",
       "company": "AUSMON RESOURCES LIMITED",
