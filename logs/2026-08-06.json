@@ -1,9 +1,124 @@
 {
   "date": "2026-08-06",
-  "total": 31,
-  "market_sensitive_count": 29,
-  "generated_at": "2026-08-05T22:28:12.700500+00:00",
+  "total": 37,
+  "market_sensitive_count": 34,
+  "generated_at": "2026-08-05T22:47:57.817658+00:00",
   "announcements": [
+    {
+      "ticker": "HIO",
+      "company": "HAWSONS IRON LTD",
+      "headline": "Share Purchase Plan Option Disclosure Prospectus",
+      "time": "2026-08-05T22:43:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118424-2A1687892",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hawsons Iron is launching a Share Purchase Plan (SPP) with an options component, providing existing retail shareholders a low-cost entry point to increase exposure — a structure typically used when the company needs to broaden its capital base without triggering institutional placement thresholds.",
+        "The options disclosure prospectus signals a multi-tranche capital raise strategy, likely designed to extend cash runway for a pre-revenue iron ore developer that has faced persistent funding challenges in advancing its Hawsons Supergrade® magnetite project in NSW — dilution risk is real and material for existing holders.",
+        "Key near-term watch points include the SPP subscription price relative to prevailing market price (discount depth), total funds targeted, and whether this capital is sufficient to fund the next definitive feasibility or project financing milestone — without a clear use-of-funds catalyst, the raise risks being perceived as a survival measure rather than a growth trigger."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DN1",
+      "company": "DOMINION INCOME TRUST 1",
+      "headline": "Dividend/Distribution - DN1",
+      "time": "2026-08-05T22:42:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118420-2A1687890",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Market-sensitive distribution announcement signals a potentially material change to dividend quantum or timing relative to prior periods — investors should scrutinise the per-unit rate against historical distributions to assess whether this represents a cut, increase, or special component.",
+        "As a trust structure, DN1's distribution is directly tied to underlying income generation; any deviation from expected yield metrics will have an outsized impact on unit price given income-focused investor base and sensitivity to distribution sustainability.",
+        "Key next steps: confirm ex-distribution date, record date, and payment date to assess near-term technical trading dynamics, while monitoring whether the trust's distributable income coverage ratio supports the announced rate on a recurring basis."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BPT",
+      "company": "BEACH ENERGY LIMITED",
+      "headline": "Appendix 4E",
+      "time": "2026-08-05T22:41:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118417-2A1687885",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 4E signals Beach Energy is filing its preliminary final report, meaning full-year audited results are imminent — investors should brace for key metrics including production volumes, revenue, NPAT, and any impairment charges against the backdrop of a challenging FY25 marked by operational setbacks at Waitsia and capital cost blowouts.",
+        "Market-sensitive classification elevates scrutiny on whether Beach can demonstrate a credible recovery trajectory — prior guidance downgrades and Waitsia gas plant commissioning delays have already eroded ~40% of market cap over the past 12 months, making any deviation from consensus EBITDA and free cash flow expectations a significant price catalyst in either direction.",
+        "Key forward-looking signals to watch include updated reserve estimates, dividend reinstatement prospects (suspended in FY24), and management commentary on the Waitsia ramp-up timeline and capital discipline — any positive surprise on these fronts could trigger a re-rating, while further cost escalation or production misses would deepen bearish pressure."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPK",
+      "company": "PPK GROUP LIMITED",
+      "headline": "PPK announces on-market share buyback",
+      "time": "2026-08-05T22:28:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118406-2A1687877",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PPK Group's on-market buyback signals management conviction that shares are undervalued, providing a direct price support mechanism and reducing the float — typically a bullish technical catalyst for thinly traded small-caps where incremental buying pressure is amplified.",
+        "Capital allocation decision implies the board views buybacks as a superior use of cash versus reinvestment or acquisitions at current prices, suggesting limited near-term M&A pipeline but also that the balance sheet carries sufficient liquidity to absorb the program without straining operations.",
+        "Investors should monitor the scale and pace of the buyback (maximum volume limits under ASX rules apply at 25% of average daily volume) — the actual earnings-per-share accretion and sentiment uplift will depend heavily on execution speed and total shares targeted relative to current market capitalisation."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ZNC",
+      "company": "ZENITH MINERALS LIMITED",
+      "headline": "Change in Substantial Holding from FRS and Interim Orders",
+      "time": "2026-08-05T22:23:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118400-6A1337502",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding linked to FRS and interim orders signals a regulatory or court-driven shift in the ownership structure, which may reflect forced disposal, restructuring of a major shareholder's position, or compliance with an ASIC/court interim order — warranting close monitoring of the underlying trigger event.",
+        "The involvement of interim orders suggests this is not a routine portfolio adjustment; it implies a legal or regulatory constraint on the substantial holder's ability to freely trade or hold ZNT shares, which could suppress or artificially cap near-term selling pressure depending on the order's nature.",
+        "Investors should track whether the interim orders are lifted, extended, or result in a compelled divestment — any forced sell-down of a substantial stake (typically ≥5%) into a thinly traded junior miner like Zenith Minerals could create meaningful downside price pressure on resolution."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AXQ",
+      "company": "AURA CONSOLIDATED GROUP, INC.",
+      "headline": "AXQ Q2'26 Earnings Presentation",
+      "time": "2026-08-05T22:22:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118396-2A1687838",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Q2 FY26 earnings presentation is flagged as market sensitive, signalling material financial disclosures that could meaningfully re-rate AXQ — investors should scrutinise revenue trajectory, EBITDA margins, and any guidance revisions relative to prior period benchmarks.",
+        "Without visibility into the underlying financials, the critical metrics to watch are cash burn rate and runway (particularly if AXQ remains pre-profitability), as well as any commentary on customer acquisition costs or recurring revenue growth that would validate the company's scalability thesis.",
+        "The formal earnings presentation format suggests AXQ is positioning for increased institutional engagement — near-term focus will be on whether management reaffirms, upgrades, or downgrades FY26 full-year guidance, which will be the primary catalyst for price direction post-release."
+      ],
+      "tags": [
+        "Results",
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AXQ",
       "company": "AURA CONSOLIDATED GROUP, INC.",
