@@ -1,9 +1,66 @@
 {
   "date": "2026-08-05",
-  "total": 65,
-  "market_sensitive_count": 55,
-  "generated_at": "2026-08-05T00:14:11.669289+00:00",
+  "total": 68,
+  "market_sensitive_count": 58,
+  "generated_at": "2026-08-05T00:32:05.137351+00:00",
   "announcements": [
+    {
+      "ticker": "AOA",
+      "company": "AUSMON RESOURCES LIMITED",
+      "headline": "Field exploration for base metals commenced in NSW",
+      "time": "2026-08-05T00:23:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118082-2A1687674",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ausmon Resources has mobilised field crews to commence base metals exploration in NSW, marking a tangible operational milestone that transitions the company from planning to active ground-truthing — a critical de-risking step for early-stage explorers that the market typically rewards with near-term re-rating potential.",
+        "The market-sensitive classification signals management believes this exploration commencement carries material price impact, suggesting the NSW tenements may host meaningful base metals targets (likely copper, zinc, or lead) that warrant institutional attention, though no resource estimates or drill intercepts have yet been disclosed to quantify upside.",
+        "Key near-term catalysts to monitor include initial field sampling results, geophysical survey data, and any drill target generation — investors should track cash burn rate against exploration timeline, as small-cap explorers like Ausmon face execution risk if capital reserves are insufficient to sustain a full field program through to meaningful results."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HRE",
+      "company": "HEAVY RARE EARTHS LIMITED",
+      "headline": "Capital Raising of up to $2.028 million",
+      "time": "2026-08-05T00:20:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118078-3A698219",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Heavy Rare Earths is raising up to $2.028 million in fresh capital — a modest sum suggesting the company is in early-stage exploration or has limited near-term cash runway, with the raise likely providing only a short operational buffer of 6–12 months depending on burn rate.",
+        "The small scale of the raise (~$2M) implies either a placement to sophisticated/institutional investors or a rights issue at a likely discount to market price, both of which carry meaningful dilution risk for existing retail shareholders in a thinly capitalised junior miner.",
+        "Next steps will hinge on the use-of-funds disclosure — investors should scrutinise whether proceeds are directed toward drilling programs, resource definition, or working capital, as the strategic rationale will determine whether this raise is value-accretive or merely a survival mechanism in a challenging rare earths market."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SKY",
+      "company": "SKY METALS LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-08-05T00:12:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118076-2A1687673",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SKY Metals has been suspended from quotation on the ASX, indicating a likely pending material corporate action — most commonly a capital raise, merger/acquisition, or significant asset transaction requiring a trading halt to manage information asymmetry.",
+        "The 'Market Sensitive' classification signals the underlying catalyst is material to valuation, elevating the probability this is tied to a transformative event (e.g. binding term sheet, scheme of arrangement, or substantial placement) rather than a routine administrative matter.",
+        "Institutional investors should monitor for an imminent announcement upon reinstatement of trading — suspension periods typically resolve within 1–5 business days, and the nature of the disclosure will be the key determinant of directional price impact upon resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MGU",
       "company": "MAGNUM MINING AND EXPLORATION LIMITED",
