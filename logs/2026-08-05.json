@@ -1,9 +1,85 @@
 {
   "date": "2026-08-05",
-  "total": 70,
-  "market_sensitive_count": 59,
-  "generated_at": "2026-08-05T01:34:17.745984+00:00",
+  "total": 74,
+  "market_sensitive_count": 63,
+  "generated_at": "2026-08-05T03:04:00.494274+00:00",
   "announcements": [
+    {
+      "ticker": "BTR",
+      "company": "BRIGHTSTAR RESOURCES LIMITED",
+      "headline": "Diggers and Dealers Presentation",
+      "time": "2026-08-05T02:36:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118135-6A1337398",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Diggers & Dealers is one of Australia's premier mining investor conferences, and Brightstar's decision to present signals management is actively seeking to raise its institutional profile — a key precursor to potential capital raises or strategic partnerships in a competitive gold exploration environment.",
+        "The market-sensitive classification suggests the presentation likely contains material undisclosed information, potentially including updated resource estimates, exploration results, or corporate strategy updates that could re-rate the stock relative to current valuations.",
+        "Investors should monitor the presentation content closely for any guidance on project development timelines, funding requirements, or M&A activity at Brightstar's Western Australian gold assets, as conference presentations frequently serve as catalysts for near-term share price re-rating."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RRE",
+      "company": "RIGHT RESOURCES LIMITED",
+      "headline": "Prospectus",
+      "time": "2026-08-05T02:28:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118132-6A1337396",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Right Resources Limited is entering the public market via a Prospectus, signalling an IPO or significant capital raise event — the market-sensitive classification suggests material terms (offer price, size, use of funds) that could meaningfully re-rate the stock upon listing or close of offer.",
+        "Prospectus filings typically outline capital structure, pre-IPO dilution, and intended deployment of proceeds — investors should scrutinise the cash burn rate, minimum subscription thresholds, and whether funds raised provide sufficient runway (typically 18–24 months is the institutional benchmark) to reach a value-creating milestone.",
+        "As a newly listed or re-capitalised resources company on the ASX, near-term price action will be heavily influenced by commodity exposure, project stage (exploration vs. development), and quality of the lead manager — early-stage resource IPOs face elevated execution risk, and the absence of revenue makes project fundamentals and management track record the primary valuation drivers."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LIN",
+      "company": "LINDIAN RESOURCES LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-08-05T02:02:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118123-6A1337395",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lindian Resources has requested a trading halt, suspending price discovery and liquidity for all shareholders — the market-sensitive classification signals a potentially material corporate event is imminent, likely requiring a trading pause to ensure an orderly market ahead of disclosure.",
+        "The nature of the halt remains undisclosed, but for a junior resources company like Lindian (focused on the Kangankunde rare earth project in Malawi), common catalysts include capital raises, M&A activity, or significant project/JV announcements — each carrying materially different valuation implications.",
+        "Investors should monitor the resumption announcement closely; the halt duration (typically 1-2 trading days under ASX Listing Rule 17.1) will provide clues on complexity — a prolonged halt may indicate a capital raise or transformational deal requiring documentation, while a swift resumption could signal a resource update or regulatory outcome."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KIT",
+      "company": "KAPSTREAM INVESTMENT TRUST",
+      "headline": "Dividend/Distribution - KIT",
+      "time": "2026-08-05T01:42:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118110-3A698237",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Kapstream Investment Trust (KIT) has declared a dividend/distribution, confirming continued income generation for unitholders — critical for a fixed income-oriented trust where regular cash distributions are the primary return driver and a key metric of portfolio health.",
+        "As a market-sensitive announcement, the distribution quantum and any changes to the per-unit rate relative to prior periods will be closely scrutinised — any reduction could signal deterioration in underlying bond/credit portfolio yield, while a stable or increased distribution supports the trust's income thesis in the current rate environment.",
+        "With the RBA rate cycle at an inflection point, KIT's distribution sustainability hinges on portfolio duration positioning and credit spread management; institutional investors should assess whether the declared rate reflects genuine yield capture or is being supported by capital, which would be a medium-term concern for NAV preservation."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "KGL",
       "company": "KGL RESOURCES LIMITED",
