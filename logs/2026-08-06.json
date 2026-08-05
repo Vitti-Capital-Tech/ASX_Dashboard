@@ -1,9 +1,219 @@
 {
   "date": "2026-08-06",
-  "total": 57,
-  "market_sensitive_count": 54,
-  "generated_at": "2026-08-05T23:22:26.783370+00:00",
+  "total": 68,
+  "market_sensitive_count": 65,
+  "generated_at": "2026-08-05T23:43:51.981671+00:00",
   "announcements": [
+    {
+      "ticker": "MRD",
+      "company": "MOUNT RIDLEY MINES LIMITED",
+      "headline": "Grass Patch Rare Earths Confirmed to be Hosted in Phosphates",
+      "time": "2026-08-05T23:38:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118500-6A1337542",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Phosphate-hosted rare earth mineralisation at Grass Patch is a technically significant finding — phosphate matrices (likely monazite or apatite) are well-established, commercially viable hosts for REEs, potentially simplifying metallurgical processing pathways and improving project economics versus more complex silicate-hosted deposits.",
+        "Confirmation of the host mineral type is a critical de-risking milestone for Mount Ridley, as it allows the company to benchmark against comparable phosphate-REE projects and select proven extraction flowsheets, which could materially reduce future testwork costs and timeline to resource definition.",
+        "Near-term catalysts to watch include follow-up metallurgical testwork to quantify REE recoveries from the phosphate host, potential resource estimation drilling, and any strategic partnership or offtake interest — all of which will be necessary to convert this geological confirmation into investable value for institutional audiences."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SOP",
+      "company": "SYNERTEC CORPORATION LIMITED",
+      "headline": "Response to ASX Aware Query",
+      "time": "2026-08-05T23:37:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118499-3A698304",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX-initiated aware query signals the exchange detected unusual price or volume movement in SYT shares, triggering a mandatory disclosure review — the market-sensitive classification elevates the risk of undisclosed material information being in circulation.",
+        "The company's formal response to the query is the critical data point: if management confirms no undisclosed information, it typically signals the price movement was speculative or technical in nature, limiting fundamental re-rating; however, any partial disclosure of a pending deal, contract, or capital event would be a material catalyst.",
+        "Investors should monitor the full text of the response closely for any forward-looking qualifications or caveats — a clean 'no undisclosed information' response would likely see short-term volatility subside, while any acknowledgement of ongoing negotiations or corporate activity would demand immediate reassessment of position sizing."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AT4",
+      "company": "AMERICAN TUNGSTEN & ANTIMONY LTD",
+      "headline": "Ramp Up & Expansion Planning Begins for Del Sol & White Spar",
+      "time": "2026-08-05T23:34:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118497-6A1337538",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The simultaneous ramp-up and expansion planning across two projects (Del Sol and White Spar) signals a strategic pivot from exploration to production-stage execution — a critical de-risking milestone that typically re-rates junior miners toward higher valuation multiples.",
+        "Antimony and tungsten are both classified as critical minerals under US supply chain security frameworks, positioning American Tungsten & Antimony to potentially benefit from offtake premiums, government-backed financing, or strategic partnerships given escalating geopolitical tensions around Chinese export controls on these materials.",
+        "Key near-term catalysts to monitor include updated resource estimates, capital expenditure guidance for the expansion phase, and any binding offtake or funding agreements — the absence of hard numbers in this announcement means execution risk remains elevated and investors should await quantified production targets before sizing positions."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMX",
+      "company": "AEROMETREX LIMITED",
+      "headline": "FY26 Earnings Guidance Upgrade",
+      "time": "2026-08-05T23:31:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118493-2A1687920",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Earnings guidance upgrade signals stronger-than-anticipated revenue conversion and operational leverage — a material positive for a small-cap technology company where execution risk has historically been a key investor concern.",
+        "The upgrade implies FY26 financials are tracking materially ahead of prior consensus estimates; institutional investors should reassess earnings models and EV/Revenue multiples, particularly given Aerometrex's subscription-based MetroMap platform which drives recurring revenue visibility.",
+        "Near-term catalysts to watch include the quantum of the upgrade versus prior guidance, any commentary on contract pipeline or customer expansion, and whether management signals sustained momentum into FY27 — key inputs for re-rating potential in this geospatial data niche."
+      ],
+      "tags": [
+        "Technology",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALB",
+      "company": "ALBION RESOURCES LIMITED",
+      "headline": "PoW Approved for Maiden Drilling at Gidgee Gold Project",
+      "time": "2026-08-05T23:29:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118488-6A1337536",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Programme of Works (PoW) approval from the WA Department of Mines unlocks the critical regulatory gateway for maiden drilling at Gidgee Gold Project, removing a key de-risking milestone and signalling near-term newsflow as the company transitions from explorer to active driller.",
+        "Gidgee sits within a historically productive gold corridor in Western Australia — maiden drilling results will be the first hard data point to validate or challenge the geological thesis, making upcoming assay results a binary catalyst for re-rating the stock from its current early-stage exploration discount.",
+        "With PoW now in hand, investor focus shifts to drill mobilisation timing, target depth/strike length, and whether the company has sufficient cash runway to complete the programme and follow-up phases without near-term dilution — balance sheet scrutiny will intensify ahead of any capital raise."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AVW",
+      "company": "AVIRA RESOURCES LTD",
+      "headline": "Maiden Drilling Confirms High-Grade Gold at Mt Cattlin",
+      "time": "2026-08-05T23:28:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118486-6A1337534",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Maiden drilling at Mt Cattlin has confirmed high-grade gold mineralisation, a technically significant de-risking milestone that validates the exploration thesis and upgrades the asset from conceptual target to drill-proven prospect — a critical inflection point for a junior explorer's valuation re-rating.",
+        "The 'high-grade' designation is the key signal here: grade is king in gold exploration, and confirmation of high-grade intersections at a maiden program suggests the geological model is tracking, potentially supporting a faster path to resource definition and attracting institutional and M&A interest given Mt Cattlin's established infrastructure context in WA.",
+        "Near-term catalysts to watch include assay results depth and strike extensions, a follow-up drilling program announcement, and whether the company moves to define a JORC-compliant resource — each of these steps would represent progressive value-creation events that could sustain buying momentum beyond the initial announcement."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MRQ",
+      "company": "MRG METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-05T23:27:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118484-3A698301",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "MRG Metals has entered a trading halt, suspending share trading pending a material announcement — the market-sensitive classification signals a potentially significant corporate event is imminent, likely a capital raise, M&A activity, or major asset update.",
+        "Trading halts at junior ASX miners like MRG Metals most commonly precede equity raisings, which carry dilution risk for existing shareholders; however, they can equally signal a transformative deal or resource update that could be re-rating catalysts.",
+        "Investors should monitor the forthcoming announcement closely — the combination of 'market sensitive' flagging and a trading halt compresses the decision window, and positioning ahead of the resumption carries elevated binary risk given the lack of disclosed detail."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LFT",
+      "company": "LI-FT POWER LTD.",
+      "headline": "LIFT completes bookbuild for offering of C$20 million",
+      "time": "2026-08-05T23:26:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118483-6A1337513",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "LI-FT Power has successfully closed a C$20 million bookbuild, confirming strong institutional appetite for the company's lithium exploration story — completion of the bookbuild (rather than just launch) removes execution risk and signals credible investor demand at current pricing.",
+        "The raise materially strengthens the balance sheet and extends cash runway, providing sufficient capital to advance its flagship Yellowknife Lithium Project in the Northwest Territories through upcoming drill programs and resource definition work — critical catalysts for re-rating.",
+        "Dilution is the key near-term headwind for existing shareholders, but the successful placement at scale suggests pricing was not deeply discounted; investors should monitor the final issue price relative to last traded price to assess the dilution impact and whether strategic or cornerstone investors participated."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EMT",
+      "company": "EMETALS LIMITED",
+      "headline": "Mineral Range Tungsten Project, Drilling Program Update",
+      "time": "2026-08-05T23:22:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118480-6A1337530",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive drilling update at Mineral Range Tungsten Project signals material new information is being disclosed — tungsten is a critical mineral with strong strategic demand driven by defence and industrial applications, elevating investor attention beyond typical junior explorer updates.",
+        "The drilling program update will be closely scrutinised for intercept grades, widths, and depth continuity against any prior resource estimates or historical data — any confirmation of high-grade tungsten mineralisation could materially re-rate EME's project valuation given the scarcity of development-stage tungsten assets on the ASX.",
+        "Near-term catalysts hinge on whether results support advancement to a maiden or upgraded JORC resource estimate; investors should monitor for follow-up announcements on assay results, program expansion, or potential strategic interest from offtake or JV partners given the critical minerals thematic."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NH3",
+      "company": "NH3 CLEAN ENERGY LIMITED",
+      "headline": "NH3 Completes $4m Placement to Institutional Investors",
+      "time": "2026-08-05T23:20:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118477-6A1337506",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "NH3 Clean Energy has secured $4M via institutional placement, providing critical near-term cash runway to advance its ammonia-based clean energy technology — a meaningful capital injection for a likely pre-revenue stage company where burn rate management is paramount.",
+        "The institutional nature of the raise signals credible sophisticated investor validation of the NH3 technology thesis, though dilution impact on existing retail shareholders will hinge on the placement price relative to prevailing market price — a key metric to watch in the accompanying term sheet.",
+        "Proceeds are expected to fund project development and commercialisation milestones; investors should monitor whether this capital is sufficient to reach a de-risking catalyst (e.g. pilot plant, offtake agreement, or government grant co-funding) or whether a follow-on raise remains likely within 12 months."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CCO",
+      "company": "THE CALMER CO INTERNATIONAL LIMITED",
+      "headline": "CCO Secures Long-Term Kava Supply Agreement",
+      "time": "2026-08-05T23:20:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118476-6A1337528",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A long-term kava supply agreement directly addresses CCO's most critical input risk — securing raw material continuity is foundational for scaling its kava-based wellness product lines and supporting revenue predictability, which has historically been a key investor concern.",
+        "The market-sensitive classification signals the board views this as materially impactful to operations or valuation; for a small-cap wellness company, locking in supply at defined terms can meaningfully de-risk cost-of-goods volatility and improve gross margin visibility for institutional modelling.",
+        "Next catalyst to watch is whether CCO discloses volume commitments, pricing terms, or supplier identity — specifics will determine whether this translates into tangible earnings uplift or remains a strategic optionality play; any accompanying revenue guidance upgrade would be a strong follow-on signal."
+      ],
+      "tags": [
+        "Healthcare",
+        "Retail",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "FG1",
       "company": "FLYNN GOLD LIMITED",
