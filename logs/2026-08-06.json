@@ -1,9 +1,123 @@
 {
   "date": "2026-08-06",
-  "total": 51,
-  "market_sensitive_count": 48,
-  "generated_at": "2026-08-05T23:17:06.503686+00:00",
+  "total": 57,
+  "market_sensitive_count": 54,
+  "generated_at": "2026-08-05T23:22:26.783370+00:00",
   "announcements": [
+    {
+      "ticker": "FG1",
+      "company": "FLYNN GOLD LIMITED",
+      "headline": "Ore Purchase Agreement with Henty Gold Mine",
+      "time": "2026-08-05T23:19:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118474-3A698297",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Flynn Gold has secured an Ore Purchase Agreement with the Henty Gold Mine, providing a near-term revenue pathway by monetising ore without requiring Flynn to build its own processing infrastructure — a capital-light strategy that accelerates cash generation from its Tasmanian assets.",
+        "The agreement is market sensitive, signalling material financial impact; key terms including ore volumes, pricing mechanisms (likely tied to gold spot or a fixed discount), and haulage logistics will determine the margin profile and how meaningfully this moves the needle on Flynn's cash position and runway.",
+        "This deal de-risks Flynn's development timeline by establishing a toll-milling or direct ore-sale relationship with an established operator, potentially validating the grade and quality of Flynn's ore body — a critical precursor to attracting further institutional interest or a larger strategic transaction."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "A1M",
+      "company": "AIC MINES LIMITED",
+      "headline": "Eloise Regional Exploration Update",
+      "time": "2026-08-05T23:18:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118473-6A1337527",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Regional exploration activity around the Eloise copper mine signals AIC Mines is actively pursuing district-scale resource growth beyond the existing orebody — a key re-rating catalyst for a single-asset copper producer seeking to extend mine life and justify further capital investment.",
+        "Market-sensitive classification indicates material new drilling results or target definition that could meaningfully alter the resource inventory or exploration pipeline; investors should scrutinise intercept grades and depths relative to Eloise's existing high-grade copper-gold mineralisation (~2% Cu) to assess economic significance.",
+        "Near-term focus will be on whether results support a standalone satellite deposit or a potential underground extension scenario — either outcome could underpin a resource update or revised mine plan, with copper's structural demand tailwinds from energy transition adding valuation leverage to any discovery success."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "R8R",
+      "company": "REGENER8 RESOURCES NL",
+      "headline": "Regener8 to Divest Kookynie Gold Project to GA8",
+      "time": "2026-08-05T23:15:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118470-6A1337516",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Regener8 is divesting the Kookynie Gold Project to GA8, signalling a strategic pivot away from gold exploration — investors should scrutinise deal terms closely, particularly whether consideration is cash, scrip, or deferred payments, as this directly impacts near-term liquidity and capital allocation flexibility.",
+        "The market-sensitive classification suggests material financial or structural implications; without disclosed consideration metrics (e.g. upfront cash, royalty streams, or milestone payments), the true accretion or dilution to NAV remains uncertain — deal structure will be the key valuation driver.",
+        "Post-divestment, Regener8's asset base and strategic direction will require clarity — the critical next step is management articulating a redeployment strategy for any proceeds and confirming whether the company retains sufficient working capital or will require a capital raise to fund its revised focus."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ITM",
+      "company": "ITECH MINERALS LTD",
+      "headline": "Outstanding Gold Intercepts at Reynolds Range",
+      "time": "2026-08-05T23:15:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118469-2A1687915",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals drill results materially exceed prior expectations — 'outstanding' intercepts at Reynolds Range NT project elevate iTech's gold credentials and could trigger re-rating of the asset, which has historically been positioned primarily as a graphite/critical minerals play.",
+        "The Reynolds Range intercepts add a high-value gold dimension to iTech's portfolio at a time when gold is trading near all-time highs above US$3,000/oz, maximising the commercial significance of any meaningful width/grade results and amplifying potential investor interest from gold-focused funds.",
+        "Near-term catalysts to watch include follow-up drilling programs, JORC resource definition potential, and whether management pursues a standalone gold development pathway or uses the results to attract a JV partner — either outcome could unlock significant value for a small-cap explorer currently trading on a critical minerals narrative."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RGT",
+      "company": "ARGENT BIOPHARMA LIMITED",
+      "headline": "US Veterinary Development Programme for CannEpil Commences",
+      "time": "2026-08-05T23:14:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118467-6A1337524",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of a US veterinary development programme for CannEpil marks a critical regulatory and commercial milestone — the US animal health market is valued at ~USD$6B annually, with canine epilepsy representing a high-value, underserved niche where cannabinoid-based therapies face a lower regulatory bar than human therapeutics, potentially accelerating time-to-revenue.",
+        "The veterinary pathway is strategically significant as it bypasses the more complex and costly FDA human drug approval process (IND/NDA), allowing Argent to generate near-term commercial proof-of-concept and revenue streams while simultaneously de-risking the broader CannEpil platform for future human applications.",
+        "Key near-term catalysts to monitor include trial design disclosure, partner or CRO identification, and funding arrangements — given Argent's small-cap status, investors should scrutinise whether this programme is adequately capitalised or whether a capital raise is imminent to fund US operations, which could introduce dilution risk."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NWM",
+      "company": "NORWEST MINERALS LIMITED",
+      "headline": "Results of Entitlement Offer",
+      "time": "2026-08-05T23:12:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118464-6A1337518",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Entitlement offer completion signals near-term cash injection for Norwest Minerals, providing operational runway to advance exploration programs — critical for a junior explorer where liquidity risk is a persistent concern.",
+        "Institutional investors should scrutinise the take-up rate and any shortfall placement: low retail participation or heavy broker placement of rump shares would indicate weak existing shareholder conviction and potential near-term selling pressure from new placees.",
+        "Proceeds deployment timeline and intended use of funds will be the key forward catalyst — if capital is directed toward drilling at flagship projects, this could serve as a re-rating trigger, though dilution impact on per-share NAV must be weighed against exploration upside."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BTM",
       "company": "BREAKTHROUGH MINERALS LIMITED",
