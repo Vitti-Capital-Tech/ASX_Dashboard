@@ -1,9 +1,47 @@
 {
   "date": "2026-08-06",
-  "total": 74,
-  "market_sensitive_count": 70,
-  "generated_at": "2026-08-06T00:08:20.760826+00:00",
+  "total": 76,
+  "market_sensitive_count": 71,
+  "generated_at": "2026-08-06T00:28:13.537356+00:00",
   "announcements": [
+    {
+      "ticker": "GLL",
+      "company": "GALILEE ENERGY LIMITED",
+      "headline": "Request for Extension of Voluntary Suspension",
+      "time": "2026-08-06T00:11:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118534-2A1687937",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Galilee Energy has requested a further extension to its voluntary suspension, signalling that a material transaction or corporate development remains unresolved — prolonged halts of this nature typically indicate complex negotiations around asset sales, farm-ins, or strategic restructuring are still in progress.",
+        "The extended suspension prevents price discovery and liquidity for existing shareholders, raising concerns about deal certainty and timeline — institutional holders should note that repeated extension requests can erode market confidence and widen bid-ask spreads upon resumption of trading.",
+        "Key catalyst to watch is the nature of the pending announcement upon reinstatement; given Galilee's focus on the Taroom Trough gas assets in Queensland, a farm-out agreement or M&A transaction remains the most probable trigger — outcome will be binary and could materially re-rate the stock in either direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RNV",
+      "company": "RENERVE LIMITED",
+      "headline": "ReNerve Secures Marketing Approval in the Philippines",
+      "time": "2026-08-06T00:06:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118530-6A1337552",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Philippine FDA marketing approval represents a tangible regulatory milestone for ReNerve, opening access to a ~115 million population market and validating the product's safety/efficacy profile under a recognised regulatory framework — a critical de-risking event for a small-cap healthcare company.",
+        "The commercial significance hinges on distribution and partnership arrangements yet to be disclosed; investors should scrutinise whether ReNerve has an established in-country commercial partner, as approval without a funded go-to-market strategy offers limited near-term revenue visibility.",
+        "This approval could serve as a regulatory blueprint for broader Southeast Asian market entries (e.g. Indonesia, Vietnam, Thailand), potentially accelerating the company's regional expansion pipeline — watch for follow-on announcements regarding additional ASEAN submissions or distribution agreements as the key re-rating catalyst."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CU6",
       "company": "CLARITY PHARMACEUTICALS LTD",
