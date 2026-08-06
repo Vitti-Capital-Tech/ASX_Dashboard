@@ -1,9 +1,47 @@
 {
   "date": "2026-08-06",
-  "total": 76,
-  "market_sensitive_count": 71,
-  "generated_at": "2026-08-06T00:28:13.537356+00:00",
+  "total": 78,
+  "market_sensitive_count": 73,
+  "generated_at": "2026-08-06T01:34:54.724893+00:00",
   "announcements": [
+    {
+      "ticker": "SPD",
+      "company": "SOUTHERN PALLADIUM LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-08-06T01:31:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118559-2A1687955",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Southern Palladium has requested a trading halt ahead of what is likely a material announcement — the market-sensitive classification signals a significant corporate event is imminent, potentially a capital raise, JV/partnership deal, or major resource update at its flagship Bengwenyama PGM project in South Africa.",
+        "The halt preserves price integrity while the company finalises disclosure, but the market-sensitive flag elevates the probability of a value-moving event rather than routine administrative action — institutional investors should monitor closely for a potential equity raising or strategic transaction that could materially alter the company's funding or development trajectory.",
+        "Next steps hinge entirely on the nature of the pending announcement; given Southern Palladium's stage as an advanced PGM explorer requiring substantial capital to progress Bengwenyama toward feasibility, a capital raise or strategic partner entry would be the highest-probability outcomes — either scenario carries meaningful implications for near-term dilution or re-rating."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AQZ",
+      "company": "ALLIANCE AVIATION SERVICES LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-08-06T00:45:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118549-2A1687949",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alliance Aviation has requested a trading halt ahead of what is likely a material announcement — given the 'market sensitive' classification, this signals a significant corporate event is imminent, potentially involving M&A, capital activity, or a major contract update.",
+        "The timing is notable given Alliance's ongoing strategic relationship with Qantas, which holds a ~19.9% stake — any development touching that relationship, a potential takeover bid, or equity raise would carry outsized valuation implications for minority shareholders.",
+        "Investors should monitor closely for the resumption announcement; trading halts of this nature in the aviation sector typically resolve within 1-2 trading days, with the nature of the disclosure likely to set a sharp directional move in the share price upon reinstatement."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GLL",
       "company": "GALILEE ENERGY LIMITED",
