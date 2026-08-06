@@ -1,9 +1,126 @@
 {
   "date": "2026-08-06",
-  "total": 78,
-  "market_sensitive_count": 73,
-  "generated_at": "2026-08-06T01:34:54.724893+00:00",
+  "total": 84,
+  "market_sensitive_count": 78,
+  "generated_at": "2026-08-06T03:04:05.577023+00:00",
   "announcements": [
+    {
+      "ticker": "HT8",
+      "company": "HARRIS TECHNOLOGY GROUP LIMITED",
+      "headline": "Monthly Refurbished tech sales surpass $1 Million",
+      "time": "2026-08-06T02:19:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118586-3A698311",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Milestone revenue inflection: Monthly refurbished tech sales crossing the $1M threshold signals a meaningful step-change in Harris Technology's circular economy segment, demonstrating the unit can generate annualised run-rate revenue of ~$12M+ from refurbishment alone — a materially higher-margin channel than new product distribution.",
+        "Strategic validation of the refurbishment pivot: The $1M monthly figure confirms consumer and B2B demand for cost-effective, sustainable tech solutions is translating into real revenue traction, reducing Harris Technology's reliance on lower-margin new hardware sales and improving the overall gross margin mix.",
+        "Outlook hinges on scalability and repeatability: Investors should watch whether this milestone is a one-off peak or the start of a sustained upward trend — key catalysts include inventory sourcing capacity, reconditioning throughput, and whether the company can leverage this momentum to attract enterprise or government refurbishment contracts."
+      ],
+      "tags": [
+        "Technology",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ASM",
+      "company": "AUSTRALIAN STRATEGIC MATERIALS LIMITED",
+      "headline": "Notice of Second Court Hearing for the Schemes",
+      "time": "2026-08-06T02:05:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118579-6A1337573",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Second Court Hearing represents the final regulatory hurdle before scheme implementation — approval here effectively green-lights the transaction, making this a binary catalyst event for ASM shareholders with near-term certainty on deal closure.",
+        "Court sanction of the scheme typically follows shareholder approval, suggesting the deal has already cleared the shareholder vote threshold; any court rejection at this stage would be a significant and rare adverse outcome, making approval the high-probability base case.",
+        "Investors should monitor the court hearing date closely as scheme implementation and associated consideration payments (cash, scrip, or both) will flow shortly after court orders are lodged with ASIC — positioning ahead of the record date is critical for arbitrage and long-term holders alike."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SPD",
+      "company": "SOUTHERN PALLADIUM LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-06T02:05:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118578-2A1687962",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Southern Palladium (SPD) has entered a trading halt pending a material announcement, suspending price discovery at a critical juncture — the nature of the halt (capital raise, M&A, or resource update) remains undisclosed but the market-sensitive classification signals a potentially significant corporate event.",
+        "As a palladium/PGM explorer focused on the Bengwenyama project in South Africa, any announcement likely relates to project financing, a strategic partnership, or a resource milestone — all of which carry meaningful valuation implications given the capital-intensive nature of PGM development and current palladium market dynamics.",
+        "Investors should monitor the resumption announcement closely; if the halt precedes a capital raise, dilution risk is the primary concern, whereas a farm-in deal or offtake agreement would be materially re-rating catalysts for a company at SPD's development stage."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VMS",
+      "company": "VENARI MINERALS NL",
+      "headline": "Security Class Reinstatement to Quotation - VMSOA",
+      "time": "2026-08-06T01:44:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118568-6A1337563",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reinstatement of VMSOA securities (options class) to ASX quotation signals resolution of whatever compliance or administrative condition triggered the suspension — restoring full market access and liquidity for this instrument class, which is a prerequisite for normal price discovery.",
+        "The market-sensitive classification elevates this beyond routine administration, suggesting the reinstatement may coincide with a material corporate event (e.g. capital raise completion, restructuring, or information release) that could directly reprice both the options and underlying VMSo equity.",
+        "Investors should monitor for any accompanying announcements — reinstatements of suspended security classes frequently precede or follow capital structure changes, and the re-entry of previously illiquid options into the market can create near-term volatility in the underlying shares as holders reassess positions."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining",
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OFX",
+      "company": "OFX GROUP LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-06T01:42:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118565-2A1687960",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in OFX's institutional ownership structure, which warrants monitoring for potential accumulation or distribution activity by a major shareholder crossing or moving through the 5% threshold.",
+        "Substantial holder movements in mid-cap fintech names like OFX can precede strategic activity — investors should scrutinise whether the filing reflects a new entrant building a position, an existing holder reducing exposure, or a passive index-driven rebalancing event.",
+        "With OFX navigating a competitive cross-border payments landscape and ongoing execution of its SME and corporate client growth strategy, any sustained increase in institutional ownership could signal growing conviction in the earnings recovery thesis, while a reduction may reflect profit-taking or sector rotation out of fintech."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CEL",
+      "company": "CHALLENGER GOLD LIMITED",
+      "headline": "Completion of Equity Raising & Management Changes",
+      "time": "2026-08-06T01:39:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118562-6A1337562",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Equity raising completion injects fresh capital into Challenger Gold, extending cash runway for exploration and development activities — critical for a junior miner where liquidity constraints can stall project advancement and erode market confidence.",
+        "Management changes accompanying the capital raise signal a strategic reset, potentially bringing in operationally experienced leadership to accelerate project milestones; investor focus will be on whether incoming executives have a track record of value creation in gold exploration.",
+        "The dual announcement of capital raise completion and leadership transition in a single market-sensitive release suggests coordinated restructuring — investors should monitor upcoming quarterly cash flow reports and any revised exploration work programs to assess whether new capital is being deployed efficiently."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SPD",
       "company": "SOUTHERN PALLADIUM LIMITED",
