@@ -1,9 +1,87 @@
 {
   "date": "2026-08-07",
-  "total": 48,
-  "market_sensitive_count": 41,
-  "generated_at": "2026-08-07T01:52:56.406919+00:00",
+  "total": 52,
+  "market_sensitive_count": 44,
+  "generated_at": "2026-08-07T03:12:56.137593+00:00",
   "announcements": [
+    {
+      "ticker": "EVE",
+      "company": "EVE HEALTH GROUP LIMITED.",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report - Amended",
+      "time": "2026-08-07T02:43:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118984-6A1337723",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "The 'Amended' designation on this market-sensitive Appendix 4C filing is a critical red flag — restatements of cash flow reports typically signal errors in prior disclosures around receipts, payments, or cash balances, and institutional investors should scrutinise the delta between original and amended figures to assess materiality and management credibility.",
+        "Key metrics to watch in the amendment include any changes to operating cash outflows, customer receipts, and the closing cash balance, as these directly determine EVE Health Group's cash runway — for a healthcare company of this size, even modest restatements can shift the implied runway by weeks to months and alter refinancing urgency.",
+        "Until the specific line-item changes are confirmed and management provides context for the amendment, the market should treat this as a governance and disclosure risk event; if the amendment reflects a deterioration in cash position or understated expenditure, it could accelerate pressure on the company to raise capital or restructure operations in the near term."
+      ],
+      "tags": [
+        "Quarterly",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TGM",
+      "company": "THETA GOLD MINES LIMITED",
+      "headline": "Conversion of Unsecured Loan to Equity",
+      "time": "2026-08-07T02:22:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118978-6A1337719",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Debt-to-equity conversion reduces balance sheet leverage without cash outflow, preserving Theta Gold Mines' liquidity for ongoing exploration and development at the Transvaal Gold Mining Estate — a structurally positive move for a pre-revenue junior miner where cash preservation is critical.",
+        "The conversion introduces dilution risk for existing shareholders; the key variables to watch are the conversion price relative to market price and the quantum of shares issued, as a below-market conversion price would signal a distressed capital structure and disproportionately disadvantage retail holders.",
+        "This transaction likely signals the lender — potentially an insider or strategic party — is taking a longer-dated view on the asset, which could be interpreted as implicit confidence in the project's development timeline; however, investors should scrutinise whether this is a one-off restructure or indicative of broader funding constraints ahead of a planned production decision."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LFT",
+      "company": "LI-FT POWER LTD.",
+      "headline": "Canadian Prospectus Supplement",
+      "time": "2026-08-07T02:02:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118971-6A1337716",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "LI-FT Power has filed a Canadian Prospectus Supplement, signalling an active capital raise via the Canadian markets — a common mechanism for TSX-listed junior miners to access North American institutional capital, which may indicate imminent equity issuance and potential dilution for existing ASX shareholders.",
+        "The market-sensitive classification of this filing elevates its significance beyond routine administration — investors should monitor the prospectus terms closely for deal size, pricing relative to current market price, and any use-of-proceeds disclosures that could signal acceleration of exploration or resource development at its Northwest Territories lithium assets.",
+        "As a dual-listed lithium explorer, LI-FT's ability to tap Canadian capital markets provides funding optionality critical for advancing its Yellowknife Lithium Project toward a resource estimate; however, the timing and scale of any raise will be key determinants of whether this is accretive or dilutive to near-term shareholder value."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ADS",
+      "company": "ADSLOT LTD.",
+      "headline": "Becoming a substantial holder - amended",
+      "time": "2026-08-07T01:57:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118970-3A698382",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "An amended substantial holder notice signals a correction or update to a previously lodged position, requiring investors to scrutinise the revised ownership percentage and effective date to determine whether the stake has increased, decreased, or been restructured — any material change in a substantial holder's position can shift the supply/demand dynamic for ADSlot's thinly traded stock.",
+        "For a micro-cap technology company like Adslot (digital advertising marketplace), a substantial holder amendment can indicate behind-the-scenes portfolio repositioning; if the revised notice reflects a reduced holding, it may signal waning institutional conviction, whereas an increased stake could suggest accumulation ahead of a potential catalyst.",
+        "Investors should cross-reference the amended filing against the original notice to identify the specific change — whether it involves a change of voting power, associated entity restructuring, or a correction to acquisition dates — as these details determine whether the amendment carries any strategic implications for Adslot's shareholder register and governance dynamics."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EXL",
       "company": "ELIXINOL WELLNESS LIMITED",
