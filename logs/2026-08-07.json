@@ -1,9 +1,28 @@
 {
   "date": "2026-08-07",
-  "total": 46,
-  "market_sensitive_count": 39,
-  "generated_at": "2026-08-07T00:07:21.592094+00:00",
+  "total": 47,
+  "market_sensitive_count": 40,
+  "generated_at": "2026-08-07T00:46:29.894211+00:00",
   "announcements": [
+    {
+      "ticker": "ASB",
+      "company": "AUSTAL LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-07T00:00:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03118922-6A1337706",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Austal has entered a trading halt pending a material announcement, suspending price discovery at a critical juncture — the market-sensitive classification signals the forthcoming disclosure is likely to be a significant corporate event rather than routine administrative action.",
+        "Historical context matters: Austal operates across US and Australian naval shipbuilding contracts, meaning the pending announcement could relate to a major defence contract award, M&A activity, or a material earnings revision — any of which carry substantial valuation implications for this ~A$1.5B market cap defence prime.",
+        "Institutional investors should monitor closely for resumption of trading, expected within 2 ASX business days — the nature of the halt (not a query response) suggests management-initiated disclosure, historically associated with higher-impact announcements such as capital raises, strategic transactions, or significant contract developments."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ION",
       "company": "IONDRIVE LIMITED",
