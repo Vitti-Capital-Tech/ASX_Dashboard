@@ -10,7 +10,7 @@ Every day, hundreds of companies release official announcements on the stock mar
 
 ## What This Tool Does For You
 
-1. **Auto-Fetches the News:** Automatically pulls the latest official announcements from the ASX every 20 minutes during market hours.
+1. **Auto-Fetches the News:** Automatically pulls the latest official announcements from the ASX throughout the trading day — every few minutes around the market open, then hourly.
 2. **AI Summaries:** Instead of reading a 50-page PDF, AI reads it instantly and gives you 3 bullet points explaining what happened.
 3. **Flags Market-Sensitive News:** The ASX tells us if a piece of news is expected to move the stock price. These are highlighted in your feed so you know what matters.
 4. **Highlights Bullish News:** Our AI analyzes text and flags positive announcements with a green **▲ BULLISH** badge and a glowing green card.
@@ -49,11 +49,18 @@ python fetch_asx.py
 
 ## Automated Data Pipeline
 
-The GitHub Actions workflow runs automatically during ASX market hours **(10:00 AM – 4:00 PM AEST, Monday–Friday)** at 20-minute intervals. Runs are offset to `:03`, `:23`, `:43` past the hour to reduce GitHub scheduler congestion.
+A GitHub Actions workflow runs the fetcher automatically on ASX trading days (**Monday–Friday**, Sydney time):
 
-> **Note:** GitHub's free-tier scheduler is not perfectly precise and may occasionally delay runs by up to 30 minutes. All runs are idempotent — re-running the script never creates duplicates.
+| Sydney time | How often | Why |
+| --- | --- | --- |
+| 8:00 – 10:00 AM | Every 5 minutes | Pre-open and the opening rush, when most market-sensitive news lands |
+| 10:00 AM – 2:00 PM | Hourly | Steadier trickle through the rest of the session |
 
-You can also trigger a run manually from the **GitHub Actions** tab.
+Schedule times live in the workflow as UTC, but a `gate` step re-checks the real Sydney clock before every fetch — so the timing follows the AEST/AEDT changeover automatically and never fires on weekends.
+
+> **Note on timing:** GitHub gives **no delivery guarantee** for scheduled workflows. Measured across 100 consecutive runs (Jul–Aug 2026), it actually delivered only about 2 of the 12 runs requested each hour and arrived anywhere from on-time to 70 minutes late; on 6 Aug 2026 it skipped a full two-hour block. The workflow therefore asks for far more slots than it needs, so that losing most of them still leaves at least one early run. All runs are idempotent — re-running never creates duplicates.
+
+If a run is missed or you need fresh data right now, trigger one manually from the **GitHub Actions** tab → **Run workflow**. Manual runs bypass the schedule and the weekday check entirely.
 
 ---
 

@@ -1,27 +1,33 @@
 name: Daily ASX Announcements
 
-concurrency:
-  group: "daily-asx-fetch"
-  cancel-in-progress: false
+# NOTE: concurrency is declared on the fetch-and-summarise job, NOT here, so the
+# cheap gate job never occupies the group. GitHub allows only 1 running + 1
+# pending run per group and cancels the pending one on a third arrival — this
+# scoping keeps that headroom for real fetches. (Tidiness, not a bug fix: run
+# history shows 100/100 success and zero cancellations.)
 
 on:
-  # GitHub schedule is UTC-only. We trigger every 5 min during UTC hours that overlap
-  # the desired AEST window (UTC+10). Job "gate" skips unless local Sydney time is:
-  #   Mon–Fri: 09:00–09:55 every 5 min, then 10:00–14:00 on the hour.
-  # "On the hour" allows minute<=10 to tolerate GitHub scheduler drift (often 5-15 min late).
-  # Weekends: no fetch (gate off). Manual workflow_dispatch always runs the fetch.
-  # 9am AEST = 23:00 UTC | 2pm AEST = 04:00 UTC
+  # GitHub schedule is UTC-only. We trigger during the UTC hours that overlap the
+  # desired Sydney window: every 5 min for the first two hours (08:00–10:00 AEST),
+  # then hourly to 14:00 AEST. Job "gate" filters weekends; workflow_dispatch always runs.
+  # 8am AEST = 22:00 UTC | 9am AEST = 23:00 UTC | 2pm AEST = 04:00 UTC
+  #
+  # Measured over 100 runs (Jul–Aug 2026): GitHub delivers only ~2 of the 12
+  # events requested per hour here, and delays them 0–70 min. Nothing in a cron
+  # file changes that, so keep the attempt count HIGH — each event is an
+  # independent lottery ticket for landing a run before 23:00 UTC.
+  # Offsets avoid :00, the scheduler's peak-load minute and the most-dropped one.
   schedule:
     # Every 5 min during first hour (08:00–09:00 AEST)
     # Sun-Thu UTC = Mon-Fri AEST (day rolls forward across the date line)
-    - cron: "*/5 22 * * 0-4"
+    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 22 * * 0-4"
 
     # Every 5 min during second hour (09:00–10:00 AEST)
-    - cron: "*/5 23 * * 0-4"
+    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 23 * * 0-4"
 
     # Every hour after that (10:00–14:00 AEST)
     # Mon-Fri UTC = Mon-Fri AEST (same calendar day)
-    - cron: "0 0-4 * * 1-5"
+    - cron: "10 0-4 * * 1-5"
     # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
     inputs:
@@ -55,19 +61,13 @@ jobs:
           n = datetime.now(z)
 
           hour = n.hour
-          minute = n.minute
           weekday = n.weekday()  # 0=Mon, 6=Sun
 
-          run = False
-
-          if weekday < 5:  # Mon–Fri
-              # 08:00–09:55 window (every ~5 min, tolerate delay)
-              if hour >= 8 and hour < 10 and  minute <= 59:
-                  run = True
-
-              # 10:00–14:00 hourly
-              elif 10 <= hour <= 14:
-                  run = True
+          # Mon–Fri, 08:00–15:59 local. The crons already pin the exact minutes;
+          # this gate only filters weekends and anything wildly out of band.
+          # Upper bound is 15 (not 14) because during AEDT (UTC+11) the last
+          # cron, 04:10 UTC, lands at 15:10 local and was being dropped.
+          run = weekday < 5 and 8 <= hour <= 15
 
           print("true" if run else "false")
           EOF
@@ -79,6 +79,11 @@ jobs:
     needs: gate
     if: needs.gate.outputs.proceed == 'true'
     runs-on: ubuntu-latest
+    # Serialise only the real work (it pushes to main). Gate jobs no longer
+    # occupy this group, so they cannot evict a queued fetch.
+    concurrency:
+      group: "daily-asx-fetch"
+      cancel-in-progress: false
     permissions:
       contents: write # needed to commit logs/ back to the repo
 

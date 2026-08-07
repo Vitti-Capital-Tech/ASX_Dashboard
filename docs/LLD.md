@@ -69,3 +69,37 @@ To retrieve, parse, enrich, and serialize the daily ASX market announcements.
     *   Displays ticker, deal type badge (distinct color scheme for IPO vs Placement), company name, received time, subject, and the summary text pre-formatted.
     *   **Clipboard Management:** Employs `navigator.clipboard.writeText` to copy the WhatsApp summary. Integrates a fallback mechanism that creates a temporary off-screen textarea, selects it, and executes `document.execCommand('copy')` to support legacy browsers.
     *   **User Feedback State:** Uses React's `useState` to toggle a temporary `copied` state. Triggers a 2-second timeout to reset the state, changing the copy icon to a checkmark badge.
+
+### 5. Scheduling & CI (`.github/workflows/daily_asx.yml`)
+
+#### A. Cron Schedule
+GitHub cron is UTC-only, so each window is expressed in UTC against Sydney's UTC+10 (AEST) / UTC+11 (AEDT) offset:
+
+| Cron expression | UTC window | Sydney equivalent (AEST) |
+| --- | --- | --- |
+| `2,7,...,52,57 22 * * 0-4` | 22:00 – 23:00 | 08:00 – 09:00, every 5 min |
+| `2,7,...,52,57 23 * * 0-4` | 23:00 – 00:00 | 09:00 – 10:00, every 5 min |
+| `10 0-4 * * 1-5` | 00:10 – 04:10 | 10:10 – 14:10, hourly |
+
+*   **Day-of-week skew:** the 22:00/23:00 UTC bands use `0-4` (Sun–Thu) because they land on the *previous* UTC calendar day relative to the Sydney trading day. The daytime band uses `1-5` (Mon–Fri), where UTC and Sydney share a date.
+*   **Minute offsets:** every entry deliberately avoids minute `:00` — the scheduler's peak-load minute and empirically the most-dropped one.
+*   **Attempt count is intentional, not excessive.** GitHub delivered only ~2 of the 12 requested events per hour in measurement, so the surplus entries are redundancy against drops, not a request for 12 fetches.
+
+#### B. The `gate` Job
+A cheap pre-flight job whose sole output is `proceed` (`"true"` / `"false"`), consumed by `fetch-and-summarise` through `if: needs.gate.outputs.proceed == 'true'`.
+
+*   Resolves `datetime.now(ZoneInfo("Australia/Sydney"))` at runtime, so DST transitions are handled by the tz database rather than by duplicated cron entries.
+*   Proceeds when `weekday < 5 and 8 <= hour <= 15`.
+*   The upper bound is **15, not 14**, to absorb scheduler drift. The 04:10 UTC event was measured arriving at ~05:03 UTC (15:03 Sydney); a previous `hour <= 14` bound silently rejected it, killing the final fetch of **every** trading day. Such rejected runs are identifiable in run history by their ~6–12 second duration (gate only, fetch skipped).
+*   `workflow_dispatch` short-circuits the gate entirely and always proceeds, so manual catch-up runs work outside market hours.
+
+#### C. Concurrency Scoping
+`concurrency` is declared on the **`fetch-and-summarise` job**, not at workflow level. GitHub permits one running plus one pending run per group and cancels the older pending entry when a third arrives; scoping the group to the fetch prevents the seconds-long gate jobs from consuming that headroom. `cancel-in-progress: false` because the job pushes commits and must not be interrupted mid-write.
+
+#### D. Idempotency & Push Safety
+*   Re-runs are safe via the `URL` + `time` composite key described in §1.2, so a delayed or duplicated event never double-writes.
+*   The commit step no-ops when nothing changed: `git diff --cached --quiet || git commit`.
+*   A `git pull --rebase origin main` precedes `git push` so interleaved runs cannot reject each other on a stale ref.
+
+#### E. Known Limitation
+GitHub's shared scheduler offers no delivery guarantee, and no cron configuration can create one — on 6 Aug 2026 an entire 24-event block was dropped, delaying the first fetch to 00:01 UTC. Guaranteeing a run before a fixed wall-clock deadline requires an external scheduler (e.g. cron-job.org or a Cloudflare Worker) firing `repository_dispatch`, layered on top of the existing crons rather than replacing them.

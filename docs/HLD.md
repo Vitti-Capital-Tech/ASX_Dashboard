@@ -54,5 +54,8 @@ graph TD
 ```
 
 ### 5. Automation Strategy
-*   **Extraction:** A GitHub Actions workflow runs the Python engine every **15 minutes** during the critical market opening window (**8:00 AM - 11:45 AM AEST**, Monday-Friday). This ensures early-morning announcements are captured and summarized rapidly.
+*   **Extraction:** A GitHub Actions workflow (`.github/workflows/daily_asx.yml`) runs the Python engine on ASX trading days — every **5 minutes** across the **8:00 – 10:00 AM AEST** opening window, then **hourly until 2:00 PM AEST**. The dense early cadence exists because most market-sensitive announcements are released before and just after the open.
+*   **Timezone Handling:** GitHub cron is UTC-only, so the schedule is pinned in UTC while a lightweight `gate` job resolves the real `Australia/Sydney` time at runtime. This keeps behaviour correct across the AEST/AEDT changeover and suppresses weekend runs, without maintaining two parallel sets of cron expressions.
+*   **Delivery Reliability:** GitHub provides **no SLA on scheduled workflows**. Measurement over 100 consecutive runs (Jul–Aug 2026) showed it delivering only ~2 of the 12 events requested per hour, with arrival delays of 0–70 minutes, and on 6 Aug 2026 it dropped an entire two-hour block. The schedule is therefore deliberately **over-provisioned**: each cron entry is an independent chance to land a run, not a guaranteed tick. A hard delivery guarantee would require an external scheduler firing `repository_dispatch` instead of relying on GitHub's shared cron.
+*   **Idempotency:** Because the fetcher keys on `URL` + `time`, a delayed, duplicated, or catch-up run can never double-write. This is what makes over-provisioning safe.
 *   **Display:** The Next.js dashboard uses a `setInterval` hook to poll the local API route every 5 minutes. As the Python script appends new items to the JSON file, the dashboard automatically updates without requiring a page refresh.
