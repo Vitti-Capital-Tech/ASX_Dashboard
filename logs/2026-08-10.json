@@ -1,9 +1,294 @@
 {
   "date": "2026-08-10",
-  "total": 86,
-  "market_sensitive_count": 80,
-  "generated_at": "2026-08-09T23:43:07.323257+00:00",
+  "total": 101,
+  "market_sensitive_count": 95,
+  "generated_at": "2026-08-09T23:58:12.431404+00:00",
   "announcements": [
+    {
+      "ticker": "HMX",
+      "company": "HAMMER METALS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-08-09T23:54:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119452-6A1337913",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hammer Metals (HMX) has entered a trading halt marked as market sensitive, suspending price discovery and liquidity for investors — the 'market sensitive' designation signals a material corporate event is imminent rather than a routine administrative pause.",
+        "Trading halts on junior ASX explorers most commonly precede capital raises, M&A activity, or significant exploration results; given HMX's copper-gold focus in the Mount Isa region, a resource update or farm-in/JV announcement would be consistent with recent sector activity.",
+        "Institutional investors should monitor the resumption announcement closely — the nature of the pending disclosure will be the key price catalyst, with capital raise scenarios carrying dilution risk while a strategic partnership or high-grade drill result could trigger a re-rating of the stock."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WIA",
+      "company": "WIA GOLD LIMITED",
+      "headline": "Wia Increase MRE by 29% to 3.78Moz Au at Kokoseb",
+      "time": "2026-08-09T23:51:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119448-6A1337906",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 29% uplift in Mineral Resource Estimate to 3.78Moz Au at Kokoseb is a material de-risking milestone for WIA Gold, significantly enhancing the project's scale credentials and positioning it within the range that typically attracts serious M&A interest or project financing from major gold producers and streaming companies.",
+        "At 3.78Moz, Kokoseb now sits in the upper tier of undeveloped gold deposits on the ASX, a threshold that historically re-rates explorer valuations as the resource approaches economic study viability — investors should watch for an imminent Scoping Study or PFS announcement to convert ounces into NPV-backed value.",
+        "The market-sensitive classification signals management confidence in the materiality of this update; near-term catalysts to monitor include further resource extension drilling (given the 29% step-change suggests open mineralisation), potential strategic partner engagement, and whether WIA has sufficient cash runway to advance to a Pre-Feasibility Study without dilutive capital raises."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NTU",
+      "company": "NORTHERN MINERALS LIMITED",
+      "headline": "Treasurer amends July 2026 Interim Directions",
+      "time": "2026-08-09T23:51:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119446-6A1337908",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Australian Treasurer has amended the July 2026 Interim Directions previously imposed on Northern Minerals, signalling active government intervention in the company's affairs — likely related to foreign ownership concerns given prior scrutiny of Chinese shareholding in this critical minerals producer.",
+        "The amendment to Interim Directions carries material governance and operational implications: depending on scope, it could restrict or modify shareholder rights, board composition, or capital allocation decisions, directly impacting the company's strategic flexibility and access to foreign capital.",
+        "Investors should closely monitor the specific terms of the amended Directions — any relaxation could re-open pathways for strategic investment or M&A activity in NTU's heavy rare earth assets, while tightening could further constrain the company's funding options and delay development timelines at the Browns Range project."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PKY",
+      "company": "PATHKEY.AI LTD",
+      "headline": "Trading Halt",
+      "time": "2026-08-09T23:50:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119442-6A1337910",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "PATHKEY.AI LTD has entered a trading halt, suspending price discovery and liquidity for shareholders — the catalyst remains undisclosed, but trading halts at micro-cap AI-adjacent names typically precede a capital raise, M&A announcement, or material business update requiring regulatory clearance.",
+        "The market-sensitive classification elevates the probability that the pending announcement carries valuation-moving substance — investors should monitor for a potential equity raising (dilutive risk) or a strategic partnership/acquisition that could re-rate the stock, given the company's AI-focused positioning in a sector commanding premium multiples.",
+        "The halt duration will be critical: ASX rules generally limit trading halts to two trading days, meaning a substantive announcement is imminent — institutional participants should assess current position sizing and prepare scenario analysis across both dilutive (capital raise) and accretive (deal/contract) outcomes before the halt lifts."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKY",
+      "company": "SKY METALS LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-08-09T23:49:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119439-2A1688691",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reinstatement to quotation signals resolution of the underlying condition that triggered the trading halt — investors should immediately investigate what corporate action or disclosure requirement has now been satisfied, as this determines whether the resumption is a net positive or negative catalyst.",
+        "Market-sensitive classification elevates risk: the halt-and-reinstate sequence typically accompanies material events such as capital raises, M&A transactions, or significant resource updates — any dilutive equity issuance during the suspension period would pressure the share price on resumption.",
+        "Near-term price action will be volatile as the market reprices SKY Metals against the disclosed trigger event; institutional participants should cross-reference the accompanying disclosure document before establishing or adjusting positions, given the information asymmetry risk inherent in post-halt reopenings."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKY",
+      "company": "SKY METALS LIMITED",
+      "headline": "Tallebung Tin-Tungsten-Silver Project PFS Presentation",
+      "time": "2026-08-09T23:49:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119438-2A1688646",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The release of a Pre-Feasibility Study (PFS) for the Tallebung Tin-Tungsten-Silver Project marks a critical de-risking milestone, elevating the project from exploration-stage to a credibly costed development asset — a key catalyst for institutional re-rating of SKY Metals.",
+        "PFS-level economics will crystallise key financial metrics including NPV, IRR, capital expenditure (CAPEX), and operating costs (OPEX); given current elevated tin and tungsten prices driven by supply constraints from China and geopolitical tensions, project economics are likely to appear favourable relative to historical benchmarks.",
+        "The next catalysts to watch are a Definitive Feasibility Study (DFS) mandate, offtake discussions, and potential strategic partnership or M&A interest — tin and tungsten are classified as critical minerals under Australian and allied-nation frameworks, which could unlock government funding or fast-track permitting pathways."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKY",
+      "company": "SKY METALS LIMITED",
+      "headline": "Tallebung PFS Confirms Low-Cost, High-Margin Project",
+      "time": "2026-08-09T23:49:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119437-2A1688638",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The PFS confirmation of 'low-cost, high-margin' economics is a critical de-risking milestone for Tallebung, signalling the project can generate meaningful returns even in softer commodity price environments — a key threshold for attracting project finance or strategic partners.",
+        "Institutional investors will scrutinise the PFS capital cost (CAPEX), all-in sustaining cost (AISC), and NPV/IRR metrics as the headline numbers that determine whether Tallebung is fundable and competitive within the global peer set — any AISC in the lower quartile would be a material positive catalyst.",
+        "The next value inflection points are a Definitive Feasibility Study (DFS) and offtake/financing discussions; if the PFS metrics are robust, SKY Metals could attract JV interest or become an M&A target, particularly given heightened strategic demand for domestic critical minerals supply chains."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CMD",
+      "company": "CASSIUS MINING LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-09T23:48:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119436-2A1688693",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Cassius Mining (CMD) has entered a trading halt pending a material announcement, with market-sensitive classification signalling a potentially significant corporate event — most likely a capital raise, M&A activity, or major asset update given the junior explorer profile.",
+        "The market-sensitive designation elevates the probability this is not routine administration; for a small-cap ASX miner, common catalysts include a placement or rights issue to fund drilling, a farm-in/JV agreement, or a resource update — all of which carry meaningful re-rating potential in either direction.",
+        "Investors should monitor the resumption announcement closely — trading halts on junior miners typically resolve within 1-2 trading days, and the nature of the disclosure will be the key determinant of whether the stock re-rates materially up or down upon reinstatement."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALR",
+      "company": "ALTAIR MINERALS LIMITED",
+      "headline": "Diamond Drilling Underway at North Peters",
+      "time": "2026-08-09T23:48:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119435-3A698475",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of diamond drilling at North Peters represents a critical de-risking milestone — diamond core provides definitive structural and mineralogical data that RC drilling cannot, potentially unlocking higher-confidence resource estimates and attracting institutional attention to what remains an early-stage explorer.",
+        "The market-sensitive classification signals management believes drill results carry material re-rating potential; investors should monitor hole depths, target lithology, and any visible mineralisation intercepts as near-term catalysts that could drive significant share price volatility in either direction.",
+        "Key near-term watch points include: first assay results turnaround time (typically 4–8 weeks for diamond core), whether the program expands beyond initial holes indicating early success, and any capital position update — given exploration burn rates, cash runway adequacy will determine whether positive results can be fully capitalised upon without dilutive financing."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DAL",
+      "company": "DALAROO METALS LTD",
+      "headline": "Drill Pads Complete Ahead of Fully Funded 12,000m RC Program",
+      "time": "2026-08-09T23:46:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119431-6A1337905",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drill pad construction completion removes a key operational bottleneck, signalling the 12,000m RC program is imminent — early mobilisation de-risks execution timelines and reduces the window of market uncertainty around commencement.",
+        "The program being 'fully funded' is a critical qualifier for a junior explorer: it eliminates near-term dilution risk from emergency capital raises and signals the board has secured sufficient cash runway to deliver a complete, meaningful dataset rather than a truncated campaign.",
+        "A 12,000m RC program is a substantial drill commitment for a small-cap metals explorer — results flow expected over coming weeks to months should provide multiple high-impact news catalysts, keeping the stock in active focus for speculative and resource-sector investors."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LIB",
+      "company": "LIBERTY METALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-08-09T23:45:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119430-6A1337904",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Liberty Metals Ltd has entered a trading halt, suspending price discovery and liquidity for shareholders — the market-sensitive classification signals a material corporate event is imminent, elevating event-risk for existing holders.",
+        "Trading halts on small-cap ASX miners most commonly precede capital raises, M&A activity, or significant resource/exploration announcements — any of these outcomes could materially reprice the stock upon resumption, with dilution risk the most statistically probable catalyst.",
+        "Investors should monitor the ASX platform closely for the accompanying announcement expected within 2 trading days per ASX Listing Rules; positioning ahead of resumption carries asymmetric risk given the unknown nature of the pending disclosure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPD",
+      "company": "SOUTHERN PALLADIUM LIMITED",
+      "headline": "Mining Right Granted for SPD Bengwenyama PGM-Chrome Project",
+      "time": "2026-08-09T23:44:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119428-2A1688684",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The formal granting of the Mining Right for the Bengwenyama PGM-Chrome Project is a critical de-risking milestone — South African mining rights are notoriously difficult and time-consuming to secure, meaning this approval removes a significant sovereign/regulatory overhang that has historically suppressed SPD's valuation relative to its resource base.",
+        "Bengwenyama hosts a substantial PGM-Chrome resource in the Bushveld Complex, one of the world's premier PGM jurisdictions; the mining right grant now unlocks the pathway to feasibility studies, project financing discussions, and potential offtake negotiations — materially advancing SPD toward becoming a development-stage company rather than an explorer.",
+        "Near-term catalysts to watch include the release of a Definitive Feasibility Study, engagement with strategic partners or major miners for project funding, and potential re-rating by institutional investors as the project transitions from exploration to development — the mining right is typically the prerequisite gate for these processes to formally commence."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KAU",
+      "company": "KAISER REEF LIMITED",
+      "headline": "Underground Development Commenced at Union Hill Gold Mine",
+      "time": "2026-08-09T23:44:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119429-6A1337907",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of underground development at Union Hill marks a critical de-risking milestone, transitioning Kaiser Reef from exploration-stage to active mining operations — a key catalyst that typically re-rates junior gold producers toward production multiples rather than resource multiples.",
+        "The market-sensitive classification signals material operational progress; investors should monitor upcoming disclosures on development rates (metres per month), grade reconciliation against resource model, and cash burn relative to the company's existing cash position to assess runway to first stope ore.",
+        "Near-term catalysts include maiden underground ore production tonnages and grade confirmation, which will be pivotal in validating the project's economics and supporting any future capital raise or offtake discussions at more favourable terms."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MRD",
+      "company": "MOUNT RIDLEY MINES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-09T23:44:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119427-6A1337902",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Mount Ridley Mines (MRD) has entered a trading halt pending a market-sensitive announcement — the nature of which is undisclosed, but the 'market sensitive' classification signals a material corporate event is imminent, warranting close attention from investors.",
+        "Trading halts of this nature in small-cap ASX miners most commonly precede capital raises, M&A activity, or significant resource/exploration updates — any of which could materially re-rate the stock, positively or negatively, upon resumption of trade.",
+        "Investors should monitor the forthcoming announcement closely before taking positions; the halt creates an information asymmetry risk, and any capital raise scenario in particular could introduce dilution pressure on existing shareholders upon resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LIN",
+      "company": "LINDIAN RESOURCES LIMITED",
+      "headline": "LIN acquires additional 49% JV for 100% of SARECO MREC",
+      "time": "2026-08-09T23:40:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119419-6A1337877",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lindian Resources has moved to consolidate 100% ownership of SARECO MREC by acquiring the remaining 49% JV stake, eliminating partner dilution and securing full economic exposure to what is one of Africa's most significant rare earth and mineral sands projects — a structurally important step for project control and future monetisation.",
+        "Full ownership removes the complexity and cost-sharing friction of a joint venture structure, positioning Lindian to capture 100% of project economics, streamline permitting and development decisions, and present a cleaner asset to potential strategic partners, offtake counterparties, or acquirers in the critical minerals space.",
+        "The acquisition of the remaining JV interest is a key de-risking milestone ahead of anticipated development milestones; investors will now focus on the consideration paid (dilution risk vs. cash outlay), updated resource estimates, and whether this consolidation accelerates a pathway to a definitive feasibility study or strategic partnership with a major rare earth consumer or processor."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "LIN",
       "company": "LINDIAN RESOURCES LIMITED",
