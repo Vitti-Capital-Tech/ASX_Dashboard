@@ -1,9 +1,217 @@
 {
   "date": "2026-08-10",
-  "total": 61,
-  "market_sensitive_count": 55,
-  "generated_at": "2026-08-09T23:11:13.743172+00:00",
+  "total": 72,
+  "market_sensitive_count": 66,
+  "generated_at": "2026-08-09T23:26:04.029809+00:00",
   "announcements": [
+    {
+      "ticker": "PGF",
+      "company": "PM CAPITAL GLOBAL OPPORTUNITIES FUND LIMITED",
+      "headline": "Appendix 4E & Annual Report 2026",
+      "time": "2026-08-09T23:23:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119381-2A1688652",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual report filing for FY2026 carries market-sensitive designation, signalling material performance outcomes that could meaningfully move the share price — investors should scrutinise NTA per share movement, total shareholder return, and portfolio concentration shifts relative to prior year benchmarks.",
+        "As a listed investment company (LIC), the key metrics to watch are the pre-tax and post-tax NTA versus share price discount/premium, dividend sustainability from realised gains, and the performance of PM Capital's concentrated global equity portfolio against its benchmark — any NTA erosion or widening discount would be a red flag for holders.",
+        "With FY2026 results now lodged, the market will focus on whether PM Capital has narrowed its persistent share price-to-NTA discount, any changes to dividend policy or franking levels, and portfolio repositioning signals from Paul Moore's team that could indicate conviction shifts in global macro or sector exposures."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEX",
+      "company": "MINERALS EXPLORATION LIMITED",
+      "headline": "Glenorchy rock chip assays deliver high-grade results",
+      "time": "2026-08-09T23:23:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119380-6A1337891",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-grade rock chip assays at Glenorchy signal meaningful mineralisation potential, a critical early-stage validation that de-risks the project and supports further systematic exploration — the key catalyst institutional investors watch before committing capital to junior explorers.",
+        "Rock chip sampling is a surface-level technique, so while 'high-grade' results are headline-positive, investors should note these are not in-situ resource estimates; grades must be contextualised against sample widths, continuity, and structural controls before drawing conclusions on economic viability.",
+        "Near-term focus will shift to follow-up drilling programs to test depth extensions and strike continuity of the high-grade zones — any announced drill program or capital raise to fund it will be the next material price catalyst, making this announcement a precursor to a potentially more significant news flow cycle."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "P1E",
+      "company": "PURE ONE CORPORATION LIMITED",
+      "headline": "Drilling update at Venus-2H Appraisal well",
+      "time": "2026-08-09T23:22:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119379-2A1688662",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "The Venus-2H appraisal well drilling update carries market-sensitive classification, signalling material new information on reservoir performance or hydrocarbon encounters that could materially re-rate Pure One's resource base and near-term development timeline.",
+        "Appraisal well results at Venus-2H will be critical in de-risking the broader Venus field — positive well data (e.g. confirmed pay zones, flow rates, or pressure data) could substantially upgrade contingent resources and underpin a development investment decision, while disappointing results would erode asset value.",
+        "Investors should monitor whether the update confirms commercial flow rates and reservoir connectivity sufficient to support a field development plan; the next catalysts will likely be a formal resource upgrade, farm-out discussions, or a final investment decision timeline — all of which hinge on the quality of this appraisal data."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CUE",
+      "company": "CUE ENERGY RESOURCES LIMITED",
+      "headline": "Annual Reserves and Resources and expected impairment",
+      "time": "2026-08-09T23:20:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119378-3A698465",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CUE Energy is flagging an expected impairment charge against its reserves and resources base — a direct hit to book value that signals deteriorating asset economics, likely driven by lower commodity price assumptions, field decline rates, or revised recovery estimates across its Indonesian and New Zealand portfolio.",
+        "Annual reserves downgrades are a leading indicator of reduced future cash flow generation; any material reduction in 2P reserves will compress the company's NAV per share and may trigger reassessment of carrying values across producing assets, amplifying the impairment impact on the balance sheet.",
+        "Investors should watch for the quantum of the impairment and whether it is accompanied by a revised reserves statement showing 1P/2P volume reductions — if core producing assets such as Sampang PSC (Indonesia) are affected, this could materially reset production guidance and near-term revenue expectations."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "1AD",
+      "company": "ADALTA LIMITED",
+      "headline": "EW-001 IIT study overall survival update",
+      "time": "2026-08-09T23:18:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119373-3A698464",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AdAlta's EW-001 investigator-initiated trial (IIT) overall survival data represents a critical clinical milestone for the i-body platform — survival endpoints carry the highest evidentiary weight with regulators and potential pharma partners, making this update a key de-risking or risk-crystallising event for the asset.",
+        "The market-sensitive classification signals the OS data materially moves the investment thesis either way — investors should scrutinise median OS figures, hazard ratios, and confidence intervals against the comparator arm to assess whether EW-001 demonstrates a clinically meaningful survival benefit in its target indication (likely IPF or fibrosis-related disease).",
+        "Positive OS data would substantially strengthen AdAlta's partnering and licensing negotiation position, potentially accelerating a deal that is essential given the company's typical small-cap biotech cash constraints; conversely, disappointing data could impair the lead asset's value and compress the timeline to a capital raise or strategic pivot."
+      ],
+      "tags": [
+        "Healthcare",
+        "Market Update"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WIA",
+      "company": "WIA GOLD LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-09T23:17:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119372-6A1337889",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "WIA Gold has entered a trading halt, suspending share price discovery — a move typically preceding a material corporate announcement such as a capital raise, M&A transaction, or significant asset update that requires controlled disclosure management.",
+        "The market-sensitive classification signals the pending announcement carries meaningful valuation implications; for a junior gold explorer, the most probable catalysts are an equity raising (dilutive risk) or a strategic transaction such as a farm-in, JV, or acquisition (potentially re-rating).",
+        "Investors should monitor the halt duration closely — ASX rules generally limit trading halts to two business days, meaning clarity is imminent; positioning ahead of the resumption carries binary risk given the unknown nature of the catalyst."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ILT",
+      "company": "ILTANI RESOURCES LIMITED.",
+      "headline": "Drilling intercepts sulphide mineralisation at Union Jack",
+      "time": "2026-08-09T23:15:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119368-3A698462",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sulphide mineralisation intercepts at Union Jack represent a technically significant milestone for Iltani Resources, as sulphide systems typically indicate potential for higher-grade base or precious metal mineralisation at depth — elevating the project's geological prospectivity beyond initial expectations.",
+        "The market-sensitive classification signals management views these drill results as material to valuation; investors will scrutinise assay grades, intercept widths, and downhole depths when full results are released to assess whether this discovery warrants a resource estimate or accelerated follow-up drilling program.",
+        "Near-term catalysts hinge on pending assay results and the company's capacity to fund follow-up drilling — given Iltani's junior explorer status, a successful intercept narrative could support a capital raise at improved terms, though cash position and burn rate remain key risks to monitor."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IPT",
+      "company": "IMPACT MINERALS LIMITED",
+      "headline": "Lake Hope HPA Records Ultra-Low Uranium And Thorium",
+      "time": "2026-08-09T23:13:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119364-6A1337887",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ultra-low uranium and thorium levels at Lake Hope are a critical de-risking milestone for Impact's High Purity Alumina (HPA) project — radioactive impurities are a key disqualifying factor for HPA used in LED and lithium-ion battery separator applications, and clean assays materially improve product marketability and offtake prospects.",
+        "HPA commands premium pricing (US$20,000–$30,000/tonne for 4N grade) and the battery/EV supply chain demands stringent purity specifications; confirmation that the Lake Hope alunite source meets these thresholds strengthens the project's technical case and positions Impact favourably against peers still navigating impurity challenges.",
+        "Near-term catalysts to watch include completion of the full metallurgical test program and a maiden resource estimate for Lake Hope — these will be the next material value inflection points, with any positive outcomes likely to attract strategic or offtake partner interest in the emerging Australian HPA sector."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RRE",
+      "company": "RIGHT RESOURCES LIMITED",
+      "headline": "High-Priority Gold-Copper Targets Elevated at New England",
+      "time": "2026-08-09T23:13:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119363-6A1337888",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Right Resources has elevated high-priority gold-copper targets at its New England project, a market-sensitive development that signals the company believes drill-ready targets have sufficient technical merit to materially re-rate the asset — a key de-risking milestone for early-stage explorers.",
+        "The dual gold-copper commodity exposure is strategically significant given elevated spot prices for both metals; copper's structural demand from electrification and gold's safe-haven premium provide a favourable macro backdrop that could attract institutional interest in any upcoming capital raise to fund drilling.",
+        "The immediate next catalyst is drill program commencement — investors should monitor for a drilling announcement and associated budget disclosure, as the conversion rate from target generation to resource definition will be the critical value inflection point determining whether this re-rating is sustained."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RLF",
+      "company": "RLF AGTECH LTD",
+      "headline": "Trading Halt",
+      "time": "2026-08-09T23:12:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119361-6A1337886",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "RLF AgTech has entered a trading halt pending an announcement, with the market-sensitive classification signalling a material corporate development is imminent — most likely a capital raise, M&A activity, or significant commercial agreement given the company's stage and sector.",
+        "As a micro-cap agri-tech play focused on liquid fertiliser technology, RLF has historically faced cash runway pressures; any capital raise would carry dilution risk, while a strategic partnership or licensing deal could be a meaningful re-rating catalyst for a stock of this size.",
+        "Investors should monitor the nature of the forthcoming announcement closely — if equity issuance is confirmed, assess the pricing relative to last traded price and the use-of-proceeds disclosure to determine whether the raise is defensive (liquidity) or growth-oriented (commercialisation/expansion)."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VR1",
+      "company": "VECTION TECHNOLOGIES LTD",
+      "headline": "Vection Receives $1.2m in Digital Health Government Grants",
+      "time": "2026-08-09T23:11:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119359-6A1337884",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The $1.2M in non-dilutive government grants directly bolsters Vection's cash runway without shareholder dilution — critical for a small-cap technology company where capital efficiency is under constant scrutiny by investors.",
+        "The digital health vertical represents a strategic pivot point: government validation via grant funding signals Vection's XR/3D technology has credible application in a high-growth, defensible sector, potentially opening a pipeline of recurring public-sector revenue beyond its core industrial and enterprise markets.",
+        "Near-term focus should be on whether this grant accelerates a specific product milestone or commercial partnership in digital health — any follow-on contract announcements or revenue recognition tied to this funding would be the key catalyst to watch in upcoming quarterlies."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "DSM",
       "company": "DESERT MINERALS LTD",
