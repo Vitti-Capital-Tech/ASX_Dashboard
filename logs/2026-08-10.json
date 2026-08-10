@@ -1,9 +1,160 @@
 {
   "date": "2026-08-10",
-  "total": 106,
-  "market_sensitive_count": 100,
-  "generated_at": "2026-08-10T00:34:13.799803+00:00",
+  "total": 114,
+  "market_sensitive_count": 107,
+  "generated_at": "2026-08-10T01:46:20.576457+00:00",
   "announcements": [
+    {
+      "ticker": "RKB",
+      "company": "ROKEBY RESOURCES LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-08-10T01:33:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119492-6A1337927",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has fallen below the 5% ownership threshold in Rokeby Resources Limited, signalling a meaningful reduction in concentrated institutional or sophisticated investor exposure to the stock.",
+        "The exit of a substantial holder can indicate reduced conviction in the company's near-term prospects, potentially reflecting concerns around project progress, capital requirements, or broader sector sentiment in the junior resources space.",
+        "Investors should monitor subsequent trading volumes and any follow-on substantial holder notices to assess whether this represents an isolated position reduction or the beginning of a broader unwinding — either scenario could weigh on liquidity and price support for this small-cap explorer."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MRQ",
+      "company": "MRG METALS LIMITED",
+      "headline": "Placement for Development at Garies High Grade REE Project",
+      "time": "2026-08-10T01:02:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119486-3A698482",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "MRG Metals is executing a capital raise via placement specifically earmarked for development at the Garies High Grade REE Project, signalling a transition from exploration to active project advancement — a key de-risking milestone for a junior miner that could attract resource-focused institutional interest.",
+        "The placement is marked market sensitive, indicating material size or pricing terms relative to MRG's current market capitalisation; dilution risk is the primary near-term concern for existing shareholders, though proceeds directed at a high-grade REE asset align with strong structural demand for rare earth elements in clean energy supply chains.",
+        "Next steps will hinge on placement pricing (discount to last traded price), total funds raised, and the specific development activities funded — investors should watch for a detailed use-of-funds breakdown and any updated resource or scoping study to assess whether this capital injection materially accelerates a path to production or offtake discussions."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WLE",
+      "company": "WAM LEADERS LIMITED",
+      "headline": "Share Purchase Plan for WAM Leaders shareholders",
+      "time": "2026-08-10T00:55:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119483-2A1688710",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WAM Leaders is launching a Share Purchase Plan (SPP), offering existing shareholders the opportunity to acquire additional shares — likely at a discount to market price — which signals management's intent to grow the fund's capital base and deploy capital into large-cap ASX opportunities at current valuations.",
+        "As a Listed Investment Company (LIC), SPP proceeds will directly expand WAM Leaders' investable assets under management, potentially improving fixed-cost leverage and enhancing NTA per share accretion if shares are issued at or below pre-tax NTA — a critical metric investors must scrutinise in the offer terms.",
+        "Shareholders should assess the SPP pricing relative to the current market price and NTA before participating; if priced at a discount to NTA, the raise is dilutive to non-participating holders and warrants close attention to the offer cap, closing date, and scale-back provisions to determine net impact on portfolio positioning."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WLE",
+      "company": "WAM LEADERS LIMITED",
+      "headline": "Share Purchase Plan Booklet",
+      "time": "2026-08-10T00:54:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119482-2A1688708",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WAM Leaders has launched a Share Purchase Plan (SPP), offering existing shareholders the opportunity to acquire additional shares at a discount to market price — a mechanism that, while providing retail investor access to capital, introduces near-term dilution risk to the NTA per share if the offer is heavily subscribed.",
+        "As a listed investment company (LIC), the pricing and scale of the SPP are critical: if shares are issued at a discount to pre-tax NTA, existing shareholders face value dilution, whereas issuance at a premium to NTA would be accretive — the SPP booklet terms will determine which scenario applies and investor appetite will signal market confidence in the underlying portfolio.",
+        "Next steps hinge on the SPP closing date and total capital raised; institutional investors should monitor whether the proceeds are deployed into the existing large-cap Australian equity strategy at current market valuations, and assess whether the capital raise signals management's conviction in near-term portfolio opportunities or is primarily a balance sheet/fee-base expansion exercise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WLE",
+      "company": "WAM LEADERS LIMITED",
+      "headline": "WAM Leaders completes upscaled $225 million placement",
+      "time": "2026-08-10T00:53:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119479-2A1688674",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "WAM Leaders successfully closed an upscaled $225 million placement — exceeding the originally announced size — signalling strong institutional demand for the LIC and Wilson Asset Management's ability to attract fresh capital in a competitive closed-end fund market.",
+        "The capital raise materially grows WAM Leaders' investable asset base, providing the portfolio management team with significant firepower to deploy into large-cap ASX equities; scale benefits should also dilute the fixed cost base, improving the management expense ratio over time.",
+        "Key near-term watch points include the placement price relative to pre-raise NTA (any discount will weigh on existing holders), deployment pace into current market conditions, and whether the enlarged capital base supports a maintained or increased dividend per share — critical for the LIC's yield-focused retail and institutional shareholder base."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-10T00:45:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119477-2A1688716",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Preliminary final report filing signals FY results are locked in — investors should scrutinise revenue trajectory across Kip McGrath's franchise network, particularly whether centre count growth and student enrolment volumes have recovered post-COVID normalisation pressure on supplementary education demand.",
+        "Key metrics to watch include EBITDA margin compression or expansion relative to prior year, given the labour-intensive tutoring model faces ongoing wage inflation headwinds in Australia, UK, and South Africa — any deterioration in franchisee economics could signal network attrition risk.",
+        "With the stock thinly traded and institutional coverage limited, the preliminary report sets the earnings baseline ahead of the AGM season; dividend sustainability and cash conversion will be critical signals for whether management can maintain shareholder returns while funding digital/online tutoring platform investment."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RNV",
+      "company": "RENERVE LIMITED",
+      "headline": "ReNerve Secures Marketing Approval in India",
+      "time": "2026-08-10T00:44:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119476-6A1337921",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "India marketing approval represents a critical regulatory de-risking milestone for ReNerve, unlocking access to one of the world's largest and fastest-growing pharmaceutical markets (~1.4B population) with significant unmet need in neurological therapeutics — a direct catalyst for potential near-term commercialisation revenue.",
+        "The approval shifts ReNerve from a pure development-stage profile toward a revenue-generating entity; investors should closely scrutinise the announcement for details on distribution partnerships, pricing strategy, and timeline to first sales, as these will determine how quickly approval translates into cash inflows and reduces burn rate dependency.",
+        "Next steps to watch include the execution of in-country distribution or licensing agreements, any milestone payments triggered by this approval, and whether the Indian regulatory success can be leveraged as a template for accelerated filings in other emerging markets — all of which could serve as sequential re-rating catalysts."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AR1",
+      "company": "AUSTRAL RESOURCES AUSTRALIA LTD",
+      "headline": "Trading Halt",
+      "time": "2026-08-10T00:39:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119473-2A1688715",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Austral Resources (AR1) has entered a trading halt, suspending price discovery for investors — the market-sensitive classification signals a material corporate event is imminent, most likely a capital raise, M&A transaction, or significant operational update given the company's copper development focus in Queensland.",
+        "As a pre-revenue copper developer with ongoing capital requirements to advance its Lady Annie project, a capital raise scenario carries meaningful dilution risk for existing shareholders, particularly given the current challenging junior mining funding environment.",
+        "Investors should monitor the forthcoming announcement closely — if the halt precedes a strategic partnership, offtake agreement, or project financing milestone, the outcome could be materially re-rating; however, an equity raise at a discount would likely pressure the share price on resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "WIA",
       "company": "WIA GOLD LIMITED",
