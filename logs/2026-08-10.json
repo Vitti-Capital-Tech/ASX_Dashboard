@@ -1,9 +1,48 @@
 {
   "date": "2026-08-10",
-  "total": 119,
+  "total": 121,
   "market_sensitive_count": 110,
-  "generated_at": "2026-08-10T03:47:03.283961+00:00",
+  "generated_at": "2026-08-10T04:44:17.974099+00:00",
   "announcements": [
+    {
+      "ticker": "VUL",
+      "company": "VULCAN ENERGY RESOURCES LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-08-10T04:28:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119556-6A1337951",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has dropped below the 5% ownership threshold in Vulcan Energy Resources (VUL), triggering a mandatory cease notice — this signals a meaningful reduction in a previously significant institutional or strategic position.",
+        "The exit of a substantial holder can indicate waning conviction in VUL's lithium-brine extraction and geothermal energy project in Germany, particularly relevant given the capital-intensive nature of the Zero Carbon Lithium™ project and ongoing funding requirements.",
+        "Investors should monitor whether this represents isolated profit-taking or portfolio rebalancing versus a broader shift in institutional sentiment; any follow-on selling pressure in a thinly traded stock like VUL could amplify near-term downside volatility."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TAH",
+      "company": "TABCORP HOLDINGS LIMITED",
+      "headline": "Becoming a substantial holder from MQG",
+      "time": "2026-08-10T04:14:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119546-3A698497",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Macquarie Group (MQG) has crossed the 5% substantial holder threshold in Tabcorp (TAH), signalling a meaningful institutional accumulation of stock — this level of conviction from a major financial institution warrants close monitoring for potential strategic intent or portfolio positioning.",
+        "The timing of Macquarie's substantial holding is notable given Tabcorp's ongoing operational restructuring post-The Lottery Corporation demerger; institutional accumulation at current depressed price levels may reflect a view that TAH's wagering and media assets are undervalued relative to recovery potential.",
+        "Investors should watch for any further increases in Macquarie's stake beyond the initial 5% disclosure threshold, as progressive accumulation could foreshadow activist engagement, a block trade, or serve as a precursor to M&A interest in Tabcorp's core wagering business."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ZNC",
       "company": "ZENITH MINERALS LIMITED",
