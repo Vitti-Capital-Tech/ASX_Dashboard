@@ -1,9 +1,481 @@
 {
   "date": "2026-08-11",
-  "total": 16,
-  "market_sensitive_count": 15,
-  "generated_at": "2026-08-10T22:19:49.302438+00:00",
+  "total": 41,
+  "market_sensitive_count": 34,
+  "generated_at": "2026-08-10T22:41:09.871097+00:00",
   "announcements": [
+    {
+      "ticker": "CXO",
+      "company": "CORE LITHIUM LTD",
+      "headline": "New High-Grade Lithium Drill Results at BP33",
+      "time": "2026-08-10T22:36:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119771-6A1338045",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-grade intercepts at BP33 signal meaningful resource extension potential at Core Lithium's Finniss project, which is critical given the company suspended mining operations in early 2024 amid weak spodumene prices — stronger geology could materially re-rate the project's economics when market conditions recover.",
+        "The market-sensitive classification underscores that drill results likely contain standout grades or widths that exceed existing resource models; investors should watch for spodumene equivalent percentages and intercept lengths relative to the current BP33 Mineral Resource to assess tonnage upside.",
+        "With Core Lithium in capital-preservation mode and lithium prices showing tentative stabilisation, high-grade results at BP33 could serve as a catalyst to attract JV partners or strategic acquirers, and will be closely watched as a potential trigger to revisit the restart feasibility timeline."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "C79",
+      "company": "CHRYSOS CORPORATION LIMITED",
+      "headline": "Appendix 4E",
+      "time": "2026-08-10T22:35:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119770-2A1688861",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 4E signals full-year preliminary results are being lodged — as a market-sensitive filing, this indicates material financial outcomes that deviate meaningfully from prior expectations or consensus, warranting immediate scrutiny of revenue and EBITDA trajectories for Chrysos's PhotonAssay unit deployment model.",
+        "Chrysos's revenue is directly tied to contracted unit placements and utilisation rates across mining lab customers globally — any acceleration in deployed units or throughput fees disclosed in this filing would be a key leading indicator of scalability and path to profitability for this capital-light SaaS-style assay business.",
+        "Investors should focus on cash burn versus contract backlog and whether Chrysos is approaching or has crossed EBITDA breakeven, as the company has been in a growth-investment phase; confirmation of improving unit economics or upgraded deployment guidance would be the critical catalyst for re-rating."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LTP",
+      "company": "LTR PHARMA LIMITED",
+      "headline": "SPONTAN Real-World Study Reports 93% Response",
+      "time": "2026-08-10T22:32:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119767-3A698545",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 93% response rate in a real-world study for SPONTAN (sildenafil-based nasal spray for on-demand erectile dysfunction) significantly de-risks the commercial narrative — real-world data typically carries more weight with prescribers and regulators than controlled trial results, strengthening the product's differentiation case against oral PDE5 inhibitors.",
+        "The high efficacy signal in a real-world setting validates LTR Pharma's core thesis that SPONTAN's rapid-onset nasal delivery mechanism addresses an unmet need; this data point is critical ahead of anticipated TGA regulatory interactions and could accelerate partnering or licensing discussions with larger pharmaceutical distributors.",
+        "Near-term catalysts to watch include TGA submission timelines, potential out-licensing deal announcements leveraging this data as a commercial proof point, and cash runway adequacy — investors should scrutinise the next quarterly to assess whether LTR has sufficient funds to sustain regulatory and commercialisation activities without near-term dilutive capital raises."
+      ],
+      "tags": [
+        "Healthcare",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HLI",
+      "company": "HELIA GROUP LIMITED",
+      "headline": "1H26 Investor Presentation",
+      "time": "2026-08-10T22:29:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119762-2A1688856",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Helia's 1H26 investor presentation is market sensitive, signalling material disclosure likely covering earned premium trends, loss ratios, and capital position — key metrics for a lenders mortgage insurer operating in a housing market under affordability stress and elevated arrears risk.",
+        "Institutional focus will centre on whether net earned premium and insurance profit margins have held up against rising mortgage stress indicators, alongside any movement in the claims reserve adequacy and reinsurance coverage — critical given the lagged nature of LMI claims cycles tied to property downturns.",
+        "Forward guidance on capital management — particularly dividend sustainability, buyback continuation, and the regulatory capital surplus above APRA's prescribed capital amount — will be the primary near-term share price catalyst, with any reduction in capital return appetite likely to weigh on the stock given its yield-driven investor base."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HLI",
+      "company": "HELIA GROUP LIMITED",
+      "headline": "1H26 Earnings Release",
+      "time": "2026-08-10T22:28:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119760-2A1688852",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Helia's 1H26 earnings release is market sensitive, signalling material financial outcomes that could meaningfully shift consensus estimates — investors should watch closely for net earned premium trends and loss ratios given the evolving Australian mortgage market and elevated interest rate environment impacting borrower stress.",
+        "Key metrics to scrutinise include gross written premium (GWP) trajectory, claims experience versus prior period, and investment income contribution — any deterioration in delinquency rates or reserve strengthening would be a red flag for the lenders mortgage insurance (LMI) book quality.",
+        "Capital management remains a critical focus: Helia has historically returned significant capital via buybacks and special dividends, so any update to the capital return program or solvency position relative to APRA's prescribed capital amount (PCA) will be a primary near-term share price catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HLI",
+      "company": "HELIA GROUP LIMITED",
+      "headline": "Appendix 4D and 1H26 Financial Report",
+      "time": "2026-08-10T22:24:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119755-2A1688848",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Helia's 1H26 half-year results carry market-sensitive status, signalling material financial outcomes that could meaningfully shift consensus expectations — investors should watch closely for net earned premium trends and loss ratio movements given the evolving Australian housing credit cycle.",
+        "Key metrics to scrutinise include lenders mortgage insurance (LMI) gross written premium, claims experience against a backdrop of rising mortgage stress, and capital adequacy ratios (PCA coverage) which directly underpin dividend capacity and capital management optionality.",
+        "With Helia's earnings heavily leveraged to bank origination volumes and arrears trends, any forward guidance on new insurance written (NIW) or reserve releases will be critical signals for the second half — particularly as the RBA rate trajectory and housing affordability pressures remain unresolved headwinds."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AOV",
+      "company": "AMOTIV LIMITED",
+      "headline": "Amotiv Managing Director & CEO Succession",
+      "time": "2026-08-10T22:23:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119754-3A698543",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "CEO succession at Amotiv signals a planned leadership transition at a critical juncture — investors will scrutinise whether the incoming executive brings organic growth credentials or M&A firepower to accelerate the company's automotive aftermarket consolidation strategy.",
+        "The market-sensitive classification elevates execution risk in the near term; Amotiv has been integrating multiple acquisitions and any disruption to strategic continuity or key customer/supplier relationships under new leadership could weigh on FY25 earnings delivery.",
+        "Key watch points include the transition timeline, whether the outgoing MD/CEO departs the board entirely (reducing institutional knowledge), and if a retention package or equity incentive structure for the incoming CEO signals confidence in medium-term earnings targets."
+      ],
+      "tags": [
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JHX",
+      "company": "JAMES HARDIE INDUSTRIES PLC",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-10T22:20:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119744-2A1688839",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the institutional ownership structure of James Hardie (JHX), with a major shareholder crossing a disclosure threshold — warranting close monitoring of whether this represents accumulation or distribution of a significant stake.",
+        "The direction of the change (increase or decrease) is critical: a reduction by a large institutional holder could indicate waning conviction in JHX's near-term earnings outlook amid ongoing North American housing market softness and elevated input cost pressures, while an increase would signal contrarian institutional confidence.",
+        "Investors should track subsequent Form 604/603 filings to determine the identity and intent of the substantial holder, as concentrated ownership changes in a large-cap like JHX can precede activist engagement, block trades, or shifts in index weighting that may create short-term price volatility."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AVM",
+      "company": "ADVANCE METALS LIMITED",
+      "headline": "Fourth Gavilanes diamond hole returns high grade silver",
+      "time": "2026-08-10T22:20:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119741-2A1688838",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The fourth diamond drill hole at Gavilanes has returned high-grade silver mineralisation, reinforcing the project's geological consistency and validating the company's exploration model — a critical de-risking milestone for early-stage investors assessing resource potential.",
+        "Sequential high-grade results across four holes suggest a potentially continuous and scalable silver system; institutional focus will now shift to intercept widths, grades relative to peers, and whether results support a maiden resource estimate in the near term.",
+        "Next catalysts include further assay results from the ongoing drill program, potential resource definition drilling, and any updated geological interpretation — all of which could materially re-rate the stock if grade and continuity hold across a broader footprint."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ELK",
+      "company": "ELK RANGE MINING LIMITED",
+      "headline": "Elk Set to Commence Maiden 2,850m Drilling Program",
+      "time": "2026-08-10T22:20:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119740-6A1338039",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of a maiden 2,850m drilling program is a material de-risking catalyst for Elk Range Mining, marking the transition from exploration-stage speculation to tangible resource definition — a critical inflection point that typically re-rates junior miners on the ASX.",
+        "The program size of 2,850m suggests a multi-hole campaign with sufficient density to generate statistically meaningful intercepts; investors should monitor for high-grade hits that could underpin a JORC-compliant resource estimate, which remains the key value-creation milestone for pre-resource explorers.",
+        "Near-term newsflow will be drill-result driven, with assay turnaround times typically 4–8 weeks post-drilling; the market-sensitive classification signals management expects material outcomes, making this a high-volatility, binary-risk period where position sizing discipline is essential for institutional participants."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KNI",
+      "company": "KUNIKO LIMITED",
+      "headline": "Kuniko Secures 51% Ownership & Control of Commonwealth",
+      "time": "2026-08-10T22:19:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119739-6A1338043",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kuniko has secured majority control (51%) of Commonwealth, a strategically significant threshold that grants board control and consolidation rights — this shifts the company from minority participant to operator, materially de-risking project governance and future development decisions.",
+        "The 51% ownership stake represents a critical inflection point for Kuniko's battery metals strategy, likely unlocking access to Commonwealth's underlying resource base for inclusion in Kuniko's broader European critical minerals supply chain narrative — a key valuation driver for institutional ESG-aligned investors.",
+        "Near-term focus will be on whether Kuniko moves to increase its stake toward 100%, the capital structure implications of the acquisition (cash deployed vs. scrip), and any updated resource or scoping study timelines that could serve as re-rating catalysts in coming quarters."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ELK",
+      "company": "ELK RANGE MINING LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-10T22:19:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119736-6A1338038",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Elk Range Mining Limited, crossing the 5% ownership threshold — a signal that a sophisticated investor has taken a meaningful strategic position in this small-cap miner, warranting close attention to their identity and investment thesis.",
+        "The timing and scale of the stake acquisition will be critical to assess: if accumulated via on-market purchases, it implies conviction buying at current price levels, potentially providing a valuation floor and reducing the free float, which can amplify price movements on thin volume.",
+        "Investors should monitor whether this substantial holder increases their position further or files a change of substantial holding notice, as any creep toward 10–15% could signal M&A intent, a board influence campaign, or a precursor to a strategic transaction in the junior mining space."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ELK",
+      "company": "ELK RANGE MINING LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-10T22:19:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119735-6A1338037",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Elk Range Mining Limited, crossing the 5% ownership threshold — a key regulatory trigger that signals meaningful accumulation and warrants close monitoring of further 13D/G-equivalent disclosures for intent (strategic vs. passive).",
+        "The identity, entry price, and total consideration paid by the incoming substantial holder will determine whether this represents opportunistic value buying or a precursor to a control event — details embedded in the Form 603 filing are critical for assessing dilution risk and register concentration.",
+        "For a small-cap ASX mining explorer like Elk Range, a new substantial holder can materially shift the shareholder register dynamics, potentially signalling increased institutional interest or setting the stage for future board influence, capital raise participation, or M&A activity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RCT",
+      "company": "REEF CASINO TRUST",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-10T22:18:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119725-2A1688828",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Reef Casino Trust (RCT), indicating a holder has crossed above or below the 5% threshold — warranting close monitoring for potential accumulation or distribution patterns by institutional investors.",
+        "Substantial holding movements in a relatively illiquid, single-asset trust like RCT (which derives income from the Cairns casino precinct) can have outsized price impact; even modest volume shifts can reflect strategic positioning ahead of distribution cycles or potential corporate activity.",
+        "Investors should track whether this represents a new entrant building a stake or an existing holder reducing exposure — the direction of the change will be critical in assessing whether there is emerging M&A interest or a vote of reduced confidence in the trust's yield outlook."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LGM",
+      "company": "LEGACY MINERALS HOLDINGS LIMITED",
+      "headline": "New Survey defines Large and Untested Gold-Silver Target",
+      "time": "2026-08-10T22:18:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119726-2A1688840",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A new geophysical survey has delineated a large, previously untested gold-silver target at Legacy Minerals' project, representing a meaningful step-change in the company's exploration optionality — particularly significant given the current elevated gold price environment above US$3,000/oz.",
+        "The target remains undrilled, meaning there is no resource confirmation yet; however, the scale and definition of the anomaly suggest potential for a material discovery that could re-rate the stock if follow-up drilling returns positive assay results.",
+        "Next catalyst is drill program design and mobilisation — investors should watch for announcement of drilling commencement dates, target depth/geometry details, and any capital raise activity required to fund the campaign, which will be the key value inflection point."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CRN",
+      "company": "CORONADO GLOBAL RESOURCES INC.",
+      "headline": "2026 Half Year Results and Investor Presentation",
+      "time": "2026-08-10T22:18:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119724-2A1688825",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Half-year results for a metallurgical coal producer in the current environment carry significant downside risk — met coal benchmark prices have remained depressed through H1 2026, likely pressuring revenue and EBITDA margins materially versus the prior corresponding period, with any miss on cost guidance at Australian and US operations a key watch point for institutional holders.",
+        "Balance sheet and liquidity position will be critical given Coronado's history of elevated net debt; investors should scrutinise free cash flow generation, covenant headroom on the revolving credit facility, and whether the company has drawn further on its debt facilities to fund operations amid weak pricing — any deterioration in net debt metrics could trigger credit concern flags.",
+        "The accompanying investor presentation signals management is likely to address cost reduction initiatives, production guidance reaffirmation or revision, and capital allocation priorities — any downward revision to FY2026 production or cost guidance, or suspension/deferral of shareholder returns, would confirm a deteriorating operational outlook and reinforce near-term selling pressure on CRN."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CRN",
+      "company": "CORONADO GLOBAL RESOURCES INC.",
+      "headline": "Appendix 4D and as filed SEC Form 10-Q",
+      "time": "2026-08-10T22:18:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119722-2A1688820",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dual regulatory filing (ASX Appendix 4D + SEC Form 10-Q) signals Coronado's cross-listed obligations are being met, but the market-sensitive flag indicates material financial disclosures that warrant close scrutiny — investors should focus on met coal revenue, realised pricing versus benchmark, and any covenant compliance updates given the challenging metallurgical coal price environment in H1 2025.",
+        "Key metrics to watch include EBITDA margin compression risk as met coal spot prices have remained under pressure, cash cost per tonne at Curragh and US operations, and free cash flow generation relative to debt service obligations — any deterioration in net debt position or liquidity headroom would be a significant negative catalyst for the stock.",
+        "Near-term outlook hinges on management's guidance for H2 2025 production volumes and capital expenditure trajectory, particularly any updates on the Curragh mine life extension or US longwall scheduling; a downward revision to full-year guidance or further balance sheet stress would reinforce the bearish trend that has weighed on CRN shares through the coal price downcycle."
+      ],
+      "tags": [
+        "Results",
+        "Mining",
+        "Quarterly"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TNC",
+      "company": "TRUE NORTH COPPER LIMITED",
+      "headline": "High-Grade Copper Extended to 300m Depth at Mt Oxide",
+      "time": "2026-08-10T22:18:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119721-6A1338035",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drill results extending high-grade copper mineralisation to 300m vertical depth at Mt Oxide significantly de-risk the deposit's scale assumptions, suggesting a potentially larger and more continuous ore body than previously modelled — a material upgrade to the project's resource narrative.",
+        "Depth extension of high-grade zones is a critical technical milestone for open-pit-to-underground transition economics; if grades are maintained at depth, this materially improves the project's long-term mine life and NPV potential, attracting renewed institutional scrutiny on resource estimate revisions.",
+        "The market-sensitive classification signals management confidence in the materiality of these results; near-term catalysts to watch include an updated Mineral Resource Estimate (MRE) incorporating the new intercepts and potential re-rating as the company moves toward a scoping or pre-feasibility study at Mt Oxide."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OR3",
+      "company": "ORE RESOURCES LIMITED",
+      "headline": "Drilling Unlocks Gold Prospects at Miriam and Burbanks East",
+      "time": "2026-08-10T22:17:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119718-6A1338033",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling at the Miriam and Burbanks East prospects has confirmed gold mineralisation, representing a material de-risking event for ORE Resources' exploration portfolio — the key 'so what' is that positive drill results expand the company's resource inventory pipeline and justify further capital allocation to these targets.",
+        "As a market-sensitive announcement, the results likely contain meaningful intercepts (grade and width) that could underpin a maiden or expanded resource estimate; investors should scrutinise reported assay values against peer benchmarks in the Kalgoorlie/WA goldfields context to assess economic viability.",
+        "The immediate next step will be defining follow-up drill programs to test strike and depth extensions of the identified mineralisation — success here could catalyse a resource upgrade cycle, while the company's cash position and ability to fund ongoing drilling without dilutive capital raises remains a critical watch point for institutional holders."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NEM",
+      "company": "NEWMONT CORPORATION",
+      "headline": "Agreement Regarding Nevada Gold Mines JV",
+      "time": "2026-08-10T22:17:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119715-3A698520",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Newmont has reached an agreement concerning its Nevada Gold Mines (NGM) joint venture with Barrick Gold — a 38.5%/61.5% structure operating one of the world's largest gold complexes — signalling a potential structural or governance change that could materially affect Newmont's production profile and asset valuation in a Tier-1 jurisdiction.",
+        "The NGM JV contributes meaningfully to Newmont's consolidated gold output, with Nevada assets historically generating strong margins given low strip ratios and established infrastructure; any shift in ownership, operational control, or cash distribution terms carries direct implications for free cash flow attribution and NAV per share.",
+        "Market-sensitive classification warrants close attention to deal terms when disclosed — key variables include whether Newmont is acquiring additional interest (accretive to production/reserves), divesting (capital release but volume dilution), or restructuring governance; investors should await full terms before repositioning, as the outcome could be materially bullish or bearish depending on transaction economics."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CEL",
+      "company": "CHALLENGER GOLD LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-10T22:17:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119714-6A1338031",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Challenger Gold (CEL), with a holder crossing or moving through the 5% threshold — warranting close monitoring of whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase or decrease) is critical context: an increase in substantial holding could indicate growing conviction from a strategic or institutional investor in CEL's gold exploration assets, while a decrease may signal profit-taking or loss of confidence in near-term catalysts.",
+        "For a small-cap gold explorer like Challenger Gold, substantial holder movements can have outsized impact on liquidity and price discovery — investors should track whether this holder is a passive fund, a strategic cornerstone, or a potential M&A-oriented party, as each carries different implications for corporate activity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VAL",
+      "company": "VALIANT GOLD LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-10T22:16:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119713-6A1338030",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Valiant Gold Limited, crossing the 5% ownership threshold — a key signal of meaningful accumulation that warrants close monitoring for potential strategic intent or passive index-driven buying.",
+        "The identity and nature of the substantial holder (institutional, strategic, or cornerstone investor) is critical context; a strategic acquirer crossing this threshold in a junior gold explorer can often precede a takeover approach or cornerstone participation in a future capital raise.",
+        "For a small-cap gold explorer like Valiant Gold, a new substantial holder can materially tighten the free float, potentially increasing share price volatility and signalling growing market conviction around the company's exploration pipeline or gold price leverage."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NVU",
+      "company": "NANOVEU LIMITED",
+      "headline": "Nanoveu Secures US$300K Pilot EyeFly3D Order",
+      "time": "2026-08-10T22:16:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119711-6A1338028",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The US$300K (~A$460K) pilot order for EyeFly3D represents Nanoveu's first meaningful commercial revenue event, providing critical proof-of-concept validation that the technology can convert from development-stage to paying customer relationships — a key de-risking milestone for a micro-cap with historically limited revenue.",
+        "As a pilot order, the deal size is modest relative to typical institutional thresholds, but the strategic significance lies in the implied scalability: a successful pilot typically precedes larger volume commitments, and any follow-on order announcement could materially re-rate the stock given the current low base of commercial activity.",
+        "Investors should monitor the identity and scale of the ordering counterparty, conversion timeline from pilot to full commercial contract, and whether this order is sufficient to meaningfully extend cash runway — key details that will determine if this is a genuine inflection point or a one-off transaction for a company that will likely still require additional capital to reach sustained profitability."
+      ],
+      "tags": [
+        "Technology",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CRR",
+      "company": "CRITICAL RESOURCES LIMITED",
+      "headline": "Multiple New Gold Pathfinder Targets Defined at Lammerlaw NZ",
+      "time": "2026-08-10T22:16:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119710-6A1338027",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Critical Resources has identified multiple new gold pathfinder targets at its Lammerlaw project in New Zealand using geochemical and structural analysis, expanding the project's prospectivity beyond its existing resource base and potentially re-rating the asset's exploration upside — a meaningful development for a junior explorer seeking to demonstrate pipeline depth.",
+        "The market-sensitive classification signals management believes this target generation is material to valuation; however, pathfinder targets remain early-stage (pre-drilling) and carry significant technical risk — investors should note the gap between anomaly definition and resource conversion, which could require substantial further capital deployment.",
+        "Near-term catalysts will hinge on drill program design and permitting timelines in New Zealand's regulatory environment, which can be protracted; the company's ability to fund follow-up drilling without dilutive capital raises will be a key watchpoint for institutional investors assessing risk-adjusted exposure."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TGN",
+      "company": "TUNGSTEN MINING NL",
+      "headline": "Major Drilling Program to Advance Watershed Project",
+      "time": "2026-08-10T22:16:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119708-6A1338025",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The launch of a major drilling program at the Watershed tungsten project signals a meaningful step-change in resource definition — tungsten's critical mineral status and tight global supply dynamics (dominated by China) amplify the strategic value of any resource upgrade, potentially attracting offtake or JV interest from Western industrial buyers.",
+        "Market-sensitive classification suggests the drilling scope, scale, or funding arrangements contain material new information — investors should scrutinise metres planned, target zones, and whether the program is fully funded from existing cash or requires additional capital, as junior miners at this stage frequently face dilution risk to finance exploration campaigns.",
+        "Successful drill results confirming grade continuity or resource expansion at Watershed could serve as a re-rating catalyst, given tungsten's inclusion on Australia's and the EU's critical minerals lists and growing defence/industrial demand; near-term newsflow from assay results will be the key share-price driver to monitor over the coming 3–6 months."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CPM",
       "company": "COOPER METALS LIMITED",
