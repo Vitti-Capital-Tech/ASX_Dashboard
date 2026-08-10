@@ -1,9 +1,276 @@
 {
   "date": "2026-08-11",
-  "total": 54,
-  "market_sensitive_count": 47,
-  "generated_at": "2026-08-10T23:00:47.673200+00:00",
+  "total": 68,
+  "market_sensitive_count": 60,
+  "generated_at": "2026-08-10T23:16:26.993272+00:00",
   "announcements": [
+    {
+      "ticker": "TRE",
+      "company": "TOUBANI RESOURCES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-10T23:12:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119826-6A1338070",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the ownership structure of Toubani Resources, which warrants monitoring for directional intent — whether accumulation or disposal — as it can foreshadow activist positioning, M&A interest, or strategic block-building in this gold exploration play.",
+        "The filing itself does not disclose the quantum of the change or the identity of the holder in the provided details, but substantial holder movements at the 5%+ threshold level are material governance events that can alter the balance of power at shareholder meetings and influence future capital raise dynamics.",
+        "Investors should cross-reference the full Form 604 filing to identify the counterparty, the nature of the relevant interest (direct vs. indirect), and any associated voting agreements — key factors that could signal whether this represents passive index rebalancing or a more strategic accumulation ahead of a potential corporate event."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUG",
+      "company": "AUGUSTUS MINERALS LIMITED",
+      "headline": "Music Well Drilling Hits High-Grade Gold Shoot",
+      "time": "2026-08-10T23:12:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119824-6A1338069",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade gold intercept at Music Well represents a potential district-scale discovery catalyst for Augustus Minerals, with 'high-grade shoot' language suggesting bonanza-style mineralisation that could materially re-rate the company's resource base if results confirm continuity at depth and along strike.",
+        "The market-sensitive classification signals management confidence in the materiality of assay results — institutional investors should scrutinise the grade-thickness product (gram-metres) and downhole depth to assess whether this intercept is economically significant relative to peer discoveries on the Yilgarn Craton or broader WA gold belt.",
+        "Near-term catalysts include follow-up RC/diamond drilling to test the shoot's plunge and lateral extent, with a maiden or upgraded resource estimate potentially achievable within 12–18 months if step-out holes confirm the system — watch for capital raise activity to fund accelerated drilling given the typical funding cycle post-discovery announcement."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ILT",
+      "company": "ILTANI RESOURCES LIMITED.",
+      "headline": "Orient Delivers Outstanding Silver-Indium Intercepts",
+      "time": "2026-08-10T23:11:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119823-3A698555",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Outstanding silver-indium intercepts at the Orient prospect represent a potentially significant discovery catalyst for Iltani Resources, with indium — a critical technology metal used in semiconductors and flat-panel displays — adding a high-value dimension beyond conventional silver mineralisation that could materially re-rate the project's economic profile.",
+        "The market-sensitive classification signals management confidence in the materiality of these drill results; institutional investors should scrutinise the grade-thickness combinations (g/t Ag eq. and indium ppm over metres) relative to peer projects, as indium's scarcity premium (~USD 167/kg) can dramatically enhance net smelter return calculations even at modest widths.",
+        "Near-term focus will shift to follow-up drilling to test strike and depth extensions of the mineralised system, with a maiden resource estimate a key de-risking milestone; the quality of these intercepts is likely to support the company's ability to attract joint-venture interest or secure additional exploration funding without excessive equity dilution."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IR1",
+      "company": "IRIS METALS LIMITED",
+      "headline": "Leadership changes to drive next phase of growth",
+      "time": "2026-08-10T23:11:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119821-3A698554",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Leadership transition at a junior explorer signals a strategic inflection point — incoming management composition and mandate will be critical to assess whether this represents genuine operational uplift or routine board churn at a pre-revenue stage company.",
+        "Market-sensitive classification elevates scrutiny: investors should watch for disclosure of departing executives' terms, any associated severance costs, and whether new appointments bring sector-specific technical or capital markets credentials that could accelerate project development timelines.",
+        "For a small-cap miner like Iris Metals, leadership credibility directly impacts access to institutional capital and JV/offtake interest — the calibre and network of incoming executives will be the key near-term catalyst to monitor against current cash position and project pipeline milestones."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SLM",
+      "company": "SOLIS MINERALS LIMITED",
+      "headline": "Response to ASX Price and Volume Query",
+      "time": "2026-08-10T23:10:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119817-6A1338066",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX-initiated price and volume query signals unusual trading activity has been detected in SOLIS MINERALS stock, triggering mandatory regulatory scrutiny — a key red flag for institutional investors monitoring information asymmetry risks.",
+        "The company's formal response to the query is market sensitive, suggesting the disclosure contains material information that could directly influence the share price — investors should assess whether the response reveals undisclosed negotiations, exploration results, or corporate activity.",
+        "Until the full content of the response is reviewed, the query itself implies potential speculative trading ahead of an announcement; if the company confirms awareness of no undisclosed information, this may dampen recent price momentum, while any confirmed catalyst (e.g. M&A, drill results) could validate the move."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PGF",
+      "company": "PM CAPITAL GLOBAL OPPORTUNITIES FUND LIMITED",
+      "headline": "PGF Wholesale Placement and Share Purchase Plan",
+      "time": "2026-08-10T23:10:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119816-2A1688876",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "PGF is conducting a wholesale placement combined with a Share Purchase Plan (SPP), a dual-tranche capital raise structure that signals management sees near-term deployment opportunities in global equities — the key question for investors is the pricing discount and scale of dilution relative to pre-raise NTA per share.",
+        "As a listed investment company (LIC), the capital raise will expand PGF's investable asset base, potentially improving fixed-cost leverage and reducing the management expense ratio over time, but near-term dilution risk is elevated if placement shares are priced at a discount to the prevailing NTA — a common friction point for LIC raisings that can pressure the share price toward a wider discount to NTA.",
+        "Investors should monitor the SPP terms closely — participation price, cap per shareholder, and total raise size — as a well-subscribed SPP at a fair NTA-aligned price would signal strong retail holder conviction in PM Capital's global strategy, while a heavily discounted or undersubscribed raise would raise questions about demand and portfolio performance momentum."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BNL",
+      "company": "BLUE STAR HELIUM LIMITED",
+      "headline": "Third Helium Trailer Delivered",
+      "time": "2026-08-10T23:09:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119814-6A1338063",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Delivery of a third helium trailer represents a 50% expansion of Blue Star's transport and storage infrastructure, directly increasing the company's capacity to monetise helium production from its Colorado assets without proportional capex scaling — a capital-efficient milestone for a pre-revenue junior.",
+        "The trailer addition signals management's confidence in near-term production volumes justifying the logistics investment; for institutional investors, this is a tangible operational de-risking event, reducing the bottleneck risk between wellhead output and customer delivery that has historically constrained small-cap helium producers.",
+        "Near-term catalysts to watch include first commercial sales volumes and offtake agreement updates — the trailer fleet build-out suggests Blue Star is positioning for imminent revenue generation, making upcoming quarterly cash flow reports (4C) the critical validation point for this infrastructure spend."
+      ],
+      "tags": [
+        "Production",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ROG",
+      "company": "RED SKY ENERGY LIMITED.",
+      "headline": "Innamincka Drilling Progress",
+      "time": "2026-08-10T23:09:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119813-3A698553",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Red Sky Energy's Innamincka drilling campaign represents a binary catalyst event for this small-cap explorer — successful well results in the Cooper Basin could materially re-rate the stock given the region's proven hydrocarbon system and proximity to existing infrastructure, reducing commercialisation risk.",
+        "The market-sensitive classification signals material new information on drilling progress (e.g. shows, gas kicks, or depth milestones), which institutional investors should monitor closely as operational updates in active drilling campaigns typically compress or expand risk premiums rapidly depending on subsurface results.",
+        "Next steps hinge on reaching target depth, wireline logging, and flow testing — any confirmation of reservoir presence or commercial flow rates would likely trigger a formal resource assessment and potentially accelerate farm-in or JV discussions, making this a key near-term inflection point for the company's asset valuation."
+      ],
+      "tags": [
+        "Energy",
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ARO",
+      "company": "ALTORO METALS LIMITED",
+      "headline": "Exceptional Zinc Grades Confirmed at Emilia",
+      "time": "2026-08-10T23:08:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119810-6A1338065",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Confirmation of exceptional zinc grades at the Emilia prospect is a material de-risking event for Altoro Metals, validating the deposit's economic potential and likely triggering re-rating interest from resource-focused investors and potential acquirers in a zinc market facing structural supply deficits.",
+        "The 'exceptional' grade descriptor in a market-sensitive release signals results materially above resource model expectations — high-grade zinc discoveries are rare on the ASX and typically command significant exploration premiums, particularly as zinc prices remain supported by global decarbonisation and galvanising demand tailwinds.",
+        "Near-term catalysts to watch include a maiden or updated JORC resource estimate, follow-up drilling to test grade continuity and depth extensions, and potential for a capital raise to accelerate exploration — investors should monitor drill spacing and true width disclosures to assess the deposit's scalability."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "POD",
+      "company": "PODIUM MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-10T23:06:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119808-6A1338060",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Podium Minerals (POD) has entered a trading halt pending a material announcement — the market-sensitive classification signals a potentially significant corporate event, most likely a capital raise, M&A activity, or major project update at its Parks Reef PGE project in WA.",
+        "Trading halts at junior explorers of this scale are most commonly precursors to equity raisings; given POD's typical cash position and the capital-intensive nature of PGE project development, dilution risk is a key concern investors should price in before resumption of trade.",
+        "Investors should monitor the resumption announcement closely — if the halt relates to a strategic partnership, offtake agreement, or farm-in deal at Parks Reef, the read-through could be materially positive; however, absent further detail, positioning ahead of resumption carries asymmetric uncertainty."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SGQ",
+      "company": "ST GEORGE MINING LIMITED",
+      "headline": "155% Increase in Measured & Indicated Araxa Resource",
+      "time": "2026-08-10T23:03:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119805-6A1338057",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 155% increase in Measured & Indicated resources at Araxa represents a material step-change in project confidence, elevating the deposit from exploration-stage to a more bankable, de-risked asset — a critical threshold for attracting project-level financing or strategic partnership interest.",
+        "The upgrade to higher-classification M&I resources (from Inferred) directly improves the quality of any future Scoping Study or Pre-Feasibility Study, as only M&I tonnes can underpin Ore Reserves under JORC 2012 — meaning this announcement materially strengthens the pathway to a definitive economic assessment and potential development decision.",
+        "With a market-sensitive resource upgrade of this magnitude, near-term catalysts to watch include an updated Scoping or PFS timeline, potential re-rating by institutional investors benchmarking resource quality, and whether the company pursues a capital raise to accelerate drilling or feasibility work on the back of this improved resource base."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ENL",
+      "company": "ENLITIC INC.",
+      "headline": "Ensight deployed in the US with Radiology Imaging Associates",
+      "time": "2026-08-10T23:02:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119802-3A698549",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "First commercial US deployment of Enlitic's Ensight AI platform with Radiology Imaging Associates marks a critical inflection point — converting the product from development-stage to revenue-generating in the world's largest radiology market, directly validating the company's commercialisation thesis.",
+        "The US market entry is strategically significant given the scale of American radiology networks; landing an initial named partner provides a referenceable case study that can accelerate enterprise sales cycles with larger health systems and imaging groups, potentially compressing the typical 12-24 month hospital procurement timeline.",
+        "Investors should monitor whether this deployment converts to a recurring SaaS or per-scan revenue model, the size of the Radiology Imaging Associates network (volume of reads), and whether management upgrades near-term revenue guidance — the market-sensitive flag suggests this is expected to materially shift valuation expectations."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NAE",
+      "company": "NEW AGE EXPLORATION LIMITED",
+      "headline": "IP Survey Defines Compelling Drill Targets",
+      "time": "2026-08-10T23:01:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119799-3A698548",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The IP (Induced Polarisation) geophysical survey has successfully delineated discrete, drill-ready targets, converting exploration risk into actionable drill programs — a critical de-risking milestone that typically re-rates junior explorers ahead of drilling campaigns.",
+        "IP chargeability anomalies identified are consistent with sulphide mineralisation at depth, providing a technically credible basis for resource discovery; the quality and definition of targets will be the key valuation driver investors should scrutinise in the full report.",
+        "Near-term catalysts hinge on drill program announcement, permitting timelines, and funding adequacy — investors should monitor whether NAE has sufficient cash runway to execute drilling without requiring a dilutive capital raise, as junior explorers frequently face this bottleneck post-survey."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ASB",
+      "company": "AUSTAL LIMITED",
+      "headline": "Trading and Market updated & exit from trading halt",
+      "time": "2026-08-10T23:00:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119797-6A1338036",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Austal's exit from trading halt signals the company has resolved the information asymmetry that triggered the suspension — investors should scrutinise whether the accompanying trading update contains a material earnings revision, contract win, or strategic transaction, as the nature of the catalyst will be the primary price driver on resumption.",
+        "The dual classification as both a 'Trading Halt' exit and a 'Trading and Market Update' is a key signal — this structure typically precedes disclosure of a significant operational development such as a US Navy contract amendment, cost overrun disclosure, or M&A activity, all of which carry outsized valuation implications for a defence shipbuilder with heavy US DoD revenue exposure.",
+        "Institutional investors should monitor the specifics of any revised guidance or contract commentary closely, given Austal's ongoing US shipyard challenges and the strategic review backdrop — any positive resolution or contract certainty could re-rate the stock, while further cost escalation or programme delays would compound existing margin pressure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BIM",
       "company": "BINDI METALS LIMITED",
