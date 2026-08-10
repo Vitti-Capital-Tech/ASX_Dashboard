@@ -1,9 +1,66 @@
 {
   "date": "2026-08-10",
-  "total": 116,
-  "market_sensitive_count": 109,
-  "generated_at": "2026-08-10T02:56:09.147192+00:00",
+  "total": 119,
+  "market_sensitive_count": 110,
+  "generated_at": "2026-08-10T03:47:03.283961+00:00",
   "announcements": [
+    {
+      "ticker": "ZNC",
+      "company": "ZENITH MINERALS LIMITED",
+      "headline": "Correction - Change of Substantial Holder Notice from FRS",
+      "time": "2026-08-10T03:17:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119532-6A1337938",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A correction to a substantial holder notice from FRS signals an administrative amendment to previously disclosed ownership data — investors should monitor the revised voting power percentage to assess whether FRS's effective stake has materially changed from the original filing.",
+        "Corrections to substantial holder notices can indicate prior miscalculation of relevant interests, aggregated holdings, or associated entity structures — the restated figures may alter the perceived free-float and liquidity profile of Zenith Minerals (ZNC) on the ASX.",
+        "While classified as non-market sensitive, institutional investors should cross-reference the corrected notice against the original to identify any threshold crossings (e.g. movement through the 5%, 10%, or 15% disclosure bands) that could signal a shift in FRS's strategic positioning in ZNC."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZAG",
+      "company": "ZULEIKA GOLD LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-10T03:16:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119531-6A1337937",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Zuleika Gold (ZAG), with a holder crossing or moving through the 5% threshold — warranting close attention to whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase vs. decrease) is critical: an increase in substantial holding could indicate growing conviction in ZAG's gold exploration assets in the Kalgoorlie region, while a decrease may signal reduced confidence or portfolio rebalancing by an institutional or strategic holder.",
+        "Investors should monitor subsequent filings and on-market activity to determine if this represents the early stages of a strategic stake-building exercise or a precursor to a potential corporate transaction, given the consolidation dynamics currently active in the WA gold sector."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JEG",
+      "company": "JPM GLOBAL EQUITY PREMIUM INCOME COMPLEX ETF",
+      "headline": "Distribution Notice",
+      "time": "2026-08-10T02:54:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119520-2A1688739",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "JPMorgan's Global Equity Premium Income ETF has declared a distribution, confirming the fund's income-generation mechanism is functioning as designed — the premium income strategy (via covered calls/options overlay) continues to deliver yield to unitholders, a key differentiator versus pure equity ETFs.",
+        "The market-sensitive classification signals the distribution quantum is material enough to influence near-term unit pricing; investors should monitor the ex-distribution date closely as NAV will adjust downward by the distribution amount, creating a technical price reset that may attract yield-focused buyers at the adjusted level.",
+        "For institutional allocators, consistent distributions from this complex ETF validate the options-premium income model in the current volatility environment — sustained payouts support the fund's positioning as a defensive income vehicle, potentially driving further inflows from income-mandated funds seeking global equity exposure with yield enhancement."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "HMX",
       "company": "HAMMER METALS LIMITED",
