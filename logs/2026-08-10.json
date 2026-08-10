@@ -1,9 +1,85 @@
 {
   "date": "2026-08-10",
-  "total": 101,
-  "market_sensitive_count": 95,
-  "generated_at": "2026-08-09T23:58:12.431404+00:00",
+  "total": 105,
+  "market_sensitive_count": 99,
+  "generated_at": "2026-08-10T00:22:38.431447+00:00",
   "announcements": [
+    {
+      "ticker": "CTD",
+      "company": "CORPORATE TRAVEL MANAGEMENT LIMITED",
+      "headline": "Award of material customer contract",
+      "time": "2026-08-10T00:07:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119461-2A1688701",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Contract win signals CTD's competitive positioning remains intact in a consolidating corporate travel market — a material customer award at this scale typically implies multi-year revenue visibility and recurring transaction fee income, directly supporting earnings quality.",
+        "While specific contract value has not been disclosed, 'material' classification under ASX continuous disclosure rules implies meaningful revenue contribution relative to CTD's current earnings base (~A$1.8B revenue FY24), suggesting potential for incremental TTV uplift and margin leverage given CTD's fixed-cost infrastructure.",
+        "This win reinforces CTD's strategy of targeting large enterprise and government clients, a segment with higher switching costs and longer contract tenures — investors should watch for guidance upgrades or TTV range revisions at the next trading update as the contract ramps."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MTM",
+      "company": "METALLIUM LIMITED",
+      "headline": "Board and Executive Leadership Team Update",
+      "time": "2026-08-10T00:05:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119460-6A1337916",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Leadership transition signals a strategic inflection point — board and executive changes at a junior miner like Metallium are often precursors to a shift in corporate direction, whether that involves asset monetisation, capital restructuring, or a change in exploration focus.",
+        "Market-sensitive classification elevates the significance of this announcement beyond routine housekeeping — investors should scrutinise the departing executives' roles and any associated contractual obligations (termination payments, unvested options) that could impact the company's tight cash position.",
+        "Incoming leadership credentials will be the key near-term catalyst to watch — the market will assess whether new appointments bring M&A, capital markets, or technical expertise, which could signal the company's next strategic move and drive re-rating potential."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WIA",
+      "company": "WIA GOLD LIMITED",
+      "headline": "Robust DFS for Kokoseb and Project Financing Update",
+      "time": "2026-08-10T00:03:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119459-6A1337914",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A completed Definitive Feasibility Study (DFS) for the Kokoseb project represents a critical de-risking milestone, moving WIA Gold from exploration-stage to construction-ready status — typically a significant re-rating catalyst as project economics are now bankable and independently validated.",
+        "The concurrent project financing update signals active engagement with debt or equity capital providers, suggesting the DFS numbers are sufficiently robust to attract institutional or project finance interest — key metrics to watch include NPV, IRR, AISC, and capex payback period which will determine whether the financing structure is dilutive to existing shareholders.",
+        "Near-term catalysts hinge on the financing outcome: a secured debt facility or strategic partnership would validate project economics and provide a clear construction timeline, while any equity component or offtake-linked financing terms will be closely scrutinised for dilution risk and counterparty quality ahead of a potential Final Investment Decision (FID)."
+      ],
+      "tags": [
+        "Mining",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AR1",
+      "company": "AUSTRAL RESOURCES AUSTRALIA LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-08-10T00:00:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119456-2A1688705",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Austral Resources has requested a trading halt, immediately suspending price discovery and liquidity for shareholders — the market-sensitive classification signals a material corporate development is imminent, likely within 1-2 trading days.",
+        "Trading halts of this nature in junior ASX-listed miners typically precede capital raises, M&A activity, or significant operational announcements; given Austral's copper project focus in Queensland, a strategic partnership or funding deal cannot be ruled out.",
+        "Investors should monitor the resumption announcement closely — the nature of the pending disclosure will be the key determinant of directional impact, with capital raise scenarios carrying dilution risk while M&A or offtake news could be re-rating catalysts."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "HMX",
       "company": "HAMMER METALS LIMITED",
