@@ -1,9 +1,48 @@
 {
   "date": "2026-08-10",
-  "total": 114,
-  "market_sensitive_count": 107,
-  "generated_at": "2026-08-10T01:46:20.576457+00:00",
+  "total": 116,
+  "market_sensitive_count": 109,
+  "generated_at": "2026-08-10T02:56:09.147192+00:00",
   "announcements": [
+    {
+      "ticker": "HMX",
+      "company": "HAMMER METALS LIMITED",
+      "headline": "Update Regarding Status of Larvotto Transaction",
+      "time": "2026-08-10T01:57:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119503_PS-6A1337928",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Transaction uncertainty is a key risk flag — an 'update on status' announcement for a named transaction (Larvotto) typically signals a delay, renegotiation, or potential collapse, any of which introduces material uncertainty for HMX shareholders who had priced in deal completion.",
+        "Without confirmed deal closure, Hammer Metals loses any anticipated strategic or financial benefits from the Larvotto transaction — including potential asset monetisation, capital injection, or portfolio rationalisation — which could pressure the stock near-term until clarity is provided.",
+        "Investors should watch for a follow-up announcement confirming whether the transaction proceeds, is restructured, or is terminated; a clean termination may trigger a trading halt or further market-sensitive disclosure, while a revised deal structure could reset valuation expectations entirely."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GLL",
+      "company": "GALILEE ENERGY LIMITED",
+      "headline": "Continuation of Suspension from Quotation",
+      "time": "2026-08-10T01:53:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119502-2A1688726",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Galilee Energy remains suspended from ASX quotation, signalling unresolved material issues that are preventing normal trading — a continuation of suspension is a significant red flag for liquidity and investor confidence, as it restricts the ability to enter or exit positions.",
+        "The market-sensitive classification of a suspension continuation suggests the underlying trigger — likely a pending material announcement, regulatory matter, or corporate transaction — remains unresolved, leaving shareholders in an information vacuum with no price discovery mechanism.",
+        "Until the suspension is lifted, institutional investors should monitor for a forthcoming announcement addressing the root cause (potential asset sale, capital raise, or compliance matter), as the resolution will be the key catalyst determining whether the stock re-rates sharply up or down upon reinstatement to quotation."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "RKB",
       "company": "ROKEBY RESOURCES LIMITED",
