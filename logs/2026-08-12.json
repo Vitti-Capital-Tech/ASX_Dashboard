@@ -1,9 +1,241 @@
 {
   "date": "2026-08-12",
-  "total": 83,
-  "market_sensitive_count": 78,
-  "generated_at": "2026-08-11T23:36:11.151694+00:00",
+  "total": 95,
+  "market_sensitive_count": 90,
+  "generated_at": "2026-08-11T23:56:56.668208+00:00",
   "announcements": [
+    {
+      "ticker": "DTR",
+      "company": "DATELINE RESOURCES LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-08-11T23:54:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120314-2A1689089",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reinstatement to quotation signals resolution of the underlying compliance or disclosure issue that triggered the trading halt — investors should scrutinise the accompanying disclosure to assess whether the catalyst was material (e.g. capital raise, M&A, or regulatory matter) and whether it has been fully addressed.",
+        "Trading halts on small-cap ASX miners like Dateline Resources (DTR) frequently precede dilutive capital raises or asset transactions; the market-sensitive classification suggests the reinstatement is tied to a substantive corporate event rather than a routine administrative matter, elevating re-rating risk in either direction on resumption.",
+        "Near-term price action will be highly volatile on resumption as the market prices in the suspended information — institutional participants should monitor volume, any associated prospectus or Appendix 3B filings, and management commentary to gauge whether the event is accretive or dilutive to existing shareholders."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DTR",
+      "company": "DATELINE RESOURCES LIMITED",
+      "headline": "Update on USA Court Proceedings",
+      "time": "2026-08-11T23:54:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120313-2A1689030",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Active US litigation signals potential material asset risk or opportunity — court proceedings in the US jurisdiction typically carry significant financial exposure or recovery potential that could materially re-rate the company's net asset value depending on outcome.",
+        "Market-sensitive classification demands attention: the ASX flagging this as market sensitive indicates management believes the proceedings could have a quantifiable impact on Dateline's financial position, balance sheet, or operational continuity — investors should monitor for settlement figures, injunctions, or damages claims.",
+        "Next steps hinge on court timeline and ruling scope — institutional investors should assess whether the litigation relates to core mining assets (Dateline operates Colorado gold/silver projects), as an adverse ruling could impair project development timelines or title security, while a favourable outcome could unlock asset value or remove an operational overhang."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ESR",
+      "company": "ESTRELLA RESOURCES LIMITED",
+      "headline": "Mobile MTd UAV Survey Defines Drill Targets",
+      "time": "2026-08-11T23:52:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120311-6A1338271",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Mobile MTd (Mobile Magnetotelluric) UAV survey represents a significant technical advancement for Estrella's exploration program — this geophysical method penetrates deeper than conventional airborne magnetics, improving the probability of identifying structurally-controlled mineralisation at depth and reducing drill-target uncertainty before capital is committed.",
+        "Defining discrete drill targets from the survey is a material de-risking milestone for a junior explorer, as it transitions the project from early-stage reconnaissance to actionable drilling — the market-sensitive classification signals management believes this materially re-rates the asset's prospectivity and near-term newsflow potential.",
+        "The immediate next catalyst is drill program commencement; investors should monitor announced hole depths, target geometries, and proximity to any existing resource or historical intercepts — a successful first-pass drill result could serve as a significant re-rating event for this small-cap, while any delays to drilling or permitting would temper near-term momentum."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MRD",
+      "company": "MOUNT RIDLEY MINES LIMITED",
+      "headline": "MRD Proprietary Leach Tech Delivers Standout Results",
+      "time": "2026-08-11T23:48:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120299-6A1338262",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Mount Ridley's proprietary leach technology has delivered standout metallurgical results, a critical de-risking milestone that validates the company's in-house IP and differentiates its processing approach from conventional methods — directly supporting project economics and potential offtake negotiations.",
+        "Strong leach performance typically signals higher recoveries and lower reagent costs, which can materially improve project NPV and reduce capital intensity; investors should scrutinise the specific recovery rates and grade profiles disclosed to assess the magnitude of the economic uplift.",
+        "Positive leach results position MRD to advance towards a Pre-Feasibility or Definitive Feasibility Study with a more defensible processing flowsheet, potentially accelerating the pathway to project financing and attracting strategic or institutional interest in the near term."
+      ],
+      "tags": [
+        "Results",
+        "Mining",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ADN",
+      "company": "ANDROMEDA METALS LIMITED",
+      "headline": "Share Purchase Plan to raise approximately $3 million",
+      "time": "2026-08-11T23:47:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120296-2A1689079",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Andromeda Metals is launching a Share Purchase Plan (SPP) targeting ~$3M in fresh capital, providing existing retail shareholders the opportunity to participate alongside any recent institutional placement — a modest but necessary liquidity injection for a junior explorer with limited revenue.",
+        "At ~$3M, the raise is relatively small, suggesting the company is managing dilution carefully, but it also signals the balance sheet may be under pressure; investors should scrutinise the post-raise cash runway and whether this capital is sufficient to fund the next meaningful exploration or development milestone at its Great White kaolin project.",
+        "Near-term focus will be on the SPP pricing and take-up rate — if priced at a discount to market, retail participation could be strong, but the dilutive overhang and lack of a transformational catalyst means the stock is unlikely to re-rate materially until a clearer commercialisation pathway for its kaolin assets is established."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HZN",
+      "company": "HORIZON OIL LIMITED",
+      "headline": "Corporate Overview - August 2026",
+      "time": "2026-08-11T23:45:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120293-2A1689076",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A market-sensitive corporate overview release signals Horizon Oil is likely presenting material operational or strategic updates — potentially including revised production guidance, asset monetisation progress, or balance sheet developments that could re-rate the stock near-term.",
+        "As an E&P operator with core assets in Papua New Guinea and China, any update to field development timelines, reserve estimates, or offtake/financing arrangements for its PNG LNG-adjacent projects would be closely watched by institutional holders given the capital-intensive nature of the business.",
+        "Investors should scrutinise the August 2026 overview for clarity on cash position and debt facilities relative to project capex commitments — Horizon's ability to self-fund or secure project financing remains the critical swing factor for valuation and near-term share price direction."
+      ],
+      "tags": [
+        "Energy",
+        "Production",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WIA",
+      "company": "WIA GOLD LIMITED",
+      "headline": "A$125m Placement Completes Funding for Kokoseb",
+      "time": "2026-08-11T23:43:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120285-6A1338242",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "The A$125m placement fully funds the Kokoseb gold project through to production, eliminating near-term capital risk and removing a key overhang that has historically weighed on junior gold developer valuations — a material de-risking event for institutional holders.",
+        "The scale of the raise signals strong institutional appetite; at A$125m this is a significant ticket for an ASX-listed gold developer, implying credible project economics and likely participation from specialist resources funds with conviction on the Kokoseb asset's development timeline and cost profile.",
+        "With funding now secured, the critical path shifts to execution — investors should monitor construction commencement milestones, contractor appointments, and any updated feasibility or cost guidance as the company transitions from developer to producer, with first gold the next major re-rating catalyst."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AAJ",
+      "company": "ARUMA RESOURCES LIMITED",
+      "headline": "Strategic Expansion of Tillex Project & $3.5m Placement",
+      "time": "2026-08-11T23:42:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120282-6A1338230",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "The $3.5M placement provides Aruma with a meaningful capital injection to advance the Tillex Project, though the dilutive impact on existing shareholders warrants scrutiny — pricing and scale of the placement relative to current market cap will be critical in assessing value destruction risk.",
+        "The 'strategic expansion' framing of the Tillex Project signals a potential uplift in the resource footprint or exploration tenure, which could materially re-rate the asset's perceived scale and attract renewed institutional interest if supported by geological data.",
+        "Near-term catalysts hinge on deployment of placement proceeds into drilling or resource definition at Tillex — investors should monitor the use-of-funds breakdown and timeline to first results, as execution speed will determine whether this raise is accretive to the exploration narrative."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DVL",
+      "company": "DORSAVI LTD",
+      "headline": "dorsaVi Commences Fabrication of First RRAM-CMOS Chip",
+      "time": "2026-08-11T23:41:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120281-3A698652",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "dorsaVi has reached a critical hardware milestone by commencing fabrication of its first RRAM-CMOS chip — a pivotal inflection point that transitions the company from R&D concept to physical silicon, materially de-risking the technology development timeline and validating the underlying IP stack for potential licensing or commercialisation pathways.",
+        "The commencement of chip fabrication signals meaningful capital deployment into deep-tech hardware, raising questions around cash burn acceleration and runway adequacy — investors should scrutinise the next quarterly (4C) closely for updated operating expenditure and remaining cash position given dorsaVi's historically tight balance sheet.",
+        "Successful tape-out and validation of the RRAM-CMOS chip would position dorsaVi to compete in the emerging non-volatile memory and edge-AI compute markets, with potential OEM partnerships or licensing deals as logical near-term catalysts; however, chip fabrication cycles typically span 3–6 months, meaning commercial outcomes remain a medium-term story with execution risk intact."
+      ],
+      "tags": [
+        "Technology",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PAT",
+      "company": "PATRIOT RESOURCES LIMITED",
+      "headline": "Patriot Secures Pachamayo Agreement for Northern Tassa",
+      "time": "2026-08-11T23:36:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120273-6A1338261",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Patriot Resources has secured the Pachamayo Agreement covering the Northern Tassa area, a strategically significant step that expands the company's tenement footprint and strengthens its position in what appears to be an early-stage exploration play — critical for de-risking future resource definition work.",
+        "The market-sensitive classification signals management views this agreement as materially value-accretive, likely reflecting exclusive access rights or favourable terms that could unlock drill-ready targets previously inaccessible, though financial terms and area size have not yet been fully disclosed — investors should watch for follow-up detail on consideration paid and any work commitments attached.",
+        "Near-term catalysts will hinge on Patriot converting this agreement into a defined exploration program; the key risk is execution — junior explorers with new tenure agreements must demonstrate rapid newsflow (geophysics, sampling, or drilling) to sustain market interest and justify any re-rating from this announcement."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IVG",
+      "company": "INVERT GRAPHITE LIMITED",
+      "headline": "Maiden Mineral Resource Estimate for Kumba Deposit",
+      "time": "2026-08-11T23:35:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120271-2A1689062",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A maiden Mineral Resource Estimate (MRE) for the Kumba Deposit is a critical de-risking milestone, formally converting exploration drilling into a JORC-compliant resource and establishing a quantified asset base — a prerequisite for project financing, scoping studies, and attracting strategic partners or acquirers in the graphite sector.",
+        "The scale, grade, and classification split (Measured/Indicated vs. Inferred) of the MRE will be the key valuation driver; high-grade flake graphite resources with a meaningful Indicated component command significant premium multiples given surging battery anode and EV supply chain demand, making the tonnage and TGC (Total Graphitic Carbon) grade the numbers to watch.",
+        "With an MRE now established, Invert Graphite's logical next steps are a Scoping Study or Preliminary Economic Assessment (PEA) to demonstrate project economics, alongside potential capital raising activity to fund metallurgical testwork and feasibility progression — investors should monitor whether management pairs this announcement with a funding strategy or offtake discussions."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BUX",
+      "company": "BUXTON RESOURCES LIMITED",
+      "headline": "Madman Project - Maiden Drilling Program Completed",
+      "time": "2026-08-11T23:33:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120269-6A1338259",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Completion of the maiden drilling program at the Madman Project represents a critical de-risking milestone for Buxton Resources, transitioning the asset from conceptual target to drill-tested prospect — a key value inflection point for a junior explorer that typically re-rates the stock on assay results.",
+        "The market-sensitive classification signals management expects material outcomes from assay results; investors should monitor the pending laboratory turnaround closely, as the data will determine whether Madman warrants accelerated expenditure or a strategic reassessment of the project's resource potential.",
+        "Next catalysts are assay results and geological interpretation, which will define the mineralisation model and inform whether a follow-up drill program is warranted — the quality of intercepts (grade, width, continuity) will be the primary driver of near-term share price direction and potential farm-out or JV interest."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "KAR",
       "company": "KAROON ENERGY LTD",
