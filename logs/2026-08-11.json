@@ -1,9 +1,85 @@
 {
   "date": "2026-08-11",
-  "total": 89,
-  "market_sensitive_count": 80,
-  "generated_at": "2026-08-11T00:04:16.869052+00:00",
+  "total": 93,
+  "market_sensitive_count": 84,
+  "generated_at": "2026-08-11T00:32:22.734950+00:00",
   "announcements": [
+    {
+      "ticker": "HMX",
+      "company": "HAMMER METALS LIMITED",
+      "headline": "AR1: Scheme Implementation Deed Executed to Acquire Hammer",
+      "time": "2026-08-11T00:19:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119884-6A1338096",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hammer Metals has executed a Scheme Implementation Deed (SID) with Aurelia Metals (AR1), marking a binding commitment to a full acquisition — this removes deal uncertainty and typically triggers a re-rating toward the implied offer price, compressing any remaining discount to scheme consideration.",
+        "The market-sensitive classification signals material valuation impact; investors should scrutinise the scheme consideration (cash, scrip, or mixed) and any implied premium to Hammer's last traded price to assess arbitrage spread and whether a competing bid scenario is plausible.",
+        "Key near-term catalysts include shareholder vote, independent expert report, and regulatory/court approvals — timeline to scheme completion will determine how long capital remains locked in the arbitrage trade, with any scheme failure risk (e.g. MAC clauses, competing offer) representing the primary downside."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AR1",
+      "company": "AUSTRAL RESOURCES AUSTRALIA LTD",
+      "headline": "Scheme Implementation Deed Executed to Acquire Hammer Metals",
+      "time": "2026-08-11T00:19:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119882-2A1688895",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Austral Resources has executed a Scheme Implementation Deed (SID) to acquire Hammer Metals, a formal binding milestone that signals serious consolidation intent in the copper-focused exploration space — the execution of a SID typically precedes a scheme booklet and shareholder vote, meaning deal certainty is materially elevated versus an indicative proposal.",
+        "The strategic rationale centres on portfolio consolidation: Hammer Metals holds prospective copper-gold tenements in Queensland's Mount Isa region, directly adjacent or complementary to Austral's existing copper operations, potentially accelerating resource growth and reducing per-unit exploration costs through shared infrastructure and management overhead.",
+        "Key near-term catalysts to monitor include the independent expert's report (required to assess scheme fairness), the scheme booklet dispatch, and court/shareholder approvals — any adverse findings in the independent expert's assessment or a competing bid from a third party represent the primary binary risks to deal completion."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "KME-Corporate Presentation to Potentially interested Parties",
+      "time": "2026-08-11T00:17:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119880-2A1688905",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The market-sensitive classification of a corporate presentation to 'potentially interested parties' is a strong signal that KME is actively engaged in a strategic review or sale process — this is not routine investor relations activity and suggests M&A discussions are at an advanced or formal stage.",
+        "Kip McGrath operates a globally recognised tutoring franchise network with recurring revenue streams across Australia, UK, and international markets — any acquirer would be attracted to the asset-light franchise model, brand equity, and post-COVID structural tailwinds in supplementary education demand.",
+        "Investors should watch for a formal scheme of arrangement, binding offer, or trading halt in the near term; the disclosure of this presentation under continuous disclosure obligations implies a material transaction is sufficiently probable to require market notification — positioning ahead of any formal bid announcement is the key near-term catalyst."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BCN",
+      "company": "BEACON MINERALS LIMITED",
+      "headline": "Diamond Drilling Confirms Mineralisation at Iguana Resource",
+      "time": "2026-08-11T00:02:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119874-6A1338089",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Diamond drilling at the Iguana prospect has confirmed mineralisation, providing critical geological validation that the target is not an isolated anomaly — this de-risks the resource definition pathway and strengthens the case for a maiden or expanded JORC resource estimate at the site.",
+        "The market-sensitive classification signals results of material consequence; institutional investors should watch for intercept grades and widths in the full release, as high-grade continuity at depth would meaningfully re-rate Beacon's exploration portfolio beyond its existing Jaurdi Gold Mine production base.",
+        "Near-term catalysts hinge on follow-up infill and extensional drilling programs — confirmation drilling typically accelerates resource modelling timelines, and a positive scoping study or resource upgrade could unlock re-financing or joint-venture interest in what remains a sub-$50M market cap explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AXQ",
       "company": "AURA CONSOLIDATED GROUP, INC.",
