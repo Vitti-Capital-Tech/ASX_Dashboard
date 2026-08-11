@@ -1,9 +1,28 @@
 {
   "date": "2026-08-11",
-  "total": 104,
-  "market_sensitive_count": 92,
-  "generated_at": "2026-08-11T02:53:03.904887+00:00",
+  "total": 105,
+  "market_sensitive_count": 93,
+  "generated_at": "2026-08-11T03:45:04.760108+00:00",
   "announcements": [
+    {
+      "ticker": "CTO",
+      "company": "CITIGOLD CORPORATION LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-11T03:17:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119930-2A1688927",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Citigold Corporation (CTO) has entered a trading halt pending a market-sensitive announcement — the nature of which remains undisclosed, creating material information asymmetry that warrants close monitoring by existing holders and short-sellers alike.",
+        "The 'market sensitive' classification elevates the probability this relates to a capital raise, M&A activity, or a significant operational development at its Charters Towers gold project in Queensland — any of which could carry meaningful dilution or re-rating risk depending on terms.",
+        "Investors should watch for the lifting of the halt and accompanying announcement; given CTO's historically tight liquidity and limited institutional coverage, any capital raise at a discount or unexpected operational setback could trigger outsized price volatility on resumption of trade."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ACS",
       "company": "ACCENT RESOURCES NL",
