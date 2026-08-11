@@ -1,9 +1,66 @@
 {
   "date": "2026-08-11",
-  "total": 105,
-  "market_sensitive_count": 93,
-  "generated_at": "2026-08-11T03:45:04.760108+00:00",
+  "total": 108,
+  "market_sensitive_count": 94,
+  "generated_at": "2026-08-11T04:39:11.804027+00:00",
   "announcements": [
+    {
+      "ticker": "ACU",
+      "company": "ACUMENTIS GROUP LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-11T04:32:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119944-2A1688933",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Acumentis Group (ACU), indicating a major shareholder has crossed a disclosure threshold — either accumulating or reducing a position above the 5% substantial holder level, which warrants close monitoring for directional intent.",
+        "The nature of the movement (buy-up or sell-down) will determine whether this reflects growing institutional conviction in ACU's property valuation services business or profit-taking/exit pressure — context critical given ACU's relatively small market cap where large holder moves can materially influence liquidity and price discovery.",
+        "Investors should track whether this represents a new entrant building a strategic stake (potentially a precursor to M&A activity or board influence) or an existing holder reducing exposure, as either scenario has implications for near-term share price stability and governance dynamics in this mid-tier property services firm."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTO",
+      "company": "CITIGOLD CORPORATION LIMITED",
+      "headline": "Proposed Placement and Repayment of Secured Loan Facility",
+      "time": "2026-08-11T04:00:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119936-2A1688930",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Citigold is executing a capital raise via placement to repay a secured loan facility, signalling the company is addressing balance sheet leverage — a necessary but dilutive step that removes near-term default risk while pressuring existing shareholders through equity dilution.",
+        "The simultaneous nature of the placement and loan repayment suggests the secured creditor is being made whole, likely under negotiated terms; investors should scrutinise the placement price relative to market price, the size of the facility being retired, and whether any security or covenants are being released as part of the transaction.",
+        "Next steps hinge on the placement's pricing and scale — if priced at a material discount to the prevailing share price, further downward pressure on the stock is likely; however, a clean balance sheet post-repayment could improve Citigold's ability to attract project financing for its Charters Towers gold assets and support longer-term operational momentum."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CEL",
+      "company": "CHALLENGER GOLD LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-11T03:51:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119934-6A1338121",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a shift in the register of a significant shareholder (≥5% threshold), which may indicate accumulation or partial exit by an institutional or strategic investor — warranting close monitoring of the direction of movement.",
+        "For a small-cap gold explorer like Challenger Gold, movements at the substantial holder level can materially influence liquidity and price discovery, given typically thin trading volumes and concentrated share registers common in junior miners.",
+        "Investors should track whether this filing reflects an increase or decrease in the substantial holder's position, as sustained accumulation could foreshadow a strategic play (e.g. takeover interest or cornerstone support), while a reduction may signal waning conviction in the company's exploration pipeline."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CTO",
       "company": "CITIGOLD CORPORATION LIMITED",
