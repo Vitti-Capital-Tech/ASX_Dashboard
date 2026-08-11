@@ -1,9 +1,141 @@
 {
   "date": "2026-08-11",
-  "total": 93,
-  "market_sensitive_count": 84,
-  "generated_at": "2026-08-11T00:32:22.734950+00:00",
+  "total": 100,
+  "market_sensitive_count": 90,
+  "generated_at": "2026-08-11T01:46:03.269515+00:00",
   "announcements": [
+    {
+      "ticker": "ACS",
+      "company": "ACCENT RESOURCES NL",
+      "headline": "Pause in Trading",
+      "time": "2026-08-11T01:41:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119907-6A1338107",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Accent Resources NL has requested a pause in trading (trading halt), suspending price discovery and liquidity for investors — the market-sensitive classification signals a material corporate development is imminent, likely a capital raise, M&A activity, or significant asset announcement.",
+        "Trading halts on small-cap ASX explorers/miners of this profile are most commonly precursors to equity raisings or binding term sheets; investors should anticipate potential dilution risk or a re-rating event depending on the nature of the pending announcement.",
+        "The halt duration is typically capped at two trading days under ASX Listing Rules (LR 17.1); institutional participants should monitor for a subsequent announcement addressing the triggering event, which will be the key determinant of directional price impact upon resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTO",
+      "company": "CITIGOLD CORPORATION LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-08-11T01:33:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119906-2A1688918",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Citigold has requested a pause in trading (voluntary trading halt), signalling an imminent material announcement is pending — likely a capital raise, M&A activity, or significant operational update given the market-sensitive classification.",
+        "The market-sensitive designation elevates the probability that the forthcoming disclosure carries meaningful valuation implications, whether positive or negative — investors should prepare for potential price dislocation upon resumption of trade.",
+        "Next step is the release of the substantive announcement that triggered the halt; until details emerge, positioning is speculative — institutional investors should monitor for capital structure changes or project-level developments at Citigold's Charters Towers gold project in Queensland."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "G50",
+      "company": "G50 CORP LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-11T01:28:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119905-2A1688917",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in G50 Corp Limited, crossing the 5% ownership threshold that triggers mandatory disclosure under ASX Listing Rules — signalling meaningful accumulation of stock, likely at or near current market prices.",
+        "The identity and scale of the incoming substantial holder warrants close scrutiny; institutional or strategic investors crossing this threshold can indicate conviction in the company's near-term catalysts or asset value, potentially foreshadowing further on-market buying or a strategic position-building exercise.",
+        "Investors should monitor subsequent Form 604 notices for any change in the holder's voting power, as continued accumulation beyond 5% could shift the register dynamics, influence corporate governance outcomes, or serve as a precursor to a control event such as a takeover bid or board-level engagement."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGU",
+      "company": "MAGNUM MINING AND EXPLORATION LIMITED",
+      "headline": "PIRACANJUBA NORTH MAIDEN EXPLORATION TARGET",
+      "time": "2026-08-11T01:24:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119902-6A1338105",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Magnum has defined a maiden exploration target at Piracanjuba North, a material de-risking milestone for its Brazilian project that converts conceptual upside into a quantified resource framework — directly supporting future JORC resource estimation and project valuation.",
+        "The establishment of an exploration target is a key inflection point for junior explorers, as it signals sufficient geological confidence to attract institutional interest and potentially underpin a capital raise or farm-out discussions at improved terms.",
+        "Near-term catalysts will centre on drill program design to test and upgrade the exploration target toward a JORC-compliant Mineral Resource Estimate (MRE); execution speed and assay results will be critical in determining whether current market enthusiasm is sustained."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HMX",
+      "company": "HAMMER METALS LIMITED",
+      "headline": "Austral Resources to Acquire Hammer Metals",
+      "time": "2026-08-11T01:13:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119900-6A1338106",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Austral Resources is acquiring Hammer Metals in a deal that represents a consolidation play in the Australian copper sector, likely offering Hammer shareholders a premium exit and removing standalone execution risk from an early-stage explorer with limited near-term cash flow visibility.",
+        "The market-sensitive classification signals material terms are being disclosed — investors should scrutinise the implied acquisition price per share against Hammer's last traded price and net asset value to assess whether the consideration adequately captures the optionality of its Mt Isa copper-gold tenement package.",
+        "Next steps centre on shareholder vote approval, regulatory clearances, and Austral's ability to fund the acquisition — given Austral is itself a development-stage copper producer, deal financing structure (scrip vs. cash vs. hybrid) will be critical in determining value accretion and dilution risk for both register bases."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DDR",
+      "company": "DICKER DATA LIMITED",
+      "headline": "Dividend/Distribution - DDR",
+      "time": "2026-08-11T00:48:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119893-2A1688909",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Dicker Data has declared a dividend distribution, reinforcing its well-established high-yield payout policy — the company has historically maintained one of the most consistent and generous dividend profiles on the ASX technology distribution sector, making this a key income signal for yield-focused institutional holders.",
+        "The market-sensitive classification suggests the dividend quantum or timing may deviate from consensus expectations — either a surprise cut, hold, or increase relative to prior periods warrants close comparison against the most recent interim payout and analyst forecasts to assess earnings sustainability.",
+        "With DDR operating in a margin-compressed IT distribution environment facing vendor pricing pressures and rising interest costs on working capital facilities, the dividend coverage ratio and payout sustainability will be the critical forward-looking metric — investors should scrutinise whether free cash flow generation continues to support the distribution without incremental leverage."
+      ],
+      "tags": [
+        "Dividend",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMD",
+      "company": "ARROW MINERALS LTD",
+      "headline": "Arrow unearths historical Yarraloola Drill Core at GSWA",
+      "time": "2026-08-11T00:33:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119888-6A1338099",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Discovery of historical drill core at the Geological Survey of Western Australia (GSWA) repository is a low-cost, high-value intelligence gain — physical core samples from Yarraloola allow Arrow to conduct modern geochemical and mineralogical analysis (e.g., pXRF, QEMSCAN) without incurring new drilling expenditure, materially de-risking early-stage exploration spend.",
+        "Access to legacy core data can fast-track target definition and resource estimation timelines; if historical intercepts align with Arrow's current geological model for Yarraloola, this could catalyse a re-rating by demonstrating project continuity and reducing the exploration risk premium embedded in the stock.",
+        "Next critical milestones will be the results of core re-logging and any re-assaying program — investors should watch for a follow-up announcement detailing mineralisation widths, grades, and whether findings support accelerating a maiden drilling campaign or resource upgrade at Yarraloola."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "HMX",
       "company": "HAMMER METALS LIMITED",
