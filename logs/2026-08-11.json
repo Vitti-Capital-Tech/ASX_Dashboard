@@ -1,9 +1,84 @@
 {
   "date": "2026-08-11",
-  "total": 100,
-  "market_sensitive_count": 90,
-  "generated_at": "2026-08-11T01:46:03.269515+00:00",
+  "total": 104,
+  "market_sensitive_count": 92,
+  "generated_at": "2026-08-11T02:53:03.904887+00:00",
   "announcements": [
+    {
+      "ticker": "ACS",
+      "company": "ACCENT RESOURCES NL",
+      "headline": "Trading Halt",
+      "time": "2026-08-11T02:33:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119925-6A1338117",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Accent Resources NL (AX8) has entered a trading halt pending a market-sensitive announcement, suspending price discovery and liquidity for shareholders until further notice — the market-sensitive flag signals material information is imminent.",
+        "Trading halts of this nature on small-cap ASX miners most commonly precede capital raises, M&A activity, or significant resource/exploration updates; institutional investors should monitor for dilutive equity issuance or transformative asset news that could materially reprice the stock.",
+        "The halt duration is typically capped at two trading days under ASX Listing Rules; investors should position for a binary outcome — the nature and scale of the pending announcement will be the critical determinant of near-term price direction upon resumption of trade."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SER",
+      "company": "STRATEGIC ENERGY RESOURCES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-11T02:16:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119919-3A698570",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Strategic Energy Resources (SER), with a holder crossing or moving through the 5% threshold — warranting close attention to whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase or decrease in holding) is critical: accumulation by a substantial holder could indicate informed conviction in SER's exploration assets or corporate activity potential, while a reduction may signal waning confidence or portfolio rebalancing.",
+        "Investors should monitor subsequent filings and on-market activity closely — substantial holder movements in small-cap energy explorers like SER can be a leading indicator of upcoming capital raises, asset transactions, or changes in strategic direction that may not yet be publicly disclosed."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACF",
+      "company": "ACROW LIMITED",
+      "headline": "ACCC Grants Clearance for Acquisition of AGIS",
+      "time": "2026-08-11T02:01:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119915-6A1338111",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "ACCC regulatory clearance removes the primary execution risk for Acrow's acquisition of AGIS, a specialist industrial scaffolding and access services business, signalling the deal is on track to close — a critical de-risking milestone that the market had been awaiting.",
+        "AGIS adds meaningful revenue scale and geographic diversification to Acrow's existing formwork and scaffolding platform; the acquisition is expected to be earnings accretive, strengthening Acrow's position as a leading industrial services provider across infrastructure, resources, and construction end-markets.",
+        "With ACCC clearance secured, focus now shifts to completion mechanics, integration planning, and any updated earnings guidance — investors should watch for a supplementary announcement confirming the effective date and revised FY25/FY26 pro-forma financials incorporating AGIS contributions."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PDI",
+      "company": "PREDICTIVE DISCOVERY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-11T02:00:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119914-6A1338110",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Predictive Discovery (PDI), indicating a major shareholder has crossed a 5% threshold or materially altered their position — warranting close monitoring of whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the holding change (increase vs. decrease) is critical context: an increase by an institutional or strategic holder could signal conviction in PDI's gold exploration assets in Guinea (Bankan project), while a reduction may indicate profit-taking or portfolio rebalancing following recent resource updates.",
+        "Investors should track subsequent Form 604/603 filings to determine the identity and intent of the substantial holder — strategic accumulation by a major mining house or fund could be a precursor to a takeover approach or cornerstone investment in any future capital raise tied to project development."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ACS",
       "company": "ACCENT RESOURCES NL",
