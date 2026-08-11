@@ -1,9 +1,221 @@
 {
   "date": "2026-08-12",
-  "total": 64,
-  "market_sensitive_count": 59,
-  "generated_at": "2026-08-11T23:06:50.403704+00:00",
+  "total": 75,
+  "market_sensitive_count": 70,
+  "generated_at": "2026-08-11T23:19:22.461212+00:00",
   "announcements": [
+    {
+      "ticker": "PME",
+      "company": "PRO MEDICUS LIMITED",
+      "headline": "PME signs A$23M, 7-year contract with St Luke's Health",
+      "time": "2026-08-11T23:13:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120238-3A698638",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PME secures a A$23M, 7-year contract with St Luke's Health (Texas, ~10 hospitals), extending its dominant US health system penetration and adding high-quality, recurring SaaS-style revenue — consistent with PME's transaction-based model that scales with imaging volumes over the contract life.",
+        "At ~A$3.3M annualised contract value, this deal reinforces PME's premium pricing power and pipeline momentum in the US market, where health system consolidation is actively driving enterprise-wide Visage platform adoptions; the 7-year term signals deep customer lock-in and low churn risk.",
+        "With PME's US contract backlog continuing to compound, investors should watch for accelerating revenue recognition as new sites go live — this win further de-risks near-term growth targets and supports the premium earnings multiple the market assigns to PME's sticky, high-margin recurring revenue base."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AII",
+      "company": "ALMONTY INDUSTRIES INC.",
+      "headline": "Almonty Q2 Financial Statements",
+      "time": "2026-08-11T23:12:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120236-6A1338250",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Q2 financial statements flagged as market sensitive, signalling material developments that could meaningfully re-rate Almonty's valuation — investors should scrutinise revenue trajectory and EBITDA margins given the company's pivotal transition toward full production at the Sangdong tungsten mine in South Korea.",
+        "Key metrics to watch include cash burn rate and debt servicing capacity, as Almonty carries project financing obligations tied to Sangdong — any deterioration in liquidity or covenant headroom would be a significant red flag for near-term capital structure stability.",
+        "With Sangdong approaching commissioning, Q2 results serve as a critical pre-production benchmark; stronger-than-expected operating cash flow or reduced overhead costs would validate the ramp-up timeline and underpin the bull case for tungsten supply leverage amid growing Western demand for critical minerals."
+      ],
+      "tags": [
+        "Results",
+        "Mining",
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KTK",
+      "company": "KTEK AEROSYSTEMS LTD",
+      "headline": "KTEK secures export licence for exports to the United States",
+      "time": "2026-08-11T23:12:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120235-6A1338255",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Securing a US export licence is a critical regulatory milestone that unlocks access to one of the world's largest defence and aerospace procurement markets — a materially de-risked pathway to revenue that was previously inaccessible without this approval.",
+        "The US market represents significant contract scale potential given DoD and commercial aerospace spending; even a modest pipeline conversion could be transformative for a small-cap ASX aerosystems company, with investors likely to re-rate the stock on expanded total addressable market.",
+        "Near-term focus shifts to whether KTEK has identified specific US customers or contracts in the pipeline — any follow-on announcement of a US offtake agreement, MOU, or tender submission would serve as the next material catalyst to watch."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AII",
+      "company": "ALMONTY INDUSTRIES INC.",
+      "headline": "Almonty Reports Q2 Financial Results",
+      "time": "2026-08-11T23:11:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120233-6A1338252",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Q2 results arrive at a critical inflection point for Almonty as the Sangdong tungsten mine in South Korea approaches commissioning — investors should scrutinise whether operating cash burn is being managed within the bounds of existing debt facilities, particularly the KfW IPEX-Bank project finance package, as any covenant pressure could force dilutive equity action.",
+        "Revenue and EBITDA metrics from the Portuguese and Spanish operations (Los Santos, Panasqueira) will signal whether legacy assets are generating sufficient cash flow to service corporate overhead while Sangdong ramps — any sequential deterioration in tungsten concentrate pricing or volumes would compress the already thin margin buffer at these mines.",
+        "Forward guidance on Sangdong's commissioning timeline and first-production milestty is the key catalyst watch: a confirmed or accelerated schedule would be materially re-rating given the asset's strategic significance as one of the largest tungsten deposits outside China, with NATO-aligned supply chain tailwinds providing a potential premium valuation argument to institutional buyers."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INF",
+      "company": "INFINITY METALS LIMITED",
+      "headline": "Swansea Copper Project Expansion",
+      "time": "2026-08-11T23:11:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120232-6A1338254",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Project expansion signals management confidence in resource scale at Swansea — a market-sensitive designation suggests material new drilling results, resource upgrade, or tenure acquisition that could meaningfully re-rate the asset's value within the portfolio.",
+        "Copper's structural demand tailwind from electrification and grid infrastructure makes any credible resource expansion at Swansea strategically timely, potentially attracting institutional and strategic investor attention at a stage when copper development assets command premium multiples.",
+        "Key near-term catalysts to monitor include the quantum of any resource or exploration target upgrade, capital requirements for expanded drilling programs, and whether the expansion triggers a capital raise — investors should assess dilution risk against the value accretion of the expanded footprint."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EXR",
+      "company": "ELIXIR ENERGY LIMITED",
+      "headline": "Successful $5m Placement to Initiate Strategic Review",
+      "time": "2026-08-11T23:08:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120228-6A1338194",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Elixir Energy has raised $5M via placement to fund a strategic review, signalling the board is actively exploring value-realisation options — potentially including asset sales, JV partnerships, or a full corporate transaction — which could unlock latent value in its Mongolian CBM assets that the market has heavily discounted.",
+        "The capital raise introduces near-term dilution for existing shareholders, but the $5M injection provides meaningful runway to execute the review process without distressed asset-sale pressure, giving management negotiating leverage with potential counterparties.",
+        "The strategic review trigger is a critical inflection point: if the process yields a credible bid or partnership for the Gobi CBM project, upside re-rating could be substantial given the asset's scale; however, failure to attract interest risks prolonged uncertainty and further capital erosion — investor focus should be on review timeline and adviser mandate details."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ITM",
+      "company": "ITECH MINERALS LTD",
+      "headline": "More High-Grade Gold Intercepts at Reynolds Range",
+      "time": "2026-08-11T23:08:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120227-2A1689046",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Repeated high-grade gold intercepts at Reynolds Range materially de-risk the project's geological model, signalling a potentially significant mineralised system that could underpin a maiden resource estimate — a key re-rating catalyst for a junior explorer of this size.",
+        "The 'high-grade' characterisation in a market-sensitive filing suggests intercept grades and widths are likely to be commercially meaningful; investors should scrutinise assay results for continuity and depth extensions, as consistency across multiple drill holes would validate a bulk-tonnage or high-grade vein target worthy of accelerated expenditure.",
+        "Near-term focus will shift to whether ITM can fast-track follow-up drilling to test strike and depth extensions before the next funding cycle — cash position and burn rate will be critical to watch, as exploration momentum must be sustained to convert drilling success into a defined resource and attract institutional or strategic interest."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PSC",
+      "company": "PROSPECT RESOURCES LIMITED",
+      "headline": "New Mineralised Zone expands at Nyungu Central",
+      "time": "2026-08-11T23:08:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120226-6A1338251",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Discovery of a new mineralised zone at Nyungu Central materially expands the project's geological footprint, suggesting the deposit remains open and that resource estimates could be subject to meaningful upward revision — a key re-rating catalyst for a junior explorer.",
+        "The market-sensitive classification signals management believes this intercept is of sufficient grade and width to move the needle on valuation; investors should watch for assay results and drill spacing data to assess whether this zone is contiguous with or additive to the existing resource envelope.",
+        "Near-term focus will be on follow-up drilling density and turnaround time on pending assays — accelerated infill and extensional drilling would confirm structural continuity and support a resource upgrade, which is the critical next milestone to attract institutional interest and potential project-level funding."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AII",
+      "company": "ALMONTY INDUSTRIES INC.",
+      "headline": "Almonty Q2 MD&A",
+      "time": "2026-08-11T23:07:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120225-6A1338249",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Almonty's Q2 MD&A is flagged as market sensitive, signalling material developments at its flagship Sangdong tungsten mine in South Korea — one of the world's largest tungsten deposits — which is approaching commercial production and represents the core re-rating catalyst for the stock.",
+        "Investors should scrutinise key financial metrics including cash burn rate, debt service obligations under the KfW IPEX-Bank project finance facility, and any revenue recognition from initial tungsten concentrate sales, as these will determine near-term liquidity headroom and milestone credibility.",
+        "Forward guidance on Sangdong ramp-up timelines, offtake agreement performance, and any commentary on tungsten pricing dynamics amid elevated geopolitical tensions (China controls ~80% of global supply) will be critical in assessing whether Almonty can capitalise on Western supply-chain diversification demand."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BVS",
+      "company": "BRAVURA SOLUTIONS LIMITED.",
+      "headline": "FY26 Results and Dividend",
+      "time": "2026-08-11T23:07:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120223-2A1689043",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Market-sensitive FY26 results announcement signals a material earnings event for Bravura Solutions (BVS), with the dividend declaration indicating the company has returned to sufficient profitability and cash generation to reward shareholders — a significant milestone given the turnaround narrative following prior years of losses and restructuring.",
+        "The reinstatement or continuation of a dividend is a key inflection signal for institutional investors, suggesting management has confidence in the sustainability of free cash flow; the quantum and payout ratio will be critical to assess whether this reflects conservative capital discipline or a more aggressive return-of-capital posture.",
+        "With BVS operating in wealth management and life insurance software — a sector undergoing regulatory-driven modernisation across ANZ and UK markets — strong FY26 results could validate the company's SaaS transition strategy and re-rate the stock toward higher earnings multiples; investors should watch for ARR growth, client retention metrics, and any FY27 guidance provided alongside the results."
+      ],
+      "tags": [
+        "Results",
+        "Dividend",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SEG",
+      "company": "SPORTS ENTERTAINMENT GROUP LIMITED",
+      "headline": "Trading halt",
+      "time": "2026-08-11T23:06:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120221-3A698633",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Sports Entertainment Group (SEG) has entered a trading halt pending an announcement, suspending price discovery and liquidity for shareholders — the nature of the pending disclosure remains unknown but warrants close monitoring given the market-sensitive classification.",
+        "The market-sensitive flag elevates the probability this relates to a material corporate event such as a capital raise, M&A transaction, or significant operational update, rather than a routine administrative matter — any of which could materially reprice the stock on resumption.",
+        "Investors should watch for the resumption announcement closely; SEG operates in the media and entertainment broadcasting sector (Talk Radio, Triple M regional), meaning deal flow, licensing changes, or balance sheet actions could have outsized impact on a relatively small-cap name with limited institutional coverage."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "RLF",
       "company": "RLF AGTECH LTD",
