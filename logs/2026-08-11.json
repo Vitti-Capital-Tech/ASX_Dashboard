@@ -1,9 +1,142 @@
 {
   "date": "2026-08-11",
-  "total": 82,
-  "market_sensitive_count": 74,
-  "generated_at": "2026-08-10T23:48:57.665766+00:00",
+  "total": 89,
+  "market_sensitive_count": 80,
+  "generated_at": "2026-08-11T00:04:16.869052+00:00",
   "announcements": [
+    {
+      "ticker": "AXQ",
+      "company": "AURA CONSOLIDATED GROUP, INC.",
+      "headline": "Appendix 4D and Half Year Report",
+      "time": "2026-08-11T00:00:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119871-2A1688901",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Half-year results filing triggers mandatory market scrutiny — as a market-sensitive disclosure, investors should closely examine revenue trajectory, operating cash burn, and any material changes to the balance sheet that could signal a need for near-term capital intervention.",
+        "With no headline revenue or profit figures provided in the announcement metadata, the critical metrics to watch are cash position and runway — micro-cap consolidated groups at this stage frequently carry elevated burn rates relative to income, making liquidity the primary valuation risk factor.",
+        "The Appendix 4D format requires direct comparison to the prior corresponding period (PCP), meaning any deterioration in net loss, working capital, or going concern disclosures will be immediately visible to the market and could prompt a swift re-rating of the stock."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADS",
+      "company": "ADSLOT LTD.",
+      "headline": "Update on Administration of 100% Subsidiary",
+      "time": "2026-08-10T23:58:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119868-3A698565",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 100% subsidiary of Adslot Ltd has entered administration, signalling material financial stress within the group structure — investors should scrutinise whether this entity carries significant revenue, liabilities, or intercompany obligations that could impair the parent's balance sheet.",
+        "The market-sensitive classification elevates concern that the subsidiary's administration may trigger cross-default provisions, accelerate creditor claims, or result in asset write-downs that flow through to Adslot's consolidated financials — key risks given the company's historically thin cash position.",
+        "Near-term focus shifts to management's containment strategy: whether the parent can ring-fence the subsidiary's liabilities, preserve core platform operations, and maintain sufficient liquidity runway — any further disclosure on administrator appointment, debt quantum, or operational continuity will be critical catalysts."
+      ],
+      "tags": [
+        "Technology",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HWK",
+      "company": "HAWK RESOURCES LIMITED.",
+      "headline": "Hawk Intersects Strong Copper Mineralisation in Comet Zone",
+      "time": "2026-08-10T23:53:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119865-6A1338086",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The 'Comet Zone' copper intersection represents a potentially significant discovery catalyst for Hawk Resources, with market-sensitive classification signalling material drill results that could re-rate the stock — investors will scrutinise assay grades and interval widths to assess whether this constitutes a genuine resource-scale target or isolated mineralisation.",
+        "Key metrics to watch include copper equivalent grades (%), intersection widths (metres), and depth — strong numbers (e.g. >1% Cu over meaningful widths) would validate the Comet Zone as a priority drill target and support resource estimation, while thin or low-grade hits would temper enthusiasm despite the positive headline framing.",
+        "Near-term catalysts hinge on follow-up drilling to test strike and depth extensions of the Comet Zone mineralisation; a defined maiden resource estimate or expanded drill program announcement would be the logical next step to convert this intersection into tangible value, with funding adequacy (cash position) a key risk to sustaining exploration momentum."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IPT",
+      "company": "IMPACT MINERALS LIMITED",
+      "headline": "Kuniko Earns 51% of Commonwealth Project",
+      "time": "2026-08-10T23:52:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119862-6A1338085",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kuniko has earned a 51% interest in Impact Minerals' Commonwealth Project, triggering a milestone that dilutes Impact's ownership stake — a meaningful shift in project control that reduces Impact's leverage over future development decisions and potential upside from the asset.",
+        "The earn-in completion signals Kuniko has met its expenditure commitments on the project, implying capital has been deployed into exploration/development without direct cost to Impact, but the trade-off is a majority interest now sitting with the JV partner, compressing Impact's economic exposure to any resource discovery or development outcome.",
+        "Key near-term focus for investors will be whether Kuniko elects to increase its stake further under any subsequent earn-in tranches, the updated resource or exploration data underpinning the project's value, and how Impact plans to fund its remaining 49% share of ongoing project expenditures — a potential cash drag if a formal JV work program is accelerated."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "A2M",
+      "company": "THE A2 MILK COMPANY LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-10T23:50:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119859-2A1688898",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has crossed the 5% ownership threshold in A2 Milk (ATM), signalling meaningful institutional conviction in the stock at current levels — this is a notable vote of confidence from a sophisticated investor.",
+        "The identity and scale of the incoming substantial holder matters: if this represents a passive index-driven accumulation it carries less signal, but if discretionary, it suggests the acquirer sees valuation upside in ATM's China infant formula recovery and margin expansion story.",
+        "Watch for any follow-on buying activity or 'creep' acquisitions (up to 3% per 6 months under ASX rules), as sustained accumulation by a substantial holder can act as a technical floor for the share price and may attract copycat institutional interest."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SPL",
+      "company": "STARPHARMA HOLDINGS LIMITED",
+      "headline": "Successful Completion of $32 million Entitlement Offer",
+      "time": "2026-08-10T23:49:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119858-3A698562",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Starpharma has successfully raised $32 million via an entitlement offer, materially extending its cash runway and reducing near-term funding risk — critical for a clinical-stage biotech with no recurring revenue base and ongoing R&D expenditure across its DEP drug delivery and VivaGel pipeline.",
+        "The completion of the offer at the stated $32 million target signals strong shareholder and institutional support, with full subscription indicating investor confidence in the pipeline's near-term catalysts rather than distressed capital raising dynamics — a key distinction for sentiment.",
+        "Proceeds are expected to fund advancement of key pipeline assets, including DEP-based oncology programs and potential partnering milestones; investors should monitor how management allocates capital across programs and whether this raise is sufficient to reach a value-inflecting data readout or licensing deal without requiring further dilution."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "High-Grade Ore Secured to Commence PoC Processing Campaign",
+      "time": "2026-08-10T23:48:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03119857-6A1338084",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EV Resources has secured high-grade ore feedstock to initiate its Proof of Concept (PoC) processing campaign — a critical de-risking milestone that moves the company from exploration-stage theory to tangible metallurgical validation, directly addressing investor concerns around process viability.",
+        "The market-sensitive classification signals management believes this development is materially significant to valuation; successful PoC results could unlock pathways to resource conversion, offtake discussions, or project financing that are currently inaccessible without demonstrated processing credentials.",
+        "Near-term focus shifts to PoC campaign execution and results timeline — investors should monitor recovery rates, throughput metrics, and any commentary on scalability, as strong outcomes would substantially re-rate the project's economic case and likely catalyse the next capital raise or partnership discussions."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "HOR",
       "company": "HORSESHOE METALS LIMITED",
