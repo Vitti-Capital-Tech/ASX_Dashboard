@@ -1,9 +1,256 @@
 {
   "date": "2026-08-13",
-  "total": 82,
-  "market_sensitive_count": 75,
-  "generated_at": "2026-08-12T23:19:45.563024+00:00",
+  "total": 95,
+  "market_sensitive_count": 87,
+  "generated_at": "2026-08-12T23:37:27.766196+00:00",
   "announcements": [
+    {
+      "ticker": "SHO",
+      "company": "SPORTSHERO LIMITED",
+      "headline": "Agreement with Razer",
+      "time": "2026-08-12T23:28:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120749-6A1338435",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic partnership with Razer — a globally recognised gaming hardware and lifestyle brand with over 500 million registered users — provides SportsHero immediate access to a massive, highly engaged esports and gaming audience, materially expanding its addressable market beyond its existing sports fan base.",
+        "The agreement represents a significant commercial validation for SportsHero's platform, potentially unlocking new revenue streams through co-branded activations, user acquisition pipelines, and monetisation opportunities tied to Razer's ecosystem — critical for a micro-cap operator that needs to demonstrate scalable growth to justify its valuation.",
+        "Near-term execution risk remains the key watchpoint: investors should scrutinise deal structure details (revenue share, exclusivity, minimum commitments) and timeline to revenue contribution, as early-stage partnership announcements in the small-cap tech space frequently disappoint on commercialisation timelines."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JAN",
+      "company": "JANISON EDUCATION GROUP LIMITED",
+      "headline": "Change in substantial holding from RYD",
+      "time": "2026-08-12T23:28:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120748-2A1689289",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Ryder Capital (RYD) has filed a change in substantial holding notice for Janison Education Group (JAN), signalling a meaningful shift in one of the company's key institutional positions — either an increase or decrease crossing a 1% threshold, which warrants close monitoring of the updated ownership level.",
+        "Substantial holder movements in small-cap EdTech names like Janison can have an outsized impact on liquidity and price discovery; if RYD is reducing its stake, this could introduce near-term selling pressure in what is already a thinly traded stock.",
+        "Investors should track whether this represents a strategic exit or portfolio rebalancing by Ryder Capital — any sustained reduction by a known institutional backer could signal diminished conviction in Janison's near-term growth trajectory or valuation at current levels."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AXE",
+      "company": "ARCHER MATERIALS LIMITED",
+      "headline": "Early Pre-Pilot Study Advances Potassium Biosensor",
+      "time": "2026-08-12T23:27:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120747-2A1689285",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Archer Materials has demonstrated early-stage validation of its potassium biosensor in a pre-pilot study, a meaningful technical de-risking milestone for its biochip division — however, 'pre-pilot' language signals the technology remains several development phases away from commercialisation, tempering near-term revenue expectations.",
+        "The potassium biosensor targets a large addressable market in point-of-care diagnostics (critical care, renal monitoring, cardiac management), but Archer continues to burn cash across multiple parallel programs (12CQ qubit chip and biochip) with no revenue — investors should scrutinise the latest quarterly cash position and runway against this incremental progress update.",
+        "Next catalysts to watch include progression to a full pilot study with quantifiable sensitivity/selectivity data, any partnership or licensing discussions with diagnostic OEMs, and whether management provides a clearer commercialisation timeline — without these, the announcement is likely to generate speculative interest rather than sustained re-rating."
+      ],
+      "tags": [
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SEQ",
+      "company": "SEQUOIA FINANCIAL GROUP LTD",
+      "headline": "Revocation of Interim Dividend",
+      "time": "2026-08-12T23:26:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120743-2A1689287",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Sequoia Financial Group has revoked a previously declared interim dividend, signalling a material deterioration in near-term capital allocation priorities — a direct negative signal for income-focused shareholders who had priced in the distribution.",
+        "Dividend revocations typically indicate underlying cash flow stress, covenant constraints, or a strategic decision to preserve liquidity, raising immediate questions about the group's financial health and whether earnings guidance remains intact.",
+        "Investors should watch for an accompanying earnings update or board commentary explaining the revocation rationale; absence of further disclosure would heighten uncertainty and likely accelerate selling pressure in the near term."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GBM",
+      "company": "GBM RESOURCES LIMITED.",
+      "headline": "Prospective Gold Host Confirmed 700m Beyond 309 Deposit",
+      "time": "2026-08-12T23:26:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120742-6A1338432",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GBM Resources has confirmed a prospective gold-hosting geological structure extending 700 metres beyond the known 309 Deposit boundary, materially expanding the exploration target footprint and suggesting the mineralised system is larger and more continuous than previously modelled — a key de-risking milestone for resource growth.",
+        "The identification of a confirmed host sequence at this distance is technically significant: it validates strike continuity and opens a new drill-ready corridor that could underpin a resource upgrade or maiden resource estimate extension, directly impacting the project's economic scalability and attractiveness to potential acquirers or joint-venture partners.",
+        "Near-term catalysts hinge on follow-up drilling to test the newly confirmed 700m extension — investors should watch for drill programme announcements, assay results, and any updated resource estimate, all of which could serve as re-rating events for what remains a sub-$50M market cap explorer with leverage to gold price strength."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "POD",
+      "company": "PODIUM MINERALS LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-08-12T23:25:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120741-6A1338414",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification elevates this investor presentation above routine corporate communications, signalling material new information likely relating to exploration results, resource updates, or strategic developments at the Parks Reef PGE project in Western Australia.",
+        "Podium Minerals has been advancing its platinum group elements (PGE) project in a commodity segment attracting growing institutional interest due to green energy transition demand — any resource upgrade or development timeline clarity would be a meaningful re-rating catalyst for this small-cap explorer.",
+        "Investors should scrutinise the presentation for details on cash position and burn rate, given the capital-intensive nature of PGE project advancement; any indication of upcoming capital raises or partnership discussions will be critical to near-term share price direction."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AX8",
+      "company": "ACCELERATE RESOURCES LIMITED",
+      "headline": "Multiple Manganese Outcrops Mapped with Grades to 58.4% Mn",
+      "time": "2026-08-12T23:24:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120737-6A1338433",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Surface manganese grades of up to 58.4% Mn are exceptionally high — battery-grade manganese typically requires 44%+ Mn, meaning these outcrop samples are well above the threshold for high-value applications including EV battery precursors (HPMSM), a critical differentiator for a junior explorer at this stage.",
+        "Multiple mapped outcrops across the project area suggest potential for structural continuity and scale, reducing single-occurrence risk and strengthening the geological case for a maiden drill program — the key near-term catalyst that could re-rate the stock if targets are confirmed at depth.",
+        "As a market-sensitive disclosure, this announcement is designed to attract institutional attention ahead of anticipated drilling; investors should monitor for a follow-on capital raise to fund drill campaigns, which is the typical next step for early-stage ASX explorers converting surface mapping into resource definition."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "POD",
+      "company": "PODIUM MINERALS LIMITED",
+      "headline": "PODIUM LAUNCHES A$4 MILLION UNDERWRITTEN SPP",
+      "time": "2026-08-12T23:24:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120736-6A1338408",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Podium Minerals is launching an underwritten A$4 million Share Purchase Plan (SPP), providing a degree of capital certainty via underwriting — a critical distinction for a junior explorer, as it guarantees proceeds regardless of retail take-up and signals institutional confidence in the raise structure.",
+        "The SPP follows what is likely a preceding placement, meaning existing retail shareholders face dilution risk; the key valuation question is the SPP issue price relative to prevailing market price and whether the discount is sufficient to drive strong participation or signals balance sheet stress.",
+        "Proceeds will likely be directed toward advancing Podium's Parks Reef PGE (platinum group elements) project in WA — investors should monitor whether this capital injection is sufficient to reach a meaningful de-risking milestone (e.g., resource update, PFS progression) or merely extends runway without a clear catalyst."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "POD",
+      "company": "PODIUM MINERALS LIMITED",
+      "headline": "Podium Delivers Step-Change in Concentrator Performance",
+      "time": "2026-08-12T23:24:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120735-6A1338407",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'step-change' in concentrator performance signals a potential inflection point in metallurgical recovery rates, which directly impacts project economics — improved recoveries reduce the effective cost per unit of payable metal and can materially re-rate NPV estimates for the Parks Reef PGM project.",
+        "For a development-stage PGM explorer like Podium, demonstrating enhanced concentrator efficiency is critical de-risking ahead of any feasibility study or financing discussions — institutional investors will scrutinise whether recovery improvements are reproducible at scale and what grade-recovery curves now look like versus prior benchmarks.",
+        "Near-term catalysts to watch include updated metallurgical test work results, potential revision of the Mineral Resource or project study parameters incorporating the new recovery data, and whether this performance improvement accelerates the timeline toward a Pre-Feasibility or Definitive Feasibility Study."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EQU",
+      "company": "EQUUS ENERGY LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-12T23:24:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120734-6A1338431",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Equus Energy (EQE) has entered a trading halt pending a material announcement — the market-sensitive classification signals a potentially significant corporate event is imminent, likely a capital raise, asset transaction, or strategic partnership given the company's early-stage energy exploration profile.",
+        "The halt prevents price discovery until the announcement is released, creating an information asymmetry risk; institutional holders should note that market-sensitive halts in small-cap energy names frequently precede dilutive equity raisings or farm-out agreements that can materially reprice the stock on resumption.",
+        "Investors should monitor the ASX platform closely for the follow-on announcement — trading halts are typically limited to two business days under ASX Listing Rules, meaning clarity on the catalyst is expected imminently; positioning ahead of resumption carries elevated binary risk given the lack of disclosed detail."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AVW",
+      "company": "AVIRA RESOURCES LTD",
+      "headline": "Outstanding High-Grade Gold Confirmed at Mt Cattlin",
+      "time": "2026-08-12T23:22:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120731-6A1338428",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade gold confirmation at Mt Cattlin is a material re-rating catalyst for Avira — the 'outstanding' qualifier in a market-sensitive release signals drill results likely exceed prior resource estimates, potentially repositioning the asset from exploration-stage to advanced development consideration.",
+        "Mt Cattlin is a known mineralised system (previously operated as a spodumene/lithium mine by Allkem), meaning existing infrastructure and geological data could materially compress the timeline and capital cost to production — any gold intercepts here carry enhanced economic credibility versus greenfield discoveries.",
+        "Near-term focus will be on the assay grades and intercept widths disclosed in the announcement; institutional investors should watch for a follow-up resource estimate update or expanded drilling program, as sustained high-grade results could attract farm-in interest or trigger a capital raise to accelerate development."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TSR",
+      "company": "TURNSTONE RESOURCES LTD",
+      "headline": "Magnetic Surveys Completed across Swedish Cu-Au Portfolio",
+      "time": "2026-08-12T23:19:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120723-6A1338426",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Completion of magnetic surveys across Turnstone's Swedish Cu-Au portfolio marks a critical de-risking milestone, enabling the company to prioritise drill targets with greater geological confidence — a key value inflection point for an early-stage explorer where target quality directly drives re-rating potential.",
+        "The market-sensitive classification signals management believes the survey results contain material information, likely indicating anomalies or structural features consistent with copper-gold mineralisation that could justify accelerated drilling expenditure and attract institutional attention to the Swedish assets.",
+        "Next catalysts to watch are the interpretation and inversion of magnetic data (typically 4–8 weeks post-survey), followed by drill target ranking and a maiden drilling program announcement — execution speed and target quality will determine whether this translates into sustained share price momentum or fades as a technical milestone."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VMM",
+      "company": "VIRIDIS MINING AND MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-12T23:18:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120722-6A1338425",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Viridis Mining and Minerals (VMM) has entered a trading halt marked as market sensitive, strongly suggesting a material corporate event is imminent — most likely a capital raise, M&A activity, or significant asset/resource announcement given the company's rare earth and critical minerals focus.",
+        "The market-sensitive classification elevates the probability this is not routine administration — for a small-cap critical minerals explorer, common catalysts include a placement to strategic investors, a binding offtake agreement, or a resource upgrade, any of which could materially re-rate the stock.",
+        "Investors should monitor the resumption announcement closely; trading halts on ASX are capped at two trading days, meaning clarity is imminent — positioning ahead of resumption carries binary risk given the unknown nature of the catalyst, warranting caution until the substantive announcement is released."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MCP",
       "company": "MCPHERSON'S LIMITED",
