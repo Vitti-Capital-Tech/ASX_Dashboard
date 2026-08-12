@@ -1,9 +1,262 @@
 {
   "date": "2026-08-13",
-  "total": 69,
-  "market_sensitive_count": 64,
-  "generated_at": "2026-08-12T23:06:03.952456+00:00",
+  "total": 82,
+  "market_sensitive_count": 75,
+  "generated_at": "2026-08-12T23:19:45.563024+00:00",
   "announcements": [
+    {
+      "ticker": "MCP",
+      "company": "MCPHERSON'S LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-12T23:14:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120718-2A1689281",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "McPherson's Limited (MCP) has entered a trading halt, suspending share trading pending a material announcement — the nature of which remains undisclosed, creating immediate information asymmetry for market participants.",
+        "Trading halts at consumer staples/personal care companies of MCP's scale (~$100M market cap) most commonly precede capital raises, M&A activity, or earnings guidance updates — each carrying materially different valuation implications that investors must monitor closely.",
+        "Institutional investors should watch for the resumption announcement, expected within 2 ASX trading days per exchange rules, to determine whether the catalyst is dilutive (equity raise), transformative (M&A), or operationally driven (profit warning or upgrade) before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AD1",
+      "company": "ADNEO LIMITED",
+      "headline": "AdNeo receives commitments for Placement and Debt Conversion",
+      "time": "2026-08-12T23:12:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120715-3A698727",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "AdNeo has secured commitments for a placement combined with a debt-to-equity conversion, a dual-mechanism raise that simultaneously injects fresh capital and cleans up the balance sheet — reducing cash interest obligations and improving net debt position in one transaction.",
+        "The debt conversion component is a critical signal: converting existing liabilities into equity suggests creditors have confidence in the equity story at current or near-current prices, though existing shareholders face dilution from both the placement shares and the converted debt shares hitting the register.",
+        "Near-term focus will be on the placement price relative to last traded price (discount magnitude), total shares issued, and how the combined proceeds extend cash runway — key metrics that will determine whether this raise is sufficient to fund operations to a meaningful catalyst or merely a bridge to the next raise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RB6",
+      "company": "RUBIX RESOURCES LIMITED",
+      "headline": "Response to ASX Price and Volume Query",
+      "time": "2026-08-12T23:12:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120714-6A1338423",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX-initiated price and volume query signals unusual trading activity in RXR shares, triggering a mandatory compliance response — the market-sensitive classification suggests the company's reply may contain material information not previously disclosed to the market.",
+        "Response to query announcements of this nature typically precede or accompany a substantive catalyst disclosure (e.g. exploration results, corporate transaction, or capital raise), meaning investors should scrutinise the full response text carefully for any forward-looking statements or confirmations of market speculation.",
+        "Until the substance of the company's reply to ASX is fully assessed, the stock remains in an information vacuum — institutional investors should monitor for any follow-on announcements within the standard 24–48 hour window that could clarify the driver of the price/volume anomaly and reset fair value expectations."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZEO",
+      "company": "ZEOTECH LIMITED",
+      "headline": "Zeotech Executes MOU with Vinci Construction",
+      "time": "2026-08-12T23:11:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120713-6A1338422",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic validation from a global tier-1 contractor: Vinci Construction, a subsidiary of Vinci SA (€68B revenue, one of the world's largest construction groups), executing an MOU with micro-cap Zeotech signals meaningful third-party endorsement of its zeolite-based construction material technology — a critical de-risking milestone for early-stage commercialisation.",
+        "The MOU structure warrants scrutiny — non-binding agreements carry no revenue guarantee, and investors should monitor conversion timelines, exclusivity terms, and whether Vinci commits capital or offtake volumes; the absence of hard financial commitments means near-term revenue impact remains speculative.",
+        "Key catalysts to watch include progression to a binding commercial agreement, pilot project announcements, and any disclosed financial terms — without these, the MOU serves primarily as a proof-of-concept signal, but a Vinci-backed reference project could dramatically accelerate Zeotech's pipeline credibility with other major construction clients globally."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NWM",
+      "company": "NORWEST MINERALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-12T23:11:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120710-6A1338420",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a shift in the register of Norwest Minerals (NWM), indicating a major shareholder has crossed a 5% threshold trigger — either accumulating or reducing their position, which warrants close monitoring of the direction of movement.",
+        "The identity and intent of the substantial holder is critical context: if a sophisticated or strategic investor is building a stake, it may signal confidence in NWM's exploration pipeline or potential corporate activity; conversely, a reduction could indicate waning conviction in near-term catalysts.",
+        "Investors should cross-reference this filing with NWM's recent exploration updates and cash position — for a junior minerals explorer, substantial holder movements can be an early indicator of M&A interest, placement activity, or a shift in control dynamics that precedes material corporate events."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FPR",
+      "company": "FLEETPARTNERS GROUP LIMITED",
+      "headline": "Board Decision to Provide Limited Due Diligence Access",
+      "time": "2026-08-12T23:10:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120709-2A1689277",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FleetPartners has granted limited due diligence access to a suitor, confirming the company is in active M&A discussions — a significant escalation beyond preliminary engagement that signals the board views an offer as credible and potentially value-accretive for shareholders.",
+        "The 'limited' scope of due diligence access suggests the board is exercising caution, likely balancing fiduciary duty to explore value-maximising outcomes against protecting commercially sensitive fleet financing and residual value data from a potentially opportunistic bidder.",
+        "Investors should watch for a binding indicative offer or exclusivity agreement as the next material catalyst — if no deal eventuates, downside risk exists as the stock may have already re-rated on deal speculation; a formal bid at a meaningful premium to the last traded price remains the key bull case."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NWM",
+      "company": "NORWEST MINERALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-12T23:10:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120708-6A1338419",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Norwest Minerals (NWM), indicating a holder has crossed (or moved through) the 5% threshold — warranting close monitoring of whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase or decrease in holding) is critical context: an increase could signal growing conviction in NWM's exploration assets, while a decrease may indicate an institutional exit, potentially pressuring near-term liquidity given NWM's typically thin trading volumes as a small-cap explorer.",
+        "Investors should review the Form 603/604 filing details — specifically the identity of the substantial holder, the nature of the relevant interest, and any associated voting power changes — to assess whether this reflects strategic positioning ahead of upcoming exploration catalysts or routine portfolio rebalancing."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FCL",
+      "company": "FINEOS CORPORATION HOLDINGS PLC",
+      "headline": "1H26 Results Investor Presentation",
+      "time": "2026-08-12T23:10:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120707-2A1689278",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FINEOS's 1H26 results carry market-sensitive designation, signalling material financial developments that could meaningfully re-rate the stock — investors should scrutinise SaaS subscription revenue trajectory and any revision to full-year guidance as the primary valuation drivers for this insurance software platform.",
+        "Key metrics to watch include ARR growth, gross margin expansion on cloud-native revenue, and operating cash flow — FINEOS has been navigating a multi-year transition from legacy licence to subscription SaaS, making revenue mix and net revenue retention the critical indicators of whether that transition is accelerating or stalling.",
+        "Near-term outlook hinges on management's FY26 guidance commentary and any update on enterprise pipeline conversion in North American and European insurance markets; given the stock's sensitivity to growth expectations, any downgrade to revenue or EBITDA targets would likely trigger a sharp sell-off, while reaffirmation or upgrade would provide meaningful re-rating support."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FCL",
+      "company": "FINEOS CORPORATION HOLDINGS PLC",
+      "headline": "1H26 Results Announcement",
+      "time": "2026-08-12T23:09:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120706-2A1689274",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FINEOS reported 1H26 results flagged as market sensitive, signalling material financial developments that could meaningfully reset consensus expectations — investors should watch for ARR trajectory, SaaS revenue mix shift, and any revision to FY26 guidance as the key valuation drivers.",
+        "The half-year period is critical for assessing FINEOS's path to profitability, with prior periods showing persistent operating losses; any improvement in EBITDA margins or cash burn rate would represent a structural inflection point for this enterprise SaaS insurer-tech platform.",
+        "With FINEOS operating in a niche but sticky insurance software vertical (life, absence, and disability claims), contract renewal rates and new logo wins in North America and Europe will be the forward-looking indicators most scrutinised by institutional holders assessing long-term revenue visibility."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CNB",
+      "company": "CARNABY RESOURCES LIMITED",
+      "headline": "Greater Duchess Exploration Update",
+      "time": "2026-08-12T23:09:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120705-6A1338418",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Greater Duchess project is delivering material exploration newsflow, with this market-sensitive update signalling potentially significant drill results or resource expansion that could re-rate Carnaby's copper-gold asset base in Queensland's Mount Isa region.",
+        "The market-sensitive classification indicates results likely exceed expectations or contain material new information — investors should watch for step-out intercepts, high-grade extensions, or discovery of new mineralised zones that could meaningfully upgrade the project's resource inventory.",
+        "Near-term catalysts hinge on whether drilling confirms lateral or depth extensions of known mineralisation; a positive outcome would strengthen Carnaby's position as a credible copper development story at a time when copper demand fundamentals remain structurally supportive for electrification themes."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FCL",
+      "company": "FINEOS CORPORATION HOLDINGS PLC",
+      "headline": "Appendix 4D and 2026 Half Year Report",
+      "time": "2026-08-12T23:07:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120703-2A1689273",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "FINEOS reported H1 FY2026 results flagged as market sensitive, signalling material information that could meaningfully shift consensus expectations — investors should scrutinise revenue growth trajectory and any revision to full-year guidance given the stock's history of volatile re-ratings on earnings updates.",
+        "Key metrics to watch include recurring SaaS/subscription revenue mix, ARR growth, and operating cash flow burn — FINEOS has been navigating a multi-year transition to cloud-native delivery, and any acceleration in net revenue retention or margin improvement would be a significant positive catalyst for a stock that trades on growth multiples.",
+        "Management's forward commentary on enterprise pipeline conversion, particularly within North American life, accident, and health insurance markets, will be critical — any guidance upgrade or evidence of accelerating deal closures would validate the long-term thesis, while cost overruns or customer churn signals could trigger further de-rating given current valuation sensitivity."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TNC",
+      "company": "TRUE NORTH COPPER LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-12T23:06:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120702-6A1338416",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "TRUE NORTH COPPER has entered a trading halt, suspending share trading pending a material announcement — the market-sensitive classification signals a potentially significant corporate event is imminent, likely a capital raise, M&A activity, or major operational update.",
+        "Trading halts on junior ASX-listed copper explorers/developers are most commonly associated with capital raises or strategic transactions; given the current elevated copper price environment (~USD 4.40/lb), any funding or partnership announcement could carry meaningful valuation implications.",
+        "Investors should monitor the forthcoming announcement closely — the resolution of the halt (typically within 2 trading days per ASX Listing Rules) will be the key catalyst, with outcomes ranging from dilutive equity issuance to potentially accretive asset or partnership deals that could re-rate the stock."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LPE",
+      "company": "LOCALITY PLANNING ENERGY HOLDINGS LIMITED",
+      "headline": "LPE acquires PowerHub",
+      "time": "2026-08-12T23:05:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120700-2A1689271",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "LPE's acquisition of PowerHub represents a strategic vertical integration move, likely expanding its embedded network and energy management capabilities — critical for scaling its community energy model beyond organic growth constraints.",
+        "The market-sensitive classification signals material financial or operational impact; investors should scrutinise acquisition price, funding structure (cash/scrip/debt), and whether the deal is earnings-accretive on a near-term basis or requires an integration runway before contributing to EBITDA.",
+        "PowerHub's technology stack — likely a smart energy platform or virtual power plant infrastructure — could accelerate LPE's competitive positioning in the rapidly consolidating embedded network sector, with potential to unlock new recurring revenue streams from property developers and strata managers."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Energy",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "TA1",
       "company": "TRANSURBAN FINANCE COMPANY PTY LTD",
