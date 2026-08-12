@@ -1,9 +1,66 @@
 {
   "date": "2026-08-12",
-  "total": 113,
-  "market_sensitive_count": 104,
-  "generated_at": "2026-08-12T03:02:37.585229+00:00",
+  "total": 116,
+  "market_sensitive_count": 105,
+  "generated_at": "2026-08-12T03:51:44.320793+00:00",
   "announcements": [
+    {
+      "ticker": "SUL",
+      "company": "SUPER RETAIL GROUP LIMITED",
+      "headline": "Becoming a substantial holder from MQG",
+      "time": "2026-08-12T03:44:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120414-2A1689147",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Macquarie Group (MQG) has crossed the 5% substantial holder threshold in Super Retail Group (SUL), signalling a meaningful accumulation of stock by one of Australia's most influential institutional investors — this level of conviction from a major financial house warrants close attention.",
+        "The crossing of the substantial holder threshold typically reflects deliberate portfolio positioning rather than passive index rebalancing; Macquarie's move into SUL at current levels may imply a view that the stock is undervalued relative to its consumer discretionary peers or that near-term catalysts (e.g. cost normalisation, margin recovery) are underappreciated by the market.",
+        "Investors should monitor subsequent Form 604 filings to track whether Macquarie continues to build its position beyond the initial disclosure threshold, as sustained accumulation by a sophisticated institutional holder could provide a technical floor for the share price and attract additional buy-side interest."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OML",
+      "company": "OOH!MEDIA LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-08-12T03:27:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120410-2A1689144",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has dropped below the 5% ownership threshold in OOH!Media (OML), triggering a mandatory disclosure — this signals a meaningful reduction in a previously significant institutional position, representing a notable shift in the company's register composition.",
+        "The exit of a substantial holder introduces potential near-term selling pressure overhang risk; depending on the pace and method of disposal (on-market vs. block trade), this could have already been absorbed by the market or may signal continued distribution of stock.",
+        "Investors should monitor subsequent 13D/G equivalent filings and volume patterns to assess whether this represents a strategic exit by a fund manager rebalancing exposure to the out-of-home advertising sector, which remains sensitive to macroeconomic conditions and advertiser spending cycles in Australia."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Eureka successfully closes All Age Village Fund No 1",
+      "time": "2026-08-12T03:03:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120401-2A1689138",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Eureka has successfully closed the All Age Village Fund No 1, marking a significant capital recycling milestone that de-risks the balance sheet and validates its managed fund strategy as a scalable, fee-generating revenue stream beyond direct property ownership.",
+        "The fund closure signals Eureka has secured committed third-party capital, transitioning from a pure-play operator to a funds management model — a re-rating catalyst that typically attracts higher valuation multiples by adding recurring management fee income with lower capital intensity.",
+        "Next steps will centre on deployment of fund capital into All Age Village assets, with investors watching closely for fund size disclosure, management fee terms, and whether a Fund No 2 pipeline is flagged — key indicators of how material this platform can become to group earnings."
+      ],
+      "tags": [
+        "Finance",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CTD",
       "company": "CORPORATE TRAVEL MANAGEMENT LIMITED",
