@@ -1,9 +1,240 @@
 {
   "date": "2026-08-13",
-  "total": 57,
-  "market_sensitive_count": 52,
-  "generated_at": "2026-08-12T22:46:02.135443+00:00",
+  "total": 69,
+  "market_sensitive_count": 64,
+  "generated_at": "2026-08-12T23:06:03.952456+00:00",
   "announcements": [
+    {
+      "ticker": "TA1",
+      "company": "TRANSURBAN FINANCE COMPANY PTY LTD",
+      "headline": "Transurban FY26 investor presentation",
+      "time": "2026-08-12T23:01:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120691-2A1689258",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FY26 investor presentation signals Transurban is proactively managing institutional expectations ahead of the full year, with market-sensitive classification suggesting material guidance, traffic volume trends, or distribution outlook updates that could reset consensus estimates.",
+        "Key metrics to watch include toll revenue growth trajectory across Sydney, Melbourne, and Brisbane corridors, CPI-linked tariff escalation benefits, and free cash flow conversion relative to the distribution per security guidance — any upward revision would be a meaningful catalyst given the stock's yield-sensitive investor base.",
+        "Capital allocation clarity is critical at this juncture: investors will scrutinise commentary on the West Gate Tunnel completion timeline and cost-to-complete, North East Link project pipeline exposure, and whether leverage metrics (Net Debt/EBITDA) remain within the target band to support distribution sustainability without equity issuance."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASX",
+      "company": "ASX LIMITED",
+      "headline": "2026 Full-Year Results Market Release",
+      "time": "2026-08-12T23:01:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120687-2A1689257",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Full-year results release for ASX Limited represents a high-stakes disclosure for Australia's primary exchange operator — revenue trajectory across listings, trading volumes, and technology services fees will be the key valuation drivers to watch, given ASX's near-monopoly positioning and regulated revenue base.",
+        "Investors will scrutinise CHESS replacement project costs and capitalised spend drawdown, as ongoing technology investment has weighed on margins in prior periods — any guidance on project completion timelines and cost containment will be critical to earnings quality assessment.",
+        "Dividend sustainability and payout ratio guidance will be closely watched given ASX's traditional appeal as a yield stock; any revision to capital management policy or commentary on regulatory headwinds from ASIC/RBA oversight could materially reset consensus forecasts for FY2027."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "UM1",
+      "company": "UNITY METALS LIMITED",
+      "headline": "Geophysics Locates Potential Source of Gold at Rohav",
+      "time": "2026-08-12T23:01:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120686-6A1338415",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Geophysical surveys at Rohav have identified a discrete subsurface anomaly interpreted as a potential primary gold source, a critical de-risking milestone that shifts the project from surface sampling to drill-ready target generation — materially increasing the probability of a discovery event.",
+        "The identification of a geophysical target beneath known gold mineralisation suggests a structurally-controlled or intrusion-related system, which typically carries higher grade and tonnage potential than purely supergene deposits — a key valuation re-rating catalyst for an early-stage explorer.",
+        "Next steps will likely centre on drill program design and permitting to test the geophysical anomaly directly; investors should monitor for a drilling announcement as the primary near-term catalyst, with any positive intercepts capable of driving significant re-rating given Unity Metals' small market capitalisation."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ASX",
+      "company": "ASX LIMITED",
+      "headline": "Appendix 4E and ASX Annual Report 2026",
+      "time": "2026-08-12T23:00:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120684-2A1689253",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "ASX Limited's FY2026 Annual Report (Appendix 4E) is a market-sensitive full-year results disclosure — the headline financial metrics including NPAT, revenue, and dividend will be the primary valuation drivers; investors should scrutinise trading revenue recovery and CHESS replacement cost progress as key swing factors.",
+        "The Appendix 4E filing locks in audited FY2026 earnings, EPS, and the final dividend quantum — any deviation from consensus estimates on operating revenue (historically ~$950M+ range) or cost growth tied to the prolonged CHESS modernisation program will materially reprice the stock in the near term.",
+        "Forward outlook commentary embedded in the Annual Report will be closely watched for guidance on capital expenditure trajectory, technology platform timelines, and competitive positioning as ASX faces ongoing regulatory scrutiny and potential market structure reform — any clarity on CHESS go-live or cost containment would be a key re-rating catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TA1",
+      "company": "TRANSURBAN FINANCE COMPANY PTY LTD",
+      "headline": "Transurban FY26 results and FY27 distribution guidance",
+      "time": "2026-08-12T22:58:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120681-2A1689255",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 full-year results release marks a key catalyst event for Transurban, with institutional focus squarely on toll revenue growth trajectory across Sydney, Melbourne, and Brisbane corridors amid ongoing traffic volume normalisation post-pandemic — any beat on proportional EBITDA consensus (~$2.8–3.0B range) would be materially positive.",
+        "FY27 distribution guidance is the critical number to watch — Transurban's investment thesis is yield-anchored, and guidance implying distribution per security growth above CPI-linked expectations (~30–32 cents range) would validate the inflation pass-through model and support premium infrastructure valuations; any shortfall risks a de-rating given elevated debt servicing costs across the capital structure.",
+        "With Transurban Finance Company as the issuing entity, bond and hybrid investors will scrutinise interest coverage ratios and net debt/EBITDA metrics closely — sustained leverage above 7–8x in a higher-for-longer rate environment remains a structural risk, and management commentary on refinancing pipeline and WestConnex/West Gate Tunnel ramp-up costs will be pivotal for credit spread direction."
+      ],
+      "tags": [
+        "Results",
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MFF",
+      "company": "MFF CAPITAL INVESTMENTS LIMITED",
+      "headline": "Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-12T22:52:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120676-2A1689250",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "MFF Capital's annual report filing signals a full-year performance update for this listed investment company — NTA movement and portfolio returns relative to benchmark will be the critical metrics institutional investors scrutinise, given MFF's concentrated exposure to global financials and consumer franchises including Visa, Mastercard, and Bank of America.",
+        "As a LIC, the market-sensitive classification suggests material disclosure around NTA per share, realised/unrealised gains, and dividend policy — any compression in NTA premium/discount dynamics or changes to the fully franked dividend will directly influence retail and institutional demand for the stock.",
+        "Forward outlook hinges on MFF's currency hedging posture and portfolio positioning amid USD/AUD volatility and global rate uncertainty; investors should watch for any shift in cash weighting or new position disclosures that signal manager conviction on near-term equity market direction."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TA1",
+      "company": "TRANSURBAN FINANCE COMPANY PTY LTD",
+      "headline": "Transurban Appendix 4E and FY26 Corporate Report",
+      "time": "2026-08-12T22:51:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120675-2A1689248",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Transurban's Appendix 4E filing marks the formal close of FY26 reporting, with market-sensitive classification signalling material financial disclosures — investors should scrutinise toll revenue growth, traffic volume recovery, and free cash flow conversion against prior guidance to assess distribution sustainability.",
+        "The Corporate Report will be critical for evaluating Transurban's ability to maintain or grow its distribution per security, given the capital-intensive nature of its concession portfolio and ongoing debt refinancing requirements in a higher-for-longer rate environment — any uplift in proportional EBITDA or narrowing of net debt metrics would be a key positive catalyst.",
+        "Near-term focus will centre on management's FY27 traffic and revenue outlook, progress on major projects (including the West Gate Tunnel and Sydney projects), and any updated capital allocation commentary — guidance upgrades or confirmation of distribution growth trajectory would be the primary re-rating driver for institutional holders."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "R8R",
+      "company": "REGENER8 RESOURCES NL",
+      "headline": "Geophysics Fieldwork Completed at Srebrenica North",
+      "time": "2026-08-12T22:48:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120669-6A1338406",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Completion of geophysics fieldwork at Srebrenica North marks a critical de-risking milestone, as ground-based geophysical surveys are typically the final step before drill target generation — signalling the project is advancing toward a potential maiden drilling program in Bosnia-Herzegovina.",
+        "The market-sensitive classification suggests management believes the geophysical data has identified meaningful anomalies or structural targets that could materially re-rate the asset; investors should watch closely for the data interpretation and modelling results, which will define the quality and priority of drill targets.",
+        "Next catalysts to monitor include release of processed geophysical results, announcement of a drill program (including timing, number of holes, and target depths), and any capital raise activity to fund drilling — all of which will be key valuation inflection points for this early-stage explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BTI",
+      "company": "BAILADOR TECHNOLOGY INVESTMENTS LIMITED",
+      "headline": "BTI Results Presentation FY26",
+      "time": "2026-08-12T22:47:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120667-2A1689249",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation signals active portfolio management within Bailador's unlisted tech investment book — key focus will be on NAV per share movement and whether portfolio company valuations have held up against a challenging global tech funding environment.",
+        "Investors should scrutinise the fair value adjustments across core holdings (historically SiteMinder, Instaclustr exits set the benchmark) — any material write-downs or upward revaluations will directly drive the discount-to-NAV narrative that dominates BTI's share price dynamics.",
+        "Near-term catalyst watch: management commentary on exit pipeline and new deployment opportunities will be critical, as BTI's ability to crystallise returns and recycle capital into new positions is the primary driver of long-term shareholder value in this closed-end VC structure."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PIQ",
+      "company": "PROTEOMICS INTERNATIONAL LABORATORIES LTD",
+      "headline": "Australian patent for PromarkerEndo",
+      "time": "2026-08-12T22:46:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120666-3A698734",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "IP moat strengthened: Granting of an Australian patent for PromarkerEndo provides Proteomics with enforceable exclusivity over its endometriosis diagnostic test in its home market, a critical foundation for commercialisation and licensing negotiations with potential partners or acquirers.",
+        "Market opportunity underscored: Endometriosis affects approximately 1 in 9 Australian women, with current diagnosis averaging 6–7 years via invasive laparoscopy — a validated, patented non-invasive biomarker test addresses a significant unmet clinical need and supports a compelling value proposition for payers and health systems.",
+        "Commercialisation catalyst: Australian patent protection, combined with any existing international filings, materially de-risks the IP position ahead of anticipated clinical validation milestones and potential regulatory submissions, making the asset more attractive for out-licensing deals or strategic partnerships that could unlock near-term non-dilutive revenue."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BRE",
+      "company": "BRAZILIAN RARE EARTHS LIMITED",
+      "headline": "Brazilian Rare Earths Limited Scoping Study Presentation",
+      "time": "2026-08-12T22:43:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120665-6A1338405",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The scoping study represents a critical de-risking milestone for BRE, translating its Monte Alto rare earth discovery into preliminary project economics — a key catalyst that institutional investors require before committing capital to early-stage critical minerals plays.",
+        "Key metrics to scrutinise include projected CAPEX, OPEX, NPV, and IRR against peer rare earth projects; given Monte Alto's high-grade NdPr-dominant mineralogy, favourable unit economics could position BRE as a standout in the ex-China rare earth supply chain narrative currently attracting sovereign and strategic investor interest.",
+        "The scoping study outcome sets the stage for a Pre-Feasibility Study (PFS) mandate and potential offtake or strategic partnership discussions — with Western governments and OEMs actively seeking non-Chinese rare earth supply, BRE's timeline to production and funding strategy will be the critical next catalyst to watch."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NS1",
+      "company": "NODESTREAM LTD",
+      "headline": "Nodestream Strengthens US Execution Capability",
+      "time": "2026-08-12T22:41:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120663-6A1338403",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nodestream is bolstering its US operational footprint, a critical move for a technology company seeking to monetise in the world's largest and most competitive digital infrastructure market — execution capability on the ground typically signals imminent commercial activity or contract pursuit rather than early-stage exploration.",
+        "The market-sensitive classification elevates this beyond routine corporate housekeeping, suggesting the US capability enhancement may involve material hires, partnerships, or contractual arrangements that could meaningfully accelerate revenue generation timelines and de-risk the company's go-to-market strategy.",
+        "Key near-term catalysts to watch include disclosure of specific US client engagements, partnership agreements, or revenue guidance updates — investors should scrutinise whether this announcement is backed by contracted pipeline or remains aspirational, as the distinction will be decisive for valuation re-rating."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AQD",
       "company": "AUSQUEST LIMITED",
