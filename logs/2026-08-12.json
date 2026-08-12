@@ -1,9 +1,106 @@
 {
   "date": "2026-08-12",
-  "total": 95,
-  "market_sensitive_count": 90,
-  "generated_at": "2026-08-11T23:56:56.668208+00:00",
+  "total": 100,
+  "market_sensitive_count": 95,
+  "generated_at": "2026-08-12T00:19:09.492460+00:00",
   "announcements": [
+    {
+      "ticker": "CXU",
+      "company": "CAULDRON ENERGY LIMITED",
+      "headline": "Cauldron to trade on US Market OTCQB",
+      "time": "2026-08-12T00:03:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120330-6A1338276",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "OTCQB listing opens Cauldron to a significantly broader US retail and institutional investor base, potentially improving liquidity and price discovery for a stock that has historically suffered from thin ASX trading volumes — a meaningful structural positive for a micro-cap explorer.",
+        "The OTCQB venue (FINRA-regulated, USD-denominated) requires ongoing SEC reporting compliance and minimum standards, signalling management's intent to attract North American capital — particularly relevant given growing US investor appetite for uranium and critical minerals exposure.",
+        "Near-term catalysts will determine whether the US listing translates into sustained capital inflows; investors should monitor whether increased visibility drives a re-rating or whether the dual-listing remains largely cosmetic without a concurrent project milestone or capital raise to anchor the narrative."
+      ],
+      "tags": [
+        "Mining",
+        "Energy",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PKY",
+      "company": "PATHKEY.AI LTD",
+      "headline": "PKY Appoints Ex-Altium Chairman Sam Weiss & Raises $2.8M",
+      "time": "2026-08-12T00:01:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120324-6A1338267",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The appointment of Sam Weiss — former Altium Chairman who oversaw that company's growth from ~A$200M to a A$9.1B Renesas acquisition — as Chairman signals a credibility inflection point for PKY, bringing deep enterprise software scaling experience and a proven M&A exit pedigree that could materially de-risk the investment thesis for institutional investors.",
+        "The A$2.8M capital raise provides near-term operational runway for an early-stage AI company, though the relatively modest size suggests this is a bridge or milestone-funding round rather than a growth acceleration raise — investors should scrutinise the implied burn rate and how many quarters of runway this secures before the next capital event.",
+        "The combination of a high-profile board appointment and concurrent capital raise is a classic pre-commercialisation signalling strategy; near-term catalysts to watch include any enterprise customer announcements, product development milestones, or strategic partnerships that Weiss's network may accelerate — particularly given Altium's B2B SaaS playbook which PKY may seek to replicate in the AI sector."
+      ],
+      "tags": [
+        "Board Change",
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LIB",
+      "company": "LIBERTY METALS LTD",
+      "headline": "Acquisition of Oko North and Oko South Gold Projects Guyana",
+      "time": "2026-08-11T23:57:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120320-6A1338265",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Liberty Metals is expanding its gold footprint into Guyana — a rapidly emerging South American gold jurisdiction that has attracted major miners including Exxon (oil) and mid-tier gold players, signalling strategic positioning in an underexplored but highly prospective region with favourable geology analogous to West African greenstone belts.",
+        "The dual-project acquisition (Oko North and Oko South) suggests Liberty is assembling a consolidated land package, potentially leveraging district-scale exploration upside — a structure that typically commands a valuation premium if early-stage drilling confirms resource continuity between tenements.",
+        "Key near-term catalysts to watch include deal consideration structure (scrip vs. cash, and any deferred payments that signal vendor confidence), planned exploration timelines, and whether the acquisition triggers a capital raise — all of which will determine whether this is genuinely value-accretive or dilutive to existing shareholders."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SLB",
+      "company": "STELAR METALS LIMITED",
+      "headline": "Spectacular High-Grade Tungsten at Hill of Leaders Project",
+      "time": "2026-08-11T23:56:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120317-6A1338273",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade tungsten intercepts at Hill of Leaders represent a potentially significant discovery in a critical mineral with strong strategic demand — tungsten is a NATO-designated critical material with limited Western supply chains, positioning any meaningful resource definition as a re-rating catalyst for this early-stage explorer.",
+        "The 'spectacular' qualifier in a market-sensitive release signals results materially above expectations; institutional attention will focus on grade and width metrics — tungsten grades above 0.5% WO₃ are typically considered high-grade, and confirmation of such levels would place this project in a globally competitive tier.",
+        "Near-term catalysts include follow-up drilling to test strike and depth extensions, with resource estimation the logical next milestone — investors should monitor whether the company has sufficient cash runway (likely requiring a capital raise given typical junior explorer balance sheets) to advance through a maiden resource and scoping study."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BAP",
+      "company": "BAPCOR LIMITED",
+      "headline": "Confirming FY26 guidance",
+      "time": "2026-08-11T23:55:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120316-3A698655",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Guidance confirmation signals management confidence in execution trajectory — in a challenging retail and automotive aftermarket environment, reaffirming FY26 targets removes a key near-term downside risk that the market had been pricing in following recent earnings pressure.",
+        "The market-sensitive classification elevates this beyond a routine update, suggesting the confirmed guidance metrics (likely EBIT or NPAT range) are materially in line with or above consensus expectations — critical for a stock that has faced significant de-rating over the past 18 months.",
+        "With Bapcor's ongoing strategic review and cost-out program as key catalysts, guidance confirmation provides a credible floor for FY26 earnings estimates and may prompt analyst upgrades, supporting a re-rating as operational leverage from trade and retail segment stabilisation becomes more visible."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "DTR",
       "company": "DATELINE RESOURCES LIMITED",
