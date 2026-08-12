@@ -1,9 +1,47 @@
 {
   "date": "2026-08-12",
-  "total": 100,
-  "market_sensitive_count": 95,
-  "generated_at": "2026-08-12T00:19:09.492460+00:00",
+  "total": 102,
+  "market_sensitive_count": 96,
+  "generated_at": "2026-08-12T00:37:38.961067+00:00",
   "announcements": [
+    {
+      "ticker": "CBL",
+      "company": "CONTROL BIONICS LIMITED",
+      "headline": "Change in substantial holding - Phoenix",
+      "time": "2026-08-12T00:33:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120347-2A1689104",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Phoenix has triggered a substantial holding disclosure for Control Bionics (CBL), indicating a meaningful shift in its ownership position — either crossing or moving through the 5% threshold, which warrants close monitoring of their strategic intent as a significant shareholder.",
+        "For a micro-cap medtech like CBL, movements at the substantial holder level can have outsized influence on liquidity and share price dynamics; Phoenix's position change may signal either accumulation or partial exit, both of which carry implications for the stock's near-term float and trading volume.",
+        "Investors should watch for any follow-on disclosures — if Phoenix is building a position, it could foreshadow engagement with management on capital structure or strategic direction; conversely, a reduction in holding may add near-term selling pressure on an already thinly traded stock."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAY",
+      "company": "CANYON RESOURCES LIMITED",
+      "headline": "Notice of Dispatch of Bidder's Statement",
+      "time": "2026-08-12T00:30:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120345-6A1338279",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Canyon Resources has dispatched a Bidder's Statement, confirming it is the acquirer in an off-market takeover bid — a significant strategic move that signals aggressive M&A intent and likely targets a junior resource company, with the market-sensitive flag indicating material price impact potential for both parties.",
+        "The dispatch of the Bidder's Statement is a formal, legally binding milestone under the Corporations Act, meaning Canyon has committed to the offer terms, financing conditions, and minimum acceptance thresholds — investors should scrutinise the consideration structure (cash, scrip, or hybrid) and any defeating conditions that could unwind the deal.",
+        "Next steps are critical: the target company's board will issue a Target's Statement with an independent expert report, and the acceptance period (typically 1–2 months) will determine deal success — Canyon shareholders face potential dilution risk if scrip-funded, while a failed bid could weigh on Canyon's share price given transaction costs already incurred."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CXU",
       "company": "CAULDRON ENERGY LIMITED",
