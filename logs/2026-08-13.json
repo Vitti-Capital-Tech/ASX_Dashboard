@@ -1,9 +1,587 @@
 {
   "date": "2026-08-13",
-  "total": 27,
-  "market_sensitive_count": 23,
-  "generated_at": "2026-08-12T22:23:48.602697+00:00",
+  "total": 57,
+  "market_sensitive_count": 52,
+  "generated_at": "2026-08-12T22:46:02.135443+00:00",
   "announcements": [
+    {
+      "ticker": "AQD",
+      "company": "AUSQUEST LIMITED",
+      "headline": "Drilling Re-commences at Coober Pedy",
+      "time": "2026-08-12T22:38:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120660-6A1338402",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling resumption at Coober Pedy signals operational continuity after what appears to be a prior interruption — the market-sensitive classification suggests results could materially re-rate the stock, making drill intercepts the critical near-term catalyst to watch.",
+        "Coober Pedy is a historically significant mineralised region; any confirmation of economic grades (copper, gold, or uranium depending on target) would validate AusQuest's exploration thesis and potentially attract JV or farm-in interest from larger players seeking exposure to the region.",
+        "Next steps hinge entirely on assay results and drill hole completion rates — investors should monitor for a follow-up announcement detailing intercept depths and mineralisation widths, which will determine whether this re-commencement translates into a resource definition pathway or remains early-stage exploration."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TG1",
+      "company": "TECHGEN METALS LTD",
+      "headline": "Blue Devil Project Rig Secured",
+      "time": "2026-08-12T22:37:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120659-6A1338401",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Rig secured for Blue Devil Project marks a critical de-risking milestone — converting exploration optionality into near-term drill-ready status, which is typically the key catalyst for re-rating in early-stage explorers on the ASX.",
+        "The market-sensitive classification signals management expects material news flow imminently; securing drilling equipment in a tight rig market (particularly in WA/NT corridors) demonstrates operational execution and reduces the risk of program delays that have historically plagued junior miners.",
+        "Investors should watch for the drill commencement announcement and initial assay results as the next high-impact catalysts — any significant intercepts at Blue Devil could attract institutional attention and potential farm-in interest, given the project's implied strategic value warranting a market-sensitive flag."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BTI",
+      "company": "BAILADOR TECHNOLOGY INVESTMENTS LIMITED",
+      "headline": "BTI Results Announcement FY26",
+      "time": "2026-08-12T22:33:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120656-2A1689243",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results announcement from Bailador Technology Investments (BTI) signals a formal portfolio valuation update — the key metric to watch is Net Asset Value (NAV) per share, which directly drives the discount/premium to market price and is the primary valuation anchor for this listed investment company structure.",
+        "As a technology-focused LIC, BTI's result will reflect mark-to-market movements across its private SaaS and tech portfolio companies; in the current environment of compressed tech multiples and rising cost of capital, any NAV compression or write-downs would materially impact investor sentiment and the share price discount to NAV.",
+        "Investors should scrutinise portfolio company revenue growth rates, any new investments or exits crystallising returns, and management's commentary on pipeline — a successful exit or uplift in a key holding (e.g. Instaclustr-style event) could be a significant positive catalyst, while stagnant or declining portfolio metrics would reinforce the structural discount at which BTI typically trades."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TWE",
+      "company": "TREASURY WINE ESTATES LIMITED",
+      "headline": "2026 Annual Results Investor and Analyst Presentation",
+      "time": "2026-08-12T22:31:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120654-3A698723",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY2026 results presentation signals a pivotal read-through on TWE's luxury and premium wine portfolio performance, particularly the Penfolds division's China recovery trajectory following the removal of tariffs — any volume and margin uplift here will be the key valuation driver watched by institutional investors.",
+        "Analysts will scrutinise EBITS margin progression across the three-division structure (Penfolds, Treasury Americas, Treasury Premium Brands), with consensus expecting Penfolds to carry disproportionate earnings weight; any miss on divisional EBITS or guidance revision could materially reprice the stock given its premium multiple.",
+        "Forward guidance on FY2027 EBITS growth, capital allocation priorities (debt reduction vs. dividends vs. M&A), and commentary on US tariff exposure for imported wines will be critical near-term catalysts — management credibility on execution remains under scrutiny following prior earnings volatility."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TWE",
+      "company": "TREASURY WINE ESTATES LIMITED",
+      "headline": "2026 Annual Results Announcement",
+      "time": "2026-08-12T22:30:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120652-3A698719",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Annual results announcement for FY2026 is market-sensitive, signalling material earnings outcomes that could reset consensus estimates — investors should watch for EBITS margin trajectory across the Penfolds, Treasury Americas, and Treasury Premium Brands divisions given ongoing premiumisation strategy execution.",
+        "Key metrics to scrutinise include group EBITS, net profit after tax, free cash flow conversion, and net debt levels, particularly in the context of the Daou Vineyards integration costs and any updated synergy realisation timeline that could materially impact near-term earnings quality.",
+        "Guidance for FY2027 will be the critical forward-looking catalyst — any revision to EBITS growth targets or commentary on China luxury wine demand recovery and US tariff headwinds will drive re-rating potential, with the stock historically sensitive to divisional margin guidance surprises."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TWE",
+      "company": "TREASURY WINE ESTATES LIMITED",
+      "headline": "TWE 2026 Annual Report",
+      "time": "2026-08-12T22:27:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120648-3A698714",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual report filing signals completion of FY2026 reporting cycle for Treasury Wine Estates — institutional focus will centre on Penfolds segment EBITS margin trajectory and whether the luxury/masstige portfolio mix shift has delivered the targeted premium pricing power amid ongoing softness in the US commercial wine market.",
+        "Key metrics to scrutinise include net revenue per case growth across the Penfolds, Treasury Premium Brands, and Treasury Americas divisions, alongside free cash flow conversion and net debt/EBITDA leverage ratios following the Daou Vineyards acquisition integration costs flowing through the P&L.",
+        "Forward guidance embedded in the report will be critical — investors should assess management's FY2027 EBITS outlook against consensus, particularly any commentary on China market recovery momentum (post-tariff removal), US distributor destocking resolution, and capital allocation priorities including dividend sustainability and potential further M&A."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JLL",
+      "company": "JINDALEE LITHIUM LIMITED",
+      "headline": "Amended Form S-4 Filed as SPAC Transaction Progresses",
+      "time": "2026-08-12T22:27:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120646-6A1338400",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The filing of an amended Form S-4 with the SEC signals the SPAC transaction is advancing through regulatory review, a critical de-risking milestone that moves Jindalee closer to a potential US listing and access to deeper capital markets for its McDermitt Lithium Project in Oregon.",
+        "SPAC structures typically involve defined trust values and redemption mechanics — investors should scrutinise the amended S-4 for updated pro-forma financials, any changes to deal valuation, dilution terms, and the size of the PIPE or trust proceeds that will fund project development.",
+        "Successful completion would provide Jindalee with a US-listed vehicle to capitalise on IRA-driven demand for domestically sourced critical minerals, but execution risk remains elevated given current SPAC market headwinds, high redemption rates industry-wide, and lithium price weakness — timeline to closing and shareholder vote remain key catalysts to watch."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CLW",
+      "company": "CHARTER HALL LONG WALE REIT",
+      "headline": "CLW 2026 Full Year Results Presentation",
+      "time": "2026-08-12T22:26:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120644-2A1689238",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY2026 results headline metric will be scrutinised against prior guidance for operating earnings per unit (OEPU) — any beat or reaffirmation of distribution guidance signals resilient long-WALE income streams from government and blue-chip tenants, underpinning the defensive investment thesis for CLW.",
+        "Portfolio valuation movements are critical given the elevated interest rate environment; cap rate expansion or stabilisation across CLW's ~$6B+ long-weighted average lease expiry (WALE) portfolio will directly determine NTA per unit trajectory and balance sheet headroom for refinancing or acquisitions.",
+        "Forward guidance on FY2027 OEPU and distribution per unit, alongside commentary on debt refinancing progress and hedging ratios, will be the key determinants of near-term re-rating potential — any upgrade or maintained payout in a softening rate environment could catalyse institutional accumulation."
+      ],
+      "tags": [
+        "Results",
+        "Property",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CLW",
+      "company": "CHARTER HALL LONG WALE REIT",
+      "headline": "CLW 2026 Full Year Results",
+      "time": "2026-08-12T22:25:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120642-2A1689237",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY2026 full year results represent a key valuation catalyst for CLW — investors will scrutinise operating earnings per unit (OEPS) and distribution guidance against consensus, with any reaffirmation or upgrade to the long-WALE income profile likely to support the defensive yield thesis underpinning the stock.",
+        "Portfolio metrics to watch include weighted average lease expiry (WALE), occupancy rates, and cap rate movements across CLW's government and essential services-tenanted assets — any cap rate expansion in the current higher-for-longer rate environment could signal further NTA erosion and weigh on book value.",
+        "Near-term focus will shift to FY2027 distribution guidance and balance sheet positioning, particularly gearing levels and debt refinancing timelines — CLW's ability to demonstrate covenant headroom and a credible deleveraging pathway will be critical to restoring institutional confidence in the distribution sustainability."
+      ],
+      "tags": [
+        "Results",
+        "Property",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BRE",
+      "company": "BRAZILIAN RARE EARTHS LIMITED",
+      "headline": "Scoping Study Delivers Exceptional Rocha da Rocha Economics",
+      "time": "2026-08-12T22:25:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120641-6A1338399",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The scoping study signals a potentially transformative project economics profile for Rocha da Rocha, positioning Brazilian Rare Earths as a credible emerging supplier in the critical minerals space at a time when Western nations are aggressively diversifying rare earth supply chains away from China — a structural tailwind that amplifies investor interest.",
+        "Key metrics from the scoping study will be scrutinised for NPV, IRR, and capital intensity benchmarks; 'exceptional economics' language in a market-sensitive release suggests headline figures likely exceed peer comparables, potentially including strong EBITDA margins driven by high-value NdPr (neodymium-praseodymium) content central to EV and defence magnet demand.",
+        "Next catalysts to watch include progression to a Pre-Feasibility Study (PFS), offtake discussions with strategic partners or government-backed buyers, and potential capital raise activity to fund development — the scoping study outcome materially de-risks the project and strengthens the company's negotiating position with financiers and strategic investors."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CLW",
+      "company": "CHARTER HALL LONG WALE REIT",
+      "headline": "Full Year Statutory Accounts",
+      "time": "2026-08-12T22:24:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120640-2A1689235",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Filing of full-year statutory accounts is a mandatory compliance milestone, but the market-sensitive flag signals investors should scrutinise audited NTA per unit and any revaluation movements in the long WALE portfolio — cap rate expansion in FY24 has been a key headwind for the sector and any further devaluations would pressure book value and gearing covenants.",
+        "Key metrics to watch include distributable earnings per unit versus guidance, weighted average lease expiry (WALE), occupancy rates, and the statutory gearing ratio — CLW's long-lease government and essential services tenant base provides income resilience, but rising debt costs on refinancing activity remain a margin risk in the current rate environment.",
+        "With the RBA rate cycle potentially turning, any stabilisation or tightening of cap rates embedded in the valuation assumptions would be a positive re-rating catalyst for CLW; investors should assess whether management has revised FY25 distribution guidance and whether asset recycling or capital management initiatives are flagged to defend the balance sheet."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORA",
+      "company": "ORORA LIMITED",
+      "headline": "ORA - Results Presentation",
+      "time": "2026-08-12T22:23:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120637-3A698720",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Orora's results presentation is market sensitive, signalling material financial outcomes that will directly reprice the stock — investors should watch for EBIT margin trajectory across its Australasia packaging and North American Orora Packaging Solutions (OPS) segments, given ongoing cost pressures and the strategic review of OPS announced earlier in FY25.",
+        "Key metrics to scrutinise include free cash flow conversion, net debt levels relative to covenant thresholds, and any update on the potential divestment or restructure of OPS — a business that has weighed on group returns and was a central concern in prior guidance downgrades.",
+        "Forward guidance and capital allocation signals will be critical: any reinstatement of a clearer earnings trajectory, dividend sustainability commentary, or confirmation of asset sale proceeds could act as a re-rating catalyst, while further downgrades or impairment charges would extend the stock's underperformance versus ASX industrials peers."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORA",
+      "company": "ORORA LIMITED",
+      "headline": "ORA - Investor Results Release",
+      "time": "2026-08-12T22:23:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120636-3A698718",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Orora's investor results release is market sensitive, signalling material financial disclosures that could meaningfully re-rate the stock — investors should watch closely for EBIT margin trajectory across its Australasia packaging and North American Orora Packaging Solutions (OPS) divisions, given ongoing cost pressures and the post-Saverglass integration drag that has weighed on recent periods.",
+        "Key metrics to scrutinise include free cash flow conversion, net debt levels relative to covenant thresholds, and any update on the Saverglass premium glass acquisition synergy realisation — prior guidance flagged earnings dilution in the near term, so any upgrade or confirmation of a recovery path will be pivotal for institutional positioning.",
+        "Management commentary on the strategic review of OPS (North American distribution business) and capital allocation priorities — including dividend sustainability and deleveraging pace — will be critical next steps; a potential divestment or restructure of OPS remains a live catalyst that could unlock significant value or signal further earnings risk depending on execution."
+      ],
+      "tags": [
+        "Results",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORA",
+      "company": "ORORA LIMITED",
+      "headline": "ORA - Annual Report to shareholders",
+      "time": "2026-08-12T22:22:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120634-3A698716",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual Report filing confirms FY results are now fully disclosed to market — investors should scrutinise the Orora Packaging Solutions (OPS) segment performance following the €1.1B Saverglass acquisition integration, which has been a key drag on margins and leverage metrics since completion in late 2023.",
+        "Balance sheet stress remains a central concern: elevated net debt from the Saverglass deal has pressured the dividend and credit profile, with the market closely watching whether free cash flow generation and debt reduction are tracking toward management's deleveraging targets within the disclosed covenants.",
+        "Strategic optionality around a potential divestiture of OPS (North American distribution business) remains a live catalyst — the Annual Report's segment disclosures and management commentary on capital allocation will be parsed for signals on timeline and valuation expectations for any asset sale process."
+      ],
+      "tags": [
+        "Results",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FAU",
+      "company": "FIRST AU LIMITED",
+      "headline": "High-grade Gold from Initial Kalgoorlie Fieldwork",
+      "time": "2026-08-12T22:22:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120632-6A1338396",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "First Au's initial fieldwork at its Kalgoorlie project has returned high-grade gold results, a critical de-risking milestone for an early-stage explorer — confirming mineralisation potential in one of Australia's most proven gold jurisdictions and lending immediate geological credibility to the asset.",
+        "The market-sensitive classification signals management views these results as materially significant; high-grade surface or rock-chip assays from Kalgoorlie typically attract re-rating interest given the district's tier-1 infrastructure, low discovery-to-production lead times, and M&A appetite from major producers operating in the region.",
+        "Near-term catalysts will hinge on whether First Au can rapidly follow up with systematic drilling to define a JORC resource — investors should watch for drill program announcements, tenure security updates, and any capital raise activity required to fund the next exploration phase, which will be the true test of whether this initial result translates into sustained value creation."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "A1M",
+      "company": "AIC MINES LIMITED",
+      "headline": "High-Grade Copper and Gold Intersected at Brumby",
+      "time": "2026-08-12T22:20:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120628-6A1338398",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade copper-gold intersections at Brumby represent a meaningful resource expansion catalyst for AIC Mines, with market-sensitive classification signalling results materially exceed prior expectations and could drive upward resource estimate revisions at the Eloise copper district.",
+        "The dual commodity hit of copper and gold is strategically significant given current elevated copper prices driven by energy transition demand and gold near all-time highs — any high-grade intercepts carry outsized valuation optionality and could attract re-rating interest from resource-focused institutions.",
+        "Near-term focus will shift to follow-up drilling density and whether Brumby can be delineated into a standalone or satellite resource to feed the existing Eloise processing infrastructure, with a maiden or updated resource estimate likely to serve as the next key share price catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CNI",
+      "company": "CENTURIA CAPITAL GROUP",
+      "headline": "Centuria and ResetData advance AI Factory deployment",
+      "time": "2026-08-12T22:19:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120625-2A1689209",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Centuria's partnership with ResetData to deploy an AI Factory signals a strategic pivot into high-growth digital infrastructure, diversifying revenue streams beyond traditional property funds management and potentially commanding premium valuation multiples associated with data centre/AI infrastructure plays.",
+        "The market-sensitive classification underscores material commercial significance — AI Factory deployments typically involve substantial capital commitments and long-term contracted revenue, which could meaningfully underpin recurring income and asset valuations within Centuria's industrial/alternatives portfolio.",
+        "Execution risk remains the key watch item: investors should monitor deployment timelines, capital allocation quantum, and whether this advances toward a dedicated digital infrastructure vehicle or REIT structure, which would be a significant catalyst for re-rating CNI's funds management earnings base."
+      ],
+      "tags": [
+        "Technology",
+        "Property",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "C1X",
+      "company": "COSMOS EXPLORATION LIMITED",
+      "headline": "Strategic agreement executed with VULTEC",
+      "time": "2026-08-12T22:19:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120624-6A1338388",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cosmos Exploration has executed a strategic agreement with VULTEC, a market-sensitive development that signals a potential pivot or expansion of the company's commercial strategy — the nature and financial terms of the deal will be critical in determining whether this represents genuine value creation or headline-driven speculation.",
+        "Without disclosed deal economics (licensing fees, revenue share, equity consideration, or milestone payments), institutional investors should treat this cautiously — small-cap strategic agreements frequently lack binding financial commitments and can be structured as non-exclusive MOUs with limited near-term revenue impact.",
+        "Key near-term catalysts to monitor include: disclosure of VULTEC's operational scale and financial standing, any binding contractual obligations or exclusivity provisions, and whether the agreement triggers a capital raise to fund execution — all of which will materially shape the risk/reward profile of this announcement."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ADD",
+      "company": "ADAVALE RESOURCES LIMITED",
+      "headline": "New Drilling Returns More Gold at London-Victoria",
+      "time": "2026-08-12T22:19:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120623-2A1689205",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "New drilling at London-Victoria confirms gold mineralisation continuity, a critical de-risking milestone for a junior explorer — repeated positive intercepts reduce geological uncertainty and strengthen the case for a maiden or upgraded resource estimate.",
+        "The market-sensitive classification signals materially significant assay results; investors should scrutinise headline intercept grades and widths against prior holes to assess whether this represents a step-change in deposit scale or incremental confirmation of known zones.",
+        "Near-term catalysts to watch include a resource update or scoping study trigger — sustained drilling success at London-Victoria positions Adavale to attract farm-in partners or re-rate on resource ounce accumulation, though funding runway and drill programme pace remain key execution risks."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GWR",
+      "company": "GWR GROUP LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-12T22:19:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120621-6A1338382",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in GWR Group's register, indicating a major shareholder has crossed (or fallen through) a 5% ownership threshold — warranting close monitoring of the direction of movement (accumulation vs. disposal) to assess underlying conviction in the stock.",
+        "Substantial holding movements in small-cap ASX miners like GWR Group can disproportionately impact liquidity and price discovery given typically thin trading volumes; even modest register changes can signal institutional repositioning or strategic interest in the company's C4 Iron Ore or gold assets.",
+        "Investors should track whether this represents a new entrant building a strategic stake or an existing holder reducing exposure — the former could foreshadow a potential M&A approach or activist engagement, while the latter may signal waning confidence in near-term project catalysts."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORG",
+      "company": "ORIGIN ENERGY LIMITED",
+      "headline": "Presentation to Analysts and Financial Markets",
+      "time": "2026-08-12T22:18:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120620-2A1689234",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Analyst presentation signals management is actively engaging capital markets with a structured market update — likely containing forward guidance, operational metrics, or strategic repositioning commentary that could reset consensus estimates for FY25/26.",
+        "As a market-sensitive filing, the presentation almost certainly contains material non-public information now being disclosed, including potential updates on APLNG earnings contribution, energy retail margins, or progress on the Octopus Energy technology integration — all key valuation drivers for ORG.",
+        "Institutional investors should scrutinise any revised EBITDA guidance ranges, capital allocation priorities (buybacks vs. debt reduction), and commentary on the Australian energy transition pipeline, as these will directly inform near-term price targets and position sizing decisions."
+      ],
+      "tags": [
+        "Energy",
+        "Market Update"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORG",
+      "company": "ORIGIN ENERGY LIMITED",
+      "headline": "Full Year Results 2026",
+      "time": "2026-08-12T22:18:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120619-2A1689232",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Full year FY2026 results represent a key valuation catalyst for Origin Energy — investors will scrutinise EBITDA trajectory across the Integrated Gas (APLNG) and Energy Markets segments, particularly given ongoing LNG price volatility and domestic gas market reform pressures that have weighed on earnings visibility.",
+        "APLNG cash distributions and Energy Markets underlying profitability will be the critical metrics — any beat versus consensus on EBITDA or free cash flow conversion could re-rate the stock, while dividend sustainability and balance sheet leverage (net debt position) will determine capital return capacity heading into FY2027.",
+        "Forward guidance on energy transition capex, retail electricity margin recovery amid regulatory headwinds, and APLNG production outlook will set the tone for institutional positioning — watch for any revision to medium-term targets or commentary on the Octopus Energy partnership's contribution to customer growth and cost efficiency."
+      ],
+      "tags": [
+        "Results",
+        "Energy",
+        "Dividend"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LFT",
+      "company": "LI-FT POWER LTD.",
+      "headline": "LIFT Closes C$23 Million Public Offering",
+      "time": "2026-08-12T22:18:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120618-6A1338381",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "LI-FT Power has successfully closed a C$23 million public offering, materially strengthening its balance sheet and extending cash runway — critical for a pre-revenue lithium explorer where capital access directly determines exploration velocity and project advancement timelines.",
+        "The quantum of the raise signals meaningful institutional appetite for LIFT's lithium assets at a time when junior miners face a challenging funding environment; a fully subscribed or oversubscribed offering would confirm conviction in the company's Northwest Territories pegmatite portfolio and de-risk near-term drilling programs.",
+        "Proceeds are expected to fund continued exploration and resource definition at the Yellowknife Lithium Project — investors should monitor how aggressively management deploys capital into drill programs, as upcoming assay results and resource estimate updates will be the key catalysts determining whether this raise proves value-accretive or dilutive in hindsight."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "10X",
+      "company": "EXULTANT MINING LIMITED",
+      "headline": "Balerion Drilling Intersects Sulphide-Bearing Contact Zone",
+      "time": "2026-08-12T22:18:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120617-6A1338380",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Intersection of a sulphide-bearing contact zone at Balerion is a technically significant early-stage discovery signal — sulphide mineralisation at lithological contacts is a classic structural trap for base and precious metal deposits, elevating the geological prospectivity of the project and justifying accelerated drill-out expenditure.",
+        "The market-sensitive classification underscores management's view that this result is material to valuation; however, without disclosed intercept widths, grades, or downhole depths in the headline, institutional investors should await the full assay data before sizing positions — the quality of the sulphide system (disseminated vs. massive) will be the key differentiator between a drill-play catalyst and a substantive resource-definition story.",
+        "Near-term focus will shift to follow-up step-out and infill drilling to define the lateral and vertical extent of the contact zone; a rapid turnaround on assay results and a clear drill-program timeline will be critical to sustaining market momentum and supporting any potential capital raise to fund resource delineation."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WCE",
+      "company": "WEST COAST SILVER LIMITED",
+      "headline": "Broad Near-Surface Silver Zone Defined at Elizabeth Hill",
+      "time": "2026-08-12T22:17:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120615-6A1338378",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Elizabeth Hill has returned a broad, near-surface silver mineralisation zone — shallow depth is a critical value driver as it materially reduces future mining costs and accelerates the pathway to potential resource definition, a key de-risking milestone for a junior explorer.",
+        "The market-sensitive classification signals management believes the drill results are materially significant, implying intercept widths and/or grades are likely above expectations — investors should scrutinise assay data for silver equivalent grades and zone continuity to assess resource potential.",
+        "Next catalyst is a maiden or updated JORC resource estimate incorporating these results; until then, the focus will be on follow-up drilling to test strike and depth extensions of the defined zone, which will determine whether Elizabeth Hill can underpin a standalone development case."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ORE",
+      "company": "OREZONE GOLD CORPORATION",
+      "headline": "Orezone Gold Reports Second Quarter 2026 Results",
+      "time": "2026-08-12T22:17:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120613-6A1338393",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive Q2 2026 results from Orezone Gold signal a material operational or financial development at its Bomboré gold mine in Burkina Faso — investors should scrutinise gold production volumes, all-in sustaining costs (AISC), and any revision to full-year guidance as key valuation drivers.",
+        "With Bomboré ramping through its Phase 2 hard-rock expansion, the critical metrics to assess are whether throughput and recovery rates are tracking to design capacity, and whether capital expenditure drawdowns are within budget — any cost overruns or production misses would pressure the near-term investment case.",
+        "Geopolitical risk in Burkina Faso remains an elevated overhang; any commentary on operational continuity, government relations, or security conditions in the MD&A will be closely watched by institutional investors alongside the headline financial numbers — cash position and debt covenant compliance are secondary watchpoints given the project's leveraged capital structure."
+      ],
+      "tags": [
+        "Results",
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WCN",
+      "company": "WHITE CLIFF MINERALS LIMITED",
+      "headline": "Assays Extend High-Grade Cu to Beyond 280m Depth at Danvers",
+      "time": "2026-08-12T22:16:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120612-6A1338376",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade copper mineralisation confirmed extending beyond 280m depth at the Danvers prospect, demonstrating vertical continuity that materially upgrades the deposit's scale potential and supports a larger resource estimate than previously modelled.",
+        "The depth extension is technically significant for a junior explorer — deeper high-grade intercepts typically indicate a robust primary sulphide system rather than near-surface oxide enrichment, improving the economic case for underground mining scenarios and attracting institutional resource sector interest.",
+        "Next catalysts to watch include a maiden or updated JORC resource estimate incorporating the new assay data, further step-out drilling to test lateral extents, and potential re-rating of the stock if results support a discovery of meaningful tonnage — key metrics will be grade-thickness products relative to peer deposits in the region."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ORE",
+      "company": "OREZONE GOLD CORPORATION",
+      "headline": "Q2 Financial Statements - 30 June 2026",
+      "time": "2026-08-12T22:16:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120611-6A1338392",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Q2 2026 financial statements represent a key operational milestone for Orezone, with the market-sensitive classification signalling material disclosure that could meaningfully reset investor expectations around the Bomboré gold mine's production ramp-up trajectory in Burkina Faso.",
+        "Investors should scrutinise cash position, debt service obligations, and all-in sustaining costs (AISC) against prior guidance — any deviation in gold ounces sold or revenue recognition will be the primary valuation driver given the company's single-asset, growth-stage profile.",
+        "With Orezone in active ramp-up phase at Bomboré, the outlook commentary on H2 2026 production guidance, mill throughput optimisation, and drawdown status on its project finance facility will be critical in determining whether the company is tracking toward full commercial production targets or faces execution risk."
+      ],
+      "tags": [
+        "Results",
+        "Mining",
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CZN",
+      "company": "CORAZON MINING LIMITED",
+      "headline": "Drilling Commencing at Feather Cap",
+      "time": "2026-08-12T22:16:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120610-6A1338375",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drill commencement at Feather Cap marks a critical de-risking catalyst for Corazon Mining, with market-sensitive classification signalling management expects results capable of materially moving the stock — investors should watch closely for assay data as the primary near-term value inflection point.",
+        "The operational milestone demonstrates Corazon is actively deploying capital into the ground rather than remaining in prolonged planning phases, which is significant for a junior explorer where cash burn versus exploration progress is a key investor concern — upcoming quarterly activity reports will be essential to assess burn rate against drill programme scope.",
+        "Success at Feather Cap could expand the company's resource inventory and attract institutional re-rating, particularly if results intersect mineralisation consistent with the target model; conversely, disappointing assays risk a sharp re-rating lower given the market-sensitive flag has elevated investor expectations ahead of results."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ORE",
+      "company": "OREZONE GOLD CORPORATION",
+      "headline": "Management Discussion and Analysis - 30 June 2026",
+      "time": "2026-08-12T22:16:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120609-6A1338391",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The MD&A for the half-year ending 30 June 2026 is a market-sensitive disclosure, signalling material operational or financial developments at Orezone's Bomboré gold mine in Burkina Faso — investors should scrutinise production throughput, all-in sustaining costs (AISC), and any guidance revisions relative to the Phase 2 hard rock expansion milestones.",
+        "Key financial metrics to watch include free cash flow generation, debt service progress against the project finance facility, and gold revenue realised — any deterioration in AISC or drawdown on liquidity reserves would be a red flag given the elevated geopolitical risk profile of Burkina Faso operations.",
+        "Forward outlook will hinge on Phase 2 hard rock processing ramp-up trajectory and updated production guidance; confirmation of on-schedule commissioning and cost control would materially de-risk the investment thesis, while any delays or capital cost overruns could trigger a re-rating of the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Results",
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "LM8",
       "company": "LUNNON METALS LIMITED",
