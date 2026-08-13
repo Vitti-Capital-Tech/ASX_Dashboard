@@ -1,9 +1,337 @@
 {
   "date": "2026-08-14",
-  "total": 16,
-  "market_sensitive_count": 11,
-  "generated_at": "2026-08-13T22:22:47.080635+00:00",
+  "total": 33,
+  "market_sensitive_count": 25,
+  "generated_at": "2026-08-13T22:44:15.134325+00:00",
   "announcements": [
+    {
+      "ticker": "L1G",
+      "company": "L1 GROUP LIMITED",
+      "headline": "L1 Group announces PXC Advisors joint venture",
+      "time": "2026-08-13T22:38:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121045-2A1689437",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "L1 Group's joint venture with PXC Advisors signals a strategic push to expand advisory and capital markets capabilities, potentially broadening its revenue base and client pipeline — a meaningful structural development for a smaller ASX-listed financial services entity.",
+        "The market-sensitive classification elevates scrutiny on deal terms, equity structure, and any earn-out or capital commitment obligations; investors should watch for disclosed financial contributions, revenue-sharing arrangements, or dilutive elements that could materially impact near-term earnings.",
+        "Execution risk remains the key variable — JV success will hinge on PXC Advisors' existing deal flow, client relationships, and integration with L1 Group's platform; near-term catalysts to monitor include mandates won, headcount additions, and any revenue guidance revisions tied to the partnership."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TVL",
+      "company": "TOUCH VENTURES LIMITED",
+      "headline": "Appendix 4D and Interim Financial Report",
+      "time": "2026-08-13T22:36:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121043-3A698798",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Half-year results filing triggers mandatory scrutiny of cash burn trajectory — for an early-stage venture platform, the key watch item is whether operating cash outflows are decelerating, as any acceleration would compress the implied runway and pressure the balance sheet ahead of potential capital needs.",
+        "Revenue and portfolio valuation metrics will be critical: investors should examine whether Touch Ventures' investee companies (including Afterpay-adjacent assets) are delivering measurable GMV or revenue growth, or whether fair value write-downs on unlisted investments are eroding net asset value — a common risk in the current higher-rate environment for venture-backed portfolios.",
+        "With the broader venture/fintech sector still under valuation pressure, the interim report's commentary on strategic direction — including any asset disposals, new investments, or cost rationalisation — will determine whether management is actively managing the portfolio toward liquidity events or simply holding through the cycle."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IPG",
+      "company": "IPD GROUP LTD",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-13T22:35:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121041-2A1689436",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive FY26 results release signals a material earnings event for IPD Group — a specialist electrical infrastructure distributor — with institutional focus squarely on revenue trajectory and margin performance against a backdrop of strong Australian electrification and data centre capex tailwinds.",
+        "Key metrics to watch include organic revenue growth versus acquisition-driven uplift, EBITDA margin sustainability (FY25 EBITDA margin ~8-9%), and working capital discipline given IPD's distribution-heavy model where inventory management directly impacts free cash flow conversion.",
+        "Forward guidance and commentary on order book depth, customer concentration risk, and any M&A pipeline signals will be critical catalysts — IPD has been an active acquirer and the market will assess whether the integration of recent bolt-ons is delivering synergy realisation on schedule."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SNX",
+      "company": "SIERRA NEVADA GOLD INC.",
+      "headline": "SNX advances USA portfolio commercialisation",
+      "time": "2026-08-13T22:33:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121040-3A698797",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sierra Nevada Gold's move to commercialise its US portfolio signals a potential inflection point from exploration/development stage toward revenue generation — a critical de-risking milestone that typically re-rates junior resource companies on the ASX.",
+        "The market-sensitive classification suggests material new information, likely involving binding agreements, offtake arrangements, or asset sale/JV terms that could directly impact near-term cash flow and reduce reliance on equity dilution to fund operations.",
+        "Investors should watch for specifics on deal structure, counterparty quality, and timeline to first revenue — key metrics that will determine whether this commercialisation announcement translates into sustainable value creation or remains aspirational."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RMD",
+      "company": "RESMED INC",
+      "headline": "Resmed Form 10-K Annual Report",
+      "time": "2026-08-13T22:32:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121039-2A1689431",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "ResMed's Form 10-K filing represents a comprehensive annual disclosure of financial performance, risk factors, and strategic positioning — institutional investors should scrutinise revenue trajectory in the core sleep apnea device segment against ongoing GLP-1 weight-loss drug headwinds, which remain the key overhang on long-term addressable market assumptions.",
+        "Key metrics to watch include gross margin trends (historically ~57-59%), free cash flow generation, and any updated guidance on Software-as-a-Service revenue from its Brightree/MatrixCare platforms, which provide higher-multiple recurring revenue diversification away from hardware cycles.",
+        "The 10-K's risk factor disclosures and management outlook commentary will be critical for reassessing the bull/bear debate around GLP-1 impact — any quantification of patient pipeline resilience, new device adoption rates (AirSense 11), or international market share gains in Europe/Asia-Pacific would serve as near-term re-rating catalysts for ASX-listed CDIs."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IPG",
+      "company": "IPD GROUP LTD",
+      "headline": "FY26 Investor Presentation",
+      "time": "2026-08-13T22:32:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121038-2A1689435",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material forward guidance or strategic updates that could meaningfully re-rate IPD Group's valuation — investors should scrutinise revenue trajectory, margin outlook, and any FY26 earnings guidance embedded in the presentation.",
+        "As an electrical infrastructure distributor leveraging Australia's energy transition tailwinds, IPD's FY26 investor presentation likely addresses order book depth, working capital dynamics, and exposure to grid modernisation and data centre capex cycles — key demand drivers that institutional investors will benchmark against sector peers.",
+        "Watch for any commentary on M&A pipeline, organic growth targets, or capital allocation priorities; IPD has historically used bolt-on acquisitions to expand product categories, and any FY26 guidance upgrade or new strategic initiative would be a near-term catalyst for the stock."
+      ],
+      "tags": [
+        "Other",
+        "Energy",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IPG",
+      "company": "IPD GROUP LTD",
+      "headline": "Appendix 4E and Financial Report 30 June 2026",
+      "time": "2026-08-13T22:24:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121030-2A1689427",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Full-year results to 30 June 2026 carry market-sensitive classification, signalling material financial outcomes that could meaningfully re-rate the stock — investors should scrutinise revenue growth trajectory and EBITDA margins given IPD's recent acquisition-led expansion strategy in electrical infrastructure distribution.",
+        "Key metrics to watch include organic vs. acquired revenue contribution, working capital movements, and net debt position, as IPD has been integrating bolt-on acquisitions that can distort underlying earnings quality and cash conversion in the near term.",
+        "The Appendix 4E lodgement triggers the formal earnings season catalyst for IPD — any guidance commentary or dividend declaration accompanying the report will be critical for institutional positioning, particularly given the stock's re-rating potential if margins have held or expanded despite inflationary input cost pressures."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MXO",
+      "company": "MOTIO LTD",
+      "headline": "Appendix 4E",
+      "time": "2026-08-13T22:22:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121028-6A1338541",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 4E filing signals Motio Ltd has met its statutory obligation to lodge preliminary full-year results, making this a market-sensitive disclosure that investors should treat as a first read on FY performance before the full annual report is released.",
+        "Key metrics to scrutinise include revenue trajectory, EBITDA/NPAT movement, and any impairment charges or going-concern disclosures — given Motio's small-cap profile, any material deviation from prior guidance or consensus estimates will likely drive outsized price reaction.",
+        "Until the detailed financials within the 4E are reviewed — particularly cash position, operating cash flow, and any commentary on FY outlook — the market will be in price-discovery mode; institutional investors should await the full document before sizing positions."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADD",
+      "company": "ADAVALE RESOURCES LIMITED",
+      "headline": "Execution of Sale Agreement on Uranium Portfolio",
+      "time": "2026-08-13T22:20:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121026-2A1689413",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Adavale Resources has executed a binding sale agreement to divest its uranium portfolio, representing a strategic pivot that could unlock latent value and return capital or redirect focus toward core assets — the deal structure and consideration terms will be critical to assessing whether this is value-accretive or a distressed exit.",
+        "The market-sensitive classification signals material financial impact; investors should scrutinise the sale price relative to any book value or historical exploration spend on the uranium assets, as a significant discount could imply impairment risk or urgency to monetise non-core holdings.",
+        "Near-term catalysts hinge on completion conditions, settlement timeline, and how proceeds will be deployed — whether directed toward debt reduction, exploration of remaining assets, or shareholder returns will determine if this transaction re-rates the stock or simply clears the balance sheet of stranded assets."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NWH",
+      "company": "NRW HOLDINGS LIMITED",
+      "headline": "Golding - Contract awards",
+      "time": "2026-08-13T22:18:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121021-6A1338533",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Golding, NRW's civil and mining contracting division, has secured new contract awards that directly bolster the group's order book — a critical leading indicator of forward revenue visibility and earnings quality for institutional investors tracking NRW's work-in-hand trajectory.",
+        "Contract wins add to NRW's recurring revenue base in the resources and infrastructure sector, reinforcing the division's competitive positioning at a time when Australian mining capex and bulk commodities activity remain elevated, supporting margin sustainability across the group.",
+        "Incremental order book growth strengthens NRW's case for meeting or exceeding FY guidance, with investors likely to focus on contract scale, duration, and commodity exposure in the full announcement to assess the materiality of earnings uplift and potential for further upgrades."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KNI",
+      "company": "KUNIKO LIMITED",
+      "headline": "Phase 2 Commonwealth-Silica Hill Drilling Update",
+      "time": "2026-08-13T22:18:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121019-6A1338532",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Phase 2 drilling at Commonwealth-Silica Hill represents a critical derisking milestone for Kuniko's Norwegian battery metals portfolio — positive intercepts could materially re-rate the project's resource potential and attract strategic partner interest given Europe's critical minerals supply chain urgency.",
+        "As a market-sensitive update, the drilling results carry direct valuation implications; investors should scrutinise intercept widths, grades (particularly nickel, cobalt, or copper tenor), and whether results confirm or extend the Phase 1 mineralised footprint to assess resource scalability.",
+        "Near-term catalysts hinge on whether Phase 2 results support a maiden or expanded resource estimate — progression to a JORC-compliant resource would be the logical next step, potentially unlocking access to EU critical minerals funding streams and increasing institutional appeal ahead of any future capital raise."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OSM",
+      "company": "OSMOND RESOURCES LIMITED",
+      "headline": "Further Progress Towards Scoping Study Completion",
+      "time": "2026-08-13T22:18:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121016-6A1338534",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Scoping study advancement signals Osmond Resources is progressing toward a formal economic assessment of its project, a critical de-risking milestone that typically precedes pre-feasibility studies and can materially re-rate junior explorers as project viability becomes quantifiable.",
+        "The market-sensitive classification suggests the update contains substantive technical or economic data points — likely updated resource estimates, metallurgical results, or cost parameters — that could meaningfully shift the market's view on project economics and capital requirements.",
+        "Completion of the scoping study will be the next key catalyst to watch, as it will define the project's capital intensity, operating cost profile, and production scale, directly informing whether Osmond can attract institutional or strategic interest for the next development phase."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MDX",
+      "company": "MINDAX LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-13T22:18:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121017-6A1338538",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Mindax Limited (MDX), crossing the 5% ownership threshold — a key regulatory trigger that signals meaningful accumulation by a single entity or associated group, warranting close monitoring of their strategic intent.",
+        "The timing and scale of the stake-building will be critical to assess: if acquired on-market at prevailing prices, it implies conviction buying in a micro-cap explorer, potentially signalling undisclosed interest in the company's iron ore or other mineral assets in Western Australia.",
+        "Investors should watch for any follow-on 'change of substantial holder' notices or associated party disclosures, as serial accumulation beyond 5% toward a blocking stake (>10%) or control position (>20%) could presage a corporate action, board restructure, or strategic partnership approach."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MDX",
+      "company": "MINDAX LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-13T22:18:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121014-6A1338537",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Mindax Limited (MDX), a junior explorer focused on iron ore and gold assets in Western Australia — warranting close attention to whether this represents accumulation or distribution by a key holder.",
+        "The filing indicates a holder has crossed (or moved through) the 5% substantial shareholder threshold; given MDX's typically thin liquidity and small market capitalisation, even modest volume changes can reflect significant strategic interest or exit pressure from a concentrated position.",
+        "Investors should monitor subsequent 604/603 filings to determine the direction of the holding change — an increase could signal renewed conviction in MDX's exploration pipeline, while a decrease may foreshadow further selling pressure on an illiquid stock with limited near-term catalysts."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TPW",
+      "company": "TEMPLE & WEBSTER GROUP LTD",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-13T22:18:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121013-2A1689408",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has crossed the 5% ownership threshold in Temple & Webster (TPW), signalling meaningful institutional conviction in the online furniture and homewares retailer at current valuation levels.",
+        "The timing is notable given TPW's recent strong revenue momentum in the Australian e-commerce space — institutional accumulation to substantial holder status typically reflects a considered, longer-term position built over weeks, implying sustained buying pressure in the register.",
+        "Investors should monitor whether this represents a passive index-driven accumulation or an active strategic stake, as the latter could foreshadow board engagement, further buying toward a blocking stake (~10-15%), or serve as a catalyst for broader re-rating interest from other institutional players."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LAT",
+      "company": "LATITUDE 66 LIMITED",
+      "headline": "Piastri joins Ricciardo to unlock value for Latitude 66",
+      "time": "2026-08-13T22:17:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121011-6A1338531",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Latitude 66 has secured high-profile brand ambassadors in Formula 1 drivers Oscar Piastri and Daniel Ricciardo, a marketing strategy designed to elevate global visibility for what appears to be a junior mining or exploration play — leveraging F1's surging popularity, particularly in North America and Europe, to attract retail and institutional investor attention.",
+        "The market-sensitive classification signals management believes this partnership materially impacts investor perception and potentially deal-making capacity; however, without disclosed financial terms, investors should scrutinise the cost of the arrangement against the company's cash runway and whether ambassador fees represent a meaningful burn on what is likely a limited balance sheet.",
+        "Near-term catalysts will hinge on whether the ambassador strategy translates into tangible outcomes — capital raise appetite, strategic partnerships, or project de-risking milestones — rather than brand awareness alone; investors should watch for follow-on announcements linking the PR campaign to exploration results or funding events."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CMM",
+      "company": "CAPRICORN METALS LTD",
+      "headline": "Acquisition of Piastri Project",
+      "time": "2026-08-13T22:17:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121010-6A1338524",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Capricorn Metals has acquired the Piastri Project, expanding its exploration footprint likely in proximity to its flagship Karlawinda Gold Project in WA — strategic land banking that could underpin future resource growth and extend mine life beyond current reserves.",
+        "The market-sensitive classification signals material consideration terms or strategic significance; investors should watch for acquisition cost disclosure, as a low-cost or scrip-light deal structure would be accretive to NAV without meaningful dilution to existing shareholders.",
+        "Near-term focus shifts to exploration drilling at Piastri to test geological continuity with known mineralisation — any early-stage results confirming extensions to Karlawinda's ore system could be a meaningful re-rating catalyst for a company already generating strong operating cash flow."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CMO",
       "company": "COSMO METALS LIMITED",
