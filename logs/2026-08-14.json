@@ -1,9 +1,47 @@
 {
   "date": "2026-08-14",
-  "total": 33,
-  "market_sensitive_count": 25,
-  "generated_at": "2026-08-13T22:44:15.134325+00:00",
+  "total": 35,
+  "market_sensitive_count": 27,
+  "generated_at": "2026-08-13T23:05:56.496554+00:00",
   "announcements": [
+    {
+      "ticker": "MAM",
+      "company": "MICROEQUITIES ASSET MANAGEMENT GROUP LIMITED",
+      "headline": "FY2026 Appendix 4E and Annual Report",
+      "time": "2026-08-13T22:57:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121068-2A1689449",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "FY2026 Appendix 4E filing signals full-year results crystallisation for Microequities Asset Management — investors should scrutinise FUM trajectory, management fee revenue, and performance fee accruals given the small/micro-cap equity market volatility experienced through the period.",
+        "As a boutique listed fund manager, key valuation drivers will centre on net FUM flows (inflows vs redemptions), fee margin compression risk, and whether performance fees were earned — any deterioration in these metrics could pressure the stock's earnings multiple materially.",
+        "Outlook commentary within the Annual Report will be critical: sustained small-cap underperformance relative to large-caps has historically challenged boutique managers' ability to retain AUM and attract new mandates, making management's forward guidance on distribution partnerships and product pipeline the key near-term catalyst to watch."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SOP",
+      "company": "SYNERTEC CORPORATION LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-13T22:55:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121065-3A698804",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "SYNERTEC has entered a trading halt, suspending price discovery for investors — the market-sensitive classification signals a material corporate development is imminent, likely a capital raise, M&A transaction, or significant contract announcement that requires controlled disclosure.",
+        "The 'market sensitive' flag elevates the risk/opportunity profile: historically, ASX trading halts for micro-cap technology and engineering firms like SOR correlate most frequently with equity raises or strategic partnership announcements, both of which carry dilution or re-rating implications depending on terms.",
+        "Investors should monitor the resumption announcement closely — the nature of the pending disclosure will be the critical determinant of directional bias, and positioning ahead of the lift carries asymmetric risk given the binary outcome potential of a market-sensitive event."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "L1G",
       "company": "L1 GROUP LIMITED",
