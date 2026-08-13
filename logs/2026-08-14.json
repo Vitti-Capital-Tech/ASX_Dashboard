@@ -1,9 +1,85 @@
 {
   "date": "2026-08-14",
-  "total": 51,
-  "market_sensitive_count": 43,
-  "generated_at": "2026-08-13T23:37:18.288556+00:00",
+  "total": 55,
+  "market_sensitive_count": 47,
+  "generated_at": "2026-08-13T23:56:19.127899+00:00",
   "announcements": [
+    {
+      "ticker": "RYD",
+      "company": "RYDER CAPITAL LIMITED",
+      "headline": "Ryder Capital FY2026 - Results Announcement",
+      "time": "2026-08-13T23:53:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121129-2A1689484",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Ryder Capital's FY2026 results announcement is market-sensitive, signalling material performance outcomes for this listed investment company (LIC) — investors should scrutinise NTA (Net Tangible Asset) movement and portfolio returns relative to benchmark as the primary valuation driver for LIC re-rating potential.",
+        "As a LIC, key metrics to watch include pre-tax and post-tax NTA per share versus prior period, realised/unrealised gains across the small-cap focused portfolio, and any change in the discount/premium to NTA — which directly determines whether the stock is attractively priced for institutional accumulation or exit.",
+        "Outlook focus should centre on management's commentary around small-cap market conditions, portfolio positioning into FY2027, and any dividend declaration — Ryder Capital's ability to sustain or grow distributions from investment income will be a critical signal for income-oriented LIC investors assessing ongoing capital allocation."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CLU",
+      "company": "CLUEY LTD",
+      "headline": "Minimum Holding Buy-Back of Unmarketable Parcels",
+      "time": "2026-08-13T23:52:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121125-2A1689481",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cluey is executing an unmarketable parcel buy-back to eliminate shareholders holding below the minimum marketable parcel threshold (~$500 in value), a capital management exercise that reduces administrative overhead and shareholder registry costs — a meaningful efficiency gain for a small-cap edtech operator watching its cost base closely.",
+        "The buy-back is funded from existing cash reserves, so investors should monitor the quantum of shares being repurchased relative to Cluey's cash position and burn rate; while typically modest in scale, any material cash outflow warrants scrutiny given the company's history of operating losses and need to preserve runway.",
+        "Post buy-back, the reduced shareholder count and cleaner registry may marginally improve per-share metrics and signal a degree of balance sheet tidiness ahead of potential strategic activity or capital initiatives — though this remains a procedural action with limited near-term catalytic impact on the core tutoring business."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RYD",
+      "company": "RYDER CAPITAL LIMITED",
+      "headline": "Appendix 4E and FY2026 Annual Report",
+      "time": "2026-08-13T23:49:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121120-2A1689483",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Ryder Capital's FY2026 Annual Report (Appendix 4E) is market sensitive, signalling material performance outcomes for this listed investment company — investors should scrutinise NTA per share movement and total portfolio return relative to benchmark as the primary valuation drivers.",
+        "As a LIC, key metrics to watch include pre-tax and post-tax NTA performance, dividend coverage from investment income, and any unrealised gains/losses in the underlying portfolio that could indicate NAV accretion or erosion versus the prior year.",
+        "The FY2026 result will set the tone for dividend sustainability and potential share buyback activity — if NTA growth has outpaced the share price, the discount-to-NTA dynamic could attract value-oriented institutional interest or trigger capital management initiatives."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEG",
+      "company": "SPORTS ENTERTAINMENT GROUP LIMITED",
+      "headline": "SEG Placement Oversubscribed",
+      "time": "2026-08-13T23:49:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121121-3A698809",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Oversubscribed placement signals strong institutional appetite for SEG's equity story, suggesting the raise was priced attractively and/or that investors hold conviction in the company's near-term growth trajectory — a meaningful vote of confidence for a small-cap media/entertainment operator.",
+        "The successful capital raise strengthens SEG's balance sheet and extends cash runway, reducing near-term refinancing risk and providing dry powder for potential content acquisitions, licensing deals, or operational expansion across its radio and digital media assets.",
+        "With the placement now closed and oversubscribed, attention shifts to deployment of proceeds — investors will scrutinise management's capital allocation discipline and whether the raise is accretive to earnings per share, given the dilutive nature of new equity issuance."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AGI",
       "company": "AINSWORTH GAME TECHNOLOGY LIMITED",
