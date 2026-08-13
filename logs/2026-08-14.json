@@ -1,9 +1,199 @@
 {
   "date": "2026-08-14",
-  "total": 35,
-  "market_sensitive_count": 27,
-  "generated_at": "2026-08-13T23:05:56.496554+00:00",
+  "total": 45,
+  "market_sensitive_count": 37,
+  "generated_at": "2026-08-13T23:19:46.684754+00:00",
   "announcements": [
+    {
+      "ticker": "SKG",
+      "company": "STORAGE KING GROUP",
+      "headline": "FY26 Investor Presentation",
+      "time": "2026-08-13T23:16:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121085-2A1689458",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material new information likely to move the stock — investors should treat this FY26 investor presentation as a potential catalyst, with guidance updates, strategic pivots, or capital allocation decisions the most probable high-impact disclosures.",
+        "Storage King operates in the resilient self-storage sector, which has demonstrated defensive demand characteristics; any FY26 earnings guidance, occupancy rate trends, or same-store revenue growth metrics disclosed will be critical benchmarks against sector peers such as National Storage REIT (NSR).",
+        "Key watch items include expansion pipeline updates, debt facility headroom, and whether management signals acquisition activity or development capex — given current elevated construction costs and interest rate sensitivity, capital discipline messaging will heavily influence institutional sentiment."
+      ],
+      "tags": [
+        "Property",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ING",
+      "company": "INGHAMS GROUP LIMITED",
+      "headline": "Response to Price Query",
+      "time": "2026-08-13T23:15:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121084-2A1689457",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Inghams has been formally queried by ASX over an unusual share price movement, triggering a mandatory response obligation — the market-sensitive classification signals the company's reply may contain material information not yet fully priced in by the market.",
+        "The price query mechanism typically precedes disclosure of undisclosed negotiations, earnings guidance updates, or corporate activity; investors should scrutinise the response carefully for any forward-looking earnings commentary or M&A signals given Inghams' position as Australia's largest integrated poultry producer.",
+        "Until the full content of the response is disclosed, the key risk is asymmetric — if the query reveals a positive catalyst (e.g. earnings upgrade, strategic deal) the stock could re-rate sharply, while a 'nothing to disclose' response may see the recent price move partially unwind as speculative positioning unwinds."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MHM",
+      "company": "MOUNT HOPE MINING LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-13T23:15:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121083-6A1338553",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Mount Hope Mining (ASX: MHM) has entered a trading halt pending a market-sensitive announcement, suspending price discovery and liquidity for investors — the nature of the catalyst remains undisclosed, creating binary risk for holders.",
+        "Trading halts flagged as 'market sensitive' on small-cap miners most commonly precede capital raises, M&A activity, or material resource/exploration updates — each carrying materially different valuation implications that institutional investors must monitor closely.",
+        "The halt duration will be governed by ASX Listing Rules (typically up to 2 trading days), after which MHM must release the pending announcement — investors should watch for deal terms, dilution risk, or resource upgrade details to determine directional positioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKG",
+      "company": "STORAGE KING GROUP",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-13T23:13:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121080-2A1689456",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results carry market-sensitive classification, signalling material financial outcomes that could meaningfully re-rate Storage King Group's valuation — investors should watch for revenue per available square metre (RevPAM) trends and occupancy rates as key self-storage performance indicators.",
+        "As a self-storage operator, the critical metrics to assess will be same-store NOI growth, portfolio occupancy trajectory, and any movement in development pipeline or asset valuations, which directly drive funds from operations (FFO) and distribution capacity.",
+        "Forward guidance on new store openings, lease-up timelines, and any commentary on the competitive self-storage landscape in Australia will be pivotal for institutional positioning, particularly given rising construction costs and shifting consumer demand dynamics post-rate cycle peak."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OVT",
+      "company": "OVANTI LIMITED",
+      "headline": "Non-Renounceable Entitlement Offer",
+      "time": "2026-08-13T23:11:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121079-2A1689454",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Non-renounceable structure removes shareholder optionality — existing holders who cannot or do not participate face mandatory dilution with no ability to sell their entitlements, a structurally disadvantageous mechanism typically signalling urgency around liquidity needs.",
+        "The market-sensitive classification suggests the raise is material relative to Ovanti's existing capital base, raising questions about the adequacy of current cash reserves and whether the proceeds are sufficient to extend runway beyond near-term operational obligations.",
+        "Investors should scrutinise the offer price discount to last traded price, the intended use of proceeds, and whether any cornerstone or underwriting commitments exist — the absence of these would amplify execution risk and potential for further capital actions."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BRE",
+      "company": "BRAZILIAN RARE EARTHS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-13T23:08:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121077-6A1338549",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Brazilian Rare Earths (BRE) has entered a trading halt, suspending price discovery and liquidity for investors — the market-sensitive classification signals a material corporate development is imminent, likely a capital raise, M&A transaction, or significant resource/project update.",
+        "As a rare earths explorer with strategic assets in Brazil, any announcement could carry outsized valuation implications given the current geopolitical premium on ex-China critical minerals supply chains and growing institutional appetite for rare earth exposure.",
+        "Investors should monitor the nature of the pending announcement closely — if capital raise-related, dilution risk is the key concern; if resource upgrade or strategic partnership-driven, a re-rating event to the upside is plausible upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JLL",
+      "company": "JINDALEE LITHIUM LIMITED",
+      "headline": "Major Drilling Program Expected at McDermitt in Sep 2026",
+      "time": "2026-08-13T23:07:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121076-6A1338550",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Jindalee has flagged a major drilling program at its McDermitt lithium project (Nevada, USA) commencing September 2026, signalling the project is advancing toward resource definition — a critical de-risking milestone that underpins future valuation re-rating potential for this large-scale sedimentary lithium asset.",
+        "The September 2026 timeline provides a defined near-term catalyst for institutional investors to monitor, though the ~12-month lead time introduces execution and lithium price risk; the market will scrutinise the scale, budget, and whether a JV partner or farm-in arrangement is in place to fund the program given Jindalee's junior explorer balance sheet constraints.",
+        "McDermitt sits within one of the largest known lithium deposits in North America, and a substantive drill program could materially upgrade the resource base and attract strategic interest from battery manufacturers or major miners seeking US-domiciled lithium supply chains — particularly relevant under ongoing IRA (Inflation Reduction Act) incentive frameworks."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKG",
+      "company": "STORAGE KING GROUP",
+      "headline": "FY26 Annual Report and Appendix 4E",
+      "time": "2026-08-13T23:07:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121075-2A1689450",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "FY26 Annual Report filing signals Storage King Group has completed its full-year reporting obligations — institutional investors should scrutinise occupancy rates, revenue per available square metre, and same-store NOI growth as the key performance drivers in Australia's competitive self-storage sector.",
+        "As a market-sensitive disclosure, the Appendix 4E will contain preliminary unaudited financials including revenue, EBIT, and distributions — any deviation from prior guidance or peer benchmarks (e.g. National Storage REIT) on yield compression or cap rate movements will be the critical valuation swing factor.",
+        "Near-term focus will centre on portfolio expansion pipeline, debt facility headroom, and whether management reaffirms distribution guidance amid rising construction costs and softening consumer discretionary spending that could pressure storage demand in FY27."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KCC",
+      "company": "KINCORA COPPER LIMITED",
+      "headline": "Kincora Copper 2026 Q2 Financials Package",
+      "time": "2026-08-13T23:07:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121074-6A1338546",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Q2 FY2026 financials package is flagged as market sensitive, signalling material information that could meaningfully move the stock — investors should scrutinise cash position and burn rate closely given Kincora's pre-revenue exploration stage and reliance on equity markets for funding.",
+        "As a copper explorer with no production revenue, the critical metric will be cash runway — any reduction in working capital below 6–8 months of operating expenditure would raise near-term capital raise risk, potentially dilutive to existing shareholders.",
+        "Kincora's strategic focus on Tier-1 copper assets (Mongolia/North America) means the quarterly update may also contain exploration progress milestones or JV/partnership developments that could re-rate the stock independently of pure financial metrics — watch for any resource update or farm-in commentary."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MM8",
+      "company": "MEDALLION METALS LIMITED.",
+      "headline": "Drilling Extends Lounge Lizard Gold Mineralisation",
+      "time": "2026-08-13T23:06:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121072-6A1338548",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling has extended gold mineralisation at the Lounge Lizard prospect, a market-sensitive development that signals resource growth potential at Medallion's flagship Ravensthorpe Gold Project in WA — a key re-rating catalyst for this early-stage explorer.",
+        "Intercept results will be critical to assess grade continuity and strike extension; any high-grade hits (>2g/t Au over meaningful widths) would materially strengthen the case for a maiden or upgraded resource estimate, directly impacting project economics and attractiveness to potential acquirers or JV partners.",
+        "Near-term focus shifts to follow-up drilling programs and potential resource update timelines — investors should monitor whether the company has sufficient cash runway to sustain the drill-out, given that junior explorers at this stage typically face funding pressure if results require accelerated infill campaigns."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "MAM",
       "company": "MICROEQUITIES ASSET MANAGEMENT GROUP LIMITED",
