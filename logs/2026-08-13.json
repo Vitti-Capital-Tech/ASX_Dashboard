@@ -1,9 +1,123 @@
 {
   "date": "2026-08-13",
-  "total": 108,
-  "market_sensitive_count": 98,
-  "generated_at": "2026-08-13T01:45:59.599062+00:00",
+  "total": 114,
+  "market_sensitive_count": 103,
+  "generated_at": "2026-08-13T03:04:53.066123+00:00",
   "announcements": [
+    {
+      "ticker": "PWN",
+      "company": "PARKWAY CORPORATE LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-08-13T02:19:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120838-6A1338452",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has dropped below the 5% ownership threshold in Parkway Corporate Limited (PWN), signalling a meaningful reduction in concentrated institutional or sophisticated investor exposure to the stock.",
+        "The cessation of substantial holder status typically implies a disposal of shares in the open market, which may have contributed to recent selling pressure — investors should monitor the volume-weighted average price around the relevant disclosure date to assess market impact.",
+        "With a key holder exiting, the shareholder register becomes less concentrated, potentially reducing the risk of large block sales but also removing a potential strategic or activist catalyst; near-term price discovery will depend on whether replacement demand from other investors emerges."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACS",
+      "company": "ACCENT RESOURCES NL",
+      "headline": "Trading Halt",
+      "time": "2026-08-13T02:03:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120828-6A1338451",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Accent Resources NL (AX8) has entered a trading halt pending a market-sensitive announcement, suspending price discovery and liquidity for shareholders until further notice — the market-sensitive classification signals material information is imminent.",
+        "Trading halts of this nature on small-cap ASX explorers most commonly precede capital raises, M&A activity, or significant resource/exploration updates; institutional investors should monitor closely for dilution risk or re-rating catalysts depending on the nature of the pending disclosure.",
+        "Next steps hinge entirely on the substance of the forthcoming announcement — if capital raise-related, terms and pricing will be critical; if operational or strategic (e.g. JV, acquisition, or drill results), the market response could be sharp given thin liquidity typical of this market cap tier."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BFG",
+      "company": "BELL FINANCIAL GROUP LIMITED",
+      "headline": "BFG 1H26 Results Presentation",
+      "time": "2026-08-13T01:56:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120823-3A698763",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Bell Financial Group's 1H26 results presentation is market-sensitive, signalling material earnings content that warrants immediate institutional attention — likely reflecting the impact of elevated market volatility and trading volumes on broking revenue, which typically drives outsized upside for full-service brokers in active market conditions.",
+        "BFG's revenue mix — heavily weighted toward equities broking, wealth management, and technology platform fees — means any uplift in ASX turnover during the half would flow directly to top-line growth; investors should scrutinise net interest income on client cash balances and margin lending books given the higher-for-longer rate environment that has been a tailwind for the sector.",
+        "Key forward indicators to watch include client funds under administration growth, cost-to-income ratio trajectory, and any guidance on the Bell Potter technology platform (Third Party Platform) — sustained FUA growth and platform fee scalability remain the primary re-rating catalysts for BFG beyond cyclical broking revenues."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BFG",
+      "company": "BELL FINANCIAL GROUP LIMITED",
+      "headline": "BFG announces 1H26 NPAT of $21.7m, up 133%",
+      "time": "2026-08-13T01:53:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120822-3A698762",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bell Financial Group's 1H26 NPAT of $21.7m represents a 133% year-on-year surge, signalling a dramatic earnings inflection likely driven by elevated retail and institutional trading volumes on the ASX amid heightened market volatility — a high-quality, operationally leveraged result for a capital-light broking business.",
+        "The magnitude of the earnings beat underscores BFG's operating leverage: with a largely fixed cost base, incremental revenue from brokerage commissions and advisory fees flows disproportionately to the bottom line, suggesting margins have expanded materially and consensus estimates will require significant upward revision.",
+        "Investors will now focus on whether elevated trading activity is structural or cyclical — management's commentary on client flows, funds under administration trajectory, and the technology platform division's contribution will be critical in determining whether this earnings step-change can be sustained into 2H26."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BFG",
+      "company": "BELL FINANCIAL GROUP LIMITED",
+      "headline": "BFG Appendix 4D and 1H26 Interim Report",
+      "time": "2026-08-13T01:48:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120820-3A698760",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bell Financial Group's 1H26 interim results carry market-sensitive classification, signalling material earnings movement that institutional investors should scrutinise closely against consensus — any beat on NPAT or revenue in the current elevated equity trading volume environment could re-rate the stock meaningfully.",
+        "As a full-service broking and wealth management firm, BFG's half-year performance is a direct read on ASX retail and institutional trading activity, advisory fee income, and margin lending balances — key metrics to watch include net revenue margin, funds under advice growth, and cost-to-income ratio trends versus 1H25.",
+        "With the broader ASX experiencing heightened volatility and trading volumes in early 2025, BFG is well-positioned to benefit from increased brokerage turnover; the interim dividend declaration (if maintained or lifted) will be a critical signal of management's confidence in the earnings trajectory for 2H26."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Dividend"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MCP",
+      "company": "MCPHERSON'S LIMITED",
+      "headline": "ASIC Proceedings",
+      "time": "2026-08-13T01:46:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120819-2A1689333",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASIC has initiated formal proceedings against McPherson's Limited, elevating regulatory risk significantly — this is not a routine compliance matter and signals the regulator has formed a prima facie case warranting court or tribunal action, which could result in material penalties, enforceable undertakings, or reputational damage.",
+        "The market-sensitive classification indicates potential financial exposure that could be material to McPherson's balance sheet; with the company already operating in a competitive health, beauty and wellness consumer goods space with thin margins, any fines, legal costs, or operational restrictions could disproportionately impact earnings and cash flow.",
+        "Investors should monitor the specific nature of ASIC's allegations — whether related to continuous disclosure, financial reporting, director conduct, or market misconduct — as the scope will determine liability quantum and management distraction risk; resolution timelines for ASIC proceedings typically extend 12–24+ months, creating prolonged overhang on the stock."
+      ],
+      "tags": [
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "ACS",
       "company": "ACCENT RESOURCES NL",
