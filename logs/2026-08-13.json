@@ -1,9 +1,86 @@
 {
   "date": "2026-08-13",
-  "total": 101,
-  "market_sensitive_count": 93,
-  "generated_at": "2026-08-12T23:56:39.768457+00:00",
+  "total": 105,
+  "market_sensitive_count": 96,
+  "generated_at": "2026-08-13T00:24:09.099008+00:00",
   "announcements": [
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Acquisition of Mandurah Coastal Holiday Park",
+      "time": "2026-08-13T00:21:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120795-2A1689316",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Eureka Group expands its affordable accommodation portfolio into Western Australia's coastal tourism market with the Mandurah acquisition, diversifying beyond its core seniors rental housing model and opening exposure to a higher-yield holiday park segment with strong occupancy dynamics.",
+        "The deal is market-sensitive, signalling material financial consideration — investors should scrutinise the acquisition price relative to EBITDA multiples, funding structure (debt vs. equity), and whether the asset is immediately earnings-accretive or requires capital expenditure to reposition.",
+        "Strategic fit warrants close attention: Mandurah's coastal holiday park profile differs from Eureka's established seniors living communities, raising questions about management bandwidth, integration complexity, and whether this marks a deliberate pivot toward a broader affordable accommodation platform or a one-off opportunistic purchase."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STG",
+      "company": "STRAKER LIMITED",
+      "headline": "Market Update regarding US bank account transaction anomalie",
+      "time": "2026-08-13T00:18:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120794-2A1689312",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Straker has identified transaction anomalies in its US bank account, a market-sensitive disclosure that raises immediate red flags around internal controls, potential fraud exposure, or unauthorised fund movements — the nature and quantum of the irregularity will be critical to assessing financial damage.",
+        "Until the full scope of the anomaly is quantified, cash position and working capital integrity are in question; for a small-cap SaaS/translation business already navigating a challenging revenue environment, any material cash leakage could meaningfully compress its runway and force unplanned capital action.",
+        "Management's next steps — including engagement of forensic accountants, notification of insurers, and potential law enforcement involvement — will be closely watched; failure to swiftly contain and quantify the issue risks prolonged uncertainty, regulatory scrutiny, and sustained selling pressure on the stock."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TAT",
+      "company": "TARTANA MINERALS LIMITED",
+      "headline": "Notice of Initial Substantial Holder",
+      "time": "2026-08-13T00:04:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120786-2A1689314",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Tartana Minerals, crossing the 5% disclosure threshold — signalling meaningful accumulation by an investor with sufficient conviction to trigger regulatory reporting obligations under the Corporations Act.",
+        "The identity, associated entity structure, and exact stake size of the substantial holder will be critical to assess — strategic investors or resource-focused funds taking initial positions in junior miners can often precede corporate activity, capital raises, or project development catalysts.",
+        "Investors should monitor for any follow-on filings indicating further stake-building or a change of substantial holder notice, as continued accumulation in a small-cap minerals company can compress available free float and amplify price volatility around upcoming newsflow."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EMA",
+      "company": "EMINENCE MINERALS LIMITED",
+      "headline": "Eminence Expands Campo Grande Drilling Program",
+      "time": "2026-08-13T00:00:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120782-6A1338443",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Program expansion signals early-stage drilling success or high-confidence geological targeting at Campo Grande — a market-sensitive designation implies material new information that could re-rate the asset, warranting close attention to hole intercepts and strike extensions disclosed in the announcement.",
+        "Expanding a drilling program mid-campaign typically indicates encouraging results from initial holes, suggesting mineralisation continuity or higher-than-expected grades; investors should scrutinise whether the expansion is funded from existing cash reserves or requires additional capital, as small-cap explorers often face dilution risk at this stage.",
+        "The next catalyst is assay results from the expanded program — timeline to results, depth and number of additional holes, and any resource estimate upgrade pathway will be critical determinants of sustained share price momentum; watch for a follow-up resource update or maiden JORC estimate if drilling confirms a significant discovery."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CEH",
       "company": "COAST ENTERTAINMENT HOLDINGS LIMITED",
