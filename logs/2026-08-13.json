@@ -1,9 +1,66 @@
 {
   "date": "2026-08-13",
-  "total": 105,
-  "market_sensitive_count": 96,
-  "generated_at": "2026-08-13T00:24:09.099008+00:00",
+  "total": 108,
+  "market_sensitive_count": 98,
+  "generated_at": "2026-08-13T01:45:59.599062+00:00",
   "announcements": [
+    {
+      "ticker": "ACS",
+      "company": "ACCENT RESOURCES NL",
+      "headline": "Pause in Trading",
+      "time": "2026-08-13T01:21:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120816-6A1338449",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Accent Resources NL has entered a trading pause, flagged as market sensitive — this signals a material corporate development is imminent, likely requiring a halt to prevent uninformed trading ahead of a significant announcement.",
+        "Trading halts of this nature on small-cap ASX miners typically precede capital raises, M&A activity, or material resource/exploration updates; institutional investors should monitor closely for the follow-on announcement which must typically be released within two ASX business days.",
+        "Until the substantive announcement is released, the stock is effectively in a price discovery vacuum — positioning ahead of resumption carries binary risk, with outcome dependent entirely on the nature of the pending disclosure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADX",
+      "company": "ADX ENERGY LTD",
+      "headline": "HOCH-1 Resumption of Production Testing",
+      "time": "2026-08-13T00:50:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120802-6A1338446",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Resumption of production testing at HOCH-1 signals the well has overcome prior operational setbacks, a critical inflection point for ADX Energy as it seeks to validate commercial flow rates from the Austrian Höflein concession and de-risk the asset for potential monetisation or farm-out.",
+        "Market-sensitive classification underscores that upcoming flow rate and pressure data from HOCH-1 will be material to valuation — sustained hydrocarbon production above threshold rates could meaningfully re-rate ADX's small-cap market capitalisation given the company's limited producing asset base.",
+        "Near-term catalysts hinge on test results: successful stabilised flow rates would accelerate the pathway to first revenue from HOCH-1, improving ADX's cash runway outlook and reducing reliance on equity markets, while a disappointing result risks renewed funding pressure and asset write-down risk."
+      ],
+      "tags": [
+        "Production",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ARC",
+      "company": "ARC FUNDS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-13T00:40:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03120801-2A1689321",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in ARC Funds Limited's register, indicating a holder has crossed (or moved through) a 5% ownership threshold — warranting close monitoring for potential accumulation or distribution trends by institutional players.",
+        "The administrative nature of this filing means no immediate financial metrics are disclosed, but the directional movement of the substantial holder's position (increasing vs. decreasing) is the critical data point — investors should review the Form 604 detail to determine whether this reflects buying conviction or strategic exit.",
+        "Substantial holding movements in smaller ASX-listed funds can have outsized liquidity implications given typically thin trading volumes; a reduction in a major holder's stake could signal forthcoming selling pressure, while an increase may indicate undisclosed strategic interest or value recognition."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EGH",
       "company": "EUREKA GROUP HOLDINGS LIMITED",
