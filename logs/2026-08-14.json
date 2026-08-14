@@ -1,9 +1,64 @@
 {
   "date": "2026-08-14",
-  "total": 60,
-  "market_sensitive_count": 50,
-  "generated_at": "2026-08-14T01:46:02.594797+00:00",
+  "total": 63,
+  "market_sensitive_count": 51,
+  "generated_at": "2026-08-14T03:03:55.126232+00:00",
   "announcements": [
+    {
+      "ticker": "LFT",
+      "company": "LI-FT POWER LTD.",
+      "headline": "Management's Discussion and Analysis Report",
+      "time": "2026-08-14T02:58:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121194-6A1338584",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "LI-FT Power's MD&A filing signals a critical cash runway checkpoint — institutional investors should scrutinise burn rate against exploration expenditure commitments at its Yellowknife Lithium Project in NWT Canada, where aggressive drilling programs can rapidly accelerate cash depletion in pre-revenue junior explorers.",
+        "The market-sensitive designation elevates the significance of this disclosure, suggesting material updates on resource estimates, drilling results, or financial position that could meaningfully re-rate the stock — key metrics to watch include any updated lithium pegmatite intercepts, JORC resource progression, and working capital position relative to planned 2024-2025 field seasons.",
+        "Next catalysts hinge on whether the MD&A reveals a capital raise requirement or strategic partnership to fund the path toward a maiden resource estimate — any indication of funding shortfall or dilutive equity issuance would be a near-term headwind, while confirmation of a well-funded treasury and advancing resource definition would support a re-rating in a recovering critical minerals sentiment environment."
+      ],
+      "tags": [
+        "Mining",
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MNV",
+      "company": "MONVIA LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-14T02:56:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121193-6A1338586",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Monvia Limited, crossing the 5% ownership threshold — a structural shift in the register that warrants monitoring for potential activist or strategic intent.",
+        "The identity and nature of the incoming substantial holder is critical context: institutional accumulation at current levels may signal perceived undervaluation or anticipation of a near-term corporate catalyst, while a related-party or insider crossing the threshold carries different implications for free float and liquidity.",
+        "Investors should track subsequent Form 604 notices for any further accumulation above 5%, as a creep toward 10–15% ownership could foreshadow a merger, acquisition approach, or board-level influence campaign — particularly relevant given Monvia's current market positioning."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MNV",
+      "company": "MONVIA LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-14T02:55:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121192-6A1338585",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Monvia Limited, crossing the 5% ownership threshold — a structural shift in the register that warrants monitoring for potential strategic intent or accumulation ahead of a corporate event.",
+        "The identity and nature of the incoming substantial holder is critical context: institutional accumulation at current price levels may signal perceived undervaluation or positioning ahead of a catalyst, while the size and speed of the stake build will indicate conviction level.",
+        "Investors should watch for any follow-on Form 604 notices indicating further accumulation, as sustained buying pressure from a substantial holder can tighten free float and act as a technical support factor for the share price near-term."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ARC",
       "company": "ARC FUNDS LIMITED",
