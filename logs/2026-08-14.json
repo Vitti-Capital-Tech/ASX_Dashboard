@@ -1,9 +1,66 @@
 {
   "date": "2026-08-14",
-  "total": 68,
-  "market_sensitive_count": 55,
-  "generated_at": "2026-08-14T03:52:17.849973+00:00",
+  "total": 71,
+  "market_sensitive_count": 58,
+  "generated_at": "2026-08-14T04:46:14.976633+00:00",
   "announcements": [
+    {
+      "ticker": "MQR",
+      "company": "MARQUEE RESOURCES LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-08-14T04:39:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121233-6A1338603",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Marquee Resources has entered a trading pause (distinct from a formal trading halt), suggesting imminent material disclosure — likely a capital raise, M&A activity, or significant asset update requiring price-sensitive information to be prepared and released in an orderly manner.",
+        "The market-sensitive classification signals the pending announcement carries meaningful valuation implications; institutional investors should monitor closely for deal structure, dilution risk, or resource/project catalysts that could materially reprice the stock on resumption.",
+        "Next steps hinge entirely on the nature of the forthcoming announcement — if capital raise-related, focus on pricing discount and use of funds; if M&A or asset-driven, assess strategic fit and consideration terms before re-establishing positions post-resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JEP",
+      "company": "JPMORGAN EQTY PREMIUM INCOME (HEDGED) COMPLEX ETF",
+      "headline": "Distribution Notice",
+      "time": "2026-08-14T03:52:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121213-2A1689535",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "JPMorgan Equity Premium Income (Hedged) ETF has declared a distribution, confirming the fund's income-generation mechanism is functioning as designed — critical for yield-focused institutional investors who rely on consistent monthly cash flows from the covered-call overlay strategy.",
+        "The market-sensitive classification signals the distribution quantum or timing may carry material implications for unit pricing; investors should monitor the ex-distribution date closely as NAV will adjust downward by the distribution amount, creating a potential short-term entry opportunity post-adjustment.",
+        "As a hedged complex ETF employing options-based premium income strategies, the distribution level serves as a proxy indicator of prevailing implied volatility conditions in US equity markets — elevated distributions may signal heightened volatility, while compressed payouts reflect calmer market conditions, informing broader portfolio positioning decisions."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMD",
+      "company": "ARROW MINERALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-08-14T03:49:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121208-6A1338591",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Arrow Minerals has entered a trading halt pending a material announcement, suspending price discovery and liquidity for investors — the market-sensitive classification signals a potentially significant corporate development is imminent.",
+        "Trading halts of this nature for junior ASX-listed miners (Arrow operates iron ore and base metals projects in West Africa) most commonly precede capital raises, M&A activity, or major resource/exploration updates — each carrying materially different valuation implications.",
+        "Institutional investors should monitor the forthcoming announcement closely; if capital raise-related, dilution risk is a key concern given the company's typical junior explorer cash profile, while an M&A or JV outcome could represent a re-rating catalyst."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GLL",
       "company": "GALILEE ENERGY LIMITED",
