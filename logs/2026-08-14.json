@@ -1,9 +1,104 @@
 {
   "date": "2026-08-14",
-  "total": 55,
-  "market_sensitive_count": 47,
-  "generated_at": "2026-08-13T23:56:19.127899+00:00",
+  "total": 60,
+  "market_sensitive_count": 50,
+  "generated_at": "2026-08-14T01:46:02.594797+00:00",
   "announcements": [
+    {
+      "ticker": "ARC",
+      "company": "ARC FUNDS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-14T01:30:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121165-2A1689507",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in ARC Funds Limited's register, indicating a holder has crossed (or moved through) the 5% threshold — warranting close monitoring of the direction of movement (accumulation vs. disposal) to assess emerging control dynamics.",
+        "The nature of the movement — whether an increase or decrease in the substantial holder's position — carries implications for liquidity and potential takeover interest; accumulation by a sophisticated institutional player could signal undervaluation, while a reduction may reflect waning conviction in the investment thesis.",
+        "Investors should track subsequent Form 604/603 filings to determine if this represents the beginning of a strategic stake-building campaign or an orderly exit, as either scenario could materially influence near-term trading volumes and price discovery on the ASX."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QUB",
+      "company": "QUBE HOLDINGS LIMITED",
+      "headline": "Implementation of Scheme",
+      "time": "2026-08-14T01:28:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121164-2A1689504",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Scheme implementation signals the formal completion of a corporate transaction (likely a takeover or merger), meaning Qube shareholders will receive consideration as previously approved — a definitive liquidity event for existing holders with no further execution risk on deal closure.",
+        "Market-sensitive classification indicates material price impact is expected; scheme implementation typically triggers delisting or ownership transfer, removing the stock from active trading and crystallising value for institutional holders at the agreed scheme price.",
+        "Next steps centre on the mechanics of consideration payment and potential ASX suspension/delisting — institutional investors should confirm settlement timelines, tax treatment of proceeds, and whether any compulsory acquisition provisions apply to remaining minority holders."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MC2",
+      "company": "MARIMACA COPPER CORP.",
+      "headline": "Q2 2026 Condensed Interim Consolidated Financial Statements",
+      "time": "2026-08-14T01:07:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121156-6A1338569",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cash runway is the critical watch item — Q2 interim financials will reveal whether Marimaca's treasury position is sufficient to fund ongoing Marimaca Copper Project development through to a potential construction decision, with any acceleration in cash burn or tightening liquidity likely to trigger near-term capital raise speculation.",
+        "Exploration and development expenditure trends in the period will indicate the pace of advancement toward a Definitive Feasibility Study (DFS), with any material reduction in spend potentially signalling a strategic pause or funding constraint at the Chilean copper project.",
+        "As a pre-revenue development-stage copper company, investors should scrutinise G&A cost discipline, any new debt facilities or equity movements, and management commentary on copper market conditions — particularly given elevated copper prices which could accelerate project financing discussions or attract M&A interest."
+      ],
+      "tags": [
+        "Results",
+        "Mining",
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PMT",
+      "company": "PMET RESOURCES INC.",
+      "headline": "30 June 2026 Quarterly Financial Statements and MD&A",
+      "time": "2026-08-14T01:03:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121153-6A1338566",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Quarterly financial statements for the period ending 30 June 2026 are market-sensitive, signalling material developments in PMET Resources' financial position — investors should scrutinise cash burn rate and working capital closely to assess near-term solvency risk for this exploration-stage entity.",
+        "The MD&A will be critical for understanding whether PMET has sufficient cash runway beyond the next two quarters, given typical junior resource company funding pressures; any disclosure of cash balance below ~A$2M or accelerating expenditure would be a red flag for dilutive capital raises.",
+        "Key forward-looking indicators to watch include progress on exploration programs, any updated resource estimates, and management commentary on financing strategy — these will determine whether the company can advance its asset base without punitive equity dilution in the current market environment."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARC",
+      "company": "ARC FUNDS LIMITED",
+      "headline": "Change in substantial holding from NWL",
+      "time": "2026-08-14T00:39:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121147-2A1689497",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Netwealth Group (NWL) has triggered a substantial holding disclosure for ARC Funds Limited, signalling a meaningful shift in its registered ownership position — either crossing above or below the 5% substantial holder threshold, which warrants close monitoring of directional intent.",
+        "Changes in substantial holdings by institutional or strategic investors like NWL can indicate portfolio rebalancing, a shift in conviction on ARC Funds' underlying strategy, or precursor activity ahead of a more significant corporate event — the precise movement (increase or decrease) is critical to interpreting near-term register dynamics.",
+        "Investors should track whether this represents an accumulation or disposal trend by NWL; sustained selling pressure from a substantial holder typically weighs on liquidity and sentiment for smaller fund vehicles like ARC Funds, while accumulation could signal undisclosed strategic interest."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "RYD",
       "company": "RYDER CAPITAL LIMITED",
