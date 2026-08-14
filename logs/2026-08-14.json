@@ -1,9 +1,106 @@
 {
   "date": "2026-08-14",
-  "total": 63,
-  "market_sensitive_count": 51,
-  "generated_at": "2026-08-14T03:03:55.126232+00:00",
+  "total": 68,
+  "market_sensitive_count": 55,
+  "generated_at": "2026-08-14T03:52:17.849973+00:00",
   "announcements": [
+    {
+      "ticker": "GLL",
+      "company": "GALILEE ENERGY LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-08-14T03:49:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121207-2A1689534",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reinstatement to quotation signals resolution of the underlying compliance or disclosure issue that triggered the trading halt — investors should scrutinise the accompanying disclosure to assess whether the catalyst was material (e.g. capital raise, asset update, or regulatory outcome) before re-entering positions.",
+        "Trading halts on small-cap energy names like Galilee Energy (GLL) — a CSG-focused explorer in Queensland's Galilee Basin — typically precede price-sensitive announcements; the market-sensitive flag suggests the reinstating disclosure carries valuation implications that could drive elevated volatility on resumption.",
+        "Near-term focus should be on volume and price action in the first session post-reinstatement to gauge institutional conviction; any negative surprise (e.g. dilutive raise or project setback) risks amplified selling given GLL's limited liquidity profile and the speculative nature of its Glenaras Gas Project development timeline."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GLL",
+      "company": "GALILEE ENERGY LIMITED",
+      "headline": "Placement Completed to Test Gas-Condensate Targets at Zydeco",
+      "time": "2026-08-14T03:49:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121205-2A1689508",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Galilee Energy has successfully closed a placement to fund drilling at its Zydeco gas-condensate prospect, providing the capital catalyst needed to advance what could be a materially higher-value target than its conventional coal seam gas assets — gas-condensate plays typically command superior economics due to the liquid component uplift.",
+        "The placement introduces dilution risk but signals institutional appetite for the Zydeco exploration thesis; the size and pricing of the raise relative to market cap will be critical in determining whether the capital raise is accretive or destructive to existing holders — details on discount to last traded price warrant close scrutiny.",
+        "Near-term share price performance will be driven by drilling timelines and results at Zydeco — a successful gas-condensate discovery could be a re-rating event for a company historically associated with lower-margin CSG development, making this a high-risk, high-reward binary catalyst for speculative investors."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OBM",
+      "company": "ORA BANDA MINING LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-14T03:28:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121203-6A1338580",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Ora Banda Mining (OBM), indicating that a major institutional or strategic investor has crossed a 5% threshold or materially adjusted their position — warranting close monitoring of the direction (accumulation vs. disposal) to gauge smart-money conviction in the stock.",
+        "The nature of the movement — whether an increase or decrease in the substantial holder's stake — carries direct read-through to near-term liquidity and price support; accumulation by a credible institution would reinforce confidence in OBM's Davyhurst gold operations and ongoing production ramp-up, while a reduction could signal profit-taking or a strategic exit.",
+        "Investors should cross-reference the filing against OBM's recent operational milestones, including production guidance and any capital structure changes, to assess whether this register shift reflects a long-term strategic position or short-term portfolio rebalancing — the identity and track record of the substantial holder will be the key determinant of market interpretation."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAK",
+      "company": "WA KAOLIN LIMITED",
+      "headline": "Appointment of Receivers and Managers",
+      "time": "2026-08-14T03:24:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121199-6A1338588",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Appointment of Receivers and Managers signals a critical loss of control for WA Kaolin's board and management — secured creditors have effectively seized operational authority, indicating the company has likely breached debt covenants or failed to meet financial obligations, rendering equity holders subordinate in any recovery scenario.",
+        "This event typically crystallises a near-total impairment of shareholder value; in receivership, residual equity recovery is historically minimal unless asset realisations significantly exceed secured debt obligations — WA Kaolin's kaolin project assets and any cash reserves will now be marshalled for creditor repayment first.",
+        "Institutional investors should expect an imminent trading halt or suspension, potential delisting proceedings, and a formal asset sale or wind-down process — any equity position should be treated as highly speculative with material risk of permanent capital loss pending the receivers' initial report on asset coverage."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AMD",
+      "company": "ARROW MINERALS LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-08-14T03:22:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121198-6A1338589",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Arrow Minerals has requested a trading halt, suspending price discovery and liquidity for investors — the market-sensitive classification signals a potentially material corporate development is imminent, likely a capital raise, M&A activity, or significant asset update.",
+        "Trading halts on junior ASX miners of this profile are most commonly precursors to equity raisings or binding term sheets; given Arrow's exploration-stage status, a placement to fund drilling or a strategic partnership would be the highest-probability outcomes to monitor.",
+        "Investors should watch for the resumption announcement closely — the terms of any capital raise (pricing relative to last traded price, dilution quantum) or deal structure will be the critical valuation determinant; a deeply discounted placement would be bearish, while a strategic farm-in or JV could be materially re-rating."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "LFT",
       "company": "LI-FT POWER LTD.",
