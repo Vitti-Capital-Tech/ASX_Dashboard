@@ -1,9 +1,29 @@
 {
   "date": "2026-08-17",
-  "total": 130,
-  "market_sensitive_count": 123,
-  "generated_at": "2026-08-16T23:50:27.427406+00:00",
+  "total": 131,
+  "market_sensitive_count": 124,
+  "generated_at": "2026-08-16T23:58:41.342200+00:00",
   "announcements": [
+    {
+      "ticker": "CHM",
+      "company": "CHIMERIC THERAPEUTICS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-16T23:53:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121719-2A1689808",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Chimeric Therapeutics (CHM) has entered a trading halt, suspending price discovery at a critical juncture — historically, halts for small-cap ASX biotechs most commonly precede a capital raise, material clinical update, or strategic transaction announcement.",
+        "With CHM's cash position under ongoing scrutiny given its pre-revenue, clinical-stage status and the capital-intensive nature of its CAR-T cell therapy pipeline, any forthcoming capital raise would likely signal dilution risk and pressure on existing shareholders.",
+        "Investors should monitor the resumption announcement closely — if the halt resolves into a partnering deal or licensing agreement for its CORE NK or CHM 1101 programs, the read-through could be materially positive; a discounted equity placement would be the bearish scenario to watch for."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "HAR",
       "company": "HARANGA RESOURCES LIMITED.",
