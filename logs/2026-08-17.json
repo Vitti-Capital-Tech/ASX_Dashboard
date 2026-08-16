@@ -1,9 +1,599 @@
 {
   "date": "2026-08-17",
-  "total": 35,
-  "market_sensitive_count": 29,
-  "generated_at": "2026-08-16T22:13:35.443969+00:00",
+  "total": 66,
+  "market_sensitive_count": 59,
+  "generated_at": "2026-08-16T22:28:47.353078+00:00",
   "announcements": [
+    {
+      "ticker": "L1G",
+      "company": "L1 GROUP LIMITED",
+      "headline": "L1G Appendix 4E and FY26 Annual Report",
+      "time": "2026-08-16T22:20:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121546-2A1689731",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "L1 Group's FY26 Annual Report carries market-sensitive status, signalling material financial disclosures that could meaningfully re-rate the stock — investors should scrutinise revenue trajectory, EBITDA margins, and any guidance revisions relative to prior-year comparatives in the Appendix 4E.",
+        "The Appendix 4E filing requires preliminary full-year financials including key metrics such as net profit/loss, cash position, and earnings per share — any deviation from market expectations on these headline numbers will be the primary near-term price catalyst.",
+        "With the annual report now lodged, focus shifts to management commentary on FY27 outlook, capital allocation strategy, and whether the balance sheet supports organic growth or necessitates external funding — critical signals for institutional positioning heading into the new financial year."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OML",
+      "company": "OOH!MEDIA LIMITED",
+      "headline": "2026 Half Year Results Media Release",
+      "time": "2026-08-16T22:19:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121543-2A1689733",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Half-year results carry market-sensitive designation, signalling material variance from prior expectations — investors should watch closely for revenue trajectory and EBITDA margin performance against consensus, as out-of-home advertising remains cyclically sensitive to broader ad-market conditions and digital inventory mix shifts.",
+        "Key metrics to scrutinise include digital OOH revenue as a proportion of total revenue (a structural growth driver), audience measurement uplift from MOVE 2.0 adoption, and any commentary on programmatic yield — these factors directly underpin OML's premium valuation multiple relative to traditional media peers.",
+        "Forward guidance and contract renewal pipeline will be critical catalysts; any reaffirmation or upgrade to FY2026 full-year targets — particularly around cost discipline post-integration of acquired assets — would provide a meaningful re-rating trigger, while a softer outlook amid macro advertising spend headwinds could pressure the stock near-term."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GSN",
+      "company": "GREAT SOUTHERN MINING LIMITED",
+      "headline": "Significant 16m at 3.37 g/t gold intercepted at Mon Ami",
+      "time": "2026-08-16T22:18:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121541-6A1338744",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The 16m at 3.37 g/t gold intercept at Mon Ami represents a meaningful high-grade hit for a junior explorer, confirming mineralisation continuity and supporting the case for a maiden or upgraded resource estimate — a critical de-risking milestone that typically re-rates small-cap gold stocks.",
+        "Grade-thickness product of ~53.9 g/t·m sits comfortably above typical open-pit economic thresholds (~30–40 g/t·m), suggesting this intercept could contribute meaningfully to any future mine plan and is not simply a peripheral anomaly.",
+        "Near-term catalysts to watch include follow-up drilling results to test strike and depth extensions of this intercept, plus any resource update or scoping-level study — institutional interest will hinge on whether the company can demonstrate a coherent, scalable resource rather than isolated high-grade shoots."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AZJ",
+      "company": "AURIZON HOLDINGS LIMITED",
+      "headline": "Aurizon Secures major Queensland coal haulage contract",
+      "time": "2026-08-16T22:18:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121540-2A1689730",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Contract win provides long-dated revenue visibility in Aurizon's core coal haulage segment, directly underpinning earnings certainty and supporting the investment case for a business where contract tenor is a key valuation driver.",
+        "Queensland coal haulage remains Aurizon's highest-margin freight corridor — securing a major renewal or new contract signals competitive positioning against road and rival rail operators, with volume and take-or-pay provisions likely locking in predictable EBITDA contribution over the contract life.",
+        "With coal haulage volumes under structural scrutiny from ESG-driven capital allocation trends, this contract extension buys Aurizon critical time to execute its Network and bulk freight diversification strategy while sustaining near-term free cash flow to fund dividends and debt servicing."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LLC",
+      "company": "LENDLEASE GROUP",
+      "headline": "LLC 2026 Results Announcement, Presentation and Appendix",
+      "time": "2026-08-16T22:18:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121539-2A1689716",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY2026 results represent a critical inflection point for Lendlease as the group executes its strategic reset — investors will scrutinise whether asset monetisation targets and the wind-down of offshore construction exposure have delivered meaningful balance sheet repair and reduced earnings volatility.",
+        "Key metrics to watch include core operating profit, net tangible assets per security, and progress on the $4.5B+ asset disposal program — any shortfall versus guidance or further impairments on development projects would signal the turnaround thesis is behind schedule.",
+        "With CEO Tony Lombardo's restructuring plan centred on a leaner, Australia-focused development and investments model, the outlook commentary on pipeline conversion, funds under management growth, and capital recycling cadence will be decisive for re-rating potential heading into FY2027."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FID",
+      "company": "FIDUCIAN GROUP LIMITED",
+      "headline": "Investor Presentation - FY 26 Results",
+      "time": "2026-08-16T22:17:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121536-2A1689723",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive FY26 results presentation signals a material disclosure event for Fiducian Group — a diversified financial services firm managing ~$3B+ in FUA — with investors watching closely for FUA growth trajectory, margin trends, and any deviation from prior guidance given the volatile equity market backdrop in FY26.",
+        "Key metrics to scrutinise include net revenue growth, NPAT movement, and funds under advice/administration flows, as Fiducian's earnings are highly leveraged to market performance and adviser network expansion — any FUA uplift driven by both market appreciation and net inflows would be a strong positive signal.",
+        "Outlook commentary will be critical: with the wealth management sector facing regulatory cost pressures and competition from larger platforms, any guidance on adviser recruitment, technology investment, or dividend sustainability (Fiducian has historically maintained a progressive dividend policy) will shape near-term re-rating potential."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AZJ",
+      "company": "AURIZON HOLDINGS LIMITED",
+      "headline": "FY2026 Results Presentation",
+      "time": "2026-08-16T22:17:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121535-2A1689724",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY2026 results presentation signals Aurizon has navigated a complex operating environment in bulk and network divisions — institutional focus will centre on whether EBIT margins held within the guided range and if coal haulage volumes recovered from prior weather and customer disruption headwinds.",
+        "Key financial metrics to watch include free cash flow conversion, net debt/EBITDA trajectory relative to the ~2.5–3.0x target range, and the final dividend quantum — any uplift in payout or special distribution would be a material positive catalyst given AZJ's yield-focused investor base.",
+        "Forward guidance on FY2027 volume assumptions across the coal and bulk corridors, combined with any update on the Below Rail regulatory reset and capital allocation priorities (buybacks vs. growth capex), will set the tone for near-term re-rating potential."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LLC",
+      "company": "LENDLEASE GROUP",
+      "headline": "Appendix 4E",
+      "time": "2026-08-16T22:16:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121533-2A1689712",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lendlease's Appendix 4E (preliminary final report) is a market-sensitive filing signalling full-year results are being lodged — investors should brace for headline metrics including statutory profit/loss, core operating earnings, and any impairment charges that have been a recurring concern given the group's ongoing asset divestment and restructuring program.",
+        "Key numbers to watch include progress on the $4.5B+ asset monetisation pipeline, segment EBITDA across Construction, Investments and Development, and net debt position — any shortfall versus guidance or further write-downs on development projects (particularly offshore) would be materially negative for the stock.",
+        "With Lendlease mid-execution on its strategic simplification (exiting offshore construction, refocusing on Australian urban development), the full-year result will be a critical scorecard on management's delivery credibility — a clean result with reaffirmed capital return or distribution guidance would be the key bullish catalyst, while any guidance miss or balance sheet deterioration could accelerate selling pressure."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AZJ",
+      "company": "AURIZON HOLDINGS LIMITED",
+      "headline": "FY2026 Results",
+      "time": "2026-08-16T22:16:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121532-2A1689722",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY2026 results carry market-sensitive designation, signalling material variance from consensus expectations — investors should brace for potential earnings surprise in either direction until full financials are disclosed, with key metrics including EBIT, NPAT, and free cash flow generation across Coal, Bulk, and Network divisions.",
+        "Aurizon's earnings quality will hinge on coal haulage volume trends amid ongoing Queensland thermal coal softness, Network regulated revenue resets, and cost discipline against inflationary pressures — any guidance revision or margin compression in the Coal segment would be the critical negative catalyst to watch.",
+        "Near-term focus will shift to capital allocation signals: dividend payout ratio (historically ~70-100% of NPAT), balance sheet leverage relative to the ~2.5-3.0x ND/EBITDA target, and any update on the East Coast Infrastructure growth pipeline or M&A optionality — these will be the primary re-rating levers for institutional holders."
+      ],
+      "tags": [
+        "Results",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AZJ",
+      "company": "AURIZON HOLDINGS LIMITED",
+      "headline": "Appendix 4E",
+      "time": "2026-08-16T22:15:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121530-2A1689713",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 4E signals Aurizon's full-year preliminary results are being lodged with the ASX — market-sensitive classification indicates material financial outcomes that could shift consensus earnings estimates for Australia's largest rail freight operator.",
+        "Investors should scrutinise key metrics including above-rail revenue across coal and bulk segments, EBITDA margins, and free cash flow generation, given ongoing volume pressures in Queensland coal haulage and the ramp-up of the iron ore West Pilbara corridor.",
+        "Near-term focus will centre on FY25 guidance, dividend sustainability (historically ~70-75% payout ratio), and any commentary on the regulatory reset for the Central Queensland Coal Network — all critical catalysts for re-rating the stock in the current infrastructure investment cycle."
+      ],
+      "tags": [
+        "Results",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUE",
+      "company": "AURUM RESOURCES LIMITED",
+      "headline": "Gold extended at Boundiali BST1 deposit and BST2 prospect",
+      "time": "2026-08-16T22:14:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121528-6A1338743",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drill results extend gold mineralisation at both the BST1 deposit and BST2 prospect at Boundiali, materially expanding the known footprint of the system and supporting resource growth potential — a key de-risking milestone for a junior explorer.",
+        "The extension of two discrete targets simultaneously signals broad mineralised corridor continuity, which typically underpins a larger eventual resource estimate and strengthens the geological case for a maiden or upgraded JORC resource at Boundiali.",
+        "Near-term catalysts include further infill and step-out drilling to define resource boundaries, with investors watching for a formal resource update or scoping study — outcomes that could re-rate the stock if tonnage and grade metrics prove economic."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OML",
+      "company": "OOH!MEDIA LIMITED",
+      "headline": "Appendix 4D and 2026 Half Year Report",
+      "time": "2026-08-16T22:13:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121526-2A1689708",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "OOH!Media's H1 FY2026 half-year report is market sensitive, signalling material financial disclosures that could meaningfully reset consensus estimates — investors should watch closely for revenue trajectory against the out-of-home advertising recovery cycle and any variance to prior guidance.",
+        "Key metrics to scrutinise include digital panel revenue mix, EBITDA margin progression, and net debt position, as OOH's capital-intensive billboard and transit network requires disciplined leverage management — any deterioration in cash conversion or covenant headroom would be a red flag.",
+        "Forward outlook commentary will be critical given the broader advertising market sensitivity to consumer confidence and programmatic OOH adoption; any upgrade or downgrade to FY2026 full-year guidance will likely be the primary near-term share price catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GWA",
+      "company": "GWA GROUP LIMITED.",
+      "headline": "FY2026 Results Presentation",
+      "time": "2026-08-16T22:13:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121523-2A1689707",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive FY2026 results presentation signals a material earnings event for GWA Group — a building products company exposed to Australian residential construction cycles — with institutional focus likely on revenue trajectory and margin recovery amid a subdued housing market backdrop.",
+        "Key metrics to watch include EBIT margin performance, free cash flow conversion, and any update on the core bathroom and kitchen products segment, which remains sensitive to new dwelling commencements and renovation activity — both of which have faced headwinds from elevated interest rates and cost-of-living pressures.",
+        "Forward guidance and capital management commentary (dividend sustainability, balance sheet leverage) will be critical catalysts; any upgrade to FY2027 outlook or confirmation of a resilient dividend would likely drive near-term re-rating, while a cautious tone on housing recovery timing could weigh on the stock."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GWA",
+      "company": "GWA GROUP LIMITED.",
+      "headline": "FY2026 Results Media Release",
+      "time": "2026-08-16T22:13:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121522-2A1689706",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY2026 results carry market-sensitive classification, signalling material variance from consensus expectations — investors should brace for a significant re-rating event in either direction pending full financials disclosure on revenue, EBIT margins, and free cash flow generation across GWA's core bathrooms and kitchens segment.",
+        "Key metrics to scrutinise include gross margin trajectory amid ongoing input cost pressures, any movement in net debt given GWA's history of acquisitive capital allocation, and the sustainability of the dividend payout ratio which has historically been a key yield support for the stock.",
+        "Forward guidance on housing construction activity exposure will be critical — with Australian residential building approvals remaining subdued, management commentary on volume recovery timing, new product pipeline, and any cost-out initiatives will determine whether the market re-rates GWA as a recovery play or a value trap in the near term."
+      ],
+      "tags": [
+        "Results",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GWA",
+      "company": "GWA GROUP LIMITED.",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-16T22:13:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121521-2A1689705",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GWA Group's Preliminary Final Report is market sensitive, signalling material financial outcomes that could meaningfully shift consensus estimates — investors should watch for EBIT margin trajectory given ongoing cost pressures in the building products sector and subdued residential construction activity across Australia.",
+        "Key metrics to scrutinise include revenue performance against FY24 actuals, free cash flow conversion, and net debt position — GWA's ability to maintain its dividend payout ratio (historically ~70-80% of NPAT) will be a critical signal for income-focused institutional holders.",
+        "With the Australian housing cycle showing early signs of recovery driven by rate cut expectations, GWA's forward guidance on order books and any commentary on market share in bathrooms and kitchens will be pivotal in determining whether the stock re-rates toward the upper end of its valuation range."
+      ],
+      "tags": [
+        "Results",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TTT",
+      "company": "TITOMIC LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-16T22:11:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121519-3A698878",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in Titomic's register — investors should monitor whether this reflects accumulation or disposal by a major holder, as either scenario carries implications for near-term liquidity and price stability in this thinly traded micro-cap.",
+        "Titomic operates in advanced metal additive manufacturing (cold spray technology), a capital-intensive sector; any reduction in a substantial holder's position could indicate waning institutional conviction, while accumulation may signal strategic interest ahead of potential defence or aerospace contract catalysts.",
+        "Watch for follow-on filings to determine the direction and magnitude of the holding change — if a key institutional backer is exiting, this could pressure the stock and raise questions around future capital raising capacity given Titomic's historical reliance on equity markets to fund R&D and commercialisation."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JLL",
+      "company": "JINDALEE LITHIUM LIMITED",
+      "headline": "Highly Encouraging Magnesium Testwork Results from McDermitt",
+      "time": "2026-08-16T22:11:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121513-6A1338727",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Jindalee's McDermitt lithium project is demonstrating meaningful by-product potential, with magnesium testwork results described as 'highly encouraging' — a development that could materially improve project economics by generating additional revenue streams and offsetting processing costs, a critical consideration for sedimentary lithium deposits which typically face higher processing complexity.",
+        "Positive magnesium extraction results add a secondary commodity angle to McDermitt, one of North America's largest known lithium deposits by resource size (~21.5Mt LCE), potentially strengthening the project's case for US government support under critical minerals frameworks such as the IRA, where domestic magnesium production is strategically significant given near-total US import dependency.",
+        "Near-term focus will be on integrating magnesium recovery into the broader process flowsheet and advancing towards a Pre-Feasibility Study (PFS); successful by-product commercialisation could be a key de-risking milestone that attracts strategic partners or offtake interest, though investors should note this remains early-stage testwork with no economic study yet completed."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SGC",
+      "company": "SINCLAIR GOLD LTD",
+      "headline": "Sinclair Finalises Earn-Out Agreement for Sala",
+      "time": "2026-08-16T22:10:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121512-6A1338726",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sinclair Gold has finalised an earn-out agreement for the Sala asset, a market-sensitive milestone that crystallises deal structure and removes uncertainty around asset disposition or acquisition terms — critical for investors assessing balance sheet clarity and capital allocation strategy.",
+        "The earn-out mechanism signals the counterparty retains upside exposure tied to future performance metrics (likely production or revenue thresholds), suggesting Sinclair may have accepted a lower upfront consideration in exchange for deferred payments — investors should scrutinise the earn-out triggers, caps, and timeline to assess true deal value versus headline figures.",
+        "Next steps hinge on whether Sala is being divested or acquired under this structure; if divested, proceeds and earn-out milestones will be key to funding Sinclair's core exploration pipeline, while if acquired, the earn-out obligation represents a contingent liability that warrants close monitoring against the company's current cash position and burn rate."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GA8",
+      "company": "GOLDARC RESOURCES LIMITED",
+      "headline": "Final Grade Control Results Return 1m at 59.9 g/t Au",
+      "time": "2026-08-16T22:10:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121511-6A1338725",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Headline intercept of 1m at 59.9 g/t Au is exceptionally high-grade for a grade control result, confirming that the ore body contains bonanza-style shoots that could materially lift recovered gold ounces and mine economics if spatially continuous — critical validation ahead of any mining decision.",
+        "Grade control drilling, by nature, is close-spaced and designed to define ore boundaries with precision, meaning these results carry higher geological confidence than exploration-stage intercepts and directly inform short-term mine scheduling and cut-off grade optimisation.",
+        "As a 'final' grade control result, the company is likely approaching a mining commencement or stope design decision; investors should watch for imminent production updates, resource conversion announcements, or a maiden/updated mine plan that could serve as the next re-rating catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AQX",
+      "company": "ALICE QUEEN LIMITED",
+      "headline": "Drilling Commenced at Horn Island Gold Project",
+      "time": "2026-08-16T22:10:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121510-6A1338724",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drill commencement at Horn Island marks a critical de-risking catalyst for Alice Queen — Horn Island hosts historical high-grade gold intersections and sits within a prospective geological corridor, meaning assay results could materially re-rate the stock if grades confirm resource potential.",
+        "As a market-sensitive disclosure, the announcement signals management confidence that drilling activity alone constitutes price-sensitive information, implying the market has not yet fully priced in exploration upside — watch for near-term speculative interest ahead of first assay results.",
+        "Key near-term milestones to monitor include drill hole completion timelines, metres drilled versus planned program, and initial assay turnaround (typically 4–8 weeks) — any high-grade intercepts above 5g/t Au would likely trigger a significant re-rating and potential follow-on capital raise to expand the program."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NMT",
+      "company": "NEOMETALS LTD",
+      "headline": "Rinaldi Copper Assays and Exploration Update",
+      "time": "2026-08-16T22:10:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121508-6A1338723",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Neometals' Rinaldi copper project has returned assay results that are market sensitive, signalling potentially material mineralisation grades that could meaningfully re-rate the project's exploration value and attract renewed investor attention to the company's diversified asset base beyond its core battery materials strategy.",
+        "The copper exploration update arrives at a strategically opportune moment given elevated copper prices driven by global electrification demand — any high-grade intercepts would carry outsized valuation significance, with the market closely scrutinising width and grade continuity to assess resource potential.",
+        "Next steps will hinge on whether results justify an accelerated drill program or resource estimation work; investors should watch for follow-up announcements on step-out drilling, geophysical surveys, or potential joint venture interest, which would serve as key catalysts for further re-rating of this exploration asset."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WC1",
+      "company": "WEST COBAR METALS LIMITED",
+      "headline": "Drilling Commenced at Blind Freddie Copper Target",
+      "time": "2026-08-16T22:10:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121507-6A1338722",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drill commencement at Blind Freddie marks a binary catalyst event for West Cobar Metals — results will either validate the copper target's geological thesis or reset market expectations, making this a high-stakes inflection point for the stock's near-term trajectory.",
+        "The 'market sensitive' classification signals management believes drill results carry material re-rating potential; copper's structural demand outlook (EV transition, grid infrastructure) amplifies investor attention on any meaningful intercepts at this stage of exploration.",
+        "Investors should monitor for assay results and drill hole depths/widths in forthcoming releases — a discovery hole with economic-grade copper mineralisation (typically >0.5% Cu over meaningful widths) would likely trigger a sharp re-rating for this early-stage explorer, while a miss risks significant de-rating given current speculative premium."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FID",
+      "company": "FIDUCIAN GROUP LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-16T22:10:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121506-2A1689715",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Fiducian's Preliminary Final Report signals full-year earnings crystallisation — investors should scrutinise funds under management (FUM) trajectory and net revenue margins, as wealth management fee income is directly leveraged to market levels and client inflows, both of which faced headwinds in FY25.",
+        "Key metrics to watch include NPAT growth versus the prior corresponding period, dividend per share movement (Fiducian has a strong franked dividend track record), and any commentary on cost-to-income ratios given ongoing investment in platform and adviser network expansion.",
+        "With the integrated advice-platform-funds model under increasing competitive pressure from larger players, the report's outlook commentary on FUM flows, adviser headcount, and organic growth initiatives will be critical in determining whether the current valuation premium to peers is sustainable."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AM5",
+      "company": "ANTARES METALS LIMITED",
+      "headline": "Widespread High-Grade Gold Mineralisation at Quinns",
+      "time": "2026-08-16T22:10:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121505-6A1338721",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Widespread high-grade gold mineralisation confirmed at Quinns signals a potentially significant resource expansion, with broad intercepts across multiple zones elevating the project's strategic value and de-risking the deposit's continuity for institutional investors assessing resource-stage entry points.",
+        "The market-sensitive classification underscores material drill results likely exceeding prior expectations — investors should scrutinise grade-thickness composites and intercept widths against the existing resource estimate to gauge potential resource upgrade magnitude and impact on project economics.",
+        "Near-term catalysts will hinge on a maiden or updated JORC resource estimate incorporating these results, with any resource upgrade likely to re-rate the stock; watch for follow-up drilling programs and potential strategic partner interest given the high-grade nature of the discovery."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DRE",
+      "company": "DREADNOUGHT RESOURCES LTD",
+      "headline": "High-Grade Tungsten Opportunity Across Mangaroon",
+      "time": "2026-08-16T22:09:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121502-6A1338719",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dreadnought has identified a high-grade tungsten opportunity across its Mangaroon project in Western Australia, a strategically significant development given tungsten's classification as a critical mineral by Australia, the EU, and the US — positioning DRE to attract offtake interest and potential government-backed funding support.",
+        "The market-sensitive designation signals material new data, likely including drill results or resource delineation metrics that demonstrate grade and scale sufficient to warrant institutional attention; tungsten prices have remained elevated amid supply concentration risk from China (~80% of global supply), enhancing the economic case for Western world alternatives.",
+        "Near-term catalysts will hinge on follow-up drilling programs and a maiden resource estimate for the tungsten zones — investors should watch for whether Dreadnought pursues a standalone development pathway or positions Mangaroon's tungsten endowment as a value-add to attract a strategic partner or acquirer in the critical minerals space."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NES",
+      "company": "NELSON RESOURCES LIMITED.",
+      "headline": "Soil Sampling Program Completed at Cinnamon Property",
+      "time": "2026-08-16T22:09:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121500-6A1338717",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Completion of the soil sampling program at Cinnamon Property marks a critical de-risking milestone — results will directly inform whether Nelson Resources advances to drill targeting, making this a binary catalyst for near-term newsflow and speculative interest.",
+        "As a market-sensitive disclosure, the announcement signals management believes assay results carry material price-moving potential; investors should monitor the forthcoming geochemical data closely for anomaly definition, grade distribution, and spatial coherence relative to known mineralisation trends.",
+        "Next steps hinge entirely on laboratory turnaround times and the quality of anomalies identified — a strong soil geochemistry response could rapidly accelerate the company toward a maiden drill program, while weak results risk deferring exploration expenditure and dampening sentiment in what remains a cash-constrained junior explorer environment."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CLA",
+      "company": "CELSIUS RESOURCES LIMITED.",
+      "headline": "Corporate Update",
+      "time": "2026-08-16T22:09:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121498-6A1338715",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive corporate update from Celsius Resources signals a potentially material development at its Maalinao-Caigutan-Biyog (MCB) copper-gold project in the Philippines — the nature of which will determine whether this re-rates the stock or triggers a sell-off, making the full disclosure critical for positioning.",
+        "Without quantified detail in the headline, investors should watch for specifics around project financing, permitting milestones, or partner/offtake agreements — any of which could materially shift the project's NPV and de-risk the path to development for this pre-revenue junior miner.",
+        "Celsius remains a high-risk, pre-production copper play; near-term catalysts hinge on regulatory approvals in the Philippines and securing development capital — institutional investors should await the full announcement text before adjusting exposure given the market-sensitive classification."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RAG",
+      "company": "RAGNAR METALS LIMITED",
+      "headline": "Drilling Intersects High Grade Gold at Harnas",
+      "time": "2026-08-16T22:09:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121497-6A1338714",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade gold intersections at Harnas represent a material discovery catalyst for Ragnar Metals, a market-sensitive result that directly de-risks the project and validates the geological thesis — critical for a junior explorer where drill results are the primary value driver.",
+        "The headline 'high grade' designation signals grades likely exceeding typical economic thresholds; institutional investors should scrutinise the specific g/t figures, intercept widths, and downhole depths to assess true resource potential and compare against peer discoveries on the ASX.",
+        "Near-term focus will shift to follow-up drilling programs and resource estimation timelines — a positive result of this nature typically accelerates capital allocation decisions and may trigger re-rating interest from resource-focused funds, though sustained momentum depends on replication of results across strike."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ORD",
+      "company": "ORDELL MINERALS LIMITED",
+      "headline": "Major Resource Drilling Program Underway at Barimaia",
+      "time": "2026-08-16T22:09:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121496-6A1338713",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ordell Minerals has commenced a major resource drilling program at its Barimaia gold project in Western Australia, signalling a critical de-risking phase aimed at upgrading the resource base — a key catalyst that typically precedes a maiden or updated JORC resource estimate and re-rating potential.",
+        "The market-sensitive classification underscores management's view that drill results carry material price-moving potential; institutional investors should monitor assay results closely as high-grade intercepts at Barimaia could meaningfully expand the resource envelope and attract M&A interest in a consolidating WA gold sector.",
+        "Near-term newsflow will be dominated by drill hole assay releases — the pace and grade of results will determine whether Ordell can sustain momentum; investors should track metres drilled, hole spacing, and any step-out targets as indicators of the program's ambition and resource growth trajectory."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ACL",
+      "company": "AUSTRALIAN CLINICAL LABS LIMITED",
+      "headline": "FY26 financial results investor presentation",
+      "time": "2026-08-16T22:08:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121495-3A698859",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 investor presentation signals ACL is providing forward-looking financial guidance and operational metrics to the market — the 'FY26' label (likely referring to the fiscal year ending June 2025, per ACL's reporting calendar) suggests this is a full-year results release, a key catalyst event that will reset earnings expectations and valuation multiples across the pathology sector.",
+        "Key metrics to watch include revenue trajectory against Medicare rebate headwinds, EBITDA margin recovery following post-COVID volume normalisation, and any update on the integration or performance of acquired businesses — ACL has been navigating a structurally challenging environment as pandemic-era testing volumes unwound, making any margin stabilisation or volume recovery highly material.",
+        "Outlook commentary will be critical: investors will scrutinise FY27 guidance, capital allocation priorities (including M&A appetite in a consolidating pathology market), and any commentary on cost-out programs or technology investment — ACL's ability to articulate a credible earnings recovery path will determine whether the stock re-rates toward peer multiples or remains under pressure."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACL",
+      "company": "AUSTRALIAN CLINICAL LABS LIMITED",
+      "headline": "Appendix 4E and FY26 financial reports",
+      "time": "2026-08-16T22:08:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121494-3A698858",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Full-year results filing signals the completion of ACL's FY26 reporting cycle — institutional investors should scrutinise revenue trajectory and EBITDA margins closely given the post-COVID pathology volume normalisation headwinds that have pressured the sector over the past two years.",
+        "The Appendix 4E lodgement is a preliminary final report requiring audited financials, making it a high-credibility data point — key metrics to watch include net profit after tax, operating cash flow conversion, and any movement in the dividend payout ratio relative to FY25 guidance.",
+        "With ACL operating in a consolidating pathology market alongside Sonic Healthcare and Healius, the FY26 results will be a critical read-through on whether ACL's cost-out program and bolt-on acquisition strategy are delivering sustainable margin recovery — any earnings miss or guidance withdrawal would likely trigger material re-rating risk."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "RCT",
       "company": "REEF CASINO TRUST",
