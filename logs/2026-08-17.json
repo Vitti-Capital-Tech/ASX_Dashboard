@@ -1,9 +1,104 @@
 {
   "date": "2026-08-17",
-  "total": 103,
-  "market_sensitive_count": 96,
-  "generated_at": "2026-08-16T23:04:48.322473+00:00",
+  "total": 108,
+  "market_sensitive_count": 101,
+  "generated_at": "2026-08-16T23:07:15.994690+00:00",
   "announcements": [
+    {
+      "ticker": "AAR",
+      "company": "ASTRAL RESOURCES NL",
+      "headline": "Theia Deeps Continues to Expand",
+      "time": "2026-08-16T23:05:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121628-6A1338769",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Theia Deeps extension confirms structural continuity at depth, a critical de-risking milestone that materially increases the probability of a larger-than-modelled resource estimate and supports a re-rating of the project's economic potential.",
+        "Expanding high-grade intercepts at depth typically signal a transition from exploration-stage to resource-definition drilling, which can catalyse institutional interest and attract strategic partner or acquirer scrutiny in the current gold M&A environment.",
+        "Near-term focus will shift to updated resource estimate timing and whether Astral can sustain drilling momentum without a capital raise — cash position and burn rate will be the key variables to watch in the next quarterly report."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KAU",
+      "company": "KAISER REEF LIMITED",
+      "headline": "A1 Stockpile Estimate Completed",
+      "time": "2026-08-16T23:04:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121626-6A1338768",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kaiser Reef has completed a formal stockpile resource estimate at its A1 Gold Mine, a critical de-risking step that converts previously unquantified surface material into a defined inventory — directly supporting near-term mill feed planning and revenue visibility without additional underground development capital.",
+        "The stockpile estimate provides a quantified, potentially low-cost ore source that can be blended with underground production to optimise mill throughput and grade, improving operational efficiency and potentially accelerating cash generation from existing assets already on surface.",
+        "Next catalyst to watch is the integration of this stockpile estimate into an updated mine plan or resource statement — investors should monitor whether Kaiser Reef upgrades production guidance or announces accelerated processing timelines, which would be the key valuation trigger from this announcement."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ABX",
+      "company": "ABX GROUP LIMITED",
+      "headline": "Sunrise Bauxite Project Advances as GII Priority",
+      "time": "2026-08-16T23:02:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121621-2A1689763",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ABX Group's Sunrise Bauxite Project has been designated a priority under the Government Infrastructure Initiative (GII), a significant de-risking catalyst that signals potential state-level support for permitting, infrastructure co-investment, and expedited approvals — materially improving project economics and timeline certainty.",
+        "GII priority status typically unlocks access to coordinated government facilitation frameworks, which can reduce pre-development capital requirements and lower sovereign/regulatory risk premiums that institutional investors apply to early-stage resource projects — a meaningful re-rating trigger for a company at this stage.",
+        "Near-term focus will be on whether ABX can convert this designation into binding offtake discussions or strategic partnerships, particularly given surging global demand for bauxite as aluminium supply chains diversify away from Guinea and China; investors should watch for a resource update or feasibility study milestone as the next material catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RAD",
+      "company": "RADIOPHARM THERANOSTICS LIMITED",
+      "headline": "RAD to meet with US FDA to align on RAD 101 Phase 3 Trial",
+      "time": "2026-08-16T23:02:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121620-2A1689761",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FDA alignment meeting for RAD 101 Phase 3 trial is a critical de-risking milestone — securing regulatory agreement on trial design, endpoints, and patient population before Phase 3 initiation materially reduces the risk of costly protocol amendments or clinical holds down the track, a key concern for biotech investors.",
+        "A successful Type B or Type C FDA meeting outcome could unlock accelerated trial commencement and potentially support Special Protocol Assessment (SPA) designation, which would provide binding FDA agreement on the trial design and significantly enhance the asset's partnering and licensing attractiveness to larger pharmaceutical players.",
+        "Near-term catalysts hinge on the meeting outcome disclosure — investors should watch for the FDA's formal written response (typically within 30 days of meeting), which will determine whether RAD 101 Phase 3 can proceed as designed or requires modification, directly impacting Radiopharm's cash deployment timeline and capital raise requirements given the company's early-stage burn profile."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "REC",
+      "company": "RECHARGE METALS LIMITED",
+      "headline": "Heritage Survey Confirmed Mining Lease Application Submitted",
+      "time": "2026-08-16T23:02:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121619-6A1338766",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Recharge Metals has formally submitted a Mining Lease Application (MLA) following successful completion of heritage surveys — a critical regulatory milestone that de-risks the pathway to project development and signals the company is advancing beyond early-stage exploration toward potential production-readiness.",
+        "Heritage survey clearance removes a key sovereign/cultural risk hurdle that frequently stalls or derails Australian mining projects; its confirmation strengthens the credibility of the MLA and reduces the probability of material delays from indigenous heritage objections under state mining legislation.",
+        "The MLA submission now enters the formal government assessment queue, with approval timelines typically ranging 12–24+ months depending on jurisdiction — investors should monitor for any third-party objections lodged during the public comment period, which represents the next binary risk event for the project's advancement."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "D3E",
       "company": "D3 ENERGY LIMITED",
