@@ -1,9 +1,124 @@
 {
   "date": "2026-08-17",
-  "total": 122,
-  "market_sensitive_count": 115,
-  "generated_at": "2026-08-16T23:31:23.416929+00:00",
+  "total": 128,
+  "market_sensitive_count": 121,
+  "generated_at": "2026-08-16T23:41:02.481250+00:00",
   "announcements": [
+    {
+      "ticker": "SOP",
+      "company": "SYNERTEC CORPORATION LIMITED",
+      "headline": "FY26 Update and Equity Raising Presentation",
+      "time": "2026-08-16T23:36:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121699-3A698903",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Equity raising signals near-term cash pressure — the combination of an FY26 update with a concurrent capital raise suggests Synertec requires additional funding to execute its growth strategy, raising dilution concerns for existing shareholders ahead of clarity on use-of-proceeds and pricing terms.",
+        "FY26 operational update framing is critical — investors should scrutinise whether the presentation reveals revenue trajectory improvements, contract wins, or margin recovery in its engineering and energy services divisions, as the company has historically struggled to convert pipeline into consistent top-line growth.",
+        "Market-sensitive classification elevates execution risk — the dual announcement of a strategic update and equity raise in a single market-sensitive filing typically precedes a trading halt or placement, meaning near-term price action will hinge on raise size, discount to last traded price, and whether institutional demand validates the FY26 growth narrative."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SOP",
+      "company": "SYNERTEC CORPORATION LIMITED",
+      "headline": "Unaudited FY26 Update and Successful Institutional Placement",
+      "time": "2026-08-16T23:36:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121698-3A698901",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Synertec has executed a successful institutional placement, signalling credible institutional appetite for the stock — the key question is pricing and dilution quantum, which will determine whether existing shareholders face meaningful value erosion or whether the raise was executed at a premium to recent trading levels.",
+        "The concurrent release of an unaudited FY26 update suggests management is using positive trading momentum as a catalyst to raise capital, implying revenue or contract pipeline metrics are sufficiently compelling to anchor institutional demand — watch for any disclosed revenue run-rate, EBITDA trajectory, or order book figures that validate the growth narrative.",
+        "Proceeds from the placement are likely earmarked for working capital, contract delivery capacity, or strategic growth initiatives; the critical next step is the release of audited FY26 results and any accompanying guidance upgrade, which will be the true test of whether this raise was opportunistic or necessity-driven."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IPT",
+      "company": "IMPACT MINERALS LIMITED",
+      "headline": "Renounceable Rights Issue To Raise Up To $4.1 Million",
+      "time": "2026-08-16T23:35:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121696-6A1338791",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Impact Minerals is conducting a renounceable rights issue targeting up to $4.1M — the renounceable structure preserves optionality for existing shareholders to sell their entitlements rather than face forced dilution, a marginally more shareholder-friendly mechanism than a non-renounceable offer, though dilution risk remains material for non-participants.",
+        "At $4.1M, the raise is modest and signals the company is likely operating with limited cash runway, typical of early-stage ASX explorers; proceeds will almost certainly be directed toward exploration drilling or working capital, meaning no near-term revenue catalyst to offset the dilutive impact on per-share metrics.",
+        "Investors should watch the offer price discount to last traded price, the shortfall facility terms, and underwriting status — a deeply discounted, ununderwritten offer with a large shortfall would signal weak institutional support and increase downside pressure on the share price post-record date."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IPT",
+      "company": "IMPACT MINERALS LIMITED",
+      "headline": "Renounceable Entitlement Offer Prospectus",
+      "time": "2026-08-16T23:33:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121690-6A1338788",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Dilution risk is material — a renounceable entitlement offer signals the company is raising equity capital, likely at a discount to market price, which mechanically pressures the share price and dilutes existing shareholders who do not participate or cannot fund their entitlements.",
+        "The 'market sensitive' classification underscores the offer's significance to Impact Minerals' capital structure; for a junior explorer, this type of raise typically indicates limited cash runway and an urgent need to fund ongoing exploration programs or working capital obligations.",
+        "Investors should scrutinise the offer price, discount to last traded price, and intended use of proceeds — key metrics that will determine whether the raise is adequately priced to clear the market and whether the capital deployment strategy (e.g. drilling at Broken Hill or Commonwealth Hill projects) justifies the dilution."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TNC",
+      "company": "TRUE NORTH COPPER LIMITED",
+      "headline": "$18m Placement and $2m SPP to accelerate Copper Growth",
+      "time": "2026-08-16T23:30:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121680-6A1338735",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "True North Copper is raising $20m in total ($18m institutional placement + $2m SPP), providing meaningful capital injection to accelerate its copper growth strategy at a time when copper demand fundamentals remain structurally strong driven by electrification and energy transition tailwinds.",
+        "The scale of the raise — $18m placement — signals institutional conviction but introduces near-term dilution risk for existing shareholders; pricing and discount to last traded price will be critical in determining the market's reception and the degree of dilutive impact on per-share metrics.",
+        "Proceeds are earmarked to 'accelerate copper growth,' suggesting imminent drilling, resource expansion, or development activity across its project portfolio — investors should watch for an accompanying use-of-funds breakdown and updated project timelines as key catalysts for re-rating."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACP",
+      "company": "AUDALIA RESOURCES LIMITED",
+      "headline": "Update of Funding and Capital Raising",
+      "time": "2026-08-16T23:30:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121679-6A1338787",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Capital raise update signals potential liquidity stress — a market-sensitive funding announcement from a junior resources company typically indicates existing cash reserves are insufficient to sustain near-term operations or project milestones, raising immediate questions about cash runway.",
+        "Dilution risk is the key concern for existing shareholders — any new equity issuance at a discount to market (common in distressed or urgent raises) will compress per-share value, and the market-sensitive flag suggests terms may be materially unfavourable or structurally complex.",
+        "Execution risk remains elevated until raise is fully subscribed and closed — investors should monitor for confirmation of binding commitments, identity of incoming capital (institutional vs. retail vs. related parties), and whether proceeds are sufficient to fund a defined operational catalyst or merely extend runway."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "BHM",
       "company": "BROKEN HILL MINES LIMITED",
