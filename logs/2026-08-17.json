@@ -1,9 +1,143 @@
 {
   "date": "2026-08-17",
-  "total": 108,
-  "market_sensitive_count": 101,
-  "generated_at": "2026-08-16T23:07:15.994690+00:00",
+  "total": 115,
+  "market_sensitive_count": 108,
+  "generated_at": "2026-08-16T23:18:34.083867+00:00",
   "announcements": [
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Acquisition of Townsville Lakes Holiday Park",
+      "time": "2026-08-16T23:14:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121644-2A1689771",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Eureka Group expands its affordable seniors rental accommodation footprint with the Townsville Lakes Holiday Park acquisition, directly aligning with its core strategy of converting underutilised holiday/caravan parks into higher-yielding seniors living communities — a model that has historically delivered strong NOI uplift post-conversion.",
+        "The Townsville market represents a strategically underserved regional Queensland node with strong retiree demographic tailwinds; the acquisition adds immediate asset base growth and, if conversion proceeds, should contribute incremental recurring rental revenue within 12–24 months, supporting Eureka's earnings per share trajectory.",
+        "Key near-term catalysts to watch include disclosure of acquisition price relative to book/replacement value (accretion metrics), debt funding structure and impact on gearing ratios, and management's timeline for development approval and operational ramp-up — all critical to assessing whether this deal is genuinely value-accretive or capital-intensive at current interest rates."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HMG",
+      "company": "HAMELIN GOLD LIMITED",
+      "headline": "Placement to Accelerate Gold Exploration Programs",
+      "time": "2026-08-16T23:14:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121645-6A1338746",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Hamelin Gold is deploying fresh equity capital specifically to accelerate exploration drilling, signalling management confidence in near-term discovery potential and suggesting existing cash reserves were insufficient to maintain desired exploration velocity.",
+        "The placement structure introduces dilution risk for existing shareholders, but the targeted use of proceeds for exploration programs rather than corporate overhead or debt repayment is a constructive signal — the key variable will be the placement price discount relative to last traded price and total shares issued.",
+        "Near-term catalysts hinge on the pace and results of the funded exploration programs; investors should monitor upcoming drill assay announcements closely, as the capital raise effectively sets a tighter timeline for the company to demonstrate resource potential and justify the dilution."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PAT",
+      "company": "PATRIOT RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-16T23:13:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121642-6A1338775",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Patriot Resources has entered a trading halt flagged as market sensitive, strongly indicating a material corporate event is imminent — most likely a capital raise, M&A transaction, or significant asset announcement requiring price-sensitive disclosure management.",
+        "The market-sensitive classification elevates the probability this is not a routine administrative halt; institutional investors should monitor for a potential equity raising (placement or rights issue) or a transformative asset acquisition that could materially alter the company's capital structure or resource profile.",
+        "Trading halts of this nature on small-cap ASX miners typically resolve within 1–2 trading days; investors should watch for an accompanying ASX announcement detailing terms, pricing, and use of proceeds — key determinants of whether dilution risk or value-accretive news drives the re-rate on resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCG",
+      "company": "PENGANA CAPITAL GROUP LIMITED",
+      "headline": "Monthly Funds Under Management - 31 July 2026",
+      "time": "2026-08-16T23:13:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121643-2A1689768",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Monthly FUM disclosure is a direct revenue proxy for Pengana — management fees are calculated on AUM, so any material movement in the July 2026 figure will immediately signal fee income trajectory and pressure-test consensus earnings estimates for FY27.",
+        "The 'market sensitive' classification signals a non-trivial FUM movement, likely a meaningful net outflow or inflow beyond normal market beta — investors should scrutinise whether the change is driven by performance (mark-to-market) or redemptions/mandates won, as the latter carries stronger structural implications for the business.",
+        "With listed investment companies (LICs) and active managers under sustained fee and performance pressure across the ASX, any FUM contraction would reinforce sector headwinds and could trigger a re-rating of Pengana's earnings multiple; conversely, FUM growth would validate its diversified fund strategy and support the dividend sustainability case."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FME",
+      "company": "FUTURE METALS NL",
+      "headline": "Trading Halt",
+      "time": "2026-08-16T23:10:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121637-6A1338773",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Future Metals NL (FME) has entered a trading halt, suspending price discovery and liquidity for investors — the market-sensitive classification signals a material corporate event is imminent, likely a capital raise, M&A transaction, or significant asset update.",
+        "Trading halts on junior ASX miners are most commonly associated with equity raisings (placements or rights issues), meaning existing shareholders face potential near-term dilution risk until full details are disclosed.",
+        "Investors should monitor the resumption announcement closely — the nature of the pending news (capital structure change, strategic partnership, or resource update at its PGM-focused Panton project in WA) will be the critical determinant of directional price impact upon reinstatement of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MM1",
+      "company": "MIDAS MINERALS LTD",
+      "headline": "Wide High-Grade Copper-Gold Intercepts Extend Spaatzu",
+      "time": "2026-08-16T23:09:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121633-6A1338772",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade copper-gold intercepts at the Spaatzu prospect represent a material step-change in resource definition, with wide intersections suggesting potential for a bulk-tonnage deposit rather than a narrow vein system — a critical distinction for economic viability and institutional interest.",
+        "The market-sensitive classification signals management confidence that these drill results are materially significant to valuation; investors should scrutinise the grade-width combinations (copper equivalent %), depth profile, and comparison to previous intercepts to assess whether this constitutes a genuine discovery upgrade or incremental extension.",
+        "Near-term catalysts will centre on follow-up drilling programs to test strike and depth extensions, with a maiden or updated resource estimate the key de-risking milestone — any capital raise to fund accelerated drilling should be monitored closely as a potential dilution event against the exploration upside."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AUC",
+      "company": "AUSGOLD LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-16T23:07:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121632-6A1338771",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "AUC has entered a trading halt pending an announcement, most likely related to a capital raise or material corporate development — trading halts of this nature on junior gold explorers typically precede equity placements or M&A activity, warranting close attention from existing holders.",
+        "With no revenue base and reliance on periodic capital raises to fund exploration at its Katanning Gold Project in WA, any dilutive placement would pressure the share price near-term, though a strategic deal or resource upgrade could be a re-rating catalyst.",
+        "Investors should monitor the nature of the forthcoming announcement closely — if a placement, assess pricing relative to last traded price and any attached options that could create ongoing dilution overhang; if M&A or JV-related, evaluate the strategic premium and partner credibility."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AAR",
       "company": "ASTRAL RESOURCES NL",
