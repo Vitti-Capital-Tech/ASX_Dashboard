@@ -1,9 +1,125 @@
 {
   "date": "2026-08-18",
-  "total": 74,
-  "market_sensitive_count": 68,
-  "generated_at": "2026-08-17T22:29:59.179385+00:00",
+  "total": 80,
+  "market_sensitive_count": 74,
+  "generated_at": "2026-08-17T22:43:20.772618+00:00",
   "announcements": [
+    {
+      "ticker": "LRK",
+      "company": "LARK DISTILLING CO. LTD",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-17T22:35:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122143-3A699002",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive FY26 results presentation signals a material earnings event for Lark Distilling — investors should scrutinise revenue trajectory and gross margin recovery given the company's prior profitability challenges in a capital-intensive premium whisky business with long inventory maturation cycles.",
+        "Key metrics to watch include EBITDA progression, cash burn rate against maturing whisky inventory on the balance sheet, and whether the company has achieved positive operating cash flow — critical indicators of whether Lark's premiumisation strategy is translating into sustainable unit economics.",
+        "Near-term focus will centre on management's FY27 outlook guidance, any commentary on distribution channel expansion (particularly export markets), and whether the balance sheet requires additional capital support — given prior equity raises, any hint of further dilution risk will weigh heavily on sentiment."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BHP",
+      "company": "BHP GROUP LIMITED",
+      "headline": "BHP FY2026 Results Presentation",
+      "time": "2026-08-17T22:34:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122141-3A699000",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY2026 full-year results presentation signals BHP has completed its reporting cycle — institutional focus will immediately centre on EBITDA margins, free cash flow generation, and whether copper and iron ore divisional earnings met or missed consensus estimates amid volatile commodity pricing.",
+        "Capital allocation decisions embedded in this presentation — including dividend quantum, buyback continuation, and capex guidance for Jansen potash and copper growth assets — will be the primary valuation levers; any reduction in shareholder returns or upward capex revision could pressure the stock near-term.",
+        "Forward outlook commentary on China steel demand, copper supply tightness, and cost inflation (energy, labour, FX) will set the tone for FY2027 earnings revisions across the sector, making this a read-through event for Rio Tinto, Fortescue, and broader ASX materials names."
+      ],
+      "tags": [
+        "Results",
+        "Mining",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BHP",
+      "company": "BHP GROUP LIMITED",
+      "headline": "BHP FY2026 Results Announcement",
+      "time": "2026-08-17T22:33:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122137-3A698999",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY2026 full-year results represent a key valuation catalyst for BHP — the largest constituent of the ASX 200 — with institutional focus squarely on EBITDA margins, free cash flow generation, and net debt trajectory amid a volatile iron ore and copper price environment.",
+        "Copper division performance will be under the microscope given BHP's strategic pivot toward future-facing commodities; any upgrade to Escondida production guidance or unit cost improvements could materially re-rate the stock, while iron ore realised prices versus consensus will determine near-term earnings revision direction.",
+        "Capital allocation decisions — specifically the final dividend quantum, buyback continuation, and capex guidance for Jansen potash and other growth projects — will set the tone for shareholder returns expectations into FY2027 and signal management's confidence in the commodity cycle outlook."
+      ],
+      "tags": [
+        "Results",
+        "Mining",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAU",
+      "company": "WA GOLD LIMITED",
+      "headline": "GOLD ANOMALISM DEFINES FOLLOW-UP TARGETS AT BULLABULLING",
+      "time": "2026-08-17T22:33:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122136-6A1338929",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Gold anomalism at Bullabulling has delineated discrete follow-up drill targets, a technically significant step that transforms geochemical data into actionable exploration vectors — critical for a junior explorer needing to demonstrate systematic resource-definition progress to retain investor confidence.",
+        "Bullabulling is a historically significant WA gold district with prior resource estimates, meaning new anomaly definition adds genuine optionality; any confirmation of continuity or extensions to known mineralisation could materially re-rate the project's perceived scale and attract strategic interest.",
+        "Near-term catalysts hinge on drill program commencement and assay results from follow-up holes — investors should monitor announced drill spacing, target depths, and whether the company has sufficient cash runway (typically sub-$5M for micro-caps) to fully execute the program without requiring an interim capital raise."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BHP",
+      "company": "BHP GROUP LIMITED",
+      "headline": "BHP Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-17T22:31:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122133-3A698996",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "BHP's FY2026 Annual Report (Appendix 4E) is a market-sensitive filing that will crystallise full-year earnings, EBITDA margins, and free cash flow generation across its iron ore, copper, and coal portfolios — key metrics institutional investors will benchmark against consensus estimates to determine re-rating potential.",
+        "Copper segment performance will be under intense scrutiny given BHP's strategic pivot toward the metal as a long-term growth driver; any material beat or miss in copper volumes and unit costs from Escondida and the OZ Minerals integration will directly influence near-term valuation multiples.",
+        "Dividend declaration embedded in the Appendix 4E will be the immediate price catalyst — BHP's capital return policy (minimum 50% payout of underlying attributable profit) means the final dividend quantum signals management's confidence in balance sheet strength and commodity cycle positioning heading into FY2027."
+      ],
+      "tags": [
+        "Results",
+        "Mining",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WHF",
+      "company": "WHITEFIELD INDUSTRIALS LIMITED",
+      "headline": "WHF Moves To Quarterly Dividends & FF Qtrly Div Determined",
+      "time": "2026-08-17T22:29:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122130-2A1690044",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "WHF is transitioning from semi-annual to quarterly dividend payments, a structural shift that meaningfully improves income predictability and cash flow timing for yield-focused investors — a move typically associated with mature, confident LICs seeking to attract income-oriented retail and SMSF capital.",
+        "The determination of a fully franked quarterly dividend signals strong underlying portfolio income generation and effective franking credit management, enhancing the after-tax yield proposition for domestic investors in a market where franking credits carry significant value.",
+        "The shift to quarterly distributions aligns WHF with best-practice income vehicles and may catalyse a re-rating of the stock's yield appeal relative to semi-annual peers, potentially narrowing the NTA discount as income-seeking investors reassess the vehicle's attractiveness."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "QML",
       "company": "QMINES LIMITED",
