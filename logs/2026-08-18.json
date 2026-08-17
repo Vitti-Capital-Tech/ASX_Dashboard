@@ -1,9 +1,260 @@
 {
   "date": "2026-08-18",
-  "total": 90,
-  "market_sensitive_count": 84,
-  "generated_at": "2026-08-17T22:57:04.943409+00:00",
+  "total": 103,
+  "market_sensitive_count": 97,
+  "generated_at": "2026-08-17T23:09:14.630829+00:00",
   "announcements": [
+    {
+      "ticker": "XRF",
+      "company": "XRF SCIENTIFIC LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-17T23:06:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122186-6A1338945",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "XRF Scientific's Preliminary Final Report is a market-sensitive disclosure, signalling full-year results that investors should scrutinise for revenue trajectory across its laboratory consumables and capital equipment segments, which have historically benefited from elevated mining sector activity in Australia and globally.",
+        "Key metrics to watch include EBITDA margin progression, cash conversion, and any movement in the dividend — XRF has maintained a consistent payout history, and any increase would reinforce the investment case for yield-focused holders in a small-cap industrial name.",
+        "With mining exploration and production spending remaining robust, XRF's order book and forward guidance commentary will be critical in determining whether the company can sustain or accelerate its growth cadence into FY26, particularly given FX headwinds from AUD/USD exposure on international sales."
+      ],
+      "tags": [
+        "Results",
+        "Dividend",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LRT",
+      "company": "LOWELL RESOURCES FUND",
+      "headline": "Trading Halt",
+      "time": "2026-08-17T23:05:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122184-3A699015",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Lowell Resources Fund (LRT) has entered a trading halt, suspending price discovery for unitholders — the market-sensitive classification signals a material corporate event is imminent, likely a capital raise, asset revaluation, or significant portfolio transaction.",
+        "As a listed investment fund focused on resources sector opportunities, a trading halt of this nature frequently precedes a unit purchase plan, entitlement offer, or a major NAV-impacting event — investors should monitor for dilution risk or opportunistic capital deployment into current resources market conditions.",
+        "Next steps: the halt is expected to lift within ASX's standard 2-trading-day window; unitholders and prospective investors should await the accompanying announcement to assess whether the catalyst is accretive (new investment/deal) or dilutive (capital raise at discount to NAV) before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SFM",
+      "company": "SANTA FE MINERALS LTD",
+      "headline": "Satama Gold Prospect - Drilling Update",
+      "time": "2026-08-17T23:04:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122182-6A1338943",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive drilling update at Satama Gold Prospect signals material newsflow — results likely contain intercepts or geological findings significant enough to warrant immediate disclosure obligations under ASX Listing Rule 3.1, raising the stakes for investor reaction.",
+        "The quality and grade of reported intercepts will be the critical valuation driver; any high-grade or wide mineralised zones at Satama could materially re-rate Santa Fe Minerals' exploration asset base, which is particularly impactful given the company's small-cap status where a single discovery can disproportionately shift market capitalisation.",
+        "Next steps hinge on whether this update confirms a drill-ready or follow-up target — investors should watch for announcements of expanded drill programs, resource estimation timelines, or capital raise activity to fund further exploration, all of which would signal management's confidence in the prospect's commercial potential."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MAE",
+      "company": "MUNRO GLOBAL GROWTH FUND COMPLEX ETF",
+      "headline": "Change of Ownership of GSFM Group",
+      "time": "2026-08-17T23:03:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122180-2A1690065",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "A change of ownership at GSFM Group — the responsible entity and distributor behind the Munro Global Growth Fund Complex ETF — introduces potential governance and operational continuity risk that investors should monitor closely, as fund management transitions can affect investment mandates, fee structures, and distribution arrangements.",
+        "The market-sensitive classification signals this is not a routine administrative update; a change of control at the fund manager level could trigger material contract reviews, key personnel departures, or renegotiation of management agreements that directly impact the ETF's cost base and operational framework.",
+        "Institutional investors should watch for follow-on disclosures detailing the acquirer's identity, strategic intent for GSFM's fund suite, and any proposed changes to the Munro partnership arrangement — the outcome will determine whether this is a value-neutral ownership reshuffle or a precursor to more significant structural change for the ETF."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance",
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "M2R",
+      "company": "MIRAMAR RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-17T23:03:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122179-6A1338942",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Miramar Resources has entered a trading halt pending a market-sensitive announcement, suspending price discovery and liquidity for shareholders — the market-sensitive classification signals material information is imminent that could significantly reprice the stock.",
+        "Trading halts of this nature on junior ASX explorers most commonly precede capital raises, M&A activity, or significant exploration results — given Miramar's active gold and base metals exploration portfolio in WA, a drill result or asset transaction is the most probable catalyst.",
+        "Institutional investors should monitor the resumption announcement closely; the market-sensitive flag elevates the probability of a binary outcome event, meaning positioning ahead of the halt lift carries asymmetric risk — both upside (discovery/deal) and downside (dilutive placement) remain live scenarios."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TG6",
+      "company": "TG METALS LIMITED",
+      "headline": "Maiden Lithium Resource lays foundation for first production",
+      "time": "2026-08-17T23:00:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122175-6A1338940",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Maiden JORC resource declaration is a critical de-risking milestone for TG Metals, transforming the project from exploration-stage to a quantified asset — unlocking access to project financing, offtake negotiations, and a broader institutional investor base that requires defined resources before engagement.",
+        "The 'foundation for first production' framing signals management is targeting near-term development rather than a prolonged feasibility cycle, which compresses the timeline to potential cash flow generation — a key valuation catalyst in the current lithium market where project advancement speed differentiates survivors from stranded assets.",
+        "With lithium spot prices under pressure globally, the commercial viability of the resource will hinge on grade, tonnage, and processing pathway disclosed in the full announcement — investors should scrutinise cut-off grades and whether the resource supports a standalone operation or requires scale-up via further drilling before a development decision can be credibly made."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "R8R",
+      "company": "REGENER8 RESOURCES NL",
+      "headline": "High-Grade Ag-Zn-Pb-Sb Identified at Srebrenica North",
+      "time": "2026-08-17T22:59:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122174-6A1338938",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade polymetallic mineralisation (Ag-Zn-Pb-Sb) confirmed at Srebrenica North signals a potentially significant discovery at a historically productive district in Bosnia, with the multi-element signature suggesting a VMS or epithermal system capable of supporting economic-grade resources — a material re-rating catalyst for a small-cap explorer.",
+        "The presence of antimony (Sb) alongside silver, zinc, and lead adds strategic value given Sb's critical mineral status and current supply chain focus from Western governments, potentially attracting premium valuation multiples or partnership interest beyond traditional base/precious metal peers.",
+        "Near-term catalysts will centre on assay results quantifying grade and width of intersections, with investors watching for resource estimation timelines and whether the company has sufficient cash runway to advance drilling — balance sheet scrutiny will be critical given the market-sensitive classification and likely capital requirements to follow up this discovery."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RR1",
+      "company": "REACH RESOURCES LIMITED",
+      "headline": "Andel Exercises Option & Completes DD - Fast-Tracking Mining",
+      "time": "2026-08-17T22:58:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122173-6A1338937",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Andel's exercise of the option represents a critical de-risking milestone for Reach Resources, confirming a third-party has completed due diligence and validated the asset's commercial viability — reducing speculative risk for existing shareholders.",
+        "The 'fast-tracking' of mining operations signals an accelerated path to potential revenue generation, which is materially significant for a junior resources company where timeline-to-production is a key valuation driver and cash burn concern.",
+        "Investors should monitor the specific option terms, consideration received, and Andel's operational credentials as the next catalysts — deal structure and Andel's capacity to execute will determine whether this partnership translates into near-term production milestones or remains aspirational."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ADR",
+      "company": "ADHERIUM LIMITED",
+      "headline": "Adherium enters into additional $1M short-term loan facility",
+      "time": "2026-08-17T22:57:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122169-3A699009",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Emergency liquidity signal: A $1M short-term loan facility — rather than an equity raise or strategic partnership — indicates Adherium is under acute cash pressure, likely bridging an imminent funding gap while longer-term capital solutions are negotiated.",
+        "Debt structure raises red flags: Short-term loan facilities at this scale for a micro-cap MedTech typically carry punitive interest rates and tight repayment windows, increasing balance sheet risk and potentially subordinating existing creditors or triggering covenant concerns.",
+        "Runway extension is temporary at best: Given Adherium's historical quarterly cash burn, $1M buys limited runway (likely 1-2 quarters), meaning investors should anticipate a follow-on capital raise or strategic transaction announcement in the near term — with material dilution risk."
+      ],
+      "tags": [
+        "Finance",
+        "Healthcare",
+        "Capital Raise"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "APZ",
+      "company": "ASPEN GROUP",
+      "headline": "Aspen Group FY26 Results",
+      "time": "2026-08-17T22:56:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122168-2A1690059",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results flagged as market sensitive, signalling material variance from prior guidance or consensus expectations — investors should brace for a significant re-rating event in either direction pending full disclosure of earnings metrics.",
+        "Key metrics to scrutinise include FFO (Funds From Operations) per security, NTA movement, and occupancy rates across Aspen's affordable housing and lifestyle communities portfolio, given the company's sensitivity to interest rate dynamics and rental demand trends.",
+        "Forward guidance on development pipeline progression, capital recycling activity, and any distribution policy update will be critical catalysts — Aspen's growth thesis hinges on scaling its affordable accommodation platform, making FY27 outlook commentary the primary driver of post-announcement price action."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BGD",
+      "company": "BARTON GOLD HOLDINGS LIMITED",
+      "headline": "Numerous High-Grade Assays Extend Tolmer Silver Discovery",
+      "time": "2026-08-17T22:54:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122167-6A1338935",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade silver assay extensions at Tolmer materially de-risk the discovery's resource potential, signalling the deposit has lateral and depth continuity that could underpin a maiden resource estimate — a key re-rating catalyst for a junior explorer.",
+        "The market-sensitive classification underscores management's view that assay results are materially significant; investors should watch for grade-thickness intercepts (g/t Ag × metres) relative to peer discoveries in the Gawler Craton to benchmark economic viability and potential tonnage uplift.",
+        "Near-term catalysts include further drilling to test strike extensions and depth plunge, with a maiden or updated resource estimate the logical next milestone — successful delivery would likely attract institutional attention and potentially position Barton Gold for a capital raise or strategic partnership to advance Tolmer toward scoping study."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "APZ",
+      "company": "ASPEN GROUP",
+      "headline": "Aspen Group - FY26 Results Presentation",
+      "time": "2026-08-17T22:54:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122166-2A1690057",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation signals Aspen Group has delivered on its fiscal year metrics ahead of schedule — market-sensitive classification suggests material earnings or asset valuation outcomes that could meaningfully reprice the stock relative to consensus estimates.",
+        "As a diversified property and accommodation group, key metrics to watch include NTA per share movement, occupancy rates across affordable housing and tourism assets, and any revaluation gains or impairments on the portfolio that directly impact book value and distribution capacity.",
+        "Outlook commentary will be critical given the affordable housing tailwind in Australia — any guidance upgrade, capital recycling activity (asset sales/acquisitions), or distribution policy update would serve as the primary near-term re-rating catalyst for institutional holders."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STM",
+      "company": "SUNSTONE METALS LTD",
+      "headline": "Drilling returns 176m gold-copper intersection",
+      "time": "2026-08-17T22:52:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122162-2A1690062",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 176-metre gold-copper intersection is a materially significant intercept for an explorer of Sunstone's scale, suggesting potential for a bulk-tonnage porphyry-style deposit — the geometry and grade continuity will be critical in determining whether this advances toward a resource estimate.",
+        "The market-sensitive classification signals management's own assessment of materiality; institutional attention will focus on the assay grades (Au g/t and Cu %) once released, as width alone without economic grades risks a sell-the-news reaction if results disappoint on tenor.",
+        "Near-term catalysts include follow-up drilling to test strike and depth extensions, with a maiden or updated resource estimate the logical next milestone — investors should monitor cash position closely given exploration-stage companies typically accelerate drilling spend on high-priority hits, potentially triggering a capital raise."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CC9",
       "company": "CHARIOT RESOURCES LTD",
