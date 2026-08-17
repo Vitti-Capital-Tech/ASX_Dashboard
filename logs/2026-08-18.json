@@ -1,9 +1,512 @@
 {
   "date": "2026-08-18",
-  "total": 48,
-  "market_sensitive_count": 43,
-  "generated_at": "2026-08-17T22:16:04.452362+00:00",
+  "total": 74,
+  "market_sensitive_count": 68,
+  "generated_at": "2026-08-17T22:29:59.179385+00:00",
   "announcements": [
+    {
+      "ticker": "QML",
+      "company": "QMINES LIMITED",
+      "headline": "High-Grade Copper & Gold Intersected at Mt Chalmers",
+      "time": "2026-08-17T22:25:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122128-6A1338928",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade copper and gold intersections at Mt Chalmers validate the project's polymetallic potential, a critical de-risking milestone that strengthens the geological thesis and supports resource expansion — particularly significant given current elevated copper prices driven by energy transition demand.",
+        "The market-sensitive classification signals material drill results likely exceeding prior intercepts in grade or width; institutional investors should watch for specific assay data (g/t Au equivalent and % Cu) to benchmark against the existing resource base and assess potential resource upgrade trajectory.",
+        "Near-term catalysts include updated resource estimates and potential scoping study revisions — if results confirm continuity of high-grade zones, QML could attract strategic interest or partnership discussions given Mt Chalmers' proximity to existing infrastructure in Queensland."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EML",
+      "company": "EML PAYMENTS LIMITED",
+      "headline": "FY26 Results Investor Presentation",
+      "time": "2026-08-17T22:24:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122127-2A1690041",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation signals EML has completed its multi-year restructuring cycle — institutional focus will centre on whether underlying EBITDA margins have normalised following the costly PCSIL regulatory remediation and European business wind-down that plagued prior periods.",
+        "Key metrics to scrutinise include gross debit volume (GDV) trajectory, revenue per active card trends, and free cash flow conversion — any evidence of stabilised or growing GDV alongside improved cost discipline would mark a material inflection point for the investment thesis.",
+        "With EML having divested non-core assets and refocused on its core gifting and general purpose reloadable segments, the outlook commentary on B2B pipeline and contract renewals will be critical in determining whether the business can deliver sustainable mid-single-digit revenue growth to justify current multiples."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EML",
+      "company": "EML PAYMENTS LIMITED",
+      "headline": "2026 Appendix 4E and Annual Report",
+      "time": "2026-08-17T22:21:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122122-2A1690036",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual report filing signals completion of FY2026 reporting cycle for EML Payments — investors will scrutinise revenue trajectory and EBITDA margins against prior guidance, particularly given the company's multi-year restructuring and divestment of its problematic PFS Cards European business which had weighed heavily on compliance costs and profitability.",
+        "Key metrics to watch include gross debit volume (GDV) trends across its gift card, general purpose reloadable, and virtual account segments, alongside operating cash flow conversion — any improvement in net cash position or reduction in regulatory remediation costs would signal meaningful operational stabilisation.",
+        "With EML having undergone significant strategic simplification, the FY2026 result will be a critical litmus test for whether the leaner business model can deliver sustainable earnings growth; guidance credibility for FY2027 and any commentary on M&A appetite or capital return will be pivotal for re-rating potential."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CGS",
+      "company": "COGSTATE LTD",
+      "headline": "FY26 Results Investor Briefing",
+      "time": "2026-08-17T22:19:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122119-3A698994",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 investor briefing signals management confidence in communicating full-year results directly to the market — the market-sensitive classification suggests material financial disclosures are embedded, likely including revenue, EBITDA, and cash position updates that could reset consensus expectations for this clinical trials technology provider.",
+        "Cogstate's revenue model is heavily tied to pharmaceutical and biotech R&D spend, particularly Alzheimer's and CNS trial activity — any commentary on contract wins, trial pipeline conversion, or recurring revenue growth will be the critical valuation driver given the company's high operating leverage at scale.",
+        "Investors should watch for guidance on FY27 outlook and whether the company reaffirms its path to sustained profitability — with the stock historically sensitive to clinical trial volume fluctuations, forward bookings visibility and cash generation metrics will determine near-term re-rating potential."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "YUG",
+      "company": "YUGO METALS LIMITED",
+      "headline": "Yugo Advances Erak Discovery",
+      "time": "2026-08-17T22:18:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122118-6A1338926",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The 'Advances' framing on the Erak Discovery signals meaningful drill or assay results that extend the known mineralisation footprint — critical for re-rating a junior explorer as it transitions from prospect to resource definition stage.",
+        "Market-sensitive classification indicates material new data (likely high-grade intercepts or significant step-out results) that could materially shift the market's view of Erak's resource potential and Yugo's enterprise value relative to peers.",
+        "Near-term catalysts to watch include a maiden JORC resource estimate timeline, follow-up drilling program scope, and whether the company will need to raise capital to fund the next phase — any equity raise at this stage could temper the upside."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BEN",
+      "company": "BENDIGO AND ADELAIDE BANK LIMITED",
+      "headline": "BEN Regulatory matters and unaudited FY26 results",
+      "time": "2026-08-17T22:16:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122115-3A698991",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Regulatory matters flagged alongside unaudited FY26 results signal potential compliance headwinds — the nature and materiality of these regulatory issues will be critical; any remediation costs or enforcement action could weigh on capital allocation and dividend sustainability for Australia's fifth-largest retail bank.",
+        "Unaudited FY26 results release ahead of audit sign-off suggests management is front-running market expectations — investors should scrutinise net interest margin trajectory, loan growth, and whether cash earnings meet or miss consensus given the competitive pressure on deposit pricing across the Australian banking sector.",
+        "The dual disclosure of regulatory matters and preliminary results in a single market-sensitive announcement creates binary risk: if regulatory provisions are modest and earnings hold up, the stock could re-rate positively; however, any material remediation charge or APRA/ASIC action could trigger a meaningful de-rating given BEN's already compressed valuation relative to major bank peers."
+      ],
+      "tags": [
+        "Results",
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AAR",
+      "company": "ASTRAL RESOURCES NL",
+      "headline": "Land Use Agreement Signed With Marlinyu Ghoorlie at Mandilla",
+      "time": "2026-08-17T22:14:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122112-6A1338923",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Astral Resources has secured a Land Use Agreement (LUA) with the Marlinyu Ghoorlie native title holders at its Mandilla Gold Project in WA, removing a critical regulatory and social licence hurdle that had been a key de-risking milestone required before meaningful exploration and development activity could advance on the tenements.",
+        "The LUA provides Astral with the legal framework to conduct exploration, drilling, and ultimately development activities on Mandilla — a project hosting a multi-million ounce gold resource in the prolific Eastern Goldfields — materially improving the project's pathway to feasibility and reducing sovereign/approvals risk that institutional investors typically discount heavily in junior gold developers.",
+        "With native title consent now formalised, Astral can accelerate its planned drilling campaigns and resource definition work at Mandilla; the next catalysts to watch are updated resource estimates, permitting milestones, and any potential farm-in or strategic partnership discussions that the de-risked tenure position may now attract."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SGM",
+      "company": "SIMS LIMITED",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-17T22:13:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122108-2A1690026",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation is market sensitive, signalling material financial outcomes that deviate meaningfully from prior guidance or consensus expectations — investors should treat this as a high-priority read-through event for earnings trajectory and capital allocation signals.",
+        "As a global metals recycling and secondary processing business, Sims Limited's results will be closely scrutinised for volume throughput, intake margins, and EBIT recovery given the challenging ferrous/non-ferrous scrap pricing environment and subdued steel demand that has pressured the sector through FY25-26.",
+        "Key forward indicators to watch include any updated FY27 volume or margin guidance, progress on cost-out initiatives, balance sheet positioning (net debt/gearing), and capital returns policy — particularly whether the dividend is maintained, cut, or suspended given recent earnings headwinds."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CGS",
+      "company": "COGSTATE LTD",
+      "headline": "FY26 Financial Results and Operational Update",
+      "time": "2026-08-17T22:13:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122107-3A698993",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Headline mismatch warrants scrutiny — the announcement is labelled 'FY26 Financial Results' yet FY26 does not conclude until June 2026, suggesting this may be an interim, preliminary, or rebranded reporting period; investors should verify the exact period covered before drawing conclusions on run-rate performance.",
+        "As a cognitive assessment technology company, Cogstate's key financial metrics to watch include clinical trial services revenue (historically lumpy and contract-dependent), SaaS/licensing recurring revenue mix, and EBITDA margins — any deterioration in trial pipeline or customer concentration would be a material red flag given the company's relatively small revenue base (~A$40-50M range historically).",
+        "Near-term catalysts hinge on guidance clarity for FY26 and beyond, particularly the conversion of its Alzheimer's disease trial partnerships (e.g. with major pharma sponsors) into sustained revenue streams, as the AD drug development boom represents a structural growth opportunity that could re-rate the stock if management signals accelerating contract wins."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SGM",
+      "company": "SIMS LIMITED",
+      "headline": "FY26 Media Release",
+      "time": "2026-08-17T22:12:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122103-2A1690021",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive FY26 media release signals a material earnings or operational update from Sims Limited, a global metals and electronics recycling leader — the timing outside of a standard results period suggests a potential profit warning, guidance revision, or strategic announcement that could reset near-term earnings expectations.",
+        "Sims has been navigating headwinds from depressed ferrous scrap prices, weak steel demand in key export markets (particularly Turkey and Asia), and elevated operating costs — any quantitative guidance or EBIT range disclosed in this release will be closely scrutinised against consensus estimates and prior FY25 underlying EBIT of approximately A$85–100M range.",
+        "Investors should watch for commentary on scrap volume throughput recovery, cost-out progress under the operational restructuring program, and any update on capital allocation priorities (buyback, dividend sustainability, or M&A) as key catalysts for re-rating the stock from its currently depressed valuation multiple."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CGS",
+      "company": "COGSTATE LTD",
+      "headline": "FY26 Appendix 4E",
+      "time": "2026-08-17T22:12:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122099-3A698983",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cogstate's FY26 Appendix 4E filing is market sensitive, signalling material financial outcomes that could meaningfully shift consensus estimates — investors should watch closely for revenue trajectory given the company's leverage to Alzheimer's and CNS clinical trial activity, which has been a key growth driver in recent periods.",
+        "The preliminary final report will crystallise full-year revenue, EBITDA, and cash position — critical metrics given Cogstate's transition toward higher-margin, recurring technology licensing revenue versus project-based clinical trial work; any acceleration in the licensing mix would be a structural positive for valuation multiples.",
+        "Near-term focus will be on FY27 guidance and pipeline commentary, particularly around large pharma partnerships and the durability of Alzheimer's trial demand following recent FDA approvals of amyloid-targeting therapies, which have materially expanded the addressable market for Cogstate's cognitive assessment tools."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HUB",
+      "company": "HUB24 LIMITED",
+      "headline": "HUB24 FY26 Analyst and Investor Pack",
+      "time": "2026-08-17T22:12:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122096-2A1690022",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The release of a dedicated FY26 Analyst and Investor Pack signals HUB24 is proactively setting the strategic and financial narrative ahead of the new fiscal year, likely anchoring consensus expectations around FUA growth targets, margin expansion, and platform scalability — critical metrics for a wealth-tech platform competing aggressively against Netwealth and Insignia.",
+        "Market-sensitive classification elevates the significance of this pack; institutional investors should scrutinise disclosed FUA trajectory, net inflows guidance, and any updated revenue-per-basis-point metrics, as these are the primary valuation drivers in a sector where platform stickiness and adviser adoption rates directly underpin earnings quality.",
+        "Key forward-looking watch points include any commentary on technology investment cadence, integration of recent acquisitions (including XPLAN/Class ecosystem plays), and whether HUB24 reaffirms or upgrades its medium-term FUA milestone — any upward revision to the $100B+ FUA pathway would be a material re-rating catalyst."
+      ],
+      "tags": [
+        "Finance",
+        "Technology",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SGM",
+      "company": "SIMS LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-17T22:11:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122093-2A1690013",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Sims Limited's Preliminary Final Report is market sensitive, signalling material financial outcomes that deviate meaningfully from prior guidance or consensus expectations — investors should scrutinise EBIT margins across the North America Metals and ANZ segments given ongoing scrap volume pressure and subdued steel demand globally.",
+        "Key metrics to watch include underlying EBIT, net debt position, and any impairment charges — Sims has faced headwinds from lower scrap spreads and elevated operating costs, making the magnitude of any earnings miss or beat critical for near-term re-rating potential.",
+        "Management commentary on FY26 volume recovery, capital allocation priorities (buybacks vs. debt reduction), and progress on the SGR (Sims Global Resources) digital/sustainability strategy will be pivotal in determining whether the market views this result as a cyclical trough or a structural earnings reset."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NXM",
+      "company": "NEXUS MINERALS LIMITED",
+      "headline": "Hi-Grade Drill Results up to 41.27g/t Au at Templar Prospect",
+      "time": "2026-08-17T22:11:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122092-6A1338922",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-grade intercepts of up to 41.27g/t Au at the Templar Prospect signal a potentially significant new discovery within Nexus Minerals' Wallbrook Gold Project, with bonanza-grade results materially de-risking the exploration thesis and validating the target model — a key re-rating catalyst for a junior explorer.",
+        "The market-sensitive classification underscores the materiality of these drill results; high-grade surface or shallow intercepts at a new prospect typically attract institutional attention as they suggest potential for a standalone resource, with grade quality at this level comparing favourably to peer discoveries across the Eastern Goldfields corridor.",
+        "Near-term focus will shift to follow-up drilling density and strike/depth extensions at Templar to determine whether these intercepts represent a coherent high-grade shoot or isolated pods — resource definition drilling and a maiden JORC estimate timeline will be the critical milestones investors should monitor to sustain momentum."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HUB",
+      "company": "HUB24 LIMITED",
+      "headline": "HUB24 FY26 Investor Presentation",
+      "time": "2026-08-17T22:11:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122091-2A1690014",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FY26 investor presentation signals strategic intent ahead of the fiscal year, with HUB24 likely outlining platform FUA growth targets and competitive positioning against Netwealth and IOOF — critical for re-rating given the stock trades on premium growth multiples requiring sustained FUA momentum above $100B.",
+        "Market-sensitive classification elevates significance, suggesting the presentation contains material guidance, margin outlook, or technology investment disclosures that could reset consensus earnings expectations for FY26 — watch for any revision to cost-to-income ratios or platform fee yield assumptions.",
+        "As the wealth platform sector faces fee compression and adviser consolidation headwinds, HUB24's ability to articulate a differentiated technology roadmap and net inflow trajectory will be the key determinant of whether institutional investors maintain or trim overweight positions in the near term."
+      ],
+      "tags": [
+        "Finance",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HUB",
+      "company": "HUB24 LIMITED",
+      "headline": "HUB24 FY26 Results Announcement",
+      "time": "2026-08-17T22:10:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122090-2A1690012",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results announcement is market-sensitive, signalling material financial disclosures that could meaningfully re-rate HUB24's valuation — investors should watch for platform FUA growth, net inflows trajectory, and EBITDA margin expansion against the backdrop of a competitive wrap platform market",
+        "HUB24 has been a structural beneficiary of superannuation and wealth management platform consolidation; key metrics to scrutinise include funds under administration (FUA) relative to the ~$100B+ milestone, revenue per basis point trends, and whether operating leverage is translating into improved cash conversion",
+        "Near-term outlook commentary will be critical — any guidance on FUA growth targets, technology investment cadence, or M&A integration progress (e.g. Class Limited, Xplore Wealth) will determine whether the market re-rates the stock toward the premium end of its historical EV/EBITDA range"
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HUB",
+      "company": "HUB24 LIMITED",
+      "headline": "HUB24 FY26 Annual Report and Appendix 4E",
+      "time": "2026-08-17T22:10:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122088-2A1690009",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "HUB24's FY26 Annual Report (Appendix 4E) is a market-sensitive filing, signalling material financial results that will set the benchmark for platform FUA growth, revenue trajectory, and earnings quality against a backdrop of strong industry tailwinds in managed accounts and adviser platform consolidation.",
+        "Key metrics to watch include platform funds under administration (FUA) growth rate versus the prior year's record trajectory, net revenue margin compression or expansion driven by product mix shift, and NPAT/underlying EBITDA performance relative to consensus — any beat on these will reinforce HUB24's premium valuation multiple.",
+        "Outlook commentary on FUA inflows, technology investment cadence, and potential M&A pipeline (following prior acquisitions such as Class and XPLAN integrations) will be critical for institutional positioning, particularly given competitive pressure from Netwealth and major bank platforms re-entering the market."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GMG",
+      "company": "GOODMAN GROUP",
+      "headline": "Goodman signs 20-year lease at Tsukuba, Greater Tokyo, Japan",
+      "time": "2026-08-17T22:09:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122087-2A1690031",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 20-year lease commitment at Tsukuba, Greater Tokyo signals exceptionally long-duration income visibility — rare in industrial/logistics real estate — materially de-risking this asset's cash flow profile and supporting higher capitalisation rate compression versus shorter-term peers.",
+        "The Greater Tokyo logistics market remains one of Asia-Pacific's most supply-constrained and structurally undersupplied corridors, driven by e-commerce penetration and nearshoring trends; securing a two-decade tenant here locks in premium rental income through multiple market cycles and validates Goodman's Japan development pipeline.",
+        "This deal reinforces Goodman's strategy of developing and holding best-in-class logistics assets in tier-1 Asian gateway markets, likely underpinning AUM growth in its managed funds and supporting performance fee generation — a key earnings driver that institutional investors should monitor in the next half-year results."
+      ],
+      "tags": [
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AEL",
+      "company": "AMPLITUDE ENERGY LIMITED",
+      "headline": "FY26 results & FY27 outlook presentation",
+      "time": "2026-08-17T22:08:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122086-2A1690004",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation is market-sensitive, signalling material financial outcomes that could meaningfully re-rate Amplitude Energy's valuation — investors should scrutinise EBITDA margins, production volumes, and any reserve updates given the company's Bass Strait gas exposure in a tight east-coast energy market.",
+        "The inclusion of a FY27 outlook alongside FY26 actuals is a high-conviction signal from management — forward guidance in the current gas price environment will be closely watched for hedging positions, contracted revenue visibility, and capital expenditure commitments tied to development assets.",
+        "With east-coast gas supply remaining structurally constrained and Amplitude positioned as an independent producer, any upgrade to production targets or reserve life in the FY27 outlook could act as a meaningful catalyst, while a miss on FY26 cash generation or rising cost guidance would pressure the stock given its relatively small market capitalisation."
+      ],
+      "tags": [
+        "Results",
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AEL",
+      "company": "AMPLITUDE ENERGY LIMITED",
+      "headline": "FY26 full year results release",
+      "time": "2026-08-17T22:08:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122084-2A1690002",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 full year results release is market-sensitive, signalling material financial outcomes that could significantly re-rate Amplitude Energy's valuation — investors should watch closely for revenue, EBITDA, and net profit figures relative to prior guidance and consensus expectations.",
+        "As a gas-focused ASX energy company, key metrics to scrutinise include production volumes, realised gas prices, operating costs per GJ, and free cash flow generation — any beat on these metrics against FY25 comparatives would confirm operational momentum in a supportive east-coast gas price environment.",
+        "Forward guidance on reserve life, capital expenditure plans, and potential development of the Mahalo North or other portfolio assets will be critical catalysts; any upgrade to production outlook or strategic update on M&A or farm-out activity could drive meaningful near-term re-rating."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPZ",
+      "company": "SMART PARKING LIMITED",
+      "headline": "Announcement of buy-back",
+      "time": "2026-08-17T22:08:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122081-3A698968",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Smart Parking's on-market buyback signals board conviction that shares are undervalued, implying management views current market price as offering better capital allocation returns than alternative organic or inorganic deployment — a meaningful vote of confidence in intrinsic value.",
+        "Buybacks are accretive to EPS and NTA per share for remaining holders; with no dilutive capital raise on the horizon, this announcement reinforces balance sheet strength and suggests the company holds sufficient free cash flow to fund both operations and shareholder returns simultaneously.",
+        "Investors should monitor the scale and pace of the buyback program — the percentage of shares authorised for repurchase and the buyback window will be critical in assessing whether this is a material capital return catalyst or a modest, opportunistic programme with limited near-term price support."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SPZ",
+      "company": "SMART PARKING LIMITED",
+      "headline": "FY26 Investor Presentation",
+      "time": "2026-08-17T22:07:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122080-3A698966",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FY26 investor presentation signals a strategic reset or growth narrative ahead of the new financial year — market-sensitive classification suggests material forward guidance or operational targets that could meaningfully re-rate the stock from current levels.",
+        "Smart Parking operates a capital-light, technology-driven parking enforcement and management platform across the UK, Europe, and ANZ; any disclosed revenue run-rate, site expansion metrics, or margin improvement data will be critical to assessing whether the business is approaching sustainable profitability after years of investment-phase losses.",
+        "Key watch points for institutional investors include FY26 contracted site pipeline growth, enforcement notice volume trends, cash position and burn rate, and any commentary on M&A or geographic expansion — particularly given the fragmented nature of the parking management sector which presents consolidation optionality."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AEL",
+      "company": "AMPLITUDE ENERGY LIMITED",
+      "headline": "Reserves and Contingent Resources at 30 June 2026",
+      "time": "2026-08-17T22:07:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122079-2A1690001",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reserves update as at 30 June 2026 is a market-sensitive disclosure, signalling a material change in certified 2P/3P reserves or contingent resources that could directly reprice Amplitude's net asset value and production outlook — direction of revision is the critical variable for investors.",
+        "Any downgrade to 2P reserves would compress the company's reserve life index and weaken its borrowing base under debt facilities, while an upgrade would support higher valuation multiples and strengthen the case for incremental development capital allocation across its Bass Strait and Otway Basin assets.",
+        "Investors should cross-reference revised reserve volumes against Amplitude's existing production guidance and offtake commitments to assess whether the updated resource base materially alters near-term gas supply capacity into the tight east-coast Australian gas market — a key earnings driver."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPZ",
+      "company": "SMART PARKING LIMITED",
+      "headline": "FY26 Preliminary Final Report (Appendix 4E)",
+      "time": "2026-08-17T22:07:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122077-3A698964",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Preliminary Final Report (Appendix 4E) signals FY26 full-year results are being lodged ahead of the audited annual report — the market-sensitive flag indicates material financial outcomes that could meaningfully move the stock, with investors focused on whether the company has achieved profitability or sustained revenue momentum in its UK and European parking management operations.",
+        "Smart Parking has been executing a capital-light, technology-driven growth model across car park management contracts; key metrics to watch include total revenue growth trajectory, EBITDA margin expansion, and net cash position — any deterioration in contract wins or cash burn would be a red flag for a business still scaling toward sustainable free cash flow.",
+        "Near-term focus will shift to the audited Annual Report and FY27 guidance commentary — institutional investors will scrutinise whether management reaffirms its growth pipeline in new markets and whether recurring revenue from parking enforcement technology is compounding at a rate that justifies current valuation multiples."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AEL",
+      "company": "AMPLITUDE ENERGY LIMITED",
+      "headline": "Appendix 4E",
+      "time": "2026-08-17T22:07:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122072-2A1689997",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 4E signals full-year preliminary results are being lodged — as a market-sensitive filing, this indicates material financial outcomes that deviate meaningfully from prior expectations or consensus, warranting immediate scrutiny of revenue, EBITDA, and net profit/loss figures against FY guidance.",
+        "Amplitude Energy operates Bass Strait gas assets (Minerva, Casino Henry); key metrics to watch include production volumes, realised gas prices against elevated east-coast spot/contract benchmarks, and whether operating cash flows support ongoing field development without equity dilution.",
+        "The Appendix 4E filing triggers the start of the results season reporting window — investors should focus on reserve updates, any impairment charges on legacy fields, and management commentary on the Patricia Baleen and Henry field development timelines as catalysts for re-rating."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SHL",
+      "company": "SONIC HEALTHCARE LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-17T22:07:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122070-2A1689973",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the institutional ownership structure of Sonic Healthcare (SHL), with a major shareholder either crossing or falling through a 5% ownership threshold — warranting close monitoring of the direction (accumulation vs. disposal) to gauge institutional conviction in the stock.",
+        "If the filing reflects a reduction in a substantial holder's position, it could indicate softening institutional confidence amid Sonic's ongoing margin recovery challenges post-COVID normalisation, where pathology volumes and earnings have faced headwinds across key markets including Australia, Germany, and the US.",
+        "Investors should track subsequent 'change in substantial holding' filings over the coming weeks to determine whether this represents a one-off portfolio rebalancing or the beginning of a sustained exit — the latter could create modest near-term selling pressure on SHL's relatively illiquid institutional register."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "FLT",
       "company": "FLIGHT CENTRE TRAVEL GROUP LIMITED",
