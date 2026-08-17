@@ -1,9 +1,48 @@
 {
   "date": "2026-08-17",
-  "total": 145,
-  "market_sensitive_count": 130,
-  "generated_at": "2026-08-17T03:29:25.020104+00:00",
+  "total": 147,
+  "market_sensitive_count": 131,
+  "generated_at": "2026-08-17T04:24:35.764611+00:00",
   "announcements": [
+    {
+      "ticker": "ATS",
+      "company": "AUSTRALIS OIL & GAS LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-08-17T04:19:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121835-6A1338825",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX-initiated price query signals unusual trading activity in ATS shares, indicating the exchange detected a price or volume movement requiring formal explanation — a procedural red flag that often precedes material disclosure or confirms market speculation is ahead of official guidance.",
+        "The company's response to the query will be critical: if management confirms no undisclosed information, it limits near-term catalysts; however, any acknowledgement of ongoing discussions (M&A, asset sale, capital raise) could validate recent price movement and reset valuation expectations for a small-cap E&P with legacy Permian Basin exposure.",
+        "Investors should monitor for a follow-up substantive announcement within 24–48 hours, as ASX price query responses that cite 'awareness of no reason' typically precede a trading halt or material release — particularly relevant given ATS's history of asset monetisation activity and limited operational newsflow."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VUL",
+      "company": "VULCAN ENERGY RESOURCES LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-17T04:09:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121828-6A1338824",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Vulcan Energy Resources, crossing the 5% ownership threshold — a signal of meaningful institutional or strategic conviction in the company's lithium-brine and geothermal energy development story in Germany's Upper Rhine Valley.",
+        "The identity and size of the stake are critical details: if this represents a strategic industrial or automotive-sector investor (consistent with Vulcan's offtake agreements with Stellantis, Renault, and others), it could validate the company's commercial pathway and de-risk its project financing narrative.",
+        "Investors should monitor whether this substantial holding triggers further accumulation or a formal strategic partnership announcement — in the current critical lithium project financing environment, a credible anchor shareholder can materially improve Vulcan's ability to secure project-level debt and equity for its LEOP (Lithium Extraction and Optimisation Plant) development."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "SEQ",
       "company": "SEQUOIA FINANCIAL GROUP LTD",
