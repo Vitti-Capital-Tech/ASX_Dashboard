@@ -1,9 +1,125 @@
 {
   "date": "2026-08-18",
-  "total": 103,
-  "market_sensitive_count": 97,
-  "generated_at": "2026-08-17T23:09:14.630829+00:00",
+  "total": 109,
+  "market_sensitive_count": 103,
+  "generated_at": "2026-08-17T23:20:28.977568+00:00",
   "announcements": [
+    {
+      "ticker": "SPN",
+      "company": "SPARC TECHNOLOGIES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-17T23:15:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122203-3A699024",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "SPARC Technologies has entered a trading halt, suspending price discovery and liquidity for investors — the market-sensitive classification signals a material corporate event is imminent, most likely a capital raise, M&A transaction, or significant partnership announcement.",
+        "Trading halts on small-cap ASX-listed technology/materials companies like SPARC are statistically most associated with equity raisings; if confirmed, dilution risk is the primary near-term concern for existing shareholders, particularly given the company's early-stage commercialisation profile in graphene-based technologies.",
+        "Investors should monitor the resumption announcement closely — the nature of the pending disclosure will be the critical catalyst, with a capital raise likely bearish short-term on dilution, while a strategic partnership or licensing deal could trigger a re-rating; halt duration (typically 1-2 trading days max under ASX rules) limits the uncertainty window."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MRQ",
+      "company": "MRG METALS LIMITED",
+      "headline": "Placement Funds Received and Share Purchase Plan Announced",
+      "time": "2026-08-17T23:14:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122201-3A699022",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Placement funds confirmed received, providing immediate liquidity injection — critical for a junior explorer like MRG Metals where cash preservation directly determines exploration continuity and project advancement timelines.",
+        "The concurrent Share Purchase Plan (SPP) signals management is broadening the capital raise beyond institutional participants, typically offered at the same or discounted price to placement — retail shareholders face dilution risk if they do not participate, while total raise size will determine the extent of balance sheet strengthening.",
+        "Next steps hinge on SPP take-up rate and deployment of proceeds into MRG's Mozambique heavy mineral sands projects; investors should monitor whether fresh capital is sufficient to fund a defined work program through to a meaningful resource or feasibility milestone, or whether further raisings remain likely near-term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XRF",
+      "company": "XRF SCIENTIFIC LIMITED",
+      "headline": "August 2026 Investor Presentation",
+      "time": "2026-08-17T23:13:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122199-6A1338953",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification elevates this investor presentation above routine communications — institutional investors should scrutinise for undisclosed earnings guidance, material contract wins, or strategic pivots that could reprice the stock near-term.",
+        "XRF Scientific operates across high-margin laboratory consumables and capital equipment segments; any updated revenue trajectory, margin expansion data, or geographic growth metrics (particularly in mining and resources end-markets) will be critical valuation inputs given the company's historically strong EBITDA conversion.",
+        "The August 2026 timing suggests this presentation may coincide with or preview FY2026 full-year results commentary — watch for forward guidance on order books, capacity utilisation, and dividend sustainability as key catalysts for institutional repositioning."
+      ],
+      "tags": [
+        "Other",
+        "Mining",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CAY",
+      "company": "CANYON RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-17T23:11:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122195-6A1338949",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Canyon Resources (CAY) has entered a trading halt, suspending price discovery and liquidity for investors — the halt is pending a material announcement, which historically for junior miners signals a capital raise, M&A activity, or a significant project development update.",
+        "With CAY's flagship Minim Martap bauxite project in Cameroon still in development-stage financing, the most probable catalyst is a funding or offtake agreement announcement, which could be transformative given the project's scale but would likely involve dilutive equity issuance.",
+        "Investors should monitor the nature of the pending release closely — if the halt resolves into a strategic partnership or binding offtake deal, near-term re-rating potential is meaningful; however, a capital raise at a discount would pressure the share price upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XRF",
+      "company": "XRF SCIENTIFIC LIMITED",
+      "headline": "XRF announces record full-year result",
+      "time": "2026-08-17T23:10:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122191-6A1338948",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Record full-year result signals sustained operational momentum for XRF Scientific, likely reflecting strong demand across its laboratory equipment and consumables divisions — a positive re-rating catalyst for a stock that trades on quality earnings consistency.",
+        "The 'record' designation implies year-on-year revenue and/or profit growth has exceeded all prior periods, which institutional investors will scrutinise for margin expansion signals and whether top-line growth is translating to improved EBITDA and free cash flow conversion.",
+        "Near-term focus will shift to management's FY26 outlook commentary, dividend guidance, and whether the record result is underpinned by structural demand tailwinds (e.g. mining sector sample preparation, battery materials testing) or one-off factors — key determinants of earnings quality and forward multiple sustainability."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AII",
+      "company": "ALMONTY INDUSTRIES INC.",
+      "headline": "Share Repurchase Program of Up to US$300,000,000",
+      "time": "2026-08-17T23:07:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122188-6A1338944",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Almonty Industries has announced a substantial US$300M share buyback program — a highly aggressive capital return signal for a tungsten miner of this size, implying management views the stock as materially undervalued relative to its intrinsic worth, particularly given its strategic Sangdong mine ramp-up in South Korea.",
+        "The scale of the buyback is significant relative to Almonty's market capitalisation, suggesting either strong balance sheet confidence or anticipated near-term cash generation from offtake agreements and production milestones — investors should scrutinise the funding mechanism (debt, operating cash flow, or staged tranches) as execution credibility is key.",
+        "With tungsten classified as a critical mineral by the US, EU, and Australia amid supply chain diversification away from China (which controls ~80% of global supply), this buyback could also serve as a strategic signal ahead of potential government-backed financing or partnership announcements — watch for catalysts tied to Sangdong commissioning timelines and any NATO-aligned defence procurement contracts."
+      ],
+      "tags": [
+        "Mining",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "XRF",
       "company": "XRF SCIENTIFIC LIMITED",
