@@ -1,9 +1,86 @@
 {
   "date": "2026-08-17",
-  "total": 131,
-  "market_sensitive_count": 124,
-  "generated_at": "2026-08-16T23:58:41.342200+00:00",
+  "total": 135,
+  "market_sensitive_count": 127,
+  "generated_at": "2026-08-17T00:24:12.363354+00:00",
   "announcements": [
+    {
+      "ticker": "CVC",
+      "company": "CVC LIMITED",
+      "headline": "Market Update - FY26 Profit Guidance and Dividend",
+      "time": "2026-08-17T00:08:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121737-2A1689826",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "CVC Limited has issued formal FY26 profit guidance alongside a dividend announcement — a dual signal that management has sufficient earnings visibility and balance sheet confidence to commit to shareholder returns, a meaningful positive for a small-cap investment holding company.",
+        "The market-sensitive classification indicates the guidance and/or dividend quantum represents a material departure from prior expectations or consensus, making the specific numbers critical — investors should scrutinise whether the profit range implies earnings growth or contraction versus FY25 actuals and whether the dividend yield is being maintained, cut, or increased.",
+        "For next steps, the market will focus on the composition of CVC's investment portfolio driving the guided profit (realised gains vs. recurring income), the payout ratio implied by the dividend relative to guidance, and whether any portfolio realisations or write-downs are embedded in the FY26 outlook — key inputs for NAV-based valuation models."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CVC",
+      "company": "CVC LIMITED",
+      "headline": "Market Update - Liverpool Investment",
+      "time": "2026-08-17T00:07:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121735-2A1689822",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CVC Limited has flagged a market-sensitive update regarding its Liverpool investment, signalling a potentially material development in the value or status of this specific asset that warrants immediate investor attention.",
+        "Without disclosed financials in the headline, the market-sensitive classification suggests a revaluation event, divestment, impairment, or strategic change at the Liverpool asset — any of which could have a meaningful impact on CVC's net asset value and reported earnings.",
+        "Investors should monitor for follow-up disclosures detailing transaction terms, book value adjustments, or strategic rationale, as the outcome will likely drive near-term re-rating of CVC's investment portfolio and overall NAV per share."
+      ],
+      "tags": [
+        "Finance",
+        "Property",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BSA",
+      "company": "BSA LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-17T00:04:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121733-2A1689819",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in BSA Limited's register, indicating that a major institutional or strategic investor has crossed (or moved through) a 5% ownership threshold — warranting close monitoring of the direction of movement (accumulation vs. disposal).",
+        "The nature of the movement — whether an increase or decrease in the substantial holder's position — is critical: accumulation by a sophisticated investor could signal undervaluation or pre-cursor M&A interest, while a reduction may indicate waning conviction in BSA's near-term earnings trajectory in its telecommunications and facilities services segments.",
+        "Investors should track subsequent Form 604/603 filings to determine if this represents a one-off rebalancing or the beginning of a sustained position change, as concentrated ownership shifts in small-cap ASX names like BSA can materially influence liquidity and price discovery."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MSB",
+      "company": "MESOBLAST LIMITED",
+      "headline": "Major Milestone Treatment Completed in P3 Trial for CLBP",
+      "time": "2026-08-17T00:00:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121728-3A698924",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Mesoblast has completed the final patient treatment in its Phase 3 trial for Chronic Low Back Pain (CLBP), a critical de-risking milestone that removes execution uncertainty around enrolment and positions the company for a near-term data readout — historically the highest-value inflection point for clinical-stage biotechs.",
+        "CLBP represents a massive addressable market with limited disease-modifying therapies; a positive Phase 3 outcome for rexlemestrocel-L (MPC-06-ID) could support a multi-billion dollar commercial opportunity, and completion of treatment triggers the countdown to topline efficacy and safety data that will determine regulatory filing viability.",
+        "With the treatment phase now closed, investor focus shifts to the data readout timeline — likely within 6–12 months given follow-up requirements — and Mesoblast's cash runway adequacy to reach that catalyst; any capital position weakness ahead of this binary event remains a key risk to monitor alongside the clinical outcome itself."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CHM",
       "company": "CHIMERIC THERAPEUTICS LIMITED",
