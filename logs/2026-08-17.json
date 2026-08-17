@@ -1,9 +1,66 @@
 {
   "date": "2026-08-17",
-  "total": 142,
-  "market_sensitive_count": 128,
-  "generated_at": "2026-08-17T02:35:43.392970+00:00",
+  "total": 145,
+  "market_sensitive_count": 130,
+  "generated_at": "2026-08-17T03:29:25.020104+00:00",
   "announcements": [
+    {
+      "ticker": "SEQ",
+      "company": "SEQUOIA FINANCIAL GROUP LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-17T03:14:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121809-2A1689867",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the ownership structure of Sequoia Financial Group (SEQ), with a holder crossing or moving through the 5% threshold — warranting close attention to whether this represents accumulation or distribution by a sophisticated investor.",
+        "The direction of the change (increase or decrease) is critical: an increase may indicate growing institutional conviction in SEQ's wealth management and financial services growth trajectory, while a decrease could signal profit-taking or a strategic exit from a key stakeholder.",
+        "Investors should monitor subsequent 604/603 filings to determine if this is part of a broader stake-building exercise that could presage a strategic transaction, board influence play, or simply passive index rebalancing — particularly relevant given SEQ's acquisition-driven growth model in the fragmented financial advice sector."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCP",
+      "company": "SCALARE PARTNERS HOLDINGS LIMITED",
+      "headline": "Bonus Options Offer Prospectus",
+      "time": "2026-08-17T03:10:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121808-3A698937",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Scalare Partners is issuing a Bonus Options Offer prospectus, providing existing shareholders with free options — a non-dilutive capital structure tool that rewards loyalty without immediate cash outflow, though future exercise would dilute equity if options convert.",
+        "The market-sensitive classification signals material potential impact on share count and capital structure; institutional investors should model the maximum dilution scenario based on the options' exercise price, expiry, and total options on issue relative to current shares outstanding.",
+        "Near-term focus should be on the exercise price relative to current market price — if options are issued materially out-of-the-money, the practical dilution risk is low; however, if structured near or at-the-money, this represents a latent capital raise mechanism that could pressure the share price upon exercise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCP",
+      "company": "SCALARE PARTNERS HOLDINGS LIMITED",
+      "headline": "Bonus Options and Piggyback Options Offer",
+      "time": "2026-08-17T03:05:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03121805-3A698936",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Scalare Partners is issuing Bonus Options and Piggyback Options to existing shareholders, a mechanism typically used to reward loyalty and incentivise participation in prior capital raises — however, this introduces potential future dilution risk if options are exercised at below-market strike prices.",
+        "The market-sensitive classification signals material impact on capital structure; institutional investors should scrutinise the exercise price, expiry terms, and total option pool size relative to current shares on issue to quantify the dilution ceiling and its effect on per-share metrics.",
+        "Next steps hinge on shareholder take-up rates and prevailing share price relative to strike price at expiry — if the stock trades above exercise price, mass conversion could pressure near-term price; if below, options lapse worthless, leaving capital structure unchanged but signalling weak market confidence in the raise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "JAN",
       "company": "JANISON EDUCATION GROUP LIMITED",
