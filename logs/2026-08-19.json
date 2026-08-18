@@ -1,9 +1,448 @@
 {
   "date": "2026-08-19",
-  "total": 77,
-  "market_sensitive_count": 73,
-  "generated_at": "2026-08-18T22:26:43.631772+00:00",
+  "total": 100,
+  "market_sensitive_count": 96,
+  "generated_at": "2026-08-18T22:45:02.543007+00:00",
   "announcements": [
+    {
+      "ticker": "AMU",
+      "company": "AMERICAN URANIUM LTD",
+      "headline": "Large-Scale Aquifer Testing Commences at Lo Herma",
+      "time": "2026-08-18T22:41:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122683-6A1339125",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of large-scale aquifer testing at Lo Herma is a critical de-risking milestone for in-situ recovery (ISR) uranium projects — successful permeability and connectivity data would directly underpin a resource-to-reserve conversion and support future feasibility studies, materially advancing the project toward production readiness.",
+        "Lo Herma sits within Wyoming's Powder River Basin, a proven ISR uranium jurisdiction — aquifer test results will determine whether the sandstone host units meet the hydraulic conductivity thresholds (typically >1 m/day) required for economic ISR extraction, making this a binary technical catalyst with direct valuation implications.",
+        "Investors should watch for aquifer test results over the coming weeks as the next key catalyst; positive outcomes could trigger a re-rating by validating ISR viability, potentially supporting a maiden or upgraded JORC resource estimate and positioning the company for strategic partnerships or offtake discussions in a structurally tight uranium market."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LYL",
+      "company": "LYCOPODIUM LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-18T22:39:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122681-6A1339124",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lycopodium's Preliminary Final Report is market sensitive, signalling material financial outcomes that could meaningfully shift consensus expectations — investors should watch for revenue, NPAT, and margin figures relative to prior guidance and FY23 actuals, where the company delivered ~$47M NPAT on strong engineering project execution.",
+        "As a capital-light engineering consultancy with historically high dividend payout ratios (often 80–100% of NPAT), the key metric to monitor is earnings per share and any declared final dividend, which directly drives near-term yield-based valuation support for this tightly held, low-float stock.",
+        "With LYL's order book and revenue heavily tied to resources sector capital expenditure cycles — particularly gold, copper, and phosphate projects across Africa and Australia — any commentary on pipeline conversion, project completions, or new contract wins in FY26 will be critical for forward earnings visibility and re-rating potential."
+      ],
+      "tags": [
+        "Results",
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SGP",
+      "company": "STOCKLAND",
+      "headline": "Stockland Appendix 4E",
+      "time": "2026-08-18T22:38:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122679-2A1690318",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 4E filing signals Stockland's preliminary full-year results are now lodged with ASX — as a market-sensitive disclosure, this sets the baseline for FY earnings expectations and will be scrutinised against prior guidance on FFO per security and distribution targets across its master-planned communities and commercial property segments.",
+        "Investors should focus on funds from operations (FFO) trajectory, net tangible asset (NTA) per security movement, and residential settlement volumes — any deviation from guided FFO per security range or softening in residential lot settlements amid the high-rate environment would be a key valuation driver given Stockland's dual exposure to housing cycles and commercial REIT dynamics.",
+        "With the RBA rate cycle potentially turning and Stockland having strategically pivoted toward land lease communities and affordable housing, the FY result will be a critical read-through on whether the portfolio repositioning is generating tangible earnings uplift — guidance for FY26 FFO and distribution will be the primary catalyst for near-term re-rating."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WHC",
+      "company": "WHITEHAVEN COAL LIMITED",
+      "headline": "FY26 Appendix 4E and Annual Report",
+      "time": "2026-08-18T22:37:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122676-2A1690315",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "FY26 Annual Report filing marks a critical disclosure event for Whitehaven as the company navigates a structurally lower thermal coal price environment — investors will scrutinise EBITDA margins, net debt trajectory, and whether the Daunia and Blackwater metallurgical coal acquisitions are delivering expected synergies and cash generation against elevated acquisition debt.",
+        "Key metrics to watch include realised coal prices across thermal and met coal segments, production volumes versus guidance, and free cash flow conversion — any material impairment charges or covenant pressure on the ~A$4B debt load taken on for the BHP met coal assets would be a significant negative signal for near-term deleveraging capacity.",
+        "Outlook guidance embedded in the Annual Report will be pivotal: with seaborne met coal prices under pressure and Queensland royalty headwinds persisting, management's FY27 production and cost guidance, along with any dividend or capital return commentary, will set the tone for institutional positioning heading into the AGM season."
+      ],
+      "tags": [
+        "Results",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WGB",
+      "company": "WAM GLOBAL LIMITED",
+      "headline": "Dividend/Distribution - WGB",
+      "time": "2026-08-18T22:37:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122674-2A1690313",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "WAM Global (WGB) has declared a dividend/distribution, confirming continued capital returns to shareholders — a key signal of portfolio income generation capacity from its international equities mandate managed by Wilson Asset Management.",
+        "The market-sensitive classification suggests the distribution quantum or timing may carry material information relative to prior periods; investors should scrutinise the cents-per-share figure and franking level against the prior interim/final to assess whether the payout trajectory is accelerating or under pressure.",
+        "For LIC-focused income investors, dividend consistency and franking credits are critical valuation drivers for WGB — any increase in distribution or maintenance of franking would support the case for narrowing the NTA discount, while a cut could trigger further discount widening and potential selling pressure."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HSN",
+      "company": "HANSEN TECHNOLOGIES LIMITED",
+      "headline": "Leadership Changes",
+      "time": "2026-08-18T22:34:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122669-3A699098",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Leadership transition at Hansen Technologies carries execution risk during a critical period of organic growth and M&A integration — investors should monitor whether the incoming leadership maintains strategic continuity across its complex multi-geography utility billing platform business.",
+        "C-suite or board-level changes at a mid-cap technology company like Hansen (HTG) can signal shifts in capital allocation priorities, M&A appetite, or cost discipline — the market will scrutinise whether this is a planned succession or an unplanned departure, with the latter historically correlating with short-term price volatility.",
+        "Near-term focus will be on management's ability to reassure institutional holders on FY25 guidance, customer retention, and pipeline conversion — any delay in communicating a clear transition roadmap risks widening the discount already applied to HTG's earnings multiple relative to ASX tech peers."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ERE",
+      "company": "EUROPEAN RESOURCES LIMITED",
+      "headline": "ANSTO Test Work Raises Korsnas Magnet REE Extraction to 92%",
+      "time": "2026-08-18T22:34:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122668-2A1690314",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ANSTO test work achieving 92% magnet rare earth element (REE) extraction at the Korsnas project represents a material technical de-risking milestone, demonstrating the deposit's amenability to processing and significantly strengthening the project's economic case ahead of any feasibility studies.",
+        "The 92% extraction rate is a high-performance benchmark for REE metallurgy — recoveries at this level are commercially competitive and suggest Korsnas could support robust project economics, potentially attracting offtake interest or strategic partnership discussions given global demand for ex-China magnet REE supply chains.",
+        "With ANSTO (Australia's Nuclear Science and Technology Organisation) lending third-party technical credibility to the results, European Resources is well-positioned to advance Korsnas toward a Preliminary Feasibility Study (PFS) or resource upgrade, with the next catalyst likely being further process optimisation data or a maiden/updated mineral resource estimate."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BOL",
+      "company": "BOOM LOGISTICS LIMITED",
+      "headline": "Full Year Results Investor Presentation",
+      "time": "2026-08-18T22:34:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122667-3A699097",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Full-year results presentation is market-sensitive, signalling material financial outcomes that could meaningfully re-rate BOL's valuation — investors should scrutinise revenue trajectory and EBITDA margins given the capital-intensive nature of crane and lifting services operations.",
+        "Key metrics to watch include utilisation rates across the heavy lift fleet, any impairment charges on ageing equipment, and net debt position — BOL has historically carried significant balance sheet leverage that constrains dividend capacity and growth reinvestment.",
+        "Outlook commentary on infrastructure and resources sector pipeline will be critical, as BOL's earnings are highly leveraged to large project activity in mining, energy, and construction — any guidance upgrade or contract win disclosure would be a near-term catalyst, while project deferrals or margin compression would weigh on the stock."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TKM",
+      "company": "TREK METALS LIMITED",
+      "headline": "Additional Drilling Planned at the Kuro Manganese Discovery",
+      "time": "2026-08-18T22:34:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122666-6A1339123",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Kuro manganese discovery has generated sufficient confidence to warrant immediate follow-up drilling — a critical de-risking milestone that signals the initial intercepts were compelling enough to justify further capital allocation, typically a strong indicator of discovery quality in early-stage exploration.",
+        "Manganese is a strategically significant battery and steel-making material with growing institutional interest tied to the energy transition; a credible new discovery on the ASX could attract re-rating attention, particularly if follow-up drilling confirms grade and continuity at commercially relevant widths.",
+        "Next catalysts to watch are the drill program commencement date, target depth/spacing details, and whether Trek Metals has sufficient cash runway to complete the program without a dilutive capital raise — investors should scrutinise the most recent quarterly cash balance against projected exploration expenditure."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STP",
+      "company": "STEP ONE CLOTHING LIMITED",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-18T22:33:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122665-2A1690310",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results flagged as market sensitive, signalling material deviation from prior expectations — investors should brace for significant earnings surprise (positive or negative) relative to consensus, with Step One's direct-to-consumer underwear model making revenue and margin trajectory the key focal points.",
+        "Step One's capital-light, digitally-native business model means profitability metrics (EBITDA margin, customer acquisition cost trends, and repeat purchase rates) will be the critical numbers to scrutinise — any deterioration in unit economics amid elevated digital advertising costs would be a structural concern for the growth thesis.",
+        "With no broker coverage and a concentrated retail shareholder base, the market-sensitive classification amplifies price volatility risk on release; institutional investors should watch for guidance on FY27 revenue growth targets and whether the UK/international expansion is delivering sufficient scale to justify ongoing investment."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HSN",
+      "company": "HANSEN TECHNOLOGIES LIMITED",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-18T22:33:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122664-3A699096",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation flagged as market sensitive, signalling material financial outcomes that could meaningfully shift consensus estimates — investors should scrutinise revenue growth trajectory and EBITDA margin expansion given Hansen's ongoing integration of acquired billing software assets.",
+        "Key metrics to watch include recurring revenue mix (historically ~85%+ of group revenue), free cash flow conversion, and any update on net debt position following prior M&A activity — deterioration in any of these would pressure the premium multiple the stock typically commands.",
+        "Forward guidance and commentary on pipeline momentum across utilities, energy, and telco verticals will be critical; any upgrade to FY27 outlook or confirmation of cross-sell synergies from recent acquisitions would serve as a re-rating catalyst for this mid-cap technology compounder."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BOL",
+      "company": "BOOM LOGISTICS LIMITED",
+      "headline": "Full Year Results Media Release",
+      "time": "2026-08-18T22:33:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122662-3A699095",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Boom Logistics' full-year results carry market-sensitive classification, signalling material variance from prior expectations — investors should scrutinise revenue trajectory and EBIT margin against FY24 consensus given the crane and lifting services sector remains exposed to infrastructure capex cycles and labour cost pressures.",
+        "Key metrics to watch include utilisation rates across the heavy lift fleet, net debt position relative to covenant thresholds, and whether operating cash flow supports the balance sheet without requiring equity dilution — any deterioration in these metrics would be a red flag for the leveraged industrial services model.",
+        "Forward outlook guidance will be critical: sustained infrastructure pipeline activity (particularly resources and energy transition projects in WA and QLD) could underpin a re-rating, but any softening in contract backlog or margin compression from wage inflation would likely pressure the stock given its thin historical margins and cyclical revenue base."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COD",
+      "company": "CODA MINERALS LTD",
+      "headline": "Oakden Shallow Copper Drilling Set to Commence",
+      "time": "2026-08-18T22:33:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122663-6A1339122",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Coda Minerals is initiating shallow drilling at its Oakden copper target, a near-term catalyst that could rapidly de-risk the project and validate surface geochemical anomalies — critical for a company whose valuation is heavily exploration-stage dependent.",
+        "Shallow drilling programs are capital-efficient and typically yield results within weeks, meaning the market could see assay data in the near term; a copper discovery at Oakden would materially re-rate the stock given the current elevated copper price environment (~US$4.50/lb) and global supply deficit narrative.",
+        "This announcement signals active exploration momentum at Coda's South Australian portfolio, which is strategically positioned in a proven copper belt; investors should watch for drill hole depths, target size estimates, and any structural geology commentary that frames the scale of the potential resource."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HSN",
+      "company": "HANSEN TECHNOLOGIES LIMITED",
+      "headline": "FY26 Release Announcement",
+      "time": "2026-08-18T22:32:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122661-3A699094",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FY26 release announcement flagged as market sensitive, signalling material financial or operational disclosures that could meaningfully reprice HSN — investors should treat this as a high-priority event requiring immediate review of revenue, EBITDA margins, and recurring revenue mix across Hansen's utility and telco billing segments.",
+        "Key metrics to scrutinise include organic revenue growth trajectory, progress on the Powercloud integration (a historically complex ERP migration), and any revision to cost synergy targets — these will be the primary valuation drivers given HSN's premium multiple is underpinned by sticky SaaS-like recurring revenues.",
+        "Forward guidance and capital allocation signals (dividend sustainability, M&A appetite, or debt reduction pace) will be critical for institutional positioning, particularly given rising interest rate sensitivity on Hansen's leveraged balance sheet from prior acquisitions — any upgrade or downgrade to FY26 outlook will likely drive outsized share price movement."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HSN",
+      "company": "HANSEN TECHNOLOGIES LIMITED",
+      "headline": "FY26 Appendix 4E",
+      "time": "2026-08-18T22:32:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122659-3A699093",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 4E filing signals FY26 full-year results are being lodged ahead of the formal annual report — investors should scrutinise revenue growth trajectory and EBITDA margins given Hansen's ongoing integration of acquired billing software assets and its recurring SaaS/managed services revenue mix.",
+        "Key metrics to watch include organic revenue growth versus acquisition-driven uplift, free cash flow conversion, and net debt position — Hansen has historically carried acquisition-related leverage, so any improvement in cash generation or debt reduction would be a meaningful positive catalyst.",
+        "The market-sensitive classification elevates urgency for institutional holders; near-term price action will hinge on whether FY26 results confirm management's ability to scale profitably amid a competitive utility and energy billing software market, with guidance for FY27 being the critical forward-looking signal."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SLC",
+      "company": "SUPERLOOP LIMITED",
+      "headline": "FY26 Results ASX Announcement",
+      "time": "2026-08-18T22:32:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122658-2A1690311",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results carry market-sensitive designation, signalling material variance from prior guidance or consensus expectations — investors should watch for revenue, EBITDA, and subscriber growth metrics relative to the company's stated FY26 targets of ~$500M+ revenue and double-digit EBITDA margin expansion as Superloop scales its consumer and wholesale broadband operations.",
+        "Superloop's growth thesis hinges on continued NBN market share gains and margin leverage from its owned-network infrastructure; any acceleration in ARPU improvement or churn reduction would validate the premium multiple the stock has historically commanded, while a miss on subscriber net adds or rising customer acquisition costs would pressure the bull case.",
+        "Key forward indicators to monitor include updated FY27 guidance, progress on the Exetel integration synergies, capital expenditure trajectory for network investment, and any commentary on free cash flow conversion — the latter being critical for assessing whether Superloop can self-fund growth without returning to equity markets."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STP",
+      "company": "STEP ONE CLOTHING LIMITED",
+      "headline": "FY26 Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-18T22:31:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122657-2A1690302",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Step One's FY26 annual report is market sensitive, signalling material financial outcomes that could meaningfully re-rate the stock — investors should scrutinise revenue trajectory and EBITDA margins given the company's direct-to-consumer model which typically delivers high operating leverage when scaling.",
+        "As a capital-light, digitally-native underwear brand with no physical retail footprint, key metrics to watch include customer acquisition cost trends, repeat purchase rates, and UK/international revenue contribution as offshore expansion remains the primary growth thesis for institutional holders.",
+        "With no debt and historically strong free cash flow conversion, the critical forward-looking question is whether management has upgraded or maintained FY27 guidance and whether the dividend payout ratio is sustained — any uplift in capital returns or earnings guidance would be a clear near-term catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SLC",
+      "company": "SUPERLOOP LIMITED",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-18T22:31:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122656-2A1690309",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation is market sensitive, signalling material financial outcomes that could meaningfully reprice SLC — investors should watch for EBITDA margin trajectory and whether the company is tracking toward its previously guided profitability inflection point following the Exetel integration.",
+        "Key metrics to scrutinise include subscriber growth across consumer and business broadband segments, ARPU trends, and whether operating leverage is materialising at scale — any acceleration in free cash flow generation would validate the bull case for the asset-light NBN reseller model.",
+        "Forward guidance and capital allocation commentary will be critical: with SLC having pursued an acquisitive growth strategy, the market will focus on whether management reaffirms a path to sustained positive FCF, reduces reliance on external funding, and signals organic growth momentum into FY27."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SLC",
+      "company": "SUPERLOOP LIMITED",
+      "headline": "FY26 Appendix 4E - Financial and Sustainability Report",
+      "time": "2026-08-18T22:31:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122654-2A1690307",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FY26 Appendix 4E filing signals Superloop has crossed a material reporting threshold, with the full-year financial and sustainability report representing the definitive scorecard on whether the company's consumer broadband growth strategy — anchored by the Exetel acquisition and organic NBN subscriber additions — has translated into meaningful EBITDA expansion and positive free cash flow inflection.",
+        "Investors will scrutinise revenue trajectory against prior guidance, with the key metric being whether subscriber growth in the consumer segment has driven sufficient operating leverage to narrow losses or confirm profitability — any miss on EBITDA margin or cash conversion relative to consensus will be the critical downside risk in this release.",
+        "The inclusion of a Sustainability Report alongside financials raises the prospect of ESG-linked covenant or reporting compliance milestones being met, while the market-sensitive designation suggests material new financial data is embedded — next focus will be FY27 guidance, capital allocation priorities, and whether debt facilities remain comfortably headroom-positive given ongoing infrastructure investment."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "3DA",
+      "company": "AMAERO INC.",
+      "headline": "Appendix 4E and Audited Financial Report",
+      "time": "2026-08-18T22:29:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122651-3A699090",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Amaero's Appendix 4E filing triggers mandatory scrutiny of cash runway and burn rate — as a pre-revenue or early-revenue advanced manufacturing company, the audited balance sheet will be critical in determining whether a capital raise is imminent or if existing liquidity can fund near-term titanium powder commercialisation milestones.",
+        "Revenue and gross margin trajectory from the C103 refractory alloy and titanium powder segments will be the key financial metrics to assess — any meaningful year-on-year revenue growth or first commercial shipments to defence/aerospace customers would represent a significant de-risking event for the investment thesis.",
+        "Auditor sign-off and going concern language (or absence thereof) will be the immediate market focus — a clean audit opinion with no material uncertainty clause would be a positive catalyst, while any qualification or emphasis of matter paragraph could trigger near-term selling pressure given the company's growth-stage profile."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVN",
+      "company": "EVOLUTION MINING LIMITED",
+      "headline": "FY26 Full Year Financial results and Final Dividend",
+      "time": "2026-08-18T22:27:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122649-2A1690305",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "FY26 full-year financial results carry market-sensitive classification, signalling material earnings outcomes that will reset consensus estimates — investors should brace for significant price discovery at open as the market digests headline NPAT, EBITDA, and free cash flow metrics against prior guidance.",
+        "Final dividend declaration is a key capital return signal for EVN shareholders — the quantum relative to FY25 payout will indicate management's confidence in balance sheet strength, debt reduction progress post-Red Lake and Ernest Henry acquisitions, and sustainability of cash generation at elevated gold prices (~A$5,000/oz).",
+        "With gold prices at multi-year highs and EVN's production base now materially larger, the results will be scrutinised for all-in sustaining cost (AISC) performance, net debt trajectory, and any FY27 guidance update — these factors will determine whether the stock re-rates toward NAV or faces margin-compression concerns from cost inflation."
+      ],
+      "tags": [
+        "Results",
+        "Dividend",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EVN",
+      "company": "EVOLUTION MINING LIMITED",
+      "headline": "Appendix 4E and FY26 Financial Report",
+      "time": "2026-08-18T22:26:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122646-2A1690301",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FY26 full-year financial results filing signals Evolution has completed its reporting period — institutional focus will immediately centre on EBITDA margins, free cash flow generation, and whether the Red Lake and Cowal assets delivered on production guidance after a year of operational optimisation efforts.",
+        "The Appendix 4E classification as market sensitive elevates scrutiny on key metrics including net profit after tax, gold equivalent ounces sold, all-in sustaining costs (AISC), and any movement in net debt position — particularly given Evolution's ~A$1B+ debt load carried from prior acquisitions including the Northparkes copper-gold mine.",
+        "Investors should watch for dividend declaration or capital management commentary alongside FY27 production and cost guidance, as Evolution's ability to convert higher spot gold prices (averaging ~A$4,000/oz in H2 FY26) into shareholder returns will be the critical determinant of near-term re-rating potential."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BOL",
+      "company": "BOOM LOGISTICS LIMITED",
+      "headline": "Appendix 4E Preliminary Final Report FY26",
+      "time": "2026-08-18T22:25:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122644-3A699088",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Boom Logistics' FY26 Preliminary Final Report is market-sensitive, signalling material financial outcomes that could meaningfully shift consensus expectations — investors should watch closely for revenue trajectory, EBIT margins, and any impairment charges given the company's ongoing crane and lifting services transformation strategy.",
+        "Key metrics to scrutinise include utilisation rates across the heavy lift fleet, net debt position relative to prior periods, and whether operating cash flow conversion has improved — these are the core levers determining whether the turnaround thesis is gaining traction or stalling.",
+        "Forward guidance embedded in the Appendix 4E will be critical: any commentary on contract pipeline, capital allocation priorities (fleet renewal vs. debt reduction), or dividend reinstatement would serve as a meaningful re-rating catalyst for this capital-intensive industrial services business."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BRK",
       "company": "BROOKSIDE ENERGY LIMITED",
