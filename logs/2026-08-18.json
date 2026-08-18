@@ -1,9 +1,86 @@
 {
   "date": "2026-08-18",
-  "total": 152,
-  "market_sensitive_count": 143,
-  "generated_at": "2026-08-18T01:43:56.709912+00:00",
+  "total": 156,
+  "market_sensitive_count": 147,
+  "generated_at": "2026-08-18T03:26:02.168711+00:00",
   "announcements": [
+    {
+      "ticker": "ASM",
+      "company": "AUSTRALIAN STRATEGIC MATERIALS LIMITED",
+      "headline": "Federal Court of Australia approves Schemes",
+      "time": "2026-08-18T03:21:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122347-6A1338993",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Federal Court approval of the Schemes removes the final major legal hurdle, making the transaction effectively unconditional and significantly de-risking the deal timeline for both acquirer and ASM shareholders.",
+        "Court sanction typically triggers the implementation timetable within days, meaning shareholders can now anticipate near-term receipt of scheme consideration — a hard catalyst for price convergence toward the offer price and elimination of deal-spread uncertainty.",
+        "Investors should monitor the Scheme Record Date and implementation date announcements closely, as any residual discount to offer price represents a short-duration arbitrage opportunity; failure to close that gap would signal unusual market concern about settlement risk."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AQC",
+      "company": "AUSTRALIAN PACIFIC COAL LIMITED",
+      "headline": "Decision on Statutory Demand from M Resources",
+      "time": "2026-08-18T03:17:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122345-2A1690144",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Pacific Coal faces a critical liquidity and solvency risk event — a statutory demand from M Resources signals a formal legal mechanism that, if unmet within 21 days, could trigger a presumption of insolvency and expose the company to winding-up proceedings under the Corporations Act.",
+        "The market-sensitive classification underscores the materiality of this dispute; the quantum of the statutory demand and APC's capacity to pay, refinance, or successfully challenge it in court will be the decisive factors determining near-term corporate survival and share value.",
+        "Investors should monitor urgently for APC's response strategy — whether the company elects to comply, negotiate a settlement with M Resources, or apply to the Supreme Court to have the demand set aside — as the outcome will directly determine the company's operational continuity and any potential administration or restructuring scenario."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NYR",
+      "company": "NYRADA INC.",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-18T03:05:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122340-2A1690146",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Preliminary Final Report signals year-end financial close for Nyrada — investors should scrutinise cash burn rate and remaining runway given the company's pre-revenue, clinical-stage status in neuroprotection and cholesterol-lowering drug development.",
+        "Key metrics to watch include operating expenditure trajectory, R&D spend allocation, and any impairment of intangible assets, as these will determine whether Nyrada needs to return to market for additional capital in the near term.",
+        "With no disclosed revenue-generating products, the outlook hinges entirely on clinical trial milestones — any commentary on program timelines, partnering discussions, or grant funding will be critical signals for institutional positioning ahead of the AGM cycle."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CZR",
+      "company": "CZR RESOURCES LTD",
+      "headline": "Drilling extends known mineralisation at Top and Bottom Camp",
+      "time": "2026-08-18T02:53:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122332-6A1338985",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling has successfully extended mineralisation at both the Top and Bottom Camp prospects, a market-sensitive outcome that de-risks the resource envelope and supports a potential resource upgrade — a critical value inflection point for a junior explorer like CZR Resources.",
+        "The extension of known mineralisation at multiple zones simultaneously signals structural continuity across the deposit, increasing the probability of a materially larger resource estimate and improving the project's attractiveness to potential acquirers or joint venture partners.",
+        "Near-term catalysts to watch include updated resource modelling, further step-out drilling programs, and any move toward a maiden or upgraded JORC resource estimate — each of which could serve as a re-rating event for the stock given the market-sensitive classification of this result."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "DBO",
       "company": "DIABLO RESOURCES LIMITED",
