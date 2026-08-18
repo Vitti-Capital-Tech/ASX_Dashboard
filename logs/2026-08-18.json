@@ -1,9 +1,84 @@
 {
   "date": "2026-08-18",
-  "total": 156,
-  "market_sensitive_count": 147,
-  "generated_at": "2026-08-18T03:26:02.168711+00:00",
+  "total": 160,
+  "market_sensitive_count": 149,
+  "generated_at": "2026-08-18T04:21:00.372498+00:00",
   "announcements": [
+    {
+      "ticker": "ZNC",
+      "company": "ZENITH MINERALS LIMITED",
+      "headline": "Third Supplementary Target's Statement",
+      "time": "2026-08-18T04:17:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122360-6A1338998",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A Third Supplementary Target's Statement signals the takeover contest for Zenith Minerals remains actively contested, with the target board likely responding to updated bidder disclosures or revised offer terms — indicating the deal is not yet resolved and shareholders face a live decision point.",
+        "The issuance of multiple supplementary statements (now a third) suggests material new information has emerged since the original Target's Statement, potentially including revised valuations, independent expert updates, or changes to offer conditions that could materially affect the implied premium or deal certainty.",
+        "Institutional holders should reassess their position in light of the updated board recommendation and any revised independent expert opinion — the trajectory of supplementary statements typically narrows toward either a declared unconditional offer or a competing bid scenario, both of which carry near-term price catalysts."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "Second Supplementary Bidder's Statement",
+      "time": "2026-08-18T03:42:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122353-6A1338995",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A Second Supplementary Bidder's Statement signals the takeover bid for Forrestania Resources has encountered material developments requiring updated disclosure — likely reflecting revised offer terms, updated target financials, or regulatory/ASIC-driven amendments that could alter bid economics for shareholders.",
+        "The market-sensitive classification elevates urgency: institutional investors should scrutinise the supplementary document for any changes to offer price, conditions precedent, minimum acceptance thresholds, or funding arrangements that could shift the probability of bid success or trigger a competing offer.",
+        "Next steps hinge on the revised bid timeline — investors should monitor the updated offer closing date, any independent expert report revisions, and whether the bidder has crossed key acceptance milestones (e.g. 50.1% or 90% compulsory acquisition threshold), as these will be the primary near-term price catalysts."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BIT",
+      "company": "BIOTRON LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-18T03:40:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122352-2A1690152",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a shift in the ownership structure of Biotron Limited (BIT), indicating that a major shareholder has either increased or decreased their position beyond the 5% disclosure threshold — a move that warrants close monitoring for directional intent.",
+        "For a micro-cap biotech like Biotron, movements at the substantial holder level can have outsized influence on liquidity and price discovery; any reduction in a key holder's stake may signal waning conviction in the company's antiviral pipeline, while an increase could reflect strategic accumulation ahead of clinical milestones.",
+        "Investors should cross-reference this filing with Biotron's current cash position and anticipated trial readouts — if a cornerstone holder is exiting, it may compound funding risk for a company that has historically relied on equity markets to advance its HIV and HCV programs."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMH",
+      "company": "BAUMART HOLDINGS LIMITED",
+      "headline": "Initial Substantial Holder Notice",
+      "time": "2026-08-18T03:34:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122349-6A1338994",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Baumart Holdings Limited (ASX: BMH), signalling that an entity has crossed the 5% ownership threshold — a legally mandated disclosure trigger under the Corporations Act 2001 that warrants close monitoring of accumulation intent.",
+        "The identity, associated voting power percentage, and acquisition cost of the substantial holder are critical details within this notice; institutional investors should scrutinise whether the stake was built via on-market purchases or off-market arrangements, as this informs whether a premium-seeking activist or strategic acquirer is involved.",
+        "While classified as not market sensitive, the emergence of a substantial holder in a small-cap like Baumart can precede takeover approaches, board influence campaigns, or strategic partnerships — investors should watch for any follow-on 'change of substantial holder' notices or director appointment announcements as leading indicators of intent."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ASM",
       "company": "AUSTRALIAN STRATEGIC MATERIALS LIMITED",
