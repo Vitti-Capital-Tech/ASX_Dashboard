@@ -1,9 +1,181 @@
 {
   "date": "2026-08-19",
-  "total": 100,
-  "market_sensitive_count": 96,
-  "generated_at": "2026-08-18T22:45:02.543007+00:00",
+  "total": 109,
+  "market_sensitive_count": 105,
+  "generated_at": "2026-08-18T22:57:06.643439+00:00",
   "announcements": [
+    {
+      "ticker": "BH6",
+      "company": "BROKEN HILL GOLD LTD",
+      "headline": "White Dam Gold-Copper Project Update",
+      "time": "2026-08-18T22:51:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122705-3A699108",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material new information at White Dam — likely a resource update, drill result, or development decision that could meaningfully re-rate the project's economic profile and BHG's valuation.",
+        "White Dam's gold-copper polymetallic nature provides dual commodity exposure at a time when copper is trading near multi-year highs, potentially enhancing project economics and attracting strategic interest beyond pure gold investors.",
+        "Investors should watch for updated resource estimates, metallurgical results, or a development pathway announcement as next catalysts — any positive revision to contained metal or mine-life extension would be a key de-risking milestone for this early-stage developer."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MME",
+      "company": "MONEYME LIMITED",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-18T22:49:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122704-2A1690335",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results announcement is market-sensitive, signalling material financial outcomes that could meaningfully re-rate MME's valuation — investors should watch closely for loan book trajectory, net interest margin compression or expansion, and credit loss trends given the company's exposure to near-prime consumer lending in a high-rate environment.",
+        "Key metrics to scrutinise include originations volume, cash NPAT versus statutory NPAT (given significant non-cash amortisation of intangibles from prior acquisitions), and whether the company has returned to sustainable profitability after prior restructuring efforts to right-size its cost base and funding stack.",
+        "Forward guidance on funding diversification — particularly warehouse facility headroom, ABS issuance pipeline, and cost of funds — will be critical to assessing MME's ability to grow the loan book profitably into FY27 without requiring dilutive equity capital, making this a pivotal disclosure for the investment thesis."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MME",
+      "company": "MONEYME LIMITED",
+      "headline": "Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-18T22:49:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122701-2A1690333",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual report filing signals completion of FY2026 reporting cycle for MoneyMe — investors will scrutinise net interest margin trajectory and credit loss provisions given the consumer lending sector's ongoing exposure to elevated interest rates and cost-of-living pressures on borrower quality.",
+        "Key metrics to watch include loan book size, arrears rates, and statutory vs. cash NPAT — any deterioration in 30+ day delinquencies or a shrinking receivables book would confirm ongoing balance sheet de-risking at the cost of growth, a trade-off that has defined MoneyMe's recent strategic posture.",
+        "With the Appendix 4E lodged as market sensitive, guidance commentary and any capital adequacy or funding facility updates will be critical near-term catalysts — MoneyMe's reliance on warehouse funding lines makes refinancing terms and credit facility headroom a key watch item for institutional holders."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LYL",
+      "company": "LYCOPODIUM LIMITED",
+      "headline": "FY2026 Shareholder Report",
+      "time": "2026-08-18T22:48:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122700-6A1339131",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FY2026 Shareholder Report signals a forward-looking capital allocation and operational update from Lycopodium, a niche engineering consultancy with strong exposure to African and global mining project pipelines — market-sensitive classification suggests material guidance or financial metrics are disclosed that could reset consensus expectations.",
+        "Lycopodium's earnings quality is underpinned by its fixed-price contract model and high-margin project management fees; any commentary on order book depth, revenue backlog, or margin trajectory will be critical for assessing whether the stock's premium valuation (~15-18x earnings historically) remains justified.",
+        "Key watch items for institutional investors include FY2026 revenue guidance versus FY2025 actuals, dividend sustainability given the company's historically high payout ratio (>80%), and any signals on project award timing in gold and copper sectors — both of which are experiencing elevated capex activity that directly benefits Lycopodium's addressable market."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LYL",
+      "company": "LYCOPODIUM LIMITED",
+      "headline": "FY2026 Full Year Results Announcement",
+      "time": "2026-08-18T22:47:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122699-6A1339128",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY2026 full-year results from Lycopodium (LYL) carry market-sensitive classification, signalling material deviation from prior expectations — investors should watch closely for earnings surprises relative to consensus given the engineering/project delivery firm's lumpy revenue recognition tied to project milestones.",
+        "As a capital-light professional services firm with historically strong margins (EBIT margins ~15-20%) and a net cash balance sheet, the key metrics to scrutinise are NPAT trajectory, order book/backlog size, and any dividend declaration — LYL has a strong franked dividend track record that directly drives retail and income-focused institutional demand.",
+        "Outlook commentary will be critical: with global mining capex cycles accelerating across gold, copper and critical minerals — LYL's core client base — any upgrade to FY2027 pipeline guidance or new contract wins disclosed alongside results would be a meaningful re-rating catalyst for this thinly covered mid-cap."
+      ],
+      "tags": [
+        "Results",
+        "Dividend",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SGP",
+      "company": "STOCKLAND",
+      "headline": "Stockland FY26 Results Presentation & Annexure",
+      "time": "2026-08-18T22:45:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122693-2A1690328",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation signals a pivotal earnings update for one of ASX's largest diversified property groups — institutional focus will centre on FFO (Funds From Operations) per security trajectory and whether residential land lease and masterplanned communities volumes are recovering in line with prior guidance amid persistent affordability headwinds.",
+        "Key metrics to watch include net tangible assets (NTA) per security movement, gearing levels relative to the ~25-30% target range, and any revaluation gains or impairments across the commercial property and logistics portfolios, which have faced cap rate pressure in the rising rate environment.",
+        "Forward guidance on residential settlements, commercial portfolio occupancy, and capital recycling initiatives (including any asset divestments or development pipeline activations) will be critical in determining whether management can credibly rerate the stock toward its NTA — currently a key valuation discount driver for institutional holders."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SGP",
+      "company": "STOCKLAND",
+      "headline": "Stockland delivers FY26 result at top end of guidance",
+      "time": "2026-08-18T22:44:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122691-2A1690325",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Top-end guidance delivery signals operational execution strength — institutional investors will focus on whether FFO per security and distribution guidance for FY27 is upgraded or maintained, as this sets the re-rating catalyst for the stock.",
+        "Stockland's diversified model across masterplanned communities, logistics, and workplace assets means the FY26 beat likely reflects residential land contract conversions accelerating amid RBA rate cut tailwinds, a key volume driver to watch in the results detail.",
+        "With the stock trading at a discount to NTA, a guidance beat at the top end materially reduces downside risk and could trigger a compression of that discount — next focus is FY27 EPS/DPS guidance and any capital recycling or development pipeline updates that underpin forward earnings visibility."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NXD",
+      "company": "NEXTED GROUP LIMITED",
+      "headline": "NextEd Group Announces CEO Transition",
+      "time": "2026-08-18T22:43:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122689-6A1339129",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CEO transition at a market-sensitive level signals a potentially abrupt or unplanned leadership change, raising governance concerns and execution risk during what remains a challenging period for private education providers navigating post-COVID international student enrolment recovery.",
+        "Investor focus will centre on whether the departing CEO's exit is performance-driven — given NextEd's history of revenue pressure and margin compression across its vocational and higher education segments — or strategically timed, as either scenario materially affects near-term operational continuity.",
+        "Key watch points include the identity and track record of the incoming CEO, any associated severance costs impacting the balance sheet, and whether the board provides updated FY guidance alongside the transition announcement, as leadership instability can delay strategic initiatives and partner/student confidence."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TLC",
+      "company": "THE LOTTERY CORPORATION LIMITED",
+      "headline": "Appendix 4E and Annual Report 2026",
+      "time": "2026-08-18T22:42:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122684-3A699104",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual Report filing for FY2026 signals completion of full-year results disclosure — investors will scrutinise lottery ticket sales volumes, digital penetration rates, and any margin compression from rising operating costs against a backdrop of subdued consumer discretionary spending in Australia.",
+        "Key financial metrics to watch include EBITDA margin trajectory, free cash flow conversion, and dividend payout ratio — TLC has historically maintained a high-yield distribution policy, and any deviation from ~100% payout guidance would be a material re-rating catalyst in either direction.",
+        "Strategic outlook focus will centre on digital channel growth (lotteries.com.au and Keno app adoption), regulatory developments across state lottery licences, and capital allocation priorities — particularly whether management signals reinvestment, licence renewal capex, or further shareholder returns given the asset-light, cash-generative business model."
+      ],
+      "tags": [
+        "Results",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AMU",
       "company": "AMERICAN URANIUM LTD",
