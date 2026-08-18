@@ -1,9 +1,86 @@
 {
   "date": "2026-08-18",
-  "total": 148,
-  "market_sensitive_count": 142,
-  "generated_at": "2026-08-18T00:23:26.186229+00:00",
+  "total": 152,
+  "market_sensitive_count": 143,
+  "generated_at": "2026-08-18T01:43:56.709912+00:00",
   "announcements": [
+    {
+      "ticker": "DBO",
+      "company": "DIABLO RESOURCES LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-18T01:30:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122310-6A1338980",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Diablo Resources Limited, crossing the 5% ownership threshold — a key regulatory trigger that signals meaningful accumulation and potential strategic interest in the junior explorer.",
+        "The identity, entry price, and total voting power of the incoming substantial holder are critical details to assess whether this represents passive index-style accumulation or a more concentrated, activist-leaning position that could influence corporate direction.",
+        "For a small-cap ASX explorer like Diablo Resources, the emergence of a substantial holder can be a precursor to board engagement, capital raise participation, or M&A activity — investors should monitor subsequent Form 604 notices for any changes in the holder's position."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DRR",
+      "company": "DETERRA ROYALTIES LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-08-18T01:17:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122305-6A1338979",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A major institutional holder has dropped below the 5% substantial shareholder threshold in Deterra Royalties (DRR), signalling a meaningful reduction in their stake — this type of exit by a large fund can create near-term technical selling pressure as the market absorbs the overhang.",
+        "The cessation filing indicates the departing holder's position has fallen below the ~5% disclosure trigger, implying a disposal of a material block of DRR shares; given DRR's relatively concentrated register as a royalty-focused spin-off from Iluka Resources, the loss of a substantial holder can shift the institutional ownership profile meaningfully.",
+        "Investors should monitor whether this represents profit-taking, a portfolio rebalancing, or a more fundamental reassessment of DRR's royalty income outlook — particularly in the context of iron ore price volatility and the MAC royalty stream tied to BHP's Mining Area C operations, which underpins the bulk of DRR's revenue."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ANN",
+      "company": "ANSELL LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-08-18T01:04:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122301-3A699054",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A major institutional investor has fallen below the 5% substantial holder threshold in Ansell Limited (ASX: ANN), triggering a mandatory disclosure — this signals a meaningful reduction in a previously significant strategic or passive stake.",
+        "The exit of a substantial holder can introduce near-term selling pressure and reduced institutional sponsorship, though the scale of impact depends on whether the disposal was gradual or concentrated — the filing itself does not confirm the full exit quantum or counterparty.",
+        "Investors should monitor subsequent 'change in substantial holding' notices and on-market volume patterns to assess whether this represents profit-taking, portfolio rebalancing, or a more deliberate de-risking of exposure to Ansell's global protective solutions business amid ongoing margin recovery efforts."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AXP",
+      "company": "AXP ENERGY LIMITED",
+      "headline": "AXP Advances Gas-to-Power with First Oklahoma Project",
+      "time": "2026-08-18T00:27:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122291-2A1690112",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AXP Energy's first Oklahoma gas-to-power project marks a critical strategic pivot from pure gas production to vertically integrated power generation, potentially unlocking significantly higher margins by capturing electricity revenue rather than selling raw gas at wellhead prices — a model that can command 3-5x the value per Mcf equivalent.",
+        "The gas-to-power model directly addresses AXP's core challenge of monetising stranded or low-pressure gas assets in Oklahoma, where pipeline access and gas pricing have historically constrained realised revenues; on-site power generation bypasses midstream bottlenecks and creates a more predictable, contracted revenue stream.",
+        "Execution risk remains the key watch point — investors should monitor project capex requirements, offtake or power purchase agreement details, and timeline to first power generation, as this is a capital-intensive step-change that could require additional funding and will be the primary determinant of whether the strategy is value-accretive or dilutive."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ZNC",
       "company": "ZENITH MINERALS LIMITED",
