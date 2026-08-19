@@ -1,9 +1,47 @@
 {
   "date": "2026-08-19",
-  "total": 178,
-  "market_sensitive_count": 174,
-  "generated_at": "2026-08-19T00:03:27.812600+00:00",
+  "total": 180,
+  "market_sensitive_count": 176,
+  "generated_at": "2026-08-19T00:23:38.466333+00:00",
   "announcements": [
+    {
+      "ticker": "MGU",
+      "company": "MAGNUM MINING AND EXPLORATION LIMITED",
+      "headline": "MAGNUM MINING CORPORATE AND ACTIVITIES UPDATE",
+      "time": "2026-08-19T00:06:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122849-6A1339181",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Without the full document text, the 'corporate and activities update' framing is typically used to consolidate multiple operational and strategic developments — the market-sensitive flag signals at least one material disclosure requiring immediate investor attention, potentially covering exploration results, funding, or asset developments.",
+        "The market-sensitive designation elevates risk of a binary price reaction; institutional investors should assess whether the update contains resource estimate changes, capital structure events, or partnership/JV announcements that could materially reprice the stock from its current small-cap base.",
+        "Next steps hinge on the substance of the update — if exploration milestones or a capital raise are confirmed, near-term catalysts could include a follow-on drilling program or shareholder dilution; monitoring volume and any accompanying investor presentation will be critical to gauging management's confidence in the disclosed developments."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADC",
+      "company": "ACDC METALS LTD",
+      "headline": "Maiden Drill Program Planned at Mount Jackson Gold Project",
+      "time": "2026-08-19T00:04:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122847-3A699141",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ACDC Metals is advancing its Mount Jackson Gold Project to maiden drilling — a critical de-risking milestone that transforms the asset from a conceptual target to a drill-tested prospect, directly catalysing re-rating potential for this early-stage explorer.",
+        "The market-sensitive classification signals management expects the drilling program details (target depth, hole count, and geophysical anomaly size) to be materially price-relevant — investors should scrutinise the scale and grade of historical surface sampling or geophysical data underpinning drill target selection.",
+        "Near-term newsflow will be dominated by drill commencement and assay results, which typically arrive 4–8 weeks post-drilling; any intersection of meaningful gold mineralisation at Mount Jackson could act as a significant share price catalyst, while a null result carries material downside risk for this single-project-focused junior."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "MRD",
       "company": "MOUNT RIDLEY MINES LIMITED",
