@@ -1,9 +1,47 @@
 {
   "date": "2026-08-19",
-  "total": 187,
-  "market_sensitive_count": 181,
-  "generated_at": "2026-08-19T01:44:57.975989+00:00",
+  "total": 189,
+  "market_sensitive_count": 182,
+  "generated_at": "2026-08-19T02:33:49.944500+00:00",
   "announcements": [
+    {
+      "ticker": "AAM",
+      "company": "AUMEGA METALS LTD",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-19T02:02:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122893-6A1339196",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has crossed the 5% ownership threshold in Aumega Metals Ltd, signalling meaningful accumulation by a single entity and potential conviction in the company's exploration or asset value thesis.",
+        "The emergence of a substantial holder can tighten the effective free float, which in a small-cap mining stock like Aumega may amplify price volatility on both upside and downside moves — a key liquidity consideration for institutional positioning.",
+        "Investors should monitor whether this represents a strategic cornerstone stake (e.g. a resource fund, major shareholder, or potential acquirer building a position), as follow-on disclosures or a creep strategy could signal M&A intent or a future capital raise participation."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASM",
+      "company": "AUSTRALIAN STRATEGIC MATERIALS LIMITED",
+      "headline": "Schemes become effective",
+      "time": "2026-08-19T01:45:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122888-6A1339194",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The schemes becoming effective marks a binding, court-sanctioned milestone — this is the point of no return for the transaction, meaning the merger or acquisition is now legally locked in and cannot be unwound without significant legal consequence, removing deal-completion risk for arbitrageurs.",
+        "Effective scheme status typically triggers compulsory share transfer and cash/scrip settlement within days (usually T+5 to T+10), meaning ASM shareholders should expect imminent receipt of consideration and the stock will likely enter a trading halt or be suspended pending delisting from the ASX.",
+        "For institutional holders, the key next step is confirming the scheme record date and payment/implementation date to manage portfolio rebalancing and tax event timing — any residual spread to the scheme consideration price represents a near-zero-risk capture opportunity in the final trading window."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "PER",
       "company": "PERCHERON THERAPEUTICS LIMITED",
