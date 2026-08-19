@@ -1,9 +1,316 @@
 {
   "date": "2026-08-20",
-  "total": 133,
-  "market_sensitive_count": 129,
-  "generated_at": "2026-08-19T22:59:26.945811+00:00",
+  "total": 149,
+  "market_sensitive_count": 145,
+  "generated_at": "2026-08-19T23:10:26.900603+00:00",
   "announcements": [
+    {
+      "ticker": "GMG",
+      "company": "GOODMAN GROUP",
+      "headline": "Full Year Results Presentation Updated",
+      "time": "2026-08-19T23:07:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123385-2A1690646",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "An updated Full Year Results presentation from Goodman Group is a market-sensitive filing, signalling a material correction or clarification to previously disclosed financials — investors should cross-reference the revised document against the original release to identify any changes to operating EPS, AUM figures, or development workbook valuations.",
+        "Goodman's FY results are closely watched for its data centre-driven development pipeline and AUM growth trajectory; any revision to development completions, work-in-progress yields, or partnership earnings could meaningfully shift consensus estimates for FY25 operating earnings per security guidance.",
+        "Institutional investors should treat this update as a priority review item — if the revision corrects upward (e.g. restated partnership income or higher development margins), it reinforces the bullish data centre thesis; a downward correction would pressure the premium multiple GMG currently commands relative to global industrial REIT peers."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TTM",
+      "company": "TITAN MINERALS LIMITED",
+      "headline": "Discovery of Shear Hosted Gold at Dynasty",
+      "time": "2026-08-19T23:05:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123380-6A1339386",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Discovery of shear-hosted gold mineralisation at the Dynasty project represents a structurally significant find — shear-hosted systems are typically high-grade, continuous, and amenable to underground mining, potentially upgrading the project's economic profile materially beyond existing resource estimates.",
+        "The market-sensitive classification signals management confidence in the materiality of the find; investors should watch for assay results and intercept widths in follow-up releases, as these will be the key valuation catalysts determining whether this is a district-scale discovery or an isolated occurrence.",
+        "Next steps will likely include systematic RC/diamond drilling to test strike and depth extensions of the shear zone — a positive outcome could trigger a resource upgrade cycle, attract M&A interest in Titan's Ecuador-focused portfolio, and support a capital raise at a premium to fund accelerated exploration."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TTX",
+      "company": "TETRATHERIX LIMITED",
+      "headline": "Appendix 4E and Annual Report 2026",
+      "time": "2026-08-19T23:05:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123379-2A1690637",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual report filing for FY2026 is market-sensitive, signalling material financial disclosures that could meaningfully move the stock — investors should scrutinise revenue trajectory, EBITDA margins, and any impairment charges relative to prior guidance.",
+        "As a small-cap ASX entity, key metrics to watch include cash burn rate and runway — if cash reserves have deteriorated without a clear path to revenue or a capital raise, downside risk is elevated; conversely, any surprise profitability or improved operating leverage would be a catalyst.",
+        "The Appendix 4E preliminary final report triggers ASX continuous disclosure obligations, meaning any material variance from prior earnings guidance or analyst consensus will be immediately actionable — institutional investors should cross-reference against any FY2026 guidance previously issued and assess whether auditor sign-off raises going concern flags."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TD1",
+      "company": "TALI DIGITAL LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-19T23:04:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123378-3A699268",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt requested by Tali Digital (TD1) pending a material announcement — the market-sensitive classification signals a potentially significant corporate event is imminent, likely a capital raise, M&A activity, or major partnership given the company's small-cap digital health profile.",
+        "As a micro-cap ASX-listed digital therapeutics company with historically limited revenue and ongoing cash burn, any capital raise emerging from this halt would carry meaningful dilution risk for existing shareholders and warrants close monitoring of pricing and structure.",
+        "Investors should watch for the lifting of the halt and accompanying announcement within the standard 2-trading-day ASX window — the nature of the disclosure will be the key determinant of whether this resolves as a value-accretive catalyst or a dilutive capital event."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Appendix 4E and FY26 Annual Financial Report",
+      "time": "2026-08-19T23:02:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123374-2A1690634",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "FY26 annual results filing signals completion of full-year reporting cycle for Eureka Group, a specialist affordable seniors rental accommodation operator — investors will scrutinise occupancy rates, rental yield growth, and EBITDA margins against the backdrop of Australia's tightening aged-care housing supply dynamics.",
+        "Key financial metrics to watch include net rental income trajectory, debt facility headroom, and any movement in NTA per share, given Eureka's asset-heavy balance sheet and reliance on stable cash flows from its village portfolio to service borrowings and fund expansion.",
+        "Forward guidance on pipeline acquisitions or development activity will be critical — Eureka has been actively growing its village count, and any commentary on capital allocation, settlement timelines, or funding strategy will shape near-term re-rating potential in a sector attracting increasing institutional interest."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CDA",
+      "company": "CODAN LIMITED",
+      "headline": "Full Year Results Investor Presentation FY26",
+      "time": "2026-08-19T23:00:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123372-2A1690636",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 full-year results presentation signals Codan has delivered on its dual-segment growth strategy across Communications and Metal Detection — institutional focus will be on whether revenue and EBITDA margins have expanded beyond FY25's ~A$560M revenue and ~30% EBITDA margin benchmarks, with any beat likely to re-rate the stock given its premium multiple.",
+        "Market-sensitive classification indicates material earnings news is embedded in this release — key metrics to watch include organic vs. acquisition-driven revenue growth, free cash flow conversion, and net debt position following the Zetron integration and ongoing M&A appetite that has defined Codan's capital allocation in recent years.",
+        "Forward guidance and order book commentary will be critical for institutional positioning — with Codan's Communications division exposed to defence, public safety, and emerging-market demand tailwinds, any upgrade to FY27 outlook or commentary on pipeline strength could act as a near-term catalyst, while margin compression or integration headwinds would be the primary downside risk."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GL1",
+      "company": "GLOBAL LITHIUM RESOURCES LIMITED",
+      "headline": "Manna Clearing Permit and Groundwater Licence secured",
+      "time": "2026-08-19T22:59:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123369-6A1339377",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Securing the Manna Clearing Permit and Groundwater Licence removes two critical regulatory bottlenecks that had been gating construction commencement at the Manna Lithium Project — this is a de-risking milestone that directly compresses the timeline to first production and reduces sovereign/permitting risk premium in the stock.",
+        "The groundwater licence approval is particularly significant as water access is a non-negotiable operational input for lithium processing; without it, project financing conversations with lenders and offtake partners could not advance with confidence — its receipt materially strengthens the bankability case for Manna.",
+        "With permitting now substantially de-risked, the market will focus on Global Lithium's next catalysts: finalising project financing, progressing a Definitive Feasibility Study (DFS) or construction decision, and any strategic partnership or M&A interest — all of which become more credible with these approvals in hand despite the current subdued lithium price environment."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CDA",
+      "company": "CODAN LIMITED",
+      "headline": "Full Year Results Announcement FY26",
+      "time": "2026-08-19T22:58:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123365-2A1690633",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 full-year results carry market-sensitive classification, signalling material variance from prior guidance or consensus expectations — investors should brace for significant price discovery at open as institutional desks reprice positions.",
+        "Key metrics to watch include revenue growth trajectory across Codan's two core divisions (Metal Detection and Communications), EBITDA margin expansion or compression, and any update on the integration of recent acquisitions such as Zetron — these will determine whether the premium multiple is justified.",
+        "Forward guidance and capital allocation commentary will be critical: any upgrade to FY27 outlook, sustained free cash flow generation, or dividend increase would reinforce the bull case, while margin headwinds from FX exposure or supply chain costs could temper enthusiasm despite top-line growth."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NOU",
+      "company": "NOUMI LIMITED",
+      "headline": "FY26 Results Investor Presentation",
+      "time": "2026-08-19T22:57:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123362-2A1690621",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 investor presentation signals Noumi has reached a reporting milestone post-restructuring, with institutional focus squarely on whether the dairy and plant-based foods business has achieved sustainable EBITDA profitability after years of balance sheet repair and asset disposals",
+        "Key metrics to scrutinise include revenue trajectory across core Fresh Dairy and UHT segments, gross margin recovery, and net debt levels — any meaningful reduction in leverage or return to positive free cash flow would represent a material re-rating catalyst for a stock that has traded at distressed multiples",
+        "Forward guidance and commentary on input cost normalisation (milk, packaging) and private-label contract wins will be critical signals for whether management can credibly underpin a growth narrative, particularly given ongoing competitive pressure from major supermarket own-brands and Bega Cheese"
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CDA",
+      "company": "CODAN LIMITED",
+      "headline": "Full Year Statutory Accounts",
+      "time": "2026-08-19T22:57:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123361-2A1690628",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Full-year statutory accounts filing confirms audit completion and regulatory compliance, providing institutional investors with the verified financial baseline needed to assess Codan's dual-segment performance across its Communications and Metal Detection divisions.",
+        "Market-sensitive classification signals material financial data is embedded — investors should scrutinise revenue split, EBITDA margins, and any impairment charges or exceptional items that may diverge from previously guided underlying figures, particularly given Codan's history of acquisitive growth (Zetron, Domo Tactical Communications).",
+        "With Codan executing a multi-year M&A integration strategy, the statutory accounts will reveal the true cost of acquisition amortisation and goodwill carrying values — key metrics for assessing whether the Communications segment is delivering the earnings accretion management has signalled to the market."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MVP",
+      "company": "MEDICAL DEVELOPMENTS INTERNATIONAL LIMITED",
+      "headline": "MVP Announces FY26 Full Year Results",
+      "time": "2026-08-19T22:56:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123360-3A699264",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Headline risk: FY26 full-year results flagged as market sensitive, signalling material variance from prior expectations — investors should brace for significant earnings movement in either direction relative to consensus estimates.",
+        "Key metrics to watch include revenue trajectory from MVP's Penthrox (methoxyflurane) inhaler across international markets, particularly EU and US regulatory progress, alongside gross margin compression or expansion driven by manufacturing scale and distribution costs.",
+        "Strategic inflection point: with MVP historically burning cash to fund global commercialisation of Penthrox, the critical question is whether FY26 results demonstrate a credible path to operating cash flow breakeven, or whether a capital raise risk looms on the horizon."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MVP",
+      "company": "MEDICAL DEVELOPMENTS INTERNATIONAL LIMITED",
+      "headline": "FY26 Full year Results Investor Presentation",
+      "time": "2026-08-19T22:56:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123358-3A699263",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 full-year results presentation is market sensitive, signalling material financial outcomes that could meaningfully re-rate MVP's valuation — investors should scrutinise revenue trajectory from the Penthrox (methoxyflurane) pain relief franchise across key international markets including Europe and the US pipeline.",
+        "Key metrics to watch include gross margin sustainability, operating cash burn rate, and whether the company has achieved or is approaching cash flow breakeven — MVP has historically carried meaningful R&D and commercialisation costs that pressure the balance sheet, making cash runway a critical variable.",
+        "Outlook commentary on regulatory progress in the US market (FDA pathway for Penthrox) and European distribution partnerships will be pivotal for near-term sentiment; any upgrade to guidance or confirmation of a US commercial timeline would be a significant positive catalyst for this high-optionality healthcare name."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NOU",
+      "company": "NOUMI LIMITED",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-19T22:55:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123357-2A1690619",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results announcement is market sensitive, signalling material financial outcomes that could significantly re-rate Noumi's equity — investors should note the company has been navigating a complex balance sheet restructuring and debt reduction program, making headline earnings and net debt figures the critical read-throughs.",
+        "Key metrics to watch include revenue trajectory across the plant-based and dairy segments, EBITDA margin recovery, and progress on the previously flagged debt facility refinancing — any covenant compliance confirmation or debt reduction milestone would be a meaningful positive catalyst given prior financial distress concerns.",
+        "Forward guidance and commentary on working capital management will be pivotal; Noumi's ability to demonstrate sustainable free cash flow generation and a credible path to balance sheet normalisation will determine whether institutional investors re-engage with the stock or maintain a cautious stance heading into FY27."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MVP",
+      "company": "MEDICAL DEVELOPMENTS INTERNATIONAL LIMITED",
+      "headline": "FY26 Full Year Results",
+      "time": "2026-08-19T22:55:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123356-3A699259",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Headline labelled FY26 Full Year Results is anomalous — MDI's fiscal year ends June 30, making this likely FY25 results released in mid-2025; investors should verify the period covered as a mislabelling could obscure year-on-year comparability and distort trend analysis.",
+        "MDI has been navigating a prolonged turnaround following the collapse of its Penthrox (methoxyflurane) international rollout momentum post-COVID, with recurring EBITDA losses and cash burn the central concern — any improvement in European or US pipeline revenue or a path to breakeven will be the critical metric driving re-rating potential.",
+        "Market-sensitive classification signals material content likely including revenue, EBIT, and cash position updates — institutional focus should centre on cash runway (historically sub-12 months), any capital raise signals, and progress on regulatory milestones for Penthrox in new geographies as the key valuation catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CZR",
+      "company": "CZR RESOURCES LTD",
+      "headline": "Bidder's Statement",
+      "time": "2026-08-19T22:54:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123353-6A1339374",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CZR Resources has lodged a formal Bidder's Statement, signalling an active takeover bid is underway — this is a binding, legally structured offer document that locks in offer terms and timelines, elevating deal certainty for target shareholders and arbitrageurs.",
+        "The market-sensitive classification indicates material price-moving information is embedded in the offer terms — investors should scrutinise the offer price premium, consideration structure (cash/scrip/mixed), and any defeating conditions such as minimum acceptance thresholds or regulatory approvals.",
+        "Next steps are time-critical: the target company's board must respond with a Target's Statement within 15 business days under ASX/ASIC rules — the spread between current market price and offer price will dictate merger arbitrage positioning and whether a competing bid or bump is likely."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "UNI",
+      "company": "UNIVERSAL STORE HOLDINGS LIMITED",
+      "headline": "Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-19T22:54:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123354-2A1690627",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual report filing signals completion of FY25 results cycle for Universal Store — investors will scrutinise comparable store sales growth, gross margin trajectory, and whether the youth fashion retailer has sustained momentum amid ongoing consumer discretionary headwinds in Australia.",
+        "Key metrics to watch include EBITDA margin performance relative to FY24 levels, inventory management efficiency, and cash conversion — particularly given the cost pressures (rent, wages) that have challenged specialty apparel retailers across the sector.",
+        "Outlook commentary will be critical: any guidance on FY26 trading conditions, new store rollout pipeline, or progress on the 'Perfect Stranger' brand expansion could materially re-rate the stock given current sector uncertainty around discretionary spending recovery."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "NOU",
       "company": "NOUMI LIMITED",
