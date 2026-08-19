@@ -1,9 +1,450 @@
 {
   "date": "2026-08-20",
-  "total": 166,
-  "market_sensitive_count": 161,
-  "generated_at": "2026-08-19T23:22:38.146246+00:00",
+  "total": 189,
+  "market_sensitive_count": 184,
+  "generated_at": "2026-08-19T23:36:17.041806+00:00",
   "announcements": [
+    {
+      "ticker": "ADO",
+      "company": "ANTEOTECH LTD",
+      "headline": "Anteo S Strategic Collaboration and Sales Agreement Executed",
+      "time": "2026-08-19T23:28:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123485-2A1690701",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Execution of a formal Strategic Collaboration and Sales Agreement marks a critical inflection point for Anteotech, converting prior MOU-stage discussions into binding commercial terms — a key de-risking milestone that institutional investors have been awaiting to validate the company's commercialisation pathway.",
+        "The agreement signals potential near-term revenue generation from Anteo's proprietary surface chemistry technology (Mix&Go), which has historically struggled to translate R&D promise into contracted sales; any disclosed minimum purchase commitments or royalty structures will be pivotal in assessing revenue visibility and cash burn trajectory.",
+        "Near-term focus shifts to disclosed partner identity, contract duration, and financial terms — if the counterparty is a diagnostics major or life sciences OEM, this could meaningfully expand Anteotech's addressable market and accelerate adoption of its binding chemistry platform across biosensor and point-of-care applications."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BUX",
+      "company": "BUXTON RESOURCES LIMITED",
+      "headline": "MD002DD Assays Support Madman Prospectivity",
+      "time": "2026-08-19T23:27:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123483-6A1339412",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Assay results from drill hole MD002DD validate the Madman prospect's geological prospectivity, a critical de-risking milestone for Buxton Resources that supports the thesis of a mineralised system worthy of continued resource delineation — market-sensitive classification signals management views results as materially significant to valuation.",
+        "The confirmation of meaningful assay grades/intersections at Madman strengthens the exploration narrative for Buxton, potentially re-rating the project's implied value in the market and attracting renewed institutional and speculative interest in what remains an early-stage but increasingly defined target.",
+        "Near-term catalysts to watch include follow-up drilling programs, resource estimation timelines, and whether Buxton will seek to accelerate exploration via a capital raise — investors should monitor upcoming quarterly activity reports and any farm-in or JV discussions that positive assays could now unlock."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CAY",
+      "company": "CANYON RESOURCES LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-08-19T23:27:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123482-6A1339410",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Canyon Resources (CAY) has been suspended from quotation on the ASX, a step beyond a standard trading halt — this typically signals a material corporate event is imminent, such as a capital raise, M&A transaction, or significant regulatory development requiring investor disclosure before trading resumes.",
+        "The market-sensitive classification elevates urgency; suspension without an accompanying explanatory announcement suggests the company is in active negotiations or awaiting a third-party trigger event, leaving existing shareholders unable to exit positions during this period — a key liquidity risk.",
+        "Investors should monitor for a follow-on announcement addressing the suspension's catalyst; Canyon's primary asset is the Minim Martap bauxite project in Cameroon, meaning geopolitical, permitting, or funding developments remain the most probable drivers of this action."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SRJ",
+      "company": "SRJ TECHNOLOGIES GROUP PLC",
+      "headline": "Secures Specialist Inspection Contract in Angola",
+      "time": "2026-08-19T23:26:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123478-2A1690699",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SRJ Technologies has secured a specialist inspection contract in Angola, marking a meaningful geographic expansion into Africa's oil and gas sector — a region with significant upstream activity driven by operators like TotalEnergies and bp, signalling the company's growing international competitive footprint.",
+        "The market-sensitive classification suggests material revenue impact; for a small-cap ASX-listed engineering services firm, an African energy contract could represent a meaningful percentage uplift to near-term revenue, though contract value and duration have not yet been disclosed — investors should monitor for follow-up quantification.",
+        "Angola's oil sector is undergoing a multi-billion dollar reinvestment cycle under Sonangol's reform agenda, positioning SRJ for potential contract extensions and repeat work; successful execution here could serve as a reference case to unlock further African and emerging-market energy mandates."
+      ],
+      "tags": [
+        "Energy",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ATT",
+      "company": "ALTITUDE MINERALS LTD",
+      "headline": "Byrock Project Drilling Results",
+      "time": "2026-08-19T23:26:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123477-2A1690690",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive drilling results from the Byrock Project signal potentially material mineralisation findings — the ASX's market sensitivity flag indicates management believes results could materially influence the company's valuation or investor decision-making, elevating urgency for review.",
+        "As a junior explorer, Altitude Minerals' share price will be highly leveraged to the grade, width, and continuity of intersections reported — any significant base or precious metal hits at Byrock could re-rate the stock given the typically small market capitalisation of early-stage ASX explorers.",
+        "Next steps will hinge on whether results justify a follow-up drill program; investors should watch for resource estimation timelines, additional capital requirements (potential dilution risk), and whether the company has sufficient cash runway to advance Byrock without an imminent capital raise."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SPN",
+      "company": "SPARC TECHNOLOGIES LIMITED",
+      "headline": "Share Purchase Plan and Placement to Raise up to $2.5M",
+      "time": "2026-08-19T23:25:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123474-3A699241",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "SPARC is raising up to $2.5M via a combined Share Purchase Plan (SPP) and placement — a modest capital raise that signals the company needs near-term liquidity support, likely to fund ongoing R&D or operational costs, but the small size suggests limited institutional appetite or a deliberate effort to minimise dilution.",
+        "The dual-structure raise (placement + SPP) is a common micro-cap playbook: the placement provides certainty of proceeds while the SPP offers retail shareholders a chance to participate, typically at a discount to market price — existing shareholders face dilution risk and should monitor the pricing terms closely relative to the prevailing share price.",
+        "Key near-term catalysts to watch include the SPP offer price, closing date, and how proceeds are allocated — if funds are directed toward advancing SPARC's graphene or clean-tech programs, this could provide a modest re-rating trigger, but absent a clear commercial milestone, the raise risks being perceived as a dilutive cash burn exercise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MHC",
+      "company": "MANHATTAN GOLD CORPORATION LIMITED",
+      "headline": "First Drill Results Demonstrate Scale and Grade at Jaws",
+      "time": "2026-08-19T23:25:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123473-6A1339371",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Initial drill results at the Jaws prospect confirm both scale and grade potential, a critical de-risking milestone for Manhattan Gold that validates the exploration thesis and justifies continued capital allocation to the project.",
+        "Market-sensitive classification signals materially significant intercepts — investors should watch for headline gold grades and widths that could reframe the resource narrative; strong numbers here would meaningfully re-rate the stock relative to its current exploration-stage valuation.",
+        "Positive first-pass results set the stage for an accelerated follow-up drill program, with resource estimation and target definition as logical near-term catalysts that could attract institutional interest and potential strategic partners in a buoyant gold price environment."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DOW",
+      "company": "DOWNER EDI LIMITED",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-19T23:24:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123471-2A1690686",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation from Downer EDI is market-sensitive, signalling material financial disclosures that could meaningfully re-rate the stock — investors should scrutinise EBITA margins and free cash flow conversion given the company's multi-year transformation away from non-core assets toward its urban services focus.",
+        "Key metrics to watch include revenue trajectory across Transport Services, Utilities, and Facilities divisions, alongside net debt levels and any update on the $400M+ cost-out program — margin expansion or contraction here will be the primary valuation driver for institutional holders.",
+        "Forward guidance and contract pipeline commentary will be critical: any upgrade to FY27 earnings expectations or announcement of major contract wins in infrastructure-linked services would validate the turnaround thesis, while any earnings miss or balance sheet deterioration could trigger significant de-rating given the stock's sensitivity to leverage concerns."
+      ],
+      "tags": [
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DOW",
+      "company": "DOWNER EDI LIMITED",
+      "headline": "FY25 Results Media Release",
+      "time": "2026-08-19T23:24:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123469-2A1690681",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Downer's FY25 results mark a critical inflection point as the company completes its multi-year portfolio simplification strategy — investors will scrutinise whether divested non-core assets have translated into a cleaner, higher-margin Urban Services business with improved return on capital.",
+        "Key metrics to watch include EBITA margin trajectory, net debt reduction progress, and free cash flow conversion — any evidence of sustained FCF improvement above prior guidance would be a material positive signal for a stock that has historically struggled with working capital discipline.",
+        "Forward guidance and contract pipeline commentary will be pivotal, particularly exposure to government infrastructure spending cycles in Australia and New Zealand; any upgrade to FY26 earnings expectations or confirmation of a reinstated/increased dividend would act as a near-term re-rating catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WGR",
+      "company": "WESTERN GOLD RESOURCES LIMITED.",
+      "headline": "Gold Duke Project - Mineral Resource Statement",
+      "time": "2026-08-19T23:24:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123468-6A1339409",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Western Gold Resources has established a maiden or updated Mineral Resource Estimate (MRE) for the Gold Duke Project, a critical de-risking milestone that converts exploration upside into a quantified, JORC-compliant asset — directly underpinning any future development, financing, or M&A discussions.",
+        "The market-sensitive classification signals the resource tonnage, grade, and contained gold ounces are material to valuation; institutional investors should scrutinise the grade profile (g/t Au) and resource category split (Measured/Indicated vs. Inferred) to assess confidence level and economic viability relative to peer junior gold developers on the ASX.",
+        "A defined MRE positions Western Gold Resources to advance scoping or pre-feasibility studies, attract strategic partners or acquirers, and potentially support a capital raise at improved terms — the next catalysts to monitor are a Scoping Study timeline, any resource expansion drilling program, and management commentary on development pathway."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SHL",
+      "company": "SONIC HEALTHCARE LIMITED",
+      "headline": "Financial and Operational Review - Year Ended 30 June 2026",
+      "time": "2026-08-19T23:23:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123463-2A1690689",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Full-year FY2026 results represent a critical inflection point for Sonic Healthcare — investors will scrutinise whether the post-COVID volume normalisation has fully played out and whether organic revenue growth has returned to the mid-single-digit trajectory that underpins the company's premium valuation multiple.",
+        "Key financial metrics to watch include EBITDA margin recovery toward the 18–20% range, free cash flow conversion, and the trajectory of debt reduction following the leverage build-up from the Canberra Pathology and European acquisitions — any covenant headroom commentary will be closely monitored by credit-sensitive institutional holders.",
+        "Forward guidance on volume trends across the US, German, and Australian laboratory networks — particularly the impact of Medicare Benefits Schedule reimbursement changes and European healthcare funding pressures — will be decisive for consensus earnings revisions and near-term price direction."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BUR",
+      "company": "BURLEY MINERALS LTD",
+      "headline": "Maiden Drilling Programme Completed at North and Step Out",
+      "time": "2026-08-19T23:22:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123460-6A1339408",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Completion of the maiden drilling programme at both North and Step Out targets marks a critical de-risking milestone for Burley Minerals, transitioning the company from exploration concept to drill-tested asset — a key valuation inflection point for junior resource investors.",
+        "Market-sensitive classification signals management expects material assay or intercept results; the quality of downhole data (depth, width, and mineralisation continuity across both targets) will be the primary determinant of whether this programme justifies follow-up capital allocation or re-rates the stock.",
+        "Next catalysts are assay results and geological interpretation, which will define whether Step Out drilling confirms structural extensions of the North target — a positive outcome could rapidly upgrade the resource footprint and attract institutional attention to what remains a micro-cap exploration play."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SHL",
+      "company": "SONIC HEALTHCARE LIMITED",
+      "headline": "Media Release - Full Year Results to 30 June 2026",
+      "time": "2026-08-19T23:22:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123459-2A1690685",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Full-year results to June 2026 are market-sensitive, signalling material variance from consensus expectations — investors should brace for significant price discovery at open as the market digests top-line revenue and EBITDA margins against a backdrop of post-COVID base volume normalisation and ongoing cost pressures across Sonic's global laboratory network.",
+        "Key metrics to watch include organic revenue growth across core geographies (Australia, USA, Germany), COVID testing contribution fade versus base business recovery, and EBITDA margin trajectory — any compression below the ~18-20% historical range would be a red flag for the earnings quality thesis underpinning SHL's premium multiple.",
+        "Outlook commentary will be critical: with Sonic having pursued bolt-on M&A and capacity investment through FY25-26, management's guidance on integration synergies, capital allocation priorities, and dividend sustainability will determine whether the stock re-rates higher or faces multiple compression heading into FY27."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZAG",
+      "company": "ZULEIKA GOLD LIMITED",
+      "headline": "CZR Takeover - Target's Statement",
+      "time": "2026-08-19T23:22:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123458-6A1339387",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Zuleika Gold's Board has issued a formal Target's Statement in response to CZR Resources' takeover bid, triggering a critical decision point for shareholders — the recommendation (accept/reject) will be the key valuation signal to watch, as Board endorsement typically anchors the bid premium as a floor price.",
+        "The market-sensitive classification signals material new information is embedded in the Target's Statement, likely including an independent expert's report assessing whether the offer is 'fair and reasonable' — this valuation assessment will be the primary price discovery mechanism and could reveal a significant premium or discount to intrinsic NAV.",
+        "Shareholders face a binary near-term catalyst: if the Board recommends rejection or a competing bid emerges, ZKA shares could trade above the offer price; if the Board recommends acceptance, the offer price becomes the effective ceiling — investors should scrutinise the independent expert's assessed value range and any conditions precedent before acting."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Acquisition of Sunset Beach Holiday Park",
+      "time": "2026-08-19T23:22:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123455-2A1690684",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Eureka Group expands its affordable seniors living portfolio with the acquisition of Sunset Beach Holiday Park, signalling a strategic pivot or diversification into holiday/lifestyle park assets — a segment with strong structural tailwinds from ageing demographics and housing affordability pressures in Australia.",
+        "The market-sensitive classification suggests material financial consideration; investors should scrutinise the acquisition price, cap rate, and whether the deal is earnings-accretive on a per-unit or NOI basis relative to Eureka's existing seniors rental village model, as integration risk and asset-type mismatch could weigh on near-term margins.",
+        "Key near-term catalysts to watch include funding structure (debt vs. equity), settlement timeline, and management commentary on synergies or repositioning plans — particularly whether the park will be converted to a seniors-focused community, which would align with Eureka's core competency and underpin longer-term revenue visibility."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VCX",
+      "company": "VICINITY CENTRES",
+      "headline": "FY26 Annual Results Presentation",
+      "time": "2026-08-19T23:21:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123454-3A699285",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Annual results presentation flagged as market sensitive, signalling material financial disclosures that could meaningfully shift consensus estimates — investors should watch for FFO per security guidance, NTA movement, and any portfolio revaluation outcomes given the elevated interest rate environment's pressure on cap rates.",
+        "Vicinity's FY26 results will be scrutinised for leasing spread momentum across its dominant CBD and sub-regional mall portfolio, occupancy rates, and whether specialty retail sales productivity has held up amid softening consumer discretionary spending — key metrics that underpin distribution sustainability.",
+        "Forward guidance on FY27 FFO and distribution per security will be the critical catalyst; any reaffirmation or upgrade to payout guidance alongside evidence of active capital recycling (asset sales, development pipeline progress at Chadstone or CBD assets) would reinforce the investment thesis for yield-focused institutional holders."
+      ],
+      "tags": [
+        "Results",
+        "Property",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAF",
+      "company": "MA FINANCIAL GROUP LIMITED",
+      "headline": "1H26 Results Presentation",
+      "time": "2026-08-19T23:20:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123451-2A1690664",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "1H26 results presentation signals a key earnings inflection point for MAF — institutional focus will centre on whether asset management AUM growth and fee revenue trajectory justify current valuation multiples amid a competitive alternatives landscape.",
+        "Critical metrics to watch include funds management earnings margin, performance fee crystallisation, and any movement in credit/private markets AUM, which have been the primary growth engines driving MAF's transition from advisory to a scaled alternatives manager.",
+        "Forward guidance and capital deployment pipeline will be decisive for re-rating potential — investors will scrutinise whether MAF can sustain its AUM growth cadence into 2H26 and whether balance sheet co-investments are generating adequate risk-adjusted returns to support dividend sustainability."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "FY26 Investor Presentation",
+      "time": "2026-08-19T23:19:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123448-2A1690678",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FY26 investor presentation signals management is actively engaging capital markets with a forward-looking narrative — the market-sensitive classification suggests material guidance, strategic targets, or financial metrics are being disclosed that could re-rate the stock relative to consensus expectations.",
+        "Eureka Group operates affordable seniors rental accommodation, a structurally undersupplied segment benefiting from demographic tailwinds and government housing pressure — any FY26 occupancy targets, development pipeline updates, or rental yield guidance will be closely scrutinised as leading indicators of earnings quality and asset growth.",
+        "Key watch items for institutional investors include: FY26 revenue and EBITDA guidance versus FY25 actuals, capital allocation strategy (organic development vs. acquisitions), debt facility headroom, and any commentary on government policy tailwinds around affordable housing — these will determine whether the current valuation discount to NTA is justified or represents a re-rating opportunity."
+      ],
+      "tags": [
+        "Other",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-19T23:19:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123445-2A1690676",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results announcement from Eureka Group Holdings — a residential accommodation provider for low-income seniors — is market sensitive, signalling material financial outcomes that could meaningfully re-rate the stock relative to consensus expectations.",
+        "Key metrics to watch include occupancy rates across its affordable rental villages, revenue growth trajectory, EBITDA margins, and any movement in net debt or refinancing activity given the capital-intensive nature of its property and accommodation model.",
+        "Investors will focus on management's FY27 guidance and any commentary on development pipeline expansion or acquisitions, as Eureka has been actively growing its village footprint — execution on this strategy will be the critical valuation driver near-term."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZMI",
+      "company": "ZINC OF IRELAND LIMITED",
+      "headline": "ZMI Accelerates ARGO Testwork for Critical Minerals",
+      "time": "2026-08-19T23:19:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123443-6A1339403",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ZMI is accelerating metallurgical testwork on its ARGO critical minerals project, signalling increased technical confidence and a deliberate push to compress the timeline to a definitive feasibility or development decision — a key de-risking milestone for institutional investors evaluating project maturity.",
+        "The 'critical minerals' framing is strategically significant: positioning ARGO within the critical minerals narrative enhances ZMI's eligibility for government grants, offtake interest from Western-aligned buyers, and potential inclusion in critical minerals-focused investment mandates, all of which can re-rate a small-cap explorer disproportionately.",
+        "Near-term catalysts to watch include testwork results (recoveries, concentrate grades, and processing economics) which will directly inform capital cost estimates and project economics — any positive metallurgical outcomes from this accelerated program could serve as a meaningful share price trigger for a stock at this stage of development."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VCX",
+      "company": "VICINITY CENTRES",
+      "headline": "FY26 Annual Results Announcement",
+      "time": "2026-08-19T23:18:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123439-3A699279",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 annual results from Vicinity Centres (VCX) represent a key valuation catalyst for Australia's second-largest listed retail REIT — investors will scrutinise FFO per security, NTA movement, and occupancy rates across its premium and CBD mall portfolio to assess whether the retail recovery thesis remains intact.",
+        "Key metrics to watch include comparable specialty sales growth, leasing spreads, and any revaluation gains or impairments across the $12B+ portfolio — particularly performance of flagship assets like Chadstone and the DFO outlets, which disproportionately drive earnings quality and cap rate assumptions.",
+        "Guidance for FY27 FFO and distribution per security will be the critical forward signal — any upgrade to distribution guidance or confirmation of development pipeline progress (including the Chadstone mixed-use expansion) would reinforce the bull case, while softer leasing spreads or rising vacancy could pressure the stock given current sector re-rating expectations."
+      ],
+      "tags": [
+        "Results",
+        "Property",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FDR",
+      "company": "FINDER ENERGY HOLDINGS LIMITED",
+      "headline": "KTJ Independent Reserves and Resources Report",
+      "time": "2026-08-19T23:18:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123435-6A1339399",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "An independent reserves and resources report for the KTJ (Kutei Basin) asset represents a critical de-risking milestone — third-party certification of resource volumes provides institutional-grade credibility and is typically a prerequisite for farm-out negotiations, project financing, or M&A discussions, all of which could serve as near-term catalysts.",
+        "The quantum and classification of certified reserves (1P/2P/3P) and contingent resources (1C/2C/3C) will directly anchor any valuation methodology — investors should scrutinise whether volumes have been upgraded, downgraded, or reclassified versus prior estimates, as this drives NPV sensitivity and determines whether the asset is commercially viable at current oil/gas price decks.",
+        "As a small-cap explorer, Finder Energy's ability to monetise KTJ hinges on attracting a larger operator or securing development funding; a favourable independent report materially improves its negotiating position and could accelerate a farm-out or strategic partnership announcement, making this a key watch point for near-term corporate activity."
+      ],
+      "tags": [
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IMA",
+      "company": "IMAGE RESOURCES NL",
+      "headline": "PREPAYMENT FACILITY EXTENDED AND STRATEGIC REVIEW OF ASSETS",
+      "time": "2026-08-19T23:18:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123436-6A1339402",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The extension of the prepayment facility provides critical near-term liquidity relief, preventing an imminent refinancing crisis — however, terms of the extension (duration, cost, covenants) are not yet disclosed, leaving material uncertainty around the true financial burden on the company.",
+        "The simultaneous launch of a strategic review of assets signals management and/or lenders are actively exploring asset sales, a merger, or full company sale — typically indicative of balance sheet stress and a company that may be unable to self-fund operations or debt service through organic cash flow alone.",
+        "Investors should watch closely for the strategic review outcome: a trade sale or asset divestment could unlock value above current depressed market pricing, but a protracted process or failure to find a buyer risks further dilution or distressed outcomes — making this a high-risk, binary-outcome situation in the near term."
+      ],
+      "tags": [
+        "Mining",
+        "Finance",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "MAF",
       "company": "MA FINANCIAL GROUP LIMITED",
