@@ -1,9 +1,47 @@
 {
   "date": "2026-08-19",
-  "total": 189,
-  "market_sensitive_count": 182,
-  "generated_at": "2026-08-19T02:33:49.944500+00:00",
+  "total": 191,
+  "market_sensitive_count": 183,
+  "generated_at": "2026-08-19T03:27:20.646444+00:00",
   "announcements": [
+    {
+      "ticker": "KTA",
+      "company": "KRAKATOA RESOURCES LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-19T03:21:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122917-6A1339203",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Krakatoa Resources, signalling that an investor has crossed the 5% ownership threshold — a key inflection point that warrants monitoring for potential strategic intent or accumulation activity.",
+        "The identity, voting power percentage, and acquisition cost of the substantial holder are critical details; if the stake was built via on-market purchases, it implies conviction buying at prevailing prices and could provide a technical floor for the stock.",
+        "Investors should watch for any follow-on 'change in substantial holding' notices, which could indicate further accumulation toward a blocking stake (>25%) or a potential takeover approach — particularly relevant for a small-cap explorer like Krakatoa Resources where concentrated ownership can rapidly shift control dynamics."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IBC",
+      "company": "IRONBARK BALANCED INCOME LIMITED",
+      "headline": "Appendix 4E & 2026 Annual Report",
+      "time": "2026-08-19T02:55:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03122909-2A1690418",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual report filing for Ironbark Balanced Income Limited signals a full-year results disclosure — investors should scrutinise net investment income, distribution coverage ratios, and whether the fund's income generation has kept pace with its balanced income mandate amid elevated interest rate conditions.",
+        "The Appendix 4E (preliminary final report) is a market-sensitive lodgement, meaning key financial metrics — including NTA per unit, total return, and any impairments to the underlying portfolio — could materially reprice the stock relative to its last traded level.",
+        "As a closed-end income-focused vehicle, the critical forward-looking indicators are sustainability of distributions, portfolio credit quality, and any changes to investment strategy or management arrangements that could affect yield expectations for FY2026."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AAM",
       "company": "AUMEGA METALS LTD",
