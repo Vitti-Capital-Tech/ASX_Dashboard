@@ -1,9 +1,333 @@
 {
   "date": "2026-08-20",
-  "total": 149,
-  "market_sensitive_count": 145,
-  "generated_at": "2026-08-19T23:10:26.900603+00:00",
+  "total": 166,
+  "market_sensitive_count": 161,
+  "generated_at": "2026-08-19T23:22:38.146246+00:00",
   "announcements": [
+    {
+      "ticker": "MAF",
+      "company": "MA FINANCIAL GROUP LIMITED",
+      "headline": "MA Financial delivers 1H26 financial result",
+      "time": "2026-08-19T23:17:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123431-2A1690660",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MA Financial's 1H26 result carries market-sensitive designation, signalling material variance from prior expectations — investors should watch closely for earnings beats or misses relative to consensus, particularly across its asset management and lending divisions which have been key growth drivers.",
+        "Key metrics to scrutinise include fee-earning AUM trajectory, net revenue margins on its credit platform, and whether cost discipline has offset any softness in deal-related or advisory income amid a more subdued M&A environment in the first half.",
+        "The result sets the tone for FY26 guidance credibility — any upgrade or reaffirmation of full-year targets would be a strong catalyst, while margin compression or AUM outflows could trigger a re-rating given the stock's premium to book value relative to diversified financial peers on the ASX."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCO",
+      "company": "THE CALMER CO INTERNATIONAL LIMITED",
+      "headline": "Security Class Suspension from Quotation - CCOO",
+      "time": "2026-08-19T23:17:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123428-6A1339397",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CCOO securities have been suspended from ASX quotation, indicating a regulatory or compliance-driven halt that prevents investors from trading shares — a significant liquidity event that traps existing holders with no exit mechanism until suspension is lifted.",
+        "The market-sensitive classification of this suspension elevates concern beyond routine administrative action, suggesting the ASX has identified a material issue — potentially related to continuous disclosure obligations, financial reporting deadlines, or failure to meet listing rule requirements.",
+        "Investors should monitor ASX correspondence and company announcements closely for the reinstatement conditions; prolonged suspension typically signals deeper structural or governance issues, and resolution timelines for small-cap wellness/consumer companies like Calmer Co can extend weeks to months, compounding reputational risk."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SHL",
+      "company": "SONIC HEALTHCARE LIMITED",
+      "headline": "Preliminary Final Report FY2026",
+      "time": "2026-08-19T23:17:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123429-2A1690670",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Preliminary Final Report for FY2026 is market sensitive, signalling material financial outcomes that could meaningfully reset consensus earnings estimates — investors should watch for revenue trajectory, EBITDA margins, and any currency headwinds given Sonic's significant USD and EUR earnings exposure.",
+        "Key metrics to scrutinise include organic volume growth across laboratory and radiology divisions, cost normalisation post-COVID tailwinds, and whether management has delivered on prior guidance for margin recovery — any miss on EBITDA margin (historically ~18-20%) would be a red flag for the near-term re-rating thesis.",
+        "Forward guidance and capital allocation commentary will be critical: dividend sustainability, debt levels relative to the ~$3-4B net debt position, and any M&A signalling in the fragmented global pathology market will determine whether institutional investors view this as a stabilisation or further de-rating event."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ODY",
+      "company": "ODYSSEY GOLD LTD",
+      "headline": "Encouraging Results from Resource Drilling at Tuckanarra",
+      "time": "2026-08-19T23:16:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123426-6A1339396",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive classification signals material drill results at Tuckanarra that could meaningfully redefine the resource envelope — institutional investors should watch for step-out intercepts that extend mineralisation beyond the current resource boundary, which would directly re-rate the project's economic potential.",
+        "The 'encouraging' qualifier in the headline, while cautious, typically indicates grades and widths that meet or exceed internal geological models — key metrics to scrutinise include gold grade (g/t Au), intercept widths, and continuity of mineralisation relative to the existing JORC resource estimate.",
+        "Positive drilling results at Tuckanarra position Odyssey Gold for a potential resource upgrade in the near term, which would be a critical de-risking milestone for a junior explorer and could catalyse renewed market interest, partnership discussions, or a capital raise at improved terms."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VSR",
+      "company": "VOLTAIC STRATEGIC RESOURCES LTD",
+      "headline": "Expands WA Gold Portfolio Meekatharra & Donnybrook Licences",
+      "time": "2026-08-19T23:15:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123423-6A1339395",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Voltaic is expanding its Western Australian gold footprint by adding tenements in Meekatharra and Donnybrook — two historically productive gold regions — signalling a deliberate portfolio consolidation strategy that could attract re-rating interest if exploration targets are substantive.",
+        "As a market-sensitive disclosure, the licence acquisitions likely carry material exploration upside or strategic positioning value; however, without disclosed acquisition costs or resource estimates, the capital efficiency of this expansion remains unquantified and warrants close scrutiny of any associated cash burn.",
+        "Near-term catalysts to watch include maiden exploration programs, JORC-compliant resource definition drilling, and potential joint-venture or farm-in arrangements — any of which could serve as re-rating events, though the company's ability to fund exploration across an expanded tenement portfolio will be a key execution risk."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MAF",
+      "company": "MA FINANCIAL GROUP LIMITED",
+      "headline": "Appendix 4D and HY26 Financial Report",
+      "time": "2026-08-19T23:15:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123421-2A1690654",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "HY26 half-year results filing signals a critical earnings checkpoint for MA Financial — investors will scrutinise fee-earning AUM trajectory, management fee margins, and whether the asset management pivot is generating scalable recurring revenue amid a challenging alternatives fundraising environment.",
+        "Key metrics to watch include net revenue composition (management vs. performance fees), cost-to-income ratio discipline, and any movement in credit/lending book quality given MA Financial's exposure to private credit — a segment under heightened institutional scrutiny globally.",
+        "Forward guidance on AUM growth targets, capital deployment pipeline, and any strategic M&A or partnership activity will be pivotal in determining whether the stock can re-rate toward peers; any downward revision to FUM targets or margin compression would likely pressure the share price materially."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXB",
+      "company": "DIMERIX LIMITED",
+      "headline": "Dimerix Receives US$10M Upfront Payment from Everest",
+      "time": "2026-08-19T23:13:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123417-3A699274",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The US$10M (~A$15M) upfront cash payment from Everest Medicines represents a transformative liquidity event for Dimerix, a company that has historically operated with a lean cash balance — this single payment likely extends runway by multiple years and removes near-term dilution risk from equity raises.",
+        "The deal structure signals strong commercial validation of DMX-200 (atrasentan) in FSGS/kidney disease, with Everest securing rights likely covering Greater China and/or Asia-Pacific markets; upfront payments of this magnitude in early-to-mid stage biotech licensing are rare and suggest Everest has high conviction in the asset's regulatory and commercial pathway.",
+        "Investors should watch for disclosure of milestone and royalty terms in the full agreement — backend economics (potentially US$100M+ in milestones plus double-digit royalties) could dwarf the upfront payment and materially re-rate Dimerix's risk-adjusted NPV as DMX-200 advances through its Phase 3 ACTION3 trial."
+      ],
+      "tags": [
+        "Healthcare",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MPK",
+      "company": "MANY PEAKS MINERALS LTD",
+      "headline": "RC Results Advance Ouarigue Resource Upgrade and Expansion",
+      "time": "2026-08-19T23:13:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123415-6A1339394",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "RC drilling results at the Ouarigue deposit are sufficiently positive to support a formal resource upgrade and expansion, a critical de-risking milestone that materially improves the project's investability and potential valuation re-rating for this early-stage explorer.",
+        "The market-sensitive classification signals the results contain quantitatively significant intercepts — likely high-grade or wide mineralised zones — that meaningfully extend the known resource envelope beyond the existing estimate, with institutional eyes now focused on the magnitude of tonnage and grade improvements in the upcoming MRE update.",
+        "The next catalyst is the revised Mineral Resource Estimate (MRE); if the upgrade delivers a substantial increase in contained metal, it positions Many Peaks Minerals for potential project financing discussions, joint venture interest, or a re-rating toward peer multiples — making the timeline and scale of the MRE the key variable to monitor."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ZAG",
+      "company": "ZULEIKA GOLD LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-19T23:13:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123414-6A1339383",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a shift in the register of a major shareholder (≥5% threshold), which can indicate accumulation or distribution activity — investors should monitor whether this reflects growing institutional conviction or an exit by a key backer in Zuleika Gold.",
+        "Without disclosed transaction price and volume details, the directional impact on free float and liquidity remains unclear; however, any reduction in a substantial holder's position could increase selling pressure on a small-cap gold explorer where register concentration is typically high.",
+        "For a junior gold explorer like Zuleika Gold, substantial holder movements are closely watched as leading indicators of M&A interest or strategic positioning — market participants should track subsequent Form 604 filings to determine whether this represents a new entrant building a stake or an existing holder trimming exposure."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "UNI",
+      "company": "UNIVERSAL STORE HOLDINGS LIMITED",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-19T23:11:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123406-2A1690657",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation flagged as market sensitive, signalling material financial outcomes that could meaningfully move the stock — investors should watch for comparable store sales growth trajectory and EBITDA margin performance against consensus given the challenging discretionary retail backdrop in Australia.",
+        "Universal Store's key metrics to scrutinise include gross margin compression risk from cost-of-living pressures on its core 18–35 demographic, inventory management discipline, and whether the company has maintained or expanded its store network profitably amid elevated occupancy costs.",
+        "Forward guidance and any commentary on FY27 trading conditions will be critical — a reaffirmation or upgrade to earnings expectations could act as a re-rating catalyst, while any softening in like-for-like sales or margin outlook would likely trigger a de-rating in a sector already under pressure from subdued consumer sentiment."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ESK",
+      "company": "ETHERSTACK PLC",
+      "headline": "Half year results investor presentation",
+      "time": "2026-08-19T23:11:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123404-2A1690653",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Market-sensitive classification signals material financial developments in H1 results — investors should scrutinise revenue trajectory and EBITDA margins closely, as Etherstack's wireless technology licensing model means small contract wins or losses can have outsized P&L impact given its lean cost base.",
+        "Etherstack operates in the niche but strategically critical land mobile radio (LMR) and TETRA/P25 waveform licensing space — any commentary on contract pipeline expansion, particularly with US or European defence/public safety agencies, will be the key valuation driver to watch in this presentation.",
+        "Cash runway remains the critical near-term risk for this micro-cap; investors should focus on operating cash burn rate, any debt facilities, and whether the company is tracking toward cash flow breakeven — a deteriorating cash position without a clear path to profitability would be a significant red flag."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EMD",
+      "company": "EMYRIA LIMITED",
+      "headline": "Emyria Unlocks Treatment Capacity",
+      "time": "2026-08-19T23:11:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123403-6A1339390",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Emyria's capacity expansion signals a direct pathway to accelerated revenue generation from its psychedelic-assisted therapy clinics, removing a key operational bottleneck that had constrained patient throughput and billable treatment hours.",
+        "Unlocking treatment capacity is a critical inflection point for a pre-profitability healthcare company — incremental patients treated translate directly to improved cash burn metrics and bring the company closer to demonstrating a scalable, commercially viable clinical model.",
+        "This development strengthens Emyria's positioning ahead of anticipated regulatory tailwinds in Australia's psychedelic therapy sector (TGA scheduling changes for MDMA/psilocybin), making the company better placed to capture first-mover advantage as prescriber and patient demand accelerates."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MRQ",
+      "company": "MRG METALS LIMITED",
+      "headline": "Share Purchase Plan Despatched Today",
+      "time": "2026-08-19T23:11:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123402-3A699271",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MRG Metals has dispatched a Share Purchase Plan (SPP) to eligible shareholders, signalling an active capital raise phase — retail investors now have a defined window to participate at what is typically a discounted price to market, creating potential short-term selling pressure as arbitrageurs assess the spread.",
+        "The SPP mechanism allows existing shareholders to subscribe for additional shares without prospectus, usually capped at A$30,000 per shareholder — the total funds raised will be critical to assess against MRG's current cash position and projected exploration expenditure runway, particularly given its early-stage minerals focus.",
+        "Key near-term catalysts to monitor include the SPP closing date, total funds raised versus the targeted amount, and how proceeds will be deployed — any shortfall relative to the placement price or weak take-up rate could signal limited retail conviction and weigh on the share price post-close."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PVT",
+      "company": "PIVOTAL METALS LIMITED",
+      "headline": "Bambino Deal Expands High-Grade Cu-Ni-PGM at Belleterre",
+      "time": "2026-08-19T23:10:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123400-6A1339388",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Bambino acquisition strategically consolidates Pivotal's land position at Belleterre, directly expanding the high-grade Cu-Ni-PGM mineralised corridor — a critical de-risking step that increases the potential resource scale and attractiveness to major mining houses or strategic partners seeking battery/critical metals exposure.",
+        "The deal's market-sensitive classification signals material resource expansion potential; investors should watch for updated mineral resource estimates, as any upgrade to the Belleterre system's strike length or grade continuity could be a significant re-rating catalyst for this small-cap explorer.",
+        "Near-term catalysts include drill results testing the Bambino ground's geological extensions — if mineralisation connects with existing high-grade intercepts, Pivotal could rapidly advance toward a maiden or expanded JORC resource, which is the key value inflection point required to attract institutional capital or a trade sale premium."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BGD",
+      "company": "BARTON GOLD HOLDINGS LIMITED",
+      "headline": "Infrastructure Sterilisation Drilling Begins at Tunkillia",
+      "time": "2026-08-19T23:10:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123399-6A1339391",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Infrastructure sterilisation drilling at Tunkillia is a critical de-risking step — confirming the absence of mineralisation beneath planned surface infrastructure (processing plant, tailings, roads) protects the project's 1.07Moz resource base from future sterilisation losses and is a prerequisite for bankable feasibility studies and project financing discussions.",
+        "The commencement of this drilling program signals Barton Gold is actively advancing Tunkillia toward development-readiness, moving beyond pure exploration into project execution — a meaningful stage-gate transition that typically re-rates junior developers as construction-stage risk premiums begin to compress.",
+        "Next steps to watch: results from the sterilisation program will directly inform infrastructure layout decisions within the upcoming Scoping or Pre-Feasibility Study, with any clean (mineralisation-free) results accelerating the permitting and capital raise timeline needed to bring Tunkillia into production."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "UNI",
+      "company": "UNIVERSAL STORE HOLDINGS LIMITED",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-19T23:10:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123398-2A1690651",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results announcement is market sensitive, signalling material financial outcomes that could meaningfully re-rate UNI's valuation — investors should brace for significant price movement pending revenue, EBITDA, and margin disclosures against consensus expectations.",
+        "Key metrics to scrutinise include like-for-like sales growth across Universal Store and Cheap as Chips banners, gross margin trajectory amid cost-of-living pressures on discretionary spending, and any update on store rollout cadence which underpins the medium-term growth thesis.",
+        "Forward guidance and capital allocation commentary — particularly dividend policy, balance sheet positioning, and FY27 trading conditions — will be critical for institutional holders assessing whether the youth-focused apparel retailer can sustain earnings momentum in a challenging consumer environment."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRV",
+      "company": "SERVCORP LIMITED",
+      "headline": "Full Year Statutory Accounts",
+      "time": "2026-08-19T23:10:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123397-2A1690640",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Full year statutory accounts filing confirms regulatory compliance and provides the definitive audited financial baseline for FY performance — investors should scrutinise net profit after tax, revenue trajectory across Servcorp's global flexible workspace network, and any material divergence from previously disclosed operating metrics.",
+        "Key metrics to watch include occupancy rates across Servcorp's premium serviced office and coworking portfolio, cash generation from operations, and the sustainability of the dividend given the capital-light but operationally leveraged business model in a post-pandemic hybrid-work environment.",
+        "The market-sensitive classification signals potentially material information embedded in the statutory accounts — institutional investors should assess whether full-year results confirm, beat, or miss consensus expectations, and monitor management commentary on FY26 demand trends and lease liability exposure under AASB 16."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GMG",
       "company": "GOODMAN GROUP",
