@@ -1,9 +1,106 @@
 {
   "date": "2026-08-20",
-  "total": 218,
-  "market_sensitive_count": 213,
-  "generated_at": "2026-08-20T00:07:14.640351+00:00",
+  "total": 223,
+  "market_sensitive_count": 217,
+  "generated_at": "2026-08-20T00:24:10.798282+00:00",
   "announcements": [
+    {
+      "ticker": "SOP",
+      "company": "SYNERTEC CORPORATION LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-20T00:17:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123568-3A699297",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Synertec Corporation (SOP), indicating a holder has crossed or moved through the 5% threshold — warranting close monitoring of whether this reflects accumulation or distribution by a key investor.",
+        "Without disclosed transaction details, the directional intent remains ambiguous; however, movement at the substantial holder level in a micro-cap like Synertec can have outsized impact on liquidity and price discovery given the company's relatively thin free float.",
+        "Institutional investors should track subsequent Form 604/603 filings to determine if this represents strategic positioning ahead of a potential corporate event, or routine portfolio rebalancing — particularly given Synertec's ongoing focus on energy efficiency and industrial technology contracts."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "M2R",
+      "company": "MIRAMAR RESOURCES LIMITED",
+      "headline": "Maiden Gold Resources Outlined at Gidji JV",
+      "time": "2026-08-20T00:13:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123565-6A1339434",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Maiden JORC resource at Gidji JV marks a critical de-risking milestone for Miramar, converting exploration-stage ground into a quantified asset — a key catalyst that typically re-rates junior gold explorers and validates the JV structure's value proposition.",
+        "The resource quantum and grade will determine whether Gidji is economically meaningful; investors should scrutinise tonnes, gold grade (g/t), and classification split (Inferred vs. Indicated) to assess whether this is a development-scale discovery or an early-stage inventory requiring significant further drilling.",
+        "As a JV asset, Miramar's attributable share of the resource and any earn-in obligations or upcoming work program commitments will be the key near-term focus — clarity on funding requirements and partner dynamics will be essential to gauge dilution risk and pathway to development."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MML",
+      "company": "MCLAREN MINERALS LIMITED",
+      "headline": "McLaren Delivers Outstanding Results",
+      "time": "2026-08-20T00:07:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123562-6A1339435",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "The 'outstanding results' designation on a market-sensitive filing signals material exploration or resource discovery news, likely a significant drill intercept or resource upgrade that could re-rate the stock — investors should scrutinise assay grades and widths against peer benchmarks to assess genuine value creation.",
+        "As a minerals explorer, the absence of revenue means this announcement's financial impact hinges entirely on the scale of the result relative to McLaren's current market capitalisation and existing resource base — a step-change in resource tonnage or high-grade discovery could justify a meaningful re-rating of the enterprise value.",
+        "Near-term catalysts to monitor include follow-up drilling programs, independent resource estimation timelines, and any potential to attract joint-venture or M&A interest from larger producers — the strength of today's result will determine whether institutional capital begins to build positions ahead of a formal resource statement."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OVT",
+      "company": "OVANTI LIMITED",
+      "headline": "OVT EXITS BNPL AND COST CUTS",
+      "time": "2026-08-20T00:06:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123561-2A1690731",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic pivot away from BNPL removes Ovanti from a structurally challenged, capital-intensive segment that has destroyed value across the sector — the exit signals management acknowledgement that the model was unsustainable and clears a key overhang for investors reassessing the equity story.",
+        "Cost reduction measures accompanying the BNPL exit are critical to watch: with small-cap fintechs under intense cash burn scrutiny, the quantum of annualised savings and the resulting extension to cash runway will be the primary near-term valuation driver — investors should demand specific dollar figures in the follow-up disclosure.",
+        "The company now faces a strategic identity question — without BNPL, the market will require clarity on the remaining core business, any pivot thesis, and whether existing revenue streams are sufficient to sustain operations without an imminent capital raise; failure to articulate a credible path forward risks further de-rating."
+      ],
+      "tags": [
+        "Finance",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BAS",
+      "company": "BASS OIL LIMITED",
+      "headline": "Operations Update - July 2026",
+      "time": "2026-08-20T00:04:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123560-3A699296",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive operations update signals material field-level developments at Bass Oil's Indonesian assets — the 'market sensitive' designation elevates probability of a production, reserves, or well result disclosure that could meaningfully re-rate the stock.",
+        "As a micro-cap oil producer with limited cash buffer, any positive production or flow-rate data from the July update would directly impact near-term revenue visibility and reduce perceived funding risk, making this a high-stakes catalyst for the share price.",
+        "Investors should watch for specifics on well intervention outcomes, gross production volumes versus prior quarter, and any guidance on workover or drilling timelines — these metrics will determine whether the update sustains operational momentum or flags further delays to the production ramp."
+      ],
+      "tags": [
+        "Production",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "EVR",
       "company": "EV RESOURCES LTD",
