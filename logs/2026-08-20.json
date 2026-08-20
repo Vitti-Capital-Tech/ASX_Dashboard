@@ -1,9 +1,104 @@
 {
   "date": "2026-08-20",
-  "total": 238,
-  "market_sensitive_count": 231,
-  "generated_at": "2026-08-20T02:33:09.244997+00:00",
+  "total": 243,
+  "market_sensitive_count": 234,
+  "generated_at": "2026-08-20T03:27:50.562945+00:00",
   "announcements": [
+    {
+      "ticker": "SOP",
+      "company": "SYNERTEC CORPORATION LIMITED",
+      "headline": "Change in substantial holding - Amended",
+      "time": "2026-08-20T02:52:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123645-3A699323",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "An amended substantial holding notice signals a correction or update to a previously lodged disclosure, warranting scrutiny of the revised ownership percentage and the identity of the holder — any meaningful reduction in a substantial holder's stake could indicate waning conviction in SYT's near-term prospects.",
+        "Synertec, a small-cap industrial technology and engineering services company, is sensitive to concentrated ownership movements; shifts at the substantial holder level (typically ≥5%) can disproportionately impact liquidity and price discovery given the stock's limited free float.",
+        "Investors should monitor whether the amendment reflects a technical correction (e.g. date or calculation error) versus an actual change in economic exposure — if the latter, tracking the direction of movement (accumulation vs. disposal) will be critical for assessing future register stability and potential overhang risk."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GES",
+      "company": "GENESIS RESOURCES LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-08-20T02:50:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123644-3A699321",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX-initiated price query signals unusual trading activity in GNR shares, triggering mandatory disclosure obligations — the company's response will be scrutinised for any undisclosed material information or premature market leakage that could attract regulatory attention.",
+        "Genesis Resources' formal response to the query is market-sensitive, meaning management has either confirmed awareness of no undisclosed information or is compelled to release material news — either outcome directly resets the information baseline for all market participants simultaneously.",
+        "For institutional investors, the key watch point is whether the response reveals a pending corporate transaction, resource update, or capital raise catalyst that may have driven the price movement; absent a substantive disclosure, the stock typically retraces speculative gains as the query acts as a cooling mechanism."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPZ",
+      "company": "SMART PARKING LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-20T02:49:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123643-3A699322",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in Smart Parking's register, indicating a major investor has crossed (or moved through) the 5% threshold — warranting close monitoring of whether this represents accumulation or distribution by a sophisticated market participant.",
+        "The directional move of the substantial holder (increase or decrease) is critical context: net buying by an institutional or strategic investor could signal conviction in Smart Parking's technology-driven parking management growth thesis, while a reduction may indicate profit-taking or loss of confidence in near-term catalysts.",
+        "Investors should track subsequent Form 604/603 filings to determine if this is part of a broader stake-building pattern or a one-off rebalancing; any creep toward 10–15% ownership could foreshadow a strategic play or M&A interest in the company's proprietary ANPR and parking enforcement platform."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EXT",
+      "company": "EXCITE TECHNOLOGY SERVICES LTD",
+      "headline": "Performance, pipeline growth and emerging AI opportunities",
+      "time": "2026-08-20T02:33:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123639-3A699320",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material operational progress — investors should scrutinise pipeline conversion rates and contract tenure, as small-cap tech re-ratings hinge on whether pipeline growth translates to contracted recurring revenue rather than remaining indicative.",
+        "Performance update framing suggests positive trading momentum, but without disclosed revenue figures or EBITDA metrics in the headline, the risk remains that 'growth' is measured against a low base — key metrics to watch include ARR trajectory, customer concentration, and gross margin expansion.",
+        "AI opportunity narrative is increasingly commoditised across ASX tech micro-caps; the critical differentiator will be whether Excite can demonstrate proprietary AI integration within existing service offerings or client contracts, rather than aspirational positioning — any named enterprise pilots or signed AI-linked deals would be the catalyst for sustained re-rating."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CVW",
+      "company": "CLEARVIEW WEALTH LIMITED",
+      "headline": "Acquisition of ClearView - Implementation of Scheme",
+      "time": "2026-08-20T02:33:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03123638-2A1690767",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "The scheme of arrangement for the acquisition of ClearView Wealth is now being implemented, marking a definitive end-game for CVW shareholders — this is the final procedural step before the company is delisted from the ASX, crystallising value for investors at the agreed scheme consideration.",
+        "Shareholders who voted in favour of the scheme will receive the negotiated cash or scrip consideration, eliminating further market risk and providing certainty of return — a key liquidity event for institutional holders who have been positioned in the stock ahead of completion.",
+        "Post-implementation, ClearView Wealth will cease to be an ASX-listed entity; investors should note that any remaining on-market positions will be compulsorily acquired under scheme terms, and focus should now shift to settlement timelines and the acquirer's integration strategy for ClearView's life insurance and wealth management book."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "MM8",
       "company": "MEDALLION METALS LIMITED.",
