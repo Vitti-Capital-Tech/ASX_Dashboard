@@ -1,9 +1,225 @@
 {
   "date": "2026-08-21",
-  "total": 86,
-  "market_sensitive_count": 84,
-  "generated_at": "2026-08-20T23:00:59.116283+00:00",
+  "total": 98,
+  "market_sensitive_count": 96,
+  "generated_at": "2026-08-20T23:10:28.443146+00:00",
   "announcements": [
+    {
+      "ticker": "AMU",
+      "company": "AMERICAN URANIUM LTD",
+      "headline": "Trading Halt",
+      "time": "2026-08-20T23:08:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124068-6A1339607",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from AMU",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NPM",
+      "company": "NEWPEAK METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-20T23:07:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124067-2A1690991",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from NPM",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MKR",
+      "company": "MANUKA RESOURCES LTD.",
+      "headline": "Gold Production Restarts at Wonawinta",
+      "time": "2026-08-20T23:06:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124065-2A1690990",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from MKR",
+        "Topic: Gold Production Restarts at Wonawinta",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPT",
+      "company": "PERPETUAL LIMITED",
+      "headline": "Non-cash impairment",
+      "time": "2026-08-20T23:06:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124062-2A1690988",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from PPT",
+        "Topic: Non-cash impairment",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DGT",
+      "company": "DIGICO INFRASTRUCTURE REIT",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-20T23:04:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124060-2A1690982",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from DGT",
+        "Topic: FY26 Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DGT",
+      "company": "DIGICO INFRASTRUCTURE REIT",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-20T23:03:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124058-2A1690980",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from DGT",
+        "Topic: FY26 Results Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OVT",
+      "company": "OVANTI LIMITED",
+      "headline": "Entitlement Offer Opens and Dispatch of Offer Documents",
+      "time": "2026-08-20T23:03:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124057-2A1690989",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "High-priority announcement from OVT",
+        "Topic: Entitlement Offer Opens and Dispatch of Offer Documents",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PNN",
+      "company": "POWER MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-20T23:03:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124054-2A1690987",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from PNN",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BCC",
+      "company": "BEAM COMMUNICATIONS HOLDINGS LIMITED",
+      "headline": "Full Year FY2026 Result Reports & Appendix 4E",
+      "time": "2026-08-20T23:02:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124052-3A699389",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from BCC",
+        "Topic: Full Year FY2026 Result Reports & Appendix 4E",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DGT",
+      "company": "DIGICO INFRASTRUCTURE REIT",
+      "headline": "DGT Appendix 4E and FY26 Financial Report",
+      "time": "2026-08-20T23:02:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124051-2A1690979",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from DGT",
+        "Topic: DGT Appendix 4E and FY26 Financial Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGA",
+      "company": "EASTERN GAS CORPORATION LIMITED",
+      "headline": "Strong Gas Shows in Venus 2H as it intersects Target Coal",
+      "time": "2026-08-20T23:00:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124050-2A1690986",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "High-priority announcement from EGA",
+        "Topic: Strong Gas Shows in Venus 2H as it intersects Target Coal",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AX1",
+      "company": "ACCENT GROUP LIMITED",
+      "headline": "Supplementary Target's Statement",
+      "time": "2026-08-20T22:59:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124048-2A1690984",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AX1",
+        "Topic: Supplementary Target's Statement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AAR",
       "company": "ASTRAL RESOURCES NL",
