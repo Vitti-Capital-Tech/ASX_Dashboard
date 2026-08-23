@@ -1,9 +1,207 @@
 {
   "date": "2026-08-24",
-  "total": 129,
-  "market_sensitive_count": 122,
-  "generated_at": "2026-08-23T22:54:53.243367+00:00",
+  "total": 140,
+  "market_sensitive_count": 133,
+  "generated_at": "2026-08-23T23:06:22.657288+00:00",
   "announcements": [
+    {
+      "ticker": "SNX",
+      "company": "SIERRA NEVADA GOLD INC.",
+      "headline": "Trading Halt",
+      "time": "2026-08-23T23:02:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124724-3A699543",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from SNX",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADH",
+      "company": "ADAIRS LIMITED",
+      "headline": "FY26 Full Year Results Presentation",
+      "time": "2026-08-23T23:01:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124723-3A699539",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from ADH",
+        "Topic: FY26 Full Year Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADH",
+      "company": "ADAIRS LIMITED",
+      "headline": "FY26 Full Year Results Release",
+      "time": "2026-08-23T22:59:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124722-3A699537",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from ADH",
+        "Topic: FY26 Full Year Results Release",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SP8",
+      "company": "STREAMPLAY STUDIO LIMITED",
+      "headline": "Noodlecake signs publishing agreement for new title",
+      "time": "2026-08-23T22:59:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124721-6A1339824",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from SP8",
+        "Topic: Noodlecake signs publishing agreement for new title",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KLI",
+      "company": "KILLI RESOURCES LIMITED",
+      "headline": "Killi Appoints Managing Director",
+      "time": "2026-08-23T22:58:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124719-6A1339822",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "High-priority announcement from KLI",
+        "Topic: Killi Appoints Managing Director",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADH",
+      "company": "ADAIRS LIMITED",
+      "headline": "Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-23T22:58:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124718-3A699534",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from ADH",
+        "Topic: Appendix 4E and 2026 Annual Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KBC",
+      "company": "KEYBRIDGE CAPITAL LIMITED",
+      "headline": "Lodgement of FY2025 Annual Report and ASX delisting",
+      "time": "2026-08-23T22:57:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124717-3A699532",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from KBC",
+        "Topic: Lodgement of FY2025 Annual Report and ASX delisting",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OVT",
+      "company": "OVANTI LIMITED",
+      "headline": "OVT NEW BUSINESS STRATEGY",
+      "time": "2026-08-23T22:56:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124716-2A1691311",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from OVT",
+        "Topic: OVT NEW BUSINESS STRATEGY",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LGF",
+      "company": "L1 GOLD FUND LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-23T22:55:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124715-6A1339823",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from LGF",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAX",
+      "company": "WAM RESEARCH LIMITED",
+      "headline": "Dividend/Distribution - WAX",
+      "time": "2026-08-23T22:54:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124714-2A1691310",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "High-priority announcement from WAX",
+        "Topic: Dividend/Distribution - WAX",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PKO",
+      "company": "PEAKO LIMITED",
+      "headline": "Magnetic Surveys Commence Ahead of Maiden KSA Drilling",
+      "time": "2026-08-23T22:52:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124709-3A699533",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from PKO",
+        "Topic: Magnetic Surveys Commence Ahead of Maiden KSA Drilling",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MPW",
       "company": "METAL POWDER WORKS LIMITED",
