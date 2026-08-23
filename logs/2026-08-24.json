@@ -1,9 +1,567 @@
 {
   "date": "2026-08-24",
-  "total": 72,
-  "market_sensitive_count": 66,
-  "generated_at": "2026-08-23T22:15:08.891606+00:00",
+  "total": 103,
+  "market_sensitive_count": 96,
+  "generated_at": "2026-08-23T22:27:34.345291+00:00",
   "announcements": [
+    {
+      "ticker": "ALK",
+      "company": "ALKANE RESOURCES LIMITED",
+      "headline": "New High-Grade Domain Discovered at Cuffley",
+      "time": "2026-08-23T22:23:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124638-6A1339805",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ALK",
+        "Topic: New High-Grade Domain Discovered at Cuffley",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BEN",
+      "company": "BENDIGO AND ADELAIDE BANK LIMITED",
+      "headline": "BEN FY26 Results Presentation",
+      "time": "2026-08-23T22:22:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124637-3A699511",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from BEN",
+        "Topic: BEN FY26 Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALD",
+      "company": "AMPOL LIMITED",
+      "headline": "2026 Half Year Results Presentation",
+      "time": "2026-08-23T22:21:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124634-2A1691266",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "High-priority announcement from ALD",
+        "Topic: 2026 Half Year Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RCR",
+      "company": "RINCON RESOURCES LIMITED",
+      "headline": "Drilling Underway at the Telfer South Project",
+      "time": "2026-08-23T22:20:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124631-6A1339801",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from RCR",
+        "Topic: Drilling Underway at the Telfer South Project",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALD",
+      "company": "AMPOL LIMITED",
+      "headline": "2026 Half Year Results",
+      "time": "2026-08-23T22:19:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124630-2A1691264",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "High-priority announcement from ALD",
+        "Topic: 2026 Half Year Results",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALD",
+      "company": "AMPOL LIMITED",
+      "headline": "2026 Half Year Report",
+      "time": "2026-08-23T22:17:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124628-2A1691261",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "High-priority announcement from ALD",
+        "Topic: 2026 Half Year Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BEN",
+      "company": "BENDIGO AND ADELAIDE BANK LIMITED",
+      "headline": "BEN FY26 Results Announcement",
+      "time": "2026-08-23T22:17:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124627-3A699510",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from BEN",
+        "Topic: BEN FY26 Results Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BEN",
+      "company": "BENDIGO AND ADELAIDE BANK LIMITED",
+      "headline": "BEN FY26 Appendix 4E",
+      "time": "2026-08-23T22:17:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124626-3A699509",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from BEN",
+        "Topic: BEN FY26 Appendix 4E",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCX",
+      "company": "CITY CHIC COLLECTIVE LIMITED",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-23T22:16:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124625-2A1691248",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from CCX",
+        "Topic: FY26 Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JGH",
+      "company": "JADE GAS HOLDINGS LIMITED",
+      "headline": "PDO submitted and 502km2 Production Licence Area Agreed",
+      "time": "2026-08-23T22:15:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124622-6A1339800",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from JGH",
+        "Topic: PDO submitted and 502km2 Production Licence Area Agreed",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCX",
+      "company": "CITY CHIC COLLECTIVE LIMITED",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-23T22:14:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124619-2A1691246",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from CCX",
+        "Topic: FY26 Results Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GLF",
+      "company": "GEMLIFE COMMUNITIES GROUP",
+      "headline": "1H26 Appendix 4D and Interim Financial Reports",
+      "time": "2026-08-23T22:13:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124618-2A1691258",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from GLF",
+        "Topic: 1H26 Appendix 4D and Interim Financial Reports",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VNT",
+      "company": "VENTIA SERVICES GROUP LIMITED",
+      "headline": "HY26 results - Presentation",
+      "time": "2026-08-23T22:12:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124614-2A1691256",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from VNT",
+        "Topic: HY26 results - Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCX",
+      "company": "CITY CHIC COLLECTIVE LIMITED",
+      "headline": "FY26 Appendix 4E and Preliminary Final Report",
+      "time": "2026-08-23T22:11:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124612-2A1691245",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from CCX",
+        "Topic: FY26 Appendix 4E and Preliminary Final Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VNT",
+      "company": "VENTIA SERVICES GROUP LIMITED",
+      "headline": "HY26 results - Media Release",
+      "time": "2026-08-23T22:11:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124611-2A1691255",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from VNT",
+        "Topic: HY26 results - Media Release",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LGF",
+      "company": "L1 GOLD FUND LIMITED",
+      "headline": "LGF Appendix 4E and FY26 Annual Report",
+      "time": "2026-08-23T22:09:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124607-6A1339798",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from LGF",
+        "Topic: LGF Appendix 4E and FY26 Annual Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYC",
+      "company": "CYCLOPHARM LIMITED",
+      "headline": "CYC 1H2026 Results Summary",
+      "time": "2026-08-23T22:09:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124606-2A1691244",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from CYC",
+        "Topic: CYC 1H2026 Results Summary",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYC",
+      "company": "CYCLOPHARM LIMITED",
+      "headline": "Half Yearly Report and Accounts",
+      "time": "2026-08-23T22:09:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124605-2A1691241",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "High-priority announcement from CYC",
+        "Topic: Half Yearly Report and Accounts",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VNT",
+      "company": "VENTIA SERVICES GROUP LIMITED",
+      "headline": "Half Yearly Report and Accounts",
+      "time": "2026-08-23T22:09:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124603-2A1691251",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "High-priority announcement from VNT",
+        "Topic: Half Yearly Report and Accounts",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DBO",
+      "company": "DIABLO RESOURCES LIMITED",
+      "headline": "Star Range Earthworks Complete Horn Silver Work Underway",
+      "time": "2026-08-23T22:09:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124602-6A1339796",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from DBO",
+        "Topic: Star Range Earthworks Complete Horn Silver Work Underway",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FDV",
+      "company": "FRONTIER DIGITAL VENTURES LIMITED",
+      "headline": "Change of interests of substantial holder - Cove View",
+      "time": "2026-08-23T22:08:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124598-3A699500",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "High-priority announcement from FDV",
+        "Topic: Change of interests of substantial holder - Cove View",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MVF",
+      "company": "MONASH IVF GROUP LIMITED",
+      "headline": "FY2026 Results release postponed to 31 August 2026",
+      "time": "2026-08-23T22:08:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124596-2A1691249",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from MVF",
+        "Topic: FY2026 Results release postponed to 31 August 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABB",
+      "company": "AUSSIE BROADBAND LIMITED",
+      "headline": "ABB FY26 Results - Investor Presentation",
+      "time": "2026-08-23T22:07:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124595-3A699495",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from ABB",
+        "Topic: ABB FY26 Results - Investor Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABB",
+      "company": "AUSSIE BROADBAND LIMITED",
+      "headline": "ABB FY26 Annual Results Announcement",
+      "time": "2026-08-23T22:07:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124594-3A699494",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from ABB",
+        "Topic: ABB FY26 Annual Results Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABB",
+      "company": "AUSSIE BROADBAND LIMITED",
+      "headline": "ABB Appendix 4E - FY26 Full Year Results",
+      "time": "2026-08-23T22:07:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124592-3A699491",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from ABB",
+        "Topic: ABB Appendix 4E - FY26 Full Year Results",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NMT",
+      "company": "NEOMETALS LTD",
+      "headline": "Tranche 2 Placement and Funding Update",
+      "time": "2026-08-23T22:07:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124590-6A1339795",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "High-priority announcement from NMT",
+        "Topic: Tranche 2 Placement and Funding Update",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCM",
+      "company": "CADOUX LIMITED",
+      "headline": "Successful Hypersonic Test Flight Incorporating Cadoux HPA",
+      "time": "2026-08-23T22:07:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124589-6A1339793",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from CCM",
+        "Topic: Successful Hypersonic Test Flight Incorporating Cadoux HPA",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EMA",
+      "company": "EMINENCE MINERALS LIMITED",
+      "headline": "Strategic Rare Earths Expansion in Bahia, Brazil",
+      "time": "2026-08-23T22:07:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124588-6A1339788",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from EMA",
+        "Topic: Strategic Rare Earths Expansion in Bahia, Brazil",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RKB",
+      "company": "ROKEBY RESOURCES LIMITED",
+      "headline": "High-Grade Mineralisation Confirmed at Sunnyside Deposit",
+      "time": "2026-08-23T22:07:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124586-6A1339787",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from RKB",
+        "Topic: High-Grade Mineralisation Confirmed at Sunnyside Deposit",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TNC",
+      "company": "TRUE NORTH COPPER LIMITED",
+      "headline": "Security Purchase Plan",
+      "time": "2026-08-23T22:06:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124585-6A1339791",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from TNC",
+        "Topic: Security Purchase Plan",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PC2",
+      "company": "PC GOLD LTD",
+      "headline": "High Grade Infill Drilling Results",
+      "time": "2026-08-23T22:06:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124584-6A1339782",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from PC2",
+        "Topic: High Grade Infill Drilling Results",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GBR",
       "company": "GREAT BOULDER RESOURCES LIMITED",
