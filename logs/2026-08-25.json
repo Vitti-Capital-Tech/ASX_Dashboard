@@ -1,9 +1,45 @@
 {
   "date": "2026-08-25",
-  "total": 203,
-  "market_sensitive_count": 190,
-  "generated_at": "2026-08-25T01:44:14.391772+00:00",
+  "total": 205,
+  "market_sensitive_count": 191,
+  "generated_at": "2026-08-25T02:33:24.796129+00:00",
   "announcements": [
+    {
+      "ticker": "TCF",
+      "company": "360 CAPITAL MORTGAGE REIT",
+      "headline": "Pause in Trading",
+      "time": "2026-08-25T01:58:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03125658-2A1691826",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from TCF",
+        "Topic: Pause in Trading",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VGL",
+      "company": "VISTA GROUP INTERNATIONAL LIMITED.",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-08-25T01:43:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03125656-3A699738",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from VGL",
+        "Topic: Ceasing to be a substantial holder",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MXT",
       "company": "METRICS MASTER INCOME TRUST",
