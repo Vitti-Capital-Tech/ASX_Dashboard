@@ -1,9 +1,142 @@
 {
   "date": "2026-08-26",
-  "total": 259,
-  "market_sensitive_count": 249,
-  "generated_at": "2026-08-26T02:39:08.603663+00:00",
+  "total": 266,
+  "market_sensitive_count": 256,
+  "generated_at": "2026-08-26T03:31:45.685598+00:00",
   "announcements": [
+    {
+      "ticker": "GTI",
+      "company": "GRATIFII LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-08-26T03:16:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03126499-2A1692281",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Gratifii Limited has entered a trading pause, a precursor status distinct from a formal trading halt — typically indicating imminent price-sensitive disclosure such as a capital raise, M&A transaction, or material operational update requiring orderly market management.",
+        "The market-sensitive classification signals regulators and investors should anticipate a consequential announcement; historically, pauses of this nature on small-cap ASX technology/loyalty stocks precede dilutive equity raises or transformative deal announcements, both of which carry significant re-rating risk.",
+        "Institutional investors should monitor the ASX platform closely for the resumption announcement — the nature of the disclosure will be decisive for near-term price direction, with downside risk skewed toward a capital raise at discount given Gratifii's historic cash consumption profile in its loyalty and rewards platform business."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ESR",
+      "company": "ESTRELLA RESOURCES LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-08-26T02:53:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03126493-6A1340396",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Estrella Resources has responded to an ASX price query, confirming management is aware of no undisclosed material information that would explain recent unusual price or volume movement — a response that, while procedurally compliant, keeps the market in a state of uncertainty regarding the catalyst behind any price action.",
+        "The market-sensitive classification of the response itself signals that ASX identified a statistically significant price or volume anomaly warranting formal inquiry, suggesting heightened speculative activity in ESR shares that institutional investors should treat with caution absent a confirmed fundamental driver.",
+        "Next steps hinge on whether a material announcement (e.g. drill results, asset deal, or partnership) is forthcoming in the near term — if no catalyst materialises, the risk of a mean-reversion pullback is elevated, while any confirmed news flow could validate recent trading patterns and re-rate the stock."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ESR",
+      "company": "ESTRELLA RESOURCES LIMITED",
+      "headline": "Copper Discoveries at Laleno Dome MTd Targets",
+      "time": "2026-08-26T02:53:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03126492-6A1340389",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "New copper discoveries at the Laleno Dome targets represent a meaningful exploration breakthrough for Estrella Resources, potentially expanding the resource footprint beyond existing known mineralisation and validating the broader geological model across the tenement package.",
+        "The market-sensitive classification signals material new information — discovery-stage copper announcements carry re-rating potential, particularly given elevated copper prices driven by global energy transition demand, which amplifies the strategic value of any new mineralisation at this stage.",
+        "Key near-term catalysts to watch include follow-up drilling programmes to define strike extent and depth continuity of the new discoveries, with assay results and resource estimation updates likely to drive the next share price inflection points — investors should monitor drill spacing and grade intercepts closely."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CMM",
+      "company": "CAPRICORN METALS LTD",
+      "headline": "Completion of Big Springs Divestment",
+      "time": "2026-08-26T02:49:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03126489_PS-6A1340397",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Capricorn Metals has completed the divestment of its Big Springs gold project in Nevada, USA, allowing management to sharpen strategic focus entirely on its core Western Australian assets — Mt Gibson Gold Project and the Karlawinda Gold Project — eliminating distraction and potential future capital calls from a non-core, pre-revenue US asset.",
+        "The divestment crystallises value from an asset that would have required significant exploration and development capital to advance; any cash proceeds or retained equity stakes received improve near-term balance sheet flexibility, directly supporting CMM's organic growth pipeline without dilutive equity raises.",
+        "With Big Springs now off the books, investor attention will pivot to execution milestones at Karlawinda (steady-state ~100koz per annum producer) and the Mt Gibson feasibility/development timeline — both higher-return, lower-risk projects in a Tier-1 Australian jurisdiction that command premium market multiples."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "REV",
+      "company": "REVOLUTION PRIVATE CREDIT INCOME TRUST",
+      "headline": "Dividend/Distribution - REV",
+      "time": "2026-08-26T02:45:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03126483-3A699908",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Revolution Private Credit Income Trust (REV) has declared a distribution, signalling the trust is generating sufficient income from its private credit portfolio to sustain regular cash returns to unitholders — a key metric for income-focused institutional allocators evaluating yield reliability.",
+        "The market-sensitive classification elevates this announcement above routine distributions, suggesting the quantum, timing, or rate of the distribution may deviate materially from prior periods or consensus expectations — investors should scrutinise the cents-per-unit figure against the trust's target yield and prior declared amounts to assess portfolio performance trajectory.",
+        "For a private credit vehicle operating in the current elevated interest rate environment, consistent or growing distributions reinforce the thesis that floating-rate loan book exposure is translating into higher net interest margins; any reduction would raise concerns about credit quality deterioration, redemption pressure, or fee drag within the underlying portfolio."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SNC",
+      "company": "SANDON CAPITAL INVESTMENTS LIMITED",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-26T02:38:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03126477-2A1692268",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results release from Sandon Capital Investments (SCI) is market sensitive, signalling material portfolio performance outcomes — investors should watch closely for NTA movement and investment income figures relative to prior period, as these are the primary valuation drivers for this activist LIC.",
+        "As an activist-focused Listed Investment Company, SCI's results hinge on the success of its engagement campaigns across portfolio holdings; any realised gains from activist positions or write-downs on contested holdings will be the key swing factor in net profit and NTA per share.",
+        "Near-term focus will be on dividend sustainability and any updated commentary on the discount-to-NTA trajectory — SCI has historically traded at a discount, and strong FY26 results could catalyse a re-rating or support a renewed buyback/capital management initiative to close that gap."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SNC",
+      "company": "SANDON CAPITAL INVESTMENTS LIMITED",
+      "headline": "Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-26T02:37:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03126473-2A1692265",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual report release for Sandon Capital Investments (SNC) triggers mandatory scrutiny of NTA performance versus benchmark — as an activist LIC, any discount-to-NTA widening or underperformance of the investment portfolio against the S&P/ASX Small Ordinaries would be a key red flag for institutional holders evaluating the activist strategy's efficacy over FY2026.",
+        "Key metrics to watch include pre-tax and post-tax NTA per share movement, dividend sustainability given the LIC structure's reliance on franking credit reserves and realised gains, and whether management fees and operating expense ratios have compressed or expanded relative to the portfolio size — cost drag is a persistent concern for small-cap LICs.",
+        "Outlook hinges on Sandon's active campaign pipeline: any updates on target company engagements, board representation wins, or capital management unlocks at investee companies will be the primary forward value catalyst, while persistent LIC discount pressures may re-ignite shareholder buyback or restructuring conversations at the upcoming AGM."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SNM",
       "company": "SENTINEL METALS LIMITED",
