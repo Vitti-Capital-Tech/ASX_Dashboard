@@ -215,7 +215,6 @@ def _call_ai_one(client, model: str, prompt: str, provider: str) -> dict:
         resp = client.messages.create(
             model=model,
             max_tokens=600,
-            temperature=0.4,
             messages=[{"role": "user", "content": prompt}],
         )
         raw = ""
