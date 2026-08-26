@@ -1,9 +1,104 @@
 {
   "date": "2026-08-26",
-  "total": 266,
-  "market_sensitive_count": 256,
-  "generated_at": "2026-08-26T03:31:45.685598+00:00",
+  "total": 271,
+  "market_sensitive_count": 261,
+  "generated_at": "2026-08-26T04:23:53.442521+00:00",
   "announcements": [
+    {
+      "ticker": "URF",
+      "company": "US MASTERS RESIDENTIAL PROPERTY FUND",
+      "headline": "Half-yearly report and accounts - 30 June 2026",
+      "time": "2026-08-26T04:21:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03126516-2A1692292",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Half-year accounts to 30 June 2026 are market sensitive, signalling material disclosures likely around portfolio valuation, net asset value per unit, or distributable income — key metrics for a listed property trust in a still-elevated US interest rate environment.",
+        "US residential property fundamentals remain mixed heading into mid-2026, with persistent mortgage rate pressure compressing cap rates and liquidity; any revaluation of the underlying US property portfolio could drive significant NTA movements and directly impact unit price.",
+        "Investors should scrutinise gearing levels, hedging positions on USD/AUD exposure, and distribution sustainability — given URF's historical reliance on debt to fund its US housing portfolio, refinancing terms and covenant headroom will be critical forward-looking indicators."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HCF",
+      "company": "H&G HIGH CONVICTION LIMITED",
+      "headline": "Appendix 4E & Annual Report 2026",
+      "time": "2026-08-26T04:17:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03126514-2A1692291",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual report filing (Appendix 4E) for FY2026 is market-sensitive, signalling material financial outcomes that investors must scrutinise for NTA performance, portfolio returns, and any deviation from prior guidance — key metrics for a high-conviction LIC structure.",
+        "As a listed investment company, H&G High Conviction's results hinge on portfolio NTA movement, dividend sustainability, and management expense ratio trends; any NTA discount widening or earnings shortfall versus distributions would pressure the share price.",
+        "Investors should monitor the board's commentary on portfolio positioning and capital allocation strategy heading into FY2027, particularly whether the LIC intends to defend its NTA discount via buybacks or maintain/grow its dividend yield to attract retail income investors."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BRL",
+      "company": "BATHURST RESOURCES LIMITED.",
+      "headline": "30 June 2026 Results Announcement",
+      "time": "2026-08-26T04:01:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03126512-2A1692289",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Full-year results to 30 June 2026 are market sensitive, signalling material variance from prior expectations — investors should brace for a potentially significant earnings surprise, either positive or negative, relative to consensus estimates for this NZ-focused coal producer.",
+        "Bathurst Resources operates the Escarpment metallurgical coal project in New Zealand via its majority-owned subsidiary Buller Coal — key metrics to watch include EBITDA margin, realised coal pricing against the volatile hard coking coal benchmark, and any impairment charges given ongoing regulatory and environmental headwinds in the region.",
+        "With the coal sector facing sustained ESG-driven capital allocation pressure and NZ regulatory complexity, the outlook commentary will be critical — any guidance on production volumes, cost trajectory, or strategic review activity (including potential M&A or asset monetisation) could be a primary near-term share price catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BRL",
+      "company": "BATHURST RESOURCES LIMITED.",
+      "headline": "Appendix 4E and 30 June 2026 Financial Statements",
+      "time": "2026-08-26T04:00:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03126511-2A1692288",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Full-year financial results to 30 June 2026 represent a key valuation catalyst for Bathurst Resources, with the Appendix 4E filing providing the first complete picture of annual revenue, EBITDA, and cash position — critical metrics for a coal producer navigating volatile coking coal prices and ongoing operational ramp-up at Escarpment mine.",
+        "Market-sensitive classification signals material financial content likely to move the share price; investors should scrutinise net profit/loss trajectory, any impairment charges against mining assets, and working capital position to assess whether the balance sheet can sustain operations without near-term equity dilution.",
+        "The outlook commentary within the financial statements will be closely watched for guidance on production volumes, coal sales contracts, and capital expenditure commitments — particularly given broader thermal and metallurgical coal market headwinds that could pressure realised pricing into FY2027."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PFT",
+      "company": "PURE FOODS TASMANIA LIMITED",
+      "headline": "UPDATED ANNOUNCEMENT Issue of 15,000,000 Shares Placement",
+      "time": "2026-08-26T03:55:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03126509-3A699911",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Pure Foods Tasmania is issuing 15,000,000 new shares via placement — the 'updated' nature of this announcement signals a revision to an earlier disclosure, warranting scrutiny of any changes to pricing, scale, or use-of-funds terms that could alter dilution impact on existing holders.",
+        "For a small-cap food producer, a placement of this size represents meaningful equity dilution; investors should assess the implied issue price against the prevailing market price to determine whether shares were placed at a discount, which is the primary near-term valuation headwind.",
+        "Proceeds deployment will be the critical watchdog metric — if capital is directed toward Tasmanian supply chain expansion, brand development, or working capital to support revenue scaling, the raise could be strategically accretive, but the absence of detailed use-of-funds disclosure at this stage keeps sentiment cautious."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Retail"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "GTI",
       "company": "GRATIFII LIMITED",
