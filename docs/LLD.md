@@ -7,13 +7,42 @@
 To retrieve, parse, enrich, and serialize the daily ASX market announcements.
 
 #### Workflow details:
-1.  **API Call:** Connects to `https://www.asx.com.au/asx/1/company/announcements?...` using a randomized User-Agent to prevent basic rate-limiting/blocking.
-2.  **State Management:** Compares the fetched list against existing entries in `logs/{YYYY-MM-DD}.json` utilizing `URL` and `time` as composite primary keys to avoid duplicate processing.
-3.  **Enrichment:**
-    *   Initiates an HTTP POST to Groq's LLaMA-v3.3 endpoint.
-    *   **Prompt Engineering:** Defines a rigid system prompt enforcing JSON output format: `{"summary": [], "tags": [], "score": int}`.
-    *   **Fallback Logic:** If the AI fails to respond (due to timeout or quota limits), the announcement is still appended to the log but with empty `summary` and `tags` arrays.
-4.  **Serialization:** Reads the target day's JSON, appends the new objects to the `announcements` array, and re-writes the file safely.
+1.  **API Call:** Connects to `https://asx.api.markitdigital.com/asx-research/1.0/markets/announcements?entityXids=[]&page=0&itemsPerPage=500` with a fixed desktop-Chrome User-Agent and an `asx.com.au` Referer to avoid basic bot blocking. Retries 3× with a 3s/6s backoff.
+2.  **Date Filtering:** Each item's UTC `date` is converted to `Australia/Sydney` and compared against the target day, so an announcement lodged at 09:00 AEST is filed under the Sydney trading day rather than the UTC one.
+3.  **Scope:** `MARKET_SENSITIVE_ONLY = False` — the whole day is ingested. The constant remains as an escape hatch: setting it `True` narrows the log to `is_alpha()` items only (price sensitive, trading halts/suspensions, substantial holdings), which is how the log used to be built.
+4.  **Market Sensitivity:** `market_sensitive` is a verbatim copy of the API's `isPriceSensitive` boolean. No heuristic, keyword rule, or model output ever writes this field.
+5.  **State Management:** Compares the fetched list against existing entries in `logs/{YYYY-MM-DD}.json` using `ticker` + `time` + `headline` as a composite primary key, so only the delta is sent for enrichment.
+6.  **Enrichment (`summarise_batch`):**
+    *   **Batching:** New announcements are chunked into groups of `AI_BATCH_SIZE` (default 10) and each group becomes **one** LLM call. `AI_CONCURRENCY` (default 4) groups run in parallel via a `ThreadPoolExecutor`.
+    *   **Ordering:** Groups are formed alpha-first (`is_alpha()`), so a run killed mid-flight leaves the price-sensitive announcements with real summaries rather than placeholders.
+    *   **Prompt Engineering (`build_batch_prompt`):** Announcements are numbered `[1]`–`[n]` and the model must return `{"results": [{"id": n, "summary": [3 strings], "tags": [...], "sentiment": "bullish|bearish|neutral"}]}`.
+    *   **Response Alignment (`_call_ai_group`):** Entries are matched back by `id`. If the model omits ids but returns the right count, results are aligned positionally instead of burning a retry. If any announcement in the group lacks its 3 bullets, the whole group raises and retries.
+    *   **Failover Logic:** 3 attempts against Anthropic (`ANTHROPIC_MODEL`, default `claude-opus-4-6`), then 3 against Groq (`GROQ_MODEL`, default `llama-3.3-70b-versatile`), with `2**attempt` backoff — flat delays are not enough when `AI_CONCURRENCY` requests share a rate limit. If every attempt fails, each announcement in the group gets a deterministic placeholder summary (`_fallback_result`) and is still appended to the log.
+7.  **Serialization:** Reads the target day's JSON, appends the new objects to the `announcements` array, recomputes `total` and `market_sensitive_count`, and re-writes the file safely.
+
+#### Cost characteristics
+Ingesting the full day multiplies announcement volume ~2.7× (≈300 → ≈800 per day) but batching cuts LLM calls ~10×, so the net call count *fell*:
+
+| | Sensitive-only, 1 call each | Full day, 10 per call |
+| --- | --- | --- |
+| Announcements logged / day | ~300 | ~800 |
+| LLM calls / day | ~300 | **~80** |
+| Calls in the peak 10:00 AM run | ~80 | **~24** |
+
+#### Tuning knobs
+All read via `_env_or_default`, which treats the empty strings GitHub Actions injects as unset:
+
+| Variable | Default | Effect |
+| --- | --- | --- |
+| `AI_BATCH_SIZE` | `10` | Announcements per LLM call. Raising it cuts calls further but widens the blast radius of one malformed response, since a group retries as a unit. |
+| `AI_CONCURRENCY` | `4` | Groups in flight at once. Raise only if the provider's rate limit has headroom. |
+| `ANTHROPIC_MODEL` | `claude-opus-4-6` | Primary summariser. |
+| `GROQ_MODEL` | `llama-3.3-70b-versatile` | Failover summariser. |
+
+#### Known limitations
+*   **Page-size ceiling:** the API is called with `page=0&itemsPerPage=500`, so any single fetch sees only the most recent 500 announcements *across all days*. On a heavy day (823 on 26 Aug 2026) one run cannot cover the day alone — coverage depends on runs landing repeatedly through the session. Paginating would remove the dependency.
+*   **Afternoon gap:** the cron stops at 14:00 AEST (gate bound 15), but announcements keep arriving until ~19:00. On 26 Aug 2026 the log captured 249 of the day's 296 price-sensitive announcements; all 47 missing were lodged after 12:37 AEST, the last run of that day. Extending the schedule is the fix.
+*   **Historical logs predate full-day ingestion:** logs written before `MARKET_SENSITIVE_ONLY` was set to `False` contain only the alpha subset, so their `market_sensitive_count / total` ratio reads ~97%. They cannot be backfilled — the API retains roughly six days of history.
 
 ### 2. Frontend Application (`Next.js 14 App Router`)
 
@@ -27,11 +56,11 @@ To retrieve, parse, enrich, and serialize the daily ASX market announcements.
 *   **Client Hook:** Forces client-side hydration via `use client` and `useEffect(() => setIsClient(true))` to prevent SSR hydration mismatches when doing timezone math for the `Date` object mapping to AEST.
 *   **Polling Engine:** Implements `setInterval` referencing `REFRESH_MS = 300000` (5 minutes). Triggers `fetchLog(date)` silently to keep data fresh.
 *   **Memoized Computations:** Utilizes `useMemo` for filtering data to ensure high performance on large datasets:
-    1. Filter out non-sensitive announcements (`sensitiveOnly` true/false).
+    1. Filter out non-sensitive announcements (`marketSensitiveOnly` true/false). Now that the full day is ingested, this toggle is a real filter — it typically narrows ~800 announcements to ~300, where previously the log held almost nothing but sensitive items and the toggle was close to a no-op.
     2. Filter by Category Toggles.
     3. Filter by Sidebar Tags (Set intersection).
     4. Fuzzy text search on `ticker`, `company`, and `headline`.
-    5. Sorting weights: Market Sensitive -> Bullish Score -> Chronological.
+    5. Sorting weights: Market Sensitive -> `sentimentRank` (bullish, then neutral, then bearish) -> reverse chronological.
 
 #### C. Presentation Components
 *   **`Sidebar.tsx`:** Manages control inputs (Date picker, Focus Mode switch). Iterates over `tagCounts` to render the dynamic taxonomy.
@@ -97,7 +126,7 @@ A cheap pre-flight job whose sole output is `proceed` (`"true"` / `"false"`), co
 `concurrency` is declared on the **`fetch-and-summarise` job**, not at workflow level. GitHub permits one running plus one pending run per group and cancels the older pending entry when a third arrives; scoping the group to the fetch prevents the seconds-long gate jobs from consuming that headroom. `cancel-in-progress: false` because the job pushes commits and must not be interrupted mid-write.
 
 #### D. Idempotency & Push Safety
-*   Re-runs are safe via the `URL` + `time` composite key described in §1.2, so a delayed or duplicated event never double-writes.
+*   Re-runs are safe via the `ticker` + `time` + `headline` composite key described in §1.5, so a delayed or duplicated event never double-writes. The same key makes each run incremental: it enriches only announcements the earlier runs have not already logged, so ingesting the full trading day never means re-summarising it.
 *   The commit step no-ops when nothing changed: `git diff --cached --quiet || git commit`.
 *   A `git pull --rebase origin main` precedes `git push` so interleaved runs cannot reject each other on a stale ref.
 

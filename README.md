@@ -10,13 +10,33 @@ Every day, hundreds of companies release official announcements on the stock mar
 
 ## What This Tool Does For You
 
-1. **Auto-Fetches the News:** Automatically pulls the latest official announcements from the ASX throughout the trading day — every few minutes around the market open, then hourly.
-2. **AI Summaries:** Instead of reading a 50-page PDF, AI reads it instantly and gives you 3 bullet points explaining what happened.
-3. **Flags Market-Sensitive News:** The ASX tells us if a piece of news is expected to move the stock price. These are highlighted in your feed so you know what matters.
+1. **Auto-Fetches the News:** Automatically pulls the latest official announcements from the ASX throughout the trading day — every few minutes around the market open, then hourly. **Every** announcement is captured, not just the market-moving ones, so the feed mirrors the ASX's own daily list (~800 on a busy reporting day).
+2. **AI Summaries:** Instead of reading a 50-page PDF, AI reads it instantly and gives you 3 bullet points explaining what happened. Every announcement gets one, price-sensitive or not.
+3. **Flags Market-Sensitive News:** The ASX tells us if a piece of news is expected to move the stock price. These are highlighted in your feed so you know what matters. See [Market Sensitive, explained](#market-sensitive-explained) below.
 4. **Highlights Bullish News:** Our AI analyzes text and flags positive announcements with a green **▲ BULLISH** badge and a glowing green card.
 5. **Tracks Substantial Holders:** Detects when major investors cross the 5% ownership threshold — a key signal for potential takeovers or institutional confidence.
 6. **Organizes by Category:** Filter news by type — Bullish, Dividends, Capital Raises, Results, Substantial Holding, Trading Halts, and more.
 7. **WhatsApp Summary Generation:** Formats copy-pastable, mobile-friendly 5-6 line summaries for Placement & IPO campaigns, facilitating direct sharing with clients.
+
+---
+
+## Market Sensitive, explained
+
+The **Sensitive** badge is not our judgement — it is the ASX's own flag, the same `$` shown in the "Price sens." column of [the ASX's Today's Announcements page](https://www.asx.com.au/asx/v2/statistics/todayAnns.do). The company itself declares it when lodging, so we pass it straight through untouched.
+
+**Expect roughly a third of the day to be market sensitive.** Measured over 27 Aug 2026, the ASX page listed 814 announcements with 317 `$` markers (39%); the API we read reported 314 of 800 — agreeing with the page on **765 of 765** announcements matched by ticker and headline. Typical range:
+
+| Date (2026) | Announcements | Market sensitive |
+| --- | --- | --- |
+| 20 Aug | 340 | 69 (20%) |
+| 21 Aug | 609 | 152 (25%) |
+| 25 Aug | 718 | 223 (31%) |
+| 26 Aug | 823 | 296 (36%) |
+| 27 Aug | 800 | 314 (39%) |
+
+The ratio climbs through August because FY results season floods the market with Appendix 4E filings, which companies routinely flag as price sensitive.
+
+> **If the count looks too low, check the clock.** The day builds up as it goes: on 27 Aug there were only 57 sensitive announcements by 8:00 AM AEST, 258 by 10:00 AM, and 314 by the close. A morning snapshot is not a short day.
 
 ---
 

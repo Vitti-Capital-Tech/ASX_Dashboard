@@ -3,8 +3,10 @@ import json
 import time
 import argparse
 import re
+import threading
 import requests
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone, timedelta
 import zoneinfo
 from pathlib import Path
@@ -196,7 +198,26 @@ GROQ_API_KEY      = (os.environ.get("GROQ_API_KEY") or "").strip()
 GROQ_MODEL        = _env_or_default("GROQ_MODEL", "llama-3.3-70b-versatile")
 
 AEST = zoneinfo.ZoneInfo("Australia/Sydney")  # Handles AEST/AEDT automatically
-MARKET_SENSITIVE_ONLY = True  # Only process Alpha news (Price Sensitive, Halts, Placements)
+# Ingest the WHOLE day, so the dashboard mirrors what ASX itself publishes at
+# asx.com.au/asx/v2/statistics/todayAnns.do: every announcement listed, with the
+# price-sensitive ones badged. Verified 2026-08-27 by scraping that page and
+# comparing it to this API - its "$" marker (img.pricesens) and the API's
+# isPriceSensitive agreed on 765/765 matched announcements, so the badge below
+# is already ASX's own flag, untouched.
+#
+# Leaving this True is what made the dashboard look broken: it dropped the ~60%
+# of announcements carrying no "$" at ingest, so the saved log was already the
+# sensitive-only subset and the ratio always read ~97% (e.g. 2026-08-26 saved
+# 259 announcements / 249 sensitive, where the real day was 823 / 296).
+MARKET_SENSITIVE_ONLY = False
+
+# Every announcement gets an AI summary, price sensitive or not - ~800 a day now
+# that the full day is ingested rather than the sensitive-only ~300. One call
+# each would mean ~800 calls, so summarise_batch groups AI_BATCH_SIZE
+# announcements into a single call (~80 calls) and keeps AI_CONCURRENCY of those
+# in flight.
+AI_BATCH_SIZE  = int(_env_or_default("AI_BATCH_SIZE", "10"))
+AI_CONCURRENCY = int(_env_or_default("AI_CONCURRENCY", "4"))
 
 HEADERS = {
     "User-Agent": (
@@ -259,42 +280,41 @@ def fetch_announcements(date_str: str, retries: int = 3) -> list[dict]:
                 if dt_aest.strftime("%Y-%m-%d") != date_str:
                     continue
                 
-                market_sensitive = bool(item.get("isPriceSensitive", False))
-                headline = item.get("headline", "").strip()
-                
-                # ─── NOISE FILTER ───
-                # If True, skip all Admin noise (Director listings, minor Appendix updates, etc.)
-                if MARKET_SENSITIVE_ONLY:
-                    h = headline.lower()
-                    is_halt = "trading halt" in h or "suspension" in h or "pause in trading" in h
-                    is_substantial = "substantial hold" in h
-                    if not (market_sensitive or is_halt or is_substantial):
-                        continue
-
                 ticker = item.get("symbol", "")
                 company = ticker
                 company_info = item.get("companyInfo", [])
                 if company_info and len(company_info) > 0:
                     company = company_info[0].get("displayName", ticker)
-                    
+
                 headline = item.get("headline", "").strip()
                 document_key = item.get("documentKey", "")
                 pdf_url = f"{ASX_PDF_URL_BASE}{document_key}" if document_key else ""
-                market_sensitive = item.get("isPriceSensitive", False)
-                
-                filtered.append({
+
+                record = {
                     "ticker":           ticker[:6],
                     "company":          company,
                     "headline":         headline,
                     "time":             dt_utc.isoformat(),
                     "url":              pdf_url,
-                    "market_sensitive": bool(market_sensitive),
+                    # ASX's own price-sensitive flag - the "$" on todayAnns.do
+                    "market_sensitive": bool(item.get("isPriceSensitive", False)),
                     "document_type":    _guess_doc_type(headline),
                     "summary":          [],
                     "tags":             [],
-                })
-                
-            print(f"[fetch] Filtering complete. Found {len(filtered)} matching {date_str} in AEST.")
+                }
+
+                # ─── NOISE FILTER ───
+                # Off by default; flipping it on narrows the log to alpha only.
+                if MARKET_SENSITIVE_ONLY and not is_alpha(record):
+                    continue
+
+                filtered.append(record)
+
+            n_sens = sum(1 for a in filtered if a["market_sensitive"])
+            print(
+                f"[fetch] Filtering complete. Found {len(filtered)} matching {date_str} "
+                f"in AEST ({n_sens} price sensitive)."
+            )
             return filtered
             
         except Exception as e:
@@ -306,6 +326,22 @@ def fetch_announcements(date_str: str, retries: int = 3) -> list[dict]:
             else:
                 print("[fetch] All retry attempts failed.")
     return []
+
+
+def is_alpha(ann: dict) -> bool:
+    """Alpha news: ASX's price-sensitive "$", trading halts, or substantial holdings.
+
+    Only used to order work now (see summarise_batch) - every announcement is
+    ingested and summarised regardless.
+    """
+    h = ann["headline"].lower()
+    return (
+        ann["market_sensitive"]
+        or "trading halt" in h
+        or "suspension" in h
+        or "pause in trading" in h
+        or "substantial hold" in h
+    )
 
 
 def _guess_doc_type(title: str) -> str:
@@ -328,45 +364,59 @@ def _guess_doc_type(title: str) -> str:
 # AI Summarisation & Failover
 # ─────────────────────────────────────────────────────────────
 
-def build_prompt(headline: str, company: str, doc_type: str, market_sensitive: bool) -> str:
-    sensitivity = "MARKET SENSITIVE" if market_sensitive else "not market sensitive"
-    tags_list   = ", ".join(KNOWN_TAGS)
+def build_batch_prompt(anns: list[dict]) -> str:
+    """Prompt covering a whole group; the model returns one entry per announcement."""
+    tags_list = ", ".join(KNOWN_TAGS)
+    listing = "\n\n".join(
+        f"[{i}] Company: {a['company']} ({a['ticker']})\n"
+        f"    Headline: {a['headline']}\n"
+        f"    Document Type: {a['document_type']}\n"
+        f"    Market Sensitive: "
+        f"{'MARKET SENSITIVE' if a['market_sensitive'] else 'not market sensitive'}"
+        for i, a in enumerate(anns, 1)
+    )
+    n = len(anns)
     return f"""You are a senior financial analyst and news editor specializing in the ASX (Australian Securities Exchange).
 Your goal is to provide high-signal, professional insight for institutional investors.
 
-Announcement details:
-- Company: {company}
-- Headline: {headline}
-- Document Type: {doc_type}
-- Market Sensitive: {sensitivity}
+Below are {n} ASX announcements, numbered [1] to [{n}].
+Analyse EACH one independently. Do not merge, skip, or reorder them.
 
-TASKS:
-1. MANDATORY: provide EXACTLY 3 high-impact bullet points. 
+{listing}
+
+TASKS (repeat for every announcement):
+1. MANDATORY: provide EXACTLY 3 high-impact bullet points.
 2. INSIGHT: Focus on the "so what?" (e.g. cash runway, revenue growth, or technical significance).
 3. TAGS: Select 1-3 relevant categories from this list ONLY: {tags_list}
-4. SENTIMENT: Classify expected near-term share-price bias for this headline ONLY as exactly one of: bullish, bearish, neutral.
+4. SENTIMENT: Classify expected near-term share-price bias for that headline ONLY as exactly one of: bullish, bearish, neutral.
    - bullish: net positive for valuation or sentiment (e.g. strong results, accretive deal, favourable outcome)
    - bearish: net negative (e.g. large loss, dilution, downgrade, covenant breach, major impairment)
    - neutral: procedural, administrative, unclear impact, or balanced / wait-for-detail (use when not clearly bullish or bearish)
 
-Strict Output Format (JSON ONLY):
+Strict Output Format (JSON ONLY). Return EXACTLY {n} entries, one per announcement,
+each with "id" matching the bracketed number above:
 {{
-  "summary": [
-    "Insightful point 1 - focus on impact",
-    "Insightful point 2 - focus on numbers/results",
-    "Insightful point 3 - focus on next steps/outlook"
-  ],
-  "tags": ["Category 1", "Category 2"],
-  "sentiment": "bullish"
+  "results": [
+    {{
+      "id": 1,
+      "summary": [
+        "Insightful point 1 - focus on impact",
+        "Insightful point 2 - focus on numbers/results",
+        "Insightful point 3 - focus on next steps/outlook"
+      ],
+      "tags": ["Category 1", "Category 2"],
+      "sentiment": "bullish"
+    }}
+  ]
 }}"""
 
 
-def _call_ai_one(client, model: str, prompt: str, provider: str) -> dict:
-    """Make a single AI call to either Anthropic or Groq."""
+def _raw_ai_text(client, model: str, prompt: str, provider: str, max_tokens: int) -> str:
+    """Make a single AI call to either Anthropic or Groq and return cleaned JSON text."""
     if provider == 'anthropic':
         resp = client.messages.create(
             model=model,
-            max_tokens=600,
+            max_tokens=max_tokens,
             messages=[{"role": "user", "content": prompt}],
         )
         raw = ""
@@ -377,7 +427,7 @@ def _call_ai_one(client, model: str, prompt: str, provider: str) -> dict:
             messages=[{"role": "user", "content": prompt}],
             model=model,
             temperature=0.4,
-            max_tokens=600,
+            max_tokens=max_tokens,
             response_format={"type": "json_object"}
         )
         raw = resp.choices[0].message.content
@@ -388,15 +438,42 @@ def _call_ai_one(client, model: str, prompt: str, provider: str) -> dict:
         raw = raw.split("```json")[1].split("```")[0].strip()
     elif raw.startswith("```"):
         raw = raw.split("```")[1].strip()
-    
+    return raw
+
+
+def _call_ai_group(client, model: str, provider: str, group: list[dict]) -> list[dict]:
+    """One AI call covering `group`; returns one result per announcement, in order."""
+    # ~150 tokens per JSON entry in practice; the rest is headroom for long headlines.
+    max_tokens = min(8000, 250 * len(group) + 500)
+    raw = _raw_ai_text(client, model, build_batch_prompt(group), provider, max_tokens)
     parsed = json.loads(raw)
-    
-    # Validation: Ensure at least 3 points
-    summary = parsed.get("summary", [])
-    if len(summary) < 3:
-        raise ValueError(f"AI returned only {len(summary)} points. Retrying...")
-    
-    return parsed
+
+    results = parsed.get("results") if isinstance(parsed, dict) else parsed
+    if not isinstance(results, list):
+        raise ValueError("AI response had no 'results' list. Retrying...")
+
+    by_id = {}
+    for entry in results:
+        if not isinstance(entry, dict): continue
+        try:
+            by_id[int(entry.get("id"))] = entry
+        except (TypeError, ValueError):
+            continue
+    # Models sometimes drop the ids entirely; fall back to position when the
+    # count still lines up, rather than burning a retry on a usable answer.
+    if not by_id and len(results) == len(group):
+        by_id = {i: e for i, e in enumerate(results, 1) if isinstance(e, dict)}
+
+    # Every announcement must come back with its 3 points, or the group retries.
+    out = []
+    for i in range(1, len(group) + 1):
+        summary = (by_id.get(i) or {}).get("summary") or []
+        if len(summary) < 3:
+            raise ValueError(
+                f"AI returned {len(summary)} points for [{i}] of {len(group)}. Retrying..."
+            )
+        out.append(by_id[i])
+    return out
 
 
 def normalise_sentiment(raw) -> str:
@@ -406,59 +483,80 @@ def normalise_sentiment(raw) -> str:
     return "neutral"
 
 
-def summarise_with_failover(anthropic_client, groq_client, ann) -> dict:
-    """Implement 3x Anthropic followed by 3x Groq logic."""
-    prompt = build_prompt(
-        ann["headline"], ann["company"],
-        ann["document_type"], ann["market_sensitive"],
-    )
-    
-    # 1. Try Anthropic (3 times)
-    if anthropic_client:
-        for attempt in range(1, 4):
-            try:
-                print(f"[anthropic] {ann['ticker']} attempt {attempt}/3...")
-                out = _call_ai_one(anthropic_client, ANTHROPIC_MODEL, prompt, 'anthropic')
-                print(f"[anthropic] {ann['ticker']} ok")
-                return out
-            except Exception as e:
-                print(f"[anthropic] Attempt {attempt} failed: {e}")
-                if attempt < 3: time.sleep(1)
-
-    # 2. Try Groq (3 times)
-    if groq_client:
-        for attempt in range(1, 4):
-            try:
-                print(f"   [groq] {ann['ticker']} failover attempt {attempt}/3...")
-                out = _call_ai_one(groq_client, GROQ_MODEL, prompt, 'groq')
-                print(f"   [groq] {ann['ticker']} ok")
-                return out
-            except Exception as e:
-                print(f"   [groq] Attempt {attempt} failed: {e}")
-                if attempt < 3: time.sleep(1)
-
-    # Final Fallback
-    print(f"[ai] {ann['ticker']} fallback (no LLM response) — placeholder summary")
+def _fallback_result(ann: dict) -> dict:
+    """Used when every provider and retry failed for the announcement's group."""
     return {
-        "summary": [f"High-priority announcement from {ann['ticker']}", f"Topic: {ann['headline']}", "Review PDF for full details."],
+        "summary": [
+            f"High-priority announcement from {ann['ticker']}",
+            f"Topic: {ann['headline']}",
+            "Review PDF for full details.",
+        ],
         "tags": ["Other"],
         "sentiment": "neutral",
     }
 
 
-def summarise_batch(anthropic_client, groq_client, announcements: list[dict], delay: float = 0.5) -> list[dict]:
-    """Process a batch of announcements with failover logic."""
-    total = len(announcements)
-    for i, ann in enumerate(announcements, 1):
-        print(f"[ai] {i}/{total} processing {ann['ticker']}...")
-        
-        result = summarise_with_failover(anthropic_client, groq_client, ann)
-        ann["summary"] = result.get("summary", [])[0:4] # Cap at 4
-        ann["tags"]    = result.get("tags", [])
-        ann["sentiment"] = normalise_sentiment(result.get("sentiment"))
-        
-        if i < total:
-            time.sleep(delay)
+def summarise_group_with_failover(anthropic_client, groq_client, group: list[dict]) -> list[dict]:
+    """Implement 3x Anthropic followed by 3x Groq logic, for one group of announcements."""
+    label = f"{len(group)} anns [{group[0]['ticker']}..{group[-1]['ticker']}]"
+
+    for client, model, provider in (
+        (anthropic_client, ANTHROPIC_MODEL, 'anthropic'),
+        (groq_client, GROQ_MODEL, 'groq'),
+    ):
+        if not client:
+            continue
+        for attempt in range(1, 4):
+            try:
+                print(f"[{provider}] {label} attempt {attempt}/3...")
+                out = _call_ai_group(client, model, provider, group)
+                print(f"[{provider}] {label} ok")
+                return out
+            except Exception as e:
+                print(f"[{provider}] Attempt {attempt} failed: {e}")
+                # Backoff, not a flat 1s: AI_CONCURRENCY groups are in flight at
+                # once, so a 429 needs room to clear before we retry.
+                if attempt < 3: time.sleep(2 ** attempt)
+
+    # Final Fallback
+    print(f"[ai] {label} fallback (no LLM response) - placeholder summaries")
+    return [_fallback_result(a) for a in group]
+
+
+def summarise_batch(anthropic_client, groq_client, announcements: list[dict],
+                    workers: int = None, batch_size: int = None) -> list[dict]:
+    """Summarise every announcement, `batch_size` of them per LLM call.
+
+    The whole day is ingested now (~800 announcements, not the ~300 the
+    sensitive-only filter used to leave behind), so one call per announcement
+    meant ~800 calls a day. Grouping cuts that to ~80 while every announcement
+    still gets its own model-written summary. Alpha is grouped first, so a run
+    that dies partway leaves the price-sensitive ones done rather than
+    placeholdered.
+    """
+    workers    = AI_CONCURRENCY if workers is None else workers
+    batch_size = max(1, AI_BATCH_SIZE if batch_size is None else batch_size)
+    ordered = sorted(announcements, key=lambda a: not is_alpha(a))
+    groups  = [ordered[i:i + batch_size] for i in range(0, len(ordered), batch_size)]
+    total = len(ordered)
+    done = 0
+    lock = threading.Lock()
+
+    def _work(group):
+        nonlocal done
+        results = summarise_group_with_failover(anthropic_client, groq_client, group)
+        for ann, result in zip(group, results):
+            ann["summary"]   = (result.get("summary") or [])[0:4]  # Cap at 4
+            ann["tags"]      = result.get("tags") or []
+            ann["sentiment"] = normalise_sentiment(result.get("sentiment"))
+        with lock:
+            done += len(group)
+            print(f"[ai] {done}/{total} announcements done")
+
+    print(f"[ai] Summarising {total} announcements in {len(groups)} calls "
+          f"of up to {batch_size}, {workers} in flight...")
+    with ThreadPoolExecutor(max_workers=max(1, workers)) as pool:
+        list(pool.map(_work, groups))
     return announcements
 
 
