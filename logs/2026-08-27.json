@@ -1,9 +1,1866 @@
 {
   "date": "2026-08-27",
-  "total": 173,
-  "market_sensitive_count": 170,
-  "generated_at": "2026-08-26T23:29:53.751568+00:00",
+  "total": 270,
+  "market_sensitive_count": 263,
+  "generated_at": "2026-08-27T00:23:14.709983+00:00",
   "announcements": [
+    {
+      "ticker": "ID8",
+      "company": "IDENTITII LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-27T00:07:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127262-2A1692689",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Preliminary final report signals the close of Identitii's fiscal year reporting cycle — investors should scrutinise revenue trajectory and recurring SaaS/licensing income given the company's pivot toward subscription-based financial messaging compliance software for Tier-1 banks.",
+        "Cash position and burn rate are critical watchpoints: Identitii has historically operated with a tight cash runway, and any deterioration in cash reserves or widening net loss relative to prior year would materially pressure the stock given its micro-cap profile and limited capital buffer.",
+        "Forward outlook on contract pipeline and customer retention with major banking clients (including its anchor relationship with Swift-connected institutions) will be the key determinant of re-rating potential — any guidance upgrade or new enterprise wins disclosed alongside this report would be a meaningful positive catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCR",
+      "company": "CREDIT CLEAR LIMITED",
+      "headline": "FY26 Results & FY27 Guidance",
+      "time": "2026-08-27T00:06:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127260-3A700056",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results headline signals a pivotal reporting moment for Credit Clear, a fintech debt resolution platform — investors will be scrutinising revenue growth trajectory and whether the business has achieved or is approaching EBITDA breakeven, a key re-rating catalyst for small-cap SaaS/fintech names on the ASX.",
+        "The dual release of FY26 actuals alongside FY27 guidance is a confidence signal from management, suggesting the board is comfortable providing forward visibility — the quantum and credibility of FY27 guidance ranges will be the primary determinant of near-term price action, particularly any uplift in recurring revenue or client volume metrics.",
+        "As a market-sensitive announcement, institutional focus will centre on cash burn rate, balance sheet position, and whether Credit Clear can demonstrate operating leverage as it scales — any narrowing of losses or positive operating cash flow would materially de-risk the investment thesis and support a re-rating."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IEL",
+      "company": "IDP EDUCATION LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-27T00:04:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127257-3A700055",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has crossed a disclosure threshold in IDP Education (IEL), triggering a change in substantial holding notice — this signals meaningful institutional portfolio repositioning in a stock that has been under pressure from regulatory headwinds in key English-language testing markets including Canada and Australia.",
+        "The direction of the change (accumulation vs. disposal) is critical context: if a major institution is building a position at current depressed levels (~60% off 2022 highs), it may signal contrarian conviction that the migration and English testing cycle is bottoming; conversely, further disposal by an existing substantial holder would reinforce bearish sentiment around structural demand uncertainty.",
+        "Investors should monitor the identity of the filer and the new ownership percentage — if a long-only quality fund is initiating or increasing exposure, it could act as a near-term technical catalyst and provide a floor for the share price, whereas a passive index rebalance or hedge fund exit warrants less strategic read-through."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BBT",
+      "company": "BETR ENTERTAINMENT LIMITED",
+      "headline": "FY26 Results Investor Presentation",
+      "time": "2026-08-27T00:01:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127254-2A1692682",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive FY26 results presentation from Betr Entertainment signals a material disclosure event — investors should scrutinise revenue trajectory and EBITDA margins closely given the company operates in Australia's highly competitive and regulated online sports betting and gaming sector.",
+        "Key metrics to assess include active user growth, net revenue per user, and cash burn rate — Betr has historically prioritised customer acquisition spend, so any pathway to operating leverage or improved unit economics would be a significant positive inflection point.",
+        "Forward guidance and commentary on regulatory compliance costs (particularly around gambling harm measures and ACMA enforcement) will be critical for assessing medium-term profitability risk and whether the business can sustain its technology-led differentiation against incumbents like Sportsbet and TAB."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASX",
+      "company": "ASX LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-27T00:00:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127250-2A1692400",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has crossed the 5% ownership threshold in ASX Limited (ASX:ASX), triggering mandatory disclosure — this signals meaningful accumulation by an institution or fund manager and warrants monitoring for further stake-building activity.",
+        "The identity and voting power percentage of the incoming substantial holder are critical details; if a major index fund, passive flows may explain the crossing, but a concentrated active manager building a position could signal conviction in ASX's monopoly exchange infrastructure and recurring revenue model.",
+        "While classified as not market sensitive, substantial holder notices in exchange operators like ASX can precede shareholder activism or M&A interest — investors should track subsequent Form 604 amendments to assess whether the stake is growing, static, or part of a broader strategic position."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RTH",
+      "company": "RAS TECHNOLOGY HOLDINGS LIMITED",
+      "headline": "RTH FY26 Results Presentation",
+      "time": "2026-08-27T00:00:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127251-3A700053",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation signals an accelerated reporting cycle — releasing full-year results ahead of the standard timeline is unusual and warrants scrutiny of whether this reflects genuine operational momentum or a strategic communications play ahead of a potential capital event.",
+        "As a small-cap technology holding company, key metrics to watch include recurring revenue mix, EBITDA margin trajectory, and cash burn rate — any deterioration in these would materially pressure the balance sheet given limited access to debt markets typical for this segment.",
+        "The market-sensitive classification elevates this beyond routine disclosure, suggesting the presentation likely contains material guidance, a significant contract win or loss, strategic restructure, or M&A activity that could act as a near-term catalyst for re-rating in either direction."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RZI",
+      "company": "RAIZ INVEST LIMITED",
+      "headline": "Financial Results Presentation FY26",
+      "time": "2026-08-27T00:00:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127249-2A1692683",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation signals Raiz is executing on its growth-to-profitability pivot — investors should scrutinise whether the company has achieved or is approaching operating cash flow breakeven, a key de-risking milestone for this micro-investing platform after years of margin pressure.",
+        "Key metrics to watch include AUM trajectory, monthly active customer count, and revenue per user — any sequential deterioration in these KPIs amid a volatile macro environment for retail investing would weigh heavily on the re-rating thesis.",
+        "With Raiz expanding across Southeast Asian markets (Malaysia, Indonesia), the presentation's geographic revenue split and customer acquisition cost trends will be critical in assessing whether international operations are dilutive or approaching contribution-margin positive — a pivotal factor for long-term scalability."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RZI",
+      "company": "RAIZ INVEST LIMITED",
+      "headline": "FY26 Results - Strong Growth Across Key Business Metrics",
+      "time": "2026-08-26T23:59:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127247-2A1692675",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 headline flags 'strong growth across key business metrics' — for a fintech at Raiz's scale, sustained AUM growth combined with customer acquisition momentum is the critical path to profitability, and any acceleration here materially re-rates the earnings timeline for institutional holders.",
+        "Raiz has historically been judged on its cost-to-serve versus revenue-per-user ratio; a positive FY26 result suggests the micro-investing platform may be approaching the inflection point where operating leverage kicks in, compressing losses and potentially confirming a trajectory toward breakeven without further dilutive capital raises.",
+        "Indonesia and Malaysia expansion remain key watch items — if FY26 commentary includes international user or AUM growth figures, this would validate the platform's scalability thesis and open a significantly larger addressable market narrative that domestic-only metrics cannot price in."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BBT",
+      "company": "BETR ENTERTAINMENT LIMITED",
+      "headline": "betr FY26 Results",
+      "time": "2026-08-26T23:59:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127246-2A1692673",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive FY26 results filing signals material financial developments at betr Entertainment — investors should scrutinise revenue trajectory and EBITDA margin trends given the company's still-maturing position in the highly competitive Australian online wagering market against incumbents Sportsbet and TAB.",
+        "Key metrics to watch include gross revenue growth, customer acquisition costs, and net cash position — burn rate remains a critical concern for a digitally-native operator that has historically prioritised growth investment over near-term profitability in a market with tightening regulatory scrutiny.",
+        "Results outcome will be pivotal for investor confidence ahead of any potential capital management decisions; if the company demonstrates a credible path to operating leverage or announces a partnership/structural deal, it could re-rate the stock — conversely, widening losses without a clear profitability timeline would intensify balance sheet pressure."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RTH",
+      "company": "RAS TECHNOLOGY HOLDINGS LIMITED",
+      "headline": "RTH FY26 Results Announcement",
+      "time": "2026-08-26T23:59:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127245-3A700052",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive FY26 results announcement from RAS Technology Holdings (RTH) signals a material disclosure event — investors should scrutinise revenue trajectory and EBITDA margins closely given the company's early-stage technology profile and historical burn rate concerns.",
+        "Key metrics to watch include cash position and operating cash flow, as RTH has historically relied on equity funding; any narrowing of net losses or evidence of a pathway to breakeven would be a significant re-rating catalyst for this small-cap tech name.",
+        "Forward guidance and any commentary on customer contract momentum or recurring revenue growth will be critical — institutional focus will be on whether RTH can demonstrate scalable unit economics to justify continued investment ahead of the next capital cycle."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BH6",
+      "company": "BROKEN HILL GOLD LTD",
+      "headline": "Outstanding Icebreaker Drill Assays",
+      "time": "2026-08-26T23:59:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127244-3A699945",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The 'outstanding' qualifier on Icebreaker drill assays signals materially significant intercepts that could redefine the resource envelope at Broken Hill Gold's flagship project — market-sensitive classification confirms management views results as potentially price-moving and outside prior guidance expectations.",
+        "Headline assay results from junior gold explorers on the ASX typically drive re-rating catalysts when intercepts exceed previously reported grades or widths; investors should scrutinise grades (g/t Au), true widths, and depth continuity relative to the existing resource model to gauge magnitude of any upgrade to mineralisation confidence.",
+        "Strong drill results at Icebreaker position the company for a near-term resource update or maiden resource estimate, which would be the key de-risking milestone to attract institutional interest, potential farm-in partners, or support a capital raise at a premium — watch for follow-up drill program announcements and updated geological interpretations."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BBT",
+      "company": "BETR ENTERTAINMENT LIMITED",
+      "headline": "Appendix 4E and FY26 Annual Report",
+      "time": "2026-08-26T23:58:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127242-2A1692671",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual report filing for Betr Entertainment signals a critical inflection point for the sports betting and entertainment platform — investors should scrutinise revenue trajectory and customer acquisition costs as the company competes in Australia's highly contested online wagering market against Sportsbet, TAB and Ladbrokes.",
+        "Key metrics to watch include gross revenue, net revenue after promotional bonuses, EBITDA burn rate, and cash position — given the capital-intensive nature of wagering tech buildouts, any deterioration in cash runway below 12 months would materially pressure the balance sheet and likely necessitate dilutive equity raises.",
+        "Outlook clarity on regulatory compliance costs (particularly ACMA and state-based licensing obligations) and any disclosed product development or partnership pipeline will be decisive for near-term sentiment — failure to demonstrate a credible path to breakeven could trigger further de-rating in a sector under increased regulatory scrutiny."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RTH",
+      "company": "RAS TECHNOLOGY HOLDINGS LIMITED",
+      "headline": "RTH Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-26T23:58:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127240-3A700049",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual report filing for FY2026 signals RTH has completed its reporting obligations, but the market-sensitive flag warrants close scrutiny of revenue trajectory, EBITDA margins, and any material changes to the company's racing technology subscription and data licensing business model.",
+        "Key financial metrics to watch include cash position and burn rate relative to operating receipts — as a smaller-cap technology company, cash runway and path to profitability are critical valuation drivers that will determine near-term sentiment.",
+        "Investors should assess whether RTH has demonstrated meaningful customer growth or contract wins within its racing and wagering technology stack, as renewal rates and pipeline expansion are the primary leading indicators of sustainable revenue growth in this niche SaaS-adjacent segment."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RZI",
+      "company": "RAIZ INVEST LIMITED",
+      "headline": "Appendix 4E and Annual Report 30 June 2026",
+      "time": "2026-08-26T23:56:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127238-2A1692668",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual Report for FY2026 (year ending 30 June 2026) is flagged as market sensitive, signalling material financial outcomes that could meaningfully move the stock — investors should scrutinise revenue trajectory, AUM growth, and the path to sustained profitability given Raiz's history of narrow margins in the micro-investing space.",
+        "Key metrics to watch include funds under management (FUM) levels, active customer numbers, and revenue per user — prior periods showed Raiz under pressure to scale efficiently, so any acceleration in FUM or improvement in EBITDA margin will be the critical read-through for valuation re-rating.",
+        "The Appendix 4E filing triggers a mandatory ASX disclosure window, meaning audited full-year financials are now on record; institutional investors should assess whether Raiz has achieved or is approaching cash flow breakeven, as ongoing operating losses have historically weighed on the share price and raised capital allocation concerns."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMX",
+      "company": "AEROMETREX LIMITED",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-26T23:55:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127235-2A1692667",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "The 'FY26 Results Presentation' label is notable — Aerometrex's financial year ends June 30, meaning this release is either mislabelled or represents a forward-looking investor presentation; institutional investors should confirm whether this reflects audited FY25 actuals or FY26 guidance, as the distinction materially affects valuation credibility.",
+        "Aerometrex has been executing a strategic pivot from one-time aerial capture contracts toward its recurring MetroMap SaaS subscription platform — the critical metrics to assess are ARR growth, subscriber churn, and gross margin trajectory, which will determine whether the business can sustain itself without ongoing capital raises given historically thin operating cash flows.",
+        "As a market-sensitive filing, any disclosed revenue figures, EBITDA progression, or updated guidance for the MetroMap platform will be the primary near-term price catalyst — investors should focus on whether recurring revenue now constitutes a majority of total revenue, signalling successful transition away from lumpy project-based income and de-risking the forward earnings profile."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMX",
+      "company": "AEROMETREX LIMITED",
+      "headline": "Record FY26 MetroMap revenue, ACV growth and EBITDA",
+      "time": "2026-08-26T23:53:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127231-2A1692660",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Record FY26 MetroMap revenue signals accelerating subscription adoption — Annual Contract Value (ACV) growth is the critical SaaS health metric here, indicating expanding recurring revenue base and reduced reliance on lumpy project-based income, which typically commands a premium valuation multiple.",
+        "EBITDA outperformance at record levels suggests operating leverage is materialising as fixed-cost infrastructure (aerial capture fleet, processing) is increasingly absorbed by a growing subscriber base — margin expansion trajectory will be key focus for institutional investors re-rating the stock.",
+        "Near-term catalysts include FY26 full-year results confirmation and potential ACV guidance upgrade; investors should watch for customer count, churn metrics, and whether geographic or vertical expansion (e.g. defence, insurance, local government) is driving incremental ACV to assess durability of this growth inflection."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CCR",
+      "company": "CREDIT CLEAR LIMITED",
+      "headline": "Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-26T23:52:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127227-3A700048",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual report filing signals full-year results disclosure for Credit Clear — investors should scrutinise revenue trajectory from its debt recovery and collections SaaS platform, particularly whether the company has crossed or is approaching cash-flow breakeven given prior operating losses and ongoing investment in technology infrastructure.",
+        "Key metrics to watch include gross margin expansion on its platform-based collections model, client retention and volume throughput (a leading indicator of recurring revenue quality), and net cash position relative to operating burn — any deterioration in runway below 12 months would be a material concern for this small-cap fintech.",
+        "The Appendix 4E (preliminary final report) is a mandatory ASX lodgement and represents a compliance milestone rather than a strategic catalyst; near-term share price reaction will hinge on whether reported EBITDA and revenue figures meet or exceed the market's implicit expectations embedded in current valuations, with any guidance upgrade or path-to-profitability commentary the key upside trigger."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "X2M",
+      "company": "X2M CONNECT LIMITED",
+      "headline": "Signs Binding Agreement to Deliver AI-Enabled Data Centre",
+      "time": "2026-08-26T23:50:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127219-3A700047",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "X2M Connect has signed a binding agreement to deliver an AI-enabled data centre, marking a significant strategic pivot that expands its addressable market beyond traditional IoT connectivity and energy metering into the high-growth AI infrastructure sector — a re-rating catalyst if execution follows.",
+        "The market-sensitive classification signals material revenue or contract value implications, yet the announcement lacks disclosed financials; investors should scrutinise the contract quantum, counterparty creditworthiness, and milestone-based payment structure before assuming meaningful near-term cash flow impact for this micro-cap.",
+        "Near-term focus should be on whether X2M has the technical capability and balance sheet to self-fund delivery or will require capital raising — given the company's historically modest cash reserves, any large infrastructure commitment could necessitate equity dilution, making the upcoming quarterly (cash flow) report a critical watchpoint."
+      ],
+      "tags": [
+        "Technology",
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RNX",
+      "company": "RENEGADE EXPLORATION LIMITED",
+      "headline": "Loan Facility - increase and extension to funding facility",
+      "time": "2026-08-26T23:49:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127216-6A1340649",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Renegade Exploration has secured an increase and extension to its existing loan facility, providing critical near-term liquidity relief — a market-sensitive development signalling the company was likely approaching a funding constraint without this intervention.",
+        "The facility uplift defers immediate equity dilution risk, though debt-dependent financing for an exploration-stage junior miner raises questions around interest burden, security terms, and whether lender conditions impose operational restrictions on the asset portfolio.",
+        "Next steps will hinge on the specific quantum of the increased facility and its maturity date — investors should monitor whether this bridge buys sufficient runway to reach a material newsflow catalyst (drill results, resource update, or partnership) that could support a more sustainable capital structure."
+      ],
+      "tags": [
+        "Finance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IRI",
+      "company": "INTEGRATED RESEARCH LIMITED",
+      "headline": "FY26 Full Year Results",
+      "time": "2026-08-26T23:49:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127215-2A1692655",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Full-year results filing is market sensitive, signalling material variance from expectations or prior guidance — investors should scrutinise revenue trajectory and EBITDA margins given IRI's ongoing transformation from perpetual licensing to SaaS/subscription model, where ARR conversion rates are the critical valuation driver.",
+        "Key metrics to watch: recurring revenue mix, net revenue retention (NRR), and free cash flow generation — any acceleration in ARR growth or improvement in churn metrics would validate the SaaS transition thesis and could re-rate the stock materially given historical compression in price-to-sales multiples during the transition period.",
+        "Outlook commentary will be pivotal; institutional investors should focus on FY27 ARR guidance, customer count expansion in core unified communications and payments monitoring verticals, and whether management signals confidence in returning to sustainable double-digit growth — absence of forward guidance or a cautious tone would likely sustain near-term selling pressure."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HZN",
+      "company": "HORIZON OIL LIMITED",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-26T23:47:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127213-2A1692654",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive classification signals material financial outcomes — investors should scrutinise key metrics including production volumes, revenue, EBITDA margins, and net profit/loss against prior year comparatives to assess operational leverage from Horizon's PNG and Chinese assets.",
+        "Horizon Oil's FY26 results will be closely watched for free cash flow generation and debt position given the capital-intensive nature of its upstream oil and gas operations — any improvement in netbacks or debt reduction would be a meaningful catalyst for re-rating.",
+        "Forward guidance on production targets, capex commitments, and any updates on development projects (particularly PNG LNG-adjacent opportunities) will be critical for institutional investors assessing near-term earnings visibility and potential dividend capacity."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IRI",
+      "company": "INTEGRATED RESEARCH LIMITED",
+      "headline": "Appendix 4E and FY26 Financial Report",
+      "time": "2026-08-26T23:46:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127211-2A1692646",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Appendix 4E filing represents Integrated Research's full-year FY26 results lodgement — a critical inflection point for this enterprise communications and infrastructure monitoring software company, with investors scrutinising whether the business has stabilised revenue after years of structural headwinds from legacy on-premise product transition to SaaS/cloud models.",
+        "Key metrics to watch include total revenue trajectory (consensus had flagged mid-single-digit decline risk), ARR growth from cloud/subscription offerings, and EBITDA margin compression — any positive surprise on recurring revenue mix or net retention rates would materially re-rate the stock given its compressed valuation multiples.",
+        "Near-term focus will shift to FY27 guidance and management commentary on the SaaS transition progress; any accelerated conversion of legacy customers to subscription contracts or improved customer logo retention would signal the business is past peak churn risk, potentially triggering institutional re-engagement with this micro-cap technology name."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPL",
+      "company": "PUREPROFILE LTD",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-26T23:45:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127207-2A1692638",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive classification signals material outcome — investors should scrutinise revenue trajectory, EBITDA margins, and whether Pureprofile has achieved the profitability inflection point flagged in prior guidance, given the company's history of restructuring and cost rationalisation efforts.",
+        "Key metrics to watch include recurring SaaS/data revenue mix, client retention rates, and operating cash flow generation — any improvement in gross margin or move toward sustainable positive free cash flow would represent a meaningful de-risking event for this small-cap tech play.",
+        "Forward outlook on AI-driven data insights capability and pipeline momentum in the US and APAC markets will be critical catalysts; failure to demonstrate scalable revenue growth or a credible path to profitability could weigh heavily on a stock that has limited institutional sponsorship and thin liquidity."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMU",
+      "company": "AMERICAN URANIUM LTD",
+      "headline": "Large-Scale Aquifer Testing Successfully Completed",
+      "time": "2026-08-26T23:45:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127206-6A1340648",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Successful completion of large-scale aquifer testing is a critical de-risking milestone for in-situ recovery (ISR) uranium projects, as water availability and hydrological connectivity directly determine project viability and permitting pathway — this result meaningfully advances American Uranium toward a resource development decision.",
+        "Aquifer test outcomes typically inform wellfield design parameters, extraction rates, and restoration planning; positive results here suggest the hydrogeological conditions are conducive to ISR mining, which carries significantly lower capex and operating costs than conventional uranium mining methods — a material valuation uplift factor.",
+        "The next catalysts to monitor are formal hydrological report release, incorporation of test data into an updated resource/feasibility study, and any regulatory or permitting submissions that this data package enables — institutional investors should watch for a definitive feasibility or scoping study timeline as the logical near-term follow-on."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STW",
+      "company": "STATE STREET SPDR S&P/ASX 200 ETF",
+      "headline": "Annual Report to shareholders",
+      "time": "2026-08-26T23:43:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127198-2A1692552",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "The SPDR S&P/ASX 200 ETF annual report provides a comprehensive performance review of Australia's flagship passive index product — tracking the S&P/ASX 200, which covers ~80% of domestic market capitalisation — making this a key benchmark reference for institutional portfolio positioning and fee comparison against active managers.",
+        "Key metrics to scrutinise include total expense ratio (TER, typically ~0.13% p.a.), tracking error relative to the index, distribution yield, and any changes to securities lending income or counterparty arrangements that could affect net returns delivered to unitholders.",
+        "Institutional investors should review fund flows, AUM trajectory, and any updates to the ETF's authorised participant or market maker arrangements, as sustained inflows or outflows from this vehicle signal broader risk-on/risk-off sentiment shifts in Australian equities at an index level."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMX",
+      "company": "AEROMETREX LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-26T23:40:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127189-2A1692637",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Preliminary Final Report signals FY close crystallisation of key financial metrics — investors should watch for revenue trajectory in MetroMap subscription vs. LiDAR project segments, as recurring SaaS-style revenue mix is the critical valuation driver for this geospatial data company.",
+        "Cash position and operating cash flow will be the pivotal data points given Aerometrex's historical burn profile from scaling its subscription platform; any improvement in operating cash conversion would materially de-risk the near-term equity story and reduce dilution concerns.",
+        "Full audited results and any FY25 guidance commentary will set the tone for re-rating potential — the market will scrutinise whether MetroMap subscriber growth and ARPU expansion can offset lumpy government/defence contract revenues and justify the premium multiple embedded in the stock."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PC2",
+      "company": "PC GOLD LTD",
+      "headline": "$75 Million Institutional Placement to Drive Spring Hill",
+      "time": "2026-08-26T23:39:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127187-6A1340517",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "PC Gold has secured a $75M institutional placement — a substantial capital injection for a junior/mid-tier gold miner, signalling strong institutional conviction in the Spring Hill project's development potential and near-term production timeline.",
+        "The placement scale relative to a typical ASX gold explorer implies meaningful dilution for existing shareholders, though the quantum suggests proceeds are earmarked for material capital works, likely mine development, plant construction, or resource delineation at Spring Hill rather than mere working capital.",
+        "Execution risk now shifts to deployment: investors will closely watch how quickly PC Gold converts this capital into drilling results, feasibility milestones, or production guidance — with any delays likely to pressure the post-placement share price against the new, diluted register."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DUG",
+      "company": "DUG",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-26T23:39:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127186-6A1340643",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation is market sensitive, signalling material financial outcomes that could significantly reprice DUG's equity — investors should scrutinise revenue growth trajectory and EBITDA margins given the company's high-performance computing and geoscience services model, where operating leverage is a key valuation driver.",
+        "Key metrics to watch include cloud HPC utilisation rates, contract wins contributing to recurring revenue, and any movement in cash position or debt facilities — DUG's capital-intensive infrastructure requires strong cash conversion to sustain growth without dilutive equity raises.",
+        "Forward guidance on pipeline expansion, particularly new geoscience or AI/HPC client mandates across energy and resources sectors, will be critical in determining whether the market re-rates the stock; any upgrade to FY27 revenue or margin expectations would be a meaningful positive catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPL",
+      "company": "PUREPROFILE LTD",
+      "headline": "Appendix 4E",
+      "time": "2026-08-26T23:38:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127183-2A1692631",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 4E filing signals preliminary full-year results disclosure, triggering mandatory market scrutiny — investors should watch closely for revenue trajectory and EBITDA margin improvement given Pureprofile's ongoing digital data and insights platform restructuring.",
+        "As a market-sensitive lodgement, the filing likely contains material financial metrics that deviate meaningfully from prior expectations — key metrics to assess include recurring revenue mix, client retention rates, and any movement toward sustainable profitability given the company's history of operating losses.",
+        "Near-term focus will be on whether Pureprofile has achieved cash flow breakeven or reduced its cash burn rate, as the company's ability to self-fund operations without further dilutive capital raises remains the critical valuation catalyst for institutional re-rating."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HZN",
+      "company": "HORIZON OIL LIMITED",
+      "headline": "Appendix 4E and FY26 Annual Report to Shareholders",
+      "time": "2026-08-26T23:37:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127182-2A1692627",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual report filing signals completion of FY26 financial year reporting obligations — market-sensitive designation suggests material financial outcomes that could meaningfully reset consensus expectations on earnings, cash position, or asset valuations for this Papua New Guinea-focused oil producer.",
+        "Investors should scrutinise key metrics including production volumes from the Elevala/Ketu gas fields, realised oil prices against WTI/Brent benchmarks, operating cash flow generation, and any impairment charges or reserve revisions that could materially alter the company's net asset value per share.",
+        "The FY26 result will be critical in assessing Horizon Oil's pathway to monetising its PNG gas assets amid ongoing LNG commercialisation discussions — near-term focus will be on debt position, liquidity headroom, and whether management has provided guidance or catalysts for the Elevala gas development timeline."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DUG",
+      "company": "DUG",
+      "headline": "FY26 Financial Results",
+      "time": "2026-08-26T23:37:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127180-6A1340638",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results are market-sensitive, signalling material variance from prior expectations — investors should scrutinise revenue trajectory and EBITDA margin given DUG's high-performance computing and geoscience services model, where operating leverage can swing outcomes significantly in either direction.",
+        "Key metrics to watch include contract revenue growth from HPC cloud services versus legacy geoscience workloads, cash conversion efficiency, and whether the balance sheet reflects sufficient liquidity to fund ongoing data centre capex without near-term equity dilution risk.",
+        "Forward guidance on HPC capacity utilisation and pipeline conversion will be critical — any commentary on new enterprise or energy-sector client wins, or expansion of the Perth/Houston data centre footprint, will directly inform the growth re-rating thesis for FY27."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OCL",
+      "company": "OCL",
+      "headline": "FY2026 Investor Presentation",
+      "time": "2026-08-26T23:34:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127173-2A1692628",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FY2026 investor presentation signals a forward-looking strategic reset — the market-sensitive classification suggests material guidance, targets, or structural changes that could materially reprice OCL's valuation if metrics deviate significantly from prior expectations.",
+        "Institutional focus should centre on any disclosed revenue trajectory, margin expansion initiatives, or capital allocation priorities for FY2026, as these will be the key determinants of whether the market re-rates the stock on a 12-month view.",
+        "Watch for commentary on growth catalysts — new contracts, product pipeline milestones, or partnerships — as well as any revision to cost structures or funding requirements that could signal near-term dilution risk or accelerating cash burn."
+      ],
+      "tags": [
+        "Other",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IMU",
+      "company": "IMU",
+      "headline": "Becoming a substantial holder from PCG",
+      "time": "2026-08-26T23:33:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127167-3A700044",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "PCG has crossed the 5% substantial holder threshold in IMU (Imugene Limited), triggering mandatory disclosure — this marks a meaningful accumulation event that signals institutional-level conviction in the oncology biotech's pipeline at current depressed valuations.",
+        "The timing of this substantial holding notice is notable given IMU's ongoing clinical-stage programs; a new substantial holder emerging suggests at least one institutional or sophisticated investor is building a strategic position, potentially anticipating upcoming catalysts such as trial data readouts or partnering discussions.",
+        "Investors should monitor whether PCG continues to accumulate beyond the current threshold — further buying activity or a follow-on 'change in substantial holding' notice could act as a technical floor for the stock, while any future disposal notices would be a negative signal for near-term sentiment."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CUE",
+      "company": "CUE",
+      "headline": "FY2026 Full Year Results and Final Dividend",
+      "time": "2026-08-26T23:32:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127164-3A700039",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Market-sensitive FY2026 full-year results signal a material earnings event for CUE — institutional investors should note the dual catalyst of reported financials alongside a final dividend declaration, which confirms the board's confidence in balance sheet strength and cash generation capacity.",
+        "The declaration of a final dividend is a key capital return signal — yield-focused investors will scrutinise the payout ratio and dividend quantum relative to prior periods to assess whether earnings quality has improved or if the distribution is being maintained through reserves.",
+        "With full-year results in hand, the market will focus on revenue trajectory, cost discipline, and any forward guidance or strategic commentary accompanying the release — particularly given CUE's energy sector exposure, where commodity price volatility and project development timelines remain critical watch items."
+      ],
+      "tags": [
+        "Results",
+        "Dividend",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LU7",
+      "company": "LU7",
+      "headline": "Recovery of Gallium and Platinum from E-Waste",
+      "time": "2026-08-26T23:31:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127159-6A1340630",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "LU7's successful recovery of gallium and platinum from e-waste represents a potentially significant value unlock — gallium is a critical mineral facing global supply constraints (China controls ~80% of production), while platinum commands spot prices above US$950/oz, elevating the commercial relevance of this capability.",
+        "The market-sensitive classification signals this is material new intellectual property or process validation, suggesting the company may be pivoting or expanding its technology stack into the high-value critical minerals recovery space — a thematic aligned with strong institutional interest in supply chain sovereignty and circular economy mandates.",
+        "Key next steps to watch: whether LU7 discloses recovery grades/yields and scalability metrics, any offtake or commercialisation partnerships, and whether this positions the company for government grant eligibility under Australia's Critical Minerals Strategy — all of which would be material re-rating catalysts."
+      ],
+      "tags": [
+        "Technology",
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DEM",
+      "company": "DEM",
+      "headline": "DEM Record Half Year Results",
+      "time": "2026-08-26T23:31:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127157-6A1340635",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Record half-year result signals strong operational momentum for DEM, with the 'record' designation implying meaningful year-on-year growth that could trigger upward earnings revisions from sell-side analysts covering the stock.",
+        "Market-sensitive classification indicates material financial metrics — investors should scrutinise key line items including revenue growth rate, EBITDA margin expansion, and free cash flow conversion to assess whether the record result reflects durable structural improvement or one-off tailwinds.",
+        "Strong H1 sets a high base for H2 comparisons and raises the question of whether management will upgrade full-year guidance — any formal lift in FY outlook or capital return commentary (dividends/buybacks) would be the next key catalyst to watch."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DVP",
+      "company": "DVP",
+      "headline": "Woodlawn set for big growth",
+      "time": "2026-08-26T23:31:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127158-6A1340633",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive classification signals material new information on Woodlawn operations — likely a significant resource upgrade, development milestone, or binding offtake/partnership that could materially re-rate DVP's asset valuation.",
+        "The 'big growth' narrative at Woodlawn — a historically significant zinc-lead-silver polymetallic project — suggests either a resource expansion or accelerated project economics that could substantially de-risk the development timeline and attract institutional attention.",
+        "Investors should watch for specifics around throughput capacity, resource tonnage increases, or capital funding arrangements that would confirm whether near-term production uplift is fully financed — key to converting project optionality into tangible cash flow."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VKA",
+      "company": "VKA",
+      "headline": "BLM APPROVES 900 TONNE BULK SAMPLE AT LINKA TUNGSTEN PROJECT",
+      "time": "2026-08-26T23:30:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127156-6A1340636",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BLM (Bureau of Land Management) approval of a 900-tonne bulk sample at the Linka Tungsten Project is a critical regulatory milestone, clearing the path for VKA to generate large-scale metallurgical and process recovery data — essential for de-risking the project ahead of any feasibility study or offtake negotiations.",
+        "Tungsten remains a strategically significant critical mineral with limited Western supply sources; BLM approval signals the project meets US federal environmental and operational standards, potentially elevating Linka's appeal to defence-linked or technology sector offtake partners and government funding programs such as the US DPA Title III.",
+        "The bulk sample program will be the next key near-term catalyst — investors should monitor the timeline for sample extraction, processing results, and any updated resource or economic estimates that could materially re-rate VKA's valuation given tungsten's tight global supply dynamics."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CNI",
+      "company": "CNI",
+      "headline": "Chief Executive Officer Appointment / Transition",
+      "time": "2026-08-26T23:30:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127155-2A1692616",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CEO transition at CNI carries execution risk during a critical period — institutional investors will scrutinise whether the incoming executive has sector-relevant credentials and a clear mandate, or whether this signals internal instability or a strategic pivot.",
+        "The market-sensitive classification elevates the significance of this change beyond routine succession, suggesting the board views the appointment as material to investor decision-making — potentially indicating a departure under pressure or a high-profile external hire with transformative intent.",
+        "Near-term focus will shift to the transition timeline, any outgoing CEO entitlements (termination payments, unvested equity), and whether the incoming CEO's background signals a change in capital allocation strategy, M&A appetite, or operational direction."
+      ],
+      "tags": [
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AXE",
+      "company": "ARCHER MATERIALS LIMITED",
+      "headline": "Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-26T23:30:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127154-2A1692622",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Cash runway is the critical watch point — as a pre-revenue deep-tech company developing qubit processor and 12CQ carbon-based semiconductor technologies, Archer's burn rate and remaining cash reserves disclosed in the FY2026 accounts will determine how soon the company must return to market for fresh capital, making the balance sheet the single most important metric for investors.",
+        "No commercial revenue is expected from core quantum computing and semiconductor programs in the near term, meaning the annual report will almost certainly confirm another year of operating losses funded by existing cash and investments — investors should scrutinise R&D expenditure capitalisation policies and any impairment indicators on intangible assets for accounting quality signals.",
+        "Key forward catalysts to monitor from the report include any updated technical milestones on the 12CQ chip and qubit processor programs, partnership or licensing disclosures, and whether management guidance or commentary signals an imminent capital raise — given the pre-revenue stage, any hint of a funding gap will weigh heavily on the share price."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DEM",
+      "company": "DEM",
+      "headline": "Appendix 4D and Half Yearly Report and Accounts",
+      "time": "2026-08-26T23:29:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127150-6A1340631",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Half-year results carry market-sensitive classification, signalling material financial outcomes that deviate meaningfully from prior expectations or consensus — investors should scrutinise revenue trajectory and EBITDA margins for directional surprises.",
+        "Key metrics to watch include cash burn rate versus reported cash balance to assess runway adequacy, along with any impairment charges, debt covenant disclosures, or working capital deterioration that could pressure the balance sheet in H2.",
+        "Forward guidance embedded in the directors' report will be critical — any commentary on H2 revenue visibility, cost reduction initiatives, or strategic transactions will set the near-term trading tone for DEM shares."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EUR",
+      "company": "EUR",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-26T23:29:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127148-6A1340628",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for EUR (European Lithium) signals a shift in the ownership structure among investors holding ≥5% of shares — this threshold movement can indicate accumulation or partial exit by a major institutional or strategic investor, warranting close monitoring of the full Form 603/604 disclosures.",
+        "The direction of the change (increase or decrease in holding) is critical: an increase may reflect growing conviction in EUR's lithium project pipeline, while a decrease could signal profit-taking or portfolio rebalancing by a key backer — investors should review the notified percentage change and associated voting power implications.",
+        "With the lithium sector under ongoing valuation pressure amid softening spodumene prices, any substantial holder movement in a junior explorer like EUR can meaningfully influence near-term liquidity and price discovery, particularly given typically thin trading volumes in this market segment."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OCL",
+      "company": "OCL",
+      "headline": "CEO Letter to Shareholders",
+      "time": "2026-08-26T23:29:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127149-2A1692621",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A CEO letter to shareholders marked as market sensitive signals material disclosure beyond routine communication — investors should scrutinise for strategic pivots, earnings guidance changes, or significant operational developments that may reprice the stock.",
+        "Without access to the letter's content, the market-sensitive classification is the critical flag — ASX continuous disclosure obligations mean OCL management believes this communication contains information that could materially affect its share price, elevating urgency for institutional review.",
+        "Next steps hinge entirely on the substance of the letter: watch for any commentary around revenue trajectory, cost restructuring, M&A activity, or changes to forward guidance that could catalyse a re-rating in either direction in near-term trading."
+      ],
+      "tags": [
+        "Other",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FXG",
+      "company": "FXG",
+      "headline": "Pilot Plant Produces Antimony Metal",
+      "time": "2026-08-26T23:28:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127145-2A1692599",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Key de-risking milestone achieved: FXG's pilot plant has successfully produced physical antimony metal, validating the metallurgical process at scale and materially reducing technical risk ahead of potential project financing or offtake negotiations — a critical inflection point for junior resource developers.",
+        "Antimony is a strategically critical mineral facing acute global supply constraints, with China controlling ~50% of world production and Western nations actively seeking alternative sources; demonstrated domestic production capability positions FXG as a high-priority asset for defence and battery storage supply chains.",
+        "Next catalysts to watch: pilot plant performance data (recovery rates, purity grades, throughput metrics) will determine feasibility study inputs and set the commercial benchmark — investors should anticipate a detailed technical report and potential offtake or strategic partner discussions in the near term."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OCL",
+      "company": "OCL",
+      "headline": "Full Year Results FY2026",
+      "time": "2026-08-26T23:28:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127144-2A1692620",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY2026 full-year results carry market-sensitive designation, signalling material variance from prior expectations or consensus — investors should scrutinise top-line revenue growth and EBITDA margin trajectory against FY2025 comparatives for directional clarity.",
+        "Key metrics to watch include cash conversion, recurring revenue mix, and any guidance revision embedded in the release, as these will be the primary valuation drivers for institutional re-rating of OCL's forward multiples.",
+        "Management commentary on FY2027 outlook, customer pipeline momentum, and operating leverage will be critical — any upgrade to guidance or confirmation of profitability milestones could act as a near-term re-rating catalyst, while silence on these fronts may temper enthusiasm."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LED",
+      "company": "LED",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-26T23:28:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127143-2A1692613",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation flagged as market sensitive, signalling material financial outcomes that could meaningfully re-rate LED's valuation — investors should watch for revenue, EBITDA, and cash position disclosures as key determinants of near-term direction.",
+        "As a technology-adjacent LED lighting/solutions company on ASX, key metrics to scrutinise include gross margin trajectory, recurring revenue mix, and any impairment charges or working capital movements that could indicate operational stress or strength.",
+        "Forward guidance embedded in the presentation will be critical — any commentary on pipeline conversion, contract wins, or cost reduction initiatives will shape institutional positioning heading into FY27, particularly given the market-sensitive classification heightening the stakes of the release."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OCL",
+      "company": "OCL",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-26T23:27:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127141-2A1692617",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Preliminary Final Report filing signals OCL has closed its financial year books — investors should focus on revenue trajectory, EBITDA margins, and any material variance from prior guidance, as this is the first hard look at full-year performance before the audited annual report.",
+        "Key metrics to scrutinise include cash position and operating cash flow conversion, which will determine whether OCL can self-fund growth initiatives or faces near-term capital pressure — any deterioration in net cash or rising burn rate would be a red flag for near-term dilution risk.",
+        "The market-sensitive classification elevates urgency for institutional positioning ahead of the audited report and AGM season — if results reveal earnings beats or improved margins versus prior period, re-rating potential exists, but guidance commentary for FY26 will be the critical forward-looking catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DUG",
+      "company": "DUG",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-26T23:27:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127140-6A1340634",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DUG Technology's Preliminary Final Report is market sensitive, signalling material financial outcomes that institutional investors should scrutinise closely — key metrics including revenue trajectory, EBITDA margins, and net profit/loss will determine whether the HPC and geoscience services business is tracking toward sustainable profitability.",
+        "As a capital-intensive technology services provider, cash generation and debt position are critical watchpoints — any deterioration in operating cash flow or increase in net debt relative to prior corresponding period would raise concerns about reinvestment capacity and balance sheet resilience in a competitive global HPC market.",
+        "Forward guidance embedded in the full-year report will be pivotal; investors should assess whether DUG is converting its international contract wins and data centre expansion into recurring, high-margin revenue streams, with any upgrade to FY26 outlook or announcement of new enterprise contracts likely to act as a near-term re-rating catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LED",
+      "company": "LED",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-26T23:27:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127139-2A1692607",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results flagged as market sensitive — the classification signals a material departure from prior guidance or consensus expectations, demanding immediate attention from institutional holders to assess whether earnings have beaten or missed materially.",
+        "Without disclosed financials, key metrics to watch include revenue trajectory, EBITDA margin compression or expansion, and any impairment charges — LED's lighting/technology sector peers have faced cost headwinds, making margin outcomes the critical swing factor for valuation re-rating.",
+        "Management commentary on FY27 guidance, order book visibility, and any capital allocation changes (buybacks, dividends, or further investment) will be the primary catalysts determining whether this announcement triggers a sustained re-rating or a sell-the-news reaction."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SND",
+      "company": "SND",
+      "headline": "Saunders FY2026 Investor Presentation",
+      "time": "2026-08-26T23:27:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127138-2A1692611",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Saunders International (SND) has flagged this FY2026 investor presentation as market sensitive, signalling the document likely contains material guidance updates, contract wins, or financial forecasts that could meaningfully re-rate the stock — investors should scrutinise revenue visibility and order book depth given SND's project-based engineering revenue model.",
+        "As an industrial services and construction company focused on tank and infrastructure projects, key metrics to watch include pipeline conversion rates, margin trajectory, and whether management upgrades FY2026 revenue guidance — any uplift against the ~$190M+ prior revenue base would be a constructive signal for earnings momentum.",
+        "The forward outlook will be critical: watch for commentary on tendering activity in the energy and resources sector, capital allocation priorities (dividends vs. reinvestment), and any indication of balance sheet strength or debt position, which underpins SND's capacity to scale project delivery without dilutive equity issuance."
+      ],
+      "tags": [
+        "Other",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WAU",
+      "company": "WAU",
+      "headline": "RESOURCE DEVELOPMENT DRILLING COMMENCES AT ABERCROMBY",
+      "time": "2026-08-26T23:27:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127137-6A1340629",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of resource development drilling at Abercromby signals WAU is advancing beyond discovery-phase exploration toward resource definition, a critical de-risking milestone that typically attracts institutional interest and re-rating potential.",
+        "The market-sensitive classification underscores management's view that drilling results could materially impact the company's resource base and valuation — investors should monitor assay results closely as these will define the economic viability and scale of the deposit.",
+        "Next steps hinge on drill results and turnaround times from the laboratory; positive intersections confirming grade and continuity could catalyse a formal resource estimate upgrade, potentially unlocking project financing conversations and partnership interest from larger miners."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LED",
+      "company": "LED",
+      "headline": "FY26 Appendix 4E and Financial Report",
+      "time": "2026-08-26T23:27:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127136-2A1692605",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FY26 Appendix 4E filing signals LED has concluded its full-year reporting period — as a market-sensitive release, investors should scrutinise top-line revenue trajectory and whether the company has achieved or missed any previously guided financial metrics, which will be the primary near-term price catalyst.",
+        "Key metrics to watch include net profit/loss after tax, operating cash flow, and any material changes to the balance sheet (cash position, debt levels) — for a small-cap technology/lighting company like LED, cash burn rate and receivables quality are critical indicators of financial health and runway sustainability.",
+        "The Appendix 4E format requires audited or preliminary audited financials alongside a prior corresponding period comparison — any revenue growth deterioration, impairments, or going-concern qualifications flagged by auditors would represent significant downside risk, while improving margins or positive cash generation would support a re-rating thesis."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZMI",
+      "company": "ZMI",
+      "headline": "$1.2M European Grant Secured for ARGO Technology",
+      "time": "2026-08-26T23:26:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127135-6A1340627",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Non-dilutive capital injection of €1.2M (~A$2M) from a European government grant validates ARGO technology at an institutional level, preserving shareholder equity while extending cash runway — a meaningful positive for a small-cap tech company likely burning cash through R&D phases.",
+        "European grant funding signals credible third-party technical due diligence has been satisfied, indicating ARGO technology meets rigorous EU innovation benchmarks; this external validation materially de-risks the technology narrative for institutional investors and could accelerate commercial partnership discussions in European markets.",
+        "The geographic expansion implied by EU grant eligibility opens a strategically important market corridor — next catalysts to watch include deployment milestones, pilot programme announcements, or partnership agreements with European counterparties that could convert grant-stage credibility into recurring revenue visibility."
+      ],
+      "tags": [
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SND",
+      "company": "SND",
+      "headline": "Saunders FY2026 Financial Results",
+      "time": "2026-08-26T23:25:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127133-2A1692608",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY2026 full-year results carry market-sensitive designation, signalling material variance from prior expectations or consensus — investors should scrutinise revenue, EBITDA margins, and any guidance revision relative to FY2025 comparatives for directional clarity.",
+        "Saunders International (SND) operates in industrial construction and maintenance services; key metrics to watch include contract wins, work-in-hand backlog, and operating cash conversion — any deterioration in these would be a red flag for the forward earnings trajectory.",
+        "The FY2026 result sets the baseline for FY2027 guidance; if management upgrades project pipeline visibility or confirms new major infrastructure contracts, this could re-rate the stock given SND's leverage to Australian infrastructure spend and energy sector maintenance cycles."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAG",
+      "company": "MAG",
+      "headline": "Exploration Results from Myall FJVA Copper-Gold Project",
+      "time": "2026-08-26T23:25:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127130-6A1340623",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive classification signals material exploration results at Myall FJVA — likely intercepts of significance sufficient to re-rate MAG's copper-gold resource potential, a key valuation catalyst for early-stage explorers on the ASX.",
+        "Copper-gold project results in the current commodity environment carry outsized weight: copper's structural demand story (energy transition) combined with gold's safe-haven premium means strong assay results could attract institutional and sector-specialist attention well beyond retail flow.",
+        "Next steps hinge on the scale and continuity of the intercepts — if results support a follow-up drill program, MAG will need to assess capital requirements (potential equity raise risk) while defining a maiden or expanded resource estimate to convert exploration upside into tangible project value."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CMW",
+      "company": "CMW",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-26T23:24:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127127-2A1692601",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive FY26 results presentation from Cromwell Property Group (CMW) signals material disclosure — key metrics to watch include FFO per security, NTA per unit, and gearing levels given the group's ongoing balance sheet repositioning and European asset disposal program.",
+        "Investor focus will centre on whether CMW has made progress reducing leverage below its target range and crystallising value from non-core European fund management assets, with any impairments or revaluations likely to drive meaningful NTA movement given the current higher-for-longer rate environment weighing on commercial property valuations.",
+        "Outlook guidance on distribution sustainability and leasing momentum across the Australian direct portfolio will be critical — any reaffirmation or upgrade to distribution guidance would be a positive catalyst, while further asset write-downs or delays to the European platform sale could pressure the unit price."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SND",
+      "company": "SND",
+      "headline": "Saunders FY2026 Appendix 4E",
+      "time": "2026-08-26T23:23:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127120-2A1692604",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 4E filing signals FY2026 full-year results are being lodged ahead of the formal annual report — market-sensitive classification indicates material financial outcomes that could meaningfully move the stock, warranting immediate scrutiny of revenue, EBITDA, and net profit figures relative to prior year and any guidance provided.",
+        "Saunders International (SND) operates in industrial construction and maintenance services; key metrics to watch include revenue trajectory against FY2025 comparatives, order book/backlog health, and whether margins have expanded given infrastructure spending tailwinds across Australia's energy and resources sectors.",
+        "Investors should assess cash conversion, debt position, and any dividend declaration accompanying the 4E — as a small-cap industrial services provider, balance sheet strength and forward work-in-hand visibility will be critical determinants of near-term re-rating potential."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EVR",
+      "headline": "Security Class Suspension from Quotation - EVRO",
+      "time": "2026-08-26T23:23:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127117-6A1340621",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX has suspended EVRO securities from quotation, indicating a mandatory administrative halt — this is typically triggered by a pending material announcement, capital raise, or failure to meet continuous disclosure obligations, all of which carry elevated uncertainty for existing holders.",
+        "The market-sensitive classification signals that undisclosed price-moving information is imminent; institutional investors should note that suspension duration and the nature of the catalyst (accretive vs. dilutive) will be the critical determinant of post-reinstatement price action.",
+        "Until reinstatement conditions are met and the underlying announcement is released, all valuation work is on hold — investors should monitor for ASX compliance notices or company-issued updates that clarify whether this is tied to a capital raise, M&A activity, or a compliance breach, each carrying materially different risk profiles."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ML8",
+      "company": "ML8",
+      "headline": "Maiden Peak Downs Drilling Returns Broad Shallow Copper Inte",
+      "time": "2026-08-26T23:23:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127115-2A1692590",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Maiden drilling at Peak Downs delivers broad, shallow copper intercepts — a technically significant result as near-surface mineralisation materially reduces future mining costs and capex requirements, enhancing project economics at an early stage.",
+        "The 'broad' characterisation of intercepts suggests potential bulk-tonnage copper mineralisation, which could underpin a meaningful resource estimate; institutional attention will now focus on grade consistency and width metrics to assess whether this fits a low-cost open-pit development scenario.",
+        "As a maiden result, this is a catalyst for an accelerated follow-up drill program and potential resource definition work — watch for a JORC-compliant resource estimate as the next major value inflection point, alongside any capital raise to fund extensional drilling."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OBL",
+      "company": "OBL",
+      "headline": "FY26 Full Year Results - Investor Presentation",
+      "time": "2026-08-26T23:22:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127108-6A1340622",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive FY26 full-year results presentation signals material information requiring immediate attention — investors should scrutinise revenue trajectory, EBITDA margins, and any guidance revision relative to prior consensus expectations.",
+        "As a results announcement, key metrics to watch include top-line growth, operating leverage, cash generation, and balance sheet health — any miss or beat on these will drive near-term price discovery given the market-sensitive classification.",
+        "Outlook commentary and FY27 guidance will be critical catalysts; any forward earnings upgrade or strategic pivot (cost-out, M&A, capital return) disclosed in the investor presentation could materially re-rate the stock in either direction."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CNI",
+      "company": "CNI",
+      "headline": "CNI FY26 Results Presentation",
+      "time": "2026-08-26T23:22:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127106-2A1692585",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation carries market-sensitive designation, signalling material financial outcomes that could meaningfully re-rate CNI — investors should prioritise reviewing headline revenue, EBITDA margins, and any variance against prior guidance before positioning.",
+        "Key metrics to scrutinise include year-on-year revenue trajectory, operating leverage, cash conversion quality, and whether the business has achieved or missed consensus estimates — any earnings surprise (positive or negative) will drive near-term price discovery.",
+        "Forward outlook commentary embedded in the presentation will be critical: watch for FY27 guidance initiations, capital allocation signals (buybacks, dividends, or reinvestment priorities), and any strategic pivot language that could shift the investment thesis materially."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OBL",
+      "company": "OBL",
+      "headline": "FY26 Appendix 4E and Annual Report",
+      "time": "2026-08-26T23:21:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127103-6A1340619",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Market-sensitive FY26 full-year results filing signals material financial disclosures that warrant immediate scrutiny of revenue trajectory, EBITDA margins, and any impairment charges relative to prior guidance — the 4E is the definitive earnings benchmark for institutional positioning.",
+        "Key metrics to interrogate include cash conversion, net debt/cash position, and whether statutory results diverge significantly from any previously flagged pro-forma figures, as gaps here often drive post-release re-rating in either direction.",
+        "Outlook commentary and FY27 guidance embedded in the Annual Report will be the critical catalyst for near-term price action — any quantified revenue or earnings guidance upgrade/downgrade, or commentary on margin pressures, will set the trading tone in the sessions ahead."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMW",
+      "company": "CMW",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-26T23:21:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127102-2A1692594",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 full-year results release is a high-stakes catalyst for CMW (Cromwell Property Group), a diversified REIT — headline metrics on funds from operations (FFO), NTA per unit, and distribution guidance will be the primary valuation drivers watched by income-focused institutional holders.",
+        "Market sensitivity flag elevates risk of material variance against consensus — key watch items include like-for-like rental income growth, occupancy rates across the Australian and European portfolio, debt refinancing progress, and any asset revaluation movements that could compress or expand NTA.",
+        "Near-term price action will hinge on FY27 distribution guidance and balance sheet clarity — given Cromwell's elevated gearing concerns in prior periods, any confirmation of leverage reduction or capital recycling milestones would be a meaningful positive signal; conversely, a distribution cut or further impairments would likely trigger a sharp de-rating."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AEG",
+      "company": "AEG",
+      "headline": "Chinnerys Fund Income Estimated at $32m Per Annum",
+      "time": "2026-08-26T23:21:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127100-2A1692583",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Chinnerys Fund is projected to generate ~$32M in annual income, representing a material and recurring revenue stream for AEG — this figure, if validated, could significantly re-rate the market's view of the fund's earnings quality and AEG's underlying asset value.",
+        "At $32M p.a., the income estimate implies a substantial fund under management; investors will scrutinise the yield assumptions, asset composition, and durability of this income — key risk factors include interest rate sensitivity, asset quality, and concentration risk within the fund's portfolio.",
+        "As a market-sensitive disclosure, this announcement signals management confidence in formalising income projections ahead of a potential capital raise, fund launch, or broader investor roadshow — near-term catalysts to watch include confirmation of fund structure, distribution policy, and any associated performance fees that could augment AEG's revenue base."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EPY",
+      "company": "EPY",
+      "headline": "FY26 Investor Presentation",
+      "time": "2026-08-26T23:20:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127095-2A1692582",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FY26 investor presentation signals a strategic forward-looking narrative — market-sensitive classification suggests material guidance, partnership, or financial target disclosures that could re-rate near-term valuation expectations for EPY (Epay, likely a fintech/payments operator).",
+        "Investor presentations tied to a new fiscal year (FY26) typically anchor consensus revenue and EBITDA forecasts; any upgrade to growth trajectory, customer acquisition metrics, or margin expansion targets would be the key valuation catalyst to monitor in the accompanying document detail.",
+        "Next steps hinge on whether management provides hard KPIs — including TPV (total payment volume), merchant count growth, or cash burn guidance — that institutional investors can model against; absence of concrete numbers or reliance on qualitative messaging could temper initial enthusiasm despite the market-sensitive flag."
+      ],
+      "tags": [
+        "Finance",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FGX",
+      "company": "FGX",
+      "headline": "Increased fully franked interim div, 2026 Half Year Results",
+      "time": "2026-08-26T23:19:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127092-2A1692571",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "FGX (Future Generation Investment Company) has declared an increased fully franked interim dividend, signalling management confidence in portfolio income generation and reinforcing the LIC's appeal to yield-seeking investors — the franking credits add material after-tax value for domestic superannuation and retail holders.",
+        "The H1 FY2026 result reflects the underlying performance of FGX's pro-bono fund manager structure, where investment returns drive distribution capacity; an increased dividend implies either strong NTA growth, realised gains, or improved income from the underlying manager portfolio relative to the prior corresponding period.",
+        "With the social-impact investment model (donating manager fees to children's charities) intact and dividends rising, FGX is likely to see renewed investor interest and potential NTA premium re-rating — key watch points are the reported NTA per share, discount/premium to NTA, and any commentary on portfolio positioning ahead of a volatile macro H2."
+      ],
+      "tags": [
+        "Results",
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MYG",
+      "company": "MYG",
+      "headline": "App 4E and 2026 Annual Report",
+      "time": "2026-08-26T23:18:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127091-2A1692575",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Market-sensitive annual report filing signals material disclosures that could materially reprice MYG — investors should scrutinise revenue trajectory, EBITDA margins, and any impairment charges relative to prior-year comparatives for directional cues.",
+        "The 4E (Appendix 4E) filing combines preliminary final results with the full annual report, meaning audited financials, cash flow statements, and key performance metrics are now available — watch for cash runway, debt covenants, and working capital position as leading indicators of near-term financial health.",
+        "Forward-looking guidance embedded in the 2026 Annual Report — including management commentary on growth strategy, capital allocation, and any earnings guidance or market outlook — will be critical in setting institutional expectations heading into the new financial year."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EPY",
+      "company": "EPY",
+      "headline": "FY26 Results",
+      "time": "2026-08-26T23:18:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127088-2A1692574",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results release is market-sensitive, signalling material financial outcomes that could materially reprice EPY — investors should watch closely for revenue trajectory, EBITDA margins, and any deviation from prior guidance or consensus estimates.",
+        "Key metrics to scrutinise include cash generation versus burn rate, any impairment charges or one-off items that may distort underlying performance, and whether the company has achieved profitability milestones or remains reliant on external funding.",
+        "Forward guidance embedded in the results — including FY27 revenue outlook, cost reduction initiatives, or strategic pivots — will be the primary near-term price catalyst; absence of clear guidance or a cautious tone could weigh on sentiment despite any headline beat."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TEA",
+      "company": "TEA",
+      "headline": "Tasmea Limited - FY26 Results Presentation",
+      "time": "2026-08-26T23:18:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127087-6A1340618",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results presentation flagged as market sensitive, signalling material financial outcomes that are likely to move the stock — investors should watch for revenue, EBITDA margins, and any deviation from prior guidance given Tasmea's industrial services growth trajectory.",
+        "Tasmea has been executing a buy-and-build acquisition strategy in essential industrial maintenance services; the results will be a key test of whether acquired entities are integrating profitably and contributing to earnings accretion without margin dilution.",
+        "Forward outlook and capital allocation commentary will be critical — any guidance upgrade, confirmation of pipeline acquisitions, or dividend announcement could serve as a near-term re-rating catalyst for this mid-cap industrials name."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HAW",
+      "company": "HAW",
+      "headline": "Drilling commencement at Pinjin East",
+      "time": "2026-08-26T23:18:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127086-3A700027",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling commencement at Pinjin East represents a key de-risking catalyst for HAW, with the market-sensitive classification signalling management's expectation that results could materially re-rate the stock — investor attention should focus on target depth, hole count, and whether this is RC or diamond drilling as indicators of program ambition.",
+        "Pinjin East sits within a historically prospective gold corridor in Western Australia; any meaningful intercepts would validate the geological model and potentially expand the resource inventory, directly impacting NAV estimates and peer-relative valuation multiples.",
+        "Near-term newsflow will be drill-result driven — investors should monitor turnaround time for assays (typically 4–8 weeks for RC programs) and watch for follow-up step-out announcements, as a successful first pass could trigger an accelerated phase-two program and attract institutional re-engagement in what remains a small-cap explorer."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CMW",
+      "company": "CMW",
+      "headline": "Appendix 4E",
+      "time": "2026-08-26T23:17:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127084-2A1692577",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cromwell Property Group's Appendix 4E (preliminary final report) is a market-sensitive full-year results disclosure — key metrics to watch include statutory net profit/loss, funds from operations (FFO), NTA per security, and gearing ratio against a backdrop of persistent pressure on commercial real estate valuations globally.",
+        "With office and diversified property REITs facing elevated cap rate expansion and refinancing headwinds in FY24, any material asset write-downs or deterioration in distributable earnings relative to FY23 would signal further distribution risk and balance sheet stress for CMW security holders.",
+        "Next steps hinge on management's FY25 guidance, particularly distribution per security commitments and progress on capital recycling or asset divestment strategies — investors should scrutinise debt maturity profiles and LVR covenants given CMW's historically elevated leverage relative to sector peers."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TEA",
+      "company": "TEA",
+      "headline": "Tasmea Limited - FY26 Results Announcement",
+      "time": "2026-08-26T23:17:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127080-6A1340617",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 results announcement for Tasmea Limited (TEA) is market sensitive, signalling material financial outcomes that could significantly re-rate the stock — investors should watch for revenue trajectory and EBITDA margins relative to prior guidance, as TEA has been executing an acquisitive growth strategy in the industrial services sector.",
+        "Key metrics to assess include organic vs. acquired revenue contribution, free cash flow generation against debt levels (TEA has used debt to fund M&A), and whether earnings conversion supports current valuation multiples — any margin compression or integration costs will be closely scrutinised.",
+        "Forward outlook commentary will be critical: consensus will focus on FY27 guidance, pipeline of further bolt-on acquisitions, and management's confidence in maintaining earnings momentum amid potential cost pressures in the Tasmanian and broader Australian industrial services market."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EPY",
+      "company": "EPY",
+      "headline": "FY26 Appendix 4E & Annual Report",
+      "time": "2026-08-26T23:17:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127082-2A1692566",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Market-sensitive Appendix 4E filing signals FY26 full-year results are now locked — investors should scrutinise revenue trajectory and EBITDA margins against prior guidance, as any miss or beat will be the primary near-term price catalyst for EPY.",
+        "Key metrics to assess include cash burn rate, receivables quality, and whether the payments/fintech business (EPY operates in the embedded payments space) has achieved operating leverage — a positive cash flow inflection would be a significant de-risking event for this stage of company.",
+        "Outlook commentary in the Annual Report will be critical: watch for FY27 revenue guidance, any strategic partnership updates, and commentary on regulatory compliance costs, which are material for payments-sector operators on the ASX."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KIT",
+      "company": "KIT",
+      "headline": "Dividend/Distribution - KIT",
+      "time": "2026-08-26T23:16:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127079-3A700021",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "KIT has declared a dividend/distribution flagged as market sensitive, signalling a potentially material payout quantum or structural change to distribution policy that warrants immediate investor attention.",
+        "The market-sensitive classification suggests the distribution amount, yield, or franking level may deviate meaningfully from prior guidance or consensus expectations — either a surprise increase lifting income appeal, or an unexpected cut pressuring yield-focused holders.",
+        "Investors should scrutinise the ex-dividend date, record date, and payout ratio relative to underlying earnings or net asset value to assess sustainability and whether the announcement signals management confidence in forward cash generation."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAZ",
+      "company": "CAZ",
+      "headline": "Cazaly Earns 51% Ownership of the Goongarrie Gold Project",
+      "time": "2026-08-26T23:15:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127074-6A1340608",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CAZ has earned a controlling 51% stake in the Goongarrie Gold Project by satisfying its earn-in conditions, crossing a critical ownership threshold that shifts operational control and consolidates decision-making authority over the project's development trajectory.",
+        "Securing majority ownership in a named gold project in Western Australia's prolific Goldfields region materially enhances CAZ's asset base without an immediate cash outlay, representing capital-efficient resource exposure at a time when gold trades near multi-year highs — a structurally favourable backdrop for project re-rating.",
+        "The next catalysts to watch include a updated JORC resource estimate, definition drilling programs, and potential farm-out or JV negotiations for the remaining 49% — any of these could serve as near-term valuation inflection points as the company moves from earn-in to active project stewardship."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CNI",
+      "company": "CNI",
+      "headline": "CNI FY26 Results Announcement",
+      "time": "2026-08-26T23:15:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127072-2A1692581",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 full-year results flagged as market sensitive, signalling material earnings outcomes that deviate meaningfully from prior guidance or market consensus — investors should brace for a significant re-rating catalyst in either direction.",
+        "Without disclosed headline numbers, key metrics to scrutinise will be revenue trajectory, EBITDA margin compression or expansion, and any impairment charges or one-off items that could distort underlying profitability versus the prior comparable period.",
+        "Management commentary on FY27 outlook, cost discipline, and capital allocation priorities will be critical for determining whether any beat or miss is structural or transitory — watch for guidance upgrades or deferrals as the primary sentiment driver post-release."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MTH",
+      "company": "MTH",
+      "headline": "WIDE, HIGH-GRADE HITS CONFIRM 550M STRIKE AT TARGET 4",
+      "time": "2026-08-26T23:14:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127070-2A1692572",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Wide, high-grade intercepts confirming a 550-metre strike length at Target 4 represent a material resource expansion signal, potentially upgrading the geological model and supporting a larger-than-anticipated mineralised system — a key re-rating catalyst for MTH.",
+        "The combination of width and grade quality at Target 4 is critical: high-grade wide hits typically translate to improved economic extraction thresholds, strengthening the project's NPV case and reducing strip-ratio or dilution risk that can erode margins at narrower deposits.",
+        "With strike continuity now confirmed over 550m, the immediate focus shifts to infill and extensional drilling to define a maiden or upgraded JORC resource estimate — a potential near-term newsflow catalyst that institutional investors should monitor closely for resource delineation timelines."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KAM",
+      "company": "KAM",
+      "headline": "Media Release - 2026 Full Year Results",
+      "time": "2026-08-26T23:13:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127069-3A700010",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Full-year results filing is market-sensitive, signalling material financial outcomes that could meaningfully re-rate KAM's valuation — investors should scrutinise top-line revenue growth, EBITDA margins, and any variance against prior guidance or consensus estimates.",
+        "Key metrics to watch include cash position and operating cash flow conversion, as these will determine whether KAM has sufficient runway to fund operations or whether a capital raise risk looms in the near term.",
+        "Forward outlook commentary within the release — including FY2027 guidance, strategic initiatives, or contract pipeline updates — will be the primary catalyst driving institutional positioning post-announcement."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TEA",
+      "company": "TEA",
+      "headline": "Appendix 4E Preliminary Final Report",
+      "time": "2026-08-26T23:13:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127068-6A1340610",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 4E is a statutory preliminary final report marking TEA's full-year results lodgement — the market-sensitive flag signals material financial outcomes that could meaningfully shift valuation benchmarks for this small-cap company.",
+        "Key metrics to scrutinise include revenue trajectory, EBITDA/NPAT versus prior year, and cash position — any deterioration in earnings or cash burn acceleration would pressure the stock given typical limited liquidity buffers at this scale.",
+        "This report sets the baseline for FY guidance and capital allocation decisions; investors should watch for commentary on debt facilities, any impairment charges, and whether auditor sign-off is clean or qualified, as these factors will drive near-term re-rating potential."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CNI",
+      "company": "CNI",
+      "headline": "CNI FY26 Appendix 4E",
+      "time": "2026-08-26T23:12:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127067-2A1692568",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 4E filing signals CNI has completed its preliminary final report for FY26, a mandatory ASX compliance milestone that provides the first formal full-year financial snapshot — market-sensitive classification suggests material outcomes relative to prior year or market expectations warrant close attention.",
+        "Key metrics to scrutinise include revenue, NPAT, and cash position versus FY25 comparatives, as Appendix 4E requires audited or audit-reviewed figures — any significant deviation in earnings or net asset position will directly inform valuation resets by institutional holders.",
+        "With the full annual report to follow, investors should monitor for dividend declarations, guidance commentary, and any qualifications from auditors embedded in the 4E — these forward-looking signals will set the tone for CNI's capital allocation narrative heading into FY27."
+      ],
+      "tags": [
+        "Results",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JNS",
+      "company": "JNS",
+      "headline": "Appendix 4E and Annual Report",
+      "time": "2026-08-26T23:12:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127066-2A1692562",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual Report filing for JNS is market-sensitive, signalling material financial disclosures that could meaningfully shift investor positioning — key metrics including revenue, NPAT, and cash position require immediate scrutiny to assess operational trajectory.",
+        "The Appendix 4E (preliminary final report) provides the first statutory full-year numbers; investors should focus on year-on-year revenue growth or contraction, any impairment charges, and whether the company is cash-flow positive or burning reserves heading into the new financial year.",
+        "Outlook commentary and any guidance provided within the Annual Report will be critical for near-term price discovery — watch for strategic updates on capital allocation, debt facilities, or operational milestones that could serve as catalysts or risks for FY guidance."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CRR",
+      "company": "CRR",
+      "headline": "Trading Halt",
+      "time": "2026-08-26T23:11:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127063-6A1340613",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "CRR has been placed in a trading halt, suspending price discovery and liquidity for investors — the halt is classified as market sensitive, signalling a material corporate development is imminent rather than routine administrative action.",
+        "Trading halts of this nature on ASX junior resource companies most commonly precede capital raises, M&A announcements, or significant asset/project updates — institutional holders should prepare for potential dilution or rerating depending on the nature of the pending release.",
+        "The halt duration will be limited by ASX Listing Rule 17.1 (maximum two trading days), meaning a substantive announcement is expected imminently; investors should monitor for a capital raise prospectus, binding agreement, or material operational update to determine directional bias."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZNO",
+      "company": "ZNO",
+      "headline": "Appendix 4E and FY26 Annual Report",
+      "time": "2026-08-26T23:11:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127062-2A1692565",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual Report filing for ZNO (Zenith Minerals) is market-sensitive, signalling material financial disclosures that could reset market expectations on cash position, exploration expenditure burn rate, and any impairments to mineral assets — critical metrics for a junior explorer.",
+        "Appendix 4E (preliminary final report) will crystallise full-year revenue, net loss, and cash/equivalents figures; investors should scrutinise cash runway against exploration commitments, as many ASX-listed explorers at this stage face sub-12-month runways requiring near-term capital raises.",
+        "Key forward indicators to watch include any updated resource estimates, farm-out or JV activity flagged in the outlook section, and auditor going-concern qualifications — each of which could materially re-rate the stock in either direction upon market digestion."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SWP",
+      "company": "SWP",
+      "headline": "Swoop FY26 Full Year Results Announcement",
+      "time": "2026-08-26T23:11:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127060-2A1692563",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Full-year results for FY26 carry market-sensitive designation, signalling material variance from prior expectations or consensus — investors should brace for significant earnings movement in either direction upon detail release.",
+        "Key metrics to scrutinise include revenue growth trajectory from Swoop's telecommunications/internet services business, EBITDA margin progression, and whether the company is tracking toward profitability given its SME-focused connectivity growth strategy.",
+        "Outlook commentary will be critical — any FY27 guidance upgrade, customer base expansion figures, or M&A integration updates (given Swoop's acquisitive history in regional telco) could act as near-term re-rating catalysts."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAM",
+      "company": "KAM",
+      "headline": "Appendix 4E and Annual Report - 30 June 2026",
+      "time": "2026-08-26T23:11:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127061-3A700007",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "KAM's FY2026 Annual Report (Appendix 4E) is flagged as market sensitive, signalling material financial outcomes that could meaningfully move the stock — investors should scrutinise revenue, NPAT, and any impairment charges relative to prior year and consensus expectations.",
+        "The Appendix 4E filing requires preliminary full-year financials including statutory profit/loss, EPS, dividends declared, and NTA — key metrics that will determine whether KAM has delivered on growth targets or faces headwinds requiring capital action.",
+        "With the reporting period ending 30 June 2026, near-term focus shifts to management's FY2027 outlook commentary, cash position, and any guidance revision — critical inputs for institutional models ahead of the AGM season and potential capital allocation decisions."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FRS",
+      "headline": "Forrestania Awards MEGA Johnson Range Mining Contract",
+      "time": "2026-08-26T23:10:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127058-6A1340611",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Contract award at the MEGA Johnson Range project signals a material step-change in FRS's revenue pipeline — institutional investors should focus on contract value, duration, and margin profile once disclosed, as mining services contracts of this nature typically carry multi-year, recurring cash flow implications.",
+        "The 'MEGA' designation suggests a large-scale or flagship mining operation, which may indicate significant tonnage throughput commitments; if contract terms reflect volume-based pricing, this could materially de-risk near-term revenue forecasts and underpin earnings visibility for FY25/26.",
+        "Next catalysts to watch: formal contract value disclosure, commencement date, and any associated capex or mobilisation requirements — investors should assess whether FRS has sufficient equipment capacity or will need capital deployment, which could influence near-term cash runway and balance sheet positioning."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "2026 Half Year Results Presentation",
+      "time": "2026-08-26T23:09:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127055-3A700013",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Half-year results presentation flagged as market sensitive, signalling material financial disclosures that could meaningfully reset consensus estimates — investors should watch for EBITDAX margins, realised oil prices versus Brent benchmarks, and any revision to FY2026 production guidance at the Baúna and Who Dat assets.",
+        "With Karoon operating as a pure-play oil producer in Brazil and the Gulf of Mexico, the key numbers to scrutinise are free cash flow generation, net debt trajectory, and hedging book coverage — given recent crude price volatility, any deterioration in cash netbacks or covenant headroom would be a significant red flag for the investment case.",
+        "Forward guidance on capital allocation will be critical: the market will be closely watching whether management reaffirms, upgrades, or cuts the Who Dat development drilling programme and any progress on the growth acquisition pipeline, as KAR has signalled appetite for further inorganic growth to diversify its two-asset portfolio."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SWP",
+      "company": "SWP",
+      "headline": "FY26 Results Investor Briefing",
+      "time": "2026-08-26T23:09:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127054-2A1692560",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY26 investor briefing signals SWP is presenting full-year results ahead of the fiscal year-end for most peers, suggesting either an early balance date or a forward-looking capital markets day — investors should scrutinise whether this is a results release or a guidance update, as the distinction materially affects near-term valuation catalysts.",
+        "Market-sensitive classification elevates this announcement above routine administrative updates — expect material disclosure on revenue, earnings, or strategic direction that could reprice the stock; institutional desks should flag for same-day positioning ahead of briefing transcript publication.",
+        "The investor briefing format typically accompanies management commentary on FY27 outlook, cost trajectories, and potential capital allocation decisions (buybacks, dividends, or reinvestment) — watch for any guidance revisions or balance sheet disclosures that could drive consensus estimate changes."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "2026 Half Year Results Announcement",
+      "time": "2026-08-26T23:09:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127053-3A700011",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Half-year results for the period ending December 2025 represent a critical inflection point for Karoon, with investors focused on Baúna field production rates and cash generation against a backdrop of elevated operating costs and ongoing Who Dat development spend in the Gulf of Mexico — any EBITDAX beat relative to consensus will be the primary share price catalyst.",
+        "Balance sheet health is under the microscope: Karoon's net debt position and available liquidity headroom relative to its RBL facility covenants will determine near-term financial flexibility, particularly given oil price volatility in H1 FY2026 and the capital intensity of the Who Dat acquisition integration.",
+        "Forward guidance on FY2026 full-year production targets and any revision to capital expenditure will be the key forward-looking signal — a narrowing or upgrade to production guidance would meaningfully de-risk the investment case and potentially close the discount to NAV at which KAR has been trading."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAU",
+      "company": "AAU",
+      "headline": "Binding MoU Signed to Initiate Possible Lifting US Sanction",
+      "time": "2026-08-26T23:09:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127052-2A1692556",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A binding MoU to pursue the lifting of US sanctions is a material de-risking event for AAU — sanctions have historically been the single largest overhang on the company's ability to access capital markets, international partners, and project financing, making this a potentially transformative catalyst if successful.",
+        "The 'possible' qualifier signals this remains a process initiation rather than a confirmed outcome; investors should note that US OFAC sanction removal is a multi-stage, legally complex procedure that can take months to years, and any failure or delay would likely reverse near-term share price gains sharply.",
+        "Near-term focus should be on the identity and credibility of the counterparty to the MoU, the defined milestones or conditions within the agreement, and whether AAU has engaged specialist US legal/lobbying counsel — these details will determine whether this is a substantive pathway or a speculative market update."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "Karoon HY26 Appendix 4D",
+      "time": "2026-08-26T23:08:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127051-3A700018",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Karoon's HY26 Appendix 4D is a market-sensitive half-year results filing, meaning the reported financials contain material information that could move the share price — investors should closely scrutinise revenue, EBITDAX, and net profit figures against consensus estimates given the company's single-asset concentration at the Baúna oil field in Brazil.",
+        "Key metrics to watch include production volumes and realised oil prices for the December 2025 half, operating cash flow versus capital expenditure on the Who Dat field development in the Gulf of Mexico, and any movement in net debt — Karoon carries meaningful leverage that makes cash generation visibility critical for valuation.",
+        "The filing will set the tone for FY26 guidance credibility and the trajectory of the Who Dat acquisition integration; any downward revision to production targets or widening of operating costs would be a negative catalyst, while stronger-than-expected free cash flow could reignite discussion around capital returns or debt reduction ahead of full-year results."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SWP",
+      "company": "SWP",
+      "headline": "Appendix 4E and Preliminary Financial Report",
+      "time": "2026-08-26T23:07:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127048-2A1692558",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Preliminary full-year results filing signals the close of SWP's reporting period — investors should scrutinise revenue trajectory and any EBITDA/NPAT movement relative to prior year, as Appendix 4E submissions are a key benchmark moment for small-cap valuation resets.",
+        "Market-sensitive classification elevates urgency: any material variance in earnings, impairments, or cash position disclosed within this report could trigger significant price dislocation given the stock's likely thin liquidity profile typical of smaller ASX-listed entities.",
+        "Near-term focus should be on cash runway, working capital position, and whether auditor sign-off is clean or qualified — a qualified audit opinion or deteriorating cash balance would materially alter the risk profile heading into the new financial year."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ONE",
+      "company": "ONE",
+      "headline": "Half Year 2026 Investor Presentation",
+      "time": "2026-08-26T23:06:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127041-2A1692551",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Market-sensitive classification signals material financial disclosures within the HY2026 presentation — institutional investors should scrutinise revenue trajectory, EBITDA margins, and any guidance revision relative to prior period benchmarks for ONE's core business segments.",
+        "Half-year results will reveal whether ONE has achieved meaningful operating leverage or if cash burn has accelerated, with cash runway and any updated capital requirements being critical metrics given the company's growth-stage profile — covenant compliance and working capital position warrant close attention.",
+        "Forward outlook commentary and any updated FY2026 guidance embedded in the presentation will be the key share-price catalyst; management's tone on customer acquisition, contract wins, or pipeline conversion will determine whether the stock re-rates or faces near-term selling pressure."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "E79",
+      "company": "E79",
+      "headline": "E79 EXPANDS CUE GOLD PROJECT WITH STRATEGIC TENEMENT OPTION",
+      "time": "2026-08-26T23:05:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127038-6A1340603",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "E79 has secured an option over a strategic tenement adjacent to its Cue Gold Project in Western Australia, expanding the project footprint and potentially consolidating a more contiguous land package — a key de-risking step that institutional investors typically reward in early-stage explorers.",
+        "The option structure limits upfront capital outlay while preserving E79's ability to assess geological continuity before committing to full acquisition, suggesting disciplined capital allocation critical for a junior explorer managing cash burn against exploration milestones.",
+        "With the Cue district gaining renewed attention as a gold-prospective region, this tenement expansion positions E79 to capture strike extensions and any satellite discoveries, directly strengthening the resource growth narrative ahead of anticipated drilling programs that will be the key re-rating catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EQT",
+      "company": "EQT",
+      "headline": "2026 Full Year Results Presentation",
+      "time": "2026-08-26T23:04:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127033-3A700015",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "FY2026 full-year results presentation is market sensitive, signalling material financial disclosures that could meaningfully re-rate EQT's valuation — investors should scrutinise revenue trajectory, margin expansion, and any guidance revision relative to prior forecasts.",
+        "As a wealth management and trustee services company, key metrics to watch include funds under management/administration (FUM/FUA) growth, fee income resilience, and cost-to-income ratio given ongoing competitive pressure in the managed accounts and estate services space.",
+        "Forward outlook and any commentary on M&A integration (following recent acquisitive activity in the trustee/wealth sector), client retention rates, and capital management intentions — including dividend sustainability — will be critical determinants of near-term institutional positioning."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALU",
+      "company": "ALU",
+      "headline": "Alurion Launches Amargosa PFS to Advance Bauxite Project",
+      "time": "2026-08-26T23:04:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127034-6A1340599",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alurion has formally launched a Pre-Feasibility Study (PFS) for its Amargosa Bauxite Project, marking a critical de-risking milestone that transitions the asset from exploration-stage to a project with defined economic parameters — a key re-rating catalyst for junior miners.",
+        "The PFS launch signals management confidence in the project's technical and economic viability; completion will deliver maiden capital cost (CAPEX), operating cost (OPEX), and NPV/IRR estimates, which are essential inputs institutional investors require before assigning meaningful project value.",
+        "With bauxite demand structurally underpinned by the global aluminium supply chain and ongoing decarbonisation-driven aluminium demand growth, a successful PFS outcome positions ALU to attract strategic or offtake partner interest and potentially advance to Definitive Feasibility Study (DFS) — the next key value inflection point to monitor."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CUE",
+      "company": "CUE",
+      "headline": "Appendix 4E and Annual Report",
+      "time": "2026-08-26T23:04:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03127032-3A700001",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual results filing triggers mandatory institutional scrutiny — as a market-sensitive designation, this Appendix 4E likely contains material variances in revenue, production volumes, or impairments relative to prior guidance that could reprice the stock immediately upon digestion.",
+        "CUE Energy operates legacy oil & gas assets across Indonesia and Australia, meaning key metrics to watch include net production rates, realised oil prices vs. benchmark, operating cost per barrel, and any reserve revisions that would impact net asset value calculations used by energy-focused funds.",
+        "With the energy sector under ongoing capital allocation pressure, investors should scrutinise cash position, debt covenants, and dividend capacity — any deterioration in free cash flow or write-downs on exploration assets would signal further balance sheet risk heading into FY26."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "PNC",
       "company": "PIONEER CREDIT LIMITED",
