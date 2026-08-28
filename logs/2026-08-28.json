@@ -1,9 +1,1665 @@
 {
   "date": "2026-08-28",
-  "total": 496,
-  "market_sensitive_count": 177,
-  "generated_at": "2026-08-28T01:46:41.473834+00:00",
+  "total": 584,
+  "market_sensitive_count": 198,
+  "generated_at": "2026-08-28T03:23:39.329307+00:00",
   "announcements": [
+    {
+      "ticker": "BKI",
+      "company": "BKI INVESTMENT COMPANY LIMITED",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-08-28T03:18:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128288-2A1693223",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "BKI Investment Company has dispatched its AGM notice and proxy form, a routine procedural step for this listed investment company (LIC) that gives shareholders the formal opportunity to vote on resolutions including director elections and remuneration reports.",
+        "For LIC investors, AGM resolutions around management fees, performance hurdles, and any proposed capital management initiatives (buybacks, dividend reinvestment plans) are the items most likely to carry shareholder value implications.",
+        "No market-sensitive classification reduces the probability of surprise resolutions; however, institutional investors should review proxy materials for any activist-driven requisitioned resolutions or director spills that could signal governance tension."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RFT",
+      "company": "RECTIFIER TECHNOLOGIES LTD",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-08-28T03:18:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128287-3A700317",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "RFT has been queried by ASX over an unusual price movement, signalling the exchange has detected abnormal trading activity that warrants explanation — a red flag for undisclosed material information or speculation.",
+        "The company's response to the query will be critical: if management confirms no undisclosed information, it limits upside catalyst interpretation; if new material is disclosed, it resets the investment thesis entirely.",
+        "Investors should monitor the formal response filing closely — any admission of pending contract, partnership, or corporate activity could materially re-rate this small-cap power electronics manufacturer."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CDA",
+      "company": "CODAN LIMITED",
+      "headline": "Application for quotation of securities - CDA",
+      "time": "2026-08-28T03:16:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128286-2A1693222",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Codan Limited has lodged an application for quotation of new securities on the ASX, indicating recently issued shares (likely from an employee share plan, convertible note conversion, or capital raise) are being admitted to official trading.",
+        "The nature and volume of securities being quoted is critical — small tranches from employee incentive schemes are immaterial, while larger issuances from institutional placements may create near-term supply overhang and modest downward price pressure.",
+        "Given Codan's established position as a technology and communications hardware company, this is most likely routine equity plan administration; investors should confirm the source of issuance in the accompanying schedule to assess dilution magnitude."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VCD",
+      "company": "VICINITY CENTRES TRUST",
+      "headline": "Updated Offering Circular - Euro Medium Term Note Programme",
+      "time": "2026-08-28T03:13:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128285-2A1693219",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vicinity Centres has updated its Euro Medium Term Note (EMTN) Programme offering circular, reflecting revised terms, updated financial disclosures, or regulatory compliance requirements for its offshore debt funding platform.",
+        "The EMTN Programme is a key source of diversified, long-duration institutional debt for Vicinity's balance sheet — keeping it current signals ongoing access to European fixed-income capital markets, which is strategically important for large-scale REIT refinancing needs.",
+        "While procedurally non-sensitive, the update may embed revised covenants, leverage ratios, or sustainability-linked debt features that sophisticated fixed-income and equity investors should review for shifts in Vicinity's capital structure risk profile."
+      ],
+      "tags": [
+        "Finance",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EIQ",
+      "company": "ECHOIQ LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-28T03:13:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128284-2A1693221",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EIQ's Preliminary Final Report (Appendix 4E) provides the first comprehensive full-year earnings snapshot for this AI-driven healthcare technology company — the headline revenue and loss figures will set the tone for near-term sentiment.",
+        "As a pre-revenue or early-revenue stage company, the key metrics to watch are cash burn rate, operating expenditure trajectory, and any disclosed cash runway — these determine dilution risk and survivability without additional capital raises.",
+        "The market-sensitive classification suggests the results contain material deviations from prior expectations; investors should assess whether EIQ has demonstrated sufficient commercial traction to justify its current market capitalisation."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BKI",
+      "company": "BKI INVESTMENT COMPANY LIMITED",
+      "headline": "Material Business Risk Disclosure",
+      "time": "2026-08-28T03:12:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128283-2A1693220",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "BKI Investment Company has filed a Material Business Risk Disclosure, a non-routine filing for a LIC that warrants careful attention — this type of disclosure typically outlines risks that are not captured in standard periodic reporting and may relate to portfolio concentration, market conditions, or structural LIC-specific risks.",
+        "For LIC investors, key risks to assess include discount-to-NTA widening risk, portfolio liquidity constraints, franking credit availability, and any counterparty or regulatory risks affecting the investment mandate — any of these could impair income distributions.",
+        "Although classified as non-market-sensitive, the proactive disclosure of material risks is a governance signal; institutional investors should compare disclosed risks against peer LICs and assess whether current discount/premium to NTA adequately prices the identified exposures."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CDA",
+      "company": "CODAN LIMITED",
+      "headline": "Application for quotation of securities - CDA",
+      "time": "2026-08-28T03:09:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128282-2A1693218",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second application for quotation of securities lodged by Codan on the same day as announcement [6] suggests either a separate tranche of securities or a follow-up filing — this duplication warrants scrutiny to determine if the combined issuance volume is more material than each individual filing implies.",
+        "Dual quotation applications in a single session can indicate concurrent settlement of multiple equity tranches (e.g., institutional placement and share purchase plan settling on the same date), which would cumulatively increase dilution impact on existing shareholders.",
+        "Investors should cross-reference both CDA quotation applications to calculate the total new shares entering the register; if aggregate issuance exceeds ~1-2% of existing shares on issue, it becomes a meaningful near-term technical overhang."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FLT",
+      "company": "FLIGHT CENTRE TRAVEL GROUP LIMITED",
+      "headline": "Initial Director's Interest Notice",
+      "time": "2026-08-28T03:07:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128281-2A1693217",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Flight Centre Travel Group has lodged an Initial Director's Interest Notice, confirming the appointment of a new director and disclosing their opening securities interest in FLT — a routine governance filing with no direct financial impact.",
+        "The identity and background of the incoming director is the value-relevant detail: an executive hire with deep travel industry, digital platform, or international market expertise could signal a strategic pivot or succession planning, while a financial/independent appointment is largely procedural.",
+        "Institutional investors should monitor whether the new director's initial shareholding is acquired on-market (demonstrating personal conviction) versus granted via remuneration package, and watch for any board composition changes that shift the balance between independent and executive representation."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DLY",
+      "company": "DALY RESOURCES LIMITED",
+      "headline": "Daly Resources Limited Investor Briefing Webinar",
+      "time": "2026-08-28T03:07:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128280-6A1340922",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Daly Resources is hosting an investor briefing webinar, signalling management's intent to maintain retail and institutional engagement — typically a precursor to upcoming catalysts or capital activity.",
+        "As a small-cap resources company, direct investor communication events carry outsized importance for price discovery and sentiment, particularly given limited analyst coverage in this segment.",
+        "Investors should monitor the webinar content closely for any exploration updates, funding plans, or strategic pivots that could materially reframe the company's near-term narrative."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASB",
+      "company": "AUSTAL LIMITED",
+      "headline": "ASB FY2026 Results Conference Call Notice",
+      "time": "2026-08-28T03:05:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128279-6A1340921",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Austal Limited has scheduled a FY2026 results conference call, confirming that full-year financials are imminent — a key event for a defence shipbuilder operating across US and Australian government contracts.",
+        "The conference call notice alone carries no financial detail, but sets up a high-stakes disclosure window; given ASB's exposure to US Navy and Australian DoD contracts, revenue recognition and margin guidance will be critical focal points.",
+        "Institutional investors should position for potential volatility around the results release, particularly given ongoing geopolitical tailwinds for defence spending and any commentary on the US shipbuilding joint venture or contract pipeline."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LPE",
+      "company": "LOCALITY PLANNING ENERGY HOLDINGS LIMITED",
+      "headline": "Notification of buy-back - LPE",
+      "time": "2026-08-28T03:04:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128278-2A1693216",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Locality Planning Energy (LPE) has notified the ASX of a share buy-back program, which generally signals management's confidence that the stock is undervalued relative to intrinsic worth.",
+        "For a small-cap embedded network energy provider, a buy-back is a meaningful capital allocation decision — investors should assess the scale of the buy-back relative to LPE's cash position and operating cash flows to determine sustainability.",
+        "The buy-back may provide modest share price support and reduce float, but the impact will be limited without disclosure of buy-back size and duration; full program details will be the key determinant of materiality."
+      ],
+      "tags": [
+        "Energy",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst SIG Instalment MINI Dividend",
+      "time": "2026-08-28T03:00:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128277-2A1693215",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst SIG Instalment MINI has declared a dividend, representing a routine structured product distribution tied to the underlying reference asset's dividend event rather than a corporate earnings decision.",
+        "This is a mechanical, product-level announcement with no direct read-through to broader market conditions or the issuer's (Citigroup's) financial health — relevant only to holders of this specific MINI warrant series.",
+        "Investors in these instruments should note the ex-dividend and payment dates to accurately model the loan balance adjustment inherent in instalment MINI structures."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LPE",
+      "company": "LOCALITY PLANNING ENERGY HOLDINGS LIMITED",
+      "headline": "Share Buy-Back",
+      "time": "2026-08-28T03:00:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128276-2A1693214",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "LPE has initiated a share buy-back program, signalling board confidence that the stock is undervalued relative to intrinsic worth — a constructive capital management signal for existing shareholders.",
+        "For a small-cap energy retailer, deploying capital into buybacks rather than growth investment implies management believes organic reinvestment opportunities are limited at current valuations, or that the share price discount is too deep to ignore.",
+        "The size and timeframe of the buy-back will determine actual EPS accretion impact; investors should review the buy-back notice for maximum volume and price limits, as thin liquidity in LPE shares could amplify price support effects."
+      ],
+      "tags": [
+        "Other",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PAR",
+      "company": "PARADIGM BIOPHARMACEUTICALS LIMITED..",
+      "headline": "Appendix 4G and Corporate Governance Statement",
+      "time": "2026-08-28T02:59:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128275-3A700316",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Paradigm Biopharmaceuticals has lodged its Appendix 4G and Corporate Governance Statement, a mandatory annual compliance filing that maps the company's governance practices against the ASX Corporate Governance Principles.",
+        "While procedural in nature, governance disclosures for a clinical-stage biotech like PAR are scrutinised by institutional investors for board composition, risk oversight frameworks, and independence metrics — all relevant as the company navigates late-stage trials.",
+        "No immediate valuation impact is expected; however, any deviations from recommended governance practices disclosed in the statement could attract negative ESG-focused institutional attention over the medium term."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst GDG Instalment MINI Dividend",
+      "time": "2026-08-28T02:59:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128274-2A1693213",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst GDG Instalment MINI has declared a dividend, another routine structured product distribution event driven by the underlying reference security's dividend cycle.",
+        "As with other MINI instalment products, the dividend payment mechanically reduces the outstanding loan component of the instrument, affecting the effective leverage ratio for holders.",
+        "This announcement is entirely administrative and carries no broader market signal; relevant only to existing holders of the GDG MINI series managing their position economics."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SBM",
+      "company": "ST BARBARA LIMITED",
+      "headline": "Notification of cessation of securities - SBM",
+      "time": "2026-08-28T02:58:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128273-3A700315",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "St Barbara Limited has notified the ASX of the cessation of securities, most likely relating to the expiry or lapsing of performance rights, options, or other equity instruments — a routine but informationally relevant corporate action.",
+        "For SBM, which has undergone significant restructuring following asset divestments, the cessation of securities can indicate the lapsing of unvested incentive awards, potentially reflecting executive departures or unmet performance hurdles — worth monitoring in context.",
+        "Investors should cross-reference the specific security type and quantum against SBM's existing remuneration disclosures to assess whether this signals leadership instability or simply scheduled expiry of legacy instruments."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "C1X",
+      "company": "COSMOS EXPLORATION LIMITED",
+      "headline": "Results of Meeting",
+      "time": "2026-08-28T02:57:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128272-6A1340920",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Cosmos Exploration Limited has released results of its shareholder meeting, confirming whether key resolutions — potentially including capital raise approvals, director elections, or mandate renewals — were passed by securityholders.",
+        "For a small-cap explorer, meeting outcomes are often pivotal: approval of placement capacity or new director appointments can directly enable near-term exploration funding or strategic repositioning.",
+        "Without resolution detail in the headline, the materiality is contingent on what was tabled; investors should review the full results of meeting document for any resolutions that expand the board's authority to issue shares or undertake transactions."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARX",
+      "company": "AROA BIOSURGERY LIMITED",
+      "headline": "Change of Director's Interest Notice - BW",
+      "time": "2026-08-28T02:57:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128271-2A1693212",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice has been filed for Aroa Biosurgery, indicating that director BW has altered their shareholding — either through an on-market transaction, vesting of equity awards, or other dealing.",
+        "Director buying in a small-cap MedTech like ARX can be a meaningful insider confidence signal, particularly if conducted on-market with personal funds; conversely, selling warrants careful interpretation given potential liquidity motivations.",
+        "Investors should examine the nature of the transaction (acquisition vs. disposal), the dollar quantum, and whether it was on-market to accurately gauge the signal strength of this insider activity."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AR1",
+      "company": "AUSTRAL RESOURCES AUSTRALIA LTD",
+      "headline": "Results for the Half Year Ended 30 June 2026",
+      "time": "2026-08-28T02:55:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128270-2A1693210",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Austral Resources has released its half-year results to 30 June 2026, providing the market with a critical update on copper production performance, operating costs, and balance sheet health at its Queensland operations.",
+        "Key metrics to scrutinise include copper cathode production volumes versus guidance, C1 cash costs per pound against the current copper price environment, and the company's cash position relative to its debt servicing obligations and ramp-up capital requirements.",
+        "Despite the 'not market sensitive' classification — which appears conservative for a half-year financial report — any material variance in EBITDA, production, or liquidity guidance versus market expectations could drive meaningful share price movement; investors should treat this filing as high-priority."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SBM",
+      "company": "ST BARBARA LIMITED",
+      "headline": "Application for quotation of securities - SBM",
+      "time": "2026-08-28T02:54:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128269-3A700314",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "SBM is applying for quotation of new securities, likely reflecting the issuance of shares under an employee incentive plan, dividend reinvestment plan, or a recently completed capital raise tranche — standard administrative process with no immediate valuation impact.",
+        "The non-market-sensitive classification confirms this is a routine securities administration filing, not indicative of a material corporate event such as a placement or rights issue that would cause dilution concern.",
+        "Investors should monitor the volume and nature of securities being quoted; if linked to executive incentive plans, it signals management retention efforts within SBM's ongoing operational restructuring following its strategic pivot from Atlantic Gold assets."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARX",
+      "company": "AROA BIOSURGERY LIMITED",
+      "headline": "Notification regarding unquoted securities - ARX",
+      "time": "2026-08-28T02:54:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128268-2A1693211",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ARX is notifying the market of unquoted securities, typically relating to performance rights, options, or restricted shares issued under employee incentive schemes — a routine compliance disclosure with no direct share price catalyst.",
+        "The non-market-sensitive flag confirms no material dilution event is imminent from this specific notification; however, investors should track the total unquoted securities pool as a potential future dilution overhang if conversion conditions are met.",
+        "For Aroa Biosurgery, which is navigating its path to sustained profitability in the US wound care market, executive retention via equity incentives is strategically important — this filing suggests ongoing commitment to aligning management interests with shareholders."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "3DA",
+      "company": "AMAERO INC.",
+      "headline": "Results of Special Meeting of Stockholders",
+      "time": "2026-08-28T02:54:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128267-3A700313",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Amaero International (3DA) has completed a Special Meeting of Stockholders, with the results filing suggesting resolutions were put to a vote — likely covering equity issuance authority, corporate restructuring, or operational mandates critical to the company's metal additive manufacturing strategy.",
+        "The outcome of stockholder resolutions at special meetings can determine a company's ability to raise capital or execute strategic transactions; if key resolutions passed, this clears the path for near-term corporate action, which would be a constructive development.",
+        "Given 3DA's focus on high-purity titanium powder production for aerospace and defence applications — a capital-intensive niche — the approval of any financing or operational resolutions would be a meaningful enabler for its commercialisation timeline."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AR1",
+      "company": "AUSTRAL RESOURCES AUSTRALIA LTD",
+      "headline": "Austral Resources Appendix 4D and Half-year Report",
+      "time": "2026-08-28T02:49:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128266-2A1693209",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AR1's Appendix 4D half-year report delivers the first formal look at financial performance for this copper developer — revenue, operating costs, and EBITDA versus prior period are the headline metrics for institutional scrutiny.",
+        "Given AR1's stage as an emerging copper producer, the report's disclosure on production volumes, C1 cash costs per pound, and capital expenditure will determine whether the company is tracking toward commercial viability or facing cost headwinds.",
+        "Cash position and any updated funding strategy disclosed in the report are critical — copper project development requires sustained capital, and any covenant issues or funding gaps would be materially bearish for the stock."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PHO",
+      "company": "PHOSCO LTD",
+      "headline": "Replacement of ASX Release dated 26 August 2026",
+      "time": "2026-08-28T02:48:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128265-3A700312",
+      "market_sensitive": false,
+      "document_type": "Capital Raise",
+      "summary": [
+        "PhoscoLtd (PHO) has issued a replacement ASX release for a capital raise announcement originally dated 26 August 2026, indicating a correction or material amendment to previously disclosed fundraising terms — investors must compare the replacement against the original to identify changes in pricing, size, or conditions.",
+        "Replacement releases for capital raise documents are significant: amendments may reflect revised offer price, changed use-of-funds disclosures, updated eligibility criteria, or corrections to material errors — any of which could alter the investment case for existing and prospective shareholders.",
+        "For a small-cap resource company like PHO operating in the phosphate sector, the integrity and clarity of capital raise documentation is critical to investor confidence; the need for a replacement filing introduces a degree of execution risk and warrants close scrutiny of the amended terms."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Daily Net Tangible Asset Statement",
+      "time": "2026-08-28T02:47:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128264-2A1693208",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Perpetual Credit Income Trust (PCI) has published its daily Net Tangible Asset (NTA) statement — a routine regulatory disclosure required for listed investment trusts, providing investors with the latest per-unit NTA to assess any premium or discount to market price.",
+        "The NTA figure is the key metric for PCI investors: a persistent discount to NTA may signal redemption pressure or portfolio concerns, while a narrowing discount or premium indicates improving investor demand for the trust's credit income exposure.",
+        "As a fixed income vehicle focused on Australian and global credit markets, PCI's NTA movements reflect underlying credit spread dynamics; in the current rate environment, daily NTA tracking is essential for assessing mark-to-market performance of the underlying portfolio."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LPE",
+      "company": "LOCALITY PLANNING ENERGY HOLDINGS LIMITED",
+      "headline": "Corporate Governance Statement",
+      "time": "2026-08-28T02:47:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128263-2A1693207",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Locality Planning Energy (LPE) has released its Corporate Governance Statement, a mandatory annual disclosure outlining the company's adherence to the ASX Corporate Governance Principles and Recommendations — a compliance-driven filing with no direct earnings impact.",
+        "For a small-cap energy retailer like LPE, governance quality disclosures matter to institutional investors assessing board independence, risk oversight frameworks, and remuneration structures, particularly given the competitive and regulatory pressures facing embedded network energy providers.",
+        "This filing, issued alongside Appendix 4G (item 7), reflects LPE's annual reporting cycle obligations; investors should review both documents together to identify any departures from ASX governance recommendations, which could signal structural or oversight weaknesses."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PAR",
+      "company": "PARADIGM BIOPHARMACEUTICALS LIMITED..",
+      "headline": "Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-28T02:47:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128262-3A700311",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "PAR's Appendix 4E and Annual Report for FY2026 arrives at a pivotal juncture — the biotech's commercial and clinical pipeline progress, particularly around its lead pentosan polysulfate sodium (PPS) asset, will dominate investor focus.",
+        "Key financials to assess include R&D expenditure, cash reserves, and operating cash burn relative to prior year, as these directly inform how much runway PAR has before needing to return to equity markets for funding.",
+        "The annual report's outlook statements on regulatory milestones, partnership negotiations, or commercialisation timelines will be the primary near-term share price catalyst — any delay or de-prioritisation of key programs would be a material negative."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PEN",
+      "company": "PENINSULA ENERGY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-28T02:46:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128261-6A1340919",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for PEN indicates a major shareholder has crossed a 5% threshold — either accumulating or reducing a position — which could signal strategic interest or divestment pressure in this uranium developer.",
+        "The direction of the change (increase vs. decrease) is critical: accumulation by a sophisticated institutional investor may reflect conviction in PEN's Lance uranium project restart thesis, while a sell-down raises concerns about near-term financing or project risk.",
+        "As PEN is flagged not market sensitive, the filing is largely administrative, but tracking the identity of the substantial holder provides intelligence on institutional sentiment toward uranium sector exposure on the ASX."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LPE",
+      "company": "LOCALITY PLANNING ENERGY HOLDINGS LIMITED",
+      "headline": "Appendix 4G",
+      "time": "2026-08-28T02:45:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128260-2A1693206",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "LPE's Appendix 4G is a checklist cross-referencing each ASX Corporate Governance Recommendation against the company's disclosed practices — filed concurrently with the Corporate Governance Statement as part of annual reporting compliance requirements.",
+        "The Appendix 4G is a transparency tool: any 'if not, why not' departures from the ASX's eight core governance principles flag areas where LPE's governance framework diverges from best practice, which institutional investors and proxy advisers scrutinise closely.",
+        "Taken in conjunction with the Corporate Governance Statement (item 6), this dual filing completes LPE's governance disclosure obligations; no immediate share price impact is expected, but persistent governance deficiencies identified herein could affect institutional appetite for the stock."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TIP",
+      "company": "TEAMINVEST PRIVATE GROUP LIMITED",
+      "headline": "Annual Report to shareholders",
+      "time": "2026-08-28T02:45:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128259-2A1693205",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "TeamInvest Private Group (TIP) has released its Annual Report to shareholders, the most comprehensive disclosure of the year encompassing full-year financial results, strategic direction, risk factors, and audited accounts — a key document for fundamental analysis.",
+        "Investors should focus on net profit after tax, funds under management or investment portfolio performance, cash generation, and dividend sustainability within the annual report, as these metrics underpin TIP's valuation as a private equity-focused investment group.",
+        "The annual report marks the formal conclusion of TIP's FY2026 reporting cycle; any commentary on deal pipeline, portfolio company performance, or capital deployment strategy will be material for assessing near-term earnings visibility and the investment thesis."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PGC",
+      "company": "PARAGON CARE LIMITED",
+      "headline": "2026 Annual General Meeting",
+      "time": "2026-08-28T02:39:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128258-3A700310",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Paragon Care (PGC) has announced its 2026 Annual General Meeting, providing shareholders with the opportunity to vote on board elections, remuneration reports, and any special resolutions — a standard governance milestone in the corporate calendar.",
+        "Key items to watch in the AGM notice include the remuneration report vote (a 'first strike' protest vote would signal shareholder dissatisfaction), any proposed changes to director composition, and resolutions to refresh capital management authorities.",
+        "For PGC, a healthcare products distributor that has undertaken significant M&A activity in recent years, the AGM may also provide management with a platform to update the market on integration progress and FY2027 earnings outlook — a potential catalyst for sentiment."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "Kip McGrath 2026 Corporate Governance Statement",
+      "time": "2026-08-28T02:39:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128257-2A1693204",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Kip McGrath Education Centres (KME) has published its 2026 Corporate Governance Statement, fulfilling mandatory ASX disclosure obligations and providing stakeholders with an overview of the board's governance framework, risk management practices, and ethical standards.",
+        "For a small-cap education franchise business like KME, governance disclosures are particularly relevant given the importance of brand integrity and franchisee relationship management to its revenue model; board oversight structures warrant review.",
+        "This is a routine annual compliance filing with no immediate earnings or valuation implications; however, investors should cross-reference it with the Appendix 4G (if separately filed) to identify any departures from ASX governance best practice that may warrant further inquiry."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TIP",
+      "company": "TEAMINVEST PRIVATE GROUP LIMITED",
+      "headline": "ASX/Media Release - FY26 results",
+      "time": "2026-08-28T02:39:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128256-2A1693200",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "TIP's FY26 full-year results are the primary event — as a private equity-style investment group, the key metrics are net asset value (NAV) per share, portfolio company EBITDA growth, and any realisations or write-downs across the portfolio.",
+        "Revenue and earnings trajectory from underlying investee businesses will determine whether TIP's differentiated model of investing alongside management teams is generating superior risk-adjusted returns relative to listed peers.",
+        "Dividend declaration or capital management commentary will be closely watched — TIP's ability to distribute cash from portfolio realisations is a key attraction for income-oriented investors, and any reduction would weigh on sentiment."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "POB",
+      "company": "PROGRESS 2021-1 TRUST",
+      "headline": "Notification of cessation of securities - POB",
+      "time": "2026-08-28T02:38:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128255-2A1693203",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "POB trust securities have ceased, indicating the structured finance vehicle has reached maturity or underlying assets have been fully redeemed — a routine lifecycle event for asset-backed securities.",
+        "Cessation of securities removes POB from active trading, meaning any remaining holders should have already received final distributions or principal repayments per the trust deed.",
+        "No residual investor action is typically required post-cessation, but institutional holders should confirm reconciliation of positions and confirm receipt of final proceeds with their custodians."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCG",
+      "company": "PENGANA CAPITAL GROUP LIMITED",
+      "headline": "Notification of buy-back - PCG",
+      "time": "2026-08-28T02:38:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128254-2A1693201",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PCG has filed a formal on-market buy-back notification, a tangible capital management action that directly supports the share price by reducing outstanding shares and signalling board confidence in the stock's intrinsic value.",
+        "For a listed fund manager, buy-backs at a discount to NAV are immediately accretive to remaining shareholders — investors should verify whether PCG shares are trading below NAV to quantify the value creation per share.",
+        "The scale of the buy-back relative to PCG's free float and average daily trading volume will determine its practical price support impact; in a thinly traded stock, even modest buy-back volumes can materially tighten the bid-ask spread."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LPE",
+      "company": "LOCALITY PLANNING ENERGY HOLDINGS LIMITED",
+      "headline": "2026 Annual Report",
+      "time": "2026-08-28T02:38:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128253-2A1693202",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "LPE has filed its 2026 Annual Report, providing a full-year operational and financial summary for this small-cap embedded energy network operator serving residential and commercial communities.",
+        "Key areas to scrutinise include revenue trajectory from electricity retailing, customer site growth, and whether the business is moving toward or away from profitability given ongoing infrastructure investment cycles.",
+        "Annual reports for micro-cap energy retailers often reveal material shifts in regulatory exposure or contract concentration risk — investors should assess customer churn rates and any commentary on the evolving distributed energy regulatory framework in Australia."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AHE",
+      "company": "ADHERIS HEALTH LIMITED",
+      "headline": "Full year results release date and webinar invitation",
+      "time": "2026-08-28T02:37:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128252-6A1340917",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Adheris Health has flagged its upcoming full-year results release date and an accompanying investor webinar — signalling management is prepared to engage directly with the market on financial performance.",
+        "The webinar invitation suggests management confidence in the results narrative; companies with materially weak results tend to avoid live Q&A forums, making this a mild positive signal.",
+        "Institutional investors should register for the webinar to probe revenue mix, any changes to the medication adherence service pipeline, and client retention metrics that underpin forward earnings visibility."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MGL",
+      "company": "MAGONTEC LIMITED",
+      "headline": "Half Yearly Report and Accounts",
+      "time": "2026-08-28T02:37:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128251-2A1693199",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Magontec has released its half-year financial report, covering its magnesium alloy manufacturing operations across Europe and China — a niche industrial materials business with significant exposure to automotive and defence supply chains.",
+        "Key metrics to assess include gross margin trends given ongoing energy cost pressures in European manufacturing, Chinese operational performance amid subdued domestic auto demand, and any update on net debt or liquidity position.",
+        "Half-year results for MGL have historically been volatile due to commodity input price swings and FX translation effects; investors should look for management commentary on second-half order books and any cost rationalisation measures underway."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WHK",
+      "company": "WHITEHAWK LIMITED",
+      "headline": "Application for quotation of securities - WHK",
+      "time": "2026-08-28T02:36:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128250-6A1340918",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WhiteHawk has applied for quotation of new securities on the ASX, indicating a recent capital raise or securities issuance event has been completed and shares are now being brought to market.",
+        "This is a dilutive event for existing shareholders — the scale of dilution depends on the number and price of new securities; investors should cross-reference with recent placement or rights issue announcements to quantify impact.",
+        "For a small-cap cybersecurity company like WHK, the deployment of freshly raised capital will be closely watched — any proceeds directed toward U.S. federal contract pipeline development would be the most value-accretive use of funds."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PGC",
+      "company": "PARAGON CARE LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-08-28T02:36:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128249-3A700309",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director of Paragon Care has filed a change of interest notice, indicating an alteration in their direct or indirect shareholding — this is a routine disclosure required under ASX Listing Rules.",
+        "The direction of the change (acquisition vs. disposal) is the critical detail; an on-market purchase by a director signals insider confidence in the healthcare equipment distributor's outlook, while a sale may raise questions about conviction.",
+        "Given PGC's recent strategic transformation activities, any director buying at current levels would carry meaningful sentiment weight; investors should check the notice detail to determine whether this is a voluntary transaction or a plan-related vesting event."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LPE",
+      "company": "LOCALITY PLANNING ENERGY HOLDINGS LIMITED",
+      "headline": "LPE FY2026 Annual Results and Performance - Market Release",
+      "time": "2026-08-28T02:36:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128248-2A1693195",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "LPE's FY2026 Annual Results release is the substantive operational and financial summary for this embedded network energy retailer — revenue growth, customer site additions, and EBITDA margin are the headline KPIs for institutional assessment.",
+        "As a recurring-revenue energy services business, LPE's ability to grow its embedded network customer base while managing wholesale energy cost pass-through risk is the central value driver — any margin compression from energy price volatility would be a key concern.",
+        "Management commentary on FY2027 guidance, pipeline of new building contracts, and regulatory environment for embedded networks will set the forward earnings trajectory and determine whether current valuation multiples are justified."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEN",
+      "company": "SENETAS CORPORATION LIMITED",
+      "headline": "Annual General Meeting",
+      "time": "2026-08-28T02:35:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128247-3A700308",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Senetas Corporation has announced its Annual General Meeting, providing shareholders the opportunity to vote on standard resolutions including director elections, remuneration reports, and potentially any new share issuance authorities.",
+        "For a cybersecurity hardware and encryption company like SEN, the AGM is an opportunity to assess management's strategic messaging around product pipeline, particularly given the growing global demand for high-assurance network encryption solutions.",
+        "Investors should monitor whether any non-standard resolutions are tabled — such as capital raising authorities or material contract approvals — which could signal near-term strategic activity beyond the routine AGM agenda."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WEC",
+      "company": "WHITE ENERGY COMPANY LIMITED",
+      "headline": "Results of Meeting",
+      "time": "2026-08-28T02:35:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128246-2A1693192",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "White Energy Company has released its results of meeting, confirming the outcomes of resolutions put to shareholders — the passing or rejection of key resolutions determines the company's near-term strategic and governance trajectory.",
+        "For a coal technology company like WEC with a complex asset base, shareholder votes on board composition or capital management resolutions can materially influence operational direction and balance sheet flexibility.",
+        "If all resolutions passed without significant dissent (particularly the remuneration report, which signals governance health), the outcome is broadly neutral; any resolution defeated or attracting >25% against votes warrants deeper investor scrutiny."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "Appendix 4G",
+      "time": "2026-08-28T02:35:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128245-2A1693198",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Kip McGrath Education Centres has lodged its Appendix 4G, which is a mandatory checklist confirming compliance with the ASX Corporate Governance Council's Principles and Recommendations — a routine annual compliance filing.",
+        "The Appendix 4G cross-references the company's Corporate Governance Statement and identifies any areas where KME does not comply with ASX governance recommendations on an 'if not, why not' basis.",
+        "While procedural in nature, deviations from recommended governance practices flagged in the Appendix 4G can highlight structural risks for institutional investors applying ESG screening criteria to small-cap education sector holdings."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TIP",
+      "company": "TEAMINVEST PRIVATE GROUP LIMITED",
+      "headline": "Dividend/Distribution - TIP",
+      "time": "2026-08-28T02:35:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128244-2A1693194",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "TeamInvest Private Group has declared a dividend or distribution for TIP unitholders, confirming the private markets investment vehicle is returning capital to investors — a positive signal of portfolio liquidity and earnings conversion.",
+        "The yield implied by the distribution relative to current unit price is the key metric; for a private equity-style listed vehicle, consistent distribution capacity validates the quality and realisability of the underlying portfolio companies.",
+        "Investors should assess whether the distribution is funded from recurring income or asset realisation proceeds, as the former indicates sustainable yield while the latter may signal portfolio wind-down activity rather than operational strength."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LPE",
+      "company": "LOCALITY PLANNING ENERGY HOLDINGS LIMITED",
+      "headline": "Appendix 4E",
+      "time": "2026-08-28T02:35:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128243-2A1693197",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "LPE's Appendix 4E is the statutory preliminary final report filing accompanying the FY2026 results — it provides audited or reviewed headline financials including revenue, NPAT, and EPS for direct year-on-year comparison.",
+        "The Appendix 4E's standardised format enables rapid benchmarking of LPE's financial performance against prior corresponding period, with particular focus on whether the company has achieved profitability or is narrowing losses.",
+        "Filed concurrently with the FY2026 results release and buy-back announcement, this triple-filing on the same day reflects deliberate investor relations strategy — the collective package will be assessed holistically by the market as a comprehensive capital markets update."
+      ],
+      "tags": [
+        "Results",
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGL",
+      "company": "MAGONTEC LIMITED",
+      "headline": "Magontec 2026 Half Year Results Announcement",
+      "time": "2026-08-28T02:34:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128242-2A1693196",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Magontec's H1 2026 half-year results are market sensitive, signalling material movement in key financial metrics — investors should watch for shifts in revenue, EBITDA margins, and magnesium alloy demand trends driven by automotive sector exposure.",
+        "As a niche magnesium recycling and alloy producer with operations across Europe and China, MGL's results are highly sensitive to commodity price cycles, energy costs, and EUR/CNY/AUD currency movements — any margin compression or expansion will be a key valuation driver.",
+        "The outlook commentary will be critical: any guidance on order book strength, capacity utilisation, or capital allocation priorities (including debt management) will determine near-term sentiment and whether the stock can sustain any re-rating."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGL",
+      "company": "MAGONTEC LIMITED",
+      "headline": "Appendix 4D - Half Year Report 30 June 2026",
+      "time": "2026-08-28T02:33:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128241-2A1693193",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "The Appendix 4D filing formalises MGL's statutory half-year financials for the period ending 30 June 2026, providing audited or reviewed figures that underpin the narrative results announcement — discrepancies between the two documents would be a red flag.",
+        "Key metrics to interrogate include net profit/loss after tax, operating cash flow versus EBITDA (a common divergence point for industrial manufacturers), and net debt position given MGL's capital-intensive recycling operations.",
+        "Dividend policy and any changes to the payout ratio will be closely watched by income-focused shareholders; MGL's historical inconsistency in distributions makes any declaration — or omission — a meaningful signal."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEN",
+      "company": "SENETAS CORPORATION LIMITED",
+      "headline": "Corporate Governance Statement and Appendix 4G",
+      "time": "2026-08-28T02:31:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128240-3A700307",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Senetas has filed its annual Corporate Governance Statement alongside Appendix 4G, confirming compliance reporting obligations under ASX Listing Rules — a routine but mandatory disclosure cycle.",
+        "The Appendix 4G checklist maps Senetas' governance practices against the ASX Corporate Governance Principles; any deviations from the 'if not, why not' framework warrant scrutiny given the company operates in sensitive cybersecurity infrastructure.",
+        "No immediate valuation catalyst here, but sustained governance transparency is a hygiene factor for institutional mandates — investors should cross-reference the statement for any board composition or policy changes since the prior year."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TIP",
+      "company": "TEAMINVEST PRIVATE GROUP LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-28T02:29:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128239-2A1693191",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TeamInvest Private Group's Preliminary Final Report provides the first full-year earnings snapshot for this private equity-style investment vehicle — revenue and net profit figures will benchmark the portfolio's underlying operating performance against prior periods.",
+        "As an investor in private SME businesses, TIP's key metrics include funds under management equivalent, portfolio company earnings growth, and any unrealised or realised gains/losses on holdings — impairments would be a material bearish signal.",
+        "With limited analyst coverage and thin liquidity, this release carries outsized price-discovery significance; strong NTA growth or dividend declaration could catalyse a re-rating, while flat or declining results may reinforce the stock's discount to intrinsic value."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MI6",
+      "company": "MINERALS 260 LIMITED",
+      "headline": "Proposed issue of securities - MI6",
+      "time": "2026-08-28T02:28:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128238-6A1340916",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Minerals 260 has lodged a proposed securities issuance notice, signalling an upcoming capital raise or option/warrant conversion that will increase shares on issue — dilution risk is the key near-term concern for existing holders.",
+        "Without confirmed pricing or quantum, the extent of dilution remains uncertain; however, for a junior minerals explorer, new capital typically funds exploration programs, making the use-of-proceeds disclosure critical to assess value creation potential.",
+        "Investors should watch for the accompanying prospectus or cleansing notice to determine whether the raise is at a discount to market — placement discounts above 10–15% historically pressure near-term share price performance for small-cap miners."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BGE",
+      "company": "BRIDGE SAAS LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-28T02:27:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128237-2A1693188",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bridge SaaS Limited's Preliminary Final Report is a critical inflection point for this early-stage SaaS operator — the market will focus acutely on Annual Recurring Revenue (ARR) growth, churn rate, and the path to cash flow breakeven.",
+        "Cash runway is the paramount concern: given BGE's stage of development, the balance sheet's cash position versus quarterly burn rate will determine whether a near-term capital raise is likely — any runway below 12 months would be a bearish catalyst.",
+        "Revenue growth trajectory and customer acquisition metrics (logo count, net revenue retention) will determine whether the market assigns a growth or distressed valuation multiple; any upgrade to forward guidance would be the key bullish trigger."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TIP",
+      "company": "TEAMINVEST PRIVATE GROUP LIMITED",
+      "headline": "Appendix 4G",
+      "time": "2026-08-28T02:26:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128236-2A1693190",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "TeamInvest Private Group has submitted its Appendix 4G alongside its governance disclosures, fulfilling ASX Listing Rule 4.10.3 requirements — this is a procedural annual compliance filing with no direct earnings impact.",
+        "The 4G checklist cross-references TeamInvest's adherence to the 8 ASX Corporate Governance Principles; as a smaller listed private equity-style group, any 'if not, why not' explanations around independence or remuneration frameworks merit attention.",
+        "Filed concurrently with the Corporate Governance Statement (announcement [5]), the dual submission suggests an orderly annual reporting cycle — no actionable catalyst for near-term price movement."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WHK",
+      "company": "WHITEHAWK LIMITED",
+      "headline": "Top 20 and Distribution Schedule - Listed Options",
+      "time": "2026-08-28T02:25:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128235-6A1340915",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WhiteHawk's Top 20 holders and distribution schedule for its listed options provides a snapshot of option ownership concentration — high concentration in top holders can signal either strong institutional conviction or elevated liquidity risk upon expiry.",
+        "The distribution schedule reveals how broadly or narrowly option holdings are spread across the register; a skewed distribution towards a handful of holders may foreshadow lumpy exercise or selling pressure as option expiry approaches.",
+        "For a small-cap cybersecurity company like WhiteHawk, monitoring option expiry timelines is important — unexercised options lapsing without conversion could signal weak holder conviction, while mass conversion would expand the share count and potential sell-side pressure."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MI6",
+      "company": "MINERALS 260 LIMITED",
+      "headline": "Expanded Mining Lease Granted and Tenement Acquisitions",
+      "time": "2026-08-28T02:25:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128234-6A1340914",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "The granting of an expanded mining lease and new tenement acquisitions for Minerals 260 is a concrete de-risking milestone — it converts exploration upside into a legally secured development footprint, directly increasing the project's bankability and M&A optionality.",
+        "The scale of the expanded lease area and strategic rationale for the tenement acquisitions (resource extension, buffer zones, or infrastructure corridors) will determine whether this represents genuine project enhancement or routine administrative consolidation.",
+        "For a minerals explorer, tenure security is a prerequisite for attracting joint venture partners or project finance; this announcement materially improves MI6's negotiating position and could accelerate the timeline to a definitive feasibility or development decision."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SEN",
+      "company": "SENETAS CORPORATION LIMITED",
+      "headline": "Full Year Results Investor Presentation",
+      "time": "2026-08-28T02:25:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128233-3A700305",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Senetas' Full Year Results Investor Presentation provides management's curated narrative on FY performance — the focus should be on recurring vs. one-off revenue in its high-assurance network encryption business, and whether enterprise and government pipeline conversion rates are improving.",
+        "With cybersecurity spending globally remaining elevated, investors will assess whether Senetas has successfully diversified beyond legacy hardware encryption into software-defined and cloud-adjacent solutions, which carry superior margin and scalability profiles.",
+        "Forward guidance on contract wins, channel partner expansion (particularly with Verizon in North America), and R&D spend as a proportion of revenue will be the key drivers of re-rating potential in an increasingly competitive encryption market."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEN",
+      "company": "SENETAS CORPORATION LIMITED",
+      "headline": "Full Year Results Announcement",
+      "time": "2026-08-28T02:24:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128232-3A700304",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "The Full Year Results Announcement from Senetas delivers the headline statutory numbers — revenue, EBIT, NPAT, and cash position — which will be benchmarked against prior year and any market consensus expectations for this niche cybersecurity hardware and software provider.",
+        "Any acceleration in SaaS or subscription-based recurring revenue would be a structural positive, shifting SEN's valuation framework from a low-multiple hardware business to a higher-multiple recurring revenue model — a critical inflection investors should monitor.",
+        "Cash generation and dividend sustainability are key; Senetas has historically maintained a conservative balance sheet, and any commentary on buybacks, special dividends, or increased R&D investment will signal management's conviction in the near-term earnings outlook."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TIP",
+      "company": "TEAMINVEST PRIVATE GROUP LIMITED",
+      "headline": "Corporate Governance Statement",
+      "time": "2026-08-28T02:24:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128231-2A1693189",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "TeamInvest Private Group's Corporate Governance Statement is a companion document to the Appendix 4G filed simultaneously, together completing the mandatory annual governance disclosure package required by ASX.",
+        "The statement outlines the board's self-assessment against ASX governance principles for the reporting period — key areas to review include board independence ratios, audit committee composition, and remuneration policy disclosures for this private-equity-focused entity.",
+        "No material market-moving content is expected from this filing; however, any structural governance changes flagged — such as new committee formations or director tenure policies — could be relevant for ESG-focused institutional screening."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BGT",
+      "company": "BIO-GENE TECHNOLOGY LTD",
+      "headline": "Corporate Governance Statement",
+      "time": "2026-08-28T02:20:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128230-3A700306",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Bio-Gene Technology's Corporate Governance Statement fulfils its annual ASX reporting obligation, providing stakeholders with a structured overview of how the board governs this early-stage biopesticide development company.",
+        "Given Bio-Gene's pre-revenue status and reliance on R&D milestones, governance quality — particularly around IP protection, scientific advisory oversight, and capital stewardship — is disproportionately important to investor confidence.",
+        "No financial data or operational update is contained in this filing; investors seeking near-term catalysts should focus on upcoming trial results or commercialisation partnership announcements rather than this procedural disclosure."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MA1",
+      "company": "MA CREDIT INCOME TRUST",
+      "headline": "Daily Estimate NTA for 27.08.2026",
+      "time": "2026-08-28T02:20:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128229-2A1693187",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MA Credit Income Trust has published its daily estimated NTA as at 27 August 2026, providing investors with a near-real-time valuation reference point for this credit-focused listed trust — a standard transparency mechanism for fixed-income vehicles.",
+        "The NTA figure is the key metric: any material deviation between the daily NTA estimate and the prevailing unit price signals a premium or discount to fair value, which can drive arbitrage activity or redemption pressure for the trust.",
+        "Daily NTA reporting is a hallmark of well-governed income trusts; consistent NTA stability would reinforce the trust's positioning as a low-volatility credit income product, while any NTA erosion could indicate underlying credit stress in the portfolio."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BGT",
+      "company": "BIO-GENE TECHNOLOGY LTD",
+      "headline": "Appendix 4G",
+      "time": "2026-08-28T02:20:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128228-3A700303",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Bio-Gene Technology's Appendix 4G filing, submitted in tandem with its Corporate Governance Statement, completes the mandatory dual-document annual governance disclosure required under ASX Listing Rule 4.10.3.",
+        "The 4G checklist will identify any governance principles Bio-Gene does not fully adopt — for a small biotech with a lean board structure, deviations around nomination committees or diversity policies are common and should be assessed for materiality.",
+        "This is purely a compliance-driven filing; the more substantive near-term investor focus for BGT remains its biopesticide pipeline progression, regulatory approvals, and any commercialisation news in the agricultural biologicals space."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "Kip McGrath FY26 results media release",
+      "time": "2026-08-28T02:20:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128227-2A1693185",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Kip McGrath has released its FY26 full-year results media release — as a Results filing, this is the highest-signal announcement in this batch, containing revenue, earnings, and strategic outlook data that directly informs valuation.",
+        "Key metrics to scrutinise include centre network growth (company-owned vs. franchised split), revenue per centre trends, online tutoring adoption rates post-COVID normalisation, and any commentary on franchise fee income sustainability across its international markets.",
+        "Management's FY27 outlook guidance — particularly around centre expansion targets, digital platform investment, and margin trajectory — will be the primary driver of near-term share price reaction; investors should assess whether the results meet, beat, or miss prior consensus expectations."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CLU",
+      "company": "CLUEY LTD",
+      "headline": "Appendix 4E & FY26 Audited Financial Report",
+      "time": "2026-08-28T02:19:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128226-2A1693186",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cluey's Appendix 4E and FY26 Audited Financial Report delivers the definitive full-year result for this ASX-listed online tutoring platform — the critical metrics are revenue growth, student engagement KPIs, and whether unit economics have improved toward sustainable profitability.",
+        "Cash burn and runway are existential considerations for CLU; the audit sign-off reduces uncertainty around going concern risk, but the balance sheet's net cash position and operating cash outflow trend will determine whether dilutive capital raising is imminent.",
+        "The EdTech sector has faced post-COVID demand normalisation globally — any evidence of a sustainable competitive moat (via proprietary AI tutoring tools, curriculum partnerships, or B2B school contracts) will be the key differentiator for long-term valuation support."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEN",
+      "company": "SENETAS CORPORATION LIMITED",
+      "headline": "Appendix 4E and Consolidated Financial Report",
+      "time": "2026-08-28T02:18:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128225-3A700302",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Senetas' Appendix 4E and Consolidated Financial Report provides the statutory, auditor-reviewed full-year accounts — this is the definitive legal document underpinning the results narrative and investor presentation, and any material differences from prior disclosures would be highly significant.",
+        "Investors should cross-reference this filing against the results announcement (ID 7) for consistency in revenue recognition, any restatements, or changes in accounting policies — particularly around contract accounting for government encryption tenders which can be lumpy and long-dated.",
+        "The consolidated group structure and related-party disclosures warrant scrutiny given SEN's international operations and partnerships; clean accounts with no audit qualifications would be a base-case positive, reinforcing confidence in the underlying business quality."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BGT",
+      "company": "BIO-GENE TECHNOLOGY LTD",
+      "headline": "Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-28T02:13:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128224-3A700301",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Bio-Gene Technology's Appendix 4E and 2026 Annual Report is a pivotal disclosure for this pre-revenue biopesticide developer — the market will focus on any progress in commercialising its Qcide® active ingredient platform and the status of regulatory submissions in key jurisdictions.",
+        "Cash position and burn rate are paramount: BGT operates at the pre-commercial stage with no meaningful revenue, making the cash runway the single most important financial metric — any indication of less than 12 months runway without a funded pathway would be a material bearish signal.",
+        "Strategic developments including licensing discussions, field trial results, or regulatory milestones disclosed in the annual report narrative could be transformative for this small-cap; any binding commercial agreement or grant funding would represent a significant positive catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WIN",
+      "company": "WIN METALS LTD",
+      "headline": "WIN Metals Investor Briefing Webinar - 31 August 2026",
+      "time": "2026-08-28T02:11:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128223-6A1340913",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WIN Metals has scheduled an investor briefing webinar for 31 August 2026, providing a forum to update the market on its exploration or development progress — such events are typically used to build retail and institutional awareness for small-cap miners.",
+        "The timing and nature of the webinar may suggest upcoming newsflow — companies rarely schedule investor briefings without material developments to present, such as drilling results, resource estimate updates, or strategic partnership announcements.",
+        "Investors should register and monitor the webinar content closely; any presentation materials lodged with ASX simultaneously will be the definitive reference — the webinar itself is not market-moving until the substance of the update is revealed."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATX",
+      "company": "AMPLIA THERAPEUTICS LIMITED",
+      "headline": "Results of Annual General Meeting",
+      "time": "2026-08-28T02:10:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128222-2A1693184",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "AGM resolutions passed without material opposition signals stable shareholder base and board continuity for Amplia Therapeutics, a clinical-stage oncology company with limited revenue and ongoing cash burn.",
+        "No extraordinary resolutions or capital raise mandates disclosed, suggesting the company is not imminently seeking fresh equity at the AGM — though cash runway remains a key watchpoint for this pre-revenue biotech.",
+        "With ATX advancing its FAK inhibitor pipeline, investor focus should remain on upcoming clinical readouts rather than governance outcomes; AGM approval of standard resolutions is a procedural milestone only."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMA",
+      "company": "AMA GROUP LIMITED",
+      "headline": "2026 Annual General Meeting",
+      "time": "2026-08-28T02:10:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128221-3A700299",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "AMA Group's 2026 AGM notice is a routine procedural event for the auto repair and smash repair services company, with no market-sensitive resolutions flagged — standard governance housekeeping.",
+        "Given AMA's history of balance sheet restructuring and operational turnaround efforts, investors should scrutinise any board re-election or remuneration resolutions for signals of strategic continuity or shareholder dissent.",
+        "No near-term catalysts are embedded in this filing; institutional focus should remain on AMA's ability to sustain margin recovery in its core collision repair network amid ongoing industry cost pressures."
+      ],
+      "tags": [
+        "AGM"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NAB",
+      "company": "NATIONAL AUSTRALIA BANK LIMITED",
+      "headline": "Application for quotation of securities - NAB",
+      "time": "2026-08-28T02:09:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128220-3A700300",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "NAB's application for quotation of new securities is a routine administrative filing, most likely relating to shares issued under employee or dividend reinvestment plans, confirming no extraordinary capital raise event.",
+        "The non-market-sensitive classification confirms this is a technical listing formality; the volume of securities being quoted should be monitored relative to NAB's total share count to assess any marginal dilution impact.",
+        "For a major bank of NAB's scale, such filings are standard and frequent; investors should look to upcoming quarterly trading updates and net interest margin disclosures for more substantive price catalysts."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FGH",
+      "company": "FORESTA GROUP HOLDINGS LIMITED",
+      "headline": "FY26 Appendix 4G and Corporate Governance Statement",
+      "time": "2026-08-28T02:08:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128219-2A1693183",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Foresta Group Holdings' release of its FY26 Appendix 4G and Corporate Governance Statement is a mandatory ASX compliance filing, confirming the company's adherence to the ASX Corporate Governance Principles and Recommendations.",
+        "As a smaller-cap entity, any deviations from the 'if not, why not' governance benchmarks disclosed in the statement could signal governance risk — investors should review the accompanying checklist for material non-compliance areas.",
+        "This filing marks the start of FY26 reporting obligations for FGH; the real value signal will come from forthcoming financial results and any operational updates on its forestry or holdings business activities."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FGH",
+      "company": "FORESTA GROUP HOLDINGS LIMITED",
+      "headline": "FY26 Appendix 4E and Annual Report",
+      "time": "2026-08-28T02:07:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128218-2A1693182",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Foresta Group's FY26 Annual Report carries market-sensitive status, signalling material financial disclosures that could meaningfully shift investor expectations around revenue, profitability, or asset valuations for this forestry-focused entity.",
+        "As a full-year Appendix 4E filing, this report provides audited financials including statutory net profit/loss, cash flow position, and dividend determination — key metrics for assessing whether FGH has achieved operational scale or remains in development-stage burn.",
+        "Investors should scrutinise timber asset valuations, harvest volumes, and any going-concern disclosures given the capital-intensive nature of forestry operations; guidance or strategic commentary on FY27 will be the primary near-term price catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BPP",
+      "company": "BABYLON PUMP & POWER LIMITED",
+      "headline": "Entitlement Offer Results and $7.27M Recapitalisation",
+      "time": "2026-08-28T02:03:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128217-6A1340902",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Babylon Pump & Power has completed a $7.27M recapitalisation via an entitlement offer, a critical lifeline for a small-cap industrial services company that likely faced material liquidity pressure given the scale and urgency of the raise.",
+        "The recapitalisation structure (entitlement offer) implies existing shareholders were given priority access, but completion signals underwriting support or sufficient retail/institutional take-up — reducing immediate insolvency risk and extending cash runway for operations.",
+        "Near-term focus shifts to deployment of proceeds: whether capital is earmarked for debt reduction, working capital, or growth capex will determine if this raise is stabilising or transformative; dilution impact on EPS and NTA per share is the key bear case."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IGL",
+      "company": "IVE GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-08-28T02:03:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128216-2A1693181",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director's interest change at IVE Group typically reflects on-market purchases, sales, or vesting of performance rights — the direction and scale of the transaction is the key signal for insider sentiment on the stock.",
+        "If the change reflects open-market buying by a director, it would be a modest bullish signal for this marketing and print communications company; selling or plan-based vesting carries neutral-to-slightly-bearish optics.",
+        "IVE Group has been executing on acquisition-led growth; director share movements should be contextualised against recent earnings guidance and any upcoming capital allocation decisions to assess alignment with shareholders."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFI",
+      "company": "AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
+      "headline": "NZ climate-related disclosures exemption notice",
+      "time": "2026-08-28T02:01:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128215-3A700298",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AFI's filing of a New Zealand climate-related disclosures exemption notice is a regulatory compliance action, confirming the investment company is managing cross-border reporting obligations under NZ climate legislation.",
+        "As a Listed Investment Company (LIC) with a conservative mandate, AFI's exemption filing reflects administrative prudence rather than any strategic shift — it signals awareness of evolving ESG regulatory landscapes across both sides of the Tasman.",
+        "No financial or portfolio implications arise directly from this filing; long-term investors in AFI should focus on portfolio yield, NTA performance, and discount-to-NTA metrics as the primary valuation drivers."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCP",
+      "company": "SCALARE PARTNERS HOLDINGS LIMITED",
+      "headline": "Convertible Note Cleansing Notice",
+      "time": "2026-08-28T02:01:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128214-3A700297",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Scalare Partners Holdings' Convertible Note Cleansing Notice indicates the company has recently issued convertible notes to sophisticated or professional investors and is now satisfying ASX disclosure requirements to allow those securities to be freely tradeable.",
+        "Convertible note issuances by small-cap companies like SCP typically signal a need for short-term capital without immediate equity dilution — however, conversion at discount terms can create future overhang and dilution risk for existing shareholders.",
+        "Investors should scrutinise the note's conversion price, interest rate, and maturity terms relative to SCP's current share price and cash position to properly assess the dilution pathway and effective cost of this capital."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KLS",
+      "company": "KELSIAN GROUP LIMITED",
+      "headline": "KLS AGM Key Dates",
+      "time": "2026-08-28T02:00:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128213-2A1693180",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Kelsian Group's release of AGM key dates is a purely procedural filing, providing shareholders with scheduling information for the upcoming meeting — no resolutions or strategic content is disclosed at this stage.",
+        "With KLS having navigated contract renewals across its Australian and international public transport operations, the AGM agenda — when released — should be watched for any resolutions linked to remuneration, capital management, or board composition.",
+        "Near-term institutional focus on KLS should remain on contract pipeline visibility and margin performance in its marine and tourism segments rather than this administrative scheduling notice."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CUP",
+      "company": "COUNT LIMITED",
+      "headline": "Section 708A Cleansing Statement",
+      "time": "2026-08-28T02:00:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128212-2A1693179",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Count Limited's Section 708A Cleansing Statement confirms that shares recently issued — likely under a placement or exercise of options — are now freely tradeable, satisfying the Corporations Act disclosure safe harbour.",
+        "This filing typically follows a capital raise event; the existence of a cleansing notice confirms dilution has already occurred, and the key investor question is whether the capital raised strengthens CUP's balance sheet or funds acquisitive growth in its financial advice network.",
+        "With Count executing a consolidation strategy in the Australian financial advice sector, the use of proceeds from any associated placement will be the critical signal — accretive acquisitions would be bullish, while general working capital use would be more cautious."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "YOW",
+      "company": "YOWIE GROUP LTD",
+      "headline": "Chair's Address to Shareholders",
+      "time": "2026-08-28T01:58:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128211-6A1340910",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Yowie Group's Chair Address to Shareholders provides strategic narrative on the confectionery brand's performance and direction — while not flagged as market sensitive, such addresses can contain forward-looking commentary on sales trends, cost management, or growth initiatives.",
+        "Yowie has been working to stabilise its US and international distribution channels following historic profitability challenges; any reference to new retail partnerships, SKU expansion, or return-to-profitability timelines would be the key value signals embedded in this address.",
+        "Investors should parse the language carefully for changes in tone around cash position and revenue trajectory — if the Chair signals improved sell-through rates or reduced operating losses, near-term sentiment could shift modestly positive despite the non-market-sensitive classification."
+      ],
+      "tags": [
+        "AGM",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WEB",
+      "company": "WEB",
+      "headline": "Change of name to WebBeds Group Limited",
+      "time": "2026-08-28T01:56:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128209-3A700294",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "WEB Travel Group is rebranding to WebBeds Group Limited, formally aligning the listed entity name with its core B2B hotel distribution business, WebBeds, which drives the overwhelming majority of group revenue.",
+        "The name change signals a strategic commitment to the wholesale accommodation segment and may improve brand clarity for institutional investors and global partners who already associate 'WebBeds' with the operating business.",
+        "No capital structure changes are implied; investors should monitor whether the rebrand is accompanied by a refreshed investor strategy or updated medium-term guidance at the next earnings event."
+      ],
+      "tags": [
+        "Other",
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NAB",
+      "company": "NATIONAL AUSTRALIA BANK LIMITED",
+      "headline": "NAB Covered Bond Programme - IM and Final Terms",
+      "time": "2026-08-28T01:56:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128210-3A700296",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "NAB has updated its Covered Bond Programme with new Information Memorandum and Final Terms, indicating an active offshore funding exercise — covered bonds typically offer lower-cost, secured funding backed by a pool of high-quality Australian mortgages.",
+        "Covered bond issuance diversifies NAB's funding base away from more expensive unsecured wholesale markets, which is a modest positive for net interest margin management amid a competitive deposit environment.",
+        "Institutional investors should note this as a routine liability management activity; however, the size, tenor, and pricing of the specific tranche will determine whether NAB is locking in favourable long-term funding costs or responding to near-term liquidity needs."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IGL",
+      "company": "IVE GROUP LIMITED",
+      "headline": "Notification of cessation of securities - IGL",
+      "time": "2026-08-28T01:52:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128208-2A1693178",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "IVE Group has notified the ASX of the cessation of securities, most likely relating to the lapse or cancellation of performance rights, options, or other equity instruments that failed to meet vesting conditions.",
+        "Cessation of unvested securities is mildly positive from a dilution perspective — fewer potential shares on issue reduces future earnings-per-share headwinds for existing shareholders.",
+        "Investors should cross-reference the volume and class of securities ceased against IVE's existing remuneration report to assess whether this reflects underperformance against incentive hurdles, which could be a leading indicator of earnings pressure."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NPM",
+      "company": "NPM",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-28T01:51:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128207-2A1693177",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in NPM, crossing the 5% ownership threshold — a development that introduces a potentially influential new voice in shareholder decisions including AGMs, capital raises, and board composition.",
+        "The identity and nature of the acquirer (strategic, financial, or activist) is the critical variable; a strategic buyer accumulating a stake can signal M&A interest or partnership intentions, while a passive fund crossing the threshold is largely procedural.",
+        "Investors should monitor for a subsequent change-of-substantial-holding notice or creep acquisitions above 5%, as continued accumulation would amplify the signal of strategic intent and apply upward price pressure."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GTE",
+      "company": "GTE",
+      "headline": "Company Secretary Appointment/Resignation",
+      "time": "2026-08-28T01:50:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128206-6A1340912",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "GTE has announced a change in Company Secretary, a routine governance event that carries no direct financial or operational implications for the business.",
+        "Frequent company secretary turnover in small-cap entities can occasionally signal broader internal governance or cost pressures, warranting monitoring if this follows other recent management changes.",
+        "Investors should watch for any associated Board or executive changes that may accompany or follow this appointment, as these could collectively signal a more meaningful strategic shift."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LEG",
+      "company": "LEG",
+      "headline": "Company Secretary Appointment/Resignation",
+      "time": "2026-08-28T01:50:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128205-6A1340911",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "LEG has announced a Company Secretary appointment or resignation — a standard administrative disclosure with no immediate financial impact on the company's operations or valuation.",
+        "As with other small-cap governance changes, the significance is contextual; if the outgoing secretary held broader executive responsibilities, this warrants closer scrutiny of any transition risk.",
+        "Investors should monitor subsequent announcements from LEG for any follow-on governance or strategic changes that may accompany this administrative transition."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCP",
+      "company": "SCALARE PARTNERS HOLDINGS LIMITED",
+      "headline": "Notification regarding unquoted securities - SCP",
+      "time": "2026-08-28T01:50:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128204-3A700295",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Scalare Partners Holdings (SCP) has notified the ASX of unquoted securities, likely relating to the issue of performance rights, options, or unlisted shares to directors, employees, or as part of a capital transaction not yet subject to quotation.",
+        "Unquoted securities notifications are standard compliance filings; however, the volume and nature of securities issued relative to total shares on issue is critical — material issuances could signal dilution risk for existing shareholders.",
+        "Investors should review the specific class, quantity, and vesting or conversion conditions of the unquoted securities to assess their potential future impact on the capital structure and earnings per share."
+      ],
+      "tags": [
+        "Compliance",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MME",
+      "company": "MME",
+      "headline": "Application for quotation of securities - MME",
+      "time": "2026-08-28T01:47:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128203-2A1693176",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MME has lodged an application for quotation of securities with ASX, indicating that new shares — likely issued via a capital raise, exercise of options, or vesting of performance rights — are being brought onto the official list for trading.",
+        "The quotation of additional securities increases the tradeable float, which can create short-term selling pressure if recipients are looking to realise value, particularly in illiquid small-cap names.",
+        "Investors should identify the source and pricing of these securities relative to the current market price to determine whether this represents dilutive issuance or a routine conversion event with limited market impact."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEC",
+      "company": "SEC",
+      "headline": "Corporate Governance Statement",
+      "time": "2026-08-28T01:44:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128202-2A1693175",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "SEC has released its Corporate Governance Statement, a mandatory annual disclosure outlining the company's adherence (or departures) from the ASX Corporate Governance Principles and Recommendations.",
+        "For institutional investors applying ESG or governance screens, any 'if not, why not' departures from the ASX recommendations — particularly around board independence, risk management, or audit committee composition — are key red flags to assess.",
+        "This is a compliance-driven filing with no direct financial impact; however, strong governance frameworks are increasingly correlated with lower cost of capital and reduced regulatory risk, making this a useful qualitative data point in the investment thesis."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MND",
       "company": "MONADELPHOUS GROUP LIMITED",
@@ -20,6 +1676,24 @@
       "tags": [
         "Board Change",
         "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TG1",
+      "company": "TG1",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-28T01:44:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128201-6A1340909",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for TG1 indicates a registered substantial holder has either increased or decreased their stake, altering the ownership dynamic and potentially signalling shifting conviction among major investors.",
+        "If the change reflects a reduction in holding, it could flag loss of confidence by a key institutional or strategic shareholder — a bearish leading indicator for smaller-cap names where large holder exits can create meaningful selling pressure.",
+        "Conversely, an increase in the substantial holding would reinforce insider or institutional conviction; the directional detail within the filing is the decisive factor that markets will price immediately upon release."
+      ],
+      "tags": [
+        "Substantial Holding"
       ],
       "sentiment": "neutral"
     },
