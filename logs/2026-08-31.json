@@ -1,9 +1,849 @@
 {
   "date": "2026-08-31",
-  "total": 367,
-  "market_sensitive_count": 148,
-  "generated_at": "2026-08-30T23:29:09.083884+00:00",
+  "total": 411,
+  "market_sensitive_count": 160,
+  "generated_at": "2026-08-30T23:39:08.906054+00:00",
   "announcements": [
+    {
+      "ticker": "AEG",
+      "company": "ALAND EQUITY GROUP LIMITED",
+      "headline": "Appendix 4E and FY26 Annual Report",
+      "time": "2026-08-30T23:35:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129091-2A1693657",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Aland Equity Group's FY26 Annual Report is market sensitive, signalling material financial disclosures that could meaningfully reset investor expectations for this small-cap property/equity group — detail on revenue, profitability, and net asset position will be the critical read-through.",
+        "As a relatively thinly traded micro-cap, any surprise in earnings quality, impairments, or balance sheet leverage could have an outsized price impact given limited institutional coverage and low liquidity.",
+        "Investors should scrutinise related-party transactions, going-concern disclosures, and auditor commentary, which are common risk flags in smaller ASX-listed equity groups filing Appendix 4E reports."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TCG",
+      "company": "TURACO GOLD LIMITED",
+      "headline": "Application for quotation of securities - TCG",
+      "time": "2026-08-30T23:34:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129090-6A1341236",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Turaco Gold has lodged an application for quotation of new securities on the ASX, indicating a recent capital raise, option exercise, or performance rights vesting has generated shares that now require official listing.",
+        "While procedurally routine, the volume of securities being quoted is the key variable — a large tranche relative to existing shares on issue could signal meaningful dilution or the conclusion of a significant fundraising event.",
+        "No immediate price catalyst is expected from this administrative filing; however, the entry of newly quoted securities into the tradeable float may create short-term supply-side pressure depending on the nature and holder profile of the new shares."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FSI",
+      "company": "FLAGSHIP INVESTMENTS LIMITED",
+      "headline": "Update - Notification of buy-back - FSIGA",
+      "time": "2026-08-30T23:33:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129089-2A1693678",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Flagship Investments has updated its on-market buy-back notification for FSIGA securities (preference shares or listed options), signalling the board continues to view these securities as trading at a discount to intrinsic value.",
+        "Buy-backs of listed investment company securities are generally capital-management positive, reducing supply and providing price support — however, the non-market-sensitive classification suggests the scale is modest and unlikely to be a major earnings driver.",
+        "Institutional investors should track the cumulative buy-back volume against the approved limit to gauge management's conviction and the pace of capital return relative to FSI's net asset backing."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NCC",
+      "company": "NAOS EMERGING OPPORTUNITIES COMPANY LIMITED",
+      "headline": "Invitation to NAOS Investor Roadshow",
+      "time": "2026-08-30T23:33:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129088-2A1693661",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "NAOS Emerging Opportunities Company (NCC) is hosting an investor roadshow, a standard engagement activity for listed investment companies seeking to maintain or grow their shareholder register and reduce discount to NTA.",
+        "For LICs trading at a discount to net tangible assets, roadshows are a soft catalyst — improved retail and institutional awareness can narrow the discount, but the impact is typically gradual rather than immediate.",
+        "The 'so what' for institutional investors is limited in the near term; the event is more meaningful as a signal of management's commitment to shareholder communication, which is a quality indicator for smaller LIC managers."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUA",
+      "company": "AUDEARA LIMITED",
+      "headline": "Appendix 4G",
+      "time": "2026-08-30T23:33:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129086-2A1693660",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Audeara has filed its Appendix 4G, which maps its corporate governance practices against the ASX Corporate Governance Principles and Recommendations — a mandatory annual compliance document with no direct financial impact.",
+        "The filing is purely administrative and confirms Audeara is meeting its continuous disclosure and governance obligations; any 'if not, why not' departures from best-practice recommendations are worth reviewing for governance risk flags.",
+        "For institutional investors with ESG screening criteria, the Appendix 4G and accompanying governance statement (announcement [7]) together provide the annual baseline assessment of board structure, diversity, and oversight quality."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUA",
+      "company": "AUDEARA LIMITED",
+      "headline": "Appendix 4E and Annual Report 2026",
+      "time": "2026-08-30T23:33:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129087-2A1693656",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Audeara's FY26 Annual Report carries market-sensitive status, meaning preliminary financials are likely to contain metrics — revenue, gross margin on hearing-health audio devices, and cash burn — that diverge materially from prior guidance or consensus expectations.",
+        "As a healthcare-technology company targeting hearing impairment, the key metric to watch is whether the company has achieved sustainable revenue growth or remains heavily dependent on grant funding and clinical partnerships to extend its cash runway.",
+        "The Appendix 4E format requires disclosure of preliminary unaudited results; any improvement in operating cash outflow or progress toward breakeven would be a meaningful positive catalyst for this early-commercialisation stage company."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DWG",
+      "company": "DATAWORKS GROUP LIMITED",
+      "headline": "Dataworks executes planning services agreement with NSW Gov",
+      "time": "2026-08-30T23:33:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129085-6A1341234",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dataworks Group has executed a planning services agreement with the NSW Government, representing a tangible, revenue-generating contract win with a creditworthy sovereign counterparty — a significant de-risking event for this small-cap technology/services company.",
+        "Government contracts typically provide recurring or milestone-based revenue with high visibility, and an NSW Government mandate lends reputational credibility that can accelerate pipeline conversion with other state and federal agencies.",
+        "The 'so what' for investors: this deal validates Dataworks' go-to-market strategy in the public sector and, depending on contract value and duration, could materially upgrade near-term revenue guidance — contract quantum and term length are the key details to assess on announcement."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AUA",
+      "company": "AUDEARA LIMITED",
+      "headline": "Corporate Governance Statement",
+      "time": "2026-08-30T23:33:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129084-2A1693658",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Audeara's Corporate Governance Statement is the qualitative companion to its Appendix 4G, detailing board composition, committee structures, risk management frameworks, and remuneration policies for the reporting period.",
+        "For a small-cap technology company like AUA, governance quality is a meaningful risk signal — investors should assess independence of the board, audit committee composition, and any related-party transaction disclosures within the statement.",
+        "No direct share price catalyst is expected; however, institutional and ESG-mandated funds will use this document as part of their annual governance scorecard, which can influence inclusion decisions for responsible investment portfolios."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEQ",
+      "company": "SEQUOIA FINANCIAL GROUP LTD",
+      "headline": "Change of Chief Financial Officer",
+      "time": "2026-08-30T23:33:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129083-2A1693663",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Sequoia Financial Group has announced a change in its Chief Financial Officer — CFO transitions at financial services firms carry operational and market confidence risk, particularly during periods of strategic execution or regulatory scrutiny.",
+        "The key questions are whether this is a planned succession or an abrupt departure, whether the incoming CFO has relevant financial services/ASX-listed company experience, and whether the transition timeline minimises disruption to reporting cycles.",
+        "While classified as non-market sensitive, CFO changes at smaller financial groups like SEQ can signal internal strategic shifts, cost pressures, or board-level tensions — investors should monitor for any accompanying commentary on financial outlook."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PKO",
+      "company": "PEAKO LIMITED",
+      "headline": "Notification regarding unquoted securities - PKO",
+      "time": "2026-08-30T23:33:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129082-3A700468",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Peako Limited has filed a notification regarding unquoted securities, which typically relates to performance rights, options, or other equity instruments granted outside the listed market — a routine administrative compliance filing.",
+        "The materiality depends entirely on the volume and strike price of unquoted securities relative to Peako's current market cap; significant option or rights issuances to insiders can represent latent dilution that the market has not yet fully priced.",
+        "No immediate trading catalyst is anticipated; however, institutional investors should aggregate this disclosure with prior unquoted securities notifications to build a complete picture of the fully diluted capital structure and potential overhang."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AR9",
+      "company": "ARCHTIS LIMITED",
+      "headline": "archTIS United States Department of Defense Update",
+      "time": "2026-08-30T23:33:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129081-6A1341233",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "archTIS has issued an update on its engagement with the United States Department of Defense — for a cybersecurity/data governance technology company, DoD contract developments are among the highest-impact revenue and credibility signals available.",
+        "While classified as non-market sensitive (suggesting no new contract award or material revenue event), any progress update on DoD trials, pilot expansions, or accreditation milestones nonetheless advances AR9's position in the high-value, high-barrier US defence market.",
+        "The strategic 'so what' is long-term: sustained DoD engagement de-risks the US market entry story and strengthens the competitive moat via security clearances and compliance certifications — investors should track conversion timelines from engagement to binding contract as the critical next catalyst."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PKO",
+      "company": "PEAKO LIMITED",
+      "headline": "Section 708A Cleansing Notice",
+      "time": "2026-08-30T23:32:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129080-3A700469",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Peako Limited has lodged a Section 708A Cleansing Notice, a statutory requirement that enables previously restricted shares (typically issued without disclosure document) to be freely traded on-market — signalling a recent capital raise or share issuance has occurred.",
+        "The notice removes the trading restrictions on newly issued securities, effectively unlocking liquidity for recipients of those shares; this can introduce near-term selling pressure if placees seek to exit promptly.",
+        "Investors should monitor the accompanying notification of unquoted securities (Announcement #7) to determine the volume and pricing of shares now cleared for trading, as this will quantify any potential dilution impact."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BKI",
+      "company": "BKI INVESTMENT COMPANY LIMITED",
+      "headline": "BKI Weekly NTA 28 August 2026",
+      "time": "2026-08-30T23:32:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129079-2A1693659",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "BKI Investment Company has published its weekly Net Tangible Assets (NTA) update as at 28 August 2026, providing the market with a transparent, current snapshot of the LIC's underlying portfolio value per share.",
+        "Weekly NTA disclosures are a key reference metric for LIC investors assessing the premium or discount to NTA at which BKI shares are trading — a persistent discount can signal value opportunity or structural investor disinterest.",
+        "No market-sensitive content is indicated, suggesting NTA is broadly in line with recent readings; institutional investors should compare this figure against the prevailing share price to assess entry/exit attractiveness relative to underlying asset value."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AL3",
+      "company": "AML3D LIMITED",
+      "headline": "AML3D Delivers Record FY26 Revenue & Second Half Profit",
+      "time": "2026-08-30T23:32:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129078-6A1341235",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AML3D has delivered record FY26 revenue alongside a second-half profit — a dual milestone that marks a structural inflection point from a loss-making, development-stage manufacturer of wire arc additive manufacturing (WAAM) components to a commercially viable, profitable business.",
+        "Achieving profitability in the second half is particularly significant as it demonstrates operating leverage and cost discipline, suggesting the company has crossed a critical scale threshold; full-year revenue and H2 EBIT margin will be the numbers institutional investors scrutinise most closely.",
+        "With defence and aerospace demand for advanced metal manufacturing accelerating globally, this result positions AML3D for potential contract pipeline expansion — the key next catalyst is whether management upgrades FY27 guidance or announces follow-on defence contracts to sustain momentum."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FLO",
+      "company": "VANECK AUSTRALIAN FLOATING RATE ETF",
+      "headline": "Final Dividend/Distribution for period ending 31 August 2026",
+      "time": "2026-08-30T23:32:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129077-2A1693638",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "VanEck's Australian Floating Rate ETF (FLO) has declared its final distribution for the period ending 31 August 2026, consistent with its mandate to provide income from floating-rate credit instruments — a routine but income-positive event for unitholders.",
+        "The distribution quantum will reflect prevailing short-term interest rates (BBSW) and the credit spread environment; in an elevated rate environment, FLO's yield should remain attractive relative to cash and fixed-rate alternatives, reinforcing investor demand for the product.",
+        "This is an administrative income event with no structural impact on the ETF's NAV beyond the standard ex-distribution price adjustment; the key data point for investors is the annualised distribution yield relative to competing fixed-income and cash ETF products."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASM",
+      "company": "AUSTRALIAN STRATEGIC MATERIALS LIMITED",
+      "headline": "Removal from Official List",
+      "time": "2026-08-30T23:31:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129076-6A1341232",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Strategic Materials Limited (ASM) has been formally removed from the ASX Official List, marking the complete delisting of the company — a significant and terminal event for any remaining shareholders.",
+        "Removal from the Official List eliminates all on-market liquidity for ASM shares; any shareholders who have not exited prior to delisting face an illiquid, over-the-counter-only environment with severely constrained exit options.",
+        "This outcome typically follows voluntary delisting, failed compliance with ASX listing rules, or a completed compulsory acquisition following a takeover; investors in related critical minerals or rare earths peers should note ASM's exit as a sector data point on the challenges facing early-stage Australian critical materials companies."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "OCL",
+      "company": "OBJECTIVE CORPORATION LIMITED",
+      "headline": "Update - Notification of buy-back - OCL",
+      "time": "2026-08-30T23:30:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129075-2A1693655",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Objective Corporation (OCL) has filed an updated on-market share buy-back notification, indicating the company continues to actively return capital to shareholders by repurchasing its own shares — a typically shareholder-friendly capital management signal.",
+        "On-market buy-backs reduce share count over time, providing EPS accretion and signalling board confidence that the stock is undervalued relative to intrinsic worth; for a profitable technology company like OCL, this is consistent with disciplined capital allocation.",
+        "Investors should track the cumulative volume and average price of buy-back activity disclosed in subsequent updates to assess the pace of capital return and remaining buy-back capacity under the approved program."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GLO",
+      "company": "BARROW HANLEY GLOBAL SHARE ACTIVE ETF",
+      "headline": "Quarterly Portfolio Disclosure - June 2026",
+      "time": "2026-08-30T23:29:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129074-2A1693654",
+      "market_sensitive": false,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Barrow Hanley Global Share Active ETF (GLO) has released its mandatory quarterly portfolio disclosure for the June 2026 quarter, providing full transparency on the fund's underlying global equity holdings as required by ASX ETF rules.",
+        "Quarterly disclosure allows investors and advisers to assess portfolio positioning, concentration risk, sector tilts, and geographic exposures — critical for due diligence on whether the active strategy aligns with stated investment objectives.",
+        "No market-sensitive flag is attached, suggesting no material portfolio restructuring or extraordinary events; investors should review the holdings list for any significant position changes versus the prior quarter that may indicate the manager's evolving conviction."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADO",
+      "company": "ANTEOTECH LTD",
+      "headline": "Appendix 4E and Unaudited Financial Statements",
+      "time": "2026-08-30T23:29:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129073-2A1693653",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AnteoTech's Appendix 4E with unaudited financials is market sensitive, pointing to preliminary FY26 results that may contain material updates on commercialisation revenue from its proprietary surface chemistry technology platform used in diagnostics and biosensors.",
+        "The critical read-through is whether AnteoTech has converted its licensing pipeline into meaningful revenue, or whether it remains a cash-consuming R&D entity reliant on capital raises — cash balance and operating cash outflow are the most important metrics given its pre-scale stage.",
+        "Any disclosure of a new licensing deal, milestone payment, or diagnostic partnership would be a significant positive re-rating catalyst; conversely, a deeper-than-expected cash burn or going-concern note would be materially bearish for this speculative-grade stock."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JPR",
+      "company": "JUPITER ENERGY LIMITED",
+      "headline": "Application for quotation of securities - JPR",
+      "time": "2026-08-30T23:29:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129072-6A1341231",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Jupiter Energy (JPR) has lodged an application for quotation of new securities, meaning additional shares (or other instruments) are being brought onto the ASX trading platform — typically following a capital raise, options exercise, or performance share vesting.",
+        "The nature and volume of securities being quoted will determine the degree of dilution to existing shareholders; energy-sector micro-caps like JPR frequently use equity issuance to fund ongoing operational or development expenditure given limited debt access.",
+        "Existing shareholders should review the associated terms to assess whether the new securities represent material dilution and whether the capital raised (if any) is sufficient to extend operational runway or advance JPR's Kazakhstan-based oil production assets."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PKO",
+      "company": "PEAKO LIMITED",
+      "headline": "Notification regarding unquoted securities - PKO",
+      "time": "2026-08-30T23:28:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129070-3A700467",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Peako Limited has notified ASX of unquoted securities on issue, a companion filing to the Section 708A Cleansing Notice (Announcement #1) that formally discloses the details of securities not yet admitted to trading on the exchange.",
+        "This filing quantifies the pool of shares currently outside the quoted register — key data for calculating total diluted share count, assessing overhang risk, and understanding the full capital structure post any recent issuance.",
+        "Once cross-referenced with the cleansing notice, institutional investors can determine the precise number of shares that will become freely tradeable, the implied issue price, and the timeline for potential market impact from selling activity."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VBC",
+      "company": "VERBREC LIMITED",
+      "headline": "FY2026 Results Presentation",
+      "time": "2026-08-30T23:28:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129071-6A1341226",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Verbrec's FY2026 Results Presentation provides the investor-facing narrative and strategic context to accompany its formal results announcement, offering granular detail on divisional performance, order book, and management's forward outlook for this engineering and technical services company.",
+        "Key metrics for institutional investors include revenue growth by segment, EBITDA margin trajectory, contract backlog/order book size, and net debt position — any improvement in these versus FY25 would support a re-rating narrative for a company operating in infrastructure-adjacent services.",
+        "The presentation format allows management to frame guidance and pipeline commentary; given the dual release of both a results announcement and presentation simultaneously, the market will be looking for consistent messaging and a credible path to margin improvement or earnings growth in FY27."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NHF",
+      "company": "NIB HOLDINGS LIMITED",
+      "headline": "Change of Director's Interest Notice - Brad Welsh",
+      "time": "2026-08-30T23:28:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129068-2A1693650",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "NIB Holdings (NHF) has lodged a Change of Director's Interest Notice for Brad Welsh, disclosing a change in his shareholding or security interests — a routine but regulatory-mandated transparency filing under ASX Listing Rule 3.19A.",
+        "Director interest changes are scrutinised as a proxy for insider sentiment; a purchase of shares on-market by an executive would typically be read as a positive signal, while a disposal may raise questions about conviction in near-term performance.",
+        "The notice is not flagged as market sensitive, suggesting the transaction is modest in scale; investors should nonetheless review the specific nature of the change (acquisition vs disposal, on-market vs off-market) to properly contextualise the signal."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAM",
+      "company": "CLIME CAPITAL LIMITED",
+      "headline": "Update - Notification of buy-back - CAM",
+      "time": "2026-08-30T23:28:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129069-2A1693652",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Clime Capital (CAM) has submitted an updated on-market buy-back notification, confirming the listed investment company is continuing to repurchase its own shares — a capital management tool frequently employed by LICs trading at a discount to NTA.",
+        "Buy-backs at a discount to NTA are mathematically accretive to remaining shareholders and signal board confidence in underlying portfolio value; for CAM, this is a positive structural support mechanism for the share price.",
+        "Investors should monitor the cadence and volume of buy-back activity relative to CAM's average daily trading volume to assess how materially the program is supporting the share price and narrowing the NTA discount over time."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AL3",
+      "company": "AML3D LIMITED",
+      "headline": "2026 Full Year Results Presentation",
+      "time": "2026-08-30T23:28:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129067-6A1341230",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "AML3D Limited (AL3) has released its Full Year Results Presentation for FY2026, providing the market with a comprehensive view of financial performance including revenue, EBITDA, cash position, and strategic progress across its wire arc additive manufacturing (WAAM) technology platform.",
+        "Despite not being flagged as market sensitive — which may suggest results are broadly in line with prior guidance or market expectations — the presentation will be closely scrutinised for evidence of commercial contract wins, revenue growth trajectory, and the path to cash flow breakeven given AL3's history as a pre-profit technology company.",
+        "Key metrics to assess include: total revenue and year-on-year growth rate, operating cash burn and remaining cash runway, order book or contract pipeline visibility, and any updated FY2027 guidance that would set the market's forward expectations for this advanced manufacturing play."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ESK",
+      "company": "ETHERSTACK PLC",
+      "headline": "UK Government Project Revenue Increase",
+      "time": "2026-08-30T23:28:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129066-2A1693651",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Etherstack has announced a revenue increase on its existing UK Government project, a positive contract expansion event that enhances near-term revenue visibility for this wireless technology company specialising in tactical radio and spectrum management solutions.",
+        "Revenue uplift from a sovereign government client is high-quality income — it signals strong contract performance, potential scope expansion, and reduces near-term default/cancellation risk, all of which are material positives for a small-cap technology company with limited revenue diversification.",
+        "The key questions for investors are the magnitude of the revenue increase, whether this triggers an upgrade to full-year guidance, and whether it opens the door to additional UK MoD or allied-nation contracts — Etherstack's defence-tech positioning in an environment of elevated global defence spending is a structural tailwind."
+      ],
+      "tags": [
+        "Technology",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IOV",
+      "company": "ION VIDEO LTD",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-30T23:28:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129065-6A1341229",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ION Video's Preliminary Final Report represents the first formal disclosure of FY26 financial results for this early-stage video technology company, and its market-sensitive classification suggests the numbers contain material information relative to market expectations or prior disclosures.",
+        "Given ION Video's micro-cap status and early commercialisation profile, the critical metrics are cash on hand, monthly cash burn rate, and any progress on revenue generation — a cash runway of less than 12 months would be a significant red flag requiring near-term capital raise risk to be priced in.",
+        "Investors should also assess whether the company has met any operational milestones disclosed in prior quarterly reports, and scrutinise auditor commentary for going-concern qualifications, which are common risk factors at this stage of corporate development."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GIV",
+      "company": "PERPETUAL ESG AUSTRALIAN SHARE ACTIVE ETF",
+      "headline": "Quarterly Portfolio Disclosure - June 2026",
+      "time": "2026-08-30T23:28:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129064-2A1693649",
+      "market_sensitive": false,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "Mandatory quarterly portfolio disclosure for GIV provides transparency into ESG-screened holdings, allowing investors to assess active manager conviction and sector tilts versus benchmark.",
+        "As an active ETF, portfolio composition shifts can signal where the manager is adding or reducing exposure — key for institutional investors benchmarking ESG strategies against peers.",
+        "No immediate price catalyst expected; however, significant position changes revealed in the disclosure could prompt inflows or outflows from ESG-focused mandates tracking manager performance."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMH",
+      "company": "AMCIL LIMITED",
+      "headline": "Weekly Estimated NTA as at 28 August 2026",
+      "time": "2026-08-30T23:27:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129063-3A700465",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMCIL's weekly estimated NTA update provides a real-time valuation reference point for investors, with any premium or discount to market price indicating relative attractiveness of the LIC.",
+        "As a listed investment company holding ASX equities, NTA movements directly reflect underlying portfolio performance — a rising NTA signals portfolio appreciation, while a falling NTA may indicate headwinds.",
+        "Routine disclosure with no structural change implied; investors should compare NTA trend over prior weeks to assess whether the discount/premium to NAV is widening or narrowing as a tactical signal."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PKO",
+      "company": "PEAKO LIMITED",
+      "headline": "Application for quotation of securities - PKO",
+      "time": "2026-08-30T23:27:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129062-3A700466",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Peako Limited's application for quotation of new securities signals a recent capital raise or option/rights issuance has been completed, with newly issued securities now seeking ASX listing.",
+        "The quotation application introduces additional securities into the market, which can create short-term selling pressure if issued to sophisticated investors or via a placement at a discount to the prevailing market price.",
+        "Investors should scrutinise the number and class of securities being quoted alongside the issue price to quantify dilution impact and assess whether the capital raise strengthens or strains the balance sheet."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "VBC",
+      "company": "VERBREC LIMITED",
+      "headline": "FY2026 Results Announcement",
+      "time": "2026-08-30T23:27:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129061-6A1341224",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Verbrec's formal FY2026 Results Announcement delivers the audited or preliminary financial results for this engineering services group, with market-sensitive status indicating the numbers are likely to contain earnings or balance sheet data that diverges from prior market expectations.",
+        "The key financial metrics to assess are revenue growth, EBITDA margin, statutory net profit/loss, and net debt — for an engineering services company in the infrastructure sector, order book conversion and working capital management are equally important indicators of earnings quality.",
+        "The simultaneous release of both the results announcement and investor presentation (item 7) suggests Verbrec is managing investor communication carefully; any earnings beat relative to consensus or a positive FY27 outlook statement would be the primary bullish catalyst, while margin compression or contract delays would weigh on sentiment."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MHC",
+      "company": "MANHATTAN GOLD CORPORATION LIMITED",
+      "headline": "Change of Director's Interest Notice - Mr Rezos",
+      "time": "2026-08-30T23:27:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129060-6A1341228",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A change in director's interest for Mr Rezos at Manhattan Gold Corporation signals an on-market or off-market transaction in MHC securities, requiring close examination of whether this represents a buy or sell.",
+        "Director buying is typically a bullish insider signal indicating confidence in near-term catalysts such as exploration results or resource upgrades; selling can raise governance or liquidity concerns.",
+        "Given MHC's small-cap gold exploration profile, director transactions — even modest in size — can carry outsized signalling value; the net direction of this transaction is the critical determinant of sentiment."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CIW",
+      "company": "CLIME INVESTMENT MANAGEMENT LTD",
+      "headline": "Notification of cessation of securities - CIW",
+      "time": "2026-08-30T23:27:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129058-2A1693648",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Clime Investment Management's notification of cessation of securities indicates that a class of securities — likely performance rights, options, or convertible instruments — has lapsed or been cancelled without vesting.",
+        "Cessation of unexercised options or rights is marginally positive for existing shareholders as it reduces potential dilution from securities that will no longer convert into ordinary shares.",
+        "This is an administrative compliance filing; however, it may reflect missed performance hurdles tied to the ceased securities, which could carry an indirect negative signal regarding management KPI achievement."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PFP",
+      "company": "PROPEL FUNERAL PARTNERS LIMITED",
+      "headline": "Notification regarding unquoted securities - PFP",
+      "time": "2026-08-30T23:27:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129059-2A1693647",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Propel Funeral Partners' notification regarding unquoted securities typically relates to performance rights, options, or employee incentive plan securities issued to staff or management outside of ASX's quoted market.",
+        "Issuance of incentive securities aligns management with long-term shareholder value creation; however, the quantum of securities and vesting conditions are critical to assessing dilution risk for existing holders.",
+        "PFP operates in a resilient, non-cyclical sector with consistent cash generation; incentive plan activity is a normal governance process and unlikely to materially shift near-term investor sentiment."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WEC",
+      "company": "WHITE ENERGY COMPANY LIMITED",
+      "headline": "Proposed issue of securities - WEC",
+      "time": "2026-08-30T23:27:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129057-2A1693452",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "White Energy Company's proposed securities issuance signals an imminent capital raise, debt conversion, or option exercise — all of which introduce dilution risk for existing ordinary shareholders.",
+        "For a company operating in the energy sector, the purpose of the issuance is paramount: if proceeds fund project development or debt reduction, the market may view it constructively; if it signals cash burn, sentiment could turn negative.",
+        "Investors should await the full terms — including issue price relative to last traded price, volume of securities, and use of proceeds — before determining the net impact on valuation and capital structure."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AL3",
+      "company": "AML3D LIMITED",
+      "headline": "Appendix 4G & Corporate Governance Statement",
+      "time": "2026-08-30T23:27:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129056-6A1341227",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AML3D's lodgement of the Appendix 4G and Corporate Governance Statement is an annual compliance requirement confirming adherence to ASX Corporate Governance Principles, with any 'if not, why not' disclosures warranting investor scrutiny.",
+        "For a technology company in additive manufacturing, governance quality is increasingly scrutinised by institutional ESG mandates — deviations from recommended practices could influence access to certain investor pools.",
+        "This is a procedural filing with no direct financial impact; however, it provides a useful checklist to assess board composition, risk oversight, and audit committee independence as AL3 scales its operations."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFI",
+      "company": "AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
+      "headline": "Weekly Estimated NTA as at 28 August 2026",
+      "time": "2026-08-30T23:27:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129055-3A700464",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Foundation Investment Company's weekly NTA update is a key valuation reference for one of Australia's largest and most respected LICs, with the NTA reflecting performance of its diversified blue-chip Australian equity portfolio.",
+        "Any sustained premium to NTA signals strong retail and institutional demand for AFI's income-focused, low-cost exposure to the ASX; a discount could present a tactical buying opportunity relative to intrinsic value.",
+        "With AFI managing over $9 billion in assets, its NTA trajectory serves as a barometer for broader ASX large-cap sentiment — particularly relevant given its concentrated holdings in financials, materials, and industrials."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QRI",
+      "company": "QUALITAS REAL ESTATE INCOME FUND",
+      "headline": "Distribution Announcement",
+      "time": "2026-08-30T23:27:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129054-3A700451",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Qualitas Real Estate Income Fund's distribution announcement confirms the monthly or quarterly income payment to unitholders, which is the primary investment thesis for QRI as a yield-focused real estate debt fund.",
+        "The distribution rate relative to prior periods is the critical metric — a maintained or increased distribution signals portfolio credit quality is holding up and loan book income remains robust despite any real estate market headwinds.",
+        "For income-seeking institutional investors, QRI's consistent distribution capacity in a higher-for-longer interest rate environment is a competitive advantage; any reduction in the distribution per unit would be a meaningful negative signal."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WEC",
+      "company": "WHITE ENERGY COMPANY LIMITED",
+      "headline": "Proposed issue of securities - WEC",
+      "time": "2026-08-30T23:27:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129053-2A1693450",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WEC has lodged an Appendix 3B or equivalent notification signalling an imminent securities issuance — the specific instrument, volume, and pricing terms will be critical determinants of dilution impact on existing shareholders.",
+        "Without disclosed quantum or purpose, the capital raise could relate to operational funding, debt conversion, or a strategic transaction; given WEC's historically constrained balance sheet in the coal briquetting/energy space, any equity issuance warrants close scrutiny of use-of-proceeds disclosure.",
+        "Investors should monitor the follow-up detailed terms announcement closely — if the issuance is at a material discount to market, near-term share price pressure is likely; placement structure and whether existing holders have participation rights (e.g. rights issue vs. placement) will define the dilution risk profile."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WEC",
+      "company": "WHITE ENERGY COMPANY LIMITED",
+      "headline": "Proposed issue of securities - WEC",
+      "time": "2026-08-30T23:27:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129052-2A1693446",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second consecutive proposed securities issuance filing by WEC suggests either a multi-tranche capital raise structure or the notification covers a distinct class of securities (e.g. options vs. shares), pointing to a more complex financing arrangement than a single straightforward placement.",
+        "The duplication of this announcement type in close succession may indicate separate tranches targeting different investor categories — such as an institutional placement followed by a share purchase plan — which, if confirmed, could total a more significant aggregate dilution than either filing alone implies.",
+        "Until full terms are disclosed, the compounding uncertainty of two unquantified issuances creates an overhang on WEC's share price; the market will likely price in worst-case dilution until clarity is provided, making the next detailed disclosure the key near-term catalyst."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "QRI",
+      "company": "QUALITAS REAL ESTATE INCOME FUND",
+      "headline": "Dividend/Distribution - QRI",
+      "time": "2026-08-30T23:27:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129051-3A700447",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "QRI has declared a distribution, reinforcing its income-focused mandate as a listed real estate debt fund — consistency of distributions is the primary valuation driver for yield-seeking institutional investors in this vehicle.",
+        "The market-sensitive classification signals a material distribution rate announcement; any deviation from prior periods (up or down) will directly reprice the unit relative to its NAV and peer mortgage REITs.",
+        "Investors should monitor the annualised distribution yield against the RBA rate trajectory — with rates plateauing, QRI's floating-rate loan book income may face modest compression, making the quantum of this distribution a key forward indicator."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WEC",
+      "company": "WHITE ENERGY COMPANY LIMITED",
+      "headline": "Sale & Purchase Agreements Executed for Acq & Cap Raising",
+      "time": "2026-08-30T23:26:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129050-2A1693440",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "White Energy has executed binding Sale & Purchase Agreements for an acquisition alongside a capital raising — the simultaneous execution of both signals urgency to fund the deal, raising immediate dilution risk for existing shareholders.",
+        "The market-sensitive flag indicates the acquisition and capital raise are of material scale relative to WEC's current market capitalisation; deal terms, pricing of the raise, and strategic rationale will be critical to assess whether this is value-accretive or dilutive.",
+        "Investors should scrutinise the acquired asset's alignment with WEC's coal beneficiation/energy transition strategy, the raise price versus last traded price, and any conditions precedent — execution risk on both fronts remains elevated until settlement is confirmed."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MIR",
+      "company": "MIRRABOOKA INVESTMENTS LIMITED",
+      "headline": "Weekly Estimated NTA as at 28 August 2026",
+      "time": "2026-08-30T23:26:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129049-3A700462",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Mirrabooka Investments (MIR) has published its weekly estimated NTA as at 28 August 2026, providing the market with a timely benchmark against which its share price premium or discount to underlying asset value can be assessed — a key metric for LIC investors.",
+        "The NTA update reflects the marked-to-market value of MIR's predominantly small-to-mid cap ASX equity portfolio; any significant week-on-week NTA movement would signal meaningful portfolio-level gains or losses driven by underlying holdings' price action across that segment.",
+        "As a routine administrative disclosure, this filing carries no standalone strategic significance, but persistent NTA discounts can attract activist or yield-seeking interest, while NTA expansion relative to share price may prompt profit-taking by arbitrage-oriented LIC investors."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst MINIs Stop Loss Event Trigger 28 Aug 26 Update",
+      "time": "2026-08-30T23:26:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129048-2A1693643",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CitiFirst has announced a stop-loss event trigger on one or more MINI warrants/structured products as at 28 August 2026, meaning the affected instruments have breached their stop-loss barrier levels and will be terminated, with residual value (if any) returned to holders — a binary and typically adverse outcome for long MINI holders.",
+        "Stop-loss trigger events crystallise losses for retail and sophisticated investors holding the affected MINIs; the key 'so what' is identifying which underlying ASX security or index caused the barrier breach, as this reveals where significant leveraged positioning has been wiped out and may indicate broader directional momentum in that underlying.",
+        "This is a product lifecycle/compliance event for Citi's structured products book and carries no direct read-through to any single ASX-listed company's fundamentals, but it does signal elevated volatility or adverse price movement in the relevant underlying asset around the trigger date."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "CTW",
       "company": "CTW",
