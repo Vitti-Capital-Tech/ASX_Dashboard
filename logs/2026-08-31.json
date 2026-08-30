@@ -1,9 +1,312 @@
 {
   "date": "2026-08-31",
-  "total": 422,
-  "market_sensitive_count": 161,
-  "generated_at": "2026-08-30T23:45:39.469079+00:00",
+  "total": 438,
+  "market_sensitive_count": 169,
+  "generated_at": "2026-08-30T23:52:16.433184+00:00",
   "announcements": [
+    {
+      "ticker": "A4N",
+      "company": "ALPHA HPA LIMITED",
+      "headline": "Securities Trading Policy",
+      "time": "2026-08-30T23:48:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129118-2A1693691",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Alpha HPA's Securities Trading Policy update is an administrative/governance disclosure with no direct financial implications — such policies govern when directors and employees can trade shares, typically updated to align with ASX Listing Rules or ASIC guidance.",
+        "The non-market-sensitive classification confirms this is procedural in nature; however, for institutional investors, a robust trading policy signals governance maturity, which is relevant context as A4N advances its high-purity alumina project toward commercial production.",
+        "No near-term price impact is expected from this disclosure — investors should keep focus on A4N's operational milestones, offtake agreement progress, and funding strategy as the primary valuation drivers."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARR",
+      "company": "AMERICAN RARE EARTHS LIMITED",
+      "headline": "Letter to Shareholders",
+      "time": "2026-08-30T23:47:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129117-2A1693689",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A shareholder letter from ARR signals management is likely addressing strategic direction or project milestones in the rare earths space — a sector under intense scrutiny given US critical minerals policy and supply chain diversification away from China.",
+        "Without specific financial disclosures, the letter is likely qualitative in nature, potentially covering exploration progress at flagship US rare earth projects; investors should monitor for any commentary on offtake discussions or government grant eligibility.",
+        "The 'not market sensitive' classification limits immediate price catalyst potential, but shareholder communications in junior miners can signal upcoming news flow — watch for follow-on announcements around resource updates or funding catalysts."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MSI",
+      "company": "MULTISTACK INTERNATIONAL LIMITED",
+      "headline": "Half Yearly Report",
+      "time": "2026-08-30T23:47:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129116-3A700479",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Multistack International's half-yearly report is flagged as market sensitive, signalling material financial data that could move the share price — investors should watch for revenue trajectory and EBITDA margins given the competitive HVAC/chiller market environment.",
+        "As a small-cap industrial manufacturer, key metrics to scrutinise include order book depth, gross margin compression from input costs, and any commentary on supply chain normalisation that may impact second-half earnings.",
+        "The half-year result will set the tone for FY guidance credibility; any downgrade to full-year expectations or deterioration in working capital would be a significant negative catalyst for this thinly traded stock."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FLC",
+      "company": "FLUENCE CORPORATION LIMITED",
+      "headline": "Appendix 4D and Half Year Accounts",
+      "time": "2026-08-30T23:45:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129115-3A700475",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Fluence Corporation's Appendix 4D is market sensitive, meaning the half-year financials contain material information — critical focus areas include revenue recognition from its water treatment project pipeline and whether recurring SaaS/services revenue is scaling as guided.",
+        "Fluence has historically carried significant cash burn; investors must assess current cash balance and operating cash outflows against the runway to profitability, particularly given tightening conditions for loss-making small-cap industrials.",
+        "Any improvement in gross margin or progress toward EBITDA breakeven would be a strong re-rating catalyst, while a widening net loss or contract delays would reinforce bearish sentiment that has weighed on FLC shares."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MBK",
+      "company": "METAL BANK LIMITED",
+      "headline": "MBK to Expedite Production Strategy at Livingstone",
+      "time": "2026-08-30T23:45:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129114-3A700478",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Metal Bank's decision to expedite a production strategy at Livingstone is a pivotal strategic shift — moving from exploration/development mode toward production signals management confidence in resource quality and opens a near-term revenue pathway.",
+        "The key 'so what' is timeline and capital requirement: accelerating production typically demands upfront capital deployment, so investors should watch for an associated capital raise announcement or off-take/debt financing deal in coming weeks.",
+        "For a small mining company, transitioning to production is a major de-risking event that can compress the valuation discount applied to resource assets — if execution risk is managed, this announcement supports a meaningful re-rating of MBK."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-30T23:45:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129113-2A1693688",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for Kip McGrath Education Centres is a procedural disclosure indicating a major shareholder has crossed a 5% threshold (or adjusted their position) — the direction of change (accumulation vs. disposal) is the critical detail.",
+        "If a substantial holder is increasing their stake, it may signal activist or strategic interest in KME; conversely, a reduction by an existing major holder could pressure the share price given KME's limited liquidity.",
+        "As a non-market-sensitive filing, the ASX does not consider this to have immediate price-moving information, but institutional investors should monitor whether this represents a trend in ownership concentration or dispersion."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AQZ",
+      "company": "ALLIANCE AVIATION SERVICES LIMITED",
+      "headline": "Change of Director's Interest Notice - Jackson",
+      "time": "2026-08-30T23:45:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129112-2A1693687",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A change in Director's interest notice for Jackson at Alliance Aviation Services indicates a movement in director shareholding — whether an acquisition or disposal of shares is the critical distinction for assessing insider conviction.",
+        "Director share transactions at AQZ are closely watched given the company's strategic position as a key FIFO and wet-lease operator in Australia; any reduction in holding could be read as a signal of reduced insider confidence, while accumulation would be constructive.",
+        "Classified as not market sensitive, this is a routine compliance filing; however, institutional investors should cross-reference the quantum and direction of the trade against AQZ's recent operational performance and any ongoing M&A speculation involving the company."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CC5",
+      "company": "CLEVER CULTURE SYSTEMS LIMITED",
+      "headline": "Appendix 4E",
+      "time": "2026-08-30T23:44:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129111-2A1693686",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Clever Culture Systems' Appendix 4E (preliminary full-year report) is market sensitive — this is the first look at audited annual financials and will be a major catalyst given it captures the full-year performance of this microcap technology/diagnostics company.",
+        "Revenue growth rate and cash burn are the critical metrics: Appendix 4E requires disclosure of revenue, NPAT, and EPS, providing the market with a definitive view of whether CC5 is scaling commercially or still pre-revenue/early-stage.",
+        "The market-sensitive flag suggests numbers are likely materially different from prior expectations; given CC5's stage of development, a positive revenue surprise or path to cash flow breakeven could trigger significant price appreciation in this illiquid stock."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AS1",
+      "company": "ASARA RESOURCES LIMITED",
+      "headline": "Corporate Presentation - The Rapidly Growing Kada Project",
+      "time": "2026-08-30T23:43:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129110-3A700472",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Asara Resources' corporate presentation on the 'Rapidly Growing Kada Project' is a promotional market update — the 'rapidly growing' framing suggests recent exploration success, likely new drill results or resource estimate upgrades that underpin the bullish narrative.",
+        "Investors should focus on whether the presentation contains new technical data (JORC resource, drill intercepts, or geophysical results) that substantively advances the project, versus being a routine capital markets communication with limited new information.",
+        "For a junior explorer, a compelling Kada Project presentation can attract speculative interest and support a capital raise at favourable terms — the market-sensitive flag implies new material information is embedded, warranting close reading of the technical appendices."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WWI",
+      "company": "WEST WITS MINING LIMITED",
+      "headline": "2026 Appendix 4G and Corporate Governance Statement",
+      "time": "2026-08-30T23:43:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129109-3A700477",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "West Wits Mining's lodgement of the Appendix 4G and Corporate Governance Statement for FY2026 is a mandatory ASX compliance filing confirming adherence (or explaining departures from) the ASX Corporate Governance Principles and Recommendations — a hygiene requirement with no direct financial impact.",
+        "For a junior gold miner like WWI, the governance statement is worth scrutinising for board composition, risk oversight frameworks, and audit committee independence, particularly given the capital-intensive nature of its Witwatersrand Basin gold project in South Africa.",
+        "No immediate share price catalyst is expected; however, persistent governance deficiencies flagged in such documents can deter institutional capital allocation, making this a background due-diligence input rather than a trading signal."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PGF",
+      "company": "PM CAPITAL GLOBAL OPPORTUNITIES FUND LIMITED",
+      "headline": "Net Tangible Asset Backing - 28 August 2026",
+      "time": "2026-08-30T23:43:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129108-2A1693684",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PM Capital Global Opportunities Fund (PGF) has released its Net Tangible Asset (NTA) backing as at 28 August 2026 — a routine monthly disclosure that provides investors with the most current per-share NTA, the primary valuation benchmark for LICs.",
+        "The key metric to extract is the pre-tax and post-tax NTA per share relative to the current market price; a persistent discount to NTA would reinforce the case for the ongoing buyback program as value-accretive capital management.",
+        "Monthly NTA releases for LICs are procedural but serve as a real-time portfolio performance indicator — investors should track NTA momentum against PGF's global equities mandate performance and any widening or narrowing of the share price discount."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IFN",
+      "company": "INFRAGREEN GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - IFN",
+      "time": "2026-08-30T23:43:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129107-2A1693685",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "InfraGreen Group (IFN) has filed an update to its on-market buyback notification — a positive capital management signal indicating the board believes the current share price undervalues the company's intrinsic worth.",
+        "Buyback activity in small-cap green infrastructure plays can provide meaningful price support in thinly traded stocks; the key variables to assess are the buyback ceiling (percentage of issued capital), daily volume limits, and the pace of execution relative to available cash reserves.",
+        "Investors should monitor subsequent Appendix 3E filings to track actual buyback volumes executed — aggressive buyback follow-through would be a constructive signal, while a slow or stalled program would reduce the credibility of this announcement as a bullish catalyst."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SIO",
+      "company": "SIMONDS GROUP LIMITED",
+      "headline": "SIO FY26 Preliminary Results Announcement",
+      "time": "2026-08-30T23:43:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129106-3A700476",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Simonds Group's FY26 preliminary results are a high-conviction catalyst — as a residential home builder, SIO's results will reflect conditions in Australia's housing construction cycle, including volume completions, average selling prices, and margin recovery from elevated build costs.",
+        "Key metrics to assess: revenue vs. prior year, EBIT margin trajectory, order book/settlements guidance, and net debt position — any indication of margin recovery from peak inflation in materials/labour would be a strong positive signal for FY27 outlook.",
+        "The preliminary nature means audited financials are pending, but guidance commentary and dividends (if any) will drive near-term price action; the residential construction sector remains in a complex environment balancing demand tailwinds against cost normalisation."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WTN",
+      "company": "WINTON LAND LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-08-30T23:42:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129105-2A1693683",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A trading pause (distinct from a formal trading halt) for Winton Land is a significant flag — it typically precedes a material announcement such as a capital raise, M&A transaction, strategic review outcome, or major asset deal that requires price suspension.",
+        "Winton Land is a property/agricultural land developer, so the most likely catalysts include a major land sale, development partnership, or equity raising — investors should monitor the reason for the pause closely as the subsequent announcement will be the real price driver.",
+        "Trading pauses create information asymmetry risk; institutional investors should be cautious of re-entry until the substantive announcement is made, as outcomes can be binary — accretive transactions are bullish but equity dilution from a capital raise could be bearish."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JAV",
+      "company": "JAVELIN MINERALS LIMITED",
+      "headline": "Mining Permit Approval Received for Eureka Gold Project",
+      "time": "2026-08-30T23:42:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129103-6A1341238",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Receipt of a Mining Permit for Javelin Minerals' Eureka Gold Project is a genuine de-risking milestone — regulatory approval is a binary event that removes a key barrier to project advancement and validates the pathway to development or production.",
+        "For a junior gold explorer/developer, a mining permit significantly enhances the asset's optionality value: it enables JAV to attract JV partners, secure project financing, or proceed to feasibility studies with regulatory certainty now established.",
+        "Near-term catalysts following permit receipt typically include updated project economics, drilling programs, or strategic partner announcements — this approval materially improves JAV's corporate positioning and supports a higher valuation multiple on the Eureka resource."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WWI",
+      "company": "WEST WITS MINING LIMITED",
+      "headline": "Annual Report to shareholders",
+      "time": "2026-08-30T23:42:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129104-3A700471",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "West Wits Mining's FY2026 Annual Report is a comprehensive disclosure event covering financial statements, operational results, and strategic outlook for its Witwatersrand gold project — the most significant periodic filing for assessing the company's financial health and runway.",
+        "Critical metrics to extract include cash and equivalents, total liabilities, any going concern disclosures, exploration expenditure capitalised versus expensed, and progress on the Qala Shallows underground project feasibility — all pivotal for a pre-revenue junior miner.",
+        "The annual report will also reveal auditor opinions and any material uncertainties flagged; given WWI's development-stage status and South African operational exposure (including regulatory and currency risk), the report serves as a foundational risk assessment document for prospective institutional investors."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SIO",
       "company": "SIMONDS GROUP LIMITED",
