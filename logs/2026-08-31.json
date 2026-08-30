@@ -1,9 +1,466 @@
 {
   "date": "2026-08-31",
-  "total": 438,
-  "market_sensitive_count": 169,
-  "generated_at": "2026-08-30T23:52:16.433184+00:00",
+  "total": 462,
+  "market_sensitive_count": 179,
+  "generated_at": "2026-08-30T23:59:03.611515+00:00",
   "announcements": [
+    {
+      "ticker": "WCM",
+      "company": "WCM QUALITY GLOBAL GROWTH FUND - ACTIVE ETF",
+      "headline": "Quarterly portfolio disclosure as at 30 June 2026",
+      "time": "2026-08-30T23:55:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129142-2A1693699",
+      "market_sensitive": false,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "WCM's quarterly portfolio disclosure for the period ending 30 June 2026 provides transparency into current holdings of this active global growth ETF, enabling investors to assess portfolio drift, concentration risk, and alignment with the fund's quality-growth mandate.",
+        "Institutional investors should cross-reference disclosed holdings against recent global market rotations — any meaningful shift away from high-multiple growth names or into defensive sectors would signal a tactical repositioning by the fund manager worth monitoring.",
+        "As a non-market-sensitive, procedural disclosure, this filing has limited near-term price impact but serves as a useful due diligence input for advisers evaluating WCM as a core global equities allocation within a diversified portfolio."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RLG",
+      "company": "ROOLIFE GROUP LTD",
+      "headline": "Expiry of Listed Options RLGO",
+      "time": "2026-08-30T23:54:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129141-6A1341249",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The expiry of listed options (RLGO) is a routine administrative event, but the key question is how many options lapse unexercised versus how many are converted to ordinary shares — a low exercise rate signals weak holder conviction and may indicate the options were out-of-the-money at expiry.",
+        "If a significant tranche of options expires worthless, RLG avoids dilution to existing shareholders, which is technically a minor positive; conversely, any last-minute exercise activity would modestly increase the share count and bring in cash at the exercise price.",
+        "Investors should note the capital structure implications for RLG's cash position and share count going forward, particularly if the company is approaching a point where it may need to raise fresh equity to fund operations."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-30T23:54:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129139-2A1693694",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for KME signals a shift in the register among major investors, which can precede strategic activity or simply reflect portfolio rebalancing — context of the filer's intent is critical.",
+        "The filing is classified as non-market sensitive, suggesting no immediate control or takeover implications, but investors should monitor whether the holder crossed above or below the 5% threshold and in which direction.",
+        "For a small-cap education company like KME, meaningful register movements can influence liquidity and price discovery — any reduction in a cornerstone holder's stake warrants close attention to future selling pressure."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HWK",
+      "company": "HAWK RESOURCES LIMITED.",
+      "headline": "Mining Entry Permit Approved for Olympus Scandium Project",
+      "time": "2026-08-30T23:54:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129140-6A1341248",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Approval of a Mining Entry Permit (MEP) for the Olympus Scandium Project is a tangible regulatory milestone, removing a key pathway risk and allowing HWK to progress towards active exploration and resource definition on the ground.",
+        "Scandium is a critical mineral with high-value applications in solid oxide fuel cells and aluminium alloys — project advancement in this space carries strategic significance given growing global demand and limited supply pipelines.",
+        "The MEP approval is a binary de-risking event for HWK at this early stage; the immediate 'so what' is that the company can now mobilise field teams, with investors watching closely for follow-on drilling announcements and resource estimates."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GBL",
+      "company": "GREAT BEAR EXPLORATION LTD",
+      "headline": "Response to Appendix 3Y Query",
+      "time": "2026-08-30T23:53:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129138-2A1693698",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "GBL's response to an ASX Appendix 3Y query indicates a compliance matter relating to a director's change-of-interest notice — typically this arises when a filing was late, incomplete, or contained an error that the exchange has formally queried.",
+        "While procedural in nature, repeated or material compliance lapses at small-cap explorers can signal governance weaknesses that institutional investors and fund managers use as red flags when assessing board quality and operational rigour.",
+        "No immediate financial impact is expected, but the company's response quality — whether it resolves the matter cleanly or reveals a more substantive disclosure failure — will determine any lingering reputational or regulatory risk."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAT",
+      "company": "MATSA RESOURCES LIMITED",
+      "headline": "Request for Extension of Voluntary Suspension",
+      "time": "2026-08-30T23:53:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129137-6A1341241",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MAT's request to extend its voluntary suspension signals that the company has not yet resolved the matter that triggered the original halt — prolonged suspensions raise governance and transparency concerns for institutional investors.",
+        "The non-market-sensitive classification suggests the extension is procedural, but the underlying reason for suspension remains the key risk factor; investors are effectively locked out of trading while material uncertainty persists.",
+        "Until the suspension is lifted and the triggering issue is disclosed, MAT remains uninvestable — the longer the extension, the greater the likelihood the resolution involves a capital raise, asset deal, or adverse regulatory outcome."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PFP",
+      "company": "PROPEL FUNERAL PARTNERS LIMITED",
+      "headline": "Change of Director's Interest Notice - Sonia Petering",
+      "time": "2026-08-30T23:52:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129136-2A1693697",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director Sonia Petering has lodged a change of director's interest notice for Propel Funeral Partners — the critical detail is whether this reflects an on-market purchase, sale, or vesting of performance rights, as each carries a different sentiment signal.",
+        "On-market buying by a director in a defensive, yield-oriented business like funeral services would be a meaningful positive signal, suggesting insider confidence in the valuation; a sale, particularly at current price levels, would warrant scrutiny of the rationale.",
+        "PFP operates in a structurally resilient sector with predictable volumes, so any director activity should be contextualised against the company's recent trading performance, dividend sustainability, and acquisition pipeline in the consolidating funeral services industry."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HTM",
+      "company": "HIGH-TECH METALS LTD",
+      "headline": "MT FISHER MINERAL RESOURCE INCREASES 47% TO 51,000oz GOLD",
+      "time": "2026-08-30T23:52:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129135-6A1341245",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 47% increase in the Mt Fisher Mineral Resource to 51,000oz gold is a material uplift in HTM's asset base, directly enhancing the project's economic viability and justifying further exploration or development capital allocation.",
+        "At 51,000oz, the resource remains sub-economic at scale for major producers but represents meaningful optionality for a junior miner — the key metric to watch is grade consistency and the proportion classified as Indicated vs Inferred.",
+        "The resource upgrade positions HTM for potential re-rating as it approaches thresholds that attract scoping studies or joint venture interest; near-term catalysts include further drilling to upgrade resource confidence and extend strike length."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "4DS",
+      "company": "4DS MEMORY LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-08-30T23:52:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129134-6A1341244",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reinstatement to quotation for 4DS following a trading halt is directly linked to the concurrent acquisition announcement of Jenesys — the timing confirms the halt was imposed pending disclosure of the material transaction.",
+        "Reinstatement removes the immediate liquidity constraint for shareholders, but price discovery upon resumption will be volatile as the market prices in the Jenesys acquisition details for the first time.",
+        "Investors should treat the reinstatement as a procedural outcome of the M&A disclosure rather than a standalone positive — the true sentiment driver is the strategic and financial merit of the Jenesys acquisition."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SGR",
+      "company": "THE STAR ENTERTAINMENT GROUP LIMITED",
+      "headline": "Full Year Announcement and Results Presentation",
+      "time": "2026-08-30T23:52:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129132-2A1693692",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "SGR's full-year results are released against a backdrop of severe regulatory headwinds, ongoing remediation costs, and casino licence uncertainty — headline revenue and EBITDA figures will be scrutinised for evidence of operational stabilisation or further deterioration.",
+        "Key metrics for institutional investors include group EBITDA margin, net debt position, and any covenant or liquidity disclosures, given SGR's well-documented financial stress and the cost burden of its remediation and transformation programs.",
+        "The results presentation is likely to include forward guidance on cash burn and capital structure — any commentary on asset sales, recapitalisation, or regulatory progress will be the primary share-price catalyst from this release."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "4DS",
+      "company": "4DS MEMORY LIMITED",
+      "headline": "Proposed issue of securities - 4DS",
+      "time": "2026-08-30T23:52:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129133-6A1341194",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "4DS Memory has lodged a proposed securities issuance notice — for a pre-revenue semiconductor IP company, any capital raise is a critical event as it directly impacts cash runway and the ability to advance its Interface Switching technology toward commercialisation.",
+        "Investors must assess the terms carefully: placement price relative to last traded price (discount depth), the identity of incoming investors (strategic versus retail), and whether the raise is sufficient to fund the next material technical milestone.",
+        "This is the first of three concurrent securities issuance filings from 4DS, suggesting a multi-tranche or multi-instrument capital raise structure — the aggregate size and composition across all three notices will determine the true dilution impact."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PFP",
+      "company": "PROPEL FUNERAL PARTNERS LIMITED",
+      "headline": "Change of Director's Interest Notice - Brian Scullin",
+      "time": "2026-08-30T23:52:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129131-2A1693696",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director Brian Scullin has filed a change of director's interest notice for Propel Funeral Partners — as with Sonia Petering's simultaneous filing, the nature of the transaction (purchase, disposal, or vesting) is the key variable driving sentiment interpretation.",
+        "Concurrent filings from two directors on the same day often reflect a coordinated equity plan event such as performance rights vesting or a dividend reinvestment plan participation, which would be neutral to mildly positive rather than a discretionary trade.",
+        "PFP's defensive business model and consistent cash generation from funeral services make it a relatively stable holding; director interest changes are worth monitoring as a secondary signal on management's view of fair value and strategic trajectory."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "4DS",
+      "company": "4DS MEMORY LIMITED",
+      "headline": "Proposed issue of securities - 4DS",
+      "time": "2026-08-30T23:52:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129130-6A1341186",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This second proposed securities issuance notice from 4DS Memory in the same filing batch reinforces that the company is executing a multi-component capital raise — common structures include a placement combined with a share purchase plan (SPP) or attaching options/warrants as sweeteners.",
+        "The duplication of filings within a single session is a regulatory requirement when different security types or tranches are being issued under different ASX Listing Rules, and investors should aggregate all three notices to calculate total potential dilution.",
+        "Given 4DS's stage of development — commercialising next-generation ReRAM memory technology in partnership with Western Digital — the use of proceeds and any update on the commercialisation timeline disclosed alongside this raise will be the primary value driver."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "4DS",
+      "company": "4DS MEMORY LIMITED",
+      "headline": "Proposed issue of securities - 4DS",
+      "time": "2026-08-30T23:52:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129129-6A1341184",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The third consecutive proposed securities issuance notice from 4DS Memory confirms a structured, multi-instrument capital raise — the cumulative dilution across all three tranches is the most important number for existing shareholders to calculate before any trading decision.",
+        "Multiple simultaneous issuance notices can indicate the company is issuing ordinary shares, options, and potentially performance rights concurrently — a complexity that may obscure the true cost of capital and total shareholder dilution if not carefully disaggregated.",
+        "For a technology company at the pre-revenue stage, the ability to raise capital — even at a discount — is existential; the market will weigh dilution risk against the extension of cash runway and any strategic credibility signals embedded in the investor composition."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "4DS",
+      "company": "4DS MEMORY LIMITED",
+      "headline": "4DS to Acquire Jenesys",
+      "time": "2026-08-30T23:52:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129128-6A1341239",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "4DS Memory's acquisition of Jenesys represents a pivotal strategic pivot — given 4DS's background in ReRAM memory technology, the market will immediately interrogate whether Jenesys is synergistic or a distraction from core development milestones.",
+        "The 'so what' hinges entirely on deal structure: the consideration paid, whether it is scrip or cash, any dilution implications, and what revenue or IP Jenesys brings — without these details, the market will likely react cautiously.",
+        "This is a high-conviction signal that 4DS's board is reshaping the company's direction; institutional investors should assess whether the acquisition accelerates commercialisation or introduces integration risk and capital consumption at a critical juncture."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATH",
+      "company": "ALTERITY THERAPEUTICS LIMITED",
+      "headline": "$4.2M Options Underwriting Agreement Executed",
+      "time": "2026-08-30T23:51:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129127-3A700481",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ATH has executed a $4.2M options underwriting agreement, providing a degree of certainty around capital raising proceeds — this is a lifeline for a clinical-stage biotech with ongoing cash burn and no commercial revenue.",
+        "The underwriting structure suggests ATH could not rely on shareholder take-up alone, implying the company's cash position is under pressure; investors should assess the implied dilution and the strike price of the options relative to current market price.",
+        "The 'so what' is runway extension — $4.2M buys time for ATH to advance its neurodegeneration pipeline, but the near-term dilutive impact and the signal of financial stress are likely to weigh on sentiment despite the capital certainty."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SGR",
+      "company": "THE STAR ENTERTAINMENT GROUP LIMITED",
+      "headline": "Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-30T23:51:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129126-2A1693690",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "SGR's Appendix 4E and 2026 Annual Report provides the audited financial statements underpinning the full-year results — investors should cross-reference auditor qualifications, going concern disclosures, and any emphasis of matter paragraphs as critical risk flags.",
+        "The Annual Report will contain granular detail on SGR's remediation spend, regulatory compliance progress, and legal contingencies — these disclosures are often more revealing than headline results for a company under active regulatory oversight.",
+        "Any going concern qualification or auditor commentary on licence renewal risk would be a material negative catalyst; conversely, a clean audit opinion with a credible path to operational normalisation could provide modest sentiment support."
+      ],
+      "tags": [
+        "Results",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AGL",
+      "company": "AGL ENERGY LIMITED.",
+      "headline": "Appendix 3Y - Damien Nicks",
+      "time": "2026-08-30T23:51:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129125-2A1693695",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 3Y filing for CEO Damien Nicks indicates a change in director's interest, a routine but mandatory disclosure under ASX Listing Rules — no strategic implications signalled at this stage.",
+        "As a non-market-sensitive update, the filing likely reflects a minor administrative change such as on-market share acquisition, vesting of performance rights, or a related-party transaction rather than a material shift in executive alignment.",
+        "Investors should monitor cumulative director interest disclosures over time as a sentiment indicator — increased CEO buying in AGL's current energy transition narrative could subtly reinforce confidence in the company's strategic direction."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DAI",
+      "company": "DECIDR AI INDUSTRIES LTD",
+      "headline": "FY26 Preliminary Results & Year in Review",
+      "time": "2026-08-30T23:51:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129124-6A1341247",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "DAI's FY26 preliminary results provide the first full-year financial snapshot for this AI-focused business — revenue growth rate, gross margin trajectory, and cash burn are the three metrics that will determine whether the market re-rates the stock.",
+        "As an AI-themed small-cap, DAI is likely trading on growth expectations rather than earnings — the 'year in review' narrative around customer wins, platform scalability, and recurring revenue mix will be as important as the raw financial numbers.",
+        "Investors should watch for any guidance on FY27 revenue pipeline and whether the company has sufficient cash to fund operations without an imminent capital raise — a strong top-line result with a clear path to cash flow breakeven would be a meaningful bullish signal."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SWT",
+      "company": "SWITZER DIVIDEND GROWTH FUND - ACTIVE ETF",
+      "headline": "Quarterly portfolio disclosure as at 30 June 2026",
+      "time": "2026-08-30T23:50:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129123-2A1693693",
+      "market_sensitive": false,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "The quarterly portfolio disclosure for SWT as at 30 June 2026 provides transparency on current holdings, enabling investors to assess alignment with the fund's dividend growth mandate and identify any meaningful portfolio rotation or sector concentration shifts.",
+        "As a non-market-sensitive, compliance-driven filing, the disclosure carries no immediate valuation catalyst, but institutional investors can use it to benchmark SWT's holdings against peers and evaluate whether the active ETF is delivering differentiated positioning versus passive dividend indices.",
+        "Watch for any changes in top-10 holdings or sector weightings — increased exposure to high-yield sectors such as financials or resources may signal the manager's forward view on income sustainability heading into FY27."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DBO",
+      "company": "DIABLO RESOURCES LIMITED",
+      "headline": "High-Grade Silver District Scale Critical Minerals Potential",
+      "time": "2026-08-30T23:50:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129122-6A1341246",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DBO is flagging high-grade silver mineralisation at district scale, signalling potential for a significant critical minerals discovery that could re-rate the stock materially if assay results confirm the headline grades across meaningful strike lengths.",
+        "The 'district scale' framing suggests management is positioning this beyond a single deposit narrative — investors should watch for accompanying drill intercept data, silver equivalent grades, and comparison to regional peers to validate the scale claim.",
+        "Near-term catalysts will hinge on follow-up drilling programs and whether the company has sufficient cash to sustain exploration momentum; any capital raise on the back of this announcement would be a key signal of confidence in the discovery."
+      ],
+      "tags": [
+        "Mining",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "REE",
+      "company": "RAREX LIMITED",
+      "headline": "Resignation of Director",
+      "time": "2026-08-30T23:50:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129121-6A1341242",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "The resignation of a director from Rarex Limited (REE), a rare earth elements explorer, introduces board instability at a critical time for the sector — rare earth supply chains remain geopolitically sensitive, and leadership continuity is vital for project advancement and capital raising efforts.",
+        "For a junior explorer like REE, board departures can signal deeper issues including strategic disagreements, funding pressures, or project delays, and institutional investors should seek clarification on the circumstances and whether a replacement has been identified.",
+        "Near-term focus should be on whether the remaining board retains the technical and capital markets expertise needed to advance REE's exploration assets; failure to promptly replace the director could impair investor confidence and complicate future fundraising."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DAI",
+      "company": "DECIDR AI INDUSTRIES LTD",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-30T23:49:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129120-6A1341243",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A Preliminary Final Report (Appendix 4E) is the first formal look at full-year financials for DAI — as a market-sensitive filing, investors should scrutinise revenue recognition, operating losses, and any going-concern qualifications given the early-stage AI sector context.",
+        "Key metrics to assess include cash burn rate, recurring versus one-off revenue, and whether the company has hit any previously guided milestones, as AI-sector microcaps are frequently valued on narrative rather than fundamentals and any miss can be sharply punished.",
+        "The market-sensitive classification implies material information is contained within — watch for commentary on commercial contracts, customer pipeline, or any impairments that could set the tone for FY26 guidance and investor confidence."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MSI",
+      "company": "MULTISTACK INTERNATIONAL LIMITED",
+      "headline": "Half Year Accounts",
+      "time": "2026-08-30T23:49:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129119-3A700480",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Multistack International's half-year accounts provide the first structured financial snapshot for the period, with key metrics to watch including revenue trajectory, gross margin performance, and operating cash flow relative to the prior corresponding period given the company's small-cap profile.",
+        "As a non-market-sensitive filing, the accounts may reflect modest or in-line results; however, any deterioration in cash reserves, rising liabilities, or widening net losses would be material concerns for a smaller listed entity with potentially limited capital buffers.",
+        "Investors should scrutinise the going concern disclosures, working capital position, and any management commentary on the outlook — these will be the primary determinants of whether the half-year result prompts a reassessment of MSI's valuation or capital needs."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "A4N",
       "company": "ALPHA HPA LIMITED",
