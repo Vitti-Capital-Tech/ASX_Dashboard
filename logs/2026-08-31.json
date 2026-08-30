@@ -1,9 +1,852 @@
 {
   "date": "2026-08-31",
-  "total": 267,
-  "market_sensitive_count": 107,
-  "generated_at": "2026-08-30T22:58:22.375326+00:00",
+  "total": 311,
+  "market_sensitive_count": 126,
+  "generated_at": "2026-08-30T23:13:52.629234+00:00",
   "announcements": [
+    {
+      "ticker": "KSL",
+      "company": "KINA SECURITIES LIMITED",
+      "headline": "2026 HY Investor Presentation",
+      "time": "2026-08-30T23:10:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128991-2A1693622",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "KSL's HY2026 investor presentation signals a structured mid-year capital markets engagement, likely accompanying financial results and forward guidance for Papua New Guinea's largest commercial bank and financial services group.",
+        "As a market-sensitive filing, the presentation is expected to contain material disclosures around loan book growth, net interest margins, and capital adequacy ratios — key metrics watched by institutional holders in frontier-market financials.",
+        "Investors should cross-reference this presentation with the simultaneously filed Appendix 4D (Item 5) to form a complete picture of earnings quality, dividend sustainability, and any currency or sovereign risk commentary."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KCN",
+      "company": "KINGSGATE CONSOLIDATED LIMITED.",
+      "headline": "10 Cent Dividend Declared",
+      "time": "2026-08-30T23:10:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128990-2A1693619",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Kingsgate Consolidated has declared a 10-cent per share dividend — a notable capital return event for a gold miner, signalling management confidence in cash generation from its Chatree Gold Mine operations in Thailand.",
+        "For a junior-to-mid gold producer, a 10-cent dividend represents a material yield signal; investors will be assessing this against recent gold price tailwinds (spot gold near multi-year highs) and whether this is a special or recurring distribution.",
+        "This announcement is likely to attract income-focused and momentum investors to KCN; the key risk to monitor is whether the dividend is fully franked and sustainable given Thailand operational and regulatory risks at Chatree."
+      ],
+      "tags": [
+        "Dividend",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MRQ",
+      "company": "MRG METALS LIMITED",
+      "headline": "Board Changes to Drive Garies High Grade Rare Earth Project",
+      "time": "2026-08-30T23:09:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128988-3A700444",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Board restructuring signals a strategic pivot toward accelerating development of the Garies High Grade Rare Earth Project in South Africa, suggesting management recognises the need for more focused rare earth expertise at the leadership level.",
+        "New board composition is critical for a junior explorer — the calibre and industry connections of incoming directors will largely determine the company's ability to attract JV partners or secure project financing in a competitive critical minerals landscape.",
+        "Investors should monitor the updated board's near-term catalysts: drilling programs, resource estimate upgrades, or off-take discussions will be the real test of whether this governance change translates into tangible project advancement."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KSL",
+      "company": "KINA SECURITIES LIMITED",
+      "headline": "2026 HY ASX Announcement",
+      "time": "2026-08-30T23:09:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128989-2A1693621",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "KSL's HY2026 ASX Announcement serves as the formal market-sensitive results release accompanying the Appendix 4D, providing narrative context around financial performance for the half-year period ending likely 31 December 2025 or 31 March 2026.",
+        "Key metrics to watch include net profit after tax (NPAT) growth, return on equity, non-performing loan ratios, and any commentary on PNG's macroeconomic environment — particularly foreign currency liquidity constraints that have historically impacted KSL's operations.",
+        "The simultaneous release of three KSL documents (Items 1, 3, and 5) reflects a coordinated, well-prepared investor relations effort, which institutional investors typically interpret as a positive governance signal."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IOD",
+      "company": "IODM LIMITED",
+      "headline": "FY26 Results - Investor Presentation",
+      "time": "2026-08-30T23:09:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128987-3A700445",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "IODM Limited's FY26 results investor presentation is a critical catalyst event for this small-cap accounts receivable automation technology company — the market will scrutinise ARR (annual recurring revenue) growth, churn rates, and the path to profitability.",
+        "Given IODM's SaaS-adjacent business model, key valuation drivers include customer acquisition cost trends, gross margin expansion, and any enterprise contract wins that de-risk future revenue; cash burn and runway are existential concerns at this market cap tier.",
+        "The concurrent filing of a separate investor update (Item 9) suggests IODM is making a concerted push for investor attention post-results, which may indicate management believes the numbers contain positive surprises worth amplifying."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BBN",
+      "company": "BABY BUNTING GROUP LIMITED",
+      "headline": "Initial Director's Interest Notice - Richard Vincent",
+      "time": "2026-08-30T23:08:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128986-3A700446",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "The filing of an Initial Director's Interest Notice for Richard Vincent is a routine administrative disclosure confirming his securities holdings at the time of appointment, carrying no direct valuation implication for Baby Bunting.",
+        "As a new director, Vincent's initial holding size (if any) offers a signal on alignment with shareholders — a meaningful personal equity stake at appointment would be a modest positive governance indicator for the specialty baby goods retailer.",
+        "Investors should track whether Vincent's background (retail, finance, or operations) adds a capability gap-fill to the board, particularly relevant given BBN's ongoing margin recovery and competitive pressures from online and generalist retailers."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KSL",
+      "company": "KINA SECURITIES LIMITED",
+      "headline": "Dividend/Distribution - KSL",
+      "time": "2026-08-30T23:08:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128985-2A1693618",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Kina Securities has declared a dividend/distribution, reinforcing its commitment to returning capital to shareholders — a key attraction for yield-focused investors in the PNG-focused banking and financial services sector.",
+        "The quantum and franking status of the dividend will determine its income appeal; given KSL's PNG domicile, franking credits are unlikely, which may limit its attractiveness to domestic Australian superannuation investors relative to fully franked peers.",
+        "Sustained dividend payments signal management confidence in underlying earnings and cash generation, though investors should cross-reference the payout ratio against KSL's loan book quality and capital adequacy ratios in the current PNG macro environment."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KSL",
+      "company": "KINA SECURITIES LIMITED",
+      "headline": "Appendix 4D",
+      "time": "2026-08-30T23:08:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128984-2A1693616",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Appendix 4D is the statutory half-year financial report lodged with ASX under Listing Rule 4.2A, providing audited or reviewed financials for KSL — this is the most legally binding and numerically precise document in the trio of KSL releases today.",
+        "Institutional investors should focus on the statutory NPAT figure, earnings per share, dividend per share declared, and any restatements or audit qualifications that may diverge from the investor presentation narrative.",
+        "The Appendix 4D's market-sensitive classification confirms it contains material non-public information now being disclosed — any earnings surprise (positive or negative) versus consensus will be the primary near-term share price driver."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GML",
+      "company": "GATEWAY MINING LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-30T23:07:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128983-2A1693617",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Gateway Mining has entered a voluntary trading halt, typically requested ahead of a material announcement such as a capital raise, merger, or significant asset transaction — the halt prevents uninformed trading while the company prepares disclosure.",
+        "As a small-cap gold explorer, the most probable catalysts for a trading halt include a placement or rights issue to fund exploration, an earn-in or joint venture agreement on its Gidgee Gold Project, or a response to unusual price/volume movement.",
+        "Investors should watch for the resumption announcement closely — the nature of the news (dilutive capital raise vs. accretive transaction) will determine whether the halt resolves bullishly or bearishly; time-in-halt duration is also a signal of complexity."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "C29",
+      "company": "C29 METALS LIMITED",
+      "headline": "Proposed issue of securities - C29",
+      "time": "2026-08-30T23:07:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128982-6A1341203",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "C29 Metals' proposed securities issuance indicates the company is accessing capital markets, likely to fund exploration or working capital — a common but dilutive event for junior miners that warrants scrutiny of the terms and use of proceeds.",
+        "Key variables for investors include the price of issuance relative to the prevailing market price (the discount level), the volume of securities being issued, and whether the placement is to strategic or institutional investors, which could signal project confidence.",
+        "Until full terms are disclosed, the announcement is procedural; however, repeated small capital raises without clear drill results or resource milestones can erode investor confidence and compress the share price over time."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KCN",
+      "company": "KINGSGATE CONSOLIDATED LIMITED.",
+      "headline": "Proposed issue of securities - KCN",
+      "time": "2026-08-30T23:07:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128981-2A1693613",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Kingsgate Consolidated's proposed securities issuance is likely linked to funding requirements at its Chatree Gold Mine in Thailand or advancing its Bowdens Silver Project in NSW, both of which require sustained capital investment.",
+        "The dilution impact will hinge on the size and pricing of the placement — Kingsgate has a more established asset base than many junior miners, so a tightly priced institutional raise could be viewed as relatively less damaging to existing holders.",
+        "Investors should await the full terms announcement; if proceeds are directed toward a defined production or feasibility milestone, the capital raise could ultimately be re-rated as value-accretive despite near-term dilution."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CTO",
+      "company": "CITIGOLD CORPORATION LIMITED",
+      "headline": "Notice of Initial Substantial Holders",
+      "time": "2026-08-30T23:07:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128979-2A1693614",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A Notice of Initial Substantial Holder indicates a new investor has crossed the 5% ownership threshold in Citigold Corporation, triggering mandatory disclosure under the Corporations Act 2001 — this is a change in the shareholder register of structural significance.",
+        "For a micro-cap gold exploration company like CTO, the emergence of a substantial holder can signal strategic accumulation, potentially foreshadowing a takeover approach, cornerstone investment for a capital raise, or simply a long-term resource sector fund building a position.",
+        "Classified as not market sensitive by the company, this filing is procedural in nature, but the identity of the substantial holder is the critical detail — a strategic or well-known resources investor would carry far greater implications than a passive index fund."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LGF",
+      "company": "L1 GOLD FUND LIMITED",
+      "headline": "Opening of Retail Entitlement Offer and Retail Offer Booklet",
+      "time": "2026-08-30T23:07:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128980-3A700440",
+      "market_sensitive": false,
+      "document_type": "Capital Raise",
+      "summary": [
+        "The opening of the Retail Entitlement Offer for L1 Gold Fund allows retail shareholders to participate in the capital raise on the same terms as institutional investors, which is a positive governance signal and limits the dilution disadvantage for smaller holders.",
+        "L1 Gold Fund is a listed investment vehicle focused on gold equities — the timing of this raise against a backdrop of elevated gold prices suggests management sees a compelling window to deploy capital into the sector while asset prices remain supportive.",
+        "Retail investors should carefully review the Offer Booklet for the entitlement ratio, offer price (discount to NTA or market price), and the fund's deployment strategy, as LIC capital raises can trade at a discount to NTA post-raise if new capital is not rapidly invested."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXC",
+      "company": "DEXUS CONVENIENCE RETAIL REIT",
+      "headline": "Update - Notification of buy-back - DXC",
+      "time": "2026-08-30T23:06:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128978-3A700443",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Dexus Convenience Retail REIT's buy-back notification signals management believes its units are trading at a discount to intrinsic or NTA value, a common trigger for REIT buy-backs and a modest positive for remaining unitholders through EPS/DPU accretion.",
+        "For a convenience retail-focused REIT anchored by fuel and fast food tenants, a buy-back also reflects confidence in balance sheet strength and distributable cash flow, suggesting the trust is not prioritising acquisitions or developments in the near term.",
+        "Investors should monitor the scale and pace of the buy-back relative to DXC's market capitalisation — a material and sustained program would provide meaningful price support, while a token buy-back would carry limited impact on unit price dynamics."
+      ],
+      "tags": [
+        "Property",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "C29",
+      "company": "C29 METALS LIMITED",
+      "headline": "Binding Commitments to Raise $2,400,000",
+      "time": "2026-08-30T23:06:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128977-6A1341202",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "C29 Metals has secured binding commitments to raise $2.4 million, a small but critical capital injection for a junior explorer — the key questions are pricing relative to last traded price (discount = dilution risk) and whether the raise is via placement, rights issue, or convertible note.",
+        "At $2.4M, this is a survival-focused raise rather than a growth-oriented one, suggesting C29's cash runway was under pressure; investors should assess the post-raise cash position against the company's quarterly burn rate to determine how much operational runway this buys.",
+        "Binding commitments (rather than indicative interest) reduce execution risk, but the small size and market-sensitive classification imply this may be accompanied by exploration news or a strategic update designed to support the raise price."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IOD",
+      "company": "IODM LIMITED",
+      "headline": "IOD FY26 INVESTOR UPDATE",
+      "time": "2026-08-30T23:06:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128976-3A700441",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "IODM's standalone FY26 investor update, filed alongside the formal results presentation (Item 4), is a targeted communication designed to frame the narrative around key business milestones and strategic direction for retail and institutional audiences.",
+        "This dual-document approach for a micro-cap tech company reflects a deliberate IR strategy — the investor update likely highlights customer wins, product development progress, or partnership announcements that the statutory results document does not fully capture.",
+        "Investors should reconcile the qualitative messaging in this update against the hard financial metrics in the results presentation; any divergence between tone and numbers (e.g. optimistic language with declining revenue) would be a red flag."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXI",
+      "company": "DEXUS INDUSTRIA REIT.",
+      "headline": "Update - Notification of buy-back - DXI",
+      "time": "2026-08-30T23:05:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128975-3A700442",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Dexus Industria REIT's buy-back update reflects a similar capital management rationale to its convenience retail peer — management signalling that the current unit price undervalues the industrial and logistics property portfolio, which remains structurally supported by e-commerce and supply chain demand.",
+        "Industrial REITs have faced valuation headwinds from rising cap rates, but strong leasing fundamentals (low vacancy, rental growth) provide a credible basis for management's implicit view that units are attractively priced relative to asset value.",
+        "The buy-back is accretive to NTA per unit and DPU for remaining holders; institutional investors should assess whether the buy-back competes with or complements DXI's stated growth-through-acquisition strategy in the current property cycle."
+      ],
+      "tags": [
+        "Property",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BGD",
+      "company": "BARTON GOLD HOLDINGS LIMITED",
+      "headline": "Tunkillia infill drilling confirms high-grade mineralisation",
+      "time": "2026-08-30T23:05:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128974-6A1341201",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Barton Gold's infill drilling at the Tunkillia deposit in South Australia has confirmed high-grade mineralisation, a technically significant result that validates the geological model and supports a potential resource upgrade — a key de-risking milestone for project advancement.",
+        "High-grade confirmation from infill drilling (as opposed to step-out drilling) typically strengthens the economic case for a feasibility study by improving confidence categories (Indicated to Measured) in the JORC resource estimate, directly impacting mine planning and financing discussions.",
+        "The 'so what' for investors: Tunkillia is one of Australia's larger undeveloped gold deposits and this result materially improves the probability of BGD progressing toward a Definitive Feasibility Study (DFS) and eventual project financing, making this a meaningful re-rating catalyst for a stock heavily leveraged to gold sentiment."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RON",
+      "company": "RONIN RESOURCES LTD",
+      "headline": "Geochemical Results Received, La Punilla Project San Juan",
+      "time": "2026-08-30T23:04:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128973-6A1341200",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Geochemical results from the La Punilla Project in San Juan, Argentina represent a potentially material catalyst — early assay data will determine whether the project warrants escalated exploration spend and could re-rate the stock if anomalous values are confirmed.",
+        "As a market-sensitive release, results likely contain meaningful mineralisation data (potentially gold, copper, or lithium given San Juan's geological context) that could define drill targets and underpin a resource estimate pathway.",
+        "Next steps will hinge on whether geochemistry supports a maiden drilling program; investors should watch for follow-up drill permit announcements and any capital raise to fund ground-truthing of identified anomalies."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AEG",
+      "company": "ALAND EQUITY GROUP LIMITED",
+      "headline": "AEG Executes Elm Grove Heights Management Rights Agreement",
+      "time": "2026-08-30T23:04:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128972-2A1693615",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AEG has executed a Management Rights Agreement for Elm Grove Heights, marking a concrete revenue-generating asset addition in the management rights sector — a capital-light, recurring-income business model that can be accretive if acquired at reasonable multiples.",
+        "The market-sensitive classification suggests the deal is financially material to AEG's scale; key metrics to scrutinise include the purchase price, annual net profit from the letting pool, and the number of units under management, which will determine payback period.",
+        "This acquisition signals AEG's active growth strategy in Queensland's management rights market; investors should monitor whether the company intends to fund further bolt-on acquisitions via equity raises or debt, and whether integration generates immediate cash flow contribution."
+      ],
+      "tags": [
+        "Property",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GTI",
+      "company": "GRATIFII LIMITED",
+      "headline": "Preliminary Final Report Announcement",
+      "time": "2026-08-30T23:02:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128971-2A1693610",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Gratifii's Preliminary Final Report announcement flags the imminent release of full-year financial results — a critical inflection point for assessing whether the company's loyalty and rewards technology platform has achieved meaningful revenue scale or remains cash-constrained.",
+        "As a market-sensitive filing, the announcement itself serves as a procedural precursor; the substantive financial detail (revenue, EBITDA, cash burn, and runway) will be contained in the accompanying Appendix 4E (see announcement [4]), making this item largely administrative.",
+        "Investors should treat this announcement in conjunction with [4] — the standalone announcement here carries no independent financial data and its sole function is to signal compliance with ASX continuous disclosure obligations."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GTI",
+      "company": "GRATIFII LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-30T23:02:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128970-2A1693609",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Gratifii's Preliminary Final Report (Appendix 4E) delivers the substantive FY financial scorecard — revenue trajectory, operating losses, and cash position will be the primary valuation drivers given the company's early-stage SaaS/loyalty platform positioning.",
+        "Key metrics to assess include whether recurring revenue is growing as a proportion of total revenue, gross margin expansion (indicative of platform scalability), and cash runway — if the company holds less than two quarters of operating cash, a capital raise risk materialises.",
+        "Any improvement in customer retention metrics, new enterprise client wins disclosed in commentary, or a narrowing net loss would be bullish signals; conversely, declining revenue or an auditor's going concern note would be materially bearish for a small-cap technology name."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WHC",
+      "company": "WHITEHAVEN COAL LIMITED",
+      "headline": "Update - Notification of buy-back - WHC",
+      "time": "2026-08-30T23:02:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128969-2A1693612",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Whitehaven Coal's buy-back notification underscores management's commitment to capital returns, consistent with the company's track record of returning surplus cash flows generated during elevated thermal and metallurgical coal price periods.",
+        "WHC's ability to fund buy-backs reflects its strong free cash flow generation from its Queensland and NSW operations; however, investors will note that the coal price cycle has moderated, making the sustainability of buy-back capacity a key variable to watch.",
+        "On-market buy-backs at current price levels are EPS-accretive and signal board confidence in the balance sheet — for ESG-constrained institutional investors this may not shift sentiment, but for value-oriented funds it reinforces WHC's shareholder return credentials."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TCF",
+      "company": "360 CAPITAL MORTGAGE REIT",
+      "headline": "Update - Notification of buy-back - TCF",
+      "time": "2026-08-30T23:02:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128968-2A1693611",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "360 Capital Mortgage REIT's buy-back notification is a capital management signal in a mortgage/credit-focused REIT structure, suggesting the trust's units are trading at a discount to the manager's assessment of net asset value across its loan book.",
+        "For a mortgage REIT, buy-back activity also implies confidence in liquidity and loan book quality — in the current higher interest rate environment, credit quality and arrears trends in the underlying mortgage portfolio remain the primary risk factor to monitor.",
+        "The buy-back scale will determine its market impact; given TCF's relatively small market capitalisation, even a modest program could provide meaningful price floor support, making this announcement incrementally positive for existing unitholders."
+      ],
+      "tags": [
+        "Finance",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ILA",
+      "company": "ISLAND PHARMACEUTICALS LIMITED",
+      "headline": "Pivotal Marburg data secured for Galidesivir FDA pathway",
+      "time": "2026-08-30T23:01:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128966-3A700431",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Island Pharmaceuticals has secured pivotal Marburg virus efficacy data for Galidesivir, a potentially transformative milestone that could underpin FDA accelerated approval or Emergency Use Authorization — rare disease/biodefense assets with robust efficacy data command significant re-rating potential.",
+        "Marburg virus is a Tier 1 bioterrorism select agent with no approved treatments, meaning Galidesivir is eligible for FDA's Animal Rule pathway, which allows approval based on animal efficacy data combined with human safety data — removing the ethical barrier of controlled human trials and substantially de-risking the regulatory path.",
+        "This data package positions ILA for formal FDA engagement and potentially a BARDA (Biomedical Advanced Research and Development Authority) contract, which could provide non-dilutive funding; the next key catalyst is an FDA Type B meeting request and any out-licensing or partnership discussions with a major pharma or government health agency."
+      ],
+      "tags": [
+        "Healthcare",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IOD",
+      "company": "IODM LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-30T23:01:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128967-3A700436",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "IODM's Preliminary Final Report provides the FY financial outcomes for its accounts receivable automation SaaS platform — revenue growth rate and monthly recurring revenue (MRR) trends are the primary value indicators given the company's growth-stage profile.",
+        "Critical metrics include ARR (annual recurring revenue), churn rate, customer count progression, and operating cash outflow — for a small-cap fintech, any demonstration of improving unit economics or a path to cash flow breakeven would be a material positive signal.",
+        "If IODM's cash position has deteriorated below a comfortable operational buffer (typically under 6 months runway), the market will likely price in near-term dilution risk; conversely, evidence of accelerating enterprise customer acquisition could support a re-rating of the stock."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CVB",
+      "company": "CURVEBEAM AI LIMITED",
+      "headline": "Appendix 4G & Corporate Governance Statement FY2026",
+      "time": "2026-08-30T23:00:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128965-3A700435",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CurveBeam AI's Appendix 4G filing confirms annual compliance with ASX Corporate Governance Principles, a procedural requirement that signals baseline governance standards are being maintained — critical for a healthcare technology company seeking institutional credibility.",
+        "The FY2026 Corporate Governance Statement provides transparency on board composition, risk management frameworks, and audit structures, which institutional investors will scrutinise given CVB's early-stage commercialisation phase and ongoing cash burn profile.",
+        "No material governance changes or red flags are implied by this filing; however, investors should cross-reference with the upcoming annual report to assess whether board skillsets are evolving in line with CVB's AI-driven medical imaging growth strategy."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FDV",
+      "company": "FRONTIER DIGITAL VENTURES LIMITED",
+      "headline": "Change of Director's Interest Notice - PH",
+      "time": "2026-08-30T23:00:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128964-3A700439",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for director 'PH' at Frontier Digital Ventures signals a movement in that director's shareholding — the direction (acquisition vs. disposal) is the key variable determining sentiment and insider confidence signals.",
+        "If the transaction reflects an on-market purchase, it would indicate insider conviction in FDV's emerging-market classifieds portfolio recovery thesis; a disposal would raise questions about management alignment at a time when FDV is navigating profitability milestones across Southeast Asian and African markets.",
+        "Investors should monitor the aggregate quantum and transaction price relative to recent market prices, as director trading patterns at smaller-cap companies like FDV can serve as meaningful leading indicators of near-term operational developments."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RC1",
+      "company": "REDCASTLE RESOURCES LIMITED",
+      "headline": "Company Update",
+      "time": "2026-08-30T23:00:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128962-6A1341199",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Redcastle Resources' Company Update, classified as non-market sensitive, likely covers operational or administrative developments at this early-stage resources company — the absence of market sensitivity designation limits immediate re-rating potential.",
+        "For a junior resources company like RC1, company updates typically address exploration progress, tenement status, or corporate activity; investors should parse the update for any forward exploration commitments or capital allocation signals that could affect the cash runway narrative.",
+        "Given RC1's micro-cap profile, any material exploration result or strategic partnership detail embedded within a nominally routine update could disproportionately impact liquidity and share price — close reading of the full document is warranted."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FPC",
+      "company": "FAT PROPHETS GLOBAL CONTRARIAN FUND LTD",
+      "headline": "Update - Notification of buy-back - FPC",
+      "time": "2026-08-30T23:00:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128963-2A1693608",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Fat Prophets Global Contrarian Fund's buy-back notification signals that the board views its shares as trading at a discount to net asset value (NAV), a classic value-accretive mechanism for Listed Investment Companies (LICs) that can compress the discount over time.",
+        "Buy-backs in LICs are structurally positive for remaining shareholders as they reduce the share count while potentially acquiring assets below intrinsic value, effectively improving NTA per share — a meaningful signal for a fund with a contrarian investment mandate.",
+        "Investors should monitor the buy-back volume, pricing parameters, and duration to assess the board's conviction level; a sustained and material buy-back program would represent a stronger endorsement of intrinsic value than a token or minimum-threshold program."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WJL",
+      "company": "WEBJET GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - WJL",
+      "time": "2026-08-30T22:59:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128960-3A700438",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Webjet Group Limited's buy-back notification indicates the board has confidence in the company's balance sheet strength and cash generation capacity post its structural separation, viewing current share price levels as an attractive entry point relative to intrinsic value.",
+        "A buy-back at WJL is a meaningful capital allocation signal given the company's recent corporate restructuring — it suggests management believes the market has not fully priced in the standalone B2B travel technology business's earnings power and growth trajectory.",
+        "Investors should assess the buy-back size as a percentage of market capitalisation and free cash flow yield; a material program relative to WJL's cash position would reinforce the bull case around disciplined capital management and shareholder returns."
+      ],
+      "tags": [
+        "Technology",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EMT",
+      "company": "EMETALS LIMITED",
+      "headline": "Mineral Range Tungsten Project, Further Assay Results",
+      "time": "2026-08-30T22:59:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128961-6A1341197",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "eMetals' further assay results from the Mineral Range Tungsten Project provide incremental geological data, but the non-market-sensitive classification suggests results are either in line with or below expectations — a key risk for investors banking on a resource upgrade catalyst.",
+        "Tungsten remains a strategically significant critical mineral with strong defence and industrial demand tailwinds; however, project advancement at EMT depends critically on grade continuity, tonnage potential, and proximity to infrastructure — all factors that assay results must progressively validate.",
+        "Investors should focus on whether these results expand the known mineralised footprint, improve confidence in grade distribution, or identify higher-grade zones, as these outcomes determine the pathway to a maiden or upgraded JORC resource estimate — the true re-rating catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WEB",
+      "company": "WEB TRAVEL GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - WEB",
+      "time": "2026-08-30T22:59:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128959-3A700434",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Web Travel Group's buy-back notification — noting WEB is the legacy Webjet online travel agency business post-demerger from WJL — signals board confidence in the standalone consumer travel platform's valuation and cash generation at current market prices.",
+        "The buy-back is a positive capital discipline signal for WEB as it navigates its first full reporting periods as an independent entity; it suggests management does not perceive a need to hoard cash for near-term operational stresses or strategic acquisitions, prioritising shareholder returns instead.",
+        "Investors should cross-reference this buy-back announcement with WEB's most recent cash position and free cash flow guidance to validate that the program is genuinely accretive rather than a short-term sentiment management exercise during a post-demerger re-rating period."
+      ],
+      "tags": [
+        "Retail",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FDV",
+      "company": "FRONTIER DIGITAL VENTURES LIMITED",
+      "headline": "Change of Director's Interest Notice - JD",
+      "time": "2026-08-30T22:59:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128958-3A700437",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A second Change of Director's Interest Notice at Frontier Digital Ventures — this time for director 'JD' — on the same day as the 'PH' notice suggests potential coordinated director activity, possibly related to a vesting event, share plan allocation, or concurrent market transactions.",
+        "Simultaneous filings from multiple directors can indicate a structured equity incentive plan vesting or a company-facilitated transaction, which warrants examination of FDV's remuneration structure and whether these movements reflect genuine open-market buying or plan-related distributions.",
+        "The cumulative signal from multiple same-day director notices at FDV should be aggregated to assess net insider positioning — if both directors are net acquirers, the combined signal of insider conviction is amplified and more meaningful for institutional observers."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATG",
+      "company": "ARTICORE GROUP LIMITED",
+      "headline": "FY26 results webcast transcript",
+      "time": "2026-08-30T22:59:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128957-3A700432",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Articore Group's FY26 results webcast transcript provides a detailed, accessible record of management's commentary on financial performance, strategic priorities, and market outlook — critical primary source material for investors assessing the e-commerce and creative marketplace operator's trajectory.",
+        "The transcript format enables granular analysis of management tone, specific financial metrics disclosed (revenue growth, margin trends, customer acquisition costs, and marketplace GMV), and forward guidance nuances that may not be fully captured in the statutory results release.",
+        "Investors should focus on management's commentary around profitability pathways, geographic expansion economics, and competitive dynamics within the global online creative marketplace sector, as these narratives will anchor near-term valuation multiples and analyst consensus revisions."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FDV",
+      "company": "FRONTIER DIGITAL VENTURES LIMITED",
+      "headline": "Change of Director's Interest Notice - NW",
+      "time": "2026-08-30T22:59:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128956-3A700433",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A third Change of Director's Interest Notice at Frontier Digital Ventures on the same day — for director 'NW' — further reinforces the likelihood of a structured corporate event such as a vesting, performance rights conversion, or executive share plan allocation affecting multiple board members simultaneously.",
+        "Three concurrent director notices at FDV in a single trading session is an unusual volume of insider activity disclosure; while individually non-market sensitive, the pattern warrants scrutiny to determine whether aggregate net exposure is increasing or decreasing across the director cohort.",
+        "Institutional investors should review all three FDV director notices (PH, JD, NW) in aggregate and cross-reference with FDV's remuneration report and any outstanding performance hurdles, as coordinated vesting events can create near-term selling pressure if directors elect to liquidate plan-issued securities."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ELK",
+      "company": "ELK RANGE MINING LIMITED",
+      "headline": "Change of Director's Interest Notice - Baird",
+      "time": "2026-08-30T22:59:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128955-6A1341198",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director at Elk Range Mining has altered their interest holding, signalling insider positioning activity that warrants monitoring for directional conviction — acquisitions typically reflect confidence in near-term catalysts while disposals may indicate risk reduction.",
+        "As a small-cap mining explorer, any shift in director shareholdings is proportionally more meaningful than at large-caps, given the limited float and the outsized influence insiders can have on sentiment and liquidity.",
+        "Investors should cross-reference the quantum and nature of the transaction (on-market purchase, options exercise, or disposal) against recent project milestones or capital raise activity to assess whether this represents genuine alignment or routine administrative restructuring."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMP",
+      "company": "AMP LIMITED",
+      "headline": "Update - Notification of buy-back - AMP",
+      "time": "2026-08-30T22:59:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128954-2A1693607",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMP's buyback update confirms continued capital management activity, reinforcing management's view that the stock remains undervalued relative to intrinsic worth — an important signal for investors assessing capital allocation discipline post-divestment restructuring.",
+        "On-market buybacks reduce share count over time, providing modest but tangible EPS accretion and supporting the share price floor; the pace and volume of buybacks disclosed in this update will determine whether the program is materially impactful or largely symbolic.",
+        "With AMP in an ongoing strategic transformation, consistent buyback execution alongside cost reduction targets suggests the balance sheet remains sufficiently robust — investors should track remaining buyback capacity and whether the program is being accelerated or wound down."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "X2M",
+      "company": "X2M CONNECT LIMITED",
+      "headline": "Appendix 4G",
+      "time": "2026-08-30T22:59:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128953-3A700427",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "X2M Connect's Appendix 4G filing is a routine ASX corporate governance compliance document cross-referencing the company's adherence to the ASX Corporate Governance Principles and Recommendations — no operational or financial data is disclosed.",
+        "While procedural in nature, the timely lodgement of an Appendix 4G is a minimum governance hygiene requirement; failure to lodge or material deviations from the recommendations can be a red flag for institutional ESG screens and governance-focused investors.",
+        "For a technology-focused micro-cap like X2M, maintaining clean governance disclosures is important for credibility with potential institutional backers — investors should review the accompanying Corporate Governance Statement for any notable departures from best-practice recommendations."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "X2M",
+      "company": "X2M CONNECT LIMITED",
+      "headline": "Preliminary Fi Report and Annual Report to shareholders",
+      "time": "2026-08-30T22:58:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128952-3A700426",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "X2M Connect's Preliminary Final Report and Annual Report reveal the full FY performance of its IoT utility metering platform — revenue recognition from large infrastructure contracts (particularly in the Middle East and Southeast Asia) and the pace of meter deployments are the key financial signals.",
+        "X2M's business model involves long-duration contracts with government-linked utilities, meaning revenue can be lumpy; investors should assess whether deferred revenue on the balance sheet has converted to recognised income and whether the order backlog has grown, providing forward earnings visibility.",
+        "The Annual Report will also disclose related-party transactions, executive remuneration, and any impairment of contract assets — areas of historical scrutiny for the company; a clean audit opinion combined with positive cash collection trends would be the most constructive outcome for near-term sentiment."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTS",
+      "company": "CERETAS LIMITED",
+      "headline": "Ethics Committee Approval Secured for Additional Trial Sites",
+      "time": "2026-08-30T22:58:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128951-2A1693605",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ceretas has secured Ethics Committee approval to expand its clinical trial to additional sites — a procedural but operationally significant milestone that accelerates patient recruitment capacity and reduces single-site concentration risk, directly impacting trial completion timelines.",
+        "Multi-site approval is a leading indicator of trial velocity; faster enrolment compresses the time to data readout, which is a binary value catalyst for a clinical-stage biotech — earlier data means earlier partnering or out-licensing discussions with potential acquirers.",
+        "Investors should monitor the specific therapeutic indication, the number of new sites approved, and the updated patient enrolment target, as these will determine whether the expanded trial infrastructure can meaningfully pull forward the expected data readout date and reduce cash burn relative to a prolonged single-site timeline."
+      ],
+      "tags": [
+        "Healthcare",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TBN",
+      "company": "TAMBORAN RESOURCES CORPORATION",
+      "headline": "Tamboran Resources Site Tour Presentation",
+      "time": "2026-08-30T22:58:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128950-2A1693603",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tamboran Resources is hosting a site tour for investors and analysts at its Beetaloo Basin natural gas assets in the Northern Territory — site tours are typically staged at inflection points in a project's development cycle to build institutional conviction ahead of FID (Final Investment Decision) or a major capital raise.",
+        "The presentation will likely showcase drilling and flow test results from the EP136/EP76 permits, where Tamboran has been progressing towards commercial shale gas production; any updated resource estimates, production rates from pilot wells, or infrastructure partnership announcements embedded in the presentation would be materially significant.",
+        "The strategic context is critical: Tamboran's Beetaloo assets are positioned as a cornerstone of Australia's domestic gas supply strategy, and site tour visibility often precedes capital structure decisions (equity raise, debt facility, or farm-in partner announcement) — investors should treat the presentation as a pre-marketing signal."
+      ],
+      "tags": [
+        "Energy",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CVB",
+      "company": "CURVEBEAM AI LIMITED",
+      "headline": "Annual Report to shareholders - FY2026",
+      "time": "2026-08-30T22:57:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128949-3A700428",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "CurveBeam AI's FY2026 Annual Report delivers a full-year financial and operational update for its weight-bearing cone-beam CT imaging business — given the company's commercialisation stage across the US, Europe, and Australia, revenue growth from system sales and recurring software/service contracts are the primary valuation metrics.",
+        "Key disclosures to scrutinise include total units installed globally, average selling price trends, gross margin on hardware vs. software, and cash runway — CurveBeam AI has been scaling its commercial infrastructure, so operating leverage (or lack thereof) in SG&A will indicate whether the business is approaching profitability inflection.",
+        "The FY2026 report (noting the forward fiscal year label) positions CurveBeam AI at a mature commercialisation stage; any announcement of FDA clearance for additional indications, hospital system procurement agreements, or AI algorithm performance data would represent the highest-impact catalysts embedded in the Annual Report narrative."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AVD",
+      "company": "AVADA GROUP LIMITED",
+      "headline": "2026 Appendix 4G and Corporate Governance Statement",
+      "time": "2026-08-30T22:56:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128948-2A1693606",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Avada Group's simultaneous lodgement of the 2026 Appendix 4G and Corporate Governance Statement reflects standard annual compliance obligations under ASX Listing Rule 4.10.3, with no immediate financial or strategic implications for shareholders.",
+        "The pairing of both documents suggests Avada is maintaining baseline governance transparency requirements, which is particularly relevant as the company navigates its growth phase — any departures from the eight core ASX governance principles disclosed within the statement should be scrutinised for risk implications.",
+        "Investors should use this filing as a prompt to assess board composition, independence ratios, audit and remuneration committee structures, and whether governance frameworks are scaling appropriately with the company's evolving operational complexity."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "NGE",
       "company": "NGE CAPITAL LIMITED",
