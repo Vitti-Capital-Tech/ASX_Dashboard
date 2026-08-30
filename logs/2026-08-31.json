@@ -1,9 +1,425 @@
 {
   "date": "2026-08-31",
-  "total": 345,
-  "market_sensitive_count": 138,
-  "generated_at": "2026-08-30T23:22:42.234426+00:00",
+  "total": 367,
+  "market_sensitive_count": 148,
+  "generated_at": "2026-08-30T23:29:09.083884+00:00",
   "announcements": [
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst MINIs Cash Amounts for Stop Loss Event 28 Aug 26",
+      "time": "2026-08-30T23:26:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129046-2A1693644",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CitiFirst MINIs stop loss event on 28 Aug 2026 triggers mandatory cash settlement calculations, effectively terminating affected structured product positions at the barrier level.",
+        "Investors holding these MINIs will receive residual cash amounts (if any) post-stop loss, with values typically near zero given the barrier breach mechanics — underscoring the total-loss risk inherent in leveraged structured products.",
+        "No direct impact on CTW's underlying equity; this is an administrative derivatives lifecycle event managed by Citi, requiring no shareholder action but relevant to retail investors holding these specific instruments."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AS1",
+      "company": "ASARA RESOURCES LIMITED",
+      "headline": "Kada Interim Mineral Resource Grows 125% to 2.1m Ounces",
+      "time": "2026-08-30T23:26:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129047-3A700461",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Asara's Kada interim mineral resource has grown 125% to 2.1 million ounces, a transformational upgrade that materially re-rates the project's scale and potential economic viability as a standalone mine.",
+        "The magnitude of the resource increase — more than doubling in a single update — signals highly successful infill and extensional drilling, likely compressing the timeline to a scoping study or pre-feasibility assessment.",
+        "At 2.1Moz, Kada now sits in a tier that attracts serious M&A interest and project financing conversations; near-term catalysts will centre on resource conversion (inferred to indicated), metallurgical results, and the path to a maiden ore reserve."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "88E",
+      "company": "88 ENERGY LIMITED",
+      "headline": "PEL 93 Advances to Next Exploration Phase",
+      "time": "2026-08-30T23:26:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129045-6A1341219",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "88 Energy's PEL 93 licence advancing to the next exploration phase signals regulatory and technical milestones have been met, maintaining the project's forward momentum in what remains a speculative basin.",
+        "Phase progression typically requires work programme commitments — investors should watch for disclosed well planning timelines, partner funding obligations, and any updated prospective resource estimates to assess capital requirements.",
+        "While flagged as not market sensitive, exploration phase transitions in junior energy companies can catalyse renewed speculative interest; the 'so what' lies in whether a drill decision or farm-out process is imminent, which would be the true value inflection point."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DJW",
+      "company": "DJERRIWARRH INVESTMENTS LIMITED",
+      "headline": "Weekly Estimated NTA as at 28 August 2026",
+      "time": "2026-08-30T23:25:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129044-3A700463",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DJW's weekly NTA disclosure as at 28 August 2026 provides a routine valuation benchmark for this LIC, allowing investors to assess the current premium or discount to market price — a key metric for LIC capital allocation decisions.",
+        "As a dividend-focused LIC investing in ASX blue chips, NTA movements directionally reflect broader market performance; any material discount to NTA may attract activist or arbitrage interest.",
+        "This is a compliance-driven, recurring disclosure with no standalone investment signal; the actionable insight lies in comparing this week's NTA against the prevailing share price to identify entry or exit opportunities relative to intrinsic value."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ION",
+      "company": "IONDRIVE LIMITED",
+      "headline": "Full Year Statutory Accounts",
+      "time": "2026-08-30T23:25:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129043-2A1693646",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "IonDrive's full year statutory accounts filing is a mandatory compliance submission; the critical read-through for institutional investors is the auditor's going concern opinion, cash burn rate, and net asset position given the company's early-stage profile.",
+        "As a pre-revenue or early-revenue technology/energy storage company, the balance sheet health — specifically cash runway versus operational expenditure — will determine whether a capital raise is imminent, a key near-term risk for existing shareholders.",
+        "The 'not market sensitive' classification suggests no material earnings surprises are embedded, but investors should scrutinise related-party transactions, director remuneration, and any contingent liabilities that may not have been previously flagged to the market."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OEC",
+      "company": "ORBITAL CORPORATION LIMITED",
+      "headline": "Annual Results and FY2027 Outlook",
+      "time": "2026-08-30T23:25:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129042-6A1341218",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Orbital Corporation's annual results release is market-sensitive, suggesting the FY2025 financial performance contains material information — investors should focus on revenue trajectory, EBITDA margins, and whether the defence/UAV segment is driving sustainable top-line growth.",
+        "The inclusion of a FY2027 outlook is unusually forward-looking for a micro-cap, implying management has sufficient contract visibility or signed agreements to underpin a multi-year revenue forecast — a meaningful de-risking signal for institutional investors.",
+        "Key metrics to watch: order book size, recurring versus one-off revenue mix, cash burn versus operating cash flow, and any guidance quantification for FY2026/FY2027 that confirms or surprises relative to prior market expectations."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AL3",
+      "company": "AML3D LIMITED",
+      "headline": "2026 Annual Report to shareholders",
+      "time": "2026-08-30T23:24:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129041-6A1341225",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "AML3D's 2026 Annual Report provides the definitive full-year financial and operational summary for this metal 3D printing technology company; key metrics to assess include revenue trajectory, gross margin progression, and order book depth.",
+        "Given AL3's history as a growth-stage defence and industrial manufacturer, the annual report will reveal whether management's commercialisation milestones — particularly U.S. Navy and defence contracts — have translated into meaningful revenue recognition.",
+        "Investors should focus on the FY27 outlook commentary and any guidance provided; the gap between contract wins announced throughout the year and actual revenue recognised will be the most telling indicator of business model maturity."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAU",
+      "company": "KAISER REEF LIMITED",
+      "headline": "Underground Diamond Drilling Underway at Maldon",
+      "time": "2026-08-30T23:24:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129040-6A1341215",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of underground diamond drilling at Kaiser Reef's Maldon gold project is a tangible operational milestone, moving the project from development planning into active resource definition — a positive signal for resource confidence.",
+        "Diamond drilling provides high-quality oriented core samples critical for geological modelling and potential JORC resource upgrades; results from this programme could materially re-rate the project's economic case if high-grade intercepts are confirmed.",
+        "Investors should track drill hole spacing, target depths, and expected assay turnaround times — typically 4–8 weeks — as the upcoming results release will be the key near-term catalyst for KAU's share price."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MNB",
+      "company": "MINBOS RESOURCES LIMITED",
+      "headline": "Resignation of Chief Financial Officer",
+      "time": "2026-08-30T23:23:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129039-6A1341223",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The resignation of Minbos Resources' CFO introduces financial leadership uncertainty at a critical juncture for this African-focused fertiliser company, which has been advancing its Cabinda phosphate project toward production — a bearish signal on execution risk.",
+        "CFO departures at project-stage companies can signal disagreements over capital strategy, funding timelines, or internal financial controls; institutional investors will be watching closely for the appointment of a replacement and any associated commentary on strategic direction.",
+        "The immediate priority for management is ensuring continuity of financial reporting, banking covenants, and investor relations; failure to appoint a credible successor promptly could delay project financing discussions and erode market confidence."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WTM",
+      "company": "WARATAH MINERALS LIMITED",
+      "headline": "Drilling Defines New Gold Zone at Gum Flat",
+      "time": "2026-08-30T23:23:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129038-6A1341216",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Waratah Minerals has intersected a new gold zone at Gum Flat, expanding the known mineralised footprint beyond existing targets and potentially adding a new discovery vector to what may have been a single-zone exploration story.",
+        "The definition of a structurally distinct new zone is geologically significant — it suggests the broader Gum Flat system is more extensive than previously modelled, which could support a larger resource base and justify accelerated drilling expenditure.",
+        "Near-term focus will be on assay results and widths/grades of intersections; if grades are economic (>1g/t Au over meaningful widths), this announcement could serve as a re-rating catalyst ahead of a maiden or updated resource estimate."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ANN",
+      "company": "ANSELL LIMITED",
+      "headline": "Ansell FY26 Environmental, Social & Governance Report",
+      "time": "2026-08-30T23:23:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129037-3A700457",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ansell's FY26 ESG Report formalises the company's non-financial performance disclosure, increasingly scrutinised by institutional investors applying ESG mandates — relevant for index inclusion, sustainable finance instruments, and proxy advisory assessments.",
+        "Key metrics to evaluate include Scope 1/2/3 emissions reduction progress, supply chain labour standards (critical given Ansell's manufacturing footprint in Asia), and diversity targets, all of which directly influence ESG-linked financing costs.",
+        "While not market sensitive in isolation, a strong ESG report can broaden the institutional investor base and reduce cost of capital over time; any material ESG controversies or missed targets disclosed within the report would be the watch point."
+      ],
+      "tags": [
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AR9",
+      "company": "ARCHTIS LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-30T23:23:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129036-6A1341222",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "archTIS's Preliminary Final Report (4E equivalent) will provide the first unaudited full-year financial snapshot, with key investor attention on whether the cybersecurity/information security SaaS business has achieved meaningful ARR growth and narrowed its operating losses.",
+        "Given archTIS operates in the defence and government data security space, contract wins and retention metrics are critical — any revenue miss or elevated churn signal would be a material negative given the company's growth-stage cash consumption profile.",
+        "Cash position and runway will be closely scrutinised; if operating cash outflows remain elevated without a commensurate step-up in recurring revenue, the market will price in near-term dilution risk through a capital raise."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OEC",
+      "company": "ORBITAL CORPORATION LIMITED",
+      "headline": "Appendix 4E and Audited Financial Statements",
+      "time": "2026-08-30T23:22:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129035-6A1341214",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The simultaneous release of Orbital's Appendix 4E alongside audited financial statements provides a higher degree of financial integrity than a preliminary report alone — auditor sign-off removes restatement risk and supports the credibility of the FY2027 outlook disclosed in the accompanying results announcement.",
+        "Investors should cross-reference the audited accounts against the FY2027 outlook for consistency in revenue recognition policies, capitalised development costs, and any going-concern qualifications or emphasis-of-matter paragraphs from the auditor.",
+        "The combination of audited results and multi-year guidance in a single trading day is a deliberate investor relations strategy, suggesting management confidence in the numbers and a desire to anchor the market narrative around growth rather than historical losses."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "QBE",
+      "company": "QBE INSURANCE GROUP LIMITED",
+      "headline": "Notification of cessation of securities - QBE",
+      "time": "2026-08-30T23:22:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129034-2A1693645",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "QBE's notification of cessation of securities most likely relates to the lapse or cancellation of performance rights, options, or other equity instruments — a routine administrative disclosure with no immediate P&L impact.",
+        "The 'so what' depends on the volume and nature of securities ceased; if material employee incentive instruments have lapsed unvested, it may signal executive departures or performance hurdle failures, warranting a closer read of the underlying notice.",
+        "For institutional shareholders, monitoring cumulative equity plan activity — issuances versus cessations — is important for tracking dilution dynamics and management incentive alignment within QBE's long-term remuneration framework."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ION",
+      "company": "IONDRIVE LIMITED",
+      "headline": "Appendix 4E",
+      "time": "2026-08-30T23:22:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129033-2A1693642",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "IonDrive's Appendix 4E filing marks the completion of its full-year reporting obligation; as an early-stage battery technology company, the critical metrics will be R&D expenditure levels, grant income, and cash reserves relative to the commercialisation timeline.",
+        "Revenue is likely minimal or nil at this stage, meaning the market will focus entirely on the cash burn rate and months of runway remaining — any shortfall versus prior guidance on milestones or funding will weigh on the share price.",
+        "Any disclosure of partnership agreements, licensing revenue, or non-dilutive funding (e.g. government grants) within the 4E would be a positive surprise; absence of such items reinforces the expectation of an upcoming capital raise to fund continued operations."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OMG",
+      "company": "OMG GROUP LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-30T23:22:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129032-3A700460",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "OMG Group has entered a trading halt, which is typically a precursor to a material announcement — the most common triggers are a capital raise, M&A transaction, or significant business update that requires an orderly market suspension.",
+        "The market-sensitive classification confirms this is not procedural; investors should anticipate a substantive announcement within 2 trading days per ASX Listing Rules, with a capital raise being the statistically most probable outcome for a small-cap in a halt.",
+        "Until the reason is disclosed, risk is asymmetric — a halt ahead of a strategic transaction or strong operational update is bullish, while a halt for a distressed capital raise or regulatory issue is bearish; position sizing should reflect this binary uncertainty."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AL3",
+      "company": "AML3D LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-30T23:21:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129031-6A1341221",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AML3D's Preliminary Final Report covers the full-year results for the metal additive manufacturing company, with investors focused on whether US Navy and defence contract revenues have translated into meaningful top-line growth and a credible path to profitability.",
+        "The defence additive manufacturing sector is experiencing strong tailwinds; however, AML3D's ability to convert contract wins into recurring revenue streams — rather than lumpy project-based income — will determine whether the valuation premium is justified.",
+        "Cash position and operating leverage are the key watch items: if gross margins are expanding alongside revenue growth, the business model is scaling as intended; if not, further dilutive capital raises remain likely given the company's historical cash consumption pattern."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RYM",
+      "company": "RYMAN HEALTHCARE LIMITED",
+      "headline": "Application for quotation of securities - RYM",
+      "time": "2026-08-30T23:21:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129030-3A700459",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ryman Healthcare's application for quotation of new securities on ASX indicates fresh shares are being admitted to trading — likely arising from a capital raise, DRP (dividend reinvestment plan), or employee share scheme exercise requiring administrative quotation.",
+        "Investors should identify the source and quantum of securities being quoted; if related to a previously announced capital raise, this represents the final settlement step and may create short-term selling pressure as new holders receive stock.",
+        "As a dual-listed NZ retirement village operator with meaningful capital requirements for village development, any equity issuance context is material to understanding RYM's funding strategy and net asset value per share trajectory."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AS1",
+      "company": "ASARA RESOURCES LIMITED",
+      "headline": "Proposed issue of securities - AS1",
+      "time": "2026-08-30T23:21:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129029-3A700458",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Asara Resources is flagging a proposed securities issuance, a procedural disclosure that signals potential near-term capital raising activity — investors should monitor the subsequent Appendix 3B for exact volume, pricing, and dilution impact.",
+        "As a small-cap explorer, the timing and structure of any new securities issue will be critical: equity raises at a discount to market price are common in this sector and can materially dilute existing shareholders if not accompanied by a clear deployment rationale.",
+        "Next step is the formal Appendix 3B lodgement confirming the number of securities, issue price, and use of proceeds — until then, the strategic intent (exploration funding, working capital, or a placement to a strategic partner) remains unconfirmed."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RF1",
+      "company": "REGAL INVESTMENT FUND",
+      "headline": "Weekly Estimate NTA for 28.08.2026",
+      "time": "2026-08-30T23:21:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129027-2A1693641",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Regal Investment Fund's weekly NTA estimate for 28 August 2026 provides a routine valuation reference point for unitholders, with the key focus being the premium or discount at which RF1 is trading relative to the disclosed NTA — a persistent discount would signal value or structural concern.",
+        "As a listed investment fund with exposure to alternative and hedge strategies, weekly NTA fluctuations reflect underlying portfolio mark-to-market movements; any material deviation from prior weeks would indicate significant positioning gains or losses across Regal's multi-strategy book.",
+        "This is an administrative, recurring disclosure with no new strategic information; investors should track the NTA trend over consecutive weeks to assess whether portfolio performance is compounding or deteriorating ahead of any formal periodic reporting."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WOA",
+      "company": "WIDE OPEN AGRICULTURE LTD",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-30T23:21:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129028-6A1341220",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Wide Open Agriculture's Preliminary Final Report will reflect the performance of its regenerative agriculture and oat protein (Dirty Clean Food) business — a niche consumer food brand where revenue scale and path to gross profit breakeven are the primary investor concerns.",
+        "The company has faced headwinds from slow retail penetration and the capital-intensive nature of scaling a food brand; any evidence of accelerating revenue, improved gross margins, or a strategic distribution partnership would be a meaningful positive signal.",
+        "Cash runway is the existential metric for WOA — with limited revenue and ongoing operating losses, investors will calculate months of runway from the reported cash balance against the quarterly burn rate to assess whether a near-term capital raise is inevitable."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TLM",
+      "company": "TALISMAN MINING LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-30T23:21:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129026-6A1341217",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Talisman Mining's trading halt is a market-sensitive event for this copper-focused explorer, with a capital raise or project update being the most likely trigger — the company has been advancing the Springfield copper project, making a financing or farm-out announcement plausible.",
+        "A halt ahead of a strategic partnership, farm-in agreement, or project sale would be materially bullish for a small explorer with limited cash resources; conversely, a discounted equity raise to fund ongoing exploration would signal cash pressure and weigh on the share price.",
+        "Investors should monitor the nature of the subsequent announcement closely — any deal involving a major miner or a significant re-rating of the Springfield resource would confirm the halt was value-accretive, while a standalone placement at a discount would confirm capital stress."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SVL",
       "company": "SILVER MINES LIMITED",
