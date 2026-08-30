@@ -1,9 +1,623 @@
 {
   "date": "2026-08-31",
-  "total": 207,
-  "market_sensitive_count": 84,
-  "generated_at": "2026-08-30T22:39:50.651646+00:00",
+  "total": 239,
+  "market_sensitive_count": 96,
+  "generated_at": "2026-08-30T22:49:05.127276+00:00",
   "announcements": [
+    {
+      "ticker": "NAE",
+      "company": "NEW AGE EXPLORATION LIMITED",
+      "headline": "Wallah Silver Project - Drilling Contractor Appointed",
+      "time": "2026-08-30T22:46:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128919-3A700423",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NAE has appointed a drilling contractor for the Wallah Silver Project, signalling the program is moving from planning into execution — a key de-risking milestone for a junior explorer where contractor availability is often a critical bottleneck.",
+        "The market-sensitive classification suggests the drilling program is of material scale or strategic importance; investor focus will be on hole count, depth targets, and proximity to historical silver mineralisation to assess discovery potential.",
+        "Near-term catalysts will centre on drill commencement announcements and first assay results — typical re-rating events for small-cap explorers; watch for any resource estimation timeline commentary that could frame a longer-term valuation pathway."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AHE",
+      "company": "ADHERIS HEALTH LIMITED",
+      "headline": "Adheris FY26 Results",
+      "time": "2026-08-30T22:45:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128918-6A1341187",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Adheris Health has released its FY26 full-year results — a market-sensitive filing that will be the primary driver of near-term price action; headline revenue growth, EBITDA margin trajectory, and any net profit/loss figure will be the key metrics institutional investors scrutinise.",
+        "As a healthcare company, recurring revenue quality, patient engagement program retention rates, and any commentary on contract wins or losses with pharmaceutical partners will be critical to assessing earnings durability beyond FY26.",
+        "Guidance or outlook commentary for FY27 will be closely watched; any upgrade or downgrade relative to prior market expectations will likely amplify price movement given the stock's small-cap liquidity profile."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VR1",
+      "company": "VECTION TECHNOLOGIES LTD",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-30T22:45:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128917-2A1693586",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Vection Technologies' Preliminary Final Report (Appendix 4E equivalent) provides the first formal full-year financial snapshot — revenue growth rate versus the prior year and the path to profitability (or widening losses) will dominate market reaction for this XR/3D technology company.",
+        "As a technology company operating in enterprise immersive solutions, gross margin expansion and ARR (annual recurring revenue) trends are the highest-signal metrics; any deterioration in cash burn relative to cash on hand will raise runway concerns.",
+        "The market-sensitive flag suggests results contain material new information — investors should look for any restatements, impairments, or audit qualifications that could add complexity to the headline numbers and dampen initial sentiment."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZNC",
+      "company": "ZENITH MINERALS LIMITED",
+      "headline": "TOV: ZNC - Panel Makes New Interim Orders",
+      "time": "2026-08-30T22:45:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128916_PS-6A1341188",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Takeovers Panel issuing new interim orders against Zenith Minerals (ZNC) is a significant regulatory development — interim orders typically restrict the exercise of voting rights, share transfers, or acquisition activity, creating meaningful uncertainty around any current or proposed corporate transaction.",
+        "This is a materially bearish procedural event in the near term: Panel intervention signals a disputed transaction or potential breach of acquisition rules, which can freeze deal timelines, deter counter-bidders, and introduce legal cost overhangs for the company.",
+        "Investors should monitor the Panel's reasons for the interim orders and whether a final order hearing is scheduled — resolution could swing either way, but the compliance and governance overhang will suppress the stock until clarity emerges."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TOV",
+      "company": "TOV",
+      "headline": "ZNC - Panel Makes New Interim Orders",
+      "time": "2026-08-30T22:45:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128916_NPS-2A1693587",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This announcement appears to be misfiled or cross-listed under TOV but references ZNC (likely Zenith Minerals or a related entity), with a panel issuing new interim orders — suggesting an active regulatory or legal dispute with binding interim consequences.",
+        "Interim panel orders in an ASX context typically relate to takeover panel proceedings, which could restrict share acquisitions, compel disclosure, or freeze certain corporate actions — material for any party involved in the underlying transaction.",
+        "Despite being flagged as not market sensitive, interim panel orders can have significant implications for deal certainty and shareholder rights; investors in any related entity should monitor for escalation to final orders."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GLL",
+      "company": "GALILEE ENERGY LIMITED",
+      "headline": "Notice of General Meeting/Proxy Form",
+      "time": "2026-08-30T22:44:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128915-2A1693382",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Galilee Energy's Notice of General Meeting signals that shareholders will be asked to vote on resolutions that could materially alter the company's strategic direction — likely including capital structure changes, board appointments, or asset transactions given GLL's energy project status.",
+        "GLL has been navigating significant headwinds around its Glenaras Gas Project in Queensland; any GM resolution related to project funding, farmin agreements, or leadership change would carry outsized strategic weight.",
+        "Investors should review the proxy materials closely for any resolutions requiring shareholder approval of dilutive capital raises or related-party transactions, which are common at this stage for junior energy companies."
+      ],
+      "tags": [
+        "AGM",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXN",
+      "company": "DXN LIMITED",
+      "headline": "FY26 Results Investor Presentation",
+      "time": "2026-08-30T22:44:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128914-3A700421",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "DXN Limited's FY26 Results Investor Presentation provides management's curated narrative around full-year performance — key focus areas will be data centre revenue growth, EBITDA margins, and the conversion rate of its project pipeline into contracted revenue.",
+        "As a data centre infrastructure and services provider, DXN's ability to demonstrate operating leverage on a growing revenue base is critical; any evidence of margin compression from construction cost inflation or labour shortages would be a key risk flag.",
+        "The investor presentation format suggests management is proactively positioning the results to the market — watch for forward-looking statements on capacity expansions, customer concentration risk, and FY27 revenue guidance as primary valuation anchors."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AHE",
+      "company": "ADHERIS HEALTH LIMITED",
+      "headline": "FY26 Annual Report",
+      "time": "2026-08-30T22:43:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128913-6A1341185",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Adheris Health's FY26 Annual Report provides a full-year operational and financial overview for this healthcare-focused company — the non-market-sensitive flag suggests results were either pre-released or are in line with prior guidance, limiting surprise risk.",
+        "Key focus areas for institutional investors will be revenue sustainability, client retention metrics, and EBITDA margin trends — particularly relevant given the competitive dynamics in health services and pharmacy adherence programs.",
+        "The annual report also provides mandatory governance disclosures; any changes in auditor opinion, going concern language, or related-party transactions would be red flags requiring immediate attention."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HLI",
+      "company": "HELIA GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - HLI",
+      "time": "2026-08-30T22:43:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128912-2A1693585",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Helia Group's buyback update confirms continued capital return activity, reinforcing management's view that HLI shares are trading below intrinsic value — a structurally bullish signal for existing shareholders as it supports the share price floor.",
+        "For a lenders mortgage insurance (LMI) provider like Helia, an active buyback during a period of elevated mortgage stress and housing market uncertainty signals strong balance sheet confidence and excess capital generation.",
+        "Investors should track cumulative buyback volumes and remaining buyback capacity to assess how much additional EPS accretion and capital return upside remains — this is a key valuation lever for HLI in the near term."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MCO",
+      "company": "MYECO GROUP LTD",
+      "headline": "Preliminary Final Report - Presentation",
+      "time": "2026-08-30T22:43:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128911-3A700420",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MyEco Group's Preliminary Final Report presentation provides initial FY26 financial disclosure ahead of the formal Appendix 4E — the simultaneous release with the annual report (see announcement [8]) suggests the company is presenting results in a packaged, investor-friendly format, which is generally a positive governance signal.",
+        "As a small-cap sustainability/eco-focused company, revenue scale and path to cash flow breakeven are the critical metrics; investors will assess whether the business model is gaining commercial traction or remains pre-revenue/early-stage.",
+        "The market-sensitive designation warrants attention — any material revenue milestone, acquisition, or significant loss figure disclosed in this presentation will be the primary near-term price catalyst, particularly given the illiquid nature of micro-cap ASX stocks."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "T88",
+      "company": "TAITON RESOURCES LIMITED",
+      "headline": "Change of Director's Interest Notice - ST",
+      "time": "2026-08-30T22:41:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128910-6A1341183",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for Taiton Resources indicates an insider transaction — whether a purchase or disposal by director 'ST' will determine the directional signal; purchases are typically interpreted as confidence in the company's outlook.",
+        "For a small-cap resources company like T88, director buying activity carries amplified informational value given limited analyst coverage and often illiquid trading conditions — even modest on-market purchases can signal a positive catalyst on the horizon.",
+        "Investors should verify the nature of the transaction (on-market purchase vs. options exercise vs. disposal) and the size relative to the director's total holding to calibrate the strength of the insider signal."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MCO",
+      "company": "MYECO GROUP LTD",
+      "headline": "Appendix 4G and Corporate Governance",
+      "time": "2026-08-30T22:41:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128909-3A700418",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MyEco Group's Appendix 4G and Corporate Governance Statement filing is a mandatory compliance submission aligned with ASX Listing Rule 4.10.3 — it maps the company's adherence (or explain departures) from the ASX Corporate Governance Principles and Recommendations.",
+        "For a small or emerging company like MCO, this filing is procedural but offers insight into board composition, risk oversight structures, and audit independence — areas that institutional investors increasingly screen for ESG and governance compliance.",
+        "Any material departures from the ASX governance framework, particularly around board independence or audit committee composition, could deter institutional capital and should be noted as a governance risk factor."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LSF",
+      "company": "L1 LONG SHORT FUND LIMITED",
+      "headline": "Net Tangible Asset Backing",
+      "time": "2026-08-30T22:41:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128908-3A700419",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "L1 Long Short Fund's monthly NTA disclosure provides a real-time valuation update on LSF's portfolio — the NTA per share figure relative to the prevailing share price determines the discount or premium at which the LIC is trading, a key entry/exit signal.",
+        "L1 Long Short is one of Australia's highest-profile active LICs; NTA movements reflect both gross portfolio performance and the impact of short positions, making this a useful proxy for L1 Capital's near-term market conviction.",
+        "If the reported NTA shows compression versus the prior month, this may reflect adverse mark-to-market on long positions or short squeeze dynamics — investors should compare NTA trends against the ASX 200 return over the same period for context."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DGT",
+      "company": "DIGICO INFRASTRUCTURE REIT",
+      "headline": "Proposed issue of securities - DGT",
+      "time": "2026-08-30T22:40:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128907-2A1693583",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DiGiCo Infrastructure REIT's proposed securities issuance signals a capital raise is imminent — for an infrastructure REIT, this typically funds asset acquisitions or development pipeline expansion, which can be NAV-accretive if priced and deployed effectively.",
+        "The critical question is the issue price relative to current NTA and the use of proceeds — a deeply discounted raise for unclear purposes would be dilutive and bearish, while an acquisition-linked raise at or near NTA would be viewed constructively.",
+        "DGT operates in the digital infrastructure space (data centres, towers), a high-growth sector with strong institutional demand; any acquisition funded by this raise will be closely scrutinised for yield accretion, lease tenure, and counterparty quality."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Property",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "A4N",
+      "company": "ALPHA HPA LIMITED",
+      "headline": "Corporate Governance Statement and Appendix 4G",
+      "time": "2026-08-30T22:40:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128906-2A1693582",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Alpha HPA's Corporate Governance Statement and Appendix 4G filing is a routine annual compliance requirement under ASX Listing Rules, confirming the company's adherence to the ASX Corporate Governance Principles and Recommendations — no operational or financial surprises embedded.",
+        "As a pre-revenue high-purity alumina developer, governance transparency matters to institutional investors assessing management accountability ahead of any future project financing or offtake negotiations.",
+        "No immediate action required; investors should monitor upcoming project milestones and funding updates as the more material near-term catalysts for A4N's valuation."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPS",
+      "company": "PRAEMIUM LIMITED",
+      "headline": "Final Director's Interest Notice",
+      "time": "2026-08-30T22:40:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128905-3A700417",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Praemium's Final Director's Interest Notice reflects a departing director's last recorded shareholding position, a standard regulatory disclosure with no direct financial or strategic implications for the company.",
+        "The notice may signal the conclusion of a board transition at PPS; investors should cross-reference recent board composition changes to assess whether this departure represents a loss of institutional knowledge or a planned succession.",
+        "For a technology-driven wealth management platform where leadership continuity is a key confidence signal, any board turnover warrants monitoring, though this filing alone provides no negative catalyst."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AR1",
+      "company": "AUSTRAL RESOURCES AUSTRALIA LTD",
+      "headline": "Appointment of Chief Financial Officer",
+      "time": "2026-08-30T22:40:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128904-2A1693580",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Austral Resources has appointed a new Chief Financial Officer, a material leadership hire for a copper developer that is navigating project funding, cost management, and potential capital markets activity — the CFO role is pivotal to execution credibility.",
+        "The identity, background, and experience of the incoming CFO will be critical; a candidate with strong mining finance or project finance credentials would be a positive signal for upcoming funding rounds or debt structuring at the Anthill copper project.",
+        "Investors should assess whether this appointment accelerates or delays any near-term financing milestones, as CFO transitions can temporarily slow capital markets processes while the new executive conducts due diligence on the balance sheet."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AHE",
+      "company": "ADHERIS HEALTH LIMITED",
+      "headline": "Appendix 4G and Corporate Governance Statement",
+      "time": "2026-08-30T22:40:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128903-6A1341179",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Adheris Health's Appendix 4G and Corporate Governance Statement is a mandatory annual filing under ASX Listing Rules, providing a checklist of compliance with the ASX Corporate Governance Council's recommendations — purely procedural in nature.",
+        "As a relatively small healthcare company, governance disclosures can occasionally reveal gaps or 'if not, why not' explanations against best-practice benchmarks, which institutional investors may scrutinise for risk management quality.",
+        "No investment thesis impact from this filing; near-term catalysts for AHE remain tied to clinical, commercial, or financial updates rather than governance disclosures."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GSS",
+      "company": "GENETIC SIGNATURES LIMITED",
+      "headline": "Board Changes",
+      "time": "2026-08-30T22:39:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128901-2A1693581",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Genetic Signatures has announced board changes, which at a diagnostics-focused commercialisation stage company can significantly influence investor confidence — the nature of changes (departures vs. appointments) and the profiles involved are the key variables to assess.",
+        "If the changes involve the exit of experienced directors with deep molecular diagnostics or US market expertise, this could be viewed cautiously given GSS's ongoing international expansion efforts; conversely, strategic new appointments could be a positive signal.",
+        "Investors should review the full announcement for specifics on incoming director credentials and whether any departing directors held key committee roles (audit, remuneration), as these details will determine the true sentiment impact."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AHE",
+      "company": "ADHERIS HEALTH LIMITED",
+      "headline": "Appendix 4E",
+      "time": "2026-08-30T22:39:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128902-6A1341180",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Appendix 4E lodgement by Adheris Health is the statutory financial report accompanying the FY26 results (announcement [2]) — this document contains the audited or reviewed financial statements and is the authoritative source for revenue, net profit/loss, EPS, and dividend declarations.",
+        "Key compliance metrics to verify: whether the auditor's review is unqualified, the accuracy of prior-year comparatives, and whether any going concern note has been included — the last of these would be a significant bearish signal for a small healthcare operator.",
+        "The dual release of results and Appendix 4E simultaneously reflects good disclosure practice; investors should cross-reference the Appendix 4E numbers against any guidance previously provided to the market to assess management credibility."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CRR",
+      "company": "CRITICAL RESOURCES LIMITED",
+      "headline": "Proposed issue of securities - CRR",
+      "time": "2026-08-30T22:39:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128900-6A1341122",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Critical Resources' proposed securities issuance is a potential dilution event for existing shareholders; the size, pricing, and structure of the placement (whether at a discount to market and to whom) will determine the magnitude of the dilutive impact.",
+        "For a critical minerals explorer, capital raises are a recurring necessity to fund exploration and development activity, but placements at material discounts to the prevailing share price are typically bearish in the near term as they signal funding pressure.",
+        "Key details to monitor include the quantum of shares to be issued, the use of proceeds, whether the raise is tied to a specific project milestone, and whether strategic or institutional investors are participating — all of which affect the market's interpretation."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MCO",
+      "company": "MYECO GROUP LTD",
+      "headline": "Appendix 4E and FY26 Annual Report",
+      "time": "2026-08-30T22:39:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128899-3A700413",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "MyEco Group's combined Appendix 4E and FY26 Annual Report release is the most comprehensive disclosure event for the company this year — the annual report will include director remuneration, related-party transactions, and auditor commentary that can reveal governance and financial health signals not visible in headline results.",
+        "Critical focus areas for institutional due diligence: cash position and operating cash outflows (determining runway), any material going concern disclosures from the auditor, and the quality of receivables if revenue has been recognised.",
+        "The bundled release of the annual report with the Appendix 4E is efficient but can obscure material detail in volume — investors should specifically extract the cash flow statement and notes to financial statements rather than relying solely on the headline P&L."
+      ],
+      "tags": [
+        "Results",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CRR",
+      "company": "CRITICAL RESOURCES LIMITED",
+      "headline": "$1.6M Placement to Advance Exploration & Technology Programs",
+      "time": "2026-08-30T22:39:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128898-6A1341120",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Critical Resources has announced a $1.6M placement to fund exploration and technology programs — while relatively modest in size, the raise signals the company is actively progressing its asset portfolio; however, the small quantum raises questions about whether this is sufficient to reach meaningful milestones or whether further dilutive raisings are likely in the near term.",
+        "Investors should scrutinise the placement price relative to the prevailing market price (discount depth is a key dilution signal) and the identity of placees — strategic or institutional participation would be a more bullish read than a heavily discounted retail-style raise.",
+        "The dual allocation to 'exploration and technology programs' suggests a diversified use-of-funds strategy; clarity on which specific assets or tech initiatives are being advanced — and associated timelines — will determine whether the capital deployment is value-accretive or dilutive to existing shareholders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DXN",
+      "company": "DXN LIMITED",
+      "headline": "DXN set for FY27 with record backlog and rising AI demand",
+      "time": "2026-08-30T22:38:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128896-3A700416",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DXN's headline that it enters FY27 with a 'record backlog and rising AI demand' is a high-conviction bullish signal — a record order book provides visible, contracted revenue that underpins forward earnings estimates and reduces execution risk, a key valuation driver for infrastructure-focused companies.",
+        "The explicit linkage to AI demand is strategically significant: data centre operators with credible AI-workload exposure are commanding premium multiples globally, and this narrative positions DXN to attract re-rating attention from technology and infrastructure investors seeking ASX-listed AI infrastructure proxies.",
+        "Investors should verify the composition and conversion timeline of the backlog (contracted vs. preferred supplier status), the margin profile of AI-driven workloads versus traditional data centre services, and any capacity constraints that could limit DXN's ability to fulfil the pipeline without significant additional capital expenditure."
+      ],
+      "tags": [
+        "Technology",
+        "Results",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PPM",
+      "company": "PEPPER MONEY LIMITED",
+      "headline": "Final Director's Interest Notice",
+      "time": "2026-08-30T22:38:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128897-2A1693579",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Pepper Money's Final Director's Interest Notice for a departing director is a standard end-of-tenure regulatory disclosure, confirming the individual's last recorded equity position in PPM — no financial or strategic read-through on its own.",
+        "Given that this filing coincides with a separate resignation announcement (item 10), the two should be read together; the interest notice provides context on whether the departing director held significant equity and the potential for any associated selling pressure.",
+        "No standalone investment impact; the resignation announcement (item 10) carries the more substantive signal for PPM's governance trajectory."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALL",
+      "company": "ARISTOCRAT LEISURE LIMITED",
+      "headline": "Update - Notification of buy-back - ALL",
+      "time": "2026-08-30T22:38:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128895-2A1693578",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Aristocrat Leisure's on-market buyback update signals continued capital management discipline; buybacks are generally bullish as they reflect board confidence in the company's cash generation and suggest the stock is considered undervalued relative to intrinsic value.",
+        "As one of the ASX's largest and most profitable gaming technology companies, ALL's buyback program is a meaningful return-of-capital mechanism — the pace and volume of buyback activity should be tracked as an indicator of management's near-term earnings confidence.",
+        "Investors should monitor cumulative buyback spend relative to the announced program limit, as acceleration or deceleration in repurchase activity can be an early signal of shifts in free cash flow outlook or balance sheet priorities."
+      ],
+      "tags": [
+        "Other",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BBN",
+      "company": "BABY BUNTING GROUP LIMITED",
+      "headline": "Director Appointment - Richard Vincent",
+      "time": "2026-08-30T22:38:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128894-3A700415",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Baby Bunting has appointed Richard Vincent to its board, a development that carries strategic weight given the retailer's ongoing turnaround efforts — the credentials and background of the appointee will determine whether this is a genuine catalyst or routine board refreshment.",
+        "A new director with retail operations, supply chain, or consumer discretionary expertise would be viewed positively by the market, particularly as BBN works to stabilise margins and rebuild earnings momentum after a challenging period.",
+        "Investors should assess whether this appointment addresses any identified skills gaps on the board and whether it signals any shift in strategic direction, including potential M&A activity, cost restructuring, or capital allocation priorities."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XRG",
+      "company": "XREALITY GROUP LTD",
+      "headline": "XRG Investor Presentation FY26",
+      "time": "2026-08-30T22:38:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128893-2A1693577",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "XRG's FY26 investor presentation signals a strategic reset or growth narrative targeting institutional and retail capital — the market-sensitive flag suggests forward-looking guidance or material business updates that could reprice the stock materially.",
+        "As a small-cap XR/tech play, the presentation likely outlines revenue targets, partnership pipelines, or product milestones; investors should scrutinise whether disclosed KPIs represent genuine commercial traction or aspirational projections.",
+        "Near-term focus should be on any disclosed cash position, burn rate, and whether the company is flagging a capital raise to fund FY26 operations — given XRG's size, dilution risk remains a key watch item."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPM",
+      "company": "PEPPER MONEY LIMITED",
+      "headline": "Resignation of Non-Executive Director",
+      "time": "2026-08-30T22:38:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128892-2A1693575",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "The resignation of a Non-Executive Director at Pepper Money is the more substantive of the two PPM filings today; unexplained or abrupt board departures at financial services companies can raise questions about governance, strategic disagreements, or regulatory concerns.",
+        "Pepper Money operates in a sensitive lending environment subject to ASIC and APRA oversight — any perception of board instability in this context could attract additional scrutiny from regulators and institutional investors assessing governance risk.",
+        "The market will want to understand the reason for the resignation and the timeline for a replacement; if no successor is immediately named and no explanation provided, this is likely to weigh on near-term sentiment for PPM."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GTG",
+      "company": "GENETIC TECHNOLOGIES LIMITED",
+      "headline": "FY25 Appendix 4G & Corporate Governance Statement",
+      "time": "2026-08-30T22:38:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128891-3A700410",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "GTG's FY25 Appendix 4G and Corporate Governance Statement filing is a routine ASX Listing Rule 4.7.3 compliance obligation, signalling no structural changes to governance frameworks but confirming the company remains in good standing with exchange requirements — critical for a micro-cap operating in the regulated genomics/healthcare space.",
+        "For a company of GTG's size and cash burn profile, governance disclosures are closely scrutinised by institutional investors as a proxy for board quality and oversight discipline; any deviations from the ASX Corporate Governance Principles (4th Edition) recommendations would warrant attention, though this filing type rarely surfaces material exceptions.",
+        "Next steps for investors centre on the upcoming FY25 Annual Report and financial accounts, which will reveal the substantive metrics — cash runway, revenue trajectory from geneType risk assessment products, and progress on US commercialisation — that this procedural filing does not address."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GAS",
+      "company": "STATE GAS LIMITED",
+      "headline": "Application for quotation of securities - GAS",
+      "time": "2026-08-30T22:37:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128890-2A1693576",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "State Gas Limited's application for quotation of new securities on ASX indicates a recent capital raise or securities issuance has been completed, with new shares/options now seeking official exchange listing — a routine but important step that formalises the dilutive impact on existing shareholders.",
+        "The nature and scale of the securities being quoted (whether shares, options, or performance rights) will determine the degree of near-term dilution; investors should cross-reference this filing with the associated placement or entitlement offer announcement to quantify the capital raised and implied use of proceeds for gas exploration/development activities.",
+        "For a small-cap energy explorer like GAS, the deployment of newly raised capital into its Queensland gas assets will be the key value catalyst to monitor; any delays in well programs or permitting following this capital event could weigh on sentiment given the inherent execution risk in the sector."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XRG",
+      "company": "XREALITY GROUP LTD",
+      "headline": "Appendix 4E - Preliminary Final Report",
+      "time": "2026-08-30T22:37:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128889-2A1693574",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Appendix 4E Preliminary Final Report is a market-sensitive full-year earnings disclosure — revenue, EBITDA, net loss, and cash flow figures will be the primary valuation anchors for the market to reassess XRG's intrinsic value.",
+        "For a micro-cap technology company like XRG, the critical metrics are cash burn versus revenue growth trajectory; any widening net loss without corresponding revenue acceleration would be a significant negative signal.",
+        "Investors should cross-reference this report with the FY26 investor presentation (announcement #1) filed simultaneously — the combination suggests management is actively managing the narrative around what may be a challenging or transitional result."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "DXN",
       "company": "DXN LIMITED",
