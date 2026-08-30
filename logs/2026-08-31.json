@@ -1,9 +1,655 @@
 {
   "date": "2026-08-31",
-  "total": 311,
-  "market_sensitive_count": 126,
-  "generated_at": "2026-08-30T23:13:52.629234+00:00",
+  "total": 345,
+  "market_sensitive_count": 138,
+  "generated_at": "2026-08-30T23:22:42.234426+00:00",
   "announcements": [
+    {
+      "ticker": "SVL",
+      "company": "SILVER MINES LIMITED",
+      "headline": "Chief Financial Officer Appointed",
+      "time": "2026-08-30T23:20:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129025-2A1693640",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Silver Mines has appointed a new Chief Financial Officer — at this stage of SVL's development (advancing the Bowdens Silver Project toward development-readiness), bringing in dedicated CFO-level financial leadership is a meaningful governance upgrade.",
+        "The appointment signals the company is professionalising its corporate structure ahead of anticipated capital-intensive project milestones, including potential project financing, offtake negotiations, or a development decision for Bowdens — Australia's largest undeveloped silver deposit.",
+        "While not classified as market sensitive, the calibre and background of the incoming CFO will be closely scrutinised by institutional investors; a candidate with project financing or mining capital markets experience would be viewed positively as a proxy for near-term funding activity."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VBC",
+      "company": "VERBREC LIMITED",
+      "headline": "Dividend/Distribution - VBC",
+      "time": "2026-08-30T23:20:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129024-6A1341210",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Verbrec has declared a dividend distribution — the confirmation of a dividend payment alongside its FY2026 results signals management confidence in the company's free cash flow generation and balance sheet stability.",
+        "The dividend yield and payout ratio relative to FY2026 earnings will be a key reference point for income-oriented investors assessing whether VBC offers sustainable yield compared to engineering services sector peers.",
+        "A dividend declaration concurrent with a preliminary final report reinforces the investment case for VBC as a cash-generative business, though sustainability will depend on the earnings quality disclosed in the accompanying Appendix 4E."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VBC",
+      "company": "VERBREC LIMITED",
+      "headline": "FY2026 Annual Report",
+      "time": "2026-08-30T23:20:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129023-6A1341208",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "The release of Verbrec's FY2026 Annual Report provides the full audited financial statements, director's report, and remuneration disclosures — the detailed document will be combed by analysts for any material disclosures beyond the preliminary Appendix 4E.",
+        "Key areas of institutional focus will include related-party transactions, capital allocation commentary from the board, debt covenants, and any forward-looking statements or order book disclosures that frame the FY2027 earnings outlook.",
+        "As a non-market-sensitive filing accompanying a market-sensitive day, the annual report serves as the definitive reference document — any inconsistencies with the 4E or unexpected disclosures could still move the stock in secondary trading."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AS1",
+      "company": "ASARA RESOURCES LIMITED",
+      "headline": "Acquisition of the Damissa Koura Permit, Expanding Kada",
+      "time": "2026-08-30T23:20:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129022-3A700456",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Asara Resources is expanding its Kada project footprint in West Africa via the acquisition of the Damissa Koura Permit, signalling active portfolio growth in what remains a high-risk but potentially high-reward exploration jurisdiction.",
+        "The market-sensitive classification suggests material consideration — investors should scrutinise deal terms including any scrip component, cash outlay, or earn-in structure that could dilute existing shareholders or strain the balance sheet.",
+        "Key next steps will be the release of historical data and initial work programs on Damissa Koura; near-term catalysts hinge on whether the permit adds meaningful resource optionality or merely increases holding costs without immediate exploration upside."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AGY",
+      "company": "ARGOSY MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-30T23:19:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129021-6A1341213",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Argosy Minerals has entered a trading halt, a procedural mechanism typically preceding a material announcement such as a capital raise, significant asset transaction, or major project update at its Rincon lithium project in Argentina.",
+        "Given the current subdued lithium market environment, the nature of the pending announcement is critical — a capital raise at a discount would be bearish, while a strategic partnership or offtake agreement could be a meaningful re-rating catalyst.",
+        "Investors should monitor the resumption announcement closely; AGY has been navigating a challenging funding environment for Rincon's commercialisation, making the substance of this halt particularly consequential for near-term sentiment."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFI",
+      "company": "AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
+      "headline": "Update - Notification of buy-back - AFI",
+      "time": "2026-08-30T23:18:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129020-3A700455",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Foundation Investment Company (AFI) has updated the ASX on its ongoing on-market share buyback program — buybacks by LICs such as AFI are a capital management tool aimed at reducing the discount of the share price to Net Tangible Assets (NTA).",
+        "The buyback update is procedural and administrative in nature, confirming continued execution under an existing approved facility — the volume and pricing of buyback activity will determine its actual accretive impact on remaining shareholders.",
+        "For AFI's investor base (predominantly yield-focused retail and self-managed super funds), consistent buyback activity is a modest positive signal of capital discipline, though the NTA discount remains the primary valuation driver to monitor."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DJW",
+      "company": "DJERRIWARRH INVESTMENTS LIMITED",
+      "headline": "Update - Notification of buy-back - DJW",
+      "time": "2026-08-30T23:18:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129019-3A700454",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Djerriwarrh Investments (DJW), the ASX-listed Listed Investment Company managed by Australian Foundation Investment Company, has filed a buyback notification update — consistent with the broader AFIC group's capital management strategy.",
+        "DJW's buyback serves a similar NTA-discount management function as AFI's — the LIC uses buybacks as a lever to support the share price relative to the underlying value of its equity portfolio, which is concentrated in large-cap ASX dividend payers.",
+        "This is a routine regulatory update with no new strategic signal; the key watch metric remains whether the buyback pace is accelerating (indicating greater concern about discount widening) or decelerating as market conditions improve."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RYM",
+      "company": "RYMAN HEALTHCARE LIMITED",
+      "headline": "Ryman Healthcare Limited - Capital Change Notice",
+      "time": "2026-08-30T23:18:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129018-3A700453",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ryman Healthcare has lodged a Capital Change Notice — this typically relates to changes in share capital structure such as the issuance of new shares, conversion of instruments, or adjustments to listed securities, and warrants close attention given RYM's capital-intensive retirement village development pipeline.",
+        "Ryman operates across Australia and New Zealand with significant debt funding requirements for its aged care and retirement living developments — any equity-related capital change could signal dilution risk or alternatively reflect employee/performance share plan vesting.",
+        "As a non-market-sensitive filing, the capital change is likely procedural (e.g. dividend reinvestment, option exercises, or DRP issuance), but investors should confirm the nature and scale of the share issuance to assess dilution impact on EPS."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMH",
+      "company": "AMCIL LIMITED",
+      "headline": "Update - Notification of buy-back - AMH",
+      "time": "2026-08-30T23:18:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129017-3A700452",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMCIL Limited, an AFIC-affiliated Listed Investment Company, has filed a buyback notification update — mirroring the capital management approach of its sister vehicles AFI and DJW in managing the LIC's NTA discount.",
+        "AMCIL's buyback program targets smaller-cap ASX growth companies within its portfolio mandate, making its NTA fluctuation potentially more volatile than AFI or DJW — the effectiveness of the buyback in sustaining the share price near NTA is the critical metric.",
+        "This is a routine ASX compliance notification with no new information content for investors; the broader takeaway is that the AFIC group is consistently executing buybacks across its LIC stable, reflecting a unified capital management posture amid ongoing LIC discount pressures sector-wide."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASL",
+      "company": "ANDEAN SILVER LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-30T23:17:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129016-6A1341212",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Andean Silver has requested a trading halt, pausing market activity ahead of what is likely a material corporate or exploration announcement related to its silver-focused South American asset portfolio.",
+        "The halt is market-sensitive, suggesting the pending news crosses the ASX threshold for price-sensitive disclosure — possibilities include a capital raise, a new resource estimate, a joint venture, or an acquisition.",
+        "Until the halt is lifted and the substantive announcement released, the impact on ASL's valuation remains indeterminate; the silver sector's recent macro tailwinds (USD weakness, safe-haven demand) could amplify the market reaction either way."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AT1",
+      "company": "ATOMO DIAGNOSTICS LIMITED",
+      "headline": "2026 Appendix 4G and Corporate Governance Statement",
+      "time": "2026-08-30T23:17:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129015-2A1693634",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Atomo Diagnostics has filed its Appendix 4G and Corporate Governance Statement for FY2026, a mandatory ASX compliance submission confirming adherence to the ASX Corporate Governance Principles and Recommendations — no substantive operational or financial disclosure is contained herein.",
+        "The filing signals the company is current with its listing obligations, which is a baseline expectation for institutional investors monitoring governance hygiene, particularly relevant for a small-cap diagnostics company navigating a post-COVID commercialisation phase.",
+        "Investors should cross-reference this filing with the separately released FY26 Results Presentation (Announcement [3]) for meaningful financial and strategic insight; this document alone provides no valuation-relevant data."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KCN",
+      "company": "KINGSGATE CONSOLIDATED LIMITED.",
+      "headline": "Dividend/Distribution - KCN",
+      "time": "2026-08-30T23:16:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129013-2A1693631",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Kingsgate Consolidated has announced a dividend or distribution, a notable development for a gold miner that has historically prioritised capital reinvestment and navigated complex jurisdictional risk, particularly relating to its Chatree mine in Thailand.",
+        "The declaration of a dividend signals improving cash generation confidence from management — investors should scrutinise the quantum, franking level, and record/payment dates to assess sustainability relative to free cash flow and debt obligations.",
+        "This announcement may attract yield-oriented investors to KCN and could act as a positive re-rating catalyst, particularly if the dividend is franked and represents a new or reinstated capital return policy rather than a one-off special distribution."
+      ],
+      "tags": [
+        "Dividend",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CAF",
+      "company": "CENTREPOINT ALLIANCE LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-08-30T23:16:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129014-2A1693639",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased to hold a relevant interest in Centrepoint Alliance, indicating a significant institutional or strategic investor has exited or reduced their position below the 5% disclosure threshold.",
+        "While not classified as market-sensitive, the departure of a substantial holder can signal reduced conviction from informed capital, potentially increasing near-term selling pressure or reducing the stock's institutional sponsorship.",
+        "Investors should cross-reference the identity of the exiting holder — if it is a strategic partner or long-term anchor investor, the exit carries greater negative signalling weight than a passive fund rebalancing its portfolio."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AVE",
+      "company": "AVECHO BIOTECHNOLOGY LIMITED",
+      "headline": "Avecho enters final stage of Phase III insomnia trial",
+      "time": "2026-08-30T23:15:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129012-3A700450",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Avecho Biotechnology has entered the final stage of its Phase III insomnia trial, a pivotal de-risking milestone that materially increases the probability of generating registerable clinical data for its TPM (tocopheryl phosphate mixture) drug delivery platform.",
+        "Phase III completion is the last clinical hurdle before potential regulatory submission — successful outcomes here would position AVE for commercialisation discussions, licensing deals, or partnership negotiations, representing a significant value inflection point for a micro-cap biotech.",
+        "Key risks include trial readout timeline, statistical power of the primary endpoint, and the competitive insomnia treatment landscape; investors should note that binary clinical outcomes at this stage can produce outsized share price moves in either direction."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AT1",
+      "company": "ATOMO DIAGNOSTICS LIMITED",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-30T23:15:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129011-2A1693629",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Atomo Diagnostics has released its FY2026 Results Presentation, providing the market with a full-year financial and operational update — key metrics to scrutinise include revenue growth trajectory, gross margin evolution, operating cash burn, and cash runway given the company's commercialisation-stage profile.",
+        "Despite being flagged as not market sensitive, results presentations from small-cap healthcare companies often contain inflection-point data (e.g. partnership revenues, regulatory approvals, product mix shifts) that materially inform forward earnings estimates and sentiment.",
+        "Investors should assess whether AT1 has demonstrated a credible path to cash flow breakeven, particularly given the competitive rapid diagnostics landscape post-COVID, and whether any guidance or commentary on FY27 pipeline opportunities is provided."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HPG",
+      "company": "HIPAGES GROUP HOLDINGS LTD",
+      "headline": "Initial Director's Interest Notice - SF",
+      "time": "2026-08-30T23:15:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129010-2A1693637",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "An Initial Director's Interest Notice has been lodged for a new director (initials 'SF') at Hipages Group, indicating a recent board appointment and establishing the baseline disclosure of their security holdings in HPG at the time of appointment.",
+        "The initial holding level disclosed will signal whether the incoming director has purchased shares on-market prior to or at appointment — meaningful skin-in-the-game positions are viewed positively by institutional investors as alignment indicators.",
+        "This notice should be read in conjunction with Announcement [6] (Changes to Board of Directors) to understand the full context of the board restructure underway at HPG and assess whether the new appointment brings relevant strategic, technology, or marketplace expertise."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QML",
+      "company": "QMINES LIMITED",
+      "headline": "High-Grade Copper & Gold Continues at Mt Chalmers",
+      "time": "2026-08-30T23:15:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129009-6A1341211",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "QMines continues to intersect high-grade copper and gold mineralisation at Mt Chalmers in Queensland, reinforcing the project's geological quality and supporting the case for a materially larger resource estimate than currently defined.",
+        "Consistent high-grade results are critical for QML's path to development feasibility — strong drill results improve the economics of any future scoping or pre-feasibility study and enhance the project's attractiveness to potential acquirers or joint venture partners.",
+        "Near-term catalysts include an updated mineral resource estimate incorporating new drilling; in the current environment of elevated copper prices driven by energy transition demand, high-grade Australian copper-gold assets attract significant strategic interest."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HPG",
+      "company": "HIPAGES GROUP HOLDINGS LTD",
+      "headline": "Final Director's Interest Notice - NG",
+      "time": "2026-08-30T23:15:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129008-2A1693635",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Final Director's Interest Notice has been filed for departing director 'NG' at Hipages Group, representing the mandatory disclosure of security holdings at the time of ceasing to be a director — this is a routine compliance obligation upon board exit.",
+        "The key investor consideration is whether NG disposed of shares prior to departure, which could signal reduced conviction in HPG's near-term prospects, or whether shares were retained, suggesting continued alignment with the company's long-term trajectory.",
+        "This filing confirms a board transition is underway at HPG and should be assessed alongside the board change announcement [6] and incoming director notice [4] to form a complete picture of the governance reconstitution."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HPG",
+      "company": "HIPAGES GROUP HOLDINGS LTD",
+      "headline": "Changes to Board of Directors",
+      "time": "2026-08-30T23:14:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129007-2A1693633",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Hipages Group has formally announced changes to its Board of Directors, with the simultaneous appointment and departure notices (Announcements [4] and [5]) confirming a structured board transition rather than an abrupt resignation — the nature and rationale of this change warrants close attention.",
+        "Board composition changes at a technology-focused marketplace company like HPG can signal strategic pivots, succession planning, or investor-driven governance pressure; the credentials of the incoming director 'SF' will be critical in determining whether this is an upgrade or lateral move.",
+        "Institutional investors should monitor whether this board change is accompanied by any strategic update, change in management, or shift in capital allocation priorities — board transitions at mid-cap tech companies frequently precede M&A activity, cost restructuring, or revised growth strategies."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OPH",
+      "company": "OPHIR HIGH CONVICTION FUND",
+      "headline": "Weekly NTA 28.08.2026",
+      "time": "2026-08-30T23:13:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129006-2A1693632",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ophir High Conviction Fund has published its weekly Net Tangible Assets (NTA) update as of 28 August 2026, a routine disclosure required for listed investment companies (LICs) that allows investors to assess the prevailing premium or discount to NTA at which OPH trades on the ASX.",
+        "The critical data point for investors is the pre-tax and post-tax NTA per unit figures relative to the current market price — a persistent discount to NTA is a common valuation inefficiency in LICs that can attract activist or buyback-driven re-rating catalysts.",
+        "Given Ophir's focus on high-conviction Australian and global small-to-mid cap equities, the weekly NTA movement also provides an indirect read-through on small-cap equity market performance for the week ending 28 August 2026."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OEC",
+      "company": "ORBITAL CORPORATION LIMITED",
+      "headline": "Appendix 4G Corporate Governance Statement",
+      "time": "2026-08-30T23:13:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129005-6A1341207",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Orbital Corporation has lodged its Appendix 4G and Corporate Governance Statement, fulfilling its annual ASX listing rule compliance obligation — this is an administrative filing with no direct financial or operational content.",
+        "For a niche engineering and propulsion systems company like OEC, governance disclosures are worth monitoring for board composition and committee changes, particularly given the company's exposure to defence and unmanned aerial systems (UAS) contracts where board expertise is strategically relevant.",
+        "No actionable investment signal is generated by this filing alone; investors should look to OEC's most recent results and quarterly updates for operational and financial performance indicators."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VBC",
+      "company": "VERBREC LIMITED",
+      "headline": "FY2026 Appendix 4G & Corporate Governance Statement",
+      "time": "2026-08-30T23:13:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129004-6A1341206",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Verbrec Limited has submitted its FY2026 Appendix 4G and Corporate Governance Statement, a standard annual compliance filing confirming alignment with ASX Corporate Governance Principles — no financial or operational information is disclosed.",
+        "Verbrec, an engineering and technical services company, is subject to ongoing scrutiny regarding its post-restructure financial health and contract pipeline; while this filing is procedural, maintaining governance standards is a necessary condition for institutional investor eligibility.",
+        "Investors seeking substantive insight into VBC's FY2026 performance should await or cross-reference the company's full-year financial results and any forward guidance — this filing is a compliance check-box, not a value signal."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFG",
+      "company": "AUSTRALIAN FINANCE GROUP LTD",
+      "headline": "Change in substantial shareholding from AEF",
+      "time": "2026-08-30T23:13:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129003-6A1341209",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A substantial shareholding change has been disclosed for Australian Finance Group (AFG) from entity 'AEF', indicating that AEF has either crossed above or below a 5% ownership threshold — the direction of the change (accumulation vs. disposal) is the critical detail for assessing near-term price pressure or support.",
+        "Substantial holding movements in AFG are particularly significant given the company's position as a major mortgage aggregator; large institutional entry or exit can reflect macro views on Australian housing credit volumes, interest rate sensitivity, and broker channel dynamics.",
+        "If AEF is reducing its position, this may introduce near-term selling pressure on AFG shares; conversely, an increase signals institutional conviction in AFG's earnings recovery potential — investors should examine the full Form 604/603 for transaction dates, volumes, and average prices paid."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AT1",
+      "company": "ATOMO DIAGNOSTICS LIMITED",
+      "headline": "2026 Appendix 4E and Annual Report",
+      "time": "2026-08-30T23:13:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129002-2A1693626",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Atomo Diagnostics has released its Appendix 4E and Annual Report for FY2026, providing the market with full-year audited financial results — the market-sensitive flag indicates the results contain information that could materially move the share price.",
+        "Key metrics to scrutinise include revenue trajectory from rapid diagnostic test sales, cash burn rate and runway, gross margin trends, and any commentary on commercial partnerships or distribution agreements that underpin the FY2027 growth outlook.",
+        "AT1 operates in the point-of-care diagnostics space where post-COVID demand normalisation has pressured revenues across the sector; guidance and management commentary on new product pipelines or geographic expansion will be the primary sentiment driver from this release."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HYD",
+      "company": "HYDRIX LIMITED",
+      "headline": "Hydrix Advancing Strategic Defence Activities",
+      "time": "2026-08-30T23:13:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129001-3A700449",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Hydrix is advancing strategic defence activities, positioning the company within Australia's rapidly expanding defence technology sector — this update signals the company is actively converting its engineering capabilities into defence-specific revenue opportunities.",
+        "The strategic relevance is heightened by Australia's significant uplift in defence spending under AUKUS and the broader Indo-Pacific security framework, which is driving procurement pipelines for sovereign capability partners like Hydrix.",
+        "Investors should assess the materiality of any contracts or MoUs referenced, the timeline to revenue conversion, and whether defence activities represent a genuine business pivot or an opportunistic thematic rebranding — clarity on contract values will determine the re-rating potential."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EOS",
+      "company": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+      "headline": "Notification regarding unquoted securities - EOS",
+      "time": "2026-08-30T23:12:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129000-2A1693630",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EOS has notified ASX of unquoted securities, likely relating to employee incentive plan (EIP) or performance rights vesting — a routine administrative disclosure with no immediate dilution trigger for market participants.",
+        "Unquoted securities notifications are typically low-impact but warrant monitoring for cumulative dilution risk, particularly for a company like EOS that has historically used equity-based compensation to retain defence and engineering talent.",
+        "Investors should cross-reference this filing with any concurrent capital raise notices (see announcement [4]) to assess the aggregate dilution profile and understand the full scope of securities issuance activity at this time."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TTT",
+      "company": "TITOMIC LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-30T23:12:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128998-3A700448",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Titomic has entered a trading halt, suspending trading in its shares ahead of a pending material announcement — given TTT's focus on cold spray additive manufacturing technology with defence and industrial applications, the halt could relate to a contract win, capital raise, or strategic transaction.",
+        "Titomic has been actively pursuing defence and industrial manufacturing contracts; a significant contract announcement in the current Australian defence spending environment would represent a meaningful commercial validation of its proprietary Kinetic Fusion technology.",
+        "The trading halt outcome is binary in nature — a dilutive capital raise without accompanying revenue news would pressure the stock, while a strategic partnership, government contract, or export deal would likely be strongly received by the market."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IMM",
+      "company": "IMMUTEP LIMITED",
+      "headline": "Appendix 4E & 2026 Full Year Statutory Accounts",
+      "time": "2026-08-30T23:12:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128999-2A1693628",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Immutep has released its Appendix 4E and full-year statutory accounts for FY2026, providing audited financials for its LAG-3 immunotherapy platform — the market-sensitive classification suggests the results or accompanying commentary contain material disclosure.",
+        "Critical metrics include cash and cash equivalents (runway is paramount for a clinical-stage biotech), R&D expenditure trends, any milestone payments received from partner Merck KGaA, and updates on the AIPAC-003 Phase III trial in breast cancer.",
+        "IMM's near-term investment thesis hinges on Phase III trial progression and the potential for a transformational partnership or licensing deal; any guidance on upcoming data readouts or capital requirements disclosed in the annual report will be the primary share price driver."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KSL",
+      "company": "KINA SECURITIES LIMITED",
+      "headline": "2026 HY Financial Statements",
+      "time": "2026-08-30T23:11:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128997-2A1693623",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Kina Securities has lodged its 2026 Half-Year financial statements — an unusually early filing date suggesting either a non-standard balance date or a typographical/administrative error in the headline, which itself warrants clarification before drawing conclusions.",
+        "As Papua New Guinea's leading integrated financial services group, KSL's half-year results will be closely watched for net interest margin trends, loan book growth, and credit quality given ongoing macroeconomic pressures in the PNG economy including currency controls and commodity-linked volatility.",
+        "Until the actual financial data is reviewed, the key metrics to assess are: net profit after tax vs. prior corresponding period, non-performing loan ratios, capital adequacy, and any guidance on dividend sustainability — all critical signals for yield-focused investors holding KSL for its historically strong payout history."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VBC",
+      "company": "VERBREC LIMITED",
+      "headline": "FY2026 Appendix 4E - Preliminary Final Report",
+      "time": "2026-08-30T23:11:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128996-6A1341204",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Verbrec's FY2026 Appendix 4E is a market-sensitive preliminary final report — the headline financials (revenue, EBITDA, NPAT) will set the tone for how the market reprices the engineering services business heading into AGM season.",
+        "Key metrics to watch include revenue trajectory against FY2025, margin compression or expansion in its core asset integrity and engineering divisions, and whether the company has met or missed prior guidance thresholds.",
+        "As a preliminary report, audited accounts are still pending — any qualifications or subsequent restatements could introduce downside risk, while a clean beat on earnings would likely catalyse institutional re-rating of this mid-cap engineering play."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAM",
+      "company": "CLIME CAPITAL LIMITED",
+      "headline": "Notification of cessation of securities - CAM",
+      "time": "2026-08-30T23:11:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128995-2A1693627",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Clime Capital (CAM) has notified ASX of the cessation of securities, most likely relating to the expiry or lapse of options or performance rights that were not exercised — a routine but noteworthy capital structure event.",
+        "Cessation of securities is modestly positive from a dilution perspective, as it reduces the potential overhang from unexercised instruments; however, the quantum of ceased securities will determine whether this is material to CAM's fully diluted share count.",
+        "For a listed investment company like CAM, where NTA per share is a primary valuation metric, any reduction in dilutive securities marginally supports NTA per share accretion — investors should confirm the number of securities ceased against the total options/rights on issue to quantify the impact."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EOS",
+      "company": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+      "headline": "Proposed issue of securities - EOS",
+      "time": "2026-08-30T23:10:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128994-2A1693625",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EOS has lodged a proposed issue of securities notice, signalling an imminent capital raise — a significant development for a defence-technology company that has faced sustained cash burn and balance sheet pressure while pursuing large international contracts.",
+        "The structure, size, and pricing of the proposed issue are critical unknowns at this stage; a deeply discounted placement would signal urgency and weigh on the share price, whereas a strategic placement to a defence-aligned cornerstone investor could be re-rated positively by the market.",
+        "Taken together with announcement [1] (unquoted securities notification), EOS appears to be undertaking a broader securities issuance program — institutional investors should await the full terms of the raise, including any associated use-of-funds disclosure, to assess whether proceeds extend cash runway sufficiently to bridge to contract revenue milestones."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BAK",
+      "company": "BARKLY RARE EARTHS LIMITED",
+      "headline": "99% Extraction of MREO",
+      "time": "2026-08-30T23:10:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128992-6A1341205",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Barkly Rare Earths reporting 99% extraction of Mixed Rare Earth Oxides (MREO) is a technically significant metallurgical milestone — recovery rates at this level are exceptional by industry standards and de-risk the processing economics of the project substantially.",
+        "High MREO extraction efficiency directly improves projected project economics, potentially lowering operating costs per tonne and strengthening the feasibility case for a future processing facility or offtake agreement with downstream refiners.",
+        "This result positions BAK more competitively in the critical minerals supply chain narrative, likely attracting interest from strategic partners or government-backed funding bodies focused on ex-China rare earth supply security — a strong near-term catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VNL",
+      "company": "VINYL GROUP LTD",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-30T23:10:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03128993-2A1693624",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Vinyl Group's Preliminary Final Report is a market-sensitive result for the music-tech and media platform operator — investors will scrutinise revenue growth across its streaming, ticketing, and media verticals given the company's ongoing transition from early-stage to scalable operations.",
+        "Critical metrics include cash burn rate versus revenue growth, progress toward operating cost coverage, and any commentary on user/subscriber metrics which serve as leading indicators for monetisation potential in the digital music ecosystem.",
+        "Given VNL's growth-stage profile, a narrowing of losses or positive operating leverage signals would be meaningfully bullish, while a widening deficit without clear revenue inflection could pressure the stock in the near term."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "KSL",
       "company": "KINA SECURITIES LIMITED",
