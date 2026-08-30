@@ -1,9 +1,218 @@
 {
   "date": "2026-08-31",
-  "total": 411,
-  "market_sensitive_count": 160,
-  "generated_at": "2026-08-30T23:39:08.906054+00:00",
+  "total": 422,
+  "market_sensitive_count": 161,
+  "generated_at": "2026-08-30T23:45:39.469079+00:00",
   "announcements": [
+    {
+      "ticker": "SIO",
+      "company": "SIMONDS GROUP LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-30T23:41:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129102-3A700474",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Simonds Group's Preliminary Final Report is market sensitive, signalling material full-year financial outcomes that could meaningfully reset earnings expectations for this residential construction play amid a still-challenging housing cost environment.",
+        "Investors should scrutinise revenue trajectory, gross margin compression from elevated land and labour costs, and any impairment charges or contract provisions that may have crystallised in the period.",
+        "Key forward indicators to watch include order book depth, cancellation rates, and management commentary on the trajectory of detached housing demand as interest rate relief begins to filter through consumer confidence."
+      ],
+      "tags": [
+        "Results",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMC",
+      "company": "AMCOR PLC",
+      "headline": "Form 4s",
+      "time": "2026-08-30T23:40:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129101-3A700473",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Form 4 filings for Amcor (AMC) relate to insider transaction disclosures required under US SEC rules, reflecting the dual-listed nature of the company on both ASX and NYSE.",
+        "These filings are procedural in nature and typically cover officer or director buy/sell activity; the directional signal depends on whether insiders are net buyers or sellers, details of which require reviewing the underlying Form 4 documents.",
+        "For ASX-listed AMC holders, this is largely an administrative disclosure with no immediate read-through to operating performance or capital structure, though persistent insider selling could warrant closer monitoring over time."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RG8",
+      "company": "REGAL ASIAN INVESTMENTS LIMITED",
+      "headline": "Weekly NTA Update",
+      "time": "2026-08-30T23:39:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129100-2A1693682",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Regal Asian Investments' weekly NTA update provides a routine transparency disclosure for unitholders, with the key metric being the premium or discount at which RG8 trades relative to its reported net tangible assets.",
+        "Any meaningful week-on-week NTA movement would reflect underlying performance of the Asian equities portfolio, making it a high-frequency signal on manager alpha generation in a volatile regional market environment.",
+        "This is a non-market-sensitive administrative release; however, persistent NTA erosion or a widening discount to NTA could weigh on sentiment and re-rating prospects for the LIC."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAM",
+      "company": "WAM CAPITAL LIMITED",
+      "headline": "Geoff Wilson Appendix 3Y",
+      "time": "2026-08-30T23:39:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129099-2A1693681",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Appendix 3Y filed for Geoff Wilson — WAM Capital's founder and CIO — discloses a change in the nature or extent of his director interest, a routine but closely watched filing given his influential role in the WAM franchise.",
+        "Any increase in Wilson's direct or indirect holdings would be a constructive signal of insider conviction, particularly relevant given WAM's current discount to NTA and ongoing dividend sustainability debates.",
+        "This is an administrative compliance filing and not market sensitive; however, directional changes in key insider positions at LICs often attract retail investor attention given the personality-driven nature of the Wilson Asset Management brand."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TCG",
+      "company": "TURACO GOLD LIMITED",
+      "headline": "s708A Notice - Issue of Shares",
+      "time": "2026-08-30T23:37:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129098-6A1341237",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Turaco Gold's s708A notice confirms the issue of shares without a disclosure document, typically following a placement to sophisticated or institutional investors — a procedural step to restore free-trading status to newly issued securities.",
+        "The capital raise mechanics suggest TCG has recently completed a placement, which could indicate funding for exploration activity, resource drilling, or working capital; the use of proceeds is the critical variable for assessing dilution impact.",
+        "While not flagged as market sensitive, the quantum of shares issued and the implied placement price relative to market will determine whether this represents value-accretive or dilutive capital deployment for existing shareholders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMH",
+      "company": "AMCIL LIMITED",
+      "headline": "Application for quotation of securities - AMH",
+      "time": "2026-08-30T23:37:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129097-3A700470",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMCIL Limited's application for quotation of new securities on ASX is a standard post-issuance administrative step, ensuring recently issued shares (likely from a DRP, placement, or option exercise) become tradeable on market.",
+        "The filing itself is procedural and non-market-sensitive; however, the source and volume of new securities being quoted will determine any marginal dilution effect on existing AMH shareholders.",
+        "AMCIL is a listed investment company managed by Australian Foundation Investment Company; routine securities issuance is consistent with its DRP or capital management activities and unlikely to shift the share price materially."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NSC",
+      "company": "NAOS SMALL CAP OPPORTUNITIES COMPANY LIMITED",
+      "headline": "Invitation to NAOS Investor Roadshow",
+      "time": "2026-08-30T23:37:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129096-2A1693677",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "NAOS Small Cap Opportunities Company is hosting an investor roadshow, a positive engagement signal that management is actively seeking to reduce the LIC's discount to NTA by improving market awareness and retail investor participation.",
+        "Roadshows of this nature often precede or accompany portfolio updates or performance commentary, giving attendees early qualitative insight into the small-cap investment thesis and stock-level positioning.",
+        "While not market sensitive, increased investor engagement can be a soft catalyst for LIC re-rating; institutional investors should monitor whether roadshow activity correlates with subsequent NTA performance or buyback activity."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AEG",
+      "company": "ALAND EQUITY GROUP LIMITED",
+      "headline": "Appendix 4G and Corporate Governance Statement",
+      "time": "2026-08-30T23:36:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129095-2A1693662",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Aland Equity Group's release of an Appendix 4G and Corporate Governance Statement is a mandatory ASX Listing Rule compliance filing, typically lodged in conjunction with the Annual Report, confirming adherence (or explaining departures from) the ASX Corporate Governance Principles.",
+        "For a smaller or recently listed entity like AEG, this filing is an opportunity to assess board composition, independence, risk oversight frameworks, and any governance gaps that may represent risks for institutional investors applying ESG screens.",
+        "This is a procedural, non-market-sensitive disclosure; however, material governance deficiencies or a high number of 'if not, why not' departures from best practice could be a red flag for minority shareholders."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RG1",
+      "company": "REGAL PARTNERS GLOBAL INVESTMENTS LIMITED",
+      "headline": "Weekly NTA Update",
+      "time": "2026-08-30T23:36:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129094-2A1693680",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Regal Partners Global Investments' weekly NTA update is a routine transparency mechanism for RG1 unitholders, with the reported NTA per share being the primary metric to assess whether the LIC is trading at a premium or discount.",
+        "Given the global equities mandate and Regal's broader alternatives-focused investment approach, week-on-week NTA movements will reflect both portfolio performance and currency fluctuations, particularly AUD/USD dynamics.",
+        "This is a non-market-sensitive administrative release; consistent NTA growth would support a re-rating of the discount, while sustained NTA decline could intensify pressure on management to implement buybacks or other discount-control mechanisms."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NAC",
+      "company": "NAOS EX-50 OPPORTUNITIES COMPANY LIMITED",
+      "headline": "Invitation to NAOS Investor Roadshow",
+      "time": "2026-08-30T23:36:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129093-2A1693676",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "NAOS Ex-50 Opportunities Company is co-hosting an investor roadshow alongside its sister vehicle NSC, reflecting a coordinated NAOS Asset Management strategy to engage investors across both its small and ex-50 focused LIC mandates simultaneously.",
+        "The roadshow format provides an avenue for management to articulate the investment case for mid-to-small cap Australian equities outside the ASX 50, a segment that has faced significant valuation headwinds in a higher-for-longer rate environment.",
+        "While procedurally non-market-sensitive, active investor engagement from NAC management could act as a soft re-rating catalyst if accompanied by improving NTA performance or a commitment to enhanced capital management initiatives."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPE",
+      "company": "PEOPLEIN LIMITED",
+      "headline": "Appendix 4G and Corporate Governance Statement",
+      "time": "2026-08-30T23:35:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129092-2A1693679",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine governance filing — PPE's Appendix 4G and Corporate Governance Statement confirm ASX Listing Rule compliance, signalling no material deviations from the ASX Corporate Governance Principles and Recommendations, which is a baseline expectation for institutional holders but carries no re-rating catalyst.",
+        "The filing serves as an annual checklist disclosure, indicating PPE's board and management are maintaining governance hygiene — relevant context given the workforce solutions sector's reliance on trust and regulatory standing, but provides no new financial or operational data points for valuation reassessment.",
+        "Investors should monitor upcoming operational updates or results announcements for substantive signals; this disclosure in isolation confirms structural stability but offers no forward guidance on revenue trends, margin recovery, or M&A activity in PPE's staffing and recruitment segments."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AEG",
       "company": "ALAND EQUITY GROUP LIMITED",
