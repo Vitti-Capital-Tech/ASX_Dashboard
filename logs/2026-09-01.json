@@ -1,9 +1,430 @@
 {
   "date": "2026-09-01",
-  "total": 279,
-  "market_sensitive_count": 77,
-  "generated_at": "2026-08-31T23:46:47.084540+00:00",
+  "total": 301,
+  "market_sensitive_count": 85,
+  "generated_at": "2026-08-31T23:53:31.025245+00:00",
   "announcements": [
+    {
+      "ticker": "GAS",
+      "company": "STATE GAS LIMITED",
+      "headline": "Application for quotation of securities - GAS",
+      "time": "2026-08-31T23:50:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130059-2A1694143",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "State Gas Limited (GAS) has lodged an application for quotation of new securities on ASX, indicating a recent capital raise, option exercise, or share issuance event that requires formal ASX quotation approval before the new shares can trade.",
+        "This is an administrative/procedural filing and is classified as not market sensitive — however, investors should identify the nature and quantum of securities being quoted (e.g. placement shares, rights issue, performance rights) to assess any associated dilution impact on existing holders.",
+        "The quotation of new securities will increase GAS's share count and potentially its free float — for a small energy company, the timing and purpose of the capital raise (exploration funding, project development, or working capital) will determine whether the dilution is value-accretive or a signal of financial stress."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GSC",
+      "company": "AUSBIL GLOBAL SMALLCAP FUND - ACTIVE ETF",
+      "headline": "2025/26 Fees and Costs",
+      "time": "2026-08-31T23:50:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130058-2A1694137",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ausbil Global SmallCap Fund (GSC) has disclosed its 2025/26 fee and cost schedule — a mandatory regulatory disclosure under ASIC requirements for managed funds and active ETFs listed on ASX.",
+        "Fee transparency is a key competitive differentiator in the active ETF space; any material change to the management expense ratio (MER) or performance fees relative to prior year will directly affect net returns and investor appeal versus passive alternatives.",
+        "Investors should review the updated fee schedule closely to assess whether total cost of ownership remains competitive — elevated fees in a small-cap active strategy must be justified by consistent alpha generation above the benchmark."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GHI",
+      "company": "AUSBIL GBL ESSENTIAL INFRA FUND (HDG) - ACTIVE ETF",
+      "headline": "2025/26 Fees and Costs",
+      "time": "2026-08-31T23:50:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130057-2A1694133",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ausbil Global Essential Infrastructure Fund (GHI) has released its 2025/26 fees and costs disclosure, fulfilling its annual regulatory obligation under the Corporations Act for listed managed investment schemes.",
+        "Infrastructure-focused active ETFs typically carry higher fee loads than passive infrastructure ETFs due to active management overlays; any increase in base or performance fees could pressure net yield outcomes particularly relevant for income-oriented investors.",
+        "Investors comparing GHI against listed infrastructure peers should factor updated total fees into total return modelling, especially in a rate-sensitive environment where infrastructure valuations remain under scrutiny."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "4DS",
+      "company": "4DS MEMORY LIMITED",
+      "headline": "Investor Webinar",
+      "time": "2026-08-31T23:50:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130055-6A1341599",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "4DS Memory (4DS) has announced an investor webinar, a non-market-sensitive communication event aimed at updating retail and institutional investors on the company's technology development progress in resistive RAM (ReRAM) memory solutions.",
+        "Webinars for pre-revenue technology companies like 4DS are important sentiment catalysts — any disclosure of new partnership developments, device performance milestones, or commercialisation timeline updates could provide meaningful directional signals for the stock despite the non-market-sensitive classification.",
+        "Investors should attend or monitor the webinar closely for updates on 4DS's collaboration pipeline and interface switch (IS) technology progress; a lack of concrete milestones or continued timeline delays would reinforce concerns about the long path to commercialisation in an increasingly competitive memory technology landscape."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMG",
+      "company": "CRITICAL MINERALS GROUP LIMITED",
+      "headline": "Cleansing notice",
+      "time": "2026-08-31T23:50:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130056-2A1694140",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cleansing notice filed by Critical Minerals Group (CMG) indicates a recent capital raise or securities issuance has occurred, with the notice serving to satisfy disclosure obligations under ASX Listing Rules and the Corporations Act.",
+        "The filing suggests CMG has recently issued securities to sophisticated or institutional investors under a placement exemption, requiring this cleansing mechanism to restore on-sale rights — a common but notable step in junior miner fundraising cycles.",
+        "Investors should monitor for an accompanying placement or rights issue announcement to assess dilution impact and the strategic deployment of any freshly raised capital within CMG's critical minerals portfolio."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WTL",
+      "company": "WT FINANCIAL GROUP LIMITED",
+      "headline": "Acquistion of stake in TNT Advisor Solutions",
+      "time": "2026-08-31T23:49:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130054-2A1694141",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "WT Financial Group (WTL) has announced the acquisition of a stake in TNT Advisor Solutions, signalling a strategic push to deepen its footprint in the financial advice licensee and technology solutions space.",
+        "This deal is market sensitive, suggesting the stake size and/or consideration is material to WTL's overall business — investors should watch for disclosed acquisition price, funding mechanism (cash/scrip), and any earnings accretion guidance to assess dilution risk versus growth optionality.",
+        "TNT Advisor Solutions operates in the adviser technology/platform segment, which is experiencing consolidation post-FASEA reforms; a well-priced entry into this space could accelerate WTL's revenue diversification and recurring income base — execution and integration risk will be key watch items."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LRT",
+      "company": "LOWELL RESOURCES FUND",
+      "headline": "LRT NAV Estimate - 28 August 2026",
+      "time": "2026-08-31T23:49:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130053-3A700679",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Lowell Resources Fund (LRT) has published its weekly NAV estimate as at 28 August 2026, providing investors with a current benchmark for the fund's per-unit value and a basis for assessing any premium or discount to market price.",
+        "Regular NAV disclosures are a key transparency mechanism for listed investment trusts; the critical metric for institutional investors is the spread between the published NAV and LRT's prevailing ASX trading price, which signals entry/exit attractiveness.",
+        "No material portfolio events are implied by this routine filing, though persistent NAV discounts in resources-focused LITs can signal subdued sentiment toward the underlying junior mining sector broadly."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VEA",
+      "company": "VIVA ENERGY GROUP LIMITED",
+      "headline": "Initial Director's Interest Notice - Sarah (Sally) Martin",
+      "time": "2026-08-31T23:49:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130052-3A700680",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Viva Energy Group (VEA) has lodged an Initial Director's Interest Notice for newly appointed director Sarah (Sally) Martin, formally disclosing her opening security holdings in VEA as required under ASX Listing Rule 3.19A.",
+        "The initial notice establishes a baseline for tracking future changes to Martin's holdings — any subsequent acquisitions or disposals will require prompt disclosure, making this a governance transparency milestone rather than a value-moving event.",
+        "The appointment of a new director warrants monitoring of VEA's board composition and skill mix, particularly given the company's ongoing strategic pivot across fuel retail, convenience, and energy transition assets."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WWI",
+      "company": "WEST WITS MINING LIMITED",
+      "headline": "Resignation of Non-Executive Director",
+      "time": "2026-08-31T23:48:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130051-3A700678",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "West Wits Mining (WWI) has announced the resignation of a Non-Executive Director, reducing board depth at a critical juncture for the company as it advances its Witwatersrand Basin gold project in South Africa.",
+        "Board attrition at small-cap miners can signal internal disagreement over strategy, funding direction, or project timelines — the absence of stated reasons in the headline warrants scrutiny of any accompanying commentary for red flags.",
+        "WWI will need to promptly address the vacancy to maintain adequate governance standards and investor confidence; failure to replace the director in a timely manner could raise concerns with institutional stakeholders around board independence and oversight capacity."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DBF",
+      "company": "DUXTON FARMS LTD",
+      "headline": "Securities Trading Policy - updated",
+      "time": "2026-08-31T23:48:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130050-2A1694135",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Duxton Farms (DBF) has updated its Securities Trading Policy, a routine governance action that typically reflects updates to align with ASX best practice guidance or regulatory changes around insider trading and blackout periods.",
+        "While procedural in nature, an updated trading policy can indicate strengthened internal controls — particularly relevant for an agricultural-focused listed entity where seasonal results and land valuation updates can create asymmetric information windows.",
+        "No immediate share price catalyst is expected; however, institutional investors should view proactive governance updates positively as a signal of board maturity and commitment to compliance within a relatively thinly traded small-cap."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JPR",
+      "company": "JUPITER ENERGY LIMITED",
+      "headline": "Corporate Update",
+      "time": "2026-08-31T23:48:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130049-6A1341598",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Jupiter Energy (JPR) has released a Corporate Update, which for this Kazakhstan-focused oil producer typically covers operational progress, licensing status, or financing developments — the substance of this update is the key determinant of its materiality.",
+        "JPR operates in a complex regulatory and geopolitical environment; any update touching on production volumes at the Block 31 asset, export approvals, or debt restructuring will carry outsized significance given the company's thin capital base and historically constrained cash flow.",
+        "Investors should scrutinise the update for guidance on the path to commercial production scale and any changes to the company's funding position, as JPR has historically relied on periodic capital injections to sustain operations."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RIV",
+      "company": "RIVCO AUSTRALIA LTD",
+      "headline": "Update - Notification of buy-back - RIV",
+      "time": "2026-08-31T23:48:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130048-2A1694139",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Rivco Australia (RIV) has notified the market of an on-market share buyback, a signal that the board believes the current share price undervalues the company — this is inherently capital-allocation positive for remaining shareholders.",
+        "For a small-cap like RIV, a buyback program reduces the float and can provide modest technical price support, though the absolute dollar scale of the buyback is critical to assessing its real earnings-per-share accretion impact.",
+        "Investors should monitor the buyback's pace and total authorised volume; if the program is material relative to RIV's market capitalisation, it may meaningfully tighten liquidity and signal management's high conviction on intrinsic value."
+      ],
+      "tags": [
+        "Other",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WRK",
+      "company": "WRKR LTD",
+      "headline": "Application for quotation of securities - WRK",
+      "time": "2026-08-31T23:47:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130047-2A1694138",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WRKR Ltd (WRK) has lodged an application for quotation of new securities, indicating that recently issued shares — likely from a placement, exercise of options, or employee incentive plan — are being brought onto the official ASX register for trading.",
+        "The quotation of additional securities represents potential near-term selling pressure if the newly quoted shares were issued at a discount to market, as is common in placements to sophisticated investors; dilution impact depends on the volume of securities being listed.",
+        "Investors should cross-reference this filing with any recent capital raise announcements to determine the issue price relative to current market price and assess whether the incoming liquidity event creates a material overhang on WRK's share price."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BAP",
+      "company": "BAPCOR LIMITED",
+      "headline": "Appendix 3Y - A. Fraser",
+      "time": "2026-08-31T23:47:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130046-3A700677",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Bapcor (BAP) has filed an Appendix 3Y for director A. Fraser, disclosing a change in that director's interest in BAP securities — this is a routine compliance filing but can occasionally signal insider confidence or concern depending on the nature of the change.",
+        "The Appendix 3Y is triggered by any change in a director's relevant interests, including on-market trades, exercise of options, or off-market transfers; the direction (buy vs. sell) and scale of the change are the key signals for market participants.",
+        "Given BAP's ongoing strategic review and competitive pressures in the automotive parts retail sector, any material disposal by a director could be interpreted negatively, while acquisitions would reinforce alignment between management and shareholders."
+      ],
+      "tags": [
+        "Retail",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "Target's Statement",
+      "time": "2026-08-31T23:47:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130045-2A1694136",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kip McGrath Education Centres (KME) has released its Target's Statement in response to a takeover bid, confirming the company is subject to a formal change-of-control process — this is a critical document that will include the independent expert's valuation and the Board's formal recommendation to shareholders.",
+        "The Target's Statement is the most material document in a takeover — if the independent expert deems the offer 'fair and reasonable' and the Board recommends acceptance, it typically anchors the share price near the offer price; a negative recommendation could see KME trade at a discount if a competing bid fails to emerge.",
+        "Institutional investors holding KME should assess the implied premium to pre-bid VWAP, the independent expert's DCF/earnings multiple valuation range, and any conditions precedent that could cause the offer to lapse — scrip offers introduce additional market risk relative to all-cash consideration."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALR",
+      "company": "ALTAIR MINERALS LIMITED",
+      "headline": "RC Drilling Underway at South Oko and North Peters",
+      "time": "2026-08-31T23:47:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130044-3A700676",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Altair Minerals (ALR) has commenced Reverse Circulation (RC) drilling at two targets — South Oko and North Peters — marking a significant operational milestone that transitions the company from exploration planning to active drill-testing of prioritised targets.",
+        "RC drilling results will be the primary near-term catalyst for ALR; the market will closely scrutinise intercept widths, grades, and continuity across both targets to determine whether these prospects warrant further resource definition drilling or move toward a maiden resource estimate.",
+        "With drilling now underway, ALR enters a news-flow intensive period — assay results (typically 4–8 weeks post-drilling) will be the key share price driver; speculative investors should be mindful of the binary nature of exploration outcomes and the company's cash position relative to planned drill program expenditure."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ASU",
+      "company": "AUSBIL ACTIVE SUSTAINABLE EQUITY FUND - ACTIVE ETF",
+      "headline": "2025/26 Fees and Costs",
+      "time": "2026-08-31T23:47:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130043-2A1694132",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ausbil Active Sustainable Equity Fund (ASU) has disclosed its 2025/26 fees and costs, fulfilling mandatory annual regulatory requirements for ASX-listed active ETFs under the Corporations Act.",
+        "ESG-focused active funds such as ASU typically command fee premiums over traditional equity ETFs; any change to the fee structure could affect competitive positioning against the growing universe of low-cost ESG ETFs offered by Vanguard, BlackRock, and BetaShares.",
+        "Investors in the sustainable equity space are increasingly fee-sensitive — ASU's continued relevance will depend on demonstrable ESG integration rigour and risk-adjusted returns that justify the active management premium over passive ESG index funds."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BKI",
+      "company": "BKI INVESTMENT COMPANY LIMITED",
+      "headline": "Dividend/Distribution - BKI",
+      "time": "2026-08-31T23:46:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130042-2A1694134",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "BKI Investment Company (BKI) has announced a dividend or distribution, consistent with the LIC's long-standing focus on delivering fully franked income to shareholders — a core part of BKI's investment proposition for yield-oriented investors.",
+        "The franking component is particularly valuable in the current environment; institutional and retail investors in higher tax brackets benefit meaningfully from BKI's ability to pass through franking credits accumulated from its Australian equity portfolio.",
+        "Investors should assess the declared dividend per share against prior periods to determine whether BKI is maintaining, growing, or trimming its payout — any reduction would signal portfolio income pressure, while growth reinforces the defensive income thesis."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FFG",
+      "company": "FATFISH GROUP LIMITED",
+      "headline": "Continuation of Suspension",
+      "time": "2026-08-31T23:45:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130041-6A1341597",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Fatfish Group (FFG) remains in a trading suspension on ASX, with this announcement confirming the continuation of that halt — an extended suspension is a significant red flag indicating unresolved material issues such as pending capital raises, regulatory queries, financial reporting delays, or compliance concerns.",
+        "The longer a suspension persists, the greater the liquidity risk and investor uncertainty; shareholders are effectively locked out of the market with no price discovery mechanism, which typically results in sharp selling pressure upon reinstatement as trapped investors exit positions.",
+        "Institutional investors should treat continued suspension as a high-risk signal — the absence of a clear reinstatement timeline or resolution announcement materially increases the probability of an adverse disclosure upon return to trading, warranting extreme caution."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "Update on Brazilian crude oil export tax",
+      "time": "2026-08-31T23:44:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130040-3A700675",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Karoon is providing an update on Brazil's crude oil export tax, a policy-level risk that could directly compress netback realisations on Brazilian barrels — a critical sensitivity given KAR's near-total revenue dependence on its Who Dat and Baúna assets in Brazil and the Gulf of Mexico.",
+        "The export tax, introduced by the Brazilian government as a temporary fiscal measure, has material implications for production economics at Baúna; any sustained levy erodes per-barrel margins and could trigger downward revisions to operating cash flow guidance if not already hedged or contractually offset.",
+        "Investors should monitor whether Karoon seeks operational or commercial mitigations (e.g. redirecting crude to domestic buyers, renegotiating offtake terms) and watch for any formal earnings impact disclosure — the 'not market sensitive' classification suggests near-term financial impact is assessed as manageable, but ongoing policy risk warrants close scrutiny."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DIV",
+      "company": "AUSBIL ACTIVE DIVIDEND INCOME FUND - ACTIVE ETF",
+      "headline": "2025/26 Fees and Costs",
+      "time": "2026-08-31T23:44:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130039-2A1694130",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ausbil Active Dividend Income Fund (DIV) has released its 2025/26 fees and costs disclosure, meeting its annual regulatory obligation as an ASX-listed active ETF focused on delivering income-oriented equity returns.",
+        "For a dividend income-focused fund, the management fee directly compresses the net distribution yield — investors should compare DIV's total expense ratio against competing income ETFs to assess whether the active management overlay generates sufficient excess yield to justify the fee differential.",
+        "With Australian equities facing mixed dividend growth prospects in FY26 amid slowing earnings momentum, DIV's ability to sustain competitive distribution yields will hinge on sector allocation decisions and the manager's capacity to identify sustainable high-yield opportunities beyond traditional bank and resource exposures."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HAR",
+      "company": "HARANGA RESOURCES LIMITED.",
+      "headline": "Initial Director's Interest Notice",
+      "time": "2026-08-31T23:43:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130038-6A1341596",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "The Initial Director's Interest Notice for Haranga Resources signals a newly appointed or recently disclosed director has formally lodged their opening beneficial interest position — a standard compliance requirement under ASX Listing Rule 3.19A, with no immediate financial or operational implications.",
+        "The nature and size of the director's declared holding (direct vs. indirect, shares vs. options) is the key detail to assess for alignment signals; a meaningful personal equity stake at appointment would indicate skin-in-the-game, while a negligible or nil holding offers little confidence around insider conviction at this early-stage mining company.",
+        "As a routine administrative filing, this notice carries no standalone investment catalyst, but should be tracked cumulatively alongside future director dealings notices to build a picture of insider sentiment and governance quality at HAR."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "JPR",
       "company": "JUPITER ENERGY LIMITED",
