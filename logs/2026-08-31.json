@@ -1,9 +1,1155 @@
 {
   "date": "2026-08-31",
-  "total": 515,
-  "market_sensitive_count": 193,
-  "generated_at": "2026-08-31T01:37:13.516874+00:00",
+  "total": 575,
+  "market_sensitive_count": 208,
+  "generated_at": "2026-08-31T02:34:22.794166+00:00",
   "announcements": [
+    {
+      "ticker": "SHO",
+      "company": "SPORTSHERO LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-31T02:29:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129255-6A1341277",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SHO's Preliminary Final Report is market sensitive, signalling material year-end financials that could reset investor expectations for this micro-cap sports engagement platform.",
+        "Key metrics to watch include revenue trajectory, cash burn rate, and any impairment charges — given SHO's historically thin balance sheet, cash runway remains the critical solvency indicator.",
+        "Without audited detail yet available, the market will focus on whether SHO has achieved sufficient commercial milestones to justify its current valuation or if a capital raise is imminent."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MYG",
+      "company": "MAYFIELD GROUP HOLDINGS LIMITED",
+      "headline": "Cleansing statement",
+      "time": "2026-08-31T02:28:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129254-2A1693763",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Mayfield Group Holdings (MYG) has released a cleansing statement, which is a standard ASX Listing Rule 3.10.3 requirement following a capital raise to sophisticated/institutional investors where a disclosure document was not lodged — confirming the company is now 'clean' for on-sale of those securities.",
+        "The cleansing notice confirms a recent placement has been completed; investors should cross-reference the placement size, price, and discount to the last traded price to assess dilution quantum and implied confidence of the placing investors.",
+        "While procedurally routine, the cleansing statement closes the loop on the capital raise process and allows placed shares to trade freely — any significant placement discount revealed here could weigh on the share price as new holders seek to lock in gains."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCO",
+      "company": "THE CALMER CO INTERNATIONAL LIMITED",
+      "headline": "Appendix 4G",
+      "time": "2026-08-31T02:28:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129253-6A1341276",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Appendix 4G is a corporate governance checklist cross-referencing The Calmer Co International's (CCO) compliance with the ASX Corporate Governance Principles and Recommendations — it is a mandatory annual lodgement with no direct financial content.",
+        "For a micro-cap like CCO, the 4G filing is an opportunity for investors to identify any governance gaps or departures from best-practice recommendations (e.g. board composition, audit committee independence), which can be early indicators of institutional investability constraints.",
+        "This is a procedural filing with no immediate share price impact; it should be read in conjunction with CCO's simultaneously released Annual Report (#10) for a holistic governance and financial assessment."
+      ],
+      "tags": [
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALV",
+      "company": "ALVO MINERALS LIMITED",
+      "headline": "Results of Meeting",
+      "time": "2026-08-31T02:27:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129252-3A700511",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Alvo Minerals (ALV) has released results of a shareholder meeting — the key question is whether all resolutions were passed and whether any contested votes (e.g. on related-party transactions, capital issuance authorities, or board elections) signal shareholder dissent.",
+        "For junior miners like ALV, meeting resolutions often include approval of placement capacity (LR 7.1 and 7.4 ratifications), director share grants, or strategic transactions — passage of these provides management with operational flexibility, while any defeats are a governance red flag.",
+        "Absent any contested or failed resolutions, this is an administrative confirmation with minimal market impact; investors should note any increased 'against' vote percentages on remuneration or related-party items as a proxy for broader shareholder sentiment."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCO",
+      "company": "THE CALMER CO INTERNATIONAL LIMITED",
+      "headline": "Annual Report to shareholders FY26",
+      "time": "2026-08-31T02:27:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129251-6A1341275",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "The Calmer Co International's (CCO) FY26 Annual Report provides the most comprehensive disclosure of the company's financial performance, strategic positioning, and risk profile — for a small wellness/consumer brand operator, revenue growth, gross margin trends, and cash burn rate are the primary metrics to assess viability.",
+        "Investors should scrutinise the auditor's report for any going-concern qualification or emphasis of matter paragraphs, given CCO's historical reliance on equity issuance to fund operations and the challenging consumer discretionary environment.",
+        "The Annual Report also discloses director remuneration, related-party transactions, and any material subsequent events — in the context of CCO's size and sector, any pivot in product strategy or distribution partnerships flagged in the chairman/CEO letter will be a key forward indicator."
+      ],
+      "tags": [
+        "Results",
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MYG",
+      "company": "MAYFIELD GROUP HOLDINGS LIMITED",
+      "headline": "Application for quotation of securities - MYG",
+      "time": "2026-08-31T02:27:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129250-2A1693762",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Mayfield Group Holdings (MYG) has applied for quotation of new securities on the ASX, indicating a recent capital raise, employee incentive plan issuance, or similar equity event has been completed and shares are now seeking formal listing.",
+        "The procedural nature of this filing suggests the underlying capital transaction has already closed, meaning dilution risk (if any) has already been crystallised — investors should cross-reference the specific security type and volume against prior announcements to assess dilution magnitude.",
+        "Next step for investors is to confirm the number and class of securities being quoted; if tied to an institutional placement or rights issue, any overhang from new holders seeking to trade could create short-term selling pressure post-quotation."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Daily Net Tangible Asset Statement",
+      "time": "2026-08-31T02:26:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129249-2A1693761",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Perpetual Credit Income Trust (PCI) has published its daily Net Tangible Asset (NTA) statement, a routine regulatory disclosure required of listed investment trusts to maintain pricing transparency for unitholders.",
+        "The NTA figure is the key metric for assessing whether PCI is trading at a premium or discount to underlying asset value — persistent discounts are a common concern for closed-end credit funds and can signal market skepticism about portfolio quality or liquidity.",
+        "No actionable catalyst here; however, institutional investors tracking PCI should monitor the NTA trend over time relative to the unit price to identify entry/exit signals, particularly given current credit market volatility."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCO",
+      "company": "THE CALMER CO INTERNATIONAL LIMITED",
+      "headline": "Appendix 4E Preliminary Final Report FY26",
+      "time": "2026-08-31T02:25:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129248-6A1341274",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CCO's Appendix 4E for FY26 covers its hemp and wellness product operations — the market sensitive flag suggests headline numbers diverge materially from prior year or market expectations.",
+        "Revenue growth and gross margin trends will be the primary focus, as CCO has struggled to achieve scale in competitive nutraceutical markets; any improvement in EBITDA losses would be a meaningful positive signal.",
+        "Investors should assess whether CCO's cash position supports continued operations through FY27 without dilutive equity issuance, given its history of small capital raises to fund working capital."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EAX",
+      "company": "ENERGY ACTION LIMITED",
+      "headline": "Appendix 4E and Preliminary Final Report",
+      "time": "2026-08-31T02:25:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129247-2A1693759",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EAX's Appendix 4E is market sensitive for this energy procurement and management services company, where revenue is directly tied to corporate energy contract volumes and advisory fee income.",
+        "The critical metric is whether EAX has stabilised or grown its recurring revenue base, as prior periods showed client churn pressure from competitive energy broking markets; any NPAT improvement would be materially bullish.",
+        "With EAX trading at a modest market cap, a return to consistent profitability or a meaningful reduction in operating losses could catalyse re-rating interest from small-cap value investors."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STG",
+      "company": "STRAKER LIMITED",
+      "headline": "FY 26 Corporate Governance Statement and Appendix 4G",
+      "time": "2026-08-31T02:24:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129246-2A1693746",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Straker Limited (STG) has released its FY26 Corporate Governance Statement and Appendix 4G, fulfilling ASX Listing Rule obligations by disclosing its compliance — or 'if not, why not' explanations — against the ASX Corporate Governance Principles and Recommendations.",
+        "For a technology-sector company of Straker's size, governance quality can be a key due diligence factor for institutional investors; any deviations from recommended practices in areas such as board independence, audit committee composition, or risk oversight warrant closer scrutiny.",
+        "This filing is administrative in nature and carries no direct earnings or valuation implication, but should be read alongside the FY26 Annual Report (also released today) for a complete picture of board structure and oversight effectiveness."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STG",
+      "company": "STRAKER LIMITED",
+      "headline": "FY 26 Annual Report",
+      "time": "2026-08-31T02:24:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129245-2A1693745",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Straker Limited (STG) has released its FY26 Annual Report — a critical disclosure encompassing full-year financial results, auditor sign-off, management commentary, and strategic outlook for this AI-driven language services technology company.",
+        "Investors should focus on revenue trajectory (Straker has historically pursued growth through acquisition and organic expansion), EBITDA margins, cash burn rate, and any commentary on AI integration into its translation platform, which is central to its competitive positioning.",
+        "Key forward-looking indicators to extract include FY27 guidance (if any), client retention metrics, and balance sheet strength — particularly net cash position — as these will determine whether Straker can self-fund growth or will require additional capital."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCX",
+      "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
+      "headline": "Appendix 4G 2026",
+      "time": "2026-08-31T02:24:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129243-2A1693757",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Pengana Global Private Credit Trust (PCX) has lodged its Appendix 4G for 2026, a standard ASX governance checklist submission that maps the trust's practices against the ASX Corporate Governance Council's eight core principles.",
+        "As a listed credit trust, PCX's governance framework — particularly around risk management, conflicts of interest, and disclosure — is especially material given the illiquid and complex nature of private credit assets held in its portfolio.",
+        "This is a procedural filing with no direct market impact; however, it should be reviewed in conjunction with the separately released Corporate Governance Statement (also filed today) to assess any areas of non-compliance that could raise red flags for institutional allocators."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AYU",
+      "company": "AUSTRALIAN UNITY LIMITED",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-08-31T02:24:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129244-2A1693758",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Australian Unity Limited (AYU) has issued its Notice of Annual General Meeting and Proxy Form, scheduling the formal gathering of members to vote on resolutions that may include board elections, remuneration reports, and potentially strategic or capital-related items.",
+        "Investors and members should carefully review the resolutions listed in the accompanying notice — particularly any proposals relating to director appointments, executive remuneration structures, or amendments to the company's constitution, which can signal governance shifts.",
+        "The proxy deadline will be a key near-term date; institutional investors with holdings should assess whether to vote in person or by proxy, particularly on any contentious resolutions; remuneration report votes in excess of 25% 'against' trigger a 'first strike' under the two-strikes rule."
+      ],
+      "tags": [
+        "AGM",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STG",
+      "company": "STRAKER LIMITED",
+      "headline": "FY26 Appendix 4E",
+      "time": "2026-08-31T02:23:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129242-2A1693743",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "STG's FY26 Appendix 4E covers its AI-powered translation and localisation business — the market sensitive classification suggests revenue or profitability outcomes that could significantly move the stock.",
+        "Straker has been executing a growth-through-acquisition strategy; investors will scrutinise organic revenue growth versus acquired revenue, alongside EBITDA margins to assess whether the integration thesis is delivering operating leverage.",
+        "Cash generation and debt levels are key watch items — if STG demonstrates positive free cash flow and a credible path to sustained profitability, this could represent a meaningful re-rating catalyst for the stock."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCX",
+      "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
+      "headline": "Corporate Governance Statement 2026",
+      "time": "2026-08-31T02:23:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129241-2A1693756",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Pengana Global Private Credit Trust (PCX) has published its 2026 Corporate Governance Statement, providing narrative disclosure on how the trust's board and management address each of the ASX Corporate Governance Principles — complementing the Appendix 4G filed simultaneously.",
+        "For private credit trusts, governance around valuation methodology, related-party transactions, and liquidity risk management is particularly scrutinised by institutional investors; any disclosed deviations or explanations in these areas merit attention.",
+        "No financial data is contained in this filing; its value lies in the qualitative assessment of oversight quality, which sophisticated investors use as a risk lens when evaluating whether PCX's management team is adequately equipped to navigate a complex, illiquid asset class."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCX",
+      "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
+      "headline": "Appendix 4E and Annual Report 30 June 2026",
+      "time": "2026-08-31T02:22:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129240-2A1693753",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "PCX's Annual Report and Appendix 4E for FY26 represents a full-year performance disclosure for this listed private credit trust, where distribution consistency and NAV preservation are the primary investor mandates.",
+        "Key focus areas include net interest income, loan book credit quality (arrears and default rates), and whether distributions declared are fully covered by earnings — any coverage shortfall would be bearish for this income-focused vehicle.",
+        "In the current elevated interest rate environment, PCX's floating-rate private credit exposure should theoretically support strong income generation; confirmation of NAV stability and maintained distribution guidance would be a clear positive."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EWC",
+      "company": "ENERGY WORLD CORPORATION LTD",
+      "headline": "FY26 Preliminary Results and Turbine Sale Update",
+      "time": "2026-08-31T02:20:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129239-2A1693755",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "EWC's combined FY26 preliminary results and turbine sale update is a high-significance dual disclosure — the turbine sale component introduces a potentially material asset divestment that could restructure the company's balance sheet and cash position.",
+        "The turbine sale, if completed at a meaningful premium to book value, could unlock significant liquidity for a company that has historically carried elevated debt relative to operating cash flows from its LNG and power generation assets.",
+        "Investors should assess the net proceeds from the turbine sale against EWC's debt obligations, and whether FY26 operating results from its Philippines and Australian energy assets demonstrate any improvement in underlying profitability."
+      ],
+      "tags": [
+        "Results",
+        "Energy",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EWC",
+      "company": "ENERGY WORLD CORPORATION LTD",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-31T02:19:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129238-2A1693754",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "This is EWC's formal Appendix 4D/4E Preliminary Final Report filing, accompanying the results announcement in [6] — together they constitute the full statutory year-end disclosure package for the company.",
+        "The formal filing locks in the audited or reviewed financial figures, providing the binding reference point for revenue, NPAT, net assets, and earnings per share that the market will use to update financial models.",
+        "Any divergence between the detailed statutory report and the preliminary results narrative in [6] would warrant close scrutiny — consistency between the two filings is a baseline indicator of reporting quality."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PLS",
+      "company": "PLS GROUP LIMITED",
+      "headline": "Application for quotation of securities - PLS",
+      "time": "2026-08-31T02:18:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129237-6A1341273",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PLS Group Limited (PLS) has applied for quotation of securities on the ASX, signalling the completion of a new equity issuance event — whether a placement, rights issue, employee scheme allotment, or other capital transaction — with shares now seeking to trade.",
+        "Investors should immediately cross-reference the volume and class of securities being quoted against any recent capital raise announcements to quantify the dilutive impact on existing shareholders and assess whether the new securities carry any escrow or selling restrictions.",
+        "If the quoted securities are free of escrow, near-term trading liquidity could increase but may also introduce selling pressure from new investors seeking to trade their positions; the net price impact will depend heavily on the purpose and pricing of the original issuance."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DRX",
+      "company": "DIATREME RESOURCES LIMITED",
+      "headline": "Half Year Accounts",
+      "time": "2026-08-31T02:18:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129236-2A1693752",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Diatreme Resources (DRX) has released its Half Year Accounts, providing a financial snapshot covering exploration expenditure, cash position, and operating costs — critical metrics for assessing the company's ability to advance its mineral sand and silica sand projects without near-term equity dilution.",
+        "As an exploration-stage company, the key figures to extract are cash and cash equivalents on hand, net cash used in operating and investing activities, and any commentary on upcoming exploration commitments or project milestones — these directly determine cash runway and dilution risk.",
+        "Investors should scrutinise the auditor's going concern assessment (if any), the rate of cash burn relative to the balance sheet, and any update on Diatreme's flagship North Stradbroke Island or Cyclone project, as project advancement catalysts remain the primary share price driver."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACL",
+      "company": "AUSTRALIAN CLINICAL LABS LIMITED",
+      "headline": "Notification regarding unquoted securities - ACL",
+      "time": "2026-08-31T02:18:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129235-3A700510",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Clinical Labs (ACL) has filed a notification regarding unquoted securities, typically indicating the issuance of securities such as performance rights, options, or restricted shares under an employee incentive plan that are not yet listed for trading on the ASX.",
+        "While procedural, this filing provides insight into ACL's executive and employee incentive structure; the volume and vesting conditions of unquoted securities can signal management's confidence in achieving specific performance hurdles and aligns with shareholder interest assessment.",
+        "No immediate price catalyst is expected, but investors should monitor the total unquoted securities pool relative to issued capital to gauge potential future dilution when vesting conditions are met and securities convert to quoted shares eligible for trading."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FSI",
+      "company": "FLAGSHIP INVESTMENTS LIMITED",
+      "headline": "Change of Director's Interest Notice - SB",
+      "time": "2026-08-31T02:15:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129234-2A1693751",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director SB has filed a change of interest notice with FSI, indicating a shift in their direct or indirect shareholding — routine but worth monitoring for accumulation or disposal trends.",
+        "As a listed investment company (LIC), director buying or selling in FSI can signal insider conviction on the underlying portfolio's valuation relative to NTA.",
+        "Standalone, this notice carries no immediate material impact; however, when viewed alongside notices from three other directors filed simultaneously, it may reflect a coordinated corporate event such as a dividend reinvestment, option exercise, or rights issue participation."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ERG",
+      "company": "ENECO REFRESH LTD",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-31T02:15:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129233-6A1341272",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ERG's Preliminary Final Report is market sensitive for this small-cap beverage and wellness company, where the scale of losses relative to cash reserves is the dominant investor concern.",
+        "Given ERG's micro-cap status and early-stage commercial operations, the cash balance and monthly burn rate disclosed in the report will determine the immediacy of any future capital raise requirement.",
+        "Any evidence of revenue acceleration or a pathway to gross margin positivity would be a material positive surprise; conversely, deteriorating cash with no clear monetisation strategy would reinforce a bearish outlook."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FSI",
+      "company": "FLAGSHIP INVESTMENTS LIMITED",
+      "headline": "Change of Director's Interest Notice - AO",
+      "time": "2026-08-31T02:15:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129232-2A1693750",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director AO has lodged a change of interest notice with FSI, forming part of a cluster of four simultaneous director interest changes — an unusual occurrence that warrants closer examination.",
+        "Concurrent multi-director interest changes in a LIC context frequently arise from dividend reinvestment plan (DRP) participation or a structured share purchase plan, rather than open-market transactions.",
+        "If these changes reflect DRP participation, it signals board alignment with long-term value but does not alter FSI's NTA or portfolio composition in a material way."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "14D",
+      "company": "1414 DEGREES LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-31T02:15:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129231-2A1693747",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "14D's Preliminary Final Report covers its silicon thermal energy storage (STES) technology business — a deep-tech play where commercial contract wins, not revenue, remain the most important near-term catalyst.",
+        "The critical disclosure will be whether 14D has moved beyond pilot projects to binding commercial agreements, as the company has historically consumed significant cash in R&D without achieving revenue scale; cash runway is therefore the survival metric.",
+        "Any update on strategic partnerships, government grant funding, or commercial deployment agreements alongside the financial results would materially alter the near-term sentiment outlook for this speculative energy technology stock."
+      ],
+      "tags": [
+        "Results",
+        "Energy",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FSI",
+      "company": "FLAGSHIP INVESTMENTS LIMITED",
+      "headline": "Change of Director's Interest Notice - DM",
+      "time": "2026-08-31T02:14:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129230-2A1693749",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director DM's simultaneous interest change filing, alongside three other FSI directors, reinforces the likelihood of a systematic corporate mechanism — such as a DRP, fee sacrifice arrangement, or options vesting — rather than discretionary market activity.",
+        "For FSI as a LIC, consistent director share accumulation through structured schemes can modestly tighten the discount to NTA over time by signalling alignment between management and shareholders.",
+        "Investors should cross-reference FSI's recent distribution announcements or securities-on-issue changes to confirm the nature of these concurrent director interest movements."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FSI",
+      "company": "FLAGSHIP INVESTMENTS LIMITED",
+      "headline": "Change of Director's Interest Notice - EP",
+      "time": "2026-08-31T02:13:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129229-2A1693748",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director EP completes the set of four simultaneous FSI director interest notices, strongly suggesting a company-wide event — likely DRP allotment or performance rights vesting — affecting the entire board cohort.",
+        "The breadth of director participation across all four notices may reflect strong board-level conviction in FSI's current portfolio positioning and NTA trajectory.",
+        "No immediate share price catalyst is expected; however, any net increase in director holdings across all four notices would represent a modestly positive governance signal for retail and institutional LIC investors."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACL",
+      "company": "AUSTRALIAN CLINICAL LABS LIMITED",
+      "headline": "Notification of cessation of securities - ACL",
+      "time": "2026-08-31T02:12:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129228-3A700509",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ACL has notified the market of the cessation of securities, most likely relating to the lapse, cancellation, or expiry of performance rights, options, or other equity instruments that did not vest or were not exercised.",
+        "Cessation of unvested securities is administratively neutral but can subtly reduce future dilution risk for existing shareholders, as the overhang from unexercised instruments is removed from the capital structure.",
+        "Investors should note the quantum of securities ceased — a large volume of lapsed performance rights could signal underperformance against KPI hurdles, warranting scrutiny of ACL's recent operational metrics in the pathology sector."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MBH",
+      "company": "MAGGIE BEER HOLDINGS LTD",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-31T02:10:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129227-3A700508",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "MBH's FY26 Results Presentation is a high-profile disclosure for this premium Australian food brand — the market sensitive flag suggests outcomes that materially differ from guidance or consensus, making this a significant price catalyst event.",
+        "Revenue growth, gross margin recovery, and progress on the operational turnaround under current management are the three pillars investors will assess; any return to EBITDA positivity or narrowing of losses would be a strong bullish signal.",
+        "Given MBH's elevated cost base relative to revenue in recent years, the presentation's commentary on cost restructuring completion, brand investment levels, and FY27 trading guidance will be equally as important as the headline FY26 numbers."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MBH",
+      "company": "MAGGIE BEER HOLDINGS LTD",
+      "headline": "MD Appointment",
+      "time": "2026-08-31T02:10:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129226-3A700507",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MBH has appointed a new Managing Director, signalling a strategic leadership reset at a company that has faced sustained operational and financial headwinds since its ASX listing — leadership continuity risk has been a persistent investor concern.",
+        "The timing of the MD appointment coinciding with FY26 results (see announcement #2) suggests the board is positioning new management to own the turnaround narrative and forward guidance, which may provide near-term credibility uplift.",
+        "Key watch points include the incoming MD's track record in FMCG/food manufacturing, any performance incentive structure disclosed, and whether the appointment signals a shift in capital allocation or cost-reduction strategy."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MBH",
+      "company": "MAGGIE BEER HOLDINGS LTD",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-31T02:08:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129225-3A700506",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "MBH's FY26 results are a critical inflection point — the company has reported consecutive years of losses since listing, and investors will scrutinise whether revenue stabilisation and margin improvement have materialised under the restructured operating model.",
+        "Key metrics to assess include gross margin trajectory (historically compressed by high input and logistics costs), EBITDA/EBIT loss quantum, and net cash position relative to any remaining debt or working capital facilities.",
+        "The simultaneous release of MD appointment and full-year results is a deliberate communications strategy; if results show meaningful loss reduction or a path to breakeven, the combined announcements could catalyse a re-rating, but any deterioration would compound negative sentiment."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IMI",
+      "company": "INFINITY MINING LIMITED",
+      "headline": "Results of Annual General Meeting",
+      "time": "2026-08-31T02:08:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129224-6A1341271",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "IMI's AGM results confirm shareholder votes on key resolutions — the outcome of remuneration report and any capital-related resolutions is critical to assess board accountability and future funding flexibility for this early-stage miner.",
+        "A 'first strike' on the remuneration report (25%+ against vote) would be a notable governance red flag for IMI given its pre-revenue stage and reliance on equity markets for working capital.",
+        "Assuming standard resolutions passed without controversy, the AGM clears a routine compliance hurdle, allowing management to maintain focus on exploration and development milestones without governance distraction."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IMI",
+      "company": "INFINITY MINING LIMITED",
+      "headline": "Executive Director Agreements",
+      "time": "2026-08-31T02:07:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129223-6A1341270",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "IMI has formalised executive director agreements, a material governance step for a junior miner that defines remuneration, tenure, and performance expectations — critical for investor confidence in management continuity.",
+        "The terms of the agreements — particularly any performance hurdles, cash versus equity mix, and termination provisions — will determine whether this represents shareholder-aligned compensation or excessive fixed-cost burden for a pre-revenue entity.",
+        "Formalising director agreements immediately post-AGM is strategically timed to coincide with shareholder-approved remuneration frameworks, suggesting IMI is professionalising its governance structure ahead of potential capital raises or a development phase ramp-up."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MBH",
+      "company": "MAGGIE BEER HOLDINGS LTD",
+      "headline": "FY26 Appendix 4G",
+      "time": "2026-08-31T02:07:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129222-3A700504",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MBH's lodgement of the Appendix 4G for FY26 is a mandatory ASX compliance document mapping the company's governance practices against the ASX Corporate Governance Principles and Recommendations — a procedural requirement with no direct earnings impact.",
+        "For a consumer-facing brand like Maggie Beer Holdings, adherence to governance best practices is particularly important given ongoing investor scrutiny following the company's well-publicised operational and financial challenges in recent years.",
+        "The FY26 designation of this filing is notable — it indicates MBH is operating on an early or non-standard financial year cycle, and investors should align expectations accordingly for upcoming full-year results disclosure."
+      ],
+      "tags": [
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MBH",
+      "company": "MAGGIE BEER HOLDINGS LTD",
+      "headline": "FY26 Corporate Governance Statement",
+      "time": "2026-08-31T02:06:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129221-3A700503",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MBH's FY26 Corporate Governance Statement, filed alongside the Appendix 4G, details the company's board composition, committee structures, and policy frameworks — a mandatory annual disclosure with no direct share price catalyst.",
+        "Given MBH's history of strategic restructuring and management changes, the governance statement will be closely read by institutional investors for any changes to board composition, independence ratios, or risk oversight frameworks.",
+        "Consistent and transparent governance disclosure supports long-term institutional investor confidence in MBH, which is essential for a small-cap consumer brand navigating a turnaround — though near-term price impact is negligible."
+      ],
+      "tags": [
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PER",
+      "company": "PERCHERON THERAPEUTICS LIMITED",
+      "headline": "Percheron receives $0.70m R&D Tax Incentive Rebate",
+      "time": "2026-08-31T02:06:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129220-3A700500",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Percheron Therapeutics has received a $0.70 million R&D Tax Incentive Rebate, providing a modest but meaningful non-dilutive cash injection for this clinical-stage biotech operating in the rare disease space.",
+        "For a small-cap therapeutic company likely burning cash through clinical trials, a $0.70m rebate directly extends cash runway — investors should assess this figure against PER's quarterly cash burn rate to quantify the runway benefit in weeks or months.",
+        "The R&D tax rebate also validates the legitimacy and scale of Percheron's R&D expenditure with the ATO, providing an independent confirmation that clinical spending is appropriately structured — a modest positive signal ahead of anticipated trial data readouts."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MBH",
+      "company": "MAGGIE BEER HOLDINGS LTD",
+      "headline": "FY26 Annual Report",
+      "time": "2026-08-31T02:06:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129219-3A700502",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "MBH's FY26 Annual Report marks a critical milestone for the struggling premium food brand, which has faced persistent losses, cost pressures, and strategic restructuring since its ASX listing — investors will scrutinise whether the turnaround narrative has translated into tangible margin improvement.",
+        "Key metrics to watch include gross margin trajectory, operating cash flow, and SG&A discipline, as prior periods were marred by elevated overhead relative to revenue scale — any deterioration in these would deepen solvency concerns.",
+        "The Annual Report also provides full detail on board composition, related-party transactions, and forward strategy; given MBH's troubled history with management and brand monetisation, governance disclosures may be as consequential as the financials."
+      ],
+      "tags": [
+        "Results",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REG",
+      "company": "REGIS HEALTHCARE LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-08-31T02:06:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129218-3A700505",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for Regis Healthcare (REG) signals a director has altered their shareholding — either through on-market acquisition, disposal, or participation in a company plan — which can serve as a directional signal on insider conviction in the stock.",
+        "REG operates in the aged care sector currently undergoing significant regulatory and funding reform in Australia; any director buying activity would be particularly meaningful given sector-wide uncertainty around government reimbursement rates.",
+        "While individually non-material, systematic tracking of director transactions at REG is warranted given the stock's sensitivity to policy announcements — accumulation by insiders could reflect confidence in earnings stabilisation under new aged care funding arrangements."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TGF",
+      "company": "TRIBECA GLOBAL NATURAL RESOURCES LIMITED",
+      "headline": "Estimated Weekly NTA as of 28 August 2026",
+      "time": "2026-08-31T02:03:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129217-2A1693744",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Tribeca Global Natural Resources (TGF) has released its estimated weekly NTA as of 28 August 2026, a routine disclosure required for listed investment companies and trusts — the NTA figure is the primary valuation benchmark for LIC/LIT investors assessing premium or discount to market price.",
+        "Natural resources-focused LITs like TGF are highly sensitive to commodity cycle dynamics; the NTA movement week-on-week will reflect shifts in underlying commodity equities, currencies, and any leverage employed in the portfolio.",
+        "Investors should compare the disclosed NTA against TGF's prevailing share price to assess the discount/premium — a persistent discount to NTA could signal redemption pressure or weak investor appetite for the natural resources thematic."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MBH",
+      "company": "MAGGIE BEER HOLDINGS LTD",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-31T02:03:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129216-3A700501",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Preliminary Final Report (Appendix 4E) provides the first statutory snapshot of MBH's FY26 financials, locking in audited/reviewed revenue, NPAT, and net asset figures — any material divergence from prior guidance or market expectations will be immediately actionable.",
+        "Investors should focus on whether the company has recognised any additional impairments to brand intangibles or goodwill (a recurring risk given the premium paid on acquisition of the Maggie Beer brand), and whether going-concern disclosures have been removed or remain.",
+        "The Prelim Final also confirms dividend policy (expected nil given loss-making history) and any changes to shares on issue, providing a clean baseline ahead of the incoming MD's strategic review."
+      ],
+      "tags": [
+        "Results",
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CDO",
+      "company": "CADENCE OPPORTUNITIES FUND LIMITED.",
+      "headline": "Share Purchase Plan",
+      "time": "2026-08-31T02:03:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129215-2A1693742",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CDO (Cadence Opportunities Fund) is launching a Share Purchase Plan (SPP), offering existing retail shareholders the ability to subscribe for new shares — typically at a discount to the prevailing market price, which introduces near-term dilution pressure on the register.",
+        "For a closed-end listed investment company/fund structure like CDO, an SPP raises questions around the discount to NTA at which shares are being issued; if the issue price is below NTA, it is value-destructive to non-participating shareholders and warrants scrutiny.",
+        "Investors should assess the SPP cap size relative to CDO's current market capitalisation, the use of proceeds (portfolio deployment vs. liquidity), and whether this follows a recent placement — if so, the SPP is the retail component of a broader capital raise, implying management sees near-term deployment opportunities."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NIM",
+      "company": "NIMY RESOURCES LIMITED",
+      "headline": "Amended Pivotal Testwork Delivers High Gallium & REE Extract",
+      "time": "2026-08-31T01:58:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129214-6A1341268",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NIM (Nimy Resources) reports amended testwork delivering high gallium and rare earth element (REE) extraction rates — gallium is a critical mineral with acute supply concentration risk (China dominates ~80% of global supply), making any credible extraction result strategically significant.",
+        "The word 'amended' in the headline is critical — it implies prior testwork was revised or optimised, and investors must determine whether recovery rates have genuinely improved or whether methodology changes inflate headline figures; independent validation will be key to institutional credibility.",
+        "If extraction grades and recovery rates are commercially viable, NIM could attract strategic interest from defence/tech supply chain investors and potentially qualify for government critical minerals funding support in Australia — materially de-risking the project's financing pathway."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WTM",
+      "company": "WARATAH MINERALS LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-08-31T01:58:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129213-6A1341269",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Waratah Minerals (WTM) has filed a Cleansing Notice under s708A of the Corporations Act, confirming it is compliant with continuous disclosure obligations — this is a standard post-capital raise mechanism to allow freely tradeable securities to be issued without a prospectus.",
+        "The existence of a Cleansing Notice confirms WTM has recently completed or is completing a capital raise, implying share count dilution; for a small-cap miner, the use of proceeds and implied valuation of the raise are critical to assess accretion or dilution risk.",
+        "Investors should cross-reference the Cleansing Notice with any associated placement or rights issue documentation to understand the raise size, price, and strategic rationale — without that context, the share price impact remains dilution-biased until deployment of capital is clarified."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MAP",
+      "company": "MICROBA LIFE SCIENCES LIMITED",
+      "headline": "2026 Appendix 4G",
+      "time": "2026-08-31T01:57:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129212-2A1693739",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Microba Life Sciences (MAP) has lodged its 2026 Appendix 4G, a mandatory ASX compliance document that cross-references the company's governance practices against the ASX Corporate Governance Principles and Recommendations — this is a procedural filing with no direct earnings impact.",
+        "The Appendix 4G is significant for institutional investors screening ESG and governance quality; any 'if not, why not' explanations for non-compliance with ASX recommendations could flag governance gaps at the microbiome diagnostics company.",
+        "Filed in conjunction with the Corporate Governance Statement (announcement [6]), the dual release suggests MAP is fulfilling its annual reporting cycle obligations — investors should assess whether governance frameworks are maturing in line with the company's clinical and commercial development stage."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAP",
+      "company": "MICROBA LIFE SCIENCES LIMITED",
+      "headline": "2026 Corporate Governance Statement",
+      "time": "2026-08-31T01:57:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129211-2A1693737",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Microba Life Sciences (MAP) has published its 2026 Corporate Governance Statement, detailing board composition, risk management frameworks, remuneration structures, and shareholder engagement policies — a key qualitative input for institutional due diligence.",
+        "For a clinical-stage life sciences company like MAP, governance quality is a proxy for capital allocation discipline; scrutiny should focus on board independence ratios, whether a formal audit and risk committee exists, and alignment of executive remuneration with clinical milestones.",
+        "This filing, read alongside the Appendix 4G, provides a complete picture of MAP's governance posture heading into FY27 — any strengthening of the board with commercial or healthcare industry expertise would be a positive signal for near-term commercialisation credibility."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APZ",
+      "company": "ASPEN GROUP",
+      "headline": "Cleansing Notice",
+      "time": "2026-08-31T01:56:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129210-2A1693741",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Aspen Group (APZ) has lodged a Cleansing Notice under s708A, confirming the residential and lifestyle communities REIT has recently executed a capital raise and is now enabling free trading of newly issued securities without a full prospectus requirement.",
+        "For a property group like APZ, capital raises are typically linked to asset acquisitions, development funding, or balance sheet management — the strategic rationale and pricing of the raise relative to NTA are critical to determining whether existing unitholders face meaningful dilution.",
+        "Cross-referencing with announcement [10] (new securities quotation application) confirms new shares are being brought to market — investors should assess the implied NTA discount or premium at which the raise was priced to gauge management's confidence in underlying asset values."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Property",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RMI",
+      "company": "RESOURCE MINERALS INTERNATIONAL LTD",
+      "headline": "Company Secretary Appointment/Resignation",
+      "time": "2026-08-31T01:56:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129209-6A1341267",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Resource Minerals International (RMI) has announced a Company Secretary appointment or resignation — a governance-level change that, while procedurally routine, can signal instability at the board/executive level for a small-cap miner.",
+        "Company Secretary turnover at micro-cap resources companies occasionally precedes broader management or strategic changes, and may reflect friction around compliance obligations, capital raising activity, or corporate restructuring.",
+        "Investors should monitor whether this change is accompanied by further board or executive announcements — in isolation, the filing is administrative, but pattern recognition across personnel changes at small explorers is a useful early-warning indicator."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VTS",
+      "company": "VANGUARD MORNINGSTAR US TOTAL MKT SHARES INDEX ETF",
+      "headline": "US SEC Filing Announcement",
+      "time": "2026-08-31T01:55:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129208-2A1693740",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vanguard's VTS ETF has filed a US SEC disclosure, a routine requirement given the fund's US-domiciled underlying structure — this reflects VTS's unique status on the ASX as a pass-through vehicle for the US-listed Vanguard Total Market ETF, subject to dual regulatory oversight.",
+        "The SEC filing itself carries no direct valuation impact for ASX-listed VTS units; however, any material disclosures within the SEC document (e.g. changes to fund structure, fee adjustments, or index methodology) could have secondary implications for the 170,000+ Australian retail and SMSF investors holding VTS.",
+        "Institutional investors holding VTS as a core US equity allocation should note that currency risk (AUD/USD) and withholding tax treatment on dividends remain the primary variables — the SEC filing is unlikely to alter either dynamic but warrants a read-through for structural changes."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PL3",
+      "company": "PATAGONIA LITHIUM LTD",
+      "headline": "Notice of ceasing to be a substantial holder",
+      "time": "2026-08-31T01:55:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129207-3A700499",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased to hold a relevant interest (≥5%) in Patagonia Lithium (PL3), indicating a meaningful institutional or strategic seller has exited or reduced below the disclosure threshold — this is a bearish technical signal for near-term price support.",
+        "In the current depressed lithium market environment, the exit of a substantial holder from a junior explorer like PL3 may reflect broader sector fatigue or a portfolio reallocation away from pre-revenue lithium assets, reducing the quality of the register.",
+        "Investors should identify the departing holder (disclosed in the notice) and assess whether this represents forced selling, a strategic disengagement, or a shift in project conviction — if it is a cornerstone or strategic partner, the implications for future capital raises are materially negative."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "APZ",
+      "company": "ASPEN GROUP",
+      "headline": "Application for quotation of securities - APZ",
+      "time": "2026-08-31T01:53:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129206-2A1693738",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Aspen Group (APZ) has lodged an Application for Quotation of Securities, formally requesting ASX list the newly issued shares arising from its recent capital raise — this is the final procedural step that brings new securities into free trading, directly increasing the listed share count.",
+        "The quotation application confirms dilution is now being crystallised for existing APZ unitholders; the key investor question is whether the capital deployed into property assets or debt reduction will generate returns above the implied cost of equity from the raise.",
+        "Taken together with the Cleansing Notice in announcement [7], APZ has now completed the full capital raise execution cycle — market attention will shift to management's deployment timeline and whether the raise strengthens or dilutes per-security NTA metrics."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Property"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PL3",
+      "company": "PATAGONIA LITHIUM LTD",
+      "headline": "Proposed issue of securities - PL3",
+      "time": "2026-08-31T01:52:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129205-3A700498",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PL3 has lodged a proposed securities issuance notice, signalling an imminent capital raise or options exercise event that will add to the share register — a key watch point for dilution risk in an already capital-intensive lithium exploration environment.",
+        "The administrative filing precedes a formal offer document, suggesting the company is in active fundraising mode; timing against a depressed lithium price backdrop raises questions about placement pricing and investor appetite.",
+        "Investors should monitor the subsequent offer terms closely — size, price, and any associated options attached to the raise will determine the extent of shareholder dilution and impact on cash runway for ongoing exploration activities."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PL3",
+      "company": "PATAGONIA LITHIUM LTD",
+      "headline": "Cleansing Prospectus for Options",
+      "time": "2026-08-31T01:50:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129204-3A700497",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PL3 has filed a Cleansing Prospectus for options, a regulatory requirement under the Corporations Act to allow on-sale of securities issued without a prospectus — confirming a recent or concurrent capital raise has taken place.",
+        "The cleansing prospectus itself carries no new financial information but is a necessary compliance step; its filing confirms that new securities (and associated options) have already been allocated, meaning dilution is effectively locked in.",
+        "Institutional investors should cross-reference the number of options being cleansed against the current issued capital to quantify potential future dilution upon exercise, particularly relevant if options are in-the-money as lithium sentiment recovers."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "FSI",
+      "company": "FLAGSHIP INVESTMENTS LIMITED",
+      "headline": "Application for quotation of securities - FSI",
+      "time": "2026-08-31T01:46:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129203-2A1693736",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "FSI (Flagship Investments) has lodged an application for quotation of new securities, indicating freshly issued shares or options are being admitted to trading on the ASX — a routine post-issuance step.",
+        "As a listed investment company (LIC), FSI's new securities quotation likely follows a dividend reinvestment plan (DRP) allotment or a small capital raise; the quantum of new securities will determine any marginal dilution to NTA per share.",
+        "The administrative nature of this filing carries minimal standalone price impact, but investors should verify whether the newly quoted securities relate to a DRP (NTA-neutral to mildly positive) or a discounted placement (modestly dilutive)."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WTM",
+      "company": "WARATAH MINERALS LIMITED",
+      "headline": "Application for quotation of securities - WTM",
+      "time": "2026-08-31T01:46:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129202-6A1341266",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WTM (Waratah Minerals) is applying for quotation of new securities, a post-issuance administrative filing that confirms recently allocated shares or options are being brought to market for trading.",
+        "For a small-cap minerals explorer like WTM, the admission of new securities to quotation often follows a placement or IPO-related tranche; the liquidity event could attract short-term selling pressure from new holders seeking early exits.",
+        "Investors should assess the total securities being quoted relative to existing float — in thinly traded micro-caps, even modest new issuances can materially impact liquidity dynamics and near-term price discovery."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PR2",
+      "company": "PICHE RESOURCES LIMITED",
+      "headline": "Change of Director's Interest Notice - Macdonald",
+      "time": "2026-08-31T01:45:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129201-6A1341265",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for director Macdonald at PR2 (Piche Resources) has been filed, indicating a change in their direct or indirect holding — either an acquisition, disposal, or securities issuance such as options.",
+        "Director interest movements at small-cap explorers like PR2 are closely watched as sentiment signals; an on-market purchase would be a modest positive indicator of insider confidence, while a disposal could signal reduced conviction.",
+        "Without the specific transaction detail (buy/sell/options grant), the filing is procedurally neutral; investors should review the underlying notice for transaction type, volume, and whether the change was market-acquired or remuneration-related."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SGR",
+      "company": "THE STAR ENTERTAINMENT GROUP LIMITED",
+      "headline": "Appendix 4G and Corporate Governance Statement",
+      "time": "2026-08-31T01:44:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129200-2A1693735",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Star Entertainment Group (SGR) has filed its Appendix 4G and Corporate Governance Statement — a mandatory annual disclosure mapping its governance practices against the ASX Corporate Governance Principles, filed in the context of severe ongoing regulatory and financial stress.",
+        "Given SGR's well-documented governance failures that led to its loss of casino licences and current administration risk, any deviations or 'if not, why not' disclosures within the governance statement will be scrutinised heavily by regulators, creditors, and remaining equity holders.",
+        "This filing is a compliance obligation rather than a positive catalyst; however, the quality and completeness of governance disclosures may be a leading indicator of management's commitment to remediation — a key variable in any restructuring or licence reinstatement outcome."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PR2",
+      "company": "PICHE RESOURCES LIMITED",
+      "headline": "Change of Director's Interest Notice - Mann",
+      "time": "2026-08-31T01:44:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129199-6A1341264",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for director Mann at PR2 (Piche Resources) has been lodged, representing a second director interest change filing for the company on the same day — alongside the Macdonald notice — suggesting a concurrent securities event such as an options grant or placement.",
+        "The simultaneous filing for two directors strongly implies this is a remuneration-related securities grant (e.g., options or performance rights) rather than open-market transactions, which is common for small explorers conserving cash by compensating directors in equity.",
+        "Equity-based director remuneration at cash-constrained explorers adds to long-term dilution risk; investors should assess the vesting conditions and exercise prices relative to current market price to gauge the true cost to existing shareholders."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMH",
+      "company": "AMCIL LIMITED",
+      "headline": "Appendix 4G and 2026 Corporate Governance Statement",
+      "time": "2026-08-31T01:42:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129198-3A700496",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMCIL (AMH) has filed its Appendix 4G and 2026 Corporate Governance Statement, a routine annual compliance document for this ASX-listed investment company managed by the Australian Foundation Investment Company (AFIC) stable.",
+        "As a conservatively managed LIC with a strong governance track record, AMH is expected to report full compliance with ASX Corporate Governance Principles; any deviations would be notable but are historically rare for this issuer.",
+        "This filing is purely administrative and carries no valuation impact; its primary relevance is confirming AMH's annual reporting cycle is on schedule ahead of the AGM, providing comfort to institutional investors on process integrity."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMH",
+      "company": "AMCIL LIMITED",
+      "headline": "2026 AGM Documentation",
+      "time": "2026-08-31T01:41:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129197-3A700495",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "AMCIL (AMH) has released its 2026 AGM documentation, including the notice of meeting and proxy materials — a key governance event for shareholders of this long-standing listed investment company.",
+        "Investors should review the AGM agenda for any non-routine resolutions, including director elections, remuneration report approval, and any proposed changes to investment mandate or fee structures that could affect long-term NTA outcomes.",
+        "The AGM provides an opportunity for management to address portfolio positioning and performance relative to benchmark; for a LIC trading at a premium or discount to NTA, management commentary on buyback policy or DRP continuation will be closely watched."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMH",
+      "company": "AMCIL LIMITED",
+      "headline": "2026 Annual Report and Annual Shareholder Review",
+      "time": "2026-08-31T01:40:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129196-3A700493",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "AMCIL (AMH) has released its 2026 Annual Report and Annual Shareholder Review, providing a comprehensive account of portfolio performance, NTA movements, dividend history, and strategic outlook for the financial year — the most substantive disclosure of the reporting cycle.",
+        "Key metrics to assess include full-year NTA per share (pre- and post-tax), total shareholder return versus the S&P/ASX 200 Accumulation Index, dividend per share sustainability, and the portfolio's sector and stock concentration relative to prior periods.",
+        "As a conservatively positioned LIC, any commentary on cash weighting, new or exited positions, and the outlook for franking credit availability will be particularly relevant for yield-focused retail and SMSF investors who form the core shareholder base."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SOP",
       "company": "SYNERTEC CORPORATION LIMITED",
