@@ -1,9 +1,104 @@
 {
   "date": "2026-09-01",
-  "total": 301,
+  "total": 306,
   "market_sensitive_count": 85,
-  "generated_at": "2026-08-31T23:53:31.025245+00:00",
+  "generated_at": "2026-08-31T23:59:56.989342+00:00",
   "announcements": [
+    {
+      "ticker": "MYE",
+      "company": "MASTERMYNE GROUP LIMITED",
+      "headline": "Initial Director's Interest Notice - GR",
+      "time": "2026-08-31T23:57:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130064-2A1694150",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Initial Director's Interest Notice filed for a new or newly appointed director (GR) at Mastermyne Group, a coal mining services company — establishes the baseline shareholding position for ongoing disclosure obligations under ASX Listing Rule 3.19A.",
+        "The filing itself carries no immediate financial implication, but tracking insider initial positions is relevant for monitoring future on-market buying or selling activity as a directional signal on management confidence in MYE's earnings outlook.",
+        "Next step for investors: cross-reference the declared holding against any upcoming remuneration or incentive plan disclosures to assess alignment between board compensation structure and shareholder interests."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TGF",
+      "company": "TRIBECA GLOBAL NATURAL RESOURCES LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-08-31T23:56:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130063-2A1694148",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Tribeca Global Natural Resources (TGF), a listed investment company focused on global natural resources equities, has released an investor presentation — likely covering portfolio positioning, NAV performance, and sector thematic views on commodities.",
+        "As a non-market-sensitive filing, the presentation is unlikely to contain material undisclosed information, but TGF presentations typically highlight NAV-to-share-price discount dynamics, which are key valuation drivers for LIC investors assessing entry points.",
+        "Investors should review the presentation for any shifts in portfolio concentration, top holdings, or commodity exposure tilts (e.g. energy vs. metals) that could signal the manager's near-term conviction and inform relative value assessments against peer LICs."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IFN",
+      "company": "INFRAGREEN GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - IFN",
+      "time": "2026-08-31T23:53:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130062-2A1694149",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Infragreen Group (IFN) has issued an update to its on-market share buyback notification — indicating the buyback program remains active, which signals board confidence in the stock's intrinsic value relative to current market pricing.",
+        "On-market buybacks are capital management tools that reduce share count and can be modestly EPS-accretive; for a smaller-cap entity like IFN, sustained buyback activity also provides a degree of price support in thinly traded conditions.",
+        "Key watch point: the pace and volume of buyback execution relative to the approved limit — accelerated buying near current price levels would be a stronger bullish signal, while slow or stalled execution may indicate liquidity constraints or diminished conviction."
+      ],
+      "tags": [
+        "Other",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VAS",
+      "company": "VANGUARD AUSTRALIAN SHARES INDEX ETF",
+      "headline": "Updated PDSs Vanguard Australian Shares ETFs",
+      "time": "2026-08-31T23:52:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130061-2A1694142",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vanguard has filed updated Product Disclosure Statements (PDSs) for its Australian Shares ETF suite including VAS — a routine regulatory compliance update required when material changes occur to fund terms, fees, benchmarks, or risk disclosures.",
+        "For institutional investors, the critical action is to review the updated PDS for any changes to management expense ratios (MER), index methodology, or authorised participant arrangements, as even minor fee adjustments have compounding impact at scale.",
+        "No near-term price impact is expected for VAS given its passive, index-tracking structure; however, any benchmark reconstitution details embedded in the PDS update could have second-order implications for constituent ASX stocks subject to reweighting."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRR",
+      "company": "SARAMA RESOURCES LTD",
+      "headline": "Notification regarding unquoted securities - SRR",
+      "time": "2026-08-31T23:51:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130060-6A1341600",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Sarama Resources (SRR), a West African-focused gold explorer, has lodged a notification regarding unquoted securities — most commonly associated with the issue of options, performance rights, or unlisted shares to directors, employees, or counterparties under incentive schemes.",
+        "Unquoted security issuances are dilutive in nature upon potential conversion; investors should assess the quantum of securities issued relative to total shares on issue to gauge the effective dilution overhang on the current market capitalisation.",
+        "For a junior gold explorer like SRR, frequent unquoted security issuances may indicate reliance on equity-based compensation to preserve cash — a signal worth monitoring in the context of the company's cash runway and upcoming exploration expenditure commitments."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GAS",
       "company": "STATE GAS LIMITED",
