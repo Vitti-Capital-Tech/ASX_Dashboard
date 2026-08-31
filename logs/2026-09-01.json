@@ -1,9 +1,596 @@
 {
   "date": "2026-09-01",
-  "total": 238,
-  "market_sensitive_count": 69,
-  "generated_at": "2026-08-31T23:31:31.244796+00:00",
+  "total": 269,
+  "market_sensitive_count": 77,
+  "generated_at": "2026-08-31T23:39:42.109653+00:00",
   "announcements": [
+    {
+      "ticker": "UBN",
+      "company": "URBANISE.COM LIMITED",
+      "headline": "Notification of cessation of securities - UBN",
+      "time": "2026-08-31T23:36:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130027-2A1694123",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Urbanise.com has notified the market of the cessation of securities, a procedural administrative event typically associated with the lapsing of unvested options, performance rights, or convertible instruments that were not exercised or did not meet vesting conditions.",
+        "The cessation of unexercised equity instruments is marginally positive for existing shareholders as it reduces potential dilution — however, if the lapsed instruments related to key management personnel, it may indirectly signal staff departures or performance target misses.",
+        "As a non-market-sensitive administrative disclosure, this announcement carries no material near-term price catalyst and is primarily relevant for cap table maintenance and dilution monitoring by existing shareholders."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NWH",
+      "company": "NRW HOLDINGS LIMITED",
+      "headline": "Karara Contract Extension",
+      "time": "2026-08-31T23:36:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130026-6A1341592",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NRW Holdings has secured a contract extension at the Karara iron ore project, reinforcing its position as a key civil and mining services contractor and providing revenue visibility in its core mining services segment.",
+        "The extension adds backlog certainty to NWH's order book, which is critical for institutional investors monitoring earnings quality and forward revenue conversion — contract extensions typically carry higher margin predictability than new-wins.",
+        "With infrastructure and mining services demand remaining elevated across WA, this renewal signals client confidence in NWH's execution capability and positions the company for potential scope expansions at Karara as the magnetite operation matures."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NOX",
+      "company": "NOXOPHARM LIMITED",
+      "headline": "Novel oligonucleotides data presented at Options Conference",
+      "time": "2026-08-31T23:36:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130025-3A700673",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Noxopharm presented novel oligonucleotide data at the Options Conference, signalling a strategic pivot or expansion beyond its oncology-focused pipeline into nucleic acid-based therapeutics — a high-growth area attracting significant global capital.",
+        "Conference-stage data presentations carry exploratory risk; the key investor question is whether this represents proprietary IP or licensed technology, and how far the programme is from IND-enabling studies or commercial partnership discussions.",
+        "For a micro-cap biotech with limited cash runway typical of NOX's profile, the ability to generate early-stage data across multiple modalities is positive for optionality but may also signal capital deployment pressures if multiple programmes compete for funding."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "YRL",
+      "company": "YANDAL RESOURCES LIMITED",
+      "headline": "Final Director's Interest Notice - Oorschot",
+      "time": "2026-08-31T23:36:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130024-6A1341593",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "This is a final director's interest notice for an individual named Oorschot at Yandal Resources, filed in conjunction with the board changes announced in [6], confirming the departure-related disclosure obligations under ASX Listing Rules.",
+        "The notice documents the departing director's final security holdings, providing transparency on whether shares are being retained or disposed of — a retention of holdings post-departure would be a mild positive signal regarding long-term confidence in the company.",
+        "As a routine compliance filing, this announcement has no independent price impact, but should be read alongside announcement [6] to build a complete picture of the governance transition underway at YRL."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "Update - Notification of buy-back - KAR",
+      "time": "2026-08-31T23:35:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130023-3A700674",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Karoon Energy is actively maintaining an on-market share buyback program, signalling management confidence in the stock's intrinsic value relative to current market pricing.",
+        "Buyback activity reduces the share count over time, providing modest EPS accretion — particularly relevant for KAR given its Brazil-focused oil production cash flows and capital allocation discipline.",
+        "Investors should monitor the cumulative buyback volume and remaining buyback capacity to assess how aggressively capital is being returned versus being reserved for exploration or debt reduction."
+      ],
+      "tags": [
+        "Finance",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "14D",
+      "company": "1414 DEGREES LIMITED",
+      "headline": "14D Secures 100% of Aurora Energy Precinct",
+      "time": "2026-08-31T23:35:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130022-2A1694120",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "1414 Degrees has secured 100% ownership of the Aurora Energy Precinct, a material consolidation of its thermal energy storage development footprint that removes co-ownership complexity and accelerates commercialisation pathways.",
+        "Full site control is a decisive de-risking milestone for 14D — it eliminates joint-development ambiguity, strengthens the company's negotiating position with potential offtake partners, and may unlock project financing that requires unencumbered site tenure.",
+        "As the energy transition drives demand for grid-scale storage solutions, securing the entire precinct positions 14D to attract larger strategic partners or government co-investment, though execution risk remains high given the pre-revenue stage of the business."
+      ],
+      "tags": [
+        "Energy",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "YRL",
+      "company": "YANDAL RESOURCES LIMITED",
+      "headline": "Final Director's Interest Notice - Newman",
+      "time": "2026-08-31T23:35:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130021-6A1341591",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A final Director's Interest Notice for Newman at Yandal Resources indicates a director has ceased their role, triggering mandatory disclosure of their final security holdings at departure.",
+        "The filing is procedural and administrative in nature, but the departure of a director from a junior gold explorer warrants attention regarding any potential governance or strategic shifts at board level.",
+        "Investors should cross-reference this with any accompanying resignation announcement or board restructuring notice to assess whether this reflects routine turnover or a more substantive leadership change."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VKA",
+      "company": "VIKING MINES LIMITED",
+      "headline": "HIGH-GRADE TUNGSTEN UP TO 2.7% WO3 AT REGIONAL PROJECTS",
+      "time": "2026-08-31T23:35:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130020-6A1341589",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Viking Mines has reported high-grade tungsten assays of up to 2.7% WO3 at its regional projects — a grade level that is commercially significant given tungsten's critical mineral status and tight global supply chains dominated by China.",
+        "Tungsten is increasingly strategic for defence, semiconductors, and hardened tooling applications; results at this grade threshold will draw attention from critical minerals investors and potentially government-backed funding bodies seeking to diversify supply.",
+        "The 'regional projects' framing suggests early-stage reconnaissance rather than resource definition drilling, so investors should treat this as exploration upside rather than near-term production optionality — follow-up drilling programs and resource estimation timelines are the critical next catalysts."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IFN",
+      "company": "INFRAGREEN GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - IFN",
+      "time": "2026-08-31T23:34:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130019-2A1694122",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "InfraGreen Group Limited is conducting an on-market share buyback, an unusual signal for a smaller-cap infrastructure/green energy company that typically prioritises growth capital deployment over returns.",
+        "The buyback suggests management views the current share price as undervalued, though for a smaller company the capital deployed in buybacks must be weighed against competing investment needs in the green infrastructure pipeline.",
+        "Investors should scrutinise the scale of the buyback relative to IFN's cash reserves and operating cash flows to determine if this is a substantive capital management initiative or a token gesture."
+      ],
+      "tags": [
+        "Finance",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "UBN",
+      "company": "URBANISE.COM LIMITED",
+      "headline": "Application for quotation of securities - UBN",
+      "time": "2026-08-31T23:34:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130018-2A1694121",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Urbanise.com has applied for quotation of new securities on the ASX, indicating that previously issued shares, options, or performance rights are being brought to market for trading.",
+        "Depending on the nature and volume of the securities being quoted — particularly if related to a capital raise or option conversion — this could introduce near-term selling pressure from new holders seeking liquidity.",
+        "Investors should review the specific security class and quantity being quoted to determine dilution impact and whether this relates to an institutional placement, employee incentive scheme, or other issuance."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "YRL",
+      "company": "YANDAL RESOURCES LIMITED",
+      "headline": "Final Director's Interest Notice - Law",
+      "time": "2026-08-31T23:34:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130017-6A1341590",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A final Director's Interest Notice for Law at Yandal Resources confirms another director has exited the company, with this filing representing their closing position in YRL securities.",
+        "Two simultaneous final director notices (Newman and Law) from the same company on the same day suggests a more significant board restructuring event rather than isolated individual departures.",
+        "The concurrent exits elevate the importance of monitoring YRL's next board composition announcement, as wholesale board changes at a junior explorer can meaningfully shift strategic direction and investor confidence."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "YRL",
+      "company": "YANDAL RESOURCES LIMITED",
+      "headline": "Initial Director's Interest Notice - Jackson",
+      "time": "2026-08-31T23:33:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130016-6A1341588",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "An initial Director's Interest Notice for Jackson at Yandal Resources confirms a new director appointment, with this filing disclosing their opening security holdings in YRL.",
+        "Combined with two simultaneous director departures, Jackson's appointment appears to be part of a coordinated board refresh — a critical inflection point for a junior gold explorer seeking to reposition strategy or attract new institutional interest.",
+        "The nature and size of Jackson's initial shareholding will signal alignment with minority investors; a meaningful personal stake at appointment is generally viewed as a positive governance indicator."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst ORG SFIs Dividend",
+      "time": "2026-08-31T23:33:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130015-2A1694118",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst has declared a dividend on its ORG (Origin Energy) Structured Finance Instruments (SFIs), which are derivative-linked structured products rather than direct equity holdings in Origin Energy.",
+        "The dividend payment is a contractual obligation tied to the SFI product terms and reflects cash flow mechanics of the structured product rather than any operational signal from Origin Energy itself.",
+        "Holders of these SFIs should confirm the ex-dividend date, payment date, and per-unit amount to manage income expectations; this announcement has no read-through for Origin Energy's (ORG) own dividend or earnings outlook."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "YRL",
+      "company": "YANDAL RESOURCES LIMITED",
+      "headline": "Initial Director's Interest Notice - Eshuys",
+      "time": "2026-08-31T23:33:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130014-6A1341587",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "An initial Director's Interest Notice for Eshuys at Yandal Resources discloses a second new director appointment, with their opening YRL security holdings now on public record.",
+        "The appointment of Eshuys alongside Jackson, combined with the exits of Newman and Law, confirms a near-complete board overhaul at YRL — a substantial governance event for a junior mining company that warrants close investor scrutiny.",
+        "Mark Eshuys, if this is the well-known WA gold explorer and geologist, would represent a highly credentialed addition to YRL's board, potentially signalling a renewed technical focus on gold exploration and a material rerating catalyst."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CAM",
+      "company": "CLIME CAPITAL LIMITED",
+      "headline": "Update - Notification of buy-back - CAM",
+      "time": "2026-08-31T23:30:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130013-2A1694116",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Clime Capital Limited (CAM), a listed investment company (LIC), is updating its on-market share buyback program — a common capital management tool used by LICs trading at a discount to net asset value (NAV).",
+        "For LICs, buybacks are particularly value-accretive when executed at a discount to NAV, as each buyback dollar retired at below-NAV pricing benefits remaining shareholders by lifting the per-share NAV.",
+        "Investors should track CAM's current share price versus its most recently reported NAV to assess the buyback's accretion potential and whether it reflects management's view that the discount is unjustifiably wide."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ARC",
+      "company": "ARC FUNDS LIMITED",
+      "headline": "Notification of cessation of securities - ARC",
+      "time": "2026-08-31T23:29:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130012-2A1694115",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ARC Funds Limited has filed a notification of cessation of securities, indicating that a class of previously issued securities — typically options, performance rights, or convertible instruments — has lapsed, been cancelled, or converted.",
+        "Cessation of securities, particularly options or rights that have lapsed unexercised, can be a mildly positive signal as it confirms no further dilution will arise from those instruments and reduces the potential overhang on the register.",
+        "Investors should confirm the specific security type and quantity that has ceased to determine whether this reflects lapsed options (dilution removal — positive) or a redemption/cancellation event with different capital structure implications."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGE",
+      "company": "ALLIGATOR ENERGY LIMITED",
+      "headline": "Application for quotation of securities - AGE",
+      "time": "2026-08-31T23:29:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130010-2A1694112",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AGE is applying to quote new securities on the ASX, indicating a recent capital raise or securities issuance has been completed and shares are being brought to market.",
+        "The administrative quotation process suggests dilution has already occurred; the key question for existing holders is the price and volume of securities being listed relative to current market price.",
+        "No immediate trading action is required, but investors should monitor the associated prospectus or placement details to assess dilution impact on net asset value per share."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Notification of cessation of securities - KSN",
+      "time": "2026-08-31T23:29:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130011-6A1341586",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "KSN is notifying the ASX of a cessation of securities, typically arising from the expiry of unexercised options, conversion of convertible notes, or cancellation of performance rights.",
+        "Cessation of securities is generally marginally positive for remaining shareholders as it reduces the potential dilutive overhang on the register.",
+        "Investors should confirm the class and volume of securities ceased to quantify the reduction in fully diluted share count and reassess any treasury/option models accordingly."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TEA",
+      "company": "TASMEA LIMITED",
+      "headline": "Application for quotation of securities - TEA",
+      "time": "2026-08-31T23:29:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130008-6A1341584",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "TASMEA (TEA) is applying to quote new securities, signalling a recently completed capital transaction — likely a placement, rights issue, or employee incentive plan vesting — is moving to the listing stage.",
+        "The timing and scale of the securities being quoted will determine whether this represents meaningful dilution; institutional investors should cross-reference against TEA's most recent capital raise announcements.",
+        "As a procedural step, near-term price impact is limited, but the increase in tradeable float could affect short-term liquidity dynamics depending on the volume of new shares."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WMX",
+      "company": "WAM INCOME MAXIMISER LIMITED",
+      "headline": "Geoff Wilson Appendix 3Y",
+      "time": "2026-08-31T23:29:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130009-2A1694107",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Appendix 3Y filed by Geoff Wilson (Chairman and founder of WAM Income Maximiser) discloses a change in his director's interest, requiring close scrutiny of whether this reflects a buy, sell, or restructure of his holdings.",
+        "Any increase in Wilson's personal stake would signal strong insider confidence in WMX's income strategy and dividend sustainability; a reduction could raise questions about near-term distribution outlook.",
+        "Given Wilson's profile as a prominent retail-focused fund manager, even minor changes in his disclosed interest tend to attract retail investor attention and can influence short-term sentiment in LIC markets."
+      ],
+      "tags": [
+        "Finance",
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CIW",
+      "company": "CLIME INVESTMENT MANAGEMENT LTD",
+      "headline": "Update - Notification of buy-back - CIW",
+      "time": "2026-08-31T23:29:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130007-2A1694113",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Clime Investment Management (CIW) has updated its on-market buy-back notification, indicating the buy-back program remains active and management is continuing to return capital to shareholders.",
+        "Buy-backs in small-cap fund managers like CIW serve a dual purpose: reducing share count to support EPS and signalling that management believes the stock is undervalued relative to intrinsic or NTA value.",
+        "Investors should track the pace and volume of buy-back execution — an acceleration in buy-back activity would be a stronger bullish signal, while a slowdown may suggest cash conservation priorities are shifting."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ADO",
+      "company": "ANTEOTECH LTD",
+      "headline": "Annual Staff Performance Review Process",
+      "time": "2026-08-31T23:29:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130005-2A1694110",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AnteoTech (ADO) has disclosed its annual staff performance review process, an administrative HR disclosure that has no direct financial or operational impact on the company's near-term outlook.",
+        "For a pre-revenue biotech/technology company, staff retention and incentive structures are strategically important — if the review is linked to performance rights or option grants, dilution implications should be monitored via subsequent Appendix 3B or 3Y filings.",
+        "This announcement is low signal for institutional investors but may indicate upcoming changes to executive remuneration or headcount that could appear in the next half-year or full-year results."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEM",
+      "company": "MEMPHASYS LIMITED.",
+      "headline": "EUR526,500 Nordic Agreement Expands Felix European Footprint",
+      "time": "2026-08-31T23:29:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130006-3A700670",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Memphasys has executed a EUR526,500 Nordic distribution agreement for its Felix sperm separation device, representing a tangible commercial milestone that extends European geographic reach beyond existing markets.",
+        "The contract value, while modest in absolute terms, is meaningful for a pre-profitability MedTech at MEM's scale — it provides near-term revenue visibility and validates clinical adoption of the Felix platform in highly regulated Nordic healthcare systems.",
+        "Nordic market penetration is strategically important as a gateway to broader European reimbursement and regulatory acceptance; success here could accelerate discussions with larger European fertility clinic networks or attract distribution partners in the DACH and Benelux regions."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "YRL",
+      "company": "YANDAL RESOURCES LIMITED",
+      "headline": "Board and Management Changes",
+      "time": "2026-08-31T23:29:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130004-6A1341582",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Yandal Resources has announced board and management changes, which at this stage of disclosure introduces uncertainty around strategic direction, particularly relevant given the company's active exploration programmes.",
+        "Leadership transitions at junior explorers can signal either a positive uplift — bringing in operationally experienced personnel ahead of a development phase — or instability, and the market will scrutinise the incoming team's credentials and alignment with existing shareholders.",
+        "Investors should watch for any accompanying changes to exploration strategy, capital allocation priorities, or shifts in major shareholder positions that may have precipitated the restructure — cross-referencing with announcement [10] regarding director interest changes is advised."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAN",
+      "company": "KANTRA COPPER LTD",
+      "headline": "High-Grade Intersects Extend Spitfire Mineralisation",
+      "time": "2026-08-31T23:29:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130003-2A1694114",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kantra Copper has reported high-grade drill intersects that extend mineralisation at the Spitfire target, a positive exploration result that builds confidence in the continuity and scale potential of the copper deposit.",
+        "High-grade extensions are the critical metric for junior copper explorers seeking to attract development capital — the 'so what' here depends on the intersection widths and depths, which will determine whether Spitfire is trending toward resource definition or remains early-stage target testing.",
+        "Copper's structural demand outlook driven by electrification themes provides a favourable macro backdrop; if follow-up drilling confirms lateral and depth extensions, KAN could become a target for farm-in agreements or M&A interest from mid-tier producers seeking copper inventory."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SIS",
+      "company": "SIMBLE SOLUTIONS LIMITED",
+      "headline": "Simble achieves initial gas detection results",
+      "time": "2026-08-31T23:29:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130002-2A1694108",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Simble Solutions has achieved initial gas detection results, representing a proof-of-concept milestone for what appears to be an IoT/sensor-based gas monitoring technology — a meaningful step for a company diversifying beyond its core energy management software roots.",
+        "The 'initial results' framing is deliberately cautious and suggests pre-commercial validation stage; investors need clarity on detection accuracy benchmarks, regulatory certification requirements, and the total addressable market targeted (industrial safety, utilities, or emissions monitoring).",
+        "For a micro-cap tech company, successful gas detection technology could open access to industrial safety and ESG compliance markets where recurring SaaS-style monitoring contracts command premium multiples — but commercialisation timelines and capital requirements remain the key risk factors to watch."
+      ],
+      "tags": [
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DXS",
+      "company": "DEXUS",
+      "headline": "Update - Notification of buy-back - DXS",
+      "time": "2026-08-31T23:28:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130001-2A1694109",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Dexus (DXS), one of Australia's largest diversified property groups, has updated its on-market buy-back notification, reinforcing management's view that units are trading at a discount to net tangible assets (NTA).",
+        "In the current high-rate environment where A-REITs have faced significant valuation headwinds, an active buy-back by DXS is a meaningful capital allocation signal — prioritising unit price support over acquisitive growth.",
+        "Investors should track cumulative buy-back volumes against DXS's stated program limits; sustained execution at scale would be modestly accretive to distribution per unit and signals balance sheet confidence."
+      ],
+      "tags": [
+        "Property",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WAT",
+      "company": "WATERCO LIMITED",
+      "headline": "Update - Notification of buy-back - WAT",
+      "time": "2026-08-31T23:28:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130000-2A1694106",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Waterco Limited (WAT) has updated its on-market buy-back notification, indicating continued capital management activity by this niche pool and water treatment equipment manufacturer.",
+        "For a small-cap industrial like WAT, an active buy-back signals management confidence in free cash flow generation and suggests the board views current market pricing as below intrinsic value.",
+        "Investors should assess the buy-back against WAT's cash position and working capital requirements — particularly given the seasonal nature of its revenues — to confirm the program is sustainable without constraining operational flexibility."
+      ],
+      "tags": [
+        "Other",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OBL",
+      "company": "OMNI BRIDGEWAY LIMITED",
+      "headline": "Date of AGM and Closing Date for Director Nominations",
+      "time": "2026-08-31T23:28:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129999-6A1341583",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Omni Bridgeway (OBL) has announced the date of its AGM and the closing date for director nominations, a routine governance milestone for this global litigation finance firm.",
+        "The director nomination deadline is worth monitoring given OBL's recent strategic and financial challenges — any new or departing board members could signal a shift in investment strategy, cost management approach, or capital allocation priorities.",
+        "Institutional investors with OBL exposure should prepare AGM voting positions on remuneration, capital management resolutions, and any director elections, particularly given ongoing scrutiny of the litigation finance sector's fee structures and fund performance."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAM",
+      "company": "WAM CAPITAL LIMITED",
+      "headline": "WAM Capital Results & Dividend Q&A Webinar",
+      "time": "2026-08-31T23:28:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129998-2A1694092",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "WAM Capital (WAM) is hosting a Results & Dividend Q&A Webinar, providing retail and institutional investors direct access to Wilson Asset Management's commentary on portfolio performance, NTA movements, and dividend sustainability.",
+        "The webinar format signals transparency and investor engagement — key for a Listed Investment Company (LIC) where retail investor confidence directly influences the premium/discount to NTA at which WAM trades.",
+        "Investors should focus on management's commentary around franking credit reserves, the dividend coverage ratio, and portfolio positioning — particularly in a volatile equity market — as these factors drive WAM's income appeal and near-term price support."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JCS",
+      "company": "JCURVE SOLUTIONS LTD",
+      "headline": "Board Refresh and Chair Succession",
+      "time": "2026-08-31T23:28:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129997-2A1694100",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Board succession signals a governance transition at JCurve Solutions, with a chair refresh typically indicating strategic repositioning or preparation for a new phase — investors should monitor whether incoming leadership brings material sector expertise or M&A experience that could catalyse value creation.",
+        "As a micro-cap technology company, leadership stability is disproportionately important to institutional confidence; the non-market-sensitive classification suggests this is an orderly, pre-planned transition rather than an emergency departure, reducing downside governance risk.",
+        "Near-term focus should be on whether the incoming chair articulates a refreshed strategic agenda — particularly around JCurve's NetSuite ERP partnership pipeline and recurring revenue growth — as any shift in capital allocation or partnership strategy would carry outsized impact at this market cap."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CTW",
       "company": "CTW",
