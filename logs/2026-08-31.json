@@ -1,9 +1,777 @@
 {
   "date": "2026-08-31",
-  "total": 575,
-  "market_sensitive_count": 208,
-  "generated_at": "2026-08-31T02:34:22.794166+00:00",
+  "total": 615,
+  "market_sensitive_count": 226,
+  "generated_at": "2026-08-31T03:28:53.707352+00:00",
   "announcements": [
+    {
+      "ticker": "BMH",
+      "company": "BAUMART HOLDINGS LIMITED",
+      "headline": "Appendix 4E and Preliminary Final Report",
+      "time": "2026-08-31T03:25:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129295-6A1341293",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Baumart Holdings' Appendix 4E and Preliminary Final Report marks the close of its full financial year — investors should scrutinise revenue trajectory and EBITDA margins as the small-cap building materials sector remains under pressure from softening residential construction activity.",
+        "Key metrics to watch include net profit/loss vs. prior year, cash position, and any impairment charges that may signal asset write-downs in a challenging rate environment for the construction supply chain.",
+        "Preliminary reports often precede audited accounts; any qualifications or going-concern language in the auditor's review notes would be a critical red flag requiring immediate assessment of cash runway and working capital adequacy."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ANO",
+      "company": "ADVANCE ZINCTEK LIMITED",
+      "headline": "Appendix 4G",
+      "time": "2026-08-31T03:25:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129294-2A1693782",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 4G filing confirms ANO's compliance with ASX Corporate Governance Principles and Recommendations — a routine but necessary annual checkpoint for listed entities.",
+        "No material governance deficiencies flagged; the filing cross-references the company's Corporate Governance Statement, which investors should review alongside the concurrent Annual Report release.",
+        "As a small-cap zinc technology company, maintaining governance standards is critical to retaining institutional eligibility — this filing sustains that baseline without adding new investor catalysts."
+      ],
+      "tags": [
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FLX",
+      "company": "FELIX GROUP HOLDINGS LTD",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-08-31T03:25:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129293-2A1693781",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased its position in Felix Group Holdings (FLX), indicating a meaningful reduction in institutional or cornerstone ownership — typically a bearish signal as it removes a significant support base from the register.",
+        "The exit of a substantial holder (defined as crossing below the 5% threshold on ASX) can signal reduced conviction in the company's near-term prospects, potentially increasing share price volatility and free-float dynamics.",
+        "Investors should monitor whether this selldown was absorbed by the market cleanly or has created an overhang; follow-on selling pressure from other holders aware of the exit is a key near-term risk to watch."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ANO",
+      "company": "ADVANCE ZINCTEK LIMITED",
+      "headline": "Annual Report to shareholders",
+      "time": "2026-08-31T03:23:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129292-2A1693780",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "The Annual Report provides the definitive year-end financial snapshot for ANO — key metrics to scrutinise include cash burn rate, R&D expenditure on its ZincTek coating technology, and any revenue from commercial agreements.",
+        "Given ANO's pre-revenue/early-revenue stage, the balance sheet's cash position and any updated timeline to commercialisation are the highest-signal data points for assessing near-term viability.",
+        "Investors should assess whether the report contains any updated licensing, pilot program outcomes, or strategic partnership disclosures that could de-risk the technology pathway and justify continued holding."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ERL",
+      "company": "EMPIRE RESOURCES LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-08-31T03:17:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129291-6A1341291",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director's interest change at ERL signals a transaction in the company's securities by an insider — the nature (acquisition vs. disposal) is the critical determinant of sentiment signal.",
+        "For a micro-cap explorer like Empire Resources, director buying can signal insider confidence in near-term catalysts such as drilling results or resource updates, while selling may indicate liquidity-driven exits.",
+        "Investors should cross-reference the volume and price of the transaction against recent share price levels to assess whether this reflects opportunistic accumulation or profit-taking."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AZJ",
+      "company": "AURIZON HOLDINGS LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-08-31T03:17:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129290-2A1693779",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director interest changes at AZJ, a major ASX-listed rail freight operator, warrant monitoring — given the company's size and institutional ownership, insider transactions carry meaningful signal weight.",
+        "The filing likely reflects on-market transactions or vesting of performance rights; either scenario should be assessed against AZJ's recent earnings guidance and dividend sustainability narrative.",
+        "With AZJ subject to ongoing regulatory scrutiny over its network access pricing, any director accumulation could indicate board-level confidence in a favourable regulatory outcome — a key re-rating catalyst."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFL",
+      "company": "AF LEGAL GROUP LTD",
+      "headline": "Appointment of New Chief Financial Officer",
+      "time": "2026-08-31T03:16:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129289-6A1341290",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AFL has appointed a new CFO — a C-suite change at a small-cap legal services group warrants attention as it can signal a strategic pivot toward improved financial discipline, M&A preparation, or capital market activity.",
+        "The identity, background, and prior experience of the incoming CFO are critical; a hire with M&A or capital markets credentials would be a bullish signal for AFL's growth ambitions.",
+        "CFO transitions introduce short-term execution risk around financial reporting and investor relations continuity, though AFL's flagging this as non-market-sensitive suggests the transition is orderly and pre-planned."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ANO",
+      "company": "ADVANCE ZINCTEK LIMITED",
+      "headline": "Appendix 4E",
+      "time": "2026-08-31T03:16:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129288-2A1693778",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Advance ZincTek's Appendix 4E submission closes out its full financial year — given the company's focus on zinc-based corrosion protection technology, revenue growth and commercialisation milestones will be the primary valuation drivers to assess.",
+        "As an early-stage technology/materials company, the critical metrics are cash burn rate, operating cash flow, and whether revenue from licensing or product sales is scaling sufficiently to extend runway without further dilutive capital raises.",
+        "The market-sensitive classification suggests material financial outcomes; investors should look for any surprise in the loss-before-tax figure or cash balance that deviates significantly from prior half-year guidance or market expectations."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFL",
+      "company": "AF LEGAL GROUP LTD",
+      "headline": "Corporate Governance Statement & Appendix 4G",
+      "time": "2026-08-31T03:12:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129287-6A1341289",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AFL's concurrent Appendix 4G and Corporate Governance Statement release is a standard annual compliance exercise confirming adherence to ASX governance recommendations.",
+        "For a small-cap legal group, governance quality is an underappreciated risk factor — any disclosed departures from recommended practices (e.g. board independence, audit committee composition) should be flagged as potential red flags.",
+        "This filing, paired with the CFO appointment announced simultaneously, suggests AFL is in an annual reporting cycle — investors should await the full Annual Report for substantive financial and strategic disclosures."
+      ],
+      "tags": [
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFL",
+      "company": "AF LEGAL GROUP LTD",
+      "headline": "FY26 Results Investor Presentation",
+      "time": "2026-08-31T03:09:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129286-6A1341287",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "AF Legal Group's FY26 investor presentation provides a strategic overlay to the accompanying results announcement — key focus areas will be client growth metrics, revenue per matter, and any forward guidance on margins in the competitive legal services SME market.",
+        "The presentation format suggests management is actively engaging institutional audiences, which is constructive; slides highlighting pipeline, geographic expansion, or M&A bolt-on opportunities would be materially positive for the re-rating thesis.",
+        "Investors should cross-reference presentation claims against the hard numbers in the simultaneous Appendix 4E filing to assess whether the narrative is supported by actual financial performance, particularly on EBITDA and cash conversion."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CDO",
+      "company": "CADENCE OPPORTUNITIES FUND LIMITED.",
+      "headline": "Proposed issue of securities - CDO",
+      "time": "2026-08-31T03:09:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129285-2A1693777",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CDO's proposed securities issuance is a potential dilutive event — for a closed-end opportunities fund, the structure, pricing, and use of proceeds are critical to assessing NAV impact on existing unitholders.",
+        "Key questions include whether the issue is at a premium or discount to NAV, and whether proceeds will be deployed into identified opportunities or held as dry powder — the former is more immediately accretive.",
+        "Cadence Opportunities Fund's investment mandate means capital raises are theoretically value-adding if deployed well, but the market will price in dilution risk until deployment evidence emerges."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WIN",
+      "company": "WIN METALS LTD",
+      "headline": "WIN Metals - Webinar Investor Presentation",
+      "time": "2026-08-31T03:07:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129284-6A1341288",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WIN Metals is hosting an investor webinar — for a small-cap mining explorer, this is a proactive IR move often timed around exploration milestones, resource updates, or capital raise preparation.",
+        "The webinar format suggests management is seeking to broaden the retail and small institutional investor base; the content of the presentation (drill results, resource estimates, project timelines) will be the true value signal.",
+        "Investors should monitor for any new technical data or corporate developments disclosed during the webinar that may not yet be reflected in WIN's market capitalisation."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "Zenith Minerals - Sixth Extension of Offer Period",
+      "time": "2026-08-31T03:04:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129283-6A1341284",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Zenith Minerals has extended its takeover offer for Forrestania Resources for a sixth time — repeated extensions are a strong signal that the offer has not achieved sufficient acceptances, indicating shareholder resistance or strategic uncertainty around deal completion.",
+        "A sixth extension materially increases deal fatigue risk; if the bidder cannot secure the required acceptance threshold (typically 90% for compulsory acquisition), the deal may lapse, potentially leaving FRS shareholders in a volatile post-bid limbo.",
+        "Institutional investors should assess whether Zenith is likely to revise its offer price upward to compel acceptances, or whether this extension is a precursor to deal abandonment — either outcome has significant share price implications for FRS."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AFL",
+      "company": "AF LEGAL GROUP LTD",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-31T03:04:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129282-6A1341285",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "AF Legal Group's FY26 Results Announcement is the headline financial disclosure — key metrics to assess are total revenue growth vs. FY25, EBITDA margin trends, and net profit after tax as indicators of operational leverage in the legal services aggregation model.",
+        "Cash flow from operations and debt levels are critical given AFL's growth-by-acquisition strategy; strong operating cash conversion would validate the model, while rising net debt or covenant pressure would raise sustainability concerns.",
+        "Any formal FY27 guidance embedded in this announcement would be a significant catalyst — legal services firms with visible recurring revenue streams command premium multiples, and upgraded guidance could drive meaningful share price re-rating."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFL",
+      "company": "AF LEGAL GROUP LTD",
+      "headline": "Appendix 4E and FY26 Annual Report",
+      "time": "2026-08-31T03:01:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129281-6A1341281",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "The simultaneous release of the Appendix 4E and full FY26 Annual Report by AF Legal Group provides institutional investors with comprehensive disclosure in a single filing — this level of transparency is a positive governance signal for a small-cap legal services entity.",
+        "The Annual Report will contain audited financials, director remuneration details, and related-party disclosures that are critical for assessing alignment between management incentives and shareholder returns in an acquisition-driven growth model.",
+        "Investors should review the auditor's independence declaration and any emphasis-of-matter paragraphs, as well as notes on goodwill and intangible assets from prior acquisitions, which represent a key impairment risk on the balance sheet."
+      ],
+      "tags": [
+        "Results",
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCG",
+      "company": "SCENTRE GROUP",
+      "headline": "Change of Director's Interest Notice - Catherine Brenner",
+      "time": "2026-08-31T02:59:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129280-2A1693776",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Catherine Brenner, a director of Scentre Group (Australia's largest retail REIT by market cap), has filed a change of interest notice — insider transactions at SCG carry elevated signal given the company's scale and institutional following.",
+        "For a major REIT like SCG, director share acquisitions are typically viewed positively by the market, signalling board-level conviction in the distributions outlook and asset valuation amid the retail property recovery cycle.",
+        "Investors should note the transaction size relative to Brenner's existing holding — a material addition would be a stronger bullish signal, particularly given current market debate around retail foot traffic and cap rate compression."
+      ],
+      "tags": [
+        "Board Change",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EBO",
+      "company": "EBOS GROUP LIMITED",
+      "headline": "NZX Capital Change Notice",
+      "time": "2026-08-31T02:58:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129279-2A1693775",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EBO's NZX Capital Change Notice reflects an administrative update to its capital structure on the New Zealand exchange — EBOS is dual-listed on both ASX and NZX, making cross-exchange capital notices routine but worth tracking for accuracy.",
+        "The notice likely reflects share issuances related to the dividend reinvestment plan (DRP), employee share schemes, or other approved capital events — none of which are typically market-moving in isolation.",
+        "For institutional investors, this filing confirms EBO's ongoing capital management discipline; any unexpected deviation in share count from prior disclosures should prompt further due diligence on undisclosed issuance events."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EBO",
+      "company": "EBOS GROUP LIMITED",
+      "headline": "NZX Performance Rights Update",
+      "time": "2026-08-31T02:58:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129278-2A1693774",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EBOS Group's NZX Performance Rights update is a routine administrative disclosure relating to executive long-term incentive arrangements, with no material change to capital structure or earnings guidance implied.",
+        "Performance rights updates of this nature typically reflect vesting schedules or plan rule amendments; without confirmation of accelerated vesting or significant new grants, the financial impact on dilution remains negligible for EBO's large market cap.",
+        "Investors should monitor subsequent NZX and ASX filings for any material changes to senior management retention structures, which could signal broader strategic shifts at this healthcare and veterinary distribution giant."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OCC",
+      "company": "ORTHOCELL LIMITED",
+      "headline": "Appendix 4G",
+      "time": "2026-08-31T02:57:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129277-6A1341283",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Orthocell's Appendix 4G is a mandatory ASX corporate governance checklist cross-reference document, confirming the company's compliance with the ASX Corporate Governance Principles and Recommendations — purely procedural in nature.",
+        "For a small-cap MedTech like OCC, consistent governance disclosures help maintain institutional investor confidence, though this filing carries no direct financial or operational signal.",
+        "Investors should look beyond this administrative filing to OCC's upcoming operational updates on its CelGro and ReStor product commercialisation pipeline for meaningful valuation catalysts."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OCC",
+      "company": "ORTHOCELL LIMITED",
+      "headline": "Corporate Governance Statement",
+      "time": "2026-08-31T02:57:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129276-6A1341282",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Orthocell's Corporate Governance Statement is an annual disclosure outlining board composition, committee structures, and adherence to ASX governance standards — a standard regulatory requirement with no market-moving content.",
+        "For a clinical-stage MedTech operating in the regenerative medicine space, governance transparency is important for attracting institutional capital, but this filing does not alter the near-term investment thesis.",
+        "The key 'so what' for OCC remains the pace of US and international revenue ramp from its nerve and tendon repair products, not governance disclosures — watch for quarterly activity reports for genuine signals."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OCC",
+      "company": "ORTHOCELL LIMITED",
+      "headline": "Appendix 4E & Annual Report",
+      "time": "2026-08-31T02:56:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129275-6A1341280",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Orthocell's Appendix 4E and Annual Report provides full-year visibility on its regenerative medicine portfolio — with CelGro and TenXel products in commercial rollout, revenue growth rate and gross margin expansion are the primary metrics signalling commercialisation success.",
+        "Cash runway is the most critical near-term risk factor for OCC; investors must assess whether current cash reserves and revenue growth trajectory can sustain operations through to breakeven without requiring an equity raise that would dilute existing holders.",
+        "Regulatory and clinical milestones (particularly any FDA or TGA progress) disclosed within the annual report narrative could be a material catalyst; any positive update on US market penetration would significantly expand the addressable market and re-rating potential."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKG",
+      "company": "STORAGE KING GROUP",
+      "headline": "Taxation Components and Fund Payment Notice",
+      "time": "2026-08-31T02:53:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129274-2A1693773",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Storage King Group's Taxation Components and Fund Payment Notice provides unitholders with the tax breakdown of distributions — a mandatory disclosure required for investor tax reporting purposes, particularly relevant for self-managed super funds and managed account holders.",
+        "The disclosure of taxation components (e.g., tax-deferred, taxable income, and capital gains allocations) is critical for after-tax return calculations by institutional and retail investors holding SKG in tax-sensitive structures.",
+        "No new operational or financial information is conveyed; investors seeking valuation catalysts should focus on occupancy rate trends, new site acquisitions, and storage demand dynamics in the self-storage property sector."
+      ],
+      "tags": [
+        "Compliance",
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BLS",
+      "company": "BLS PHARMACEUTICALS LIMITED",
+      "headline": "BLS FY2027 Guidance",
+      "time": "2026-08-31T02:51:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129273-2A1693772",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BLS Pharmaceuticals issuing FY2027 guidance — notably for a period not yet commenced — signals management confidence in its revenue pipeline and clinical development timeline, which is a constructive signal for an early-stage pharmaceutical company.",
+        "The specificity and credibility of the guidance range will be critical; investors should assess whether projections are underpinned by contracted revenues, licensing milestones, or speculative assumptions, as the latter materially increases execution risk.",
+        "Forward guidance from a micro-cap pharma company often precedes capital raising activity — investors should monitor whether this guidance is designed to support an upcoming equity raise at an improved valuation, which would have dilution implications."
+      ],
+      "tags": [
+        "Healthcare",
+        "Results",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NGS",
+      "company": "NUTRITIONAL GROWTH SOLUTIONS LTD",
+      "headline": "Appendix 4D and HY Report",
+      "time": "2026-08-31T02:51:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129272-6A1341279",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Nutritional Growth Solutions' Appendix 4D and Half-Year Report covers the first half of FY26 — as a children's nutrition company with operations across Israel, the US, and Australia, revenue growth and gross margin stability in a cost-inflationary environment are key metrics.",
+        "Investors should focus on half-on-half revenue trajectory and whether the company is approaching cash flow breakeven; persistent operating losses without a clear path to profitability increase the probability of a near-term capital raise.",
+        "Geographic revenue diversification and any update on new market entry or distribution partnerships would be the key forward-looking signals — NGS's ability to scale beyond its existing markets is central to the long-term investment thesis."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATH",
+      "company": "ALTERITY THERAPEUTICS LIMITED",
+      "headline": "Alterity Therapeutics Filed Form 20-F and XBRL Data with SEC",
+      "time": "2026-08-31T02:50:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129271-3A700518",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Alterity Therapeutics' filing of Form 20-F with the SEC confirms the company has met its US regulatory reporting obligations as a foreign private issuer — a compliance milestone that preserves its dual-listed status and access to US capital markets.",
+        "The 20-F is effectively Alterity's annual report to the SEC; its filing reinforces operational continuity for this clinical-stage neurodegeneration biotech, though the document itself will contain audited financials that deserve close scrutiny given ATH's cash burn profile.",
+        "Investors should review the 20-F's Risk Factors and liquidity disclosures carefully — Alterity has historically relied on capital raises to fund its ATH434 program for Multiple System Atrophy, making cash runway the primary valuation concern."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCP",
+      "company": "SCALARE PARTNERS HOLDINGS LIMITED",
+      "headline": "Corporate Governance Statement and Appendix 4G",
+      "time": "2026-08-31T02:45:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129270-3A700517",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Scalare Partners Holdings' combined Corporate Governance Statement and Appendix 4G filing is a routine annual compliance submission, confirming adherence to ASX governance standards for this early-stage investment holding company.",
+        "As a relatively nascent ASX-listed entity focused on the technology venture and innovation ecosystem, consistent governance disclosures are foundational to building credibility with institutional investors, though this filing is non-market-moving.",
+        "The meaningful watch items for SCP investors remain portfolio company performance, new investment announcements, and any updates to the company's capital deployment strategy — not administrative governance filings."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BLS",
+      "company": "BLS PHARMACEUTICALS LIMITED",
+      "headline": "BLS Investor Presentation",
+      "time": "2026-08-31T02:44:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129269-2A1693771",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BLS Pharmaceuticals is presenting to investors in a market-sensitive context, suggesting the update likely contains material pipeline, clinical, or commercial developments that could re-rate the stock — detail on trial progress or partnerships will be the key value driver to watch.",
+        "As a pharmaceutical company, the investor presentation may address cash burn rate and runway, which is critical given the capital-intensive nature of drug development at the small-cap end of the ASX — any commentary on funding adequacy or upcoming capital needs warrants close scrutiny.",
+        "The timing of this presentation alongside a concurrent FY2026 results announcement (see [4]) suggests a coordinated investor relations push, potentially designed to provide forward-looking context to accompany financial results — institutional investors should cross-reference both documents for consistency of narrative."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TXR",
+      "company": "TALONX RESOURCES LIMITED",
+      "headline": "Notice of change of interests of substantial holder",
+      "time": "2026-08-31T02:38:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129268-6A1341278",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A change in substantial holder interest for TalonX Resources (TXR) signals a shift in the ownership structure at the 5%+ threshold level — investors should determine whether this reflects accumulation or disposal by a significant shareholder, as direction of change materially alters the signal.",
+        "Substantial holder movements in micro-cap resources companies can foreshadow M&A activity, a strategic stake-building exercise, or conversely, an exit by an early institutional backer — the identity of the holder and the nature of the change are the critical variables here.",
+        "Classified as not market sensitive by the company, this is a procedural filing; however, for a small-cap resource explorer like TXR, meaningful changes in the register can still influence liquidity and near-term price discovery given thin trading volumes."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGY",
+      "company": "ENERGY TECHNOLOGIES LIMITED",
+      "headline": "EGY Results Presentation",
+      "time": "2026-08-31T02:38:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129267-2A1693770",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Energy Technologies Limited is releasing a market-sensitive results presentation, indicating the document contains material financial or operational data beyond what is captured in a standard Appendix 4E — the presentation format suggests management is framing a specific narrative around the numbers.",
+        "For an energy technology company, key metrics to interrogate include revenue growth trajectory, EBITDA margin progression, and contract pipeline — any deterioration in these relative to prior period or guidance would be a material negative catalyst.",
+        "The concurrent release of both a results presentation ([3]) and a full year results update ([5]) and Appendix 4E ([9]) on the same day represents a comprehensive disclosure event — institutional investors should triangulate all three documents to identify any discrepancies or selective emphasis in the presentation."
+      ],
+      "tags": [
+        "Results",
+        "Energy",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BLS",
+      "company": "BLS PHARMACEUTICALS LIMITED",
+      "headline": "BLS FY2026 Results Announcement",
+      "time": "2026-08-31T02:37:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129266-2A1693769",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "BLS Pharmaceuticals' FY2026 full-year results are a high-significance event for a healthcare company at this stage — the critical metrics will be revenue (if any commercial product exists), R&D expenditure, net loss, and crucially, remaining cash and quarters of funding available.",
+        "For pre-revenue or early-revenue pharmaceutical companies on the ASX, a widening net loss or declining cash balance without clear near-term catalysts typically triggers a negative re-rating — conversely, evidence of milestone achievements or cost discipline could support the share price.",
+        "The market-sensitive classification confirms this announcement contains material financial information; investors should assess whether results align with any prior guidance issued, and monitor for any impairment charges or changes to asset carrying values that may signal strategic pivots."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGY",
+      "company": "ENERGY TECHNOLOGIES LIMITED",
+      "headline": "EGY Full Year Results Update",
+      "time": "2026-08-31T02:37:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129265-2A1693768",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Energy Technologies Limited's full year results update provides the narrative wrapper around the Appendix 4E statutory numbers — management commentary on FY2026 revenue performance, contract wins, and cost management will set the tone for near-term investor sentiment.",
+        "Key focus areas for institutional investors include whether EGY has achieved or missed any previously communicated revenue or EBITDA targets, and the status of its technology deployment pipeline, as these are leading indicators of scalability and future cash generation.",
+        "Outlook guidance embedded in this update will be the primary price-moving element — any upgrade or downgrade to forward expectations in an energy technology context carries significant weight given the sector's capital requirements and long sales cycles."
+      ],
+      "tags": [
+        "Results",
+        "Energy",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BLS",
+      "company": "BLS PHARMACEUTICALS LIMITED",
+      "headline": "Annual Report to shareholders",
+      "time": "2026-08-31T02:36:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129264-2A1693766",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "BLS Pharmaceuticals' Annual Report provides the most comprehensive statutory view of the company's financial position, governance, and strategic direction — auditor's going concern qualifications, related party transactions, and directors' remuneration disclosures are high-priority items for institutional due diligence.",
+        "The annual report will include audited financial statements that confirm or adjust figures from the preliminary results — any material differences from the FY2026 results announcement ([4]) would raise governance and disclosure quality concerns.",
+        "For a pharmaceutical company, the annual report's notes on intellectual property, clinical trial commitments, and contingent liabilities are critical — these often contain material information about the risk profile that is not captured in headline financials."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCP",
+      "company": "SCALARE PARTNERS HOLDINGS LIMITED",
+      "headline": "Appendix 4E and Annual Report to shareholders FY26",
+      "time": "2026-08-31T02:36:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129263-3A700515",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Scalare Partners Holdings (SCP) is releasing its Appendix 4E and Annual Report simultaneously, providing both preliminary and full audited results — the Appendix 4E will contain key headline metrics including revenue, NPAT, and EPS, which institutional investors should benchmark against prior corresponding period and any stated guidance.",
+        "As a relatively less-covered ASX-listed entity, the quality of SCP's earnings and balance sheet — particularly net asset backing, debt levels, and operating cash flow conversion — will determine whether this report acts as a re-rating catalyst or confirms existing market concerns.",
+        "The combined release format is efficient for disclosure purposes; investors should focus on the Appendix 4E's mandatory financial comparisons for immediate signal, before drilling into the annual report's strategic commentary for context on FY2027 growth levers."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ECP",
+      "company": "ECP EMERGING GROWTH LIMITED",
+      "headline": "Update - Dividend/Distribution - ECP",
+      "time": "2026-08-31T02:34:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129262-2A1693767",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "ECP Emerging Growth Limited has issued a dividend/distribution update, which for a listed investment company (LIC) signals the board's ongoing commitment to returning income to shareholders — a key drawcard for yield-focused investors in the LIC sector.",
+        "The 'update' nature of the announcement (rather than a new declaration) suggests a correction, clarification, or supplementary detail to a previously announced distribution, which warrants review of the revised quantum or record/payment dates to assess any change in effective yield.",
+        "For ECP, distribution sustainability is closely tied to realised gains and income from its small-to-mid cap growth equity portfolio; investors should cross-reference the updated distribution details against the company's NTA to assess payout coverage."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAP",
+      "company": "MICROBA LIFE SCIENCES LIMITED",
+      "headline": "2026 Annual Report & Appendix 4E",
+      "time": "2026-08-31T02:34:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129261-2A1693764",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Microba Life Sciences (MAP) operates in the microbiome diagnostics and research space — the FY2026 Annual Report and Appendix 4E will be closely scrutinised for evidence of commercial revenue scaling from its gut microbiome testing and research services business, which has been a key investor focus.",
+        "Cash runway remains the paramount concern for MAP given its pre-profitability stage; investors should immediately extract the closing cash balance, quarterly burn rate implied by full-year expenditure, and any commentary on the need for additional capital raises in FY2027.",
+        "Partnership agreements, laboratory throughput metrics, and any licensing or royalty income streams referenced in the annual report will be forward-looking value indicators — progress on commercialising its proprietary MetaXplore platform would represent a material positive signal."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGY",
+      "company": "ENERGY TECHNOLOGIES LIMITED",
+      "headline": "EGY Appendix 4E FY2026",
+      "time": "2026-08-31T02:34:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129260-2A1693765",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Appendix 4E is the statutory preliminary final report for Energy Technologies Limited's FY2026 year — this is the highest-priority document in EGY's triple release today, as it contains auditor-reviewed headline financials including revenue, profit/loss, and net assets that form the factual basis for all subsequent commentary.",
+        "Investors should immediately assess the revenue figure against the prior corresponding period and any guidance, alongside the net cash position — for a technology company in the energy sector, positive revenue momentum and controlled cash burn are the two metrics most likely to drive near-term price action.",
+        "The simultaneous release of a presentation ([3]) and a results update ([5]) alongside this Appendix 4E suggests management has prepared a comprehensive investor relations package, which is a positive governance signal — however, the substantive financial performance within the 4E will ultimately determine sentiment direction."
+      ],
+      "tags": [
+        "Results",
+        "Energy",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADS",
+      "company": "ADSLOT LTD.",
+      "headline": "Corporate Governance Statement and Appendix 4G",
+      "time": "2026-08-31T02:33:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129259-3A700514",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Adslot's Corporate Governance Statement and Appendix 4G is a standard annual compliance filing confirming governance framework adherence — procedural and non-market-moving for this digital advertising technology company.",
+        "For a micro-cap AdTech operator like ADS, maintaining governance standards is important for retaining institutional interest, though the real investment question centres on Adslot's Symphony programmatic trading platform revenue trajectory and path to profitability.",
+        "Investors should focus upcoming attention on Adslot's revenue growth metrics from its automated media trading platform and any new publisher or agency partnerships as the genuine value catalysts for this speculative technology holding."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADS",
+      "company": "ADSLOT LTD.",
+      "headline": "Appendix 4E and Annual Report FY2026",
+      "time": "2026-08-31T02:32:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129258-3A700512",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Adslot Ltd (ADS) operates in the programmatic advertising technology space — the FY2026 Appendix 4E and Annual Report will reveal whether the company has achieved meaningful revenue growth from its Symphony platform and workflow automation tools, which serve global media buyers and sellers.",
+        "Key financial metrics to monitor include Annual Recurring Revenue (ARR) or total transaction value processed through the platform, gross margin trends, and operating cash flow — for a SaaS/AdTech business, any acceleration in platform adoption or enterprise contract wins would be a material positive.",
+        "Adslot has historically faced challenges scaling revenue relative to its technology investment — the FY2026 results will test whether the business has reached an inflection point in commercialisation, with the cash position and any guidance on path to profitability being the decisive factors for near-term institutional interest."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCX",
+      "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
+      "headline": "Securities in an Unlisted Entity 2026",
+      "time": "2026-08-31T02:32:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129257-2A1693760",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Pengana Global Private Credit Trust's 'Securities in an Unlisted Entity 2026' disclosure relates to the trust's holdings in unlisted private credit instruments — a transparency requirement under ASX Listing Rules that provides investors visibility into the illiquid component of the portfolio.",
+        "For a private credit-focused trust, the composition and valuation methodology of unlisted securities are critical risk considerations; investors should assess concentration risk, the credit quality of underlying borrowers, and the valuation basis applied to illiquid positions.",
+        "With private credit markets under increasing scrutiny globally regarding default rates and valuation opacity, this disclosure reinforces the importance of monitoring PCX's underlying loan book quality and any shifts in the weighted average credit spread or loan-to-value ratios."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACL",
+      "company": "AUSTRALIAN CLINICAL LABS LIMITED",
+      "headline": "Notification regarding unquoted securities - ACL",
+      "time": "2026-08-31T02:31:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129256-3A700513",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Clinical Labs' notification regarding unquoted securities is a routine ASX Listing Rule compliance filing, typically relating to the issuance of securities (such as performance rights or options) that are not quoted on the exchange — no direct earnings impact.",
+        "For ACL, unquoted securities issuances are commonly linked to executive incentive plans; the volume and strike prices disclosed in the full notification would determine the degree of dilution risk for existing shareholders, though at most large-cap levels this is typically immaterial.",
+        "Investors in ACL should remain focused on the company's pathology volume recovery post-COVID normalisation, margin expansion from network consolidation, and any M&A activity in the diagnostics sector as the primary value drivers."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SHO",
       "company": "SPORTSHERO LIMITED",
