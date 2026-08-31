@@ -1,9 +1,261 @@
 {
   "date": "2026-09-01",
-  "total": 132,
-  "market_sensitive_count": 44,
-  "generated_at": "2026-08-31T22:49:43.260597+00:00",
+  "total": 145,
+  "market_sensitive_count": 47,
+  "generated_at": "2026-08-31T22:58:51.409474+00:00",
   "announcements": [
+    {
+      "ticker": "CBA",
+      "company": "COMMONWEALTH BANK OF AUSTRALIA.",
+      "headline": "Appendix 3X - Julie Coates",
+      "time": "2026-08-31T22:55:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129903-2A1694041",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Appendix 3X filing notifies the market of a new director's interest upon appointment — in this case Julie Coates joining the CBA board, a purely administrative and compliance-driven disclosure with no direct financial impact.",
+        "Julie Coates brings retail and logistics sector experience (former Woolworths executive), which may marginally inform CBA's strategic lens on consumer and SME lending segments, though board composition changes at major banks rarely drive near-term price action.",
+        "For institutional investors, this filing is standard governance housekeeping; the relevant watch point is whether this appointment signals any broader board refresh strategy or committee restructuring at Australia's largest bank by market capitalisation."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NVA",
+      "company": "NOVA MINERALS CORP",
+      "headline": "Nova Attends Roundtable with U.S. Department of Energy",
+      "time": "2026-08-31T22:54:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129902-3A700650",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Attendance at a U.S. Department of Energy roundtable positions NVA within critical minerals policy discussions — strategically valuable for a company with Alaskan gold and critical mineral assets, particularly given U.S. legislative focus on domestic supply chain security.",
+        "While not directly market sensitive, this engagement can accelerate permitting goodwill, open pathways to U.S. government offtake or funding support (e.g. DoE loan programs), and enhance NVA's credibility with institutional investors tracking the critical minerals thematic.",
+        "The 'so what' is optionality: if NVA can convert government engagement into tangible support mechanisms (grants, strategic partnerships, or streamlined permitting), it would represent a meaningful de-risking event for a junior miner operating in a complex regulatory environment."
+      ],
+      "tags": [
+        "Mining",
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WTC",
+      "company": "WISETECH GLOBAL LIMITED",
+      "headline": "Appointment of Chief Financial Officer",
+      "time": "2026-08-31T22:52:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129901-2A1694039",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A CFO appointment at WiseTech Global carries elevated significance given the company's recent high-profile governance scrutiny and executive departures — the incoming CFO's profile, background, and compensation structure will be closely examined by institutional investors.",
+        "Continuity and credibility of financial leadership is critical for a high-multiple ASX technology stock where earnings quality and forward guidance are key valuation anchors; a well-credentialled appointment could restore confidence, while an underwhelming pick may sustain discount.",
+        "Investors should assess whether the new CFO is an internal promotion or external hire — an external appointment from a Tier-1 tech or financial services background would signal a deliberate reset of financial governance standards, a meaningful positive for a stock that has been under pressure."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPM",
+      "company": "PEPPER MONEY LIMITED",
+      "headline": "Application for quotation of securities - PPM",
+      "time": "2026-08-31T22:52:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129900-2A1694040",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An application for quotation of securities at Pepper Money typically relates to newly issued shares (e.g. from employee incentive plans, DRP, or a prior raise) — the volume and nature of securities being listed will determine any dilution impact on existing shareholders.",
+        "For PPM, a non-bank lender operating in mortgage and asset finance, share issuances tied to executive incentive schemes are a normal part of remuneration but warrant monitoring for quantum relative to total shares on issue.",
+        "This is an administrative filing with negligible near-term price impact; however, cumulative dilution from incentive plan issuances is a relevant long-term consideration for shareholders tracking earnings per share trajectory in a margin-sensitive lending environment."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GNM",
+      "company": "GREAT NORTHERN MINERALS LIMITED",
+      "headline": "Drilling Contractor Secured at Iron Butte",
+      "time": "2026-08-31T22:52:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129899-6A1341561",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Securing a drilling contractor at Iron Butte is a critical de-risking milestone for GNM, moving the project from planning to active exploration phase — a key catalyst for junior miners where execution risk is highest.",
+        "For a small-cap explorer, contractor engagement signals sufficient funding is in place to commence drilling, implying near-term cash deployment; investors should monitor the company's cash position relative to the planned drilling program scope.",
+        "First assay results from Iron Butte will be the next material catalyst — any mineralisation confirmation could serve as a re-rating event, while failure to intersect targets would likely reset market expectations significantly."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STM",
+      "company": "SUNSTONE METALS LTD",
+      "headline": "Metallurgical tests deliver increased Bramaderos recoveries",
+      "time": "2026-08-31T22:51:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129898-2A1694038",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Improved metallurgical recoveries at Bramaderos are a direct value driver for STM, as recovery rates are a fundamental input into resource economics — higher recoveries translate to better project NPV and reduce the capital intensity per unit of metal produced.",
+        "Increased recoveries at the test stage reduce technical risk ahead of any PFS or feasibility study, making the project more attractive to potential JV partners or acquirers in a copper-gold market with strong strategic demand.",
+        "The 'so what' for investors: if recovery improvements are material (e.g. moving from sub-70% to 80%+ for copper/gold), this could meaningfully upgrade the project's economic case and support a re-rating of STM's market cap relative to its resource base."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AFI",
+      "company": "AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
+      "headline": "Update - Notification of buy-back - AFI",
+      "time": "2026-08-31T22:50:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129897-3A700649",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AFI's buy-back update confirms the company continues to actively return capital to shareholders — for a Listed Investment Company (LIC) trading at a persistent NTA discount, on-market buy-backs are a direct mechanism to support the share price and reduce the discount.",
+        "The pace and volume of buy-back activity relative to AFI's total shares on issue and average daily volume will indicate management's conviction and financial flexibility; an accelerated buy-back is a clear shareholder-friendly signal.",
+        "For income-focused institutional investors, the buy-back complements AFI's dividend policy, and sustained buy-back activity at a discount to NTA is technically accretive to remaining shareholders — a modest but consistent positive for the investment case."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CVB",
+      "company": "CURVEBEAM AI LIMITED",
+      "headline": "SPP Offer Results",
+      "time": "2026-08-31T22:50:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129896-3A700647",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "SPP results reveal the level of retail investor support post-capital raise — undersubscription would indicate weak shareholder conviction and potential overhang risk, while strong take-up signals confidence in CVB's near-term growth trajectory.",
+        "For a healthcare technology company like CurveBeam AI, SPP proceeds directly affect cash runway, which is critical given typical pre-profitability burn rates in medical imaging AI; the quantum raised will determine how long the company can fund operations without returning to market.",
+        "Any scale-back of applications (if oversubscribed) or shortfall placement to underwriters will be key details to assess dilution impact and insider/institutional appetite — both of which are leading indicators of near-term price stability."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MCO",
+      "company": "MYECO GROUP LTD",
+      "headline": "FY26 Results Webinar",
+      "time": "2026-08-31T22:50:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129895-3A700648",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "An FY26 Results Webinar announcement for MyEco Group signals the company is preparing to present full-year financial results — for a small-cap, the format and timing of results communication can itself signal management confidence (or lack thereof) in the numbers.",
+        "Investors should note the fiscal year labelling (FY26) which may reflect a non-standard balance date or forward guidance framing — clarity on actual revenue, EBITDA, and cash burn will be essential given the company's stage and size.",
+        "The webinar format provides an opportunity for management to shape the narrative around key metrics; institutional investors should focus on cash position, customer growth, and path to profitability as the critical 'so what' metrics for this stage of company."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TRU",
+      "company": "TRUSCREEN GROUP LIMITED",
+      "headline": "Annual Shareholder Meeting Presentation",
+      "time": "2026-08-31T22:49:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129894-2A1694037",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "TruScreen's AGM presentation provides a key annual touchpoint for management to update shareholders on commercial progress in cervical cancer screening technology — particularly important given the company's reliance on emerging market adoption (China, Asia, MENA) for revenue growth.",
+        "Investors should scrutinise any updates on device placement numbers, recurring consumable revenue trends, and regulatory approvals in new markets — these are the leading indicators of whether TruScreen's commercialisation thesis is gaining traction.",
+        "As a pre-scale medical device company, TruScreen's cash runway and burn rate disclosed at the AGM will be critical; any indication of capital requirements or partnership developments would be the most market-relevant signals within this presentation."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LIB",
+      "company": "LIBERTY METALS LTD",
+      "headline": "Proposed Name Change to El Dorado Goldfields Ltd",
+      "time": "2026-08-31T22:48:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129893-6A1341554",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Liberty Metals Ltd is proposing to rebrand as El Dorado Goldfields Ltd, signalling a strategic pivot to align corporate identity with a gold-focused exploration mandate — a common tactic to attract gold-sector capital and retail investor attention in a buoyant gold price environment.",
+        "Name changes of this nature are typically preceded or accompanied by asset repositioning; investors should monitor whether LIB holds or is acquiring gold-specific tenements to substantiate the rebrand, as a name alone without asset backing provides limited fundamental value uplift.",
+        "Next steps will require shareholder approval at a general meeting; until that vote is confirmed and ASIC registration completed, the change carries no operational weight — watch for an accompanying notice of meeting and any asset or strategy announcements that may coincide with the rebrand narrative."
+      ],
+      "tags": [
+        "Other",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DJW",
+      "company": "DJERRIWARRH INVESTMENTS LIMITED",
+      "headline": "Update - Notification of buy-back - DJW",
+      "time": "2026-08-31T22:47:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129892-3A700646",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Djerriwarrh Investments (DJW) has updated its on-market buy-back notification, indicating the LIC continues to deploy capital to repurchase its own shares — a shareholder-friendly capital management tool that signals management's view that DJW shares are trading at a discount to fair value or NTA.",
+        "Buy-backs in LICs like DJW serve a dual purpose: they reduce the NTA discount by supporting the share price and increase NTA per share for remaining holders; given DJW's history of trading at a modest discount, sustained buy-back activity can meaningfully improve total shareholder returns over time.",
+        "Investors should track the volume and pace of buy-back activity relative to DJW's average daily turnover and available franking credit balance, as the scale of repurchases will determine the materiality of the accretion benefit — further updates to the buy-back notice will be the key near-term catalyst to watch."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VBL",
+      "company": "VANGUARD GLOBAL INFRASTRUCTURE INDEX ETF",
+      "headline": "VBLD Updated PDS",
+      "time": "2026-08-31T22:47:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129891-2A1694036",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vanguard has issued an updated Product Disclosure Statement (PDS) for the Vanguard Global Infrastructure Index ETF (VBLD), a routine but important regulatory compliance action that ensures the fund's disclosure obligations remain current with ASIC requirements and any changes to fund structure, fees, or index methodology.",
+        "Investors should review the updated PDS for any material changes to management expense ratio (MER), benchmark index composition, currency hedging policy, or distribution frequency — even minor adjustments to these parameters can have compounding effects on long-term returns for infrastructure-focused portfolios.",
+        "The updated PDS carries no immediate share price implication, but serves as a reminder for advisers and institutional holders to reassess VBLD's suitability within infrastructure allocations, particularly given shifting global interest rate dynamics which directly affect the valuation of listed infrastructure assets underlying the fund."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "LSA",
       "company": "LACHLAN STAR LIMITED",
