@@ -1,9 +1,200 @@
 {
   "date": "2026-09-01",
-  "total": 269,
+  "total": 279,
   "market_sensitive_count": 77,
-  "generated_at": "2026-08-31T23:39:42.109653+00:00",
+  "generated_at": "2026-08-31T23:46:47.084540+00:00",
   "announcements": [
+    {
+      "ticker": "JPR",
+      "company": "JUPITER ENERGY LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-08-31T23:43:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130037-6A1341594",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director of Jupiter Energy has altered their shareholding position, signalling insider activity that warrants monitoring for directional conviction — though the non-market-sensitive classification suggests the change is modest or routine in scale.",
+        "For a small-cap Kazakhstan-focused oil producer like JPR, director share movements carry outsized signalling weight given thin liquidity and limited institutional coverage; any reduction could amplify selling pressure in an already illiquid register.",
+        "Investors should cross-reference the specific transaction details (on-market buy/sell, price, and resulting holding) against recent operational updates on Block 31 production to assess whether insider sentiment aligns with the company's stated development trajectory."
+      ],
+      "tags": [
+        "Board Change",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CRI",
+      "company": "CRITICA LIMITED",
+      "headline": "Company Secretary Appointment/Resignation",
+      "time": "2026-08-31T23:42:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130036-6A1341595",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Critica Limited has announced a change in company secretary — a purely administrative governance event that carries no direct financial or operational implications for the business.",
+        "Company secretary transitions at small-cap or early-stage entities like CRI can occasionally signal broader management restructuring or cost rationalisation efforts, but without further context this remains a procedural filing.",
+        "Investors should watch for any concurrent announcements around strategic direction or capital activity, as governance changes sometimes precede more material corporate events, particularly in exploration or development-stage companies."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EZZ",
+      "company": "EZZ LIFE SCIENCE HOLDINGS LIMITED",
+      "headline": "EZZ Corporate Governance Statement and Appendix 4G",
+      "time": "2026-08-31T23:41:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130035-2A1694129",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EZZ Life Science has lodged its Corporate Governance Statement and Appendix 4G, fulfilling mandatory ASX Listing Rule 4.10.3 obligations — a routine annual compliance requirement with no direct earnings or operational implications.",
+        "The Appendix 4G checklist discloses EZZ's adherence (or 'if not, why not' explanations) to the ASX Corporate Governance Principles; any material departures from the eight core principles could attract scrutiny from institutional investors applying ESG governance screens.",
+        "As a health and wellness product company with a predominantly China-facing revenue base, strong governance transparency is increasingly important for EZZ to attract domestic institutional capital — the quality of disclosures within the statement merits review beyond the headline filing."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EOS",
+      "company": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+      "headline": "Response to Media Article",
+      "time": "2026-08-31T23:40:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130034-2A1694128",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EOS has issued a formal response to a media article, a move that typically signals the company is seeking to contain reputational or factual damage from external reporting — the proactive disclosure itself suggests the media content was materially critical or potentially market-moving.",
+        "For a defence technology company operating in sensitive sovereign contracts (space and directed energy systems), negative media coverage touching on contract performance, governance, or national security partnerships can have disproportionate valuation impacts given the reliance on government client confidence.",
+        "Investors should scrutinise the substance of EOS's rebuttal for any concessions or clarifications that may reveal underlying operational, financial, or contractual stress not previously disclosed in formal ASX announcements."
+      ],
+      "tags": [
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BXB",
+      "company": "BRAMBLES LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-08-31T23:39:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130033-2A1694127",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Brambles director has filed a change of interest notice — for a large-cap ASX constituent like BXB, routine director share plan transactions (e.g. vesting of performance rights or salary sacrifice purchases) are the most likely driver and carry minimal market impact.",
+        "Brambles' director share movements are closely watched as a proxy for insider confidence in the company's global pallet-pooling growth thesis, particularly given ongoing margin expansion initiatives and the strategic review of the CHEP Digital+ division.",
+        "Given BXB's institutional ownership profile and index weighting, this filing is unlikely to shift near-term price action; however, any large on-market disposal by a senior executive would warrant closer attention in the context of current valuation multiples."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CQT",
+      "company": "CONNEQT HEALTH LIMITED",
+      "headline": "CONNEQT Health Shareholder Update",
+      "time": "2026-08-31T23:39:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130032-2A1694117",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Conneqt Health has released a shareholder update, suggesting the company is proactively communicating operational or strategic progress — for a small-cap healthcare entity, the frequency and substance of such updates are key indicators of management's confidence in near-term milestones.",
+        "The nature of the update (commercial partnerships, clinical progress, cash position, or revenue traction) will be the critical determinant of sentiment; investors should parse the release for any revision to guidance, cash burn rate, or customer acquisition metrics.",
+        "Given CQT's stage of development, any disclosure of new contracts, technology validation, or funding secured would be materially positive, while a purely narrative update without hard data points would suggest limited near-term catalysts."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst YMAX SFI MINIs Distribution Final Amount",
+      "time": "2026-08-31T23:38:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130031-2A1694126",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Citi has announced the final distribution amount for CitiFirst YMAX SFI MINIs — this is a routine structured product lifecycle event confirming the terminal cash payment to holders of these leveraged instruments referencing the S&P/ASX 200 High Dividend Yield Index.",
+        "The finalisation of distribution amounts for SFI MINIs is purely administrative, confirming mechanically calculated payments per the product terms; it has no implications for underlying equity valuations or CTW as a listed entity in its own right.",
+        "Holders of these instruments should confirm receipt of the final distribution and note the cessation of the product, reviewing their exposure repositioning needs if the YMAX strategy formed part of a structured income or yield-enhancement overlay."
+      ],
+      "tags": [
+        "Finance",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMG",
+      "company": "CRITICAL MINERALS GROUP LIMITED",
+      "headline": "Notification regarding unquoted securities - CMG",
+      "time": "2026-08-31T23:38:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130030-2A1694125",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Critical Minerals Group has notified the ASX of unquoted securities, most likely reflecting the issue of options, performance rights, or unlisted shares to directors, employees, or as part of a capital transaction — a standard but important governance disclosure.",
+        "For a critical minerals explorer, the existence and quantum of unquoted securities (particularly options) can represent meaningful future dilution overhang; investors should assess the exercise price relative to current market price to gauge in-the-money pressure.",
+        "This filing should be reviewed alongside CMG's most recent quarterly cash flow report to determine whether the securities issuance is linked to executive remuneration, a recent placement, or a service provider arrangement — each carries different dilution risk implications."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst HVST SFI MINIs Distribution Final Amount",
+      "time": "2026-08-31T23:38:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130029-2A1694124",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Citi has confirmed the final distribution amount for CitiFirst HVST SFI MINIs — analogous to announcement [7], this is a terminal lifecycle event for a structured product referencing a high-volatility or harvesting index strategy, with no broader market implications.",
+        "The HVST (harvest) strategy typically references a dynamic index that systematically sells volatility or harvests income; finalisation of the distribution confirms the structured note has reached maturity or been called, returning capital and final income to holders.",
+        "This is a purely administrative confirmation for retail and wholesale structured product holders; no action is required beyond reconciling the final distribution against expected terms and updating portfolio records accordingly."
+      ],
+      "tags": [
+        "Finance",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AYU",
+      "company": "AUSTRALIAN UNITY LIMITED",
+      "headline": "Australian Unity Limited Annual Report 2026",
+      "time": "2026-08-31T23:37:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130028-2A1694119",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Australian Unity has released its Annual Report for FY2026, providing the most comprehensive view of the mutual organisation's financial performance across its healthcare, financial services, and retirement living divisions — a key document for debt investors and regulated entity counterparties given AYU's unlisted mutual structure.",
+        "As an unlisted entity, AYU's annual report is the primary financial disclosure mechanism; investors in AYU bonds, term deposits, or managed funds should focus on net asset growth, capital adequacy ratios, and performance of the Lifeplan and Platina wealth businesses amid ongoing aged care regulatory reform.",
+        "The FY2026 report's commentary on the National Disability Insurance Scheme, aged care funding reforms, and residential property valuations within the retirement living portfolio will be the highest-signal sections, given structural headwinds facing the sector and AYU's significant real asset exposure."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "UBN",
       "company": "URBANISE.COM LIMITED",
