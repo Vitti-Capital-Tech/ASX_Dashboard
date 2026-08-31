@@ -1,9 +1,291 @@
 {
   "date": "2026-09-01",
-  "total": 117,
-  "market_sensitive_count": 39,
-  "generated_at": "2026-08-31T22:40:14.270439+00:00",
+  "total": 132,
+  "market_sensitive_count": 44,
+  "generated_at": "2026-08-31T22:49:43.260597+00:00",
   "announcements": [
+    {
+      "ticker": "LSA",
+      "company": "LACHLAN STAR LIMITED",
+      "headline": "1-metre assays confirm high-grade gold discovery",
+      "time": "2026-08-31T22:46:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129890-6A1341559",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "1-metre assay results confirm high-grade gold discovery at Lachlan Star's project, providing granular downhole detail that validates the earlier wider-interval intercepts and materially de-risks the mineralisation model.",
+        "High-grade confirmation at tight sample intervals is technically significant — it suggests the gold is not smeared across broad low-grade halos but is concentrated in discrete, potentially economic shoots, which improves potential mine economics considerably.",
+        "Next steps will likely focus on infill and step-out drilling to define strike and depth continuity; a maiden or upgraded resource estimate would be the key catalyst to watch for re-rating of this small-cap explorer."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SGP",
+      "company": "STOCKLAND",
+      "headline": "Appendix 3Y - Mr R Johnston",
+      "time": "2026-08-31T22:44:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129889-2A1694034",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Stockland has lodged an Appendix 3Y change of director's interest notice for Mr R Johnston, a routine regulatory disclosure of a director's securities transaction or interest change required under ASX Listing Rules.",
+        "The filing is administrative in nature and not market sensitive — the key detail to note is whether the transaction represents an on-market purchase (modestly positive signal of insider confidence) or a sale (warrants closer scrutiny of materiality and context).",
+        "No material valuation impact is expected from this disclosure alone; institutional investors should file this as a governance monitoring data point rather than a trading signal."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUC",
+      "company": "AUSGOLD LIMITED",
+      "headline": "Appendix 4G and Corporate Governance Statement",
+      "time": "2026-08-31T22:44:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129888-6A1341558",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AusGold's Appendix 4G and Corporate Governance Statement is a mandatory annual compliance filing confirming adherence (or explaining departures from) the ASX Corporate Governance Principles and Recommendations — a procedural requirement with no direct operational or financial impact.",
+        "For a small-cap gold explorer, governance quality is an underappreciated risk factor; institutional investors with ESG mandates may review the statement for board composition, audit committee independence, and risk management framework adequacy.",
+        "No share price catalyst is expected from this filing; it is best assessed in conjunction with AusGold's concurrent Annual Report (announcement [8]) for a complete picture of the company's strategic and financial position."
+      ],
+      "tags": [
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUC",
+      "company": "AUSGOLD LIMITED",
+      "headline": "2026 Annual Report",
+      "time": "2026-08-31T22:43:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129887-6A1341555",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "AusGold's 2026 Annual Report provides the comprehensive year-end strategic, operational and financial overview for this gold explorer, offering investors the most complete picture of asset progress, expenditure discipline and management commentary on resource development.",
+        "Key metrics to assess include total exploration expenditure, cash position and burn rate, any resource estimate updates or drilling progress at the Katanning Gold Project, and management's stated priorities for the coming year.",
+        "As a non-market-sensitive filing, the report is unlikely to contain material undisclosed information, but it establishes the baseline narrative and financial position against which future quarterly and operational announcements will be measured."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WOR",
+      "company": "WORLEY LIMITED",
+      "headline": "Update - Notification of buy-back - WOR",
+      "time": "2026-08-31T22:42:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129885-2A1694035",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Worley has updated its on-market share buyback notification, confirming the program remains active — buybacks at a large-cap engineering services firm signal management confidence in the balance sheet and a view that shares are undervalued relative to intrinsic worth.",
+        "The buyback is accretive to EPS on a per-share basis and reduces share count over time, providing a technical support mechanism for the share price, particularly relevant in a period where Worley is navigating energy transition project pipelines.",
+        "Investors should track cumulative buyback volumes and remaining capacity under the program; acceleration of purchases could be interpreted as a stronger conviction signal, while a slowdown may indicate balance sheet prioritisation shifting toward growth investment or debt reduction."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PL3",
+      "company": "PATAGONIA LITHIUM LTD",
+      "headline": "Formentera Lithium Well 9 Approved",
+      "time": "2026-08-31T22:42:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129886-3A700645",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Patagonia Lithium has received approval for Well 9 at the Formentera lithium project in Argentina, advancing its brine lithium exploration program and expanding the drilling dataset needed to define a maiden resource.",
+        "Argentina's lithium brine province (Lithium Triangle) is a globally significant jurisdiction, but permitting risk and water usage sensitivities are material considerations — well approval signals regulatory progress and reduces near-term execution risk.",
+        "With lithium prices remaining suppressed relative to 2022–23 peaks, the market re-rating from exploration milestones is more muted than in prior cycles; the transformative catalyst will be a resource estimate and, ultimately, a path to a strategic partnership or offtake agreement."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TG1",
+      "company": "TECHGEN METALS LTD",
+      "headline": "Blue Devil Cu-Au Drilling Has Commenced",
+      "time": "2026-08-31T22:42:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129884-6A1341556",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TechGen Metals has mobilised drilling at the Blue Devil copper-gold project, converting exploration planning into active newsflow — a critical inflection point for market attention on this early-stage explorer.",
+        "Copper-gold targets carry dual commodity appeal given elevated copper prices driven by energy transition demand and persistent gold strength, making Blue Devil strategically well-positioned in the current commodity cycle.",
+        "Drilling commencement announcements typically generate short-term speculative interest; however, the real valuation catalyst will be first assay results, likely 4–8 weeks away, which investors should treat as the primary re-rating trigger."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RFF",
+      "company": "RURAL FUNDS GROUP",
+      "headline": "Dividend/Distribution - RFF",
+      "time": "2026-08-31T22:41:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129883-2A1694032",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "Rural Funds Group (RFF) has declared a distribution, providing income certainty for unitholders in an agricultural REIT structure that targets stable, inflation-linked cash flows from farmland assets across Australia.",
+        "The distribution announcement is market sensitive, suggesting the quantum or timing may differ from prior guidance or market expectations — investors should scrutinise the per-unit amount relative to the previous corresponding period and any revised FY guidance.",
+        "RFF's distribution consistency is a core investment thesis for yield-oriented institutional investors; any reduction or change in frequency would be a significant negative signal, while an in-line or increased payout reinforces the defensive income profile."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RHC",
+      "company": "RAMSAY HEALTH CARE LIMITED",
+      "headline": "Ramsay Completes Acquisition of National Capital Private",
+      "time": "2026-08-31T22:41:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129882-2A1694033",
+      "market_sensitive": false,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Ramsay Health Care has formally completed the acquisition of National Capital Private Hospital in Canberra, expanding its brownfield footprint in the ACT — a market with structurally undersupplied private hospital capacity relative to population growth.",
+        "The deal adds an established private facility to RHC's domestic network, avoiding greenfield construction risk and accelerating revenue contribution; however, the absence of disclosed financials (purchase price, bed count, EBITDA contribution) limits immediate valuation uplift assessment.",
+        "This bolt-on acquisition signals continued domestic consolidation strategy by RHC management, potentially a precursor to further tuck-in deals as the company seeks to offset margin pressure in its underperforming European operations and rebuild investor confidence in the core Australian business."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MM8",
+      "company": "MEDALLION METALS LIMITED.",
+      "headline": "GR Engineering Awarded EPC Contract for Cosmic Boy",
+      "time": "2026-08-31T22:40:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129881-6A1341551",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Medallion Metals has awarded GR Engineering — a well-regarded ASX-listed mining engineering firm with a strong EPC track record — the engineering, procurement and construction contract for the Cosmic Boy concentrator, marking a major project execution milestone.",
+        "Engagement of a credible, experienced EPC contractor substantially reduces execution risk and signals the project is advancing toward construction-ready status, a key de-risking event that typically re-rates development-stage mining companies.",
+        "Investors should monitor the contract value, construction timeline, and whether project financing arrangements are in place or imminent — the funding stack remains the critical outstanding variable before Cosmic Boy can be considered fully de-risked."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CPU",
+      "company": "COMPUTERSHARE LIMITED.",
+      "headline": "Corporate Governance Statement and Appendix 4G - FY26",
+      "time": "2026-08-31T22:38:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129880-3A700644",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Computershare has lodged its Corporate Governance Statement and Appendix 4G for FY26, confirming compliance with ASX Corporate Governance Principles and Recommendations — a routine but mandatory disclosure signalling no material governance departures flagged.",
+        "The Appendix 4G checklist serves as a transparency benchmark for institutional investors conducting ESG and governance due diligence; any deviations from the ASX CGC recommendations would be disclosed here, making this a key reference document for stewardship reviews.",
+        "As a standalone filing, this carries no direct earnings or capital implications; however, clean governance disclosures support CPU's ongoing positioning as a best-in-class financial infrastructure company attractive to long-only global institutions."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASN",
+      "company": "ANSON RESOURCES LIMITED",
+      "headline": "Anson's Chief Financial Officer Resigns",
+      "time": "2026-08-31T22:38:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129878-6A1341553",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Anson Resources' CFO has resigned, creating a senior leadership vacancy at a critical juncture — the company is advancing its Utah lithium brine project toward potential development decision, where financial stewardship and capital markets credibility are paramount.",
+        "CFO departures at junior/mid-tier resources companies at pre-production stage are a significant red flag for institutional investors, often signalling internal disagreements over project economics, funding strategy, or corporate direction, even when framed as routine transitions.",
+        "The market will scrutinise the speed and calibre of the replacement hire; a prolonged vacancy or appointment of an inexperienced successor risks delaying financing discussions, offtake negotiations, and any potential capital raise required to fund project advancement."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TTT",
+      "company": "TITOMIC LIMITED",
+      "headline": "Appendix 4D and Half-Year Financial Report",
+      "time": "2026-08-31T22:38:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129879-3A700583",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Titomic's Appendix 4D and Half-Year Financial Report provides the first formal look at financial performance for the period, with key metrics to assess including revenue trajectory, operating cash burn, and progress toward commercialisation of its cold-spray additive manufacturing technology.",
+        "As a pre-profitable technology company, cash runway is the paramount concern — investors should scrutinise the cash balance, net operating cash outflow, and any guidance on funding requirements to determine sustainability without an imminent capital raise.",
+        "Revenue growth (or contraction) relative to the prior corresponding period and any new customer or contract announcements embedded in the report will be the primary determinants of near-term sentiment, given the company is in a critical commercialisation phase."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGH",
+      "company": "MAAS GROUP HOLDINGS LIMITED",
+      "headline": "Update - Notification of buy-back - MGH",
+      "time": "2026-08-31T22:38:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129877-2A1694031",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MAAS Group Holdings has provided an update to its on-market share buyback notification, indicating the buyback program remains active — a signal that management views current share price levels as undervaluing the business relative to intrinsic worth.",
+        "On-market buybacks by capital-light civil construction and materials businesses like MGH can be an efficient use of surplus cash flow, providing EPS accretion and reducing share count; however, investors will want visibility on the quantum of shares repurchased to date relative to the announced program limits.",
+        "The buyback update is procedurally required under ASX Listing Rules and does not itself confirm acceleration or completion of the program; the 'so what' hinges on actual buyback volume and pace, which will be revealed in subsequent appendix filings or the next results update."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CPU",
+      "company": "COMPUTERSHARE LIMITED.",
+      "headline": "Annual Report - FY26",
+      "time": "2026-08-31T22:38:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129876-3A700643",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Computershare has released its FY26 Annual Report, providing the definitive full-year financial and strategic account for one of ASX's premier global financial infrastructure businesses — a key document for institutional fundamental analysis covering earnings quality, capital allocation, and management commentary on FY27 outlook.",
+        "Investors will focus on the trajectory of Management EPS (CPU's preferred metric), interest rate sensitivity of its margin income business (a key earnings tailwind in the high-rate environment now potentially unwinding), and progress on its Computershare Mortgage Services and Employee Share Plans divisions as secular growth drivers.",
+        "The Annual Report will also reveal updated capital management posture — dividend payout ratio, buyback activity, leverage metrics, and any guidance framing — which, given CPU's global footprint across 20+ countries, will be assessed against FX headwinds and cost discipline in a potentially normalising rate cycle."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ELK",
       "company": "ELK RANGE MINING LIMITED",
