@@ -1,9 +1,619 @@
 {
   "date": "2026-09-01",
-  "total": 206,
-  "market_sensitive_count": 63,
-  "generated_at": "2026-08-31T23:24:35.720908+00:00",
+  "total": 238,
+  "market_sensitive_count": 69,
+  "generated_at": "2026-08-31T23:31:31.244796+00:00",
   "announcements": [
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst YMAX Instalment MINI Distribution Final Amount",
+      "time": "2026-08-31T23:27:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129996-2A1694105",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The CitiFirst YMAX Instalment MINI Distribution Final Amount announcement relates to a structured product over the VanEck Morningstar Australian Wide Moat ETF (YMAX) — this is an administrative payment notification confirming the final distribution quantum to MINI holders.",
+        "This is a procedural, non-discretionary event with no new information content for equity investors — the distribution amount is mechanically derived from the underlying ETF's income and the MINI's instalment structure.",
+        "No actionable investment insight arises from this filing; it is relevant only to existing holders of this specific CitiFirst structured product for reconciliation and tax record purposes."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst HVST Instalment MINI Distribution Final Amount",
+      "time": "2026-08-31T23:27:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129995-2A1694104",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The CitiFirst HVST Instalment MINI Distribution Final Amount announcement confirms the final distribution payment for a structured product linked to the BetaShares Australian Dividend Harvester Fund (HVST) — a purely administrative event.",
+        "Like its YMAX counterpart, this disclosure carries no new market information and the distribution quantum is formulaically determined by the underlying fund's income and the MINI's leverage/instalment mechanics.",
+        "Relevant solely to holders of this specific CitiFirst product for income accounting purposes; institutional investors with no exposure to this structured product can disregard entirely."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMP",
+      "company": "AMP LIMITED",
+      "headline": "Update - Notification of buy-back - AMP",
+      "time": "2026-08-31T23:27:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129994-2A1694103",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMP continues to execute its on-market share buyback program, signalling management confidence in the stock's intrinsic value and commitment to returning capital to shareholders.",
+        "Buyback activity provides technical price support and is incrementally EPS-accretive as the share count reduces — a modest but consistent positive for remaining shareholders.",
+        "Investors should monitor the cumulative buyback volume and remaining capacity to assess how much additional capital return runway exists under the current program approval."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DXS",
+      "company": "DEXUS",
+      "headline": "Notification of cessation of securities - DXS",
+      "time": "2026-08-31T23:27:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129993-2A1694102",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities at Dexus (DXS) typically reflects the lapse or cancellation of performance rights, options, or other equity instruments — reducing potential future dilution for existing shareholders.",
+        "In a challenged A-REIT environment where Dexus faces ongoing asset valuation pressures and elevated debt costs, any reduction in dilutive overhang is a marginal positive for NTA per unit.",
+        "Investors should verify whether the cessation relates to unvested performance rights lapsing (indicating executive targets were missed) or routine expiry, as the former could signal underlying operational headwinds."
+      ],
+      "tags": [
+        "Property",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SBS",
+      "company": "STATE STREET BLACKSTONE SENIOR LN HDG ACTIVE ETF",
+      "headline": "Distribution Dates Announcement",
+      "time": "2026-08-31T23:27:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129992-2A1694094",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The State Street Blackstone Senior Loan Hedged Active ETF (SBS) has announced upcoming distribution dates, providing income-focused investors with clarity on cash flow timing from this floating-rate credit vehicle.",
+        "SBS invests in senior secured loans, which are currently benefiting from elevated base rates — distributions are likely to remain elevated relative to historical averages while rates stay higher for longer.",
+        "This is a routine administrative announcement with no valuation impact; however, it serves as a reminder for yield-seeking institutional investors of the income profile available in the senior loan asset class."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BKI",
+      "company": "BKI INVESTMENT COMPANY LIMITED",
+      "headline": "BKI Quarterly Dividend - September 2026",
+      "time": "2026-08-31T23:26:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129991-2A1694098",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "BKI declares its September 2026 quarterly dividend, continuing its track record as a reliable income vehicle for yield-focused investors — consistency here reinforces its LIC (Listed Investment Company) premium appeal.",
+        "The market-sensitive classification suggests the dividend quantum or any accompanying commentary on portfolio performance may deviate from prior periods, warranting close attention to payout rate versus prior quarters.",
+        "Investors should monitor whether the dividend is fully franked and the yield implied relative to NTA, as any reduction would signal portfolio income headwinds from underlying holdings in a shifting rate environment."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Quarterly"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FRW",
+      "company": "FREIGHTWAYS GROUP LIMITED",
+      "headline": "Disclosure Notice - D&O Relevant Interests",
+      "time": "2026-08-31T23:26:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129990-3A700669",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Freightways Group (FRW) has filed a Director and Officer relevant interest disclosure, a standard regulatory requirement under ASX Listing Rules when D&O interests in securities change materially.",
+        "Such disclosures are procedural in nature but warrant scrutiny — any increase in insider holdings is modestly bullish (alignment of interests), while a decrease may warrant further investigation into insider sentiment.",
+        "Given FRW's trans-Tasman logistics exposure and current freight market softness, monitoring D&O conviction through holding changes provides a useful secondary signal on management outlook."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADO",
+      "company": "ANTEOTECH LTD",
+      "headline": "Proposed issue of securities - ADO",
+      "time": "2026-08-31T23:26:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129989-2A1694101",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AnteoTech (ADO) has lodged a proposed securities issuance notice, indicating an upcoming capital raise that will result in share dilution for existing shareholders — a near-term headwind for the share price.",
+        "For a small-cap healthcare/biotech like ADO, equity issuances are a recurring necessity given pre-revenue or early-revenue status, but the terms (price, discount to market, volume) will be critical in determining the severity of dilution.",
+        "Investors should watch for the subsequent placement or rights issue documentation to assess the raise size relative to ADO's current market cap and cash runway, which will determine whether this is a bridge to a catalyst or a distress raise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PV1",
+      "company": "PROVARIS ENERGY LTD",
+      "headline": "Collaboration with Himile for H2 Tank Manufacturing",
+      "time": "2026-08-31T23:26:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129988-6A1341581",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Provaris Energy's collaboration with Himile — a major Chinese industrial manufacturer — for compressed hydrogen (H2) tank manufacturing is a critical de-risking milestone, addressing one of the key supply chain bottlenecks in its offshore H2 transport strategy.",
+        "Securing a manufacturing partner of Himile's scale signals potential cost efficiencies and production capacity that could materially accelerate Provaris's path to commercial deployment of its H2Leo carrier concept.",
+        "The market-sensitive flag implies this is a substantive agreement rather than an MOU — investors should scrutinise the binding nature, exclusivity terms, and any capital commitment or timeline attached to tank production volumes."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VBN",
+      "company": "VANGUARD GLOBAL AGGREGATE BOND INDEX (HEDGED) ETF",
+      "headline": "Updated PDS VBND",
+      "time": "2026-08-31T23:26:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129987-2A1694091",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vanguard has updated the Product Disclosure Statement (PDS) for the Vanguard Global Aggregate Bond Index (Hedged) ETF (VBND), a routine compliance and regulatory requirement reflecting changes to fund terms, fees, or underlying index methodology.",
+        "Updated PDS documents can occasionally include fee reductions or index benchmark changes that marginally benefit investors — the detail should be reviewed to identify any substantive changes beyond boilerplate updates.",
+        "No immediate market price impact is expected; however, any changes to the hedging methodology or fee structure could influence institutional allocation decisions in the fixed income ETF space."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SOP",
+      "company": "SYNERTEC CORPORATION LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-31T23:25:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129986-3A700668",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Synertec Corporation has entered a trading halt, immediately suspending price discovery and liquidity — institutional holders are locked out of position management until the halt is lifted, typically within 2 trading days.",
+        "Trading halts on small-cap technology/engineering companies like SOP most commonly precede a capital raise, material contract announcement, or M&A event; the market-sensitive classification suggests a substantive catalyst is imminent.",
+        "Investors should monitor the subsequent announcement closely for dilution risk if a capital raise is involved, or re-rating potential if the trigger is a major contract or strategic transaction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VEQ",
+      "company": "VANGUARD FTSE EUROPE SHARES ETF",
+      "headline": "Updated PDS VEQ",
+      "time": "2026-08-31T23:25:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129985-2A1694087",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vanguard has issued an updated PDS for the Vanguard FTSE Europe Shares ETF (VEQ), a standard compliance-driven update with no direct market-moving implications for the fund's NAV or unit price.",
+        "Institutional investors using VEQ for European equity exposure should review the updated document for any changes to the underlying FTSE index, rebalancing methodology, or management cost ratios.",
+        "In the context of European equity market volatility driven by ECB policy uncertainty and geopolitical risks, PDS accuracy and transparency are important for suitability assessments in managed portfolios."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HT8",
+      "company": "HARRIS TECHNOLOGY GROUP LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-08-31T23:25:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129984-3A700667",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Harris Technology Group (HT8) has released an investor presentation, suggesting the company is actively engaging capital markets — likely to support a strategic initiative, capital raise, or re-rating narrative.",
+        "As a small-cap technology and consumer electronics retailer, HT8 investor presentations merit close examination for revenue trajectory, gross margin trends, and any disclosed path to profitability or strategic partnerships.",
+        "The non-market-sensitive classification limits immediate price impact, but the quality of the growth narrative and financial disclosures within the presentation will determine whether institutional interest is sparked."
+      ],
+      "tags": [
+        "Technology",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VIS",
+      "company": "VANGUARD MSCI INTERNATIONAL SMALL COMPANIES INDEX ETF",
+      "headline": "Updated PDS VISM",
+      "time": "2026-08-31T23:25:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129983-2A1694080",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vanguard has updated the PDS for the Vanguard MSCI International Small Companies Index ETF (VISM), a routine regulatory disclosure with no direct impact on fund performance or unit pricing.",
+        "International small-cap equities carry heightened sensitivity to global risk appetite and currency movements; any PDS changes to hedging policy or benchmark composition would be particularly relevant to review.",
+        "This is an administrative update; institutional investors should file the updated PDS for compliance records and assess whether any methodology changes affect portfolio construction or suitability criteria."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABE",
+      "company": "AUSTRALIAN BOND EXCHANGE HOLDINGS LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-08-31T23:25:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129982-2A1694085",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX suspension from quotation for Australian Bond Exchange Holdings (ABE) is a significantly more serious action than a voluntary trading halt — it typically indicates a failure to meet continuous disclosure obligations, financial distress, or a regulatory compliance breach.",
+        "For a company operating in the fixed income retail distribution space, suspension raises immediate questions around solvency, AFSL (Australian Financial Services Licence) standing, and the safety of client funds or bond holdings facilitated through its platform.",
+        "Until reinstatement conditions are disclosed, ABE should be treated as uninvestable — holders face complete illiquidity and the risk of permanent capital impairment if the suspension precedes administration or delisting proceedings."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "VGE",
+      "company": "VANGUARD FTSE EMERGING MARKETS SHARES ETF",
+      "headline": "Updated PDS VGE",
+      "time": "2026-08-31T23:24:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129980-2A1694084",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vanguard has released an updated PDS for the Vanguard FTSE Emerging Markets Shares ETF (VGE), consistent with a broader pattern of simultaneous PDS updates across the Vanguard ETF suite — likely reflecting a coordinated compliance or regulatory refresh.",
+        "Emerging markets exposure via VGE carries material sensitivity to USD strength, China economic data, and commodity cycles; any index rebalancing or country weighting changes disclosed in the updated PDS could affect risk/return characteristics.",
+        "No price-sensitive information is contained in this announcement; however, given the current uncertainty around Chinese equities and EM capital flows, investors should confirm the fund's China weighting and benchmark composition remain aligned with their mandate."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DDR",
+      "company": "DICKER DATA LIMITED",
+      "headline": "Application for quotation of securities - DDR",
+      "time": "2026-08-31T23:24:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129981-2A1694093",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DDR is applying for quotation of new securities on the ASX, a routine administrative step typically following a capital raise, dividend reinvestment plan issuance, or employee incentive scheme allocation.",
+        "As a large-cap IT distributor with a track record of disciplined capital management, the nature and volume of new securities will determine any dilution impact — details not yet disclosed in this filing.",
+        "Investors should monitor the subsequent Appendix 2A or related disclosure to confirm the source and size of the securities tranche before assessing any material impact on the share register."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMG",
+      "company": "CRITICAL MINERALS GROUP LIMITED",
+      "headline": "Application for quotation of securities - CMG",
+      "time": "2026-08-31T23:24:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129979-2A1694090",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CMG is applying for quotation of new securities, a standard ASX procedural step that typically follows a capital raise or restructuring event for this small-cap critical minerals explorer.",
+        "Given CMG's early-stage status in the critical minerals space, any new securities issuance warrants scrutiny for dilution risk, particularly if linked to a placement or rights issue at a discount to market.",
+        "Investors should await the corresponding Appendix 2A filing to identify the class, quantity, and price of securities being listed before drawing conclusions on dilution or strategic intent."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VES",
+      "company": "VANGUARD ETHICALLY CONSCIOUS INTERNATIONAL SHARES INDEX ETF",
+      "headline": "Updated PDS VESG",
+      "time": "2026-08-31T23:24:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129978-2A1694079",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vanguard has updated the Product Disclosure Statement (PDS) for VES, its Ethically Conscious International Shares Index ETF — a routine regulatory compliance requirement under ASIC's managed investment scheme obligations.",
+        "PDS updates typically reflect changes to fees, investment methodology, index composition, ESG screening criteria, or regulatory disclosures; none of these changes are expected to materially alter the fund's risk-return profile.",
+        "Existing and prospective unitholders should review the updated PDS to confirm no substantive changes to the ethical exclusion screens or benchmark index that could affect portfolio alignment with ESG mandates."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PVT",
+      "company": "PIVOTAL METALS LIMITED",
+      "headline": "Higher Copper Recoveries For Horden Lake",
+      "time": "2026-08-31T23:24:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129977-6A1341580",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Higher copper recoveries at Horden Lake are a materially positive metallurgical result for Pivotal Metals — improved recovery rates directly enhance project economics by reducing per-unit processing costs and boosting contained metal output per tonne milled.",
+        "The market-sensitive classification indicates the recovery improvement is likely statistically significant relative to prior estimates; any uplift to the project's NPV in a subsequent scoping study or PFS update would be a re-rating catalyst.",
+        "Next steps to watch: whether updated recoveries are incorporated into a revised resource estimate or economic study, and how they interact with copper price sensitivity given current elevated LME copper prices."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst MINIs Cash Amounts for Stop Loss Event 31 Aug 26",
+      "time": "2026-08-31T23:24:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129976-2A1694088",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CitiFirst has announced cash settlement amounts for a Stop Loss Event on CTW-coded MINIs products triggered on 31 August 2026, meaning the underlying asset breached the stop-loss level and the structured product has been terminated.",
+        "Holders of these MINIs will receive the residual cash amount (if any) after the stop-loss mechanics are applied — this typically results in a partial or near-total loss of invested capital depending on the gap between stop-loss and financing levels.",
+        "This is an administrative wind-up notice with no broader market-moving implications; affected investors should review their cash entitlement directly with Citi and assess redeployment of any residual capital."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "VEF",
+      "company": "VANGUARD ETHICALLY CONSCIOUS GLB AGG BOND INDEX (HEDGED) ETF",
+      "headline": "Updated PDS VEFI",
+      "time": "2026-08-31T23:24:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129974-2A1694078",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vanguard has filed an updated PDS for VEF, its Ethically Conscious Global Aggregate Bond Index (Hedged) ETF, fulfilling standard regulatory obligations under Australian managed investment scheme legislation.",
+        "As a fixed-income hedged product, any PDS amendments relating to hedging policy, duration targets, credit quality screens, or fee structures would be particularly relevant for institutional investors managing liability-matched portfolios.",
+        "Unitholders should review the updated document for any modifications to the currency hedging methodology or ESG bond exclusion criteria, which could affect the fund's yield, risk profile, or suitability for ESG-mandated mandates."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADC",
+      "company": "ACDC METALS LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-31T23:24:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129975-3A700665",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for ACDC Metals (ADC) signals a shift in ownership structure at or above the 5% threshold — while not market sensitive, it provides insight into institutional or sophisticated investor conviction in the stock.",
+        "Depending on whether the change reflects an increase or decrease in the substantial holder's position, it could indicate accumulation ahead of a catalyst or profit-taking/exit by a cornerstone investor.",
+        "For a small-cap metals explorer, shifts in substantial holdings can have an outsized impact on liquidity and share price given typically thin register depth — monitor for follow-on activity in subsequent notice filings."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PER",
+      "company": "PERCHERON THERAPEUTICS LIMITED",
+      "headline": "Proposed issue of securities - PER",
+      "time": "2026-08-31T23:23:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129973-3A700659",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Percheron Therapeutics has lodged a proposed securities issuance notice, signalling an upcoming capital raise — a common necessity for pre-revenue clinical-stage biotech companies managing burn rates against trial milestones.",
+        "The filing does not yet specify the raise size, structure (placement vs. rights issue), or pricing, but any discount to market will directly signal dilution quantum for existing shareholders.",
+        "Given PER's clinical-stage risk profile, the critical question is whether new capital is sufficient to fund the next material trial readout — investors should await the full terms announcement to assess capital adequacy and dilution impact."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PER",
+      "company": "PERCHERON THERAPEUTICS LIMITED",
+      "headline": "Proposed issue of securities - PER",
+      "time": "2026-08-31T23:23:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129972-3A700653",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second proposed securities issuance notice filed by Percheron Therapeutics on the same day suggests multiple tranches or security classes are being issued simultaneously — potentially reflecting a placement combined with a share purchase plan or options component.",
+        "Multiple concurrent filings can indicate a structured raise with institutional and retail components, which may be interpreted as broader market confidence if demand supports both tranches, but also amplifies total dilution.",
+        "Investors should cross-reference all three PER filings (IDs 6, 7, 8) to construct the full picture of the capital raise structure before assessing net dilution and cash runway extension."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PER",
+      "company": "PERCHERON THERAPEUTICS LIMITED",
+      "headline": "Proposed issue of securities - PER",
+      "time": "2026-08-31T23:23:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129971-3A700651",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A third consecutive proposed securities issuance filing from Percheron Therapeutics reinforces that the company is executing a multi-component capital raise, likely spanning placements, options, or performance rights across different security classes.",
+        "Three simultaneous filings are unusual and may reflect the complexity of the financing structure — potentially including lead manager fees paid in securities, director participation, or a convertible note component.",
+        "The aggregate dilution impact across all three tranches (IDs 6, 7, 8) is the key risk metric for existing shareholders; total raise proceeds relative to current cash burn will determine whether this secures meaningful clinical runway."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HT8",
+      "company": "HARRIS TECHNOLOGY GROUP LIMITED",
+      "headline": "FY2026 Results Commentary",
+      "time": "2026-08-31T23:23:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129970-3A700666",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Harris Technology Group has released FY2026 results commentary, providing early qualitative or quantitative guidance on full-year performance — a key signal for this small-cap consumer electronics and B2B technology retailer.",
+        "Classified as 'not market sensitive,' the commentary may indicate results are broadly in line with prior guidance or market expectations, reducing the probability of a significant earnings surprise in either direction.",
+        "Investors should parse the commentary for trends in gross margin compression (a persistent sector headwind), working capital management, and any forward indicators on FY2027 demand — particularly given the competitive online retail environment."
+      ],
+      "tags": [
+        "Results",
+        "Technology",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PER",
+      "company": "PERCHERON THERAPEUTICS LIMITED",
+      "headline": "Percheron raises $2.3m to fully fund clinical trial in AML",
+      "time": "2026-08-31T23:23:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129969-3A700632",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Percheron Therapeutics has raised $2.3 million specifically earmarked to fully fund its clinical trial in Acute Myeloid Leukaemia (AML) — the 'fully fund' language is strategically important as it removes near-term capital risk overhang from the trial timeline.",
+        "AML is a high-unmet-need oncology indication with significant commercial upside; a fully funded trial de-risks the path to data readout, which will be the primary value inflection point for this micro-cap biotech.",
+        "The relatively modest raise size ($2.3m) implies a lean trial design or that this represents a final tranche — investors should assess the implied cash runway duration and whether trial milestones can realistically be achieved without a further raise before data."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SNM",
+      "company": "SENTINEL METALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-31T23:23:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129968-6A1341579",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for Sentinel Metals (SNM) reflects a crossing of a 5% ownership threshold — routine in nature but worth monitoring to determine if a strategic investor is building or exiting a position in this early-stage metals company.",
+        "For micro-cap explorers like SNM, the identity of the substantial holder matters significantly — a strategic mining company or specialist resources fund accumulating could signal undisclosed deal interest or conviction in the asset base.",
+        "Cross-reference the holder's identity against SNM's project pipeline and any recent exploration results to assess whether the holding change carries informational value beyond the administrative disclosure."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VET",
+      "company": "VANGUARD ETHICALLY CONSCIOUS AUSTRALIAN SHARES ETF",
+      "headline": "Updated PDS VETH",
+      "time": "2026-08-31T23:23:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129967-2A1694073",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vanguard has updated the PDS for VET, its Ethically Conscious Australian Shares ETF, meeting standard ASIC disclosure requirements for managed investment schemes operating in Australia.",
+        "As a domestic equity ESG product, any changes to the ethical exclusion screens — particularly around fossil fuels, gambling, or weapons — could affect constituent holdings and tracking difference relative to the broader ASX index.",
+        "Existing unitholders with ESG mandates should review the updated PDS to confirm the screening methodology remains consistent with their investment policy statements and no benchmark index changes have been introduced."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OPH",
+      "company": "OPHIR HIGH CONVICTION FUND",
+      "headline": "Month End NTA - 31.08.26",
+      "time": "2026-08-31T23:22:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129966-2A1694077",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Monthly NTA disclosure for Ophir High Conviction Fund (OPH) as at 31 August 2026 provides investors with the latest pre-tax and post-tax net tangible asset values, serving as a key reference point for assessing the fund's discount or premium to market price — a critical metric for LIC investors making entry/exit decisions.",
+        "NTA updates are a routine but important transparency mechanism for listed investment companies; any meaningful divergence between the reported NTA and OPH's prevailing share price could signal a buying opportunity (discount) or relative overvaluation (premium), warranting close comparison against recent trading levels.",
+        "As a non-market-sensitive release, this announcement carries no new strategic or operational developments; however, institutional investors should monitor NTA trends over consecutive months to assess portfolio performance trajectory and manager conviction positioning heading into year-end."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VDI",
+      "company": "VANGUARD DIVERSIFIED INCOME ETF",
+      "headline": "Updated PDS Vanguard Diversified Income ETF",
+      "time": "2026-08-31T23:22:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03129965-2A1694070",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vanguard has lodged an updated Product Disclosure Statement (PDS) for the Vanguard Diversified Income ETF (VDI), a procedural compliance requirement under ASIC regulations; while administratively routine, PDS updates can signal changes to investment strategy, fee structures, risk disclosures, or underlying asset allocation that warrant careful review by existing and prospective unitholders.",
+        "Investors and advisers should scrutinise the updated PDS for any material amendments — including shifts in target asset mix (equities, bonds, cash), distribution policy, or management cost ratios — as even incremental changes to a diversified income vehicle can have meaningful implications for yield-seeking retail and SMSF investors who rely on VDI for income generation.",
+        "No immediate price impact is expected given the non-market-sensitive classification; however, if the updated PDS reflects a strategic repositioning of the income portfolio in response to the current interest rate environment, this could influence future distribution levels and investor demand for the ETF over the medium term."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "VTE",
       "company": "VANGUARD GLOBAL TECHNOLOGY INDEX ETF",
