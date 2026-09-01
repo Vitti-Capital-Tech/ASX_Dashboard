@@ -1,9 +1,142 @@
 {
   "date": "2026-09-01",
-  "total": 349,
-  "market_sensitive_count": 89,
-  "generated_at": "2026-09-01T01:07:57.610098+00:00",
+  "total": 356,
+  "market_sensitive_count": 90,
+  "generated_at": "2026-09-01T01:39:51.291569+00:00",
   "announcements": [
+    {
+      "ticker": "RDX",
+      "company": "REDOX LIMITED",
+      "headline": "Initial Director's Interest Notice",
+      "time": "2026-09-01T01:38:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130114-2A1694178",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "An initial director's interest notice for Redox Limited (RDX) establishes the baseline shareholding of a newly appointed or newly disclosed director, providing a transparency benchmark for future movements.",
+        "The nature and size of the initial holding — whether shares, options, or performance rights — signals insider alignment with shareholders; a meaningful equity stake at initiation is generally a positive governance indicator.",
+        "As a procedural disclosure with no market-sensitive classification, this filing carries no immediate valuation impact, but it sets the reference point for tracking any future on-market buying or selling activity by this director."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCP",
+      "company": "CREDIT CORP GROUP LIMITED",
+      "headline": "Upcoming Annual General Meeting",
+      "time": "2026-09-01T01:29:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130113-2A1694177",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Credit Corp Group's upcoming AGM notice is a standard administrative filing, confirming the meeting date and agenda items — including director re-elections and auditor approval — which are routine for a company of CCP's maturity.",
+        "Investors should monitor the AGM for any shareholder activism signals, particularly around CCP's US debt purchasing expansion and credit quality trends, which have been key investor concerns in recent periods.",
+        "No market-sensitive matters have been flagged in this notice; however, management's AGM address may provide informal guidance updates on lending metrics, arrears, and the competitive environment in the debt buying sector."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GC1",
+      "company": "GLENNON SMALL COMPANIES LIMITED",
+      "headline": "Update - Dividend/Distribution - GC1",
+      "time": "2026-09-01T01:20:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130112-2A1694176",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Glennon Small Companies Limited (GC1) is providing an update to its dividend or distribution, which for a listed investment company (LIC) is a key metric directly tied to portfolio income generation and net tangible asset (NTA) performance.",
+        "The quantum and franking level of the distribution are critical details — any reduction relative to prior periods would signal portfolio underperformance or a conservative capital management posture, while an increase would affirm small-cap portfolio resilience.",
+        "For income-focused LIC investors, consistency of distributions is a primary investment thesis driver; this update will be closely watched to assess whether GC1's small-cap mandate is generating sufficient cash income to sustain its payout policy."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "FY26 results webinar",
+      "time": "2026-09-01T01:17:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130111-2A1694175",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Kip McGrath Education Centres (KME) is scheduling an FY26 results webinar, indicating the company is preparing to report full-year financial outcomes — a key catalyst event for a small-cap education services provider with both domestic and international franchise exposure.",
+        "The webinar format signals management's intent to engage directly with investors, likely to walk through enrolment trends, franchise network growth, and margin dynamics across its Australian, UK, and New Zealand markets.",
+        "Investors should focus on whether KME can demonstrate organic enrolment growth and franchisee profitability improvement, as these are the core value drivers underpinning any re-rating thesis for the stock."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TWL",
+      "company": "TRADE WINDOW HOLDINGS LIMITED",
+      "headline": "Amendments to Notice of Annual Shareholders' Meeting",
+      "time": "2026-09-01T01:17:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130110-2A1694174",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Trade Window Holdings (TWL) is amending its notice of annual shareholders' meeting, which typically reflects corrections to resolution wording, proxy form adjustments, or updated explanatory memoranda — a procedural but noteworthy filing for compliance integrity.",
+        "For a NZX/ASX-dual listed trade digitalisation company, AGM amendments should be reviewed for any changes to remuneration resolutions or director re-election details that could indicate underlying board or governance tensions.",
+        "As a non-market-sensitive administrative correction, the immediate price impact is negligible; however, any material changes to previously notified resolutions should prompt closer scrutiny of TWL's governance practices."
+      ],
+      "tags": [
+        "AGM",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TZN",
+      "company": "TERRAMIN AUSTRALIA LIMITED.",
+      "headline": "Finance Facility Update",
+      "time": "2026-09-01T01:13:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130109-2A1694173",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A finance facility update from a junior miner is a critical liquidity signal — any amendment, extension, or breach of covenants on a facility for TZN could materially alter its cash runway and project advancement timeline for the Oued Amizour zinc-lead project in Algeria.",
+        "Market-sensitive classification elevates the significance: investors should scrutinise whether the update signals a drawdown, renegotiation, or default risk, all of which carry direct implications for near-term solvency and project funding adequacy.",
+        "Next steps hinge on whether TZN has secured sufficient capital to progress feasibility and regulatory milestones in Algeria — any delay or tightening of facility terms would likely force a reassessment of the development schedule and potential equity dilution risk."
+      ],
+      "tags": [
+        "Finance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Change of Director's Interest Notice - AC",
+      "time": "2026-09-01T01:08:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130108-6A1341611",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A change of director's interest notice for Kingston Resources (KSN) records a movement in a director's shareholding — whether through on-market purchase, sale, or participation in a placement — providing a real-time insider sentiment signal for this gold developer.",
+        "For a junior resources company like KSN, which is advancing the Misima Gold Project in Papua New Guinea, director buying activity would be a constructive signal of insider confidence, while selling could raise near-term concern around project milestones.",
+        "Without the specific transaction details, the filing is treated as procedural; investors should cross-reference the direction and scale of the interest change against KSN's recent project news flow and capital structure to assess materiality."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SRL",
       "company": "SUNRISE ENERGY METALS LIMITED",
