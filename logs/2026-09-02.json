@@ -1,9 +1,409 @@
 {
   "date": "2026-09-02",
-  "total": 199,
-  "market_sensitive_count": 55,
-  "generated_at": "2026-09-01T23:29:41.060029+00:00",
+  "total": 220,
+  "market_sensitive_count": 63,
+  "generated_at": "2026-09-01T23:38:55.884303+00:00",
   "announcements": [
+    {
+      "ticker": "AGY",
+      "company": "ARGOSY MINERALS LIMITED",
+      "headline": "Successful $3M Placement and SPP launched",
+      "time": "2026-09-01T23:35:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130574-6A1341758",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Argosy has secured a $3M placement, providing immediate capital injection to advance its lithium brine operations in Argentina — critical for a small-cap explorer where cash preservation is existential.",
+        "The simultaneous launch of a Share Purchase Plan (SPP) signals management is seeking to broaden the capital raise further, potentially adding retail investor participation on top of the institutional placement tranche.",
+        "While the raise strengthens near-term runway, the dilutive impact on existing shareholders warrants scrutiny — investors should assess the placement price relative to prevailing market price to gauge discount severity and sentiment risk."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGE",
+      "company": "ALLIGATOR ENERGY LIMITED",
+      "headline": "Cancellation of Securities and Appendix 3Y",
+      "time": "2026-09-01T23:34:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130573-2A1694427",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Alligator Energy has filed a cancellation of securities alongside an Appendix 3Y (change of director's interest) — both are routine administrative and compliance disclosures with no direct operational or financial implications.",
+        "The Appendix 3Y reflects a change in a director's security holding, which may reflect on-market activity or the lapsing of performance rights; the direction and quantum of any directorial selling would be the only signal worth monitoring.",
+        "Classified as not market sensitive, this announcement carries negligible share price impact and is primarily relevant for governance tracking and register maintenance purposes."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TTT",
+      "company": "TITOMIC LIMITED",
+      "headline": "Titomic Secures New U.S. Orders from Strategic Markets",
+      "time": "2026-09-01T23:34:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130572-3A700774",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Titomic has announced new U.S. orders from strategic markets — coming on the same day as its A$16.5M placement, this demonstrates early commercial traction and provides validation that the raised capital is being deployed into a live and growing pipeline.",
+        "The U.S. market is strategically critical for Titomic given defence and advanced manufacturing demand; order wins from 'strategic' sectors (likely defence or aerospace) add credibility to the commercial narrative and differentiate this from speculative revenue guidance.",
+        "Although classified as not market sensitive, the announcement is commercially significant in context — paired with the capital raise, it reinforces a bullish near-term narrative around revenue momentum and U.S. market penetration for institutional investors assessing the growth thesis."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TTT",
+      "company": "TITOMIC LIMITED",
+      "headline": "Titomic Board Appointment and Retirement",
+      "time": "2026-09-01T23:34:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130571-3A700773",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Board transition signals a governance refresh at Titomic, occurring concurrently with an active capital raise — timing suggests the incoming director may bring strategic or investor-relations value to support the funding round.",
+        "The retirement of an existing board member reduces overhead and may indicate a streamlining of leadership as the company repositions, though loss of institutional knowledge is a latent risk.",
+        "Investors should monitor whether the new appointee brings defence, advanced manufacturing, or capital markets expertise, as these are the key domains critical to TTT's near-term commercial execution."
+      ],
+      "tags": [
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TTT",
+      "company": "TITOMIC LIMITED",
+      "headline": "Equity Raising Investor Presentation",
+      "time": "2026-09-01T23:34:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130570-3A700772",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An equity raising investor presentation at this stage indicates TTT is actively seeking fresh capital, likely to fund operations or accelerate commercialisation of its cold-spray additive manufacturing technology for defence and industrial clients.",
+        "The 'not market sensitive' classification suggests the raise parameters (price, size) may already be known to the market or are immaterial relative to current market cap — investors should scrutinise the dilution quantum carefully once terms are disclosed.",
+        "The presentation's key watch points will be: use of proceeds, targeted deployment timeline, and any updated revenue or contract pipeline commentary that could justify the dilution to existing shareholders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "JAL",
+      "company": "JAMESON RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-01T23:33:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130569-6A1341791",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Jameson Resources has entered a trading halt, suspending price discovery and signalling an imminent material announcement — most commonly a capital raise, M&A transaction, or significant asset update.",
+        "The market-sensitive classification elevates the probability of a transformative corporate event rather than routine administrative matters, making this a high-watch situation for speculative investors.",
+        "Until the halt is lifted and the underlying announcement released, risk is asymmetric and unquantifiable — institutional participants should monitor closely for the resumption trigger and nature of the pending disclosure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GYG",
+      "company": "GUZMAN Y GOMEZ LIMITED",
+      "headline": "Cleansing Notice under Section 708A(5)(e) of the Corps Act",
+      "time": "2026-09-01T23:33:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130568-2A1694426",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Section 708A(5)(e) cleansing notice confirms GYG has completed a recent placement of securities without a prospectus, formally enabling those shares to trade freely on-market without restriction — a necessary procedural step post-capital raise.",
+        "This filing is purely administrative but confirms that new institutional or strategic capital has recently been deployed into GYG, which may reflect continued investor confidence in the fast-food chain's aggressive Australian and international expansion strategy.",
+        "Near-term focus shifts back to GYG's operational execution: same-store sales growth, new store openings, and any updates to FY26 guidance will be the real price catalysts rather than this compliance filing."
+      ],
+      "tags": [
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CR3",
+      "company": "CORE ENERGY MINERALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-09-01T23:32:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130567-2A1694425",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Core Energy Minerals has entered a trading halt flagged as market sensitive, indicating a pending announcement of material consequence — likely a capital raise, strategic transaction, or significant exploration result.",
+        "Trading halts at micro-cap energy and minerals companies frequently precede dilutive capital events; however, positive catalysts such as resource upgrades or farm-in agreements are equally plausible at this stage.",
+        "Investors should await the resumption announcement before repositioning — the halt itself provides no directional signal but warrants active monitoring given the market-sensitive designation."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LRT",
+      "company": "LOWELL RESOURCES FUND",
+      "headline": "LRT NAV Estimate - 31 August 2026",
+      "time": "2026-09-01T23:32:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130566-3A700805",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The LRT NAV estimate for 31 August 2026 provides a forward-dated reference point for the fund's net asset value, serving as a key pricing benchmark for investors evaluating entry or exit relative to the fund's market price.",
+        "As a listed resources fund, the NAV movement versus prior periods is the critical metric — any premium or discount to NAV will influence arbitrage and redemption dynamics among existing unitholders.",
+        "Institutional investors should assess the underlying portfolio composition and commodity exposure driving NAV, particularly given ongoing volatility in base and battery metals markets that typically dominate smaller resources fund mandates."
+      ],
+      "tags": [
+        "Finance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TTT",
+      "company": "TITOMIC LIMITED",
+      "headline": "Proposed issue of securities - TTT",
+      "time": "2026-09-01T23:32:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130565-3A700771",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The formal 'Proposed Issue of Securities' notice for TTT confirms the mechanical details of the equity raise flagged in the concurrent investor presentation, providing ASX with the requisite regulatory notification ahead of allotment.",
+        "Key dilution metrics — number of shares, issue price, and resultant ownership impact — will be embedded in this notice and are essential for existing shareholders to assess earnings-per-share dilution and post-raise cash position.",
+        "This is the third TTT-related announcement in sequence, underscoring the coordinated nature of the capital raise process; investors should consolidate all three filings to form a complete picture of the transaction's structure and strategic rationale."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GDM",
+      "company": "GREAT DIVIDE MINING LTD",
+      "headline": "Cross-claim filed by Amara Minerals Limited",
+      "time": "2026-09-01T23:32:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130564-6A1341789",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cross-claim filed by Amara Minerals against Great Divide Mining introduces legal contingent liability risk that could complicate GDM's operational or transactional flexibility, particularly around tenement or asset ownership disputes common in the junior mining sector.",
+        "The 'not market sensitive' classification suggests GDM management views the cross-claim as unlikely to result in material financial loss — however, litigation outcomes in mining disputes are inherently uncertain and can escalate in cost and scope.",
+        "Investors should track the nature of Amara's cross-claim (contractual, equity interest, or title-based), as resolution timelines in Australian courts can extend 12–24 months, creating an overhang on any M&A or JV discussions involving contested assets."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "Update on Brazilian crude oil export tax injunction",
+      "time": "2026-09-01T23:31:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130563-3A700804",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Karoon Energy's update on its Brazilian crude oil export tax injunction is a material operational development — if the injunction holds, KAR avoids a potentially significant cost burden on its Who Dat and Baúna production, directly protecting operating cash flow.",
+        "Brazil's export tax regime has been a sector-wide concern for international E&P operators; a favourable injunction outcome positions KAR advantageously relative to peers and could serve as a legal precedent affecting other Brazilian operators.",
+        "The key risk is judicial reversal — if the injunction is lifted, KAR would face retroactive or prospective tax liabilities that could materially reduce free cash flow and pressure the company's ability to fund its Brazilian growth capex program."
+      ],
+      "tags": [
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TTT",
+      "company": "TITOMIC LIMITED",
+      "headline": "A$16.5M Placement Secured to Accelerate Growth",
+      "time": "2026-09-01T23:31:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130562-3A700769",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Titomic has secured a substantial A$16.5M placement, representing a meaningful capital infusion for a company commercialising cold-spray metal additive manufacturing — this significantly extends operational runway and funds growth initiatives.",
+        "The size of the raise relative to Titomic's market capitalisation suggests institutional confidence in the growth thesis, though the dilution quantum will be a key near-term headwind for existing shareholders depending on the placement price.",
+        "Proceeds earmarked to 'accelerate growth' imply near-term deployment into sales, manufacturing capacity, or strategic partnerships — investors should monitor the accompanying use-of-funds disclosure for capital allocation discipline and timeline clarity."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NME",
+      "company": "NEX METALS EXPLORATION LIMITED",
+      "headline": "NME-WTAC JV Expands East Scotia Gold Project",
+      "time": "2026-09-01T23:31:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130561-6A1341790",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The NME-WTAC joint venture has expanded the East Scotia Gold Project footprint, a structurally positive development that increases the prospective resource area and optionality for future resource definition drilling.",
+        "Project expansion announcements in early-stage gold JVs are meaningful for re-rating potential, but value realisation depends entirely on the quality of the expanded ground — investors should scrutinise the geological rationale and tenure acquired.",
+        "Near-term catalysts will centre on whether the expansion triggers an accelerated drilling programme; without a funded work plan, the announcement risks being perceived as speculative acreage accumulation rather than value-accretive progress."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ASL",
+      "company": "ANDEAN SILVER LIMITED",
+      "headline": "Proposed issue of securities - ASL",
+      "time": "2026-09-01T23:31:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130560-6A1341773",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Andean Silver's proposed securities issue signals the junior explorer is raising fresh capital, typical at this stage to fund exploration drilling or advance resource definition at its South American silver assets.",
+        "Dilution is the primary near-term concern for existing shareholders — at junior explorer valuations, the issue price relative to spot and any associated free-attaching options will determine how punitive the raise is for current holders.",
+        "The strategic 'so what' hinges on what the capital will fund: a new drill program with high-grade intercept potential could rapidly re-rate the stock, making the quality of the exploration pipeline the critical forward-looking indicator."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IME",
+      "company": "IMEXHS LIMITED",
+      "headline": "H1 FY26 Results Presentation",
+      "time": "2026-09-01T23:30:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130559-3A700802",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "IMEXHS has released its H1 FY26 results presentation — as a healthcare technology SaaS company, key metrics to assess include ARR growth, gross margin trajectory, customer retention, and progress toward cash flow breakeven.",
+        "The market-sensitive classification indicates the results contain material information that could move the share price; investors should focus on whether revenue growth is accelerating or decelerating relative to H1 FY25 comparatives.",
+        "For a growth-stage healthcare IT company, the 'so what?' hinges on burn rate versus revenue scale — any evidence of improving unit economics or a path to profitability would be a material re-rating catalyst, while a widening loss on stagnant revenue growth would be bearish."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASL",
+      "company": "ANDEAN SILVER LIMITED",
+      "headline": "Andean Announces Successful A$40 Million Raising",
+      "time": "2026-09-01T23:30:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130558-6A1341777",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Andean Silver has successfully completed a A$40M capital raise — a substantial funding event that materially de-risks the balance sheet and provides significant runway to advance its silver development assets in South America.",
+        "The scale of the raise at A$40M is notable for a junior silver developer and implies strong institutional support, suggesting the market has conviction in the asset quality and management's execution capability.",
+        "With a well-funded treasury, Andean is now positioned to accelerate exploration and/or feasibility work — near-term share price performance will depend on the placement discount and whether the use-of-funds narrative convincingly ties capital deployment to near-term value milestones."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MEM",
+      "company": "MEMPHASYS LIMITED.",
+      "headline": "Notification of cessation of securities - MEM",
+      "time": "2026-09-01T23:30:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130557-3A700803",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The cessation of securities notice for Memphasys indicates that a tranche of securities — most likely unlisted options or performance rights — has lapsed unexercised or been cancelled, reducing the company's total fully-diluted share count.",
+        "While a reduction in securities on issue is technically accretive on a per-share basis, the lapse of options or rights often signals that performance milestones were not met or that market pricing made exercise uneconomical — both potentially negative signals about underlying business progress.",
+        "For a healthcare micro-cap like MEM, which is commercialising its Felix sperm-separation technology, investors should cross-reference this cessation with any recent clinical or commercial development updates to contextualise whether the lapse reflects option expiry mechanics or broader operational underperformance."
+      ],
+      "tags": [
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "1AD",
+      "company": "ADALTA LIMITED",
+      "headline": "BZDS1901 special access scheme launch in China",
+      "time": "2026-09-01T23:30:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130556-3A700801",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AdAlta has launched its lead asset BZDS1901 under China's Special Access Scheme (SAS), marking a significant regulatory and commercial milestone — SAS pathways allow early patient access ahead of full approval and validate the clinical profile of the drug candidate.",
+        "China represents one of the world's largest pharmaceutical markets; SAS entry is a meaningful proof-of-concept for commercial viability and can generate real-world safety and efficacy data that strengthens the broader regulatory dossier.",
+        "While not a full regulatory approval, this launch demonstrates cross-border interest in AdAlta's i-body technology platform and could serve as a bridgehead for licensing discussions or partnership interest from Chinese biopharma players — a potentially underappreciated strategic signal."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TBN",
+      "company": "TAMBORAN RESOURCES CORPORATION",
+      "headline": "Tamboran and Liberty Energy sign MOU to extend partnership",
+      "time": "2026-09-01T23:28:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130555-2A1694422",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Tamboran Resources' MOU extension with Liberty Energy deepens a strategic partnership critical to developing the Beetaloo Sub-basin gas play in the Northern Territory — Liberty's US shale expertise is directly transferable to the high-pressure, high-volume fracturing operations required at Tamboran's acreage.",
+        "An MOU extension rather than a definitive agreement suggests both parties remain aligned on long-term potential but are managing near-term capital commitment cautiously — likely pending regulatory clarity and further appraisal drilling results from the Shenandoah South program.",
+        "For TBN shareholders, the partnership signals continued institutional confidence from a well-credentialed US operator, reducing execution risk and potentially de-risking the path to a Final Investment Decision — a key re-rating catalyst if Beetaloo progresses toward LNG or domestic gas supply commercialisation."
+      ],
+      "tags": [
+        "Energy",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MKR",
+      "company": "MANUKA RESOURCES LTD.",
+      "headline": "Management Strengthened by New Appointments",
+      "time": "2026-09-01T23:28:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130554-2A1694423",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Manuka Resources has bolstered its management team with new appointments, signalling an intent to accelerate operational or corporate development activity — a common precursor to project advancement or capital market engagement for junior miners.",
+        "The announcement carries no specific financial metrics or named roles disclosed in the headline, limiting immediate valuation impact; however, leadership changes at small-cap miners often reflect shifting strategic priorities, such as preparing for a production ramp-up, M&A activity, or a capital raise.",
+        "Investors should monitor follow-on announcements closely — new management hires at MKR's stage of development (Wonawinta silver/gold project) may indicate milestones approaching on the operational or financing front, making near-term quarterly and project updates key catalysts to watch."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "HWK",
       "company": "HAWK RESOURCES LIMITED.",
