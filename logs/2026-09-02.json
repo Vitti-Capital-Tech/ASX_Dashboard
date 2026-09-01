@@ -1,9 +1,268 @@
 {
   "date": "2026-09-02",
-  "total": 126,
-  "market_sensitive_count": 34,
-  "generated_at": "2026-09-01T22:50:46.839519+00:00",
+  "total": 140,
+  "market_sensitive_count": 38,
+  "generated_at": "2026-09-01T23:00:13.154071+00:00",
   "announcements": [
+    {
+      "ticker": "NHF",
+      "company": "NIB HOLDINGS LIMITED",
+      "headline": "Change of Director's Interest Notice - David Gordon",
+      "time": "2026-09-01T22:57:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130494-2A1694397",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director's interest notice for NHF's David Gordon is an administrative disclosure with no direct operational or financial implications for the company's underlying earnings or strategy.",
+        "The nature of the change (acquisition, disposal, or vesting) will determine any marginal signal; however, as flagged non-market-sensitive, the transaction is unlikely to reflect undisclosed material information.",
+        "Institutional investors should note the updated holding level for governance tracking purposes, but no portfolio action is warranted based on this disclosure alone."
+      ],
+      "tags": [
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORA",
+      "company": "ORORA LIMITED",
+      "headline": "Update - Notification of buy-back - ORA",
+      "time": "2026-09-01T22:56:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130493-3A700789",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ORA's on-market buyback update is a routine administrative notification, confirming the company continues to return capital to shareholders in the absence of more accretive deployment opportunities.",
+        "Buybacks provide modest EPS accretion and signal board confidence in the current valuation, but at this stage the announcement lacks specific volume or price data to quantify the near-term impact.",
+        "In the context of ORA's broader strategic review and packaging operations, the buyback continuation suggests balance sheet stability; investors should cross-reference with quarterly buyback volume data to assess pace and remaining capacity."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFI",
+      "company": "AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
+      "headline": "Update - Notification of buy-back - AFI",
+      "time": "2026-09-01T22:56:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130492-3A700790",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AFI's buyback update notification is a standard administrative disclosure, confirming ongoing execution of its on-market repurchase program consistent with its capital management policy as a Listed Investment Company (LIC).",
+        "For a LIC like AFI, buybacks executed at a discount to NTA are directly accretive to remaining shareholders' NTA per share — a technically positive but incremental outcome dependent on the discount at time of purchase.",
+        "No immediate material re-rating catalyst; investors should monitor the cumulative buyback volume and NTA discount trajectory to assess the program's effectiveness in closing the NTA gap."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DJW",
+      "company": "DJERRIWARRH INVESTMENTS LIMITED",
+      "headline": "Update - Notification of buy-back - DJW",
+      "time": "2026-09-01T22:56:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130491-3A700788",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DJW's buyback notification is an administrative update with no immediate material financial impact, consistent with its ongoing capital management framework as a Listed Investment Company.",
+        "Similar to AFI, buybacks at a discount to NTA are accretive to per-share NTA for remaining shareholders, but the quantum of benefit depends on execution price relative to NTA — detail not provided in this announcement.",
+        "This is a procedural filing; no portfolio action is warranted, though long-term holders in LICs should track buyback activity as a component of total shareholder return alongside dividends and NTA performance."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMP",
+      "company": "AMP LIMITED",
+      "headline": "Update - Notification of buy-back - AMP",
+      "time": "2026-09-01T22:55:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130490-2A1694396",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMP's buyback update is a routine ASX notification confirming continuation of its on-market repurchase program, reflecting management's commitment to returning surplus capital following ongoing portfolio simplification.",
+        "Buybacks at current levels provide EPS support and signal board confidence, but the announcement in isolation contains no new information that would materially alter consensus earnings or valuation models.",
+        "Investors should track cumulative buyback spend against AMP's stated capital return targets and monitor whether accelerating or decelerating buyback pace signals any change in the company's capital deployment priorities."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SX2",
+      "company": "SOUTHERN CROSS GOLD CONSOLIDATED LTD.",
+      "headline": "SX2 Drills 0.6m @ 972 g/t Gold and Extends Apollo to East",
+      "time": "2026-09-01T22:55:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130489-3A700786",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Headline intercept of 0.6m @ 972 g/t gold is exceptionally high-grade and reinforces the Apollo zone's potential as a bonanza-style orebody, materially enhancing SX2's resource narrative ahead of any scoping or valuation work.",
+        "Eastward extension of the Apollo zone indicates structural continuity beyond known boundaries, opening a larger footprint than previously modelled and potentially increasing the resource envelope significantly.",
+        "As a market-sensitive release, this result is likely to drive near-term speculative buying; investors will watch closely for follow-up drilling to confirm true width and grade continuity across the extended corridor."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DYL",
+      "company": "DEEP YELLOW LIMITED",
+      "headline": "Nova Joint Venture, Namibia - A$5m Earn-In By Core Energy",
+      "time": "2026-09-01T22:55:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130488-6A1341768",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Core Energy's A$5m earn-in commitment at DYL's Nova Joint Venture in Namibia brings non-dilutive project-level funding to the table, preserving DYL's cash for its flagship Tumas uranium project while advancing Nova at a partner's cost.",
+        "The earn-in structure is strategically sound for DYL — it validates the Nova project's prospectivity through a third-party willingness to invest A$5m, while limiting DYL's direct capital exposure to an early-stage asset.",
+        "Key risks to monitor include Core Energy's financial capacity to fulfil earn-in obligations and the geological deliverables required to trigger milestones; failure to complete the earn-in would return project control to DYL with exploration work already completed."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GT1",
+      "company": "GREEN TECHNOLOGY METALS LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-09-01T22:55:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130487-6A1341767",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "GT1's investor presentation signals an ongoing effort to maintain market visibility for its North American lithium projects at a time when lithium sentiment remains subdued — the effectiveness of this outreach is contingent on a broader commodity re-rating rather than company-specific catalysts.",
+        "Without a capital raise or operational update attached, the presentation likely reiterates existing resource estimates and project timelines, offering limited new information for institutional investors already familiar with the GT1 thesis.",
+        "Key near-term watch points remain offtake negotiations and project financing milestones; until these are de-risked, the presentation is unlikely to shift the stock's trajectory materially."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMH",
+      "company": "AMCIL LIMITED",
+      "headline": "Update - Notification of buy-back - AMH",
+      "time": "2026-09-01T22:54:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130486-3A700787",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMCIL's on-market buyback update confirms continued capital management activity, a modest but consistent signal that management views AMH shares as undervalued relative to its NTA — a reassuring posture for existing shareholders in an LIC structure.",
+        "Buyback notifications in LIC vehicles like AMH typically indicate the discount to NTA has widened to a level that makes repurchasing shares accretive to remaining holders, effectively improving per-share NTA without deploying new capital externally.",
+        "The scale and pace of buybacks will be the critical variable to monitor; if AMH accelerates purchases, it could provide a technical floor for the share price, though the overall impact on liquidity and float in a small LIC warrants attention."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "L1M",
+      "company": "LIGHTNING MINERALS LTD",
+      "headline": "Further Compelling Gold Targets at Western Zone of Mt Turner",
+      "time": "2026-09-01T22:53:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130485-6A1341766",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Identification of further compelling gold targets at the Western Zone of Mt Turner expands the prospective footprint of L1M's project, suggesting the mineralised system is larger and more complex than initially mapped.",
+        "The market-sensitive classification implies management believes this target generation has material resource discovery potential, which could catalyse re-rating if followed by drill confirmation.",
+        "Next critical step is maiden drilling at the newly defined Western Zone targets; the market will closely monitor drill program timing and budget to assess the company's capacity to advance these targets efficiently."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CAF",
+      "company": "CENTREPOINT ALLIANCE LIMITED",
+      "headline": "Completion of Acquisition of 51% of SEQ Advice Group",
+      "time": "2026-09-01T22:52:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130484-2A1694393",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Completion of the 51% acquisition of SEQ Advice Group is a tangible strategic step for CAF, expanding its financial advice distribution network and increasing revenue-generating adviser headcount under its licensee model.",
+        "The 51% stake preserves minority alignment with existing SEQ management, a structure that typically supports retention of key advisers — critical in the fragile post-FASEA advice industry landscape where adviser attrition is a key risk.",
+        "Investors should monitor integration execution, contribution to funds under advice (FUA), and whether CAF pursues the remaining 49% as a path to full consolidation; earnings accretion timeline will be the key valuation driver."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NEU",
+      "company": "NEUREN PHARMACEUTICALS LIMITED",
+      "headline": "Corporate Presentation, 2 September 2026",
+      "time": "2026-09-01T22:50:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130483-2A1694394",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Neuren's September 2026 corporate presentation underscores the company's continued investor engagement strategy as it advances its CNS drug pipeline beyond trofinetide (Daybue), with market focus now shifting to next-generation assets and potential royalty stream growth from Acadia Pharmaceuticals.",
+        "With Daybue commercially launched in the US for Rett syndrome, the key institutional metric is real-world sales trajectory and royalty receipts flowing to NEU — any updated guidance or sales data referenced in the presentation would be the highest-signal element for valuation models.",
+        "Neuren's pipeline progression into additional rare neurological indications will be the primary re-rating catalyst; the presentation likely frames the runway for NNZ-2591 trial readouts, making clinical milestone timelines the critical forward-looking data point to extract."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PSC",
+      "company": "PROSPECT RESOURCES LIMITED",
+      "headline": "ADU Conference Presentation",
+      "time": "2026-09-01T22:49:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130482-6A1341765",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PSC's presentation at the ADU (AfricDown Under or equivalent resources) conference positions Prospect Resources to engage with a targeted mining investor audience, relevant given its lithium and resource development focus in Africa — conference exposure can catalyse renewed institutional interest if project fundamentals are compelling.",
+        "The strategic 'so what' centres on whether PSC uses this platform to announce partnership discussions, updated resource estimates, or financing progress on its Arcadia Lithium Project or other assets; without such substance, the announcement is largely procedural.",
+        "Lithium market headwinds remain a structural overhang for PSC; investor appetite will hinge on near-term catalysts such as offtake agreements or JV structures that reduce single-commodity and sovereign risk for a junior developer operating in Zimbabwe."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CC9",
+      "company": "CHARIOT RESOURCES LTD",
+      "headline": "Zhongnuo Commences Geological Mapping at Iganna",
+      "time": "2026-09-01T22:48:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130481-6A1341764",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of geological mapping by Zhongnuo at the Iganna project signals that CC9's strategic partner is actively deploying resources on the ground, reducing the risk of earn-in inactivity and project stagnation.",
+        "Geological mapping is an early-stage activity; while operationally positive, it represents the beginning of a multi-stage exploration workflow, meaning meaningful newsflow on targets or drill-ready prospects remains some time away.",
+        "The involvement of Zhongnuo — a Chinese resources entity — adds a geopolitical and counterparty dimension that institutional investors should monitor, particularly regarding project jurisdiction, funding obligations, and earn-in milestone compliance."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EXR",
       "company": "ELIXIR ENERGY LIMITED",
