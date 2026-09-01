@@ -1,9 +1,427 @@
 {
   "date": "2026-09-01",
-  "total": 376,
+  "total": 398,
   "market_sensitive_count": 92,
-  "generated_at": "2026-09-01T02:33:43.834870+00:00",
+  "generated_at": "2026-09-01T03:29:20.290009+00:00",
   "announcements": [
+    {
+      "ticker": "OR3",
+      "company": "ORE RESOURCES LIMITED",
+      "headline": "Change of Registered Office and Principal Place of Business",
+      "time": "2026-09-01T03:25:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130156-6A1341620",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "ORE Resources Limited (OR3) has notified the ASX of a change to its registered office and principal place of business — a routine administrative update that carries no immediate financial implications.",
+        "For a small-cap mining company, office relocations can occasionally signal organisational restructuring, cost rationalisation, or a shift in operational focus area, though without further context this remains procedural.",
+        "Investors should treat this as low-priority but note it as part of broader due diligence on management activity; any pattern of administrative changes alongside other corporate actions could warrant closer scrutiny."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KOV",
+      "company": "KORVEST LTD",
+      "headline": "Initial Director's Interest Notice - J Moth",
+      "time": "2026-09-01T03:24:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130155-2A1694200",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Korvest Ltd (KOV) has filed an initial director's interest notice for newly appointed or newly disclosing director J. Moth, establishing the baseline shareholding for ongoing transparency and compliance with ASX Listing Rules.",
+        "The quantum of shares or options held by J. Moth is key — a meaningful personal stake would signal alignment of director incentives with shareholder interests, a positive governance indicator for this industrial products company.",
+        "This filing triggers the obligation for J. Moth to disclose all future changes to their interest, providing the market with an ongoing window into director-level conviction and any future on-market buying or selling activity."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STO",
+      "company": "SANTOS LIMITED",
+      "headline": "Update - Dividend/Distribution - STO",
+      "time": "2026-09-01T03:22:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130154-2A1694199",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Santos Limited (STO) has issued an update to its dividend/distribution announcement, which may reflect a correction to payment details, currency elections, or DRP (Dividend Reinvestment Plan) participation rates — all administratively important for income-focused shareholders.",
+        "As one of Australia's largest oil and gas producers, any revision to STO's dividend quantum or franking level would be market-moving; the 'not market sensitive' classification suggests this is a technical update rather than a change to the headline dividend amount.",
+        "Shareholders enrolled in the DRP or those managing currency exposure should review the updated details carefully, as amended record dates or payment mechanics can affect settlement planning for institutional portfolios."
+      ],
+      "tags": [
+        "Dividend",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CEH",
+      "company": "COAST ENTERTAINMENT HOLDINGS LIMITED",
+      "headline": "Notification of cessation of securities - CEH",
+      "time": "2026-09-01T03:21:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130153-2A1694198",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Coast Entertainment Holdings (CEH) has notified the ASX of the cessation of securities, most likely reflecting the expiry of unlisted options or performance rights that were not exercised — a routine capital management outcome.",
+        "The lapse of unexercised options reduces potential future dilution for existing shareholders, which is marginally positive from a capital structure standpoint, particularly for smaller companies with tight share counts.",
+        "Investors should note the class and volume of ceased securities to assess whether this reflects a lack of confidence by option holders in the stock reaching exercise price, or simply routine expiry under a pre-existing vesting schedule."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AII",
+      "company": "ALMONTY INDUSTRIES INC.",
+      "headline": "Removal from Official List",
+      "time": "2026-09-01T03:21:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130152-6A1341619",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Almonty Industries (AII) has been removed from the ASX Official List, meaning the stock is no longer tradeable on the exchange — a significant and terminal event for ASX-listed investors who will lose on-market liquidity.",
+        "Almonty is a tungsten mining company primarily listed on the Toronto Stock Exchange (TSX); the ASX removal likely reflects a voluntary delisting rather than a compliance failure, but ASX-domiciled investors must now access liquidity through the TSX or OTC markets.",
+        "This is operationally bearish for the ASX investor base as it eliminates domestic price discovery and forces a jurisdiction change for trading, potentially triggering forced selling from ASX-mandated funds that cannot hold foreign-listed securities."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SKC",
+      "company": "SKYCITY ENTERTAINMENT GROUP LIMITED",
+      "headline": "Settlement of 99 Albert St and Victoria St Properties",
+      "time": "2026-09-01T03:18:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130151-2A1694197",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "SkyCity Entertainment (SKC) has announced the settlement of its 99 Albert Street and Victoria Street properties in Auckland, converting real estate assets to cash and completing a previously flagged non-core asset disposal.",
+        "The settlement crystallises proceeds from the property sales, strengthening SKC's balance sheet at a time when the company is navigating regulatory pressures and AML-related remediation costs — the cash injection materially improves near-term liquidity.",
+        "Management will now need to communicate the allocation of proceeds — debt reduction, reinvestment in core gaming operations, or shareholder returns — as capital deployment strategy will be the next key valuation catalyst for the stock."
+      ],
+      "tags": [
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HCL",
+      "company": "HIGHCOM LIMITED",
+      "headline": "Counter Drone Systems contract with NZ Defence Force",
+      "time": "2026-09-01T03:17:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130150-3A700706",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "HighCom Limited (HCL) has secured a contract with the New Zealand Defence Force for Counter Drone Systems, representing a tangible commercial win in the high-growth defence technology segment and validating its product capabilities with a sovereign military customer.",
+        "Defence contracts with allied nation armed forces carry significant strategic value beyond the immediate revenue — NZ Defence Force adoption serves as a reference site that can accelerate sales cycles with Australian Defence and Five Eyes-aligned militaries.",
+        "Investors should focus on the contract value and delivery timeline when disclosed; counter-drone technology is a priority procurement area globally post-Ukraine, positioning HCL well for follow-on orders and potential contract expansion."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PR2",
+      "company": "PICHE RESOURCES LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-09-01T03:16:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130149-6A1341618",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Piche Resources Limited (PR2), signalling that an investor has crossed the 5% ownership threshold — a notable shift in the register for a small-cap resources company.",
+        "The identity and size of the stake will be critical context; institutional or sophisticated investor accumulation at this level can indicate early-stage conviction ahead of potential catalysts such as drilling results or resource definition.",
+        "Investors should monitor subsequent filings to assess whether this represents a strategic cornerstone position or opportunistic accumulation, as either could influence near-term liquidity and price discovery."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RAC",
+      "company": "RACURA ONCOLOGY LTD",
+      "headline": "Notification regarding unquoted securities - RAC",
+      "time": "2026-09-01T03:15:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130148-2A1694196",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Racura Oncology (RAC) has filed a notification regarding unquoted securities, most likely relating to the issue of performance rights, options, or unlisted shares to directors or employees under an incentive plan — a standard but capital-structure-relevant disclosure.",
+        "For a clinical-stage oncology company, the issuance of unquoted securities to key personnel is a common retention mechanism; investors should assess whether the volume represents meaningful dilution relative to the current share count.",
+        "The 'not market sensitive' classification confirms no new capital raise or major transaction is involved; however, tracking the accumulation of unquoted securities over time is essential for modelling fully diluted share count and future earnings per share impact."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PR2",
+      "company": "PICHE RESOURCES LIMITED",
+      "headline": "Initial Director's Interest Notice - O'Donovan",
+      "time": "2026-09-01T03:14:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130147-6A1341617",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Initial Director's Interest Notice for O'Donovan at Piche Resources signals a new board appointment, providing a baseline snapshot of the director's opening equity position in PR2.",
+        "The filing is procedural and administrative in nature — no material change in share register concentration or insider buying activity is implied at this stage.",
+        "Investors should monitor subsequent change notices to assess whether this director accumulates stock on-market, which could signal confidence in early-stage resource development prospects."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAH",
+      "company": "MACMAHON HOLDINGS LIMITED",
+      "headline": "Macmahon Non-Executive Director Resignation",
+      "time": "2026-09-01T03:10:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130146-6A1341616",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "The resignation of a Non-Executive Director at Macmahon Holdings introduces a governance gap that the board will need to address promptly, particularly given MAH's complex contract mining operations across multiple jurisdictions.",
+        "NED departures can signal differing views on strategy, risk appetite, or M&A direction — institutional investors should seek clarity on the reason for departure and whether a replacement search is underway.",
+        "Near-term impact is limited unless this departure is part of a broader board restructure; however, sustained NED turnover at a contractor of MAH's scale could weigh on governance ratings with ESG-focused funds."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LDX",
+      "company": "LUMOS DIAGNOSTICS HOLDINGS LIMITED",
+      "headline": "Change of Director's Interest Notice - DW",
+      "time": "2026-09-01T03:04:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130145-2A1694195",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for DW at Lumos Diagnostics reflects a routine update to an existing director's equity holdings — the direction and quantum of any on-market transaction will determine materiality.",
+        "LDX operates in the point-of-care diagnostics space and remains in a commercialisation phase; director buying at current depressed price levels would carry a more constructive signal than a sale.",
+        "Until the specific transaction details are known (buy, sell, or vesting of performance rights), this filing carries no meaningful valuation implication for near-term share price direction."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "Change of Director's Interest Notice - C Lockhart",
+      "time": "2026-09-01T03:03:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130144-3A700705",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Karoon Energy's C Lockhart has updated their director interest notice — for an energy company with material Brazilian offshore oil production, insider transactions are closely watched as a proxy for management's view on commodity cycle positioning.",
+        "If the change reflects an on-market purchase, it would be incrementally constructive given KAR's exposure to Brent crude pricing and ongoing production ramp-up at the Baúna field.",
+        "The administrative nature of this filing means no immediate re-rating is warranted; investors should cross-reference with KAR's upcoming quarterly production report and hedging disclosures for a fuller picture."
+      ],
+      "tags": [
+        "Board Change",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPG",
+      "company": "SPC GLOBAL HOLDINGS LTD",
+      "headline": "Notification of cessation of securities - SPG",
+      "time": "2026-09-01T02:55:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130143-3A700704",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "SPC Global's cessation of securities notice indicates that a tranche of securities — likely options or performance rights — has lapsed, expired, or been cancelled, reducing the potential dilutive overhang on the register.",
+        "Cessation of unexercised options can be mildly positive for existing shareholders as it eliminates a future dilution pathway, though the materiality depends entirely on the volume and strike price of the securities ceased.",
+        "SPG remains a micro-cap with limited liquidity; while the structural dilution reduction is technically positive, the near-term price impact is expected to be negligible without accompanying operational catalysts."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TNE",
+      "company": "TECHNOLOGY ONE LIMITED",
+      "headline": "Notification regarding unquoted securities - TNE",
+      "time": "2026-09-01T02:46:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130142-2A1694194",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Technology One's notification of unquoted securities typically relates to the issuance of employee incentive securities (options or rights) under its long-term incentive plan, which is standard practice for retaining high-quality SaaS talent.",
+        "TNE has a strong track record of growing its recurring SaaS revenue base; LTI issuances signal ongoing investment in human capital aligned with shareholder value creation, though they introduce modest dilution.",
+        "This is a routine compliance filing and does not alter TNE's fundamentals — investors should focus on upcoming ARR (Annual Recurring Revenue) updates and UK market expansion progress as the key near-term catalysts."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Daily Net Tangible Asset Statement",
+      "time": "2026-09-01T02:44:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130141-2A1694193",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Perpetual Credit Income Trust's daily NTA statement provides a routine mark-to-market update on the fund's underlying credit portfolio, offering transparency on per-unit asset backing relative to the traded market price.",
+        "The key metric for PCI investors is the NTA premium or discount — a persistent discount to NTA can signal distribution sustainability concerns or market scepticism about credit quality in the underlying fixed income book.",
+        "This is a recurring administrative disclosure with no new information content beyond the daily valuation; focus should remain on the trust's distribution yield, credit spread movements, and any manager commentary on portfolio positioning."
+      ],
+      "tags": [
+        "Finance",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCG",
+      "company": "COMMS GROUP LTD",
+      "headline": "Completion of sale of OnPlatinum Group to efex",
+      "time": "2026-09-01T02:39:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130140-3A700703",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Comms Group has completed the divestment of its OnPlatinum Group business to efex, representing a definitive portfolio rationalisation that sharpens CCG's strategic focus on its core communications and connectivity offerings.",
+        "The completion of a non-core asset sale typically unlocks balance sheet flexibility — investors will be focused on the cash proceeds received, any earn-out provisions, and how management intends to redeploy capital (debt reduction, organic growth, or further M&A).",
+        "This transaction is a meaningful strategic inflection point for CCG; successful execution of the proceeds deployment strategy will be critical to validating the divestment thesis and re-rating the stock from a sum-of-the-parts perspective."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TAT",
+      "company": "TARTANA MINERALS LIMITED",
+      "headline": "Options T20 and Distribution Schedule",
+      "time": "2026-09-01T02:38:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130139-2A1694192",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Tartana Minerals' T20 options and distribution schedule filing relates to the administration of expiring options (likely with a 2020-series expiry), providing holders with the mechanism and timeline for exercise or lapse.",
+        "For a junior minerals explorer, the exercise of outstanding options would inject fresh capital into the company, potentially extending its exploration cash runway — the strike price relative to current market price determines exercise likelihood.",
+        "If options lapse unexercised, the dilution risk dissipates but so does the capital inflow; investors should assess TAT's current cash position and upcoming exploration milestones to gauge the significance of either outcome."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GCI",
+      "company": "GRYPHON CAPITAL INCOME TRUST",
+      "headline": "Update - Dividend/Distribution - GCI",
+      "time": "2026-09-01T02:34:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130138-2A1694191",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Gryphon Capital Income Trust has announced an updated distribution for GCI unitholders, reinforcing its mandate as a fixed income alternative for yield-seeking investors in the current rate environment.",
+        "The distribution rate relative to the prevailing RBA cash rate and comparable credit fund peers is the key metric — any compression in yield spread or reduction in distribution quantum would be a negative signal for income-focused holders.",
+        "GCI's consistent distribution profile supports price floor stability; investors should cross-reference the payout against the trust's NTA and underlying portfolio credit quality to assess long-term sustainability of the income stream."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GLL",
+      "company": "GALILEE ENERGY LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-01T02:33:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130137-2A1694190",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for Galilee Energy (GLL) indicates a material shift in a major shareholder's position — either an increase or decrease — which can meaningfully alter the stock's ownership dynamics and trading float.",
+        "Galilee Energy operates in the coal seam gas sector in Queensland; any reduction by a substantial holder could signal waning institutional confidence in project timelines or regulatory hurdles, while an increase would suggest the opposite.",
+        "Investors should scrutinise the direction and magnitude of the change, as a reduction in a tightly held small-cap energy stock can have an outsized negative impact on liquidity and sentiment."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WQG",
+      "company": "WCM GLOBAL GROWTH LIMITED",
+      "headline": "Weekly NTA 28 August 2026",
+      "time": "2026-09-01T02:33:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130136-3A700702",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Weekly NTA disclosure for WCM Global Growth (WQG) provides investors with a routine valuation benchmark — the key signal is whether the fund is trading at a premium or discount to NTA, which directly informs entry/exit decisions for LIC arbitrage strategies.",
+        "As a listed investment company holding global equities with a quality-growth bias, WQG's NTA movements reflect underlying portfolio performance against international benchmarks; persistent NTA growth would signal strong stock selection by WCM Investment Management.",
+        "No corporate action or strategic change is implied — investors should monitor the NTA trend over consecutive weekly disclosures and compare against the share price to assess whether the discount/premium is widening or compressing, a key catalyst for activist or opportunistic buying."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAT",
+      "company": "KATANA CAPITAL LIMITED",
+      "headline": "Notification of cessation of securities - KAT",
+      "time": "2026-09-01T02:31:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130135-6A1341615",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities in Katana Capital (KAT) typically signals the lapsing, cancellation, or expiry of options, rights, or performance shares — reducing the potential dilutive overhang on the register, which is marginally positive for existing shareholders.",
+        "The nature and quantum of ceased securities is critical context: if a material tranche of in-the-money options has lapsed unexercised, it may also indicate insiders or employees see limited near-term upside, which warrants scrutiny of the company's recent performance and outlook.",
+        "Investors should cross-reference the cessation notice with KAT's securities register and any prior capital raise terms to determine whether this is routine expiry administration or a more meaningful signal regarding management confidence or capital structure evolution."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "TAT",
       "company": "TARTANA MINERALS LIMITED",
