@@ -1,9 +1,397 @@
 {
   "date": "2026-09-01",
-  "total": 356,
-  "market_sensitive_count": 90,
-  "generated_at": "2026-09-01T01:39:51.291569+00:00",
+  "total": 376,
+  "market_sensitive_count": 92,
+  "generated_at": "2026-09-01T02:33:43.834870+00:00",
   "announcements": [
+    {
+      "ticker": "TAT",
+      "company": "TARTANA MINERALS LIMITED",
+      "headline": "Application for quotation of securities - TAT",
+      "time": "2026-09-01T02:27:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130134-2A1694189",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "TAT's application for quotation of new securities is a routine administrative step following a capital raise or option exercise, confirming new shares are being brought to market and increasing the tradeable float.",
+        "While procedural, this filing confirms that previously announced securities are now entering the market, which can create short-term supply-side pressure particularly in illiquid micro-cap names like TAT.",
+        "Investors should cross-reference the number of securities being quoted against the total issued capital to assess the dilution quantum and whether the new securities were issued at a discount to the prevailing market price."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BXB",
+      "company": "BRAMBLES LIMITED",
+      "headline": "Notification regarding unquoted securities - BXB",
+      "time": "2026-09-01T02:22:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130133-2A1694188",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Brambles' (BXB) notification regarding unquoted securities is a standard administrative disclosure, typically relating to employee incentive plan (LTI/STI) securities that have been granted but not yet listed on the ASX.",
+        "For a large-cap industrial like BXB, this type of disclosure carries minimal market-moving impact but does provide transparency into executive remuneration structures and the potential future dilution from equity-based compensation.",
+        "Institutional investors tracking BXB's capital management should note the volume and vesting conditions of any unquoted securities, as these represent a future overhang if performance hurdles are met and shares are subsequently quoted."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GSS",
+      "company": "GENETIC SIGNATURES LIMITED",
+      "headline": "Final Director's Interest Notice",
+      "time": "2026-09-01T02:12:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130132-2A1694187",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Final Director's Interest Notice for GSS (Genetic Signatures) typically accompanies a director's departure from the board, confirming their final security holdings at the time of cessation — a routine but noteworthy governance disclosure.",
+        "The departure of a director from a small-cap healthcare/diagnostics company can signal strategic shifts, boardroom disagreements, or planned corporate restructuring, warranting further investigation into the circumstances of the exit.",
+        "Investors should assess whether the departing director held a technical or commercially critical role within GSS, and whether any share sales accompanied the exit, which could indicate a loss of insider confidence in near-term prospects."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TD1",
+      "company": "TALI DIGITAL LIMITED",
+      "headline": "Security Purchase Plan Prospectus",
+      "time": "2026-09-01T02:04:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130130-3A700699",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TD1 is launching a Security Purchase Plan (SPP), signalling the company is actively seeking to raise additional capital — likely to fund operations or product development, raising immediate dilution concerns for existing shareholders.",
+        "As a micro-cap digital health/technology company, TD1's cash runway will be a critical metric to watch; SPPs at this scale typically indicate limited access to institutional funding, suggesting the balance sheet may be under pressure.",
+        "Investors should scrutinise the SPP price relative to prevailing market price and the maximum raise cap — if priced at a discount, near-term selling pressure is likely as arbitrageurs participate and existing holders reassess their positions."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NAG",
+      "company": "NAGAMBIE RESOURCES LIMITED",
+      "headline": "Update on Alkane diamond drilling at the Nagambie Mine",
+      "time": "2026-09-01T02:04:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130131-3A700700",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "NAG's update on Alkane diamond drilling at the Nagambie Mine provides operational progress data on a drill program — the key metric for investors will be whether assay results confirm or expand on the existing mineralisation model at depth.",
+        "Diamond drilling is a higher-cost, high-precision method typically used to gather structural and geotechnical data, suggesting NAG is advancing towards resource definition or feasibility-level confidence rather than early-stage exploration.",
+        "Although marked as non-market sensitive, positive drill intersections at Nagambie could serve as a near-term re-rating catalyst for NAG; investors should watch for follow-up assay result announcements which will carry far greater price-moving potential."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRH",
+      "company": "SAFEROADS HOLDINGS LIMITED",
+      "headline": "Change of Director's Interest Notice- SD",
+      "time": "2026-09-01T02:04:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130129-3A700701",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for SRH (Saferoads Holdings) discloses a movement in a director's security holdings, which could reflect on-market purchases, sales, or participation in a company plan — context is critical to interpretation.",
+        "For a micro-cap infrastructure/road safety company like SRH, director buying activity (if that is the nature of the change) is typically viewed as a positive insider confidence signal, whereas selling may indicate profit-taking or personal liquidity needs.",
+        "Given the non-market sensitive classification, this is likely a routine disclosure; however, persistent directional changes across multiple directors over time can collectively signal shifts in insider sentiment worth monitoring."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MHC",
+      "company": "MANHATTAN GOLD CORPORATION LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-01T02:02:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130128-6A1341614",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for MHC signals a shift in the ownership structure of a key strategic stakeholder, which can foreshadow future corporate activity including potential takeover bids or block sales.",
+        "The direction of the change (increase vs. decrease) is pivotal — a reduction by a substantial holder can suppress near-term price sentiment, while an increase may indicate accumulation ahead of a catalyst.",
+        "Institutional investors should monitor the identity of the holder and the pace of movement; persistent accumulation or disposal by a sophisticated party often precedes material corporate events in small-cap gold names."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SHJ",
+      "company": "SHINE JUSTICE LTD",
+      "headline": "Appendix 3Y (Corrected) - David Bayes - FY26 NED Rights",
+      "time": "2026-09-01T02:02:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130127-2A1694186",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Shine Justice's corrected Appendix 3Y for Non-Executive Director David Bayes relates to FY26 NED rights — the correction suggests an administrative error in the original filing, which is not uncommon but reflects on the quality of governance reporting.",
+        "NED rights grants are a standard component of director remuneration frameworks and the FY26 issuance confirms ongoing board retention incentives are in place; the quantum of rights granted relative to total issued capital will indicate the dilution impact.",
+        "The 'corrected' nature of this filing warrants a brief review to identify what was amended — material corrections to director interest notices (e.g. incorrect security type, quantity, or vesting date) can occasionally carry broader governance implications for small-cap legal services firms."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAR",
+      "company": "ASTRAL RESOURCES NL",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-01T01:57:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130126-6A1341613",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Astral Resources has lodged a cleansing notice, a mandatory compliance step following a recent capital raise conducted without a prospectus — confirming securities are now freely tradeable on-market.",
+        "The cleansing notice signals the completion of a placement or rights issue process, removing the 'sale restriction' overhang that applied to newly issued shares and improving secondary market liquidity.",
+        "Investors should monitor the associated quotation application (AAR [3]) and the size of the recent raise to assess potential dilution impact on the existing register."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TDO",
+      "company": "3D ENERGI LIMITED",
+      "headline": "VIC/P79 Fair Market Value Determination by Indep. Expert",
+      "time": "2026-09-01T01:56:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130125-3A700693",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "An independent expert's fair market value (FMV) determination for exploration permit VIC/P79 is a market-sensitive event, as it formally prices a key asset on TDO's books and could trigger write-downs, farm-out negotiations, or asset disposals.",
+        "If the FMV comes in below carrying value, TDO faces an impairment risk that directly impacts net asset value and may erode investor confidence in the company's broader asset portfolio within the Cooper/Otway Basin.",
+        "Conversely, a valuation at or above expectations could strengthen TDO's negotiating position in any farm-in or joint venture discussions, providing a potential re-rating catalyst for this thinly traded energy explorer."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TD1",
+      "company": "TALI DIGITAL LIMITED",
+      "headline": "Update - Proposed issue of securities - TD1",
+      "time": "2026-09-01T01:56:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130124-3A700698",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Tali Digital has filed an update to a proposed securities issuance, suggesting refinement of terms — potentially adjusting price, volume, or eligible participants from an earlier announcement.",
+        "As a small-cap digital health/technology company, any change to capital raise terms warrants scrutiny; amendments can reflect either improved investor demand (bullish) or difficulty in placing securities at original terms (bearish).",
+        "Investors should compare the updated terms against the original notice to determine whether the revision is favourable or signals softening institutional appetite for TD1 equity."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAR",
+      "company": "ASTRAL RESOURCES NL",
+      "headline": "Application for quotation of securities - AAR",
+      "time": "2026-09-01T01:54:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130123-6A1341612",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Astral Resources (AAR) has applied to ASX for quotation of newly issued securities, the final administrative step confirming fresh shares from a recent capital raise are ready to trade.",
+        "This announcement quantifies the actual number of new shares being admitted, directly informing the market of the dilution quantum — a key metric for assessing per-share valuation impact on existing holders.",
+        "Combined with the cleansing notice ([1]), this marks the conclusion of AAR's capital raise cycle; near-term price action will likely reflect whether the raise price sits at a premium or discount to the prevailing market price."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NCK",
+      "company": "NICK SCALI LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-09-01T01:53:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130122-2A1694185",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder emerging in NCK (Nick Scali) indicates a sophisticated institutional or strategic investor has crossed the 5% threshold, which often reflects conviction in the stock's medium-term outlook.",
+        "NCK is a quality ASX-listed furniture retailer with a track record of strong margins and dividends; new substantial holder interest at current levels may signal the stock is viewed as attractively valued relative to peers or the broader consumer discretionary sector.",
+        "Investors should identify the new holder — if it is a well-regarded fund manager or activist investor, this could serve as a positive signal for the stock's near-term re-rating, though it warrants monitoring for any stated intentions."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CMB",
+      "company": "CAMBIUM BIO LIMITED",
+      "headline": "Proposed issue of securities - CMB",
+      "time": "2026-09-01T01:48:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130121-2A1694184",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cambium Bio Limited (CMB) has lodged a proposed securities issuance notice, flagging an upcoming capital raise — the formal 3-business-day pre-issuance notification required under ASX Listing Rules.",
+        "The announcement precedes actual issuance, so dilution is not yet crystallised; however, it signals CMB is actively seeking to raise capital, which may indicate a near-term funding need or project acceleration.",
+        "Key watch items: the size, price, and structure of the placement — a deep discount to market or large volume relative to existing shares on issue would be a dilution red flag for current holders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SER",
+      "company": "STRATEGIC ENERGY RESOURCES LIMITED",
+      "headline": "Application for quotation of securities - SER",
+      "time": "2026-09-01T01:45:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130119-3A700697",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Strategic Energy Resources (SER) has applied for ASX quotation of new securities, indicating completion of a recent capital raise and imminent admission of new shares to trading.",
+        "For a small-cap energy company, the timing and scale of this raise is critical context — funds raised will likely be directed to exploration or project development activity, which investors should track for capital allocation discipline.",
+        "The application confirms the final step before dilution is realised on-market; any sell-down pressure from placement participants buying at a discount is a short-term technical risk to watch."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OB1",
+      "company": "ORBMINCO LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-01T01:45:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130120-2A1694183",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "OrbMinco (OB1) has filed a Change of Director's Interest Notice, disclosing a movement in a director's beneficial holding — either an acquisition, disposal, or change via corporate action.",
+        "Director interest movements in micro-cap mining stocks carry outsized signalling value; on-market purchases by insiders are typically interpreted as a vote of confidence in near-term catalysts, while disposals may signal reduced conviction.",
+        "Investors should review the specific transaction type, volume, and price paid versus current market price to determine the directional signal — the disclosure itself is procedural but the underlying trade intent is meaningful."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APZ",
+      "company": "ASPEN GROUP",
+      "headline": "Change of Director's Interest Notice - D Dixon",
+      "time": "2026-09-01T01:43:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130118-2A1694182",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Aspen Group (APZ) has disclosed a change in Director D. Dixon's shareholding interest, a routine but regulated transparency requirement under ASX Listing Rule 3.19A.",
+        "For a property-focused REIT-style entity like Aspen Group, director buying activity can signal insider confidence in asset valuations or upcoming distribution yields — particularly relevant in the current rate environment.",
+        "The materiality of this notice depends on whether Dixon acquired or disposed of shares and the dollar value involved; large on-market acquisitions by a director would carry a modestly bullish read-through."
+      ],
+      "tags": [
+        "Board Change",
+        "Property",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HZN",
+      "company": "HORIZON OIL LIMITED",
+      "headline": "Application for quotation of securities - HZN",
+      "time": "2026-09-01T01:43:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130117-2A1694181",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Horizon Oil (HZN) has applied to ASX for quotation of newly issued securities, confirming the administrative completion of a recent capital raise and the pending admission of new shares to trading.",
+        "For an oil and gas producer, the deployment of raised capital is a critical catalyst — investors should assess whether funds are earmarked for production enhancement, debt reduction, or exploration to gauge value-creation potential.",
+        "Near-term price dynamics will be influenced by the placement price relative to market; Horizon Oil's existing production profile means dilution impact must be weighed against any operational upside the capital is intended to fund."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APZ",
+      "company": "ASPEN GROUP",
+      "headline": "Change of Director's Interest Notice - JC",
+      "time": "2026-09-01T01:42:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130116-2A1694180",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Aspen Group (APZ) has filed a second director interest change notice — this one for director 'JC' — indicating a separate transaction from the D. Dixon notice filed concurrently.",
+        "Two director interest changes filed simultaneously could reflect a broader equity incentive plan vesting event, a rights issue participation, or independent on-market activity — the distinction materially affects interpretation.",
+        "Investors should cross-reference both notices to identify whether multiple insiders are aligned in their transaction direction (both buying or both selling), as coordinated insider activity amplifies the sentiment signal."
+      ],
+      "tags": [
+        "Board Change",
+        "Property",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CKF",
+      "company": "COLLINS FOODS LIMITED",
+      "headline": "2026 AGM Voting Results",
+      "time": "2026-09-01T01:41:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130115-2A1694179",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Collins Foods (CKF) has released its 2026 AGM voting results — the passage or failure of key resolutions (remuneration report, director elections, equity incentive plans) will set the governance tone for the year ahead.",
+        "A 'strike' on the remuneration report (≥25% against votes) would be a notable governance red flag for this KFC/Taco Bell franchise operator, potentially signalling investor dissatisfaction with executive pay relative to recent earnings performance.",
+        "With CKF navigating ongoing cost pressures in the QSR sector (labour, food costs), AGM outcomes that confirm board stability and management mandate are important for sustaining the strategic execution narrative with institutional shareholders."
+      ],
+      "tags": [
+        "AGM",
+        "Retail",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "RDX",
       "company": "REDOX LIMITED",
