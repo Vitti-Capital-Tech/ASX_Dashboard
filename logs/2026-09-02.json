@@ -1,9 +1,220 @@
 {
   "date": "2026-09-02",
-  "total": 254,
-  "market_sensitive_count": 73,
-  "generated_at": "2026-09-01T23:52:14.270192+00:00",
+  "total": 265,
+  "market_sensitive_count": 76,
+  "generated_at": "2026-09-01T23:59:03.791870+00:00",
   "announcements": [
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst BKI Instalment MINI Dividend",
+      "time": "2026-09-01T23:56:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130619-2A1694447",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CTW's CitiFirst BKI Instalment MINI Dividend announcement is a routine structured product event, distributing dividend income to holders of the BKI Investment Company instalment MINI warrant — no operational or corporate change is implied for the underlying entity.",
+        "The non-market-sensitive classification confirms this is a scheduled, formulaic cash distribution tied to BKI's dividend pass-through mechanics, with no surprise element to pricing or strategy.",
+        "Impact is limited to instalment MINI holders adjusting their cost base and cash positions accordingly; no broader read-through to ASX market sentiment is warranted."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PNN",
+      "company": "POWER MINERALS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-09-01T23:55:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130618-2A1694446",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Power Minerals (PNN) has entered a trading pause, suspending price discovery and liquidity for existing shareholders — typically a precursor to a material announcement such as a capital raise, asset transaction, or regulatory event.",
+        "The market-sensitive classification signals that the pending disclosure is expected to have a meaningful impact on PNN's valuation, elevating event risk for short-term traders and obligating close monitoring.",
+        "Investors should await the resumption announcement or accompanying disclosure to assess whether the catalyst is dilutive (e.g. placement) or value-accretive (e.g. exploration result or corporate transaction) before repositioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PDN",
+      "company": "PALADIN ENERGY LTD",
+      "headline": "PLS Exploration Delivers New High-Grade Results",
+      "time": "2026-09-01T23:55:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130617-6A1341808",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Paladin Energy (PDN) has released exploration results under a 'PLS' designation — likely referencing its Paladin Langer Heinrich or a joint-venture exploration programme — with 'high-grade' results signalling potentially economic uranium mineralisation that could underpin future resource growth.",
+        "High-grade drill results in the uranium sector are a key value catalyst, as grade is the primary determinant of project economics; however, the non-market-sensitive classification suggests these results, while positive, fall within or below the threshold of ASX continuous disclosure materiality for PDN at its current scale.",
+        "Next steps will likely include follow-up drilling to test strike and depth extensions, with any resource estimate upgrade representing the more significant re-rating event; investors should track the spacing and orientation of high-grade intercepts relative to existing JORC resources."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CVB",
+      "company": "CURVEBEAM AI LIMITED",
+      "headline": "Application for quotation of securities - CVB",
+      "time": "2026-09-01T23:54:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130616-3A700810",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CurveBeam AI (CVB) has applied for quotation of additional securities on the ASX, indicating new shares have been issued — most likely resulting from a previously announced placement, options exercise, or employee/performance share plan vesting.",
+        "The non-market-sensitive flag suggests this is an administrative follow-through to an already-disclosed capital event rather than a new dilutive surprise, limiting immediate negative price impact.",
+        "Investors should cross-reference the number of new securities being quoted against CVB's existing share count to quantify dilution; for a small-cap MedTech, even modest issuances can affect near-term liquidity dynamics and weighted average share price metrics."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FFM",
+      "company": "FIREFLY METALS LTD",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-01T23:54:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130615-6A1341806",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Firefly Metals (FFM) has lodged a Cleansing Notice under ASX Listing Rule 3.10.3 or Section 708A of the Corporations Act, which is a mandatory compliance step following a share placement to sophisticated or institutional investors, 'cleansing' those shares for on-sale without a prospectus.",
+        "The filing confirms a capital raise has been completed — funds raised will likely be deployed toward exploration or development at FFM's Green Bay copper-gold project in Canada, potentially accelerating drilling or feasibility work.",
+        "While the cleansing notice itself is procedural, it confirms dilution has occurred; the key investor focus should be on the price and quantum of the placement relative to the pre-raise market cap to assess whether terms were accretive or discounted to prevailing market."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CXO",
+      "company": "CORE LITHIUM LTD",
+      "headline": "Axiant Resources Lists on the ASX",
+      "time": "2026-09-01T23:53:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130614-6A1341752",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Core Lithium (CXO) has announced that Axiant Resources has listed on the ASX — this is consistent with a demerger or in-specie distribution of exploration assets that CXO spun out to shareholders, a strategic move to unlock value from non-core tenements while CXO focuses on its primary lithium operations.",
+        "For CXO shareholders, the listing of Axiant represents the crystallisation of exploration optionality in a separately traded vehicle; the value of the in-specie distribution depends on Axiant's opening market capitalisation relative to carrying value attributed by CXO.",
+        "This corporate action may be a modest positive for CXO by simplifying its asset portfolio and potentially improving its focus narrative for institutional investors, though near-term share price impact is likely muted given the announcement's non-market-sensitive classification."
+      ],
+      "tags": [
+        "Other",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "C7A",
+      "company": "CLARA RESOURCES AUSTRALIA LTD",
+      "headline": "Trading Halt",
+      "time": "2026-09-01T23:52:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130612-2A1694444",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Clara Resources Australia (C7A) has requested a formal trading halt, completely halting the ability to buy or sell shares — a stronger intervention than a pause and typically associated with an imminent material announcement requiring regulatory clearance.",
+        "The market-sensitive flag indicates the underlying catalyst carries significant valuation implications, which could range from a merger or acquisition approach to a significant resource update or capital restructure.",
+        "Until the halt is lifted and the accompanying announcement released, shareholders face full suspension of price discovery; risk-sensitive investors should note elevated binary event risk upon reinstatement of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AXR",
+      "company": "AXIANT RESOURCES LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-09-01T23:52:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130613-6A1341721",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Axiant Resources (AXR) has released an investor presentation coinciding with its ASX listing, providing the first detailed public overview of its asset base, strategy, and management team to the investment community — a critical document for price discovery on day one of trading.",
+        "Key metrics to extract from the presentation include: the JORC resource or exploration target size, tenement locations and geological prospectivity, use of IPO/listing proceeds, and the implied market capitalisation at listing price relative to comparable exploration peers.",
+        "As a newly listed explorer, Axiant's near-term re-rating will hinge on early exploration newsflow and the quality of its founding shareholder base (notably CXO's in-specie distribution holders), who may be natural sellers, creating potential short-term overhang."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AXR",
+      "company": "AXIANT RESOURCES LIMITED",
+      "headline": "ASX Listing and Shoobridge Geophysics to Commence",
+      "time": "2026-09-01T23:52:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130611-6A1341720",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Axiant Resources (AXR) confirms its ASX listing is live and announces the commencement of the Shoobridge geophysics programme — an airborne or ground geophysical survey designed to define drill targets across its tenement package, representing the first active exploration milestone post-listing.",
+        "The immediate mobilisation of a geophysics programme signals a well-prepared management team with a clear work programme, which is a positive indicator for newly listed explorers that often face delays between listing and substantive field activity.",
+        "Drill-ready targets generated from the Shoobridge survey will be the next key value inflection point; investors should monitor survey completion timelines and any preliminary anomaly announcements as leading indicators of upcoming drilling catalysts."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WEC",
+      "company": "WHITE ENERGY COMPANY LIMITED",
+      "headline": "Cleansing Notice under Section 708A(5)(e) of the Corps Act",
+      "time": "2026-09-01T23:50:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130610-2A1694442",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WEC has lodged a Section 708A(5)(e) cleansing notice, a mandatory procedural step to ensure shares issued under a recent placement or entitlement offer can be freely traded on-market without a disclosure document — indicating a capital raise has recently been completed.",
+        "The filing itself carries no new financial detail, but its existence confirms WEC has utilised its placement capacity, meaning dilution has already occurred; investors should cross-reference the quantum and price of shares issued in the associated capital raise announcement to assess earnings-per-share impact.",
+        "Next steps for investors: monitor whether the newly issued shares unlock selling pressure from placement participants, and watch for any accompanying use-of-funds update or project milestone disclosure that justified the capital raise in the first place."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-09-01T23:49:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130609-2A1694443",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Eureka Group Holdings (EGH), an ASX-listed affordable seniors accommodation REIT, has entered a trading pause, halting market activity — the market-sensitive designation suggests a corporate or financial development of material consequence is imminent.",
+        "Given EGH's business model in the residential property/seniors living sector, potential catalysts include an asset acquisition or disposal, a funding agreement, or a strategic partnership, all of which could meaningfully alter the company's net asset value trajectory.",
+        "Investors should await the substantive announcement accompanying the halt resumption; the property/aged-care nexus means any capital allocation decision could have longer-dated earnings implications worth scrutinising carefully."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "FFM",
       "company": "FIREFLY METALS LTD",
