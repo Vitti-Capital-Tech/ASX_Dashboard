@@ -1,9 +1,294 @@
 {
   "date": "2026-09-02",
-  "total": 239,
-  "market_sensitive_count": 68,
-  "generated_at": "2026-09-01T23:45:37.709278+00:00",
+  "total": 254,
+  "market_sensitive_count": 73,
+  "generated_at": "2026-09-01T23:52:14.270192+00:00",
   "announcements": [
+    {
+      "ticker": "FFM",
+      "company": "FIREFLY METALS LTD",
+      "headline": "Application for quotation of securities - FFM",
+      "time": "2026-09-01T23:49:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130608-6A1341805",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Firefly Metals has lodged an application for quotation of new securities on the ASX, indicating the completion of a prior capital raise, option exercise, or share issuance event that will increase the total shares on issue.",
+        "While procedurally routine, the quotation of additional securities introduces incremental dilution for existing shareholders — the materiality depends on the size of the new tranche relative to total capital, which should be cross-referenced against recent capital raise announcements.",
+        "Not flagged as market sensitive, suggesting this is an administrative step following a previously disclosed corporate action; no immediate re-rating is expected, but settlement of new shares may create short-term supply-side pressure."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EAR",
+      "company": "PIMCO SHORT TERM ACTIVE YIELD ACTIVE ETF",
+      "headline": "PIMCO ETF August Final Distribution",
+      "time": "2026-09-01T23:48:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130607-2A1694440",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PIMCO's EAR ETF has declared its August final distribution, providing income-focused investors with a confirmed yield event — critical for those benchmarking short-duration fixed income allocations against cash rate alternatives.",
+        "As a short-term active yield ETF, distribution quantum will be closely watched relative to the RBA cash rate (4.35%) and competing money market instruments; any compression in yield could signal portfolio repositioning by PIMCO's managers.",
+        "Market sensitivity flag elevates importance — unitholders should confirm the ex-distribution and payment dates promptly, as near-term trading volumes may spike from income-driven buying or post-distribution selling pressure."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WEC",
+      "company": "WHITE ENERGY COMPANY LIMITED",
+      "headline": "Application for quotation of securities - WEC",
+      "time": "2026-09-01T23:48:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130606-2A1694441",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "White Energy Company has applied for quotation of new securities, a procedural step that follows a previously disclosed issuance event such as a placement, rights issue, or conversion of convertible instruments.",
+        "The administrative nature of this filing (not market sensitive) means the core corporate action has already been disclosed and priced; however, the actual listing of new shares may cause modest near-term selling as new holders establish positions.",
+        "Investors should cross-reference the volume of new securities against WEC's existing capital structure to assess dilution magnitude — for an energy company operating in a capital-intensive sector, understanding the use of proceeds from any associated raise remains the key investment consideration."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCG",
+      "company": "COMMS GROUP LTD",
+      "headline": "Application for quotation of securities - CCG",
+      "time": "2026-09-01T23:47:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130605-3A700809",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Comms Group Ltd has filed a standard application for quotation of securities, consistent with the completion of a previously announced capital raise, employee share scheme issuance, or other approved securities issuance.",
+        "The non-market-sensitive classification confirms this is a back-office administrative process; the commercial impact was embedded in the original disclosure of the issuance, limiting any new information content for investors.",
+        "For a technology/communications company like CCG, the context of securities issuance matters — if tied to an acquisition or talent retention scheme, the strategic rationale may offer indirect insight into management's growth priorities."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GOO",
+      "company": "JANUS HENDERSON SUSTAINABLE CREDIT ACTIVE ETF",
+      "headline": "GOOD - August 2026 Distribution Final",
+      "time": "2026-09-01T23:47:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130604-2A1694439",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Janus Henderson GOOD ETF has declared its August 2026 final distribution, confirming a yield payment to unitholders of this sustainable credit-focused active ETF — a routine but income-relevant event for ESG-aligned fixed income investors.",
+        "Distribution levels for sustainable credit ETFs are particularly scrutinised against equivalent non-ESG benchmarks; any yield discount versus standard credit ETFs may prompt allocation reviews, while a competitive yield reinforces the product's viability.",
+        "Not flagged as market sensitive, suggesting the distribution amount is broadly in line with prior periods and investor expectations — no material portfolio repositioning is anticipated, though ex-distribution date trading patterns should be monitored."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CXU",
+      "company": "CAULDRON ENERGY LIMITED",
+      "headline": "Drilling extends Mineralisation 2.5kms at Manyingee South",
+      "time": "2026-09-01T23:47:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130603-6A1341803",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling at Manyingee South has extended uranium mineralisation by a significant 2.5km strike length, materially expanding the resource footprint and signalling robust geological continuity across the project area.",
+        "A 2.5km extension is a technically meaningful outcome for an in-situ recovery (ISR) uranium project — wider strike directly correlates with potential resource tonnage uplift and strengthens the case for a maiden or upgraded JORC resource estimate.",
+        "With uranium spot prices remaining elevated well above long-run incentive prices, this exploration success positions CXU for potential resource definition drilling, a likely near-term catalyst that could attract institutional attention to this small-cap explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FHS",
+      "company": "FREEHILL MINING LIMITED.",
+      "headline": "Aggregates operations continue to deliver steady revenue",
+      "time": "2026-09-01T23:46:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130602-3A700808",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Freehill Mining's aggregates division is delivering steady revenue, providing operational cash flow support while the company's primary mining assets remain in development or pre-production phases — a rare positive for a junior miner.",
+        "The 'steady' revenue descriptor suggests a predictable, recurring income stream, but investors will need to assess the margin profile and absolute revenue quantum to determine whether this offsets ongoing corporate and exploration expenditure.",
+        "This announcement reinforces FHS's diversified revenue strategy; however, the key 'so what?' for investors is whether aggregates cash flow is sufficient to extend the company's runway and reduce near-term equity dilution risk through capital raises."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TAR",
+      "company": "TARUGA MINERALS LIMITED",
+      "headline": "Taruga Extends High-Grade Gold-Silver Mineralisation Weioko",
+      "time": "2026-09-01T23:45:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130601-6A1341802",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Taruga Minerals has extended high-grade gold-silver mineralisation at the Weioko prospect, a technically significant result that validates the project's multi-metal potential and justifies accelerated exploration spend.",
+        "The combination of gold and silver in a high-grade context is particularly compelling in the current precious metals environment, with gold near all-time highs — any quantified intercepts (grade x width) in the full release will be the critical valuation driver.",
+        "Continued mineralisation extensions at Weioko de-risk the project's resource conversion timeline and could attract M&A interest or JV proposals from mid-tier producers seeking near-term development assets in the current bull market for gold."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SNX",
+      "company": "SIERRA NEVADA GOLD INC.",
+      "headline": "Application for quotation of securities - SNX",
+      "time": "2026-09-01T23:45:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130600-3A700807",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Sierra Nevada Gold has applied for quotation of new securities on the ASX, a standard administrative step following a prior capital raise or share issuance — the non-market-sensitive flag confirms this represents no new material information.",
+        "For a gold exploration company operating in the current elevated gold price environment, the source and purpose of any associated capital raise is critical context — proceeds directed toward drilling or resource definition would be constructive, while issuance for working capital may signal financial strain.",
+        "As a likely small-cap gold explorer, the listing of new shares could introduce short-term price volatility as new investors from any associated placement establish market positions; existing shareholders should monitor any associated free-trading restrictions or escrow release dates."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BTI",
+      "company": "BAILADOR TECHNOLOGY INVESTMENTS LIMITED",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-09-01T23:44:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130599-2A1694438",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "BTI is convening its Annual General Meeting, a routine governance milestone for this listed venture capital vehicle focused on late-stage technology investments — no extraordinary resolutions or structural changes are indicated by the filing.",
+        "As a procedurally-driven notice, there are no financial disclosures, NAV updates, or portfolio revaluations embedded in this announcement; investors seeking performance signals should await the AGM materials and FY results separately.",
+        "Key watch items at the AGM will include director re-elections, remuneration report vote, and any commentary from management on portfolio company valuations given ongoing pressure on unlisted tech multiples in the current rate environment."
+      ],
+      "tags": [
+        "AGM",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAT",
+      "company": "MATSA RESOURCES LIMITED",
+      "headline": "Continuation of Suspension from Quotation",
+      "time": "2026-09-01T23:43:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130598-6A1341801",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Matsa Resources remains suspended from ASX quotation, with the continuation of suspension indicating unresolved compliance or corporate governance issues that prevent normal trading — a significant red flag for existing shareholders.",
+        "Prolonged suspension creates acute liquidity risk for retail and institutional holders alike, as price discovery is impossible and exit options are effectively eliminated until the suspension is lifted by the ASX.",
+        "The absence of a clear reinstatement timeline or resolution announcement suggests the underlying issue (potentially financial reporting delays, regulatory queries, or restructuring) remains materially unresolved — investors should treat this as high-risk until further clarity is provided."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GYG",
+      "company": "GUZMAN Y GOMEZ LIMITED",
+      "headline": "Application for quotation of securities - GYG",
+      "time": "2026-09-01T23:43:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130597-2A1694437",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "GYG has lodged an application for quotation of additional securities on the ASX, indicating new shares are being brought to market — likely linked to employee equity plans, options vesting, or a prior capital raise tranche rather than a fresh dilutive placement.",
+        "While the volume and nature of the securities being quoted are not detailed in the headline, routine employee share scheme issuances are broadly non-dilutive in impact and signal ongoing staff incentive program execution as GYG continues its aggressive domestic and international store rollout.",
+        "Investors should confirm the specific security class and quantum in the associated Appendix 2A filing; if tied to executive or staff equity, it reinforces GYG's focus on talent retention — a critical input for its high-growth quick-service restaurant expansion strategy."
+      ],
+      "tags": [
+        "Other",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SNX",
+      "company": "SIERRA NEVADA GOLD INC.",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-01T23:43:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130596-3A700806",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "SNX has issued a Cleansing Notice under s708A of the Corporations Act, a procedural requirement to allow securities issued without a prospectus (typically via placement) to be freely traded on-market — confirming a recent capital raise has been completed.",
+        "The filing implies SNX has already executed a private placement or similar transaction; the cleansing notice removes trading restrictions on those newly issued shares, meaning selling pressure from placement participants could emerge in the near term.",
+        "For a small-cap gold explorer, the timing and size of the underlying raise will be critical context — investors should cross-reference the preceding placement announcement to assess dilution magnitude and the intended use of proceeds for Nevada-focused exploration activity."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "FRB",
+      "company": "FIREBIRD METALS LIMITED",
+      "headline": "First Shipment Ahead of Schedule as ADP Advances",
+      "time": "2026-09-01T23:42:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130595-6A1341799",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "FRB has achieved its first product shipment ahead of schedule, a meaningful operational milestone that demonstrates the Auld Duel Phosphate (ADP) project is transitioning from development to revenue-generating status earlier than guided — a positive catalyst for re-rating.",
+        "Early shipment execution reduces near-term cash burn risk and validates the logistics and offtake framework underpinning ADP; for a junior miner, de-risking the first shipment is disproportionately important to institutional confidence and future funding capacity.",
+        "The next key milestones to monitor include shipment frequency ramp-up, confirmation of realised pricing versus feasibility assumptions, and any updates to production guidance — sustained operational delivery will be essential to converting this early momentum into a durable share price re-rating."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RIV",
+      "company": "RIVCO AUSTRALIA LTD",
+      "headline": "Update - Notification of buy-back - RIV",
+      "time": "2026-09-01T23:42:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130594-2A1694436",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "RIV has issued an update to its on-market buy-back notification, signalling the company continues to deploy capital to repurchase its own shares — generally interpreted as management expressing confidence that the stock is undervalued relative to intrinsic worth.",
+        "For a small-cap like RIV, a buy-back reduces the free float, which can support the share price technically, though the absolute dollar impact depends heavily on the scale of the program relative to average daily trading volumes.",
+        "Investors should assess the buy-back's pace and remaining capacity disclosed in the update, as well as RIV's balance sheet strength to sustain repurchases without compromising operational liquidity or growth investment — the sustainability of the program is the key risk variable."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "EMU",
       "company": "EMU NL",
