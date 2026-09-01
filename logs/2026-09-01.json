@@ -1,9 +1,829 @@
 {
   "date": "2026-09-01",
-  "total": 306,
-  "market_sensitive_count": 85,
-  "generated_at": "2026-08-31T23:59:56.989342+00:00",
+  "total": 349,
+  "market_sensitive_count": 89,
+  "generated_at": "2026-09-01T01:07:57.610098+00:00",
   "announcements": [
+    {
+      "ticker": "SRL",
+      "company": "SUNRISE ENERGY METALS LIMITED",
+      "headline": "Application for quotation of securities - SRL",
+      "time": "2026-09-01T01:02:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130107-3A700696",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Sunrise Energy Metals (SRL) has lodged an application for quotation of new securities on the ASX, indicating the completion or near-completion of a capital raise, options exercise, or other securities issuance event.",
+        "The quotation of new securities will increase SRL's share count, introducing potential dilution for existing holders; the significance depends on the volume, price, and purpose of the securities being quoted — details of the underlying transaction are essential context.",
+        "As a procedural administrative filing, this announcement alone provides limited investment signal; investors should cross-reference with any recent capital raise announcements or performance rights/options grants to assess the dilutive quantum and its impact on SRL's balance sheet position."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PER",
+      "company": "PERCHERON THERAPEUTICS LIMITED",
+      "headline": "Percheron Therapeutics Limited Corporate Presentation",
+      "time": "2026-09-01T01:01:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130106-3A700695",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Percheron Therapeutics (PER) has released a corporate presentation, typically used to update the market on pipeline progress, strategy, and funding status — a routine but important communication tool for pre-revenue biotech companies seeking to maintain or build investor awareness.",
+        "For a clinical-stage therapeutics company, the key elements to assess in the presentation include clinical trial timelines, cash burn rate and runway duration, any partnership or licensing discussions, and upcoming catalysts that could serve as re-rating events.",
+        "As the announcement is flagged non-market-sensitive, the presentation is unlikely to contain materially new information beyond what has been previously disclosed; its primary value is as a consolidated investor relations document rather than a standalone price catalyst."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PEN",
+      "company": "PENINSULA ENERGY LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-09-01T00:58:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130105-6A1341610",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has exited their position in Peninsula Energy (PEN), signalling reduced institutional conviction at a critical juncture as the company advances its Lance Projects uranium ISR operations in Wyoming.",
+        "The ceasing of substantial holding reduces the identifiable institutional register, which can increase share price volatility and thin out the supportive bid side, particularly relevant for a small-cap uranium developer reliant on sentiment-driven capital.",
+        "Investors should monitor whether this exit is part of a broader institutional rotation out of uranium equities or specific to PEN's risk profile; subsequent 13D/G filings or ASX substantial holder notices in coming weeks will be key indicators."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WOT",
+      "company": "WOTSO",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-01T00:55:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130104-2A1694172",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "WOTSO (WOT) has filed a Change of Director's Interest Notice, indicating a movement in a director's shareholding — whether through on-market purchase, sale, or participation in a company securities plan.",
+        "Director share transactions are closely watched as a proxy for insider sentiment; a purchase signals confidence in the company's co-working and childcare property outlook, while a sale may indicate personal liquidity needs or reduced conviction — the direction and scale of the transaction is the critical detail.",
+        "Given WOT's niche position in flexible workspace and property-adjacent services, any director buying at current levels would be modestly constructive for sentiment, though the non-market-sensitive classification suggests the transaction is unlikely to be of material scale."
+      ],
+      "tags": [
+        "Board Change",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LSR",
+      "company": "LODESTAR MINERALS LIMITED",
+      "headline": "Appendix 3Y - C Blaud",
+      "time": "2026-09-01T00:50:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130103-6A1341609",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Lodestar Minerals (LSR) has filed an Appendix 3Y — a change of director's interest notice for director C. Blaud — a standard compliance-driven disclosure with no direct operational or financial implications for the company.",
+        "The Appendix 3Y is a regulatory requirement under ASX Listing Rule 3.19A and provides transparency on director shareholding movements; its classification as non-market-sensitive confirms the transaction is of negligible scale relative to LSR's market capitalisation.",
+        "For a junior minerals explorer, director shareholding levels are a secondary indicator of board alignment with shareholders; investors should monitor aggregate director holdings trends over time rather than treating individual Appendix 3Y filings as actionable signals."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GSU",
+      "company": "CANDRIAM SUSTAINABLE GBL EQUITY FUND - ACTIVE ETF",
+      "headline": "2025/26 Fees and Costs",
+      "time": "2026-09-01T00:48:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130102-2A1694171",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Candriam Sustainable Global Equity Fund - Active ETF (GSU) has disclosed its FY2025/26 fees and costs, a market-sensitive update that directly affects the net return profile investors can expect from this actively managed ESG-focused product.",
+        "Fee transparency is critical for ETF competitiveness; any increase in management expense ratio (MER) or transaction costs versus the prior year could accelerate redemptions as investors compare against lower-cost passive ESG alternatives on the ASX.",
+        "Fund managers and financial advisers reviewing GSU allocations should benchmark the disclosed fee structure against comparable active ESG ETFs — sustained fee compression across the sector means even modest increases risk AUM outflows and reduced market-making liquidity."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DGR",
+      "company": "DGR GLOBAL LIMITED",
+      "headline": "UPDATE TO - DGR INVESTMENT IN SAVANNAH GOLDFIELDS",
+      "time": "2026-09-01T00:47:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130101-2A1694170",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DGR Global is providing an update on its investment in Savannah Goldfields, signalling ongoing portfolio management activity in its junior resource holdings — key for investors tracking DGR's asset-level progress.",
+        "As a non-market-sensitive update, the disclosure likely reflects incremental operational or structural developments at Savannah Goldfields rather than a material valuation event, limiting immediate re-rating potential.",
+        "Investors should monitor whether the update includes any changes to DGR's ownership stake, funding commitments, or exploration milestones, as these would be the primary catalysts for future value crystallisation."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GIB",
+      "company": "GIBB RIVER DIAMONDS LIMITED",
+      "headline": "Notification of cessation of securities - GIB",
+      "time": "2026-09-01T00:46:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130100-6A1341608",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The cessation of securities notice for GIB (Gibb River Diamonds) typically indicates the lapsing, cancellation, or conversion of performance rights, options, or other unlisted securities — a routine but structurally relevant event.",
+        "Depending on the class and volume of securities ceased, this could reflect the expiry of unexercised options, suggesting performance hurdles were not met or holders chose not to exercise — a mildly negative signal on internal confidence.",
+        "Investors should cross-reference the ceased securities volume against total issued capital to assess dilution relief or, conversely, whether this signals a tightening of the company's incentive structure ahead of any upcoming activity."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORA",
+      "company": "ORORA LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-01T00:46:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130099-3A700694",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director interest change at Orora Limited (ORA) signals a movement in a director's shareholding — whether an on-market purchase, sale, or vesting of performance rights — warranting scrutiny for directional insider signal.",
+        "As the notice is classified non-market-sensitive, the transaction is likely modest in scale or relates to routine equity plan vesting rather than a discretionary open-market trade, limiting read-through for broader sentiment.",
+        "Institutional investors should note the identity of the director and transaction type: open-market buying by senior executives at ORA's current valuation levels would carry a more constructive signal given the company's ongoing packaging sector repositioning."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPT",
+      "company": "PERPETUAL LIMITED",
+      "headline": "Update - Dividend/Distribution - PPT",
+      "time": "2026-09-01T00:44:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130098-2A1694169",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Perpetual Limited (PPT) is updating its dividend or distribution details — given the company's active corporate restructuring and asset sale processes, any revision to dividend quantum or timing is meaningful for income-focused holders.",
+        "A non-market-sensitive classification suggests this is likely a technical update (e.g. DRP pricing, record date confirmation, or tax component adjustment) rather than a cut or cancellation, providing limited near-term price catalyst.",
+        "With PPT navigating a complex split of its asset management and corporate trust businesses, investors should assess whether capital return policy remains sustainable post-separation and whether this update signals any change to that trajectory."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MCP",
+      "company": "MCPHERSON'S LIMITED",
+      "headline": "Notification of cessation of securities - MCP",
+      "time": "2026-09-01T00:41:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130097-2A1694168",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "McPherson's Limited (MCP) has filed a cessation of securities notice, indicating the lapsing or cancellation of options, rights, or other unlisted instruments — a standard compliance filing with limited standalone investment significance.",
+        "If the ceased securities relate to performance rights that were not vested, it may reflect unmet earnings or strategic hurdles, which investors should cross-check against MCP's recent operational guidance in its personal care and beauty segment.",
+        "The net effect on dilution is likely modest given MCP's current market cap, but tracking the cumulative pattern of securities cessations versus new issuances provides a useful lens on management's long-term equity incentive discipline."
+      ],
+      "tags": [
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IRE",
+      "company": "IRESS LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-01T00:36:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130096-3A700692",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Iress Limited (IRE) has lodged a director interest change notice — given Iress's ongoing cost restructuring and strategic review programme, any movement in director shareholdings carries heightened interpretive weight.",
+        "The non-market-sensitive classification points to a procedural event such as vesting of performance rights or a minor on-market transaction, rather than a significant discretionary trade that would trigger a stronger directional signal.",
+        "With Iress under continued pressure to demonstrate operating leverage improvements and potential divestment of non-core assets, sustained open-market buying by directors would be a constructive indicator — investors should confirm the transaction nature."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AHE",
+      "company": "ADHERIS HEALTH LIMITED",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-09-01T00:33:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130095-6A1341607",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Adheris Health Limited (AHE) has released its FY26 Results Presentation — a forward-dated fiscal year result is notable and suggests either an early balance date or a presentation covering a non-standard period, warranting careful period clarification.",
+        "Despite being classified non-market-sensitive, a full-year results presentation is substantively material; investors should scrutinise revenue growth, EBITDA margin trajectory, and cash generation given AHE's healthcare services positioning.",
+        "Key watch points include any guidance commentary for the next 12 months, customer retention metrics, and capital allocation signals — these will determine whether the market ascribes a re-rating or maintains current multiples."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APE",
+      "company": "EAGERS AUTOMOTIVE LIMITED",
+      "headline": "Initial Director's Interest Notice - PETERSON",
+      "time": "2026-09-01T00:31:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130094-2A1694167",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Eagers Automotive (APE) has filed an initial director's interest notice for newly appointed director Jim Peterson, disclosing his opening shareholding position — a standard regulatory requirement upon board appointment.",
+        "The initial holding level disclosed will signal Peterson's pre-existing exposure and alignment with shareholders; a meaningful existing stake would be a constructive indicator of committed board-level ownership culture.",
+        "This filing pairs directly with announcement [9] and investors should view the combined disclosures as completing the governance picture around the Peterson appointment rather than treating either in isolation."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APE",
+      "company": "EAGERS AUTOMOTIVE LIMITED",
+      "headline": "Appointment of new Director - Jim Peterson",
+      "time": "2026-09-01T00:30:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130093-2A1694166",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Eagers Automotive (APE) has appointed Jim Peterson to its board — for Australia's largest automotive retail group, board composition changes carry strategic significance, particularly given ongoing consolidation dynamics in the sector.",
+        "Investors should assess Peterson's background: expertise in automotive retail operations, capital markets, or international expansion would each carry different strategic read-throughs for APE's near-term priorities.",
+        "The appointment may indicate succession planning, a specific skills gap being addressed, or preparation for a strategic transaction — monitoring subsequent board committee assignments will provide further directional clarity."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LVE",
+      "company": "LOVE GROUP GLOBAL LTD",
+      "headline": "Notice of Annual General Meeting",
+      "time": "2026-09-01T00:27:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130092-2A1694165",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Love Group Global Ltd (LVE) has issued a Notice of Annual General Meeting — as a small-cap technology/services company, the AGM agenda items (including any capital resolutions, director elections, or remuneration votes) will be the key focus for minority investors.",
+        "Investors should review the full AGM Notice for any ordinary or special resolutions relating to share issuance capacity, executive remuneration, or related-party transactions, which are common flashpoints at micro-cap AGMs.",
+        "Proxy advisory recommendations and shareholder attendance levels will be worth tracking as a gauge of minority investor sentiment; any contested resolutions could introduce short-term volatility in an otherwise illiquid stock."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DGL",
+      "company": "DGL GROUP LIMITED",
+      "headline": "FY26 Results - Investor Webinar",
+      "time": "2026-09-01T00:26:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130091-3A700691",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "DGL Group is hosting an investor webinar to present FY26 results, signalling management confidence in engaging the market directly — though the non-market-sensitive classification suggests no major earnings surprise is embedded in this notice alone.",
+        "The webinar format provides institutional investors an opportunity to interrogate management on key operational metrics including chemical manufacturing margins, logistics performance, and any guidance revisions following what has been a challenging period for the specialty chemicals sector.",
+        "Investors should monitor the webinar closely for commentary on cost pressures, customer contract renewals, and any strategic updates — DGL has faced margin headwinds in recent periods and forward guidance will be the critical valuation driver."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DUN",
+      "company": "DUNDAS MINERALS LIMITED",
+      "headline": "Bloodwood Gold Project Granted",
+      "time": "2026-09-01T00:23:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130090-6A1341606",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dundas Minerals (DUN) has been granted the Bloodwood Gold Project, representing a material expansion of its tenement portfolio in Western Australia and adding prospective gold ground to its exploration pipeline.",
+        "Tenement grant is a binary catalyst for junior explorers — it unlocks the ability to drill and define resources, with Western Australian gold ground currently commanding premium market attention given elevated gold prices above AUD 5,000/oz.",
+        "Near-term newsflow will centre on DUN's planned exploration program for Bloodwood; investors should watch for upcoming work commitments, geophysical survey announcements, and any early-stage sampling results that could re-rate the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CDP",
+      "company": "CARINDALE PROPERTY TRUST",
+      "headline": "Initial Director's Interest Notice - Karim Temsamani",
+      "time": "2026-09-01T00:21:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130089-2A1694164",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Carindale Property Trust has lodged an initial director's interest notice for newly appointed director Karim Temsamani, a routine compliance filing that confirms his commencement on the board with no immediate financial impact.",
+        "The notice establishes Temsamani's baseline shareholding position in CDP, which will serve as the reference point for all future change-of-interest disclosures — any subsequent acquisitions or disposals will carry greater signal value.",
+        "CDP is a Westfield-anchored retail property trust with concentrated exposure to a single Brisbane asset; board composition changes merit monitoring to assess whether new directors bring strategic shifts in capital allocation or distribution policy."
+      ],
+      "tags": [
+        "Board Change",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALQ",
+      "company": "ALS LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-01T00:21:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130088-2A1694163",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "ALS Limited's change of director's interest notice reflects an update to an existing board member's shareholding, likely arising from equity remuneration vesting, on-market transactions, or participation in a dividend reinvestment plan — all standard corporate governance activity.",
+        "The direction of the transaction (acquisition vs. disposal) is the key signal: insider buying would reinforce bullish sentiment given ALQ's testing and analytical services exposure to global mining capex cycles, while selling could prompt scrutiny.",
+        "Without detail on transaction size and direction, this filing is procedurally neutral; however, ALQ's strong market position in laboratory testing services means any meaningful insider accumulation would be a constructive read-through for sector confidence."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RG1",
+      "company": "REGAL PARTNERS GLOBAL INVESTMENTS LIMITED",
+      "headline": "Purchase of Shares to Satisfy Dividend Reinvestment Plan",
+      "time": "2026-09-01T00:20:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130087-2A1694161",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Regal Partners Global Investments (RG1) has purchased shares on-market to satisfy its Dividend Reinvestment Plan (DRP), confirming the DRP is active and that shareholder participation is sufficient to warrant an open-market purchase rather than issuance of new shares.",
+        "Critically, purchasing shares on-market to satisfy the DRP is non-dilutive to existing shareholders — a shareholder-friendly mechanism that avoids equity dilution while still rewarding income-seeking investors with reinvestment optionality.",
+        "This filing reinforces RG1's income distribution profile and management's capital discipline; investors should track DRP participation rates over time as a proxy for shareholder conviction in the trust's underlying investment strategy and NAV trajectory."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SCG",
+      "company": "SCENTRE GROUP",
+      "headline": "Initial Director's Interest Notice - Karim Temsamani",
+      "time": "2026-09-01T00:20:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130086-2A1694162",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Scentre Group has filed an initial director's interest notice for Karim Temsamani, mirroring the concurrent CDP filing and confirming he holds board positions across both entities — likely reflecting Temsamani's affiliation with a major institutional stakeholder such as Unibail-Rodamco-Westfield.",
+        "The dual appointment across SCG and CDP underscores the interlocking governance structure between Scentre's operational platform and associated property trusts, which institutional investors should factor into related-party transaction monitoring and board independence assessments.",
+        "Scentre Group remains one of Australia's largest retail REITs; new director appointments with cross-entity exposure warrant close attention to potential conflicts of interest, particularly regarding asset valuations, leasing arrangements, and capital deployment decisions."
+      ],
+      "tags": [
+        "Board Change",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMC",
+      "company": "BMC MINERALS LTD.",
+      "headline": "Corporate Presentation",
+      "time": "2026-09-01T00:20:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130085-6A1341604",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "BMC Minerals has released a corporate presentation, typically used to update the market on project progress, resource estimates, and funding strategy — a standard investor relations exercise for an early-stage minerals explorer.",
+        "The key items to assess within the presentation are any updated JORC resource figures, drilling results, metallurgical test work outcomes, and the company's cash position relative to its planned exploration expenditure over the next 12 months.",
+        "For institutional investors, BMC's corporate presentation is a watch-and-wait document; meaningful re-rating catalysts would require material resource upgrades, binding offtake agreements, or a strategic partnership announcement rather than this filing alone."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RNX",
+      "company": "RENEGADE EXPLORATION LIMITED",
+      "headline": "Caisson Project Nevada- landholding expanded, work commences",
+      "time": "2026-09-01T00:19:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130084-6A1341603",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Renegade Exploration has expanded its landholding at the Caisson Project in Nevada and commenced work programs, a positive operational milestone that increases the project's geological optionality and signals management's conviction in the prospectivity of the tenure.",
+        "Nevada remains one of the world's premier mining jurisdictions with strong gold, silver, and lithium endowment; landholding expansion in this region is strategically credible and may attract partner or acquirer interest as the project matures through early-stage exploration.",
+        "The commencement of work is a near-term catalyst for news flow — investors should anticipate initial sampling, mapping, or geophysical results in coming weeks, which will be the true test of whether the expanded ground position can deliver material exploration upside."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TEA",
+      "company": "TASMEA LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-01T00:16:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130083-6A1341602",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Tasmea Limited has lodged a cleansing notice, which is a statutory requirement under the Corporations Act following a capital raise conducted without a prospectus — this confirms a recent placement or rights issue has been completed and investors can now freely trade the newly issued securities.",
+        "The cleansing notice itself does not alter the dilutive impact of the underlying capital raise but removes the legal restriction on resale, potentially increasing near-term selling pressure as placement participants who received a discount may look to realise gains.",
+        "Investors should cross-reference the cleansing notice with the original placement terms — notably the issue price, number of shares issued, and use of proceeds — to assess whether the capital raise was priced at a material discount and gauge likely post-cleansing share price dynamics."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "QBE",
+      "company": "QBE INSURANCE GROUP LIMITED",
+      "headline": "Initial Director's Interest Notice",
+      "time": "2026-09-01T00:16:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130082-2A1694159",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "QBE Insurance Group has filed an initial director's interest notice for a new board member, establishing their baseline shareholding disclosure as required under ASX Listing Rules — a routine governance filing with no immediate financial materiality.",
+        "For a company of QBE's scale and complexity — a global specialty insurer with significant catastrophe risk exposure — board composition carries strategic weight; new directors with underwriting, reinsurance, or capital markets expertise could signal evolving board priorities.",
+        "Institutional investors should assess the new director's background for alignment with QBE's stated priorities around combined operating ratio improvement, North American business performance, and capital return commitments before drawing any strategic conclusions."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "Ceasing to be a substantial holder from CBA",
+      "time": "2026-09-01T00:15:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130081-3A700690",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Commonwealth Bank of Australia (CBA), via its investment management arm, has ceased to be a substantial holder in Karoon Energy (KAR), indicating a reduction of their stake below the 5% disclosure threshold.",
+        "Institutional selling by a major bank-affiliated fund can create near-term overhang pressure on KAR's share price, especially if the exit was executed via on-market sales rather than a block trade, potentially signalling reduced conviction in KAR's oil production outlook.",
+        "Karoon's investment case — centred on Brazilian offshore oil production assets — remains operationally intact, but the loss of a substantial institutional holder warrants monitoring of the share register for further exits or new entrants that could signal a change in the stock's institutional narrative."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LVE",
+      "company": "LOVE GROUP GLOBAL LTD",
+      "headline": "Return of Capital - LVE",
+      "time": "2026-09-01T00:15:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130080-2A1694157",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Love Group Global has announced a return of capital to shareholders, which can be a positive signal of balance sheet discipline but may also indicate limited reinvestment opportunities within the business — the distinction is critical to assessing management's strategic intent.",
+        "A return of capital is tax-advantaged relative to a dividend in many investor structures, reducing the cost base of shares rather than generating assessable income — this mechanism can be attractive to certain institutional and retail investor cohorts.",
+        "Given LVE's micro-cap profile and the non-market-sensitive classification, investors should scrutinise the quantum of the capital return relative to total equity, the remaining cash position post-return, and whether this signals a wind-down, strategic pivot, or simply efficient capital management."
+      ],
+      "tags": [
+        "Dividend",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACW",
+      "company": "ACTINOGEN MEDICAL LIMITED",
+      "headline": "Proposed issue of securities - ACW",
+      "time": "2026-09-01T00:14:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130079-2A1694155",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ACW is flagging a forthcoming securities issuance, likely tied to capital raising activity to fund ongoing clinical development of its Alzheimer's drug candidate, Xanamem — a recurring necessity for pre-revenue biotechs with no commercial income stream.",
+        "Without confirmed pricing or volume, dilution risk is unquantifiable at this stage, but given ACW's historically thin cash position, any raise is likely material relative to market cap and warrants close monitoring of subsequent Appendix 3B filings.",
+        "Investors should watch for the formal Appendix 3B to assess placement size, price discount to market, and whether any strategic or institutional anchor investors participate — key signals for near-term sentiment and cash runway extension."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACW",
+      "company": "ACTINOGEN MEDICAL LIMITED",
+      "headline": "ACW unlisted options fully underwritten",
+      "time": "2026-09-01T00:12:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130078-2A1694153",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Actinogen Medical (ACW) has announced that its unlisted options offer is fully underwritten, providing critical funding certainty for the company as it advances its XanaHES cortisol-targeting Alzheimer's therapy through clinical development.",
+        "Full underwriting of an options raise eliminates the execution risk of a failed capital raise, ensuring ACW receives the targeted funds regardless of retail option holder take-up — a materially de-risked outcome that protects the company's cash runway for ongoing trial activities.",
+        "With Alzheimer's drug development timelines long and capital-intensive, confirmed funding provides ACW a clearer runway to its next clinical milestones; investors should assess how the new capital aligns with upcoming XanaHES Phase 2 readout timelines and whether it sufficiently funds operations to a meaningful value inflection point."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MP1",
+      "company": "MEGAPORT LIMITED",
+      "headline": "Notification regarding unquoted securities - MP1",
+      "time": "2026-09-01T00:11:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130077-2A1694154",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MP1's notification regarding unquoted securities typically relates to the vesting or issuance of performance rights or options to employees/executives under an incentive plan, representing a routine but dilutive corporate action.",
+        "As a technology growth company, Megaport regularly uses equity-based compensation to retain talent — while individually modest, cumulative issuances can contribute meaningfully to share count creep over time and should be tracked against total dilution.",
+        "No immediate financial impact is expected; however, investors should confirm whether these securities carry performance or time-based hurdles, as the former signals management confidence in achieving operational targets including EBITDA profitability milestones."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "M7T",
+      "company": "MACH7 TECHNOLOGIES LIMITED",
+      "headline": "Notification of cessation of securities - M7T",
+      "time": "2026-09-01T00:10:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130076-3A700689",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The cessation of securities for M7T (Mach7 Technologies) indicates that a tranche of options, performance rights, or similar instruments has lapsed, expired, or been cancelled — reducing the potential future dilution overhang on the share register.",
+        "Security cessations are structurally mildly positive as they remove contingent dilution; however, lapsed performance rights may also signal that specific financial or operational hurdles were not met, which could reflect negatively on underlying business performance.",
+        "Investors should cross-reference the ceased securities against M7T's remuneration report to determine whether these were executive performance rights and whether the associated KPIs — typically linked to revenue or contract milestones — were missed."
+      ],
+      "tags": [
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MFD",
+      "company": "MAYFIELD CHILDCARE LIMITED",
+      "headline": "FY26 Half Yearly Results Presentation",
+      "time": "2026-09-01T00:10:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130075-3A700688",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Mayfield Childcare (MFD) has released its FY26 Half Yearly Results presentation, providing investors with the first formal look at trading performance in the current financial year across its network of childcare centres, a critical update for a sector under both regulatory and cost pressure.",
+        "Key metrics to scrutinise include occupancy rates, revenue per centre, labour cost ratios, and any commentary on government subsidy impacts — childcare operators face structural margin pressure from wage increases under the Early Childhood Education Award, making EBITDA margin trajectory the pivotal figure.",
+        "MFD's ability to demonstrate organic occupancy growth and disciplined cost management will determine whether the market re-rates the stock; any guidance revision — up or down — relative to prior year performance or analyst consensus will be the primary near-term price catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NAB",
+      "company": "NATIONAL AUSTRALIA BANK LIMITED",
+      "headline": "Initial Director's Interest Notice",
+      "time": "2026-09-01T00:07:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130074-3A700687",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "An initial director's interest notice for NAB signals the onboarding of a new board member or executive, with ASX rules requiring disclosure of their opening securities position — a procedural but important transparency requirement.",
+        "The disclosed holding level (whether shares, options, or nil) provides a baseline for tracking future on-market purchases or sales, which carry significant signalling value given NAB's size and institutional scrutiny as one of Australia's Big Four banks.",
+        "No market-moving information is contained in this filing alone; however, the identity of the incoming director and their background (e.g. financial services, technology, risk) may offer insight into NAB's evolving board composition and strategic priorities."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IBX",
+      "company": "IMAGION BIOSYSTEMS LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-01T00:06:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130073-3A700686",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "IBX's cleansing notice is a mandatory disclosure under ASX Listing Rule 3.10.3, issued to ensure that shares placed under a prior capital raise can be freely traded without a prospectus — confirming the placement has been legally completed.",
+        "The filing confirms IBX has recently completed a capital raise, providing the company with fresh funding; for a clinical-stage medical imaging biotech with no revenue, this is critical to extending cash runway and progressing its MagSense cancer detection platform.",
+        "The practical implication is that newly issued shares are now freely tradeable, which may create short-term selling pressure from placement participants seeking to realise a discount gain — a risk factor to monitor in near-term price action."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORA",
+      "company": "ORORA LIMITED",
+      "headline": "Notification of cessation of securities - ORA",
+      "time": "2026-09-01T00:04:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130072-3A700685",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ORA's cessation of securities filing indicates that a batch of performance rights, options, or similar equity instruments has lapsed or been cancelled, reducing contingent dilution on the register — a routine but administratively important disclosure.",
+        "For Orora, a packaging and distribution company under ongoing strategic review following its Saverglass acquisition and balance sheet pressure, any reduction in equity overhang is marginally constructive, though the quantum is likely immaterial relative to total shares on issue.",
+        "Investors should verify whether lapsed performance rights relate to unmet financial KPIs (e.g. EPS, ROCE targets) which could serve as an indirect signal of management's own assessment of near-term earnings delivery challenges."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RHC",
+      "company": "RAMSAY HEALTH CARE LIMITED",
+      "headline": "Final Director's Interest Notice - C Suessmuth Dyckerhoff",
+      "time": "2026-09-01T00:04:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130071-2A1694152",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A final director's interest notice for C Suessmuth Dyckerhoff confirms this individual is departing the Ramsay Health Care board, triggering mandatory disclosure of their final securities position upon cessation of their directorship.",
+        "Board departures at RHC are noteworthy given the company's complex operational environment — managing pan-European hospital networks, post-COVID cost pressures, and ongoing private equity scrutiny — as leadership stability is a key investor consideration.",
+        "The filing itself is procedural; however, investors should assess whether this departure is part of a broader board refresh, signals strategic disagreement, or is simply a routine retirement — context that would materially affect the sentiment interpretation."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IBX",
+      "company": "IMAGION BIOSYSTEMS LIMITED",
+      "headline": "Application for quotation of securities - IBX",
+      "time": "2026-09-01T00:04:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130070-3A700684",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "IBX's application for quotation of securities is the follow-on step after the cleansing notice (Announcement #5), formally requesting ASX list the newly issued placement shares — confirming the capital raise process is being executed in proper sequence.",
+        "Once approved by ASX, these shares will be admitted to trading, increasing IBX's liquidity pool; for a micro-cap biotech, the additional freely tradeable shares may temporarily weigh on price as placement investors establish exit positions.",
+        "The dual filing of cleansing notice and quotation application on the same day signals efficient post-raise administration and that IBX is prioritising rapid capital deployment — likely toward upcoming clinical or regulatory milestones for its MagSense platform."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LIC",
+      "company": "LIFESTYLE COMMUNITIES LIMITED",
+      "headline": "Court of Appeal Judgement Update",
+      "time": "2026-09-01T00:02:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130069-3A700683",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Court of Appeal judgement update for Lifestyle Communities (LIC) is a potentially significant development given the company has faced legal challenges related to its land lease community business model, including disputes over exit fees and resident rights — outcomes that could materially impact revenue structure.",
+        "Depending on whether the ruling is favourable or adverse, this filing could have meaningful implications for LIC's fee income model, potential liability provisions, and the broader regulatory risk profile of the land lease sector across Australia.",
+        "Investors must assess the actual judgement outcome carefully — an adverse ruling could force business model changes or trigger compensation liability, while a favourable ruling would remove a material legal overhang and represent a re-rating catalyst for the stock."
+      ],
+      "tags": [
+        "Property",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REE",
+      "company": "RAREX LIMITED",
+      "headline": "Maiden RC Drilling Underway at Khaleesi",
+      "time": "2026-08-31T23:59:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130068-6A1341601",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "RareX has commenced maiden RC (Reverse Circulation) drilling at its Khaleesi prospect, a significant operational milestone that transitions the project from desktop/geophysical interpretation to ground-truthing with physical drill results — a de-risking event for the exploration asset.",
+        "The Khaleesi project sits within RareX's rare earth portfolio, a strategically timely focus given surging global demand for rare earth elements (REEs) driven by defence, EV, and clean energy supply chain diversification away from Chinese dominance.",
+        "Near-term catalysts are clear: assay results from the maiden drill program will be the next value-defining event, with positive rare earth intercepts (particularly TREO grades and critical heavy REE ratios) capable of triggering material re-rating for this sub-$50M market cap explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CMA",
+      "company": "CARMA LIMITED",
+      "headline": "Retail Deliveries Update August",
+      "time": "2026-08-31T23:59:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130067-2A1694151",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Carma's August retail deliveries update signals ongoing execution against its vehicle subscription/retail model, with investors watching closely for volume trajectory and whether unit economics are improving as the business scales.",
+        "The non-market-sensitive classification suggests delivery numbers are broadly in line with prior guidance or represent incremental progress rather than a material step-change — limiting immediate re-rating potential but maintaining operational visibility.",
+        "Key forward focus remains on monthly delivery run-rate acceleration and customer acquisition costs; any sustained upward trend in units delivered would strengthen the case for eventual path to profitability in a capital-light subscription model."
+      ],
+      "tags": [
+        "Retail",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IBX",
+      "company": "IMAGION BIOSYSTEMS LIMITED",
+      "headline": "Application for quotation of securities - IBX",
+      "time": "2026-08-31T23:59:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130066-3A700682",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "IBX's application for quotation of new securities indicates a recent capital raise or securities issuance has been completed, with new shares/options now seeking ASX listing — this introduces potential near-term selling pressure as new holders gain liquidity.",
+        "For a micro-cap healthcare/biotech like Imagion Biosystems, frequent securities quotation events warrant scrutiny of cumulative dilution; investors should assess the total shares on issue relative to pre-raise levels and the use-of-funds disclosed in the associated placement or entitlement offer documentation.",
+        "The next critical catalyst remains clinical or regulatory progress on its HER2-targeted imaging agent pipeline; without near-term data milestones, the incremental dilution from this issuance is unlikely to be offset by positive re-rating in the short term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ORI",
+      "company": "ORICA LIMITED",
+      "headline": "Initial Director's Interest Notice",
+      "time": "2026-08-31T23:57:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130065-3A700681",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Orica's Initial Director's Interest Notice reflects a new or recently appointed director formally disclosing their shareholding position as required under ASX Listing Rules — this is a standard compliance filing with no direct financial impact on the company.",
+        "The nature and size of the disclosed interest (direct vs. indirect, shares vs. options) is worth noting as a signal of insider alignment; a meaningful personal investment by the incoming director would be a modest positive for governance sentiment.",
+        "As a procedural board/governance update for one of ASX's largest mining explosives and services companies, this notice carries no standalone valuation implications — investor attention remains better directed to Orica's upcoming earnings, ammonia cost dynamics, and Americas growth execution."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MYE",
       "company": "MASTERMYNE GROUP LIMITED",
