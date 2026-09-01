@@ -1,9 +1,376 @@
 {
   "date": "2026-09-01",
-  "total": 398,
+  "total": 417,
   "market_sensitive_count": 92,
-  "generated_at": "2026-09-01T03:29:20.290009+00:00",
+  "generated_at": "2026-09-01T04:26:53.103726+00:00",
   "announcements": [
+    {
+      "ticker": "CIN",
+      "company": "CARLTON INVESTMENTS LIMITED",
+      "headline": "Net Tangible Asset Backing",
+      "time": "2026-09-01T04:20:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130175-2A1694209",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Carlton Investments (CIN), a long-standing LIC with concentrated exposure to major ASX blue-chips (primarily Endeavour Group and Skycity Entertainment), has published its routine Net Tangible Asset (NTA) backing update — a key valuation reference for LIC investors.",
+        "The NTA figure provides a direct read on the premium or discount at which CIN trades relative to underlying portfolio value; any widening discount may attract value-oriented LIC investors or activist pressure for buybacks.",
+        "As a procedural monthly disclosure, this carries no standalone earnings signal, but directional NTA movement month-on-month reflects performance of CIN's underlying holdings and is worth tracking against share price."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAM",
+      "company": "CLIME CAPITAL LIMITED",
+      "headline": "Net Tangible Asset Backing - 31 August 2026",
+      "time": "2026-09-01T04:19:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130174-2A1694208",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Clime Capital (CAM) has released its NTA backing as at 31 August 2026, providing unitholders and prospective investors with a current valuation benchmark for this actively managed LIC focused on quality Australian equities.",
+        "The NTA disclosure is a routine regulatory requirement for listed investment companies and carries no standalone market-moving content; its value lies in tracking the premium/discount to NTA and portfolio performance over time.",
+        "Investors should compare this NTA to the prevailing share price — persistent NTA discounts in smaller LICs like CAM can signal poor demand dynamics or a structural overhang that management may need to address via buybacks or dividend policy."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SVR",
+      "company": "SOLVAR LIMITED",
+      "headline": "2026 Annual General Meeting",
+      "time": "2026-09-01T04:10:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130173-3A700712",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Solvar Limited (SVR), a non-bank consumer and auto lender, has issued notice of its 2026 Annual General Meeting — a standard procedural filing that sets the agenda for shareholder voting on remuneration reports, director elections, and any special resolutions.",
+        "In the current high-interest-rate and consumer stress environment, AGM disclosures from non-bank lenders warrant scrutiny for any trading updates or comments on arrears, loan book quality, or capital adequacy embedded in CEO/Chair addresses.",
+        "Investors should watch for any shareholder activism or protest votes on remuneration, particularly given margin pressure facing consumer finance businesses, and monitor whether management provides a forward earnings outlook."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TCF",
+      "company": "360 CAPITAL MORTGAGE REIT",
+      "headline": "Notification of cessation of securities - TCF",
+      "time": "2026-09-01T04:05:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130172-2A1694207",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "360 Capital Mortgage REIT (TCF) has notified the market of the cessation of securities, likely relating to the expiry or cancellation of options, performance rights, or other equity instruments — reducing potential dilution overhang.",
+        "Cessation of securities (particularly options) can be mildly positive as it removes future dilutive pressure on existing unitholders, though the quantum matters — small tranches have negligible NTA impact.",
+        "For a mortgage REIT, investor focus remains on distribution yield, loan-to-value ratios, and credit quality of the underlying mortgage book rather than administrative securities movements."
+      ],
+      "tags": [
+        "Finance",
+        "Property",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MIN",
+      "company": "MINERAL RESOURCES LIMITED",
+      "headline": "Conclusion of ASIC investigation",
+      "time": "2026-09-01T04:03:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130171-6A1341627",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Mineral Resources (MIN) has announced the conclusion of an ASIC investigation — a highly material development that removes a significant regulatory and legal overhang that had weighed on the stock amid broader governance concerns surrounding founder Chris Ellison.",
+        "The resolution of the ASIC probe is unambiguously positive for sentiment: it reduces tail risk of executive action, financial penalties, or forced leadership changes, and may re-open the stock to institutional investors who had sidelined MIN on governance grounds.",
+        "However, investors should review the outcome details carefully — 'conclusion' does not always mean 'cleared'; if ASIC took no further action versus reached a settlement with conditions, the market re-rating potential will differ materially."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TRU",
+      "company": "TRUSCREEN GROUP LIMITED",
+      "headline": "Results of Meeting",
+      "time": "2026-09-01T04:03:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130170-2A1694206",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "TruScreen Group (TRU) has released results of its shareholder meeting, confirming the outcome of resolutions voted on — for a small-cap healthcare company, the passage or rejection of key resolutions (e.g. capital raises, option plans) can be material.",
+        "If all ordinary and special resolutions passed without significant protest votes, this indicates aligned shareholder support for the board's strategic direction, providing operational continuity for TRU's cervical cancer screening device commercialisation.",
+        "Investors should cross-reference which specific resolutions were on the agenda — any resolutions related to share issuance or director remuneration failing would be a bearish signal; clean passage is a mild positive for governance confidence."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RSG",
+      "company": "RESOLUTE MINING LIMITED",
+      "headline": "Corporate Presentation",
+      "time": "2026-09-01T04:00:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130169-6A1341626",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Resolute Mining (RSG) has released a corporate presentation — typically used to update the market on strategy, operations, and financial position, often timed around investor conferences or roadshows to attract institutional interest.",
+        "Key metrics to extract from the presentation include production guidance, all-in sustaining cost (AISC) trajectory, balance sheet leverage, and any updates on the Syama (Mali) and Mako (Senegal) operations, including jurisdictional/political risk disclosures.",
+        "Corporate presentations are marketing tools and carry no binding financial commitments, but they can shift near-term sentiment if they include material operational updates, exploration results, or refinancing details not previously disclosed to the market."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LDX",
+      "company": "LUMOS DIAGNOSTICS HOLDINGS LIMITED",
+      "headline": "Section 708A Cleansing Statement",
+      "time": "2026-09-01T03:50:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130168-2A1694204",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "LDX has lodged a Section 708A cleansing statement, confirming that newly issued shares (likely from a recent capital raise or placement) can be on-sold without a disclosure document — a critical compliance step to unlock secondary market liquidity for those securities.",
+        "The filing signals a completed capital transaction has occurred; without this cleansing notice, recipients of placement shares would face trading restrictions, so its lodgement is a necessary administrative gate to full marketability.",
+        "Investors should cross-reference this with the accompanying Application for Quotation (Announcement [3]) to determine the size and pricing of the placement — the combined filings indicate new shares are imminent on the register, representing potential near-term supply-side pressure."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BFL",
+      "company": "BSP FINANCIAL GROUP LIMITED",
+      "headline": "Change of CEO's Interest Notice - Mark T Robinson",
+      "time": "2026-09-01T03:50:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130167-2A1694205",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "BSP Financial Group CEO Mark T Robinson has filed a change of interest notice, indicating a movement in his direct or indirect securities holding — a routine but important transparency disclosure under ASX Listing Rules.",
+        "The direction of the change (acquisition vs. disposal) is the key signal: an open-market purchase by a CEO typically signals insider confidence in the business trajectory, while a disposal may raise questions about conviction at current valuations.",
+        "Institutional investors should note the quantum and method of the transaction (on-market, off-market, or via remuneration plan vesting) to properly contextualise alignment between executive incentives and shareholder interests at BFL."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CVB",
+      "company": "CURVEBEAM AI LIMITED",
+      "headline": "Change in substantial holding - Greg Brown",
+      "time": "2026-09-01T03:50:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130166-3A700711",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Greg Brown has altered his substantial holding in CurveBeam AI (CVB), signalling a shift in a key insider or major shareholder's position — the direction (increase or decrease) will determine whether this reflects confidence or an exit.",
+        "For a small-cap MedTech like CVB, movements at the substantial holder level (≥5%) can have outsized impact on liquidity and price discovery given typically thin trading volumes.",
+        "Investors should monitor whether this change represents accumulation ahead of a potential catalyst (e.g. FDA clearance, partnership) or profit-taking/distribution, and cross-reference with any associated on-market activity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LDX",
+      "company": "LUMOS DIAGNOSTICS HOLDINGS LIMITED",
+      "headline": "Application for quotation of securities - LDX",
+      "time": "2026-09-01T03:48:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130165-2A1694203",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "LDX has lodged an Appendix 2A (Application for Quotation), formally requesting ASX admit newly issued securities to trading — this confirms the capital raise referenced in the Section 708A cleansing notice ([1]) is now proceeding to settlement and listing.",
+        "The number of new shares being quoted will directly determine the degree of dilution to existing shareholders; a large placement relative to shares on issue would be a material dilutive event for a small-cap diagnostics company with limited revenue.",
+        "Next step is ASX granting quotation, typically within 1–3 business days; once listed, the new shares will trade freely and any overhang from placement participants seeking to exit could create short-term price weakness in LDX."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NXD",
+      "company": "NEXTED GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice - Tolhurst",
+      "time": "2026-09-01T03:47:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130164-6A1341625",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "NexEd Group director Tolhurst has reported a change in securities interest, a standard ASX Listing Rule 3.19A obligation that must be filed within five business days of any change — routine in nature but scrutinised for directional signals.",
+        "If the change reflects an on-market purchase, it would be a modest positive signal for this small-cap education technology company, suggesting board-level conviction ahead of potential catalysts; a sale would be viewed less favourably given NXD's early-stage profile.",
+        "With NXD operating in the competitive EdTech space, any insider activity draws heightened attention from the market given the company's relatively thin trading liquidity and sensitivity to sentiment-driven flows."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVT",
+      "company": "EVT LIMITED",
+      "headline": "Notification regarding unquoted securities - EVT",
+      "time": "2026-09-01T03:47:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130163-2A1694202",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EVT Limited has filed a notification regarding unquoted securities, most likely relating to employee incentive plan instruments (options, rights, or performance shares) that have been issued but are not yet tradeable on ASX.",
+        "This type of filing is a standard compliance disclosure under ASX Listing Rule 3.10.1 and does not represent a public capital raise; however, the volume of unquoted securities issued signals the scale of EVT's equity-based remuneration commitments.",
+        "Investors in EVT — a diversified entertainment, venues, and travel group — should monitor the potential future dilution if and when these unquoted securities vest and convert to quoted shares, particularly given the company's ongoing post-pandemic operational recovery."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CVB",
+      "company": "CURVEBEAM AI LIMITED",
+      "headline": "Change of Director's Interest Notice - Greg Brown",
+      "time": "2026-09-01T03:44:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130162-3A700710",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "CurveBeam AI director Greg Brown has lodged a change of interest notice, fulfilling mandatory ASX disclosure requirements following a movement in his beneficial holding of CVB securities.",
+        "For a pre-revenue or early-revenue MedTech/AI company like CurveBeam AI, director-level share transactions are closely watched as proxies for insider sentiment on near-term commercialisation milestones and cash position.",
+        "The nature of the change — whether tied to a vesting event under a long-term incentive plan or an open-market transaction — will determine market interpretation; plan-based vesting is routine, while open-market disposals in a cash-constrained small-cap would attract greater scrutiny."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BEN",
+      "company": "BENDIGO AND ADELAIDE BANK LIMITED",
+      "headline": "Appendix 3Y - DCJ",
+      "time": "2026-09-01T03:35:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130161-3A700709",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Bendigo and Adelaide Bank has filed an Appendix 3Y (Change of Director's Interest) for a director identified as DCJ, maintaining transparency obligations under ASX Listing Rule 3.19A for a regulated ADI (Authorised Deposit-taking Institution).",
+        "For a major regional bank like BEN, director interest changes are routinely scrutinised by APRA-aware institutional investors; the filing itself is administrative, but any pattern of insider selling ahead of a results period would be a red flag worth tracking.",
+        "Given BEN's current operating environment — navigating net interest margin compression and rising credit risk — the direction and scale of this director's transaction should be assessed in the context of the bank's upcoming earnings cycle and any forthcoming capital management decisions."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "S32",
+      "company": "SOUTH32 LIMITED",
+      "headline": "Notification of cessation of securities - S32",
+      "time": "2026-09-01T03:34:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130160-6A1341622",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "South32 has notified ASX of the cessation of securities, indicating that a class of previously unquoted instruments (typically employee performance rights, options, or restricted shares) has lapsed, been cancelled, or converted — reducing the unquoted securities overhang on the register.",
+        "Cessation through lapsing (e.g. unexercised options or unvested rights forfeited by departing employees) is administratively neutral but signals workforce or executive turnover; cessation through conversion to ordinary shares represents dilution that warrants monitoring.",
+        "For a large-cap diversified miner like S32, this filing is immaterial to market capitalisation at the margin but forms part of the regular capital management disclosure cycle; cross-referencing with [9] (unquoted securities notification) provides a fuller picture of the net movement in S32's incentive security pool."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NXL",
+      "company": "NUIX LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-09-01T03:34:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130159-2A1694201",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased to hold ≥5% of Nuix (NXL), meaning a significant institutional or strategic investor has reduced their stake below the disclosure threshold — a potential negative demand signal for the stock.",
+        "NXL has had a turbulent history post-IPO with governance and litigation overhangs; the departure of a substantial holder may reflect ongoing risk aversion or portfolio rebalancing rather than a company-specific trigger.",
+        "Near-term, the cessation filing could create modest selling pressure if the market interprets the exit as a loss of institutional conviction, though the actual sell-down timing may already be complete and priced in."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IEL",
+      "company": "IDP EDUCATION LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-01T03:34:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130158-3A700708",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for IDP Education (IEL) indicates a meaningful shift (increase or decrease) in a major investor's position in one of Australia's leading international student placement and English-language testing businesses.",
+        "IEL has faced headwinds from tightening Australian and Canadian student visa policies, which have materially impacted revenue guidance — any reduction by a substantial holder may reinforce bearish sentiment around near-term earnings risk.",
+        "Conversely, if this represents accumulation, it could signal that a sophisticated investor views current price levels as attractive given IEL's long-term structural positioning in global education mobility."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "S32",
+      "company": "SOUTH32 LIMITED",
+      "headline": "Notification regarding unquoted securities - S32",
+      "time": "2026-09-01T03:32:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130157-6A1341621",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "South32 has lodged a notification regarding unquoted securities under ASX Listing Rule 3.10.1, disclosing the issuance of new performance rights, options, or restricted shares under its employee incentive framework — a routine but important equity remuneration disclosure.",
+        "The volume of unquoted securities issued reflects the scale of S32's long-term incentive (LTI) commitments to key management; for a major miner with significant free cash flow, LTI plans are a key tool for talent retention across its diversified commodity operations.",
+        "Read in conjunction with [8], the net position of S32's unquoted securities pool can be assessed — new issuances offset by cessations suggest normal plan operation rather than extraordinary dilution, maintaining a neutral outlook for ordinary shareholders."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "OR3",
       "company": "ORE RESOURCES LIMITED",
