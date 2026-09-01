@@ -1,9 +1,369 @@
 {
   "date": "2026-09-02",
-  "total": 220,
-  "market_sensitive_count": 63,
-  "generated_at": "2026-09-01T23:38:55.884303+00:00",
+  "total": 239,
+  "market_sensitive_count": 68,
+  "generated_at": "2026-09-01T23:45:37.709278+00:00",
   "announcements": [
+    {
+      "ticker": "EMU",
+      "company": "EMU NL",
+      "headline": "Yataga Drilling Advances Intrusive Copper Model",
+      "time": "2026-09-01T23:42:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130593-6A1341800",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EMU NL's Yataga drilling results are advancing an intrusive copper model, suggesting the geological thesis is gaining technical validation — model advancement at this stage narrows target definition and improves drill success probability in future programs.",
+        "The non-market-sensitive classification suggests results, while geologically meaningful, did not materially exceed or disappoint existing market expectations; this limits immediate share price impact but adds incremental value to the exploration narrative.",
+        "Next steps should focus on whether the refined intrusive model leads to a follow-up drill program with tighter target spacing — consistent model advancement is the building block for a potential resource estimate, which would be a hard catalyst."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MRD",
+      "company": "MOUNT RIDLEY MINES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-01T23:41:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130592-6A1341797",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "MRD has entered a trading halt, suspending price discovery and liquidity — typically a precursor to a material announcement such as a capital raise, M&A transaction, or significant operational update.",
+        "The market-sensitive classification signals the pending news has meaningful valuation implications; investors should monitor closely for the triggering announcement, which must be released before market open or within ASX's permitted halt window.",
+        "Until the halt is lifted and the catalyst disclosed, risk is elevated — historically, trading halts at micro-cap miners like MRD can precede dilutive placements or transformative asset deals, warranting a cautious stance."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRR",
+      "company": "SARAMA RESOURCES LTD",
+      "headline": "Statement of CDIs on issue - SRR",
+      "time": "2026-09-01T23:40:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130591-6A1341796",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The CDI (CHESS Depositary Interest) statement for Sarama Resources is a routine administrative filing disclosing the current number of securities on issue — it provides no new operational or financial information.",
+        "Any notable change in CDI count relative to prior filings could indicate recent capital activity such as options exercises, placements, or conversions; a significant increase would flag potential dilution for existing holders.",
+        "This filing is purely compliance-driven and carries no standalone investment signal; it should be cross-referenced with recent capital raise announcements to confirm consistency in issued capital."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAM",
+      "company": "WAM CAPITAL LIMITED",
+      "headline": "Kate Thorley Appendix 3Y",
+      "time": "2026-09-01T23:40:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130590-2A1694435",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Appendix 3Y for WAM Capital's Kate Thorley is a director's interest change notification — a routine governance disclosure with no direct operational or financial implications for the company.",
+        "Any meaningful increase in Thorley's holdings could be interpreted as a minor positive signal of insider confidence in WAM Capital's near-term performance or dividend sustainability; a decrease could warrant further scrutiny.",
+        "For an LIC (Listed Investment Company) like WAM, management's alignment with shareholder interests via personal holdings is a qualitative governance metric — but this filing alone is insufficient to drive material price movement."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OMG",
+      "company": "OMG GROUP LIMITED",
+      "headline": "Proposed issue of securities - OMG",
+      "time": "2026-09-01T23:40:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130589-3A700792",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This Appendix 3B (proposed issue of securities) for OMG Group is the formal ASX notification accompanying the $1.5M placement announced simultaneously — it provides the regulatory detail on share count, pricing, and issue terms.",
+        "The critical data points to extract are the issue price relative to the last traded price (placement discount), the number of new shares being issued, and any attaching options that could create further dilution overhang post-completion.",
+        "As a companion filing to the placement announcement, this document operationalises the capital raise; settlement timing will determine when new shares enter the market and when potential selling pressure from placement participants could materialise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OMG",
+      "company": "OMG GROUP LIMITED",
+      "headline": "$1.5m Placement cornerstoned by a strategic investor",
+      "time": "2026-09-01T23:39:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130588-3A700785",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "OMG Group has secured a $1.5M placement anchored by a strategic investor — the cornerstone nature of the raise signals institutional-level conviction and potentially opens doors to commercial partnerships beyond mere capital injection.",
+        "At $1.5M, the raise is modest but meaningful for a small-cap; the strategic investor's identity and any associated off-take, distribution, or technology agreements are the critical unknowns that will determine whether this is accretive or merely dilutive.",
+        "Near-term focus should be on the placement price relative to last traded price (discount depth) and any performance milestones or board representation rights attached to the strategic investor's position, which could signal governance changes ahead."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AGE",
+      "company": "ALLIGATOR ENERGY LIMITED",
+      "headline": "Appendix 3Y - AMS",
+      "time": "2026-09-01T23:39:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130587-2A1694434",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Appendix 3Y filing for Alligator Energy relates to a director or officer change in securities holdings — the 'AMS' suffix suggests this pertains to a specific individual within the company's management structure.",
+        "As a non-market-sensitive, routine compliance filing, this disclosure carries no operational or financial signal for AGE's uranium exploration activities or near-term project development timeline.",
+        "Institutional investors should monitor AGE's substantive announcements regarding its Samphire uranium project and ISR (in-situ recovery) program; director holding changes are background governance data and do not independently influence the investment thesis."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMB",
+      "company": "CAMBIUM BIO LIMITED",
+      "headline": "Notification regarding unquoted securities - CMB",
+      "time": "2026-09-01T23:38:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130586-2A1694433",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CMB has notified ASX of unquoted securities, likely relating to options, performance rights, or convertible instruments issued outside the listed market — a routine administrative disclosure with no immediate P&L impact.",
+        "The non-market-sensitive classification signals this is a housekeeping update rather than a capital structure event that would materially alter dilution risk or shareholder equity in the near term.",
+        "Investors should monitor subsequent quotation applications or appendix filings to assess whether these unquoted securities are approaching vesting or conversion milestones that could add to the listed share count."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVN",
+      "company": "EVOLUTION MINING LIMITED",
+      "headline": "Application for quotation of securities - EVN",
+      "time": "2026-09-01T23:37:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130585-2A1694432",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EVN has lodged an application to quote additional securities on the ASX, most likely reflecting shares issued under an employee incentive plan, dividend reinvestment plan, or a recently completed placement tranche.",
+        "The non-market-sensitive flag indicates the quantum of new shares is modest relative to EVN's existing capital base, limiting near-term dilution risk for existing shareholders in one of Australia's largest gold producers.",
+        "Watch for the formal quotation notice to confirm the number of shares and the issue price, which will clarify whether this represents incremental dilution or simply a conversion/vesting event already priced into consensus models."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KLS",
+      "company": "KELSIAN GROUP LIMITED",
+      "headline": "Notification of cessation of securities - KLS",
+      "time": "2026-09-01T23:37:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130584-2A1694431",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "KLS has notified the ASX of the cessation of securities — typically options or rights that have lapsed, been cancelled, or expired unexercised — reducing the company's dilutive overhang on the capital structure.",
+        "Cessation of unexercised options is marginally positive for existing shareholders as it removes potential future dilution without any cash outflow, though the non-market-sensitive classification implies the scale is immaterial to KLS's overall share count.",
+        "This filing should be read alongside KLS's concurrent quotation application (Announcement [5]) to get a complete picture of net capital structure movements occurring simultaneously."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CIM",
+      "company": "CHALLENGER IM CAPITAL LIMITED",
+      "headline": "Challenger IM Monthly Report July 2026",
+      "time": "2026-09-01T23:37:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130583-2A1694429",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Challenger IM Capital (CIM) has released its Monthly Report for July 2026, providing investors with a periodic update on portfolio composition, net asset value, and income distribution metrics for this listed investment vehicle.",
+        "Monthly reports for listed investment companies are critical for tracking NAV per unit versus market price (premium/discount dynamics), portfolio yield, and any material shifts in asset allocation that could signal management's macro outlook.",
+        "Institutional investors should compare July's NAV and income figures against prior months to identify trend changes in portfolio performance, particularly given the current interest rate environment's impact on fixed-income and credit allocations."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KLS",
+      "company": "KELSIAN GROUP LIMITED",
+      "headline": "Application for quotation of securities - KLS",
+      "time": "2026-09-01T23:37:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130582-2A1694430",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "KLS has simultaneously filed an application for quotation of new securities, which when read alongside its cessation notice (Announcement [3]), suggests a net capital restructuring — likely the issuance of new performance rights or shares concurrent with the lapse of older instruments.",
+        "The non-market-sensitive designation confirms the new securities being quoted are not the result of a surprise dilutive capital raise, reducing the risk of an adverse short-term price reaction from existing KLS shareholders.",
+        "Investors in the transport and tourism operator should verify the total net change in share count across both filings to assess any residual dilution impact on EPS and NTA per share."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASL",
+      "company": "ANDEAN SILVER LIMITED",
+      "headline": "Accelerating Cerro Bayo Restart Presentation",
+      "time": "2026-09-01T23:37:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130581-6A1341794",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Andean Silver's presentation on accelerating the Cerro Bayo restart is a high-signal catalyst — Cerro Bayo is a known silver-gold asset in Chile with historical production, and any credible restart timeline directly re-rates the company toward producer status.",
+        "The use of the word 'accelerating' suggests the timeline has been brought forward, which materially de-risks the project and could compress the discount typically applied to development-stage assets, positively impacting valuation multiples.",
+        "Investors should scrutinise the presentation for capex requirements, funding strategy, and permitting status — if restart can be achieved without significant dilution, this is a strong near-term re-rating event for ASL."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STG",
+      "company": "STRAKER LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-09-01T23:37:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130580-2A1694424",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "STG's reinstatement to quotation ends what has been a period of suspended trading — reinstatement follows the resolution of whatever condition triggered the halt or suspension, restoring market access and price discovery for shareholders.",
+        "The reinstatement itself is procedurally positive, but the true sentiment driver is the underlying reason for the original suspension; if the triggering event involved financial distress, restructuring, or dilutive recapitalisation, initial trading could see significant selling pressure.",
+        "Institutional investors should assess the post-reinstatement capital structure carefully — any new securities issued during the suspension period, or material changes to business operations disclosed concurrently, will set the tone for the re-rating trajectory."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGE",
+      "company": "ALLIGATOR ENERGY LIMITED",
+      "headline": "Notification of cessation of securities - AGE",
+      "time": "2026-09-01T23:36:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130579-2A1694428",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Alligator Energy (AGE) has reported the cessation of securities, most likely the lapse or cancellation of unlisted options or performance rights, which removes a layer of potential dilution from the uranium explorer's capital structure.",
+        "For a small-cap uranium explorer like AGE, where share count management is closely watched by speculative investors, the removal of unexercised instruments — even if small — is a marginally constructive capital signal.",
+        "Investors should cross-reference the number of ceased securities against AGE's total option/warrant registry to quantify the reduction in fully diluted share count and its effect on per-share resource valuations."
+      ],
+      "tags": [
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SLM",
+      "company": "SOLIS MINERALS LIMITED",
+      "headline": "Drilling Commenced at Cinto Copper Project, Peru",
+      "time": "2026-09-01T23:36:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130578-6A1341792",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling commencement at the Cinto Copper Project in Peru is a tangible operational milestone for SLM, transitioning the asset from exploration-stage to active newsflow generation — a key inflection point for re-rating junior explorers.",
+        "Copper's structural demand tailwinds from energy transition make Peruvian copper projects increasingly attractive to strategic and institutional capital; any early assay results showing meaningful copper grades could act as a significant share price catalyst.",
+        "Investors should track hole depths, target geology, and the expected timeline for first assay results — the quality of the drill program design and proximity to known mineralisation will determine whether this program has genuine discovery potential."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ETM",
+      "company": "ENERGY TRANSITION MINERALS LTD",
+      "headline": "Legal Update",
+      "time": "2026-09-01T23:36:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130577-6A1341793",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ETM has released a legal update, a filing that warrants close attention as it likely relates to ongoing regulatory, permitting, or arbitration matters surrounding its Kvanefjeld rare earth and uranium project in Greenland — a project that has faced significant political and legal headwinds.",
+        "Legal updates in the resources sector can materially affect project timelines, asset carrying values, and financing optionality; even a non-market-sensitive classification does not preclude meaningful strategic implications if the update signals a shift in litigation posture or settlement prospects.",
+        "Institutional investors should parse the detail carefully for any indication of resolution, escalation, or new legal pathways, as the outcome of ETM's legal situation is a primary binary risk factor underpinning the company's entire valuation thesis."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGY",
+      "company": "ARGOSY MINERALS LIMITED",
+      "headline": "Proposed issue of securities - AGY",
+      "time": "2026-09-01T23:36:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130576-6A1341769",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Argosy Minerals (AGY) has lodged a proposed issue of securities, signalling an upcoming capital raise or securities issuance that will add to the lithium developer's share count — a key watch item given AGY's ongoing Rincon lithium project development in Argentina.",
+        "For a development-stage lithium company, fresh capital raises are necessary for project advancement but introduce dilution risk; the terms (price, volume, and recipient — placement vs rights issue) will be critical in determining whether this is accretive or value-destructive for existing holders.",
+        "Investors should await the accompanying offer document or cleansing notice to assess the raise size relative to AGY's current cash position and projected development expenditure timeline, particularly given the softened near-term lithium price environment."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AGY",
+      "company": "ARGOSY MINERALS LIMITED",
+      "headline": "Proposed issue of securities - AGY",
+      "time": "2026-09-01T23:36:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130575-6A1341761",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second proposed issue of securities filing by AGY on the same day suggests either a multi-tranche capital raise structure (e.g., a placement combined with a share purchase plan) or the issuance of securities under separate instruments such as options attached to a placement.",
+        "Dual filings in a single session amplify the total dilution signal — institutional investors should aggregate both notices to calculate the combined gross proceeds and total new share issuance to model the post-raise capital structure accurately.",
+        "The back-to-back nature of these two AGY announcements increases the likelihood of a material capital raise event; monitoring for an accompanying investor presentation or Appendix 3B will confirm deal size, pricing, and use of proceeds for the Rincon project."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "AGY",
       "company": "ARGOSY MINERALS LIMITED",
