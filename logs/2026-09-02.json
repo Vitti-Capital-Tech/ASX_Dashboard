@@ -1,9 +1,332 @@
 {
   "date": "2026-09-02",
-  "total": 170,
-  "market_sensitive_count": 44,
-  "generated_at": "2026-09-01T23:14:03.298991+00:00",
+  "total": 187,
+  "market_sensitive_count": 49,
+  "generated_at": "2026-09-01T23:23:05.185946+00:00",
   "announcements": [
+    {
+      "ticker": "INF",
+      "company": "INFINITY METALS LIMITED",
+      "headline": "Company Presentation - September 2026",
+      "time": "2026-09-01T23:20:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130541-6A1341786",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A company presentation from Infinity Metals is primarily a communications exercise — the September 2026 date suggests this was released in conjunction with a conference, roadshow, or investor day, and is unlikely to contain information not previously disclosed to the market.",
+        "The non-market-sensitive classification confirms no new material information is embedded in this document; its value lies in consolidating the investment thesis for new or prospective investors rather than updating existing holders on operational developments.",
+        "Investors should review the presentation for any updated project timelines, drill targets, or capital allocation strategy that may refine the near-term work programme, even if no single element meets the materiality threshold for a standalone announcement."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst ANN Instalment MINI Dividend - Final Amount",
+      "time": "2026-09-01T23:20:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130540-2A1694418",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "The CitiFirst ANN Instalment MINI Dividend final amount announcement is a structured product administrative disclosure — it confirms the dividend quantum for a specific instalment warrant series rather than reflecting any operational performance by an underlying company.",
+        "This is a mechanical, non-market-sensitive event relevant only to holders of this specific CitiFirst MINI series; it carries no read-through to broader market sentiment or the performance of any underlying ASX-listed equity.",
+        "Institutional investors holding this product should note the final dividend amount for income accounting purposes; no strategic or valuation action is implied by this disclosure."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VTX",
+      "company": "VERTEX MINERALS LIMITED",
+      "headline": "Updated Mineral Resource Estimate Reward Gold Mine",
+      "time": "2026-09-01T23:18:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130539-6A1341785",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "An updated Mineral Resource Estimate (MRE) for the Reward Gold Mine is a pivotal de-risking event for VTX — upgrades in tonnage or grade would directly re-rate the project's economic viability and attract partner/acquirer interest.",
+        "The market-sensitive classification signals a material change to the existing resource base; investors should scrutinise whether the update reflects an increase or decrease in ounces, as well as any shift in resource classification (Inferred to Indicated) which affects bankability.",
+        "A positive MRE revision strengthens VTX's position ahead of any potential feasibility studies or capital raising, while a downgrade could trigger a reassessment of project economics and near-term funding requirements."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TSR",
+      "company": "TURNSTONE RESOURCES LTD",
+      "headline": "Trading Halt",
+      "time": "2026-09-01T23:17:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130538-6A1341784",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "A trading halt for Turnstone Resources (TSR) typically precedes a material announcement — most commonly a capital raise, merger/acquisition, or significant exploration result — suspending price discovery until the news is released.",
+        "The market-sensitive designation heightens the probability that the pending disclosure is substantive rather than administrative, and investors should monitor closely for the nature of the triggering event upon resumption.",
+        "Until the halt is lifted and the underlying announcement is made, the directional impact is indeterminate; the outcome could range from highly dilutive (emergency placement) to strongly re-rating (major discovery or corporate transaction)."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VFY",
+      "company": "VITRAFY LIFE SCIENCES LIMITED",
+      "headline": "Vitrafy enters U.S. Cell & Gene Therapy Market",
+      "time": "2026-09-01T23:17:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130537-3A700799",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Vitrafy's entry into the U.S. Cell & Gene Therapy (CGT) market represents a significant strategic pivot, as the U.S. is the world's largest CGT market — providing access to substantially larger revenue potential than domestic Australian operations alone.",
+        "The market-sensitive flag suggests this may involve a commercial agreement, licensing deal, or partnership with a U.S.-based entity, which would be a material catalyst for a company of VFY's likely small-cap scale and could validate its core technology platform.",
+        "Execution risk remains the key watch item — investors should assess whether this entry is backed by a binding contract or letter of intent, the timeline to revenue generation, and any associated capital requirements or equity dilution to fund U.S. market development."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VMS",
+      "company": "VENARI MINERALS NL",
+      "headline": "Expanded Exploration Plan to Accelerate Red Mountain",
+      "time": "2026-09-01T23:16:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130536-6A1341783",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Venari Minerals' expanded exploration plan for the Red Mountain project signals increased ambition and pace of work, potentially reflecting encouraging early-stage results or geological reinterpretation that justifies a broader target footprint.",
+        "The non-market-sensitive classification indicates the expanded plan does not yet incorporate new drill results or a resource estimate revision — the announcement is forward-looking and its value will be realised only when exploration data is generated.",
+        "Investors should track the scale of the expanded budget relative to VMS's cash reserves, as accelerated exploration at a junior level frequently precedes a capital raise; understanding the funding mechanism for the expanded programme is the critical due diligence question."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IBC",
+      "company": "IRONBARK BALANCED INCOME LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-01T23:16:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130535-2A1694417",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for Ironbark Balanced Income (IBC) signals a shift in the register above or below the 5% threshold, which can indicate institutional accumulation or distribution — both carry implications for near-term liquidity and price dynamics.",
+        "For a fund-style vehicle like IBC, a reduction in a substantial holder's position may signal deteriorating conviction in the income strategy or portfolio rebalancing, while an increase could reflect yield-seeking demand in the current rate environment.",
+        "Given the non-market-sensitive classification, this is a procedural disclosure with no immediate earnings impact; however, large register movements in smaller income vehicles can disproportionately affect share price due to limited liquidity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RGN",
+      "company": "REGION GROUP",
+      "headline": "Update - Notification of buy-back - RGN",
+      "time": "2026-09-01T23:15:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130534-2A1694416",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Region Group's buy-back update is a shareholder-friendly capital management signal — on-market buy-backs reduce share count, support earnings per unit accretion, and typically reflect management's view that the stock is trading at or below intrinsic value.",
+        "For a retail property REIT like RGN, executing a buy-back implies sufficient balance sheet capacity and free cash flow confidence, which is a positive read on the underlying portfolio's income stability amid ongoing retail sector headwinds.",
+        "Investors should monitor the pace and volume of buy-back activity disclosed in the notification — an accelerating buy-back programme could provide meaningful price support, while a slow or paused programme may indicate capital is being redirected to asset management or debt reduction priorities."
+      ],
+      "tags": [
+        "Property",
+        "Retail",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LIS",
+      "company": "LI-S ENERGY LIMITED",
+      "headline": "Li-S & EPE to bring batteries to defence & security markets",
+      "time": "2026-09-01T23:15:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130533-2A1694413",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Li-S Energy's partnership with EPE (Electro Optic Systems' defence subsidiary or similar) to supply batteries to defence and security markets is a high-value commercial validation, as defence contracts typically offer long duration, premium pricing, and non-cyclical demand.",
+        "Defence and security applications demand superior energy density, thermal stability, and weight profiles — areas where lithium-sulfur chemistry holds a theoretical advantage over lithium-ion, making this a technically credible market fit for LIS's technology.",
+        "The key near-term catalyst will be whether this translates into a binding supply agreement or purchase order with disclosed value; absent firm contract details, the announcement establishes strategic intent but does not yet de-risk LIS's path to commercialisation."
+      ],
+      "tags": [
+        "Energy",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CBA",
+      "company": "COMMONWEALTH BANK OF AUSTRALIA.",
+      "headline": "Update - Dividend/Distribution - CBA",
+      "time": "2026-09-01T23:14:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130532-2A1694415",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CBA is updating dividend/distribution details, likely confirming reinvestment plan (DRP) pricing or participation details following its recently declared interim or final dividend — a routine but capital-allocation-relevant disclosure for income-focused institutional holders.",
+        "As Australia's largest bank by market cap, CBA's dividend mechanics attract significant attention; any DRP discount or participation rate shift can influence near-term share supply dynamics and retail investor sentiment.",
+        "No material surprise expected given the 'not market sensitive' classification — investors should monitor DRP take-up rates as a proxy for shareholder confidence and management's implicit view on share valuation relative to intrinsic worth."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXS",
+      "company": "DEXUS",
+      "headline": "Update - Notification of buy-back - DXS",
+      "time": "2026-09-01T23:14:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130530-2A1694414",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Dexus (DXS) is notifying the market of an on-market buy-back, signalling management's view that units are trading at a discount to net tangible asset (NTA) value — a capital management tool increasingly common among ASX-listed REITs under valuation pressure.",
+        "For a major diversified property group navigating elevated interest rates and office sector headwinds, a buy-back reflects balance sheet confidence but also raises questions about whether capital is better deployed reducing debt or funding asset recycling.",
+        "Investors should track the scale and pace of the buy-back program; meaningful volume at current depressed price levels would be accretive to NTA per unit and could act as a partial technical floor for the security price."
+      ],
+      "tags": [
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LGF",
+      "company": "L1 GOLD FUND LIMITED",
+      "headline": "Notice under section 708A(5)(e) of the Corporations Act 2001",
+      "time": "2026-09-01T23:14:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130531-3A700798",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "L1 Gold Fund (LGF) has lodged a Section 708A(5)(e) notice, which is a statutory requirement to allow shares issued without a disclosure document (e.g. via placement) to be freely tradeable on-market — a standard post-capital-raise compliance step.",
+        "The notice itself carries no new financial information but confirms a prior placement has completed and that free trading of those newly issued shares is now permissible, which may introduce modest near-term selling pressure from placement participants.",
+        "Institutional investors should cross-reference the volume of shares covered by this notice against LGF's total share count to assess potential overhang risk, particularly relevant for a smaller, less liquid gold-focused fund."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EAU",
+      "company": "EAU LITHIUM LTD",
+      "headline": "Commencement of Trading Under New ASX Code 'EAU'",
+      "time": "2026-09-01T23:13:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130529-6A1341782",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Eau Lithium Ltd has commenced trading under the new ASX code 'EAU', indicating a recent name or business change — likely reflecting a strategic pivot or rebranding to align with lithium sector exposure amid ongoing battery metals interest.",
+        "A ticker/name change alone is not a fundamental value catalyst, but it signals a repositioning of the company's narrative; investors should verify whether underlying assets, management, and capital structure have materially changed alongside the rebrand.",
+        "Near-term trading volumes may spike due to speculative interest in the new code and lithium thematic, but without confirmed resource upgrades or binding offtake agreements, the announcement is procedural rather than substantive."
+      ],
+      "tags": [
+        "Other",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DUN",
+      "company": "DUNDAS MINERALS LIMITED",
+      "headline": "Drilling commences across 3 gold Kalgoorlie Projects",
+      "time": "2026-09-01T23:13:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130528-6A1341780",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencing drilling across three separate Kalgoorlie gold projects simultaneously signals DUN is in active news-flow mode — Kalgoorlie's tier-1 address and well-understood geology underpin strong market receptivity to any positive assay results.",
+        "Drilling across multiple targets concurrently diversifies the probability of a discovery hit in the near term, though it also implies higher cash burn; investors should monitor DUN's cash position relative to planned drill metres to assess whether a capital raise is on the horizon.",
+        "Market-sensitive classification suggests management believes results from at least one of the three projects could be material — first assays will be the critical catalyst, with high-grade intercepts in this jurisdiction capable of delivering outsized re-rating for a junior explorer."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DCC",
+      "company": "DIGITALX LIMITED",
+      "headline": "Update - Notification of buy-back - DCC",
+      "time": "2026-09-01T23:12:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130527-6A1341781",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DigitalX (DCC) has notified the ASX of an on-market buy-back — a notable signal for a small-cap crypto-adjacent technology company, suggesting the board believes current market prices undervalue the company's digital asset holdings or business pipeline.",
+        "Given DCC's relatively small market capitalisation, even a modest buy-back program could meaningfully reduce share count and tighten liquidity, making this a potentially more impactful capital management tool than it would be for a large-cap peer.",
+        "Investors should scrutinise the company's cash and liquid digital asset position to assess whether a buy-back is prudent or whether capital preservation and operational investment should take priority given the volatile nature of its crypto-linked revenue streams."
+      ],
+      "tags": [
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HLI",
+      "company": "HELIA GROUP LIMITED",
+      "headline": "Appendix 3Y - Andrew Moore",
+      "time": "2026-09-01T23:12:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130526-2A1694412",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Helia Group (HLI) has filed an Appendix 3Y for director Andrew Moore, disclosing a change in his notifiable interest — a routine statutory filing required when a director's security holding changes due to acquisition, disposal, or vesting of equity-based remuneration.",
+        "The 'not market sensitive' classification confirms no material shift in alignment or a large unexpected disposal; however, any increase in director holdings is a mild positive signal of insider confidence in HLI's lenders mortgage insurance (LMI) business outlook.",
+        "Investors should review the specific nature of the change (buy, sell, or plan-based vesting) once the full document is available, as director trading patterns at HLI are worth monitoring given the company's sensitivity to Australian housing market conditions and arrears trends."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EOL",
+      "company": "ENERGY ONE LIMITED",
+      "headline": "Annual Report to shareholders - Appendix 4G",
+      "time": "2026-09-01T23:12:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130525-2A1694411",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Energy One (EOL) has lodged its Appendix 4G alongside its Annual Report, confirming compliance with ASX Corporate Governance Principles — a mandatory filing that maps the company's governance practices against the ASX recommendations.",
+        "For EOL, an energy software and services company operating across Australian and European wholesale energy markets, the annual report will be the key document to scrutinise for revenue growth trajectory, recurring SaaS metrics, and progress on international expansion.",
+        "The Appendix 4G itself is procedural, but the accompanying Annual Report release is the substantive event — institutional investors should focus on EBITDA margins, customer retention rates, and any guidance or strategic commentary from management for FY26."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CMO",
       "company": "COSMO METALS LIMITED",
