@@ -1,9 +1,180 @@
 {
   "date": "2026-09-03",
-  "total": 101,
-  "market_sensitive_count": 22,
-  "generated_at": "2026-09-02T22:31:47.745393+00:00",
+  "total": 110,
+  "market_sensitive_count": 24,
+  "generated_at": "2026-09-02T22:41:38.286888+00:00",
   "announcements": [
+    {
+      "ticker": "RLF",
+      "company": "RLF AGTECH LTD",
+      "headline": "Cleansing Notice section 708A(5)(e) Corporations Act 2001",
+      "time": "2026-09-02T22:39:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131089-6A1341999",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "RLF AgTech has lodged a cleansing notice under s708A(5)(e) of the Corporations Act, confirming that shares recently issued without a prospectus are now freely tradeable — a standard post-placement procedural step.",
+        "The notice implies a prior unannounced or previously announced capital raise has been completed; investors should cross-reference the corresponding placement announcement to assess dilution impact and the end-use of funds.",
+        "While procedurally routine and not market sensitive in isolation, the cleansing notice effectively unlocks selling by placement participants, which can create near-term overhang pressure on a small-cap stock like RLF."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LOT",
+      "company": "LOTUS RESOURCES LIMITED",
+      "headline": "Key Appointments",
+      "time": "2026-09-02T22:37:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131088-6A1341998",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Lotus Resources (LOT) has announced key appointments, a positive signal for a uranium developer — strategic hires at this stage typically indicate the company is advancing toward project financing, permitting, or construction readiness at its Kayelekera uranium project in Malawi.",
+        "The seniority and functional expertise of the appointees (e.g. operations, finance, or government relations) will determine whether this represents a meaningful de-risking event or routine team-building; the market will scrutinise CVs closely.",
+        "In the context of the current uranium market tailwinds and LOT's development timeline, credible executive additions could catalyse a re-rating by validating management's capacity to execute — watch for follow-on project update announcements."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BXB",
+      "company": "BRAMBLES LIMITED",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-09-02T22:37:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131087-2A1694695",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Brambles (BXB) has released its Notice of AGM and Proxy Form — a routine procedural filing for one of the ASX's largest logistics/supply-chain companies, with no material financial content in this document itself.",
+        "Key items to monitor in the AGM agenda include executive remuneration resolutions (particularly given BXB's global pay benchmarking), any proposed capital management initiatives, and the re-election of directors given ongoing board renewal cycles.",
+        "With BXB trading near multi-year highs on strong free cash flow generation, the AGM is unlikely to be a significant price catalyst unless a protest vote on remuneration or an unexpected shareholder resolution emerges."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACE",
+      "company": "ACUSENSUS LIMITED.",
+      "headline": "Notification regarding unquoted securities - ACE",
+      "time": "2026-09-02T22:36:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131086-2A1694696",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Acusensus (ACE) has filed a notification regarding unquoted securities, which typically relates to the issuance of performance rights, options, or restricted shares to employees or directors under an incentive plan — a routine but monitored event.",
+        "Unquoted security issuances can signal retention and incentive activity; for a growth-stage technology company like ACE (road safety AI), this is generally consistent with scaling headcount and aligning management with long-term value creation.",
+        "The filing has no immediate P&L impact but incrementally increases the fully diluted share count; investors should track the total unquoted securities on issue as a proportion of shares outstanding to assess future dilution exposure."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IFG",
+      "company": "INFOCUS GROUP HOLDINGS LIMITED",
+      "headline": "$450,000 Placement to Fund Codexa Commercialisation",
+      "time": "2026-09-02T22:34:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131085-6A1341997",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "IFG is raising $450,000 via placement specifically to fund commercialisation of its Codexa platform, signalling the company is entering an active go-to-market phase but highlighting the modest scale of capital available — typical of micro-cap execution risk.",
+        "The placement size suggests a targeted, likely low-dilution raise at this stage, but investors should scrutinise the issue price relative to prevailing market price and the implied post-raise cash runway given Codexa's commercialisation costs.",
+        "Near-term catalysts hinge on Codexa revenue milestones; failure to convert this capital into contracted revenue within 6–12 months would likely necessitate a further raise, making progress updates the critical watchpoint."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CDO",
+      "company": "CADENCE OPPORTUNITIES FUND LIMITED.",
+      "headline": "Share Purchase Plan Booklet",
+      "time": "2026-09-02T22:32:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131084-2A1694692",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CDO has released its Share Purchase Plan (SPP) booklet, offering existing shareholders the opportunity to participate in a capital raise — a market-sensitive event given its direct impact on share supply and potential dilution dynamics.",
+        "SPPs at a discount to the prevailing market price can create short-term selling pressure as arbitrageurs position around the offer price; the booklet's terms, including pricing and cap per shareholder, are critical to assessing the dilution quantum.",
+        "As a closed-end opportunities fund, the use of proceeds and the NAV accretion or dilution relative to the SPP price will be the primary determinant of whether institutional holders support or hedge around this raise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LTP",
+      "company": "LTR PHARMA LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-09-02T22:32:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131083-3A700879",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "LTR Pharma has released an investor presentation — a proactive market engagement move that typically signals the company is seeking to broaden its institutional investor base or provide an update ahead of a potential capital raise or clinical milestone.",
+        "Key content to assess includes the stage and timeline of its lead asset (intranasal testosterone therapy), cash position and runway, and any updated clinical or regulatory milestones that could serve as near-term re-rating catalysts.",
+        "For a pre-revenue pharmaceutical company, the quality of clinical data disclosed and the clarity of the path to commercialisation in the presentation will drive whether this translates into sustained buying interest or remains a speculative narrative."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APE",
+      "company": "EAGERS AUTOMOTIVE LIMITED",
+      "headline": "Update - Notification of buy-back - APE",
+      "time": "2026-09-02T22:32:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131082-2A1694693",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Eagers Automotive (APE) has updated its on-market share buyback notification — a continuation of capital management activity that is broadly positive, signalling board confidence in the stock's intrinsic value at current price levels.",
+        "Buybacks at APE are value-accretive to remaining shareholders if conducted below intrinsic value; given the recent softening in new vehicle demand and margin pressures across the automotive retail sector, the buyback provides a meaningful earnings-per-share support mechanism.",
+        "Investors should monitor the buyback pace and remaining capacity — an acceleration in buyback activity amid sector headwinds would be a strong contrarian signal of management's conviction in near-term earnings resilience."
+      ],
+      "tags": [
+        "Retail",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LSF",
+      "company": "L1 LONG SHORT FUND LIMITED",
+      "headline": "Net Tangible Asset Backing",
+      "time": "2026-09-02T22:31:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131081-3A700878",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "L1 Long Short Fund (LSF) has published its monthly Net Tangible Asset (NTA) backing — a standard reporting obligation for listed investment companies that provides shareholders with the most current read on portfolio valuation versus the share price.",
+        "The key metric for institutional investors is the NTA premium or discount: if LSF is trading at a significant discount to NTA, it may represent a value opportunity or signal persistent market scepticism about the fund's strategy and fee structure.",
+        "L1's long/short strategy has historically demonstrated strong alpha generation; any month-on-month NTA movement should be benchmarked against relevant indices (ASX 200, global equities) to assess whether the manager is adding or destroying value in the current environment."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "BOL",
       "company": "BOOM LOGISTICS LIMITED",
