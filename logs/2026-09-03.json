@@ -1,9 +1,277 @@
 {
   "date": "2026-09-03",
-  "total": 190,
-  "market_sensitive_count": 43,
-  "generated_at": "2026-09-02T23:24:19.745429+00:00",
+  "total": 204,
+  "market_sensitive_count": 48,
+  "generated_at": "2026-09-02T23:31:14.592395+00:00",
   "announcements": [
+    {
+      "ticker": "PAR",
+      "company": "PARADIGM BIOPHARMACEUTICALS LIMITED..",
+      "headline": "Melbourne Investor Lunch",
+      "time": "2026-09-02T23:27:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131183-3A700909",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Paradigm Biopharmaceuticals is hosting a Melbourne investor lunch — a routine non-market-sensitive engagement event designed to maintain retail and institutional investor relations rather than disclose new material information.",
+        "While no new data is expected to be released at the event, investor days and lunches can serve as soft catalysts for improved sentiment if management reiterates confidence in the pentosan polysulfate (PPS) clinical program or provides colour on upcoming trial milestones.",
+        "For institutional investors, the key takeaway is monitoring whether any post-event commentary or Q&A disclosures provide incremental insight into PAR's pipeline timeline or cash position — the stock remains driven by clinical data rather than investor relations activity."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATH",
+      "company": "ALTERITY THERAPEUTICS LIMITED",
+      "headline": "Alterity to Present at Cantor Global Healthcare Conference",
+      "time": "2026-09-02T23:26:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131182-3A700908",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Alterity Therapeutics will present at the Cantor Global Healthcare Conference — a non-market-sensitive event that provides visibility to US-based institutional and healthcare-focused investors, which is particularly relevant given ATH's primary listing on ASX with US development ambitions.",
+        "Cantor conferences attract specialist biotech investors and can catalyse increased institutional coverage or investor interest, particularly for micro-cap companies like ATH working on neurodegeneration therapeutics (ATH434 for Multiple System Atrophy).",
+        "No new data is expected, but investors should monitor whether the presentation includes any update on clinical timelines or partnership discussions — any incremental disclosure beyond the existing pipeline narrative would be the material event to watch."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BUB",
+      "company": "BUBS AUSTRALIA LIMITED",
+      "headline": "Change of Director's Interest Notice - PJ",
+      "time": "2026-09-02T23:25:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131181-6A1342024",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for Bubs Australia reflects a movement in director 'PJ's' shareholding — classified as non-market sensitive, indicating this is likely a routine on-market transaction or vesting of performance rights rather than a signal of distress or conviction buying.",
+        "Director buying on-market at Bubs would carry modest positive signalling value given the company's ongoing operational turnaround and recovery of its US market position post-FDA import alert resolution; selling would be a mild negative signal worth noting.",
+        "Institutional investors should check the underlying form for transaction type (acquisition vs disposal), volume, and price paid relative to current market price to assess whether this warrants any change in conviction on BUB's recovery narrative."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IXR",
+      "company": "IONIC RARE EARTHS LIMITED",
+      "headline": "IXR AND USSM TO FORM USA MAGNET RECYCLING JV",
+      "time": "2026-09-02T23:25:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131180-3A700906",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "IXR is forming a US-based magnet recycling joint venture with USSM, positioning itself at the intersection of rare earth supply chain security and the growing Western push to reduce dependence on Chinese-controlled magnet production.",
+        "The JV structure is strategically significant — recycling end-of-life magnets domestically in the US addresses both ESG mandates and critical minerals policy priorities under the IRA and DoD supply chain initiatives, potentially unlocking government offtake or grant funding.",
+        "Key near-term catalysts to watch include JV equity split disclosure, capital contribution requirements, and whether IXR will need to raise equity to fund its share — all material to assessing dilution risk and balance sheet impact."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WCM",
+      "company": "WCM QUALITY GLOBAL GROWTH FUND - ACTIVE ETF",
+      "headline": "Completion of Investor Loyalty Bonus Issue",
+      "time": "2026-09-02T23:25:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131178-2A1694732",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WCM Quality Global Growth Fund has completed its Investor Loyalty Bonus Issue — a non-cash unit distribution to long-term holders designed to reward loyalty and encourage retention of units in the active ETF structure.",
+        "The bonus issue is dilutive to NAV per unit in a technical accounting sense but is economically neutral as existing unitholders receive additional units proportional to their holdings; it does not signal any change in the fund's underlying portfolio or investment strategy.",
+        "For WCM unitholders, the key implication is a lower unit price post-issue (adjusted for bonus units) and a potential tax event depending on individual investor circumstances — this is an administrative milestone with no meaningful impact on fund performance outlook."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REA",
+      "company": "REA GROUP LTD",
+      "headline": "Notice of Meeting/Voting Form/Online Meeting Guide",
+      "time": "2026-09-02T23:25:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131179-3A700907",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "REA Group has issued its Notice of Meeting, Voting Form, and Online Meeting Guide — standard pre-AGM documentation that is non-market sensitive and procedural in nature, providing shareholders with the logistics and resolutions to be voted on at the upcoming annual general meeting.",
+        "The AGM agenda and any accompanying explanatory memorandum should be reviewed for non-standard resolutions, including any proposed equity incentive schemes, board composition changes, or remuneration report items that could draw proxy adviser opposition.",
+        "For institutional investors in REA — a dominant ASX-listed property classifieds platform with strong recurring revenue — the AGM itself is unlikely to be a price catalyst unless contested resolutions or a significant first strike on remuneration emerge as flashpoints."
+      ],
+      "tags": [
+        "AGM",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WOR",
+      "company": "WORLEY LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-02T23:25:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131177-2A1694735",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director at Worley Limited has altered their shareholding position, signalling insider activity worth monitoring for directional conviction — though classified as non-market sensitive, persistent accumulation or disposal patterns by executives can be early indicators of sentiment shifts.",
+        "The nature of the transaction (on-market purchase, off-market transfer, or exercise of rights/performance shares) will determine materiality; vesting of remuneration-linked securities is routine, but open-market buying at current WOR price levels (~$14-15 range) would carry stronger bullish signalling weight.",
+        "With Worley navigating a complex macro environment of energy transition capex cycles and margin pressure, directorial share movements should be tracked cumulatively — a series of disposals could flag near-term earnings caution ahead of the next result."
+      ],
+      "tags": [
+        "Board Change",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CIW",
+      "company": "CLIME INVESTMENT MANAGEMENT LTD",
+      "headline": "Update - Notification of buy-back - CIW",
+      "time": "2026-09-02T23:24:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131176-2A1694734",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Clime Investment Management has updated its on-market share buyback program, reflecting a capital allocation decision that signals management's view that CIW shares are trading below intrinsic value — a meaningful statement for a fund manager whose core business is valuation discipline.",
+        "For a small-cap funds management business, a buyback reduces share count and can support earnings per share accretion; given CIW's relatively thin float and modest market capitalisation, even modest buyback volumes can have an outsized impact on liquidity and price support.",
+        "Investors should monitor the pace and volume of buyback execution disclosed in subsequent updates — an acceleration would reinforce conviction in management's capital management strategy, while a slow or stalled program may indicate balance sheet constraints or shifting priorities."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NRX",
+      "company": "NORONEX LIMITED",
+      "headline": "Modern Exploration Program Commences at Sleitat Tin Project",
+      "time": "2026-09-02T23:24:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131175-6A1342021",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Noronex has commenced a modern exploration program at its Sleitat Tin Project, signalling a transition from desktop study to active field work — a key de-risking milestone for an early-stage asset in a jurisdiction that will require close investor scrutiny.",
+        "Tin is a critical mineral with structural demand tailwinds from electronics and solder applications, and any discovery of meaningful grade or tonnage at Sleitat could significantly re-rate NRX given its current small-cap status.",
+        "Investors should monitor upcoming assay results and drilling parameters closely; the market sensitivity flag indicates management expects material newsflow, making this a key watch for speculative positioning in the near term."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OCL",
+      "company": "OBJECTIVE CORPORATION LIMITED",
+      "headline": "Update - Notification of buy-back - OCL",
+      "time": "2026-09-02T23:24:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131174-2A1694733",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Objective Corporation has filed an updated notification for its on-market share buyback, a capital return mechanism that reflects management's confidence in OCL's cash generation capacity and a belief that the current share price undervalues the company's recurring SaaS-driven revenue base.",
+        "OCL's buyback is particularly notable given the company's strong balance sheet and high-margin government software segment; returning capital via buybacks rather than special dividends is a tax-efficient signal to long-term holders, and reduces dilution from any employee equity schemes.",
+        "The key watch point is buyback utilisation relative to the approved limit — full utilisation would be strongly value-affirming, while partial execution may suggest the board is preserving optionality for M&A or product investment in its govtech platform expansion."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TMK",
+      "company": "TMK ENERGY LIMITED",
+      "headline": "Operations Update - August 2026",
+      "time": "2026-09-02T23:24:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131173-6A1342020",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TMK Energy's August 2026 operations update provides a current field-level snapshot of activity, with market sensitivity flagged — suggesting the update contains metrics (production volumes, well performance, or project status) material enough to move the share price.",
+        "For an energy company at TMK's stage, monthly operations updates are critical for tracking whether gas production or project development timelines are on track; any deviation from prior guidance — positive or negative — will be the key driver of near-term sentiment.",
+        "Investors should focus on production rates versus stated targets, any changes to capital expenditure outlook, and whether the Danker gas project in Western Australia is progressing toward commercial milestones on schedule."
+      ],
+      "tags": [
+        "Energy",
+        "Production",
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INA",
+      "company": "INGENIA COMMUNITIES GROUP",
+      "headline": "Asset Sales Update",
+      "time": "2026-09-02T23:23:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131171-2A1694729",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ingenia Communities Group has provided an asset sales update, indicating active portfolio rationalisation — proceeds from non-core or underperforming asset disposals can materially improve the REIT's balance sheet metrics, reduce gearing, and sharpen strategic focus on its core manufactured housing and holiday park segments.",
+        "Asset sale activity in the current higher-rate environment is a double-edged signal: it demonstrates execution capability and liquidity management, but the achieved sale prices versus book values will be critical — any discount to carrying value would imply impairment risk across the broader portfolio.",
+        "Near-term, proceeds are likely to be directed toward debt reduction or redeployment into higher-yielding development pipeline assets; investors should assess whether the sales reinforce or dilute INA's FFO (funds from operations) per security trajectory heading into the next half-year result."
+      ],
+      "tags": [
+        "Property",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VTX",
+      "company": "VERTEX MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-02T23:23:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131172-6A1342023",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Vertex Minerals has entered a trading halt, halting price discovery pending a material announcement — the market sensitivity flag confirms this is not procedural and likely relates to a capital raise, M&A event, or significant operational development.",
+        "Trading halts at small-cap miners like VTX most commonly precede a capital raise or an asset-level transaction; institutional investors should assess recent price action and any prior disclosure to frame the probable announcement type.",
+        "Until the halt is lifted and the underlying announcement is made, risk is binary — the stock could gap up or down materially on resumption, making this a high-alert watch for active traders and existing holders."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FBR",
+      "company": "FBR LTD",
+      "headline": "Trading Halt",
+      "time": "2026-09-02T23:22:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131170-6A1342022",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "FBR Ltd, the developer of the Hadrian autonomous bricklaying robot, has entered a trading halt flagged as market sensitive — indicating a forthcoming announcement of material consequence to the company's valuation or operations.",
+        "Given FBR's stage of commercialisation and ongoing capital requirements, a trading halt of this nature most commonly precedes a capital raise or a strategic partnership/licensing deal, either of which would have significant implications for the share price and cash runway.",
+        "Investors should note FBR's history of equity raises and monitor the resumption announcement carefully; a well-structured strategic deal could be a meaningful re-rating event, while a dilutive placement at a discount would weigh on sentiment."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "IPT",
       "company": "IMPACT MINERALS LIMITED",
