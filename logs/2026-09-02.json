@@ -1,9 +1,527 @@
 {
   "date": "2026-09-02",
-  "total": 353,
-  "market_sensitive_count": 84,
-  "generated_at": "2026-09-02T01:32:00.830582+00:00",
+  "total": 380,
+  "market_sensitive_count": 88,
+  "generated_at": "2026-09-02T02:45:47.687827+00:00",
   "announcements": [
+    {
+      "ticker": "AMD",
+      "company": "ARROW MINERALS LTD",
+      "headline": "Application for quotation of securities - AMD",
+      "time": "2026-09-02T02:31:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130734-6A1341849",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Arrow Minerals (AMD) lodging an application for quotation of new securities is a routine post-capital raise or acquisition administrative step, confirming that new shares are being brought onto the official ASX register.",
+        "The timing alongside AMD's concurrent acquisition announcement (E08/3668) strongly suggests these securities were issued as consideration or as part of a placement to fund the acquisition, making this a connected administrative filing rather than a standalone event.",
+        "While procedurally non-sensitive, the quotation of new securities increases AMD's total share count and introduces potential short-term supply-side pressure; the net impact on price depends on whether acquisition-related newsflow is sufficiently positive to absorb the additional float."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMD",
+      "company": "ARROW MINERALS LTD",
+      "headline": "Arrow completes acquisition of E08/3668",
+      "time": "2026-09-02T02:28:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130733-6A1341848",
+      "market_sensitive": false,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Arrow Minerals (AMD) has completed the acquisition of exploration licence E08/3668 — a tenement acquisition that expands AMD's ground position, likely in Western Australia given the licence prefix, adding prospective acreage to its existing minerals portfolio.",
+        "The strategic significance hinges on the geological prospectivity of E08/3668 and its proximity to AMD's existing projects; if the tenement is contiguous or in a highly prospective region (e.g. Pilbara, Kimberley), this could materially enhance AMD's exploration pipeline.",
+        "With the acquisition now complete, near-term catalysts will centre on exploration work programmes, drilling commitments under the tenement conditions, and any resource definition activities — investors should watch for an updated project overview or exploration roadmap."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NDO",
+      "company": "NIDO EDUCATION LIMITED",
+      "headline": "Appendix 3Y - Change of Director's Interest Notice",
+      "time": "2026-09-02T02:27:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130732-3A700827",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "An Appendix 3Y filing for Nido Education (NDO) discloses a change in a director's interest — this is a routine statutory disclosure, but the nature of the transaction (on-market purchase, disposal, or vesting of performance rights) determines its signalling value.",
+        "Director on-market purchases are traditionally viewed as a positive sentiment indicator, particularly for small-cap operators like NDO in the childcare/early education sector; conversely, open-market sales by insiders can raise near-term concerns about valuation or personal liquidity needs.",
+        "Given NDO's position as a childcare centre operator navigating sector-specific headwinds (labour costs, funding policy), any director accumulation would carry additional weight as a signal of management's confidence in the company's operational and financial outlook."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SFR",
+      "company": "SANDFIRE RESOURCES LIMITED",
+      "headline": "Notification of cessation of securities - SFR",
+      "time": "2026-09-02T02:22:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130731-6A1341847",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "SFR has filed a notification of cessation of securities, indicating that a parcel of securities (likely performance rights or options) has lapsed, been cancelled, or otherwise ceased to exist under ASX Listing Rule 3.19B.",
+        "Cessation events of this type typically relate to unvested employee incentive securities that failed to meet performance hurdles or were forfeited upon departure of a participant, reducing potential dilution to existing shareholders.",
+        "While not market sensitive, investors should monitor the quantum of securities ceased — large forfeitures can signal executive departures or missed internal KPIs, which may carry indirect strategic significance."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SFR",
+      "company": "SANDFIRE RESOURCES LIMITED",
+      "headline": "Cancel - Notification of cessation of securities - SFR",
+      "time": "2026-09-02T02:21:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130730-6A1341846",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "SFR has filed a cancellation of its earlier cessation of securities notice, indicating the original filing (Announcement [1]) was submitted in error and is now formally withdrawn from the ASX record.",
+        "This administrative retraction suggests a procedural or data-entry error by the company or its share registry, and investors should disregard the original cessation notice until a corrected filing is lodged.",
+        "The cancellation introduces minor uncertainty around the actual status of the securities in question; investors should watch for a revised, corrected announcement to clarify the position."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CWP",
+      "company": "CEDAR WOODS PROPERTIES LIMITED",
+      "headline": "Change of Director's Interest Notice - NJB",
+      "time": "2026-09-02T02:18:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130729-6A1341845",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Cedar Woods Properties director NJB has reported a change in their securities holding, a routine disclosure requirement under ASX Listing Rule 3.19A triggered by an acquisition, disposal, or vesting of securities.",
+        "Director interest notices in property companies are watched for signals of insider conviction — buying on-market at current prices would be a mild bullish indicator, while disposals may warrant closer scrutiny given CWP's exposure to residential property market cycles.",
+        "Given the filing is flagged as not market sensitive, the transaction is likely modest in scale or relates to a non-cash event such as a dividend reinvestment or rights exercise, limiting near-term price impact."
+      ],
+      "tags": [
+        "Board Change",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SDR",
+      "company": "SITEMINDER LIMITED",
+      "headline": "Appendix 3Y - P O'Sullivan",
+      "time": "2026-09-02T02:17:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130728-2A1694510",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "SiteMinder (SDR) has lodged an Appendix 3Y for director P O'Sullivan, disclosing a change in their relevant interest in SDR securities as required under ASX Listing Rule 3.19A.",
+        "As a high-growth SaaS platform serving the global hotel technology market, any on-market purchase by a director would signal confidence in SDR's growth trajectory and path to profitability — context critical given the company is still scaling toward EBITDA break-even.",
+        "The non-market-sensitive classification suggests this is an administrative update (e.g. expiry, vesting, or minor transfer) rather than a significant open-market transaction; no material re-rating is expected from this filing alone."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FCG",
+      "company": "FREEDOM CARE GROUP HOLDINGS LIMITED",
+      "headline": "Results of 2025 Annual General Meeting",
+      "time": "2026-09-02T02:16:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130727-6A1341844",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Freedom Care Group Holdings (FCG) has reported the results of its 2025 AGM, with all resolutions voted on by shareholders now formally disclosed to the market as required under ASX Listing Rules.",
+        "Key items to assess include whether any contentious resolutions — such as executive remuneration reports, director elections, or capital management authorities — attracted significant protest votes (above 25%), which would signal shareholder dissatisfaction.",
+        "As a healthcare-adjacent care services company, AGM outcomes including any approved capital issuance authorities or remuneration structures will shape FCG's near-term strategic and financial flexibility in a sector facing ongoing NDIS funding and regulatory scrutiny."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BRN",
+      "company": "BRAINCHIP HOLDINGS LTD",
+      "headline": "Application for quotation of securities - BRN",
+      "time": "2026-09-02T02:10:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130726-2A1694509",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "BrainChip Holdings (BRN) has lodged an Appendix 2A application for quotation of new securities, meaning additional BRN shares are being admitted to trading on the ASX following a recent issuance event.",
+        "This filing is consistent with the exercise of options, vesting of performance rights, or settlement of a prior capital raise — investors should identify the source and quantity of new shares to assess the degree of dilution to existing holders.",
+        "BRN remains a speculative neuromorphic AI chip developer with no material revenue; any incremental dilution from employee incentive schemes or placements warrants attention given the company's ongoing cash consumption and reliance on equity markets for funding."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ATH",
+      "company": "ALTERITY THERAPEUTICS LIMITED",
+      "headline": "Change of Director's Interest Notice - Stamler",
+      "time": "2026-09-02T02:03:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130725-3A700826",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Alterity Therapeutics (ATH) director Stamler has disclosed a change in their relevant interest in ATH securities via an Appendix 3Y filing, a standard ASX compliance requirement.",
+        "ATH is a clinical-stage neurodegenerative disease biotech with limited cash reserves and no approved product revenue; director share movements — particularly open-market purchases — carry heightened signal value in micro-cap biotechs as proxies for insider confidence in upcoming clinical or funding milestones.",
+        "The non-market-sensitive classification suggests the change is routine (e.g. vesting of incentive securities), and no immediate re-rating is anticipated; however, cumulative director buying patterns should be tracked as a leading indicator."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATH",
+      "company": "ALTERITY THERAPEUTICS LIMITED",
+      "headline": "Change of Director's Interest Notice - Marks",
+      "time": "2026-09-02T02:02:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130724-3A700825",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A second Alterity Therapeutics (ATH) director, Marks, has simultaneously filed a change of director's interest notice — the dual filing on the same day may relate to a common corporate event such as a vesting tranche or board-wide equity grant.",
+        "Concurrent filings by multiple directors often indicate a scheduled incentive plan vesting or board fee sacrifice into shares, rather than discretionary open-market transactions, limiting the informational content for external investors.",
+        "For a cash-constrained clinical biotech like ATH, monitoring the cumulative dilution from director and employee equity schemes remains important given the company's dependence on future capital raises to fund its neurodegeneration pipeline."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZIP",
+      "company": "ZIP CO LIMITED..",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-02T02:00:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130723-2A1694508",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder change in ZIP signals meaningful portfolio repositioning by a major institutional investor, warranting close attention to the direction (increase or decrease) of the holding as it reflects institutional conviction in the BNPL sector recovery thesis.",
+        "ZIP has been navigating a significant turnaround story — cost reductions, path-to-profitability narrative, and US market traction — making any shift in substantial holder composition a relevant read-through on institutional sentiment.",
+        "Investors should monitor whether this represents an entry, exit, or threshold crossing; sustained institutional accumulation would reinforce bullish momentum, while a reduction could signal fading confidence in ZIP's near-term earnings trajectory."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IND",
+      "company": "INDUSTRIAL MINERALS LTD",
+      "headline": "Change in substantial holding x2",
+      "time": "2026-09-02T01:59:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130722-6A1341843",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Two simultaneous substantial holding changes in Industrial Minerals Ltd (IND) suggest active repositioning at the register level, which for a small-cap minerals company can disproportionately impact liquidity and price discovery.",
+        "Dual filings may indicate coordinated or related party movements, or alternatively two independent investors crossing the 5% threshold — either scenario increases the likelihood of a tighter, more concentrated share register.",
+        "For a micro-cap like IND, substantial holder activity often precedes corporate action (e.g. placements, asset deals); investors should watch for follow-on announcements that may clarify strategic intent behind the register changes."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AIQ",
+      "company": "ALTERNATIVE INVESTMENT TRUST",
+      "headline": "AIQ NTA Factsheet July 2026",
+      "time": "2026-09-02T01:55:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130721-2A1694507",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Alternative Investment Trust (AIQ) has published its NTA (Net Tangible Assets) factsheet for July 2026, providing investors with a current per-unit NTA figure and portfolio composition update as required for listed investment trusts.",
+        "The key metric to assess is the NTA per unit relative to AIQ's prevailing market price — a persistent discount to NTA signals a market valuation drag and potential capital management pressure, while a premium may indicate speculative demand for the underlying alternative asset exposure.",
+        "Monthly NTA disclosures are a core transparency mechanism for LITs; institutional investors should compare July 2026 NTA movement against prior months to assess whether underlying alternative asset valuations are appreciating, stable, or deteriorating."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NXG",
+      "company": "NEXGEN ENERGY (CANADA) LTD",
+      "headline": "Statement of CDIs on issue - NXG",
+      "time": "2026-09-02T01:53:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130720-6A1341841",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "NexGen Energy (NXG) has filed a statement of CHESS Depositary Interests (CDIs) on issue, a routine periodic disclosure confirming the total number of CDIs currently quoted on the ASX for this Canadian-listed uranium developer.",
+        "NXG's Rook I uranium project in Saskatchewan represents one of the largest undeveloped high-grade uranium deposits globally; any material change in CDIs on issue could indicate new issuances, conversions from TSX-listed shares, or buybacks — each carrying different implications for ASX liquidity and float.",
+        "With uranium fundamentals remaining constructive amid nuclear energy renaissance narratives, NXG's CDI count update will be monitored by resource-focused institutions tracking the company's ASX register depth and foreign investor participation trends."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MNC",
+      "company": "MERINO & CO. LIMITED",
+      "headline": "Proposed issue of securities - MNC",
+      "time": "2026-09-02T01:52:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130719-6A1341840",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Merino & Co. (MNC) is flagging a forthcoming securities issuance, which signals potential capital activity — likely a placement, rights issue, or employee/incentive scheme allocation that warrants close monitoring for dilution risk.",
+        "The 'proposed' nature of the notice suggests the transaction is not yet completed; investors should watch for the follow-up Appendix 2A or 3B filing to determine size, pricing, and use of proceeds.",
+        "Given MNC's small-cap profile, even a modest capital raise could have a material impact on the share register and float — any pricing discount to market will be a key valuation signal."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MNC",
+      "company": "MERINO & CO. LIMITED",
+      "headline": "Placement Announcement",
+      "time": "2026-09-02T01:52:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130718-6A1341839",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Merino & Co. (MNC) has launched a capital raise via placement — a market-sensitive event that introduces immediate dilution risk for existing shareholders, with the key variables being the discount to last traded price and the quantum of funds raised.",
+        "The use of proceeds will be critical to sentiment: capital directed toward revenue-generating operations or near-term catalysts (e.g. inventory build, expansion) would be viewed more constructively than balance sheet repair or debt reduction in a distressed context.",
+        "Post-placement, investors should assess whether a Share Purchase Plan (SPP) follows to allow retail participation, and whether the placement price sets a new near-term price floor or creates an overhang from incoming placees seeking quick exits."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ABE",
+      "company": "AUSTRALIAN BOND EXCHANGE HOLDINGS LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-09-02T01:50:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130717-2A1694504",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Reinstatement to quotation for Australian Bond Exchange Holdings (ABE) ends a trading halt or suspension period — the critical question is what conditions were met to secure reinstatement and whether any material disclosures accompany the return to trade.",
+        "Reinstatements following halts can trigger significant volatility in both directions; the market will rapidly reprice ABE based on any news released during the suspension, making the first trading session a high-risk, high-attention event.",
+        "As a bond exchange platform operator, ABE's reinstatement will be scrutinised for any regulatory, financial, or operational developments that prompted the halt — resolution of such issues could be a medium-term positive if investor confidence is restored."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SHE",
+      "company": "STONEHORSE ENERGY LIMITED",
+      "headline": "Sale of Lone Star's US Interest",
+      "time": "2026-09-02T01:48:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130716-6A1341837",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Stonehorse Energy's (SHE) sale of Lone Star's US interest is a material asset divestment — the headline price and any cash proceeds will directly determine whether this is value-accretive or a distressed exit below carrying value.",
+        "Divesting US energy assets simplifies SHE's portfolio and could sharpen strategic focus on its core Australian/other operations, but it also removes potential upside from US energy exposure at a time when oil and gas prices remain elevated.",
+        "Key next steps include disclosure of sale proceeds, intended capital allocation (debt repayment, reinvestment, or return to shareholders), and whether this transaction triggers any change-of-control or earn-out provisions that could affect final consideration."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NGI",
+      "company": "NAVIGATOR GLOBAL INVESTMENTS LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-02T01:47:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130715-2A1694506",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Director's Interest Notice for Navigator Global Investments (NGI) indicates a change in a director's shareholding — either an on-market purchase, sale, or vesting of performance rights — which can signal insider conviction or distribution.",
+        "If the change reflects an on-market buy, it would represent a modestly bullish signal of management alignment with shareholders; a sale would raise questions about near-term confidence in the stock's trajectory.",
+        "With NGI operating as a global alternatives asset manager, director transactions should be cross-referenced against the firm's recent FUM trends and earnings guidance to assess whether the move is opportunistic or precautionary."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "Becoming a substantial holder from CBA",
+      "time": "2026-09-02T01:46:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130714-3A700824",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "CBA (Commonwealth Bank) becoming a substantial holder in Karoon Energy (KAR) via a Section 671B notice is a notable institutional endorsement — CBA's investment arm crossing the 5% threshold in a mid-cap oil and gas producer signals meaningful conviction.",
+        "KAR operates producing Brazilian offshore assets with strong cash generation potential; CBA's entry at substantial holder level could reflect a view that KAR's valuation discount to NAV is excessive, particularly given current oil price dynamics.",
+        "This development may attract incremental institutional attention to KAR's register, potentially supporting the share price — however, investors should determine whether this is a custodial/index-related holding or a discretionary active position, as that distinction materially affects the signal's strength."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MXO",
+      "company": "MOTIO LTD",
+      "headline": "Notice of Annual General Meeting Information",
+      "time": "2026-09-02T01:44:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130713-6A1341836",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Motio Ltd (MXO) has issued AGM information materials, confirming the meeting is proceeding as scheduled — a routine governance milestone with no immediate financial impact anticipated.",
+        "The AGM notice will outline resolutions likely covering director re-elections, remuneration report approval, and potentially equity-based incentive schemes; any contested resolutions or significant proxy votes against management would be the key risk to watch.",
+        "As a smaller-cap technology company, MXO's AGM is an opportunity for management to update the market on strategic direction and operational progress — any forward-looking commentary accompanying proceedings could move sentiment."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EDV",
+      "company": "ENDEAVOUR GROUP LIMITED",
+      "headline": "Notification regarding unquoted securities - EDV",
+      "time": "2026-09-02T01:40:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130712-2A1694502",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Endeavour Group (EDV) has filed a notification regarding unquoted securities, most likely relating to the vesting or allocation of performance rights or options under an employee incentive plan — a standard corporate governance disclosure.",
+        "Unquoted security notifications for a company of EDV's scale (ASX top-100 liquor and gaming operator) typically have minimal market impact unless the volume of securities is unusually large relative to the existing share count.",
+        "Investors should review the Appendix 3B associated with this notice to confirm the quantum and nature of securities issued, and assess any incremental dilution to EPS forecasts, particularly given current cost-pressure headwinds facing EDV's retail and hospitality divisions."
+      ],
+      "tags": [
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JEG",
+      "company": "JPM GLOBAL EQUITY PREMIUM INCOME COMPLEX ETF",
+      "headline": "Distribution Tax Estimates",
+      "time": "2026-09-02T01:40:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130711-2A1694501",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "JPMorgan's Global Equity Premium Income ETF (JEG) has released distribution tax estimates, providing unitholders with the tax composition breakdown — including assessable income, capital gains, and franking credits — essential for year-end tax planning.",
+        "The release of tax estimates ahead of formal distribution statements allows financial advisers and SMSF trustees to model after-tax returns accurately; the quantum of any franking credits will be a key component of total after-tax yield for Australian investors.",
+        "As a complex ETF employing an options overlay strategy for income generation, JEG's tax character can vary significantly year-to-year; any uplift in the capital gains component relative to prior periods may subtly affect investor sentiment around the product's tax efficiency."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCO",
+      "company": "THE CALMER CO INTERNATIONAL LIMITED",
+      "headline": "Completion of the Entitlement Offer",
+      "time": "2026-09-02T01:40:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130710-6A1341833",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "The Calmer Co. International (CCO) has completed its entitlement offer, marking successful execution of a retail capital raise — completion removes the execution risk overhang and confirms the company has secured the intended funding.",
+        "The level of take-up by existing shareholders relative to the offer size is a key signal: a high subscription rate indicates shareholder confidence in CCO's strategy, while significant shortfall placement to sub-underwriters may signal retail investor fatigue or valuation concerns.",
+        "With capital now in hand, the market's focus shifts to deployment — CCO operates in the natural wellness and hemp-derived products space, so investors will expect near-term progress on product launches, distribution expansion, or operational milestones to justify the dilution."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OSL",
+      "company": "ONCOSIL MEDICAL LTD",
+      "headline": "OncoSil submits US Reimbursement Application (Updated)",
+      "time": "2026-09-02T01:33:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130709-2A1694499",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "OncoSil Medical (OSL) has submitted a US reimbursement application — a pivotal commercial milestone, as securing CMS (Centers for Medicare & Medicaid Services) reimbursement codes is a critical gateway to meaningful US revenue generation for its pancreatic cancer brachytherapy device.",
+        "Without reimbursement approval, US hospital adoption of OncoSil's device remains severely constrained regardless of regulatory clearance; a successful application could unlock access to one of the world's largest and highest-value oncology markets, materially re-rating the company's addressable market.",
+        "The 'Updated' tag on this announcement suggests a revision or supplement to a prior submission — investors should scrutinise what changed, as updates can reflect responses to regulator queries (positive) or scope reductions (negative); the timeline to a CMS decision will be the next critical catalyst to monitor."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MXO",
+      "company": "MOTIO LTD",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-09-02T01:32:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130708-6A1341832",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Motio Ltd (MXO) has released the formal Notice of AGM along with a proxy form, enabling shareholders to lodge votes ahead of the meeting — a mandatory procedural disclosure with no direct financial implications.",
+        "The proxy form is the actionable document for institutional and retail shareholders; scrutiny of specific resolutions — particularly any equity issuance authorities, remuneration outcomes, or related-party transactions — is warranted given MXO's stage of growth.",
+        "This filing complements the earlier AGM information notice (Announcement [3]) and together they define the governance agenda; investors should assess board composition and any changes to incentive structures as proxies for management's confidence in the company's strategic roadmap."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "REV",
       "company": "REVOLUTION PRIVATE CREDIT INCOME TRUST",
