@@ -1,9 +1,258 @@
 {
   "date": "2026-09-03",
-  "total": 122,
-  "market_sensitive_count": 25,
-  "generated_at": "2026-09-02T22:50:59.754532+00:00",
+  "total": 135,
+  "market_sensitive_count": 30,
+  "generated_at": "2026-09-02T23:00:07.740099+00:00",
   "announcements": [
+    {
+      "ticker": "MP1",
+      "company": "MEGAPORT LIMITED",
+      "headline": "Application for quotation of securities - MP1",
+      "time": "2026-09-02T22:56:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131114-2A1694710",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Megaport's application for quotation of new securities is an administrative ASX compliance filing, most likely relating to shares issued under an employee incentive plan, dividend reinvestment plan, or a recently completed capital raise.",
+        "This is a routine procedural announcement with no direct earnings or valuation impact; however, investors should note the volume of new securities being quoted to assess any incremental dilution to existing shareholders.",
+        "No strategic action is required by institutional holders at this stage — the announcement confirms ASX listing rules compliance rather than signalling any change in corporate strategy or financial position."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TET",
+      "company": "TETRAGON ENERGY LIMITED",
+      "headline": "Tetragon significantly increases Philippines resources",
+      "time": "2026-09-02T22:56:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131113-6A1342009",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tetragon has materially upgraded its Philippines resource estimate, a significant de-risking event that enhances the project's economic viability and potential to attract farm-in partners or project financing.",
+        "A 'significant' resource increase in a market-sensitive update suggests the uplift is material enough to potentially re-rate the stock — investors should watch for the quantum of tonnage/barrel increase relative to prior estimates to assess true scale.",
+        "Next steps will centre on whether the enlarged resource supports a move toward a Preliminary Feasibility Study or triggers renewed interest from majors; the Philippines energy sector carries geopolitical and regulatory complexity that remains a key risk to monetisation timelines."
+      ],
+      "tags": [
+        "Energy",
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst MINIs Cash Amounts for Stop Loss Event 2 Sep 26",
+      "time": "2026-09-02T22:56:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131112-2A1694709",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This announcement details cash settlement amounts for a CitiFirst MINI stop-loss event triggered on 2 September 2026, a standard structured product administration notice with no direct implication for the underlying ASX-listed securities.",
+        "Stop-loss events on MINIs result in the automatic termination of the product and cash distribution to holders — this is a mechanical outcome of the product's terms and conditions, not a market event driven by fundamental change.",
+        "No actionable insight for equity investors in underlying companies; this is purely an administrative notification relevant only to holders of the specific CitiFirst MINI securities that were stopped out."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COV",
+      "company": "CLEO DIAGNOSTICS LTD",
+      "headline": "CLEO Receives First Batch of Commercial Test Kits",
+      "time": "2026-09-02T22:55:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131111-3A700885",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Receipt of the first commercial batch of test kits marks a critical inflection point for CLEO Diagnostics, transitioning the company from a development-stage asset to a revenue-generating entity — a key derisking milestone for early-stage healthcare investors.",
+        "The commercial kit delivery signals that manufacturing partners have met quality and regulatory specifications, reducing supply-chain execution risk that has historically been a valuation overhang for diagnostics companies pre-revenue.",
+        "Near-term catalysts to monitor include the pace of commercial rollout, initial sales order volumes, and any reimbursement or distribution partnership announcements that will determine whether early revenue translates into a sustainable revenue ramp."
+      ],
+      "tags": [
+        "Healthcare",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "STM",
+      "company": "SUNSTONE METALS LTD",
+      "headline": "Drilling expands Melonal porphyry system",
+      "time": "2026-09-02T22:55:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131110-2A1694704",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling results expanding the Melonal porphyry system at Sunstone Metals suggest the mineralised footprint is larger than previously defined, a materially positive development for resource estimation and project-scale economics.",
+        "Porphyry system expansion is technically significant — porphyry copper-gold deposits are bulk-tonnage targets, and each step-out that confirms lateral or depth continuity can exponentially increase resource potential and attract major mining company attention.",
+        "Investors should assess the new intercept grades and widths against the existing resource to gauge whether the expansion is high-grade or predominantly lower-grade bulk tonnage, as this will dictate the processing and capital intensity of any future development scenario."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VNT",
+      "company": "VENTIA SERVICES GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - VNT",
+      "time": "2026-09-02T22:54:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131109-2A1694707",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ventia's updated on-market buy-back notification signals continued capital returns to shareholders, reflecting management's confidence in the company's cash generation capacity and a view that shares represent good value at current levels.",
+        "Buy-back activity provides a technical earnings-per-share accretion tailwind and can act as a valuation floor signal; however, the update nature of this filing suggests this is a continuation of an existing program rather than a new or enlarged buy-back announcement.",
+        "Institutional investors should track the pace of buy-back execution relative to the authorised limit — an accelerating buy-back rate would be a stronger bullish signal, while a slowing rate may indicate management is becoming more cautious on capital allocation or free cash flow outlook."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALL",
+      "company": "ARISTOCRAT LEISURE LIMITED",
+      "headline": "Update - Notification of buy-back - ALL",
+      "time": "2026-09-02T22:53:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131108-2A1694706",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Aristocrat Leisure's updated buy-back notification confirms ongoing capital management discipline from one of the ASX's highest-quality gaming technology companies, consistent with its strong free cash flow generation and conservative balance sheet management.",
+        "As with Ventia, this is an update to an existing program rather than a new announcement — the key metric to monitor is total shares retired to date versus the authorised limit and whether the buy-back pace is being maintained or adjusted in light of the current share price.",
+        "Aristocrat's buy-back program, combined with its structural growth in digital gaming and North American land-based operations, reinforces a shareholder-friendly capital allocation framework that institutional investors typically view favourably over a medium-term horizon."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACE",
+      "company": "ACUSENSUS LIMITED.",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-02T22:53:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131107-2A1694705",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for Acusensus is a routine regulatory disclosure required under ASX Listing Rule 3.19A, indicating a director has acquired, disposed of, or otherwise changed their relevant interest in company securities.",
+        "The direction of the transaction — buy or sell — is the critical detail; on-market purchases by directors are typically read as a positive insider confidence signal, while sales (particularly in a small-cap like ACE) can create negative sentiment even if made for personal liquidity reasons.",
+        "Given Acusensus operates in the road safety technology space with government contract exposure, any director buying at current levels would reinforce conviction in the contract pipeline; investors should review the actual transaction detail to determine whether this warrants any portfolio action."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KCN",
+      "company": "KINGSGATE CONSOLIDATED LIMITED.",
+      "headline": "Nueva Esperanza Project Update",
+      "time": "2026-09-02T22:52:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131106-2A1694703",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Nueva Esperanza is Kingsgate's silver-gold development project in Chile — a project update (non-market sensitive) signals incremental progress rather than a material milestone, but sustained newsflow is critical for maintaining investor interest in what remains a pre-production asset.",
+        "With KCN's primary cash-generating asset being the Chatree gold mine in Thailand (currently in care and maintenance amid legal proceedings), Nueva Esperanza carries increasing strategic weight as the company's pathway to near-term production optionality — any permitting or feasibility advancement here materially de-risks the story.",
+        "Investors should monitor for specific updates on environmental permitting, resource estimate revisions, or funding arrangements; absent hard catalysts, this update is likely procedural and unlikely to shift the valuation needle without confirmation of a construction decision or partnership."
+      ],
+      "tags": [
+        "Mining",
+        "Production",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KCC",
+      "company": "KINCORA COPPER LIMITED",
+      "headline": "Exploration Update - Drilling Planned Across Four Projects",
+      "time": "2026-09-02T22:51:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131105-6A1342007",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kincora Copper's announcement of planned drilling across four projects signals a broad-based exploration campaign, which, while demonstrating portfolio activity, also risks diluting investor focus and spreading limited capital across multiple fronts simultaneously.",
+        "The market-sensitive classification suggests at least some of the planned drilling targets are considered material — investors should scrutinise which of the four projects carries the highest-priority targets and whether Kincora has secured adequate funding to complete all programs without requiring a near-term capital raise.",
+        "With copper demand structurally supported by energy transition themes, any high-grade discovery across the portfolio could act as a significant re-rating catalyst; however, 'planned drilling' represents pre-discovery optionality and carries standard junior explorer execution risk."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STG",
+      "company": "STRAKER LIMITED",
+      "headline": "Director Appointment/Resignation",
+      "time": "2026-09-02T22:49:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131104-2A1694701",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director appointment or resignation at Straker Limited (AI-powered translation technology company) is an administrative governance event; however, board composition changes at small-cap tech firms can signal strategic pivots, succession planning, or investor-driven pressure on management.",
+        "Straker has faced sustained revenue growth headwinds and margin pressure in a competitive language services market increasingly disrupted by generative AI — a new director appointment could indicate the board is seeking fresh expertise in technology commercialisation, M&A, or capital markets to accelerate a strategic reset.",
+        "Until the identity and background of the incoming/outgoing director are confirmed, the market impact is minimal; investors should assess whether the appointee brings domain expertise in AI, SaaS scaling, or capital allocation that could credibly support STG's turnaround narrative."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGH",
+      "company": "MAAS GROUP HOLDINGS LIMITED",
+      "headline": "Update - Notification of buy-back - MGH",
+      "time": "2026-09-02T22:49:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131103-2A1694702",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MAAS Group's on-market buyback update signals management confidence in the intrinsic value of MGH shares relative to current market pricing — buybacks by capital-intensive civil construction and real estate businesses are notable as they prioritise shareholder returns over reinvestment, implying balance sheet comfort.",
+        "The buyback program provides a technical price floor and reduces the share count, which is modestly EPS-accretive; for a company of MGH's profile operating across construction materials, civil works, and real estate, this capital allocation decision suggests free cash flow generation is tracking ahead of growth capex requirements.",
+        "Investors should track the pace and volume of buyback activity disclosed in this notification — an acceleration in buyback cadence would be a stronger bullish signal, while a slow or minimal buyback rate may indicate the program is more symbolic than substantive in terms of capital deployment."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EMV",
+      "company": "EMVISION MEDICAL DEVICES LTD",
+      "headline": "emu Regional Benefits Study Advancing",
+      "time": "2026-09-02T22:48:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131102-6A1342006",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Advancement of the emu Regional Benefits Study for EmVision's portable brain imaging device is a clinical and regulatory pathway milestone, helping build the evidence base required for hospital procurement decisions and potential TGA/FDA submission support.",
+        "A 'regional benefits' study framing suggests EmVision is targeting deployment in underserved or rural healthcare settings — a strategically differentiated positioning that could unlock government funding, grants, or health system procurement frameworks not available to urban-only devices.",
+        "The study is progressing but not yet complete, meaning near-term revenue impact remains limited; the key forward catalyst is publication of study results and any subsequent health technology assessment endorsement that could accelerate commercial adoption."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "KKC",
       "company": "KKR CREDIT INCOME FUND",
