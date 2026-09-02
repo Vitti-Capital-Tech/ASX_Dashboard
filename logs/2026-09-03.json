@@ -1,9 +1,237 @@
 {
   "date": "2026-09-03",
-  "total": 110,
-  "market_sensitive_count": 24,
-  "generated_at": "2026-09-02T22:41:38.286888+00:00",
+  "total": 122,
+  "market_sensitive_count": 25,
+  "generated_at": "2026-09-02T22:50:59.754532+00:00",
   "announcements": [
+    {
+      "ticker": "KKC",
+      "company": "KKR CREDIT INCOME FUND",
+      "headline": "Net Tangible Asset Backing",
+      "time": "2026-09-02T22:47:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131101-2A1694700",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "KKR Credit Income Fund's routine NTA backing disclosure provides a transparent per-unit valuation snapshot, allowing investors to assess whether KKC is trading at a premium or discount to underlying asset value — a key metric for closed-end credit fund investors.",
+        "Any meaningful NTA movement versus the prior period would signal shifts in the fund's credit portfolio mark-to-market valuations, reflecting changes in credit spreads, interest rates, or underlying borrower performance across KKR's private credit book.",
+        "This is a periodic administrative disclosure with no immediate strategic implications, but persistent NTA discounts could attract activist pressure or trigger a buyback, while NTA accretion supports the distribution sustainability narrative."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABB",
+      "company": "AUSSIE BROADBAND LIMITED",
+      "headline": "Aussie Broadband Board Announces New Non-Executive Director",
+      "time": "2026-09-02T22:45:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131100-3A700884",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Aussie Broadband has appointed a new Non-Executive Director, signalling a deliberate effort to bolster board capabilities — likely in areas of technology, regulatory affairs, or M&A expertise as the company navigates a competitive broadband market.",
+        "Board composition changes at ABB are strategically significant given the company's ongoing integration of acquisitions and its push into enterprise and government segments, where governance credibility and domain expertise matter to institutional counterparties.",
+        "While procedurally non-market-sensitive, the quality and background of the incoming director could inform market perception of ABB's strategic direction; investors should review the appointee's credentials for signals on future corporate priorities."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CEH",
+      "company": "COAST ENTERTAINMENT HOLDINGS LIMITED",
+      "headline": "Notification regarding unquoted securities - CEH",
+      "time": "2026-09-02T22:43:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131099-2A1694699",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Coast Entertainment Holdings' notification regarding unquoted securities typically relates to the issuance of options, performance rights, or other equity instruments not yet listed — this represents potential future dilution that existing shareholders should factor into valuation models.",
+        "The administrative nature of the filing suggests these securities were likely issued as part of employee incentive schemes or as consideration in a transaction, both of which carry different implications for dilution risk and alignment of management incentives.",
+        "Until further details on the quantum, exercise price, and vesting conditions are disclosed, the near-term impact is negligible, but the overhang of unquoted securities warrants monitoring as conversion events approach."
+      ],
+      "tags": [
+        "Other",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GAL",
+      "company": "GALILEO MINING LTD",
+      "headline": "2026 Annual General Meeting - Key Dates",
+      "time": "2026-09-02T22:43:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131098-6A1342003",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Galileo Mining's announcement of key dates for its 2026 AGM is a routine governance milestone, but AGMs for junior miners like GAL are often catalysts for shareholder engagement on exploration strategy, capital allocation, and management accountability.",
+        "For a company focused on palladium and nickel sulphide exploration in Western Australia, the AGM agenda may include resolutions on equity issuance capacity, director re-elections, and remuneration — all of which carry dilution and governance implications for retail-heavy registers.",
+        "Investors should note the AGM date as a potential event horizon for updated resource estimates or exploration results, as management typically uses the AGM platform to frame the forward drilling and discovery narrative."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DJW",
+      "company": "DJERRIWARRH INVESTMENTS LIMITED",
+      "headline": "Update - Notification of buy-back - DJW",
+      "time": "2026-09-02T22:43:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131097-3A700883",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Djerriwarrh Investments' updated buyback notification confirms the LIC is actively returning capital to shareholders, which is a direct signal that management views the current share price as trading at an unjustified discount to NTA — a technically bullish indicator for value-focused investors.",
+        "Buybacks in LICs like DJW serve a dual purpose: they reduce the discount to NTA on a per-share basis and support the share price floor, making this a meaningful capital management tool particularly relevant to income-focused investors who hold DJW for its franked dividend stream.",
+        "The pace and scale of buyback activity relative to average daily volume will be the critical variable — an accelerating buyback signals management conviction, while a slow or stalled program may disappoint the market."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GW1",
+      "company": "GREENWING RESOURCES LTD",
+      "headline": "Application for quotation of securities - GW1",
+      "time": "2026-09-02T22:43:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131096-6A1342001",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Greenwing Resources' application for quotation of new securities indicates a recent capital raise or equity issuance has been completed, and these shares are now seeking ASX listing — the immediate effect is an increase in freely tradeable supply, which can create short-term selling pressure.",
+        "For a junior resources company, this type of filing typically follows a placement or rights issue, meaning the company has recently secured fresh capital — investors should assess the use-of-funds disclosure to determine whether proceeds are directed toward high-value exploration or operational needs.",
+        "The dilutive impact will depend on the price at which new shares were issued relative to the prevailing market price; a significant discount to market on the newly quoted securities could weigh on sentiment in the near term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AFI",
+      "company": "AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
+      "headline": "Update - Notification of buy-back - AFI",
+      "time": "2026-09-02T22:42:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131095-3A700882",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Foundation Investment Company's buyback update reinforces AFI's long-standing capital management discipline, with the program designed to reduce any discount to NTA and provide an additional avenue of shareholder value delivery alongside its fully franked dividend stream.",
+        "As one of Australia's largest and most widely held LICs, AFI's buyback activity carries institutional significance — it signals the board's conviction that the market is undervaluing the underlying equity portfolio, which typically includes blue-chip ASX names.",
+        "The continuity of the buyback program is a positive governance signal for AFI's retail and SMSF investor base, reinforcing the stock's defensive, income-oriented appeal; however, meaningful re-rating requires either NTA growth or a sustained narrowing of the market price-to-NTA gap."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMP",
+      "company": "AMP LIMITED",
+      "headline": "Update - Notification of buy-back - AMP",
+      "time": "2026-09-02T22:42:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131094-2A1694698",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMP's ongoing share buyback update demonstrates the company's continued commitment to capital return as it executes its restructured, leaner business model post-divestments — this is a direct mechanism for EPS accretion and signals management confidence in the balance sheet.",
+        "For AMP, the buyback is particularly significant given the stock has traded at a sustained discount to book value; systematic repurchases reduce the share count and can gradually close this gap, making it a key lever in the company's shareholder value restoration narrative.",
+        "Institutional investors should track the buyback's cumulative progress against the total authorised program size — completion rates and any acceleration or deceleration will be read as leading indicators of AMP's free cash flow generation and capital surplus position."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DOC",
+      "company": "DOCTOR CARE ANYWHERE GROUP PLC",
+      "headline": "H126 Investor Presentation",
+      "time": "2026-09-02T22:41:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131093-2A1694697",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Doctor Care Anywhere's H1 2026 investor presentation provides a mid-year strategic and financial update for this UK-headquartered digital health company listed on the ASX, offering investors a comprehensive view of revenue trajectory, patient volumes, and cost structure evolution.",
+        "Key metrics for institutional scrutiny will include revenue growth rates, gross margin trends, path to EBITDA breakeven, and any updates on NHS or corporate client contract wins — all of which are critical for assessing whether the company's digital telehealth model is reaching commercial viability.",
+        "While flagged as non-market-sensitive, investor presentations often contain forward-looking guidance or KPI disclosures that can materially shift market sentiment; the lack of a market-sensitive flag may indicate a steady-state or in-line operational narrative rather than a transformative update."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMH",
+      "company": "AMCIL LIMITED",
+      "headline": "Update - Notification of buy-back - AMH",
+      "time": "2026-09-02T22:41:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131092-3A700881",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMCIL is maintaining an active on-market share buyback program, signalling management confidence in the stock's intrinsic value relative to its current market price — a modest but consistent capital management tool for this LIC.",
+        "Buyback activity provides a technical floor for AMH shares and is accretive to NTA per share over time, benefiting remaining shareholders as shares are retired below assessed portfolio value.",
+        "Investors should monitor the pace and volume of buyback purchases disclosed in subsequent updates; an acceleration would suggest widening NTA discount and heightened management conviction, while a slowdown may indicate reduced discount or capital redeployment priorities."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GW1",
+      "company": "GREENWING RESOURCES LTD",
+      "headline": "Application for quotation of securities - GW1",
+      "time": "2026-09-02T22:40:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131091-6A1342000",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Greenwing Resources has lodged an application for quotation of new securities on the ASX, indicating a recent capital raise has been completed and new shares are being admitted to trading — a procedural but important step confirming fresh capital has entered the company.",
+        "The quotation of additional securities introduces near-term dilution risk for existing shareholders; the degree of impact depends on the size of the issuance relative to existing shares on issue, which warrants close review of the accompanying placement or rights issue terms.",
+        "As a resources explorer, GW1 will likely deploy the new capital toward exploration or feasibility activities — investors should assess whether the raise strengthens the cash runway sufficiently to reach the next meaningful value catalyst before further funding is required."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FOS",
+      "company": "FOS CAPITAL LTD",
+      "headline": "FOS - Q1 FY27 Update",
+      "time": "2026-09-02T22:39:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131090-3A700880",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive Q1 FY27 update from FOS Capital signals a potentially material operational or financial development that warrants immediate investor attention — the market-sensitive flag indicates disclosure of information capable of moving the share price.",
+        "As a capital markets/finance business, key metrics to watch include loan book growth, credit quality metrics, net interest margins, and any guidance revisions that may be embedded in the quarterly update.",
+        "Investors should monitor for any changes to FY27 full-year guidance, capital adequacy disclosures, or commentary on funding conditions, which could set the tone for the stock's near-term trajectory."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "RLF",
       "company": "RLF AGTECH LTD",
