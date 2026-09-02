@@ -1,9 +1,533 @@
 {
   "date": "2026-09-02",
-  "total": 325,
-  "market_sensitive_count": 83,
-  "generated_at": "2026-09-02T00:58:17.001813+00:00",
+  "total": 353,
+  "market_sensitive_count": 84,
+  "generated_at": "2026-09-02T01:32:00.830582+00:00",
   "announcements": [
+    {
+      "ticker": "REV",
+      "company": "REVOLUTION PRIVATE CREDIT INCOME TRUST",
+      "headline": "Weekly Estimate NTA for 01.09.2026",
+      "time": "2026-09-02T01:28:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130707-3A700823",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Revolution Private Credit Income Trust (REV) has published its weekly estimated NTA as at 1 September 2026, providing transparency on the fund's net asset value — a routine but important data point for income-focused investors assessing whether the trust is trading at a premium or discount to intrinsic value.",
+        "Private credit NTA disclosures are a key valuation anchor for this asset class; any week-on-week movement in NTA reflects changes in the underlying loan book's mark-to-market valuation, credit quality, or fee accruals — investors should compare to the prevailing unit price to identify arbitrage or risk signals.",
+        "With credit markets under scrutiny amid rate cycle uncertainty, consistent or improving NTA readings would reinforce confidence in the trust's loan book quality, while any NTA erosion would warrant closer examination of underlying borrower credit metrics and default provisions."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EDV",
+      "company": "ENDEAVOUR GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice - Joanne Pollard",
+      "time": "2026-09-02T01:28:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130706-2A1694498",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director Joanne Pollard has filed a change of interest notice for Endeavour Group (EDV), disclosing a movement in her direct or indirect shareholding — likely related to vesting of performance rights, on-market acquisition, or disposal under a trading plan.",
+        "Director share transactions at EDV carry modest signalling value given the company's large-cap status and institutional ownership base; however, any material on-market sale by a director could be interpreted as a negative sentiment signal, particularly given EDV's ongoing strategic review of its Hotels division.",
+        "Investors should note the quantum and nature of the transaction — a vesting and retention of shares is broadly neutral-to-positive, whereas an open-market sell-down may reinforce existing bearish sentiment around EDV's earnings outlook amid cost pressures in the liquor retail and hospitality segments."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JPH",
+      "company": "JPMORGAN NASDAQ EQTY PREM INC (HEDGED) COMPLEX ETF",
+      "headline": "Distribution Tax Estimates",
+      "time": "2026-09-02T01:26:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130705-2A1694497",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "JPMorgan's Nasdaq Equity Premium Income Hedged ETF (JPH) has released distribution tax estimates, providing unitholders with the breakdown of the income component's tax treatment — essential for end-of-financial-year planning by retail and institutional investors.",
+        "The tax estimate disclosure clarifies the split between assessable income, foreign income, capital gains, and tax offsets (including any franking or foreign tax credits), which directly impacts after-tax yield calculations and the attractiveness of the ETF for different investor tax profiles.",
+        "No material price impact is expected from this administrative filing; however, the implied distribution yield embedded in the estimates can be used to benchmark JPH's income efficiency against comparable covered-call or premium income strategies listed on the ASX."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JHG",
+      "company": "JPM GBL EQUITY PREMIUM INCOME HEDGED COMPLEX ETF",
+      "headline": "Distribution Tax Estimate",
+      "time": "2026-09-02T01:26:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130704-2A1694496",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "JPMorgan's Global Equity Premium Income Hedged ETF (JHG) has filed its distribution tax estimate, a routine compliance disclosure enabling unitholders to accurately assess the after-tax income return from this options-overlay global equity income strategy.",
+        "The tax component breakdown is particularly relevant for SMSF and wholesale investors managing franking credit entitlements and foreign income tax offset claims, as the hedged structure introduces additional complexity in tax treatment compared to unhedged equivalents.",
+        "This is an administrative disclosure with no direct share price implications; investors should focus on whether the implied distribution rate remains competitive relative to JHG's benchmark and peer ETFs, particularly as global equity volatility influences the premium income generated from the options overlay."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BGA",
+      "company": "BEGA CHEESE LIMITED",
+      "headline": "Update - Dividend/Distribution - BGA",
+      "time": "2026-09-02T01:26:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130703-3A700822",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Bega Cheese (BGA) has updated its dividend/distribution announcement, which could reflect a revision to the quantum, record date, payment date, or franking level of a previously declared dividend — any upward revision would be a mild positive catalyst for yield-focused investors.",
+        "BGA's dividend capacity is closely watched given the company's leverage position following the Kmart/Target dairy brands acquisition; any affirmation or increase in the payout signals management confidence in free cash flow generation and balance sheet normalisation.",
+        "Investors should confirm whether the update constitutes a correction, an increase, or a reduction to prior guidance — a reduction would be a negative signal for sentiment, while a franking level increase would enhance the after-tax yield and support the stock's appeal to domestic income portfolios."
+      ],
+      "tags": [
+        "Dividend",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JPE",
+      "company": "JPMORGAN NASDAQ EQUITY PREMIUM INCOME COMPLEX ETF",
+      "headline": "Distribution Tax Estimates",
+      "time": "2026-09-02T01:22:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130702-2A1694495",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "JPMorgan's Nasdaq Equity Premium Income ETF (JPE, unhedged) has released its distribution tax estimates, mirroring the disclosure from its hedged counterpart (JPH) and providing unitholders with the tax characterisation of income received from this covered-call Nasdaq strategy.",
+        "For JPE specifically, the absence of currency hedging means the tax estimate will also reflect any foreign currency gains or losses embedded in the distribution, adding complexity for investors modelling after-tax returns — particularly relevant as AUD/USD movements have been significant.",
+        "This is a procedural filing with no expected price impact; the key investor takeaway is confirming the effective after-tax yield relative to the unit price, which determines whether JPE continues to offer a compelling risk-adjusted income alternative to fixed income or domestic equity dividend strategies."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RKT",
+      "company": "ROCKETDNA LTD.",
+      "headline": "Sydney Mining Club Presentation",
+      "time": "2026-09-02T01:16:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130701-6A1341831",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "RocketDNA (RKT) is presenting at the Sydney Mining Club, a targeted networking and investor engagement event — this signals management's active effort to raise the company's profile within the mining services and technology sector, which is its primary addressable market.",
+        "Presentations at industry forums like the Sydney Mining Club can catalyse new commercial relationships or investor interest in RKT's drone and remote sensing technology solutions for mining clients, potentially supporting near-term deal flow or revenue pipeline growth.",
+        "While the announcement itself carries no immediate financial impact, the content of the presentation — particularly any new client wins, contract updates, or technology capability disclosures — should be monitored closely as a potential leading indicator of RKT's commercial momentum in an underserved niche."
+      ],
+      "tags": [
+        "Mining",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KNO",
+      "company": "KNOSYS LIMITED",
+      "headline": "Notification of cessation of securities - KNO",
+      "time": "2026-09-02T01:16:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130700-3A700821",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities filing typically reflects the lapsing or cancellation of options/performance rights that were not exercised, reducing potential future dilution for existing KNO shareholders.",
+        "The administrative nature of this notice suggests no cash outflow or operational disruption — the securities simply expired unexercised, which may indicate underwater strike prices relative to current market levels.",
+        "Investors should cross-reference the volume of ceased securities against total issued capital to assess the materiality of dilution relief; for a micro-cap like KNO, even modest reductions in overhang can be meaningful."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JHP",
+      "company": "JPMORGAN EQTY PREMIUM INCOME (HEDGED) COMPLEX ETF",
+      "headline": "Distribution Tax Estimates",
+      "time": "2026-09-02T01:13:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130699-2A1694493",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Distribution tax estimate disclosures for JHP (hedged variant) are mandatory regulatory filings that allow unitholders to accurately complete tax returns — a routine but operationally important step for ETF investors.",
+        "The hedged structure of JHP means currency risk on underlying US equity income streams is neutralised, and the tax estimate will reflect this — investors should note whether franking credits, foreign income, or capital gains components dominate the distribution composition.",
+        "For institutional holders, the breakdown between assessable and non-assessable components will directly affect after-tax yield calculations; any shift in the tax character of distributions warrants review of net return assumptions."
+      ],
+      "tags": [
+        "Finance",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JEP",
+      "company": "JPMORGAN EQTY PREMIUM INCOME (HEDGED) COMPLEX ETF",
+      "headline": "Distribution Tax Estimates",
+      "time": "2026-09-02T01:12:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130698-2A1694491",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Distribution tax estimate for JEP (unhedged equity premium income ETF) provides unitholders with the tax composition of income distributions — critical for year-end tax planning and compliance obligations.",
+        "As an options-overlay income strategy, JEP's distributions may carry a higher proportion of non-assessable return-of-capital or capital gains components versus traditional dividend income, which has differential tax treatment for Australian investors.",
+        "Institutional investors should compare the tax efficiency of JEP's distribution profile against JHP and peer ETFs to optimise after-tax income positioning, particularly in a higher-rate tax environment."
+      ],
+      "tags": [
+        "Finance",
+        "Dividend"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EDV",
+      "company": "ENDEAVOUR GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice - Joanne Pollard",
+      "time": "2026-09-02T01:11:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130697-2A1694492",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for Joanne Pollard at Endeavour Group (EDV) signals a movement in director shareholding — whether an acquisition, disposal, or grant of equity incentives, this is a closely watched signal for retail and hospitality sector sentiment.",
+        "Director transactions at EDV carry elevated scrutiny given the stock's ongoing strategic pressures, including regulatory headwinds around gaming/liquor reform and activist shareholder interest — any disposal would be interpreted negatively.",
+        "Investors should assess whether this is a market purchase (bullish signal of insider confidence) or a vesting/sell-to-cover transaction (neutral/administrative), as the distinction materially affects the read-through for near-term price momentum."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PXA",
+      "company": "PEXA GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice - Mark Joiner",
+      "time": "2026-09-02T01:11:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130696-3A700820",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Mark Joiner's director interest change at PEXA Group (PXA) is a regulatory disclosure obligation — the direction and scale of any share movement will be the key indicator of insider confidence in PXA's digital property settlement growth trajectory.",
+        "PEXA operates in a high-growth but capital-intensive segment; director buying would reinforce conviction in the UK expansion strategy and domestic market dominance, while selling could amplify existing concerns about profitability timelines.",
+        "Given PXA's institutional investor base and analyst coverage, director transactions are disproportionately influential on short-term price action — fund managers will scrutinise the transaction type and size against recent guidance."
+      ],
+      "tags": [
+        "Board Change",
+        "Property",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VMM",
+      "company": "VIRIDIS MINING AND MINERALS LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-09-02T01:07:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130695-6A1341830",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Viridis Mining and Minerals (VMM), signalling fresh institutional or strategic interest in the rare earths/critical minerals explorer — a meaningful development for a small-cap stock where ownership changes can shift price dynamics materially.",
+        "The crossing of the 5% substantial holder threshold indicates a deliberate accumulation strategy, likely reflecting conviction in VMM's project pipeline or sector tailwinds around critical minerals demand from battery and defence supply chains.",
+        "Investors should monitor whether this represents a passive financial stake or a precursor to board engagement, a strategic partnership, or an M&A approach — all of which would be incrementally positive catalysts."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MA1",
+      "company": "MA CREDIT INCOME TRUST",
+      "headline": "Daily Estimate NTA for 01.09.2026",
+      "time": "2026-09-02T01:06:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130694-2A1694490",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MA1's daily NTA estimate for 1 September 2026 is a routine transparency disclosure required for listed investment trusts, enabling investors to track the premium or discount to NAV at which units are trading.",
+        "For a credit income trust, the NTA reflects the marked-to-market value of the underlying loan book and fixed income assets — any meaningful divergence from the unit price signals either an arbitrage opportunity or a liquidity/credit risk concern.",
+        "Institutional investors monitoring MA1 should track the trend in NTA relative to market price over rolling periods; a widening discount may indicate credit quality concerns in the portfolio or broader risk-off sentiment in private credit markets."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "Security Class Reinstatement to Quotation - EVRO",
+      "time": "2026-09-02T01:04:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130693-6A1341828",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The reinstatement of EVRO (EVR's options/securities class) to quotation on the ASX is a market-sensitive event, confirming the lifting of a prior trading halt or suspension — restoring liquidity and price discovery for holders of that security class.",
+        "Reinstatements following a halt are high-volatility events; the first traded price will reflect any news released during the suspension period, meaning significant gap risk (up or down) exists for EVRO holders at market open.",
+        "Institutional investors should review the accompanying disclosure that triggered the halt's resolution — whether a capital raise, material transaction, or regulatory clearance — as this will define the medium-term directional bias for both EVR equity and EVRO options."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "Top 20 Option Holders & Distribution Schedule - EVRO",
+      "time": "2026-09-02T01:04:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130692-6A1341826",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Publication of the Top 20 Option Holders and Distribution Schedule for EVRO options provides transparency on the concentration of option ownership — heavy concentration among a small number of holders can signal future supply/price pressure upon exercise or expiry.",
+        "For a small-cap like EVR, understanding option distribution is critical to modelling potential dilution; if institutional or sophisticated investors hold the majority, orderly exercise is more likely than retail-driven volatility.",
+        "This disclosure is typically a precursor to or concurrent with a capital raise or rights issue, suggesting EVR is actively managing its equity structure — investors should monitor exercise prices relative to current market price to assess in-the-money dilution risk."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PXA",
+      "company": "PEXA GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice - Jeffrey Smith",
+      "time": "2026-09-02T01:04:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130691-3A700819",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Jeffrey Smith's director interest change at PEXA Group represents a second simultaneous director notice alongside Mark Joiner's filing — concurrent multi-director disclosures often relate to a common equity plan vesting event rather than individual market transactions.",
+        "If both notices reflect vesting of performance rights under PEXA's long-term incentive plan, this signals milestone achievement against internal KPIs, which is a subtle positive indicator of management confidence in meeting targets.",
+        "Dual director filings on the same date reduce the signal value of either individual notice but collectively confirm an equity plan event — institutional investors should review the LTI terms to determine whether performance hurdles were met or if this was time-based vesting."
+      ],
+      "tags": [
+        "Board Change",
+        "Property",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "Application for quotation of securities - EVR",
+      "time": "2026-09-02T01:04:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130690-6A1341818",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EVR's application for quotation of new securities on ASX directly follows its rights issue, confirming that the capital raise process is progressing through final administrative stages — this is a necessary step before new shares can trade.",
+        "The quotation application locks in the dilutive impact of the rights issue for existing shareholders; the key variable is the issue price relative to current market price, which determines the magnitude of NAV dilution.",
+        "For small-cap resource companies like EVR, successful completion of a quotation application confirms regulatory compliance and removes execution risk from the raise — investors should now focus on how the proceeds will be deployed to advance the company's EV minerals strategy."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "Results of Rights Issue",
+      "time": "2026-09-02T01:04:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130689-6A1341813",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "EVR's rights issue result is the most substantive of its three concurrent announcements — the key metrics to assess are the take-up rate (high subscription validates shareholder confidence) and total proceeds raised versus the stated use-of-funds target.",
+        "A strongly subscribed rights issue for a micro-cap EV minerals explorer would signal institutional and retail conviction in the project pipeline, potentially catalysing re-rating; a shortfall absorbed by underwriters or sub-underwriters would indicate weaker market support.",
+        "Proceeds will likely fund exploration or development activities aligned with EV supply chain themes (lithium, cobalt, nickel) — the deployment timeline and project milestones will be the primary near-term price catalysts post-settlement of new shares."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst COL SFI Dividend",
+      "time": "2026-09-02T01:02:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130688-2A1694489",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst is distributing a dividend on its COL (Coles Group) Structured Finance Investment (SFI), a routine income distribution tied to the underlying synthetic exposure to COL's dividend stream.",
+        "SFI dividends reflect the pass-through mechanics of structured products; investors receive income aligned with the reference entity's dividend cycle, with no direct Coles equity ownership implications.",
+        "No market-sensitive information is embedded — this is an administrative distribution event requiring no action from broader equity market participants, but confirms the SFI product remains active and in distribution phase."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst BHP SFI Dividend - Estimated",
+      "time": "2026-09-02T01:01:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130687-2A1694488",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst is issuing an estimated dividend on its BHP Structured Finance Investment (SFI), flagged as 'estimated' — indicating the final distribution quantum is yet to be confirmed, likely pending BHP's own dividend finalisation.",
+        "The 'estimated' classification is a notable procedural distinction; it signals that the structured product's income calculation is contingent on BHP's declared dividend, introducing minor timing uncertainty for SFI holders.",
+        "For BHP equity investors, this announcement is immaterial; however, it serves as an indirect confirmation that BHP's upcoming dividend cycle is progressing, consistent with the mining giant's regular semi-annual distribution cadence."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZIL",
+      "company": "ZILLER GLOBAL FUND ACTIVE ETF",
+      "headline": "Investor Update August 2026",
+      "time": "2026-09-02T01:01:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130686-2A1694486",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ziller Global Fund Active ETF (ZIL) has released its August 2026 investor update, providing a monthly transparency touchpoint typical of actively managed ETF structures — signalling the fund's commitment to regular stakeholder communication.",
+        "As a non-market-sensitive update, the report likely covers portfolio positioning, performance attribution, and macro commentary; investors should monitor for any material shifts in geographic or sector allocation that may signal conviction changes by the manager.",
+        "Active ETF investor updates can influence flows if performance data diverges meaningfully from benchmark or peer funds — institutional allocators should review the update for evidence of alpha generation or style drift relative to stated mandate."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ICR",
+      "company": "INTELICARE HOLDINGS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-02T01:01:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130685-6A1341829",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for InteliCare Holdings (ICR) indicates an existing major shareholder has altered their position — either increasing or decreasing their stake — which can signal shifting conviction among the company's largest investors in this small-cap healthcare technology name.",
+        "For a micro-cap like ICR, substantial holder movements are disproportionately impactful on liquidity and sentiment; a reduction in a major holder's stake could signal distribution pressure, while an increase would suggest growing confidence in the company's aged-care AI monitoring platform.",
+        "Investors should cross-reference the updated holding percentage against the prior notice to quantify the direction and scale of the change, and assess whether this aligns with recent operational milestones or capital needs flagged in quarterly reports."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PXA",
+      "company": "PEXA GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice - Melanie Willis",
+      "time": "2026-09-02T01:01:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130684-3A700818",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "PEXA Group director Melanie Willis has lodged a Change of Director's Interest Notice, indicating a movement in her equity holdings — either an acquisition, disposal, or change in the nature of her interest in PXA securities.",
+        "Director interest changes at PEXA warrant monitoring given the company's ongoing digital property settlement growth narrative; incremental buying by board members would signal insider confidence, while disposals could raise questions about valuation comfort at current levels.",
+        "Without the specific transaction detail (buy/sell/vesting), the filing is procedurally neutral; however, pattern analysis of director transactions over time can be a useful leading indicator of management's internal view on the company's trajectory."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst WDS SFI Dividend - Estimated",
+      "time": "2026-09-02T01:00:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130683-2A1694487",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst has declared an estimated dividend on its WDS (Woodside Energy) Structured Finance Investment, with the 'estimated' tag again indicating the final amount is pending confirmation of Woodside's own dividend declaration.",
+        "Woodside's dividend variability is closely tied to LNG commodity pricing and free cash flow generation; the estimated status of this SFI distribution reflects the inherent uncertainty in resource-sector dividend forecasting.",
+        "This filing has no direct read-through for WDS equity holders but confirms the SFI product is tracking Woodside's dividend cycle — institutional holders of WDS SFIs should anticipate a subsequent revised or final distribution notice."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst RHC SFI Dividend",
+      "time": "2026-09-02T00:59:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130682-2A1694485",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst has confirmed a dividend distribution on its RHC (Ramsay Health Care) Structured Finance Investment — notably filed as confirmed rather than 'estimated,' indicating the final distribution amount has been locked in.",
+        "Ramsay Health Care's dividend profile has been under pressure in recent years amid elevated debt levels and operational headwinds in its international operations; a confirmed SFI distribution signals RHC maintained its dividend commitment for this cycle.",
+        "For RHC equity investors, this is an indirect corroborating data point that Ramsay's dividend was paid as expected; no new strategic or financial information is disclosed, keeping sentiment effectively unchanged."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KGL",
+      "company": "KGL RESOURCES LIMITED",
+      "headline": "Initial Director's Interest Notice",
+      "time": "2026-09-02T00:58:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130681-2A1694484",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "KGL Resources has lodged an Initial Director's Interest Notice, signalling a new director appointment or a director disclosing their holdings for the first time — a mandatory ASX compliance requirement under Listing Rule 3.19A.",
+        "The 'initial' nature of this notice is the key signal — it indicates a recent board-level change at KGL, a copper-focused explorer with its flagship Jervois Copper Project in the Northern Territory, which has faced ongoing funding and development challenges.",
+        "Investors should assess the incoming director's background: if the appointee brings mine financing, major project development, or copper industry expertise, it could signal KGL is positioning for a renewed push on the Jervois project — a potentially significant catalyst for a company that has struggled to advance to production."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "NPM",
       "company": "NEWPEAK METALS LIMITED",
@@ -39,6 +563,25 @@
       "tags": [
         "Finance",
         "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CUF",
+      "company": "CUFE LTD",
+      "headline": "Appendix 4G",
+      "time": "2026-09-02T00:55:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130678-6A1341827",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CuFe Ltd has filed an Appendix 4G — the Key to Corporate Governance Disclosures — which is a mandatory annual compliance document cross-referencing the company's governance practices against the ASX Corporate Governance Principles and Recommendations.",
+        "The Appendix 4G filing is typically lodged alongside or following the Annual Report; for a small-cap iron ore/copper explorer like CuFe, it is a routine compliance obligation with no direct financial implications but signals the company is meeting its ASX listing obligations.",
+        "Institutional governance screens may reference this document when assessing CuFe's board composition, audit committee independence, and risk management frameworks — any material deviations from recommended governance practices disclosed herein could influence ESG-sensitive capital allocation decisions."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
       ],
       "sentiment": "neutral"
     },
