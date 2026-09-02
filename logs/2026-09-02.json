@@ -1,9 +1,640 @@
 {
   "date": "2026-09-02",
-  "total": 391,
-  "market_sensitive_count": 88,
-  "generated_at": "2026-09-02T03:27:55.849782+00:00",
+  "total": 424,
+  "market_sensitive_count": 89,
+  "generated_at": "2026-09-02T04:28:57.598075+00:00",
   "announcements": [
+    {
+      "ticker": "AO2",
+      "company": "APOLLO SERIES 2017-2 TRUST",
+      "headline": "Resignation of Company Secretary",
+      "time": "2026-09-02T04:25:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130778-2A1694537",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The resignation of the Company Secretary at Apollo Series 2017-2 Trust (AO2) is a routine administrative event for this structured finance vehicle, with no direct implication for the trust's underlying asset performance or distribution capacity.",
+        "AO2 is an ABS/structured trust rather than an operating company, so governance changes at the secretarial level carry minimal operational risk — the key risk would only arise if the vacancy signals broader instability in the trust's management infrastructure.",
+        "Investors should confirm a replacement is appointed promptly to ensure ASX compliance obligations are met without interruption, though this is standard practice and unlikely to affect pricing or distributions."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EBO",
+      "company": "EBOS GROUP LIMITED",
+      "headline": "Notification of cessation of securities - EBO",
+      "time": "2026-09-02T04:24:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130777-2A1694538",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EBOS Group's (EBO) notification of cessation of securities typically relates to the lapsing or cancellation of performance rights, options, or other equity instruments — this is a routine administrative disclosure under ASX Listing Rule 3.19A.",
+        "For a large, well-capitalised healthcare and animal care distribution company like EBO, the cessation of a tranche of incentive securities is immaterially dilutive in the opposite direction (i.e. slightly reduces potential dilution), making this a minor positive or neutral event.",
+        "The non-market-sensitive classification confirms this is procedural; investors should note the specific securities cancelled and whether they relate to departing executives, which could provide secondary signals about management retention."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EQI",
+      "company": "INVESTORS MUTUAL EQUITY INCOME FUND - COMPLEX ETF",
+      "headline": "Notional Derivatives Exposure - 31 August 2026",
+      "time": "2026-09-02T04:23:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130776-2A1694536",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Investors Mutual Equity Income Fund (EQI) has disclosed its notional derivatives exposure as at 31 August 2026, fulfilling mandatory periodic reporting requirements for complex ETFs under ASIC and ASX rules for listed managed funds.",
+        "This disclosure is purely regulatory in nature — it provides transparency on the fund's use of derivatives (likely covered calls or income-enhancing overlays consistent with an equity income mandate) but carries no new investment signal for the underlying fund strategy.",
+        "Institutional investors tracking EQI should use this disclosure to assess whether derivative notional exposure has materially shifted relative to prior periods, which could indicate a change in the fund manager's yield or risk management positioning."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BPM",
+      "company": "BPM MINERALS LIMITED",
+      "headline": "AGM Nominations",
+      "time": "2026-09-02T04:21:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130775-6A1341858",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "BPM Minerals has opened AGM director nominations, a standard governance process that signals the company is preparing for its annual general meeting cycle — for a small-cap explorer, board composition changes can materially affect strategic direction and investor confidence.",
+        "Investors should watch whether incumbents are re-nominated or if new candidates emerge with stronger technical or capital markets credentials, as board refreshes in junior mining companies can be a catalyst for re-rating if they signal improved access to funding or project expertise.",
+        "No immediate share price catalyst is expected from the nominations announcement alone; the key event will be the AGM itself and any accompanying business update on exploration progress and cash position."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JNS",
+      "company": "JANUS ELECTRIC HOLDINGS LIMITED",
+      "headline": "Notification of cessation of securities - JNS",
+      "time": "2026-09-02T04:21:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130774-2A1694535",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Janus Electric's (JNS) notification of cessation of securities is a standard ASX Listing Rule 3.19A disclosure, likely relating to the lapsing of options or performance rights — a routine administrative event for this EV/electric heavy transport technology company.",
+        "For JNS, which is in a capital-intensive pre-revenue or early-revenue phase, any reduction in the outstanding options/performance rights pool marginally reduces future dilution risk, which is a modest technical positive for existing shareholders.",
+        "The non-market-sensitive classification confirms no material new information — investors should focus on the company's next operational update regarding its electric drivetrain swap technology deployments and cash burn trajectory."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "KME investor presentation FY26",
+      "time": "2026-09-02T04:21:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130773-2A1694534",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Kip McGrath Education Centres (KME) has released an investor presentation covering FY26 strategy, which — while not classified as market sensitive — provides an important window into management's outlook on student enrolment trends, franchisee network health, and digital/online tutoring expansion.",
+        "The FY26 framing suggests management is guiding investors toward forward-looking metrics; key numbers to extract include system-wide revenue growth, centre count trajectory, and any commentary on margin recovery post-COVID normalisation of tutoring demand.",
+        "As a non-market-sensitive presentation, this is likely confirmatory of existing guidance rather than a significant earnings revision — however, any upgrades to enrolment or revenue assumptions embedded in the deck could drive incremental re-rating in this illiquid small-cap."
+      ],
+      "tags": [
+        "Other",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCO",
+      "company": "THE CALMER CO INTERNATIONAL LIMITED",
+      "headline": "Application for quotation of securities - CCO",
+      "time": "2026-09-02T04:18:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130772-6A1341834",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Calmer Co International (CCO) has applied for quotation of new securities on the ASX, indicating a recent capital raise (placement, rights issue, or conversion of convertible notes) has been completed and new shares are being brought to market.",
+        "The introduction of new shares to the register typically creates short-term selling pressure as new investors who participated at a discount to market seek to realise gains — the size of the securities being quoted relative to CCO's existing market cap is the critical variable to assess dilution impact.",
+        "For a wellness/natural health products company like CCO, the use of proceeds from the raise will be the key determinant of whether this capital event is ultimately value-accretive — investors should review the accompanying capital raise documentation for deployment details and updated cash runway."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "JBH",
+      "company": "JB HI-FI LIMITED",
+      "headline": "Update - Dividend/Distribution - JBH",
+      "time": "2026-09-02T04:18:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130770-3A700834",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "JB Hi-Fi has issued an update to its previously announced dividend/distribution, likely reflecting a minor administrative correction to payment details, record date, or DRP participation figures — no change to headline payout expected.",
+        "As a non-market-sensitive update, this carries no new information on earnings trajectory; JBH's dividend remains underpinned by its strong free cash flow generation and historically conservative payout ratio relative to earnings.",
+        "Investors should verify final ex-dividend and payment dates against the updated notice to ensure DRP elections and settlement positions are correctly aligned ahead of the distribution."
+      ],
+      "tags": [
+        "Dividend",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HPG",
+      "company": "HIPAGES GROUP HOLDINGS LTD",
+      "headline": "Key Dates for Shareholders",
+      "time": "2026-09-02T04:18:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130771-2A1694533",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Hipages Group has published key shareholder dates — likely covering AGM scheduling, dividend record/payment dates, or reporting calendar milestones — a routine but important reference for investors managing participation and voting rights.",
+        "As a non-market-sensitive administrative release, this provides no new operational or financial data; however, AGM proximity may bring renewed focus on management performance against its tradie marketplace growth targets.",
+        "Institutional holders should note any upcoming record dates to ensure eligibility for voting on resolutions, particularly given HPG's ongoing strategic positioning in the home-improvement digital platform space."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EQI",
+      "company": "INVESTORS MUTUAL EQUITY INCOME FUND - COMPLEX ETF",
+      "headline": "Monthly Redemptions and Units on Issue",
+      "time": "2026-09-02T04:14:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130769-2A1694532",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EQI has disclosed its monthly redemption activity and current units on issue — a standard transparency requirement for active/complex ETFs that signals the fund's liquidity profile and investor flows.",
+        "Net redemptions, if material, could indicate declining investor appetite for equity income strategies in the current rate environment, while net inflows would suggest sustained demand for yield-oriented ASX exposures.",
+        "For institutional investors, monitoring month-on-month unit count trends in EQI provides a useful proxy for retail and wholesale sentiment toward domestic dividend equity strategies."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IML",
+      "company": "IML CONCENTRATED AUS SHARE FUND - ACTIVE ETF",
+      "headline": "Monthly Redemptions and Units on Issue",
+      "time": "2026-09-02T04:14:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130768-2A1694531",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "IML's monthly redemption and units-on-issue disclosure is a routine regulatory filing; the key signal lies in whether units outstanding are growing (net inflows) or contracting (net redemptions) relative to prior months.",
+        "Persistent redemption pressure in active Australian equity ETFs can force managers to liquidate holdings, creating secondary market impacts on underlying concentrated positions — relevant given IML's style-focused portfolio construction.",
+        "Investors benchmarking active versus passive flows should track this data series alongside peer funds to assess broader structural shifts in active management demand on the ASX ETF market."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VNG",
+      "company": "VAUGHAN NELSON GLB EQUITY SMID FUND - ACTIVE ETF",
+      "headline": "Monthly Redemptions and Units on Issue",
+      "time": "2026-09-02T04:13:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130767-2A1694530",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vaughan Nelson's monthly unit disclosure for VNG provides a read on investor appetite for global small-mid cap equity exposure via an active ASX-listed wrapper — a niche but growing segment of the ETF market.",
+        "Flow trends in SMID-cap global active ETFs are particularly sensitive to risk-on/risk-off sentiment; any sustained redemption trend here may reflect broader de-risking from growth-oriented international equity strategies.",
+        "As a non-market-sensitive routine filing, this has no direct price catalyst, but the units-on-issue trajectory is a useful leading indicator of AUM trajectory and management fee revenue for the responsible entity."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LSG",
+      "company": "LOOMIS SAYLES GLOBAL EQUITY FUND - ACTIVE ETF",
+      "headline": "Monthly Redemptions and Units on Issue",
+      "time": "2026-09-02T04:13:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130766-2A1694529",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Loomis Sayles Global Equity Fund's monthly redemption update is a standard compliance disclosure; LSG's AUM trajectory will reflect investor conviction in active global large-cap equity management at current fee levels.",
+        "In a market where passive global equity ETFs dominate flows, net redemption trends in active peers like LSG highlight the ongoing fee-compression and performance-scrutiny challenge facing active managers on the ASX.",
+        "No immediate price impact is expected; however, structural AUM decline — if evident in the data — would be a longer-term headwind to the fund's viability and liquidity as a listed vehicle."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GMD",
+      "company": "GENESIS MINERALS LIMITED",
+      "headline": "Notification of cessation of securities - GMD",
+      "time": "2026-09-02T04:12:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130765-6A1341857",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Genesis Minerals has notified the market of the cessation of securities — most likely the lapse or cancellation of performance rights, options, or other equity instruments that failed to meet vesting conditions or were not exercised.",
+        "Cessation of unvested performance securities is generally mildly positive as it reduces potential future dilution to existing shareholders, though the quantum of securities ceased will determine materiality.",
+        "Investors should cross-reference the number and type of securities ceased against GMD's total securities on issue to assess the dilution relief; in the context of GMD's active growth-stage gold development profile, equity incentive management is a key governance watch point."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WMA",
+      "company": "WAM ALTERNATIVE ASSETS LIMITED",
+      "headline": "WAM Alternative Assets FY2026 Full Year Results Q&A Webinar",
+      "time": "2026-09-02T04:11:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130764-2A1694527",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "WAM Alternative Assets is hosting a Q&A webinar for its FY2026 full-year results — providing a direct management engagement opportunity for shareholders to probe portfolio performance, NTA trajectory, and capital allocation strategy.",
+        "WMA's alternative assets mandate (typically private credit, infrastructure, and unlisted assets) means results scrutiny will centre on valuation methodologies, income yield sustainability, and liquidity management of underlying holdings.",
+        "The webinar format signals a commitment to investor transparency; key watch points include discount-to-NTA movement post-results, any changes to distribution guidance, and commentary on deployment pipeline for FY2027."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PTX",
+      "company": "PRESCIENT THERAPEUTICS LIMITED",
+      "headline": "PTX-100 CTCL Phase 2a study reaches review milestone",
+      "time": "2026-09-02T04:10:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130763-3A700833",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PTX-100's Phase 2a CTCL (Cutaneous T-Cell Lymphoma) trial has hit a formal review milestone, suggesting patient enrolment and early data collection are on track — a critical de-risking event for this small-cap biotech where clinical progress directly drives valuation.",
+        "The market-sensitive classification signals management believes this milestone contains information that could materially move the share price, implying the review outcome is either positive or sufficiently significant to warrant immediate disclosure under ASX Listing Rules.",
+        "Next catalyst to watch is the independent data safety monitoring board (DSMB) or investigator review outcome — a 'proceed' recommendation would likely support further capital raises and potential partnering conversations, while any hold/pause signal would be materially bearish."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GCI",
+      "company": "GRYPHON CAPITAL INCOME TRUST",
+      "headline": "Net Tangible Asset Backing",
+      "time": "2026-09-02T04:09:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130762-2A1694528",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Gryphon Capital Income Trust has published its latest Net Tangible Asset backing figure — a critical monthly data point for credit-focused LIT investors assessing portfolio valuation integrity and premium/discount dynamics.",
+        "GCI's NTA is primarily driven by its Australian securitisation and structured credit portfolio; any material NTA movement relative to prior months may signal credit spread widening, prepayment activity, or mark-to-market adjustments in underlying RMBS/ABS holdings.",
+        "Investors should compare the reported NTA against GCI's prevailing market price to assess the current premium or discount; a widening discount to NTA could represent a value entry point or signal market concern about portfolio credit quality."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AKN",
+      "company": "AUKING MINING LIMITED",
+      "headline": "Supplementary Announcement re Second Diamond Hole at Tundulu",
+      "time": "2026-09-02T04:08:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130761-2A1694526",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AuKing Mining has released a supplementary announcement on its second diamond drill hole at the Tundulu project — suggesting initial results warranted clarification or additional geological context, a sign management is actively managing investor communication around an evolving drill program.",
+        "Supplementary drilling announcements at early-stage exploration projects can indicate either additional positive intercepts requiring expanded disclosure or the need to contextualise weaker-than-expected results — the distinction is critical for valuation and is the key due diligence question for investors.",
+        "For a small-cap explorer like AKN, Tundulu drill results represent a binary near-term catalyst; investors should scrutinise hole depth, lithology intersected, and any geochemical data provided to assess whether the project is advancing toward a maiden resource estimate."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WBT",
+      "company": "WEEBIT NANO LTD",
+      "headline": "Application for quotation of securities - WBT",
+      "time": "2026-09-02T03:59:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130760-3A700832",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Weebit Nano has lodged an application for quotation of new securities on ASX, indicating a recent capital event such as option exercises, performance rights vesting, or a placement has been completed and shares are being brought to market.",
+        "The issuance of new securities creates incremental dilution for existing shareholders, though the non-market-sensitive classification suggests the quantum is modest and within pre-approved limits.",
+        "Investors should cross-reference this filing with any recent capital raise or employee incentive scheme announcements to quantify the dilutive impact and assess alignment with WBT's ReRAM commercialisation funding strategy."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MCY",
+      "company": "MERCURY NZ LIMITED",
+      "headline": "Ongoing Disclosure Notices",
+      "time": "2026-09-02T03:58:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130759-2A1694525",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Mercury NZ Limited has filed an ongoing disclosure notice, a routine regulatory requirement for NZX/ASX dual-listed entities to maintain continuous disclosure obligations across both exchanges.",
+        "The non-market-sensitive classification confirms this is a procedural compliance filing with no material operational, financial, or strategic update embedded within it.",
+        "For institutional holders, this filing warrants no portfolio action but confirms Mercury NZ remains current with its ASX foreign exempt listing obligations — an important baseline for governance monitoring."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WBT",
+      "company": "WEEBIT NANO LTD",
+      "headline": "Notification of cessation of securities - WBT",
+      "time": "2026-09-02T03:57:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130758-3A700831",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Weebit Nano has notified ASX of the cessation of securities, most likely reflecting the expiry of unlisted options or the lapsing of performance rights that failed to meet vesting conditions — a common lifecycle event for tech-stage companies.",
+        "Cessation of securities is marginally accretive to remaining shareholders as it reduces the total securities on issue and eliminates potential future dilution from those instruments.",
+        "Taken together with announcement [1], WBT appears to be managing its securities register actively; investors should review the net change in dilutive instruments to assess whether the capital structure is tightening or expanding overall."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NHF",
+      "company": "NIB HOLDINGS LIMITED",
+      "headline": "Change of Director's Interest Notice - Jill Watts",
+      "time": "2026-09-02T03:53:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130757-2A1694524",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "NIB Holdings director Jill Watts has lodged a change of director's interest notice, signalling a movement in her direct or indirect holdings — either an on-market purchase, sale, or vesting of equity remuneration.",
+        "Director transactions at NHF carry moderate signal value given the private health insurance sector's sensitivity to regulatory and claims inflation headwinds; the direction of the trade (buy vs. sell) is the key determinant of sentiment.",
+        "As the filing is classified non-market-sensitive, the transaction is likely small in absolute dollar terms or relates to routine plan participation, limiting its read-through for near-term NHF share price direction."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMA",
+      "company": "CARMA LIMITED",
+      "headline": "Change in substantial holding - Carma Ltd",
+      "time": "2026-09-02T03:49:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130756-2A1694523",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for Carma Ltd (CMA) indicates a major shareholder has crossed a 5% threshold boundary (either upward or downward), which can signal shifting institutional conviction in the stock and may foreshadow further buying or distribution activity.",
+        "For a smaller-cap name like CMA, movements at the substantial holder level can have an outsized impact on liquidity and price discovery — investors should monitor the direction of the change (accumulation vs. disposal) for directional signals.",
+        "The non-market-sensitive classification suggests the change is administrative or incremental in nature rather than representing a dramatic position shift, but the identity of the substantial holder and the new percentage held are key details for assessing strategic intent."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "Results of General Meeting",
+      "time": "2026-09-02T03:46:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130755-6A1341856",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "EV Resources has reported the results of its General Meeting, with the outcome of resolutions — likely including capital raise approvals, director elections, or option issuances — determining the company's near-term strategic flexibility.",
+        "Shareholder approval of any capital or acquisition resolutions would be a precondition for EVR to advance its EV-critical mineral project pipeline, making this a gating milestone for the investment thesis.",
+        "The non-market-sensitive flag suggests resolutions passed without controversy or that results were in line with proxy adviser recommendations; investors should review the specific resolution breakdown to confirm no dissent on dilutive measures."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASA",
+      "company": "ABRDN SUST ASIAN OPPORTUNITIES ACTIVE ETF",
+      "headline": "Units on Issue & Monthly Redemptions - Aug 2026",
+      "time": "2026-09-02T03:45:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130754-2A1694522",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "abrdn Sustainable Asian Opportunities Active ETF (ASA) has disclosed its units on issue and monthly redemption data for August 2026, providing transparency on fund flows and liquidity — a standard requirement for active ETF operators on ASX.",
+        "Net redemption activity, if elevated, would indicate outflows from Asian equity exposure among ASX retail and institutional investors, potentially reflecting risk-off sentiment toward the region or fee-driven switching to passive alternatives.",
+        "This is a routine operational disclosure; however, persistent redemption trends over multiple months would be a leading indicator of AUM erosion and pressure on the manager's revenue base — worth tracking in the context of broader EM sentiment."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAC",
+      "company": "AUSTRALIAN AGRICULTURAL COMPANY LIMITED.",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-02T03:41:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130753-2A1694520",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Australian Agricultural Company (AAC) has filed a change of director's interest notice, reflecting a movement in a director's shareholding that may relate to on-market trading, dividend reinvestment, or equity plan participation.",
+        "Director share activity at AAC is worth monitoring given the stock's sensitivity to cattle price cycles, live export policy, and drought conditions; an outright on-market purchase would signal board-level confidence in the current valuation.",
+        "The non-market-sensitive classification indicates the transaction is below materiality thresholds, limiting immediate price implications, but the disclosure maintains the governance transparency expected of an ASX-listed agribusiness of AAC's scale."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BAO",
+      "company": "AORIS INT FUND (CLASS B) (UNHEDGED) ACTIVE ETF",
+      "headline": "Number of Outstanding Units and Redemptions",
+      "time": "2026-09-02T03:41:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130752-2A1694519",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Aoris International Fund (Class B) Unhedged Active ETF (BAO) has disclosed its outstanding units and redemption data, fulfilling ASX periodic reporting requirements for active ETF structures.",
+        "Redemption volume relative to units on issue provides a real-time proxy for investor conviction in Aoris's concentrated, quality-growth international equity strategy; elevated redemptions would flag deteriorating retail sentiment toward unhedged global equity exposure.",
+        "This is an administrative filing with no direct valuation impact; however, consistent tracking of BAO's AUM trajectory informs the sustainability of Aoris's fee revenue and the fund's long-term viability on the ASX mFund/AQUA framework."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CVB",
+      "company": "CURVEBEAM AI LIMITED",
+      "headline": "Ceasing to be a substantial holder - Ilwella",
+      "time": "2026-09-02T03:37:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130751-3A700830",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Ilwella has ceased to be a substantial holder in CurveBeam AI (CVB), meaning its stake has fallen below the 5% disclosure threshold — this represents a meaningful reduction or full exit by a previously significant investor.",
+        "For a growth-stage medical imaging technology company like CVB, the departure of a substantial holder can create near-term selling pressure and reduced institutional support, which is worth monitoring against the company's current cash position and commercialisation runway.",
+        "Investors should assess whether this exit reflects portfolio rebalancing by Ilwella or a loss of conviction in CVB's commercial trajectory — cross-referencing with recent trade volumes will help determine if stock has been absorbed or if overhang remains."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SGR",
+      "company": "THE STAR ENTERTAINMENT GROUP LIMITED",
+      "headline": "Appendix 3X - Grant Bowie",
+      "time": "2026-09-02T03:36:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130750-2A1694518",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Star Entertainment Group has filed an Appendix 3X for Grant Bowie, marking his initial director interest notice upon appointment — confirming a new board addition at a company currently navigating administration, liquidity stress, and casino licence reviews.",
+        "Board composition changes at SGR are highly material in the current context: new directors with turnaround, regulatory, or gaming expertise could influence creditor negotiations, licence reinstatement prospects, and the pace of any restructuring or asset sale process.",
+        "Institutional investors should scrutinise Grant Bowie's background — he is a seasoned gaming industry executive — as his appointment may signal that Star's administrators or stakeholders are positioning the business for operational rehabilitation rather than an accelerated wind-down."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SGR",
+      "company": "THE STAR ENTERTAINMENT GROUP LIMITED",
+      "headline": "Appendix 3X - Brooke Lindsay",
+      "time": "2026-09-02T03:36:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130749-2A1694517",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Star Entertainment Group has filed a second Appendix 3X, this time for Brooke Lindsay, confirming another new director's initial interest notice and indicating a broader board reconstruction is underway at the distressed casino operator.",
+        "Multiple simultaneous Appendix 3X filings suggest a coordinated effort to reconstitute Star's board, consistent with administrator or deed of company arrangement (DOCA) requirements that mandate governance overhaul as a condition of recapitalisation or licence restoration.",
+        "The cumulative signal from both SGR Appendix 3X filings (Grant Bowie and Brooke Lindsay) is that meaningful board-level change is occurring; the quality and strategic fit of incoming directors will be a key watchpoint for any stakeholder assessing the probability of SGR's operational survival."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DEV",
+      "company": "DEVEX RESOURCES LIMITED",
+      "headline": "Investor Presentation - Mining the Territory",
+      "time": "2026-09-02T03:31:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130748-6A1341855",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DEV is actively marketing its Northern Territory exploration portfolio to institutional investors, signalling a deliberate effort to raise the company's profile and attract strategic or funding interest ahead of potential capital activity.",
+        "The 'Mining the Territory' theme suggests a focus on DEV's uranium and/or critical minerals assets in the NT — a jurisdiction gaining renewed interest given global nuclear energy momentum and Australia's critical minerals policy push.",
+        "While non-market sensitive, sustained investor roadshow activity often precedes capital raises or JV announcements; investors should monitor for follow-on catalysts including drill results or partnership disclosures in coming weeks."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAC",
+      "company": "AUSTRALIAN AGRICULTURAL COMPANY LIMITED.",
+      "headline": "Notification regarding unquoted securities - AAC",
+      "time": "2026-09-02T03:27:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130747-2A1694516",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AAC has notified the ASX of the issuance or movement of unquoted securities, a procedural disclosure that typically relates to employee incentive schemes, performance rights, or options exercised outside of listed equity.",
+        "While administratively routine, the nature and quantum of unquoted securities issued can signal the scale of management remuneration structures and potential future dilution if/when securities convert or vest into ordinary shares.",
+        "Investors should cross-reference this notice against AAC's remuneration report and existing securities register to assess whether the unquoted securities represent material dilution risk to existing shareholders over the near to medium term."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAH",
+      "company": "MACMAHON HOLDINGS LIMITED",
+      "headline": "Final Director's Interest Notice - David Gibbs",
+      "time": "2026-09-02T03:26:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130746-6A1341854",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "The Final Director's Interest Notice for David Gibbs indicates a cessation of his directorship at Macmahon Holdings (MAH), triggering a mandatory disclosure of his final security holdings upon departure from the board.",
+        "Director departures at mining services companies like MAH warrant scrutiny — depending on Gibbs' tenure and role, this could reflect normal board renewal or, less favourably, signal disagreement over strategic direction or capital allocation.",
+        "Investors should assess whether this is part of a broader board refresh or an isolated change, and monitor for any subsequent announcement regarding a replacement director, which would provide clearer context on governance continuity."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AMH",
       "company": "AMCIL LIMITED",
