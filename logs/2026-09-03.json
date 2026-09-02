@@ -1,9 +1,678 @@
 {
   "date": "2026-09-03",
-  "total": 155,
-  "market_sensitive_count": 35,
-  "generated_at": "2026-09-02T23:14:12.151371+00:00",
+  "total": 190,
+  "market_sensitive_count": 43,
+  "generated_at": "2026-09-02T23:24:19.745429+00:00",
   "announcements": [
+    {
+      "ticker": "IPT",
+      "company": "IMPACT MINERALS LIMITED",
+      "headline": "Security Class Suspension from Quotation - IPTO",
+      "time": "2026-09-02T23:21:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131169-6A1342018",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX has suspended quotation of IPTO securities (Impact Minerals options class), indicating these securities have either expired, been exercised, or are subject to a corporate action requiring temporary removal from trading.",
+        "Class suspensions of this nature are typically administrative but can signal the conclusion of a capital raise or option conversion cycle, potentially altering the company's dilution profile and capital structure.",
+        "Investors should monitor whether the suspension is tied to an impending conversion event or expiry, as the outcome directly affects IPT's fully diluted share count and future funding capacity."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATG",
+      "company": "ARTICORE GROUP LIMITED",
+      "headline": "2026 AGM Date",
+      "time": "2026-09-02T23:21:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131168-3A700905",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Articore Group has announced the date for its 2026 Annual General Meeting (AGM), a standard corporate governance requirement with no immediate financial or operational implications for the business.",
+        "The AGM will provide shareholders with an opportunity to vote on routine resolutions including director elections, remuneration reports, and any proposed equity incentive plans — the latter could have modest dilutive implications depending on quantum.",
+        "As a non-market-sensitive procedural announcement, the AGM date itself carries no near-term share price catalyst; however, investors should monitor the Notice of Meeting once released for any non-routine resolutions that may signal strategic or structural changes."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGR",
+      "company": "ECOGRAF LIMITED",
+      "headline": "Proposed issue of securities - EGR",
+      "time": "2026-09-02T23:20:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131167-6A1341996",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EcoGraf has lodged a 'Proposed Issue of Securities' notice with ASX, formally notifying the market of the upcoming share issuance associated with the underwritten SPP — a standard regulatory lodgement required under ASX Listing Rules.",
+        "This filing confirms the mechanics of the capital raise are proceeding as planned and provides the market with specifics on the number of securities to be issued, the offer price, and allotment timeline, completing the disclosure chain alongside the SPP booklet and underwriting announcements.",
+        "While not independently market sensitive, this notice serves as a useful cross-reference for dilution modelling; institutional investors should reconcile the proposed issue size against EcoGraf's current share count to assess post-raise capital structure and earnings per share impact."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGR",
+      "company": "ECOGRAF LIMITED",
+      "headline": "Proposed issue of securities - EGR",
+      "time": "2026-09-02T23:20:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131166-6A1341994",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EGR is flagging an upcoming securities issuance, signalling active capital market activity — likely tied to funding its battery anode material or graphite processing development pipeline.",
+        "The 'proposed issue' notice is a precursor filing, meaning dilution risk is imminent for existing shareholders pending full terms disclosure — size and pricing will be critical to watch.",
+        "Investors should monitor the accompanying cleansing notice (announcement [3]) and corporate presentation ([7]) filed simultaneously, which together suggest a coordinated capital raise campaign is underway."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "COH",
+      "company": "COCHLEAR LIMITED",
+      "headline": "Appendix 3Y - Richard Freudenstein",
+      "time": "2026-09-02T23:20:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131165-2A1694731",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 3Y is a change-of-director's-interest notice for Richard Freudenstein, a routine compliance filing with ASX Listing Rules — no operational or financial impact on Cochlear's business.",
+        "The disclosure likely reflects a minor change in share holdings, options, or performance rights rather than a material strategic shift, consistent with non-market-sensitive classification.",
+        "For institutional investors, tracking director interest changes at COH can provide marginal signals on insider conviction, but this filing alone warrants no portfolio action."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGR",
+      "company": "ECOGRAF LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-02T23:20:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131164-6A1341993",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EGR's cleansing notice is a mandatory ASX Listing Rule 3.10.3 filing, issued to ensure securities offered under a placement or rights issue are freely tradeable — confirming a capital raise is in execution.",
+        "Filed alongside the proposed issue notice and corporate presentation, this three-document package is a hallmark of a coordinated institutional placement or entitlement offer campaign.",
+        "The cleansing notice itself carries no new financial detail but legally clears the path for new shares to trade without restriction, reducing post-issue liquidity risk for incoming investors."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PE1",
+      "company": "PENGANA PRIVATE EQUITY TRUST",
+      "headline": "Update - Notification of buy-back - PE1",
+      "time": "2026-09-02T23:20:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131163-2A1694730",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Pengana Private Equity Trust (PE1) is updating its on-market buy-back program, a capital management initiative that signals the board views the trust's units as undervalued relative to NTA — a structurally supportive signal.",
+        "Buy-backs in listed investment trusts are particularly meaningful when units trade at a persistent discount to NTA, as they are immediately accretive to remaining unitholders and can help close the discount gap.",
+        "Investors should monitor the pace and scale of the buy-back relative to daily trading volumes, as the effectiveness of the program will depend on available liquidity in PE1 units."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AO3",
+      "company": "APOLLO SERIES 2018-1 TRUST",
+      "headline": "APOLLO Series 2018-1 Trust Monthly Investor Report",
+      "time": "2026-09-02T23:20:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131162-2A1694727",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Apollo Series 2018-1 Trust monthly investor report provides routine performance data on the underlying residential mortgage-backed securities (RMBS) pool — key metrics to watch include arrears rates, prepayment speeds, and pool factor.",
+        "In the current higher-for-longer interest rate environment, RMBS arrears data is particularly relevant; any deterioration in 30+ day delinquencies would signal rising credit stress in the underlying mortgage book.",
+        "This is a standard compliance and transparency filing for ABS note holders — no direct share price implications, but meaningful for fixed income portfolio managers monitoring Australian consumer credit health."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGR",
+      "company": "ECOGRAF LIMITED",
+      "headline": "Share Purchase Plan Offer Booklet",
+      "time": "2026-09-02T23:20:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131161-6A1341990",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EcoGraf has released its Share Purchase Plan (SPP) offer booklet, giving existing retail shareholders the opportunity to participate in a capital raise alongside institutional investors — a key equity access event for the retail register.",
+        "The SPP booklet will detail pricing, maximum subscription limits (typically up to $30,000 per eligible shareholder), and the intended use of proceeds, which for EcoGraf likely relates to advancing its battery anode material or HF-free purification technology.",
+        "Retail participation rates in SPPs can signal broader market confidence in the company's near-term catalysts; a strongly subscribed SPP would reduce reliance on future dilutive placements and strengthen the balance sheet ahead of project milestones."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABY",
+      "company": "ADORE BEAUTY GROUP LIMITED",
+      "headline": "2026 Annual General Meeting",
+      "time": "2026-09-02T23:20:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131160-3A700904",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Adore Beauty's 2026 AGM notice sets the formal shareholder meeting agenda — resolutions typically include director elections, remuneration report approval, and any equity incentive plan authorisations.",
+        "With ABY navigating a challenging online retail environment marked by consumer spending pressure and elevated customer acquisition costs, the remuneration report vote will be a key sentiment indicator on board accountability.",
+        "Institutional investors should scrutinise any proposed equity issuances or long-term incentive plan resolutions that could signal management's confidence — or lack thereof — in near-term earnings recovery."
+      ],
+      "tags": [
+        "AGM",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGR",
+      "company": "ECOGRAF LIMITED",
+      "headline": "Corporate Presentation",
+      "time": "2026-09-02T23:19:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131159-6A1341989",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EGR's simultaneous corporate presentation release alongside a capital raise package is a clear attempt to anchor investor narrative around its graphite/battery anode material strategy ahead of soliciting new funds.",
+        "The presentation likely outlines project milestones, offtake progress, and use of proceeds — critical for assessing whether the capital raise is funding genuine value-creating development or bridging operational cash burn.",
+        "Institutional investors should cross-reference presentation claims against EGR's quarterly cash flow reports to validate cash runway assumptions and ensure capex projections are credible before participating in any raise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ANX",
+      "company": "ANAX METALS LIMITED",
+      "headline": "Commencement of Heap Leach Feasibility Study",
+      "time": "2026-09-02T23:19:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131158-6A1342017",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Anax Metals has commenced a Heap Leach Feasibility Study (FS), marking a significant de-risking milestone that transitions the project from resource definition toward a credible pathway to production and bankable economics.",
+        "Heap leach studies typically assess capital intensity, processing costs, and metal recovery rates — a positive FS outcome could dramatically lower the capex threshold versus conventional processing, making the project more attractive to potential financiers or acquirers.",
+        "Commencement of a formal FS signals Anax has sufficient confidence in resource geometry and metallurgical results to commit study expenditure; completion timelines, expected capital estimates, and targeted metals will be the key variables for institutional investors to watch."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KIG",
+      "company": "KINGFISHER TRUST 2016-1",
+      "headline": "Application for Removal from the Official List of ASX",
+      "time": "2026-09-02T23:19:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131157-2A1694691",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Kingfisher Trust 2016-1 is applying for removal from the ASX official list, indicating the structured finance vehicle has reached end-of-life — likely following full repayment or wind-down of its underlying asset pool.",
+        "Delisting of an ABS/trust structure is a normal lifecycle event and poses no systemic risk; noteholders should have received full principal repayment prior to this application being lodged.",
+        "For the broader market, this is purely administrative — it reduces the number of listed trust securities on ASX with no implications for equity investors or the wider credit market."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGR",
+      "company": "ECOGRAF LIMITED",
+      "headline": "Underwritten Share Purchase Plan",
+      "time": "2026-09-02T23:19:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131156-6A1341988",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EcoGraf's SPP is underwritten, which is a materially stronger signal than an unguaranteed SPP — it ensures the company will raise the target capital regardless of retail take-up, providing balance sheet certainty and reducing execution risk.",
+        "Underwriting of a retail SPP is relatively uncommon for small-cap ASX companies and suggests institutional conviction in EcoGraf's near-term value proposition, likely tied to its battery graphite or purification technology commercialisation timeline.",
+        "The underwriting commitment removes funding uncertainty for EcoGraf's upcoming project expenditures; however, investors should assess the underwriting fee and any associated placement rights granted to the underwriter, as these could represent a secondary dilution vector."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AO2",
+      "company": "APOLLO SERIES 2017-2 TRUST",
+      "headline": "APOLLO Series 2017-2 Trust Monthly Investor Report",
+      "time": "2026-09-02T23:19:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131155-2A1694725",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Apollo Series 2017-2 Trust monthly investor report is a routine disclosure for this seasoned RMBS vehicle — the trust is older than the 2018-1 series, meaning its pool factor will be significantly more amortised.",
+        "Key metrics for this vintage include the remaining pool balance, any outstanding subordinated note positions, and whether credit enhancement levels have built sufficiently to absorb any late-cycle arrears.",
+        "As with AO3, this filing serves fixed income and structured credit investors rather than equity markets — no share price impact, but a useful data point on the performance of pre-2020 Australian mortgage origination vintages."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SMI",
+      "company": "SANTANA MINERALS LIMITED",
+      "headline": "Infill drilling continues to upgrade RAS high-grade core",
+      "time": "2026-09-02T23:19:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131154-6A1342016",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Infill drilling at Santana Minerals' Bendigo-Ophir project continues to upgrade the high-grade core of the Rise and Shine (RAS) deposit, with results likely tightening the resource confidence classification from Inferred toward Indicated — a critical step toward a maiden or updated Mineral Resource Estimate.",
+        "Upgrading resource confidence in a high-grade core is particularly value-accretive as it directly supports mine planning assumptions, improves project economics in any future pre-feasibility study, and strengthens the investment case for project finance.",
+        "Investors should focus on drill intercept grades versus the existing resource model and the rate at which Inferred tonnes are being converted — accelerated conversion in the high-grade zone could serve as a near-term re-rating catalyst for SMI."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SGL",
+      "company": "RICEGROWERS LIMITED",
+      "headline": "2026 AGM and B Class Meeting",
+      "time": "2026-09-02T23:18:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131153-2A1694723",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Ricegrowers Limited (SGL) is convening its 2026 AGM alongside a concurrent B Class shareholders' meeting, reflecting its dual-class share structure — a governance complexity that warrants careful attention to resolution outcomes.",
+        "The B Class meeting structure means resolutions may require separate majorities from different shareholder classes, potentially creating tension between grower-shareholders and institutional B Class holders on strategic or remuneration matters.",
+        "Investors should monitor any resolutions relating to capital allocation, director appointments, or strategic direction — given the agricultural commodity exposure, any guidance on rice harvest volumes or export market outlook would be particularly value-relevant."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Update - Dividend/Distribution - PCI",
+      "time": "2026-09-02T23:18:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131152-2A1694728",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "PCI has issued a routine distribution update, confirming ongoing income payments to unitholders in line with the trust's mandate to deliver regular credit income from a diversified fixed income portfolio.",
+        "As a listed investment trust focused on credit markets, distribution consistency is a key performance metric — any variation in payout rate relative to prior periods would signal changes in portfolio yield or credit quality, though this update appears procedural.",
+        "Investors should monitor the distribution rate against the trust's target yield and NAV to assess whether the trust continues to trade at a premium or discount, which directly impacts total return attractiveness versus unlisted credit alternatives."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DCC",
+      "company": "DIGITALX LIMITED",
+      "headline": "Update - Notification of buy-back - DCC",
+      "time": "2026-09-02T23:17:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131151-6A1342019",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DigitalX has filed a buy-back notification, signalling management's view that current share price levels represent undervaluation — a modestly positive capital management signal for a small-cap crypto-adjacent technology company.",
+        "For a company of DCC's size and liquidity profile, a buy-back program can have an outsized impact on share price support, though the actual volume and funding source (cash reserves vs. digital asset holdings) will determine its real effectiveness.",
+        "Investors should scrutinise the scale of the buy-back relative to DCC's cash and digital asset balance sheet to assess whether this is a meaningful capital return or a symbolic gesture; DCC's treasury exposure to Bitcoin and other digital assets adds complexity to funding analysis."
+      ],
+      "tags": [
+        "Other",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TCL",
+      "company": "TRANSURBAN GROUP",
+      "headline": "Appendix 3Y - Change of Director's Interest Notice",
+      "time": "2026-09-02T23:17:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131149-3A700897",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Transurban has lodged an Appendix 3Y change of director's interest notice, a standard ASX compliance filing reflecting a movement in a director's holdings — this is procedural and carries no direct operational or financial significance.",
+        "Director interest changes at Transurban, a large-cap infrastructure operator, are closely watched as signals of insider sentiment; however, without detail on whether the change reflects a purchase, sale, or vesting of performance rights, the directional implication is unclear.",
+        "Institutional investors should note whether this filing reflects on-market buying (constructive signal) or selling (potential concern), particularly given TCL's sensitivity to interest rate movements and toll road traffic volume trends."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EPI",
+      "company": "EPIMINDER LIMITED",
+      "headline": "Change of Director's Interest Notice DO",
+      "time": "2026-09-02T23:17:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131150-3A700902",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Epiminder, a medical technology company focused on long-term EEG monitoring for epilepsy, has filed a director's interest change notice — a routine compliance disclosure with no immediate operational impact.",
+        "For a pre-revenue or early-commercial stage MedTech like EPI, director buying can be a meaningful signal of confidence in upcoming catalysts such as clinical data, regulatory milestones, or commercialisation progress.",
+        "Investors should determine whether this reflects an on-market purchase or a securities vesting/exercise event, as the former would carry stronger insider conviction signal at this stage of the company's development."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACR",
+      "company": "ACRUX LIMITED",
+      "headline": "Appendix 3Y Brooke",
+      "time": "2026-09-02T23:16:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131148-3A700903",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Acrux has filed an Appendix 3Y for director Brooke, one of five simultaneous director interest notices lodged today — the clustering of filings suggests a common trigger event such as securities vesting, an options exercise, or an equity grant under a long-term incentive plan.",
+        "Acrux operates in pharmaceutical royalties and drug delivery, and simultaneous director interest changes across the board are typically linked to scheduled LTI vesting rather than discretionary market activity, limiting the signalling value.",
+        "The so-what for investors is minimal in isolation, but the accompanying Application for Quotation filing (announcement 10) is the more material event and should be read in conjunction with these director notices."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACR",
+      "company": "ACRUX LIMITED",
+      "headline": "Appendix 3Y Warmbrunn",
+      "time": "2026-09-02T23:16:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131147-3A700901",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Acrux has filed an Appendix 3Y for director Warmbrunn as part of a wave of five simultaneous director interest disclosures, strongly suggesting a coordinated vesting or equity incentive plan event rather than individual open-market transactions.",
+        "The concurrent nature of all five ACR director filings reduces idiosyncratic signalling value — this appears to be a scheduled plan-based equity event affecting multiple board members simultaneously.",
+        "Context is key: investors should cross-reference with the Application for Quotation filing (announcement 10) to understand the nature of the securities being issued or vested, which will clarify dilution impact if any."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACR",
+      "company": "ACRUX LIMITED",
+      "headline": "Appendix 3Y Oldham",
+      "time": "2026-09-02T23:16:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131146-3A700900",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Acrux's Appendix 3Y for director Oldham is the third of five simultaneous director interest notices, reinforcing the interpretation of a plan-based equity event tied to a common vesting or grant date.",
+        "For a small-cap pharmaceutical company like ACR, equity-based director remuneration is common and aligns management incentives with shareholders, though the dilution impact depends on the quantum of securities involved.",
+        "The aggregate picture across all five director filings — combined with the quotation application — will determine whether today's activity is routine remuneration or a more significant capital event warranting further scrutiny."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACR",
+      "company": "ACRUX LIMITED",
+      "headline": "Appendix 3Y Brumley",
+      "time": "2026-09-02T23:16:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131145-3A700899",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Acrux's Appendix 3Y for director Brumley continues the pattern of five simultaneous director interest notices, consistent with a scheduled equity plan event (e.g., performance rights vesting or options exercise) affecting the full board or senior leadership.",
+        "Individually, this filing is procedural; collectively, the five notices indicate that Acrux's board compensation structure relies meaningfully on equity-linked instruments, which is standard practice but warrants monitoring for total dilution over time.",
+        "Investors focused on ACR should prioritise the Application for Quotation announcement to quantify the number and type of securities being admitted, which directly informs any dilution assessment."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACR",
+      "company": "ACRUX LIMITED",
+      "headline": "Appendix 3Y Dobinson",
+      "time": "2026-09-02T23:15:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131144-3A700898",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The fifth and final Appendix 3Y for Acrux, covering director Dobinson, completes a sweep of simultaneous director interest disclosures — the breadth across five directors on the same date conclusively points to a scheduled LTI or equity plan vesting event.",
+        "The fact that all five filings are non-market-sensitive confirms the ASX and company view this as a routine remuneration/compliance matter rather than a strategically significant transaction.",
+        "Taken together, the five Appendix 3Y filings paint a picture of an active equity incentive culture at ACR; shareholders should review the company's remuneration report for the scale and dilution trajectory of its long-term incentive program."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NGY",
+      "company": "NUENERGY GAS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-02T23:15:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131143-6A1342015",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "NuEnergy Gas has entered a trading halt, suspending NGY shares from quotation pending an announcement — the nature of the pending news is undisclosed, which creates binary risk for existing holders.",
+        "Trading halts of this type typically precede material announcements such as capital raises, significant asset transactions, regulatory decisions, or partnership agreements; the energy sector context for NGY (CBM/gas exploration) suggests a deal or funding event is most probable.",
+        "The halt duration and subsequent announcement will be the key determinant of price direction — investors should expect elevated volatility upon resumption of trading, with the risk/reward skewed by the materiality and nature of the pending disclosure."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACR",
+      "company": "ACRUX LIMITED",
+      "headline": "Application for quotation of securities - ACR",
+      "time": "2026-09-02T23:15:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131142-3A700896",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Acrux has filed an Application for Quotation of securities, indicating that new shares or other equity instruments are being admitted to official ASX quotation — this is the most material of today's ACR announcements and directly linked to the five director interest notices filed simultaneously.",
+        "The quotation application likely reflects the admission of shares issued upon vesting of performance rights or exercise of options under the company's equity incentive plan; the key number to watch is the volume of new securities relative to shares on issue, which determines dilution magnitude.",
+        "For existing ACR shareholders, the net impact hinges on scale: small vesting events are routine and typically immaterial, but if the quotation involves a broader capital raise or significant incentive tranche, it could represent meaningful dilution — investors should await the full securities count in the quotation notice."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WJL",
+      "company": "WEBJET GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - WJL",
+      "time": "2026-09-02T23:15:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131141-3A700895",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WJL's on-market buyback notification signals management confidence in the stock's intrinsic value relative to current market pricing, a constructive capital allocation signal post its demerger from Webjet Limited.",
+        "Buybacks at this stage of WJL's standalone listed life suggest the board views the share price as undervalued, potentially providing an earnings-per-share accretion tailwind if executed at a meaningful discount to NTA or fair value estimates.",
+        "Investors should monitor the buyback volume and pace in coming weeks — aggressive execution would indicate strong free cash flow generation from its B2B travel tech operations, while slow uptake may reflect balance sheet conservatism or regulatory constraints."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TCF",
+      "company": "360 CAPITAL MORTGAGE REIT",
+      "headline": "Update - Notification of buy-back - TCF",
+      "time": "2026-09-02T23:15:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131140-2A1694726",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "TCF's buyback notification is a noteworthy capital management move for a mortgage REIT, typically indicating the units are trading at a discount to net asset value — a signal the manager views current pricing as an attractive entry point.",
+        "For a REIT vehicle, buybacks reduce unit count and can support distribution per unit metrics, which is directly relevant to income-focused investors tracking TCF's yield sustainability.",
+        "Given the current elevated interest rate environment in Australia, the buyback may also reflect management's view that mortgage book quality remains resilient and liquidity buffers are sufficient to support both distributions and unit repurchases simultaneously."
+      ],
+      "tags": [
+        "Finance",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DUN",
+      "company": "DUNDAS MINERALS LIMITED",
+      "headline": "Dundas Consolidates and extends Kalgoorlie Gold Projects",
+      "time": "2026-09-02T23:15:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131139-6A1342014",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dundas Minerals has consolidated and extended its Kalgoorlie gold project footprint, a strategically important move in one of Australia's premier gold districts where ground tenure is highly competitive and scale directly influences project economics.",
+        "Consolidation of ground in the Kalgoorlie region can signal either organic exploration ambition or positioning for M&A, as larger, contiguous tenement packages are more attractive to major gold producers seeking near-mine or district-scale targets.",
+        "The key near-term questions are the total area now controlled, proximity to known mineralisation or infrastructure, and whether any consideration was paid — a low-cost or application-based acquisition would be highly value-accretive relative to the strategic optionality gained."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HCF",
+      "company": "H&G HIGH CONVICTION LIMITED",
+      "headline": "Net Tangible Asset 31 August 2026",
+      "time": "2026-09-02T23:13:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131137-2A1694721",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "HCF's NTA disclosure for 31 August 2026 provides a key reference point for investors assessing whether the LIC is trading at a premium or discount to its underlying portfolio value — a critical metric for closed-end fund valuation.",
+        "The NTA figure will reflect the performance of HCF's concentrated high-conviction equity portfolio through August, offering a real-time read on manager performance relative to benchmark indices over the period.",
+        "If the NTA shows meaningful growth relative to prior months, it could narrow any existing discount to NTA and attract LIC-focused investors; conversely, a declining NTA in a volatile market may widen the discount and weigh on the share price."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MYS",
+      "company": "MYSTATE LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-02T23:13:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131138-3A700894",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director interest change at MYS (MyState Limited, a Tasmanian-based bank and wealth manager) warrants scrutiny of the direction of the transaction — on-market purchases by directors are typically a bullish governance signal, while disposals may raise questions about insider sentiment.",
+        "Given MYS operates in a competitive regional banking environment facing margin pressure from the major banks, any director buying would be a particularly meaningful vote of confidence in the near-term earnings outlook.",
+        "Investors should review the specific volume and transaction price disclosed in the notice to assess materiality; a substantial acquisition by a senior executive or chair would carry more weight than a routine participation in an employee share plan."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IFG",
+      "company": "INFOCUS GROUP HOLDINGS LIMITED",
+      "headline": "Proposed issue of securities - IFG",
+      "time": "2026-09-02T23:13:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131136-6A1341995",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "IFG's proposed securities issuance represents a potential dilution event for existing shareholders; the key variables — pricing, volume, and use of proceeds — will determine whether this is accretive (growth capital) or a red flag (balance sheet repair).",
+        "For a financial services group like Infocus, capital raises are often tied to acquisitions of advisory practices or technology investment; if proceeds are directed toward revenue-generating assets, the dilution impact could be offset by earnings uplift.",
+        "Existing shareholders should watch for the accompanying placement or entitlement offer documentation to assess the discount to last traded price — a steep discount (>10%) would signal urgency and likely trigger near-term selling pressure."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "REG",
+      "company": "REGIS HEALTHCARE LIMITED",
+      "headline": "Government announces AN-ACC pricing from 1 October 2026",
+      "time": "2026-09-02T23:12:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131135-3A700891",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Australian Government has announced AN-ACC (Australian National Aged Care Classification) pricing effective 1 October 2026, providing Regis Healthcare with critical long-term revenue visibility for its residential aged care operations — AN-ACC funding rates directly determine per-resident daily revenue.",
+        "The pricing announcement's impact on REG is highly dependent on whether the new rates are above, in line with, or below industry cost escalation expectations; any real-terms funding increase would be materially bullish given Regis's significant residential care bed exposure across its national portfolio.",
+        "With the implementation date set 15+ months forward, Regis management can now model forward earnings with greater certainty, supporting potential guidance updates or capital allocation decisions; analysts will be recalibrating EBITDA margins against the new funding parameters in the near term."
+      ],
+      "tags": [
+        "Healthcare",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "UBN",
       "company": "URBANISE.COM LIMITED",
