@@ -1,9 +1,1161 @@
 {
   "date": "2026-09-02",
-  "total": 265,
-  "market_sensitive_count": 76,
-  "generated_at": "2026-09-01T23:59:03.791870+00:00",
+  "total": 325,
+  "market_sensitive_count": 83,
+  "generated_at": "2026-09-02T00:58:17.001813+00:00",
   "announcements": [
+    {
+      "ticker": "NPM",
+      "company": "NEWPEAK METALS LIMITED",
+      "headline": "Notification regarding unquoted securities - NPM",
+      "time": "2026-09-02T00:55:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130680-2A1694482",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "NewPeak Metals (NPM) has lodged a notification regarding unquoted securities, a routine administrative filing typically relating to performance rights, options, or other equity instruments issued to directors or employees outside the listed share class.",
+        "This type of filing is procedural in nature and does not directly impact NPM's cash position, operational outlook, or near-term newsflow — it is a compliance-driven disclosure under ASX Listing Rules.",
+        "Investors should note any increase in the total diluted share count implied by the unquoted securities, as a large options or performance rights pool can represent meaningful future dilution if milestones are met or exercise prices are in the money."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COR",
+      "company": "SCHRODER GLOBAL CORE FUND - ACTIVE ETF",
+      "headline": "CORE - Monthly Derivatives Exposure",
+      "time": "2026-09-02T00:55:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130679-2A1694483",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine monthly derivatives exposure disclosure for the Schroder Global Core Active ETF (COR) — a regulatory compliance filing with no material change to fund strategy or positioning implied.",
+        "Derivatives usage in active ETFs is monitored closely by institutional investors as a proxy for hedging activity or leverage; any meaningful shift in notional exposure could signal tactical repositioning, though this filing carries no market-sensitive flag.",
+        "Investors should cross-reference with monthly NTA and portfolio composition updates to assess whether derivatives exposure is being used defensively (e.g. currency hedging) or for return enhancement — the distinction matters for risk-adjusted performance analysis."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WEC",
+      "company": "WHITE ENERGY COMPANY LIMITED",
+      "headline": "Notification regarding unquoted securities - WEC",
+      "time": "2026-09-02T00:54:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130677-2A1694445",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "White Energy Company (WEC) has filed a notification regarding unquoted securities, typically indicating the issuance of options, performance rights, or other unlisted instruments — a routine administrative disclosure under ASX Listing Rule 3.10.3.",
+        "Unquoted security issuances can signal management incentive plan activity or previously announced capital transactions being settled; without confirmed details, dilution risk to existing shareholders remains a watch point, though the filing is flagged as non-market-sensitive.",
+        "Investors should monitor follow-up disclosures to determine the volume and strike price of any unquoted instruments issued, as cumulative unlisted option overhang can be a meaningful valuation consideration for a small-cap energy company like WEC."
+      ],
+      "tags": [
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CUF",
+      "company": "CUFE LTD",
+      "headline": "Corporate Governance Statement",
+      "time": "2026-09-02T00:54:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130676-6A1341825",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CuFe Ltd (CUF) has released its Corporate Governance Statement, a mandatory annual disclosure outlining board composition, committee structures, and compliance with the ASX Corporate Governance Principles and Recommendations.",
+        "For a junior resources company like CUF, governance quality is a key due diligence metric for institutional investors — any identified departures from the 4th Edition ASX CGC Principles should be scrutinised for board independence and oversight adequacy.",
+        "The statement is a companion document to the Annual Report (also filed, see [4]) and should be read in conjunction — governance disclosures at this stage reflect the company's stewardship posture heading into the next financial year."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CUF",
+      "company": "CUFE LTD",
+      "headline": "Annual Report",
+      "time": "2026-09-02T00:53:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130675-6A1341823",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "CuFe Ltd (CUF) has lodged its Annual Report — the primary document for assessing full-year financial performance, cash position, and operational progress across its iron ore and copper-focused exploration and development assets.",
+        "Key metrics to extract include cash and equivalents (critical for a pre-revenue or early-stage miner), any impairment charges on exploration assets, and management commentary on project timelines — these will define the market's re-rating direction.",
+        "Given CUF's small-cap status and exploration-stage profile, the Annual Report will also reveal auditor going-concern language risk; any qualified audit opinion or materially reduced cash runway would be a significant bearish signal for near-term sentiment."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HIQ",
+      "company": "HITIQ LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-02T00:53:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130674-6A1341824",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for HITIQ (HIQ) signals a shift in the register among large investors, which can precede either accumulation or distribution strategies — directional intent is critical to assess.",
+        "Without disclosure of whether the holding increased or decreased, the market impact is ambiguous; however, substantial holder movements in small-cap tech/medtech names like HIQ often reflect concentrated ownership risk or emerging activist interest.",
+        "Investors should monitor subsequent filings to determine if this represents a new entrant building a position or an existing holder trimming exposure, as either scenario has meaningful implications for liquidity in a thinly traded stock."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst Warrants over NHF Special Dividend",
+      "time": "2026-09-02T00:51:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130673-2A1694481",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst has issued structured warrants over NIB Holdings (NHF) linked to a special dividend event — this is a derivatives market instrument notification, not a direct corporate action by NHF itself, but reflects market activity around the special dividend.",
+        "Special dividend warrants allow sophisticated investors to gain leveraged or hedged exposure to the dividend event; the issuance by CitiFirst signals sufficient market interest in NHF's special dividend to justify a structured product overlay.",
+        "Institutional investors holding NHF should be aware that warrant issuance around dividend events can influence short-term trading dynamics and implied volatility in the underlying stock — monitor NHF's ex-dividend date and record date for positioning implications."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FSA",
+      "company": "FSA GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - FSA",
+      "time": "2026-09-02T00:50:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130672-2A1694480",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "FSA Group (FSA) has updated its on-market share buyback notification — a continuation or amendment to an existing buyback program, signalling management's view that shares remain undervalued at current market prices.",
+        "Share buybacks in financial services companies like FSA (a debt solutions and lending business) are a capital allocation signal; active buyback execution reduces share count, is EPS-accretive, and reflects balance sheet confidence — a modestly positive capital management signal.",
+        "Investors should track the cumulative buyback volume and pace relative to the approved program limit; if buyback activity is accelerating, it may indicate management conviction in near-term earnings stability despite a challenging consumer credit environment."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "UBN",
+      "company": "URBANISE.COM LIMITED",
+      "headline": "Notification of cessation of securities - UBN",
+      "time": "2026-09-02T00:50:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130671-2A1694479",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Urbanise.com (UBN) has filed a cessation of securities notice, indicating that a tranche of previously issued securities (likely options or performance rights) has lapsed, been cancelled, or converted — reducing the unlisted securities overhang on the register.",
+        "Cessation of securities without conversion is typically mildly positive from a dilution perspective, as it removes potential future share issuance from the cap table; however, if rights lapsed due to performance conditions not being met, it may reflect underlying operational underperformance.",
+        "For a small-cap SaaS/PropTech company like UBN, understanding whether the cessation relates to executive incentive plans or financing instruments is important — follow-up with the securities register or next quarterly update to assess management retention implications."
+      ],
+      "tags": [
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BBN",
+      "company": "BABY BUNTING GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice - Mark Teperson",
+      "time": "2026-09-02T00:50:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130670-3A700817",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Baby Bunting Group (BBN) CEO Mark Teperson has lodged a Change of Director's Interest Notice — disclosing a change in his direct or indirect shareholding, which may reflect an on-market purchase, sale, or vesting of performance rights.",
+        "Director buying on-market is traditionally interpreted as a positive sentiment signal, particularly from a CEO, as it aligns management incentives with shareholders; conversely, a sale (absent pre-disclosed trading plan context) can generate negative market perception.",
+        "BBN operates in a highly competitive and margin-pressured specialty retail environment — any increase in CEO skin-in-the-game at current price levels would reinforce confidence in the turnaround or growth narrative, making the direction of this transaction a key detail to verify."
+      ],
+      "tags": [
+        "Retail",
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NWL",
+      "company": "NETWEALTH GROUP LIMITED",
+      "headline": "Application for quotation of securities - NWL",
+      "time": "2026-09-02T00:48:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130669-3A700816",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Netwealth Group (NWL) has applied for quotation of new securities on the ASX — this typically follows the vesting and exercise of employee share or performance rights plans, resulting in new ordinary shares being admitted to trading.",
+        "For a high-growth wealth platform like NWL, routine equity plan issuances are a modest dilution event but reflect ongoing staff retention in a competitive fintech talent market; the scale of the issuance relative to total shares on issue determines materiality.",
+        "NWL's strong FUA (Funds Under Administration) growth trajectory remains the primary valuation driver — this administrative filing does not alter the fundamental thesis, but investors should track cumulative equity plan dilution annually as part of total shareholder return analysis."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HIQ",
+      "company": "HITIQ LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-02T00:47:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130668-6A1341821",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "HitIQ Limited (HIQ) has filed a Change of Director's Interest Notice — disclosing an update to a director's securities holding, which could reflect an on-market trade, vesting of incentive securities, or participation in a capital raise.",
+        "For a micro-cap sports technology company like HIQ (focused on head impact monitoring), director transactions are closely watched given thin liquidity and concentrated ownership structures — the direction and scale of the change carries outsized signalling weight.",
+        "Investors should verify whether the change reflects voluntary buying (positive conviction signal) or plan-related vesting (neutral/administrative) — in the context of HIQ's commercialisation stage, insider alignment with shareholders via open-market purchases would be a meaningful positive indicator."
+      ],
+      "tags": [
+        "Technology",
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FLX",
+      "company": "FELIX GROUP HOLDINGS LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-02T00:45:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130667-2A1694478",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holding change at Felix Group Holdings (FLX) indicates a meaningful shift at the shareholder register level, warranting attention given FLX's relatively small market capitalisation and limited trading liquidity.",
+        "Substantial holder movements in micro-cap stocks like FLX can disproportionately influence near-term price action; the identity of the holder and direction of the change (increase vs. decrease) are the key variables to watch.",
+        "Until the full Form 604/603 details are assessed — including the nature of the holder's voting power and any associated derivatives — the strategic intent remains unclear, and no definitive valuation impact can be assigned."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STP",
+      "company": "STEP ONE CLOTHING LIMITED",
+      "headline": "Notification regarding unquoted securities - STP",
+      "time": "2026-09-02T00:44:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130666-2A1694477",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Step One Clothing has notified the ASX of unquoted securities, typically relating to employee incentive plan (EIP) grants such as options or performance rights issued to staff or executives.",
+        "As a non-market-sensitive administrative filing, this signals routine equity compensation activity rather than any material capital structure change or dilutive placement event.",
+        "Investors should monitor the total quantum of unquoted securities on issue relative to shares outstanding to assess potential future dilution from vesting events, particularly as STP continues its direct-to-consumer growth trajectory."
+      ],
+      "tags": [
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WT1",
+      "company": "WT1",
+      "headline": "ASX Listing Rule Waivers Disclosure",
+      "time": "2026-09-02T00:43:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130665-2A1694476",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WT1 has disclosed ASX Listing Rule waivers, indicating the exchange has granted specific exemptions from standard listing requirements, a procedural step common in the structuring of debt or structured product issuances.",
+        "Waiver disclosures are mandatory under ASX transparency rules and suggest WT1's securities structure contains non-standard features that required regulatory accommodation — relevant context for prospective note holders assessing risk.",
+        "Institutional investors should cross-reference this waiver disclosure with the accompanying Issue Supplement and Note Deed Poll filings (items 4 and 6) to gain a complete picture of the instrument's terms and any structural risks."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SFR",
+      "company": "SANDFIRE RESOURCES LIMITED",
+      "headline": "Application for quotation of securities - SFR",
+      "time": "2026-09-02T00:42:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130664-6A1341819",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Sandfire Resources (SFR) has lodged an application for quotation of new securities, indicating fresh shares are being brought to market — likely linked to an employee incentive scheme vesting, dividend reinvestment plan, or institutional placement tranche.",
+        "The non-market-sensitive classification suggests the quantum is modest and within previously disclosed parameters, minimising near-term dilution concern for existing shareholders.",
+        "With SFR actively operating its MATSA copper complex in Spain and the Motheo copper mine in Botswana, any equity issuance tied to incentive schemes reinforces management retention strategy during a critical operational ramp-up phase."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WT1",
+      "company": "WT1",
+      "headline": "Issue Supplement",
+      "time": "2026-09-02T00:41:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130663-2A1694475",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WT1's Issue Supplement filing provides the specific commercial terms of its structured note offering, including coupon rate, maturity date, underlying reference asset, and repayment mechanics — essential reading for fixed-income and structured product investors.",
+        "This document, combined with the Note Deed Poll and Listing Rule waiver disclosures, completes the legal and commercial framework for the WT1 instrument, signalling the issuance is in its final stages of establishment.",
+        "Institutional investors evaluating WT1 notes should scrutinise the Issue Supplement for credit enhancement features, subordination levels, and any embedded optionality that could affect yield and principal protection under stress scenarios."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BBN",
+      "company": "BABY BUNTING GROUP LIMITED",
+      "headline": "Notification of cessation of securities - BBN",
+      "time": "2026-09-02T00:40:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130662-3A700815",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Baby Bunting (BBN) has reported the cessation of securities, most likely the lapsing or cancellation of performance rights or options that failed to meet vesting conditions, reducing the unquoted securities overhang.",
+        "Cessation of equity incentives can signal that performance hurdles were not met, which may raise questions about the achievement of internal KPIs or financial targets during the relevant performance period.",
+        "From a capital structure standpoint, the lapsing of unexercised securities is marginally accretive to existing shareholders by reducing potential dilution, though the operational signal warrants monitoring against BBN's current turnaround narrative."
+      ],
+      "tags": [
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GRV",
+      "company": "GREENVALE ENERGY LTD",
+      "headline": "Uranium Paleochannel Target Identified - Amendment",
+      "time": "2026-09-02T00:40:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130661-6A1341817",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Greenvale Energy (GRV) has identified a uranium paleochannel target — a geologically compelling structural setting for sediment-hosted uranium mineralisation — marking a meaningful step-change in the company's exploration narrative and investor appeal amid elevated uranium prices.",
+        "The 'Amendment' classification suggests a correction or clarification to previously released technical data; this nuance is material — if the amendment strengthens the target definition it is a positive catalyst, but if it downgrades the interpreted extent, it could disappoint the market.",
+        "With uranium sentiment broadly constructive on the ASX, any credible paleochannel target identification can attract speculative interest; GRV investors should scrutinise the amended technical parameters (depth, strike length, radiometric anomaly strength) before drawing conclusions on drill-ready status."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WT1",
+      "company": "WT1",
+      "headline": "Note Deed Poll",
+      "time": "2026-09-02T00:40:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130660-2A1694470",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Note Deed Poll filed by WT1 establishes the foundational legal deed under which noteholders' rights, obligations, and protections are governed — a critical constitutional document for the structured note program.",
+        "This filing is a standard prerequisite for ASX-listed debt or structured products and confirms WT1 is progressing through the formal listing process with all requisite legal documentation in place.",
+        "Investors should assess the trustee arrangements, default provisions, and noteholder meeting thresholds contained within the Deed Poll, as these directly govern recourse options in adverse scenarios."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst BHP Instalment MINI Dividend - Estimated",
+      "time": "2026-09-02T00:39:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130659-2A1694474",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst has published an estimated dividend for its BHP Instalment MINI product (CTW), reflecting the pass-through of BHP's underlying dividend to holders of this leveraged instalment warrant structure.",
+        "The 'estimated' classification indicates the final dividend quantum is subject to confirmation, likely pending currency conversion (AUD/USD) or withholding tax adjustments given BHP's dual-listed structure.",
+        "For instalment warrant holders, dividend pass-throughs reduce the loan component of the instalment, effectively increasing equity in the position — a positive mechanical outcome but not a signal of broader market direction."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst WDS Instalment MINI Dividend - Estimated",
+      "time": "2026-09-02T00:39:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130658-2A1694473",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst has issued an estimated dividend notice for its Woodside Energy (WDS) Instalment MINI product, passing through WDS's underlying dividend distribution to structured product holders.",
+        "As with BHP MINIs, the estimated status reflects pending finalisation of the exact dividend amount, potentially subject to Woodside's foreign-sourced income components or franking credit adjustments.",
+        "WDS has been under pressure amid energy transition concerns and LNG price volatility; the dividend pass-through to MINI holders is mechanically positive but provides no new fundamental signal on WDS's operational outlook."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SFR",
+      "company": "SANDFIRE RESOURCES LIMITED",
+      "headline": "Application for quotation of securities - SFR",
+      "time": "2026-09-02T00:38:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130657-6A1341816",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second application for quotation of securities by Sandfire Resources (SFR) on the same day may indicate multiple tranches of new securities arising from different equity plan schemes or a two-stage administrative lodgement process.",
+        "The duplication of this filing type on the same day warrants investor attention to understand whether these represent distinct security classes (e.g., performance rights vs. options) or a clerical multi-tranche submission.",
+        "Combined with the earlier SFR quotation application (item 3), the total volume of newly quoted securities should be assessed against SFR's existing share count to quantify cumulative dilution risk, particularly given the company's ongoing capital requirements for mine development."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst BHP Instalments Dividend - Estimated",
+      "time": "2026-09-02T00:38:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130656-2A1694472",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst has filed an estimated dividend notice for its BHP Instalments product (distinct from the MINI variant in item 7), indicating a separate series of BHP-linked instalment warrants is also receiving a dividend pass-through.",
+        "The existence of both MINI and standard Instalment series for BHP reflects active structured product demand for leveraged BHP exposure on the ASX, with Citi managing multiple concurrent series for different investor risk profiles.",
+        "Instalment warrant investors should note that dividend reductions to the loan balance improve their equity buffer, but BHP's near-term dividend trajectory — influenced by iron ore and copper price cycles — remains the key variable for total return modelling."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WT1",
+      "company": "WT1",
+      "headline": "Master Security Trust Deed",
+      "time": "2026-09-02T00:38:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130655-2A1694468",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WT1 has lodged its Master Security Trust Deed, a foundational legal document establishing the security framework for a new structured finance or debt issuance vehicle — indicative of an imminent capital markets transaction.",
+        "The filing of security trust documentation typically precedes the issuance of notes or other debt instruments, suggesting WT1 is in advanced stages of establishing a securitisation or wholesale funding program.",
+        "Investors should monitor subsequent ASX filings closely — the Information Memorandum and Appendix 1B lodgements filed concurrently confirm this is part of a coordinated new product or trust listing process."
+      ],
+      "tags": [
+        "Finance",
+        "Other",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst WDS Instalments Dividend - Estimated",
+      "time": "2026-09-02T00:37:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130654-2A1694471",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst has released an estimated dividend notification for its WDS (World-linked) Instalment warrants, reflecting pass-through of underlying dividends from the reference securities to instalment holders.",
+        "The 'estimated' nature of the dividend signals the final quantum is still to be confirmed, potentially subject to currency conversion, withholding tax adjustments, or finalisation of the underlying stock's dividend — creating minor uncertainty for holders.",
+        "Instalment holders should track the final dividend confirmation and ex-date closely, as the actual cash distribution may differ materially from the estimate depending on FX movements or corporate actions on the underlying security."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SFR",
+      "company": "SANDFIRE RESOURCES LIMITED",
+      "headline": "Notification of cessation of securities - SFR",
+      "time": "2026-09-02T00:37:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130653-6A1341815",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Sandfire Resources has notified the ASX of a cessation of securities, most likely reflecting the lapse, cancellation, or vesting and conversion of performance rights or options held by insiders or employees.",
+        "While classified as non-market sensitive, securities cessations tied to performance rights can signal milestone outcomes — either rights lapsed due to performance conditions not being met (bearish read) or converted upon vesting (neutral/bullish).",
+        "Investors should cross-reference this filing with SFR's recent director interest notices and remuneration disclosures to determine whether the cessation reflects incentive scheme outcomes or administrative cancellations, as context materially changes the signal."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SFR",
+      "company": "SANDFIRE RESOURCES LIMITED",
+      "headline": "Appendix 3Y Change of Director's Interest Notice - B Harris",
+      "time": "2026-09-02T00:36:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130652-6A1341814",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director B. Harris has filed an Appendix 3Y with the ASX, disclosing a change in their relevant interest in Sandfire Resources securities — a routine but closely watched governance disclosure.",
+        "Director transactions, even when non-market sensitive, provide valuable insider sentiment signals; a net increase in holdings would be modestly bullish, while a disposal could indicate reduced conviction at current valuation levels.",
+        "Given SFR's concurrent cessation of securities notice, this change of interest may relate to the vesting or lapsing of performance-linked securities rather than open-market trading — investors should review the specific nature of the change for actionable insight."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WT1",
+      "company": "WT1",
+      "headline": "Master Trust Deed",
+      "time": "2026-09-02T00:36:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130651-2A1694466",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WT1's lodgement of a Master Trust Deed, in conjunction with the Master Security Trust Deed and General Security Deed filed simultaneously, confirms the legal infrastructure for a new trust or structured vehicle is being formally established on the ASX.",
+        "The Master Trust Deed is the primary governing document for any managed investment scheme or securitisation trust, defining unit holder rights, trustee obligations, and distribution mechanics — a critical step before any capital can be raised.",
+        "The coordinated multi-document lodgement strategy suggests WT1 is executing a well-planned listing or product launch; the timeline to first issuance or investor participation will hinge on ASIC review and finalisation of the Information Memorandum."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMB",
+      "company": "CAMBIUM BIO LIMITED",
+      "headline": "Update - Proposed issue of securities - CMB",
+      "time": "2026-09-02T00:35:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130650-2A1694469",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cambium Bio Limited (CMB) has filed an update to a proposed securities issuance, indicating a modification to previously announced capital raise terms — which may reflect changes in pricing, volume, investor uptake, or structure.",
+        "Updates to proposed securities issuances can be a double-edged signal: revised terms may indicate strong demand requiring upsizing, or alternatively, difficulty in placing securities at original terms, necessitating price or structure adjustments — the direction is critical to assess.",
+        "As a small-cap biotech, CMB's capital raise execution risk is elevated; investors should scrutinise the updated terms for any dilution impact and assess whether the raised capital is sufficient to fund key clinical or regulatory milestones through to meaningful value inflection points."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WT1",
+      "company": "WT1",
+      "headline": "General Security Deed",
+      "time": "2026-09-02T00:35:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130649-2A1694464",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WT1's General Security Deed filing represents the granting of a security interest over assets of the trust or issuer entity, providing creditors or note holders with recourse in the event of default — a standard but essential component of any debt or structured finance program.",
+        "The presence of a General Security Deed signals that WT1's emerging vehicle involves secured obligations, which typically enhances credit quality for investors in the notes or instruments to be issued, potentially broadening the investor base.",
+        "Combined with the Master Trust Deed and Master Security Trust Deed lodgements, this filing completes the trifecta of foundational legal documents required before an Information Memorandum can be distributed to wholesale investors."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WT1",
+      "company": "WT1",
+      "headline": "Information Memorandum",
+      "time": "2026-09-02T00:33:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130648-2A1694463",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WT1's Information Memorandum (IM) lodgement is the most commercially significant of its concurrent filings, as this document contains the terms, risk factors, and financial details of the securities being offered to wholesale or sophisticated investors.",
+        "The IM effectively opens the book for investor participation in the WT1 vehicle — institutions and wholesale participants can now formally assess the investment proposition, pricing, and risk profile of the trust's offerings.",
+        "This filing, alongside the Appendix 1B, confirms WT1 is seeking an official ASX quotation for its securities; the quality of the IM's disclosure, credit structure, and yield terms will be the primary determinants of investor demand and listing success."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRV",
+      "company": "SERVCORP LIMITED",
+      "headline": "Initial Director's Interest Notice",
+      "time": "2026-09-02T00:31:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130647-2A1694467",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Servcorp Limited (SRV) has lodged an Initial Director's Interest Notice, indicating a new director appointment has been formalised and their initial security holdings in SRV are being disclosed as required under ASX Listing Rules.",
+        "The nature and size of the incoming director's existing SRV shareholding (if any) provides an early read on alignment with existing shareholders — a director entering with significant personal capital invested is generally viewed as a positive governance signal.",
+        "Investors should assess the new director's professional background and the board capacity they fill (e.g. financial, operational, or industry expertise) to determine whether the appointment strengthens Servcorp's strategic positioning in the competitive global flexible workspace sector."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WT1",
+      "company": "WT1",
+      "headline": "Appendix 1B, Information Form and Checklist",
+      "time": "2026-09-02T00:31:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130646-2A1694462",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WT1's Appendix 1B lodgement is the formal ASX application for admission and quotation of a new entity or securities, confirming the trust is seeking an official listed status on the ASX — the culmination of all concurrent document filings.",
+        "Appendix 1B approval by the ASX is not automatic; the exchange will review all lodged documentation including the IM, trust deeds, and security arrangements before granting quotation — any deficiencies could delay the listing timeline.",
+        "Upon successful ASX admission, WT1 securities will become tradeable on-market, creating liquidity for investors in what appears to be a new structured finance or debt trust vehicle; early secondary market pricing will be a key indicator of investor reception."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STP",
+      "company": "STEP ONE CLOTHING LIMITED",
+      "headline": "Notification of cessation of securities - STP",
+      "time": "2026-09-02T00:29:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130645-2A1694465",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities at STP typically reflects the lapsing or cancellation of performance rights, options, or similar instruments — reducing potential future dilution for existing shareholders.",
+        "Without specific volume and strike price detail, the materiality is unclear, but routine cessations at this scale are generally administrative in nature for a mid-cap retailer like Step One.",
+        "Investors should monitor cumulative cessation notices to assess whether management incentive structures are being met or quietly wound back, which could signal shifts in internal performance expectations."
+      ],
+      "tags": [
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SOP",
+      "company": "SYNERTEC CORPORATION LIMITED",
+      "headline": "FY26 Financial Results and Key Achievements Presentation",
+      "time": "2026-09-02T00:28:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130644-3A700813",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Synertec releasing FY26 financial results and achievements presentation signals the completion of its fiscal year reporting cycle — key metrics to watch include revenue growth trajectory and path to profitability for this engineering solutions micro-cap.",
+        "Classified as 'not market sensitive' suggests results are broadly in line with prior guidance or market expectations, limiting immediate surprise upside or downside.",
+        "The inclusion of 'Key Achievements' alongside financials indicates management is actively framing a strategic narrative — investors should scrutinise whether operational milestones translate into sustainable revenue rather than one-off contract wins."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HPC",
+      "company": "THE HYDRATION PHARMACEUTICALS COMPANY LIMITED",
+      "headline": "Letter to Shareholders regarding EGM",
+      "time": "2026-09-02T00:27:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130643-3A700814",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A shareholder letter regarding an Extraordinary General Meeting (EGM) at HPC signals a pending corporate action or resolution that requires urgent shareholder approval outside the standard AGM cycle — often indicative of capital structure changes, asset deals, or board restructuring.",
+        "The 'not market sensitive' classification is notable but does not preclude material resolutions; investors should read the accompanying EGM notice carefully for dilutive or transformational proposals.",
+        "For a micro-cap pharmaceutical company like HPC, EGMs frequently accompany capital raises or strategic pivots — the outcome of this vote could meaningfully alter the company's near-term funding position and operational direction."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OSL",
+      "company": "ONCOSIL MEDICAL LTD",
+      "headline": "OncoSil submits US Reimbursement Application",
+      "time": "2026-09-02T00:27:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130642-2A1694461",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "OncoSil's submission of a US reimbursement application is a critical commercial milestone — US market access hinges on Medicare/private insurer coverage, and without reimbursement, even an FDA-cleared device faces negligible adoption.",
+        "This step follows regulatory clearance and positions OSL to potentially unlock the world's largest oncology market; successful reimbursement could dramatically expand the addressable patient population and revenue base.",
+        "The process is lengthy and outcomes uncertain — investors should track CMS (Centers for Medicare & Medicaid Services) timelines and any parallel commercial partnership discussions as indicators of near-term revenue conversion."
+      ],
+      "tags": [
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HPC",
+      "company": "THE HYDRATION PHARMACEUTICALS COMPANY LIMITED",
+      "headline": "Notice of Extraordinary General Meeting/Proxy Form",
+      "time": "2026-09-02T00:26:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130641-3A700812",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The formal Notice of EGM and Proxy Form for HPC confirms specific resolutions are being put to shareholders — the proxy form is the key document for understanding whether proposals involve share issuance, board changes, or asset transactions.",
+        "Institutional and retail holders should review voting thresholds carefully; resolutions requiring 75% approval (special resolutions) carry higher passage risk and signal more structurally significant changes.",
+        "The dual release of a shareholder letter (announcement [3]) and formal EGM notice on the same day suggests management is proactively managing investor relations ahead of a potentially contentious or complex vote."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QRI",
+      "company": "QUALITAS REAL ESTATE INCOME FUND",
+      "headline": "Estimated Monthly NTA as at 31.08.2026",
+      "time": "2026-09-02T00:24:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130640-3A700811",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Qualitas Real Estate Income Fund's monthly NTA disclosure for 31 August 2026 provides a critical reference point for assessing whether QRI is trading at a premium or discount to net asset value — a key valuation signal for this listed credit fund.",
+        "As a real estate debt fund, NTA movements reflect changes in the underlying loan portfolio's fair value and credit quality; stability or growth in NTA supports the fund's income distribution sustainability.",
+        "Investors should compare the estimated NTA against QRI's prevailing market price and recent distribution yield to assess relative value versus peers in the ASX-listed mortgage and credit fund space."
+      ],
+      "tags": [
+        "Finance",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WT1",
+      "company": "WT1",
+      "headline": "Admission and Commencement as an ASX Debt Listing",
+      "time": "2026-09-02T00:24:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130639-2A1694460",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WT1's admission and commencement as an ASX Debt Listing marks a new fixed-income instrument entering the exchange, broadening the investable debt universe on the ASX — relevant for income-focused and fixed-income allocators.",
+        "Key parameters to evaluate include coupon rate, maturity profile, issuer credit quality, and liquidity — without these details the risk/return profile cannot be assessed, but the listing itself signals the issuer's intent to access retail and institutional debt capital markets.",
+        "ASX debt listings remain a relatively niche segment; investors should assess secondary market liquidity carefully, as thin trading volumes can result in significant bid-ask spreads and mark-to-market volatility."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRA",
+      "company": "FRANKLIN AUS ABSOLUTE RETURN BND FUND - ACTIVE ETF",
+      "headline": "DRP Price 31 August 2026",
+      "time": "2026-09-02T00:16:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130638-2A1694458",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Franklin Australian Absolute Return Bond Fund's DRP (Distribution Reinvestment Plan) price for 31 August 2026 is a routine administrative disclosure, confirming the reinvestment price for participating unitholders.",
+        "The DRP price serves as a secondary indicator of the fund's unit valuation at month-end — deviations from market price can signal NAV movements or distribution adjustments worth monitoring.",
+        "For existing FRA holders enrolled in the DRP, this sets the acquisition cost for reinvested units; no immediate trading catalyst is expected from this disclosure."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATA",
+      "company": "ATTURRA LIMITED",
+      "headline": "Notification of cessation of securities - ATA",
+      "time": "2026-09-02T00:12:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130637-2A1694457",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities at Atturra (ATA) — an ASX-listed IT services company — likely reflects the lapsing of performance rights or options, reducing the potential dilutive overhang from employee incentive schemes.",
+        "For ATA, which operates in a competitive IT consulting and managed services market, the structure and achievement rates of long-term incentive plans are a useful proxy for management's confidence in meeting internal KPIs.",
+        "Investors should cross-reference this cessation with recent remuneration reports to determine whether non-vesting reflects underperformance against targets or simply plan design expiry — each carries different signalling implications."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAT",
+      "company": "KATANA CAPITAL LIMITED",
+      "headline": "Update - Notification of buy-back - KAT",
+      "time": "2026-09-02T00:11:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130636-6A1341812",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Katana Capital's updated on-market buy-back notification signals continued capital management activity, with the company returning value to shareholders — a constructive signal for a listed investment company (LIC) typically trading at a discount to NTA.",
+        "Buy-backs at a discount to NTA are mathematically accretive to remaining shareholders, effectively improving per-share NTA — this is a well-regarded mechanism for LIC discount compression and aligns management interests with minority holders.",
+        "Investors should monitor the pace and volume of buy-back activity relative to KAT's average daily volume and available franking credits, as acceleration could indicate management's view that the current discount is unjustifiably wide."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ATA",
+      "company": "ATTURRA LIMITED",
+      "headline": "Notification regarding unquoted securities - ATA",
+      "time": "2026-09-02T00:07:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130635-2A1694456",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine administrative notification covering unquoted securities (likely options or performance rights) for Atturra Limited — no financial impact disclosed.",
+        "These filings typically relate to employee incentive schemes or convertible instruments, which could signal latent dilution risk if securities vest or convert at scale.",
+        "Investors should cross-reference with ATA's most recent remuneration report to assess the total quantum of unquoted securities outstanding relative to issued capital."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BRL",
+      "company": "BATHURST RESOURCES LIMITED.",
+      "headline": "FY26 Results Presentation Webcast",
+      "time": "2026-09-02T00:06:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130634-2A1694455",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Bathurst Resources has scheduled a webcast for its FY26 results presentation — the filing itself contains no financial data, but the event signals the company is approaching or has completed its FY26 reporting period.",
+        "As a coal producer, BRL's FY26 results will be closely watched for commentary on realised coal prices, production volumes, and cost management given ongoing volatility in thermal and met coal markets.",
+        "Institutional investors should register for the webcast to assess management's forward guidance on mine production targets and any capital allocation decisions including dividends or debt reduction."
+      ],
+      "tags": [
+        "Results",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JAL",
+      "company": "JAMESON RESOURCES LIMITED",
+      "headline": "ANREO Cleansing Notice",
+      "time": "2026-09-02T00:04:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130633-6A1341810",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Jameson Resources (JAL) has lodged an ANREO (Accelerated Non-Renounceable Entitlement Offer) cleansing notice, a regulatory requirement under s708AA of the Corporations Act, confirming the company is proceeding with a capital raise without a full prospectus — speed and compliance are the priorities here.",
+        "The cleansing notice is a procedural but market-sensitive step that unlocks the ability to place shares to sophisticated/institutional investors; it confirms the raise is legally sanctioned and imminent, meaning dilution is now a near-term certainty for existing shareholders.",
+        "Combined with the concurrent investor presentation and raise announcement (items [7] and [8]), this filing is part of a coordinated capital markets exercise — investors should focus on the offer price relative to last traded price to assess discount magnitude and implied dilution."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-02T00:03:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130632-2A1694454",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Eureka Group Holdings (EGH) has entered a trading halt, a strong signal that a material, price-sensitive announcement is imminent — common triggers include capital raises, M&A activity, asset transactions, or material contract news.",
+        "For a property/social housing-focused operator like EGH, a trading halt most likely precedes a significant portfolio transaction, equity raise, or strategic update; the halt protects market integrity while the company prepares disclosure.",
+        "Investors should anticipate a resumption announcement within 1-2 trading days; the nature of the subsequent release will be the true price catalyst — until then, positioning is speculative and risk is asymmetric in either direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PNN",
+      "company": "POWER MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-02T00:02:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130631-2A1694453",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Power Minerals (PNN) has entered a trading halt, halting all price discovery while a material announcement is being prepared — in the context of a minerals explorer, this most commonly precedes a capital raise, significant exploration result, or corporate activity.",
+        "PNN's focus on lithium and critical minerals gives this halt elevated relevance in the current macro environment where battery materials are closely watched; a drill result or project update could be a meaningful re-rating event.",
+        "The trading halt provides the board time to finalise documentation; investors should watch for the nature of the subsequent announcement — a capital raise would be dilutive near-term, while a positive exploration result or corporate deal could be strongly re-rating."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PDN",
+      "company": "PALADIN ENERGY LTD",
+      "headline": "Paladin Energy - 2026 Investor Day",
+      "time": "2026-09-02T00:01:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130630-6A1341809",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Paladin Energy is hosting a dedicated Investor Day in 2026 — a significant engagement event typically used to reset or reinforce long-term strategic narratives, particularly important given PDN's flagship Langer Heinrich uranium mine restart phase.",
+        "The event is likely to feature operational updates on Langer Heinrich's ramp-up trajectory, cost guidance, and potentially new offtake or contracting developments in the tightening uranium market.",
+        "For uranium-focused institutional investors, Investor Days from PDN carry outsized relevance as the company is one of the few ASX-listed pure-play uranium producers at production scale — any production or cost guidance revisions could be market-moving."
+      ],
+      "tags": [
+        "Energy",
+        "Production",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RCE",
+      "company": "RECCE PHARMACEUTICALS LTD",
+      "headline": "General Meeting Presentation",
+      "time": "2026-09-02T00:01:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130629-6A1341811",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Recce Pharmaceuticals is presenting at its General Meeting — for a pre-revenue clinical-stage biotech, GM presentations often serve as a key platform to update shareholders on trial progress and cash runway.",
+        "Key watch items include the status of RECCE® 327 and RECCE® 529 clinical programs, any new partnerships or licensing discussions, and critically the company's remaining cash position given ongoing burn.",
+        "With no disclosed market-sensitive content, this appears procedural, but investors should scrutinise the presentation for any soft guidance on upcoming catalysts such as trial readouts or regulatory submissions."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst MINIs Cash Amounts for Stop Loss Event 1 Sep 26",
+      "time": "2026-09-02T00:00:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130628-2A1694452",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CitiFirst has announced cash settlement amounts for MINIs (leveraged structured products) that were stopped out on 1 September 2026 — this is a structured product administration notice, not an equity announcement.",
+        "Stop-loss events in MINIs result in automatic termination of the product; holders receive the residual cash amount (if any) after the stop-loss level is breached, which can be negligible depending on leverage.",
+        "This announcement has no direct impact on the underlying securities to which these MINIs were linked; it is purely an administrative closure notice for affected retail and wholesale structured product holders."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JAL",
+      "company": "JAMESON RESOURCES LIMITED",
+      "headline": "Proposed issue of securities - JAL",
+      "time": "2026-09-01T23:59:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130627-6A1341807",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Jameson Resources has lodged a proposed securities issuance notice — without detailed terms disclosed in the headline, this likely relates to a capital raise, placement, or options issuance that will dilute existing shareholders.",
+        "For a small-cap resources company like JAL, capital raises are common to fund exploration or development activity, but the absence of market-sensitive classification suggests terms may already be known or the quantum is modest.",
+        "Investors should review the full Appendix 3B filing to determine the number of securities, issue price relative to market price, and intended use of proceeds to assess dilution impact."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "JAL",
+      "company": "JAMESON RESOURCES LIMITED",
+      "headline": "Proposed issue of securities - JAL",
+      "time": "2026-09-01T23:59:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130626-6A1341804",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second proposed securities issuance notice has been filed by Jameson Resources on the same day — this is likely a separate tranche or a different class of securities (e.g., options accompanying a placement).",
+        "Dual filings on the same day often indicate a placement paired with free-attaching options, a structure commonly used by small-cap miners to sweeten capital raise terms for investors.",
+        "The combined effect of two issuance notices compounds potential dilution concerns; existing shareholders should assess total new securities as a percentage of current issued capital once both Appendix 3B filings are reviewed in full."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DGT",
+      "company": "DIGICO INFRASTRUCTURE REIT",
+      "headline": "Application for quotation of securities - DGT",
+      "time": "2026-09-01T23:59:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130625-2A1694451",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DiGiCo Infrastructure REIT has applied for quotation of new securities on the ASX — this follows a capital raise or distribution reinvestment plan and signals new units are being brought to market.",
+        "For a data centre-focused infrastructure REIT, new securities quotation often follows institutional placements or entitlement offers used to fund asset acquisitions or development capex, which can be accretive if deployed at yield-positive spreads.",
+        "Investors should confirm the number of new units being quoted, the issue price, and whether this issuance was previously announced — the key question is whether the capital is being deployed into NTA-accretive or dilutive transactions."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Property",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JAL",
+      "company": "JAMESON RESOURCES LIMITED",
+      "headline": "ANREO Investor Presentation",
+      "time": "2026-09-01T23:59:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130624-6A1341798",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Jameson Resources (JAL) has released an investor presentation in conjunction with its ANREO capital raise, providing the market with the strategic rationale and use-of-funds disclosure required to support institutional participation in the offer.",
+        "The presentation is a key document for assessing the quality of the raise — it should outline progress at Crown Mountain (metallurgical coal project in BC, Canada), timeline to approvals, and how the A$5m raised will be deployed against specific milestones.",
+        "Institutional investors will scrutinise the project economics, approval pathway, and management credibility within this deck; a compelling presentation can narrow the typical ANREO discount by improving book coverage and reducing the risk of a shortfall."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JAL",
+      "company": "JAMESON RESOURCES LIMITED",
+      "headline": "ANREO A$5m raise for Crown Mountain approvals",
+      "time": "2026-09-01T23:58:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130622-6A1341795",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Jameson Resources (JAL) is raising A$5 million via an Accelerated Non-Renounceable Entitlement Offer (ANREO) specifically earmarked for advancing Crown Mountain project approvals — a clearly defined use of proceeds that reduces capital allocation uncertainty.",
+        "The A$5m raise is relatively modest, suggesting JAL is not seeking to over-dilute shareholders but needs a targeted capital injection to fund the regulatory/approval process for Crown Mountain, a large undeveloped metallurgical coal asset in British Columbia.",
+        "Key risks include the discount to last traded price (typical ANREO discounts of 10-20% are dilutive), the approval timeline uncertainty in a jurisdiction with elevated environmental scrutiny, and the commodity exposure to met coal — which carries both strategic value and ESG headwinds."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DGT",
+      "company": "DIGICO INFRASTRUCTURE REIT",
+      "headline": "Appendix 3Y - David Di Pilla",
+      "time": "2026-09-01T23:58:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130623-2A1694450",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Appendix 3Y change of director's interest notice has been filed for David Di Pilla, a key figure at DiGiCo Infrastructure REIT — this discloses a change in his unitholding, either through acquisition, disposal, or vesting of incentive securities.",
+        "Director buying activity, particularly from a founder or chairman-level figure like Di Pilla, is often interpreted by the market as a positive signal of internal confidence in the REIT's near-term performance and asset valuations.",
+        "Investors should review the full 3Y to determine the nature of the change (on-market purchase vs. vesting vs. disposal) — an on-market buy would be the most constructive signal; a disposal would warrant further scrutiny."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DGT",
+      "company": "DIGICO INFRASTRUCTURE REIT",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-01T23:58:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130621-2A1694449",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DiGiCo Infrastructure REIT has lodged a Cleansing Notice under s708A of the Corporations Act — this is a standard legal requirement following a placement to institutional investors without a product disclosure statement, enabling free trading of newly issued securities.",
+        "The filing confirms that a placement has been completed and that DGT's continuous disclosure obligations are current at the time of issue — a necessary compliance step that unlocks liquidity for placement participants.",
+        "While procedural in nature, the Cleansing Notice confirms capital has been successfully raised; the strategic focus now shifts to how management deploys proceeds, with data centre infrastructure acquisitions or development pipeline funding the most likely use cases."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TRP",
+      "company": "TISSUE REPAIR LTD",
+      "headline": "TRP to resume direct distribution of TR Pro in ANZ",
+      "time": "2026-09-01T23:57:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03130620-2A1694448",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tissue Repair (TRP) is reclaiming direct distribution rights for TR Pro in Australia and New Zealand, a strategically significant move that eliminates distributor margin leakage and gives the company full control over pricing, channel relationships, and customer data.",
+        "Direct distribution typically improves gross margin profiles materially — depending on the prior distributor margin, TRP could see significant uplift in revenue retention per unit sold, which is a key valuation driver for a small commercial-stage MedTech company.",
+        "The transition carries execution risk (rebuilding sales infrastructure, managing channel relationships, maintaining continuity of supply to clinical customers), but if managed well, this is a structurally bullish development that signals commercial maturation and confidence in the ANZ market opportunity."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CTW",
       "company": "CTW",
