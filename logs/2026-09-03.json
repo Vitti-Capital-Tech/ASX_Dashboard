@@ -1,9 +1,160 @@
 {
   "date": "2026-09-03",
-  "total": 221,
-  "market_sensitive_count": 60,
-  "generated_at": "2026-09-02T23:40:27.378653+00:00",
+  "total": 229,
+  "market_sensitive_count": 61,
+  "generated_at": "2026-09-02T23:46:50.434789+00:00",
   "announcements": [
+    {
+      "ticker": "NOL",
+      "company": "NOBLEOAK LIFE LIMITED",
+      "headline": "2026 AGM and closing date for director nominations",
+      "time": "2026-09-02T23:43:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131208-2A1694740",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "NobleOak Life has announced its 2026 AGM date and opened the director nomination window — a routine governance milestone with no direct financial impact on near-term earnings or operations.",
+        "The closing date for director nominations is a critical watch point for institutional shareholders seeking board representation or wishing to influence composition; any contested nominations lodged before the deadline could shift this from a neutral procedural event to a catalyst for governance scrutiny.",
+        "NOL's AGM season will be an opportunity for management to provide strategic guidance on premium growth, claims experience, and competitive positioning in the direct life insurance market — investors should monitor any accompanying business updates or board changes that may accompany the formal notice."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACF",
+      "company": "ACROW LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-02T23:43:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131207-6A1342033",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Acrow Limited has lodged a Cleansing Notice under s708A of the Corporations Act, which is standard post-placement procedure to allow securities issued without a prospectus to be freely traded on-market — this confirms a recent capital raise has been completed.",
+        "The filing itself carries no new financial information but confirms that the placement shares are now unencumbered and tradeable, which typically introduces near-term selling pressure as institutional placees or short-term traders may look to exit or rebalance.",
+        "Investors should cross-reference this notice with any associated placement announcement (see announcement [4]) to confirm the size, price, and use of proceeds — the strategic rationale for the capital raise is the key driver of medium-term sentiment."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACF",
+      "company": "ACROW LIMITED",
+      "headline": "Application for quotation of securities - ACF",
+      "time": "2026-09-02T23:41:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131206-6A1342032",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Acrow Limited has applied for quotation of new securities on the ASX, confirming the formal on-market listing of shares issued under a recent capital raise — this is the final administrative step before newly issued shares begin trading.",
+        "The quotation application signals dilution is now fully crystallised; the market will price in the new share count from the effective quotation date, making the placement price a key reference point for near-term support or resistance levels.",
+        "For ACF, a formwork and scaffolding infrastructure services company, the end-use of raised capital (e.g. acquisitions, equipment fleet expansion, working capital) will be the primary determinant of whether this dilution is value-accretive — absence of clear deployment detail at this stage warrants a cautious watch."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BLZ",
+      "company": "BLAZE MINERALS LIMITED",
+      "headline": "Consolidation/Split - BLZ",
+      "time": "2026-09-02T23:39:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131205-6A1342008",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Blaze Minerals is executing a share consolidation (reverse split), which reduces the number of shares on issue and proportionally increases the share price — this is typically implemented by micro-cap companies to lift their share price above minimum thresholds or improve institutional investability.",
+        "While consolidations are economically neutral (no change in market capitalisation), they can signal management's intent to reposition BLZ for a capital raise or corporate transaction at a higher nominal price point, which is highly relevant given the concurrent Uganda tungsten acquisition (announcement [1]).",
+        "Investors should note the consolidation ratio carefully, as highly aggressive ratios can indicate prior severe dilution; the timing alongside a resource acquisition and proposed securities issuances ([6] and [7]) suggests a coordinated recapitalisation strategy is underway."
+      ],
+      "tags": [
+        "Other",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BLZ",
+      "company": "BLAZE MINERALS LIMITED",
+      "headline": "Proposed issue of securities - BLZ",
+      "time": "2026-09-02T23:39:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131204-6A1342005",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Blaze Minerals has lodged a proposed issue of securities notice, indicating an imminent capital raise — in the context of the Uganda tungsten acquisition ([1]) and share consolidation ([5]), this is almost certainly deal-funding or exploration-capital related.",
+        "The structure and pricing of the proposed issue (placement vs. rights issue, discount to market) will be critical; deep discounts to the post-consolidation price would signal urgency or weak institutional demand, while a tightly priced raise would suggest stronger conviction from cornerstone investors.",
+        "This is the first of two proposed securities issuances filed on the same day ([6] and [7]), suggesting a multi-tranche raise — investors should assess the aggregate dilution across both tranches and whether shareholder approval is required under ASX Listing Rule 7.1 or 7.1A."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BLZ",
+      "company": "BLAZE MINERALS LIMITED",
+      "headline": "Proposed issue of securities - BLZ",
+      "time": "2026-09-02T23:38:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131203-6A1342004",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second proposed issue of securities notice from Blaze Minerals on the same day as [6] points to a structured two-tranche capital raise — common in small-cap resource deals where the first tranche is placed under existing 15% capacity and the second tranche requires shareholder approval.",
+        "The dual-tranche structure extends dilution risk over a longer timeline and introduces execution risk if the shareholder approval tranche is voted down — a material consideration given BLZ's likely small and concentrated retail shareholder base.",
+        "Taken together, announcements [1], [5], [6], and [7] paint a picture of a company undergoing a full corporate transformation: new asset, recapitalised balance sheet, and restructured share count — the investment thesis is high-risk/high-reward and execution-dependent."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BLZ",
+      "company": "BLAZE MINERALS LIMITED",
+      "headline": "Acquisition of High-Grade Tungsten Projects, Uganda",
+      "time": "2026-09-02T23:38:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131202-6A1342002",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "BLZ is acquiring high-grade tungsten projects in Uganda, a strategic move into a critical mineral with strong industrial and defence demand — tungsten prices have been supported by supply-chain concerns given China's dominance of global production (~80%), making non-Chinese sources highly attractive.",
+        "The market-sensitive classification signals material value implications; investors should scrutinise acquisition terms (consideration structure, cash vs. scrip, earn-outs) and the resource quality metrics (grade, tonnage) to assess whether the deal is genuinely transformative or speculative early-stage exposure.",
+        "Uganda represents a frontier jurisdiction with elevated sovereign and operational risk; near-term catalysts will hinge on BLZ's ability to secure exploration permits, demonstrate capital adequacy post-acquisition, and deliver initial resource estimates — key milestones that will define re-rating potential."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RIV",
+      "company": "RIVCO AUSTRALIA LTD",
+      "headline": "Update - Notification of buy-back - RIV",
+      "time": "2026-09-02T23:38:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131201-2A1694739",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Rivco Australia has updated its on-market share buyback notification, signalling the company is returning capital to shareholders — buybacks are generally supportive of share price by reducing share count and demonstrating management's confidence that the stock is undervalued relative to intrinsic value.",
+        "For a smaller ASX-listed company like RIV, the scale of the buyback relative to average daily volume (ADV) is the key metric; even a modest buyback programme can provide meaningful price support if daily volumes are thin, effectively acting as a demand floor.",
+        "Investors should monitor the buyback update for any changes to the total buyback quantum, timeline, or pace — any reduction or suspension of the programme would be a mild negative signal, while an acceleration would reinforce bullish management conviction."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "GSS",
       "company": "GENETIC SIGNATURES LIMITED",
