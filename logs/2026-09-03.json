@@ -1,9 +1,178 @@
 {
   "date": "2026-09-03",
-  "total": 229,
-  "market_sensitive_count": 61,
-  "generated_at": "2026-09-02T23:46:50.434789+00:00",
+  "total": 238,
+  "market_sensitive_count": 66,
+  "generated_at": "2026-09-02T23:53:41.614725+00:00",
   "announcements": [
+    {
+      "ticker": "NGI",
+      "company": "NAVIGATOR GLOBAL INVESTMENTS LIMITED",
+      "headline": "2026 Annual General Meeting Details",
+      "time": "2026-09-02T23:50:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131217-2A1694742",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Navigator Global Investments has announced details for its 2026 AGM — a routine procedural disclosure with no immediate financial or operational implications for the company's fund management operations.",
+        "The AGM notice provides shareholders with the scheduled date, venue, and agenda framework — investors should monitor whether any non-standard resolutions (e.g. capital management, board spill, or remuneration concerns) are flagged in the accompanying materials.",
+        "For NGI, a listed alternative asset manager, the AGM is an opportunity to gauge management's forward guidance on FUM growth, distribution policy, and strategic direction — any commentary on these matters will carry more weight than the procedural notice itself."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RNV",
+      "company": "RENERVE LIMITED",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-09-02T23:49:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131215-6A1342036",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Renerve Limited has issued its AGM notice and proxy form — a standard administrative filing with no direct financial impact, though the resolutions tabled will deserve scrutiny given the company's early-stage profile in the healthcare/neurology space.",
+        "Key items to watch in the full notice of meeting include any share issuance authorities, options grants to directors or management, and remuneration report outcomes — these are often the flashpoints for dissent in small-cap healthcare companies.",
+        "For institutional holders, proxy voting strategy on any equity incentive resolutions is particularly relevant given RNV's cash burn profile as a pre-revenue biotechnology company — dilution management remains a core governance concern."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "UNT",
+      "company": "UNITH LTD",
+      "headline": "Results of Entitlement Issue",
+      "time": "2026-09-02T23:49:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131216-3A700916",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Unith has completed its entitlement issue, confirming capital has been raised — the key risk now is the degree of shareholder take-up versus shortfall, which directly signals market confidence in the company's near-term strategy.",
+        "Dilution impact is the critical metric to monitor: a high shortfall placed with third parties would indicate weak existing shareholder support and may overhang the share price as new holders seek liquidity.",
+        "Proceeds and their intended use must be scrutinised — for a micro-cap technology company like UNT, the runway extension this capital provides will determine whether the raise buys sufficient time to reach commercial milestones or merely delays a further dilutive raise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PXA",
+      "company": "PEXA GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice - Janelle Hopkins",
+      "time": "2026-09-02T23:47:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131214-3A700915",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director Janelle Hopkins has lodged a change of interest notice for PEXA Group — a routine disclosure that may reflect an on-market purchase, vesting of performance rights, or disposal of shares, each carrying different signalling value.",
+        "If the change reflects an on-market purchase by a senior director, it would represent a mild positive sentiment signal, suggesting insider confidence in PEXA's valuation at current levels following the stock's period of volatility.",
+        "Given PXA's scale as a digital property settlements platform with institutional ownership, a single director transaction is unlikely to move the needle materially — the disclosure is largely procedural unless the transaction size is unusually large."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BAS",
+      "company": "BASS OIL LIMITED",
+      "headline": "Bunian 6 Well Update",
+      "time": "2026-09-02T23:46:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131213-3A700914",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Bunian 6 well update is market sensitive, suggesting material new information — either a meaningful hydrocarbon encounter, operational complication, or dry hole result — each carrying significantly different valuation implications for Bass Oil.",
+        "For a small-cap E&P operator like BAS, a single well result can be binary: a commercial discovery would substantially re-rate the stock given the company's limited asset base, while a disappointing result could materially impair near-term production and reserve outlook.",
+        "Investors should watch for flow rate data, reservoir pressure readings, and any revision to the Bunian field development plan, as these metrics will determine whether the well result translates into near-term production uplift or a write-down event."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MKR",
+      "company": "MANUKA RESOURCES LTD.",
+      "headline": "Trading Halt",
+      "time": "2026-09-02T23:45:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131212-2A1694741",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Manuka Resources has entered a trading halt, indicating a material pending announcement — common triggers include a capital raise, merger and acquisition activity, or a significant operational development that requires price-sensitive disclosure management.",
+        "Trading halts in small-cap resource companies frequently precede equity raises, and given MKR's focus on silver-gold production in New South Wales, a placement to fund exploration or development activity is a plausible catalyst.",
+        "Institutional investors should monitor the nature of the forthcoming announcement closely — if it is a dilutive capital raise at a discount, the re-opening price may face downward pressure, whereas an M&A or offtake deal could drive a positive re-rate."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPG",
+      "company": "SPC GLOBAL HOLDINGS LTD",
+      "headline": "Change of Director's Interest",
+      "time": "2026-09-02T23:45:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131211-3A700913",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "SPC Global Holdings has filed a director interest change notice — standard compliance reporting with no immediate material impact on the company's operations or financial position.",
+        "The nature of the transaction (acquisition, disposal, or vesting) will determine any nuanced read-through: insider buying in a small-cap like SPG can signal directional confidence, while selling may prompt scrutiny of the company's near-term outlook.",
+        "SPC Global operates in the consumer food sector under its rebranded identity — investors should cross-reference the timing of this director transaction with any recent operational updates or capital activity to assess whether it carries informational content beyond the filing itself."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JAV",
+      "company": "JAVELIN MINERALS LIMITED",
+      "headline": "Drilling Commences at Major Coogee Gold-Copper Targets",
+      "time": "2026-09-02T23:44:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131210-6A1342034",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Javelin Minerals has commenced drilling at Coogee, targeting gold-copper mineralisation — the dual-commodity focus is strategically significant given elevated gold prices and resilient copper demand, potentially improving the economic case for any discovery.",
+        "The descriptor 'major targets' signals that the company's geological work has identified high-priority anomalies, likely supported by historical data or geophysical surveys, which adds credibility to the drill program and reduces some exploration risk.",
+        "Near-term share price momentum will hinge on early assay results — given JAV's micro-cap status, even a modest high-grade intercept at Coogee could act as a meaningful re-rating catalyst, while a series of blank holes would likely weaken sentiment and funding capacity."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SMI",
+      "company": "SANTANA MINERALS LIMITED",
+      "headline": "Infill drilling continues to upgrade RAS high-grade core",
+      "time": "2026-09-02T23:44:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131209-6A1342035",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Infill drilling at Santana's Rimini-Atamai-Shard (RAS) deposit continues to demonstrate grade consistency and upgrade the high-grade core, which is a positive signal for resource confidence and potential conversion from inferred to indicated/measured categories.",
+        "Upgrading the high-grade core is strategically important as it supports mine planning, improves the economics of the project's early years, and strengthens the company's position for either project financing or an acquisition approach from a larger gold producer.",
+        "With gold prices near record highs, timing is favourable — a robust infill program that tightens resource confidence could accelerate the path to a bankable feasibility study and position SMI as an increasingly attractive development asset in New Zealand."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "NOL",
       "company": "NOBLEOAK LIFE LIMITED",
