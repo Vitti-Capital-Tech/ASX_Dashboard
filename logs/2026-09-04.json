@@ -1,9 +1,759 @@
 {
   "date": "2026-09-04",
-  "total": 41,
-  "market_sensitive_count": 5,
-  "generated_at": "2026-09-03T22:19:20.842422+00:00",
+  "total": 80,
+  "market_sensitive_count": 9,
+  "generated_at": "2026-09-03T22:30:02.845838+00:00",
   "announcements": [
+    {
+      "ticker": "SGP",
+      "company": "STOCKLAND",
+      "headline": "Appendix 3Y - Mr C Lawton",
+      "time": "2026-09-03T22:25:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131627-2A1694993",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Stockland (SGP) has filed an Appendix 3Y for Mr C Lawton, a change of director's interest notice — a routine administrative disclosure with no direct financial implications for the company.",
+        "As a non-market-sensitive filing from one of Australia's largest diversified property groups, this represents standard ASX compliance reporting and provides no new information on SGP's operational or financial performance.",
+        "Investors can disregard this filing for investment decision purposes; however, a pattern of director share sales disclosed via multiple 3Y notices over time could warrant monitoring for insider sentiment signals."
+      ],
+      "tags": [
+        "Compliance",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OCL",
+      "company": "OBJECTIVE CORPORATION LIMITED",
+      "headline": "Update - Notification of buy-back - OCL",
+      "time": "2026-09-03T22:24:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131626-2A1694992",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Objective Corporation (OCL) has updated its on-market share buyback program — a capital management action that signals board confidence in the intrinsic value of the company and provides technical support for the share price.",
+        "While classified as non-market-sensitive, buyback activity from a profitable, cash-generative software company like OCL is incrementally positive, as it reduces share count and is accretive to EPS over time.",
+        "Investors should track the pace and volume of buyback execution against the approved program limit; accelerated buyback activity could indicate management views current prices as materially undervalued relative to their internal DCF."
+      ],
+      "tags": [
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AR1",
+      "company": "AUSTRAL RESOURCES AUSTRALIA LTD",
+      "headline": "Notice of change of interests of substantial holder",
+      "time": "2026-09-03T22:24:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131625-2A1694991",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A substantial holder has changed their interest in Austral Resources (AR1), signalling potential shifts in the register that investors should monitor for emerging accumulation or distribution patterns.",
+        "As a non-market-sensitive filing, the change is unlikely to reflect a control-level event, but any reduction in a substantial holder's position could indicate waning conviction in the copper development story.",
+        "Investors should cross-reference with AR1's recent operational updates to assess whether this register movement aligns with project milestones or financing timelines at its Queensland copper assets."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FFM",
+      "company": "FIREFLY METALS LTD",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-03T22:23:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131624-6A1342160",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Firefly Metals (FFM) has issued a Cleansing Notice, confirming that information provided to institutional investors in a recent placement is now publicly available — a standard procedural step following a capital raise under ASX Listing Rule 3.10.3.",
+        "This filing effectively lifts trading restrictions on shares issued to institutional placees, meaning those investors are now free to trade their new shares, which may introduce short-term selling pressure depending on the discount to current market price.",
+        "The non-market-sensitive classification confirms this is administrative in nature; however, the timing and size of any preceding placement should be assessed to gauge potential overhang risk on FFM's register."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FLT",
+      "company": "FLIGHT CENTRE TRAVEL GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - FLT",
+      "time": "2026-09-03T22:22:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131623-2A1694968",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Flight Centre Travel Group (FLT) has updated its on-market share buyback notification — reflecting ongoing capital management discipline from one of Australia's largest travel companies as it continues its post-COVID earnings recovery.",
+        "The buyback signals that FLT's board views the current share price as offering value relative to the company's earnings trajectory, and the program provides a demand-side floor for the stock during periods of market volatility.",
+        "With FLT generating improving free cash flow as corporate and leisure travel volumes normalise, sustained buyback execution supports EPS accretion and is a positive signal on balance sheet health and management confidence in the outlook."
+      ],
+      "tags": [
+        "Finance",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PLY",
+      "company": "PLAYSIDE STUDIOS LIMITED",
+      "headline": "Notification of cessation of securities - PLY",
+      "time": "2026-09-03T22:22:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131622-3A701005",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PlaySide Studios (PLY) has notified the cessation of securities — typically relating to the lapsing or cancellation of performance rights, options, or other equity instruments that failed to meet vesting conditions.",
+        "The cessation of securities is generally a neutral-to-marginally-positive event for existing shareholders, as it reduces potential future dilution from unearned equity instruments; however, if tied to executive departures or missed KPIs, it may signal underlying performance concerns.",
+        "Investors should cross-reference with PLY's remuneration report and any recent operational updates to determine whether the cessation reflects routine expiry or a more meaningful signal about the company's ability to achieve its strategic targets in the competitive gaming development sector."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CQR",
+      "company": "CHARTER HALL RETAIL REIT",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-03T22:22:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131621-2A1694966",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director of Charter Hall Retail REIT has altered their holding, signalling insider activity worth monitoring — direction and scale of the change (acquisition vs. disposal) will determine whether this reflects conviction or profit-taking.",
+        "For a retail-focused REIT operating in a high-interest-rate environment, director share purchases would reinforce management confidence in net asset value stability and distribution sustainability.",
+        "Given CQR's sensitivity to consumer spending cycles and cap-rate movements, any meaningful director accumulation could be read as a positive signal on the portfolio's near-term revaluation outlook."
+      ],
+      "tags": [
+        "Board Change",
+        "Property",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEN",
+      "company": "SENETAS CORPORATION LIMITED",
+      "headline": "Appendix 3Y",
+      "time": "2026-09-03T22:22:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131620-3A701009",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Senetas Corporation's Appendix 3Y is a change of director's interest notice — a routine administrative filing that carries no direct operational or financial implications for the business.",
+        "Senetas operates in the cybersecurity and network encryption space; any director share movement, even minor, can attract attention given the company's small-cap profile and niche institutional following.",
+        "Investors should review the underlying transaction details (on-market purchase, disposal, or vesting) to determine whether this reflects insider confidence or routine portfolio management by the director."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MPL",
+      "company": "MEDIBANK PRIVATE LIMITED",
+      "headline": "Notification of cessation of securities - MPL",
+      "time": "2026-09-03T22:22:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131619-3A701004",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Medibank Private has notified the ASX of the cessation of securities, most likely reflecting the lapse or cancellation of performance rights or options that failed to meet vesting conditions — a non-dilutive outcome for existing shareholders.",
+        "The cessation of unvested equity instruments can indicate that specific financial or operational hurdles were not achieved, which may prompt scrutiny of MPL's recent performance metrics against its incentive plan benchmarks.",
+        "For a large-cap health insurer like Medibank, this is largely procedural; however, institutional investors should cross-reference with remuneration report disclosures to assess the scale of forfeited awards and any revised incentive structures."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OMG",
+      "company": "OMG GROUP LIMITED",
+      "headline": "Letter to Eligible Shareholders and SPP Booklet",
+      "time": "2026-09-03T22:21:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131618-3A701008",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "OMG Group is executing a Share Purchase Plan (SPP), providing eligible retail shareholders the opportunity to participate in a capital raise — a direct dilution event that warrants close scrutiny of pricing terms relative to the last traded price.",
+        "The market-sensitive classification indicates the SPP price or size is material; if priced at a discount, existing shareholders who do not participate face dilution, while the capital injection may fund growth initiatives or shore up the balance sheet.",
+        "Key due diligence focus should be on the use-of-proceeds disclosure in the SPP booklet — whether capital is allocated to revenue-generating activity or operational cash burn will be the primary driver of market sentiment post-close."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SMR",
+      "company": "STANMORE RESOURCES LIMITED",
+      "headline": "Stanmore agrees to acquire Moranbah South",
+      "time": "2026-09-03T22:21:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131617-2A1694964",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Stanmore Resources has agreed to acquire the Moranbah South coking coal asset in Queensland's Bowen Basin, a strategically significant move that expands its high-quality metallurgical coal portfolio in one of the world's premier hard coking coal regions.",
+        "The acquisition is market-sensitive, suggesting material consideration — investors will focus on the acquisition price, funding structure (debt vs. equity), and whether the deal is EPS and NPV accretive given current coking coal price dynamics.",
+        "Moranbah South adds optionality and reserve life to SMR's existing Isaac Plains and South Walker Creek operations; the critical next step is regulatory approval and integration planning, with synergy potential in shared infrastructure being a key value driver."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BXB",
+      "company": "BRAMBLES LIMITED",
+      "headline": "Update - Notification of buy-back - BXB",
+      "time": "2026-09-03T22:20:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131616-2A1694963",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Brambles has updated its on-market buyback notification, confirming the program remains active — a capital management signal consistent with BXB's strategy of returning surplus cash to shareholders following strong free cash flow generation.",
+        "An updated buyback filing typically reflects additional shares repurchased under the existing program; at BXB's scale (a global pallet-pooling leader), continued buybacks reinforce confidence in earnings quality and balance sheet strength.",
+        "Investors should track the cumulative buyback volume against the authorised limit to gauge remaining capacity, as any acceleration in pace would be a constructive signal for EPS accretion."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CSL",
+      "company": "CSL LIMITED",
+      "headline": "Notification of cessation of securities - CSL",
+      "time": "2026-09-03T22:20:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131615-3A701002",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CSL's notification of cessation of securities most likely relates to the lapse of performance rights or share options, representing a routine equity administration event with no immediate P&L impact.",
+        "Given CSL's rigorous long-term incentive framework tied to TSR and EPS targets, forfeiture of awards could signal that specific stretch targets were not met, though this is common in high-hurdle executive remuneration plans.",
+        "For institutional holders, this filing is low-impact in isolation but warrants cross-referencing with CSL's remuneration disclosures to ensure executive alignment remains intact amid ongoing Vifor integration and plasma collection ramp-up."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BXB",
+      "company": "BRAMBLES LIMITED",
+      "headline": "Notification of cessation of securities - BXB",
+      "time": "2026-09-03T22:20:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131614-2A1694990",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Brambles' cessation of securities notice complements its concurrent buyback update, likely reflecting the cancellation of shares already repurchased under the program — a standard post-buyback administrative step.",
+        "Cancellation of repurchased shares is capital-accretive for remaining shareholders as it permanently reduces the share count, directly supporting EPS and, by extension, dividend per share metrics.",
+        "This dual filing (buyback update + cessation) confirms BXB is executing its capital return program efficiently, reinforcing the investment thesis of disciplined capital allocation in a capital-light, high-return business model."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SVN",
+      "company": "SAVANA US SMALL CAPS ACTIVE ETF",
+      "headline": "Monthly Units on Issue - August 2026",
+      "time": "2026-09-03T22:20:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131613-2A1694962",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Savana US Small Caps Active ETF (SVN) has disclosed its monthly units on issue for August 2026, providing transparency on fund flows — net creation or redemption of units reflects investor demand for active US small-cap exposure via ASX-listed structures.",
+        "Growth in units on issue would signal positive net inflows and increasing AUM, validating the ETF's active management proposition in a volatile US small-cap segment (Russell 2000 proxy), while redemptions would flag capital outflows.",
+        "For market participants, this is a routine operational disclosure; however, consistent AUM growth would underpin the manager's fee revenue trajectory and the ETF's secondary market liquidity profile."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CSL",
+      "company": "CSL LIMITED",
+      "headline": "Application for quotation of securities - CSL",
+      "time": "2026-09-03T22:20:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131612-3A701001",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CSL's application for quotation of new securities indicates fresh shares are being admitted to trading — likely arising from the vesting and exercise of employee performance rights or restricted share units under its long-term incentive plan.",
+        "The issuance of new shares represents a minor dilutive event; however, for a mega-cap like CSL with a market capitalisation exceeding A$130 billion, LTI-related issuances are immaterial to the float and do not alter the fundamental investment case.",
+        "Approval of quotation confirms CSL's ongoing commitment to equity-based retention of key talent, which is critical during the integration of Vifor Pharma and the scaling of its plasma and recombinant biologics platforms."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FSA",
+      "company": "FSA GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - FSA",
+      "time": "2026-09-03T22:20:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131611-2A1694987",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "FSA Group, a consumer debt solutions specialist, has updated its on-market buyback notification — a notable signal for a smaller-cap financial services company where buybacks carry proportionally greater EPS and signalling impact.",
+        "FSA's decision to execute a buyback amid a consumer credit stress environment reflects management's view that the stock is undervalued relative to intrinsic value, particularly as demand for debt agreements and personal insolvency services tends to rise during economic downturns.",
+        "Investors should monitor the buyback pace relative to FSA's free cash flow generation; given its smaller balance sheet, sustained buybacks could meaningfully reduce share count and lift per-share metrics over the program duration."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TAT",
+      "company": "TARTANA MINERALS LIMITED",
+      "headline": "Commencement of operational review as exploration advances",
+      "time": "2026-09-03T22:20:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131610-2A1694967",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Tartana Minerals has announced the commencement of an operational review concurrent with advancing exploration — a dual signal that management is reassessing cost structures or strategic direction while maintaining field activity.",
+        "The market-sensitive flag suggests the review could have material implications, potentially including asset sales, restructuring, staffing changes, or a pivot in corporate strategy that materially alters the investment thesis.",
+        "Investors should monitor the scope and timeline of the review closely; if the review is externally triggered (e.g., by a lender or major shareholder), it may indicate financial stress, whereas an internally driven review could be a positive rationalisation of capital allocation."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HLI",
+      "company": "HELIA GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - HLI",
+      "time": "2026-09-03T22:20:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131609-2A1694961",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Helia Group (formerly Lenders Mortgage Insurance provider) has updated its buyback notification, reinforcing its capital return strategy at a time when the LMI sector faces evolving claims experience driven by housing market dynamics.",
+        "For HLI, a buyback program signals that the board views its capital position as robust relative to regulatory requirements — a key confidence indicator for a financial guarantor whose solvency ratios are closely scrutinised by APRA and lender counterparties.",
+        "With the Australian housing market experiencing affordability constraints and higher LVR lending under pressure, continued buybacks suggest HLI's claims outlook remains manageable and that excess capital is not being retained as a defensive buffer."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RWC",
+      "company": "RELIANCE WORLDWIDE CORPORATION LIMITED",
+      "headline": "Initial Director's Interest Notice - Ferraro",
+      "time": "2026-09-03T22:19:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131608-3A701000",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "RWC has lodged an Initial Director's Interest Notice for newly appointed director Ferraro, disclosing her opening share or option position as required under ASX Listing Rule 3.19A — a standard compliance step with no immediate financial impact.",
+        "The notice establishes a baseline beneficial interest benchmark against which future changes will be measured, providing transparency on insider alignment from day one of the directorship.",
+        "Investors should monitor subsequent change notices to gauge whether Ferraro builds meaningful on-market exposure, which would signal conviction in RWC's strategic direction and ongoing transformation of its EMEA and Americas segments."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RWC",
+      "company": "RELIANCE WORLDWIDE CORPORATION LIMITED",
+      "headline": "Director appointment",
+      "time": "2026-09-03T22:19:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131607-3A700999",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "RWC has formally announced the appointment of a new director (Ferraro), refreshing board composition at a critical juncture as the company navigates margin recovery and integration of its UK/EMEA business following the Holman acquisition.",
+        "Board renewal can signal a strategic pivot or succession planning — investors should scrutinise Ferraro's background (industry expertise, financial credentials) to assess whether the appointment strengthens oversight of RWC's complex multi-geography operations.",
+        "With RWC having faced earnings pressure from cost inflation and subdued repair-and-remodel activity, a credentialed new director with relevant sector experience could be a modest positive for governance confidence, though near-term share-price impact is likely limited."
+      ],
+      "tags": [
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BOL",
+      "company": "BOOM LOGISTICS LIMITED",
+      "headline": "Update - Notification of buy-back - BOL",
+      "time": "2026-09-03T22:19:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131606-3A700998",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "BOL has filed a buy-back update notice, indicating the company continues to return capital to shareholders via an on-market repurchase program — a sign management views the stock as undervalued relative to intrinsic worth.",
+        "For a small-cap crane and lifting services company like Boom Logistics, disciplined capital return through buy-backs (rather than dividends) preserves franking credits and signals balance sheet confidence, though the absolute dollar amounts are typically modest given BOL's market cap.",
+        "Investors should track cumulative buy-back volumes and remaining program capacity; accelerated repurchases could act as a technical floor for the share price, while any suspension would be a negative read-through on cash generation or pipeline visibility."
+      ],
+      "tags": [
+        "Other",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMA",
+      "company": "AMA GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - AMA",
+      "time": "2026-09-03T22:19:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131605-3A701003",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMA Group has submitted a buy-back notification update, confirming continuation of its share repurchase program — notable for a company that has been working through a multi-year operational and financial restructure in the automotive repair sector.",
+        "Given AMA's history of balance sheet stress and equity raises in prior periods, the ability to sustain a buy-back program represents a meaningful signal of improving free cash flow generation and management's confidence in the business stabilisation thesis.",
+        "Investors should monitor the pace of repurchases relative to AMA's cash position and debt covenants; any slowdown or cessation of the buy-back would be a leading indicator of renewed financial pressure within the network."
+      ],
+      "tags": [
+        "Other",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HMY",
+      "company": "HARMONEY CORP LIMITED",
+      "headline": "Update - Notification of buy-back - HMY",
+      "time": "2026-09-03T22:19:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131604-2A1694960",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Harmoney Corp has lodged a buy-back update notice, signalling that the New Zealand/Australian personal lending fintech continues to deploy capital into share repurchases — a form of capital management that underscores management's view that shares are trading below intrinsic value.",
+        "For HMY, which operates a fully digital lending platform and has been focused on achieving sustainable profitability, executing a buy-back demonstrates confidence in liquidity and funding headroom, distinguishing it from fintech peers still burning cash.",
+        "The buy-back provides modest EPS accretion and share count reduction over time; however, given HMY's relatively small market capitalisation, investors should assess whether repurchase capital might be better deployed into loan book growth to accelerate the path to scale."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IDA",
+      "company": "INDIANA RESOURCES LIMITED",
+      "headline": "Arbitration Update",
+      "time": "2026-09-03T22:19:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131603-6A1342156",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Indiana Resources has issued an update on its international arbitration proceedings — most likely related to its long-running claim against Tanzania over the Ntaka Hill nickel project, where the government's conduct has been the subject of ICSID or similar treaty arbitration.",
+        "Arbitration outcomes for junior miners can be binary and transformational: a successful award could unlock tens to hundreds of millions of dollars in compensation relative to IDA's current market cap, making this the single most important value catalyst for shareholders.",
+        "The fact that this update is classified as 'not market sensitive' suggests no decisive ruling has been made; investors should parse the language carefully for procedural milestones (hearing dates, award timelines) that could accelerate or delay resolution of this multi-year legal process."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "5GG",
+      "company": "PENTANET LIMITED",
+      "headline": "FY26 Results Presentation and Strategy Update",
+      "time": "2026-09-03T22:19:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131602-6A1342155",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Pentanet (5GG) has released its FY26 Results Presentation and Strategy Update — a pivotal disclosure for a small-cap telco/technology company where revenue trajectory, EBITDA margin progress, and cash burn rate will determine near-term sentiment.",
+        "The market-sensitive classification indicates the results contain material financial information; institutional focus will be on whether 5GG has demonstrated a credible path to profitability, particularly given the capital-intensive nature of its fixed wireless and gaming network infrastructure.",
+        "The strategy update component is equally important — any announcement of new partnerships, network expansion milestones, or revised guidance will be closely scrutinised, as 5GG operates in a competitive broadband market where differentiation and subscriber growth are critical KPIs."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BXB",
+      "company": "BRAMBLES LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-03T22:19:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131601-2A1694989",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Brambles has filed a Change of Director's Interest Notice, reflecting a routine update to a director's beneficial shareholding — most commonly triggered by vesting of performance rights, on-market purchases, or disposal of securities under a trading plan.",
+        "For a global CHEP pallet and supply-chain solutions giant like BXB, director share transactions are closely watched as a proxy for insider sentiment; on-market purchases would be incrementally bullish, while sales (particularly outside pre-approved plans) warrant closer scrutiny.",
+        "With Brambles trading near multi-year highs on the back of strong pricing power and margin expansion, the nature and size of the interest change (buy vs. vest vs. sell) will determine whether this notice carries any meaningful signal for near-term price momentum."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENL",
+      "company": "ENLITIC INC.",
+      "headline": "Completion of Security Purchase Plan",
+      "time": "2026-09-03T22:18:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131600-3A700997",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Enlitic, an AI-driven medical imaging analytics company, has completed its Security Purchase Plan (SPP), meaning retail shareholders have been given the opportunity to participate in a recent capital raise at the same price as institutional investors — the SPP is now closed and proceeds are confirmed.",
+        "The completion of the SPP crystallises the total dilution event; investors should note the final amount raised relative to the SPP cap, as a heavily subscribed SPP signals strong retail conviction while a scaled-back result may indicate lukewarm demand at the offer price.",
+        "For a pre-revenue or early-revenue healthcare technology company like ENL, fresh capital extends the cash runway critical for product development and commercialisation milestones — the key question is how many quarters of operations the combined raise funds and what near-term catalysts are now better resourced."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TAH",
+      "company": "TABCORP HOLDINGS LIMITED",
+      "headline": "ASX Listing Rule 3.19 notification",
+      "time": "2026-09-03T22:18:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131599-3A701006",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Tabcorp has lodged an ASX Listing Rule 3.19 notification, which pertains to the notification of securities acquired or disposed of by a director or their related parties — a procedural compliance filing with no direct operational read-through.",
+        "For TAH, which is navigating a post-demerger repositioning as a pure-play wagering and media business, director activity in the stock is watched for confidence signals as the company works to stabilise its technology platform and market share against corporate bookmaker competition.",
+        "The administrative nature of this filing means near-term price impact is negligible; however, a pattern of director accumulation over time would be a constructive signal for the turnaround narrative, while consistent selling would raise governance and sentiment concerns."
+      ],
+      "tags": [
+        "Compliance",
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "Update - Notification of buy-back - KAR",
+      "time": "2026-09-03T22:18:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131598-3A700996",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Karoon Energy has filed a buy-back update notice, indicating its on-market share repurchase program remains active — a significant capital management signal for an oil producer that has been generating strong free cash flow from its Brazilian Baúna and Who Dat assets.",
+        "KAR's buy-back program is strategically meaningful: with no dividend history and a focus on production growth, returning capital via repurchases at what management considers a discount to NAV reflects disciplined capital allocation and provides EPS and NAV-per-share accretion.",
+        "Investors should monitor the cadence of repurchases against KAR's oil price sensitivity — sustained buy-backs in a softening crude environment would be a high-conviction signal of balance sheet resilience, while any program suspension would prompt scrutiny of hedge book performance and development capex commitments."
+      ],
+      "tags": [
+        "Energy",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IFN",
+      "company": "INFRAGREEN GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - IFN",
+      "time": "2026-09-03T22:18:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131597-2A1694958",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "IFN has filed an update to its on-market share buyback program, signalling continued capital management activity for this small-cap infrastructure-focused entity.",
+        "Buyback programs at this scale typically indicate board confidence in the stock being undervalued, though the lack of market sensitivity designation suggests the quantum or pace of repurchases remains modest.",
+        "Investors should monitor subsequent buyback updates for acceleration in repurchase volumes, which would be a more meaningful signal of management conviction and potential EPS accretion."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NEM",
+      "company": "NEWMONT CORPORATION",
+      "headline": "Form 4 as filed - Peter Beaven",
+      "time": "2026-09-03T22:18:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131596-3A700995",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Form 4 filing by Peter Beaven (Newmont board director) discloses a change in beneficial ownership of NEM securities, as required under SEC rules for US-listed insiders — relevant given NEM's dual ASX/NYSE listing.",
+        "The non-market-sensitive classification suggests this is a routine administrative disclosure, likely reflecting equity compensation vesting, award grants, or a minor open-market transaction rather than a significant discretionary trade.",
+        "Institutional investors should cross-reference the specific transaction type and volume once the full Form 4 detail is available via SEC EDGAR to assess whether insider activity reflects positive or negative sentiment from this board member."
+      ],
+      "tags": [
+        "Compliance",
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NEM",
+      "company": "NEWMONT CORPORATION",
+      "headline": "Form 4 as filed - Natascha Viljoen",
+      "time": "2026-09-03T22:18:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131595-3A700994",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Form 4 filing by Natascha Viljoen (Newmont executive/director) discloses a change in beneficial ownership, consistent with SEC mandatory reporting obligations for insiders of US-listed companies.",
+        "As a senior operational leader, Viljoen's transaction type — whether an acquisition or disposal — carries interpretive weight; however, the non-market-sensitive flag indicates this is unlikely to represent a material open-market sell-down.",
+        "Watch for the full Form 4 detail on SEC EDGAR; any discretionary open-market purchases by C-suite insiders at current gold-cycle valuations would be a modestly bullish signal for NEM's near-term outlook."
+      ],
+      "tags": [
+        "Compliance",
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FFM",
+      "company": "FIREFLY METALS LTD",
+      "headline": "Application for quotation of securities - FFM",
+      "time": "2026-09-03T22:17:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131594-6A1342159",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Firefly Metals (FFM) has applied for quotation of new securities on the ASX, indicating the completion of a capital raise, option exercise, or performance rights vesting that requires formal listing approval.",
+        "The application itself is procedural but confirms new shares are entering the register — investors should identify the source of these securities (e.g. placement, rights issue, or incentive scheme) to assess potential dilution impact.",
+        "If these securities relate to a recently completed capital raise, the quotation date marks when new shares become freely tradeable, which can create short-term supply-side pressure depending on volume and investor profile."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALC",
+      "company": "ALCIDION GROUP LIMITED",
+      "headline": "Application for quotation of securities - ALC",
+      "time": "2026-09-03T22:17:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131593-3A701007",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Alcidion Group (ALC) has lodged an application for quotation of new securities, signalling the imminent listing of shares likely arising from an employee incentive scheme, option exercise, or prior capital raise tranche.",
+        "For a healthcare technology company of ALC's size, recurring securities quotation applications tied to staff equity plans are generally dilutive but reflect ongoing talent retention mechanisms — the net impact on the float is typically minor.",
+        "Investors should confirm the number and class of securities being quoted; if volumes are material relative to existing shares on issue, this could weigh modestly on near-term price performance as the market absorbs additional supply."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APE",
+      "company": "EAGERS AUTOMOTIVE LIMITED",
+      "headline": "Update - Notification of buy-back - APE",
+      "time": "2026-09-03T22:17:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131592-2A1694988",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Eagers Automotive (APE) has filed an update to its on-market share buyback notification, reflecting continued execution of its capital return strategy within one of Australia's largest automotive retail groups.",
+        "APE's buyback program is a meaningful capital allocation signal in the context of softening new vehicle sales volumes and margin compression across the sector — management deploying cash into buybacks suggests balance sheet confidence.",
+        "Tracking the cumulative buyback spend and remaining program capacity will be key; an accelerated repurchase pace ahead of a results period could be interpreted as a bullish signal on earnings visibility."
+      ],
+      "tags": [
+        "Retail",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NEM",
+      "company": "NEWMONT CORPORATION",
+      "headline": "Form 4 as filed - Peter Toth",
+      "time": "2026-09-03T22:17:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131591-3A700993",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Form 4 filing by Peter Toth (Newmont insider) represents a third insider ownership disclosure filed simultaneously, suggesting a coordinated equity event — likely a broad-based equity compensation award or vesting across multiple executives.",
+        "The clustering of Form 4 filings from Beaven, Viljoen, and Toth on the same date strongly implies a scheduled equity grant or performance rights vesting cycle rather than individually motivated market transactions.",
+        "From an institutional perspective, the key watch item is whether any of these insiders subsequently file open-market sales (Rule 10b5-1 plan disposals), which would provide cleaner signal on insider sentiment toward NEM's gold-driven valuation."
+      ],
+      "tags": [
+        "Compliance",
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NEM",
+      "company": "NEWMONT CORPORATION",
+      "headline": "Form 3 as filed - Peter Beaven",
+      "time": "2026-09-03T22:17:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131590-3A700992",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Form 3 filing by Peter Beaven represents an initial statement of beneficial ownership, typically required when an individual first becomes a reporting insider (director, officer, or 10%+ holder) under SEC Section 16 rules.",
+        "A Form 3 for Beaven — filed alongside a Form 4 — suggests either a recent board appointment at Newmont or a change in his reportable status, making this a board composition disclosure of secondary relevance to ASX investors.",
+        "For NEM watchers, new board member onboarding filings carry limited immediate market impact but are worth noting for governance tracking, particularly given Newmont's ongoing integration of the Newcrest acquisition and evolving board structure."
+      ],
+      "tags": [
+        "Compliance",
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NEM",
+      "company": "NEWMONT CORPORATION",
+      "headline": "Form 144 as filed - Natascha Viljoen",
+      "time": "2026-09-03T22:16:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131589-3A700991",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Form 144 filed by Natascha Viljoen signals a notice of intent to sell restricted or control securities under SEC Rule 144, indicating a planned disposal of NEM shares by this senior executive in the near term.",
+        "Unlike a Form 4 which confirms completed transactions, Form 144 is a forward-looking notice — the actual sale may or may not proceed, but it does flag potential insider supply entering the market, which is inherently a modest bearish signal.",
+        "Combined with her concurrent Form 4 filing, the picture suggests Viljoen is both receiving equity awards and intending to liquidate a portion — a common executive diversification pattern, but institutional investors should monitor the volume relative to her total holdings for context on conviction."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "NEM",
       "company": "NEWMONT CORPORATION",
