@@ -1,9 +1,715 @@
 {
   "date": "2026-09-03",
-  "total": 242,
-  "market_sensitive_count": 66,
-  "generated_at": "2026-09-03T00:00:13.069355+00:00",
+  "total": 279,
+  "market_sensitive_count": 69,
+  "generated_at": "2026-09-03T00:58:44.710430+00:00",
   "announcements": [
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Proposed issue of securities - EGH",
+      "time": "2026-09-03T00:53:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131258-2A1694774",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This ASX Appendix 3B filing formalises the proposed issue of new EGH securities underpinning the $80.2m equity raising — it is a procedural lodgement required under ASX Listing Rules and carries no independent information content beyond what is in the main capital raise announcement.",
+        "The filing locks in the legal framework for new share issuance, including the number of shares, offer price, and ranking of new securities — institutional participants should confirm these mechanics align with the terms outlined in the investor presentation before committing capital.",
+        "Non-market-sensitive classification is appropriate here; this is an administrative step, but failure to lodge correctly or on time could create settlement or compliance complications, so confirmation of clean lodgement is a minor positive procedural checkpoint."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KIT",
+      "company": "KAPSTREAM INVESTMENT TRUST",
+      "headline": "Monthly Estimate NTA for 31.08.2026",
+      "time": "2026-09-03T00:51:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131257-3A700923",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Kapstream Investment Trust (KIT) has published its monthly estimated NTA as at 31 August 2026, providing a routine but important benchmark for unitholders to assess whether the trust is trading at a premium or discount to underlying asset value.",
+        "As a fixed income/absolute return vehicle, KIT's NTA movement reflects mark-to-market changes in its bond and credit portfolio — any notable deviation from prior months would signal shifts in credit spreads, duration positioning, or currency impacts worth monitoring.",
+        "This is a non-market-sensitive, procedural disclosure; however, institutional investors tracking KIT for yield and capital stability should use this data point alongside the distribution history to assess total return and relative value versus listed peers."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "UBN",
+      "company": "URBANISE.COM LIMITED",
+      "headline": "Application for quotation of securities - UBN",
+      "time": "2026-09-03T00:46:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131256-2A1694775",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Urbanise.com (UBN) has applied for quotation of new securities on the ASX, indicating a recent capital raise, option exercise, or performance rights vesting has resulted in new shares requiring official listing — the exact nature and volume of the new securities is the key detail to verify.",
+        "If the new securities stem from option or performance rights conversions, this represents modest incremental dilution but also signals that internal equity incentives are being exercised, which can reflect management confidence in the share price trajectory.",
+        "This is a routine administrative filing with no direct earnings impact; investors should confirm the number of new shares relative to total shares on issue to quantify dilution and assess whether any escrow or selling restrictions apply to the newly quoted securities."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EDV",
+      "company": "ENDEAVOUR GROUP LIMITED",
+      "headline": "Notification regarding unquoted securities - EDV",
+      "time": "2026-09-03T00:43:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131255-2A1694773",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Endeavour Group (EDV) has notified the ASX of movements in unquoted securities — typically relating to performance rights, options, or restricted shares issued under employee incentive plans — this is a standard ongoing disclosure obligation with no immediate earnings impact.",
+        "The volume and nature of unquoted securities movements can provide a secondary signal on management and executive retention strategy; large issuances may indicate the company is investing in talent incentivisation, while cancellations could flag staff departures at senior levels.",
+        "For a large-cap retailer like EDV, this filing is procedural noise; however, institutional investors tracking executive alignment should log changes to the unquoted securities register as part of a broader governance monitoring framework."
+      ],
+      "tags": [
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EIG",
+      "company": "PERENNIAL INCOME GENERATOR ACTIVE ETF",
+      "headline": "EIGA Estimated Distribution August 2026",
+      "time": "2026-09-03T00:41:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131254-2A1694772",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EIGA has flagged an estimated distribution for August 2026, providing income visibility for unitholders and signalling the fund's continued ability to generate yield — a key differentiator for active income-focused ETFs in a competitive fixed-income landscape.",
+        "The market-sensitive classification suggests the distribution quantum may differ materially from prior periods or market expectations, warranting close attention to the per-unit amount once confirmed — any upside surprise could attract fresh retail and SMSF inflows.",
+        "Investors should benchmark this distribution against EIGA's current unit price to assess the annualised yield on offer; a rising distribution in the current rate environment could reinforce the fund's value proposition relative to passive bond alternatives."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BEN",
+      "company": "BENDIGO AND ADELAIDE BANK LIMITED",
+      "headline": "Appendix 3Y - ACM",
+      "time": "2026-09-03T00:40:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131253-3A700922",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Bendigo and Adelaide Bank (BEN) has lodged an Appendix 3Y, which discloses a change in the interests of a director or senior officer (ACM) — this is a mandatory ASX compliance filing triggered by a buy, sell, or change in securities held by the relevant individual.",
+        "The direction of the change (buy vs. sell) is the only meaningful signal here: a director purchase at current market prices would be a minor bullish signal reflecting insider confidence, while a sale — particularly if sizeable — could attract negative sentiment in the current bank sector environment.",
+        "Given BEN's ongoing strategic positioning in the regional banking space and current investor focus on margin compression and credit quality, any notable insider transaction should be contextualised against recent earnings guidance and the stock's relative valuation to major bank peers."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MHJ",
+      "company": "MICHAEL HILL INTERNATIONAL LIMITED",
+      "headline": "2026 Annual General Meeting Details",
+      "time": "2026-09-03T00:30:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131252-2A1694771",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Michael Hill International (MHJ) has announced the details of its 2026 Annual General Meeting, providing shareholders with the date, venue, and agenda — this is a standard corporate governance milestone with no immediate earnings or valuation implications.",
+        "Investors should monitor the AGM agenda for any resolutions beyond routine business, including remuneration report votes, director elections, or any special resolutions that could signal strategic or governance shifts at a time when MHJ is navigating a challenging discretionary retail environment.",
+        "The timing of the AGM relative to MHJ's FY2026 full-year results will also matter; if management provides trading updates or outlook commentary at or ahead of the meeting, this could become a more meaningful catalyst for the stock."
+      ],
+      "tags": [
+        "AGM",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Entitlement Offer Cleansing Notice",
+      "time": "2026-09-03T00:28:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131251-2A1694712",
+      "market_sensitive": false,
+      "document_type": "Capital Raise",
+      "summary": [
+        "EGH has lodged a cleansing notice under s708AA of the Corporations Act to facilitate the entitlement offer component of its $80.2m equity raising — this is a legal prerequisite that allows new shares issued under the offer to be on-sold without a prospectus, removing a key friction point for institutional participation.",
+        "The lodgement of a clean cleansing notice confirms EGH has met continuous disclosure obligations and that there is no undisclosed material information beyond what has already been released — this is a critical compliance checkpoint that, if challenged, could delay or derail the capital raise.",
+        "While non-market-sensitive in isolation, the cleansing notice effectively green-lights the bookbuild process; a smooth, unchallenged lodgement is a procedural positive that keeps the $80.2m raise on track and reduces execution risk for the transformational acquisition."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-09-03T00:28:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131250-2A1694757",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Eureka Group Holdings has released a market-sensitive investor presentation, almost certainly timed to support the simultaneously announced $80.2m equity raising and transformational acquisition — this document will be the primary tool for institutional bookbuild engagement.",
+        "The presentation likely outlines acquisition rationale, pro-forma financials, accretion metrics, and revised earnings guidance; the market-sensitive flag means it contains price-relevant information that investors must scrutinise before participating in the entitlement offer.",
+        "Institutional investors should cross-reference the presentation's stated synergies, gearing targets, and NTA impact against current EGH trading levels to assess whether the offer price represents a genuine discount and if the deal thesis is credible on a risk-adjusted basis."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Transformational Acquisition & $80.2m Equity Raising",
+      "time": "2026-09-03T00:28:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131249-2A1694755",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Eureka Group Holdings has announced a transformational acquisition funded by an $80.2m equity raise — this is a material step-change event for a company of EGH's size and will meaningfully re-rate its asset base, revenue scale, and sector positioning in affordable seniors accommodation.",
+        "The size of the raise relative to EGH's pre-announcement market capitalisation implies significant dilution for existing shareholders; the critical question is whether the acquisition multiple and implied yield on the acquired assets justify the earnings per share dilution in the near term.",
+        "Execution risk is elevated: successful completion depends on shareholder approval, institutional bookbuild demand at the offer price, and the operational integration of what appears to be a sizable portfolio — any shortfall in the raise or regulatory delay would be a material downside catalyst."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Capital Raise",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMA",
+      "company": "AMA GROUP LIMITED",
+      "headline": "Application for quotation of securities - AMA",
+      "time": "2026-09-03T00:24:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131248-3A700921",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMA Group is applying for quotation of new securities on the ASX, indicating a recent capital or equity event has been completed and shares are now moving toward tradeable status.",
+        "The nature of the securities being quoted (likely options, performance rights, or shares issued under a placement/plan) will determine dilution impact — investors should cross-reference with recent capital raise or employee incentive announcements.",
+        "While administratively routine, the quotation application signals the back-end of a corporate action; near-term float of additional securities could modestly pressure the share price depending on volume and holder profile."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FSA",
+      "company": "FSA GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - FSA",
+      "time": "2026-09-03T00:23:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131247-2A1694770",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "FSA Group has updated the ASX on its ongoing share buy-back program, signalling continued capital management discipline and board confidence in the stock's intrinsic value.",
+        "Buy-back activity is broadly supportive of EPS accretion and reflects management's view that the current market price represents an attractive entry point relative to underlying fundamentals.",
+        "Investors should monitor the cumulative buy-back volume and remaining program capacity to assess whether FSA is approaching program limits, which would remove a key price support mechanism."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BIT",
+      "company": "BIOTRON LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-09-03T00:20:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131246-2A1694768",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Biotron has released an investor presentation, likely updating the market on pipeline progress, clinical milestones, or funding strategy — a common tool to maintain retail and institutional engagement between formal results.",
+        "Key focus areas for institutional investors will be any updated clinical trial timelines, efficacy data, or partnership/licensing discussions, as these are the primary value drivers for a pre-revenue biotech.",
+        "Classified as not market sensitive, the presentation is unlikely to contain material new data; however, any revision to cash burn projections or trial readout dates warrants close scrutiny given typical capital constraints in small-cap healthcare."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VNT",
+      "company": "VENTIA SERVICES GROUP LIMITED",
+      "headline": "Notification of cessation of securities - VNT",
+      "time": "2026-09-03T00:19:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131245-2A1694769",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ventia Services has notified the ASX of the cessation of a tranche of securities, most likely performance rights, options, or restricted shares that have lapsed, been forfeited, or vested and converted.",
+        "Cessation of securities is generally a housekeeping event; if rights have lapsed due to performance hurdles not being met, this could carry a mild negative signal regarding executive retention or internal performance benchmarks.",
+        "Investors should review the specific security type and reason for cessation — lapsed unvested rights reduce future dilution risk, which is marginally positive for existing shareholders."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VNT",
+      "company": "VENTIA SERVICES GROUP LIMITED",
+      "headline": "Notification of cessation of securities - VNT",
+      "time": "2026-09-03T00:18:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131244-2A1694767",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second notification of cessation of securities for Ventia Services in the same filing cycle suggests multiple tranches or classes of securities have simultaneously lapsed or been cancelled.",
+        "The duplication of cessation notices in close succession may relate to different grant years, plan types, or individual participants — institutional investors should aggregate both notices to assess total securities removed from the register.",
+        "Combined with announcement [4], the net effect on dilution is likely modest but positive for existing shareholders if these represent lapsed performance rights rather than exercised instruments."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ART",
+      "company": "AIRTASKER LIMITED",
+      "headline": "Application for quotation of securities - ART",
+      "time": "2026-09-03T00:18:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131243-2A1694766",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Airtasker is applying for quotation of new securities, indicating a recent equity event — potentially a placement, rights issue, employee share plan issuance, or option exercise — has concluded and securities are ready for trading.",
+        "For a growth-stage technology platform like Airtasker, new share issuance warrants careful review of dilution quantum relative to current market cap and whether proceeds (if any) materially extend the cash runway.",
+        "The administrative nature of this filing means the key intelligence lies in cross-referencing the security count and type against prior capital raise announcements to quantify dilution impact on existing holders."
+      ],
+      "tags": [
+        "Technology",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VNT",
+      "company": "VENTIA SERVICES GROUP LIMITED",
+      "headline": "Notification of cessation of securities - VNT",
+      "time": "2026-09-03T00:17:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131242-2A1694765",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A third cessation of securities notice from Ventia Services in the same period reinforces that a structured cleanup of the equity incentive register is underway, possibly tied to a plan expiry date or annual review cycle.",
+        "The volume and class of securities ceasing across announcements [4], [5], and [7] collectively determine whether this is routine administration or indicative of broader retention or performance issues within the executive team.",
+        "Taken together, multiple cessation notices within one session are operationally benign but highlight the importance of reviewing Ventia's remuneration report for insight into whether long-term incentive hurdles are being consistently met."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GVF",
+      "company": "STAUDE CAPITAL GLOBAL VALUE FUND LIMITED",
+      "headline": "Investment return - August 2026",
+      "time": "2026-09-03T00:15:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131240-2A1694763",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Staude Capital Global Value Fund (GVF) has disclosed its August 2026 investment return, providing LIC investors with monthly NAV performance data critical for assessing discount/premium dynamics relative to the ASX-listed price.",
+        "The key metric for institutional LIC investors is the spread between reported NTA and the prevailing share price — a strong monthly return that narrows the discount could be a near-term re-rating catalyst.",
+        "GVF's global value strategy means performance attribution will be sensitive to currency movements (AUD/USD) and global equity market conditions; August 2026 performance should be benchmarked against relevant global value indices for context."
+      ],
+      "tags": [
+        "Finance",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SFI",
+      "company": "SEED FINANCIAL INCOME FUND ACTIVE ETF",
+      "headline": "Units on Issue Disclosure - August 2026",
+      "time": "2026-09-03T00:15:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131241-2A1694762",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Seed Financial Income Fund Active ETF (SFI) has disclosed its units on issue as at August 2026, a standard monthly transparency requirement for active ETFs under ASX and ASIC rules.",
+        "Changes in units on issue reflect net fund flows — growth in units signals positive investor appetite for the income-focused strategy, while declining units may indicate redemption pressure or performance concerns.",
+        "This is a routine compliance filing with no direct price impact; however, sustained unit growth over multiple months would validate commercial traction for this relatively newer active ETF product in the income segment."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VNT",
+      "company": "VENTIA SERVICES GROUP LIMITED",
+      "headline": "Initial Director's Interest Notice - Brendon Riley",
+      "time": "2026-09-03T00:15:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131239-2A1694764",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Ventia Services has lodged an initial director's interest notice for Brendon Riley, indicating a new board appointment or that Riley has recently become a director requiring disclosure of his opening securities position.",
+        "The initial notice establishes Riley's baseline holding in VNT securities — the size and composition of this stake (direct vs. indirect, shares vs. rights) provides early insight into his alignment with shareholder interests.",
+        "As a board change disclosure, institutional investors should monitor subsequent director interest notices for Riley to track any early buying or selling activity, which could signal conviction in VNT's strategic direction or near-term outlook."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EDV",
+      "company": "ENDEAVOUR GROUP LIMITED",
+      "headline": "Update - Dividend/Distribution - EDV",
+      "time": "2026-09-03T00:15:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131238-2A1694760",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "EDV has issued a dividend update notice, likely reflecting a correction or administrative clarification to a previously announced distribution — investors should verify whether yield, payment date, or record date has been amended.",
+        "As a capital-light retail and hospitality business under ongoing strategic review, dividend sustainability remains a key investor focus; any reduction or deferral would signal deteriorating free cash flow generation.",
+        "With EDV navigating a potential demerger of its hotels division and broader cost pressures, confirming dividend continuity would be a modest positive, but the 'update' label warrants scrutiny for any adverse changes to payout quantum."
+      ],
+      "tags": [
+        "Dividend",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ART",
+      "company": "AIRTASKER LIMITED",
+      "headline": "Notification regarding unquoted securities - ART",
+      "time": "2026-09-03T00:15:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131237-2A1694761",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ART's notification regarding unquoted securities typically signals the issuance or vesting of performance rights, options, or other equity instruments not yet listed on the ASX — a routine but relevant dilution-monitoring event.",
+        "For a small-cap technology platform like Airtasker, tracking equity compensation issuance is critical given that employee share schemes can represent a meaningful proportion of total share count over time.",
+        "Investors should confirm the number of instruments issued and their conversion terms; while individually immaterial, cumulative unquoted security issuances can incrementally dilute existing shareholders as vesting milestones are met."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VNT",
+      "company": "VENTIA SERVICES GROUP LIMITED",
+      "headline": "Initial Director's Interest Notice - Mark Ralston",
+      "time": "2026-09-03T00:14:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131236-2A1694758",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "The Initial Director's Interest Notice for Mark Ralston at Ventia Services confirms his opening equity position upon appointment or commencement of a notifiable role — establishing a governance baseline for future trading disclosures.",
+        "The size and composition of Ralston's initial holding (direct vs. indirect, shares vs. options) will indicate alignment of interests with shareholders and signal confidence in VNT's near-term outlook.",
+        "For institutional investors, director interest notices serve as a governance quality indicator; a meaningful initial shareholding by a senior executive is a mild positive signal for long-term alignment at this infrastructure services group."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IIS",
+      "company": "INTELL INVESTOR SELECT VALUE SHR FUND - ACTIVE ETF",
+      "headline": "IISV Monthly Units on Issue - August 2026",
+      "time": "2026-09-03T00:14:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131235-2A1694759",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The IISV monthly units on issue disclosure for August 2026 provides transparency on fund flows into the Intelligent Investor Select Value Active ETF — a key metric for assessing investor demand and fund scale trajectory.",
+        "Changes in units on issue reflect net creations or redemptions; sustained growth in units signals positive fund inflows and growing AUM, which supports fee revenue for the manager and liquidity for unitholders.",
+        "For prospective investors, AUM scale directly impacts the ETF's ability to implement its value strategy efficiently; this disclosure is a routine compliance filing but serves as a useful monthly health check on fund momentum."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IIS",
+      "company": "INTELL INVESTOR SELECT VALUE SHR FUND - ACTIVE ETF",
+      "headline": "IISV Portfolio Update - August 2026",
+      "time": "2026-09-03T00:13:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131234-2A1694756",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The IISV Portfolio Update for August 2026 provides a monthly window into the Active ETF's holdings composition, top positions, and any material rebalancing activity — offering transparency uncommon in traditional managed funds.",
+        "Key investor focus should be on portfolio concentration, sector rotation, and whether the fund's value-oriented positioning has shifted in response to prevailing market conditions through August 2026.",
+        "Portfolio updates for active ETFs serve as a differentiator versus passive vehicles; persistent outperformance relative to benchmark in disclosed holdings would reinforce the case for active management fees and support continued inflows."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ART",
+      "company": "AIRTASKER LIMITED",
+      "headline": "Notification regarding unquoted securities - ART",
+      "time": "2026-09-03T00:12:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131233-2A1694754",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second ART unquoted securities notification within the same reporting window may indicate multiple tranches of equity instruments being issued — possibly linked to separate employee or executive incentive plan events.",
+        "Dual filings in close succession warrant attention to cumulative dilution impact; investors should aggregate both notices to assess total new unquoted securities created and their respective vesting or exercise conditions.",
+        "For Airtasker, which is still on its path to sustainable profitability, equity-based compensation remains a significant non-cash cost; understanding the pace of issuance is essential for accurate fully diluted share count modelling."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INE",
+      "company": "INTELLIGENT INVESTOR ETH SHARE FUND - ACTIVE ETF",
+      "headline": "INES Monthly Units on Issue - August 2026",
+      "time": "2026-09-03T00:12:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131232-2A1694753",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The INES Monthly Units on Issue disclosure for August 2026 tracks AUM evolution in the Intelligent Investor Ethical Share Fund Active ETF — a product targeting ESG-conscious investors in the Australian equity market.",
+        "Growth or contraction in units on issue reflects the relative appetite for ethical/ESG-screened active strategies; sustained inflows would validate the commercial viability of this niche active ETF offering.",
+        "As ESG investing matures on the ASX, scale remains a challenge for smaller active ETFs; this monthly disclosure is a routine administrative filing but provides useful data for monitoring fund viability and competitive positioning."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IIG",
+      "company": "INTELLIGENT INVESTOR EQ GROWTH FUND ACTIVE ETF",
+      "headline": "IIGF Monthly Units on Issue - August 2026",
+      "time": "2026-09-03T00:12:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131231-2A1694750",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The IIGF Monthly Units on Issue disclosure for August 2026 provides a standardised AUM transparency update for the Intelligent Investor Equity Growth Fund Active ETF, in line with ASX continuous disclosure obligations.",
+        "Net unit creation trends are the primary signal here — consistent growth would indicate positive investor reception for the growth-oriented active strategy, while redemptions may flag performance or competitive concerns.",
+        "This is a procedural filing with limited standalone investment significance, but when tracked monthly, the units on issue series offers a reliable proxy for fund health and manager credibility in the active ETF space."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IIG",
+      "company": "INTELLIGENT INVESTOR EQ GROWTH FUND ACTIVE ETF",
+      "headline": "IIGF Portfolio Update - August 2026",
+      "time": "2026-09-03T00:12:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131230-2A1694749",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The IIGF Portfolio Update for August 2026 discloses the current holdings of the Intelligent Investor Equity Growth Fund Active ETF, providing institutional-grade transparency into the fund's active stock selection and sector tilts.",
+        "Investors should examine whether the portfolio has increased or reduced exposure to high-growth sectors (e.g. technology, healthcare) relative to prior months, particularly given prevailing macro conditions in August 2026.",
+        "Consistent disclosure of holdings reinforces the fund's commitment to transparency as a competitive advantage over opaque managed funds; performance attribution relative to disclosed positions will be the ultimate test of manager skill."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VNT",
+      "company": "VENTIA SERVICES GROUP LIMITED",
+      "headline": "Final Director's Interest Notice - Dean Banks",
+      "time": "2026-09-03T00:12:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131229-2A1694752",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "The Final Director's Interest Notice for Dean Banks at Ventia Services marks the cessation of his notifiable interest, most likely due to resignation, retirement, or role change — closing out his official disclosure record with ASIC and ASX.",
+        "Investors should note whether Banks' departure involves a senior executive or non-executive director role, as executive departures at infrastructure services companies can signal strategic uncertainty or succession risk.",
+        "Combined with Announcement [3] regarding a new director (Mark Ralston), this filing suggests a board-level transition at VNT; the net effect on governance quality and strategic direction will depend on the seniority of both roles and any accompanying commentary."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INE",
+      "company": "INTELLIGENT INVESTOR ETH SHARE FUND - ACTIVE ETF",
+      "headline": "INES Portfolio Update - August 2026",
+      "time": "2026-09-03T00:11:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131228-2A1694751",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "INE's August 2026 portfolio update provides transparency on ETH (Ethereum) holdings and active management positioning, critical for investors monitoring crypto-asset exposure within a regulated ASX ETF wrapper.",
+        "As an active ETF, performance relative to Ethereum spot price benchmarks is the key metric — any divergence (positive or negative) signals the efficacy of the active management overlay and will drive unit holder confidence.",
+        "With crypto markets remaining volatile, institutional investors should monitor fund flows and units on issue trends alongside this update to assess whether net redemptions or subscriptions are shaping portfolio composition."
+      ],
+      "tags": [
+        "Finance",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARF",
+      "company": "ARENA REIT.",
+      "headline": "Edge Early Learning Update",
+      "time": "2026-09-03T00:10:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131227-3A700920",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Arena REIT's Edge Early Learning update is significant given that childcare/early learning assets represent a core component of ARF's social infrastructure portfolio, with any operational or tenancy changes directly impacting rental income streams.",
+        "Investors should scrutinise whether the update addresses lease terms, rental guarantees, or occupancy rates at Edge Early Learning facilities — any deterioration in tenant financial health could signal rental risk for ARF's distribution sustainability.",
+        "ARF's defensive yield profile is underpinned by long-weighted average lease expiry (WALE) and government-supported childcare demand; clarity on Edge Early Learning's operational trajectory will be a key read-through for near-term distribution confidence."
+      ],
+      "tags": [
+        "Property",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INI",
+      "company": "INTELLIGENT INVESTOR AUS EQ INC FUND - ACTIVE ETF",
+      "headline": "INIF Monthly Units on Issue - August 2026",
+      "time": "2026-09-03T00:09:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131226-2A1694748",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The August 2026 units on issue update for INIF (Intelligent Investor Australian Equity Income Fund) provides a real-time indicator of fund flows — growth in units signals institutional/retail demand for active income-oriented Australian equity exposure.",
+        "Changes in units on issue directly affect fund liquidity and the manager's capacity to execute its income strategy; significant redemptions could force portfolio rebalancing, while inflows expand investment flexibility.",
+        "As an active ETF competing in a crowded income equity space, trend analysis of monthly unit issuance data is a leading indicator of whether INIF is gaining or losing market share against passive dividend ETF alternatives."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INI",
+      "company": "INTELLIGENT INVESTOR AUS EQ INC FUND - ACTIVE ETF",
+      "headline": "INIF Portfolio Update - August 2026",
+      "time": "2026-09-03T00:09:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131225-2A1694747",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "INIF's August 2026 portfolio update reveals active stock selection decisions within the Australian equity income universe — key focus should be on sector tilts, top holdings changes, and dividend yield positioning relative to benchmark.",
+        "Any meaningful portfolio turnover or reallocation away from traditional high-yield sectors (banks, resources) would signal a shift in the manager's macro outlook and could impact the fund's expected income generation for the next quarter.",
+        "Investors should cross-reference this portfolio update with the August units on issue data (Announcement [3]) to form a complete picture of both capital flows and underlying asset quality driving INIF's near-term return profile."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCK",
+      "company": "PAINCHEK LTD",
+      "headline": "Investor Webinar Invite",
+      "time": "2026-09-03T00:08:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131224-2A1694746",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PainChek's investor webinar invite signals management is proactively engaging the market — typically a positive indicator of confidence, often used to communicate commercial milestones, contract wins, or strategic updates ahead of a formal results period.",
+        "For a healthcare technology company at PCK's stage, webinar content will be closely watched for updates on AI-powered pain assessment platform adoption rates, aged care sector penetration, and any international licensing or partnership developments.",
+        "Institutional investors should treat the webinar as a potential catalyst event; while the announcement itself is procedural, the substance of management's commentary could materially shift near-term sentiment around PCK's revenue trajectory and cash runway."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPG",
+      "company": "SPC GLOBAL HOLDINGS LTD",
+      "headline": "Notification of cessation of securities - SPG",
+      "time": "2026-09-03T00:03:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131223-3A700919",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cessation of securities notification for SPG indicates that a class of securities (options, performance rights, or convertible instruments) has lapsed, been cancelled, or converted — reducing potential future dilution from that tranche.",
+        "If the cessation relates to options or performance rights lapsing unexercised, it may signal that vesting conditions were not met, which could reflect underperformance against internal KPIs or share price hurdles — a subtle bearish data point on operational progress.",
+        "Investors should confirm the volume and nature of securities ceased; while reduced dilutionary overhang is technically constructive for existing shareholders, failure to meet exercise conditions warrants scrutiny of SPG's underlying business performance metrics."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPG",
+      "company": "SPC GLOBAL HOLDINGS LTD",
+      "headline": "Notification of cessation of securities - SPG",
+      "time": "2026-09-02T23:59:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131222-3A700918",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second cessation of securities filing for SPG on the same date suggests multiple tranches or classes of securities have simultaneously ceased — amplifying the need to assess the total quantum of securities affected and the reasons behind the cessation events.",
+        "Dual cessation notices may indicate a structured clean-up of the capital table (e.g., post-restructuring or post-acquisition integration), or conversely, a broader failure of performance-linked instruments across different employee or executive cohorts.",
+        "Combined with Announcement [6], investors should aggregate the total securities ceased to quantify the net dilution reduction and cross-reference against SPG's most recent capital structure disclosure to understand the revised fully diluted share count."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "WWI",
       "company": "WEST WITS MINING LIMITED",
