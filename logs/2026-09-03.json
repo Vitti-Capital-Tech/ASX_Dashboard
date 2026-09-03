@@ -1,9 +1,399 @@
 {
   "date": "2026-09-03",
-  "total": 279,
+  "total": 299,
   "market_sensitive_count": 69,
-  "generated_at": "2026-09-03T00:58:44.710430+00:00",
+  "generated_at": "2026-09-03T01:37:45.446397+00:00",
   "announcements": [
+    {
+      "ticker": "PR1",
+      "company": "PURE RESOURCES LIMITED",
+      "headline": "Proposed issue of securities - PR1",
+      "time": "2026-09-03T01:34:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131278-6A1342043",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Pure Resources Limited has lodged a proposed securities issuance notice, indicating an upcoming capital raise or placement that will increase shares on issue and likely result in dilution for existing shareholders.",
+        "For a small-cap explorer like PR1, new capital is typically directed toward drilling programs or working capital; however, without disclosed pricing or scale, dilution risk remains the primary near-term concern for retail holders.",
+        "Investors should await the formal terms — including issue price relative to market price and the identity of incoming subscribers — to assess whether the raise is strategically accretive or a dilutive necessity driven by cash runway constraints."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RPL",
+      "company": "REGAL PARTNERS LIMITED",
+      "headline": "Application for quotation of securities - RPL",
+      "time": "2026-09-03T01:27:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131277-2A1694785",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Regal Partners has applied for quotation of new securities, indicating that recently issued shares, options, or performance rights are being brought to market and will become tradeable on the ASX.",
+        "This is a routine post-issuance step following a prior capital raise or employee incentive scheme and does not, in isolation, signal new fundraising activity; however, it does modestly expand the liquid float.",
+        "Institutional investors should cross-reference the number and type of securities being quoted against prior announcements to confirm whether these relate to staff incentives (lower near-term sell pressure) or placement shares (potential near-term overhang)."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VLS",
+      "company": "VITA LIFE SCIENCES LIMITED..",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-03T01:26:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131276-3A700929",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director of Vita Life Sciences has changed their relevant interest in VLS securities, which may reflect on-market buying or selling, vesting of performance rights, or participation in a company plan.",
+        "Director transactions are closely watched as a proxy for insider sentiment; a purchase would signal confidence in VLS's healthcare product pipeline, while a disposal could indicate profit-taking or personal liquidity needs.",
+        "Given VLS operates in the vitamins and healthcare distribution space across Asia-Pacific, any meaningful director buying could reinforce the bull case around regional consumer health demand recovery post-COVID."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADC",
+      "company": "ACDC METALS LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-03T01:22:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131275-3A700928",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for ACDC Metals signals a shift in the register among major investors, which can indicate either accumulation or distribution activity at the institutional level.",
+        "Without confirmed direction (buy/sell), the filing itself is procedural, but any reduction in a substantial holder's stake could signal waning conviction in ADC's exploration pipeline and near-term catalysts.",
+        "Investors should monitor follow-on filings and any corresponding volume spikes on-market to determine whether this represents strategic repositioning or an exit by a key backer."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ERL",
+      "company": "EMPIRE RESOURCES LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-03T01:18:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131274-6A1342042",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Empire Resources has filed a Change of Director's Interest Notice, flagging a movement in a director's holding in ERL securities — a standard disclosure obligation under the Corporations Act.",
+        "The materiality of this filing depends heavily on the direction and scale of the transaction; a director purchase in a junior resources company can be a meaningful positive signal given the typically small market caps involved.",
+        "Investors should assess whether the change relates to on-market activity or an administrative adjustment (e.g., share plan vesting), with the former carrying far greater informational value for gauging board conviction in ERL's exploration prospects."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCV",
+      "company": "CASH CONVERTERS INTERNATIONAL",
+      "headline": "Notification of cessation of securities - CCV",
+      "time": "2026-09-03T01:16:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131273-6A1342041",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cash Converters has notified the market of the cessation of securities — likely the expiry or cancellation of options, performance rights, or other convertible instruments — reducing potential future dilution on the register.",
+        "Cessation of unexercised securities is mildly positive from a capital structure perspective, as it removes an overhang of potential future share issuance without any corresponding inflow of capital.",
+        "For CCV, which operates in consumer finance and second-hand retail, this is an administrative filing with minimal direct operational impact; however, a cleaner capital structure supports clearer earnings-per-share metrics going forward."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAM",
+      "company": "WAM CAPITAL LIMITED",
+      "headline": "WAM Capital Results & Dividend Q&A Webinar Recording",
+      "time": "2026-09-03T01:16:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131272-2A1694781",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "WAM Capital has released a recording of its Results & Dividend Q&A webinar, providing retail and institutional investors with direct access to management commentary on portfolio performance and dividend sustainability.",
+        "The release of a webinar recording signals WAM's commitment to investor transparency; for a listed investment company (LIC) like WAM, dividend reliability is the primary valuation driver and any reaffirmation of payout capacity is constructive.",
+        "Investors should review the Q&A content for guidance on WAM's portfolio positioning, net tangible asset (NTA) trajectory, and whether the current dividend level is supported by operating earnings — key metrics for income-focused LIC investors."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MHM",
+      "company": "MOUNT HOPE MINING LIMITED",
+      "headline": "Change of Interest of Substantial Shareholder from USL",
+      "time": "2026-09-03T01:15:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131271-6A1342039",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A change in substantial shareholder interest has been filed for Mount Hope Mining, with the movement attributed to USL — suggesting a reshuffle in the register of this small-cap mining company.",
+        "Shifts in substantial holder positions for micro-cap miners like MHM can have an outsized effect on liquidity and price discovery, given thin trading volumes and limited free float.",
+        "The direction of USL's movement (increase or decrease) is critical context; an accumulation could signal strategic intent or pre-deal positioning, while a reduction may reflect loss of conviction in MHM's project timeline or funding outlook."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CGF",
+      "company": "CHALLENGER LIMITED",
+      "headline": "Notification regarding unquoted securities - CGF",
+      "time": "2026-09-03T01:14:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131270-2A1694784",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Challenger Limited has filed a notification regarding unquoted securities, a routine compliance disclosure typically relating to the issuance of securities (such as employee incentives or convertible instruments) that are not yet listed on the ASX.",
+        "For CGF, a major annuity and funds management business, unquoted security movements are generally linked to executive remuneration structures and carry minimal direct impact on the company's core earnings or balance sheet.",
+        "Investors should note the volume and nature of unquoted securities issued relative to Challenger's total share count; large tranches of performance rights approaching vesting could represent a modest future dilution factor worth monitoring."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCV",
+      "company": "CASH CONVERTERS INTERNATIONAL",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-03T01:14:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131269-6A1342040",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director at Cash Converters has altered their shareholding position — the nature (acquisition vs. disposal) warrants scrutiny given CCV's ongoing focus on balance sheet discipline in its consumer finance business.",
+        "Director transactions at CCV carry added significance given the company's sensitivity to regulatory changes in the short-term lending space; any meaningful increase in director buying could signal confidence in near-term earnings trajectory.",
+        "Investors should monitor cumulative director activity over the coming weeks — a pattern of insider accumulation at current price levels would be a constructive signal for the stock's risk/reward profile."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PM1",
+      "company": "PALISADE METALS LTD",
+      "headline": "Release of Share from Voluntary Escrow",
+      "time": "2026-09-03T01:13:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131268-3A700926",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The release of shares from voluntary escrow at Palisade Metals increases the freely tradeable float, introducing potential near-term selling pressure as previously restricted holders gain liquidity.",
+        "Escrow releases are a standard post-IPO or post-capital raise milestone, but the timing relative to any upcoming drilling results or resource updates will determine whether released holders choose to sell or hold.",
+        "Institutional investors should track volume closely following this release — elevated turnover without a corresponding price decline would suggest strong underlying demand absorbing the new supply."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "Ceasing to be a substantial holder from CBA",
+      "time": "2026-09-03T01:12:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131267-3A700925",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Commonwealth Bank of Australia has ceased to be a substantial holder in Karoon Energy, meaning CBA's relevant interest has fallen below the 5% disclosure threshold — a notable exit from a mid-cap energy name.",
+        "CBA's departure from the register, whether through direct disposal or unwinding of derivatives/lending arrangements, removes a significant institutional anchor and could weigh on near-term liquidity and price support.",
+        "For KAR, losing a major bank-affiliated substantial holder may increase stock volatility; the market will watch for whether other institutional investors step in to absorb the freed float, particularly given Karoon's active offshore oil production assets in Brazil."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ODA",
+      "company": "ORCODA LIMITED",
+      "headline": "Appointment of Joint Company Secretary",
+      "time": "2026-09-03T01:12:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131266-2A1694780",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Orcoda Limited has appointed a Joint Company Secretary, a governance housekeeping measure that typically signals the company is managing compliance obligations as it navigates operational or structural changes.",
+        "For a small-cap technology and logistics company like ODA, maintaining robust company secretarial capacity is important given increasing ASX compliance requirements and potential corporate activity.",
+        "No material financial implications arise from this appointment; however, it may reflect preparatory steps for upcoming capital market activity, board restructuring, or expanded regulatory reporting duties."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCV",
+      "company": "CASH CONVERTERS INTERNATIONAL",
+      "headline": "Notification regarding unquoted securities - CCV",
+      "time": "2026-09-03T01:12:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131265-6A1342038",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cash Converters has notified the ASX regarding unquoted securities, most likely relating to performance rights, options, or employee incentive plan instruments — a routine but informationally relevant disclosure.",
+        "The issuance or vesting of unquoted securities can have a dilutive effect on existing shareholders if conversion occurs; investors should assess the quantum relative to CCV's current issued capital.",
+        "This filing, taken alongside the concurrent director interest change notice (Announcement #1), suggests routine equity plan administration activity rather than a strategic capital event."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SNC",
+      "company": "SANDON CAPITAL INVESTMENTS LIMITED",
+      "headline": "FY2026 Shareholder Presentation",
+      "time": "2026-09-03T01:10:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131264-2A1694779",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Sandon Capital's FY2026 Shareholder Presentation provides a forward-looking strategic update for this activist-oriented Listed Investment Company (LIC), which may outline portfolio positioning, activism targets, and NAV trajectory.",
+        "Key metrics to assess from the presentation include discount-to-NTA trends, portfolio concentration, and any new activist campaigns — Sandon's returns are closely tied to the success of its engagement strategies with underperforming ASX-listed companies.",
+        "For LIC investors, the FY2026 framing suggests management is articulating a multi-year value creation thesis; sustained narrowing of the NTA discount would be the primary bullish catalyst to watch."
+      ],
+      "tags": [
+        "Finance",
+        "Other",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TNC",
+      "company": "TRUE NORTH COPPER LIMITED",
+      "headline": "AustMine - Mt Oxide Regional Discovery Pipeline",
+      "time": "2026-09-03T01:08:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131263-6A1342037",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "True North Copper's AustMine presentation on the Mt Oxide Regional Discovery Pipeline highlights exploration upside in what the company is positioning as a multi-target copper district — a timely narrative given elevated global copper demand.",
+        "The 'discovery pipeline' framing suggests TNC is building a resource growth story beyond its existing known deposits, which is value-accretive if exploration drilling confirms geological models — investors should watch for follow-up drilling announcements.",
+        "Copper's structural demand tailwinds from electrification and energy transition provide a favourable macro backdrop, making credible new discovery narratives at Mt Oxide potentially re-rating catalysts for this small-cap explorer."
+      ],
+      "tags": [
+        "Mining",
+        "Production",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SDR",
+      "company": "SITEMINDER LIMITED",
+      "headline": "Appendix 3Y - J Macdonald",
+      "time": "2026-09-03T01:08:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131262-2A1694778",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Appendix 3Y filing for SiteMinder director J. Macdonald reflects a change in director's interest — a standard ASX disclosure with limited standalone market impact but worth monitoring for directional intent.",
+        "SiteMinder operates in the competitive hotel technology SaaS sector; director transactions can serve as informal signals on management's confidence in the company's recurring revenue growth and path to profitability.",
+        "Given SDR's growth-stage profile and ongoing investor focus on its unit economics and EBITDA trajectory, any meaningful director accumulation at current levels would be viewed as a constructive insider signal."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AZJ",
+      "company": "AURIZON HOLDINGS LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-03T01:05:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131261-2A1694777",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Aurizon Holdings' director interest change notice is a routine administrative disclosure for this ASX 100 rail freight operator, with no immediate operational or financial implications expected.",
+        "Aurizon's directors hold meaningful equity stakes aligned with long-term shareholder value; the direction of this transaction (buy/sell) is worth noting in the context of the company's infrastructure regulatory reset and coal volume outlook.",
+        "With AZJ navigating ongoing debate around coal haulage volumes and its network regulatory framework, sustained director buying would reinforce management's confidence in the medium-term earnings resilience of the business."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PWH",
+      "company": "PWR HOLDINGS LIMITED",
+      "headline": "Notification of cessation of securities - PWH",
+      "time": "2026-09-03T01:00:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131260-2A1694776",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PWR Holdings has notified the ASX of the cessation of securities — likely the lapsing of unvested performance rights or options due to failure to meet vesting conditions or employee departures, which has minor dilution-reversing implications.",
+        "The cessation of incentive securities is marginally positive for existing shareholders as it reduces the dilution overhang; however, if linked to senior employee departures, it may warrant further investigation into retention at this high-performance motorsport cooling technology company.",
+        "PWH's premium valuation is underpinned by its exposure to Formula 1 and advanced manufacturing growth — any leadership or talent attrition signalled indirectly through security cessations deserves monitoring ahead of the next operational update."
+      ],
+      "tags": [
+        "Compliance",
+        "Other",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUI",
+      "company": "AUSTRALIAN UNITED INVESTMENT COMPANY LIMITED",
+      "headline": "Update - Dividend/Distribution - AUI",
+      "time": "2026-09-03T00:56:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131259-3A700924",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Australian United Investment Company (AUI) has provided a dividend/distribution update — a direct positive signal for income-focused investors in this long-standing, conservatively managed Listed Investment Company.",
+        "AUI is known for its consistent, fully franked dividend history; any confirmation or increase in distribution levels reinforces its appeal to yield-seeking investors and SMSF portfolios relying on franking credit streams.",
+        "The update may include details on the record and payment dates; given AUI's low-turnover, blue-chip portfolio approach, dividend sustainability is high and the announcement is likely to support stable to modest price appreciation around the ex-dividend date."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "EGH",
       "company": "EUREKA GROUP HOLDINGS LIMITED",
