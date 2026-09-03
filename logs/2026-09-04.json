@@ -1,9 +1,315 @@
 {
   "date": "2026-09-04",
-  "total": 80,
-  "market_sensitive_count": 9,
-  "generated_at": "2026-09-03T22:30:02.845838+00:00",
+  "total": 96,
+  "market_sensitive_count": 11,
+  "generated_at": "2026-09-03T22:40:04.813970+00:00",
   "announcements": [
+    {
+      "ticker": "MGH",
+      "company": "MAAS GROUP HOLDINGS LIMITED",
+      "headline": "Update - Notification of buy-back - MGH",
+      "time": "2026-09-03T22:36:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131643-2A1695000",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MAAS Group's updated buyback notification confirms continuation of its on-market share repurchase program, reflecting board confidence in the stock's intrinsic value relative to current market pricing.",
+        "For a capital-intensive civil construction, real estate, and equipment group like MGH, deploying capital into buybacks rather than acquisitions or capex suggests management views the share price as undervalued — a modest positive signal for existing holders.",
+        "This is an administrative update rather than a new buyback announcement; the key metric to track is the cumulative volume and average price of shares repurchased to assess capital allocation discipline and EPS accretion impact."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BXB",
+      "company": "BRAMBLES LIMITED",
+      "headline": "Appointment of Additional Company Secretary",
+      "time": "2026-09-03T22:36:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131642-2A1694997",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Brambles has appointed an additional Company Secretary, a routine governance and administrative action with no direct financial or strategic implications for the business.",
+        "For a globally significant CHEP pallet-and-supply-chain business of BXB's scale (ASX top-50), ensuring robust company secretarial resourcing is standard compliance practice, likely driven by workload, succession planning, or regulatory requirements.",
+        "No market impact is anticipated; however, investors should note whether the appointment accompanies broader board or executive changes that could signal strategic shifts at the senior leadership level."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGR",
+      "company": "MIRVAC GROUP",
+      "headline": "Update - Notification of buy-back - MGR",
+      "time": "2026-09-03T22:36:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131641-2A1695001",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Mirvac's updated buyback notification is an administrative filing confirming the status of its existing on-market share repurchase program — consistent with its capital management strategy under a challenging property development and investment environment.",
+        "With MGR navigating headwinds from elevated interest rates impacting property valuations, residential settlement volumes, and commercial asset cap rates, a buyback signals management's view that the stock is trading below NAV — a common dynamic for diversified property groups in the current cycle.",
+        "Investors should track the pace and scale of buyback execution relative to Mirvac's free cash flow generation and balance sheet gearing to assess whether the program is genuinely value-accretive or constrained by liquidity pressures."
+      ],
+      "tags": [
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IRD",
+      "company": "IRON ROAD LIMITED",
+      "headline": "Sentient Shareholding Update",
+      "time": "2026-09-03T22:35:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131640-2A1694999",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Sentient shareholding update for Iron Road (IRD) provides transparency on a key register holder's current position, likely confirming Sentient's continued or adjusted exposure to IRD's Central Eyre Iron Project development story.",
+        "Sentient has historically been a long-term backer of resource development companies; any reduction or increase in their stake carries signal value given their institutional credibility and deep due diligence capabilities in the mining sector.",
+        "Read in conjunction with the same-day cessation of a substantial holder filing (Announcement [2]), this update is important for understanding net register dynamics — whether Sentient is absorbing, maintaining, or also reducing exposure to IRD."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TLC",
+      "company": "THE LOTTERY CORPORATION LIMITED",
+      "headline": "TLC prices A$800m Australian Medium Term Note issuance",
+      "time": "2026-09-03T22:35:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131639-3A701014",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Lottery Corporation has successfully priced an A$800 million Australian Medium Term Note (AMTN) issuance, demonstrating strong access to debt capital markets and reflecting institutional investor confidence in TLC's defensive, cash-generative business model.",
+        "An $800M debt raise at the AMTN level is material in size; the key variables for investors are the coupon rate, tenor, and use of proceeds — whether refinancing existing facilities (balance sheet neutral to positive) or funding new capex/acquisitions (watch for leverage impact).",
+        "TLC's lottery monopoly cash flows provide strong debt serviceability, and this issuance reinforces its investment-grade credit profile; near-term equity impact is likely neutral unless proceeds signal an unannounced strategic deployment."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NEC",
+      "company": "NINE ENTERTAINMENT CO. HOLDINGS LIMITED",
+      "headline": "Disclosure of share acquisition",
+      "time": "2026-09-03T22:35:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131638-2A1694998",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "A market-sensitive share acquisition disclosure for NEC signals a meaningful ownership change, potentially indicating a strategic stake build by an existing or new substantial holder — warranting close attention to the acquirer's identity and intent.",
+        "Given NEC's challenged media landscape (declining free-to-air TV revenues, digital transition pressures), any strategic accumulation could be a precursor to a takeover approach, board influence play, or activist positioning.",
+        "Investors should monitor whether this triggers a Section 671B substantial holder threshold breach and watch for follow-on filings that could confirm a control premium scenario or forced disclosure of strategic intentions."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Substantial Holding"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BOE",
+      "company": "BOSS ENERGY LTD",
+      "headline": "Change of Director's Interest Notices (x2)",
+      "time": "2026-09-03T22:34:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131637-6A1342164",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Two director interest change notices at Boss Energy (BOE) indicate share transactions by senior insiders — the direction (acquisition vs. disposal) is the critical signal, with on-market purchases by directors in a uranium producer typically viewed as a strong conviction signal.",
+        "BOE is a high-profile uranium developer/producer operating the Honeymoon uranium project in South Australia; director buying at current levels would reinforce bullish sentiment around uranium price leverage and production ramp-up momentum.",
+        "With two separate director notices filed simultaneously, this may reflect equity incentive plan vesting, exercise of options, or open-market activity — investors should examine the specific transaction types and volumes to determine whether this represents genuine capital-at-risk commitment by insiders."
+      ],
+      "tags": [
+        "Board Change",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCA",
+      "company": "CHANGE FINANCIAL LIMITED",
+      "headline": "Change of Director's Interest Notice - T Russell",
+      "time": "2026-09-03T22:33:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131636-2A1694996",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director interest change notice for T. Russell at Change Financial (CCA) is a routine disclosure with limited standalone market impact, but insider transaction direction remains a useful sentiment indicator for a small-cap fintech.",
+        "CCA operates a card-as-a-service and embedded finance platform; given the company's small-cap status and ongoing commercialisation phase, any director share acquisition (particularly on-market) would be a modestly positive confidence signal for the investment thesis.",
+        "The filing is administrative in nature and unlikely to move the share price; however, consistent insider accumulation over time at small-cap fintechs can be an early indicator of improving internal confidence in commercial milestones or financial trajectory."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IRD",
+      "company": "IRON ROAD LIMITED",
+      "headline": "Notice of ceasing to be a substantial holder",
+      "time": "2026-09-03T22:32:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131635-2A1694995",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder ceasing their position in Iron Road (IRD) signals a meaningful reduction in institutional support, with the exiting holder falling below the 5% disclosure threshold.",
+        "IRD, focused on the Central Eyre Iron Project in South Australia, remains a pre-revenue development-stage company, making the loss of a substantial holder potentially significant for near-term liquidity and sentiment given its relatively thin register.",
+        "This exit may reflect fading conviction in the project's near-term development timeline or capital requirements, and investors should watch for any further register deterioration or follow-on selling pressure in a thinly traded stock."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LSF",
+      "company": "L1 LONG SHORT FUND LIMITED",
+      "headline": "Net Tangible Asset Backing",
+      "time": "2026-09-03T22:31:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131634-3A701013",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "LSF's routine NTA disclosure provides investors with the latest mark-to-market valuation of the fund's long/short equity portfolio, a key metric for assessing whether units trade at a premium or discount to underlying asset value.",
+        "Institutional investors should cross-reference the reported NTA per share against LSF's prevailing market price to identify any material discount/premium — persistent discounts in listed investment companies can signal either underperformance concerns or a potential re-rating opportunity.",
+        "No strategic action is implied by this filing; however, sustained NTA growth quarter-on-quarter would reinforce confidence in L1 Capital's investment thesis and support continued demand for LSF units."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRX",
+      "company": "FLEXIROAM LIMITED",
+      "headline": "FlexiRoam and Dragonpass to Embed AI eSIM in Hotel Rewards",
+      "time": "2026-09-03T22:31:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131633-6A1342161",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FlexiRoam's partnership with DragonPass — a global airport lounge and travel benefits platform with 4+ million members — to embed AI-powered eSIM connectivity into hotel loyalty rewards represents a material commercial channel expansion with meaningful distribution scale.",
+        "The integration of AI-driven eSIM provisioning into a hotel rewards ecosystem is strategically differentiated, potentially enabling automated, context-aware connectivity offers that could drive higher attach rates and recurring revenue versus traditional retail eSIM sales.",
+        "As a market-sensitive announcement, this deal could materially re-rate FRX's growth narrative if it translates into measurable subscriber additions; investors should monitor for deal economics disclosure, revenue share terms, and a projected go-live timeline."
+      ],
+      "tags": [
+        "Technology",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WOR",
+      "company": "WORLEY LIMITED",
+      "headline": "Update - Notification of buy-back - WOR",
+      "time": "2026-09-03T22:30:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131632-2A1694994",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Worley's updated buy-back notification signals continued capital management discipline, indicating management views the current share price as undervalued relative to intrinsic worth — a classically bullish signal for existing shareholders.",
+        "On-market buy-backs reduce the float and improve per-share metrics (EPS, NTA), which is particularly meaningful for a large-cap engineering and energy services firm like WOR where institutional ownership is concentrated and share price sensitivity to buy-back volumes can be significant.",
+        "Investors should monitor the pace and volume of buy-back activity in subsequent disclosures; an acceleration would suggest stronger-than-expected free cash flow generation from WOR's global project pipeline, potentially warranting an earnings estimate revision."
+      ],
+      "tags": [
+        "Finance",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TEK",
+      "company": "THORNEY TECHNOLOGIES LTD",
+      "headline": "Update - Notification of buy-back - TEK",
+      "time": "2026-09-03T22:30:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131631-3A701011",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Thorney Technologies' buy-back update reflects a capital allocation decision by the board to return value to shareholders, a notable move for a smaller technology-focused investment vehicle where liquidity and float are more constrained than large-cap peers.",
+        "For a micro/small-cap entity like TEK, an on-market buy-back can have an outsized positive effect on share price support, particularly in thin trading conditions — this filing warrants monitoring of daily buy-back volumes relative to average daily turnover.",
+        "The buy-back also signals that TEK's board has assessed its portfolio companies and determined that repurchasing its own discounted units delivers superior risk-adjusted returns versus deploying capital into new technology investments at current valuations."
+      ],
+      "tags": [
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PYC",
+      "company": "PYC THERAPEUTICS LIMITED",
+      "headline": "Investor Webinar Presentation Q3 2026",
+      "time": "2026-09-03T22:30:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131630-6A1342163",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PYC Therapeutics' Q3 2026 investor webinar presentation is a key catalyst event for retail and institutional investors to assess pipeline progress, particularly around its RNA-based precision medicine programs targeting genetic eye diseases — any clinical data updates or trial milestones disclosed could be material.",
+        "The 'not market sensitive' classification suggests no new trial results or major regulatory decisions are being announced; however, management commentary on patient recruitment timelines, cash burn rates, and upcoming catalysts will be closely scrutinised given PYC's pre-revenue, development-stage status.",
+        "Investors should focus on the company's cash runway disclosure and any guidance on the timing of next clinical readouts — for a biotech at PYC's stage, runway and milestone cadence are the primary valuation drivers, and any compression in either could trigger a reassessment of near-term funding risk."
+      ],
+      "tags": [
+        "Healthcare",
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OMG",
+      "company": "OMG GROUP LIMITED",
+      "headline": "Proposed issue of securities - OMG",
+      "time": "2026-09-03T22:29:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131629-3A701010",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "OMG Group's proposed securities issuance is a potential dilution event for existing shareholders; without full details on pricing, volume, and use of proceeds, the market will likely react cautiously until terms are clarified — equity raises by smaller companies are frequently priced at a discount to market.",
+        "The key questions for investors are the size of the raise relative to OMG's current market capitalisation, whether it involves a placement to sophisticated investors or a broader entitlement offer, and whether proceeds are earmarked for growth (bullish) or balance sheet repair (bearish).",
+        "Until the final terms are lodged, this filing carries execution risk and potential overhang; institutional investors should assess the implied dilution percentage and management's track record on capital allocation before participating."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PAF",
+      "company": "PAN AFRICAN RESOURCES PLC",
+      "headline": "Statement of CDIs on issue - PAF",
+      "time": "2026-09-03T22:27:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131628-6A1342162",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Pan African Resources' CDI (CHESS Depositary Interest) on-issue statement is a routine administrative disclosure required under ASX Listing Rules, confirming the total number of CDIs currently on issue — this is standard housekeeping with no direct valuation impact.",
+        "For institutional investors tracking PAF's shareholder structure, changes in CDI numbers over time can indicate secondary capital activity, employee share plan issuances, or conversions between the JSE and ASX listings — a material increase could signal dilution worth monitoring.",
+        "PAF remains a gold-focused producer with dual listings (ASX and JSE), and any divergence between CDI count trends and operational announcements from its South African operations may warrant further due diligence into cross-listing arbitrage or corporate action activity."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SGP",
       "company": "STOCKLAND",
