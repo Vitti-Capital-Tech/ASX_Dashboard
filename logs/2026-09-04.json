@@ -1,9 +1,470 @@
 {
   "date": "2026-09-04",
-  "total": 157,
-  "market_sensitive_count": 31,
-  "generated_at": "2026-09-03T23:23:24.847636+00:00",
+  "total": 181,
+  "market_sensitive_count": 36,
+  "generated_at": "2026-09-03T23:30:04.136884+00:00",
   "announcements": [
+    {
+      "ticker": "COF",
+      "company": "CENTURIA OFFICE REIT",
+      "headline": "September 2026 Distribution Declaration",
+      "time": "2026-09-03T23:27:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131727-2A1695099",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Centuria Office REIT has declared its September 2026 quarter distribution, providing income certainty for unitholders at a time when office sector fundamentals remain under scrutiny amid hybrid work trends and rising refinancing costs.",
+        "The distribution quantum will be critical to watch against prior quarters — any reduction could signal pressure on distributable income from vacancy increases, cap rate expansion, or higher debt servicing costs across the portfolio.",
+        "Investors should assess the payout sustainability relative to funds from operations (FFO) guidance; a maintained or increased distribution would signal management confidence in occupancy and rent collection, while a cut would likely trigger a re-rating of the unit price downward."
+      ],
+      "tags": [
+        "Dividend",
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BBT",
+      "company": "BETR ENTERTAINMENT LIMITED",
+      "headline": "Application for quotation of securities - BBT",
+      "time": "2026-09-03T23:26:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131726-2A1695102",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "BETR Entertainment has applied for quotation of new securities on ASX, indicating that a prior capital raise (likely a placement or rights issue) has completed and the resulting shares are now being admitted to trading, increasing the listed share count.",
+        "The admission of new securities to quotation typically creates short-term selling pressure as recently issued shares — often placed at a discount — begin trading, with placement participants potentially taking quick profits against the prevailing market price.",
+        "This is a procedural administrative step; the more substantive signal for investors is the terms of the original capital raise that generated these securities, including the price, volume, and use of proceeds, which govern the likely near-term supply-demand dynamic."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IBX",
+      "company": "IMAGION BIOSYSTEMS LIMITED",
+      "headline": "IBX Investor Presentation",
+      "time": "2026-09-03T23:26:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131725-3A701034",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Imagion Biosystems has released an investor presentation, typically used to refresh or expand the institutional and retail investor audience for the company's pipeline — for a pre-revenue medical imaging biotech, this is a routine but necessary capital markets maintenance activity.",
+        "The key value driver to assess within the presentation is any updated clinical trial data, regulatory pathway timelines, or partnership discussions for its MagSense cancer detection technology, as these are the primary catalysts that move the IBX share price.",
+        "Without accompanying material news (e.g. trial readouts, partnership deals, or funding announcements), investor presentations for micro-cap healthcare stocks rarely drive sustained price moves and are classified as low-signal events for institutional purposes."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WCM",
+      "company": "WCM QUALITY GLOBAL GROWTH FUND - ACTIVE ETF",
+      "headline": "Monthly Redemptions and Units on Issue as at 31 August 2026",
+      "time": "2026-09-03T23:25:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131724-2A1695100",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WCM Quality Global Growth Fund has disclosed its monthly redemption activity and units on issue as at 31 August 2026 — a routine regulatory disclosure for active ETFs that provides transparency on fund flows and liquidity dynamics.",
+        "Net redemption trends are the key signal within this disclosure: sustained outflows would indicate investor rotation away from quality global growth equities (possibly into value or domestic assets), which could pressure the fund's AUM and fee revenue for WCM's manager.",
+        "For existing WCM unitholders, this filing is low-impact unless redemptions are significantly elevated — the ETF structure ensures units can be created and redeemed at NAV, limiting price dislocation, making this primarily a fund health monitoring data point."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATG",
+      "company": "ARTICORE GROUP LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-03T23:25:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131723-3A701037",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Articore Group has lodged a cleansing notice, a statutory requirement under the Corporations Act that allows securities issued without a prospectus (typically under a placement or rights issue) to be freely traded — confirming a recent capital raise has formally closed.",
+        "The cleansing notice itself carries no new financial information but its lodgement confirms the completion of an equity issuance, after which newly issued shares become freely tradeable — often creating short-term technical selling pressure from placement participants.",
+        "Institutional investors should cross-reference the cleansing notice with the original placement announcement to assess total dilution, pricing relative to market, and stated use of proceeds, as these factors determine the medium-term valuation impact on ATG."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BDC",
+      "company": "MUZINICH BDC INCOME FUND - ACTIVE ETF",
+      "headline": "DRP Price - Distribution month ending 31 August 2026",
+      "time": "2026-09-03T23:25:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131722-2A1695038",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Muzinich BDC Income Fund has announced its Distribution Reinvestment Plan (DRP) price for the August 2026 distribution month, a routine administrative disclosure that sets the price at which reinvesting unitholders receive new units in lieu of cash distributions.",
+        "The DRP price is a minor but useful data point — if set at a discount to the prevailing market price, it incentivises reinvestment and can modestly dilute existing holders; if at or near market, it is broadly neutral and signals the manager is not aggressively pushing DRP participation.",
+        "For institutional investors, this filing is low-priority; the more material metrics to monitor for BDC are its underlying loan portfolio credit quality, default rates within its business development company holdings, and the sustainability of its distribution yield in the current credit cycle."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AIQ",
+      "company": "ALTERNATIVE INVESTMENT TRUST",
+      "headline": "Update - Notification of buy-back - AIQ",
+      "time": "2026-09-03T23:25:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131721-2A1695101",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AIQ is conducting an on-market share buyback, signalling management's view that units are trading at a discount to intrinsic or net asset value — a common capital management tool for listed investment trusts.",
+        "Buyback activity can provide modest price support and improve per-unit metrics (NAV per unit, distributions) for remaining holders, though the scale of the buyback will determine material impact.",
+        "Investors should monitor the buyback volume and pace in subsequent updates; sustained repurchases at a discount to NAV represent a disciplined capital return mechanism for this trust structure."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IMC",
+      "company": "IMMURON LIMITED",
+      "headline": "PROIBS US Distribution Agreement",
+      "time": "2026-09-03T23:24:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131720-3A701035",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Immuron has secured a US distribution agreement for its PROIBS product, representing a significant commercial milestone for a small-cap biotech that has historically struggled to scale revenue beyond its core travellers' diarrhoea indication.",
+        "The US market is the world's largest nutraceutical and pharmaceutical distribution channel — securing a credible distribution partner could materially de-risk Immuron's revenue growth trajectory and reduce reliance on Australian sales, which is a key re-rating catalyst for the stock.",
+        "Key due-diligence questions for investors: the identity and scale of the US distributor, minimum purchase commitments or exclusivity terms, milestone payments, and the timeline to first commercial revenues — details that will determine whether this agreement is transformative or merely optionality."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CBO",
+      "company": "COBRAM ESTATE OLIVES LIMITED",
+      "headline": "Change of Director's Interest Notice - Brendish",
+      "time": "2026-09-03T23:24:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131719-3A701036",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director of Cobram Estate Olives (CBO) has filed a change of interest notice for Brendish, representing a routine disclosure of a shift in director shareholding — either an acquisition, disposal, or vesting of securities.",
+        "Director share movements can signal insider sentiment; a purchase would indicate conviction in the olive oil producer's near-term outlook amid volatile commodity pricing, while a disposal may warrant closer scrutiny.",
+        "Given the non-market-sensitive classification, the transaction is likely small in scale or procedural (e.g. on-market purchase or options vesting), with limited immediate price catalyst expected."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FLT",
+      "company": "FLIGHT CENTRE TRAVEL GROUP LIMITED",
+      "headline": "Notification regarding unquoted securities - FLT",
+      "time": "2026-09-03T23:24:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131718-2A1695098",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Flight Centre (FLT) has notified the ASX regarding unquoted securities, most likely relating to employee incentive plan (LTI/STI) securities such as performance rights or options that have been issued but not yet quoted.",
+        "This is a standard administrative disclosure tied to FLT's equity remuneration programs, reflecting ongoing staff retention efforts in a competitive travel industry labour market — no dilution event is imminent until securities vest and convert.",
+        "Investors should track the total quantum of unquoted securities outstanding relative to FLT's issued capital to assess future dilution risk as the company continues its post-COVID earnings recovery trajectory."
+      ],
+      "tags": [
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CR3",
+      "company": "CORE ENERGY MINERALS LTD",
+      "headline": "Proposed issue of securities - CR3",
+      "time": "2026-09-03T23:24:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131717-2A1695009",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Core Energy Minerals (CR3) has lodged a proposed securities issuance notice, indicating an upcoming capital raise — a common move for early-stage resource companies requiring funding for exploration or project advancement.",
+        "For a minerals explorer, new share issuance typically implies dilution to existing shareholders; the key variables — price, volume, and use of proceeds — will determine whether the raise is value-accretive or destructive.",
+        "Investors should await the full placement or entitlement offer documentation to assess the discount to market price and whether proceeds are sufficient to fund meaningful exploration milestones."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CR3",
+      "company": "CORE ENERGY MINERALS LTD",
+      "headline": "$3M Placement to fund Nova Uranium JV in Namibia",
+      "time": "2026-09-03T23:23:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131716-2A1695018",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Core Energy Minerals is raising $3 million via placement to fund its Nova Uranium Joint Venture in Namibia, a jurisdiction that has emerged as a tier-one uranium destination given its stable mining regulations and proximity to established uranium infrastructure.",
+        "The placement is dilutive to existing shareholders but at a small-cap level, $3M is a modest raise — the critical factor is the implied placement price relative to the prevailing market price, as a steep discount would signal weak institutional demand and near-term share price overhang.",
+        "With uranium spot prices remaining elevated against historical averages, the strategic rationale for advancing a Namibian JV is sound; however, investors should monitor JV partner credentials, work program commitments, and whether this capital is sufficient to reach a meaningful exploration milestone or triggers further raisings."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WHF",
+      "company": "WHITEFIELD INDUSTRIALS LIMITED",
+      "headline": "Update - Notification of buy-back - WHF",
+      "time": "2026-09-03T23:23:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131715-2A1695097",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Whitefield Industrials (WHF), a listed investment company focused on industrial equities, is updating its on-market buyback program — consistent with its mandate to return capital when shares trade at a discount to NTA.",
+        "Buybacks in LIC structures are NTA-accretive for remaining shareholders, as repurchasing below NTA directly benefits the per-share asset backing of the fund — a meaningful positive for long-term holders.",
+        "The update (rather than a new announcement) suggests the buyback is ongoing; sustained execution will be the key signal of management's confidence in the portfolio's underlying valuation."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BDC",
+      "company": "MUZINICH BDC INCOME FUND - ACTIVE ETF",
+      "headline": "Monthly Redemptions and Units on Issue as at 31 August 2026",
+      "time": "2026-09-03T23:23:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131714-2A1695096",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Muzinich BDC Income Fund (BDC) has disclosed monthly redemption figures and units on issue as at 31 August 2026, a routine operational transparency requirement for active ETFs under ASX Listing Rules.",
+        "Redemption volumes relative to total units on issue are a key liquidity health metric; elevated redemptions could signal investor outflows from the business development company (BDC) credit exposure strategy amid shifting rate expectations.",
+        "This disclosure is procedural in nature; however, investors tracking the fund's AUM trajectory should compare month-on-month unit counts to identify any structural redemption pressure in the private credit/income ETF space."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EOS",
+      "company": "ELECTRO OPTIC SYSTEMS HOLDINGS LIMITED",
+      "headline": "Notification regarding unquoted securities - EOS",
+      "time": "2026-09-03T23:22:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131713-2A1695095",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Electro Optic Systems (EOS) has filed a notification regarding unquoted securities, likely relating to employee or executive incentive plan securities issued under its remuneration framework in the defence technology sector.",
+        "EOS operates in high-growth but cash-intensive defence and space segments; equity-based remuneration helps preserve cash while retaining specialist talent, though cumulative dilution from unquoted securities warrants monitoring.",
+        "The non-market-sensitive classification confirms this is administrative; investors should assess the total overhang of unquoted securities against EOS's current market cap to gauge future dilution exposure."
+      ],
+      "tags": [
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATG",
+      "company": "ARTICORE GROUP LIMITED",
+      "headline": "Application for quotation of securities - ATG",
+      "time": "2026-09-03T23:22:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131712-3A701033",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Articore Group (ATG), the online custom merchandise and design platform, has applied for quotation of securities — indicating new shares or options are being listed, most likely following a capital raise, vesting event, or conversion.",
+        "Quotation of additional securities increases the freely tradeable float, which can create short-term selling pressure if the securities were issued at a discount or relate to converting instruments held by non-institutional parties.",
+        "Investors should identify the nature and origin of the securities being quoted (placement, rights issue, options exercise) to determine whether the float expansion is a net positive (liquidity improvement) or negative (dilution/overhang)."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "3DA",
+      "company": "AMAERO INC.",
+      "headline": "Change of Director's Interest Notice - Omer Granit",
+      "time": "2026-09-03T23:22:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131711-3A701032",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Amaero Inc. (3DA), the advanced metal additive manufacturing company, has disclosed a change in director's interest for Omer Granit — a routine insider holding update that may reflect an on-market transaction, option vesting, or share plan participation.",
+        "Director activity at Amaero is closely watched given the company's strategic positioning in high-value aerospace and defence metal powder supply chains; any acquisition of shares on-market would be a constructive sentiment signal.",
+        "The non-market-sensitive designation suggests the transaction is modest in scale; investors should review the absolute holding change and transaction price relative to current market levels for directional insight."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AIQ",
+      "company": "ALTERNATIVE INVESTMENT TRUST",
+      "headline": "Extension of Current on Market Buy Back of Units",
+      "time": "2026-09-03T23:22:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131710-2A1695039",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Alternative Investment Trust has extended its on-market unit buyback program, signalling that the board continues to view units as trading at a discount to net asset value (NAV) — a key support mechanism for unit price in a closed-end fund structure.",
+        "Buyback extensions are generally constructive for unitholders as they reduce supply, provide a price floor, and demonstrate capital discipline; however, the pace and volume of actual buyback activity under the renewed program will determine real-world impact.",
+        "Investors should track the discount-to-NAV trajectory — if the buyback is failing to close the discount, it may indicate structural selling pressure or portfolio quality concerns that outweigh the technical support of the repurchase program."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RIV",
+      "company": "RIVCO AUSTRALIA LTD",
+      "headline": "Update - Notification of buy-back - RIV",
+      "time": "2026-09-03T23:22:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131709-2A1695040",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Rivco Australia (RIV) has updated its on-market buyback notification, indicating the company is actively repurchasing its own shares — a signal that the board views the stock as undervalued at current market prices.",
+        "For a smaller-cap company like RIV, buyback programs can have a more pronounced price support effect given lower liquidity, though the absolute dollar commitment and daily volume caps will govern real-world impact.",
+        "Investors should track the cadence of buyback updates and cumulative shares repurchased to assess whether this program is a substantive capital management initiative or a low-volume, symbolic gesture."
+      ],
+      "tags": [
+        "Other",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GCA",
+      "company": "VANECK BENTHAM GLOBAL CAPITAL SEC ACTIVE ETF",
+      "headline": "Issued Units Outstanding as at 31 August 2026",
+      "time": "2026-09-03T23:21:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131708-2A1695022",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine monthly units outstanding disclosure for GCA ETF reflects standard registry maintenance obligations under ASX Listing Rules — no structural change to fund mechanics or strategy implied.",
+        "Monitoring unit count trends over consecutive months can signal net inflows or redemptions, providing a proxy for retail and institutional appetite for global credit/capital securities exposure via an active ETF wrapper.",
+        "No actionable catalyst present; investors should cross-reference with NAV per unit and AUM trajectory to assess whether fund flows are accelerating or contracting into month-end positioning."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Trading Halt Continuation",
+      "time": "2026-09-03T23:21:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131707-2A1695037",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Eureka Group Holdings has requested a continuation of its trading halt, extending a period of information asymmetry between management and the market — this typically precedes a material announcement such as a capital raise, M&A transaction, or significant operational update.",
+        "Trading halt continuations are inherently high-uncertainty events; the longer the halt extends, the more likely the pending announcement is complex or involves counterparty negotiations, increasing the probability of a large price move in either direction upon resumption.",
+        "Investors holding EGH positions should be alert to the halt lifting announcement and its accompanying disclosure — the nature of the news (equity raise at a discount vs. strategic deal at a premium) will sharply differentiate the sentiment outcome."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EPI",
+      "company": "EPIMINDER LIMITED",
+      "headline": "Change of Director's Interest Notice PB",
+      "time": "2026-09-03T23:20:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131706-3A701031",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director's interest notice for Epiminder (EPI) signals a change in a board member's shareholding — whether an acquisition or disposal of shares/options will determine whether this reflects insider confidence or profit-taking.",
+        "For a small-cap healthcare technology company like EPI (focused on continuous EEG monitoring), director transactions carry outsized signalling weight given thin liquidity and limited institutional coverage — market participants should scrutinise the direction and scale of the trade.",
+        "Without confirmed transaction details (buy vs. sell, quantum, and whether on-market or via vesting), the near-term impact is procedural; however, a meaningful on-market purchase by a director would be a notable positive signal given the company's pre-revenue development stage."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "3DA",
+      "company": "AMAERO INC.",
+      "headline": "Change of Director's Interest Notice - Erik Levy",
+      "time": "2026-09-03T23:20:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131705-3A701030",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Erik Levy's director interest change at Amaero Inc. (3DA) — a US-headquartered advanced manufacturing and metal powder company listed on ASX — is a routine compliance filing, but the nature of the transaction (acquisition, disposal, or vesting of equity incentives) warrants close attention given 3DA's capital-intensive growth phase.",
+        "Amaero operates in the high-growth additive manufacturing/advanced materials space with defence and aerospace end-markets; any insider accumulation at current levels could signal board-level conviction in near-term contract pipeline or operational milestones.",
+        "Investors should monitor whether this reflects option/RSU vesting (dilutive but expected) versus an open-market purchase (constructive signal) as 3DA continues to scale its Tennessee facility and pursue US Department of Defense supply chain opportunities."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AXE",
+      "company": "ARCHER MATERIALS LIMITED",
+      "headline": "Prospectus",
+      "time": "2026-09-03T23:20:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131704-2A1695030",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Archer Materials (AXE) lodging a Prospectus is a material capital raise event — while classified as not market sensitive, a prospectus filing confirms the company is seeking to raise fresh equity, which introduces near-term dilution risk for existing shareholders.",
+        "AXE is a deep-tech company developing a quantum computing qubit processor chip (12CQ) and carbon-based semiconductor materials; given its pre-revenue status and ongoing R&D burn, the prospectus likely targets funding continued chip development, IP commercialisation, and operational runway extension.",
+        "Key investor focus points will be the offer price relative to prevailing market price (discount depth), total raise size, use-of-funds allocation, and whether cornerstone institutional support has been secured — these details will determine whether sentiment shifts decisively bearish (heavy dilution) or stabilises on demonstrated funding confidence."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "SWT",
       "company": "SWITZER DIVIDEND GROWTH FUND - ACTIVE ETF",
