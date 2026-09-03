@@ -1,9 +1,416 @@
 {
   "date": "2026-09-04",
-  "total": 136,
-  "market_sensitive_count": 23,
-  "generated_at": "2026-09-03T23:14:06.308973+00:00",
+  "total": 157,
+  "market_sensitive_count": 31,
+  "generated_at": "2026-09-03T23:23:24.847636+00:00",
   "announcements": [
+    {
+      "ticker": "SWT",
+      "company": "SWITZER DIVIDEND GROWTH FUND - ACTIVE ETF",
+      "headline": "Monthly Redemptions and Units on Issue as at 31 August 2026",
+      "time": "2026-09-03T23:19:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131703-2A1695035",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Switzer Dividend Growth Fund reports monthly redemptions and units on issue as at 31 August 2026 — this is a routine administrative disclosure required under ASX ETF obligations and carries no direct valuation impact for the fund.",
+        "Redemption volume relative to prior months is the only meaningful data point here — elevated net redemptions could signal declining investor confidence in the active ETF strategy or broader equity income rotation, though a single month's data is rarely conclusive.",
+        "Classified as non-market sensitive, this announcement is procedural and primarily relevant to existing unitholders monitoring liquidity and fund scale; no investment action is typically warranted on this disclosure alone."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMH",
+      "company": "AMCIL LIMITED",
+      "headline": "Update - Notification of buy-back - AMH",
+      "time": "2026-09-03T23:18:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131702-3A701029",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMCIL Limited is updating the market on its ongoing on-market share buy-back program — a capital management activity that is modestly EPS-accretive and signals board confidence in the intrinsic value of the company's investment portfolio relative to current market pricing.",
+        "As a listed investment company (LIC), buy-backs are particularly value-accretive when AMH trades at a discount to NTA, as retiring shares below asset backing directly enhances per-share NTA for remaining holders — investors should assess the current NTA discount to quantify the benefit.",
+        "Classified as non-market sensitive, this is an administrative update to comply with ASX buy-back notification requirements; however, consistent buy-back activity over time is a positive governance signal and supports a modest floor under the share price."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RGN",
+      "company": "REGION GROUP",
+      "headline": "Update - Notification of buy-back - RGN",
+      "time": "2026-09-03T23:18:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131701-2A1695036",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Region Group (RGN) is maintaining or updating its on-market share buyback program, signalling management's view that units are trading at or below intrinsic value — a modest capital management positive for a retail-focused REIT.",
+        "Buyback activity in REITs can provide modest NTA-per-unit accretion if executed below book value, which is relevant given ongoing pressure on retail property valuations across the sector.",
+        "Investors should monitor the buyback volume and pace relative to RGN's free cash flow and distribution commitments to assess whether capital allocation remains balanced between unit returns and asset management."
+      ],
+      "tags": [
+        "Finance",
+        "Property",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADX",
+      "company": "ADX ENERGY LTD",
+      "headline": "Sicily Channel Additional Acreage",
+      "time": "2026-09-03T23:18:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131700-6A1342180",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ADX Energy is expanding its footprint in the Sicily Channel, a strategically significant Mediterranean basin — additional acreage grants potential upside to resource inventory and de-risks reliance on existing licence areas.",
+        "The market-sensitive classification signals material new ground secured, likely via a new licence award or farm-in agreement, which could meaningfully alter the company's net acreage position and prospective resource base.",
+        "Key near-term catalyst will be whether ADX can attract a farm-in partner or secure funding to progress exploration on the new acreage — given ADX's small-cap status, any drilling commitment on expanded ground would be a significant re-rating event."
+      ],
+      "tags": [
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DJW",
+      "company": "DJERRIWARRH INVESTMENTS LIMITED",
+      "headline": "Update - Notification of buy-back - DJW",
+      "time": "2026-09-03T23:18:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131699-3A701028",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Djerriwarrh Investments (DJW) is notifying an update to its share buyback program — consistent with its long-standing capital management approach as a listed investment company (LIC) focused on income generation.",
+        "For a LIC trading at a persistent discount to NTA, buybacks are accretive to remaining shareholders and can serve as a valuation support mechanism, though scale and execution pace are critical to meaningful impact.",
+        "Institutional investors should track whether DJW's buyback activity is accelerating, as sustained buying at a discount narrows the NTA gap and may signal board conviction in the underlying portfolio value."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "3DA",
+      "company": "AMAERO INC.",
+      "headline": "Change of Director's Interest Notice - Bob Latta",
+      "time": "2026-09-03T23:18:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131698-3A701027",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director Bob Latta has changed his interest in Amaero Inc. (3DA), a 3D metal printing and advanced materials company — the nature (acquisition or disposal) of the change is the key variable for sentiment assessment.",
+        "Director buying in small-cap technology and advanced manufacturing names like 3DA is typically interpreted as a positive signal given insiders' informational advantage regarding commercialisation progress and contract pipeline.",
+        "Given Amaero's early-stage revenue profile and reliance on defence and aerospace customer wins, any director accumulation could indicate growing confidence in near-term contract milestones or capital efficiency improvements."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CIP",
+      "company": "CENTURIA INDUSTRIAL REIT",
+      "headline": "Dividend/Distribution - CIP",
+      "time": "2026-09-03T23:18:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131697-2A1695023",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Centuria Industrial REIT (CIP) has announced a dividend/distribution, providing income certainty for unitholders in one of Australia's largest pure-play industrial property vehicles — a sector benefiting from structural e-commerce and logistics tailwinds.",
+        "The distribution quantum relative to prior periods is the critical data point; any maintenance or growth in per-unit distributions would reinforce CIP's defensive income credentials amid a higher-for-longer interest rate environment.",
+        "Industrial REIT distributions are closely watched as a proxy for underlying rent collection rates, occupancy health, and debt serviceability — sustained payouts signal portfolio resilience and covenant headroom."
+      ],
+      "tags": [
+        "Dividend",
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AFI",
+      "company": "AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
+      "headline": "Update - Notification of buy-back - AFI",
+      "time": "2026-09-03T23:17:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131696-3A701026",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Foundation Investment Company (AFI) is updating its share buyback notification — as Australia's largest LIC by market cap, even incremental buyback activity carries meaningful signalling weight regarding NTA discount management.",
+        "AFI has historically traded at or near NTA, making buyback activity less accretive than for deeply discounted peers, but the update reaffirms disciplined capital management and shareholder-friendly governance practices.",
+        "Investors should assess whether the buyback pace is increasing relative to prior periods, particularly if AFI's portfolio has seen recent mark-to-market appreciation that widens any NTA premium — this would temper the buyback rationale."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SWT",
+      "company": "SWITZER DIVIDEND GROWTH FUND - ACTIVE ETF",
+      "headline": "Notional Derivatives Exposure - 31 August 2026",
+      "time": "2026-09-03T23:17:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131695-2A1695034",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Switzer Dividend Growth Fund (SWT) has disclosed its notional derivatives exposure as at 31 August 2026 — a mandatory regulatory disclosure for Active ETFs that provides transparency on the fund's use of options or futures overlays.",
+        "The level of derivatives exposure is material for risk assessment; elevated notional exposure relative to NAV could indicate hedging activity or yield enhancement strategies (e.g. covered calls), which directly affects distribution variability.",
+        "This is a routine compliance filing with no direct market-moving impact, but institutional investors should review the notional figures to ensure the fund's risk profile remains consistent with its mandate as a dividend-growth-oriented vehicle."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CIP",
+      "company": "CENTURIA INDUSTRIAL REIT",
+      "headline": "September 2026 Distribution Declaration",
+      "time": "2026-09-03T23:17:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131694-2A1695031",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Centuria Industrial REIT has declared its September 2026 distribution, providing income visibility for unitholders in what remains a closely watched industrial property sector amid ongoing interest rate and cap-rate uncertainty.",
+        "The quantum of the distribution relative to prior periods will be the critical data point — any reduction would signal pressure on distributable income, potentially from higher financing costs or vacancy headwinds, while a maintained or increased distribution reinforces the REIT's defensive earnings profile.",
+        "Industrial REITs continue to benefit from structural tailwinds including e-commerce and near-shoring logistics demand; a stable or growing distribution here would support CIP's premium positioning within the sector and underpin unitholder confidence ahead of FY27 guidance."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DXB",
+      "company": "DIMERIX LIMITED",
+      "headline": "Dimerix Secures A$34 Million Non-Dilutive Funding Facility",
+      "time": "2026-09-03T23:17:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131693-3A701012",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Dimerix has secured A$34 million in non-dilutive funding — a structurally superior financing outcome that preserves existing shareholder equity, eliminating the overhang risk typically associated with capital raises for clinical-stage biotechs.",
+        "The facility size is material relative to DXB's likely cash position and provides meaningful runway to advance its lead asset DMX-200 through late-stage clinical development, potentially covering key Phase 3 milestones without requiring equity dilution.",
+        "The non-dilutive structure (likely royalty-based or debt financing) signals that a third-party lender has conducted due diligence and assigned credible probability to DXB's pipeline success — this implicit external validation is a significant positive sentiment signal for institutional investors assessing pipeline risk."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KAO",
+      "company": "KAOKO METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-03T23:17:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131692-6A1342179",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Kaoko Metals has entered a trading halt, halting price discovery and liquidity for investors — the market-sensitive classification strongly implies a material corporate or operational announcement is imminent, most commonly a capital raise, M&A transaction, or significant resource update.",
+        "For a small-cap metals explorer, the most probable catalysts are a placement to fund exploration or a strategic transaction such as a farm-in, JV, or asset acquisition — either of which could materially alter the company's risk/return profile.",
+        "Investors should await the resumption announcement closely; the nature of the disclosure will determine whether the halt resolves bullishly (transformative deal or strong drilling result) or bearishly (distressed capital raise at a discount)."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WHC",
+      "company": "WHITEHAVEN COAL LIMITED",
+      "headline": "Update - Notification of buy-back - WHC",
+      "time": "2026-09-03T23:17:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131691-2A1695033",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Whitehaven Coal (WHC) is updating its on-market share buyback program — against a backdrop of volatile thermal and metallurgical coal prices, buybacks demonstrate management's confidence in the balance sheet and cash generation capacity.",
+        "WHC has been an aggressive capital returner through buybacks and dividends in recent years; continuation of buyback activity signals that free cash flow remains robust despite any near-term coal price softness, providing downside valuation support.",
+        "Institutional investors should cross-reference the buyback pace with WHC's reported cash position and debt levels from the most recent quarterly — any acceleration would be a strong bullish signal for per-share value accretion."
+      ],
+      "tags": [
+        "Energy",
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SWT",
+      "company": "SWITZER DIVIDEND GROWTH FUND - ACTIVE ETF",
+      "headline": "DRP Price - Distribution month ending 31 August 2026",
+      "time": "2026-09-03T23:16:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131690-2A1695032",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Switzer Dividend Growth Fund (SWT) has set its Distribution Reinvestment Plan (DRP) price for the distribution month ending 31 August 2026 — the DRP price determines the dilution impact on existing unitholders and the reinvestment economics for participating holders.",
+        "A DRP price set at or near the prevailing market price is neutral to mildly positive; a price set at a discount to market (common in LICs/ETFs to incentivise participation) could provide a modest benefit to reinvesting unitholders.",
+        "The announcement confirms the fund is paying a distribution for the August 2026 period, reinforcing SWT's income delivery consistency — a positive signal for yield-focused retail and institutional investors in a dividend-growth mandate."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CXO",
+      "company": "CORE LITHIUM LTD",
+      "headline": "Sale of Remaining Lithium Fines Stockpile",
+      "time": "2026-09-03T23:16:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131689-6A1342177",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Core Lithium's sale of its remaining lithium fines stockpile represents a cash conversion event from legacy inventory following the suspension of mining operations at Finniss — this inflow, while likely modest, improves near-term liquidity without equity dilution.",
+        "The sale signals continued wind-down or maintenance-mode operations, with CXO monetising residual assets amid depressed spodumene prices — the key question for investors is the realised price per tonne relative to book value, which will indicate whether a write-down is required.",
+        "Longer term, clearing the fines stockpile removes a balance sheet overhang and operationally simplifies the asset base, potentially positioning CXO to restart or divest Finniss more cleanly when lithium market conditions improve — though timing of any recovery remains highly uncertain."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "3DA",
+      "company": "AMAERO INC.",
+      "headline": "Change of Director's Interest Notice - Tim Johnson",
+      "time": "2026-09-03T23:16:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131688-3A701025",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director Tim Johnson has filed a change of director's interest notice for Amaero Inc. (3DA) — the second director interest change filing for 3DA in this announcement batch, suggesting possible broader insider activity around a corporate event or vesting schedule.",
+        "Multiple simultaneous director interest changes can indicate equity incentive plan vesting, a capital raise participation, or open-window trading — the pattern across both Bob Latta and Tim Johnson filings warrants closer scrutiny for coordinated activity.",
+        "For a small-cap advanced manufacturing company like 3DA, consistent insider engagement (whether buying or receiving performance rights) is a key indicator of alignment between management and shareholders on growth execution milestones."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "A8G",
+      "company": "AUSTRALASIAN METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-03T23:15:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131687-6A1342178",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Australasian Metals Limited has entered a trading halt under market-sensitive conditions, suspending trading ahead of what is almost certainly a material announcement — for a junior metals explorer, this typically precedes a capital raise, significant assay results, or a strategic corporate transaction.",
+        "The market-sensitive flag elevates the probability that the forthcoming announcement contains price-moving information, requiring investors to exercise caution before assuming a directional bias until full details are released.",
+        "Given the speculative nature of early-stage metals explorers, the resolution of this halt carries binary risk — a high-grade drilling result or accretive deal could produce a sharp re-rating, while a discounted placement could pressure the share price on resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GMV",
+      "company": "VANECK GEARED AUSTRALIAN EQUAL WEIGHT COMPLEX ETF",
+      "headline": "Monthly Disclosure Information as at 31 August 2026",
+      "time": "2026-09-03T23:15:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131686-2A1695029",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "VanEck Geared Australian Equal Weight Complex ETF (GMV) has released its monthly disclosure for 31 August 2026 — as a leveraged (geared) product, mandatory monthly disclosure of leverage ratios, NAV, and portfolio composition is critical for risk-aware investors.",
+        "The 'Complex ETF' classification means GMV employs leverage to amplify returns of an equal-weight ASX exposure; monthly disclosures allow investors to assess whether the gearing level remains within stated parameters and if rebalancing has occurred.",
+        "Institutional investors using GMV as a tactical overlay should review the disclosed leverage multiple and net exposure closely — any deviation from target gearing due to market moves could signal an impending rebalance that affects short-term performance drag."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PWR",
+      "company": "PETER WARREN AUTOMOTIVE HOLDINGS LIMITED",
+      "headline": "Update on Wakeling Automotive Acquisition",
+      "time": "2026-09-03T23:14:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131685-2A1695028",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Peter Warren Automotive is providing an update on its Wakeling Automotive acquisition, indicating a live M&A process — for a listed automotive dealer group, bolt-on acquisitions are a primary growth lever and the market will scrutinise deal metrics including EV/EBITDA multiples and implied earnings accretion.",
+        "Key details to assess include whether the acquisition has received all regulatory and franchisor approvals, the final purchase price relative to earlier guidance, and the funding structure — a cash-funded deal preserves EPS accretion but may stress the balance sheet, while scrip funding introduces dilution risk.",
+        "In the context of ongoing margin pressure across the automotive retail sector from normalising new vehicle supply and softening consumer demand, successful integration of Wakeling would broaden PWR's geographic and brand diversification, supporting medium-term earnings resilience."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AM3",
+      "company": "AMARA MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-03T23:13:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131684-6A1342176",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Amara Minerals has entered a trading halt flagged as market-sensitive, the third such halt across ASX-listed mining and metals companies in this announcement batch — highlighting elevated corporate activity in the junior resources sector.",
+        "The trading halt mechanism under ASX Listing Rule 17.1 is typically requested by the company itself, suggesting management is in control of the disclosure timeline and that a structured announcement — likely a capital raise, drilling result, or strategic deal — is being prepared.",
+        "Investors in AM3 should note that junior mineral explorers seeking capital in the current environment may face pricing pressure on placements; however, a strong exploration result driving the halt would be a materially positive catalyst upon resumption."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "3DA",
+      "company": "AMAERO INC.",
+      "headline": "Notification regarding unquoted securities - 3DA",
+      "time": "2026-09-03T23:11:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131683-3A701024",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine administrative notification regarding unquoted securities issued by Amaero International (3DA), likely relating to options, performance rights, or employee incentive securities not listed on the ASX — no material financial impact disclosed.",
+        "As a procedural compliance filing, this announcement carries no direct earnings, dilution risk disclosure, or capital structure change beyond standard registry housekeeping; however, investors should monitor the volume and terms of any unquoted securities as they can signal future dilution upon vesting or exercise.",
+        "Next step for investors is to cross-reference the specific security class and quantity against Amaero's existing capital structure and incentive plan disclosures to assess any latent dilution risk, particularly relevant given the company's early-stage commercialisation phase in advanced metal additive manufacturing."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "HZN",
       "company": "HORIZON OIL LIMITED",
