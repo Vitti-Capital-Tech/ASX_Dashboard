@@ -1,9 +1,238 @@
 {
   "date": "2026-09-04",
-  "total": 203,
-  "market_sensitive_count": 40,
-  "generated_at": "2026-09-03T23:47:40.177802+00:00",
+  "total": 215,
+  "market_sensitive_count": 41,
+  "generated_at": "2026-09-03T23:54:14.766510+00:00",
   "announcements": [
+    {
+      "ticker": "FAL",
+      "company": "FALCON METALS LTD",
+      "headline": "Application for quotation of securities - FAL",
+      "time": "2026-09-03T23:51:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131761-6A1342201",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Falcon Metals has lodged an application for quotation of new securities on the ASX, indicating a recent capital raise, option exercise, or share issuance event has been completed and securities are now being formally listed.",
+        "This is a procedural administrative filing and carries no standalone earnings or valuation signal; however, it confirms new shares are entering the register, which has a minor dilutive effect on existing holders.",
+        "Investors should cross-reference the underlying transaction that generated these securities (e.g., placement, rights issue, or performance rights vesting) to assess the full dilution quantum and whether funds raised are strategically deployed."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENL",
+      "company": "ENLITIC INC.",
+      "headline": "Application for quotation of securities - ENL",
+      "time": "2026-09-03T23:51:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131760-3A701042",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Enlitic Inc. has filed an application for quotation of new securities, a routine administrative step following a share issuance event such as a placement, employee incentive scheme vesting, or conversion of convertible instruments.",
+        "As a healthcare technology company focused on AI-driven medical imaging, any capital activity should be assessed in the context of Enlitic's cash burn rate and commercialisation progress, where runway is a critical investor concern.",
+        "No immediate valuation impact is expected from this filing alone; the 'so what' lies in identifying the source of the new securities and whether associated funding strengthens the company's path to revenue generation."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "POD",
+      "company": "PODIUM MINERALS LIMITED",
+      "headline": "Application for quotation of securities - POD",
+      "time": "2026-09-03T23:50:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131759-6A1342200",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Podium Minerals has submitted an application for quotation of new securities, a standard procedural requirement following a share issuance event, with no independent financial information disclosed in this filing.",
+        "Podium is advancing its Parks Reef PGE (platinum group elements) project in WA — a sector with significant strategic interest given global battery and catalyst supply chain dynamics — so any capital activity warrants attention in this context.",
+        "Investors should verify the nature of the securities being quoted (e.g., from a placement, rights issue, or options exercise) to determine dilution impact and whether proceeds, if any, materially extend the company's exploration runway."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEC",
+      "company": "SPHERIA EMERGING COMPANIES LIMITED",
+      "headline": "Dividend/Distribution - SEC",
+      "time": "2026-09-03T23:50:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131758-2A1695112",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Spheria Emerging Companies Limited (SEC) has declared a dividend/distribution, providing a direct capital return to shareholders and affirming the listed investment company's commitment to income distribution from its small/micro-cap portfolio.",
+        "The dividend signal is constructive for income-focused investors in the LIC space, though the quantum and whether it is fully franked will determine the relative attractiveness versus peers and the prevailing NTA discount or premium.",
+        "Near-term, dividend declarations in LICs can act as a modest positive catalyst, particularly if the yield is competitive; investors should assess the distribution rate against SEC's recent NTA performance and portfolio composition."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DMN",
+      "company": "DOMINION INVESTMENT GROUP LIMITED",
+      "headline": "Interest Payment - DMNHA",
+      "time": "2026-09-03T23:48:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131757-2A1695116",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Dominion Investment Group has announced an interest payment on its DMNHA hybrid/debt security, confirming the company is meeting its scheduled debt service obligations — a baseline positive for credit quality assessment.",
+        "This is a routine administrative notice with no new strategic or financial information; it does not indicate any change in Dominion's operating performance or capital structure beyond confirmation of existing obligations being honoured.",
+        "For holders of the DMNHA instrument, timely interest payments reduce credit risk concerns; for equity investors, this filing has negligible direct impact on share price valuation."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SMS",
+      "company": "STAR MINERALS LIMITED",
+      "headline": "Appendix 4G & Corporate Governance Statement",
+      "time": "2026-09-03T23:48:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131756-6A1342197",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Star Minerals has lodged its Appendix 4G and Corporate Governance Statement, fulfilling ASX Listing Rule compliance requirements — a mandatory annual disclosure with no direct operational or financial signal.",
+        "The Appendix 4G maps the company's compliance against the ASX Corporate Governance Principles and Recommendations; any material departures from recommendations ('if not, why not') could flag governance risks for institutional investors conducting ESG due diligence.",
+        "While procedural in nature, consistent and transparent governance disclosures are a hygiene factor for small-cap miners seeking to attract institutional capital; no near-term share price impact is expected from this filing."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADN",
+      "company": "ANDROMEDA METALS LIMITED",
+      "headline": "Andromeda successfully raises $3.04 million",
+      "time": "2026-09-03T23:46:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131755-2A1695115",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Andromeda Metals has completed a $3.04M capital raise, providing a near-term liquidity injection for a company that has faced ongoing funding pressure as it advances its Great White kaolin project in South Australia.",
+        "The raise size is modest relative to typical project development costs, suggesting this is likely a bridging or working capital round rather than a transformative funding event — investors should scrutinise dilution impact and pricing relative to the prevailing share price.",
+        "Key watch points include whether this capital is sufficient to reach the next material project milestone (e.g., permitting, offtake negotiations) or whether a further, potentially more dilutive raise will be required in the near term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TVN",
+      "company": "TIVAN LIMITED",
+      "headline": "Tivan presents at NT Resources Week",
+      "time": "2026-09-03T23:46:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131754-6A1342195",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Tivan Limited presented at NT Resources Week, providing a public-facing investor relations opportunity to highlight progress on its Speewah Fluorite and potentially other critical minerals projects in the Northern Territory.",
+        "Conference presentations can act as soft catalysts by improving market awareness and institutional engagement, particularly for companies operating in the critical minerals space where government and strategic investor interest remains elevated.",
+        "Investors should review the presentation materials for any new operational updates, timeline revisions, or partnership signals not previously disclosed; absent new material information, the near-term price impact is likely to be limited."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AXE",
+      "company": "ARCHER MATERIALS LIMITED",
+      "headline": "Application for quotation of securities - AXE",
+      "time": "2026-09-03T23:46:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131753-2A1695114",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Archer Materials has filed an application for quotation of new securities, a standard administrative step following a share issuance, options exercise, or incentive award vesting — no standalone financial content is disclosed.",
+        "Archer operates in the deep-tech semiconductor and quantum computing space (12CQ qubit chip), where capital efficiency and development milestones are closely watched; any dilution event should be evaluated against the company's reported cash position and R&D expenditure timeline.",
+        "The procedural nature of this filing means near-term price impact is minimal; however, a pattern of recurring securities quotation applications could signal ongoing dilutive funding that warrants scrutiny from existing shareholders."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NFL",
+      "company": "NORFOLK METALS LIMITED",
+      "headline": "Director Resignation",
+      "time": "2026-09-03T23:46:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131752-6A1342188",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Norfolk Metals has disclosed a director resignation, which at the small-cap exploration stage can be a meaningful governance event — the loss of a director may signal strategic disagreements, reduced board capacity, or challenges in retaining experienced leadership.",
+        "The identity of the departing director and their role (e.g., technical, financial, or independent) is critical context; a departure of a technically credentialed director from an early-stage minerals company could raise concerns about project direction or internal confidence.",
+        "Investors should monitor for any accompanying statement on reasons for resignation and whether a replacement appointment is imminent; unexplained or abrupt board departures at small-cap miners historically correlate with short-term negative sentiment."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WOT",
+      "company": "WOTSO",
+      "headline": "Q4 FY26 Business Update",
+      "time": "2026-09-03T23:45:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131751-2A1695113",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WOTSO's Q4 FY26 business update signals continued operational activity across its flexible workspace network, though the 'not market sensitive' classification suggests no material revenue surprises or covenant breaches — investors should watch for occupancy rate trends and any portfolio expansion or contraction signals within the detail.",
+        "As a property-tech hybrid, WOTSO's key metrics to scrutinise include desk/suite utilisation rates, like-for-like revenue per location, and any updates on the management agreement structure with BlackWall Property Trust — these are the primary value drivers that determine earnings quality.",
+        "With the flex-workspace sector still navigating post-COVID normalisation and hybrid work stabilisation, WOTSO's ability to demonstrate improving occupancy economics and cost discipline heading into FY27 will be critical for re-rating; any guidance revision or new location announcements would be the key near-term catalyst."
+      ],
+      "tags": [
+        "Quarterly",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SMS",
+      "company": "STAR MINERALS LIMITED",
+      "headline": "Annual Report to shareholders",
+      "time": "2026-09-03T23:45:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131750-6A1342189",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Star Minerals Limited's annual report, marked as not market sensitive, is consistent with a pre-revenue exploration-stage junior miner — investors should focus on the auditor's going concern disclosure, cash and cash equivalents on hand, and burn rate to assess near-term capital raise risk.",
+        "Key financial red flags to assess include net loss for the year, exploration expenditure capitalised versus expensed, and whether the company has sufficient working capital to fund at least 12 months of operations without an imminent equity raise that would dilute existing shareholders.",
+        "The strategic outlook hinges on any updates to mineral resource estimates, upcoming drill programs, or farm-in/JV interest from larger players — absent a meaningful exploration catalyst or resource upgrade, the annual report alone is unlikely to act as a near-term share price driver."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "HWK",
       "company": "HAWK RESOURCES LIMITED.",
