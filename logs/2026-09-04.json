@@ -1,9 +1,85 @@
 {
   "date": "2026-09-04",
-  "total": 96,
+  "total": 100,
   "market_sensitive_count": 11,
-  "generated_at": "2026-09-03T22:40:04.813970+00:00",
+  "generated_at": "2026-09-03T22:48:46.085283+00:00",
   "announcements": [
+    {
+      "ticker": "ORA",
+      "company": "ORORA LIMITED",
+      "headline": "Update - Notification of buy-back - ORA",
+      "time": "2026-09-03T22:46:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131647-3A701018",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Orora's on-market buy-back notification signals management confidence in the stock's intrinsic value relative to current market pricing, a meaningful indicator given the company's ongoing strategic review and divestment of its Australasian packaging business.",
+        "Buy-backs are accretive to earnings per share by reducing the share count, potentially supporting ORA's valuation metrics at a time when the market is closely watching capital allocation decisions post the Saverglass acquisition integration.",
+        "Investors should monitor the scale and pace of buy-back execution in subsequent ASX notifications — a sustained, aggressive program would reinforce a bullish capital return thesis, while a minimal or paused program may suggest competing capital priorities remain."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AUI",
+      "company": "AUSTRALIAN UNITED INVESTMENT COMPANY LIMITED",
+      "headline": "Update - Notification of buy-back - AUI",
+      "time": "2026-09-03T22:43:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131646-3A701017",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian United Investment Company's buy-back update is consistent with the LIC sector's ongoing use of on-market repurchases as a tool to narrow the persistent discount to net tangible assets (NTA), a key shareholder value lever for closed-end funds.",
+        "For a conservative, yield-focused LIC like AUI, buy-backs at a discount to NTA are mathematically accretive to remaining shareholders' NTA per share, making this a disciplined and low-risk capital management action.",
+        "The continuation of the buy-back program demonstrates the board's commitment to active discount management; investors should track whether the NTA discount compresses over coming months as a measure of program effectiveness."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DXI",
+      "company": "DEXUS INDUSTRIA REIT.",
+      "headline": "Update - Notification of buy-back - DXI",
+      "time": "2026-09-03T22:43:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131645-3A701016",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Dexus Industria REIT's buy-back notification reflects a tactical capital management response likely aimed at addressing the unit price trading at a discount to net asset value (NAV), a common dynamic across the industrial REIT sector amid elevated interest rate pressures.",
+        "Industrial REITs with strong underlying asset fundamentals — such as DXI's exposure to logistics and business park assets — can deliver NTA accretion through disciplined on-market repurchases, supporting distributions per unit for remaining holders.",
+        "The buy-back should be viewed alongside DXI's broader balance sheet management strategy; with debt costs elevated, the pace of repurchases will be constrained by available liquidity and gearing headroom, making future capital update announcements a key watchpoint."
+      ],
+      "tags": [
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DXC",
+      "company": "DEXUS CONVENIENCE RETAIL REIT",
+      "headline": "Update - Notification of buy-back - DXC",
+      "time": "2026-09-03T22:41:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131644-3A701015",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Dexus Convenience Retail REIT's buy-back update signals management's view that DXC units are undervalued relative to the underlying portfolio of convenience retail and petrol station assets, which carry long-weighted average lease expiry (WALE) profiles providing income visibility.",
+        "On-market repurchases in a specialist, lower-liquidity REIT like DXC can be particularly effective at supporting the unit price, as even modest buy-back volumes can meaningfully influence price discovery in a thinly traded register.",
+        "Investors should assess whether the buy-back program is being funded from operating cash flow or asset recycling proceeds, as the funding source has material implications for distribution sustainability and balance sheet resilience going forward."
+      ],
+      "tags": [
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "MGH",
       "company": "MAAS GROUP HOLDINGS LIMITED",
