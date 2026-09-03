@@ -1,9 +1,239 @@
 {
   "date": "2026-09-04",
-  "total": 191,
-  "market_sensitive_count": 37,
-  "generated_at": "2026-09-03T23:40:40.665094+00:00",
+  "total": 203,
+  "market_sensitive_count": 40,
+  "generated_at": "2026-09-03T23:47:40.177802+00:00",
   "announcements": [
+    {
+      "ticker": "HWK",
+      "company": "HAWK RESOURCES LIMITED.",
+      "headline": "Hawk Completes Cactus Corridor Drilling Utah USA",
+      "time": "2026-09-03T23:44:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131749-6A1342190",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Completion of the Cactus Corridor drilling program in Utah, USA marks a key operational milestone for Hawk Resources, moving the project from exploration execution into the data analysis and results-pending phase — the next critical news flow will be assay results.",
+        "The 'not market sensitive' classification suggests management does not anticipate the drilling completion announcement itself to materially move the stock; however, the forthcoming assay results will be the true value-determining event for this asset.",
+        "For an ASX-listed junior with US-based assets, operational execution in a foreign jurisdiction carries logistical and cost risk; successful completion of the program provides modest confidence in management's ability to deliver on its exploration commitments."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMG",
+      "company": "CRITICAL MINERALS GROUP LIMITED",
+      "headline": "Final Director's Interest Notice - S Winter",
+      "time": "2026-09-03T23:44:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131748-2A1695111",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A 'Final' Director's Interest Notice for S. Winter at Critical Minerals Group indicates a cessation of directorship, meaning this filing reflects the final disclosure of securities held at the time of departure rather than an ongoing change in holdings.",
+        "Director departures at small-cap critical minerals companies can carry governance and strategic implications — investors should monitor whether this represents a planned transition or an unscheduled exit, which could signal internal disagreement or a strategic pivot.",
+        "As a non-market-sensitive administrative filing, the immediate price impact is expected to be negligible; however, combined with concurrent director interest changes (see CMG announcements 7 and 8), this cluster of director activity warrants closer scrutiny of the board composition shift."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGT",
+      "company": "MAGNETITE MINES LIMITED.",
+      "headline": "New Razorback Project Scoping Study and Funding Options",
+      "time": "2026-09-03T23:43:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131747-6A1342193",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A new scoping study for the Razorback Iron Ore Project signals a strategic reset, likely reflecting revised economics, updated resource estimates, or a repositioned development pathway — critical for reassessing the project's NPV and viability in current iron ore market conditions.",
+        "The concurrent review of funding options is a key red flag for capital structure risk; junior miners conducting scoping studies alongside funding reviews often face equity dilution, debt constraints, or partnership dependency — investors should monitor any proposed capital raise quantum relative to current market cap.",
+        "Market-sensitive classification elevates urgency: if the scoping study delivers materially improved economics or a lower capex development scenario, this could serve as a re-rating catalyst, but any funding solution involving significant dilution may offset upside momentum near-term."
+      ],
+      "tags": [
+        "Mining",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WLE",
+      "company": "WAM LEADERS LIMITED",
+      "headline": "August 2026 Investment Update",
+      "time": "2026-09-03T23:43:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131746-2A1695110",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WAM Leaders' August 2026 Investment Update provides portfolio transparency for this large-cap focused LIC; key metrics to assess include NTA (net tangible assets) per share relative to current share price, indicating whether the fund trades at a premium or discount.",
+        "As a non-market-sensitive update, the release is routine monthly disclosure; however, any material shift in portfolio positioning, top holdings, or cash weighting could signal Wilson Asset Management's macroeconomic view on Australian large-cap equities.",
+        "Investors in WLE should focus on the NTA discount/premium trajectory and any changes to dividend guidance or franking capacity embedded in the update, as these are the primary near-term valuation drivers for LIC investors."
+      ],
+      "tags": [
+        "Finance",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KLV",
+      "company": "KLEVO REWARDS LIMITED",
+      "headline": "Non-Renounceable Issue - Loyalty Options",
+      "time": "2026-09-03T23:42:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131745-6A1342186",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A non-renounceable rights issue of loyalty options introduces potential dilution for non-participating shareholders, as non-renounceable structures prevent rights from being sold — disadvantaging retail and passive holders who cannot or do not participate.",
+        "The 'loyalty options' mechanism suggests the company is incentivising existing shareholders to remain engaged with the stock, which may indicate limited institutional appetite for a conventional capital raise and a need to structure terms more attractively to secure take-up.",
+        "Market-sensitive designation warrants scrutiny of the exercise price, expiry, and total dilutive impact relative to current shares on issue — if the option terms are materially out-of-the-money or heavily discounted, this could pressure the share price near-term through overhang concerns."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CMG",
+      "company": "CRITICAL MINERALS GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice - S Winter",
+      "time": "2026-09-03T23:41:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131744-2A1695109",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for S. Winter at CMG, filed alongside a 'Final' notice (announcement 5), suggests this records a securities transaction immediately prior to or concurrent with Winter's departure from the board — the nature of the change (buy, sell, or lapse) is the key detail.",
+        "If the change reflects an on-market sale by the departing director, this could be interpreted as a negative signal regarding the director's conviction in the company's near-term prospects, particularly in the sensitive critical minerals sector.",
+        "The non-market-sensitive classification limits immediate price impact, but the simultaneous filing of multiple director notices for CMG in a single session (announcements 5, 7, 8) creates a governance optics concern that warrants monitoring by existing shareholders."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMG",
+      "company": "CRITICAL MINERALS GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice - A Broome",
+      "time": "2026-09-03T23:40:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131743-2A1695108",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for A. Broome at Critical Minerals Group represents a routine disclosure of a movement in a current director's securities holding — context of whether this is an acquisition or disposal is critical to interpreting intent.",
+        "If Broome's change reflects an on-market purchase, it would signal insider confidence and could be mildly constructive; a disposal, particularly alongside the concurrent board changes at CMG, would compound negative governance optics.",
+        "As part of a cluster of three CMG director notices filed simultaneously, institutional investors should treat this collectively as a potential signal of a broader board restructure — monitoring for any subsequent ASX announcement regarding new director appointments or a strategic update is advisable."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RRE",
+      "company": "RIGHT RESOURCES LIMITED",
+      "headline": "Gold Result Upgrades Eastern Blue Target Ahead of Drilling",
+      "time": "2026-09-03T23:40:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131742-6A1342187",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Upgraded gold results at the Eastern Blue target ahead of drilling represent a genuine pre-drill catalyst; positive geochemical or geophysical data upgrades signal higher geological confidence and can attract speculative interest ahead of assay results.",
+        "The market-sensitive classification suggests the result is materially superior to prior expectations — investors should assess whether the upgraded target size or grade profile meaningfully changes the exploration upside case for the broader project area.",
+        "The 'ahead of drilling' timing is strategically significant: if drilling commences shortly, the stock enters a binary news-flow phase where a hit could be transformational for a small explorer; the upgrade materially lowers perceived geological risk and may drive near-term re-rating."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AXE",
+      "company": "ARCHER MATERIALS LIMITED",
+      "headline": "Notification regarding unquoted securities - AXE",
+      "time": "2026-09-03T23:40:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131741-2A1695106",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A notification regarding unquoted securities at Archer Materials typically relates to the issue of options, performance rights, or other unlisted equity instruments — most commonly associated with employee incentive schemes or milestone-based executive remuneration.",
+        "While classified as non-market-sensitive, the issuance of unquoted securities incrementally adds to the fully diluted share count, which sophisticated investors should factor into dilution modelling, particularly for a pre-revenue deep-tech company like AXE.",
+        "Archer Materials operates at the intersection of quantum computing and semiconductor materials — any securities issuance linked to technical milestones (e.g. chip development benchmarks) could have forward signalling value regarding progress on its 12CQ qubit processor program."
+      ],
+      "tags": [
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APL",
+      "company": "ASSOCIATE GLOBAL PARTNERS LIMITED",
+      "headline": "Change of Director's Interest Notice - B Cairns",
+      "time": "2026-09-03T23:39:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131740-3A701041",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for B. Cairns at Associate Global Partners (APL) is a standard regulatory disclosure; the materiality depends entirely on the direction and scale of the securities movement relative to Cairns' existing holding and APL's total shares on issue.",
+        "APL operates in the financial services/funds management space — director buying in this sector can carry modest positive signalling, particularly if it follows a period of share price weakness or ahead of a anticipated results or business development announcement.",
+        "As a non-market-sensitive, administrative filing with no accompanying strategic context, the near-term price impact is negligible; investors should monitor for any associated corporate announcements that may have prompted or coincided with the director's securities movement."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMG",
+      "company": "CRITICAL MINERALS GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice - S McClure",
+      "time": "2026-09-03T23:39:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131739-2A1695107",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director S McClure has recorded a change in beneficial interest, a routine administrative disclosure with no immediate operational or financial implications for Critical Minerals Group (CMG) at this stage.",
+        "The nature and quantum of the interest change (acquisition, disposal, or conversion) warrants monitoring — insider buying can signal director conviction in CMG's critical minerals pipeline, while selling may indicate reduced confidence or personal liquidity needs.",
+        "As CMG operates in the strategically significant critical minerals sector amid strong global demand for battery and defence-related materials, any directorial alignment with shareholder interests through on-market purchases would be a modest positive signal for institutional investors watching the register."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APL",
+      "company": "ASSOCIATE GLOBAL PARTNERS LIMITED",
+      "headline": "Change of Director's Interest Notice - N Campbell",
+      "time": "2026-09-03T23:38:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131738-3A701040",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Associate Global Partners (APL) director N Campbell has filed a change of director's interest notice, a standard compliance disclosure with no direct earnings or strategic implications indicated at this time.",
+        "The specific transaction detail — whether representing an on-market purchase, sale, or securities vesting — is material to interpreting alignment; director accumulation in a financial services firm like APL could reflect confidence in funds under management growth or earnings trajectory.",
+        "Investors should cross-reference this filing against APL's broader insider activity trend and upcoming reporting milestones to assess whether directorial behaviour is converging with or diverging from the investment thesis."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "TVN",
       "company": "TIVAN LIMITED",
