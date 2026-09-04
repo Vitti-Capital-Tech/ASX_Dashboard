@@ -1,9 +1,778 @@
 {
   "date": "2026-09-04",
-  "total": 223,
-  "market_sensitive_count": 45,
-  "generated_at": "2026-09-04T00:00:45.612440+00:00",
+  "total": 263,
+  "market_sensitive_count": 49,
+  "generated_at": "2026-09-04T00:55:23.229563+00:00",
   "announcements": [
+    {
+      "ticker": "CVB",
+      "company": "CURVEBEAM AI LIMITED",
+      "headline": "Initial Director's Interest Notice - Dr Yu Peng",
+      "time": "2026-09-04T00:53:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131809-3A701052",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "CurveBeam AI (CVB) has filed an initial director's interest notice for newly appointed Dr Yu Peng, establishing the baseline disclosure of their shareholding and any associated securities upon commencement of the role.",
+        "The nature and size of Dr Peng's initial interest (shares, options, performance rights) provides a signal of alignment between the new director and shareholder interests — larger personal holdings or in-the-money options suggest stronger skin in the game.",
+        "This is a routine governance filing with no immediate financial impact; however, the appointment itself (disclosed separately) should be assessed in the context of CurveBeam AI's strategic direction in medical imaging technology."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FUL",
+      "company": "FULCRUM LITHIUM LTD",
+      "headline": "Appointment of Non-Executive Director & Appendix 3X",
+      "time": "2026-09-04T00:51:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131808-2A1695137",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Fulcrum Lithium (FUL) has appointed a new Non-Executive Director, accompanied by the mandatory Appendix 3X filing — board composition changes at junior lithium explorers can signal strategic repositioning, particularly around capital raising or project development expertise.",
+        "The quality and background of the incoming NED is the key value determinant: expertise in lithium project development, capital markets, or strategic partnerships would be viewed positively by the market given the challenging lithium price environment.",
+        "While procedurally non-market sensitive, board appointments at small-cap miners can be a leading indicator of upcoming corporate activity; investors should review the appointee's CV for clues about the company's near-term strategic priorities."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CVB",
+      "company": "CURVEBEAM AI LIMITED",
+      "headline": "Final Director's Interest Notice - Hashan De Silva",
+      "time": "2026-09-04T00:47:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131807-3A701051",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "CurveBeam AI (CVB) has filed a final director's interest notice for Hashan De Silva, indicating this individual has ceased to be a director — this final notice captures the last recorded holding upon departure from the board.",
+        "Director departures require scrutiny: understanding whether the exit was planned (e.g. term completion, role restructure) or unplanned is important context, as unexpected resignations can sometimes signal internal disagreements over strategy or performance.",
+        "Taken alongside the simultaneous appointment of Dr Yu Peng (Announcement [7]), this appears to be a board transition rather than a net reduction in board capacity — the combined read is neutral, representing routine governance rather than a red flag."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "Notification of cessation of securities - KAR",
+      "time": "2026-09-04T00:40:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131806-3A701050",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Karoon Energy (KAR) has notified the ASX of the cessation of securities — this typically relates to the expiry of options, vesting of performance rights converting to ordinary shares, or the lapsing of unlisted securities, resulting in a reduction of the dilutive securities on issue.",
+        "If the cessation relates to lapsed or expired options without conversion, this is modestly positive for existing shareholders as it reduces future dilution overhang; if it reflects the conversion of performance rights to shares, the impact is marginally dilutive but expected.",
+        "As a non-market sensitive, administrative filing, this has no material near-term impact on Karoon's operational outlook or valuation — the company's share price will remain driven by oil price movements and production performance from its Brazilian assets."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WLE",
+      "company": "WAM LEADERS LIMITED",
+      "headline": "Application for quotation of securities - WLE",
+      "time": "2026-09-04T00:40:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131805-2A1695136",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WLE is applying for quotation of new securities on the ASX, likely reflecting the issuance of shares under a dividend reinvestment plan (DRP) or options exercise — a routine capital management activity for this Listed Investment Company (LIC).",
+        "As a non-market-sensitive filing, the quantum of new securities is expected to be modest relative to WLE's total share count, limiting dilution risk for existing shareholders.",
+        "Investors should monitor the volume of securities being quoted to assess any incremental NAV dilution; however, this is standard LIC housekeeping with no immediate strategic implications."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BM1",
+      "company": "BALLARD MINING LIMITED",
+      "headline": "EGM Presentation",
+      "time": "2026-09-04T00:39:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131804-6A1342213",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ballard Mining (BM1) has released an Extraordinary General Meeting (EGM) presentation, signalling a specific corporate resolution requiring shareholder approval outside the standard AGM cycle — often indicative of a capital raise, asset acquisition, or structural change.",
+        "The non-market-sensitive classification suggests the content may have been previously disclosed or is procedural in nature, but EGMs at small mining explorers frequently accompany dilutive capital events or strategic pivots that warrant close scrutiny.",
+        "Institutional investors should review the EGM resolution details carefully for any share issuance authorities, change of business proposals, or related-party transactions that could materially affect BM1's trajectory and capital structure."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REM",
+      "company": "REMSENSE TECHNOLOGIES LIMITED",
+      "headline": "Notification regarding unquoted securities - REM",
+      "time": "2026-09-04T00:35:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131803-6A1342212",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "REM has lodged an Appendix 3B equivalent notification for unquoted securities, indicating the existence of securities (e.g. options, performance rights, or convertible notes) not yet listed on the ASX — a standard compliance disclosure.",
+        "Unquoted securities represent potential future dilution if converted or exercised; investors should track the terms, exercise prices, and expiry dates to assess overhang risk on the REM register.",
+        "As a non-market-sensitive filing, this is administrative in nature, but for a small-cap technology company like REM, monitoring the total diluted share count is critical when evaluating valuation metrics."
+      ],
+      "tags": [
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTD",
+      "company": "CORPORATE TRAVEL MANAGEMENT LIMITED",
+      "headline": "Annual General Meetings for 2025 and 2026",
+      "time": "2026-09-04T00:34:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131802-2A1695135",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "CTD has confirmed the scheduling of its AGMs for both 2025 and 2026, an unusual dual-year announcement that provides shareholders with forward visibility on governance milestones — potentially reflecting regulatory planning or board confidence in operational continuity.",
+        "The non-market-sensitive nature confirms this is a procedural governance update; however, pre-scheduling two consecutive AGMs may indicate CTD is proactively managing its compliance calendar amid ongoing business recovery post-pandemic.",
+        "Investors should note upcoming AGM dates as key catalysts for executive remuneration votes, board composition changes, and strategic guidance updates — all of which can drive sentiment in CTD's share price around meeting periods."
+      ],
+      "tags": [
+        "AGM",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IRD",
+      "company": "IRON ROAD LIMITED",
+      "headline": "Notice of initial substantial holder",
+      "time": "2026-09-04T00:30:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131801-2A1695132",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Iron Road Limited (IRD), signalling fresh institutional or strategic interest in the company's Central Eyre Iron Project — one of Australia's largest undeveloped magnetite deposits.",
+        "The timing of this filing warrants monitoring: substantial holder notices often precede increased market activity, potential board engagement, or positioning ahead of project development milestones.",
+        "Investors should track whether this holder continues to accumulate — a rising register of substantial holders in junior miners can be a precursor to M&A interest or project financing discussions."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "C7A",
+      "company": "CLARA RESOURCES AUSTRALIA LTD",
+      "headline": "Proposed issue of securities - C7A",
+      "time": "2026-09-04T00:30:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131800-2A1695123",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Clara Resources (C7A) has filed a 'Proposed Issue of Securities' notice, confirming an upcoming capital raise or securities issuance — a dilutive event that is common among early-stage resource explorers seeking to fund exploration programs.",
+        "The filing is one of two identical announcements lodged simultaneously (see also [6]), which may indicate separate tranches of a placement or distinct classes of securities being issued — suggesting a potentially larger aggregate raise than a single filing would imply.",
+        "Investors should await the full terms of the issuance (price, volume, use of proceeds) to assess dilution magnitude; for a small explorer like C7A, the discount to market and size of the raise relative to market cap are the key valuation considerations."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "C7A",
+      "company": "CLARA RESOURCES AUSTRALIA LTD",
+      "headline": "Proposed issue of securities - C7A",
+      "time": "2026-09-04T00:30:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131799-2A1695122",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is the second 'Proposed Issue of Securities' filing by C7A lodged concurrently with announcement [5], suggesting the capital raise involves multiple tranches, security types (e.g. shares plus options as attaching securities), or a placement alongside a share purchase plan.",
+        "Dual filings of this nature at junior miners often accompany a placement structure where attaching options are issued as sweeteners — increasing total potential dilution beyond the headline placement shares alone.",
+        "The combined effect of both announcements reinforces a dilutive capital raise scenario; institutional investors should assess whether the funds raised are sufficient to materially advance C7A's exploration assets or merely extend short-term cash runway."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ECP",
+      "company": "ECP EMERGING GROWTH LIMITED",
+      "headline": "Appendix 3Y - S Barrett",
+      "time": "2026-09-04T00:29:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131797-2A1695134",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ECP has filed an Appendix 3Y for director S Barrett, confirming a change in that director's relevant interests in ECP securities — a mandatory ASX disclosure triggered by any acquisition, disposal, or other change in director holdings.",
+        "Appendix 3Y filings are closely watched by the market as director buying can signal insider confidence, while selling may indicate profit-taking or reduced conviction — the direction of the change is the critical detail here.",
+        "As one of four simultaneous Appendix 3Y filings across ECP's board (see [8], [9], [10]), this may reflect a coordinated board-level event such as participation in a DRP, options vesting, or a structured selling program rather than discretionary trading."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "C7A",
+      "company": "CLARA RESOURCES AUSTRALIA LTD",
+      "headline": "Maiden Drilling Program to commence at Mareeba Gold Project",
+      "time": "2026-09-04T00:29:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131798-2A1695120",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Clara Resources Australia (C7A) is commencing its maiden drilling program at the Mareeba Gold Project in Queensland — a critical de-risking milestone for any early-stage gold explorer, as first-pass drilling results will define the resource narrative.",
+        "Maiden drill programs are high-impact binary events: positive assay results (particularly any high-grade intersections) can act as a significant re-rating catalyst for a micro-cap explorer with limited market visibility.",
+        "Investors should watch for drill result announcements in the coming weeks; given the market-sensitive classification, management clearly anticipates results could materially move the share price — making this a key near-term catalyst to monitor."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ECP",
+      "company": "ECP EMERGING GROWTH LIMITED",
+      "headline": "Appendix 3Y - J Pohl",
+      "time": "2026-09-04T00:29:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131796-2A1695133",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ECP has filed an Appendix 3Y for director J Pohl, disclosing a change in their relevant interest in ECP securities as required under ASX Listing Rule 3.19B.",
+        "Filed simultaneously with three other board member disclosures ([7], [9], [10]), the coordinated nature of these filings points to a single triggering corporate event — most likely options vesting, a DRP allotment, or a board-wide participation in a recent capital event.",
+        "While procedurally routine, the aggregate picture across all four director filings will be more informative than any single disclosure; investors should assess the net direction (buy vs. sell) across the full board to gauge insider sentiment toward ECP's near-term outlook."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ECP",
+      "company": "ECP EMERGING GROWTH LIMITED",
+      "headline": "Appendix 3Y - D Crombie",
+      "time": "2026-09-04T00:28:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131795-2A1695131",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ECP's Appendix 3Y filing for director D Crombie continues the pattern of simultaneous board-level securities disclosures, reinforcing that a single corporate event has triggered mandatory reporting obligations across multiple directors.",
+        "For a Listed Investment Company (LIC) like ECP, common triggers for such clustered disclosures include DRP participation, performance rights vesting, or the exercise of options — all of which affect the director's registered holding without necessarily implying discretionary market activity.",
+        "The filing is non-market-sensitive and carries no standalone price catalyst; however, in aggregate with the other three filings, it provides a useful read on whether ECP's board is net accumulating or reducing exposure to the fund."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ECP",
+      "company": "ECP EMERGING GROWTH LIMITED",
+      "headline": "Appendix 3Y - M d'Almeida",
+      "time": "2026-09-04T00:27:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131794-2A1695130",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The fourth and final Appendix 3Y in this batch covers ECP director M d'Almeida, completing a full sweep of board-level securities change disclosures filed on the same day — an administratively tidy but informationally dense cluster of filings.",
+        "The simultaneous nature of all four ECP Appendix 3Y filings ([7]-[10]) strongly suggests a single vesting, allotment, or reinvestment event has been applied uniformly across the board, rather than individual discretionary trades.",
+        "In isolation, this filing is immaterial; collectively, these four disclosures may modestly signal board alignment with ECP's investment strategy if holdings are increasing — investors should cross-reference with ECP's NTA performance and distribution history to contextualise insider behaviour."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APA",
+      "company": "APA GROUP",
+      "headline": "Change of Director's Interest Notice - Adam Watson",
+      "time": "2026-09-04T00:27:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131793-2A1695129",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Routine director interest change for APA Group's Adam Watson — likely reflects minor on-market acquisition or vesting of performance rights, signalling no material shift in insider conviction at this stage.",
+        "APA operates critical energy infrastructure across Australia; director transactions are closely watched for alignment signals, though this filing carries no market-sensitive flag, limiting immediate trading implications.",
+        "Investors should monitor aggregate director activity over coming months — persistent accumulation by insiders could reinforce a bullish thesis amid ongoing energy transition tailwinds for pipeline and gas infrastructure assets."
+      ],
+      "tags": [
+        "Board Change",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ECP",
+      "company": "ECP EMERGING GROWTH LIMITED",
+      "headline": "Application for quotation of securities - ECP",
+      "time": "2026-09-04T00:25:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131792-2A1695128",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ECP Emerging Growth Limited is seeking ASX quotation for newly issued securities, indicating a recent capital raise or option/rights conversion has been completed and shares are moving toward tradeable status.",
+        "The application for quotation is an administrative step but confirms capital has been received or securities have been formally allotted — important for tracking dilution impact on existing shareholders.",
+        "Once quoted, increased float liquidity may pressure the share price near-term if new holders seek to exit; investors should assess the price and terms of the underlying issue to gauge overhang risk."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "UNT",
+      "company": "UNITH LTD",
+      "headline": "Notification regarding unquoted securities - UNT",
+      "time": "2026-09-04T00:25:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131791-3A701049",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Unith Ltd's notification regarding unquoted securities suggests the company has issued securities (likely options or performance rights) that are not yet listed, typically tied to employee incentive schemes or pre-quotation capital activity.",
+        "Unquoted security notifications are largely procedural but provide transparency into the company's incentive structure and potential future dilution if and when these instruments vest or convert.",
+        "Investors should cross-reference the number and strike price of unquoted securities against current market capitalisation to assess the materiality of future dilution — critical for a small-cap technology-oriented name like UNT."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADN",
+      "company": "ANDROMEDA METALS LIMITED",
+      "headline": "Proposed issue of securities - ADN",
+      "time": "2026-09-04T00:25:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131790-2A1695127",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Andromeda Metals' proposed securities issue signals an imminent capital raise, likely to fund ongoing halloysite-kaolin project development or working capital needs — dilution is the immediate concern for existing shareholders.",
+        "For a junior miner at ADN's stage, the terms of the raise (price relative to NAV, discount to last traded price, and volume) will be decisive in determining whether this is accretive or value-destructive.",
+        "Investors should await the accompanying offer document or cleansing notice to evaluate the capital allocation strategy — deployment toward feasibility or offtake agreements would be a constructive signal for the medium-term outlook."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "UNT",
+      "company": "UNITH LTD",
+      "headline": "Application for quotation of securities - UNT",
+      "time": "2026-09-04T00:25:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131789-3A701048",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Unith Ltd's application for quotation of securities is the follow-on step to its unquoted securities notification (Announcement 3), confirming these instruments are now being brought onto the ASX trading platform.",
+        "The transition from unquoted to quoted status increases liquidity but also surfaces latent selling pressure — particularly relevant for small-cap names where new security holders may not have a long-term holding mandate.",
+        "This dual filing (unquoted notification + quotation application) on the same day suggests a structured issuance process is being executed efficiently, reducing administrative risk and supporting near-term compliance standing."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VBC",
+      "company": "VERBREC LIMITED",
+      "headline": "Application for quotation of securities - VBC",
+      "time": "2026-09-04T00:22:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131788-6A1342211",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Verbrec Limited's application for quotation of securities indicates newly issued shares or options are being admitted to trading — a standard post-capital raise or incentive grant administrative step.",
+        "VBC operates in the engineering and technical services space; understanding whether these securities relate to an equity raise (dilutive) or staff incentives (alignment signal) is key to assessing near-term price impact.",
+        "Until the terms and purpose of the underlying security issuance are confirmed, the announcement is procedurally neutral — investors should monitor for an accompanying prospectus or offer document for context."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRW",
+      "company": "FREIGHTWAYS GROUP LIMITED",
+      "headline": "Disclosure Notice - D&O Relevant Interests",
+      "time": "2026-09-04T00:21:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131787-3A701047",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Freightways Group's D&O Relevant Interests disclosure is a regulatory requirement under NZX/ASX dual-listing obligations, capturing changes in director and officer shareholdings — standard governance housekeeping with no immediate financial impact.",
+        "For a trans-Tasman logistics and information management business like FRW, D&O interest disclosures are monitored by governance-focused investors to assess insider alignment; no material shifts are implied by this routine filing.",
+        "Next steps require reading the full notice to identify whether any director has materially increased or decreased exposure — net accumulation would be a mild bullish signal, while significant disposal could raise flags."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KLV",
+      "company": "KLEVO REWARDS LIMITED",
+      "headline": "Proposed issue of securities - KLV",
+      "time": "2026-09-04T00:18:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131786-6A1342210",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Klevo Rewards Limited's proposed securities issue raises immediate dilution concerns for a micro-cap entity in the loyalty/rewards technology space — the market will scrutinise the discount and size of the raise relative to existing market cap.",
+        "Capital raises at this stage of Klevo's development likely indicate a need to fund platform growth or working capital, but without disclosed terms, the risk-reward is asymmetric and tilts cautiously negative for near-term price action.",
+        "Investors should look for the purpose of the raise and any associated strategic announcements (partnerships, revenue milestones) that could offset dilution concerns and provide a credible growth narrative."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "M2M",
+      "company": "MT MALCOLM MINES NL",
+      "headline": "Proposed issue of securities - M2M",
+      "time": "2026-09-04T00:18:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131785-6A1342209",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Mt Malcolm Mines' proposed securities issue is a typical junior gold explorer capital raise, most likely to fund drilling programs or maintain minimum working capital requirements under ASX listing rules.",
+        "For a small-cap miner like M2M, repeated equity issuances without confirmed resource upgrades or commercial discoveries are dilutive and can signal a lack of alternative funding pathways — a structural concern for long-term holders.",
+        "The key watch point is whether the raise is accompanied by a drilling update or resource estimate revision; absent a positive catalyst, the market is likely to price in dilution and apply a discount to NAV in the near term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CAY",
+      "company": "CANYON RESOURCES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-04T00:16:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131784-6A1342208",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding at Canyon Resources (CAY) indicates a shift in the ownership structure of a key register position — this could reflect partial selling, on-market accumulation, or a restructuring of an existing holder's stake.",
+        "Canyon Resources is developing the Minim Martap bauxite project in Cameroon; changes in substantial holders at project-stage miners can signal shifting conviction among sophisticated investors regarding project advancement timelines.",
+        "The directional change (increase or decrease) in the holding is the critical detail — a reduction by a substantial holder is typically bearish for sentiment, while an increase suggests continued conviction; the net impact here is treated as neutral pending full filing details."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "6KA",
+      "company": "6K ADDITIVE, INC.",
+      "headline": "Notification regarding unquoted securities - 6KA",
+      "time": "2026-09-04T00:15:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131783-3A701046",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "6K Additive's notification regarding unquoted securities is an administrative compliance filing, likely relating to options, warrants, or performance shares issued outside the standard quoted equity pool on the ASX.",
+        "As a US-based advanced materials and additive manufacturing company listed on the ASX, 6KA's unquoted security pool warrants scrutiny — the volume and terms relative to total share count could materially affect future dilution modelling.",
+        "Investors should treat this as a routine procedural disclosure unless the number of unquoted securities is disproportionately large relative to market cap, in which case a more detailed capital structure review is warranted."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APA",
+      "company": "APA GROUP",
+      "headline": "Notification of cessation of securities - APA",
+      "time": "2026-09-04T00:12:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131782-2A1695126",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "APA Group has notified the ASX of the cessation of securities, likely reflecting the lapsing or cancellation of performance rights or options following failure to meet vesting conditions or employee departures.",
+        "The administrative nature of the filing signals no new capital impact or dilution event — existing unitholders face no incremental dilution from this action.",
+        "Routine securities housekeeping for a large-cap infrastructure operator; investors should monitor aggregate unvested security schedules in the next remuneration report for any broader retention risk signals."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APA",
+      "company": "APA GROUP",
+      "headline": "Notification of cessation of securities - APA",
+      "time": "2026-09-04T00:10:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131781-2A1695125",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second, separate cessation-of-securities notice from APA Group filed on the same day suggests multiple tranches of securities — potentially from different grant years or employee cohorts — have simultaneously lapsed or been cancelled.",
+        "Dual filings in a single session can indicate a structured clean-up of the securities register, possibly tied to a performance period end-date or a round of executive departures.",
+        "No material financial consequence is expected; however, the frequency of cessation notices warrants a review of APA's long-term incentive plan design and staff retention metrics ahead of its next results announcement."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "M2M",
+      "company": "MT MALCOLM MINES NL",
+      "headline": "Drilling to Commence at Calypso",
+      "time": "2026-09-04T00:10:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131780-6A1342207",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Mt Malcolm Mines has announced the commencement of drilling at its Calypso project, marking a tangible operational catalyst for the small-cap explorer and shifting the company from planning to active newsflow phase.",
+        "The Calypso target's geological context (location within a historically mineralised belt) will be critical — investors should track assay results closely as drill intercepts typically drive outsized share-price moves for micro-cap miners.",
+        "As the announcement is classified non-market-sensitive, the company has not pre-guided material expectations; the key near-term trigger will be the first assay results release, which could rapidly re-rate sentiment in either direction."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMS",
+      "company": "ATOMOS LIMITED",
+      "headline": "Change of Director's Interest Notice - Joughin",
+      "time": "2026-09-04T00:10:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131779-3A701045",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director at Atomos Limited (AMS) has lodged a change-of-interest notice for director Joughin, indicating a movement in their direct or indirect shareholding — likely an on-market purchase, disposal, or vesting of performance securities.",
+        "Director transactions are a sentiment proxy; a purchase would signal insider confidence in the technology hardware company's recovery trajectory following its recent operational restructuring and cost-reduction program.",
+        "Given AMS's relatively small market capitalisation, even a modest director transaction can shift the perceived alignment between management and shareholders — the direction and size of the trade are the key variables to assess."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BC8",
+      "company": "BLACK CAT SYNDICATE LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-04T00:09:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131778-6A1342206",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Black Cat Syndicate (BC8) has entered a trading halt — a market-sensitive event that almost always precedes a material announcement such as a capital raise, significant acquisition, resource update, or major corporate transaction.",
+        "Trading halts at junior gold miners are frequently associated with equity raises to fund exploration or project development; given BC8's Kal East Gold Project in WA, a capital raise or M&A activity remains the most probable triggers.",
+        "The halt itself provides no directional signal until the pending announcement is released — investors should await the follow-up disclosure closely, as the nature of the announcement will determine whether the halt resolves bullishly or bearishly."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APA",
+      "company": "APA GROUP",
+      "headline": "Notification regarding unquoted securities - APA",
+      "time": "2026-09-04T00:07:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131777-2A1695124",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "APA Group has filed a notification regarding unquoted securities, most likely relating to the issuance or allocation of performance rights, options, or other incentive securities to employees or executives outside the listed market.",
+        "Unquoted securities filings are standard for large-cap remuneration structures and carry no immediate cash dilution impact; however, they expand the fully diluted security count and should be tracked cumulatively over reporting periods.",
+        "Investors in APA should benchmark the quantum of newly issued unquoted securities against prior periods in annual reports to assess whether long-term incentive plan generosity is escalating relative to earnings growth."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BKB",
+      "company": "BLACK BEAR MINERALS LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-04T00:06:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131776-6A1342205",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Black Bear Minerals has lodged a Cleansing Notice, confirming that securities recently issued — likely via a placement or rights issue — are now free-traded and compliant with ASX Listing Rule 3.10.3, removing any resale restriction for new investors.",
+        "The filing is a necessary procedural step following a capital raise, signalling that BKB has recently completed a fundraising event; the size and pricing of that placement relative to prevailing market price is the key dilution risk metric to assess.",
+        "For a small-cap minerals explorer, a Cleansing Notice post-placement typically brings near-term selling pressure as institutional placees look to trade around their entry; investors should monitor volume and price action closely in the days following."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "JAL",
+      "company": "JAMESON RESOURCES LIMITED",
+      "headline": "Proposed issue of securities - JAL",
+      "time": "2026-09-04T00:03:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131775-6A1342199",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Jameson Resources has notified the ASX of a proposed securities issuance, indicating an imminent capital raise — likely a placement, rights issue, or issue of options — which will increase the share count and potentially dilute existing holders.",
+        "The terms of the proposed issue (price, discount to last traded price, and use of proceeds) are the critical variables; for a junior resources company, proceeds directed at drilling or resource development are generally better received than general working capital.",
+        "Until full details are disclosed, the market will likely price in modest dilution risk; shareholders should watch for a follow-up prospectus or cleansing notice that will confirm the structure and size of the raise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "JAL",
+      "company": "JAMESON RESOURCES LIMITED",
+      "headline": "Institutional Entitlement Offer complete",
+      "time": "2026-09-04T00:03:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131774-6A1342204",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Jameson Resources (JAL) has successfully completed the institutional tranche of its entitlement offer — confirmation that institutional investors have participated provides credibility to the raise and reduces execution risk for the broader offer.",
+        "The successful institutional bookbuild is a moderately positive signal: it indicates the market is willing to fund the company at the offer price, suggesting institutional support for the company's strategy and asset base (Crown Mountain coking coal project, BC, Canada).",
+        "The retail entitlement offer is the critical next step — retail take-up rates and any shortfall placement will determine the final capital raised and degree of dilution; investors should assess the offer price relative to the prevailing market price to gauge attractiveness."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IPT",
+      "company": "IMPACT MINERALS LIMITED",
+      "headline": "Rights Issue Extension of Offer Period and Options",
+      "time": "2026-09-04T00:03:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131773-6A1342198",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Impact Minerals (IPT) has extended the offer period for its rights issue, a move that typically signals weaker-than-expected retail take-up — extensions are generally a cautionary flag regarding investor appetite for the current raise.",
+        "The inclusion of options as part of the offer may be a sweetener designed to incentivise participation, which is a common tactic when a raise is struggling; this adds potential future dilution but attempts to bridge the valuation gap for retail shareholders.",
+        "For existing shareholders, the extension provides additional time to assess participation, but the underlying signal — that the raise did not close on schedule — is a mild negative for near-term sentiment and reflects subdued market confidence in the company's current prospects."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IEL",
+      "company": "IDP EDUCATION LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-04T00:01:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131772-3A701044",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "IDP Education's director change-of-interest notice signals a movement in a board member's IEL securities holding, which the market will interpret as an insider sentiment signal for the international student placement and English testing company.",
+        "IDP has faced significant headwinds from Australian and Canadian visa policy tightening, making any director purchase a notably bullish signal, while a disposal in the current environment could amplify negative sentiment.",
+        "The direction, quantum, and nature (on-market vs. off-market or vesting) of the transaction are essential context; without those details, the filing alone is procedurally neutral but warrants close reading of the full notice."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NFL",
+      "company": "NORFOLK METALS LIMITED",
+      "headline": "Final Director's Interest Notice",
+      "time": "2026-09-04T00:00:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131770-6A1342192",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Norfolk Metals has lodged a Final Director's Interest Notice, which is a mandatory disclosure filed when a director ceases their position — confirming a board-level departure and their terminal securities holding at exit.",
+        "Director departures at small-cap metals explorers can signal strategic disagreements, financial stress, or simply routine transitions; the identity of the departing director and any accompanying explanation (resignation, removal, or retirement) is material context.",
+        "Investors should watch for a corresponding new director appointment notice to assess whether the company is managing an orderly succession or is experiencing governance instability at a critical stage of its exploration program."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AIX",
+      "company": "AI PRIVATE OPPORTUNITIES TRUST",
+      "headline": "AIX Portfolio Update",
+      "time": "2026-09-04T00:00:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131771-2A1695121",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AI Private Opportunities Trust (AIX) has released a portfolio update, providing transparency on the composition, valuation, or performance of its underlying private market AI-focused investments — a key disclosure for a trust with limited secondary liquidity.",
+        "Given the rapid evolution of private AI valuations globally, any mark-to-market adjustments, new portfolio additions, or write-downs in this update will directly influence NAV per unit and are the primary metrics institutional investors should scrutinise.",
+        "As a listed investment trust focused on private opportunities, AIX's portfolio updates serve as a critical NAV reference point; a positive update could narrow the discount to NAV, while disappointing portfolio news could widen it — making the content of this release highly consequential for price discovery."
+      ],
+      "tags": [
+        "Finance",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MRD",
       "company": "MOUNT RIDLEY MINES LIMITED",
