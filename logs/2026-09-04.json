@@ -1,9 +1,160 @@
 {
   "date": "2026-09-04",
-  "total": 215,
-  "market_sensitive_count": 41,
-  "generated_at": "2026-09-03T23:54:14.766510+00:00",
+  "total": 223,
+  "market_sensitive_count": 45,
+  "generated_at": "2026-09-04T00:00:45.612440+00:00",
   "announcements": [
+    {
+      "ticker": "MRD",
+      "company": "MOUNT RIDLEY MINES LIMITED",
+      "headline": "Proposed issue of securities - MRD",
+      "time": "2026-09-03T23:58:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131769-6A1342194",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is a procedural ASX Appendix 3B notification confirming the proposed issue of securities associated with the $2M placement announced simultaneously by MRD, carrying no independent informational content beyond the capital raise disclosure.",
+        "The filing is a compliance requirement under ASX Listing Rules and provides formal details on the number of shares, issue price, and class of securities to be issued — key figures investors should cross-reference against the placement announcement for dilution calculation.",
+        "No independent market impact is expected from this filing; its significance is entirely derivative of the placement announcement in [1] and confirms administrative progression of that transaction."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MRD",
+      "company": "MOUNT RIDLEY MINES LIMITED",
+      "headline": "$2 Million Placement to Advance Selectro and Grass Patch",
+      "time": "2026-09-03T23:58:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131768-6A1342191",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "MRD is raising $2M via placement to fund exploration at its Selectro and Grass Patch projects, providing near-term operational runway but signalling ongoing cash dependency on equity markets rather than self-generated revenue.",
+        "The placement size is modest relative to typical junior explorer raises, suggesting either a targeted top-up of working capital or limited institutional appetite — investors should scrutinise the placement price relative to the prevailing market price for dilution impact.",
+        "Near-term catalysts will hinge on whether the proceeds accelerate meaningful drill results at either project; without a clear discovery timeline or resource upgrade, the capital raise risks being viewed as a dilutive holding measure rather than a value-creating event."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RAC",
+      "company": "RACURA ONCOLOGY LTD",
+      "headline": "Racura Oncology Adelaide Investor Briefing",
+      "time": "2026-09-03T23:57:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131767-2A1695119",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Racura Oncology is hosting an investor briefing in Adelaide, a standard investor relations activity that signals management's intent to raise its profile with retail and smaller institutional investors in a key capital city market.",
+        "As a non-market-sensitive filing, no material new clinical, financial, or corporate information is expected to be disclosed beyond what is already public — limiting the event's ability to serve as a near-term share price catalyst.",
+        "For a clinical-stage oncology company, consistent investor engagement is important for maintaining market support ahead of capital raises; investors should watch for any concurrent disclosure of trial updates or financing plans that could elevate the briefing's significance."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FCT",
+      "company": "FIRSTWAVE CLOUD TECHNOLOGY LIMITED",
+      "headline": "FirstWave lodge AI Patent",
+      "time": "2026-09-03T23:55:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131766-2A1695117",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FirstWave Cloud Technology has lodged an AI patent, a strategically significant move that could differentiate its cybersecurity platform and create defensible intellectual property in an increasingly competitive AI-driven security market.",
+        "Patent lodgement — not yet granted — means commercial protection and monetisation remain contingent on approval timelines, which can span 2–5 years; investors should not price in full IP value at this stage.",
+        "If granted, the patent could strengthen FCT's position in licensing negotiations, M&A discussions, or government contract bids, making this a meaningful long-term optionality event rather than an immediate revenue driver."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BP8",
+      "company": "BPH GLOBAL LTD",
+      "headline": "Resignation of Non-Executive Director",
+      "time": "2026-09-03T23:55:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131765-2A1695118",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "BPH Global has disclosed the resignation of a Non-Executive Director, a board-level change that warrants scrutiny for underlying reasons — departures can sometimes signal strategic disagreements, governance concerns, or pre-cursor to corporate restructuring.",
+        "The non-market-sensitive classification suggests the departure is unlikely to be linked to undisclosed material information, but given BP8's small-cap status, any reduction in board experience or sector expertise could modestly weaken investor confidence.",
+        "Investors should assess whether a replacement director is being sought and whether the departing director held critical roles (e.g., audit committee chair or technical advisor) that may need to be backfilled to maintain governance standards."
+      ],
+      "tags": [
+        "Board Change"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "FAL",
+      "company": "FALCON METALS LTD",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-03T23:55:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131764-6A1342203",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Falcon Metals has lodged a Cleansing Notice under ASX Listing Rule 3.10.9 or s708A of the Corporations Act, a routine post-placement administrative filing that removes trading restrictions on shares issued without a prospectus.",
+        "This notice confirms a prior capital raise has been completed and that the newly issued shares can now be freely traded on-market — no new capital or corporate news is embedded in this filing.",
+        "The practical implication is potential near-term selling pressure if placement participants choose to exit at a profit, though this is highly dependent on the placement price relative to current market price and the scale of the prior raise."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BC8",
+      "company": "BLACK CAT SYNDICATE LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-09-03T23:53:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131763-6A1342202",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Black Cat Syndicate has entered a trading pause, a strong indicator that a material corporate announcement — likely a capital raise, merger, or significant asset transaction — is imminent, given the market-sensitive classification.",
+        "Trading halts of this nature typically precede announcements requiring price-sensitive information to be disclosed simultaneously to all investors, so the nature of the forthcoming news will be the critical determinant of directional impact.",
+        "Institutional investors should monitor the resumption announcement closely; if the halt is tied to an M&A event or resource upgrade at its Kal East gold project, the re-rate potential could be substantial given BC8's gold exposure in a supportive gold price environment."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CNQ",
+      "company": "CLEAN TEQ WATER LIMITED",
+      "headline": "FEED and Early Works Contract Awarded for Syerston Project",
+      "time": "2026-09-03T23:53:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131762-3A701043",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Clean TeQ Water has awarded a FEED (Front-End Engineering & Design) and Early Works contract for its Syerston Project, marking a decisive transition from development-stage planning to execution — a major de-risking milestone for the company.",
+        "FEED contract awards are a critical gating event in project financing; this announcement materially improves CNQ's ability to attract project-level debt and strategic partners, as lenders typically require completed FEED before committing capital.",
+        "The next key watch points are FEED completion timeline, total project capex estimate, and whether offtake or financing agreements follow — successful execution here could catalyse a re-rating from explorer to near-term producer status."
+      ],
+      "tags": [
+        "Other",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "FAL",
       "company": "FALCON METALS LTD",
