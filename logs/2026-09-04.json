@@ -1,9 +1,840 @@
 {
   "date": "2026-09-04",
-  "total": 357,
-  "market_sensitive_count": 52,
-  "generated_at": "2026-09-04T03:26:19.689513+00:00",
+  "total": 400,
+  "market_sensitive_count": 53,
+  "generated_at": "2026-09-04T04:26:57.986668+00:00",
   "announcements": [
+    {
+      "ticker": "BKI",
+      "company": "BKI INVESTMENT COMPANY LIMITED",
+      "headline": "BKI August 2026 NTA and Monthly Report",
+      "time": "2026-09-04T04:22:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131946-2A1695223",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "BKI Investment Company has released its August 2026 NTA (Net Tangible Assets) and monthly report, providing a transparent mark-to-market of the portfolio — a routine but analytically important disclosure for LIC investors tracking NAV premium/discount dynamics.",
+        "The key metric to assess is whether BKI is trading at a premium or discount to its reported NTA; persistent discounts in LICs can attract activist pressure or buyback activity, while premiums suggest strong retail demand for the income-focused strategy.",
+        "BKI's monthly dividend consistency and conservative equity portfolio positioning make this a low-volatility, income-oriented holding — the August NTA will reflect ASX market movements over the month and guide near-term sentiment for income-seeking investors."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LTR",
+      "company": "LIONTOWN LIMITED",
+      "headline": "Appendix 3Y - Tim Goyder",
+      "time": "2026-09-04T04:22:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131945-6A1342262",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Appendix 3Y lodged for Tim Goyder — Liontown's executive chairman and largest individual shareholder — discloses a change in his director's interest, which the market will scrutinise closely given his outsized influence on LTR's strategic direction and investor sentiment.",
+        "Goyder's shareholding movements are market-defining events for Liontown given his role as a key lithium sector figurehead; any reduction in his stake could be interpreted as a lack of near-term confidence, while increases signal ongoing conviction in the Kathleen Valley project.",
+        "With Liontown navigating a challenging lithium price environment and project ramp-up phase, director-level transactions carry elevated signalling value — investors should cross-reference the 3Y details against recent on-market trading records for directional clarity."
+      ],
+      "tags": [
+        "Mining",
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IRD",
+      "company": "IRON ROAD LIMITED",
+      "headline": "Notice of initial substantial holder",
+      "time": "2026-09-04T04:21:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131944-2A1695224",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Iron Road Limited (IRD), signalling fresh institutional or strategic interest in the company's Central Eyre Iron Project — a development that warrants monitoring for potential accumulation activity.",
+        "The 'initial' nature of the notice indicates this is a first crossing of the 5% threshold, meaning the holder has built a material position without prior disclosure obligation — suggesting conviction buying rather than a gradual drift.",
+        "Investors should watch for follow-on 13D/substantial holder amendments, as the identity and intent of the new holder could catalyse renewed market attention on IRD's long-stalled infrastructure-scale iron ore project."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BM1",
+      "company": "BALLARD MINING LIMITED",
+      "headline": "Results of Meeting",
+      "time": "2026-09-04T04:20:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131943-6A1342261",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Ballard Mining Limited (BM1) has released its Results of Meeting, confirming outcomes from its most recent shareholder vote — a routine governance milestone, but the passage or rejection of specific resolutions (e.g. capital issuance, director elections) carries operational implications.",
+        "For a small-cap mining company, key resolutions typically include approval of share issuance capacity, executive remuneration, and director re-elections — failure of any resolution would be a governance red flag signalling shareholder dissatisfaction.",
+        "Assuming standard resolutions were passed without dissent, this is an administrative confirmation with no immediate share price catalyst; however, any resolution attracting significant protest votes (>25%) against remuneration would trigger a 'first strike' under the two-strikes rule."
+      ],
+      "tags": [
+        "AGM",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SNC",
+      "company": "SANDON CAPITAL INVESTMENTS LIMITED",
+      "headline": "Dividend/Distribution - SNC",
+      "time": "2026-09-04T04:18:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131942-2A1695222",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Sandon Capital Investments Limited (SNC) has declared a dividend/distribution, providing a direct income return to shareholders — a positive signal for the LIC's income-focused investor base and an affirmation of the portfolio's cash generation capacity.",
+        "The size and franking level of the distribution are the critical variables; SNC's activist investment strategy can produce lumpy income, so a declared dividend provides clarity on the quantum available to shareholders following portfolio realisations.",
+        "For yield-focused retail and SMSF investors, a consistent dividend declaration reinforces SNC's investment case as an income vehicle; the announcement is unlikely to move the needle significantly on price but supports a stable or mildly positive near-term bias."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MMI",
+      "company": "METRO MINING LIMITED",
+      "headline": "Application for quotation of securities - MMI",
+      "time": "2026-09-04T04:17:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131941-2A1695221",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Metro Mining (MMI) has lodged an application for quotation of new securities, indicating that previously issued shares, options, or other instruments are being brought onto the official ASX register — this is a standard post-issuance administrative step.",
+        "The key question is what corporate action preceded this application — whether a capital raise, placement, rights issue, or option exercise — as that determines whether dilution has already occurred and is now being formalised for trading purposes.",
+        "For existing MMI shareholders, this filing means new securities will shortly become freely tradeable on market; if the securities relate to a recent placement at a discount, near-term selling pressure from placees should be anticipated."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NC6",
+      "company": "NANOLLOSE LIMITED",
+      "headline": "Application for quotation of securities - NC6",
+      "time": "2026-09-04T04:14:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131940-6A1342259",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Nanollose Limited (NC6) has applied for quotation of new securities, similarly indicating that new shares or instruments are being formally listed — a procedural step following an earlier capital event that now becomes relevant to float and liquidity.",
+        "NC6 operates in the sustainable materials/biotechnology space, developing microbial cellulose fibres; any capital raised and now being formalised suggests the company is funding continued R&D or commercialisation activities, which is characteristic of its pre-revenue stage.",
+        "Investors should assess the price at which the new securities were issued relative to the current market price — a significant discount would imply near-term selling pressure, while an at-market or premium issuance would indicate strong investor appetite for the NC6 story."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEG",
+      "company": "MEGADO MINERALS LTD",
+      "headline": "Half Yearly Report and Accounts - 30 June 2026",
+      "time": "2026-09-04T04:10:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131939-6A1342258",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Megado Minerals has released its half-yearly report to 30 June 2026, providing a statutory financial update for this early-stage exploration company — the critical metrics will be cash balance, burn rate, and any exploration progress updates embedded in the accounts.",
+        "For a junior minerals explorer, the half-year report's most important disclosure is the cash runway: if cash on hand divided by the quarterly burn rate suggests less than two quarters of funding, a capital raise becomes a near-term probability and a dilution risk.",
+        "Any commentary on exploration results, tenure status, or upcoming work programmes in the report narrative will provide the clearest forward-looking signal for MEG investors evaluating whether the company can advance its asset base before requiring further market support."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STG",
+      "company": "STRAKER LIMITED",
+      "headline": "Final Director's Interest Notice (GS)",
+      "time": "2026-09-04T04:09:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131938-2A1695220",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Final Director's Interest Notice for Straker Limited (STG) signals a director departure, with the 'final' designation indicating the individual has ceased to be a director or officer of the company.",
+        "The filing is administrative in nature and carries no market-sensitive content, suggesting no material change in shareholding structure or governance that would immediately impact valuation.",
+        "Investors should monitor for any subsequent board composition announcements or strategic shifts that may follow a director exit in this AI-driven translation technology company."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEG",
+      "company": "MEGADO MINERALS LTD",
+      "headline": "Notice of General Meeting/Proxy Form",
+      "time": "2026-09-04T04:09:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131937-6A1342257",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Megado Minerals (MEG) has called a General Meeting, likely to seek shareholder approval for resolutions that could include capital structure changes, director elections, or strategic transactions — details of which will be outlined in the accompanying proxy form.",
+        "As a minerals explorer, any resolution relating to share issuance or asset acquisition could have material implications for the company's dilution profile and near-term cash runway.",
+        "Institutional investors should scrutinise the proxy form agenda items closely; approval of dilutive resolutions at small-cap miners often precedes capital raises or farm-out agreements."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAO",
+      "company": "KAOKO METALS LIMITED",
+      "headline": "ADU Conference & Investor Presentation",
+      "time": "2026-09-04T04:05:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131936-6A1342254",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Kaoko Metals (KAO) is presenting at the ADU (African Down Under) Conference, a targeted investor event for African-focused resource companies, signalling active management engagement with the institutional and retail investment community.",
+        "Investor presentations at sector-specific conferences can serve as a catalyst for renewed interest and liquidity in thinly traded small-cap explorers, though the announcement itself carries no new fundamental data.",
+        "The key watchpoint is whether the presentation contains updated resource estimates, drilling results, or partnership/offtake discussions that could re-rate the stock — investors should access the presentation document directly for material updates."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EPX",
+      "company": "EPX LIMITED",
+      "headline": "Change of Director's Interest Notice - J Balassis",
+      "time": "2026-09-04T04:05:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131935-2A1695219",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "EPX Limited has filed a Change of Director's Interest Notice for J. Balassis, indicating a movement in the director's direct or indirect shareholding — which may reflect an on-market purchase, sale, or vesting of securities.",
+        "The direction of the transaction (buy vs. sell) is the critical signal; insider buying at small-cap companies like EPX can indicate director confidence, while selling may raise governance or sentiment concerns.",
+        "Without confirmation of the transaction type and size, the filing is procedural; however, any significant reduction in director holdings should be flagged as a potential bearish signal for this thinly traded entity."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NGS",
+      "company": "NUTRITIONAL GROWTH SOLUTIONS LTD",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-04T04:01:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131934-6A1342256",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Nutritional Growth Solutions (NGS) has lodged a Cleansing Notice under ASX Listing Rule 3.10.3 or s708A of the Corporations Act, confirming the company is not in possession of undisclosed material information — a prerequisite step following a capital raise to allow free trading of newly issued shares.",
+        "The cleansing notice confirms a recent placement or rights issue has occurred; investors should cross-reference recent capital raise announcements to assess the degree of dilution and the use-of-funds disclosure.",
+        "For a healthcare/nutrition-focused small-cap, the ability to successfully complete a capital raise is modestly positive for near-term cash runway, though the dilutive effect on existing shareholders warrants monitoring of the implied issue price versus current market price."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RRE",
+      "company": "RIGHT RESOURCES LIMITED",
+      "headline": "Results of Meeting",
+      "time": "2026-09-04T04:00:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131933-6A1342255",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Right Resources Limited (RRE) has released Results of Meeting, confirming the outcome of shareholder votes on resolutions tabled at a recent general or annual meeting — the passage or failure of key resolutions directly impacts corporate strategy and governance.",
+        "If material resolutions such as share issuances, director appointments, or strategic transactions were approved, this confirms management has the mandate to proceed, which could unlock near-term corporate activity.",
+        "Investors should review the specific resolution outcomes; failure to pass key resolutions (e.g., a capital raise authority) at a small resources company could constrain operational flexibility and near-term exploration activity."
+      ],
+      "tags": [
+        "AGM",
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WWI",
+      "company": "WEST WITS MINING LIMITED",
+      "headline": "Change of Director's Interest Notice - Jac van Heerden",
+      "time": "2026-09-04T03:59:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131932-3A701066",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "West Wits Mining (WWI) has filed a Change of Director's Interest Notice for Jac van Heerden, reflecting a change in the director's securities holding — the nature of the transaction (acquisition, disposal, or vesting) is the key determinant of sentiment.",
+        "West Wits is advancing its Johannesburg gold project in South Africa; director share movements at this stage of development are closely watched as a proxy for insider conviction on project progress and upcoming catalysts.",
+        "Given the concurrent filing of a Final Director's Interest Notice for Keith Middleton (announcement [9]), the company appears to be experiencing board-level changes simultaneously, which warrants monitoring for potential governance or strategic implications."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GWA",
+      "company": "GWA GROUP LIMITED.",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-04T03:57:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131931-2A1695218",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "GWA Group (GWA), a leading Australian building products manufacturer, has filed a routine Change of Director's Interest Notice, indicating a movement in a director's shareholding — likely reflecting on-market activity, dividend reinvestment, or vesting of performance rights.",
+        "Director share transactions at GWA are worth monitoring given the company's exposure to the cyclical Australian residential construction and renovation market, where sentiment is sensitive to interest rate movements and housing activity data.",
+        "The filing is procedural and non-market-sensitive; however, a pattern of insider buying across multiple directors would be a constructive signal for GWA's near-term earnings outlook in a sector under macro pressure."
+      ],
+      "tags": [
+        "Board Change",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WWI",
+      "company": "WEST WITS MINING LIMITED",
+      "headline": "Final Director's Interest Notice - Keith Middleton",
+      "time": "2026-09-04T03:56:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131930-3A701065",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "West Wits Mining (WWI) has lodged a Final Director's Interest Notice for Keith Middleton, confirming his departure from the board — the 'final' notice signals cessation of directorship obligations and any associated security disclosures.",
+        "A director exit at a development-stage gold miner like West Wits can reflect routine board refreshment or, in some cases, differing views on project strategy; the timing alongside a change notice for another director (announcement [7]) amplifies the significance.",
+        "Investors should watch for a replacement director announcement and assess whether the departing director has disposed of or retained their shareholding, as retention suggests continued confidence in the company's Witwatersrand Basin gold project."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "360",
+      "company": "LIFE360 INC.",
+      "headline": "Statement of CDIs on issue - 360",
+      "time": "2026-09-04T03:56:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131929-2A1695217",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Life360 (ASX: 360) has filed its monthly Statement of CDIs (CHESS Depositary Interests) on issue, a routine compliance disclosure confirming the total number of CDIs outstanding and any changes from the prior period — required under ASX Listing Rules.",
+        "Any increase in CDIs on issue could indicate new equity issuance, employee share plan activity, or conversion of other instruments, which may have dilutive implications for existing ASX-listed holders of this US-based family safety technology platform.",
+        "Life360 is a high-growth technology company with dual listing (ASX/NASDAQ); CDI statement movements are typically procedural, but sustained increases in CDIs relative to underlying US shares can signal ongoing capital market activity worth tracking in the context of the company's path to profitability."
+      ],
+      "tags": [
+        "Technology",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NSB",
+      "company": "NEUROSCIENTIFIC BIOPHARMACEUTICALS LTD",
+      "headline": "Resignation and Appointment of Auditor",
+      "time": "2026-09-04T03:55:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131928-6A1342253",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Auditor transition at NSB is a routine administrative change, but auditor resignations at small-cap biotech firms warrant monitoring as they can occasionally precede financial reporting complications or governance concerns.",
+        "As a pre-revenue biopharmaceutical company, NSB's financial oversight quality is critical given ongoing R&D spend and reliance on external funding; continuity of audit quality must be confirmed with the incoming firm.",
+        "Investors should verify the incoming auditor's credentials and whether the transition aligns with any broader strategic or financial restructuring — no immediate material impact expected absent further disclosure."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAS",
+      "company": "AIRLIE AUSTRALIAN SHARE FUND - ACTIVE ETF",
+      "headline": "AASF Fund Update - August 2026",
+      "time": "2026-09-04T03:55:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131927-2A1695215",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The August 2026 fund update from Airlie Australian Share Fund (AAS) provides a monthly performance and positioning snapshot, offering institutional investors visibility into active manager conviction and portfolio shifts within the Australian equity universe.",
+        "Airlie is known for a concentrated, high-conviction value approach; any changes in sector weightings or top holdings disclosed in this update could signal meaningful shifts in manager outlook on domestic cyclicals, financials, or resources.",
+        "As an Active ETF, AAS competes on net returns versus passive alternatives — investors should assess August NAV performance relative to the ASX 300 benchmark to evaluate whether the active premium is being justified in the current market environment."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUA",
+      "company": "AUDEARA LIMITED",
+      "headline": "Change in substantial holding - Fortune Pioneer",
+      "time": "2026-09-04T03:55:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131926-2A1695216",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Fortune Pioneer has changed its substantial holding in Audeara Limited (AUA), indicating a shift in one of the company's key cornerstone investors — a development that can signal either strategic repositioning or early-stage exit pressure.",
+        "A change (as opposed to an initial notice) suggests Fortune Pioneer has either increased or decreased its stake, and given AUA's small-cap, illiquid profile, even modest volume shifts from a substantial holder can have outsized price impact.",
+        "Investors should assess the direction of the change — a reduction would be a negative signal for a micro-cap healthcare technology company reliant on investor confidence, while an increase would reinforce support for the growth thesis."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DIV",
+      "company": "AUSBIL ACTIVE DIVIDEND INCOME FUND - ACTIVE ETF",
+      "headline": "Final distribution - August 2026",
+      "time": "2026-09-04T03:52:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131925-2A1695210",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ausbil Active Dividend Income Fund (DIV) has declared its final distribution for August 2026, confirming income delivery to unitholders and underscoring the fund's mandate to generate sustainable, franked dividend income.",
+        "The quantum of the distribution relative to prior months is the key metric — a stable or rising per-unit distribution would reinforce the fund's income credentials in a yield-seeking environment, while any reduction could signal pressure on underlying portfolio dividend flows.",
+        "Investors in DIV should note the ex-distribution date and reinvestment implications, as distribution timing can create short-term NAV adjustments that may present tactical entry or exit opportunities."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GSU",
+      "company": "CANDRIAM SUSTAINABLE GBL EQUITY FUND - ACTIVE ETF",
+      "headline": "Units issued, redeemed & derivative exposure - August 2026",
+      "time": "2026-09-04T03:50:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131924-2A1695214",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The monthly units issued/redeemed and derivative exposure disclosure for Candriam Sustainable Global Equity Fund (GSU) provides transparency on fund flows and hedging activity, which are key indicators of investor appetite for sustainable global equity strategies.",
+        "Net redemptions, if present, would signal outflows from the ESG global equity space — a concern amid ongoing scrutiny of sustainable fund performance versus traditional benchmarks; net issuances would indicate continued institutional or retail conviction.",
+        "Derivative exposure data is critical for risk assessment — significant currency or index hedging activity may reflect manager caution around global macro volatility, particularly USD/AUD movements impacting unhedged global equity returns."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GSC",
+      "company": "AUSBIL GLOBAL SMALLCAP FUND - ACTIVE ETF",
+      "headline": "Units issued, redeemed & derivative exposure - August 2026",
+      "time": "2026-09-04T03:50:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131923-2A1695213",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ausbil Global Smallcap Fund (GSC) monthly unit and derivative disclosure reveals investor flows into a higher-risk, higher-potential-return asset class — global small caps — which have faced headwinds from elevated global interest rates and USD strength.",
+        "Net unit movements will indicate whether institutional appetite for global small-cap exposure is recovering or contracting; this asset class is typically a leading sentiment indicator for risk-on positioning in global equity markets.",
+        "Derivative exposure disclosures are particularly relevant for GSC given small-cap currency sensitivity — any increase in hedging activity may reflect manager concern about AUD/USD tailwinds being eroded, directly impacting fund NAV outcomes."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GHI",
+      "company": "AUSBIL GBL ESSENTIAL INFRA FUND (HDG) - ACTIVE ETF",
+      "headline": "Units issued, redeemed & derivative exposure - August 2026",
+      "time": "2026-09-04T03:49:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131922-2A1695212",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ausbil Global Essential Infrastructure Fund Hedged (GHI) monthly disclosure provides insight into flows into defensive, real-asset-linked global infrastructure — a sector benefiting from long-duration, inflation-linked revenue streams in the current macro environment.",
+        "The hedged share class designation (HDG) is notable — investors are explicitly seeking to isolate infrastructure asset returns from currency noise, suggesting a sophisticated institutional investor base focused on pure-play infrastructure exposure.",
+        "Net unit issuance trends in GHI will reflect broader institutional demand for infrastructure as a portfolio stabiliser; sustained inflows would be consistent with ongoing rotation from growth equities into defensive real assets amid rate uncertainty."
+      ],
+      "tags": [
+        "Finance",
+        "Energy",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASU",
+      "company": "AUSBIL ACTIVE SUSTAINABLE EQUITY FUND - ACTIVE ETF",
+      "headline": "Units issued, redeemed & derivative exposure - August 2026",
+      "time": "2026-09-04T03:49:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131921-2A1695211",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ausbil Active Sustainable Equity Fund (ASU) monthly units and derivative disclosure tracks investor flows into domestic ESG-screened equities — a segment facing performance scrutiny as value and resources stocks have outperformed sustainability-tilted portfolios in recent cycles.",
+        "Net redemption trends, if evident, would be a meaningful signal of ESG fatigue among Australian retail and institutional investors, particularly as conventional energy and mining stocks continue to generate strong earnings.",
+        "Derivative exposure within a sustainable equity mandate is relatively constrained by ESG screens — any significant hedging activity disclosed would be noteworthy and could indicate elevated manager caution on near-term Australian equity market direction."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DIV",
+      "company": "AUSBIL ACTIVE DIVIDEND INCOME FUND - ACTIVE ETF",
+      "headline": "Units issued, redeemed & derivative exposure - August 2026",
+      "time": "2026-09-04T03:48:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131920-2A1695209",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second announcement from Ausbil Active Dividend Income Fund (DIV) in the same period — covering units issued/redeemed and derivative exposure — provides complementary flow data to the separately declared August distribution, offering a complete picture of fund activity.",
+        "Cross-referencing unit flows with the distribution declaration is analytically useful: strong net issuances alongside a final distribution would indicate investor confidence in the fund's income generation capability and distribution sustainability.",
+        "Derivative exposure data here will indicate the extent of income enhancement strategies (e.g. covered call overlays) employed by the manager — a common technique in dividend income funds that can cap upside but stabilise yield, relevant for risk-adjusted return assessment."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DSK",
+      "company": "DUSK GROUP LIMITED",
+      "headline": "Date of 2026 AGM and Director Nomination Closing Date",
+      "time": "2026-09-04T03:48:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131919-2A1695207",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Dusk Group (DSK) has confirmed its 2026 AGM date and the closing date for director nominations, providing shareholders with the formal governance timeline — a standard but important milestone for a specialty retail company navigating a challenging consumer discretionary environment.",
+        "The director nomination closing date is a key watch point: any new board nominations from external shareholders could signal activist interest or strategic dissatisfaction with current management direction, particularly relevant given pressures on discretionary retail spending.",
+        "With DSK operating in the fragrance and home lifestyle retail segment — highly sensitive to consumer confidence and foot traffic — the AGM agenda and any accompanying strategy commentary will be closely watched for signs of operational pivots or capital management initiatives."
+      ],
+      "tags": [
+        "AGM",
+        "Retail",
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LNY",
+      "company": "LANYON INVESTMENT FUND ACTIVE ETF",
+      "headline": "Monthly Units on Issue - August 2026",
+      "time": "2026-09-04T03:47:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131918-2A1695208",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Lanyon Investment Fund (LNY) monthly units on issue disclosure for August 2026 provides a directional read on investor flows into this active ETF, which follows a deep-value, concentrated Australian equity approach with a long-term investment horizon.",
+        "As a boutique active manager, Lanyon's unit count changes are a meaningful indicator of institutional and self-directed investor conviction in high-conviction value investing — net growth in units would signal continued appetite despite potential short-term underperformance in momentum-driven markets.",
+        "LNY's concentrated portfolio construction means unit flow changes can have an outsized impact on manager capacity and position sizing — sustained inflows require careful monitoring to ensure the manager's edge is not diluted by scale constraints in less liquid small-to-mid cap holdings."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "B1S",
+      "company": "BELL GLOBAL EMERGING COMPANIES CLASS A ACTIVE ETF",
+      "headline": "Outstanding Units and Monthly Redemptions",
+      "time": "2026-09-04T03:47:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131917-2A1695205",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine monthly disclosure of outstanding units and redemption activity for B1S provides transparency on fund flows, a key metric for ETF liquidity assessment.",
+        "Redemption volumes signal investor appetite for emerging companies exposure; elevated redemptions could indicate institutional rotation away from the asset class.",
+        "No material market-moving information present, but persistent redemption trends over coming months would warrant closer monitoring of AUM trajectory and fee revenue sustainability."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AHL",
+      "company": "ADRAD HOLDINGS LIMITED",
+      "headline": "Change of Director's Interest Notice - GW",
+      "time": "2026-09-04T03:46:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131916-2A1695206",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director interest change at AdRad Holdings (AHL) signals a modification in insider ownership, which warrants scrutiny for directional conviction — whether an acquisition or disposal carries different sentiment implications.",
+        "Without confirmed transaction details, the scale and direction of the change (buy vs. sell) is the critical variable; insider selling at small-cap industrials can disproportionately pressure share price given thin liquidity.",
+        "Investors should cross-reference this filing with AHL's recent operational updates to determine whether the director's move aligns with or contradicts the company's near-term earnings outlook."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BRN",
+      "company": "BRAINCHIP HOLDINGS LTD",
+      "headline": "Notification regarding unquoted securities - BRN",
+      "time": "2026-09-04T03:44:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131915-2A1695204",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "BrainChip's notification regarding unquoted securities likely relates to options, performance rights, or employee incentive plan instruments — a routine but structurally important disclosure for tracking potential future dilution.",
+        "For a pre-revenue technology company like BRN, the quantum of unquoted securities relative to shares on issue is a key dilution risk metric that institutional investors must factor into fully-diluted valuation models.",
+        "No immediate price catalyst, but accumulation of unquoted securities over time builds latent dilution pressure that could weigh on the share price upon vesting or conversion events."
+      ],
+      "tags": [
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BHM",
+      "company": "BROKEN HILL MINES LIMITED",
+      "headline": "Application for quotation of securities - BHM",
+      "time": "2026-09-04T03:44:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131914-6A1342252",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Broken Hill Mines Limited (BHM) is seeking ASX quotation for new securities, indicating a recent capital raise or securities issuance has been completed and shares are now entering the tradeable float.",
+        "The addition of newly quoted securities increases the liquid float, which can create short-term supply-side pressure on the share price as new holders establish positions or early investors seek exits.",
+        "The timing and purpose of the underlying issuance (e.g. exploration funding, working capital) will determine whether this represents a constructive capital deployment signal or a dilutive overhang for existing shareholders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "Application for quotation of securities - FRS",
+      "time": "2026-09-04T03:37:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131913-6A1342251",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Forrestania Resources (FRS) is applying for quotation of new securities, suggesting a recently completed capital raise is moving toward settlement and tradeable status on the ASX.",
+        "New securities entering the float represent a potential near-term dilution event; the market's absorption capacity will depend on the size of the issuance relative to existing average daily trading volume.",
+        "For an exploration-stage resources company, successful capital raises are operationally necessary but the use-of-funds rationale will be the key determinant of whether this is viewed constructively by the market."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RGO",
+      "company": "RUSSELL SUST GLOBAL OPPORTUNITIES COMPLEX ETF",
+      "headline": "MONTHLY UNITS ON ISSUE - Aug 2026",
+      "time": "2026-09-04T03:35:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131912-2A1695201",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The monthly units-on-issue disclosure for RGO (Russell Sustainable Global Opportunities ETF) for August 2026 provides a snapshot of fund size, a key indicator of investor demand for ESG-tilted global equity exposure.",
+        "Growth or contraction in units on issue reflects net creation/redemption activity, which signals institutional appetite for sustainable investing mandates and the ETF's competitive positioning within the complex ETF space.",
+        "This is a procedural compliance filing with no immediate price impact, but a sustained trend of unit growth would be a positive signal for the fund manager's fee revenue and product viability."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Daily Net Tangible Asset Statement",
+      "time": "2026-09-04T03:35:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131911-2A1695202",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Perpetual Credit Income Trust's (PCI) daily NTA statement provides real-time transparency on the trust's net asset value, a critical reference point for investors assessing the premium or discount to market price.",
+        "Any widening discount to NTA is a key risk signal for closed-end credit trust investors, particularly in a volatile credit environment where underlying asset marks may lag market movements.",
+        "Consistent NTA reporting is a governance positive, but the substantive insight lies in the directional movement of NTA over time — investors should track daily NTA trends against broader credit spread dynamics."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "Application for quotation of securities - FRS",
+      "time": "2026-09-04T03:35:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131910-6A1342250",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second application for quotation of securities filing by Forrestania Resources (FRS) on the same date suggests either a separate tranche of securities or a corrective/supplementary filing to the earlier submission.",
+        "Dual filings for the same company on the same day may indicate a multi-tranche capital raise structure (e.g. placement plus rights issue), which could imply a larger total capital raise than initially apparent from a single filing.",
+        "Investors should reconcile both FRS filings to determine the aggregate securities being listed, as the combined dilution impact may be materially larger than either filing suggests in isolation."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SBS",
+      "company": "STATE STREET BLACKSTONE SENIOR LN HDG ACTIVE ETF",
+      "headline": "Estimated Distribution Announcement - Correction to pay date",
+      "time": "2026-09-04T03:34:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131909-2A1695200",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "State Street Blackstone Senior Loan Hedged Active ETF (SBS) is correcting the pay date on a previously announced estimated distribution — administrative in nature but highlights operational process discipline within the fund management team.",
+        "For income-focused investors in the senior loan space, accurate distribution timing matters for cash flow planning; a pay date correction, while minor, should prompt a review of the revised schedule to avoid settlement mismatches.",
+        "The distribution itself signals continued income generation from the underlying senior loan portfolio, which remains a constructive signal for credit quality and coupon collection in the current rate environment."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RGO",
+      "company": "RUSSELL SUST GLOBAL OPPORTUNITIES COMPLEX ETF",
+      "headline": "MONTHLY DERIVATIVES DISCLOSURE - Aug 2026",
+      "time": "2026-09-04T03:33:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131908-2A1695199",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The monthly derivatives disclosure for RGO fulfils ASX complex ETF obligations, providing transparency on the fund's use of derivatives — a critical risk management and return-attribution tool for sophisticated investors.",
+        "Derivatives usage in a sustainable global equities ETF context likely relates to currency hedging or index replication efficiency; the nature and notional scale of positions disclosed will indicate the fund's risk profile relative to its benchmark.",
+        "This is a routine compliance filing with no direct price impact, but meaningful changes in derivatives positioning month-over-month could signal tactical shifts in portfolio construction or hedging strategy by the fund manager."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BUB",
+      "company": "BUBS AUSTRALIA LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-04T03:30:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131907-6A1342249",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Bubs Australia (BUB) has entered a trading halt, flagged as market sensitive — this is the highest-priority signal in today's announcements, as trading halts of this nature typically precede a capital raise, material transaction, or significant regulatory or commercial update.",
+        "BUB has a history of transformative announcements including its high-profile US infant formula emergency supply deal; a recurrence of major partnership or distribution news, or conversely a dilutive capital raise, would be the two most likely catalysts here.",
+        "Until the halt is lifted and the underlying announcement is made, the risk is binary — institutional investors should be prepared for a wide range of outcomes including potential dilution, and monitor pre-open communications closely upon resumption of trading."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CQT",
+      "company": "CONNEQT HEALTH LIMITED",
+      "headline": "Extraordinary General Meeting Withdrawal of Resolutions",
+      "time": "2026-09-04T03:30:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131906-2A1695198",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CQT has withdrawn resolutions slated for its Extraordinary General Meeting, signalling a potential strategic pivot, internal disagreement, or lapse in shareholder support before the vote was held — the underlying cause warrants close monitoring.",
+        "Withdrawal of EGM resolutions prior to the meeting removes near-term corporate action catalysts (which could have included capital raises, board changes, or M&A approvals), leaving the company's strategic agenda in an uncertain holding pattern.",
+        "Investors should watch for a follow-up announcement clarifying why resolutions were pulled and whether revised resolutions will be re-tabled; absence of explanation may reflect governance risk or boardroom friction at this small-cap healthcare name."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WRK",
+      "company": "WRKR LTD",
+      "headline": "Application for quotation of securities - WRK",
+      "time": "2026-09-04T03:29:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131905-2A1695194",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WRK has lodged an application for quotation of new securities on the ASX, indicating a recent capital raise, option exercise, or share-based payment has been completed and new shares are being brought to market.",
+        "The quotation application introduces incremental dilution to existing shareholders; the materiality of impact depends on the volume and price of securities being quoted relative to WRK's existing share count — details not yet disclosed in the headline.",
+        "For a technology-sector micro-cap like WRKR, successful quotation and absorption of new securities will be a near-term liquidity test; investors should cross-reference the associated Appendix 2A filing to assess dilution quantum and any escrow conditions."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAS",
+      "company": "AIRLIE AUSTRALIAN SHARE FUND - ACTIVE ETF",
+      "headline": "Change of Address",
+      "time": "2026-09-04T03:27:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131904-2A1695193",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "The Airlie Australian Share Fund (AAS) has filed a change of address notice — a purely administrative update with no implications for the fund's investment mandate, portfolio holdings, or unit pricing.",
+        "As an Active ETF listed on the ASX, AAS's operational continuity and NAV are entirely unaffected by a registered address change; this carries zero financial or strategic consequence for unitholders.",
+        "No follow-up action is required by investors; the notice fulfils ASX continuous disclosure obligations under Listing Rule requirements and reflects standard corporate housekeeping rather than any directional development."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "LPH",
       "company": "LOFTUS PEAK GLOBAL DISRUPTION HEDGED ACTIVE ETF",
