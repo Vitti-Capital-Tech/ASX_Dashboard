@@ -1,9 +1,480 @@
 {
   "date": "2026-09-04",
-  "total": 333,
-  "market_sensitive_count": 49,
-  "generated_at": "2026-09-04T02:31:36.799672+00:00",
+  "total": 357,
+  "market_sensitive_count": 52,
+  "generated_at": "2026-09-04T03:26:19.689513+00:00",
   "announcements": [
+    {
+      "ticker": "LPH",
+      "company": "LOFTUS PEAK GLOBAL DISRUPTION HEDGED ACTIVE ETF",
+      "headline": "Units on Issue & Monthly Unit Movements - August 2026",
+      "time": "2026-09-04T03:21:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131903-2A1695192",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Loftus Peak Global Disruption Hedged Active ETF (LPH) reports its August 2026 units on issue and monthly unit movements — a routine administrative disclosure reflecting net inflows or outflows for the period.",
+        "Changes in units on issue serve as a proxy for investor demand; net unit creation signals positive fund flows into the hedged disruption strategy, while redemptions could indicate rotating sentiment away from currency-hedged global tech exposure.",
+        "This is a non-market-sensitive, compliance-driven filing with no direct valuation impact; however, sustained unit growth would reflect improving institutional or retail appetite for hedged global disruption exposure on the ASX."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LPG",
+      "company": "LOFTUS PEAK GLOBAL DISRUPTION ACTIVE ETF",
+      "headline": "Units on Issue & Monthly Unit Movements - August 2026",
+      "time": "2026-09-04T03:20:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131902-2A1695191",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Loftus Peak Global Disruption Active ETF (LPG) discloses its August 2026 units on issue — a standard monthly regulatory filing tracking net unit creation and redemption activity for the unhedged variant of the strategy.",
+        "Comparing LPG and LPH unit flow trends provides insight into investor currency hedging preferences; divergence between the two funds can signal shifting views on AUD/USD direction among ETF investors.",
+        "No material market impact is expected from this administrative disclosure; it remains a routine compliance requirement under ASX ETF operating rules with no immediate implications for fund performance or NAV."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BHM",
+      "company": "BROKEN HILL MINES LIMITED",
+      "headline": "Application for quotation of securities - BHM",
+      "time": "2026-09-04T03:09:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131901-6A1342248",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Broken Hill Mines (BHM) has lodged an application for quotation of securities, indicating new shares or options are being admitted to trading — typically following a capital raise, option exercise, or employee incentive plan issuance.",
+        "The nature and volume of securities being quoted will determine dilution impact; if linked to a recently completed capital raise, this formalises the on-market tradability of those shares and may create short-term selling pressure from placement participants.",
+        "As a non-market-sensitive administrative filing, the immediate price impact is expected to be modest, but investors should cross-reference with recent capital raise announcements to assess the full dilution context."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LLM",
+      "company": "LOYAL METALS LTD",
+      "headline": "IMPLEMENTATION OF SCHEME OF ARRANGEMENT",
+      "time": "2026-09-04T03:09:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131900-6A1342243",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Scheme of Arrangement implementation signals the completion of a corporate transaction for Loyal Metals (LLM), meaning shareholders will receive consideration under the agreed terms — a definitive liquidity event for existing holders.",
+        "Market-sensitive classification indicates material price impact is expected; scheme implementation typically results in suspension of trading and delisting once consideration is dispatched, removing LLM from active ASX trading.",
+        "Investors should monitor the scheme record date and consideration dispatch timeline closely — any residual scrip or cash entitlements will crystallise imminently, with no further upside optionality post-implementation."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "1MC",
+      "company": "MORELLA CORPORATION LIMITED",
+      "headline": "Application for quotation of securities - 1MC",
+      "time": "2026-09-04T03:06:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131899-6A1342247",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Morella Corporation (1MC) has applied for quotation of new securities on the ASX, a procedural step that follows a capital raise, option conversion, or performance rights vesting — bringing additional shares into the tradeable float.",
+        "For a small-cap lithium-focused company like 1MC, new securities quotation post-raise is common; the key investor consideration is the price at which new securities were issued relative to the current market price, which drives near-term overhang risk.",
+        "This is a routine compliance filing with no standalone market-moving content; sentiment will be driven by the associated capital raise terms rather than the quotation application itself."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BUB",
+      "company": "BUBS AUSTRALIA LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-09-04T02:54:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131898-6A1342246",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A trading pause (distinct from a formal trading halt) for Bubs Australia (BUB) suggests the company has requested a brief suspension pending a material announcement, likely tied to a strategic, financial, or regulatory development.",
+        "Given BUB's history of capital management activity and strategic partnerships (including its U.S. infant formula push), the pause may signal a capital raise, M&A activity, or a significant commercial update — all of which carry binary price risk.",
+        "Investors should exercise caution until the resumption announcement is made; the market-sensitive flag elevates the probability of a price-moving disclosure, and positioning ahead of resumption carries elevated uncertainty."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "C79",
+      "company": "CHRYSOS CORPORATION LIMITED",
+      "headline": "Appendix 3Y - Rob Adamson",
+      "time": "2026-09-04T02:53:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131897-2A1695189",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Appendix 3Y for Chrysos Corporation (C79) discloses a change in the interests of director Rob Adamson — a statutory notification required when a director's security holdings change through on-market transactions, off-market transfers, or vesting events.",
+        "The direction of the change (acquisition vs. disposal) is the key signal; director buying is typically interpreted as a positive sentiment indicator, while selling can raise questions about insider confidence, though planned divestments for personal financial management are common.",
+        "As a non-market-sensitive filing, this has minimal near-term price impact; however, institutional investors tracking director activity at C79 — a high-growth gold assay technology company — will note this as part of ongoing insider sentiment monitoring."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NGS",
+      "company": "NUTRITIONAL GROWTH SOLUTIONS LTD",
+      "headline": "Application for quotation of securities - NGS",
+      "time": "2026-09-04T02:51:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131896-6A1342245",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Nutritional Growth Solutions (NGS) has applied for quotation of securities, indicating new shares are being admitted to trading following a capital raise or securities issuance — a standard post-raise administrative step.",
+        "For a small-cap health nutrition company like NGS, the timing and scale of the securities quotation relative to recent fundraising activity will determine the extent of potential dilution and float expansion.",
+        "This non-market-sensitive filing carries no direct valuation trigger; investors should review the associated prospectus or placement documentation to assess use of proceeds and the strategic rationale underpinning the capital activity."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NRX",
+      "company": "NORONEX LIMITED",
+      "headline": "Results of Meeting",
+      "time": "2026-09-04T02:51:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131895-6A1342244",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Noronex Limited (NRX) has released its Results of Meeting, confirming the outcome of resolutions voted upon at a recent shareholder meeting — typically covering board elections, remuneration reports, and approval of capital or strategic initiatives.",
+        "The passage or failure of key resolutions (particularly any relating to capital raises, share issuances, or strategic transactions) will be the critical data point; a strike on the remuneration report or rejection of a key resolution would carry negative governance implications.",
+        "As a non-market-sensitive filing, no material price movement is anticipated; however, investors should review the proxy voting breakdown for any signs of shareholder dissent that may signal governance concerns at the board level."
+      ],
+      "tags": [
+        "AGM",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "C79",
+      "company": "CHRYSOS CORPORATION LIMITED",
+      "headline": "Application for quotation of securities - C79",
+      "time": "2026-09-04T02:50:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131894-2A1695188",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "C79 is applying to quote new securities on the ASX, indicating recent equity issuance activity — likely tied to options exercised, performance rights vested, or a capital raise tranche now eligible for trading.",
+        "The quotation application is administrative but signals an increase in the tradeable float, which can introduce modest near-term selling pressure if the newly quoted securities are held by employees or early-stage investors.",
+        "Investors should cross-reference with any concurrent cessation notice (Announcement #2) to assess the net change in listed securities and determine whether dilution is material relative to existing share count."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HIO",
+      "company": "HAWSONS IRON LTD",
+      "headline": "Revised - Elutriation Testwork Results",
+      "time": "2026-09-04T02:49:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131893-2A1695186",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Revised elutriation testwork results for Hawsons Iron (HIO) suggest prior data required correction or supplementation — the nature of the revision (upgrade vs. downgrade to concentrate quality or yield) is critical to assessing project economics for this high-grade magnetite development.",
+        "Elutriation testwork is pivotal for Hawsons' premium iron ore concentrate proposition; any improvement in concentrate grade (targeting ~70% Fe) or reduction in silica/alumina contaminants would materially strengthen offtake negotiations and project bankability.",
+        "The market-sensitive flag on a 'Revised' result warrants scrutiny — if the revision corrects previously overstated metrics, it could disappoint; if it confirms or improves upon prior figures, it re-rates the project's feasibility and near-term development pathway."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "C79",
+      "company": "CHRYSOS CORPORATION LIMITED",
+      "headline": "Notification of cessation of securities - C79",
+      "time": "2026-09-04T02:48:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131892-2A1695187",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "C79 has notified the ASX of the cessation of securities — typically signalling the expiry of unexercised options, lapse of performance rights, or cancellation of a specific security class, reducing the potential dilutive overhang.",
+        "Cessation of securities is generally a technical positive as it removes contingent dilution from the capital structure, narrowing the gap between basic and fully diluted share counts.",
+        "When read alongside the simultaneous quotation application (#1), the net effect on capital structure should be assessed carefully — if cessations exceed new issuances, this is a mild positive for existing shareholders."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NGS",
+      "company": "NUTRITIONAL GROWTH SOLUTIONS LTD",
+      "headline": "Notification regarding unquoted securities - NGS",
+      "time": "2026-09-04T02:48:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131891-6A1342242",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "NGS has lodged a notification regarding unquoted securities, most likely relating to options or performance rights issued to staff or directors that have not yet been listed for trading on the ASX.",
+        "This is a routine compliance disclosure under ASX Listing Rules and carries no immediate financial impact, but provides insight into the company's equity-based remuneration structure and potential future dilution.",
+        "Institutional investors should monitor the quantum of unquoted securities relative to market cap — for a small-cap healthcare company like NGS, significant unquoted tranches can represent meaningful latent dilution if exercised."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NGS",
+      "company": "NUTRITIONAL GROWTH SOLUTIONS LTD",
+      "headline": "Application for quotation of securities - NGS",
+      "time": "2026-09-04T02:43:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131890-6A1342241",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "NGS is applying for quotation of securities, suggesting a tranche of previously unquoted instruments (e.g. options or rights) has now met vesting conditions or been exercised and is ready for ASX trading.",
+        "The addition of newly quoted securities increases the liquid float, which for a small-cap like NGS can have a proportionally larger impact on share price dynamics than for larger companies — particularly if insiders are now able to sell.",
+        "This announcement, paired with the unquoted securities notification (#3 and #7), suggests active equity plan activity; investors should scrutinise the total number of securities being quoted to gauge dilution risk."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTO",
+      "company": "CITIGOLD CORPORATION LIMITED",
+      "headline": "Review of 2020 Mineral Resource Report",
+      "time": "2026-09-04T02:42:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131889-2A1695185",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Citigold has released a review of its 2020 Mineral Resource Report — a retrospective review rather than a new resource estimate, which may reflect a regulatory, compliance, or internal audit requirement rather than exploration progress.",
+        "The fact that this is a review of a 2020 report, not an updated resource statement, is a notable signal: it suggests the company has not materially advanced its resource definition in the intervening years, which may be a concern for investors evaluating exploration momentum.",
+        "Until a materially upgraded or new resource estimate is released, this announcement is unlikely to act as a re-rating catalyst; investors should watch for a formal updated JORC-compliant resource statement to assess whether asset value has changed."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AVT",
+      "company": "AVANTIS EMERGING MARKETS EQUITY ACTIVE ETF",
+      "headline": "Units on Issue & Monthly Unit Movements - August 2026",
+      "time": "2026-09-04T02:41:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131888-2A1695184",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Avantis Emerging Markets Equity Active ETF (AVT) has reported its August 2026 units on issue and monthly movements — a standard periodic disclosure required for ASX-listed managed funds and ETFs.",
+        "Changes in units on issue reflect net investor inflows or outflows; a growing unit count signals increasing AUM and positive fund flows, while a declining count suggests redemptions and potential fee revenue pressure for the manager.",
+        "This is a routine administrative filing with no direct share price implication; however, sustained inflow trends across the Avantis ETF suite (see also #9 and #10) could indicate growing institutional appetite for active ETF strategies on the ASX."
+      ],
+      "tags": [
+        "Finance",
+        "Other",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NGS",
+      "company": "NUTRITIONAL GROWTH SOLUTIONS LTD",
+      "headline": "Notification regarding unquoted securities - NGS",
+      "time": "2026-09-04T02:39:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131887-6A1342240",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second notification regarding unquoted securities for NGS has been filed — this may relate to a separate class or tranche of unquoted instruments distinct from the one disclosed in announcement #3, pointing to multiple equity compensation or capital events occurring simultaneously.",
+        "Multiple unquoted securities notifications in a single period can indicate active use of employee incentive schemes or staged capital management, which while routine, warrants scrutiny of the total potential dilutive impact across all tranches.",
+        "Investors should aggregate all NGS unquoted securities disclosures (#3 and #7) to form a complete picture of contingent dilution before drawing conclusions about the company's effective fully diluted share count."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MVL",
+      "company": "MARVEL GOLD LIMITED",
+      "headline": "Half Year Accounts",
+      "time": "2026-09-04T02:38:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131886-6A1342239",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Marvel Gold has released its half-year accounts — as a junior explorer, key metrics to assess include cash position and burn rate, which will determine whether the company has sufficient runway to fund exploration activities without an imminent capital raise.",
+        "The filing is marked as not market sensitive, suggesting no material surprises in the financials (e.g. no impairments, significant write-downs, or unexpected losses beyond typical exploration-stage operating costs); however, headline figures should be reviewed for cash balance versus quarterly burn.",
+        "For micro-cap mining explorers like MVL, the half-year report is primarily a capital management checkpoint — investors should focus on cash on hand, any debt obligations, and commentary on planned exploration spend to assess near-term funding risk."
+      ],
+      "tags": [
+        "Mining",
+        "Results",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AVS",
+      "company": "AVANTIS GLOBAL SMALL CAP VALUE ACTIVE ETF",
+      "headline": "Units on Issue & Monthly Unit Movements - August 2026",
+      "time": "2026-09-04T02:38:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131885-2A1695183",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Avantis Global Small Cap Value Active ETF (AVS) has disclosed its August 2026 units on issue and monthly movements, fulfilling its periodic ASX reporting obligation for listed managed investment schemes.",
+        "Trends in AVS unit count are a proxy for investor conviction in small-cap value factor exposure; growing units suggest continued retail and institutional inflows into this strategy, which benefits the Avantis franchise's AUM and management fee income.",
+        "As with AVT (#6) and AVN (#10), this is an administrative disclosure; collectively, monitoring unit flow trends across the three Avantis ETFs provides a useful read on broader ASX ETF market sentiment and active management adoption."
+      ],
+      "tags": [
+        "Finance",
+        "Other",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AVN",
+      "company": "AVANTIS GLOBAL EQUITY ACTIVE ETF",
+      "headline": "Units on Issue & Monthly Unit Movements - August 2026",
+      "time": "2026-09-04T02:37:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131884-2A1695182",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Avantis Global Equity Active ETF (AVN) has published its August 2026 monthly units on issue update, a standard compliance disclosure for ASX-listed ETFs under continuous disclosure obligations.",
+        "AVN's unit movement data provides a directional indicator of investor demand for broad global active equity exposure; net inflows would support the case that active ETF structures are gaining traction as an alternative to passive index products on the ASX.",
+        "Taken alongside the concurrent AVT (#6) and AVS (#9) disclosures, the three Avantis ETF reports together paint a picture of the manager's overall AUM trajectory — a useful data point for evaluating the competitive positioning of active ETFs in the Australian market."
+      ],
+      "tags": [
+        "Finance",
+        "Other",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORE",
+      "company": "OREZONE GOLD CORPORATION",
+      "headline": "Notification regarding unquoted securities - ORE",
+      "time": "2026-09-04T02:36:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131883-6A1342238",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine administrative notification of unquoted securities for Orezone Gold Corporation (ORE), likely relating to options, performance rights, or restricted shares issued outside of ASX's quoted market — no immediate valuation impact expected.",
+        "As a gold producer operating in Burkina Faso, any securities issuances (e.g. employee incentives or executive remuneration instruments) warrant monitoring for potential future dilution once vesting or conversion conditions are met.",
+        "Investors should track the volume and terms of unquoted securities disclosed; material tranches converting to ordinary shares could affect free float and weigh on the share price if not already priced in."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NGS",
+      "company": "NUTRITIONAL GROWTH SOLUTIONS LTD",
+      "headline": "Application for quotation of securities - NGS",
+      "time": "2026-09-04T02:35:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131882-6A1342237",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Nutritional Growth Solutions (NGS) has lodged an application for quotation of new securities on ASX, signalling a recent capital raise or issuance event is progressing through the formal listing pipeline.",
+        "The quotation application typically follows a placement, rights issue, or exercise of options — investors should identify the specific instrument and pricing to assess dilution risk relative to current market capitalisation.",
+        "Until the nature and scale of the securities being quoted are confirmed, the near-term impact is procedural; however, if tied to a discounted placement, selling pressure from new holders entering the register is a key risk to monitor."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CVB",
+      "company": "CURVEBEAM AI LIMITED",
+      "headline": "Application for quotation of securities - CVB",
+      "time": "2026-09-04T02:32:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131881-3A701064",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CurveBeam AI (CVB) has applied for quotation of additional securities on ASX, indicating the completion or near-completion of a capital market transaction such as a placement, entitlement offer, or option exercise.",
+        "CVB operates in the medical imaging AI space — any new capital raised is critical given the typically high cash burn associated with commercialising AI-driven healthcare technology, making the size and terms of the issuance a key focus for assessing cash runway extension.",
+        "Institutional investors should await confirmation of the security type, issue price, and total funds raised; if proceeds are material relative to existing cash reserves, this could meaningfully extend the operational runway and de-risk the near-term outlook."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADN",
+      "company": "ANDROMEDA METALS LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-04T02:30:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131880-2A1695181",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Andromeda Metals (ADN) has issued a Cleansing Notice under ASX Listing Rule 3.10.3 or s708A of the Corporations Act, a regulatory requirement confirming that securities recently issued (typically via placement) are free from disclosure deficiencies and can be on-sold without a prospectus.",
+        "The filing confirms ADN has satisfied its continuous disclosure obligations at the time of issuance — a necessary administrative step that unlocks liquidity for institutional placees who require clean title before trading their new shares.",
+        "While procedural in nature, the Cleansing Notice indirectly confirms a capital raise has occurred; investors should cross-reference the associated placement details (price, volume, use of proceeds) to assess dilution impact and strategic rationale within ADN's halloysite-kaolin development context."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AUE",
       "company": "AURUM RESOURCES LIMITED",
