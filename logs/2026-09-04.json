@@ -1,9 +1,447 @@
 {
   "date": "2026-09-04",
-  "total": 263,
+  "total": 286,
   "market_sensitive_count": 49,
-  "generated_at": "2026-09-04T00:55:23.229563+00:00",
+  "generated_at": "2026-09-04T01:28:20.776522+00:00",
   "announcements": [
+    {
+      "ticker": "NWL",
+      "company": "NETWEALTH GROUP LIMITED",
+      "headline": "Application for quotation of securities - NWL",
+      "time": "2026-09-04T01:24:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131832-3A701055",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Netwealth Group (NWL) has applied for quotation of new securities on the ASX, most likely reflecting the issuance of shares under an employee incentive scheme or dividend reinvestment plan — a routine but confirmatory administrative step.",
+        "The quotation application itself does not indicate a material capital raise; however, it does incrementally add to the share count, creating minor dilution that institutional holders should factor into per-share metrics over time.",
+        "For a high-growth wealth platform like NWL, ongoing employee equity issuances are consistent with talent retention in a competitive fintech/funds management landscape — a neutral to marginally positive signal for operational stability."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PV1",
+      "company": "PROVARIS ENERGY LTD",
+      "headline": "Notification regarding unquoted securities - PV1",
+      "time": "2026-09-04T01:24:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131831-6A1342218",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Provaris Energy (PV1) has filed a notification regarding unquoted securities, typically indicating the issuance of performance rights, options, or other instruments that are not yet listed — a standard administrative disclosure for an early-stage energy company.",
+        "As a compressed hydrogen transport technology developer, PV1 frequently uses equity-linked instruments to compensate management and incentivise milestone achievement; this filing does not signal a major capital event but warrants monitoring for dilution risk.",
+        "Investors should track whether these unquoted securities are tied to technical or commercial milestones, as vesting conditions would reflect management's confidence in near-term project delivery — particularly relevant given PV1's ongoing efforts to commercialise its H2Neo carrier technology."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JPO",
+      "company": "JPMORGAN AUSTRALIA EQUITY ACTIVE ETF",
+      "headline": "Notional Derivative Exposure",
+      "time": "2026-09-04T01:23:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131830-2A1695150",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "JPMorgan Australia Equity Active ETF (JPO) has disclosed its notional derivative exposure as required under ASIC regulatory obligations for active ETFs — a mandatory, recurring compliance filing with no standalone investment signal.",
+        "The notional derivative figure provides transparency into the ETF's use of futures, options, or swaps to manage portfolio risk or gain synthetic market exposure; elevated notional values relative to NAV could indicate a more aggressive hedging or tactical positioning stance.",
+        "For institutional allocators, this disclosure is a compliance checkpoint — the key takeaway is whether derivative usage is consistent with the fund's stated active management mandate and risk parameters outlined in its PDS."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JEM",
+      "company": "JEM",
+      "headline": "Notional Derivative Exposure",
+      "time": "2026-09-04T01:23:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131829-2A1695149",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "JEM's notional derivative exposure disclosure is a routine regulatory filing required of ETF operators under ASX and ASIC rules, providing no direct signal on performance or strategic direction.",
+        "The filing offers transparency on the scale of synthetic instruments held within the portfolio, which is important for end-investors assessing counterparty risk and leverage embedded within the ETF structure.",
+        "Consistent and timely derivative disclosures reinforce governance credibility for ETF managers; any material deviation from historical notional levels in future filings would be worth flagging as a potential shift in risk posture."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "T3M",
+      "company": "JPMORGAN CLIMATE CHANGE SOLUTIONS ACTIVE ETF",
+      "headline": "Notional Derivative Exposure",
+      "time": "2026-09-04T01:22:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131828-2A1695148",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "JPMorgan Climate Change Solutions Active ETF (T3M) has filed its notional derivative exposure — a mandatory compliance disclosure for actively managed ETFs operating on the ASX, carrying no direct market-moving implications.",
+        "For a thematic ESG-focused active ETF, derivative instruments may be used for currency hedging, sector exposure management, or risk mitigation across global clean energy and climate-solution equities — understanding the scale is relevant for sophisticated ESG allocators.",
+        "Institutional ESG investors should cross-reference this derivative disclosure with T3M's portfolio holdings and benchmark tracking to assess whether synthetic exposures are aligned with the fund's climate mandate and impact objectives."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LIT",
+      "company": "LIVIUM LTD",
+      "headline": "Update - Proposed issue of securities - LIT",
+      "time": "2026-09-04T01:21:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131827-6A1342220",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Livium Ltd (LIT) has filed an update to a proposed securities issuance, suggesting an amendment or extension to a previously announced capital raise — a signal that the original placement or SPP terms required adjustment, potentially due to market conditions or investor demand dynamics.",
+        "For a lithium-focused company operating in a sector that has faced significant price headwinds, any modification to a capital raise structure warrants scrutiny — changes to pricing, volume, or structure can reflect either opportunistic refinement or difficulty in achieving full subscription.",
+        "Investors should assess the revised terms carefully: if the update reflects a downward revision in pricing or reduced raise size, it may signal softer institutional appetite; conversely, an upsized raise at maintained pricing would be a constructive indicator of demand."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LIT",
+      "company": "LIVIUM LTD",
+      "headline": "Extension of Closing Date for Share Purchase Plan",
+      "time": "2026-09-04T01:19:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131826-6A1342219",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Livium Ltd (LIT) has extended the closing date for its Share Purchase Plan (SPP), a move that commonly indicates subscription levels were below target and management is providing retail shareholders additional time to participate — a mild negative signal for demand.",
+        "SPP extensions are a well-recognised market signal that the offer has not been fully subscribed within the original window; in the context of lithium sector weakness, this is unsurprising but reinforces near-term sentiment challenges for LIT.",
+        "The extension gives retail investors more time to assess participation, but institutional observers should note that a successful SPP completion — even at revised timelines — would provide LIT with necessary working capital; failure to close adequately could raise questions about the company's near-term funding position."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MOT",
+      "company": "METRICS INCOME OPPORTUNITIES TRUST",
+      "headline": "Update - Dividend/Distribution - MOT",
+      "time": "2026-09-04T01:18:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131825-2A1695147",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Metrics Income Opportunities Trust (MOT) has issued an update to its dividend/distribution, likely confirming the quantum and payment details for an upcoming income distribution — a positive signal for yield-focused investors in the private credit space.",
+        "MOT operates as a listed private credit trust, and consistent distribution updates reinforce the reliability of its income stream, which is underpinned by floating-rate corporate loan exposure — particularly attractive in the current elevated interest rate environment.",
+        "Investors should note the annualised distribution yield implied by the updated figure relative to MOT's current unit price; any increase in distribution quantum would be a bullish signal, while maintenance at prior levels confirms stable credit performance across the underlying loan book."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MXT",
+      "company": "METRICS MASTER INCOME TRUST",
+      "headline": "Update - Dividend/Distribution - MXT",
+      "time": "2026-09-04T01:17:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131824-2A1695146",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Metrics Master Income Trust (MXT) has filed a distribution update, confirming income payment details for unitholders — consistent with MXT's mandate as a leading ASX-listed private credit vehicle targeting monthly income distributions.",
+        "MXT's floating-rate loan book provides natural income uplift in a high interest rate environment; a stable or growing distribution per unit signals healthy credit quality and deployment across the underlying corporate lending portfolio.",
+        "For institutional income allocators, MXT's distribution consistency is a key performance indicator — any deviation from expected yield levels should prompt analysis of credit loss provisions, loan book composition, or changes in RBA rate trajectory that could affect future distribution capacity."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MRE",
+      "company": "METRICS REAL ESTATE MULTI-STRATEGY FUND",
+      "headline": "Update - Dividend/Distribution - MRE",
+      "time": "2026-09-04T01:13:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131823-2A1695144",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "MRE has issued a distribution update, confirming ongoing income payments to unitholders — a key attraction for yield-seeking investors in the unlisted/listed real estate multi-strategy space.",
+        "Consistency of distributions from a diversified real estate fund signals portfolio stability, though the 'not market sensitive' flag suggests the quantum is broadly in line with prior guidance and no special or reduced payment is being flagged.",
+        "Investors should monitor the annualised distribution yield relative to peers and interest rate movements, as rate expectations remain the primary valuation driver for yield-oriented real estate vehicles on the ASX."
+      ],
+      "tags": [
+        "Dividend",
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BOQ",
+      "company": "BANK OF QUEENSLAND LIMITED.",
+      "headline": "Change of Director's Interest Notice - Karen Penrose",
+      "time": "2026-09-04T01:13:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131822-2A1695145",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director Karen Penrose has lodged a Change of Director's Interest Notice for BOQ, indicating a movement in her shareholding — whether via on-market purchase, sale, or vesting of remuneration securities.",
+        "Director interest changes at major banks are closely watched as signals of insider conviction; a purchase would reinforce confidence in BOQ's turnaround narrative, while a disposal could raise questions about near-term momentum.",
+        "Given BOQ's ongoing transformation and cost-reduction program, any increase in director skin-in-the-game would be incrementally positive, but the 'not market sensitive' classification suggests the transaction size is modest and unlikely to shift institutional positioning."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PKP",
+      "company": "PEAK PROCESSING LIMITED",
+      "headline": "Proposed issue of securities - PKP",
+      "time": "2026-09-04T01:08:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131821-3A701054",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Peak Processing Limited (PKP) has filed a proposed issue of securities, signalling an upcoming capital raise that will result in shareholder dilution — a critical consideration for existing holders in a small-cap context.",
+        "The structure and pricing of the proposed issue are key unknowns; if priced at a material discount to the prevailing market price, downward pressure on the share price is likely in the near term as the market adjusts to the dilutive impact.",
+        "Investors should assess the stated use of proceeds when disclosed — capital directed toward operational milestones or acquisitions carries a different risk/reward profile than raises to fund general working capital in early-stage companies."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BIT",
+      "company": "BIOTRON LIMITED",
+      "headline": "Change of Share Registry",
+      "time": "2026-09-04T01:08:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131820-2A1695143",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Biotron Limited (BIT) has announced a change of share registry, a purely administrative action with no direct financial or operational implications for the company or its shareholders.",
+        "Registry transitions can occasionally cause short-term friction for shareholders (e.g. communication delays, portal access changes), but these are temporary and do not reflect on the company's underlying business progress.",
+        "Investors in BIT should remain focused on clinical pipeline milestones rather than this administrative filing, which carries no signal value regarding valuation or near-term catalysts."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NWS",
+      "company": "NEWS CORPORATION..",
+      "headline": "Appendix 3C",
+      "time": "2026-09-04T01:05:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131819-2A1695142",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "News Corporation has lodged an Appendix 3C (application for quotation of new securities), indicating the issuance of new securities — potentially related to employee incentive schemes, conversions, or other entitlements — seeking ASX quotation.",
+        "The 'not market sensitive' classification suggests the volume of securities is not material relative to NWS's total capital base, and is likely a routine administrative issuance consistent with previously disclosed programs.",
+        "For a dual-listed media conglomerate of NWS's scale, this filing is procedural; institutional focus remains on operating segment performance (Dow Jones, REA Group, HarperCollins) and any strategic M&A activity rather than minor equity administration."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BKB",
+      "company": "BLACK BEAR MINERALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-04T01:05:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131818-6A1342217",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in the register of Black Bear Minerals (BKB), indicating that a major shareholder has either increased or decreased their stake beyond a 1% movement threshold — a key watch point for liquidity and control dynamics in this small-cap miner.",
+        "For a junior explorer like BKB, substantial holder movements can materially impact trading volume and price discovery, particularly if a cornerstone investor is reducing exposure, which may signal waning institutional conviction.",
+        "Investors should monitor subsequent filings to determine the direction of the change — accumulation could precede a strategic move or capital raise, while disposal may signal near-term headwinds or portfolio rebalancing by the holder."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NWS",
+      "company": "NEWS CORPORATION..",
+      "headline": "Appendix 3C",
+      "time": "2026-09-04T01:04:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131817-2A1695141",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second Appendix 3C filing from News Corporation on the same day suggests either a separate tranche of securities or a distinct class of entitlements being brought to quotation — warranting a cross-reference to the first filing to understand aggregate dilution.",
+        "Duplicate or same-day Appendix 3C filings can indicate multiple tranches of employee incentive securities (e.g. performance rights and options vesting simultaneously), which is common practice for large-cap remuneration structures.",
+        "While individually immaterial, the cumulative effect of two same-day issuances should be reviewed in aggregate; combined with the prior filing, institutional investors should verify total new shares on issue remain within previously approved limits."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PKP",
+      "company": "PEAK PROCESSING LIMITED",
+      "headline": "Issue of Establishment Fee Shares",
+      "time": "2026-09-04T01:04:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131816-3A701053",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PKP has issued shares as an 'Establishment Fee' payment, indicating the company has settled a fee obligation through equity rather than cash — a common practice in small-cap capital transactions but one that adds to share count dilution.",
+        "Fee settlement via equity issuance preserves cash for operations, which may be important for a company with limited liquidity; however, it signals that cash conservation is a priority and raises questions about the company's current cash runway.",
+        "Read alongside the concurrent 'Proposed Issue of Securities' announcement (filing #3), this represents a pattern of equity-based activity from PKP in a short window — investors should track total dilution carefully and await clarity on the strategic rationale."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KCC",
+      "company": "KINCORA COPPER LIMITED",
+      "headline": "Statement of CDIs on issue - KCC",
+      "time": "2026-09-04T01:02:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131815-6A1342216",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Kincora Copper (KCC) has filed a Statement of CDIs (CHESS Depositary Interests) on issue, a routine periodic disclosure reflecting the current CDI register — no new issuance is implied by this filing alone.",
+        "CDI statements are standard compliance filings for foreign-domiciled companies listed on the ASX; the key metric to monitor is any change in CDI count over time, which would signal capital activity or conversion of underlying shares.",
+        "For copper-focused explorers like KCC, near-term share price catalysts remain exploration results and copper price movements rather than administrative registry filings of this nature."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AQZ",
+      "company": "ALLIANCE AVIATION SERVICES LIMITED",
+      "headline": "Application for quotation of securities - AQZ",
+      "time": "2026-09-04T01:02:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131814-2A1695140",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Alliance Aviation Services (AQZ) has applied for quotation of new securities on the ASX, indicating a tranche of shares is being brought to market — likely related to an employee share plan, option exercise, or a previously announced capital transaction.",
+        "The 'not market sensitive' designation suggests the volume is modest relative to AQZ's existing capital structure and is consistent with previously disclosed plans, limiting any meaningful near-term dilution impact.",
+        "AQZ continues to operate in a sector with strong structural demand from mining charter and FIFO operations; investors should remain focused on contract renewals, fleet utilisation rates, and any updates on the Qantas relationship following prior regulatory scrutiny."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAM",
+      "company": "WAM CAPITAL LIMITED",
+      "headline": "Philippa Ryan Appendix 3Y",
+      "time": "2026-09-04T01:00:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131813-2A1695139",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WAM Capital director Philippa Ryan has lodged an Appendix 3Y (change of director's interest notice), disclosing a movement in her relevant interest in WAM securities — standard compliance filing under ASX Listing Rules.",
+        "Director interest disclosures at LICs (Listed Investment Companies) like WAM are monitored as soft signals of insider sentiment toward the portfolio and NAV trajectory; the 'not market sensitive' flag confirms the transaction is not of a scale that alters market dynamics.",
+        "WAM Capital's investment community typically focuses on dividend sustainability, the premium/discount to pre-tax NTA, and portfolio positioning rather than individual director share movements of this routine nature."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BUB",
+      "company": "BUBS AUSTRALIA LIMITED",
+      "headline": "Change of Director's Interest Notice - LTM",
+      "time": "2026-09-04T00:57:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131812-6A1342215",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director's interest notice for BUB signals an insider transaction — likely involving equity awards, options, or on-market activity — which warrants monitoring for directional conviction from management at a time when Bubs continues to rebuild volumes following its US market entry challenges.",
+        "As a non-market-sensitive filing, the quantum of shares involved is unlikely to be material to BUB's float or valuation; however, any increase in director holdings could be interpreted as a mild confidence signal in the company's turnaround trajectory under its refreshed strategy.",
+        "Investors should cross-reference this notice against BUB's LTI/STI plan structure and vesting schedules — if this reflects performance rights converting to equity, it may indicate internal milestones are being met, providing a secondary read-through on operational progress ahead of the next quarterly update."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADN",
+      "company": "ANDROMEDA METALS LIMITED",
+      "headline": "Application for quotation of securities - ADN",
+      "time": "2026-09-04T00:57:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131811-2A1695138",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ADN's application for quotation of new securities indicates fresh shares are being admitted to trading — most likely resulting from a prior capital raise, option exercise, or performance rights conversion — representing a near-term supply-side consideration for the register.",
+        "For a micro-to-small cap explorer like Andromeda Metals, the addition of new securities to the register can exert modest dilutive pressure on existing holders, particularly if these shares were issued at a discount to the prevailing market price as part of a placement or entitlement offer.",
+        "Investors should verify the original terms of issuance (price, escrow conditions, and recipient class) to assess any overhang risk; if shares are free-trading and held by institutional placees, short-term selling pressure cannot be ruled out as participants look to crystallise returns."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WES",
+      "company": "WESFARMERS LIMITED",
+      "headline": "2026 Notice of Annual General Meeting",
+      "time": "2026-09-04T00:56:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03131810-6A1342214",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Wesfarmers' 2026 AGM notice is a routine governance milestone for one of the ASX's largest diversified conglomerates (market cap ~$70B+), but the meeting agenda — covering board re-elections, remuneration report, and any special resolutions — will be closely scrutinised given WES's premium valuation and active M&A posture including its lithium and healthcare growth vectors.",
+        "The remuneration report vote will be a key focal point for institutional shareholders and proxy advisors, particularly given WES's executive pay structure tied to long-term value creation across Bunnings, Kmart Group, WesCEF, and emerging growth divisions — any 'first strike' risk would be a reputational flag.",
+        "Investors should watch for any proposed resolutions relating to capital management, new share issuance authorities, or strategic commentary from Chair and CEO that may provide forward guidance signals on capital allocation priorities, especially regarding the Mt Holland lithium project ramp-up and the Priceline/healthcare segment expansion."
+      ],
+      "tags": [
+        "AGM",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CVB",
       "company": "CURVEBEAM AI LIMITED",
