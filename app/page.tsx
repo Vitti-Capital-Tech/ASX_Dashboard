@@ -434,12 +434,16 @@ export default function Dashboard() {
             <div className="max-w-[1600px] mx-auto">
               <ViewHeader
                 title="Market Activity"
-                subtitle={log
-                  ? <>
-                    {isNarrowed && <><b style={{ color: 'var(--text-secondary)' }}>{sorted.length}</b> of </>}
-                    {log.announcements.length} announcements · {sensitiveCount} market sensitive · {dateLabel}
-                  </>
-                  : dateLabel}
+                meta={dateLabel}
+                stats={log ? [
+                  // Showing "48 of 400" only while a filter is on: an
+                  // unfiltered feed does not need to say it is unfiltered.
+                  {
+                    value: isNarrowed ? `${sorted.length} / ${log.announcements.length}` : log.announcements.length,
+                    label: isNarrowed ? 'shown' : 'announcements',
+                  },
+                  { value: sensitiveCount, label: 'market sensitive' },
+                ] : undefined}
                 actions={
                   <FeedControls
                     search={search}

@@ -2,7 +2,7 @@
 
 import { useMemo } from 'react';
 import { DayLog } from '@/types';
-import { formatDateLabel, getSentiment } from '@/lib/utils';
+import { formatDateLabel, getSentiment, SECTION_LABEL } from '@/lib/utils';
 import { ALL_CATEGORIES, type SentimentFilter } from '@/lib/views';
 import MarketOverview, { type TileAction } from './MarketOverview';
 import Select from './Select';
@@ -118,7 +118,7 @@ export default function Sidebar({
               Vitti<em className="not-italic"
                 style={{ background: 'linear-gradient(90deg, var(--accent), var(--accent-light))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>ASX</em>
             </div>
-            <div className="text-[0.58rem] font-bold uppercase tracking-[0.22em] mt-1" style={{ color: 'var(--text-dim)' }}>
+            <div className="text-[0.62rem] font-semibold uppercase tracking-[0.14em] mt-1" style={{ color: 'var(--text-dim)' }}>
               Intelligence Center
             </div>
           </div>
@@ -127,7 +127,7 @@ export default function Sidebar({
 
       {/* ── Trading date ── */}
       <div className="px-6 py-5 flex-shrink-0" style={{ borderBottom: '1px solid var(--border-subtle)' }}>
-        <span className="block text-[0.6rem] font-bold uppercase tracking-[0.2em] mb-2.5"
+        <span className={`block ${SECTION_LABEL} mb-2.5`}
           style={{ color: 'var(--text-dim)' }}>
           Trading Date
         </span>
@@ -156,7 +156,7 @@ export default function Sidebar({
 
       {/* ── Topics ── */}
       <div className="px-6 py-5 flex-shrink-0">
-        <div className="flex items-center justify-between text-[0.6rem] font-bold uppercase tracking-[0.2em] mb-3.5"
+        <div className={`flex items-center justify-between ${SECTION_LABEL} mb-3.5`}
           style={{ color: 'var(--text-dim)' }}>
           <span>Topics</span>
           {filtersApply && activeTags.size > 0 && (

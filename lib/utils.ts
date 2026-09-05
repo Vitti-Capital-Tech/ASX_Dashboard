@@ -92,3 +92,17 @@ export const TAG_STYLE = {
   border: '1px solid var(--border-med)',
   color: 'var(--text-dim)',
 } as const;
+
+/**
+ * Small-caps section heading. Sans, not mono, and 11px rather than 9-10px.
+ *
+ * The type scale had a dozen labels, badges and chips sitting at 0.52-0.62rem
+ * in the monospace face, uppercased, with 0.14-0.22em of tracking. Mono is
+ * built for columns of digits: uppercased and letterspaced below ~10px its
+ * uniform widths stop reading as words. Language wears the sans face; the mono
+ * face is reserved for data — tickers, times, counts, prices.
+ */
+export const SECTION_LABEL = 'text-[0.68rem] font-semibold uppercase tracking-[0.1em]';
+
+/** Pill badge — sentiment, sensitivity. Sans, so "BULLISH" reads as a word. */
+export const BADGE_TEXT = 'text-[0.65rem] font-bold uppercase tracking-[0.03em]';

@@ -2,6 +2,7 @@
 
 import React from 'react';
 import type { SentimentFilter } from '@/lib/views';
+import { SECTION_LABEL } from '@/lib/utils';
 
 /** What clicking a row does. Every row is a filter shortcut. */
 export type TileAction =
@@ -64,10 +65,10 @@ export default function MarketOverview({ counts, hasLog, loading, isActive, onSe
   return (
     <div className="px-6 py-5 flex-shrink-0" style={{ borderBottom: '1px solid var(--border-subtle)' }}>
       <div className="flex items-baseline justify-between mb-3">
-        <span className="text-[0.6rem] font-bold uppercase tracking-[0.2em]" style={{ color: 'var(--text-dim)' }}>
+        <span className={SECTION_LABEL} style={{ color: 'var(--text-dim)' }}>
           Market Overview
         </span>
-        <span className="text-[0.55rem] font-medium" style={{ color: 'var(--text-dim)', opacity: 0.75 }}>
+        <span className="text-[0.63rem] font-medium" style={{ color: 'var(--text-dim)', opacity: 0.8 }}>
           tap to filter
         </span>
       </div>
@@ -86,7 +87,7 @@ export default function MarketOverview({ counts, hasLog, loading, isActive, onSe
             style={{ color: resetActive ? 'var(--accent-light)' : 'var(--text-primary)' }}>
             {show(counts.total)}
           </span>
-          <span className="text-[0.6rem] font-semibold uppercase tracking-[0.12em]" style={{ color: 'var(--text-dim)' }}>
+          <span className="text-[0.68rem] font-semibold uppercase tracking-[0.06em]" style={{ color: 'var(--text-dim)' }}>
             Announcements
           </span>
         </div>
@@ -129,7 +130,7 @@ export default function MarketOverview({ counts, hasLog, loading, isActive, onSe
                 }}>
                 <svg viewBox="0 0 20 20" fill="none" className="w-3 h-3">{glyph}</svg>
               </span>
-              <span className="text-[0.78rem] font-medium truncate"
+              <span className="text-[0.79rem] font-medium truncate"
                 style={{ color: active ? `var(--${token})` : 'var(--text-secondary)' }}>
                 {label}
               </span>

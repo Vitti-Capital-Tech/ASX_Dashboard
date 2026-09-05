@@ -2,7 +2,7 @@
 
 import type { CSSProperties } from 'react';
 import { Announcement } from '@/types';
-import { formatTime, getSentiment, TAG_STYLE } from '@/lib/utils';
+import { BADGE_TEXT, formatTime, getSentiment, SECTION_LABEL, TAG_STYLE } from '@/lib/utils';
 
 interface Props {
   ann: Announcement;
@@ -61,7 +61,7 @@ export default function AnnouncementCard({ ann }: Props) {
           {ann.ticker}
         </span>
 
-        <span className="flex items-center gap-1 font-mono text-[0.58rem] font-bold uppercase tracking-[0.08em] px-2 py-0.5 rounded-md"
+        <span className={`flex items-center gap-1.5 ${BADGE_TEXT} px-2 py-[0.15rem] rounded-md`}
           style={{
             background: `color-mix(in srgb, var(--${token}), transparent 90%)`,
             border: `1px solid color-mix(in srgb, var(--${token}), transparent 75%)`,
@@ -84,7 +84,7 @@ export default function AnnouncementCard({ ann }: Props) {
             "this one matters", not "this is bad news", and a red pill beside a
             red Bearish pill read as one repeated warning. */}
         {ann.market_sensitive && (
-          <span className="flex items-center gap-1.5 font-mono text-[0.58rem] font-bold uppercase tracking-[0.06em] px-2 py-0.5 rounded-md"
+          <span className={`flex items-center gap-1.5 ${BADGE_TEXT} px-2 py-[0.15rem] rounded-md`}
             style={{
               background: 'color-mix(in srgb, var(--warning), transparent 90%)',
               border: '1px solid color-mix(in srgb, var(--warning), transparent 75%)',
@@ -109,7 +109,7 @@ export default function AnnouncementCard({ ann }: Props) {
 
       {/* ── Headline, with the company as its lead-in ── */}
       <div className="min-w-0">
-        <div className="text-[0.62rem] font-bold uppercase tracking-[0.14em] truncate mb-1.5"
+        <div className="text-[0.68rem] font-semibold uppercase tracking-[0.06em] truncate mb-1.5"
           style={{ color: 'var(--text-dim)' }} title={ann.company}>
           {ann.company}
         </div>
@@ -130,13 +130,13 @@ export default function AnnouncementCard({ ann }: Props) {
             <svg viewBox="0 0 16 16" fill="none" className="w-3 h-3 flex-shrink-0" style={{ color: 'var(--accent)' }}>
               <path d="M8 1l1.2 4.8L14 8l-4.8 1.2L8 15l-1.2-4.8L2 8l4.8-1.2z" fill="currentColor" opacity="0.9" />
             </svg>
-            <span className="text-[0.58rem] font-bold uppercase tracking-[0.18em]" style={{ color: 'var(--accent)' }}>
+            <span className={SECTION_LABEL} style={{ color: 'var(--accent)' }}>
               AI Summary
             </span>
           </div>
           <ul className="flex flex-col gap-2 min-w-0">
             {ann.summary.map((point, i) => (
-              <li key={i} className="flex gap-2.5 text-[0.79rem] leading-[1.6] text-pretty break-words min-w-0"
+              <li key={i} className="flex gap-2.5 text-[0.8rem] leading-[1.62] text-pretty break-words min-w-0"
                 style={{ color: 'var(--text-secondary)' }}>
                 <span className="mt-[0.55em] w-1 h-1 rounded-full flex-shrink-0" style={{ background: 'var(--accent)' }} />
                 <span className="min-w-0 flex-1">{point.replace(/^[\s\-*•\d.]+\s*/, '')}</span>
@@ -152,7 +152,7 @@ export default function AnnouncementCard({ ann }: Props) {
         style={{ borderTop: '1px solid var(--border-subtle)' }}>
         {ann.tags?.map(tag => (
           <span key={tag} style={TAG_STYLE}
-            className="font-mono text-[0.58rem] font-semibold uppercase tracking-[0.1em] px-2 py-0.5 rounded-md">
+            className="text-[0.68rem] font-medium px-2 py-[0.15rem] rounded-md">
             {tag}
           </span>
         ))}
