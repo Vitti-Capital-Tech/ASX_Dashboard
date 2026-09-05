@@ -18,13 +18,16 @@ export default function AnnouncementCard({ ann }: Props) {
   const sentiment = getSentiment(ann);
   const token = SENTIMENT_TOKEN[sentiment];
 
-  // Sentiment rides on one accent edge and one badge. It used to also wash the
-  // whole card in a coloured gradient, which turned a screen of 400 cards into
-  // a field of green and red and left no quiet surface to read against.
+  // Sentiment is carried by a rail, a badge, and a whisper of tint in the top
+  // corner — not by a border. A coloured border is a blunt instrument: it fights
+  // the card's frame, and at full saturation one edge glows while the other
+  // three vanish. The rail is inset from the rounded corners so it reads as a
+  // deliberate marker rather than a border that failed to wrap.
   const surface: CSSProperties & Record<'--card-glow', string> = {
-    background: 'var(--bg-card)',
-    border: `1px solid color-mix(in srgb, var(--${token}), transparent 86%)`,
-    borderLeft: `3px solid color-mix(in srgb, var(--${token}), transparent 30%)`,
+    background: `linear-gradient(155deg,
+                   color-mix(in srgb, var(--${token}), transparent 95%) 0%,
+                   var(--bg-card) 42%)`,
+    border: '1px solid var(--border-subtle)',
     boxShadow: 'var(--shadow-card)',
     // Hover shadow as a custom property, so the class below can apply it
     // without JS. The old handlers wrote box-shadow imperatively and reset it
@@ -36,10 +39,20 @@ export default function AnnouncementCard({ ann }: Props) {
 
   return (
     <article
-      className="group relative flex flex-col h-full gap-3 p-5 rounded-[18px] min-w-0
+      className="group relative flex flex-col h-full gap-3 p-5 pl-6 rounded-[18px] min-w-0
                  transition-[transform,box-shadow] duration-300 hover:-translate-y-1
                  hover:shadow-[var(--card-glow)]"
       style={surface}>
+
+      {/* Accent rail. Inset past the 18px corner radius, and fading down the
+          card so it reads as light falling on an edge rather than a stripe. */}
+      <span aria-hidden
+        className="absolute left-0 top-[18px] bottom-[18px] w-[3px] rounded-full"
+        style={{
+          background: `linear-gradient(180deg,
+                         var(--${token}) 0%,
+                         color-mix(in srgb, var(--${token}), transparent 55%) 100%)`,
+        }} />
 
       {/* ── Ticker, badges, time ── */}
       <div className="flex flex-wrap items-center gap-2">

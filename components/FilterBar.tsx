@@ -3,6 +3,7 @@
 import {
   ALL_CATEGORIES, CATEGORIES, SENTIMENT_FILTERS, type SentimentFilter,
 } from '@/lib/views';
+import Select from './Select';
 
 interface Props {
   sentiment: SentimentFilter;
@@ -55,29 +56,13 @@ export default function FilterBar({
       </div>
 
       {/* Category — a dropdown, not nine more pills */}
-      <div className="relative">
-        <select
-          value={category}
-          onChange={e => onCategoryChange(e.target.value)}
-          aria-label="Filter by category"
-          className="appearance-none pl-3.5 pr-9 py-2 rounded-xl text-[0.74rem] font-semibold outline-none cursor-pointer transition-all"
-          style={{
-            background: category !== ALL_CATEGORIES ? 'var(--accent-dim)' : 'var(--border-subtle)',
-            border: `1px solid ${category !== ALL_CATEGORIES ? 'var(--border-accent)' : 'var(--border-med)'}`,
-            color: category !== ALL_CATEGORIES ? 'var(--accent-light)' : 'var(--text-dim)',
-          }}>
-          {CATEGORIES.map(c => (
-            <option key={c} value={c} style={{ background: 'var(--bg-card)', color: 'var(--text-primary)' }}>
-              {c}
-            </option>
-          ))}
-        </select>
-        <span className="absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none" style={{ color: 'var(--text-dim)' }}>
-          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" className="w-3 h-3">
-            <path d="M4 6l4 4 4-4" />
-          </svg>
-        </span>
-      </div>
+      <Select
+        value={category}
+        options={CATEGORIES.map(c => ({ value: c, label: c }))}
+        onChange={onCategoryChange}
+        ariaLabel="Filter by category"
+        highlighted={category !== ALL_CATEGORIES}
+      />
 
       {/* Market sensitive — a filter, so it belongs with the filters */}
       <button

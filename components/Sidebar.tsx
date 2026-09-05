@@ -5,6 +5,7 @@ import { DayLog } from '@/types';
 import { formatDateLabel, getSentiment } from '@/lib/utils';
 import { ALL_CATEGORIES, type SentimentFilter } from '@/lib/views';
 import MarketOverview, { type TileAction } from './MarketOverview';
+import Select from './Select';
 
 interface Props {
   date: string;
@@ -53,6 +54,15 @@ export default function Sidebar({
       }).length,
     };
   }, [log]);
+
+  const dateOptions = useMemo(() => {
+    const opts = availableDates.map(d => ({ value: d, label: formatDateLabel(d) }));
+    // Today has no committed log until the first fetch of the session lands.
+    if (date && !availableDates.includes(date)) {
+      opts.unshift({ value: date, label: `${formatDateLabel(date)} (Live)` });
+    }
+    return opts;
+  }, [availableDates, date]);
 
   function isActive(action: TileAction): boolean {
     if (!filtersApply) return false;
@@ -117,32 +127,17 @@ export default function Sidebar({
 
       {/* ── Trading date ── */}
       <div className="px-6 py-5 flex-shrink-0" style={{ borderBottom: '1px solid var(--border-subtle)' }}>
-        <label htmlFor="trading-date" className="block text-[0.6rem] font-bold uppercase tracking-[0.2em] mb-2.5"
+        <span className="block text-[0.6rem] font-bold uppercase tracking-[0.2em] mb-2.5"
           style={{ color: 'var(--text-dim)' }}>
           Trading Date
-        </label>
-        <div className="relative group">
-          <select
-            id="trading-date"
-            value={date}
-            onChange={e => onDateChange(e.target.value)}
-            className="w-full pl-3 pr-9 py-2.5 rounded-xl font-mono text-[0.8rem] outline-none cursor-pointer appearance-none transition-all truncate"
-            style={{ background: 'var(--border-subtle)', border: '1px solid var(--border-med)', color: 'var(--text-primary)' }}>
-            {date && !availableDates.includes(date) && (
-              <option value={date} style={{ background: 'var(--bg-sidebar)', color: 'var(--text-primary)' }}>
-                {formatDateLabel(date)} (Live)
-              </option>
-            )}
-            {availableDates.map(d => (
-              <option key={d} value={d} style={{ background: 'var(--bg-sidebar)', color: 'var(--text-primary)' }}>
-                {formatDateLabel(d)}
-              </option>
-            ))}
-          </select>
-          <span className="absolute right-3.5 top-1/2 -translate-y-1/2 pointer-events-none" style={{ color: 'var(--text-dim)' }}>
-            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5"><path d="M4 6l4 4 4-4" /></svg>
-          </span>
-        </div>
+        </span>
+        <Select
+          block
+          value={date}
+          options={dateOptions}
+          onChange={onDateChange}
+          ariaLabel="Trading date"
+        />
         {log && (
           <p className="text-[0.68rem] font-medium mt-2.5 flex items-center gap-1.5" style={{ color: 'var(--text-dim)' }}>
             <span className="w-1.5 h-1.5 rounded-full" style={{ background: 'var(--success)', boxShadow: '0 0 6px var(--success)' }} />
