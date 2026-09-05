@@ -1,16 +1,10 @@
 'use client';
 
-import React, { useMemo } from 'react';
+import { useMemo } from 'react';
 import { DayLog } from '@/types';
 import { formatDateLabel, getSentiment } from '@/lib/utils';
 import { ALL_CATEGORIES, type SentimentFilter } from '@/lib/views';
-
-/** What clicking a stat tile does. Every tile is a filter shortcut. */
-type TileAction =
-  | { type: 'sentiment'; value: SentimentFilter }
-  | { type: 'category'; value: string }
-  | { type: 'sensitive' }
-  | { type: 'reset' };
+import MarketOverview, { type TileAction } from './MarketOverview';
 
 interface Props {
   date: string;
@@ -57,44 +51,6 @@ export default function Sidebar({
       }).length,
     };
   }, [log]);
-
-  const stats: { label: string; value: number | string; token: string; icon: React.ReactNode; action: TileAction }[] = [
-    {
-      label: 'Announcements', value: log ? counts.total : '–', token: 'accent',
-      icon: <svg viewBox="0 0 20 20" className="w-4 h-4"><path d="M4 4h12v2H4zM4 9h12v2H4zM4 14h8v2H4z" fill="currentColor" /></svg>,
-      action: { type: 'reset' },
-    },
-    {
-      label: 'Market Sensitive', value: counts.sensitive, token: 'danger',
-      icon: <svg viewBox="0 0 20 20" className="w-4 h-4"><path d="M10 2l2.5 5 5.5.8-4 3.9.95 5.5L10 14.5l-4.95 2.7L6 11.7 2 7.8l5.5-.8z" fill="currentColor" /></svg>,
-      action: { type: 'sensitive' },
-    },
-    {
-      label: 'Substantial Holders', value: counts.substantial, token: 'accent',
-      icon: <svg viewBox="0 0 20 20" className="w-4 h-4"><path d="M10 2a4 4 0 100 8 4 4 0 000-8zM3 18a7 7 0 0114 0H3z" fill="currentColor" /></svg>,
-      action: { type: 'category', value: 'Substantial Holding' },
-    },
-    {
-      label: 'Bullish', value: counts.bullish, token: 'success',
-      icon: <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><path d="M2.5 13.5l4-4 3 3 7.5-7.5M17 5v5m0-5h-5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>,
-      action: { type: 'sentiment', value: 'bullish' },
-    },
-    {
-      label: 'Bearish', value: counts.bearish, token: 'danger',
-      icon: <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><path d="M17.5 6.5l-4 4-3-3-7.5 7.5M2.5 15v-5m0 5h5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" /></svg>,
-      action: { type: 'sentiment', value: 'bearish' },
-    },
-    {
-      label: 'Neutral', value: counts.neutral, token: 'text-dim',
-      icon: <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><path d="M4 10h12" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" /></svg>,
-      action: { type: 'sentiment', value: 'neutral' },
-    },
-    {
-      label: 'Trading Halts', value: counts.halts, token: 'warning',
-      icon: <svg viewBox="0 0 20 20" className="w-4 h-4"><rect x="5" y="4" width="4" height="12" rx="1.5" fill="currentColor" /><rect x="11" y="4" width="4" height="12" rx="1.5" fill="currentColor" /></svg>,
-      action: { type: 'category', value: 'Trading Halt' },
-    },
-  ];
 
   function isActive(action: TileAction): boolean {
     if (!filtersApply) return false;
@@ -193,51 +149,12 @@ export default function Sidebar({
         )}
       </div>
 
-      {/* ── Market overview. Every tile filters; the label says so, because a
-             number in a box does not read as a button on its own. ── */}
-      <div className="px-6 py-5 flex-shrink-0" style={{ borderBottom: '1px solid var(--border-subtle)' }}>
-        <div className="flex items-baseline justify-between mb-4">
-          <span className="text-[0.6rem] font-bold uppercase tracking-[0.2em]" style={{ color: 'var(--text-dim)' }}>
-            Market Overview
-          </span>
-          <span className="text-[0.55rem] font-medium" style={{ color: 'var(--text-dim)', opacity: 0.75 }}>
-            tap to filter
-          </span>
-        </div>
-
-        <div className="grid grid-cols-2 gap-2.5">
-          {stats.map(({ label, value, token, icon, action }) => {
-            const active = isActive(action);
-            return (
-              <button
-                key={label}
-                onClick={() => handleTile(action)}
-                aria-pressed={active}
-                className="relative rounded-[14px] p-3.5 border overflow-hidden text-left cursor-pointer transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98]"
-                style={{
-                  background: `color-mix(in srgb, var(--${token}), transparent ${active ? 80 : 92}%)`,
-                  borderColor: `color-mix(in srgb, var(--${token}), transparent ${active ? 50 : 80}%)`,
-                  boxShadow: active ? `0 0 18px color-mix(in srgb, var(--${token}), transparent 60%)` : 'none',
-                }}>
-                {active && (
-                  <span className="absolute top-2.5 right-2.5 w-1.5 h-1.5 rounded-full animate-pulse"
-                    style={{ background: `var(--${token})`, boxShadow: `0 0 6px var(--${token})` }} />
-                )}
-                <div className="w-6 h-6 rounded-lg flex items-center justify-center mb-2.5"
-                  style={{ background: `color-mix(in srgb, var(--${token}), transparent 85%)`, color: `var(--${token})` }}>
-                  {icon}
-                </div>
-                <div className="font-mono text-[1.55rem] font-bold leading-none tracking-tight mb-1" style={{ color: `var(--${token})` }}>
-                  {value}
-                </div>
-                <div className="text-[0.6rem] font-semibold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>
-                  {label}
-                </div>
-              </button>
-            );
-          })}
-        </div>
-      </div>
+      <MarketOverview
+        counts={counts}
+        hasLog={!!log}
+        isActive={isActive}
+        onSelect={handleTile}
+      />
 
       {/* ── Topics ── */}
       <div className="px-6 py-5 flex-shrink-0">

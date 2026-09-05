@@ -137,11 +137,30 @@ export default function Dashboard() {
     fetch('/api/logs').then(r => r.json()).then(setAvailableDates).catch(console.error);
   }, []);
 
+  // Class only. Persisting here raced the restore above: both effects run on
+  // the first commit, so this one wrote the default 'dark' back to storage
+  // before setTheme had applied the saved value, and a chosen theme did not
+  // survive a reload. The toggle writes it instead — a preference is saved when
+  // the user changes it, not on every render.
   useEffect(() => {
     const root = document.documentElement;
     root.classList.toggle('light', theme === 'light');
     root.classList.toggle('dark', theme !== 'light');
-    localStorage.setItem('vitti-theme', theme);
+  }, [theme]);
+
+  const toggleTheme = useCallback(() => {
+    // Applied directly rather than through document.startViewTransition. With a
+    // few hundred animating cards on screen the transition would queue its
+    // snapshot and never invoke the callback, so the theme button did nothing
+    // at all — clicks landed, state never changed. globals.css already
+    // transitions colour and background on every element for 200ms, which is
+    // the same effect for a palette swap and cannot wedge.
+    //
+    // Next value computed up front: a state updater must stay pure, and React
+    // double-invokes it in development.
+    const next = theme === 'dark' ? 'light' : 'dark';
+    setTheme(next);
+    localStorage.setItem('vitti-theme', next);
   }, [theme]);
 
   const fetchLog = useCallback(async (d: string) => {
@@ -267,7 +286,7 @@ export default function Dashboard() {
   const renderedGrid = useMemo(() => (
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
       {sorted.map((ann, i) => (
-        <div key={ann.url + i + ann.time} style={{ animationDelay: `${Math.min(i * 0.04, 0.5)}s` }} className="animate-fade-in-up">
+        <div key={ann.url + i + ann.time} style={{ animationDelay: `${Math.min(i * 0.04, 0.5)}s` }} className="animate-fade-in-up h-full">
           <AnnouncementCard ann={ann} />
         </div>
       ))}
@@ -389,11 +408,7 @@ export default function Dashboard() {
           activeView={activeView}
           theme={theme}
           onViewChange={setActiveView}
-          onThemeToggle={() => {
-            const flip = () => setTheme(t => (t === 'dark' ? 'light' : 'dark'));
-            if (!document.startViewTransition) { flip(); return; }
-            document.startViewTransition(flip);
-          }}
+          onThemeToggle={toggleTheme}
           onMenuToggle={() => setSidebarOpen(o => !o)}
           onRefresh={() => fetchLog(date)}
           lastUpdated={lastUpdated}
