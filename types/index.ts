@@ -42,6 +42,9 @@ export interface PlacementDayLog {
 
 export type ViewMode = 'grid' | 'list';
 
+/** Top-level sections. Distinct from the feed's filters — see lib/views.ts. */
+export type ViewKey = 'announcements' | 'accuracy' | 'whatsapp' | 'us';
+
 // ── Sentiment scorecard (written by verify_sentiment.py after the ASX close) ──
 
 /** correct/wrong = cleared the dead band; flat = moved less than it;

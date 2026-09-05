@@ -1,31 +1,81 @@
 'use client';
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
-import { Announcement, DayLog, PlacementDayLog, Scorecard, ScorecardSummary, ViewMode } from '@/types';
-import { getSentiment, sentimentRank } from '@/lib/utils';
+import {
+  Announcement, DayLog, PlacementDayLog, Scorecard, ScorecardSummary, ViewKey, ViewMode,
+} from '@/types';
+import { formatDateLabel, getSentiment, sentimentRank } from '@/lib/utils';
+import { ALL_CATEGORIES, VIEW_REGION, type SentimentFilter } from '@/lib/views';
 import Sidebar from '@/components/Sidebar';
 import Topbar from '@/components/Topbar';
+import ViewHeader from '@/components/ViewHeader';
+import FilterBar from '@/components/FilterBar';
+import FeedControls from '@/components/FeedControls';
 import AnnouncementCard from '@/components/AnnouncementCard';
 import AnnouncementRow from '@/components/AnnouncementRow';
 import PlacementCard from '@/components/PlacementCard';
 import AccuracyPanel from '@/components/AccuracyPanel';
 
-const CATEGORIES = [
-  'All Activity', 'Bullish', 'Bearish', 'Neutral', 'Quarterly', 'Results', 'Dividend',
-  'Capital Raise', 'AGM', 'Merger & Acquisition',
-  'Trading Halt', 'Board Change', 'Substantial Holding', 'Accuracy', 'Whatsapp Messages', 'US/Canada Summaries'
-];
-
-// Scores yesterday's calls against real closes; not a filter over today's feed.
-const ACCURACY_TAB = 'Accuracy';
-
-// Summary tabs share the placements pipeline; each maps to a market region (see lib/markets.ts).
-const SUMMARY_TABS: Record<string, string> = {
-  'Whatsapp Messages': 'au',
-  'US/Canada Summaries': 'us',
-};
-
 const REFRESH_MS = 5 * 60 * 1000;
+
+function Spinner({ title, message }: { title: string; message: string }) {
+  return (
+    <div className="flex flex-col items-center justify-center h-[52vh] gap-5 animate-fade-in-up">
+      <div className="relative w-12 h-12">
+        <div className="absolute inset-0 rounded-full"
+          style={{ border: '2px solid var(--border-accent)', borderTopColor: 'var(--accent)', animation: 'spin 0.8s linear infinite' }} />
+        <div className="absolute inset-2.5 rounded-full"
+          style={{ border: '2px solid var(--border-accent)', borderTopColor: 'var(--accent-light)', animation: 'spin 0.5s linear infinite reverse' }} />
+      </div>
+      <div className="text-center">
+        <h3 className="text-[1rem] font-bold" style={{ color: 'var(--text-primary)' }}>{title}</h3>
+        <p className="text-[0.8rem] mt-1" style={{ color: 'var(--text-dim)' }}>{message}</p>
+      </div>
+    </div>
+  );
+}
+
+function Notice({ tone, title, body, actionLabel, onAction }: {
+  tone: 'info' | 'error'; title: string; body: string;
+  actionLabel: string; onAction: () => void;
+}) {
+  const color = tone === 'info' ? 'var(--accent)' : 'var(--danger)';
+  return (
+    <div className="mx-auto max-w-xl mt-10 animate-fade-in-up">
+      <div className="rounded-[20px] p-7 flex items-start gap-5"
+        style={{
+          background: `color-mix(in srgb, ${color}, transparent 94%)`,
+          border: `1px solid color-mix(in srgb, ${color}, transparent 82%)`,
+        }}>
+        <div className="w-12 h-12 rounded-2xl flex items-center justify-center flex-shrink-0"
+          style={{
+            background: `color-mix(in srgb, ${color}, transparent 88%)`,
+            border: `1px solid color-mix(in srgb, ${color}, transparent 80%)`,
+          }}>
+          <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" style={{ color }}>
+            {tone === 'info' ? (
+              <>
+                <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" />
+                <path d="M12 6v6l4 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              </>
+            ) : (
+              <path d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+            )}
+          </svg>
+        </div>
+        <div className="pt-0.5">
+          <h3 className="text-[1rem] font-bold mb-2" style={{ color }}>{title}</h3>
+          <p className="text-[0.85rem] leading-relaxed mb-5" style={{ color: 'var(--text-secondary)' }}>{body}</p>
+          <button onClick={onAction}
+            className="px-5 py-2.5 rounded-xl text-white text-[0.8rem] font-bold tracking-wide transition-all duration-150 hover:-translate-y-0.5"
+            style={{ background: color }}>
+            {actionLabel}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
 
 export default function Dashboard() {
   const [date, setDate] = useState<string>('');
@@ -35,7 +85,9 @@ export default function Dashboard() {
   const [availableDates, setAvailableDates] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>('grid');
   const [search, setSearch] = useState('');
-  const [activeCategory, setActiveCategory] = useState('All Activity');
+  const [activeView, setActiveView] = useState<ViewKey>('announcements');
+  const [sentiment, setSentiment] = useState<SentimentFilter>('all');
+  const [category, setCategory] = useState<string>(ALL_CATEGORIES);
   const [activeTags, setActiveTags] = useState<Set<string>>(new Set());
   const [marketSensitiveOnly, setMarketSensitiveOnly] = useState(false);
   const [theme, setTheme] = useState<'dark' | 'light'>('dark');
@@ -44,74 +96,51 @@ export default function Dashboard() {
   const [isClient, setIsClient] = useState(false);
   const [placementLog, setPlacementLog] = useState<PlacementDayLog | null>(null);
   const [placementLoading, setPlacementLoading] = useState(false);
-  const [placementDates, setPlacementDates] = useState<string[]>([]);
   const [scorecard, setScorecard] = useState<Scorecard | null>(null);
   const [scoreSummary, setScoreSummary] = useState<ScorecardSummary | null>(null);
   const [scoreLoading, setScoreLoading] = useState(false);
   const [scoreError, setScoreError] = useState<string | null>(null);
 
-  // Which market region (if any) the active tab maps to; undefined for non-summary tabs.
-  const summaryRegion = SUMMARY_TABS[activeCategory];
-  const isSummaryTab = summaryRegion !== undefined;
-  const isAccuracyTab = activeCategory === ACCURACY_TAB;
+  const region = VIEW_REGION[activeView];
+  const isPlacementView = region !== undefined;
+  const isAccuracyView = activeView === 'accuracy';
+  const isFeedView = activeView === 'announcements';
 
   useEffect(() => {
     setIsClient(true);
 
-    // Get current date in Sydney
-    const sydneyTime = new Intl.DateTimeFormat('en-CA', {
-      timeZone: 'Australia/Sydney',
-      year: 'numeric',
-      month: '2-digit',
-      day: '2-digit',
-      hour: '2-digit',
-      hour12: false
-    }).formatToParts(new Date());
+    const parts = Object.fromEntries(
+      new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'Australia/Sydney',
+        year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', hour12: false,
+      }).formatToParts(new Date()).map(p => [p.type, p.value])
+    );
 
-    const parts = Object.fromEntries(sydneyTime.map(p => [p.type, p.value]));
     let year = parseInt(parts.year);
     let month = parseInt(parts.month);
     let day = parseInt(parts.day);
-    let hour = parseInt(parts.hour);
 
-    // If it's before 8 AM in Sydney, show yesterday's announcements by default
-    if (hour < 8) {
+    // Before 8 AM Sydney the day has no announcements yet, so open on yesterday.
+    if (parseInt(parts.hour) < 8) {
       const d = new Date(year, month - 1, day);
       d.setDate(d.getDate() - 1);
-      year = d.getFullYear();
-      month = d.getMonth() + 1;
-      day = d.getDate();
+      year = d.getFullYear(); month = d.getMonth() + 1; day = d.getDate();
     }
 
-    const dateStr = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
-    setDate(dateStr);
+    setDate(`${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`);
 
     const savedView = localStorage.getItem('vitti-view') as ViewMode;
     const savedTheme = localStorage.getItem('vitti-theme') as 'dark' | 'light';
-
     if (savedView) setViewMode(savedView);
     if (savedTheme) setTheme(savedTheme);
 
-    fetch('/api/logs')
-      .then(r => r.json())
-      .then(d => setAvailableDates(d))
-      .catch(console.error);
-
-    fetch('/api/placements')
-      .then(r => r.json())
-      .then(d => setPlacementDates(d))
-      .catch(console.error);
+    fetch('/api/logs').then(r => r.json()).then(setAvailableDates).catch(console.error);
   }, []);
 
   useEffect(() => {
     const root = document.documentElement;
-    if (theme === 'light') {
-      root.classList.add('light');
-      root.classList.remove('dark');
-    } else {
-      root.classList.add('dark');
-      root.classList.remove('light');
-    }
+    root.classList.toggle('light', theme === 'light');
+    root.classList.toggle('dark', theme !== 'light');
     localStorage.setItem('vitti-theme', theme);
   }, [theme]);
 
@@ -122,33 +151,26 @@ export default function Dashboard() {
     try {
       const res = await fetch(`/api/logs/${d}`);
       if (!res.ok) {
-        if (res.status === 404) setError(`No market data found for ${d}.`);
-        else setError('Failed to load market data.');
+        setError(res.status === 404 ? `No market data found for ${d}.` : 'Failed to load market data.');
         setLog(null);
       } else {
-        const data: DayLog = await res.json();
-        setLog(data);
-        setLastUpdated(data.generated_at ? new Date(data.generated_at) : new Date());
+        setLog(await res.json());
+        setLastUpdated(new Date());
       }
     } catch {
-      setError('Connection refused. Please ensure the local server is running.');
+      setError('Failed to load market data.');
       setLog(null);
     } finally {
       setLoading(false);
     }
   }, []);
 
-  const fetchPlacements = useCallback(async (d: string, region: string) => {
+  const fetchPlacements = useCallback(async (d: string, r: string) => {
     if (!d) return;
     setPlacementLoading(true);
     try {
-      const res = await fetch(`/api/placements/${d}?region=${region}`);
-      if (res.ok) {
-        const data: PlacementDayLog = await res.json();
-        setPlacementLog(data);
-      } else {
-        setPlacementLog(null);
-      }
+      const res = await fetch(`/api/placements/${d}?region=${r}`);
+      setPlacementLog(res.ok ? await res.json() : null);
     } catch {
       setPlacementLog(null);
     } finally {
@@ -170,9 +192,7 @@ export default function Dashboard() {
         setScorecard(await dayRes.json());
       } else {
         setScorecard(null);
-        setScoreError(dayRes.status === 404
-          ? `No scorecard for ${d} yet.`
-          : 'Failed to load the scorecard.');
+        setScoreError(dayRes.status === 404 ? `No scorecard for ${d} yet.` : 'Failed to load the scorecard.');
       }
       setScoreSummary(sumRes.ok ? await sumRes.json() : null);
     } catch {
@@ -183,18 +203,19 @@ export default function Dashboard() {
     }
   }, []);
 
-  useEffect(() => { if (!isClient) return; fetchLog(date); }, [date, fetchLog, isClient]);
+  useEffect(() => { if (isClient) fetchLog(date); }, [date, fetchLog, isClient]);
 
   useEffect(() => {
-    if (!isClient || !summaryRegion) return; // narrows summaryRegion to string
+    if (!isClient || !region) return; // narrows region to string
     setPlacementLog(null);
-    fetchPlacements(date, summaryRegion);
-  }, [date, summaryRegion, fetchPlacements, isClient]);
+    fetchPlacements(date, region);
+  }, [date, region, fetchPlacements, isClient]);
 
   useEffect(() => {
-    if (!isClient || !isAccuracyTab) return;
+    if (!isClient || !isAccuracyView) return;
     fetchScorecard(date);
-  }, [date, isAccuracyTab, fetchScorecard, isClient]);
+  }, [date, isAccuracyView, fetchScorecard, isClient]);
+
   useEffect(() => {
     if (!date || !isClient) return;
     const interval = setInterval(() => fetchLog(date), REFRESH_MS);
@@ -205,45 +226,43 @@ export default function Dashboard() {
     if (!log) return [];
     return log.announcements.filter(ann => {
       if (marketSensitiveOnly && !ann.market_sensitive) return false;
-      if (activeCategory !== 'All Activity') {
-        const cleanCat = activeCategory.toLowerCase();
-        if (cleanCat === 'bullish' || cleanCat === 'bearish' || cleanCat === 'neutral') {
-          if (getSentiment(ann) !== cleanCat) return false;
-        } else {
-          const searchTerms = cleanCat === 'substantial holding' ? ['substantial hold'] : [cleanCat];
-          const tagMatch = ann.tags?.some(tag => searchTerms.some(term => tag.toLowerCase().includes(term)));
-          const typeMatch = searchTerms.some(term => ann.document_type?.toLowerCase().includes(term));
-          if (!tagMatch && !typeMatch) return false;
-        }
+      if (sentiment !== 'all' && getSentiment(ann) !== sentiment) return false;
+
+      if (category !== ALL_CATEGORIES) {
+        // "Substantial Holding" is filed under headings like "Substantial holder",
+        // so match the stem rather than the whole label.
+        const term = category === 'Substantial Holding' ? 'substantial hold' : category.toLowerCase();
+        const tagMatch = ann.tags?.some(t => t.toLowerCase().includes(term));
+        const typeMatch = ann.document_type?.toLowerCase().includes(term);
+        if (!tagMatch && !typeMatch) return false;
       }
-      if (activeTags.size > 0) {
-        if (!ann.tags?.some(t => activeTags.has(t))) return false;
-      }
+
+      if (activeTags.size > 0 && !ann.tags?.some(t => activeTags.has(t))) return false;
+
       if (search.trim()) {
         const q = search.toLowerCase();
-        if (!(ann.ticker.toLowerCase().includes(q) || ann.company.toLowerCase().includes(q) || ann.headline.toLowerCase().includes(q))) return false;
+        if (!(ann.ticker.toLowerCase().includes(q)
+          || ann.company.toLowerCase().includes(q)
+          || ann.headline.toLowerCase().includes(q))) return false;
       }
       return true;
     });
-  }, [log, activeCategory, activeTags, search, marketSensitiveOnly]);
+  }, [log, sentiment, category, activeTags, search, marketSensitiveOnly]);
 
   const tagCounts = useMemo<Record<string, number>>(() => {
     if (!log) return {};
     const counts: Record<string, number> = {};
-    log.announcements.forEach(ann => ann.tags?.forEach(tag => { counts[tag] = (counts[tag] ?? 0) + 1; }));
+    log.announcements.forEach(ann => ann.tags?.forEach(t => { counts[t] = (counts[t] ?? 0) + 1; }));
     return counts;
   }, [log]);
 
-  const sorted = useMemo(() => {
-    return [...filtered].sort((a, b) => {
-      if (a.market_sensitive && !b.market_sensitive) return -1;
-      if (!a.market_sensitive && b.market_sensitive) return 1;
-      const sa = getSentiment(a); const sb = getSentiment(b);
-      const ra = sentimentRank(sa); const rb = sentimentRank(sb);
-      if (ra !== rb) return ra - rb;
-      return new Date(b.time).getTime() - new Date(a.time).getTime();
-    });
-  }, [filtered]);
+  const sorted = useMemo(() => [...filtered].sort((a, b) => {
+    if (a.market_sensitive !== b.market_sensitive) return a.market_sensitive ? -1 : 1;
+    const ra = sentimentRank(getSentiment(a));
+    const rb = sentimentRank(getSentiment(b));
+    if (ra !== rb) return ra - rb;
+    return new Date(b.time).getTime() - new Date(a.time).getTime();
+  }), [filtered]);
 
   const renderedGrid = useMemo(() => (
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
@@ -266,59 +285,69 @@ export default function Dashboard() {
   ), [sorted]);
 
   function handleTagToggle(tag: string) {
-    setActiveTags(prev => { const next = new Set(prev); if (next.has(tag)) next.delete(tag); else next.add(tag); return next; });
+    setActiveTags(prev => {
+      const next = new Set(prev);
+      if (next.has(tag)) next.delete(tag); else next.add(tag);
+      return next;
+    });
   }
-  function handleViewChange(v: ViewMode) { setViewMode(v); localStorage.setItem('vitti-view', v); }
+
+  function handleViewMode(v: ViewMode) {
+    setViewMode(v);
+    localStorage.setItem('vitti-view', v);
+  }
+
+  const clearFilters = useCallback(() => {
+    setSentiment('all');
+    setCategory(ALL_CATEGORIES);
+    setActiveTags(new Set());
+    setMarketSensitiveOnly(false);
+    setSearch('');
+  }, []);
+
   const handleCsvDownload = useCallback(() => {
     if (!sorted.length) return;
     const headers = ['Ticker', 'Company', 'Headline', 'Time', 'Market Sensitive', 'Sentiment', 'Summary', 'Tags', 'URL'];
     const rows = sorted.map(a => [
       a.ticker, a.company, `"${a.headline.replace(/"/g, '""')}"`,
-      a.time, a.market_sensitive ? 'Yes' : 'No',
-      getSentiment(a),
+      a.time, a.market_sensitive ? 'Yes' : 'No', getSentiment(a),
       `"${(a.summary || []).join(' | ').replace(/"/g, '""')}"`,
       (a.tags || []).join(', '), a.url,
     ].join(','));
-    const csv = [headers.join(','), ...rows].join('\n');
-    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const blob = new Blob([[headers.join(','), ...rows].join('\n')], { type: 'text/csv;charset=utf-8;' });
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
-    // Build a descriptive filename that reflects active filters
-    const filterSlug = activeCategory !== 'All Activity'
-      ? `_${activeCategory.replace(/[^a-z0-9]/gi, '-').toLowerCase()}`
-      : activeTags.size > 0
-        ? `_tagged-${Array.from(activeTags).slice(0, 2).join('-').replace(/[^a-z0-9]/gi, '-').toLowerCase()}`
-        : search.trim()
-          ? `_search-${search.trim().replace(/[^a-z0-9]/gi, '-').toLowerCase()}`
-          : '';
+    // Name the file after whatever narrowed it, so exports stay tellable apart.
+    const slug = sentiment !== 'all' ? `_${sentiment}`
+      : category !== ALL_CATEGORIES ? `_${category.replace(/[^a-z0-9]/gi, '-').toLowerCase()}`
+        : activeTags.size > 0 ? `_tagged-${Array.from(activeTags).slice(0, 2).join('-').replace(/[^a-z0-9]/gi, '-').toLowerCase()}`
+          : search.trim() ? `_search-${search.trim().replace(/[^a-z0-9]/gi, '-').toLowerCase()}`
+            : '';
     a.href = url;
-    a.download = `Vitti_ASX_Export_${date}${filterSlug}_${sorted.length}rows.csv`;
+    a.download = `Vitti_ASX_Export_${date}${slug}_${sorted.length}rows.csv`;
     a.click();
     URL.revokeObjectURL(url);
-  }, [sorted, date, activeCategory, activeTags, search]);
+  }, [sorted, date, sentiment, category, activeTags, search]);
 
-  const dateLabel = date
-    ? new Date(date + 'T00:00:00').toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' })
-    : '';
+  const dateLabel = date ? formatDateLabel(date) : '';
+  const sensitiveCount = log?.announcements.filter(a => a.market_sensitive).length ?? 0;
+  const isNarrowed = !!log && sorted.length !== log.announcements.length;
 
-  if (!isClient) return <div className="min-h-screen bg-[#04060f]" />;
+  if (!isClient) return <div className="min-h-screen" style={{ background: 'var(--bg-app)' }} />;
 
   return (
-    <div className="flex min-h-screen transition-colors duration-500" style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
+    <div className="flex min-h-screen transition-colors duration-500"
+      style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
 
       {/* ── Background decoration ── */}
       <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
-        {/* Radial glows */}
         <div className="absolute inset-0"
           style={{
-            background: theme === 'dark' ? `
-              radial-gradient(ellipse 80% 50% at 80% -10%, rgba(99,102,241,0.04) 0%, transparent 60%),
-              radial-gradient(ellipse 60% 50% at -10% 80%, rgba(139,92,246,0.03) 0%, transparent 60%)
-            ` : `
-              radial-gradient(ellipse 80% 50% at 80% -10%, rgba(99,102,241,0.02) 0%, transparent 60%)
-            `,
+            background: theme === 'dark'
+              ? `radial-gradient(ellipse 80% 50% at 80% -10%, rgba(99,102,241,0.04) 0%, transparent 60%),
+                 radial-gradient(ellipse 60% 50% at -10% 80%, rgba(139,92,246,0.03) 0%, transparent 60%)`
+              : 'radial-gradient(ellipse 80% 50% at 80% -10%, rgba(99,102,241,0.02) 0%, transparent 60%)',
           }} />
-        {/* Dot grid */}
         <div className="absolute inset-0 opacity-[0.1]"
           style={{
             backgroundImage: theme === 'dark'
@@ -328,273 +357,132 @@ export default function Dashboard() {
           }} />
       </div>
 
-      {/* Mobile sidebar overlay */}
       {sidebarOpen && (
-        <div
-          className="fixed inset-0 z-40 lg:hidden"
-          style={{ background: theme === 'dark' ? 'rgba(0,0,0,0.75)' : 'rgba(0,0,0,0.45)', backdropFilter: 'blur(8px)' }}
-          onClick={() => setSidebarOpen(false)}
-        />
+        <div className="fixed inset-0 z-40 lg:hidden"
+          style={{ background: 'rgba(0,0,0,0.7)', backdropFilter: 'blur(8px)' }}
+          onClick={() => setSidebarOpen(false)} />
       )}
 
-      {/* Sidebar */}
       <div className={`fixed top-0 bottom-0 left-0 z-50 lg:relative lg:z-auto lg:block transition-transform duration-300
         ${sidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}`}>
         <Sidebar
           date={date}
           availableDates={availableDates}
           log={log}
-          filtered={sorted.length}
           activeTags={activeTags}
-          activeCategory={activeCategory}
+          sentiment={sentiment}
+          category={category}
           marketSensitiveOnly={marketSensitiveOnly}
-          onMarketSensitiveToggle={() => setMarketSensitiveOnly(v => !v)}
-          onCategoryChange={setActiveCategory}
-          onDateChange={d => { setDate(d); setActiveCategory('All Activity'); setActiveTags(new Set()); setSearch(''); setMarketSensitiveOnly(false); setPlacementLog(null); }}
+          filtersApply={isFeedView}
+          onSentimentChange={s => { setActiveView('announcements'); setSentiment(s); }}
+          onCategoryChange={c => { setActiveView('announcements'); setCategory(c); }}
+          onSensitiveToggle={() => { setActiveView('announcements'); setMarketSensitiveOnly(v => !v); }}
+          onResetFilters={() => { setActiveView('announcements'); clearFilters(); }}
+          onDateChange={d => { setDate(d); clearFilters(); setPlacementLog(null); }}
           onTagToggle={handleTagToggle}
-          onCsvDownload={handleCsvDownload}
           tagCounts={tagCounts}
         />
       </div>
 
-      {/* Main Content */}
       <main className="flex-1 flex flex-col min-w-0 relative z-10">
         <Topbar
-          dateLabel={dateLabel}
-          viewMode={viewMode}
-          search={search}
+          activeView={activeView}
           theme={theme}
-          onViewChange={handleViewChange}
-          onSearchChange={setSearch}
+          onViewChange={setActiveView}
           onThemeToggle={() => {
-            if (!document.startViewTransition) { setTheme(t => t === 'dark' ? 'light' : 'dark'); return; }
-            document.startViewTransition(() => { setTheme(t => t === 'dark' ? 'light' : 'dark'); });
+            const flip = () => setTheme(t => (t === 'dark' ? 'light' : 'dark'));
+            if (!document.startViewTransition) { flip(); return; }
+            document.startViewTransition(flip);
           }}
           onMenuToggle={() => setSidebarOpen(o => !o)}
           onRefresh={() => fetchLog(date)}
           lastUpdated={lastUpdated}
         />
 
-        {/* ── Category Tab Bar ── */}
-        <nav className="flex gap-0 px-6 pt-0 overflow-x-auto [scrollbar-width:none] sticky top-[60px] z-30 flex-shrink-0 transition-colors duration-300"
-          style={{
-            background: 'var(--bg-nav)',
-            backdropFilter: 'blur(12px)',
-            borderBottom: '1px solid var(--border-subtle)',
-          }}>
-          {CATEGORIES.map(cat => {
-            const isActive = activeCategory === cat;
-            return (
-              <button
-                key={cat}
-                onClick={() => setActiveCategory(cat)}
-                className="relative px-4 py-3.5 text-[0.8rem] font-semibold whitespace-nowrap flex-shrink-0 transition-colors duration-150"
-                style={{
-                  color: isActive ? 'rgba(165,180,252,1)' : 'rgba(100,116,139,0.75)',
-                }}
-              >
-                {cat}
-                {/* Active underline */}
-                {isActive && (
-                  <span className="absolute bottom-0 left-2 right-2 h-[2px] rounded-full"
-                    style={{ background: 'linear-gradient(90deg, #6366f1, #8b5cf6)', boxShadow: '0 0 8px rgba(99,102,241,0.6)' }} />
-                )}
-              </button>
-            );
-          })}
-        </nav>
-
-        {/* ── Scrollable Feed ── */}
         <div className="flex-1 overflow-auto pb-16 px-5 sm:px-7 pt-6">
 
-          {/* Market Loading */}
-          {loading && !isSummaryTab && !isAccuracyTab && (
-            <div className="flex flex-col items-center justify-center h-[52vh] gap-5 animate-fade-in-up">
-              <div className="relative w-12 h-12">
-                <div className="absolute inset-0 rounded-full"
-                  style={{ border: '2px solid var(--border-accent)', borderTopColor: 'var(--accent)', animation: 'spin 0.8s linear infinite' }} />
-                <div className="absolute inset-2.5 rounded-full"
-                  style={{ border: '2px solid var(--border-accent)', borderTopColor: 'var(--text-accent)', animation: 'spin 0.5s linear infinite reverse' }} />
-              </div>
-              <div className="text-center">
-                <h3 className="text-[1rem] font-bold text-slate-200">Fetching Market Data</h3>
-                <p className="text-[0.8rem] mt-1" style={{ color: 'rgba(100,116,139,0.7)' }}>
-                  Analyzing ASX announcements for {dateLabel}…
-                </p>
-              </div>
-            </div>
-          )}
+          {/* ── Announcements ── */}
+          {isFeedView && (
+            <div className="max-w-[1600px] mx-auto">
+              <ViewHeader
+                title="Market Activity"
+                subtitle={log
+                  ? <>
+                    {isNarrowed && <><b style={{ color: 'var(--text-secondary)' }}>{sorted.length}</b> of </>}
+                    {log.announcements.length} announcements · {sensitiveCount} market sensitive · {dateLabel}
+                  </>
+                  : dateLabel}
+                actions={
+                  <FeedControls
+                    search={search}
+                    viewMode={viewMode}
+                    onSearchChange={setSearch}
+                    onViewChange={handleViewMode}
+                    onCsvDownload={handleCsvDownload}
+                    canExport={sorted.length > 0}
+                  />
+                }
+              />
 
-          {/* Placement Loading */}
-          {isSummaryTab && placementLoading && (
-            <div className="flex flex-col items-center justify-center h-[52vh] gap-5 animate-fade-in-up">
-              <div className="relative w-12 h-12">
-                <div className="absolute inset-0 rounded-full"
-                  style={{ border: '2px solid rgba(168,85,247,0.3)', borderTopColor: '#a855f7', animation: 'spin 0.8s linear infinite' }} />
-                <div className="absolute inset-2.5 rounded-full"
-                  style={{ border: '2px solid rgba(168,85,247,0.3)', borderTopColor: '#c084fc', animation: 'spin 0.5s linear infinite reverse' }} />
-              </div>
-              <div className="text-center">
-                <h3 className="text-[1rem] font-bold text-slate-200">Fetching Placement Data</h3>
-                <p className="text-[0.8rem] mt-1" style={{ color: 'rgba(100,116,139,0.7)' }}>
-                  Analyzing placements for {dateLabel}…
-                </p>
-              </div>
-            </div>
-          )}
+              <FilterBar
+                sentiment={sentiment}
+                category={category}
+                marketSensitiveOnly={marketSensitiveOnly}
+                activeTagCount={activeTags.size}
+                sensitiveCount={sensitiveCount}
+                onSentimentChange={setSentiment}
+                onCategoryChange={setCategory}
+                onSensitiveToggle={() => setMarketSensitiveOnly(v => !v)}
+                onClear={clearFilters}
+              />
 
-          {/* Error / Pending state */}
-          {error && !loading && !isSummaryTab && !isAccuracyTab && (
-            <div className="mx-auto max-w-xl mt-10 animate-fade-in-up">
-              <div className="rounded-[20px] p-7 flex items-start gap-5"
-                style={{
-                  background: error.includes('No market data')
-                    ? 'rgba(99,102,241,0.06)'
-                    : 'rgba(244,63,94,0.06)',
-                  border: error.includes('No market data')
-                    ? '1px solid rgba(99,102,241,0.18)'
-                    : '1px solid rgba(244,63,94,0.18)',
-                }}>
-                {/* Icon */}
-                <div className="w-12 h-12 rounded-2xl flex items-center justify-center flex-shrink-0"
-                  style={{
-                    background: error.includes('No market data') ? 'rgba(99,102,241,0.12)' : 'rgba(244,63,94,0.12)',
-                    border: error.includes('No market data') ? '1px solid rgba(99,102,241,0.2)' : '1px solid rgba(244,63,94,0.2)',
-                    boxShadow: error.includes('No market data') ? '0 0 30px rgba(99,102,241,0.15)' : '0 0 30px rgba(244,63,94,0.15)',
-                  }}>
-                  {error.includes('No market data') ? (
-                    <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" style={{ color: '#818cf8' }}>
-                      <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" />
-                      <path d="M12 6v6l4 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              {loading && (
+                <Spinner title="Fetching Market Data" message={`Analysing ASX announcements for ${dateLabel}…`} />
+              )}
+
+              {error && !loading && (
+                <Notice
+                  tone={error.includes('No market data') ? 'info' : 'error'}
+                  title={error.includes('No market data') ? 'No Market Activity' : 'Connection Error'}
+                  body={error.includes('No market data')
+                    ? 'No announcements found for this date. This usually means the market has not opened yet, or it is a weekend or public holiday.'
+                    : error}
+                  actionLabel="Check Again"
+                  onAction={() => fetchLog(date)}
+                />
+              )}
+
+              {!loading && !error && log && sorted.length === 0 && (
+                <div className="flex flex-col items-center justify-center h-[46vh] gap-5 text-center px-8 animate-fade-in-up">
+                  <div className="w-16 h-16 rounded-3xl flex items-center justify-center animate-float"
+                    style={{ background: 'var(--accent-dim)', border: '1px solid var(--border-accent)' }}>
+                    <svg viewBox="0 0 24 24" fill="none" className="w-8 h-8" style={{ color: 'var(--accent-light)', opacity: 0.6 }}>
+                      <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                        stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
-                  ) : (
-                    <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" style={{ color: '#fb7185' }}>
-                      <path d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-                    </svg>
-                  )}
-                </div>
-
-                <div className="pt-0.5">
-                  <h3 className="text-[1rem] font-bold mb-2"
-                    style={{ color: error.includes('No market data') ? '#a5b4fc' : '#fda4af' }}>
-                    {error.includes('No market data') ? 'No Market Activity' : 'Connection Error'}
-                  </h3>
-                  <p className="text-[0.85rem] leading-relaxed mb-5" style={{ color: 'rgba(148,163,184,0.75)' }}>
-                    {error.includes('No market data')
-                      ? "No announcements found for this date. This usually means the market hasn't opened yet, or it is a weekend or public holiday."
-                      : error}
-                  </p>
-                  <button
-                    onClick={() => fetchLog(date)}
-                    className="px-5 py-2.5 rounded-xl text-white text-[0.8rem] font-bold tracking-wide transition-all duration-150 hover:-translate-y-0.5"
-                    style={{
-                      background: error.includes('No market data') ? '#6366f1' : '#f43f5e',
-                      boxShadow: error.includes('No market data')
-                        ? '0 4px 20px rgba(99,102,241,0.35)'
-                        : '0 4px 20px rgba(244,63,94,0.35)',
-                    }}>
-                    Check Again
-                  </button>
-                </div>
-              </div>
-            </div>
-          )}
-
-          {/* Placement Empty State */}
-          {isSummaryTab && !placementLoading && (!placementLog || placementLog.placements.length === 0) && (
-            <div className="mx-auto max-w-xl mt-10 animate-fade-in-up">
-              <div className="rounded-[20px] p-7 flex items-start gap-5"
-                style={{
-                  background: 'rgba(168,85,247,0.06)',
-                  border: '1px solid rgba(168,85,247,0.18)',
-                }}>
-                {/* Icon */}
-                <div className="w-12 h-12 rounded-2xl flex items-center justify-center flex-shrink-0"
-                  style={{
-                    background: 'rgba(168,85,247,0.12)',
-                    border: '1px solid rgba(168,85,247,0.2)',
-                    boxShadow: '0 0 30px rgba(168,85,247,0.15)',
-                  }}>
-                  <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" style={{ color: '#c084fc' }}>
-                    <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" />
-                    <path d="M12 6v6l4 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </div>
-
-                <div className="pt-0.5">
-                  <h3 className="text-[1rem] font-bold mb-2" style={{ color: '#d8b4fe' }}>
-                    No Placement Activity
-                  </h3>
-                  <p className="text-[0.85rem] leading-relaxed mb-5" style={{ color: 'rgba(148,163,184,0.75)' }}>
-                    No placement summaries found for this date.
-                  </p>
-                  <button
-                    onClick={() => fetchPlacements(date, summaryRegion ?? 'au')}
-                    className="px-5 py-2.5 rounded-xl text-white text-[0.8rem] font-bold tracking-wide transition-all duration-150 hover:-translate-y-0.5"
-                    style={{
-                      background: '#a855f7',
-                      boxShadow: '0 4px 20px rgba(168,85,247,0.35)',
-                    }}>
-                    Check Again
-                  </button>
-                </div>
-              </div>
-            </div>
-          )}
-
-          {/* Empty state — hidden on summary tabs */}
-          {!isSummaryTab && !isAccuracyTab && !loading && !error && sorted.length === 0 && log && (
-            <div className="flex flex-col items-center justify-center h-[52vh] gap-5 text-center px-8 animate-fade-in-up">
-              <div className="w-16 h-16 rounded-3xl flex items-center justify-center animate-float"
-                style={{ background: 'rgba(99,102,241,0.07)', border: '1px solid rgba(99,102,241,0.12)', boxShadow: '0 0 40px rgba(99,102,241,0.08)' }}>
-                <svg viewBox="0 0 24 24" fill="none" className="w-8 h-8" style={{ color: 'rgba(129,140,248,0.5)' }}>
-                  <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                    stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </div>
-              <div>
-                <h3 className="text-[1.05rem] font-bold text-slate-200">No announcements match</h3>
-                <p className="text-[0.82rem] mt-1.5 max-w-xs mx-auto leading-relaxed" style={{ color: 'rgba(100,116,139,0.7)' }}>
-                  Refine your search, adjust the category filter, or select a different trading date.
-                </p>
-              </div>
-              <button
-                onClick={() => { setSearch(''); setActiveCategory('All Activity'); setActiveTags(new Set()); }}
-                className="mt-1 px-5 py-2.5 rounded-xl text-[0.8rem] font-semibold transition-all duration-150 hover:-translate-y-0.5"
-                style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)', color: 'rgba(148,163,184,0.8)' }}>
-                Clear Filters
-              </button>
-            </div>
-          )}
-
-          {/* Placement summaries inside summary tabs (AU / US-Canada) */}
-          {isSummaryTab && !placementLoading && placementLog && placementLog.placements.length > 0 && (
-            <div className="max-w-[1000px] mx-auto mb-8">
-              <div className="flex items-center justify-between mb-5 px-1 animate-fade-in-up">
-                <h2 className="text-[1rem] font-bold text-slate-200 flex items-center gap-3">
-                  Placement & IPO Summaries
-                  <span className="font-mono text-[0.7rem] font-semibold px-2.5 py-1 rounded-full"
-                    style={{ color: 'rgba(168,85,247,0.7)', background: 'rgba(168,85,247,0.06)', border: '1px solid rgba(168,85,247,0.15)' }}>
-                    {placementLog.placements.length} {placementLog.placements.length === 1 ? 'deal' : 'deals'}
-                  </span>
-                </h2>
-                <p className="text-[0.65rem] font-medium" style={{ color: 'rgba(100,116,139,0.5)' }}>
-                  Click a summary to select · Hover for copy button
-                </p>
-              </div>
-
-              <div className="flex flex-col gap-4">
-                {placementLog.placements.map((p, i) => (
-                  <div key={p.ticker + p.received_at + i} style={{ animationDelay: `${Math.min(i * 0.06, 0.3)}s` }} className="animate-fade-in-up">
-                    <PlacementCard placement={p} />
                   </div>
-                ))}
-              </div>
+                  <div>
+                    <h3 className="text-[1.05rem] font-bold" style={{ color: 'var(--text-primary)' }}>
+                      No announcements match
+                    </h3>
+                    <p className="text-[0.82rem] mt-1.5 max-w-xs mx-auto leading-relaxed" style={{ color: 'var(--text-dim)' }}>
+                      Refine your search, loosen the filters, or pick a different trading date.
+                    </p>
+                  </div>
+                  <button onClick={clearFilters}
+                    className="mt-1 px-5 py-2.5 rounded-xl text-[0.8rem] font-semibold transition-all duration-150 hover:-translate-y-0.5"
+                    style={{ background: 'var(--border-subtle)', border: '1px solid var(--border-med)', color: 'var(--text-secondary)' }}>
+                    Clear Filters
+                  </button>
+                </div>
+              )}
+
+              {!loading && !error && sorted.length > 0 && (viewMode === 'grid' ? renderedGrid : renderedList)}
             </div>
           )}
 
-          {/* Accuracy — how yesterday's bullish/bearish calls actually landed */}
-          {isAccuracyTab && (
+          {/* ── Accuracy ── */}
+          {isAccuracyView && (
             <AccuracyPanel
               card={scorecard}
               summary={scoreSummary}
@@ -605,21 +493,40 @@ export default function Dashboard() {
             />
           )}
 
-          {/* Feed */}
-          {!isAccuracyTab && !loading && !error && sorted.length > 0 && (
-            <div className="max-w-[1600px] mx-auto">
-              {/* Results label */}
-              <div className="flex items-center justify-between mb-5 px-1 animate-fade-in-up">
-                <h2 className="text-[1rem] font-bold text-slate-200 flex items-center gap-3">
-                  Market Activity
-                  <span className="font-mono text-[0.7rem] font-semibold px-2.5 py-1 rounded-full"
-                    style={{ color: 'rgba(148,163,184,0.6)', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.07)' }}>
-                    {sorted.length} results
-                  </span>
-                </h2>
-              </div>
+          {/* ── Placement & IPO summaries (AU / US-Canada) ── */}
+          {isPlacementView && (
+            <div className="max-w-[1000px] mx-auto">
+              <ViewHeader
+                title="Placement & IPO Summaries"
+                subtitle={placementLog && placementLog.placements.length > 0
+                  ? `${placementLog.placements.length} ${placementLog.placements.length === 1 ? 'deal' : 'deals'} · ${dateLabel} · hover a card to copy its summary`
+                  : dateLabel}
+              />
 
-              {viewMode === 'grid' ? renderedGrid : renderedList}
+              {placementLoading && (
+                <Spinner title="Fetching Placement Data" message={`Analysing placements for ${dateLabel}…`} />
+              )}
+
+              {!placementLoading && (!placementLog || placementLog.placements.length === 0) && (
+                <Notice
+                  tone="info"
+                  title="No Placement Activity"
+                  body="No placement summaries found for this date."
+                  actionLabel="Check Again"
+                  onAction={() => region && fetchPlacements(date, region)}
+                />
+              )}
+
+              {!placementLoading && placementLog && placementLog.placements.length > 0 && (
+                <div className="flex flex-col gap-4">
+                  {placementLog.placements.map((p, i) => (
+                    <div key={p.ticker + p.received_at + i}
+                      style={{ animationDelay: `${Math.min(i * 0.06, 0.3)}s` }} className="animate-fade-in-up">
+                      <PlacementCard placement={p} />
+                    </div>
+                  ))}
+                </div>
+              )}
             </div>
           )}
         </div>

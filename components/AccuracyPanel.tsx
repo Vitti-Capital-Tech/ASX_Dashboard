@@ -5,6 +5,7 @@ import type {
   Scorecard, ScorecardSummary, ScoredCall, SentimentStat, Verdict,
 } from '@/types';
 import { formatDateLabel } from '@/lib/utils';
+import ViewHeader from './ViewHeader';
 
 const VERDICT_FILTERS: { key: Verdict | 'all'; label: string }[] = [
   { key: 'all', label: 'All calls' },
@@ -262,31 +263,29 @@ export default function AccuracyPanel({
   return (
     <div className="max-w-[1400px] mx-auto animate-fade-in-up pb-4">
 
-      {/* ── Header ── */}
-      <header className="flex flex-wrap items-start justify-between gap-4 mb-6">
-        <div className="min-w-0">
-          <h2 className="text-[1.35rem] font-bold tracking-tight" style={{ color: 'var(--text-primary)' }}>
-            Prediction Accuracy
-          </h2>
-          <p className="text-[0.78rem] mt-1.5 leading-relaxed max-w-[62ch]" style={{ color: 'var(--text-dim)' }}>
-            Every bullish and bearish call from {formatDateLabel(card.date)}, checked against that day&apos;s
-            closing price and measured net of the {card.benchmark}. Moves under{' '}
-            {card.threshold_pct}% are treated as market noise, not a result.
-          </p>
-        </div>
-        <div className="flex gap-2 flex-shrink-0">
+      <ViewHeader
+        title="Prediction Accuracy"
+        subtitle={<>
+          Every bullish and bearish call from {formatDateLabel(card.date)}, checked against that
+          day&apos;s closing price and measured net of the {card.benchmark}. Moves under{' '}
+          {card.threshold_pct}% are treated as market noise, not a result.
+        </>}
+        actions={<>
           <button onClick={copySummary}
             className="px-4 py-2.5 rounded-xl text-[0.75rem] font-semibold transition-all duration-150 hover:-translate-y-0.5"
             style={{ background: 'var(--accent-dim)', border: '1px solid var(--border-accent)', color: 'var(--accent-light)' }}>
             {copied ? '✓ Copied' : 'Copy post summary'}
           </button>
           <button onClick={downloadCsv}
-            className="px-4 py-2.5 rounded-xl text-[0.75rem] font-semibold transition-all duration-150 hover:-translate-y-0.5"
+            className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-[0.75rem] font-semibold transition-all duration-150 hover:-translate-y-0.5"
             style={{ background: 'var(--border-subtle)', border: '1px solid var(--border-med)', color: 'var(--text-secondary)' }}>
+            <svg viewBox="0 0 16 16" fill="none" className="w-3.5 h-3.5">
+              <path d="M8 2v8M5 7l3 3 3-3M3 13h10" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
             Export CSV
           </button>
-        </div>
-      </header>
+        </>}
+      />
 
       {/* ── Hero + breakdown ── */}
       <div className="grid grid-cols-1 lg:grid-cols-[minmax(240px,0.85fr)_1.6fr] gap-4 mb-4">
