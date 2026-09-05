@@ -1,19 +1,23 @@
 'use client';
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
-import { Announcement, DayLog, PlacementDayLog, ViewMode } from '@/types';
+import { Announcement, DayLog, PlacementDayLog, Scorecard, ScorecardSummary, ViewMode } from '@/types';
 import { getSentiment, sentimentRank } from '@/lib/utils';
 import Sidebar from '@/components/Sidebar';
 import Topbar from '@/components/Topbar';
 import AnnouncementCard from '@/components/AnnouncementCard';
 import AnnouncementRow from '@/components/AnnouncementRow';
 import PlacementCard from '@/components/PlacementCard';
+import AccuracyPanel from '@/components/AccuracyPanel';
 
 const CATEGORIES = [
   'All Activity', 'Bullish', 'Bearish', 'Neutral', 'Quarterly', 'Results', 'Dividend',
   'Capital Raise', 'AGM', 'Merger & Acquisition',
-  'Trading Halt', 'Board Change', 'Substantial Holding', 'Whatsapp Messages', 'US/Canada Summaries'
+  'Trading Halt', 'Board Change', 'Substantial Holding', 'Accuracy', 'Whatsapp Messages', 'US/Canada Summaries'
 ];
+
+// Scores yesterday's calls against real closes; not a filter over today's feed.
+const ACCURACY_TAB = 'Accuracy';
 
 // Summary tabs share the placements pipeline; each maps to a market region (see lib/markets.ts).
 const SUMMARY_TABS: Record<string, string> = {
@@ -41,10 +45,15 @@ export default function Dashboard() {
   const [placementLog, setPlacementLog] = useState<PlacementDayLog | null>(null);
   const [placementLoading, setPlacementLoading] = useState(false);
   const [placementDates, setPlacementDates] = useState<string[]>([]);
+  const [scorecard, setScorecard] = useState<Scorecard | null>(null);
+  const [scoreSummary, setScoreSummary] = useState<ScorecardSummary | null>(null);
+  const [scoreLoading, setScoreLoading] = useState(false);
+  const [scoreError, setScoreError] = useState<string | null>(null);
 
   // Which market region (if any) the active tab maps to; undefined for non-summary tabs.
   const summaryRegion = SUMMARY_TABS[activeCategory];
   const isSummaryTab = summaryRegion !== undefined;
+  const isAccuracyTab = activeCategory === ACCURACY_TAB;
 
   useEffect(() => {
     setIsClient(true);
@@ -147,6 +156,33 @@ export default function Dashboard() {
     }
   }, []);
 
+  const fetchScorecard = useCallback(async (d: string) => {
+    if (!d) return;
+    setScoreLoading(true);
+    setScoreError(null);
+    try {
+      // The rolling summary is cheap and rarely changes, so it rides along.
+      const [dayRes, sumRes] = await Promise.all([
+        fetch(`/api/scorecard/${d}`),
+        fetch('/api/scorecard/summary'),
+      ]);
+      if (dayRes.ok) {
+        setScorecard(await dayRes.json());
+      } else {
+        setScorecard(null);
+        setScoreError(dayRes.status === 404
+          ? `No scorecard for ${d} yet.`
+          : 'Failed to load the scorecard.');
+      }
+      setScoreSummary(sumRes.ok ? await sumRes.json() : null);
+    } catch {
+      setScorecard(null);
+      setScoreError('Failed to load the scorecard.');
+    } finally {
+      setScoreLoading(false);
+    }
+  }, []);
+
   useEffect(() => { if (!isClient) return; fetchLog(date); }, [date, fetchLog, isClient]);
 
   useEffect(() => {
@@ -154,6 +190,11 @@ export default function Dashboard() {
     setPlacementLog(null);
     fetchPlacements(date, summaryRegion);
   }, [date, summaryRegion, fetchPlacements, isClient]);
+
+  useEffect(() => {
+    if (!isClient || !isAccuracyTab) return;
+    fetchScorecard(date);
+  }, [date, isAccuracyTab, fetchScorecard, isClient]);
   useEffect(() => {
     if (!date || !isClient) return;
     const interval = setInterval(() => fetchLog(date), REFRESH_MS);
@@ -367,7 +408,7 @@ export default function Dashboard() {
         <div className="flex-1 overflow-auto pb-16 px-5 sm:px-7 pt-6">
 
           {/* Market Loading */}
-          {loading && !isSummaryTab && (
+          {loading && !isSummaryTab && !isAccuracyTab && (
             <div className="flex flex-col items-center justify-center h-[52vh] gap-5 animate-fade-in-up">
               <div className="relative w-12 h-12">
                 <div className="absolute inset-0 rounded-full"
@@ -403,7 +444,7 @@ export default function Dashboard() {
           )}
 
           {/* Error / Pending state */}
-          {error && !loading && !isSummaryTab && (
+          {error && !loading && !isSummaryTab && !isAccuracyTab && (
             <div className="mx-auto max-w-xl mt-10 animate-fade-in-up">
               <div className="rounded-[20px] p-7 flex items-start gap-5"
                 style={{
@@ -502,7 +543,7 @@ export default function Dashboard() {
           )}
 
           {/* Empty state — hidden on summary tabs */}
-          {!isSummaryTab && !loading && !error && sorted.length === 0 && log && (
+          {!isSummaryTab && !isAccuracyTab && !loading && !error && sorted.length === 0 && log && (
             <div className="flex flex-col items-center justify-center h-[52vh] gap-5 text-center px-8 animate-fade-in-up">
               <div className="w-16 h-16 rounded-3xl flex items-center justify-center animate-float"
                 style={{ background: 'rgba(99,102,241,0.07)', border: '1px solid rgba(99,102,241,0.12)', boxShadow: '0 0 40px rgba(99,102,241,0.08)' }}>
@@ -552,8 +593,20 @@ export default function Dashboard() {
             </div>
           )}
 
+          {/* Accuracy — how yesterday's bullish/bearish calls actually landed */}
+          {isAccuracyTab && (
+            <AccuracyPanel
+              card={scorecard}
+              summary={scoreSummary}
+              loading={scoreLoading}
+              error={scoreError}
+              date={date}
+              onRetry={() => fetchScorecard(date)}
+            />
+          )}
+
           {/* Feed */}
-          {!loading && !error && sorted.length > 0 && (
+          {!isAccuracyTab && !loading && !error && sorted.length > 0 && (
             <div className="max-w-[1600px] mx-auto">
               {/* Results label */}
               <div className="flex items-center justify-between mb-5 px-1 animate-fade-in-up">

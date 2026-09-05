@@ -84,6 +84,66 @@ If a run is missed or you need fresh data right now, trigger one manually from t
 
 ---
 
+## Accuracy Scorecard — were we right?
+
+The **BULLISH** / **BEARISH** badge is the AI's prediction of where the share price is
+headed. The **Accuracy** tab is where that prediction gets marked.
+
+Every weekday evening, after the ASX closes, an automated job pulls the real
+end-of-day price for every ticker we called that day and checks whether the stock
+actually did what we said it would. Nothing is graded by hand.
+
+### How a call is marked
+
+- **Measured against the market.** A stock is only judged on how it moved *relative to the
+  S&P/ASX 200*. If the whole market fell 2% and our bullish pick fell 0.5%, that pick
+  beat the market and counts as correct. Without this, a bad day for the index would fail
+  every bullish call at once.
+- **Small moves do not count.** Anything under **1%** net of the index is noise, not a
+  reaction to the news, so it is marked *No real move* rather than a hit or a miss. The
+  headline hit rate only counts calls that actually moved.
+- **Timing decides the day.** News released before the 10:00 open is judged on that day's
+  close. News released after the 16:00 close is judged on the *next* session, and sits as
+  *Pending* until that price exists.
+- **Mixed days are excluded.** If one ticker gets both a bullish and a bearish call on the
+  same day, a single closing price cannot settle both, so it is left out of the hit rate.
+- **Halted and suspended stocks** have no price to check and are marked *No price*.
+
+### The numbers on the tab
+
+| Metric | What it tells you |
+| --- | --- |
+| **Hit rate** | Share of directional calls that went the right way. |
+| **Bullish / Bearish hit rate** | Whether the AI is better at spotting good news or bad news. |
+| **Bull − Bear spread** | How far bullish picks beat bearish ones on average. This is the real test — a high hit rate with no spread is not an edge. |
+| **Neutral control** | Average move of the announcements we called neutral. Bullish picks have to beat *this*, not zero, to mean anything. |
+
+Use **Copy post summary** for a plain-English, paste-ready recap of the day, and
+**Export CSV** for the full call-by-call detail.
+
+### For other projects consuming this
+
+The scorecard is committed to `scorecard/` as plain JSON and served over three endpoints:
+
+| Endpoint | Returns |
+| --- | --- |
+| `GET /api/scorecard/summary` | Rolling all-time accuracy. Small, stable payload — poll this one. |
+| `GET /api/scorecard/<YYYY-MM-DD>` | One day's full detail, including `highlights.best_calls`. |
+| `GET /api/scorecard/available` | Every date that has been scored. |
+
+### Running it by hand
+
+```bash
+python verify_sentiment.py --date 2026-09-04
+```
+
+`--backfill N` also re-checks the previous N days, which is how post-close announcements
+get resolved once the next session prints. Re-running a day is safe — it simply
+recomputes the same file. Override `BENCHMARK` or `SENTIMENT_THRESHOLD_PCT` (as env vars
+or GitHub Actions variables) to change the index or the 1% dead band.
+
+---
+
 ## For Developers & Technical Users
 
 For a deeper understanding of the architecture and AI pipeline:

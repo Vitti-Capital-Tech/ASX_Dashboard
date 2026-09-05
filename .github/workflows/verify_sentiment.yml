@@ -1,0 +1,106 @@
+name: Daily Sentiment Scorecard
+
+# Grades the day's bullish/bearish calls against actual closing prices.
+# Runs AFTER the ASX close so the closes exist to grade against.
+
+on:
+  # GitHub schedule is UTC-only. ASX closes 16:00 Sydney; Yahoo needs a little
+  # while to settle the official close, so the first attempt is 17:30 local.
+  #   AEST (UTC+10): 17:30 = 07:30 UTC | AEDT (UTC+11): 17:30 = 06:30 UTC
+  #
+  # As with the fetch workflow, GitHub drops and delays a large share of
+  # scheduled events, so this fires several times across the evening rather
+  # than once. The job is idempotent — a re-run simply overwrites the day's
+  # scorecard with the same numbers — so extra attempts cost nothing but a
+  # minute of runner time.
+  schedule:
+    - cron: "35 6,7,8,10 * * 1-5" # 16:35-20:35 Sydney, Mon-Fri
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Trading date to score (YYYY-MM-DD). Blank for today AEST."
+        required: false
+        default: ""
+      backfill:
+        description: "Also re-score this many previous days (resolves post-close news)."
+        required: false
+        default: "3"
+
+# Optional variables (Settings -> Secrets and variables -> Actions):
+#   BENCHMARK                — index to measure against (default ^AXJO)
+#   SENTIMENT_THRESHOLD_PCT  — dead band; moves smaller than this are noise (default 1.0)
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      proceed: ${{ steps.pick.outputs.proceed }}
+    steps:
+      - id: pick
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          OUT=$(python3 <<EOF
+          from datetime import datetime
+          import zoneinfo
+
+          n = datetime.now(zoneinfo.ZoneInfo("Australia/Sydney"))
+
+          # Weekdays only, and only after the 16:00 close. The DST swing moves
+          # each cron by an hour, so the window is wide on both sides and the
+          # crons pin the exact minutes.
+          run = n.weekday() < 5 and 16 <= n.hour <= 22
+
+          print("true" if run else "false")
+          EOF
+          )
+
+          echo "proceed=$OUT" >> "$GITHUB_OUTPUT"
+
+  score:
+    needs: gate
+    if: needs.gate.outputs.proceed == 'true'
+    runs-on: ubuntu-latest
+    # Shares the fetch workflow's group: both push to main, and serialising
+    # them is what keeps the rebase-and-push below from racing.
+    concurrency:
+      group: "daily-asx-fetch"
+      cancel-in-progress: false
+    permissions:
+      contents: write # needed to commit scorecard/ back to the repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Score the day's calls
+        env:
+          PYTHONUNBUFFERED: "1"
+          BENCHMARK: ${{ vars.BENCHMARK }}
+          SENTIMENT_THRESHOLD_PCT: ${{ vars.SENTIMENT_THRESHOLD_PCT }}
+        run: |
+          BACKFILL="${{ github.event.inputs.backfill }}"
+          # Blank date -> today AEST (the default inside verify_sentiment.py)
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            python -u verify_sentiment.py --date "${{ github.event.inputs.date }}" --backfill "${BACKFILL:-3}"
+          else
+            python -u verify_sentiment.py --backfill "${BACKFILL:-3}"
+          fi
+
+      - name: Commit and push scorecard
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add scorecard/
+          git diff --cached --quiet || git commit -m "chore: sentiment scorecard $(date -u '+%Y-%m-%d')"
+          git pull --rebase origin main
+          git push
