@@ -23,6 +23,7 @@ export interface OverviewCounts {
 interface Props {
   counts: OverviewCounts;
   hasLog: boolean;
+  loading: boolean;
   isActive: (a: TileAction) => boolean;
   onSelect: (a: TileAction) => void;
 }
@@ -36,7 +37,9 @@ const Glyph = {
   halt: <><rect x="5" y="4" width="4" height="12" rx="1.5" fill="currentColor" /><rect x="11" y="4" width="4" height="12" rx="1.5" fill="currentColor" /></>,
 };
 
-export default function MarketOverview({ counts, hasLog, isActive, onSelect }: Props) {
+export default function MarketOverview({ counts, hasLog, loading, isActive, onSelect }: Props) {
+  // A stale 60 reads as fact; a dash reads as "not known yet".
+  const show = (n: number) => (loading || !hasLog ? '–' : n);
   const rows: { label: string; value: number; token: string; glyph: React.ReactNode; action: TileAction }[] = [
     { label: 'Bullish', value: counts.bullish, token: 'success', glyph: Glyph.bull, action: { type: 'sentiment', value: 'bullish' } },
     { label: 'Bearish', value: counts.bearish, token: 'danger', glyph: Glyph.bear, action: { type: 'sentiment', value: 'bearish' } },
@@ -49,7 +52,7 @@ export default function MarketOverview({ counts, hasLog, isActive, onSelect }: P
   // Part-to-whole, so it earns a bar. Every segment is direct-labelled in the
   // rows below, which is what keeps it readable when green and red are hard to
   // tell apart.
-  const split = counts.bullish + counts.bearish + counts.neutral;
+  const split = loading || !hasLog ? 0 : counts.bullish + counts.bearish + counts.neutral;
   const segments = [
     { n: counts.bullish, token: 'success' },
     { n: counts.bearish, token: 'danger' },
@@ -81,7 +84,7 @@ export default function MarketOverview({ counts, hasLog, isActive, onSelect }: P
         <div className="flex items-baseline justify-between gap-2 mb-3">
           <span className="font-mono text-[1.9rem] font-bold leading-none tracking-tight"
             style={{ color: resetActive ? 'var(--accent-light)' : 'var(--text-primary)' }}>
-            {hasLog ? counts.total : '–'}
+            {show(counts.total)}
           </span>
           <span className="text-[0.6rem] font-semibold uppercase tracking-[0.12em]" style={{ color: 'var(--text-dim)' }}>
             Announcements
@@ -132,7 +135,7 @@ export default function MarketOverview({ counts, hasLog, isActive, onSelect }: P
               </span>
               <span className="ml-auto font-mono text-[0.78rem] font-bold tabular-nums flex-shrink-0"
                 style={{ color: active ? `var(--${token})` : 'var(--text-dim)' }}>
-                {value}
+                {show(value)}
               </span>
             </button>
           );

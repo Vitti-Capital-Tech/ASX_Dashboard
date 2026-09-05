@@ -2,7 +2,7 @@
 
 import type { CSSProperties } from 'react';
 import { Announcement } from '@/types';
-import { formatTime, getSentiment, tagClass, TAG_BG } from '@/lib/utils';
+import { formatTime, getSentiment, TAG_STYLE } from '@/lib/utils';
 
 interface Props {
   ann: Announcement;
@@ -23,8 +23,8 @@ export default function AnnouncementCard({ ann }: Props) {
   // a field of green and red and left no quiet surface to read against.
   const surface: CSSProperties & Record<'--card-glow', string> = {
     background: 'var(--bg-card)',
-    border: '1px solid var(--border-subtle)',
-    borderLeft: `3px solid var(--${token})`,
+    border: `1px solid color-mix(in srgb, var(--${token}), transparent 86%)`,
+    borderLeft: `3px solid color-mix(in srgb, var(--${token}), transparent 30%)`,
     boxShadow: 'var(--shadow-card)',
     // Hover shadow as a custom property, so the class below can apply it
     // without JS. The old handlers wrote box-shadow imperatively and reset it
@@ -84,8 +84,9 @@ export default function AnnouncementCard({ ann }: Props) {
           </span>
         )}
 
-        <span className="flex items-center gap-1 ml-auto font-mono text-[0.62rem]" style={{ color: 'var(--text-dim)' }}>
-          <svg viewBox="0 0 12 12" fill="none" className="w-2.5 h-2.5 flex-shrink-0">
+        <span className="flex items-center gap-1.5 ml-auto font-mono text-[0.7rem] font-medium tabular-nums"
+          style={{ color: 'var(--text-secondary)' }}>
+          <svg viewBox="0 0 12 12" fill="none" className="w-3 h-3 flex-shrink-0 opacity-70">
             <circle cx="6" cy="6" r="5" stroke="currentColor" strokeWidth="1.2" />
             <path d="M6 3.5V6l2 1.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
           </svg>
@@ -136,15 +137,12 @@ export default function AnnouncementCard({ ann }: Props) {
              line up instead of ending at ragged heights ── */}
       <div className="flex flex-wrap items-center gap-1.5 pt-3 mt-auto"
         style={{ borderTop: '1px solid var(--border-subtle)' }}>
-        {ann.tags?.map(tag => {
-          const cls = tagClass(tag);
-          return (
-            <span key={tag}
-              className={`font-mono text-[0.58rem] font-bold uppercase tracking-[0.1em] px-2 py-0.5 rounded-md border ${TAG_BG[cls] ?? TAG_BG['']}`}>
-              {tag}
-            </span>
-          );
-        })}
+        {ann.tags?.map(tag => (
+          <span key={tag} style={TAG_STYLE}
+            className="font-mono text-[0.58rem] font-semibold uppercase tracking-[0.1em] px-2 py-0.5 rounded-md">
+            {tag}
+          </span>
+        ))}
         <a href={ann.url || '#'} target="_blank" rel="noopener noreferrer"
           className="ml-auto inline-flex items-center gap-1 text-[0.65rem] font-bold hover:underline"
           style={{ color: 'var(--accent)' }}>

@@ -393,11 +393,24 @@ export default function Dashboard() {
           category={category}
           marketSensitiveOnly={marketSensitiveOnly}
           filtersApply={isFeedView}
+          loading={loading}
           onSentimentChange={s => { setActiveView('announcements'); setSentiment(s); }}
           onCategoryChange={c => { setActiveView('announcements'); setCategory(c); }}
           onSensitiveToggle={() => { setActiveView('announcements'); setMarketSensitiveOnly(v => !v); }}
           onResetFilters={() => { setActiveView('announcements'); clearFilters(); }}
-          onDateChange={d => { setDate(d); clearFilters(); setPlacementLog(null); }}
+          onDateChange={d => {
+            // Clear the day's data, not just refetch it. The feed itself is
+            // gated on `loading`, but the header counts and the sidebar totals
+            // read straight off `log` — so the previous day's 400 announcements
+            // sat on screen under the newly chosen date until the fetch landed.
+            // Only on an explicit date change: the 5-minute background refresh
+            // calls fetchLog too, and clearing there would blink the feed out.
+            setDate(d);
+            setLog(null);
+            setScorecard(null);
+            setPlacementLog(null);
+            clearFilters();
+          }}
           onTagToggle={handleTagToggle}
           tagCounts={tagCounts}
         />

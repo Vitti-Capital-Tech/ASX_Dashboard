@@ -80,23 +80,15 @@ export function sentimentRank(s: SentimentLabel): number {
   return 2;
 }
 
-export function tagClass(tag: string): string {
-  const t = tag.toLowerCase();
-  if (t.includes('mining') || t.includes('production')) return 'tag-mining';
-  if (t.includes('finance') || t.includes('dividend') || t.includes('results')) return 'tag-finance';
-  if (t.includes('healthcare') || t.includes('health')) return 'tag-healthcare';
-  if (t.includes('technology')) return 'tag-technology';
-  if (t.includes('energy') || t.includes('oil')) return 'tag-energy';
-  if (t.includes('substantial')) return 'tag-substantial';
-  return '';
-}
-
-export const TAG_BG: Record<string, string> = {
-  'tag-mining':      'bg-amber-500/10 text-amber-400 border-amber-500/20',
-  'tag-finance':     'bg-emerald-500/10 text-emerald-400 border-emerald-500/20',
-  'tag-healthcare':  'bg-violet-500/10 text-violet-400 border-violet-500/20',
-  'tag-technology':  'bg-sky-500/10 text-sky-400 border-sky-500/20',
-  'tag-energy':      'bg-orange-500/10 text-orange-400 border-orange-500/20',
-  'tag-substantial': 'bg-indigo-500/10 text-indigo-400 border-indigo-500/20',
-  '':                'bg-slate-500/10 text-slate-400 border-slate-500/20',
-};
+/**
+ * Tags are nominal labels, so they get one calm treatment rather than a colour
+ * each. The old per-category Tailwind palette classes lived in this file, which
+ * was never in tailwind.config content — so every one of them was purged at
+ * build time and the chips fell back to Tailwind's default near-white border
+ * with inherited text. They read as the loudest thing on the card.
+ */
+export const TAG_STYLE = {
+  background: 'var(--border-subtle)',
+  border: '1px solid var(--border-med)',
+  color: 'var(--text-dim)',
+} as const;

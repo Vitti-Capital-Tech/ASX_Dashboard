@@ -18,6 +18,8 @@ interface Props {
    *  suppressed elsewhere rather than claiming a filter is on that no
    *  visible list is obeying. */
   filtersApply: boolean;
+  /** Counts are unknown mid-fetch; showing the last day's is worse than a dash. */
+  loading: boolean;
   onDateChange: (d: string) => void;
   onTagToggle: (tag: string) => void;
   onSentimentChange: (s: SentimentFilter) => void;
@@ -28,7 +30,7 @@ interface Props {
 }
 
 export default function Sidebar({
-  date, availableDates, log, activeTags, sentiment, category, marketSensitiveOnly, filtersApply,
+  date, availableDates, log, activeTags, sentiment, category, marketSensitiveOnly, filtersApply, loading,
   onDateChange, onTagToggle, onSentimentChange, onCategoryChange,
   onSensitiveToggle, onResetFilters, tagCounts,
 }: Props) {
@@ -152,6 +154,7 @@ export default function Sidebar({
       <MarketOverview
         counts={counts}
         hasLog={!!log}
+        loading={loading}
         isActive={isActive}
         onSelect={handleTile}
       />

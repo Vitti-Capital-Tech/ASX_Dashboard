@@ -8,6 +8,11 @@
   /* Common */
   --sidebar-w: 280px;
 
+  /* Native controls — select popups, scrollbars, date pickers — are painted by
+     the OS, not by our tokens. Without this they render in the system theme, so
+     a dark dashboard drops a white dropdown list on you. */
+  color-scheme: light;
+
   /* Theme Defaults (Light Professional) */
   --bg-app: #f8fafc;
   --bg-sidebar: #ffffff;
@@ -40,6 +45,8 @@
 }
 
 .dark {
+  color-scheme: dark;
+
   --bg-app: #04060f;
   --bg-sidebar: #06091a;
   --bg-card: #0a0d1c;

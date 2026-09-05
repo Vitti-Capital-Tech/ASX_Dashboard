@@ -1,7 +1,7 @@
 'use client';
 
 import { Announcement } from '@/types';
-import { formatTime, getSentiment, tagClass, TAG_BG } from '@/lib/utils';
+import { formatTime, getSentiment, TAG_STYLE } from '@/lib/utils';
 
 interface Props {
   ann: Announcement;
@@ -85,7 +85,8 @@ export default function AnnouncementRow({ ann }: Props) {
         <div className="text-[0.82rem] font-bold truncate transition-colors duration-150" style={{ color: 'var(--text-primary)' }} title={ann.company}>
           {ann.company}
         </div>
-        <div className="font-mono text-[0.65rem] mt-0.5 flex items-center gap-1" style={{ color: 'var(--text-dim)' }}>
+        <div className="font-mono text-[0.7rem] font-medium tabular-nums mt-0.5 flex items-center gap-1"
+          style={{ color: 'var(--text-secondary)' }}>
           <svg viewBox="0 0 12 12" fill="none" className="w-2.5 h-2.5 flex-shrink-0">
             <circle cx="6" cy="6" r="5" stroke="currentColor" strokeWidth="1.2"/>
             <path d="M6 3.5V6l2 1.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
@@ -110,15 +111,12 @@ export default function AnnouncementRow({ ann }: Props) {
 
         {/* Tags */}
         <div className="flex items-center gap-1.5 flex-shrink-0">
-          {ann.tags.slice(0, 2).map(tag => {
-            const cls = tagClass(tag);
-            return (
-              <span key={tag} className={`hidden md:inline font-mono text-[0.57rem] font-bold uppercase tracking-[0.1em]
-                px-2 py-0.5 rounded-md border ${TAG_BG[cls] ?? TAG_BG['']}`}>
-                {tag}
-              </span>
-            );
-          })}
+          {ann.tags.slice(0, 2).map(tag => (
+            <span key={tag} style={TAG_STYLE}
+              className="hidden md:inline font-mono text-[0.57rem] font-semibold uppercase tracking-[0.1em] px-2 py-0.5 rounded-md">
+              {tag}
+            </span>
+          ))}
         </div>
 
         {/* External link button */}
