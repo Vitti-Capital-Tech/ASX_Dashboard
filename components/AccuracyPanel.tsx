@@ -140,31 +140,6 @@ function VerdictBadge({ verdict }: { verdict: Verdict }) {
   );
 }
 
-/** Plain-English recap for a social post — no chart, no jargon, ready to paste. */
-function postSummary(card: Scorecard, summary: ScorecardSummary | null): string {
-  const s = card.stats;
-  const best = card.highlights.best_calls[0];
-  const lines = [
-    `Vitti ASX Intelligence — prediction scorecard for ${card.date}`,
-    '',
-    `Our AI read every ASX announcement that day and called each one bullish, bearish or neutral. Here is how those calls actually landed against the closing price, measured net of the ${card.benchmark}:`,
-    '',
-    `• ${s.directional_scored} directional calls scored`,
-    `• ${rate(s.directional_hit_rate)} of them were right`,
-    `• Bullish calls: ${rate(s.by_sentiment.bullish.hit_rate)} accurate, averaging ${pct(s.by_sentiment.bullish.avg_abnormal_pct, 2)} vs the index`,
-    `• Bearish calls: ${rate(s.by_sentiment.bearish.hit_rate)} accurate, averaging ${pct(s.by_sentiment.bearish.avg_abnormal_pct, 2)} vs the index`,
-  ];
-  if (best) {
-    lines.push('', `Best call of the day: ${best.ticker} — "${best.headline}" flagged ${best.sentiment}, closed ${pct(best.abnormal_pct, 1)} against the market.`);
-  }
-  if (summary && summary.directional_scored > 0) {
-    const d = summary.days_scored;
-    lines.push('', `Running total: ${rate(summary.directional_hit_rate)} across ${summary.directional_scored} calls over ${d} trading ${d === 1 ? 'day' : 'days'}.`);
-  }
-  lines.push('', `Every call is scored net of the index, and moves under ${card.threshold_pct}% are treated as noise rather than a hit.`);
-  return lines.join('\n');
-}
-
 export default function AccuracyPanel({
   card, summary, loading, error, date, onRetry,
 }: {
@@ -176,7 +151,6 @@ export default function AccuracyPanel({
   onRetry: () => void;
 }) {
   const [filter, setFilter] = useState<Verdict | 'all'>('all');
-  const [copied, setCopied] = useState(false);
 
   const rows = useMemo<ScoredCall[]>(() => {
     if (!card) return [];
@@ -185,13 +159,6 @@ export default function AccuracyPanel({
     // Biggest moves first — those are the calls worth arguing about.
     return [...picked].sort((a, b) => Math.abs(b.abnormal_pct ?? 0) - Math.abs(a.abnormal_pct ?? 0));
   }, [card, filter]);
-
-  async function copySummary() {
-    if (!card) return;
-    await navigator.clipboard.writeText(postSummary(card, summary));
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  }
 
   function downloadCsv() {
     if (!card) return;
@@ -270,12 +237,7 @@ export default function AccuracyPanel({
           day&apos;s closing price and measured net of the {card.benchmark}. Moves under{' '}
           {card.threshold_pct}% are treated as market noise, not a result.
         </>}
-        actions={<>
-          <button onClick={copySummary}
-            className="px-4 py-2.5 rounded-xl text-[0.75rem] font-semibold transition-all duration-150 hover:-translate-y-0.5"
-            style={{ background: 'var(--accent-dim)', border: '1px solid var(--border-accent)', color: 'var(--accent-light)' }}>
-            {copied ? '✓ Copied' : 'Copy post summary'}
-          </button>
+        actions={
           <button onClick={downloadCsv}
             className="flex items-center gap-2 px-4 py-2.5 rounded-xl text-[0.75rem] font-semibold transition-all duration-150 hover:-translate-y-0.5"
             style={{ background: 'var(--border-subtle)', border: '1px solid var(--border-med)', color: 'var(--text-secondary)' }}>
@@ -284,7 +246,7 @@ export default function AccuracyPanel({
             </svg>
             Export CSV
           </button>
-        </>}
+        }
       />
 
       {/* ── Hero + breakdown ── */}
@@ -422,14 +384,17 @@ export default function AccuracyPanel({
       <div className="rounded-2xl overflow-hidden"
         style={{ background: 'var(--bg-card)', border: '1px solid var(--border-subtle)' }}>
         <div className="overflow-x-auto">
-          <table className="w-full min-w-[880px] text-left border-collapse">
+          <table className="w-full min-w-[1040px] text-left border-collapse">
             <thead>
               <tr style={{ background: 'var(--border-subtle)' }}>
                 <th className="px-4 py-3 text-[0.62rem] font-bold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>Ticker</th>
                 <th className="px-4 py-3 text-[0.62rem] font-bold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>Announcement</th>
                 <th className="px-4 py-3 text-[0.62rem] font-bold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>Our call</th>
-                {['Close', 'Move', 'Net of index'].map(h => (
-                  <th key={h} className="px-4 py-3 text-right text-[0.62rem] font-bold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>{h}</th>
+                {/* Every step of the verdict, left to right, so the arithmetic
+                    can be checked against Yahoo without opening the CSV. */}
+                {['Prev close', 'Close', 'Stock', 'Market', 'Net'].map(h => (
+                  <th key={h} className="px-4 py-3 text-right text-[0.62rem] font-bold uppercase tracking-[0.1em] whitespace-nowrap"
+                    style={{ color: 'var(--text-dim)' }}>{h}</th>
                 ))}
                 <th className="px-4 py-3 text-[0.62rem] font-bold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>Verdict</th>
               </tr>
@@ -456,7 +421,7 @@ export default function AccuracyPanel({
                         </span>
                       )}
                     </td>
-                    <td className="px-4 py-3 align-top max-w-[420px]">
+                    <td className="px-4 py-3 align-top max-w-[340px]">
                       <a href={r.url} target="_blank" rel="noopener noreferrer"
                         className="text-[0.78rem] leading-snug hover:underline"
                         style={{ color: 'var(--text-primary)' }}>
@@ -475,12 +440,22 @@ export default function AccuracyPanel({
                       </span>
                     </td>
                     <td className="px-4 py-3 align-top text-right font-mono text-[0.74rem] tabular-nums"
+                      style={{ color: 'var(--text-dim)' }}>
+                      {price(r.prev_close)}
+                    </td>
+                    <td className="px-4 py-3 align-top text-right font-mono text-[0.74rem] tabular-nums"
                       style={{ color: 'var(--text-secondary)' }}>
                       {price(r.close)}
                     </td>
                     <td className="px-4 py-3 align-top text-right font-mono text-[0.76rem] tabular-nums"
                       style={{ color: 'var(--text-secondary)' }}>
                       {pct(r.return_pct, 2)}
+                    </td>
+                    {/* The index is identical for every row of a session, but
+                        repeated so each row can be verified on its own. */}
+                    <td className="px-4 py-3 align-top text-right font-mono text-[0.74rem] tabular-nums"
+                      style={{ color: 'var(--text-dim)' }}>
+                      {pct(r.index_return_pct, 2)}
                     </td>
                     <td className="px-4 py-3 align-top text-right font-mono text-[0.78rem] font-bold tabular-nums"
                       style={{ color: moveColor(r.abnormal_pct) }}>
@@ -494,7 +469,7 @@ export default function AccuracyPanel({
               })}
               {rows.length === 0 && (
                 <tr>
-                  <td colSpan={7} className="px-4 py-12 text-center text-[0.8rem]" style={{ color: 'var(--text-dim)' }}>
+                  <td colSpan={9} className="px-4 py-12 text-center text-[0.8rem]" style={{ color: 'var(--text-dim)' }}>
                     No calls in this bucket for {formatDateLabel(card.date)}.
                   </td>
                 </tr>
@@ -505,8 +480,10 @@ export default function AccuracyPanel({
       </div>
 
       <p className="text-[0.65rem] mt-3.5 leading-relaxed max-w-[92ch]" style={{ color: 'var(--text-dim)' }}>
-        Prices from Yahoo Finance end-of-day. News released after the 4pm close is judged on the
-        next session. A ticker carrying both a bullish and a bearish call on the same day cannot
+        <b style={{ color: 'var(--text-secondary)' }}>Net = Stock − Market</b>, and the verdict is
+        that figure: past ±{card.threshold_pct}% in the direction we called is correct, past it the
+        other way is wrong, inside it is no real move and scores neither. Prices from Yahoo Finance
+        end-of-day. News released after the 4pm close is judged on the next session. A ticker carrying both a bullish and a bearish call on the same day cannot
         be settled by one closing price, so it is excluded from the hit rate rather than guessed at.
       </p>
     </div>
