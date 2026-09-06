@@ -1,9 +1,373 @@
 {
   "date": "2026-09-07",
-  "total": 175,
-  "market_sensitive_count": 50,
-  "generated_at": "2026-09-06T23:13:40.126684+00:00",
+  "total": 194,
+  "market_sensitive_count": 59,
+  "generated_at": "2026-09-06T23:22:57.988049+00:00",
   "announcements": [
+    {
+      "ticker": "EBR",
+      "company": "EBR SYSTEMS INC.",
+      "headline": "New Manufacturing Facility Achieves ISO Certification",
+      "time": "2026-09-06T23:20:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132356-3A701166",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ISO certification at EBR's new manufacturing facility is a critical regulatory milestone, signalling the company is advancing toward scalable commercial production of its WiSE leadless pacing system — a prerequisite for broader market access and hospital procurement.",
+        "For a medical device company pre-revenue or in early commercialisation, certified manufacturing capacity directly de-risks the supply chain and strengthens the case for regulatory submissions (FDA/TGA) and partnership discussions with larger medtech players.",
+        "Next catalyst to watch is whether this certification accelerates a U.S. PMA approval timeline or triggers a commercial partnership announcement; investors should monitor order pipeline growth and any updated revenue guidance flowing from this operational readiness."
+      ],
+      "tags": [
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FSI",
+      "company": "FLAGSHIP INVESTMENTS LIMITED",
+      "headline": "Update - Notification of buy-back - FSIGA",
+      "time": "2026-09-06T23:20:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132355-2A1695595",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Flagship Investments' buy-back notification for FSIGA (a listed investment company security) is an administratively routine disclosure — on-market buy-backs are generally viewed as a modest positive signal that management considers the security undervalued relative to NTA.",
+        "For a listed investment company structure, buy-backs of listed securities (potentially notes or preference shares) can be used to manage discount-to-NTA, improve per-share metrics, or return capital efficiently; however, the scale of the buy-back relative to market cap determines its actual price impact.",
+        "Given the 'not market sensitive' classification, this is unlikely to be a material re-rating event — investors should note it as a capital management signal but not a primary investment catalyst; the NTA discount trajectory and underlying portfolio performance remain the key value drivers."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OCL",
+      "company": "OBJECTIVE CORPORATION LIMITED",
+      "headline": "Update - Notification of buy-back - OCL",
+      "time": "2026-09-06T23:19:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132354-2A1695594",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "OCL is maintaining an active on-market buyback program, signalling management confidence in the stock's intrinsic value and a commitment to returning capital to shareholders.",
+        "Buyback updates of this nature typically reflect disciplined capital allocation; for a profitable, cash-generative software business like OCL, this reduces share count and supports EPS accretion over time.",
+        "Investors should monitor the pace and volume of buyback activity in subsequent updates to assess whether the program is being executed aggressively or at a measured pace relative to free cash flow generation."
+      ],
+      "tags": [
+        "Other",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FOS",
+      "company": "FOS CAPITAL LTD",
+      "headline": "Trading Halt",
+      "time": "2026-09-06T23:19:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132353-3A701165",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "FOS Capital has entered a trading halt, suspending price discovery for shareholders — the absence of disclosed reasoning is standard practice ahead of a material announcement, but creates immediate uncertainty.",
+        "Trading halts at small-cap financials commonly precede capital raises, M&A activity, or material asset revaluations; given FOS's capital markets focus, a placement or strategic transaction is the most probable trigger.",
+        "Investors should await the lifting of the halt and accompanying announcement before repositioning; risk is binary — outcome could be materially dilutive (raise) or value-accretive (deal), making any pre-announcement speculation high-risk."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OPH",
+      "company": "OPHIR HIGH CONVICTION FUND",
+      "headline": "Weekly NTA 04.09.2026",
+      "time": "2026-09-06T23:19:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132352-2A1695593",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "OPH has released its weekly Net Tangible Asset (NTA) update as at 4 September 2026, providing transparency on the fund's per-unit value for existing and prospective investors.",
+        "Weekly NTA disclosures are a standard regulatory requirement for Listed Investment Companies/Funds; the key signal lies in the direction and magnitude of NTA movement relative to the prior week and to the fund's market price (premium/discount dynamics).",
+        "Persistent NTA discounts in high-conviction funds can attract activist pressure or share buybacks, while premiums may indicate strong market demand — investors should compare this NTA against OPH's prevailing market price to assess entry/exit opportunities."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "M96",
+      "company": "MAVERICK MINERALS AUSTRALIA LTD",
+      "headline": "Maverick to commence Drill Program at Pokali",
+      "time": "2026-09-06T23:19:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132351-6A1342462",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Maverick Minerals (M96) is commencing a drill program at its Pokali project, marking a critical value-inflection milestone as the company transitions from exploration planning to active resource definition.",
+        "Drill programs at early-stage projects carry binary risk — discovery of mineralisation could re-rate the stock materially, while negative results may disappoint; with M96 being a micro-cap explorer, market reaction is likely to be amplified in either direction.",
+        "Investors should watch for assay results and the drill program timeline; key metrics to monitor include hole depths, target commodities, and proximity of results to any existing resource estimates or regional analogues."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GML",
+      "company": "GATEWAY MINING LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-06T23:18:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132350-2A1695591",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Gateway Mining has entered a trading halt, halting all price formation — for a junior gold explorer, this most commonly precedes a capital raise to fund drilling programs or an acquisition announcement.",
+        "GML operates in Western Australia's established gold belts, meaning any asset-level news (resource upgrade, farm-in, or JV) could carry meaningful re-rating potential given the current supportive gold price environment above USD 2,300/oz.",
+        "The key variable is whether the upcoming announcement is dilutive (placement at discount) or strategically value-additive (asset deal or resource milestone); institutional investors should size exposure carefully until the halt lifts."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ROG",
+      "company": "RED SKY ENERGY LIMITED.",
+      "headline": "Trading Halt",
+      "time": "2026-09-06T23:17:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132349-3A701164",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Red Sky Energy has entered a trading halt with no specific reason disclosed — for a small-cap energy company, this pattern is most frequently associated with a capital raise, farm-out agreement, or material operational update.",
+        "ROG's energy asset portfolio context is critical here; any farm-out or JV on exploration acreage could provide a non-dilutive funding pathway and validate asset value, whereas a straight equity raise would likely pressure the share price on resumption.",
+        "Investors should treat this as a wait-and-see event — the trading halt duration and subsequent announcement type will determine whether sentiment shifts bullish (strategic deal) or bearish (discounted capital raise)."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CQT",
+      "company": "CONNEQT HEALTH LIMITED",
+      "headline": "CQT Expands US Distribution Through Blueprint Agreement",
+      "time": "2026-09-06T23:16:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132348-2A1695590",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Conneqt Health's Blueprint distribution agreement represents a meaningful commercial development, providing structured U.S. market access — the world's largest healthcare market — which is a pivotal step for any ASX-listed health technology company seeking revenue scale.",
+        "The 'so what' for investors is revenue pipeline visibility: a named distribution partner with established U.S. healthcare relationships materially reduces the cost and time of customer acquisition, and could compress the path to breakeven if contract volumes are meaningful.",
+        "Key metrics to monitor include contracted minimum purchase volumes, exclusivity terms, and any revenue guidance uplift from management; the absence of quantified deal terms in the headline is a risk — investors should scrutinise the full announcement for financial commitments before assuming a full re-rating."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "X2M",
+      "company": "X2M CONNECT LIMITED",
+      "headline": "Results of Securities Purchase Plan",
+      "time": "2026-09-06T23:15:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132347-3A701162",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "The completion of X2M Connect's Securities Purchase Plan (SPP) provides clarity on the quantum of retail capital raised — SPP results announcements are closely watched for scale (oversubscribed vs. scaled back) as a proxy for retail shareholder confidence.",
+        "If the SPP was oversubscribed or fully subscribed, it signals strong retail demand and validates the offer price; a shortfall, however, would indicate weak sentiment and may leave the company underfunded relative to its capital plan, pressuring the share price.",
+        "Investors should note any scale-back policy applied and the total funds raised relative to the maximum SPP cap — this determines whether X2M has sufficient runway to execute its IoT growth strategy without needing a further equity raise in the near term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IMP",
+      "company": "PERENNIAL BETTER FUTURE ACTIVE ETF",
+      "headline": "IMPQ Notice of Termination & Wind-up",
+      "time": "2026-09-06T23:14:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132346-2A1695581",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The IMPQ ETF (Perennial Better Future Active ETF) has issued a formal Notice of Termination and Wind-up, meaning the fund will be wound down and investors will receive a cash distribution of net assets upon completion.",
+        "This is a bearish structural outcome for existing unitholders — forced liquidation of underlying holdings may occur at unfavourable prices, and investors lose access to the fund's active management strategy and any potential long-term upside.",
+        "Unitholders should assess the timeline for wind-up completion, the expected cash distribution per unit relative to current market price, and any tax implications of the trust termination event."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PAT",
+      "company": "PATRIOT RESOURCES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-06T23:14:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132345-6A1342458",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Patriot Resources has entered a trading halt with no stated reason — for a junior resources company, this is a high-frequency precursor to either a capital raise or a project-level announcement such as an exploration result, acquisition, or farm-in agreement.",
+        "The timing and duration of the halt are key signals; halts requested 'pending an announcement' vs. those pending 'capital raise' carry meaningfully different market implications and investors should parse the exact wording upon resumption.",
+        "Given the current buoyant sentiment in critical minerals and gold, any asset-quality announcement from a junior explorer could drive outsized price movement on resumption — position sizing discipline is essential until the catalyst is known."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BC8",
+      "company": "BLACK CAT SYNDICATE LIMITED",
+      "headline": "Final Director's Interest Notice",
+      "time": "2026-09-06T23:13:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132344-6A1342438",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Final Director's Interest Notice has been filed for Black Cat Syndicate (BC8), typically lodged when a director ceases their role at the company — this signals a board-level departure.",
+        "Director exits at junior mining companies can reflect strategic disagreements, project setbacks, or routine transition; the 'final' nature of this notice warrants scrutiny of the circumstances surrounding the departure.",
+        "Investors should seek clarity on whether this departure is voluntary or involuntary, whether the director held significant shares (and if those shares are now available for sale), and whether a replacement appointment is forthcoming."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "A8G",
+      "company": "AUSTRALASIAN METALS LIMITED",
+      "headline": "Proposed issue of securities - A8G",
+      "time": "2026-09-06T23:13:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132343-6A1342436",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Australasian Metals (A8G) has filed a proposed securities issuance notice, indicating the company intends to raise capital — a common but potentially dilutive event for existing shareholders in small-cap mining explorers.",
+        "Without knowing the pricing and quantum of the issue, dilution risk is the primary concern; capital raises at a discount to market price are bearish for near-term share price performance, while placements at or near market may signal stronger institutional demand.",
+        "Investors should monitor the subsequent Appendix 2A or cleansing notice to determine the number of securities, issue price, and use of proceeds — particularly whether funds are earmarked for exploration drilling, working capital, or acquisition activity."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BC8",
+      "company": "BLACK CAT SYNDICATE LIMITED",
+      "headline": "Board Changes - Managing Director Termination",
+      "time": "2026-09-06T23:13:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132341-6A1342437",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "The termination of Black Cat Syndicate's Managing Director is a significant governance event — abrupt MD departures at project-stage mining companies introduce leadership risk and can signal internal disagreements over strategy, capital allocation, or project timelines at the Paulsens Gold Project.",
+        "For BC8, which is in a critical development phase, leadership continuity is essential to maintain contractor relationships, permitting momentum, and investor confidence; the market will scrutinise the circumstances of termination (mutual agreement vs. for cause) and the quality of the succession plan.",
+        "Investors should watch for an interim leadership appointment announcement and any associated change in project guidance or strategy; a prolonged leadership vacuum or loss of key technical personnel would be a material negative catalyst for the share price."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "A8G",
+      "company": "AUSTRALASIAN METALS LIMITED",
+      "headline": "Option over highly prospective African Lithium Projects",
+      "time": "2026-09-06T23:13:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132342-6A1342435",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Australasian Metals' option over African lithium projects represents a strategic pivot toward battery metals exposure — securing option rights (rather than outright acquisition) is a capital-efficient structure that limits downside while preserving upside if lithium market conditions improve.",
+        "The 'highly prospective' designation requires investor scrutiny: African lithium projects vary enormously in quality, jurisdiction risk (permitting, royalties, political stability), and proximity to infrastructure — none of which are determinable from the headline alone.",
+        "Key due diligence questions include: option exercise price and timeline, project stage (grassroots vs. resource-defined), country of domicile, and whether A8G has the technical and financial capacity to advance the assets; this announcement is speculative until those details are disclosed."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WHC",
+      "company": "WHITEHAVEN COAL LIMITED",
+      "headline": "Update - Notification of buy-back - WHC",
+      "time": "2026-09-06T23:12:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132340-2A1695589",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Whitehaven Coal (WHC) is continuing its on-market buyback program, a strong capital management signal from one of Australia's largest independent coal producers, reflecting management's view that the stock remains undervalued.",
+        "WHC has historically been an aggressive capital returner during periods of elevated coal prices and strong free cash flow; sustained buyback activity reduces the float, supports EPS, and can act as a price floor in volatile commodity markets.",
+        "Investors should track the cumulative buyback volumes and remaining buyback capacity to gauge the scale of capital being returned, and cross-reference with coal price trends and WHC's balance sheet position to assess sustainability of the program."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MA1",
+      "company": "MA CREDIT INCOME TRUST",
+      "headline": "Update - Dividend/Distribution - MA1",
+      "time": "2026-09-06T23:12:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132339-2A1695588",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "MA Credit Income Trust (MA1) has provided an update on its dividend/distribution, maintaining income visibility for yield-focused investors in the credit income space.",
+        "Credit income trusts are sensitive to interest rate movements and credit spread dynamics; the distribution rate and any changes to it relative to prior periods are the key metrics for assessing whether the trust is maintaining or compressing its yield.",
+        "Investors should compare the annualised distribution yield against current risk-free rates and peer credit funds to determine relative value; any reduction in distribution would be a negative signal for income-dependent holders."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REG",
+      "company": "REGIS HEALTHCARE LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-06T23:11:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132338-3A701163",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice has been filed for Regis Healthcare (REG), indicating a director has altered their shareholding — this could reflect on-market purchases, sales, or the vesting/exercise of performance rights.",
+        "Director buying at a healthcare operator of REG's scale (aged care sector) can be a meaningful insider confidence signal, particularly given the sector's ongoing regulatory and funding environment; conversely, director selling may reflect personal liquidity needs or reduced conviction.",
+        "Investors should examine the specific nature of the transaction — whether it is an open-market purchase or sale, the volume and value involved, and whether the movement aligns with broader insider activity trends at REG."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EXT",
       "company": "EXCITE TECHNOLOGY SERVICES LTD",
