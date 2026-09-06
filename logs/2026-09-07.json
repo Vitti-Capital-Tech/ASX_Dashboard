@@ -1,9 +1,407 @@
 {
   "date": "2026-09-07",
-  "total": 194,
-  "market_sensitive_count": 59,
-  "generated_at": "2026-09-06T23:22:57.988049+00:00",
+  "total": 215,
+  "market_sensitive_count": 63,
+  "generated_at": "2026-09-06T23:29:21.924132+00:00",
   "announcements": [
+    {
+      "ticker": "CLG",
+      "company": "CLOSE THE LOOP LTD.",
+      "headline": "Initial Director's Interest Notice",
+      "time": "2026-09-06T23:27:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132377-3A701174",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "An initial director's interest notice for CLG is a routine administrative filing under ASX Listing Rule 3.19A, disclosing a new director's securities holdings at the time of appointment — no immediate financial impact.",
+        "The notice provides transparency on alignment between new board membership and shareholder interests; the size and nature of the disclosed holding (shares vs. options) may offer marginal insight into the director's conviction in the company.",
+        "This is a compliance-driven disclosure with no standalone investment thesis; it should be reviewed in conjunction with any accompanying board appointment announcement for fuller context on the director's strategic mandate."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABB",
+      "company": "AUSSIE BROADBAND LIMITED",
+      "headline": "Update - Notification of buy-back - ABB",
+      "time": "2026-09-06T23:27:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132376-3A701173",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ABB's ongoing on-market buyback update reaffirms capital management discipline, signalling that management views the current share price as undervaluing the business — a modestly supportive technical signal for near-term price floors.",
+        "The update is procedural rather than a new buyback announcement; investors should focus on the cumulative buyback volume and remaining capacity to assess the program's actual EPS accretion and float reduction impact.",
+        "In the context of ABB's competitive telco environment, buybacks indicate sufficient free cash flow generation to return capital while funding growth — a positive operational read-through, though the non-market-sensitive classification limits immediate price impact."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BVS",
+      "company": "BRAVURA SOLUTIONS LIMITED.",
+      "headline": "2026 Annual General Meeting",
+      "time": "2026-09-06T23:27:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132375-2A1695603",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "BVS's 2026 AGM notice is a standard governance milestone; however, AGMs for companies that have undergone recent strategic restructuring (as BVS has) warrant attention for any shareholder resolutions that may signal board or strategy changes.",
+        "Investors should monitor the AGM agenda for any remuneration report controversies, capital structure resolutions, or director election contests that could reflect latent shareholder dissatisfaction with BVS's turnaround trajectory.",
+        "The non-market-sensitive classification confirms no immediately actionable information; the AGM itself will be the catalyst to watch, particularly management's forward guidance commentary in the Chair and CEO addresses."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARD",
+      "company": "ARGENT MINERALS LIMITED",
+      "headline": "Maiden drilling program commences at Trunkey Creek",
+      "time": "2026-09-06T23:26:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132374-6A1342467",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Maiden drilling program at Trunkey Creek marks a critical de-risking milestone for ARD, transitioning the project from exploration concept to active resource definition — a key catalyst that typically re-rates small-cap explorers.",
+        "Market-sensitive classification signals the board believes drill results could materially impact valuation; investors should monitor first assay results closely as initial intercepts will set the tone for the entire program.",
+        "Next steps hinge on turnaround time for assay results and whether geological targets match historical surface sampling data — any high-grade intercepts could unlock follow-up capital raises or attract JV interest."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "QBE",
+      "company": "QBE INSURANCE GROUP LIMITED",
+      "headline": "Notification regarding unquoted securities - QBE",
+      "time": "2026-09-06T23:26:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132373-2A1695604",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "QBE's notification regarding unquoted securities is a routine Appendix 3B or equivalent filing, typically reflecting the issuance of employee incentive securities (options/performance rights) — standard for a large-cap insurer of QBE's scale.",
+        "No direct earnings or balance sheet impact is expected from this filing; however, cumulative dilution from incentive scheme issuances should be tracked over time against QBE's total share count for EPS sensitivity analysis.",
+        "Non-market-sensitive classification confirms this is purely administrative; institutional investors in QBE should remain focused on upcoming catastrophe loss updates, reserve adequacy disclosures, and premium rate cycle commentary as the primary valuation drivers."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CLG",
+      "company": "CLOSE THE LOOP LTD.",
+      "headline": "Initial Director's Interest Notice",
+      "time": "2026-09-06T23:26:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132372-3A701172",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A second initial director's interest notice filed by CLG on the same day suggests either a second new director appointment or a duplicate/amended filing — investors should cross-reference both notices to identify any discrepancies in declared holdings.",
+        "If this represents a second distinct director, CLG is undergoing meaningful board composition change, which may signal a strategic pivot, governance refresh, or preparation for a capital raise or M&A transaction.",
+        "As with the first notice, standalone investment impact is minimal; however, back-to-back director disclosures in a single session can be a leading indicator of upcoming corporate activity and warrant monitoring of subsequent ASX announcements."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EQR",
+      "company": "EQ RESOURCES LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-06T23:25:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132371-2A1695602",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EQR's cleansing notice is a mandatory ASX disclosure (typically under s708A of the Corporations Act) following a capital raise completed without a prospectus, confirming shares are freely tradeable — a procedural post-raise requirement.",
+        "The filing implies EQR has recently completed a placement or rights issue; investors should assess the size of that raise, the issue price relative to current market price, and the stated use of proceeds to evaluate dilution impact and strategic rationale.",
+        "While the cleansing notice itself is non-market-sensitive, the underlying capital raise activity it references is the substantive event — tungsten market dynamics and EQR's Mt Carbine project development timeline remain the key investment considerations."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PKO",
+      "company": "PEAKO LIMITED",
+      "headline": "Global Mining Leader Stephen McIntosh Joins Peako Board",
+      "time": "2026-09-06T23:25:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132370-3A701171",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Stephen McIntosh, a globally recognised mining executive with senior leadership experience at major miners, joins Peako's board — lending immediate credibility to what has been a small, largely unproven explorer.",
+        "The appointment signals a strategic pivot toward institutional-grade governance, which is often a precursor to capital raises, JV discussions, or project advancement at junior miners like PKO.",
+        "Investors should monitor whether McIntosh's network accelerates deal flow or attracts co-investment; without accompanying project news, the appointment alone does not de-risk the underlying exploration assets."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CLG",
+      "company": "CLOSE THE LOOP LTD.",
+      "headline": "Director Appointment/Resignation",
+      "time": "2026-09-06T23:24:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132369-3A701170",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Close the Loop has filed a director appointment or resignation notice — a routine governance event, though board composition changes at a mid-cap recycling and circular economy company warrant monitoring for strategic direction shifts.",
+        "Without detail on whether this is an appointment or resignation, and the seniority/background of the individual involved, the net impact on CLG's strategic execution capability remains unclear.",
+        "Investors should review the full notice to determine if departing expertise (e.g. operational, financial, or ESG) signals internal friction or if an incoming director brings value-accretive industry connections."
+      ],
+      "tags": [
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DJW",
+      "company": "DJERRIWARRH INVESTMENTS LIMITED",
+      "headline": "Weekly Estimated NTA as at 4 September 2026",
+      "time": "2026-09-06T23:24:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132368-3A701167",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Djerriwarrh's weekly estimated NTA as at 4 September 2026 provides a routine valuation benchmark for this LIC, allowing investors to assess the prevailing premium or discount to market price — a key trading signal for closed-end fund arbitrageurs.",
+        "DJW's NTA is predominantly driven by its large-cap ASX equity holdings and covered call option strategy; any material week-on-week NTA movement would reflect broader ASX 200 directional moves rather than stock-specific alpha.",
+        "No actionable catalyst here; the release is procedural and part of ASX continuous disclosure obligations for listed investment companies — relevant for portfolio tracking but not a trading trigger."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMH",
+      "company": "AMCIL LIMITED",
+      "headline": "Weekly Estimated NTA as at 4 September 2026",
+      "time": "2026-09-06T23:24:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132367-3A701169",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMCIL's weekly estimated NTA as at 4 September 2026 is a standard disclosure for this listed investment company, offering investors a near real-time read on portfolio value relative to the prevailing share price.",
+        "As a growth-oriented LIC with concentrated ASX equity exposure, AMH's NTA fluctuations are a direct proxy for domestic equities performance — useful for assessing LIC discount/premium dynamics but offering no new fundamental insight.",
+        "This is a purely administrative release; the investment case for AMH remains anchored to longer-term portfolio performance, dividend sustainability, and the manager's stock selection track record."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMC",
+      "company": "AMCOR PLC",
+      "headline": "Form 4",
+      "time": "2026-09-06T23:23:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132366-3A701168",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Amcor's Form 4 filing is a U.S. SEC-mandated insider transaction disclosure, reflecting the company's dual-listed status (ASX: AMC, NYSE: AMCR) and obligations under U.S. securities law — not an ASX-native disclosure event.",
+        "The materiality of this filing hinges entirely on whether the insider transaction involved buying or selling, the quantum of shares, and the seniority of the reporting person — none of which are available from the headline alone.",
+        "For ASX-focused institutional investors, Form 4 filings warrant cross-referencing with SEC EDGAR to determine if executive selling at current price levels signals valuation concern or is merely routine plan-based selling (e.g. 10b5-1)."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EQR",
+      "company": "EQ RESOURCES LIMITED",
+      "headline": "Application for quotation of securities - EQR",
+      "time": "2026-09-06T23:23:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132365-2A1695600",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EQ Resources has lodged an application for quotation of new securities, indicating the completion of a capital raise, option exercise, or performance rights vesting event that is now moving to the settlement and trading phase.",
+        "The nature and pricing of the securities being quoted is critical — if tied to a placement or entitlement offer, this represents potential near-term selling pressure as new investors receive stock; if from option/rights conversion, dilution may be modest.",
+        "EQR operates the Mt Carbine tungsten project in Queensland; investors should assess whether the new securities are linked to project financing milestones, as tungsten's strategic metal status has attracted growing institutional interest."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LGM",
+      "company": "LEGACY MINERALS HOLDINGS LIMITED",
+      "headline": "Optimised Scoping Study Progressing Well at Mt Carrington",
+      "time": "2026-09-06T23:23:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132364-2A1695598",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "An optimised scoping study in progress at Mt Carrington signals LGM is advancing toward a formal economic assessment, a pivotal stage that could define project viability and attract institutional or strategic interest.",
+        "The 'progressing well' characterisation, while qualitative, combined with market-sensitive flagging, suggests internal metrics are tracking favourably — potentially including improved capital cost estimates or enhanced metallurgical recoveries.",
+        "Key near-term catalysts include the final scoping study release, which will reveal projected NPV, IRR, and capex figures — these numbers will determine whether Mt Carrington can attract project finance or a development partner in a competitive critical minerals environment."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RNV",
+      "company": "RENERVE LIMITED",
+      "headline": "ReNerve and RMIT awarded $499k grant",
+      "time": "2026-09-06T23:22:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132363-6A1342465",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A $499k grant awarded jointly to ReNerve and RMIT provides non-dilutive funding validation for RNV's technology platform, reducing near-term cash burn pressure and conferring third-party scientific credibility to the program.",
+        "Government grant support, while modest in absolute dollar terms for larger entities, is highly significant for a micro-cap like RNV — it extends runway and signals competitive success in a merit-based funding process, often a leading indicator of technology readiness.",
+        "The RMIT partnership elevates RNV's R&D infrastructure and academic validation; investors should watch for subsequent milestones such as clinical trial initiation or IP filing activity that could materially re-rate the stock."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BC8",
+      "company": "BLACK CAT SYNDICATE LIMITED",
+      "headline": "Director Appointment",
+      "time": "2026-09-06T23:22:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132362-6A1342466",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Black Cat Syndicate has appointed a new director — a notable governance event for this West Australian gold explorer/developer, where board expertise is closely tied to the company's ability to advance its Kal East gold project toward production.",
+        "The identity and background of the appointee will determine the strategic read: a mining finance or capital markets professional would signal an upcoming capital raise or M&A activity, while a technical appointment suggests focus on project de-risking.",
+        "BC8 has been actively developing its Kal East project; a well-credentialed board addition could improve institutional investor confidence ahead of any future development financing decisions."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PEC",
+      "company": "PERPETUAL RESOURCES LIMITED",
+      "headline": "Diamond Drilling Program to Commence at Igrejinha",
+      "time": "2026-09-06T23:22:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132361-6A1342464",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Perpetual Resources has announced commencement of a diamond drilling program at its Igrejinha project — a meaningful exploration catalyst for this junior, as diamond drilling provides high-quality core samples critical for resource definition and feasibility-level studies.",
+        "The Igrejinha project appears to be in an early-to-intermediate exploration stage; results from this program will be a primary near-term share price catalyst, with positive intersections capable of re-rating the stock materially.",
+        "Investors should track drill hole targets, expected depth, and timeline to results — diamond drilling programs typically yield results over weeks to months, making this a medium-term catalyst with binary outcome risk typical of junior explorers."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IFN",
+      "company": "INFRAGREEN GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - IFN",
+      "time": "2026-09-06T23:21:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132360-2A1695597",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "InfraGreen Group has filed an update to its on-market share buyback notification, confirming the program remains active — a modestly positive capital management signal that indicates the board believes shares are trading below intrinsic value.",
+        "For a small-cap like IFN, buyback activity can provide meaningful price support in thin markets, though the absolute dollar scale of the program relative to market cap will determine its practical impact on supply/demand dynamics.",
+        "Investors should assess cumulative shares repurchased to date and remaining buyback capacity; consistent execution signals management confidence, while a stalled program could indicate cash flow constraints or a shift in capital priorities."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IPT",
+      "company": "IMPACT MINERALS LIMITED",
+      "headline": "Positive Alluminous Scoping Study Support US HPA Developmen",
+      "time": "2026-09-06T23:21:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132359-6A1342463",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A positive scoping study for IPT's Aluminous project targeting US high-purity alumina (HPA) markets is a material development, given HPA's critical role in EV battery separators and sapphire glass — markets with strong structural demand tailwinds.",
+        "Market-sensitive classification underscores the board's view that scoping outcomes could meaningfully shift IPT's valuation; key metrics to scrutinise will be production cost per tonne versus prevailing HPA spot prices (~USD $25,000–$30,000/t for 4N grade).",
+        "US market targeting is strategically astute given the Inflation Reduction Act incentives for domestic critical mineral supply chains; IPT should evaluate offtake discussions or US-domiciled JV partners to maximise commercial optionality from this scoping outcome."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WAM",
+      "company": "WAM CAPITAL LIMITED",
+      "headline": "August 2026 Investment Update",
+      "time": "2026-09-06T23:20:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132358-2A1695596",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WAM Capital's August 2026 investment update provides a monthly portfolio performance and market commentary snapshot — a key transparency touchpoint for this high-profile Wilson Asset Management LIC with a large retail investor following.",
+        "The update will reveal WAM's month-end portfolio positioning, gross and net performance versus the All Ordinaries benchmark, and any shift in cash weighting — all critical inputs for assessing whether the manager is defensively positioned or risk-on.",
+        "WAM's dividend sustainability narrative remains central to its investment case; any commentary on income generation, franking credit reserves, or portfolio yield in this update will be closely scrutinised by its income-focused shareholder base."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CZR",
+      "company": "CZR RESOURCES LTD",
+      "headline": "Letter to Shareholders",
+      "time": "2026-09-06T23:20:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132357-6A1342452",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Shareholder letter signals management is seeking to maintain investor confidence, likely addressing strategic direction, project milestones, or capital position — typical of junior explorers managing market perception during low-activity periods.",
+        "As a non-market-sensitive filing, the letter contains no material new operational or financial data, suggesting it is primarily a relationship-management communication rather than a catalyst for revaluation.",
+        "Key watch points for investors include any commentary on upcoming drilling programs, partnership negotiations, or funding timelines that could indicate near-term newsflow for CZR's iron ore assets in the Pilbara region."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EBR",
       "company": "EBR SYSTEMS INC.",
