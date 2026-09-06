@@ -1,9 +1,713 @@
 {
   "date": "2026-09-07",
-  "total": 138,
-  "market_sensitive_count": 40,
-  "generated_at": "2026-09-06T22:58:29.865972+00:00",
+  "total": 175,
+  "market_sensitive_count": 50,
+  "generated_at": "2026-09-06T23:13:40.126684+00:00",
   "announcements": [
+    {
+      "ticker": "EXT",
+      "company": "EXCITE TECHNOLOGY SERVICES LTD",
+      "headline": "Application for quotation of securities - EXT",
+      "time": "2026-09-06T23:10:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132337-3A701154",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EXT is applying for quotation of new securities on the ASX, indicating a recent capital raise, options exercise, or share issuance event has concluded and securities are now seeking formal listing.",
+        "The administrative nature of this filing suggests the underlying capital transaction has already been executed — investors should cross-reference the volume and class of securities being quoted to assess dilution impact on existing holders.",
+        "Next step is ASX approval and commencement of trading for the new securities; no immediate price catalyst is expected, but any material increase in shares on issue warrants monitoring of the capital structure."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TGN",
+      "company": "TUNGSTEN MINING NL",
+      "headline": "Investor Presentation - World-Scale Tungsten Project",
+      "time": "2026-09-06T23:10:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132336-6A1342456",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TGN is positioning its tungsten project as world-scale, a significant claim that — if substantiated by resource size and grade — could attract strategic interest from defence and critical minerals offtake partners given tungsten's irreplaceable role in hardened munitions and industrial tooling.",
+        "The 'world-scale' designation will be scrutinised against peer benchmarks; investors should watch for resource tonnage, WO₃ grade, and proximity to processing infrastructure as key valuation anchors within the presentation.",
+        "With tungsten classified as a critical mineral by Australia, the US, and the EU, a credible large-scale resource could unlock government-backed financing pathways and fast-track permitting — material re-rating catalysts if the presentation delivers hard data."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PGF",
+      "company": "PM CAPITAL GLOBAL OPPORTUNITIES FUND LIMITED",
+      "headline": "Net Tangible Asset Backing - 4 September 2026",
+      "time": "2026-09-06T23:09:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132335-2A1695587",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PGF has published its Net Tangible Asset (NTA) backing as at 4 September 2026, providing the market with an updated per-share intrinsic value benchmark for this global equities LIC.",
+        "The NTA figure is the primary valuation reference for closed-end fund investors; any widening or narrowing of the discount/premium to NTA relative to the current share price signals potential rerating opportunity or risk.",
+        "Routine monthly disclosure with no market-sensitive flag — institutional investors should track NTA trend momentum and compare against peer global LICs to assess relative value positioning."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HM1",
+      "company": "HEARTS AND MINDS INVESTMENTS LIMITED",
+      "headline": "Weekly NTA Estimate",
+      "time": "2026-09-06T23:09:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132334-2A1695586",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "HM1 has released its weekly NTA estimate, offering investors a near real-time snapshot of portfolio value — critical for a LIC where discount-to-NTA dynamics drive tactical trading decisions.",
+        "As a philanthropy-linked investment vehicle with high-conviction concentrated positions, weekly NTA movements can be volatile and reflective of underlying global equity market moves in the prior week.",
+        "No market-sensitive designation confirms this is a standard periodic disclosure; however, consistent NTA growth relative to share price would be a positive signal for discount compression and re-rating potential."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MFO",
+      "company": "MILFORD AUSTRALIAN ABSOLUTE GROWTH COMPLEX ETF",
+      "headline": "Monthly Derivatives Disclosure - August 2026",
+      "time": "2026-09-06T23:09:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132333-2A1695585",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MFO has disclosed its monthly derivatives positions for August 2026, a regulatory requirement for complex ETFs that utilise options, futures, or other derivative instruments as part of their absolute return strategy.",
+        "The derivatives disclosure provides transparency into portfolio hedging, leverage, and directional exposure — material shifts in notional derivative values month-on-month could signal a change in the fund manager's market outlook.",
+        "Compliance-driven filing with no immediate price catalyst; sophisticated investors should review the underlying derivative composition for signs of increased downside protection or concentrated bets that may affect NAV volatility."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WEB",
+      "company": "WEBBEDS GROUP LIMITED",
+      "headline": "Appendix 3Y - John Guscic",
+      "time": "2026-09-06T23:08:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132332-3A701161",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Appendix 3Y has been lodged for WEB director John Guscic, indicating a change in his previously disclosed interest — this is a correction or update to an earlier Appendix 3X initial director interest notice.",
+        "The nature of the change (whether an on-market purchase, sale, or lapse of performance rights) is the critical detail; a purchase would signal insider confidence in WEB's outlook, while a disposal could raise questions around near-term sentiment at the board level.",
+        "Investors should examine the specific transaction type, volume, and consideration paid to determine materiality — given Guscic's CEO role at WEB, any meaningful change in his holding carries directional signalling value for the stock."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BUB",
+      "company": "BUBS AUSTRALIA LIMITED",
+      "headline": "Bubs Secures Permanent US FDA Approval for Infant Formula",
+      "time": "2026-09-06T23:08:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132331-6A1342422",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Permanent US FDA approval is a transformational regulatory milestone for BUB, eliminating the temporary emergency-use status that underpinned its prior US market access and converting a contingent revenue stream into a structurally durable one.",
+        "The US infant formula market is worth approximately USD $3–4 billion annually; permanent approval gives BUB a defensible, long-term commercial foothold and materially de-risks the investment thesis that was previously exposed to regulatory expiry.",
+        "This outcome significantly strengthens BUB's negotiating position with US retail and distribution partners, and may catalyse upgraded revenue guidance or new partnership announcements — investors should watch for follow-on commercial disclosures in coming weeks."
+      ],
+      "tags": [
+        "Healthcare",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MCO",
+      "company": "MYECO GROUP LTD",
+      "headline": "Change of Registered Office Address",
+      "time": "2026-09-06T23:06:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132330-3A701160",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "MCO has notified the ASX of a change to its registered office address — a purely administrative update with no operational, financial, or strategic implications for the business.",
+        "Such filings are typically associated with office relocations, changes in company secretarial arrangements, or restructuring of administrative functions, none of which directly affect shareholder value.",
+        "No follow-up action is required from investors; however, frequent administrative changes in small-cap companies can occasionally precede broader corporate restructuring — worth monitoring in conjunction with other MCO announcements."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RF1",
+      "company": "REGAL INVESTMENT FUND",
+      "headline": "Weekly Estimate NTA for 04.09.2026",
+      "time": "2026-09-06T23:06:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132329-2A1695584",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "RF1 has published its weekly NTA estimate as at 4 September 2026, providing unitholders with an updated valuation reference for this multi-strategy alternative asset fund managed by Regal Partners.",
+        "Regal's absolute return, long/short, and private credit strategies mean NTA movements can diverge significantly from broader equity indices — making weekly NTA updates particularly informative for assessing strategy performance and market beta exposure.",
+        "Consistent NTA accretion above the prevailing unit price would support a bullish discount-compression thesis; investors should track the spread between estimated NTA and ASX-traded price as a core valuation signal."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VBC",
+      "company": "VERBREC LIMITED",
+      "headline": "Change of Director's Interest Notice (Phillip Campbell)",
+      "time": "2026-09-06T23:05:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132328-6A1342455",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "VBC director Phillip Campbell has lodged a Change of Director's Interest Notice, signalling a movement in his shareholding or beneficial interest — the direction and scale of the change are the key variables for market interpretation.",
+        "For a mid-tier engineering and infrastructure services company like Verbrec, director buying on-market is typically interpreted as a positive insider conviction signal, particularly if executed at or near market price without automatic vesting mechanics.",
+        "Investors should verify whether this change relates to an on-market trade, vesting of performance rights, or a securities plan participation — each carries a different signal quality and should be weighted accordingly in any investment thesis."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EMD",
+      "company": "EMYRIA LIMITED",
+      "headline": "Emyria Financial Year-end Update Webinar",
+      "time": "2026-09-06T23:05:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132327-6A1342453",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Emyria has announced a financial year-end update webinar, providing retail and institutional investors with direct management commentary on FY results, clinical progress, and forward strategy for this psychedelic-assisted therapy and clinical data company.",
+        "Webinar events of this nature are high-value engagement opportunities — management's tone on revenue trajectory, cash burn rate, and clinical pipeline milestones will be closely scrutinised given EMD's pre-profitability stage.",
+        "Investors should prepare questions around cash runway duration, any upcoming capital raise requirements, regulatory progress on therapeutic applications, and commercialisation timelines — these are the primary value drivers for EMD at its current stage."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RGN",
+      "company": "REGION GROUP",
+      "headline": "Update - Notification of buy-back - RGN",
+      "time": "2026-09-06T23:04:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132326-2A1695583",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "RGN has updated its on-market share buyback notification, confirming the retail property REIT continues to deploy capital to repurchase its own securities — a direct signal that management views the stock as trading at a discount to intrinsic value.",
+        "Buybacks in the REIT sector are particularly notable given capital allocation discipline required to balance debt covenants, distribution commitments, and asset management obligations — active buyback execution is a strong vote of confidence from the board.",
+        "Investors should monitor the pace of buyback activity, total securities remaining under the buyback programme, and any impact on free float — sustained buyback execution at current levels is a modest but consistent support mechanism for the RGN share price."
+      ],
+      "tags": [
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LLM",
+      "company": "LOYAL METALS LTD",
+      "headline": "Removal from Official List",
+      "time": "2026-09-06T23:04:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132325-6A1342451",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Loyal Metals Ltd (LLM) is being removed from the ASX Official List, representing a terminal event for public shareholders — liquidity ceases entirely upon delisting.",
+        "Removal from the official list typically follows failure to meet ASX listing requirements, voluntary withdrawal, or completion of a takeover — the specific trigger here warrants scrutiny for any residual shareholder obligations or wind-down proceedings.",
+        "Existing shareholders should urgently assess any remaining exit options prior to the effective delisting date, as post-removal share transfers become significantly more complex and illiquid."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TCF",
+      "company": "360 CAPITAL MORTGAGE REIT",
+      "headline": "Update - Notification of buy-back - TCF",
+      "time": "2026-09-06T23:03:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132324-2A1695582",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "360 Capital Mortgage REIT (TCF) has filed an updated buy-back notification, signalling management's view that units are trading at or below intrinsic value — a constructive capital management signal for unitholders.",
+        "On-market buy-backs in mortgage REITs can modestly support unit prices by reducing float and improving per-unit NAV metrics, though the quantum of the buy-back program will determine its material impact.",
+        "Investors should monitor the pace of buy-back execution relative to TCF's cash position and distribution commitments, as aggressive repurchases could constrain liquidity in a credit-sensitive vehicle."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WEB",
+      "company": "WEBBEDS GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - WEB",
+      "time": "2026-09-06T23:03:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132323-3A701159",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WebBeds Group (WEB) has updated its on-market buy-back notification, reflecting continued management confidence in the stock's valuation amid the ongoing travel sector recovery cycle.",
+        "Buy-backs in travel technology businesses like WEB are particularly meaningful as they signal surplus cash generation — a key metric given the capital-light, B2B wholesale accommodation model WEB operates.",
+        "Investors should track the cumulative shares retired under this program relative to total shares on issue, as sustained buy-back activity can be a meaningful EPS accretion driver for mid-cap tech-adjacent players."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EMD",
+      "company": "EMYRIA LIMITED",
+      "headline": "Revised Securities Trading Policy",
+      "time": "2026-09-06T23:03:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132322-6A1342450",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Emyria Limited (EMD) has issued a revised Securities Trading Policy — a routine governance update that typically reflects regulatory best practice alignment or internal compliance tightening following ASIC guidance.",
+        "For a clinical-stage healthcare company like EMD, a robust trading policy is critical given the frequency of price-sensitive clinical trial data releases, reducing insider trading risk and protecting market integrity.",
+        "No immediate financial impact is expected; however, the update signals board attention to governance standards, which can be a positive indicator for institutional investors applying ESG screening criteria."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EXT",
+      "company": "EXCITE TECHNOLOGY SERVICES LTD",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-06T23:03:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132321-3A701158",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Excite Technology Services (EXT) has lodged a Cleansing Notice, confirming that securities recently issued — likely via a placement or rights issue — are now freely tradeable without a prospectus, fulfilling ASX Listing Rule 3.10.3 requirements.",
+        "The cleansing notice is a post-capital raise formality, but it marks the point at which newly issued shares enter the market, potentially creating near-term selling pressure from placement participants seeking to book gains or manage risk.",
+        "Investors should review the terms of the associated capital raise — including issue price relative to current market price — to assess the overhang risk and intended use of proceeds for this technology services micro-cap."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "W2V",
+      "company": "WAY 2 VAT LTD.",
+      "headline": "Trading Halt",
+      "time": "2026-09-06T23:03:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132320-6A1342448",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "W2V has entered a trading halt, halting price discovery and liquidity for investors — the absence of disclosed reasons is consistent with ASX Listing Rule protocols ahead of a potentially material announcement.",
+        "Trading halts in small-cap technology or fintech names most commonly precede capital raises, M&A activity, or material contract announcements; the market-sensitive classification signals the forthcoming news is expected to be price-moving.",
+        "Investors should monitor the duration of the halt and the nature of the subsequent announcement closely, as the re-rating direction — bullish or bearish — will be entirely contingent on the disclosure that follows."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst Warrants over BSL Special Dividend",
+      "time": "2026-09-06T23:03:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132319-2A1695580",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst has issued warrants over BlueScope Steel's (BSL) special dividend, providing structured exposure to BSL's capital return event — a product-level announcement rather than a direct BSL corporate action.",
+        "The existence of these warrants underscores investor demand for leveraged or hedged exposure to BSL's special dividend, reflecting market interest in capturing the income event with defined risk parameters.",
+        "Warrant holders should carefully assess ex-dividend timing, warrant expiry, and any adjustment provisions, as special dividends can trigger complex warrant repricing mechanics under standard ASX warrant terms."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IBC",
+      "company": "IRONBARK BALANCED INCOME LIMITED",
+      "headline": "Update - Notification of buy-back - IBC",
+      "time": "2026-09-06T23:02:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132317-2A1695579",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ironbark Balanced Income Limited (IBC) has updated its buy-back notification, indicating the board views current share prices as below fair value — a positive signal for existing shareholders in this income-focused vehicle.",
+        "For a balanced income fund, share buy-backs at a discount to NTA are directly accretive to remaining shareholders' NTA per share, making this a value-enhancing capital management tool when executed disciplined.",
+        "Investors should monitor whether IBC's buy-back activity is constrained by portfolio liquidity or income distribution targets, as these factors determine the practical ceiling on repurchase volumes."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NUZ",
+      "company": "NEURIZON THERAPEUTICS LIMITED",
+      "headline": "Neurizon Appoints Chief Executive Officer",
+      "time": "2026-09-06T23:02:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132318-6A1342447",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Neurizon's appointment of a permanent CEO is a critical governance inflection point for an early-stage therapeutics company, signalling the board is readying the organisation for a more structured clinical and commercial execution phase.",
+        "The identity, background, and track record of the incoming CEO will be the key determinant of market reaction — a candidate with demonstrated CNS or neurology drug development experience and capital markets credibility would materially strengthen the investment case.",
+        "For a pre-revenue biotech, CEO continuity and leadership quality directly influence investor confidence in trial execution and future fundraising capacity; this appointment warrants close scrutiny of the appointee's prior deal and trial history."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KCN",
+      "company": "KINGSGATE CONSOLIDATED LIMITED.",
+      "headline": "Change of Registered Office",
+      "time": "2026-09-06T23:02:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132316-2A1695578",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Kingsgate Consolidated (KCN) has notified a change of registered office — a purely administrative update with no operational or financial implications for the gold miner's Thai or Australian operations.",
+        "Registered office changes in mining companies occasionally coincide with broader corporate restructuring, legal strategy shifts, or adviser changes, though no such inference should be drawn without corroborating disclosures.",
+        "No shareholder action is required; however, investors should update contact and correspondence records accordingly and monitor for any related structural announcements that may follow."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGR",
+      "company": "MIRVAC GROUP",
+      "headline": "Update - Notification of buy-back - MGR",
+      "time": "2026-09-06T23:01:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132315-2A1695577",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Mirvac Group (MGR) has filed an updated on-market buy-back notification, a notable signal from one of Australia's largest diversified property groups that management considers current securities attractively priced relative to NTA.",
+        "For a large-cap REIT/developer like Mirvac, buy-backs at a discount to NTA are directly accretive to per-security metrics and reflect balance sheet confidence — particularly meaningful in the current elevated interest rate environment pressuring property valuations.",
+        "Institutional investors should track the scale and pace of MGR's buy-back relative to its development pipeline funding requirements, as the balance between capital returns and growth investment will be a key capital allocation signal for FY25."
+      ],
+      "tags": [
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMH",
+      "company": "AMCIL LIMITED",
+      "headline": "Update - Notification of buy-back - AMH",
+      "time": "2026-09-06T23:01:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132314-3A701157",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMCIL Limited (AMH) has updated its on-market buy-back notification, consistent with the listed investment company's long-standing practice of buying back shares when they trade at a discount to pre-tax NTA.",
+        "For LIC investors, AMH's buy-back is a disciplined discount-management mechanism — directly accretive to remaining shareholders and signalling the board's confidence in the underlying portfolio's fair value.",
+        "Given AMCIL's conservative, dividend-focused investment mandate, the buy-back reinforces a shareholder-friendly capital allocation framework and may gradually compress the NTA discount if executed consistently over time."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TMX",
+      "company": "TERRAIN MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-06T23:01:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132313-6A1342445",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "TMX has entered a trading halt under market-sensitive conditions, suspending normal trading pending an undisclosed announcement — standard ASX protocol suggests a material development is imminent.",
+        "For a junior minerals explorer, the most probable triggers include a capital raise, significant drill results, or an asset transaction; the market-sensitive flag elevates the probability of a substantive rather than procedural disclosure.",
+        "Investors should await the lifting of the halt and accompanying announcement before forming a directional view, as the impact could be materially positive or negative depending on the nature of the news."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DJW",
+      "company": "DJERRIWARRH INVESTMENTS LIMITED",
+      "headline": "Update - Notification of buy-back - DJW",
+      "time": "2026-09-06T23:01:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132312-3A701156",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DJW is providing a routine update on its ongoing on-market share buyback program, signalling continued capital management discipline from this listed investment company (LIC).",
+        "Buybacks in LICs like DJW are typically executed when shares trade at a discount to NTA, making this a value-accretive mechanism for remaining shareholders by reducing share count and tightening the NTA discount.",
+        "Investors should monitor the pace and volume of buyback activity relative to the prevailing NTA discount — an acceleration would suggest management views the discount as persistent and material, potentially flagging a deeper structural re-rating opportunity."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFI",
+      "company": "AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
+      "headline": "Update - Notification of buy-back - AFI",
+      "time": "2026-09-06T23:00:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132311-3A701155",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AFI, one of Australia's largest and most established LICs, is updating the market on its on-market share buyback program — a routine but strategically relevant capital management disclosure.",
+        "As with peer LICs, AFI's buyback activity is most meaningful when conducted at a discount to NTA, directly enhancing per-share NTA for remaining holders and signalling board confidence in intrinsic value.",
+        "Institutional holders should track the cumulative buyback volume against the approved program limit; any step-up in buyback cadence would be a constructive signal on management's view of valuation and could support a narrowing of the NTA discount over time."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALA",
+      "company": "AROVELLA THERAPEUTICS LIMITED",
+      "headline": "Clinical manufacturing batch released, first site activated",
+      "time": "2026-09-06T23:00:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132310-3A701152",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The release of ALA's clinical manufacturing batch and activation of the first trial site are concrete, execution-dependent milestones that confirm the iNKT cell therapy program is advancing from pre-clinical into active human trial readiness — a significant de-risking event.",
+        "Manufacturing batch release is a technically demanding regulatory step (GMP compliance); successful release confirms the therapy can be produced at clinical grade, removing a key feasibility risk that has derailed other cell therapy programs.",
+        "First site activation signals patient enrolment can now commence, which will drive the next wave of catalysts — enrolment speed, safety data readouts, and potential expansion to additional sites — making this an important entry point for biotech-focused investors tracking the trial timeline."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RC1",
+      "company": "REDCASTLE RESOURCES LIMITED",
+      "headline": "Additional High-Grade Gold Assays at Queen Alexandra",
+      "time": "2026-09-06T23:00:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132309-6A1342441",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Additional high-grade gold assays at Queen Alexandra reinforce the potential for a coherent, high-grade gold mineralisation zone, building geological confidence beyond initial discovery intercepts — a positive step in resource delineation for RC1.",
+        "The investment-grade question is whether the high-grade results are continuous and at sufficient width to support economic extraction; headline grades without meaningful true widths can be misleading, so assay tables should be interrogated carefully.",
+        "For a micro-cap explorer, sustained high-grade results typically drive speculative re-rating as the market prices optionality on a maiden resource estimate — the next logical catalyst is a follow-up drill program or resource modelling timeline."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ION",
+      "company": "IONDRIVE LIMITED",
+      "headline": "Corporate Presentation",
+      "time": "2026-09-06T22:59:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132308-2A1695573",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ION (IonDrive Limited) has released a corporate presentation, which typically serves as a capital markets or investor awareness tool — particularly significant for smaller, early-stage companies seeking to frame their investment thesis to new or prospective investors.",
+        "The non-market-sensitive classification suggests no material new financial data or operational milestones are disclosed; however, the presentation likely outlines technology positioning, market opportunity sizing, and near-term catalysts that could shape forward sentiment.",
+        "Investors should scrutinise the presentation for clarity on commercialisation timeline, cash runway, and any indicated funding requirements — these are the key de-risking factors for early-stage technology or energy storage names like ION."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORA",
+      "company": "ORORA LIMITED",
+      "headline": "Update - Notification of buy-back - ORA",
+      "time": "2026-09-06T22:59:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132307-3A701153",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Orora Limited (ORA), a packaging solutions company, is updating the market on its on-market share buyback program — reflecting ongoing commitment to returning capital to shareholders amid a period of strategic repositioning following its divestment of the Australasian beverage cans business.",
+        "Buyback activity for ORA carries added significance given the company's evolving balance sheet post-divestiture; the pace of buybacks relative to available franking credits and net cash position will be closely watched by institutional investors.",
+        "The continuation of the buyback signals board confidence in the current share price level and underlying free cash flow generation, though investors should assess whether buybacks represent the highest-return capital allocation option versus debt reduction or bolt-on M&A."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KKC",
+      "company": "KKR CREDIT INCOME FUND",
+      "headline": "Net Tangible Asset Backing",
+      "time": "2026-09-06T22:59:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132306-2A1695575",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "KKC has disclosed its Net Tangible Asset (NTA) backing — a routine but critical monthly disclosure for listed credit funds, allowing investors to assess whether the fund is trading at a premium or discount to its underlying portfolio value.",
+        "The NTA figure is the primary valuation anchor for KKC investors; any material movement versus the prior month's NTA would reflect changes in credit spreads, asset valuations, or currency impacts across KKR's underlying credit portfolio.",
+        "Institutional investors should compare the reported NTA to the prevailing market price to determine entry/exit attractiveness — a widening discount to NTA historically presents a tactical accumulation opportunity in closed-end credit vehicles of this nature."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AWJ",
+      "company": "AURIC MINING LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-06T22:59:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132305-6A1342442",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "AWJ has entered a trading halt under market-sensitive conditions, consistent with ASX Listing Rules requiring a pause ahead of a potentially price-sensitive disclosure — the direction of impact remains unknown.",
+        "For a small gold miner/explorer, probable triggers include a capital raise to fund exploration or operations, a significant resource update, or a project-level transaction; all warrant careful assessment upon announcement.",
+        "Investors should note that trading halts in resource micro-caps frequently precede placement-driven dilution; while not certain, this risk should be held in mind until the nature of the announcement is confirmed."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KCN",
+      "company": "KINGSGATE CONSOLIDATED LIMITED.",
+      "headline": "Chatree Returns to Full Processing Capacity",
+      "time": "2026-09-06T22:58:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132304-2A1695574",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The return of Chatree to full processing capacity is a direct operational re-rating catalyst for KCN, restoring gold production throughput to nameplate levels and eliminating the earnings drag caused by constrained operations — a materially positive development.",
+        "Full capacity restoration translates directly to improved unit economics: fixed costs are spread over higher production volumes, reducing AISC per ounce and expanding operating margins at current gold prices, which remain at historically elevated levels.",
+        "Investors should watch for an updated FY production guidance revision and any commentary on mill throughput rates and recovery grades, as these will determine the magnitude of the earnings upgrade cycle that full capacity restoration should catalyse."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ZNC",
+      "company": "ZENITH MINERALS LIMITED",
+      "headline": "TOV: ZNC - Panel Makes New Interim Orders",
+      "time": "2026-09-06T22:57:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132303_PS-6A1342443",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The Takeovers Panel issuing new interim orders against ZNC signals an active regulatory intervention in a corporate control dispute, introducing material legal and governance uncertainty that typically weighs on share price and strategic optionality.",
+        "Interim orders from the Takeovers Panel can restrict share issuances, voting rights, or acquisition activity, potentially freezing or reversing transactions already in progress — the specific nature of the orders will determine the severity of the commercial impact.",
+        "Until the Panel's final determination, ZNC faces a period of elevated uncertainty regarding its capital structure and any pending transaction; institutional investors should treat this as a high-risk situation requiring close monitoring of Panel proceedings and any associated court activity."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TOV",
+      "company": "TOV",
+      "headline": "ZNC - Panel Makes New Interim Orders",
+      "time": "2026-09-06T22:57:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132303_NPS-2A1695576",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "TOV has filed an announcement referencing 'ZNC — Panel Makes New Interim Orders', indicating the Takeovers Panel has issued interim orders in relation to ZNC (Zenith Capital or associated entity) — a legally significant and potentially disruptive development for the parties involved.",
+        "Takeovers Panel interim orders typically restrict share transfers, voting rights, or further acquisitions, and are issued when the Panel identifies a prima facie case of unacceptable circumstances — this introduces material uncertainty and potential deal disruption.",
+        "Investors in TOV and any associated target or bidder should treat this as a high-priority regulatory event; the Panel's final determination could materially alter deal terms, ownership structures, or transaction timelines, warranting close legal and regulatory monitoring."
+      ],
+      "tags": [
+        "Compliance",
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DXS",
+      "company": "DEXUS",
+      "headline": "Update - Notification of buy-back - DXS",
+      "time": "2026-09-06T22:57:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132302-2A1695572",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Dexus (DXS), Australia's largest listed office and industrial REIT, is updating the market on its on-market share buyback program — a notable capital management signal in the context of ongoing pressure on office asset valuations and elevated interest rates.",
+        "For DXS, executing buybacks at a discount to NTA is particularly value-accretive given the current dislocation between listed REIT prices and underlying property valuations; the buyback implicitly acknowledges management's view that the stock is undervalued relative to asset backing.",
+        "Investors should monitor whether buyback volumes are meaningful relative to DXS's market capitalisation and free cash flow — in a constrained balance sheet environment, the opportunity cost of buybacks versus debt reduction or development pipeline funding is a key strategic tension to watch."
+      ],
+      "tags": [
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "LRV",
       "company": "LARVOTTO RESOURCES LIMITED",
