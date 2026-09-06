@@ -1,9 +1,313 @@
 {
   "date": "2026-09-07",
-  "total": 238,
-  "market_sensitive_count": 70,
-  "generated_at": "2026-09-06T23:39:17.217404+00:00",
+  "total": 254,
+  "market_sensitive_count": 72,
+  "generated_at": "2026-09-06T23:45:57.826537+00:00",
   "announcements": [
+    {
+      "ticker": "QGR",
+      "company": "QGR",
+      "headline": "QGRU Monthly Unit Disclosure - August 2026",
+      "time": "2026-09-06T23:43:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132416-2A1695619",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "QGR's monthly unit disclosure for August 2026 is a routine administrative filing providing transparency on units on issue — no operational or financial performance data is conveyed, limiting actionable insight.",
+        "Any material change in units on issue (creations vs. redemptions) could indicate shifts in investor appetite for the underlying strategy; a net redemption trend would be a negative flow signal worth monitoring over successive months.",
+        "As a non-market-sensitive disclosure, this filing carries no immediate price catalyst — institutional investors should aggregate monthly unit data over time to assess structural flow trends within the fund."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GCQ",
+      "company": "VANGUARD S&P 500 US SHARES INDEX (HEDGED) ETF",
+      "headline": "Monthly Portfolio & Performance Update - August 2026",
+      "time": "2026-09-06T23:42:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132415-2A1695620",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "GCQ's August 2026 monthly portfolio and performance update offers a standardised NAV and performance snapshot against the S&P 500 (hedged) — the key metric to assess is tracking error versus the benchmark and the AUD/USD hedge effectiveness during what has been a volatile FX period.",
+        "As a passive hedged ETF, performance deviations from benchmark are primarily driven by hedging costs and rebalancing friction — any notable underperformance relative to the index should prompt review of total expense ratio drag and hedge roll costs.",
+        "This is a routine disclosure with no market-sensitive content; however, cumulative monthly performance data informs institutional asset allocators on whether GCQ remains an efficient vehicle for hedged US large-cap exposure versus peer products."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BBT",
+      "company": "BETR ENTERTAINMENT LIMITED",
+      "headline": "Notification of cessation of securities - BBT",
+      "time": "2026-09-06T23:42:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132414-2A1695621",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The cessation of securities filing for BBT indicates that a class of securities (likely options, performance rights, or warrants) has lapsed or been cancelled — this is typically associated with unvested equity awards expiring unexercised or performance conditions not being met.",
+        "If the ceased securities were performance rights tied to KPIs, failure to meet vesting conditions could signal underperformance against internal targets — a subtle but potentially meaningful negative read-through on operational execution.",
+        "While administratively routine and non-market-sensitive, the volume and nature of ceased securities should be reviewed: large-scale lapse of executive incentives may affect talent retention and management confidence in the company's near-term trajectory."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TAH",
+      "company": "TABCORP HOLDINGS LIMITED",
+      "headline": "Appendix 3Y - Change of interest - Brett Chenoweth",
+      "time": "2026-09-06T23:42:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132413-3A701184",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "The Appendix 3Y for TAH director Brett Chenoweth discloses a change in his relevant interest in TAH securities — the direction of change (buy or sell) is the critical variable; an on-market purchase signals conviction in valuation, while a disposal may warrant further scrutiny.",
+        "Director interest changes at Tabcorp are closely watched given the company's ongoing strategic repositioning post-demerger and the competitive wagering landscape; even modest director transactions can act as a sentiment indicator for the broader market.",
+        "As a non-market-sensitive administrative filing, this carries no immediate price catalyst, but institutional investors tracking insider activity should log this as part of a broader director dealing pattern analysis for TAH."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFI",
+      "company": "AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
+      "headline": "Weekly Estimated NTA as at 4 September 2026",
+      "time": "2026-09-06T23:41:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132412-3A701183",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AFI's weekly estimated NTA as at 4 September 2026 provides a current mark-to-market snapshot of the portfolio's net asset value — the key metric is the NTA premium or discount to market price, which drives LIC arbitrage and re-rating potential.",
+        "For AFI, one of Australia's largest and longest-standing LICs, NTA movements reflect broad ASX large-cap equity performance; any widening of the discount to NTA could attract activist attention or accelerate buyback activity.",
+        "This is a routine, non-market-sensitive disclosure; however, weekly NTA tracking is a fundamental tool for LIC investors — consistent NTA growth relative to peers reinforces AFI's positioning as a core, low-turnover Australian equity holding."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EXL",
+      "company": "ELIXINOL WELLNESS LIMITED",
+      "headline": "EXL Completion of Divestment of United States Business",
+      "time": "2026-09-06T23:41:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132411-3A701181",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EXL has completed the divestment of its US business, marking a decisive strategic pivot that eliminates exposure to the highly competitive and regulatory-complex American CBD/hemp market — a segment that has persistently weighed on group profitability.",
+        "The completion of the divestment likely triggers receipt of sale proceeds, which could materially improve EXL's balance sheet and extend cash runway for its remaining international operations — investors should scrutinise net proceeds versus book value for any impairment signal.",
+        "Post-divestment, EXL becomes a leaner, more focused entity; near-term investor focus will shift to whether remaining operations (likely Australia/Europe) can achieve standalone profitability or whether this signals a broader wind-down or restructure scenario."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SRV",
+      "company": "SERVCORP LIMITED",
+      "headline": "Application for quotation of securities - SRV",
+      "time": "2026-09-06T23:41:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132410-2A1695617",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "SRV's application for quotation of securities indicates new shares or other instruments (likely from a DRP, exercise of options, or employee incentive plan) are being admitted to official quotation — this is a standard post-issuance administrative step.",
+        "The volume of securities being quoted relative to shares on issue determines the dilution impact; small tranches from employee equity plans are immaterial, while larger tranches from capital raises warrant closer attention to pricing versus current market.",
+        "As a non-market-sensitive filing, this carries no immediate valuation impact, but confirms SRV is actively managing its capital structure — investors should cross-reference with any recent capital raise or employee incentive scheme announcements for full context."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SBS",
+      "company": "STATE STREET BLACKSTONE SENIOR LN HDG ACTIVE ETF",
+      "headline": "Final Distribution Announcement",
+      "time": "2026-09-06T23:40:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132409-2A1695616",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "SBS has announced a final distribution, providing income confirmation for unitholders in this senior loan / hedged active ETF — the distribution amount per unit is the key data point, as it reflects the coupon income generated from the underlying senior secured loan portfolio.",
+        "Senior loan ETFs like SBS are floating-rate instruments, meaning distribution levels are directly correlated to prevailing interest rates — in a higher-for-longer rate environment, final distributions may be elevated, making this an income-positive signal for yield-focused investors.",
+        "The 'final' classification may indicate a financial year-end or fund-specific distribution cycle completion — investors should assess whether the annualised yield remains competitive versus comparable credit instruments and whether the underlying portfolio credit quality has shifted."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MIR",
+      "company": "MIRRABOOKA INVESTMENTS LIMITED",
+      "headline": "Weekly Estimated NTA as at 4 September 2026",
+      "time": "2026-09-06T23:40:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132408-3A701182",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MIR's weekly estimated NTA as at 4 September 2026 provides an updated portfolio valuation benchmark — the premium or discount to NTA is the primary metric for assessing whether MIR offers an entry opportunity or is fairly valued relative to its small/mid-cap Australian equity portfolio.",
+        "As a smaller LIC focused on emerging companies, MIR's NTA is more volatile than peers like AFI, reflecting the higher beta nature of its underlying holdings — weekly NTA disclosures allow active monitoring of mark-to-market shifts in this higher-risk segment.",
+        "This routine, non-market-sensitive filing offers no immediate price catalyst; however, for LIC-focused investors, sustained NTA growth in MIR's small/mid-cap portfolio would be a positive signal for the broader ASX emerging companies segment."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AZJ",
+      "company": "AURIZON HOLDINGS LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-06T23:40:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132407-2A1695615",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director of Aurizon Holdings has altered their beneficial interest in AZJ securities, likely through on-market trading, participation in an employee share plan, or a rights exercise — routine but worth monitoring for directional signals on insider conviction.",
+        "Director transactions at major infrastructure operators like AZJ (Australia's largest rail freight network) can reflect personal views on valuation; net buying at current yield-sensitive levels would reinforce the stock's defensive income appeal.",
+        "No immediate financial impact is expected; investors should review the specific volume and direction of the transaction in the full filing to assess whether it represents meaningful insider activity or a mechanical plan-based acquisition."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SBH",
+      "company": "STATE STREET BLACKSTONE HIGH INCM HDG ACTIVE ETF",
+      "headline": "Final Distribution Announcement",
+      "time": "2026-09-06T23:39:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132406-2A1695613",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "State Street Blackstone High Income Hedged Active ETF (SBH) has declared its final distribution, confirming income delivery to unitholders — a key metric for yield-focused investors evaluating this actively managed, hedged fixed-income product.",
+        "The distribution quantum and cents-per-unit figure (contained in the full announcement) will determine whether SBH is maintaining, growing, or compressing its yield profile relative to its stated mandate of high income generation.",
+        "For institutional allocators, consistency and size of final distributions in an active ETF signal the portfolio's ability to harvest income in the current rate environment; any compression versus prior periods warrants scrutiny of the underlying Blackstone credit strategy's performance."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CLG",
+      "company": "CLOSE THE LOOP LTD.",
+      "headline": "Final Director's Interest Notice",
+      "time": "2026-09-06T23:39:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132405-3A701180",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A 'Final' Director's Interest Notice for Close the Loop Ltd (CLG) typically signals that a director has ceased their role, triggering a mandatory final disclosure of their remaining or disposed securities — indicating a board-level departure.",
+        "Director exits at small-cap companies like CLG (a circular economy/packaging solutions business) can raise questions around strategic continuity, particularly if the departing individual held an executive or operationally significant role.",
+        "Investors should cross-reference this filing with any accompanying resignation announcement to assess whether the departure is planned/routine or potentially signals underlying governance or strategic concerns at CLG."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RIV",
+      "company": "RIVCO AUSTRALIA LTD",
+      "headline": "Update - Notification of buy-back - RIV",
+      "time": "2026-09-06T23:38:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132404-2A1695614",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Rivco Australia Ltd (RIV) has issued an update to its on-market share buyback notification, indicating the buyback program remains active — a capital management signal that the board views shares as undervalued relative to intrinsic worth.",
+        "For a micro-cap like RIV, buyback activity can have an outsized impact on liquidity and EPS accretion; the update's key details — shares repurchased to date, remaining buyback capacity, and pricing — are critical to evaluating shareholder returns efficiency.",
+        "Sustained buyback execution at current price levels would reduce the free float, potentially tightening the bid-ask spread and supporting the share price, though investors should confirm the company retains sufficient cash runway to fund operations alongside the buyback."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VTX",
+      "company": "VERTEX MINERALS LIMITED",
+      "headline": "Proposed issue of securities - VTX",
+      "time": "2026-09-06T23:38:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132403-6A1342461",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vertex Minerals (VTX) has lodged a 'Proposed Issue of Securities' notice, signalling an imminent capital raise — this is the first of two identical filings, suggesting a structured placement and/or share purchase plan (SPP) with separate tranches being disclosed.",
+        "For a small-cap miner, equity issuance is inherently dilutive to existing shareholders; the critical variables are the issue price relative to last traded price (discount depth), total shares to be issued, and the stated use of proceeds — typically exploration, development, or working capital.",
+        "Until full terms are confirmed, investors face near-term overhang risk; the market's reaction will hinge on whether the raise is priced aggressively and whether the capital is being deployed into a value-accretive catalyst such as a drill program or resource upgrade."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "VTX",
+      "company": "VERTEX MINERALS LIMITED",
+      "headline": "Proposed issue of securities - VTX",
+      "time": "2026-09-06T23:38:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132402-6A1342460",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This second 'Proposed Issue of Securities' filing by Vertex Minerals (VTX) on the same day strongly indicates a two-tranche structure — likely a director/related party placement or an SPP component running alongside the primary institutional placement disclosed in filing [5].",
+        "Dual filings of this nature are common when ASX Listing Rules require separate disclosure for different classes of recipients (e.g., sophisticated investors vs. retail shareholders, or securities subject to shareholder approval vs. those issued under placement capacity).",
+        "Investors should consolidate both notices to calculate the total potential dilution — aggregate shares issued across both tranches relative to current shares on issue — to fully quantify the impact on net asset value per share and earnings per share going forward."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "VTX",
+      "company": "VERTEX MINERALS LIMITED",
+      "headline": "New Convertible Loan Funding - A$4.2M",
+      "time": "2026-09-06T23:38:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132401-6A1342459",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "VTX has secured A$4.2M via a new convertible loan facility — a non-dilutive-at-issuance structure, but conversion mechanics will be critical: conversion price, discount to market, and any associated interest rate determine the true dilution risk for existing shareholders.",
+        "At A$4.2M, the quantum suggests VTX is funding near-term operational or exploration expenditure rather than a major development milestone; for a small-cap miner, this extends runway but raises questions about whether equity raises or further debt will be required in the medium term.",
+        "Convertible loan structures in micro/small-cap mining often signal limited access to equity markets at acceptable terms — investors should monitor conversion trigger conditions and whether lender identity suggests strategic or opportunistic capital, as this materially affects sentiment on future corporate activity."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "ILT",
       "company": "ILTANI RESOURCES LIMITED.",
