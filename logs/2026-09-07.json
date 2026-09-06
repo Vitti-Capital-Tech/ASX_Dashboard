@@ -1,9 +1,123 @@
 {
   "date": "2026-09-07",
-  "total": 132,
-  "market_sensitive_count": 38,
-  "generated_at": "2026-09-06T22:49:06.493667+00:00",
+  "total": 138,
+  "market_sensitive_count": 40,
+  "generated_at": "2026-09-06T22:58:29.865972+00:00",
   "announcements": [
+    {
+      "ticker": "LRV",
+      "company": "LARVOTTO RESOURCES LIMITED",
+      "headline": "Excellent drill results continue from Clarks Gully",
+      "time": "2026-09-06T22:56:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132301-6A1342440",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Continued strong drill results at Clarks Gully reinforce resource expansion potential, a critical de-risking milestone that typically drives re-rating for early-stage explorers on the ASX.",
+        "Market-sensitive classification signals material intercepts likely exceeding prior benchmarks — investors should watch for grade, width, and depth metrics that could meaningfully upgrade the resource inventory.",
+        "Sustained drilling success positions LRV for a maiden or updated resource estimate in coming months, a key catalyst that could attract institutional attention and project-level M&A interest."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BKI",
+      "company": "BKI INVESTMENT COMPANY LIMITED",
+      "headline": "BKI Weekly NTA 4 September 2026",
+      "time": "2026-09-06T22:53:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132300-2A1695570",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "BKI's weekly NTA disclosure is a routine regulatory update; the key metric to monitor is the premium or discount to NTA at which BKI shares are trading, which signals market sentiment toward its listed equity portfolio.",
+        "As a Listed Investment Company, any narrowing of the NTA discount or shift to a premium would be constructive for shareholders, while a widening discount may prompt buyback activity or activist interest.",
+        "This release carries no independent market-moving information — its value lies in tracking portfolio drift week-on-week as a proxy for BKI's underlying holdings performance across Australian equities."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BST",
+      "company": "BORESIGHT LTD",
+      "headline": "Repeat Order from Major North American Military Customer",
+      "time": "2026-09-06T22:52:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132299-2A1695569",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A repeat order from a major North American military customer is a high-quality revenue signal — reorders from defence clients indicate product performance validation and suggest an established supply relationship rather than a one-off contract.",
+        "Market-sensitive classification implies the order size is material relative to BST's revenue base, potentially representing a significant proportion of near-term earnings and improving cash flow visibility.",
+        "Defence sector repeat business carries strong strategic value: it reduces customer concentration risk perception, supports contract renewal narratives, and could serve as a reference case to unlock additional NATO-aligned procurement opportunities."
+      ],
+      "tags": [
+        "Technology",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DXB",
+      "company": "DIMERIX LIMITED",
+      "headline": "Dimerix Investor Presentation",
+      "time": "2026-09-06T22:51:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132298-3A701151",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Investor presentations are typically used to refresh market awareness ahead of catalysts such as trial data readouts, capital raises, or partnership announcements — the timing and content emphasis are key signals worth scrutinising.",
+        "For Dimerix, a clinical-stage healthcare company, the presentation likely highlights pipeline progress on DMX-200 (its lead renal asset); any updated trial timelines or partnership discussions disclosed would be the material takeaway.",
+        "Non-market-sensitive classification suggests no new material information is being released, making this a sentiment-maintenance exercise rather than a near-term re-rating event."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGH",
+      "company": "MAAS GROUP HOLDINGS LIMITED",
+      "headline": "Update - Notification of buy-back - MGH",
+      "time": "2026-09-06T22:50:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132297-2A1695568",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MGH's buyback update signals management confidence in the intrinsic value of the stock relative to current market pricing — a constructive capital allocation signal for existing shareholders.",
+        "The pace and volume of buyback activity disclosed in this notification will determine its EPS accretion impact; accelerated buybacks at current levels would reduce share count and support per-share metrics materially.",
+        "For a infrastructure and construction-exposed company like MAAS Group, buybacks during periods of earnings uncertainty also serve as a floor-price signalling mechanism, potentially limiting near-term downside volatility."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ABY",
+      "company": "ADORE BEAUTY GROUP LIMITED",
+      "headline": "Appointment of Chief Financial Officer",
+      "time": "2026-09-06T22:46:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132296-3A701150",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The appointment of a new CFO at Adore Beauty is a key leadership stabilisation signal — for a digitally-native retailer navigating margin pressure and competitive headwinds, financial discipline at the executive level is critical to restoring investor confidence.",
+        "Investors should assess the incoming CFO's background: a candidate with e-commerce, cost optimisation, or capital markets experience would be viewed more favourably than an operational generalist given ABY's current profitability challenges.",
+        "While procedurally non-market-sensitive, CFO changes at small-cap retailers can precede strategic reviews, cost restructuring programs, or capital allocation shifts — making this an announcement worth monitoring for secondary signals."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "PNN",
       "company": "POWER MINERALS LIMITED",
