@@ -1,9 +1,219 @@
 {
   "date": "2026-09-07",
-  "total": 254,
-  "market_sensitive_count": 72,
-  "generated_at": "2026-09-06T23:45:57.826537+00:00",
+  "total": 265,
+  "market_sensitive_count": 75,
+  "generated_at": "2026-09-06T23:52:52.337638+00:00",
   "announcements": [
+    {
+      "ticker": "NGY",
+      "company": "NUENERGY GAS LIMITED",
+      "headline": "Proposed issue of securities - NGY",
+      "time": "2026-09-06T23:49:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132427-6A1342474",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is a procedural ASX Appendix 3B filing notifying the market of a proposed securities issuance by NuEnergy Gas, directly linked to the funding announcement in item [1] — it formalises the capital structure change flagged in the market update.",
+        "While not independently market sensitive, the filing will disclose the exact number of new securities, issue price, and class — these figures are critical for quantifying dilution impact on existing shareholders and assessing the effective funding valuation.",
+        "Cross-referencing this document with announcement [1] will give institutional investors the complete capital raise picture; the key metrics to extract are total shares on issue post-issuance and the implied post-money market capitalisation."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NGY",
+      "company": "NUENERGY GAS LIMITED",
+      "headline": "NuEnergy funded to progress towards commercialisation",
+      "time": "2026-09-06T23:49:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132426-6A1342473",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NuEnergy has secured funding to advance its coal seam gas assets toward commercialisation, a critical de-risking milestone that signals external validation of the project's economic viability and reduces near-term capital uncertainty.",
+        "The market-sensitive classification suggests the funding quantum or structure is material — investors should watch for specifics on dilution, debt terms, or strategic partner involvement that will define the cost of this capital injection.",
+        "Progression toward commercialisation implies upcoming technical and regulatory milestones (e.g. pilot production, government approvals) that could serve as re-rating catalysts; the pace of execution will be the key monitor for institutional holders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "XAS",
+      "company": "ALPHINITY GLOBAL SUSTAINABLE EQUITY FUND - ACTIVE ETF",
+      "headline": "Monthly Redemptions, Units on issue & Derivative Exposure",
+      "time": "2026-09-06T23:48:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132425-2A1695630",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Alphinity Global Sustainable Equity Fund (XAS) has filed its routine monthly disclosure covering redemptions, units on issue, and derivative exposure — a standard compliance requirement for active ETFs under ASX listing rules with no alpha-generating content.",
+        "Redemption flows and changes in units on issue are worth monitoring as a proxy for investor sentiment toward global sustainable equity strategies; net outflows would signal waning ESG ETF demand, while inflows indicate continued institutional allocation.",
+        "Derivative exposure disclosure is a risk-management transparency item; significant changes in notional derivative positions could indicate a shift in the fund manager's hedging posture or tactical positioning in global equity markets."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XAL",
+      "company": "ALPHINITY GLOBAL EQUITY FUND - ACTIVE ETF",
+      "headline": "Monthly Redemptions, Units on issue & Derivative Exposure",
+      "time": "2026-09-06T23:47:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132424-2A1695627",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Alphinity Global Equity Fund (XAL) has lodged its routine monthly operational disclosure — a standard, non-market-sensitive compliance filing with no direct share price catalyst for the ETF itself.",
+        "Tracking month-on-month changes in units on issue provides a useful gauge of retail and institutional demand for active global equity exposure; sustained redemption trends would be a soft negative signal for the fund's FUM trajectory and fee revenue.",
+        "Derivative exposure data, while procedural, can reveal the fund's current use of hedging instruments (e.g. currency overlays, equity futures) — material changes in notional exposure may signal portfolio manager conviction shifts worth monitoring."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XAR",
+      "company": "ARDEA REAL OUTCOME BOND COMPLEX ETF",
+      "headline": "Monthly Redemptions, Units on issue & OTC Exposure",
+      "time": "2026-09-06T23:47:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132423-2A1695622",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ardea Real Outcome Bond Complex ETF (XAR) has filed its monthly disclosure covering redemptions, units on issue, and OTC derivative exposure — a routine compliance submission with no direct market-moving implications.",
+        "In the current interest rate environment, monitoring XAR's unit redemption trends is relevant as a barometer for institutional appetite for real return fixed income strategies; persistent outflows would suggest capital rotation away from inflation-linked bonds.",
+        "OTC derivative exposure is particularly pertinent for a bond complex ETF, as it reflects interest rate swap and inflation swap activity used to construct the fund's real return profile — significant changes in notional exposure deserve closer scrutiny for risk positioning."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GG1",
+      "company": "GREEN & GOLD MINERALS LIMITED",
+      "headline": "Rights Issue to Accelerate Drilling",
+      "time": "2026-09-06T23:47:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132422-2A1695626",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Green & Gold Minerals is launching a rights issue specifically to fund drilling acceleration, indicating the board believes current targets warrant urgent capital deployment ahead of potentially time-sensitive exploration results.",
+        "Rights issues at early-stage miners are inherently dilutive; the market-sensitive flag suggests the raise size is material relative to the company's market cap, and pricing relative to the last traded price will determine shareholder take-up and implied discount severity.",
+        "The strategic framing around 'accelerating drilling' rather than general working capital is a positive signal for project conviction, but investors should scrutinise the drilling program scope, target mineralogy, and whether a cornerstone or underwriter is in place to de-risk the offer."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HGC",
+      "company": "VANGUARD S&P 500 US SHARES INDEX ETF",
+      "headline": "Monthly Portfolio & Performance Update - August 2026",
+      "time": "2026-09-06T23:47:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132421-2A1695625",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vanguard S&P 500 ETF (HGC) has released its August 2026 monthly portfolio and performance update — a routine disclosure providing NAV, return attribution, and tracking error data against the S&P 500 benchmark.",
+        "Performance relative to the S&P 500 index (tracking difference) is the primary metric of interest; any material deviation from benchmark returns would raise questions about hedging efficiency or currency drag given HGC's USD-denominated underlying exposure.",
+        "As a passive index product, this filing carries no strategic insight; however, large month-on-month changes in units on issue serve as a leading indicator of retail investor risk appetite toward US large-cap equities heading into late 2026."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAX",
+      "company": "WAM RESEARCH LIMITED",
+      "headline": "August 2026 Investment Update",
+      "time": "2026-09-06T23:47:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132420-2A1695623",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WAM Research (WAX) has released its August 2026 monthly investment update, providing portfolio performance, NTA (net tangible assets) per share, and market commentary — a key reference point for assessing the LIC's discount/premium to NTA.",
+        "The NTA figure relative to the current share price is the critical data point; WAX has historically traded at a premium to NTA given its strong dividend track record, and any compression of that premium would signal weakening investor confidence in the portfolio manager's alpha generation.",
+        "Wilson Asset Management's sector exposures and top holdings commentary will offer institutional investors a high-quality lens on small-to-mid cap ASX stock selection, with the August update particularly relevant for gauging portfolio positioning ahead of the AGM season and reporting period."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OLL",
+      "company": "OPENLEARNING LIMITED",
+      "headline": "OLL Secures $256K in Platform SaaS Agreements",
+      "time": "2026-09-06T23:44:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132419-6A1342475",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "OpenLearning has secured $256K in new platform SaaS agreements — a positive revenue signal but modest in absolute terms for a company seeking to demonstrate scalable recurring revenue growth, suggesting this is incremental rather than transformational.",
+        "The non-market-sensitive classification implies the board does not consider this material to the overall valuation, which itself signals the company's revenue base remains small; investors should contextualise this against total ARR and quarterly revenue run-rate to assess genuine growth momentum.",
+        "Strategically, SaaS contract wins validate the platform's commercial viability and stickiness — the focus should be on contract duration, client concentration, and whether this represents new customer acquisition or upsell to existing accounts, all of which inform long-term revenue quality."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EXL",
+      "company": "ELIXINOL WELLNESS LIMITED",
+      "headline": "EXL Divestment and Business Update Investor Presentation",
+      "time": "2026-09-06T23:44:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132418-3A701185",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EXL is progressing a divestment of business assets, signalling a strategic pivot or wind-down of operations — investors should scrutinise deal terms, any cash proceeds relative to current market cap, and whether this unlocks or destroys shareholder value.",
+        "The 'not market sensitive' classification suggests the divestment is either at an early/indicative stage or involves non-core assets, limiting immediate valuation uplift; however, for a micro-cap wellness company like EXL, any asset sale materially impacts the remaining business profile and cash runway.",
+        "Key near-term catalysts to watch include binding sale agreements, use-of-proceeds disclosure (capital return vs. reinvestment), and clarity on the post-divestment operating entity — absence of these details keeps the stock in a holding pattern until material terms are confirmed."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Successful Completion of Institutional Entitlement Offer",
+      "time": "2026-09-06T23:43:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132417-2A1695612",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Eureka Group Holdings has successfully completed its institutional entitlement offer, removing a key execution risk and confirming strong institutional appetite — a meaningful vote of confidence in the company's affordable seniors accommodation growth strategy.",
+        "Successful completion eliminates the overhang risk associated with an incomplete raise; the focus now shifts to the retail entitlement offer tranche (if applicable) and, critically, how the proceeds will be deployed to drive near-term earnings accretion.",
+        "For a company in the property/accommodation sector, successful institutional capital raises typically enable asset acquisitions or development pipeline funding — investors should look for an accompanying use-of-proceeds update to assess return on invested capital timelines."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Property"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "QGR",
       "company": "QGR",
