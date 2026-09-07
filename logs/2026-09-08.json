@@ -1,9 +1,161 @@
 {
   "date": "2026-09-08",
-  "total": 86,
-  "market_sensitive_count": 22,
-  "generated_at": "2026-09-07T22:29:47.466068+00:00",
+  "total": 94,
+  "market_sensitive_count": 25,
+  "generated_at": "2026-09-07T22:39:59.804667+00:00",
   "announcements": [
+    {
+      "ticker": "PER",
+      "company": "PERCHERON THERAPEUTICS LIMITED",
+      "headline": "Notice under S708A",
+      "time": "2026-09-07T22:36:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132898-3A701249",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PER's Section 708A notice is a standard Corporations Act compliance filing required after issuing shares without a prospectus (typically following a placement), confirming those securities are now freely tradeable on ASX.",
+        "This is an administrative lodgement with no new commercial information; however, it confirms a prior capital raise has settled, meaning any associated dilution has already been priced into the stock.",
+        "No immediate price catalyst is expected; investors should cross-reference the volume of shares now freed for trading against average daily liquidity to assess any near-term supply-side overhang risk."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BC8",
+      "company": "BLACK CAT SYNDICATE LIMITED",
+      "headline": "Appointment of Acting Managing Director",
+      "time": "2026-09-07T22:36:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132897-6A1342691",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "Leadership continuity risk flagged as BC8 appoints an Acting Managing Director, signalling an unplanned or accelerated departure of the incumbent MD at a critical stage of the Kal East gold project development.",
+        "The 'Acting' designation implies the board has not yet identified a permanent replacement, which may extend executive uncertainty and distract from operational execution at the Paulsens East and Fingals projects.",
+        "Investors should monitor whether this transition triggers a strategic review or delays key milestones; a swift permanent appointment would be a stabilising signal, while a prolonged search could weigh on sentiment."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CC9",
+      "company": "CHARIOT RESOURCES LTD",
+      "headline": "Investor Presentation September 2026",
+      "time": "2026-09-07T22:35:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132896-6A1342689",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CC9's September 2026 investor presentation is a non-sensitive marketing and awareness update, likely timed to coincide with an investor roadshow or conference, with the goal of broadening the institutional and retail shareholder register.",
+        "The presentation may contain updated project timelines, resource estimates, or strategic priorities, but the non-market-sensitive classification indicates no material new information beyond what has been previously disclosed.",
+        "For existing shareholders, the key read-through is whether management's messaging reflects increased confidence in project milestones or capital allocation strategy; new investors should use this as an entry-level due diligence document."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAZ",
+      "company": "CAZALY RESOURCES LIMITED",
+      "headline": "Gold Mineralisation at Hastings Extended",
+      "time": "2026-09-07T22:35:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132895-6A1342690",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CAZ has extended gold mineralisation at its Hastings project, a market-sensitive update suggesting strike or depth extensions beyond the existing resource envelope that could materially upgrade the project's scale.",
+        "Extension of mineralisation is a key de-risking catalyst for junior explorers — if intercept grades and widths are consistent with prior drilling, this directly supports a resource estimate upgrade and improves project economics.",
+        "Next steps will centre on defining the extent of the new mineralised corridor and whether a maiden or revised JORC resource estimate is forthcoming; additional drilling commitments will be the key metric to watch."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KTA",
+      "company": "KRAKATOA RESOURCES LIMITED",
+      "headline": "High-Grade Gold & Antimony Assay Results at Zopkhito",
+      "time": "2026-09-07T22:34:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132894-6A1342688",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "KTA has returned high-grade gold and antimony assay results at the Zopkhito project in Georgia, a dual-commodity discovery that materially enhances the asset's strategic appeal given antimony's critical mineral designation and supply scarcity globally.",
+        "High-grade results in both gold and antimony represent a differentiated value proposition — antimony premiums and critical mineral policy tailwinds (particularly from Western governments seeking non-Chinese supply) could attract strategic interest well beyond typical junior explorer multiples.",
+        "The immediate focus will be on the specific grades and widths disclosed, continuity of the mineralised system at depth, and whether KTA has the balance sheet to accelerate drilling; any resource definition pathway will be a major re-rating catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LSF",
+      "company": "L1 LONG SHORT FUND LIMITED",
+      "headline": "Net Tangible Asset Backing",
+      "time": "2026-09-07T22:29:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132893-3A701247",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "LSF's monthly Net Tangible Asset (NTA) backing disclosure is a routine regulatory update, providing investors with the latest per-share NTA figure to assess the fund's premium or discount to market price.",
+        "The NTA movement relative to the prior month is the key signal — outperformance versus the ASX benchmark would reinforce LSF's long/short strategy credentials, while a decline could prompt redemption concerns or discount widening.",
+        "This is a standard LIC compliance disclosure; no strategic or operational changes are implied, though persistent NTA growth would be supportive of the case for LSF trading at a narrower discount to NTA over time."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VVA",
+      "company": "VIVA LEISURE LIMITED",
+      "headline": "Notification of cessation of securities - VVA",
+      "time": "2026-09-07T22:28:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132892-3A701248",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "VVA's notification of cessation of securities relates to the lapsing or cancellation of performance rights, options, or similar instruments — a routine administrative update with no direct cash impact on the company.",
+        "Cessation of unvested securities (e.g. performance rights that lapsed due to conditions not being met) can signal underperformance against internal KPIs, which warrants scrutiny of the specific conditions that were not satisfied.",
+        "No material shareholder dilution impact arises from a cessation event; however, if the lapsed instruments were linked to executive retention or performance targets, it may prompt questions around management incentive alignment and talent retention."
+      ],
+      "tags": [
+        "Compliance",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IMB",
+      "company": "INTELLIGENT MONITORING GROUP LIMITED",
+      "headline": "IMB - Change in substantial holding",
+      "time": "2026-09-07T22:28:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132891-6A1342687",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for IMB (Intelligent Monitoring Group) signals a shift in ownership above or below the 5% threshold, indicating meaningful buying or selling activity by a significant shareholder.",
+        "Depending on the direction of the change — accumulation or partial exit — this could reflect a sophisticated investor building a strategic position or reducing exposure following recent price moves; the identity of the holder is key context.",
+        "While procedurally routine, substantial holder movements in small-to-mid cap securities can foreshadow corporate activity such as a takeover approach or block trade; investors should review the filer's history and stated intentions."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "IRE",
       "company": "IRESS LIMITED",
