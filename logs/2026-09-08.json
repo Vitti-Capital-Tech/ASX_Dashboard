@@ -1,9 +1,369 @@
 {
   "date": "2026-09-08",
-  "total": 168,
-  "market_sensitive_count": 43,
-  "generated_at": "2026-09-07T23:31:30.537983+00:00",
+  "total": 187,
+  "market_sensitive_count": 49,
+  "generated_at": "2026-09-07T23:40:20.475004+00:00",
   "announcements": [
+    {
+      "ticker": "SRL",
+      "company": "SUNRISE ENERGY METALS LIMITED",
+      "headline": "Appendix 4G",
+      "time": "2026-09-07T23:37:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132991-3A701275",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Appendix 4G filing by Sunrise Energy Metals is a mandatory ASX corporate governance compliance document cross-referencing the company's adherence to the ASX Corporate Governance Principles and Recommendations — it carries no direct operational or financial content and is purely administrative in nature.",
+        "Filing of the Appendix 4G is typically timed alongside or shortly after the Annual Report; for institutional investors it serves as a checklist to identify any governance gaps or 'if not, why not' explanations that may signal board structure or oversight concerns worth monitoring.",
+        "No material share price impact is expected from this filing; however, any disclosed deviations from recommended governance practices within the document could attract scrutiny from ESG-focused institutional investors or proxy advisers in the context of upcoming AGM resolutions."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CNQ",
+      "company": "CLEAN TEQ WATER LIMITED",
+      "headline": "Notification regarding unquoted securities - CNQ",
+      "time": "2026-09-07T23:37:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132990-3A701277",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Clean TeQ Water's notification regarding unquoted securities is a routine ASX Listing Rule compliance filing, typically relating to the issuance of performance rights, options, or other equity instruments to directors or employees that are not yet quoted on the exchange — this is standard corporate housekeeping.",
+        "The issuance of unquoted securities can represent incremental dilution to existing shareholders if and when those instruments vest and are exercised or converted; however, the quantum at this stage is unlikely to be material enough to move the share price in isolation.",
+        "Investors should note the details of the securities issued (instrument type, vesting conditions, and exercise price if applicable) as an indicator of management's incentive alignment and the potential future dilution overhang, but no immediate trading action is warranted from this disclosure alone."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TTT",
+      "company": "TITOMIC LIMITED",
+      "headline": "Cleansing Notice Under Section 708A(5)",
+      "time": "2026-09-07T23:37:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132989-3A701274",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Titomic's cleansing notice under Section 708A(5) of the Corporations Act confirms the company has recently completed a capital raise (most likely a placement) without a prospectus and is now fulfilling its statutory obligation to allow those newly issued shares to be freely tradeable on the ASX.",
+        "The cleansing notice itself confirms that a dilutive capital raise has already occurred; the key investor consideration is the size of the placement and the issue price relative to the prevailing market price, as a heavily discounted placement creates an immediate overhang and near-term selling pressure from placees.",
+        "While procedurally neutral, the downstream implication of a completed placement — expanded share count and potential profit-taking by institutional placees — is typically a modest short-term headwind for small-cap stocks like TTT; investors should review the preceding placement announcement for pricing and use-of-funds details to assess the strategic rationale."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MNB",
+      "company": "MINBOS RESOURCES LIMITED",
+      "headline": "Half Yearly Report and Accounts",
+      "time": "2026-09-07T23:36:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132988-6A1342724",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Minbos Resources' half-yearly report provides the first formal look at the company's financial position for the period, with the critical metrics being cash position and burn rate — for a development-stage fertiliser company operating in Angola, runway adequacy is the primary investor concern given the capital-intensive nature of its Cabinda phosphate project.",
+        "Revenue recognition and any progress payments or offtake receipts disclosed in the half-year accounts will be closely watched as indicators of whether Minbos is transitioning from explorer to producer; any guidance on production commencement timelines or project capital expenditure updates would be the highest-value content in the report.",
+        "Institutional investors should scrutinise the going concern disclosures, working capital position, and any updates to the funding strategy for remaining project capital requirements; a weaker-than-expected cash position or absence of a clear funding pathway for project completion would be the key bearish risk from this filing."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRL",
+      "company": "SUNRISE ENERGY METALS LIMITED",
+      "headline": "2026 Annual Report",
+      "time": "2026-09-07T23:36:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132987-3A701269",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Sunrise Energy Metals' 2026 Annual Report provides a full-year snapshot of a company navigating the critical battery metals space — investors should scrutinise cash burn, exploration expenditure, and any impairment charges given the volatile lithium and nickel price environment.",
+        "Key metrics to watch include cash reserves versus operational runway, as junior explorers in this sector face sustained funding pressure with commodity prices yet to fully recover — any sub-12-month runway would be a material concern.",
+        "The annual report marks a compliance milestone but provides no forward catalyst in isolation; the market will focus on whether management has outlined a credible path to resource definition or project development amid a difficult capital-raising environment for battery metals juniors."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "Vinatas Delivers 78.6% Sb Recovery and 68.3% Sb Concentrate",
+      "time": "2026-09-07T23:36:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132986-6A1342722",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Vinatas metallurgical testwork delivering 78.6% antimony (Sb) recovery is a technically strong result, demonstrating the project's amenability to conventional processing and de-risking the path to a viable flowsheet — a critical milestone for junior resource companies seeking project advancement.",
+        "A 68.3% Sb concentrate grade is commercially significant; high-grade antimony concentrates attract premium pricing and reduce smelting penalties, directly improving projected project economics at a time when antimony prices have surged on supply-chain concerns from China's export restrictions.",
+        "Next steps will likely centre on scaling testwork, resource definition drilling, and progressing towards a Scoping Study — investors should watch for follow-up announcements on resource upgrades or offtake discussions, which would be the key re-rating catalysts for EVR."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BTE",
+      "company": "BOTALA ENERGY LTD",
+      "headline": "Botala secures expansion over prospective Serowe CBM Fairway",
+      "time": "2026-09-07T23:35:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132985-6A1342721",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Botala Energy's expansion over the Serowe Coal Bed Methane (CBM) fairway materially increases its prospective acreage in one of Botswana's most geologically compelling CBM trends, reinforcing its position as the dominant CBM explorer in the region and enhancing its strategic optionality.",
+        "The Serowe CBM fairway is already the focus of Botala's core exploration program; securing additional tenure over this trend is capital-efficient value creation, expanding the resource envelope without proportionate increases in overhead — a positive signal for NAV-per-share calculations.",
+        "The key catalyst to watch is whether this tenure expansion leads to an upgraded Contingent Resource estimate or accelerated drilling program; commercialisation milestones such as gas-to-power offtake agreements with Botswana Power Corporation remain the primary re-rating event for BTE."
+      ],
+      "tags": [
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MGU",
+      "company": "MAGNUM MINING AND EXPLORATION LIMITED",
+      "headline": "MULTIPLE BROAD TREO INTERCEPTS AT FEIRINHA, BRAZIL",
+      "time": "2026-09-07T23:35:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132984-6A1342723",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Multiple broad Total Rare Earth Oxide (TREO) intercepts at Feirinha, Brazil, signal meaningful lateral and vertical continuity of mineralisation, a critical factor in converting exploration targets into economically viable resources — this materially elevates the geological confidence at the project.",
+        "The use of 'broad intercepts' implies significant downhole widths, which, combined with TREO grades, will determine the resource's strip ratio and mining economics; investors should scrutinise the accompanying drill tables for true widths and TREO% to assess whether this competes with tier-one rare earth benchmarks.",
+        "Brazil's rare earth sector is gaining geopolitical tailwinds as Western nations accelerate critical minerals supply chain diversification away from China; MGU's Feirinha results position the company to attract strategic investor or major miner interest, making future resource estimate announcements the primary share price catalyst."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CBO",
+      "company": "COBRAM ESTATE OLIVES LIMITED",
+      "headline": "Change of Director's Interest Notice - Wills",
+      "time": "2026-09-07T23:35:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132983-3A701273",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director interest change notice for Cobram Estate Olives (CBO) from Director Wills is administrative in nature, but the direction of the trade — acquisition versus disposal — is critical; a disposal by a director could signal reduced insider conviction in near-term performance.",
+        "Cobram Estate operates in the premium olive oil segment, where margins are sensitive to harvest yields and global olive oil price dynamics — any insider selling against a backdrop of elevated global olive oil prices warrants attention.",
+        "Without confirmed transaction details, the materiality of the holding change is unclear; investors should cross-reference the volume and value of shares involved against Wills' total holding to assess whether this represents a meaningful change in insider alignment."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TTT",
+      "company": "TITOMIC LIMITED",
+      "headline": "Application for quotation of securities - TTT",
+      "time": "2026-09-07T23:35:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132982-3A701272",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Titomic's application for quotation of new securities indicates the company has recently completed an allotment — likely via a capital raise, options exercise, or performance rights vesting — which will result in an increase to shares on issue and potential dilution for existing holders.",
+        "Titomic operates in advanced manufacturing using cold spray technology for defence and industrial applications; the timing and purpose of the securities issuance is critical — if linked to a capital raise, the implied price relative to market will determine dilution severity.",
+        "Until the specific securities type and volume are confirmed, the near-term impact is dilutive by nature; investors should monitor the accompanying Appendix 2A for full details on the number of securities, issue price, and any associated escrow conditions."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "A8G",
+      "company": "AUSTRALASIAN METALS LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-09-07T23:34:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132981-6A1342720",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Australasian Metals' investor presentation signals active market engagement, likely timed to coincide with a capital raise, project update, or conference — the content of the presentation will determine whether it represents a genuine re-rating catalyst or routine corporate promotion.",
+        "As a junior explorer, A8G's valuation is highly sensitive to resource definition progress, tenure security, and proximity to established mining infrastructure — the presentation should be assessed for any upgrades to mineral resource estimates or new exploration targets.",
+        "The lack of market sensitivity classification suggests no material new information is being disclosed; however, investor presentations can shift retail sentiment and trading volumes meaningfully for small-cap explorers, making the narrative framing strategically important."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PXX",
+      "company": "POLARX LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-07T23:32:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132980-6A1342719",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "PolarX has entered a trading halt, almost certainly pending a material announcement — common triggers include a capital raise, merger and acquisition activity, or a significant operational update; the halt preserves market integrity while the company prepares its disclosure.",
+        "Trading halts at small-cap explorers like PolarX frequently precede equity raises (placements or rights issues), which carry dilution risk for existing shareholders; however, they can also precede transformative news such as a farm-in agreement or resource upgrade, making the outcome binary in nature.",
+        "Investors should await the lifting of the halt and the accompanying announcement before taking a position; the nature of the news will determine whether the halt resolves bullishly or bearishly, and the stock's illiquidity profile means price moves on resumption could be sharp and significant."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CUV",
+      "company": "CLINUVEL PHARMACEUTICALS LIMITED",
+      "headline": "CLINUVEL develops proprietary ZEROKIN device",
+      "time": "2026-09-07T23:32:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132978-3A701268",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CLINUVEL's development of the proprietary ZEROKIN device represents a meaningful pipeline extension — moving beyond its core SCENESSE (afamelanotide) drug into a delivery device suggests a strategy to deepen its moat through integrated drug-device combination products.",
+        "A proprietary device could strengthen CLINUVEL's intellectual property position, potentially extending patent exclusivity timelines and creating barriers to generic or biosimilar competition — a strategically significant move for a niche rare disease company with limited product diversification.",
+        "Key next steps include regulatory pathway clarity (TGA/FDA classification as drug-device combination), timeline to clinical validation, and whether ZEROKIN is intended for existing SCENESSE indications or new therapeutic areas — these factors will determine the magnitude of the long-term valuation impact."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FBR",
+      "company": "FBR LTD",
+      "headline": "Proposed issue of securities - FBR",
+      "time": "2026-09-07T23:32:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132979-6A1342716",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "FBR Ltd's proposed securities issuance is a near-term dilution event; as a construction robotics company with no confirmed profitable revenue base, capital raises are expected but each successive issuance tests investor patience and raises questions about the pace toward commercial scale.",
+        "The terms of the proposed issue — price, volume, and structure (placement vs. rights issue vs. options) — are critical to assessing dilution severity; a significant discount to market price would be an unambiguous bearish signal for existing shareholders.",
+        "FBR's Hadrian masonry robot remains its core commercial asset; investors will want confirmation that proceeds are directed toward contracted project delivery or manufacturing scale-up rather than pure working capital, which would indicate the business remains pre-revenue dependent."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BRE",
+      "company": "BRAZILIAN RARE EARTHS LIMITED",
+      "headline": "BRE Commissions Pilot Plant and Secures Stage II Co-Funding",
+      "time": "2026-09-07T23:30:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132977-6A1342718",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The commissioning of BRE's pilot plant is a pivotal de-risking milestone for Brazilian Rare Earths, transitioning the company from pure exploration to process validation — this is a critical proof-of-concept step that underpins the engineering pathway to a Definitive Feasibility Study and eventual production.",
+        "Securing Stage II co-funding is equally significant: external co-funding validates the project's technical and commercial merit to third-party assessors (likely a government body or strategic partner), reduces BRE's cash burn on pilot operations, and extends its effective runway — a strong positive for capital efficiency.",
+        "With rare earth supply security a top-tier geopolitical priority for the EU, US, and allied nations, BRE's funded pilot plant commissioning puts it among the most advanced non-Chinese rare earth development companies on the ASX; the next key milestones are pilot plant throughput results and a maiden or upgraded JORC resource, which are likely to be significant re-rating events."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AM5",
+      "company": "ANTARES METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-07T23:30:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132976-6A1342717",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Antares Metals has entered a trading halt, suspending trading pending a material announcement; as a small-cap metals explorer, the most probable triggers are a capital raising event, a significant exploration result, or corporate activity including asset acquisition or a binding agreement.",
+        "For a company at Antares' stage of development, a trading halt ahead of a capital raise would signal a need for liquidity to fund upcoming drilling or operational activities — investors should assess any raise's pricing relative to the last traded price to gauge dilution impact upon resumption.",
+        "Until the halt is lifted and the underlying announcement is released, the market impact remains indeterminate; the resolution could be materially bullish (transformative deal or high-grade result) or bearish (dilutive raise at a discount), making a neutral stance the only defensible pre-announcement position."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LRT",
+      "company": "LOWELL RESOURCES FUND",
+      "headline": "LRT NAV Estimate - 4 September 2026",
+      "time": "2026-09-07T23:29:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132975-3A701267",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Lowell Resources Fund's NAV estimate of 4 September 2026 provides a routine weekly or monthly valuation update — the direction of NAV movement relative to prior estimates is the key signal, as a declining NAV in a resources fund reflects either portfolio company underperformance or commodity price headwinds.",
+        "LRT's NAV per unit versus its current market price determines whether the fund is trading at a premium or discount — a persistent discount to NAV would suggest a lack of market confidence in the portfolio's realisable value or liquidity concerns among underlying holdings.",
+        "For institutional investors, the composition of the underlying portfolio and the fund manager's deployment rate of capital are more material than the headline NAV figure; any significant moves in key portfolio holdings should be tracked alongside this disclosure."
+      ],
+      "tags": [
+        "Finance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BVS",
+      "company": "BRAVURA SOLUTIONS LIMITED.",
+      "headline": "Changes to Board of Directors",
+      "time": "2026-09-07T23:29:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132974-2A1696032",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Board changes at Bravura Solutions are strategically significant given the company's ongoing turnaround following prior years of financial difficulty — the identity, experience, and independence of incoming or departing directors will signal whether the governance trajectory is improving.",
+        "If the change involves the appointment of a director with deep fintech, wealth management, or enterprise software expertise, it could reinforce confidence in Bravura's product repositioning strategy; conversely, unexpected departures may indicate internal strategic disagreements.",
+        "Bravura operates in a competitive B2B financial software space (wealth management and funds administration platforms) — board stability and credibility are disproportionately important for enterprise sales cycles, making governance changes a watch item for institutional investors evaluating the company's recovery thesis."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LF1",
+      "company": "LA TROBE PRIVATE CREDIT FUND",
+      "headline": "Net Tangible Asset Backing",
+      "time": "2026-09-07T23:29:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132973-2A1696033",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "La Trobe Private Credit Fund's Net Tangible Asset (NTA) backing disclosure is a routine regulatory filing — the critical metric is the NTA per unit relative to the fund's unit price, as any widening discount could indicate valuation pressure or liquidity risk within the private credit portfolio.",
+        "Private credit funds face heightened scrutiny in the current rate environment; while higher rates can boost floating-rate loan income, they also increase borrower default risk — the NTA figure should be assessed in conjunction with any commentary on arrears rates or credit quality deterioration.",
+        "As a non-market-sensitive filing, no material new information is being disclosed; however, consistent NTA stability would support the fund's defensive income narrative, while any step-down in NTA per unit would be a leading indicator of portfolio stress warranting further due diligence."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CIW",
       "company": "CLIME INVESTMENT MANAGEMENT LTD",
