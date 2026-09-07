@@ -1,9 +1,204 @@
 {
   "date": "2026-09-07",
-  "total": 322,
-  "market_sensitive_count": 85,
-  "generated_at": "2026-09-07T01:01:53.602066+00:00",
+  "total": 332,
+  "market_sensitive_count": 86,
+  "generated_at": "2026-09-07T01:37:02.607184+00:00",
   "announcements": [
+    {
+      "ticker": "ION",
+      "company": "IONDRIVE LIMITED",
+      "headline": "Investor Webinar",
+      "time": "2026-09-07T01:33:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132494-2A1695687",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "IonDrive's investor webinar is a routine investor relations exercise, but for an early-stage company in the battery/energy technology space, it represents a key opportunity to update the market on commercialisation progress and funding status.",
+        "Webinars at this stage of development are often used to pre-empt or accompany capital raises — investors should monitor whether new technical milestones, partnership announcements, or funding requirements are disclosed during the presentation.",
+        "No immediate financial impact is expected, but the quality of the narrative delivered could influence retail and small institutional sentiment ahead of any forthcoming capital activity."
+      ],
+      "tags": [
+        "Energy",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CIN",
+      "company": "CARLTON INVESTMENTS LIMITED",
+      "headline": "Weekly NTA - 4 September 2026",
+      "time": "2026-09-07T01:29:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132493-2A1695686",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Carlton Investments' weekly NTA disclosure as of 4 September 2026 provides the market with a transparent valuation benchmark for this LIC, allowing investors to assess the premium or discount to NTA at the current share price.",
+        "CIN's NTA is directly tied to its listed equity portfolio — week-on-week NTA movements reflect broader ASX market performance and serve as a real-time gauge of underlying portfolio value for income-focused investors.",
+        "This is a routine compliance filing with no strategic implications; the key metric to monitor is whether CIN continues to trade at a persistent discount to NTA, which could attract activist or buyback pressure over time."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATA",
+      "company": "ATTURRA LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-07T01:26:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132492-2A1695685",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Director's Interest Notice for Atturra (ATA) reflects a change in a director's shareholding, which may result from on-market purchases, sales, or the vesting/exercise of performance rights under the company's equity incentive plan.",
+        "Director buying on-market is generally interpreted as a positive confidence signal, particularly for a mid-cap IT services company navigating integration risk; conversely, selling may raise questions about insider sentiment near current valuations.",
+        "The materiality of this notice depends on the transaction size and whether it represents a pattern — investors should cross-reference with ATA's recent earnings trajectory and any upcoming results or strategic announcements."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "G1C",
+      "company": "GROUP ONE CAPITAL LIMITED",
+      "headline": "Sterling - Update on contracted facilitation fees",
+      "time": "2026-09-07T01:20:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132491-2A1695684",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive update on Sterling contracted facilitation fees signals a potential material change in G1C's fee income pipeline — investors should watch for upward or downward revision to previously disclosed revenue expectations.",
+        "Facilitation fee structures are a core revenue driver for capital advisory firms; any shortfall or delay in contracted fees could compress near-term earnings and pressure the stock, while confirmation of receipt would be a positive catalyst.",
+        "Next steps: management will need to provide clarity on timing, quantum, and counterparty performance — failure to do so promptly may invite regulatory scrutiny under continuous disclosure obligations."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MM8",
+      "company": "MEDALLION METALS LIMITED.",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-07T01:20:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132490-6A1342485",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for MM8 indicates a major shareholder has crossed a 5% threshold (either entering, exiting, or adjusting their position), which can signal shifting institutional conviction in the stock.",
+        "For a small-cap miner like Medallion Metals, substantial holder movements carry outsized significance — a reduction by a cornerstone investor could weigh on sentiment, while a new entrant may suggest strategic interest in the company's gold assets.",
+        "Investors should identify the specific holder and direction of the change when the full notice is available to assess whether this reflects portfolio rebalancing or a more deliberate strategic shift."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VAU",
+      "company": "VAULT MINERALS LIMITED",
+      "headline": "Update - Notification of buy-back - VAU",
+      "time": "2026-09-07T01:20:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132489-6A1342486",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vault Minerals' buyback notification update confirms ongoing capital management activity, signalling that management believes the stock is undervalued relative to intrinsic worth — a constructive signal for existing shareholders.",
+        "For a gold miner like VAU, executing a buyback implies sufficient operational cash flow or balance sheet strength to return capital without compromising exploration or development programmes — a mark of financial discipline.",
+        "Investors should track the pace and volume of buyback activity; an acceleration would strengthen the price floor thesis, while a slowdown could indicate cash preservation concerns or a pivot toward M&A deployment."
+      ],
+      "tags": [
+        "Mining",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "POD",
+      "company": "PODIUM MINERALS LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-07T01:09:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132488-6A1342484",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cleansing notice from Podium Minerals typically follows a capital raise conducted without a disclosure document (e.g. placement), serving to satisfy ASX Listing Rule 3.10.3 and restore the ability of allottees to on-sell securities.",
+        "The issuance of a cleansing notice confirms that a capital raise has recently been completed or is imminent — this introduces dilution risk for existing POD shareholders and warrants scrutiny of the raise price relative to market price.",
+        "Next steps: investors should assess the use of proceeds outlined in the accompanying disclosure to determine whether funds are directed toward value-accretive drilling or are merely sustaining operations in POD's Parks Reef PGE project."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ROA",
+      "company": "LION ACTIVE ETF",
+      "headline": "Monthly Factsheet - August 2026",
+      "time": "2026-09-07T01:07:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132487-2A1695683",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Lion Active ETF's August 2026 monthly factsheet provides performance, holdings, and fee transparency data — essential for advisers and institutional allocators benchmarking ROA against its stated investment mandate.",
+        "Key metrics to extract include month-on-month NAV performance versus benchmark, portfolio concentration risk, and management expense ratio — any material underperformance relative to peers could trigger outflows.",
+        "This is a standard regulatory disclosure with no immediate price-moving implications; however, sustained strong performance data could support inflows and organic AUM growth, benefiting the fund's long-term viability."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SIG",
+      "company": "SIGMA HEALTHCARE LIMITED",
+      "headline": "Appendix 3Y",
+      "time": "2026-09-07T01:00:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132486-3A701192",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Appendix 3Y for Sigma Healthcare indicates a change in a director's interest following a cessation of their role — this is an administrative lodgement capturing final beneficial interest positions and carries no strategic signal on its own.",
+        "For SIG, which operates in the highly regulated pharmaceutical distribution and retail pharmacy sector, board stability is an important governance consideration — any pattern of director departures should be assessed in that context.",
+        "No immediate market impact is expected; however, investors should monitor whether this director change is part of a broader board refresh or succession strategy as SIG continues to execute its post-Chemist Warehouse integration and growth agenda."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EIG",
+      "company": "PERENNIAL INCOME GENERATOR ACTIVE ETF",
+      "headline": "EIGA and IMPQ Monthly Units Release August",
+      "time": "2026-09-07T01:00:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132485-2A1695680",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The monthly units release for Perennial Income Generator Active ETF (EIG/IMPQ) discloses August 2026 unit issuance and redemption activity, providing transparency on fund flows and AUM trajectory for this income-focused active ETF.",
+        "Net unit issuance growth would indicate positive investor demand for the fund's income strategy, while net redemptions could signal distribution yield disappointment or competitive pressure from higher-rate fixed income alternatives.",
+        "This is a routine regulatory disclosure; the strategic read-through is whether EIG continues to attract flows in an environment where active income ETFs compete with passive bond indices and high-yield term deposits."
+      ],
+      "tags": [
+        "Finance",
+        "Dividend",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MKR",
       "company": "MANUKA RESOURCES LTD.",
