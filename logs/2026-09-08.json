@@ -1,9 +1,183 @@
 {
   "date": "2026-09-08",
-  "total": 187,
-  "market_sensitive_count": 49,
-  "generated_at": "2026-09-07T23:40:20.475004+00:00",
+  "total": 196,
+  "market_sensitive_count": 50,
+  "generated_at": "2026-09-07T23:47:03.131250+00:00",
   "announcements": [
+    {
+      "ticker": "RCT",
+      "company": "REEF CASINO TRUST",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-09-07T23:44:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133000-2A1696040",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has crossed below the 5% ownership threshold in Reef Casino Trust, signalling a meaningful reduction in concentrated institutional or strategic exposure to the trust.",
+        "The exit of a substantial holder can reduce near-term buying support and may reflect dimming conviction in RCT's distribution outlook or underlying casino asset performance.",
+        "Investors should monitor whether this represents a broader institutional rotation out of gaming/hospitality trusts, and watch for any follow-on selling pressure in the register."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MTH",
+      "company": "MITHRIL SILVER AND GOLD LIMITED",
+      "headline": "Change of Director's Interest Notice - JS",
+      "time": "2026-09-07T23:44:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132999-2A1696038",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director of Mithril Silver and Gold (MTH) has lodged a change of interest notice, indicating a movement in their direct or indirect shareholding — either an acquisition or disposal of securities.",
+        "Director share transactions are a key insider sentiment signal; an acquisition would signal confidence in the company's silver and gold exploration pipeline, while a disposal could raise governance questions at an early-stage miner.",
+        "Without confirmed transaction direction or quantum, the market impact is limited, but investors should cross-reference this notice with recent drilling or resource announcements to assess alignment of director behaviour with project progress."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NHC",
+      "company": "NEW HOPE CORPORATION LIMITED",
+      "headline": "Investor and Analyst Call Details",
+      "time": "2026-09-07T23:40:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132998-2A1696037",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "New Hope Corporation is scheduling an investor and analyst call, typically following a material announcement such as results, a production update, or a strategic development — the timing and context of this call will be critical for interpreting its significance.",
+        "For a coal producer of NHC's scale, analyst calls can move consensus earnings estimates and price targets, particularly if management provides guidance updates on coal pricing realisations, production volumes, or capital allocation priorities.",
+        "Institutional investors should register and prepare questions around NHC's thermal coal export exposure, domestic energy supply commitments, and balance sheet positioning given ongoing volatility in global energy markets."
+      ],
+      "tags": [
+        "Other",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MRT",
+      "company": "MARITANA MINERALS LIMITED",
+      "headline": "Encore Makes Final Investment Decision on Windarra Tailings",
+      "time": "2026-09-07T23:40:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132996-6A1342725",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Encore has made a Final Investment Decision (FID) on the Windarra Tailings project — a critical de-risking milestone that transitions the project from exploration/study phase into execution, directly benefiting Maritana Minerals as a project stakeholder.",
+        "An FID signals committed capital and a defined path to production revenue; for MRT, this could unlock near-term catalysts including offtake agreements, construction timelines, and potential resource monetisation from legacy tailings material.",
+        "Marked as market sensitive, this announcement is likely to drive a re-rating of MRT's asset base — investors should assess the economics of the tailings processing operation, expected throughput, and MRT's economic interest or royalty position to size the upside."
+      ],
+      "tags": [
+        "Mining",
+        "Production",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OSL",
+      "company": "ONCOSIL MEDICAL LTD",
+      "headline": "100th Patient Treated with OncoSil device in Spain",
+      "time": "2026-09-07T23:40:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132997-2A1696036",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "OncoSil Medical has treated its 100th patient with the OncoSil device in Spain, a commercially significant milestone that validates growing clinical adoption and reimbursement traction in a key European market.",
+        "The 100-patient threshold in a single country is a meaningful indicator of commercial momentum for a medical device company of OSL's size; it supports the case for expanded hospital network penetration and potential pathway to broader EU market rollout.",
+        "While not classified as market sensitive, this milestone builds the clinical evidence base and commercial narrative ahead of potential partnership or distribution discussions — investors should track patient growth rate and revenue per treatment to assess commercialisation velocity."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SRL",
+      "company": "SUNRISE ENERGY METALS LIMITED",
+      "headline": "2026 Corporate Governance Statement",
+      "time": "2026-09-07T23:40:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132995-3A701278",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Sunrise Energy Metals has released its 2026 Corporate Governance Statement, a routine compliance filing confirming the company's adherence to ASX Corporate Governance Principles and Recommendations.",
+        "For a company of SRL's stage — focused on its flagship Sunrise nickel-cobalt-scandium project — governance disclosures carry heightened importance for ESG-focused institutional investors evaluating board composition, risk oversight, and sustainability frameworks.",
+        "No immediate financial or operational impact is expected; however, any material deviations from recommended governance practices disclosed within the statement should be flagged as a risk factor for long-term institutional holders."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TTT",
+      "company": "TITOMIC LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-07T23:39:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132994-3A701279",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Titomic director has filed a change of interest notice, indicating a movement in their personal shareholding in the advanced manufacturing and defence technology company.",
+        "Director transactions at small-cap technology firms like TTT carry outsized signalling value — particularly given Titomic's ongoing pivot toward defence and industrial applications of its kinetic fusion technology.",
+        "Investors should determine the direction and scale of the transaction; concurrent with the securities issuance (announcement [8]), this notice may relate to participation in a capital raise or performance rights vesting rather than an open-market trade."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TTT",
+      "company": "TITOMIC LIMITED",
+      "headline": "Issue of Securities",
+      "time": "2026-09-07T23:38:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132993-3A701276",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Titomic has issued new securities, confirming a capital raise or securities-based compensation event that will increase the share count and may be dilutive to existing shareholders depending on the issue price relative to market.",
+        "The nature of the issuance — whether placement, rights issue, or performance rights — is critical; a discounted placement to institutional investors could signal urgent funding needs for TTT's defence contract pipeline, while performance rights vesting indicates management retention and milestone achievement.",
+        "Investors should assess the implied dilution quantum, use of proceeds, and whether any associated incoming capital strengthens Titomic's ability to execute on its defence and industrial manufacturing growth strategy."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KCN",
+      "company": "KINGSGATE CONSOLIDATED LIMITED.",
+      "headline": "Application for quotation of securities - KCN",
+      "time": "2026-09-07T23:37:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132992-2A1696035",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Kingsgate Consolidated has applied for quotation of new securities on the ASX, indicating recent issuance of shares — likely related to a capital raise, option exercise, or employee/executive incentive scheme — requiring formal exchange listing.",
+        "For KCN, a gold miner with its flagship Chatree Gold Mine in Thailand, additional securities on issue could reflect funding for mine expansion, exploration drilling, or operational working capital — the use of proceeds will be the key value driver to assess.",
+        "This is a procedural compliance step rather than a standalone announcement, but it confirms capital activity has occurred; investors should cross-reference with any recent placement or rights issue documentation to understand dilution impact and strategic rationale."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SRL",
       "company": "SUNRISE ENERGY METALS LIMITED",
