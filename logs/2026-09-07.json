@@ -1,9 +1,731 @@
 {
   "date": "2026-09-07",
-  "total": 284,
-  "market_sensitive_count": 79,
-  "generated_at": "2026-09-06T23:59:18.494112+00:00",
+  "total": 322,
+  "market_sensitive_count": 85,
+  "generated_at": "2026-09-07T01:01:53.602066+00:00",
   "announcements": [
+    {
+      "ticker": "MKR",
+      "company": "MANUKA RESOURCES LTD.",
+      "headline": "Presentation Building to be Primary Leading Silver Producer",
+      "time": "2026-09-07T00:57:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132484-2A1695679",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MKR's investor presentation positions the company as a primary silver producer — complementing the capital raise announcement (item 6) and providing the strategic narrative to support institutional marketing of the raise.",
+        "Not classified as market sensitive, this is a communications and perception management exercise; however, the quality of production targets, cost guidance (AISC), and resource/reserve figures disclosed will inform sophisticated investors' valuation models.",
+        "The dual announcement of a raise and an investor presentation on the same day is a coordinated capital markets strategy — the presentation's credibility in substantiating the 'leading silver producer' thesis is critical to raise execution success."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DCO",
+      "company": "DAINTREE CORE INCOME ACTIVE ETF",
+      "headline": "DCOR Monthly Units Release August",
+      "time": "2026-09-07T00:56:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132483-2A1695681",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DCO's monthly units release discloses August creation/redemption activity for this active fixed income ETF — a routine operational disclosure that reflects investor flows into or out of the fund during the period.",
+        "Net unit issuance growth signals positive investor demand for the Daintree Core Income strategy, while net redemptions would indicate outflows that could pressure the manager's FUM and fee revenue trajectory.",
+        "For institutional investors assessing the active ETF market structure, consistent monthly unit data provides a flow indicator for risk appetite in Australian fixed income — elevated inflows into core income products typically signal defensive positioning."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MCG",
+      "company": "MUNRO CONCENTRATED GLOBAL GROWTH ACTIVE ETF",
+      "headline": "Monthly Fund Update - August 2026",
+      "time": "2026-09-07T00:55:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132482-2A1695678",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MCG's August 2026 monthly update is a routine NAV and portfolio disclosure, providing transparency on concentrated global growth equity positioning — no material portfolio shifts or performance surprises are indicated by the filing alone.",
+        "As an active ETF, MCG's performance against its benchmark (typically MSCI World or equivalent) will be the key metric for institutional investors; without the full document, relative performance versus global growth peers in a volatile rate environment remains the critical watch point.",
+        "Investors should monitor AUM trajectory and unit flows as leading indicators of institutional confidence in Munro's concentrated growth strategy, particularly given ongoing global macro uncertainty heading into Q4 2026."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MCC",
+      "company": "MUNRO CLIMATE CHANGE LEADERS FUND ACTIVE ETF",
+      "headline": "Monthly Fund Update - August 2026",
+      "time": "2026-09-07T00:54:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132481-2A1695677",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MCC's August 2026 update covers the Climate Change Leaders Active ETF — a thematic fund exposed to ESG-aligned global equities, making its performance highly sensitive to regulatory tailwinds and green energy sector dynamics.",
+        "Climate-focused funds have faced mixed performance pressure globally as energy transition timelines shift; institutional investors will scrutinise whether MCC's active stock selection has delivered alpha versus passive ESG benchmarks over the period.",
+        "AUM retention and flows into MCC are a proxy for institutional appetite for climate-themed active strategies — any material redemptions disclosed would be a negative signal for the broader ESG active management segment on ASX."
+      ],
+      "tags": [
+        "Finance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZIL",
+      "company": "ZILLER GLOBAL FUND ACTIVE ETF",
+      "headline": "Units on issue August 2026",
+      "time": "2026-09-07T00:53:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132480-2A1695675",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ZIL's units-on-issue disclosure for August 2026 is a standard administrative filing revealing the total number of ETF units outstanding — a direct indicator of net fund flows (creation or redemption activity) during the month.",
+        "A rising unit count signals net inflows and growing institutional/retail interest in the Ziller Global Fund strategy, while a declining count would indicate redemption pressure and potential AUM erosion — the directional trend is the key signal here.",
+        "For a relatively niche active ETF on ASX, consistent unit growth is critical to achieving scale efficiencies; investors should track this monthly series over time to assess whether ZIL is building sustainable market traction."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAE",
+      "company": "MUNRO GLOBAL GROWTH FUND COMPLEX ETF",
+      "headline": "Monthly Fund Update - August 2026",
+      "time": "2026-09-07T00:52:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132479-2A1695676",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MAE's August 2026 monthly update covers the Munro Global Growth Fund listed as a 'Complex ETF,' indicating it may utilise derivatives or leverage — adding a layer of risk disclosure relevance beyond a standard equity fund update.",
+        "The 'complex' classification requires heightened scrutiny of portfolio risk metrics, including drawdown exposure and leverage ratios, particularly in a global growth equity environment that remains sensitive to interest rate and currency movements.",
+        "Institutional investors should cross-reference MAE's performance with MCG (Munro's concentrated global growth ETF) to assess whether the complex structure is generating meaningful return differentiation or simply adding complexity without commensurate alpha."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUV",
+      "company": "AURAVELLE METALS LIMITED",
+      "headline": "DISCOVERY AIRCORE PROGRAM IMMINENT AT NUCKULLA HILL",
+      "time": "2026-09-07T00:49:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132478-6A1342483",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Auravelle Metals (AUV) is flagging an imminent aircore drilling program at Nuckulla Hill — a discovery-phase program signals the company is at an early but catalytic stage, with drill results capable of materially re-rating the stock if mineralisation is confirmed.",
+        "Aircore drilling is a cost-effective first-pass technique typically used to identify anomalous geochemistry or lithology — success here would likely trigger follow-up RC or diamond drilling, setting up a multi-month news flow pipeline for the stock.",
+        "Classified as not market sensitive, suggesting management has tempered expectations around near-term material discovery; however, any positive drill intercepts would rapidly shift sentiment — investors should watch for the assay results announcement as the true binary event."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst BHP Instalments Dividend Final Amount",
+      "time": "2026-09-07T00:48:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132477-2A1695674",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst has announced the final dividend amount for BHP Instalments (structured products linked to BHP equity) — this is a pass-through of BHP's dividend to instalment warrant holders, confirming the dividend quantum for settlement purposes.",
+        "The finalisation of the dividend amount is administratively significant for instalment holders as it determines the loan balance adjustment or cash distribution they will receive, directly impacting the economics of their leveraged BHP exposure.",
+        "This is a procedural structured product event with no independent price discovery implications for BHP itself; however, it confirms BHP's dividend has been paid and processed, which is incrementally positive for income-focused instalment investors."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst BHP Instalment MINIs Dividend Final Amount",
+      "time": "2026-09-07T00:47:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132476-2A1695673",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "The CitiFirst BHP Instalment MINIs dividend finalisation confirms the pass-through dividend amount for MINI warrant holders — MINIs are shorter-dated, higher-leverage structured products, making dividend adjustments more impactful on their intrinsic value relative to standard instalments.",
+        "For MINI holders, the dividend amount directly reduces the strike/barrier price of the instrument, which mechanically increases the intrinsic value of long MINIs — a technically positive outcome for holders of bullish BHP MINI positions.",
+        "This is a routine structured product lifecycle event; no strategic implications for BHP or CTW beyond confirming accurate dividend processing, but it ensures instalment MINI pricing is correctly reset for secondary market trading."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PSL",
+      "company": "PATERSON RESOURCES LTD",
+      "headline": "Comprehensive Drilling Campaign to Commence at Grace Project",
+      "time": "2026-09-07T00:46:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132475-6A1342482",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PSL is initiating a comprehensive drilling campaign at its Grace Project, signalling a transition from exploration planning to active resource definition — a key de-risking milestone for early-stage investors.",
+        "Market-sensitive classification suggests the drilling scope, targets, or funding arrangements contain material information capable of moving the share price; investors should scrutinise drill hole counts, target depths, and budget disclosed in the full release.",
+        "Success in intersecting mineralisation would catalyse a re-rating; failure or shallow/poor results could trigger selling — making near-term newsflow the primary price driver for this speculative-grade stock."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PKP",
+      "company": "PEAK PROCESSING LIMITED",
+      "headline": "Cleansing notice",
+      "time": "2026-09-07T00:45:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132474-3A701191",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Peak Processing Limited (PKP) has lodged a cleansing notice, which is typically filed post a capital raise conducted under the placement exemption — this notice allows the newly issued securities to be freely traded without a prospectus, confirming the raise has been completed.",
+        "The existence of a cleansing notice strongly implies PKP has recently completed a private placement or rights issue; institutional investors should assess the raise size, price, and use of proceeds to determine whether the capital injection is adequately sized for its stated purpose.",
+        "Cleansing notices can signal near-term dilution pressure on existing shareholders; however, if proceeds are directed to growth-accretive activities (exploration, acquisition, or operations), the medium-term outlook may justify the dilution — full placement details are critical for a complete assessment."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst BHP SFI MINIs Dividend Final Amount",
+      "time": "2026-09-07T00:44:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132473-2A1695672",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst BHP SFI MINIs dividend finalisation confirms the pass-through dividend for Self-Funding Instalment MINI holders — SFI structures use dividends to automatically reduce the loan component, making this announcement directly relevant to the self-funding mechanism's efficiency.",
+        "The self-funding feature means the dividend amount confirmed here will reduce the outstanding loan balance for SFI MINI holders, improving their equity ratio and potentially bringing positions closer to full ownership — a structurally positive outcome for long-term holders.",
+        "As with other CTW BHP structured product filings, this is an administrative lifecycle event with no broader market implications; however, accurate processing is critical to maintain trust in Citi's structured product platform on ASX."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst BHP SFIs Dividend Final Amount",
+      "time": "2026-09-07T00:44:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132472-2A1695671",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst BHP SFIs (Self-Funding Instalments) dividend final amount disclosure confirms the dividend quantum used to reduce the loan balance within the SFI structure — completing the dividend cycle for this instalment series linked to BHP equity.",
+        "SFI holders benefit from automatic loan reduction via dividends, meaning this confirmation accelerates the equity-building timeline for investors using BHP SFIs as a long-term accumulation strategy — net positive for the structural mechanics of the product.",
+        "This is the fourth CTW BHP structured product dividend announcement in this batch, reflecting the breadth of Citi's BHP-linked product suite on ASX; collectively these filings confirm BHP's dividend has been fully processed across all instalment product variants, closing out the dividend event cycle."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCO",
+      "company": "THE CALMER CO INTERNATIONAL LIMITED",
+      "headline": "Notification of cessation of securities - CCO",
+      "time": "2026-09-07T00:42:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132471-6A1342481",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities notice for CCO indicates options, rights, or performance shares have lapsed or been cancelled — typically a sign of unmet vesting conditions or expiry of unlisted instruments.",
+        "For a small-cap like The Calmer Co International, securities cessation can marginally reduce potential dilution overhang, which is a minor technical positive for existing shareholders.",
+        "No immediate capital structure impact is expected; investors should monitor subsequent notices to assess whether this reflects broader executive/staff retention challenges or routine expiry."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BGE",
+      "company": "BRIDGE SAAS LIMITED",
+      "headline": "Notification of cessation of securities - BGE",
+      "time": "2026-09-07T00:42:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132470-2A1695670",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Bridge SaaS Limited has filed a cessation of securities notice, indicating unlisted options or performance rights have lapsed — consistent with unmet milestones or time-based expiry.",
+        "For a SaaS-stage company, lapsing of performance rights may signal missed operational or revenue targets that triggered the vesting conditions, warranting closer scrutiny of recent performance updates.",
+        "The administrative nature of this filing carries no direct cash impact, but investors should cross-reference with any recent quarterly activity reports to assess whether underlying business metrics are on track."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DN1",
+      "company": "DOMINION INCOME TRUST 1",
+      "headline": "Dividend/Distribution - DN1",
+      "time": "2026-09-07T00:39:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132469-2A1695668",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "DN1 has declared a dividend/distribution, providing income certainty to unitholders — the market-sensitive flag implies the quantum or timing may differ materially from prior periods or market expectations.",
+        "Investors should compare the declared distribution rate against the trust's stated yield targets and prior distributions to assess whether this represents a cut, maintenance, or uplift in income delivery.",
+        "For income-focused mandates, the sustainability of this distribution — underpinned by the trust's underlying asset cash flows — is the critical 'so what'; any compression in cover ratio would be a forward warning signal."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RMD",
+      "company": "RESMED INC",
+      "headline": "Statement of CDIs on issue - RMD",
+      "time": "2026-09-07T00:35:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132468-2A1695667",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ResMed's routine Statement of CDIs (CHESS Depositary Interests) on issue is a standard ASX compliance filing, confirming the current count of CDIs available for trading on the ASX.",
+        "No change in capital structure is implied by this filing; it serves as a transparency mechanism for Australian investors holding CDIs rather than NYSE-listed shares directly.",
+        "Institutional investors should note that any material divergence in CDI count over time could indicate secondary capital activity or CDI conversion trends between ASX and NYSE listings."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WNR",
+      "company": "WINGARA AG LTD",
+      "headline": "Investor presentation",
+      "time": "2026-09-07T00:35:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132467-3A701190",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Wingara AG's investor presentation is a key opportunity for management to articulate its agricultural strategy, operational progress, and capital allocation priorities to the market.",
+        "As a small-cap agri business, the content of this presentation — particularly any guidance on revenue, margins, or water asset valuations — could meaningfully shift near-term sentiment.",
+        "Investors should focus on any updated financials, commentary on seasonal conditions, and strategic initiatives outlined, as these will be the primary drivers of re-rating potential."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WNR",
+      "company": "WINGARA AG LTD",
+      "headline": "Chair's Address to Shareholders",
+      "time": "2026-09-07T00:34:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132466-3A701189",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Chair's Address to Shareholders at Wingara AG's AGM provides a formal platform to reinforce strategic direction and respond to shareholder concerns — a key governance touchpoint.",
+        "Any commentary on asset monetisation (particularly water entitlements), operational efficiency, or M&A activity could serve as a near-term catalyst given the company's relatively low market profile.",
+        "Paired with the investor presentation (announcement #4), this dual release suggests an active AGM agenda; the combined messaging should be assessed holistically for strategic conviction and guidance quality."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CVC",
+      "company": "CVC LIMITED",
+      "headline": "Change of Director's Interest Notice - A Ashwood",
+      "time": "2026-09-07T00:24:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132465-2A1695666",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for CVC Limited's A. Ashwood reflects a movement in the director's direct or indirect shareholding — either an on-market purchase, sale, or vesting of securities.",
+        "For a small investment company like CVC, director buying activity would signal insider confidence in the portfolio's underlying NAV, while a sale could indicate profit-taking or personal liquidity needs.",
+        "Without the specific transaction detail (buy/sell/size), impact is indeterminate; however, any material on-market purchase by a director of an investment company is typically interpreted as a valuation endorsement."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KMD",
+      "company": "KMD BRANDS LIMITED",
+      "headline": "SPH Notice - New Zealand Superannuation Fund Nominees Ltd",
+      "time": "2026-09-07T00:22:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132464-2A1695665",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Substantial Product Holder (SPH) notice from New Zealand Superannuation Fund Nominees Ltd regarding KMD Brands signals a change in a significant institutional position — either a crossing of the 5% threshold or a movement within a declared holding.",
+        "NZ Super is a long-term, sovereign wealth-aligned investor; any increase in their KMD stake would be a meaningful vote of confidence in the outdoor/apparel retailer's recovery thesis amid challenging retail conditions.",
+        "Investors should determine whether this represents accumulation or partial divestment, as the direction of the position change will be the primary sentiment driver for this announcement."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCX",
+      "company": "CITY CHIC COLLECTIVE LIMITED",
+      "headline": "Initial Director's Interest Notice",
+      "time": "2026-09-07T00:19:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132463-2A1695664",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "An Initial Director's Interest Notice for City Chic Collective confirms a newly appointed director's opening securities position — a standard disclosure required within 14 days of appointment.",
+        "The size and nature of the initial holding (direct shares vs. unvested rights) provides early insight into the director's alignment with shareholders and the structure of their remuneration package.",
+        "This filing should be read alongside the concurrent appointment announcement (#9) to assess the strategic rationale of the board addition in the context of CCX's ongoing operational turnaround."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCX",
+      "company": "CITY CHIC COLLECTIVE LIMITED",
+      "headline": "Appointment of Non Executive Director",
+      "time": "2026-09-07T00:17:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132462-2A1695663",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "City Chic Collective has appointed a new Non-Executive Director, a meaningful board development for a retailer that has undergone significant restructuring and strategic reset over the past 18 months.",
+        "The background and expertise of the incoming NED — particularly in retail, e-commerce, or turnaround management — will be closely scrutinised as a signal of the board's strategic priorities going forward.",
+        "Fresh board-level talent at a company navigating inventory rationalisation and international market challenges could be interpreted as a constructive step toward governance strengthening and potential re-rating."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EIQ",
+      "company": "ECHOIQ LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-07T00:16:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132461-2A1695662",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "EIQ has entered a trading halt, immediately suspending price discovery and liquidity — market-sensitive by definition, and typically precedes a capital raise, M&A announcement, or material regulatory/operational development.",
+        "The halt duration and reason will be disclosed once lifted; institutional investors should treat this as a high-uncertainty event where the binary outcome (positive or negative catalyst) is unresolved until the accompanying announcement.",
+        "For small-cap technology names, trading halts most commonly precede equity raisings, which carry dilution risk — positioning ahead of the resumption is speculative without further detail."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CR3",
+      "company": "CORE ENERGY MINERALS LTD",
+      "headline": "Core Energy Minerals Webinar Invitation",
+      "time": "2026-09-07T00:16:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132460-2A1695661",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Core Energy Minerals is hosting an investor webinar, a proactive engagement tool often used by early-stage or micro-cap miners to build retail and institutional awareness around exploration or project milestones.",
+        "The webinar format suggests management is seeking to drive visibility — likely ahead of, or following, a significant technical or corporate development such as drill results, resource update, or capital raise.",
+        "Investors should register and assess the technical depth of the presentation; key areas to monitor include project pipeline progress, capital requirements, and any commentary on upcoming catalysts."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NRX",
+      "company": "NORONEX LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-07T00:16:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132459-6A1342479",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for NRX signals that a major shareholder has crossed a 5% threshold trigger — either accumulating or partially divesting — altering the register's ownership concentration.",
+        "While classified as not market sensitive, shifts in substantial holdings can foreshadow strategic intent; accumulation by a sophisticated holder may signal confidence in value, while reduction could indicate waning conviction.",
+        "Investors should identify whether the movement is by an existing substantial holder increasing/decreasing, or a new entrant crossing the threshold, as this determines the read-through for future corporate activity."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "Becoming a substantial holder from RMS",
+      "time": "2026-09-07T00:15:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132458-6A1342478",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Ramelius Resources (RMS) is disclosed as the origin of a substantial holding transfer into FRS, indicating a strategic or financial relationship between the two entities that warrants close examination.",
+        "The 'becoming a substantial holder from RMS' language suggests a share distribution, in-specie transfer, or asset restructuring rather than a straightforward open-market purchase — the mechanics are material to understanding true demand.",
+        "For FRS, the emergence of a new substantial holder linked to an ASX-listed gold producer could be a double-edged signal: potential strategic backing vs. near-term register overhang if RMS intends to monetise the position."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MOG",
+      "company": "MONTAKA GLOBAL FUND - ACTIVE ETF",
+      "headline": "MOGL - Monthly Redemption and Units on Issue - Aug 2026",
+      "time": "2026-09-07T00:14:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132457-2A1695660",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine monthly administrative disclosure for MOG (Montaka Global Fund Active ETF) reporting redemption activity and units on issue for August 2026 — no operational or strategic surprises indicated.",
+        "Redemption data provides a read-through on investor appetite for the fund; any material net outflows would signal weakening institutional or retail demand for the actively managed global equity strategy.",
+        "Investors should monitor cumulative monthly unit trends over time to assess whether MOG is experiencing structural redemption pressure or stable asset retention ahead of any potential strategy or fee reviews."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MKA",
+      "company": "MONTAKA GLOBAL EXTENSION FUND - COMPLEX ETF",
+      "headline": "MKAX - Monthly Prime Brokerage Disclosure - 31 Aug 2026",
+      "time": "2026-09-07T00:11:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132456-2A1695659",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Monthly prime brokerage disclosure for MKAX (Montaka Global Extension Fund Complex ETF) as at 31 August 2026 — a mandatory regulatory filing for complex/leveraged ETF structures operating with short-extension exposure.",
+        "Prime brokerage disclosures reveal gross leverage, counterparty exposure, and collateral levels; material changes in these metrics can signal risk appetite shifts or margin pressure within the fund's long/short strategy.",
+        "Institutional investors tracking MKAX should scrutinise the disclosed leverage ratios relative to prior months to assess whether the fund is increasing or reducing risk exposure in the current macro environment."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MKA",
+      "company": "MONTAKA GLOBAL EXTENSION FUND - COMPLEX ETF",
+      "headline": "MKAX - Monthly Redemption and Units on Issue - Aug 2026",
+      "time": "2026-09-07T00:10:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132455-2A1695658",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine monthly redemption and units-on-issue update for MKAX covering August 2026 — complements the prime brokerage disclosure filed simultaneously, offering a complete liquidity picture for the complex ETF.",
+        "Net redemption or issuance trends for a complex (long/short extension) ETF are a key indicator of sophisticated investor conviction; persistent outflows would raise questions about the strategy's risk-adjusted performance.",
+        "Combined with the prime brokerage filing, this data allows a holistic assessment of MKAX's capital base stability — critical given the fund's use of leverage and short positions which amplify both return and redemption risk."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCR",
+      "company": "CREDIT CLEAR LIMITED",
+      "headline": "Notification of buy-back - CCR",
+      "time": "2026-09-07T00:09:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132454-3A701188",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Credit Clear Limited (CCR) has notified the ASX of an on-market share buy-back, signalling management's view that the stock is undervalued and representing a direct return of capital to remaining shareholders.",
+        "Buy-backs are typically EPS-accretive over time by reducing the share count; however, for a smaller-cap fintech like CCR, the scale of the buy-back relative to free cash flow and cash reserves is the critical variable to assess sustainability.",
+        "Investors should watch for the buy-back's size, duration, and funding source — if funded from operating cash flow, it reinforces confidence in CCR's path to profitability; if debt-funded, it may raise balance sheet concerns."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MKR",
+      "company": "MANUKA RESOURCES LTD.",
+      "headline": "Proposed issue of securities - MKR",
+      "time": "2026-09-07T00:06:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132453-2A1695655",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Manuka Resources (MKR) has lodged a proposed securities issuance notice — the first of two filings — indicating an imminent capital raise that will result in shareholder dilution.",
+        "For a junior resources company like MKR, new equity issuances are common to fund exploration or development activity, but the pricing and scale of the placement relative to current market capitalisation will determine the dilution impact on existing holders.",
+        "Until full terms (price, volume, use of proceeds) are disclosed, investors should apply caution; back-to-back filings (see announcement [6]) may indicate a multi-tranche or structured raise, warranting close attention to final documentation."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MKR",
+      "company": "MANUKA RESOURCES LTD.",
+      "headline": "Proposed issue of securities - MKR",
+      "time": "2026-09-07T00:06:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132452-2A1695601",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second proposed securities issuance notice filed by Manuka Resources (MKR) on the same day as announcement [5] suggests either a multi-tranche raise, separate security classes (e.g. shares plus options/performance rights), or a corrective refiling.",
+        "Dual filings increase the total potential dilution quantum for existing shareholders and may reflect a more complex capital structure transaction such as a placement paired with a share purchase plan (SPP) or attaching options.",
+        "Investors should cross-reference both notices for differences in security type, quantity, and pricing to understand the full dilution profile before making position decisions."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MKR",
+      "company": "MANUKA RESOURCES LTD.",
+      "headline": "$A14.5 Million to Complete Silver Circuit",
+      "time": "2026-09-07T00:06:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132451-2A1695628",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MKR is raising A$14.5 million specifically to complete its silver processing circuit — a targeted, use-of-proceeds capital raise that brings the company to a production-ready inflection point, which is a tangible value catalyst if execution is delivered on schedule.",
+        "The specificity of the amount (A$14.5M) suggests detailed engineering costings are in place, reducing capital surprise risk; however, investors should scrutinise dilution terms, pricing relative to last traded price, and whether existing shareholders have pro-rata participation rights.",
+        "Completion of the silver circuit transforms MKR from developer to producer, unlocking revenue generation and potentially triggering re-rating by the market — the key risk remains construction timeline slippage or silver price movement between raise and first pour."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GDI",
+      "company": "GDI PROPERTY GROUP",
+      "headline": "Notification of cessation of securities - GDI",
+      "time": "2026-09-07T00:01:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132450-2A1695656",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "GDI Property Group (GDI) has filed a notification of cessation of securities, most likely relating to the expiry or lapse of performance rights, options, or convertible instruments — a routine corporate lifecycle event.",
+        "Cessation of securities (particularly unexercised options or rights) is modestly positive as it reduces potential future dilution overhang on the register, marginally improving the per-share value equation for existing holders.",
+        "Investors should confirm the class and volume of securities that have ceased to determine whether this reflects a meaningful reduction in dilution risk or is simply an immaterial administrative cleanup of the capital structure."
+      ],
+      "tags": [
+        "Property",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PAC",
+      "company": "PACIFIC CURRENT GROUP LIMITED",
+      "headline": "Strategic Review Update",
+      "time": "2026-09-06T23:58:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132449-2A1695646",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PAC's strategic review update is a high-significance event for a listed fund manager — outcomes typically include asset sales, mergers, management internalisation, capital returns, or a full takeover, all of which carry major valuation implications.",
+        "The market-sensitive classification confirms the update contains material information beyond vague process commentary; investors should assess whether a binding transaction, indicative bid, or termination of the review is disclosed.",
+        "PAC has been subject to shareholder and activist pressure historically; any definitive outcome — particularly a control transaction — would crystallise value relative to the persistent NTA discount at which listed fund managers typically trade."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JEG",
+      "company": "JPM GLOBAL EQUITY PREMIUM INCOME COMPLEX ETF",
+      "headline": "Distribution Notice",
+      "time": "2026-09-06T23:57:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132448-2A1695641",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "JEG has issued its distribution notice, confirming income delivery to ETF unitholders — the market-sensitive flag is notable for a passive/structured product and may indicate a distribution that deviates meaningfully from prior periods.",
+        "The JPMorgan Global Equity Premium Income strategy employs an options overlay (covered calls) to generate enhanced yield; the distribution quantum will reflect both equity dividends received and options premium income harvested during the period.",
+        "For yield-oriented investors, the key metric is the annualised distribution rate relative to NAV — any material decline in options premium income due to low volatility environments would signal forward distribution risk."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GIV",
+      "company": "PERPETUAL ESG AUSTRALIAN SHARE ACTIVE ETF",
+      "headline": "Units on issue and fund flows - August 2026",
+      "time": "2026-09-06T23:57:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132447-2A1695647",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Perpetual ESG Australian Share Active ETF (GIV) has published its monthly units on issue and fund flows for August 2026 — a standard transparency disclosure required for active ETFs operating on ASX.",
+        "Fund flow data is a key metric for ESG-focused products given the growing but volatile investor interest in sustainable mandates; net inflows would validate continued demand for the strategy while outflows could signal ESG fatigue or performance-driven switching.",
+        "Perpetual's ability to grow GIV's AUM is strategically important for the broader business given its ongoing transformation initiatives; persistent outflows from this product would add pressure to the firm's funds management revenue line."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GG1",
       "company": "GREEN & GOLD MINERALS LIMITED",
