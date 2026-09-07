@@ -1,9 +1,141 @@
 {
   "date": "2026-09-08",
-  "total": 161,
-  "market_sensitive_count": 41,
-  "generated_at": "2026-09-07T23:25:06.811962+00:00",
+  "total": 168,
+  "market_sensitive_count": 43,
+  "generated_at": "2026-09-07T23:31:30.537983+00:00",
   "announcements": [
+    {
+      "ticker": "CIW",
+      "company": "CLIME INVESTMENT MANAGEMENT LTD",
+      "headline": "Notification of cessation of securities - CIW",
+      "time": "2026-09-07T23:28:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132972-2A1696034",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Clime Investment Management has notified the ASX of the cessation of securities, likely relating to the lapse or cancellation of performance rights, options, or other unlisted securities — a routine administrative event with no direct cash or earnings impact.",
+        "Cessation of securities typically reduces the potential dilutive overhang on the register, which is marginally positive for existing shareholders, though the quantum is unlikely to be material for a small-cap fund manager like CIW.",
+        "No immediate action required; investors should review the specific volume and class of securities ceased to confirm whether this reflects performance target failures or scheduled expiry, as the former could signal management underperformance."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TTT",
+      "company": "TITOMIC LIMITED",
+      "headline": "Application for quotation of securities - TTT",
+      "time": "2026-09-07T23:28:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132971-3A701266",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Titomic has lodged an application for quotation of new securities on the ASX, indicating the completion of a prior capital raise, option exercise, or equity issuance event that is now moving to the listing and trading phase.",
+        "The admission of new securities to quotation increases the tradeable share count, introducing incremental dilution for existing holders — the materiality depends on the volume of securities being quoted relative to total shares on issue.",
+        "This is a downstream administrative step following an earlier capital event; no new strategic or financial information is conveyed, but it confirms the prior transaction has settled and new holders can now trade freely."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FBR",
+      "company": "FBR LTD",
+      "headline": "SPP Underwriting",
+      "time": "2026-09-07T23:28:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132970-6A1342714",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FBR has secured underwriting for its Share Purchase Plan (SPP), removing execution risk and ensuring the capital raise proceeds in full — a critical signal for a pre-revenue robotics company with ongoing cash burn concerns.",
+        "Underwritten SPPs are uncommon for small-cap ASX companies and suggest underwriter conviction in near-term demand, or at minimum, a backstop that protects the company's balance sheet and cash runway extension objectives.",
+        "Next step is SPP close and fund receipt; investors should monitor the final SPP subscription rate versus the underwritten amount, as low retail take-up with heavy underwriter shortfall subscription could signal weak market confidence in the equity story."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CPM",
+      "company": "COOPER METALS LIMITED",
+      "headline": "Detailed Assay Review Advances Drill Planning at Pyramid",
+      "time": "2026-09-07T23:26:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132969-6A1342715",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cooper Metals has completed a detailed assay review at its Pyramid project, using the data to directly inform upcoming drill targeting — a sign of disciplined, data-driven exploration rather than speculative drilling, which can improve the probability of resource definition success.",
+        "The fact this is flagged as advancing drill planning (not reporting a new discovery) means the market-sensitive catalyst — actual drill results — remains ahead; this announcement is essentially a pre-drill confidence signal designed to maintain investor engagement.",
+        "Key near-term trigger is the commencement of the drill program and subsequent assay results; investors should note the geological context and whether Pyramid sits within a known mineralised corridor to assess potential scale of any discovery."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NAN",
+      "company": "NANOSONICS LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-07T23:26:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132968-2A1696031",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Nanosonics director has disclosed a change in their securities interest, a mandatory ASX and Corporations Act compliance requirement — the significance depends entirely on whether this reflects an on-market purchase (bullish signal) or a sale/disposal (bearish signal).",
+        "Director buying in NAN would be notable given the company's recent strategic repositioning and investor scrutiny over its growth trajectory, while selling could amplify existing market concerns about near-term earnings delivery.",
+        "The filing is administrative in nature but warrants review of the transaction type, volume, and price paid — director transactions at Nanosonics are closely watched given the stock's history of valuation sensitivity to growth narrative shifts."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AX8",
+      "company": "ACCELERATE RESOURCES LIMITED",
+      "headline": "Investor Presentation September 2026",
+      "time": "2026-09-07T23:26:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132967-6A1342713",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Accelerate Resources has released an investor presentation dated September 2026, providing an updated strategic and project overview aimed at attracting and retaining institutional and retail investor interest — a standard capital markets communication tool.",
+        "The forward-dated presentation title (September 2026) suggests this is a current period update framed for an upcoming investor roadshow or conference, signalling the company is actively engaged in market outreach, likely in support of future funding activities.",
+        "Investors should review the presentation for any updates to resource estimates, project timelines, or cash position, as these are the high-signal elements within what is otherwise a promotional document — the 'not market sensitive' classification confirms no material new data is disclosed."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HFR",
+      "company": "HIGHFIELD RESOURCES LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-09-07T23:25:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132966-6A1342711",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Highfield Resources has been suspended from quotation on the ASX, halting all trading in HFR shares — a market-sensitive event that typically precedes a material announcement such as a merger, acquisition, capital raise, or significant regulatory decision.",
+        "Suspension without an accompanying explanation creates information asymmetry; institutional holders face liquidity risk with no ability to adjust positions until trading resumes, elevating short-term uncertainty.",
+        "Investors should watch closely for the imminent announcement that triggers reinstatement — the nature of that disclosure will determine whether the suspension resolves bullishly or bearishly, making this a high-priority watch item."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CAM",
       "company": "CLIME CAPITAL LIMITED",
