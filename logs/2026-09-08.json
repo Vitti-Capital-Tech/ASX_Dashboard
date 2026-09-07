@@ -1,9 +1,161 @@
 {
   "date": "2026-09-08",
-  "total": 196,
-  "market_sensitive_count": 50,
-  "generated_at": "2026-09-07T23:47:03.131250+00:00",
+  "total": 204,
+  "market_sensitive_count": 52,
+  "generated_at": "2026-09-07T23:53:44.695887+00:00",
   "announcements": [
+    {
+      "ticker": "TGF",
+      "company": "TRIBECA GLOBAL NATURAL RESOURCES LIMITED",
+      "headline": "DRP Share Purchase Update",
+      "time": "2026-09-07T23:52:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133008-2A1696043",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Dividend Reinvestment Plan (DRP) share purchase update for Tribeca Global Natural Resources (TGF) is an administrative disclosure confirming shares issued under the DRP, with no material change to investment thesis or portfolio strategy.",
+        "DRP participation levels provide a soft signal on shareholder income preference and confidence — high uptake can indicate investors favour capital compounding over cash returns, marginally positive for the register's stability.",
+        "No near-term price catalyst expected; this is routine capital management disclosure with negligible dilutive impact given typical DRP scale for a listed investment company of TGF's size."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMR",
+      "company": "BALLYMORE RESOURCES LIMITED",
+      "headline": "Torpys delivers further high-grade silver-lead-zinc results",
+      "time": "2026-09-07T23:49:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133007-2A1696041",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-grade silver-lead-zinc results at Torpys reinforce deposit quality, potentially upgrading the resource estimate and attracting partner or acquirer interest in a metals environment where silver-lead-zinc projects remain scarce on the ASX.",
+        "Market-sensitive classification signals material drill intercepts likely exceeding previously reported grades or widths — key metrics to watch are silver equivalent g/t and intercept lengths relative to prior holes that defined the resource.",
+        "Next steps will centre on whether results are sufficient to trigger a maiden or updated JORC resource estimate, which would be a critical de-risking catalyst and re-rating event for BMR at its current small-cap valuation."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AAR",
+      "company": "ASTRAL RESOURCES NL",
+      "headline": "More Thick High-Grade Infill Results Strengthen Theia Stage1",
+      "time": "2026-09-07T23:49:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133006-6A1342729",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Thick high-grade infill drilling at Theia Stage 1 strengthens geological confidence, reducing interpolation risk and supporting a higher-classification (Indicated/Measured) resource update that underpins future feasibility work for Astral Resources.",
+        "Market-sensitive designation suggests intercepts are materially consistent with or exceeding the existing resource model — infill success at this stage typically compresses mining dilution assumptions and improves project economics meaningfully.",
+        "The focus on 'Stage 1' signals a phased development strategy; strong infill results accelerate the pathway to a Definitive Feasibility Study or financing discussions, making this a pivotal operational milestone for AAR re-rating."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NTI",
+      "company": "NEUROTECH INTERNATIONAL LIMITED",
+      "headline": "Board and Management Changes",
+      "time": "2026-09-07T23:49:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133005-6A1342727",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Board and management changes at Neurotech International introduce execution risk during a critical commercialisation phase for the company's neurotechnology platform — investor scrutiny will focus on whether departing executives held key clinical or business development relationships.",
+        "The 'not market sensitive' classification suggests the changes are orderly and pre-planned rather than forced or crisis-driven, limiting immediate downside; however, leadership continuity risk remains a structural concern for a pre-revenue healthcare company.",
+        "Incoming leadership credentials and strategic mandate will be the key determinant of sentiment — investors should assess whether new appointments signal a pivot in commercial strategy, geographic focus, or funding approach."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NTI",
+      "company": "NEUROTECH INTERNATIONAL LIMITED",
+      "headline": "Final Director's Interest Notice",
+      "time": "2026-09-07T23:48:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133004-6A1342728",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Final Director's Interest Notice for Neurotech International (NTI) typically accompanies a director's resignation or cessation of role, providing a closing snapshot of their securities holding — relevant context following the concurrent board change announcement.",
+        "The notice is procedural and regulatory in nature (Corporations Act / ASX Listing Rule compliance), with no direct financial or operational implications for the company's ongoing activities.",
+        "Investors should cross-reference this notice with announcement [4] to assess whether the departing director held significant NTI shares and whether any on-market selling pressure may follow their exit from the board."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TTT",
+      "company": "TITOMIC LIMITED",
+      "headline": "Notification regarding unquoted securities - TTT",
+      "time": "2026-09-07T23:47:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133003-3A701271",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Titomic's notification regarding unquoted securities typically relates to the vesting or issuance of performance rights, options, or similar equity instruments — a routine administrative disclosure with limited immediate market impact.",
+        "Unquoted security issuances can represent dilutive overhang if volumes are material relative to issued capital; investors should assess the quantum and vesting conditions to gauge potential future dilution to existing shareholders.",
+        "The 'not market sensitive' classification confirms this is a standard equity compensation or incentive plan update rather than a capital raise event, posing no near-term structural change to TTT's capital position."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "14D",
+      "company": "1414 DEGREES LIMITED",
+      "headline": "EoI for Aurora Energy Precinct Grid Scale Development",
+      "time": "2026-09-07T23:46:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133002-2A1696039",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "1414 Degrees submitting an Expression of Interest for the Aurora Energy Precinct grid-scale development positions the company as a potential supplier of its silicon-based Thermal Energy Storage System (TESS) technology into a significant grid-scale infrastructure project.",
+        "While classified as not market sensitive, the strategic importance is notable — a successful EoI could lead to a binding contract or development partnership that materially validates 14D's commercial technology and provides desperately needed revenue visibility for this pre-commercial stage company.",
+        "Investors should monitor whether the EoI progresses to a formal tender or MOU stage; grid-scale energy storage is a high-growth sector and even shortlisting could serve as a meaningful re-rating catalyst for 14D's currently depressed market capitalisation."
+      ],
+      "tags": [
+        "Energy",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WAA",
+      "company": "WAM ACTIVE LIMITED",
+      "headline": "August 2026 Investment Update",
+      "time": "2026-09-07T23:46:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133001-2A1696042",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WAM Active's August 2026 Investment Update provides a monthly portfolio performance and activity snapshot — the key metrics for institutional investors are the fund's NTA per share movement, portfolio return relative to benchmark, and any shifts in gross/net market exposure.",
+        "As an active listed investment company (LIC), WAM Active's update will reflect Wilson Asset Management's near-term tactical positioning — any material changes to cash levels, sector tilts, or top holdings signal the manager's conviction on market direction.",
+        "The update itself is procedurally routine, but persistent NTA discount or underperformance versus benchmark would sustain bearish pressure on WAA's share price; outperformance relative to the RBA cash rate or ASX benchmark would support the bullish case for the LIC's premium."
+      ],
+      "tags": [
+        "Finance",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "RCT",
       "company": "REEF CASINO TRUST",
