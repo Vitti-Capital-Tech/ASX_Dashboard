@@ -1,9 +1,431 @@
 {
   "date": "2026-09-07",
-  "total": 350,
-  "market_sensitive_count": 89,
-  "generated_at": "2026-09-07T02:33:59.780660+00:00",
+  "total": 372,
+  "market_sensitive_count": 94,
+  "generated_at": "2026-09-07T03:29:03.890452+00:00",
   "announcements": [
+    {
+      "ticker": "PM1",
+      "company": "PALISADE METALS LTD",
+      "headline": "Application for quotation of securities - PM1",
+      "time": "2026-09-07T03:23:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132534-3A701202",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Palisade Metals' application for quotation of new securities is an administrative step following a capital raise or option/warrant exercise, and confirms the company is progressing through standard post-transaction compliance processes.",
+        "The number and class of securities being quoted will determine the degree of dilution to existing holders — a large issuance relative to existing shares on issue warrants closer examination of the financing terms that generated these securities.",
+        "No immediate valuation catalyst is expected from this filing alone; however, if the securities relate to a recently completed capital raise, the funds injected will be the more material consideration for PM1's operational outlook."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "C7A",
+      "company": "CLARA RESOURCES AUSTRALIA LTD",
+      "headline": "$1.95m Sale Agreement for Kildanga  Ni-Co project",
+      "time": "2026-09-07T03:14:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132533-2A1695745",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Clara Resources has executed a $1.95M sale agreement for its Kildanga Ni-Co project, providing a meaningful liquidity event for a micro-cap explorer and signalling a strategic pivot away from nickel-cobalt exposure amid a prolonged commodity downturn.",
+        "The divestment price and terms (deferred payments, scrip, or cash breakdown not specified in headline) will be critical to assess — any upfront cash component directly strengthens C7A's treasury and extends runway without further dilution.",
+        "Next steps hinge on what C7A intends to do with proceeds; if redeployed into a new project or returned to shareholders, this could re-rate the stock, but execution risk remains elevated for a small-cap with limited operating history."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "REG",
+      "company": "REGIS HEALTHCARE LIMITED",
+      "headline": "Application for quotation of securities - REG",
+      "time": "2026-09-07T03:13:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132532-3A701201",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Regis Healthcare's application for quotation of securities is a routine administrative filing, most likely arising from an employee incentive plan, dividend reinvestment plan, or prior capital raise tranche reaching its quotation eligibility date.",
+        "The announcement carries no standalone earnings or strategic significance, but the volume of new securities and their vesting or issue price relative to market can provide insight into the company's internal equity compensation structure.",
+        "With REG operating in the aged care sector — a space under continued regulatory and cost pressure — investors should focus on upcoming operational updates rather than administrative filings for meaningful valuation signals."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GTK",
+      "company": "GENTRACK GROUP LIMITED",
+      "headline": "NZX - Substantial Product Holder Notice",
+      "time": "2026-09-07T03:11:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132531-3A701200",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Gentrack Group's NZX Substantial Product Holder Notice reflects a change in a significant shareholder's position in the utility and airport software provider, cross-listed on the NZX — the directional change (increase or decrease) is the key data point for sentiment assessment.",
+        "Given GTK's strong revenue growth trajectory in its energy and airport software verticals, any reduction by a substantial holder could signal profit-taking after a strong re-rating, while an increase would reinforce institutional conviction in the growth thesis.",
+        "As a dual-listed entity (ASX/NZX), substantial holder movements on either exchange can influence cross-market sentiment; ASX investors should monitor whether this represents a structural position change or routine portfolio rebalancing."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFG",
+      "company": "AUSTRALIAN FINANCE GROUP LTD",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-07T03:09:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132530-6A1342506",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director interest change at Australian Finance Group is a routine disclosure under ASX Listing Rule 3.19A, typically reflecting on-market purchases, sales, or vesting of performance rights — directional intent (buying vs. selling) is the primary signal to extract.",
+        "Director buying in AFG, a mortgage aggregation and lending business operating in a rate-sensitive environment, would be a modestly positive sentiment signal suggesting insider confidence in near-term earnings or asset quality stabilisation.",
+        "This filing alone carries minimal market-moving weight; however, patterns of multiple director transactions over a short period can be a leading indicator of management's internal outlook and should be tracked in aggregate."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BPP",
+      "company": "BABYLON PUMP & POWER LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-09-07T03:09:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132529-6A1342505",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Babylon Pump & Power's investor presentation, released concurrently with its reinstatement to quotation, is designed to rebuild market confidence and provide a comprehensive business update after what appears to be a period of suspension — timing is deliberate and strategically important.",
+        "The presentation likely outlines revised financials, operational milestones, and potentially new contracts or capital structure changes; the quality and credibility of disclosed numbers will be the key determinant of post-reinstatement price action.",
+        "Institutional investors should scrutinise cash position, debt obligations, and forward revenue visibility carefully — reinstatement presentations often carry optimistic framing, and independent verification of key claims is essential before establishing positions."
+      ],
+      "tags": [
+        "Other",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BTR",
+      "company": "BRIGHTSTAR RESOURCES LIMITED",
+      "headline": "Cleansing notice under s708A",
+      "time": "2026-09-07T03:06:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132528-6A1342502",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Brightstar Resources has filed a cleansing notice under s708A of the Corporations Act, indicating securities were issued without a disclosure document — a standard post-placement compliance step to restore free tradability of those shares.",
+        "The notice signals a recent capital raise or share issuance has been completed, allowing recipients of those securities to on-sell without prospectus requirements — critical for placement liquidity.",
+        "Investors should watch for the corresponding quotation application (filed separately as BTR [6] and [9]) to confirm the volume of new shares entering the market and potential near-term dilution pressure."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ERD",
+      "company": "EROAD LIMITED",
+      "headline": "SPH Notice - Anthony Henry Kandziora",
+      "time": "2026-09-07T03:06:16+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132527-2A1695699",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Substantial Product Holder (SPH) notice has been lodged for EROAD Limited (ERD) relating to Anthony Henry Kandziora, signalling a change in a significant shareholding position above the 5% disclosure threshold.",
+        "SPH notices can indicate either accumulation or partial divestment by a major holder — the directional intent (buying vs. selling) is the key variable that determines near-term price impact and requires review of the full notice detail.",
+        "For a mid-cap technology company like EROAD, movement by a substantial holder can materially influence liquidity and sentiment; institutional investors should monitor whether this represents a strategic positioning or an exit."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "A30",
+      "company": "GLOBAL X AUSTRALIA 300 ETF",
+      "headline": "Global X Units on Issue - August 2026",
+      "time": "2026-09-07T03:05:46+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132526-2A1695698",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Global X has reported its monthly units-on-issue figure for the Australia 300 ETF (A30) as of August 2026, a routine administrative disclosure required for ETF transparency and index tracking integrity.",
+        "Changes in units on issue reflect net creation or redemption activity by authorised participants — a meaningful increase would signal growing investor demand for broad Australian equity exposure via the ETF structure.",
+        "This is a low-signal procedural update with no direct valuation impact; however, consistent unit growth over time is a positive indicator of AUM trajectory and fee revenue for the fund manager."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FMG",
+      "company": "FORTESCUE LTD",
+      "headline": "Notification regarding unquoted securities - FMG",
+      "time": "2026-09-07T03:01:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132525-6A1342501",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Fortescue has lodged a notification regarding unquoted securities, typically relating to performance rights, options, or other equity instruments issued to employees or executives under incentive schemes.",
+        "Unquoted security notifications are a standard ASX Listing Rule requirement and do not directly affect the tradeable share count until conversion or vesting — dilution risk is latent rather than immediate.",
+        "Given FMG's scale and ongoing energy transition investments, monitoring the cumulative volume of unquoted securities is important for assessing potential future dilution to ordinary shareholders upon vesting events."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RF1",
+      "company": "REGAL INVESTMENT FUND",
+      "headline": "Update - Dividend/Distribution - RF1",
+      "time": "2026-09-07T03:01:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132524-2A1695700",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Regal Investment Fund (RF1) has issued an updated distribution notice, providing revised details on its upcoming dividend/distribution — likely reflecting a change in quantum, tax components, or payment mechanics.",
+        "For a listed investment fund like RF1, distribution updates directly impact income-focused investors; any upward revision in the distribution rate would be incrementally positive for yield-sensitive holders.",
+        "Investors should verify the ex-dividend date, record date, and cents-per-unit figure to assess whether the distribution is in line with, above, or below prior periods — the variance versus expectation drives near-term price reaction."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BPP",
+      "company": "BABYLON PUMP & POWER LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-09-07T02:59:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132523-6A1342496",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BPP's reinstatement to quotation ends its trading suspension, restoring price discovery — this is a pivotal moment as the market will immediately reprice the stock based on all information released during the halt period.",
+        "The simultaneous release of pre-reinstatement disclosures and an investor presentation suggests ASX compliance requirements have been satisfied, reducing regulatory overhang, though the underlying reason for the original suspension warrants close scrutiny.",
+        "Post-reinstatement volatility is highly likely; institutional participants should expect wide bid-ask spreads and thin liquidity in the near term as retail and speculative interest re-enters the stock before price stabilises."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BPP",
+      "company": "BABYLON PUMP & POWER LIMITED",
+      "headline": "Pre-Reinstatement Disclosures",
+      "time": "2026-09-07T02:59:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132522-6A1342494",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Pre-reinstatement disclosures represent BPP's formal fulfilment of ASX Listing Rule obligations, ensuring all material information is in the public domain before trading resumes — the substance of these disclosures is the most market-sensitive element of the three BPP announcements.",
+        "Key items to assess include any earnings restatements, debt restructuring, capital raises completed during suspension, or material contract wins/losses — each carries distinct valuation implications that will drive the opening price on reinstatement.",
+        "If disclosures reveal a strengthened balance sheet or significant new revenue agreements, the sentiment could shift decisively bullish; conversely, evidence of ongoing losses or dilutive capital actions would pressure the stock immediately upon resumption of trading."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BTR",
+      "company": "BRIGHTSTAR RESOURCES LIMITED",
+      "headline": "Application for quotation of securities - BTR",
+      "time": "2026-09-07T02:59:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132521-6A1342499",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Brightstar Resources has lodged an application for quotation of new securities on ASX, confirming that recently issued shares (linked to the s708A cleansing notice in [1]) are being brought to market for trading.",
+        "The quotation application crystallises the dilution event — investors need to assess the number of new shares being listed relative to the existing capital structure to quantify the dilutive impact on existing holders.",
+        "This is the final step in a placement cycle; once approved, new shares will be freely tradeable, which can create short-term selling pressure if placees seek to crystallise gains or if the placement price was at a discount to market."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "FMG",
+      "company": "FORTESCUE LTD",
+      "headline": "Notification of cessation of securities - FMG",
+      "time": "2026-09-07T02:58:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132520-6A1342500",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Fortescue has filed a notification of cessation of securities, indicating that a tranche of previously unquoted securities (options, performance rights, or similar instruments) has lapsed, been cancelled, or exercised and converted.",
+        "Cessation notices are net positive from a dilution standpoint if securities have lapsed unexercised — reducing the potential future share count and improving earnings-per-share optics for remaining holders.",
+        "Investors should cross-reference this notice with [4] and [8] to build a complete picture of FMG's equity instrument lifecycle — net movement in unquoted securities is the key metric to track."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FMG",
+      "company": "FORTESCUE LTD",
+      "headline": "Notification regarding unquoted securities - FMG",
+      "time": "2026-09-07T02:57:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132519-6A1342498",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second unquoted securities notification from Fortescue on the same day suggests multiple tranches of equity instruments are being administered concurrently — likely reflecting separate grant cycles under FMG's long-term incentive plan.",
+        "The filing of multiple unquoted security notices in a single session is common for large-cap companies with complex remuneration structures, but the aggregate volume of unvested instruments warrants scrutiny for dilution risk.",
+        "Institutional investors should aggregate all FMG unquoted security notices to model total potential dilution under a full-exercise scenario, particularly as FMG navigates capital-intensive green energy projects."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BTR",
+      "company": "BRIGHTSTAR RESOURCES LIMITED",
+      "headline": "Application for quotation of securities - BTR",
+      "time": "2026-09-07T02:55:56+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132518-6A1342497",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second quotation application lodged by Brightstar Resources on the same day as [6] suggests multiple tranches or classes of securities are being brought to market simultaneously — possibly reflecting different categories of shares issued in a recent capital raise.",
+        "Dual quotation applications on the same day amplify the near-term supply of new BTR shares entering the market, increasing the potential for short-term price overhang if the new shares were issued at a discount.",
+        "Investors should reconcile both applications ([6] and [9]) to determine the total new share count, blended issue price, and use of proceeds — these are the critical inputs for assessing whether the capital raise is value-accretive or dilutive."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AEU",
+      "company": "ATOMIC EAGLE LTD",
+      "headline": "Application for quotation of securities - AEU",
+      "time": "2026-09-07T02:49:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132517-6A1342495",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Atomic Eagle Ltd (AEU) has applied for quotation of new securities on ASX, indicating the company has recently completed a capital raise or issued shares under an existing facility and is seeking to list those securities for trading.",
+        "For a small-cap or early-stage company like AEU, a quotation application confirms fresh capital has been secured — the key question is the size of the raise relative to existing market cap and the discount applied, which determines dilution severity.",
+        "Investors should review the corresponding offer documents or placement announcements to assess use of proceeds and whether the new capital extends AEU's runway sufficiently to reach the next value catalyst."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Daily Net Tangible Asset Statement",
+      "time": "2026-09-07T02:48:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132516-2A1695697",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine daily NTA disclosure for PCI reflects ongoing compliance with ASX transparency requirements for listed investment trusts — no material valuation surprises are indicated by the administrative nature of the filing.",
+        "Investors should monitor NTA per unit relative to market price to assess any premium or discount dynamics; persistent discounts to NTA in credit-focused LITs can signal redemption pressure or portfolio mark-to-market concerns in the current rate environment.",
+        "With fixed income and credit markets remaining sensitive to RBA rate trajectory, PCI's daily NTA updates serve as a key tracking metric for institutional holders managing duration and credit spread exposure within their portfolios."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RMY",
+      "company": "RMA GLOBAL LIMITED",
+      "headline": "Change of Director's Interest Notice - David Williams",
+      "time": "2026-09-07T02:47:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132515-3A701199",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director David Williams has altered his interest in RMA Global, a filing that warrants scrutiny to determine whether this reflects open-market buying (a bullish signal of insider confidence) or selling/lapsing of securities (a potential negative sentiment indicator).",
+        "Changes in director interests at small-cap technology companies like RMY carry outsized signalling weight given typically low liquidity and limited institutional coverage — the direction and scale of the transaction are critical context points not yet disclosed in the headline alone.",
+        "Investors should cross-reference this notice against RMY's recent operational updates, cash position, and any upcoming capital raising activity to assess whether this movement is strategic accumulation ahead of a catalyst or orderly exit by a key insider."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KLV",
+      "company": "KLEVO GROUP LIMITED",
+      "headline": "Non-Renounceable Loyalty Options Offer - Amended Timetable",
+      "time": "2026-09-07T02:46:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132514-6A1342492",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Klevo Group's amended timetable for its Non-Renounceable Loyalty Options Offer introduces scheduling changes that could affect shareholder participation rates and the ultimate take-up of options, creating uncertainty around the capital raise outcome.",
+        "Timetable amendments on non-renounceable offers are typically procedural but can signal administrative challenges or regulatory requests for clarification — investors should confirm whether the key record date, offer open/close dates, and option terms remain unchanged.",
+        "Given the non-renounceable structure, ineligible or non-participating shareholders face value dilution if options are issued and exercised by others; the amended timeline does not alter this risk but may compress the decision window for retail holders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STN",
+      "company": "SATURN METALS LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-09-07T02:46:01+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132513-6A1342493",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder notice for Saturn Metals (STN) indicates a new or increased position crossing the 5% ownership threshold, signalling meaningful institutional or sophisticated investor conviction in the gold explorer's asset base.",
+        "The identity of the substantial holder and whether the stake was built via on-market purchases or a placement is critical — on-market accumulation at current prices implies genuine price discovery support, while a placement may have been at a discount.",
+        "For a junior gold explorer like STN, substantial holder interest can act as a positive re-rating catalyst, particularly if the holder has a track record of supporting project development through to production or acquisition."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "MIO",
       "company": "MACARTHUR MINERALS LIMITED",
