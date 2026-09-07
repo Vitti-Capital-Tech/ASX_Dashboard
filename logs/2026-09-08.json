@@ -1,9 +1,179 @@
 {
   "date": "2026-09-08",
-  "total": 105,
-  "market_sensitive_count": 28,
-  "generated_at": "2026-09-07T22:49:41.201300+00:00",
+  "total": 114,
+  "market_sensitive_count": 30,
+  "generated_at": "2026-09-07T22:58:55.245699+00:00",
   "announcements": [
+    {
+      "ticker": "MIR",
+      "company": "MIRRABOOKA INVESTMENTS LIMITED",
+      "headline": "Update - Notification of buy-back - MIR",
+      "time": "2026-09-07T22:54:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132918-3A701254",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Mirrabooka Investments (MIR) has filed a routine buy-back update notification, consistent with its ongoing on-market share repurchase programme — a standard capital management activity for this listed investment company.",
+        "Buy-backs at LIC level are modestly accretive when shares trade at a discount to NTA, as repurchased shares effectively increase per-share NTA for remaining holders; however, the scale of MIR's buy-backs is typically modest relative to market cap.",
+        "No immediate re-rating catalyst is expected; the update is procedural and the non-market-sensitive classification confirms no new material information is being disclosed."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DOW",
+      "company": "DOWNER EDI LIMITED",
+      "headline": "Update - Notification of buy-back - DOW",
+      "time": "2026-09-07T22:53:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132917-2A1696010",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Downer EDI (DOW) has lodged a routine on-market buy-back update, signalling continued execution of its capital return programme — a constructive signal of management confidence in the balance sheet following recent portfolio rationalisation.",
+        "For an infrastructure services company that has been actively divesting non-core assets, sustained buy-back activity reinforces the narrative of improved financial discipline and shareholder-returns focus post-restructure.",
+        "The non-market-sensitive classification indicates no change to buy-back parameters or financial guidance; the filing is administrative and unlikely to act as a near-term price catalyst on its own."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GHY",
+      "company": "GOLD HYDROGEN LIMITED",
+      "headline": "Strategic Investors Moving to Strategic Participation",
+      "time": "2026-09-07T22:53:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132916-2A1696009",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Gold Hydrogen (GHY) reports that existing strategic investors are converting or escalating their involvement to 'strategic participation' — suggesting deeper commitment but the non-market-sensitive tag implies no new capital or binding agreement has been disclosed.",
+        "For an early-stage natural hydrogen explorer, elevated strategic investor engagement can validate the technical thesis and potentially de-risk future funding rounds, but without hard dollar figures or defined milestones the impact is qualitative at best.",
+        "Investors should monitor for a follow-up capital raise announcement or farm-in agreement that would provide tangible evidence of value being ascribed to GHY's hydrogen assets by sophisticated parties."
+      ],
+      "tags": [
+        "Energy",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BTC",
+      "company": "BTC HEALTH LTD",
+      "headline": "Arna Pharma enters voluntary administration",
+      "time": "2026-09-07T22:52:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132915-3A701253",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Arna Pharma, a portfolio/partner entity of BTC Health, has entered voluntary administration — a critical negative event that likely signals material impairment of BTC's investment or commercial relationship with the company.",
+        "The market-sensitive classification underscores that BTC's exposure to Arna Pharma is financially significant; investors should expect writedowns or revenue disruption depending on the nature and size of the relationship on BTC's balance sheet.",
+        "Near-term focus will be on BTC management's response, quantification of financial exposure, and whether any alternative buyer or deed of company arrangement (DOCA) can preserve value — outcomes that remain highly uncertain at this stage."
+      ],
+      "tags": [
+        "Healthcare",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BXB",
+      "company": "BRAMBLES LIMITED",
+      "headline": "Notification of cessation of securities - BXB",
+      "time": "2026-09-07T22:48:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132914-2A1696008",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Brambles (BXB) has notified the market of the cessation of securities, most likely relating to the lapse or cancellation of performance rights, options, or restricted shares under its employee incentive scheme.",
+        "Cessation of unvested securities is routine and non-dilutive — it is marginally positive in that it reduces the potential future dilution overhang from equity compensation, though the quantum is typically immaterial relative to BXB's large market capitalisation.",
+        "No actionable investment signal is generated by this filing; the non-market-sensitive classification confirms it is a standard regulatory lodgement under ASX Listing Rule 3.19A."
+      ],
+      "tags": [
+        "Other",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AR9",
+      "company": "ARCHTIS LIMITED",
+      "headline": "archTIS Awarded A$445,000 Three-Year Spirion SDP Contract",
+      "time": "2026-09-07T22:48:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132913-6A1342696",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "archTIS (AR9) has secured a A$445,000 three-year contract to deliver its Spirion SDP (Sensitive Data Platform) solution, adding a modest but recurring revenue stream to its government and defence-focused technology portfolio.",
+        "At ~A$148,000 per annum, the contract is small in absolute terms but strategically meaningful as it demonstrates continued commercial traction for the Spirion product line within what is likely a government or defence customer base — a sticky, high-retention segment.",
+        "For a micro-cap technology company, consistent contract wins — even at modest values — are critical to validating the go-to-market strategy and building toward cash flow breakeven; investors should track the cadence of similar awards as a leading indicator of pipeline conversion."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKY",
+      "company": "SKY METALS LIMITED",
+      "headline": "High-Grade Tungsten Discovery 20km North of Tallebung",
+      "time": "2026-09-07T22:47:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132912-2A1696007",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SKY Metals has reported a high-grade tungsten discovery located 20km north of its existing Tallebung project, materially expanding the prospective footprint of its NSW tungsten asset base.",
+        "Tungsten is a critical mineral with strategic defence and industrial applications; a high-grade discovery in proximity to an established project significantly enhances project economics through potential infrastructure sharing and resource scale.",
+        "The market-sensitive designation suggests assay results or visual grades are sufficiently compelling to move the stock — investors should await a JORC-compliant resource update and drill programme announcement to validate the discovery's commercial scale."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GDI",
+      "company": "GDI PROPERTY GROUP",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-07T22:47:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132911-2A1696006",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A GDI Property Group director has filed a change of interest notice, indicating a movement in their direct or indirect shareholding — a routine disclosure required under ASX Listing Rule 3.19A and the Corporations Act.",
+        "The direction of the change (buy or sell) is the key variable; an on-market purchase by a director would be a mild positive signal on asset values, while a disposal could raise questions around conviction, though both are common for liquidity or tax planning reasons.",
+        "Given the non-market-sensitive classification and the administrative nature of the filing, no material re-rating of GDI is expected; investors should review the actual notice for transaction direction and volume to assess any signalling value."
+      ],
+      "tags": [
+        "Board Change",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMP",
+      "company": "AMP LIMITED",
+      "headline": "Update - Notification of buy-back - AMP",
+      "time": "2026-09-07T22:47:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132910-2A1696005",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMP Limited has filed a routine buy-back update notification, consistent with its ongoing on-market share repurchase programme — part of AMP's broader capital management framework following asset divestments and balance sheet restructuring.",
+        "AMP's buy-back programme has been a key pillar of its shareholder returns strategy post-divestiture of its asset management and infrastructure businesses; continued execution signals management's view that the stock remains undervalued relative to underlying capital position.",
+        "The non-market-sensitive classification confirms this is a procedural lodgement with no change to guidance or buy-back parameters; the filing alone is unlikely to move the stock but reinforces the consistent capital return narrative."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "REC",
       "company": "RECHARGE METALS LIMITED",
