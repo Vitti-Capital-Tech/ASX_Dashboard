@@ -1,9 +1,354 @@
 {
   "date": "2026-09-07",
-  "total": 332,
-  "market_sensitive_count": 86,
-  "generated_at": "2026-09-07T01:37:02.607184+00:00",
+  "total": 350,
+  "market_sensitive_count": 89,
+  "generated_at": "2026-09-07T02:33:59.780660+00:00",
   "announcements": [
+    {
+      "ticker": "MIO",
+      "company": "MACARTHUR MINERALS LIMITED",
+      "headline": "Proposed issue of securities - MIO",
+      "time": "2026-09-07T02:24:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132512-6A1342491",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Macarthur Minerals has lodged a proposed securities issuance notice, indicating an imminent capital raise that will result in shareholder dilution — a recurring theme for this early-stage iron ore and lithium explorer.",
+        "Without disclosed pricing or quantum, the dilution impact is unquantified, but given MIO's exploration-stage status and limited cash generation, the raise is likely essential for continued project advancement, particularly at its Lake Giles Iron Project.",
+        "Investors should watch for the subsequent Appendix 3B to determine placement price (and implied discount to market), the identities of incoming investors, and whether the raise is sufficient to fund the next meaningful exploration or feasibility milestone."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SRV",
+      "company": "SERVCORP LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-07T02:24:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132511-2A1695696",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director of Servcorp has changed their interest in securities, which is a routine disclosure requirement under ASX Listing Rules and carries no direct operational significance for the company.",
+        "The direction of the transaction (acquisition vs. disposal) is the key signal — on-market buying by an insider can reflect confidence in the business outlook, while selling may indicate personal liquidity needs or reduced conviction, though neither is conclusive.",
+        "Given Servcorp's ongoing execution across its global flexible workspace footprint, any material director buying would be a modestly positive sentiment indicator; however, absent unusual scale, this filing is procedural in nature."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EAR",
+      "company": "PIMCO SHORT TERM ACTIVE YIELD ACTIVE ETF",
+      "headline": "PIMCO ETF August Redemptions, NAV and OTC Notification",
+      "time": "2026-09-07T02:23:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132510-2A1695695",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PIMCO's monthly ETF operational update covering August redemptions, NAV, and OTC notification for the EAR short-term active yield ETF is purely administrative and reflects standard fund management housekeeping.",
+        "NAV and redemption disclosures confirm the ETF's unit economics are functioning as designed; any significant divergence between NAV and market price (premium/discount) would be the only material signal worth monitoring for arbitrage or liquidity risk.",
+        "For institutional holders, this filing reaffirms operational continuity of the fixed-income ETF wrapper — no strategic or pricing catalyst is embedded in this announcement."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DGL",
+      "company": "DGL GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice - Simon Henry",
+      "time": "2026-09-07T02:19:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132509-3A701198",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "DGL Group CEO Simon Henry has filed a change of director's interest notice, requiring market participants to assess whether this reflects insider accumulation or disposal of DGL shares at current price levels.",
+        "As a founder-led industrial chemicals and logistics business, Henry's personal trading activity carries above-average signal value — sustained on-market buying by a founder-CEO often reflects strong conviction in near-term earnings delivery.",
+        "This is a compliance-driven disclosure; without detail on transaction direction and quantum, the filing is procedurally neutral, but the specifics (once parsed) could modestly shift sentiment given DGL's recent operational focus on margin recovery."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TCF",
+      "company": "360 CAPITAL MORTGAGE REIT",
+      "headline": "Update - Dividend/Distribution - TCF",
+      "time": "2026-09-07T02:17:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132508-2A1695694",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "360 Capital Mortgage REIT has issued an update to its previously announced distribution for TCF unitholders, suggesting a revision — either upward or downward — to the quantum or timing of the declared dividend.",
+        "For income-focused investors, any reduction to the distribution would signal deterioration in the mortgage portfolio's cash generation or credit quality, while an increase would be a modest positive re-rating catalyst for this yield vehicle.",
+        "Given the current elevated interest rate environment, investors should scrutinise whether the update reflects changes in underlying loan book performance, credit provisioning requirements, or capital management priorities that may affect future distribution sustainability."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AEV",
+      "company": "AVENIRA LIMITED",
+      "headline": "Update - Proposed issue of securities - AEV",
+      "time": "2026-09-07T02:12:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132507-6A1342488",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Avenira Limited has filed an update to a previously announced proposed securities issuance, indicating a modification to the terms, timing, or structure of a planned capital raise — which may reflect changed market conditions or investor feedback.",
+        "Any amendment to an already-announced securities issue warrants scrutiny: if the update involves a price reduction or extended timetable, it signals weak demand and is dilutive to existing holders; a completed raise at original terms would be more constructive.",
+        "With Avenira advancing its Baobab phosphate project in Senegal, capital availability is existential — investors should determine whether this update secures adequate funding runway for the next project development phase or represents a setback to the financing timeline."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TGF",
+      "company": "TRIBECA GLOBAL NATURAL RESOURCES LIMITED",
+      "headline": "Estimated Weekly NTA as of 04 September 2026",
+      "time": "2026-09-07T02:05:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132506-2A1695693",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "TGF's weekly NTA disclosure is a routine regulatory requirement for listed investment companies, offering unitholders a real-time pulse on portfolio valuation against natural resources commodity price movements.",
+        "As a global natural resources LIC, NTA fluctuations are closely tied to commodity cycles — any material deviation from prior weeks could signal meaningful mark-to-market shifts in underlying mining, energy, or agriculture holdings.",
+        "Investors should track NTA vs. share price to assess premium/discount dynamics; a widening discount could present a tactical entry opportunity or signal softening sentiment toward the natural resources sector broadly."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RCT",
+      "company": "REEF CASINO TRUST",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-09-07T02:03:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132505-2A1695692",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has dropped below the 5% disclosure threshold in Reef Casino Trust, signalling a meaningful reduction in a major investor's exposure to the stock.",
+        "The exit of a substantial holder can reduce liquidity support and may indicate diminished institutional conviction in RCT's near-term distribution or operational outlook.",
+        "Investors should monitor whether this disposal is isolated or part of a broader sector rotation away from gaming/hospitality trusts, which could weigh on RCT's unit price."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "Zenith Minerals - Seventh Extension of Offer Period",
+      "time": "2026-09-07T02:02:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132504-6A1342487",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Zenith Minerals has extended its takeover offer for Forrestania Resources for a seventh time, strongly suggesting the offeror has not yet secured sufficient acceptances to reach the minimum acceptance condition — a telling signal of target shareholder resistance.",
+        "Repeated extensions typically erode deal momentum and can signal that the bid price is perceived as inadequate by the market, potentially setting the stage for a revised (higher) offer or ultimate withdrawal.",
+        "For FRS holders, the critical 'so what' is whether Zenith will be forced to sweeten the offer terms or walk away — either outcome materially impacts FRS valuation; holders should watch for any condition waivers or price revisions in the coming days."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VIT",
+      "company": "VITURA HEALTH LIMITED",
+      "headline": "Doctors on Demand Update",
+      "time": "2026-09-07T01:59:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132503-3A701197",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Vitura Health's update on Doctors on Demand — its telehealth platform — is market sensitive, suggesting a material development such as a significant change in patient volumes, revenue contribution, or strategic direction for this key growth asset.",
+        "Doctors on Demand has been a central pillar of Vitura's diversification beyond cannabis dispensing; any operational setback or partnership change would disproportionately impact the company's growth narrative and near-term revenue trajectory.",
+        "Investors should assess whether this update signals a scaling acceleration or a restructuring/wind-down of the platform, as the outcome will directly influence consensus revenue forecasts and the stock's premium-to-peers valuation."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EPY",
+      "company": "EARLYPAY LTD",
+      "headline": "Change of Director's Interest Notice - MS",
+      "time": "2026-09-07T01:56:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132502-2A1695691",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director's interest notice for EarlyPay signals a change in a named director's (MS) shareholding, which could reflect an on-market purchase, sale, or vesting of performance rights — the direction of change is the critical signal.",
+        "Director selling in a small-cap fintech such as EPY can weigh on sentiment given limited liquidity, while accumulation at current prices would signal insider confidence in the company's invoice financing growth trajectory.",
+        "Investors should cross-reference this notice against EPY's recent financial performance and any outstanding capital management activities to contextualise whether the transaction reflects conviction or routine portfolio rebalancing."
+      ],
+      "tags": [
+        "Finance",
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NAB",
+      "company": "NATIONAL AUSTRALIA BANK LIMITED",
+      "headline": "Interest Payment Dates and Record Dates - NABHK",
+      "time": "2026-09-07T01:54:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132501-3A701196",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "NAB's announcement of interest payment and record dates for its NABHK hybrid/debt security is a standard administrative disclosure, confirming scheduled coupon payments to eligible holders on record.",
+        "For fixed-income investors, confirmation of payment dates provides certainty around cash flow timing — important for portfolio income planning, particularly in a higher-rate environment where hybrid yields remain competitively attractive.",
+        "No credit risk or structural concerns are implied; this is procedural compliance that reinforces NAB's ongoing servicing of its hybrid capital stack, consistent with investment-grade obligations."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXN",
+      "company": "DXN LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-07T01:51:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132500-3A701195",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DXN's cleansing notice is a mandatory ASX disclosure issued following a capital raise conducted without a product disclosure statement, confirming that all material information is now publicly available to new shareholders.",
+        "The issuance of a cleansing notice confirms that a capital raise has recently been completed — a meaningful event for DXN, a data centre infrastructure company, as new funds likely support facility expansion or operational scaling.",
+        "While dilutive in nature, the successful completion of a raise without a full PDS suggests the placement was executed with sophisticated/institutional investors, implying credible demand and reasonable pricing discipline."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXN",
+      "company": "DXN LIMITED",
+      "headline": "Application for quotation of securities - DXN",
+      "time": "2026-09-07T01:44:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132499-3A701194",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DXN's application to quote new securities on the ASX is the direct follow-through from its recently completed capital raise, formalising the listing of newly issued shares and making them tradeable on-market.",
+        "The quantum of new securities being quoted will determine the extent of dilution — investors should assess the number of shares issued relative to DXN's existing capital base to quantify earnings-per-share impact.",
+        "Near-term selling pressure is possible as new institutional placees may look to trade around their entry price; however, if proceeds are deployed into high-growth data centre assets, medium-term upside could offset dilution concerns."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PL8",
+      "company": "PLATO INCOME MAXIMISER LIMITED.",
+      "headline": "Dividend/Distribution - PL8",
+      "time": "2026-09-07T01:44:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132498-2A1695689",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Plato Income Maximiser (PL8) has declared a dividend/distribution, consistent with its mandate as an income-focused LIC designed to maximise after-tax returns for retirees and SMSF investors through active franking credit harvesting.",
+        "The quantum and franking level of this distribution are the key metrics — fully franked dividends carry significant gross yield uplift for tax-exempt investors, and any increase in per-unit distribution would be a positive signal for the fund's income generation capability.",
+        "PL8's ability to consistently deliver monthly or regular distributions reinforces its appeal in a yield-seeking market; investors should compare the annualised distribution yield against the current NTA to assess value relative to peers."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SLD",
+      "company": "SALUDA MEDICAL, INC.",
+      "headline": "CEO Transition",
+      "time": "2026-09-07T01:43:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132497-2A1695690",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A CEO transition at Saluda Medical — a high-growth medical device company focused on closed-loop spinal cord stimulation — introduces meaningful leadership uncertainty at a critical commercial expansion phase.",
+        "Leadership changes at this stage of Saluda's commercialisation cycle carry elevated risk; the outgoing CEO's strategic relationships with payers, hospital networks, and regulatory bodies are not easily transferred, and any execution gap could delay revenue ramp.",
+        "The key investor question is whether this is a planned succession (less disruptive) or an abrupt departure — the nature and terms of the transition, plus the incoming leader's medtech credentials, will determine whether the market treats this as a headwind or a catalyst for re-rating."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PPT",
+      "company": "PERPETUAL LIMITED",
+      "headline": "Notification of cessation of securities - PPT",
+      "time": "2026-09-07T01:39:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132496-2A1695688",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Perpetual's notification of cessation of securities typically relates to the lapsing or cancellation of performance rights, options, or other equity instruments that failed to meet vesting conditions or were forfeited upon executive departure.",
+        "Security cessations reduce potential future dilution from equity compensation schemes — a modestly positive technical outcome for existing shareholders, though the absolute impact depends on the volume and strike price of extinguished instruments.",
+        "In the context of PPT's ongoing corporate transformation and asset management restructuring, the cessation of executive incentive securities may also reflect leadership changes or performance targets not being met, warranting closer scrutiny."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance",
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LSX",
+      "company": "LION SELECTION GROUP LIMITED.",
+      "headline": "Net Tangible Asset Backing as at 31 August 2026",
+      "time": "2026-09-07T01:35:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132495-3A701193",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Lion Selection Group's NTA disclosure as at 31 August 2026 provides the market with an updated valuation of its portfolio of mining investments, serving as the primary benchmark against which LSX's share price is assessed.",
+        "As a mining-focused investment vehicle with exposure to pre-production and development-stage assets, LSX's NTA is highly sensitive to commodity price moves, project milestones, and any write-downs or revaluations of unlisted holdings.",
+        "Investors should compare the reported NTA per share against the prevailing share price to identify discount or premium dynamics — a persistent discount may indicate a lack of near-term catalysts, while a narrowing discount could signal improving portfolio sentiment."
+      ],
+      "tags": [
+        "Mining",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ION",
       "company": "IONDRIVE LIMITED",
