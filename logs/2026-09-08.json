@@ -1,9 +1,565 @@
 {
   "date": "2026-09-08",
-  "total": 207,
-  "market_sensitive_count": 54,
-  "generated_at": "2026-09-08T00:00:06.650962+00:00",
+  "total": 236,
+  "market_sensitive_count": 55,
+  "generated_at": "2026-09-08T00:57:55.502601+00:00",
   "announcements": [
+    {
+      "ticker": "S32",
+      "company": "SOUTH32 LIMITED",
+      "headline": "Appendix 3Y - Jane Nelson",
+      "time": "2026-09-08T00:54:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133040-6A1342736",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Appendix 3Y for South32 director Jane Nelson is a routine disclosure of a change in a director's interests, carrying no immediate financial or strategic implications for S32's investment thesis.",
+        "As a large-cap diversified miner, S32's share price is insulated from minor director interest filings; however, institutional investors routinely monitor these for patterns of insider buying or selling that may precede strategic announcements.",
+        "No action required at this stage — this is a compliance-driven filing with negligible market impact; focus remains on S32's operational guidance, commodity price exposure (aluminium, copper, manganese), and capital allocation decisions."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WNX",
+      "company": "WELLNEX LIFE LIMITED",
+      "headline": "Results of Meeting",
+      "time": "2026-09-08T00:42:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133039-3A701284",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Wellnex Life's Results of Meeting filing confirms the outcome of a shareholder vote — passage or failure of resolutions will determine whether planned capital, governance, or strategic initiatives can proceed, making the detail of individual resolution outcomes critical.",
+        "For a small-cap consumer health company like WNX, AGM resolution outcomes (particularly around capital issuance, director elections, or remuneration reports) directly affect management's operational flexibility and market credibility.",
+        "Investors should review whether all resolutions passed without significant protest votes (>25% against remuneration report would trigger a 'first strike'), as any governance friction could weigh on sentiment in an already thinly traded stock."
+      ],
+      "tags": [
+        "AGM",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "POL",
+      "company": "POLYMETALS RESOURCES LTD",
+      "headline": "Appendix 4G",
+      "time": "2026-09-08T00:35:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133038-2A1696062",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Polymetals Resources' Appendix 4G filing is a mandatory corporate governance checklist submission accompanying its annual report, confirming compliance with ASX Corporate Governance Principles — a procedural obligation with no direct earnings or valuation impact.",
+        "The filing signals POL has met its annual reporting cycle obligations, which is a positive hygiene indicator for a resources company navigating potential project development or capital raising phases where governance credibility matters to institutional investors.",
+        "As one of three simultaneous POL filings, this should be read in conjunction with the Annual Report and Corporate Governance Policy releases to form a complete picture of the company's governance posture and financial position heading into the new reporting period."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FLC",
+      "company": "FLUENCE CORPORATION LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-08T00:33:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133037-3A701283",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Fluence Corporation's Change of Director's Interest Notice is a routine administrative filing disclosing a movement in a director's shareholding in FLC — standard compliance with ASX Listing Rule 3.19A with no immediate market impact.",
+        "The nature of the transaction (on-market purchase, disposal, or vesting of performance rights) carries interpretive weight: director buying in a water/wastewater technology company with global project exposure signals conviction, while selling may prompt scrutiny.",
+        "FLC operates in a high-growth infrastructure sector; any pattern of insider accumulation would be a constructive signal given the company's ongoing project pipeline execution and cash management challenges typical of growth-stage technology firms."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BAS",
+      "company": "BASS OIL LIMITED",
+      "headline": "PESA NSW/ACT Presentation incl Triassic Study Update",
+      "time": "2026-09-08T00:32:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133036-3A701282",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bass Oil's market-sensitive PESA presentation signals a potentially material update on its Triassic play study, suggesting the company may be repositioning its NSW/ACT acreage narrative for institutional and technical audiences — elevated scrutiny warranted.",
+        "The Triassic study update could redefine the geological risk-reward profile of BAS's onshore Australian assets; positive technical findings would materially upgrade the prospectivity case and attract farm-in or JV interest from larger E&P players.",
+        "Next steps hinge on the quality of the subsurface data disclosed — if the study confirms viable Triassic targets, a formal exploration programme or capital raise to fund drilling could follow, making this a key catalyst watch for speculative energy investors."
+      ],
+      "tags": [
+        "Energy",
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "POL",
+      "company": "POLYMETALS RESOURCES LTD",
+      "headline": "Corporate Governance Policy",
+      "time": "2026-09-08T00:32:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133035-2A1696061",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Polymetals Resources' publication of a Corporate Governance Policy is a proactive governance disclosure, likely timed with annual reporting obligations, and signals the company is aligning its governance framework with ASX best-practice recommendations.",
+        "For a junior resources company, a formalised and publicly disclosed governance policy enhances credibility with institutional investors and ESG-focused funds, which is increasingly important for securing project financing and attracting quality board talent.",
+        "Read alongside the Appendix 4G and Annual Report filings released simultaneously, this positions POL as a governance-compliant junior miner — a baseline requirement but not a standalone catalyst for share price movement."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SFI",
+      "company": "SEED FINANCIAL INCOME FUND ACTIVE ETF",
+      "headline": "Monthly Report - August 2026",
+      "time": "2026-09-08T00:29:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133034-2A1696060",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Seed Financial Income Fund Active ETF (SFI) Monthly Report for August 2026 provides a performance and portfolio transparency update for unit holders — a standard periodic disclosure for an actively managed fixed income/income-focused ETF.",
+        "Key metrics to assess from the report include net return versus benchmark, distribution yield, portfolio duration, credit quality distribution, and any shift in asset allocation that may signal a changed macro or credit outlook from the fund manager.",
+        "For investors in or evaluating SFI, the August report will indicate how the fund navigated prevailing interest rate and credit market conditions; active management premium is only justified if risk-adjusted returns are consistently outperforming passive income alternatives."
+      ],
+      "tags": [
+        "Finance",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "POL",
+      "company": "POLYMETALS RESOURCES LTD",
+      "headline": "Annual Report to shareholders",
+      "time": "2026-09-08T00:29:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133033-2A1696059",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Polymetals Resources' Annual Report is the most substantive of its three simultaneous filings, providing full-year financial statements, auditor's report, reserves/resources updates, and management commentary — the primary document for fundamental valuation work on POL.",
+        "Critical data points to extract include cash and equivalents (cash runway), exploration expenditure, any impairments to mineral assets, going concern disclosures, and progress on the flagship project(s) — all of which will anchor or reset institutional valuation models.",
+        "The simultaneous release of the Annual Report, Appendix 4G, and Corporate Governance Policy in a single session suggests a well-coordinated annual reporting close-out; investors should focus on whether the balance sheet supports the next phase of exploration or development without imminent dilutive capital raising."
+      ],
+      "tags": [
+        "Results",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ID8",
+      "company": "IDENTITII LIMITED",
+      "headline": "Revised Timetable - Bonus Options and Piggyback Options",
+      "time": "2026-09-08T00:28:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133032-2A1696058",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Identitii has revised the timetable for its Bonus Options and Piggyback Options program, indicating administrative delays that extend the timeline for potential capital conversion events.",
+        "The revision carries no immediate cash or revenue impact, but delays the window in which option holders can exercise, deferring any potential dilution or capital inflow from conversions.",
+        "Investors should monitor the updated key dates closely — any further timetable slippage could signal execution risk at the operational level, which is a concern for a small-cap fintech with limited float liquidity."
+      ],
+      "tags": [
+        "Other",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CLV",
+      "company": "CLOVER CORPORATION LIMITED",
+      "headline": "Clover FY26 Results Briefing Date",
+      "time": "2026-09-08T00:26:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133031-2A1696057",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Clover Corporation has confirmed the date for its FY26 results briefing, signalling management is on track with its reporting schedule — a positive procedural signal for governance and investor relations.",
+        "As a specialty nutrition company (DHA/omega-3 encapsulation), the FY26 briefing will be a critical event for assessing margin recovery amid ongoing input cost pressures and global infant formula demand trends.",
+        "Institutional investors should flag the briefing date as a key catalyst event — prior FY results have moved the stock materially, and any commentary on contract renewals or geographic expansion could be highly price-sensitive."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BSR",
+      "company": "BISON RESOURCES LIMITED",
+      "headline": "Half Yearly Report and Accounts",
+      "time": "2026-09-08T00:24:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133030-6A1342735",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Bison Resources has released its half-yearly report, providing a financial snapshot for a junior resources company that likely remains pre-revenue and dependent on cash reserves to fund exploration activities.",
+        "Key metrics to scrutinise include the cash burn rate, working capital position, and any updates to the carrying value of exploration assets — impairments or low cash runway would be significant red flags for continuity of operations.",
+        "As a small-cap explorer, the half-year report will set market expectations for whether a capital raise is imminent; investors should assess the current cash balance against the stated exploration program commitments for the second half."
+      ],
+      "tags": [
+        "Mining",
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CR3",
+      "company": "CORE ENERGY MINERALS LTD",
+      "headline": "Investor Presentation - Nova JV Namibia",
+      "time": "2026-09-08T00:22:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133029-2A1696055",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Core Energy Minerals has released an investor presentation on its Nova Joint Venture project in Namibia, a jurisdiction that has gained significant strategic relevance given the global race for critical minerals and uranium resources.",
+        "The presentation is likely aimed at attracting JV partners or institutional interest, with Namibia's tier-1 mining jurisdiction status (home to major uranium and rare earth projects) providing a credible geopolitical and geological backdrop.",
+        "Near-term catalysts will hinge on whether the presentation reveals new resource estimates, drill results, or partnership discussions — without hard data upgrades, such presentations typically have limited sustained price impact for micro-cap explorers."
+      ],
+      "tags": [
+        "Mining",
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst CSL Instalments Dividend Estimated Amount",
+      "time": "2026-09-08T00:22:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133028-2A1696056",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CTW (CitiFirst) has published an estimated dividend amount for CSL Instalments, a structured product that passes through CSL's underlying dividend to instalment holders — this is a mechanical, pass-through administrative notice.",
+        "The estimated amount allows instalment holders to plan for the cash flow component of their leveraged CSL exposure, with the final amount subject to confirmation closer to the ex-dividend date.",
+        "This announcement has no direct impact on CSL's (CSL.ASX) share price or CTW's own financial performance; it is purely a product administration disclosure required under ASX listing rules."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst CSL Instalment MINIs Dividend Estimated Amount",
+      "time": "2026-09-08T00:21:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133027-2A1696054",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst has disclosed an estimated dividend amount for its CSL Instalment MINIs product, a leveraged structured product with a closer-to-expiry financing structure compared to standard instalments.",
+        "MINIs carry higher leverage and potentially higher dividend adjustment sensitivity than standard instalments, making the estimated dividend amount a key input for traders managing short-term positions in CSL-linked structured products.",
+        "As with all CitiFirst product disclosures of this type, the announcement is procedural and has no valuation impact on CTW or CSL directly; it fulfils continuous disclosure obligations for structured product issuers."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BWF",
+      "company": "BLACKWALL LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-08T00:16:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133026-2A1696052",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director of Blackwall Limited has lodged a Change of Director's Interest Notice, indicating a change in their direct or indirect shareholding — the direction (buy or sell) is the critical detail for sentiment assessment.",
+        "Director buying in a small-cap property and fund management company like Blackwall is typically a bullish signal of insider confidence, while selling may raise concerns about valuation or insider outlook, particularly in a challenged commercial property environment.",
+        "While individually modest in dollar terms at the micro-cap level, persistent director accumulation or disposal patterns over time are a meaningful leading indicator of management conviction and should be tracked cumulatively."
+      ],
+      "tags": [
+        "Board Change",
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Application for quotation of securities - PCI",
+      "time": "2026-09-08T00:16:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133025-2A1696053",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Perpetual Credit Income Trust (PCI) has applied for quotation of new securities on the ASX, indicating a capital raising or distribution reinvestment plan has resulted in new units requiring formal listing — a routine but important step for unit holders.",
+        "The application reflects ongoing capital activity within the trust, which invests in investment-grade credit and fixed income — in the current high-rate environment, demand for credit income products remains elevated, supporting the trust's asset gathering capacity.",
+        "For existing unit holders, the addition of new securities to the register is marginally dilutive unless issued at or above NTA; investors should verify the issue price relative to the prevailing NTA to assess accretion or dilution impact."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KSL",
+      "company": "KINA SECURITIES LIMITED",
+      "headline": "Update - Dividend/Distribution - KSL",
+      "time": "2026-09-08T00:15:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133024-2A1696051",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Kina Securities has issued an update to its previously announced dividend/distribution, suggesting a revision to the quantum or timing — the direction of the revision (upward or downward) is the most material detail for investor sentiment.",
+        "As a Papua New Guinea-based banking and financial services group, Kina's dividend capacity is closely tied to PNG kina/AUD exchange rate dynamics, regulatory capital requirements under BPNG rules, and loan book performance in a frontier market.",
+        "A downward revision to the dividend would be a near-term negative catalyst, potentially reflecting earnings pressure or capital retention priorities; an upward revision would reinforce the investment case for income-focused investors in this higher-yielding small-cap."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst CSL SFIs Dividend Estimated Amount",
+      "time": "2026-09-08T00:12:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133023-2A1696049",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst has disclosed an estimated dividend amount for its CSL Self-Funding Instalments (SFIs), a product structure where dividends received are used to partially fund the outstanding loan component, reducing the instalment balance over time.",
+        "The SFI structure makes the dividend quantum particularly significant as it directly affects the loan reduction schedule and the effective leverage of the product — a higher-than-expected dividend accelerates deleveraging for SFI holders.",
+        "This is a standard structured product administration disclosure with no valuation impact on CSL or CTW; it is required under ASX market rules governing instalment warrant and structured product issuers."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AN3",
+      "company": "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED.",
+      "headline": "AN3 - wholesale debt AN3HBC - interest payment details",
+      "time": "2026-09-08T00:11:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133022-3A701281",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ANZ's AN3HBC wholesale debt interest payment notice confirms scheduled coupon servicing on its hybrid/subordinated debt instrument, signalling no disruption to debt obligations.",
+        "Routine interest payment details on wholesale debt carry no valuation surprise but reinforce ANZ's ongoing commitment to capital market obligations — relevant for fixed-income holders monitoring credit quality.",
+        "No action required for equity investors; this is an administrative disclosure for bondholders, with no read-through to ANZ Group earnings or near-term capital allocation decisions."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AQZ",
+      "company": "ALLIANCE AVIATION SERVICES LIMITED",
+      "headline": "Change in substantial holding - Kiowa",
+      "time": "2026-09-08T00:11:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133020-2A1696050",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding by Kiowa in Alliance Aviation Services (AQZ) signals a shift in a major shareholder's registered position, which warrants attention given AQZ's ongoing strategic dynamics including its relationship with Qantas.",
+        "Depending on the direction of the change (increase or decrease), this could indicate either accumulation ahead of a perceived catalyst or distribution reflecting reduced conviction — the directional move is critical for reading near-term institutional sentiment.",
+        "With AQZ operating in a capital-intensive, operationally leveraged sector, any meaningful shift in substantial holder composition can affect stock liquidity and signal M&A appetite, particularly given prior Qantas takeover discussions that remain unresolved."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst BXB SFIs Dividend",
+      "time": "2026-09-08T00:11:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133021-2A1696048",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst's BXB-linked Structured Finance Instruments (SFIs) have declared a dividend, representing a distribution pass-through from the underlying Brambles (BXB) exposure embedded in the structured product.",
+        "The dividend quantum and timing will determine the economic impact on SFI holders; investors should compare the distributed amount against the prevailing SFI price to assess yield competitiveness relative to direct BXB shareholding.",
+        "This is a mechanical, product-lifecycle event for Citi's structured product suite — no strategic implications for the broader market, but relevant for retail investors holding these instruments seeking income clarity."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OSM",
+      "company": "OSMOND RESOURCES LIMITED",
+      "headline": "Appendix 4G and Corporate Governance Statement",
+      "time": "2026-09-08T00:05:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133019-6A1342734",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Osmond Resources' filing of its Appendix 4G and Corporate Governance Statement fulfils ASX Listing Rule 4.10.3 requirements, confirming the company has met its annual governance disclosure obligations.",
+        "The Appendix 4G checklist maps OSM's practices against the ASX Corporate Governance Principles; any departures from recommendations ('if not, why not') warrant scrutiny given OSM's small-cap, early-stage mining profile.",
+        "Institutional investors should cross-reference the governance statement against board composition, audit committee independence, and risk management frameworks — areas where junior explorers frequently fall short of best practice."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MOT",
+      "company": "METRICS INCOME OPPORTUNITIES TRUST",
+      "headline": "Application for quotation of securities - MOT",
+      "time": "2026-09-08T00:03:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133018-2A1696047",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Metrics Income Opportunities Trust (MOT) has applied to quote new securities on the ASX, indicating a recent capital raise or distribution reinvestment has been completed and new units are being brought to market.",
+        "The quotation of additional MOT units expands the trust's tradeable float, which can improve liquidity for existing unitholders — a modest positive for a credit-focused income trust where secondary market liquidity is a persistent concern.",
+        "Investors should monitor the volume of new units being quoted relative to the trust's existing market cap; material dilution could pressure the unit price toward NAV or below if demand does not absorb supply efficiently."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst MINIs Cash Amounts for Stop Loss Event 7 Sep 26",
+      "time": "2026-09-08T00:03:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133017-2A1696046",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CitiFirst MINIs linked to an underlying asset have triggered a stop-loss event with a cash settlement date of 7 September 2026, meaning affected MINI holders will receive a residual cash amount rather than continued exposure.",
+        "The stop-loss event crystallises losses for leveraged MINI holders who were positioned on the wrong side of the barrier — the cash amount returned is typically a fraction of initial investment, underscoring the binary risk of leveraged structured products.",
+        "This event has no direct impact on the underlying ASX-listed company or broader market; it is a structured product lifecycle termination, but it signals volatility in the referenced underlying asset sufficient to breach the stop-loss barrier."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MXT",
+      "company": "METRICS MASTER INCOME TRUST",
+      "headline": "Application for quotation of securities - MXT",
+      "time": "2026-09-08T00:03:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133015-2A1696045",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Metrics Master Income Trust (MXT) has applied for quotation of new securities, consistent with ongoing capital deployment activity through its direct lending mandate — a sign of continued investor demand for private credit exposure.",
+        "New unit issuance under MXT supports the trust's ability to deploy capital into the private credit market; given MXT's track record of near-target RBA cash rate plus returns, incremental issuance is generally well-received by income-focused investors.",
+        "Investors should assess whether new units are being issued at or near NAV; issuance at a discount would be dilutive, while issuance at a premium signals strong secondary market demand and is accretive to existing unitholders."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FAL",
+      "company": "FALCON METALS LTD",
+      "headline": "Change in substantial holding - T Goyder",
+      "time": "2026-09-08T00:03:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133016-6A1342733",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding by T. Goyder — a high-profile Australian resources figure — in Falcon Metals (FAL) is a notable governance and sentiment signal, as Goyder-linked movements have historically preceded strategic corporate activity in junior miners.",
+        "The direction of the change (increase vs. decrease) will determine whether this represents insider conviction buying or profit-taking/portfolio rebalancing; either way, it shifts the register composition of a thinly traded junior explorer.",
+        "For speculative investors, monitoring whether this filing coincides with any exploration newsflow or capital structure changes at FAL is essential, as substantial holder movements in small-caps can amplify price volatility disproportionately."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OSM",
+      "company": "OSMOND RESOURCES LIMITED",
+      "headline": "Annual Report to Shareholders",
+      "time": "2026-09-08T00:02:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133014-6A1342732",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Osmond Resources' Annual Report provides the definitive summary of FY performance, cash position, exploration activity, and going-concern status — critical reading for assessing whether OSM has the runway to advance its resource projects.",
+        "Key metrics to extract: cash on hand versus quarterly burn rate, any impairment of exploration assets, and auditor's going-concern qualification — common red flags for junior explorers that can signal near-term capital raise necessity.",
+        "The annual report in conjunction with the Appendix 4G (Announcement #3) filed simultaneously suggests end-of-financial-year compliance housekeeping is complete; strategic outlook and reserve/resource updates within the report will be the primary valuation drivers."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGY",
+      "company": "ARGOSY MINERALS LIMITED",
+      "headline": "Share Purchase Plan (SPP) - Access Letter",
+      "time": "2026-09-07T23:59:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133013-6A1342731",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Argosy Minerals (AGY) is proceeding with a Share Purchase Plan (SPP), issuing access letters to eligible shareholders — this follows a likely prior institutional placement and allows retail investors to participate at the same or similar price.",
+        "The SPP represents potential dilution for non-participating shareholders; the attractiveness of the offer hinges on the SPP price relative to the current market price — a discount signals value, while an at-market or premium price may suppress take-up.",
+        "For a lithium-focused junior like AGY, capital raises are existential — the funds raised will be scrutinised for their ability to extend cash runway and advance the Rincon lithium project in Argentina amid a challenging lithium price environment."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "VSL",
+      "company": "VULCAN STEEL LIMITED",
+      "headline": "Change of Director's Interest Notice - Rhys Jones",
+      "time": "2026-09-07T23:58:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133012-2A1696044",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for Rhys Jones at Vulcan Steel (VSL) indicates a movement in his direct or indirect shareholding — whether an acquisition or disposal will determine the sentiment signal.",
+        "Director share transactions are closely watched as insider sentiment proxies; an on-market purchase by Jones would be a constructive signal for VSL given the steel distribution sector's sensitivity to construction and infrastructure demand cycles.",
+        "Investors should note the transaction size relative to Jones's total holding — a small administrative change (e.g. vesting of performance rights) carries less signal value than a discretionary open-market buy or sell of material size."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GDR",
       "company": "GOLDEN DRAGON MINING LTD",
