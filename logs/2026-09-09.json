@@ -1,9 +1,161 @@
 {
   "date": "2026-09-09",
-  "total": 128,
-  "market_sensitive_count": 37,
-  "generated_at": "2026-09-08T22:50:44.996406+00:00",
+  "total": 136,
+  "market_sensitive_count": 40,
+  "generated_at": "2026-09-08T22:59:46.198263+00:00",
   "announcements": [
+    {
+      "ticker": "SYR",
+      "company": "SYRAH RESOURCES LIMITED",
+      "headline": "Strategic Funding Proposals Implementation Update",
+      "time": "2026-09-08T22:57:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133412-3A701354",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Syrah Resources is navigating a critical funding juncture — the 'implementation update' label on a market-sensitive strategic funding announcement signals active negotiations are progressing, likely involving debt restructuring, equity raises, or offtake-linked financing for its Balama graphite operation and Vidalia active anode material facility.",
+        "The market-sensitive classification elevates urgency: any funding resolution is material given Syrah's well-documented cash burn at Vidalia and the broader headwinds facing battery anode materials amid subdued EV demand and low graphite prices compressing revenue visibility.",
+        "Investors should watch closely for confirmation of funding quantum, dilution risk, and whether US DoE loan facility conditions have been met — a successful funding close would be a significant de-risking event, while a failure or delay could threaten Vidalia's operational continuity."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OD6",
+      "company": "OD6 METALS LIMITED",
+      "headline": "BIG JIM ROCKET SPAR ULTRA HIGH-GRADE FLUORSPAR CORRIDOR",
+      "time": "2026-09-08T22:55:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133411-6A1342918",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "OD6 Metals has identified an 'ultra high-grade fluorspar corridor' at Big Jim Rocket Spar — fluorspar (fluorite) is a critical mineral with growing strategic importance for defence, semiconductors, and the energy transition, making corridor-scale high-grade discoveries genuinely significant for a junior explorer.",
+        "The market-sensitive flag suggests assay results or structural mapping data of material consequence have been released — 'ultra high-grade' language implies CaF₂ grades potentially exceeding 90%, which would position any future resource in the premium acid-grade or optical-grade categories commanding strong pricing.",
+        "The discovery's scale as a 'corridor' rather than a single zone is a key differentiator for resource growth potential; investors should focus on strike length, width, and upcoming drilling density to assess whether this can underpin a maiden JORC resource and attract strategic or offtake interest."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "E79",
+      "company": "E79 GOLD MINES LIMITED",
+      "headline": "Resources Rising Stars Conference Presentation",
+      "time": "2026-09-08T22:54:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133410-6A1342917",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "E79 Gold Mines is presenting at the Resources Rising Stars Conference — a non-market-sensitive investor presentation that signals management is actively engaging the retail and emerging institutional investor audience, a common tactic for small-cap explorers seeking profile and liquidity uplift.",
+        "While conference presentations rarely contain new material information, they can serve as a catalyst for renewed investor interest if key project milestones, exploration targets, or upcoming catalysts are highlighted compellingly to an engaged audience.",
+        "The absence of market sensitivity limits immediate trading impact; investors should review the presentation for any forward-looking drilling schedules, resource update timelines, or capital allocation guidance that may not have been previously communicated clearly to the market."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMP",
+      "company": "AMP LIMITED",
+      "headline": "Update - Notification of buy-back - AMP",
+      "time": "2026-09-08T22:52:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133409-2A1696229",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMP Limited is providing a routine buy-back notification update — on-market buy-backs are generally modestly supportive of EPS and signal management's view that the stock is undervalued relative to intrinsic worth, though the non-market-sensitive classification confirms no new material information is contained.",
+        "The continuity of AMP's buy-back program reflects disciplined capital management in the absence of large-scale M&A opportunities, and incrementally reduces share count, which is positive for remaining shareholders over time assuming the price paid represents fair or below-fair value.",
+        "At current AMP valuations, investors should track cumulative buy-back volumes and average purchase prices disclosed in these updates to assess the pace of capital return — if buy-back activity is accelerating, it may indicate management confidence ahead of an upcoming earnings or strategic update."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PIA",
+      "company": "PENGANA INTERNATIONAL EQUITIES LIMITED",
+      "headline": "NTA at 04.09.26 Pre-tax 123.84 Post-tax 120.70",
+      "time": "2026-09-08T22:52:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133408-2A1696228",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Pengana International Equities (PIA) discloses NTA per share of A$1.2384 (pre-tax) and A$1.2070 (post-tax) as at 4 September 2026 — a routine monthly NTA update that allows investors to assess the discount or premium at which PIA's shares trade relative to underlying portfolio value.",
+        "The pre-to-post-tax NTA gap of approximately 2.5% reflects embedded capital gains tax liabilities within the portfolio, a standard consideration for listed investment companies (LICs) and a metric that sophisticated investors use to gauge true net realisable value.",
+        "This is an administrative disclosure with no immediate valuation catalyst; however, persistent NTA discounts are a structural issue for LICs and could attract activist pressure or board consideration of discount-management mechanisms such as buy-backs or conversion to an ETF structure."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LRT",
+      "company": "LOWELL RESOURCES FUND",
+      "headline": "Application for quotation of securities - LRT",
+      "time": "2026-09-08T22:51:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133407-3A701353",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Lowell Resources Fund (LRT) has lodged an application for quotation of securities with ASX — this typically follows a capital raise (placement or rights issue) and signals that newly issued units are being brought onto the market for trading, increasing float and potentially creating short-term selling pressure from new holders.",
+        "The non-market-sensitive classification suggests this is a procedural post-raise step rather than the announcement of a new capital raise itself; investors should cross-reference with any recent LRT placement announcements to understand the price, size, and investor composition of the new securities.",
+        "For an unlisted managed fund like LRT that operates as a listed investment trust focused on resources, additional unit issuance reflects ongoing demand and is generally constructive for liquidity, though dilution impact on existing unitholders depends on the issue price relative to prevailing NTA."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TOR",
+      "company": "TORQUE METALS LIMITED..",
+      "headline": "RRS Gold Coast Investor Presentation",
+      "time": "2026-09-08T22:51:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133406-6A1342914",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Torque Metals is presenting at the Resources Rising Stars Gold Coast conference — a non-market-sensitive investor relations exercise aimed at raising profile among the retail and small-cap institutional audience, consistent with a junior explorer seeking to build awareness of its gold project pipeline.",
+        "Conference presentations for non-market-sensitive juniors rarely move the needle materially in isolation; however, they can serve as an important narrative-building exercise, particularly if Torque can articulate a clear pathway from current exploration results toward a resource definition or development decision.",
+        "Investors should review the presentation deck for any updates on drilling timelines, tenement strategy, or capital requirements not previously disclosed — in the absence of new technical data, the near-term share price impact is expected to be minimal."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AYT",
+      "company": "AUSTIN METALS LIMITED",
+      "headline": "Drilling Advances Gold Potential - Mt Sandy & Brunswick Hill",
+      "time": "2026-09-08T22:50:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133405-2A1696226",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Austin Metals reports drilling progress at two gold targets — Mt Sandy and Brunswick Hill — with the headline framing of 'advances gold potential' suggesting encouraging intersections rather than a definitive resource-defining result, keeping the market in a positive but speculative positioning.",
+        "The dual-target approach demonstrates portfolio diversification within the project but also implies capital is being spread across prospects; near-term re-rating will depend on the grade-width product of returned assays — intercepts above 10g/t·m would be considered material for a junior at this stage.",
+        "Next steps will centre on assay turnaround times, follow-up drill targeting, and whether either prospect demonstrates the continuity needed to progress toward a maiden resource estimate — without confirmed high-grade results, this remains an exploration-stage catalyst rather than a value-crystallising event."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ALL",
       "company": "ARISTOCRAT LEISURE LIMITED",
