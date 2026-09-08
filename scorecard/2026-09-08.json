@@ -1,40 +1,40 @@
 {
   "date": "2026-09-08",
-  "generated_at": "2026-09-08T17:43:37.516059+10:00",
+  "generated_at": "2026-09-08T18:46:40.743424+10:00",
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "stats": {
     "by_sentiment": {
       "bullish": {
-        "scored": 70,
+        "scored": 74,
         "correct": 31,
-        "wrong": 15,
-        "flat": 24,
-        "hit_rate": 67.4,
-        "avg_abnormal_pct": 2.75
+        "wrong": 17,
+        "flat": 26,
+        "hit_rate": 64.6,
+        "avg_abnormal_pct": 2.45
       },
       "bearish": {
-        "scored": 12,
+        "scored": 17,
         "correct": 7,
         "wrong": 4,
-        "flat": 1,
+        "flat": 6,
         "hit_rate": 63.6,
-        "avg_abnormal_pct": -4.43
+        "avg_abnormal_pct": -2.83
       },
       "neutral": {
-        "scored": 172,
-        "correct": 74,
+        "scored": 185,
+        "correct": 87,
         "wrong": 98,
         "flat": 0,
-        "hit_rate": 43.0,
-        "avg_abnormal_pct": 1.26
+        "hit_rate": 47.0,
+        "avg_abnormal_pct": 1.25
       }
     },
-    "spread_pct": 7.18,
-    "directional_hit_rate": 66.7,
-    "directional_scored": 57,
+    "spread_pct": 5.28,
+    "directional_hit_rate": 64.4,
+    "directional_scored": 59,
     "pending": 0,
-    "no_data": 34,
+    "no_data": 12,
     "conflicts": 2
   },
   "highlights": {
@@ -87,6 +87,15 @@
     ],
     "worst_calls": [
       {
+        "ticker": "EVR",
+        "company": "EV RESOURCES LTD",
+        "headline": "Vinatas Delivers 78.6% Sb Recovery and 68.3% Sb Concentrate",
+        "sentiment": "bullish",
+        "abnormal_pct": -11.5,
+        "return_pct": -12.5,
+        "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132986-6A1342722"
+      },
+      {
         "ticker": "YRL",
         "company": "YANDAL RESOURCES LIMITED",
         "headline": "Drilling Results Extend High-Grade Gold Domain at Arrakis",
@@ -121,15 +130,6 @@
         "abnormal_pct": -5.67,
         "return_pct": -6.67,
         "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132854-6A1342668"
-      },
-      {
-        "ticker": "TM1",
-        "company": "TERRA METALS LIMITED",
-        "headline": "SOUTHWEST RETURNS 14M @ 3.13G/T & 80M @ 1.30G/T 3E",
-        "sentiment": "bullish",
-        "abnormal_pct": -5.52,
-        "return_pct": -6.52,
-        "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03132820-6A1342678"
       }
     ]
   },
@@ -525,13 +525,13 @@
       "sentiment": "neutral",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.435,
+      "close": 0.435,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "correct"
     },
     {
       "ticker": "AMK",
@@ -715,13 +715,13 @@
       "sentiment": "bullish",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.093,
+      "close": 0.093,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "flat"
     },
     {
       "ticker": "RCT",
@@ -734,13 +734,13 @@
       "sentiment": "bearish",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 3.5,
+      "close": 3.5,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "flat"
     },
     {
       "ticker": "DTL",
@@ -791,13 +791,13 @@
       "sentiment": "bearish",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 3.5,
+      "close": 3.5,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "flat"
     },
     {
       "ticker": "SGL",
@@ -829,13 +829,13 @@
       "sentiment": "bullish",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.025,
+      "close": 0.025,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "flat"
     },
     {
       "ticker": "ATH",
@@ -1361,13 +1361,13 @@
       "sentiment": "neutral",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.38,
+      "close": 0.38,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "correct"
     },
     {
       "ticker": "CR3",
@@ -1722,13 +1722,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.185,
+      "close": 0.185,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "correct"
     },
     {
       "ticker": "AGY",
@@ -1931,13 +1931,13 @@
       "sentiment": "bearish",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 3.5,
+      "close": 3.5,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "flat"
     },
     {
       "ticker": "MTH",
@@ -2197,13 +2197,13 @@
       "sentiment": "bullish",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.04,
+      "close": 0.035,
+      "return_pct": -12.5,
+      "index_return_pct": -1.0,
+      "abnormal_pct": -11.5,
+      "verdict": "wrong"
     },
     {
       "ticker": "BTE",
@@ -2311,13 +2311,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.021,
+      "close": 0.021,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "correct"
     },
     {
       "ticker": "CUV",
@@ -2387,13 +2387,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.0065,
+      "close": 0.0065,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "correct"
     },
     {
       "ticker": "LRT",
@@ -2463,13 +2463,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.3,
+      "close": 0.3,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "correct"
     },
     {
       "ticker": "TTT",
@@ -2577,13 +2577,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.019,
+      "close": 0.019,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "correct"
     },
     {
       "ticker": "CAM",
@@ -2729,13 +2729,13 @@
       "sentiment": "bearish",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.019,
+      "close": 0.019,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "flat"
     },
     {
       "ticker": "PTX",
@@ -3546,13 +3546,13 @@
       "sentiment": "bearish",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.06,
+      "close": 0.06,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "flat"
     },
     {
       "ticker": "BXB",
@@ -3736,13 +3736,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.008,
+      "close": 0.008,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "correct"
     },
     {
       "ticker": "MCP",
@@ -4173,13 +4173,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.06,
+      "close": 0.06,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "correct"
     },
     {
       "ticker": "ABB",
@@ -4610,13 +4610,13 @@
       "sentiment": "bullish",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 12.16,
+      "close": 11.88,
+      "return_pct": -2.3,
+      "index_return_pct": -1.0,
+      "abnormal_pct": -1.3,
+      "verdict": "wrong"
     },
     {
       "ticker": "JHX",
@@ -5123,13 +5123,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.066,
+      "close": 0.066,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "correct"
     },
     {
       "ticker": "SET",
@@ -5218,13 +5218,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.006,
+      "close": 0.006,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "correct"
     },
     {
       "ticker": "SFY",
@@ -5503,13 +5503,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.053,
+      "close": 0.053,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "correct"
     },
     {
       "ticker": "SDF",
@@ -5541,13 +5541,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-08",
+      "prev_close": 0.066,
+      "close": 0.066,
+      "return_pct": 0.0,
+      "index_return_pct": -1.0,
+      "abnormal_pct": 1.0,
+      "verdict": "correct"
     },
     {
       "ticker": "DLY",
