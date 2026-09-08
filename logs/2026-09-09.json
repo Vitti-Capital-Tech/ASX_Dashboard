@@ -1,9 +1,377 @@
 {
   "date": "2026-09-09",
-  "total": 200,
-  "market_sensitive_count": 57,
-  "generated_at": "2026-09-08T23:31:30.518965+00:00",
+  "total": 219,
+  "market_sensitive_count": 63,
+  "generated_at": "2026-09-08T23:40:33.548259+00:00",
   "announcements": [
+    {
+      "ticker": "ASL",
+      "company": "ANDEAN SILVER LIMITED",
+      "headline": "Application for quotation of securities - ASL",
+      "time": "2026-09-08T23:37:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133495-6A1342947",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The application for quotation of securities by Andean Silver (ASL) is an administrative filing, likely relating to the issuance of new shares from a recent placement, rights issue, or option conversion — a routine step that confirms the capital raise process is progressing through exchange requirements.",
+        "While procedural in nature, the volume of securities being quoted will indicate the degree of dilution to existing holders; a large issuance relative to shares on issue could create short-term selling pressure as new holders enter the register.",
+        "No immediate strategic insight is derivable from this filing alone; investors should cross-reference with ASL's recent capital raise announcements to understand the context of the securities being admitted and any associated escrow or restriction periods."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EL8",
+      "company": "ELEVATE URANIUM LTD",
+      "headline": "Investor Webinar Registration Notification",
+      "time": "2026-09-08T23:35:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133494-6A1342939",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An investor webinar registration notification from Elevate Uranium is a standard investor relations activity with no direct financial or operational disclosure — classified as not market sensitive, confirming it contains no material non-public information at this stage.",
+        "The webinar may serve as a precursor to an operational update, drilling results, or strategic announcement; institutional investors should register to monitor whether management signals any upcoming catalysts, funding requirements, or project developments in the uranium space.",
+        "In the context of ongoing global uranium market tightness and elevated spot prices, any operational clarity from EL8 on project timelines or resource development could generate retail and institutional interest — making the webinar content worth monitoring despite its procedural filing status."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GML",
+      "company": "GATEWAY MINING LIMITED",
+      "headline": "Proposed issue of securities - GML",
+      "time": "2026-09-08T23:35:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133493-2A1696246",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Gateway Mining's proposed issue of securities notice is the administrative companion to its $45 million placement announced in item [1], confirming the ASX notification requirements are being met as the capital raise moves toward settlement and allotment.",
+        "This filing provides the formal record of the number of securities to be issued, the issue price, and the allotment date — key data points for calculating the exact dilution to existing GML shareholders and the effective discount to the pre-raise market price.",
+        "No new strategic information is expected from this document; however, the precise terms disclosed will allow analysts to finalise post-raise capital structure models and assess whether the placement price represents fair value or an opportunistic discount by lead managers."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "A8G",
+      "company": "AUSTRALASIAN METALS LIMITED",
+      "headline": "Proposed issue of securities - A8G",
+      "time": "2026-09-08T23:35:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133492-6A1342946",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Australasian Metals' proposed issue of securities is a standard ASX Appendix 3B or equivalent filing, indicating the company is issuing new shares, options, or other securities — likely tied to a placement, entitlement offer, or executive/advisor remuneration package.",
+        "For a small-cap metals explorer like A8G, any equity issuance warrants scrutiny of the terms, particularly the issue price relative to market and the use of proceeds, as dilution risk is amplified at low market capitalisation levels where each new share represents a higher proportional ownership reduction.",
+        "As a non-market-sensitive administrative filing, no immediate price catalyst is expected; investors should review the full Appendix 3B details when lodged to determine the securities count, pricing, and any associated conditions or escrow arrangements that may affect near-term liquidity."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GML",
+      "company": "GATEWAY MINING LIMITED",
+      "headline": "Successful $45 Million Placement Completed",
+      "time": "2026-09-08T23:35:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133491-2A1696240",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Gateway Mining has successfully completed a $45 million placement, a substantial capital injection relative to its junior miner status, materially strengthening its balance sheet and eliminating near-term funding risk for exploration and development activities.",
+        "The size of the raise signals strong institutional appetite for GML's asset base — a $45M placement is significant for a junior gold explorer and suggests lead managers secured meaningful cornerstone support, likely at a discount that will weigh on near-term price discovery.",
+        "Next steps will centre on deployment of proceeds into drilling or feasibility work; investors should scrutinise the use-of-funds breakdown and any conditions attached to the placement to assess capital efficiency and dilution impact on existing holders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGU",
+      "company": "MAGNUM MINING AND EXPLORATION LIMITED",
+      "headline": "Non-Deal Roadshow Presentation September 2026",
+      "time": "2026-09-08T23:35:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133490-6A1342945",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A non-deal roadshow (NDR) presentation marked as market sensitive suggests the accompanying materials contain operationally or financially material information beyond standard investor relations content — warranting close examination of any updated resource, financial, or strategic disclosures.",
+        "NDRs in September 2026 typically precede capital raises or major announcements; the market-sensitive classification elevates the probability that MGU is laying groundwork for a near-term transaction, partnership, or funding event that institutional investors should monitor closely.",
+        "Without access to the presentation content, the key watch item is whether MGU discloses updated project economics, a funding pathway, or a strategic partner — any of which would be a material re-rating catalyst for this small-cap mining and exploration company."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MTS",
+      "company": "METCASH LIMITED",
+      "headline": "2026 Annual General Meeting and Trading Update",
+      "time": "2026-09-08T23:34:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133489-2A1696256",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "A combined AGM and trading update from Metcash (MTS) carries elevated significance given the market-sensitive classification — the trading update component is likely to contain current-year revenue, volume, or margin guidance that will directly drive near-term earnings revisions across its Food, Liquor, and Hardware pillars.",
+        "Metcash operates in a competitive, margin-sensitive retail wholesale environment; any commentary on consumer spending trends, cost pressures, or the performance of IGA, Mitre 10, and Total Tools will be closely benchmarked against peers such as Woolworths and Wesfarmers by institutional holders.",
+        "Investors should focus on whether MTS reaffirms, upgrades, or downgrades prior guidance — even modest changes in EBIT margin assumptions have an outsized impact on valuation given the stock's relatively low earnings multiple and high dividend sensitivity."
+      ],
+      "tags": [
+        "AGM",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PDI",
+      "company": "PREDICTIVE DISCOVERY LIMITED",
+      "headline": "Closing Date for Director Nominations",
+      "time": "2026-09-08T23:34:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133488-6A1342944",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "PDI has set a formal closing date for director nominations, a routine governance process indicating the company is preparing for its upcoming AGM cycle.",
+        "No new director candidates or departures have been flagged in this notice, suggesting the current board composition is likely to remain stable in the near term.",
+        "Investors should monitor subsequent AGM notices for any shareholder-driven board challenges or strategic shifts in leadership at this West African gold explorer."
+      ],
+      "tags": [
+        "AGM",
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TSR",
+      "company": "TURNSTONE RESOURCES LTD",
+      "headline": "Cleansing Statement",
+      "time": "2026-09-08T23:34:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133487-6A1342943",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "TSR's cleansing statement is a regulatory requirement under ASX Listing Rule 3.10.3, typically issued following a placement to sophisticated or institutional investors to allow unrestricted on-sale of newly issued securities.",
+        "The filing confirms a recent capital raise has occurred, with the cleansing notice ensuring new shareholders are not restricted by disclosure obligations — a key liquidity enabler for placement participants.",
+        "Investors should cross-reference the placement size and price against TSR's current market capitalisation to assess the degree of dilution and implied confidence from institutional backers."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TMX",
+      "company": "TERRAIN MINERALS LIMITED",
+      "headline": "Proposed issue of securities - TMX",
+      "time": "2026-09-08T23:33:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133486-6A1342907",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "TMX has lodged an Appendix 3B for a proposed securities issuance, signalling an imminent capital raise that will result in dilution for existing shareholders.",
+        "The nature and pricing of the proposed issue — whether a placement, rights issue, or consideration shares — will be critical in determining the dilution impact and market reception.",
+        "This is the first of two identical filings (see also [4]), which may indicate separate tranches or security classes being issued, warranting close scrutiny of the total capital being raised."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TMX",
+      "company": "TERRAIN MINERALS LIMITED",
+      "headline": "Proposed issue of securities - TMX",
+      "time": "2026-09-08T23:33:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133484-6A1342906",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second Appendix 3B filing from TMX on the same day as [3] suggests the company is issuing multiple classes or tranches of securities, potentially including options or performance rights alongside ordinary shares.",
+        "Dual filings of this nature can indicate a structured capital raise with both shares and attaching options, a common structure for junior miners seeking to sweeten terms for investors.",
+        "Combined dilution from both tranches should be carefully modelled by existing shareholders; the lack of market-sensitive classification suggests the raise is within pre-approved capacity limits under ASX Listing Rules."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AKA",
+      "company": "AUREKA LIMITED",
+      "headline": "Invitation to Participate in Share Purchase Plan",
+      "time": "2026-09-08T23:33:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133485-3A701377",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Aureka Limited's Share Purchase Plan (SPP) invitation follows a likely prior placement, offering retail shareholders the opportunity to participate at the same or a fixed price — the market-sensitive flag suggests the SPP price or terms contain information not yet fully in the market.",
+        "SPPs are inherently dilutive but the degree of dilution depends on the maximum raise size and take-up rate; for a small-cap like AKA, even a modest SPP can materially increase shares on issue, pressuring the share price if priced at a discount to market.",
+        "Retail investors should assess the SPP price relative to the prevailing market price and the intended use of funds — if proceeds are directed at a defined catalyst (drilling, trial, or milestone), the SPP may represent a value entry point rather than pure dilution."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TMX",
+      "company": "TERRAIN MINERALS LIMITED",
+      "headline": "Gandel Metals Anchors Placement & Rights Issue @ 33% Premium",
+      "time": "2026-09-08T23:33:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133483-6A1342905",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "The involvement of Gandel Metals as an anchor investor at a 33% premium to market is a standout positive signal — strategic investors rarely pay a premium unless they have high conviction in asset value or expect a near-term re-rating event, lending significant external validation to Terrain Minerals' project portfolio.",
+        "A placement and rights issue combination at a premium is structurally unusual and highly bullish; it eliminates the typical dilution discount overhang, protects existing shareholders' interests via the rights issue component, and signals the company is in a position of negotiating strength rather than funding distress.",
+        "The key next steps are the terms and timeline of the rights issue, how proceeds will be deployed, and whether Gandel Metals' involvement brings strategic value beyond capital — such as offtake, operational expertise, or further cornerstone support — all of which would compound the re-rating opportunity."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WGB",
+      "company": "WAM GLOBAL LIMITED",
+      "headline": "WAM Global FY2026 Full Year Results Q&A Webinar",
+      "time": "2026-09-08T23:31:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133482-2A1696255",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "WAM Global (WGB) is hosting a Q&A webinar for its FY2026 full year results, providing retail and institutional investors direct access to management commentary on portfolio performance and outlook.",
+        "The scheduling of a dedicated investor Q&A following results release reflects Wilson Asset Management's active investor engagement approach, which can support sentiment and reduce information asymmetry.",
+        "Key areas to probe in the webinar include NAV performance versus benchmark, dividend sustainability, geographic allocation shifts, and any changes to the global equity investment thesis driving WGB's portfolio."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EBR",
+      "company": "EBR SYSTEMS INC.",
+      "headline": "Investor Roadshow",
+      "time": "2026-09-08T23:30:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133481-3A701376",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EBR Systems is conducting an investor roadshow, a proactive capital markets engagement activity typically preceding a capital raise, strategic announcement, or designed to rebuild/broaden institutional shareholder support.",
+        "As a US-based medical device company listed on the ASX, EBR's roadshow signals management is actively courting Australian institutional investors, which could support liquidity and valuation re-rating if traction is achieved.",
+        "Investors should watch for any concurrent material announcements — such as clinical trial updates for its WiSE cardiac resynchronisation technology — that may be driving the timing of this roadshow."
+      ],
+      "tags": [
+        "Healthcare",
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STK",
+      "company": "STRICKLAND METALS LIMITED",
+      "headline": "Application for quotation of securities - STK",
+      "time": "2026-09-08T23:29:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133480-6A1342942",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "STK has applied for quotation of new securities on the ASX, confirming that recently issued shares or options are now entering the market and will become tradeable, increasing the float.",
+        "The application for quotation follows a prior issuance event (placement, entitlement offer, or incentive securities) and represents the final step before new securities hit the market — a near-term supply overhang risk.",
+        "Existing STK shareholders should assess whether the newly quoted securities are subject to escrow restrictions or are freely tradeable, as unrestricted supply could create short-term selling pressure on the stock."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TSR",
+      "company": "TURNSTONE RESOURCES LTD",
+      "headline": "Application for quotation of securities - TSR",
+      "time": "2026-09-08T23:29:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133478-6A1342941",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "TSR's application for quotation of securities, filed alongside its cleansing statement ([2]), confirms the completion of a capital raise and signals that new shares are imminently entering the market.",
+        "The dual filing of a cleansing statement and quotation application on the same day is a clear indicator that a placement to sophisticated investors has settled and participants are now free to trade their shares.",
+        "The key risk for existing TSR shareholders is near-term selling pressure from placement participants looking to realise short-term gains, particularly if the placement was priced at a discount to market."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RYD",
+      "company": "RYDER CAPITAL LIMITED",
+      "headline": "August - Net Tangible Asset Backing",
+      "time": "2026-09-08T23:29:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133479-2A1696254",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "RYD has published its August Net Tangible Asset (NTA) backing per share, a routine monthly disclosure that provides the most current measure of intrinsic value for this listed investment company.",
+        "The NTA figure is the primary valuation anchor for LIC investors — the premium or discount to NTA at which RYD trades signals market sentiment and potential mean-reversion opportunities for value-oriented investors.",
+        "A rising NTA month-on-month would reflect positive portfolio performance in August, while a declining NTA would suggest headwinds in RYD's underlying equity holdings; the absolute figure and trend direction are key to monitoring."
+      ],
+      "tags": [
+        "Finance",
+        "Results",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OCN",
+      "company": "OCEANA METALS LIMITED",
+      "headline": "Maiden REE drilling campaign commenced at Serra Negra",
+      "time": "2026-09-08T23:29:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133477-6A1342940",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The commencement of a maiden REE (Rare Earth Elements) drilling campaign at Serra Negra is a tangible operational milestone for Oceana Metals, transitioning the project from desktop/geophysical assessment to in-ground data generation — a critical de-risking step that the market typically rewards in junior explorers.",
+        "Serra Negra's REE focus positions OCN within a strategically important and institutionally favoured commodity theme, given ongoing supply chain diversification away from Chinese REE dominance; even early-stage drill results could attract disproportionate investor attention relative to the company's market capitalisation.",
+        "Investors should track the drill program parameters — number of holes, target depth, and the specific REE suite being targeted (e.g. NdPr vs. heavy REEs) — as these will determine the scale of any discovery potential and the timeline to maiden resource estimation, which is the next major valuation catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "EL8",
       "company": "ELEVATE URANIUM LTD",
