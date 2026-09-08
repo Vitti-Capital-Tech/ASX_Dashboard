@@ -1,9 +1,67 @@
 {
   "date": "2026-09-08",
-  "total": 204,
-  "market_sensitive_count": 52,
-  "generated_at": "2026-09-07T23:53:44.695887+00:00",
+  "total": 207,
+  "market_sensitive_count": 54,
+  "generated_at": "2026-09-08T00:00:06.650962+00:00",
   "announcements": [
+    {
+      "ticker": "GDR",
+      "company": "GOLDEN DRAGON MINING LTD",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-09-07T23:56:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133011-3A701280",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Golden Dragon Mining (GDR), signalling that an investor has crossed the 5% ownership threshold — a legally mandated disclosure that warrants monitoring for potential strategic intent or activist positioning.",
+        "The identity and scale of the incoming substantial holder matters: if this represents a fresh institutional or sophisticated investor accumulating at current levels, it implies conviction in GDR's asset base or near-term catalysts that the broader market may be underpricing.",
+        "Next step for investors is to review the full 603 form for the holder's name, acquisition date, average entry price, and whether the stake was built on-market — any rapid accumulation could foreshadow a takeover approach, strategic partnership, or board-level engagement."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGY",
+      "company": "ARGOSY MINERALS LIMITED",
+      "headline": "SPP Offer Booklet and Options Prospectus",
+      "time": "2026-09-07T23:54:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133010-6A1342730",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Argosy Minerals (AGY) has launched a Share Purchase Plan (SPP) alongside an Options Prospectus, meaning existing retail shareholders are being offered the opportunity to participate in a capital raise — this is a market-sensitive dilutive event that warrants close scrutiny of the issue price relative to the prevailing share price.",
+        "The dual structure of an SPP plus options prospectus suggests AGY is seeking to raise capital while sweetening the deal with optionality to attract participation — investors should assess the SPP price discount, the options exercise price/expiry, and total funds targeted to determine the degree of dilution and whether proceeds adequately fund the company's lithium project advancement at Rincon, Argentina.",
+        "Key risk: if the SPP price is at a material discount and participation is high, near-term share price pressure is likely; conversely, if the raise is modestly sized and directed at a defined operational milestone (e.g. pilot plant or resource upgrade), the market may look through short-term dilution toward the strategic value being unlocked."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ROG",
+      "company": "RED SKY ENERGY LIMITED.",
+      "headline": "Yarrow 4 Intersects Gas Pay",
+      "time": "2026-09-07T23:53:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133009-3A701270",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Red Sky Energy's Yarrow 4 well has intersected gas pay — a technically significant result confirming the presence of hydrocarbons in a new well, which validates the geological model and materially de-risks the broader Yarrow project in the Cooper/Eromanga Basin.",
+        "The critical metrics investors will focus on are the thickness of the gas pay zone (measured depth and net pay), reservoir quality indicators (porosity, permeability), and whether the intersection meets or exceeds pre-drill prognosis — any outperformance versus expectations would be strongly re-rating catalyst for this small-cap energy stock.",
+        "Immediate next steps to watch include wireline logging results, flow testing or DST (Drill Stem Test) data, and management's commentary on commercialisation pathways — confirmation of commercial flow rates would escalate this from an exploration success to a near-term production and revenue story, significantly re-rating ROG's valuation."
+      ],
+      "tags": [
+        "Energy",
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "TGF",
       "company": "TRIBECA GLOBAL NATURAL RESOURCES LIMITED",
