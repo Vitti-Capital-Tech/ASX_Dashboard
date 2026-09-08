@@ -1,9 +1,225 @@
 {
   "date": "2026-09-08",
-  "total": 244,
-  "market_sensitive_count": 56,
-  "generated_at": "2026-09-08T01:32:28.878338+00:00",
+  "total": 255,
+  "market_sensitive_count": 58,
+  "generated_at": "2026-09-08T02:31:18.887577+00:00",
   "announcements": [
+    {
+      "ticker": "SGL",
+      "company": "RICEGROWERS LIMITED",
+      "headline": "Notification regarding unquoted securities - SGL",
+      "time": "2026-09-08T02:22:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133059-2A1696069",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ricegrowers Limited (SGL) has notified ASX of unquoted securities, a procedural filing typically relating to securities such as performance rights, options, or restricted shares issued to management or employees under an incentive plan.",
+        "This is a non-market-sensitive, administrative disclosure with no direct impact on SGL's earnings, cash position, or operational outlook — dilution risk from unquoted securities is generally modest and already anticipated under approved plans.",
+        "Institutional investors should monitor the volume and strike prices of any options or rights disclosed, as these provide indirect insight into board and management remuneration benchmarks and alignment with shareholder returns."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AIV",
+      "company": "ACTIVEX LIMITED",
+      "headline": "Exciting Rare Earth Element Results - Aramac Queensland",
+      "time": "2026-09-08T02:04:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133058-2A1696068",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "ActiveX has reported rare earth element (REE) results from its Aramac project in Queensland, flagged as market sensitive — suggesting assay grades or intercept widths are materially significant and likely above expectations or peer benchmarks.",
+        "Aramac sits within Queensland's emerging REE corridor; positive drill results could rapidly re-rate AIV given the critical minerals thematic driving institutional and government interest in domestic REE supply chains.",
+        "Near-term catalysts will centre on follow-up drilling programs, resource estimation timelines, and any strategic partnership or offtake discussions that positive results may accelerate — investors should watch for a resource upgrade announcement."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ATH",
+      "company": "ALTERITY THERAPEUTICS LIMITED",
+      "headline": "Cleansing Notice Under Section 708A",
+      "time": "2026-09-08T01:59:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133057-3A701289",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Alterity Therapeutics has lodged a cleansing notice under Section 708A of the Corporations Act, a legal mechanism that lifts the resale restrictions on shares issued without a prospectus — confirming a prior capital raise has been completed.",
+        "The cleansing notice itself is administrative, but it signals that newly issued shares are now freely tradeable, which can introduce near-term selling pressure as placement participants who received shares at a discount look to realise gains.",
+        "For ATH, a clinical-stage biotech, the key 'so what' is the use of proceeds from the associated raise — investors should cross-reference the placement announcement to assess whether funds extend the cash runway sufficiently to reach the next clinical or regulatory milestone."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "A1M",
+      "company": "AIC MINES LIMITED",
+      "headline": "Application for quotation of securities - A1M",
+      "time": "2026-09-08T01:58:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133056-6A1342743",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AIC Mines has applied for quotation of new securities on ASX, indicating the formal completion of a share issuance — most likely tied to a recent capital raise, option exercise, or employee incentive plan vesting.",
+        "This is a routine post-issuance administrative step; however, the quantum of new securities being listed for trading will determine the degree of near-term dilution and potential selling pressure on the A1M register.",
+        "Investors should confirm the nature of the securities (placement shares, rights issue, or options) and the issue price relative to the prevailing market price to assess whether arbitrage or overhang risk is material."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COD",
+      "company": "CODA MINERALS LTD",
+      "headline": "Application for quotation of securities - COD",
+      "time": "2026-09-08T01:54:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133055-6A1342742",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Coda Minerals has applied for quotation of new securities, a standard post-issuance administrative process signalling the completion of a prior capital raise or securities issuance event.",
+        "The filing itself carries no new operational or financial information, but it marks the point at which newly issued COD shares become tradeable — a key date for tracking potential supply-side pressure from placement investors.",
+        "Given Coda's focus on IOCG-style copper-gold assets in South Australia, investors should contextualise this capital event against the company's exploration program expenditure schedule and remaining cash runway."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AKA",
+      "company": "AUREKA LIMITED",
+      "headline": "Investor Update Webinar - Acquisition of High Grade Holdings",
+      "time": "2026-09-08T01:51:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133054-3A701288",
+      "market_sensitive": false,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Aureka Limited is hosting an investor webinar to detail its acquisition of High Grade Holdings, providing management's first structured opportunity to articulate the strategic and financial rationale for the deal to the market.",
+        "The M&A nature of the filing — combined with the webinar format — suggests the acquisition is of sufficient materiality to warrant active investor engagement, and key metrics to watch include purchase price, funding structure, asset quality, and earnings accretion timeline.",
+        "Post-webinar sentiment will be critical: if management can clearly demonstrate how High Grade Holdings enhances AKA's asset base or cash generation, a positive re-rating is plausible; weak justification or unfavourable deal terms could pressure the stock."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ESR",
+      "company": "ESTRELLA RESOURCES LIMITED",
+      "headline": "Cleansing notice under section 708A",
+      "time": "2026-09-08T01:45:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133053-6A1342741",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Estrella Resources has lodged a cleansing notice under Section 708A, confirming the legal completion of a share placement or issue that did not involve a prospectus, and enabling those shares to be freely on-sold.",
+        "For a small-cap explorer like ESR, cleansing notices follow capital raises that are typically deployed toward drilling or feasibility work — the strategic value lies entirely in what the raised capital funds rather than the notice itself.",
+        "Near-term share price dynamics may face modest headwinds as placement participants gain the ability to trade their discounted shares; investors should assess the placement price discount and lock-up period, if any, to gauge overhang risk."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BTX",
+      "company": "DIGITALX BITCOIN ETF",
+      "headline": "Fund Factsheet - August 2026",
+      "time": "2026-09-08T01:44:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133052-2A1696067",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DigitalX has released the August 2026 monthly factsheet for its Bitcoin ETF (BTX), providing a snapshot of fund performance, NAV, BTC holdings, and fee structure — a routine transparency document for ETF investors.",
+        "The factsheet's relevance to institutional investors is primarily benchmarking: BTX's performance relative to the spot Bitcoin price and competing crypto ETFs (domestic and international) will indicate whether the product is efficiently tracking its underlying asset.",
+        "No operational surprises are expected from a factsheet release; however, significant changes in funds under management (FUM) — either inflows or outflows — disclosed within the document could signal shifting retail and institutional appetite for crypto exposure via regulated vehicles."
+      ],
+      "tags": [
+        "Finance",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATH",
+      "company": "ALTERITY THERAPEUTICS LIMITED",
+      "headline": "Application for quotation of securities - ATH",
+      "time": "2026-09-08T01:41:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133051-3A701287",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Alterity Therapeutics has filed a second ASX announcement — an application for quotation of new securities — confirming that shares issued in the recent capital raise (referenced in announcement [4]) are now being admitted to official trading on the exchange.",
+        "The back-to-back filing of the cleansing notice and quotation application in the same session is standard procedural sequencing, but together they mark the full lifecycle completion of the capital raise — from issuance to free tradability.",
+        "The net impact on ATH's share price will depend on the placement price relative to market: a significant discount increases the probability of short-term profit-taking by placees, while a tight discount suggests stronger institutional conviction in the biotech's pipeline progress."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ESR",
+      "company": "ESTRELLA RESOURCES LIMITED",
+      "headline": "Application for quotation of securities - ESR",
+      "time": "2026-09-08T01:40:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133050-6A1342740",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Estrella Resources has lodged an application for quotation of new securities on the ASX, indicating a recent capital raise or share issuance event has been completed and securities are now moving toward official listing and trading eligibility.",
+        "The administrative nature of this filing suggests the underlying capital raise mechanics are already concluded — investor focus should shift to the size and terms of the issuance (dilution quantum, issue price vs. current market price) disclosed in the accompanying offer documents.",
+        "Next step is ASX granting quotation approval, after which newly issued securities become freely tradeable — potential short-term selling pressure should be monitored if shares were issued at a discount to prevailing market prices, a common dynamic for small-cap explorers like ESR."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ERL",
+      "company": "EMPIRE RESOURCES LIMITED",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-09-08T01:37:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133049-6A1342739",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Empire Resources has been required by ASX to respond to a price query, indicating the exchange identified an unusual or unexplained movement in ERL's share price or trading volume that warranted formal explanation.",
+        "The market sensitive classification means ERL's response likely contains substantive disclosure — potentially confirming or denying undisclosed corporate activity, exploration results, or a transaction that may have been prematurely speculated upon by the market.",
+        "Investors should scrutinise the full response text carefully: if ERL confirms awareness of no undisclosed information, it may dampen any speculative run; conversely, any partial disclosure of a catalyst could sustain or extend price momentum."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SRL",
       "company": "SUNRISE ENERGY METALS LIMITED",
