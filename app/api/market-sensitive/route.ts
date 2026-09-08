@@ -37,6 +37,11 @@ import type { Announcement, DayLog, SentimentLabel } from '@/types';
  * branches on it: { from, to, total, count, truncated, items: [...] }, each
  * item carrying its own `date`.
  *
+ * `source_generated_at` is when fetch_asx.py last wrote the newest day in the
+ * range — the honest answer to "how fresh is this", and not the same as when
+ * this response was produced. A consumer showing an "as at" time wants the
+ * former: the collector's clock, not the API's.
+ *
  * `by_sentiment` and `top_tags` are likewise computed over everything that
  * matched, not over the returned page, so a caller can render an accurate
  * summary of the day while displaying only part of it.
@@ -172,6 +177,8 @@ export async function GET(request: Request) {
   const items: NewsItem[] = [];
   const fingerprint: string[] = [];
   let total = 0;
+  // The newest day is first, so the first log read is the freshest.
+  let sourceGeneratedAt: string | null = null;
   const bySentiment: Record<SentimentLabel, number> = { bullish: 0, bearish: 0, neutral: 0 };
   const tagCounts = new Map<string, number>();
   let truncated = false;
@@ -187,6 +194,9 @@ export async function GET(request: Request) {
     // generated_at moves on every fetch run and total moves whenever an
     // announcement is added, so together they change exactly when the day does.
     fingerprint.push(`${date}:${log.generated_at}:${log.total}`);
+    if (sourceGeneratedAt === null && typeof log.generated_at === 'string') {
+      sourceGeneratedAt = log.generated_at;
+    }
 
     const matching = (log.announcements ?? [])
       .filter(a => a.market_sensitive)
@@ -233,6 +243,8 @@ export async function GET(request: Request) {
       to: dates[0],
       /** How many matched across the whole range, before `limit`. */
       total,
+      /** When the collector last wrote the newest day in the range. */
+      source_generated_at: sourceGeneratedAt,
       /** Split across everything matching, so it sums to `total`. */
       by_sentiment: bySentiment,
       /** The range's heaviest tags by number of filings, most first. */
