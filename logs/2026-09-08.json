@@ -1,9 +1,278 @@
 {
   "date": "2026-09-08",
-  "total": 255,
-  "market_sensitive_count": 58,
-  "generated_at": "2026-09-08T02:31:18.887577+00:00",
+  "total": 269,
+  "market_sensitive_count": 59,
+  "generated_at": "2026-09-08T03:26:39.726134+00:00",
   "announcements": [
+    {
+      "ticker": "AMK",
+      "company": "ALMASAR MINERALS LIMITED",
+      "headline": "Half Yearly Report and Accounts - 30 June 2026",
+      "time": "2026-09-08T03:21:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133073-6A1342750",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Almasar Minerals (AMK) has released its Half Yearly Report to 30 June 2026, providing a formal financial snapshot of the exploration-stage company's expenditure, cash position, and operational progress mid-year.",
+        "As an early-stage minerals company, the critical metrics to extract are cash on hand, burn rate, and any exploration results or resource updates disclosed in the period — these determine near-term viability without a revenue base.",
+        "The non-market-sensitive classification suggests no material surprises in the results; investors should nonetheless review the notes for going concern disclosures, related-party transactions, or changes to project timelines that could affect long-term thesis."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STG",
+      "company": "STRAKER LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-08T03:20:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133072-2A1696080",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has changed their position in Straker Limited (STG), signalling a shift in institutional or major investor ownership structure that warrants monitoring for directional intent.",
+        "STG operates in the translation technology and language services sector; changes in substantial holdings can precede further accumulation or distribution, impacting near-term liquidity and price discovery.",
+        "Investors should track whether this represents a new entrant building a strategic stake or an existing holder repositioning — follow-on filings in coming days will clarify the trajectory."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAU",
+      "company": "ANTILLES GOLD LIMITED",
+      "headline": "Proposed issue of securities - AAU",
+      "time": "2026-09-08T03:19:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133071-2A1696079",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Antilles Gold (AAU) has filed a 'Proposed Issue of Securities' notice, the procedural ASX Listing Rule disclosure that accompanies the Non-Renounceable Entitlement Offer announced in [2], confirming the securities pipeline into the market.",
+        "This notice formalises the dilution event, providing the market with advance notice of new share volume — key details to extract include the number of securities to be issued, the class, and the expected issue date to model dilution impact accurately.",
+        "As a companion filing to the capital raise, this document is administrative in nature but confirms execution is underway; no independent price catalyst is expected beyond what was signalled in the market-sensitive offer document."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAU",
+      "company": "ANTILLES GOLD LIMITED",
+      "headline": "Non Renounceable Entitlement Offer",
+      "time": "2026-09-08T03:13:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133070-2A1696078",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Antilles Gold (AAU) has launched a Non-Renounceable Entitlement Offer, a dilutive capital raise structure that does not allow non-participating shareholders to sell their rights, concentrating dilution risk on those unable or unwilling to participate.",
+        "The market-sensitive classification indicates material pricing or sizing details are enclosed — key metrics to assess include the offer price discount to last traded price, total funds raised, and intended use of proceeds (likely exploration or project development at its Cuban gold assets).",
+        "Non-renounceable structures typically weigh on near-term share price as they signal capital urgency and impose unavoidable dilution; institutional investors should evaluate their pro-rata entitlement and the strategic rationale before the offer closes."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PCK",
+      "company": "PAINCHEK LTD",
+      "headline": "Final Director's Interest Notice",
+      "time": "2026-09-08T03:05:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133069-2A1696077",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "PainChek Ltd (PCK) has lodged a Final Director's Interest Notice, which is typically filed upon a director's resignation, retirement, or termination — signalling a board-level departure from the AI-powered pain assessment healthcare company.",
+        "Director exits at small-cap healthcare companies warrant scrutiny: the departure of experienced leadership can affect regulatory strategy, commercial partnerships, and investor confidence, particularly for a company navigating healthcare system adoption cycles.",
+        "Investors should cross-reference this with any accompanying resignation announcement or board change notice to assess whether this is a routine transition or signals deeper organisational instability at PCK."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "A1M",
+      "company": "AIC MINES LIMITED",
+      "headline": "Cleansing Notice - Exercise Performance Rights",
+      "time": "2026-09-08T02:58:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133068-6A1342748",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AIC Mines (A1M) has issued a Cleansing Notice following the exercise of Performance Rights, a standard compliance filing under ASX Listing Rule 3.10.3 that ensures newly issued securities are free from restriction and eligible for on-market trading.",
+        "Performance Rights exercises represent non-cash compensation converting to equity, creating modest dilution; investors should note the number of rights exercised and resulting shares on issue to quantify the dilution impact on per-share metrics.",
+        "This is a routine governance filing with no material operational read-through; however, it confirms that incentive milestones have been met — which can be a subtle positive signal regarding management's achievement of internal performance targets at the copper-gold producer."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Daily Net Tangible Asset Statement",
+      "time": "2026-09-08T02:57:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133067-2A1696076",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Perpetual Credit Income Trust (PCI) has published its daily Net Tangible Asset (NTA) statement, a routine and mandatory disclosure for listed investment trusts that provides the per-unit NTA figure for the prior business day.",
+        "The key metric for institutional investors is the NTA premium or discount to the current market price — a widening discount may signal distribution concerns or market disengagement, while a tightening or premium can indicate demand for credit income exposure.",
+        "This is a high-frequency, procedural filing with no standalone investment action required; the NTA trend over time is more informative than any single daily figure, and should be monitored alongside PCI's portfolio duration and credit quality metrics."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATT",
+      "company": "ALTITUDE MINERALS LTD",
+      "headline": "Initial Director's Interest Notice - P Kitto",
+      "time": "2026-09-08T02:56:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133066-2A1696075",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Altitude Minerals Ltd (ATT) has filed an Initial Director's Interest Notice for P. Kitto, indicating a new director appointment and the mandatory disclosure of their opening securities interest in the company upon joining the board.",
+        "The level of initial shareholding disclosed by P. Kitto will signal alignment of interest — a meaningful personal stake suggests conviction in the company's mineral exploration strategy, while a nil or minimal holding is less encouraging from a governance standpoint.",
+        "This is an administrative filing with no immediate financial impact; investors should assess Kitto's professional background and whether the appointment brings new technical, financial, or industry expertise that could accelerate ATT's exploration or capital markets strategy."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATT",
+      "company": "ALTITUDE MINERALS LTD",
+      "headline": "Appointment of Dr Paul Kitto as Non-Executive Director",
+      "time": "2026-09-08T02:52:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133065-2A1696074",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Altitude Minerals appoints Dr Paul Kitto as Non-Executive Director, signalling a deliberate effort to bolster technical and strategic credibility — a common precursor to exploration activity ramp-up or capital raising for junior miners.",
+        "Dr Kitto's specific credentials are not disclosed in the headline, but board-level appointments in the exploration sector are typically used to attract institutional interest or satisfy due diligence requirements ahead of project milestones.",
+        "Near-term watch points include any accompanying capital raise or exploration update that may leverage the new appointment; without additional catalysts, the standalone board change is unlikely to move the needle materially on ATT's share price."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZNC",
+      "company": "ZENITH MINERALS LIMITED",
+      "headline": "FRS Completes Capital Raising and Edna May Acquisition",
+      "time": "2026-09-08T02:50:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133064-6A1342747",
+      "market_sensitive": false,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Zenith Minerals (ZNC) announces that FRS (FireFly Resources or associated entity) has completed both its capital raising and the acquisition of the Edna May gold project — a material transaction given Edna May is a known Western Australian gold asset with established infrastructure, previously operated by Evolution Mining.",
+        "The completion of the capital raise removes a key execution risk; a fully funded acquisition signals that FRS has secured sufficient institutional and/or strategic backing to advance Edna May, which may indirectly re-rate ZNC's exposure or equity interest in the deal structure.",
+        "Investors should scrutinise ZNC's precise economic interest in FRS post-transaction — including any dilution from the capital raise — as the headline being flagged 'not market sensitive' suggests ZNC's direct financial benefit may be limited or already priced in."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RCT",
+      "company": "REEF CASINO TRUST",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-09-08T02:45:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133063-2A1696073",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A previously substantial holder has ceased to hold 5% or more in Reef Casino Trust (RCT), indicating a meaningful reduction or full exit from a previously significant ownership position.",
+        "For a trust structure like RCT, the departure of a substantial holder can affect liquidity dynamics and may signal reduced institutional conviction in the distribution outlook or asset quality of the Cairns casino operations.",
+        "Investors should monitor whether this exit is absorbed by the market efficiently or leads to an overhang; a second identical filing (see announcement [4]) suggests either a filing duplication or two separate holders ceasing simultaneously, which amplifies the significance."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DTL",
+      "company": "DATA#3 LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-08T02:34:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133062-2A1696072",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Data#3 (DTL) director has filed a Change of Director's Interest Notice, indicating a movement in their direct or indirect shareholding — the nature (acquisition or disposal) is the critical detail absent from the headline alone.",
+        "Director share transactions at DTL warrant attention given the stock's premium valuation in the IT services sector; insider buying would reinforce confidence in near-term earnings momentum, while a sell-down could signal profit-taking at elevated price levels.",
+        "As a standalone administrative filing marked non-market sensitive, the immediate price impact is expected to be negligible unless the quantum of shares traded is material relative to the director's total holding or the company's daily liquidity."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DTL",
+      "company": "DATA#3 LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-08T02:33:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133061-2A1696071",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A second Change of Director's Interest Notice filed for Data#3 (DTL) on the same day suggests either a different director has transacted, or a separate transaction by the same director is being reported — dual filings in close proximity can occasionally indicate structured vesting or equity plan activity.",
+        "The coincidence of two director interest notices in a single session at DTL may relate to employee share plan grants, option exercises, or performance rights vesting, all of which are routine but worth monitoring for aggregate dilution impact.",
+        "Institutional investors should cross-reference both notices to assess whether the combined director activity represents a net increase or decrease in insider alignment, as this can serve as a soft sentiment signal for DTL's near-term earnings confidence."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RCT",
+      "company": "REEF CASINO TRUST",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-09-08T02:30:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133060-2A1696070",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A second 'ceasing to be a substantial holder' notice has been filed for Reef Casino Trust (RCT) on the same day as announcement [3], suggesting either two distinct substantial holders have exited concurrently or an administrative duplication requiring clarification.",
+        "Dual exits by substantial holders in a single session represent an elevated bearish signal for near-term sentiment, as it implies coordinated or coincidental institutional disengagement from the trust.",
+        "RCT investors should seek clarification from the company or ASX on whether this is a duplicate filing; if two separate holders have genuinely exited, the free float increase could pressure the unit price in the short term."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "SGL",
       "company": "RICEGROWERS LIMITED",
