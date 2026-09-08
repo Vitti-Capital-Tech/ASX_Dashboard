@@ -1,9 +1,420 @@
 {
   "date": "2026-09-08",
-  "total": 269,
+  "total": 290,
   "market_sensitive_count": 59,
-  "generated_at": "2026-09-08T03:26:39.726134+00:00",
+  "generated_at": "2026-09-08T04:26:34.153576+00:00",
   "announcements": [
+    {
+      "ticker": "IMB",
+      "company": "INTELLIGENT MONITORING GROUP LIMITED",
+      "headline": "Cancel - Notification regarding unquoted securities - IMB",
+      "time": "2026-09-08T04:21:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133094-6A1342761",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "IMB has filed a cancellation notice for previously notified unquoted securities, suggesting an error or administrative reversal in the original securities notification — no new capital event has occurred.",
+        "The cancellation of an unquoted securities notice is a procedural correction with no financial impact on IMB's capital structure or balance sheet at this stage.",
+        "Investors should monitor for a corrected or reissued notice; the cancellation itself does not signal any strategic shift but warrants attention if a restatement follows with materially different terms."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCO",
+      "company": "THE CALMER CO INTERNATIONAL LIMITED",
+      "headline": "Change of Director's Interest Notice (JT)",
+      "time": "2026-09-08T04:18:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133093-6A1342759",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director (initials JT) at The Calmer Co International has changed their interest in company securities, representing a routine disclosure obligation under ASX Listing Rules and the Corporations Act.",
+        "Without specific volume and price details in the headline, the direction of the change (acquisition vs. disposal) is unclear, limiting the ability to assess alignment of insider sentiment with the company's strategic outlook.",
+        "Given CCO's small-cap status in the wellness/natural products space, director buying could signal confidence in near-term catalysts, while selling would add to existing sentiment caution — the detail of the notice is key."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PLS",
+      "company": "PLS GROUP LIMITED",
+      "headline": "Notification regarding unquoted securities - PLS",
+      "time": "2026-09-08T04:17:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133092-6A1342760",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PLS Group Limited has lodged a notification regarding unquoted securities, likely relating to the issuance of options, performance rights, or convertible instruments to staff or other stakeholders outside of normal market trading.",
+        "Unquoted securities notifications are standard administrative filings and do not directly alter PLS's quoted share count or trigger immediate dilution on-market, though they flag future potential dilution if instruments vest or convert.",
+        "Investors should track the volume and strike/conversion terms of any unquoted instruments to assess the magnitude of potential future dilution relative to PLS's current market capitalisation."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MMI",
+      "company": "METRO MINING LIMITED",
+      "headline": "Application for quotation of securities - MMI",
+      "time": "2026-09-08T04:16:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133091-2A1696090",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Metro Mining (MMI) has applied for quotation of new securities on the ASX, indicating a recent capital raise or securities issuance has been completed and the company is now seeking to list those shares for trading.",
+        "The application for quotation is a post-raise administrative step and signals the completion of a prior fundraising event — this could represent dilution risk for existing shareholders depending on the pricing and volume of securities issued.",
+        "Investors should cross-reference the associated placement or entitlement offer documentation to assess the issue price relative to current market price and determine whether the capital raised strengthens MMI's balance sheet for its bauxite mining operations."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MMI",
+      "company": "METRO MINING LIMITED",
+      "headline": "Application for quotation of securities - MMI",
+      "time": "2026-09-08T04:15:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133090-2A1696089",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second application for quotation of securities has been filed by Metro Mining (MMI) on the same day, suggesting two separate tranches of securities — potentially from different components of a capital raise (e.g., placement tranche and share purchase plan) — are being listed concurrently.",
+        "Dual quotation applications on the same day can indicate a structurally larger capital raise than a single tranche would suggest, amplifying potential dilution concerns for existing shareholders.",
+        "Institutional investors should reconcile both notices against MMI's capital raise announcements to determine aggregate funds raised, use of proceeds, and the combined dilutionary impact on earnings per share and net asset value."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCO",
+      "company": "THE CALMER CO INTERNATIONAL LIMITED",
+      "headline": "Change of Director's Interest Notice (GE)",
+      "time": "2026-09-08T04:14:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133089-6A1342758",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director GE at The Calmer Co International has filed a change of director's interest notice, representing a separate transaction from that filed by JT on the same day — two concurrent director interest changes is notable for a small-cap company.",
+        "Multiple director interest changes lodged simultaneously can reflect participation in a company-sponsored securities plan, a share purchase, or conversely an exit — the coincidence of timing across two directors suggests a coordinated event such as a placement or incentive grant.",
+        "For CCO, simultaneous director interest disclosures may point to an incentive-based securities issuance or a structured capital event; investors should assess the combined volume of securities involved relative to total shares on issue."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCO",
+      "company": "THE CALMER CO INTERNATIONAL LIMITED",
+      "headline": "Change of Director's Interest Notice (ZY)",
+      "time": "2026-09-08T04:11:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133088-6A1342757",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A third director interest change notice (ZY) has been filed by The Calmer Co International on the same day as notices for JT and GE, making this a trifecta of director interest disclosures — a highly unusual volume of simultaneous filings for a small-cap entity.",
+        "Three concurrent director interest changes strongly suggests a board-wide participation in a securities issuance event — such as a share-based incentive plan, a rights issue, or a strategic placement — rather than individual open-market transactions.",
+        "The pattern of three simultaneous disclosures warrants closer scrutiny of CCO's capital management activity; if directors are acquiring securities at current market prices, it may reflect insider confidence, but if these are incentive grants, dilution impact must be evaluated."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BUB",
+      "company": "BUBS AUSTRALIA LIMITED",
+      "headline": "FDA Approval Webinar Notification",
+      "time": "2026-09-08T04:08:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133087-6A1342756",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Bubs Australia (BUB) is hosting a webinar specifically focused on FDA approval, underscoring the strategic importance of its US market access under the infant formula emergency use authorisation pathway and ongoing regulatory engagement with the FDA.",
+        "FDA approval remains the single most transformative potential catalyst for BUB's valuation, given it would provide permanent, unrestricted access to the lucrative US infant formula market — investor webinar activity signals management is actively managing market expectations around this milestone.",
+        "The webinar format suggests BUB is preparing investors for a regulatory update, which could precede a formal FDA decision or provide guidance on timelines — institutional investors should attend to assess probability-weighted scenarios for US market re-entry and long-term revenue uplift."
+      ],
+      "tags": [
+        "Healthcare",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "OLY",
+      "company": "OLYMPIO METALS LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-08T04:05:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133086-6A1342755",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Olympio Metals (OLY) has issued a cleansing notice under s708A of the Corporations Act, confirming it has met continuous disclosure obligations and enabling securities issued in a recent placement to be on-sold freely without a prospectus.",
+        "The cleansing notice is a necessary post-placement compliance step and confirms the capital raise has been executed — it does not indicate any new material information but validates the process integrity of the prior securities issuance.",
+        "Investors in the placement can now trade their securities immediately without restriction; for the broader market, this signals a completed capital injection into OLY, which should be evaluated in context of the company's exploration pipeline and cash position post-raise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TER",
+      "company": "TERRACOM LIMITED",
+      "headline": "Initial Director's Interest Notice (G Hutchinson)",
+      "time": "2026-09-08T04:04:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133085-2A1696088",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "TerraCom Limited (TER) has filed an initial director's interest notice for G Hutchinson, confirming the appointment of a new director whose securities holding at the time of appointment is being disclosed for the first time.",
+        "An initial director's interest notice signals a board-level change at TER — a coal and energy company — and the profile, background, and existing share ownership of G Hutchinson will be critical in assessing whether this appointment adds strategic, operational, or capital markets expertise.",
+        "Board composition changes at TER, which operates in the thermal coal sector amid ongoing ESG pressures and commodity price volatility, can have meaningful implications for strategic direction; investors should review the full appointment announcement for details on Hutchinson's background and any associated mandate."
+      ],
+      "tags": [
+        "Board Change",
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TER",
+      "company": "TERRACOM LIMITED",
+      "headline": "Board Appointment (G Hutchinson)",
+      "time": "2026-09-08T04:04:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133084-2A1696087",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "TerraCom Limited appoints G Hutchinson to the board, signalling a deliberate effort to refresh or augment board-level expertise, which may reflect strategic repositioning given the company's challenged coal operations and ongoing capital structure pressures.",
+        "Board composition changes at resource companies under financial stress can be a precursor to strategic reviews, asset sales, or restructuring — investors should monitor whether Hutchinson brings coal, energy transition, or M&A credentials that hint at directional intent.",
+        "No immediate financial impact is disclosed; however, sustained board turnover or additions at TER warrant close attention as a leading indicator of potential corporate action in the near term."
+      ],
+      "tags": [
+        "Board Change",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-08T04:01:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133083-6A1342754",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Forrestania Resources has lodged a Cleansing Notice, a statutory requirement under the Corporations Act following a capital raise conducted without a disclosure document, confirming the legal completion of that placement or rights issue.",
+        "The cleansing notice itself carries no new financial data, but it confirms securities were issued to sophisticated or institutional investors — a signal that FRS successfully accessed capital, which is critical for an early-stage resources explorer with limited revenue.",
+        "Investors should cross-reference this with any accompanying placement announcement to assess dilution quantum, issue price relative to market, and intended use of proceeds to gauge impact on the capital structure."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "Application for quotation of securities - FRS",
+      "time": "2026-09-08T03:57:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133082-6A1342753",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Forrestania Resources has applied for quotation of newly issued securities on the ASX, directly following the Cleansing Notice, confirming that new shares from a recent capital raise are being brought to market for trading.",
+        "The quotation application is a routine post-raise step, but the timing and volume of shares being listed will determine near-term supply-side pressure — a large tranche relative to current free float could weigh on the share price as new holders establish positions.",
+        "For a junior explorer like FRS, successful capital deployment from this raise into exploration activity will be the key value catalyst to watch; any drill results or resource updates in coming months will be the true test of whether this raise was accretive for existing shareholders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "YRL",
+      "company": "YANDAL RESOURCES LIMITED",
+      "headline": "AGM Director Nomination",
+      "time": "2026-09-08T03:55:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133081-6A1342752",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Yandal Resources has received a director nomination ahead of its AGM, a standard governance process, though the identity and background of the nominee are critical in assessing whether this represents board continuity or a potential shift in strategic direction.",
+        "For a junior gold explorer like YRL, board composition directly influences exploration strategy, capital allocation, and investor confidence — particularly relevant given the competitive environment for exploration-stage gold companies on the ASX.",
+        "Shareholders should evaluate the nominee's track record in resource development and capital markets prior to the AGM vote; any contested nomination or replacement of a founding director would elevate the significance of this filing considerably."
+      ],
+      "tags": [
+        "AGM",
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CBE",
+      "company": "COBRE LIMITED",
+      "headline": "Change of Director's Interest Notice - M Holland",
+      "time": "2026-09-08T03:54:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133080-2A1696085",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director M Holland has changed their interest in Cobre Limited securities, which — depending on whether this represents an acquisition or disposal — provides a direct read-through on insider conviction regarding CBE's near-term prospects.",
+        "On-market purchases by directors of exploration-stage companies like Cobre are typically interpreted as a strong alignment signal, particularly if conducted at or above prevailing market prices; conversely, disposals raise questions about project confidence or personal liquidity needs.",
+        "This notice should be read alongside CBE's concurrent Application for Quotation (Announcement 7), suggesting recent capital activity is underway — director participation or absence in that raise is a key data point for institutional investors assessing management commitment."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RG1",
+      "company": "REGAL PARTNERS GLOBAL INVESTMENTS LIMITED",
+      "headline": "Update on Dividend Reinvestment Plan Share Purchases",
+      "time": "2026-09-08T03:54:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133079-2A1696086",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Regal Partners Global Investments (RG1) has provided an update on share purchases made under its Dividend Reinvestment Plan (DRP), confirming ongoing capital recycling within the fund structure that marginally increases shares on issue without cash outflow to the company.",
+        "DRP activity at RG1 reflects shareholder preference to compound returns within the vehicle rather than take cash dividends — a modestly positive signal of investor confidence in the manager's ability to generate returns, though dilution to non-participating shareholders is a minor headwind.",
+        "For closed-end fund investors, monitoring DRP take-up rates over time provides insight into shareholder sentiment and NAV accretion dynamics; if DRP shares are issued at a discount to NAV, non-participants face incremental dilution that warrants attention."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CBE",
+      "company": "COBRE LIMITED",
+      "headline": "Application for quotation of securities - CBE",
+      "time": "2026-09-08T03:52:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133078-2A1696083",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cobre Limited has filed an Application for Quotation of securities, confirming new shares are being admitted to trading on the ASX following a recent capital raise — a routine but important step in completing the post-raise process.",
+        "The scale of securities being listed relative to CBE's existing market cap is the critical variable; for a copper-focused explorer, any significant dilution must be weighed against the strategic value of the cash raised and its expected deployment into drilling or feasibility work.",
+        "Read in conjunction with the Director's Interest Notice (Announcement 5), this capital raise warrants scrutiny of insider participation rates, use-of-funds disclosure, and timeline to next material exploration milestone to assess whether the raise strengthens or stretches the investment case."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEC",
+      "company": "SPHERIA EMERGING COMPANIES LIMITED",
+      "headline": "Net Tangible Asset Backing",
+      "time": "2026-09-08T03:44:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133077-2A1696082",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Spheria Emerging Companies Limited (SEC) has published its Net Tangible Asset (NTA) backing per share, providing the market with the most current read on the LIC's underlying portfolio value — a key reference point for assessing the premium or discount to NTA at which SEC trades.",
+        "The NTA figure is particularly significant for SEC given its small/mid-cap focus; movements in NTA relative to the prior month will reflect the performance of its underlying emerging companies portfolio, which tends to exhibit higher volatility than large-cap benchmarks.",
+        "Persistent discounts to NTA in LICs can attract activist pressure or buyback activity, while premiums indicate strong demand for the manager's strategy — investors should track the NTA trend over multiple months to assess whether the discount/premium is narrowing or widening."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PGL",
+      "company": "PILBARA GOLD LIMITED",
+      "headline": "Results of Meeting",
+      "time": "2026-09-08T03:30:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133076-3A701290",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Pilbara Gold Limited has released its Results of Meeting, confirming the outcome of resolutions put to shareholders — the most critical items to assess are whether any capital raise, director election, or strategic resolutions were passed or defeated, as these directly affect corporate trajectory.",
+        "For a junior gold explorer like PGL, shareholder approval of key resolutions (e.g. placement capacity, incentive securities, or constitutional amendments) underpins the company's ability to execute its exploration and funding strategy over the next 12 months.",
+        "Any defeated resolution — particularly around director remuneration or capital management — would represent a meaningful governance signal and could indicate shareholder dissatisfaction with management's strategic direction, warranting closer monitoring."
+      ],
+      "tags": [
+        "AGM",
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BVS",
+      "company": "BRAVURA SOLUTIONS LIMITED.",
+      "headline": "Initial Director's Interest Notice",
+      "time": "2026-09-08T03:30:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133075-2A1696081",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Bravura Solutions has lodged an Initial Director's Interest Notice, indicating a new director appointment has been formalised and their initial securities holding in BVS is being disclosed — a mandatory compliance step under ASX Listing Rules.",
+        "The nature and size of the incoming director's initial holding (whether shares, options, or nil) signals alignment with shareholder interests from day one; a substantive initial stake, particularly if acquired on-market, would be a positive governance indicator for a technology company navigating a turnaround.",
+        "Bravura has been in a period of strategic and operational reset; any new director appointment should be assessed for the specific expertise they bring — whether in enterprise software, financial services technology, or M&A — as this could signal the board's intent for the next phase of the company's strategy."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GRS",
+      "company": "GWARDAR RESOURCES LIMITED",
+      "headline": "AGM nominations",
+      "time": "2026-09-08T03:24:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133074-6A1342751",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "AGM director nomination process is routine and administrative in nature, with no indication of contested board positions or activist shareholder pressure that would signal governance disruption.",
+        "As a small-cap explorer (GRS), board composition is a critical watchpoint — any incoming directors with technical geology or capital markets expertise could signal a strategic pivot or upcoming capital raise cycle.",
+        "Investors should monitor the final nominee slate and any accompanying resolutions for remuneration or share-based incentive schemes, which could reveal management's confidence in near-term project milestones."
+      ],
+      "tags": [
+        "AGM",
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "AMK",
       "company": "ALMASAR MINERALS LIMITED",
