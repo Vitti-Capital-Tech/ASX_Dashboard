@@ -84,6 +84,93 @@ If a run is missed or you need fresh data right now, trigger one manually from t
 
 ---
 
+## Market-Sensitive News API
+
+For feeding another dashboard. `/api/logs/<date>` already returns a whole day,
+but that is ~400 announcements when the price-sensitive ones are ~50 — so this
+endpoint does the filtering server side and returns a flat, stable shape.
+
+```
+GET /api/market-sensitive
+```
+
+| Parameter | Default | Meaning |
+| --- | --- | --- |
+| `date` | most recent day held | A single trading day, `YYYY-MM-DD` |
+| `days` | `1` | The N most recent trading days instead (max 30) |
+| `sentiment` | all | `bullish` \| `bearish` \| `neutral` |
+| `since` | — | Only announcements released after this ISO instant |
+| `limit` | `200` | Cap on items (max 1000) |
+
+The response shape is identical for one day or thirty, so a consumer never has
+to branch on it:
+
+```json
+{
+  "from": "2026-09-02", "to": "2026-09-04",
+  "count": 53, "truncated": false,
+  "latest_released_at": "2026-09-04T03:30:49+00:00",
+  "items": [
+    {
+      "id": "2924-03131900-6A1342243",
+      "date": "2026-09-04",
+      "ticker": "LLM",
+      "company": "LOYAL METALS LTD",
+      "headline": "IMPLEMENTATION OF SCHEME OF ARRANGEMENT",
+      "url": "https://cdn-api.markitdigital.com/.../2924-03131900-6A1342243",
+      "released_at": "2026-09-04T03:09:24+00:00",
+      "sentiment": "bullish",
+      "document_type": "Market Update",
+      "tags": ["Merger & Acquisition", "Compliance"],
+      "summary": ["...", "...", "..."]
+    }
+  ]
+}
+```
+
+`url` is the hyperlink — the announcement PDF on the ASX platform.
+
+### Polling a day as it fills
+
+`fetch_asx.py` runs every ~5 minutes through the Sydney morning and hourly until
+early afternoon, so today's feed grows all day — the 4 Sept log was rewritten 17
+times. Three things make following it cheap:
+
+- **`id` never changes.** It is the ASX document id, so a consumer upserts
+  rather than inserts and re-polling can never duplicate a row. `save_log()`
+  merges and deduplicates rather than overwriting, so items only accumulate —
+  nothing you have already stored disappears from a later response.
+- **`since` returns only what is newer.** Store `latest_released_at` from a
+  response and pass it back as `since` on the next poll.
+- **An ETag short-circuits an unchanged feed.** Send `If-None-Match` and an
+  unchanged day answers `304` with no body. The tag covers each day's
+  `generated_at` and count, so it changes exactly when the data does.
+
+Polling every 5 minutes during market hours matches the fetcher; more often just
+returns 304s.
+
+### Consuming it from another Next.js app
+
+Fetch it server side — a Server Component, route handler or server action — so
+there is no cross-origin request and no CORS to configure:
+
+```ts
+const res = await fetch(`${process.env.ASX_API_URL}/api/market-sensitive?days=1`, {
+  headers: process.env.ASX_API_KEY ? { 'x-api-key': process.env.ASX_API_KEY } : {},
+  next: { revalidate: 300 },   // re-check every 5 minutes
+});
+const { items } = await res.json();
+```
+
+### Locking it down
+
+The endpoint is open by default, matching the other read endpoints — the data is
+public ASX filings. Set `ASX_API_KEY` in the environment to require it, supplied
+as either `x-api-key` or `Authorization: Bearer <key>`. Note this is a
+server-to-server secret: do not put it in a browser bundle.
+
+---
+
 ## Accuracy Scorecard — were we right?
 
 The **BULLISH** / **BEARISH** badge is the AI's prediction of where the share price is
