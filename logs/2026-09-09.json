@@ -1,9 +1,295 @@
 {
   "date": "2026-09-09",
-  "total": 165,
-  "market_sensitive_count": 48,
-  "generated_at": "2026-09-08T23:14:49.447591+00:00",
+  "total": 180,
+  "market_sensitive_count": 50,
+  "generated_at": "2026-09-08T23:24:52.738412+00:00",
   "announcements": [
+    {
+      "ticker": "RAD",
+      "company": "RADIOPHARM THERANOSTICS LIMITED",
+      "headline": "RAD Announces Positive Data from RAD301 P1 Imaging Trial",
+      "time": "2026-09-08T23:21:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133456-2A1696247",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Positive Phase 1 imaging trial data for RAD301 is a meaningful clinical milestone, demonstrating that the radiopharmaceutical candidate can safely and effectively image target lesions — a prerequisite for any therapeutic development pathway.",
+        "Despite the 'not market sensitive' classification, Phase 1 imaging readouts in theranostics carry significant scientific weight as they validate the targeting mechanism and provide the foundation for dose-selection in Phase 2 therapeutic trials.",
+        "The key next step is whether management announces a Phase 2 trial commencement or partnership discussions; any licensing or co-development deal with a major radiopharmaceutical player would represent a substantial value inflection point for RAD."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "G88",
+      "company": "GOLDEN MILE RESOURCES LTD",
+      "headline": "Aurora gold sampling confirms potential gold discovery",
+      "time": "2026-09-08T23:21:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133455-3A701371",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Gold rock chip and soil sampling at the Aurora project has returned high-grade results, confirming a potential new discovery that materially de-risks the exploration thesis for G88 at a critical early stage.",
+        "Elevated gold values across multiple sample types suggest structural continuity rather than isolated anomalies, a key distinction that warrants the market-sensitive classification and elevates the prospect's geological credibility.",
+        "Next steps will likely include follow-up RC or diamond drilling to test depth extensions; a funded drill program announcement would be the key catalyst to watch for a re-rating of the stock."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PAT",
+      "company": "PATRIOT RESOURCES LIMITED",
+      "headline": "Notice of General Meeting/Proxy Form",
+      "time": "2026-09-08T23:21:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133454-6A1342904",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Notice of General Meeting signals that PAT shareholders are being asked to vote on resolutions that could include capital raise approvals, asset acquisitions, or director elections — the specific resolutions will determine the materiality of the outcome.",
+        "For a resources-focused small-cap, GM resolutions frequently involve share issuance authorities or strategic pivots; investors should review the proxy form in detail to assess any dilution risk or strategic change embedded in the agenda.",
+        "Outcome of the GM will be the key catalyst — approval of any capital raise or M&A-related resolution could significantly alter the company's balance sheet position and near-term operational direction."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HZN",
+      "company": "HORIZON OIL LIMITED",
+      "headline": "Thailand - NP Booster Gas Compressor Commissioned and Online",
+      "time": "2026-09-08T23:19:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133453-2A1696245",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The commissioning and go-live of the NP Booster Gas Compressor in Thailand is a direct production catalyst, as compression infrastructure unlocks incremental gas volumes that were previously constrained by reservoir pressure decline.",
+        "This is a high-margin, low-incremental-cost production uplift for HZN given existing field infrastructure is already in place — any volume increase flows largely to operating cash flow, supporting the company's near-term revenue line.",
+        "Investors should monitor the next quarterly production report for quantified uplift in gas sales volumes and revenue from the NP field, which will confirm whether the compressor is delivering the expected performance improvement."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EXT",
+      "company": "EXCITE TECHNOLOGY SERVICES LTD",
+      "headline": "Notification regarding unquoted securities - EXT",
+      "time": "2026-09-08T23:19:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133452-3A701367",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Notification of unquoted securities at EXT typically relates to the issuance of options, performance rights, or other equity instruments that do not yet trade on-market, representing a form of latent dilution for existing shareholders.",
+        "While individually procedural, repeated issuances of unquoted securities can signal ongoing compensation schemes or capital management activities that cumulatively erode earnings per share for a technology-sector micro-cap.",
+        "Investors should track the total unquoted securities on issue relative to the quoted share count to assess the potential dilution overhang if and when these instruments vest or convert."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LRT",
+      "company": "LOWELL RESOURCES FUND",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-08T23:19:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133451-3A701369",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Cleansing Notice from Lowell Resources Fund indicates that LRT has recently completed a capital raise (likely a placement or rights issue) and is now lodging the required disclosure to ensure securities issued without a prospectus are freely tradeable under ASX Listing Rules.",
+        "This is an administrative post-raise requirement, but it confirms that new capital has entered the fund, potentially providing fresh firepower for investments in the junior resources sector where LRT is active.",
+        "The critical follow-through question is how the newly raised capital will be deployed — any announcement of new investments or increased positions in portfolio companies would be the next meaningful catalyst for unit holders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-08T23:18:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133450-2A1696242",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding at KME indicates a shift in ownership above or below the 5% threshold, signalling meaningful portfolio repositioning by a significant institutional or strategic investor.",
+        "Depending on the direction (increase or decrease), this could reflect either growing conviction in KME's tutoring centre rollout strategy or an exit by a key holder, either of which warrants close attention to the updated registry.",
+        "For a small-cap education stock, substantial holder movements can disproportionately affect liquidity and share price overhang; investors should review the full form for identity of the holder and net change in position."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AQZ",
+      "company": "ALLIANCE AVIATION SERVICES LIMITED",
+      "headline": "Change of Director's Interest Notice - Lange",
+      "time": "2026-09-08T23:18:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133449-2A1696244",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A change in Director Lange's interest at Alliance Aviation Services reflects a personal buying or selling transaction in AQZ securities, which can provide a directional signal on insider confidence in the company's near-term trajectory.",
+        "Alliance Aviation operates in a capacity-constrained aviation services market with significant FIFO and charter exposure; director transactions should be evaluated in the context of the company's ongoing fleet expansion and contract renewal cycle.",
+        "If the transaction represents an open-market purchase, it would be a modest bullish signal given insider alignment; a sale, particularly if sizeable, could raise questions about valuation at current share price levels."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMH",
+      "company": "AMCIL LIMITED",
+      "headline": "Update - Notification of buy-back - AMH",
+      "time": "2026-09-08T23:16:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133448-3A701368",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMCIL's buy-back update confirms the LIC is continuing to return capital to shareholders by repurchasing shares on-market, a strategy typically deployed when the board believes the shares trade at a discount to NTA — directly supportive of the share price.",
+        "For a listed investment company like AMH, an active buy-back is one of the most effective tools to narrow the NTA discount, and ongoing execution signals disciplined capital management and board confidence in underlying portfolio value.",
+        "Investors should monitor the pace and volume of buy-back activity relative to the current NTA discount; an acceleration in buy-back volume would be a stronger signal of the board's conviction that AMH is materially undervalued."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VSL",
+      "company": "VULCAN STEEL LIMITED",
+      "headline": "Change of Director's Interest Notice - Adrian Casey",
+      "time": "2026-09-08T23:13:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133447-2A1696241",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "The change in Director Adrian Casey's interest at Vulcan Steel is a routine disclosure under ASX Listing Rule 3.19A, reflecting a personal transaction in VSL securities that must be reported within five business days.",
+        "Vulcan Steel operates as a steel distribution business across Australia and New Zealand; any director share acquisition at current levels could be interpreted as a confidence signal regarding near-term earnings resilience in a challenging steel pricing environment.",
+        "Given VSL's exposure to construction and industrial end-markets, the direction and scale of the transaction should be assessed alongside recent trading updates to determine whether it carries meaningful signalling value."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MIR",
+      "company": "MIRRABOOKA INVESTMENTS LIMITED",
+      "headline": "Update - Notification of buy-back - MIR",
+      "time": "2026-09-08T23:12:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133446-3A701366",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MIR is actively executing an on-market share buyback, signalling management's view that the LIC is trading at a discount to intrinsic value — a capital-allocation decision that directly benefits remaining shareholders through NAV accretion.",
+        "Buyback activity in a Listed Investment Company context reduces the share count, which can narrow the discount to NTA over time, a key metric watched by LIC investors and arbitrageurs.",
+        "Investors should monitor the pace and volume of buyback purchases in subsequent updates; accelerated buying would indicate growing conviction from the board on valuation support at current levels."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VSL",
+      "company": "VULCAN STEEL LIMITED",
+      "headline": "Change of Director's Interest Notice - Rhys Jones",
+      "time": "2026-09-08T23:12:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133445-2A1696239",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director Rhys Jones has disclosed a change in his interest in Vulcan Steel securities, a routine but watchable event — the direction of the transaction (acquisition vs. disposal) is the critical determinant of sentiment signal.",
+        "Director share purchases using personal funds are historically associated with insider confidence in near-term business performance, while disposals may reflect personal liquidity needs or a reduction in conviction.",
+        "As a non-market-sensitive filing, the transaction is unlikely to be material in size; however, institutional investors should note the cumulative director holding trend as a secondary governance and alignment indicator."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXC",
+      "company": "DEXUS CONVENIENCE RETAIL REIT",
+      "headline": "Update - Notification of buy-back - DXC",
+      "time": "2026-09-08T23:12:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133443-3A701365",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Dexus Convenience Retail REIT (DXC) is conducting an on-market share buyback, a notable move for a REIT structure where capital is typically preserved for distributions and asset acquisitions — suggesting units are trading at a meaningful discount to NTA.",
+        "For a convenience retail-focused REIT, buybacks instead of asset recycling or distribution reinvestment imply management prioritises unit price support over near-term portfolio expansion, reflecting cautious sentiment on the acquisitions pipeline.",
+        "Investors should track the buyback volume relative to average daily turnover; sustained buyback activity could provide a technical price floor and gradually improve distribution per unit metrics for remaining unitholders."
+      ],
+      "tags": [
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ADO",
+      "company": "ANTEOTECH LTD",
+      "headline": "Resignation of Chief Financial Officer and Company Secretary",
+      "time": "2026-09-08T23:12:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133444-2A1696238",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The simultaneous resignation of both the CFO and Company Secretary at AnteoTech (ADO) is a material governance event — dual senior departures in a small-cap biotech elevate execution and financial oversight risk at a critical stage of commercialisation.",
+        "For a company of ADO's size and development stage, CFO continuity is essential for capital raising, regulatory reporting, and investor relations; the vacancy creates near-term uncertainty around financial management and strategic planning.",
+        "The board must act swiftly to appoint interim or permanent replacements to maintain ASX compliance obligations and investor confidence — failure to do so promptly could trigger further negative sentiment and increase funding risk."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "EXT",
+      "company": "EXCITE TECHNOLOGY SERVICES LTD",
+      "headline": "Application for quotation of securities - EXT",
+      "time": "2026-09-08T23:11:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133442-3A701364",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Excite Technology Services (EXT) is applying for quotation of new securities on the ASX, indicating a recent capital raise has been completed and new shares are being brought to market — this introduces near-term selling pressure as new investors gain liquidity.",
+        "The nature and pricing of the securities being quoted (placement, rights issue, options, or performance shares) will determine the degree of dilution to existing shareholders and the overhang risk on the register.",
+        "Until the full terms of the quotation are confirmed, institutional investors should treat this as a dilutive event by default; any discount to the prevailing market price in the new issuance will weigh on near-term price performance."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "WHC",
       "company": "WHITEHAVEN COAL LIMITED",
