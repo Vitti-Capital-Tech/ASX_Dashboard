@@ -1,9 +1,301 @@
 {
   "date": "2026-09-09",
-  "total": 219,
-  "market_sensitive_count": 63,
-  "generated_at": "2026-09-08T23:40:33.548259+00:00",
+  "total": 234,
+  "market_sensitive_count": 65,
+  "generated_at": "2026-09-08T23:47:21.268459+00:00",
   "announcements": [
+    {
+      "ticker": "M79",
+      "company": "MAMMOTH MINERALS LIMITED",
+      "headline": "Investor Presentation - RRS Gold Coast Conference",
+      "time": "2026-09-08T23:45:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133510-6A1342954",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Mammoth Minerals has released an investor presentation for the RRS Gold Coast Conference, providing a platform to articulate its project pipeline and investment thesis to a targeted audience of resource-focused investors and brokers — standard promotional activity for a small-cap explorer.",
+        "The presentation itself carries no new operational or financial disclosures (non-market sensitive), meaning its value is primarily in raising retail and small institutional awareness rather than signalling a material change in company fundamentals.",
+        "Key items to assess within the deck include any updated resource estimates, drilling timelines, or capital requirements — if absent, the presentation functions as a holding pattern communication while the market awaits a substantive catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PXX",
+      "company": "POLARX LIMITED",
+      "headline": "Hyper copper grades over big widths from surface at Caribou",
+      "time": "2026-09-08T23:45:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133509-6A1342951",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PolarX has reported hypergene (supergene-enriched) copper intersections at the Caribou prospect with high grades over significant widths from surface — a rare combination that substantially lowers the economic hurdle for early-stage mining or bulk sampling, as no deep drilling or costly pre-stripping is required.",
+        "Surface-accessible hyper copper grades are a transformative discovery signal in the copper exploration sector, particularly given the structural copper supply deficit narrative driving institutional interest; if grades and widths hold up across further drilling, Caribou could re-rate PXX's market capitalisation meaningfully.",
+        "Immediate next steps will centre on infill and extensional drilling to confirm grade continuity and establish a maiden JORC resource — the speed and scale of that follow-up program will be the critical catalyst to watch for determining whether this is a project-defining discovery or a localised anomaly."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KLI",
+      "company": "KILLI RESOURCES LIMITED",
+      "headline": "RRS Gold Coast Conference Presentation - September 2026",
+      "time": "2026-09-08T23:42:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133508-6A1342952",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Killi Resources has presented at the RRS Gold Coast Conference for September 2026, a routine investor relations exercise consistent with small-cap explorers seeking to maintain market visibility between operational milestones — no material new information is implied by this filing.",
+        "As a non-market sensitive release, the presentation is unlikely to contain JORC-compliant resource updates or financially material disclosures; its primary function is brand awareness and pipeline communication to conference attendees.",
+        "For institutional purposes, the key takeaway is monitoring whether the presentation signals any upcoming catalysts — drilling results, JV discussions, or funding activity — that could drive near-term re-rating; absent those signals, KLI remains in a holding pattern."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASL",
+      "company": "ANDEAN SILVER LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-08T23:42:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133507-6A1342953",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Andean Silver has lodged a Cleansing Notice under ASX Listing Rule 3.10.3, which is a mandatory procedural step following a capital raise — it confirms that securities issued without a prospectus are now freely tradeable, completing the legal framework of a recent placement.",
+        "The existence of a Cleansing Notice implies ASL has recently completed a capital raise (likely a placement), and this notice is a routine compliance requirement rather than a signal of financial stress or operational change — it is administrative in nature.",
+        "From an institutional standpoint, the notice confirms placement participants can now on-sell their securities, which may introduce some short-term selling pressure as placees realise gains or rebalance positions, but this is typically priced in at the time of the raise."
+      ],
+      "tags": [
+        "Compliance",
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAR",
+      "company": "KAROON ENERGY LTD",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-08T23:41:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133506-3A701380",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director of Karoon Energy has filed a Change of Director's Interest Notice, indicating a movement in their direct or indirect shareholding — a routine ASX compliance disclosure that provides transparency on insider trading activity but carries no operational significance in isolation.",
+        "The directional nature of the transaction matters: an on-market purchase would be a mild positive sentiment signal (insider conviction), while a sale could indicate profit-taking or personal liquidity needs — the document type alone does not confirm the transaction direction.",
+        "For institutional investors, director transactions at energy companies are worth tracking in aggregate; a pattern of insider selling ahead of results or reserve updates would warrant scrutiny, but a single notice is insufficient to draw conclusions about company direction."
+      ],
+      "tags": [
+        "Board Change",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMN",
+      "company": "BANNERMAN ENERGY LTD",
+      "headline": "Proposed issue of securities - BMN",
+      "time": "2026-09-08T23:41:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133505-6A1342932",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Bannerman Energy has lodged a 'Proposed Issue of Securities' notice (ASX Appendix 3B), which is the mandatory pre-issue notification accompanying the A$124M underwritten placement announced simultaneously — this is a procedural complement to the capital raise announcement rather than an independent event.",
+        "The notice formalises the legal and ASX compliance requirements for the new share issuance, specifying the number of securities to be issued, the price, and the use of proceeds — it provides the market with the mechanics of the dilution event.",
+        "Investors should cross-reference this notice with the placement announcement to assess the dilution quantum, issue price relative to the prevailing share price, and whether any escrow or voluntary hold periods apply to placement participants."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMN",
+      "company": "BANNERMAN ENERGY LTD",
+      "headline": "Investor Presentation",
+      "time": "2026-09-08T23:41:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133504-6A1342931",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Bannerman Energy's investor presentation accompanying the A$124M placement provides the detailed investment thesis, project economics, uranium market outlook, and use-of-proceeds rationale — a critical document for institutional investors evaluating participation in the raise.",
+        "Key metrics to scrutinise include Etango's updated capital cost estimate, projected NPV and IRR at various uranium price assumptions, the construction timeline to first production, and any offtake arrangements that underpin revenue visibility — these will determine whether the raise is priced attractively.",
+        "The presentation serves a dual purpose: supporting the underwriting syndicate's book-build and establishing BMN's narrative as a fully-funded uranium developer in a sector where financing risk has historically been the primary valuation discount — successful communication here underpins the post-raise re-rating thesis."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RDY",
+      "company": "READYTECH HOLDINGS LIMITED",
+      "headline": "2026 Annual General Meeting",
+      "time": "2026-09-08T23:40:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133503-2A1696257",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "ReadyTech Holdings has announced its 2026 Annual General Meeting — a standard corporate governance event providing shareholders with the opportunity to vote on resolutions including director elections, remuneration reports, and any proposed share-based incentive schemes.",
+        "As a non-market sensitive filing, the AGM notice does not signal any material change in business strategy, financial guidance, or capital structure; however, contested resolutions — particularly on executive remuneration or equity grants — can occasionally generate proxy advisory attention and minority shareholder activism.",
+        "Institutional investors should review the Notice of Meeting for any non-routine resolutions (e.g., changes to capital structure, related-party transactions, or significant amendments to constitution) that could have governance or valuation implications beyond the standard AGM agenda."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMN",
+      "company": "BANNERMAN ENERGY LTD",
+      "headline": "A$124M Underwritten Placement to Fully Fund Etango",
+      "time": "2026-09-08T23:40:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133502-6A1342930",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Bannerman Energy has secured a fully underwritten A$124 million placement — a significant de-risking event that, per the headline, is explicitly sized to fully fund the Etango uranium project through to construction, eliminating near-term financing uncertainty that has historically weighed on developer-stage uranium equities.",
+        "A fully underwritten raise of this magnitude signals strong institutional conviction in both the uranium price outlook and Etango's project economics; the underwriting commitment removes the execution risk typically associated with large capital raises in volatile commodity markets.",
+        "With funding now locked in, the critical path shifts entirely to project execution milestones — engineering, permitting, and offtake — meaning the market will increasingly price BMN on a development timeline and construction cost certainty basis rather than a funding risk discount."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TAH",
+      "company": "TABCORP HOLDINGS LIMITED",
+      "headline": "ASX Listing Rule 3.19 notification",
+      "time": "2026-09-08T23:40:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133501-3A701379",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX Listing Rule 3.19 notifications relate to director interest disclosures, indicating a routine compliance filing with no strategic or financial implications for Tabcorp's operations or capital structure.",
+        "As a procedural administrative update, this filing carries no earnings, dilution, or governance red flags — it simply satisfies continuous disclosure obligations around changes in director security holdings.",
+        "Investors should monitor any pattern of director buying or selling disclosed under 3.19 filings over time, as aggregate director transaction trends can serve as a soft sentiment signal on management conviction in TAH's turnaround strategy."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASL",
+      "company": "ANDEAN SILVER LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-09-08T23:40:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133500-6A1342950",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has fallen below the 5% disclosure threshold in Andean Silver Limited (ASL), indicating a meaningful selldown by a previously significant investor — this is a passive but potentially negative signal regarding institutional conviction in the stock.",
+        "The departure of a substantial holder can reduce liquidity support and may signal disagreement with company strategy, capital allocation, or near-term catalysts, particularly relevant given ASL is likely in an active exploration or development phase where cornerstone support matters.",
+        "Investors should monitor whether this exit is part of a broader portfolio rebalancing by the departing holder or reflects project-specific concerns; any further substantial holder exits in close succession would amplify the bearish read on near-term sentiment."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BMN",
+      "company": "BANNERMAN ENERGY LTD",
+      "headline": "Conditions Precedent to CNOL Strategic Financing Satisfied",
+      "time": "2026-09-08T23:40:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133499-6A1342929",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Satisfaction of conditions precedent to CNOL (China National Overseas Limited or equivalent strategic partner) financing is a material de-risking event for Bannerman Energy, confirming the strategic financing arrangement is now legally effective and funding can proceed.",
+        "For a uranium developer like BMN, securing strategic financing — particularly from a Chinese state-affiliated or major industrial offtaker — validates the Etango-8 project's commercial viability and significantly reduces near-term equity dilution risk from the market.",
+        "Next steps will centre on drawdown timelines, any associated offtake or equity stake implications, and how this capital injection reshapes BMN's project execution schedule and cash runway toward a Final Investment Decision (FID)."
+      ],
+      "tags": [
+        "Energy",
+        "Mining",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AQD",
+      "company": "AUSQUEST LIMITED",
+      "headline": "MD Presentation - RRS Conference",
+      "time": "2026-09-08T23:40:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133498-6A1342949",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Managing Director presentation at the RRS (Resources Rising Stars or equivalent) Conference is a standard investor relations exercise for AusQuest, a junior explorer, aimed at raising market profile among resource-focused retail and small-cap institutional investors.",
+        "The presentation likely covers exploration progress, project pipeline, and near-term catalysts — but as a non-market-sensitive filing, it contains no new material information beyond what is already publicly disclosed, limiting its direct price impact.",
+        "For a micro-cap explorer like AQD, conference exposure can improve liquidity and broker coverage over time, but investors should look to the underlying exploration results and upcoming drill programs as the real value drivers to watch."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JAL",
+      "company": "JAMESON RESOURCES LIMITED",
+      "headline": "Update - Proposed issue of securities - JAL",
+      "time": "2026-09-08T23:39:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133497-6A1342915",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An update on a proposed issue of securities for Jameson Resources signals that a capital raise or security issuance is in progress or has been modified, requiring investors to assess the potential dilutive impact on existing shareholders.",
+        "The non-market-sensitive classification suggests this is likely a procedural update — such as an extension of issue period or clerical amendment — rather than a new capital raise announcement, though any change to quantum or pricing warrants close scrutiny.",
+        "Jameson Resources is a junior resource company, and any equity issuance in the current environment must be weighed against the use-of-funds disclosure and whether the raise accelerates a defined exploration or development milestone."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASL",
+      "company": "ANDEAN SILVER LIMITED",
+      "headline": "Application for quotation of securities - ASL",
+      "time": "2026-09-08T23:38:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133496-6A1342948",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An application for quotation of new securities by Andean Silver indicates recently issued shares, options, or other instruments are being admitted to trading on the ASX — typically following a completed capital raise, rights issue, or performance milestone conversion.",
+        "The quotation of new securities increases the tradeable float, which can create short-term selling pressure if placees or exercise participants seek to crystallise gains, particularly in a small-cap silver explorer context where liquidity is thin.",
+        "Investors should identify the instrument class being quoted (e.g. shares from a placement, options converted to shares) and cross-reference the original raise price versus current market price to gauge near-term overhang risk for ASL."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "ASL",
       "company": "ANDEAN SILVER LIMITED",
