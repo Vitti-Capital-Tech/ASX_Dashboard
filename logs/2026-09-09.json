@@ -1,9 +1,389 @@
 {
   "date": "2026-09-09",
-  "total": 180,
-  "market_sensitive_count": 50,
-  "generated_at": "2026-09-08T23:24:52.738412+00:00",
+  "total": 200,
+  "market_sensitive_count": 57,
+  "generated_at": "2026-09-08T23:31:30.518965+00:00",
   "announcements": [
+    {
+      "ticker": "EL8",
+      "company": "ELEVATE URANIUM LTD",
+      "headline": "World Nuclear Symposium Presentation",
+      "time": "2026-09-08T23:28:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133476-6A1342938",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EL8's presentation at the World Nuclear Symposium positions the company among global uranium sector stakeholders, reinforcing its credentials and providing exposure to potential offtake partners, financiers, and strategic investors at a pivotal time for nuclear energy demand.",
+        "The non-market-sensitive classification indicates no material new information is being disclosed; the announcement is primarily a profile-building exercise rather than a fundamental catalyst, limiting its direct share price impact.",
+        "With uranium sector sentiment broadly constructive on long-term demand (driven by energy security and net-zero nuclear commitments), EL8's consistent engagement at tier-one industry forums supports its narrative as an emerging uranium developer, relevant for sector-rotation investors."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "Crushing has started at Tecomatlan as POC Campaign Commences",
+      "time": "2026-09-08T23:27:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133475-6A1342937",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of crushing operations at Tecomatlan marks a critical de-risking milestone for EVR, transitioning from exploration to proof-of-concept (POC) production and validating the project's operational readiness.",
+        "The POC campaign is designed to demonstrate recoverable metal yields from ore, with results likely to serve as a key catalyst for resource definition, project financing, or potential strategic partnerships — making assay/recovery data the next pivotal data point.",
+        "Investors should monitor throughput rates, metallurgical recovery percentages, and timeline to POC completion; any positive recovery data could materially re-rate this small-cap resource play given current early-stage valuations."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CAM",
+      "company": "CLIME CAPITAL LIMITED",
+      "headline": "Update - Notification of buy-back - CAM",
+      "time": "2026-09-08T23:27:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133474-2A1696253",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CAM's on-market buyback update is a capital management signal indicating the board views the fund's shares as trading at a discount to intrinsic or net asset value, which is a common and value-accretive mechanism for listed investment companies.",
+        "The non-market-sensitive classification and procedural nature of the announcement suggest this is a routine progress update on an existing buyback program rather than a new or expanded facility — limiting its incremental price impact.",
+        "For LIC investors, buybacks are a positive technical factor as they reduce share count and can narrow the NTA discount over time; however, the pace and total volume of buybacks relative to daily liquidity will determine whether this meaningfully supports the share price."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGU",
+      "company": "MAGNUM MINING AND EXPLORATION LIMITED",
+      "headline": "Assays Define 32.5km2 Priority Area at Piracanjuba North",
+      "time": "2026-09-08T23:26:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133473-6A1342936",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Assay results delineating a 32.5km² priority area at Piracanjuba North represent a significant step-change in project scale for MGU, substantially upgrading the exploration target and providing a defined focus for future drilling programs.",
+        "A priority area of this magnitude in a Brazilian geological setting (likely nickel, cobalt, or base metals given the region) suggests potential for a large-scale resource, with the 32.5km² footprint indicating the anomaly is regionally significant rather than isolated.",
+        "The immediate catalyst to watch is a maiden or upgraded resource estimate and follow-up drill program; the definition of a priority zone typically precedes a more intensive and capital-intensive drilling phase, raising questions around MGU's funding position and cash runway."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RIV",
+      "company": "RIVCO AUSTRALIA LTD",
+      "headline": "Monthly Report - August 2026",
+      "time": "2026-09-08T23:26:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133472-2A1696251",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "RIVCO Australia's August 2026 monthly report provides a routine operational update; as a non-market-sensitive filing, it is unlikely to contain material new disclosures, serving primarily as a transparency and compliance obligation for ASX listing rules.",
+        "Monthly reports for early-stage or small-cap companies typically track cash burn, operational milestones, and project progress — investors should focus on any changes to cash position, activity levels, or forward guidance embedded in the report.",
+        "The absence of a market-sensitive flag materially reduces the probability of a price-moving catalyst; this announcement is most relevant for existing shareholders monitoring execution against stated milestones rather than as an entry/exit signal."
+      ],
+      "tags": [
+        "Other",
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EBR",
+      "company": "EBR SYSTEMS INC.",
+      "headline": "Update on FDA Review of Cybersecurity Incident",
+      "time": "2026-09-08T23:26:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133471-3A701375",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EBR Systems is navigating an FDA cybersecurity review, a critical regulatory hurdle for a medical device company — the outcome could directly impact product approval timelines and commercial launch readiness.",
+        "The 'not market sensitive' classification suggests management believes the cybersecurity incident is contained and unlikely to materially delay FDA clearance, though regulatory risk remains non-trivial for a pre-revenue medtech.",
+        "Investors should monitor the FDA's formal response timeline closely; any request for additional information or remediation could extend the approval pathway and pressure the company's cash runway."
+      ],
+      "tags": [
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAR",
+      "company": "WAM STRATEGIC VALUE LIMITED",
+      "headline": "August 2026 Investment Update",
+      "time": "2026-09-08T23:26:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133470-2A1696250",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WAM Strategic Value's August 2026 Investment Update provides a monthly portfolio snapshot for this listed investment company (LIC), giving retail and institutional investors visibility into NAV movement and key holdings.",
+        "The update's non-market-sensitive classification implies no material NAV surprise or significant portfolio shift — performance is likely in line with expectations or modest relative to benchmark.",
+        "For LIC investors, the key metrics to watch are the portfolio's discount/premium to NAV and whether WAR is deploying capital into new positions, which would signal conviction in current market conditions."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RML",
+      "company": "RESOLUTION MINERALS LTD",
+      "headline": "Nasdaq Trading to Commence Today",
+      "time": "2026-09-08T23:26:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133469-2A1696252",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Resolution Minerals commencing Nasdaq trading today represents a significant dual-listing milestone, materially broadening its investor base to US capital markets and increasing liquidity access for the stock.",
+        "Nasdaq exposure can attract US-based resource-focused funds and retail investors, potentially re-rating the stock if the US listing garners meaningful trading volume — historically a positive catalyst for small-cap miners.",
+        "The next key indicator is whether Nasdaq trading volumes translate into sustained interest; without meaningful US investor engagement, dual-listing costs may outweigh benefits and the uplift could be short-lived."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AAR",
+      "company": "ASTRAL RESOURCES NL",
+      "headline": "Resources Rising Stars Investor Conference Presentation",
+      "time": "2026-09-08T23:25:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133468-6A1342934",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Astral Resources' presentation at the Resources Rising Stars Investor Conference is a targeted investor relations exercise aimed at raising profile among retail and small-cap institutional investors in the mining sector.",
+        "Conference presentations at high-profile forums like Rising Stars can catalyse short-term buying interest, particularly if updated resource estimates, drill results, or project milestones are disclosed in the deck.",
+        "The non-market-sensitive flag suggests no new material data is being released; however, any qualitative commentary on project advancement or funding strategy should be assessed for forward-looking signals."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRB",
+      "company": "FIREBIRD METALS LIMITED",
+      "headline": "Firebird Launches New Website and InvestorHub",
+      "time": "2026-09-08T23:25:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133467-6A1342935",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Firebird Metals launching a new website and InvestorHub is a low-impact IR initiative, signalling a focus on improving retail investor communication and transparency — typical for small-cap companies building market awareness.",
+        "While not a fundamental catalyst, an enhanced digital presence and InvestorHub integration can improve retail investor engagement metrics and reduce information asymmetry, which may support liquidity over time.",
+        "Investors should treat this as a hygiene update rather than a value-creating event; the company's near-term share price will remain driven by project news flow, resource updates, and capital allocation decisions."
+      ],
+      "tags": [
+        "Other",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FPC",
+      "company": "FAT PROPHETS GLOBAL CONTRARIAN FUND LTD",
+      "headline": "Dividend/Distribution - FPC",
+      "time": "2026-09-08T23:24:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133466-2A1696243",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Fat Prophets Global Contrarian Fund has announced a dividend/distribution for FPC unitholders, providing a direct income return to shareholders and affirming the fund's commitment to distributing realised gains or income.",
+        "The quantum of the distribution is the critical data point — investors should assess the distribution yield relative to the current unit price and NAV to determine whether it reflects strong portfolio performance or a return of capital.",
+        "For income-focused LIC investors, consistent distributions support the investment thesis; however, if funded from capital rather than earnings, it could signal underlying portfolio underperformance and erode NAV over time."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PAT",
+      "company": "PATRIOT RESOURCES LIMITED",
+      "headline": "Five-Year Exploration Agreement Secured with Tassa Community",
+      "time": "2026-09-08T23:24:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133465-6A1342933",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Securing a five-year exploration agreement with the Tassa Community is a meaningful social licence milestone for PAT, removing a key non-technical risk that frequently derails junior resource companies operating in community-sensitive jurisdictions.",
+        "A formal multi-year agreement provides PAT with the legal and operational certainty needed to commence or accelerate exploration activities, which is a prerequisite for attracting institutional capital and joint venture partners.",
+        "The five-year tenure signals genuine community buy-in rather than a short-term accommodation; investors should look for PAT to follow this quickly with a confirmed work program and budget, as the agreement's value is only realised through active and timely exploration."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FPC",
+      "company": "FAT PROPHETS GLOBAL CONTRARIAN FUND LTD",
+      "headline": "Final Dividend",
+      "time": "2026-09-08T23:24:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133464-2A1696248",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "A final dividend declaration from FPC provides a direct income return to shareholders, signalling the board's confidence in distributable earnings and the fund's net asset position at period end — a positive signal for income-focused LIC investors.",
+        "The market-sensitive classification suggests the dividend quantum or yield may be material relative to expectations or recent trading price; investors should assess the dividend per share against the fund's NTA to determine sustainability and payout ratio.",
+        "As a listed investment company, FPC's dividend is closely tied to realised portfolio gains and income; sustained or growing dividends would indicate portfolio outperformance, while a cut or special one-off nature would warrant scrutiny of underlying holdings."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RIV",
+      "company": "RIVCO AUSTRALIA LTD",
+      "headline": "Update - Notification of buy-back - RIV",
+      "time": "2026-09-08T23:23:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133463-2A1696249",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Rivco Australia's buy-back notification update signals management's view that the stock is undervalued at current levels, with capital being returned to shareholders rather than deployed into growth — a typically supportive price signal.",
+        "The key detail is the scale and pace of the buy-back; a meaningful on-market buy-back relative to daily liquidity can provide a technical price floor, particularly for thinly traded small-cap stocks like RIV.",
+        "Investors should assess whether the buy-back reflects genuine balance sheet strength and free cash flow generation, or is a defensive measure to support a weak share price in the absence of operational catalysts."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AKA",
+      "company": "AUREKA LIMITED",
+      "headline": "SPP Cleansing Notice",
+      "time": "2026-09-08T23:23:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133462-3A701373",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Aureka Limited's SPP Cleansing Notice is a standard regulatory filing required under ASX Listing Rule 3.10.3 following a Share Purchase Plan, enabling retail investors to participate on the same information basis as institutional investors.",
+        "The existence of an SPP indicates a recent capital raise has occurred or is underway — dilution risk is the primary concern for existing shareholders, and the SPP price relative to market price will determine take-up appetite.",
+        "This is an administrative filing with no new information content; the more material focus should be on how Aureka intends to deploy SPP proceeds and whether the raise strengthens the company's project pipeline or merely extends cash runway."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BAS",
+      "company": "BASS OIL LIMITED",
+      "headline": "Bunian 6 Well Update M Sand Oil Discovery Confirmed",
+      "time": "2026-09-08T23:23:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133461-3A701372",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Confirmation of an oil discovery in the M Sand formation at Bunian-6 is a material positive for BAS, validating the well's geological thesis and demonstrating that the target reservoir is both present and hydrocarbon-bearing in this Indonesian asset.",
+        "The distinction of 'confirmed discovery' versus a preliminary show is critical — it implies flow testing or logging data has met the technical threshold for a discovery, which directly supports resource booking and future development planning.",
+        "Near-term focus shifts to production test rates (barrels per day), fluid characterisation (oil gravity, water cut), and commerciality assessment; a strong flow rate could trigger a significant re-rating for this small-cap energy company given the binary nature of exploration wells."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EXT",
+      "company": "EXCITE TECHNOLOGY SERVICES LTD",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-08T23:23:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133460-3A701374",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Excite Technology Services' Cleansing Notice is a procedural ASX compliance filing, typically issued post-placement or capital raise to ensure all investors have equal access to material information before securities are on-sold.",
+        "The filing confirms a recent capital raise has concluded, meaning EXT has likely secured new funding — the critical question is the raise size, price, and strategic purpose, none of which are disclosed in the cleansing notice itself.",
+        "Near-term share price impact depends entirely on the terms of the associated capital raise; if issued at a significant discount to market, dilution pressure may weigh on the stock until deployment of proceeds is demonstrated."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "W2V",
+      "company": "WAY 2 VAT LTD.",
+      "headline": "Investor Presentation",
+      "time": "2026-09-08T23:22:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133459-6A1342902",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The investor presentation from W2V, filed concurrently with a capital raise, serves primarily as a marketing and disclosure instrument to support the placement — its market-sensitive classification suggests it contains material non-public information now being disclosed.",
+        "Key metrics to extract from the presentation include revenue run-rate, client pipeline, VAT reclaim volumes processed, and use of proceeds from the concurrent A$2.109m raise, which together define the company's near-term growth trajectory.",
+        "Investor presentations accompanying capital raises are standard practice but carry limited standalone price impact; the real signal lies in whether the disclosed metrics justify the raise's implied valuation and whether institutional appetite for the placement was strong."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "W2V",
+      "company": "WAY 2 VAT LTD.",
+      "headline": "Proposed issue of securities - W2V",
+      "time": "2026-09-08T23:22:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133458-6A1342899",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Way 2 VAT's proposed securities issuance is a dilutive event for existing shareholders, and the terms — including issue price relative to market price, number of securities, and use of proceeds — will determine the severity of near-term price pressure.",
+        "For a small-cap fintech/tax reclaim business, capital raises are often necessary to fund growth or operational shortfalls; investors should scrutinise whether proceeds are earmarked for revenue-generating activities or overhead costs.",
+        "The notification triggers a mandatory two-business-day disclosure window under ASX rules; institutional investors should await the full terms announcement before assessing whether the raise is strategically accretive or a sign of financial strain."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "W2V",
+      "company": "WAY 2 VAT LTD.",
+      "headline": "Way2VAT completes A$2.109m Placement",
+      "time": "2026-09-08T23:22:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133457-6A1342888",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "W2V has completed a A$2.109m placement, providing fresh capital that extends runway for this fintech/VAT reclaim platform; however, the relatively small raise size suggests either limited institutional appetite or a deliberate decision to minimise dilution at current price levels.",
+        "The placement is dilutive to existing shareholders and the market-sensitive flag warrants scrutiny of the issue price relative to the prevailing share price — a material discount would amplify near-term selling pressure from existing holders.",
+        "Use of proceeds will be the critical determinant of value creation: if directed toward sales/marketing or technology development with identifiable revenue milestones, the dilution may be justified; if allocated to general working capital, it signals a company managing cash burn rather than accelerating growth."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "RAD",
       "company": "RADIOPHARM THERANOSTICS LIMITED",
