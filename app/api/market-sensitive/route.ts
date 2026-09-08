@@ -34,8 +34,18 @@ import type { Announcement, DayLog, SentimentLabel } from '@/types';
  * only ever accumulate — nothing a consumer has already seen disappears later.
  *
  * Response is the same shape whether one day or thirty, so a consumer never
- * branches on it: { from, to, count, truncated, items: [...] }, each item
- * carrying its own `date`.
+ * branches on it: { from, to, total, count, truncated, items: [...] }, each
+ * item carrying its own `date`.
+ *
+ * `by_sentiment` and `top_tags` are likewise computed over everything that
+ * matched, not over the returned page, so a caller can render an accurate
+ * summary of the day while displaying only part of it.
+ *
+ * `total` is how many matched before `limit`; `count` is how many came back.
+ * They differ whenever a caller asks for fewer than exist, and a consumer that
+ * conflates them will report its own page size as the size of the day — which
+ * is exactly what happened on first use: a summary strip built on `count` read
+ * "12 price-sensitive filings" on a day that had 59.
  */
 
 // Read from disk per request. The daily job commits a new log file; a
@@ -161,6 +171,9 @@ export async function GET(request: Request) {
 
   const items: NewsItem[] = [];
   const fingerprint: string[] = [];
+  let total = 0;
+  const bySentiment: Record<SentimentLabel, number> = { bullish: 0, bearish: 0, neutral: 0 };
+  const tagCounts = new Map<string, number>();
   let truncated = false;
 
   for (const date of dates) {
@@ -182,11 +195,23 @@ export async function GET(request: Request) {
       // Newest first within the day, so a range reads strictly newest-first.
       .sort((a, b) => new Date(b.time).getTime() - new Date(a.time).getTime());
 
+    total += matching.length;
+
+    // Aggregated over everything matching, before the page is cut — see the
+    // note at the top of the file about why these cannot come off `items`.
+    for (const ann of matching) {
+      bySentiment[ann.sentiment ?? 'neutral'] += 1;
+      for (const tag of ann.tags ?? []) {
+        tagCounts.set(tag, (tagCounts.get(tag) ?? 0) + 1);
+      }
+    }
+
     for (const ann of matching) {
       if (items.length >= limit) { truncated = true; break; }
       items.push(toItem(ann, date));
     }
-    if (truncated) break;
+    // Keep counting the remaining days even once full, so `total` describes the
+    // whole requested range rather than stopping where the page did.
   }
 
   // The query is part of the tag: the same data filtered two ways is not the
@@ -206,6 +231,16 @@ export async function GET(request: Request) {
     {
       from: dates.at(-1),
       to: dates[0],
+      /** How many matched across the whole range, before `limit`. */
+      total,
+      /** Split across everything matching, so it sums to `total`. */
+      by_sentiment: bySentiment,
+      /** The range's heaviest tags by number of filings, most first. */
+      top_tags: Array.from(tagCounts.entries())
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 5)
+        .map(([tag, n]) => ({ tag, count: n })),
+      /** How many are in `items`. Less than `total` when truncated. */
       count: items.length,
       truncated,
       /** Pass back as ?since= on the next poll to get only what is newer. */
