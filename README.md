@@ -149,6 +149,14 @@ times. Three things make following it cheap:
 Polling every 5 minutes during market hours matches the fetcher; more often just
 returns 304s.
 
+### Where it lives
+
+This dashboard is deployed at **https://asx.vitticapital.ai**, so the endpoint is:
+
+```
+https://asx.vitticapital.ai/api/market-sensitive?days=1
+```
+
 ### Consuming it from another Next.js app
 
 Fetch it server side — a Server Component, route handler or server action — so
@@ -157,10 +165,15 @@ there is no cross-origin request and no CORS to configure:
 ```ts
 const res = await fetch(`${process.env.ASX_API_URL}/api/market-sensitive?days=1`, {
   headers: process.env.ASX_API_KEY ? { 'x-api-key': process.env.ASX_API_KEY } : {},
+  // `force-cache` is what opts in. From Next 15 fetch is uncached by default,
+  // so `next: { revalidate }` on its own silently refetches every request.
+  cache: 'force-cache',
   next: { revalidate: 300 },   // re-check every 5 minutes
 });
 const { items } = await res.json();
 ```
+
+The client dashboard does exactly this in `lib/asx/news.ts`.
 
 ### Locking it down
 
