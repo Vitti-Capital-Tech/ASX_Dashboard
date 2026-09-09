@@ -1,9 +1,160 @@
 {
   "date": "2026-09-10",
-  "total": 209,
-  "market_sensitive_count": 56,
-  "generated_at": "2026-09-09T23:40:21.536485+00:00",
+  "total": 217,
+  "market_sensitive_count": 59,
+  "generated_at": "2026-09-09T23:46:59.573059+00:00",
   "announcements": [
+    {
+      "ticker": "MAF",
+      "company": "MA FINANCIAL GROUP LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-09T23:42:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134011-2A1696463",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MA Financial Group's Cleansing Notice indicates the company has recently completed a capital raise (likely a placement) without a disclosure document, and this notice fulfils the ASX Listing Rule 3.10.3 / Corporations Act obligation to provide adequate disclosure to secondary market participants.",
+        "While procedurally routine, the notice confirms dilution has occurred — investors need to assess the placement size, price, and use of proceeds to determine whether the raise is accretive or dilutive to existing shareholders.",
+        "The non-market-sensitive classification and administrative nature of the filing suggest this is the tail-end of a recently announced raise; the key 'so what' is understanding the capital deployment strategy, which will drive medium-term earnings impact for this diversified financial services firm."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QEM",
+      "company": "QEM LIMITED",
+      "headline": "Significant Opportunities Garden Valley Rare Metals Project",
+      "time": "2026-09-09T23:40:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134010-6A1343159",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "QEM's Garden Valley Rare Metals Project is flagged as market sensitive, signalling material new information — likely resource upgrades, new mineral discoveries, or strategic partnership developments that could re-rate the asset's value significantly.",
+        "Rare earth and critical minerals projects are attracting premium valuations globally amid supply-chain diversification away from China; any resource delineation or scoping milestone here would be a strong valuation catalyst for a junior explorer of QEM's size.",
+        "Investors should watch for confirmation of JORC-compliant resource estimates or binding offtake/JV discussions as the key next steps that would convert exploration optionality into tangible project value."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KMD",
+      "company": "KMD BRANDS LIMITED",
+      "headline": "ASM date and Closing date for Director Nominations",
+      "time": "2026-09-09T23:40:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134009-2A1696461",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "KMD Brands has announced the date for its Annual Shareholders Meeting (ASM) and the closing date for director nominations — a routine governance milestone with no immediate financial implications for the owner of Kathmandu, Rip Curl, and Oboz.",
+        "The director nomination deadline is the only actionable element; any contested board positions or activist nominations would elevate this filing's significance, but absent that context, it is purely administrative.",
+        "Investors should monitor the ASM agenda for any strategic updates on KMD's ongoing turnaround efforts, cost reduction programs, or brand performance disclosures that may be presented alongside the formal resolutions."
+      ],
+      "tags": [
+        "AGM",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARN",
+      "company": "ALDORO RESOURCES LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-09T23:39:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134008-6A1343160",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Aldoro Resources has lodged a Change of Director's Interest Notice, indicating a director has bought or sold shares/options — a routine disclosure under ASX Listing Rule 3.19A with no direct operational impact.",
+        "Director buying (on-market purchases) can be a modest positive sentiment signal for small-cap explorers, as it demonstrates insider conviction; conversely, selling may raise flags — the direction and scale of the transaction is the critical detail to assess.",
+        "Given Aldoro's micro-cap explorer status, even small director transactions can be proportionally significant relative to daily liquidity; the 'so what' depends entirely on whether this represents accumulation or disposal."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BUB",
+      "company": "BUBS AUSTRALIA LIMITED",
+      "headline": "FDA Approval Webinar Presentation",
+      "time": "2026-09-09T23:39:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134007-6A1343158",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Bubs Australia is hosting an FDA Approval Webinar Presentation, indicating the company is actively communicating with investors around its US regulatory pathway — a critical milestone given that FDA approval for its infant formula products would unlock the substantial US market opportunity.",
+        "While classified as not market sensitive (likely because no new approval decision is being announced), the webinar signals management is preparing the market for an imminent or recently achieved regulatory outcome, which could be a precursor to a material announcement.",
+        "The key watch item is whether Bubs receives full FDA market authorisation under the infant formula emergency pathways or achieves a standard approval, as this would fundamentally alter the company's US revenue growth trajectory and justify a significant re-rating."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "QML",
+      "company": "QMINES LIMITED",
+      "headline": "BurnVoir Appointed Financial Adviser for Mt Chalmers",
+      "time": "2026-09-09T23:39:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134006-6A1343153",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "QMines has appointed BurnVoir Corporate Finance as financial adviser for its Mt Chalmers copper-gold-zinc project, a clear signal that the company is actively pursuing a transaction — most likely a sale, JV, or project-level capital raise — at this advanced-stage asset.",
+        "The appointment of a dedicated financial adviser is a strong strategic signal for a project-level process; Mt Chalmers has a defined JORC resource and prior scoping/PFS work, making it an attractive asset in the current copper bull market where majors and mid-tiers are seeking development-ready assets.",
+        "The timeline and outcome of the adviser-led process will be the dominant share-price driver; investors should watch for a formal data room opening, binding offer, or strategic partnership announcement as the key next catalysts that could deliver a significant premium to QMines' current market capitalisation."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VKA",
+      "company": "VIKING MINES LIMITED",
+      "headline": "MAIDEN DRILLING AT LINKA TUNGSTEN DELIVERS 14M @ 0.56% WO3",
+      "time": "2026-09-09T23:39:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134005-6A1343156",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Viking Mines' maiden drilling at Linka Tungsten has returned 14m @ 0.56% WO3 — a commercially meaningful intercept given tungsten's critical mineral status and the typical economic threshold of ~0.3% WO3 for open-pittable deposits, suggesting the grade is comfortably above the cutoff.",
+        "A maiden drill result of this quality from the first hole/program dramatically de-risks the project and validates the geological model, typically triggering a sharp re-rating for micro-cap explorers where market cap is still pricing in exploration risk.",
+        "Next steps to watch include follow-up infill and extensional drilling to define a maiden JORC resource, with any resource announcement likely to serve as the next major share-price catalyst; metallurgical test work will also be critical given tungsten's complex processing requirements."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LSX",
+      "company": "LION SELECTION GROUP LIMITED.",
+      "headline": "Preliminary Final Report",
+      "time": "2026-09-09T23:38:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134004-3A701486",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lion Selection Group's Preliminary Final Report (equivalent to a full-year results release) is flagged as market sensitive, indicating the financial outcomes — net asset value changes, portfolio investment realisations, or impairments — are material enough to move the share price.",
+        "As an investment company focused on mining assets, LSX's NAV per share and any changes to its portfolio holdings (write-ups or write-downs) are the core valuation metrics; a market-sensitive tag suggests a potentially significant movement in either direction.",
+        "Investors should scrutinise the audited NAV, dividend or distribution announcement, and any commentary on planned portfolio exits or new investments as the key forward-looking signals from this report."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "JAV",
       "company": "JAVELIN MINERALS LIMITED",
