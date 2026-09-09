@@ -1,9 +1,160 @@
 {
   "date": "2026-09-09",
-  "total": 241,
-  "market_sensitive_count": 67,
-  "generated_at": "2026-09-08T23:54:00.335129+00:00",
+  "total": 249,
+  "market_sensitive_count": 70,
+  "generated_at": "2026-09-09T00:00:42.805852+00:00",
   "announcements": [
+    {
+      "ticker": "GML",
+      "company": "GATEWAY MINING LIMITED",
+      "headline": "Resource Rising Stars Presentation",
+      "time": "2026-09-08T23:58:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133525-2A1696265",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Gateway Mining's presentation at the Resource Rising Stars investor conference is a non-material, investor relations exercise designed to maintain retail and small institutional investor awareness of the company's exploration narrative.",
+        "No new operational data or financial disclosures are expected in a conference presentation format; the key watch item is whether any previously undisclosed project metrics or timelines are referenced, which could carry secondary market impact.",
+        "For existing holders, these events can generate short-term volume uplift from increased retail exposure, but the absence of market-sensitive classification confirms no new material information is being released."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASB",
+      "company": "AUSTAL LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-09-08T23:56:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133524-6A1342956",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Austal has requested a pause in trading, signalling a material, time-sensitive development is imminent — historically these precede M&A activity, significant contract awards, or capital structure events for defence contractors of ASB's profile.",
+        "As a dual-listed (ASX/NYSE) US defence shipbuilder with ongoing Pentagon contracts, any announcement carrying market-sensitive status will likely have cross-market price implications and elevated institutional attention.",
+        "Investors should monitor the resumption announcement closely; the nature of the catalyst — whether strategic (takeover, JV) or operational (contract win/loss, earnings revision) — will determine the directional magnitude of the move."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AIX",
+      "company": "AI PRIVATE OPPORTUNITIES TRUST",
+      "headline": "AIX 31 August NTA",
+      "time": "2026-09-08T23:56:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133523-2A1696264",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The AI Private Opportunities Trust has published its 31 August NTA (Net Tangible Assets) per unit, a routine monthly disclosure required under ASX Listing Rules for listed investment trusts — providing investors with a valuation reference point against market price.",
+        "The key analytical metric is the NTA premium or discount to market price; a persistent discount may signal investor concern about portfolio liquidity, private asset valuations, or fee structures inherent in private market vehicles.",
+        "As a trust focused on private AI-related opportunities, NTA accuracy is constrained by the infrequent mark-to-market nature of unlisted holdings, meaning headline NTA figures should be interpreted with caution relative to intrinsic portfolio value."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EXT",
+      "company": "EXCITE TECHNOLOGY SERVICES LTD",
+      "headline": "Notification regarding unquoted securities - EXT",
+      "time": "2026-09-08T23:55:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133522-3A701370",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Excite Technology Services has filed a notification regarding unquoted securities, which typically relates to the issuance of options, performance rights, or unlisted convertible instruments to directors, employees, or as part of a capital transaction.",
+        "While non-market-sensitive, the issuance of unquoted securities can have future dilutive implications for ordinary shareholders depending on the volume, strike price, and vesting conditions attached to the instruments.",
+        "Investors should review the specific class, quantity, and terms of the securities issued to assess the degree of potential future dilution and whether the issuance aligns with remuneration or strategic financing objectives."
+      ],
+      "tags": [
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "G11",
+      "company": "G11 RESOURCES LIMITED",
+      "headline": "Zig Zag Copper / Gold Project Exploration Update",
+      "time": "2026-09-08T23:55:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133521-2A1696263",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "G11 Resources has released a market-sensitive exploration update on its Zig Zag Copper/Gold Project, suggesting drilling or sampling results of sufficient materiality to warrant immediate disclosure obligations under ASX Listing Rules.",
+        "Copper/gold project updates carrying market-sensitive flags typically reflect either resource definition progress, high-grade intercepts, or a significant expansion of the known mineralised footprint — all of which are re-rating catalysts for small-cap explorers.",
+        "Investors should scrutinise the specific assay results, drill intercept grades and widths, and proximity to existing resource boundaries to assess whether this upgrades the project's economic viability and potential path to a maiden or upgraded JORC resource."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NUZ",
+      "company": "NEURIZON THERAPEUTICS LIMITED",
+      "headline": "NIH funds Expanded Access Program for NUZ-001 in ALS",
+      "time": "2026-09-08T23:55:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133520-6A1342955",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The US National Institutes of Health (NIH) funding of an Expanded Access Program (EAP) for NUZ-001 in ALS (amyotrophic lateral sclerosis) is a significant third-party validation signal — NIH endorsement reduces perceived clinical risk and extends the company's non-dilutive funding runway.",
+        "EAPs, while not a formal Phase III trial, generate real-world safety and efficacy data in treatment-resistant patient populations; positive EAP outcomes have historically accelerated regulatory pathways and bolstered partnership interest from larger pharma players.",
+        "For a small-cap biotech like Neurizon, NIH co-funding materially reduces cash burn associated with ALS programme development and de-risks the path toward a potential IND/BLA submission, making this a meaningful near-term catalyst for investor re-rating."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WPR",
+      "company": "WAYPOINT REIT",
+      "headline": "Appendix 3Y - Hadyn Stephens",
+      "time": "2026-09-08T23:52:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133519-3A701384",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Appendix 3Y filing for Waypoint REIT relates to a change-of-director's-interest notice for Hadyn Stephens, a routine compliance disclosure under ASX Listing Rule 3.19B following any change in a director's relevant interests in securities.",
+        "This is a procedural, administrative filing with no direct financial or operational implications for the REIT; however, directional changes in director holdings (on-market buying vs. selling) can serve as soft sentiment signals for informed investors.",
+        "Investors should note whether the change reflects an open-market purchase (modestly bullish signal) or a disposal, but given the non-market-sensitive classification, the quantum is unlikely to be material to Waypoint's broader institutional investment thesis."
+      ],
+      "tags": [
+        "Board Change",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PE1",
+      "company": "PENGANA PRIVATE EQUITY TRUST",
+      "headline": "NAV 31 August 2026",
+      "time": "2026-09-08T23:51:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133518-2A1696262",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Pengana Private Equity Trust has published its NAV (Net Asset Value) as at 31 August 2026, fulfilling its regular monthly disclosure obligation under ASX Listing Rules for listed investment trusts with private market exposures.",
+        "The August NAV update provides the most current valuation benchmark for PE1's underlying private equity portfolio; the critical metric for market participants is the NAV per unit relative to prevailing market price, which determines the implied premium or discount at which the trust trades.",
+        "Given the illiquid nature of private equity assets and the lag inherent in third-party valuations, any meaningful NAV movement month-on-month warrants investigation into whether it reflects genuine portfolio company performance changes or revaluation methodology adjustments."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GDR",
       "company": "GOLDEN DRAGON MINING LTD",
