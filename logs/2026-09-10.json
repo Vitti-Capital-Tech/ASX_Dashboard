@@ -1,9 +1,389 @@
 {
   "date": "2026-09-10",
-  "total": 123,
-  "market_sensitive_count": 29,
-  "generated_at": "2026-09-09T22:50:28.279723+00:00",
+  "total": 142,
+  "market_sensitive_count": 36,
+  "generated_at": "2026-09-09T22:59:47.079619+00:00",
   "announcements": [
+    {
+      "ticker": "NVX",
+      "company": "NOVONIX LIMITED",
+      "headline": "Lead Customer Feedback Marks Progress in Qualification",
+      "time": "2026-09-09T22:57:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133936-2A1696437",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lead customer feedback signals meaningful progress in the qualification process for NOVONIX's synthetic graphite anode material, a critical de-risking milestone before any commercial offtake can be formalised — reducing technology adoption risk for institutional investors.",
+        "Positive qualification trajectory suggests the company's Riverside facility ramp-up is on track to meet customer technical specifications, which is essential given NVX's reliance on securing binding purchase agreements to justify its capital-intensive production buildout.",
+        "Next steps hinge on full qualification sign-off and conversion to commercial contracts; until then, revenue visibility remains limited and investors should monitor the cadence of qualification updates as a leading indicator of commercialisation timeline."
+      ],
+      "tags": [
+        "Technology",
+        "Production",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DGT",
+      "company": "DIGICO INFRASTRUCTURE REIT",
+      "headline": "Completion of Chicago Sale",
+      "time": "2026-09-09T22:57:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133935-2A1696438",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DiGiCo Infrastructure REIT has completed the sale of its Chicago data centre asset, confirming a disposal that crystalises asset value and likely delivers proceeds that can be redeployed into higher-conviction assets or distributed to unitholders.",
+        "The completion of the Chicago sale is strategically significant as it signals active portfolio management within DGT's data centre REIT structure; the key question for investors is the sale price relative to book value — a premium would be NAV-accretive, while a discount would be dilutive.",
+        "Proceeds deployment strategy is the critical next catalyst — whether directed toward Australian or Asian data centre acquisitions, debt reduction, or distributions will determine near-term unit price trajectory; management commentary on capital allocation should be closely monitored."
+      ],
+      "tags": [
+        "Property",
+        "Merger & Acquisition",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NVX",
+      "company": "NOVONIX LIMITED",
+      "headline": "Notice of Amortisation Event under Funding Agreement",
+      "time": "2026-09-09T22:56:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133934-2A1696436",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "An amortisation event under NOVONIX's funding agreement is a significant negative covenant trigger, implying the company has breached one or more conditions of its financing facility — this could accelerate repayment obligations and materially strain an already tight balance sheet.",
+        "NVX has historically operated with limited cash runway and has relied on government-backed funding (including US DOE support); a forced amortisation event may restrict access to drawdowns, compress liquidity, and potentially require emergency capital raising or asset sales to meet obligations.",
+        "Investors should urgently assess the specific trigger conditions, the quantum of debt subject to accelerated repayment, and whether management has a credible remediation plan — this announcement materially elevates near-term financial and dilution risk."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LM1",
+      "company": "LEEUWIN METALS LTD",
+      "headline": "Proposed issue of securities - LM1",
+      "time": "2026-09-09T22:56:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133933-6A1343133",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Leeuwin Metals is issuing new securities, most likely to fund the tenure acquisition announced concurrently at Forrestania and Lake Johnston — this is an expected and logical funding action for an early-stage explorer executing an aggressive ground acquisition strategy.",
+        "The dilutive impact of the securities issuance will depend on the quantum and pricing; for a small-cap explorer, equity funding of tenure acquisition is standard practice and generally accepted by the market provided the strategic rationale is compelling.",
+        "Investors should review the final terms of the securities issue for placement price relative to market price, volume of shares issued, and whether any escrow or voluntary restriction periods apply to ensure alignment between incoming investors and existing shareholders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CRD",
+      "company": "CONRAD ASIA ENERGY LTD.",
+      "headline": "Completion of Duyung Farm Down",
+      "time": "2026-09-09T22:56:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133932-6A1343132",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Conrad Asia Energy has completed the farm-down of its Duyung PSC interest, confirming the transaction is legally closed and partner obligations have been transferred — removing execution risk that had been overhanging the stock since the deal was announced.",
+        "The farm-down is expected to deliver carried interest and/or upfront cash proceeds to CRD, meaningfully reducing the company's share of upcoming drilling and development capital expenditure at the Mako gas field while retaining material upside exposure.",
+        "Completion shifts focus to the Mako gas development timeline and offtake commercialisation in the Singapore gas market; the strengthened balance sheet post-farm-down provides Conrad with greater optionality to pursue further corporate activity or return capital."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LIT",
+      "company": "LIVIUM LTD",
+      "headline": "Update on Envirostream Insurance Claims",
+      "time": "2026-09-09T22:55:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133931-6A1343131",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Livium's update on Envirostream insurance claims relates to losses sustained at its battery recycling subsidiary, likely from fire or operational damage — the status of claim resolution is critical given Envirostream represents a core operational and strategic asset for LIT.",
+        "The outcome of insurance negotiations will directly impact Livium's near-term cash position and the timeline for resuming full battery recycling operations; a successful claim settlement would be a meaningful balance sheet positive, while a disputed or partial settlement would extend financial pressure.",
+        "Until claims are resolved and operations normalised, revenue from the Envirostream division remains impaired — investors should watch for quantum of the insured loss, expected settlement timing, and any guidance on operational restart as key catalysts."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Letter to Ineligible Shareholders",
+      "time": "2026-09-09T22:54:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133930-2A1696435",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Eureka Group Holdings is issuing letters to ineligible shareholders in the context of its current capital raise, a routine administrative step that notifies shareholders (typically foreign residents) who are legally excluded from participating in the retail entitlement offer.",
+        "This is a standard compliance and regulatory communication with no direct financial impact on EGH's operations or valuation; ineligible shareholders' entitlements will typically be sold through a bookbuild with any premium proceeds remitted to them.",
+        "No actionable investment signal is generated by this announcement — it confirms the capital raise mechanics are proceeding as expected and the process is being managed in accordance with ASX Listing Rules and applicable securities law."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Retail Offer Booklet",
+      "time": "2026-09-09T22:54:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133929-2A1696432",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Eureka Group Holdings is distributing a retail offer booklet as part of an active capital raise, opening participation to retail shareholders following what is likely a prior institutional placement — this represents a dilutive but potentially balance-sheet-strengthening event.",
+        "The terms of the retail offer (price, entitlement ratio, and use of proceeds) are critical; if priced at a discount to market, existing shareholders face dilution, but the raised capital may fund growth in EGH's affordable seniors rental accommodation portfolio.",
+        "Retail participation rates will determine the final capital raise quantum; strong take-up would signal shareholder confidence in the growth strategy, while weak participation could result in sub-scale proceeds relative to stated expansion targets."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Property",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGR",
+      "company": "MIRVAC GROUP",
+      "headline": "Update - Notification of buy-back - MGR",
+      "time": "2026-09-09T22:53:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133928-2A1696434",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Mirvac is actively updating its on-market share buyback program, signalling management's view that MGR units are trading below intrinsic value — a capital management tool that provides modest EPS/DPU accreity at current depressed REIT valuations.",
+        "Buyback activity in a high-rate environment reflects balance sheet confidence; investors should monitor the pace and volume of repurchases as a proxy for management's conviction on NAV recovery.",
+        "Near-term focus will be on whether buyback momentum accelerates ahead of any RBA rate cuts, which would re-rate the broader A-REIT sector and potentially reduce the buyback's attractiveness relative to development reinvestment."
+      ],
+      "tags": [
+        "Finance",
+        "Property",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GNE",
+      "company": "GENESIS ENERGY LIMITED",
+      "headline": "Notice of Acquisition of Shares",
+      "time": "2026-09-09T22:53:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133927-2A1696433",
+      "market_sensitive": false,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "A Notice of Acquisition of Shares in Genesis Energy (NZX/ASX-listed NZ utility) indicates a substantial or notable shareholder has increased their stake, warranting close scrutiny of the acquiring party's identity and strategic intent.",
+        "While classified as non-market sensitive, accumulation by a strategic or institutional investor in a regulated energy utility can be a precursor to a formal takeover approach or block trade activity — particularly relevant given ongoing consolidation in the NZ energy sector.",
+        "Investors should track whether this crosses or approaches the 5% substantial holder threshold, which would trigger further disclosure obligations and could catalyse speculative interest in GNE on both the NZX and ASX."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Energy",
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LM1",
+      "company": "LEEUWIN METALS LTD",
+      "headline": "Leeuwin Acquires Tenure in Forrestania and Lake Johnston",
+      "time": "2026-09-09T22:52:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133926-6A1343130",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Leeuwin Metals has acquired new exploration tenure across Forrestania and Lake Johnston in Western Australia — two highly prospective greenstone belt regions with established nickel sulphide and gold endowment, materially expanding the company's ground position.",
+        "The strategic land grab in Forrestania and Lake Johnston is significant given proximity to historical producers (including First Quantum's Forrestania nickel operations); early-stage tenure acquisition at low cost provides high optionality in a region that remains underexplored at depth and along strike.",
+        "Near-term catalysts include maiden exploration programs (geophysics, geochemistry, drilling) on the new tenure; the market will be watching for any high-priority targets that could support a re-rating from explorer to developer — news flow is expected to accelerate from here."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst MINIs Cash Amounts for Stop Loss Event 9 Sep 26",
+      "time": "2026-09-09T22:52:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133925-2A1696431",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CitiFirst MINI warrants over CTW have triggered a stop-loss event on 9 September 2026, resulting in cash settlement amounts being determined — effectively terminating these leveraged products at their residual value.",
+        "Stop-loss events on MINIs indicate the underlying asset breached its stop-loss level, meaning holders receive only the residual cash amount (if any) above the financing level; this is a total or near-total loss event for long MINI holders.",
+        "This is a structured product administrative event with no direct read-through to the underlying security's fundamentals, but serves as a reminder of the asymmetric risk profile of leveraged MINI products for retail and sophisticated investors."
+      ],
+      "tags": [
+        "Finance",
+        "Other",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NXT",
+      "company": "NEXTDC LIMITED",
+      "headline": "Appendix 3B",
+      "time": "2026-09-09T22:51:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133924-2A1696401",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "NEXTDC's Appendix 3B signals the issuance of new securities — likely related to employee incentive schemes, a placement, or conversion of existing instruments — which introduces a degree of dilution that needs to be sized against NXT's current market cap (~$5B+).",
+        "Given NXT's capital-intensive hyperscale data centre build programme across A1, S4, M3 and international sites, any equity issuance is closely watched; if volume is material, it raises questions about whether NXT is managing its debt headroom carefully.",
+        "Investors should cross-reference the number of securities issued and the issue price against the prevailing share price to assess dilution magnitude; small tranches tied to executive LTI are routine, whereas larger placements could signal accelerated capex funding needs."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GDI",
+      "company": "GDI PROPERTY GROUP",
+      "headline": "Update - Notification of buy-back - GDI",
+      "time": "2026-09-09T22:50:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133923-2A1696430",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "GDI Property Group is updating its on-market share buyback notification, a capital management action that in the context of a small-cap office REIT carries meaningful signalling weight about management's confidence in asset valuations amid a challenged CBD office market.",
+        "GDI's office portfolio has faced occupancy and valuation headwinds; a buyback suggests the board views the unit price discount to NTA as sufficiently wide to justify capital return over asset acquisition or debt reduction.",
+        "With office REITs still navigating hybrid work structural headwinds, the buyback's credibility will hinge on GDI's gearing levels and distributable income sustainability — investors should monitor whether buyback volumes are meaningful relative to daily liquidity."
+      ],
+      "tags": [
+        "Property",
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMP",
+      "company": "AMP LIMITED",
+      "headline": "Update - Notification of buy-back - AMP",
+      "time": "2026-09-09T22:50:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133922-2A1696429",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMP Limited continues its on-market buyback program, consistent with its multi-year capital return strategy following asset divestments (AMP Capital, AMP Life) that left the balance sheet with surplus capital relative to its slimmed-down wealth management and banking operations.",
+        "Sustained buyback activity is a key pillar of AMP's shareholder value proposition in the absence of strong organic earnings growth; the pace of repurchases is a critical metric given AMP's contested history of capital allocation decisions.",
+        "Investors should track the cumulative buyback spend versus AMP's stated capital return targets to assess execution discipline; any slowdown could signal emerging capital requirements from AMP Bank's mortgage book or regulatory buffer demands."
+      ],
+      "tags": [
+        "Finance",
+        "Other",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APE",
+      "company": "EAGERS AUTOMOTIVE LIMITED",
+      "headline": "Eagers strategic investment into Zagame Automotive Group",
+      "time": "2026-09-09T22:49:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133921-2A1696428",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Eagers Automotive is making a strategic minority investment into Zagame Automotive Group, one of Victoria's largest prestige and luxury automotive dealer groups — a targeted move to expand exposure to higher-margin premium vehicle retailing without a full acquisition.",
+        "This transaction is consistent with APE's M&A-led consolidation strategy in Australian automotive retail; a strategic stake (rather than full acquisition) limits upfront capital deployment while securing preferential positioning for a potential future full buyout as Zagame's family ownership evolves.",
+        "The deal's financial impact will depend on the stake size and entry valuation — prestige dealers typically command higher EBIT multiples but generate superior gross profit per unit; investors should watch for capital allocation details and any pathway to majority control in subsequent disclosures."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Retail",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "29M",
+      "company": "29METALS LIMITED",
+      "headline": "Notification regarding unquoted securities - 29M",
+      "time": "2026-09-09T22:49:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133920-3A701470",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "29Metals is notifying ASX of movements in unquoted securities, typically relating to performance rights, options, or other employee incentive instruments that have vested, lapsed, or been issued — a routine compliance disclosure.",
+        "In the context of 29M's operational challenges at Capricorn Copper (flooding, rehabilitation) and constrained balance sheet, any issuance of incentive securities will be scrutinised for alignment between executive remuneration outcomes and shareholder returns.",
+        "This disclosure has minimal direct market impact but investors should confirm whether any securities relate to retention or turnaround incentives, which could provide a read on management's confidence in the operational recovery timeline at key assets."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OIL",
+      "company": "OPTISCAN IMAGING LIMITED",
+      "headline": "Significant Milestone Reached in ACL Digital Pathology Study",
+      "time": "2026-09-09T22:48:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133919-3A701469",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Optiscan Imaging has reached a significant milestone in its ACL Digital Pathology Study, suggesting the company's confocal laser endomicroscopy platform is demonstrating clinical-grade performance in real-time digital pathology — a validation that could open substantial commercial pathways.",
+        "A milestone in a clinical study de-risks the regulatory and commercial pathway for OIL's technology; if the study data supports diagnostic equivalence or superiority to traditional pathology, it meaningfully strengthens the case for hospital and laboratory adoption globally.",
+        "Next steps will likely include publication of study data, potential regulatory submissions (TGA/FDA), and commercial partnership discussions — investors should monitor whether this milestone triggers any existing partnership milestone payments or accelerates discussions with ACL Pathology or other diagnostics groups."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IKE",
+      "company": "IKEGPS GROUP LIMITED",
+      "headline": "2026 ikeGPS Annual Meeting Presenation",
+      "time": "2026-09-09T22:47:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133918-3A701468",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ikeGPS Group (NZX/ASX-listed geospatial SaaS) is presenting at its 2026 Annual Meeting, providing shareholders with a strategic and operational update — a key transparency event for a small-cap technology company with a concentrated North American utility customer base.",
+        "Key investor focus points will be ARR growth trajectory, customer retention rates among US electric utility clients, and progress on expanding the addressable market beyond power infrastructure into telecommunications and other verticals.",
+        "As a dual-listed NZ tech company, IKE's ASX liquidity is thin; AGM presentations can catalyse re-rating if management provides upgraded guidance or confirms contract pipeline momentum, but the non-market-sensitive classification suggests no material new financial disclosures are expected."
+      ],
+      "tags": [
+        "AGM",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GHM",
       "company": "GOLDEN HORSE MINERALS LIMITED",
