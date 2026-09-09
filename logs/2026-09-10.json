@@ -1,9 +1,220 @@
 {
   "date": "2026-09-10",
-  "total": 112,
-  "market_sensitive_count": 27,
-  "generated_at": "2026-09-09T22:41:01.030610+00:00",
+  "total": 123,
+  "market_sensitive_count": 29,
+  "generated_at": "2026-09-09T22:50:28.279723+00:00",
   "announcements": [
+    {
+      "ticker": "GHM",
+      "company": "GOLDEN HORSE MINERALS LIMITED",
+      "headline": "Management Discussion & Analysis June 2026",
+      "time": "2026-09-09T22:45:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133917-6A1343125",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive MD&A for June 2026 signals material operational or financial developments at GHM that management deems require immediate market disclosure — investors should scrutinise commentary around exploration progress, cash position, and any revision to project timelines.",
+        "As a junior minerals explorer, GHM's MD&A will be closely watched for burn rate and cash runway metrics; any indication of funding pressure or impairment of assets could weigh heavily on sentiment given the company's small-cap profile.",
+        "Next steps hinge on the substance of the update — confirmation of exploration milestones or resource upgrades would be re-rating catalysts, while operational setbacks or cost blowouts could trigger a sharp de-rating; full document review is essential before positioning."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADX",
+      "company": "ADX ENERGY LTD",
+      "headline": "Change of Director's Interest Notice - P Fink",
+      "time": "2026-09-09T22:45:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133916-6A1343128",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director P Fink has lodged a change of interest notice for ADX Energy, a routine disclosure obligation under ASX Listing Rules — the filing itself carries no immediate operational significance.",
+        "The nature of the change (acquisition, disposal, or vesting of securities) is the key detail to assess; a disposal by a director could signal reduced insider conviction, while an acquisition would indicate alignment with shareholder interests.",
+        "Given the non-market-sensitive classification, the quantum involved is likely modest and unlikely to move the share price materially; however, pattern-monitoring across multiple director notices filed simultaneously (see also [4] and [6]) may reveal broader insider activity trends."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADX",
+      "company": "ADX ENERGY LTD",
+      "headline": "Change of Director's Interest Notice - E Etienvre",
+      "time": "2026-09-09T22:44:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133915-6A1343127",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director E Etienvre has filed a change of interest notice for ADX Energy, a standard ASX compliance disclosure with no direct operational read-through in isolation.",
+        "Filed concurrently with notices for P Fink and I Tchacos, this simultaneous multi-director filing pattern warrants attention — it may reflect a coordinated equity plan vesting, rights issue participation, or option exercise event across the board.",
+        "Non-market-sensitive classification limits immediate price impact, but aggregating the total directorial movement across all three filings will provide a cleaner picture of net insider buying or selling pressure at the current price level."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OIL",
+      "company": "OPTISCAN IMAGING LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-09T22:43:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133914-3A701467",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Optiscan Imaging has lodged a director interest change notice — a procedural compliance filing that reflects a change in a director's security holdings, with no direct read-through to operational performance.",
+        "The non-market-sensitive designation confirms the transaction is unlikely to be material in scale; however, the direction of the change (buy vs. sell) provides a soft signal on insider conviction regarding the company's commercial pipeline, particularly given OIL's ongoing push into the US medical device market.",
+        "Cross-referencing this notice with the concurrent securities quotation application ([10]) may reveal whether the director's interest change is connected to a recent capital event such as an option exercise or performance rights vesting."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADX",
+      "company": "ADX ENERGY LTD",
+      "headline": "Change of Director's Interest Notice - I Tchacos",
+      "time": "2026-09-09T22:43:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133913-6A1343126",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director I Tchacos has submitted a change of interest notice for ADX Energy, the third such filing from ADX directors on this date — reinforcing the likelihood of a structured corporate event (e.g., option vesting, rights entitlement) affecting multiple board members simultaneously.",
+        "ADX Energy operates oil and gas assets in Austria and is at an active exploration/appraisal stage; understanding whether directors are net buyers or sellers at this juncture is relevant given upcoming well results or funding rounds that could be material.",
+        "Standalone impact is negligible, but in aggregate with [3] and [4], the combined directorial movement should be assessed to determine net insider positioning and whether it constitutes a meaningful signal ahead of any pending catalysts."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EDU",
+      "company": "EDU HOLDINGS LIMITED",
+      "headline": "Update - Notification of buy-back - EDU",
+      "time": "2026-09-09T22:42:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133912-2A1696427",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EDU Holdings has updated the market on its on-market share buyback program — a capital management initiative that signals the board views current share price levels as undervalued relative to intrinsic worth.",
+        "Buyback activity in a small-cap education company provides modest but consistent price support; the key metrics to monitor are the pace of buyback execution relative to the approved volume and whether the program is being actively utilised or sitting largely unused.",
+        "Non-market-sensitive classification suggests this is a routine progress update rather than a new or expanded program; investors should track cumulative buyback spend versus cash reserves to ensure the program does not compromise operational flexibility."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FSA",
+      "company": "FSA GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - FSA",
+      "time": "2026-09-09T22:42:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133911-2A1696426",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "FSA Group, a consumer finance and debt solutions company, has issued a buyback notification update — reaffirming capital discipline and management's view that shares remain attractively priced relative to book or earnings value.",
+        "For a financial services firm like FSA, active buyback execution can be a meaningful EPS accretion lever given its relatively stable cash generation from lending and personal insolvency services; the rate of buyback versus authorised volume is the critical metric.",
+        "Non-market-sensitive status confirms this is an administrative progress disclosure; near-term sentiment impact is limited, but sustained buyback activity over time provides a technical floor and can gradually improve return on equity metrics attractive to value-oriented investors."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GHM",
+      "company": "GOLDEN HORSE MINERALS LIMITED",
+      "headline": "Half Year Accounts",
+      "time": "2026-09-09T22:42:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133910-6A1343121",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "GHM's half-year accounts provide the financial foundation to contextualise the market-sensitive MD&A filed simultaneously ([1]) — together these documents offer a complete picture of the company's financial health, exploration expenditure, and cash position as at the June 2026 half-year end.",
+        "Key metrics to extract include cash and cash equivalents, exploration asset carrying values, any impairment charges, and operating cost run-rate — for a junior miner, a cash runway of less than 12 months would be a material concern requiring a capital raise.",
+        "Non-market-sensitive classification suggests the accounts are broadly in line with prior guidance; however, investors should reconcile the half-year figures with the MD&A narrative to identify any discrepancies or forward-looking risks not fully captured in the statutory numbers."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OIL",
+      "company": "OPTISCAN IMAGING LIMITED",
+      "headline": "Application for quotation of securities - OIL",
+      "time": "2026-09-09T22:40:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133909-3A701466",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Optiscan Imaging has applied to ASX for quotation of new securities, indicating the company has recently issued shares, options, or performance rights that now require official listing — a routine but important administrative step following a capital or incentive event.",
+        "The nature and volume of securities being quoted is critical: if this relates to a capital raise, it confirms new funds have been received (potentially positive for balance sheet and development activities); if it relates to director/employee incentives, it represents modest dilution with limited immediate cash impact.",
+        "Cross-referencing with the director interest change notice ([5]) may clarify whether the quotation is connected to an executive equity plan vesting; either way, investors should monitor the total securities on issue and any resulting dilution to existing holders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KKC",
+      "company": "KKR CREDIT INCOME FUND",
+      "headline": "Net Tangible Asset Backing",
+      "time": "2026-09-09T22:40:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133908-2A1696425",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine NTA disclosure provides transparency on underlying portfolio valuation — a key metric for listed credit funds trading at a premium or discount to NAV, directly influencing relative attractiveness versus peers.",
+        "KKC's NTA backing update reflects the marked-to-market value of its private credit and alternative fixed income portfolio managed by KKR; any movement in NTA per unit signals portfolio performance, FX impacts, or fee drag since the prior period.",
+        "Investors should monitor the NTA-to-market-price spread closely — a widening discount could trigger activist pressure or buyback considerations, while a narrowing spread or premium may support secondary market demand for the fund's units."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AEL",
+      "company": "AMPLITUDE ENERGY LIMITED",
+      "headline": "Juliet-1 well to be completed",
+      "time": "2026-09-09T22:39:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133907-2A1696424",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Amplitude Energy confirming completion of the Juliet-1 well is a significant operational milestone, as well completion moves the asset from a drilled discovery toward first production and cash flow generation — a key de-risking event for this gas-focused junior.",
+        "Juliet-1 completion operations will determine the well's deliverability and production profile; any strong flow rates disclosed would meaningfully upgrade near-term revenue visibility and could attract institutional interest in a tight domestic gas market.",
+        "The market-sensitive classification suggests material new information is embedded — investors should watch for confirmed reserves bookings, tie-in timelines, and offtake arrangements as the next catalysts to close the valuation gap to producing peers."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "ADX",
       "company": "ADX ENERGY LTD",
