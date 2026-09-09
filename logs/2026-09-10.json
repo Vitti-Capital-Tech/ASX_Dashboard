@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-10",
+  "total": 5,
+  "market_sensitive_count": 0,
+  "generated_at": "2026-09-09T22:17:37.515720+00:00",
+  "announcements": [
+    {
+      "ticker": "DOW",
+      "company": "DOWNER EDI LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-09T22:04:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133799-2A1696414",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director of Downer EDI has filed a change of interest notice, indicating a movement in equity holdings — the direction (acquisition or disposal) and scale will determine whether this signals confidence or profit-taking at current price levels.",
+        "Director transactions at DOW carry contextual weight given the company's ongoing portfolio restructuring and focus on urban services; insider buying would reinforce management conviction in the turnaround thesis.",
+        "As a non-market-sensitive filing, the transaction is likely modest in scale, but institutional investors should monitor the cumulative trend of director dealings as a secondary sentiment indicator alongside upcoming earnings catalysts."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DOW",
+      "company": "DOWNER EDI LIMITED",
+      "headline": "Notification regarding unquoted securities - DOW",
+      "time": "2026-09-09T21:59:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133798-2A1696412",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Downer EDI has notified the ASX of unquoted securities activity, most commonly associated with employee share plan allocations, performance rights vesting, or other off-market equity instruments — this represents potential future dilution to be tracked.",
+        "While individually immaterial, recurring unquoted securities notifications can aggregate into meaningful dilution over time, particularly relevant for DOW given its equity-based remuneration structures tied to the urban services transformation strategy.",
+        "Investors should cross-reference this filing with DOW's remuneration report to assess whether vesting conditions tied to operational KPIs have been satisfied, providing an indirect read on internal performance confidence."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GTK",
+      "company": "GENTRACK GROUP LIMITED",
+      "headline": "NZX Director's Interest Disclosure Notice - Gillian Watson",
+      "time": "2026-09-09T21:30:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133797-3A701448",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Gentrack Group's NZX disclosure reveals a change in director Gillian Watson's interest, a routine but important governance filing that maintains transparency across both ASX and NZX listings given GTK's dual-market presence.",
+        "Gentrack has been a strong performer driven by its utility and airport software platforms; any directorial accumulation at current levels could signal board-level confidence in the growth runway, particularly as GTK pursues international expansion.",
+        "As a non-market-sensitive notice, the immediate price impact is negligible, but sustained insider buying patterns at GTK would be a constructive signal for institutional investors already positioned in the high-growth enterprise software segment."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZOR",
+      "company": "ZOR",
+      "headline": "MAP Test",
+      "time": "2026-09-09T20:41:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133796-6A1343104",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This filing from ZOR (Zorya) appears to be a test submission ('MAP Test'), carrying no substantive financial, operational, or strategic information — it should be disregarded entirely for investment decision-making purposes.",
+        "The presence of a test announcement on the live ASX feed raises a minor process/compliance concern regarding ZOR's market disclosure protocols, which warrants a cursory review of their administrative controls.",
+        "No actionable insight can be derived from this filing; institutional investors should await a substantive announcement from ZOR before reassessing the stock."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZOR",
+      "company": "ZOR",
+      "headline": "E Map Test",
+      "time": "2026-09-09T20:41:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133795-6A1343103",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Similar to announcement [4], this ZOR filing ('E Map Test') is a test submission with zero informational content — it represents a second erroneous or test entry appearing on the live ASX market announcement platform.",
+        "The duplication of test filings within a short window amplifies the compliance concern flagged in announcement [4], suggesting a potential systems or process issue within ZOR's market communications infrastructure.",
+        "Institutional investors should place no weight on this filing; however, repeated administrative errors of this nature can marginally erode confidence in a company's governance maturity and investor relations standards."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    }
+  ]
+}
