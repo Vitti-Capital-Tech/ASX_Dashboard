@@ -1,9 +1,486 @@
 {
   "date": "2026-09-09",
-  "total": 311,
-  "market_sensitive_count": 77,
-  "generated_at": "2026-09-09T02:31:54.885086+00:00",
+  "total": 336,
+  "market_sensitive_count": 79,
+  "generated_at": "2026-09-09T03:27:18.597840+00:00",
   "announcements": [
+    {
+      "ticker": "MNC",
+      "company": "MERINO & CO. LIMITED",
+      "headline": "Application for quotation of securities - MNC",
+      "time": "2026-09-09T03:23:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133612-6A1342988",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Merino & Co. Limited has lodged an application for quotation of new securities on the ASX, indicating a recent capital raise, option exercise, or share issuance event has been completed and requires formal listing.",
+        "For a small-cap entity like MNC, the nature and volume of securities being quoted is critical — if tied to a capital raise, dilution impact on existing shareholders must be assessed against the intended use of funds.",
+        "The non-market-sensitive classification suggests this is an administrative lodgement rather than a strategic announcement; however, investors should confirm the security class and quantity to assess any float expansion impact."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MC2",
+      "company": "MARIMACA COPPER CORP.",
+      "headline": "Statement of CDIs on issue - MC2",
+      "time": "2026-09-09T03:21:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133611-6A1342987",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Marimaca Copper Corp. has filed a routine Statement of CDIs (CHESS Depositary Interests) on issue, reflecting the current CDI count available for trading on the ASX — a standard compliance disclosure with no immediate strategic content.",
+        "For foreign-domiciled issuers like MC2, CDI statements provide transparency on the tradeable float; any significant change in CDI numbers versus prior filings could indicate capital activity or cross-listing adjustments worth noting.",
+        "With copper demand fundamentals remaining strong amid energy transition tailwinds, Marimaca's ASX presence via CDIs keeps it on the radar for institutional investors seeking copper development exposure — but this filing alone is procedural."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MMI",
+      "company": "METRO MINING LIMITED",
+      "headline": "Application for quotation of securities - MMI",
+      "time": "2026-09-09T03:19:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133610-2A1696299",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Metro Mining has applied for quotation of new securities, likely linked to a recent capital raise or conversion event, which will expand the tradeable share count and requires assessment of dilution impact on existing shareholders.",
+        "MMI operates the Bauxite Hills Mine in Queensland and any capital activity is contextually important — proceeds directed toward mine life extension, logistics upgrades, or working capital have materially different valuation implications.",
+        "The non-market-sensitive flag indicates this is a routine administrative step; investors should cross-reference with any recent prospectus, cleansing notice, or placement announcement to understand the full capital structure impact."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ANZ",
+      "company": "ANZ GROUP HOLDINGS LIMITED",
+      "headline": "Notification regarding unquoted securities - ANZ",
+      "time": "2026-09-09T03:19:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133609-3A701407",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ANZ Group Holdings has notified the ASX of unquoted securities, a routine disclosure typically relating to employee share schemes, performance rights, or other incentive-based instruments not yet listed for trading.",
+        "For a major bank of ANZ's scale, unquoted security notifications carry minimal market impact but are important for monitoring executive equity incentive structures and potential future dilution from vesting schedules.",
+        "Institutional investors tracking ANZ's capital management and remuneration framework should log this filing as part of ongoing governance oversight, though no immediate earnings or valuation impact is expected."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NMG",
+      "company": "NEW MURCHISON GOLD LIMITED",
+      "headline": "Application for quotation of securities - NMG",
+      "time": "2026-09-09T03:18:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133608-6A1342986",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "New Murchison Gold has applied for quotation of new securities on the ASX, suggesting recent share issuance — likely tied to a placement, rights issue, or option conversion — increasing the need to assess dilution against exploration progress.",
+        "As an early-stage gold explorer, NMG's ability to raise capital efficiently is existential; if the securities relate to a successful capital raise, the key question is whether proceeds are sufficient to fund the next meaningful exploration milestone.",
+        "The non-market-sensitive classification keeps this at procedural status, but investors should monitor subsequent announcements for drill results or resource updates that would provide the fundamental catalyst to justify any capital deployed."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARI",
+      "company": "ARIKA RESOURCES LIMITED",
+      "headline": "Letter to Shareholders",
+      "time": "2026-09-09T03:17:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133607-6A1342985",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Arika Resources has issued a Letter to Shareholders, a communication channel typically used for strategic updates, project milestones, or to address shareholder concerns — the content and tone will determine whether this has any re-rating potential.",
+        "For a small resources company, direct shareholder communications often accompany exploration results, corporate restructuring updates, or responses to market speculation; the non-market-sensitive flag suggests no price-sensitive new information is contained.",
+        "Retail-heavy shareholder registers common in junior miners mean such letters can influence sentiment disproportionately; institutional investors should review for any forward guidance or project timeline updates that may not be fully priced in."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RBR",
+      "company": "RBR GROUP LIMITED",
+      "headline": "Results of Meeting",
+      "time": "2026-09-09T03:11:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133606-6A1342984",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "RBR Group Limited has released its Results of Meeting, confirming the outcome of a recent general or annual meeting — the key data point is whether all resolutions passed or if any faced significant opposition from shareholders.",
+        "Any defeated resolution — particularly around capital issuance authorities, director elections, or remuneration reports — would be a governance red flag warranting deeper analysis of shareholder sentiment and board stability.",
+        "The non-market-sensitive classification suggests resolutions passed without controversy; however, investors should review proxy voting percentages as elevated 'against' votes on remuneration or capital resolutions can be leading indicators of future board-shareholder tension."
+      ],
+      "tags": [
+        "AGM",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FPH",
+      "company": "FISHER & PAYKEL HEALTHCARE CORPORATION LIMITED",
+      "headline": "Notification regarding unquoted securities - FPH",
+      "time": "2026-09-09T03:10:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133605-2A1696298",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Fisher & Paykel Healthcare has notified the ASX of unquoted securities, a routine administrative disclosure typically linked to employee equity plans — standard practice for a dual-listed (NZX/ASX) healthcare major of FPH's profile.",
+        "Given FPH's strong institutional following and premium valuation multiples driven by its respiratory care and homecare device portfolio, governance-watchers will note the structure of any new equity incentives as a signal of management retention strategy.",
+        "No material valuation impact is expected from this filing; however, FPH remains a high-quality compounder where any incremental equity dilution from long-term incentive plans is typically well-absorbed given its consistent revenue growth and margin expansion track record."
+      ],
+      "tags": [
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARI",
+      "company": "ARIKA RESOURCES LIMITED",
+      "headline": "Notice of General Meeting/Proxy Form",
+      "time": "2026-09-09T03:10:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133604-6A1342982",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Arika Resources is convening a General Meeting, signalling a pending shareholder vote on matters that could include capital structure changes, director appointments, or strategic transactions — details of which will be material to minority holders.",
+        "As a small-cap explorer, any resolutions tied to share issuances or asset acquisitions carry outsized dilution or re-rating risk given typically thin liquidity on the register.",
+        "Investors should review the proxy form carefully for resolutions involving related-party transactions or placement ratifications, which are common catalysts for post-meeting volatility in junior resource names."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FPH",
+      "company": "FISHER & PAYKEL HEALTHCARE CORPORATION LIMITED",
+      "headline": "Notification regarding unquoted securities - FPH",
+      "time": "2026-09-09T03:09:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133603-2A1696297",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Fisher & Paykel Healthcare has notified the ASX of unquoted securities, most likely reflecting employee share plan or option activity — a routine but structurally important disclosure for tracking potential future dilution.",
+        "FPH's consistent use of equity-based compensation aligns management incentives with long-term shareholder value, a positive governance signal for a NZX/ASX dual-listed healthcare leader with strong recurring revenue dynamics.",
+        "Investors should monitor the cumulative volume of unquoted securities on issue relative to total share count; for FPH, dilution from staff plans has historically been modest and well within institutional tolerance thresholds."
+      ],
+      "tags": [
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IFX",
+      "company": "INTERNATIONAL FINANCE CORPORATION",
+      "headline": "Application for quotation of securities - IFX",
+      "time": "2026-09-09T03:07:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133602-2A1696294",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The International Finance Corporation (IFC) — the private-sector arm of the World Bank Group — is applying to quote new securities (IFX) on the ASX, expanding its Australian dollar debt issuance program for institutional and retail fixed-income investors.",
+        "IFC-issued bonds typically carry AAA/Aaa credit ratings, making this a high-grade addition to the ASX fixed-income market and relevant for yield-seeking investors in a still-elevated rate environment.",
+        "The quotation application is a procedural step; investors should await the final pricing supplement to assess coupon, maturity, and relative value against comparable sovereign and supranational paper."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FPH",
+      "company": "FISHER & PAYKEL HEALTHCARE CORPORATION LIMITED",
+      "headline": "Notification regarding unquoted securities - FPH",
+      "time": "2026-09-09T03:07:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133601-2A1696296",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second unquoted securities notification from Fisher & Paykel Healthcare in the same filing window suggests multiple tranches or plan categories are being updated simultaneously — likely options or restricted shares across different employee cohorts.",
+        "The dual filing is administrative in nature but underscores FPH's active equity compensation framework, which is used to retain specialist respiratory and acute care engineering talent in a competitive global labour market.",
+        "No immediate price impact is expected; however, institutional holders tracking fully diluted share counts should reconcile both notifications to maintain accurate dilution modelling ahead of FPH's next earnings release."
+      ],
+      "tags": [
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IFX",
+      "company": "INTERNATIONAL FINANCE CORPORATION",
+      "headline": "Disclosure Document - IFC Pricing Supplement",
+      "time": "2026-09-09T03:07:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133600-2A1696293",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The IFC Pricing Supplement discloses the specific economic terms — coupon rate, maturity date, issue size, and use of proceeds — for the newly quoted IFX securities, providing the key inputs needed to assess relative value in the Australian dollar supranational bond market.",
+        "IFC pricing supplements on ASX-quoted instruments historically reflect competitive spreads over Australian government bonds, appealing to superannuation funds and insurers seeking high-grade, socially responsible fixed-income exposure.",
+        "Investors should cross-reference this supplement with the quotation application (announcement [3]) to form a complete picture of the instrument; the combination of AAA credit quality and development-finance mandate makes IFX bonds a defensive, ESG-aligned portfolio tool."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DCO",
+      "company": "DAINTREE CORE INCOME ACTIVE ETF",
+      "headline": "DCOR Estimated Distribution August 2026",
+      "time": "2026-09-09T03:07:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133599-2A1696295",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DCOR has flagged an estimated distribution for August 2026, signalling continued income generation from its actively managed fixed income portfolio — critical for yield-focused ETF investors tracking distribution consistency.",
+        "As a market-sensitive announcement, the estimated distribution quantum will directly influence near-term NAV expectations and investor reinvestment decisions, particularly in a rate-sensitive environment where income ETFs are under scrutiny.",
+        "Investors should monitor the final distribution confirmation against the estimate; any material variance could trigger tactical inflows or outflows, impacting the ETF's AUM trajectory and secondary market pricing."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AIS",
+      "company": "AERIS RESOURCES LIMITED",
+      "headline": "RRS Conference Presentation",
+      "time": "2026-09-09T03:05:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133598-6A1342981",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Aeris Resources' presentation at the RRS Conference is flagged as market-sensitive, suggesting the materials may contain operationally or financially material disclosures beyond standard investor relations content — warranting close review by mining sector analysts.",
+        "Conference presentations from mid-tier copper and gold producers like AIS often include updated production guidance, cost trajectories, or capital allocation signals; any revision to FY guidance would be the key price catalyst to watch.",
+        "Given AIS's leverage to copper price cycles and ongoing operational execution at Tritton, any forward-looking commentary on throughput rates or balance sheet positioning will be closely scrutinised by institutional holders."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DUG",
+      "company": "DUG TECHNOLOGY LTD",
+      "headline": "Vesting of unlisted options issued under the Omnibus LTIP",
+      "time": "2026-09-09T03:00:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133597-6A1342980",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DUG Technology has disclosed the vesting of unlisted options under its Omnibus Long-Term Incentive Plan (LTIP), converting performance-linked equity into exercisable instruments — a signal that underlying vesting conditions (likely tenure and/or financial KPIs) have been met.",
+        "Vesting events can create short-term selling pressure if holders exercise and immediately sell into the market; for a small-cap tech name like DUG, even modest option exercises can move the stock given limited daily liquidity.",
+        "The fact that LTIP conditions have been satisfied is implicitly positive for operational momentum, suggesting DUG's management believes the business is on track — investors should assess the exercise price versus current market price to gauge dilution and cash inflow to the company."
+      ],
+      "tags": [
+        "Technology",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACW",
+      "company": "ACTINOGEN MEDICAL LIMITED",
+      "headline": "Appendix 3Y-Dr Geoffrey Brooke",
+      "time": "2026-09-09T02:54:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133596-2A1696292",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Actinogen Medical has filed an Appendix 3Y for Dr Geoffrey Brooke, disclosing a change in the director's interest — this is a statutory obligation triggered by any acquisition, disposal, or reallocation of securities by a director.",
+        "For a clinical-stage biotech like ACW, director buying activity is closely watched as a sentiment indicator given the binary nature of drug trial outcomes; any increase in Dr Brooke's holding would be a mild bullish signal on insider conviction.",
+        "The filing is procedural, but investors should examine the underlying transaction detail: whether this reflects open-market purchases, plan participation, or a lapse/cancellation of options will determine the true read-through for sentiment."
+      ],
+      "tags": [
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FOS",
+      "company": "FOS CAPITAL LTD",
+      "headline": "Update - Proposed issue of securities - FOS",
+      "time": "2026-09-09T02:51:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133595-3A701406",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "FOS Capital has issued an update on a proposed securities issuance, indicating the capital raise process is progressing — likely a placement, rights issue, or convertible note that was previously flagged to the market.",
+        "For a small-cap financial company, the terms and pricing of this issuance will be critical: deep discounts to market price are dilutive and bearish, while strategic placements to quality institutional investors at tighter discounts can be re-rating events.",
+        "Investors should await final terms disclosure to assess the use of proceeds, targeted investor profile, and post-raise pro-forma cash position — the 'update' language suggests terms may still be in negotiation, warranting a cautious stance until details are confirmed."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ERD",
+      "company": "EROAD LIMITED",
+      "headline": "Ongoing Disclosure Notices Directors Fixed Trading Plan",
+      "time": "2026-09-09T02:51:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133594-2A1696291",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "EROAD Limited directors have established Fixed Trading Plans under ASX Listing Rule 10.14 or equivalent ongoing disclosure obligations, formalising pre-scheduled share transactions that remove discretion and insider trading risk from director dealings.",
+        "Fixed Trading Plans are a governance best practice signal, particularly relevant for a NZX/ASX dual-listed fleet telematics company navigating a competitive SaaS landscape; they indicate directors are managing their personal portfolios transparently.",
+        "Investors should note the volume, price triggers, and duration of the plans when disclosed — large planned sell-downs could weigh on sentiment, while structured buy plans would reinforce insider confidence in ERD's medium-term trajectory."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACW",
+      "company": "ACTINOGEN MEDICAL LIMITED",
+      "headline": "Application for quotation of securities - ACW",
+      "time": "2026-09-09T02:40:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133593-2A1696290",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Actinogen Medical is applying to quote additional securities on the ASX, most likely shares issued pursuant to a recent capital raise, option exercise, or employee plan — increasing the tradeable float and formalising the on-market status of these instruments.",
+        "For a pre-revenue clinical biotech running Alzheimer's and cortisol-related trials, additional quoted securities typically follow a placement or SPP, meaning new cash has (or is about to) enter the company — a potentially positive liquidity event for funding ongoing trial activities.",
+        "Investors should cross-reference this application with recent capital raise announcements and ACW's stated cash runway to determine whether the new capital materially extends the funding horizon ahead of key XanaMIA or other trial readouts."
+      ],
+      "tags": [
+        "Healthcare",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Daily Net Tangible Asset Statement",
+      "time": "2026-09-09T02:39:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133592-2A1696289",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine daily NTA disclosure for PCI confirms ongoing compliance with ASX transparency requirements for listed investment trusts — no valuation surprises flagged in the headline release.",
+        "Investors should monitor NTA per unit relative to market price to assess any premium/discount dynamics, which can signal entry or exit opportunities in credit-focused LITs.",
+        "With credit markets remaining sensitive to RBA rate trajectory, any sustained NTA erosion or widening discount would warrant closer scrutiny of the underlying fixed-income portfolio quality."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RTG",
+      "company": "RTG MINING INC.",
+      "headline": "Notification of cessation of securities - RTG",
+      "time": "2026-09-09T02:37:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133591-6A1342979",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities at RTG Mining typically signals the expiry or cancellation of options, performance rights, or warrants — a routine lifecycle event with no immediate dilution risk to existing shareholders.",
+        "The reduction in securities on issue modestly tightens the capital structure; however, if the ceased securities were in-the-money options, it removes a potential future funding mechanism the company may have relied upon.",
+        "Investors should cross-reference the ceased security class and volume against RTG's current cash position and project timelines to assess whether the lapse reflects management inaction or a deliberate balance-sheet decision."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TIP",
+      "company": "TEAMINVEST PRIVATE GROUP LIMITED",
+      "headline": "Appendix 3Y - Howard Coleman",
+      "time": "2026-09-09T02:32:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133590-2A1696288",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 3Y filing for director Howard Coleman at TeamInvest Private Group represents a change in director's interest notice — a mandatory disclosure whenever a director's relevant securities change.",
+        "The key investor focus should be on the direction of the change: an increase in holdings signals insider conviction in TIP's private equity investment strategy, while a decrease may prompt questions around sentiment at the board level.",
+        "Given TIP's private markets focus, director alignment through meaningful personal shareholding is a material governance quality indicator; any significant disposal would be a watch point for institutional holders."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LU7",
+      "company": "LITHIUM UNIVERSE LIMITED",
+      "headline": "June 2026 Interim Financial Statements",
+      "time": "2026-09-09T02:32:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133589-6A1342978",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Lithium Universe's June 2026 interim financial statements provide a mid-year snapshot of the company's financial health at a time when junior lithium developers face sustained pressure from depressed spot lithium prices globally.",
+        "Critical metrics to interrogate include cash on hand, operating cash burn rate, and any debt or payables — for an early-stage developer like LU7, the cash runway relative to upcoming exploration or feasibility milestones is the primary valuation driver.",
+        "Any indication of capital raising requirements, going concern notes, or project delays embedded in these interim financials would be a significant negative signal given the already challenging junior lithium funding environment."
+      ],
+      "tags": [
+        "Quarterly",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALK",
+      "company": "ALKANE RESOURCES LIMITED",
+      "headline": "Listing Rule 3.13.1 Disclosure",
+      "time": "2026-09-09T02:28:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133588-6A1342977",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Alkane Resources' Listing Rule 3.13.1 disclosure relates to the granting of securities to directors or employees — typically options or performance rights — as part of remuneration or incentive arrangements, requiring shareholder or ASX approval notification.",
+        "For ALK, a gold and multi-commodity producer with active development assets including Boda-Kaiser, monitoring equity-based compensation issuance is important to track dilution risk relative to the company's current market capitalisation.",
+        "This is a standard administrative filing; however, investors should note the strike price and vesting conditions of any granted securities as these reveal management's internal price expectations and alignment with long-term production targets."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GBR",
       "company": "GREAT BOULDER RESOURCES LIMITED",
