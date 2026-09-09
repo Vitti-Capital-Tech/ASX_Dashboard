@@ -1,9 +1,313 @@
 {
   "date": "2026-09-09",
-  "total": 279,
-  "market_sensitive_count": 73,
-  "generated_at": "2026-09-09T00:57:07.034361+00:00",
+  "total": 295,
+  "market_sensitive_count": 76,
+  "generated_at": "2026-09-09T01:33:09.190209+00:00",
   "announcements": [
+    {
+      "ticker": "COL",
+      "company": "COLES GROUP LIMITED.",
+      "headline": "Update - Dividend/Distribution - COL",
+      "time": "2026-09-09T01:31:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133571-3A701404",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Coles Group's dividend update is an administrative clarification or correction to a previously announced distribution — the 'not market sensitive' classification confirms this is procedural rather than a change in dividend quantum or policy.",
+        "For a major ASX-listed retailer with a yield-focused investor base, any dividend update warrants verification that the record date, payment date, or DRP (Dividend Reinvestment Plan) terms remain unchanged — no surprises are anticipated here.",
+        "Institutional holders should confirm DRP participation deadlines and franking credit details if applicable; no strategic read-through is warranted from this filing."
+      ],
+      "tags": [
+        "Dividend",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TGM",
+      "company": "THETA GOLD MINES LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-09-09T01:27:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133570-6A1342967",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Trading pause initiated by TGM signals a potentially material, undisclosed corporate event is imminent — likely a capital raise, M&A activity, or a significant operational development at its South African gold projects.",
+        "As a junior gold miner with ongoing development needs at the Theta Gold Project (Limpopo), any upcoming announcement will be scrutinised for dilution risk or strategic value — the market will be on high alert given the 'market sensitive' flag.",
+        "Investors should await the resumption announcement closely; historical patterns for small-cap miners suggest trading halts frequently precede capital raises or joint venture deals, both of which carry significant price re-rating potential in either direction."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AVH",
+      "company": "AVITA MEDICAL INC.",
+      "headline": "Notification regarding unquoted securities - AVH",
+      "time": "2026-09-09T01:20:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133569-3A701403",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Avita Medical's notification regarding unquoted securities is a routine administrative filing — typically relating to the issuance of performance rights, options, or restricted stock units to employees or directors under an incentive plan.",
+        "Marked as not market sensitive, this filing carries no immediate valuation impact; however, it contributes incrementally to the fully diluted share count, which institutional investors should track for long-term dilution modelling.",
+        "No action is required beyond updating capital structure models; the filing reflects standard equity compensation governance for a dual-listed (ASX/NASDAQ) medical technology company."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ELT",
+      "company": "ELEMENTOS LIMITED",
+      "headline": "Tin & Tungsten Conference Presentation - Shaw and Partners",
+      "time": "2026-09-09T01:15:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133568-2A1696281",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Elementos' presentation at the Shaw and Partners Tin & Tungsten Conference is a non-deal investor relations exercise, designed to raise awareness of its Cleveland Tin Project (Tasmania) among institutional and retail audiences.",
+        "Tin's structural demand narrative — driven by semiconductor and EV solder applications — provides a constructive backdrop for ELT's messaging, but conference presentations rarely move the needle without accompanying operational news.",
+        "Investors should review the presentation for any updated project timelines, resource estimates, or financing milestones that may have been quietly embedded within the slides — these are occasionally the most actionable elements of conference materials."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VHM",
+      "company": "VHM LIMITED",
+      "headline": "Appendix 4G and Corporate Governance Statement",
+      "time": "2026-09-09T01:12:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133567-3A701402",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "VHM Limited's Appendix 4G and Corporate Governance Statement is a mandatory ASX compliance filing, confirming adherence (or explaining departures from) the ASX Corporate Governance Principles and Recommendations — entirely procedural.",
+        "For a development-stage critical minerals company, governance disclosures are increasingly scrutinised by ESG-focused institutional investors; any material departures from the 'if not, why not' framework could signal board maturity concerns.",
+        "No price-moving content is expected from this filing; it should be reviewed alongside the Annual Report (Announcement [9]) for a complete picture of VHM's governance posture heading into what is likely a capital-intensive project development phase."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OCN",
+      "company": "OCEANA METALS LIMITED",
+      "headline": "Corporate Presentation RRS Gold Coast 2026",
+      "time": "2026-09-09T01:12:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133566-6A1342966",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Oceana Metals' corporate presentation at the RRS Gold Coast 2026 conference is a marketing and visibility exercise for the company's gold-focused asset portfolio — no new operational data is expected to be disclosed beyond existing public information.",
+        "For a small-cap explorer, conference participation signals active investor engagement and management's intent to attract new capital or strategic partners, which can be a soft positive indicator of upcoming corporate activity.",
+        "Investors should assess the presentation for any updated project metrics or news not previously lodged with ASX, though the 'not market sensitive' flag suggests the content is consistent with prior disclosures."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VHM",
+      "company": "VHM LIMITED",
+      "headline": "Annual Report to Shareholders",
+      "time": "2026-09-09T01:12:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133565-3A701401",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "VHM Limited's Annual Report provides the most comprehensive view of the company's financial position, project development status, and strategic direction — critical reading for any investor assessing the company's path to production in the high-purity alumina and mineral sands space.",
+        "Key metrics to extract include cash and cash equivalents (establishing runway), operating expenditure burn rate, and any updates to the Goschen project feasibility or permitting timeline — these will set the near-term investment thesis.",
+        "The annual report, read in conjunction with the simultaneously filed Appendix 4G (Announcement [7]), gives institutional investors a full-year governance and financial audit — any auditor qualifications or going concern notes would be the highest-risk flag to monitor."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AWJ",
+      "company": "AURIC MINING LIMITED",
+      "headline": "Proposed issue of securities - AWJ",
+      "time": "2026-09-09T01:12:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133564-6A1342965",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AWJ's 'Proposed Issue of Securities' filing is the administrative companion to the Union Jack acquisition announced in [2] — it discloses the specific securities (likely shares and/or options) to be issued as consideration or via associated capital raising to fund the deal.",
+        "This filing provides the concrete dilution quantum investors need to assess the net per-share impact of the Union Jack acquisition; the ratio of scrip consideration to cash will determine how the resource upgrade translates into value per existing share.",
+        "Investors should cross-reference the securities issuance terms against the resource upgrade magnitude disclosed in [2] — if the implied acquisition cost per resource ounce/tonne is below in-situ peer valuations, the deal remains accretive despite dilution."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GG8",
+      "company": "GORILLA GOLD MINES LTD",
+      "headline": "Resources Rising Stars Investor Presentation",
+      "time": "2026-09-09T01:10:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133563-6A1342964",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Gorilla Gold Mines is presenting at Resources Rising Stars, a key small-cap investor conference — signalling management is actively seeking to raise its profile and attract speculative capital at an early project stage.",
+        "As a non-market-sensitive update, no material resource estimate, drilling result, or funding news accompanies this release, limiting immediate catalysts for re-rating.",
+        "Investor presentation circuit activity can precede capital raises; investors should monitor for a subsequent funding announcement or resource update that may follow the conference engagement."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AWJ",
+      "company": "AURIC MINING LIMITED",
+      "headline": "Union Jack Acquisition and Major Resource Upgrade",
+      "time": "2026-09-09T01:08:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133562-6A1342847",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "Auric Mining's acquisition of Union Jack represents a material strategic expansion, with the accompanying resource upgrade suggesting the deal is immediately value-accretive and not merely a bolt-on for optionality.",
+        "A 'major resource upgrade' disclosed simultaneously with an acquisition is a high-signal combination — it implies the new asset materially increases the company's total resource base, potentially repositioning AWJ within the peer group on a resource per share basis.",
+        "Investors should quantify the revised total resource tonnes and grade versus pre-acquisition figures, and assess the acquisition cost structure (scrip vs. cash) to determine net accretion — the merger & acquisition classification alongside market sensitivity flags this as a key near-term re-rating catalyst."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FOS",
+      "company": "FOS CAPITAL LTD",
+      "headline": "Proposed issue of securities - FOS",
+      "time": "2026-09-09T01:04:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133561-3A701400",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "FOS Capital has lodged a notice of proposed securities issuance, indicating an imminent capital raise or structured securities placement that will result in share dilution for existing holders.",
+        "Without accompanying details on pricing, scale, or use of proceeds, the quantum of dilution remains unclear — a critical unknown for valuing the impact on existing shareholders.",
+        "This is the first of multiple identical filings from FOS on the same day, suggesting a complex or multi-tranche securities structure may be in play, warranting close scrutiny of the full disclosure documents."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WDS",
+      "company": "WOODSIDE ENERGY GROUP LTD",
+      "headline": "Update - Dividend/Distribution - WDS",
+      "time": "2026-09-09T01:03:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133560-6A1342963",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Woodside Energy has issued an update to its dividend/distribution notice — typically reflecting a currency conversion, record-date clarification, or DRP participation rate confirmation rather than a change to the declared amount.",
+        "Classified as non-market-sensitive, this filing is procedural in nature and does not signal any revision to the quantum of the dividend, preserving income investor expectations.",
+        "For institutional holders managing yield mandates, confirming the finalised per-share distribution figure and payment date from the updated notice is the key action item, with no strategic re-assessment required."
+      ],
+      "tags": [
+        "Dividend",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FOS",
+      "company": "FOS CAPITAL LTD",
+      "headline": "Proposed issue of securities - FOS",
+      "time": "2026-09-09T00:58:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133559-3A701393",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second identical proposed securities issuance notice from FOS Capital on the same day reinforces the likelihood of a multi-tranche or multi-instrument capital structure being executed simultaneously.",
+        "Repeated same-day filings of this type can indicate separate securities classes (e.g. shares plus options, or convertible notes alongside equity), each requiring individual ASX notification — increasing total potential dilution.",
+        "Investors should aggregate all FOS filings from this date to assess the full scope of securities issuance before drawing conclusions on net dilutive impact and capital allocation strategy."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "FOS",
+      "company": "FOS CAPITAL LTD",
+      "headline": "Proposed issue of securities - FOS",
+      "time": "2026-09-09T00:58:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133558-3A701387",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A third proposed securities issuance notice from FOS Capital within the same trading session is highly unusual and points to a materially complex transaction structure involving multiple distinct security types or tranches.",
+        "The cumulative effect of three separate issuance notices meaningfully elevates dilution risk for existing shareholders and raises questions about FOS Capital's capital management discipline and funding urgency.",
+        "Until the full terms, pricing, and strategic rationale are disclosed — including whether this relates to a placement, rights issue, debt conversion, or option series — the overall impact remains uncertain but leans negative for near-term sentiment."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WGX",
+      "company": "WESTGOLD RESOURCES LIMITED.",
+      "headline": "FY27 Guidance and Three-Year Outlook Presentation",
+      "time": "2026-09-09T00:58:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133557-6A1342962",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Westgold Resources has published FY27 guidance alongside a three-year operational outlook, a forward-looking disclosure that provides institutional investors with rare medium-term visibility into production, costs, and capital intensity — a significant positive signal for a mid-tier gold producer.",
+        "The three-year horizon suggests management confidence in mine life, reserve continuity, and balance sheet strength; key metrics to scrutinise include All-In Sustaining Cost (AISC) trajectory, production growth rates, and capital expenditure profiles across that window.",
+        "Releasing multi-year guidance at a time of elevated gold prices materially enhances Westgold's investment case, potentially attracting growth-oriented fund mandates and supporting a re-rating if guidance implies margin expansion or volume uplift versus current consensus."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FOS",
+      "company": "FOS CAPITAL LTD",
+      "headline": "Placement of shares",
+      "time": "2026-09-09T00:58:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133556-3A701385",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "FOS Capital is undertaking a share placement, introducing immediate dilution risk for existing shareholders — the key variables of price, size, and use of proceeds will determine whether this is value-destructive or strategically justified.",
+        "For a small-cap finance company, a placement often signals either a liquidity need or growth capital deployment; without confirmed terms, the market will likely apply a discount to the placement price as a reference point, creating short-term downward price pressure.",
+        "Investors should monitor the placement discount to last traded price and the disclosed use of funds — deployment into revenue-generating assets or lending book expansion would be more constructive than balance sheet repair."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "HPG",
       "company": "HIPAGES GROUP HOLDINGS LTD",
