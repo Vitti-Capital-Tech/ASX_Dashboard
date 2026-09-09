@@ -1,9 +1,104 @@
 {
   "date": "2026-09-10",
-  "total": 194,
-  "market_sensitive_count": 53,
-  "generated_at": "2026-09-09T23:24:31.375001+00:00",
+  "total": 199,
+  "market_sensitive_count": 54,
+  "generated_at": "2026-09-09T23:30:47.068935+00:00",
   "announcements": [
+    {
+      "ticker": "AGE",
+      "company": "ALLIGATOR ENERGY LIMITED",
+      "headline": "Change of Director's Interest Notice x 5",
+      "time": "2026-09-09T23:28:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133993-2A1696458",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Five simultaneous director interest change notices for AGE suggest a coordinated equity event — most likely participation in a recent capital raise or exercise of options — pointing to insider alignment with the company's current strategy.",
+        "The volume of notices (5 directors) is notable; if changes reflect on-market purchases or participation in a placement, it signals board conviction in AGE's uranium exploration thesis at current price levels.",
+        "This is an administrative/disclosure filing with no standalone financial impact, but the pattern of multiple directors acting concurrently warrants monitoring against any concurrent capital raise announcement to assess dilution quantum."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TGM",
+      "company": "THETA GOLD MINES LIMITED",
+      "headline": "TGM Completes First Bond Drawdown of A$51.2 Million",
+      "time": "2026-09-09T23:27:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133992-6A1343110",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TGM has successfully completed its first bond drawdown of A$51.2 million, a critical de-risking milestone that confirms lender confidence in the project and moves the Theta Gold project from development aspiration to funded reality.",
+        "The drawdown materially strengthens TGM's balance sheet and provides near-term construction capital, reducing dilution risk for existing shareholders by substituting equity raises with debt — a meaningful positive for share price support.",
+        "Next steps will focus on deployment of proceeds into project construction; investors should monitor draw schedule adherence, cost-to-completion updates, and any covenant disclosures that signal financial discipline as the project ramps toward production."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AGE",
+      "company": "ALLIGATOR ENERGY LIMITED",
+      "headline": "Application for quotation of securities - AGE",
+      "time": "2026-09-09T23:25:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133991-2A1696455",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AGE has lodged an ASX application to quote new securities, confirming the completion of a capital raise and triggering the formal process for newly issued shares to become tradeable — typically within 1–2 business days of approval.",
+        "The quotation application, viewed alongside the five director interest notices (announcement [2]), indicates a recently closed placement or entitlement offer; the imminent increase in tradeable supply may create short-term selling pressure as new holders establish positions.",
+        "Investors should assess the price at which new securities were issued relative to the prevailing market price to gauge the dilution discount and likely near-term share price overhang once securities are listed."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEC",
+      "company": "MORPHIC ETHICAL EQUITIES FUND LIMITED",
+      "headline": "NTA at 31.08.2026 Pre-tax 1.3364 Post-tax 1.2753",
+      "time": "2026-09-09T23:25:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133990-2A1696456",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MEC's August 2026 NTA of A$1.3364 pre-tax and A$1.2753 post-tax provides a monthly valuation benchmark; investors can compare these figures against the prevailing share price to identify whether the fund is trading at a premium or discount to NAV.",
+        "The pre-to-post-tax NTA spread of ~4.5% (A$0.0611) reflects embedded unrealised capital gains within the portfolio, implying meaningful latent tax liabilities that could crystallise on asset sales and modestly compress realised returns.",
+        "As a routine monthly disclosure, this release carries no strategic surprise; its utility lies in discount/premium tracking for LIC arbitrage strategies and in monitoring NTA trend direction as a proxy for portfolio performance into month-end."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PGY",
+      "company": "PILOT ENERGY LIMITED",
+      "headline": "Invitation to Submit Expressions of Interest",
+      "time": "2026-09-09T23:24:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133989-6A1343070",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PGY's invitation to submit Expressions of Interest signals the company is actively seeking a strategic partner, acquirer, or farm-in party for one or more of its energy assets — a potentially transformative catalyst that could unlock significant value if a transaction proceeds.",
+        "The EOI process introduces M&A optionality, which is typically a near-term positive for a small-cap energy company, as it implies third-party validation of asset value and the possibility of a cash or scrip deal at a premium to market.",
+        "Key risk is process uncertainty — EOIs frequently do not convert to binding transactions, and a failed process could be read negatively; investors should watch for binding term sheet announcements or exclusivity agreements as the next material confirmation of deal progress."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "AGE",
       "company": "ALLIGATOR ENERGY LIMITED",
