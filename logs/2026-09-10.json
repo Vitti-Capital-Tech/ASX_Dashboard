@@ -1,9 +1,600 @@
 {
   "date": "2026-09-10",
-  "total": 142,
-  "market_sensitive_count": 36,
-  "generated_at": "2026-09-09T22:59:47.079619+00:00",
+  "total": 173,
+  "market_sensitive_count": 45,
+  "generated_at": "2026-09-09T23:14:24.358650+00:00",
   "announcements": [
+    {
+      "ticker": "YUG",
+      "company": "YUGO METALS LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-09-09T23:12:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133967-6A1343147",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Yugo Metals is conducting investor outreach via a formal presentation, signalling management is actively seeking to raise its market profile — typical of early-stage explorers seeking to attract retail and institutional capital.",
+        "Without accompanying drill results or resource estimates, the presentation is likely a narrative-building exercise; investors should scrutinise catalysts disclosed within for any near-term newsflow.",
+        "The absence of market-sensitive classification suggests no material new data is being released — focus should remain on upcoming exploration milestones to assess re-rating potential."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMN",
+      "company": "BANNERMAN ENERGY LTD",
+      "headline": "BMN successfully completes A$124M Underwritten Placement",
+      "time": "2026-09-09T23:11:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133966-6A1343124",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Bannerman has successfully closed an A$124M underwritten placement, materially de-risking its balance sheet and providing a substantial funding runway to advance the Etango uranium project in Namibia toward a final investment decision.",
+        "The scale of the raise — underwritten, not just supported — signals strong institutional conviction in the uranium sector thesis at a time when spot and long-term uranium prices remain elevated; demand from both fund managers and strategic investors likely underpins the book.",
+        "Key next step is deployment of proceeds: investors will scrutinise the timeline to FID for Etango-8, with any acceleration of DFS works or offtake negotiations likely to serve as near-term re-rating catalysts."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CEL",
+      "company": "CHALLENGER GOLD LIMITED",
+      "headline": "Investor Webinar",
+      "time": "2026-09-09T23:11:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133965-6A1343145",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Challenger Gold is hosting an investor webinar, a common capital markets engagement tool for junior gold explorers seeking to maintain or grow their shareholder base amid a competitive gold sector.",
+        "No market-sensitive content is flagged, indicating the webinar is likely a project update or management introduction rather than a resource upgrade or financing announcement.",
+        "Investors should monitor whether the webinar precedes a capital raise or exploration catalyst — webinars frequently serve as a precursor to placement activity in the junior resources space."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MFD",
+      "company": "MAYFIELD CHILDCARE LIMITED",
+      "headline": "Change in Substantial Holding",
+      "time": "2026-09-09T23:10:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133964-3A701478",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for Mayfield Childcare is an administrative filing reflecting a shift in a major shareholder's ownership stake, either crossing or falling through the 5% threshold — no operational implications are signalled.",
+        "The identity and direction of the movement (accumulation vs. disposal) is critical context; if a major institution is reducing its position, it could signal fading conviction in the childcare operator's near-term outlook.",
+        "Given MFD's relatively small market capitalisation, any meaningful change in a substantial holder's position can have outsized liquidity and price impact, warranting monitoring of subsequent volume patterns."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ROG",
+      "company": "RED SKY ENERGY LIMITED.",
+      "headline": "Commencement of drilling Yarrow 5 - Innamincka",
+      "time": "2026-09-09T23:09:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133963-3A701477",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ROG has commenced drilling at Yarrow 5 in the Innamincka region, a market-sensitive operational milestone that moves the company from exploration planning into active well testing — a high-risk, high-reward inflection point for this small-cap energy play.",
+        "The Innamincka permit area has historical hydrocarbon shows and the Yarrow structure has been flagged as a priority target; success at Yarrow 5 could materially upgrade the company's resource inventory and trigger a significant re-rating given the current low market capitalisation.",
+        "Investors should track drilling progress updates closely — results are typically binary for micro-cap energy explorers, and any positive flow test or discovery announcement would likely be accompanied by heightened trading volumes and capital raise activity."
+      ],
+      "tags": [
+        "Energy",
+        "Production",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BXB",
+      "company": "BRAMBLES LIMITED",
+      "headline": "Notification of cessation of securities - BXB",
+      "time": "2026-09-09T23:09:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133962-2A1696445",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Brambles (BXB) has notified the market of a cessation of securities, most likely relating to the lapsing or cancellation of performance rights or options under an employee incentive scheme — a routine administrative event.",
+        "The cessation reduces the potential dilution overhang from unvested equity instruments; while individually immaterial, it modestly tightens the fully diluted share count.",
+        "No financial impact is expected given the non-market-sensitive classification; institutional investors should verify the volume and class of securities ceased to confirm immateriality to BXB's capital structure."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LSA",
+      "company": "LACHLAN STAR LIMITED",
+      "headline": "Investor Presentation - Resources Rising Stars",
+      "time": "2026-09-09T23:08:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133961-6A1343144",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Lachlan Star presented at the Resources Rising Stars conference, a well-attended forum targeting resource-focused retail and small-cap institutional investors — reinforcing management's ongoing capital markets engagement strategy.",
+        "Participation in a recognised industry conference can broaden the shareholder register and improve liquidity for a small-cap miner, though tangible re-rating requires concurrent operational news.",
+        "With no market-sensitive content disclosed, the presentation is unlikely to move the stock materially; upcoming exploration or development milestones remain the key price drivers to watch."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AQZ",
+      "company": "ALLIANCE AVIATION SERVICES LIMITED",
+      "headline": "Change of Director's Interest Notice - Lange",
+      "time": "2026-09-09T23:08:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133960-2A1696444",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for Alliance Aviation Services (AQZ) indicates a director named Lange has altered their shareholding — either through on-market purchase, sale, or vesting of equity incentives.",
+        "Director share transactions are closely watched as sentiment signals; a purchase would indicate insider confidence in the stock's trajectory, while a sale may raise questions about near-term outlook.",
+        "Without the specific transaction details (buy vs. sell, quantum), the net impact is indeterminate — investors should review the full notice to assess directional signal strength relative to AQZ's current valuation."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GNC",
+      "company": "GRAINCORP LIMITED",
+      "headline": "Transformation update and reconfirmation of FY26 guidance",
+      "time": "2026-09-09T23:08:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133959-2A1696443",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GrainCorp's reconfirmation of FY26 guidance alongside a transformation update is a confidence-building signal for institutional investors who have been watching closely whether management can execute on its strategic reshaping amid volatile grain volumes and weather-driven earnings variability.",
+        "The explicit reconfirmation — rather than a guidance upgrade — suggests the underlying agri-logistics business is tracking in line with expectations, providing earnings certainty at a time when agricultural commodity flows and port throughput remain key swing factors.",
+        "The transformation narrative is critical: investors will assess whether announced initiatives (cost efficiency, digital/supply chain upgrades, or asset optimisation) are generating tangible margin improvement, with the FY26 results season the key accountability moment."
+      ],
+      "tags": [
+        "Results",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CEL",
+      "company": "CHALLENGER GOLD LIMITED",
+      "headline": "Hualilan Roadmap Targets Production by Early 2029",
+      "time": "2026-09-09T23:08:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133958-6A1343142",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Challenger Gold has published a definitive production roadmap targeting first gold output from the Hualilan project in Argentina by early 2029 — a concrete timeline that converts speculative exploration upside into a project development schedule, reducing investor uncertainty.",
+        "A 2029 production target implies a multi-year capital and permitting journey, meaning near-term catalysts will pivot to milestones such as feasibility study completion, environmental permitting, and debt/equity financing arrangements rather than operational cash flows.",
+        "Jurisdictional risk in Argentina — including currency controls, fiscal policy instability, and royalty frameworks — remains a material overhang; investors will need to weigh project-level economics against the macro environment as the company advances through development stages."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GT1",
+      "company": "GREEN TECHNOLOGY METALS LIMITED",
+      "headline": "Seymour Project Granted Environmental Assessment Completion",
+      "time": "2026-09-09T23:07:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133957-6A1343143",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Green Technology Metals has secured Environmental Assessment Completion for the Seymour lithium project in Ontario, Canada — a landmark regulatory milestone that removes a critical gating item and materially de-risks the project's path to development approval.",
+        "Environmental clearance is often one of the longest-lead and most uncertain stages in North American project permitting; its completion positions GT1 to advance to construction approvals and engagement with potential strategic partners or offtake counterparties in the battery metals supply chain.",
+        "With global OEM and battery manufacturers actively seeking ex-China lithium supply, this regulatory catalyst could meaningfully improve GT1's attractiveness as an acquisition or partnership target, particularly given the project's proximity to key North American EV manufacturing hubs."
+      ],
+      "tags": [
+        "Mining",
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MKR",
+      "company": "MANUKA RESOURCES LTD.",
+      "headline": "High Grade Gold Drill Intersections from Pipeline Ridge",
+      "time": "2026-09-09T23:05:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133956-2A1696442",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Manuka Resources has reported high-grade gold drill intersections from Pipeline Ridge, a material exploration result that could expand the known resource envelope at its NSW gold project and drive an upgrade to the existing mineral resource estimate.",
+        "The term 'high grade' is pivotal — in a gold market where spot prices are near record highs, even incremental resource additions at elevated grades carry disproportionate economic value; the market will focus on headline intercept grades (g/t Au) and widths to assess resource extension potential.",
+        "Next steps will centre on infill and extensional drilling to define continuity of the mineralised system, followed by an updated MRE — both of which would be near-term re-rating catalysts and could support future capital raises or strategic discussions."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DXI",
+      "company": "DEXUS INDUSTRIA REIT.",
+      "headline": "Update - Notification of buy-back - DXI",
+      "time": "2026-09-09T23:05:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133955-3A701476",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Dexus Industria REIT (DXI) has updated its on-market share buyback notification, confirming the buyback program remains active — a positive capital management signal indicating management views units as undervalued relative to NTA.",
+        "Buybacks in A-REITs are relatively uncommon and typically accretive to per-unit NTA and distributions when executed at a discount to net tangible assets, benefiting remaining unitholders.",
+        "Investors should track the pace and volume of buyback activity; an accelerating buyback could signal management's growing conviction in the discount to intrinsic value and provide technical price support."
+      ],
+      "tags": [
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DRO",
+      "company": "DRONESHIELD LIMITED",
+      "headline": "Chief Financial Officer Appointment & Trading Update",
+      "time": "2026-09-09T23:05:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133954-2A1696440",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DroneShield (DRO) has appointed a new Chief Financial Officer alongside a trading update — the CFO hire at a high-growth defence technology company signals a maturation of the business and preparation for increased financial rigour and potential capital markets activity.",
+        "The concurrent trading update is the key data point; if revenues or contract wins are flagged positively, this announcement could carry meaningful re-rating potential for DRO given its elevated market expectations.",
+        "A CFO appointment paired with a trading update often precedes a capital raise or uplift in institutional engagement — investors should assess whether guidance has been upgraded or contract pipeline metrics have improved materially."
+      ],
+      "tags": [
+        "Technology",
+        "Board Change"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BSR",
+      "company": "BISON RESOURCES LIMITED",
+      "headline": "Investor Presentation - RRS Gold Coast Conference",
+      "time": "2026-09-09T23:04:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133953-6A1343141",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Bison Resources presented at the Resources Rising Stars Gold Coast conference, a targeted forum for junior resource companies seeking retail and boutique fund exposure — consistent with a profile-building strategy.",
+        "Conference presentations rarely move the needle on their own; the investment case for BSR hinges on upcoming drilling results or resource definition activities disclosed within the presentation.",
+        "No market-sensitive content was flagged, suggesting no material new operational data was released; investors should await substantive exploration newsflow before reassessing the stock's risk/reward profile."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ODA",
+      "company": "ORCODA LIMITED",
+      "headline": "Senior Leadership and Board Changes",
+      "time": "2026-09-09T23:04:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133952-2A1696441",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Orcoda has announced senior leadership and board changes, a structural shift that typically signals either a strategic pivot, response to underperformance, or preparation for a new phase of growth — the direction depends heavily on the profile of incoming personnel.",
+        "For a micro-cap technology/logistics company like ODA, board composition is critical to investor confidence; the entry of executives with sector-specific expertise or capital markets experience could catalyse renewed institutional interest, while departures of key personnel risk unsettling the operational base.",
+        "Investors should assess whether the changes are accompanied by any updated strategic guidance or operational commentary — standalone leadership changes without strategic context are typically treated as neutral-to-cautious signals until new management establishes credibility."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PSC",
+      "company": "PROSPECT RESOURCES LIMITED",
+      "headline": "Change of Director's Interest Notice x4",
+      "time": "2026-09-09T23:03:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133951-6A1343140",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Prospect Resources (PSC) has lodged four simultaneous Change of Director's Interest Notices, indicating broad-based changes across multiple directors' shareholdings — an unusual volume of notices that warrants closer scrutiny.",
+        "Multiple concurrent director interest changes may reflect a coordinated equity grant, vesting event, or participation in a recent capital raise by the board — the nature (acquisition vs. disposal) is critical to determining sentiment.",
+        "The sheer number of simultaneous notices suggests a structured equity event (e.g. performance rights vesting or placement participation) rather than opportunistic on-market trading; institutional investors should cross-reference with recent capital raise or incentive plan disclosures."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PSC",
+      "company": "PROSPECT RESOURCES LIMITED",
+      "headline": "Application for quotation of securities - PSC",
+      "time": "2026-09-09T23:02:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133950-6A1343139",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Prospect Resources (PSC) has applied for quotation of new securities, confirming the issuance of additional shares that are now seeking ASX listing — this directly follows a capital raise, options exercise, or incentive scheme vesting event.",
+        "The application for quotation introduces new shares into the tradeable float, which can create short-term selling pressure as new holders — particularly placement participants — may seek to realise gains or rebalance positions post-listing.",
+        "Cross-referencing with announcement [9] (multiple director interest changes) suggests the new securities may be linked to a director equity event; the dilutive quantum and issue price relative to current market price are the key variables for assessing near-term impact."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "S32",
+      "company": "SOUTH32 LIMITED",
+      "headline": "Notice of Annual General Meeting",
+      "time": "2026-09-09T23:02:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133948-6A1343129",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "South32's AGM notice is a routine governance milestone, but the meeting agenda and any resolutions tabled — including remuneration reports and board re-elections — will be closely scrutinised given ongoing shareholder focus on capital allocation and commodity exposure (aluminium, manganese, copper).",
+        "Institutional investors should monitor AGM voting outcomes, particularly on remuneration and any shareholder-sponsored resolutions, as proxy advisory recommendations can signal broader governance concerns at major diversified miners.",
+        "No immediate financial impact is expected; however, management commentary at the AGM on FY25 production guidance, cost pressures, and the Hermosa zinc project timeline will be the key near-term catalysts to watch."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMH",
+      "company": "AMCIL LIMITED",
+      "headline": "Update - Notification of buy-back - AMH",
+      "time": "2026-09-09T23:02:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133949-3A701475",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMCIL's buy-back update signals continued capital management discipline from the LIC, consistent with its mandate to return value to shareholders when shares trade at a discount to pre-tax NTA — a positive structural signal for long-term holders.",
+        "On-market buy-backs by LICs like AMH are self-reinforcing: they reduce share count, support NTA per share accretion, and can narrow the persistent NTA discount, making the vehicle more attractive relative to direct equity ownership.",
+        "Investors should track the volume and pace of buy-back activity relative to AMH's authorised limit; an acceleration would indicate management conviction that the discount is material and persistent, warranting more aggressive capital return."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DXC",
+      "company": "DEXUS CONVENIENCE RETAIL REIT",
+      "headline": "Update - Notification of buy-back - DXC",
+      "time": "2026-09-09T23:02:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133947-3A701474",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Dexus Convenience Retail REIT's buy-back update reflects a capital management lever being deployed in an environment where small-cap REITs frequently trade at discounts to NTA, driven by elevated interest rate sensitivity and thin liquidity.",
+        "For a convenience retail-focused REIT, buy-backs signal management's view that the current unit price undervalues the underlying petrol station and convenience asset portfolio — a meaningful contrarian indicator if the discount to NTA is significant.",
+        "Unitholders should assess buy-back volumes against DXC's free cash flow and gearing levels; excessive buy-backs in a rising rate environment could constrain balance sheet flexibility for asset recycling or refinancing."
+      ],
+      "tags": [
+        "Property",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WHC",
+      "company": "WHITEHAVEN COAL LIMITED",
+      "headline": "Update - Notification of buy-back - WHC",
+      "time": "2026-09-09T23:02:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133946-2A1696439",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Whitehaven Coal's buy-back update is a significant capital return signal for a company that has generated substantial free cash flow through elevated thermal and metallurgical coal prices; continued buy-backs underscore confidence in the balance sheet and near-term earnings.",
+        "WHC has been one of the ASX's most aggressive capital returners in recent years — tracking cumulative buy-back spend against authorised limits is critical, as it directly competes with M&A optionality (e.g., further integration of the Daunia and Blackwater acquisitions).",
+        "With coal prices moderating from peak levels, the continuation of buy-backs suggests WHC's board views current prices as still supportive of strong cash generation; any slowdown in buy-back cadence would be a bearish leading indicator for earnings expectations."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WJL",
+      "company": "WEBJET GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - WJL",
+      "time": "2026-09-09T23:01:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133945-3A701473",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Webjet Group's buy-back update reflects management's confidence in the post-demerger capital structure of WJL, signalling that the B2B travel technology business (WebBeds) is generating sufficient free cash flow to fund shareholder returns alongside organic growth investment.",
+        "The buy-back is a notable endorsement of intrinsic value by the board at a time when the newly listed entity is still establishing its re-rating story as a pure-play B2B travel tech platform — reducing share count early strengthens per-share metrics.",
+        "Investors should monitor buy-back volume relative to WJL's trading float, as the post-demerger register may still be experiencing forced selling from index rebalancing; management deploying buy-backs into this technical overhang is tactically astute."
+      ],
+      "tags": [
+        "Technology",
+        "Retail"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BKB",
+      "company": "BLACK BEAR MINERALS LIMITED",
+      "headline": "Investor Presentation - RRS Gold Coast Conference",
+      "time": "2026-09-09T23:01:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133944-6A1343137",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Black Bear Minerals' investor presentation at the RRS Gold Coast Conference is a standard early-stage explorer marketing exercise; the key signal is whether the company is presenting updated resource estimates, drill results, or a path to maiden JORC resource — the absence of market-sensitive flagging suggests no material new data is included.",
+        "For micro-cap gold explorers like BKB, conference presentations are primarily about raising retail and small institutional awareness; the quality of the project pipeline, tenure holdings, and proximity to established gold systems will determine whether the story gains traction.",
+        "Investors should review the presentation for details on cash position and upcoming drill programs; for junior explorers, burn rate versus planned expenditure is the most critical near-term risk factor alongside any capital raise intentions signalled to the market."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFI",
+      "company": "AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
+      "headline": "Update - Notification of buy-back - AFI",
+      "time": "2026-09-09T23:00:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133941-3A701472",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Foundation Investment Company's buy-back update is consistent with AFIC's long-standing capital management framework, typically activated when AMH shares trade at a meaningful discount to pre-tax NTA — directly benefiting long-term shareholders through accretion.",
+        "As one of Australia's largest and most respected LICs with a multi-billion dollar portfolio, AFIC's buy-back activity carries outsized credibility; it signals management's strong conviction that the market is undervaluing the underlying equity portfolio at current price levels.",
+        "The buy-back also competes with AFIC's dividend obligations — given AFI's reputation as an income vehicle, investors should watch whether buy-back activity impacts franking credit reserves or future dividend capacity, though at current scales this is unlikely to be a concern."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KNI",
+      "company": "KUNIKO LIMITED",
+      "headline": "Phase 2 Drilling Expands Mineralised System at Silica Hill",
+      "time": "2026-09-09T23:00:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133943-6A1343138",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kuniko's Phase 2 drilling at Silica Hill has expanded the mineralised system, a technically significant result that demonstrates the deposit has lateral and/or depth continuity beyond initial Phase 1 intercepts — a key de-risking step in the resource definition process.",
+        "Silica Hill is part of Kuniko's Norwegian battery metals portfolio (nickel, cobalt, copper), assets that are strategically aligned with European critical minerals supply chain priorities; expanded mineralisation meaningfully improves the project's attractiveness to European strategic investors and potential EU Critical Raw Materials Act beneficiaries.",
+        "The company's next inflection point will be a formal mineral resource estimate incorporating Phase 2 data — until then, investors are pricing exploration optionality, and continued positive drill results will be needed to sustain share price momentum."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMD",
+      "company": "ARROW MINERALS LTD",
+      "headline": "Notice of General Meeting",
+      "time": "2026-09-09T23:00:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133942-6A1343136",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Arrow Minerals' general meeting notice — marked not market sensitive — likely covers routine resolutions such as share issuance authorities, director elections, or ratification of prior placements; however, the specific agenda items are critical for assessing dilution risk for existing shareholders.",
+        "For a junior minerals explorer, general meetings frequently include approval of options or performance rights grants and placement ratifications; investors should scrutinise the notice of meeting carefully for any resolutions that could increase the share count or alter the capital structure.",
+        "The 'not market sensitive' classification provides some comfort that no transformational transaction (e.g., a major acquisition or large capital raise) is being tabled; the meeting is likely procedural, but shareholder engagement on remuneration and governance remains relevant."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MIR",
+      "company": "MIRRABOOKA INVESTMENTS LIMITED",
+      "headline": "Update - Notification of buy-back - MIR",
+      "time": "2026-09-09T22:58:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133940-3A701471",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Mirrabooka Investments' buy-back update aligns with its established practice of repurchasing units when they trade at a discount to pre-tax NTA, a direct value-creation mechanism for the smaller/mid-cap focused LIC that has a loyal retail shareholder base.",
+        "MIR's buy-back activity is particularly meaningful given the LIC's smaller size relative to AFIC or Argo — each dollar deployed in buy-backs has a proportionally larger impact on NTA per share accretion and discount compression for remaining unitholders.",
+        "Investors should cross-reference buy-back volumes with MIR's latest NTA disclosure to assess the current discount/premium; a widening discount combined with accelerating buy-backs would be a bullish contrarian signal for value-oriented investors."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "TET",
+      "company": "TETRAGON ENERGY LIMITED",
+      "headline": "RRS Conference Presentation",
+      "time": "2026-09-09T22:58:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133939-6A1343135",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Tetragon Energy's RRS Conference presentation is an investor marketing exercise for what appears to be a small-cap energy company; the absence of a market-sensitive flag confirms no material operational or financial updates are embedded — the primary purpose is awareness and investor engagement.",
+        "Conference presentations by micro/small-cap energy names are an opportunity to assess the quality of the project narrative, management's technical credibility, and near-term catalysts; investors should focus on any disclosed drilling timelines, resource metrics, or funding status.",
+        "The RRS Gold Coast Conference typically attracts speculative retail and small institutional capital; TET's participation signals active investor relations effort, but without new data the near-term price impact is expected to be minimal absent broader sector momentum."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BOC",
+      "company": "BOUGAINVILLE COPPER LIMITED",
+      "headline": "EL01 - Indendent Directors Committee Update",
+      "time": "2026-09-09T22:57:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133938-3A701446",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "The Independent Directors Committee (IDC) update on EL01 signals ongoing governance activity around Bougainville Copper's exploration licence, a critical asset tied to the historically significant Panguna copper-gold deposit in PNG — any progress or setbacks here carry material implications for the company's entire asset base.",
+        "As a 'not market sensitive' Director Notice, the update is likely procedural in nature, reflecting continued stakeholder engagement or administrative steps rather than a definitive licence grant or rejection — BOC's path to reopening Panguna remains contingent on complex political, environmental, and regulatory approvals in the Autonomous Region of Bougainville.",
+        "Investors should monitor whether the IDC update signals alignment or tension with the Bougainville government and Rio Tinto (major shareholder), as any shift in the political or licensing framework could rapidly reprice BOC given its near-zero production status and speculative valuation driven entirely by the Panguna optionality."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance",
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AOK",
+      "company": "AUSTRALIAN OIL COMPANY LIMITED.",
+      "headline": "Domestic Production & International Operations Update",
+      "time": "2026-09-09T22:57:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133937-6A1343134",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Oil Company has provided a combined domestic production and international operations update — a dual-segment disclosure that reflects the company's diversified hydrocarbon exposure, with investor focus likely split between near-term domestic cash generation and the optionality value of offshore assets.",
+        "Key metrics to assess include domestic production volumes, any changes in well performance or operating costs, and the status of international projects (typically higher-risk, higher-reward); any guidance on production rates or revenue run-rates will be the primary share price driver from this release.",
+        "For a small-cap oil company, operational consistency is paramount — any production shortfalls, well workovers, or delays to international milestones could weigh on sentiment, while beats against prior guidance would likely attract speculative buying interest given elevated oil price backdrop."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "NVX",
       "company": "NOVONIX LIMITED",
