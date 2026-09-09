@@ -1,9 +1,256 @@
 {
   "date": "2026-09-10",
-  "total": 217,
-  "market_sensitive_count": 59,
-  "generated_at": "2026-09-09T23:46:59.573059+00:00",
+  "total": 230,
+  "market_sensitive_count": 62,
+  "generated_at": "2026-09-09T23:53:56.097978+00:00",
   "announcements": [
+    {
+      "ticker": "MEX",
+      "company": "MINERALS EXPLORATION LIMITED",
+      "headline": "Investor Presentation - Resources Rising Stars",
+      "time": "2026-09-09T23:51:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134024-6A1343164",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MEX's presentation at Resources Rising Stars — a prominent forum for junior resource companies — is a targeted investor relations exercise aimed at broadening institutional and retail awareness of the company's exploration pipeline.",
+        "As a non-market-sensitive filing, the presentation is unlikely to contain material new information beyond what has been previously disclosed; its primary value is in narrative framing and management accessibility for prospective investors.",
+        "Investors should review the presentation for any updated resource estimates, drill program timelines, or corporate strategy disclosures that may provide incremental clarity on MEX's pathway to resource definition and potential monetisation."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MMS",
+      "company": "MCMILLAN SHAKESPEARE LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-09T23:50:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134023-3A701492",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director of McMillan Shakespeare (MMS) has changed their interest in the company's securities — a routine disclosure required under ASX Listing Rules that reflects a change in direct or indirect holdings.",
+        "The direction of the change (acquisition vs. disposal) is the critical variable; on-market purchases by directors are conventionally interpreted as a positive signal of insider confidence, while disposals may be neutral-to-negative depending on size and stated rationale.",
+        "Given MMS's established position as a leading salary packaging and fleet management business, director interest changes are unlikely to be material in isolation but should be aggregated with other insider transaction patterns for a fuller read on sentiment."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADS",
+      "company": "ADSLOT LTD.",
+      "headline": "Change of Director's Interest Notice - A Dyer",
+      "time": "2026-09-09T23:49:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134022-3A701491",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director A. Dyer has changed their interest in Adslot (ADS) securities, triggering a standard ASX disclosure — the nature and scale of the transaction will determine any signal value for the market.",
+        "Adslot operates in the programmatic advertising technology space, where insider transactions carry heightened significance given the company's ongoing commercialisation phase and the market's sensitivity to any signals of internal confidence or concern.",
+        "Investors should cross-reference this filing with ADS's recent cash position disclosures and revenue trajectory to assess whether director activity aligns with a bullish operational outlook or reflects portfolio management unrelated to company fundamentals."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "1AD",
+      "company": "ADALTA LIMITED",
+      "headline": "Bilingual BIOSeedin Investor Presentation",
+      "time": "2026-09-09T23:49:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134021-3A701490",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AdAlta (1AD) has released a bilingual investor presentation targeting BIOSeedin — likely a Chinese-language and English dual-format document — indicating a deliberate strategy to attract Asian institutional or strategic capital into its biotech pipeline.",
+        "The BIOSeedin platform connection suggests 1AD is actively engaging with Chinese biotech ecosystems, which could open pathways to licensing deals, co-development agreements, or strategic investment from Asia-Pacific pharmaceutical players.",
+        "While not market sensitive, this initiative underscores management's intent to diversify its funding and partnership base beyond domestic markets — a meaningful strategic signal for a clinical-stage biotech with capital-intensive development requirements ahead."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MMS",
+      "company": "MCMILLAN SHAKESPEARE LIMITED",
+      "headline": "Notification of cessation of securities - MMS",
+      "time": "2026-09-09T23:47:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134019-3A701489",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MMS has notified the market of the cessation of securities — most likely the expiry or lapse of performance rights, options, or other equity instruments — a routine but important capital structure housekeeping disclosure.",
+        "Cessation of unvested performance rights or unexercised options reduces the potential dilution overhang on the register, which is marginally positive for existing shareholders from an earnings-per-share and ownership concentration perspective.",
+        "Investors should confirm the class and volume of securities ceased to assess the magnitude of dilution reduction; in the context of MMS's scale and market capitalisation, the impact is likely immaterial but relevant for precise cap table modelling."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NMR",
+      "company": "NATIVE MINERAL RESOURCES HOLDINGS LIMITED",
+      "headline": "NMR delivers another strong gold smelt at Blackjack",
+      "time": "2026-09-09T23:47:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134020-2A1696466",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NMR has completed another gold smelt at its Blackjack project, signalling continued operational momentum and near-term gold production consistency — a key de-risking milestone for a junior miner.",
+        "The 'strong' characterisation of the smelt result suggests meaningful gold recovery volumes, which directly supports near-term revenue generation and reduces reliance on equity capital markets for operational funding.",
+        "Repeated smelt successes build the case for a scalable production profile at Blackjack; investors should watch for aggregate production tonnage and grade disclosure to assess whether output is tracking toward a commercially sustainable run-rate."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LGM",
+      "company": "LEGACY MINERALS HOLDINGS LIMITED",
+      "headline": "Resource Rising Star - Company Presentation",
+      "time": "2026-09-09T23:46:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134018-2A1696464",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Legacy Minerals (LGM) is presenting at Resources Rising Stars, a key marketing event for junior explorers, aiming to raise its profile among retail and emerging institutional investors in the current gold and base metals cycle.",
+        "As a non-market-sensitive presentation, this filing is primarily a brand-building exercise; however, conference presentations by junior miners often catalyse short-term trading interest and improved liquidity in small-cap stocks.",
+        "Investors should assess the presentation for any new details on LGM's flagship project progress, upcoming drill programs, or corporate development activities that could serve as near-term re-rating catalysts beyond the conference narrative."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GG8",
+      "company": "GORILLA GOLD MINES LTD",
+      "headline": "Comet Vale Update",
+      "time": "2026-09-09T23:45:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134017-6A1343163",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "GG8's Comet Vale update is market sensitive, indicating potentially material developments at this historic Western Australian goldfield — likely drilling results, resource estimates, or production milestones that could re-rate the stock.",
+        "Comet Vale is a well-known historical gold producer in the Goldfields region, and any positive update on grades or mineralisation continuity would be highly significant given the project's established geological pedigree.",
+        "Investors should scrutinise drill intercept widths, grades relative to previous benchmarks, and any commentary on resource conversion timelines, as these will determine whether GG8 can attract institutional attention in a competitive junior gold sector."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MEL",
+      "company": "METGASCO LTD",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-09-09T23:45:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134016-2A1696462",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Metgasco (MEL), crossing the 5% ownership threshold — a structural change in the register that warrants monitoring for potential strategic intent or passive accumulation.",
+        "While classified as not market sensitive, substantial holder notices can foreshadow activist positioning, a takeover approach, or strategic partnership discussions, particularly in small-cap energy companies where register concentration matters.",
+        "MEL's existing shareholders should note the identity of the incoming substantial holder and assess whether the stake was acquired on-market or through a placement, as this will inform likely future intentions and any associated liquidity dynamics."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MMS",
+      "company": "MCMILLAN SHAKESPEARE LIMITED",
+      "headline": "Notification regarding unquoted securities - MMS",
+      "time": "2026-09-09T23:44:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134015-3A701488",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "McMillan Shakespeare has issued a notification regarding unquoted securities, typically indicating the allocation of employee incentive securities (options or performance rights) outside the listed market — a routine but important capital structure disclosure.",
+        "Unquoted security issuances under employee share schemes are non-dilutive in the near term but signal ongoing retention and incentive activity; the quantum and vesting conditions will determine any future dilutive impact on EPS.",
+        "Investors should monitor the total volume of unquoted securities on issue relative to the share count, as cumulative issuances under incentive plans can represent a meaningful overhang if vesting conditions are met at scale."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RIV",
+      "company": "RIVCO AUSTRALIA LTD",
+      "headline": "Update - Notification of buy-back - RIV",
+      "time": "2026-09-09T23:44:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134014-2A1696465",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Rivco Australia has filed an update to its on-market buy-back notification, signalling the company is actively returning capital to shareholders — a constructive signal for capital discipline, particularly notable for a smaller ASX-listed entity.",
+        "Buy-back activity at current price levels implies management views the stock as undervalued; for a smaller capitalisation company like RIV, even modest buy-back volumes can provide meaningful price support and reduce float.",
+        "Investors should track the buy-back pace and remaining capacity disclosed in the update — accelerated purchasing would reinforce bullish intent, while a slow or stalled programme could suggest liquidity or cash constraints are limiting execution."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ARD",
+      "company": "ARGENT MINERALS LIMITED",
+      "headline": "Unmarketable Parcel Sale Facility Completed",
+      "time": "2026-09-09T23:44:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134013-6A1343162",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Argent Minerals has completed its Unmarketable Parcel Sale Facility, a process that consolidates and sells shareholdings too small to be cost-effectively traded, streamlining the share register and reducing ongoing administrative overhead.",
+        "Register rationalisation of this nature typically reduces the number of shareholders holding sub-threshold parcels, lowering registry costs and improving the efficiency of future capital management actions such as entitlement offers or dividend distributions.",
+        "While operationally immaterial to Argent Minerals' core mining activities or cash position, a cleaner register can marginally improve institutional investor perception of corporate governance discipline — any proceeds flow to former holders, not the company."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "H3E",
+      "company": "H3 ENERGY LIMITED",
+      "headline": "Farm-Out Progress at Alinya and Warro",
+      "time": "2026-09-09T23:43:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134012-6A1343161",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "H3E is advancing farm-out negotiations across two assets — Alinya and Warro — a dual-asset process that, if successful, would significantly dilute capital expenditure obligations while validating the technical and commercial merit of both projects.",
+        "Farm-out progress on Warro is particularly noteworthy given Warro's status as one of Australia's largest known onshore gas accumulations; securing a credible farm-in partner would be a transformational catalyst for H3E's market capitalisation.",
+        "The market sensitive flag signals meaningful progress rather than a routine update; key variables to assess include the identity and financial capacity of prospective farm-in partners, the implied carry terms, and any indicative valuation benchmarks embedded in the deal structure."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
     {
       "ticker": "MAF",
       "company": "MA FINANCIAL GROUP LIMITED",
