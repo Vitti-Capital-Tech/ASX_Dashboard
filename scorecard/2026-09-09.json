@@ -1,6 +1,6 @@
 {
   "date": "2026-09-09",
-  "generated_at": "2026-09-09T17:44:16.103679+10:00",
+  "generated_at": "2026-09-09T18:46:00.793663+10:00",
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "stats": {
@@ -27,7 +27,7 @@
         "wrong": 116,
         "flat": 0,
         "hit_rate": 45.0,
-        "avg_abnormal_pct": -0.69
+        "avg_abnormal_pct": -0.71
       }
     },
     "spread_pct": 9.07,
@@ -2863,11 +2863,11 @@
       "bucket": "pre_open",
       "conflict": false,
       "session_date": "2026-09-09",
-      "prev_close": 4.52,
+      "prev_close": 4.69,
       "close": 4.88,
-      "return_pct": 7.96,
+      "return_pct": 4.05,
       "index_return_pct": -0.11,
-      "abnormal_pct": 8.07,
+      "abnormal_pct": 4.16,
       "verdict": "wrong"
     },
     {
