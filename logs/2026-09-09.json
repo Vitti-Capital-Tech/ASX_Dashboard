@@ -1,9 +1,582 @@
 {
   "date": "2026-09-09",
-  "total": 249,
-  "market_sensitive_count": 70,
-  "generated_at": "2026-09-09T00:00:42.805852+00:00",
+  "total": 279,
+  "market_sensitive_count": 73,
+  "generated_at": "2026-09-09T00:57:07.034361+00:00",
   "announcements": [
+    {
+      "ticker": "HPG",
+      "company": "HIPAGES GROUP HOLDINGS LTD",
+      "headline": "Notification regarding unquoted securities - HPG",
+      "time": "2026-09-09T00:55:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133555-2A1696280",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Hipages Group has filed a notification regarding unquoted securities, a routine administrative disclosure typically relating to the vesting or issuance of employee performance rights, options, or restricted share units under a long-term incentive plan.",
+        "With no market-sensitive classification, the disclosure is unlikely to represent material dilution or a capital raise event — the practical impact on earnings per share and free float is expected to be negligible in the near term.",
+        "Investors should monitor the quantum of securities issued relative to total shares on issue; if issuance volumes are elevated, it may warrant closer scrutiny of executive remuneration structures and dilution trends."
+      ],
+      "tags": [
+        "Other",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SOP",
+      "company": "SYNERTEC CORPORATION LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-09T00:50:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133554-3A701399",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for Synertec Corporation discloses a movement in a director's shareholding — either an on-market purchase, sale, or securities plan participation — providing a signal on insider conviction levels.",
+        "Director buying on-market is typically interpreted as a positive sentiment signal regarding company prospects, while selling may raise questions about outlook confidence, though the latter is often attributable to personal financial planning rather than fundamental concerns.",
+        "Given the non-market-sensitive classification and small-cap nature of SOP, the transactional impact is minimal; however, the direction and scale of the change should be reviewed as a secondary indicator of management alignment with shareholders."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GRV",
+      "company": "GREENVALE ENERGY LTD",
+      "headline": "RRS Gold Coast Investor Presentation",
+      "time": "2026-09-09T00:49:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133553-6A1342961",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Greenvale Energy's investor presentation at the RRS Gold Coast conference is a capital markets engagement activity designed to raise the company's profile with retail and small-cap institutional investors — a standard promotional exercise for micro-cap energy explorers.",
+        "The non-market-sensitive classification confirms no new material information is being disclosed; the presentation is unlikely to contain earnings guidance, resource updates, or transaction announcements beyond previously released information.",
+        "For investors, the value of this announcement lies in monitoring any increased trading volume or new shareholder interest generated post-conference, which can provide short-term price momentum for thinly traded small-cap energy stocks."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASB",
+      "company": "AUSTAL LIMITED",
+      "headline": "Austal NBIO from Wildcat for Austal USA",
+      "time": "2026-09-09T00:42:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133552-6A1342958",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Austal has received a Non-Binding Indicative Offer (NBIO) from Wildcat for its Austal USA subsidiary — a strategically significant development given Austal USA is the company's crown jewel, holding major US Navy shipbuilding contracts including the LCS and EPF programs.",
+        "The market-sensitive classification signals potential for a significant corporate transaction; Austal USA contributes the majority of group revenue and any sale or partial divestiture could fundamentally reshape the company's valuation and earnings profile.",
+        "Key next steps centre on the Board's assessment of the offer's merit, whether a formal sale process is initiated, and potential regulatory hurdles given Austal USA's defence-sensitive status — CFIUS review and US government contractor approvals could complicate or delay any transaction."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "REV",
+      "company": "REVOLUTION PRIVATE CREDIT INCOME TRUST",
+      "headline": "Monthly Estimate NTA for August 2026",
+      "time": "2026-09-09T00:42:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133551-3A701397",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Revolution Private Credit Income Trust's monthly NTA estimate for August 2026 provides transparency on the trust's net asset value per unit, a key reference metric for investors assessing the discount or premium at which REV trades relative to its underlying portfolio.",
+        "Private credit NTA disclosures are critical for yield-focused investors — any compression in NTA month-on-month could signal credit losses, mark-to-market deterioration in the loan book, or increased provisioning within the underlying portfolio.",
+        "The non-market-sensitive classification suggests NTA movements are within expected range; investors should track the trend across monthly disclosures to assess portfolio credit quality, distribution sustainability, and any deviation from the trust's target return profile."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GSN",
+      "company": "GREAT SOUTHERN MINING LIMITED",
+      "headline": "Resources Rising Stars 2026 Presentation",
+      "time": "2026-09-09T00:38:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133549-6A1342960",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Great Southern Mining's presentation at the Resources Rising Stars 2026 conference is a standard investor relations activity for a junior miner seeking to broaden its shareholder base and attract speculative capital from the small-cap resources community.",
+        "No new material information is expected given the non-market-sensitive classification; the presentation likely consolidates existing project updates, exploration results, and strategic objectives previously disclosed to the market.",
+        "Conference-driven visibility can generate short-term trading interest in micro-cap miners; however, sustained re-rating requires delivery of tangible exploration milestones such as resource upgrades, drill results, or project development decisions."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WSI",
+      "company": "WESTSTAR INDUSTRIAL LIMITED",
+      "headline": "Response to ASX Query Letter",
+      "time": "2026-09-09T00:38:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133550-6A1342959",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Weststar Industrial's market-sensitive response to an ASX query letter signals the exchange has identified unusual trading activity or a potential undisclosed material development, placing the company under heightened regulatory scrutiny.",
+        "ASX query responses of this nature often precede disclosure of price-sensitive information such as a capital raise, earnings revision, asset transaction, or significant contract — investors should treat the market-sensitive flag as a red flag for information asymmetry risk.",
+        "Until the full content of the response is assessed, the disclosure creates uncertainty; failure to adequately address the ASX's concerns could result in a trading halt or suspension, adding near-term downside risk for existing holders."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RLC",
+      "company": "REEDY LAGOON CORPORATION LIMITED",
+      "headline": "Proposed issue of securities - RLC",
+      "time": "2026-09-09T00:36:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133548-3A701396",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Reedy Lagoon Corporation's proposed issue of securities signals an upcoming capital raise, most likely a placement or rights issue, which represents a potential dilution event for existing shareholders depending on the pricing and scale of the issuance.",
+        "For a micro-cap explorer like RLC, capital raises are a routine funding mechanism to sustain exploration activity; however, the terms — particularly the discount to the prevailing share price — will be the critical determinant of market reaction and dilution severity.",
+        "Investors should monitor the subsequent Appendix 3B for the full details of the issuance including the number of securities, issue price, use of proceeds, and whether the raise is underwritten — these factors will determine the net impact on the balance sheet and exploration runway."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DJW",
+      "company": "DJERRIWARRH INVESTMENTS LIMITED",
+      "headline": "Notification of cessation of securities - DJW",
+      "time": "2026-09-09T00:33:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133547-3A701395",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Djerriwarrh Investments' notification of cessation of securities relates to the expiry or lapse of previously issued options, rights, or other financial instruments — a routine administrative event common for listed investment companies managing structured equity programs.",
+        "The cessation of securities is technically accretive to remaining shareholders as it reduces the potential diluted share count; however, the non-market-sensitive classification confirms the quantum is immaterial relative to total securities on issue.",
+        "For DJW, a listed investment company focused on income generation through dividends and option-writing strategies, this disclosure is standard housekeeping and has no meaningful impact on the company's NAV, dividend capacity, or portfolio composition."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REV",
+      "company": "REVOLUTION PRIVATE CREDIT INCOME TRUST",
+      "headline": "Update - Dividend/Distribution - REV",
+      "time": "2026-09-09T00:33:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133546-3A701394",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "REV has issued a distribution update, confirming ongoing income payments to unitholders — a key signal that the private credit portfolio remains performing and cash flows are being returned as expected.",
+        "For a private credit trust, consistent distribution delivery is critical to maintaining investor confidence; any change in quantum or frequency would signal underlying credit stress, making this update a positive continuity marker.",
+        "Investors should monitor the distribution rate relative to the RBA cash rate trajectory — private credit spreads are under pressure as rates plateau, and future distribution sustainability depends on loan book repricing dynamics."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RG8",
+      "company": "REGAL ASIAN INVESTMENTS LIMITED",
+      "headline": "Notification of cessation of securities - RG8",
+      "time": "2026-09-09T00:29:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133545-2A1696279",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "RG8 has notified the ASX of the cessation of securities, most likely relating to the expiry or lapse of options, rights, or performance shares — a routine but administratively important corporate action.",
+        "Cessation of securities reduces the potential dilutive overhang on the register; depending on the volume and type of securities ceased, this can be marginally positive for existing shareholders by eliminating future dilution risk.",
+        "Investors should cross-reference the cessation notice with RG8's capital structure disclosures to assess whether this reflects expiry of unexercised options (suggesting weak price performance vs. strike) or a planned vesting outcome."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RG1",
+      "company": "REGAL PARTNERS GLOBAL INVESTMENTS LIMITED",
+      "headline": "Notification of cessation of securities - RG1",
+      "time": "2026-09-09T00:27:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133544-2A1696277",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "RG1 has lodged a notification of cessation of securities, consistent with standard ASX Listing Rule requirements following the lapse, cancellation, or expiry of performance rights, options, or similar instruments.",
+        "As with other Regal-affiliated entities, the cessation reduces theoretical dilution from the existing securities ledger, which is a minor technical positive for net asset value per share calculations.",
+        "Given RG1 is a listed investment company managed by Regal Partners, investors should assess whether cessations reflect staff/management incentive structures and whether replacement equity grants are imminent, which could re-introduce dilution risk."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NWS",
+      "company": "NEWS CORPORATION..",
+      "headline": "Appendix 3C",
+      "time": "2026-09-09T00:26:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133543-2A1696278",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "NWS has filed an Appendix 3C, which relates to the issue of quoted securities — this is a procedural notification typically accompanying a new tranche of shares, options, or performance rights being admitted to quotation.",
+        "For a large-cap global media company like News Corp, routine Appendix 3C filings relating to employee equity plans or DRP issuances carry minimal market impact but are important for maintaining register transparency.",
+        "Investors should note that repeated Appendix 3C filings (this is the second for NWS in this batch) may indicate ongoing equity plan activity; cumulative dilution from such programs should be tracked against EPS guidance over the medium term."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NWS",
+      "company": "NEWS CORPORATION..",
+      "headline": "Appendix 3C",
+      "time": "2026-09-09T00:26:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133542-2A1696276",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second Appendix 3C filing from NWS on the same day suggests either multiple tranches of securities being issued simultaneously or filings related to different classes of NWS securities (e.g., Class A vs. Class B shares or CDIs vs. underlying stock).",
+        "The dual filing is procedurally notable and warrants scrutiny — investors should determine whether the two filings represent separate equity instruments or corrective re-submissions, as the latter could indicate administrative error.",
+        "From a valuation perspective, the aggregate quantum of newly quoted securities across both filings should be assessed relative to NWS's total shares on issue to gauge any material dilution, though at NWS's market cap scale, typical plan issuances are immaterial."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CXZ",
+      "company": "CONNEXION MOBILITY LTD",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-09-09T00:24:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133541-3A701392",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "CXZ has issued its Notice of AGM and Proxy Form, flagging the formal agenda for shareholder consideration — key resolutions to watch include director re-elections, remuneration report approval, and any proposed capital or constitutional changes.",
+        "For a small-cap mobility technology company, AGM resolutions around director composition and executive remuneration are closely watched indicators of board stability and alignment with minority shareholders.",
+        "Investors should review the proxy form for any special resolutions that may signal strategic pivots such as capital raises, share consolidations, or option plan expansions — these are common inflection points for micro-cap companies at annual meetings."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CP8",
+      "company": "CANADIAN PHOSPHATE LIMITED",
+      "headline": "Drilling extends phosphate mineralisation strike to 9km",
+      "time": "2026-09-09T00:23:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133540-2A1696275",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Canadian Phosphate's drilling program has extended phosphate mineralisation strike length to 9km, a material resource expansion that meaningfully increases the geological footprint and potential economic scale of the project.",
+        "A 9km strike is a significant exploration milestone for a phosphate project — extended continuity of mineralisation underpins confidence in resource estimation upgrades and strengthens the investment case ahead of any maiden or updated JORC resource calculation.",
+        "Next catalysts include a formal resource update or MRE, metallurgical test work results, and any strategic partnership or offtake discussions that a larger mineralised envelope could attract from fertiliser industry participants."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AIX",
+      "company": "AI PRIVATE OPPORTUNITIES TRUST",
+      "headline": "AIX 31 August Newsletter",
+      "time": "2026-09-09T00:19:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133539-2A1696274",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AIX has published its August 31 newsletter, providing unitholders with a periodic update on portfolio activity, NAV movements, and private market deal flow — a key transparency mechanism for an unlisted-style trust structure.",
+        "For institutional investors, the newsletter's commentary on private AI-focused deal pipeline, valuation marks, and deployment pace is more material than the headline; any markdown of existing positions or slowdown in capital deployment would be a concern.",
+        "The August period coincides with significant volatility in global AI equity valuations; investors should assess whether AIX's private market marks lag public market corrections, creating potential future NAV write-down risk as reporting catches up."
+      ],
+      "tags": [
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEC",
+      "company": "SPHERIA EMERGING COMPANIES LIMITED",
+      "headline": "Net Tangible Asset Backing",
+      "time": "2026-09-09T00:18:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133538-2A1696272",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "SEC has released its monthly Net Tangible Asset (NTA) backing figure — the primary valuation benchmark for a listed investment company focused on emerging companies, and a direct read-through to whether the portfolio is outperforming or underperforming.",
+        "The NTA per share relative to SEC's prevailing market price determines the discount/premium to NAV, which is the key trading signal for LIC investors; a widening discount may trigger buyback activity or activist pressure.",
+        "Spheria's emerging companies mandate means NTA is highly sensitive to small-cap market conditions; given recent small-cap underperformance on the ASX, investors should scrutinise whether the reported NTA reflects meaningful portfolio erosion versus the prior month."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KIT",
+      "company": "KAPSTREAM INVESTMENT TRUST",
+      "headline": "Update - Dividend/Distribution - KIT",
+      "time": "2026-09-09T00:16:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133537-3A701390",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "KIT has provided a distribution update, confirming the trust continues to return income to investors — consistent with its mandate as a fixed income/cash-plus investment vehicle managed by Kapstream Capital.",
+        "Distribution quantum relative to the prevailing risk-free rate is the central metric for KIT investors; as RBA rates stabilise, the relative attractiveness of the trust's yield spread will determine capital flows in or out of the vehicle.",
+        "Investors in KIT should assess whether the distribution rate is being maintained organically through portfolio yield or supported by capital returns, as the latter would represent an unsustainable distribution policy that erodes long-term NAV."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ECH",
+      "company": "ECHELON RESOURCES LIMITED",
+      "headline": "Echelon Annual Report Appendix 4G 2026",
+      "time": "2026-09-09T00:15:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133536-3A701391",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "ECH has lodged its Annual Report and Appendix 4G for FY2026, with the 4G specifically addressing corporate governance compliance against the ASX Corporate Governance Principles — mandatory for all listed entities and a baseline accountability disclosure.",
+        "For a resources-stage company like Echelon Resources, the annual report is the primary document for assessing cash burn rate, exploration progress, capital adequacy, and any going concern qualifications from the auditor — all critical for junior miner risk assessment.",
+        "Investors should focus on whether the FY2026 annual report reveals sufficient cash runway to fund the next phase of exploration, any changes in resource estimates, and whether the auditor has issued a clean opinion or flagged material uncertainty around the company's ability to continue as a going concern."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ECH",
+      "company": "ECHELON RESOURCES LIMITED",
+      "headline": "Annual Report to shareholders",
+      "time": "2026-09-09T00:15:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133535-3A701388",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Echelon Resources' annual report provides a full-year financial snapshot for investors, though the non-market-sensitive classification signals no material earnings surprises or significant operational developments to rerate the stock near-term.",
+        "As a junior explorer, key metrics to scrutinise include cash burn rate, net tangible assets, and any capitalised exploration expenditure write-downs that may signal project viability concerns or impairment risk.",
+        "Investors should focus on the auditor's going-concern language and remaining cash runway — critical indicators for whether ECH will need to return to market for additional capital in the near term."
+      ],
+      "tags": [
+        "Other",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CPV",
+      "company": "CLEARVUE TECHNOLOGIES LIMITED",
+      "headline": "Notice of General Meeting",
+      "time": "2026-09-09T00:13:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133534-6A1342957",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ClearVue Technologies is calling a General Meeting, likely to seek shareholder approval for a capital raise, share issuance, or other structural resolution — the specific resolutions will determine material impact on existing shareholders.",
+        "For a pre-revenue technology company like CPV, general meetings frequently accompany dilutive equity placements or option conversions; investors should examine the Notice of Meeting closely for any placement ratification or director fee resolutions.",
+        "The non-market-sensitive classification suggests no transformative M&A or major commercial deal is being put to shareholders, limiting near-term re-rating potential from this announcement alone."
+      ],
+      "tags": [
+        "AGM",
+        "Technology",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BPG",
+      "company": "BLACK PEARL GROUP LIMITED",
+      "headline": "Application for quotation of securities - BPG",
+      "time": "2026-09-09T00:12:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133533-2A1696270",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Black Pearl Group's application for quotation of new securities confirms that a previously announced capital raise or securities issuance is progressing through the final ASX administrative approval stage, with new shares/options set to commence trading.",
+        "The quotation application itself is procedural but marks the point at which new securities become freely tradeable, which can create short-term selling pressure if issued to placees at a discount to the prevailing market price.",
+        "Investors should cross-reference the number of securities being quoted against BPG's existing capital structure to assess the degree of dilution and any associated impact on net asset value per share."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BPG",
+      "company": "BLACK PEARL GROUP LIMITED",
+      "headline": "Capital Change Notice",
+      "time": "2026-09-09T00:12:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133532-2A1696269",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Capital Change Notice from Black Pearl Group formalises a change to the company's issued capital, confirming the completion of a securities issuance event — this is the administrative record of dilution already in progress.",
+        "Paired with the simultaneous quotation application (Announcement #3), this confirms BPG has recently executed a capital raise or converted securities, making the combined dilution impact the key concern for existing shareholders.",
+        "Until the terms of the capital change are known (price, volume, and purpose of funds raised), the risk of value dilution without a clear use-of-proceeds narrative remains a watch point for institutional holders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ACW",
+      "company": "ACTINOGEN MEDICAL LIMITED",
+      "headline": "ACW CMO international Xanamem presentation",
+      "time": "2026-09-09T00:11:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133531-2A1696271",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Actinogen Medical's Chief Medical Officer delivering an international presentation on Xanamem signals active engagement with the global scientific and clinical community, which is important for validating the drug's mechanism and building credibility ahead of late-stage trials.",
+        "Xanamem, a cortisol-reducing compound targeting Alzheimer's disease, remains a high-risk, high-reward asset; CMO-level presentations at international forums can attract partnering interest and raise ACW's profile among global biopharma players.",
+        "The non-market-sensitive tag limits immediate catalytic impact, but sustained scientific outreach is a necessary precursor to partnership discussions or out-licensing deals that could unlock significant non-dilutive value for shareholders."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KGN",
+      "company": "KOGAN.COM LTD",
+      "headline": "Change of Director's Interest Notice - RB",
+      "time": "2026-09-09T00:09:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133530-3A701389",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for Kogan.com indicates a director (initials RB) has altered their shareholding — either through an on-market purchase, sale, or vesting of performance rights — which provides a directional signal on insider sentiment.",
+        "If RB represents a purchase of shares on-market, this is a mild bullish signal reflecting management confidence in the company's valuation at current levels; a sale would warrant closer scrutiny given KGN's ongoing turnaround narrative.",
+        "With Kogan navigating a challenging retail environment and margin recovery, director transactions are watched closely as a proxy for insider conviction — the quantum and nature of the change will determine materiality."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EML",
+      "company": "EML PAYMENTS LIMITED",
+      "headline": "2026 Annual General Meeting and Key Dates",
+      "time": "2026-09-09T00:03:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133529-2A1696268",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "EML Payments has confirmed its 2026 AGM date and associated key dates, providing shareholders with the administrative timeline for voting on board, remuneration, and any special resolutions — a routine but important governance milestone.",
+        "For EML, which has undergone significant regulatory scrutiny and strategic restructuring in recent years, the AGM represents a critical forum for management to articulate progress on its simplification strategy and financial recovery trajectory.",
+        "Investors should monitor the AGM notice for any contentious resolutions — particularly around executive remuneration or board composition — which could signal ongoing governance friction or strategic pivot announcements."
+      ],
+      "tags": [
+        "AGM",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QGF",
+      "company": "QGF",
+      "headline": "QGFH Monthly Investment Update August 2026",
+      "time": "2026-09-09T00:02:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133528-2A1696267",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "QGF's August 2026 monthly investment update provides portfolio transparency to unitholders, with performance attribution and positioning data being the key signals for assessing manager skill and portfolio risk relative to benchmark.",
+        "As a listed fund vehicle, the monthly update will disclose net asset value (NAV) movements, top holdings changes, and any notable sector rotations — critical data points for assessing whether the fund is tracking or diverging from its stated strategy.",
+        "Persistent NAV discount to market price, if present, would be a flag for potential activist pressure or board action on capital management; investors should compare reported NAV against the prevailing unit price post-release."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LSF",
+      "company": "L1 LONG SHORT FUND LIMITED",
+      "headline": "Update - Dividend/Distribution - LSF",
+      "time": "2026-09-09T00:01:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133527-3A701386",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "L1 Long Short Fund has issued an updated dividend/distribution notice, confirming the quantum and timing of its latest distribution to unitholders — a direct and positive income signal for yield-focused institutional investors.",
+        "L1 LSF's distribution level is a function of realised gains and income generated by its long/short equity portfolio; any increase in distribution versus prior periods would indicate strong portfolio performance and effective capital recycling.",
+        "For investors tracking L1's NAV accretion versus distribution yield, the update reinforces the fund's income-generation credentials — particularly relevant in an environment where equity fund distributions are being scrutinised against rising fixed-income alternatives."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "QGR",
+      "company": "QGR",
+      "headline": "QGRU Monthly Investment Update August 2026",
+      "time": "2026-09-08T23:59:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133526-2A1696266",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "QGR's August 2026 monthly investment update mirrors the QGF release (#8) and provides unitholders with current portfolio composition, performance metrics, and market commentary — routine but essential for tracking manager execution against strategy.",
+        "The distinction between QGF (hedged) and QGR (unhedged) variants matters significantly for institutional investors with currency overlay mandates; relative performance divergence between the two funds in August would reflect AUD/USD movements during the period.",
+        "Investors should assess whether the unhedged vehicle is adding or destroying relative value versus QGF this month, as this informs tactical allocation decisions between the two fund structures within the same underlying strategy."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GML",
       "company": "GATEWAY MINING LIMITED",
