@@ -1,9 +1,410 @@
 {
   "date": "2026-09-10",
-  "total": 173,
-  "market_sensitive_count": 45,
-  "generated_at": "2026-09-09T23:14:24.358650+00:00",
+  "total": 194,
+  "market_sensitive_count": 53,
+  "generated_at": "2026-09-09T23:24:31.375001+00:00",
   "announcements": [
+    {
+      "ticker": "AGE",
+      "company": "ALLIGATOR ENERGY LIMITED",
+      "headline": "Results of Share Purchase Plan",
+      "time": "2026-09-09T23:22:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133988-2A1696454",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Alligator Energy has completed its Share Purchase Plan, with the non-market sensitive classification suggesting the outcome is broadly in line with prior guidance or expectations and does not represent a material deviation.",
+        "The SPP result will confirm total capital raised and any scale-back applied; given AGE's uranium exploration focus, the funding quantum will inform how much additional drilling or project advancement can be funded in the near term.",
+        "With uranium sentiment remaining constructive globally, any successful capital raise — even modest — extends the company's exploration runway and maintains its ability to participate in a favourable commodity cycle."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INV",
+      "company": "INVESTSMART GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - INV",
+      "time": "2026-09-09T23:20:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133987-2A1696453",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "InvestSmart Group has provided an update to its existing on-market buy-back program — classified as not market sensitive, indicating this is a routine administrative update rather than a change in scale or strategy.",
+        "Buy-back updates of this nature typically confirm volumes purchased to date, remaining buy-back capacity, and compliance with ASX Listing Rule 3.8A requirements — procedural in nature with limited immediate price impact.",
+        "For a small-cap financial services company, the continuation of a buy-back signals board confidence in the balance sheet and may provide modest EPS accretion over time, but the non-sensitive classification limits near-term re-rating potential."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "UWC",
+      "company": "UNDERWOOD CAPITAL LIMITED",
+      "headline": "UWC Investment Portfolio Performance  August 2026",
+      "time": "2026-09-09T23:20:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133986-6A1343150",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "UWC's August 2026 portfolio performance update provides transparency on NAV trajectory — key metric for closed-end fund investors assessing discount/premium to intrinsic value.",
+        "As a non-market-sensitive filing, the update likely reflects routine monthly reporting rather than a material deviation from benchmark, limiting immediate re-rating potential.",
+        "Investors should monitor whether portfolio returns are keeping pace with ASX small-cap benchmarks; persistent underperformance could pressure the share price toward a wider discount to NTA."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AVH",
+      "company": "AVITA MEDICAL INC.",
+      "headline": "Notification regarding unquoted securities - AVH",
+      "time": "2026-09-09T23:19:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133985-3A701483",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AVH's notification of unquoted securities typically signals the issuance of options, performance rights, or restricted stock units to employees or executives — a routine but dilution-relevant event.",
+        "As a US-based medical technology company dual-listed on ASX, equity compensation issuances warrant scrutiny for aggregate dilution load relative to AVH's existing share count.",
+        "Non-market-sensitive classification suggests the quantum is modest and within pre-approved limits; however, investors should track cumulative unquoted securities as a percentage of total capital."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KYN",
+      "company": "KYRON CAPITAL GROUP",
+      "headline": "Notice of 2026 Annual General Meeting/Proxy Form",
+      "time": "2026-09-09T23:19:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133984-2A1696451",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "KYN's 2026 AGM notice sets the formal agenda for shareholder voting — likely covering director elections, remuneration reports, and potential capital management resolutions.",
+        "For a capital group entity, any proposed share issuance authorities or fee approvals at the AGM are worth monitoring as they could influence future dilution or corporate strategy.",
+        "Shareholders should review the proxy form carefully for any non-routine resolutions that may signal a strategic pivot or governance changes under the Kyron Capital banner."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAM",
+      "company": "CLIME CAPITAL LIMITED",
+      "headline": "Update - Notification of buy-back - CAM",
+      "time": "2026-09-09T23:19:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133982-2A1696452",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CAM's on-market buyback update is a modest but positive capital management signal, indicating the board views shares as undervalued relative to NTA — a common dynamic for listed investment companies.",
+        "Active buyback execution reduces share count and can narrow the NTA discount over time, directly benefiting remaining shareholders through accretion.",
+        "Investors should track the pace and volume of buyback purchases; an acceleration in buyback activity would reinforce management's conviction on intrinsic value and provide a technical price floor."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KIT",
+      "company": "KAPSTREAM INVESTMENT TRUST",
+      "headline": "Notification of buy-back - KIT",
+      "time": "2026-09-09T23:19:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133983-3A701482",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "KIT has initiated a formal on-market buy-back, signalling management confidence in the trust's underlying net asset value and a commitment to returning capital to unitholders.",
+        "Buy-backs in fixed income/credit trusts like KIT can be an efficient yield-accretive mechanism, particularly if units trade at a discount to NAV — a key metric investors should verify against current market price.",
+        "Near-term focus should be on the scale and duration of the buy-back program; a meaningful volume commitment would provide a sustained technical floor for the unit price and reduce free float."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NUZ",
+      "company": "NEURIZON THERAPEUTICS LIMITED",
+      "headline": "Application for quotation of securities - NUZ",
+      "time": "2026-09-09T23:18:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133981-6A1343149",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "NUZ's application for quotation of securities indicates newly issued shares or rights are being brought onto the official ASX register — a necessary compliance step following a capital raise or exercise of options.",
+        "The timing of quotation applications post-raise is critical; newly liquid securities can create short-term selling pressure if issued to investors seeking quick liquidity.",
+        "Investors should cross-reference this filing with any recent NUZ capital raise announcements to assess the price at which new securities were issued relative to the current market price."
+      ],
+      "tags": [
+        "Healthcare",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KGN",
+      "company": "KOGAN.COM LTD",
+      "headline": "Change of Director's Interest Notice - DS",
+      "time": "2026-09-09T23:18:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133980-3A701484",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director interest change notice for KGN's 'DS' (likely David Shafer or similar) provides a window into insider sentiment — whether the director is acquiring or disposing of shares is the key signal.",
+        "On-market purchases by directors of a retail-focused e-commerce platform like Kogan signal confidence in the business trajectory, particularly relevant given the competitive pressures in Australian online retail.",
+        "The non-market-sensitive classification suggests the transaction size is not material enough to shift valuation; however, cumulative director buying patterns over time are a meaningful sentiment indicator."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PGF",
+      "company": "PM CAPITAL GLOBAL OPPORTUNITIES FUND LIMITED",
+      "headline": "Results of Share Purchase Plan",
+      "time": "2026-09-09T23:18:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133979-2A1696449",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "PGF has completed its Share Purchase Plan (SPP), with the results announcement being market sensitive — indicating the scale of participation or pricing outcome carries material implications for existing shareholders.",
+        "Key metrics to assess are total capital raised versus the SPP target, the issue price relative to prevailing NTA, and the level of scale-back applied, all of which determine the degree of dilution or accretion for existing holders.",
+        "Strong SPP participation would validate investor confidence in PGF's global equities strategy; however, any significant scale-back or shortfall would signal either muted retail demand or disciplined capital management by the board."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAL",
+      "company": "KALGOORLIE GOLD MINING LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-09T23:17:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133978-6A1343148",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "KAL has entered a trading halt, typically requested ahead of a material announcement — most likely a capital raise, M&A activity, or a significant resource/operational update given the company's gold mining focus.",
+        "The market sensitive classification heightens the probability that the pending news is substantive; investors should anticipate a resumption announcement within ASX's standard two trading day window.",
+        "Until the nature of the halt is disclosed, risk is two-sided — upside if a transformational asset deal or high-grade discovery is announced, downside if the halt relates to an emergency capital raise at a discount."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AM5",
+      "company": "ANTARES METALS LIMITED",
+      "headline": "Proposed issue of securities - AM5",
+      "time": "2026-09-09T23:16:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133977-6A1343090",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AM5's proposed securities issuance signals the company is pursuing fresh capital, likely to fund exploration or operational activity — a dilutive but necessary step for an early-stage metals company.",
+        "The structure and pricing of the proposed issuance (placement vs. rights issue, discount to market) will determine the degree of dilution and market reaction upon finalisation.",
+        "Investors should assess whether the capital raise is supported by a specific project milestone or resource update, which would justify dilution with a clear value-creation pathway."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AM5",
+      "company": "ANTARES METALS LIMITED",
+      "headline": "Proposed issue of securities - AM5",
+      "time": "2026-09-09T23:16:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133976-6A1343085",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second proposed securities issuance filing for AM5 on the same date may indicate a multi-tranche capital raise structure — potentially a placement combined with a separate options or broker-fee securities component.",
+        "Dual filings for the same company on the same day raise the aggregate dilution quantum, which is a more meaningful concern for existing shareholders than a single issuance would suggest.",
+        "Until the full terms and use-of-proceeds are disclosed, the combined capital raise structure creates uncertainty; clarity on whether funds are tied to a specific drill program or acquisition will be the key re-rating catalyst."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AM5",
+      "company": "ANTARES METALS LIMITED",
+      "headline": "Antares Secures $2.57 Million to Fund Exploration",
+      "time": "2026-09-09T23:16:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133975-6A1343083",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Antares Metals has secured $2.57 million in fresh funding, providing an immediate cash injection to advance its exploration programs and extending operational runway without requiring larger, more dilutive institutional placements.",
+        "For a junior explorer, $2.57M is a meaningful but modest raise — investors should scrutinise the terms (placement price vs. market price, any attaching options) to assess dilution impact on the existing register.",
+        "The stated use of funds for exploration suggests the company is in an active drilling or target-definition phase; near-term newsflow from assay results or resource updates will be the critical valuation catalyst to watch."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KCN",
+      "company": "KINGSGATE CONSOLIDATED LIMITED.",
+      "headline": "Nueva Esperanza Resources and Reserves Update September 2026",
+      "time": "2026-09-09T23:16:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133974-2A1696450",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Kingsgate has released an updated Resources and Reserves statement for its Nueva Esperanza project in Chile, a flagship asset — changes to contained metal ounces will directly reprice the stock's fundamental valuation.",
+        "Investors should focus on any increase or decrease in total gold/silver equivalent ounces, the conversion rate from Resources to Reserves (a key bankability metric), and any changes to grade or confidence category classifications.",
+        "An upgraded R&R would materially strengthen the project's financing and development case, potentially accelerating a construction decision timeline; a downgrade would be a significant setback for re-rating prospects."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KGN",
+      "company": "KOGAN.COM LTD",
+      "headline": "Change of Director's Interest Notice - RK",
+      "time": "2026-09-09T23:15:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133973-3A701481",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "KGN director 'RK' (likely Ruslan Kogan, CEO and co-founder) filing a change of interest notice carries significant weight given his role as the company's largest individual shareholder and strategic architect.",
+        "Any reduction in Ruslan Kogan's direct holding would be a bearish signal for market sentiment, while additions would reinforce founder conviction at a time when online retail margins remain under pressure.",
+        "Given Kogan's outsized influence on company direction, insider transaction patterns from 'RK' are among the most closely watched signals by institutional KGN investors."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AVH",
+      "company": "AVITA MEDICAL INC.",
+      "headline": "Notification regarding unquoted securities - AVH",
+      "time": "2026-09-09T23:15:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133972-3A701480",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second AVH unquoted securities notification on the same date suggests multiple tranches of equity compensation or convertible instruments are being processed simultaneously — common in US-listed biotech remuneration structures.",
+        "Dual unquoted securities filings in one day modestly increase aggregate dilution risk; investors should tally the combined securities volume against AVH's total share count to assess materiality.",
+        "For AVH, which is in a commercial growth phase with its RECELL skin restoration platform, equity compensation burn rate should be benchmarked against revenue growth to ensure dilution is value-accretive over time."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COV",
+      "company": "CLEO DIAGNOSTICS LTD",
+      "headline": "CLIA Certified Lab selected - Pivotal US Clinical Validation",
+      "time": "2026-09-09T23:14:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133971-3A701479",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Cleo Diagnostics has secured a CLIA-certified laboratory partner for its pivotal US clinical validation study — a critical regulatory and operational milestone required to advance its diagnostic product toward FDA submission.",
+        "CLIA certification is a non-negotiable prerequisite for clinical laboratory testing in the US; selection of a qualified lab partner de-risks the validation pathway and signals the study is progressing on a credible regulatory timeline.",
+        "This milestone positions COV meaningfully closer to a US market entry, which represents a substantially larger commercial opportunity than Australia — investors should now focus on study commencement dates, expected patient enrolment timelines, and anticipated data readout windows."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ODY",
+      "company": "ODYSSEY GOLD LTD",
+      "headline": "High-Grade Results Expand Cable West and New Argos Lode",
+      "time": "2026-09-09T23:13:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133970-6A1343146",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Odyssey Gold has reported high-grade drilling results that expand both the Cable West zone and a new Argos Lode discovery, increasing the geological footprint of its project and adding optionality to the resource base.",
+        "High-grade intercepts at shallow or accessible depths are the primary value driver for junior gold explorers — investors should scrutinise headline grades, true widths, and drill hole spacing to assess resource continuity and potential scale.",
+        "The identification of a new lode (Argos) alongside Cable West expansion suggests the system is larger than previously modelled, which could catalyse a resource upgrade and attract increased institutional and peer attention to the project."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AR3",
+      "company": "AUSTRALIAN RARE EARTHS LIMITED",
+      "headline": "Pilot Plant moves to Mixed Rare Earth Hydroxide Production",
+      "time": "2026-09-09T23:13:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133969-2A1696446",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Australian Rare Earths has transitioned its pilot plant to Mixed Rare Earth Hydroxide (MREH) production — a pivotal technical milestone that validates the company's processing flowsheet at a pre-commercial scale.",
+        "MREH is a saleable intermediate product accepted by rare earth separation facilities globally; achieving actual production (not just processing) at pilot scale significantly de-risks the path to a Definitive Feasibility Study and potential offtake negotiations.",
+        "This development is particularly strategically significant given global supply chain diversification away from Chinese rare earth dominance — AR3 should now be actively engaging potential offtake partners and downstream processors to monetise this validation."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BRG",
+      "company": "BREVILLE GROUP LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-09T23:13:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133968-2A1696448",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director at Breville Group has filed a Change of Director's Interest Notice, indicating a modification in their shareholding or security position — routine in nature but worth monitoring for signals of insider conviction or disposition.",
+        "The direction of the change (acquisition vs. disposal) is the key variable: on-market purchases by directors at current BRG price levels (~$25–$28 range) would signal insider confidence in the premium appliance brand's growth trajectory, while disposals may raise modest sentiment concerns.",
+        "As a procedural disclosure with no stated market sensitivity, this filing has no immediate material impact on BRG's fundamentals; however, cumulative director activity over time remains a useful secondary indicator of management's view on valuation and near-term business momentum."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "YUG",
       "company": "YUGO METALS LIMITED",
