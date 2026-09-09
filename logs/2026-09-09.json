@@ -1,9 +1,376 @@
 {
   "date": "2026-09-09",
-  "total": 336,
+  "total": 355,
   "market_sensitive_count": 79,
-  "generated_at": "2026-09-09T03:27:18.597840+00:00",
+  "generated_at": "2026-09-09T04:27:16.485164+00:00",
   "announcements": [
+    {
+      "ticker": "SKC",
+      "company": "SKYCITY ENTERTAINMENT GROUP LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-09-09T04:22:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133631-2A1696309",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has crossed the 5% ownership threshold in SkyCity Entertainment, signalling meaningful institutional accumulation in a stock that has faced regulatory and operational headwinds across its NZ and Australian casino assets.",
+        "The timing is notable given SKC's ongoing remediation efforts following AML/CTF compliance failures — a new substantial holder may indicate a contrarian value thesis or strategic positioning ahead of potential corporate activity.",
+        "Investors should monitor whether this represents a passive index-driven move or an active stake build, as further increases in holding could presage board engagement or a takeover approach given SKC's depressed valuation."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NMG",
+      "company": "NEW MURCHISON GOLD LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-09T04:22:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133630-6A1342995",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director of New Murchison Gold (NMG) has filed a change of interest notice, most commonly triggered by participation in a capital raise, on-market acquisition, or exercise of options — relevant context given NMG's concurrent cleansing notice filing (announcement #8).",
+        "The notice should be read in conjunction with NMG's Section 708A cleansing notice, strongly suggesting the director participated in a recent placement, which indicates insider conviction in the company's exploration or development program.",
+        "For a micro-cap gold explorer, director buying — even at small scale — is a positive alignment signal, though investors should verify the nature of the transaction (open market purchase vs. placement participation) before drawing conclusions."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STG",
+      "company": "STRAKER LIMITED",
+      "headline": "CFO Appointment and Director Resignation",
+      "time": "2026-09-09T04:20:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133629-2A1696308",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Straker Limited (STG), an AI-powered translation and language services company, has appointed a new CFO while simultaneously announcing a director resignation, representing a meaningful leadership transition at a critical growth juncture.",
+        "CFO changes at small-cap technology companies can signal a shift in financial strategy — whether toward tighter cost discipline, preparation for a capital raise, or positioning for an M&A process — making the identity and background of the incoming CFO a key due diligence point.",
+        "The concurrent director resignation adds complexity; if both events are unrelated it may be coincidental, but simultaneous board-level departures alongside executive appointments can occasionally signal internal tension or a strategic pivot that warrants close monitoring."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RAS",
+      "company": "RAGUSA MINERALS LTD",
+      "headline": "Notification of cessation of securities - RAS",
+      "time": "2026-09-09T04:18:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133628-2A1696307",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ragusa Minerals has notified the ASX of the cessation of securities, typically relating to the expiry of unexercised options or performance rights, resulting in a reduction of the company's total dilutive securities on issue.",
+        "Option expiry without exercise can indicate that holders lacked confidence in the share price reaching the exercise price, or that the securities simply lapsed per their original terms — context on the strike price vs. current market price is critical to interpretation.",
+        "For a small minerals explorer, the lapse of options modestly reduces future dilution risk, which is a marginal positive for existing shareholders, though the operational and exploration newsflow remains the primary value driver."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GOZ",
+      "company": "GROWTHPOINT PROPERTIES AUSTRALIA",
+      "headline": "Notification regarding unquoted securities - GOZ",
+      "time": "2026-09-09T04:17:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133627-3A701411",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Growthpoint Properties Australia (GOZ) has notified the ASX of unquoted securities, typically relating to the issue of securities under an employee incentive plan, distribution reinvestment plan, or similar scheme not listed on the exchange.",
+        "For a diversified commercial REIT like GOZ, these routine notifications are administrative in nature and do not materially impact net tangible assets or distribution guidance, but accumulation of such issuances over time contributes to gradual dilution.",
+        "Institutional investors should track the aggregate volume of unquoted securities issued relative to GOZ's total securities on issue to assess the long-term dilutive impact on per-unit distributions and NTA, particularly in a high interest rate environment where REIT valuations remain pressured."
+      ],
+      "tags": [
+        "Compliance",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NMG",
+      "company": "NEW MURCHISON GOLD LIMITED",
+      "headline": "Cleansing Notice under section 708A",
+      "time": "2026-09-09T04:14:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133626-6A1342994",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "New Murchison Gold has lodged a Section 708A cleansing notice, confirming the company has recently completed a placement to sophisticated or professional investors without a prospectus — the cleansing notice allows those shares to be freely traded on the ASX.",
+        "This is direct confirmation that NMG has raised fresh capital, providing the company with additional exploration or working capital runway; the quantum of the raise and price per share (relative to the prevailing market price) are the key metrics to assess dilution impact.",
+        "Read alongside the director's interest change (announcement #4), insider participation in the placement would be a constructive signal; however, placements at a discount to market price represent near-term selling pressure as new shareholders look to trade out of their positions."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TUA",
+      "company": "TUAS LIMITED",
+      "headline": "FY26 Financial Reporting Details",
+      "time": "2026-09-09T04:10:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133625-2A1696306",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Tuas Limited (TUA), the Singapore-focused telecommunications operator spun out of TPG Telecom, has confirmed its FY26 financial reporting calendar, providing investors with visibility on key result and trading update dates for planning purposes.",
+        "The administrative nature of this notice carries no immediate earnings or operational implication, but the confirmation of reporting timelines allows institutional investors to schedule engagement and positions the stock ahead of what will likely be a closely watched update on Tuas's subscriber growth trajectory in Singapore.",
+        "TUA remains a high-conviction growth story for many investors, with its 5G network rollout and subscriber addition pace being the primary valuation drivers; any formal results calendar announcement directs attention toward upcoming catalysts."
+      ],
+      "tags": [
+        "Other",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WBC",
+      "company": "WESTPAC BANKING CORPORATION",
+      "headline": "259C Exemption Notice - WBC",
+      "time": "2026-09-09T03:57:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133624-2A1696305",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Westpac Banking Corporation has lodged a Section 259C exemption notice, a technical Corporations Act compliance filing that allows a company (or entity within its group) to hold shares in Westpac itself without triggering the prohibition on subsidiaries holding parent company shares.",
+        "This is a routine regulatory/treasury management filing commonly associated with employee share plan trustee arrangements, derivatives books, or custodial operations — it carries no strategic or earnings implication for WBC.",
+        "Institutional investors can disregard this as a material event; it is purely an administrative compliance mechanism under Australian corporate law and does not alter Westpac's capital position, dividend policy, or strategic outlook."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AKA",
+      "company": "AUREKA LIMITED",
+      "headline": "Webinar Presentation - Core Prospecting Proposal",
+      "time": "2026-09-09T03:54:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133623-3A701410",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Aureka Limited (AKA) is hosting a webinar to present its Core Prospecting Proposal, signalling early-stage investor engagement around its exploration strategy — a common tactic for micro-cap explorers seeking to build retail and institutional awareness ahead of potential capital activity.",
+        "The non-market-sensitive classification confirms no material new discovery or resource data is being disclosed, limiting immediate re-rating potential; the value here is pipeline visibility rather than hard newsflow.",
+        "Investors should monitor subsequent announcements for drill results or farm-in agreements that may arise from increased prospecting activity flagged in this presentation — the webinar itself is a precursor, not a catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NST",
+      "company": "NORTHERN STAR RESOURCES LTD",
+      "headline": "Date of AGM and Closing of Director Nominations",
+      "time": "2026-09-09T03:50:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133622-6A1342993",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Northern Star Resources (NST), one of Australia's largest gold producers, has confirmed the date of its AGM and closed the director nominations process — a routine governance milestone with no implied strategic shift at this stage.",
+        "The closure of director nominations is procedurally significant: it locks in the board composition to be put to shareholders, and any contested nominations or new director profiles would be worth scrutinising for strategic signals (e.g. M&A expertise, capital markets background).",
+        "With NST currently navigating elevated gold prices and ongoing capital allocation decisions across its Tier-1 asset base, the AGM agenda — particularly remuneration and strategic resolutions — will be a key focal point for institutional shareholders in coming weeks."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FPH",
+      "company": "FISHER & PAYKEL HEALTHCARE CORPORATION LIMITED",
+      "headline": "Ongoing Disclosure Notices - Options, PSRs, Ordinary Shares",
+      "time": "2026-09-09T03:46:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133621-2A1696304",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Fisher & Paykel Healthcare (FPH) has filed ongoing disclosure notices covering options, performance share rights (PSRs), and ordinary shares — a routine regulatory obligation under NZX/ASX continuous disclosure rules with no material financial impact.",
+        "These notices reflect ongoing movements in employee equity instruments, providing a granular view of insider equity exposure; elevated PSR vesting activity could subtly signal management confidence in meeting performance hurdles tied to revenue or EBIT targets.",
+        "No immediate share-price catalyst is present; however, consistent tracking of these disclosures over time can reveal trends in executive equity accumulation or disposal ahead of results periods — a useful secondary signal for sophisticated investors."
+      ],
+      "tags": [
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JAV",
+      "company": "JAVELIN MINERALS LIMITED",
+      "headline": "RRS Gold Coast Investor Presentation",
+      "time": "2026-09-09T03:45:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133620-6A1342992",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Javelin Minerals (JAV) presented at the RRS Gold Coast Investor Conference, a forum typically attended by retail and small institutional investors — this is a brand-awareness exercise rather than a material disclosure event for the gold-focused explorer.",
+        "The non-market-sensitive tag confirms no new resource estimates, drill results, or corporate transactions were disclosed; the presentation likely repackages existing project data and corporate strategy for a broader audience.",
+        "For investors, the key 'so what' is whether increased retail visibility translates into improved liquidity or supports a forthcoming capital raise — JAV should be watched for any subsequent placement or rights issue announcement in the near term."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MC2",
+      "company": "MARIMACA COPPER CORP.",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-09T03:43:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133619-6A1342991",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Marimaca Copper Corp. (MC2) has lodged a Cleansing Notice, which under ASX Listing Rules is required following a capital raise conducted without a prospectus — this confirms a recent placement or issue of securities has occurred or is completing.",
+        "The Cleansing Notice is a strong signal that MC2 has recently raised fresh capital, providing new shares with full on-market trading rights; while dilutive in isolation, the capital injection is critical for a development-stage copper company advancing projects in Chile's Atacama region.",
+        "Investors should cross-reference the quantum of the raise, price per share, and use-of-funds disclosure to assess whether the capital is sufficient to fund the next meaningful drilling or feasibility milestone — the copper market backdrop remains constructive for quality development assets."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FPH",
+      "company": "FISHER & PAYKEL HEALTHCARE CORPORATION LIMITED",
+      "headline": "Capital Change Notices - Options, PSRs and ESRs",
+      "time": "2026-09-09T03:39:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133618-2A1696303",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Fisher & Paykel Healthcare (FPH) has filed Capital Change Notices covering options, PSRs, and employee share rights (ESRs) — this is a standard administrative disclosure reflecting changes in the company's unquoted equity security pool, typically tied to employee equity plan activity.",
+        "Capital changes of this nature (new grants, lapses, or vesting) incrementally affect the fully diluted share count; while individually immaterial, cumulative ESR and PSR issuance is worth monitoring against FPH's total shares on issue (~580M+) to gauge long-term dilution risk.",
+        "No investment action is required on this filing alone; however, FPH's equity plan disclosures are best read alongside its half-year and full-year results to assess whether performance hurdles tied to PSRs are being met — a proxy for management's own earnings confidence."
+      ],
+      "tags": [
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAR",
+      "company": "CAR GROUP LIMITED",
+      "headline": "Becoming a substantial holder from CBA",
+      "time": "2026-09-09T03:37:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133617-3A701409",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Commonwealth Bank of Australia (CBA) has crossed the substantial holder threshold in CAR Group, one of Australia's highest-quality digital automotive marketplaces, indicating a meaningful new institutional position being established.",
+        "This likely reflects CBA's asset management or investment arm (Colonial First State or similar) accumulating CAR shares, potentially driven by CAR's strong earnings trajectory and international expansion into Korea (Encar) and the US (Trader Interactive).",
+        "The entry of a major domestic bank-affiliated fund as a substantial holder could provide a price floor and signals institutional confidence in CAR's long-term growth narrative, though no immediate valuation re-rating is expected from this administrative notice alone."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MC2",
+      "company": "MARIMACA COPPER CORP.",
+      "headline": "Notification regarding unquoted securities - MC2",
+      "time": "2026-09-09T03:33:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133616-6A1342990",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Marimaca Copper Corp. (MC2) has lodged an ASX notification regarding unquoted securities, a mandatory filing that accompanies the issuance of new securities (e.g. options or performance rights) that are not yet quoted on the exchange — directly linked to the capital raise activity confirmed in the concurrent Cleansing Notice (#5).",
+        "The existence of unquoted securities (likely options or warrants issued as part of a placement) is a standard sweetener in small-cap resource raises; investors should assess the exercise price and expiry relative to current market price to gauge potential future dilution overhang.",
+        "Taken together with the Cleansing Notice, these twin filings confirm MC2 has completed a capital markets transaction — the strategic implications depend entirely on the size, terms, and deployment of the funds raised, which should be detailed in a separate ASX announcement."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PM1",
+      "company": "PALISADE METALS LTD",
+      "headline": "Cleansing Notice under Section 708(5)(e) of Corps Act",
+      "time": "2026-09-09T03:30:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133615-3A701408",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Palisade Metals (PM1) has filed a Cleansing Notice under Section 708A(5)(e) of the Corporations Act, confirming the completion of a placement to sophisticated or professional investors without a prospectus — this is standard practice for small-cap miners seeking rapid access to capital.",
+        "The Section 708A cleansing mechanism restores unrestricted trading rights to newly issued shares; the critical investor question is the size and price of the placement relative to PM1's pre-raise market capitalisation, which determines the degree of dilution absorbed by existing holders.",
+        "Palisade Metals, focused on base metals exploration, will need to clearly articulate use-of-proceeds — likely drilling programs or feasibility work — to justify the dilution and sustain post-raise share price support in what remains a selective market for early-stage explorers."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SNC",
+      "company": "SANDON CAPITAL INVESTMENTS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-09T03:28:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133614-2A1696300",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Sandon Capital — a well-known activist-oriented investment manager — has filed a change in substantial holding for SNC (Sandon Capital Investments Limited), its own listed investment company, indicating a shift in the manager's direct ownership stake.",
+        "Changes in the manager's own holding in its LIC can signal intent around discount management, buyback activity, or alignment signalling to the market, all of which are relevant for retail investors tracking the NTA discount.",
+        "Given Sandon's activist reputation, any reduction in the manager's stake warrants scrutiny as a potential precursor to strategic changes; conversely, an increase would reinforce conviction and alignment with external shareholders."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MNC",
+      "company": "MERINO & CO. LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-09T03:25:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03133613-6A1342989",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Merino & Co. Limited (MNC) has lodged a Cleansing Notice, indicating the company has recently completed a share placement or security issuance to non-retail investors under the Corporations Act's disclosure exemption regime — a further sign of ongoing small-cap capital raising activity on the ASX.",
+        "MNC operates in the agricultural/pastoral sector; a capital raise at this stage of its corporate lifecycle suggests the company is funding operational expansion, working capital requirements, or early-stage project development — the adequacy of the raise relative to its burn rate is the key analytical question.",
+        "Until the quantum, pricing, and use-of-funds are fully disclosed and assessed, the Cleansing Notice is procedurally neutral; investors should await any accompanying investor presentation or use-of-funds announcement to determine whether the raise is strategically accretive or a dilutive necessity."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MNC",
       "company": "MERINO & CO. LIMITED",
