@@ -1,9 +1,86 @@
 {
   "date": "2026-09-10",
-  "total": 230,
-  "market_sensitive_count": 62,
-  "generated_at": "2026-09-09T23:53:56.097978+00:00",
+  "total": 234,
+  "market_sensitive_count": 65,
+  "generated_at": "2026-09-10T00:00:32.157179+00:00",
   "announcements": [
+    {
+      "ticker": "NUC",
+      "company": "NUCHEV LIMITED",
+      "headline": "Nouvlait Arbitration- Final Award",
+      "time": "2026-09-09T23:58:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134028-3A701493",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A final arbitration award has been issued in the Nouvlait dispute — the binding resolution removes a material legal overhang that has likely weighed on NUC's valuation, though the net financial outcome (damages awarded for or against) will determine whether this is accretive or dilutive to the balance sheet.",
+        "As a market-sensitive announcement, the award's quantum and directionality are critical: a favourable ruling could recover cash or assets for the company, while an adverse award could impose a liability on what is already a capital-constrained small-cap consumer staples business.",
+        "Investors should scrutinise the settlement terms, any cash payment obligations or receipts, and whether the resolution clears the path for NUC to refocus capital on its core goat-milk nutrition business without further litigation distraction."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WHI",
+      "company": "WHITEFIELD INCOME LIMITED",
+      "headline": "Dividend/Distribution - WHI",
+      "time": "2026-09-09T23:55:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134027-2A1696467",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Whitefield Income Limited has declared a dividend/distribution, consistent with its mandate as an income-focused listed investment company (LIC) investing in ASX industrials — this is a routine capital return event with no strategic surprise.",
+        "The distribution reinforces WHI's appeal to yield-oriented investors; the key metrics to assess are the cents-per-share amount relative to prior periods and whether the franking level is maintained at 100%, which materially affects after-tax yield for domestic retail and SMSF investors.",
+        "No material re-rating catalyst is expected from this announcement; dividend continuity is the baseline expectation for WHI shareholders, and the non-market-sensitive classification confirms this is an administrative, scheduled event with no new operational information."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PKY",
+      "company": "PATHKEY.AI LTD",
+      "headline": "Leading Chip Designer & AI Expert Appointed Advisory Board",
+      "time": "2026-09-09T23:53:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134026-6A1343166",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PathKey.AI has appointed a chip designer and AI expert to its Advisory Board — a signal the company is building technical credibility in the competitive AI/semiconductor space, though advisory appointments carry no guaranteed revenue or product delivery timeline.",
+        "For a micro-cap AI-focused company, high-profile technical advisors can meaningfully accelerate go-to-market strategy, investor confidence, and partnership pipeline, particularly if the appointee brings direct industry relationships with hyperscalers or chip manufacturers.",
+        "The market-sensitive classification suggests management views this as materially influential to company prospects; investors should assess the advisor's specific credentials, equity incentives, and whether this appointment precedes a capital raise or commercial partnership announcement."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NUZ",
+      "company": "NEURIZON THERAPEUTICS LIMITED",
+      "headline": "Neurizon Announces Partial Redemption of Convertible Notes",
+      "time": "2026-09-09T23:53:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134025-6A1343165",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Neurizon has announced a partial redemption of its convertible notes — while reducing debt obligations is structurally positive, partial redemption signals the company lacks the cash resources for full repayment, raising questions about cash runway and balance sheet capacity for ongoing clinical programs.",
+        "Convertible note redemptions in small-cap biotech are closely watched for dilution risk: if noteholders elect conversion to equity rather than cash repayment, existing shareholders face earnings-per-share dilution at what are often unfavourable conversion prices in a stressed capital environment.",
+        "Near-term focus should be on the remaining outstanding note balance, the redemption price versus face value, any acceleration clauses or covenants attached to the residual notes, and how this affects NUZ's ability to fund its neurological therapeutic pipeline through key clinical milestones."
+      ],
+      "tags": [
+        "Healthcare",
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "bearish"
+    },
     {
       "ticker": "MEX",
       "company": "MINERALS EXPLORATION LIMITED",
