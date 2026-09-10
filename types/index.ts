@@ -14,6 +14,8 @@ export interface Announcement {
   tags: string[];
   /** From AI (Claude/Groq); older logs omit this and the UI infers a fallback. */
   sentiment?: SentimentLabel;
+  /** Absent when Yahoo was unreachable or the stock has too little history. */
+  market_context?: MarketContext;
 }
 
 export interface DayLog {
@@ -127,4 +129,43 @@ export interface ScorecardSummary {
   directional_hit_rate: number | null;
   directional_scored: number;
   daily: { date: string; hit_rate: number | null; scored: number; spread_pct: number | null }[];
+}
+
+// ── Market context (attached by fetch_asx.py via market_context.py) ──
+
+/**
+ * What the price was doing going INTO an announcement, measured only from bars
+ * that closed before it. Every field is a measurement, not a call — the model
+ * is given these same numbers but is never the source of one that renders.
+ */
+export interface MarketContext {
+  /** Date of the last bar used, so "recent" is never ambiguous. */
+  as_of: string;
+  bars: number;
+  last_close: number;
+
+  /** Last 5 sessions' average volume over the 20-day average. */
+  volume_trend_ratio: number | null;
+  /** The latest session's volume over the 20-day average. */
+  volume_last_ratio: number | null;
+  avg_turnover_aud: number | null;
+  /** False when turnover is too small for the ratios above to mean anything. */
+  liquid: boolean;
+
+  pct_from_3m_high: number | null;
+  pct_from_3m_low: number | null;
+  pct_from_52w_high: number | null;
+  pct_from_52w_low: number | null;
+  /** 0 at the 3-month low, 1 at the 3-month high. */
+  range_position_3m: number | null;
+  at_3m_high: boolean;
+  at_3m_low: boolean;
+  at_52w_high: boolean;
+  at_52w_low: boolean;
+
+  /** Closed above its 60-day high on at least 2x average volume. */
+  broke_out: boolean;
+
+  /** The same clauses given to the prompt, so text and display cannot diverge. */
+  notes: string[];
 }

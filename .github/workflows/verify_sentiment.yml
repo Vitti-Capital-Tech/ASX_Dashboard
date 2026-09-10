@@ -96,11 +96,22 @@ jobs:
             python -u verify_sentiment.py --backfill "${BACKFILL:-3}"
           fi
 
+      # Runs after the close for the same reason the scorecard does: an event's
+      # reaction needs its own session to have finished. Rebuilds the last few
+      # days as well as today, because fwd_5 is null on the day itself and real
+      # a week later, so a day has to be revisited to be completed. Merges, so
+      # the sample accumulates instead of being replaced each run.
+      - name: Build the analysis event dataset
+        continue-on-error: true
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python -u build_history.py --days 25 --period 1y
+
       - name: Commit and push scorecard
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add scorecard/
-          git diff --cached --quiet || git commit -m "chore: sentiment scorecard $(date -u '+%Y-%m-%d')"
+          git add scorecard/ analysis/
+          git diff --cached --quiet || git commit -m "chore: scorecard + analysis $(date -u '+%Y-%m-%d')"
           git pull --rebase origin main
           git push

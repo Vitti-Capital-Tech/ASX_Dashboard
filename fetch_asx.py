@@ -25,6 +25,8 @@ from dotenv import load_dotenv
 from anthropic import Anthropic
 from groq import Groq
 
+from market_context import compute_context, describe, fetch_history, yahoo_symbol
+
 # Load environment variables from .env if present
 load_dotenv()
 
@@ -215,14 +217,29 @@ def _guess_doc_type(title: str) -> str:
 def build_batch_prompt(anns: list[dict]) -> str:
     """Prompt covering a whole group; the model returns one entry per announcement."""
     tags_list = ", ".join(KNOWN_TAGS)
-    listing = "\n\n".join(
-        f"[{i}] Company: {a['company']} ({a['ticker']})\n"
-        f"    Headline: {a['headline']}\n"
-        f"    Document Type: {a['document_type']}\n"
-        f"    Market Sensitive: "
-        f"{'MARKET SENSITIVE' if a['market_sensitive'] else 'not market sensitive'}"
-        for i, a in enumerate(anns, 1)
-    )
+
+    def entry(i: int, a: dict) -> str:
+        rows = [
+            f"[{i}] Company: {a['company']} ({a['ticker']})",
+            f"    Headline: {a['headline']}",
+            f"    Document Type: {a['document_type']}",
+            f"    Market Sensitive: "
+            f"{'MARKET SENSITIVE' if a['market_sensitive'] else 'not market sensitive'}",
+        ]
+        # What the price was doing going into this, when there is anything worth
+        # saying. Given to the model so its judgement is grounded in the tape
+        # rather than the headline alone — and they are the same measurements
+        # the UI renders, so the text and the numbers cannot contradict.
+        ctx = a.get("market_context") or {}
+        notes = ctx.get("notes") or []
+        if notes:
+            rows.append(
+                f"    Price action into this announcement "
+                f"(as of {ctx.get('as_of')} close): {'; '.join(notes)}"
+            )
+        return "\n".join(rows)
+
+    listing = "\n\n".join(entry(i, a) for i, a in enumerate(anns, 1))
     n = len(anns)
     return f"""You are a senior financial analyst and news editor specializing in the ASX (Australian Securities Exchange).
 Your goal is to provide high-signal, professional insight for institutional investors.
@@ -235,11 +252,25 @@ Analyse EACH one independently. Do not merge, skip, or reorder them.
 TASKS (repeat for every announcement):
 1. MANDATORY: provide EXACTLY 3 high-impact bullet points.
 2. INSIGHT: Focus on the "so what?" (e.g. cash runway, revenue growth, or technical significance).
+   Where a "Price action into this announcement" line is given, use it. The same filing
+   reads differently after volume has been building for a week, or with the stock already
+   at a 3-month high, than it does on a quiet tape — say which, and say what it implies.
+   Two rules on those numbers:
+     - Do NOT state a figure that is not on that line, and do not invent one. Those
+       figures are measured from exchange data and are displayed next to your text, so
+       a number of yours that disagrees with them is worse than no number at all.
+     - Where the line says the stock is thinly traded, treat the volume ratios as
+       close to meaningless and say so, rather than reading intent into them.
+   Where no such line is given, do not speculate about price action at all.
 3. TAGS: Select 1-3 relevant categories from this list ONLY: {tags_list}
 4. SENTIMENT: Classify expected near-term share-price bias for that headline ONLY as exactly one of: bullish, bearish, neutral.
    - bullish: net positive for valuation or sentiment (e.g. strong results, accretive deal, favourable outcome)
    - bearish: net negative (e.g. large loss, dilution, downgrade, covenant breach, major impairment)
    - neutral: procedural, administrative, unclear impact, or balanced / wait-for-detail (use when not clearly bullish or bearish)
+   Where a price action line is given, treat it as evidence for this call rather than as
+   decoration: good news into a stock that has already run may be largely priced in, and
+   bad news into one already at a 12-month low may be expected. Judge the headline,
+   informed by the tape.
 
 Strict Output Format (JSON ONLY). Return EXACTLY {n} entries, one per announcement,
 each with "id" matching the bracketed number above:
@@ -451,6 +482,47 @@ def save_log(date_str: str, announcements: list[dict]) -> Path:
     return path
 
 
+def attach_market_context(anns: list[dict], date_str: str) -> None:
+    """
+    Add `market_context` to each announcement, in place.
+
+    One history pull covering every ticker in the batch, then each context
+    computed locally from it. The fetcher runs every ~5 minutes through the
+    Sydney morning, so a request per announcement would be throttled inside an
+    hour; a request per batch is a handful of calls per run.
+
+    Wrapped in a bare except on purpose. Price context is an enrichment — if
+    Yahoo is down, rate-limited, or has renamed a symbol, the day's
+    announcements must still be fetched, summarised and saved. A missing
+    `market_context` is a quiet absence downstream; a raised exception here
+    would cost the whole run.
+    """
+    tickers = sorted({a["ticker"] for a in anns if a.get("ticker")})
+    if not tickers:
+        return
+
+    try:
+        hist = fetch_history(tickers)
+    except Exception as e:
+        print(f"[context] history unavailable, continuing without it: {e}")
+        return
+
+    attached = 0
+    for a in anns:
+        try:
+            ctx = compute_context(hist.get(yahoo_symbol(a.get("ticker", ""))), date_str)
+        except Exception:
+            ctx = None
+        if ctx:
+            # `notes` is what the prompt and the UI both read, so the phrasing
+            # is written once here rather than in each consumer.
+            ctx["notes"] = describe(ctx)
+            a["market_context"] = ctx
+            attached += 1
+
+    print(f"[context] attached to {attached}/{len(anns)} announcements.")
+
+
 def run_process(args):
     print(f"\n{'='*60}")
     print(f"  ASX Announcement Fetcher  |  {args.date}")
@@ -479,6 +551,12 @@ def run_process(args):
         return
 
     print(f"[main] Found {len(new_announcements)} NEW announcements to process.")
+
+    # 3.5 Attach what the price was already doing. Best-effort by design: the
+    # announcements are the product and Yahoo is a nice-to-have, so a failure
+    # here leaves market_context absent and changes nothing else. Runs before
+    # the AI step so the prompt can see the numbers.
+    attach_market_context(new_announcements, args.date)
 
     # 4. AI summarise ONLY new ones
     if not args.no_ai:

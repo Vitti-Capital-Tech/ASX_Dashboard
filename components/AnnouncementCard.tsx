@@ -3,6 +3,7 @@
 import type { CSSProperties } from 'react';
 import { Announcement } from '@/types';
 import { BADGE_TEXT, formatTime, getSentiment, SECTION_LABEL, TAG_STYLE } from '@/lib/utils';
+import PriceContext from './PriceContext';
 
 interface Props {
   ann: Announcement;
@@ -121,6 +122,11 @@ export default function AnnouncementCard({ ann }: Props) {
           </h3>
         </a>
       </div>
+
+      {/* What the price was already doing. Above the AI summary on purpose: it
+          is measured rather than generated, so it is the part of the card a
+          reader can actually check. */}
+      {ann.market_context && <PriceContext ctx={ann.market_context} />}
 
       {/* ── AI summary ── */}
       {ann.summary && ann.summary.length > 0 && (

@@ -199,13 +199,43 @@ def main() -> None:
 
     OUT_DIR.mkdir(exist_ok=True)
     out = Path(args.out)
+
+    # Merge rather than overwrite, so a daily run accumulates a sample instead
+    # of replacing it with one day's worth. Keyed on date+ticker+headline, the
+    # same identity save_log() dedupes announcements on.
+    #
+    # Rebuilding a date replaces its rows, which makes a re-run idempotent and
+    # lets a day be corrected once its forward returns exist — fwd_5 is null on
+    # the day itself and real a week later, so days are revisited on purpose.
+    kept: dict[tuple, dict] = {}
+    if out.exists():
+        rebuilt = set(dates)
+        for line in out.read_text(encoding='utf-8').splitlines():
+            if not line.strip():
+                continue
+            try:
+                old = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if old.get('date') in rebuilt:
+                continue  # superseded by this run
+            kept[(old.get('date'), old.get('ticker'), old.get('headline'))] = old
+
+    carried = len(kept)
+    for e in events:
+        kept[(e['date'], e['ticker'], e['headline'])] = e
+
+    ordered = sorted(kept.values(), key=lambda e: (e['date'], e['ticker']))
     with out.open('w', encoding='utf-8') as f:
-        for e in events:
+        for e in ordered:
             f.write(json.dumps(e) + '\n')
+
+    print(f'[build] dataset now {len(ordered)} events '
+          f'({carried} carried over, {len(events)} from this run)')
 
     scored = sum(1 for e in events if e['reaction_pct'] is not None)
     with_ctx = sum(1 for e in events if e['context'])
-    print(f'[build] wrote {len(events)} events to {out}')
+    print(f'[build] wrote {out}')
     print(f'[build]   with a measurable reaction : {scored}')
     print(f'[build]   with pre-announcement context: {with_ctx}')
 
