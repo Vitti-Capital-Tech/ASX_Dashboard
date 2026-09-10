@@ -174,4 +174,10 @@ export interface MarketContext {
    * surface places it differently — a card footnotes it, a prompt inlines it.
    */
   caveat: string | null;
+  /**
+   * What these particular figures mean, as sentences — the help tooltip's
+   * content. Specific to this filing rather than a generic explanation of the
+   * feature, which is read once and useless afterwards.
+   */
+  reading: string[];
 }

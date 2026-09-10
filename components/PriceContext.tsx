@@ -21,13 +21,6 @@ import type { MarketContext } from '@/types';
  * tooltip is what it means, and the (i) explains the block.
  */
 
-/** Why these figures are dated, and what they are and are not. */
-const BLOCK_HELP = [
-  'What the share price was doing in the days BEFORE this announcement came out.',
-  'Most ASX news lands before the market opens, so there is no price for today yet — these are measured up to the previous close, which is the date shown.',
-  'They are calculated from exchange data, not written by the AI. You can check any of them against a chart.',
-  'They describe what the market was already doing. They are not a prediction and not advice.',
-];
 
 export default function PriceContext({ ctx }: { ctx: MarketContext }) {
   if (!ctx.notes?.length) return null;
@@ -127,6 +120,7 @@ export default function PriceContext({ ctx }: { ctx: MarketContext }) {
 
           {/* Hover and focus, not hover alone — a keyboard user gets to the
               same explanation, and on touch a tap focuses the button. */}
+          {ctx.reading?.length > 0 && (
           <span className="relative inline-flex group/info">
             <button type="button" aria-label="What is this?"
               className="w-3.5 h-3.5 rounded-full flex items-center justify-center text-[0.55rem]
@@ -150,20 +144,25 @@ export default function PriceContext({ ctx }: { ctx: MarketContext }) {
               }}>
               <span className="block text-[0.6rem] font-bold uppercase tracking-[0.1em] mb-1.5"
                 style={{ color: 'var(--accent)' }}>
-                Price going in
+                What this means for {/* the ticker is in the reading itself */}this filing
               </span>
-              {BLOCK_HELP.map(line => (
+              {/* This filing's own figures read back in sentences, not a generic
+                  explanation of the feature. The generic version told you what a
+                  20-day average is, which you need once; this tells you what
+                  THIS stock was doing, which is the actual question. */}
+              {ctx.reading.map(line => (
                 <span key={line} className="block text-[0.68rem] leading-relaxed mb-1.5 normal-case tracking-normal font-normal"
                   style={{ color: 'var(--text-secondary)' }}>
                   {line}
                 </span>
               ))}
-              <span className="block text-[0.62rem] leading-relaxed normal-case tracking-normal font-normal"
-                style={{ color: 'var(--text-dim)' }}>
-                Hover any measurement below for what it means.
+              <span className="block text-[0.62rem] leading-relaxed normal-case tracking-normal font-normal pt-1"
+                style={{ color: 'var(--text-dim)', borderTop: '1px solid var(--border-subtle)' }}>
+                Measured from exchange data, not written by the AI — you can check it against a chart.
               </span>
             </span>
           </span>
+          )}
         </span>
 
         {/* The date is not decoration: these are pre-announcement figures, and a

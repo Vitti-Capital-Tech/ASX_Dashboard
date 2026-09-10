@@ -29,6 +29,7 @@ from market_context import (
     compute_context,
     describe,
     fetch_history,
+    interpret,
     liquidity_caveat,
     yahoo_symbol,
 )
@@ -531,6 +532,10 @@ def attach_market_context(anns: list[dict], date_str: str) -> None:
             # Beside the notes rather than inside them: it qualifies how much
             # they are worth, and each surface places it differently.
             ctx["caveat"] = liquidity_caveat(ctx)
+            # What these particular figures mean, for the help tooltip. Authored
+            # here so both dashboards read identically, and so the sentences can
+            # name the ticker rather than saying "the stock".
+            ctx["reading"] = interpret(ctx, a.get("ticker", ""))
             a["market_context"] = ctx
             attached += 1
 

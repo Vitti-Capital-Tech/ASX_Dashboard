@@ -255,6 +255,99 @@ def liquidity_caveat(ctx: dict | None) -> str | None:
             if t is not None else "thinly traded")
 
 
+def interpret(ctx: dict | None, ticker: str = '') -> list[str]:
+    """
+    What THIS stock's figures mean, in sentences, for the help tooltip.
+
+    Distinct from describe(), which produces the chip labels. A chip says
+    "volume 2.83x avg for 5 sessions"; this says what that combination implies
+    for reading the announcement it sits above.
+
+    The tooltip used to carry a generic explanation of the feature — what a
+    20-day average is, why the date is yesterday's. Read once and useless
+    thereafter, while the thing a reader actually wants is what these particular
+    numbers say about this particular filing. The date is folded into the first
+    sentence instead, which is the only part of that boilerplate that had to
+    survive.
+
+    Observation and mechanism only. "Buyers were competing before this was
+    public" is what the tape shows; "so buy it" is not, and does not appear.
+    Nothing here is an instruction.
+    """
+    if not ctx:
+        return []
+
+    who = ticker.upper() if ticker else 'The stock'
+    out: list[str] = []
+
+    trend = ctx.get('volume_trend_ratio')
+    last = ctx.get('volume_last_ratio')
+
+    # Sentence 1: the tape, dated, so nobody reads these as live prices.
+    if ctx.get('broke_out'):
+        out.append(
+            f"Going into this, {who} closed above its {BREAKOUT_WINDOW}-day high on "
+            f"{last}x the shares it normally trades — measured to the {ctx['as_of']} close, "
+            f"before this announcement was public."
+        )
+    elif trend is not None and trend >= 1.5:
+        out.append(
+            f"Going into this, {who} traded {trend}x its usual daily volume over the last "
+            f"{SHORT_WINDOW} sessions — measured to the {ctx['as_of']} close, before this "
+            f"announcement was public."
+        )
+    elif trend is not None and trend <= 0.6:
+        out.append(
+            f"Going into this, {who} traded only {trend}x its usual daily volume over the "
+            f"last {SHORT_WINDOW} sessions — measured to the {ctx['as_of']} close."
+        )
+    else:
+        out.append(
+            f"Volume into this was around normal, measured to the {ctx['as_of']} close."
+        )
+
+    # Sentence 2: where in its own range, and what that does to the reading.
+    if ctx.get('at_52w_high'):
+        out.append(
+            "It was already at a 12-month high, so the market had been bidding it up "
+            "regardless of this news — some of what the filing says may already be in the price."
+        )
+    elif ctx.get('at_3m_high') or ctx.get('broke_out'):
+        out.append(
+            "It was already at the top of its 3-month range, so it was running into this "
+            "rather than reacting to it."
+        )
+    elif ctx.get('at_52w_low'):
+        out.append(
+            "It was at a 12-month low, so expectations going in were as low as they have "
+            "been all year: bad news here may be largely expected, and good news lands on "
+            "a market that had given up on it."
+        )
+    elif ctx.get('at_3m_low'):
+        out.append("It was at the bottom of its 3-month range, already falling into this.")
+    else:
+        pos = ctx.get('range_position_3m')
+        off = ctx.get('pct_from_3m_high')
+        if pos is not None and off is not None:
+            where = 'upper' if pos >= 0.66 else 'lower' if pos <= 0.33 else 'middle'
+            out.append(
+                f"The price sat in the {where} part of its 3-month range, "
+                f"{abs(off)}% below the high of that period."
+            )
+
+    # Sentence 3: whether any of the above is worth anything.
+    if not ctx.get('liquid'):
+        t = ctx.get('avg_turnover_aud')
+        out.append(
+            f"Treat all of that with care: it trades about A${t:,} a day, so a volume "
+            f"ratio here can be two or three trades rather than genuine interest."
+            if t is not None else
+            "Treat all of that with care: it is too thinly traded for the ratios to mean much."
+        )
+
+    return out
+
+
 def describe(ctx: dict | None) -> list[str]:
     """
     The context as short factual clauses, for a prompt or a caption.
