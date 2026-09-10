@@ -1,9 +1,475 @@
 {
   "date": "2026-09-11",
-  "total": 158,
-  "market_sensitive_count": 35,
-  "generated_at": "2026-09-10T23:52:38.663932+00:00",
+  "total": 168,
+  "market_sensitive_count": 38,
+  "generated_at": "2026-09-10T23:59:51.225239+00:00",
   "announcements": [
+    {
+      "ticker": "NGY",
+      "company": "NUENERGY GAS LIMITED",
+      "headline": "Amended Investor Presentation",
+      "time": "2026-09-10T23:57:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134444-6A1343358",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "An amended investor presentation from a market-sensitive filing typically signals a material correction or upgrade to previously disclosed information — investors should scrutinise the delta between versions for changes to resource estimates, funding plans, or strategic direction.",
+        "NGY is trading 65% below its 12-month high on extremely thin liquidity (median turnover ~A$10,649/day); at this depth of drawdown, any genuinely positive revision could trigger an outsized percentage move, but the ultra-low liquidity means volume ratios are close to meaningless as a signal of informed buying.",
+        "Next step is a direct comparison of the amended vs. original presentation; if the amendment corrects a material error or upgrades economics, it could catalyse re-rating, but the structural illiquidity of this stock means institutional engagement is effectively impossible at current trading levels."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.033,
+        "volume_trend_ratio": 1.14,
+        "volume_last_ratio": 3.61,
+        "avg_turnover_aud": 10649,
+        "liquid": false,
+        "pct_from_3m_high": -42.11,
+        "pct_from_3m_low": 26.92,
+        "pct_from_52w_high": -65.26,
+        "pct_from_52w_low": 57.14,
+        "range_position_3m": 0.226,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "65.26% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$10,649/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 42.11% below the high of that period.",
+          "Treat all of that with care: it trades about A$10,649 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMU",
+      "company": "AMERICAN URANIUM LTD",
+      "headline": "Completion of A$1.235 Million Convertible Loan Note Raising",
+      "time": "2026-09-10T23:57:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134443-6A1343359",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMU has completed a A$1.235 million convertible note raising — a very small quantum that signals the company is operating with extremely limited financial headroom, relying on convertible debt (which carries future dilution risk) rather than equity or project cashflow to fund near-term operations.",
+        "At 76.67% below its 12-month high and with median daily turnover of only ~A$5,250, AMU is deeply distressed on a price basis and essentially illiquid; the convertible note structure will convert into equity (likely at a discount) adding further dilutive pressure on an already impaired share price — the filing is marked 'not market sensitive' but the cash runway implication is material.",
+        "Next steps: investors should assess the conversion terms (conversion price, discount to market, maturity date) and whether A$1.235m is sufficient to reach any value-creating milestone, or merely extends runway by weeks — the risk of a further raise in the near term is elevated."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.07,
+        "volume_trend_ratio": 0.78,
+        "volume_last_ratio": 0.18,
+        "avg_turnover_aud": 5250,
+        "liquid": false,
+        "pct_from_3m_high": -22.22,
+        "pct_from_3m_low": 7.69,
+        "pct_from_52w_high": -76.67,
+        "pct_from_52w_low": 7.69,
+        "range_position_3m": 0.2,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "76.67% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$5,250/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 22.22% below the high of that period.",
+          "Treat all of that with care: it trades about A$5,250 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LIB",
+      "company": "LIBERTY METALS LTD",
+      "headline": "Resignation of Non-Executive Director",
+      "time": "2026-09-10T23:57:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134442-6A1343360",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "The resignation of a Non-Executive Director is a routine board governance event at face value, but in a small-cap context it warrants scrutiny for underlying reasons — departures can reflect disagreements over strategy, capital allocation, or corporate governance standards.",
+        "Volume over the prior five sessions was only 0.12x the 20-day average, indicating a near-complete absence of trading activity ahead of this announcement — there is no evidence of pre-positioned selling, suggesting the market was unaware and the departure was not anticipated.",
+        "The immediate share price impact is likely minimal given the 'not market sensitive' classification, but institutional due diligence should confirm whether the departing director held a key role (e.g., audit or remuneration committee chair) and whether a replacement is planned — repeated board departures at small-caps can be a leading indicator of deeper operational issues."
+      ],
+      "tags": [
+        "Board Change"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.004,
+        "volume_trend_ratio": 0.12,
+        "volume_last_ratio": 0.01,
+        "avg_turnover_aud": 124959,
+        "liquid": true,
+        "pct_from_3m_high": -20.0,
+        "pct_from_3m_low": 100.0,
+        "pct_from_52w_high": -20.0,
+        "pct_from_52w_low": 100.0,
+        "range_position_3m": 0.667,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.12x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, LIB traded only 0.12x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 20.0% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "360",
+      "company": "LIFE360 INC.",
+      "headline": "SEC Forms 4 Antonoff, Burke, Hulls",
+      "time": "2026-09-10T23:56:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134441-2A1696652",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "SEC Form 4 filings disclose insider transactions (purchases or sales of equity securities) by officers and directors of US-listed entities — for Life360, which is dual-listed, these filings cover Antonoff, Burke, and Hulls and are a standard US regulatory compliance requirement rather than an ASX-driven event.",
+        "The stock is 65.24% below its 12-month high and volume over the prior five sessions was 0.54x the 20-day average, indicating a subdued tape into this filing — below-average volume combined with a deep price drawdown suggests the market is not actively re-rating the stock on this news.",
+        "The 'not market sensitive' classification is appropriate; the key analytical question is the direction of the insider transactions — purchases by insiders at a 65% discount to the high would be a mildly bullish signal, while sales would add to negative sentiment, but without the transaction detail the filing itself is procedurally neutral."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 19.42,
+        "volume_trend_ratio": 0.54,
+        "volume_last_ratio": 0.58,
+        "avg_turnover_aud": 20079296,
+        "liquid": true,
+        "pct_from_3m_high": -35.84,
+        "pct_from_3m_low": 1.89,
+        "pct_from_52w_high": -65.24,
+        "pct_from_52w_low": 14.91,
+        "range_position_3m": 0.032,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.54x its average",
+          "65.24% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, 360 traded only 0.54x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 35.84% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AKM",
+      "company": "ASPIRE MINING LIMITED",
+      "headline": "Ovoot Reserve Update Supports Strong Project Economics",
+      "time": "2026-09-10T23:54:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134440-2A1696651",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A reserve update that 'supports strong project economics' is a substantive, market-sensitive signal — it implies the updated ore reserve (likely reflecting revised mine planning or resource conversion) has maintained or improved the NPV/IRR underpinning of the Ovoot coking coal project in Mongolia.",
+        "For a development-stage miner like AKM, a reserve confirmation is critical to project financing; lenders and offtake partners require robust reserve statements before committing capital, so this filing may meaningfully de-risk the path to a construction decision.",
+        "Key follow-up questions for analysts: what is the revised reserve tonnage and strip ratio versus the prior estimate, and whether the update aligns with or exceeds the parameters in the existing Feasibility Study — any improvement in confidence category (inferred to indicated/proved) is particularly valuable."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.205,
+        "volume_trend_ratio": 1.41,
+        "volume_last_ratio": 0.72,
+        "avg_turnover_aud": 2190,
+        "liquid": false,
+        "pct_from_3m_high": -14.58,
+        "pct_from_3m_low": 13.89,
+        "pct_from_52w_high": -35.94,
+        "pct_from_52w_low": 13.89,
+        "range_position_3m": 0.417,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$2,190/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the middle part of its 3-month range, 14.58% below the high of that period.",
+          "Treat all of that with care: it trades about A$2,190 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMU",
+      "company": "AMERICAN URANIUM LTD",
+      "headline": "Notification regarding unquoted securities - AMU",
+      "time": "2026-09-10T23:54:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134439-6A1343354",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Notification regarding unquoted securities' is an administrative ASX Listing Rule filing — it typically discloses the issue of securities (options, performance rights, or notes) that are not yet quoted on the exchange, directly linked in this case to the convertible loan note raising disclosed simultaneously in announcement [4].",
+        "This filing is the mechanical back-office consequence of the A$1.235m convertible note raise; the unquoted securities represent the conversion rights or associated instruments issued to noteholders, confirming the dilutive overhang that will sit on the register until conversion or maturity.",
+        "No new information is added beyond what is in the capital raise announcement; however, the combination of a 76.67% price drawdown, sub-A$5,250/day liquidity, and growing unquoted security overhang reinforces a structurally weak capital position for AMU — this filing has no independent bullish read-through."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.07,
+        "volume_trend_ratio": 0.78,
+        "volume_last_ratio": 0.18,
+        "avg_turnover_aud": 5250,
+        "liquid": false,
+        "pct_from_3m_high": -22.22,
+        "pct_from_3m_low": 7.69,
+        "pct_from_52w_high": -76.67,
+        "pct_from_52w_low": 7.69,
+        "range_position_3m": 0.2,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "76.67% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$5,250/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 22.22% below the high of that period.",
+          "Treat all of that with care: it trades about A$5,250 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MRD",
+      "company": "MOUNT RIDLEY MINES LIMITED",
+      "headline": "Application for quotation of securities - MRD",
+      "time": "2026-09-10T23:53:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134438-6A1343357",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An 'Application for Quotation of Securities' is a standard ASX administrative filing requesting that newly issued shares be admitted to trading — it signals a recent capital raise or security issuance has been completed and the company is now bringing those shares to market.",
+        "Volume over the prior five sessions was 1.75x the 20-day average, and the stock is 51.72% below its 12-month high; the above-average volume likely reflects trading activity associated with the underlying capital raise event, though it should be contextualised against MRD's overall liquidity profile before drawing strong conclusions.",
+        "The quotation of new securities introduces additional supply to the market, which can create short-term selling pressure — particularly notable given the stock is already well off its highs; investors should identify the terms at which new securities were issued relative to the prevailing market price to assess the discount and overhang risk."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.042,
+        "volume_trend_ratio": 1.75,
+        "volume_last_ratio": 1.8,
+        "avg_turnover_aud": 101051,
+        "liquid": true,
+        "pct_from_3m_high": -22.22,
+        "pct_from_3m_low": 110.0,
+        "pct_from_52w_high": -51.72,
+        "pct_from_52w_low": 2000.0,
+        "range_position_3m": 0.647,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.75x its 20-day average",
+          "51.72% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, MRD traded 1.75x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 22.22% below the high of that period."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IBR",
+      "company": "IRON BEAR RESOURCES LTD",
+      "headline": "Pause in Trading",
+      "time": "2026-09-10T23:53:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134437-6A1343356",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A trading halt ('Pause in Trading') filed as market-sensitive almost universally precedes a pending material announcement — the most common catalysts are a capital raise, M&A transaction, or significant operational update that requires a price-sensitive disclosure to be made in an orderly market.",
+        "Volume over the prior five sessions ran at 1.85x the 20-day average ahead of the halt; however, IBR is a thinly traded stock (median turnover ~A$44,885/day), so this elevated volume ratio should be treated with caution — it takes very little absolute dollar flow to move that ratio meaningfully, and it does not reliably indicate informed positioning.",
+        "Investors should await the resumption announcement for substance; the nature of the pending news (dilutive raise vs. accretive deal vs. exploration result) will determine whether the halt resolves bullishly or bearishly — the halt itself is procedurally neutral."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.045,
+        "volume_trend_ratio": 1.85,
+        "volume_last_ratio": 1.21,
+        "avg_turnover_aud": 44885,
+        "liquid": false,
+        "pct_from_3m_high": -45.12,
+        "pct_from_3m_low": 2.27,
+        "pct_from_52w_high": -45.12,
+        "pct_from_52w_low": 12.5,
+        "range_position_3m": 0.026,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.85x its 20-day average"
+        ],
+        "caveat": "thinly traded, median turnover about A$44,885/day",
+        "reading": [
+          "Going into this, IBR traded 1.85x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 45.12% below the high of that period.",
+          "Treat all of that with care: it trades about A$44,885 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MRD",
+      "company": "MOUNT RIDLEY MINES LIMITED",
+      "headline": "Application for quotation of securities - MRD",
+      "time": "2026-09-10T23:51:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134436-6A1343355",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is an identical filing to announcement [8] — a duplicate 'Application for Quotation of Securities' lodgement for MRD; duplicate ASX filings occasionally occur due to administrative processing, and the analytical content is the same as the prior entry.",
+        "No incremental information is contained in this filing relative to [8]; the price action context is unchanged — 1.75x average volume over five sessions into a stock 51.72% below its 12-month high, with the volume elevation most likely attributable to the capital raise that precipitated the quotation application.",
+        "Investors should treat this as an administrative duplicate and focus analytical attention on the underlying capital raise terms and the dilutive impact of the incoming quoted securities rather than on this filing itself."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.042,
+        "volume_trend_ratio": 1.75,
+        "volume_last_ratio": 1.8,
+        "avg_turnover_aud": 101051,
+        "liquid": true,
+        "pct_from_3m_high": -22.22,
+        "pct_from_3m_low": 110.0,
+        "pct_from_52w_high": -51.72,
+        "pct_from_52w_low": 2000.0,
+        "range_position_3m": 0.647,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.75x its 20-day average",
+          "51.72% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, MRD traded 1.75x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 22.22% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCX",
+      "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
+      "headline": "PCX Monthly Newsletter - August 2026",
+      "time": "2026-09-10T23:50:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134435-2A1696650",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The PCX monthly newsletter is a regular investor communication for this listed private credit trust — it provides portfolio performance, deployment metrics, and NAV commentary for August 2026, serving as a key transparency touchpoint for a vehicle where underlying assets are illiquid and infrequently valued.",
+        "PCX is trading only 4.35% off its 3-month high, suggesting the market has been broadly constructive on the trust's performance and distribution profile — this is a relatively tight range for a credit vehicle and implies stable NAV expectations and income demand from yield-seeking investors.",
+        "Key metrics to extract from the newsletter: net asset value per unit versus market price (premium/discount), portfolio weighted average yield, deployment rate of committed capital, and any commentary on credit quality or watch-list exposures — any widening of the market price discount to NAV or deterioration in yield metrics would be the primary bearish signal to monitor."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-09",
+        "bars": 253,
+        "last_close": 1.98,
+        "volume_trend_ratio": 0.9,
+        "volume_last_ratio": 0.86,
+        "avg_turnover_aud": 260392,
+        "liquid": true,
+        "pct_from_3m_high": -4.35,
+        "pct_from_3m_low": 4.21,
+        "pct_from_52w_high": -6.6,
+        "pct_from_52w_low": 4.21,
+        "range_position_3m": 0.471,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "4.35% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-09 close.",
+          "The price sat in the middle part of its 3-month range, 4.35% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "WHI",
       "company": "WHITEFIELD INCOME LIMITED",
