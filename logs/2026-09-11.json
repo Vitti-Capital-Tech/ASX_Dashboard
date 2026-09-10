@@ -1,9 +1,101 @@
 {
   "date": "2026-09-11",
-  "total": 156,
+  "total": 158,
   "market_sensitive_count": 35,
-  "generated_at": "2026-09-10T23:39:43.116235+00:00",
+  "generated_at": "2026-09-10T23:52:38.663932+00:00",
   "announcements": [
+    {
+      "ticker": "WHI",
+      "company": "WHITEFIELD INCOME LIMITED",
+      "headline": "Notice of EGM / Proxy Form",
+      "time": "2026-09-10T23:49:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134434-2A1696649",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WHI is convening an Extraordinary General Meeting, signalling a potentially significant structural or strategic change — EGMs are called for matters too urgent or material to wait for an AGM, raising the possibility of a capital structure amendment, investment mandate change, or scheme-related vote that warrants close scrutiny of the proxy details.",
+        "The stock is sitting at a 3-month low into this announcement, which suggests the market may already be pricing in uncertainty or dissatisfaction around whatever the EGM resolution entails — a 'no' vote or an unpopular proposal could extend the drawdown, while a clearly shareholder-friendly outcome might catalyse a relief bounce.",
+        "Investors should prioritise reviewing the actual proxy materials and the nature of the resolutions: for a listed investment company like WHI, EGM triggers often relate to changes in fund structure, fee arrangements, or merger/consolidation proposals — any of which carry meaningful implications for NTA, distributions, and the discount/premium to net asset value."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 1.27,
+        "volume_trend_ratio": 0.7,
+        "volume_last_ratio": 0.41,
+        "avg_turnover_aud": 276554,
+        "liquid": true,
+        "pct_from_3m_high": -6.96,
+        "pct_from_3m_low": 0.79,
+        "pct_from_52w_high": -19.62,
+        "pct_from_52w_low": 2.42,
+        "range_position_3m": 0.095,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BTL",
+      "company": "BEETALOO ENERGY AUSTRALIA LIMITED",
+      "headline": "30 June 2026 Half Year Financial Report",
+      "time": "2026-09-10T23:46:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134433-2A1696648",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "BTL's half-year financial report for the period ending 30 June 2026 is a key disclosure moment for this early-stage energy explorer — the critical metrics to assess are cash on hand, burn rate, and implied runway, as pre-revenue explorers in the Beetaloo Basin live and die by their ability to fund ongoing drilling and seismic programs.",
+        "Trading volume over the prior five sessions ran at only 0.55x the stock's average, indicating a meaningfully subdued tape into this release — this below-average activity makes it difficult to read any informed positioning or anticipatory sentiment, and the volume ratio should be treated as close to meaningless as a signal of smart-money intent.",
+        "With the filing flagged as not market sensitive, the company itself does not believe the financials contain surprising news — the near-term focus for institutional investors should be on any updated commentary around exploration timelines, capital commitments, or partnership activity in the Beetaloo Basin, which remains a high-risk, high-optionality play contingent on government policy and farm-in interest."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.275,
+        "volume_trend_ratio": 0.55,
+        "volume_last_ratio": 0.59,
+        "avg_turnover_aud": 417377,
+        "liquid": true,
+        "pct_from_3m_high": -8.33,
+        "pct_from_3m_low": 34.15,
+        "pct_from_52w_high": -25.68,
+        "pct_from_52w_low": 34.15,
+        "range_position_3m": 0.737,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.55x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, BTL traded only 0.55x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 8.33% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "KME",
       "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
