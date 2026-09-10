@@ -1,40 +1,40 @@
 {
   "date": "2026-09-10",
-  "generated_at": "2026-09-10T18:46:58.445562+10:00",
+  "generated_at": "2026-09-10T20:42:34.083817+10:00",
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "stats": {
     "by_sentiment": {
       "bullish": {
-        "scored": 98,
-        "correct": 53,
+        "scored": 105,
+        "correct": 60,
         "wrong": 19,
         "flat": 26,
-        "hit_rate": 73.6,
-        "avg_abnormal_pct": 2.16
+        "hit_rate": 75.9,
+        "avg_abnormal_pct": 2.12
       },
       "bearish": {
-        "scored": 10,
+        "scored": 11,
         "correct": 4,
-        "wrong": 6,
+        "wrong": 7,
         "flat": 0,
-        "hit_rate": 40.0,
-        "avg_abnormal_pct": -2.07
+        "hit_rate": 36.4,
+        "avg_abnormal_pct": -1.79
       },
       "neutral": {
-        "scored": 176,
+        "scored": 186,
         "correct": 29,
-        "wrong": 147,
+        "wrong": 157,
         "flat": 0,
-        "hit_rate": 16.5,
-        "avg_abnormal_pct": -0.1
+        "hit_rate": 15.6,
+        "avg_abnormal_pct": -0.04
       }
     },
-    "spread_pct": 4.23,
-    "directional_hit_rate": 69.5,
-    "directional_scored": 82,
+    "spread_pct": 3.91,
+    "directional_hit_rate": 71.1,
+    "directional_scored": 90,
     "pending": 0,
-    "no_data": 36,
+    "no_data": 18,
     "conflicts": 8
   },
   "highlights": {
@@ -221,13 +221,13 @@
       "sentiment": "neutral",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 10.87,
+      "close": 10.87,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "wrong"
     },
     {
       "ticker": "JAL",
@@ -601,13 +601,13 @@
       "sentiment": "bullish",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 0.08,
+      "close": 0.08,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "correct"
     },
     {
       "ticker": "WC1",
@@ -848,13 +848,13 @@
       "sentiment": "neutral",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 0.195,
+      "close": 0.195,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "wrong"
     },
     {
       "ticker": "C7A",
@@ -1665,13 +1665,13 @@
       "sentiment": "bearish",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 0.067,
+      "close": 0.067,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "wrong"
     },
     {
       "ticker": "SEC",
@@ -1931,13 +1931,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 0.085,
+      "close": 0.085,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "wrong"
     },
     {
       "ticker": "WHI",
@@ -2045,13 +2045,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 0.001,
+      "close": 0.001,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "wrong"
     },
     {
       "ticker": "1AD",
@@ -2064,13 +2064,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 0.003,
+      "close": 0.003,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "wrong"
     },
     {
       "ticker": "MMS",
@@ -2159,13 +2159,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 0.019,
+      "close": 0.019,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "wrong"
     },
     {
       "ticker": "MMS",
@@ -2653,13 +2653,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 1.18,
+      "close": 1.18,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "wrong"
     },
     {
       "ticker": "PGY",
@@ -2672,13 +2672,13 @@
       "sentiment": "bullish",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 0.054,
+      "close": 0.054,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "correct"
     },
     {
       "ticker": "AGE",
@@ -2881,13 +2881,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 0.023,
+      "close": 0.023,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "wrong"
     },
     {
       "ticker": "AM5",
@@ -3147,13 +3147,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 0.1,
+      "close": 0.1,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "wrong"
     },
     {
       "ticker": "ROG",
@@ -3641,13 +3641,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 0.16,
+      "close": 0.16,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "wrong"
     },
     {
       "ticker": "AOK",
@@ -5066,13 +5066,13 @@
       "sentiment": "bullish",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 0.07,
+      "close": 0.07,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "correct"
     },
     {
       "ticker": "NCC",
@@ -5180,13 +5180,13 @@
       "sentiment": "bullish",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 0.008,
+      "close": 0.008,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "correct"
     },
     {
       "ticker": "AZ9",
@@ -5237,13 +5237,13 @@
       "sentiment": "bullish",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 0.25,
+      "close": 0.25,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "correct"
     },
     {
       "ticker": "GLS",
@@ -5294,13 +5294,13 @@
       "sentiment": "bullish",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 1.18,
+      "close": 1.18,
+      "return_pct": 0.0,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 1.03,
+      "verdict": "correct"
     },
     {
       "ticker": "GEM",
@@ -5674,13 +5674,13 @@
       "sentiment": "bullish",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-10",
+      "prev_close": 0.175,
+      "close": 0.18,
+      "return_pct": 2.86,
+      "index_return_pct": -1.03,
+      "abnormal_pct": 3.89,
+      "verdict": "correct"
     },
     {
       "ticker": "XYZ",
