@@ -1,9 +1,351 @@
 {
   "date": "2026-09-10",
-  "total": 295,
-  "market_sensitive_count": 69,
-  "generated_at": "2026-09-10T02:32:01.411428+00:00",
+  "total": 313,
+  "market_sensitive_count": 72,
+  "generated_at": "2026-09-10T03:27:24.936113+00:00",
   "announcements": [
+    {
+      "ticker": "NMT",
+      "company": "NEOMETALS LTD",
+      "headline": "Loan Facility Documentation Executed",
+      "time": "2026-09-10T03:23:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134107-6A1343201",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NMT has formally executed loan facility documentation, signalling that previously announced financing arrangements have cleared legal and administrative hurdles — a critical de-risking milestone for any development-stage company dependent on external capital.",
+        "The market-sensitive classification suggests the facility size, terms, or counterparty are material to NMT's valuation; investors should scrutinise interest rate, drawdown conditions, and any security or royalty provisions that could dilute equity upside.",
+        "Next step is monitoring drawdown triggers and deployment of proceeds — clarity on whether funds are earmarked for battery recycling/Primobius operations or general corporate purposes will be key to assessing near-term cash runway extension."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NMT",
+      "company": "NEOMETALS LTD",
+      "headline": "Grant of ASX Listing Rule 10.1 Waiver",
+      "time": "2026-09-10T03:23:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134106-6A1343200",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX has granted NMT a waiver under Listing Rule 10.1, which governs transactions between a listed entity and persons in a position of influence (e.g. substantial holders, directors) — this is a significant regulatory green light that removes a potential deal-blocking hurdle.",
+        "Rule 10.1 waivers are relatively uncommon and typically involve related-party asset acquisitions or financing arrangements; the market-sensitive flag implies the underlying transaction is material in scale or strategic importance to NMT's asset development pipeline.",
+        "Investors should assess whether the waiver relates to the loan facility documented in announcement [1], as the two disclosures in tandem may represent a coordinated related-party financing structure — understanding the full terms will be essential before drawing conclusions on dilution or governance risk."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BDX",
+      "company": "BCAL DIAGNOSTICS LIMITED",
+      "headline": "Clarification of BCAL's Position in Relation to GSS",
+      "time": "2026-09-10T03:19:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134105-2A1696503",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "BDX has issued a clarification regarding its position relative to GSS (likely a competitor or related diagnostic entity), indicating the company felt compelled to correct or contextualise market perceptions — a defensive disclosure that suggests some investor or media confusion exists around competitive positioning.",
+        "The non-market-sensitive classification implies no new material financial data is being disclosed; the announcement is primarily reputational and strategic, aimed at protecting BDX's brand differentiation in the breast cancer diagnostics space.",
+        "Investors should read the full text to determine whether BDX is distancing itself from GSS's technology claims, IP, or commercial relationships — any ongoing confusion between the two entities could adversely affect BDX's fundraising narrative or partnership discussions."
+      ],
+      "tags": [
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DUR",
+      "company": "DURATEC LIMITED",
+      "headline": "Notification of cessation of securities - DUR",
+      "time": "2026-09-10T03:07:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134104-6A1343199",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DUR has notified ASX of the cessation of securities, most commonly triggered by the expiry of unexercised options, vesting of performance rights into ordinary shares, or buyback cancellations — a routine but important capital structure update.",
+        "The non-market-sensitive flag confirms this is an administrative event with no immediate valuation impact; however, the nature of the securities ceased (e.g. executive options lapsing) can signal shifts in management incentive alignment or retention.",
+        "Investors should cross-reference with announcement [6] (application for quotation of new securities) to understand the net change in DUR's issued capital and whether any dilution or capital restructuring is underway."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OEL",
+      "company": "OTTO ENERGY LIMITED",
+      "headline": "Update on Gulf of America Asset Monetization Process",
+      "time": "2026-09-10T03:05:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134103-6A1343197",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "OEL is actively pursuing monetisation of its Gulf of America (formerly Gulf of Mexico) assets, suggesting the company may be seeking a sale, farm-out, or JV partnership — a critical capital event for a small-cap E&P facing ongoing funding pressures.",
+        "The market-sensitive designation indicates the process has reached a stage where outcome scenarios are material to valuation; any binding offer or exclusivity agreement could represent a significant premium or discount to current book value depending on oil price assumptions and asset maturity.",
+        "Key risks to watch: deal failure or prolonged process uncertainty could pressure the share price, while a successful transaction could unlock trapped value and materially improve OEL's balance sheet or fund a strategic pivot — investors should monitor for binding term sheets or process conclusion announcements."
+      ],
+      "tags": [
+        "Energy",
+        "Merger & Acquisition"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DUR",
+      "company": "DURATEC LIMITED",
+      "headline": "Application for quotation of securities - DUR",
+      "time": "2026-09-10T03:03:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134102-6A1343198",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DUR has applied to ASX for quotation of new securities, indicating fresh shares or other instruments are being admitted to trading — likely linked to a capital raise, exercise of options, or employee share plan issuance.",
+        "When read alongside announcement [5] (cessation of securities), this may represent a net-neutral capital event such as option conversions, or could signal incremental dilution if new shares have been issued to third parties without a prior capital raise announcement.",
+        "The practical next step for investors is to identify the security type and volume being quoted; if this relates to an institutional placement or SPP not previously disclosed at this stage, it could have modest near-term dilutive pressure on DUR's share price."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKT",
+      "company": "SKY NETWORK TELEVISION LIMITED.",
+      "headline": "NZX SPH Disclosure Notice",
+      "time": "2026-09-10T02:56:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134101-2A1696511",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "SKT has lodged a Substantial Product Holder (SPH) disclosure notice via the NZX, indicating a change in a significant shareholder's ownership stake — a standard regulatory requirement under New Zealand securities law when a holder crosses or moves through 5% ownership thresholds.",
+        "The non-market-sensitive classification suggests this is a routine ownership movement rather than a strategic accumulation or disposal, though any trend of sustained buying or selling by a substantial holder warrants ongoing monitoring for potential takeover interest or forced selling pressure.",
+        "As a dual-listed entity (NZX primary, ASX secondary), SKT's shareholder register changes have limited direct ASX trading implications, but institutional investors tracking ownership concentration should note the update for governance and liquidity modelling purposes."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OEL",
+      "company": "OTTO ENERGY LIMITED",
+      "headline": "Correction to Annual Reserves and Resources Statement",
+      "time": "2026-09-10T02:55:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134100-6A1343196",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "OEL has issued a correction to its Annual Reserves and Resources Statement — even though classified as non-market-sensitive, any restatement of reserves data is inherently significant as it forms the foundation of E&P company valuations and can affect lending covenants or JV obligations.",
+        "Investors should carefully examine whether the correction results in a net upgrade or downgrade of 1P/2P reserves, as even a modest percentage change in a small-cap E&P's reserve base can materially alter net asset value (NAV) per share calculations.",
+        "When considered alongside announcement [3] (Gulf of America monetisation process), accurate reserves data is critical to any bidder's due diligence — a correction at this stage could either support or complicate deal negotiations depending on the direction and magnitude of the revision."
+      ],
+      "tags": [
+        "Energy",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGL",
+      "company": "MAGONTEC LIMITED",
+      "headline": "Change of Director's Interest Notice - RK",
+      "time": "2026-09-10T02:55:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134099-2A1696512",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director of MGL (identified as 'RK') has filed a change of interest notice, signalling an alteration in their direct or indirect shareholding — either an on-market purchase, sale, or vesting of performance-linked securities.",
+        "Director buying on-market is generally interpreted as a positive sentiment signal, while selling — particularly if not linked to a pre-disclosed trading plan — can raise questions about management's confidence in near-term outlook; the direction of the transaction is key.",
+        "For a niche industrial materials company like MGL (magnesium alloys), insider activity is closely watched given thin trading liquidity; even modest director transactions can influence short-term price discovery and signal views on the China operations cycle."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TRP",
+      "company": "TISSUE REPAIR LTD",
+      "headline": "Appointment of Chief Financial Officer",
+      "time": "2026-09-10T02:53:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134098-2A1696510",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "TRP has appointed a new Chief Financial Officer, a strategically important hire for a clinical-stage biotech that will require tight capital management, investor relations discipline, and potentially a capital raise to fund ongoing wound-care product development and commercialisation.",
+        "The appointment signals maturation of TRP's corporate infrastructure — bringing in dedicated financial leadership at this stage typically precedes significant funding activity (e.g. institutional raise, grant applications, or partnership negotiations) and strengthens credibility with institutional investors.",
+        "Investors should monitor for the incoming CFO's background and track record: experience in biotech fundraising, ASX compliance, or healthcare commercialisation would be particularly value-additive given TRP's pre-revenue status and cash burn profile."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WC1",
+      "company": "WEST COBAR METALS LIMITED",
+      "headline": "Results of General Meeting",
+      "time": "2026-09-10T02:51:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134097-6A1343195",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "West Cobar Metals shareholders convened at the General Meeting, with all resolutions presumably passed — a clean outcome removes near-term governance uncertainty for this junior explorer.",
+        "As a non-market-sensitive filing, no capital raise, director spill, or material transaction was tabled, suggesting routine housekeeping resolutions (e.g. director re-elections, auditor ratification) dominated the agenda.",
+        "Next steps for WC1 will hinge on field exploration progress at its Cobar Basin copper-gold projects; investors should monitor upcoming quarterly activities reports for any resource or drilling updates that carry genuine price-moving potential."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Daily Net Tangible Asset Statement",
+      "time": "2026-09-10T02:47:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134096-2A1696509",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Perpetual Credit Income Trust (PCI) has published its daily NTA statement, a routine regulatory disclosure that provides unitholders with a real-time snapshot of portfolio fair value against the prevailing unit price.",
+        "The NTA figure is the critical reference point for identifying whether PCI is trading at a premium or discount — persistent discounts to NTA in credit income trusts can signal redemption pressure or deteriorating credit market sentiment.",
+        "No material portfolio events are implied by this filing; however, institutional investors should track the NTA trend series over days/weeks to detect any mark-to-market deterioration in the underlying fixed-income and credit holdings."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MA1",
+      "company": "MA CREDIT INCOME TRUST",
+      "headline": "Daily Estimate NTA for 09.09.2026",
+      "time": "2026-09-10T02:44:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134095-2A1696508",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MA Credit Income Trust (MA1) has released its daily estimated NTA for 9 September 2026, a standard transparency disclosure required for listed credit vehicles on the ASX.",
+        "The estimated — rather than audited — nature of the NTA is important context; it reflects mark-to-model or indicative pricing of underlying credit assets, which may differ from realisable values in stressed market conditions.",
+        "Investors in MA1 should use this NTA update to assess the current premium/discount dynamic; a widening discount could present a tactical entry or exit signal depending on portfolio credit quality trends."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AF6",
+      "company": "AFG 2025-1 TRUST IN RESPECT OF SERIES 2025-1",
+      "headline": "AFG 2025-1 Trust - Monthly Interest Payment",
+      "time": "2026-09-10T02:41:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134094-2A1696507",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AFG 2025-1 Trust has announced its monthly interest payment to noteholders, confirming the RMBS structure continues to perform in line with its payment waterfall obligations — a positive sign for credit quality of the underlying mortgage pool.",
+        "Timely coupon payments indicate no arrears or liquidity shortfalls have disrupted the trust's cash flow distribution, which is a key credit health metric for ABS/RMBS investors monitoring Australian Mortgage origination quality.",
+        "With interest rates a live macro variable, investors should track prepayment speeds and pool factor reductions in upcoming monthly reports to assess extension or contraction risk on this 2025-vintage securitisation."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AF5",
+      "company": "AFG 2025-1NC TRUST IN RESPECT OF SERIES 2025-1NC",
+      "headline": "AFG 2025-1NC Trust - Monthly Interest PAyment",
+      "time": "2026-09-10T02:38:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134093-2A1696506",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AFG 2025-1NC Trust has made its scheduled monthly interest payment, confirming the non-conforming RMBS tranche remains current — particularly notable given non-conforming borrowers carry higher credit risk profiles than prime pools.",
+        "The 'NC' (non-conforming) designation warrants closer monitoring of arrears data; continued timely payments suggest the underlying borrower cohort is holding up despite cost-of-living pressures in the Australian mortgage market.",
+        "Institutional note-holders should scrutinise the monthly investor report for subordination levels and any excess spread compression, which are early-warning indicators of credit deterioration in non-conforming structures."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RPL",
+      "company": "REGAL PARTNERS LIMITED",
+      "headline": "Update - Dividend/Distribution - RPL",
+      "time": "2026-09-10T02:36:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134092-2A1696505",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Regal Partners (RPL) has issued an update to a previously announced dividend/distribution, which could indicate a revision to quantum, record date, or payment mechanics — details that materially affect income-focused investors' yield calculations.",
+        "As a listed alternative asset manager, RPL's dividend distributions are closely watched as a proxy for fee revenue and fund performance health; any upward revision would be incrementally bullish for yield-seeking institutional holders.",
+        "Investors should confirm the updated dividend per share figure against the original announcement to assess whether the revision reflects stronger-than-expected earnings or a structural change to RPL's distribution policy."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AF4",
+      "company": "AFG 2024-1 TRUST IN RESPECT OF SERIES 2024-1",
+      "headline": "AFG 2024-1 Trust - Monthly Interest Payment",
+      "time": "2026-09-10T02:34:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134091-2A1696504",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AFG 2024-1 Trust has completed its monthly interest payment to noteholders, demonstrating ongoing compliance with the payment waterfall for this mid-vintage RMBS structure originated in 2024.",
+        "The 2024 vintage is now entering a seasoning phase where pool performance data becomes increasingly meaningful; continued timely payments suggest origination underwriting standards have held up as borrowers navigate elevated rate environments.",
+        "Investors should benchmark this trust's pool factor and arrears metrics against peer 2024-vintage AFG and non-AFG RMBS to assess relative performance and any early signs of credit quality divergence."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFT",
+      "company": "AFG 2023-1 TRUST IN RESPECT OF SERIES 2023-1",
+      "headline": "AFG 2023-1 Trust - Monthly Interest Payment",
+      "time": "2026-09-10T02:34:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134090-2A1696502",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AFG 2023-1 Trust has made its monthly interest payment, with this 2023-vintage structure now sufficiently seasoned to provide meaningful performance data on Australian mortgage borrowers who originated during the rate-tightening cycle.",
+        "The continued timely payment from a 2023 cohort — arguably one of the most stress-tested vintages given the RBA's aggressive rate hikes — provides institutional investors with positive signal on the resilience of AFG's mortgage origination quality.",
+        "As this trust matures, prepayment rates and pool balance reduction will increasingly drive weighted-average life and yield outcomes; investors should monitor monthly reports for evidence of accelerating prepayments as borrowers potentially refinance into lower-rate products."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "REG",
       "company": "REGIS HEALTHCARE LIMITED",
