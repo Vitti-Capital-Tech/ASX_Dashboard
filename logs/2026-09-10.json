@@ -1,9 +1,467 @@
 {
   "date": "2026-09-10",
-  "total": 271,
-  "market_sensitive_count": 67,
-  "generated_at": "2026-09-10T01:30:07.777761+00:00",
+  "total": 295,
+  "market_sensitive_count": 69,
+  "generated_at": "2026-09-10T02:32:01.411428+00:00",
   "announcements": [
+    {
+      "ticker": "REG",
+      "company": "REGIS HEALTHCARE LIMITED",
+      "headline": "Application for quotation of securities - REG",
+      "time": "2026-09-10T02:27:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134089-3A701497",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Regis Healthcare is applying for quotation of new securities on the ASX, most likely reflecting the settlement and listing of shares issued under a recent capital raise, employee incentive plan, or dividend reinvestment program.",
+        "While procedurally routine, the additional securities entering the market represent a marginal increase in free float, with minimal near-term price impact unless volumes are significant relative to existing issued capital.",
+        "Investors should cross-reference the number and class of securities being quoted against any recent capital raise or remuneration disclosures to assess dilution quantum and whether new shares carry any escrow restrictions."
+      ],
+      "tags": [
+        "Healthcare",
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "C7A",
+      "company": "CLARA RESOURCES AUSTRALIA LTD",
+      "headline": "Notification regarding unquoted securities - C7A",
+      "time": "2026-09-10T02:25:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134088-2A1696501",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Clara Resources Australia is notifying the market of unquoted securities, a standard administrative disclosure that typically relates to performance rights, options, or other equity instruments not yet eligible for trading on the ASX.",
+        "This is a non-market-sensitive, compliance-driven filing with no immediate earnings or valuation impact; however, it flags the existence of potential future dilution if and when these securities convert or vest.",
+        "Investors should track the terms and vesting conditions of these unquoted securities — particularly expiry dates and exercise prices — to model future dilution into their capital structure analysis for C7A."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARN",
+      "company": "ALDORO RESOURCES LIMITED",
+      "headline": "Notification of cessation of securities - ARN",
+      "time": "2026-09-10T02:24:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134087-6A1343194",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Aldoro Resources is notifying the market of the cessation of securities, typically indicating that options, performance rights, or warrants have expired unexercised or been cancelled — reducing the potential dilutive overhang on the register.",
+        "The cessation of unexercised securities is marginally positive for existing shareholders as it eliminates dilution risk from those instruments, though the capital that could have been raised via exercise will not be received.",
+        "This is a routine administrative update with no direct earnings impact; the key takeaway is a cleaner capital structure, and investors should verify whether the cessation materially changes ARN's fully diluted share count."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BCM",
+      "company": "BRAZILIAN CRITICAL MINERALS LIMITED",
+      "headline": "Results of Meeting",
+      "time": "2026-09-10T02:23:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134086-6A1343192",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Brazilian Critical Minerals has released its results of meeting, confirming shareholder votes on resolutions put to the AGM or EGM — outcomes will dictate whether key strategic, capital, or governance initiatives have received the mandate to proceed.",
+        "Passage of all resolutions (the most common outcome) is procedurally neutral, but any defeated resolutions — particularly around capital raises, director elections, or remuneration — would carry negative governance and operational implications.",
+        "Investors should review the specific resolution outcomes and vote tallies for any signs of shareholder dissent, particularly on remuneration or dilutive equity issuance, as these can be leading indicators of future governance friction."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GTN",
+      "company": "GTN LIMITED",
+      "headline": "Change of Director's Interest Notice - Corinna Keller",
+      "time": "2026-09-10T02:22:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134085-2A1696499",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "GTN Limited director Corinna Keller has filed a change of director's interest notice, indicating a movement in her direct or indirect shareholding — either an on-market purchase, sale, or vesting of equity-based remuneration.",
+        "Director share transactions are closely watched as sentiment signals; an on-market purchase would be a modest bullish indicator of insider confidence, while a sale could raise questions about near-term outlook — the direction of the transaction is the critical detail here.",
+        "As a non-market-sensitive, routine compliance filing, this has limited standalone price impact; however, a pattern of director selling across multiple insiders would warrant closer scrutiny of GTN's earnings trajectory and strategic outlook."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "C7A",
+      "company": "CLARA RESOURCES AUSTRALIA LTD",
+      "headline": "Application for quotation of securities - C7A",
+      "time": "2026-09-10T02:21:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134084-2A1696500",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Clara Resources Australia is separately applying for the quotation of securities on the ASX, meaning these instruments — likely newly issued shares from a placement, rights issue, or option exercise — are now being admitted to official trading.",
+        "The combination of this quotation application (announcement [8]) alongside the unquoted securities notification (announcement [4]) suggests active equity management activity at C7A, warranting a consolidated review of the company's current capital raise or incentive program.",
+        "Investors should assess the pricing of any newly quoted securities relative to the prevailing market price to determine whether the issuance was accretive or dilutive, and whether it strengthens C7A's balance sheet ahead of upcoming exploration activities."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FWD",
+      "company": "FLEETWOOD LIMITED",
+      "headline": "Application for quotation of securities - FWD",
+      "time": "2026-09-10T02:21:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134083-6A1343191",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Fleetwood Limited is applying for quotation of new securities, a routine administrative step that brings additional shares — likely from a dividend reinvestment plan, employee share plan, or completed capital raise — onto the ASX market.",
+        "The incremental increase in tradeable securities is unlikely to materially shift FWD's supply/demand dynamics unless the parcel is large; the key question is whether these shares relate to a recently announced strategic transaction or ongoing remuneration program.",
+        "This is a low-signal, compliance-oriented announcement; investors should verify the class and quantity of securities being quoted against recent corporate activity disclosures to assess any dilution risk."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Application for quotation of securities - EGH",
+      "time": "2026-09-10T02:20:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134082-2A1696498",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Eureka Group Holdings is applying for quotation of new securities on the ASX, most likely representing shares issued under a capital raise, DRP, or employee incentive scheme that are now eligible for trading.",
+        "For a company operating in the affordable seniors accommodation sector, any capital raise-linked quotation could signal balance sheet strengthening to fund development pipeline growth — a potentially positive underlying driver if confirmed.",
+        "This is a procedural filing with limited standalone analytical value; investors should cross-reference the securities class and volume against EGH's most recent capital management activity to determine the source of issuance and its strategic rationale."
+      ],
+      "tags": [
+        "Compliance",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BC8",
+      "company": "BLACK CAT SYNDICATE LIMITED",
+      "headline": "Extensional Drilling Grows Trojan Footprint",
+      "time": "2026-09-10T02:19:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134081-6A1343190",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Extensional drilling at the Trojan deposit is expanding the known resource footprint, a critical de-risking milestone that signals potential resource upgrade and increased project economics for Black Cat Syndicate's Kal East Gold Project.",
+        "Positive drill results growing the Trojan footprint suggest mineralisation remains open along strike and/or at depth, materially improving the odds of a larger resource estimate in an upcoming MRE update — a key re-rating catalyst for BC8.",
+        "Near-term focus will shift to whether updated resource numbers can meaningfully improve project feasibility metrics; investors should watch for a formal MRE revision and any commentary on mine planning implications as the next value inflection point."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "C7A",
+      "company": "CLARA RESOURCES AUSTRALIA LTD",
+      "headline": "Application for quotation of securities - C7A",
+      "time": "2026-09-10T02:07:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134080-2A1696497",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Clara Resources Australia (C7A) has lodged an application for quotation of new securities on the ASX, indicating a recent capital raise or securities issuance has been completed and is now moving to the listing/trading phase.",
+        "While the announcement is procedural, the timing and scale of securities being quoted will determine dilution impact — investors should scrutinise the number of shares being admitted relative to existing issued capital.",
+        "Next step is ASX granting quotation approval; until volume and pricing of new securities are confirmed, the net effect on the register and free float remains the key variable to watch."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ILT",
+      "company": "ILTANI RESOURCES LIMITED.",
+      "headline": "ILT September 2026 Investor Presentation",
+      "time": "2026-09-10T02:01:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134079-3A701496",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Iltani Resources (ILT) has released a September 2026 investor presentation, a typical capital markets engagement tool designed to maintain or build retail and institutional interest ahead of potential newsflow or funding activity.",
+        "Investor presentations at this stage of a junior explorer's lifecycle often signal an upcoming capital raise or material announcement — investors should review the presentation for updated project timelines, resource estimates, or strategic pivots.",
+        "The 'not market sensitive' classification suggests no new material data is contained within; however, narrative framing and management's tone on milestones can still provide forward-looking signals on exploration priorities."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUV",
+      "company": "AURAVELLE METALS LIMITED",
+      "headline": "Results of Meeting",
+      "time": "2026-09-10T01:54:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134078-6A1343189",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Auravelle Metals (AUV) has released results of its general meeting, confirming which resolutions were passed or rejected — the outcome directly affects the company's ability to execute any pending capital raises, board changes, or strategic initiatives put to shareholders.",
+        "If key resolutions including share issuance authorities or board appointments were passed, this clears the path for near-term corporate activity; any failure of critical resolutions would represent a governance or strategic setback.",
+        "Investors should note the vote tallies on contentious resolutions as a proxy for shareholder confidence in current management direction, particularly relevant given the junior explorer's need for ongoing market support."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CGH",
+      "company": "CLAREMONT GLOBAL FUND (HEDGED) ACTIVE ETF",
+      "headline": "2026 Annual Report",
+      "time": "2026-09-10T01:53:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134077-2A1696496",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Claremont Global Fund (Hedged) Active ETF (CGH) has published its 2026 Annual Report, providing the most comprehensive disclosure of the fund's portfolio composition, performance attribution, fees, and NAV trajectory for the financial year.",
+        "As a hedged active ETF, key metrics to scrutinise include: currency hedge costs and their drag on returns relative to the unhedged peer (CGU), active share, and whether stock selection alpha justified the active fee structure.",
+        "Annual reports for active ETFs serve as a critical accountability document — underperformance versus benchmark or excessive fee drag could trigger redemption pressure, while strong risk-adjusted returns reinforce the fund's value proposition to investors."
+      ],
+      "tags": [
+        "Finance",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CGU",
+      "company": "CLAREMONT GLOBAL FUND ACTIVE ETF",
+      "headline": "2026 Annual Report",
+      "time": "2026-09-10T01:52:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134076-2A1696495",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Claremont Global Fund Active ETF (CGU) has released its 2026 Annual Report, offering full-year transparency on the unhedged global equities strategy's performance, portfolio holdings, and cost structure.",
+        "The unhedged structure means AUD/USD and broader currency movements will have been a material performance driver in FY2026 — investors should compare absolute and benchmark-relative returns carefully against the hedged sibling fund (CGH) to assess currency positioning decisions.",
+        "Key watch points include manager commentary on global equity market conditions, conviction position concentration, and any shifts in portfolio construction — these will signal the fund's strategic stance heading into the next financial year."
+      ],
+      "tags": [
+        "Finance",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AOV",
+      "company": "AMOTIV LIMITED",
+      "headline": "Update - Dividend/Distribution - AOV",
+      "time": "2026-09-10T01:52:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134075-3A701495",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Amotiv Limited (AOV) has issued an update to its dividend/distribution announcement, suggesting a correction, clarification, or amendment to previously disclosed dividend details — this could relate to record date, payment date, amount, or franking level.",
+        "Any upward revision to dividend quantum would be modestly bullish; a downward revision or deferral would signal earnings pressure and weigh on investor sentiment given income-focused holders in the mid-cap industrial space.",
+        "Investors should cross-reference the updated figures against the original announcement to identify the specific change — franking credit adjustments in particular can materially affect the after-tax yield calculus for domestic institutional investors."
+      ],
+      "tags": [
+        "Dividend",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LAT",
+      "company": "LATITUDE 66 LIMITED",
+      "headline": "Webinar Invitation Scoping Study",
+      "time": "2026-09-10T01:51:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134074-6A1343188",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Latitude 66 (LAT) is hosting a webinar to present a Scoping Study, marking a significant de-risking milestone as the company transitions from pure exploration to preliminary project economics — this is a material step in the value creation pathway for junior resource companies.",
+        "Scoping Studies establish initial capital cost (capex), operating cost (opex), and project IRR/NPV estimates; the quality of these numbers relative to market expectations will be the primary sentiment driver for the stock post-webinar.",
+        "Webinar format suggests management is proactively managing investor relations around what could be a catalyst event — institutional investors should attend or review the material closely, as positive project economics could re-rate the stock from explorer to developer status."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SUH",
+      "company": "SOUTHERN HEMISPHERE MINING LIMITED",
+      "headline": "Diamond Drilling to Commence at Llahuin, Chile",
+      "time": "2026-09-10T01:50:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134073-6A1343187",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Southern Hemisphere Mining (SUH) is commencing diamond drilling at its Llahuin copper project in Chile, converting the exploration program from a planning phase to active ground-truthing — a tangible operational milestone that typically generates near-term newsflow.",
+        "Diamond drilling at Llahuin is designed to provide high-quality core samples for detailed geological analysis; results will test and potentially expand known mineralisation, with any high-grade intersections capable of acting as a near-term re-rating catalyst.",
+        "Chile remains a Tier-1 mining jurisdiction for copper, and the commencement of drilling reduces execution risk; investors should monitor drill hole spacing, target depths, and expected turnaround time for assay results as key milestones over the coming weeks."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "POW",
+      "company": "POWERHAUS URANIUM LIMITED",
+      "headline": "Investor Presentation - September 2026",
+      "time": "2026-09-10T01:46:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134072-6A1343186",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PowerHaus Uranium (POW) has released a September 2026 investor presentation, consistent with a junior uranium explorer actively marketing its equity story amid ongoing global uranium supply/demand dynamics and nuclear energy policy tailwinds.",
+        "The presentation likely outlines project pipeline, resource status, and strategic positioning within the uranium sector — investors should assess whether any new exploration targets, resource updates, or partnership developments have been included versus prior materials.",
+        "Uranium juniors remain highly sentiment-driven and correlated to spot uranium price movements; the presentation serves as a market engagement tool but absent new material information, near-term price impact is likely limited without a concurrent operational catalyst."
+      ],
+      "tags": [
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCX",
+      "company": "PENGANA GLOBAL PRIVATE CREDIT TRUST",
+      "headline": "Update - Dividend/Distribution - PCX",
+      "time": "2026-09-10T01:42:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134071-2A1696494",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Pengana Global Private Credit Trust (PCX) has issued an update to its dividend/distribution announcement, flagging a modification to previously disclosed distribution details — investors in this income-focused vehicle will be sensitive to any changes in the quantum, timing, or tax treatment of distributions.",
+        "PCX targets regular income distributions backed by a global private credit portfolio; any amendment here could reflect changes in portfolio yield, FX hedging outcomes, or management fee netting — the direction of the revision is the critical determinant of sentiment impact.",
+        "For yield-oriented institutional investors, distribution consistency and predictability are core to the PCX investment thesis; repeated amendments or reductions would undermine confidence in the trust's income generation reliability and could prompt redemption consideration."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TCF",
+      "company": "360 CAPITAL MORTGAGE REIT",
+      "headline": "Progressing Recovery Actions",
+      "time": "2026-09-10T01:37:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134070-2A1696493",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "TCF is actively progressing recovery actions, signalling that impaired or non-performing loans within its mortgage portfolio remain a live risk management issue — a red flag for unitholders given the REIT's income distribution sustainability.",
+        "The market-sensitive classification suggests the recovery process may involve material loan exposures; failure to recover full principal could result in further write-downs, NAV erosion, and reduced distributions to investors.",
+        "Institutional investors should monitor the pace and quantum of recoveries closely — prolonged legal or enforcement proceedings could weigh on liquidity and delay capital returns, especially in a higher-for-longer interest rate environment compressing collateral values."
+      ],
+      "tags": [
+        "Finance",
+        "Property"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WB1",
+      "company": "SERIES 2020-1 WST TRUST",
+      "headline": "Series 2020-1 WST Trust - Class A Notes Call Notice",
+      "time": "2026-09-10T01:33:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134069-2A1696492",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The issuance of a Class A Notes Call Notice signals the trust is exercising its right to redeem the senior-most tranche of the WST 2020-1 securitisation structure, reflecting normal lifecycle management of an ABS vehicle originated in 2020.",
+        "Call notices on Class A notes typically indicate underlying loan pool prepayment or amortisation has reached a threshold that makes redemption economically efficient, removing interest rate and extension risk for noteholders ahead of legal maturity.",
+        "Investors holding WB1 Class A paper should prepare for principal return and reinvestment — the redemption removes credit exposure but also extinguishes the yield stream, requiring redeployment into current market conditions where spreads may differ materially from 2020 issuance levels."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ETP",
+      "company": "GLOBAL X PHYSICAL PLATINUM STRUCTURED",
+      "headline": "Half Year Accounts",
+      "time": "2026-09-10T01:31:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134068-6A1343183",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "The half-year accounts for Global X Physical Platinum ETP provide a transparent view of the fund's net asset value, platinum holdings per unit, and cost base — key metrics for institutional investors benchmarking physical commodity exposure against spot platinum prices.",
+        "Platinum has faced headwinds from subdued autocatalyst demand and a sluggish industrial recovery in key markets; the half-year report is likely to reflect NAV movements broadly in line with spot price performance, with expense ratio drag the primary alpha detractor.",
+        "As a physically backed ETP with no operational complexity, the report carries minimal new information beyond confirming custodian holdings and fee structures — investors should cross-reference platinum spot trends and AUM flows for a forward-looking read on fund momentum."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMO",
+      "company": "COSMO METALS LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-10T01:28:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134067-6A1343185",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cosmo Metals' cleansing notice indicates the company has recently completed a capital raise under the ASX's placement or rights issue provisions and is now fulfilling its statutory obligation under s708A of the Corporations Act to allow freely tradeable on-sale of those newly issued shares.",
+        "The filing itself is procedural, but its existence confirms dilutive equity has been issued — investors should scrutinise the associated placement terms, price, and scale to assess the degree of dilution and whether the raise was priced at a discount to market.",
+        "The next catalyst to watch is how the fresh capital will be deployed — likely toward exploration or project advancement given CMO's metals-focused mandate — with market re-rating dependent on whether the use of proceeds is value-accretive relative to the dilution incurred."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MEZ",
+      "company": "MERIDIAN ENERGY LIMITED",
+      "headline": "Dividend reinvestment plan strike price",
+      "time": "2026-09-10T01:27:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134066-2A1696491",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Meridian Energy has set its Dividend Reinvestment Plan (DRP) strike price, providing shareholders with a defined entry point for reinvesting dividends into new MEZ shares rather than receiving cash — a key signal for assessing management's confidence in the stock's near-term valuation.",
+        "The DRP strike price relative to prevailing market price is the critical variable: a discount to market incentivises participation and can signal management's desire to retain cash within the business, while a market-rate or premium strike reduces uptake and cash conservation benefits.",
+        "For institutional holders, DRP participation levels will influence the effective free float and near-term selling pressure — high DRP take-up reduces cash outflows for Meridian, supporting balance sheet strength in the context of its renewable energy capital expenditure pipeline in New Zealand."
+      ],
+      "tags": [
+        "Dividend",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "WMA",
       "company": "WAM ALTERNATIVE ASSETS LIMITED",
