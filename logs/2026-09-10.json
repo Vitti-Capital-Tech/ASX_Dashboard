@@ -1,9 +1,394 @@
 {
   "date": "2026-09-10",
-  "total": 234,
-  "market_sensitive_count": 65,
-  "generated_at": "2026-09-10T00:00:32.157179+00:00",
+  "total": 254,
+  "market_sensitive_count": 66,
+  "generated_at": "2026-09-10T00:55:44.246831+00:00",
   "announcements": [
+    {
+      "ticker": "SVY",
+      "company": "STAVELY MINERALS LIMITED",
+      "headline": "Resources Rising Stars Conference Presentation",
+      "time": "2026-09-10T00:50:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134048-6A1343172",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "SVY is presenting at the Resources Rising Stars Conference, a targeted investor engagement event designed to raise the company's profile among specialist small-cap and resources-focused fund managers.",
+        "Conference presentations of this nature are typically non-market-sensitive and serve primarily as a re-packaging of existing public information; no new material disclosure is expected.",
+        "The strategic value lies in broadening the shareholder register and maintaining visibility during what is a competitive fundraising environment for junior miners; near-term share price impact is likely minimal absent new exploration news."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CIM",
+      "company": "CHALLENGER IM CAPITAL LIMITED",
+      "headline": "Interest Payment - CIMHA",
+      "time": "2026-09-10T00:50:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134047-2A1696481",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Challenger IM Capital has confirmed an interest payment on its CIMHA hybrid/debt security, demonstrating ongoing debt service capability and adherence to scheduled coupon obligations.",
+        "For CIMHA holders, the payment confirmation removes any short-term default uncertainty; for equity holders in CIM, regular interest payments affirm that the capital structure remains functional without signs of financial stress.",
+        "This is a routine administrative update; no change to financial guidance or capital structure is implied, and the near-term market impact on CIM equity is expected to be negligible."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FG1",
+      "company": "FLYNN GOLD LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-09-10T00:49:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134046-3A701494",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Flynn Gold has released an investor presentation, likely refreshing the market on its Tasmanian gold exploration portfolio and near-term drilling or exploration plans.",
+        "Investor presentations from junior explorers are primarily re-engagement tools; their value depends on whether new project milestones, updated resource data, or capital allocation priorities are disclosed within the deck.",
+        "Without accompanying material new exploration results or a capital raise announcement, the market impact is likely muted; investors should parse the presentation for any revised work program timelines or partnership discussions."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HLX",
+      "company": "HELIX RESOURCES LIMITED",
+      "headline": "Initial Director's Interest Notice - Keogh",
+      "time": "2026-09-10T00:43:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134045-6A1343171",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "An Initial Director's Interest Notice has been lodged for a new director named Keogh at Helix Resources, a routine compliance filing that discloses their opening securities position upon appointment.",
+        "The disclosed interest level (number of shares/options held on appointment) is a key data point — a meaningful personal stake signals alignment with shareholders, while a zero holding may indicate an arms-length appointment.",
+        "This notice should be read in conjunction with the concurrent director appointment announcement (HLX #7) to form a complete picture of the new board addition's profile and incentive structure."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HLX",
+      "company": "HELIX RESOURCES LIMITED",
+      "headline": "Appointment of Director",
+      "time": "2026-09-10T00:42:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134044-6A1343170",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Helix Resources has appointed a new director (Keogh), a board change that may signal a strategic pivot, succession planning, or augmentation of technical/commercial expertise as the company advances its exploration assets.",
+        "The strategic significance of the appointment hinges on Keogh's background — a geologist or mining executive appointment would reinforce operational focus, while a corporate/finance profile may signal an upcoming capital raise or M&A activity.",
+        "Investors should assess whether this appointment strengthens the board's capability gap and whether it precedes any near-term announcement around project development, funding, or strategic review."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FME",
+      "company": "FUTURE METALS NL",
+      "headline": "Notice of Extraordinary General Meeting",
+      "time": "2026-09-10T00:39:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134043-6A1343169",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Future Metals has called an Extraordinary General Meeting (EGM), signalling that time-sensitive resolutions requiring shareholder approval are pending — commonly associated with capital raises, asset transactions, or significant constitutional changes.",
+        "The nature of the EGM resolutions is the critical variable; if the meeting relates to a dilutive capital raise or change in company direction, it could be materially negative, whereas an asset acquisition could be value-accretive.",
+        "Investors should prioritise reviewing the accompanying notice of meeting documentation for resolution details and vote recommendations; the outcome will determine whether this is a bullish or bearish catalyst for FME."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMG",
+      "company": "CRITICAL MINERALS GROUP LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-09-10T00:32:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134042-2A1696480",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has crossed below the 5% notification threshold in CMG, signalling meaningful selling pressure or stake disposal by a previously significant investor.",
+        "The exit of a substantial holder can reduce institutional sponsorship of the stock, potentially impacting liquidity and near-term price support for this small-cap critical minerals play.",
+        "Investors should monitor whether further selling by associated parties follows; continued register turnover in micro-cap miners often precedes broader re-rating risk or forced liquidation."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SEC",
+      "company": "SPHERIA EMERGING COMPANIES LIMITED",
+      "headline": "Net Tangible Asset Backing",
+      "time": "2026-09-10T00:29:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134041-2A1696479",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Spheria Emerging Companies has published its Net Tangible Asset (NTA) backing per share — a standard monthly disclosure for Listed Investment Companies (LICs) that provides the market with the latest fair-value snapshot of the underlying portfolio.",
+        "The NTA figure relative to the current share price determines whether SEC is trading at a premium or discount; a widening discount to NTA is a red flag for LIC investors, while a narrowing discount or premium reflects strong demand and portfolio performance.",
+        "This is a routine regulatory disclosure; directional significance depends on the NTA movement versus the prior month and prevailing share price — investors should compare figures against the previous release to assess portfolio momentum."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CNI",
+      "company": "CENTURIA CAPITAL GROUP",
+      "headline": "Appendix 3Y - John McBain",
+      "time": "2026-09-10T00:27:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134040-2A1696478",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Appendix 3Y change of director's interest notice has been filed for Centuria Capital Group's John McBain, disclosing a change in his securities holdings — a routine but regulatory-mandated transparency requirement.",
+        "The materiality of this filing depends on the direction and scale of the change; an on-market purchase by a senior executive or key director is typically interpreted as a positive insider confidence signal, while a sale may attract scrutiny.",
+        "For a diversified real estate fund manager like CNI, insider trading activity by the CEO or chairman can be a leading indicator of management's internal view on NAV and distribution sustainability; the specific transaction details warrant close review."
+      ],
+      "tags": [
+        "Board Change",
+        "Property",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INV",
+      "company": "INVESTSMART GROUP LIMITED",
+      "headline": "Notification of buy-back - INV",
+      "time": "2026-09-10T00:25:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134039-2A1696477",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "INV has notified the ASX of an on-market share buy-back program, signalling management confidence that the stock is undervalued relative to intrinsic worth.",
+        "Buy-backs at smaller-cap wealth-tech firms like InvestSmart are capital-allocation signals — with a relatively modest market cap, even a modest buy-back quantum can meaningfully reduce the float and support earnings per share accretion.",
+        "Investors should monitor the volume and price limits disclosed in the buy-back notice; sustained execution would indicate board conviction, while a slow or halted program could suggest cash-flow constraints."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CNI",
+      "company": "CENTURIA CAPITAL GROUP",
+      "headline": "Appendix 3Y - Jason Huljich",
+      "time": "2026-09-10T00:22:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134038-2A1696476",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 3Y filings disclose changes in a director's interests outside of a direct company transaction — in this case, Co-CEO Jason Huljich of Centuria Capital Group (CNI), a major ASX-listed real estate funds manager.",
+        "The filing itself is administrative and procedural, capturing indirect or ancillary interest changes (e.g. via trusts, family entities, or vesting of securities) rather than open-market buying or selling, limiting its immediate trading signal.",
+        "Investors should cross-reference whether the interest change reflects accumulation or disposal; any net increase in director exposure to CNI stock would be a constructive alignment-of-interest signal given current property sector headwinds."
+      ],
+      "tags": [
+        "Property",
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VMC",
+      "company": "VENUS METALS CORPORATION LIMITED",
+      "headline": "Notification regarding unquoted securities - VMC",
+      "time": "2026-09-10T00:20:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134037-6A1343168",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Venus Metals Corporation (VMC) has notified the ASX regarding unquoted securities, typically relating to options, performance rights, or restricted shares issued outside the listed equity structure.",
+        "For a junior explorer like VMC, the nature and quantum of unquoted securities matters — if these are newly issued options to directors or advisors, it could represent incremental dilution risk for existing shareholders without immediate capital inflow.",
+        "Until the specific terms (strike price, expiry, vesting conditions) are disclosed in full, investors should treat this as a watch-and-verify item; dilutive unquoted securities at a discount to market are a bearish flag for small-cap miners."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VMC",
+      "company": "VENUS METALS CORPORATION LIMITED",
+      "headline": "Change of Director's Interest Notice x 2",
+      "time": "2026-09-10T00:14:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134036-6A1343167",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Two director interest change notices filed simultaneously for VMC suggest concurrent transactions — potentially reflecting option exercises, vesting events, or secondary market activity by more than one director.",
+        "The dual filing is notable for a micro-cap explorer; if both directors are acquiring shares or exercising options at or near market price, it represents a modest but tangible insider confidence signal in VMC's project pipeline.",
+        "Conversely, if either notice reflects a disposal, the market should weigh this carefully given VMC's exploration-stage status and the importance of board skin-in-the-game to retail investor sentiment in the junior mining space."
+      ],
+      "tags": [
+        "Mining",
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst WTC Instalment MINIs Dividend Estimated Amount",
+      "time": "2026-09-10T00:05:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134035-2A1696475",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "CitiFirst has published an estimated dividend amount for its WTC (Woodside Energy) Instalment MINIs — a structured product update that is relevant to holders of these leveraged instruments rather than to WTC equity holders directly.",
+        "The dividend pass-through in Instalment MINIs adjusts the loan amount embedded in the product, effectively reducing the funding cost for holders; the quantum of this adjustment will determine the marginal attractiveness of holding versus selling the MINI.",
+        "This is a routine product administration notice with no direct read-through to Woodside's underlying operational performance or share price; institutional investors in WTC equity can disregard this filing."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGD",
+      "company": "AUSTRAL GOLD LIMITED",
+      "headline": "Austral Gold Provides Update on Casposo Toll Agreement",
+      "time": "2026-09-10T00:04:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134034-2A1696474",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Austral Gold (AGD) has provided an update on its Casposo toll milling agreement in Argentina — a key revenue lever for the company given Casposo's processing infrastructure and the potential to generate cash flow from third-party ore without full mining restart costs.",
+        "The strategic importance of a toll agreement at Casposo is significant: it can underpin near-term cash generation and demonstrate plant operability to potential joint venture or acquisition partners, improving the asset's optionality value.",
+        "Investors should focus on whether the update confirms new or extended toll contracts, volumes committed, and pricing terms — any positive revision to toll throughput would directly improve AGD's near-term revenue visibility and reduce its cash burn risk."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LDR",
+      "company": "LODE RESOURCES LTD",
+      "headline": "High Grade Tin & Copper Discovery at Montezuma",
+      "time": "2026-09-10T00:00:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134033-2A1696472",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "LDR has announced a high-grade tin and copper discovery at its Montezuma project — a market-sensitive update that could represent a material step-change in the company's resource profile and valuation.",
+        "High-grade tin discoveries are particularly significant given tight global tin supply dynamics and strategic-metal demand from electronics and soldering applications; copper co-occurrence adds further economic optionality.",
+        "Near-term catalysts will centre on follow-up drill results and the extent of the mineralised zone; investors should watch for assay data, strike length confirmation, and any resource estimation timeline to assess the discovery's true scale."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SBS",
+      "company": "STATE STREET BLACKSTONE SENIOR LN HDG ACTIVE ETF",
+      "headline": "DRP Price Announcement",
+      "time": "2026-09-10T00:00:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134032-2A1696469",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "State Street's Blackstone Senior Loan Hedged Active ETF (SBS) has announced its Dividend Reinvestment Plan (DRP) price, enabling unitholders to reinvest distributions into additional units at a set price rather than receiving cash.",
+        "For income-focused investors in SBS — which provides exposure to senior secured floating-rate loans — the DRP price is a reference point for cost-basis management and reflects the fund's recent NAV performance in the context of global credit markets.",
+        "This is a routine fund administration disclosure; the DRP mechanism itself is mildly positive for the manager (retaining assets under management) but has no material impact on the fund's underlying credit portfolio or distribution sustainability."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARR",
+      "company": "AMERICAN RARE EARTHS LIMITED",
+      "headline": "ARR appoints Dr. Sanja Miskovic as Chief Technical Advisor",
+      "time": "2026-09-09T23:59:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134031-2A1696471",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "American Rare Earths (ARR) has appointed Dr. Sanja Miskovic as Chief Technical Advisor — a human capital move that signals ARR is professionalising its technical team as it advances its rare earth projects, likely ahead of a resource definition or feasibility milestone.",
+        "The quality and credentials of the appointee are critical here; a recognised expert in rare earth geology, processing, or project development could meaningfully de-risk ARR's technical narrative and strengthen its case with institutional investors and potential offtake partners.",
+        "Given the strategic importance of rare earths in the energy transition and the competitive global landscape (with US and allied-nation policy support), strengthening technical leadership is a credible value-add move — though near-term share price impact will depend on Dr. Miskovic's profile and market reception."
+      ],
+      "tags": [
+        "Mining",
+        "Board Change"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LPH",
+      "company": "LOFTUS PEAK GLOBAL DISRUPTION HEDGED ACTIVE ETF",
+      "headline": "Unitholder Monthly Report for August 2026",
+      "time": "2026-09-09T23:59:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134030-2A1696470",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Loftus Peak's Hedged Global Disruption Active ETF (LPH) has released its August 2026 monthly unitholder report, providing transparency on portfolio positioning, performance attribution, and currency hedge ratios for the AUD-hedged share class.",
+        "The hedged variant (LPH) is particularly relevant in volatile AUD/USD environments — the monthly report will detail whether the hedge added or detracted value relative to the unhedged LPG class, giving investors insight into currency impact on returns.",
+        "This is a standard fund reporting obligation; the actionable signal lies within the document itself (top holdings changes, sector tilts, net flows) rather than the filing event — investors should review the full report for any meaningful portfolio rotation signals."
+      ],
+      "tags": [
+        "Finance",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LPG",
+      "company": "LOFTUS PEAK GLOBAL DISRUPTION ACTIVE ETF",
+      "headline": "Unitholder Monthly Report for August 2026",
+      "time": "2026-09-09T23:59:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134029-2A1696468",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Loftus Peak's unhedged Global Disruption Active ETF (LPG) has published its August 2026 monthly report, offering a read-through on the manager's conviction positions across global technology and disruption themes without currency hedging overlay.",
+        "As an unhedged product, LPG's August performance will reflect both underlying equity returns and AUD/USD movements — in a strengthening AUD environment this is a headwind, while a weaker AUD amplifies offshore gains, making currency context essential for performance interpretation.",
+        "Comparing LPG and LPH monthly reports side-by-side reveals the pure currency impact on the strategy; institutional investors should use this dual disclosure to assess whether Loftus Peak's stock-picking alpha is being masked or enhanced by FX dynamics in the current period."
+      ],
+      "tags": [
+        "Finance",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "NUC",
       "company": "NUCHEV LIMITED",
