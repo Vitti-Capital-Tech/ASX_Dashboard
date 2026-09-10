@@ -1,9 +1,466 @@
 {
   "date": "2026-09-11",
-  "total": 146,
-  "market_sensitive_count": 28,
-  "generated_at": "2026-09-10T23:29:22.645394+00:00",
+  "total": 156,
+  "market_sensitive_count": 35,
+  "generated_at": "2026-09-10T23:39:43.116235+00:00",
   "announcements": [
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "Supplementary Bidder's Statement",
+      "time": "2026-09-10T23:35:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134432-2A1696646",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A Supplementary Bidder's Statement typically signals a material amendment, clarification, or regulatory response to an existing takeover offer — investors should scrutinise whether this involves a price revision, updated conditions, or a rebuttal to target board recommendations.",
+        "With KME trading just 2.03% off its 3-month high into this filing, the market is already pricing in significant takeover optionality, leaving little margin of safety if the supplementary statement fails to improve offer terms or introduces complications.",
+        "Key next step is to assess whether the supplementary disclosure extends the bid timeline, responds to an ASIC or target-board challenge, or sweetens consideration — each scenario carries meaningfully different risk/reward implications for arbitrageurs holding at current levels."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.725,
+        "volume_trend_ratio": 1.0,
+        "volume_last_ratio": 0.58,
+        "avg_turnover_aud": 57230,
+        "liquid": true,
+        "pct_from_3m_high": -2.03,
+        "pct_from_3m_low": 76.83,
+        "pct_from_52w_high": -2.03,
+        "pct_from_52w_low": 76.83,
+        "range_position_3m": 0.955,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "2.03% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 2.03% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RML",
+      "company": "RESOLUTION MINERALS LTD",
+      "headline": "Drill Program Successfully Completed at Horse Heaven",
+      "time": "2026-09-10T23:35:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134431-2A1696645",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Completion of the Horse Heaven drill program is a meaningful de-risking milestone for RML, shifting the narrative from exploration risk to assay-result anticipation — the market will now focus entirely on the quality and tenor of forthcoming results.",
+        "The price action is unambiguously strong and pre-positioned: the stock closed above its 60-day high on volume running at 5.63x its 20-day average on the day of the announcement, with the 5-session volume average already at 2.43x normal, suggesting institutional or informed accumulation was already underway ahead of this release.",
+        "At only 3.23% off its 3-month high with the drill program now confirmed complete, the risk is asymmetric: if assay results disappoint the clearly elevated market expectations built over the past week of volume, a sharp retracement is probable; a strong intercept, however, could sustain the breakout."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.06,
+        "volume_trend_ratio": 2.43,
+        "volume_last_ratio": 5.63,
+        "avg_turnover_aud": 436892,
+        "liquid": true,
+        "pct_from_3m_high": -3.23,
+        "pct_from_3m_low": 57.89,
+        "pct_from_52w_high": -60.0,
+        "pct_from_52w_low": 57.89,
+        "range_position_3m": 0.917,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": true,
+        "notes": [
+          "closed above its 60-day high on 5.63x its 20-day average volume",
+          "volume over the last 5 sessions ran 2.43x its 20-day average",
+          "3.23% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, RML closed above its 60-day high on 5.63x the shares it normally trades — measured to the 2026-09-10 close, before this announcement was public.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "Variation of Takeover Bid",
+      "time": "2026-09-10T23:34:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134430-2A1696643",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "A formal Variation of Takeover Bid is a high-impact corporate event — variations typically involve a change to offer price, conditions, or bid period, any of which can materially alter the risk/reward equation for KME shareholders and arbitrageurs.",
+        "With KME sitting just 2.03% off its 3-month high into this announcement (consistent with the Supplementary Bidder's Statement filed simultaneously), the stock is clearly trading on takeover premium, meaning any variation that improves terms is largely anticipated while a weakening of terms could trigger a swift de-rating.",
+        "Investors should immediately determine whether the variation constitutes an increase in consideration (bullish catalyst) or a change in conditions that could introduce deal uncertainty — the dual filing of this document alongside a Supplementary Bidder's Statement suggests a coordinated, potentially significant update to the bid structure."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.725,
+        "volume_trend_ratio": 1.0,
+        "volume_last_ratio": 0.58,
+        "avg_turnover_aud": 57230,
+        "liquid": true,
+        "pct_from_3m_high": -2.03,
+        "pct_from_3m_low": 76.83,
+        "pct_from_52w_high": -2.03,
+        "pct_from_52w_low": 76.83,
+        "range_position_3m": 0.955,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "2.03% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 2.03% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WHF",
+      "company": "WHITEFIELD INDUSTRIALS LIMITED",
+      "headline": "Update - Dividend/Distribution - WHF",
+      "time": "2026-09-10T23:33:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134429-2A1696644",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "An updated dividend/distribution notice for WHF (Whitefield Industrials) is a routine administrative update, flagged as not market sensitive — the key data points for investors are any changes to quantum, record date, or payment date relative to prior guidance.",
+        "Whitefield operates as a listed investment company (LIC) focused on Australian industrials, and dividend consistency is a core value proposition for its income-oriented shareholder base — any reduction in distribution would be a meaningful negative signal, while confirmation at expected levels is simply maintenance of the investment thesis.",
+        "No price action data is provided and the filing is not flagged as market sensitive; this is a procedural update and the primary follow-up action is to confirm the distribution per share against prior period comparatives to assess whether payout sustainability is intact."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 4.74,
+        "volume_trend_ratio": 0.63,
+        "volume_last_ratio": 0.9,
+        "avg_turnover_aud": 340079,
+        "liquid": true,
+        "pct_from_3m_high": -6.88,
+        "pct_from_3m_low": 5.33,
+        "pct_from_52w_high": -16.7,
+        "pct_from_52w_low": 6.28,
+        "range_position_3m": 0.407,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the middle part of its 3-month range, 6.88% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASN",
+      "company": "ANSON RESOURCES LIMITED",
+      "headline": "Replacement Announcement - $212 mill Additional Tax Credit",
+      "time": "2026-09-10T23:31:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134428-6A1343352",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "This is a replacement announcement for ASN's $212M additional Utah tax credit — the 'replacement' designation is procedurally significant, indicating a material correction or addition to the original filing, and investors must identify what changed before acting on headline numbers.",
+        "Despite the scale of the headline figure, ASN remains 61.63% below its 12-month high, reflecting deep scepticism about the company's ability to translate non-cash tax credits into operational value — the 5-session volume at 1.67x the 20-day average indicates modestly elevated interest but no conviction buying surge.",
+        "The critical question is whether this $212M credit is transferable, monetisable near-term, or contingent on project milestones — for a company this far off its highs, only a clear path to cash realisation will shift the structural bearish overhang."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.047,
+        "volume_trend_ratio": 1.67,
+        "volume_last_ratio": 0.33,
+        "avg_turnover_aud": 69775,
+        "liquid": true,
+        "pct_from_3m_high": -27.69,
+        "pct_from_3m_low": 14.63,
+        "pct_from_52w_high": -61.63,
+        "pct_from_52w_low": 14.63,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.67x its 20-day average",
+          "61.63% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, ASN traded 1.67x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 27.69% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CGR",
+      "company": "CGN RESOURCES LIMITED",
+      "headline": "Maiden Drilling Intersects Gold at Christmas Well Targets",
+      "time": "2026-09-10T23:30:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134427-6A1343351",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Maiden drilling intersecting gold at Christmas Well is a genuine exploration catalyst for CGR, but the market context severely limits near-term tradeable significance — with median daily turnover of approximately A$0/day, this is effectively an illiquid stock where volume ratios are close to meaningless as indicators of market conviction.",
+        "The 5-session volume running at only 0.34x the already negligible average confirms there has been no meaningful pre-positioning ahead of this result, which is consistent with CGR's micro-cap, thinly traded profile — price discovery on any intercept quality will be erratic and potentially extreme in both directions.",
+        "Institutional investors should treat the maiden intersection as a watch-list flag rather than an actionable catalyst; the absence of liquidity means that intercept grades, widths, and continuity data will need to be exceptional before this name becomes accessible at scale."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.074,
+        "volume_trend_ratio": 0.34,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -21.28,
+        "pct_from_3m_low": 51.02,
+        "pct_from_52w_high": -47.14,
+        "pct_from_52w_low": 72.09,
+        "range_position_3m": 0.556,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.34x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, CGR traded only 0.34x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "The price sat in the middle part of its 3-month range, 21.28% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CAM",
+      "company": "CLIME CAPITAL LIMITED",
+      "headline": "Update - Notification of buy-back - CAM",
+      "time": "2026-09-10T23:29:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134426-2A1696642",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A buyback notification from Clime Capital (CAM) is a modest positive signal, indicating the board believes shares are trading below intrinsic value — however, the filing is flagged as not market sensitive, suggesting the buyback is either a continuation of an existing program or immaterial in scale relative to market cap.",
+        "The most significant contextual data point is that CAM is sitting at a 12-month low into this announcement — while a buyback at cyclical lows can be a value-accretive capital management tool, it also raises questions about why the market has sustained selling pressure and whether the LIC's NTA discount has widened to a level that warrants concern.",
+        "Institutional investors should cross-reference the buyback volume and pricing against CAM's reported NTA per share — if the buyback is being conducted at a meaningful discount to NTA, it is directly accretive to remaining shareholders, but the 12-month low price action suggests the market is not yet treating this as a sufficient catalyst for re-rating."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.665,
+        "volume_trend_ratio": 0.94,
+        "volume_last_ratio": 0.92,
+        "avg_turnover_aud": 104899,
+        "liquid": true,
+        "pct_from_3m_high": -4.32,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -8.28,
+        "pct_from_52w_low": 0.0,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "at a 12-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NXN",
+      "company": "NEXSEN LIMITED",
+      "headline": "Director Interest Notices re Performance Rights",
+      "time": "2026-09-10T23:29:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134425-2A1696641",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director Interest Notices relating to performance rights are routine administrative disclosures under ASX Listing Rule 3.19A and carry no direct financial or strategic impact — the filing is correctly classified as not market sensitive.",
+        "The key information to extract is the number of performance rights granted, the vesting conditions, and the performance hurdles, as these provide insight into management incentive alignment and the timeframes over which directors expect value creation milestones to be achieved.",
+        "For institutional governance screens, the structure of performance rights (particularly whether hurdles are relative TSR, absolute share price, or operational KPIs) matters more than the notice itself — this filing is a monitoring item, not an investment trigger."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 231,
+        "last_close": 0.18,
+        "volume_trend_ratio": 1.14,
+        "volume_last_ratio": 1.76,
+        "avg_turnover_aud": 16494,
+        "liquid": false,
+        "pct_from_3m_high": -47.83,
+        "pct_from_3m_low": 2.86,
+        "pct_from_52w_high": -47.83,
+        "pct_from_52w_low": 38.46,
+        "range_position_3m": 0.029,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$16,494/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 47.83% below the high of that period.",
+          "Treat all of that with care: it trades about A$16,494 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BRU",
+      "company": "BURU ENERGY LIMITED",
+      "headline": "Maiden Rafael Proven and Probable Reserves",
+      "time": "2026-09-10T23:28:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134424-6A1343325",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A maiden Proven and Probable (2P) Reserve declaration at Rafael is a transformational milestone for Buru Energy, moving the asset from contingent resource to bankable reserve status — this is precisely the threshold that unlocks project financing, farm-out negotiations, and re-rating by energy-focused funds.",
+        "The 2P classification implies an independent competent person has assessed recoverability under current economic and technical conditions, which substantially de-risks the project compared to resource estimates and provides a credible foundation for development planning and capital allocation discussions.",
+        "No price action data is available for this announcement, so no tape-based read is possible; however, on fundamentals alone, maiden 2P reserves are among the highest-impact announcements an energy developer can make, and investors should focus on the reserve quantum, recovery factor, and implied development economics in the accompanying report."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.014,
+        "volume_trend_ratio": 1.35,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 13269,
+        "liquid": false,
+        "pct_from_3m_high": -6.67,
+        "pct_from_3m_low": 33.33,
+        "pct_from_52w_high": -48.15,
+        "pct_from_52w_low": 33.33,
+        "range_position_3m": 0.778,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$13,269/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 6.67% below the high of that period.",
+          "Treat all of that with care: it trades about A$13,269 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ASN",
+      "company": "ANSON RESOURCES LIMITED",
+      "headline": "Anson Receives $212M Additional Tax Credit from Utah",
+      "time": "2026-09-10T23:27:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134423-6A1343350",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A $212M additional tax credit from the State of Utah is a landmark non-dilutive financial event for Anson Resources, potentially representing a major component of project funding for the Paradox lithium brine project without requiring equity issuance at deeply discounted prices.",
+        "The stock sitting 61.63% below its 12-month high indicates sustained market scepticism, likely reflecting doubts about project timeline, lithium price headwinds, and ASN's ability to advance to production — the 5-session volume at 1.67x the 20-day average shows some incremental interest but is insufficient to suggest a structural sentiment shift.",
+        "For the credit to materially re-rate the stock, management must demonstrate the mechanism and timeline for monetisation — if the credit is contingent on capex deployment or production commencement, the market will likely discount it heavily given ASN's current development stage and the prevailing lithium market environment."
+      ],
+      "tags": [
+        "Mining",
+        "Capital Raise"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.047,
+        "volume_trend_ratio": 1.67,
+        "volume_last_ratio": 0.33,
+        "avg_turnover_aud": 69775,
+        "liquid": true,
+        "pct_from_3m_high": -27.69,
+        "pct_from_3m_low": 14.63,
+        "pct_from_52w_high": -61.63,
+        "pct_from_52w_low": 14.63,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.67x its 20-day average",
+          "61.63% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, ASN traded 1.67x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 27.69% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
     {
       "ticker": "CMD",
       "company": "CASSIUS MINING LIMITED",
