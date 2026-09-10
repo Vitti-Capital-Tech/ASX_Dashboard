@@ -1,9 +1,342 @@
 {
   "date": "2026-09-10",
-  "total": 254,
-  "market_sensitive_count": 66,
-  "generated_at": "2026-09-10T00:55:44.246831+00:00",
+  "total": 271,
+  "market_sensitive_count": 67,
+  "generated_at": "2026-09-10T01:30:07.777761+00:00",
   "announcements": [
+    {
+      "ticker": "WMA",
+      "company": "WAM ALTERNATIVE ASSETS LIMITED",
+      "headline": "FY2026 Full Year Results Q&A Webinar Recording",
+      "time": "2026-09-10T01:27:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134065-2A1696490",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "WAM Alternative Assets (WMA) has released a recording of its FY2026 Full Year Results Q&A webinar, providing retail and institutional investors access to management commentary on performance, portfolio composition, and strategic direction.",
+        "WMA focuses on alternative asset classes including private equity and real assets — the webinar recording offers transparency into NAV drivers, distribution sustainability, and any portfolio revaluations that may have shaped the full-year outcome.",
+        "While the document is flagged as not market sensitive, investors should review management's commentary on discount-to-NAV trajectory, dividend coverage, and pipeline activity, as these factors directly influence WMA's re-rating potential."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPE",
+      "company": "PEOPLEIN LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-10T01:26:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134064-2A1696487",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has altered their position in PeopleIn Limited (PPE), signalling a shift in institutional ownership dynamics that warrants monitoring for directional intent — accumulation or distribution.",
+        "PPE operates in the staffing and workforce solutions sector, where institutional ownership changes can reflect evolving views on labour market conditions and the company's earnings resilience amid margin pressures.",
+        "Investors should track subsequent filings to determine whether this represents a meaningful reduction below the 5% threshold or a rebalancing, as sustained selling by a major holder could weigh on liquidity and sentiment."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NHU",
+      "company": "NEU HORIZON URANIUM LIMITED",
+      "headline": "Forthcoming Escrow Release",
+      "time": "2026-09-10T01:24:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134063-6A1343184",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Neu Horizon Uranium (NHU) has flagged a forthcoming escrow release, meaning previously restricted shares issued during the IPO or a capital raise will soon become freely tradeable — a known technical overhang for the stock.",
+        "Escrow releases in small-cap uranium explorers can introduce near-term selling pressure as early-stage investors or seed participants monetise positions, potentially depressing the share price irrespective of underlying project fundamentals.",
+        "Investors should note the exact volume of shares being released relative to current free float, as a large escrow tranche as a percentage of daily liquidity could create meaningful volatility; monitoring volume and price action around the release date is advisable."
+      ],
+      "tags": [
+        "Other",
+        "Energy",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GOL",
+      "company": "GLOBAL X PHYSICAL GOLD STRUCTURED",
+      "headline": "Half Year Accounts",
+      "time": "2026-09-10T01:23:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134062-6A1343181",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Global X Physical Gold Structured (GOL) has released its half-year accounts, providing a routine financial update on this gold-backed structured product — relevant primarily for confirming NAV accuracy, cost ratios, and structural integrity of the product.",
+        "With gold prices elevated near record levels over the recent period, the half-year accounts are likely to reflect strong asset value growth, validating GOL as an effective tactical allocation tool for investors seeking physical gold exposure via ASX.",
+        "No material operational risks are expected from a structured physical gold product filing; the primary investor focus should be on management expense ratio, tracking error versus spot gold, and any changes to the custodial or hedging arrangements."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CBE",
+      "company": "COBRE LIMITED",
+      "headline": "Date of Annual General Meeting",
+      "time": "2026-09-10T01:22:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134061-2A1696489",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Cobre Limited (CBE) has announced the date of its Annual General Meeting, a routine governance milestone for this copper explorer advancing projects in Botswana and other African jurisdictions.",
+        "The AGM agenda is likely to include re-election of directors, remuneration report approval, and potentially resolutions to refresh placement capacity — investors should review the Notice of Meeting closely for any non-standard resolutions that could affect capital structure.",
+        "For a junior explorer like CBE, AGM outcomes related to share issuance authority or board composition can have outsized implications on near-term funding strategy; no immediate price catalyst is expected from the date announcement alone."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OSL",
+      "company": "ONCOSIL MEDICAL LTD",
+      "headline": "Notice Under Section 708A",
+      "time": "2026-09-10T01:21:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134060-2A1696488",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "OncoSil Medical (OSL) has lodged a Section 708A notice, which is a cleansing notice filed following a placement to sophisticated or professional investors without a prospectus — this confirms shares issued in a recent capital raise are now freely tradeable on the ASX.",
+        "The filing implies OSL has recently completed or is completing a capital raise, which may provide near-term working capital or fund clinical/regulatory advancement of its brachytherapy device for pancreatic cancer — dilution risk is the key concern for existing shareholders.",
+        "Investors should assess the placement price relative to the prevailing market price to gauge dilution depth, and monitor whether the capital raised is sufficient to extend cash runway through upcoming regulatory or commercial milestones in OSL's pipeline."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TLM",
+      "company": "TALISMAN MINING LIMITED",
+      "headline": "Application for quotation of securities - TLM",
+      "time": "2026-09-10T01:21:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134059-6A1343182",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "TLM is lodging an application for quotation of new securities, indicating recently issued shares are being formally admitted to trading on the ASX — a standard post-issuance administrative step.",
+        "The timing and volume of securities being quoted will be critical context; without the underlying placement or entitlement details disclosed here, the dilution impact on existing shareholders remains unquantified from this filing alone.",
+        "Investors should cross-reference with TLM's concurrent s708A notice (Announcement #5) to understand the full scope of the capital raise and any free-trading restrictions being lifted on placement shares."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OSL",
+      "company": "ONCOSIL MEDICAL LTD",
+      "headline": "Application for quotation of securities - OSL",
+      "time": "2026-09-10T01:20:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134058-2A1696486",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "OSL is seeking ASX quotation of new securities, a routine administrative filing that typically follows a capital raise, option exercise, or share plan issuance — signalling dilution of some degree is already completed.",
+        "As a medical device company focused on oncology treatments, any capital raise proceeds would likely be directed toward commercialisation, regulatory approvals, or clinical pipeline expansion, making the underlying use-of-funds disclosure critical.",
+        "In the absence of quantitative detail in this filing, institutional investors should review OSL's most recent prospectus or placement memorandum to assess dilution magnitude and strategic rationale before drawing conclusions on valuation impact."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LF1",
+      "company": "LA TROBE PRIVATE CREDIT FUND",
+      "headline": "Application for quotation of securities - LF1",
+      "time": "2026-09-10T01:19:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134057-2A1696485",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "LF1 (La Trobe Private Credit Fund) is applying to quote new securities on ASX, consistent with the ongoing issuance activity typical of an open-ended listed credit fund that regularly admits new units as investor capital flows in.",
+        "For a private credit fund, incremental unit issuances are a sign of continued investor demand and AUM growth, which is broadly positive for management fee revenue and fund scale — though dilution to existing unit holders is generally NAV-neutral in well-structured vehicles.",
+        "Investors in income-focused credit funds should monitor the fund's net asset value per unit and distribution yield stability as new capital is deployed into the private credit market, where deal quality and duration risk are key considerations."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OSL",
+      "company": "ONCOSIL MEDICAL LTD",
+      "headline": "Application for quotation of securities - OSL",
+      "time": "2026-09-10T01:16:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134056-2A1696484",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second OSL quotation application has been lodged on the same day as Announcement #2, suggesting either multiple tranches of new securities from separate issuance events (e.g., options versus placement shares) are being quoted simultaneously.",
+        "The duplication raises the possibility of a structured two-tranche capital raise or a combination of a placement and a share purchase plan, which collectively could represent a more meaningful dilution event than either filing alone implies.",
+        "Institutional investors should aggregate both OSL quotation applications to form a complete picture of total new shares entering the market, as piecemeal filings can obscure the cumulative dilutive impact on existing holders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TLM",
+      "company": "TALISMAN MINING LIMITED",
+      "headline": "Tranche 1 Placement Shares - s708A Notice",
+      "time": "2026-09-10T01:15:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134055-6A1343180",
+      "market_sensitive": false,
+      "document_type": "Capital Raise",
+      "summary": [
+        "TLM has lodged a s708A notice for Tranche 1 placement shares, which is a statutory notice confirming that placement shares issued without a prospectus are now free-trading — a key liquidity event for placement participants who can immediately sell into the market.",
+        "The s708A notice is a prerequisite for placed shares to be on-sold freely; its lodgement signals that Tranche 1 of the placement is fully settled, and any selling pressure from short-term placement participants could weigh on TLM's near-term share price.",
+        "Existing shareholders should assess the placement price relative to the current market price to gauge the likelihood of immediate on-market selling; a placement priced at a significant discount to market increases the probability of short-term downside pressure as placees realise gains."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "JIN",
+      "company": "JUMBO INTERACTIVE LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-09-10T01:14:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134054-2A1696483",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has crossed the 5% ownership threshold in Jumbo Interactive (JIN), indicating fresh institutional conviction in the lottery technology and SaaS-driven managed services operator.",
+        "JIN has been executing a strategic pivot toward higher-margin managed services and SaaS contracts internationally, making a new substantial holder entry potentially reflective of confidence in that longer-term growth runway.",
+        "The emergence of a new substantial holder can provide near-term price support and signals that at least one institutional player sees current valuation as attractive — watch for any associated on-market buying activity."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "LOT",
+      "company": "LOTUS RESOURCES LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-09-10T01:12:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134053-6A1343178",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new entity has become a substantial holder in Lotus Resources (LOT), crossing the 5% threshold in this uranium development company focused on the Kayelekera project in Malawi — a meaningful vote of confidence in the uranium sector thesis.",
+        "LOT is advancing Kayelekera toward restart amid a structurally tighter uranium market, and institutional accumulation at this stage may reflect anticipation of upcoming project milestones, offtake agreements, or broader uranium price momentum.",
+        "New substantial holder entries in junior uranium developers often precede further re-rating catalysts; investors should monitor whether this holder continues to accumulate and whether a strategic or financial partnership could be forthcoming."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining",
+        "Energy"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CMO",
+      "company": "COSMO METALS LIMITED",
+      "headline": "Application for quotation of securities - CMO",
+      "time": "2026-09-10T01:11:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134052-6A1343177",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CMO (Cosmo Metals Limited) is applying for ASX quotation of new securities, a procedural step that follows a capital issuance event and signals that fresh shares will shortly be freely tradeable on-market.",
+        "As a metals-focused explorer or developer, CMO's capital raises are typically directed toward exploration drilling or resource development; the strategic value of this issuance hinges on the quality of assets being funded and upcoming newsflow from the field.",
+        "Investors should track the volume of new securities being quoted against CMO's existing share count to assess dilution, and monitor for any upcoming exploration results or resource announcements that could act as a near-term share price catalyst."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IMA",
+      "company": "IMAGE RESOURCES NL",
+      "headline": "Mineral Resource Estimate update - Durack Project",
+      "time": "2026-09-10T01:08:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134051-6A1343174",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Image Resources has released an updated Mineral Resource Estimate (MRE) for its Durack Project — a market-sensitive announcement that could materially reset the investment case depending on whether the resource has grown, contracted, or improved in grade.",
+        "Any upgrade to tonnage, grade, or confidence classification (e.g. Inferred to Indicated) at Durack would strengthen the project's economic viability and underpin a potential development decision, directly impacting net asset value per share.",
+        "Given IMA's existing operations at North Capel, a credible Durack MRE update expands the company's mineral asset base and could support future capital raising or partnership discussions — full review of the JORC-compliant estimate is essential before drawing conclusions."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DMP",
+      "company": "DOMINO'S PIZZA ENTERPRISES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-10T01:08:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134050-2A1696482",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for Domino's Pizza Enterprises (DMP) signals a meaningful shift in institutional positioning in one of the ASX's most closely watched consumer discretionary names, which has faced significant earnings pressure and store network rationalisation.",
+        "DMP has been navigating a challenging period of elevated food costs, franchisee profitability concerns, and slowing same-store sales growth across key markets including Japan and Europe — a reduction by a substantial holder could reflect continued skepticism on the recovery timeline.",
+        "Conversely, if this reflects a new entrant or an increase in holdings, it may signal that contrarian institutional money is positioning for a turnaround; the direction of the change is critical and should be reviewed in the full filing."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BGD",
+      "company": "BARTON GOLD HOLDINGS LIMITED",
+      "headline": "Application for quotation of securities - BGD",
+      "time": "2026-09-10T01:01:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134049-6A1343173",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "BGD (Barton Gold Holdings Limited) is lodging an application to quote new securities on ASX, a routine administrative step that typically follows a placement, rights issue, or performance rights vesting event.",
+        "Barton Gold operates in the South Australian gold sector with a focus on resource consolidation and mine restart potential; any fresh capital raised would likely be directed toward feasibility work, resource drilling, or balance sheet strengthening ahead of a development decision.",
+        "The near-term share price impact will depend heavily on the placement price relative to market and the disclosed use of proceeds; investors should review BGD's associated capital raise announcements to determine whether the funds meaningfully de-risk the pathway to production."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SVY",
       "company": "STAVELY MINERALS LIMITED",
