@@ -84,10 +84,12 @@ export default function PriceContext({ ctx }: { ctx: MarketContext }) {
         })}
       </div>
 
-      {thin && (
-        <p className="text-[0.62rem] leading-snug mt-2" style={{ color: 'var(--text-dim)' }}>
-          Thinly traded — about A${ctx.avg_turnover_aud?.toLocaleString()} a day, so treat the
-          ratios above as close to meaningless.
+      {/* Authored upstream so every surface words it identically, and so the
+          wording is not duplicated in two dashboards that will drift. */}
+      {thin && ctx.caveat && (
+        <p className="text-[0.62rem] leading-snug mt-2 first-letter:uppercase"
+          style={{ color: 'var(--text-dim)' }}>
+          {ctx.caveat} — treat the ratios above as close to meaningless.
         </p>
       )}
     </div>

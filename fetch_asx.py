@@ -25,7 +25,13 @@ from dotenv import load_dotenv
 from anthropic import Anthropic
 from groq import Groq
 
-from market_context import compute_context, describe, fetch_history, yahoo_symbol
+from market_context import (
+    compute_context,
+    describe,
+    fetch_history,
+    liquidity_caveat,
+    yahoo_symbol,
+)
 
 # Load environment variables from .env if present
 load_dotenv()
@@ -231,8 +237,13 @@ def build_batch_prompt(anns: list[dict]) -> str:
         # rather than the headline alone — and they are the same measurements
         # the UI renders, so the text and the numbers cannot contradict.
         ctx = a.get("market_context") or {}
-        notes = ctx.get("notes") or []
+        notes = list(ctx.get("notes") or [])
         if notes:
+            # The caveat rides on the same line, so the model cannot read the
+            # ratios without also reading what they are worth.
+            caveat = ctx.get("caveat")
+            if caveat:
+                notes.append(caveat)
             rows.append(
                 f"    Price action into this announcement "
                 f"(as of {ctx.get('as_of')} close): {'; '.join(notes)}"
@@ -517,6 +528,9 @@ def attach_market_context(anns: list[dict], date_str: str) -> None:
             # `notes` is what the prompt and the UI both read, so the phrasing
             # is written once here rather than in each consumer.
             ctx["notes"] = describe(ctx)
+            # Beside the notes rather than inside them: it qualifies how much
+            # they are worth, and each surface places it differently.
+            ctx["caveat"] = liquidity_caveat(ctx)
             a["market_context"] = ctx
             attached += 1
 

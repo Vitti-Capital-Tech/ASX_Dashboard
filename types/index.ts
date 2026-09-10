@@ -166,6 +166,12 @@ export interface MarketContext {
   /** Closed above its 60-day high on at least 2x average volume. */
   broke_out: boolean;
 
-  /** The same clauses given to the prompt, so text and display cannot diverge. */
+  /** Observations only — what the price did. Safe to render as chips. */
   notes: string[];
+  /**
+   * Why those observations may be worth little, or null. Kept out of `notes`
+   * because it qualifies them rather than being one of them, and because each
+   * surface places it differently — a card footnotes it, a prompt inlines it.
+   */
+  caveat: string | null;
 }

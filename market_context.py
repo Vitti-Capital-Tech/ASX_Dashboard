@@ -239,9 +239,34 @@ def compute_context(df: pd.DataFrame | None, date_str: str) -> dict | None:
     }
 
 
+def liquidity_caveat(ctx: dict | None) -> str | None:
+    """
+    Why the numbers may not be worth much, or None if they are.
+
+    Separate from describe() so each caller can place it: a card shows it as a
+    footnote under the chips, a prompt appends it to the same line. Both need it
+    — a 3x volume ratio on A$4,000 a day is two people, and reported without
+    this it reads as institutional interest.
+    """
+    if not ctx or ctx.get('liquid'):
+        return None
+    t = ctx.get('avg_turnover_aud')
+    return (f"thinly traded, median turnover about A${t:,}/day"
+            if t is not None else "thinly traded")
+
+
 def describe(ctx: dict | None) -> list[str]:
     """
     The context as short factual clauses, for a prompt or a caption.
+
+    Observations only. The illiquidity caveat deliberately does NOT live here:
+    it is not something the price did, it is a warning about how much the other
+    clauses are worth, and a caller needs to place it differently — the ASX card
+    puts it under the chips, a prompt puts it inline. It was briefly the first
+    note, which meant a consumer rendering `notes` as chips got a two-line
+    sentence in a pill, crowding out the real signals, and phrased "the ratios
+    below" for a layout that consumer did not have. Derive it from `liquid` and
+    `avg_turnover_aud` instead — see liquidity_caveat().
 
     Only what is worth saying: a stock sitting mid-range on average volume gets
     an empty list, and a caller should say nothing rather than "volume normal,
@@ -251,12 +276,6 @@ def describe(ctx: dict | None) -> list[str]:
         return []
 
     out: list[str] = []
-
-    if not ctx['liquid']:
-        out.append(
-            f"thinly traded (median turnover about A${ctx['avg_turnover_aud']:,}/day), "
-            "so the ratios below describe very little actual trading"
-        )
 
     if ctx['broke_out']:
         out.append(
