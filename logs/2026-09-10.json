@@ -1,9 +1,295 @@
 {
   "date": "2026-09-10",
-  "total": 313,
-  "market_sensitive_count": 72,
-  "generated_at": "2026-09-10T03:27:24.936113+00:00",
+  "total": 328,
+  "market_sensitive_count": 75,
+  "generated_at": "2026-09-10T04:26:58.225825+00:00",
   "announcements": [
+    {
+      "ticker": "ALX",
+      "company": "ATLAS ARTERIA",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-10T04:17:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134122-2A1696515",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director of Atlas Arteria has altered their shareholding interest, a routine disclosure under ASX Listing Rules — the direction (acquisition vs. disposal) is the key variable for interpreting insider sentiment.",
+        "For a major infrastructure asset operator like ALX — which manages long-duration toll road concessions including APRR in France — director share purchases carry positive signalling value given management's visibility into traffic volume and distribution trends.",
+        "Given the non-market-sensitive classification, the transaction is likely modest in scale; nonetheless, consistent directional buying by insiders at toll road operators has historically correlated with confidence in stable, inflation-linked cash flow delivery."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EIG",
+      "company": "PERENNIAL INCOME GENERATOR ACTIVE ETF",
+      "headline": "EIGA Final Distribution August 2026",
+      "time": "2026-09-10T04:17:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134121-2A1696514",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Perennial Income Generator Active ETF (EIGA) has announced its final distribution for August 2026, providing income-focused investors with a confirmed yield event and reinforcing the fund's income distribution schedule.",
+        "The distribution quantum will determine relative yield attractiveness versus comparable income ETFs; investors should assess the annualised distribution yield against current NAV to evaluate competitiveness in a potentially shifting interest rate environment.",
+        "This is an administrative, expected income event with no structural change to the fund — the 'not market sensitive' classification confirms immateriality to price discovery, making it relevant primarily for income planning rather than tactical trading."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FHE",
+      "company": "FRONTIER ENERGY LIMITED",
+      "headline": "Proposed issue of securities - FHE",
+      "time": "2026-09-10T04:13:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134120-6A1343212",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Frontier Energy has lodged a notice of proposed securities issuance, signalling an upcoming capital raise that will result in dilution for existing shareholders — the terms, pricing, and use of proceeds are the critical unknowns.",
+        "FHE is developing the Bristol Springs Solar Project in Western Australia; if proceeds are directed toward project milestones (feasibility, offtake, grid connection), the raise could be value-accretive long-term despite near-term dilution pressure.",
+        "Investors should monitor the forthcoming Appendix 3B for placement size, price discount to market, and whether the raise is underwritten — a heavily discounted placement without a strategic cornerstone investor would be the most bearish scenario."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NGY",
+      "company": "NUENERGY GAS LIMITED",
+      "headline": "Receipt of claim by former director",
+      "time": "2026-09-10T04:09:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134119-6A1343211",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "A former director has lodged a formal legal claim against NuEnergy Gas, introducing contingent liability risk that could strain the company's limited financial resources and management bandwidth.",
+        "The market-sensitive classification signals potential materiality — investors should watch for disclosed claim quantum, as even modest legal costs can be disproportionate for a small-cap explorer with likely constrained cash reserves.",
+        "Next steps hinge on whether NGY contests the claim or negotiates a settlement; prolonged litigation could distract from core coal seam gas exploration activities and deter near-term project funding or partnership discussions."
+      ],
+      "tags": [
+        "Compliance",
+        "Board Change",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "FRW",
+      "company": "FREIGHTWAYS GROUP LIMITED",
+      "headline": "Disclosure Notice - D&O Relevant Interests",
+      "time": "2026-09-10T03:57:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134118-3A701498",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Freightways Group has filed a Disclosure Notice updating relevant interests held by Directors and Officers, a standard compliance obligation following changes in D&O shareholdings — likely triggered by equity plan vesting or on-market transactions.",
+        "As a New Zealand-headquartered logistics and information management company listed on the ASX, FRW's D&O interest disclosures provide a window into insider alignment; net accumulation by senior executives would be a constructive signal given the company's earnings recovery narrative.",
+        "The non-market-sensitive classification confirms this is procedural; no immediate price catalyst is anticipated, though the disclosed positions will inform the market's view of management confidence in the current strategic direction."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JAL",
+      "company": "JAMESON RESOURCES LIMITED",
+      "headline": "Notification regarding unquoted securities - JAL",
+      "time": "2026-09-10T03:56:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134117-6A1343210",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Jameson Resources has notified ASX of unquoted securities, indicating the company has issued securities (likely options or performance rights) that are not yet listed for trading — a common step preceding a formal quotation application.",
+        "The nature and volume of unquoted securities matter: performance rights issued to management align incentives, while unlisted options from a placement may indicate a recent capital raise with attaching securities creating future dilution overhang.",
+        "This filing in isolation has limited immediate price impact; however, combined with announcement [9] regarding a quotation application, it suggests JAL is progressing a structured capital transaction that warrants monitoring for dilution scale and exercise price relative to spot."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JAL",
+      "company": "JAMESON RESOURCES LIMITED",
+      "headline": "Update - Application for quotation of securities - JAL",
+      "time": "2026-09-10T03:52:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134116-6A1343207",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Jameson Resources is seeking ASX quotation for a new tranche of securities, the formal step that converts unquoted securities (referenced in announcement [8]) into freely tradeable instruments — this directly increases potential market supply.",
+        "The quotation of new securities, particularly options or shares issued at a discount, can create near-term selling pressure as recipients seek to monetise positions; the exercise price relative to current market price will determine the degree of dilutive impact.",
+        "For JAL — a Canadian coal-focused explorer — the ability to bring securities to quotation signals the capital raise process is advancing; investors should assess whether fresh capital is sufficient to fund the next meaningful exploration or development milestone at its Crown Mountain Coking Coal Project."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MRT",
+      "company": "MARITANA MINERALS LIMITED",
+      "headline": "Notification of cessation of securities - MRT",
+      "time": "2026-09-10T03:51:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134115-6A1343209",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Maritana Minerals has disclosed the cessation of securities, meaning a class of securities (typically options or performance rights) has lapsed, been cancelled, or expired unexercised — reducing the potential dilution overhang on the register.",
+        "The cessation of unexercised options is technically a marginally positive development for existing shareholders as it eliminates a future source of dilution without any capital being raised, preserving the current capital structure.",
+        "As a mineral explorer, MRT's cessation notice is administrative in nature; however, if a large tranche of options has lapsed out-of-the-money, it may also signal that the share price has underperformed option exercise prices over the relevant vesting period, reflecting broader exploration-stage challenges."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BUB",
+      "company": "BUBS AUSTRALIA LIMITED",
+      "headline": "Response to ASX Aware Query",
+      "time": "2026-09-10T03:51:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134114-6A1343208",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Bubs Australia has responded to an ASX Aware Query, suggesting the exchange identified unusual price or volume activity warranting explanation — a signal that the market may have been trading ahead of undisclosed information.",
+        "The market-sensitive flag elevates scrutiny; the response content will be critical — if Bubs confirms no undisclosed material information, it may stabilise sentiment, but any admission of pending developments (e.g. distribution deal, earnings revision) could drive sharp price moves.",
+        "Bubs remains a closely watched infant formula play given its US market expansion history; any operational or commercial update embedded in this response could reset near-term earnings expectations for institutional holders."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SLD",
+      "company": "SALUDA MEDICAL, INC.",
+      "headline": "FY26 Consolidated Financial Statements",
+      "time": "2026-09-10T03:50:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134113-2A1696513",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Saluda Medical's FY26 consolidated financial statements provide institutional investors with a full-year earnings baseline for the neuromodulation device company, though the non-market-sensitive classification signals no material surprises relative to prior guidance.",
+        "Key metrics to scrutinise include revenue trajectory from its Evoke closed-loop spinal cord stimulation platform, gross margin progression, and operating cash burn — critical indicators for a commercial-stage MedTech still scaling its international footprint.",
+        "With SLD still in growth-investment mode, attention should focus on whether the balance sheet retains sufficient liquidity to fund commercialisation efforts through to cash-flow breakeven, particularly given competitive pressure from Medtronic and Abbott in the SCS market."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VMS",
+      "company": "VENARI MINERALS NL",
+      "headline": "Response to ASX Price and Volume Query",
+      "time": "2026-09-10T03:44:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134112-6A1343206",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Venari Minerals has been queried by ASX over abnormal price and volume movement, indicating the exchange detected trading patterns inconsistent with publicly available information — a potential information leakage concern.",
+        "As a small-cap minerals explorer, even modest speculative interest can cause outsized price swings; the company's response will clarify whether a material catalyst (drill result, farm-in agreement, or resource update) is imminent or undisclosed.",
+        "If VMS confirms awareness of no undisclosed information, the query resolution is likely procedural; however, failure to provide a satisfactory explanation could trigger a trading halt, adding short-term uncertainty for existing shareholders."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GPR",
+      "company": "GEOPACIFIC RESOURCES LTD",
+      "headline": "Half Yearly Report and Accounts",
+      "time": "2026-09-10T03:39:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134111-6A1343205",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "GeoPacific Resources' half-year report covers a period of continued development activity at its Woodlark Gold Project in Papua New Guinea, a project that has faced prolonged permitting and funding challenges — investors should assess whether any material progress has been made on these fronts.",
+        "The financial statements will be closely watched for cash position and burn rate, as GPR has historically relied on equity raises to fund holding costs; any deterioration in working capital or new funding requirements would be a red flag for near-term dilution risk.",
+        "The non-market-sensitive designation suggests no transformational update (e.g. financing close or permit grant) is embedded in this report, meaning the primary read-through is a routine compliance filing rather than a catalyst for re-rating."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PEN",
+      "company": "PENINSULA ENERGY LIMITED",
+      "headline": "Notification regarding unquoted securities - PEN",
+      "time": "2026-09-10T03:35:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134110-6A1343204",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Peninsula Energy's notification regarding unquoted securities typically relates to the issuance of performance rights, options, or restricted shares to directors and employees — a routine administrative disclosure with no immediate valuation impact.",
+        "The filing warrants monitoring in aggregate: persistent issuance of unquoted securities can signal incremental dilution to ordinary shareholders, particularly relevant for PEN given its uranium development-stage capital requirements at the Lance Projects in Wyoming.",
+        "No market-sensitive flag confirms this is a procedural Appendix 3B or equivalent lodgement; investors should cross-reference total securities on issue to gauge cumulative dilution versus any operational milestones that may have triggered the issuance."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GTE",
+      "company": "GREAT WESTERN EXPLORATION LIMITED.",
+      "headline": "Corporate Governance Statement and Appendix 4G",
+      "time": "2026-09-10T03:28:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134109-6A1343203",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Great Western Exploration's Corporate Governance Statement and Appendix 4G is a mandatory ASX annual compliance filing disclosing how the company aligns with the ASX Corporate Governance Principles and Recommendations — purely procedural with no operational content.",
+        "For a small-cap explorer like GTE, governance disclosures can surface material considerations such as board independence ratios, audit committee composition, and related-party oversight frameworks that institutional investors use to assess governance risk.",
+        "The concurrent release of the Annual Report (announcement [5]) means this filing should be read in conjunction with the full financial statements; in isolation, Appendix 4G carries no price-moving information."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GTE",
+      "company": "GREAT WESTERN EXPLORATION LIMITED.",
+      "headline": "Annual Report to shareholders",
+      "time": "2026-09-10T03:28:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134108-6A1343202",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Great Western Exploration's Annual Report delivers the full-year financial and operational summary for this early-stage explorer — the key focus for investors is cash on hand, exploration expenditure incurred, and the status of its project pipeline in terms of drilling results or resource definition progress.",
+        "As a pre-revenue junior explorer, GTE's cash runway is the single most critical metric: a cash position insufficient to fund the next 12 months of planned exploration would materially elevate dilution risk and may prompt near-term capital raising activity.",
+        "The annual report will also include director remuneration disclosures and any related-party transactions — areas of scrutiny for small-cap governance — while the outlook section should be assessed for specificity of upcoming catalysts such as drilling programmes or tenure acquisitions that could serve as near-term re-rating events."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "NMT",
       "company": "NEOMETALS LTD",
