@@ -1,9 +1,471 @@
 {
   "date": "2026-09-11",
-  "total": 126,
+  "total": 136,
   "market_sensitive_count": 26,
-  "generated_at": "2026-09-10T23:13:16.022769+00:00",
+  "generated_at": "2026-09-10T23:22:44.265758+00:00",
   "announcements": [
+    {
+      "ticker": "BIS",
+      "company": "BISALLOY STEEL GROUP LIMITED",
+      "headline": "2026 AGM & Closing Date for Director nomination",
+      "time": "2026-09-10T23:18:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134412-2A1696634",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "The notice of AGM and director nomination deadline is a routine governance milestone for Bisalloy Steel, carrying no immediate financial signal but opening a window for potential board composition changes.",
+        "Investors should watch whether any non-standard nominations emerge, given Bisalloy's niche position as Australia's only domestic manufacturer of high-strength quench and tempered steel plate — board continuity matters for long-term strategy execution.",
+        "The closing date for nominations is the actionable near-term catalyst; any contested director positions or activist nominations ahead of the AGM would materially change the significance of this filing."
+      ],
+      "tags": [
+        "AGM"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 4.29,
+        "volume_trend_ratio": 1.15,
+        "volume_last_ratio": 1.67,
+        "avg_turnover_aud": 218405,
+        "liquid": true,
+        "pct_from_3m_high": -19.06,
+        "pct_from_3m_low": 1.66,
+        "pct_from_52w_high": -31.25,
+        "pct_from_52w_low": 6.98,
+        "range_position_3m": 0.065,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 19.06% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABB",
+      "company": "AUSSIE BROADBAND LIMITED",
+      "headline": "Update - Notification of buy-back - ABB",
+      "time": "2026-09-10T23:18:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134411-3A701550",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ABB is updating its on-market buyback notification at a 12-month low, which is a noteworthy signal: buybacks executed at depressed prices are theoretically more accretive per share, but the fact the stock is at a 12-month low suggests the market remains unconvinced about the company's near-term trajectory despite the capital return activity.",
+        "The buyback update itself is procedurally neutral, but the timing at a 12-month low raises the question of whether management is using the buyback as a price support mechanism or genuinely views current levels as undervalued — institutional investors should assess buyback volumes relative to daily liquidity to gauge commitment.",
+        "Given the stock is already at its weakest point in a year, the buyback provides a modest technical floor but is unlikely to be a standalone re-rating catalyst; the more meaningful signal will come from ABB's next operational update on subscriber growth and EBITDA margins in its competitive broadband market."
+      ],
+      "tags": [
+        "Finance",
+        "Technology",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 4.1,
+        "volume_trend_ratio": 0.83,
+        "volume_last_ratio": 1.24,
+        "avg_turnover_aud": 4890053,
+        "liquid": true,
+        "pct_from_3m_high": -22.64,
+        "pct_from_3m_low": 0.74,
+        "pct_from_52w_high": -32.79,
+        "pct_from_52w_low": 0.74,
+        "range_position_3m": 0.024,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "at a 12-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DVP",
+      "company": "DEVELOP GLOBAL LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-10T23:16:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134410-6A1343346",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding signals a meaningful shift in DVP's register — investors should monitor whether this reflects accumulation or distribution by a major holder, as either can presage a strategic move or register re-weighting.",
+        "Substantial holder movements at a development-stage miner like Develop Global can reflect shifting conviction on project timelines or funding needs; the direction of the change (increase vs. decrease) is the key data point to extract from the full filing.",
+        "Next step: cross-reference the filing against DVP's most recent capital raise and project milestones to assess whether the holder change aligns with a strategic entry or an exit ahead of anticipated dilution."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 5.37,
+        "volume_trend_ratio": 0.87,
+        "volume_last_ratio": 0.72,
+        "avg_turnover_aud": 6103471,
+        "liquid": true,
+        "pct_from_3m_high": -30.08,
+        "pct_from_3m_low": 21.77,
+        "pct_from_52w_high": -30.08,
+        "pct_from_52w_low": 72.12,
+        "range_position_3m": 0.294,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 30.08% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPS",
+      "company": "PRAEMIUM LIMITED",
+      "headline": "2026 Notice of Annual General Meeting",
+      "time": "2026-09-10T23:16:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134409-3A701549",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Praemium's 2026 AGM notice is a standard governance filing with no immediate financial impact, though the AGM agenda will be the key document to review for any proposed capital management, remuneration changes, or equity issuance resolutions.",
+        "PPS operates in the competitive wealth management platform space; any resolutions relating to executive incentive schemes or share issuance at the AGM deserve close scrutiny given the sector's sensitivity to fee compression and platform consolidation dynamics.",
+        "Investors should flag the AGM date and review the accompanying Notice of Meeting in full — any non-routine resolutions, particularly around M&A authority or board renewal, would be the material signal embedded in this otherwise procedural announcement."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.585,
+        "volume_trend_ratio": 1.02,
+        "volume_last_ratio": 0.91,
+        "avg_turnover_aud": 827653,
+        "liquid": true,
+        "pct_from_3m_high": -25.95,
+        "pct_from_3m_low": 1.74,
+        "pct_from_52w_high": -38.1,
+        "pct_from_52w_low": 1.74,
+        "range_position_3m": 0.047,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 25.95% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CR3",
+      "company": "CORE ENERGY MINERALS LTD",
+      "headline": "Cleansing Statement",
+      "time": "2026-09-10T23:15:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134408-2A1696633",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cleansing statement confirms CR3 has completed a capital raise under the Corporations Act disclosure exemption (typically a placement or rights issue) — this is a post-raise compliance step, not a new funding announcement, but it confirms dilution has already occurred.",
+        "The price action context is critical here: CR3 is thinly traded with median daily turnover of around A$870, meaning the elevated recent volume ratio should be treated as close to meaningless in terms of directional intent — even a handful of small trades can skew the ratio significantly at this liquidity level.",
+        "At 56.25% below its 12-month high, CR3 is deeply distressed on a relative basis; the cleansing statement post-raise suggests the company needed capital urgently, and institutional investors should assess the use-of-proceeds disclosure carefully to determine whether the raise buys meaningful runway or merely defers a deeper funding problem."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.007,
+        "volume_trend_ratio": 2.83,
+        "volume_last_ratio": 10.54,
+        "avg_turnover_aud": 870,
+        "liquid": false,
+        "pct_from_3m_high": -22.22,
+        "pct_from_3m_low": 16.67,
+        "pct_from_52w_high": -56.25,
+        "pct_from_52w_low": 16.67,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.83x its 20-day average",
+          "56.25% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$870/day",
+        "reading": [
+          "Going into this, CR3 traded 2.83x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 22.22% below the high of that period.",
+          "Treat all of that with care: it trades about A$870 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CR3",
+      "company": "CORE ENERGY MINERALS LTD",
+      "headline": "Application for quotation of securities - CR3",
+      "time": "2026-09-10T23:14:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134407-2A1696632",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The application for quotation of securities indicates CR3 is seeking ASX listing of newly issued shares — almost certainly the securities issued in the placement referenced by the concurrent cleansing statement, meaning these shares will shortly begin trading and will add supply to an already illiquid register.",
+        "With median daily turnover of approximately A$870, CR3 is extremely thinly traded; the volume ratio over recent sessions is statistically unreliable at this liquidity level and should not be interpreted as meaningful accumulation or distribution signal.",
+        "The combination of a cleansing statement and quotation application filed together confirms the sequencing of a completed private placement; the near-term share price impact will depend on the placement price relative to market and whether placees are immediately in-the-money — investors should obtain the placement terms from the accompanying announcement."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.007,
+        "volume_trend_ratio": 2.83,
+        "volume_last_ratio": 10.54,
+        "avg_turnover_aud": 870,
+        "liquid": false,
+        "pct_from_3m_high": -22.22,
+        "pct_from_3m_low": 16.67,
+        "pct_from_52w_high": -56.25,
+        "pct_from_52w_low": 16.67,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.83x its 20-day average",
+          "56.25% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$870/day",
+        "reading": [
+          "Going into this, CR3 traded 2.83x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 22.22% below the high of that period.",
+          "Treat all of that with care: it trades about A$870 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NXN",
+      "company": "NEXSEN LIMITED",
+      "headline": "Notification regarding unquoted securities - NXN",
+      "time": "2026-09-10T23:13:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134406-2A1696631",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The notification of unquoted securities for Nexsen Limited (NXN) is a routine ASX compliance filing, typically relating to options, performance rights, or other unlisted equity instruments — it does not indicate a new capital raise or cash inflow.",
+        "For a small-cap company, the volume and nature of unquoted securities (e.g. employee options vs. placement warrants) matters for understanding potential future dilution — investors should review the specifics of the instrument type and conversion terms.",
+        "This is a largely administrative filing; however, any material increase in unquoted securities outstanding relative to the current share count should be flagged as a latent dilution risk when those instruments vest or convert."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 231,
+        "last_close": 0.18,
+        "volume_trend_ratio": 1.14,
+        "volume_last_ratio": 1.76,
+        "avg_turnover_aud": 16494,
+        "liquid": false,
+        "pct_from_3m_high": -47.83,
+        "pct_from_3m_low": 2.86,
+        "pct_from_52w_high": -47.83,
+        "pct_from_52w_low": 38.46,
+        "range_position_3m": 0.029,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$16,494/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 47.83% below the high of that period.",
+          "Treat all of that with care: it trades about A$16,494 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CR3",
+      "company": "CORE ENERGY MINERALS LTD",
+      "headline": "Application for quotation of securities - CR3",
+      "time": "2026-09-10T23:13:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134405-2A1696630",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is a second application for quotation of securities filed by CR3 on the same date, suggesting either a second tranche of securities from the same raise or a separate class of instrument (e.g. options alongside ordinary shares) being admitted to trading.",
+        "As with the prior quotation application, the thinly traded nature of CR3 — with median daily turnover of approximately A$870 — renders the elevated recent volume ratio essentially uninformative; it would take very little activity to move that ratio at this liquidity level.",
+        "Institutional investors should reconcile both quotation applications together to understand the full scope of new securities entering the register; the combined dilution impact across both tranches is the key risk metric, particularly given the stock sitting 56.25% below its 12-month high."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.007,
+        "volume_trend_ratio": 2.83,
+        "volume_last_ratio": 10.54,
+        "avg_turnover_aud": 870,
+        "liquid": false,
+        "pct_from_3m_high": -22.22,
+        "pct_from_3m_low": 16.67,
+        "pct_from_52w_high": -56.25,
+        "pct_from_52w_low": 16.67,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.83x its 20-day average",
+          "56.25% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$870/day",
+        "reading": [
+          "Going into this, CR3 traded 2.83x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 22.22% below the high of that period.",
+          "Treat all of that with care: it trades about A$870 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CRD",
+      "company": "CONRAD ASIA ENERGY LTD.",
+      "headline": "Half Yearly Report - 2026 H1",
+      "time": "2026-09-10T23:11:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134404-6A1343344",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Conrad Asia Energy's H1 2026 half-yearly report is the most substantive filing type in this set for the company — investors should focus on revenue recognition from any producing assets, cash burn rate, and whether the balance sheet supports continued exploration and development through to the next funding event.",
+        "As a small-cap energy company with Asian upstream exposure, key metrics to extract include production volumes (if any), realised commodity prices, operating costs per barrel/mcf, and the net cash position versus committed capex obligations.",
+        "The report is flagged as not market sensitive, suggesting management does not believe the results contain surprise elements — but investors should independently verify that the cash runway and any debt covenants are consistent with the company's stated development timeline."
+      ],
+      "tags": [
+        "Results",
+        "Energy"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.57,
+        "volume_trend_ratio": 0.7,
+        "volume_last_ratio": 0.26,
+        "avg_turnover_aud": 9072,
+        "liquid": false,
+        "pct_from_3m_high": -15.56,
+        "pct_from_3m_low": 56.16,
+        "pct_from_52w_high": -30.49,
+        "pct_from_52w_low": 56.16,
+        "range_position_3m": 0.661,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$9,072/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 15.56% below the high of that period.",
+          "Treat all of that with care: it trades about A$9,072 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FSA",
+      "company": "FSA GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - FSA",
+      "time": "2026-09-10T23:11:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134403-2A1696629",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "FSA Group's buyback update is a procedural notification, but for a financial services company focused on debt solutions, an active buyback signals management's view that the stock is undervalued and that surplus capital is not being deployed into loan book growth — a capital allocation trade-off worth monitoring.",
+        "The subdued recent volume — running at 0.58x the 20-day average — on a stock that is already thinly traded (median daily turnover approximately A$33,232) suggests limited institutional interest and low near-term catalysts; the buyback is unlikely to be a significant price driver given the thin liquidity.",
+        "Investors should track the cumulative buyback volumes against the approved program limit to assess pace and remaining capacity — a buyback that is progressing slowly relative to its authorised size may indicate management caution about near-term cash needs, which would be the more meaningful signal in FSA's consumer credit context."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 1.255,
+        "volume_trend_ratio": 0.58,
+        "volume_last_ratio": 0.01,
+        "avg_turnover_aud": 33232,
+        "liquid": false,
+        "pct_from_3m_high": -10.04,
+        "pct_from_3m_low": 4.58,
+        "pct_from_52w_high": -10.04,
+        "pct_from_52w_low": 19.52,
+        "range_position_3m": 0.282,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.58x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$33,232/day",
+        "reading": [
+          "Going into this, FSA traded only 0.58x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 10.04% below the high of that period.",
+          "Treat all of that with care: it trades about A$33,232 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "INV",
       "company": "INVESTSMART GROUP LIMITED",
