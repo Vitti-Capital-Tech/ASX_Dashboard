@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { readdir, readFile } from 'fs/promises';
 import path from 'path';
-import type { Announcement, DayLog, SentimentLabel } from '@/types';
+import type { Announcement, DayLog, MarketContext, SentimentLabel } from '@/types';
 
 /**
  * Market-sensitive announcements, for consumption by other dashboards.
@@ -76,6 +76,13 @@ interface NewsItem {
   document_type: string;
   tags: string[];
   summary: string[];
+  /**
+   * What the price was doing going into the filing, or null. Passed through so
+   * a consumer does not have to fetch prices itself and arrive at slightly
+   * different numbers than the ones shown here — the whole point of these
+   * being measured once is that every surface says the same thing.
+   */
+  market_context: MarketContext | null;
 }
 
 /** The trailing path segment of an ASX document URL is its unique id. */
@@ -99,6 +106,7 @@ function toItem(ann: Announcement, date: string): NewsItem {
     document_type: ann.document_type,
     tags: ann.tags ?? [],
     summary: ann.summary ?? [],
+    market_context: ann.market_context ?? null,
   };
 }
 
