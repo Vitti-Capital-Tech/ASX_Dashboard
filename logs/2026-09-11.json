@@ -1,9 +1,344 @@
 {
   "date": "2026-09-11",
-  "total": 95,
-  "market_sensitive_count": 20,
-  "generated_at": "2026-09-10T22:50:04.703516+00:00",
+  "total": 104,
+  "market_sensitive_count": 22,
+  "generated_at": "2026-09-10T22:59:48.380622+00:00",
   "announcements": [
+    {
+      "ticker": "TNC",
+      "company": "TRUE NORTH COPPER LIMITED",
+      "headline": "Notification of cessation of securities - TNC",
+      "time": "2026-09-10T22:56:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134380-6A1343339",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cessation of securities notice for TNC typically reflects the lapsing or cancellation of options, performance rights, or convertible instruments — on its own this is an administrative filing, but the removal of in-the-money instruments can subtly alter the fully diluted share count and theoretical dilution overhang.",
+        "With the stock 51% below its 12-month high, the cessation of securities is unlikely to be a meaningful re-rating catalyst in either direction; however, if the lapsed instruments were employee incentives, it may signal staff departures or morale issues worth monitoring.",
+        "Volume over the last five sessions was running at roughly 0.44x average — well below normal — indicating low conviction and limited institutional interest into this filing; the market is largely indifferent, consistent with the non-market-sensitive classification."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.37,
+        "volume_trend_ratio": 0.44,
+        "volume_last_ratio": 0.73,
+        "avg_turnover_aud": 132561,
+        "liquid": true,
+        "pct_from_3m_high": -19.57,
+        "pct_from_3m_low": 8.82,
+        "pct_from_52w_high": -51.32,
+        "pct_from_52w_low": 68.18,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.44x its average",
+          "51.32% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, TNC traded only 0.44x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 19.57% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WLC",
+      "company": "WHITEROCK LITHIUM CORP.",
+      "headline": "Interim Financial Statements for Half Year ended 30 June 26",
+      "time": "2026-09-10T22:55:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134379-6A1343336",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "WLC's interim financials for H1 2026 carry a market-sensitive flag, signalling material content — likely a significant cash burn update, impairment, or write-down that warrants immediate scrutiny given the challenging lithium price environment.",
+        "For a junior lithium explorer, the key metrics to interrogate are cash on hand versus quarterly burn rate: a sub-12-month runway without a clear funding pathway would be a red flag for going-concern risk in a sector where capital markets remain largely closed to early-stage lithium plays.",
+        "Investors should watch for any commentary on exploration progress or project reclassification; any deferral of planned drilling or asset write-downs would confirm capital preservation mode and likely pressure the share price near-term."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "WLC",
+      "company": "WHITEROCK LITHIUM CORP.",
+      "headline": "Half Yearly Report and Accounts",
+      "time": "2026-09-10T22:55:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134378-6A1343335",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "This is the formal half-yearly report and accounts lodgement for WLC, complementing the earlier market-sensitive interim financials (Announcement [1]) — the non-market-sensitive classification here suggests the detailed accounts contain no incremental surprises beyond what was flagged in the headline results release.",
+        "Analysts should cross-reference the cash flow statement carefully: for lithium explorers in the current environment, operating cash outflows relative to investing activity will reveal whether the company is genuinely advancing assets or simply in maintenance mode.",
+        "The absence of a market-sensitive flag on the full accounts, versus the flag on the headline release, implies the material information has already been disclosed — this filing is primarily a compliance and audit documentation exercise rather than a new information event."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst MINIs Cash Amounts for Stop Loss Event 10 Sep 26",
+      "time": "2026-09-10T22:54:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134377-2A1696618",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This announcement details CitiFirst MINI warrant cash settlement amounts triggered by a stop-loss event on 10 September 2026 — a purely mechanical, administrative outcome from structured product terms being breached, with no issuer-specific corporate news content.",
+        "The stop-loss event confirms that the underlying reference asset moved sufficiently against the MINI's barrier level to trigger automatic termination; affected retail holders will receive residual cash amounts as calculated by Citi as issuer.",
+        "There is no actionable intelligence here for equity investors in the underlying — this is a structured product administration notice and carries no read-through to fundamental valuation or corporate strategy."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WHC",
+      "company": "WHITEHAVEN COAL LIMITED",
+      "headline": "Update - Notification of buy-back - WHC",
+      "time": "2026-09-10T22:54:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134376-2A1696619",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Whitehaven Coal's buyback update confirms the program remains active — an ongoing capital return in the coal sector signals management confidence in free cash flow generation and balance sheet strength, even as thermal coal prices have moderated from peak levels.",
+        "With WHC trading only about 2.5% off its 3-month high, the stock is approaching recent technical resistance on above-average underlying momentum — buyback support at current prices is incrementally constructive, but the limited discount to the near-term high means the buyback is doing more to underpin the floor than to signal deep undervaluation.",
+        "For institutional holders, the key forward question is buyback volume and pace relative to authorised limits — accelerated buying near multi-month highs would signal strong conviction from the board on intrinsic value, while a slow pace would read as largely symbolic capital management."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 8.84,
+        "volume_trend_ratio": 0.87,
+        "volume_last_ratio": 0.72,
+        "avg_turnover_aud": 40340135,
+        "liquid": true,
+        "pct_from_3m_high": -2.54,
+        "pct_from_3m_low": 27.93,
+        "pct_from_52w_high": -10.71,
+        "pct_from_52w_low": 48.82,
+        "range_position_3m": 0.894,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "2.54% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 2.54% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALV",
+      "company": "ALVO MINERALS LIMITED",
+      "headline": "Half Year Accounts",
+      "time": "2026-09-10T22:53:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134375-3A701540",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "ALV's half-year accounts are filed as non-market-sensitive, suggesting no material surprises — for a thinly traded minerals explorer with median daily turnover of approximately A$9,003, the filing is primarily a compliance obligation rather than a market-moving event.",
+        "The stock is 79% below its 12-month high, a severe drawdown that reflects either significant fundamental deterioration or sector-wide de-rating of junior miners — the accounts should be read for cash runway and any going-concern disclosures, which are the key risk flags at this valuation level.",
+        "Given the extremely thin liquidity — median turnover under A$10,000/day — any volume ratios are close to meaningless as signals of institutional intent; even small retail transactions can distort the tape, making price action an unreliable indicator around this filing."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.02,
+        "volume_trend_ratio": 1.13,
+        "volume_last_ratio": 3.9,
+        "avg_turnover_aud": 9003,
+        "liquid": false,
+        "pct_from_3m_high": -39.39,
+        "pct_from_3m_low": 17.65,
+        "pct_from_52w_high": -78.95,
+        "pct_from_52w_low": 17.65,
+        "range_position_3m": 0.187,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "78.95% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$9,003/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 39.39% below the high of that period.",
+          "Treat all of that with care: it trades about A$9,003 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IVZ",
+      "company": "INVICTUS ENERGY LTD",
+      "headline": "Award of well services contract to SLB for Musuma-1 well",
+      "time": "2026-09-10T22:52:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134374-6A1343337",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The award of a well services contract to SLB (formerly Schlumberger) — a tier-1 global oilfield services firm — for the Musuma-1 well is a concrete execution milestone, confirming IVZ is moving from planning to active drilling operations at its Zimbabwe gas prospect.",
+        "Engaging SLB carries both credibility and cost implications: while it signals technical seriousness and de-risks operational execution, institutional investors will focus on the contract value and how it maps against IVZ's disclosed cash position to assess whether a capital raise is imminent.",
+        "Critically, the stock is sitting nearly 76% below its 12-month high, meaning significant prior enthusiasm has already been unwound — this announcement is operationally positive but may struggle to generate sustained re-rating until drilling results confirm the geological thesis; the risk/reward skew is high but the tape suggests the market is in a show-me mode."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.059,
+        "volume_trend_ratio": 0.99,
+        "volume_last_ratio": 2.3,
+        "avg_turnover_aud": 73675,
+        "liquid": true,
+        "pct_from_3m_high": -16.31,
+        "pct_from_3m_low": 15.69,
+        "pct_from_52w_high": -75.92,
+        "pct_from_52w_low": 40.48,
+        "range_position_3m": 0.41,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "75.92% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the middle part of its 3-month range, 16.31% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EPY",
+      "company": "EARLYPAY LTD",
+      "headline": "Update - Notification of buy-back - EPY",
+      "time": "2026-09-10T22:51:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134373-2A1696617",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EarlyPay's buyback update is an administrative progress notice on an existing program — for a financial services lender, a buyback signals that management views the stock as undervalued relative to book or earnings power, and that capital is not being deployed more productively into loan book growth.",
+        "The key question for EPY is whether the buyback pace is accelerating or decelerating relative to prior disclosures — acceleration would suggest tightening lending conditions are reducing loan origination appetite, while deceleration would imply the business is prioritising growth capital.",
+        "No price action context is provided, so no tape-based inference is made; however, buyback programs in the small-cap lending space are generally read as mildly supportive for the share price, providing a consistent demand-side bid in a thin market."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.14,
+        "volume_trend_ratio": 1.02,
+        "volume_last_ratio": 3.63,
+        "avg_turnover_aud": 9240,
+        "liquid": false,
+        "pct_from_3m_high": -9.68,
+        "pct_from_3m_low": 21.74,
+        "pct_from_52w_high": -36.36,
+        "pct_from_52w_low": 33.33,
+        "range_position_3m": 0.625,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$9,240/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the middle part of its 3-month range, 9.68% below the high of that period.",
+          "Treat all of that with care: it trades about A$9,240 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BBN",
+      "company": "BABY BUNTING GROUP LIMITED",
+      "headline": "Notice of 2026 Annual General Meeting and Proxy Form",
+      "time": "2026-09-10T22:47:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134372-3A701539",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "The notice of BBN's 2026 AGM is a routine governance filing — the meeting itself will be the event to watch for shareholder votes on remuneration, board composition, and any special resolutions, but the notice alone carries no new financial information.",
+        "BBN is trading 68% below its 12-month high, a severe de-rating consistent with the well-documented pressures on discretionary retail — cost of living headwinds, declining birth rates, and margin compression — making the AGM a potential flashpoint for investor frustration on strategy and capital allocation.",
+        "Volume over the last five sessions was running at roughly 0.48x average, significantly below normal, reflecting low conviction and limited institutional positioning into the AGM notice; the weak tape suggests the market is not anticipating a positive catalyst from the meeting itself, and any re-rating will require tangible evidence of a trading recovery in upcoming results."
+      ],
+      "tags": [
+        "AGM",
+        "Retail"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 1.05,
+        "volume_trend_ratio": 0.48,
+        "volume_last_ratio": 0.45,
+        "avg_turnover_aud": 319537,
+        "liquid": true,
+        "pct_from_3m_high": -40.0,
+        "pct_from_3m_low": 4.48,
+        "pct_from_52w_high": -68.09,
+        "pct_from_52w_low": 4.48,
+        "range_position_3m": 0.06,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.48x its average",
+          "68.09% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, BBN traded only 0.48x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 40.0% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "APE",
       "company": "EAGERS AUTOMOTIVE LIMITED",
