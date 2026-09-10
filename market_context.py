@@ -73,6 +73,10 @@ BREAKOUT_VOLUME_MULTIPLE = 2.0
 # yfinance rejects very long ticker lists in one call.
 CHUNK = 100
 
+# S&P/ASX 200. Outcomes are measured net of it, for the same reason the
+# scorecard is: on a day the index falls 2% every announcement looks bearish.
+BENCHMARK_DEFAULT = '^AXJO'
+
 
 def yahoo_symbol(ticker: str) -> str:
     """ASX ticker -> Yahoo symbol. BHP -> BHP.AX"""
@@ -83,7 +87,8 @@ def yahoo_symbol(ticker: str) -> str:
 # Price history
 # ─────────────────────────────────────────────────────────────
 
-def fetch_history(tickers: list[str], period: str = HISTORY_PERIOD) -> dict[str, pd.DataFrame]:
+def fetch_history(tickers: list[str], period: str = HISTORY_PERIOD,
+                  extra: list[str] | None = None) -> dict[str, pd.DataFrame]:
     """
     One long pull per ticker, sliced locally afterwards.
 
@@ -94,6 +99,8 @@ def fetch_history(tickers: list[str], period: str = HISTORY_PERIOD) -> dict[str,
     announcement of the day, and for a backfill over past days too.
     """
     symbols = sorted({yahoo_symbol(t) for t in tickers if t})
+    # `extra` takes symbols verbatim — an index like ^AXJO has no .AX suffix.
+    symbols += [e for e in (extra or []) if e not in symbols]
     out: dict[str, pd.DataFrame] = {}
 
     for i in range(0, len(symbols), CHUNK):
