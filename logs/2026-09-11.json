@@ -1,9 +1,1022 @@
 {
   "date": "2026-09-11",
-  "total": 104,
-  "market_sensitive_count": 22,
-  "generated_at": "2026-09-10T22:59:48.380622+00:00",
+  "total": 126,
+  "market_sensitive_count": 26,
+  "generated_at": "2026-09-10T23:13:16.022769+00:00",
   "announcements": [
+    {
+      "ticker": "INV",
+      "company": "INVESTSMART GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - INV",
+      "time": "2026-09-10T23:10:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134402-2A1696628",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "INV's buyback notification update is an administrative filing confirming ongoing on-market repurchase activity, which is structurally positive for remaining shareholders via EPS accretion and signals management confidence in intrinsic value — but the 'not market sensitive' flag correctly reflects its limited near-term price impact.",
+        "Volume over the prior 5 sessions was 3.17x the 20-day average, which looks elevated in isolation; however, median daily turnover is approximately A$0, making this an effectively illiquid stock where the volume ratio is close to meaningless — it could represent a single small transaction distorting the ratio entirely.",
+        "For institutional investors, the buyback is a positive governance signal but the near-zero liquidity makes INV uninvestable at any meaningful scale; the buyback program itself will have minimal market impact given the turnover profile."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.11,
+        "volume_trend_ratio": 3.17,
+        "volume_last_ratio": 10.95,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -35.29,
+        "pct_from_3m_low": 4.76,
+        "pct_from_52w_high": -35.29,
+        "pct_from_52w_low": 37.5,
+        "range_position_3m": 0.077,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 3.17x its 20-day average"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, INV traded 3.17x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 35.29% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DXI",
+      "company": "DEXUS INDUSTRIA REIT.",
+      "headline": "Update - Notification of buy-back - DXI",
+      "time": "2026-09-10T23:10:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134401-3A701548",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DXI's buyback update is a routine administrative notification confirming continuation of on-market repurchases — structurally positive for unit holders as it reduces float and signals management/board confidence in the REIT's NAV relative to its market price.",
+        "The technical backdrop is weak: DXI is at a 3-month low with volume over the prior 5 sessions running at just 0.47x the 20-day average — below-average volume at a price trough suggests a lack of active sellers but equally a lack of buyers, consistent with a REIT trading under pressure without panic selling.",
+        "The buyback being conducted into a 3-month low is the most constructive read available here — management is deploying capital when the unit price is at its weakest recent point, which is when buybacks are most accretive to NAV per unit; however, broader REIT sector headwinds (rates, cap rates) would need to ease for a meaningful re-rating."
+      ],
+      "tags": [
+        "Property",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 2.35,
+        "volume_trend_ratio": 0.47,
+        "volume_last_ratio": 0.72,
+        "avg_turnover_aud": 1733925,
+        "liquid": true,
+        "pct_from_3m_high": -7.11,
+        "pct_from_3m_low": 0.86,
+        "pct_from_52w_high": -21.67,
+        "pct_from_52w_low": 5.38,
+        "range_position_3m": 0.1,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.47x its average",
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, DXI traded only 0.47x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PGF",
+      "company": "PM CAPITAL GLOBAL OPPORTUNITIES FUND LIMITED",
+      "headline": "Application for quotation of securities - PGF",
+      "time": "2026-09-10T23:08:52+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134400-2A1696627",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An application for quotation of securities by PGF typically relates to newly issued shares from a dividend reinvestment plan, institutional placement, or options exercise — these are routine capital management activities for a listed investment company and represent no fundamental change to the fund's strategy.",
+        "The filing is classified as not market sensitive, which is consistent with a standard securities quotation notice; the new securities being admitted to trading should not cause meaningful dilution concerns unless the quantum is material relative to existing shares on issue.",
+        "No price action data is available for this announcement; without that context, no tape-based inference can be drawn — investors should check the quantum of securities being quoted and the issue price relative to prevailing NTA to assess any marginal dilution impact."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 3.25,
+        "volume_trend_ratio": 0.81,
+        "volume_last_ratio": 0.76,
+        "avg_turnover_aud": 2943242,
+        "liquid": true,
+        "pct_from_3m_high": -7.01,
+        "pct_from_3m_low": 6.21,
+        "pct_from_52w_high": -7.01,
+        "pct_from_52w_low": 27.45,
+        "range_position_3m": 0.437,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the middle part of its 3-month range, 7.01% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VLS",
+      "company": "VITA LIFE SCIENCES LIMITED..",
+      "headline": "Update - Notification of buy-back - VLS",
+      "time": "2026-09-10T23:08:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134399-3A701547",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "VLS's buyback update is a procedural notification of ongoing on-market repurchases — for a healthcare consumer products company, this signals balance sheet confidence and is a modest positive for remaining shareholders through float reduction and implied EPS support.",
+        "Price action is constructive: VLS is just 1.43% off its 3-month high, suggesting the stock has been performing well into this filing; the buyback being executed near recent highs is less accretive on a per-share basis than at lower prices but reinforces that management is comfortable with current valuations.",
+        "Volume was subdued at 0.28x the 20-day average over the prior 5 sessions, and with median daily turnover of ~A$13,867 liquidity remains thin; the below-average volume near a 3-month high is consistent with a quiet, stable tape rather than distribution — a modestly supportive technical read."
+      ],
+      "tags": [
+        "Healthcare",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 2.76,
+        "volume_trend_ratio": 0.28,
+        "volume_last_ratio": 0.21,
+        "avg_turnover_aud": 13867,
+        "liquid": false,
+        "pct_from_3m_high": -1.43,
+        "pct_from_3m_low": 15.97,
+        "pct_from_52w_high": -2.82,
+        "pct_from_52w_low": 21.59,
+        "range_position_3m": 0.905,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.28x its average",
+          "1.43% off its 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$13,867/day",
+        "reading": [
+          "Going into this, VLS traded only 0.28x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 1.43% below the high of that period.",
+          "Treat all of that with care: it trades about A$13,867 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DXC",
+      "company": "DEXUS CONVENIENCE RETAIL REIT",
+      "headline": "Update - Notification of buy-back - DXC",
+      "time": "2026-09-10T23:07:57+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134398-3A701546",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "DXC's buyback update is a routine administrative filing for this convenience retail REIT, confirming ongoing on-market repurchases — the structural read is modestly positive as it reduces unit count and signals that management views the current price as below intrinsic value.",
+        "Price action is near-term constructive with DXC just 2.46% off its 3-month high, suggesting the REIT has held up well relative to the broader listed property sector; conducting buybacks near a 3-month high implies less valuation uplift per unit than buybacks at depressed prices, but confirms management conviction.",
+        "No volume data is provided in the price action line for this announcement, limiting tape-based inference; the 'not market sensitive' classification correctly reflects the administrative nature of the filing, and the investment case for DXC remains driven by petrol station and convenience retail rental dynamics rather than this buyback update alone."
+      ],
+      "tags": [
+        "Property",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 2.78,
+        "volume_trend_ratio": 1.05,
+        "volume_last_ratio": 1.14,
+        "avg_turnover_aud": 569858,
+        "liquid": true,
+        "pct_from_3m_high": -2.46,
+        "pct_from_3m_low": 8.17,
+        "pct_from_52w_high": -10.32,
+        "pct_from_52w_low": 12.1,
+        "range_position_3m": 0.75,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "2.46% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 2.46% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EMT",
+      "company": "EMETALS LIMITED",
+      "headline": "Mineral Range Tungsten Project, Drilling Program Update",
+      "time": "2026-09-10T23:06:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134397-6A1343343",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A drilling update at Mineral Range is a routine progress filing — the 'not market sensitive' tag and lack of results data signal this is a logistical/operational update rather than a discovery or intercept announcement, limiting its near-term catalytic value.",
+        "The stock sits at a 12-month low with median daily turnover of roughly A$73 — an exceptionally thin tape where even modest news flow struggles to move price; any volume ratios here are essentially meaningless given the near-zero liquidity baseline.",
+        "Next step for investors is to watch for actual assay results from this program; until tungsten intercept grades and widths are published, the project remains pre-news and the technical case for re-rating is absent."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.04,
+        "volume_trend_ratio": 1.48,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 73,
+        "liquid": false,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -69.23,
+        "pct_from_52w_low": 0.0,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "at a 12-month low"
+        ],
+        "caveat": "thinly traded, median turnover about A$73/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it.",
+          "Treat all of that with care: it trades about A$73 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SPY",
+      "company": "STATE STREET SPDR S&P 500 ETF",
+      "headline": "Distribution Record Date Announcement",
+      "time": "2026-09-10T23:05:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134396-2A1696626",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A distribution record date announcement for the SPDR S&P 500 ETF is a routine administrative filing — it confirms an upcoming income distribution to unitholders but carries no information content about the underlying index or fund strategy.",
+        "The ETF trading at a 3-month low is the more material signal here: income-focused holders receiving a distribution into a down-trending unit price may face a total-return headwind, and the record date filing itself does nothing to address that price weakness.",
+        "Institutional holders should note that ex-distribution mechanics will create a technical price adjustment on the ex-date; the near-term price bias is driven entirely by S&P 500 index direction, not by this filing."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 1059.36,
+        "volume_trend_ratio": 1.24,
+        "volume_last_ratio": 0.43,
+        "avg_turnover_aud": 536473,
+        "liquid": true,
+        "pct_from_3m_high": -3.97,
+        "pct_from_3m_low": 0.89,
+        "pct_from_52w_high": -3.97,
+        "pct_from_52w_low": 16.41,
+        "range_position_3m": 0.176,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GDI",
+      "company": "GDI PROPERTY GROUP",
+      "headline": "Update - Notification of buy-back - GDI",
+      "time": "2026-09-10T23:04:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134395-2A1696625",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "GDI Property Group's buyback update notification is a procedural ASX compliance filing — it does not announce a new buyback program or an acceleration of an existing one, but rather provides a periodic status update as required by Listing Rules.",
+        "On-market buybacks in property/REIT-adjacent vehicles are modestly capital-allocation positive as they signal management views the stock as undervalued relative to NAV; however, the 'not market sensitive' classification confirms the quantum or pace of buyback activity is not material enough to move the needle.",
+        "Investors should cross-reference the actual shares repurchased to date against the program limit — if buyback capacity remains substantial, it provides a modest technical floor, but execution pace is the key variable to monitor."
+      ],
+      "tags": [
+        "Property",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.625,
+        "volume_trend_ratio": 0.83,
+        "volume_last_ratio": 0.35,
+        "avg_turnover_aud": 291382,
+        "liquid": true,
+        "pct_from_3m_high": -6.02,
+        "pct_from_3m_low": 5.93,
+        "pct_from_52w_high": -10.71,
+        "pct_from_52w_low": 8.7,
+        "range_position_3m": 0.467,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the middle part of its 3-month range, 6.02% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYQ",
+      "company": "CYCLIQ GROUP LTD",
+      "headline": "Trading Halt",
+      "time": "2026-09-10T23:04:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134394-6A1343342",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt signals an imminent material announcement — most likely a capital raise, M&A event, or regulatory development that CYQ is not yet able to disclose publicly.",
+        "Price action context is essentially uninformative: volume over the prior 5 sessions was 0.0x average with median daily turnover of approximately A$0, meaning the stock was completely illiquid and no meaningful market signal can be read into pre-halt trading.",
+        "Investors should await the resumption announcement before drawing conclusions; the halt itself is procedural, but the market-sensitive flag means the catalyst, when disclosed, has genuine valuation significance for this micro-cap."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.005,
+        "volume_trend_ratio": 0.0,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -16.67,
+        "pct_from_3m_low": 25.0,
+        "pct_from_52w_high": -37.5,
+        "pct_from_52w_low": 150.0,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.0x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, CYQ traded only 0.0x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "The price sat in the middle part of its 3-month range, 16.67% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MIR",
+      "company": "MIRRABOOKA INVESTMENTS LIMITED",
+      "headline": "Update - Notification of buy-back - MIR",
+      "time": "2026-09-10T23:02:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134393-3A701545",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Mirrabooka Investments' buyback update is a standard compliance notification under ASX Listing Rules — as a listed investment company (LIC), an ongoing buyback is a conventional capital management tool used when shares trade at a discount to NTA.",
+        "For a LIC, buybacks are accretive to remaining shareholders when executed below NTA, making this structurally positive in principle; however, the 'not market sensitive' designation indicates the scale of activity disclosed is not large enough to represent a step-change in NTA accretion.",
+        "The practical next step for investors is to monitor the NTA-to-price discount: if the discount widens, buyback activity should rationally increase, and any future announcement of an accelerated or expanded program would carry more price signal than this routine update."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 2.42,
+        "volume_trend_ratio": 1.16,
+        "volume_last_ratio": 1.29,
+        "avg_turnover_aud": 327358,
+        "liquid": true,
+        "pct_from_3m_high": -10.37,
+        "pct_from_3m_low": 1.26,
+        "pct_from_52w_high": -28.19,
+        "pct_from_52w_low": 1.68,
+        "range_position_3m": 0.097,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 10.37% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMA",
+      "company": "AMA GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - AMA",
+      "time": "2026-09-10T23:02:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134391-3A701544",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMA Group's buyback update arrives with 5-session volume running at 1.85x its 20-day average — meaningfully elevated turnover ahead of a procedural filing is worth noting, as it suggests either accumulation or position rotation independent of, and possibly preceding, the buyback disclosure.",
+        "Buybacks in a vehicle like AMA Group (automotive aftercare/smash repair) signal board confidence in intrinsic value, but this is a status update not a new program announcement; the 'not market sensitive' tag limits its standalone price relevance.",
+        "The elevated volume is the more actionable observation — institutional investors should assess whether the buying pressure reflects a strategic holder building a position or short covering, as either scenario would be more significant than the buyback filing itself."
+      ],
+      "tags": [
+        "Retail",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.55,
+        "volume_trend_ratio": 1.85,
+        "volume_last_ratio": 0.37,
+        "avg_turnover_aud": 126150,
+        "liquid": true,
+        "pct_from_3m_high": -20.29,
+        "pct_from_3m_low": 30.95,
+        "pct_from_52w_high": -47.62,
+        "pct_from_52w_low": 32.53,
+        "range_position_3m": 0.481,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.85x its 20-day average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, AMA traded 1.85x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 20.29% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DWG",
+      "company": "DATAWORKS GROUP LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-10T23:02:22+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134392-6A1343341",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halt on DWG carries a market-sensitive flag, strongly implying a pending material event — capital raise, acquisition, or significant operational update — that the company needs time to structure before it can be released.",
+        "Volume in the 5 sessions preceding the halt ran at 1.59x the 20-day average, a modest but noticeable pick-up; however, with median daily turnover of only ~A$3,892 this is an extremely thinly traded stock, so the volume ratio should be treated as close to meaningless — it could reflect just a handful of small trades rather than informed positioning.",
+        "The next key catalyst is the resumption announcement; until then, the halt warrants a watch-and-wait posture, with the market-sensitive classification suggesting the pending news is unlikely to be routine administration."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.15,
+        "volume_trend_ratio": 1.59,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 3892,
+        "liquid": false,
+        "pct_from_3m_high": -6.25,
+        "pct_from_3m_low": 30.43,
+        "pct_from_52w_high": -36.17,
+        "pct_from_52w_low": 233.33,
+        "range_position_3m": 0.778,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.59x its 20-day average"
+        ],
+        "caveat": "thinly traded, median turnover about A$3,892/day",
+        "reading": [
+          "Going into this, DWG traded 1.59x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the upper part of its 3-month range, 6.25% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,892 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WRK",
+      "company": "WRKR LTD",
+      "headline": "Change of Director's Interest Notice - DM",
+      "time": "2026-09-10T23:02:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134389-2A1696623",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director interest change notice for WRKR Ltd is a disclosure-compliance filing — the key signal is the direction (buy or sell) and size of the transaction relative to the director's existing holding, which determines whether this is confidence-signalling or profit-taking.",
+        "The stock is 63.43% below its 12-month high and trading on subdued volume at 0.57x its 20-day average; however, with median daily turnover of only ~A$31,162, this is a thinly traded name where volume ratios carry little interpretive weight and should not be read as directional intent.",
+        "For institutional purposes, the actionable focus is the nature of the director transaction itself — an on-market purchase at these depressed levels would be a meaningful insider confidence signal, while a sale would compound the already significant drawdown narrative."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.064,
+        "volume_trend_ratio": 0.57,
+        "volume_last_ratio": 0.32,
+        "avg_turnover_aud": 31162,
+        "liquid": false,
+        "pct_from_3m_high": -36.0,
+        "pct_from_3m_low": 1.59,
+        "pct_from_52w_high": -63.43,
+        "pct_from_52w_low": 1.59,
+        "range_position_3m": 0.027,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.57x its average",
+          "63.43% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$31,162/day",
+        "reading": [
+          "Going into this, WRK traded only 0.57x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 36.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$31,162 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QFE",
+      "company": "QUICKFEE LIMITED",
+      "headline": "Notification of cessation of securities - QFE",
+      "time": "2026-09-10T23:02:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134390-2A1696624",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cessation of securities notice typically relates to the lapsing or cancellation of options, rights, or performance securities — this is dilution-reduction in the literal sense, but it usually means incentive instruments expired worthless or unvested, which can reflect poorly on underlying business performance.",
+        "QuickFee sits 61.0% below its 12-month high with median daily turnover of ~A$5,455 — an extremely illiquid stock where this filing will have near-zero price impact, and the volume context is too thin to draw any meaningful conclusions about market positioning.",
+        "The structural read is mildly negative: securities ceasing through lapse rather than exercise implies holders saw no value in converting, consistent with the stock's severe underperformance; investors should monitor the company's cash position and next operational update as the more material catalysts."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.078,
+        "volume_trend_ratio": 1.37,
+        "volume_last_ratio": 1.68,
+        "avg_turnover_aud": 5455,
+        "liquid": false,
+        "pct_from_3m_high": -8.24,
+        "pct_from_3m_low": 16.42,
+        "pct_from_52w_high": -61.0,
+        "pct_from_52w_low": 73.33,
+        "range_position_3m": 0.611,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "61.0% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$5,455/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the middle part of its 3-month range, 8.24% below the high of that period.",
+          "Treat all of that with care: it trades about A$5,455 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BAP",
+      "company": "BAPCOR LIMITED",
+      "headline": "Appendix 3Y - C. Wilesmith",
+      "time": "2026-09-10T23:02:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134388-3A701543",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Appendix 3Y is a change in director's interests notice for Bapcor's C. Wilesmith — it is a routine disclosure compliance filing and carries limited standalone investment significance beyond the specific transaction details it records.",
+        "Bapcor is 77.43% below its 12-month high, a severe drawdown that provides essential context: any director purchase at these levels would be a notable confidence signal, while a disposal would be read harshly by a market already deeply negative on the stock.",
+        "Given the magnitude of the price decline, institutional focus should remain on the strategic review and operational turnaround trajectory; director interest movements at this juncture are worth monitoring as sentiment indicators, but this filing alone does not shift the fundamental thesis."
+      ],
+      "tags": [
+        "Board Change",
+        "Retail"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.8,
+        "volume_trend_ratio": 0.85,
+        "volume_last_ratio": 0.94,
+        "avg_turnover_aud": 4471133,
+        "liquid": true,
+        "pct_from_3m_high": -10.61,
+        "pct_from_3m_low": 116.22,
+        "pct_from_52w_high": -77.43,
+        "pct_from_52w_low": 125.35,
+        "range_position_3m": 0.819,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "77.43% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 10.61% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IMM",
+      "company": "IMMUTEP LIMITED",
+      "headline": "Immutep Outlines Focused Development Strategy for Efti",
+      "time": "2026-09-10T23:01:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134387-2A1696622",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Immutep is presenting a 'focused development strategy' for eftilagimod alpha (efti), which typically signals a pipeline reprioritisation — potentially narrowing indications, adjusting trial designs, or responding to prior data readouts — a move that can cut cash burn but may also signal reduced addressable market ambitions.",
+        "The stock sits 90.64% below its 12-month high, an extreme drawdown that likely reflects accumulated disappointment with efti's clinical progress; this means the market is already pricing in significant failure risk, and any credible strategic clarity that de-risks the path forward could disproportionately benefit the share price from a deeply depressed base.",
+        "Volume over the prior 5 sessions ran at 1.51x the 20-day average, suggesting above-normal interest ahead of this update — investors and traders were positioning for news, which raises the bar for a positive reaction unless the strategy outlined is materially more compelling than market consensus."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.044,
+        "volume_trend_ratio": 1.51,
+        "volume_last_ratio": 2.6,
+        "avg_turnover_aud": 217036,
+        "liquid": true,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 4.76,
+        "pct_from_52w_high": -90.64,
+        "pct_from_52w_low": 57.14,
+        "range_position_3m": 0.083,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.51x its 20-day average",
+          "90.64% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, IMM traded 1.51x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 33.33% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VSR",
+      "company": "VOLTAIC STRATEGIC RESOURCES LTD",
+      "headline": "Field Work Identifies Malachite-Rich Copper Target El Dinero",
+      "time": "2026-09-10T22:59:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134386-6A1343338",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Identification of a malachite-rich copper target ('El Dinero') via fieldwork is early-stage exploration news — malachite is a secondary copper mineral used as a visual pathfinder, so this is a prospectivity indicator rather than a resource, and drilling results will be the true value inflection point.",
+        "With the stock already 56.92% below its 12-month high, the market has significantly de-rated VSR, meaning exploration news needs to be genuinely compelling to reverse sentiment; a named target alone is unlikely to drive a sustained re-rating without follow-up drill intersections.",
+        "Liquidity is negligible at ~A$2,285 median daily turnover, so volume ratios are close to meaningless as a signal of institutional intent — any price move on this news is likely to be thin and volatile, and position sizing for institutional investors is impractical at this scale."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.028,
+        "volume_trend_ratio": 1.14,
+        "volume_last_ratio": 0.44,
+        "avg_turnover_aud": 2285,
+        "liquid": false,
+        "pct_from_3m_high": -26.32,
+        "pct_from_3m_low": 40.0,
+        "pct_from_52w_high": -56.92,
+        "pct_from_52w_low": 40.0,
+        "range_position_3m": 0.444,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "56.92% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$2,285/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the middle part of its 3-month range, 26.32% below the high of that period.",
+          "Treat all of that with care: it trades about A$2,285 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMH",
+      "company": "AMCIL LIMITED",
+      "headline": "Update - Notification of buy-back - AMH",
+      "time": "2026-09-10T22:58:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134385-3A701542",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMCIL Limited's buyback update is a routine ASX compliance filing for this listed investment company — as with similar LIC peers, the buyback mechanism is designed to manage the NTA discount and is structurally accretive to remaining shareholders when shares trade below asset value.",
+        "The stock is just 2.63% off its 3-month high, a constructive technical position that contrasts with many peers — this suggests the buyback, combined with broader LIC sentiment, may already be providing price support, though the 'not market sensitive' tag confirms the disclosed activity is not a step-change.",
+        "The near-3-month-high positioning means incremental buyback news has diminishing surprise value at current levels; investors should watch for any NTA discount widening as the trigger for a more aggressive buyback pace, which would be the more actionable future signal."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.925,
+        "volume_trend_ratio": 0.78,
+        "volume_last_ratio": 1.14,
+        "avg_turnover_aud": 106992,
+        "liquid": true,
+        "pct_from_3m_high": -2.63,
+        "pct_from_3m_low": 8.19,
+        "pct_from_52w_high": -15.91,
+        "pct_from_52w_low": 8.19,
+        "range_position_3m": 0.737,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "2.63% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 2.63% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TNC",
+      "company": "TRUE NORTH COPPER LIMITED",
+      "headline": "Notification regarding unquoted securities - TNC",
+      "time": "2026-09-10T22:57:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134383-6A1343340",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A notification regarding unquoted securities for True North Copper typically relates to the issuance or vesting of performance rights, options, or shares not yet admitted to quotation — this is a routine capital structure disclosure with limited immediate price impact.",
+        "TNC is 51.32% below its 12-month high and trading at 0.44x its 20-day average volume over the last five sessions — the subdued activity suggests waning market interest, though with no median turnover figure provided, the depth of liquidity is harder to assess precisely.",
+        "The combination of a significant drawdown and below-average volume into a routine securities notification is an unremarkable tape; the key catalyst watch remains exploration results or a capital raise announcement, either of which would be far more material than this administrative filing."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.37,
+        "volume_trend_ratio": 0.44,
+        "volume_last_ratio": 0.73,
+        "avg_turnover_aud": 132561,
+        "liquid": true,
+        "pct_from_3m_high": -19.57,
+        "pct_from_3m_low": 8.82,
+        "pct_from_52w_high": -51.32,
+        "pct_from_52w_low": 68.18,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.44x its average",
+          "51.32% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, TNC traded only 0.44x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 19.57% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFI",
+      "company": "AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
+      "headline": "Update - Notification of buy-back - AFI",
+      "time": "2026-09-10T22:57:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134384-3A701541",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AFI is continuing or updating an on-market buyback, a capital management signal that is mildly supportive for LIC discount management — buybacks reduce shares on issue and can narrow the persistent discount to NTA that plagues listed investment companies.",
+        "With the stock sitting roughly 3.67% off its 3-month high, the buyback notification arrives on a modestly softened tape rather than at peak prices, suggesting AFI's board has room to execute at relatively better value — this is a more constructive setup for accretive buyback activity than if the stock were at its recent high.",
+        "Next steps centre on the pace and scale of buyback execution; investors should monitor whether AFI accelerates purchases if the NTA discount widens further, as consistent buyback activity at a discount is ultimately NAV-accretive for remaining shareholders."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 6.82,
+        "volume_trend_ratio": 1.02,
+        "volume_last_ratio": 0.99,
+        "avg_turnover_aud": 4167749,
+        "liquid": true,
+        "pct_from_3m_high": -3.67,
+        "pct_from_3m_low": 7.74,
+        "pct_from_52w_high": -8.46,
+        "pct_from_52w_low": 7.74,
+        "range_position_3m": 0.653,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "3.67% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the middle part of its 3-month range, 3.67% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-10T22:57:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134382-2A1696621",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for KME indicates a shareholder has crossed (upward or downward) a 5% ownership threshold, which can signal strategic accumulation, passive reweighting, or a block sale — the direction of the change is the critical detail not available in the headline alone.",
+        "Price action is benign with the stock only 2.03% off its 3-month high, suggesting KME has been performing solidly into this filing; if the substantial holding reflects new accumulation, it is occurring near a multi-month peak, which could indicate a strategic buyer willing to pay up.",
+        "This filing is flagged as not market sensitive, suggesting the exchange views it as procedural disclosure; however, institutional investors should monitor the identity of the notifying party and the direction of the change, as a new or exiting strategic holder in an education-sector micro-cap can have outsized governance implications."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Retail"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 0.725,
+        "volume_trend_ratio": 1.0,
+        "volume_last_ratio": 0.58,
+        "avg_turnover_aud": 57230,
+        "liquid": true,
+        "pct_from_3m_high": -2.03,
+        "pct_from_3m_low": 76.83,
+        "pct_from_52w_high": -2.03,
+        "pct_from_52w_low": 76.83,
+        "range_position_3m": 0.955,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "2.03% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 2.03% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VNT",
+      "company": "VENTIA SERVICES GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - VNT",
+      "time": "2026-09-10T22:56:27+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134381-2A1696620",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ventia Services Group is notifying the market of a buyback update — for an infrastructure services company generating relatively stable, contract-backed cash flows, an on-market buyback signals management confidence in balance sheet capacity and free cash flow generation.",
+        "No price action data is provided for VNT, so no assessment of how the tape contextualises this announcement can be made; the filing itself is procedural and classified as not market sensitive by the company.",
+        "The key forward watch-point is buyback volume and cadence relative to Ventia's stated capital allocation priorities — any acceleration would reinforce the thesis that the business is generating surplus cash beyond dividend commitments, which would be a constructive signal for total shareholder return."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 255,
+        "last_close": 5.74,
+        "volume_trend_ratio": 0.93,
+        "volume_last_ratio": 1.17,
+        "avg_turnover_aud": 17309024,
+        "liquid": true,
+        "pct_from_3m_high": -15.71,
+        "pct_from_3m_low": 8.92,
+        "pct_from_52w_high": -15.71,
+        "pct_from_52w_low": 24.51,
+        "range_position_3m": 0.305,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 15.71% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "TNC",
       "company": "TRUE NORTH COPPER LIMITED",
