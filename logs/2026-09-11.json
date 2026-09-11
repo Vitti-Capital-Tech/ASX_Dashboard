@@ -1,9 +1,974 @@
 {
   "date": "2026-09-11",
-  "total": 185,
-  "market_sensitive_count": 40,
-  "generated_at": "2026-09-11T00:55:14.926660+00:00",
+  "total": 207,
+  "market_sensitive_count": 41,
+  "generated_at": "2026-09-11T01:30:23.634323+00:00",
   "announcements": [
+    {
+      "ticker": "AKA",
+      "company": "AUREKA LIMITED",
+      "headline": "Update - Proposed issue of securities - AKA",
+      "time": "2026-09-11T01:27:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134483-3A701561",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An 'Update – Proposed Issue of Securities' filing for AKA is a pre-issuance administrative notice, typically lodged to satisfy ASX Listing Rule requirements ahead of a placement, rights issue, or option exercise — it is procedural but confirms dilutive capital activity is imminent.",
+        "No price action data is available for this announcement, so no read on market positioning can be made; the materiality of the dilution will depend on the volume and price of securities to be issued relative to existing shares on issue, details that should be confirmed in the accompanying term sheet or cleansing notice.",
+        "Until full terms are disclosed — including use of proceeds and any associated capital raise narrative — this filing is a flag rather than a signal; institutional investors should await the supplementary disclosure to assess whether the raise is defensive (plugging a cash gap) or growth-oriented."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.125,
+        "volume_trend_ratio": 1.32,
+        "volume_last_ratio": 2.02,
+        "avg_turnover_aud": 28703,
+        "liquid": false,
+        "pct_from_3m_high": -10.71,
+        "pct_from_3m_low": 81.16,
+        "pct_from_52w_high": -34.21,
+        "pct_from_52w_low": 81.16,
+        "range_position_3m": 0.789,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$28,703/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 10.71% below the high of that period.",
+          "Treat all of that with care: it trades about A$28,703 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LLC",
+      "company": "LENDLEASE GROUP",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-11T01:27:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134482-2A1696677",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director interest change at Lendlease (LLC) is a routine compliance filing — the key question is always direction: an on-market purchase by a director signals conviction at current prices, while a disposal, particularly at a 51.62% discount to the 12-month high, would add to negative sentiment in an already heavily sold-down stock.",
+        "The magnitude of the price decline — over 50% from the 12-month high — reflects the severe re-rating LLC has experienced, likely tied to its well-documented asset disposal programme and international construction exit; any director buying at this level would carry outsized signalling value given the depressed entry point.",
+        "Investors should verify the nature and scale of the transaction in the notice body; even a modest on-market buy by a senior executive into a multi-year low can act as a short-term sentiment stabiliser, though it would not in isolation resolve LLC's structural balance sheet and earnings visibility challenges."
+      ],
+      "tags": [
+        "Board Change",
+        "Property"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 2.83,
+        "volume_trend_ratio": 0.82,
+        "volume_last_ratio": 1.47,
+        "avg_turnover_aud": 8754689,
+        "liquid": true,
+        "pct_from_3m_high": -14.5,
+        "pct_from_3m_low": 4.04,
+        "pct_from_52w_high": -51.62,
+        "pct_from_52w_low": 17.92,
+        "range_position_3m": 0.186,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "51.62% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 14.5% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NAN",
+      "company": "NANOSONICS LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-11T01:26:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134481-2A1696676",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for Nanosonics (NAN) is a standard ASX Listing Rule 3.19A disclosure and carries no inherent market-moving content — its significance is determined entirely by whether it reflects a purchase, sale, or non-cash vesting event.",
+        "No price action data has been provided for this announcement, so no assessment of market positioning or tape context can be made; the filing should be read in conjunction with the transaction details to determine if it is acquisition (bullish signal) or disposal (potentially bearish optics).",
+        "For a healthcare technology company like NAN, where institutional ownership and insider alignment are closely watched, sustained director selling across multiple notices would be a flag worth tracking cumulatively, even if any single notice is immaterial in isolation."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 2.75,
+        "volume_trend_ratio": 0.79,
+        "volume_last_ratio": 0.44,
+        "avg_turnover_aud": 3224512,
+        "liquid": true,
+        "pct_from_3m_high": -26.27,
+        "pct_from_3m_low": 4.17,
+        "pct_from_52w_high": -42.23,
+        "pct_from_52w_low": 4.17,
+        "range_position_3m": 0.101,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 26.27% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUI",
+      "company": "AUSTRALIAN UNITED INVESTMENT COMPANY LIMITED",
+      "headline": "Notice of 2026 AGM and Proxy Form",
+      "time": "2026-09-11T01:25:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134480-3A701560",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "The AGM notice for Australian United Investment Company (AUI) is a procedural governance filing — for a listed investment company, AGMs rarely carry price-sensitive resolutions unless a contested director election, significant fee change, or strategy shift is on the agenda.",
+        "AUI is trading just 1.98% off its 3-month high, indicating the stock is in a stable, well-supported position; this benign tape makes the AGM notice even more of a non-event from a price-discovery standpoint, with no evidence of positioning ahead of a contentious meeting.",
+        "Investors should review the proxy form for any non-standard resolutions — remuneration report votes, capital management proposals, or board composition changes — that could attract protest votes or activist attention, though LIC AGMs of this type are typically routine."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 11.9,
+        "volume_trend_ratio": 1.09,
+        "volume_last_ratio": 1.12,
+        "avg_turnover_aud": 668886,
+        "liquid": true,
+        "pct_from_3m_high": -1.98,
+        "pct_from_3m_low": 9.17,
+        "pct_from_52w_high": -1.98,
+        "pct_from_52w_low": 15.87,
+        "range_position_3m": 0.806,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "1.98% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 1.98% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUI",
+      "company": "AUSTRALIAN UNITED INVESTMENT COMPANY LIMITED",
+      "headline": "2026 Appendix 4G and Corporate Governance Statement",
+      "time": "2026-09-11T01:22:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134479-3A701559",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Appendix 4G and Corporate Governance Statement for AUI is a mandatory annual compliance filing confirming adherence to the ASX Corporate Governance Principles — it carries no earnings or valuation implications and is purely administrative.",
+        "With AUI sitting 1.98% off its 3-month high, the tape is orderly and there is no market stress that would make governance disclosures particularly scrutinised; for a long-established LIC, any deviation from the standard governance checklist would be the exception, not the rule.",
+        "Institutional investors in AUI will use this filing to confirm board composition, committee structures, and any departures from recommended practices — material departures, while unlikely, would be the only actionable signal in this document."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 11.9,
+        "volume_trend_ratio": 1.09,
+        "volume_last_ratio": 1.12,
+        "avg_turnover_aud": 668886,
+        "liquid": true,
+        "pct_from_3m_high": -1.98,
+        "pct_from_3m_low": 9.17,
+        "pct_from_52w_high": -1.98,
+        "pct_from_52w_low": 15.87,
+        "range_position_3m": 0.806,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "1.98% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 1.98% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KME",
+      "company": "KIP MCGRATH EDUCATION CENTRES LIMITED",
+      "headline": "Directors' Statement re Takeover",
+      "time": "2026-09-11T01:21:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134478-2A1696675",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "A Directors' Statement on a takeover is a pivotal, market-sensitive filing — it signals the board has formally assessed a bid and is communicating a recommendation (or rejection) to shareholders, making this a genuine value-crystallisation event for KME holders.",
+        "With the stock sitting just 2.03% off its 3-month high heading into this announcement, the market had already largely anticipated or priced in deal activity; this proximity to the high suggests limited near-term upside surprise unless the board recommends a premium above current levels or a competing bid emerges.",
+        "Next steps hinge entirely on whether directors recommend acceptance, rejection, or signal intent to seek a higher offer — investors should scrutinise the Independent Expert Report (if attached) and the implied premium to pre-announcement VWAP as the key valuation anchor."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.725,
+        "volume_trend_ratio": 1.0,
+        "volume_last_ratio": 0.58,
+        "avg_turnover_aud": 57230,
+        "liquid": true,
+        "pct_from_3m_high": -2.03,
+        "pct_from_3m_low": 76.83,
+        "pct_from_52w_high": -2.03,
+        "pct_from_52w_low": 76.83,
+        "range_position_3m": 0.955,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "2.03% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 2.03% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AUI",
+      "company": "AUSTRALIAN UNITED INVESTMENT COMPANY LIMITED",
+      "headline": "2026 Annual Report",
+      "time": "2026-09-11T01:20:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134477-3A701557",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "AUI's 2026 Annual Report is the primary document for assessing full-year portfolio performance, NTA trajectory, dividend sustainability, and management commentary on market outlook — for a LIC, the reported NTA per share relative to current share price is the single most important metric to extract.",
+        "The stock is 1.98% off its 3-month high, suggesting the market has already absorbed or anticipated the annual results positively; any NTA discount or premium to the prevailing share price, combined with the fully franked dividend track record, will drive institutional interest in the stock as a yield and value vehicle.",
+        "Key areas to interrogate in the report: changes to the equity portfolio composition and concentration risk, realised vs unrealised gains, expense ratio trends, and whether the board has flagged any shift in dividend policy — these are the levers that differentiate AUI's investment proposition in a competitive LIC landscape."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 11.9,
+        "volume_trend_ratio": 1.09,
+        "volume_last_ratio": 1.12,
+        "avg_turnover_aud": 668886,
+        "liquid": true,
+        "pct_from_3m_high": -1.98,
+        "pct_from_3m_low": 9.17,
+        "pct_from_52w_high": -1.98,
+        "pct_from_52w_low": 15.87,
+        "range_position_3m": 0.806,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "1.98% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 1.98% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FLC",
+      "company": "FLUENCE CORPORATION LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-09-11T01:19:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134476-3A701558",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder notice for FLC indicates a new or increased position has crossed the 5% disclosure threshold — in itself procedurally neutral, but worth monitoring as a signal of accumulation intent in a micro-cap name.",
+        "The stock is trading 51.19% below its 12-month high, pointing to prolonged and significant price deterioration; with daily median turnover of roughly A$15,819, this is an extremely illiquid stock where even modest institutional interest can move the price disproportionately — volume ratios should be treated as close to meaningless in this context.",
+        "Investors should focus on the identity and track record of the new substantial holder: a strategic or industry participant crossing 5% at depressed levels could presage a takeover approach or capital injection, whereas a passive accumulation at lows may simply reflect opportunistic bottom-fishing with no near-term catalyst."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.072,
+        "volume_trend_ratio": 1.38,
+        "volume_last_ratio": 0.85,
+        "avg_turnover_aud": 15819,
+        "liquid": false,
+        "pct_from_3m_high": -24.21,
+        "pct_from_3m_low": 26.32,
+        "pct_from_52w_high": -51.19,
+        "pct_from_52w_low": 33.33,
+        "range_position_3m": 0.395,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "51.19% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$15,819/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the middle part of its 3-month range, 24.21% below the high of that period.",
+          "Treat all of that with care: it trades about A$15,819 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BEN",
+      "company": "BENDIGO AND ADELAIDE BANK LIMITED",
+      "headline": "BEN Cleansing Notice",
+      "time": "2026-09-11T01:11:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134475-3A701556",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cleansing notice for Bendigo and Adelaide Bank (BEN) is filed after a capital raise (typically a placement or institutional bookbuild) to allow secondary trading of newly issued shares — its lodgement confirms a capital transaction has been completed or is in its final stages.",
+        "The tape context is notably weak: BEN is at a 3-month low with volume over the last five sessions running at just 0.56x its average, suggesting subdued demand and possible selling pressure that preceded or accompanied the capital raise — this combination of new supply and soft buying interest is a near-term headwind.",
+        "Investors should assess the raise price relative to current market levels to determine the degree of dilution and whether it was priced at a discount; a cleansing notice into a 3-month low often signals the raise was priced aggressively to clear stock, which can weigh on the share price until the overhang is absorbed."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 10.12,
+        "volume_trend_ratio": 0.56,
+        "volume_last_ratio": 0.7,
+        "avg_turnover_aud": 20119695,
+        "liquid": true,
+        "pct_from_3m_high": -12.91,
+        "pct_from_3m_low": 0.6,
+        "pct_from_52w_high": -24.02,
+        "pct_from_52w_low": 3.16,
+        "range_position_3m": 0.038,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.56x its average",
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, BEN traded only 0.56x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CBL",
+      "company": "CONTROL BIONICS LIMITED",
+      "headline": "Shareholder letter - 2026 AGM",
+      "time": "2026-09-11T01:10:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134474-2A1696674",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "A shareholder letter for the CBL AGM is a standard pre-meeting communication — for a micro-cap medtech like Control Bionics, these letters occasionally carry strategic updates or commentary on commercial pipeline that can be incrementally meaningful to a small but engaged shareholder base.",
+        "With median daily turnover of approximately A$20,360 and five-session volume running at just 0.24x average, this is an extremely illiquid stock where volume ratios are essentially meaningless as a signal — any price move around this filing would be driven by idiosyncratic order flow rather than genuine institutional intent.",
+        "The key things to extract from the AGM letter are any updates on revenue momentum, regulatory milestones, or cash runway — for a small healthcare technology company, these disclosures often contain forward-looking language that, even if informal, can reset market expectations materially relative to the thin consensus coverage."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.06,
+        "volume_trend_ratio": 0.24,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 20360,
+        "liquid": false,
+        "pct_from_3m_high": -35.48,
+        "pct_from_3m_low": 7.14,
+        "pct_from_52w_high": -36.84,
+        "pct_from_52w_low": 87.5,
+        "range_position_3m": 0.108,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.24x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$20,360/day",
+        "reading": [
+          "Going into this, CBL traded only 0.24x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 35.48% below the high of that period.",
+          "Treat all of that with care: it trades about A$20,360 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BPG",
+      "company": "BLACK PEARL GROUP LIMITED",
+      "headline": "Application for quotation of securities - BPG",
+      "time": "2026-09-11T01:10:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134473-2A1696673",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "BPG is applying to quote new securities, signalling a recent capital raise or options/rights conversion has been completed — dilution risk is the primary consideration for existing holders.",
+        "Volume over the last 5 sessions ran at 3.29x the 20-day average, which is notable on the surface; however, with median daily turnover of only ~A$3,435, absolute liquidity is negligible and the elevated ratio almost certainly reflects a handful of trades rather than any meaningful institutional interest — treat the volume signal as close to meaningless.",
+        "The stock sits 81.14% below its 12-month high, meaning the capital structure event occurs deep in a prolonged drawdown; new securities being quoted into this tape adds supply overhang and leaves little near-term re-rating catalyst visible."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 201,
+        "last_close": 0.215,
+        "volume_trend_ratio": 3.29,
+        "volume_last_ratio": 7.13,
+        "avg_turnover_aud": 3435,
+        "liquid": false,
+        "pct_from_3m_high": -58.25,
+        "pct_from_3m_low": 13.16,
+        "pct_from_52w_high": -81.14,
+        "pct_from_52w_low": 13.16,
+        "range_position_3m": 0.077,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 3.29x its 20-day average",
+          "81.14% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$3,435/day",
+        "reading": [
+          "Going into this, BPG traded 3.29x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 58.25% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,435 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HGC",
+      "company": "VANGUARD S&P 500 US SHARES INDEX ETF",
+      "headline": "Monthly Portfolio & Performance Update - August 2026",
+      "time": "2026-09-11T01:10:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134472-2A1696672",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Vanguard's monthly portfolio and performance update for HGC (S&P 500 unhedged ETF) is a routine disclosure required under ASX ETF continuous reporting obligations — no active management decision is embedded in this filing.",
+        "August 2026 performance will mechanically reflect the month's S&P 500 total return translated at prevailing AUD/USD rates; the key driver for Australian investors is the interplay between US equity direction and currency movement, both of which this filing will quantify.",
+        "No price action data was provided; as a passive index product, the filing itself carries no independent valuation signal — investors should cross-reference the reported NAV per unit against the live market price to identify any premium/discount worth acting on."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BLG",
+      "company": "BLUGLASS LIMITED",
+      "headline": "iAccess Alpha Virtual Best Ideas Fall Investment Conference",
+      "time": "2026-09-11T01:07:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134471-2A1696671",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "BLG's presentation at the iAccess Alpha Virtual Best Ideas Fall Investment Conference is a non-deal investor relations exercise; while it signals management is actively marketing to a US audience, no new financial data or operational update is implied by the filing alone.",
+        "Volume in the 5 sessions leading into this announcement ran at only 0.57x the 20-day average — below-trend activity heading into an IR event suggests the market is not anticipating a material catalyst, and any re-rating would depend entirely on what is disclosed in the presentation itself.",
+        "With the stock 53.64% below its 12-month high, BLG enters this conference from a position of significant price weakness; a credible technology or commercialisation update could provide a sentiment lift, but the depressed price also reflects elevated execution risk that a conference appearance alone is unlikely to resolve."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.255,
+        "volume_trend_ratio": 0.57,
+        "volume_last_ratio": 0.69,
+        "avg_turnover_aud": 70421,
+        "liquid": true,
+        "pct_from_3m_high": -39.29,
+        "pct_from_3m_low": 2.0,
+        "pct_from_52w_high": -53.64,
+        "pct_from_52w_low": 45.71,
+        "range_position_3m": 0.029,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.57x its average",
+          "53.64% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, BLG traded only 0.57x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 39.29% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BPG",
+      "company": "BLACK PEARL GROUP LIMITED",
+      "headline": "Ongoing Disclosure Notice and Capital Change Notice",
+      "time": "2026-09-11T01:07:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134470-2A1696670",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Ongoing Disclosure Notice and Capital Change Notice confirms a structural change to BPG's capital — most likely reflecting the same securities issuance referenced in announcement [1], and together the two filings confirm the administrative completion of a capital event.",
+        "As with [1], the 3.29x volume spike must be contextualised against median daily turnover of ~A$3,435; at this liquidity level, volume ratios are statistically unreliable as intent signals and should be disregarded for trading conclusions.",
+        "Filing both an Application for Quotation and a Capital Change Notice simultaneously is standard post-raise housekeeping; however, for a stock already 81.14% below its 12-month high, the cumulative dilution implied by repeated small capital events is a structural concern for long-term holders."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 201,
+        "last_close": 0.215,
+        "volume_trend_ratio": 3.29,
+        "volume_last_ratio": 7.13,
+        "avg_turnover_aud": 3435,
+        "liquid": false,
+        "pct_from_3m_high": -58.25,
+        "pct_from_3m_low": 13.16,
+        "pct_from_52w_high": -81.14,
+        "pct_from_52w_low": 13.16,
+        "range_position_3m": 0.077,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 3.29x its 20-day average",
+          "81.14% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$3,435/day",
+        "reading": [
+          "Going into this, BPG traded 3.29x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 58.25% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,435 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CBL",
+      "company": "CONTROL BIONICS LIMITED",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-09-11T01:05:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134469-2A1696669",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "CBL's AGM notice is a standard governance filing; the key investor focus should be on the resolutions tabled — particularly any equity incentive plan approvals, board re-elections, or remuneration report votes that could signal strategic direction or management alignment.",
+        "Volume in the prior 5 sessions ran at just 0.24x the 20-day average against a median daily turnover of ~A$20,360, indicating extremely low market engagement ahead of the AGM — thin pre-AGM activity typically means the market sees little controversy in the agenda.",
+        "For a micro-cap healthcare device company, AGM season is also a window for management to provide a business update; investors should monitor the accompanying address for any operational or funding commentary that goes beyond the formal resolutions."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.06,
+        "volume_trend_ratio": 0.24,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 20360,
+        "liquid": false,
+        "pct_from_3m_high": -35.48,
+        "pct_from_3m_low": 7.14,
+        "pct_from_52w_high": -36.84,
+        "pct_from_52w_low": 87.5,
+        "range_position_3m": 0.108,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.24x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$20,360/day",
+        "reading": [
+          "Going into this, CBL traded only 0.24x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 35.48% below the high of that period.",
+          "Treat all of that with care: it trades about A$20,360 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BEN",
+      "company": "BENDIGO AND ADELAIDE BANK LIMITED",
+      "headline": "Application for quotation of securities - BEN",
+      "time": "2026-09-11T01:05:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134468-3A701555",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "BEN's application to quote new securities most likely reflects conversion of existing instruments (e.g. dividend reinvestment plan shares, employee securities, or convertible notes) — a routine event for a major regional bank but incrementally dilutive at the margin.",
+        "Volume ran at 0.56x the 20-day average into this filing, and the stock is at a 3-month low; the combination of below-average participation and price weakness suggests the market is already under some selling pressure, and incremental share supply from a quotation event is unlikely to help sentiment in the near term.",
+        "For institutional holders, the more material data point is why BEN is at a 3-month low — macroeconomic factors (rate trajectory, credit quality, NIM compression) are likely driving price action more than this administrative filing, which should be monitored for size of issuance as a secondary consideration."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 10.12,
+        "volume_trend_ratio": 0.56,
+        "volume_last_ratio": 0.7,
+        "avg_turnover_aud": 20119695,
+        "liquid": true,
+        "pct_from_3m_high": -12.91,
+        "pct_from_3m_low": 0.6,
+        "pct_from_52w_high": -24.02,
+        "pct_from_52w_low": 3.16,
+        "range_position_3m": 0.038,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.56x its average",
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, BEN traded only 0.56x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PAR",
+      "company": "PARADIGM BIOPHARMACEUTICALS LIMITED..",
+      "headline": "Application for quotation of securities - PAR",
+      "time": "2026-09-11T01:05:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134467-3A701554",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PAR's application to quote new securities is consistent with conversion of previously issued options, rights, or a recent placement tranche reaching quotation — standard procedural filing for a clinical-stage biopharmaceutical company that regularly accesses equity markets.",
+        "With PAR only 1.72% off its 3-month high, this quotation notice arrives into a relatively strong tape; the proximity to recent highs suggests the market has already absorbed or anticipated the capital event, reducing the probability of a sharp negative reaction to incremental dilution.",
+        "The key forward consideration is whether the newly quoted securities represent significant free-float addition relative to current market depth; for a biotech, any near-term price catalyst (clinical data, regulatory update) will dominate over the technical dilution from this filing."
+      ],
+      "tags": [
+        "Healthcare",
+        "Capital Raise"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.285,
+        "volume_trend_ratio": 1.2,
+        "volume_last_ratio": 1.18,
+        "avg_turnover_aud": 717551,
+        "liquid": true,
+        "pct_from_3m_high": -1.72,
+        "pct_from_3m_low": 83.87,
+        "pct_from_52w_high": -39.36,
+        "pct_from_52w_low": 111.11,
+        "range_position_3m": 0.963,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "1.72% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 1.72% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRV",
+      "company": "SERVCORP LIMITED",
+      "headline": "Application for quotation of securities - SRV",
+      "time": "2026-09-11T01:04:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134466-2A1696668",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Servcorp's application to quote new securities is a routine administrative filing, most likely related to employee share plan issuance or a minor capital structure event consistent with SRV's history of staff equity programs.",
+        "No price action data was provided for this announcement, so no tape-based inference can be drawn; the filing should be assessed purely on the volume and nature of securities being quoted once the full notice is reviewed.",
+        "Servcorp operates a global flexible workspace business; absent any strategic context (e.g. an acquisition-linked issuance), this filing carries negligible standalone valuation impact and the market is unlikely to re-price the stock on this disclosure alone."
+      ],
+      "tags": [
+        "Property",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 6.13,
+        "volume_trend_ratio": 1.03,
+        "volume_last_ratio": 1.89,
+        "avg_turnover_aud": 355571,
+        "liquid": true,
+        "pct_from_3m_high": -11.8,
+        "pct_from_3m_low": 3.9,
+        "pct_from_52w_high": -24.88,
+        "pct_from_52w_low": 3.9,
+        "range_position_3m": 0.219,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 11.8% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GCQ",
+      "company": "VANGUARD S&P 500 US SHARES INDEX (HEDGED) ETF",
+      "headline": "Monthly Portfolio & Performance Update - August 2026",
+      "time": "2026-09-11T01:04:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134465-2A1696667",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "GCQ's August 2026 monthly update is a mandatory disclosure for Vanguard's hedged S&P 500 ETF — the hedged structure means performance is driven almost entirely by US equity returns with AUD/USD currency risk neutralised, offering a cleaner read on pure S&P 500 exposure.",
+        "Comparing GCQ's August return against HGC (announcement [2]) will reveal the implicit currency P&L embedded in the unhedged version; this spread is a useful signal on whether AUD strengthened or weakened versus USD during the month.",
+        "No price action data was provided; as a passive product, this filing carries no active management signal — investors should verify the reported NAV against the market price to identify any ETF premium or discount that could represent a tactical entry or exit point."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BWF",
+      "company": "BLACKWALL LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-11T00:58:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134464-2A1696666",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for BWF is a disclosure-driven filing; the key detail is whether the director is buying or selling — buying would be a mild positive alignment signal, while selling into an already distressed stock would compound negative sentiment.",
+        "Volume over the last 5 sessions was just 0.13x the 20-day average against median daily turnover of ~A$1,192; at this liquidity level the volume ratio is essentially meaningless — even a single small trade can move the ratio materially, and no directional inference should be drawn from it.",
+        "With BWF sitting 69.01% below its 12-month high, director transactions carry heightened scrutiny; any on-market purchase at current depressed levels would be a rare positive signal, while a disposal — even for personal liquidity reasons — risks further damaging already fragile market confidence in this micro-cap."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.11,
+        "volume_trend_ratio": 0.13,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 1192,
+        "liquid": false,
+        "pct_from_3m_high": -31.25,
+        "pct_from_3m_low": 10.0,
+        "pct_from_52w_high": -69.01,
+        "pct_from_52w_low": 10.0,
+        "range_position_3m": 0.167,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.13x its average",
+          "69.01% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,192/day",
+        "reading": [
+          "Going into this, BWF traded only 0.13x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 31.25% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,192 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EPY",
+      "company": "EARLYPAY LTD",
+      "headline": "Change of Director's Interest Notice - MS",
+      "time": "2026-09-11T00:58:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134463-2A1696665",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director's interest notice for Earlypay Ltd (EPY) is a routine administrative disclosure, with no operational or financial implications for the company's invoice financing and trade finance business.",
+        "The filing carries no market-sensitive designation, suggesting the transaction — whether an on-market purchase, sale, or securities issuance — is immaterial in scale relative to the director's existing holding or the company's capital structure.",
+        "Investors should monitor aggregate director dealing patterns over time as a sentiment signal for EPY's turnaround progress, but this single notice warrants no immediate portfolio action."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.14,
+        "volume_trend_ratio": 1.02,
+        "volume_last_ratio": 3.63,
+        "avg_turnover_aud": 9240,
+        "liquid": false,
+        "pct_from_3m_high": -9.68,
+        "pct_from_3m_low": 21.74,
+        "pct_from_52w_high": -36.36,
+        "pct_from_52w_low": 33.33,
+        "range_position_3m": 0.625,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$9,240/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the middle part of its 3-month range, 9.68% below the high of that period.",
+          "Treat all of that with care: it trades about A$9,240 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HM1",
+      "company": "HEARTS AND MINDS INVESTMENTS LIMITED",
+      "headline": "August Investment Update",
+      "time": "2026-09-11T00:56:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134462-2A1696664",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Hearts and Minds Investments (HM1) enters its August portfolio update at a 3-month low, meaning the market has already been de-rating the stock ahead of this release — any neutral-to-modest NTA movement is unlikely to act as a catalyst for recovery, while a meaningful NTA decline would likely accelerate selling pressure on an already weak tape.",
+        "As a listed investment company, HM1's NTA per share is the critical data point: August was a mixed month for global equities, so any compression in NTA relative to the prior month's update will reinforce the bearish price trend and widen the discount to NTA, a double headwind for LIC investors.",
+        "The 3-month low context shifts the read on this filing — even in-line or modestly positive NTA data may struggle to reverse momentum without a clear re-rating catalyst such as a discount buyback announcement or a standout concentrated position performing strongly; investors should watch the NTA discount level closely as the primary valuation signal."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 2.84,
+        "volume_trend_ratio": 0.96,
+        "volume_last_ratio": 0.61,
+        "avg_turnover_aud": 741173,
+        "liquid": true,
+        "pct_from_3m_high": -10.13,
+        "pct_from_3m_low": 0.71,
+        "pct_from_52w_high": -18.86,
+        "pct_from_52w_low": 7.17,
+        "range_position_3m": 0.059,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "bearish"
+    },
     {
       "ticker": "IKE",
       "company": "IKEGPS GROUP LIMITED",
