@@ -1,9 +1,633 @@
 {
   "date": "2026-09-11",
-  "total": 168,
-  "market_sensitive_count": 38,
-  "generated_at": "2026-09-10T23:59:51.225239+00:00",
+  "total": 185,
+  "market_sensitive_count": 40,
+  "generated_at": "2026-09-11T00:55:14.926660+00:00",
   "announcements": [
+    {
+      "ticker": "IKE",
+      "company": "IKEGPS GROUP LIMITED",
+      "headline": "ikeGPS 2026 Annual Shareholder Meeting - Results of Meeting",
+      "time": "2026-09-11T00:47:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134461-3A701553",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "AGM results filings for small-cap companies are ordinarily procedural, but any defeat or near-defeat of remuneration reports, director elections, or share issuance authorities would be the exception worth monitoring — the filing should be reviewed for any dissenting vote tallies above the 25% 'first strike' threshold.",
+        "Pre-announcement volume was running at ~1.77x the 20-day average, but with median daily turnover of only ~A$40,162, IKE is extremely thinly traded; that volume ratio carries virtually no informational weight and should not be interpreted as institutional positioning ahead of the meeting result.",
+        "Absent any contested resolutions or significant protest votes, this filing is administrative in nature and is unlikely to serve as a near-term share-price catalyst in either direction."
+      ],
+      "tags": [
+        "AGM",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.915,
+        "volume_trend_ratio": 1.77,
+        "volume_last_ratio": 0.5,
+        "avg_turnover_aud": 40162,
+        "liquid": false,
+        "pct_from_3m_high": -14.08,
+        "pct_from_3m_low": 2.81,
+        "pct_from_52w_high": -20.43,
+        "pct_from_52w_low": 29.79,
+        "range_position_3m": 0.143,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.77x its 20-day average"
+        ],
+        "caveat": "thinly traded, median turnover about A$40,162/day",
+        "reading": [
+          "Going into this, IKE traded 1.77x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 14.08% below the high of that period.",
+          "Treat all of that with care: it trades about A$40,162 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TNE",
+      "company": "TECHNOLOGY ONE LIMITED",
+      "headline": "Notification of cessation of securities - TNE",
+      "time": "2026-09-11T00:43:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134460-2A1696663",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'cessation of securities' notice for TNE typically relates to the lapsing, cancellation, or vesting and conversion of performance rights, options, or other equity instruments — it does not represent a new issuance and is therefore not dilutive in the conventional sense.",
+        "For a high-quality, large-cap software company like Technology One, these routine equity plan housekeeping notices are standard corporate governance disclosures with no material impact on the share count, earnings per share, or strategic direction.",
+        "The ASX has flagged this as not market sensitive, and that classification is appropriate — institutional investors can treat this as a compliance filing requiring no portfolio action."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 28.56,
+        "volume_trend_ratio": 1.22,
+        "volume_last_ratio": 1.54,
+        "avg_turnover_aud": 22106155,
+        "liquid": true,
+        "pct_from_3m_high": -15.67,
+        "pct_from_3m_low": 5.7,
+        "pct_from_52w_high": -28.58,
+        "pct_from_52w_low": 41.81,
+        "range_position_3m": 0.225,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the lower part of its 3-month range, 15.67% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NCC",
+      "company": "NAOS EMERGING OPPORTUNITIES COMPANY LIMITED",
+      "headline": "Interest Payment - NCCGA",
+      "time": "2026-09-11T00:39:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134459-2A1696662",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This announcement confirms NCC (NAOS Emerging Opportunities) is making a scheduled interest payment on its NCCGA listed notes — this is a routine liability management disclosure confirming the company is meeting its fixed-income obligations on time.",
+        "For holders of the NCCGA notes specifically, timely interest payment is a positive confirmation of credit quality; for equity holders in NCC, it is a reminder that debt servicing costs represent a prior claim on income before distributions to shareholders.",
+        "This filing carries no strategic or valuation surprise and is correctly classified as not market sensitive; it warrants no change to investment positioning in either the equity or the note."
+      ],
+      "tags": [
+        "Finance",
+        "Dividend"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.465,
+        "volume_trend_ratio": 0.64,
+        "volume_last_ratio": 0.52,
+        "avg_turnover_aud": 27592,
+        "liquid": false,
+        "pct_from_3m_high": -7.0,
+        "pct_from_3m_low": 25.68,
+        "pct_from_52w_high": -7.0,
+        "pct_from_52w_low": 25.68,
+        "range_position_3m": 0.731,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$27,592/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 7.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$27,592 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NAC",
+      "company": "NAOS EX-50 OPPORTUNITIES COMPANY LIMITED",
+      "headline": "Interest Payment - NACGA",
+      "time": "2026-09-11T00:35:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134458-2A1696661",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "NAC (NAOS Ex-50 Opportunities) is confirming a scheduled interest payment on its NACGA listed notes — a routine compliance disclosure confirming the LIC is current on its debt obligations, consistent with normal operations.",
+        "As with the NCCGA payment by its sister entity NCC, this filing is structurally identical in nature: it confirms solvency at the note level but provides no new information about the underlying portfolio performance or NAV trajectory.",
+        "No portfolio action is warranted; the filing is administrative and the ASX's 'not market sensitive' classification is well-founded — institutional investors in NAC equity or the NACGA notes can treat this as noise."
+      ],
+      "tags": [
+        "Finance",
+        "Dividend"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.585,
+        "volume_trend_ratio": 0.93,
+        "volume_last_ratio": 0.2,
+        "avg_turnover_aud": 11798,
+        "liquid": false,
+        "pct_from_3m_high": -6.4,
+        "pct_from_3m_low": 18.18,
+        "pct_from_52w_high": -16.43,
+        "pct_from_52w_low": 18.18,
+        "range_position_3m": 0.692,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$11,798/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 6.4% below the high of that period.",
+          "Treat all of that with care: it trades about A$11,798 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EQI",
+      "company": "INVESTORS MUTUAL EQUITY INCOME FUND - COMPLEX ETF",
+      "headline": "2026 Annual Financial Report",
+      "time": "2026-09-11T00:33:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134457-2A1696660",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "The release of EQI's 2026 Annual Financial Report provides the most comprehensive disclosure of the year for this complex ETF — key metrics to review include net tangible assets per unit, total expense ratio, distribution yield delivered, and any changes to the income-focused strategy mandate.",
+        "For an equity income-focused complex ETF, the annual report is the primary vehicle through which the manager demonstrates its ability to generate sustainable franked income streams — any deterioration in portfolio yield or franking credits attached would be the critical red flag for the income-oriented investor base.",
+        "The filing is correctly marked as not market sensitive, and annual reports for ETFs rarely move unit prices; however, institutional due diligence teams conducting periodic product reviews will treat this as the trigger document for re-evaluation of the product against peers."
+      ],
+      "tags": [
+        "Finance",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IML",
+      "company": "IML CONCENTRATED AUS SHARE FUND - ACTIVE ETF",
+      "headline": "2026 Annual Financial Report",
+      "time": "2026-09-11T00:30:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134456-2A1696659",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "IML's 2026 Annual Financial Report provides full-year transparency on the Concentrated Australian Share Fund's active management performance — the primary investor focus will be on net return versus the S&P/ASX 200 benchmark, portfolio concentration risk, and management expense ratio relative to passive alternatives.",
+        "As an active ETF with a concentrated mandate, IML's annual report will reveal the degree of active share and whether the high-conviction positioning delivered alpha or detracted from returns — any persistent underperformance versus benchmark over 1 and 3 years is a fund flow risk.",
+        "This is a routine regulatory disclosure with no market-sensitive content; it does not move the unit price directly but serves as the definitive accountability document for the manager and is the basis on which advisers and platforms conduct annual product due diligence."
+      ],
+      "tags": [
+        "Finance",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SDF",
+      "company": "STEADFAST GROUP LIMITED",
+      "headline": "Disclosure Takeovers Panel GN 20 - Equity Derivatives",
+      "time": "2026-09-11T00:27:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134455-2A1696655",
+      "market_sensitive": false,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "A Takeovers Panel GN20 (Equity Derivatives) disclosure for Steadfast Group signals that a party holding a relevant interest or economic exposure in SDF via equity derivatives — such as total return swaps or CFDs — has been required to disclose that position under the Panel's guidance note, which is typically triggered in the context of a live or anticipated takeover situation.",
+        "This is a potentially significant structural signal: GN20 disclosures emerge because derivative positions can be used to build undisclosed economic exposure ahead of a formal bid, and their surfacing often indicates a sophisticated acquirer is in or near the process — it warrants close attention even though the ASX has flagged it as not market sensitive.",
+        "SDF is already only 2.39% off its 3-month high, suggesting the market has been pricing in corporate activity; a formal GN20 disclosure may confirm the market's inference that a strategic party is accumulating exposure, but with the stock near recent highs, much of the bid premium may already be reflected in the price, limiting further near-term upside from this disclosure alone."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance",
+        "Substantial Holding"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 5.71,
+        "volume_trend_ratio": 0.67,
+        "volume_last_ratio": 0.69,
+        "avg_turnover_aud": 53467678,
+        "liquid": true,
+        "pct_from_3m_high": -2.39,
+        "pct_from_3m_low": 15.35,
+        "pct_from_52w_high": -14.33,
+        "pct_from_52w_low": 47.55,
+        "range_position_3m": 0.844,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "2.39% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 2.39% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VNG",
+      "company": "VAUGHAN NELSON GLB EQUITY SMID FUND - ACTIVE ETF",
+      "headline": "2026 Annual Report",
+      "time": "2026-09-11T00:26:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134454-2A1696657",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "VNG's 2026 Annual Report is the full-year accountability document for this active global equity small/mid-cap (SMID) ETF — the critical metrics are net return in AUD versus the relevant SMID benchmark, active share versus passive global SMID alternatives, and the total cost of ownership including management fees and foreign exchange hedging costs if applicable.",
+        "For a globally-focused active ETF, currency translation effects and geographic/sector tilts will be the primary drivers of performance divergence from benchmark in FY2026 — the annual report will reveal whether the Vaughan Nelson team's active positioning added value net of fees in what has been a volatile macro environment.",
+        "This filing is correctly classified as not market sensitive and will not move VNG's unit price; it functions as the annual product review trigger for platforms, advisers, and institutional investors assessing whether to maintain, increase, or reduce allocations to this strategy."
+      ],
+      "tags": [
+        "Finance",
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LSG",
+      "company": "LOOMIS SAYLES GLOBAL EQUITY FUND - ACTIVE ETF",
+      "headline": "2026 Annual Report",
+      "time": "2026-09-11T00:26:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134453-2A1696656",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "The 2026 Annual Report for LSG provides institutional investors with a formal performance and portfolio disclosure for the Loomis Sayles active global equity ETF — the key read-through is how the fund's active positioning has fared relative to global benchmarks in what has been a volatile macro environment.",
+        "Investors should scrutinise management expense ratios, active share, and any style drift within the portfolio, as these metrics directly determine whether the active fee premium is justified against passive global equity alternatives on the ASX.",
+        "As an administrative annual disclosure with no market-sensitive flag, the near-term price impact on the ETF unit price is negligible — the document is most useful for annual due diligence and rebalancing decisions by advisers and institutional allocators rather than as a trading catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KI1",
+      "company": "KINGFISHER TRUST 2019-1",
+      "headline": "Resignation and appointment of directors",
+      "time": "2026-09-11T00:25:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134452-2A1696658",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director resignation and appointment at Kingfisher Trust 2019-1 (KI1) is a routine governance event for this mortgage-backed or asset-backed trust structure, with no direct impact on the trust's underlying asset quality, cash flows, or distribution obligations to unitholders.",
+        "The critical 'so what?' for fixed-income investors is ensuring continuity of trustee oversight and compliance functions — any gap in experienced directorship could, in theory, affect operational governance, though the simultaneous appointment mitigates this risk.",
+        "Marked as not market sensitive and carrying no financial disclosure, this is a purely administrative filing; institutional holders of KI1 securities should update their counterparty governance records but need not reassess credit or liquidity positioning on the basis of this announcement alone."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VR8",
+      "company": "VANADIUM RESOURCES LIMITED",
+      "headline": "Proposed issue of securities - VR8",
+      "time": "2026-09-11T00:21:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134451-6A1343363",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "VR8's proposed securities issuance signals the company is returning to the capital markets, which is a meaningful event for a junior vanadium developer — the key questions are the size of the raise, the issue price relative to market, and whether the funds are earmarked for project advancement at the Steelpoortdrift vanadium deposit in South Africa.",
+        "Dilution risk is the primary concern for existing shareholders: junior resource companies in the vanadium space frequently raise capital at discounts to fund feasibility or development work, and without disclosed pricing and volume terms, the extent of earnings-per-share and net asset value dilution cannot yet be quantified.",
+        "The next critical catalyst is the formal Appendix 3B or prospectus lodgement confirming the terms — investors should monitor whether a placement is to strategic or cornerstone participants (a constructive signal) versus a broad retail entitlement offer at a steep discount, which would weigh on sentiment."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.038,
+        "volume_trend_ratio": 1.08,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 5645,
+        "liquid": false,
+        "pct_from_3m_high": -11.63,
+        "pct_from_3m_low": 216.67,
+        "pct_from_52w_high": -20.83,
+        "pct_from_52w_low": 216.67,
+        "range_position_3m": 0.839,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$5,645/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 11.63% below the high of that period.",
+          "Treat all of that with care: it trades about A$5,645 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IBR",
+      "company": "IRON BEAR RESOURCES LTD",
+      "headline": "Trading Halt",
+      "time": "2026-09-11T00:07:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134450-6A1343362",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "IBR has entered a trading halt, almost certainly pending a material announcement — the most common catalysts for micro-cap explorers are capital raises, a significant drill result, or a corporate transaction; the halt itself reveals nothing about which direction that news will break.",
+        "Pre-halt volume ran at roughly 1.85x the 20-day average, but with median daily turnover of only ~A$44,885 this stock is extremely thinly traded, meaning that volume ratio is statistically close to meaningless — a handful of retail trades can produce that kind of spike and should not be read as informed accumulation.",
+        "Investors should await the lifting announcement before acting; the illiquid nature of IBR means bid-ask spreads can widen sharply on resumption, amplifying both upside and downside moves regardless of the news quality."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.045,
+        "volume_trend_ratio": 1.85,
+        "volume_last_ratio": 1.21,
+        "avg_turnover_aud": 44885,
+        "liquid": false,
+        "pct_from_3m_high": -45.12,
+        "pct_from_3m_low": 2.27,
+        "pct_from_52w_high": -45.12,
+        "pct_from_52w_low": 12.5,
+        "range_position_3m": 0.026,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.85x its 20-day average"
+        ],
+        "caveat": "thinly traded, median turnover about A$44,885/day",
+        "reading": [
+          "Going into this, IBR traded 1.85x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 45.12% below the high of that period.",
+          "Treat all of that with care: it trades about A$44,885 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PGA",
+      "company": "PLATO GLOBAL ALPHA FUND COMPLEX ETF",
+      "headline": "August 2026 Investment Update",
+      "time": "2026-09-11T00:02:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134449-2A1696654",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Plato's August 2026 investment update for PGA provides a monthly performance and portfolio snapshot for this complex ETF, which employs an active, income-oriented global alpha strategy — the key metrics to assess are the fund's alpha generation, dividend yield achieved, and sector/factor exposures relative to global benchmarks.",
+        "As a 'complex ETF,' PGA uses derivatives or structured exposures to target income enhancement, meaning monthly updates carry more analytical weight than for plain vanilla funds — investors should focus on any changes to hedging costs, option premium decay, or distribution sustainability commentary.",
+        "With no market-sensitive flag, this is a routine disclosure; however, in the context of a global equity environment where yield compression or risk-off rotation can rapidly erode income-oriented strategies, the August update's commentary on forward distribution guidance is the most actionable element for institutional allocators."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VR8",
+      "company": "VANADIUM RESOURCES LIMITED",
+      "headline": "Oversubscribed Placement to Advance V-Iron Plant Pathway",
+      "time": "2026-09-11T00:01:12+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134448-6A1343345",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "An oversubscribed placement is a meaningful positive signal for VR8 — it demonstrates that institutional or sophisticated investors are willing to commit fresh capital at the offer price, reducing near-term solvency risk and validating the V-Iron plant development pathway as a credible use of funds.",
+        "The 'oversubscribed' descriptor implies demand exceeded the placement size, which typically supports the post-placement share price by limiting the discount overhang and suggesting the clearing price was competitive; however, dilution to existing holders remains a structural negative that must be weighed against the runway gained.",
+        "The stated purpose — advancing the V-Iron plant pathway — signals VR8 is moving from exploration/scoping toward development capital deployment, a stage transition that re-rates the risk profile upward but also increases execution risk and future capital requirements."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.038,
+        "volume_trend_ratio": 1.08,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 5645,
+        "liquid": false,
+        "pct_from_3m_high": -11.63,
+        "pct_from_3m_low": 216.67,
+        "pct_from_52w_high": -20.83,
+        "pct_from_52w_low": 216.67,
+        "range_position_3m": 0.839,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$5,645/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 11.63% below the high of that period.",
+          "Treat all of that with care: it trades about A$5,645 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WMX",
+      "company": "WAM INCOME MAXIMISER LIMITED",
+      "headline": "August 2026 Investment Update",
+      "time": "2026-09-11T00:00:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134447-2A1696653",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WAM Income Maximiser's August 2026 update arrives with the stock sitting at a 3-month low and trading volume running at just 0.55x its recent average — the subdued tape heading into this announcement suggests investor disengagement or mild distribution disappointment is already being priced in rather than a catalyst-driven sell-off.",
+        "The income-focused LIC/ETF context means the market will scrutinise the update for any change to the dividend or distribution rate, portfolio yield, and net tangible asset backing — any compression in these metrics would reinforce the bearish price trend already evident in the 3-month low.",
+        "The below-average volume is a cautionary signal: thin selling pressure at a multi-month low can reflect a lack of buyers rather than a lack of sellers, and a disappointing income update in this environment could accelerate the discount to NTA widening — institutional holders should assess the distribution coverage ratio closely before adding exposure."
+      ],
+      "tags": [
+        "Results",
+        "Dividend",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-09",
+        "bars": 252,
+        "last_close": 1.63,
+        "volume_trend_ratio": 0.55,
+        "volume_last_ratio": 0.49,
+        "avg_turnover_aud": 639263,
+        "liquid": true,
+        "pct_from_3m_high": -8.17,
+        "pct_from_3m_low": 0.93,
+        "pct_from_52w_high": -8.17,
+        "pct_from_52w_low": 10.7,
+        "range_position_3m": 0.094,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.55x its average",
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, WMX traded only 0.55x its usual daily volume over the last 5 sessions — measured to the 2026-09-09 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "RWL",
+      "company": "RUBICON WATER LIMITED",
+      "headline": "Change of Chief Financial Officer",
+      "time": "2026-09-10T23:59:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134446-3A701552",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Rubicon Water's CFO departure is a notable governance event for a small-cap industrial technology company operating in the water management sector — CFO turnover at this scale can signal internal restructuring, financial performance pressure, or a strategic pivot, and warrants monitoring for follow-on disclosures.",
+        "The price action context here is effectively uninformative: with median daily turnover of approximately A$16,707 and volume running at just 0.28x already minimal average levels, the volume ratio is close to meaningless as a signal of informed trading — this stock is thinly traded enough that any read on buyer or seller intent from volume data would be unreliable.",
+        "The key next step for investors is watching whether a permanent appointment is announced promptly and whether the incoming CFO brings a track record aligned with growth, cost discipline, or M&A — a prolonged vacancy or an interim-only appointment would be the more concerning outcome for governance-focused institutional holders."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.165,
+        "volume_trend_ratio": 0.28,
+        "volume_last_ratio": 0.83,
+        "avg_turnover_aud": 16707,
+        "liquid": false,
+        "pct_from_3m_high": -17.5,
+        "pct_from_3m_low": 217.31,
+        "pct_from_52w_high": -46.77,
+        "pct_from_52w_low": 217.31,
+        "range_position_3m": 0.764,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.28x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$16,707/day",
+        "reading": [
+          "Going into this, RWL traded only 0.28x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close.",
+          "The price sat in the upper part of its 3-month range, 17.5% below the high of that period.",
+          "Treat all of that with care: it trades about A$16,707 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MRD",
+      "company": "MOUNT RIDLEY MINES LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-10T23:58:37+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134445-6A1343361",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cleansing notice from Mount Ridley Mines confirms a prior capital raise has settled and that continuous disclosure obligations have been met — this is a post-placement administrative filing, meaning the dilutive event (the securities issuance) has already occurred, and the cleansing notice itself does not introduce new capital pressure.",
+        "The price action context is the most important signal here: volume over the last five sessions ran at 1.75x its 20-day average, and the stock sits more than 51% below its 12-month high — elevated turnover into a cleansing notice, at deeply depressed price levels, suggests the market is actively processing the dilution from the recent raise rather than anticipating a recovery catalyst.",
+        "For institutional investors, the stock's position more than half below its 12-month peak combined with above-average volume around a dilutive administrative filing points to continued near-term selling pressure as recently issued shares are absorbed by the market — a re-rating would require a substantive operational catalyst, not a compliance filing."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-10",
+        "bars": 254,
+        "last_close": 0.042,
+        "volume_trend_ratio": 1.75,
+        "volume_last_ratio": 1.8,
+        "avg_turnover_aud": 101051,
+        "liquid": true,
+        "pct_from_3m_high": -22.22,
+        "pct_from_3m_low": 110.0,
+        "pct_from_52w_high": -51.72,
+        "pct_from_52w_low": 2000.0,
+        "range_position_3m": 0.647,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.75x its 20-day average",
+          "51.72% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, MRD traded 1.75x its usual daily volume over the last 5 sessions — measured to the 2026-09-10 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 22.22% below the high of that period."
+        ]
+      },
+      "sentiment": "bearish"
+    },
     {
       "ticker": "NGY",
       "company": "NUENERGY GAS LIMITED",
