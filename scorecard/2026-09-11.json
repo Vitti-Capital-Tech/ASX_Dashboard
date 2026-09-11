@@ -1,6 +1,6 @@
 {
   "date": "2026-09-11",
-  "generated_at": "2026-09-11T18:47:00.885961+10:00",
+  "generated_at": "2026-09-11T20:42:36.433486+10:00",
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "stats": {
@@ -14,27 +14,27 @@
         "avg_abnormal_pct": 0.01
       },
       "bearish": {
-        "scored": 32,
+        "scored": 39,
         "correct": 13,
         "wrong": 11,
-        "flat": 8,
+        "flat": 15,
         "hit_rate": 54.2,
-        "avg_abnormal_pct": -1.22
+        "avg_abnormal_pct": -0.84
       },
       "neutral": {
-        "scored": 184,
-        "correct": 89,
+        "scored": 201,
+        "correct": 106,
         "wrong": 95,
         "flat": 0,
-        "hit_rate": 48.4,
-        "avg_abnormal_pct": -0.74
+        "hit_rate": 52.7,
+        "avg_abnormal_pct": -0.6
       }
     },
-    "spread_pct": 1.23,
+    "spread_pct": 0.85,
     "directional_hit_rate": 48.9,
     "directional_scored": 47,
     "pending": 0,
-    "no_data": 40,
+    "no_data": 16,
     "conflicts": 6
   },
   "highlights": {
@@ -164,13 +164,13 @@
       "sentiment": "bearish",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.027,
+      "close": 0.027,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "flat"
     },
     {
       "ticker": "GG8",
@@ -411,13 +411,13 @@
       "sentiment": "bearish",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.029,
+      "close": 0.029,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "flat"
     },
     {
       "ticker": "WZR",
@@ -430,13 +430,13 @@
       "sentiment": "bearish",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.029,
+      "close": 0.029,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "flat"
     },
     {
       "ticker": "ARB",
@@ -620,13 +620,13 @@
       "sentiment": "neutral",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.12,
+      "close": 0.12,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "NSM",
@@ -658,13 +658,13 @@
       "sentiment": "neutral",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.021,
+      "close": 0.021,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "EVG",
@@ -753,13 +753,13 @@
       "sentiment": "neutral",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.008,
+      "close": 0.008,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "PRN",
@@ -848,13 +848,13 @@
       "sentiment": "neutral",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.12,
+      "close": 0.12,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "AUQ",
@@ -886,13 +886,13 @@
       "sentiment": "bearish",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.12,
+      "close": 0.12,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "flat"
     },
     {
       "ticker": "AAU",
@@ -1000,13 +1000,13 @@
       "sentiment": "neutral",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.12,
+      "close": 0.12,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "AAU",
@@ -1152,13 +1152,13 @@
       "sentiment": "neutral",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 6.99,
+      "close": 6.99,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "WEC",
@@ -1437,13 +1437,13 @@
       "sentiment": "neutral",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.285,
+      "close": 0.285,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "VRX",
@@ -1646,13 +1646,13 @@
       "sentiment": "bearish",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.12,
+      "close": 0.12,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "flat"
     },
     {
       "ticker": "IML",
@@ -2501,13 +2501,13 @@
       "sentiment": "neutral",
       "bucket": "intraday",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.045,
+      "close": 0.045,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "PGA",
@@ -2653,13 +2653,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.004,
+      "close": 0.004,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "360",
@@ -2748,13 +2748,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.045,
+      "close": 0.045,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "MRD",
@@ -3033,13 +3033,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.017,
+      "close": 0.017,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "IPT",
@@ -3071,13 +3071,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.0255,
+      "close": 0.0255,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "PPS",
@@ -3109,13 +3109,13 @@
       "sentiment": "bearish",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.017,
+      "close": 0.017,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "flat"
     },
     {
       "ticker": "RIV",
@@ -3565,13 +3565,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.005,
+      "close": 0.005,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "MIR",
@@ -3622,13 +3622,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.15,
+      "close": 0.15,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "WRK",
@@ -3660,13 +3660,13 @@
       "sentiment": "bearish",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.078,
+      "close": 0.078,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "flat"
     },
     {
       "ticker": "BAP",
@@ -4781,13 +4781,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.008,
+      "close": 0.008,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "TSO",
@@ -5522,13 +5522,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 2.63,
+      "close": 2.63,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "NEC",
@@ -5693,13 +5693,13 @@
       "sentiment": "neutral",
       "bucket": "pre_open",
       "conflict": false,
-      "session_date": null,
-      "prev_close": null,
-      "close": null,
-      "return_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data"
+      "session_date": "2026-09-11",
+      "prev_close": 0.1175,
+      "close": 0.1175,
+      "return_pct": 0.0,
+      "index_return_pct": -0.89,
+      "abnormal_pct": 0.89,
+      "verdict": "correct"
     },
     {
       "ticker": "UM1",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T18:47:00.903760+10:00",
+  "generated_at": "2026-09-11T20:42:36.447326+10:00",
   "days_scored": 6,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
@@ -13,23 +13,23 @@
       "avg_abnormal_pct": 1.73
     },
     "bearish": {
-      "scored": 133,
+      "scored": 140,
       "correct": 47,
       "wrong": 37,
-      "flat": 49,
+      "flat": 56,
       "hit_rate": 56.0,
-      "avg_abnormal_pct": -1.8
+      "avg_abnormal_pct": -1.67
     },
     "neutral": {
-      "scored": 1234,
-      "correct": 557,
+      "scored": 1251,
+      "correct": 574,
       "wrong": 677,
       "flat": 0,
-      "hit_rate": 45.1,
-      "avg_abnormal_pct": 0.09
+      "hit_rate": 45.9,
+      "avg_abnormal_pct": 0.1
     }
   },
-  "spread_pct": 3.53,
+  "spread_pct": 3.4,
   "directional_hit_rate": 63.0,
   "directional_scored": 381,
   "daily": [
@@ -67,7 +67,7 @@
       "date": "2026-09-11",
       "hit_rate": 48.9,
       "scored": 47,
-      "spread_pct": 1.23
+      "spread_pct": 0.85
     }
   ]
 }
