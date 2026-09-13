@@ -1,9 +1,288 @@
 {
   "date": "2026-09-14",
-  "total": 257,
-  "market_sensitive_count": 81,
-  "generated_at": "2026-09-13T23:53:08.735647+00:00",
+  "total": 263,
+  "market_sensitive_count": 82,
+  "generated_at": "2026-09-13T23:59:14.367696+00:00",
   "announcements": [
+    {
+      "ticker": "WMI",
+      "company": "WAM MICROCAP LIMITED",
+      "headline": "August 2026 Investment Update",
+      "time": "2026-09-13T23:56:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135065-2A1696906",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A routine monthly NAV/portfolio update from WAM Microcap — not flagged market sensitive — carries limited standalone price-moving power; based on the base rate, unflagged filings require the content itself to make the case before warranting a directional call.",
+        "The stock sitting at a 12-month low is the dominant context: even a modestly positive August update (e.g. outperformance vs. benchmark, NAV recovery) may struggle to reverse the structural selling pressure that has driven the stock to these levels, while a weak update could accelerate further downside from an already depressed base.",
+        "Investors should focus on the reported NAV per unit relative to the current market price (discount/premium to NAV), portfolio positioning changes, and any commentary on the microcap liquidity environment — these are the only elements capable of shifting sentiment materially from a 12-month-low entry point."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 1.32,
+        "volume_trend_ratio": 0.71,
+        "volume_last_ratio": 0.77,
+        "avg_turnover_aud": 459171,
+        "liquid": true,
+        "pct_from_3m_high": -14.84,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -28.65,
+        "pct_from_52w_low": 0.0,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "at a 12-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "PCI Monthly Investment Report- August 2026",
+      "time": "2026-09-13T23:55:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135064-2A1696905",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Monthly investment reports for a listed credit trust are procedural disclosures — not flagged market sensitive — and rarely move the price on their own; the filing's value is in NAV per unit, portfolio yield, duration, and credit quality metrics, which need to be read against the prior month to assess momentum.",
+        "With PCI at a 3-month high into this announcement, positive momentum is already embedded in the price; a benign or in-line August report risks being a 'sell the fact' moment, while an outperformance update (e.g. tightening spreads, income above distribution target) may extend the run but with diminishing incremental impact.",
+        "The key watch for institutional investors is the premium or discount to NTA and any change in the weighted average credit rating or duration — in the current rate environment, any extension of duration or credit deterioration would be a red flag, while stable income and NTA preservation reinforces the closed-end credit trust thesis."
+      ],
+      "tags": [
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 254,
+        "last_close": 1.1,
+        "volume_trend_ratio": 0.96,
+        "volume_last_ratio": 0.99,
+        "avg_turnover_aud": 799376,
+        "liquid": true,
+        "pct_from_3m_high": -0.9,
+        "pct_from_3m_low": 2.33,
+        "pct_from_52w_high": -12.0,
+        "pct_from_52w_low": 8.37,
+        "range_position_3m": 0.714,
+        "at_3m_high": true,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TZN",
+      "company": "TERRAMIN AUSTRALIA LIMITED.",
+      "headline": "Proposed issue of securities - TZN",
+      "time": "2026-09-13T23:54:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135063-2A1696904",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A proposed securities issuance by a company sitting 55.77% below its 12-month high is a structurally bearish signal: capital raises at deeply depressed prices are dilutive, often indicate balance sheet stress, and typically price at a further discount to an already-impaired market price — existing shareholders absorb the brunt.",
+        "TZN is thinly traded with median daily turnover near zero, meaning volume-based signals are close to meaningless; the filing should be read purely on its structural merits — dilutive issuance into a stock already down more than half from its high is a classic value-destructive capital event for non-participating holders.",
+        "Without knowing the specific terms (placement vs. rights issue, price, use of proceeds), the outlook hinges on whether the raise is offensive (project funding with a clear catalyst) or defensive (working capital survival); given the price context, the market will likely default to the bearish interpretation until proven otherwise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.023,
+        "volume_trend_ratio": 1.2,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -11.54,
+        "pct_from_3m_low": 21.05,
+        "pct_from_52w_high": -55.77,
+        "pct_from_52w_low": 43.75,
+        "range_position_3m": 0.571,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "55.77% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 11.54% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "SOP",
+      "company": "SYNERTEC CORPORATION LIMITED",
+      "headline": "Financial and Operational Update on $45.5m Contract - ANSTO",
+      "time": "2026-09-13T23:53:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135062-3A701676",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A market-sensitive operational update on a $45.5m ANSTO contract is high-signal: ANSTO (Australian Nuclear Science & Technology Organisation) is a federal government counterparty, so execution risk is sovereign-backed revenue — any progress confirmation or milestone achievement materially de-risks the contract and supports forward earnings visibility.",
+        "Volume running at 1.6x the 20-day average into this announcement suggests informed positioning ahead of the release; that elevated pre-announcement activity raises the probability that material news is contained within, but also means some upside may already be partially priced — watch for the delta between expectation and actual disclosure on delivery timelines or cost overruns.",
+        "Key investor focus should be on whether the update confirms on-schedule delivery and margin preservation on the fixed-price or milestone-based contract structure; any disclosure of delays, cost blowouts, or scope changes on a contract of this scale relative to SOP's market cap would be materially negative, while a clean operational progress report reinforces the bull case."
+      ],
+      "tags": [
+        "Technology",
+        "Energy"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.081,
+        "volume_trend_ratio": 1.6,
+        "volume_last_ratio": 0.37,
+        "avg_turnover_aud": 127819,
+        "liquid": true,
+        "pct_from_3m_high": -19.0,
+        "pct_from_3m_low": 200.0,
+        "pct_from_52w_high": -19.0,
+        "pct_from_52w_low": 350.0,
+        "range_position_3m": 0.74,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.6x its 20-day average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, SOP traded 1.6x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close, before this announcement was public.",
+          "The price sat in the upper part of its 3-month range, 19.0% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HCF",
+      "company": "H&G HIGH CONVICTION LIMITED",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-09-13T23:51:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135061-2A1696901",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM notice is a purely administrative, procedural filing — not market sensitive — and carries no direct earnings, capital, or strategic implications; it does not warrant a directional call on its own merits.",
+        "HCF is thinly traded with median daily turnover near zero, meaning even the 3-month high price context is based on negligible actual transaction flow and should not be read as genuine institutional accumulation or demand — price levels in near-zero turnover stocks can be set by single small trades.",
+        "Institutional investors should treat this as a diary event only; the AGM itself may become relevant if management commentary, strategy updates, or shareholder resolutions contain material content, but the notice filing alone moves nothing."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.03,
+        "volume_trend_ratio": null,
+        "volume_last_ratio": null,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": 0.0,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -18.92,
+        "pct_from_52w_low": 100.0,
+        "range_position_3m": null,
+        "at_3m_high": true,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LCL",
+      "company": "LCL RESOURCES LIMITED",
+      "headline": "Airborne magnetic survey to commence in PNG",
+      "time": "2026-09-13T23:51:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135060-6A1343639",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencing an airborne magnetic survey in PNG is an early-stage exploration milestone — it maps subsurface geology and targets drill sites but generates no near-term revenue or resource definition; for junior explorers, it is a necessary but not sufficient catalyst, and the 'so what' depends entirely on what anomalies the survey reveals in subsequent results.",
+        "LCL is thinly traded with median daily turnover of roughly A$911/day, so the volume ratio of 1.57x the 20-day average and the 3-month high should be treated with significant caution — at this level of liquidity, a handful of retail trades can generate these metrics, and they carry no reliable institutional signal.",
+        "The 3-month price high into an exploration activity announcement — not flagged market sensitive — suggests speculative retail enthusiasm may already be running ahead of the fundamental newsflow; the survey itself will take weeks to complete and even longer to process and interpret, meaning near-term upside is limited unless accompanied by a broader exploration story or resource target disclosure."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.008,
+        "volume_trend_ratio": 1.57,
+        "volume_last_ratio": 0.02,
+        "avg_turnover_aud": 911,
+        "liquid": false,
+        "pct_from_3m_high": 0.0,
+        "pct_from_3m_low": 33.33,
+        "pct_from_52w_high": -20.0,
+        "pct_from_52w_low": 33.33,
+        "range_position_3m": 1.0,
+        "at_3m_high": true,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.57x its 20-day average",
+          "at a 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$911/day",
+        "reading": [
+          "Going into this, LCL traded 1.57x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close, before this announcement was public.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it.",
+          "Treat all of that with care: it trades about A$911 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CYM",
       "company": "CYPRIUM METALS LIMITED",
