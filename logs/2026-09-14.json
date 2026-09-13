@@ -1,9 +1,331 @@
 {
   "date": "2026-09-14",
-  "total": 236,
-  "market_sensitive_count": 71,
-  "generated_at": "2026-09-13T23:39:45.630937+00:00",
+  "total": 243,
+  "market_sensitive_count": 74,
+  "generated_at": "2026-09-13T23:46:34.388657+00:00",
   "announcements": [
+    {
+      "ticker": "SIS",
+      "company": "SIMBLE SOLUTIONS LIMITED",
+      "headline": "Simble Achieves Initial UV and Wavelength Detection Results",
+      "time": "2026-09-13T23:41:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135045-2A1696895",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Market-sensitive filing on UV and wavelength detection results is a genuine news catalyst for SIS — the so-what is whether these are proof-of-concept milestones that open a commercialisation pathway or merely incremental lab data; the headline frames them as 'initial,' which implies early-stage validation rather than a deployable product.",
+        "Price action context is essentially uninformative here: the stock is extremely thinly traded (median daily turnover ~A$3), so the 0.2x volume ratio carries no signal whatsoever — a single small trade could distort any volume reading, and institutional positioning is not a factor.",
+        "Next steps hinge entirely on what technology this detection capability feeds into (environmental sensing, water quality, industrial monitoring) and whether the release includes a commercialisation timeline or partner; without that, the market-sensitive flag may drive a speculative pop but lacks fundamental anchoring."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.005,
+        "volume_trend_ratio": 0.2,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 3,
+        "liquid": false,
+        "pct_from_3m_high": -28.57,
+        "pct_from_3m_low": 25.0,
+        "pct_from_52w_high": -44.44,
+        "pct_from_52w_low": 25.0,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.2x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$3/day",
+        "reading": [
+          "Going into this, SIS traded only 0.2x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 28.57% below the high of that period.",
+          "Treat all of that with care: it trades about A$3 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SVR",
+      "company": "SOLVAR LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-13T23:40:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135044-3A701674",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for Solvar (consumer finance/lending) is an administrative disclosure with no direct valuation impact — the key read is whether the transaction represents an open-market purchase (mildly bullish signal) or exercise/vesting of options and performance rights (routine remuneration, neutral).",
+        "This filing is explicitly not market-sensitive, and per base rates on unflagged filings, the bar for a directional call is high — without knowing the direction, size, or nature of the interest change, this is a compliance obligation, not a news event.",
+        "No price action data is provided; the filing stands alone as a procedural disclosure and should not influence positioning unless the transaction size is unusually large relative to the director's existing holding or the company's float."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 1.5,
+        "volume_trend_ratio": 0.64,
+        "volume_last_ratio": 1.1,
+        "avg_turnover_aud": 255631,
+        "liquid": true,
+        "pct_from_3m_high": -14.29,
+        "pct_from_3m_low": 2.04,
+        "pct_from_52w_high": -24.24,
+        "pct_from_52w_low": 8.3,
+        "range_position_3m": 0.107,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 14.29% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FAU",
+      "company": "FIRST AU LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-13T23:39:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135043-6A1343630",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "A trading halt at a 3-month high is a structurally bullish combination — stocks typically halt at highs for capital raises, M&A transactions, or material positive announcements, all of which tend to be preceded by price strength as sophisticated participants position ahead of the news.",
+        "The 3-month high entry point is the key contextual variable: it suggests the market has already been pricing in something positive, meaning the announcement must clear a raised bar to sustain further upside — disappointing terms or dilutive capital raises into this setup can reverse quickly.",
+        "Until the halt is lifted and the underlying announcement disclosed, the sentiment call is structurally positive but the magnitude and durability of any move will depend entirely on deal terms, pricing relative to the prevailing price, and strategic rationale."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.012,
+        "volume_trend_ratio": 1.11,
+        "volume_last_ratio": 1.15,
+        "avg_turnover_aud": 56546,
+        "liquid": true,
+        "pct_from_3m_high": 0.0,
+        "pct_from_3m_low": 140.0,
+        "pct_from_52w_high": -36.84,
+        "pct_from_52w_low": 140.0,
+        "range_position_3m": 1.0,
+        "at_3m_high": true,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JAV",
+      "company": "JAVELIN MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-13T23:39:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135042-6A1343631",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Trading halts for small, thinly traded miners (median turnover ~A$23,076/day) are typically associated with capital raises or material exploration/corporate news — the halt itself signals something discrete is incoming rather than routine activity.",
+        "The 0.57x volume ratio over the past five sessions indicates below-average activity leading into the halt; given the stock's illiquidity, this ratio is of limited analytical value and should not be read as either accumulation or distribution — treat it as noise.",
+        "For a micro-cap minerals company of this profile, the most likely halt catalysts are a placement (dilutive near-term, potentially strategic), a JV or farm-in agreement, or a significant assay result — outcome range is wide, and the appropriate posture is to wait for the resumption announcement before taking a position."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.082,
+        "volume_trend_ratio": 0.57,
+        "volume_last_ratio": 0.17,
+        "avg_turnover_aud": 23076,
+        "liquid": false,
+        "pct_from_3m_high": -11.83,
+        "pct_from_3m_low": 30.16,
+        "pct_from_52w_high": -48.75,
+        "pct_from_52w_low": 32.26,
+        "range_position_3m": 0.633,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.57x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$23,076/day",
+        "reading": [
+          "Going into this, JAV traded only 0.57x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 11.83% below the high of that period.",
+          "Treat all of that with care: it trades about A$23,076 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AXE",
+      "company": "ARCHER MATERIALS LIMITED",
+      "headline": "Archer launches Quantum Commercial Pilot",
+      "time": "2026-09-13T23:39:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135041-2A1696894",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Archer launching a 'Quantum Commercial Pilot' is a meaningful milestone for a deep-tech company that has been in R&D mode — commercial pilots signal the transition from laboratory to revenue-generating activity and can re-rate the stock if the pilot has named customers or partners with credible scale.",
+        "The stock sits 64.36% below its 12-month high, which cuts two ways: significant disappointment is already embedded in the price (reducing downside risk from this filing), but it also reflects that the market has repeatedly discounted commercialisation timelines — this pilot must be substantively different to shift that scepticism.",
+        "This is not flagged as market-sensitive, which lowers the prior probability of a large directional move; the filing must stand on its own merits, and without disclosed pilot partners, revenue terms, or a clear path to scale, the announcement risks being received as another milestone on a road that has seen many milestones without monetisation."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.18,
+        "volume_trend_ratio": 0.77,
+        "volume_last_ratio": 0.7,
+        "avg_turnover_aud": 62818,
+        "liquid": true,
+        "pct_from_3m_high": -52.0,
+        "pct_from_3m_low": 2.86,
+        "pct_from_52w_high": -64.36,
+        "pct_from_52w_low": 2.86,
+        "range_position_3m": 0.025,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "64.36% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 52.0% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CYB",
+      "company": "AUCYBER LIMITED",
+      "headline": "Finalisation of Placement Subscription Payment",
+      "time": "2026-09-13T23:38:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135040-2A1696892",
+      "market_sensitive": false,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Finalisation of a placement subscription payment is procedurally positive in a narrow sense — it confirms that previously announced placement funds have been received and the capital raise has closed without defaults — but this is administrative confirmation, not new news.",
+        "The price action context is stark: virtually zero turnover (median ~A$0/day, 0.02x average volume), with the stock 50% below its 12-month high — the illiquidity means volume ratios are meaningless, and the deep discount to the 12-month high signals sustained market disinterest or fundamental disappointment; the completed placement does not address those structural concerns.",
+        "Not flagged as market-sensitive and carrying no strategic announcement, this filing's primary risk is that confirming the placement's completion draws attention to the dilution that has already occurred — net effect is close to neutral with a slight negative undertone given the price context."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.042,
+        "volume_trend_ratio": 0.02,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -32.26,
+        "pct_from_3m_low": 5.0,
+        "pct_from_52w_high": -50.0,
+        "pct_from_52w_low": 5.0,
+        "range_position_3m": 0.091,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.02x its average",
+          "50.0% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, CYB traded only 0.02x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 32.26% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RIV",
+      "company": "RIVCO AUSTRALIA LTD",
+      "headline": "Update - Notification of buy-back - RIV",
+      "time": "2026-09-13T23:37:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135039-2A1696893",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An on-market buyback update (notification/update) is generically shareholder-friendly — it signals management's view that the stock is undervalued and reduces share count — but the 'update' framing suggests this is a progress report on an existing program rather than a new buyback announcement, limiting the incremental impact.",
+        "Not flagged as market-sensitive, which is consistent with the procedural nature of buyback updates; per base rates, unflagged filings have a lower probability of driving a material directional move, and a routine buyback update sits firmly in that category.",
+        "No price action data is provided; the key variables for assessing impact would be buyback volume executed relative to program size and whether the pace has accelerated — without those details, this reads as administrative housekeeping with modest constructive bias."
+      ],
+      "tags": [
+        "Other",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 238,
+        "last_close": 1.225,
+        "volume_trend_ratio": 0.91,
+        "volume_last_ratio": 1.3,
+        "avg_turnover_aud": 235839,
+        "liquid": true,
+        "pct_from_3m_high": -16.67,
+        "pct_from_3m_low": 2.08,
+        "pct_from_52w_high": -22.96,
+        "pct_from_52w_low": 2.08,
+        "range_position_3m": 0.093,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 16.67% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "C7A",
       "company": "CLARA RESOURCES AUSTRALIA LTD",
