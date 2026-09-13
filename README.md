@@ -242,6 +242,61 @@ get resolved once the next session prints. Re-running a day is safe — it simpl
 recomputes the same file. Override `BENCHMARK` or `SENTIMENT_THRESHOLD_PCT` (as env vars
 or GitHub Actions variables) to change the index or the 1% dead band.
 
+## Learning from the misses
+
+Grading the calls is only half of it. Two modules feed the result back into the next
+day's prompt.
+
+This is not training, and it is worth being precise about why. The model has no memory
+between API calls — each one starts cold, and nothing it "learns" on Monday exists on
+Tuesday. A file is the only thing that persists, so the loop is: grade → write the file →
+paste the file back in. Yesterday's misses influence today's calls because they are
+sitting in today's prompt, not because anything was retrained.
+
+### The numbers — `calibration.py`
+
+Reads the last 20 days of `scorecard/` and writes
+[`analysis/calibration.md`](analysis/calibration.md): what the directional calls were
+worth, and where they hold up. Findings with fewer than 30 graded calls behind them are
+not reported at all, rather than reported with a caveat.
+
+```bash
+python calibration.py            # print exactly what the model will be told
+python calibration.py --write    # refresh analysis/calibration.md
+```
+
+### The blind spots — `reflect.py`
+
+After the close, the day's wrong calls go back to the model — the headline it read, the
+price action it was shown, the reasoning it gave, and what the stock actually did — with
+one question: what did you fail to consider before you committed to that label? Whatever
+it names is written to `analysis/lessons.json` and rendered to
+[`analysis/lessons.md`](analysis/lessons.md), and the earned ones sit at the top of every
+prompt from then on.
+
+Unlike the calibration numbers this is a **ledger, not a window**. A lesson written in
+September is still there in March. Nothing is ever deleted.
+
+```bash
+python reflect.py                            # reflect on today
+python reflect.py --date 2026-09-10 --dry-run
+```
+
+Three rules keep it from filling up with superstition, because a model asked "why were
+you wrong?" will always produce an answer and the answer will always sound insightful:
+
+| Rule | Why |
+| --- | --- |
+| `"no lesson here"` is an encouraged answer | Most misses are sector moves or sellers, not analytical errors. |
+| A new lesson is a **candidate** until the same blind spot recurs on another day | One occurrence cannot be told apart from a coincidence. |
+| Unreinforced for 60 days → **dormant**, out of the prompt, still in the file | The list stays a checklist instead of becoming wallpaper. |
+
+Thresholds are `LESSON_PROMOTE_AFTER` and `LESSON_DORMANT_DAYS`. Set the first to `1` to
+put every new lesson straight into the prompt.
+
+Both run nightly at the end of the scorecard workflow. With too little history to say
+anything dependable, they say nothing and the prompt goes out unchanged.
+
 ---
 
 ## For Developers & Technical Users

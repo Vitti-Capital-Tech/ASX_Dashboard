@@ -107,6 +107,39 @@ jobs:
           PYTHONUNBUFFERED: "1"
         run: python -u build_history.py --days 25 --period 1y
 
+      # Hands the day's wrong calls back to the model and asks what it failed
+      # to consider, adding anything it finds to analysis/lessons.json. One API
+      # call. Skipped without a key rather than failed, because the rest of
+      # this job does not need one.
+      - name: Reflect on the day's misses
+        continue-on-error: true
+        env:
+          PYTHONUNBUFFERED: "1"
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ secrets.ANTHROPIC_MODEL }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "No ANTHROPIC_API_KEY; skipping reflection."
+            exit 0
+          fi
+          DATE="${{ github.event.inputs.date }}"
+          if [ -n "$DATE" ]; then
+            python -u reflect.py --date "$DATE"
+          else
+            python -u reflect.py
+          fi
+
+      # Turns the day's grading into the paragraph the next fetch pastes into
+      # its prompt. Runs last, so it sees the fresh scorecard, the rebuilt
+      # event dataset and any lesson the reflection just added. Failing here
+      # must not cost us the scorecard commit below: a stale calibration file
+      # is a far smaller loss than a lost day of grading.
+      - name: Refresh the model's calibration file
+        continue-on-error: true
+        env:
+          PYTHONUNBUFFERED: "1"
+        run: python -u calibration.py --write
+
       - name: Commit and push scorecard
         run: |
           git config user.name  "github-actions[bot]"

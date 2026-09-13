@@ -25,6 +25,7 @@ from dotenv import load_dotenv
 from anthropic import Anthropic
 from groq import Groq
 
+from calibration import cached_prompt_block
 from market_context import (
     compute_context,
     describe,
@@ -253,9 +254,17 @@ def build_batch_prompt(anns: list[dict]) -> str:
 
     listing = "\n\n".join(entry(i, a) for i, a in enumerate(anns, 1))
     n = len(anns)
+
+    # How the last fortnight's calls actually scored. The API has no memory
+    # between calls, so the only way yesterday's misses reach today's judgement
+    # is to put them in today's prompt. Absent when there is too little graded
+    # history to say anything, and then the prompt is what it always was.
+    track_record = cached_prompt_block()
+    track_record = f"\n{track_record}\n" if track_record else ""
+
     return f"""You are a senior financial analyst and news editor specializing in the ASX (Australian Securities Exchange).
 Your goal is to provide high-signal, professional insight for institutional investors.
-
+{track_record}
 Below are {n} ASX announcements, numbered [1] to [{n}].
 Analyse EACH one independently. Do not merge, skip, or reorder them.
 
