@@ -1,9 +1,628 @@
 {
   "date": "2026-09-14",
-  "total": 243,
-  "market_sensitive_count": 74,
-  "generated_at": "2026-09-13T23:46:34.388657+00:00",
+  "total": 257,
+  "market_sensitive_count": 81,
+  "generated_at": "2026-09-13T23:53:08.735647+00:00",
   "announcements": [
+    {
+      "ticker": "CYM",
+      "company": "CYPRIUM METALS LIMITED",
+      "headline": "Operations Update - Phase 1 Cathode Restart Project",
+      "time": "2026-09-13T23:50:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135059-6A1343638",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A Phase 1 cathode restart operations update from a copper producer is a direct read-through to near-term production trajectory — the critical question is whether ramp-up is on schedule, on budget, and hitting nameplate cathode output targets, all of which directly underpin the revenue case for CYM.",
+        "Cyprium's Nifty Copper Operation has been a long-troubled asset; any confirmation of sustained cathode production or recovery grade improvements would represent a material de-risking event for a stock that has struggled to demonstrate operational credibility, making this market-sensitive designation well-earned.",
+        "Near-term catalysts to watch include commissioning milestones, cash-cost guidance per pound of copper produced, and whether Phase 2 expansion optionality is being preserved — failure to hit Phase 1 targets would likely trigger further capital concerns given the asset's history."
+      ],
+      "tags": [
+        "Production",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.52,
+        "volume_trend_ratio": 0.84,
+        "volume_last_ratio": 1.27,
+        "avg_turnover_aud": 388996,
+        "liquid": true,
+        "pct_from_3m_high": -12.61,
+        "pct_from_3m_low": 46.48,
+        "pct_from_52w_high": -19.27,
+        "pct_from_52w_low": 85.71,
+        "range_position_3m": 0.687,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 12.61% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GSS",
+      "company": "GENETIC SIGNATURES LIMITED",
+      "headline": "Date of AGM and Closing Date for Director Nominations",
+      "time": "2026-09-13T23:49:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135058-2A1696902",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM date and director nomination closing date announcement is purely procedural and administrative — it carries no financial, operational, or strategic content that would justify a directional price move under normal circumstances.",
+        "The price context — GSS sitting 81.4% below its 12-month high on very depressed recent volume (0.28x average) — reflects pre-existing fundamental weakness; this filing does nothing to address that, and thinly traded conditions (median turnover ~A$25,330/day) mean volume signals around this announcement are close to meaningless.",
+        "The only investor-relevant watch item is whether the director nomination process surfaces any board renewal or activist interest that could emerge at or before the AGM, but that is speculative at this stage — the filing itself is neutral noise."
+      ],
+      "tags": [
+        "AGM",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.08,
+        "volume_trend_ratio": 0.28,
+        "volume_last_ratio": 0.01,
+        "avg_turnover_aud": 25330,
+        "liquid": false,
+        "pct_from_3m_high": -19.19,
+        "pct_from_3m_low": 56.86,
+        "pct_from_52w_high": -81.4,
+        "pct_from_52w_low": 56.86,
+        "range_position_3m": 0.604,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.28x its average",
+          "81.4% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$25,330/day",
+        "reading": [
+          "Going into this, GSS traded only 0.28x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 19.19% below the high of that period.",
+          "Treat all of that with care: it trades about A$25,330 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ECT",
+      "company": "ENVIRONMENTAL CLEAN TECHNOLOGIES LIMITED.",
+      "headline": "ECT Secures Defence-Use Licence for FJH-Produced MXenes",
+      "time": "2026-09-13T23:49:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135057-6A1343636",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Securing a defence-use licence for Flash Joule Heating (FJH)-produced MXenes is a landmark commercial validation — MXenes are a cutting-edge class of 2D materials with significant electromagnetic shielding and energy storage applications, and defence qualification is typically a high bar that confers credibility with broader industrial buyers.",
+        "For a small-cap like ECT, a defence-sector licence is a potential step-change in addressable market and deal quality; however, investors should scrutinise whether this translates to a binding revenue contract or remains a licence-to-supply framework, as the gap between licencing and actual purchase orders can be wide and prolonged.",
+        "The FJH technology angle is differentiating — if ECT can demonstrate scalable, cost-competitive MXene production under this licence, it positions the company ahead of most peers in a nascent but high-growth materials sector, with dual-use (defence/commercial) upside worth watching closely."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.125,
+        "volume_trend_ratio": 1.38,
+        "volume_last_ratio": 0.89,
+        "avg_turnover_aud": 85408,
+        "liquid": true,
+        "pct_from_3m_high": -13.79,
+        "pct_from_3m_low": 31.58,
+        "pct_from_52w_high": -37.5,
+        "pct_from_52w_low": 108.33,
+        "range_position_3m": 0.6,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 13.79% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MKR",
+      "company": "MANUKA RESOURCES LTD.",
+      "headline": "Dispatch of Share Purchase Plan Documents",
+      "time": "2026-09-13T23:49:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135056-2A1696897",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Dispatch of Share Purchase Plan (SPP) documents confirms that MKR is in active capital raising mode — SPPs are typically priced at a discount to market, which creates near-term dilution pressure and often weighs on the share price as existing holders assess participation versus selling into the raise.",
+        "The stock is already 71.3% below its 12-month high, meaning the capital is being raised from a deeply distressed base — this raises questions about the pricing of the SPP relative to current market price, the use of proceeds, and whether the raise is defensive (liquidity/debt) or offensive (growth capital), each carrying very different read-throughs.",
+        "While the filing is not flagged market sensitive, the SPP dispatch is a mechanically bearish short-term event: it signals ongoing dilution, and shareholders who do not or cannot participate will be diluted — in a stock already heavily marked down, participation rates and the SPP discount will be the key near-term price determinants."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.066,
+        "volume_trend_ratio": 1.05,
+        "volume_last_ratio": 1.3,
+        "avg_turnover_aud": 823850,
+        "liquid": true,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 1.54,
+        "pct_from_52w_high": -71.3,
+        "pct_from_52w_low": 94.12,
+        "range_position_3m": 0.029,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "71.3% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 33.33% below the high of that period."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MI6",
+      "company": "MINERALS 260 LIMITED",
+      "headline": "Additional $200m Funding Agreed with Franco-Nevada",
+      "time": "2026-09-13T23:47:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135055-6A1343632",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "An additional A$200 million funding agreement with Franco-Nevada — one of the world's premier royalty and streaming companies — is a very strong institutional endorsement of MI6's project quality; Franco-Nevada does not deploy capital lightly, and their continued/expanded commitment significantly de-risks the financing stack.",
+        "The size of the facility is material for a company at Minerals 260's stage — $200m in non-dilutive (or less-dilutive) streaming/royalty capital preserves equity upside for existing shareholders far more than an equivalent equity raise would, making this structurally positive for valuation.",
+        "Key follow-up questions for institutional investors: the royalty rate or stream percentage granted, whether this triggers any project construction decision or timeline acceleration, and how total project funding now compares to the full capex requirement — if this closes the funding gap, a final investment decision could be imminent."
+      ],
+      "tags": [
+        "Mining",
+        "Finance",
+        "Merger & Acquisition"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.88,
+        "volume_trend_ratio": 0.76,
+        "volume_last_ratio": 0.79,
+        "avg_turnover_aud": 7236629,
+        "liquid": true,
+        "pct_from_3m_high": -12.0,
+        "pct_from_3m_low": 61.47,
+        "pct_from_52w_high": -12.0,
+        "pct_from_52w_low": 450.0,
+        "range_position_3m": 0.736,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 12.0% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IMA",
+      "company": "IMAGE RESOURCES NL",
+      "headline": "Pause in Trading",
+      "time": "2026-09-13T23:47:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135054-6A1343637",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A trading halt (pause in trading) filed as market sensitive almost always signals a material pending announcement — the most common triggers are capital raises, M&A activity, or significant operational developments; the nature of the news is unknown but the market-sensitive flag elevates the probability of a substantive catalyst.",
+        "The price context here is stark: IMA is trading 81.4% below its 12-month high, reflecting deep investor disillusionment with the stock's trajectory — any announcement emerging from this halt will be read against an already heavily discounted base, meaning genuinely positive news could produce an outsized bounce, but further dilutive capital raises into this tape could accelerate selling.",
+        "With median daily turnover of only around A$4,970, IMA is extremely thinly traded — any post-halt re-rating, positive or negative, is likely to be volatile and potentially illiquid, so institutional positioning ahead of the resumption carries meaningful execution risk."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.016,
+        "volume_trend_ratio": 1.45,
+        "volume_last_ratio": 2.86,
+        "avg_turnover_aud": 4970,
+        "liquid": false,
+        "pct_from_3m_high": -44.83,
+        "pct_from_3m_low": 6.67,
+        "pct_from_52w_high": -81.4,
+        "pct_from_52w_low": 6.67,
+        "range_position_3m": 0.071,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "81.4% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$4,970/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 44.83% below the high of that period.",
+          "Treat all of that with care: it trades about A$4,970 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PIQ",
+      "company": "PROTEOMICS INTERNATIONAL LABORATORIES LTD",
+      "headline": "PromarkerD and PromarkerEso Commercial Rollout Update",
+      "time": "2026-09-13T23:47:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135053-3A701675",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A commercial rollout update for both PromarkerD (diabetic kidney disease) and PromarkerEso (oesophageal cancer) simultaneously suggests PIQ is attempting to communicate progress across its pipeline, but the critical metric is whether 'rollout' translates to paying laboratory or clinical customers, and what the revenue run-rate looks like — without hard contract numbers, this risks being perceived as narrative rather than news.",
+        "The price context is deeply negative: PIQ is trading 83.72% below its 12-month high, signalling that prior commercial rollout narratives have failed to convert into market confidence — a further update without concrete revenue or adoption milestones is unlikely to shift institutional sentiment meaningfully.",
+        "With median daily turnover of roughly A$7,667, PIQ is extremely thinly traded, so volume signals are close to meaningless as a directional indicator; the stock's re-rating, if it comes, will depend entirely on the substance of commercial adoption metrics disclosed, not on pre-announcement tape dynamics."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.14,
+        "volume_trend_ratio": 1.45,
+        "volume_last_ratio": 1.26,
+        "avg_turnover_aud": 7667,
+        "liquid": false,
+        "pct_from_3m_high": -37.78,
+        "pct_from_3m_low": 42.86,
+        "pct_from_52w_high": -83.72,
+        "pct_from_52w_low": 42.86,
+        "range_position_3m": 0.331,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "83.72% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$7,667/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 37.78% below the high of that period.",
+          "Treat all of that with care: it trades about A$7,667 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WHI",
+      "company": "WHITEFIELD INCOME LIMITED",
+      "headline": "Net Tangible Asset Backing - Aug 26",
+      "time": "2026-09-13T23:47:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135052-2A1696900",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A monthly Net Tangible Asset (NTA) backing disclosure from WHI is a routine, scheduled publication — it is procedural and carries directional relevance only if the NTA has moved materially relative to prior periods or to the current share price premium/discount, which cannot be assessed from the headline alone.",
+        "The tape context is mildly concerning: WHI is at a 3-month low on below-average volume (0.58x the recent average), suggesting passive or disinterested selling rather than active accumulation — this is consistent with broader LIC (Listed Investment Company) sector dynamics where discount-to-NTA widening can persist without a specific catalyst.",
+        "For institutional investors, the actionable question from this filing is whether the August NTA shows the portfolio marked up or down relative to July, and whether the current share price represents a widening or narrowing of the discount — if NTA has held or grown while the share price has fallen, the discount-to-NTA thesis could be a value entry point worth examining."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 1.26,
+        "volume_trend_ratio": 0.58,
+        "volume_last_ratio": 0.68,
+        "avg_turnover_aud": 266829,
+        "liquid": true,
+        "pct_from_3m_high": -7.69,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -20.25,
+        "pct_from_52w_low": 1.61,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.58x its average",
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, WHI traded only 0.58x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WMA",
+      "company": "WAM ALTERNATIVE ASSETS LIMITED",
+      "headline": "August 2026 Investment Update",
+      "time": "2026-09-13T23:46:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135051-2A1696898",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine monthly NAV/portfolio update for a listed investment company — these releases are procedural in nature and rarely move the needle absent a significant deviation from expected NTA or a major portfolio event disclosed within.",
+        "The stock sits 4.43% off its 3-month high, suggesting modest recent softness but no material dislocation; unless the update reveals a meaningful NTA discount widening or a surprise portfolio write-down, the price action implies the market has already partially digested recent conditions.",
+        "Key watch point is any change in the discount-to-NTA and portfolio composition shift toward illiquid alternatives — for a vehicle with 'alternative assets' in its mandate, liquidity risk and valuation methodology carry more weight than for a vanilla LIC; absent red flags here, this is a hold-and-monitor situation."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.97,
+        "volume_trend_ratio": 1.39,
+        "volume_last_ratio": 1.79,
+        "avg_turnover_aud": 133867,
+        "liquid": true,
+        "pct_from_3m_high": -4.43,
+        "pct_from_3m_low": 1.04,
+        "pct_from_52w_high": -8.49,
+        "pct_from_52w_low": 2.11,
+        "range_position_3m": 0.182,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "4.43% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 4.43% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AIQ",
+      "company": "ALTERNATIVE INVESTMENT TRUST",
+      "headline": "Net Tangible Asset Backing August 2026",
+      "time": "2026-09-13T23:46:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135050-2A1696899",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Monthly NTA backing disclosure is purely administrative for a listed investment trust — the signal value is almost entirely contained in whether the reported NTA represents a material premium or discount to the prevailing market price, details not provided here.",
+        "AIQ is described as thinly traded with median daily turnover of approximately A$0/day, meaning the volume ratio of 0.58x average is effectively meaningless — there is no functional secondary market price discovery occurring, and any reaction to this filing would be driven by a handful of trades.",
+        "For institutional investors, the near-zero liquidity renders this vehicle uninvestable at scale regardless of NTA movement; the filing itself is a compliance formality and should be treated as such until a catalyst capable of attracting genuine volume emerges."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 1.39,
+        "volume_trend_ratio": 0.58,
+        "volume_last_ratio": 0.33,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -11.75,
+        "pct_from_3m_low": 2.96,
+        "pct_from_52w_high": -11.75,
+        "pct_from_52w_low": 3.35,
+        "range_position_3m": 0.178,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.58x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, AIQ traded only 0.58x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 11.75% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HWK",
+      "company": "HAWK RESOURCES LIMITED.",
+      "headline": "Hawk Exercises Option over the Olympus Scandium Project",
+      "time": "2026-09-13T23:46:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135049-6A1343633",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Exercising an option over the Olympus Scandium Project represents a strategic commitment by HWK to secure exposure to scandium — a critical mineral used primarily in solid oxide fuel cells and aluminium alloys — at a time when supply chain diversification from Chinese sources is attracting increasing government and industrial interest.",
+        "The 'so what' for investors is whether Hawk has the balance sheet to advance this project beyond option exercise: scandium projects are notoriously capital-intensive relative to market size, and the offtake and downstream processing challenges remain significant hurdles that have stalled numerous scandium hopefuls before them.",
+        "Near-term, the announcement is likely to generate speculative interest given the critical minerals thematic, but investors should demand clarity on the option consideration paid, the project's resource base, and the pathway to a commercially viable scandium-aluminium master alloy or fuel cell supply agreement before pricing in sustained upside."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.034,
+        "volume_trend_ratio": 0.9,
+        "volume_last_ratio": 0.39,
+        "avg_turnover_aud": 126105,
+        "liquid": true,
+        "pct_from_3m_high": -19.05,
+        "pct_from_3m_low": 41.67,
+        "pct_from_52w_high": -42.37,
+        "pct_from_52w_low": 100.0,
+        "range_position_3m": 0.556,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 19.05% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMK",
+      "company": "ALMASAR MINERALS LIMITED",
+      "headline": "Almasar Appoints New Head of Exploration",
+      "time": "2026-09-13T23:46:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135048-6A1343635",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A new Head of Exploration appointment signals intent to advance the exploration pipeline, but without disclosure of the incoming executive's specific credentials, prior discoveries, or technical focus area, the strategic uplift is impossible to quantify at this stage.",
+        "No price action data is available for this filing, and as an unflagged, non-market-sensitive announcement, it carries a lower prior probability of driving a sustained directional move — personnel changes at exploration-stage companies are only re-rated by the market when accompanied by a concrete work program or capital commitment.",
+        "The key follow-on to watch is whether this appointment is paired with an upcoming exploration update, drilling program, or capital raise — the appointment alone is a soft positive for operational credibility but insufficient to re-rate the stock in isolation."
+      ],
+      "tags": [
+        "Mining",
+        "Board Change"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMX",
+      "company": "AEROMETREX LIMITED",
+      "headline": "AMX secures Daly Waters LiDAR and Imagery survey project",
+      "time": "2026-09-13T23:45:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135047-2A1696896",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Winning a LiDAR and aerial imagery survey contract at Daly Waters adds to AMX's project backlog and demonstrates continued demand for its geospatial data services, but for a company of AMX's size, the revenue materiality of a single survey contract is the key question — without a dollar value disclosed, the announcement is positive in direction but limited in magnitude.",
+        "AMX has been thinly traded with median daily turnover of only around A$3,674, which means volume ratios over the recent period are essentially noise and should not be used to infer institutional positioning or momentum — any price move on this news will likely be driven by retail sentiment rather than informed accumulation.",
+        "The strategic angle worth watching is whether Daly Waters represents a gateway to broader Northern Territory infrastructure or resource-sector survey work; contract wins in remote or resource-adjacent areas often come in clusters, and a reference project here could support future tender success."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.275,
+        "volume_trend_ratio": 0.25,
+        "volume_last_ratio": 0.56,
+        "avg_turnover_aud": 3674,
+        "liquid": false,
+        "pct_from_3m_high": -14.06,
+        "pct_from_3m_low": 19.57,
+        "pct_from_52w_high": -21.43,
+        "pct_from_52w_low": 41.03,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.25x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$3,674/day",
+        "reading": [
+          "Going into this, AMX traded only 0.25x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 14.06% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,674 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MDI",
+      "company": "MIDDLE ISLAND RESOURCES LIMITED",
+      "headline": "Divestment of Northern Territory Exploration assets",
+      "time": "2026-09-13T23:45:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135046-6A1343634",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Divestment of NT exploration assets by a company already 78.46% below its 12-month high raises the question of whether this is strategic portfolio rationalisation or a distressed asset disposal to preserve cash — the characterisation materially changes the valuation read.",
+        "MDI is thinly traded with median daily turnover of approximately A$1,206/day, making the 0.58x volume ratio over the past five sessions essentially noise — price discovery is unreliable and any reaction to this announcement could be outsized relative to its fundamental merit.",
+        "On balance, divesting exploration tenure at a company deep in a drawdown can read as either a positive (cash injection, cost reduction, focus narrowing) or negative (asset quality concern, distress signal) — without deal terms, proceeds, or strategic rationale disclosed in the headline, this is a wait-for-detail situation, with the severe price depression already reflecting significant market scepticism."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.014,
+        "volume_trend_ratio": 0.58,
+        "volume_last_ratio": 0.03,
+        "avg_turnover_aud": 1206,
+        "liquid": false,
+        "pct_from_3m_high": -22.22,
+        "pct_from_3m_low": 16.67,
+        "pct_from_52w_high": -78.46,
+        "pct_from_52w_low": 16.67,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.58x its average",
+          "78.46% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,206/day",
+        "reading": [
+          "Going into this, MDI traded only 0.58x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 22.22% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,206 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SIS",
       "company": "SIMBLE SOLUTIONS LIMITED",
