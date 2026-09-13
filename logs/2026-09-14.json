@@ -1,9 +1,966 @@
 {
   "date": "2026-09-14",
-  "total": 184,
-  "market_sensitive_count": 55,
-  "generated_at": "2026-09-13T23:14:17.528793+00:00",
+  "total": 205,
+  "market_sensitive_count": 57,
+  "generated_at": "2026-09-13T23:24:04.922645+00:00",
   "announcements": [
+    {
+      "ticker": "ACR",
+      "company": "ACRUX LIMITED",
+      "headline": "AGM date, closing date for director nominations",
+      "time": "2026-09-13T23:21:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135008-3A701671",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "This is a purely administrative filing confirming the AGM date and the closing date for director nominations — no financial or operational content is disclosed, so there is no fundamental read-through for valuation.",
+        "The only marginal relevance is that the director nomination window being defined gives activists or substantial holders a formal deadline to lodge board-change proposals — worth monitoring if ACR has any known shareholder discontent.",
+        "Not flagged as market sensitive, consistent with its procedural nature; at current base rates an unflagged filing has a materially lower hit rate for directional moves, and nothing in this headline overrides that prior."
+      ],
+      "tags": [
+        "AGM"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.011,
+        "volume_trend_ratio": 1.47,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 1299,
+        "liquid": false,
+        "pct_from_3m_high": -38.89,
+        "pct_from_3m_low": 22.22,
+        "pct_from_52w_high": -47.62,
+        "pct_from_52w_low": 22.22,
+        "range_position_3m": 0.222,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$1,299/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 38.89% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,299 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAL",
+      "company": "KALGOORLIE GOLD MINING LIMITED",
+      "headline": "Proposed issue of securities - KAL",
+      "time": "2026-09-13T23:20:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135007-6A1343607",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is the Appendix 3B (proposed issue of securities) lodged in connection with the $3.4 million placement and entitlement offer announced simultaneously — it is the mechanical registry filing, not an incremental announcement, and adds no new information beyond [1].",
+        "Not flagged as market sensitive, consistent with its administrative role; the actual market impact is carried entirely by the capital raise announcement, and this document simply formalises the share issuance details for ASX compliance purposes.",
+        "Given KAL's illiquid tape (~A$15k/day median turnover) and volume running at 0.5x average — itself a near-meaningless signal in this liquidity context — the additional share supply from the raise will likely weigh on any secondary market activity once the halt lifts or trading resumes."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.023,
+        "volume_trend_ratio": 0.5,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 14970,
+        "liquid": false,
+        "pct_from_3m_high": -37.84,
+        "pct_from_3m_low": 9.52,
+        "pct_from_52w_high": -72.94,
+        "pct_from_52w_low": 9.52,
+        "range_position_3m": 0.125,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.5x its average",
+          "72.94% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$14,970/day",
+        "reading": [
+          "Going into this, KAL traded only 0.5x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 37.84% below the high of that period.",
+          "Treat all of that with care: it trades about A$14,970 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "VTX",
+      "company": "VERTEX MINERALS LIMITED",
+      "headline": "Update - Proposed issue of securities - VTX",
+      "time": "2026-09-13T23:20:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135006-6A1343563",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An 'Update' on a proposed issue of securities for VTX suggests an amendment or clarification to an earlier capital raise filing — common reasons include a change in pricing, scale, or timing of the offer, any of which can reset market expectations around dilution.",
+        "VTX sits 69.14% below its 12-month high on a thinly traded stock (~A$33.7k/day median turnover) — in this liquidity context, volume signals are close to meaningless, but the deeply depressed price means any new shares are being issued at a fraction of recent highs, crystallising substantial dilution for existing holders.",
+        "Not flagged as market sensitive; at current base rates unflagged filings have a weaker directional track record, and without the specifics of what changed in the updated terms, the most defensible call is that dilution pressure persists unless the update reveals a materially improved raise structure."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.125,
+        "volume_trend_ratio": 1.47,
+        "volume_last_ratio": 0.21,
+        "avg_turnover_aud": 33708,
+        "liquid": false,
+        "pct_from_3m_high": -23.08,
+        "pct_from_3m_low": 35.87,
+        "pct_from_52w_high": -69.14,
+        "pct_from_52w_low": 35.87,
+        "range_position_3m": 0.468,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "69.14% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$33,708/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 23.08% below the high of that period.",
+          "Treat all of that with care: it trades about A$33,708 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KAL",
+      "company": "KALGOORLIE GOLD MINING LIMITED",
+      "headline": "Proposed issue of securities - KAL",
+      "time": "2026-09-13T23:20:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135005-6A1343605",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This appears to be a duplicate or second Appendix 3B filing for KAL covering a separate tranche of the same $3.4 million raise (e.g., placement tranche vs. entitlement offer tranche), which is standard ASX practice but adds no new material information.",
+        "The filing is not market sensitive, consistent with its administrative nature; the directional impact was already set by announcement [1], and this document is compliance infrastructure rather than new news.",
+        "On KAL's illiquid tape (~A$15k/day, volume at 0.5x average — itself a near-meaningless signal at this liquidity level), the incremental share supply from a dual-tranche raise will be acutely felt relative to typical daily market depth, compounding near-term price pressure on resumption of trading."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.023,
+        "volume_trend_ratio": 0.5,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 14970,
+        "liquid": false,
+        "pct_from_3m_high": -37.84,
+        "pct_from_3m_low": 9.52,
+        "pct_from_52w_high": -72.94,
+        "pct_from_52w_low": 9.52,
+        "range_position_3m": 0.125,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.5x its average",
+          "72.94% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$14,970/day",
+        "reading": [
+          "Going into this, KAL traded only 0.5x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 37.84% below the high of that period.",
+          "Treat all of that with care: it trades about A$14,970 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "VTX",
+      "company": "VERTEX MINERALS LIMITED",
+      "headline": "Update - Proposed issue of securities - VTX",
+      "time": "2026-09-13T23:20:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135004-6A1343564",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second 'Update' filing on VTX's proposed securities issue within the same session — multiple updates in quick succession often indicate iterative corrections to the offer terms or lodgement errors, which can signal process instability and undermine investor confidence in the raise.",
+        "VTX remains 69.14% below its 12-month high on a thinly traded name (~A$33.7k/day); repeated administrative filings on a deeply discounted stock do nothing to address the fundamental overhang of dilution, and may attract additional retail seller attention.",
+        "Not flagged as market sensitive; the accumulation of multiple near-identical unflagged filings in a session reduces rather than increases informational content, and the most prudent read is continued dilution pressure until a clean, final terms announcement is made."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.125,
+        "volume_trend_ratio": 1.47,
+        "volume_last_ratio": 0.21,
+        "avg_turnover_aud": 33708,
+        "liquid": false,
+        "pct_from_3m_high": -23.08,
+        "pct_from_3m_low": 35.87,
+        "pct_from_52w_high": -69.14,
+        "pct_from_52w_low": 35.87,
+        "range_position_3m": 0.468,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "69.14% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$33,708/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 23.08% below the high of that period.",
+          "Treat all of that with care: it trades about A$33,708 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "VTX",
+      "company": "VERTEX MINERALS LIMITED",
+      "headline": "Update - Proposed issue of securities - VTX",
+      "time": "2026-09-13T23:20:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135003-6A1343561",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A third near-identical VTX securities update filing in the same session strongly suggests a lodgement correction cycle — ASX companies sometimes refile Appendix 3Bs multiple times to correct data fields, which is procedurally routine but operationally embarrassing and signals administrative friction.",
+        "The underlying dilution dynamic is unchanged: VTX is 69.14% below its 12-month high, thinly traded (~A$33.7k/day median), and issuing new shares from a deeply depressed base; the repeated filings do not alter the capital raise's dilutive impact.",
+        "Not flagged as market sensitive; with three updates now filed, the market's focus will shift to the final confirmed terms when they emerge — until then, uncertainty around offer price and scale keeps the sentiment bias negative."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.125,
+        "volume_trend_ratio": 1.47,
+        "volume_last_ratio": 0.21,
+        "avg_turnover_aud": 33708,
+        "liquid": false,
+        "pct_from_3m_high": -23.08,
+        "pct_from_3m_low": 35.87,
+        "pct_from_52w_high": -69.14,
+        "pct_from_52w_low": 35.87,
+        "range_position_3m": 0.468,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "69.14% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$33,708/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 23.08% below the high of that period.",
+          "Treat all of that with care: it trades about A$33,708 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KAL",
+      "company": "KALGOORLIE GOLD MINING LIMITED",
+      "headline": "$3.4 million Placement and Entitlement Offer",
+      "time": "2026-09-13T23:20:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135002-6A1343600",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "KAL is raising $3.4 million via a placement and entitlement offer — a meaningful capital injection for a company with median daily turnover of ~A$15k, signalling the board views current funding as insufficient for planned activities, likely drilling or project advancement.",
+        "At 72.94% below its 12-month high, the stock is deeply depressed; the placement price is almost certainly at a further discount to already-suppressed market price, meaning dilution impact is severe relative to existing holders' current marked-to-market value.",
+        "Volume over the last 5 sessions was 0.5x average on a thinly traded stock — on a name this illiquid those ratios are close to meaningless as a signal, but the absence of pre-announcement accumulation suggests limited informed buying; the offer's success will hinge on whether existing shareholders and new investors see a credible use-of-funds story."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.023,
+        "volume_trend_ratio": 0.5,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 14970,
+        "liquid": false,
+        "pct_from_3m_high": -37.84,
+        "pct_from_3m_low": 9.52,
+        "pct_from_52w_high": -72.94,
+        "pct_from_52w_low": 9.52,
+        "range_position_3m": 0.125,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.5x its average",
+          "72.94% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$14,970/day",
+        "reading": [
+          "Going into this, KAL traded only 0.5x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 37.84% below the high of that period.",
+          "Treat all of that with care: it trades about A$14,970 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DCC",
+      "company": "DIGITALX LIMITED",
+      "headline": "Notification of cessation of securities - DCC",
+      "time": "2026-09-13T23:19:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135001-6A1343617",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cessation of securities notice for DCC typically covers the lapse of options, performance rights, or warrants that went unexercised — this reduces the theoretical dilution overhang on the register, which is a marginally positive structural development.",
+        "DCC sits 58.9% below its 12-month high on a thinly traded tape (~A$24.9k/day median); the securities cessation is not flagged as market sensitive, and the scale of expiry relative to total shares on issue is unknown from this filing alone, limiting confidence in any directional call.",
+        "At current base rates, unflagged filings have a materially lower directional hit rate; the cessation removes potential future dilution rather than adding capital or revenue, so while technically a mild positive, the practical near-term price impact on this illiquid name is likely negligible."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.03,
+        "volume_trend_ratio": 0.64,
+        "volume_last_ratio": 1.9,
+        "avg_turnover_aud": 24911,
+        "liquid": false,
+        "pct_from_3m_high": -11.76,
+        "pct_from_3m_low": 36.36,
+        "pct_from_52w_high": -58.9,
+        "pct_from_52w_low": 36.36,
+        "range_position_3m": 0.667,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "58.9% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$24,911/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 11.76% below the high of that period.",
+          "Treat all of that with care: it trades about A$24,911 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VTX",
+      "company": "VERTEX MINERALS LIMITED",
+      "headline": "Update - Proposed issue of securities - VTX",
+      "time": "2026-09-13T23:19:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135000-6A1343560",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A fourth VTX securities update filing is highly unusual and points to either a complex, multi-tranche offer structure requiring separate ASX lodgements, or a persistent filing error requiring multiple amendments — either way, it signals operational disorder around the capital raise process.",
+        "The core bearish thesis is unaltered and accumulating: VTX is 69.14% below its 12-month high, is thinly traded (~A$33.7k/day, volume signals close to meaningless at this liquidity level), and is repeatedly filing dilutive securities notices — a combination that sustains material downward pressure on the share price.",
+        "Not flagged as market sensitive; four sequential near-identical unflagged filings in a session carry the lowest possible informational value individually, but collectively reinforce that a meaningful share issuance is occurring — the bearish dilution read holds, and resolution awaits a definitive final terms announcement."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.125,
+        "volume_trend_ratio": 1.47,
+        "volume_last_ratio": 0.21,
+        "avg_turnover_aud": 33708,
+        "liquid": false,
+        "pct_from_3m_high": -23.08,
+        "pct_from_3m_low": 35.87,
+        "pct_from_52w_high": -69.14,
+        "pct_from_52w_low": 35.87,
+        "range_position_3m": 0.468,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "69.14% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$33,708/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 23.08% below the high of that period.",
+          "Treat all of that with care: it trades about A$33,708 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "VTX",
+      "company": "VERTEX MINERALS LIMITED",
+      "headline": "Update - Proposed issue of securities - VTX",
+      "time": "2026-09-13T23:19:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134999-6A1343558",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An update to a proposed securities issuance is administrative in nature, but for VTX — already sitting nearly 70% below its 12-month high — any dilutive capital raise compounds existing shareholder pain rather than signalling a recovery inflection.",
+        "The stock is thinly traded at a median of roughly A$33,708/day, meaning volume ratios are close to meaningless as a signal; what matters is that the depressed price level suggests the market has little confidence in the company's current trajectory, and a securities issue at these levels is heavily dilutive in real terms.",
+        "Watch for the final terms of the issuance: pricing relative to last traded price and the intended use of proceeds will determine whether this is survival capital or growth capital — the former being the more likely read given the stock's position near multi-year lows."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.125,
+        "volume_trend_ratio": 1.47,
+        "volume_last_ratio": 0.21,
+        "avg_turnover_aud": 33708,
+        "liquid": false,
+        "pct_from_3m_high": -23.08,
+        "pct_from_3m_low": 35.87,
+        "pct_from_52w_high": -69.14,
+        "pct_from_52w_low": 35.87,
+        "range_position_3m": 0.468,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "69.14% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$33,708/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 23.08% below the high of that period.",
+          "Treat all of that with care: it trades about A$33,708 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ACR",
+      "company": "ACRUX LIMITED",
+      "headline": "Appendix 3Y Brooke",
+      "time": "2026-09-13T23:18:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134998-3A701670",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Appendix 3Y is a change of director's interest notice — a standard compliance filing with no operational or financial content; it carries no direct valuation signal.",
+        "The filing relates to a named director ('Brooke') and is not flagged as market sensitive, consistent with routine disclosure obligations under ASX Listing Rule 3.19B.",
+        "No price action data is provided for this announcement, so no tape-based inference can be drawn; the filing is purely procedural and investors should not read intent into it."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.011,
+        "volume_trend_ratio": 1.47,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 1299,
+        "liquid": false,
+        "pct_from_3m_high": -38.89,
+        "pct_from_3m_low": 22.22,
+        "pct_from_52w_high": -47.62,
+        "pct_from_52w_low": 22.22,
+        "range_position_3m": 0.222,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$1,299/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 38.89% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,299 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BOL",
+      "company": "BOOM LOGISTICS LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-13T23:17:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134997-3A701669",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice for BOL is a routine compliance filing under ASX Listing Rule 3.19A; it discloses a change in a director's holding but contains no operational news or financial guidance.",
+        "Notably, volume over the last five sessions ran at 1.51x the 20-day average ahead of this filing — elevated turnover relative to a routine administrative disclosure warrants attention, as it may reflect separate market interest in BOL rather than anything driven by this notice itself.",
+        "Investors should look for concurrent announcements or sector-level catalysts to explain the volume uplift; the director notice alone does not justify the elevated trading activity, and attributing the volume solely to this filing would be a category error."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 2.19,
+        "volume_trend_ratio": 1.51,
+        "volume_last_ratio": 4.44,
+        "avg_turnover_aud": 107640,
+        "liquid": true,
+        "pct_from_3m_high": -7.98,
+        "pct_from_3m_low": 23.03,
+        "pct_from_52w_high": -7.98,
+        "pct_from_52w_low": 76.61,
+        "range_position_3m": 0.683,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.51x its 20-day average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, BOL traded 1.51x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close, before this announcement was public.",
+          "The price sat in the upper part of its 3-month range, 7.98% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACR",
+      "company": "ACRUX LIMITED",
+      "headline": "Application for quotation of securities - ACR",
+      "time": "2026-09-13T23:17:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134996-3A701668",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Application for Quotation of Securities is a post-issuance administrative step, confirming new ACR shares are being lodged for official listing — this typically follows a completed capital raise or exercise of options/performance rights.",
+        "The filing is not market sensitive and carries no standalone valuation signal; the economic event (the issuance itself) has already occurred, and this is the back-office confirmation of that event.",
+        "No price action data is provided for this announcement; investors seeking to assess dilution impact should cross-reference the original issuance announcement to determine the number and price of securities being quoted."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.011,
+        "volume_trend_ratio": 1.47,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 1299,
+        "liquid": false,
+        "pct_from_3m_high": -38.89,
+        "pct_from_3m_low": 22.22,
+        "pct_from_52w_high": -47.62,
+        "pct_from_52w_low": 22.22,
+        "range_position_3m": 0.222,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$1,299/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 38.89% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,299 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IXR",
+      "company": "IONIC RARE EARTHS LIMITED",
+      "headline": "Initial Director's Interest Notice - J Rutherford",
+      "time": "2026-09-13T23:17:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134995-3A701667",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "An Initial Director's Interest Notice for a newly appointed director (J. Rutherford) is a standard onboarding disclosure under ASX Listing Rules — it reflects a board or senior management change at IXR and carries procedural rather than operational significance.",
+        "IXR is already trading nearly 63% below its 12-month high, a deeply depressed position that reflects persistent market scepticism around rare earths project timelines and financing; a new director appointment in isolation is unlikely to shift that sentiment meaningfully.",
+        "The 'so what?' here is whether Rutherford brings specific capital markets, rare earths technical, or offtake expertise that could accelerate IXR's path to development — that context is absent from this filing and would need to be sourced from a separate appointment announcement to form a view."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.385,
+        "volume_trend_ratio": 0.8,
+        "volume_last_ratio": 1.15,
+        "avg_turnover_aud": 120012,
+        "liquid": true,
+        "pct_from_3m_high": -7.23,
+        "pct_from_3m_low": 48.08,
+        "pct_from_52w_high": -63.33,
+        "pct_from_52w_low": 50.98,
+        "range_position_3m": 0.806,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "63.33% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 7.23% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXC",
+      "company": "DEXUS CONVENIENCE RETAIL REIT",
+      "headline": "Update - Notification of buy-back - DXC",
+      "time": "2026-09-13T23:16:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134994-3A701666",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An on-market buyback update for DXC (a convenience retail REIT) is modestly constructive — buybacks signal management confidence that units are undervalued and return capital to unitholders, supporting NTA per unit over time.",
+        "DXC is only 2.81% off its 3-month high, meaning the unit price is near a recent peak; at these levels, the buyback's accretion benefit per remaining unit is meaningful but the market may have already partially priced in the capital return discipline.",
+        "As a non-market-sensitive update to an existing program, the incremental news value is limited; the more important question for institutional investors is the pace and remaining capacity of the buyback, which would determine ongoing price support."
+      ],
+      "tags": [
+        "Finance",
+        "Property",
+        "Retail"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 2.77,
+        "volume_trend_ratio": 1.14,
+        "volume_last_ratio": 1.23,
+        "avg_turnover_aud": 587396,
+        "liquid": true,
+        "pct_from_3m_high": -2.81,
+        "pct_from_3m_low": 7.78,
+        "pct_from_52w_high": -10.65,
+        "pct_from_52w_low": 11.69,
+        "range_position_3m": 0.714,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "2.81% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 2.81% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst MINIs Cash Amounts for Stop Loss Event 11 Sep 26",
+      "time": "2026-09-13T23:16:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134993-2A1696874",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is a CitiFirst MINIs cash amount disclosure for a stop-loss event on 11 September 2026 — a structured product administrative notice that has no bearing on any underlying company's fundamentals or equity valuation.",
+        "Stop-loss events on MINIs reflect the underlying instrument breaching a barrier level; the cash settlement amounts are determined by the product's terms and are disclosed as a regulatory obligation by the issuer (Citi), not by any ASX-listed operating company.",
+        "This filing is entirely procedural and is directed at holders of the relevant structured products; it should be disregarded for equity analysis purposes."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DGL",
+      "company": "DGL GROUP LIMITED",
+      "headline": "Notice of Annual General Meeting and Director Nominations",
+      "time": "2026-09-13T23:15:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134992-3A701664",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM notice with director nominations is a routine governance filing — the market-moving risk lies in the nominations themselves: contested director elections or activist-nominated candidates can introduce volatility, but this filing does not confirm that dynamic.",
+        "DGL's price context is concerning: volume over the last five sessions was only 0.42x the 20-day average (a quiet tape) against a backdrop of being more than 50% below its 12-month high, suggesting the stock is deeply out of favour with institutional sellers largely absent but also few new buyers.",
+        "The AGM itself will be the key event to watch — any shareholder resolutions beyond routine re-elections, particularly around remuneration or capital allocation, could be the catalyst this depressed stock needs; until then, the notice is procedural."
+      ],
+      "tags": [
+        "AGM",
+        "Board Change"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.285,
+        "volume_trend_ratio": 0.42,
+        "volume_last_ratio": 0.34,
+        "avg_turnover_aud": 57162,
+        "liquid": true,
+        "pct_from_3m_high": -28.75,
+        "pct_from_3m_low": 9.62,
+        "pct_from_52w_high": -50.86,
+        "pct_from_52w_low": 9.62,
+        "range_position_3m": 0.179,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.42x its average",
+          "50.86% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, DGL traded only 0.42x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 28.75% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXI",
+      "company": "DEXUS INDUSTRIA REIT.",
+      "headline": "Update - Notification of buy-back - DXI",
+      "time": "2026-09-13T23:15:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134991-3A701665",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A buyback update for DXI (Dexus Industria REIT) is structurally supportive — buybacks in a REIT context reduce unit count, support NTA per unit, and signal management's view that the market is mispricing the portfolio.",
+        "The tape here is noteworthy: volume over the last five sessions was just 0.46x the 20-day average and DXI is at a 3-month low — a buyback announced into low volume at a price trough is a stronger signal of value support than one announced at a high, and it may help establish a short-term floor.",
+        "Industrials/logistics REITs face ongoing cap rate pressure in the current rate environment; the buyback is a useful but not sufficient catalyst for a re-rating — investors will want to see evidence of leasing momentum and occupancy stability before moving to a more constructive view."
+      ],
+      "tags": [
+        "Finance",
+        "Property"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 2.34,
+        "volume_trend_ratio": 0.46,
+        "volume_last_ratio": 0.39,
+        "avg_turnover_aud": 1733925,
+        "liquid": true,
+        "pct_from_3m_high": -7.51,
+        "pct_from_3m_low": 0.43,
+        "pct_from_52w_high": -22.0,
+        "pct_from_52w_low": 4.93,
+        "range_position_3m": 0.05,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.46x its average",
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, DXI traded only 0.46x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HIT",
+      "company": "HITECH GROUP AUSTRALIA LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-13T23:14:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134990-2A1696872",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "A trading halt on HIT is a hard stop on price discovery — it almost universally precedes a material announcement (capital raise, M&A, or significant news), making the halt itself a high-alert signal for institutional positioning.",
+        "Without knowing the reason, the direction of the subsequent announcement is binary: a capital raise would be dilutive and bearish, while a strategic deal or material contract could be strongly bullish — the halt alone provides no resolution.",
+        "Traders should watch for the accompanying announcement to emerge shortly; if the halt extends into a second session, it typically signals complexity in deal documentation or regulatory review, which elevates uncertainty and risk of a wider price gap on resumption."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 1.11,
+        "volume_trend_ratio": 0.72,
+        "volume_last_ratio": 0.48,
+        "avg_turnover_aud": 8442,
+        "liquid": false,
+        "pct_from_3m_high": -21.28,
+        "pct_from_3m_low": 26.86,
+        "pct_from_52w_high": -41.42,
+        "pct_from_52w_low": 38.75,
+        "range_position_3m": 0.439,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$8,442/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 21.28% below the high of that period.",
+          "Treat all of that with care: it trades about A$8,442 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IBC",
+      "company": "IRONBARK BALANCED INCOME LIMITED",
+      "headline": "Update - Notification of buy-back - IBC",
+      "time": "2026-09-13T23:13:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134989-2A1696873",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "IBC's buyback update is administratively routine — for a closed-end or income-focused vehicle, buybacks can be a mild positive for remaining unitholders by supporting the unit price and reducing the discount to NTA.",
+        "The stock is extremely thinly traded at a median daily turnover of roughly A$6,670, meaning the volume ratio of 0.24x the 20-day average is close to meaningless — with liquidity this low, even small buyback tranches can have an outsized mechanical impact on the price, but this also means institutional relevance is effectively nil.",
+        "At only 4.44% off its 3-month high, IBC is trading near recent peaks; the buyback update at these levels suggests the program is ongoing rather than opportunistic, and the near-term price signal is therefore muted."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.43,
+        "volume_trend_ratio": 0.24,
+        "volume_last_ratio": 0.52,
+        "avg_turnover_aud": 6670,
+        "liquid": false,
+        "pct_from_3m_high": -4.44,
+        "pct_from_3m_low": 2.38,
+        "pct_from_52w_high": -6.52,
+        "pct_from_52w_low": 3.61,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.24x its average",
+          "4.44% off its 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$6,670/day",
+        "reading": [
+          "Going into this, IBC traded only 0.24x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 4.44% below the high of that period.",
+          "Treat all of that with care: it trades about A$6,670 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "3DA",
+      "company": "AMAERO INC.",
+      "headline": "Notification of cessation of securities - 3DA",
+      "time": "2026-09-13T23:12:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134988-3A701662",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities filings typically reflect the expiry, cancellation, or vesting of performance rights, options, or similar instruments — the specific nature here is unspecified, but if this involves option/right expiry without conversion, it is mildly positive for existing shareholders as potential dilution is removed from the cap table.",
+        "Volume into this announcement was running at just 0.26x the five-session average, indicating the tape was very quiet ahead of this filing — at such depressed turnover, volume ratios carry close to no informational weight and should not be read as accumulation or distribution signal.",
+        "This is a routine administrative/compliance disclosure, not market sensitive per the ASX's own classification, and the filing makes no independent case for a directional move; institutional investors should monitor whether the ceased securities were held by insiders or key management, as that context would be the only material angle worth tracking in the next filing cycle."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.245,
+        "volume_trend_ratio": 0.26,
+        "volume_last_ratio": 0.42,
+        "avg_turnover_aud": 234965,
+        "liquid": true,
+        "pct_from_3m_high": -26.87,
+        "pct_from_3m_low": 32.43,
+        "pct_from_52w_high": -41.67,
+        "pct_from_52w_low": 32.43,
+        "range_position_3m": 0.4,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.26x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, 3DA traded only 0.26x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 26.87% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "EGR",
       "company": "ECOGRAF LIMITED",
