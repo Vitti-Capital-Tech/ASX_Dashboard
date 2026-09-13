@@ -1,9 +1,466 @@
 {
   "date": "2026-09-14",
-  "total": 226,
-  "market_sensitive_count": 65,
-  "generated_at": "2026-09-13T23:30:34.532741+00:00",
+  "total": 236,
+  "market_sensitive_count": 71,
+  "generated_at": "2026-09-13T23:39:45.630937+00:00",
   "announcements": [
+    {
+      "ticker": "C7A",
+      "company": "CLARA RESOURCES AUSTRALIA LTD",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-13T23:35:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135038-2A1696891",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cleansing notice is purely administrative — it is issued to allow securities placed under an exempt offer to be on-sold freely, confirming a prior capital raise has completed; it carries no new operational or financial information and is not market sensitive by its own nature.",
+        "The filing is explicitly not market sensitive, which aligns with the procedural nature of a cleansing notice — based on track record, unflagged filings have a materially lower hit rate for directional moves, so this filing must make its own case, and it does not.",
+        "C7A is at a 3-month high into this announcement, but with median daily turnover of only ~A$15, the stock is so thinly traded that price levels are close to meaningless as a signal — a single small transaction can create a 'high,' and volume ratios would be equally uninformative. The announcement itself is directionally inert."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.004,
+        "volume_trend_ratio": 0.69,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 15,
+        "liquid": false,
+        "pct_from_3m_high": 0.0,
+        "pct_from_3m_low": 60.0,
+        "pct_from_52w_high": -33.33,
+        "pct_from_52w_low": 100.0,
+        "range_position_3m": 1.0,
+        "at_3m_high": true,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$15/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it.",
+          "Treat all of that with care: it trades about A$15 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WGR",
+      "company": "WESTERN GOLD RESOURCES LIMITED.",
+      "headline": "Gold Duke Project - Strategic and Operational Update",
+      "time": "2026-09-13T23:32:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135037-6A1343629",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'strategic and operational update' on a project 73.7% below its 12-month high signals either a genuine re-rating catalyst or a last-resort effort to revive interest — the word 'strategic' often precedes asset sales, JV discussions, or pivot announcements that carry binary outcomes.",
+        "With median daily turnover of only ~A$30,530, WGR is effectively illiquid; even modest buying pressure on positive news can produce outsized percentage moves, but the thin tape also means price discovery is unreliable and any institutional interest would face significant market-impact cost.",
+        "The market-sensitive flag lifts conviction here — this is not routine housekeeping. Key watch items: whether the update discloses a new partner, drill results, funding pathway, or operational suspension, as the stock's deep drawdown means the market is already pricing in significant distress, leaving asymmetric upside if the news is constructive."
+      ],
+      "tags": [
+        "Mining",
+        "Market Update"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.071,
+        "volume_trend_ratio": 0.71,
+        "volume_last_ratio": 0.3,
+        "avg_turnover_aud": 30530,
+        "liquid": false,
+        "pct_from_3m_high": -47.41,
+        "pct_from_3m_low": 1.43,
+        "pct_from_52w_high": -73.7,
+        "pct_from_52w_low": 1.43,
+        "range_position_3m": 0.015,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "73.7% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$30,530/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 47.41% below the high of that period.",
+          "Treat all of that with care: it trades about A$30,530 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "WCN",
+      "company": "WHITE CLIFF MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-13T23:31:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135036-6A1343628",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "A trading halt flagged as market sensitive almost universally precedes a capital raise, M&A announcement, or material asset transaction — the halt itself is procedural, but the underlying catalyst is what will drive the re-rating.",
+        "Notably, volume over the last 5 sessions ran at 1.73x the 20-day average ahead of the halt, suggesting informed positioning or speculative accumulation — this elevated pre-halt activity raises the probability that the pending announcement is genuinely material rather than routine.",
+        "Post-halt re-opens typically see sharp directional moves; the bias depends entirely on the nature of the announcement. If it is a capital raise at a discount, expect dilution pressure; if it is an asset deal or discovery, expect a spike — until the terms are known, neutral is the only defensible stance, but the pre-halt volume skew marginally favours a positive catalyst."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.017,
+        "volume_trend_ratio": 1.73,
+        "volume_last_ratio": 0.78,
+        "avg_turnover_aud": 94518,
+        "liquid": true,
+        "pct_from_3m_high": -32.0,
+        "pct_from_3m_low": 13.33,
+        "pct_from_52w_high": -32.0,
+        "pct_from_52w_low": 41.67,
+        "range_position_3m": 0.2,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.73x its 20-day average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, WCN traded 1.73x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 32.0% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MKR",
+      "company": "MANUKA RESOURCES LTD.",
+      "headline": "Cleasning Notice",
+      "time": "2026-09-13T23:31:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135035-2A1696889",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Like C7A above, a cleansing notice is a post-raise administrative filing confirming that placement securities can now be freely traded — it introduces no new financial, operational, or strategic information and is standard practice following exempt offers.",
+        "The not-market-sensitive flag is appropriate and consistent with the filing type; absent a market-sensitive flag, the base rate for a directional move attributable to this filing is materially lower, and the cleansing notice itself provides no basis for a directional call.",
+        "MKR at 71.3% below its 12-month high signals a stock under sustained selling pressure — the cleansing notice, by confirming placement shares are now freely tradeable, could marginally add near-term supply overhang if recent placees are underwater and look to exit, which is a mild technical negative in an already weak tape."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.066,
+        "volume_trend_ratio": 1.05,
+        "volume_last_ratio": 1.3,
+        "avg_turnover_aud": 823850,
+        "liquid": true,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 1.54,
+        "pct_from_52w_high": -71.3,
+        "pct_from_52w_low": 94.12,
+        "range_position_3m": 0.029,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "71.3% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 33.33% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MM1",
+      "company": "MIDAS MINERALS LTD",
+      "headline": "Further High-Grade Copper Intercepts at Deblin",
+      "time": "2026-09-13T23:31:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135034-6A1343627",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade copper intercepts are a genuine value driver in the current copper supply-deficit narrative — 'further' results suggest a consistently mineralised system at Deblin rather than a one-off hit, which supports resource confidence and de-risks the project geology.",
+        "The market-sensitive flag adds credibility that the grades or widths disclosed are material by ASX standards; investors should focus on copper equivalent grades, true widths, and continuity relative to prior intercepts to judge whether this represents a step-change in resource potential.",
+        "Critically, volume over the last 5 sessions was only 0.44x the 20-day average — well below normal — indicating the market was not positioned into this result. That low pre-announcement volume is potentially bullish: there is no obvious front-running, meaning the positive surprise could drive a sharper re-rating as new buyers enter on the news."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 1.24,
+        "volume_trend_ratio": 0.44,
+        "volume_last_ratio": 0.39,
+        "avg_turnover_aud": 993644,
+        "liquid": true,
+        "pct_from_3m_high": -12.06,
+        "pct_from_3m_low": 77.14,
+        "pct_from_52w_high": -12.06,
+        "pct_from_52w_low": 254.29,
+        "range_position_3m": 0.761,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.44x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, MM1 traded only 0.44x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 12.06% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PGF",
+      "company": "PM CAPITAL GLOBAL OPPORTUNITIES FUND LIMITED",
+      "headline": "Net Tangible Asset Backing - 11 September 2026",
+      "time": "2026-09-13T23:30:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135033-2A1696888",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Daily NTA disclosures for Listed Investment Companies (LICs) are routine regulatory filings — the signal is the premium or discount to NTA implied by the current share price, which drives arbitrage and long-term investor positioning decisions.",
+        "This filing is not market sensitive and carries no operational, strategic, or earnings content — consistent with the base rate for unflagged filings, there is no standalone reason to expect a material directional move from this announcement alone.",
+        "No price action data is provided for PGF, so no tape-based inference can be drawn; investors should focus on whether the published NTA represents a meaningful move from the prior day's figure, which would reflect the underlying portfolio's performance on 11 September 2026 and any currency or valuation effects on global holdings."
+      ],
+      "tags": [
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 3.18,
+        "volume_trend_ratio": 0.82,
+        "volume_last_ratio": 0.87,
+        "avg_turnover_aud": 2943242,
+        "liquid": true,
+        "pct_from_3m_high": -9.01,
+        "pct_from_3m_low": 2.91,
+        "pct_from_52w_high": -9.01,
+        "pct_from_52w_low": 24.71,
+        "range_position_3m": 0.222,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 9.01% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MA1",
+      "company": "MA CREDIT INCOME TRUST",
+      "headline": "Application for quotation of securities - MA1",
+      "time": "2026-09-13T23:30:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135032-2A1696890",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An application for quotation of new securities is standard post-capital-raise administration — it means newly issued units are being admitted to trading on ASX, which is procedurally necessary but carries no new financial or strategic information about the trust's performance or pipeline.",
+        "The filing is not market sensitive, which is appropriate for this document type; the unflagged status combined with the purely administrative nature of the announcement means there is no basis for a directional call beyond the mechanical supply-side implication of new units entering the market.",
+        "MA1 trading 3.23% off its 3-month high into this announcement suggests the stock is in reasonable shape — the new unit quotation may create a modest technical supply overhang if the units were issued at a discount, but for a credit income trust the price typically gravitates toward NTA, dampening volatility in either direction."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 1.945,
+        "volume_trend_ratio": 0.9,
+        "volume_last_ratio": 2.31,
+        "avg_turnover_aud": 859454,
+        "liquid": true,
+        "pct_from_3m_high": -3.23,
+        "pct_from_3m_low": 2.37,
+        "pct_from_52w_high": -5.12,
+        "pct_from_52w_low": 2.37,
+        "range_position_3m": 0.409,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "3.23% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 3.23% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TG1",
+      "company": "TECHGEN METALS LTD",
+      "headline": "TG1 Targets Gold for Q4 2026",
+      "time": "2026-09-13T23:30:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135031-6A1343625",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Targeting gold for Q4 2026 is a forward-looking operational milestone, but the language 'targets' is non-binding — this is a programme announcement, not a discovery, and the actual market response will hinge on whether the update includes specific drill targets, funding confirmation, or JV terms.",
+        "The tape is the most important context here: TG1 is at a 12-month low with volume running at 2.12x its 20-day average in the 5 sessions prior — elevated volume into a 12-month low typically reflects either forced selling exhaustion or speculative bottom-fishing, and this announcement may be timed to arrest the decline.",
+        "The risk is that a forward-programme update without hard results or new capital is insufficient to reverse a stock already at 52-week lows — positive framing of future activity can read as 'nothing to report yet,' and the elevated recent volume suggests sellers have been active, not buyers. Conviction is limited without drill data."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.01,
+        "volume_trend_ratio": 2.12,
+        "volume_last_ratio": 0.09,
+        "avg_turnover_aud": 67851,
+        "liquid": true,
+        "pct_from_3m_high": -69.7,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -86.3,
+        "pct_from_52w_low": 0.0,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.12x its 20-day average",
+          "at a 12-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, TG1 traded 2.12x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close, before this announcement was public.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCG",
+      "company": "PENGANA CAPITAL GROUP LIMITED",
+      "headline": "Monthly Funds Under Management - 31 August 2026",
+      "time": "2026-09-13T23:30:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135030-2A1696887",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Monthly FUM disclosures are a direct valuation input for fund managers like PCG — the key signal is whether FUM grew, shrank, or held flat versus July 2026 and the prior year, as management fees are directly proportional and market moves in August 2026 will have driven a large part of the outcome.",
+        "The market-sensitive flag is notable for what is typically a routine filing; it implies the August FUM number may be materially outside expectations — either a significant outflow event or a positive FUM milestone that management has determined is price-sensitive.",
+        "PCG's tape is essentially uninformative for directional purposes: with median daily turnover of only ~A$361, this is an extremely thinly traded stock and volume ratios are close to meaningless — any price reaction will be driven purely by the FUM figure itself rather than pre-announcement positioning."
+      ],
+      "tags": [
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.71,
+        "volume_trend_ratio": 0.08,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 361,
+        "liquid": false,
+        "pct_from_3m_high": -29.7,
+        "pct_from_3m_low": 9.23,
+        "pct_from_52w_high": -29.7,
+        "pct_from_52w_low": 9.23,
+        "range_position_3m": 0.167,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.08x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$361/day",
+        "reading": [
+          "Going into this, PCG traded only 0.08x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 29.7% below the high of that period.",
+          "Treat all of that with care: it trades about A$361 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TVN",
+      "company": "TIVAN LIMITED",
+      "headline": "Tivan extends Turiscai Project in Timor-Leste",
+      "time": "2026-09-13T23:29:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135029-6A1343626",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Extending the Turiscai Project tenure is a positive optionality event — it maintains TVN's foothold in Timor-Leste's critical minerals space and prevents the alternative outcome of licence lapse, which would have been definitively negative; however, an extension is not a discovery and does not advance the development timeline materially.",
+        "The market-sensitive flag suggests either the extension terms are unusually favourable, the scale of the extended area is significant, or there is an associated commercial development — investors should look for whether the announcement includes new work commitments, government support signals, or strategic partner involvement.",
+        "TVN entering this announcement at a 3-month low is a headwind for sentiment — the stock has been underperforming and a licence extension alone is unlikely to be sufficient to reverse that trend without a harder commercial catalyst; the news floor the downside more than it drives upside."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.195,
+        "volume_trend_ratio": 0.66,
+        "volume_last_ratio": 0.74,
+        "avg_turnover_aud": 431551,
+        "liquid": true,
+        "pct_from_3m_high": -48.0,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -59.79,
+        "pct_from_52w_low": 96.97,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SVR",
       "company": "SOLVAR LIMITED",
