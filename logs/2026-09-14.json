@@ -1,9 +1,849 @@
 {
   "date": "2026-09-14",
-  "total": 118,
-  "market_sensitive_count": 33,
-  "generated_at": "2026-09-13T22:41:12.096431+00:00",
+  "total": 137,
+  "market_sensitive_count": 40,
+  "generated_at": "2026-09-13T22:51:41.485270+00:00",
   "announcements": [
+    {
+      "ticker": "GRE",
+      "company": "GREENTECH METALS LIMITED",
+      "headline": "Extensional Whundo Drilling Hits 4.8m at 7.1% Cu 0.9g/t Au",
+      "time": "2026-09-13T22:49:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134940-6A1343603",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A hit of 4.8m at 7.1% Cu and 0.9g/t Au is a genuinely strong intercept — copper grades above 5% are high-quality by global standards, and the gold co-credit meaningfully lifts the revenue equivalent per tonne, suggesting Whundo hosts an economically robust mineralised system.",
+        "The stock is 65% below its 12-month high, meaning much of the speculative premium has been wrung out; a market-sensitive result of this quality into a deeply de-rated tape is a material positive catalyst rather than confirmation of an already-priced thesis.",
+        "The word 'extensional' is the key qualifier — this is step-out drilling, meaning the company is testing whether the known resource grows laterally; confirmation of extensions at this grade significantly lifts the probability of a resource upgrade and de-risks the project's scale assumptions."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.056,
+        "volume_trend_ratio": 1.03,
+        "volume_last_ratio": 0.79,
+        "avg_turnover_aud": 55267,
+        "liquid": true,
+        "pct_from_3m_high": -27.27,
+        "pct_from_3m_low": 5.66,
+        "pct_from_52w_high": -65.0,
+        "pct_from_52w_low": 5.66,
+        "range_position_3m": 0.125,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "65.0% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 27.27% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALB",
+      "company": "ALBION RESOURCES LIMITED",
+      "headline": "Drilling Commences at the Gidgee Gold Project",
+      "time": "2026-09-13T22:48:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134939-6A1343598",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Drilling commencement announcements are catalysts for near-term newsflow rather than evidence of discovery — the filing signals operational activity is underway at Gidgee but delivers no assay data or metres intercepted to validate the gold system.",
+        "Gidgee sits in the Murchison goldfields of Western Australia, a proven gold province, which provides geological credibility, but the market-sensitive flag suggests management views this program as potentially material, implying targets of meaningful scale underpin the campaign.",
+        "The key watch is first-pass assay turnaround time; in the current gold price environment, any significant intercept from a WA Murchison program could attract disproportionate re-rating given elevated sector interest — investors should monitor for follow-up results filings within 4–8 weeks."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.049,
+        "volume_trend_ratio": 0.7,
+        "volume_last_ratio": 2.28,
+        "avg_turnover_aud": 3946,
+        "liquid": false,
+        "pct_from_3m_high": -18.33,
+        "pct_from_3m_low": 28.95,
+        "pct_from_52w_high": -43.02,
+        "pct_from_52w_low": 28.95,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$3,946/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 18.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,946 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ORA",
+      "company": "ORORA LIMITED",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-09-13T22:47:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134938-3A701648",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM notice is a procedural/administrative filing with no new financial or operational content — there is no basis in this document alone to infer any change to ORA's earnings outlook, capital allocation, or strategic direction.",
+        "The filing is explicitly not market sensitive, consistent with it being a routine statutory requirement; any meaningful signals will emerge from the AGM itself, particularly the chairman's address, management's trading update, and any shareholder resolutions that might indicate contested governance or strategic dissent.",
+        "Orora is a packaging major with ongoing strategic transition activity; investors should flag the AGM date and monitor for any supplementary market-sensitive disclosures released concurrently with or immediately following the meeting, as AGMs are a common vehicle for material updates."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 1.445,
+        "volume_trend_ratio": 0.69,
+        "volume_last_ratio": 0.57,
+        "avg_turnover_aud": 7144127,
+        "liquid": true,
+        "pct_from_3m_high": -7.37,
+        "pct_from_3m_low": 19.18,
+        "pct_from_52w_high": -40.53,
+        "pct_from_52w_low": 19.18,
+        "range_position_3m": 0.669,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 7.37% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KSN",
+      "company": "KINGSTON RESOURCES LIMITED",
+      "headline": "Annual Report to Shareholders",
+      "time": "2026-09-13T22:46:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134937-6A1343599",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "An annual report filing is a backward-looking statutory document — without the report's contents being summarised here, there is no new financial signal to extract, and the filing is explicitly not market sensitive, consistent with its administrative nature.",
+        "The stock is 80% below its 12-month high, which is an extreme de-rating suggesting the market has been pricing in serious concerns about Kingston's project progress, cash position, or broader sector sentiment — the annual report may contain auditor going-concern language, impairments, or cash burn disclosures that either confirm or partially alleviate those concerns.",
+        "The critical read-through from the annual report for a stock this deeply discounted will be the cash balance, burn rate, and any updated resource or reserve statements — investors should interrogate these figures to assess whether KSN has sufficient runway to reach its next value inflection point without dilutive capital raising."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.033,
+        "volume_trend_ratio": 1.04,
+        "volume_last_ratio": 1.89,
+        "avg_turnover_aud": 72367,
+        "liquid": true,
+        "pct_from_3m_high": -21.43,
+        "pct_from_3m_low": 10.0,
+        "pct_from_52w_high": -80.0,
+        "pct_from_52w_low": 10.0,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "80.0% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 21.43% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AI1",
+      "company": "ADISYN LTD",
+      "headline": "3rd US Patent Extending Protection to Non-Metallic Surfaces",
+      "time": "2026-09-13T22:45:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134936-6A1343597",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A third US patent extending protection to non-metallic surfaces meaningfully broadens Adisyn's addressable market beyond the metallic substrate base covered by earlier patents, potentially opening construction, plastics, and composites verticals — this is an IP moat expansion event, not a routine filing.",
+        "The stock is at a 3-month low heading into this announcement, which is a double-edged signal: on one hand, the positive news arrives into weak sentiment, giving it scope to act as a sentiment reversal trigger; on the other, a stock making lows despite earlier patents suggests the market has not been rewarding IP milestones alone, and this third grant may face the same reception without a clear commercialisation pathway.",
+        "The critical missing element is any revenue or licensing agreement that monetises the patent portfolio — until Adisyn converts granted patents into contracted income or a strategic partnership, the market is likely to apply a heavy discount to the IP book value, capping the upside from this filing."
+      ],
+      "tags": [
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.12,
+        "volume_trend_ratio": 0.67,
+        "volume_last_ratio": 0.78,
+        "avg_turnover_aud": 349288,
+        "liquid": true,
+        "pct_from_3m_high": -45.45,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -64.18,
+        "pct_from_52w_low": 215.79,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MGH",
+      "company": "MAAS GROUP HOLDINGS LIMITED",
+      "headline": "Update - Notification of buy-back - MGH",
+      "time": "2026-09-13T22:45:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134935-2A1696848",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An on-market buyback update is a capital allocation signal — it confirms management is actively returning capital to shareholders, which is modestly supportive of the share price by reducing the float and signalling that the board believes the stock is undervalued relative to its intrinsic worth.",
+        "This is a notification update rather than an initiation announcement, meaning a program is already in progress; the 'so what' depends on the volume and pace of buyback activity disclosed — a meaningful acceleration in buyback quantum would be a stronger signal than a routine administrative update.",
+        "The filing is not flagged as market sensitive, which limits its expected price impact; per the track record on unflagged filings, this document needs to make its own case, and a routine buyback progress notification without headline-grabbing quantum or completion news is unlikely to be a material near-term mover."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 5.9,
+        "volume_trend_ratio": 0.75,
+        "volume_last_ratio": 0.54,
+        "avg_turnover_aud": 7974642,
+        "liquid": true,
+        "pct_from_3m_high": -5.3,
+        "pct_from_3m_low": 22.66,
+        "pct_from_52w_high": -5.3,
+        "pct_from_52w_low": 61.64,
+        "range_position_3m": 0.768,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 5.3% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LPM",
+      "company": "LITHIUM PLUS MINERALS LTD.",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-09-13T22:45:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134934-2A1696847",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Routine AGM notice carries no operational or financial substance — purely administrative, with zero price-moving information embedded in the filing itself.",
+        "Volume over the last 5 sessions ran at just 0.42x average on a stock with median daily turnover of ~A$8,089; at that liquidity level, volume ratios are close to meaningless as a signal — any single trade skews the read.",
+        "For a micro-cap explorer like LPM, AGM season matters only if contentious resolutions (e.g. dilutive share issuances, director elections with opposition) surface in the proxy form — investors should review the actual resolution details before forming a view."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.125,
+        "volume_trend_ratio": 0.42,
+        "volume_last_ratio": 0.02,
+        "avg_turnover_aud": 8089,
+        "liquid": false,
+        "pct_from_3m_high": -19.35,
+        "pct_from_3m_low": 38.89,
+        "pct_from_52w_high": -37.5,
+        "pct_from_52w_low": 64.47,
+        "range_position_3m": 0.538,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.42x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$8,089/day",
+        "reading": [
+          "Going into this, LPM traded only 0.42x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 19.35% below the high of that period.",
+          "Treat all of that with care: it trades about A$8,089 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TA1",
+      "company": "TRANSURBAN FINANCE COMPANY PTY LTD",
+      "headline": "2026 Notice of meetings",
+      "time": "2026-09-13T22:44:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134933-2A1696841",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Notice of meetings for Transurban Finance Company (TA1) is a bondholder/noteholder administrative process — no operational update, no financial disclosure, and no valuation catalyst embedded in the announcement.",
+        "TA1 is a debt-issuing vehicle for the Transurban Group; meetings of this type typically relate to covenant amendments, consent solicitations, or routine bondholder approvals — the specific agenda should be reviewed for any material consent items that could affect debt terms.",
+        "No price action data is provided for this filing; given its procedural nature and the absence of a market-sensitive flag, the default expectation is minimal equity-level impact unless a debt restructuring or covenant waiver is on the agenda."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUR",
+      "company": "AURIS MINERALS LIMITED",
+      "headline": "Morck Well Air Core Drilling Results",
+      "time": "2026-09-13T22:43:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134932-6A1343595",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "With median daily turnover of around A$1,066 and volume over the last five sessions at just 0.02x its long-run average, AUR is effectively illiquid — volume ratios at this extreme are close to meaningless as a signal of informed positioning, so the pre-announcement tape offers no useful read-through on how the market has been interpreting drilling progress.",
+        "The stock sits 67% below its 12-month high, meaning the bar for a positive re-rating is low in price terms, but the near-zero liquidity means any reaction — positive or negative — will be mechanically amplified by the absence of a functioning two-sided market.",
+        "Air core results at Morck Well are a first-pass tool; the 'so what' depends entirely on whether anomalous zones justify the higher cost of RC or diamond follow-up drilling — investors need to scrutinise the intercept widths and soil geochemistry to determine if this program advances or closes off the target."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.015,
+        "volume_trend_ratio": 0.02,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 1066,
+        "liquid": false,
+        "pct_from_3m_high": -25.0,
+        "pct_from_3m_low": 25.0,
+        "pct_from_52w_high": -67.39,
+        "pct_from_52w_low": 114.29,
+        "range_position_3m": 0.375,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.02x its average",
+          "67.39% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,066/day",
+        "reading": [
+          "Going into this, AUR traded only 0.02x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 25.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,066 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUI",
+      "company": "AUSTRALIAN UNITED INVESTMENT COMPANY LIMITED",
+      "headline": "Update - Notification of buy-back - AUI",
+      "time": "2026-09-13T22:43:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134931-3A701647",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AUI's buy-back update signals continued capital management discipline — on-market buy-backs are mildly accretive to NTA per share and reflect board confidence in the discount to intrinsic value, a consistent positive for LIC shareholders.",
+        "With AUI sitting only 2.64% off its 3-month high, the stock is in a position of relative strength; buy-back support at these levels is modestly constructive but the price-in risk is real — much of the positive signal may already be reflected in the tape.",
+        "For a listed investment company, sustained buy-back activity also narrows the NTA discount over time; investors should cross-reference the current NTA per share against the market price to assess remaining upside from this mechanism."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 11.82,
+        "volume_trend_ratio": 1.32,
+        "volume_last_ratio": 2.02,
+        "avg_turnover_aud": 672588,
+        "liquid": true,
+        "pct_from_3m_high": -2.64,
+        "pct_from_3m_low": 8.44,
+        "pct_from_52w_high": -2.64,
+        "pct_from_52w_low": 15.09,
+        "range_position_3m": 0.742,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "2.64% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 2.64% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SLB",
+      "company": "STELAR METALS LIMITED",
+      "headline": "Maiden Soil Geochemical Survey Completed at Hill of Leaders",
+      "time": "2026-09-13T22:42:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134930-6A1343594",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Completion of a maiden soil geochemical survey at Hill of Leaders is a very early-stage exploration milestone — it defines anomalies for follow-up targeting but carries no resource or reserve implications at this point.",
+        "Volume over the last 5 sessions was 0.49x average on a stock with median daily turnover of ~A$48,106; the stock is thinly traded and the volume ratio is close to meaningless at this liquidity level — no accumulation or distribution signal can be reliably drawn.",
+        "The 'so what' for investors: the value of this announcement depends entirely on the grade and spatial coherence of the anomalies identified — if results are not disclosed in this filing, the market will likely wait for follow-up drill targets before re-rating."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.255,
+        "volume_trend_ratio": 0.49,
+        "volume_last_ratio": 0.89,
+        "avg_turnover_aud": 48106,
+        "liquid": false,
+        "pct_from_3m_high": -15.0,
+        "pct_from_3m_low": 142.86,
+        "pct_from_52w_high": -15.0,
+        "pct_from_52w_low": 363.64,
+        "range_position_3m": 0.769,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.49x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$48,106/day",
+        "reading": [
+          "Going into this, SLB traded only 0.49x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 15.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$48,106 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BXB",
+      "company": "BRAMBLES LIMITED",
+      "headline": "Notification of cessation of securities - BXB",
+      "time": "2026-09-13T22:42:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134929-2A1696846",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities at Brambles (BXB) typically reflects the lapse or vesting of performance rights, options, or other equity instruments — net effect on share count depends on whether these were in-the-money instruments that vested (neutral to mildly dilutive) or out-of-money options that lapsed (mildly positive via reduced overhang).",
+        "Without a market-sensitive flag and given the routine nature of this disclosure for a large-cap like BXB, this is standard equity plan administration and carries no strategic or operational signal.",
+        "Investors should check the volume and strike price of the lapsed/ceased instruments relative to BXB's current share price to confirm whether overhang reduction is material — for a company of BXB's market cap, it is unlikely to be price-moving."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 18.65,
+        "volume_trend_ratio": 0.7,
+        "volume_last_ratio": 0.81,
+        "avg_turnover_aud": 82932166,
+        "liquid": true,
+        "pct_from_3m_high": -8.8,
+        "pct_from_3m_low": 2.81,
+        "pct_from_52w_high": -27.69,
+        "pct_from_52w_low": 15.27,
+        "range_position_3m": 0.221,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 8.8% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AEV",
+      "company": "AVENIRA LIMITED",
+      "headline": "Renounceable Rights Issue  Extension of Offer Period",
+      "time": "2026-09-13T22:41:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134928-6A1343593",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An extension of the offer period for a renounceable rights issue is a yellow flag — it almost always signals weak take-up from shareholders, forcing the company to buy more time to improve subscription rates or allow the underwriter/sub-underwriter to find buyers.",
+        "Volume over the last 5 sessions was just 0.42x average on a stock with median daily turnover of ~A$7,839; at this level of illiquidity the volume ratio is effectively noise, but the thin tape means any selling pressure from rights-issue arbitrage or shareholder apathy could have outsized price impact.",
+        "The core risk: if the extended offer period still fails to achieve full subscription, shortfall shares placed at the issue price create a pricing anchor and potential overhang — investors should monitor the final take-up announcement closely before re-engaging."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.006,
+        "volume_trend_ratio": 0.42,
+        "volume_last_ratio": 0.12,
+        "avg_turnover_aud": 7839,
+        "liquid": false,
+        "pct_from_3m_high": -25.0,
+        "pct_from_3m_low": 9.39,
+        "pct_from_52w_high": -33.33,
+        "pct_from_52w_low": 9.39,
+        "range_position_3m": 0.205,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.42x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$7,839/day",
+        "reading": [
+          "Going into this, AEV traded only 0.42x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 25.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$7,839 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ENP",
+      "company": "ENTROPY NEURODYNAMICS LIMITED",
+      "headline": "All Patients Improve, 50% Achieve 12-Week BED Remission",
+      "time": "2026-09-13T22:40:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134927-6A1343591",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 50% remission rate at 12 weeks for Binge Eating Disorder (BED) is a clinically meaningful outcome — BED is a high-prevalence, underserved condition with limited approved pharmacotherapy, and a 50% remission benchmark compares favourably against existing treatment modalities, giving ENP a credible efficacy story for out-licensing or regulatory progression.",
+        "'All patients improve' is a powerful headline for a small-cap biotech, but the critical context is sample size — if n is small (as is typical at this stage), statistical confidence intervals are wide and the result, while directionally strong, is hypothesis-generating rather than pivotal; investors must verify the cohort size before pricing in regulatory success.",
+        "The stock was only 4.76% off its 3-month high heading into this announcement, suggesting the market has already begun to price optimism into ENP — the risk is that this result, while positive, is partially anticipated, which may limit incremental upside and increase sensitivity to any fine-print caveats in the full data release."
+      ],
+      "tags": [
+        "Healthcare",
+        "Results"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.04,
+        "volume_trend_ratio": 0.54,
+        "volume_last_ratio": 0.42,
+        "avg_turnover_aud": 52251,
+        "liquid": true,
+        "pct_from_3m_high": -4.76,
+        "pct_from_3m_low": 33.33,
+        "pct_from_52w_high": -13.04,
+        "pct_from_52w_low": 60.0,
+        "range_position_3m": 0.833,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.54x its average",
+          "4.76% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, ENP traded only 0.54x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 4.76% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALL",
+      "company": "ARISTOCRAT LEISURE LIMITED",
+      "headline": "Update - Notification of buy-back - ALL",
+      "time": "2026-09-13T22:40:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134926-2A1696845",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Aristocrat Leisure's buy-back update confirms continued execution of its capital return program — for a high-quality, cash-generative gaming company, active buy-back prosecution is a well-understood positive signal for EPS accretion.",
+        "No price action data is provided for this filing; at ALL's scale and institutional ownership, buy-back updates are typically well-anticipated and incrementally priced in rather than being a standalone catalyst.",
+        "The filing is not market-sensitive and represents routine disclosure under ASX Listing Rules; the 'so what' is that management continues to prioritise shareholder returns over balance sheet accumulation, consistent with a confident outlook on free cash flow."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 59.89,
+        "volume_trend_ratio": 0.86,
+        "volume_last_ratio": 0.75,
+        "avg_turnover_aud": 74337053,
+        "liquid": true,
+        "pct_from_3m_high": -10.51,
+        "pct_from_3m_low": 16.02,
+        "pct_from_52w_high": -15.52,
+        "pct_from_52w_low": 35.56,
+        "range_position_3m": 0.541,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 10.51% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VTM",
+      "company": "VICTORY METALS LIMITED",
+      "headline": "MINING LEASE GRANTED FOR NORTH STANMORE",
+      "time": "2026-09-13T22:40:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134925-6A1343592",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A mining lease grant is a hard regulatory milestone — it converts an exploration tenement into a lawful production authority and materially de-risks the North Stanmore project by removing the single largest sovereign/administrative hurdle between resource and mine; this is not a soft catalyst.",
+        "The grant signals that VTM has satisfied all environmental, heritage, and technical conditions required by the relevant state authority, which substantially narrows the gap between current status and a Final Investment Decision — this is the type of milestone that re-rates the project on a risk-adjusted NPV basis.",
+        "Near-term focus will shift to whether Victory Metals can secure project financing or a joint-venture partner on the back of the lease grant; the filing materially improves the company's negotiating position with capital providers and potential strategic partners, making the next 90 days a high-optionality window."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 243,
+        "last_close": 1.38,
+        "volume_trend_ratio": 0.77,
+        "volume_last_ratio": 0.4,
+        "avg_turnover_aud": 132356,
+        "liquid": true,
+        "pct_from_3m_high": -23.33,
+        "pct_from_3m_low": 2.6,
+        "pct_from_52w_high": -28.31,
+        "pct_from_52w_low": 40.82,
+        "range_position_3m": 0.077,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 23.33% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CR1",
+      "company": "CONSTELLATION RESOURCES LIMITED",
+      "headline": "Date of Annual General Meeting",
+      "time": "2026-09-13T22:39:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134924-6A1343590",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Setting a date for the AGM is purely administrative — no financial, operational, or strategic information is conveyed in a 'date of AGM' announcement.",
+        "Volume over the last 5 sessions was 0.06x average on a stock with median daily turnover of just ~A$301; this is one of the most illiquid securities on the exchange and volume ratios at this level are entirely meaningless — a single small trade can move the ratio dramatically.",
+        "For investors, the only relevance is to calendar the meeting date in case material resolutions (capital raises, director changes) are subsequently disclosed in the notice of meeting — until then, no action warranted."
+      ],
+      "tags": [
+        "AGM",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.145,
+        "volume_trend_ratio": 0.06,
+        "volume_last_ratio": 0.05,
+        "avg_turnover_aud": 301,
+        "liquid": false,
+        "pct_from_3m_high": -6.79,
+        "pct_from_3m_low": 20.83,
+        "pct_from_52w_high": -45.28,
+        "pct_from_52w_low": 20.83,
+        "range_position_3m": 0.703,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.06x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$301/day",
+        "reading": [
+          "Going into this, CR1 traded only 0.06x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 6.79% below the high of that period.",
+          "Treat all of that with care: it trades about A$301 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FSA",
+      "company": "FSA GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - FSA",
+      "time": "2026-09-13T22:39:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134923-2A1696842",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "FSA Group's buy-back update is a modest positive signal — for a small financial services company, an active buy-back reflects board confidence in the valuation and provides EPS support, though the scale relative to market cap matters for assessing materiality.",
+        "Volume over the last 5 sessions ran at 0.57x average on a stock with median daily turnover of ~A$33,232; FSA is thinly traded and the below-average volume ratio is close to meaningless at this liquidity level — it should not be read as lack of conviction on the buy-back itself.",
+        "With no market-sensitive flag and routine disclosure mechanics, the near-term price impact is likely muted; the longer-term signal is balance sheet health and management's view that the stock is undervalued — investors should cross-check the buy-back price ceiling against current market price to assess remaining program capacity."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 1.25,
+        "volume_trend_ratio": 0.57,
+        "volume_last_ratio": 0.07,
+        "avg_turnover_aud": 33232,
+        "liquid": false,
+        "pct_from_3m_high": -10.39,
+        "pct_from_3m_low": 4.17,
+        "pct_from_52w_high": -10.39,
+        "pct_from_52w_low": 19.05,
+        "range_position_3m": 0.256,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.57x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$33,232/day",
+        "reading": [
+          "Going into this, FSA traded only 0.57x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 10.39% below the high of that period.",
+          "Treat all of that with care: it trades about A$33,232 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXB",
+      "company": "DIMERIX LIMITED",
+      "headline": "Dimerix DMX-652 Granted Mexican Composition of Matter Patent",
+      "time": "2026-09-13T22:39:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03134922-3A701646",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A composition of matter patent in Mexico for DMX-652 extends Dimerix's IP protection into Latin America's second-largest pharmaceutical market, adding geographic depth to a portfolio that presumably already covers major jurisdictions — composition of matter is the strongest form of pharmaceutical patent, protecting the molecule itself rather than just its use or formulation.",
+        "The stock is 62% below its 12-month high, indicating the market has been deeply sceptical of DXB's development trajectory — a single-country patent grant is unlikely to catalyse a sustained re-rating without accompanying clinical data progression or a licensing/partnership deal, as IP alone has not been rewarded in the recent tape.",
+        "The strategic value of this patent depends on whether Dimerix intends to self-commercialise in Mexico, out-license to a regional pharma partner, or use it as leverage in broader deal negotiations — clarity on the commercialisation model is the missing variable that would allow the market to assign a meaningful probability-weighted value to this asset."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 255,
+        "last_close": 0.25,
+        "volume_trend_ratio": 0.9,
+        "volume_last_ratio": 0.72,
+        "avg_turnover_aud": 265545,
+        "liquid": true,
+        "pct_from_3m_high": -24.24,
+        "pct_from_3m_low": 38.89,
+        "pct_from_52w_high": -62.41,
+        "pct_from_52w_low": 58.73,
+        "range_position_3m": 0.467,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "62.41% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 24.24% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "OSL",
       "company": "ONCOSIL MEDICAL LTD",
