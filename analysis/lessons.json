@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-14T07:06:47.862333+00:00",
+  "next_id": 6,
+  "lessons": [
+    {
+      "id": "L001",
+      "trigger": "Change in substantial holding filed into elevated recent volume (5-day volume >1.5x average) on a stock near a multi-month high",
+      "rule": "When volume has been running hot into a substantial holding change, treat the direction of the change as the critical unknown — a reduction by a substantial holder into strength is a material bearish signal, not a neutral procedural event. If you cannot confirm the direction is an increase, default to bearish when the tape is already extended.",
+      "created": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-14",
+          "ticker": "SRL",
+          "headline": "Change in substantial holding",
+          "called": "neutral",
+          "abnormal_pct": -15.47
+        }
+      ]
+    },
+    {
+      "id": "L002",
+      "trigger": "Drilling activity announcement (programme start, follow-up drilling underway) with no assay results disclosed",
+      "rule": "An announcement that drilling has commenced or is underway is a programme statement, not a result — it tells the market only that money is being spent. Do not call bullish on activity-commencement announcements alone; wait for assay data. Flag as neutral until results are released.",
+      "created": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-14",
+          "ticker": "PLC",
+          "headline": "Follow-Up RC Drilling Underway at Rochefort",
+          "called": "bullish",
+          "abnormal_pct": -14.39
+        }
+      ]
+    },
+    {
+      "id": "L003",
+      "trigger": "Multiple administrative filings (e.g. cessation of securities plus quotation of securities) lodged by the same company on the same day",
+      "rule": "When two or more procedural filings land simultaneously from the same issuer, treat the cluster as a potential signal of a capital raise or restructuring event that has just completed — ask what underlying transaction generated both filings and whether it implies dilution or a change in register composition that the market has not yet absorbed.",
+      "created": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-14",
+          "ticker": "KLV",
+          "headline": "Application for quotation of securities - KLV",
+          "called": "neutral",
+          "abnormal_pct": -13.74
+        }
+      ]
+    },
+    {
+      "id": "L004",
+      "trigger": "Clinical or scientific presentation announcement (oral or poster) at a named medical/scientific conference, stock at or near a multi-month low",
+      "rule": "An oral presentation slot at a competitive scientific conference is a positive credibility signal that is not merely procedural — it is peer selection of the data as noteworthy. When the stock is already at a significant low, this combination creates asymmetric upside that a neutral call misses; lean bullish when the presentation is oral, the conference is named and credible, and the stock is materially depressed.",
+      "created": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-14",
+          "ticker": "RAD",
+          "headline": "RAD oral presentation at SNO26 on RAD101 Phase IIb data",
+          "called": "neutral",
+          "abnormal_pct": 12.4
+        }
+      ]
+    },
+    {
+      "id": "L005",
+      "trigger": "Drilling intercept result where the headline grade and width appear strong, but the stock is deeply de-rated (>50% below 12-month high)",
+      "rule": "Before calling bullish on a strong-looking intercept, ask whether the company's de-rating reflects a known structural problem (funding gap, sovereign risk, permitting failure, commodity price collapse) that a single drill result cannot fix. If the stock has fallen >50% from its high, the market has already seen prior results and re-priced; one good hole is rarely sufficient to reverse that narrative without accompanying funding, resource upgrade, or offtake news.",
+      "created": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-14",
+          "ticker": "GRE",
+          "headline": "Extensional Whundo Drilling Hits 4.8m at 7.1% Cu 0.9g/t Au",
+          "called": "bullish",
+          "abnormal_pct": -9.03
+        }
+      ]
+    }
+  ],
+  "last_reflected": "2026-09-14"
+}

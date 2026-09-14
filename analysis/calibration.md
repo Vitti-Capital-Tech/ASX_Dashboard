@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 5 trading days, 1585 graded calls
+- Window: last 7 trading days, 2165 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-09-13T17:27:04.988233+00:00
+- Generated: 2026-09-14T07:06:47.989669+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **65%** correct on 334 graded calls.
+Directional calls (bullish/bearish): **64%** correct on 456 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 274 | 66.8% |
-| bearish | 60 | 56.7% |
+| bullish | 352 | 64.5% |
+| bearish | 104 | 62.5% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **59.8%** of the time (n=1050). Every graded announcement moved 62.1% of the time.
+Stocks called neutral moved 1% or more anyway **57.4%** of the time (n=1455). Every graded announcement moved 60.7% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,15 +30,15 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 186 | 73.7% |
-| Not flagged | 148 | 54.1% |
+| Market sensitive | 244 | 69.7% |
+| Not flagged | 212 | 57.5% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 284 | 66.9% |
+| Market Update | 386 | 65.8% |
 
 Document types with fewer than 30 graded calls are omitted rather
 than shown with a caveat. They will appear as the sample fills in.
@@ -50,8 +50,8 @@ than shown with a caveat. They will appear as the sample fills in.
 | TSR | bearish | +27.9% | Proposed issue of securities - TSR |
 | OSX | bullish | -19.9% | OSX secures market access to Thailand orthopaedic market |
 | RRR | bearish | +15.7% | Response to ASX Price and Volume Query |
+| PLC | bullish | -14.4% | Follow-Up RC Drilling Underway at Rochefort |
 | MGU | bullish | -14.2% | Assays Define 32.5km2 Priority Area at Piracanjuba North |
-| CRR | bullish | -13.2% | Full-Format DSD Cell Sustains Month of Cycling |
 
 Moves beyond ±30% are excluded from this list. At that size the
 likelier explanation is a consolidation or a rights issue repricing the shares,
