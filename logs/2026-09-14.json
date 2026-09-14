@@ -1,9 +1,1168 @@
 {
   "date": "2026-09-14",
-  "total": 346,
-  "market_sensitive_count": 93,
-  "generated_at": "2026-09-14T02:35:33.186891+00:00",
+  "total": 371,
+  "market_sensitive_count": 94,
+  "generated_at": "2026-09-14T03:29:56.843806+00:00",
   "announcements": [
+    {
+      "ticker": "AUV",
+      "company": "AURAVELLE METALS LIMITED",
+      "headline": "Change of Director's Interest Notice - Forwood",
+      "time": "2026-09-14T03:26:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135173-6A1343672",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director interest notice for Forwood is an administrative disclosure — without sight of the direction of the change (acquisition vs. disposal), the headline alone carries no clear directional signal for the stock.",
+        "AUV is thinly traded at a median of approximately A$4,962/day, sitting 73.33% below its 12-month high with volume at 0.47x its recent average — on a stock this illiquid, volume ratios carry little interpretive weight, and the deep discount to the 12-month high underscores persistent structural weakness.",
+        "The cluster of simultaneous director interest notices across multiple insiders (filings [2]–[5]) and a Cleansing Notice ([6]) strongly suggests a recent capital raise has just been completed — the 'so what' here is dilution risk and whether insider participation signals confidence or simply a compliance requirement."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.008,
+        "volume_trend_ratio": 0.47,
+        "volume_last_ratio": 0.05,
+        "avg_turnover_aud": 4962,
+        "liquid": false,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 60.0,
+        "pct_from_52w_high": -73.33,
+        "pct_from_52w_low": 60.0,
+        "range_position_3m": 0.429,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.47x its average",
+          "73.33% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$4,962/day",
+        "reading": [
+          "Going into this, AUV traded only 0.47x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$4,962 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUV",
+      "company": "AURAVELLE METALS LIMITED",
+      "headline": "Change of Director's Interest Notice - McGown",
+      "time": "2026-09-14T03:25:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135172-6A1343671",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director McGown's interest change, like filing [2], is a routine administrative disclosure with no standalone valuation impact — the filing itself is not market sensitive and provides no detail on quantum or direction of the interest change.",
+        "AUV's tape remains deeply depressed — 73.33% below its 12-month high — and median daily turnover of approximately A$4,962/day renders this stock effectively uninvestable for institutional purposes; liquidity risk dwarfs any signal from these filings.",
+        "Taken in context with the broader batch of AUV filings today, this is part of a post-capital-raise housekeeping cluster; the key question for investors is the terms and dilution impact of whatever raise was just completed, not the individual director notice."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.008,
+        "volume_trend_ratio": 0.47,
+        "volume_last_ratio": 0.05,
+        "avg_turnover_aud": 4962,
+        "liquid": false,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 60.0,
+        "pct_from_52w_high": -73.33,
+        "pct_from_52w_low": 60.0,
+        "range_position_3m": 0.429,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.47x its average",
+          "73.33% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$4,962/day",
+        "reading": [
+          "Going into this, AUV traded only 0.47x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$4,962 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUV",
+      "company": "AURAVELLE METALS LIMITED",
+      "headline": "Change of Director's Interest Notice - Muir",
+      "time": "2026-09-14T03:24:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135171-6A1343670",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director Muir's interest notice is the third of four simultaneous director disclosures for AUV — this pattern is consistent with options or shares being issued as part of a capital raise, with all participating directors required to file concurrently.",
+        "No new fundamental information is conveyed by this filing alone; at 73.33% below its 12-month high and with median daily turnover of approximately A$4,962/day, AUV lacks the liquidity profile to respond meaningfully to any single administrative disclosure.",
+        "If the raise involved director participation at a meaningful discount to market, that could be read as mild insider confidence — but without the specific terms, this remains speculative and the non-market-sensitive flag confirms ASX does not view it as price-moving on its own."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.008,
+        "volume_trend_ratio": 0.47,
+        "volume_last_ratio": 0.05,
+        "avg_turnover_aud": 4962,
+        "liquid": false,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 60.0,
+        "pct_from_52w_high": -73.33,
+        "pct_from_52w_low": 60.0,
+        "range_position_3m": 0.429,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.47x its average",
+          "73.33% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$4,962/day",
+        "reading": [
+          "Going into this, AUV traded only 0.47x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$4,962 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUV",
+      "company": "AURAVELLE METALS LIMITED",
+      "headline": "Change of Director's Interest Notice - Biggins",
+      "time": "2026-09-14T03:23:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135170-6A1343669",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Director Biggins' notice completes the quartet of simultaneous director interest disclosures — the coordinated timing across four directors strongly confirms a structured issuance event (most likely options or placement shares) rather than open-market activity.",
+        "At a stock this thinly traded (median ~A$4,962/day) and this far below its 12-month high (73.33%), the marginal impact of any single filing is negligible; the cumulative story of the day's announcements matters more than any individual notice.",
+        "The 'so what' for investors watching AUV: focus on the Cleansing Notice ([6]) and unquoted securities notifications ([7], [9]) to understand the scale and structure of new securities issued — those filings carry the actual dilution signal."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.008,
+        "volume_trend_ratio": 0.47,
+        "volume_last_ratio": 0.05,
+        "avg_turnover_aud": 4962,
+        "liquid": false,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 60.0,
+        "pct_from_52w_high": -73.33,
+        "pct_from_52w_low": 60.0,
+        "range_position_3m": 0.429,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.47x its average",
+          "73.33% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$4,962/day",
+        "reading": [
+          "Going into this, AUV traded only 0.47x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$4,962 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUV",
+      "company": "AURAVELLE METALS LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-14T03:18:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135169-6A1343668",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Cleansing Notice is filed after a capital raise to ensure securities issued without a prospectus are freely tradeable — its presence confirms AUV has completed a placement or rights issue, making dilution a live and near-term concern for existing holders.",
+        "The filing is not market sensitive, but it is operationally significant: it marks the point at which new shareholders can sell, meaning selling pressure from new placees could emerge imminently in an already illiquid stock sitting 73.33% below its 12-month high.",
+        "With median daily turnover of approximately A$4,962/day, even a modest volume of new shares hitting the market could materially move the price — the combination of a deep drawdown, fresh dilution, and thin liquidity creates an asymmetric risk profile skewed to the downside in the near term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.008,
+        "volume_trend_ratio": 0.47,
+        "volume_last_ratio": 0.05,
+        "avg_turnover_aud": 4962,
+        "liquid": false,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 60.0,
+        "pct_from_52w_high": -73.33,
+        "pct_from_52w_low": 60.0,
+        "range_position_3m": 0.429,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.47x its average",
+          "73.33% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$4,962/day",
+        "reading": [
+          "Going into this, AUV traded only 0.47x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$4,962 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AUV",
+      "company": "AURAVELLE METALS LIMITED",
+      "headline": "Notification regarding unquoted securities - AUV",
+      "time": "2026-09-14T03:13:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135168-6A1343667",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A notification regarding unquoted securities typically relates to the issue of options or performance rights — this filing, in conjunction with the four director interest notices and the Cleansing Notice, rounds out the picture of a recent capital raise with associated securities issued to directors or participants.",
+        "Unquoted securities (options/rights) represent contingent dilution rather than immediate dilution; however, in a stock already 73.33% below its 12-month high with minimal liquidity, any future conversion would add further pressure to an already stressed capital structure.",
+        "This is a routine compliance filing with no standalone price catalyst — the non-market-sensitive classification is appropriate — but institutional investors should aggregate today's full suite of AUV announcements to model the post-raise capital structure before drawing conclusions."
+      ],
+      "tags": [
+        "Compliance",
+        "Capital Raise"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.008,
+        "volume_trend_ratio": 0.47,
+        "volume_last_ratio": 0.05,
+        "avg_turnover_aud": 4962,
+        "liquid": false,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 60.0,
+        "pct_from_52w_high": -73.33,
+        "pct_from_52w_low": 60.0,
+        "range_position_3m": 0.429,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.47x its average",
+          "73.33% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$4,962/day",
+        "reading": [
+          "Going into this, AUV traded only 0.47x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$4,962 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MOT",
+      "company": "METRICS INCOME OPPORTUNITIES TRUST",
+      "headline": "Daily Fund Update",
+      "time": "2026-09-14T03:12:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135167-2A1696957",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MOT's daily NAV/fund update is a routine operational disclosure required for listed investment trusts — it conveys no new strategic or financial information beyond the daily portfolio mark and is explicitly not market sensitive.",
+        "Metrics Income Opportunities Trust is a credit-focused vehicle; daily updates serve as a liquidity and transparency mechanism for unitholders but carry no directional signal for the trust's unit price on a session-by-session basis.",
+        "No price action data is provided for MOT; given the nature of the instrument (income trust with a credit mandate), near-term price movement is driven by credit spread dynamics and distribution yield rather than by routine administrative filings of this type."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 1.57,
+        "volume_trend_ratio": 1.32,
+        "volume_last_ratio": 1.01,
+        "avg_turnover_aud": 1135306,
+        "liquid": true,
+        "pct_from_3m_high": -8.19,
+        "pct_from_3m_low": 3.63,
+        "pct_from_52w_high": -20.71,
+        "pct_from_52w_low": 3.63,
+        "range_position_3m": 0.282,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 8.19% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUV",
+      "company": "AURAVELLE METALS LIMITED",
+      "headline": "Notification regarding unquoted securities - AUV",
+      "time": "2026-09-14T03:10:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135166-6A1343666",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second unquoted securities notification for AUV on the same day suggests two separate tranches of unquoted securities were issued — this could reflect options issued to directors separately from those issued to third-party investors or advisers under the raise.",
+        "The duplication reinforces the complexity of the capital structure post-raise; for a stock with median daily turnover of approximately A$4,962/day, layered contingent dilution (multiple tranches of options) represents a meaningful long-term overhang even if not immediately crystallised.",
+        "Again a non-market-sensitive, procedural filing — no new information changes the fundamental assessment established across the day's AUV announcements; the aggregate picture is one of a heavily diluted, deeply discounted micro-cap with limited near-term re-rating catalysts."
+      ],
+      "tags": [
+        "Compliance",
+        "Capital Raise"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.008,
+        "volume_trend_ratio": 0.47,
+        "volume_last_ratio": 0.05,
+        "avg_turnover_aud": 4962,
+        "liquid": false,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 60.0,
+        "pct_from_52w_high": -73.33,
+        "pct_from_52w_low": 60.0,
+        "range_position_3m": 0.429,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.47x its average",
+          "73.33% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$4,962/day",
+        "reading": [
+          "Going into this, AUV traded only 0.47x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$4,962 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MXT",
+      "company": "METRICS MASTER INCOME TRUST",
+      "headline": "Daily Fund Update",
+      "time": "2026-09-14T03:08:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135165-2A1696956",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MXT's daily fund update mirrors MOT's ([8]) — a routine NAV disclosure for the Metrics Master Income Trust, the larger and more liquid sibling vehicle in the Metrics credit trust family, with no new strategic content.",
+        "Metrics Master Income Trust is a flagship ASX-listed credit fund with a broad institutional following; daily updates are a transparency requirement and not a market-moving event — the not-market-sensitive flag is appropriate and expected.",
+        "No price action data is available for MXT; as with MOT, unit price performance is dictated by credit market conditions, RBA rate expectations, and distribution yield relative to comparable income instruments — none of which are addressed in a daily fund update."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 1.835,
+        "volume_trend_ratio": 1.46,
+        "volume_last_ratio": 1.0,
+        "avg_turnover_aud": 5029168,
+        "liquid": true,
+        "pct_from_3m_high": -6.38,
+        "pct_from_3m_low": 9.23,
+        "pct_from_52w_high": -9.16,
+        "pct_from_52w_low": 9.23,
+        "range_position_3m": 0.554,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 6.38% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FPH",
+      "company": "FISHER & PAYKEL HEALTHCARE CORPORATION LIMITED",
+      "headline": "Capital Change Notice - Issue of Ordinary Shares",
+      "time": "2026-09-14T03:06:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135164-2A1696955",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine capital change notice relating to the issue of ordinary shares by FPH — most likely employee share plan or options exercise, representing standard equity administration with no strategic implications.",
+        "Not flagged market sensitive, and the document type offers no hint of a material capital raise or dilutive placement; at these volumes this is procedural housekeeping for a large-cap healthcare name.",
+        "No price action data provided; standalone this filing does not shift the investment thesis — investors should await the companion quotation application (see [6]) to confirm the scale and nature of the issuance before drawing conclusions."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 35.2,
+        "volume_trend_ratio": 1.15,
+        "volume_last_ratio": 1.07,
+        "avg_turnover_aud": 14024346,
+        "liquid": true,
+        "pct_from_3m_high": -6.66,
+        "pct_from_3m_low": 15.49,
+        "pct_from_52w_high": -6.66,
+        "pct_from_52w_low": 32.78,
+        "range_position_3m": 0.653,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 6.66% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IEL",
+      "company": "IDP EDUCATION LIMITED",
+      "headline": "Director Appointment/Resignation",
+      "time": "2026-09-14T03:04:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135163-3A701696",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director appointment or resignation at IDP Education is procedurally notable but carries limited near-term valuation impact — the key question is whether this is a departure of a key strategic figure or a routine board refresh.",
+        "The tape context is meaningful: IEL is sitting at a 12-month low on volume that has been running at just 0.47x its average over the last five sessions — subdued turnover into a price trough suggests sellers are not actively pressing but conviction from buyers is equally absent.",
+        "Board changes at stocks already under pressure can act as a sentiment catalyst in either direction; without knowing whether this is a resignation (potentially negative signal) or a value-adding appointment, the cautious read given the low price and thin volume is to treat this as neutral-to-watch rather than a trigger."
+      ],
+      "tags": [
+        "Board Change"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 1.51,
+        "volume_trend_ratio": 0.47,
+        "volume_last_ratio": 0.35,
+        "avg_turnover_aud": 4558687,
+        "liquid": true,
+        "pct_from_3m_high": -46.64,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -77.58,
+        "pct_from_52w_low": 0.0,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.47x its average",
+          "at a 12-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, IEL traded only 0.47x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PIC",
+      "company": "PERPETUAL EQUITY INVESTMENT COMPANY LIMITED",
+      "headline": "PIC Monthly Investment Update - August 2026",
+      "time": "2026-09-14T03:02:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135162-2A1696954",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PIC's August monthly update will disclose the portfolio's NTA per share and performance attribution — the key metric institutional investors will scan is whether NTA has held up or widened its discount/premium relative to the last reported price.",
+        "The stock is at a 3-month low heading into this release, which means any NTA figure in line with or above recent levels could reveal an expanded discount — historically a mild positive catalyst for LIC investors who trade the gap, but also a signal that market price has been drifting lower than fundamentals.",
+        "Not flagged market sensitive and monthly updates are recurring/expected; the 3-month low price context means downside surprise risk from the NTA figure is partially discounted, but a poor August performance number could extend the drawdown — net read is neutral with a mild upside skew if NTA holds."
+      ],
+      "tags": [
+        "Finance",
+        "Results"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 1.145,
+        "volume_trend_ratio": 0.91,
+        "volume_last_ratio": 1.02,
+        "avg_turnover_aud": 395740,
+        "liquid": true,
+        "pct_from_3m_high": -9.49,
+        "pct_from_3m_low": 0.44,
+        "pct_from_52w_high": -11.92,
+        "pct_from_52w_low": 2.69,
+        "range_position_3m": 0.04,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUV",
+      "company": "AURAVELLE METALS LIMITED",
+      "headline": "Notification regarding unquoted securities - AUV",
+      "time": "2026-09-14T03:01:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135161-6A1343665",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A notification regarding unquoted securities for AUV is administrative in nature — typically covering options, performance rights, or escrowed shares not yet on the exchange — and carries no direct operational signal.",
+        "AUV is thinly traded at a median turnover of approximately A$4,962/day, making the 0.47x volume ratio effectively meaningless as a sentiment indicator; at these liquidity levels, volume statistics reflect noise rather than institutional intent.",
+        "With the stock sitting 73.33% below its 12-month high, the share price already reflects significant capital destruction; this filing does nothing to address that fundamental overhang and is unlikely to move the needle in either direction."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.008,
+        "volume_trend_ratio": 0.47,
+        "volume_last_ratio": 0.05,
+        "avg_turnover_aud": 4962,
+        "liquid": false,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 60.0,
+        "pct_from_52w_high": -73.33,
+        "pct_from_52w_low": 60.0,
+        "range_position_3m": 0.429,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.47x its average",
+          "73.33% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$4,962/day",
+        "reading": [
+          "Going into this, AUV traded only 0.47x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$4,962 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMA",
+      "company": "CARMA LIMITED",
+      "headline": "Change of Director's Interest Notice - Wilson",
+      "time": "2026-09-14T03:00:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135160-2A1696953",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A change of director's interest notice for Wilson at Carma Limited is a disclosure obligation filing — the investable question is whether this reflects an on-market purchase (mildly bullish insider signal) or a sale/lapse of options (mildly negative), which is not determinable from the headline alone.",
+        "CMA trades at a median daily turnover of roughly A$43,448, making it thinly traded; the stock sits 69.77% below its 12-month high, indicating the market has already significantly re-rated the company — any insider buying at these levels would be notable, but the filing type alone doesn't confirm direction.",
+        "Not flagged market sensitive; at a stock already deeply distressed on price, this filing is unlikely to be a meaningful catalyst — the so-what depends entirely on whether the transaction was a buy or sell, and even then liquidity constraints limit the tradeable impact."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 216,
+        "last_close": 0.795,
+        "volume_trend_ratio": 1.3,
+        "volume_last_ratio": 0.02,
+        "avg_turnover_aud": 43448,
+        "liquid": false,
+        "pct_from_3m_high": -25.7,
+        "pct_from_3m_low": 24.22,
+        "pct_from_52w_high": -69.77,
+        "pct_from_52w_low": 45.87,
+        "range_position_3m": 0.36,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "69.77% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$43,448/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 25.7% below the high of that period.",
+          "Treat all of that with care: it trades about A$43,448 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FPH",
+      "company": "FISHER & PAYKEL HEALTHCARE CORPORATION LIMITED",
+      "headline": "Application for quotation of securities - FPH",
+      "time": "2026-09-14T02:56:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135159-2A1696952",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The quotation application is the mechanical follow-through to the capital change notice in [1] — ASX requires FPH to apply for listing of any newly issued shares, confirming this is a routine administrative step rather than a new announcement.",
+        "The pairing of [1] and [6] in the same session confirms the share issuance is being processed normally; for a large-cap like FPH this is standard practice associated with employee incentive plans or DRP, and dilution at this scale is immaterial to earnings per share.",
+        "No price action data provided; taken together with [1], the combined read remains procedural — long-term holders should note this as part of the routine equity management cycle and not interpret it as a capital raise signal."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 35.2,
+        "volume_trend_ratio": 1.15,
+        "volume_last_ratio": 1.07,
+        "avg_turnover_aud": 14024346,
+        "liquid": true,
+        "pct_from_3m_high": -6.66,
+        "pct_from_3m_low": 15.49,
+        "pct_from_52w_high": -6.66,
+        "pct_from_52w_low": 32.78,
+        "range_position_3m": 0.653,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 6.66% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TSR",
+      "company": "TURNSTONE RESOURCES LTD",
+      "headline": "Results of Meeting",
+      "time": "2026-09-14T02:55:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135158-6A1343663",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "Results of Meeting for TSR confirms shareholder votes on resolutions passed at a general or annual meeting — the critical detail is whether any resolutions related to capital structure, placements, or management changes were approved, which would carry follow-on implications.",
+        "TSR is trading at a median daily turnover of approximately A$420/day — effectively illiquid — making the 0.5x volume ratio over the last five sessions close to meaningless as a directional signal; price discovery in this name is unreliable.",
+        "Context is important: the recent track record on TSR (a prior bearish call that resulted in a +27.9% move) highlights that this stock is highly susceptible to sharp re-ratings on seemingly routine announcements — notably for a micro-cap, approved resolutions permitting share issuances can be precursors to capital raises that drive outsized moves in either direction."
+      ],
+      "tags": [
+        "AGM",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.021,
+        "volume_trend_ratio": 0.5,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 420,
+        "liquid": false,
+        "pct_from_3m_high": -30.0,
+        "pct_from_3m_low": 40.0,
+        "pct_from_52w_high": -57.14,
+        "pct_from_52w_low": 40.0,
+        "range_position_3m": 0.4,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.5x its average",
+          "57.14% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$420/day",
+        "reading": [
+          "Going into this, TSR traded only 0.5x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 30.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$420 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUV",
+      "company": "AURAVELLE METALS LIMITED",
+      "headline": "Application for quotation of securities - AUV",
+      "time": "2026-09-14T02:54:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135157-6A1343664",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AUV's quotation application is the administrative companion to the notification in [4] — the securities referenced (likely options or rights) are being applied for exchange listing, which is a required procedural step and not a new capital raise signal.",
+        "As with [4], AUV's median daily turnover of approximately A$4,962 renders volume metrics unreliable as indicators of sentiment; the stock is 73.33% below its 12-month high and these administrative filings do nothing to address the underlying fundamental pressures.",
+        "The back-to-back filings ([4] and [8]) suggest a coordinated processing of a prior issuance; investors should focus on what was issued and to whom — if these are founder or management options becoming quotable, there may be a modest overhang risk, but at current liquidity levels impact is likely minimal."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.008,
+        "volume_trend_ratio": 0.47,
+        "volume_last_ratio": 0.05,
+        "avg_turnover_aud": 4962,
+        "liquid": false,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 60.0,
+        "pct_from_52w_high": -73.33,
+        "pct_from_52w_low": 60.0,
+        "range_position_3m": 0.429,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.47x its average",
+          "73.33% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$4,962/day",
+        "reading": [
+          "Going into this, AUV traded only 0.47x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$4,962 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ORA",
+      "company": "ORORA LIMITED",
+      "headline": "Orora announces update on Company Secretary role",
+      "time": "2026-09-14T02:50:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135156-3A701695",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A company secretary role update at Orora is a governance administration filing — company secretaries handle regulatory compliance and board support functions, and turnover in this role is generally not a strategic indicator unless it coincides with other board-level changes.",
+        "Not flagged market sensitive and categorised as a market update — the ASX filing threshold for this type of announcement is disclosure-driven rather than performance-driven, making this a procedural obligation with no direct read-through to earnings or capital allocation.",
+        "No price action data provided; for a mid-cap packaging company like ORA, this filing has no foreseeable impact on the investment thesis — the more meaningful near-term catalysts remain operational performance and any strategic updates related to its asset portfolio."
+      ],
+      "tags": [
+        "Board Change",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 1.445,
+        "volume_trend_ratio": 0.69,
+        "volume_last_ratio": 0.57,
+        "avg_turnover_aud": 7144127,
+        "liquid": true,
+        "pct_from_3m_high": -7.37,
+        "pct_from_3m_low": 19.18,
+        "pct_from_52w_high": -40.53,
+        "pct_from_52w_low": 19.18,
+        "range_position_3m": 0.669,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 7.37% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MRE",
+      "company": "METRICS REAL ESTATE MULTI-STRATEGY FUND",
+      "headline": "August 2026 Monthly Report",
+      "time": "2026-09-14T02:49:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135155-2A1696951",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MRE's August monthly report will detail portfolio composition, income distribution, and NAV per unit — for a real estate multi-strategy fund, the key metrics are income yield sustainability and any shift in credit quality or LVR across the underlying loans or property exposures.",
+        "Monthly reports for fixed-income adjacent real estate funds are recurring and expected; they rarely move the price materially unless they reveal deterioration in asset quality, a change to distribution guidance, or an unexpected valuation markdown on holdings.",
+        "Not flagged market sensitive; no price action data provided — the investable signal from this filing depends entirely on whether the August report shows any deviation from prior months in NTA trajectory or distribution coverage, which cannot be determined from the headline alone."
+      ],
+      "tags": [
+        "Property",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 252,
+        "last_close": 1.68,
+        "volume_trend_ratio": 1.06,
+        "volume_last_ratio": 0.91,
+        "avg_turnover_aud": 290264,
+        "liquid": true,
+        "pct_from_3m_high": -15.15,
+        "pct_from_3m_low": 1.51,
+        "pct_from_52w_high": -17.24,
+        "pct_from_52w_low": 1.51,
+        "range_position_3m": 0.077,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 15.15% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MOT",
+      "company": "METRICS INCOME OPPORTUNITIES TRUST",
+      "headline": "August 2026 Monthly Report",
+      "time": "2026-09-14T02:49:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135154-2A1696950",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine monthly report for MOT — a listed credit fund — providing NAV, distribution, and portfolio composition updates; no market-sensitive flag means no material surprises are embedded in the release.",
+        "Key metrics to watch are the NTA per unit versus market price (discount/premium trajectory) and the weighted average yield of the underlying loan book, which drives distribution sustainability in a shifting rate environment.",
+        "With no price action data provided and the filing classified as procedural, the report serves primarily as a portfolio monitoring tool for existing unitholders rather than a catalyst for new positioning."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 1.57,
+        "volume_trend_ratio": 1.32,
+        "volume_last_ratio": 1.01,
+        "avg_turnover_aud": 1135306,
+        "liquid": true,
+        "pct_from_3m_high": -8.19,
+        "pct_from_3m_low": 3.63,
+        "pct_from_52w_high": -20.71,
+        "pct_from_52w_low": 3.63,
+        "range_position_3m": 0.282,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 8.19% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MXT",
+      "company": "METRICS MASTER INCOME TRUST",
+      "headline": "August 2026 Monthly Report",
+      "time": "2026-09-14T02:48:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135153-2A1696949",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "MXT's August monthly report is a standard periodic disclosure for this flagship Metrics listed credit trust; the absence of a market-sensitive flag strongly suggests NTA and distribution figures are in line with prior months.",
+        "The critical read-through is whether the portfolio yield and credit quality metrics — arrears rates, loan-to-value ratios, and sector concentration — show any deterioration as higher-for-longer rate pressure flows through to borrower serviceability in the private credit book.",
+        "MXT typically trades at a modest premium or discount to NTA; institutional holders should cross-reference the reported NTA against the current market price to assess entry/exit value, but no external catalyst is present to shift that dynamic today."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 1.835,
+        "volume_trend_ratio": 1.46,
+        "volume_last_ratio": 1.0,
+        "avg_turnover_aud": 5029168,
+        "liquid": true,
+        "pct_from_3m_high": -6.38,
+        "pct_from_3m_low": 9.23,
+        "pct_from_52w_high": -9.16,
+        "pct_from_52w_low": 9.23,
+        "range_position_3m": 0.554,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 6.38% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Daily Net Tangible Asset Statement",
+      "time": "2026-09-14T02:40:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135152-2A1696948",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "PCI's daily NTA statement is a routine administrative filing with no market-sensitive designation; however, the context is materially different from a quiet tape — the stock is sitting at a 3-month high heading into this print.",
+        "At a 3-month high, any confirmation that NTA per unit is stable or improving could reinforce momentum, but equally, if the disclosed NTA reveals the market price has stretched to an unusual premium, that limits further upside and increases reversal risk.",
+        "Given the procedural nature of the filing and the already-elevated price, the risk/reward skews toward the news being priced in — institutional investors should scrutinise the NTA-to-price spread before adding exposure at current levels rather than treating this as a fresh catalyst."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 252,
+        "last_close": 1.1,
+        "volume_trend_ratio": 0.96,
+        "volume_last_ratio": 0.99,
+        "avg_turnover_aud": 799376,
+        "liquid": true,
+        "pct_from_3m_high": -0.9,
+        "pct_from_3m_low": 2.33,
+        "pct_from_52w_high": -12.0,
+        "pct_from_52w_low": 8.37,
+        "range_position_3m": 0.714,
+        "at_3m_high": true,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GBE",
+      "company": "GLOBE METALS & MINING LIMITED",
+      "headline": "Globe Secures Further Legal Clearance for Kanyika Project",
+      "time": "2026-09-14T02:39:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135151-6A1343660",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Legal clearance is a meaningful de-risking milestone for the Kanyika niobium project, removing a specific regulatory obstacle that has historically been a key overhang for GBE — the market-sensitive flag signals management believes this is material to valuation.",
+        "Price action tells a cautionary story: volume over the last five sessions was just 0.13x average, and the stock sits 57.93% below its 12-month high — on a stock this thinly traded (median ~A$6,949/day), volume ratios are close to meaningless, but the deep drawdown suggests sustained seller pressure and limited institutional sponsorship, meaning positive news may struggle to attract meaningful buying interest.",
+        "Next steps investors should monitor: whether this legal clearance unlocks a specific development timeline or funding event for Kanyika — without a concrete catalyst attached (e.g. offtake, finance close, or construction decision), legal wins alone rarely sustain a re-rating in illiquid small-cap miners."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.061,
+        "volume_trend_ratio": 0.13,
+        "volume_last_ratio": 0.27,
+        "avg_turnover_aud": 6949,
+        "liquid": false,
+        "pct_from_3m_high": -36.46,
+        "pct_from_3m_low": 1.67,
+        "pct_from_52w_high": -57.93,
+        "pct_from_52w_low": 38.64,
+        "range_position_3m": 0.028,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.13x its average",
+          "57.93% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$6,949/day",
+        "reading": [
+          "Going into this, GBE traded only 0.13x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 36.46% below the high of that period.",
+          "Treat all of that with care: it trades about A$6,949 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "2026 Annual Report",
+      "time": "2026-09-14T02:35:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135150-6A1343662",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "FRS enters its annual report with the stock more than 50% below its 12-month high — a deeply distressed tape that typically means the market has already discounted significant operational or balance sheet stress, so the annual report is unlikely to be the first signal of bad news.",
+        "Key items to interrogate in the annual report are cash and cash equivalents relative to committed exploration expenditure, any going-concern language from the auditor, and whether resource estimates or tenure status have changed — all of which could either confirm or marginally reframe the bear case.",
+        "Annual reports for early-stage resource companies at these price levels rarely serve as re-rating catalysts; unless the filing contains a surprise such as an undisclosed farm-in, strategic review, or asset write-up, the dominant read is that fundamentals remain challenged and the depressed share price is broadly rational."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.36,
+        "volume_trend_ratio": 0.67,
+        "volume_last_ratio": 0.89,
+        "avg_turnover_aud": 2598396,
+        "liquid": true,
+        "pct_from_3m_high": -34.55,
+        "pct_from_3m_low": 16.13,
+        "pct_from_52w_high": -50.34,
+        "pct_from_52w_low": 111.76,
+        "range_position_3m": 0.208,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "50.34% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 34.55% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CIN",
+      "company": "CARLTON INVESTMENTS LIMITED",
+      "headline": "Weekly NTA - 11-09-26",
+      "time": "2026-09-14T02:34:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135149-2A1696947",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CIN's weekly NTA update is a purely procedural filing for this long-established listed investment company; with no market-sensitive flag and the stock only 1.65% off its 3-month high, there is negligible new information to move the price.",
+        "Volume context is effectively meaningless here — CIN is a thinly traded LIC with median daily turnover of roughly A$11,336, meaning even minor order flow can distort volume ratios, and the 0.09x average volume reading carries no reliable signal about institutional intent.",
+        "For long-term holders the relevant question remains whether the NTA per share — which this filing will update — continues to reflect the value of CIN's concentrated hotel and hospitality investment portfolio; absent a revaluation event, this is a hold-and-clip-the-dividend story with no near-term price catalyst."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 36.89,
+        "volume_trend_ratio": 0.09,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 11336,
+        "liquid": false,
+        "pct_from_3m_high": -1.65,
+        "pct_from_3m_low": 10.78,
+        "pct_from_52w_high": -2.61,
+        "pct_from_52w_low": 12.81,
+        "range_position_3m": 0.853,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.09x its average",
+          "1.65% off its 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$11,336/day",
+        "reading": [
+          "Going into this, CIN traded only 0.09x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 1.65% below the high of that period.",
+          "Treat all of that with care: it trades about A$11,336 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "FRS",
       "company": "FORRESTANIA RESOURCES LIMITED",
