@@ -1,9 +1,836 @@
 {
   "date": "2026-09-14",
-  "total": 304,
-  "market_sensitive_count": 91,
-  "generated_at": "2026-09-14T01:03:03.879891+00:00",
+  "total": 323,
+  "market_sensitive_count": 92,
+  "generated_at": "2026-09-14T01:38:42.388640+00:00",
   "announcements": [
+    {
+      "ticker": "EVR",
+      "company": "EV RESOURCES LTD",
+      "headline": "EVR Completes Rights Issue to Advance Antimony Production",
+      "time": "2026-09-14T01:37:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135125-6A1343654",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Completion of a rights issue for a stock sitting 73% below its 12-month high signals persistent capital stress — the company is funding operations from a deeply distressed price point, which implies significant dilution relative to any prior cost basis held by existing shareholders.",
+        "The antimony production advancement angle carries genuine strategic timing value given elevated antimony prices and critical-minerals policy tailwinds, but execution risk remains extreme for a micro-cap with median daily turnover of only ~A$11,367 — any fresh capital raised is a material catalyst relative to its tiny liquid float.",
+        "Market-sensitive flag elevates credibility of this announcement; with historical accuracy at 71.6% on flagged filings, the net read is cautiously bullish — fresh capital deployed toward near-term production in a hot commodity is directionally positive, but the thinly traded profile means any re-rating will likely be volatile and illiquid."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.043,
+        "volume_trend_ratio": 1.39,
+        "volume_last_ratio": 2.86,
+        "avg_turnover_aud": 11367,
+        "liquid": false,
+        "pct_from_3m_high": -46.25,
+        "pct_from_3m_low": 26.47,
+        "pct_from_52w_high": -73.12,
+        "pct_from_52w_low": 26.47,
+        "range_position_3m": 0.196,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "73.12% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$11,367/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 46.25% below the high of that period.",
+          "Treat all of that with care: it trades about A$11,367 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RCM",
+      "company": "RAPID CRITICAL METALS LIMITED",
+      "headline": "Notification of cessation of securities - RCM",
+      "time": "2026-09-14T01:34:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135124-2A1696932",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cessation of securities notice typically reflects the expiry or conversion of options, performance rights, or similar instruments — it is an administrative reduction in the securities count and does not represent new capital raised or operational news.",
+        "Volume over the last 5 sessions was just 0.34x the 20-day average into this announcement, confirming the market had no particular anticipation of this event; the stock is already 68.82% below its 12-month high, meaning it sits in deeply distressed territory.",
+        "Not flagged as market sensitive, and the filing type carries lower predictive accuracy; cessation of securities into a heavily sold-down stock has no meaningful valuation implication — the more important question for RCM is whether expired options indicate insider pessimism about the share price recovery trajectory."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.029,
+        "volume_trend_ratio": 0.34,
+        "volume_last_ratio": 0.38,
+        "avg_turnover_aud": 92517,
+        "liquid": true,
+        "pct_from_3m_high": -27.5,
+        "pct_from_3m_low": 3.57,
+        "pct_from_52w_high": -68.82,
+        "pct_from_52w_low": 3.57,
+        "range_position_3m": 0.083,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.34x its average",
+          "68.82% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, RCM traded only 0.34x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 27.5% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MA1",
+      "company": "MA CREDIT INCOME TRUST",
+      "headline": "MA1 Monthly Investor Report - August 2026",
+      "time": "2026-09-14T01:31:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135123-2A1696931",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A monthly investor report for a credit income trust is a routine disclosure — the 'so what' lives entirely in the reported yield, NAV per unit, credit quality metrics, and arrears data within the document, none of which is signalled by the headline alone.",
+        "The stock is 3.23% off its 3-month high, suggesting stable to modestly positive sentiment into this release; for a fixed-income proxy like MA1, this proximity to highs implies the market is broadly comfortable with current portfolio performance.",
+        "Not flagged as market sensitive; monthly reports for credit trusts are procedural and the filing accuracy base rate of 53.3% for unflagged announcements means this headline alone is insufficient to take a directional view — income-focused investors should interrogate the underlying credit metrics directly."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 1.945,
+        "volume_trend_ratio": 0.9,
+        "volume_last_ratio": 2.31,
+        "avg_turnover_aud": 859454,
+        "liquid": true,
+        "pct_from_3m_high": -3.23,
+        "pct_from_3m_low": 2.37,
+        "pct_from_52w_high": -5.12,
+        "pct_from_52w_low": 2.37,
+        "range_position_3m": 0.409,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "3.23% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 3.23% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SRL",
+      "company": "SUNRISE ENERGY METALS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-14T01:25:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135122-3A701691",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holding change at SRL comes into a tape that has been running hot — volume over the last 5 sessions was 1.93x the 20-day average, suggesting accumulation or redistribution was already underway before this filing hit the market.",
+        "The stock is only 1.25% off its 3-month high, meaning any bullish read from a new substantial holder entering is largely priced in at current levels; conversely, a reduction in a substantial holding into strength would be a meaningful warning sign — the direction of the change is the critical detail.",
+        "Not flagged as market sensitive, and unflagged filings carry a materially lower signal rate (53.3% accuracy); without knowing whether this is an increase or decrease in the substantial holding, and given the already-elevated price and volume, the filing is procedurally informative but not independently actionable."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 22.12,
+        "volume_trend_ratio": 1.93,
+        "volume_last_ratio": 1.56,
+        "avg_turnover_aud": 9292097,
+        "liquid": true,
+        "pct_from_3m_high": -1.25,
+        "pct_from_3m_low": 66.63,
+        "pct_from_52w_high": -1.25,
+        "pct_from_52w_low": 627.63,
+        "range_position_3m": 0.969,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.93x its 20-day average",
+          "1.25% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, SRL traded 1.93x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close, before this announcement was public.",
+          "The price sat in the upper part of its 3-month range, 1.25% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HPR",
+      "company": "HIGH PEAK ROYALTIES LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-09-14T01:25:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135121-6A1343653",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "HPR's substantial holding change is occurring in an extraordinarily illiquid stock — median daily turnover of approximately A$0/day renders volume ratios essentially meaningless, and the 0.08x average volume figure should not be read as a signal in either direction.",
+        "The stock is 2.11% off its 3-month high, which in the context of zero observable liquidity likely reflects stale pricing rather than genuine market enthusiasm or resistance at a technical level.",
+        "Not flagged as market sensitive; for a royalties vehicle with no functional secondary market, a substantial holding change is an administrative event with no near-term price catalyst — institutional investors should treat this as a monitoring note only."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.093,
+        "volume_trend_ratio": 0.08,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -2.11,
+        "pct_from_3m_low": 8.14,
+        "pct_from_52w_high": -3.12,
+        "pct_from_52w_low": 111.36,
+        "range_position_3m": 0.778,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.08x its average",
+          "2.11% off its 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, HPR traded only 0.08x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 2.11% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst CSL SFI MINIs Dividend Final Amount",
+      "time": "2026-09-14T01:24:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135120-2A1696930",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "This is a final dividend amount notice for CitiFirst CSL SFI MINIs (structured financial instruments), a mechanical settlement event with no informational content about CSL's underlying business performance or valuation.",
+        "The filing pertains to a derivative product (MINIs) linked to CSL; the dividend quantum announced here reflects the ordinary CSL dividend passing through the structured product wrapper, not a standalone corporate decision by CTW.",
+        "No price action data is provided; as a purely administrative dividend finalisation for a structured product, this carries no directional signal for any underlying equity."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst CSL SFIs Dividend Final Amount",
+      "time": "2026-09-14T01:23:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135119-2A1696929",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Identical in nature to announcement [6] — this is the final dividend amount for CitiFirst CSL SFIs (a separate structured product series to the MINIs), again a mechanical pass-through settlement event with no independent informational value.",
+        "The distinction between SFI MINIs and SFIs is a product structure technicality; both filings are administrative confirmations that the relevant CSL ordinary dividend has been captured and will be distributed to structured product holders.",
+        "No price action data is provided; this is a compliance-driven disclosure with zero directional implication for any traded equity."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REG",
+      "company": "REGIS HEALTHCARE LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-14T01:20:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135118-3A701690",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director interest change at REG is typically procedural — it may reflect on-market purchases, vesting of performance rights, or disposals; the directional signal depends entirely on whether this is accumulation or reduction, which the headline does not reveal.",
+        "REG is 52% below its 12-month high, placing it in materially distressed territory; director buying at these levels would carry a modestly constructive signal, while selling would compound negative sentiment on an already-weak tape.",
+        "Not flagged as market sensitive, and with unflagged filing accuracy at 53.3%, this is a monitoring event rather than a tradeable catalyst — healthcare investors should note the depressed price context but wait for the filing detail before drawing conclusions."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 4.51,
+        "volume_trend_ratio": 0.82,
+        "volume_last_ratio": 0.56,
+        "avg_turnover_aud": 4971717,
+        "liquid": true,
+        "pct_from_3m_high": -34.26,
+        "pct_from_3m_low": 17.14,
+        "pct_from_52w_high": -52.02,
+        "pct_from_52w_low": 17.14,
+        "range_position_3m": 0.219,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "52.02% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 34.26% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGA",
+      "company": "EASTERN GAS CORPORATION LIMITED",
+      "headline": "Venus-2H Drilling Operations Complete",
+      "time": "2026-09-14T01:17:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135117-2A1696928",
+      "market_sensitive": false,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "Completion of Venus-2H drilling operations is operationally significant for a small energy explorer, but EGA is extremely illiquid — median daily turnover of approximately A$542/day means even minor order flow will move the price disproportionately, and the 0.29x average volume ratio in a near-zero liquidity stock is effectively uninformative.",
+        "The document type is listed as 'Half Yearly Report,' which is incongruent with the headline about drilling completion — this mismatch may indicate a filing classification error; institutional investors should verify whether this is a standalone operational update or embedded within a broader financial report.",
+        "Not flagged as market sensitive; drilling completion news without accompanying results (flow rates, hydrocarbon shows, next steps) is operationally neutral at best — the market cannot price a well completion without knowing what was found."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 139,
+        "last_close": 0.16,
+        "volume_trend_ratio": 0.29,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 542,
+        "liquid": false,
+        "pct_from_3m_high": -13.51,
+        "pct_from_3m_low": 28.0,
+        "pct_from_52w_high": -27.27,
+        "pct_from_52w_low": 28.0,
+        "range_position_3m": 0.583,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.29x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$542/day",
+        "reading": [
+          "Going into this, EGA traded only 0.29x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the middle part of its 3-month range, 13.51% below the high of that period.",
+          "Treat all of that with care: it trades about A$542 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYB",
+      "company": "AUCYBER LIMITED",
+      "headline": "Cleansing notice",
+      "time": "2026-09-14T01:12:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135116-2A1696926",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cleansing notice is issued after a capital raise to allow placement shares to be traded freely — its presence confirms that a recent equity issuance has occurred, meaning dilution has already been executed; this is a lagging administrative disclosure, not a new event.",
+        "CYB is 50% below its 12-month high with median daily turnover of approximately A$0/day and volume over the last 5 sessions at just 0.02x average — the stock is functionally illiquid and these volume ratios carry no interpretive value in such a thin market.",
+        "Not flagged as market sensitive; cleansing notices are purely compliance-driven and the implicit message — that a placement was completed at what is almost certainly a deep discount to the 12-month high — reinforces the bearish longer-term capital trajectory, though near-term price discovery in a stock with no effective market is essentially impossible."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.042,
+        "volume_trend_ratio": 0.02,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -32.26,
+        "pct_from_3m_low": 5.0,
+        "pct_from_52w_high": -50.0,
+        "pct_from_52w_low": 5.0,
+        "range_position_3m": 0.091,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.02x its average",
+          "50.0% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, CYB traded only 0.02x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 32.26% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BHD",
+      "company": "BENJAMIN HORNIGOLD LIMITED",
+      "headline": "Net Tangible Asset Backing",
+      "time": "2026-09-14T01:12:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135115-2A1696924",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine monthly NTA disclosure for this listed investment company — carries no operational signal and is purely a valuation snapshot for unit holders tracking asset backing versus market price.",
+        "BHD is thinly traded with median daily turnover of effectively zero, meaning volume ratios are meaningless as an intent signal; the 3.77% pullback from its 3-month high likely reflects illiquidity rather than any informed selling ahead of this filing.",
+        "The 'so what' for investors is narrow: if NTA has moved materially versus the last disclosure, it may prompt a rerating of the discount/premium to NAV — but without the actual NTA figure, the filing itself is procedural and unlikely to catalyse a directional move."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.255,
+        "volume_trend_ratio": 0.9,
+        "volume_last_ratio": 2.08,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -3.77,
+        "pct_from_3m_low": 41.67,
+        "pct_from_52w_high": -3.77,
+        "pct_from_52w_low": 50.0,
+        "range_position_3m": 0.882,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "3.77% off its 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 3.77% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARG",
+      "company": "ARGO INVESTMENTS LIMITED",
+      "headline": "Weekly NTA estimate - Fri 11.9.26",
+      "time": "2026-09-14T01:11:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135114-2A1696927",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Weekly NTA estimate is a standard transparency disclosure for ARG, one of Australia's largest and most established LICs — it is routine and carries no strategic or operational content.",
+        "The stock sits 3.13% off its 3-month high, suggesting a modest consolidation; a weekly NTA update that is in line with or above market price would typically reinforce the current tape rather than reverse it, but this filing alone is unlikely to be a catalyst.",
+        "The 'so what' is whether the implied NTA discount or premium has widened — persistent premium-to-NTA would be mildly bearish for new buyers, while a discount would be supportive; without the actual figure in this summary, the filing reads as procedural."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 9.27,
+        "volume_trend_ratio": 0.91,
+        "volume_last_ratio": 1.01,
+        "avg_turnover_aud": 3584961,
+        "liquid": true,
+        "pct_from_3m_high": -3.13,
+        "pct_from_3m_low": 6.8,
+        "pct_from_52w_high": -3.13,
+        "pct_from_52w_low": 9.7,
+        "range_position_3m": 0.663,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "3.13% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the upper part of its 3-month range, 3.13% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYB",
+      "company": "AUCYBER LIMITED",
+      "headline": "Application for quotation of securities - CYB",
+      "time": "2026-09-14T01:10:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135113-2A1696925",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An application for quotation of securities typically signals a prior capital raise or option conversion is settling into the register — this is an administrative step, but it does introduce new, potentially selling, stock into an already illiquid name.",
+        "CYB is 50% below its 12-month high and trades with near-zero median turnover; volume over the last five sessions was just 0.02x its average — but given the stock is thinly traded, these volume ratios are close to meaningless as a signal of informed positioning.",
+        "The 'so what' is dilution risk: new securities entering quotation in a deeply depressed, illiquid stock with no price momentum creates a clear near-term supply overhang, even if the absolute dollar impact is small."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.042,
+        "volume_trend_ratio": 0.02,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -32.26,
+        "pct_from_3m_low": 5.0,
+        "pct_from_52w_high": -50.0,
+        "pct_from_52w_low": 5.0,
+        "range_position_3m": 0.091,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.02x its average",
+          "50.0% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, CYB traded only 0.02x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 32.26% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AEV",
+      "company": "AVENIRA LIMITED",
+      "headline": "Jundee South Project Air Core Drilling Starts",
+      "time": "2026-09-14T01:07:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135112-6A1343652",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Commencement of air core drilling at the Jundee South Project marks an active exploration milestone — drilling start announcements are meaningful for small explorers as they signal progression from planning to data generation, with assay results to follow in weeks to months.",
+        "AEV is thinly traded at roughly A$7,839/day median turnover, so the 0.42x volume ratio over the last five sessions is of limited informational value; low volume into a drilling-start announcement suggests the market has not pre-positioned heavily either way.",
+        "The 'so what' is that near-term price action will likely remain subdued until assay results arrive — the drilling start alone is a mildly positive operational signal but insufficient to re-rate the stock; investors should watch for intercept announcements as the genuine catalyst."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 0.006,
+        "volume_trend_ratio": 0.42,
+        "volume_last_ratio": 0.12,
+        "avg_turnover_aud": 7839,
+        "liquid": false,
+        "pct_from_3m_high": -25.0,
+        "pct_from_3m_low": 9.39,
+        "pct_from_52w_high": -33.33,
+        "pct_from_52w_low": 9.39,
+        "range_position_3m": 0.205,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.42x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$7,839/day",
+        "reading": [
+          "Going into this, AEV traded only 0.42x its usual daily volume over the last 5 sessions — measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 25.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$7,839 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QRI",
+      "company": "QUALITAS REAL ESTATE INCOME FUND",
+      "headline": "Distribution Announcement",
+      "time": "2026-09-14T01:03:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135111-3A701689",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A distribution announcement from QRI confirms the fund is sustaining income payments to unitholders — for a listed debt/credit fund, continued distributions are a core investment thesis validation and signal the underlying loan book is performing.",
+        "QRI is currently at a 12-month low, meaning the distribution yield implied by the current price is at its most attractive level in a year — this could support value-oriented or income-focused buyers stepping in, partially cushioning further downside.",
+        "The 'so what' is that bad news may already be priced into the 12-month low tape; a distribution confirmation in this context is modestly supportive — it reduces the risk of a distribution cut narrative and provides an income floor argument for buyers, though macro credit concerns may cap any re-rating."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Property"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 1.51,
+        "volume_trend_ratio": 0.77,
+        "volume_last_ratio": 1.08,
+        "avg_turnover_aud": 1354565,
+        "liquid": true,
+        "pct_from_3m_high": -4.43,
+        "pct_from_3m_low": 1.0,
+        "pct_from_52w_high": -10.65,
+        "pct_from_52w_low": 1.0,
+        "range_position_3m": 0.176,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "at a 12-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QRI",
+      "company": "QUALITAS REAL ESTATE INCOME FUND",
+      "headline": "Update - Dividend/Distribution - QRI",
+      "time": "2026-09-14T01:03:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135110-3A701685",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "This ASX dividend/distribution update filing is the formal operational counterpart to the simultaneous distribution announcement — together they confirm both the quantum and the administrative details (ex-date, record date, payment date) for the upcoming distribution.",
+        "With QRI at a 12-month low, the market has already discounted significant pessimism; a confirmed, on-schedule distribution is incrementally positive in that it refutes any concern of an imminent cut or suspension that the depressed price might imply.",
+        "The 'so what' is that the dual filing (announcements [5] and [6] together) strengthens the signal — consistent distributions in a stressed price environment can attract yield-focused buying, but any re-rating requires resolution of broader credit/rate concerns weighing on the fund."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance",
+        "Property"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 1.51,
+        "volume_trend_ratio": 0.77,
+        "volume_last_ratio": 1.08,
+        "avg_turnover_aud": 1354565,
+        "liquid": true,
+        "pct_from_3m_high": -4.43,
+        "pct_from_3m_low": 1.0,
+        "pct_from_52w_high": -10.65,
+        "pct_from_52w_low": 1.0,
+        "range_position_3m": 0.176,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "at a 12-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RIC",
+      "company": "RIDLEY CORPORATION LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-14T01:01:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135109-3A701688",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Change of Director's Interest Notice is a regulatory disclosure of a director buying, selling, or receiving securities — without the detail of whether it is an acquisition or disposal, the directional read is ambiguous, but director buying is generally a bullish signal and selling is bearish.",
+        "This is a non-market-sensitive, administrative filing and carries limited weight on its own; it becomes meaningful only in aggregate — a cluster of director purchases would be a stronger signal than a single isolated transaction.",
+        "The 'so what' for RIC investors: if this reflects on-market buying, it supports confidence in the company's near-term outlook; if it is a sell or plan-based disposal (e.g. tax-driven), the signal is neutral to mildly negative — context of the actual transaction direction is essential."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 2.64,
+        "volume_trend_ratio": 0.69,
+        "volume_last_ratio": 0.38,
+        "avg_turnover_aud": 2615512,
+        "liquid": true,
+        "pct_from_3m_high": -13.73,
+        "pct_from_3m_low": 3.94,
+        "pct_from_52w_high": -15.65,
+        "pct_from_52w_low": 12.82,
+        "range_position_3m": 0.192,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 13.73% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RIC",
+      "company": "RIDLEY CORPORATION LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-14T01:00:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135108-3A701687",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A second Change of Director's Interest Notice filed simultaneously for RIC suggests at least two directors have had changes in their securities holdings — this increases the significance marginally versus a single filing, as it may indicate a broader board-level participation event such as a share plan vesting.",
+        "Multiple concurrent director interest notices often arise from remuneration-related share plan allocations (e.g. performance rights vesting) rather than open-market transactions — if so, the dilution signal is modest but the retention/incentive alignment signal is mildly positive.",
+        "The 'so what' is to assess whether the combined notices reflect net buying (bullish alignment signal) or net selling (potential concern) — three simultaneous RIC director notices in one session warrants scrutiny of the aggregate direction before drawing a conclusion."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 2.64,
+        "volume_trend_ratio": 0.69,
+        "volume_last_ratio": 0.38,
+        "avg_turnover_aud": 2615512,
+        "liquid": true,
+        "pct_from_3m_high": -13.73,
+        "pct_from_3m_low": 3.94,
+        "pct_from_52w_high": -15.65,
+        "pct_from_52w_low": 12.82,
+        "range_position_3m": 0.192,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 13.73% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RIC",
+      "company": "RIDLEY CORPORATION LIMITED",
+      "headline": "Change to Director's Interest Notice",
+      "time": "2026-09-14T01:00:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135107-3A701686",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A third director interest notice for RIC on the same session — three concurrent filings is an unusual volume of disclosures, strongly suggesting a systemic event such as a share plan vesting, rights issue participation, or salary sacrifice scheme settlement rather than independent open-market trades.",
+        "Plan-based vesting events introduce new shares onto directors' registers and can create near-term selling pressure if directors choose to realise proceeds, though many hold; the key unknown is whether the notices reflect acquisition or disposal of interests.",
+        "The 'so what' is that the cluster of three notices for RIC is likely procedural and linked to a single corporate event — on its own this is unlikely to move the stock materially, but investors should review the underlying detail to confirm no director is making a material open-market exit at current prices."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-11",
+        "bars": 253,
+        "last_close": 2.64,
+        "volume_trend_ratio": 0.69,
+        "volume_last_ratio": 0.38,
+        "avg_turnover_aud": 2615512,
+        "liquid": true,
+        "pct_from_3m_high": -13.73,
+        "pct_from_3m_low": 3.94,
+        "pct_from_52w_high": -15.65,
+        "pct_from_52w_low": 12.82,
+        "range_position_3m": 0.192,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-11 close.",
+          "The price sat in the lower part of its 3-month range, 13.73% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "WCM",
       "company": "WCM QUALITY GLOBAL GROWTH FUND - ACTIVE ETF",
