@@ -1,9 +1,893 @@
 {
   "date": "2026-09-15",
-  "total": 190,
-  "market_sensitive_count": 55,
-  "generated_at": "2026-09-14T23:30:35.896110+00:00",
+  "total": 210,
+  "market_sensitive_count": 60,
+  "generated_at": "2026-09-14T23:40:24.501370+00:00",
   "announcements": [
+    {
+      "ticker": "NVX",
+      "company": "NOVONIX LIMITED",
+      "headline": "Application for quotation of securities - NVX",
+      "time": "2026-09-14T23:37:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135558-2A1697178",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "NVX's quotation of securities filing is not flagged market sensitive and represents a procedural administrative event — most likely the quotation of shares issued under an employee incentive plan, DRIP, or a recently completed placement tranche.",
+        "Applying lesson L003: with NVX sitting 88.18% below its 12-month high — an extreme de-rating — any new securities being quoted implies incremental dilution onto a register that has already been severely repriced; the key question is the source of the new securities (raise, options exercise, or convertible note conversion) and whether it signals further capital stress.",
+        "At 88% below its 12-month high, NVX is in deep distress territory; a routine quotation filing in this context is more likely to be read as confirmation of ongoing dilutive financing rather than a recovery signal — the market will want to know the issue price of any quoted securities relative to spot to assess the implied discount."
+      ],
+      "tags": [
+        "Compliance",
+        "Capital Raise"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.12,
+        "volume_trend_ratio": 1.4,
+        "volume_last_ratio": 1.22,
+        "avg_turnover_aud": 512494,
+        "liquid": true,
+        "pct_from_3m_high": -38.46,
+        "pct_from_3m_low": 27.66,
+        "pct_from_52w_high": -88.18,
+        "pct_from_52w_low": 27.66,
+        "range_position_3m": 0.257,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "88.18% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 38.46% below the high of that period."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "EVN",
+      "company": "EVOLUTION MINING LIMITED",
+      "headline": "2026 Investor Briefing Presentations",
+      "time": "2026-09-14T23:37:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135557-2A1697175",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EVN's 2026 Investor Briefing is flagged market sensitive, signalling that updated production guidance, cost targets, or capital allocation decisions are likely embedded in the presentations — not a routine awareness exercise.",
+        "For a major gold producer of EVN's scale, investor day materials that are market sensitive typically contain multi-year production profiles, revised all-in sustaining cost guidance, or capital expenditure updates across Red Lake, Cowal, and Mt Rawdon; any downgrade to FY guidance or capex blowout would be the key risk to watch.",
+        "Institutional investors should parse the presentation for changes to the FY2026/27 production corridor and any commentary on the Ernest Henry streaming arrangement or balance sheet leverage, as these are the two variables most likely driving the market-sensitive designation."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 13.55,
+        "volume_trend_ratio": 1.02,
+        "volume_last_ratio": 1.36,
+        "avg_turnover_aud": 127755936,
+        "liquid": true,
+        "pct_from_3m_high": -16.36,
+        "pct_from_3m_low": 32.45,
+        "pct_from_52w_high": -23.66,
+        "pct_from_52w_low": 48.74,
+        "range_position_3m": 0.556,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 16.36% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RIV",
+      "company": "RIVCO AUSTRALIA LTD",
+      "headline": "Update - Notification of buy-back - RIV",
+      "time": "2026-09-14T23:36:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135556-2A1697176",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "RIV's on-market buyback update is a procedural notification, not flagged market sensitive, and in isolation is a minor positive signal — buybacks reduce share count and signal management confidence in the stock at current prices.",
+        "However, with RIV at a 12-month low, the buyback update reads differently: management is signalling they believe the stock is undervalued at the low, but the market has not agreed — the buyback has not yet reversed the trend, which limits the bullish read and raises the question of whether the buyback scale is sufficient to be price-supportive.",
+        "Without volume or dollar quantum disclosed in the headline, the market cannot size the programme's impact; investors should check the buyback notice for daily purchase limits and remaining capacity — a small or near-exhausted programme at a 12-month low is a weak support signal and the stock remains technically vulnerable."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 239,
+        "last_close": 1.19,
+        "volume_trend_ratio": 1.04,
+        "volume_last_ratio": 1.58,
+        "avg_turnover_aud": 235839,
+        "liquid": true,
+        "pct_from_3m_high": -19.05,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -25.16,
+        "pct_from_52w_low": 0.0,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "at a 12-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PWR",
+      "company": "PETER WARREN AUTOMOTIVE HOLDINGS LIMITED",
+      "headline": "2026 Annual General Meeting Date",
+      "time": "2026-09-14T23:34:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135555-2A1697174",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "PWR's AGM date announcement is a purely administrative filing — it sets the meeting date and nothing more; no agenda items, resolutions, or substantive disclosures are contained in the headline.",
+        "The filing is not flagged market sensitive, consistent with its procedural nature; the AGM itself may carry market-sensitive content (FY trading update, guidance reaffirmation) but that is a future event risk, not present in this filing.",
+        "With PWR trading 63.66% below its 12-month high, the stock is deeply de-rated and the AGM date becomes a potential catalyst to watch — management commentary on the automotive retail outlook and any margin or revenue guidance update at the meeting could be the next meaningful price mover, but this filing alone provides no information content."
+      ],
+      "tags": [
+        "AGM",
+        "Retail"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.745,
+        "volume_trend_ratio": 0.9,
+        "volume_last_ratio": 1.63,
+        "avg_turnover_aud": 66604,
+        "liquid": true,
+        "pct_from_3m_high": -27.32,
+        "pct_from_3m_low": 1.02,
+        "pct_from_52w_high": -63.66,
+        "pct_from_52w_low": 4.2,
+        "range_position_3m": 0.026,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "63.66% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 27.32% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HPG",
+      "company": "HIPAGES GROUP HOLDINGS LTD",
+      "headline": "Notification regarding unquoted securities - HPG",
+      "time": "2026-09-14T23:34:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135554-2A1697173",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "HPG's unquoted securities notification is a routine administrative filing, not flagged market sensitive, most likely relating to employee incentive plan vesting or options issuance — standard corporate governance activity with no immediate earnings impact.",
+        "With 5-day volume running at just 0.41x the 20-day average and median daily turnover of approximately A$17,218, HPG is extremely thinly traded; the volume ratio is effectively meaningless at this liquidity level and should not be read as a directional signal in either direction.",
+        "The filing has no substantive information content on its own — investors should note it as a register change event and move on; the only practical implication is a marginal increase in the float if new securities become quotable, which is immaterial at this scale."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.89,
+        "volume_trend_ratio": 0.41,
+        "volume_last_ratio": 0.35,
+        "avg_turnover_aud": 17218,
+        "liquid": false,
+        "pct_from_3m_high": -7.77,
+        "pct_from_3m_low": 27.14,
+        "pct_from_52w_high": -40.67,
+        "pct_from_52w_low": 30.88,
+        "range_position_3m": 0.717,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.41x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$17,218/day",
+        "reading": [
+          "Going into this, HPG traded only 0.41x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 7.77% below the high of that period.",
+          "Treat all of that with care: it trades about A$17,218 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "W2V",
+      "company": "WAY 2 VAT LTD.",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-14T23:33:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135553-6A1343831",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cleansing notice is filed post-capital raise to satisfy ASX Listing Rule 3.10.3 disclosure requirements — it confirms a placement or rights issue has just completed and existing continuous disclosure obligations have been met; it is inherently backward-looking and procedural.",
+        "W2V's 5-day volume ran at 2.42x its 20-day average, which would ordinarily suggest accumulation ahead of news — however, with median daily turnover of approximately A$999, the stock is so illiquid that this ratio is statistically unreliable; a single small parcel can move the ratio dramatically and should not be interpreted as institutional positioning.",
+        "With the stock 69.33% below its 12-month high and a cleansing notice confirming a completed raise, the key risk is dilution at a distressed price — the proceeds quantum and issue price are the critical unknowns; absent those details, the filing is a bearish signal because it confirms capital was raised (implying dilution) into a deeply de-rated stock, likely at a material discount."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.046,
+        "volume_trend_ratio": 2.42,
+        "volume_last_ratio": 1.9,
+        "avg_turnover_aud": 999,
+        "liquid": false,
+        "pct_from_3m_high": -39.47,
+        "pct_from_3m_low": 9.52,
+        "pct_from_52w_high": -69.33,
+        "pct_from_52w_low": 9.52,
+        "range_position_3m": 0.118,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.42x its 20-day average",
+          "69.33% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$999/day",
+        "reading": [
+          "Going into this, W2V traded 2.42x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 39.47% below the high of that period.",
+          "Treat all of that with care: it trades about A$999 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LRT",
+      "company": "LOWELL RESOURCES FUND",
+      "headline": "LRT NAV Estimate - 11 September 2026",
+      "time": "2026-09-14T23:32:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135552-3A701762",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A routine weekly NAV estimate for the Lowell Resources Fund — this is a periodic transparency filing, not a performance event or strategic announcement, and carries no new information about underlying portfolio positioning or manager action.",
+        "The 'so what' for existing unitholders is purely mechanical: the NAV print sets a reference point for premium/discount tracking versus the market price, but a single weekly estimate rarely moves listed investment vehicles materially without an accompanying portfolio update or capital event.",
+        "Not flagged market sensitive and has no disclosed catalyst; per base-rate analysis, unflagged filings require their own case before warranting a directional call — this one does not make that case."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 2.04,
+        "volume_trend_ratio": 0.91,
+        "volume_last_ratio": 1.22,
+        "avg_turnover_aud": 119468,
+        "liquid": true,
+        "pct_from_3m_high": -24.44,
+        "pct_from_3m_low": 9.09,
+        "pct_from_52w_high": -34.19,
+        "pct_from_52w_low": 12.86,
+        "range_position_3m": 0.205,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 24.44% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAO",
+      "company": "KAOKO METALS LIMITED",
+      "headline": "Issue of Shares and Cleansing Notice",
+      "time": "2026-09-14T23:31:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135551-6A1343830",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An 'Issue of Shares and Cleansing Notice' confirms that new equity has already been placed — the cleansing notice is a statutory requirement under s708A of the Corporations Act, meaning the shares are being issued without a prospectus and will be freely tradeable, which is a standard post-placement procedure.",
+        "The key institutional question is the price and quantum of the placement relative to the prevailing market price; without those figures disclosed in the headline, the dilution impact cannot be sized, but the cleansing notice filing itself confirms the capital raise has completed, introducing immediate register dilution.",
+        "Applying lesson L003: when a share issue and cleansing notice land together, the underlying transaction — a completed placement — has just been executed; the market will now absorb the dilution and assess whether the use of proceeds justifies it, creating near-term selling pressure from new shareholders seeking liquidity."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 92,
+        "last_close": 2.68,
+        "volume_trend_ratio": 0.93,
+        "volume_last_ratio": 0.37,
+        "avg_turnover_aud": 115958,
+        "liquid": true,
+        "pct_from_3m_high": -12.27,
+        "pct_from_3m_low": 587.18,
+        "pct_from_52w_high": -12.27,
+        "pct_from_52w_low": 712.12,
+        "range_position_3m": 0.859,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 12.27% below the high of that period."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DWG",
+      "company": "DATAWORKS GROUP LIMITED",
+      "headline": "Proposed issue of securities - DWG",
+      "time": "2026-09-14T23:31:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135550-6A1343805",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Proposed issue of securities' filing is a pre-transaction notice (typically an Appendix 3B or equivalent), signalling that DWG intends to issue new equity — this is dilutive by nature and precedes the actual allotment.",
+        "This is the first of three identical headline filings from DWG on the same day (see also [4] and [5]), which triggers lesson L003: multiple administrative filings from the same issuer on the same day suggest a capital raise or restructuring event that may be larger or more complex than a single notice implies — multiple tranches, multiple classes of securities, or a rights offer structure are all possible.",
+        "Without disclosed terms (price, quantum, use of proceeds), the market cannot size the dilution, but the cluster of three simultaneous notices is a net negative signal; default to bearish pending disclosure of deal terms."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.15,
+        "volume_trend_ratio": 1.3,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 3892,
+        "liquid": false,
+        "pct_from_3m_high": -6.25,
+        "pct_from_3m_low": 30.43,
+        "pct_from_52w_high": -36.17,
+        "pct_from_52w_low": 233.33,
+        "range_position_3m": 0.778,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$3,892/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 6.25% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,892 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DWG",
+      "company": "DATAWORKS GROUP LIMITED",
+      "headline": "Proposed issue of securities - DWG",
+      "time": "2026-09-14T23:31:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135549-6A1343804",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Second of three simultaneous 'Proposed issue of securities' filings from DWG on the same day — the repetition reinforces the L003 signal that a multi-tranche or multi-instrument capital event is underway, not a single routine securities issuance.",
+        "Multiple Appendix 3B-type notices filed simultaneously commonly reflect separate tranches of a placement (e.g. director shares, placement shares, and options/performance rights) — each tranche represents incremental dilution that compounds across all three filings.",
+        "The cumulative dilution from three concurrent issuance notices, absent any disclosed revenue or operational catalyst to justify the raise, is a net negative for near-term share price; institutional investors should await the full terms before reassessing."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.15,
+        "volume_trend_ratio": 1.3,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 3892,
+        "liquid": false,
+        "pct_from_3m_high": -6.25,
+        "pct_from_3m_low": 30.43,
+        "pct_from_52w_high": -36.17,
+        "pct_from_52w_low": 233.33,
+        "range_position_3m": 0.778,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$3,892/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 6.25% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,892 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "DWG",
+      "company": "DATAWORKS GROUP LIMITED",
+      "headline": "Proposed issue of securities - DWG",
+      "time": "2026-09-14T23:30:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135548-6A1343801",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Third of three simultaneous 'Proposed issue of securities' filings from DWG — the L003 pattern is now fully confirmed: three issuance notices from the same issuer on the same day constitute a cluster that signals a completed or near-completed capital transaction, not a routine administrative filing.",
+        "The critical unknown is aggregate dilution across all three tranches; without consolidated terms, the market is left to price worst-case, which typically creates selling pressure on the existing register as holders adjust position sizes ahead of the new shares becoming tradeable.",
+        "Next step is to watch for an accompanying investor presentation or use-of-proceeds announcement; absent a compelling growth narrative, the three-tranche issuance cluster will weigh on sentiment for the near term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.15,
+        "volume_trend_ratio": 1.3,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 3892,
+        "liquid": false,
+        "pct_from_3m_high": -6.25,
+        "pct_from_3m_low": 30.43,
+        "pct_from_52w_high": -36.17,
+        "pct_from_52w_low": 233.33,
+        "range_position_3m": 0.778,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$3,892/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 6.25% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,892 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PUR",
+      "company": "PURSUIT MINERALS LTD",
+      "headline": "Approvals for Pilot Plant Relocation & DDH-4 Drilling",
+      "time": "2026-09-14T23:30:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135547-3A701761",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Pursuit Minerals has received regulatory approvals for both pilot plant relocation and DDH-4 drilling — a dual-catalyst filing that is market sensitive, suggesting the company believes both approvals are material to its development timeline.",
+        "Applying lesson L002: the DDH-4 drilling approval is a programme-commencement signal, not a result — it tells the market that drilling can now proceed, not what the drill will find; this limits the bullish read on that component alone.",
+        "The pilot plant relocation approval is the more commercially significant element, as it moves the company closer to an operating-scale testwork phase that can de-risk the process flowsheet; taken together, both approvals remove regulatory overhang and represent genuine progress, though the absence of assay data keeps conviction measured."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.089,
+        "volume_trend_ratio": 0.9,
+        "volume_last_ratio": 0.31,
+        "avg_turnover_aud": 20143,
+        "liquid": false,
+        "pct_from_3m_high": -5.32,
+        "pct_from_3m_low": 56.14,
+        "pct_from_52w_high": -36.43,
+        "pct_from_52w_low": 56.14,
+        "range_position_3m": 0.865,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$20,143/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 5.32% below the high of that period.",
+          "Treat all of that with care: it trades about A$20,143 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DWG",
+      "company": "DATAWORKS GROUP LIMITED",
+      "headline": "Presentation-Gov Reg Infrastructure. Built for Global Scale",
+      "time": "2026-09-14T23:30:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135546-6A1343813",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DWG's investor presentation is filed alongside a simultaneous capital raise announcement (see filing [4]), meaning this document is the marketing collateral for the raise — it is not a standalone update and should be read in that context.",
+        "Applying lesson L003: two filings from the same issuer on the same day (presentation plus capital raise) confirm a completed or in-progress fundraising event; the presentation is being used to justify the raise narrative to new and existing investors, which is standard practice but inherently dilutive.",
+        "The 'Built for Global Scale' framing signals management is pitching an expansion story to support the raise valuation; institutional investors should assess whether the revenue base and contract pipeline disclosed in the presentation support the implied post-money valuation before treating this as a positive catalyst."
+      ],
+      "tags": [
+        "Technology",
+        "Capital Raise"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.15,
+        "volume_trend_ratio": 1.3,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 3892,
+        "liquid": false,
+        "pct_from_3m_high": -6.25,
+        "pct_from_3m_low": 30.43,
+        "pct_from_52w_high": -36.17,
+        "pct_from_52w_low": 233.33,
+        "range_position_3m": 0.778,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$3,892/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 6.25% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,892 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DWG",
+      "company": "DATAWORKS GROUP LIMITED",
+      "headline": "DWG Announces A$4.24m Cap Raise to Support Next Growth Stage",
+      "time": "2026-09-14T23:30:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135545-6A1343811",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "DWG has announced a A$4.24m capital raise — a meaningful quantum for what appears to be a small-cap technology company — to fund the 'next growth stage', which is directionally positive for operational runway but is immediately dilutive to existing shareholders.",
+        "The disclosed dollar amount (A$4.24m) is a positive differentiator versus opaque raises: it allows the market to size dilution and assess whether the raise price represents a discount to last close; investors should immediately check the issue price relative to the prevailing share price to determine the effective discount and dilution percentage.",
+        "The simultaneous presentation filing (see [3]) is consistent with a placement to sophisticated or institutional investors requiring an information memorandum; the market-sensitive flag on both suggests the raise price and terms are likely to be price-sensitive, and the stock will re-rate to the placement price on open if a discount was applied."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.15,
+        "volume_trend_ratio": 1.3,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 3892,
+        "liquid": false,
+        "pct_from_3m_high": -6.25,
+        "pct_from_3m_low": 30.43,
+        "pct_from_52w_high": -36.17,
+        "pct_from_52w_low": 233.33,
+        "range_position_3m": 0.778,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$3,892/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 6.25% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,892 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ASA",
+      "company": "ABRDN SUST ASIAN OPPORTUNITIES ACTIVE ETF",
+      "headline": "Pricing Basket Report - 15 Sep 2026",
+      "time": "2026-09-14T23:30:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135544-2A1697172",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A daily Pricing Basket Report for the abrdn Sustainable Asian Opportunities Active ETF is a standard operational disclosure required for active ETFs to maintain transparency around the indicative NAV basket — it is a regulatory routine, not a fund event.",
+        "The 'so what' for investors is nil beyond price-discovery mechanics: the basket report allows market makers to price the ETF accurately throughout the session, reducing bid-ask spreads, but it contains no new information about fund strategy, holdings changes, or performance.",
+        "Not market sensitive, no catalyst, and no directional content — a textbook neutral procedural filing with no implications for near-term share price bias."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CBA",
+      "company": "COMMONWEALTH BANK OF AUSTRALIA.",
+      "headline": "CommBank PERLS XIII Capital Notes Redemption Notice",
+      "time": "2026-09-14T23:29:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135543-2A1697171",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CBA's PERLS XIII Capital Notes Redemption Notice confirms the bank is exercising its call option on an Additional Tier 1 (AT1) capital instrument — this is standard practice for Australian major banks at the first call date and removes regulatory capital complexity from the balance sheet.",
+        "For PERLS XIII holders, this is straightforward: notes will be redeemed at face value (typically $100 per note) on the redemption date, with no loss of principal, ending the income stream for those holders who have not already sold at or near face value.",
+        "For CBA equity holders, the event is broadly neutral-to-marginally-positive: retiring an AT1 hybrid at par is capital-efficient if replaced with cheaper funding, and signals CBA's continued strong access to capital markets — but the market will have anticipated this call well in advance, so no material price surprise is expected."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 154.97,
+        "volume_trend_ratio": 1.0,
+        "volume_last_ratio": 0.78,
+        "avg_turnover_aud": 289835856,
+        "liquid": true,
+        "pct_from_3m_high": -14.57,
+        "pct_from_3m_low": 2.61,
+        "pct_from_52w_high": -16.5,
+        "pct_from_52w_low": 5.44,
+        "range_position_3m": 0.13,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 14.57% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DCC",
+      "company": "DIGITALX LIMITED",
+      "headline": "Update - Notification of buy-back - DCC",
+      "time": "2026-09-14T23:29:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135542-6A1343829",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A buy-back notification update for DigitalX (DCC) is in principle a shareholder-friendly capital management signal, but the price action context is critical: the stock is already 58.33% below its 12-month high, meaning the buy-back is being conducted into a severely de-rated name where market confidence has clearly eroded.",
+        "The thinly traded nature of DCC (median daily turnover approximately A$35,787) means the buy-back's absolute dollar impact on supply/demand is marginal at best — even a modest programme can move the price in a thin market, but it also means volume ratios are close to meaningless as a read on institutional intent.",
+        "The deeper concern is what the buy-back signals about capital allocation: a stock down more than 58% from its high deploying cash into its own shares rather than into business operations may reflect either genuine undervaluation conviction or a lack of better investment options — the market's existing de-rating suggests the latter is the prevailing read, keeping sentiment cautious."
+      ],
+      "tags": [
+        "Finance",
+        "Technology",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.03,
+        "volume_trend_ratio": 1.03,
+        "volume_last_ratio": 2.65,
+        "avg_turnover_aud": 35787,
+        "liquid": false,
+        "pct_from_3m_high": -11.76,
+        "pct_from_3m_low": 36.36,
+        "pct_from_52w_high": -58.33,
+        "pct_from_52w_low": 36.36,
+        "range_position_3m": 0.667,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "58.33% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$35,787/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 11.76% below the high of that period.",
+          "Treat all of that with care: it trades about A$35,787 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "W2V",
+      "company": "WAY 2 VAT LTD.",
+      "headline": "Application for quotation of securities - W2V",
+      "time": "2026-09-14T23:28:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135541-6A1343828",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An 'Application for quotation of securities' filing for W2V confirms that new shares are being admitted to trading — this is a post-issuance administrative step, but the context is materially concerning: the stock is 69.33% below its 12-month high, signalling severe ongoing de-rating.",
+        "Volume over the last 5 sessions ran at 2.42x its 20-day average, which would normally flag elevated interest — but W2V's median daily turnover is approximately A$999/day, making it one of the most illiquid stocks on the exchange; at that level, volume ratios are essentially meaningless and should not be read as genuine institutional accumulation.",
+        "Applying L001 and L003 considerations: new shares entering quotation into a stock already at a deep discount to its 12-month high represents incremental dilution onto a fragile register — existing holders face supply overhang from newly quoted securities, and the absence of any operational or financial catalyst in the filing title keeps the bias bearish."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.046,
+        "volume_trend_ratio": 2.42,
+        "volume_last_ratio": 1.9,
+        "avg_turnover_aud": 999,
+        "liquid": false,
+        "pct_from_3m_high": -39.47,
+        "pct_from_3m_low": 9.52,
+        "pct_from_52w_high": -69.33,
+        "pct_from_52w_low": 9.52,
+        "range_position_3m": 0.118,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.42x its 20-day average",
+          "69.33% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$999/day",
+        "reading": [
+          "Going into this, W2V traded 2.42x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 39.47% below the high of that period.",
+          "Treat all of that with care: it trades about A$999 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "EPN",
+      "company": "EPSILON HEALTHCARE LIMITED",
+      "headline": "Epsilon Progresses Global Manufacturing Opportunity",
+      "time": "2026-09-14T23:28:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135540-2A1697170",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Epsilon Healthcare's announcement that it 'progresses' a global manufacturing opportunity is aspirational language without disclosed terms, counterparty, revenue quantum, or timeline — the headline signals activity but not completion, which is a key distinction for valuation impact.",
+        "Not flagged as market sensitive, which significantly reduces conviction for a directional call; the base-rate on unflagged filings is materially lower, and a vague progress update on an unnamed manufacturing opportunity does not make its own case for bullishness — the absence of a named partner, deal structure, or financial terms means the market cannot size the opportunity.",
+        "The 'so what' for institutional investors is to monitor for a follow-up announcement with specifics (LOI, heads of agreement, or contract signing); until then, this reads as awareness-building or pre-capital-raise positioning consistent with lesson L010, and the lack of hard data keeps the call neutral with a mild bearish lean given the marketing optics."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.025,
+        "volume_trend_ratio": 1.42,
+        "volume_last_ratio": 0.14,
+        "avg_turnover_aud": 2032,
+        "liquid": false,
+        "pct_from_3m_high": -16.67,
+        "pct_from_3m_low": 31.58,
+        "pct_from_52w_high": -37.5,
+        "pct_from_52w_low": 31.58,
+        "range_position_3m": 0.545,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$2,032/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 16.67% below the high of that period.",
+          "Treat all of that with care: it trades about A$2,032 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ARD",
+      "company": "ARGENT MINERALS LIMITED",
+      "headline": "Argent intersects visible gold in maiden drilling at Trunkey",
+      "time": "2026-09-14T23:28:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135539-6A1343827",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ARD has intersected visible gold in maiden drilling at Trunkey — 'visible gold' is a high-impact qualitative descriptor that signals mineralisation is present at grades likely to be economically significant, before assay results are published; this is a genuine exploration milestone for a maiden programme.",
+        "Applying lesson L005: the stock is 61.06% below its 12-month high, which is a material de-rating that warrants caution — before calling strongly bullish, the question is whether the prior de-rating reflects a structural problem (funding, permitting, commodity) that visible gold alone cannot resolve, or simply a quiet exploration period that this result now breaks.",
+        "At 61% below its high, a maiden visible gold result does provide asymmetric upside if assays confirm economic grades — the combination of 'maiden drill' (no prior disappointment at this target) and 'visible gold' is a stronger setup than a follow-up hole at a repeatedly drilled target; lean bullish but with the caveat that confirmation assays are the next critical gate."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.022,
+        "volume_trend_ratio": 0.93,
+        "volume_last_ratio": 0.92,
+        "avg_turnover_aud": 59977,
+        "liquid": true,
+        "pct_from_3m_high": -21.43,
+        "pct_from_3m_low": 10.0,
+        "pct_from_52w_high": -61.06,
+        "pct_from_52w_low": 10.0,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "61.06% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 21.43% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
     {
       "ticker": "MGU",
       "company": "MAGNUM MINING AND EXPLORATION LIMITED",
