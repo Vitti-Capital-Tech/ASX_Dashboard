@@ -1,9 +1,373 @@
 {
   "date": "2026-09-15",
-  "total": 217,
-  "market_sensitive_count": 63,
-  "generated_at": "2026-09-14T23:46:52.728283+00:00",
+  "total": 225,
+  "market_sensitive_count": 67,
+  "generated_at": "2026-09-14T23:54:00.169708+00:00",
   "announcements": [
+    {
+      "ticker": "GDR",
+      "company": "GOLDEN DRAGON MINING LTD",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-14T23:50:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135573-3A701766",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director interest change on an illiquid micro-cap (median daily turnover approximately A$2,912) is normally procedural, but volume over the last five sessions ran at 1.66x its 20-day average — this elevated volume into a thinly traded stock is the critical flag and triggers lesson L001: when volume is running hot, the direction of the director's interest change is the essential unknown.",
+        "If the filing reflects a director buying (increasing exposure), elevated volume combined with insider accumulation is a mild positive signal in a stock where any buying is material relative to typical turnover; if it reflects a director selling, the combination of insider reduction into above-average volume is a meaningful bearish signal on a stock where the register is thin and sentiment fragile.",
+        "Given the thinly traded nature, the elevated volume ratio (1.66x) may reflect only a handful of additional trades rather than institutional intent — treat the directional implication cautiously, but default per L001 to examining whether this is a reduction: if the notice shows a net decrease in director holdings, lean bearish; if an increase, lean mildly bullish; absent that detail in the headline, neutral is the appropriate default."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 222,
+        "last_close": 0.185,
+        "volume_trend_ratio": 1.66,
+        "volume_last_ratio": 0.85,
+        "avg_turnover_aud": 2912,
+        "liquid": false,
+        "pct_from_3m_high": -5.13,
+        "pct_from_3m_low": 23.33,
+        "pct_from_52w_high": -21.28,
+        "pct_from_52w_low": 27.59,
+        "range_position_3m": 0.778,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.66x its 20-day average"
+        ],
+        "caveat": "thinly traded, median turnover about A$2,912/day",
+        "reading": [
+          "Going into this, GDR traded 1.66x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the upper part of its 3-month range, 5.13% below the high of that period.",
+          "Treat all of that with care: it trades about A$2,912 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AVH",
+      "company": "AVITA MEDICAL INC.",
+      "headline": "Notification of cessation of securities - AVH",
+      "time": "2026-09-14T23:49:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135572-3A701765",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities at AVH (Avita Medical) is an administrative filing recording the expiry or cancellation of securities — most commonly options, performance rights, or restricted stock units lapsing unexercised, which is procedurally routine and not flagged market sensitive.",
+        "The so-what for institutional investors is indirect: a material lapse of unvested executive or employee incentives can signal either that performance hurdles were not met (mildly negative on culture/retention) or that time-vesting securities have simply expired, which is genuinely neutral; without knowing the quantum and type, the filing cannot be directionally weighted.",
+        "Applying lesson L003 in the single-filing context: this stands alone without a companion issuance notice, which means it is unlikely to be part of a concurrent capital raise — the absence of a paired 'quotation of securities' filing reduces the restructuring read-through risk, keeping this squarely in the administrative/neutral bucket."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 2.7,
+        "volume_trend_ratio": 0.64,
+        "volume_last_ratio": 0.23,
+        "avg_turnover_aud": 917729,
+        "liquid": true,
+        "pct_from_3m_high": -12.34,
+        "pct_from_3m_low": 152.34,
+        "pct_from_52w_high": -12.34,
+        "pct_from_52w_low": 170.0,
+        "range_position_3m": 0.811,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 12.34% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PAR",
+      "company": "PARADIGM BIOPHARMACEUTICALS LIMITED..",
+      "headline": "Dr Daniel Furtner appointed Chief Medical Officer",
+      "time": "2026-09-14T23:46:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135571-3A701764",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Paradigm Biopharmaceuticals appointing Dr Daniel Furtner as Chief Medical Officer is a substantive hire for a clinical-stage company — the CMO role is operationally critical for a biopharma whose valuation is almost entirely dependent on clinical trial design, regulatory interactions, and medical affairs strategy, meaning the quality and track record of the appointee is the entire valuation question here.",
+        "The filing is not flagged market sensitive and is thus lower conviction by base rate (57.5% directional accuracy on unflagged filings vs. 69.4% on flagged), but CMO appointments at clinical-stage biotechs have genuine strategic content — a strong hire signals the company is preparing for a late-stage regulatory push or partnership discussions, while a thin CV would be a yellow flag given where PAR sits in its development cycle.",
+        "Applying lesson L009's logic to a CMO rather than executive chairman: if Dr Furtner has a demonstrable track record in PAR's therapeutic area (pain/inflammation/pentosan polysulfate), the appointment is mildly bullish as it signals the board is resourcing for a regulatory milestone; if the appointee is unverified in the sector, the hire is procedural and the filing is neutral — the identity and background of the hire is the variable that resolves the call."
+      ],
+      "tags": [
+        "Healthcare",
+        "Board Change"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.24,
+        "volume_trend_ratio": 1.12,
+        "volume_last_ratio": 0.74,
+        "avg_turnover_aud": 799475,
+        "liquid": true,
+        "pct_from_3m_high": -18.64,
+        "pct_from_3m_low": 54.84,
+        "pct_from_52w_high": -48.94,
+        "pct_from_52w_low": 77.78,
+        "range_position_3m": 0.607,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 18.64% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVN",
+      "company": "EVOLUTION MINING LIMITED",
+      "headline": "Capital management",
+      "time": "2026-09-14T23:46:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135570-2A1697186",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EVN's capital management update is market sensitive, signalling a material announcement — likely covering dividends, buybacks, or balance sheet restructuring that directly affects shareholder returns; the market-sensitive flag substantially raises the probability this contains a quantified commitment rather than vague intentions.",
+        "As a mid-tier gold major, EVN's capital allocation decisions carry sector-wide read-through — any buyback or elevated dividend payout would signal management confidence in free cash flow sustainability at current gold prices, which have been elevated, potentially anchoring upgraded consensus payout expectations.",
+        "Investors should watch for specific quantum (buyback size, dividend per share, franking level) and whether the capital return is funded from operating cash flow or asset recycling; the latter would imply the divestment programme is ahead of schedule and could re-rate the stock on multiple compression of remaining assets."
+      ],
+      "tags": [
+        "Finance",
+        "Mining",
+        "Dividend"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 13.55,
+        "volume_trend_ratio": 1.02,
+        "volume_last_ratio": 1.36,
+        "avg_turnover_aud": 127755936,
+        "liquid": true,
+        "pct_from_3m_high": -16.36,
+        "pct_from_3m_low": 32.45,
+        "pct_from_52w_high": -23.66,
+        "pct_from_52w_low": 48.74,
+        "range_position_3m": 0.556,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 16.36% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EVN",
+      "company": "EVOLUTION MINING LIMITED",
+      "headline": "Discovery and exploration",
+      "time": "2026-09-14T23:45:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135569-2A1697185",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A market-sensitive discovery and exploration update from EVN is a high-signal event — 'discovery' language in a headline from a producing mid-tier is rare and implies drill results of sufficient grade and width to meet ASX continuous disclosure thresholds for materiality, not merely a programme update.",
+        "Given EVN's existing reserve base across Ernest Henry, Cowal, and Red Lake, a new discovery would need to be substantial to move the resource needle meaningfully; the market-sensitive flag suggests management believes it does — institutional investors should focus on tonnage, grade, and proximity to existing infrastructure when the full release is read.",
+        "If the discovery is near an operating mine with spare mill capacity, capital intensity to production is compressed and NPV uplift can be significant; if greenfield and remote, the market may discount heavily on development timeline risk — the geographic context is the critical variable to extract from the document."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 13.55,
+        "volume_trend_ratio": 1.02,
+        "volume_last_ratio": 1.36,
+        "avg_turnover_aud": 127755936,
+        "liquid": true,
+        "pct_from_3m_high": -16.36,
+        "pct_from_3m_low": 32.45,
+        "pct_from_52w_high": -23.66,
+        "pct_from_52w_low": 48.74,
+        "range_position_3m": 0.556,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 16.36% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GEN",
+      "company": "GENMIN LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-09-14T23:44:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135568-6A1343834",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "GEN is a deeply distressed stock — down approximately 79% from its 12-month high — meaning a new substantial holder crossing the 5% threshold is the most notable feature here, but context matters enormously: entry by a new strategic investor into a heavily de-rated iron ore developer could signal bottom-fishing or a strategic accumulation ahead of a transaction.",
+        "Volume into this announcement was running at just 0.12x average over five sessions on an already illiquid stock (median daily turnover around A$4,170); that near-zero activity figure renders volume-based directional inference essentially meaningless — the tape offers no read on whether informed buyers were positioning ahead of this filing.",
+        "Applying lesson L001 in reverse: this is not elevated-volume-into-a-high; it is no volume into a multi-month low — the substantial holder filing is procedural in isolation, but the identity and intent of the new holder (strategic vs. passive) is the unknown that determines whether this is a recovery catalyst or merely a register tidying event; without disclosed intent, default is neutral."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.007,
+        "volume_trend_ratio": 0.12,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 4170,
+        "liquid": false,
+        "pct_from_3m_high": -22.22,
+        "pct_from_3m_low": 16.67,
+        "pct_from_52w_high": -79.41,
+        "pct_from_52w_low": 40.0,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.12x its average",
+          "79.41% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$4,170/day",
+        "reading": [
+          "Going into this, GEN traded only 0.12x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 22.22% below the high of that period.",
+          "Treat all of that with care: it trades about A$4,170 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVN",
+      "company": "EVOLUTION MINING LIMITED",
+      "headline": "Current projects and future growth opportunities",
+      "time": "2026-09-14T23:43:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135567-2A1697184",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A market-sensitive update explicitly titled 'current projects and future growth opportunities' from EVN in a cluster with capital management and discovery updates suggests this is part of an investor day or strategy briefing — the combination of three simultaneous market-sensitive filings implies a structured, pre-prepared communication event, not a reactive disclosure.",
+        "Applying lesson L003: three filings from the same issuer on the same day warrant scrutiny of the underlying strategic event — this cluster most plausibly represents an analyst/investor day, which historically re-rates gold majors when accompanied by reserve upgrades, cost guidance revisions, or production target extensions.",
+        "The 'future growth opportunities' framing is particularly relevant at current elevated gold prices — if EVN presents a pipeline of organic growth options that reduce dependence on M&A, the market may re-rate on a lower risk premium; conversely, if growth requires significant capital expenditure, the capital management announcement needs to be read alongside this one to assess the net cash return to shareholders."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 13.55,
+        "volume_trend_ratio": 1.02,
+        "volume_last_ratio": 1.36,
+        "avg_turnover_aud": 127755936,
+        "liquid": true,
+        "pct_from_3m_high": -16.36,
+        "pct_from_3m_low": 32.45,
+        "pct_from_52w_high": -23.66,
+        "pct_from_52w_low": 48.74,
+        "range_position_3m": 0.556,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 16.36% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ABX",
+      "company": "ABX GROUP LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-09-14T23:43:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135566-2A1697183",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "A trading halt on ABX Group is a binary event with near-term paralysis of price discovery — the stock was already down approximately 70% from its 12-month high on extremely thin liquidity (median daily turnover around A$7,795), which concentrates the risk that whatever follows the halt is either a distress capital raise or a transformational transaction, both of which have very different valuation outcomes.",
+        "Volume over the five sessions prior to the halt ran at just 0.21x average on an already illiquid register — as with GEN above, this volume ratio on a thinly traded micro-cap is close to meaningless as a directional signal, but the absence of elevated pre-halt volume suggests the halt was not preceded by informed leakage, slightly increasing the probability this is administrative (capital raise, compliance) rather than a leak-driven event.",
+        "At 70% below the 12-month high, ABX has no valuation buffer — any capital raise conducted at current distressed prices will be materially dilutive, and the halt itself prevents existing holders from exiting; the asymmetry here is skewed bearish given the de-rating context, unless the halt precedes a takeover or asset sale announcement with a premium."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.039,
+        "volume_trend_ratio": 0.21,
+        "volume_last_ratio": 0.1,
+        "avg_turnover_aud": 7795,
+        "liquid": false,
+        "pct_from_3m_high": -26.42,
+        "pct_from_3m_low": 11.43,
+        "pct_from_52w_high": -70.0,
+        "pct_from_52w_low": 11.43,
+        "range_position_3m": 0.222,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.21x its average",
+          "70.0% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$7,795/day",
+        "reading": [
+          "Going into this, ABX traded only 0.21x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 26.42% below the high of that period.",
+          "Treat all of that with care: it trades about A$7,795 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
     {
       "ticker": "RDX",
       "company": "REDOX LIMITED",
