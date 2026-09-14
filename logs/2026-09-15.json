@@ -1,9 +1,336 @@
 {
   "date": "2026-09-15",
-  "total": 210,
-  "market_sensitive_count": 60,
-  "generated_at": "2026-09-14T23:40:24.501370+00:00",
+  "total": 217,
+  "market_sensitive_count": 63,
+  "generated_at": "2026-09-14T23:46:52.728283+00:00",
   "announcements": [
+    {
+      "ticker": "RDX",
+      "company": "REDOX LIMITED",
+      "headline": "Appendix 3Y  Late Lodgement  Notice",
+      "time": "2026-09-14T23:41:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135565-2A1697181",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Appendix 3Y is a director's interest notice filed late — this is a pure compliance/administrative filing with no valuation content; the late lodgement marginally increases governance scrutiny but is not a material event for RDX.",
+        "Volume over the last 5 sessions ran at only 0.47x the 20-day average, indicating a quiet tape with no evident anticipatory positioning — the filing lands into an inattentive market and is unlikely to generate any price response.",
+        "The filing is not flagged market sensitive, consistent with its procedural nature; per track record data, unflagged filings have a materially lower hit rate for directional calls, reinforcing a neutral stance here."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 3.42,
+        "volume_trend_ratio": 0.47,
+        "volume_last_ratio": 0.21,
+        "avg_turnover_aud": 1687529,
+        "liquid": true,
+        "pct_from_3m_high": -17.79,
+        "pct_from_3m_low": 7.21,
+        "pct_from_52w_high": -17.79,
+        "pct_from_52w_low": 36.8,
+        "range_position_3m": 0.237,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.47x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, RDX traded only 0.47x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 17.79% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RML",
+      "company": "RESOLUTION MINERALS LTD",
+      "headline": "Latest Gold Assays Extend Golden Gate Mineralisation",
+      "time": "2026-09-14T23:41:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135564-2A1697182",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Gold assay results extending Golden Gate mineralisation are the substantive content here — unlike a drill commencement (L002), this is actual data, and a market-sensitive flag on assay results from an explorer warrants genuine attention rather than procedural dismissal.",
+        "Critical context per L005: RML is 66% below its 12-month high, meaning the market has already seen prior results and structurally de-rated the stock — a single extension intercept is unlikely to reverse that narrative unless grades and widths are materially superior to prior holes, or are accompanied by a resource upgrade signal.",
+        "Volume running at 2.75x the 20-day average into this announcement is a double-edged signal: it could reflect informed positioning ahead of results, but if the assays disappoint relative to the elevated anticipation baked into that volume, the stock is vulnerable to a sharp sell-the-news reaction given how far it has already fallen."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.051,
+        "volume_trend_ratio": 2.75,
+        "volume_last_ratio": 1.4,
+        "avg_turnover_aud": 494346,
+        "liquid": true,
+        "pct_from_3m_high": -17.74,
+        "pct_from_3m_low": 34.21,
+        "pct_from_52w_high": -66.0,
+        "pct_from_52w_low": 34.21,
+        "range_position_3m": 0.542,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.75x its 20-day average",
+          "66.0% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, RML traded 2.75x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 17.74% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ANR",
+      "company": "ANATARA LIFESCIENCES LTD",
+      "headline": "Anatara receives $318,402 in R&D Tax Incentive for FY26",
+      "time": "2026-09-14T23:40:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135563-2A1697177",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A $318,402 R&D Tax Incentive refund is a non-dilutive cash injection for a pre-revenue biotech, but the quantum is immaterial at the institutional level — its primary significance is as a runway extender and a confirmation that qualifying R&D expenditure meets ATO criteria.",
+        "The stock is at a 3-month low with median daily turnover of approximately zero, making volume ratios meaningless as a signal of informed intent — the elevated session count (2.92x average) almost certainly reflects a very low base rather than genuine accumulation, and should not be read as conviction buying.",
+        "Market-sensitive flag on a sub-$320K tax receipt is a governance stretch; the real 'so what' is whether this refund materially extends cash runway into the next clinical or regulatory milestone — without knowing the burn rate, the filing cannot be sized as a positive catalyst beyond a modest liquidity boost."
+      ],
+      "tags": [
+        "Healthcare",
+        "Results"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.009,
+        "volume_trend_ratio": 2.92,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -18.18,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -52.63,
+        "pct_from_52w_low": 12.5,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.92x its 20-day average",
+          "at a 3-month low"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, ANR traded 2.92x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "It was at the bottom of its 3-month range, already falling into this.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KRM",
+      "company": "KINGSROSE MINING LIMITED",
+      "headline": "Permitting Advances Towards January 2027 Drilling at Penikat",
+      "time": "2026-09-14T23:39:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135562-6A1343832",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is a permitting progress update — not a drill result and not even a drill commencement — targeting a January 2027 timeline; it is a programme-activity statement with zero data content, and L002's caution against calling bullish on activity announcements applies with even greater force at this pre-drilling stage.",
+        "KRM is at a 12-month low on a thinly traded stock (median turnover ~$5,650/day), meaning volume signals are unreliable; the low price may reflect accumulated disappointment with the pace of the Penikat programme, and a permitting update does not change the fundamental picture.",
+        "The filing is not flagged market sensitive — consistent with its procedural nature — and the January 2027 drilling target places the next meaningful catalyst at least four months away; investors have no new data to reprice and the stock remains in a 'wait' posture with downside risk if further delays emerge."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.022,
+        "volume_trend_ratio": 0.65,
+        "volume_last_ratio": 2.11,
+        "avg_turnover_aud": 5650,
+        "liquid": false,
+        "pct_from_3m_high": -24.14,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -60.0,
+        "pct_from_52w_low": 0.0,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "at a 12-month low"
+        ],
+        "caveat": "thinly traded, median turnover about A$5,650/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it.",
+          "Treat all of that with care: it trades about A$5,650 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CGF",
+      "company": "CHALLENGER LIMITED",
+      "headline": "Notification regarding unquoted securities - CGF",
+      "time": "2026-09-14T23:38:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135561-2A1697180",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A notification regarding unquoted securities for Challenger (CGF) is a standard administrative filing — typically covering employee incentive plan securities or similar — with no valuation impact and no market-sensitive flag.",
+        "CGF is only 4.61% off its 3-month high, suggesting the stock is in reasonably strong shape heading into this filing; a procedural notice into a near-high tape carries no incremental signal and does not alter the fundamental outlook.",
+        "No directional call is warranted: this is precisely the type of administrative, unflagged filing that the track record data shows has a lower base rate for directional accuracy — treat as noise."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 10.35,
+        "volume_trend_ratio": 1.0,
+        "volume_last_ratio": 1.2,
+        "avg_turnover_aud": 22429801,
+        "liquid": true,
+        "pct_from_3m_high": -4.61,
+        "pct_from_3m_low": 11.89,
+        "pct_from_52w_high": -4.61,
+        "pct_from_52w_low": 42.76,
+        "range_position_3m": 0.688,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "4.61% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 4.61% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REZ",
+      "company": "RESOURCES & ENERGY GROUP LIMITED",
+      "headline": "High Grade Intercepts Reported - Maranoa Gold Project",
+      "time": "2026-09-14T23:38:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135560-2A1697179",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-grade intercepts at the Maranoa Gold Project are substantive result data — not a commencement announcement — so L002 does not apply; the filing deserves assessment on grade and width merit, which a market-sensitive flag suggests management believes are meaningful.",
+        "However, L005 applies directly: REZ is 67.74% below its 12-month high, a severe de-rating that signals the market has already absorbed prior results and repriced structural concerns — whether funding, permitting, or resource continuity — that a single set of intercepts cannot resolve alone.",
+        "Extremely thin liquidity (median turnover ~$4,563/day) means price reaction may be violent and unrepresentative of fundamental rerating; institutional investors should treat any spike as illiquidity-driven rather than a sustainable re-rating signal until a resource upgrade or funding announcement accompanies the intercepts."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.01,
+        "volume_trend_ratio": 1.2,
+        "volume_last_ratio": 3.55,
+        "avg_turnover_aud": 4563,
+        "liquid": false,
+        "pct_from_3m_high": -37.5,
+        "pct_from_3m_low": 25.0,
+        "pct_from_52w_high": -67.74,
+        "pct_from_52w_low": 25.0,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "67.74% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$4,563/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 37.5% below the high of that period.",
+          "Treat all of that with care: it trades about A$4,563 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WWI",
+      "company": "WEST WITS MINING LIMITED",
+      "headline": "Investor Engagement Update and Presentation",
+      "time": "2026-09-14T23:38:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135559-3A701763",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "L010 applies directly: an 'Investor Engagement Update and Presentation' from a junior miner with no named catalyst in the headline is the canonical awareness-building filing ahead of a capital raise — which is dilutive — and the absence of a market-sensitive flag confirms no substantive new information is being disclosed.",
+        "WWI is 58.5% below its 12-month high, a severe de-rating that means management is actively marketing stock into a deeply distressed tape; investor presentations in this context are almost always associated with capital preservation or raise activity rather than genuine re-rating catalysts.",
+        "The combination of a deeply de-rated stock, no market-sensitive flag, no specific catalyst named, and the 'investor engagement' framing creates a risk skew to the downside — dilution risk is the dominant read, and the filing should be treated as a bearish signal per L010."
+      ],
+      "tags": [
+        "Mining",
+        "Capital Raise"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.415,
+        "volume_trend_ratio": 0.65,
+        "volume_last_ratio": 0.77,
+        "avg_turnover_aud": 279690,
+        "liquid": true,
+        "pct_from_3m_high": -25.89,
+        "pct_from_3m_low": 16.9,
+        "pct_from_52w_high": -58.5,
+        "pct_from_52w_low": 16.9,
+        "range_position_3m": 0.293,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "58.5% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 25.89% below the high of that period."
+        ]
+      },
+      "sentiment": "bearish"
+    },
     {
       "ticker": "NVX",
       "company": "NOVONIX LIMITED",
