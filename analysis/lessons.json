@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-14T07:06:47.862333+00:00",
-  "next_id": 6,
+  "updated_at": "2026-09-14T07:51:25.102917+00:00",
+  "next_id": 8,
   "lessons": [
     {
       "id": "L001",
@@ -9,8 +9,15 @@
       "rule": "When volume has been running hot into a substantial holding change, treat the direction of the change as the critical unknown — a reduction by a substantial holder into strength is a material bearish signal, not a neutral procedural event. If you cannot confirm the direction is an increase, default to bearish when the tape is already extended.",
       "created": "2026-09-14",
       "last_seen": "2026-09-14",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-09-14",
+          "ticker": "SRL",
+          "headline": "Change in substantial holding",
+          "called": "neutral",
+          "abnormal_pct": -15.47
+        },
         {
           "date": "2026-09-14",
           "ticker": "SRL",
@@ -26,8 +33,15 @@
       "rule": "An announcement that drilling has commenced or is underway is a programme statement, not a result — it tells the market only that money is being spent. Do not call bullish on activity-commencement announcements alone; wait for assay data. Flag as neutral until results are released.",
       "created": "2026-09-14",
       "last_seen": "2026-09-14",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-09-14",
+          "ticker": "PLC",
+          "headline": "Follow-Up RC Drilling Underway at Rochefort",
+          "called": "bullish",
+          "abnormal_pct": -14.39
+        },
         {
           "date": "2026-09-14",
           "ticker": "PLC",
@@ -43,8 +57,29 @@
       "rule": "When two or more procedural filings land simultaneously from the same issuer, treat the cluster as a potential signal of a capital raise or restructuring event that has just completed — ask what underlying transaction generated both filings and whether it implies dilution or a change in register composition that the market has not yet absorbed.",
       "created": "2026-09-14",
       "last_seen": "2026-09-14",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-09-14",
+          "ticker": "KLV",
+          "headline": "Application for quotation of securities - KLV",
+          "called": "neutral",
+          "abnormal_pct": -13.74
+        },
+        {
+          "date": "2026-09-14",
+          "ticker": "SRL",
+          "headline": "Application for quotation of securities - SRL",
+          "called": "neutral",
+          "abnormal_pct": -15.47
+        },
+        {
+          "date": "2026-09-14",
+          "ticker": "KLV",
+          "headline": "Notification of cessation of securities - KLV",
+          "called": "neutral",
+          "abnormal_pct": -13.74
+        },
         {
           "date": "2026-09-14",
           "ticker": "KLV",
@@ -60,8 +95,15 @@
       "rule": "An oral presentation slot at a competitive scientific conference is a positive credibility signal that is not merely procedural — it is peer selection of the data as noteworthy. When the stock is already at a significant low, this combination creates asymmetric upside that a neutral call misses; lean bullish when the presentation is oral, the conference is named and credible, and the stock is materially depressed.",
       "created": "2026-09-14",
       "last_seen": "2026-09-14",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-09-14",
+          "ticker": "RAD",
+          "headline": "RAD oral presentation at SNO26 on RAD101 Phase IIb data",
+          "called": "neutral",
+          "abnormal_pct": 12.4
+        },
         {
           "date": "2026-09-14",
           "ticker": "RAD",
@@ -77,7 +119,7 @@
       "rule": "Before calling bullish on a strong-looking intercept, ask whether the company's de-rating reflects a known structural problem (funding gap, sovereign risk, permitting failure, commodity price collapse) that a single drill result cannot fix. If the stock has fallen >50% from its high, the market has already seen prior results and re-priced; one good hole is rarely sufficient to reverse that narrative without accompanying funding, resource upgrade, or offtake news.",
       "created": "2026-09-14",
       "last_seen": "2026-09-14",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
         {
           "date": "2026-09-14",
@@ -85,6 +127,54 @@
           "headline": "Extensional Whundo Drilling Hits 4.8m at 7.1% Cu 0.9g/t Au",
           "called": "bullish",
           "abnormal_pct": -9.03
+        },
+        {
+          "date": "2026-09-14",
+          "ticker": "GRE",
+          "headline": "Extensional Whundo Drilling Hits 4.8m at 7.1% Cu 0.9g/t Au",
+          "called": "bullish",
+          "abnormal_pct": -9.03
+        },
+        {
+          "date": "2026-09-14",
+          "ticker": "ENR",
+          "headline": "High-Grade Niobium Zone Emerging at Joyce",
+          "called": "bullish",
+          "abnormal_pct": -7.79
+        }
+      ]
+    },
+    {
+      "id": "L006",
+      "trigger": "Single contract win announcement (no dollar value disclosed) for a thinly traded micro-cap services or technology company, flagged market sensitive",
+      "rule": "When a contract announcement omits revenue value entirely, treat the omission as a material qualifier — the market cannot size the earnings impact and often re-rates the stock down as the news fails to meet the implicit expectation set by the market-sensitive flag. Do not call bullish on a contract win without a disclosed or estimable dollar value; default to neutral until quantum is known.",
+      "created": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-14",
+          "ticker": "AMX",
+          "headline": "AMX secures Daly Waters LiDAR and Imagery survey project",
+          "called": "bullish",
+          "abnormal_pct": -11.01
+        }
+      ]
+    },
+    {
+      "id": "L007",
+      "trigger": "Asset divestment announcement by a company trading more than 60% below its 12-month high, with no proceeds or deal terms disclosed in the headline",
+      "rule": "When a deeply distressed company announces a divestment without disclosing proceeds or strategic rationale, the market default is to read it as a distress signal — asset quality concern or cash preservation — rather than strategic rationalisation. In the absence of disclosed terms, lean bearish rather than neutral when the stock is already severely de-rated, because the filing confirms asset disposal without confirming value recovery.",
+      "created": "2026-09-14",
+      "last_seen": "2026-09-14",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-14",
+          "ticker": "MDI",
+          "headline": "Divestment of Northern Territory Exploration assets",
+          "called": "neutral",
+          "abnormal_pct": -7.24
         }
       ]
     }
