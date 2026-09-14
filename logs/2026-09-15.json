@@ -1,9 +1,612 @@
 {
   "date": "2026-09-15",
-  "total": 164,
-  "market_sensitive_count": 46,
-  "generated_at": "2026-09-14T23:14:32.166274+00:00",
+  "total": 177,
+  "market_sensitive_count": 51,
+  "generated_at": "2026-09-14T23:24:00.505591+00:00",
   "announcements": [
+    {
+      "ticker": "ROG",
+      "company": "RED SKY ENERGY LIMITED.",
+      "headline": "Yarrow 5 Intersects Gas Pay",
+      "time": "2026-09-14T23:20:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135525-3A701745",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Gas pay intersection at Yarrow 5 is a material result for ROG — a confirmed hydrocarbon-bearing interval advances the asset from exploration concept toward a definable resource, which is the key de-risking milestone the market needs to re-rate the stock.",
+        "The tape context here is critically mixed: volume ran 1.56x the 20-day average into the announcement (flagging some pre-positioning), but the stock remains 75% below its 12-month high — applying Lesson L005, ask whether that deep de-rating reflects a structural problem (funding, permitting, stranded-gas commercialisation) that a single intersect cannot fix alone. At ~A$1,196/day median turnover, the volume ratio is close to meaningless in absolute terms.",
+        "Next step is definitive — the market will want to see flow-test rates, gas composition, and reservoir thickness data before committing to a bullish re-rating; without those numbers this risks being read as activity confirmation rather than value confirmation. However, the market-sensitive flag and genuine gas-pay language make this incrementally bullish over a pure drilling-commencement filing."
+      ],
+      "tags": [
+        "Results",
+        "Energy",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.0015,
+        "volume_trend_ratio": 1.56,
+        "volume_last_ratio": 0.81,
+        "avg_turnover_aud": 1196,
+        "liquid": false,
+        "pct_from_3m_high": -25.0,
+        "pct_from_3m_low": 50.0,
+        "pct_from_52w_high": -75.0,
+        "pct_from_52w_low": 87.5,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.56x its 20-day average",
+          "75.0% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,196/day",
+        "reading": [
+          "Going into this, ROG traded 1.56x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 25.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,196 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AAR",
+      "company": "ASTRAL RESOURCES NL",
+      "headline": "Theia Deeps Assay Results Continue to Strengthen Case",
+      "time": "2026-09-14T23:19:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135524-6A1343822",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "Assay results at Theia Deeps described as 'continuing to strengthen the case' signals progressive infill/extensional drilling success — language implying sequential improvement rather than a one-off hit, which supports a resource growth narrative at Astral's Mandilla Gold Project.",
+        "This is a market-sensitive Results filing, and per the track record data, market-sensitive filings earn directional conviction at a materially higher hit rate (69.4%); the headline framing ('strengthen case') is unambiguously positive rather than equivocal, supporting a bullish lean without needing to discount for ambiguity.",
+        "Key 'so what': repeated strong assay sequences at depth increase the probability of a resource estimate upgrade, which is the single most important upcoming catalyst for a junior gold explorer — watch for a resource update announcement as the next price-moving event."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.195,
+        "volume_trend_ratio": 0.74,
+        "volume_last_ratio": 0.65,
+        "avg_turnover_aud": 985026,
+        "liquid": true,
+        "pct_from_3m_high": -9.3,
+        "pct_from_3m_low": 77.27,
+        "pct_from_52w_high": -33.9,
+        "pct_from_52w_low": 85.71,
+        "range_position_3m": 0.81,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 9.3% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HVY",
+      "company": "HEAVY MINERALS LIMITED",
+      "headline": "Notification of cessation of securities - HVY",
+      "time": "2026-09-14T23:18:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135523-6A1343824",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cessation of securities filing — not flagged market sensitive — is procedurally administrative in isolation, most commonly reflecting the expiry or cancellation of options, performance rights, or warrants; at face value this is a non-event.",
+        "Applying Lesson L003: check whether a companion filing (quotation of new securities, capital raise notice) has been or is about to be lodged by HVY on the same day — a cessation paired with a new issue is a signal that a capital structure event (raise, conversion, restructure) has just completed and may carry dilution or register-change implications the market has not yet absorbed.",
+        "Volume ran at only 0.22x average into this filing on a stock 52.86% below its 12-month high — sub-average volume on a de-rated stock receiving a non-market-sensitive procedural filing adds no signal. Neutral unless a companion filing surfaces."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.33,
+        "volume_trend_ratio": 0.22,
+        "volume_last_ratio": 0.28,
+        "avg_turnover_aud": 20144,
+        "liquid": false,
+        "pct_from_3m_high": -31.25,
+        "pct_from_3m_low": 3.13,
+        "pct_from_52w_high": -52.86,
+        "pct_from_52w_low": 10.0,
+        "range_position_3m": 0.063,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.22x its average",
+          "52.86% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$20,144/day",
+        "reading": [
+          "Going into this, HVY traded only 0.22x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 31.25% below the high of that period.",
+          "Treat all of that with care: it trades about A$20,144 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MHC",
+      "company": "MANHATTAN GOLD CORPORATION LIMITED",
+      "headline": "Proposed issue of securities - MHC",
+      "time": "2026-09-14T23:18:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135522-6A1343815",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is a 'Proposed issue of securities' filing from MHC — filed on the same day as the confirmed A$4.5m placement announcement (filing [3]) and paired with what appears to be a duplicate or companion filing ([8]). Applying Lesson L003, two or more procedural filings from the same issuer on the same day should be read as a cluster signalling the mechanics of a completed capital transaction.",
+        "The 'proposed issue' filing is the ASX Appendix 3B or equivalent notice — it formally notifies the exchange of the new shares to be issued under the placement, confirming dilution is crystallising. This is not new information beyond what [3] already disclosed, but it confirms the transaction is proceeding to allotment.",
+        "No incremental directional information beyond the placement itself — sentiment follows [3]: dilution is confirmed, proceeds are earmarked for drilling, and volume context (0.3x average, ~A$36,092/day median) remains unchanged. Administrative in isolation but part of a cluster that confirms the raise is real."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.0255,
+        "volume_trend_ratio": 0.3,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 36092,
+        "liquid": false,
+        "pct_from_3m_high": -10.53,
+        "pct_from_3m_low": 34.21,
+        "pct_from_52w_high": -25.0,
+        "pct_from_52w_low": 34.21,
+        "range_position_3m": 0.684,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.3x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$36,092/day",
+        "reading": [
+          "Going into this, MHC traded only 0.3x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 10.53% below the high of that period.",
+          "Treat all of that with care: it trades about A$36,092 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MHC",
+      "company": "MANHATTAN GOLD CORPORATION LIMITED",
+      "headline": "Proposed issue of securities - MHC",
+      "time": "2026-09-14T23:18:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135521-6A1343809",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This appears to be a second 'Proposed issue of securities' notice filed by MHC on the same day — likely reflecting two tranches of the placement (e.g. a tranche issued under existing placement capacity and a tranche requiring shareholder approval, which is common ASX capital raise structure for placements above the 15% limit).",
+        "The existence of a second tranche subject to shareholder approval introduces a conditional element — if a portion of the A$4.5m raise requires a vote, there is execution risk and a delay before full proceeds are received, which slightly qualifies the funding certainty implied by the 'commitments received' headline in [3].",
+        "Taken together, filings [3], [7], and [8] form a cluster (Lesson L003) confirming a completed-but-partly-conditional capital raise. Net: dilution is real and structural, partially deferred — confirms bearish dilution read without adding new positive catalysts."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.0255,
+        "volume_trend_ratio": 0.3,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 36092,
+        "liquid": false,
+        "pct_from_3m_high": -10.53,
+        "pct_from_3m_low": 34.21,
+        "pct_from_52w_high": -25.0,
+        "pct_from_52w_low": 34.21,
+        "range_position_3m": 0.684,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.3x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$36,092/day",
+        "reading": [
+          "Going into this, MHC traded only 0.3x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 10.53% below the high of that period.",
+          "Treat all of that with care: it trades about A$36,092 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MHC",
+      "company": "MANHATTAN GOLD CORPORATION LIMITED",
+      "headline": "Commitments received - $4.5m Placement to Progress Drilling",
+      "time": "2026-09-14T23:18:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135520-6A1343802",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "A confirmed A$4.5m placement is a definitive dilution event — existing shareholders face equity dilution, and the proceeds earmarked specifically for drilling suggest the company had insufficient cash to fund its next exploration phase without external capital, a modest negative on the balance sheet narrative.",
+        "However, the placement being fully committed (not merely proposed) removes funding uncertainty and provides a defined cash runway to execute drilling; for a junior explorer, certainty of funding is often net positive because it eliminates the overhang of a potentially failed raise.",
+        "Volume into this announcement ran at only 0.3x average — on a stock with ~A$36,092/day median turnover that ratio is somewhat meaningful; the lack of pre-announcement volume spike suggests no material information leakage, which is procedurally clean. Net assessment: dilution is real but priced against the alternative of no drilling — lean neutral to marginally bearish on dilution mechanics, but the funding certainty tempers the downside."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.0255,
+        "volume_trend_ratio": 0.3,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 36092,
+        "liquid": false,
+        "pct_from_3m_high": -10.53,
+        "pct_from_3m_low": 34.21,
+        "pct_from_52w_high": -25.0,
+        "pct_from_52w_low": 34.21,
+        "range_position_3m": 0.684,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.3x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$36,092/day",
+        "reading": [
+          "Going into this, MHC traded only 0.3x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 10.53% below the high of that period.",
+          "Treat all of that with care: it trades about A$36,092 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KAO",
+      "company": "KAOKO METALS LIMITED",
+      "headline": "Application for quotation of securities - KAO",
+      "time": "2026-09-14T23:17:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135519-6A1343823",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An 'Application for quotation of securities' is a standard post-issue administrative filing, notifying ASX that new securities should be admitted to trading — it follows a completed allotment (capital raise, option exercise, or rights issue) and carries no independent informational content about company value.",
+        "The key question per Lesson L003 is: what transaction generated these new securities? Without a companion filing context visible here, this is a procedural event — but investors should check whether a concurrent raise or conversion has been filed that explains the new securities and implies dilution.",
+        "No price action data is provided for KAO, so no tape-based inference is possible. Default to neutral — this is an administrative market mechanics filing with no standalone directional signal."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 92,
+        "last_close": 2.68,
+        "volume_trend_ratio": 0.93,
+        "volume_last_ratio": 0.37,
+        "avg_turnover_aud": 115958,
+        "liquid": true,
+        "pct_from_3m_high": -12.27,
+        "pct_from_3m_low": 587.18,
+        "pct_from_52w_high": -12.27,
+        "pct_from_52w_low": 712.12,
+        "range_position_3m": 0.859,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 12.27% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WHC",
+      "company": "WHITEHAVEN COAL LIMITED",
+      "headline": "Update - Notification of buy-back - WHC",
+      "time": "2026-09-14T23:14:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135518-2A1697163",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An on-market buyback update from Whitehaven Coal is a capital management signal — buybacks at a coal major indicate management believes the stock is undervalued at current prices and that the company has sufficient free cash flow to return capital, both of which are incrementally positive for sentiment.",
+        "The 'so what' for institutional investors: a buyback update (rather than initiation) suggests the programme is ongoing and being actively executed, which provides a technical floor under the share price through consistent demand. For a stock like WHC, which is sensitive to thermal and metallurgical coal price cycles, buyback capacity signals balance sheet confidence at current commodity prices.",
+        "This is not flagged market sensitive, and per the track record, unflagged filings earn lower directional confidence (57.5% hit rate). The filing is procedural in form — the incremental signal is the continuation of buybacks, not a new announcement — keeping the bullish lean modest rather than strong."
+      ],
+      "tags": [
+        "Finance",
+        "Energy",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 8.42,
+        "volume_trend_ratio": 0.89,
+        "volume_last_ratio": 0.78,
+        "avg_turnover_aud": 40340135,
+        "liquid": true,
+        "pct_from_3m_high": -7.17,
+        "pct_from_3m_low": 21.85,
+        "pct_from_52w_high": -14.95,
+        "pct_from_52w_low": 41.75,
+        "range_position_3m": 0.699,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 7.17% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "INF",
+      "company": "INFINITY METALS LIMITED",
+      "headline": "Board Changes to Accelerate USA Projects",
+      "time": "2026-09-14T23:13:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135517-6A1343820",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Board changes framed as accelerating US projects, but with the stock 68% below its 12-month high and median daily turnover of only ~A$8,026, the market has already heavily de-rated INF — a board reshuffle alone is unlikely to reverse that narrative without accompanying funding, permitting, or drill-result catalysts.",
+        "Volume over the last 5 sessions was running at 0.43x average on a stock this thinly traded; those volume ratios are close to meaningless at this liquidity level and should not be read as directional intent — the filing lands into an effectively inert tape with no sponsoring capital flow.",
+        "Per lesson L009, executive/board restructuring at a micro-cap with identifiable strategic context (US project acceleration) is not purely procedural — the key question is whether the incoming director(s) bring funded deal flow, US regulatory expertise, or sector relationships that genuinely de-risk the asset; without that disclosure, the announcement reads as internal repositioning rather than a value-creating event."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.008,
+        "volume_trend_ratio": 0.43,
+        "volume_last_ratio": 0.01,
+        "avg_turnover_aud": 8026,
+        "liquid": false,
+        "pct_from_3m_high": -42.86,
+        "pct_from_3m_low": 33.33,
+        "pct_from_52w_high": -68.0,
+        "pct_from_52w_low": 33.33,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.43x its average",
+          "68.0% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$8,026/day",
+        "reading": [
+          "Going into this, INF traded only 0.43x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 42.86% below the high of that period.",
+          "Treat all of that with care: it trades about A$8,026 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AFI",
+      "company": "AUSTRALIAN FOUNDATION INVESTMENT COMPANY LIMITED",
+      "headline": "Update - Notification of buy-back - AFI",
+      "time": "2026-09-14T23:13:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135516-3A701758",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AFI's buy-back notification is a routine capital-management update for one of Australia's oldest and largest listed investment companies — it signals that the board views the shares as trading at or below intrinsic value (NTA), which is a mild positive for long-term holders but carries no earnings surprise.",
+        "Buy-backs at LICs like AFI are mechanically accretive to NTA per share when conducted at a discount, and AFI has historically used this tool opportunistically; the filing confirms the programme remains active rather than announcing a new or expanded tranche, so the incremental information content is low.",
+        "No price action data is provided for AFI, so no tape-based inference is possible; the filing is not flagged market sensitive, consistent with its procedural nature — institutional holders should treat this as confirmation of an ongoing programme rather than a new bullish catalyst."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 6.71,
+        "volume_trend_ratio": 1.1,
+        "volume_last_ratio": 1.11,
+        "avg_turnover_aud": 4251705,
+        "liquid": true,
+        "pct_from_3m_high": -5.23,
+        "pct_from_3m_low": 6.0,
+        "pct_from_52w_high": -9.93,
+        "pct_from_52w_low": 6.0,
+        "range_position_3m": 0.507,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 5.23% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CC9",
+      "company": "CHARIOT RESOURCES LTD",
+      "headline": "Trading Halt",
+      "time": "2026-09-14T23:12:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135515-6A1343819",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "A trading halt on a stock already 79% below its 12-month high almost always signals a capital raise, M&A event, or material announcement in preparation — the depth of the de-rating makes a distressed capital raise the most probable scenario, which would be dilutive and consistent with Lesson L007's framing on deeply impaired stocks.",
+        "With median daily turnover of only ~A$3,992, Chariot Resources is an extremely illiquid micro-cap; any new shares issued in a raise at a discount to an already-depressed price would compound the dilution impact disproportionately relative to the company's implied market cap.",
+        "Until the halt lifts and the underlying transaction is disclosed, the risk-reward skews bearish by default — deeply de-rated stocks entering trading halts rarely emerge with unambiguously positive news, and institutional investors should treat resumption as a sell-the-news event unless deal terms are materially value-accretive."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.068,
+        "volume_trend_ratio": 0.79,
+        "volume_last_ratio": 3.3,
+        "avg_turnover_aud": 3992,
+        "liquid": false,
+        "pct_from_3m_high": -24.44,
+        "pct_from_3m_low": 70.0,
+        "pct_from_52w_high": -79.08,
+        "pct_from_52w_low": 70.0,
+        "range_position_3m": 0.56,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "79.08% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$3,992/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 24.44% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,992 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KLR",
+      "company": "KAILI RESOURCES LIMITED",
+      "headline": "REE Drilling Results at Coodalya in SA",
+      "time": "2026-09-14T23:12:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135514-2A1697161",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "REE (Rare Earth Element) drilling results at Coodalya, South Australia, are market-sensitive and directionally positive in headline — but applying Lesson L005, the stock is 88.71% below its 12-month high, an extreme de-rating that signals the market has already repriced prior results and sees structural issues (REE market weakness, processing complexity, funding, or permitting) that a single drill result is unlikely to resolve.",
+        "The so-what here is critical: REE projects globally face the commercialisation gap between resource definition and revenue — processing complexity and offtake dependency mean even high-grade intersects require a much longer value chain before monetisation, and the market knows this. Without accompanying metallurgical, processing, or offtake news, bullish momentum is likely to be short-lived even on strong grades.",
+        "At ~A$711/day median turnover this is an extremely illiquid stock; volume ratios are essentially meaningless at this scale. Any price move on this announcement will be driven by a handful of trades and may not reflect genuine institutional re-rating — treat any post-announcement rally as fragile and not durable without structural catalysts."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.079,
+        "volume_trend_ratio": 0.87,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 711,
+        "liquid": false,
+        "pct_from_3m_high": -34.17,
+        "pct_from_3m_low": 23.44,
+        "pct_from_52w_high": -88.71,
+        "pct_from_52w_low": 23.44,
+        "range_position_3m": 0.268,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "88.71% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$711/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 34.17% below the high of that period.",
+          "Treat all of that with care: it trades about A$711 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMH",
+      "company": "AMCIL LIMITED",
+      "headline": "Update - Notification of buy-back - AMH",
+      "time": "2026-09-14T23:12:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135513-3A701757",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "AMCIL's buy-back update mirrors the AFI filing in character — a routine notification that the programme remains active, carrying minimal new information content; as a smaller LIC, the buy-back's NTA-accretion effect is real but incremental and unlikely to move the stock materially on its own.",
+        "Volume over the last 5 sessions was 0.52x average, indicating subdued interest heading into the announcement — below-average participation suggests no speculative positioning has built ahead of this filing, which is consistent with its procedural nature and the absence of a market-sensitive flag.",
+        "The so-what for institutional holders: continued buy-back activity at a discount to NTA is structurally supportive but is already the expected base case for AMCIL; without an expanded programme, a special dividend, or a portfolio rebalancing signal, the filing does not provide a sufficient catalyst to re-rate the stock in either direction."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.9,
+        "volume_trend_ratio": 0.52,
+        "volume_last_ratio": 0.33,
+        "avg_turnover_aud": 103169,
+        "liquid": true,
+        "pct_from_3m_high": -5.26,
+        "pct_from_3m_low": 5.26,
+        "pct_from_52w_high": -18.18,
+        "pct_from_52w_low": 5.26,
+        "range_position_3m": 0.474,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.52x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, AMH traded only 0.52x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 5.26% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MIR",
       "company": "MIRRABOOKA INVESTMENTS LIMITED",
