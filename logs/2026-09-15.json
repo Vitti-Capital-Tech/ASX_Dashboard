@@ -1,9 +1,406 @@
 {
   "date": "2026-09-15",
-  "total": 121,
-  "market_sensitive_count": 31,
-  "generated_at": "2026-09-14T22:42:35.652476+00:00",
+  "total": 130,
+  "market_sensitive_count": 33,
+  "generated_at": "2026-09-14T22:51:47.616115+00:00",
   "announcements": [
+    {
+      "ticker": "HLX",
+      "company": "HELIX RESOURCES LIMITED",
+      "headline": "Proposed issue of securities - HLX",
+      "time": "2026-09-14T22:46:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135478-6A1343767",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Applying lesson [L003]: two filings from HLX on the same day (tenement acquisition + proposed securities issue) confirm a capital raise is the funding mechanism for the Nullagine gold acquisition — the dilution is real and imminent.",
+        "For an extremely thinly traded stock with median daily turnover of ~A$5,915, any placement — even modest in absolute dollar terms — represents a significant expansion of the register and likely introduces new supply overhang at the placement price.",
+        "The procedural filing itself carries no standalone positive content; the 'so what' is entirely about dilution risk attached to the acquisition announced in [1]. Investors should await placement pricing and size before assessing net value creation."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.038,
+        "volume_trend_ratio": 1.72,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 5915,
+        "liquid": false,
+        "pct_from_3m_high": -20.83,
+        "pct_from_3m_low": 58.33,
+        "pct_from_52w_high": -45.71,
+        "pct_from_52w_low": 58.33,
+        "range_position_3m": 0.583,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.72x its 20-day average"
+        ],
+        "caveat": "thinly traded, median turnover about A$5,915/day",
+        "reading": [
+          "Going into this, HLX traded 1.72x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 20.83% below the high of that period.",
+          "Treat all of that with care: it trades about A$5,915 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HLX",
+      "company": "HELIX RESOURCES LIMITED",
+      "headline": "Secures 100% Interest in 30-Tenement Package Nullagine Gold",
+      "time": "2026-09-14T22:46:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135477-6A1343766",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Securing 100% interest in a 30-tenement Nullagine gold package is a material portfolio expansion for HLX — Nullagine is an established Western Australian goldfield with known historical production, lending credibility to the acquisition beyond a greenfield punt.",
+        "This is market sensitive and filed alongside a 'Proposed issue of securities' (see [3]), strongly signalling the tenement acquisition is being funded via a capital raise — investors should treat the headline upside as contingent on absorbing dilution from the accompanying placement.",
+        "Pre-announcement volume ran at 1.72x the 20-day average, but HLX is extremely thinly traded (median ~A$5,915/day), so that ratio is close to meaningless in absolute terms — any volume signal here reflects a very low base and should not be read as informed institutional accumulation. The asset story is real, but the raise overhang caps near-term upside."
+      ],
+      "tags": [
+        "Mining",
+        "Capital Raise",
+        "Merger & Acquisition"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.038,
+        "volume_trend_ratio": 1.72,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 5915,
+        "liquid": false,
+        "pct_from_3m_high": -20.83,
+        "pct_from_3m_low": 58.33,
+        "pct_from_52w_high": -45.71,
+        "pct_from_52w_low": 58.33,
+        "range_position_3m": 0.583,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.72x its 20-day average"
+        ],
+        "caveat": "thinly traded, median turnover about A$5,915/day",
+        "reading": [
+          "Going into this, HLX traded 1.72x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 20.83% below the high of that period.",
+          "Treat all of that with care: it trades about A$5,915 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WCN",
+      "company": "WHITE CLIFF MINERALS LIMITED",
+      "headline": "Proposed issue of securities - WCN",
+      "time": "2026-09-14T22:45:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135476-6A1343789",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Applying lesson [L003]: the simultaneous lodgement of a strategic stake announcement and a proposed securities issue confirms Hancock Prospecting's 13.5% position was acquired via a placement — the register now has a dominant, well-resourced cornerstone holder which is fundamentally different from anonymous market buying.",
+        "Unlike typical dilutive placements, a placement to Hancock Prospecting at an agreed price sets a credible reference valuation and signals that a sophisticated buyer conducted due diligence and accepted the terms — this partially offsets dilution concerns that would otherwise apply.",
+        "The not-market-sensitive flag on this filing is purely procedural (it is an ASX form, not a disclosure choice) — the economic substance is captured in [2]; this filing adds no new directional information beyond confirming the mechanics of the transaction."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.017,
+        "volume_trend_ratio": 1.66,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 94518,
+        "liquid": true,
+        "pct_from_3m_high": -29.17,
+        "pct_from_3m_low": 13.33,
+        "pct_from_52w_high": -32.0,
+        "pct_from_52w_low": 41.67,
+        "range_position_3m": 0.222,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.66x its 20-day average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, WCN traded 1.66x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 29.17% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WCN",
+      "company": "WHITE CLIFF MINERALS LIMITED",
+      "headline": "Hancock Prospecting Acquires 13.5% Strategic Stake in WCN",
+      "time": "2026-09-14T22:45:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135475-6A1343788",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 13.5% strategic stake acquired by Hancock Prospecting — one of Australia's most powerful private mining houses — is a powerful endorsement signal for WCN; Hancock's involvement typically implies resource quality conviction and potential pathway to joint venture or takeover premium.",
+        "This is market sensitive and filed simultaneously with a 'Proposed issue of securities' (see [4]), indicating Hancock's stake was likely established via a placement — the combination of a credible strategic cornerstone investor and fresh capital is structurally bullish, distinguishing this from a purely dilutive raise.",
+        "Pre-announcement volume at 1.66x the 20-day average suggests some pre-positioning or information leakage, but the Hancock name is a material new fact that the market has not previously priced — the strategic stake provides a floor narrative and re-rates the company's perceived asset quality regardless of prior run-up."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition",
+        "Capital Raise"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.017,
+        "volume_trend_ratio": 1.66,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 94518,
+        "liquid": true,
+        "pct_from_3m_high": -29.17,
+        "pct_from_3m_low": 13.33,
+        "pct_from_52w_high": -32.0,
+        "pct_from_52w_low": 41.67,
+        "range_position_3m": 0.222,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.66x its 20-day average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, WCN traded 1.66x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 29.17% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AMP",
+      "company": "AMP LIMITED",
+      "headline": "Update - Notification of buy-back - AMP",
+      "time": "2026-09-14T22:44:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135474-2A1697148",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An on-market buyback update at a 12-month high is a double-edged signal: management is deploying capital to repurchase shares at peak prices, which either reflects high conviction in intrinsic value or poor capital allocation discipline — institutional investors will weigh this against AMP's current earnings trajectory and alternative uses of capital.",
+        "The filing is not market sensitive and is an update (not a new buyback initiation), making it procedural in nature — the incremental information content is low unless the update reveals a material acceleration or conclusion of the programme.",
+        "At a 12-month high, buyback support is less price-sensitive and the marginal EPS accretion per dollar spent is lower than it would be at depressed prices; the market is unlikely to re-rate materially on this news alone, but it does confirm ongoing capital return commitment which underpins the bull thesis for income-oriented holders."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 2.49,
+        "volume_trend_ratio": 0.85,
+        "volume_last_ratio": 1.05,
+        "avg_turnover_aud": 22339326,
+        "liquid": true,
+        "pct_from_3m_high": -0.99,
+        "pct_from_3m_low": 62.75,
+        "pct_from_52w_high": -0.99,
+        "pct_from_52w_low": 118.42,
+        "range_position_3m": 0.975,
+        "at_3m_high": true,
+        "at_3m_low": false,
+        "at_52w_high": true,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "It was already at a 12-month high, so the market had been bidding it up regardless of this news — some of what the filing says may already be in the price."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGU",
+      "company": "MAGNUM MINING AND EXPLORATION LIMITED",
+      "headline": "Appointment of Executive Chairman and Executive Director",
+      "time": "2026-09-14T22:44:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135473-6A1343797",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "Applying lesson [L009]: an Executive Chairman appointment at a micro-cap consolidates board and executive authority — this is a governance restructuring signal, not a routine board refresh, and warrants scrutiny of whether it implies a strategic inflection (asset sale, JV, exploration pivot) is imminent.",
+        "MGU is trading 57.69% below its 12-month high, which means the market has already delivered a severe verdict on the prior strategy or leadership — the appointment needs to be assessed against whether the incoming Executive Chairman brings a credibly different network, funding access, or operational approach to reverse that de-rating.",
+        "The filing is not market sensitive and thinly traded (~A$12,741/day median turnover), so speculative positioning is unlikely to drive a durable re-rate without a substantive follow-on announcement; the near-term signal is cautiously watched rather than actionable — lean neutral pending clarity on the appointee's track record and strategic mandate."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.0055,
+        "volume_trend_ratio": 1.03,
+        "volume_last_ratio": 0.1,
+        "avg_turnover_aud": 12741,
+        "liquid": false,
+        "pct_from_3m_high": -45.0,
+        "pct_from_3m_low": 37.5,
+        "pct_from_52w_high": -57.69,
+        "pct_from_52w_low": 37.5,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "57.69% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$12,741/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 45.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$12,741 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BMN",
+      "company": "BANNERMAN ENERGY LTD",
+      "headline": "Application for quotation of securities - BMN",
+      "time": "2026-09-14T22:43:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135472-6A1343799",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Applying lesson [L003] partially: a quotation of securities filing for BMN (Bannerman Energy, a uranium developer) is procedural — it confirms new securities are being admitted to trading, most likely the result of a recently completed placement, options exercise, or performance rights vesting.",
+        "The 'so what' depends entirely on what transaction generated the new securities: if it is a placement, dilution has already occurred and the filing marks the point at which new holders can sell; if it is rights/options vesting, the dilution signal is smaller but still relevant for float tracking.",
+        "No price action data is provided, so no tape-based inference is possible; the filing alone carries insufficient information to form a directional view — it is administrative confirmation of a prior corporate action."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 3.79,
+        "volume_trend_ratio": 0.97,
+        "volume_last_ratio": 1.18,
+        "avg_turnover_aud": 4814789,
+        "liquid": true,
+        "pct_from_3m_high": -22.34,
+        "pct_from_3m_low": 32.98,
+        "pct_from_52w_high": -27.81,
+        "pct_from_52w_low": 36.82,
+        "range_position_3m": 0.463,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 22.34% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENP",
+      "company": "ENTROPY NEURODYNAMICS LIMITED",
+      "headline": "Notification of Date of 2026 AGM",
+      "time": "2026-09-14T22:43:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135471-6A1343798",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM date notification is purely administrative — it sets a calendar date for shareholder formalities but contains no new financial, operational, or strategic information that would move the share price on its own merits.",
+        "Volume at 0.52x the 20-day average into this announcement signals below-average investor interest, and the stock is only 4.65% off its 3-month high — the tape is quiet and the stock is not materially distressed, so there is no asymmetric setup that would justify a directional lean on a procedural filing.",
+        "ENP is a neurotechnology company with thin liquidity (~A$45,219/day median turnover); institutional investors should monitor the AGM agenda when published, particularly for any capital raise resolutions or management changes that could carry substantive information content."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.041,
+        "volume_trend_ratio": 0.52,
+        "volume_last_ratio": 0.56,
+        "avg_turnover_aud": 45219,
+        "liquid": false,
+        "pct_from_3m_high": -4.65,
+        "pct_from_3m_low": 36.67,
+        "pct_from_52w_high": -10.87,
+        "pct_from_52w_low": 64.0,
+        "range_position_3m": 0.846,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.52x its average",
+          "4.65% off its 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$45,219/day",
+        "reading": [
+          "Going into this, ENP traded only 0.52x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 4.65% below the high of that period.",
+          "Treat all of that with care: it trades about A$45,219 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HTT",
+      "company": "ETFS US TECHNOLOGY CURRENCY HEDGED ETF",
+      "headline": "Producct Disclosure Document",
+      "time": "2026-09-14T22:40:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135470-2A1697142",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Product Disclosure Document update for an ETF (ETFS US Technology Currency Hedged ETF) is a regulatory compliance filing — it updates the legal disclosure document for the fund and has no direct implications for the underlying portfolio holdings or NAV.",
+        "The filing is not market sensitive and carries no financial results, strategy change, or fee adjustment signals in the headline — it is housekeeping to maintain ASX quotation compliance for the product.",
+        "Investors in HTT should review the updated PDS for any changes to hedging methodology, fee structure, or investment mandate, but absent any flagged material change, this filing is procedural and warrants no directional positioning response."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "HUL",
       "company": "ETFS MAGNIFICENT 7+ CURRENCY HEDGED ETF",
