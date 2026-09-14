@@ -1,9 +1,1190 @@
 {
   "date": "2026-09-15",
-  "total": 137,
-  "market_sensitive_count": 37,
-  "generated_at": "2026-09-14T23:01:01.531029+00:00",
+  "total": 164,
+  "market_sensitive_count": 46,
+  "generated_at": "2026-09-14T23:14:32.166274+00:00",
   "announcements": [
+    {
+      "ticker": "MIR",
+      "company": "MIRRABOOKA INVESTMENTS LIMITED",
+      "headline": "Update - Notification of buy-back - MIR",
+      "time": "2026-09-14T23:09:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135512-3A701756",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A buyback update at a 12-month low is mechanically supportive — MIR (a LIC) is signalling that it believes its own NTA is undervalued and is deploying capital to reduce the discount, which is textbook value-accretive behaviour for a listed investment company; however, the filing is not flagged market sensitive, which tempers the directional conviction (lesson: unflagged filings must make their own case).",
+        "Volume running at 1.54x average into a stock at a 12-month low (L001 context) is an important flag: elevated volume at a multi-month low can reflect forced selling or liquidation rather than informed buying, meaning the buyback may be absorbing sell pressure rather than creating a genuine re-rating catalyst.",
+        "The net read is modestly supportive — buybacks at NTA discounts are value-positive for long-term holders of a LIC, and the buyback itself acts as a price floor mechanism — but the unflagged status and elevated volume into a 12-month low temper the bullish case; treat as neutral-to-mildly-bullish rather than a strong directional call."
+      ],
+      "tags": [
+        "Finance",
+        "Substantial Holding"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 2.39,
+        "volume_trend_ratio": 1.54,
+        "volume_last_ratio": 1.68,
+        "avg_turnover_aud": 357156,
+        "liquid": true,
+        "pct_from_3m_high": -11.48,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -29.08,
+        "pct_from_52w_low": 0.42,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.54x its 20-day average",
+          "at a 12-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, MIR traded 1.54x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AOV",
+      "company": "AMOTIV LIMITED",
+      "headline": "Notice of Annual General Meeting 2026",
+      "time": "2026-09-14T23:08:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135511-3A701755",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM notice is purely administrative — it sets the date and agenda for shareholder voting but contains no financial result, strategic update, or capital action that would move the price.",
+        "The stock sitting at a 12-month low is the dominant signal here: the market has already de-rated AOV on its own fundamentals, and an AGM notice adds nothing to resolve that pressure — no buyback, no special dividend, no M&A signal is implied by the filing itself.",
+        "Institutional investors should watch the AGM resolutions carefully (particularly any remuneration or capital authority items) for signals about management's forward strategy, but the filing alone is not a catalyst for re-rating in either direction."
+      ],
+      "tags": [
+        "AGM"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 5.95,
+        "volume_trend_ratio": 0.78,
+        "volume_last_ratio": 0.58,
+        "avg_turnover_aud": 2264926,
+        "liquid": true,
+        "pct_from_3m_high": -20.13,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -36.3,
+        "pct_from_52w_low": 0.85,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "at a 12-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RAP",
+      "company": "RAPTOR METALS LTD",
+      "headline": "Raptor Realises $468K in Non-Dilutive Funding",
+      "time": "2026-09-14T23:04:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135510-2A1697160",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The $468K in non-dilutive funding is a meaningful signal for a micro-cap trading ~57% below its 12-month high — it preserves equity while extending runway, avoiding the shareholder dilution that would otherwise be the default at this price level.",
+        "Thinly traded at a median ~A$11,789/day, volume ratios are close to meaningless as an intent signal; the key read here is structural: the company is actively sourcing non-equity capital, implying management is acutely aware of the cost of dilution at depressed prices.",
+        "The 'so what' for investors is cash runway extension without register dilution — but the stock's deep de-rating (L005/L007 context) means the market will want to know whether this bridges to a substantive catalyst or merely delays an inevitable equity raise; watch for follow-up operational announcements to confirm the former."
+      ],
+      "tags": [
+        "Mining",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.028,
+        "volume_trend_ratio": 0.67,
+        "volume_last_ratio": 0.42,
+        "avg_turnover_aud": 11789,
+        "liquid": false,
+        "pct_from_3m_high": -37.78,
+        "pct_from_3m_low": 40.0,
+        "pct_from_52w_high": -56.92,
+        "pct_from_52w_low": 196.61,
+        "range_position_3m": 0.32,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "56.92% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$11,789/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 37.78% below the high of that period.",
+          "Treat all of that with care: it trades about A$11,789 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MRQ",
+      "company": "MRG METALS LIMITED",
+      "headline": "Adriano Rare Earth - Growing Mineralised Footprint",
+      "time": "2026-09-14T23:04:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135509-3A701754",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'growing mineralised footprint' headline for a rare earth project sounds constructive, but at 71% below its 12-month high and with volume running at just 0.29x average on an already near-zero turnover stock (~A$255/day median), the tape is telling a structurally bearish story that a footprint update alone cannot reverse.",
+        "Critically, the filing is categorised as a Market Update, not a resource upgrade or drill result — 'growing footprint' language typically reflects mapping or geophysical interpretation rather than assay-confirmed mineralisation, meaning the information content is closer to programme activity than a value-crystallising result (L002 context).",
+        "For institutional purposes this is effectively uninvestable at current liquidity; even if the geological narrative is compelling, the extreme de-rating and negligible turnover mean price discovery is dysfunctional and any bullish call cannot be actioned without moving the market against oneself."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.002,
+        "volume_trend_ratio": 0.29,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 255,
+        "liquid": false,
+        "pct_from_3m_high": -50.0,
+        "pct_from_3m_low": 33.33,
+        "pct_from_52w_high": -71.43,
+        "pct_from_52w_low": 33.33,
+        "range_position_3m": 0.2,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.29x its average",
+          "71.43% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$255/day",
+        "reading": [
+          "Going into this, MRQ traded only 0.29x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 50.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$255 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OSL",
+      "company": "ONCOSIL MEDICAL LTD",
+      "headline": "Notice under ASX Listing Rule 3.10A",
+      "time": "2026-09-14T23:04:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135508-2A1697159",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX Listing Rule 3.10A notices are issued when a company is unable to comply with a continuous disclosure obligation — typically because information is incomplete, subject to a trading halt, or relates to a securities issue — making the substance of the underlying non-disclosure the critical unknown.",
+        "The tape is a significant warning flag: volume over the last five sessions ran at 2.26x its 20-day average into a stock already sitting 53% below its 12-month high — elevated activity into a deeply de-rated name ahead of a compliance filing is consistent with speculative positioning or insider-adjacent awareness, not routine trading (lesson L001 applies directionally).",
+        "With no disclosed substance and a stock this far below its high, the compliance trigger combined with hot volume most plausibly signals a capital raise or asset event that has not yet been made public — until the underlying disclosure is released, the risk skew is bearish given the dilution base case and the depth of prior de-rating."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.98,
+        "volume_trend_ratio": 2.26,
+        "volume_last_ratio": 0.04,
+        "avg_turnover_aud": 93325,
+        "liquid": true,
+        "pct_from_3m_high": -40.24,
+        "pct_from_3m_low": 68.97,
+        "pct_from_52w_high": -53.11,
+        "pct_from_52w_low": 164.86,
+        "range_position_3m": 0.377,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.26x its 20-day average",
+          "53.11% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, OSL traded 2.26x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 40.24% below the high of that period."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LM1",
+      "company": "LEEUWIN METALS LTD",
+      "headline": "Leeuwin Appoints Chief Development Officer",
+      "time": "2026-09-14T23:03:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135507-6A1343818",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Appointment of a Chief Development Officer at a junior explorer signals an intent to advance assets toward development — it is a strategic hire, not a routine board rotation — but the materiality depends entirely on the appointee's track record and whether LM1 has the funding and resource base to justify a development-stage executive.",
+        "The filing is not flagged market sensitive, which lowers the prior probability of an outsized price move; without disclosed terms (salary, equity, or specific mandate tied to a named project milestone), the market cannot size the strategic acceleration implied.",
+        "Investors should cross-check the appointee's background against LM1's current resource definition stage — if the company is still in early-stage exploration, a 'Chief Development Officer' title may be aspirational positioning ahead of a capital raise rather than a response to genuine near-term development decisions (lesson L010 framing applies)."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.24,
+        "volume_trend_ratio": 0.86,
+        "volume_last_ratio": 1.15,
+        "avg_turnover_aud": 90996,
+        "liquid": true,
+        "pct_from_3m_high": -18.64,
+        "pct_from_3m_low": 41.18,
+        "pct_from_52w_high": -22.58,
+        "pct_from_52w_low": 77.78,
+        "range_position_3m": 0.56,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 18.64% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BIO",
+      "company": "BIOME AUSTRALIA LIMITED",
+      "headline": "Biome Investor Presentation",
+      "time": "2026-09-14T23:03:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135506-3A701753",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A generic investor presentation from a pre-revenue or early-commercial healthcare company with no named catalyst in the headline is a classic capital-markets awareness exercise — lesson L010 applies directly: management presenting to investors without a disclosed milestone (trial result, revenue update, partnership) is most commonly a precursor to a capital raise.",
+        "The filing is not flagged market sensitive, confirming the ASX itself sees no price-sensitive content — this further reduces the probability that the presentation contains material new information and increases the probability it is dilution-signalling activity.",
+        "Institutional investors should treat this as a bearish near-term signal: the implicit message of an unflagged investor roadshow presentation is that equity is being marketed, not that a value-creating event has occurred."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.355,
+        "volume_trend_ratio": 0.67,
+        "volume_last_ratio": 0.37,
+        "avg_turnover_aud": 56684,
+        "liquid": true,
+        "pct_from_3m_high": -6.58,
+        "pct_from_3m_low": 51.06,
+        "pct_from_52w_high": -32.38,
+        "pct_from_52w_low": 77.5,
+        "range_position_3m": 0.828,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 6.58% below the high of that period."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CG1",
+      "company": "CARBONXT GROUP LIMITED",
+      "headline": "Increased Activated Carbon Pellet Order from WPS",
+      "time": "2026-09-14T23:03:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135505-2A1697157",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "An increased repeat order from an existing customer (WPS) is a strong positive signal for CarbonXt — it implies product satisfaction, contract stickiness, and volume growth in its activated carbon pellet business, which is the core commercial validation the company needs at this stage.",
+        "The market-sensitive flag carries weight here: management has assessed this order increase as price-relevant, suggesting the quantum of the uplift is material relative to existing revenue run-rate; investors should look for disclosed volume or dollar terms to size the earnings impact.",
+        "The 'so what' is that a repeat, increased order from a named industrial customer de-risks the revenue base — it shifts the narrative from 'can they sell product' to 'can they scale supply', making operational capacity and margin the next key questions for the investment case."
+      ],
+      "tags": [
+        "Results",
+        "Production",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.075,
+        "volume_trend_ratio": 1.28,
+        "volume_last_ratio": 0.57,
+        "avg_turnover_aud": 37,
+        "liquid": false,
+        "pct_from_3m_high": -16.67,
+        "pct_from_3m_low": 38.89,
+        "pct_from_52w_high": -34.78,
+        "pct_from_52w_low": 38.89,
+        "range_position_3m": 0.583,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$37/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 16.67% below the high of that period.",
+          "Treat all of that with care: it trades about A$37 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GCI",
+      "company": "GRYPHON CAPITAL INCOME TRUST",
+      "headline": "Application for quotation of securities - GCI",
+      "time": "2026-09-14T23:02:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135504-2A1697158",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An 'application for quotation of securities' filing from GCI — a listed income trust — indicates that new units are being admitted to trading, which almost certainly follows a distribution reinvestment plan (DRP) allotment or a capital raising; this is mildly dilutive in unit terms but routine for income trust structures.",
+        "The stock sitting at a 3-month low is the material contextual signal: new units being quoted into price weakness suggests either that the DRP pricing was struck at a discount to current NAV, or that the market is absorbing prior issuance — neither is a positive catalyst.",
+        "For yield-focused institutional holders the key question is whether the issuance is DRP-sourced (low concern) or a new placement (higher concern for per-unit income dilution) — without that distinction confirmed, the filing is procedural but the tape context argues against a bullish read."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 2.01,
+        "volume_trend_ratio": 1.0,
+        "volume_last_ratio": 1.77,
+        "avg_turnover_aud": 1362791,
+        "liquid": true,
+        "pct_from_3m_high": -3.83,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -4.29,
+        "pct_from_52w_low": 2.03,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCP",
+      "company": "SCALARE PARTNERS HOLDINGS LIMITED",
+      "headline": "FY26 Full Year Results Presentation and Update",
+      "time": "2026-09-14T23:02:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135503-3A701751",
+      "market_sensitive": false,
+      "document_type": "Results",
+      "summary": [
+        "SCP's FY26 full-year results presentation is the substantive event, but the stock is effectively untradeable at a median daily turnover of approximately A$4 — volume ratios are meaningless at this liquidity level and should not be read as directional intent by any institutional participant.",
+        "The filing is not flagged market sensitive, which is an unusual signal for a results document — it may indicate that the figures fall within prior guidance or that the company deems its disclosure obligations met through prior updates, but it materially lowers confidence that the results contain positive surprises.",
+        "With the stock only 4.5% off its 3-month high despite near-zero liquidity, price discovery is essentially non-functional; institutional investors should treat SCP as uninvestable from a sizing perspective regardless of headline result quality."
+      ],
+      "tags": [
+        "Results",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 3.6,
+        "volume_trend_ratio": 1.67,
+        "volume_last_ratio": 2.24,
+        "avg_turnover_aud": 4,
+        "liquid": false,
+        "pct_from_3m_high": -4.51,
+        "pct_from_3m_low": 46.34,
+        "pct_from_52w_high": -58.62,
+        "pct_from_52w_low": 46.34,
+        "range_position_3m": 0.87,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.67x its 20-day average",
+          "4.51% off its 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$4/day",
+        "reading": [
+          "Going into this, SCP traded 1.67x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the upper part of its 3-month range, 4.51% below the high of that period.",
+          "Treat all of that with care: it trades about A$4 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MGH",
+      "company": "MAAS GROUP HOLDINGS LIMITED",
+      "headline": "Update - Notification of buy-back - MGH",
+      "time": "2026-09-14T23:02:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135502-2A1697156",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An on-market buyback update from MGH is a capital management signal — it confirms the company is actively returning cash to shareholders at current prices, which management implicitly endorses as undervalued, and reduces the float over time.",
+        "The filing is not flagged market sensitive, consistent with buyback notifications being routine compliance updates under ASX Listing Rules rather than new strategic announcements — the incremental information content is low unless the update reveals a material acceleration or cessation of the programme.",
+        "The 'so what' for institutional investors is whether the buyback pace has changed: an accelerated buyback into a soft market would be a genuine positive signal, while a routine volume update is procedural; without the quantum of shares repurchased in this update, the filing is mildly supportive but not a standalone re-rating catalyst."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 5.58,
+        "volume_trend_ratio": 0.75,
+        "volume_last_ratio": 0.79,
+        "avg_turnover_aud": 8063253,
+        "liquid": true,
+        "pct_from_3m_high": -10.43,
+        "pct_from_3m_low": 16.01,
+        "pct_from_52w_high": -10.43,
+        "pct_from_52w_low": 52.88,
+        "range_position_3m": 0.542,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 10.43% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATT",
+      "company": "ALTITUDE MINERALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-09-14T23:01:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135501-2A1697155",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "A trading halt at 83% below the 12-month high on a thinly traded stock (~A$8,437/day median) almost certainly precedes a capital raise announcement — at this depth of de-rating, the market will default to pricing in dilution until proven otherwise, and the halt removes any ability to exit ahead of the announcement.",
+        "Volume ratios are close to meaningless at this liquidity level, so no useful directional intent can be inferred from pre-halt trading; the halt itself is the only data point, and its combination with extreme distress pricing is the critical context.",
+        "Investors should treat this as high-probability dilutive capital raise territory: the risk/reward skews bearish into the re-open unless the halt resolves into an M&A, asset sale with disclosed proceeds, or a transformational strategic announcement — all of which are lower-probability outcomes at this price level."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining",
+        "Capital Raise"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.008,
+        "volume_trend_ratio": 1.29,
+        "volume_last_ratio": 1.38,
+        "avg_turnover_aud": 8437,
+        "liquid": false,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 33.33,
+        "pct_from_52w_high": -83.33,
+        "pct_from_52w_low": 33.33,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "83.33% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$8,437/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$8,437 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PNV",
+      "company": "POLYNOVO LIMITED",
+      "headline": "PolyNovo FY26 Corporate Governance Statement",
+      "time": "2026-09-14T23:01:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135500-3A701752",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Corporate Governance Statement (Appendix 4G companion document) is a mandatory annual compliance filing disclosing how the company aligns with the ASX Corporate Governance Principles — it contains no financial data, operational update, or strategic signal.",
+        "PNV is a well-followed ASX mid-cap medtech; the governance filing arriving alongside the Appendix 4G (filing [10]) is standard post-balance-date housekeeping and carries zero informational content about business performance or near-term catalysts.",
+        "Investors should disregard this filing as a price driver entirely — its only relevance is confirming that PNV's board composition and governance practices meet disclosure thresholds, which is a hygiene factor rather than an investment signal."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.96,
+        "volume_trend_ratio": 0.61,
+        "volume_last_ratio": 0.69,
+        "avg_turnover_aud": 1805043,
+        "liquid": true,
+        "pct_from_3m_high": -17.95,
+        "pct_from_3m_low": 18.52,
+        "pct_from_52w_high": -42.17,
+        "pct_from_52w_low": 18.52,
+        "range_position_3m": 0.417,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 17.95% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAL",
+      "company": "KALGOORLIE GOLD MINING LIMITED",
+      "headline": "Cleansing Statement",
+      "time": "2026-09-14T23:00:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135499-6A1343816",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A cleansing statement is filed under s708A of the Corporations Act immediately after a placement or rights issue to allow placed shares to be on-sold without a prospectus — its presence confirms that KAL has just completed a capital raise, with dilution already delivered to the register.",
+        "The stock is at a 12-month low and thinly traded at ~A$14,970 median daily turnover — this combination means the capital raise was almost certainly conducted at a significant discount to NAV or recent prices, and the cleansing statement formalises that dilution without providing any offsetting operational catalyst.",
+        "Lesson L003 applies: a cleansing statement is the administrative tail of a completed capital event — institutional investors should ask what the raised capital is being deployed for and whether the stated use of proceeds justifies the dilution at current prices; in the absence of a disclosed operational trigger, the default read at a 12-month low is bearish."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.02,
+        "volume_trend_ratio": 0.93,
+        "volume_last_ratio": 3.72,
+        "avg_turnover_aud": 14970,
+        "liquid": false,
+        "pct_from_3m_high": -45.95,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -76.47,
+        "pct_from_52w_low": 0.0,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "at a 12-month low"
+        ],
+        "caveat": "thinly traded, median turnover about A$14,970/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it.",
+          "Treat all of that with care: it trades about A$14,970 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BTM",
+      "company": "BREAKTHROUGH MINERALS LIMITED",
+      "headline": "High-Grade Copper-Gold Extends Turpentine",
+      "time": "2026-09-14T23:00:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135498-2A1697154",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "The 'High-Grade Copper-Gold Extends Turpentine' headline is a genuine drill result — an extension of a known zone — which is substantively different from a commencement announcement; this is actual assay data, and the market-sensitive flag reinforces that management believes the intercept is price-relevant.",
+        "However, lesson L005 applies directly: the stock is ~52% below its 12-month high, and volume running at 1.66x average into this result suggests speculative positioning has already built — meaning some upside may be anticipated, and the key test is whether the grade/width data exceeds what the market has already modelled into its run-up.",
+        "The critical next question is whether this extension de-risks the deposit enough to support a resource upgrade or funding conversation — a single good intercept in a structurally de-rated stock (L005) rarely reverses the trend without accompanying news on capital or a definitive resource step-change; treat as cautiously bullish, not strongly so."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.13,
+        "volume_trend_ratio": 1.66,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 28545,
+        "liquid": false,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 8.33,
+        "pct_from_52w_high": -51.85,
+        "pct_from_52w_low": 8.33,
+        "range_position_3m": 0.133,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.66x its 20-day average",
+          "51.85% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$28,545/day",
+        "reading": [
+          "Going into this, BTM traded 1.66x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$28,545 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PTX",
+      "company": "PRESCIENT THERAPEUTICS LIMITED",
+      "headline": "Prescient Therapeutics - Extension of Share Purchase Plan",
+      "time": "2026-09-14T23:00:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135497-3A701748",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "An extension of a Share Purchase Plan (SPP) is an unambiguous bearish signal: it means the original SPP failed to raise its target amount within the original window, confirming weaker-than-expected retail investor demand for the stock at the offer price.",
+        "The market-sensitive flag is appropriate because the extension implies the company's capital raise is undersubscribed — this raises questions about whether the full raise will complete, whether the offer price is too high relative to where the market wants to clear, and what the company's plan B is if the extended SPP also falls short.",
+        "For existing shareholders the dilution timeline extends rather than resolves, and the sentiment signal is negative: SPP extensions are typically preceded by a period of the stock trading below or near the SPP price, which is itself a drag on broader investor confidence in the equity story."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.065,
+        "volume_trend_ratio": 1.11,
+        "volume_last_ratio": 1.1,
+        "avg_turnover_aud": 72703,
+        "liquid": true,
+        "pct_from_3m_high": -31.58,
+        "pct_from_3m_low": 14.04,
+        "pct_from_52w_high": -48.0,
+        "pct_from_52w_low": 62.5,
+        "range_position_3m": 0.211,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 31.58% below the high of that period."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PNV",
+      "company": "POLYNOVO LIMITED",
+      "headline": "PolyNovo FY26 Appendix 4G",
+      "time": "2026-09-14T22:59:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135496-3A701750",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Appendix 4G is a mandatory annual checklist cross-referencing PNV's compliance with the ASX Corporate Governance Council's principles — it is a pure compliance filing with no financial, operational, or strategic content.",
+        "Filed simultaneously with the Corporate Governance Statement (filing [8]), this is standard end-of-financial-year housekeeping for all ASX-listed entities and should be treated as a procedural cluster with zero standalone price impact.",
+        "The only institutional relevance is confirming PNV has met its governance disclosure obligations on schedule — any investment thesis on PNV must rest on its commercial medtech fundamentals, not on this administrative document."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.96,
+        "volume_trend_ratio": 0.61,
+        "volume_last_ratio": 0.69,
+        "avg_turnover_aud": 1805043,
+        "liquid": true,
+        "pct_from_3m_high": -17.95,
+        "pct_from_3m_low": 18.52,
+        "pct_from_52w_high": -42.17,
+        "pct_from_52w_low": 18.52,
+        "range_position_3m": 0.417,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 17.95% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FAL",
+      "company": "FALCON METALS LTD",
+      "headline": "Maiden Drilling Underway at Errabiddy Gold Project",
+      "time": "2026-09-14T22:59:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135495-6A1343800",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lesson L002 applies directly: 'Maiden Drilling Underway' is a programme commencement statement, not a result — it tells the market that capital is being deployed at Errabiddy but provides zero information about what the ground contains, making a bullish call unwarranted at this stage.",
+        "The 'maiden' qualifier adds a nuance: first-ever drilling at a project is a genuine milestone for an explorer, and the market-sensitive flag suggests management believes even commencement is price-relevant; however, the information content remains activity-based rather than data-based, and the track record on such calls is clear.",
+        "The appropriate posture is neutral until assay results are released; the announcement may support short-term speculative interest from retail traders chasing the exploration narrative, but institutional investors should treat this as a watch-and-wait situation with the real catalyst being the first intercept data."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.52,
+        "volume_trend_ratio": 1.02,
+        "volume_last_ratio": 0.6,
+        "avg_turnover_aud": 240661,
+        "liquid": true,
+        "pct_from_3m_high": -30.2,
+        "pct_from_3m_low": 46.48,
+        "pct_from_52w_high": -49.76,
+        "pct_from_52w_low": 46.48,
+        "range_position_3m": 0.423,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 30.2% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JLL",
+      "company": "JINDALEE LITHIUM LIMITED",
+      "headline": "McDermitt Drilling Program to Commence & US Elemental Update",
+      "time": "2026-09-14T22:59:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135494-6A1343812",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lesson L002 applies again: 'Drilling Program to Commence' is not a drill result — it is a forward activity statement, and the information content is close to nil for valuation purposes regardless of the market-sensitive flag.",
+        "The tape context is unambiguously negative: JLL is 68% below its 12-month high with volume running at just 0.43x average on a near-illiquid stock (~A$14,383/day median) — but volume ratios at this turnover level are close to meaningless as an intent signal; the structural de-rating is the dominant read, and it reflects the market's broader re-rating of lithium equities rather than company-specific news flow.",
+        "The McDermitt project context (US critical minerals exposure) is strategically relevant if the US Elemental Update contains substantive policy or offtake news — investors should parse whether the filing contains any such catalyst or is purely a drilling timetable; absent that, this is a neutral programme statement into a deeply de-rated lithium name."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.32,
+        "volume_trend_ratio": 0.43,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 14383,
+        "liquid": false,
+        "pct_from_3m_high": -20.0,
+        "pct_from_3m_low": 3.23,
+        "pct_from_52w_high": -68.32,
+        "pct_from_52w_low": 3.23,
+        "range_position_3m": 0.111,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.43x its average",
+          "68.32% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$14,383/day",
+        "reading": [
+          "Going into this, JLL traded only 0.43x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 20.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$14,383 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JHP",
+      "company": "JPMORGAN EQTY PREMIUM INCOME (HEDGED) COMPLEX ETF",
+      "headline": "Full Year Statutory Accounts - 30 June 2026",
+      "time": "2026-09-14T22:58:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135493-2A1697150",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Full-year statutory accounts for JHP (a JPMorgan equity premium income hedged ETF) are a routine regulatory filing — no underlying investment thesis or valuation signal is embedded in the submission itself.",
+        "As an ETF, net asset value is the operative metric and is published daily; annual accounts confirm audit compliance rather than reveal new information, making this a low-information event for unitholders.",
+        "Not flagged market sensitive and carries no performance data in the headline; institutional holders should treat this as a compliance checkpoint only, with no actionable read-through to underlying equity or options positioning."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WGX",
+      "company": "WESTGOLD RESOURCES LIMITED.",
+      "headline": "Update - Notification of buy-back - WGX",
+      "time": "2026-09-14T22:58:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135492-6A1343814",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "WGX's buy-back notification update is procedural — it refreshes the market on the ongoing buy-back programme status rather than announcing a new or expanded facility, which limits its immediate price catalyst.",
+        "For a mid-tier gold producer, a sustained on-market buy-back signals balance sheet confidence and capital discipline, providing a modest technical floor under the share price, but the incremental information content of an 'update' filing is low.",
+        "Not flagged market sensitive; without disclosed volumes purchased or remaining capacity in this filing, the key follow-up question is whether the buy-back is being actively prosecuted or has slowed — neither can be confirmed from the headline alone."
+      ],
+      "tags": [
+        "Finance",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 5.63,
+        "volume_trend_ratio": 1.44,
+        "volume_last_ratio": 1.05,
+        "avg_turnover_aud": 24431414,
+        "liquid": true,
+        "pct_from_3m_high": -18.99,
+        "pct_from_3m_low": 31.24,
+        "pct_from_52w_high": -31.0,
+        "pct_from_52w_low": 48.16,
+        "range_position_3m": 0.504,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 18.99% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PNV",
+      "company": "POLYNOVO LIMITED",
+      "headline": "PolyNovo FY26 Annual Report",
+      "time": "2026-09-14T22:58:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135491-3A701747",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "The FY26 Annual Report for PolyNovo is a comprehensive disclosure event, but its release post-period-end is procedural and all material operating metrics (revenue, EBITDA, geographic expansion) will have been pre-announced via results or quarterly updates, limiting new information content.",
+        "PNV is a commercial-stage medical device company with a BTM (NovoSorb) franchise in burns and wound care; the annual report may contain updated guidance commentary or clinical pipeline detail that warrants a read-through, but the headline itself carries no incremental earnings signal.",
+        "Not flagged market sensitive; institutional investors should scan the report for any change in management commentary on US hospital penetration rates or gross margin trajectory — those are the swing variables for PNV's re-rating story — rather than treating the filing as a standalone catalyst."
+      ],
+      "tags": [
+        "Results",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.96,
+        "volume_trend_ratio": 0.61,
+        "volume_last_ratio": 0.69,
+        "avg_turnover_aud": 1805043,
+        "liquid": true,
+        "pct_from_3m_high": -17.95,
+        "pct_from_3m_low": 18.52,
+        "pct_from_52w_high": -42.17,
+        "pct_from_52w_low": 18.52,
+        "range_position_3m": 0.417,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 17.95% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABB",
+      "company": "AUSSIE BROADBAND LIMITED",
+      "headline": "Update - Notification of buy-back - ABB",
+      "time": "2026-09-14T22:58:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135490-3A701749",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ABB is updating its buy-back notification at a 12-month low — this context is meaningful: a buy-back being maintained or prosecuted into price weakness is a stronger capital-return signal than one running into strength, as management is effectively endorsing the stock as undervalued at current levels.",
+        "At a 12-month low, the buy-back creates a credible technical support mechanism and reduces the float available to short-sellers, which can dampen downside momentum; however, the scale of the buy-back relative to market cap determines whether it is a genuine floor or merely symbolic.",
+        "Not flagged market sensitive and the update is procedural in form, but the tape context (12-month low) shifts the read marginally bullish — the board is implicitly signalling that the sell-off is overdone, which is a more meaningful endorsement from management than the same filing would be at a 12-month high."
+      ],
+      "tags": [
+        "Finance",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 3.97,
+        "volume_trend_ratio": 0.78,
+        "volume_last_ratio": 0.55,
+        "avg_turnover_aud": 4110334,
+        "liquid": true,
+        "pct_from_3m_high": -25.09,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -34.92,
+        "pct_from_52w_low": 0.0,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "at a 12-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CYQ",
+      "company": "CYCLIQ GROUP LTD",
+      "headline": "Proposed issue of securities - CYQ",
+      "time": "2026-09-14T22:57:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135489-6A1343793",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "CYQ is proposing a securities issuance — for a company with effectively zero recent trading volume and median daily turnover of approximately A$0, this is a material liquidity and dilution event; the stock is so thinly traded that volume ratios are close to meaningless as a directional signal.",
+        "A proposed issue by a micro-cap with near-zero secondary market liquidity strongly implies this is a private placement or entitlement offer to fund operations — in the absence of a disclosed use of proceeds or strategic catalyst in the headline, the primary read is dilution risk with limited offsetting upside signal.",
+        "Applying lesson L003 (multiple procedural filings) awareness and L010 logic: a capital raise filing from a pre-revenue or near-dormant issuer with no substantive catalyst in the headline defaults to bearish, as it confirms management is issuing equity — likely at a discount — into a stock with no active secondary market to absorb it."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.005,
+        "volume_trend_ratio": 0.0,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -16.67,
+        "pct_from_3m_low": 25.0,
+        "pct_from_52w_high": -37.5,
+        "pct_from_52w_low": 150.0,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.0x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, CYQ traded only 0.0x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 16.67% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst MINIs Cash Amounts for Stop Loss Event 14 Sep 26",
+      "time": "2026-09-14T22:57:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135488-2A1697153",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This filing relates to CitiFirst MINI warrants that have triggered a stop-loss event on 14 September 2026 — it is a structured product cash settlement notice issued by Citi as the issuer, not a filing by an underlying ASX-listed company.",
+        "The stop-loss event means the underlying asset breached the MINI's stop-loss level, automatically terminating the product and triggering a cash amount calculation; this is an administrative settlement notice with no direct read-through to the underlying equity's fundamentals.",
+        "No market sensitivity is ascribed and rightly so — this filing is purely procedural for MINI warrant holders to receive their residual cash entitlement; it carries no signal for the underlying security beyond confirming that its price reached a level that terminated leveraged long or short positions."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYQ",
+      "company": "CYCLIQ GROUP LTD",
+      "headline": "Cycliq secures $1.5M via Placement",
+      "time": "2026-09-14T22:57:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135487-6A1343785",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "A $1.5M placement for a company with zero recorded median daily turnover (~A$0/day) and zero volume over the prior five sessions is an extreme liquidity distress signal — the company could not raise funds through the market and has gone directly to a placement, implying the register is being restructured around one or a small number of investors.",
+        "The placement is dilutive by definition, and at effectively no trading activity the market has no current price discovery mechanism — the placement price will set the new reference level for equity value, and if it is at a discount to last close (as is typical), this is mechanically bearish for existing shareholders.",
+        "The 'so what' is survival-level financing: a $1.5M raise for a company with zero observable trading interest suggests this is minimum-viable cash to continue operations, not growth capital — investors should ask how many months of runway this provides and what the path to self-funding looks like, as another raise at these levels would be severely dilutive."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.005,
+        "volume_trend_ratio": 0.0,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -16.67,
+        "pct_from_3m_low": 25.0,
+        "pct_from_52w_high": -37.5,
+        "pct_from_52w_low": 150.0,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.0x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, CYQ traded only 0.0x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 16.67% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MGR",
+      "company": "MIRVAC GROUP",
+      "headline": "Update - Notification of buy-back - MGR",
+      "time": "2026-09-14T22:57:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135486-2A1697152",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Mirvac's buy-back notification update is a routine administrative filing for one of Australia's largest diversified property groups — it confirms the programme is ongoing but carries no new information on volumes, pricing, or remaining capacity from the headline alone.",
+        "For a REIT-adjacent developer operating in a rate-sensitive property cycle, maintaining an active buy-back signals board conviction that the stock is trading below intrinsic NTA, which is a modest positive signal for long-term holders but not a near-term catalyst in isolation.",
+        "Not flagged market sensitive; the actionable question for institutional investors is whether MGR is prioritising buy-backs over development capital or distributions — that trade-off speaks to management's view of pipeline returns versus equity undervaluation, but the update filing does not resolve it."
+      ],
+      "tags": [
+        "Finance",
+        "Property"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 1.795,
+        "volume_trend_ratio": 1.14,
+        "volume_last_ratio": 1.1,
+        "avg_turnover_aud": 28129091,
+        "liquid": true,
+        "pct_from_3m_high": -7.24,
+        "pct_from_3m_low": 8.46,
+        "pct_from_52w_high": -27.03,
+        "pct_from_52w_low": 11.66,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 7.24% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "CR3",
       "company": "CORE ENERGY MINERALS LTD",
