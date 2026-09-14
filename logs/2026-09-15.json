@@ -1,9 +1,334 @@
 {
   "date": "2026-09-15",
-  "total": 130,
-  "market_sensitive_count": 33,
-  "generated_at": "2026-09-14T22:51:47.616115+00:00",
+  "total": 137,
+  "market_sensitive_count": 37,
+  "generated_at": "2026-09-14T23:01:01.531029+00:00",
   "announcements": [
+    {
+      "ticker": "CR3",
+      "company": "CORE ENERGY MINERALS LTD",
+      "headline": "Commencement of Drill Tender Process - Barking Gecko",
+      "time": "2026-09-14T22:56:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135485-2A1697151",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This filing triggers lesson L002 directly: commencement of a drill tender process is a programme-activity statement with zero data content — it tells the market only that CR3 is seeking quotes from drilling contractors, which is a step before drilling begins, let alone before any assay results exist; no directional call on mineralisation is warranted.",
+        "The volume signal (3.29x 20-day average over five sessions) is eye-catching but the stock's median daily turnover is approximately A$1,873 — at that liquidity level, volume multiples are close to meaningless as market-intent signals; a handful of trades can produce a 3x ratio, and the depth of de-rating (62.5% below the 12-month high) suggests prior exploration cycles have disappointed rather than that a sophisticated buyer is accumulating ahead of results.",
+        "The filing is not flagged market sensitive, which per calibration data reduces the base rate for a meaningful price move; combined with the pre-data stage of the announcement and the illiquidity caveat, the appropriate call is neutral — flag this as a watch-list item for when actual assay results are released from Barking Gecko."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.006,
+        "volume_trend_ratio": 3.29,
+        "volume_last_ratio": 9.86,
+        "avg_turnover_aud": 1873,
+        "liquid": false,
+        "pct_from_3m_high": -33.33,
+        "pct_from_3m_low": 20.0,
+        "pct_from_52w_high": -62.5,
+        "pct_from_52w_low": 20.0,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 3.29x its 20-day average",
+          "62.5% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,873/day",
+        "reading": [
+          "Going into this, CR3 traded 3.29x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 33.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,873 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LU7",
+      "company": "LITHIUM UNIVERSE LIMITED",
+      "headline": "CSIRO Industry Grant and Program Approval",
+      "time": "2026-09-14T22:56:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135484-6A1343807",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A CSIRO Industry Grant represents genuine third-party scientific validation — CSIRO's competitive selection process means an independent federal research body has assessed LU7's lithium processing technology as commercially worthy of co-funding, which is a qualitative credibility signal well above a typical marketing announcement.",
+        "The critical 'so what' is non-dilutive capital: a grant injection for a company trading 73.68% below its 12-month high and with median daily turnover of roughly A$1,352 is potentially material to cash runway — even a modest grant can extend the operating horizon meaningfully for a near-zero-revenue explorer at this level of illiquidity.",
+        "Near-term watch points are the grant quantum (not disclosed in the headline) and the program scope — if the approved program leads to a pilot-scale or demonstration-plant milestone, that de-risks the commercialisation pathway substantially; without those details the headline is positive but incomplete, and the stock's deep de-rating means the market will need specifics before re-rating with conviction."
+      ],
+      "tags": [
+        "Mining",
+        "Technology",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.005,
+        "volume_trend_ratio": 1.11,
+        "volume_last_ratio": 2.73,
+        "avg_turnover_aud": 1352,
+        "liquid": false,
+        "pct_from_3m_high": -37.5,
+        "pct_from_3m_low": 25.0,
+        "pct_from_52w_high": -73.68,
+        "pct_from_52w_low": 25.0,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "73.68% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,352/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 37.5% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,352 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AW1",
+      "company": "AMERICAN WEST METALS LIMITED",
+      "headline": "Wide intervals of copper, zinc and molybdenum at West Desert",
+      "time": "2026-09-14T22:56:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135483-6A1343810",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Wide intercepts of copper, zinc and molybdenum at West Desert constitute actual assay results — this is not a programme-commencement statement but a data release, which sidesteps lesson L002 and justifies a directional read on the substance of the numbers rather than mere activity.",
+        "The critical qualifier is the stock sitting 62.76% below its 12-month high: per lesson L005, the market has already seen prior results and re-priced severely, which means a single set of intercepts — however wide — will only shift sentiment durably if the grades and widths represent a step-change relative to the existing resource or address a known structural concern (funding gap, permitting, commodity price). 'Wide intervals' in the headline is encouraging language but grade is everything at the margin here.",
+        "Institutionally, the multi-metal nature (Cu + Zn + Mo) adds optionality and potential by-product credit that could improve project economics materially — if the headline intercepts support resource expansion or a revised scoping study, that is the catalyst needed to begin closing the gap to the 12-month high; absent that, the filing is a positive data point into a deeply de-rated tape rather than a re-rating event."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.0365,
+        "volume_trend_ratio": 0.69,
+        "volume_last_ratio": 0.14,
+        "avg_turnover_aud": 50404,
+        "liquid": true,
+        "pct_from_3m_high": -18.89,
+        "pct_from_3m_low": 21.67,
+        "pct_from_52w_high": -62.76,
+        "pct_from_52w_low": 25.86,
+        "range_position_3m": 0.433,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "62.76% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 18.89% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KAL",
+      "company": "KALGOORLIE GOLD MINING LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-09-14T22:55:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135482-6A1343808",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Lesson L010 applies directly: an investor presentation from a thinly traded junior (median turnover ~A$14,970/day) filed without a named catalyst in the headline is standard pre-capital-raise awareness marketing — the absence of a resource estimate, drilling result, or funding announcement in the headline is the signal, not the absence of bad news.",
+        "The stock is at a 12-month low, which adds a further bearish overlay: management is presenting to investors from a position of maximum price weakness, which typically reflects either a need to rebuild shareholder confidence after underperformance or an imminent equity raise that will be priced at or near the low — both scenarios are unfavourable for existing holders in the near term.",
+        "The filing is not flagged market sensitive, consistent with the absence of material new information; for institutional investors the actionable read is to treat this as a pre-raise signal and monitor for a subsequent capital raise announcement, likely at a discount to the already-depressed price."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.02,
+        "volume_trend_ratio": 0.93,
+        "volume_last_ratio": 3.72,
+        "avg_turnover_aud": 14970,
+        "liquid": false,
+        "pct_from_3m_high": -45.95,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -76.47,
+        "pct_from_52w_low": 0.0,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": true,
+        "broke_out": false,
+        "notes": [
+          "at a 12-month low"
+        ],
+        "caveat": "thinly traded, median turnover about A$14,970/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "It was at a 12-month low, so expectations going in were as low as they have been all year: bad news here may be largely expected, and good news lands on a market that had given up on it.",
+          "Treat all of that with care: it trades about A$14,970 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "E25",
+      "company": "ELEMENT 25 LIMITED",
+      "headline": "Site Works Commence at Butcherbird Expansion Project",
+      "time": "2026-09-14T22:55:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135481-6A1343806",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Site works commencement at the Butcherbird Expansion Project is a construction-phase milestone, not a planning or feasibility announcement — this signals that Element 25 has cleared the pre-development hurdles (approvals, funding, contractor mobilisation) required to break ground, which is a materially higher-confidence signal than a programme-start for an exploration company.",
+        "The 'so what' for institutional investors is capital deployment confirmation: site mobilisation implies committed capex is now being spent, which de-risks the probability of project cancellation or delay and moves the timeline to first production increment meaningfully closer; this is positive for valuation models that have been discounting execution risk.",
+        "No price action data is provided for E25, so no tape-based overlay can be applied — the pure filing read is bullish on the basis that a market-sensitive filing flagging physical construction commencement at a named, previously announced expansion project is an execution milestone that reduces project risk rather than adding it."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.27,
+        "volume_trend_ratio": 1.12,
+        "volume_last_ratio": 0.69,
+        "avg_turnover_aud": 16103,
+        "liquid": false,
+        "pct_from_3m_high": -8.47,
+        "pct_from_3m_low": 45.95,
+        "pct_from_52w_high": -46.0,
+        "pct_from_52w_low": 45.95,
+        "range_position_3m": 0.773,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$16,103/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 8.47% below the high of that period.",
+          "Treat all of that with care: it trades about A$16,103 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EPY",
+      "company": "EARLYPAY LTD",
+      "headline": "Update - Notification of buy-back - EPY",
+      "time": "2026-09-14T22:55:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135480-2A1697149",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A buy-back notification update is structurally supportive — it signals that the board is deploying capital to return value to shareholders rather than retaining cash for dilutive purposes, and for a thinly traded stock (median turnover ~A$9,240/day) even modest on-market buy-back activity can provide meaningful price support by absorbing sell-side flow.",
+        "The volume over the last five sessions ran 1.55x the 20-day average, which is modestly elevated; however, given the stock's thin liquidity, this ratio carries limited informational content and should not be over-interpreted as institutional accumulation — it may simply reflect the buy-back purchases themselves showing up in the volume data.",
+        "The filing is not flagged market sensitive, which lowers the base-rate expectation for a large price move; the net read is mildly constructive (buy-backs at current prices are accretive to per-share metrics and signal board confidence), but the procedural nature of an 'update' notification rather than a new buy-back announcement caps the bullish impulse — neutral is the appropriate call."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.135,
+        "volume_trend_ratio": 1.55,
+        "volume_last_ratio": 1.33,
+        "avg_turnover_aud": 9240,
+        "liquid": false,
+        "pct_from_3m_high": -12.9,
+        "pct_from_3m_low": 17.39,
+        "pct_from_52w_high": -38.64,
+        "pct_from_52w_low": 28.57,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.55x its 20-day average"
+        ],
+        "caveat": "thinly traded, median turnover about A$9,240/day",
+        "reading": [
+          "Going into this, EPY traded 1.55x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 12.9% below the high of that period.",
+          "Treat all of that with care: it trades about A$9,240 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TKM",
+      "company": "TREK METALS LIMITED",
+      "headline": "Option to acquire Matrix Manganese Project - Arizona USA",
+      "time": "2026-09-14T22:53:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135479-6A1343803",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "An option to acquire — rather than a completed acquisition — means TKM has secured optionality on the Matrix Manganese Project (Arizona) at a cost that is likely a fraction of full acquisition price; the structure limits downside if due diligence disappoints while preserving upside if the asset proves strategic, but it also signals the company is still in early-stage asset accumulation rather than development.",
+        "The stock is 76.09% below its 12-month high — the deepest de-rating of any filing in this batch — and per lesson L005 and L007 logic, a new asset option announcement into a severely distressed tape risks being read as management pivoting away from a failed prior strategy rather than as genuine value creation; the market will ask what happened to the existing asset base and whether this is capital being deployed wisely or spread thin.",
+        "Key unknowns that will determine the market's reaction: option strike price and expiry, the manganese resource size and grade at Matrix, and how Arizona-based manganese fits strategically with TKM's existing portfolio — without those details, the filing is speculative and the deep de-rating means the burden of proof for a bullish re-rating is high."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.055,
+        "volume_trend_ratio": 1.33,
+        "volume_last_ratio": 2.21,
+        "avg_turnover_aud": 53979,
+        "liquid": true,
+        "pct_from_3m_high": -72.5,
+        "pct_from_3m_low": 5.77,
+        "pct_from_52w_high": -76.09,
+        "pct_from_52w_low": 37.5,
+        "range_position_3m": 0.02,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "76.09% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 72.5% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "HLX",
       "company": "HELIX RESOURCES LIMITED",
