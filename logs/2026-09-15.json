@@ -1,9 +1,859 @@
 {
   "date": "2026-09-15",
-  "total": 231,
+  "total": 252,
   "market_sensitive_count": 68,
-  "generated_at": "2026-09-15T00:00:28.766070+00:00",
+  "generated_at": "2026-09-15T00:58:13.916290+00:00",
   "announcements": [
+    {
+      "ticker": "SVR",
+      "company": "SOLVAR LIMITED",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-15T00:55:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135600-3A701774",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A routine director interest notice for Solvar Limited (SVR) — a non-bank consumer lender — carries no valuation signal on its own; the filing is procedural and discloses a change in a director's holding rather than any operational or strategic development.",
+        "Without knowing the direction or scale of the change (buy vs. sell, open market vs. remuneration-related), the filing is uninformative for price discovery; Solvar operates in a credit-sensitive segment where insider transaction direction matters materially, but that data is not surfaced in the headline.",
+        "No price action data is provided, so tape context cannot be assessed; institutional investors should await the full notice detail to determine whether any director is adding or reducing exposure before drawing conclusions — the filing alone warrants no directional view."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 1.5,
+        "volume_trend_ratio": 0.66,
+        "volume_last_ratio": 0.46,
+        "avg_turnover_aud": 241406,
+        "liquid": true,
+        "pct_from_3m_high": -14.29,
+        "pct_from_3m_low": 2.04,
+        "pct_from_52w_high": -24.24,
+        "pct_from_52w_low": 8.3,
+        "range_position_3m": 0.107,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 14.29% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LFT",
+      "company": "LI-FT POWER LTD.",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-15T00:44:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135599-6A1343842",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A director interest notice for LI-FT Power (LFT), a lithium explorer, is procedurally routine, but the stock is trading 61.34% below its 12-month high — a significant de-rating that frames any insider activity in a materially different risk context than it would at a neutral tape.",
+        "At this level of de-rating, the critical unknown is transaction direction: if the filing reflects a director purchase, it is a meaningful contrarian signal in a deeply depressed stock; if it reflects a sale or vesting/disposal event, it compounds the bearish narrative already embedded in the price.",
+        "Lesson L001 is not directly triggered (no elevated volume disclosed), but the principle applies — direction of the change is the key variable; absent confirmation that this is an open-market purchase, the de-rating context argues against a bullish read, and investors should treat this as neutral pending full disclosure of transaction type and direction."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 79,
+        "last_close": 2.3,
+        "volume_trend_ratio": 1.06,
+        "volume_last_ratio": 0.86,
+        "avg_turnover_aud": 200081,
+        "liquid": true,
+        "pct_from_3m_high": -53.44,
+        "pct_from_3m_low": 2.22,
+        "pct_from_52w_high": -61.34,
+        "pct_from_52w_low": 2.22,
+        "range_position_3m": 0.019,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "61.34% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 53.44% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SLB",
+      "company": "STELAR METALS LIMITED",
+      "headline": "Maiden Soil Geochemical Survey Completed at HoL Updated",
+      "time": "2026-09-15T00:42:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135598-6A1343841",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Stelar Metals (SLB) announces completion of a maiden soil geochemical survey at its HoL project — this is a data-collection milestone, not a result; the filing confirms that fieldwork has concluded but discloses no anomaly maps, grade distributions, or follow-up drilling decisions.",
+        "Geochemical surveys are early-stage targeting tools; their completion advances the project to the next stage (target generation, drill planning) but creates no immediate resource or earnings impact — the market will need to see the interpreted results and any drill programme commitment before this has valuation content.",
+        "The filing is not flagged market sensitive, which is consistent with its programme-activity character; per lesson L008 on survey commencement announcements, a completion filing without disclosed data carries similarly low information content, and the neutral call is appropriate until anomaly results are published."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.255,
+        "volume_trend_ratio": 0.7,
+        "volume_last_ratio": 1.39,
+        "avg_turnover_aud": 48106,
+        "liquid": false,
+        "pct_from_3m_high": -15.0,
+        "pct_from_3m_low": 142.86,
+        "pct_from_52w_high": -15.0,
+        "pct_from_52w_low": 363.64,
+        "range_position_3m": 0.769,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$48,106/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 15.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$48,106 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst WTC Instalment MINIs Dividend Final Amount",
+      "time": "2026-09-15T00:38:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135597-2A1697201",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "This is an administrative product filing by Citi for its CitiFirst WTC Instalment MINIs structured product — it discloses a final dividend amount on a derivative instrument and has no bearing on any underlying ASX-listed operating company's fundamentals.",
+        "The filing is a mechanical settlement or distribution event within a structured product wrapper; the 'dividend' here refers to a cash flow term in the instalment mini contract, not a corporate dividend decision by an operating issuer, meaning it carries zero signal for equity valuation purposes.",
+        "Institutional investors with no exposure to the specific CitiFirst structured product can disregard this entirely; for holders of the instrument, the relevance is limited to cash flow confirmation on the product itself, not to broader market positioning."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GRO",
+      "company": "SCHRODER REAL RETURN ACTIVE ETF",
+      "headline": "GROW Monthly Report - August 2026",
+      "time": "2026-09-15T00:36:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135596-2A1697199",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The GROW Monthly Report for August 2026 is a standard periodic disclosure for the Schroder Real Return Active ETF — a multi-asset, inflation-linked strategy — and provides a backward-looking performance and positioning snapshot rather than any forward catalyst.",
+        "Monthly factsheets for active ETFs typically update asset allocation weights, NAV performance versus the RBA cash rate + target spread, and commentary on macro positioning; the informational value is low for price discovery on the ETF itself given that the portfolio is marked to market daily.",
+        "The filing is not flagged market sensitive, consistent with its routine reporting character; investors tracking the fund's tactical shifts (e.g. duration, equity vs. credit tilt) may find positioning clues in the allocation tables, but there is no near-term share-price catalyst inherent in the release."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EGH",
+      "company": "EUREKA GROUP HOLDINGS LIMITED",
+      "headline": "Application for quotation of securities - EGH",
+      "time": "2026-09-15T00:35:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135595-2A1697200",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An 'Application for quotation of securities' filing for Eureka Group Holdings (EGH) — a provider of rental housing for retirees and seniors — signals that new securities are being admitted to trading; consistent with lesson L003, when a quotation filing lands, the question is what underlying transaction generated the new securities (entitlement offer, DRP, performance rights, placement).",
+        "The filing is not flagged market sensitive, and the headline gives no indication of the quantum of securities being quoted; if these are DRP or performance rights shares, the dilution is typically modest and non-event; if they follow a placement or entitlement offer, the overhang and dilution implications need to be assessed against the disclosed issue price.",
+        "Without knowing the transaction type and issue price relative to market, the directional call must remain neutral — investors should pull the associated offer document or prior capital raise announcement to confirm whether the newly quoted securities represent material dilution or a routine administrative event."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Property"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.63,
+        "volume_trend_ratio": 1.48,
+        "volume_last_ratio": 0.33,
+        "avg_turnover_aud": 43308,
+        "liquid": false,
+        "pct_from_3m_high": -20.75,
+        "pct_from_3m_low": 16.67,
+        "pct_from_52w_high": -20.75,
+        "pct_from_52w_low": 40.0,
+        "range_position_3m": 0.353,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$43,308/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 20.75% below the high of that period.",
+          "Treat all of that with care: it trades about A$43,308 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QRI",
+      "company": "QUALITAS REAL ESTATE INCOME FUND",
+      "headline": "Application for quotation of securities - QRI",
+      "time": "2026-09-15T00:29:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135594-3A701770",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Qualitas Real Estate Income Fund (QRI) files an application for quotation of securities while trading just 4.11% off its 3-month high — a relatively constructive tape for a fixed-income-adjacent credit fund, suggesting the market has been broadly supportive of the asset class recently.",
+        "The quotation application follows a capital raise event (placement, DRP, or unit issuance); at 4.11% off the three-month high, the fund is not in distress — new units being quoted at or near prevailing NAV is a neutral-to-slightly-dilutive event, and the strong tape reduces the risk of a price gap on the additional securities entering trade.",
+        "Per lesson L003, the underlying transaction type matters: a DRP issuance is practically non-dilutive for a fund trading near NAV, while a placement at a discount would be mildly bearish; absent that detail, and given the healthy tape, the call defaults to neutral with a slight tilt toward benign."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance",
+        "Property"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 1.515,
+        "volume_trend_ratio": 0.73,
+        "volume_last_ratio": 0.59,
+        "avg_turnover_aud": 1354565,
+        "liquid": true,
+        "pct_from_3m_high": -4.11,
+        "pct_from_3m_low": 1.34,
+        "pct_from_52w_high": -10.36,
+        "pct_from_52w_low": 1.34,
+        "range_position_3m": 0.235,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "4.11% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 4.11% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EBO",
+      "company": "EBOS GROUP LIMITED",
+      "headline": "NZX Performance Rights update",
+      "time": "2026-09-15T00:24:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135593-2A1697198",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "EBOS Group (EBO) — a major Australasian healthcare and animal care distributor — files an NZX Performance Rights update while the stock sits at a 3-month low; performance rights updates are typically administrative (vesting, lapsing, or re-testing), but the tape context is notable.",
+        "At a 3-month low, the market is already pricing in some headwind for EBO (potentially earnings expectation drift or sector pressure); a performance rights update that reveals lapsing of executive rights would signal management underperformance against internal KPIs, which could compound the bearish tape — vesting, conversely, is mildly dilutive but confirms target achievement.",
+        "The filing is not flagged market sensitive, consistent with routine equity plan administration; however, the combination of a depressed price and an executive remuneration update warrants scrutiny — investors should check whether rights are vesting (implying targets met) or lapsing (implying targets missed), as the latter could reinforce the 3-month low narrative."
+      ],
+      "tags": [
+        "Board Change",
+        "Healthcare",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 16.3,
+        "volume_trend_ratio": 0.88,
+        "volume_last_ratio": 1.58,
+        "avg_turnover_aud": 2181530,
+        "liquid": true,
+        "pct_from_3m_high": -21.14,
+        "pct_from_3m_low": 0.93,
+        "pct_from_52w_high": -39.07,
+        "pct_from_52w_low": 3.95,
+        "range_position_3m": 0.033,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COR",
+      "company": "SCHRODER GLOBAL CORE FUND - ACTIVE ETF",
+      "headline": "CORE - Monthly Factsheet",
+      "time": "2026-09-15T00:22:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135592-2A1697197",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The CORE Monthly Factsheet for the Schroder Global Core Fund Active ETF is a standard periodic disclosure — it provides August 2026 performance, factor attribution, and portfolio positioning for a global equity strategy, and contains no new investment catalyst.",
+        "Active ETF monthly factsheets serve a transparency and investor relations function; the fund's price is marked to market continuously, so the factsheet creates no price discovery gap — any positioning signals (e.g. sector tilts, regional overweights) are already embedded in NAV.",
+        "Not flagged market sensitive; no directional price implication for the ETF units themselves — institutional users of this product would reference the factsheet for due diligence and mandate compliance monitoring, not for trading signals on the ETF."
+      ],
+      "tags": [
+        "Other",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SNC",
+      "company": "SANDON CAPITAL INVESTMENTS LIMITED",
+      "headline": "SNC Shareholder Presentation",
+      "time": "2026-09-15T00:21:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135591-2A1697195",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Sandon Capital Investments (SNC) — an activist LIC — files a shareholder presentation with no disclosed catalyst in the headline; per lesson L010, an investor presentation by a smaller fund vehicle without a named catalyst (portfolio update, NTA re-rating event, specific activist outcome) defaults to awareness or marketing activity, which in a LIC context can precede a capital raise or discount-management initiative.",
+        "The tape context is unhelpful for reading intent: with volume at just 0.49x its five-session average and median daily turnover of approximately A$28,403, SNC is extremely thinly traded — volume ratios at this liquidity level are close to meaningless as directional signals, so no volume-based inference should be drawn.",
+        "Trading 2.65% off its three-month high, the stock is near a local high for a thinly traded LIC; a shareholder presentation into relative strength without a disclosed catalyst risks being a sell-the-news event if institutional buyers are already positioned — consistent with L010, the default lean is bearish absent a named catalyst, as the filing implicitly signals active marketing of units."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.735,
+        "volume_trend_ratio": 0.49,
+        "volume_last_ratio": 0.17,
+        "avg_turnover_aud": 28403,
+        "liquid": false,
+        "pct_from_3m_high": -2.65,
+        "pct_from_3m_low": 7.3,
+        "pct_from_52w_high": -25.0,
+        "pct_from_52w_low": 7.3,
+        "range_position_3m": 0.714,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.49x its average",
+          "2.65% off its 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$28,403/day",
+        "reading": [
+          "Going into this, SNC traded only 0.49x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 2.65% below the high of that period.",
+          "Treat all of that with care: it trades about A$28,403 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ALP",
+      "company": "SCHRODER GLOBAL EQUITY ALPHA FUND - ACTIVE ETF",
+      "headline": "ALPH - Monthly Factsheet",
+      "time": "2026-09-15T00:20:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135590-2A1697194",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Monthly factsheet for an active ETF is a routine performance disclosure with no new investment decision embedded — it reflects trailing performance and portfolio positioning already known to the manager.",
+        "ALP tracks a global equity alpha strategy; any performance signal here is a lagging indicator of manager skill relative to benchmark, not a forward catalyst for the ETF's own unit price which is driven by NAV mechanics.",
+        "No market-sensitive flag and no structural change to the fund — investors seeking alpha signals should look through this filing to the underlying holdings data rather than treating the factsheet itself as a trading event."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IMD",
+      "company": "IMDEX LIMITED",
+      "headline": "Notice of Annual General Meeting/Proxy Form",
+      "time": "2026-09-15T00:20:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135589-6A1343840",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "AGM notice is a standard procedural filing for IMDEX, a mining technology and instrumentation company — no substantive resolutions or contested votes are flagged in the headline.",
+        "Volume into this announcement ran at 0.57x the 20-day average, indicating below-average interest; the quiet tape is consistent with this being a purely administrative event with no capital raise or strategic resolution expected.",
+        "Key watch item remains IMDEX's drilling activity exposure cycle — AGM season often surfaces management commentary on forward order books and mining services demand, which would be the real signal to monitor in accompanying materials."
+      ],
+      "tags": [
+        "AGM",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 3.36,
+        "volume_trend_ratio": 0.57,
+        "volume_last_ratio": 0.81,
+        "avg_turnover_aud": 4773291,
+        "liquid": true,
+        "pct_from_3m_high": -23.46,
+        "pct_from_3m_low": 1.2,
+        "pct_from_52w_high": -26.8,
+        "pct_from_52w_low": 7.35,
+        "range_position_3m": 0.037,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.57x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, IMD traded only 0.57x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 23.46% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EBO",
+      "company": "EBOS GROUP LIMITED",
+      "headline": "Notification of cessation of securities - EBO",
+      "time": "2026-09-15T00:20:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135588-2A1697196",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities at EBOS Group typically reflects the lapsing or cancellation of performance rights, options, or similar instruments — this is dilution relief rather than dilution risk, as securities are removed from the register.",
+        "However, the stock is trading at a 3-month low, which means the market is already pricing in a degree of negative sentiment; a cessation filing alone provides no fundamental catalyst to reverse that trend.",
+        "The net read is procedural and marginally register-positive (fewer potential dilutive instruments outstanding), but insufficient to move a stock already under pressure — watch for any accompanying commentary on earnings guidance or operational performance that would represent the real driver."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 16.3,
+        "volume_trend_ratio": 0.88,
+        "volume_last_ratio": 1.58,
+        "avg_turnover_aud": 2181530,
+        "liquid": true,
+        "pct_from_3m_high": -21.14,
+        "pct_from_3m_low": 0.93,
+        "pct_from_52w_high": -39.07,
+        "pct_from_52w_low": 3.95,
+        "range_position_3m": 0.033,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FMR",
+      "company": "FMR RESOURCES LIMITED",
+      "headline": "Annual Report to shareholders",
+      "time": "2026-09-15T00:07:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135587-6A1343839",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "Annual report filing for FMR Resources is a mandatory compliance submission — on its own it carries no incremental information beyond what has previously been disclosed in quarterly and half-year reports.",
+        "FMR is a junior resources company; the annual report will contain audited financials, cash position, and going-concern commentary — the latter is the critical risk flag to assess given typical cash burn profiles at this stage.",
+        "No market-sensitive flag and no headline catalyst; applying L010-adjacent logic, routine mandatory filings from micro-cap explorers rarely move the stock unless the auditor's note or cash runway disclosure is materially worse than anticipated."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.45,
+        "volume_trend_ratio": 0.99,
+        "volume_last_ratio": 0.72,
+        "avg_turnover_aud": 42788,
+        "liquid": false,
+        "pct_from_3m_high": -16.67,
+        "pct_from_3m_low": 45.16,
+        "pct_from_52w_high": -16.67,
+        "pct_from_52w_low": 164.71,
+        "range_position_3m": 0.609,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$42,788/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 16.67% below the high of that period.",
+          "Treat all of that with care: it trades about A$42,788 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FMR",
+      "company": "FMR RESOURCES LIMITED",
+      "headline": "Appendix 4G and Corporate Governance Statement",
+      "time": "2026-09-15T00:06:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135586-6A1343838",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 4G and Corporate Governance Statement is a pure compliance filing required under ASX Listing Rules — it confirms the company has addressed the ASX Corporate Governance Principles checklist and nothing more.",
+        "Filed simultaneously with the Annual Report (filing [4] above), this dual filing from the same issuer on the same day is consistent with L003 awareness — however, in this case both filings are standard annual reporting season obligations rather than indicators of a capital raise or restructuring event.",
+        "No market-sensitive designation and no actionable information content; institutional investors should treat this as administrative housekeeping and focus attention on the cash position and auditor commentary in the Annual Report itself."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.45,
+        "volume_trend_ratio": 0.99,
+        "volume_last_ratio": 0.72,
+        "avg_turnover_aud": 42788,
+        "liquid": false,
+        "pct_from_3m_high": -16.67,
+        "pct_from_3m_low": 45.16,
+        "pct_from_52w_high": -16.67,
+        "pct_from_52w_low": 164.71,
+        "range_position_3m": 0.609,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$42,788/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 16.67% below the high of that period.",
+          "Treat all of that with care: it trades about A$42,788 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AXQ",
+      "company": "AURA CONSOLIDATED GROUP, INC.",
+      "headline": "Notice under ASX Listing Rule 3.10A",
+      "time": "2026-09-15T00:06:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135585-2A1697192",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX Listing Rule 3.10A notices are filed when a company fails to lodge a required document on time or needs to formally notify ASX of a specific matter — the substance depends entirely on what the notice discloses, which the headline does not reveal.",
+        "AURA Consolidated Group is a micro-cap entity; compliance notices of this type can range from benign administrative corrections to more substantive disclosures about securities issuance or listing condition breaches — the ambiguity warrants caution.",
+        "No market-sensitive flag limits the informational weight here; without knowing the specific matter notified, this filing cannot be directionally assessed and should be treated as procedural until the document content is reviewed."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 48,
+        "last_close": 3.5,
+        "volume_trend_ratio": 0.62,
+        "volume_last_ratio": 1.19,
+        "avg_turnover_aud": 785376,
+        "liquid": true,
+        "pct_from_3m_high": -48.91,
+        "pct_from_3m_low": 24.11,
+        "pct_from_52w_high": -48.91,
+        "pct_from_52w_low": 24.11,
+        "range_position_3m": 0.169,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 48.91% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JPR",
+      "company": "JUPITER ENERGY LIMITED",
+      "headline": "Annual General Meeting",
+      "time": "2026-09-15T00:01:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135584-6A1343837",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "AGM notice for Jupiter Energy is procedurally routine, but the stock sits at a 3-month high — elevated price into an AGM raises the question of whether speculative positioning has built ahead of potential management commentary on the Kazakhstan oil production operations.",
+        "Jupiter is an extremely thinly traded stock with median daily turnover effectively at zero, meaning the 3-month high designation and any volume ratio should be treated with near-zero statistical weight — a handful of trades can create apparent price extremes without reflecting genuine institutional interest.",
+        "Risk is asymmetric to the downside if speculative holders use the AGM as an exit event with no new operational catalyst delivered; however, given the illiquidity, price movement may remain largely mechanical rather than fundamentally driven."
+      ],
+      "tags": [
+        "AGM",
+        "Energy"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.025,
+        "volume_trend_ratio": null,
+        "volume_last_ratio": null,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": 0.0,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -40.48,
+        "pct_from_52w_low": 19.05,
+        "range_position_3m": null,
+        "at_3m_high": true,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SNT",
+      "company": "SYNTARA LIMITED",
+      "headline": "Application for quotation of securities - SNT",
+      "time": "2026-09-15T00:01:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135583-2A1697191",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Application for quotation of securities at Syntara (SNT) means new securities are being admitted to trading — this is almost always the back-end filing of a completed capital raise, options exercise, or performance rights vesting, implying the dilutive event has already occurred.",
+        "Applying L003 awareness: a quotation filing on its own confirms new securities are entering the register; the critical question is the quantum and the issue price relative to the current market price, as a discounted placement creates immediate overhang.",
+        "No market-sensitive flag and no headline quantum disclosed — without knowing the volume and pricing of the new securities, the default read is mild bearish due to register dilution, but the impact will be contained if the raise was at or near market price and was already disclosed."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.024,
+        "volume_trend_ratio": 0.67,
+        "volume_last_ratio": 0.31,
+        "avg_turnover_aud": 19801,
+        "liquid": false,
+        "pct_from_3m_high": -31.43,
+        "pct_from_3m_low": 26.32,
+        "pct_from_52w_high": -40.0,
+        "pct_from_52w_low": 26.32,
+        "range_position_3m": 0.313,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$19,801/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 31.43% below the high of that period.",
+          "Treat all of that with care: it trades about A$19,801 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NWS",
+      "company": "NEWS CORPORATION..",
+      "headline": "Appendix 3C",
+      "time": "2026-09-14T23:59:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135582-2A1697190",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 3C for News Corporation is the ASX form used to notify the exchange of the issue of new securities under a specific pre-approved program — typically relates to employee or executive share schemes rather than a capital raise.",
+        "NWS is a large-cap dual-listed media company; Appendix 3C filings in this context are routine remuneration-related disclosures with negligible dilutive impact relative to total shares on issue and carry no earnings signal.",
+        "No market-sensitive flag is appropriate for this type of filing — institutional investors should treat this as administrative and focus on quarterly earnings and streaming/digital asset monetisation trends as the real valuation drivers."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 45.75,
+        "volume_trend_ratio": 0.65,
+        "volume_last_ratio": 0.5,
+        "avg_turnover_aud": 9866535,
+        "liquid": true,
+        "pct_from_3m_high": -7.22,
+        "pct_from_3m_low": 15.09,
+        "pct_from_52w_high": -13.02,
+        "pct_from_52w_low": 27.05,
+        "range_position_3m": 0.628,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 7.22% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KAN",
+      "company": "KANTRA COPPER LTD",
+      "headline": "Appendix 2A",
+      "time": "2026-09-14T23:58:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135581-2A1697187",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Appendix 2A is the ASX form for admission of new securities to quotation — like Syntara's filing, this confirms that a capital raise or securities issuance has completed and new stock is entering the tradeable register, which is inherently dilutive.",
+        "Critically, volume into this announcement ran at 1.68x the 20-day average over the last five sessions — this elevated pre-announcement volume on a micro-cap copper explorer (Kantra Copper) is a material signal requiring L001/L003 scrutiny: hot volume into a new securities listing raises the question of whether informed participants were positioning ahead of a raise or whether the raise itself drove the volume.",
+        "Applying L003 logic, the simultaneous completion of a securities issuance (Appendix 2A) into elevated volume is a dilution-confirmation event; without knowing the issue price relative to current market price, the default lean is bearish on near-term price action as new securities overhang absorbs buying interest."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 1.11,
+        "volume_trend_ratio": 1.68,
+        "volume_last_ratio": 0.9,
+        "avg_turnover_aud": 665366,
+        "liquid": true,
+        "pct_from_3m_high": -10.84,
+        "pct_from_3m_low": 49.5,
+        "pct_from_52w_high": -10.84,
+        "pct_from_52w_low": 146.67,
+        "range_position_3m": 0.731,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.68x its 20-day average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, KAN traded 1.68x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the upper part of its 3-month range, 10.84% below the high of that period."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "NWS",
+      "company": "NEWS CORPORATION..",
+      "headline": "Appendix 3C",
+      "time": "2026-09-14T23:58:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135580-2A1697189",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An Appendix 3C is a notice of conversion or quotation of securities — a purely administrative ASX filing typically associated with the exercise of options, conversion of convertible notes, or other pre-approved security issuances; it carries no new strategic or financial information.",
+        "No price action data is provided, and the filing is not flagged as market sensitive — consistent with its procedural nature. Any marginal dilution implied by new securities being quoted is typically immaterial relative to NWS's large-cap share count and USD-denominated earnings base.",
+        "No follow-on catalyst is implied by this filing alone; investors should watch for any accompanying change-in-substantial-holding notices or capital structure disclosures that could signal a more meaningful register event, but absent those, no actionable read-through exists here."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 45.75,
+        "volume_trend_ratio": 0.65,
+        "volume_last_ratio": 0.5,
+        "avg_turnover_aud": 9866535,
+        "liquid": true,
+        "pct_from_3m_high": -7.22,
+        "pct_from_3m_low": 15.09,
+        "pct_from_52w_high": -13.02,
+        "pct_from_52w_low": 27.05,
+        "range_position_3m": 0.628,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 7.22% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SNT",
       "company": "SYNTARA LIMITED",
