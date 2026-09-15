@@ -1,9 +1,742 @@
 {
   "date": "2026-09-16",
-  "total": 202,
-  "market_sensitive_count": 54,
-  "generated_at": "2026-09-15T23:48:19.647740+00:00",
+  "total": 219,
+  "market_sensitive_count": 61,
+  "generated_at": "2026-09-15T23:55:05.795259+00:00",
   "announcements": [
+    {
+      "ticker": "CTW",
+      "company": "CTW",
+      "headline": "CitiFirst Warrants over WAF Special Dividend",
+      "time": "2026-09-15T23:51:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135999-2A1697373",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "This is a CitiFirst structured warrant product announcement referencing a WAF special dividend — it is a derivative instrument administration filing by a warrant issuer, not an announcement from WAF itself, and has no direct bearing on WAF's operating performance or strategic direction.",
+        "The filing is not flagged market sensitive and the document type is 'Dividend' in an administrative sense only — it pertains to the mechanics of how warrant holders will be treated on a WAF dividend event, which is a procedural adjustment to warrant terms rather than new corporate news.",
+        "Institutional investors holding WAF directly are unaffected by this filing; it is relevant only to holders of the specific CitiFirst warrant series over WAF and carries no valuation signal for WAF shares or CTW as an entity."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BAK",
+      "company": "BARKLY RARE EARTHS LIMITED",
+      "headline": "High-Grade Mineralisation in First Phase 1 Drill Results",
+      "time": "2026-09-15T23:51:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135998-6A1343992",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-grade rare earth assay results from Phase 1 drilling at a market-sensitive filing represent a genuine catalyst — the headline 'high-grade mineralisation' signals actual intercept data rather than a programme commencement, sidestepping L002 concerns and warranting a bullish lean under the base rate for market-sensitive filings (66.2% correct).",
+        "Volume into this announcement was running at just 0.27x average on a stock with median daily turnover of roughly A$3,039 — the tape is essentially silent and thinly traded, so the volume ratio is close to meaningless as a positioning signal; critically, the absence of pre-announcement volume accumulation means there is no obvious sell-the-news dynamic to fade, leaving the result to trade on its own merits.",
+        "Next steps hinge on grade continuity and resource-definition potential: investors will scrutinise whether intercept grades and widths are sufficient to justify Phase 2 drilling and, ultimately, a JORC resource estimate; a follow-up programme announcement or independent geological commentary would be the logical near-term catalysts to watch."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 160,
+        "last_close": 0.215,
+        "volume_trend_ratio": 0.27,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 3039,
+        "liquid": false,
+        "pct_from_3m_high": -15.69,
+        "pct_from_3m_low": 34.38,
+        "pct_from_52w_high": -27.12,
+        "pct_from_52w_low": 34.38,
+        "range_position_3m": 0.579,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.27x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$3,039/day",
+        "reading": [
+          "Going into this, BAK traded only 0.27x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the middle part of its 3-month range, 15.69% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,039 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "KCC",
+      "company": "KINCORA COPPER LIMITED",
+      "headline": "Notification regarding unquoted securities - KCC",
+      "time": "2026-09-15T23:51:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135997-6A1343998",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A notification regarding unquoted securities is a standard administrative filing — typically covering options, performance rights, or unlisted warrants — and is not flagged market sensitive, consistent with its procedural nature; absent a companion capital raise or cessation filing, it does not signal an imminent dilution event on its own.",
+        "Per L003 and L017 logic, the key question is whether this filing is accompanied by any companion lodgement on the same day that would indicate a completed transaction (e.g., a placement or rights issue) generating the unquoted securities — in isolation, it reads as routine register maintenance.",
+        "No price action data is provided for KCC, so no tape-based inference can be made; the filing warrants monitoring only if a subsequent quotation-of-securities or capital raise announcement follows, which would retroactively confirm a completed fundraising event."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.985,
+        "volume_trend_ratio": 1.24,
+        "volume_last_ratio": 0.84,
+        "avg_turnover_aud": 16354,
+        "liquid": false,
+        "pct_from_3m_high": -12.83,
+        "pct_from_3m_low": 40.71,
+        "pct_from_52w_high": -33.45,
+        "pct_from_52w_low": 40.71,
+        "range_position_3m": 0.663,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$16,354/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the upper part of its 3-month range, 12.83% below the high of that period.",
+          "Treat all of that with care: it trades about A$16,354 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMB",
+      "company": "CAMBIUM BIO LIMITED",
+      "headline": "Change in Substantial Holding",
+      "time": "2026-09-15T23:51:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135996-2A1697372",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding at CMB is not flagged market sensitive, and the filing itself discloses no directional context — per L001, the direction of the change (accumulation vs. reduction) is the critical unknown and cannot be confirmed from the headline alone, which caps analytical confidence materially.",
+        "Volume over the last 5 sessions was 0.0x average with median daily turnover of A$0 — the stock has been entirely untradeable in recent sessions, making the volume ratio literally meaningless; the stock is 3.16% off its 3-month high, which is effectively at-the-high and means any reduction by a substantial holder into strength would be a bearish signal per L001 logic.",
+        "Without confirmation of the direction of the holding change, and given the stock is near a multi-month high with zero recent trading activity, the prudent default is neutral — if subsequent detail reveals a holder reduction near the high, that warrants a reassessment to bearish."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.46,
+        "volume_trend_ratio": 0.0,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -3.16,
+        "pct_from_3m_low": 35.29,
+        "pct_from_52w_high": -23.33,
+        "pct_from_52w_low": 35.29,
+        "range_position_3m": 0.889,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.0x its average",
+          "3.16% off its 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, CMB traded only 0.0x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the upper part of its 3-month range, 3.16% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HIT",
+      "company": "HITECH GROUP AUSTRALIA LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-09-15T23:51:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135995-2A1697364",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Per L015, this investor presentation is filed simultaneously with a $4M institutional placement (announcement [4]) and should be read as the marketing collateral for that raise rather than a standalone operational update — the combined cluster is the textbook L003/L015 pattern signalling dilution is in progress.",
+        "The market-sensitive flag on the presentation is secondary to the structural fact that the raise sets a new reference price for HIT shares; the presentation exists to justify that price to placees, not to deliver incremental operational news to the market, so it adds no independent bullish signal.",
+        "Volume into this cluster was 0.58x average on a stock with median daily turnover of ~A$7,772 — thinly traded, so the volume ratio carries limited signal; the key price anchor going forward is the placement price disclosed in announcement [4], not pre-existing price momentum."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 1.11,
+        "volume_trend_ratio": 0.58,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 7772,
+        "liquid": false,
+        "pct_from_3m_high": -21.28,
+        "pct_from_3m_low": 26.14,
+        "pct_from_52w_high": -41.42,
+        "pct_from_52w_low": 38.75,
+        "range_position_3m": 0.434,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.58x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$7,772/day",
+        "reading": [
+          "Going into this, HIT traded only 0.58x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the middle part of its 3-month range, 21.28% below the high of that period.",
+          "Treat all of that with care: it trades about A$7,772 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HIT",
+      "company": "HITECH GROUP AUSTRALIA LIMITED",
+      "headline": "Proposed issue of securities - HIT",
+      "time": "2026-09-15T23:51:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135994-2A1697362",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Proposed issue of securities' filing signals imminent dilution — the core question is whether HIT is raising capital for growth or necessity, and with no market-sensitive flag and no headline quantum disclosed, the filing offers no earnings-accretive narrative to offset the dilutive read.",
+        "Volume over the last 5 sessions was just 0.58x average in a stock with median daily turnover of roughly A$7,772 — the tape is so thin that these ratios carry no directional signal; what matters is that there is no pre-positioning or informed accumulation visible to cushion a dilution event.",
+        "With no strategic rationale, disclosed price, or use-of-funds detail in the headline, institutional investors cannot size the impact — the default market response to an unexplained securities issuance at a micro-cap with a quiet tape is negative; watch for the Appendix 3B or placement memorandum to confirm terms before re-assessing."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 1.11,
+        "volume_trend_ratio": 0.58,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 7772,
+        "liquid": false,
+        "pct_from_3m_high": -21.28,
+        "pct_from_3m_low": 26.14,
+        "pct_from_52w_high": -41.42,
+        "pct_from_52w_low": 38.75,
+        "range_position_3m": 0.434,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.58x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$7,772/day",
+        "reading": [
+          "Going into this, HIT traded only 0.58x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the middle part of its 3-month range, 21.28% below the high of that period.",
+          "Treat all of that with care: it trades about A$7,772 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "HIT",
+      "company": "HITECH GROUP AUSTRALIA LIMITED",
+      "headline": "$4M Institutional Placement",
+      "time": "2026-09-15T23:50:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135993-2A1697348",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "A $4M institutional placement is a confirmed dilution event for existing HIT shareholders — at a median daily turnover of ~A$7,772, A$4M represents an enormous multiple of normal daily liquidity, meaning the placement price will almost certainly be a material discount to the prevailing market price to clear the book.",
+        "The simultaneous investor presentation (announcement [3]) confirms this is a pre-packaged raise with marketing collateral already prepared, consistent with L003 and L015 — the capital raise is the primary signal, the presentation is secondary; the market will reprice to the placement price on recommencement of trading.",
+        "Volume running at 0.58x average into the announcement on a thinly traded stock provides no useful directional read — the bearish signal here is structural (dilution at discount) rather than tape-driven; the key question for recovery is what the stated use of proceeds is and whether A$4M provides meaningful runway relative to the company's burn rate."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 1.11,
+        "volume_trend_ratio": 0.58,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 7772,
+        "liquid": false,
+        "pct_from_3m_high": -21.28,
+        "pct_from_3m_low": 26.14,
+        "pct_from_52w_high": -41.42,
+        "pct_from_52w_low": 38.75,
+        "range_position_3m": 0.434,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.58x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$7,772/day",
+        "reading": [
+          "Going into this, HIT traded only 0.58x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the middle part of its 3-month range, 21.28% below the high of that period.",
+          "Treat all of that with care: it trades about A$7,772 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LF1",
+      "company": "LA TROBE PRIVATE CREDIT FUND",
+      "headline": "LF1 Monthly Investor Report - August 2026",
+      "time": "2026-09-15T23:50:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135992-2A1697370",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A routine monthly investor report for a private credit fund is an administrative portfolio update — the 'so what?' is almost entirely dependent on reported yield, NAV movement, and credit quality metrics within the document, none of which are signalled in the headline.",
+        "LF1 is sitting just 2.83% off its 3-month high, implying the market has recently been constructive on the fund's distributions or NAV trajectory; a clean monthly report in this context is likely to be read as status-quo confirmation rather than a catalyst for further re-rating.",
+        "Private credit funds are under increased scrutiny for arrears and valuation methodology in the current rate environment — investors should focus on any disclosure of loan-book delinquency trends, duration positioning, or NIM compression within the report body before drawing conclusions."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 253,
+        "last_close": 1.89,
+        "volume_trend_ratio": 1.1,
+        "volume_last_ratio": 1.21,
+        "avg_turnover_aud": 219282,
+        "liquid": true,
+        "pct_from_3m_high": -2.83,
+        "pct_from_3m_low": 3.0,
+        "pct_from_52w_high": -6.44,
+        "pct_from_52w_low": 3.0,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "2.83% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 2.83% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ESR",
+      "company": "ESTRELLA RESOURCES LIMITED",
+      "headline": "ESR extends Timor-Leste tenure",
+      "time": "2026-09-15T23:48:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135991-6A1343995",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A tenure extension in Timor-Leste is a necessary but low-bar milestone for ESR — it removes an imminent licence expiry risk rather than advancing the asset toward production or a resource milestone, making it constructive but not transformational in isolation.",
+        "The market-sensitive flag elevates the filing above pure administration: the ASX has assessed that tenure continuation in this jurisdiction carries price-relevance, likely because loss of tenure would have been a material adverse event for a junior explorer with limited alternative assets; retention therefore removes a tail-risk that may have been partially discounted.",
+        "No price action data is available to calibrate positioning; the key forward question is whether the extended tenure is accompanied by any work commitment (drilling, seismic) that would signal ESR intends to actively advance the asset rather than hold it passively — the announcement's language of 'extends' rather than 'awarded new' suggests continuity rather than a step-change."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.028,
+        "volume_trend_ratio": 0.74,
+        "volume_last_ratio": 0.86,
+        "avg_turnover_aud": 68402,
+        "liquid": true,
+        "pct_from_3m_high": -22.22,
+        "pct_from_3m_low": 40.0,
+        "pct_from_52w_high": -40.43,
+        "pct_from_52w_low": 40.0,
+        "range_position_3m": 0.5,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the middle part of its 3-month range, 22.22% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GML",
+      "company": "GATEWAY MINING LIMITED",
+      "headline": "Cleansing Notice",
+      "time": "2026-09-15T23:47:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135990-2A1697367",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Cleansing Notice is a regulatory compliance filing required after a capital raise conducted without a prospectus under ASX Listing Rule 7.1 — it confirms that a placement or rights issue has just completed and provides the disclosure document required to free-trade those newly issued shares.",
+        "The filing itself is purely procedural, but its existence confirms that GML has recently completed a capital raise — investors who were not aware of the placement should treat this as a dilution-confirmation event and assess the placement terms and price relative to the current market price.",
+        "Without an accompanying price action line, no tape-based inference is possible; the key next step is to cross-reference the Cleansing Notice against any same-day or recent Appendix 3B to determine the placement price, volume issued, and strategic rationale — these are the material facts this filing implicitly references but does not itself disclose."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.077,
+        "volume_trend_ratio": 1.08,
+        "volume_last_ratio": 1.67,
+        "avg_turnover_aud": 206165,
+        "liquid": true,
+        "pct_from_3m_high": -23.0,
+        "pct_from_3m_low": 87.8,
+        "pct_from_52w_high": -33.04,
+        "pct_from_52w_low": 87.8,
+        "range_position_3m": 0.61,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the middle part of its 3-month range, 23.0% below the high of that period."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "FAU",
+      "company": "FIRST AU LIMITED",
+      "headline": "Proposed issue of securities - FAU",
+      "time": "2026-09-15T23:46:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135989-6A1343994",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Proposed issue of securities' at a stock sitting at a 3-month high is a structurally bearish combination — management is issuing new equity into strength, which is rational for the company but directly dilutive to existing holders who have already absorbed the price appreciation that made the raise possible.",
+        "The stock being at a 3-month high means the raise price, while likely at a discount to market, is being set at a relatively elevated reference point — this limits but does not eliminate the dilution sting; the absence of a market-sensitive flag and no disclosed quantum or use-of-funds means the market cannot yet assess whether proceeds justify the issuance.",
+        "Cross-reference immediately with announcement [6] (FAU's acquisition of Javelin Minerals filed the same day) — it is highly probable this securities issuance is the funding mechanism for that acquisition, making [L015] and [L003] cluster logic directly applicable; if so, the combined read is dilution-for-acquisition, and the stock's reaction will hinge on whether the market views the Javelin deal as value-accretive at this price."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.012,
+        "volume_trend_ratio": 0.92,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 56546,
+        "liquid": true,
+        "pct_from_3m_high": 0.0,
+        "pct_from_3m_low": 140.0,
+        "pct_from_52w_high": -36.84,
+        "pct_from_52w_low": 140.0,
+        "range_position_3m": 1.0,
+        "at_3m_high": true,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LLC",
+      "company": "LENDLEASE GROUP",
+      "headline": "Application for quotation of securities - LLC",
+      "time": "2026-09-15T23:46:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135987-2A1697369",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An 'Application for quotation of securities' by Lendlease is an administrative filing confirming that newly issued shares — most likely from a DRP, employee incentive plan, or completed placement — are being admitted to official quotation on the ASX.",
+        "For a large-cap property and infrastructure group like LLC, routine quotation applications are procedurally unremarkable and carry no standalone valuation signal; the filing is not flagged market sensitive, consistent with its administrative nature.",
+        "The 'so what?' lies in identifying what underlying transaction generated the new securities — if these are DRP or LTIP shares, the impact is immaterial; if they relate to a previously announced placement or entitlement offer, this filing marks the final step of that capital event and may lift any trading restriction on those shares, modestly increasing near-term supply."
+      ],
+      "tags": [
+        "Compliance",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JAV",
+      "company": "JAVELIN MINERALS LIMITED",
+      "headline": "FIRST AU TO ACQUIRE JAVELIN MINERALS",
+      "time": "2026-09-15T23:46:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135986_PS-6A1343989",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "From JAV's perspective, being acquired by First AU (FAU) is the primary event — a takeover bid or merger agreement is a hard valuation anchor that typically drives the target's price toward the offer terms; the market-sensitive flag confirms this is material, and M&A is structurally bullish for the target unless the offer is below intrinsic value or the terms are heavily scrip-weighted.",
+        "Volume into this announcement was 0.44x average on a stock with median daily turnover of ~A$20,866 — thinly traded, so the pre-announcement volume ratio is close to meaningless as a signal of informed accumulation; the relevant price signal will be the offer price or exchange ratio relative to JAV's last traded price on recommencement.",
+        "Key risks for JAV holders are offer structure (cash vs. scrip) and any conditions precedent — if consideration is predominantly FAU scrip, JAV shareholders effectively inherit FAU's risk profile; the critical detail to extract from the full document is the implied premium and whether any competing bidder protection exists."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.082,
+        "volume_trend_ratio": 0.44,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 20866,
+        "liquid": false,
+        "pct_from_3m_high": -11.83,
+        "pct_from_3m_low": 30.16,
+        "pct_from_52w_high": -48.75,
+        "pct_from_52w_low": 32.26,
+        "range_position_3m": 0.633,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.44x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$20,866/day",
+        "reading": [
+          "Going into this, JAV traded only 0.44x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the middle part of its 3-month range, 11.83% below the high of that period.",
+          "Treat all of that with care: it trades about A$20,866 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "FAU",
+      "company": "FIRST AU LIMITED",
+      "headline": "FIRST AU TO ACQUIRE JAVELIN MINERALS",
+      "time": "2026-09-15T23:46:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135988_PS-6A1343990",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "From FAU's perspective as acquirer, announcing an acquisition of JAV while already at a 3-month high is a classic 'buying at the top of your own re-rate' risk — the acquirer's stock has run materially into this announcement, meaning the market has partially priced in deal activity or sector momentum, and a scrip-funded acquisition could be read as FAU management exploiting its elevated currency.",
+        "Whether this is accretive or dilutive to FAU depends entirely on terms: if FAU is issuing stock at a 3-month high to acquire JAV assets at a fair price, the deal could be value-accretive; however, acquirers at multi-month highs on small transactions in the junior mining space frequently face near-term re-ratings as the market assesses dilution and strategic logic.",
+        "The market-sensitive flag signals material price relevance, but with FAU at its 3-month high the asymmetry is skewed: upside is limited by the existing run, while any investor disappointment with the transaction terms or strategic rationale could trigger a sell-the-news reaction; verdict leans neutral-to-bearish for the acquirer given the extended tape position."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.012,
+        "volume_trend_ratio": 0.92,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 56546,
+        "liquid": true,
+        "pct_from_3m_high": 0.0,
+        "pct_from_3m_low": 140.0,
+        "pct_from_52w_high": -36.84,
+        "pct_from_52w_low": 140.0,
+        "range_position_3m": 1.0,
+        "at_3m_high": true,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FAU",
+      "company": "FIRST AU LIMITED",
+      "headline": "JAV: FIRST AU TO ACQUIRE JAVELIN MINERALS",
+      "time": "2026-09-15T23:46:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135986_NPS-6A1343997",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "First Au acquiring Javelin Minerals (JAV) is a consolidation event in the junior mining space — with FAU already at a 3-month high, the market has partially anticipated corporate activity, but the acquisition itself introduces execution risk, integration complexity, and the near-certain dilution confirmed by the same-day securities issuance in announcement [4].",
+        "The filing is not flagged market sensitive, which is an unusual and notable qualifier for a company acquisition announcement — this either reflects ASX administrative timing or the companies' own assessment that the deal terms are not price-sensitive at current levels; either way, it reduces the conviction level for a bullish call per the track-record calibration on unflagged filings.",
+        "Key due-diligence questions for institutional holders: What consideration is being paid (scrip, cash, or hybrid)? What are Javelin's assets and resource inventory? Does the combined entity achieve critical mass, or is this an asset accumulation that stretches FAU's balance sheet at the worst point in its recent cycle? The stock-at-high context means downside from disappointment is material."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.012,
+        "volume_trend_ratio": 0.92,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 56546,
+        "liquid": true,
+        "pct_from_3m_high": 0.0,
+        "pct_from_3m_low": 140.0,
+        "pct_from_52w_high": -36.84,
+        "pct_from_52w_low": 140.0,
+        "range_position_3m": 1.0,
+        "at_3m_high": true,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JAV",
+      "company": "JAVELIN MINERALS LIMITED",
+      "headline": "FAU: FIRST AU TO ACQUIRE JAVELIN MINERALS",
+      "time": "2026-09-15T23:46:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135988_NPS-6A1343996",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "For Javelin Minerals (JAV) as the target, an acquisition announcement by First Au is typically bullish — deals are almost always executed at a premium to the target's unaffected price, and JAV shareholders will receive consideration that should be priced above pre-deal levels.",
+        "Volume over the last 5 sessions was just 0.44x average in a stock with median daily turnover of roughly A$20,866 — the tape is extremely thin and these volume ratios are close to meaningless as directional signals; there is no evidence of pre-deal accumulation visible in the data provided, suggesting the announcement has not been widely anticipated or leaked.",
+        "The critical near-term catalyst for JAV holders is the disclosure of deal terms — the implied value per JAV share relative to its current price will determine whether this is a full-premium acquisition or a discounted distress deal; given FAU is itself a micro-cap at a 3-month high funding the deal via a concurrent securities issuance, investors should scrutinise whether the consideration is cash, FAU scrip, or a mixture, as scrip-for-scrip from a diluting acquirer substantially reduces the headline premium in practice."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.082,
+        "volume_trend_ratio": 0.44,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 20866,
+        "liquid": false,
+        "pct_from_3m_high": -11.83,
+        "pct_from_3m_low": 30.16,
+        "pct_from_52w_high": -48.75,
+        "pct_from_52w_low": 32.26,
+        "range_position_3m": 0.633,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.44x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$20,866/day",
+        "reading": [
+          "Going into this, JAV traded only 0.44x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the middle part of its 3-month range, 11.83% below the high of that period.",
+          "Treat all of that with care: it trades about A$20,866 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ALV",
+      "company": "ALVO MINERALS LIMITED",
+      "headline": "New Modelling Defines Multiple Untested Targets at Touro",
+      "time": "2026-09-15T23:45:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135985-3A701864",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "ALV is 78.95% below its 12-month high — a severe de-rating that per L005 logic means the market has already seen prior results and fundamentally re-priced the stock; a 'new modelling defines targets' announcement is even weaker than a drill intercept result, as it produces no assay data, only conceptual targets, making it insufficient on its own to reverse the structural narrative.",
+        "The filing is market-sensitive, which elevates it above routine, but 'untested targets' is by definition pre-drill — this is a geological interpretation output, not a resource or intercept result; for a stock this deeply de-rated, the market needs evidence of grade and width at Touro, not modelling outputs that will require a drilling programme to validate.",
+        "Median daily turnover is ~A$7,178 and the stock is thinly traded, so the volume ratio carries limited signal; the actionable next catalyst is a drill programme announcement followed by assays, and even then L005 cautions against reflexive bullishness at this level of de-rating without accompanying funding or resource news."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.02,
+        "volume_trend_ratio": 1.02,
+        "volume_last_ratio": 0.02,
+        "avg_turnover_aud": 7178,
+        "liquid": false,
+        "pct_from_3m_high": -37.5,
+        "pct_from_3m_low": 17.65,
+        "pct_from_52w_high": -78.95,
+        "pct_from_52w_low": 17.65,
+        "range_position_3m": 0.2,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "78.95% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$7,178/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the lower part of its 3-month range, 37.5% below the high of that period.",
+          "Treat all of that with care: it trades about A$7,178 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "MQR",
       "company": "MARQUEE RESOURCES LIMITED",
