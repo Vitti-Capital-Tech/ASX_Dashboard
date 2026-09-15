@@ -1,9 +1,292 @@
 {
   "date": "2026-09-15",
-  "total": 265,
-  "market_sensitive_count": 69,
-  "generated_at": "2026-09-15T01:35:12.294168+00:00",
+  "total": 273,
+  "market_sensitive_count": 70,
+  "generated_at": "2026-09-15T02:33:36.972124+00:00",
   "announcements": [
+    {
+      "ticker": "RCA",
+      "company": "RESOLUTION CAP GLOBAL PROP SEC FUND - ACTIVE ETF",
+      "headline": "August 2026 Investment Update",
+      "time": "2026-09-15T02:08:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135621-2A1697214",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A routine monthly investment update for an active ETF focused on global property securities — this is a standard portfolio disclosure with no transactional or earnings content, carrying no market-sensitive flag.",
+        "The 'so what' for RCA unitholders is limited to NAV transparency and manager commentary on global REIT conditions; any macro read-through (rate sensitivity, cap rate movements) belongs to the underlying holdings, not to the ETF vehicle itself.",
+        "No price-action data supplied; as a procedural update this is unlikely to generate meaningful secondary-market volume in the ETF units, and no directional trade thesis can be constructed from a monthly update alone."
+      ],
+      "tags": [
+        "Finance",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EBO",
+      "company": "EBOS GROUP LIMITED",
+      "headline": "FY2026 Climate Statement",
+      "time": "2026-09-15T02:07:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135620-2A1697213",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A standalone FY2026 Climate Statement is a compliance and ESG disclosure, not flagged market sensitive — it carries no earnings, guidance, or capital allocation content that would directly move the stock.",
+        "Critically, EBO is at a 3-month low into this filing: a non-financial, procedural ESG document landing when the stock is already under pressure is unlikely to provide the catalytic positive surprise needed to reverse that trend, and equally is not itself a new bearish signal.",
+        "The 'so what' is reputational rather than financial — institutional ESG mandates may note the disclosure quality, but a climate statement alone will not shift consensus estimates or near-term sentiment for a healthcare distribution and animal care business of EBO's scale; watch instead for any upcoming guidance update or trading commentary as the more meaningful inflection point."
+      ],
+      "tags": [
+        "Healthcare",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 16.3,
+        "volume_trend_ratio": 0.88,
+        "volume_last_ratio": 1.58,
+        "avg_turnover_aud": 2181530,
+        "liquid": true,
+        "pct_from_3m_high": -21.14,
+        "pct_from_3m_low": 0.93,
+        "pct_from_52w_high": -39.07,
+        "pct_from_52w_low": 3.95,
+        "range_position_3m": 0.033,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SGA",
+      "company": "SARYTOGAN GRAPHITE LIMITED",
+      "headline": "Copper Mineralisation Extended at Ilksan - Revised Format",
+      "time": "2026-09-15T02:04:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135619-6A1343847",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Market-sensitive filing signals a meaningful extension of copper mineralisation at the Ilksan prospect — the 'revised format' qualifier suggests a prior submission was deficient, but the substance (mineralisation extension) is the operative news and warrants full weight given the market-sensitive flag.",
+        "For SGA, historically a graphite-focused developer, a copper discovery extension broadens the asset thesis materially — polymetallic optionality on an existing licence can re-rate exploration-stage companies when confirmed by assay data, making the quality and width of intercepts in the underlying document the critical read-through.",
+        "Next catalyst is assay confirmation and resource delineation drilling; investors should scrutinise whether the announcement contains actual intercept grades and widths or merely describes visual/geophysical mineralisation extent — if the latter, apply lesson L002 caution and treat as programme-stage until hard assay numbers are released."
+      ],
+      "tags": [
+        "Mining",
+        "Market Update"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "RII",
+      "company": "RESOLUTION GBL LISTED INFRA FUND - ACTIVE ETF",
+      "headline": "August 2026 Investment Update",
+      "time": "2026-09-15T02:01:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135618-2A1697212",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Routine monthly investment update for the Resolution Global Listed Infrastructure Active ETF — structurally identical in nature to filing [2] above, with no market-sensitive flag and no transactional content.",
+        "For RII unitholders the value lies in manager commentary on listed infrastructure valuations — relevant given the interest-rate sensitivity of the asset class — but this is informational rather than actionable at the ETF-unit level.",
+        "No price-action data supplied; no directional call can be supported for a procedural monthly update, and secondary-market impact on ETF units is expected to be negligible."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "14D",
+      "company": "1414 DEGREES LIMITED",
+      "headline": "Notice Required Under ASX Listing Rule 3.13.1",
+      "time": "2026-09-15T01:57:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135617-2A1697211",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX Listing Rule 3.13.1 notices are mandatory notifications typically relating to securities that are about to be cancelled, expire, or lapse (commonly options or performance rights) — this is an administrative compliance filing with no earnings content and no market-sensitive flag.",
+        "The critical context is that 14D is trading 64.24% below its 12-month high — a deeply de-rated position that reflects well-known structural challenges for the company's thermal energy storage technology; a procedural compliance notice does nothing to address the underlying commercial or funding concerns that have driven that de-rating.",
+        "Applying lesson L003 awareness: a standalone procedural notice in isolation here is not a multi-filing cluster signal, but investors should check whether any associated securities cessation implies option expiry without exercise — which would modestly reduce overhang but also signals those holders saw no value in converting, a mildly bearish read in context."
+      ],
+      "tags": [
+        "Compliance",
+        "Energy"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.059,
+        "volume_trend_ratio": 0.64,
+        "volume_last_ratio": 0.22,
+        "avg_turnover_aud": 1218512,
+        "liquid": true,
+        "pct_from_3m_high": -56.3,
+        "pct_from_3m_low": 22.92,
+        "pct_from_52w_high": -64.24,
+        "pct_from_52w_low": 247.06,
+        "range_position_3m": 0.126,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "64.24% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 56.3% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "3DA",
+      "company": "AMAERO INC.",
+      "headline": "Correction to Change of Director's Interest Notice",
+      "time": "2026-09-15T01:56:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135616-3A701779",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A correction to a Director's Interest Notice is a purely administrative filing — it rectifies a prior disclosure error (likely a wrong date, share count, or price) and has no operational or strategic content; the filing carries no market-sensitive flag.",
+        "Volume into this announcement was only 0.31x the 5-session average, indicating extremely thin trading — at such low volume ratios, any inference about directional intent from the tape is essentially meaningless, and the volume figure should be treated as noise rather than signal.",
+        "The 'so what' is zero beyond ensuring the register is correctly stated; corrections of this type are routine and carry no valuation implication for 3DA, which remains an early-stage advanced manufacturing company whose investment thesis is unaffected by this administrative amendment."
+      ],
+      "tags": [
+        "Compliance",
+        "Board Change"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.235,
+        "volume_trend_ratio": 0.31,
+        "volume_last_ratio": 0.49,
+        "avg_turnover_aud": 237177,
+        "liquid": true,
+        "pct_from_3m_high": -29.85,
+        "pct_from_3m_low": 27.03,
+        "pct_from_52w_high": -44.05,
+        "pct_from_52w_low": 27.03,
+        "range_position_3m": 0.333,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.31x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, 3DA traded only 0.31x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 29.85% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WQG",
+      "company": "WCM GLOBAL GROWTH LIMITED",
+      "headline": "Weekly NTA 11 September 2026",
+      "time": "2026-09-15T01:55:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135615-3A701777",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Weekly NTA disclosure for WCM Global Growth Limited (WQG) is a mandatory, routine LIC filing — it provides the 11 September 2026 net tangible asset backing per share and is not flagged market sensitive.",
+        "The primary signal embedded in a weekly NTA is the premium or discount to last traded price; if the NTA has moved materially relative to prior weeks, it may reflect significant moves in WQG's underlying global growth equity portfolio (typically concentrated in high-quality compounders), which could have secondary implications for the discount/premium dynamic.",
+        "No price-action data is supplied; absent a meaningful widening of the NTA discount or a sharp NTA move, this filing is procedural — the actionable trade (discount arbitrage or NAV tracking) requires reading the NTA figure against current market price, which is not contained in this headline alone."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 1.97,
+        "volume_trend_ratio": 0.89,
+        "volume_last_ratio": 1.43,
+        "avg_turnover_aud": 457731,
+        "liquid": true,
+        "pct_from_3m_high": -12.83,
+        "pct_from_3m_low": 7.65,
+        "pct_from_52w_high": -12.83,
+        "pct_from_52w_low": 22.36,
+        "range_position_3m": 0.326,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 12.83% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PTX",
+      "company": "PRESCIENT THERAPEUTICS LIMITED",
+      "headline": "Update - Proposed issue of securities - PTX",
+      "time": "2026-09-15T01:54:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135614-3A701778",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An 'Update – Proposed issue of securities' filing from a pre-revenue clinical-stage biotech signals that a capital raise is either pending, modified, or nearing completion — this is inherently dilutive news and the absence of a market-sensitive flag alongside 'proposed' language suggests the market has either been pre-notified or the terms are being amended rather than freshly announced.",
+        "Applying lesson L010 awareness: even without a specific catalyst named in the headline, a securities issuance update for a pre-revenue therapeutic company like PTX is the clearest possible signal of dilution in progress — investors should treat this as a negative for near-term per-share value unless the raise is accompanied by a material catalyst (new trial data, partnership) that offsets the dilution.",
+        "The key unknowns are pricing relative to last traded price, the size of the raise, and whether it is accompanied by any strategic news; until those are confirmed, the filing's directional bias is bearish given the dilutive nature of the transaction and the absence of a disclosed positive catalyst in the headline."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.065,
+        "volume_trend_ratio": 1.11,
+        "volume_last_ratio": 1.1,
+        "avg_turnover_aud": 72703,
+        "liquid": true,
+        "pct_from_3m_high": -31.58,
+        "pct_from_3m_low": 14.04,
+        "pct_from_52w_high": -48.0,
+        "pct_from_52w_low": 62.5,
+        "range_position_3m": 0.211,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 31.58% below the high of that period."
+        ]
+      },
+      "sentiment": "bearish"
+    },
     {
       "ticker": "GCM",
       "company": "GCM CORPORATION LIMITED",
