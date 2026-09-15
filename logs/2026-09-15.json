@@ -1,9 +1,583 @@
 {
   "date": "2026-09-15",
-  "total": 252,
-  "market_sensitive_count": 68,
-  "generated_at": "2026-09-15T00:58:13.916290+00:00",
+  "total": 265,
+  "market_sensitive_count": 69,
+  "generated_at": "2026-09-15T01:35:12.294168+00:00",
   "announcements": [
+    {
+      "ticker": "GCM",
+      "company": "GCM CORPORATION LIMITED",
+      "headline": "Notification of cessation of securities - GCM",
+      "time": "2026-09-15T01:30:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135613-6A1343846",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities at a company trading 77% below its 12-month high is a structurally bearish backdrop — the de-rating is severe and a cessation notice (most commonly options lapsing unexercised, or performance rights forfeited) confirms that insiders or participants chose not to exercise, which is itself a negative signal about confidence in the near-term price recovery.",
+        "GCM is thinly traded at a median turnover of approximately A$18,599/day, meaning volume ratios are close to meaningless as an intent signal; the filing's significance must rest on its own merits, and a cessation of securities at a deeply distressed micro-cap adds another layer of structural weakness to an already impaired register.",
+        "Applying L003: this is a standalone cessation filing rather than a pair of simultaneous procedural filings, so the capital-event cluster signal is not triggered — however, investors should monitor for a companion 'quotation of securities' filing, which would suggest a concurrent capital raise completing and imply fresh dilution at distressed prices."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.1,
+        "volume_trend_ratio": 0.96,
+        "volume_last_ratio": 0.74,
+        "avg_turnover_aud": 18599,
+        "liquid": false,
+        "pct_from_3m_high": -37.5,
+        "pct_from_3m_low": 7.53,
+        "pct_from_52w_high": -77.01,
+        "pct_from_52w_low": 7.53,
+        "range_position_3m": 0.104,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "77.01% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$18,599/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 37.5% below the high of that period.",
+          "Treat all of that with care: it trades about A$18,599 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KPO",
+      "company": "KALINA POWER LIMITED",
+      "headline": "Application for quotation of securities - KPO",
+      "time": "2026-09-15T01:19:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135612-6A1343845",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An 'Application for quotation of securities' filing by KPO is a standard post-issuance administrative step — it means new shares, options, or performance rights are being admitted to trading, which directly implies a prior capital event (placement, rights issue, or vesting) has completed and the associated securities are about to become freely tradeable.",
+        "Applying L003: a quotation-of-securities filing is the exact companion document flagged in the lesson — investors should check whether a cessation notice or placement announcement was lodged simultaneously, as the combination would confirm a completed capital raise and the onset of new supply hitting the register.",
+        "No price action data is provided for KPO, so no tape-based directional inference can be made; the filing is procedural on its face, but the dilution mechanics of new securities entering the market create a mild headwind unless the prior raise was at a premium or significantly oversubscribed."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.023,
+        "volume_trend_ratio": 1.07,
+        "volume_last_ratio": 0.41,
+        "avg_turnover_aud": 59637,
+        "liquid": true,
+        "pct_from_3m_high": -14.81,
+        "pct_from_3m_low": 100.0,
+        "pct_from_52w_high": -14.81,
+        "pct_from_52w_low": 130.0,
+        "range_position_3m": 0.742,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 14.81% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ANN",
+      "company": "ANSELL LIMITED",
+      "headline": "Notification of cessation of securities - ANN",
+      "time": "2026-09-15T01:16:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135611-3A701776",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Ansell is a large, liquid industrial/healthcare company trading within 3% of its 3-month high — a cessation of securities in this context almost certainly reflects employee performance rights or options lapsing or vesting under a long-term incentive plan, which is a routine remuneration administration event with no strategic content.",
+        "Volume over the last 5 sessions was 0.56x the 20-day average — well below normal, indicating no institutional positioning around this filing; the quiet tape further confirms this is procedural rather than a market-moving event.",
+        "For a company of Ansell's size and liquidity, an unflagged cessation filing is among the lowest-signal announcements possible; no revaluation case exists, and the near-3-month-high tape means any residual bullish momentum is driven by the broader business outlook, not this filing."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 41.36,
+        "volume_trend_ratio": 0.56,
+        "volume_last_ratio": 0.53,
+        "avg_turnover_aud": 21951523,
+        "liquid": true,
+        "pct_from_3m_high": -2.98,
+        "pct_from_3m_low": 40.16,
+        "pct_from_52w_high": -2.98,
+        "pct_from_52w_low": 65.11,
+        "range_position_3m": 0.903,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.56x its average",
+          "2.98% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, ANN traded only 0.56x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 2.98% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RWD",
+      "company": "REWARD MINERALS LTD",
+      "headline": "Exploration Update Newfoundland",
+      "time": "2026-09-15T01:07:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135610-6A1343844",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A market-sensitive exploration update from Newfoundland carries genuine information content — unlike a programme commencement notice, an 'update' filed as market sensitive implies results, data, or a material change in project status that management believes could move the price; the directional signal depends entirely on what the update contains.",
+        "RWD is primarily known for its Lake Disappointment potash project in WA, so a Newfoundland update signals either a diversification asset reaching a milestone or a strategic decision point — investors should assess whether this is a resource-stage development, a JV/farm-out signal, or a divestment, as each carries very different valuation implications.",
+        "Because no price action data is provided, no tape-based inference can be made; the market-sensitive flag lifts base-rate accuracy to ~69% for directional calls, but without knowing the substance of the update (positive drill result, resource change, or negative outcome) a bullish call is not warranted — flag for immediate review of the document body before taking a position."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.033,
+        "volume_trend_ratio": 0.95,
+        "volume_last_ratio": 4.74,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -5.71,
+        "pct_from_3m_low": 32.0,
+        "pct_from_52w_high": -41.07,
+        "pct_from_52w_low": 32.0,
+        "range_position_3m": 0.8,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 5.71% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BPG",
+      "company": "BLACK PEARL GROUP LIMITED",
+      "headline": "Application for quotation of securities - BPG",
+      "time": "2026-09-15T01:06:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135609-2A1697210",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Applying L003 directly: BPG has filed both an 'Application for quotation of securities' (item 6) and a 'Capital Change Notice' (item 7) simultaneously — this dual-filing cluster is the textbook signal of a just-completed capital raise or restructuring event, and investors must treat it as confirmation that new securities have been issued and are about to enter the market.",
+        "BPG is trading 79.82% below its 12-month high — a deeply distressed micro-cap — and the incoming supply of newly quoted securities at this price level is mechanically dilutive; the stock has no valuation buffer to absorb new issuance, and the raise was almost certainly at a material discount to already-depressed levels.",
+        "Volume over the last 5 sessions ran at 2.69x the 20-day average into these filings, but BPG's median daily turnover is approximately A$3,868 — at this level of illiquidity, elevated volume ratios are largely noise and should not be read as informed institutional accumulation; the dominant signal remains the dilutive capital event at a deeply de-rated price."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 203,
+        "last_close": 0.23,
+        "volume_trend_ratio": 2.69,
+        "volume_last_ratio": 0.25,
+        "avg_turnover_aud": 3868,
+        "liquid": false,
+        "pct_from_3m_high": -55.34,
+        "pct_from_3m_low": 21.05,
+        "pct_from_52w_high": -79.82,
+        "pct_from_52w_low": 21.05,
+        "range_position_3m": 0.123,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.69x its 20-day average",
+          "79.82% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$3,868/day",
+        "reading": [
+          "Going into this, BPG traded 2.69x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 55.34% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,868 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "KOA",
+      "company": "THE KOALA COMPANY LIMITED",
+      "headline": "Change in substantial holding - Hinterland Capital",
+      "time": "2026-09-15T01:03:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135608-2A1697209",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Volume into this announcement ran at just 0.12x the 20-day average — the tape has been extraordinarily quiet, which removes the elevated-volume warning from L001 and makes this a low-signal procedural filing rather than a reactive market event.",
+        "A change in substantial holding by Hinterland Capital is not flagged market sensitive, and with near-zero trading activity in the lead-up, there is no evidence of informed positioning around this filing; the direction of the change (increase vs. decrease) is the critical unknown, but without elevated volume there is no urgency signal either way.",
+        "At this level of illiquidity and administrative framing, the filing is most likely a threshold crossing (above or below 5%) driven by prior transaction activity rather than a fresh strategic move — institutional investors should note the register change but await confirmation of direction before reading intent."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 117,
+        "last_close": 4.25,
+        "volume_trend_ratio": 0.12,
+        "volume_last_ratio": 0.17,
+        "avg_turnover_aud": 347352,
+        "liquid": true,
+        "pct_from_3m_high": -6.8,
+        "pct_from_3m_low": 52.6,
+        "pct_from_52w_high": -6.8,
+        "pct_from_52w_low": 52.6,
+        "range_position_3m": 0.825,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.12x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, KOA traded only 0.12x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 6.8% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BPG",
+      "company": "BLACK PEARL GROUP LIMITED",
+      "headline": "Capital Change Notice",
+      "time": "2026-09-15T01:01:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135607-2A1697208",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Capital Change Notice confirms a structural change to BPG's issued capital — paired with the simultaneous quotation application (item 6), this is the administrative record of a completed capital raise; the two filings together leave no ambiguity that new shares have been created and are now entering free float.",
+        "At 79.82% below the 12-month high and with median daily turnover of approximately A$3,868, BPG is among the most distressed and illiquid names on the board — a capital change at these levels typically reflects emergency or opportunistic funding at deeply discounted prices, compounding the structural de-rating rather than reversing it.",
+        "Volume at 2.69x the 20-day average is statistically elevated but practically immaterial given the near-zero liquidity base; the correct read is not 'smart money is buying' but rather 'settlement and placement activity is temporarily inflating turnover' — the bearish dilution signal from the dual filing cluster dominates."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 203,
+        "last_close": 0.23,
+        "volume_trend_ratio": 2.69,
+        "volume_last_ratio": 0.25,
+        "avg_turnover_aud": 3868,
+        "liquid": false,
+        "pct_from_3m_high": -55.34,
+        "pct_from_3m_low": 21.05,
+        "pct_from_52w_high": -79.82,
+        "pct_from_52w_low": 21.05,
+        "range_position_3m": 0.123,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 2.69x its 20-day average",
+          "79.82% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$3,868/day",
+        "reading": [
+          "Going into this, BPG traded 2.69x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the lower part of its 3-month range, 55.34% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,868 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "COL",
+      "company": "COLES GROUP LIMITED.",
+      "headline": "Letter to Shareholders",
+      "time": "2026-09-15T01:00:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135606-3A701773",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Letter to Shareholders' from Coles Group ahead of its 2026 AGM (see items 9 and 10 filed simultaneously) is a standard annual governance communication — it accompanies the notice of meeting and voting form and carries no independent financial content or strategic announcement.",
+        "Coles is trading within 5% of its 3-month high on below-normal volume context, suggesting the stock is in a period of steady institutional accumulation or hold rather than speculative activity; the letter filing does not alter that picture.",
+        "The three simultaneous AGM-related filings (items 8, 9, 10) confirm the annual meeting cycle is underway — investors should focus on the notice of meeting for any non-routine resolutions (e.g. capital management, executive remuneration, board changes) rather than on the letter itself, which is procedurally inert."
+      ],
+      "tags": [
+        "AGM",
+        "Retail"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 23.44,
+        "volume_trend_ratio": 0.74,
+        "volume_last_ratio": 0.5,
+        "avg_turnover_aud": 63922020,
+        "liquid": true,
+        "pct_from_3m_high": -4.68,
+        "pct_from_3m_low": 5.97,
+        "pct_from_52w_high": -4.68,
+        "pct_from_52w_low": 16.62,
+        "range_position_3m": 0.534,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "4.68% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 4.68% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COL",
+      "company": "COLES GROUP LIMITED.",
+      "headline": "Coles Voting Form - 2026 Annual General Meeting",
+      "time": "2026-09-15T00:58:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135605-3A701772",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "The AGM voting form is a purely mechanical document enabling shareholder participation at the 2026 Annual General Meeting — it has no financial content, no strategic signal, and no price-moving information independent of the resolutions contained in the Notice of Meeting (item 10).",
+        "Coles at approximately 5% off its 3-month high is in a stable, near-peak position for a defensive retail compounder — AGM-related filings in this context are noise against the existing trend, and the voting form adds nothing to that assessment.",
+        "Institutional investors should direct attention to the Notice of Meeting for the actual resolution agenda; proxy voting outcomes on remuneration and board composition are the only AGM-cycle elements with potential market sensitivity for a company of Coles' scale."
+      ],
+      "tags": [
+        "AGM",
+        "Retail"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 23.44,
+        "volume_trend_ratio": 0.74,
+        "volume_last_ratio": 0.5,
+        "avg_turnover_aud": 63922020,
+        "liquid": true,
+        "pct_from_3m_high": -4.68,
+        "pct_from_3m_low": 5.97,
+        "pct_from_52w_high": -4.68,
+        "pct_from_52w_low": 16.62,
+        "range_position_3m": 0.534,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "4.68% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 4.68% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COL",
+      "company": "COLES GROUP LIMITED.",
+      "headline": "Coles Notice of Meeting 2026",
+      "time": "2026-09-15T00:57:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135604-3A701771",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The Notice of Meeting for Coles' 2026 AGM is the substantive document in the three-filing cluster — investors should review the resolution agenda for any non-routine items such as a new long-term incentive plan, changes to the capital structure, a strategic transaction requiring shareholder approval, or a contested board election that could generate proxy advisory attention.",
+        "For a large-cap defensive retailer like Coles trading near its 3-month high, AGM notices are typically routine; if all resolutions are standard (director re-elections, auditor ratification, remuneration report), the filing is procedurally neutral and will not shift the price trajectory.",
+        "The simultaneous filing of letter, voting form, and notice of meeting is the standard annual governance release cadence and is not a L003-type cluster signal (which applies to operationally significant filings like cessations and quotations); treat the AGM package as administrative unless the notice reveals a non-routine resolution upon review."
+      ],
+      "tags": [
+        "AGM",
+        "Retail"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 23.44,
+        "volume_trend_ratio": 0.74,
+        "volume_last_ratio": 0.5,
+        "avg_turnover_aud": 63922020,
+        "liquid": true,
+        "pct_from_3m_high": -4.68,
+        "pct_from_3m_low": 5.97,
+        "pct_from_52w_high": -4.68,
+        "pct_from_52w_low": 16.62,
+        "range_position_3m": 0.534,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "4.68% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 4.68% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATG",
+      "company": "ARTICORE GROUP LIMITED",
+      "headline": "Articore upgrades US OTC listing",
+      "time": "2026-09-15T00:57:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135602-3A701775",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An OTC listing upgrade (likely from Pink Sheets to OTCQB or OTCQX) is a modest positive for US investor accessibility, but it is a market-access step rather than a revenue or operational catalyst — the 'so what' is a marginally wider distribution of the stock, not a valuation event.",
+        "Price action context renders the volume signal almost meaningless here: with median daily turnover of approximately A$22,238 and 5-day volume running at just 0.07x average, the stock is essentially illiquid. There is no institutional accumulation or distribution signal to read into the tape, and any price response to this filing is likely to be erratic and thin rather than directionally reliable.",
+        "Not flagged market sensitive and carrying no quantitative content (no uplift in US revenue, no institutional sponsorship named, no capital raise accompanying the listing upgrade), this filing fits the profile of administrative milestone disclosure. Investors should watch whether a capital raise roadshow targeting US retail or institutional flows follows — that would be the real catalyst; absent it, the OTC upgrade is largely cosmetic for ASX holders."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.38,
+        "volume_trend_ratio": 0.07,
+        "volume_last_ratio": 0.04,
+        "avg_turnover_aud": 22238,
+        "liquid": false,
+        "pct_from_3m_high": -13.64,
+        "pct_from_3m_low": 60.0,
+        "pct_from_52w_high": -14.61,
+        "pct_from_52w_low": 68.89,
+        "range_position_3m": 0.704,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.07x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$22,238/day",
+        "reading": [
+          "Going into this, ATG traded only 0.07x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 13.64% below the high of that period.",
+          "Treat all of that with care: it trades about A$22,238 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BRU",
+      "company": "BURU ENERGY LIMITED",
+      "headline": "Investor Webinar Presentation",
+      "time": "2026-09-15T00:57:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135603-6A1343843",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An investor webinar presentation from Buru Energy is an awareness and communication exercise, not a data release — without accompanying drilling results, resource updates, or financing news disclosed in the headline, this filing carries no standalone valuation content (cross-check lesson L010: generic investor presentation by a junior/mid-cap with no named catalyst defaults toward neutral-to-bearish).",
+        "Not flagged market sensitive, which is a meaningful calibration point given the track record data: unflagged filings are directionally correct only 57.5% of the time versus 69.4% for flagged filings — the absence of the market-sensitive flag here is consistent with the filing being procedural rather than substantive.",
+        "The key watch item is what content the webinar actually discloses: if management presents updated Canning Basin resource numbers, farm-out progress, or funding terms, the document filed post-webinar could be material. Investors should treat this as a signal that management is actively marketing the stock and monitor for a follow-up capital raise filing, which would be dilutive."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.014,
+        "volume_trend_ratio": 1.47,
+        "volume_last_ratio": 0.36,
+        "avg_turnover_aud": 15342,
+        "liquid": false,
+        "pct_from_3m_high": -6.67,
+        "pct_from_3m_low": 33.33,
+        "pct_from_52w_high": -48.15,
+        "pct_from_52w_low": 33.33,
+        "range_position_3m": 0.778,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$15,342/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 6.67% below the high of that period.",
+          "Treat all of that with care: it trades about A$15,342 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JEG",
+      "company": "JPM GLOBAL EQUITY PREMIUM INCOME COMPLEX ETF",
+      "headline": "Distribution Notice",
+      "time": "2026-09-15T00:56:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135601-2A1697202",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A distribution notice from JEG (JPMorgan Global Equity Premium Income Complex ETF) is a scheduled, mechanical income event — the ETF's premium income strategy (covered calls overlaid on a global equity portfolio) generates regular distributions, and this filing simply confirms the quantum and record/payment dates for the current period.",
+        "Not flagged market sensitive and carrying no surprise content by design, this is purely procedural: the distribution will be priced into the ETF's NAV via the standard ex-distribution adjustment, meaning there is no net wealth creation for existing holders from the announcement itself.",
+        "The 'so what' for institutional investors is confirmation of income yield consistency, which matters for mandates with income requirements — but there is no alpha or price-direction signal here. Monitor distribution yield trends across successive notices for any compression that might signal the options overlay is generating less premium in a lower-volatility regime."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "SVR",
       "company": "SOLVAR LIMITED",
