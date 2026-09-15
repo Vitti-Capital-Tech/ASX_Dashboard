@@ -1,9 +1,517 @@
 {
   "date": "2026-09-16",
-  "total": 191,
-  "market_sensitive_count": 49,
-  "generated_at": "2026-09-15T23:41:19.050266+00:00",
+  "total": 202,
+  "market_sensitive_count": 54,
+  "generated_at": "2026-09-15T23:48:19.647740+00:00",
   "announcements": [
+    {
+      "ticker": "MQR",
+      "company": "MARQUEE RESOURCES LIMITED",
+      "headline": "DRILLING TO COMMENCE AT YINDI GOLD PROJECT",
+      "time": "2026-09-15T23:45:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135984-6A1343993",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Per lesson L002, this is a drilling-commencement announcement with no assay data — it tells the market only that capital is being deployed at the Yindi Gold Project; no result has been disclosed and no resource implication can be drawn, making this a programme statement rather than a value-creation event.",
+        "The stock is 75% below its 12-month high and is thinly traded (median turnover ~A$2,594/day), which in combination with the non-market-sensitive flag and lesson L005 context suggests the market has already heavily discounted MQR's exploration narrative; a single drilling commencement announcement cannot reverse a de-rating of this magnitude without accompanying results, funding confirmation, or a resource upgrade.",
+        "Volume ratios are close to meaningless on a stock this thinly traded — any apparent volume signal should not be read as institutional accumulation; the next meaningful catalyst is the assay results from this programme, and until those are released with grade and width data, this filing has no directional information content."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.0035,
+        "volume_trend_ratio": 0.62,
+        "volume_last_ratio": 0.77,
+        "avg_turnover_aud": 2594,
+        "liquid": false,
+        "pct_from_3m_high": -56.25,
+        "pct_from_3m_low": 16.67,
+        "pct_from_52w_high": -75.0,
+        "pct_from_52w_low": 16.67,
+        "range_position_3m": 0.1,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "75.0% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$2,594/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the lower part of its 3-month range, 56.25% below the high of that period.",
+          "Treat all of that with care: it trades about A$2,594 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BAS",
+      "company": "BASS OIL LIMITED",
+      "headline": "2026 RIU Good Oil Conference Presentation",
+      "time": "2026-09-15T23:42:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135983-3A701863",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "BAS is presenting at the RIU Good Oil Conference — a named, credible energy investor event — and the filing is flagged market sensitive, which lifts the base-rate probability of meaningful content above the conference-circuit average; this is not a routine awareness filing.",
+        "Volume has been running at 1.95x the 20-day average into this announcement, with the stock only 4.17% off its 3-month high — that combination suggests the market has been positioning ahead of the presentation, meaning any bullish content may be partially priced while any disappointment (no new operational update, no deal) could trigger a fade from near-highs.",
+        "The key question for institutional holders is whether the presentation contains new operational data (production, reserves, drilling programme) or is purely a capital-markets awareness exercise; the market-sensitive flag suggests the former, but confirmation of substantive content will determine whether the elevated volume signals accumulation or distribution into the event."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.069,
+        "volume_trend_ratio": 1.95,
+        "volume_last_ratio": 0.44,
+        "avg_turnover_aud": 59312,
+        "liquid": true,
+        "pct_from_3m_high": -4.17,
+        "pct_from_3m_low": 64.29,
+        "pct_from_52w_high": -37.27,
+        "pct_from_52w_low": 200.0,
+        "range_position_3m": 0.9,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.95x its 20-day average",
+          "4.17% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, BAS traded 1.95x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close, before this announcement was public.",
+          "The price sat in the upper part of its 3-month range, 4.17% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CTS",
+      "company": "CERETAS LIMITED",
+      "headline": "Milestone 3 Completed for CUREator Program",
+      "time": "2026-09-15T23:41:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135982-2A1697368",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Completion of Milestone 3 in the CUREator program is a tangible de-risking event for CTS — structured milestone programmes (typically run by health innovation accelerators) gate further funding and validation on sequential deliverables, so M3 completion confirms the company has met an externally assessed benchmark, not merely an internal target.",
+        "The market-sensitive flag elevates this beyond a routine programme update; the 'so what' is that milestone completion typically unlocks the next tranche of non-dilutive grant or programme funding, which directly extends cash runway without shareholder dilution — a materially positive outcome for a company at this stage.",
+        "Next catalyst to watch is whether M3 completion triggers a specific funding disbursement or an invitation to advance to a final commercialisation or partnership phase; investors should seek the programme's public milestone schedule to gauge how much value remains to be unlocked in subsequent stages."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 39,
+        "last_close": 0.925,
+        "volume_trend_ratio": 0.85,
+        "volume_last_ratio": 0.56,
+        "avg_turnover_aud": 102365,
+        "liquid": true,
+        "pct_from_3m_high": -16.67,
+        "pct_from_3m_low": 115.12,
+        "pct_from_52w_high": -16.67,
+        "pct_from_52w_low": 115.12,
+        "range_position_3m": 0.728,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the upper part of its 3-month range, 16.67% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "IOV",
+      "company": "ION VIDEO LTD",
+      "headline": "Proposed issue of securities - IOV",
+      "time": "2026-09-15T23:41:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135981-6A1343984",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Per lesson L003, this Proposed Issue of Securities filing is the companion procedural filing to the $4.25 million placement announced simultaneously by IOV ([3]); the two filings together confirm that a capital raise has completed and dilution is being formalised on the register — this is not a standalone event but the administrative close of the raise.",
+        "The filing is not flagged market sensitive, consistent with its procedural nature as a Form 3B or equivalent notice of allotment; the substantive information is in the placement announcement ([3]), and this filing adds no new valuation information beyond confirming the number of securities to be issued and the terms.",
+        "Volume at 0.22x average on a stock with ~A$7,789/day median turnover renders the tape meaningless as a signal; the register impact — new shares being issued at a placement price almost certainly at a discount to last close — is the only relevant datapoint, reinforcing the bearish read from [3]."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.395,
+        "volume_trend_ratio": 0.22,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 7789,
+        "liquid": false,
+        "pct_from_3m_high": -41.04,
+        "pct_from_3m_low": 31.67,
+        "pct_from_52w_high": -41.04,
+        "pct_from_52w_low": 295.0,
+        "range_position_3m": 0.257,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.22x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$7,789/day",
+        "reading": [
+          "Going into this, IOV traded only 0.22x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the lower part of its 3-month range, 41.04% below the high of that period.",
+          "Treat all of that with care: it trades about A$7,789 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "IOV",
+      "company": "ION VIDEO LTD",
+      "headline": "IOV Secures $4.25 Million Placement",
+      "time": "2026-09-15T23:41:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135980-6A1343977",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "A $4.25 million placement is a material capital injection for IOV given its micro-cap profile — median daily turnover of approximately A$7,789/day means this raise represents hundreds of trading days of normal liquidity, confirming the company needed external equity capital to fund operations and could not rely on market-based financing.",
+        "Volume over the prior five sessions was only 0.22x average — far below normal — making the tape essentially meaningless as a pre-positioning signal; the thinly traded nature means the placement price (not disclosed in the headline) is the critical reference point the market will now anchor to, and any discount to last close will define the near-term bearish reset.",
+        "Per lesson L003, a capital raise filing of this type typically accompanies a companion procedural filing (see [7] — Proposed Issue of Securities), confirming dilution is in progress; the stock will reprice toward the placement price, making this structurally bearish for existing shareholders regardless of the intended use of proceeds."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.395,
+        "volume_trend_ratio": 0.22,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 7789,
+        "liquid": false,
+        "pct_from_3m_high": -41.04,
+        "pct_from_3m_low": 31.67,
+        "pct_from_52w_high": -41.04,
+        "pct_from_52w_low": 295.0,
+        "range_position_3m": 0.257,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.22x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$7,789/day",
+        "reading": [
+          "Going into this, IOV traded only 0.22x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the lower part of its 3-month range, 41.04% below the high of that period.",
+          "Treat all of that with care: it trades about A$7,789 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "STX",
+      "company": "STRIKE ENERGY LIMITED",
+      "headline": "Presentation - RIU Good Oil & Gas Energy Conference",
+      "time": "2026-09-15T23:40:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135979-6A1343991",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "STX presenting at the RIU Good Oil & Gas Energy Conference is a standard sector-investor relations event for an established ASX energy company; the filing is not flagged market sensitive, which per base-rate analysis (58% directional accuracy vs 66.2% for flagged filings) significantly reduces the probability that this contains new material information.",
+        "Volume over the prior five sessions was 0.59x average — below normal — indicating no meaningful pre-event positioning; the subdued tape combined with the absence of a market-sensitive flag suggests this is a routine capital markets awareness exercise rather than a catalyst event, and any price reaction is unlikely to be sustained.",
+        "For institutional holders, the key question is whether STX uses the conference to update on its West Erregulla gas project development timeline or any infrastructure/offtake discussions; absent that, this is an awareness filing and should be treated accordingly — the content of the presentation matters more than the fact of its lodgement."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.11,
+        "volume_trend_ratio": 0.59,
+        "volume_last_ratio": 0.98,
+        "avg_turnover_aud": 390193,
+        "liquid": true,
+        "pct_from_3m_high": -8.33,
+        "pct_from_3m_low": 18.28,
+        "pct_from_52w_high": -24.14,
+        "pct_from_52w_low": 18.28,
+        "range_position_3m": 0.63,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.59x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, STX traded only 0.59x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the middle part of its 3-month range, 8.33% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BTE",
+      "company": "BOTALA ENERGY LTD",
+      "headline": "RIU Good Oil and Gas Energy Presentation",
+      "time": "2026-09-15T23:40:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135978-6A1343988",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "BTE presenting at the RIU Good Oil and Gas Energy Conference is a routine investor-relations event; the filing carries no market-sensitive flag, which is the primary signal that this is a standard awareness presentation rather than a vehicle for new material disclosure — base-rate accuracy on unflagged filings is meaningfully lower, and this filing must make its own case.",
+        "No price action data is available, removing the tape as an analytical input entirely; without visibility on volume trends or proximity to highs/lows, there is no positioning context to inform whether any bullish or bearish read is warranted beyond the content of the filing itself.",
+        "Botala Energy is a Botswana-focused coal-bed methane developer — the conference presentation likely covers project development milestones, regulatory progress, or capital requirements; until those specifics are known and flagged as material, this filing is procedural and does not move the investment thesis."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.068,
+        "volume_trend_ratio": 0.68,
+        "volume_last_ratio": 1.09,
+        "avg_turnover_aud": 8140,
+        "liquid": false,
+        "pct_from_3m_high": -8.11,
+        "pct_from_3m_low": 94.29,
+        "pct_from_52w_high": -8.11,
+        "pct_from_52w_low": 94.29,
+        "range_position_3m": 0.846,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$8,140/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the upper part of its 3-month range, 8.11% below the high of that period.",
+          "Treat all of that with care: it trades about A$8,140 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HZN",
+      "company": "HORIZON OIL LIMITED",
+      "headline": "Presentation at the Pareto Securities Energy Conference",
+      "time": "2026-09-15T23:40:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135977-2A1697366",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "HZN presenting at the Pareto Securities Energy Conference carries more weight than a generic roadshow — Pareto is a specialist energy-sector bank with institutional Nordic and global reach, and selection for this conference implies the company is actively engaging with sophisticated sector-focused capital, potentially in the context of a financing or asset transaction.",
+        "The market-sensitive flag on what might appear to be a routine conference presentation is the key signal here; Pareto conferences are frequently used as forums to make strategic announcements (farm-ins, project updates, financing closes) alongside the standard deck, so the flag suggests the filing may contain or accompany new material information.",
+        "Without price action data, the tape cannot be assessed — investors should focus on whether the presentation discloses any update on HZN's PNG development financing, production timelines, or potential corporate activity, as those would be the material facts that justify the market-sensitive designation."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.23,
+        "volume_trend_ratio": 0.88,
+        "volume_last_ratio": 0.55,
+        "avg_turnover_aud": 235531,
+        "liquid": true,
+        "pct_from_3m_high": -6.12,
+        "pct_from_3m_low": 17.95,
+        "pct_from_52w_high": -22.03,
+        "pct_from_52w_low": 21.05,
+        "range_position_3m": 0.7,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the upper part of its 3-month range, 6.12% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "HMD",
+      "company": "HERAMED LIMITED",
+      "headline": "Lee Health Approves Expansion of HeraMED Maternity Program",
+      "time": "2026-09-15T23:39:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135976-2A1697354",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Lee Health — a major US not-for-profit health system operating multiple hospitals in Florida — approving an expansion of the HeraMED maternity program is a commercially meaningful customer validation event: health system expansion decisions involve procurement committees, clinical governance review, and budget approval, making this a sticky, hard-won contract extension rather than a trial pilot.",
+        "The market-sensitive designation is appropriate: a named US health system expanding an existing program provides a referenceable revenue-growth signal and, critically, de-risks the commercial model by demonstrating that an existing customer is scaling spend — the highest-quality signal in a B2B healthcare sales cycle.",
+        "The 'so what' for HMD shareholders is twofold: (1) recurring revenue from an expanded program improves the near-term cash burn trajectory, and (2) Lee Health's brand name is a credible reference site that materially lowers the cost of winning subsequent US health system customers in what is a reference-driven market."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.033,
+        "volume_trend_ratio": 0.85,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 8012,
+        "liquid": false,
+        "pct_from_3m_high": -25.0,
+        "pct_from_3m_low": 10.0,
+        "pct_from_52w_high": -40.0,
+        "pct_from_52w_low": 10.0,
+        "range_position_3m": 0.214,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$8,012/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the lower part of its 3-month range, 25.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$8,012 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "VEA",
+      "company": "VIVA ENERGY GROUP LIMITED",
+      "headline": "Update - Dividend/Distribution - VEA",
+      "time": "2026-09-15T23:38:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135975-3A701862",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "A dividend update filing for VEA is not flagged market sensitive, and the headline does not indicate a cut, cancellation, or special dividend — the most likely scenario is a routine interim or final dividend declaration or update, which is broadly expected by the market for an established energy infrastructure company of VEA's scale.",
+        "With the stock only 2.24% off its 3-month high, VEA is trading near recent highs and the dividend news appears already well-anticipated by the market; a in-line or modest dividend confirmation into a stock near its highs is unlikely to generate meaningful incremental upside, as income-seeking holders will have already positioned.",
+        "The key risk to monitor is any change in dividend quantum relative to prior guidance or consensus — a reduction would be materially bearish given the stock's near-high positioning, while an in-line or higher dividend confirms capital returns discipline but is unlikely to drive meaningful price appreciation from current levels."
+      ],
+      "tags": [
+        "Dividend",
+        "Energy",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 3.05,
+        "volume_trend_ratio": 0.98,
+        "volume_last_ratio": 0.84,
+        "avg_turnover_aud": 17605889,
+        "liquid": true,
+        "pct_from_3m_high": -2.24,
+        "pct_from_3m_low": 55.61,
+        "pct_from_52w_high": -2.24,
+        "pct_from_52w_low": 79.94,
+        "range_position_3m": 0.94,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "2.24% off its 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the upper part of its 3-month range, 2.24% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "D3E",
+      "company": "D3 ENERGY LIMITED",
+      "headline": "Investor Presentation - Good Oil and Gas Energy Conference",
+      "time": "2026-09-15T23:38:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135974-6A1343987",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "D3E is presenting at the Good Oil and Gas Energy Conference, a sector-specific investor forum — but with no market-sensitive flag and no specific catalyst (drilling result, resource upgrade, or funding announcement) signalled in the headline, this is awareness-building rather than a substantive information event; per lesson L010, this filing pattern is most commonly associated with pre-raise marketing activity, which is dilutive.",
+        "Price action context is limited in its signal value: the stock is thinly traded at a median daily turnover of ~A$16,719, and volume over the last five sessions has been running well below average at 0.56x — on a stock this illiquid, these ratios are close to meaningless as a gauge of institutional intent. What is not ambiguous is that the stock sits ~52% below its 12-month high, meaning the market has already significantly de-rated D3E, and a generic conference presentation alone is unlikely to reverse that narrative.",
+        "Next steps hinge entirely on what the presentation discloses: if it contains new operational data, a funding pathway, or a drilling update with assay results, the filing would need to be reassessed on its content — but absent that, the combination of a deeply de-rated stock, no market-sensitive flag, and a generic conference presentation filing points to a bearish read consistent with L010, as management appears to be actively marketing stock without a named catalyst to underpin the exercise."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.29,
+        "volume_trend_ratio": 0.56,
+        "volume_last_ratio": 0.3,
+        "avg_turnover_aud": 16719,
+        "liquid": false,
+        "pct_from_3m_high": -24.68,
+        "pct_from_3m_low": 7.41,
+        "pct_from_52w_high": -51.67,
+        "pct_from_52w_low": 20.83,
+        "range_position_3m": 0.174,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.56x its average",
+          "51.67% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$16,719/day",
+        "reading": [
+          "Going into this, D3E traded only 0.56x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the lower part of its 3-month range, 24.68% below the high of that period.",
+          "Treat all of that with care: it trades about A$16,719 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
     {
       "ticker": "ENV",
       "company": "ENOVA MINING LIMITED",
