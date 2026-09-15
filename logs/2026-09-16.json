@@ -1,9 +1,569 @@
 {
   "date": "2026-09-16",
-  "total": 179,
-  "market_sensitive_count": 45,
-  "generated_at": "2026-09-15T23:32:29.043682+00:00",
+  "total": 191,
+  "market_sensitive_count": 49,
+  "generated_at": "2026-09-15T23:41:19.050266+00:00",
   "announcements": [
+    {
+      "ticker": "ENV",
+      "company": "ENOVA MINING LIMITED",
+      "headline": "Proposed issue of securities - ENV",
+      "time": "2026-09-15T23:37:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135973-3A701860",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is one of multiple 'Proposed issue of securities' filings lodged by ENV on the same day — applying lesson L003, the cluster of concurrent securities issuance filings strongly implies a capital raise or asset acquisition has just completed or is in progress, with the Caraubas monazite acquisition option (filing [2]) as the most likely triggering transaction.",
+        "The filing is not flagged market sensitive and on its own is procedural, but in the context of the same-day cluster it is confirmation that dilution is occurring or imminent — at 77.27% below the 12-month high and with near-zero daily turnover (approximately A$1,158), ENV's register is fragile and new shares issued at a discount will reset the price anchor downward.",
+        "The so-what: the proposed issuance likely funds the Caraubas option consideration or associated costs — investors should assess the placement price relative to last trade to determine the dilution quantum; on a stock this deeply de-rated, dilution at a discount is doubly punishing as it signals management accepted a low valuation to proceed."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.0025,
+        "volume_trend_ratio": 0.29,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 1158,
+        "liquid": false,
+        "pct_from_3m_high": -37.5,
+        "pct_from_3m_low": 25.0,
+        "pct_from_52w_high": -77.27,
+        "pct_from_52w_low": 25.0,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.29x its average",
+          "77.27% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,158/day",
+        "reading": [
+          "Going into this, ENV traded only 0.29x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the lower part of its 3-month range, 37.5% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,158 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ENV",
+      "company": "ENOVA MINING LIMITED",
+      "headline": "Proposed issue of securities - ENV",
+      "time": "2026-09-15T23:37:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135972-3A701858",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A second 'Proposed issue of securities' filing from ENV on the same day reinforces the L003 cluster signal — multiple simultaneous securities filings from one issuer indicate a multi-tranche or multi-instrument capital raise (e.g. placement plus options, or placement to multiple tranches under ASX capacity rules) rather than a single clean transaction.",
+        "The duplication increases the total dilution risk: if each filing represents a separate tranche of securities, the aggregate issuance is likely larger than a single filing would suggest — on a stock trading 77.27% below its 12-month high with near-zero liquidity, even modest absolute dilution is proportionally significant.",
+        "The thinly traded nature of ENV (approximately A$1,158 median daily turnover) means volume ratios are meaningless as a sentiment signal; the bearish read here comes entirely from the structural dilution implied by multiple concurrent issuance filings, not from tape analysis."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.0025,
+        "volume_trend_ratio": 0.29,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 1158,
+        "liquid": false,
+        "pct_from_3m_high": -37.5,
+        "pct_from_3m_low": 25.0,
+        "pct_from_52w_high": -77.27,
+        "pct_from_52w_low": 25.0,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.29x its average",
+          "77.27% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,158/day",
+        "reading": [
+          "Going into this, ENV traded only 0.29x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the lower part of its 3-month range, 37.5% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,158 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MI6",
+      "company": "MINERALS 260 LIMITED",
+      "headline": "Proposed issue of securities - MI6",
+      "time": "2026-09-15T23:37:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135970-6A1343962",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This 'Proposed issue of securities' filing from MI6 is the companion procedural filing to the $250m placement announced in filing [1] — applying lesson L003, the cluster confirms the capital raise is being executed and the register is being updated, but this filing itself adds no new information beyond the raise announcement.",
+        "The filing is not flagged market sensitive, consistent with its role as a procedural companion to the substantive market-sensitive placement announcement — the directional signal belongs to filing [1] (bullish); this filing is administrative confirmation that the securities allocation is proceeding.",
+        "Volume was running at 0.51x average into these announcements — a quiet tape — which means the placement at $250m scale is a genuine market event rather than a post-run formalisation; the proposed issuance filing simply confirms the mechanics are underway and should be read through the lens of the primary placement headline."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.88,
+        "volume_trend_ratio": 0.51,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 7119512,
+        "liquid": true,
+        "pct_from_3m_high": -12.0,
+        "pct_from_3m_low": 61.47,
+        "pct_from_52w_high": -12.0,
+        "pct_from_52w_low": 433.33,
+        "range_position_3m": 0.736,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.51x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, MI6 traded only 0.51x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the upper part of its 3-month range, 12.0% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENV",
+      "company": "ENOVA MINING LIMITED",
+      "headline": "Proposed issue of securities - ENV",
+      "time": "2026-09-15T23:37:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135971-3A701856",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Third 'Proposed issue of securities' filing from ENV on the same day — the L003 cluster is now definitive; three concurrent securities issuance notices from a single issuer strongly indicate a multi-tranche placement structure, potentially combining shares, options, and performance rights across separate ASX notification forms.",
+        "Each additional filing in the cluster increases the probability that the aggregate dilution is material relative to ENV's existing share count — on a stock 77.27% below its 12-month high, a multi-tranche raise signals management needed to offer multiple instruments (e.g. attaching free options) to attract buyers at the prevailing depressed price, which is itself a negative signal about demand quality.",
+        "With median daily turnover of approximately A$1,158, the secondary market cannot absorb placement stock easily — new placees are likely to be patient strategic holders or are locked up, but any release of escrow will face a structurally illiquid market; the cumulative dilution signal from three filings in one day is clearly bearish."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.0025,
+        "volume_trend_ratio": 0.29,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 1158,
+        "liquid": false,
+        "pct_from_3m_high": -37.5,
+        "pct_from_3m_low": 25.0,
+        "pct_from_52w_high": -77.27,
+        "pct_from_52w_low": 25.0,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.29x its average",
+          "77.27% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,158/day",
+        "reading": [
+          "Going into this, ENV traded only 0.29x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the lower part of its 3-month range, 37.5% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,158 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MI6",
+      "company": "MINERALS 260 LIMITED",
+      "headline": "Proposed issue of securities - MI6",
+      "time": "2026-09-15T23:37:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135969-6A1343958",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Second 'Proposed issue of securities' filing from MI6, companion to filings [1] and [7] — this likely represents a second tranche or instrument class (e.g. free-attaching options to placees) within the $250m placement structure announced in filing [1], which is standard market practice for a raise of this size.",
+        "The L003 cluster (filings [7] and [9] from MI6) is consistent with a clean placement-plus-options structure rather than a distress raise — the distinction matters because the $250m headline in filing [1] provides the context that makes these procedural filings interpretable as execution mechanics rather than signs of a problematic capital structure.",
+        "The so-what: these companion filings do not change the directional signal established by filing [1]; they confirm the raise is being executed across standard instrument categories; MI6's quiet pre-announcement tape (0.51x average volume) means the market is receiving this as fresh information and the bullish read from the primary announcement remains intact."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.88,
+        "volume_trend_ratio": 0.51,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 7119512,
+        "liquid": true,
+        "pct_from_3m_high": -12.0,
+        "pct_from_3m_low": 61.47,
+        "pct_from_52w_high": -12.0,
+        "pct_from_52w_low": 433.33,
+        "range_position_3m": 0.736,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.51x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, MI6 traded only 0.51x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the upper part of its 3-month range, 12.0% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENV",
+      "company": "ENOVA MINING LIMITED",
+      "headline": "Proposed issue of securities - ENV",
+      "time": "2026-09-15T23:37:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135967-3A701854",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Fourth 'Proposed issue of securities' filing from ENV in a single day — this extends the L003 cluster to four concurrent filings, which is an unusually high number and suggests either a highly structured multi-instrument raise (shares + options + performance rights across multiple tranches) or filing corrections/amendments being lodged alongside originals.",
+        "Regardless of the precise mechanics, four simultaneous securities issuance filings on a stock trading 77.27% below its 12-month high with approximately A$1,158 in median daily turnover is an unambiguously dilutive cluster — the cumulative signal is that ENV is issuing significant new securities at a price that the market has already severely discounted.",
+        "The so-what for institutional investors: ENV's multi-filing cluster combined with the Caraubas acquisition option (filing [2]) paints a picture of a company aggressively restructuring its asset base and capital structure simultaneously — while the strategic pivot to monazite/critical minerals may have long-run merit, the near-term impact is dilution into an illiquid, deeply de-rated register, and the risk/reward on a fresh long position is poor until placement terms and total shares on issue are disclosed and confirmed."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.0025,
+        "volume_trend_ratio": 0.29,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 1158,
+        "liquid": false,
+        "pct_from_3m_high": -37.5,
+        "pct_from_3m_low": 25.0,
+        "pct_from_52w_high": -77.27,
+        "pct_from_52w_low": 25.0,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.29x its average",
+          "77.27% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,158/day",
+        "reading": [
+          "Going into this, ENV traded only 0.29x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the lower part of its 3-month range, 37.5% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,158 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MI6",
+      "company": "MINERALS 260 LIMITED",
+      "headline": "$250m Placement Funds Bullabulling Gold Project Development",
+      "time": "2026-09-15T23:37:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135968-6A1343953",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "$250m placement is a material capital injection for Bullabulling Gold Project development — this is project-funding scale, not exploration capital, signalling MI6 is transitioning from explorer to developer and that key de-risking milestones (feasibility, permitting) are sufficiently advanced to attract institutional funding.",
+        "Volume into the announcement was running at only 0.51x average over the prior 5 sessions — a notably quiet tape with no sign of pre-positioning or leakage, which means the market is unlikely to have priced this in and the announcement carries genuine surprise value on the upside.",
+        "The so-what: a fully funded development pathway removes the single largest risk discount on a gold developer — funding uncertainty — and in the current gold price environment this should unlock a re-rating toward NAV-based valuations; watch for sell-side coverage initiations and offtake discussions as near-term catalysts."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.88,
+        "volume_trend_ratio": 0.51,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 7119512,
+        "liquid": true,
+        "pct_from_3m_high": -12.0,
+        "pct_from_3m_low": 61.47,
+        "pct_from_52w_high": -12.0,
+        "pct_from_52w_low": 433.33,
+        "range_position_3m": 0.736,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.51x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, MI6 traded only 0.51x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the upper part of its 3-month range, 12.0% below the high of that period."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ENV",
+      "company": "ENOVA MINING LIMITED",
+      "headline": "ENOVA SECURES OPTION TO ACQUIRE CARAUBAS MONAZITE PROJECT",
+      "time": "2026-09-15T23:37:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135966-3A701853",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "An option to acquire a monazite project — a rare earth mineral used in permanent magnets and critical to defence and energy transition supply chains — is strategically credible for a company repositioning toward critical minerals, but 'option to acquire' means no asset has yet changed hands and execution risk remains high.",
+        "The tape context is deeply unfavourable for the stock in isolation: ENV is 77.27% below its 12-month high and the stock is near-illiquid with median daily turnover of approximately A$1,158 — volume ratios on a stock this thinly traded are essentially meaningless as indicators of informed positioning.",
+        "Market-sensitive flag elevates conviction slightly (track record: 66.2% correct on flagged filings), but the so-what here is that at 77.27% below the 12-month high, the market has severely de-rated ENV and one acquisition option in an unfamiliar commodity (monazite vs prior focus) is unlikely on its own to reverse that narrative without disclosed terms, project economics, or a funded pathway — lean bullish on strategic optionality but with low conviction."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.0025,
+        "volume_trend_ratio": 0.29,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 1158,
+        "liquid": false,
+        "pct_from_3m_high": -37.5,
+        "pct_from_3m_low": 25.0,
+        "pct_from_52w_high": -77.27,
+        "pct_from_52w_low": 25.0,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.29x its average",
+          "77.27% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$1,158/day",
+        "reading": [
+          "Going into this, ENV traded only 0.29x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the lower part of its 3-month range, 37.5% below the high of that period.",
+          "Treat all of that with care: it trades about A$1,158 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "JAV",
+      "company": "JAVELIN MINERALS LIMITED",
+      "headline": "Eureka Right to Mine Agreement Terminated",
+      "time": "2026-09-15T23:35:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135965-6A1343959",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Termination of a 'Right to Mine' agreement is an unambiguously negative headline — it removes a licensed pathway to production or revenue from the Eureka asset, and the market-sensitive flag confirms the company itself regards this as price-moving information.",
+        "The tape was quiet going in, with 5-day volume at only 0.44x average on a thinly traded stock where volume ratios carry limited interpretive weight — there is no evidence the market pre-positioned for this, so the negative surprise effect is unlikely to be absorbed; expect selling pressure from holders who bought on the expectation of mining activity at Eureka.",
+        "The so-what: without a right to mine, JAV's Eureka asset is effectively mothballed or must be renegotiated from scratch — investors will need to reassess what the remaining asset base is worth and whether management has a credible alternative plan; absent an accompanying update on replacement strategy or other assets, this is a value-destruction event."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.082,
+        "volume_trend_ratio": 0.44,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 20866,
+        "liquid": false,
+        "pct_from_3m_high": -11.83,
+        "pct_from_3m_low": 30.16,
+        "pct_from_52w_high": -48.75,
+        "pct_from_52w_low": 32.26,
+        "range_position_3m": 0.633,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.44x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$20,866/day",
+        "reading": [
+          "Going into this, JAV traded only 0.44x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the middle part of its 3-month range, 11.83% below the high of that period.",
+          "Treat all of that with care: it trades about A$20,866 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "BXB",
+      "company": "BRAMBLES LIMITED",
+      "headline": "Notification of cessation of securities - BXB",
+      "time": "2026-09-15T23:33:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135964-2A1697365",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities at Brambles (BXB) most commonly reflects the lapsing of unexercised options or forfeiture of performance rights — a routine register-maintenance event for a large-cap with no material balance sheet consequence given the scale of the company.",
+        "For a blue-chip ASX 200 constituent like BXB, cessation filings carry negligible dilution-removal significance; the absolute quantum of securities involved is immaterial relative to the company's market capitalisation and free float, so there is no meaningful overhang cleared.",
+        "No price action data is provided, and the filing is not flagged market sensitive — consistent with lesson L017, absent a companion capital raise filing or any structural context suggesting distress, this is a clean procedural event with no directional read-through for institutional holders."
+      ],
+      "tags": [
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 18.73,
+        "volume_trend_ratio": 0.77,
+        "volume_last_ratio": 0.71,
+        "avg_turnover_aud": 82932166,
+        "liquid": true,
+        "pct_from_3m_high": -8.41,
+        "pct_from_3m_low": 3.25,
+        "pct_from_52w_high": -26.72,
+        "pct_from_52w_low": 15.76,
+        "range_position_3m": 0.255,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the lower part of its 3-month range, 8.41% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GML",
+      "company": "GATEWAY MINING LIMITED",
+      "headline": "Application for quotation of securities - GML",
+      "time": "2026-09-15T23:31:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135963-2A1697363",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An application for quotation of securities at Gateway Mining (GML) signals that newly issued securities — most likely from a recent placement, rights issue, or option exercise — are being admitted to trading, raising the immediate question of whether this represents fresh dilution now becoming liquid and creating near-term selling pressure.",
+        "Applying lesson L003: a standalone quotation-of-securities filing, particularly at a junior miner with no companion cessation filing on the same day, warrants scrutiny as to what capital event generated these securities — if sourced from a placement, the overhang risk is real as new holders seek to realise gains or cut losses at market.",
+        "The filing is not flagged market sensitive and no price action data is provided; without knowing the terms of the underlying issuance (discount to market, identity of placees, or size relative to existing float), the balance of risk leans slightly bearish given the dilutive mechanics typical of junior explorer raises coming to quotation."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.077,
+        "volume_trend_ratio": 1.08,
+        "volume_last_ratio": 1.67,
+        "avg_turnover_aud": 206165,
+        "liquid": true,
+        "pct_from_3m_high": -23.0,
+        "pct_from_3m_low": 87.8,
+        "pct_from_52w_high": -33.04,
+        "pct_from_52w_low": 87.8,
+        "range_position_3m": 0.61,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the middle part of its 3-month range, 23.0% below the high of that period."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "FNX",
+      "company": "FINEXIA FINANCIAL GROUP LIMITED",
+      "headline": "Investor Update",
+      "time": "2026-09-15T23:31:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135962-6A1343972",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "A generic 'Investor Update' flagged market sensitive at a financial services company trading at a 3-month high is an unusual combination — the market-sensitive flag implies substantive content (guidance update, transaction, regulatory outcome) rather than routine awareness-building, but the vague headline prevents assessment of direction without reading the document.",
+        "The stock is at a 3-month high, meaning positive expectations are at least partially embedded in the price — if the update merely confirms existing guidance or is operational colour without a step-change catalyst, the risk is a 'buy the rumour, sell the fact' reaction from recent buyers.",
+        "Median daily turnover is effectively A$0, making this stock near-completely illiquid — in practice, any volume reaction will be binary and potentially disorderly; institutional investors should treat any price move on this filing with extreme caution given the inability to build or exit positions at scale; the market-sensitive flag is the only positive signal here and is insufficient to overcome the liquidity and positioning concerns."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.18,
+        "volume_trend_ratio": null,
+        "volume_last_ratio": null,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": 0.0,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -10.0,
+        "pct_from_52w_low": 44.0,
+        "range_position_3m": null,
+        "at_3m_high": true,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "FLG",
       "company": "FLAGSHIP MINERALS LIMITED",
