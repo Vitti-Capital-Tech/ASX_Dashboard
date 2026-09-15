@@ -1,9 +1,441 @@
 {
   "date": "2026-09-15",
-  "total": 273,
+  "total": 282,
   "market_sensitive_count": 70,
-  "generated_at": "2026-09-15T02:33:36.972124+00:00",
+  "generated_at": "2026-09-15T03:28:12.473618+00:00",
   "announcements": [
+    {
+      "ticker": "INF",
+      "company": "INFINITY METALS LIMITED",
+      "headline": "Initial Director's Interest Notice - D Cameron",
+      "time": "2026-09-15T03:17:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135630-6A1343850",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "An initial Director's Interest Notice for D Cameron is a routine administrative filing disclosing a new director's opening shareholding position — it carries no earnings or strategic content whatsoever.",
+        "With the stock trading 68% below its 12-month high and median daily turnover of roughly A$8,026, INF is deeply illiquid and severely de-rated; volume over the last 5 sessions at 0.43x average is suppressed, but on a stock this thinly traded, volume ratios are close to meaningless as a signal.",
+        "No actionable catalyst is present here — institutional investors should treat this as pure compliance housekeeping and await a substantive announcement (drilling result, resource update, or capital event) before forming a view on direction."
+      ],
+      "tags": [
+        "Board Change",
+        "Compliance",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.008,
+        "volume_trend_ratio": 0.43,
+        "volume_last_ratio": 0.01,
+        "avg_turnover_aud": 8026,
+        "liquid": false,
+        "pct_from_3m_high": -42.86,
+        "pct_from_3m_low": 33.33,
+        "pct_from_52w_high": -68.0,
+        "pct_from_52w_low": 33.33,
+        "range_position_3m": 0.25,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.43x its average",
+          "68.0% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$8,026/day",
+        "reading": [
+          "Going into this, INF traded only 0.43x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 42.86% below the high of that period.",
+          "Treat all of that with care: it trades about A$8,026 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MRQ",
+      "company": "MRG METALS LIMITED",
+      "headline": "Update - Proposed issue of securities - MRQ",
+      "time": "2026-09-15T03:08:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135629-3A701781",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An update to a proposed securities issue is a capital raise-related filing — even though not flagged market sensitive, it signals an in-progress or recently modified fundraising process that warrants close attention for dilution impact.",
+        "MRQ is trading 71.43% below its 12-month high with median daily turnover of approximately A$255 — an extraordinarily illiquid stock where any new shares hitting the register will face a near-absent secondary market to absorb them, amplifying dilution risk for existing holders.",
+        "Applying lesson L003: this filing, alongside the simultaneous investor webinar and SPP extension notice (filing [3]), constitutes a cluster of capital-related announcements from the same issuer on the same day — the combined signal strongly implies a fundraising process is either underway or has just been restructured, which is net bearish for near-term price given the stock's deeply distressed state."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.002,
+        "volume_trend_ratio": 0.29,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 255,
+        "liquid": false,
+        "pct_from_3m_high": -50.0,
+        "pct_from_3m_low": 33.33,
+        "pct_from_52w_high": -71.43,
+        "pct_from_52w_low": 33.33,
+        "range_position_3m": 0.2,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.29x its average",
+          "71.43% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$255/day",
+        "reading": [
+          "Going into this, MRQ traded only 0.29x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 50.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$255 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "MRQ",
+      "company": "MRG METALS LIMITED",
+      "headline": "Investor Webinar and Share Purchase Plan Extension",
+      "time": "2026-09-15T03:08:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135628-3A701780",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Share Purchase Plan extension combined with an investor webinar signals that the current SPP has not attracted sufficient participation at the original deadline — an extension is typically a distress indicator for the capital raise, not a positive signal.",
+        "At 71.43% below its 12-month high and with median daily turnover of A$255, MRQ is one of the most illiquid stocks on the exchange; volume ratios are essentially meaningless at this liquidity level, but the stock's de-rating context means any SPP shortfall implies weak investor confidence in the company's near-term prospects.",
+        "Applying lesson L010: the investor webinar component functions as awareness-building marketing ahead of a capital raise — in a deeply distressed, pre-revenue context, this combination of SPP extension plus webinar is dilutive in intent and bearish in implication, consistent with management actively marketing stock to prevent a failed raise."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.002,
+        "volume_trend_ratio": 0.29,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 255,
+        "liquid": false,
+        "pct_from_3m_high": -50.0,
+        "pct_from_3m_low": 33.33,
+        "pct_from_52w_high": -71.43,
+        "pct_from_52w_low": 33.33,
+        "range_position_3m": 0.2,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.29x its average",
+          "71.43% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$255/day",
+        "reading": [
+          "Going into this, MRQ traded only 0.29x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 50.0% below the high of that period.",
+          "Treat all of that with care: it trades about A$255 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "TNY",
+      "company": "TINYBEANS GROUP LTD",
+      "headline": "Notice under ASX LR 3.13.1",
+      "time": "2026-09-15T03:07:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135627-2A1697219",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "ASX Listing Rule 3.13.1 notices relate to shareholder approval thresholds for securities issuance — this is a compliance filing confirming the company is seeking or has sought shareholder authority to issue securities, typically in connection with a capital raise or incentive scheme.",
+        "TNY is 65.62% below its 12-month high with median daily turnover of effectively A$0 — an essentially non-tradeable stock where any securities issuance authority is a material dilution risk in a market with no buyer depth to absorb new shares.",
+        "No substantive financial or operational information is contained in this filing; however, the LR 3.13.1 context means investors should monitor for a subsequent placement or entitlement offer announcement, which would be the bearish event this filing is likely a precursor to."
+      ],
+      "tags": [
+        "Compliance",
+        "Capital Raise",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.055,
+        "volume_trend_ratio": 1.11,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -32.93,
+        "pct_from_3m_low": 1.85,
+        "pct_from_52w_high": -65.62,
+        "pct_from_52w_low": 1.85,
+        "range_position_3m": 0.036,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "65.62% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 32.93% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RNT",
+      "company": "RENT.COM.AU LIMITED",
+      "headline": "Advice of AGM Date and Director Nominations Deadline",
+      "time": "2026-09-15T03:07:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135626-6A1343849",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM date and director nominations deadline notice is purely procedural — it sets the calendar for routine annual governance but discloses no financial results, strategic updates, or operational developments.",
+        "No price action data is provided for RNT, so no tape-based inference is appropriate; the filing should be assessed solely on its content, which is administrative.",
+        "The only forward-looking signal worth monitoring is whether any contested director nominations emerge before the deadline — board composition changes at a small-cap property-adjacent tech company can occasionally carry strategic signalling value, but absent any indication of that, this is a neutral housekeeping item."
+      ],
+      "tags": [
+        "AGM",
+        "Compliance",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.063,
+        "volume_trend_ratio": 1.17,
+        "volume_last_ratio": 0.66,
+        "avg_turnover_aud": 15846,
+        "liquid": false,
+        "pct_from_3m_high": -18.18,
+        "pct_from_3m_low": 1.61,
+        "pct_from_52w_high": -18.18,
+        "pct_from_52w_low": 70.27,
+        "range_position_3m": 0.067,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$15,846/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 18.18% below the high of that period.",
+          "Treat all of that with care: it trades about A$15,846 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCG",
+      "company": "PENGANA CAPITAL GROUP LIMITED",
+      "headline": "Update - Notification of buy-back - PCG",
+      "time": "2026-09-15T02:45:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135625-2A1697218",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A buyback notification update is broadly positive in signal — it confirms that PCG's board continues to view its own stock as undervalued and is actively deploying capital to support the share price, which is a form of earnings-per-unit accretion.",
+        "However, with 5-day volume at 0.2x average and median daily turnover of approximately A$361, PCG is extremely thinly traded; volume ratios at this liquidity level are essentially noise, and the practical impact of any buyback on price discovery in a market this thin is limited — the signal is more psychological than structural.",
+        "For a funds management group like Pengana, ongoing buyback activity can also signal management's confidence in FUM stability, but investors should verify whether the buyback volume is material relative to free float before reading this as a strong bullish catalyst."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.695,
+        "volume_trend_ratio": 0.2,
+        "volume_last_ratio": 0.44,
+        "avg_turnover_aud": 361,
+        "liquid": false,
+        "pct_from_3m_high": -31.19,
+        "pct_from_3m_low": 6.92,
+        "pct_from_52w_high": -31.19,
+        "pct_from_52w_low": 6.92,
+        "range_position_3m": 0.125,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.2x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$361/day",
+        "reading": [
+          "Going into this, PCG traded only 0.2x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 31.19% below the high of that period.",
+          "Treat all of that with care: it trades about A$361 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Daily Net Tangible Asset Statement",
+      "time": "2026-09-15T02:45:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135624-2A1697217",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A daily NTA statement is routine reporting required of listed investment trusts — it discloses the trust's per-unit net asset value as of the prior day and has no strategic or earnings content beyond confirming the NTA figure.",
+        "The stock is at a 3-month high, which means the tape is already reflecting positive sentiment toward PCI — likely driven by credit market conditions or distribution expectations; the NTA filing itself does not generate the price strength but may confirm whether units are trading at a premium or discount to NTA, which is the key metric to watch.",
+        "Investors should compare the disclosed NTA against the current market price: if units are trading at a premium to NTA at a 3-month high, that is a valuation caution signal; if still at a discount, the high is justified by fundamental catch-up rather than speculative excess."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 253,
+        "last_close": 1.105,
+        "volume_trend_ratio": 1.02,
+        "volume_last_ratio": 0.72,
+        "avg_turnover_aud": 782632,
+        "liquid": true,
+        "pct_from_3m_high": -0.45,
+        "pct_from_3m_low": 2.79,
+        "pct_from_52w_high": -11.6,
+        "pct_from_52w_low": 8.87,
+        "range_position_3m": 0.857,
+        "at_3m_high": true,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LDX",
+      "company": "LUMOS DIAGNOSTICS HOLDINGS LIMITED",
+      "headline": "Section 708A Cleansing Statement",
+      "time": "2026-09-15T02:38:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135623-2A1697216",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A Section 708A cleansing statement is filed after a placement to confirm that placed shares may be on-sold without a disclosure document — it is conclusive evidence that a capital raise (placement) has just been completed and new shares are being freed up for secondary market trading.",
+        "Applying lesson L003: this filing alongside the simultaneous 'Application for quotation of securities' notice ([9]) is a textbook dual-filing cluster signalling a completed placement; the so-what is dilution — existing shareholders have been diluted, and incoming placed stock creates near-term selling pressure as placees who received a discounted price begin to trade.",
+        "LDX is 69.7% below its 12-month high with 5-day volume running at 1.56x its 20-day average — elevated volume into a deeply de-rated stock is consistent with placement-related trading activity rather than organic buying interest; the combination of steep discount to 12-month high, elevated volume, and confirmed capital raise skews bearish for near-term price as the new register absorbs."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.1,
+        "volume_trend_ratio": 1.56,
+        "volume_last_ratio": 1.02,
+        "avg_turnover_aud": 91858,
+        "liquid": true,
+        "pct_from_3m_high": -25.93,
+        "pct_from_3m_low": 31.58,
+        "pct_from_52w_high": -69.7,
+        "pct_from_52w_low": 31.58,
+        "range_position_3m": 0.407,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.56x its 20-day average",
+          "69.7% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, LDX traded 1.56x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 25.93% below the high of that period."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LDX",
+      "company": "LUMOS DIAGNOSTICS HOLDINGS LIMITED",
+      "headline": "Application for quotation of securities - LDX",
+      "time": "2026-09-15T02:37:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135622-2A1697215",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An application for quotation of newly issued securities confirms that placement shares are being listed and will shortly be tradeable — this is the final step in a completed capital raise and represents the moment at which dilution becomes fully visible in the share count.",
+        "Paired with the Section 708A filing ([8]), this dual announcement cluster leaves no ambiguity: a placement has closed, shares are being listed, and the register is now larger — in a stock already 69.7% below its 12-month high, the incremental dilution adds to existing structural weakness.",
+        "With 5-day volume at 1.56x the 20-day average on a deeply distressed stock, elevated turnover is most plausibly explained by placement-related activity; as quoted shares enter the market, near-term price bias is bearish until the overhang is absorbed, particularly given LDX's illiquid baseline and the absence of a concurrent positive operational announcement to offset the dilution narrative."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Compliance",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.1,
+        "volume_trend_ratio": 1.56,
+        "volume_last_ratio": 1.02,
+        "avg_turnover_aud": 91858,
+        "liquid": true,
+        "pct_from_3m_high": -25.93,
+        "pct_from_3m_low": 31.58,
+        "pct_from_52w_high": -69.7,
+        "pct_from_52w_low": 31.58,
+        "range_position_3m": 0.407,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.56x its 20-day average",
+          "69.7% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, LDX traded 1.56x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the middle part of its 3-month range, 25.93% below the high of that period."
+        ]
+      },
+      "sentiment": "bearish"
+    },
     {
       "ticker": "RCA",
       "company": "RESOLUTION CAP GLOBAL PROP SEC FUND - ACTIVE ETF",
