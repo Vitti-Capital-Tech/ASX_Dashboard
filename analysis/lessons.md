@@ -5,7 +5,7 @@ close by `reflect.py` and read back to it the next morning. This is a ledger, no
 a rolling window — nothing here is ever deleted.
 
 - Last reflection: 2026-09-15
-- 11 active, 7 candidate, 0 dormant
+- 17 active, 5 candidate, 0 dormant
 
 A lesson enters as a **candidate** and stays out of the daily prompt until the same
 blind spot turns up on 2 separate days, because one occurrence cannot be told
@@ -133,6 +133,18 @@ _Seen 3×. First written 2026-09-14, last reinforced 2026-09-15._
 | 2026-09-14 | CEL | neutral | -7.1% | Investor Presentation |
 | 2026-09-14 | CEL | neutral | -7.1% | Investor Presentation |
 
+### L011 — Cleansing notice filed by a company at or near a multi-month high, stock extremely illiquid (median daily turnover <A$100/day)
+
+A cleansing notice confirms a prior exempt offer has completed and new shares are now freely tradeable — treat this as a dilution-confirmation event, not a neutral administrative filing. When the stock is at a local high and liquidity is near-zero, the incoming free float of newly placeable shares into a thin market is a material bearish overhang; lean bearish rather than neutral.
+
+_Seen 3×. First written 2026-09-14, last reinforced 2026-09-15._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-15 | KAL | bearish | +10.9% | Investor Presentation |
+| 2026-09-15 | KAL | bearish | +10.9% | Cleansing Statement |
+| 2026-09-14 | C7A | neutral | -25.1% | Cleansing Notice |
+
 ### L008 — Early-stage geophysical survey commencement announcement (airborne magnetic, gravity, CSAMT etc.) on an illiquid junior explorer at or near a multi-month high, not flagged market sensitive
 
 A survey commencement is a programme-activity statement with no data content — it tells the market only that fieldwork has started, which is often already anticipated after prior announcements. Treat as neutral-to-bearish when the stock is already at a local high, because speculative positioning built ahead of the announcement has no new result to feed on and is vulnerable to unwind.
@@ -144,16 +156,71 @@ _Seen 2×. First written 2026-09-14, last reinforced 2026-09-14._
 | 2026-09-14 | LCL | neutral | -12.6% | Airborne magnetic survey to commence in PNG |
 | 2026-09-14 | LCL | neutral | -12.6% | Airborne magnetic survey to commence in PNG |
 
-### L011 — Cleansing notice filed by a company at or near a multi-month high, stock extremely illiquid (median daily turnover <A$100/day)
+### L013 — Completion-of-survey announcement (soil geochemistry, geophysical, mapping) at a junior explorer where no prior price action data is available, filing not flagged market sensitive
 
-A cleansing notice confirms a prior exempt offer has completed and new shares are now freely tradeable — treat this as a dilution-confirmation event, not a neutral administrative filing. When the stock is at a local high and liquidity is near-zero, the incoming free float of newly placeable shares into a thin market is a material bearish overhang; lean bearish rather than neutral.
+A survey-completion filing is subtly different from a survey-commencement filing: completion means results are now in hand and will be interpreted shortly, which can itself be a near-term catalyst signal. Without price action data to judge positioning, do not default to neutral on completion — the absence of tape data removes the key bearish argument (extended positioning vulnerable to unwind) that makes commencement announcements neutral; lean neutral-to-bullish when completion implies imminent result publication.
 
-_Seen 2×. First written 2026-09-14, last reinforced 2026-09-15._
+_Seen 2×. First written 2026-09-15, last reinforced 2026-09-15._
 
 | Date | Ticker | Called | Move | Headline |
 | --- | --- | --- | ---: | --- |
-| 2026-09-15 | KAL | bearish | +10.9% | Cleansing Statement |
-| 2026-09-14 | C7A | neutral | -25.1% | Cleansing Notice |
+| 2026-09-15 | SLB | neutral | +26.4% | Maiden Soil Geochemical Survey Completed at HoL Updated |
+| 2026-09-15 | SLB | neutral | +26.4% | Maiden Soil Geochemical Survey Completed at HoL Updated |
+
+### L014 — Market-sensitive 'development pathway' or strategic-progress announcement on a junior at a 12-month low with near-zero median daily turnover, where volume has spiked sharply in relative terms
+
+When median daily turnover is near zero and relative volume spikes materially (e.g. 3x), even a small number of absolute trades can represent genuine accumulation by an informed party — do not dismiss the volume signal as noise purely because the base is tiny. On a market-sensitive filing at a 12-month low, a relative volume spike of this magnitude combined with a strategic-progress headline should shift the call to bullish rather than neutral, because the marginal buyer is likely informed and the downside is already largely priced.
+
+_Seen 2×. First written 2026-09-15, last reinforced 2026-09-15._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-15 | PNT | neutral | +20.9% | Panther Advances Laverton Gold Development Pathway |
+| 2026-09-15 | PNT | neutral | +20.9% | Panther Advances Laverton Gold Development Pathway |
+
+### L015 — Investor presentation filed simultaneously with a capital raise announcement by a small-cap or micro-cap, where the presentation is the marketing document for the raise
+
+When a presentation is explicitly the collateral for a concurrent capital raise (identifiable via same-day L003 cluster), it is not a neutral awareness filing — it is confirmation that dilution is in progress and the stock will be re-priced at the placement price. Call bearish, not neutral, when the presentation serves the raise rather than standing alone as an operational update.
+
+_Seen 2×. First written 2026-09-15, last reinforced 2026-09-15._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-15 | DWG | neutral | -15.8% | Presentation-Gov Reg Infrastructure. Built for Global Scale |
+| 2026-09-15 | DWG | neutral | -15.8% | Presentation-Gov Reg Infrastructure. Built for Global Scale |
+
+### L016 — Proposed issue of securities filed as part of a strategic cornerstone placement to a named, well-resourced industry participant (e.g. major miner, sovereign fund, large institution) rather than a generic placement to anonymous investors
+
+A placement to a named strategic counterparty with disclosed due-diligence credentials is qualitatively different from a retail or generic institutional placement — it sets a credible reference valuation and signals informed buyer conviction. Default to bullish rather than neutral when the incoming holder is a credible strategic name, even when the filing itself is procedural, because the identity of the placee is the material fact.
+
+_Seen 2×. First written 2026-09-15, last reinforced 2026-09-15._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-15 | WCN | neutral | +12.7% | Proposed issue of securities - WCN |
+| 2026-09-15 | WCN | neutral | +12.7% | Proposed issue of securities - WCN |
+
+### L017 — Cessation of securities (options lapsing unexercised or performance rights forfeited) at a deeply de-rated micro-cap, filed in isolation with no companion capital raise filing on the same day
+
+Options lapsing unexercised at a distressed micro-cap can be read as a positive register-cleaning event — it removes a future dilution overhang without any immediate cash outflow, which on a stock already severely de-rated can be modestly constructive. Do not call bearish on cessation alone; absent a companion raise filing, default to neutral rather than bearish, and consider neutral-to-bullish when the cessation removes a meaningful dilution overhang.
+
+_Seen 2×. First written 2026-09-15, last reinforced 2026-09-15._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-15 | GCM | bearish | +10.9% | Notification of cessation of securities - GCM |
+| 2026-09-15 | GCM | bearish | +10.9% | Notification of cessation of securities - GCM |
+
+### L018 — Gold assay results described as 'extending' mineralisation (rather than upgrading grade or defining resource boundaries) at an explorer 60%+ below its 12-month high, with volume running materially above average into the announcement
+
+When volume is elevated ahead of assay results at a deeply de-rated explorer, the market has already partially priced the news — an 'extension' result (which adds strike length but not necessarily grade or resource quantum) is structurally weaker than a resource-upgrade result and is vulnerable to a sell-the-news reaction into the pre-positioned volume. Call bearish rather than neutral on extension-only assay announcements into elevated volume at stocks with severe prior de-ratings.
+
+_Seen 2×. First written 2026-09-15, last reinforced 2026-09-15._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-15 | RML | neutral | -8.9% | Latest Gold Assays Extend Golden Gate Mineralisation |
+| 2026-09-15 | RML | neutral | -8.9% | Latest Gold Assays Extend Golden Gate Mineralisation |
 
 ## Candidates
 
@@ -169,65 +236,45 @@ _Seen 1×. First written 2026-09-14, last reinforced 2026-09-14._
 | --- | --- | --- | ---: | --- |
 | 2026-09-14 | RGL | neutral | -8.4% | Haul Road Agreement Delivers Win for RGL's Kal Gold Project |
 
-### L013 — Completion-of-survey announcement (soil geochemistry, geophysical, mapping) at a junior explorer where no prior price action data is available, filing not flagged market sensitive
+### L019 — Announcement packaging multiple simultaneous high-conviction catalysts (e.g. resource drilling + scoping study + JV buyout in a single headline) at a junior explorer or developer, with no price action data available
 
-A survey-completion filing is subtly different from a survey-commencement filing: completion means results are now in hand and will be interpreted shortly, which can itself be a near-term catalyst signal. Without price action data to judge positioning, do not default to neutral on completion — the absence of tape data removes the key bearish argument (extended positioning vulnerable to unwind) that makes commencement announcements neutral; lean neutral-to-bullish when completion implies imminent result publication.
-
-_Seen 1×. First written 2026-09-15, last reinforced 2026-09-15._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-09-15 | SLB | neutral | +26.4% | Maiden Soil Geochemical Survey Completed at HoL Updated |
-
-### L014 — Market-sensitive 'development pathway' or strategic-progress announcement on a junior at a 12-month low with near-zero median daily turnover, where volume has spiked sharply in relative terms
-
-When median daily turnover is near zero and relative volume spikes materially (e.g. 3x), even a small number of absolute trades can represent genuine accumulation by an informed party — do not dismiss the volume signal as noise purely because the base is tiny. On a market-sensitive filing at a 12-month low, a relative volume spike of this magnitude combined with a strategic-progress headline should shift the call to bullish rather than neutral, because the marginal buyer is likely informed and the downside is already largely priced.
+When three or more distinct value-creating events are announced simultaneously, ask whether the packaging itself signals execution risk or financial pressure — a company announcing a JV buyout, scoping study, and active drilling in one release may be doing so because it needs to justify a concurrent capital raise or shore up investor confidence ahead of a funding shortfall. Check for a same-day capital raise filing before calling bullish; if a raise is present or the announcement reads as a 'kitchen sink' designed to support a valuation pitch, downgrade to neutral.
 
 _Seen 1×. First written 2026-09-15, last reinforced 2026-09-15._
 
 | Date | Ticker | Called | Move | Headline |
 | --- | --- | --- | ---: | --- |
-| 2026-09-15 | PNT | neutral | +20.9% | Panther Advances Laverton Gold Development Pathway |
+| 2026-09-15 | EMC | bullish | -11.6% | Resource Drilling, Scoping Study, JV Buyout at Revere Gold |
 
-### L015 — Investor presentation filed simultaneously with a capital raise announcement by a small-cap or micro-cap, where the presentation is the marketing document for the raise
+### L020 — Cleansing statement filed by a junior at a 12-month low, accompanied on the same day by an investor presentation (identifiable via same-day filing cluster)
 
-When a presentation is explicitly the collateral for a concurrent capital raise (identifiable via same-day L003 cluster), it is not a neutral awareness filing — it is confirmation that dilution is in progress and the stock will be re-priced at the placement price. Call bearish, not neutral, when the presentation serves the raise rather than standing alone as an operational update.
-
-_Seen 1×. First written 2026-09-15, last reinforced 2026-09-15._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-09-15 | DWG | neutral | -15.8% | Presentation-Gov Reg Infrastructure. Built for Global Scale |
-
-### L016 — Proposed issue of securities filed as part of a strategic cornerstone placement to a named, well-resourced industry participant (e.g. major miner, sovereign fund, large institution) rather than a generic placement to anonymous investors
-
-A placement to a named strategic counterparty with disclosed due-diligence credentials is qualitatively different from a retail or generic institutional placement — it sets a credible reference valuation and signals informed buyer conviction. Default to bullish rather than neutral when the incoming holder is a credible strategic name, even when the filing itself is procedural, because the identity of the placee is the material fact.
+When a cleansing statement and an investor presentation are filed together at a 12-month low, the presentation may be the use-of-proceeds marketing document for the just-completed raise rather than a pre-raise awareness filing — meaning fresh capital has arrived with a stated deployment plan. Ask whether the raise proceeds create a funded runway that removes the near-term going-concern risk; if so, the cleansing statement signals dilution already absorbed and a funded catalyst pipeline, which is neutral-to-bullish rather than bearish. Do not apply L011 in isolation when a companion presentation discloses a credible use of proceeds.
 
 _Seen 1×. First written 2026-09-15, last reinforced 2026-09-15._
 
 | Date | Ticker | Called | Move | Headline |
 | --- | --- | --- | ---: | --- |
-| 2026-09-15 | WCN | neutral | +12.7% | Proposed issue of securities - WCN |
+| 2026-09-15 | KAL | bearish | +10.9% | Cleansing Statement |
 
-### L017 — Cessation of securities (options lapsing unexercised or performance rights forfeited) at a deeply de-rated micro-cap, filed in isolation with no companion capital raise filing on the same day
+### L021 — Government or official-body selection of a junior's project for a named investment summit, trade mission, or critical minerals programme (not flagged market sensitive), stock 40-60% below 12-month high
 
-Options lapsing unexercised at a distressed micro-cap can be read as a positive register-cleaning event — it removes a future dilution overhang without any immediate cash outflow, which on a stock already severely de-rated can be modestly constructive. Do not call bearish on cessation alone; absent a companion raise filing, default to neutral rather than bearish, and consider neutral-to-bullish when the cessation removes a meaningful dilution overhang.
-
-_Seen 1×. First written 2026-09-15, last reinforced 2026-09-15._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-09-15 | GCM | bearish | +10.9% | Notification of cessation of securities - GCM |
-
-### L018 — Gold assay results described as 'extending' mineralisation (rather than upgrading grade or defining resource boundaries) at an explorer 60%+ below its 12-month high, with volume running materially above average into the announcement
-
-When volume is elevated ahead of assay results at a deeply de-rated explorer, the market has already partially priced the news — an 'extension' result (which adds strike length but not necessarily grade or resource quantum) is structurally weaker than a resource-upgrade result and is vulnerable to a sell-the-news reaction into the pre-positioned volume. Call bearish rather than neutral on extension-only assay announcements into elevated volume at stocks with severe prior de-ratings.
+Selection by a government or multilateral body for a named investment summit is not purely promotional — it is an implicit third-party endorsement of the project's strategic credibility within a national or supranational critical minerals agenda, which can function as a near-term re-rating catalyst independent of any technical result. Do not apply L010 (pre-raise awareness marketing) to government-selection announcements; instead lean neutral-to-bullish when the selecting body is credible, the project is in a jurisdiction with active critical minerals policy, and the stock is materially de-rated.
 
 _Seen 1×. First written 2026-09-15, last reinforced 2026-09-15._
 
 | Date | Ticker | Called | Move | Headline |
 | --- | --- | --- | ---: | --- |
-| 2026-09-15 | RML | neutral | -8.9% | Latest Gold Assays Extend Golden Gate Mineralisation |
+| 2026-09-15 | PL9 | neutral | +10.0% | Prairie Project Selected for Canada Investment Summit |
+
+### L022 — Permit submission (bulk sampling, exploration, environmental) announced as market sensitive by a junior explorer 40-60% below its 12-month high, with no prior permit submission flagged
+
+A maiden permit submission flagged as market sensitive signals that management and their legal advisers regard the regulatory gate as a material project milestone, not a routine step — the market-sensitive designation is the key qualifier that distinguishes this from a generic activity statement. Do not default to neutral purely because no data has been returned; lean neutral-to-bullish when the permit is the first of its kind for the project, the stock is materially de-rated, and the market-sensitive flag is present, because approval opens the next operational phase and the flag indicates the company believes the market does not have this priced.
+
+_Seen 1×. First written 2026-09-15, last reinforced 2026-09-15._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-15 | OD6 | neutral | +10.0% | MAIDEN QUINN DRILLING BULK SAMLPLING PERMIT SUBMITTED |
 
 ## Dormant
 
