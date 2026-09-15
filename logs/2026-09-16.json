@@ -1,9 +1,146 @@
 {
   "date": "2026-09-16",
-  "total": 176,
+  "total": 179,
   "market_sensitive_count": 45,
-  "generated_at": "2026-09-15T23:26:06.480568+00:00",
+  "generated_at": "2026-09-15T23:32:29.043682+00:00",
   "announcements": [
+    {
+      "ticker": "FLG",
+      "company": "FLAGSHIP MINERALS LIMITED",
+      "headline": "Corporate Presentation",
+      "time": "2026-09-15T23:28:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135961-6A1343986",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Lesson L010 applies directly: a generic 'Corporate Presentation' filing from a junior explorer, not flagged market sensitive and with no specific catalyst named in the headline, is the classic pre-raise awareness play — the most likely read is that management is actively marketing stock to prospective investors, which implies pending dilution rather than value creation.",
+        "Tape context is largely uninformative here — the stock is thinly traded at roughly A$20,676 median daily turnover, and the 5-day volume running at 0.48x average means volume is actually subdued, removing any accumulation signal; there is no elevated buying pressure to suggest an informed bid ahead of a substantive announcement.",
+        "Without a named catalyst (resource estimate, drilling result, binding term sheet) disclosed in the headline, institutional investors should treat this filing as noise at best and a dilution flag at worst — no actionable thesis change until a substantive filing accompanies or follows the presentation."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.185,
+        "volume_trend_ratio": 0.48,
+        "volume_last_ratio": 0.14,
+        "avg_turnover_aud": 20676,
+        "liquid": false,
+        "pct_from_3m_high": -22.92,
+        "pct_from_3m_low": 34.55,
+        "pct_from_52w_high": -43.94,
+        "pct_from_52w_low": 117.65,
+        "range_position_3m": 0.463,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.48x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$20,676/day",
+        "reading": [
+          "Going into this, FLG traded only 0.48x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the middle part of its 3-month range, 22.92% below the high of that period.",
+          "Treat all of that with care: it trades about A$20,676 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GMG",
+      "company": "GOODMAN GROUP",
+      "headline": "Goodman Group dispatch of 2026 Annual Report & AGM key dates",
+      "time": "2026-09-15T23:27:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135960-2A1697361",
+      "market_sensitive": false,
+      "document_type": "Annual Report",
+      "summary": [
+        "The dispatch of an Annual Report combined with AGM key dates is a purely administrative, calendar-driven filing — it carries no new financial data, no operational update, and no change to guidance; there is zero information content that could re-price the stock directionally.",
+        "Context matters here: GMG is sitting at a 3-month low into this filing, which means any residual selling pressure is from prior news flow (macro rate sensitivity given Goodman's data-centre and logistics property exposure), not from this document — the filing neither exacerbates nor relieves that weakness.",
+        "Institutional focus should remain on the AGM itself and any accompanying Chairman/CEO address, which may contain updated earnings or development pipeline commentary; until those dates arrive and statements are released, this filing is a scheduling notice only."
+      ],
+      "tags": [
+        "AGM",
+        "Property"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 26.04,
+        "volume_trend_ratio": 0.78,
+        "volume_last_ratio": 1.11,
+        "avg_turnover_aud": 106392493,
+        "liquid": true,
+        "pct_from_3m_high": -20.34,
+        "pct_from_3m_low": 0.23,
+        "pct_from_52w_high": -25.13,
+        "pct_from_52w_low": 6.03,
+        "range_position_3m": 0.009,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SNX",
+      "company": "SIERRA NEVADA GOLD INC.",
+      "headline": "Corporate Presentation",
+      "time": "2026-09-15T23:26:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135959-3A701861",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Lesson L010 applies: a 'Corporate Presentation' from Sierra Nevada Gold, not flagged market sensitive and with no specific catalyst named — no assay results, no resource update, no funding announcement — defaults to an awareness/marketing document, most commonly filed ahead of or during a capital raise process.",
+        "No price action data is available for SNX, which removes the ability to assess whether the tape is extended or beaten down; without that context, the filing must stand entirely on its own content, and a headline-only corporate presentation with no disclosed substance cannot support a bullish call under current analytical discipline.",
+        "Gold sector sentiment may provide some ambient support, but a generic presentation filing without market-sensitive designation is insufficient to generate a directional thesis — investors should await a substantive operational or financial update before taking a position based on this document alone."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 255,
+        "last_close": 0.115,
+        "volume_trend_ratio": 1.2,
+        "volume_last_ratio": 1.04,
+        "avg_turnover_aud": 261304,
+        "liquid": true,
+        "pct_from_3m_high": -20.69,
+        "pct_from_3m_low": 85.48,
+        "pct_from_52w_high": -20.69,
+        "pct_from_52w_low": 379.17,
+        "range_position_3m": 0.639,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the middle part of its 3-month range, 20.69% below the high of that period."
+        ]
+      },
+      "sentiment": "bearish"
+    },
     {
       "ticker": "MRR",
       "company": "MINREX RESOURCES LIMITED",
