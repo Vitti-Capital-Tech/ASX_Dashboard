@@ -1,9 +1,285 @@
 {
   "date": "2026-09-15",
-  "total": 225,
-  "market_sensitive_count": 67,
-  "generated_at": "2026-09-14T23:54:00.169708+00:00",
+  "total": 231,
+  "market_sensitive_count": 68,
+  "generated_at": "2026-09-15T00:00:28.766070+00:00",
   "announcements": [
+    {
+      "ticker": "SNT",
+      "company": "SYNTARA LIMITED",
+      "headline": "Notification of 2026 AGM Date",
+      "time": "2026-09-14T23:58:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135579-2A1697188",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "Setting the 2026 AGM date is a purely administrative filing with no financial, strategic, or operational content — it satisfies listing rule disclosure obligations and nothing more.",
+        "The absence of a market-sensitive flag is appropriate and expected; there is no earnings update, capital raise signal, or board change embedded in this notice, so it carries no valuation read-through for Syntara's clinical pipeline or cash position.",
+        "Investors should treat this as a calendar-setting event only — the AGM itself may carry significance if resolutions include capital issuance authorities or board renewal, but those details are not yet disclosed and should be monitored when the formal notice of meeting is released."
+      ],
+      "tags": [
+        "AGM",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.024,
+        "volume_trend_ratio": 0.67,
+        "volume_last_ratio": 0.31,
+        "avg_turnover_aud": 19801,
+        "liquid": false,
+        "pct_from_3m_high": -31.43,
+        "pct_from_3m_low": 26.32,
+        "pct_from_52w_high": -40.0,
+        "pct_from_52w_low": 26.32,
+        "range_position_3m": 0.313,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$19,801/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 31.43% below the high of that period.",
+          "Treat all of that with care: it trades about A$19,801 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GDR",
+      "company": "GOLDEN DRAGON MINING LTD",
+      "headline": "Change of Director's Interest Notice",
+      "time": "2026-09-14T23:57:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135578-3A701769",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Director's Interest Notice at GDR is procedurally routine, but the price action context warrants careful reading: volume has run at 1.66x the 20-day average over the last five sessions — however, with median daily turnover of only ~A$2,912, this ratio is near-meaningless in absolute terms and should not be read as informed institutional positioning.",
+        "The critical question per lesson L001 is the direction of the change — if a director is reducing their holding into this elevated (if thin) volume, that is a bearish signal; if increasing, it is modestly constructive; the filing must be read for direction before any sentiment can be assigned, and without confirmation of an increase, caution is warranted.",
+        "At this level of illiquidity, any directional move implied by the filing can be amplified disproportionately by small order flow — institutional investors should treat the volume ratio as noise and focus solely on whether the director is buying or selling and at what price relative to recent trading levels."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 222,
+        "last_close": 0.185,
+        "volume_trend_ratio": 1.66,
+        "volume_last_ratio": 0.85,
+        "avg_turnover_aud": 2912,
+        "liquid": false,
+        "pct_from_3m_high": -5.13,
+        "pct_from_3m_low": 23.33,
+        "pct_from_52w_high": -21.28,
+        "pct_from_52w_low": 27.59,
+        "range_position_3m": 0.778,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions ran 1.66x its 20-day average"
+        ],
+        "caveat": "thinly traded, median turnover about A$2,912/day",
+        "reading": [
+          "Going into this, GDR traded 1.66x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close, before this announcement was public.",
+          "The price sat in the upper part of its 3-month range, 5.13% below the high of that period.",
+          "Treat all of that with care: it trades about A$2,912 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DCC",
+      "company": "DIGITALX LIMITED",
+      "headline": "Update - Notification of buy-back - DCC",
+      "time": "2026-09-14T23:56:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135577-6A1343836",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A buyback update from DigitalX is nominally shareholder-friendly — returning capital signals management confidence in the stock — but at 58.33% below its 12-month high, the market has materially de-rated DCC, raising the question of whether the buyback is genuinely accretive or a capital allocation signal that competes with operational reinvestment needs in a cash-constrained environment.",
+        "The filing is not flagged market-sensitive and is classified as an update rather than an initiation, suggesting this is a progress notification on an existing programme rather than a new buyback announcement; the incremental information content is therefore limited, and the stock's deeply distressed tape suggests the buyback volume has not been sufficient to provide meaningful price support.",
+        "With median daily turnover of ~A$35,787 and the stock more than 58% off its high, any buyback quantum is likely modest relative to the de-rating — investors should assess the remaining buyback capacity, the pace of purchases disclosed, and whether the programme is nearing exhaustion, as conclusion of the buyback removes even this marginal demand support."
+      ],
+      "tags": [
+        "Finance",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.03,
+        "volume_trend_ratio": 1.03,
+        "volume_last_ratio": 2.65,
+        "avg_turnover_aud": 35787,
+        "liquid": false,
+        "pct_from_3m_high": -11.76,
+        "pct_from_3m_low": 36.36,
+        "pct_from_52w_high": -58.33,
+        "pct_from_52w_low": 36.36,
+        "range_position_3m": 0.667,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "58.33% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$35,787/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 11.76% below the high of that period.",
+          "Treat all of that with care: it trades about A$35,787 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LNW",
+      "company": "LIGHT & WONDER INC.",
+      "headline": "Change of Director's Interest Notice (Hamish McLennan)",
+      "time": "2026-09-14T23:52:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135576-3A701768",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A Director's Interest Notice for Hamish McLennan at Light & Wonder is a standard administrative disclosure — the absence of a market-sensitive flag and the routine document type indicate this is a procedural update to the register rather than a signal of strategic change.",
+        "Volume context is notable in the opposite direction: the last five sessions saw turnover at only 0.41x the 20-day average, indicating unusually thin activity into this filing — there is no evidence of pre-announcement positioning and the quiet tape reduces the probability that this reflects anything market-moving.",
+        "The key read-through is directional: if McLennan — as a senior board figure — is materially increasing his holding, that is a mild constructive signal for a large-cap gaming and technology operator; if reducing, it warrants monitoring; but the low-volume context and non-sensitive flag together argue for treating this as procedural until the quantum and direction are confirmed as material."
+      ],
+      "tags": [
+        "Board Change",
+        "Technology"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 122.98,
+        "volume_trend_ratio": 0.41,
+        "volume_last_ratio": 0.49,
+        "avg_turnover_aud": 15841318,
+        "liquid": true,
+        "pct_from_3m_high": -11.62,
+        "pct_from_3m_low": 20.84,
+        "pct_from_52w_high": -36.28,
+        "pct_from_52w_low": 27.06,
+        "range_position_3m": 0.567,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.41x its average"
+        ],
+        "caveat": null,
+        "reading": [
+          "Going into this, LNW traded only 0.41x its usual daily volume over the last 5 sessions — measured to the 2026-09-14 close.",
+          "The price sat in the middle part of its 3-month range, 11.62% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IBR",
+      "company": "IRON BEAR RESOURCES LTD",
+      "headline": "Completion of Phase 1 Development Agreement",
+      "time": "2026-09-14T23:51:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135575-6A1343833",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Phase 1 completion of a Development Agreement is a concrete milestone — not merely an activity commencement — suggesting IBR has met defined deliverables that likely unlock the next tranche of rights, funding, or operational access under the agreement structure; the market-sensitive flag reinforces material content.",
+        "The critical 'so what?' is what Phase 1 completion triggers: if it unlocks cash payments, JV contributions, or exclusive development rights, that directly de-risks the company's near-term funding position; conversely, if Phase 1 was self-funded with no inbound consideration, the announcement is thinner than the headline implies — detail on consideration and next-phase obligations is essential before sizing the impact.",
+        "Next catalyst to watch is the Phase 2 terms disclosure and any associated funding or partner obligation — completion of Phase 1 resets the clock on Phase 2 milestones, and institutional investors should monitor whether the partner is a named strategic entity with balance sheet capacity to carry subsequent phases."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 0.045,
+        "volume_trend_ratio": 1.22,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 42357,
+        "liquid": false,
+        "pct_from_3m_high": -45.12,
+        "pct_from_3m_low": 2.27,
+        "pct_from_52w_high": -45.12,
+        "pct_from_52w_low": 12.5,
+        "range_position_3m": 0.026,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$42,357/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the lower part of its 3-month range, 45.12% below the high of that period.",
+          "Treat all of that with care: it trades about A$42,357 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MYX",
+      "company": "MAYNE PHARMA GROUP LIMITED",
+      "headline": "MYX signs licence agreement for Blissel in Australia",
+      "time": "2026-09-14T23:50:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03135574-3A701767",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Signing a licence agreement for Blissel — a prescription topical treatment — in Australia represents a commercial-stage deal that adds a revenue-generating asset to Mayne Pharma's portfolio; however, the filing is not flagged market-sensitive, which tempers the implied materiality and suggests the deal is either small in scale or incremental to an existing strategy rather than transformative.",
+        "The stock is 52.92% below its 12-month high, indicating the market has significantly de-rated MYX — new licence agreements can shift sentiment at depressed levels, but lesson L005/L007 logic applies here: a single commercial deal cannot reverse a structural de-rating unless it is accompanied by disclosed revenue scale, upfront payments, or a pathway to material earnings contribution; without those disclosures, the bullish read is capped.",
+        "Next steps to monitor: the commercial terms (milestone payments, royalty rates, launch timeline for Blissel in Australia) and whether this signals a broader in-licensing pipeline rebuild — if Mayne is actively restocking its product portfolio, a pattern of such deals could be a genuine sentiment catalyst; a single undisclosed-quantum licence deal at this stage is insufficient on its own."
+      ],
+      "tags": [
+        "Healthcare",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 254,
+        "last_close": 3.06,
+        "volume_trend_ratio": 1.46,
+        "volume_last_ratio": 0.31,
+        "avg_turnover_aud": 667445,
+        "liquid": true,
+        "pct_from_3m_high": -9.73,
+        "pct_from_3m_low": 33.04,
+        "pct_from_52w_high": -52.92,
+        "pct_from_52w_low": 50.0,
+        "range_position_3m": 0.697,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "52.92% below its 12-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "The price sat in the upper part of its 3-month range, 9.73% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
     {
       "ticker": "GDR",
       "company": "GOLDEN DRAGON MINING LTD",
