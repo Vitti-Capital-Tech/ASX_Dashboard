@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-09-15T17:45:18.659137+10:00",
+  "generated_at": "2026-09-15T18:48:59.126389+10:00",
   "days_scored": 8,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "by_sentiment": {
     "bullish": {
-      "scored": 584,
-      "correct": 239,
+      "scored": 585,
+      "correct": 240,
       "wrong": 142,
       "flat": 203,
-      "hit_rate": 62.7,
-      "avg_abnormal_pct": 1.41
+      "hit_rate": 62.8,
+      "avg_abnormal_pct": 1.42
     },
     "bearish": {
-      "scored": 216,
+      "scored": 223,
       "correct": 80,
       "wrong": 52,
-      "flat": 84,
+      "flat": 91,
       "hit_rate": 60.6,
-      "avg_abnormal_pct": -1.86
+      "avg_abnormal_pct": -1.77
     },
     "neutral": {
-      "scored": 1687,
-      "correct": 799,
+      "scored": 1703,
+      "correct": 815,
       "wrong": 888,
       "flat": 0,
-      "hit_rate": 47.4,
-      "avg_abnormal_pct": 0.05
+      "hit_rate": 47.9,
+      "avg_abnormal_pct": 0.06
     }
   },
-  "spread_pct": 3.27,
-  "directional_hit_rate": 62.2,
-  "directional_scored": 513,
+  "spread_pct": 3.19,
+  "directional_hit_rate": 62.3,
+  "directional_scored": 514,
   "daily": [
     {
       "date": "2026-09-04",
@@ -77,9 +77,9 @@
     },
     {
       "date": "2026-09-15",
-      "hit_rate": 48.2,
-      "scored": 56,
-      "spread_pct": -0.76
+      "hit_rate": 49.1,
+      "scored": 57,
+      "spread_pct": -0.85
     }
   ]
 }

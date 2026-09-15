@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-15T07:47:03.198832+00:00",
-  "next_id": 23,
+  "updated_at": "2026-09-15T08:50:59.741976+00:00",
+  "next_id": 24,
   "lessons": [
     {
       "id": "L001",
@@ -423,8 +423,15 @@
       "rule": "A survey-completion filing is subtly different from a survey-commencement filing: completion means results are now in hand and will be interpreted shortly, which can itself be a near-term catalyst signal. Without price action data to judge positioning, do not default to neutral on completion — the absence of tape data removes the key bearish argument (extended positioning vulnerable to unwind) that makes commencement announcements neutral; lean neutral-to-bullish when completion implies imminent result publication.",
       "created": "2026-09-15",
       "last_seen": "2026-09-15",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-15",
+          "ticker": "SLB",
+          "headline": "Maiden Soil Geochemical Survey Completed at HoL Updated",
+          "called": "neutral",
+          "abnormal_pct": 26.37
+        },
         {
           "date": "2026-09-15",
           "ticker": "SLB",
@@ -447,8 +454,15 @@
       "rule": "When median daily turnover is near zero and relative volume spikes materially (e.g. 3x), even a small number of absolute trades can represent genuine accumulation by an informed party — do not dismiss the volume signal as noise purely because the base is tiny. On a market-sensitive filing at a 12-month low, a relative volume spike of this magnitude combined with a strategic-progress headline should shift the call to bullish rather than neutral, because the marginal buyer is likely informed and the downside is already largely priced.",
       "created": "2026-09-15",
       "last_seen": "2026-09-15",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-15",
+          "ticker": "PNT",
+          "headline": "Panther Advances Laverton Gold Development Pathway",
+          "called": "neutral",
+          "abnormal_pct": 20.88
+        },
         {
           "date": "2026-09-15",
           "ticker": "PNT",
@@ -471,8 +485,15 @@
       "rule": "When a presentation is explicitly the collateral for a concurrent capital raise (identifiable via same-day L003 cluster), it is not a neutral awareness filing — it is confirmation that dilution is in progress and the stock will be re-priced at the placement price. Call bearish, not neutral, when the presentation serves the raise rather than standing alone as an operational update.",
       "created": "2026-09-15",
       "last_seen": "2026-09-15",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-15",
+          "ticker": "DWG",
+          "headline": "Presentation-Gov Reg Infrastructure. Built for Global Scale",
+          "called": "neutral",
+          "abnormal_pct": -15.78
+        },
         {
           "date": "2026-09-15",
           "ticker": "DWG",
@@ -495,8 +516,15 @@
       "rule": "A placement to a named strategic counterparty with disclosed due-diligence credentials is qualitatively different from a retail or generic institutional placement — it sets a credible reference valuation and signals informed buyer conviction. Default to bullish rather than neutral when the incoming holder is a credible strategic name, even when the filing itself is procedural, because the identity of the placee is the material fact.",
       "created": "2026-09-15",
       "last_seen": "2026-09-15",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-15",
+          "ticker": "WCN",
+          "headline": "Proposed issue of securities - WCN",
+          "called": "neutral",
+          "abnormal_pct": 12.65
+        },
         {
           "date": "2026-09-15",
           "ticker": "WCN",
@@ -519,8 +547,15 @@
       "rule": "Options lapsing unexercised at a distressed micro-cap can be read as a positive register-cleaning event — it removes a future dilution overhang without any immediate cash outflow, which on a stock already severely de-rated can be modestly constructive. Do not call bearish on cessation alone; absent a companion raise filing, default to neutral rather than bearish, and consider neutral-to-bullish when the cessation removes a meaningful dilution overhang.",
       "created": "2026-09-15",
       "last_seen": "2026-09-15",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-15",
+          "ticker": "GCM",
+          "headline": "Notification of cessation of securities - GCM",
+          "called": "bearish",
+          "abnormal_pct": 10.88
+        },
         {
           "date": "2026-09-15",
           "ticker": "GCM",
@@ -543,8 +578,15 @@
       "rule": "When volume is elevated ahead of assay results at a deeply de-rated explorer, the market has already partially priced the news — an 'extension' result (which adds strike length but not necessarily grade or resource quantum) is structurally weaker than a resource-upgrade result and is vulnerable to a sell-the-news reaction into the pre-positioned volume. Call bearish rather than neutral on extension-only assay announcements into elevated volume at stocks with severe prior de-ratings.",
       "created": "2026-09-15",
       "last_seen": "2026-09-15",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-15",
+          "ticker": "RML",
+          "headline": "Latest Gold Assays Extend Golden Gate Mineralisation",
+          "called": "neutral",
+          "abnormal_pct": -8.92
+        },
         {
           "date": "2026-09-15",
           "ticker": "RML",
@@ -567,8 +609,15 @@
       "rule": "When three or more distinct value-creating events are announced simultaneously, ask whether the packaging itself signals execution risk or financial pressure — a company announcing a JV buyout, scoping study, and active drilling in one release may be doing so because it needs to justify a concurrent capital raise or shore up investor confidence ahead of a funding shortfall. Check for a same-day capital raise filing before calling bullish; if a raise is present or the announcement reads as a 'kitchen sink' designed to support a valuation pitch, downgrade to neutral.",
       "created": "2026-09-15",
       "last_seen": "2026-09-15",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-09-15",
+          "ticker": "EMC",
+          "headline": "Resource Drilling, Scoping Study, JV Buyout at Revere Gold",
+          "called": "bullish",
+          "abnormal_pct": -11.62
+        },
         {
           "date": "2026-09-15",
           "ticker": "EMC",
@@ -584,12 +633,26 @@
       "rule": "When a cleansing statement and an investor presentation are filed together at a 12-month low, the presentation may be the use-of-proceeds marketing document for the just-completed raise rather than a pre-raise awareness filing — meaning fresh capital has arrived with a stated deployment plan. Ask whether the raise proceeds create a funded runway that removes the near-term going-concern risk; if so, the cleansing statement signals dilution already absorbed and a funded catalyst pipeline, which is neutral-to-bullish rather than bearish. Do not apply L011 in isolation when a companion presentation discloses a credible use of proceeds.",
       "created": "2026-09-15",
       "last_seen": "2026-09-15",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
         {
           "date": "2026-09-15",
           "ticker": "KAL",
           "headline": "Cleansing Statement",
+          "called": "bearish",
+          "abnormal_pct": 10.88
+        },
+        {
+          "date": "2026-09-15",
+          "ticker": "KAL",
+          "headline": "Cleansing Statement",
+          "called": "bearish",
+          "abnormal_pct": 10.88
+        },
+        {
+          "date": "2026-09-15",
+          "ticker": "KAL",
+          "headline": "Investor Presentation",
           "called": "bearish",
           "abnormal_pct": 10.88
         }
@@ -601,8 +664,15 @@
       "rule": "Selection by a government or multilateral body for a named investment summit is not purely promotional — it is an implicit third-party endorsement of the project's strategic credibility within a national or supranational critical minerals agenda, which can function as a near-term re-rating catalyst independent of any technical result. Do not apply L010 (pre-raise awareness marketing) to government-selection announcements; instead lean neutral-to-bullish when the selecting body is credible, the project is in a jurisdiction with active critical minerals policy, and the stock is materially de-rated.",
       "created": "2026-09-15",
       "last_seen": "2026-09-15",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-09-15",
+          "ticker": "PL9",
+          "headline": "Prairie Project Selected for Canada Investment Summit",
+          "called": "neutral",
+          "abnormal_pct": 9.98
+        },
         {
           "date": "2026-09-15",
           "ticker": "PL9",
@@ -618,7 +688,7 @@
       "rule": "A maiden permit submission flagged as market sensitive signals that management and their legal advisers regard the regulatory gate as a material project milestone, not a routine step — the market-sensitive designation is the key qualifier that distinguishes this from a generic activity statement. Do not default to neutral purely because no data has been returned; lean neutral-to-bullish when the permit is the first of its kind for the project, the stock is materially de-rated, and the market-sensitive flag is present, because approval opens the next operational phase and the flag indicates the company believes the market does not have this priced.",
       "created": "2026-09-15",
       "last_seen": "2026-09-15",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
         {
           "date": "2026-09-15",
@@ -626,6 +696,30 @@
           "headline": "MAIDEN QUINN DRILLING BULK SAMLPLING PERMIT SUBMITTED",
           "called": "neutral",
           "abnormal_pct": 9.98
+        },
+        {
+          "date": "2026-09-15",
+          "ticker": "OD6",
+          "headline": "MAIDEN QUINN DRILLING BULK SAMLPLING PERMIT SUBMITTED",
+          "called": "neutral",
+          "abnormal_pct": 9.98
+        }
+      ]
+    },
+    {
+      "id": "L023",
+      "trigger": "Drilling programme commencement announcement (L002 shape) that also contains a named policy or strategic update element (e.g. 'US Elemental Update', 'Critical Minerals Strategy Update') for a company with material exposure to an active government critical minerals agenda, stock 60%+ below 12-month high",
+      "rule": "When a drill-commencement announcement is bundled with a named strategic or policy update, do not apply L002 in isolation — parse whether the secondary element contains substantive policy, offtake, or funding news that is independent of the drill result; if it does, the filing has two information layers and the policy/strategic layer can be the market-moving one. Ask: does the non-drilling component stand alone as a catalyst? If yes, upgrade from neutral toward bullish when the stock is materially de-rated and the strategic context (e.g. US critical minerals policy) is actively supportive.",
+      "created": "2026-09-15",
+      "last_seen": "2026-09-15",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-15",
+          "ticker": "JLL",
+          "headline": "McDermitt Drilling Program to Commence & US Elemental Update",
+          "called": "neutral",
+          "abnormal_pct": 8.7
         }
       ]
     }
