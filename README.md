@@ -47,7 +47,7 @@ List view shows the day's announcements as a screener. Every number in it descri
 
 | Column | What it is |
 | --- | --- |
-| **ASX Code** | The ticker. A red dot means the ASX flagged the filing price-sensitive. |
+| **ASX Code** | The ticker. An amber ★ means the ASX flagged the filing price-sensitive — the same star the sidebar's Market sensitive tile uses. |
 | **Company / Announcement** | The company name and the headline. The headline links to the original ASX document. |
 | **Time** | When it was lodged, Sydney time. |
 | **Type** | The ASX's own document type — "Quarterly Activities Report", "Trading Halt", and so on. |
@@ -91,7 +91,7 @@ Filter the table to any one of them with the chips above it — the count on eac
 
 **Hovering a flagged row does not recolour it.** Hover brightens the row rather than washing over it, so a red row stays red under the pointer. The coloured edge down its left side never changes at all — that edge is also what a reader who cannot separate the hues has in place of them.
 
-**The open drawer takes no tint and no hover of its own.** It holds three paragraphs of prose, and a wash behind body text costs contrast for nothing; the caret, the coloured edge and the drawer itself already say which row is open.
+**An open row and its drawer are one card.** Same surface as every other row, no divider between them, a rule across the top of the row and under the drawer, and the signal edge running down the left of both — so it is never ambiguous which ticker the detail belongs to. The drawer takes no tint and no hover of its own: it holds three paragraphs of prose, and a wash behind body text costs contrast for nothing.
 
 ---
 

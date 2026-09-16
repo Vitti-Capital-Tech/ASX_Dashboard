@@ -161,8 +161,10 @@ function DetailRow({ ann, span, signal }: {
 
   return (
     <tr className="screener-detail" data-signal={signal} data-open="true">
-      <td colSpan={span} className="px-4 pb-4 pt-0"
-        style={{ borderBottom: '1px solid var(--border-med)' }}>
+      {/* No inline border here: the rule that closes the card off underneath
+          lives in globals.css next to the one that opens it above the row, so
+          the two cannot drift apart. */}
+      <td colSpan={span} className="px-4 pb-4 pt-0">
         {/* Sticks to the left edge instead of scrolling away with the numeric
             columns: this is prose, and prose you have to scroll sideways to
             read is not readable. --drawer-w is the scroll container's visible
@@ -188,11 +190,10 @@ function DetailRow({ ann, span, signal }: {
               rather than an overrun. */}
           <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1.9fr)_minmax(0,1fr)] gap-x-4 gap-y-3 items-stretch">
 
-            {/* Back up to the card colour on the recessed drawer ground, so the
-                summary reads as a panel rather than a slightly different
-                shade of the same nothing. */}
-            <div className="rounded-xl p-4 min-w-0"
-              style={{ background: 'var(--bg-card)', border: '1px solid var(--border-med)' }}>
+            {/* Exactly the card's own summary panel: a shade up from the
+                surface it sits on, which is the same surface here as there. */}
+            <div className="rounded-xl p-3.5 min-w-0"
+              style={{ background: 'var(--border-subtle)', border: '1px solid var(--border-med)' }}>
               <div className="flex items-center gap-1.5 mb-2.5">
                 <svg viewBox="0 0 16 16" fill="none" className="w-3 h-3 flex-shrink-0" style={{ color: 'var(--accent)' }}>
                   <path d="M8 1l1.2 4.8L14 8l-4.8 1.2L8 15l-1.2-4.8L2 8l4.8-1.2z" fill="currentColor" opacity="0.9" />
@@ -340,9 +341,16 @@ export default function AnnouncementTable({ anns }: Props) {
         key: 'ticker', label: 'ASX Code', align: 'left',
         render: a => (
           <span className="flex items-center gap-1.5">
+            {/* The same star, in the same amber, that the sidebar's "Market
+                sensitive" tile uses. It was a red dot here, which read as an
+                alert and matched nothing else in the app. */}
             {a.market_sensitive && (
-              <span className="inline-flex rounded-full h-1.5 w-1.5 flex-shrink-0"
-                title="Market sensitive" style={{ background: 'var(--danger)' }} />
+              <svg viewBox="0 0 20 20" className="w-2.5 h-2.5 flex-shrink-0"
+                style={{ color: 'var(--warning)' }} aria-label="Market sensitive">
+                <title>Market sensitive</title>
+                <path d="M10 2l2.5 5 5.5.8-4 3.9.95 5.5L10 14.5l-4.95 2.7L6 11.7 2 7.8l5.5-.8z"
+                  fill="currentColor" />
+              </svg>
             )}
             <span className="font-mono font-black tracking-[0.04em]" style={{ color: 'var(--text-primary)' }}>
               {a.ticker}

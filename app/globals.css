@@ -169,12 +169,13 @@
     linear-gradient(var(--row-tint), var(--row-tint));
 }
 
-/* The drawer sits on the page ground rather than the card ground, a shade
-   below the rows either side of it. Painted the same colour as the rows it
-   read as a row that had grown very tall; recessed, it reads as a panel opened
-   underneath one — and the AI Summary box inside it comes back up to the card
-   colour, so the three surfaces stack in a legible order. */
-.screener-detail > td { background-color: var(--bg-app); }
+/* An open row and its drawer are ONE card. Same surface as every other row —
+   recessing the drawer to a darker ground made it a separate object and left
+   the reader working out which ticker it belonged to. Instead the pair is
+   bracketed: a rule across the top of the open row, the matching one under the
+   drawer, the signal edge down the left of both, and nothing between them. */
+.screener-row[data-open='true'] > td { border-top: 1px solid var(--border-accent); }
+.screener-detail > td              { border-bottom: 1px solid var(--border-accent); }
 
 .screener-row > td:first-child,
 .screener-detail > td:first-child {
