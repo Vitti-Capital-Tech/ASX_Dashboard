@@ -37,18 +37,10 @@
   --danger: #f43f5e;
   --warning: #f59e0b;
 
-  /* Screener rows. --bg-card-hover is a two-shade nudge, which is enough for a
-     card and invisible on a row twenty columns wide — you lose your place the
-     moment you scroll sideways. These are the tints that keep a row trackable:
-     a stripe to follow across, a hover to confirm it, and a lock that stays put
-     while both hands are on the scrollbar. */
+  /* Screener rows. A stripe to follow across twenty columns of numbers —
+     --bg-card-hover is a two-shade nudge, enough for a card and invisible on a
+     row this wide. */
   --row-stripe: rgba(15, 23, 42, 0.03);
-  /* Hover and open BRIGHTEN whatever the row already is rather than recolouring
-     it. They used to be indigo washes, which meant putting the pointer on a red
-     RSI row turned it blue — the highlight hid the thing it was highlighting.
-     Neutral ink lifts a red, green or amber row without shifting its hue. */
-  --row-lift-hover: rgba(15, 23, 42, 0.055);
-  --row-lift-open: rgba(15, 23, 42, 0.08);
 
   --glow-accent: 0 0 0px transparent;
   --shadow-card: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
@@ -81,8 +73,6 @@
   /* Lighter on a near-black card than the light theme's are on white: the same
      3% of ink that reads as a stripe on #fff is a grey band on #0a0d1c. */
   --row-stripe: rgba(255, 255, 255, 0.022);
-  --row-lift-hover: rgba(255, 255, 255, 0.06);
-  --row-lift-open: rgba(255, 255, 255, 0.09);
 }
 
 .vibrant {
@@ -121,24 +111,25 @@
 .animate-float          { animation: float 4s ease-in-out infinite; }
 
 /* ── Screener rows ──────────────────────────────────────────────────────────
+   A row shows its own colour and only its own colour, in every state. Hover
+   used to add a white layer over the tint; even as a second layer rather than
+   a replacement it washed out both the colour underneath and the text on top,
+   so there is no hover paint at all now. The caret, the pointer cursor and the
+   coloured edge carry the interaction instead.
+
    The tint is painted as a gradient layer OVER an opaque --bg-card rather than
    as a translucent background-color, because the ticker column is sticky: a
    see-through cell lets the scrolling columns slide underneath it.
 
-   Source order is the cascade here — stripe, then hover, then lock — since all
-   three selectors carry the same specificity. Lock last so a locked row keeps
-   its highlight once the pointer moves away, which is the entire point of it. */
-/* The stripe is driven by an attribute, not :nth-child, because an expanded row
+   The stripe is driven by an attribute, not :nth-child, because an expanded row
    inserts a second <tr> for its detail and every row below it would flip. */
 .screener-row,
-.screener-detail                   { --row-tint: transparent; --row-lift: transparent; --row-edge: transparent; }
+.screener-detail                   { --row-tint: transparent; --row-edge: transparent; }
 .screener-row[data-stripe='true']  { --row-tint: var(--row-stripe); }
 
 /* An open row without a signal gets the accent edge to tie it to its drawer.
-   Declared BEFORE the signal rules, which carry equal specificity, so a
-   flagged row keeps its own colour here too — the edge is the part of the
-   flag that survives a hover, and taking it away on open is the same mistake
-   as recolouring the row. */
+   Declared BEFORE the signal rules, which carry equal specificity, so a flagged
+   row keeps its own colour here rather than turning indigo when you open it. */
 .screener-row[data-open='true'],
 .screener-detail                   { --row-edge: var(--accent); }
 
@@ -147,8 +138,8 @@
    is lost to that precedence. Kept faint: these are full-width washes behind
    twenty columns of numbers, and anything stronger makes the numbers harder to
    read, which is the opposite of what a highlight is for. The matching edge on
-   the first cell is what survives a hover, and what a reader who cannot
-   separate the hues has instead of them. */
+   the first cell is what a reader who cannot separate the hues has instead of
+   them. */
 .screener-row[data-signal='rsi_high']   { --row-tint: color-mix(in srgb, var(--danger), transparent 90%);  --row-edge: var(--danger); }
 .screener-row[data-signal='rsi_low']    { --row-tint: color-mix(in srgb, var(--success), transparent 90%); --row-edge: var(--success); }
 .screener-row[data-signal='near_high']  { --row-tint: color-mix(in srgb, var(--accent), transparent 90%);  --row-edge: var(--accent-light); }
@@ -160,22 +151,13 @@
 .screener-detail[data-signal='near_high']  { --row-edge: var(--accent-light); }
 .screener-detail[data-signal='near_low']   { --row-edge: var(--warning); }
 
-/* Hover sets the LIFT, never the tint: a second background layer over the row's
-   own colour rather than a replacement, so a red row stays red under the
-   pointer. Nothing else sets it.
-
-   An open row and its drawer deliberately get NO lift. The drawer is three
-   paragraphs of prose, and a wash behind body text costs contrast for nothing —
-   the caret, the coloured edge and the drawer itself already say the row is
-   open. The drawer takes no signal tint either, for the same reason. */
-.screener-row:hover                { --row-lift: var(--row-lift-hover); }
+/* The drawer takes no tint of its own: it is three paragraphs of prose, and a
+   wash behind body text costs contrast for nothing. */
 
 .screener-row > td,
 .screener-detail > td {
   background-color: var(--bg-card);
-  background-image:
-    linear-gradient(var(--row-lift), var(--row-lift)),
-    linear-gradient(var(--row-tint), var(--row-tint));
+  background-image: linear-gradient(var(--row-tint), var(--row-tint));
 }
 
 .screener-row > td:first-child,

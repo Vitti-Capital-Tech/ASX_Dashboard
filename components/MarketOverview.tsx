@@ -92,15 +92,17 @@ export default function MarketOverview({ counts, hasLog, loading, isActive, onSe
           </span>
         </div>
 
-        {/* 2px gaps, not borders, separate the segments. */}
+        {/* One continuous track, rounded at the outer ends only. Separate
+            rounded segments with a gap between them read as a bar that failed
+            to render, not as one total divided up. */}
         {split > 0 && (
-          <div className="flex gap-[2px] h-1.5" aria-hidden>
+          <div className="flex h-1.5 rounded-full overflow-hidden" aria-hidden
+            style={{ background: 'var(--border-subtle)' }}>
             {segments.map(s => (
               <div key={s.token}
                 style={{
                   width: `${(s.n / split) * 100}%`,
                   background: `var(--${s.token})`,
-                  borderRadius: 3,
                   opacity: s.token === 'text-dim' ? 0.45 : 1,
                 }} />
             ))}
