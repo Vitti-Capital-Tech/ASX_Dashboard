@@ -1,6 +1,6 @@
 'use client';
 
-import { Fragment, useMemo, useState } from 'react';
+import { Fragment, useEffect, useMemo, useRef, useState } from 'react';
 import { Announcement, MarketContext } from '@/types';
 import { formatTime, getSentiment, SECTION_LABEL } from '@/lib/utils';
 import PriceContext from './PriceContext';
@@ -161,50 +161,82 @@ function DetailRow({ ann, span, signal }: {
 
   return (
     <tr className="screener-detail" data-signal={signal} data-open="true">
-      <td colSpan={span} className="px-4 pt-1 pb-4"
+      <td colSpan={span} className="px-4 pb-4 pt-0"
         style={{ borderBottom: '1px solid var(--border-med)' }}>
-        <div className="flex flex-col gap-3 max-w-[110ch]"
-          // Sticks to the left edge instead of scrolling away with the numeric
-          // columns: the drawer is prose, and prose you have to scroll sideways
-          // to read is not readable.
-          style={{ position: 'sticky', left: 0 }}
+        {/* Sticks to the left edge instead of scrolling away with the numeric
+            columns: this is prose, and prose you have to scroll sideways to
+            read is not readable. --drawer-w is the scroll container's visible
+            width, so the drawer fills exactly what the reader can see and
+            nothing lands off the right edge. */}
+        <div
+          style={{
+            position: 'sticky',
+            left: 0,
+            // Less the td's own px-4 on both sides, or the right edge lands
+            // just outside the visible area.
+            width: 'calc(var(--drawer-w, 100%) - 2rem)',
+          }}
           onClick={e => e.stopPropagation()}>
+          {/* Two columns on a wide screen: the AI's read on the left, the
+              measured stuff on the right. Stacked, the drawer was one long
+              column of text with the table's whole width beside it empty. */}
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1.55fr)_minmax(0,1fr)] gap-x-5 gap-y-3 items-start">
 
-          {summary.length > 0 ? (
-            <ul className="flex flex-col gap-1.5">
-              {summary.map((point, i) => (
-                // Same size and leading as the card's bullets. The drawer is the
-                // card's text in a table, and there is no reason for the same
-                // sentence to be harder to read in one place than the other.
-                <li key={i} className="flex gap-2.5 text-[0.8rem] leading-[1.62] text-pretty break-words min-w-0"
-                  style={{ color: 'var(--text-secondary)' }}>
-                  <span style={{ color: 'var(--accent-light)' }} aria-hidden>·</span>
-                  <span>{point}</span>
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <span className="text-[0.74rem]" style={{ color: 'var(--text-dim)' }}>
-              No AI summary was written for this announcement.
-            </span>
-          )}
+            <div className="rounded-xl p-3.5 min-w-0"
+              style={{ background: 'var(--border-subtle)', border: '1px solid var(--border-med)' }}>
+              <div className="flex items-center gap-1.5 mb-2.5">
+                <svg viewBox="0 0 16 16" fill="none" className="w-3 h-3 flex-shrink-0" style={{ color: 'var(--accent)' }}>
+                  <path d="M8 1l1.2 4.8L14 8l-4.8 1.2L8 15l-1.2-4.8L2 8l4.8-1.2z" fill="currentColor" opacity="0.9" />
+                </svg>
+                <span className={SECTION_LABEL} style={{ color: 'var(--accent)' }}>AI Summary</span>
+              </div>
 
-          {(ann.tags?.length ?? 0) > 0 && (
-            <span className="flex flex-wrap gap-1.5">
-              {ann.tags.map(t => (
-                <span key={t} className="text-[0.62rem] font-semibold px-2 py-0.5 rounded-md"
-                  style={{
-                    color: 'var(--text-dim)',
-                    background: 'var(--border-subtle)',
-                    border: '1px solid var(--border-med)',
-                  }}>
-                  {t}
+              {summary.length > 0 ? (
+                // Identical to the card's bullets, down to the marker. The
+                // drawer is the card's text in a table; the same sentence
+                // should not be set differently in one place than the other.
+                <ul className="flex flex-col gap-2 min-w-0">
+                  {summary.map((point, i) => (
+                    <li key={i} className="flex gap-2.5 text-[0.8rem] leading-[1.62] text-pretty break-words min-w-0"
+                      style={{ color: 'var(--text-secondary)' }}>
+                      <span className="mt-[0.55em] w-1 h-1 rounded-full flex-shrink-0"
+                        style={{ background: 'var(--accent)' }} />
+                      <span className="min-w-0 flex-1">{point.replace(/^[\s\-*•\d.]+\s*/, '')}</span>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <span className="text-[0.76rem]" style={{ color: 'var(--text-dim)' }}>
+                  No AI summary was written for this announcement.
                 </span>
-              ))}
-            </span>
-          )}
+              )}
+            </div>
 
-          {c && <PriceContext ctx={c} />}
+            <div className="flex flex-col gap-3 min-w-0">
+              {c && <PriceContext ctx={c} />}
+
+              <div className="flex flex-wrap items-center gap-1.5">
+                {ann.tags?.map(t => (
+                  <span key={t} className="text-[0.68rem] font-medium px-2 py-[0.15rem] rounded-md"
+                    style={{
+                      color: 'var(--text-dim)',
+                      background: 'var(--border-subtle)',
+                      border: '1px solid var(--border-med)',
+                    }}>
+                    {t}
+                  </span>
+                ))}
+                <a href={ann.url || '#'} target="_blank" rel="noopener noreferrer"
+                  className="ml-auto inline-flex items-center gap-1 text-[0.65rem] font-bold hover:underline whitespace-nowrap"
+                  style={{ color: 'var(--accent)' }}>
+                  View on ASX
+                  <svg viewBox="0 0 10 10" fill="none" className="w-2.5 h-2.5">
+                    <path d="M1.5 8.5L8.5 1.5M8.5 1.5H4M8.5 1.5V6" stroke="currentColor" strokeWidth="1.3" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </td>
     </tr>
@@ -236,6 +268,22 @@ export default function AnnouncementTable({ anns }: Props) {
   const [openRow, setOpenRow] = useState<string | null>(null);
 
   const [signalFilter, setSignalFilter] = useState<SignalKey | 'all' | 'any'>('all');
+
+  // The drawer is sticky to the left of a table far wider than the screen, so
+  // its containing block is the full table width and `width: 100%` would run
+  // most of its content off the right edge. What it actually wants is the
+  // VISIBLE width of the scroll container, which only JS can report — published
+  // as a custom property that the drawer inherits.
+  const scrollRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const publish = () => el.style.setProperty('--drawer-w', `${el.clientWidth}px`);
+    publish();
+    const ro = new ResizeObserver(publish);
+    ro.observe(el);
+    return () => ro.disconnect();
+  }, []);
 
   // Computed once per announcement rather than in render, sort and filter
   // separately — signalsFor walks the context object and this runs 300 times.
@@ -527,7 +575,7 @@ export default function AnnouncementTable({ anns }: Props) {
       {/* The only horizontally scrolling thing on the page. Twenty columns do
           not fit a laptop, and shrinking them to fit is how a screener becomes
           unreadable — so the ticker column is pinned and the rest scrolls. */}
-      <div className="overflow-x-auto">
+      <div className="overflow-x-auto" ref={scrollRef}>
         <table className="w-full text-[0.78rem] border-collapse">
           <thead>
             <tr>

@@ -41,6 +41,11 @@
      --bg-card-hover is a two-shade nudge, enough for a card and invisible on a
      row this wide. */
   --row-stripe: rgba(15, 23, 42, 0.03);
+  /* Hover BRIGHTENS the row rather than recolouring it: a second background
+     layer over whatever tint the row already has, in neutral ink, so a red row
+     stays red under the pointer. It is never applied to the open drawer — the
+     complaint that started this was a wash over three paragraphs of prose. */
+  --row-lift-hover: rgba(15, 23, 42, 0.055);
 
   --glow-accent: 0 0 0px transparent;
   --shadow-card: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
@@ -73,6 +78,7 @@
   /* Lighter on a near-black card than the light theme's are on white: the same
      3% of ink that reads as a stripe on #fff is a grey band on #0a0d1c. */
   --row-stripe: rgba(255, 255, 255, 0.022);
+  --row-lift-hover: rgba(255, 255, 255, 0.06);
 }
 
 .vibrant {
@@ -111,11 +117,10 @@
 .animate-float          { animation: float 4s ease-in-out infinite; }
 
 /* ── Screener rows ──────────────────────────────────────────────────────────
-   A row shows its own colour and only its own colour, in every state. Hover
-   used to add a white layer over the tint; even as a second layer rather than
-   a replacement it washed out both the colour underneath and the text on top,
-   so there is no hover paint at all now. The caret, the pointer cursor and the
-   coloured edge carry the interaction instead.
+   A row keeps its own colour in every state — hover adds a neutral layer over
+   the tint rather than replacing it, so a red row stays red under the pointer.
+   The drawer is the exception and gets neither tint nor lift; prose needs the
+   contrast more than it needs decoration.
 
    The tint is painted as a gradient layer OVER an opaque --bg-card rather than
    as a translucent background-color, because the ticker column is sticky: a
@@ -124,7 +129,7 @@
    The stripe is driven by an attribute, not :nth-child, because an expanded row
    inserts a second <tr> for its detail and every row below it would flip. */
 .screener-row,
-.screener-detail                   { --row-tint: transparent; --row-edge: transparent; }
+.screener-detail                   { --row-tint: transparent; --row-lift: transparent; --row-edge: transparent; }
 .screener-row[data-stripe='true']  { --row-tint: var(--row-stripe); }
 
 /* An open row without a signal gets the accent edge to tie it to its drawer.
@@ -151,13 +156,17 @@
 .screener-detail[data-signal='near_high']  { --row-edge: var(--accent-light); }
 .screener-detail[data-signal='near_low']   { --row-edge: var(--warning); }
 
-/* The drawer takes no tint of its own: it is three paragraphs of prose, and a
-   wash behind body text costs contrast for nothing. */
+/* Rows lift under the pointer. The drawer never does, and takes no tint of its
+   own either: it is three paragraphs of prose, and a wash behind body text
+   costs contrast for nothing. */
+.screener-row:hover                { --row-lift: var(--row-lift-hover); }
 
 .screener-row > td,
 .screener-detail > td {
   background-color: var(--bg-card);
-  background-image: linear-gradient(var(--row-tint), var(--row-tint));
+  background-image:
+    linear-gradient(var(--row-lift), var(--row-lift)),
+    linear-gradient(var(--row-tint), var(--row-tint));
 }
 
 .screener-row > td:first-child,

@@ -89,9 +89,9 @@ Three rules keep the flags honest:
 
 Filter the table to any one of them with the chips above it — the count on each chip is how many rows it matches today. When several signals land on one row, the tint and the edge follow the first of RSI 80+, RSI 30−, near high, near low; the badges still show all of them.
 
-**Nothing paints over a row.** A row shows its own colour in every state — hovering and opening add no wash of their own, so a red row is the same red under the pointer as beside it. The caret, the pointer cursor and the coloured edge on the left carry the interaction instead. That edge is also what a reader who cannot separate the hues has in place of them.
+**Hovering a flagged row does not recolour it.** Hover brightens the row rather than washing over it, so a red row stays red under the pointer. The coloured edge down its left side never changes at all — that edge is also what a reader who cannot separate the hues has in place of them.
 
-**The open drawer takes no tint at all.** It holds three paragraphs of prose, and a wash behind body text costs contrast for nothing; the caret, the coloured edge and the drawer itself already say which row is open.
+**The open drawer takes no tint and no hover of its own.** It holds three paragraphs of prose, and a wash behind body text costs contrast for nothing; the caret, the coloured edge and the drawer itself already say which row is open.
 
 ---
 
@@ -104,7 +104,7 @@ Filter the table to any one of them with the chips above it — the count on eac
 5. **Market Overview:** The sidebar shows a live summary — total announcements, sensitive news count, substantial holders, bullish signals, active tickers, and trading halts.
 6. **Grid or List:** The dashboard opens on the screener table (**List**) — it shows the whole day at once and is the only view carrying the signal flags. The toggle in the top bar switches to the card feed (**Grid**), and your choice is remembered from then on.
 7. **Sort the table:** In List view, click any number column heading to sort by it — biggest first, then smallest, then a third click to go back to the feed's own order (sensitive news first, then bullish, then newest).
-8. **Click a row for the detail:** The table has no room for prose, so the AI's three points, its tags, and the price going into the filing open in a drawer underneath the row. The open row stays highlighted while you drag the table sideways through the later columns, which is where a row is easiest to lose. Click again to close; clicking the headline still just opens the ASX document.
+8. **Click a row for the detail:** The table has no room for prose, so a drawer opens underneath the row — the AI's three points on the left, the price going into the filing and the tags on the right, laid out like the card in Grid view. It stays pinned to the left of the screen while you drag the table sideways through the later columns, so it never scrolls out of reach. Click again to close; clicking the headline still just opens the ASX document.
 9. **Filter to the flagged rows:** The chips above the table narrow it to any one signal — see [Signals](#signals-what-gets-flagged-and-why). Unfiltered, flagged rows come first, then rows that at least have price context, then the rest. Sorting by a column takes the order over completely.
 10. **Export:** Click **Export CSV Data** in the sidebar to download the full day's data.
 
