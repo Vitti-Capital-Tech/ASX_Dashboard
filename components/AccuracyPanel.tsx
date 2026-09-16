@@ -15,6 +15,14 @@ const VERDICT_FILTERS: { key: Verdict | 'all'; label: string }[] = [
   { key: 'no_data', label: 'No price' },
 ];
 
+type Direction = 'all' | 'bullish' | 'bearish';
+
+const DIRECTION_FILTERS: { key: Direction; label: string }[] = [
+  { key: 'all', label: 'Both' },
+  { key: 'bullish', label: '▲ Bullish' },
+  { key: 'bearish', label: '▼ Bearish' },
+];
+
 // Status colours, not a categorical palette — they mean right / wrong / neither.
 // Green and red sit only 5.6 ΔE apart under deuteranopia, so every use below is
 // paired with a label or a ✓/✗ glyph and never carries meaning on its own.
@@ -151,14 +159,40 @@ export default function AccuracyPanel({
   onRetry: () => void;
 }) {
   const [filter, setFilter] = useState<Verdict | 'all'>('all');
+  const [direction, setDirection] = useState<Direction>('all');
 
   const rows = useMemo<ScoredCall[]>(() => {
     if (!card) return [];
-    const directional = card.results.filter(r => r.sentiment !== 'neutral');
-    const picked = filter === 'all' ? directional : directional.filter(r => r.verdict === filter);
+    let picked = card.results.filter(r => r.sentiment !== 'neutral');
+    if (direction !== 'all') picked = picked.filter(r => r.sentiment === direction);
+    if (filter !== 'all') picked = picked.filter(r => r.verdict === filter);
     // Biggest moves first — those are the calls worth arguing about.
     return [...picked].sort((a, b) => Math.abs(b.abnormal_pct ?? 0) - Math.abs(a.abnormal_pct ?? 0));
-  }, [card, filter]);
+  }, [card, filter, direction]);
+
+  /**
+   * The Net column, added up over whatever is on screen.
+   *
+   * Two things it is deliberately NOT. It is not a return: these are one-day
+   * moves on notional equal positions, with no sizing, no entry price and no
+   * costs in them. And it is not signed by whether the call was right — a
+   * bearish call that came good contributes a negative number, which is why the
+   * "as called" figure below flips the sign on bearish rows and is the only one
+   * of the two worth reading when both directions are shown at once.
+   */
+  const totals = useMemo(() => {
+    const priced = rows.filter(r => r.abnormal_pct !== null);
+    const sum = priced.reduce((t, r) => t + (r.abnormal_pct as number), 0);
+    const asCalled = priced.reduce(
+      (t, r) => t + (r.sentiment === 'bearish' ? -(r.abnormal_pct as number) : r.abnormal_pct as number), 0);
+    return {
+      sum,
+      asCalled,
+      n: priced.length,
+      avg: priced.length ? sum / priced.length : null,
+      unpriced: rows.length - priced.length,
+    };
+  }, [rows]);
 
   function downloadCsv() {
     if (!card) return;
@@ -358,7 +392,7 @@ export default function AccuracyPanel({
       </div>
 
       {/* ── Filters ── */}
-      <div className="flex flex-wrap items-center gap-2 mb-3">
+      <div className="flex flex-wrap items-center gap-2 mb-2.5">
         {VERDICT_FILTERS.map(f => {
           const active = filter === f.key;
           return (
@@ -373,10 +407,77 @@ export default function AccuracyPanel({
             </button>
           );
         })}
+
+        {/* Direction sits in its own group, tinted to the sentiment it picks,
+            because it stacks WITH the verdict filters rather than replacing
+            them — "bullish" and "wrong" together is the useful combination. */}
+        <span className="mx-1 self-stretch w-px" style={{ background: 'var(--border-med)' }} />
+        {DIRECTION_FILTERS.map(f => {
+          const active = direction === f.key;
+          const tint = f.key === 'bullish' ? OK : f.key === 'bearish' ? BAD : 'var(--accent)';
+          return (
+            <button key={f.key} onClick={() => setDirection(f.key)}
+              className="px-3.5 py-1.5 rounded-xl text-[0.72rem] font-semibold transition-all duration-150"
+              style={{
+                background: active ? `color-mix(in srgb, ${tint}, transparent 88%)` : 'var(--border-subtle)',
+                border: `1px solid ${active ? `color-mix(in srgb, ${tint}, transparent 70%)` : 'var(--border-med)'}`,
+                color: active ? tint : 'var(--text-dim)',
+              }}>
+              {f.label}
+            </button>
+          );
+        })}
+
         <span className="ml-auto font-mono text-[0.68rem]" style={{ color: 'var(--text-dim)' }}>
           {rows.length} shown
           {s.conflicts > 0 && ` · ${s.conflicts} excluded`}
           {s.pending > 0 && ` · ${s.pending} pending`}
+        </span>
+      </div>
+
+      {/* ── Total of the Net column, for whatever the filters left on screen ── */}
+      <div className="flex flex-wrap items-center gap-x-7 gap-y-2 rounded-xl px-4 py-2.5 mb-3"
+        style={{ background: 'var(--bg-card)', border: '1px solid var(--border-subtle)' }}>
+        <div className="flex items-baseline gap-2">
+          <span className="text-[0.62rem] font-semibold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>
+            Sum of net
+          </span>
+          <span className="font-mono text-[1.05rem] font-bold tabular-nums"
+            style={{ color: moveColor(totals.n ? totals.sum : null) }}>
+            {totals.n ? pct(totals.sum, 2) : '—'}
+          </span>
+        </div>
+
+        <div className="flex items-baseline gap-2">
+          <span className="text-[0.62rem] font-semibold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>
+            Avg per call
+          </span>
+          <span className="font-mono text-[0.9rem] font-bold tabular-nums"
+            style={{ color: moveColor(totals.avg) }}>
+            {totals.n ? pct(totals.avg, 2) : '—'}
+          </span>
+        </div>
+
+        {/* Only when both directions are on screen. Filtered to one of them the
+            sign already means the same thing for every row, and a second
+            near-identical number would just invite the wrong one to be read. */}
+        {direction === 'all' && (
+          <div className="flex items-baseline gap-2"
+            title="Bearish rows sign-flipped, so a correct call of either kind adds to the total.">
+            <span className="text-[0.62rem] font-semibold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>
+              As called
+            </span>
+            <span className="font-mono text-[0.9rem] font-bold tabular-nums"
+              style={{ color: moveColor(totals.n ? totals.asCalled : null) }}>
+              {totals.n ? pct(totals.asCalled, 2) : '—'}
+            </span>
+          </div>
+        )}
+
+        <span className="text-[0.63rem] leading-snug ml-auto max-w-[46ch]" style={{ color: 'var(--text-dim)' }}>
+          Across {totals.n} call{totals.n === 1 ? '' : 's'} with a price
+          {totals.unpriced > 0 && `, ${totals.unpriced} without`}. Percentage points added up, not a
+          return — no position sizing, entry or costs.
         </span>
       </div>
 

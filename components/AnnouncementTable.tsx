@@ -84,6 +84,11 @@ export default function AnnouncementTable({ anns }: Props) {
   const [sortKey, setSortKey] = useState<string | null>(null);
   const [dir, setDir] = useState<'asc' | 'desc'>('desc');
 
+  // Click a row to pin its highlight. Striping and hover both stop helping the
+  // moment you let go of the row to drag the horizontal scrollbar, which is
+  // exactly when twenty columns make you lose it. Clicking again releases it.
+  const [locked, setLocked] = useState<string | null>(null);
+
   const columns: Column[] = useMemo(() => {
     const monthly = ([1, 2, 3] as const).flatMap<Column>(m => {
       const hi = `month${m}_high` as keyof MarketContext;
@@ -131,7 +136,9 @@ export default function AnnouncementTable({ anns }: Props) {
       {
         key: 'headline', label: 'Announcement', align: 'left',
         render: a => (
+          // Opening the document is not a request to pin the row it sits on.
           <a href={a.url || '#'} target="_blank" rel="noopener noreferrer"
+            onClick={e => e.stopPropagation()}
             className="block truncate max-w-[300px] hover:underline"
             title={a.headline} style={{ color: 'var(--text-primary)' }}>
             {a.headline}
@@ -308,28 +315,38 @@ export default function AnnouncementTable({ anns }: Props) {
             </tr>
           </thead>
           <tbody>
-            {rows.map((a, i) => (
-              <tr key={a.url + i + a.time} className="group">
-                {columns.map((c, ci) => (
-                  <td key={c.key}
-                    className={[
-                      CELL, c.className ?? '',
-                      c.align === 'right' ? 'text-right font-mono tabular-nums' : 'text-left',
-                      // The pinned cell needs its own opaque background or the
-                      // scrolling columns show through it. As a class, not an
-                      // inline style, so the row hover can still win.
-                      ci === 0 ? 'sticky left-0 z-10 bg-[var(--bg-card)]' : '',
-                      'transition-colors duration-100 group-hover:bg-[var(--bg-card-hover)]',
-                    ].join(' ')}
-                    style={{
-                      color: 'var(--text-secondary)',
-                      borderBottom: '1px solid var(--border-subtle)',
-                    }}>
-                    {c.render(a)}
-                  </td>
-                ))}
-              </tr>
-            ))}
+            {rows.map((a, i) => {
+              const id = a.url + i + a.time;
+              const isLocked = locked === id;
+              return (
+                <tr key={id}
+                  className="screener-row cursor-pointer"
+                  data-locked={isLocked}
+                  aria-selected={isLocked}
+                  onClick={() => setLocked(isLocked ? null : id)}
+                  title={isLocked ? 'Click to unpin this row' : 'Click to keep this row highlighted'}>
+                  {columns.map((c, ci) => (
+                    <td key={c.key}
+                      className={[
+                        CELL, c.className ?? '',
+                        c.align === 'right' ? 'text-right font-mono tabular-nums' : 'text-left',
+                        // Backgrounds for all three states live in globals.css
+                        // under .screener-row, so the pinned cell and the
+                        // scrolling ones cannot disagree about which row they
+                        // belong to.
+                        ci === 0 ? 'sticky left-0 z-10' : '',
+                        'transition-colors duration-100',
+                      ].join(' ')}
+                      style={{
+                        color: 'var(--text-secondary)',
+                        borderBottom: '1px solid var(--border-subtle)',
+                      }}>
+                      {c.render(a)}
+                    </td>
+                  ))}
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>

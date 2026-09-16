@@ -37,6 +37,15 @@
   --danger: #f43f5e;
   --warning: #f59e0b;
 
+  /* Screener rows. --bg-card-hover is a two-shade nudge, which is enough for a
+     card and invisible on a row twenty columns wide — you lose your place the
+     moment you scroll sideways. These are the tints that keep a row trackable:
+     a stripe to follow across, a hover to confirm it, and a lock that stays put
+     while both hands are on the scrollbar. */
+  --row-stripe: rgba(15, 23, 42, 0.03);
+  --row-hover: rgba(99, 102, 241, 0.10);
+  --row-locked: rgba(99, 102, 241, 0.16);
+
   --glow-accent: 0 0 0px transparent;
   --shadow-card: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --shadow-sidebar: 4px 0 24px rgba(0,0,0,0.05);
@@ -64,6 +73,12 @@
 
   --shadow-card: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
   --shadow-sidebar: 4px 0 24px rgba(0,0,0,0.4);
+
+  /* Lighter on a near-black card than the light theme's are on white: the same
+     3% of ink that reads as a stripe on #fff is a grey band on #0a0d1c. */
+  --row-stripe: rgba(255, 255, 255, 0.022);
+  --row-hover: rgba(99, 102, 241, 0.14);
+  --row-locked: rgba(99, 102, 241, 0.22);
 }
 
 .vibrant {
@@ -100,6 +115,30 @@
 .animate-fade-in-up     { animation: fadeInUp 0.35s cubic-bezier(0.22,1,0.36,1) both; }
 .animate-spin-fast      { animation: spin 0.8s linear infinite; }
 .animate-float          { animation: float 4s ease-in-out infinite; }
+
+/* ── Screener rows ──────────────────────────────────────────────────────────
+   The tint is painted as a gradient layer OVER an opaque --bg-card rather than
+   as a translucent background-color, because the ticker column is sticky: a
+   see-through cell lets the scrolling columns slide underneath it.
+
+   Source order is the cascade here — stripe, then hover, then lock — since all
+   three selectors carry the same specificity. Lock last so a locked row keeps
+   its highlight once the pointer moves away, which is the entire point of it. */
+.screener-row                      { --row-tint: transparent; }
+.screener-row:nth-child(even)      { --row-tint: var(--row-stripe); }
+.screener-row:hover                { --row-tint: var(--row-hover); }
+.screener-row[data-locked='true']  { --row-tint: var(--row-locked); }
+
+.screener-row > td {
+  background-color: var(--bg-card);
+  background-image: linear-gradient(var(--row-tint), var(--row-tint));
+}
+
+/* A locked row is marked by an edge as well as a tint, so it is still findable
+   for a reader who cannot separate the indigo from the surface. */
+.screener-row[data-locked='true'] > td:first-child {
+  box-shadow: inset 2px 0 0 0 var(--accent);
+}
 
 /* Noise texture overlay */
 .noise-overlay {

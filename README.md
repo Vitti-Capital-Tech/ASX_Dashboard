@@ -78,7 +78,8 @@ List view shows the day's announcements as a screener. Every number in it descri
 5. **Market Overview:** The sidebar shows a live summary — total announcements, sensitive news count, substantial holders, bullish signals, active tickers, and trading halts.
 6. **Grid or List:** The toggle in the top bar switches between the card feed (**Grid**) and the screener table (**List**). Your choice is remembered.
 7. **Sort the table:** In List view, click any number column heading to sort by it — biggest first, then smallest, then a third click to go back to the feed's own order (sensitive news first, then bullish, then newest).
-8. **Export:** Click **Export CSV Data** in the sidebar to download the full day's data.
+8. **Keep your place in the table:** Rows stripe and light up under the pointer. Click one to pin that highlight — it stays put while you drag the table sideways through the later columns, which is where a row is easiest to lose. Click it again to release. Clicking the headline still opens the ASX document and leaves the pin alone.
+9. **Export:** Click **Export CSV Data** in the sidebar to download the full day's data.
 
 ---
 
@@ -251,6 +252,29 @@ actually did what we said it would. Nothing is graded by hand.
 
 Use **Copy post summary** for a plain-English, paste-ready recap of the day, and
 **Export CSV** for the full call-by-call detail.
+
+### Filtering the calls, and the total underneath
+
+Two rows of filters sit above the call-by-call table and stack with each other, so
+**Bullish + Wrong** is one click each and shows exactly the bullish calls that went
+against us.
+
+| Filter | Options |
+| --- | --- |
+| **Verdict** | All calls · Correct · Wrong · No real move · No price |
+| **Direction** | Both · ▲ Bullish · ▼ Bearish |
+
+Under them, the **Net** column added up over whatever is left on screen:
+
+| Figure | What it is |
+| --- | --- |
+| **Sum of net** | Every shown call's move net of the index, added together. |
+| **Avg per call** | That sum divided by the number of calls with a price. |
+| **As called** | The same sum with bearish rows sign-flipped, so a correct call of either kind adds to it. Only shown when both directions are on screen — filtered to one, the sign already means the same thing on every row. |
+
+**This is not a return.** It is percentage points added up across notional equal
+positions on one-day moves, with no sizing, no entry price and no costs in it. Treat it
+as a way to size the day's damage or the day's win, not as a P&L.
 
 ### For other projects consuming this
 
