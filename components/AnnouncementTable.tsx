@@ -153,12 +153,14 @@ function dominant(sigs: Signal[]): SignalKey | undefined {
  * copy of it, so the two views cannot drift into saying different things about
  * the same announcement.
  */
-function DetailRow({ ann, span }: { ann: Announcement; span: number }) {
+function DetailRow({ ann, span, signal }: {
+  ann: Announcement; span: number; signal?: SignalKey;
+}) {
   const c = ctx(ann);
   const summary = ann.summary ?? [];
 
   return (
-    <tr className="screener-detail">
+    <tr className="screener-detail" data-signal={signal} data-open="true">
       <td colSpan={span} className="px-4 pt-1 pb-4"
         style={{ borderBottom: '1px solid var(--border-med)' }}>
         <div className="flex flex-col gap-3 max-w-[110ch]"
@@ -600,7 +602,7 @@ export default function AnnouncementTable({ anns }: Props) {
                       </td>
                     ))}
                   </tr>
-                  {isOpen && <DetailRow ann={a} span={columns.length} />}
+                  {isOpen && <DetailRow ann={a} span={columns.length} signal={dominant(sigs)} />}
                 </Fragment>
               );
             })}

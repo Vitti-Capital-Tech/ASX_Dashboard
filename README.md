@@ -87,7 +87,9 @@ Three rules keep the flags honest:
 - **A window that fires high *and* low is dropped.** Within 1% of both means the entire range is under about 2% — a suspended or barely-traded stock sitting on one price, where "at its 12-month high" is true and says nothing.
 - **RSI flags at 80, not the conventional 70.** At 70 roughly a fifth of a busy day qualifies, and a highlight that fires that often stops being one. The column shades at the same threshold, so the cell and the row can never disagree.
 
-Filter the table to any one of them with the chips above it — the count on each chip is how many rows it matches today. When several signals land on one row, the tint follows the first of RSI 80+, RSI 30−, near high, near low; the badges still show all of them.
+Filter the table to any one of them with the chips above it — the count on each chip is how many rows it matches today. When several signals land on one row, the tint and the edge follow the first of RSI 80+, RSI 30−, near high, near low; the badges still show all of them.
+
+**Hovering or opening a flagged row does not recolour it.** Both brighten the row rather than washing it over, so a red row stays red under the pointer, and the coloured edge on the left of the row — which is also what a reader who cannot separate the hues has instead of them — stays put through both.
 
 ---
 

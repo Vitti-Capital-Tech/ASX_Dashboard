@@ -43,8 +43,12 @@
      a stripe to follow across, a hover to confirm it, and a lock that stays put
      while both hands are on the scrollbar. */
   --row-stripe: rgba(15, 23, 42, 0.03);
-  --row-hover: rgba(99, 102, 241, 0.10);
-  --row-locked: rgba(99, 102, 241, 0.16);
+  /* Hover and open BRIGHTEN whatever the row already is rather than recolouring
+     it. They used to be indigo washes, which meant putting the pointer on a red
+     RSI row turned it blue — the highlight hid the thing it was highlighting.
+     Neutral ink lifts a red, green or amber row without shifting its hue. */
+  --row-lift-hover: rgba(15, 23, 42, 0.055);
+  --row-lift-open: rgba(15, 23, 42, 0.08);
 
   --glow-accent: 0 0 0px transparent;
   --shadow-card: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
@@ -77,8 +81,8 @@
   /* Lighter on a near-black card than the light theme's are on white: the same
      3% of ink that reads as a stripe on #fff is a grey band on #0a0d1c. */
   --row-stripe: rgba(255, 255, 255, 0.022);
-  --row-hover: rgba(99, 102, 241, 0.14);
-  --row-locked: rgba(99, 102, 241, 0.22);
+  --row-lift-hover: rgba(255, 255, 255, 0.06);
+  --row-lift-open: rgba(255, 255, 255, 0.09);
 }
 
 .vibrant {
@@ -126,37 +130,53 @@
    its highlight once the pointer moves away, which is the entire point of it. */
 /* The stripe is driven by an attribute, not :nth-child, because an expanded row
    inserts a second <tr> for its detail and every row below it would flip. */
-.screener-row                      { --row-tint: transparent; }
+.screener-row,
+.screener-detail                   { --row-tint: transparent; --row-lift: transparent; --row-edge: transparent; }
 .screener-row[data-stripe='true']  { --row-tint: var(--row-stripe); }
+
+/* An open row without a signal gets the accent edge to tie it to its drawer.
+   Declared BEFORE the signal rules, which carry equal specificity, so a
+   flagged row keeps its own colour here too — the edge is the part of the
+   flag that survives a hover, and taking it away on open is the same mistake
+   as recolouring the row. */
+.screener-row[data-open='true'],
+.screener-detail                   { --row-edge: var(--accent); }
 
 /* A flagged row is tinted end to end, in the colour of whichever signal ranks
    highest on it — the badges in the Signals column carry the rest, so nothing
    is lost to that precedence. Kept faint: these are full-width washes behind
    twenty columns of numbers, and anything stronger makes the numbers harder to
-   read, which is the opposite of what a highlight is for. */
-.screener-row[data-signal='rsi_high']  { --row-tint: color-mix(in srgb, var(--danger), transparent 90%); }
-.screener-row[data-signal='rsi_low']   { --row-tint: color-mix(in srgb, var(--success), transparent 90%); }
-.screener-row[data-signal='near_high'] { --row-tint: color-mix(in srgb, var(--accent), transparent 90%); }
-.screener-row[data-signal='near_low']  { --row-tint: color-mix(in srgb, var(--warning), transparent 90%); }
+   read, which is the opposite of what a highlight is for. The matching edge on
+   the first cell is what survives a hover, and what a reader who cannot
+   separate the hues has instead of them. */
+.screener-row[data-signal='rsi_high'],
+.screener-detail[data-signal='rsi_high']   { --row-tint: color-mix(in srgb, var(--danger), transparent 90%);  --row-edge: var(--danger); }
+.screener-row[data-signal='rsi_low'],
+.screener-detail[data-signal='rsi_low']    { --row-tint: color-mix(in srgb, var(--success), transparent 90%); --row-edge: var(--success); }
+.screener-row[data-signal='near_high'],
+.screener-detail[data-signal='near_high']  { --row-tint: color-mix(in srgb, var(--accent), transparent 90%);  --row-edge: var(--accent-light); }
+.screener-row[data-signal='near_low'],
+.screener-detail[data-signal='near_low']   { --row-tint: color-mix(in srgb, var(--warning), transparent 90%); --row-edge: var(--warning); }
 
-.screener-row:hover                { --row-tint: var(--row-hover); }
-.screener-row[data-open='true']    { --row-tint: var(--row-locked); }
+/* Hover and open set the LIFT, never the tint. Two background layers, so the
+   row keeps its own colour underneath and simply gets brighter — replacing the
+   tint here is what made a red row turn blue under the pointer. */
+.screener-row:hover                { --row-lift: var(--row-lift-hover); }
+.screener-row[data-open='true'],
+.screener-detail                   { --row-lift: var(--row-lift-open); }
 
 .screener-row > td,
 .screener-detail > td {
   background-color: var(--bg-card);
-  background-image: linear-gradient(var(--row-tint), var(--row-tint));
+  background-image:
+    linear-gradient(var(--row-lift), var(--row-lift)),
+    linear-gradient(var(--row-tint), var(--row-tint));
 }
 
-/* An open row and its detail are one block, marked by an edge as well as a
-   tint so the pairing survives for a reader who cannot separate the indigo
-   from the surface. */
-.screener-row[data-open='true'] > td:first-child,
+.screener-row > td:first-child,
 .screener-detail > td:first-child {
-  box-shadow: inset 2px 0 0 0 var(--accent);
+  box-shadow: inset 2px 0 0 0 var(--row-edge);
 }
-
-.screener-detail { --row-tint: var(--row-locked); }
 
 /* Noise texture overlay */
 .noise-overlay {
