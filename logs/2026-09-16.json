@@ -1,9 +1,200 @@
 {
   "date": "2026-09-16",
-  "total": 219,
-  "market_sensitive_count": 61,
-  "generated_at": "2026-09-15T23:55:05.795259+00:00",
+  "total": 223,
+  "market_sensitive_count": 62,
+  "generated_at": "2026-09-16T00:01:54.261599+00:00",
   "announcements": [
+    {
+      "ticker": "VR8",
+      "company": "VANADIUM RESOURCES LIMITED",
+      "headline": "Application for quotation of securities - VR8",
+      "time": "2026-09-15T23:58:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136003-6A1344001",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An 'Application for Quotation of Securities' is a procedural ASX filing that follows the completion of a capital raise — new shares or options are being brought onto the register for trading, which means dilution has already occurred or is about to crystallise; applying lesson [L003], this filing in isolation or alongside a companion cessation/placement filing is a signal that a capital raise transaction has just completed and the market needs to absorb the dilution.",
+        "The price action is the most important signal here: VR8 closed above its 60-day high on 3.6x its 20-day average volume, with the 5-day run at 2.31x average — this is genuinely elevated activity on a stock that is only ~3% off its 3-month high; however, with median turnover of only ~A$13,428/day, the absolute dollar volume remains tiny and the ratio numbers, while eye-catching, can be moved by a handful of trades; treat the volume signal as suggestive but not institutional-grade conviction.",
+        "The bearish tension is that new securities hitting the register into a stock that has already run to a 60-day high creates a classic overhang dynamic — placees who received shares at a discount now have an in-the-money exit available, and with a thin secondary market, even modest selling from newly quoted securities could pressure the price back from its recent high."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 254,
+        "last_close": 0.065,
+        "volume_trend_ratio": 2.31,
+        "volume_last_ratio": 3.6,
+        "avg_turnover_aud": 13428,
+        "liquid": false,
+        "pct_from_3m_high": -2.99,
+        "pct_from_3m_low": 441.67,
+        "pct_from_52w_high": -2.99,
+        "pct_from_52w_low": 441.67,
+        "range_position_3m": 0.964,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": true,
+        "notes": [
+          "closed above its 60-day high on 3.6x its 20-day average volume",
+          "volume over the last 5 sessions ran 2.31x its 20-day average",
+          "2.99% off its 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$13,428/day",
+        "reading": [
+          "Going into this, VR8 closed above its 60-day high on 3.6x the shares it normally trades — measured to the 2026-09-15 close, before this announcement was public.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it.",
+          "Treat all of that with care: it trades about A$13,428 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "GCM",
+      "company": "GCM CORPORATION LIMITED",
+      "headline": "Annual General Meeting Information",
+      "time": "2026-09-15T23:57:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136002-6A1344000",
+      "market_sensitive": false,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "An AGM notice is a mandatory administrative filing with no direct valuation impact — it tells the market when and where shareholders will vote on standard resolutions (director re-elections, auditor ratification, remuneration report) and carries no operational content; this is procedurally neutral in isolation.",
+        "The price context is the only meaningful signal: GCM trades 73.81% below its 12-month high on median daily turnover of ~A$15,163 — this is a deeply distressed micro-cap, and an AGM filing at this level of de-rating can occasionally surface shareholder activism or management accountability pressure, but there is nothing in the headline itself to suggest a contested or unusual meeting agenda.",
+        "Watch the AGM resolutions when disclosed: at a company this deeply de-rated, any resolution touching capital structure (new share issuance capacity, performance rights plans) should be read as potential groundwork for a dilutive raise — but absent that detail, the headline alone does not move the needle and the call remains neutral."
+      ],
+      "tags": [
+        "AGM",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 254,
+        "last_close": 0.11,
+        "volume_trend_ratio": 0.78,
+        "volume_last_ratio": 0.15,
+        "avg_turnover_aud": 15163,
+        "liquid": false,
+        "pct_from_3m_high": -31.25,
+        "pct_from_3m_low": 18.28,
+        "pct_from_52w_high": -73.81,
+        "pct_from_52w_low": 18.28,
+        "range_position_3m": 0.254,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "73.81% below its 12-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$15,163/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the lower part of its 3-month range, 31.25% below the high of that period.",
+          "Treat all of that with care: it trades about A$15,163 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TOK",
+      "company": "TOLU MINERALS LIMITED.",
+      "headline": "Tolukuma Mineral Resource Grows 81% to 909 koz Gold",
+      "time": "2026-09-15T23:54:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136001-6A1343999",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "An 81% resource growth to 909 koz gold at Tolukuma is a material re-rating event — this is the kind of resource quantum jump that repositions a junior from prospect-holder to credible development candidate, and the market-sensitive flag confirms management views it as price-moving; the key 'so what' is whether the new resource contains sufficient high-grade ounces to underpin a standalone mine plan or attract acquirer interest.",
+        "Volume context is actively unhelpful here: at 0.2x average on a stock with median daily turnover of ~A$38,529, the tape is essentially empty — there is no meaningful pre-positioning to read into, which cuts both ways; the absence of front-running is mildly constructive (the news is likely not widely leaked) but the thin float also means any institutional interest could move the stock sharply on low absolute volume.",
+        "Next steps that will determine whether this re-rate holds: a Scoping Study or PFS to translate ounces into economics, confirmation of resource classification (Inferred vs. Indicated mix matters enormously for bankability), and clarity on PNG sovereign/permitting risk at Tolukuma, which has historically been the structural discount applied to this asset — without those, the resource number is necessary but not sufficient to sustain a re-rate."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 254,
+        "last_close": 1.3,
+        "volume_trend_ratio": 0.2,
+        "volume_last_ratio": 0.05,
+        "avg_turnover_aud": 38529,
+        "liquid": false,
+        "pct_from_3m_high": -7.8,
+        "pct_from_3m_low": 17.12,
+        "pct_from_52w_high": -26.97,
+        "pct_from_52w_low": 30.0,
+        "range_position_3m": 0.633,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.2x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$38,529/day",
+        "reading": [
+          "Going into this, TOK traded only 0.2x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the middle part of its 3-month range, 7.8% below the high of that period.",
+          "Treat all of that with care: it trades about A$38,529 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CMB",
+      "company": "CAMBIUM BIO LIMITED",
+      "headline": "Notice of ceasing to be a substantial holder",
+      "time": "2026-09-15T23:52:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136000-2A1697374",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A cessation of substantial holding means a previously >5% holder has sold down below the threshold — this is an outright reduction in a meaningful registered position, which is a bearish signal on its own, but the critical mitigant here is that the tape is completely cold: 5-day volume is reported at 0.0x average with median turnover of A$0/day, meaning there is effectively no market in this stock and the exit may have been a negotiated off-market transfer rather than open-market selling pressure.",
+        "Applying lesson [L001]: the filing is not flagged market sensitive and the stock is only 3.16% off its 3-month high — in a normal tape that combination (substantial holder exiting near highs into no volume) would warrant a bearish lean, but with zero median turnover the 'elevated volume into strength' condition that triggers L001 is not met, and the holder's exit may simply reflect a strategic or liquidity-driven decision rather than a negative view on fundamentals.",
+        "The 'so what' for remaining investors is register fragility: losing a substantial holder on a stock with effectively no secondary market liquidity removes a potential support buyer and leaves the register thinner — if any other holder seeks to exit, there is no natural absorber, making this a modestly negative governance/liquidity signal even if the fundamental impact is unclear."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 254,
+        "last_close": 0.46,
+        "volume_trend_ratio": 0.0,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "pct_from_3m_high": -3.16,
+        "pct_from_3m_low": 35.29,
+        "pct_from_52w_high": -23.33,
+        "pct_from_52w_low": 35.29,
+        "range_position_3m": 0.889,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.0x its average",
+          "3.16% off its 3-month high"
+        ],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Going into this, CMB traded only 0.0x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the upper part of its 3-month range, 3.16% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
     {
       "ticker": "CTW",
       "company": "CTW",
