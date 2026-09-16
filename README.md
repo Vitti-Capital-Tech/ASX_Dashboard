@@ -91,7 +91,9 @@ Filter the table to any one of them with the chips above it — the count on eac
 
 **Hovering a flagged row does not recolour it.** Hover brightens the row rather than washing over it, so a red row stays red under the pointer. The coloured edge down its left side never changes at all — that edge is also what a reader who cannot separate the hues has in place of them.
 
-**An open row and its drawer are one card.** Same surface as every other row, no divider between them, a rule across the top of the row and under the drawer, and the signal edge running down the left of both — so it is never ambiguous which ticker the detail belongs to. The drawer takes no tint and no hover of its own: it holds three paragraphs of prose, and a wash behind body text costs contrast for nothing.
+**An open row and its drawer are one card**, joined by what they share rather than by a box drawn round them: the same surface, the same signal tint running through both, the coloured edge down the left of each, and no divider between them. So a green row opens into a green drawer, and it is never ambiguous which ticker the detail belongs to.
+
+**Open as many rows as you like.** Opening one does not close another — comparing two filings is most of the reason to open them in place rather than one at a time.
 
 ---
 

@@ -164,7 +164,7 @@ function DetailRow({ ann, span, signal }: {
       {/* No inline border here: the rule that closes the card off underneath
           lives in globals.css next to the one that opens it above the row, so
           the two cannot drift apart. */}
-      <td colSpan={span} className="px-4 pb-4 pt-0">
+      <td colSpan={span} className="px-4 pt-1 pb-3">
         {/* Sticks to the left edge instead of scrolling away with the numeric
             columns: this is prose, and prose you have to scroll sideways to
             read is not readable. --drawer-w is the scroll container's visible
@@ -190,11 +190,12 @@ function DetailRow({ ann, span, signal }: {
               rather than an overrun. */}
           <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1.9fr)_minmax(0,1fr)] gap-x-4 gap-y-3 items-stretch">
 
-            {/* Exactly the card's own summary panel: a shade up from the
-                surface it sits on, which is the same surface here as there. */}
-            <div className="rounded-xl p-3.5 min-w-0"
-              style={{ background: 'var(--border-subtle)', border: '1px solid var(--border-med)' }}>
-              <div className="flex items-center gap-1.5 mb-2.5">
+            {/* No box round the summary. The drawer is already set apart by its
+                tint and the edge down its left, and a bordered panel inside a
+                highlighted strip inside a bordered table is three frames deep
+                for one paragraph of text. */}
+            <div className="min-w-0">
+              <div className="flex items-center gap-1.5 mb-1.5">
                 <svg viewBox="0 0 16 16" fill="none" className="w-3 h-3 flex-shrink-0" style={{ color: 'var(--accent)' }}>
                   <path d="M8 1l1.2 4.8L14 8l-4.8 1.2L8 15l-1.2-4.8L2 8l4.8-1.2z" fill="currentColor" opacity="0.9" />
                 </svg>
@@ -202,14 +203,11 @@ function DetailRow({ ann, span, signal }: {
               </div>
 
               {summary.length > 0 ? (
-                // Identical to the card's bullets, down to the marker. The
-                // drawer is the card's text in a table; the same sentence
-                // should not be set differently in one place than the other.
-                <ul className="flex flex-col gap-2 min-w-0">
+                <ul className="flex flex-col gap-1.5 min-w-0">
                   {summary.map((point, i) => (
-                    <li key={i} className="flex gap-2.5 text-[0.8rem] leading-[1.62] text-pretty break-words min-w-0"
+                    <li key={i} className="flex gap-2 text-[0.78rem] leading-[1.55] text-pretty break-words min-w-0"
                       style={{ color: 'var(--text-secondary)' }}>
-                      <span className="mt-[0.55em] w-1 h-1 rounded-full flex-shrink-0"
+                      <span className="mt-[0.5em] w-1 h-1 rounded-full flex-shrink-0"
                         style={{ background: 'var(--accent)' }} />
                       <span className="min-w-0 flex-1">{point.replace(/^[\s\-*•\d.]+\s*/, '')}</span>
                     </li>
@@ -273,9 +271,20 @@ export default function AnnouncementTable({ anns }: Props) {
   // Click a row to open it. The table has no room for three bullet points and a
   // row of price chips across twenty numeric columns, so the AI's read of the
   // announcement — the thing the grid view leads with — lives in a drawer
-  // underneath. Opening also pins the highlight, which is what you want while
-  // dragging the table sideways through the later columns.
-  const [openRow, setOpenRow] = useState<string | null>(null);
+  // underneath.
+  //
+  // A set, not a single id: comparing two filings is the whole reason to open
+  // one in place rather than on its own page, and closing the first the moment
+  // you open the second makes that impossible.
+  const [openRows, setOpenRows] = useState<ReadonlySet<string>>(() => new Set());
+
+  function toggleRow(id: string) {
+    setOpenRows(prev => {
+      const next = new Set(prev);
+      if (!next.delete(id)) next.add(id);
+      return next;
+    });
+  }
 
   const [signalFilter, setSignalFilter] = useState<SignalKey | 'all' | 'any'>('all');
 
@@ -628,7 +637,7 @@ export default function AnnouncementTable({ anns }: Props) {
           <tbody>
             {rows.map((a, i) => {
               const id = a.url + i + a.time;
-              const isOpen = openRow === id;
+              const isOpen = openRows.has(id);
               const sigs = signalsByRow.get(a) ?? [];
               return (
                 <Fragment key={id}>
@@ -638,7 +647,7 @@ export default function AnnouncementTable({ anns }: Props) {
                     data-stripe={i % 2 === 1}
                     data-signal={dominant(sigs)}
                     aria-expanded={isOpen}
-                    onClick={() => setOpenRow(isOpen ? null : id)}
+                    onClick={() => toggleRow(id)}
                     title={isOpen ? 'Click to close' : 'Click for the AI read and the price going in'}>
                     {columns.map((c, ci) => (
                       <td key={c.key}

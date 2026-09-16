@@ -150,11 +150,14 @@
 .screener-row[data-signal='near_high']  { --row-tint: color-mix(in srgb, var(--accent), transparent 90%);  --row-edge: var(--accent-light); }
 .screener-row[data-signal='near_low']   { --row-tint: color-mix(in srgb, var(--warning), transparent 90%); --row-edge: var(--warning); }
 
-/* The drawer carries its row's colour on the edge only — never as a wash. */
-.screener-detail[data-signal='rsi_high']   { --row-edge: var(--danger); }
-.screener-detail[data-signal='rsi_low']    { --row-edge: var(--success); }
-.screener-detail[data-signal='near_high']  { --row-edge: var(--accent-light); }
-.screener-detail[data-signal='near_low']   { --row-edge: var(--warning); }
+/* The drawer carries its row's colour too, at the same strength, so an open
+   flagged row and its detail are one continuous band of it rather than a green
+   row with a grey box hanging off the bottom. The prose inside sits in its own
+   panel, which is what keeps the tint off the text. */
+.screener-detail[data-signal='rsi_high']   { --row-tint: color-mix(in srgb, var(--danger), transparent 90%);  --row-edge: var(--danger); }
+.screener-detail[data-signal='rsi_low']    { --row-tint: color-mix(in srgb, var(--success), transparent 90%); --row-edge: var(--success); }
+.screener-detail[data-signal='near_high']  { --row-tint: color-mix(in srgb, var(--accent), transparent 90%);  --row-edge: var(--accent-light); }
+.screener-detail[data-signal='near_low']   { --row-tint: color-mix(in srgb, var(--warning), transparent 90%); --row-edge: var(--warning); }
 
 /* Rows lift under the pointer. The drawer never does, and takes no tint of its
    own either: it is three paragraphs of prose, and a wash behind body text
@@ -169,13 +172,11 @@
     linear-gradient(var(--row-tint), var(--row-tint));
 }
 
-/* An open row and its drawer are ONE card. Same surface as every other row —
-   recessing the drawer to a darker ground made it a separate object and left
-   the reader working out which ticker it belonged to. Instead the pair is
-   bracketed: a rule across the top of the open row, the matching one under the
-   drawer, the signal edge down the left of both, and nothing between them. */
-.screener-row[data-open='true'] > td { border-top: 1px solid var(--border-accent); }
-.screener-detail > td              { border-bottom: 1px solid var(--border-accent); }
+/* An open row and its drawer are ONE card, joined by what they share rather
+   than by a box drawn round them: the same surface, the same signal tint
+   running through both, the coloured edge down the left of each, and no
+   divider between them. Ruling the pair off top and bottom said the same thing
+   with two more lines on a screen that already has twenty columns of them. */
 
 .screener-row > td:first-child,
 .screener-detail > td:first-child {
