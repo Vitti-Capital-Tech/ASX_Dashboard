@@ -1,23 +1,16 @@
 {
   "version": 1,
-  "updated_at": "2026-09-15T10:45:36.849717+00:00",
-  "next_id": 24,
+  "updated_at": "2026-09-16T06:57:57.120318+00:00",
+  "next_id": 31,
   "lessons": [
     {
       "id": "L001",
       "trigger": "Change in substantial holding filed into elevated recent volume (5-day volume >1.5x average) on a stock near a multi-month high",
       "rule": "When volume has been running hot into a substantial holding change, treat the direction of the change as the critical unknown — a reduction by a substantial holder into strength is a material bearish signal, not a neutral procedural event. If you cannot confirm the direction is an increase, default to bearish when the tape is already extended.",
       "created": "2026-09-14",
-      "last_seen": "2026-09-14",
-      "times_seen": 4,
+      "last_seen": "2026-09-16",
+      "times_seen": 5,
       "examples": [
-        {
-          "date": "2026-09-14",
-          "ticker": "SRL",
-          "headline": "Change in substantial holding",
-          "called": "neutral",
-          "abnormal_pct": -15.47
-        },
         {
           "date": "2026-09-14",
           "ticker": "SRL",
@@ -45,6 +38,13 @@
           "headline": "Kincora Receives Further Mongolia Divestment Proceeds",
           "called": "bullish",
           "abnormal_pct": -7.24
+        },
+        {
+          "date": "2026-09-16",
+          "ticker": "VYS",
+          "headline": "Change of Director's Interest Notice",
+          "called": "bearish",
+          "abnormal_pct": 11.06
         }
       ]
     },
@@ -53,30 +53,9 @@
       "trigger": "Drilling activity announcement (programme start, follow-up drilling underway) with no assay results disclosed",
       "rule": "An announcement that drilling has commenced or is underway is a programme statement, not a result — it tells the market only that money is being spent. Do not call bullish on activity-commencement announcements alone; wait for assay data. Flag as neutral until results are released.",
       "created": "2026-09-14",
-      "last_seen": "2026-09-15",
-      "times_seen": 5,
+      "last_seen": "2026-09-16",
+      "times_seen": 6,
       "examples": [
-        {
-          "date": "2026-09-14",
-          "ticker": "PLC",
-          "headline": "Follow-Up RC Drilling Underway at Rochefort",
-          "called": "bullish",
-          "abnormal_pct": -14.39
-        },
-        {
-          "date": "2026-09-14",
-          "ticker": "PLC",
-          "headline": "Follow-Up RC Drilling Underway at Rochefort",
-          "called": "bullish",
-          "abnormal_pct": -14.39
-        },
-        {
-          "date": "2026-09-14",
-          "ticker": "PLC",
-          "headline": "Follow-Up RC Drilling Underway at Rochefort",
-          "called": "bullish",
-          "abnormal_pct": -14.39
-        },
         {
           "date": "2026-09-15",
           "ticker": "EV1",
@@ -90,6 +69,27 @@
           "headline": "McDermitt Drilling Program to Commence & US Elemental Update",
           "called": "neutral",
           "abnormal_pct": 8.7
+        },
+        {
+          "date": "2026-09-16",
+          "ticker": "FAU",
+          "headline": "JAV: FIRST AU TO ACQUIRE JAVELIN MINERALS",
+          "called": "neutral",
+          "abnormal_pct": -16.94
+        },
+        {
+          "date": "2026-09-16",
+          "ticker": "MQR",
+          "headline": "DRILLING TO COMMENCE AT YINDI GOLD PROJECT",
+          "called": "neutral",
+          "abnormal_pct": -14.56
+        },
+        {
+          "date": "2026-09-16",
+          "ticker": "RR1",
+          "headline": "Murchison South Advances to Step Out Drilling",
+          "called": "neutral",
+          "abnormal_pct": 7.42
         }
       ]
     },
@@ -181,18 +181,11 @@
       "trigger": "Drilling intercept result where the headline grade and width appear strong, but the stock is deeply de-rated (>50% below 12-month high)",
       "rule": "Before calling bullish on a strong-looking intercept, ask whether the company's de-rating reflects a known structural problem (funding gap, sovereign risk, permitting failure, commodity price collapse) that a single drill result cannot fix. If the stock has fallen >50% from its high, the market has already seen prior results and re-priced; one good hole is rarely sufficient to reverse that narrative without accompanying funding, resource upgrade, or offtake news.",
       "created": "2026-09-14",
-      "last_seen": "2026-09-14",
-      "times_seen": 4,
+      "last_seen": "2026-09-16",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-09-14",
-          "ticker": "ENR",
-          "headline": "High-Grade Niobium Zone Emerging at Joyce",
-          "called": "bullish",
-          "abnormal_pct": -7.79
-        },
-        {
-          "date": "2026-09-14",
           "ticker": "GRE",
           "headline": "Extensional Whundo Drilling Hits 4.8m at 7.1% Cu 0.9g/t Au",
           "called": "bullish",
@@ -218,6 +211,13 @@
           "headline": "High-Grade Niobium Zone Emerging at Joyce",
           "called": "bullish",
           "abnormal_pct": -7.79
+        },
+        {
+          "date": "2026-09-16",
+          "ticker": "UM1",
+          "headline": "Trenches Expose New Zones of Gold Mineralisation",
+          "called": "bullish",
+          "abnormal_pct": -9.8
         }
       ]
     },
@@ -312,8 +312,8 @@
       "trigger": "Executive Chairman appointment at a micro-cap or small-cap with an identifiable strategic context (e.g. foreign operations, asset sale process, exploration pivot), filed into above-average recent volume",
       "rule": "An Executive Chairman appointment is not always procedural — consolidating board and executive authority in a single named individual is a governance signal that the company is repositioning or that prior leadership has departed under pressure. Before calling neutral, ask whether the appointee is known in the sector and whether the role consolidation implies an acceleration of a known strategic process (sale, JV, restructure); if so, lean bullish or bearish depending on the appointee's track record and the strategic context.",
       "created": "2026-09-14",
-      "last_seen": "2026-09-15",
-      "times_seen": 4,
+      "last_seen": "2026-09-16",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-09-14",
@@ -342,6 +342,13 @@
           "headline": "Board Changes to Accelerate USA Projects",
           "called": "neutral",
           "abnormal_pct": -24.12
+        },
+        {
+          "date": "2026-09-16",
+          "ticker": "CAZ",
+          "headline": "Board Changes & Strategic Review",
+          "called": "neutral",
+          "abnormal_pct": 9.72
         }
       ]
     },
@@ -350,8 +357,8 @@
       "trigger": "Generic 'Investor Presentation' filing by a junior explorer or pre-revenue company, not flagged market sensitive, with no specific catalyst disclosed in the headline",
       "rule": "An investor presentation without a named catalyst (resource estimate, drilling result, funding announcement) is most commonly awareness-building ahead of a capital raise — which is dilutive. Default to bearish rather than neutral when no substantive content is signalled in the headline, because the filing implicitly flags that management is actively marketing stock.",
       "created": "2026-09-14",
-      "last_seen": "2026-09-15",
-      "times_seen": 3,
+      "last_seen": "2026-09-16",
+      "times_seen": 4,
       "examples": [
         {
           "date": "2026-09-14",
@@ -373,6 +380,13 @@
           "headline": "Investor Presentation",
           "called": "bearish",
           "abnormal_pct": 10.88
+        },
+        {
+          "date": "2026-09-16",
+          "ticker": "LIO",
+          "headline": "Investor Presentation - Good Oil and Gas Conference",
+          "called": "neutral",
+          "abnormal_pct": -15.66
         }
       ]
     },
@@ -619,8 +633,8 @@
       "trigger": "Gold assay results described as 'extending' mineralisation (rather than upgrading grade or defining resource boundaries) at an explorer 60%+ below its 12-month high, with volume running materially above average into the announcement",
       "rule": "When volume is elevated ahead of assay results at a deeply de-rated explorer, the market has already partially priced the news — an 'extension' result (which adds strike length but not necessarily grade or resource quantum) is structurally weaker than a resource-upgrade result and is vulnerable to a sell-the-news reaction into the pre-positioned volume. Call bearish rather than neutral on extension-only assay announcements into elevated volume at stocks with severe prior de-ratings.",
       "created": "2026-09-15",
-      "last_seen": "2026-09-15",
-      "times_seen": 4,
+      "last_seen": "2026-09-16",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-09-15",
@@ -649,6 +663,13 @@
           "headline": "Latest Gold Assays Extend Golden Gate Mineralisation",
           "called": "neutral",
           "abnormal_pct": -8.92
+        },
+        {
+          "date": "2026-09-16",
+          "ticker": "PNR",
+          "headline": "Racetrack drilling extends mineralised strike length to 900m",
+          "called": "bearish",
+          "abnormal_pct": 9.03
         }
       ]
     },
@@ -688,8 +709,8 @@
       "trigger": "Cleansing statement filed by a junior at a 12-month low, accompanied on the same day by an investor presentation (identifiable via same-day filing cluster)",
       "rule": "When a cleansing statement and an investor presentation are filed together at a 12-month low, the presentation may be the use-of-proceeds marketing document for the just-completed raise rather than a pre-raise awareness filing — meaning fresh capital has arrived with a stated deployment plan. Ask whether the raise proceeds create a funded runway that removes the near-term going-concern risk; if so, the cleansing statement signals dilution already absorbed and a funded catalyst pipeline, which is neutral-to-bullish rather than bearish. Do not apply L011 in isolation when a companion presentation discloses a credible use of proceeds.",
       "created": "2026-09-15",
-      "last_seen": "2026-09-15",
-      "times_seen": 3,
+      "last_seen": "2026-09-16",
+      "times_seen": 4,
       "examples": [
         {
           "date": "2026-09-15",
@@ -701,13 +722,6 @@
         {
           "date": "2026-09-15",
           "ticker": "KAL",
-          "headline": "Cleansing Statement",
-          "called": "bearish",
-          "abnormal_pct": 10.88
-        },
-        {
-          "date": "2026-09-15",
-          "ticker": "KAL",
           "headline": "Investor Presentation",
           "called": "bearish",
           "abnormal_pct": 10.88
@@ -725,6 +739,13 @@
           "headline": "Investor Presentation",
           "called": "bearish",
           "abnormal_pct": 10.88
+        },
+        {
+          "date": "2026-09-16",
+          "ticker": "IOV",
+          "headline": "IOV Secures $4.25 Million Placement",
+          "called": "bearish",
+          "abnormal_pct": 13.65
         }
       ]
     },
@@ -820,7 +841,126 @@
           "abnormal_pct": 8.7
         }
       ]
+    },
+    {
+      "id": "L024",
+      "trigger": "Market-sensitive acquisition announcement where the acquirer's stock is at a multi-month high and the target is a named junior peer with identifiable asset overlap, but the headline omits transaction terms (consideration type, ratio, or cash component)",
+      "rule": "When consideration terms are absent from the headline of a market-sensitive acquisition announcement, the market will price the worst-case dilution scenario — treat as bearish rather than neutral when the acquirer is at a multi-month high, because the scrip-issuance risk is immediately visible but the strategic upside is not quantifiable without terms; do not default to neutral pending deal detail.",
+      "created": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-16",
+          "ticker": "FAU",
+          "headline": "FIRST AU TO ACQUIRE JAVELIN MINERALS",
+          "called": "neutral",
+          "abnormal_pct": -16.94
+        }
+      ]
+    },
+    {
+      "id": "L025",
+      "trigger": "Oil or gas well operations update (titled 'Operations Update' or similar) at a stock 80%+ below its 12-month high, not flagged market sensitive, with no flow-rate or pressure data in the headline, but implying active well intervention is underway",
+      "rule": "An operations update on a named well at an oil and gas junior — even without disclosed results — can signal that a well intervention has succeeded enough to warrant public disclosure; before applying L002 or L005, ask whether the headline's operational specificity (named well, active verb) implies a result is embedded in the body of the filing; if so, do not default to bearish on the de-rating alone — call neutral pending body review rather than bearish.",
+      "created": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-16",
+          "ticker": "XST",
+          "headline": "Diona-1 Operations Update",
+          "called": "bearish",
+          "abnormal_pct": 16.39
+        }
+      ]
+    },
+    {
+      "id": "L026",
+      "trigger": "Metallurgical testwork result (recovery rate) announced as market sensitive at a junior explorer 50%+ below its 12-month high, with volume running above average into the announcement and no accompanying resource estimate or scoping study",
+      "rule": "A strong recovery rate headline (e.g. >90% gold recovery) is a project de-risking milestone but is not a standalone re-rating catalyst — it confirms processability, which the market discounts heavily unless accompanied by a resource estimate update or scoping study that translates the recovery into project economics; before calling bullish on metallurgy-only results at a deeply de-rated stock, ask whether the recovery figure can be monetised without a concurrent resource or feasibility update; if not, default to neutral rather than bullish.",
+      "created": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-16",
+          "ticker": "TMX",
+          "headline": "Metallurgy Confirms Lightning Gold Up to 93.7% Gold Recovery",
+          "called": "bullish",
+          "abnormal_pct": -14.56
+        }
+      ]
+    },
+    {
+      "id": "L027",
+      "trigger": "Capital raise (placement) announcement flagged market sensitive at a thinly traded micro-cap, where the raise quantum is large relative to the company's normal daily turnover (e.g. >100 trading days of normal volume), and the intended use of proceeds addresses a specific operational catalyst (named project, named programme)",
+      "rule": "A large placement relative to normal liquidity, when use of proceeds is specific and operational (not generic 'working capital'), can be read as a funded-catalyst signal rather than a dilution event — the market may re-rate positively on the certainty of execution that the capital now enables; before defaulting to bearish on any placement, ask whether the proceeds are tied to a named near-term catalyst and whether the raise removes a going-concern or execution risk; if yes, call neutral-to-bullish rather than bearish.",
+      "created": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-16",
+          "ticker": "IOV",
+          "headline": "Proposed issue of securities - IOV",
+          "called": "bearish",
+          "abnormal_pct": 13.65
+        }
+      ]
+    },
+    {
+      "id": "L028",
+      "trigger": "Change in substantial holding filing where the stock has been running above-average volume but is NOT near a multi-month high (i.e. the L001 'elevated volume into strength' trigger does not fire), and no direction of change is disclosed in the headline",
+      "rule": "L001 defaults to bearish when volume is elevated AND the stock is near a high. When the stock is not near a high, the default logic inverts — a substantial holder accumulating into a depressed, above-average-volume tape is more likely to be a strategic buyer than an exiting holder; do not apply the L001 bearish default when the stock is not extended; instead call neutral and require confirmation of direction before leaning bearish.",
+      "created": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-16",
+          "ticker": "VYS",
+          "headline": "Change in substantial holding",
+          "called": "bearish",
+          "abnormal_pct": 11.06
+        }
+      ]
+    },
+    {
+      "id": "L029",
+      "trigger": "Substantial holding filing headlined 'Becoming a substantial holder' (i.e. a new substantial holder crossing the 5% threshold for the first time) at a deeply de-rated stock, not flagged market sensitive",
+      "rule": "'Becoming a substantial holder' is categorically different from a change in an existing substantial holding — it announces that a new party has crossed 5% for the first time, which is unambiguously accumulation, not a reduction; do not apply the L001 bearish default (which addresses direction ambiguity) to a maiden substantial-holder filing; call bullish or neutral-to-bullish when the headline contains 'becoming' rather than 'change in', because direction is confirmed as acquisition by the filing type itself.",
+      "created": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-16",
+          "ticker": "MPW",
+          "headline": "Becoming a substantial holder, change in substantial holding",
+          "called": "bearish",
+          "abnormal_pct": 10.13
+        }
+      ]
+    },
+    {
+      "id": "L030",
+      "trigger": "Production or processing restart announcement (refinery, plant, mill) flagged market sensitive at a stock 70%+ below its 12-month high, with below-average volume in the prior sessions",
+      "rule": "A refinery or plant restart flagged as market sensitive is qualitatively different from a drill result or resource update — it signals a transition from development to active production-phase activity, which can be a discrete re-rating event even at a deeply de-rated stock; do not apply L005 (single-result insufficient to reverse de-rating) mechanically to operational restart announcements, because the restart itself changes the company's revenue-generating status; call neutral-to-bullish when the market-sensitive flag is present and the announcement confirms commencement of a production-phase activity, even with below-average pre-announcement volume.",
+      "created": "2026-09-16",
+      "last_seen": "2026-09-16",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-16",
+          "ticker": "AT4",
+          "headline": "Del Sol Refinery Restart Campaign Commencing",
+          "called": "neutral",
+          "abnormal_pct": 9.16
+        }
+      ]
     }
   ],
-  "last_reflected": "2026-09-15"
+  "last_reflected": "2026-09-16"
 }
