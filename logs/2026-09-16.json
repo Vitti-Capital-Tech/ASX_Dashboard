@@ -1,9 +1,609 @@
 {
   "date": "2026-09-16",
-  "total": 284,
+  "total": 300,
   "market_sensitive_count": 73,
-  "generated_at": "2026-09-16T02:32:37.738720+00:00",
+  "generated_at": "2026-09-16T03:27:41.150913+00:00",
   "announcements": [
+    {
+      "ticker": "LR7",
+      "company": "LA TROBE FINANCIAL CAPITAL MARKETS TRUST 2025-1",
+      "headline": "Monthly Report - August 2026",
+      "time": "2026-09-16T03:15:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136080-2A1697429",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "This is a routine monthly reporting obligation for a structured credit vehicle (La Trobe Financial Capital Markets Trust 2025-1), providing collateral performance, arrears, and prepayment data for August 2026 — it is administrative by nature.",
+        "Not flagged market sensitive, and the document type is a standardised investor report for a securitisation trust; noteholders receive this periodically to monitor pool health — there is no equity price implication for an ASX-listed entity in the conventional sense.",
+        "No actionable catalyst is present: absent a material deterioration in arrears or a credit event disclosed in the body of the report, this filing carries no directional signal for investors and is purely a compliance/disclosure obligation."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "D11",
+      "company": "DRIVER AUSTRALIA ELEVEN TRUST",
+      "headline": "D11 Investor Report - September 2026",
+      "time": "2026-09-16T03:14:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136079-2A1697428",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Driver Australia Eleven Trust (D11) is a securitisation vehicle — this September 2026 investor report is a routine periodic disclosure of auto loan pool performance metrics including collections, arrears, and credit enhancement levels.",
+        "Not flagged market sensitive; the filing is a contractual reporting obligation to noteholders and carries no equity-level price catalyst — it is purely informational for fixed-income investors monitoring the underlying collateral pool.",
+        "Without a disclosed material credit event, covenant breach, or rating action within the report, this announcement has no directional bias and should be treated as procedural administrative disclosure with no near-term price impact."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LR6",
+      "company": "LA TROBE FINANCIAL CAPITAL MARKETS TRUST 2024-3",
+      "headline": "Monthly Report - August 2026",
+      "time": "2026-09-16T03:12:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136078-2A1697427",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "La Trobe Financial Capital Markets Trust 2024-3 (LR6) monthly report for August 2026 is a standard securitisation trust disclosure — periodic pool reporting covering arrears, prepayments, and note balances for noteholders.",
+        "Not flagged market sensitive; this is a compliance-driven filing with no equity price read-through — the trust is a structured finance vehicle, not an operating company with a share price driven by earnings surprises.",
+        "No actionable signal is present: unless the report reveals a material deterioration in collateral performance or a trigger event, this is purely administrative and should be treated as neutral noise in an ASX filing context."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LR5",
+      "company": "LA TROBE FINANCIAL CAPITAL MARKETS TRUST 2024-2",
+      "headline": "Monthly Report - August 2026",
+      "time": "2026-09-16T03:11:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136077-2A1697426",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "La Trobe Financial Capital Markets Trust 2024-2 (LR5) monthly report for August 2026 follows the same pattern as the other La Trobe trust filings — a routine collateral performance disclosure for a residential mortgage-backed or consumer ABS securitisation trust.",
+        "Not flagged market sensitive; this is the fourth in a cluster of La Trobe trust monthly reports filed simultaneously, confirming these are scheduled compliance obligations rather than event-driven disclosures carrying new information.",
+        "The simultaneous cluster of La Trobe trust filings (LR1, LR3, LR4, LR5, LR6, LR7) is itself unremarkable — it reflects a shared reporting calendar for the trust programme and does not imply any structural event or capital action; all carry the same neutral read."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CUE",
+      "company": "CUE ENERGY RESOURCES LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-09-16T03:11:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136076-3A701879",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cue Energy (CUE) has filed a generic investor presentation not flagged market sensitive — per lesson L010, an investor presentation from a junior energy company without a named catalyst (resource upgrade, drilling result, or funding event) in the headline is most commonly awareness-building ahead of a capital raise, which would be dilutive.",
+        "The unflagged status materially reduces conviction: based on track record, unflagged filings are correct on directional calls only 58% of the time, meaning this filing must make its own case — and a no-catalyst investor presentation does not clear that bar as bullish.",
+        "Next step risk is skewed negative: CUE operates producing assets in Australasia but has been subject to capital discipline concerns; management actively marketing via a presentation without disclosing new operational data or financing terms implicitly signals the stock is being marketed rather than the news speaking for itself — lean bearish per L010 framework."
+      ],
+      "tags": [
+        "Energy",
+        "Other"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 254,
+        "last_close": 0.105,
+        "market_cap_aud": 73832928.02,
+        "shares_outstanding": 703170743,
+        "beta": 0.227,
+        "rsi_14": 42.59,
+        "volume_trend_ratio": 0.66,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 3721,
+        "liquid": false,
+        "avg_volume_20": 120300,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -12.5,
+        "pct_from_3m_low": 7.14,
+        "pct_from_52w_high": -32.26,
+        "pct_from_52w_low": 7.14,
+        "high_52w": 0.155,
+        "low_52w": 0.098,
+        "high_3m": 0.12,
+        "low_3m": 0.098,
+        "month1_high": 0.12,
+        "month1_low": 0.105,
+        "month2_high": 0.115,
+        "month2_low": 0.105,
+        "month3_high": 0.12,
+        "month3_low": 0.098,
+        "range_position_3m": 0.318,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$3,721/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the lower part of its 3-month range, 12.5% below the high of that period.",
+          "Treat all of that with care: it trades about A$3,721 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "LR3",
+      "company": "LA TROBE FINANCIAL CAPITAL MARKETS TRUST 2024-1",
+      "headline": "Monthly Report - August 2026",
+      "time": "2026-09-16T03:10:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136075-2A1697425",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "La Trobe Financial Capital Markets Trust 2024-1 (LR3) monthly report for August 2026 is another scheduled securitisation trust disclosure — routine collateral performance reporting for noteholders with no equity price implications.",
+        "Not flagged market sensitive; filing is part of the same simultaneous cluster of La Trobe trust monthly reports, confirming this is a calendar-driven compliance event rather than an information-driven disclosure.",
+        "No directional signal: absent a material credit event, arrears spike, or rating action disclosed in the body, this filing carries zero near-term share-price bias and should be treated as purely procedural."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DA9",
+      "company": "DRIVER AUSTRALIA NINE TRUST",
+      "headline": "DA9 Investor Report - September 2026",
+      "time": "2026-09-16T03:07:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136074-2A1697423",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Driver Australia Nine Trust (DA9) investor report for September 2026 is a routine securitisation trust periodic disclosure — pool-level performance data for noteholders in an auto loan ABS structure, filed as a compliance obligation.",
+        "Not flagged market sensitive; like DA11, this is a contractual reporting requirement with no equity-level price catalyst — the trust does not operate as a trading company and its ASX listing is for debt instruments rather than equity.",
+        "No actionable catalyst: without a disclosed credit event, material arrears deterioration, or early amortisation trigger in the report body, this is purely administrative and carries no directional price signal."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LR4",
+      "company": "LA TROBE FINANCIAL CAPITAL MARKETS TRUST 2023-2",
+      "headline": "Monthly Report - August 2026",
+      "time": "2026-09-16T03:04:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136073-2A1697424",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "La Trobe Financial Capital Markets Trust 2023-2 (LR4) monthly report for August 2026 is a scheduled periodic disclosure for a 2023-vintage securitisation trust — pool seasoning means collateral quality metrics are now more mature, but this does not change the administrative nature of the filing.",
+        "Not flagged market sensitive; filed as part of the same simultaneous La Trobe trust cluster, reinforcing that these are calendar-driven compliance outputs with no new information content beyond the pool data itself.",
+        "No directional signal: the older vintage of this trust (2023-2 vs 2024/2025 vintages) means the pool is more seasoned and arrears behaviour is more predictable — if anything, that reduces the probability of a surprise disclosure, making this even more firmly neutral."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LR1",
+      "company": "LA TROBE FINANCIAL CAPITAL MARKETS TRUST 2023-1",
+      "headline": "Monthly Report - August 2026",
+      "time": "2026-09-16T02:57:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136072-2A1697422",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "La Trobe Financial Capital Markets Trust 2023-1 (LR1) monthly report for August 2026 is the oldest-vintage trust in the La Trobe programme filing today — a scheduled compliance disclosure covering August 2026 pool performance for a now well-seasoned collateral pool.",
+        "Not flagged market sensitive; this is the sixth and final La Trobe trust monthly report in today's cluster, all sharing the same reporting calendar — the simultaneous nature of these filings is standard programme administration and does not imply any structural event across the trust programme.",
+        "No actionable signal: the 2023-1 vintage is the most seasoned of the La Trobe trusts filing today, meaning the pool is in late-stage amortisation — performance should be highly predictable at this point, making a surprise credit event in this specific report the least likely of the cluster; firmly neutral."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PCI",
+      "company": "PERPETUAL CREDIT INCOME TRUST",
+      "headline": "Daily Net Tangible Asset Statement",
+      "time": "2026-09-16T02:50:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136071-2A1697420",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Daily NTA filings are purely administrative disclosures — they confirm the trust's net asset value per unit for the prior day and carry no operational or strategic signal beyond routine transparency obligations.",
+        "With PCI at a 3-month high into this filing, the stock is already pricing in whatever tailwinds (credit spread compression, distribution expectations) have driven recent performance; a routine NTA statement adds no incremental catalyst to justify further re-rating from here.",
+        "Investors should monitor the NTA-to-unit-price premium/discount trajectory rather than the filing itself — persistent trading at a premium to NTA on a credit trust at a cycle high is the key risk variable, as it leaves little margin of safety if credit conditions deteriorate."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-14",
+        "bars": 252,
+        "last_close": 1.105,
+        "market_cap_aud": null,
+        "shares_outstanding": null,
+        "beta": 0.195,
+        "rsi_14": 54.84,
+        "volume_trend_ratio": 1.02,
+        "volume_last_ratio": 0.72,
+        "avg_turnover_aud": 782632,
+        "liquid": true,
+        "avg_volume_20": 857542,
+        "volume_change_pct": -28.0,
+        "pct_from_3m_high": -0.45,
+        "pct_from_3m_low": 2.79,
+        "pct_from_52w_high": -11.6,
+        "pct_from_52w_low": 8.87,
+        "high_52w": 1.25,
+        "low_52w": 1.015,
+        "high_3m": 1.11,
+        "low_3m": 1.075,
+        "month1_high": 1.11,
+        "month1_low": 1.095,
+        "month2_high": 1.11,
+        "month2_low": 1.09,
+        "month3_high": 1.105,
+        "month3_low": 1.075,
+        "range_position_3m": 0.857,
+        "at_3m_high": true,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month high"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-14 close.",
+          "It was already at the top of its 3-month range, so it was running into this rather than reacting to it."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TOK",
+      "company": "TOLU MINERALS LIMITED.",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-09-16T02:44:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136070-6A1344016",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder is ceasing to hold in TOK — this is a register reduction, confirming a meaningful seller has exited or fallen below the 5% threshold, which is a net negative signal for the register quality.",
+        "Tape context is effectively uninformative: volume over the last 5 sessions ran at just 0.2x average on median daily turnover of ~A$38,529 — the stock is thinly traded enough that volume ratios are close to meaningless and cannot be used to infer accumulation or distribution intent around this filing.",
+        "Per lesson L001, when a substantial holder ceases to hold, direction of change is the critical fact — this is a confirmed reduction. With no offsetting buyer publicly disclosed and no market-sensitive flag, the default read is modestly bearish: a large seller has quietly exited a micro-cap register with minimal liquidity to absorb the overhang."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 254,
+        "last_close": 1.3,
+        "market_cap_aud": 365281710.3,
+        "shares_outstanding": 280985931,
+        "beta": 0.175,
+        "rsi_14": 52.29,
+        "volume_trend_ratio": 0.2,
+        "volume_last_ratio": 0.05,
+        "avg_turnover_aud": 38529,
+        "liquid": false,
+        "avg_volume_20": 67728,
+        "volume_change_pct": -95.0,
+        "pct_from_3m_high": -7.8,
+        "pct_from_3m_low": 17.12,
+        "pct_from_52w_high": -26.97,
+        "pct_from_52w_low": 30.0,
+        "high_52w": 1.78,
+        "low_52w": 1.0,
+        "high_3m": 1.41,
+        "low_3m": 1.11,
+        "month1_high": 1.38,
+        "month1_low": 1.155,
+        "month2_high": 1.4,
+        "month2_low": 1.125,
+        "month3_high": 1.41,
+        "month3_low": 1.11,
+        "range_position_3m": 0.633,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "volume over the last 5 sessions was 0.2x its average"
+        ],
+        "caveat": "thinly traded, median turnover about A$38,529/day",
+        "reading": [
+          "Going into this, TOK traded only 0.2x its usual daily volume over the last 5 sessions — measured to the 2026-09-15 close.",
+          "The price sat in the middle part of its 3-month range, 7.8% below the high of that period.",
+          "Treat all of that with care: it trades about A$38,529 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "ACW",
+      "company": "ACTINOGEN MEDICAL LIMITED",
+      "headline": "Notification of cessation of securities - ACW",
+      "time": "2026-09-16T02:43:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136069-2A1697414",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "Cessation of securities at ACW most likely reflects options or performance rights lapsing unexercised or being forfeited — a register-cleaning event that removes a specific tranche of future dilution from the capital structure.",
+        "Per lesson L017, cessation filings in isolation (no companion raise filing evident) should be read as modestly constructive rather than bearish: the dilution overhang disappears without any cash outflow or new share issuance, which is net positive for existing holders on a per-share basis.",
+        "The filing is not flagged market sensitive and carries no operational content, so the near-term price impact is likely minimal; the constructive read is structural rather than catalytic, and investors should assess the size of the lapsed tranche relative to total shares on issue to quantify the overhang removal."
+      ],
+      "tags": [
+        "Compliance",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 254,
+        "last_close": 0.057,
+        "market_cap_aud": 218076994.94,
+        "shares_outstanding": 3825912192,
+        "beta": 1.133,
+        "rsi_14": 61.89,
+        "volume_trend_ratio": 1.14,
+        "volume_last_ratio": 0.78,
+        "avg_turnover_aud": 115269,
+        "liquid": true,
+        "avg_volume_20": 5549569,
+        "volume_change_pct": -22.0,
+        "pct_from_3m_high": -12.31,
+        "pct_from_3m_low": 83.87,
+        "pct_from_52w_high": -20.83,
+        "pct_from_52w_low": 103.57,
+        "high_52w": 0.072,
+        "low_52w": 0.028,
+        "high_3m": 0.065,
+        "low_3m": 0.031,
+        "month1_high": 0.065,
+        "month1_low": 0.041,
+        "month2_high": 0.048,
+        "month2_low": 0.039,
+        "month3_high": 0.047,
+        "month3_low": 0.031,
+        "range_position_3m": 0.765,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the upper part of its 3-month range, 12.31% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "D10",
+      "company": "DRIVER AUSTRALIA TEN TRUST",
+      "headline": "DA10 Investor Report - September 2026",
+      "time": "2026-09-16T02:41:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136068-2A1697413",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "The DA10 Investor Report is a periodic disclosure for the Driver Australia Ten Trust, an asset-backed securities (ABS) vehicle — it provides pool performance metrics (collections, prepayment rates, arrears) for the underlying auto-loan receivables rather than any equity-level operational news.",
+        "This filing is not flagged market sensitive and is a routine compliance deliverable; institutional holders in ABS trusts monitor these reports for deterioration in arrears or prepayment speeds that could affect note subordination, but a monthly investor report in isolation is not a trading catalyst.",
+        "The 'so what' for investors is purely in the data inside the document — rising 60+ day arrears or accelerated prepayments would be the material signal; absent those triggers, the filing is administrative and the trust units should trade on macro credit conditions rather than this disclosure."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QAL",
+      "company": "QUALITAS LIMITED",
+      "headline": "Notification regarding unquoted securities - QAL",
+      "time": "2026-09-16T02:41:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136067-3A701878",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "A 'Notification regarding unquoted securities' from Qualitas Limited (QAL) typically relates to the vesting, issue, or conversion of performance rights, options, or other equity instruments that are not yet quoted on the exchange — a routine corporate governance disclosure.",
+        "The filing is not flagged market sensitive and carries no headline capital raise signal; however, investors should note whether the unquoted securities represent a meaningful volume relative to QAL's issued capital, as a large tranche converting to quoted shares introduces near-term supply.",
+        "QAL operates as a real estate credit investment manager; this filing has no bearing on its underlying loan book, funds under management trajectory, or earnings outlook — the actionable read comes from quarterly FUM updates and deployment announcements, not procedural securities notifications."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 254,
+        "last_close": 2.52,
+        "market_cap_aud": 759589782.84,
+        "shares_outstanding": 301424517,
+        "beta": 0.803,
+        "rsi_14": 23.89,
+        "volume_trend_ratio": 0.64,
+        "volume_last_ratio": 0.55,
+        "avg_turnover_aud": 1575988,
+        "liquid": true,
+        "avg_volume_20": 586917,
+        "volume_change_pct": -45.0,
+        "pct_from_3m_high": -30.0,
+        "pct_from_3m_low": 1.61,
+        "pct_from_52w_high": -38.54,
+        "pct_from_52w_low": 11.5,
+        "high_52w": 4.1,
+        "low_52w": 2.26,
+        "high_3m": 3.6,
+        "low_3m": 2.48,
+        "month1_high": 3.4,
+        "month1_low": 2.48,
+        "month2_high": 3.6,
+        "month2_low": 2.96,
+        "month3_high": 3.32,
+        "month3_low": 2.8,
+        "range_position_3m": 0.036,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the lower part of its 3-month range, 30.0% below the high of that period."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "R8R",
+      "company": "REGENER8 RESOURCES NL",
+      "headline": "Final Director's Interest Notice",
+      "time": "2026-09-16T02:40:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136066-6A1344015",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "A 'Final Director's Interest Notice' is filed when a director ceases their role and is required to disclose their terminal securities holding — the 'Final' designation confirms a director departure has occurred or is in progress at Regener8 Resources NL.",
+        "The filing is not flagged market sensitive and carries no operational content, but a director exit at a micro-cap explorer warrants a secondary check: the key question is whether this departure is isolated or part of a broader board restructure, and whether the departing director held material equity that could now be sold into the market.",
+        "Without accompanying price action data, the directional read is limited; however, at micro-cap explorers, director departures can signal disagreement over strategy or funding — investors should cross-reference against any recent capital raise, project update, or prior substantial holder filing to assess whether the exit is routine retirement or a governance stress signal."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 254,
+        "last_close": 0.13,
+        "market_cap_aud": 10054364.19,
+        "shares_outstanding": 77341263,
+        "beta": 0.794,
+        "rsi_14": 50.3,
+        "volume_trend_ratio": 0.98,
+        "volume_last_ratio": 0.0,
+        "avg_turnover_aud": 0,
+        "liquid": false,
+        "avg_volume_20": 27922,
+        "volume_change_pct": -100.0,
+        "pct_from_3m_high": -13.33,
+        "pct_from_3m_low": 30.0,
+        "pct_from_52w_high": -45.83,
+        "pct_from_52w_low": 30.0,
+        "high_52w": 0.24,
+        "low_52w": 0.1,
+        "high_3m": 0.15,
+        "low_3m": 0.1,
+        "month1_high": 0.15,
+        "month1_low": 0.12,
+        "month2_high": 0.135,
+        "month2_low": 0.105,
+        "month3_high": 0.13,
+        "month3_low": 0.1,
+        "range_position_3m": 0.6,
+        "at_3m_high": false,
+        "at_3m_low": false,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [],
+        "caveat": "thinly traded, median turnover about A$0/day",
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "The price sat in the middle part of its 3-month range, 13.33% below the high of that period.",
+          "Treat all of that with care: it trades about A$0 a day, so a volume ratio here can be two or three trades rather than genuine interest."
+        ]
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATH",
+      "company": "ALTERITY THERAPEUTICS LIMITED",
+      "headline": "Application for quotation of securities - ATH",
+      "time": "2026-09-16T02:36:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03136065-3A701877",
+      "market_sensitive": false,
+      "document_type": "Market Update",
+      "summary": [
+        "An 'Application for quotation of securities' means newly issued shares (most commonly from a placement, rights issue, or option exercise) are being admitted to trading — this filing confirms dilution has already occurred and the new stock is about to hit the market as freely tradeable supply.",
+        "Per lesson L003, when a quotation filing appears, investors should identify the companion filing (placement completion, capital raise) that generated these securities — the quotation application is the delivery mechanism for dilution, and the stock trading at a 3-month low into this filing suggests the market has already partially absorbed the negative sentiment from the raise.",
+        "With ATH at a 3-month low, the incremental bearish pressure comes from overhang: newly quoted securities issued at a placement price that may already be underwater for participants creates near-term selling pressure, and biotech micro-caps at cycle lows with fresh dilution landing on the register face a structurally difficult near-term tape until the new holders establish conviction or the stock finds fundamental support."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Healthcare"
+      ],
+      "market_context": {
+        "as_of": "2026-09-15",
+        "bars": 254,
+        "last_close": 0.425,
+        "market_cap_aud": 92862678.5,
+        "shares_outstanding": 218500420,
+        "beta": 0.69,
+        "rsi_14": 30.96,
+        "volume_trend_ratio": 0.96,
+        "volume_last_ratio": 0.78,
+        "avg_turnover_aud": 155341,
+        "liquid": true,
+        "avg_volume_20": 378588,
+        "volume_change_pct": -22.0,
+        "pct_from_3m_high": -45.86,
+        "pct_from_3m_low": 0.0,
+        "pct_from_52w_high": -45.86,
+        "pct_from_52w_low": 21.43,
+        "high_52w": 0.785,
+        "low_52w": 0.35,
+        "high_3m": 0.785,
+        "low_3m": 0.425,
+        "month1_high": 0.54,
+        "month1_low": 0.425,
+        "month2_high": 0.595,
+        "month2_low": 0.495,
+        "month3_high": 0.785,
+        "month3_low": 0.56,
+        "range_position_3m": 0.0,
+        "at_3m_high": false,
+        "at_3m_low": true,
+        "at_52w_high": false,
+        "at_52w_low": false,
+        "broke_out": false,
+        "notes": [
+          "at a 3-month low"
+        ],
+        "caveat": null,
+        "reading": [
+          "Volume into this was around normal, measured to the 2026-09-15 close.",
+          "It was at the bottom of its 3-month range, already falling into this."
+        ]
+      },
+      "sentiment": "bearish"
+    },
     {
       "ticker": "DA8",
       "company": "DRIVER AUSTRALIA EIGHT TRUST",
