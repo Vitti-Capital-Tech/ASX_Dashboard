@@ -73,16 +73,17 @@ function BreakdownBar({ stat }: { stat: SentimentStat }) {
   }
 
   return (
-    // gap-[2px] is the surface showing through — segments are separated by a gap,
-    // never by a drawn border.
-    <div className="flex gap-[2px] h-2">
+    // One continuous track, rounded at the two outer ends only. The segments
+    // used to be separate pills with a 2px gap between them, which read as a
+    // bar that had failed to render rather than as a split of one total.
+    <div className="flex h-2 rounded-full overflow-hidden"
+      style={{ background: 'var(--border-subtle)' }}>
       {segments.map(s => (
         <div key={s.label}
           title={`${s.n} ${s.label}`}
           style={{
             width: `${(s.n / total) * 100}%`,
             background: s.color,
-            borderRadius: 4,
             opacity: s.label === 'no real move' ? 0.55 : 1,
           }} />
       ))}
@@ -327,14 +328,15 @@ export default function AccuracyPanel({
                 <b style={{ color: OK }}>✓{correct}</b> <b style={{ color: BAD }}>✗{wrong}</b>
               </span>
             </div>
-            <div className="flex-1 flex gap-[2px] h-2">
+            <div className="flex-1 flex h-2 rounded-full overflow-hidden"
+              style={{ background: 'var(--border-subtle)' }}>
               {correct > 0 && (
                 <div title={`${correct} correct`}
-                  style={{ width: `${(correct / (correct + wrong)) * 100}%`, background: OK, borderRadius: 4 }} />
+                  style={{ width: `${(correct / (correct + wrong)) * 100}%`, background: OK }} />
               )}
               {wrong > 0 && (
                 <div title={`${wrong} wrong`}
-                  style={{ width: `${(wrong / (correct + wrong)) * 100}%`, background: BAD, borderRadius: 4 }} />
+                  style={{ width: `${(wrong / (correct + wrong)) * 100}%`, background: BAD }} />
               )}
             </div>
             <Stat label="Bull − bear" value={pct(s.spread_pct, 2)} color={moveColor(s.spread_pct)}

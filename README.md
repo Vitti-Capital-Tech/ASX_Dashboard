@@ -89,7 +89,9 @@ Three rules keep the flags honest:
 
 Filter the table to any one of them with the chips above it — the count on each chip is how many rows it matches today. When several signals land on one row, the tint and the edge follow the first of RSI 80+, RSI 30−, near high, near low; the badges still show all of them.
 
-**Hovering or opening a flagged row does not recolour it.** Both brighten the row rather than washing it over, so a red row stays red under the pointer, and the coloured edge on the left of the row — which is also what a reader who cannot separate the hues has instead of them — stays put through both.
+**Hovering a flagged row does not recolour it.** Hover brightens the row rather than washing over it, so a red row stays red under the pointer, and the coloured edge on the left — which is also what a reader who cannot separate the hues has instead of them — stays put through hover and through opening.
+
+**The open drawer takes no tint at all.** It holds three paragraphs of prose, and a wash behind body text costs contrast for nothing; the caret, the coloured edge and the drawer itself already say which row is open.
 
 ---
 

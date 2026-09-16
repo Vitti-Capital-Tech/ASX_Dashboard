@@ -173,7 +173,10 @@ function DetailRow({ ann, span, signal }: {
           {summary.length > 0 ? (
             <ul className="flex flex-col gap-1.5">
               {summary.map((point, i) => (
-                <li key={i} className="flex gap-2 text-[0.76rem] leading-relaxed"
+                // Same size and leading as the card's bullets. The drawer is the
+                // card's text in a table, and there is no reason for the same
+                // sentence to be harder to read in one place than the other.
+                <li key={i} className="flex gap-2.5 text-[0.8rem] leading-[1.62] text-pretty break-words min-w-0"
                   style={{ color: 'var(--text-secondary)' }}>
                   <span style={{ color: 'var(--accent-light)' }} aria-hidden>·</span>
                   <span>{point}</span>

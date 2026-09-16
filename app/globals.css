@@ -149,21 +149,26 @@
    read, which is the opposite of what a highlight is for. The matching edge on
    the first cell is what survives a hover, and what a reader who cannot
    separate the hues has instead of them. */
-.screener-row[data-signal='rsi_high'],
-.screener-detail[data-signal='rsi_high']   { --row-tint: color-mix(in srgb, var(--danger), transparent 90%);  --row-edge: var(--danger); }
-.screener-row[data-signal='rsi_low'],
-.screener-detail[data-signal='rsi_low']    { --row-tint: color-mix(in srgb, var(--success), transparent 90%); --row-edge: var(--success); }
-.screener-row[data-signal='near_high'],
-.screener-detail[data-signal='near_high']  { --row-tint: color-mix(in srgb, var(--accent), transparent 90%);  --row-edge: var(--accent-light); }
-.screener-row[data-signal='near_low'],
-.screener-detail[data-signal='near_low']   { --row-tint: color-mix(in srgb, var(--warning), transparent 90%); --row-edge: var(--warning); }
+.screener-row[data-signal='rsi_high']   { --row-tint: color-mix(in srgb, var(--danger), transparent 90%);  --row-edge: var(--danger); }
+.screener-row[data-signal='rsi_low']    { --row-tint: color-mix(in srgb, var(--success), transparent 90%); --row-edge: var(--success); }
+.screener-row[data-signal='near_high']  { --row-tint: color-mix(in srgb, var(--accent), transparent 90%);  --row-edge: var(--accent-light); }
+.screener-row[data-signal='near_low']   { --row-tint: color-mix(in srgb, var(--warning), transparent 90%); --row-edge: var(--warning); }
 
-/* Hover and open set the LIFT, never the tint. Two background layers, so the
-   row keeps its own colour underneath and simply gets brighter — replacing the
-   tint here is what made a red row turn blue under the pointer. */
+/* The drawer carries its row's colour on the edge only — never as a wash. */
+.screener-detail[data-signal='rsi_high']   { --row-edge: var(--danger); }
+.screener-detail[data-signal='rsi_low']    { --row-edge: var(--success); }
+.screener-detail[data-signal='near_high']  { --row-edge: var(--accent-light); }
+.screener-detail[data-signal='near_low']   { --row-edge: var(--warning); }
+
+/* Hover sets the LIFT, never the tint: a second background layer over the row's
+   own colour rather than a replacement, so a red row stays red under the
+   pointer. Nothing else sets it.
+
+   An open row and its drawer deliberately get NO lift. The drawer is three
+   paragraphs of prose, and a wash behind body text costs contrast for nothing —
+   the caret, the coloured edge and the drawer itself already say the row is
+   open. The drawer takes no signal tint either, for the same reason. */
 .screener-row:hover                { --row-lift: var(--row-lift-hover); }
-.screener-row[data-open='true'],
-.screener-detail                   { --row-lift: var(--row-lift-open); }
 
 .screener-row > td,
 .screener-detail > td {
