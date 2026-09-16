@@ -5,7 +5,7 @@ close by `reflect.py` and read back to it the next morning. This is a ledger, no
 a rolling window — nothing here is ever deleted.
 
 - Last reflection: 2026-09-16
-- 22 active, 8 candidate, 0 dormant
+- 28 active, 4 candidate, 0 dormant
 
 A lesson enters as a **candidate** and stays out of the daily prompt until the same
 blind spot turns up on 2 separate days, because one occurrence cannot be told
@@ -300,6 +300,76 @@ _Seen 2×. First written 2026-09-15, last reinforced 2026-09-15._
 | 2026-09-15 | EV1 | neutral | +10.9% | Chikundo RC Drilling Programme Underway |
 | 2026-09-15 | JLL | neutral | +8.7% | McDermitt Drilling Program to Commence & US Elemental Update |
 
+### L024 — Market-sensitive acquisition announcement where the acquirer's stock is at a multi-month high and the target is a named junior peer with identifiable asset overlap, but the headline omits transaction terms (consideration type, ratio, or cash component)
+
+When consideration terms are absent from the headline of a market-sensitive acquisition announcement, the market will price the worst-case dilution scenario — treat as bearish rather than neutral when the acquirer is at a multi-month high, because the scrip-issuance risk is immediately visible but the strategic upside is not quantifiable without terms; do not default to neutral pending deal detail.
+
+_Seen 2×. First written 2026-09-16, last reinforced 2026-09-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-16 | FAU | neutral | -16.9% | JAV: FIRST AU TO ACQUIRE JAVELIN MINERALS |
+| 2026-09-16 | FAU | neutral | -16.9% | FIRST AU TO ACQUIRE JAVELIN MINERALS |
+| 2026-09-16 | FAU | neutral | -16.9% | FIRST AU TO ACQUIRE JAVELIN MINERALS |
+
+### L025 — Oil or gas well operations update (titled 'Operations Update' or similar) at a stock 80%+ below its 12-month high, not flagged market sensitive, with no flow-rate or pressure data in the headline, but implying active well intervention is underway
+
+An operations update on a named well at an oil and gas junior — even without disclosed results — can signal that a well intervention has succeeded enough to warrant public disclosure; before applying L002 or L005, ask whether the headline's operational specificity (named well, active verb) implies a result is embedded in the body of the filing; if so, do not default to bearish on the de-rating alone — call neutral pending body review rather than bearish.
+
+_Seen 2×. First written 2026-09-16, last reinforced 2026-09-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-16 | AXP | neutral | -9.4% | Oil Flow Rates Enhanced at Charlie 1 Well After Controlled F |
+| 2026-09-16 | XST | bearish | +16.4% | Diona-1 Operations Update |
+| 2026-09-16 | XST | bearish | +16.4% | Diona-1 Operations Update |
+
+### L026 — Metallurgical testwork result (recovery rate) announced as market sensitive at a junior explorer 50%+ below its 12-month high, with volume running above average into the announcement and no accompanying resource estimate or scoping study
+
+A strong recovery rate headline (e.g. >90% gold recovery) is a project de-risking milestone but is not a standalone re-rating catalyst — it confirms processability, which the market discounts heavily unless accompanied by a resource estimate update or scoping study that translates the recovery into project economics; before calling bullish on metallurgy-only results at a deeply de-rated stock, ask whether the recovery figure can be monetised without a concurrent resource or feasibility update; if not, default to neutral rather than bullish.
+
+_Seen 2×. First written 2026-09-16, last reinforced 2026-09-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-16 | TMX | bullish | -14.6% | Metallurgy Confirms Lightning Gold Up to 93.7% Gold Recovery |
+| 2026-09-16 | TMX | bullish | -14.6% | Metallurgy Confirms Lightning Gold Up to 93.7% Gold Recovery |
+
+### L027 — Capital raise (placement) announcement flagged market sensitive at a thinly traded micro-cap, where the raise quantum is large relative to the company's normal daily turnover (e.g. >100 trading days of normal volume), and the intended use of proceeds addresses a specific operational catalyst (named project, named programme)
+
+A large placement relative to normal liquidity, when use of proceeds is specific and operational (not generic 'working capital'), can be read as a funded-catalyst signal rather than a dilution event — the market may re-rate positively on the certainty of execution that the capital now enables; before defaulting to bearish on any placement, ask whether the proceeds are tied to a named near-term catalyst and whether the raise removes a going-concern or execution risk; if yes, call neutral-to-bullish rather than bearish.
+
+_Seen 2×. First written 2026-09-16, last reinforced 2026-09-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-16 | IOV | bearish | +13.7% | IOV Secures $4.25 Million Placement |
+| 2026-09-16 | IOV | bearish | +13.7% | Proposed issue of securities - IOV |
+| 2026-09-16 | IOV | bearish | +13.7% | Proposed issue of securities - IOV |
+
+### L029 — Substantial holding filing headlined 'Becoming a substantial holder' (i.e. a new substantial holder crossing the 5% threshold for the first time) at a deeply de-rated stock, not flagged market sensitive
+
+'Becoming a substantial holder' is categorically different from a change in an existing substantial holding — it announces that a new party has crossed 5% for the first time, which is unambiguously accumulation, not a reduction; do not apply the L001 bearish default (which addresses direction ambiguity) to a maiden substantial-holder filing; call bullish or neutral-to-bullish when the headline contains 'becoming' rather than 'change in', because direction is confirmed as acquisition by the filing type itself.
+
+_Seen 2×. First written 2026-09-16, last reinforced 2026-09-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-16 | MPW | bearish | +10.1% | Becoming a substantial holder, change in substantial holding |
+| 2026-09-16 | VYS | bearish | +11.1% | Change in substantial holding |
+| 2026-09-16 | MPW | bearish | +10.1% | Becoming a substantial holder, change in substantial holding |
+
+### L030 — Production or processing restart announcement (refinery, plant, mill) flagged market sensitive at a stock 70%+ below its 12-month high, with below-average volume in the prior sessions
+
+A refinery or plant restart flagged as market sensitive is qualitatively different from a drill result or resource update — it signals a transition from development to active production-phase activity, which can be a discrete re-rating event even at a deeply de-rated stock; do not apply L005 (single-result insufficient to reverse de-rating) mechanically to operational restart announcements, because the restart itself changes the company's revenue-generating status; call neutral-to-bullish when the market-sensitive flag is present and the announcement confirms commencement of a production-phase activity, even with below-average pre-announcement volume.
+
+_Seen 2×. First written 2026-09-16, last reinforced 2026-09-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-16 | AT4 | neutral | +9.2% | Del Sol Refinery Restart Campaign Commencing |
+| 2026-09-16 | AT4 | neutral | +9.2% | Del Sol Refinery Restart Campaign Commencing |
+
 ## Candidates
 
 Seen once. Waiting to see whether they are real or were a coincidence.
@@ -314,46 +384,6 @@ _Seen 1×. First written 2026-09-14, last reinforced 2026-09-14._
 | --- | --- | --- | ---: | --- |
 | 2026-09-14 | RGL | neutral | -8.4% | Haul Road Agreement Delivers Win for RGL's Kal Gold Project |
 
-### L024 — Market-sensitive acquisition announcement where the acquirer's stock is at a multi-month high and the target is a named junior peer with identifiable asset overlap, but the headline omits transaction terms (consideration type, ratio, or cash component)
-
-When consideration terms are absent from the headline of a market-sensitive acquisition announcement, the market will price the worst-case dilution scenario — treat as bearish rather than neutral when the acquirer is at a multi-month high, because the scrip-issuance risk is immediately visible but the strategic upside is not quantifiable without terms; do not default to neutral pending deal detail.
-
-_Seen 1×. First written 2026-09-16, last reinforced 2026-09-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-09-16 | FAU | neutral | -16.9% | FIRST AU TO ACQUIRE JAVELIN MINERALS |
-
-### L025 — Oil or gas well operations update (titled 'Operations Update' or similar) at a stock 80%+ below its 12-month high, not flagged market sensitive, with no flow-rate or pressure data in the headline, but implying active well intervention is underway
-
-An operations update on a named well at an oil and gas junior — even without disclosed results — can signal that a well intervention has succeeded enough to warrant public disclosure; before applying L002 or L005, ask whether the headline's operational specificity (named well, active verb) implies a result is embedded in the body of the filing; if so, do not default to bearish on the de-rating alone — call neutral pending body review rather than bearish.
-
-_Seen 1×. First written 2026-09-16, last reinforced 2026-09-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-09-16 | XST | bearish | +16.4% | Diona-1 Operations Update |
-
-### L026 — Metallurgical testwork result (recovery rate) announced as market sensitive at a junior explorer 50%+ below its 12-month high, with volume running above average into the announcement and no accompanying resource estimate or scoping study
-
-A strong recovery rate headline (e.g. >90% gold recovery) is a project de-risking milestone but is not a standalone re-rating catalyst — it confirms processability, which the market discounts heavily unless accompanied by a resource estimate update or scoping study that translates the recovery into project economics; before calling bullish on metallurgy-only results at a deeply de-rated stock, ask whether the recovery figure can be monetised without a concurrent resource or feasibility update; if not, default to neutral rather than bullish.
-
-_Seen 1×. First written 2026-09-16, last reinforced 2026-09-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-09-16 | TMX | bullish | -14.6% | Metallurgy Confirms Lightning Gold Up to 93.7% Gold Recovery |
-
-### L027 — Capital raise (placement) announcement flagged market sensitive at a thinly traded micro-cap, where the raise quantum is large relative to the company's normal daily turnover (e.g. >100 trading days of normal volume), and the intended use of proceeds addresses a specific operational catalyst (named project, named programme)
-
-A large placement relative to normal liquidity, when use of proceeds is specific and operational (not generic 'working capital'), can be read as a funded-catalyst signal rather than a dilution event — the market may re-rate positively on the certainty of execution that the capital now enables; before defaulting to bearish on any placement, ask whether the proceeds are tied to a named near-term catalyst and whether the raise removes a going-concern or execution risk; if yes, call neutral-to-bullish rather than bearish.
-
-_Seen 1×. First written 2026-09-16, last reinforced 2026-09-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-09-16 | IOV | bearish | +13.7% | Proposed issue of securities - IOV |
-
 ### L028 — Change in substantial holding filing where the stock has been running above-average volume but is NOT near a multi-month high (i.e. the L001 'elevated volume into strength' trigger does not fire), and no direction of change is disclosed in the headline
 
 L001 defaults to bearish when volume is elevated AND the stock is near a high. When the stock is not near a high, the default logic inverts — a substantial holder accumulating into a depressed, above-average-volume tape is more likely to be a strategic buyer than an exiting holder; do not apply the L001 bearish default when the stock is not extended; instead call neutral and require confirmation of direction before leaning bearish.
@@ -364,25 +394,25 @@ _Seen 1×. First written 2026-09-16, last reinforced 2026-09-16._
 | --- | --- | --- | ---: | --- |
 | 2026-09-16 | VYS | bearish | +11.1% | Change in substantial holding |
 
-### L029 — Substantial holding filing headlined 'Becoming a substantial holder' (i.e. a new substantial holder crossing the 5% threshold for the first time) at a deeply de-rated stock, not flagged market sensitive
+### L031 — Change of Director's Interest Notice filed into elevated volume (5-day volume >1.5x average) at a stock that is NOT near a multi-month high, with no direction disclosed in the headline
 
-'Becoming a substantial holder' is categorically different from a change in an existing substantial holding — it announces that a new party has crossed 5% for the first time, which is unambiguously accumulation, not a reduction; do not apply the L001 bearish default (which addresses direction ambiguity) to a maiden substantial-holder filing; call bullish or neutral-to-bullish when the headline contains 'becoming' rather than 'change in', because direction is confirmed as acquisition by the filing type itself.
-
-_Seen 1×. First written 2026-09-16, last reinforced 2026-09-16._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-09-16 | MPW | bearish | +10.1% | Becoming a substantial holder, change in substantial holding |
-
-### L030 — Production or processing restart announcement (refinery, plant, mill) flagged market sensitive at a stock 70%+ below its 12-month high, with below-average volume in the prior sessions
-
-A refinery or plant restart flagged as market sensitive is qualitatively different from a drill result or resource update — it signals a transition from development to active production-phase activity, which can be a discrete re-rating event even at a deeply de-rated stock; do not apply L005 (single-result insufficient to reverse de-rating) mechanically to operational restart announcements, because the restart itself changes the company's revenue-generating status; call neutral-to-bullish when the market-sensitive flag is present and the announcement confirms commencement of a production-phase activity, even with below-average pre-announcement volume.
+L001's bearish default was designed for holders selling into strength; a director's interest notice into elevated volume on a stock that is not extended is structurally different — the director may be acquiring, and insider buying at a depressed price is a constructive signal. Do not apply the L001 bearish default to director interest notices when the stock is not near a recent high; call neutral and require confirmation of direction before leaning bearish, because the base rate for director purchases (constructive) is meaningfully higher than for sales at non-extended prices.
 
 _Seen 1×. First written 2026-09-16, last reinforced 2026-09-16._
 
 | Date | Ticker | Called | Move | Headline |
 | --- | --- | --- | ---: | --- |
-| 2026-09-16 | AT4 | neutral | +9.2% | Del Sol Refinery Restart Campaign Commencing |
+| 2026-09-16 | VYS | bearish | +11.1% | Change of Director's Interest Notice |
+
+### L032 — Board Changes combined with a Strategic Review announcement, flagged market sensitive, at a stock 50%+ below its 12-month high with above-average recent volume
+
+A 'Board Changes & Strategic Review' filing at a deeply de-rated stock is not a procedural governance event — the strategic review component signals that incumbent leadership has been displaced and an asset or corporate process has been opened, which at a stock with heavily priced-in bad news creates asymmetric upside (sale, merger, or asset monetisation). When the filing is market-sensitive and combines board change with an explicit strategic review, lean bullish rather than neutral, because the downside is already largely priced and the review announcement itself sets a floor by signalling management accountability and potential value realisation.
+
+_Seen 1×. First written 2026-09-16, last reinforced 2026-09-16._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-16 | CAZ | neutral | +9.7% | Board Changes & Strategic Review |
 
 ## Dormant
 
