@@ -144,6 +144,15 @@ export interface MarketContext {
   bars: number;
   last_close: number;
 
+  /** Shares on issue priced at `last_close`, in A$. Absent on logs written
+   *  before these columns existed, and null when Yahoo has no share count. */
+  market_cap_aud?: number | null;
+  shares_outstanding?: number | null;
+  /** Daily-return beta against the S&P/ASX 200 over the bars they share. */
+  beta?: number | null;
+  /** Wilder's 14-day RSI to `as_of`. */
+  rsi_14?: number | null;
+
   /** Last 5 sessions' average volume over the 20-day average. */
   volume_trend_ratio: number | null;
   /** The latest session's volume over the 20-day average. */
@@ -151,6 +160,10 @@ export interface MarketContext {
   avg_turnover_aud: number | null;
   /** False when turnover is too small for the ratios above to mean anything. */
   liquid: boolean;
+
+  /** The same two facts as the ratios above, in the units a table column wants. */
+  avg_volume_20?: number | null;
+  volume_change_pct?: number | null;
 
   pct_from_3m_high: number | null;
   pct_from_3m_low: number | null;
@@ -162,6 +175,21 @@ export interface MarketContext {
   at_3m_low: boolean;
   at_52w_high: boolean;
   at_52w_low: boolean;
+
+  /** The levels themselves, for the table. Absent on logs written before these
+   *  columns existed — every consumer must tolerate undefined. */
+  high_52w?: number | null;
+  low_52w?: number | null;
+  high_3m?: number | null;
+  low_3m?: number | null;
+  /** Blocks of 21 trading days walking back: month1 is the most recent. Null
+   *  when the block is not complete, so a partial month never reads as a full one. */
+  month1_high?: number | null;
+  month1_low?: number | null;
+  month2_high?: number | null;
+  month2_low?: number | null;
+  month3_high?: number | null;
+  month3_low?: number | null;
 
   /** Closed above its 60-day high on at least 2x average volume. */
   broke_out: boolean;

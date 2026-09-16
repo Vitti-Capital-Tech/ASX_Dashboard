@@ -16,7 +16,8 @@ Every day, hundreds of companies release official announcements on the stock mar
 4. **Highlights Bullish News:** Our AI analyzes text and flags positive announcements with a green **▲ BULLISH** badge and a glowing green card.
 5. **Tracks Substantial Holders:** Detects when major investors cross the 5% ownership threshold — a key signal for potential takeovers or institutional confidence.
 6. **Organizes by Category:** Filter news by type — Bullish, Dividends, Capital Raises, Results, Substantial Holding, Trading Halts, and more.
-7. **WhatsApp Summary Generation:** Formats copy-pastable, mobile-friendly 5-6 line summaries for Placement & IPO campaigns, facilitating direct sharing with clients.
+7. **Screener Table View:** Switch the feed to **List** and the same announcements lay out as a sortable table — market cap, beta, RSI, average volume and how far off it today is, 52-week and monthly high/low, and the latest close, beside each headline. See [The table view, column by column](#the-table-view-column-by-column) below.
+8. **WhatsApp Summary Generation:** Formats copy-pastable, mobile-friendly 5-6 line summaries for Placement & IPO campaigns, facilitating direct sharing with clients.
 
 ---
 
@@ -40,6 +41,34 @@ The ratio climbs through August because FY results season floods the market with
 
 ---
 
+## The table view, column by column
+
+List view shows the day's announcements as a screener. Every number in it describes **the company's price going into that announcement** — never a live quote, and never a forecast.
+
+| Column | What it is |
+| --- | --- |
+| **ASX Code** | The ticker. A red dot means the ASX flagged the filing price-sensitive. |
+| **Company / Announcement** | The company name and the headline. The headline links to the original ASX document. |
+| **Time** | When it was lodged, Sydney time. |
+| **Type** | The ASX's own document type — "Quarterly Activities Report", "Trading Halt", and so on. |
+| **Sentiment** | The AI's bullish / bearish / neutral call on the announcement. |
+| **Mkt Cap (A$M)** | Shares on issue times the latest close, in millions of Australian dollars. |
+| **Beta (vs XJO)** | How much the stock moves when the S&P/ASX 200 moves, from a year of daily moves. 1.0 tracks the index; 2.0 swings twice as hard; below zero moves against it. |
+| **Avg Vol (20d, M)** | Average shares traded per day over the last 20 sessions, in millions. |
+| **Vol Chg (%)** | The latest session's volume against that 20-day average. `+150` means one-and-a-half times more shares changed hands than usual. |
+| **RSI (14d)** | The standard 14-day momentum gauge, 0 to 100. Shaded red at 70 and above ("overbought"), blue at 30 and below ("oversold"). These are conventions, not calls. |
+| **52W High / Low** | The highest and lowest the stock traded over the last 52 weeks. |
+| **Latest Close** | The last closing price **before** the announcement. Hover it to see which day that was. |
+| **M1–M3 High / Low** | The high and low of each of the last three months, most recent first. A month here is 21 trading days, so the three are directly comparable; an incomplete month shows a dash rather than a partial figure. |
+
+**A dash means we do not have that number**, most often because the stock is newly listed, suspended, or Yahoo Finance has no history for it. It never means zero.
+
+**Why these are yesterday's numbers.** Around 80% of ASX announcements land before the market opens, so the day's own bar does not exist yet when we measure. More importantly, folding the price reaction to a piece of news into the picture of what preceded it would make every one of these columns circular. The measurement window always stops at the last close before the filing.
+
+**Not included:** the spreadsheet these columns came from also carried *Confidence* and *Quarters of Funding*. Neither exists anywhere in this pipeline — the AI does not emit a confidence score, and quarters of funding needs the cash-burn line out of each company's Appendix 4C. Rather than show an empty column, they are left out.
+
+---
+
 ## How to Use the Dashboard
 
 1. **Pick a Date:** On the left sidebar, choose the date you want to inspect.
@@ -47,7 +76,9 @@ The ratio climbs through August because FY results season floods the market with
 3. **WhatsApp Messages Tab:** Access the **Whatsapp Messages** tab to view processed Placement & IPO summaries. Hover over any card and click the copy button to copy the pre-formatted 5-6 line summary directly to your clipboard.
 4. **Search:** Type a ticker (e.g. `BHP`) or company name into the search bar to find specific news.
 5. **Market Overview:** The sidebar shows a live summary — total announcements, sensitive news count, substantial holders, bullish signals, active tickers, and trading halts.
-6. **Export:** Click **Export CSV Data** in the sidebar to download the full day's data.
+6. **Grid or List:** The toggle in the top bar switches between the card feed (**Grid**) and the screener table (**List**). Your choice is remembered.
+7. **Sort the table:** In List view, click any number column heading to sort by it — biggest first, then smallest, then a third click to go back to the feed's own order (sensitive news first, then bullish, then newest).
+8. **Export:** Click **Export CSV Data** in the sidebar to download the full day's data.
 
 ---
 
@@ -316,6 +347,19 @@ python fetch_msg.py --input "Raw text from placement document..."
 To export Placement & IPO details from the sqlite database:
 ```bash
 python scripts/export_placements.py --db path/to/placement/state.db --out ./placements --date YYYY-MM-DD
+```
+
+The table view's numbers are attached by the fetcher as it saves each announcement, so a log written **before** a column existed has a blank where that column should be. To rebuild them over logs you already have:
+```bash
+python scripts/backfill_context.py --days 30           # last 30 days of logs
+python scripts/backfill_context.py --days 5 --dry-run  # report, write nothing
+```
+It recomputes each announcement's context from bars that closed before **its own** log date, so a backfilled row and a live one are the same measurement. Nothing else in the log is touched.
+
+To check the measurements themselves against live prices:
+```bash
+python market_context.py --self-test
+python market_context.py --ticker BHP --date 2026-09-16
 ```
 
 ---

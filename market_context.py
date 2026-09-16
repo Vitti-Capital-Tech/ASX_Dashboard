@@ -32,8 +32,10 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import os
 import warnings
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 import pandas as pd
 import yfinance as yf
@@ -52,6 +54,7 @@ HISTORY_PERIOD = '1y'
 SHORT_WINDOW = 5      # "the last few days"
 BASE_WINDOW = 20      # the average those days are compared against
 QUARTER_WINDOW = 63   # ~3 months
+YEAR_WINDOW = 252     # ~52 weeks
 BREAKOUT_WINDOW = 60
 
 # Below this many bars the averages are not meaningful and no context is built.
@@ -69,6 +72,22 @@ NEAR_PCT = 1.0
 # A breakout needs both halves: a new high AND the volume to support it. Price
 # alone drifts to new highs on nothing.
 BREAKOUT_VOLUME_MULTIPLE = 2.0
+
+# RSI period. 14 is the convention, and the number a reader who already knows
+# what "RSI 72" means has in their head; any other period would need a label.
+RSI_WINDOW = 14
+
+# A "month" of bars. The monthly high/low columns walk back in blocks of this,
+# so Month1 is the most recent ~21 sessions and Month2 the ~21 before it.
+MONTH_WINDOW = 21
+MONTHS_BACK = 3
+
+# Shares on issue are the one figure here that no amount of price history can
+# give, and the only one needing a request per ticker. Cached for a day: the
+# fetcher runs every ~5 minutes, and a share count moves on placements and
+# buybacks, not on the hour.
+FUNDAMENTALS_CACHE = Path(__file__).with_name('.cache') / 'fundamentals.json'
+FUNDAMENTALS_TTL_HOURS = 24
 
 # yfinance rejects very long ticker lists in one call.
 CHUNK = 100
@@ -129,6 +148,86 @@ def fetch_history(tickers: list[str], period: str = HISTORY_PERIOD,
     return out
 
 
+def fetch_shares_outstanding(tickers: list[str],
+                            cache_path: Path = FUNDAMENTALS_CACHE,
+                            ttl_hours: int = FUNDAMENTALS_TTL_HOURS) -> dict[str, float]:
+    """
+    Shares on issue per Yahoo symbol, cached on disk for `ttl_hours`.
+
+    Market cap is the one column here that price bars cannot produce, and
+    yfinance has no bulk endpoint for the share count — it is a request per
+    ticker. The fetcher runs every ~5 minutes across ~300 tickers, so without
+    the cache this alone would be throttled inside the hour.
+
+    Deliberately returns the SHARE COUNT rather than Yahoo's own market cap.
+    Yahoo's figure is marked to the live price, which for a past date would
+    fold the reaction to the news into the situation that preceded it — the
+    look-ahead rule this module is built around. The count is multiplied by
+    whichever close the context is being computed to, in compute_context().
+
+    Missing entries are simply absent from the returned dict; a market cap that
+    could not be established renders as blank, which is honest.
+    """
+    symbols = sorted({yahoo_symbol(t) for t in tickers if t})
+    if not symbols:
+        return {}
+
+    cache: dict[str, dict] = {}
+    try:
+        cache = json.loads(cache_path.read_text(encoding='utf-8'))
+    except (OSError, json.JSONDecodeError, ValueError):
+        cache = {}
+
+    now = datetime.now(timezone.utc)
+    fresh: dict[str, float] = {}
+    stale: list[str] = []
+    for sym in symbols:
+        entry = cache.get(sym) or {}
+        shares = entry.get('shares')
+        try:
+            age_h = (now - datetime.fromisoformat(entry['fetched_at'])).total_seconds() / 3600
+        except (KeyError, TypeError, ValueError):
+            age_h = None
+        if shares and age_h is not None and age_h < ttl_hours:
+            fresh[sym] = float(shares)
+        else:
+            stale.append(sym)
+
+    if stale:
+        print(f"[fundamentals] refreshing {len(stale)} of {len(symbols)} share counts...")
+    for sym in stale:
+        shares = None
+        try:
+            info = yf.Ticker(sym).fast_info
+            for key in ('shares', 'shares_outstanding', 'implied_shares_outstanding'):
+                try:
+                    v = info[key]
+                except (KeyError, TypeError, AttributeError):
+                    v = None
+                if v and math.isfinite(float(v)) and float(v) > 0:
+                    shares = float(v)
+                    break
+        except Exception:
+            shares = None
+
+        if shares:
+            fresh[sym] = shares
+            cache[sym] = {'shares': shares, 'fetched_at': now.isoformat()}
+        elif (cache.get(sym) or {}).get('shares'):
+            # A stale count beats an empty column: it is wrong by whatever was
+            # issued since, not wrong by an order of magnitude.
+            fresh[sym] = float(cache[sym]['shares'])
+
+    try:
+        cache_path.parent.mkdir(parents=True, exist_ok=True)
+        cache_path.write_text(json.dumps(cache, indent=1, sort_keys=True), encoding='utf-8')
+    except OSError as e:
+        print(f"[fundamentals] cache not written: {e}")
+
+    print(f"[fundamentals] share counts for {len(fresh)}/{len(symbols)} symbols.")
+    return fresh
+
+
 def bars_before(df: pd.DataFrame | None, date_str: str) -> pd.DataFrame | None:
     """
     Every bar that closed strictly before `date_str`.
@@ -160,21 +259,111 @@ def _pct(a: float, b: float) -> float | None:
     return round((a / b - 1) * 100, 2)
 
 
-def compute_context(df: pd.DataFrame | None, date_str: str) -> dict | None:
+def _rsi(close: pd.Series, window: int = RSI_WINDOW) -> float | None:
+    """
+    Wilder's RSI to the last bar, or None when there is not enough history.
+
+    Wilder's smoothing rather than a flat mean of the last 14 changes: the
+    smoothed version is what every charting package draws, and a reader
+    comparing this column against their own screen would otherwise find two
+    different numbers with the same name.
+    """
+    if len(close) < window + 1:
+        return None
+    delta = close.diff().dropna()
+    gain = delta.clip(lower=0.0)
+    loss = (-delta).clip(lower=0.0)
+    alpha = 1 / window
+    avg_gain = gain.ewm(alpha=alpha, min_periods=window, adjust=False).mean().iloc[-1]
+    avg_loss = loss.ewm(alpha=alpha, min_periods=window, adjust=False).mean().iloc[-1]
+    if not (math.isfinite(avg_gain) and math.isfinite(avg_loss)):
+        return None
+    if avg_loss == 0:
+        # No down days in the window. 100 when it has been rising, and for a
+        # line that has not moved at all — a suspended or untraded stub — 50,
+        # since "maximum strength" would be a lie about a flat price.
+        return 100.0 if avg_gain > 0 else 50.0
+    return round(100 - 100 / (1 + avg_gain / avg_loss), 2)
+
+
+def _monthly_extremes(hist: pd.DataFrame, months: int = MONTHS_BACK) -> dict:
+    """
+    High and low for each of the last `months` blocks of MONTH_WINDOW bars.
+
+    Month1 is the most recent block, Month2 the one before it, and so on back.
+    Blocks of trading days rather than calendar months on purpose: these columns
+    are read side by side, and a calendar month that happened to contain Easter
+    is not comparable with one that did not.
+
+    A partial block reads as None rather than as the few bars that exist. Four
+    sessions labelled "Month3" next to two full months invites exactly the
+    comparison that is not there.
+    """
+    out: dict[str, float | None] = {}
+    for m in range(1, months + 1):
+        end = len(hist) - (m - 1) * MONTH_WINDOW
+        start = end - MONTH_WINDOW
+        block = hist.iloc[start:end] if start >= 0 else None
+        if block is None or len(block) < MONTH_WINDOW:
+            out[f'month{m}_high'] = None
+            out[f'month{m}_low'] = None
+            continue
+        out[f'month{m}_high'] = round(float(block['High'].max()), 4)
+        out[f'month{m}_low'] = round(float(block['Low'].min()), 4)
+    return out
+
+
+def _beta(close: pd.Series, bench: pd.DataFrame | None, date_str: str) -> float | None:
+    """
+    Daily-return beta against the benchmark, over the sessions the two share.
+
+    Computed from the history already in hand rather than read off Yahoo's
+    profile: that figure is a 5-year monthly beta, it is missing for most of the
+    small caps this feed is full of, and fetching it is a request per ticker.
+    The benchmark is cut with bars_before() too, so a past date is measured
+    against the index as it stood then.
+    """
+    if bench is None or bench.empty:
+        return None
+    b = bars_before(bench, date_str)
+    if b is None or len(b) < MIN_BARS:
+        return None
+
+    pair = pd.concat(
+        [close.pct_change().rename('stock'), b['Close'].pct_change().rename('bench')],
+        axis=1, join='inner',
+    ).replace([float('inf'), float('-inf')], pd.NA).dropna()
+    if len(pair) < MIN_BARS:
+        return None
+
+    var = float(pair['bench'].var())
+    if not math.isfinite(var) or var == 0:
+        return None
+    cov = float(pair['stock'].cov(pair['bench']))
+    return round(cov / var, 3) if math.isfinite(cov) else None
+
+
+def compute_context(df: pd.DataFrame | None, date_str: str,
+                    bench: pd.DataFrame | None = None,
+                    shares_outstanding: float | None = None) -> dict | None:
     """
     What the price was doing going into `date_str`, or None if it cannot be said.
 
     Returns None rather than a dict of nulls when there is too little history:
     a caller can then omit the whole block, which reads better than a row of
     dashes and cannot be mistaken for "nothing was happening".
+
+    `bench` and `shares_outstanding` are optional because the two callers differ
+    in what they can supply, and a beta or a market cap that is absent costs a
+    column while a missing context costs the whole block. Both obey the same
+    no-look-ahead rule as everything else: the benchmark is cut at the same
+    date, and the share count is priced at the same close.
     """
     hist = bars_before(df, date_str)
     if hist is None or len(hist) < MIN_BARS:
         return None
 
     close = hist['Close']
-    high = hist['High']
-    low = hist['Low']
     vol = hist['Volume']
 
     last_close = float(close.iloc[-1])
@@ -189,7 +378,15 @@ def compute_context(df: pd.DataFrame | None, date_str: str) -> dict | None:
 
     q = hist.tail(QUARTER_WINDOW)
     q_high, q_low = float(q['High'].max()), float(q['Low'].min())
-    y_high, y_low = float(high.max()), float(low.min())
+
+    # Explicitly the last 252 sessions, not "whatever was passed in". The live
+    # fetcher hands over a year of bars and the two are the same thing, but
+    # build_history.py pulls 2-3 years for its base rates — so every
+    # `52w` field it wrote was really a 2-year extreme under a 52-week label.
+    # Harmless while they were only percentages feeding a sentence; not harmless
+    # now that a column headed "52W High" prints the level itself.
+    y = hist.tail(YEAR_WINDOW)
+    y_high, y_low = float(y['High'].max()), float(y['Low'].min())
 
     # Where in the 3-month range the last close sits: 0 at the low, 1 at the high.
     span = q_high - q_low
@@ -210,12 +407,27 @@ def compute_context(df: pd.DataFrame | None, date_str: str) -> dict | None:
     from_q_high = _pct(last_close, q_high)
     from_y_high = _pct(last_close, y_high)
 
+    rsi = _rsi(close)
+    beta = _beta(close, bench, date_str)
+    # Priced at the close as REPORTED, not at full float precision. Otherwise
+    # the close in one column times the share count does not give the market
+    # cap in the next, and on a stock quoted at 0.008 that gap is visible.
+    market_cap = (round(round(last_close, 4) * shares_outstanding, 2)
+                  if shares_outstanding and math.isfinite(shares_outstanding) else None)
+
     return {
         # The date of the last bar used, so a reader knows what "recent" means
         # and can tell a quiet feed from a stale one.
         'as_of': hist.index[-1].date().isoformat(),
         'bars': int(len(hist)),
         'last_close': round(last_close, 4),
+
+        # Priced at the close above rather than at today's, so a row about a
+        # past announcement shows the company as it was sized that morning.
+        'market_cap_aud': market_cap,
+        'shares_outstanding': int(shares_outstanding) if shares_outstanding else None,
+        'beta': beta,
+        'rsi_14': rsi,
 
         # Volume. `trend` is the question actually asked — has it been building
         # over several days — rather than whether one day happened to be busy.
@@ -224,11 +436,27 @@ def compute_context(df: pd.DataFrame | None, date_str: str) -> dict | None:
         'avg_turnover_aud': int(turnover) if math.isfinite(turnover) else None,
         'liquid': bool(math.isfinite(turnover) and turnover >= MIN_TURNOVER_AUD),
 
+        # The same two facts as the ratios above, in the units a table wants:
+        # shares rather than a multiple, and a percentage change rather than a
+        # multiple of 1. Both measure the latest session against the 20-day
+        # average, so a column and a chip can never disagree.
+        'avg_volume_20': int(base_vol) if math.isfinite(base_vol) else None,
+        'volume_change_pct': (round((vol_multiple - 1) * 100, 2)
+                              if vol_multiple is not None else None),
+
         # Position. Negative percentages mean "below the high by this much".
         'pct_from_3m_high': from_q_high,
         'pct_from_3m_low': _pct(last_close, q_low),
         'pct_from_52w_high': from_y_high,
         'pct_from_52w_low': _pct(last_close, y_low),
+
+        # The levels themselves. The percentages say how far off a high the
+        # price is; a table also has to print the high.
+        'high_52w': round(y_high, 4),
+        'low_52w': round(y_low, 4),
+        'high_3m': round(q_high, 4),
+        'low_3m': round(q_low, 4),
+        **_monthly_extremes(hist),
         'range_position_3m': range_pos,
         'at_3m_high': bool(from_q_high is not None and from_q_high >= -NEAR_PCT),
         'at_3m_low': bool(_pct(last_close, q_low) is not None and _pct(last_close, q_low) <= NEAR_PCT),
@@ -405,8 +633,12 @@ def describe(ctx: dict | None) -> list[str]:
 # CLI
 # ─────────────────────────────────────────────────────────────
 
-def _show(ticker: str, date_str: str, hist: dict[str, pd.DataFrame]) -> None:
-    ctx = compute_context(hist.get(yahoo_symbol(ticker)), date_str)
+def _show(ticker: str, date_str: str, hist: dict[str, pd.DataFrame],
+          shares: dict[str, float] | None = None) -> None:
+    sym = yahoo_symbol(ticker)
+    ctx = compute_context(hist.get(sym), date_str,
+                          bench=hist.get(BENCHMARK_DEFAULT),
+                          shares_outstanding=(shares or {}).get(sym))
     print(f"\n--- {ticker} going into {date_str} ---")
     if ctx is None:
         print("   no context (too little history)")
@@ -426,7 +658,8 @@ def main() -> None:
 
     if args.self_test:
         tickers = ['BHP', 'LTR', 'AAU', 'FCT']
-        hist = fetch_history(tickers)
+        hist = fetch_history(tickers, extra=[BENCHMARK_DEFAULT])
+        shares = fetch_shares_outstanding(tickers)
 
         print("\n=== no-look-ahead: bars_before must exclude the date itself ===")
         df = hist[yahoo_symbol('BHP')]
@@ -448,15 +681,27 @@ def main() -> None:
         print(f"  compute_context(first {MIN_BARS - 5} bars) -> "
               f"{compute_context(df.head(MIN_BARS - 5), d2)}")
 
+        print("")
+        print("=== table columns are populated, not just present ===")
+        c = compute_context(df, d2, bench=hist.get(BENCHMARK_DEFAULT),
+                            shares_outstanding=shares.get(yahoo_symbol('BHP')))
+        for k in ('rsi_14', 'beta', 'market_cap_aud', 'avg_volume_20',
+                  'volume_change_pct', 'high_52w', 'low_52w',
+                  'month1_high', 'month2_high', 'month3_high'):
+            print(f"  {k:<18} {c.get(k)}")
+        print(f"  RSI within 0-100      : {c['rsi_14'] is None or 0 <= c['rsi_14'] <= 100}")
+        print(f"  52w high >= last close: {c['high_52w'] >= c['last_close']}")
+        print(f"  52w low  <= last close: {c['low_52w'] <= c['last_close']}")
+
         for t in tickers:
-            _show(t, args.date, hist)
+            _show(t, args.date, hist, shares)
         return
 
     if not args.ticker:
         ap.error("--ticker is required unless --self-test")
 
-    hist = fetch_history([args.ticker])
-    _show(args.ticker, args.date, hist)
+    hist = fetch_history([args.ticker], extra=[BENCHMARK_DEFAULT])
+    _show(args.ticker, args.date, hist, fetch_shares_outstanding([args.ticker]))
 
 
 if __name__ == '__main__':

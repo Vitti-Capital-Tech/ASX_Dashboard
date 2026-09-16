@@ -18,12 +18,15 @@ The system is built on a **Decoupled Serverless Architecture**. It segregates th
     1.  A 3-bullet-point summary.
     2.  Semantic tags (e.g., "Mining", "Dividend").
     3.  A `bullish` / `bearish` / `neutral` sentiment label.
-*   **Storage:** The final enriched data is saved directly as a JSON file (`logs/YYYY-MM-DD.json`).
+*   **Price Context (`market_context.py`):** Before the AI stage, one year of daily bars per ticker is pulled from Yahoo Finance in a single batched request and sliced locally. From it the engine derives, per announcement: market capitalisation, beta against the S&P/ASX 200, 14-day RSI, 20-day average volume and the latest session's variance from it, 52-week and 3-month extremes, and the high/low of each of the last three 21-session blocks. Two invariants govern the module: **no look-ahead** (only bars that closed strictly before the announcement enter a context, so a past event and a live one are measured identically) and **facts, not calls** (every field is a measurement the reader can check; the AI is handed these numbers but is never the source of one that renders).
+*   **Storage:** The final enriched data is saved directly as a JSON file (`logs/YYYY-MM-DD.json`), with the price context embedded per announcement under `market_context`.
+*   **Backfill (`scripts/backfill_context.py`):** Contexts are attached at save time, so a measurement added to the module today is absent from every log written before today. The backfill re-derives them over a date range using the current code, each against its own log date.
 
 #### B. The Presentation Layer (Next.js 14)
 *   **Framework:** Built entirely on Next.js App Router with React 18.
 *   **Backend-for-Frontend (BFF):** Local API routes (`/api/logs/[date]` and `/api/placements/[date]`) act as bridges, reading local JSON logs or querying external backend APIs and serving them securely to the browser.
 *   **Client Interface:** A highly responsive dashboard using Tailwind CSS ("Midnight Intelligence" theme). It features client-side text filtering, layout toggling, theme switching, and a dedicated copy-to-clipboard system for WhatsApp messages.
+*   **Two Readings of One Feed:** The same filtered, sorted announcement list renders either as cards (**Grid** — what was announced) or as a screener table (**List** — what the company is and where the price sits). The table surfaces the `market_context` measurements as sortable columns; a measurement that could not be taken renders as a dash and sorts to the bottom in both directions, so an absent figure never competes with a real one.
 
 #### C. Placement/IPO Engine & WhatsApp Summary Generator
 *   **Source:** Placement and campaign details are served by the external placement backend on AWS EC2.
@@ -42,7 +45,12 @@ graph TD
     CL -.->|on failure, 3x retry| GQ{Groq LLaMA-3.3}
     CL -->|Summary, tags, sentiment| FA
     GQ -->|Summary, tags, sentiment| FA
+    YF[Yahoo Finance] -->|"1y daily bars, batched per 100 tickers"| MC(market_context.py)
+    MC -->|"Only bars closing BEFORE the announcement"| MEAS["Mkt cap, beta, RSI, volume,<br/>52w + monthly extremes"]
+    MEAS -->|market_context per announcement| FA
+    MEAS -.->|grounds the prompt| GRP
     FA -->|Appends to| DL[(logs/YYYY-MM-DD.json)]
+    BF(scripts/backfill_context.py) -.->|"Rebuilds context on older logs"| DL
     DL --> BFF1[Next.js API: /api/logs/date]
 
     %% Placement & IPO Pipeline
@@ -55,6 +63,8 @@ graph TD
     %% Frontend Layer
     BFF1 --> Dashboard[React Dashboard]
     BFF2 --> Dashboard
+    Dashboard -->|Grid view| CARDS[AnnouncementCard]
+    Dashboard -->|List view| TBL[AnnouncementTable: sortable screener]
     Dashboard -->|Copy to Clipboard| Clip[Clipboard / Client Sharing]
 ```
 

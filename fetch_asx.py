@@ -27,9 +27,11 @@ from groq import Groq
 
 from calibration import cached_prompt_block
 from market_context import (
+    BENCHMARK_DEFAULT,
     compute_context,
     describe,
     fetch_history,
+    fetch_shares_outstanding,
     interpret,
     liquidity_caveat,
     yahoo_symbol,
@@ -523,15 +525,30 @@ def attach_market_context(anns: list[dict], date_str: str) -> None:
         return
 
     try:
-        hist = fetch_history(tickers)
+        # The index rides along in the same pull: beta needs it, and a second
+        # request for one symbol is a second chance to be throttled.
+        hist = fetch_history(tickers, extra=[BENCHMARK_DEFAULT])
     except Exception as e:
         print(f"[context] history unavailable, continuing without it: {e}")
         return
 
+    # Share counts are cached for a day, so this is a few requests on the first
+    # run of the morning and none on the twenty after it. Failing here costs the
+    # market cap column and nothing else.
+    try:
+        shares = fetch_shares_outstanding(tickers)
+    except Exception as e:
+        print(f"[context] share counts unavailable, market cap omitted: {e}")
+        shares = {}
+
+    bench = hist.get(BENCHMARK_DEFAULT)
+
     attached = 0
     for a in anns:
         try:
-            ctx = compute_context(hist.get(yahoo_symbol(a.get("ticker", ""))), date_str)
+            sym = yahoo_symbol(a.get("ticker", ""))
+            ctx = compute_context(hist.get(sym), date_str, bench=bench,
+                                  shares_outstanding=shares.get(sym))
         except Exception:
             ctx = None
         if ctx:

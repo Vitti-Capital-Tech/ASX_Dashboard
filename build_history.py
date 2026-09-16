@@ -129,7 +129,7 @@ def build_events(dates: list[str], hist: dict[str, pd.DataFrame]) -> list[dict]:
             # Context strictly before the announcement — the same function the
             # live path uses, so a past event and a live one are described by
             # identical measurements.
-            ctx = compute_context(df, date_str)
+            ctx = compute_context(df, date_str, bench=bench)
 
             bi = session_index(bench, date_str, after_close) if bench is not None else None
 

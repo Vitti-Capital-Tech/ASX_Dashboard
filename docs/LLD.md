@@ -44,6 +44,39 @@ All read via `_env_or_default`, which treats the empty strings GitHub Actions in
 *   **Afternoon gap:** the cron stops at 14:00 AEST (gate bound 15), but announcements keep arriving until ~19:00. On 26 Aug 2026 the log captured 249 of the day's 296 price-sensitive announcements; all 47 missing were lodged after 12:37 AEST, the last run of that day. Extending the schedule is the fix.
 *   **Historical logs predate full-day ingestion:** logs written before `MARKET_SENSITIVE_ONLY` was set to `False` contain only the alpha subset, so their `market_sensitive_count / total` ratio reads ~97%. They cannot be backfilled — the API retains roughly six days of history.
 
+### 1b. Price Context Module (`market_context.py`)
+
+#### Purpose
+To measure what a stock's price was doing **going into** an announcement, and to be the single place those measurements are defined so the prompt, the card, the table and the historical event file can never disagree.
+
+#### Two invariants
+*   **No look-ahead.** `bars_before()` is the only path by which price data enters a context, and it is exclusive of the announcement's own date by construction. Around 80% of ASX filings land pre-open, so the day's bar does not exist yet anyway; for backfilled and historical contexts the rule is load-bearing, since folding the reaction to the news into the situation preceding it makes every past analogue worthless.
+*   **Facts, not calls.** Every field is a measurement a reader can check. The model is handed the same numbers to ground its prose, but is never the source of one that renders.
+
+#### Fetching
+*   `fetch_history()` pulls one long window per ticker (`1y` live, `2y` for backfill and base rates) in batches of 100 symbols, then slices locally. The fetcher runs every ~5 minutes across ~300 tickers, so a request per announcement would be throttled inside an hour.
+*   `fetch_shares_outstanding()` is the one figure price bars cannot give, and the one with no bulk endpoint — a request per ticker. It is cached to `.cache/fundamentals.json` (gitignored) for 24 hours, and returns the **share count** rather than Yahoo's own market cap, which is marked to the live price and would break the look-ahead rule. The count is priced at whichever close the context is computed to.
+
+#### Measurements (`compute_context`)
+Returns `None` rather than a dict of nulls when there are fewer than `MIN_BARS` (30) bars — a caller can then omit the block entirely, which reads better than a row of dashes.
+
+| Field | Window | Definition |
+| --- | --- | --- |
+| `last_close` | — | Last close strictly before the announcement date. |
+| `market_cap_aud` | — | `round(last_close, 4) × shares_outstanding`. Rounded close on purpose: otherwise the close in one table column times the share count does not give the cap in the next. |
+| `beta` | `MIN_BARS`+ shared sessions | Covariance of daily returns with `^AXJO` over benchmark variance. Computed here rather than read from Yahoo's profile, which is a 5-year monthly figure, is missing for most small caps, and costs a request per ticker. The benchmark is cut with `bars_before()` too. |
+| `rsi_14` | `RSI_WINDOW` = 14 | Wilder's smoothing (EMA with α = 1/14), not a flat mean of the last 14 changes — the smoothed version is what charting packages draw, and the alternative would give two different numbers under one name. No down days → 100; a completely flat line → 50, since "maximum strength" would misdescribe a price that has not moved. |
+| `avg_volume_20`, `volume_change_pct` | `BASE_WINDOW` = 20 | The same two facts as `volume_trend_ratio` / `volume_last_ratio`, in the units a table column wants: shares, and a percentage rather than a multiple. Derived from the same ratio so a column and a chip cannot disagree. |
+| `high_52w`, `low_52w` | `YEAR_WINDOW` = 252 | Explicitly the last 252 sessions, **not** the whole frame passed in. |
+| `high_3m`, `low_3m` | `QUARTER_WINDOW` = 63 | Absolute levels beside the existing `pct_from_3m_*` distances. |
+| `month{1,2,3}_{high,low}` | `MONTH_WINDOW` = 21 | Blocks of 21 trading days walking back; month1 is the most recent. Trading-day blocks rather than calendar months because these columns are read side by side, and a month containing Easter is not comparable with one that does not. A block with fewer than 21 bars reads `None`, so a partial month never sits beside two full ones. |
+
+#### Fixed in this module
+`y_high` / `y_low` were previously taken over the entire frame handed in. The live fetcher passes a year, so the live path was correct — but `build_history.py` passes `2y` (`3y` on request), which meant every `pct_from_52w_*` it wrote into `analysis/events.jsonl` was really a 2-to-3-year extreme under a 52-week name. Harmless while it fed a sentence; not harmless once a column headed **52W High** prints the level. `YEAR_WINDOW` now clamps it. **Regenerating `events.jsonl` will therefore shift its `pct_from_52w_*` values** — they will read as smaller distances, because a 52-week extreme is nearer than a 3-year one.
+
+#### Backfill (`scripts/backfill_context.py`)
+Contexts are attached at save time, so a field added to this module today is absent from every log written before today. The backfill walks selected logs, pulls history once across every ticker in the range, and recomputes each context **against its own log date** — the same function the live path calls, so a backfilled row and a live one are indistinguishable. It writes `context_backfilled_at` on the log, touches no other announcement field (the summary and sentiment are what the model said at the time), and leaves an existing context in place where price data can no longer be had.
+
 ### 2. Frontend Application (`Next.js 14 App Router`)
 
 #### A. Backend for Frontend (BFF) Route (`/app/api/logs/[date]/route.ts`)
@@ -60,12 +93,19 @@ All read via `_env_or_default`, which treats the empty strings GitHub Actions in
     2. Filter by Category Toggles.
     3. Filter by Sidebar Tags (Set intersection).
     4. Fuzzy text search on `ticker`, `company`, and `headline`.
-    5. Sorting weights: Market Sensitive -> `sentimentRank` (bullish, then neutral, then bearish) -> reverse chronological.
+    5. Sorting weights: Market Sensitive -> `sentimentRank` (bullish, then neutral, then bearish) -> reverse chronological. This is the feed's editorial order; the table view can re-sort on any numeric column and returns to this order on a third click of the same heading.
 
 #### C. Presentation Components
 *   **`Sidebar.tsx`:** Manages control inputs (Date picker, Focus Mode switch). Iterates over `tagCounts` to render the dynamic taxonomy.
 *   **`Topbar.tsx`:** Handles Global string search, grid/list layout preference, and the light/dark theme toggle integration.
-*   **`AnnouncementCard.tsx` / `AnnouncementRow.tsx`:** Smart components that inject semantic styling based on the data props (e.g., rendering the pulsing Red dot if `market_sensitive === true`). Implements heavy Tailwind CSS specific to the nested theme wrappers (`dark:bg-[#0d1022]`).
+*   **`AnnouncementCard.tsx`:** Grid view. Smart component that injects semantic styling based on the data props (e.g. rendering the pulsing Red dot if `market_sensitive === true`).
+*   **`AnnouncementTable.tsx`:** List view, as a screener table. Columns are declared as a single array of `{key, label, unit, align, value, render}` descriptors, so sorting is generic and the six monthly high/low columns are generated rather than written out. Specifics worth knowing:
+    *   **Column set:** ASX Code (with the sensitive dot), Company, Announcement (linked to the ASX document), Time, Type, Sentiment, then the `market_context` measurements — Mkt Cap, Beta, Avg Vol, Vol Chg, RSI, 52W High/Low, Latest Close, and M1–M3 High/Low.
+    *   **Sorting:** click cycles descending → ascending → back to the feed's own editorial order (`sortKey = null`). `value` is absent on the text columns, which therefore do not sort. Rows with a missing measurement sink to the bottom in **both** directions, so "smallest market cap" surfaces the smallest company that has one rather than the stubs Yahoo has never heard of.
+    *   **Absent vs zero:** `ctxNum()` narrows anything non-finite to `null` and every formatter renders that as an em dash. Logs written before a column existed simply lack the key, which is why the new `MarketContext` fields are typed optional.
+    *   **Precision:** prices are formatted at a precision chosen from their own magnitude (4dp under $1, 2dp over $100) — a fixed 2dp would round an 0.008 stock away to nothing. Market cap and average volume are scaled to millions; numeric cells are mono + `tabular-nums` so columns of digits align.
+    *   **Layout:** twenty columns do not fit a laptop, so the table is the one horizontally scrolling element on the page, with the ticker column pinned (`sticky left-0`). The pinned cell takes its background from a class rather than an inline style so the row hover still wins.
+    *   **Not present:** the source spreadsheet also carried *Confidence* and *Quarters of Funding*. Neither has a source in this pipeline — the summariser emits no confidence score, and quarters of funding requires the cash-burn line from each company's Appendix 4C. Adding either means a pipeline change, not a UI one.
 
 ### 3. Theme Configuration
 *   Controlled via Tailwind's `darkMode: 'class'` mode.

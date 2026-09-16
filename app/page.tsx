@@ -12,7 +12,7 @@ import ViewHeader from '@/components/ViewHeader';
 import FilterBar from '@/components/FilterBar';
 import FeedControls from '@/components/FeedControls';
 import AnnouncementCard from '@/components/AnnouncementCard';
-import AnnouncementRow from '@/components/AnnouncementRow';
+import AnnouncementTable from '@/components/AnnouncementTable';
 import PlacementCard from '@/components/PlacementCard';
 import AccuracyPanel from '@/components/AccuracyPanel';
 
@@ -293,13 +293,13 @@ export default function Dashboard() {
     </div>
   ), [sorted]);
 
+  // List view is the screener table: the same feed as the grid, with the
+  // market_context numbers in columns. Rows are not staggered in like the
+  // cards are — forty rows fading in one after another reads as a page that
+  // has not finished loading, and a table is scanned, not browsed.
   const renderedList = useMemo(() => (
-    <div className="flex flex-col gap-2">
-      {sorted.map((ann, i) => (
-        <div key={ann.url + i + ann.time} style={{ animationDelay: `${Math.min(i * 0.03, 0.3)}s` }} className="animate-fade-in-up">
-          <AnnouncementRow ann={ann} />
-        </div>
-      ))}
+    <div className="animate-fade-in-up">
+      <AnnouncementTable anns={sorted} />
     </div>
   ), [sorted]);
 
