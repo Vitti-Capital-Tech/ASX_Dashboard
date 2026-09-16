@@ -169,6 +169,13 @@
     linear-gradient(var(--row-tint), var(--row-tint));
 }
 
+/* The drawer sits on the page ground rather than the card ground, a shade
+   below the rows either side of it. Painted the same colour as the rows it
+   read as a row that had grown very tall; recessed, it reads as a panel opened
+   underneath one — and the AI Summary box inside it comes back up to the card
+   colour, so the three surfaces stack in a legible order. */
+.screener-detail > td { background-color: var(--bg-app); }
+
 .screener-row > td:first-child,
 .screener-detail > td:first-child {
   box-shadow: inset 2px 0 0 0 var(--row-edge);

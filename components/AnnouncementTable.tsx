@@ -178,12 +178,21 @@ function DetailRow({ ann, span, signal }: {
           }}
           onClick={e => e.stopPropagation()}>
           {/* Two columns on a wide screen: the AI's read on the left, the
-              measured stuff on the right. Stacked, the drawer was one long
-              column of text with the table's whole width beside it empty. */}
-          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1.55fr)_minmax(0,1fr)] gap-x-5 gap-y-3 items-start">
+              measured stuff on the right. The split is what keeps a line of
+              summary near ninety characters instead of running the full table.
+              Stretched, not top-aligned — three bullets against one price chip
+              leaves the right column short, and a bordered panel beside a
+              trailing void reads as something that failed to load. The tag row
+              is pushed to the bottom of its column so the two sides are
+              anchored top and bottom and the space between them is a gap
+              rather than an overrun. */}
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1.9fr)_minmax(0,1fr)] gap-x-4 gap-y-3 items-stretch">
 
-            <div className="rounded-xl p-3.5 min-w-0"
-              style={{ background: 'var(--border-subtle)', border: '1px solid var(--border-med)' }}>
+            {/* Back up to the card colour on the recessed drawer ground, so the
+                summary reads as a panel rather than a slightly different
+                shade of the same nothing. */}
+            <div className="rounded-xl p-4 min-w-0"
+              style={{ background: 'var(--bg-card)', border: '1px solid var(--border-med)' }}>
               <div className="flex items-center gap-1.5 mb-2.5">
                 <svg viewBox="0 0 16 16" fill="none" className="w-3 h-3 flex-shrink-0" style={{ color: 'var(--accent)' }}>
                   <path d="M8 1l1.2 4.8L14 8l-4.8 1.2L8 15l-1.2-4.8L2 8l4.8-1.2z" fill="currentColor" opacity="0.9" />
@@ -212,10 +221,10 @@ function DetailRow({ ann, span, signal }: {
               )}
             </div>
 
-            <div className="flex flex-col gap-3 min-w-0">
+            <div className="flex flex-col gap-3 min-w-0 h-full">
               {c && <PriceContext ctx={c} />}
 
-              <div className="flex flex-wrap items-center gap-1.5">
+              <div className="flex flex-wrap items-center gap-1.5 mt-auto pt-1">
                 {ann.tags?.map(t => (
                   <span key={t} className="text-[0.68rem] font-medium px-2 py-[0.15rem] rounded-md"
                     style={{
