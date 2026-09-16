@@ -54,6 +54,7 @@ HISTORY_PERIOD = '1y'
 SHORT_WINDOW = 5      # "the last few days"
 BASE_WINDOW = 20      # the average those days are compared against
 QUARTER_WINDOW = 63   # ~3 months
+HALF_WINDOW = 126     # ~6 months
 YEAR_WINDOW = 252     # ~52 weeks
 BREAKOUT_WINDOW = 60
 
@@ -379,6 +380,12 @@ def compute_context(df: pd.DataFrame | None, date_str: str,
     q = hist.tail(QUARTER_WINDOW)
     q_high, q_low = float(q['High'].max()), float(q['Low'].min())
 
+    # Six months sits between the two windows that already existed. A stock can
+    # be 20% off its 12-month high and still at the top of everything the last
+    # half-year did, and neither of the other two windows shows that.
+    h = hist.tail(HALF_WINDOW)
+    h_high, h_low = float(h['High'].max()), float(h['Low'].min())
+
     # Explicitly the last 252 sessions, not "whatever was passed in". The live
     # fetcher hands over a year of bars and the two are the same thing, but
     # build_history.py pulls 2-3 years for its base rates — so every
@@ -405,6 +412,7 @@ def compute_context(df: pd.DataFrame | None, date_str: str,
     )
 
     from_q_high = _pct(last_close, q_high)
+    from_h_high = _pct(last_close, h_high)
     from_y_high = _pct(last_close, y_high)
 
     rsi = _rsi(close)
@@ -447,6 +455,8 @@ def compute_context(df: pd.DataFrame | None, date_str: str,
         # Position. Negative percentages mean "below the high by this much".
         'pct_from_3m_high': from_q_high,
         'pct_from_3m_low': _pct(last_close, q_low),
+        'pct_from_6m_high': from_h_high,
+        'pct_from_6m_low': _pct(last_close, h_low),
         'pct_from_52w_high': from_y_high,
         'pct_from_52w_low': _pct(last_close, y_low),
 
@@ -456,10 +466,14 @@ def compute_context(df: pd.DataFrame | None, date_str: str,
         'low_52w': round(y_low, 4),
         'high_3m': round(q_high, 4),
         'low_3m': round(q_low, 4),
+        'high_6m': round(h_high, 4),
+        'low_6m': round(h_low, 4),
         **_monthly_extremes(hist),
         'range_position_3m': range_pos,
         'at_3m_high': bool(from_q_high is not None and from_q_high >= -NEAR_PCT),
         'at_3m_low': bool(_pct(last_close, q_low) is not None and _pct(last_close, q_low) <= NEAR_PCT),
+        'at_6m_high': bool(from_h_high is not None and from_h_high >= -NEAR_PCT),
+        'at_6m_low': bool(_pct(last_close, h_low) is not None and _pct(last_close, h_low) <= NEAR_PCT),
         'at_52w_high': bool(from_y_high is not None and from_y_high >= -NEAR_PCT),
         'at_52w_low': bool(_pct(last_close, y_low) is not None and _pct(last_close, y_low) <= NEAR_PCT),
 

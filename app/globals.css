@@ -124,21 +124,39 @@
    Source order is the cascade here — stripe, then hover, then lock — since all
    three selectors carry the same specificity. Lock last so a locked row keeps
    its highlight once the pointer moves away, which is the entire point of it. */
+/* The stripe is driven by an attribute, not :nth-child, because an expanded row
+   inserts a second <tr> for its detail and every row below it would flip. */
 .screener-row                      { --row-tint: transparent; }
-.screener-row:nth-child(even)      { --row-tint: var(--row-stripe); }
-.screener-row:hover                { --row-tint: var(--row-hover); }
-.screener-row[data-locked='true']  { --row-tint: var(--row-locked); }
+.screener-row[data-stripe='true']  { --row-tint: var(--row-stripe); }
 
-.screener-row > td {
+/* A flagged row is tinted end to end, in the colour of whichever signal ranks
+   highest on it — the badges in the Signals column carry the rest, so nothing
+   is lost to that precedence. Kept faint: these are full-width washes behind
+   twenty columns of numbers, and anything stronger makes the numbers harder to
+   read, which is the opposite of what a highlight is for. */
+.screener-row[data-signal='rsi_high']  { --row-tint: color-mix(in srgb, var(--danger), transparent 90%); }
+.screener-row[data-signal='rsi_low']   { --row-tint: color-mix(in srgb, var(--success), transparent 90%); }
+.screener-row[data-signal='near_high'] { --row-tint: color-mix(in srgb, var(--accent), transparent 90%); }
+.screener-row[data-signal='near_low']  { --row-tint: color-mix(in srgb, var(--warning), transparent 90%); }
+
+.screener-row:hover                { --row-tint: var(--row-hover); }
+.screener-row[data-open='true']    { --row-tint: var(--row-locked); }
+
+.screener-row > td,
+.screener-detail > td {
   background-color: var(--bg-card);
   background-image: linear-gradient(var(--row-tint), var(--row-tint));
 }
 
-/* A locked row is marked by an edge as well as a tint, so it is still findable
-   for a reader who cannot separate the indigo from the surface. */
-.screener-row[data-locked='true'] > td:first-child {
+/* An open row and its detail are one block, marked by an edge as well as a
+   tint so the pairing survives for a reader who cannot separate the indigo
+   from the surface. */
+.screener-row[data-open='true'] > td:first-child,
+.screener-detail > td:first-child {
   box-shadow: inset 2px 0 0 0 var(--accent);
 }
+
+.screener-detail { --row-tint: var(--row-locked); }
 
 /* Noise texture overlay */
 .noise-overlay {

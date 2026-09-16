@@ -52,11 +52,12 @@ List view shows the day's announcements as a screener. Every number in it descri
 | **Time** | When it was lodged, Sydney time. |
 | **Type** | The ASX's own document type — "Quarterly Activities Report", "Trading Halt", and so on. |
 | **Sentiment** | The AI's bullish / bearish / neutral call on the announcement. |
+| **Signals** | Why this row is flagged — see [Signals](#signals-what-gets-flagged-and-why) below. A dash means nothing fired. |
 | **Mkt Cap (A$M)** | Shares on issue times the latest close, in millions of Australian dollars. |
 | **Beta (vs XJO)** | How much the stock moves when the S&P/ASX 200 moves, from a year of daily moves. 1.0 tracks the index; 2.0 swings twice as hard; below zero moves against it. |
 | **Avg Vol (20d, M)** | Average shares traded per day over the last 20 sessions, in millions. |
 | **Vol Chg (%)** | The latest session's volume against that 20-day average. `+150` means one-and-a-half times more shares changed hands than usual. |
-| **RSI (14d)** | The standard 14-day momentum gauge, 0 to 100. Shaded red at 70 and above ("overbought"), blue at 30 and below ("oversold"). These are conventions, not calls. |
+| **RSI (14d)** | The standard 14-day momentum gauge, 0 to 100. Shaded red above 80 ("overbought"), green below 30 ("oversold"). These are conventions, not calls. |
 | **52W High / Low** | The highest and lowest the stock traded over the last 52 weeks. |
 | **Latest Close** | The last closing price **before** the announcement. Hover it to see which day that was. |
 | **M1–M3 High / Low** | The high and low of each of the last three months, most recent first. A month here is 21 trading days, so the three are directly comparable; an incomplete month shows a dash rather than a partial figure. |
@@ -67,6 +68,27 @@ List view shows the day's announcements as a screener. Every number in it descri
 
 **Not included:** the spreadsheet these columns came from also carried *Confidence* and *Quarters of Funding*. Neither exists anywhere in this pipeline — the AI does not emit a confidence score, and quarters of funding needs the cash-burn line out of each company's Appendix 4C. Rather than show an empty column, they are left out.
 
+### Signals — what gets flagged, and why
+
+Three hundred announcements a day is too many to read down. A handful of them are on a stock doing something measurable, and those rows are tinted end to end, badged in the **Signals** column, and lifted to the top of the table.
+
+| Badge | Fires when | Row tint |
+| --- | --- | --- |
+| **RSI 80+** | 14-day RSI above 80 | red |
+| **RSI 30−** | 14-day RSI below 30 | green |
+| **▲ 3M / 6M / 12M HIGH** | Last close within 1% of that window's high | indigo |
+| **▼ 3M / 6M / 12M LOW** | Last close within 1% of that window's low | amber |
+
+Every one of these is a measurement out of `market_context.py`, not a judgement. **Nothing here is a buy or a sell** — an RSI of 85 is a fact about the last fourteen sessions, and what it means is the reader's call.
+
+Three rules keep the flags honest:
+
+- **Only the longest window is badged.** A stock at its 12-month high is also at its 3- and 6-month high; three badges saying so is noise.
+- **A window that fires high *and* low is dropped.** Within 1% of both means the entire range is under about 2% — a suspended or barely-traded stock sitting on one price, where "at its 12-month high" is true and says nothing.
+- **RSI flags at 80, not the conventional 70.** At 70 roughly a fifth of a busy day qualifies, and a highlight that fires that often stops being one. The column shades at the same threshold, so the cell and the row can never disagree.
+
+Filter the table to any one of them with the chips above it — the count on each chip is how many rows it matches today. When several signals land on one row, the tint follows the first of RSI 80+, RSI 30−, near high, near low; the badges still show all of them.
+
 ---
 
 ## How to Use the Dashboard
@@ -76,10 +98,11 @@ List view shows the day's announcements as a screener. Every number in it descri
 3. **WhatsApp Messages Tab:** Access the **Whatsapp Messages** tab to view processed Placement & IPO summaries. Hover over any card and click the copy button to copy the pre-formatted 5-6 line summary directly to your clipboard.
 4. **Search:** Type a ticker (e.g. `BHP`) or company name into the search bar to find specific news.
 5. **Market Overview:** The sidebar shows a live summary — total announcements, sensitive news count, substantial holders, bullish signals, active tickers, and trading halts.
-6. **Grid or List:** The toggle in the top bar switches between the card feed (**Grid**) and the screener table (**List**). Your choice is remembered.
+6. **Grid or List:** The dashboard opens on the screener table (**List**) — it shows the whole day at once and is the only view carrying the signal flags. The toggle in the top bar switches to the card feed (**Grid**), and your choice is remembered from then on.
 7. **Sort the table:** In List view, click any number column heading to sort by it — biggest first, then smallest, then a third click to go back to the feed's own order (sensitive news first, then bullish, then newest).
-8. **Keep your place in the table:** Rows stripe and light up under the pointer. Click one to pin that highlight — it stays put while you drag the table sideways through the later columns, which is where a row is easiest to lose. Click it again to release. Clicking the headline still opens the ASX document and leaves the pin alone.
-9. **Export:** Click **Export CSV Data** in the sidebar to download the full day's data.
+8. **Click a row for the detail:** The table has no room for prose, so the AI's three points, its tags, and the price going into the filing open in a drawer underneath the row. The open row stays highlighted while you drag the table sideways through the later columns, which is where a row is easiest to lose. Click again to close; clicking the headline still just opens the ASX document.
+9. **Filter to the flagged rows:** The chips above the table narrow it to any one signal — see [Signals](#signals-what-gets-flagged-and-why). Unfiltered, flagged rows come first, then rows that at least have price context, then the rest. Sorting by a column takes the order over completely.
+10. **Export:** Click **Export CSV Data** in the sidebar to download the full day's data.
 
 ---
 

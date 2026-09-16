@@ -167,12 +167,18 @@ export interface MarketContext {
 
   pct_from_3m_high: number | null;
   pct_from_3m_low: number | null;
+  /** Added later than the 3-month and 52-week pair, so absent on earlier logs. */
+  pct_from_6m_high?: number | null;
+  pct_from_6m_low?: number | null;
   pct_from_52w_high: number | null;
   pct_from_52w_low: number | null;
   /** 0 at the 3-month low, 1 at the 3-month high. */
   range_position_3m: number | null;
+  /** Within NEAR_PCT (1%) of that window's extreme. */
   at_3m_high: boolean;
   at_3m_low: boolean;
+  at_6m_high?: boolean;
+  at_6m_low?: boolean;
   at_52w_high: boolean;
   at_52w_low: boolean;
 
@@ -182,6 +188,8 @@ export interface MarketContext {
   low_52w?: number | null;
   high_3m?: number | null;
   low_3m?: number | null;
+  high_6m?: number | null;
+  low_6m?: number | null;
   /** Blocks of 21 trading days walking back: month1 is the most recent. Null
    *  when the block is not complete, so a partial month never reads as a full one. */
   month1_high?: number | null;

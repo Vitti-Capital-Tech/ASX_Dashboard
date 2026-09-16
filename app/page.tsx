@@ -83,7 +83,10 @@ export default function Dashboard() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [availableDates, setAvailableDates] = useState<string[]>([]);
-  const [viewMode, setViewMode] = useState<ViewMode>('grid');
+  // The screener is the default landing view: it is the one that shows the
+  // whole day at once, and the signal flags only exist there. A saved
+  // preference still wins — this is the starting point, not an override.
+  const [viewMode, setViewMode] = useState<ViewMode>('list');
   const [search, setSearch] = useState('');
   const [activeView, setActiveView] = useState<ViewKey>('announcements');
   const [sentiment, setSentiment] = useState<SentimentFilter>('all');

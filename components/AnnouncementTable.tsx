@@ -1,8 +1,9 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { Fragment, useMemo, useState } from 'react';
 import { Announcement, MarketContext } from '@/types';
 import { formatTime, getSentiment, SECTION_LABEL } from '@/lib/utils';
+import PriceContext from './PriceContext';
 
 /**
  * The list view as a screener table.
@@ -76,6 +77,144 @@ function millions(v: number | null | undefined, dp = 2): React.ReactNode {
 
 const SENTIMENT_RANK = { bullish: 2, neutral: 1, bearish: 0 } as const;
 
+// ── Signals ────────────────────────────────────────────────────────────────
+// The handful of conditions worth pulling a row out of 300 for. Each one is a
+// fact already in market_context, not a judgement: an RSI reading and a
+// distance from a window's extreme. What they MEAN is left to the reader —
+// nothing here is labelled a buy or a sell.
+
+/** RSI thresholds. 80 rather than the conventional 70 puts the flag on the
+ *  genuinely stretched names; at 70 roughly a fifth of a busy day qualifies and
+ *  a highlight that fires that often stops being one. */
+const RSI_HIGH = 80;
+const RSI_LOW = 30;
+
+type SignalKey = 'rsi_high' | 'rsi_low' | 'near_high' | 'near_low';
+
+interface Signal {
+  key: SignalKey;
+  /** Badge text. Short — several can sit on one row. */
+  label: string;
+  color: string;
+}
+
+/** Windows checked for "near its high/low", nearest first. `at_*` is computed
+ *  in market_context.py as within 1% of that window's extreme, so the rule
+ *  lives in one place and the table cannot drift from the prompt. */
+const WINDOWS = [
+  { months: '3M', high: 'at_3m_high', low: 'at_3m_low' },
+  { months: '6M', high: 'at_6m_high', low: 'at_6m_low' },
+  { months: '12M', high: 'at_52w_high', low: 'at_52w_low' },
+] as const;
+
+function signalsFor(a: Announcement): Signal[] {
+  const c = ctx(a);
+  if (!c) return [];
+  const out: Signal[] = [];
+
+  const rsi = ctxNum(a, 'rsi_14');
+  if (rsi !== null && rsi > RSI_HIGH) {
+    out.push({ key: 'rsi_high', label: `RSI ${rsi.toFixed(0)}`, color: 'var(--danger)' });
+  } else if (rsi !== null && rsi < RSI_LOW) {
+    out.push({ key: 'rsi_low', label: `RSI ${rsi.toFixed(0)}`, color: 'var(--success)' });
+  }
+
+  // A window where the price is within 1% of BOTH its high and its low has a
+  // total range under about 2% — a suspended or barely-traded stock sitting on
+  // one price. "At its 12-month high" is true there and says nothing, so the
+  // window is dropped rather than reported twice in opposite directions.
+  const real = WINDOWS.filter(w => (c[w.high] === true) !== (c[w.low] === true));
+
+  // Only the longest window that applies. A stock at its 12-month high is at
+  // its 3- and 6-month high too, and three badges saying so is noise.
+  const high = [...real].reverse().find(w => c[w.high] === true);
+  if (high) out.push({ key: 'near_high', label: `▲ ${high.months} HIGH`, color: 'var(--accent-light)' });
+
+  const low = [...real].reverse().find(w => c[w.low] === true);
+  if (low) out.push({ key: 'near_low', label: `▼ ${low.months} LOW`, color: 'var(--warning)' });
+
+  return out;
+}
+
+/** Which signal colours the row when several fire at once. The badges show all
+ *  of them regardless, so this only decides the wash behind the numbers. */
+const SIGNAL_PRECEDENCE: SignalKey[] = ['rsi_high', 'rsi_low', 'near_high', 'near_low'];
+
+function dominant(sigs: Signal[]): SignalKey | undefined {
+  return SIGNAL_PRECEDENCE.find(k => sigs.some(s => s.key === k));
+}
+
+/**
+ * The drawer under an open row.
+ *
+ * Everything the grid view's card leads with and the table has no room for: the
+ * AI's three points, its tags, and the price going into the filing. The chips
+ * are the same PriceContext component the card uses rather than a table-shaped
+ * copy of it, so the two views cannot drift into saying different things about
+ * the same announcement.
+ */
+function DetailRow({ ann, span }: { ann: Announcement; span: number }) {
+  const c = ctx(ann);
+  const summary = ann.summary ?? [];
+
+  return (
+    <tr className="screener-detail">
+      <td colSpan={span} className="px-4 pt-1 pb-4"
+        style={{ borderBottom: '1px solid var(--border-med)' }}>
+        <div className="flex flex-col gap-3 max-w-[110ch]"
+          // Sticks to the left edge instead of scrolling away with the numeric
+          // columns: the drawer is prose, and prose you have to scroll sideways
+          // to read is not readable.
+          style={{ position: 'sticky', left: 0 }}
+          onClick={e => e.stopPropagation()}>
+
+          {summary.length > 0 ? (
+            <ul className="flex flex-col gap-1.5">
+              {summary.map((point, i) => (
+                <li key={i} className="flex gap-2 text-[0.76rem] leading-relaxed"
+                  style={{ color: 'var(--text-secondary)' }}>
+                  <span style={{ color: 'var(--accent-light)' }} aria-hidden>·</span>
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <span className="text-[0.74rem]" style={{ color: 'var(--text-dim)' }}>
+              No AI summary was written for this announcement.
+            </span>
+          )}
+
+          {(ann.tags?.length ?? 0) > 0 && (
+            <span className="flex flex-wrap gap-1.5">
+              {ann.tags.map(t => (
+                <span key={t} className="text-[0.62rem] font-semibold px-2 py-0.5 rounded-md"
+                  style={{
+                    color: 'var(--text-dim)',
+                    background: 'var(--border-subtle)',
+                    border: '1px solid var(--border-med)',
+                  }}>
+                  {t}
+                </span>
+              ))}
+            </span>
+          )}
+
+          {c && <PriceContext ctx={c} />}
+        </div>
+      </td>
+    </tr>
+  );
+}
+
+const SIGNAL_FILTERS: { key: SignalKey | 'all' | 'any'; label: string; title: string }[] = [
+  { key: 'all', label: 'All rows', title: 'Every announcement for the day' },
+  { key: 'any', label: '⚑ Flagged', title: 'Any of the signals below' },
+  { key: 'rsi_high', label: `RSI ${RSI_HIGH}+`, title: `14-day RSI above ${RSI_HIGH}` },
+  { key: 'rsi_low', label: `RSI ${RSI_LOW}−`, title: `14-day RSI below ${RSI_LOW}` },
+  { key: 'near_high', label: 'Near high', title: 'Within 1% of its 3, 6 or 12-month high' },
+  { key: 'near_low', label: 'Near low', title: 'Within 1% of its 3, 6 or 12-month low' },
+];
+
 export default function AnnouncementTable({ anns }: Props) {
   // Null means the feed's own order — sensitive first, then sentiment, then
   // time. That ordering is the editorial one and is worth being able to get
@@ -84,10 +223,35 @@ export default function AnnouncementTable({ anns }: Props) {
   const [sortKey, setSortKey] = useState<string | null>(null);
   const [dir, setDir] = useState<'asc' | 'desc'>('desc');
 
-  // Click a row to pin its highlight. Striping and hover both stop helping the
-  // moment you let go of the row to drag the horizontal scrollbar, which is
-  // exactly when twenty columns make you lose it. Clicking again releases it.
-  const [locked, setLocked] = useState<string | null>(null);
+  // Click a row to open it. The table has no room for three bullet points and a
+  // row of price chips across twenty numeric columns, so the AI's read of the
+  // announcement — the thing the grid view leads with — lives in a drawer
+  // underneath. Opening also pins the highlight, which is what you want while
+  // dragging the table sideways through the later columns.
+  const [openRow, setOpenRow] = useState<string | null>(null);
+
+  const [signalFilter, setSignalFilter] = useState<SignalKey | 'all' | 'any'>('all');
+
+  // Computed once per announcement rather than in render, sort and filter
+  // separately — signalsFor walks the context object and this runs 300 times.
+  const signalsByRow = useMemo(() => {
+    const m = new Map<Announcement, Signal[]>();
+    anns.forEach(a => m.set(a, signalsFor(a)));
+    return m;
+  }, [anns]);
+
+  const filtered = useMemo(() => {
+    if (signalFilter === 'all') return anns;
+    return anns.filter(a => {
+      const sigs = signalsByRow.get(a) ?? [];
+      return signalFilter === 'any' ? sigs.length > 0 : sigs.some(s => s.key === signalFilter);
+    });
+  }, [anns, signalFilter, signalsByRow]);
+
+  const flaggedCount = useMemo(
+    () => anns.reduce((n, a) => n + ((signalsByRow.get(a)?.length ?? 0) > 0 ? 1 : 0), 0),
+    [anns, signalsByRow],
+  );
 
   const columns: Column[] = useMemo(() => {
     const monthly = ([1, 2, 3] as const).flatMap<Column>(m => {
@@ -173,6 +337,30 @@ export default function AnnouncementTable({ anns }: Props) {
         },
       },
       {
+        key: 'signals', label: 'Signals', align: 'left',
+        // Sorts by how many fired, so the busiest rows lead when you click it.
+        value: a => signalsFor(a).length || null,
+        render: a => {
+          const sigs = signalsFor(a);
+          if (!sigs.length) return DASH;
+          return (
+            <span className="flex items-center gap-1">
+              {sigs.map(s => (
+                <span key={s.key}
+                  className="font-mono text-[0.6rem] font-bold px-1.5 py-0.5 rounded-md whitespace-nowrap"
+                  style={{
+                    color: s.color,
+                    background: `color-mix(in srgb, ${s.color}, transparent 88%)`,
+                    border: `1px solid color-mix(in srgb, ${s.color}, transparent 76%)`,
+                  }}>
+                  {s.label}
+                </span>
+              ))}
+            </span>
+          );
+        },
+      },
+      {
         key: 'market_cap_aud', label: 'Mkt Cap', unit: 'A$M', align: 'right',
         value: a => ctxNum(a, 'market_cap_aud'),
         render: a => millions(ctxNum(a, 'market_cap_aud'), 1),
@@ -203,17 +391,17 @@ export default function AnnouncementTable({ anns }: Props) {
         render: a => {
           const v = ctxNum(a, 'rsi_14');
           if (v === null) return DASH;
-          // The two conventional thresholds, tinted rather than filled. A
-          // column of forty solid cells turns the table into a heatmap of one
-          // indicator, which is not what it is for.
-          const over = v >= 70, under = v <= 30;
+          // The same thresholds the row flag uses, so the cell and the row can
+          // never disagree about whether this reading is notable.
+          const over = v > RSI_HIGH, under = v < RSI_LOW;
+          const tone = over ? 'var(--danger)' : under ? 'var(--success)' : null;
           return (
             <span className="px-1.5 py-0.5 rounded-md"
-              title={over ? 'Overbought (RSI 70+)' : under ? 'Oversold (RSI 30 or less)' : undefined}
+              title={over ? `Overbought (RSI above ${RSI_HIGH})`
+                : under ? `Oversold (RSI below ${RSI_LOW})` : undefined}
               style={{
-                color: over ? 'var(--danger)' : under ? 'var(--accent-light)' : 'var(--text-primary)',
-                background: over ? 'color-mix(in srgb, var(--danger), transparent 88%)'
-                  : under ? 'color-mix(in srgb, var(--accent), transparent 88%)' : 'transparent',
+                color: tone ?? 'var(--text-primary)',
+                background: tone ? `color-mix(in srgb, ${tone}, transparent 86%)` : 'transparent',
               }}>
               {v.toFixed(1)}
             </span>
@@ -251,9 +439,26 @@ export default function AnnouncementTable({ anns }: Props) {
 
   const rows = useMemo(() => {
     const col = sortKey ? columns.find(c => c.key === sortKey) : undefined;
-    if (!col?.value) return anns;
+
+    // No column sort: the feed's own order, in three tiers on top of it —
+    // rows carrying a signal, then rows that at least have price context to
+    // show, then everything else. Sort is stable, so inside each tier the feed
+    // order (sensitive first, then bullish, then newest) is untouched.
+    //
+    // Explicitly sorting a column hands the order over to that column
+    // completely. A sort by market cap that quietly kept some rows pinned
+    // above it would not be a sort by market cap.
+    if (!col?.value) {
+      const tier = (a: Announcement) => {
+        if ((signalsByRow.get(a)?.length ?? 0) > 0) return 0;
+        if (ctx(a)?.notes?.length) return 1;
+        return 2;
+      };
+      return [...filtered].sort((a, b) => tier(a) - tier(b));
+    }
+
     const get = col.value;
-    return [...anns].sort((a, b) => {
+    return [...filtered].sort((a, b) => {
       const va = get(a), vb = get(b);
       // Missing data sinks to the bottom in BOTH directions. Sorting by market
       // cap ascending should surface the smallest company that has one, not
@@ -263,7 +468,7 @@ export default function AnnouncementTable({ anns }: Props) {
       if (vb === null) return -1;
       return dir === 'desc' ? vb - va : va - vb;
     });
-  }, [anns, columns, sortKey, dir]);
+  }, [filtered, signalsByRow, columns, sortKey, dir]);
 
   function toggleSort(col: Column) {
     if (!col.value) return;
@@ -276,6 +481,42 @@ export default function AnnouncementTable({ anns }: Props) {
   const CELL = 'px-3 py-2 whitespace-nowrap';
 
   return (
+    <>
+      {/* ── Signal filters ──
+          Single-select rather than a set of checkboxes: these are ways of
+          asking one question — "show me the stretched ones" — not facets to
+          combine, and four independent toggles produce fifteen states nobody
+          asked for. */}
+      <div className="flex flex-wrap items-center gap-2 mb-2.5">
+        {SIGNAL_FILTERS.map(f => {
+          const active = signalFilter === f.key;
+          const n = f.key === 'all' ? anns.length
+            : f.key === 'any' ? flaggedCount
+              : anns.reduce((t, a) =>
+                t + ((signalsByRow.get(a) ?? []).some(s => s.key === f.key) ? 1 : 0), 0);
+          return (
+            <button key={f.key} onClick={() => setSignalFilter(f.key)} title={f.title}
+              disabled={n === 0 && f.key !== 'all'}
+              className="px-3 py-1.5 rounded-xl text-[0.72rem] font-semibold transition-all duration-150 disabled:opacity-40 disabled:cursor-not-allowed"
+              style={{
+                background: active ? 'var(--accent-dim)' : 'var(--border-subtle)',
+                border: `1px solid ${active ? 'var(--border-accent)' : 'var(--border-med)'}`,
+                color: active ? 'var(--accent-light)' : 'var(--text-dim)',
+              }}>
+              {f.label}
+              <span className="ml-1.5 font-mono text-[0.66rem] opacity-70">{n}</span>
+            </button>
+          );
+        })}
+        <span className="ml-auto font-mono text-[0.66rem]" style={{ color: 'var(--text-dim)' }}
+          title={sortKey ? undefined
+            : 'Flagged rows, then rows with price context, then the rest. Click any column heading to sort instead.'}>
+          {sortKey
+            ? `sorted by ${columns.find(c => c.key === sortKey)?.label ?? sortKey}`
+            : 'flagged first · click a row for detail'}
+        </span>
+      </div>
+
     <div className="rounded-[14px] overflow-hidden"
       style={{ border: '1px solid var(--border-subtle)', background: 'var(--bg-card)' }}>
       {/* The only horizontally scrolling thing on the page. Twenty columns do
@@ -317,39 +558,64 @@ export default function AnnouncementTable({ anns }: Props) {
           <tbody>
             {rows.map((a, i) => {
               const id = a.url + i + a.time;
-              const isLocked = locked === id;
+              const isOpen = openRow === id;
+              const sigs = signalsByRow.get(a) ?? [];
               return (
-                <tr key={id}
-                  className="screener-row cursor-pointer"
-                  data-locked={isLocked}
-                  aria-selected={isLocked}
-                  onClick={() => setLocked(isLocked ? null : id)}
-                  title={isLocked ? 'Click to unpin this row' : 'Click to keep this row highlighted'}>
-                  {columns.map((c, ci) => (
-                    <td key={c.key}
-                      className={[
-                        CELL, c.className ?? '',
-                        c.align === 'right' ? 'text-right font-mono tabular-nums' : 'text-left',
-                        // Backgrounds for all three states live in globals.css
-                        // under .screener-row, so the pinned cell and the
-                        // scrolling ones cannot disagree about which row they
-                        // belong to.
-                        ci === 0 ? 'sticky left-0 z-10' : '',
-                        'transition-colors duration-100',
-                      ].join(' ')}
-                      style={{
-                        color: 'var(--text-secondary)',
-                        borderBottom: '1px solid var(--border-subtle)',
-                      }}>
-                      {c.render(a)}
-                    </td>
-                  ))}
-                </tr>
+                <Fragment key={id}>
+                  <tr
+                    className="screener-row cursor-pointer"
+                    data-open={isOpen}
+                    data-stripe={i % 2 === 1}
+                    data-signal={dominant(sigs)}
+                    aria-expanded={isOpen}
+                    onClick={() => setOpenRow(isOpen ? null : id)}
+                    title={isOpen ? 'Click to close' : 'Click for the AI read and the price going in'}>
+                    {columns.map((c, ci) => (
+                      <td key={c.key}
+                        className={[
+                          CELL, c.className ?? '',
+                          c.align === 'right' ? 'text-right font-mono tabular-nums' : 'text-left',
+                          // Backgrounds for every state live in globals.css
+                          // under .screener-row, so the pinned cell and the
+                          // scrolling ones cannot disagree about which row they
+                          // belong to.
+                          ci === 0 ? 'sticky left-0 z-10' : '',
+                          'transition-colors duration-100',
+                        ].join(' ')}
+                        style={{
+                          color: 'var(--text-secondary)',
+                          borderBottom: isOpen ? 'none' : '1px solid var(--border-subtle)',
+                        }}>
+                        {ci === 0 ? (
+                          <span className="flex items-center gap-1">
+                            <span className="inline-block w-2 text-[0.6rem] transition-transform duration-150"
+                              style={{
+                                color: 'var(--text-dim)',
+                                transform: isOpen ? 'rotate(90deg)' : 'none',
+                              }}
+                              aria-hidden>▶</span>
+                            {c.render(a)}
+                          </span>
+                        ) : c.render(a)}
+                      </td>
+                    ))}
+                  </tr>
+                  {isOpen && <DetailRow ann={a} span={columns.length} />}
+                </Fragment>
               );
             })}
+            {rows.length === 0 && (
+              <tr>
+                <td colSpan={columns.length} className="px-4 py-12 text-center text-[0.8rem]"
+                  style={{ color: 'var(--text-dim)' }}>
+                  No announcement matches that signal today.
+                </td>
+              </tr>
+            )}
           </tbody>
         </table>
       </div>
     </div>
+    </>
   );
 }
