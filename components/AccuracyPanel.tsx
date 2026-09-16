@@ -90,39 +90,56 @@ function BreakdownBar({ stat }: { stat: SentimentStat }) {
   );
 }
 
-function SentimentBlock({ label, glyph, stat }: {
+/** One sentiment on one line: rate, split, counts, average. The three-line
+ *  stacked version of this said the same thing over triple the height, which is
+ *  where most of the tab's empty space was coming from. */
+function SentimentRow({ label, glyph, stat }: {
   label: string; glyph: string; stat: SentimentStat;
 }) {
   const decided = stat.correct + stat.wrong;
   return (
-    <div className="flex flex-col gap-2.5">
-      <div className="flex items-baseline justify-between gap-3">
-        <span className="text-[0.72rem] font-bold tracking-wide" style={{ color: 'var(--text-primary)' }}>
-          {glyph} {label}
-        </span>
-        <span className="font-mono text-[0.95rem] font-bold" style={{ color: rateColor(stat.hit_rate) }}>
-          {rate(stat.hit_rate)}
-        </span>
+    <div className="flex items-center gap-3">
+      <span className="text-[0.7rem] font-bold w-[4.7rem] flex-shrink-0" style={{ color: 'var(--text-primary)' }}>
+        {glyph} {label}
+      </span>
+      <span className="font-mono text-[0.85rem] font-bold w-[3.2rem] flex-shrink-0 tabular-nums"
+        style={{ color: decided ? rateColor(stat.hit_rate) : NEUTRAL }}>
+        {decided ? rate(stat.hit_rate) : '—'}
+      </span>
+      <div className="flex-1 min-w-[60px]">
+        <BreakdownBar stat={stat} />
       </div>
+      <span className="font-mono text-[0.65rem] whitespace-nowrap tabular-nums" style={{ color: 'var(--text-dim)' }}>
+        <b style={{ color: OK }}>{stat.correct}</b>
+        {' / '}
+        <b style={{ color: BAD }}>{stat.wrong}</b>
+        {' / '}
+        {stat.flat}
+      </span>
+      <span className="font-mono text-[0.65rem] w-[4.4rem] text-right flex-shrink-0 tabular-nums"
+        title="Average move net of the index across every call with this label"
+        style={{ color: moveColor(stat.avg_abnormal_pct) }}>
+        {pct(stat.avg_abnormal_pct, 2)}
+      </span>
+    </div>
+  );
+}
 
-      <BreakdownBar stat={stat} />
-
-      <div className="flex flex-wrap gap-x-4 gap-y-1 font-mono text-[0.66rem]" style={{ color: 'var(--text-dim)' }}>
-        <span style={{ color: OK }}>✓ {stat.correct} correct</span>
-        <span style={{ color: BAD }}>✗ {stat.wrong} wrong</span>
-        <span>~ {stat.flat} no move</span>
-        <span className="ml-auto">
-          avg{' '}
-          <b style={{ color: moveColor(stat.avg_abnormal_pct) }}>{pct(stat.avg_abnormal_pct, 2)}</b>
-          {' '}vs index
-        </span>
+/** A number with its name under it. Used wherever a figure is self-explanatory
+ *  once labelled — the sentence that used to sit beside each one is a `title`
+ *  now, so the panel reads as a terminal rather than an article. */
+function Stat({ label, value, color, hint }: {
+  label: string; value: string; color?: string; hint?: string;
+}) {
+  return (
+    <div title={hint}>
+      <div className="font-mono text-[1.15rem] font-bold leading-none tabular-nums"
+        style={{ color: color ?? 'var(--text-secondary)' }}>
+        {value}
       </div>
-
-      {decided === 0 && (
-        <span className="text-[0.66rem]" style={{ color: 'var(--text-dim)' }}>
-          Nothing moved far enough to score.
-        </span>
-      )}
+      <div className="text-[0.6rem] mt-1.5 uppercase tracking-[0.08em]" style={{ color: 'var(--text-dim)' }}>
+        {label}
+      </div>
     </div>
   );
 }
@@ -267,9 +284,8 @@ export default function AccuracyPanel({
       <ViewHeader
         title="Prediction Accuracy"
         subtitle={<>
-          Every bullish and bearish call from {formatDateLabel(card.date)}, checked against that
-          day&apos;s closing price and measured net of the {card.benchmark}. Moves under{' '}
-          {card.threshold_pct}% are treated as market noise, not a result.
+          Every bullish and bearish call from {formatDateLabel(card.date)}, against that day&apos;s
+          close and net of the {card.benchmark}. Moves under {card.threshold_pct}% are noise, not a result.
         </>}
         actions={
           <button onClick={downloadCsv}
@@ -283,108 +299,86 @@ export default function AccuracyPanel({
         }
       />
 
-      {/* ── Hero + breakdown ── */}
-      <div className="grid grid-cols-1 lg:grid-cols-[minmax(240px,0.85fr)_1.6fr] gap-4 mb-4">
+      {/* ── One band: this session on the left, the running record on the right ──
+          Four cards of prose became two columns of figures. Every sentence that
+          used to sit under a number is a tooltip on it now; the numbers are what
+          this tab is for, and they were the smallest thing on it. */}
+      <div className="grid grid-cols-1 lg:grid-cols-[1.45fr_1fr] gap-3 mb-4">
 
-        {/* The one number the tab exists to answer. */}
-        <div className="rounded-2xl p-6 flex flex-col justify-center"
+        <div className="rounded-2xl px-5 py-4"
           style={{ background: 'var(--bg-card)', border: '1px solid var(--border-subtle)', boxShadow: 'var(--shadow-card)' }}>
-          <span className="text-[0.65rem] font-semibold uppercase tracking-[0.12em]" style={{ color: 'var(--text-dim)' }}>
-            Hit rate
-          </span>
-          <span className="font-mono text-[3.2rem] font-bold leading-[1.05] mt-1 mb-3"
-            style={{ color: rateColor(s.directional_hit_rate) }}>
-            {rate(s.directional_hit_rate)}
-          </span>
-          <div className="flex gap-[2px] h-2 mb-3">
-            {correct > 0 && (
-              <div title={`${correct} correct`}
-                style={{ width: `${(correct / (correct + wrong)) * 100}%`, background: OK, borderRadius: 4 }} />
-            )}
-            {wrong > 0 && (
-              <div title={`${wrong} wrong`}
-                style={{ width: `${(wrong / (correct + wrong)) * 100}%`, background: BAD, borderRadius: 4 }} />
+          <div className="flex items-center justify-between gap-3 mb-3">
+            <span className="text-[0.6rem] font-semibold uppercase tracking-[0.12em]" style={{ color: 'var(--text-dim)' }}>
+              This session
+            </span>
+            <span className="font-mono text-[0.63rem]" style={{ color: 'var(--text-dim)' }}
+              title={`The rest of the day never moved past the ${card.threshold_pct}% threshold, or had no tradable price.`}>
+              {called} directional calls
+            </span>
+          </div>
+
+          <div className="flex items-center gap-5 mb-4">
+            <div className="flex items-baseline gap-2.5">
+              <span className="font-mono text-[2.5rem] font-bold leading-none tabular-nums"
+                style={{ color: rateColor(s.directional_hit_rate) }}>
+                {rate(s.directional_hit_rate)}
+              </span>
+              <span className="font-mono text-[0.68rem] whitespace-nowrap" style={{ color: 'var(--text-dim)' }}>
+                <b style={{ color: OK }}>✓{correct}</b> <b style={{ color: BAD }}>✗{wrong}</b>
+              </span>
+            </div>
+            <div className="flex-1 flex gap-[2px] h-2">
+              {correct > 0 && (
+                <div title={`${correct} correct`}
+                  style={{ width: `${(correct / (correct + wrong)) * 100}%`, background: OK, borderRadius: 4 }} />
+              )}
+              {wrong > 0 && (
+                <div title={`${wrong} wrong`}
+                  style={{ width: `${(wrong / (correct + wrong)) * 100}%`, background: BAD, borderRadius: 4 }} />
+              )}
+            </div>
+            <Stat label="Bull − bear" value={pct(s.spread_pct, 2)} color={moveColor(s.spread_pct)}
+              hint="How far bullish picks beat bearish ones. Negative means the labels are the wrong way round." />
+          </div>
+
+          <div className="flex flex-col gap-2.5 pt-3.5" style={{ borderTop: '1px solid var(--border-subtle)' }}>
+            <SentimentRow label="Bullish" glyph="▲" stat={bull} />
+            <SentimentRow label="Bearish" glyph="▼" stat={bear} />
+            <span className="font-mono text-[0.58rem] text-right" style={{ color: 'var(--text-dim)' }}>
+              right / wrong / no move &nbsp;·&nbsp; avg vs index
+            </span>
+          </div>
+        </div>
+
+        <div className="rounded-2xl px-5 py-4 flex flex-col"
+          style={{ background: 'var(--bg-card)', border: '1px solid var(--border-subtle)', boxShadow: 'var(--shadow-card)' }}>
+          <div className="flex items-center justify-between gap-3 mb-3">
+            <span className="text-[0.6rem] font-semibold uppercase tracking-[0.12em]" style={{ color: 'var(--text-dim)' }}>
+              Track record
+            </span>
+            {summary && summary.days_scored > 0 && (
+              <span className="font-mono text-[0.63rem]" style={{ color: 'var(--text-dim)' }}>
+                {summary.days_scored} trading {summary.days_scored === 1 ? 'day' : 'days'}
+              </span>
             )}
           </div>
-          <span className="font-mono text-[0.7rem]" style={{ color: 'var(--text-dim)' }}>
-            <b style={{ color: OK }}>✓ {correct} right</b>
-            {'  ·  '}
-            <b style={{ color: BAD }}>✗ {wrong} wrong</b>
-          </span>
-          <span className="text-[0.66rem] mt-2 leading-snug" style={{ color: 'var(--text-dim)' }}>
-            From {called} directional calls that day — the rest never moved past the{' '}
-            {card.threshold_pct}% threshold, or had no tradable price.
-          </span>
-        </div>
 
-        {/* Where the accuracy actually comes from. */}
-        <div className="rounded-2xl p-6 flex flex-col gap-6"
-          style={{ background: 'var(--bg-card)', border: '1px solid var(--border-subtle)', boxShadow: 'var(--shadow-card)' }}>
-          <SentimentBlock label="BULLISH CALLS" glyph="▲" stat={bull} />
-          <div style={{ height: 1, background: 'var(--border-subtle)' }} />
-          <SentimentBlock label="BEARISH CALLS" glyph="▼" stat={bear} />
-        </div>
-      </div>
-
-      {/* ── Spread + running total ── */}
-      <div className="grid grid-cols-1 md:grid-cols-[1fr_1.6fr] gap-4 mb-6">
-        <div className="rounded-2xl p-5"
-          style={{ background: 'var(--bg-card)', border: '1px solid var(--border-subtle)' }}>
-          <span className="text-[0.65rem] font-semibold uppercase tracking-[0.12em]" style={{ color: 'var(--text-dim)' }}>
-            Bull − Bear spread
-          </span>
-          <div className="font-mono text-[1.7rem] font-bold leading-tight mt-1"
-            style={{ color: moveColor(s.spread_pct) }}>
-            {pct(s.spread_pct, 2)}
-          </div>
-          <p className="text-[0.66rem] mt-1.5 leading-snug" style={{ color: 'var(--text-dim)' }}>
-            How far bullish picks beat bearish ones. A negative number means the
-            labels are the wrong way round.
-          </p>
-        </div>
-
-        <div className="rounded-2xl p-5 flex flex-col justify-center"
-          style={{ background: 'var(--bg-card)', border: '1px solid var(--border-subtle)' }}>
-          <span className="text-[0.65rem] font-semibold uppercase tracking-[0.12em] mb-2.5" style={{ color: 'var(--text-dim)' }}>
-            Track record
-          </span>
           {summary && summary.directional_scored > 0 ? (
-            <div className="flex flex-wrap gap-x-8 gap-y-3">
-              <div>
-                <div className="font-mono text-[1.25rem] font-bold leading-none"
-                  style={{ color: rateColor(summary.directional_hit_rate) }}>
-                  {rate(summary.directional_hit_rate)}
-                </div>
-                <div className="text-[0.63rem] mt-1.5" style={{ color: 'var(--text-dim)' }}>
-                  across {summary.directional_scored} calls
-                </div>
-              </div>
-              <div>
-                <div className="font-mono text-[1.25rem] font-bold leading-none"
-                  style={{ color: moveColor(summary.spread_pct) }}>
-                  {pct(summary.spread_pct, 2)}
-                </div>
-                <div className="text-[0.63rem] mt-1.5" style={{ color: 'var(--text-dim)' }}>spread</div>
-              </div>
-              <div>
-                <div className="font-mono text-[1.25rem] font-bold leading-none" style={{ color: 'var(--text-secondary)' }}>
-                  {pct(summary.by_sentiment.neutral.avg_abnormal_pct, 2)}
-                </div>
-                <div className="text-[0.63rem] mt-1.5" style={{ color: 'var(--text-dim)' }}>
-                  neutral control
-                </div>
-              </div>
-              <div>
-                <div className="font-mono text-[1.25rem] font-bold leading-none" style={{ color: 'var(--text-secondary)' }}>
-                  {summary.days_scored}
-                </div>
-                <div className="text-[0.63rem] mt-1.5" style={{ color: 'var(--text-dim)' }}>
-                  trading {summary.days_scored === 1 ? 'day' : 'days'}
-                </div>
-              </div>
+            <div className="grid grid-cols-2 gap-x-5 gap-y-4 flex-1 content-center">
+              <Stat label={`across ${summary.directional_scored} calls`}
+                value={rate(summary.directional_hit_rate)}
+                color={rateColor(summary.directional_hit_rate)} />
+              <Stat label="spread" value={pct(summary.spread_pct, 2)}
+                color={moveColor(summary.spread_pct)}
+                hint="Bullish picks minus bearish ones, all time. The real test — a high hit rate with no spread is not an edge." />
+              <Stat label="neutral control"
+                value={pct(summary.by_sentiment.neutral.avg_abnormal_pct, 2)}
+                hint="Average move of the announcements called neutral. Bullish picks have to beat this, not zero, to mean anything." />
+              <Stat label="bullish all time" value={rate(summary.by_sentiment.bullish.hit_rate)}
+                color={rateColor(summary.by_sentiment.bullish.hit_rate)} />
             </div>
           ) : (
-            <span className="text-[0.75rem]" style={{ color: 'var(--text-dim)' }}>
+            <span className="text-[0.75rem] my-auto" style={{ color: 'var(--text-dim)' }}>
               Builds up one trading day at a time.
             </span>
           )}
@@ -428,56 +422,41 @@ export default function AccuracyPanel({
           );
         })}
 
-        <span className="ml-auto font-mono text-[0.68rem]" style={{ color: 'var(--text-dim)' }}>
-          {rows.length} shown
-          {s.conflicts > 0 && ` · ${s.conflicts} excluded`}
-          {s.pending > 0 && ` · ${s.pending} pending`}
-        </span>
-      </div>
-
-      {/* ── Total of the Net column, for whatever the filters left on screen ── */}
-      <div className="flex flex-wrap items-center gap-x-7 gap-y-2 rounded-xl px-4 py-2.5 mb-3"
-        style={{ background: 'var(--bg-card)', border: '1px solid var(--border-subtle)' }}>
-        <div className="flex items-baseline gap-2">
-          <span className="text-[0.62rem] font-semibold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>
-            Sum of net
+        {/* The totals ride on the filter row rather than in a band of their own:
+            they describe the selection, and a separate strip put a whole card's
+            worth of chrome around two numbers. The "not a return" caveat moved
+            to the method note at the foot, where the other caveats already live. */}
+        <span className="ml-auto flex items-baseline gap-x-4 font-mono text-[0.68rem] whitespace-nowrap"
+          style={{ color: 'var(--text-dim)' }}>
+          <span>
+            {rows.length} shown
+            {s.conflicts > 0 && ` · ${s.conflicts} excluded`}
+            {s.pending > 0 && ` · ${s.pending} pending`}
           </span>
-          <span className="font-mono text-[1.05rem] font-bold tabular-nums"
-            style={{ color: moveColor(totals.n ? totals.sum : null) }}>
-            {totals.n ? pct(totals.sum, 2) : '—'}
+          <span title={`Sum of the Net column over the ${totals.n} shown calls that have a price.`
+            + (totals.unpriced > 0 ? ` ${totals.unpriced} without one are left out.` : '')}>
+            Σ net{' '}
+            <b className="text-[0.82rem] tabular-nums" style={{ color: moveColor(totals.n ? totals.sum : null) }}>
+              {totals.n ? pct(totals.sum, 2) : '—'}
+            </b>
           </span>
-        </div>
-
-        <div className="flex items-baseline gap-2">
-          <span className="text-[0.62rem] font-semibold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>
-            Avg per call
+          <span title="That sum divided by the number of calls behind it.">
+            avg{' '}
+            <b className="tabular-nums" style={{ color: moveColor(totals.avg) }}>
+              {totals.n ? pct(totals.avg, 2) : '—'}
+            </b>
           </span>
-          <span className="font-mono text-[0.9rem] font-bold tabular-nums"
-            style={{ color: moveColor(totals.avg) }}>
-            {totals.n ? pct(totals.avg, 2) : '—'}
-          </span>
-        </div>
-
-        {/* Only when both directions are on screen. Filtered to one of them the
-            sign already means the same thing for every row, and a second
-            near-identical number would just invite the wrong one to be read. */}
-        {direction === 'all' && (
-          <div className="flex items-baseline gap-2"
-            title="Bearish rows sign-flipped, so a correct call of either kind adds to the total.">
-            <span className="text-[0.62rem] font-semibold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>
-              As called
+          {/* Only when both directions are on screen. Filtered to one of them the
+              sign already means the same thing for every row, and a second
+              near-identical number would just invite the wrong one to be read. */}
+          {direction === 'all' && (
+            <span title="Bearish rows sign-flipped, so a correct call of either kind adds to the total.">
+              as called{' '}
+              <b className="tabular-nums" style={{ color: moveColor(totals.n ? totals.asCalled : null) }}>
+                {totals.n ? pct(totals.asCalled, 2) : '—'}
+              </b>
             </span>
-            <span className="font-mono text-[0.9rem] font-bold tabular-nums"
-              style={{ color: moveColor(totals.n ? totals.asCalled : null) }}>
-              {totals.n ? pct(totals.asCalled, 2) : '—'}
-            </span>
-          </div>
-        )}
-
-        <span className="text-[0.63rem] leading-snug ml-auto max-w-[46ch]" style={{ color: 'var(--text-dim)' }}>
-          Across {totals.n} call{totals.n === 1 ? '' : 's'} with a price
-          {totals.unpriced > 0 && `, ${totals.unpriced} without`}. Percentage points added up, not a
-          return — no position sizing, entry or costs.
+          )}
         </span>
       </div>
 
@@ -580,12 +559,14 @@ export default function AccuracyPanel({
         </div>
       </div>
 
-      <p className="text-[0.65rem] mt-3.5 leading-relaxed max-w-[92ch]" style={{ color: 'var(--text-dim)' }}>
-        <b style={{ color: 'var(--text-secondary)' }}>Net = Stock − Market</b>, and the verdict is
-        that figure: past ±{card.threshold_pct}% in the direction we called is correct, past it the
-        other way is wrong, inside it is no real move and scores neither. Prices from Yahoo Finance
-        end-of-day. News released after the 4pm close is judged on the next session. A ticker carrying both a bullish and a bearish call on the same day cannot
-        be settled by one closing price, so it is excluded from the hit rate rather than guessed at.
+      <p className="text-[0.63rem] mt-3 leading-relaxed max-w-[104ch]" style={{ color: 'var(--text-dim)' }}>
+        <b style={{ color: 'var(--text-secondary)' }}>Net = Stock − Market</b>, and the verdict is that
+        figure: past ±{card.threshold_pct}% the way we called it is correct, past it the other way is
+        wrong, inside it scores neither. Yahoo Finance end-of-day prices; news after the 4pm close is
+        judged on the next session; a ticker carrying both a bullish and a bearish call the same day is
+        excluded rather than guessed at. <b style={{ color: 'var(--text-secondary)' }}>Σ net is not a
+        return</b> — percentage points added up across notional equal positions, with no sizing, entry
+        or costs in it.
       </p>
     </div>
   );
