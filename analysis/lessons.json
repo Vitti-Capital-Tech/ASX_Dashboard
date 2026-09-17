@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-17T08:48:35.800243+00:00",
-  "next_id": 42,
+  "updated_at": "2026-09-17T10:46:10.366291+00:00",
+  "next_id": 43,
   "lessons": [
     {
       "id": "L001",
@@ -1108,15 +1108,8 @@
       "rule": "'Becoming a substantial holder' is categorically different from a change in an existing substantial holding — it announces that a new party has crossed 5% for the first time, which is unambiguously accumulation, not a reduction; do not apply the L001 bearish default (which addresses direction ambiguity) to a maiden substantial-holder filing; call bullish or neutral-to-bullish when the headline contains 'becoming' rather than 'change in', because direction is confirmed as acquisition by the filing type itself.",
       "created": "2026-09-16",
       "last_seen": "2026-09-17",
-      "times_seen": 6,
+      "times_seen": 7,
       "examples": [
-        {
-          "date": "2026-09-16",
-          "ticker": "MPW",
-          "headline": "Becoming a substantial holder, change in substantial holding",
-          "called": "bearish",
-          "abnormal_pct": 10.13
-        },
         {
           "date": "2026-09-16",
           "ticker": "VYS",
@@ -1130,6 +1123,13 @@
           "headline": "Becoming a substantial holder, change in substantial holding",
           "called": "bearish",
           "abnormal_pct": 10.13
+        },
+        {
+          "date": "2026-09-17",
+          "ticker": "AUQ",
+          "headline": "Change in substantial holding",
+          "called": "neutral",
+          "abnormal_pct": 9.59
         },
         {
           "date": "2026-09-17",
@@ -1198,21 +1198,21 @@
       "rule": "L001's bearish default was designed for holders selling into strength; a director's interest notice into elevated volume on a stock that is not extended is structurally different — the director may be acquiring, and insider buying at a depressed price is a constructive signal. Do not apply the L001 bearish default to director interest notices when the stock is not near a recent high; call neutral and require confirmation of direction before leaning bearish, because the base rate for director purchases (constructive) is meaningfully higher than for sales at non-extended prices.",
       "created": "2026-09-16",
       "last_seen": "2026-09-17",
-      "times_seen": 6,
+      "times_seen": 7,
       "examples": [
-        {
-          "date": "2026-09-16",
-          "ticker": "KLV",
-          "headline": "Change of Director's Interest Notice - Alexander Gold",
-          "called": "neutral",
-          "abnormal_pct": 7.83
-        },
         {
           "date": "2026-09-16",
           "ticker": "VYS",
           "headline": "Change of Director's Interest Notice",
           "called": "bearish",
           "abnormal_pct": 11.06
+        },
+        {
+          "date": "2026-09-17",
+          "ticker": "AUQ",
+          "headline": "Change of Director's Interest Notice (F Masani)",
+          "called": "neutral",
+          "abnormal_pct": 9.59
         },
         {
           "date": "2026-09-17",
@@ -1315,8 +1315,15 @@
       "rule": "A market-sensitive tenement application is not merely an activity statement — management and their advisers have judged it material, which implies the ground is strategically significant (district consolidation, blocking a competitor, covering a known geophysical anomaly); do not default to neutral on a flagged tenement announcement into elevated volume; lean neutral-to-bullish when the market-sensitive designation is present, because the flag is itself the signal that the tenure has identifiable value beyond routine acreage.",
       "created": "2026-09-17",
       "last_seen": "2026-09-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-17",
+          "ticker": "AMD",
+          "headline": "Application to secure another key iron ore tenement",
+          "called": "neutral",
+          "abnormal_pct": 17.23
+        },
         {
           "date": "2026-09-17",
           "ticker": "AMD",
@@ -1346,8 +1353,15 @@
       "rule": "A supplementary JORC Table 1 flagged as market sensitive is not merely an audit-trail filing — the market-sensitive designation signals that the underlying resource estimate it supports is itself a material new disclosure (maiden resource, significant upgrade) that may not have been fully absorbed when the primary announcement landed; do not call neutral on a market-sensitive Table 1 purely because it is labelled supplementary — treat it as confirmation that a substantive resource event has occurred and lean neutral-to-bullish when the stock is materially de-rated and the flag is present.",
       "created": "2026-09-17",
       "last_seen": "2026-09-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-17",
+          "ticker": "ERL",
+          "headline": "Supplementary Information - JORC Table 1 for Yuinmery",
+          "called": "neutral",
+          "abnormal_pct": 10.7
+        },
         {
           "date": "2026-09-17",
           "ticker": "ERL",
@@ -1377,8 +1391,15 @@
       "rule": "An ASX price query response that is flagged market sensitive and lands into a volume spike at a 12-month low almost always contains an affirmative disclosure — the exchange queries only when price action is anomalous, and a market-sensitive response confirms the company has something to say rather than a 'not aware of any reason' denial; lean bullish rather than neutral when the response is market-sensitive, the stock is at a multi-month low, and volume has already spiked, because the filing type itself signals an embedded catalyst rather than a denial.",
       "created": "2026-09-17",
       "last_seen": "2026-09-17",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-17",
+          "ticker": "BGE",
+          "headline": "Response to ASX Price Query",
+          "called": "neutral",
+          "abnormal_pct": 10.7
+        },
         {
           "date": "2026-09-17",
           "ticker": "BGE",
@@ -1408,8 +1429,15 @@
       "rule": "A completion announcement is categorically different from an intention or signing announcement — it confirms cash (or consideration) has actually changed hands and the liability or cost centre has been extinguished; before applying L007's bearish default, ask whether the disposed asset was a drag (cash burn, sovereign risk, contingent liability) whose removal is itself the positive catalyst; if so, lean neutral-to-bullish rather than bearish, because the market may re-rate on balance-sheet simplification even without a disclosed quantum.",
       "created": "2026-09-17",
       "last_seen": "2026-09-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-17",
+          "ticker": "LIO",
+          "headline": "Lion Completes Seram (Non-Bula) PSC Sale",
+          "called": "neutral",
+          "abnormal_pct": 17.77
+        },
         {
           "date": "2026-09-17",
           "ticker": "LIO",
@@ -1432,7 +1460,7 @@
       "rule": "A named specialist-sector conference presentation is not equivalent to a generic awareness-marketing filing under L010 — the audience is sector-informed and the act of presenting can itself trigger accumulation by specialist funds who were not previously holders; before applying L010's bearish default, ask whether the conference is a known catalyst event for the sector (i.e. RIU Uranium, Noosa Mining) and whether the sector is in an active thematic re-rating; if yes, downgrade from bearish to neutral, because the dilution-marketing logic of L010 does not apply when the audience is buying, not being sold to.",
       "created": "2026-09-17",
       "last_seen": "2026-09-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
         {
           "date": "2026-09-17",
@@ -1440,6 +1468,20 @@
           "headline": "Investor Presentation - RIU Uranium Investment Day",
           "called": "bearish",
           "abnormal_pct": 16.25
+        },
+        {
+          "date": "2026-09-17",
+          "ticker": "CR3",
+          "headline": "Investor Presentation - RIU Uranium Investment Day",
+          "called": "bearish",
+          "abnormal_pct": 16.25
+        },
+        {
+          "date": "2026-09-17",
+          "ticker": "I88",
+          "headline": "RIU Uranium Investment Conference Presentation",
+          "called": "bearish",
+          "abnormal_pct": 9.59
         },
         {
           "date": "2026-09-17",
@@ -1463,22 +1505,8 @@
       "rule": "Before calling bearish on an application-for-quotation plus issue-of-shares-and-options cluster purely on dilution grounds, ask whether the options component signals that the placement was priced with significant incentive to attract buyers into a distressed stock — heavily optioned placements at de-rated micro-caps can be read by the market as a funded-catalyst signal (the raise completed despite the de-rating) rather than a pure dilution event; default to neutral rather than bearish when the cluster involves options and no strategic concerns (e.g. going-concern disclosure, asset impairment) accompany it.",
       "created": "2026-09-17",
       "last_seen": "2026-09-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
-        {
-          "date": "2026-09-17",
-          "ticker": "TMX",
-          "headline": "Application for quotation of securities - TMX",
-          "called": "bearish",
-          "abnormal_pct": 13.87
-        },
-        {
-          "date": "2026-09-17",
-          "ticker": "AM5",
-          "headline": "Application for quotation of securities - AM5",
-          "called": "neutral",
-          "abnormal_pct": -20.41
-        },
         {
           "date": "2026-09-17",
           "ticker": "TMX",
@@ -1499,6 +1527,20 @@
           "headline": "Issue of Shares and Options",
           "called": "bearish",
           "abnormal_pct": 13.87
+        },
+        {
+          "date": "2026-09-17",
+          "ticker": "OMG",
+          "headline": "Application for quotation of securities - OMG",
+          "called": "neutral",
+          "abnormal_pct": 13.87
+        },
+        {
+          "date": "2026-09-17",
+          "ticker": "OMG",
+          "headline": "Application for quotation of securities - OMG",
+          "called": "neutral",
+          "abnormal_pct": 13.87
         }
       ]
     },
@@ -1508,7 +1550,7 @@
       "rule": "A prospectus despatch is not uniformly bearish — distinguish between a placement prospectus (dilutive, outsiders getting shares at discount) and an entitlement offer prospectus (existing holders given the right to maintain their position); before calling bearish on despatch of prospectus at a distressed stock, ask whether the offer is a rights issue that gives existing holders a participation option, because an entitlement offer at a deeply de-rated stock can be read as a funded-catalyst signal and a floor-setting event rather than a dilution threat; default to neutral rather than bearish when the structure is participatory rather than exclusionary.",
       "created": "2026-09-17",
       "last_seen": "2026-09-17",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
         {
           "date": "2026-09-17",
@@ -1523,6 +1565,30 @@
           "headline": "Despatch of Prospectus",
           "called": "bearish",
           "abnormal_pct": 12.09
+        },
+        {
+          "date": "2026-09-17",
+          "ticker": "AAU",
+          "headline": "Despatch of Prospectus",
+          "called": "bearish",
+          "abnormal_pct": 12.09
+        }
+      ]
+    },
+    {
+      "id": "L042",
+      "trigger": "Receipt of a Section 249D shareholder requisition notice at a stock deeply de-rated (>70% below 12-month high), where the requisitioning party is a named industry peer or competitor rather than a passive financial holder",
+      "rule": "A Section 249D requisition from a named industry peer is not straightforwardly bullish — the requisitioning party may be seeking to install board control in order to pursue a transaction on terms favourable to itself rather than to minority shareholders; before calling bullish, ask whether the requisitioner is a competitor whose agenda may be value-extractive for the target's minorities, and default to neutral rather than bullish when the requistioner's strategic interest is potentially adversarial to existing holders.",
+      "created": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-17",
+          "ticker": "GSS",
+          "headline": "Receipt of Section 249D Notice from BCAL Diagnostics",
+          "called": "bullish",
+          "abnormal_pct": -10.0
         }
       ]
     }
