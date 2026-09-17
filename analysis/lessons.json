@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-16T10:45:32.124129+00:00",
-  "next_id": 35,
+  "updated_at": "2026-09-17T06:57:50.435567+00:00",
+  "next_id": 38,
   "lessons": [
     {
       "id": "L001",
@@ -257,8 +257,8 @@
       "trigger": "Asset divestment announcement by a company trading more than 60% below its 12-month high, with no proceeds or deal terms disclosed in the headline",
       "rule": "When a deeply distressed company announces a divestment without disclosing proceeds or strategic rationale, the market default is to read it as a distress signal — asset quality concern or cash preservation — rather than strategic rationalisation. In the absence of disclosed terms, lean bearish rather than neutral when the stock is already severely de-rated, because the filing confirms asset disposal without confirming value recovery.",
       "created": "2026-09-14",
-      "last_seen": "2026-09-14",
-      "times_seen": 3,
+      "last_seen": "2026-09-17",
+      "times_seen": 4,
       "examples": [
         {
           "date": "2026-09-14",
@@ -280,6 +280,13 @@
           "headline": "Divestment of Northern Territory Exploration assets",
           "called": "neutral",
           "abnormal_pct": -7.24
+        },
+        {
+          "date": "2026-09-17",
+          "ticker": "LIO",
+          "headline": "Lion Completes Seram (Non-Bula) PSC Sale",
+          "called": "neutral",
+          "abnormal_pct": 17.77
         }
       ]
     },
@@ -723,23 +730,9 @@
       "trigger": "Cleansing statement filed by a junior at a 12-month low, accompanied on the same day by an investor presentation (identifiable via same-day filing cluster)",
       "rule": "When a cleansing statement and an investor presentation are filed together at a 12-month low, the presentation may be the use-of-proceeds marketing document for the just-completed raise rather than a pre-raise awareness filing — meaning fresh capital has arrived with a stated deployment plan. Ask whether the raise proceeds create a funded runway that removes the near-term going-concern risk; if so, the cleansing statement signals dilution already absorbed and a funded catalyst pipeline, which is neutral-to-bullish rather than bearish. Do not apply L011 in isolation when a companion presentation discloses a credible use of proceeds.",
       "created": "2026-09-15",
-      "last_seen": "2026-09-16",
-      "times_seen": 4,
+      "last_seen": "2026-09-17",
+      "times_seen": 5,
       "examples": [
-        {
-          "date": "2026-09-15",
-          "ticker": "KAL",
-          "headline": "Cleansing Statement",
-          "called": "bearish",
-          "abnormal_pct": 10.88
-        },
-        {
-          "date": "2026-09-15",
-          "ticker": "KAL",
-          "headline": "Investor Presentation",
-          "called": "bearish",
-          "abnormal_pct": 10.88
-        },
         {
           "date": "2026-09-15",
           "ticker": "KAL",
@@ -760,6 +753,20 @@
           "headline": "IOV Secures $4.25 Million Placement",
           "called": "bearish",
           "abnormal_pct": 13.65
+        },
+        {
+          "date": "2026-09-17",
+          "ticker": "AM5",
+          "headline": "Application for quotation of securities - AM5",
+          "called": "neutral",
+          "abnormal_pct": -20.41
+        },
+        {
+          "date": "2026-09-17",
+          "ticker": "AAU",
+          "headline": "Despatch of Prospectus",
+          "called": "bearish",
+          "abnormal_pct": 12.09
         }
       ]
     },
@@ -768,8 +775,8 @@
       "trigger": "Government or official-body selection of a junior's project for a named investment summit, trade mission, or critical minerals programme (not flagged market sensitive), stock 40-60% below 12-month high",
       "rule": "Selection by a government or multilateral body for a named investment summit is not purely promotional — it is an implicit third-party endorsement of the project's strategic credibility within a national or supranational critical minerals agenda, which can function as a near-term re-rating catalyst independent of any technical result. Do not apply L010 (pre-raise awareness marketing) to government-selection announcements; instead lean neutral-to-bullish when the selecting body is credible, the project is in a jurisdiction with active critical minerals policy, and the stock is materially de-rated.",
       "created": "2026-09-15",
-      "last_seen": "2026-09-15",
-      "times_seen": 3,
+      "last_seen": "2026-09-17",
+      "times_seen": 4,
       "examples": [
         {
           "date": "2026-09-15",
@@ -791,6 +798,20 @@
           "headline": "Prairie Project Selected for Canada Investment Summit",
           "called": "neutral",
           "abnormal_pct": 9.98
+        },
+        {
+          "date": "2026-09-17",
+          "ticker": "CR3",
+          "headline": "Investor Presentation - RIU Uranium Investment Day",
+          "called": "bearish",
+          "abnormal_pct": 16.25
+        },
+        {
+          "date": "2026-09-17",
+          "ticker": "I88",
+          "headline": "RIU Uranium Investment Conference Presentation",
+          "called": "bearish",
+          "abnormal_pct": 9.59
         }
       ]
     },
@@ -989,8 +1010,8 @@
       "trigger": "Capital raise (placement) announcement flagged market sensitive at a thinly traded micro-cap, where the raise quantum is large relative to the company's normal daily turnover (e.g. >100 trading days of normal volume), and the intended use of proceeds addresses a specific operational catalyst (named project, named programme)",
       "rule": "A large placement relative to normal liquidity, when use of proceeds is specific and operational (not generic 'working capital'), can be read as a funded-catalyst signal rather than a dilution event — the market may re-rate positively on the certainty of execution that the capital now enables; before defaulting to bearish on any placement, ask whether the proceeds are tied to a named near-term catalyst and whether the raise removes a going-concern or execution risk; if yes, call neutral-to-bullish rather than bearish.",
       "created": "2026-09-16",
-      "last_seen": "2026-09-16",
-      "times_seen": 4,
+      "last_seen": "2026-09-17",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-09-16",
@@ -1014,18 +1035,18 @@
           "abnormal_pct": 13.65
         },
         {
-          "date": "2026-09-16",
-          "ticker": "IOV",
-          "headline": "Proposed issue of securities - IOV",
+          "date": "2026-09-17",
+          "ticker": "TMX",
+          "headline": "Application for quotation of securities - TMX",
           "called": "bearish",
-          "abnormal_pct": 13.65
+          "abnormal_pct": 13.87
         },
         {
-          "date": "2026-09-16",
-          "ticker": "IOV",
-          "headline": "IOV Secures $4.25 Million Placement",
+          "date": "2026-09-17",
+          "ticker": "TMX",
+          "headline": "Issue of Shares and Options",
           "called": "bearish",
-          "abnormal_pct": 13.65
+          "abnormal_pct": 13.87
         }
       ]
     },
@@ -1058,18 +1079,11 @@
       "trigger": "Substantial holding filing headlined 'Becoming a substantial holder' (i.e. a new substantial holder crossing the 5% threshold for the first time) at a deeply de-rated stock, not flagged market sensitive",
       "rule": "'Becoming a substantial holder' is categorically different from a change in an existing substantial holding — it announces that a new party has crossed 5% for the first time, which is unambiguously accumulation, not a reduction; do not apply the L001 bearish default (which addresses direction ambiguity) to a maiden substantial-holder filing; call bullish or neutral-to-bullish when the headline contains 'becoming' rather than 'change in', because direction is confirmed as acquisition by the filing type itself.",
       "created": "2026-09-16",
-      "last_seen": "2026-09-16",
-      "times_seen": 4,
+      "last_seen": "2026-09-17",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-09-16",
-          "ticker": "VYS",
-          "headline": "Change in substantial holding",
-          "called": "bearish",
-          "abnormal_pct": 11.06
-        },
-        {
-          "date": "2026-09-16",
           "ticker": "MPW",
           "headline": "Becoming a substantial holder, change in substantial holding",
           "called": "bearish",
@@ -1095,6 +1109,13 @@
           "headline": "Becoming a substantial holder, change in substantial holding",
           "called": "bearish",
           "abnormal_pct": 10.13
+        },
+        {
+          "date": "2026-09-17",
+          "ticker": "AUQ",
+          "headline": "Change in substantial holding",
+          "called": "neutral",
+          "abnormal_pct": 9.59
         }
       ]
     },
@@ -1148,8 +1169,8 @@
       "trigger": "Change of Director's Interest Notice filed into elevated volume (5-day volume >1.5x average) at a stock that is NOT near a multi-month high, with no direction disclosed in the headline",
       "rule": "L001's bearish default was designed for holders selling into strength; a director's interest notice into elevated volume on a stock that is not extended is structurally different — the director may be acquiring, and insider buying at a depressed price is a constructive signal. Do not apply the L001 bearish default to director interest notices when the stock is not near a recent high; call neutral and require confirmation of direction before leaning bearish, because the base rate for director purchases (constructive) is meaningfully higher than for sales at non-extended prices.",
       "created": "2026-09-16",
-      "last_seen": "2026-09-16",
-      "times_seen": 3,
+      "last_seen": "2026-09-17",
+      "times_seen": 4,
       "examples": [
         {
           "date": "2026-09-16",
@@ -1178,6 +1199,13 @@
           "headline": "Change of Director's Interest Notice",
           "called": "bearish",
           "abnormal_pct": 11.06
+        },
+        {
+          "date": "2026-09-17",
+          "ticker": "AUQ",
+          "headline": "Change of Director's Interest Notice (F Masani)",
+          "called": "neutral",
+          "abnormal_pct": 9.59
         }
       ]
     },
@@ -1252,7 +1280,58 @@
           "abnormal_pct": 9.03
         }
       ]
+    },
+    {
+      "id": "L035",
+      "trigger": "Market-sensitive tenement application announcement (new ground, additional block, adjacent tenure) at a junior explorer with 5-day volume running >1.5x average, with no price-position data indicating the stock is near a multi-month high",
+      "rule": "A market-sensitive tenement application is not merely an activity statement — management and their advisers have judged it material, which implies the ground is strategically significant (district consolidation, blocking a competitor, covering a known geophysical anomaly); do not default to neutral on a flagged tenement announcement into elevated volume; lean neutral-to-bullish when the market-sensitive designation is present, because the flag is itself the signal that the tenure has identifiable value beyond routine acreage.",
+      "created": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-17",
+          "ticker": "AMD",
+          "headline": "Application to secure another key iron ore tenement",
+          "called": "neutral",
+          "abnormal_pct": 17.23
+        }
+      ]
+    },
+    {
+      "id": "L036",
+      "trigger": "Supplementary JORC Table 1 filing (technical compliance document supporting a prior resource or exploration result) flagged market sensitive at a stock 50%+ below its 12-month high",
+      "rule": "A supplementary JORC Table 1 flagged as market sensitive is not merely an audit-trail filing — the market-sensitive designation signals that the underlying resource estimate it supports is itself a material new disclosure (maiden resource, significant upgrade) that may not have been fully absorbed when the primary announcement landed; do not call neutral on a market-sensitive Table 1 purely because it is labelled supplementary — treat it as confirmation that a substantive resource event has occurred and lean neutral-to-bullish when the stock is materially de-rated and the flag is present.",
+      "created": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-17",
+          "ticker": "ERL",
+          "headline": "Supplementary Information - JORC Table 1 for Yuinmery",
+          "called": "neutral",
+          "abnormal_pct": 10.7
+        }
+      ]
+    },
+    {
+      "id": "L037",
+      "trigger": "Market-sensitive response to an ASX price query at a stock at or near a 12-month low with volume running materially above average (>3x) and median daily turnover near zero",
+      "rule": "An ASX price query response that is flagged market sensitive and lands into a volume spike at a 12-month low almost always contains an affirmative disclosure — the exchange queries only when price action is anomalous, and a market-sensitive response confirms the company has something to say rather than a 'not aware of any reason' denial; lean bullish rather than neutral when the response is market-sensitive, the stock is at a multi-month low, and volume has already spiked, because the filing type itself signals an embedded catalyst rather than a denial.",
+      "created": "2026-09-17",
+      "last_seen": "2026-09-17",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-17",
+          "ticker": "BGE",
+          "headline": "Response to ASX Price Query",
+          "called": "neutral",
+          "abnormal_pct": 10.7
+        }
+      ]
     }
   ],
-  "last_reflected": "2026-09-16"
+  "last_reflected": "2026-09-17"
 }
