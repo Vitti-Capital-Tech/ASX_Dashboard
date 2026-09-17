@@ -1,97 +1,175 @@
 {
-  "generated_at": "2026-09-17T20:44:17.608058+10:00",
-  "days_scored": 10,
+  "generated_at": "2026-09-18T00:17:34.362549+10:00",
+  "days_scored": 23,
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "by_sentiment": {
     "bullish": {
-      "scored": 669,
-      "correct": 283,
-      "wrong": 163,
-      "flat": 223,
-      "hit_rate": 63.5,
-      "avg_abnormal_pct": 1.55
+      "scored": 1414,
+      "correct": 572,
+      "wrong": 354,
+      "flat": 488,
+      "hit_rate": 61.8,
+      "avg_abnormal_pct": 2.07
     },
     "bearish": {
-      "scored": 321,
-      "correct": 121,
-      "wrong": 77,
-      "flat": 123,
-      "hit_rate": 61.1,
-      "avg_abnormal_pct": -1.81
+      "scored": 352,
+      "correct": 117,
+      "wrong": 92,
+      "flat": 143,
+      "hit_rate": 56.0,
+      "avg_abnormal_pct": -0.25
     },
     "neutral": {
-      "scored": 2073,
-      "correct": 999,
-      "wrong": 1074,
+      "scored": 3043,
+      "correct": 1380,
+      "wrong": 1663,
       "flat": 0,
-      "hit_rate": 48.2,
-      "avg_abnormal_pct": 0.04
+      "hit_rate": 45.3,
+      "avg_abnormal_pct": 0.64
     }
   },
-  "spread_pct": 3.36,
-  "directional_hit_rate": 62.7,
-  "directional_scored": 644,
+  "spread_pct": 2.32,
+  "directional_hit_rate": 60.7,
+  "directional_scored": 1135,
   "daily": [
     {
+      "date": "2026-08-18",
+      "hit_rate": 60.0,
+      "scored": 45,
+      "spread_pct": 5.77
+    },
+    {
+      "date": "2026-08-19",
+      "hit_rate": 64.4,
+      "scored": 59,
+      "spread_pct": 7.37
+    },
+    {
+      "date": "2026-08-20",
+      "hit_rate": 66.2,
+      "scored": 68,
+      "spread_pct": 5.47
+    },
+    {
+      "date": "2026-08-21",
+      "hit_rate": null,
+      "scored": 0,
+      "spread_pct": null
+    },
+    {
+      "date": "2026-08-24",
+      "hit_rate": null,
+      "scored": 0,
+      "spread_pct": null
+    },
+    {
+      "date": "2026-08-25",
+      "hit_rate": null,
+      "scored": 0,
+      "spread_pct": null
+    },
+    {
+      "date": "2026-08-26",
+      "hit_rate": 0.0,
+      "scored": 2,
+      "spread_pct": -8.26
+    },
+    {
+      "date": "2026-08-27",
+      "hit_rate": 65.5,
+      "scored": 55,
+      "spread_pct": 10.64
+    },
+    {
+      "date": "2026-08-28",
+      "hit_rate": 51.5,
+      "scored": 66,
+      "spread_pct": -1.26
+    },
+    {
+      "date": "2026-08-31",
+      "hit_rate": 52.9,
+      "scored": 85,
+      "spread_pct": 0.56
+    },
+    {
+      "date": "2026-09-01",
+      "hit_rate": 70.1,
+      "scored": 77,
+      "spread_pct": 0.88
+    },
+    {
+      "date": "2026-09-02",
+      "hit_rate": 54.7,
+      "scored": 53,
+      "spread_pct": 3.33
+    },
+    {
+      "date": "2026-09-03",
+      "hit_rate": 58.7,
+      "scored": 63,
+      "spread_pct": 4.84
+    },
+    {
       "date": "2026-09-04",
-      "hit_rate": 58.3,
-      "scored": 48,
-      "spread_pct": -1.61
+      "hit_rate": 60.5,
+      "scored": 43,
+      "spread_pct": -0.95
     },
     {
       "date": "2026-09-07",
-      "hit_rate": 73.5,
-      "scored": 68,
-      "spread_pct": 6.42
+      "hit_rate": 73.0,
+      "scored": 63,
+      "spread_pct": 4.69
     },
     {
       "date": "2026-09-08",
-      "hit_rate": 64.4,
-      "scored": 59,
-      "spread_pct": 5.28
+      "hit_rate": 64.8,
+      "scored": 54,
+      "spread_pct": 5.25
     },
     {
       "date": "2026-09-09",
-      "hit_rate": 53.6,
-      "scored": 69,
-      "spread_pct": 8.61
+      "hit_rate": 51.7,
+      "scored": 60,
+      "spread_pct": 5.23
     },
     {
       "date": "2026-09-10",
-      "hit_rate": 71.1,
-      "scored": 90,
-      "spread_pct": 3.91
+      "hit_rate": 70.0,
+      "scored": 80,
+      "spread_pct": 3.61
     },
     {
       "date": "2026-09-11",
-      "hit_rate": 48.9,
-      "scored": 47,
-      "spread_pct": 0.85
+      "hit_rate": 50.0,
+      "scored": 38,
+      "spread_pct": 1.18
     },
     {
       "date": "2026-09-14",
-      "hit_rate": 68.4,
-      "scored": 76,
-      "spread_pct": 4.64
+      "hit_rate": 61.8,
+      "scored": 68,
+      "spread_pct": 0.47
     },
     {
       "date": "2026-09-15",
-      "hit_rate": 49.1,
-      "scored": 57,
-      "spread_pct": -0.85
+      "hit_rate": 46.7,
+      "scored": 45,
+      "spread_pct": -2.34
     },
     {
       "date": "2026-09-16",
-      "hit_rate": 62.1,
-      "scored": 58,
-      "spread_pct": 2.58
+      "hit_rate": 59.6,
+      "scored": 52,
+      "spread_pct": 0.61
     },
     {
       "date": "2026-09-17",
-      "hit_rate": 66.7,
-      "scored": 72,
-      "spread_pct": 6.62
+      "hit_rate": 62.7,
+      "scored": 59,
+      "spread_pct": 3.77
     }
   ]
 }

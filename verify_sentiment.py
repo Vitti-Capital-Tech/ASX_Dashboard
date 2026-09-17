@@ -16,6 +16,7 @@ Usage:
 
 import os
 import json
+import math
 import argparse
 import zoneinfo
 from datetime import datetime, timedelta
@@ -111,7 +112,7 @@ def fetch_prices(symbols: list[str], date_str: str) -> dict[str, pd.DataFrame]:
 
 def session_move(df, date_str: str, use_next: bool):
     """
-    (prev_close, close, session_date) for the session the news belongs to.
+    (prev_close, open, close, session_date) for the session the news belongs to.
 
     Bars come straight from the exchange calendar, so public holidays and
     long weekends resolve themselves - we never guess which day traded.
@@ -141,7 +142,91 @@ def session_move(df, date_str: str, use_next: bool):
     close      = float(df["Close"].iloc[idx])
     if prev_close <= 0:
         return None
-    return prev_close, close, target
+
+    # The open can be missing on a thin stock where the daily bar was built
+    # from a single late trade. None rather than falling back to the close,
+    # which would silently report an open-to-close move of zero.
+    try:
+        op = float(df["Open"].iloc[idx])
+        if not math.isfinite(op) or op <= 0:
+            op = None
+    except (KeyError, TypeError, ValueError):
+        op = None
+
+    return prev_close, op, close, target
+
+
+def fetch_vwap(symbols: list[str], session_dates: set[str]) -> dict[tuple[str, str], float]:
+    """
+    Volume-weighted average price per (symbol, session), from 1-minute bars.
+
+    ── Why intraday, and what that costs ──────────────────────────────────────
+    A daily bar carries no VWAP, and the usual stand-in — (high + low + close)/3
+    — is not volume weighted at all. On a stock that gapped and then traded all
+    day at the other end of its range those two answer different questions, and
+    the whole point of the column is to say where the volume actually went.
+
+    The price of being honest about it is history: Yahoo serves 1-minute bars
+    for roughly the last 30 days only. Beyond that the VWAP is simply absent,
+    and every consumer renders it as a dash rather than substituting a proxy
+    that would quietly mean something else in older rows. A scorecard re-run
+    over an old date cannot recover it.
+
+    Failure is an empty dict, never an exception: VWAP is a column, and the
+    scorecard's verdicts do not depend on it.
+    """
+    out: dict[tuple[str, str], float] = {}
+    if not symbols or not session_dates:
+        return out
+
+    for session in sorted(session_dates):
+        try:
+            day = datetime.strptime(session, "%Y-%m-%d").date()
+        except ValueError:
+            continue
+
+        # Yahoo's `end` is exclusive, so one session is [day, day+1).
+        start, end = day.isoformat(), (day + timedelta(days=1)).isoformat()
+
+        for i in range(0, len(symbols), CHUNK):
+            chunk = symbols[i:i + CHUNK]
+            print(f"[vwap] {session}: {i + 1}-{i + len(chunk)} of {len(symbols)}...")
+            try:
+                raw = yf.download(
+                    chunk, start=start, end=end, interval="1m",
+                    group_by="ticker", auto_adjust=False,
+                    progress=False, threads=True,
+                )
+            except Exception as e:
+                print(f"[vwap] chunk failed: {e}")
+                continue
+
+            if raw is None or raw.empty:
+                continue
+
+            for sym in chunk:
+                try:
+                    df = raw[sym] if isinstance(raw.columns, pd.MultiIndex) else raw
+                    df = df.dropna(subset=["Close", "Volume"])
+                    vol = df["Volume"].astype(float)
+                    traded = float(vol.sum())
+                    if traded <= 0:
+                        continue
+                    # Typical price per MINUTE, weighted by that minute's volume.
+                    # This is the standard construction; the approximation it
+                    # replaces applies the same formula to the whole day at once,
+                    # which is a different number entirely.
+                    typical = (df["High"].astype(float)
+                               + df["Low"].astype(float)
+                               + df["Close"].astype(float)) / 3
+                    v = float((typical * vol).sum() / traded)
+                    if math.isfinite(v) and v > 0:
+                        out[(sym, session)] = round(v, 4)
+                except (KeyError, TypeError, ValueError):
+                    continue
+
+    print(f"[vwap] computed for {len(out)} symbol-sessions.")
+    return out
 
 
 # ─────────────────────────────────────────────────────────────
@@ -176,6 +261,81 @@ def verdict_for(sentiment: str, abnormal_pct: float) -> str:
         return "wrong"
     went_up = abnormal_pct > 0
     return "correct" if went_up == (sentiment == "bullish") else "wrong"
+
+
+# Which call survives when one ticker filed several times in a session. A
+# directional call outranks a neutral one: "Change of Director's Interest
+# Notice" is procedural noise filed beside the announcement that actually said
+# something, and scoring the day as neutral because four such notices
+# outnumbered one bearish call measures the paperwork, not the judgement.
+_CALL_RANK = {"bullish": 2, "bearish": 2, "neutral": 1}
+
+
+def _representative(rows: list[dict]) -> dict:
+    """The announcement a merged row should show, out of several."""
+    return sorted(
+        rows,
+        key=lambda r: (
+            _CALL_RANK.get(r["sentiment"], 0),
+            1 if r.get("market_sensitive") else 0,
+            r.get("time") or "",
+        ),
+        reverse=True,
+    )[0]
+
+
+def merge_by_ticker(rows: list[dict]) -> list[dict]:
+    """
+    One row per ticker per session, instead of one per announcement.
+
+    ── The bug this fixes ─────────────────────────────────────────────────────
+    Every announcement was scored against the same closing price, so a ticker
+    that filed seven times cast seven votes on one price move. ABX filed five
+    times into a single -18.36% session and the bearish hit rate counted five
+    correct calls; BCM's five procedural notices and two bearish ones split one
+    -3.35% move into five wrong and two correct. Across the scorecards 25% of
+    rows were repeats of a ticker already counted.
+
+    That is not a display quirk. A hit rate is a count of independent
+    judgements, and these were never independent: one stock, one move, one
+    outcome. Merging makes each ticker-session worth exactly one vote.
+
+    Grouped by (ticker, session_date) rather than ticker alone, because
+    post-close news is scored against the NEXT session and must not be folded
+    into the same day's calls. Unpriced rows keep their own grouping key so a
+    pending row never merges with a settled one.
+    """
+    groups: dict[tuple, list[dict]] = {}
+    order: list[tuple] = []
+    for r in rows:
+        key = (r["ticker"], r.get("session_date"), r["verdict"] in ("pending", "no_data"))
+        if key not in groups:
+            groups[key] = []
+            order.append(key)
+        groups[key].append(r)
+
+    merged = []
+    for key in order:
+        rows_in = groups[key]
+        if len(rows_in) == 1:
+            row = dict(rows_in[0])
+            row["announcements"] = 1
+            row["also"] = []
+            merged.append(row)
+            continue
+
+        rep = _representative(rows_in)
+        row = dict(rep)
+        row["announcements"] = len(rows_in)
+        # Every other headline this ticker filed that session, so merging hides
+        # nothing — the table can list them under the row it kept.
+        row["also"] = [r["headline"] for r in rows_in if r is not rep]
+        # The flag is about the ticker's day, not one filing, so it survives
+        # any merge: a ticker called both ways cannot be settled by one close.
+        row["conflict"] = any(r.get("conflict") for r in rows_in)
+        merged.append(row)
+
+    return merged
 
 
 def score_day(date_str: str) -> dict:
@@ -219,8 +379,11 @@ def score_day(date_str: str) -> dict:
             "conflict": ticker in conflicted,
             "session_date": None,
             "prev_close": None,
+            "open": None,
+            "vwap": None,
             "close": None,
             "return_pct": None,
+            "open_close_pct": None,
             "index_return_pct": None,
             "abnormal_pct": None,
             "verdict": "no_data",
@@ -234,25 +397,48 @@ def score_day(date_str: str) -> dict:
             results.append(row)
             continue
 
-        prev_close, close, session_date = move
+        prev_close, op, close, session_date = move
         ret = (close / prev_close - 1) * 100
 
         idx_ret = 0.0
         bmove = session_move(bench, date_str, use_next)
         if bmove:
-            idx_ret = (bmove[1] / bmove[0] - 1) * 100
+            idx_ret = (bmove[2] / bmove[0] - 1) * 100
 
         abnormal = ret - idx_ret
         row.update({
             "session_date": session_date,
             "prev_close": round(prev_close, 4),
+            "open": round(op, 4) if op else None,
             "close": round(close, 4),
             "return_pct": round(ret, 2),
+            # The session's own move, with the overnight gap excluded. Reported
+            # beside `return_pct` rather than instead of it: 69% of these
+            # filings land before the open, and for those the reaction IS the
+            # gap — measuring from the open would miss the event and report the
+            # drift that followed it.
+            "open_close_pct": round((close / op - 1) * 100, 2) if op else None,
             "index_return_pct": round(idx_ret, 2),
             "abnormal_pct": round(abnormal, 2),
             "verdict": verdict_for(a["sentiment"], abnormal),
         })
         results.append(row)
+
+    # VWAP last: it needs the sessions the rows actually resolved to, and it is
+    # the one figure whose absence costs a column rather than a verdict.
+    sessions = {r["session_date"] for r in results if r.get("session_date")}
+    priced = sorted({yahoo_symbol(r["ticker"]) for r in results if r.get("session_date")})
+    try:
+        vwaps = fetch_vwap(priced, sessions)
+    except Exception as e:
+        print(f"[vwap] unavailable, continuing without it: {e}")
+        vwaps = {}
+    for r in results:
+        if r.get("session_date"):
+            r["vwap"] = vwaps.get((yahoo_symbol(r["ticker"]), r["session_date"]))
+
+    results = merge_by_ticker(results)
+    print(f"[score] {date_str}: {len(results)} rows after merging by ticker.")
 
     return {
         "date": date_str,
@@ -399,6 +585,10 @@ def main():
                         help="Trading date to score (YYYY-MM-DD), defaults to today AEST")
     parser.add_argument("--backfill", type=int, default=3,
                         help="Also re-score the N previous days, to resolve pending post-close news")
+    parser.add_argument("--force", action="store_true",
+                        help="Re-score every day in range even if nothing is pending. "
+                             "Needed after a scoring change — the default skips a settled "
+                             "day, so a merge or a new column would never reach history.")
     args = parser.parse_args()
 
     target = datetime.strptime(args.date, "%Y-%m-%d").date()
@@ -414,7 +604,7 @@ def main():
     scored_any = False
     for d in dates:
         existing = SCORECARD_DIR / f"{d}.json"
-        if d != args.date and existing.exists():
+        if d != args.date and existing.exists() and not args.force:
             # Only revisit an older day if something is still unresolved.
             try:
                 prev = json.loads(existing.read_text(encoding="utf-8"))

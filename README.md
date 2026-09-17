@@ -307,6 +307,12 @@ actually did what we said it would. Nothing is graded by hand.
 - **Timing decides the day.** News released before the 10:00 open is judged on that day's
   close. News released after the 16:00 close is judged on the *next* session, and sits as
   *Pending* until that price exists.
+- **One ticker, one vote.** A company that files seven times in a morning used to be scored
+  seven times against the same closing price — ABX filed five times into a single −18.4%
+  session and counted as five correct calls. Those are now merged into one row per ticker
+  per session, with the directional call kept over the procedural notices filed beside it.
+  The row shows how many filings it covers; hover that to read the ones not shown. This
+  removed 25% of all rows (833 of 3,373) and moved hit rates by a few points, mostly down.
 - **Mixed days are excluded.** If one ticker gets both a bullish and a bearish call on the
   same day, a single closing price cannot settle both, so it is left out of the hit rate.
 - **Halted and suspended stocks** have no price to check and are marked *No price*.
@@ -317,11 +323,28 @@ actually did what we said it would. Nothing is graded by hand.
 | --- | --- |
 | **Hit rate** | Share of directional calls that went the right way. |
 | **Bullish / Bearish hit rate** | Whether the AI is better at spotting good news or bad news. |
-| **Bull − Bear spread** | How far bullish picks beat bearish ones on average. This is the real test — a high hit rate with no spread is not an edge. |
 | **Neutral control** | Average move of the announcements we called neutral. Bullish picks have to beat *this*, not zero, to mean anything. |
 
 Use **Copy post summary** for a plain-English, paste-ready recap of the day, and
 **Export CSV** for the full call-by-call detail.
+
+### The price columns
+
+| Column | What it is |
+| --- | --- |
+| **Prev close** | The close before the session being judged. |
+| **Open** | That session's opening price. |
+| **VWAP** | Volume-weighted average price, built from 1-minute bars — where the volume actually traded, not the midpoint of the range. Yahoo only serves intraday history for about 30 days, so older sessions show a dash rather than a substitute that would mean something different. |
+| **Close** | The closing price the verdict is settled on. |
+| **Open→Close** | The session's own move, with the overnight gap excluded. |
+| **Stock / Market / Net** | The stock's move, the index's move, and the difference. **Net is what the verdict is judged on.** |
+
+**Why the verdict still uses Net and not Open→Close.** 69% of these announcements are
+lodged before the market opens, and for those the entire reaction is the overnight gap —
+the jump from the previous close to the open. Judging them on Open→Close would measure
+the drift *after* the market had already reacted and would score most pre-open calls as
+flat or wrong. Open→Close is shown beside Net because it answers a different, useful
+question: once the market opened, did the move hold?
 
 ### Filtering the calls, and the total underneath
 
@@ -361,6 +384,17 @@ The scorecard is committed to `scorecard/` as plain JSON and served over three e
 ```bash
 python verify_sentiment.py --date 2026-09-04
 ```
+
+After a scoring change — a new column, or the ticker merge — older scorecards are
+skipped by default, because the re-score only revisits a day that still has something
+pending. `--force` rebuilds them anyway:
+
+```bash
+python verify_sentiment.py --date 2026-09-17 --backfill 30 --force
+```
+
+Note that VWAP only reaches back about 30 days, since that is as far as Yahoo serves
+1-minute bars. Older rows will show a dash in that column however often they are rebuilt.
 
 `--backfill N` also re-checks the previous N days, which is how post-close announcements
 get resolved once the next session prints. Re-running a day is safe — it simply

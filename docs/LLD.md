@@ -77,6 +77,38 @@ Returns `None` rather than a dict of nulls when there are fewer than `MIN_BARS` 
 #### Backfill (`scripts/backfill_context.py`)
 Contexts are attached at save time, so a field added to this module today is absent from every log written before today. The backfill walks selected logs, pulls history once across every ticker in the range, and recomputes each context **against its own log date** — the same function the live path calls, so a backfilled row and a live one are indistinguishable. It writes `context_backfilled_at` on the log, touches no other announcement field (the summary and sentiment are what the model said at the time), and leaves an existing context in place where price data can no longer be had.
 
+### 1c. Sentiment Scoring (`verify_sentiment.py`)
+
+#### Purpose
+To grade each day's sentiment calls against what the price actually did, and write `scorecard/YYYY-MM-DD.json`.
+
+#### One ticker, one vote (`merge_by_ticker`)
+Every announcement used to be scored separately, and every announcement from the same ticker resolved to the **same** closing price. A hit rate is a count of independent judgements, and these were never independent — one stock, one move, one outcome.
+
+Observed in the data: ABX filed five times into a single −18.36% session and the bearish hit rate counted five correct calls; BCM's five procedural notices and two bearish calls split one −3.35% move into five wrong and two correct. **833 of 3,373 rows (25%) were repeats of a ticker already counted.**
+
+Rows are now grouped by `(ticker, session_date, unpriced)` and collapsed:
+*   **Session in the key**, because post-close news is judged against the *next* session and must not fold into the same day's calls. Measured across the existing scorecards, no group spans two sessions — the key is there so that stays true rather than because it currently bites.
+*   **Unpriced in the key**, so a `pending` row never merges into a settled one.
+*   **Directional beats neutral** (`_CALL_RANK`). "Change of Director's Interest Notice" is paperwork filed beside the announcement that said something; scoring the day neutral because four such notices outnumbered one bearish call measures the filing habit, not the judgement.
+*   **`conflict` survives any merge** — it describes the ticker's day, not one filing.
+*   **Nothing is hidden:** `announcements` carries the count and `also` carries the headlines not shown, which the table reveals on hover.
+
+Effect on the published numbers: 3,373 rows → 2,540, with daily hit rates moving a few points in both directions and mostly **down** (17 Sep: 66.7% over 72 calls → 62.1% over 58). Existing scorecard files predate the merge and must be regenerated to pick it up.
+
+#### Price columns
+| Field | Source | Notes |
+| --- | --- | --- |
+| `open` | Daily bar | `None` on a thin stock whose bar came from one late trade — never falls back to the close, which would report an open-to-close move of zero. |
+| `vwap` | **1-minute bars** (`fetch_vwap`) | Σ(typical × volume) / Σ(volume), typical = (H+L+C)/3 **per minute**. Deliberately not the daily (H+L+C)/3, which is not volume weighted and answers a different question on a stock that gapped and then traded all day at the other end of its range. Yahoo serves 1-minute history for ~30 days, so older sessions are `null` and a re-run cannot recover them; no proxy is substituted, because one column carrying two meanings is worse than a dash. Failure is an empty dict — VWAP is a column, and no verdict depends on it. |
+| `open_close_pct` | Daily bar | `(close / open − 1) × 100`. |
+
+#### Why the verdict is still judged on `abnormal_pct`
+69% of scored announcements (2,316 of 3,373) are lodged pre-open, and for those the entire reaction is the overnight gap. `open_close_pct` measures the session *after* the market has already repriced the news, so judging on it would score most pre-open calls flat or wrong and report something close to noise. It is published beside `abnormal_pct`, answering the separate question of whether the move held once the market opened.
+
+#### `spread_pct`
+Still computed and still written to the scorecard JSON; removed from the dashboard's two stat tiles only, so restoring it is a UI change and no history is lost.
+
 ### 2. Frontend Application (`Next.js 14 App Router`)
 
 #### A. Backend for Frontend (BFF) Route (`/app/api/logs/[date]/route.ts`)

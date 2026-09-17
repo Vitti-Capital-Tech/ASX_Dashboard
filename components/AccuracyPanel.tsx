@@ -51,8 +51,10 @@ function moveColor(v: number | null | undefined): string {
 }
 
 /** Sub-cent ASX stocks need more decimals than blue chips to say anything. */
-function price(v: number | null): string {
-  if (v === null) return '—';
+function price(v: number | null | undefined): string {
+  // `undefined`, not just null: scorecards written before a column existed
+  // simply lack the key, and `undefined.toFixed()` would take the panel down.
+  if (v === null || v === undefined) return '—';
   if (v < 0.1) return `$${v.toFixed(4)}`;
   if (v < 10) return `$${v.toFixed(3)}`;
   return `$${v.toFixed(2)}`;
@@ -214,11 +216,14 @@ export default function AccuracyPanel({
 
   function downloadCsv() {
     if (!card) return;
-    const headers = ['Ticker', 'Company', 'Headline', 'Our Call', 'Prev Close', 'Close',
+    const headers = ['Ticker', 'Company', 'Headline', 'Filings', 'Our Call',
+      'Prev Close', 'Open', 'VWAP', 'Close', 'Open-Close %',
       'Move %', 'Index %', 'Net of Index %', 'Verdict', 'Session', 'Released', 'URL'];
     const body = card.results.map(r => [
       r.ticker, `"${r.company.replace(/"/g, '""')}"`, `"${r.headline.replace(/"/g, '""')}"`,
-      r.sentiment, r.prev_close ?? '', r.close ?? '', r.return_pct ?? '',
+      r.announcements ?? 1,
+      r.sentiment, r.prev_close ?? '', r.open ?? '', r.vwap ?? '', r.close ?? '',
+      r.open_close_pct ?? '', r.return_pct ?? '',
       r.index_return_pct ?? '', r.abnormal_pct ?? '', r.verdict, r.bucket, r.time, r.url,
     ].join(','));
     const blob = new Blob([[headers.join(','), ...body].join('\n')], { type: 'text/csv;charset=utf-8;' });
@@ -339,8 +344,6 @@ export default function AccuracyPanel({
                   style={{ width: `${(wrong / (correct + wrong)) * 100}%`, background: BAD }} />
               )}
             </div>
-            <Stat label="Bull − bear" value={pct(s.spread_pct, 2)} color={moveColor(s.spread_pct)}
-              hint="How far bullish picks beat bearish ones. Negative means the labels are the wrong way round." />
           </div>
 
           <div className="flex flex-col gap-2.5 pt-3.5" style={{ borderTop: '1px solid var(--border-subtle)' }}>
@@ -370,9 +373,6 @@ export default function AccuracyPanel({
               <Stat label={`across ${summary.directional_scored} calls`}
                 value={rate(summary.directional_hit_rate)}
                 color={rateColor(summary.directional_hit_rate)} />
-              <Stat label="spread" value={pct(summary.spread_pct, 2)}
-                color={moveColor(summary.spread_pct)}
-                hint="Bullish picks minus bearish ones, all time. The real test — a high hit rate with no spread is not an edge." />
               <Stat label="neutral control"
                 value={pct(summary.by_sentiment.neutral.avg_abnormal_pct, 2)}
                 hint="Average move of the announcements called neutral. Bullish picks have to beat this, not zero, to mean anything." />
@@ -466,7 +466,7 @@ export default function AccuracyPanel({
       <div className="rounded-2xl overflow-hidden"
         style={{ background: 'var(--bg-card)', border: '1px solid var(--border-subtle)' }}>
         <div className="overflow-x-auto">
-          <table className="w-full min-w-[1040px] text-left border-collapse">
+          <table className="w-full min-w-[1320px] text-left border-collapse">
             <thead>
               <tr style={{ background: 'var(--border-subtle)' }}>
                 <th className="px-4 py-3 text-[0.62rem] font-bold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>Ticker</th>
@@ -474,7 +474,7 @@ export default function AccuracyPanel({
                 <th className="px-4 py-3 text-[0.62rem] font-bold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>Our call</th>
                 {/* Every step of the verdict, left to right, so the arithmetic
                     can be checked against Yahoo without opening the CSV. */}
-                {['Prev close', 'Close', 'Stock', 'Market', 'Net'].map(h => (
+                {['Prev close', 'Open', 'VWAP', 'Close', 'Open→Close', 'Stock', 'Market', 'Net'].map(h => (
                   <th key={h} className="px-4 py-3 text-right text-[0.62rem] font-bold uppercase tracking-[0.1em] whitespace-nowrap"
                     style={{ color: 'var(--text-dim)' }}>{h}</th>
                 ))}
@@ -483,21 +483,20 @@ export default function AccuracyPanel({
             </thead>
             <tbody>
               {rows.map((r, i) => {
-                // A ticker can lodge several announcements in a day; they all
-                // resolve to the same close, so repeating the code down the
-                // column just reads like duplicated rows.
-                const repeat = i > 0 && rows[i - 1].ticker === r.ticker;
+                // One row per ticker per session now — the scorer merges them,
+                // because several filings resolving to the same close were
+                // several votes on one price move. `announcements` says how
+                // many were folded in; `also` lists the ones not shown.
+                const merged = (r.announcements ?? 1) > 1;
                 return (
                   <tr key={r.url + i}
                     className="transition-colors duration-100 hover:bg-[var(--bg-card-hover)]"
                     style={{ borderTop: '1px solid var(--border-subtle)' }}>
                     <td className="px-4 py-3 align-top">
-                      {!repeat && (
-                        <span className="font-mono text-[0.8rem] font-bold" style={{ color: 'var(--text-primary)' }}>
-                          {r.ticker}
-                        </span>
-                      )}
-                      {r.conflict && !repeat && (
+                      <span className="font-mono text-[0.8rem] font-bold" style={{ color: 'var(--text-primary)' }}>
+                        {r.ticker}
+                      </span>
+                      {r.conflict && (
                         <span className="block text-[0.58rem] mt-1" style={{ color: 'var(--text-dim)' }}>
                           mixed calls
                         </span>
@@ -509,11 +508,19 @@ export default function AccuracyPanel({
                         style={{ color: 'var(--text-primary)' }}>
                         {r.headline}
                       </a>
-                      {!repeat && (
-                        <span className="block text-[0.6rem] mt-1 truncate" style={{ color: 'var(--text-dim)' }}>
-                          {r.company}
+                      {merged && (
+                        // Named, not just counted: "+6 more" invites the
+                        // question of what was dropped, and the answer is on
+                        // hover rather than in another view.
+                        <span className="block text-[0.6rem] mt-1 font-semibold cursor-help"
+                          style={{ color: 'var(--text-accent)' }}
+                          title={(r.also ?? []).join('\n')}>
+                          +{(r.announcements ?? 1) - 1} more filing{(r.announcements ?? 1) - 1 === 1 ? '' : 's'} this session
                         </span>
                       )}
+                      <span className="block text-[0.6rem] mt-1 truncate" style={{ color: 'var(--text-dim)' }}>
+                        {r.company}
+                      </span>
                     </td>
                     <td className="px-4 py-3 align-top">
                       <span className="font-mono text-[0.68rem] font-bold whitespace-nowrap"
@@ -526,8 +533,26 @@ export default function AccuracyPanel({
                       {price(r.prev_close)}
                     </td>
                     <td className="px-4 py-3 align-top text-right font-mono text-[0.74rem] tabular-nums"
+                      style={{ color: 'var(--text-dim)' }}>
+                      {price(r.open)}
+                    </td>
+                    {/* Absent beyond Yahoo's ~30-day intraday window. A dash,
+                        never a (high+low+close)/3 stand-in, which is not
+                        volume weighted and would mean something else here. */}
+                    <td className="px-4 py-3 align-top text-right font-mono text-[0.74rem] tabular-nums"
+                      style={{ color: 'var(--text-dim)' }}>
+                      {price(r.vwap)}
+                    </td>
+                    <td className="px-4 py-3 align-top text-right font-mono text-[0.74rem] tabular-nums"
                       style={{ color: 'var(--text-secondary)' }}>
                       {price(r.close)}
+                    </td>
+                    {/* The session's own move. Not what the verdict is judged
+                        on: most of these filings land before the open, and for
+                        those the reaction is the gap this column excludes. */}
+                    <td className="px-4 py-3 align-top text-right font-mono text-[0.74rem] tabular-nums"
+                      style={{ color: moveColor(r.open_close_pct) }}>
+                      {pct(r.open_close_pct, 2)}
                     </td>
                     <td className="px-4 py-3 align-top text-right font-mono text-[0.76rem] tabular-nums"
                       style={{ color: 'var(--text-secondary)' }}>
@@ -551,7 +576,7 @@ export default function AccuracyPanel({
               })}
               {rows.length === 0 && (
                 <tr>
-                  <td colSpan={9} className="px-4 py-12 text-center text-[0.8rem]" style={{ color: 'var(--text-dim)' }}>
+                  <td colSpan={12} className="px-4 py-12 text-center text-[0.8rem]" style={{ color: 'var(--text-dim)' }}>
                     No calls in this bucket for {formatDateLabel(card.date)}.
                   </td>
                 </tr>

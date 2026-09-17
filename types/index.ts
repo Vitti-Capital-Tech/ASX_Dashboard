@@ -84,10 +84,26 @@ export interface ScoredCall {
   bucket: 'pre_open' | 'intraday' | 'post_close';
   /** Ticker had both a bullish and a bearish call that day — excluded from stats. */
   conflict: boolean;
+  /** How many announcements this row merges. One ticker's session is one vote:
+   *  scoring each filing separately let a ticker that filed 7 times cast 7
+   *  votes on a single price move. */
+  announcements?: number;
+  /** The other headlines merged into this row, so nothing is hidden. */
+  also?: string[];
   session_date: string | null;
   prev_close: number | null;
+  /** Session open. Null on a thin stock whose bar came from one late trade. */
+  open?: number | null;
+  /** Volume-weighted average price from 1-minute bars. Null beyond Yahoo's
+   *  ~30-day intraday window — never a (H+L+C)/3 substitute, which would mean
+   *  something different in older rows. */
+  vwap?: number | null;
   close: number | null;
   return_pct: number | null;
+  /** The session's own move, overnight gap excluded. Reported beside
+   *  `return_pct`, not instead of it: most filings land pre-open, and for those
+   *  the reaction is the gap. */
+  open_close_pct?: number | null;
   index_return_pct: number | null;
   /** Move net of the benchmark. This is what the verdict is judged on. */
   abnormal_pct: number | null;
