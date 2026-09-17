@@ -9,6 +9,10 @@ import type { SentimentLabel, ViewKey } from '@/types';
 
 export const VIEWS: { key: ViewKey; label: string }[] = [
   { key: 'announcements', label: 'Announcements' },
+  // The same feed, narrowed to what clients actually hold. Next to
+  // Announcements rather than at the end because it is read the same way and
+  // for the same reason — it is the day, with one filter already applied.
+  { key: 'clients', label: 'Clients Ticker' },
   { key: 'accuracy', label: 'Accuracy' },
   { key: 'whatsapp', label: 'WhatsApp' },
   { key: 'us', label: 'US / Canada' },

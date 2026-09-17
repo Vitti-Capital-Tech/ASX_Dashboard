@@ -17,7 +17,8 @@ Every day, hundreds of companies release official announcements on the stock mar
 5. **Tracks Substantial Holders:** Detects when major investors cross the 5% ownership threshold — a key signal for potential takeovers or institutional confidence.
 6. **Organizes by Category:** Filter news by type — Bullish, Dividends, Capital Raises, Results, Substantial Holding, Trading Halts, and more.
 7. **Screener Table View:** Switch the feed to **List** and the same announcements lay out as a sortable table — market cap, beta, RSI, average volume and how far off it today is, 52-week and monthly high/low, and the latest close, beside each headline. See [The table view, column by column](#the-table-view-column-by-column) below.
-8. **WhatsApp Summary Generation:** Formats copy-pastable, mobile-friendly 5-6 line summaries for Placement & IPO campaigns, facilitating direct sharing with clients.
+8. **Clients Ticker:** A tab showing only the announcements filed by companies your clients actually hold. The held codes come from the client dashboard's own book, so the list keeps itself current — see [The Clients Ticker tab](#the-clients-ticker-tab) below.
+9. **WhatsApp Summary Generation:** Formats copy-pastable, mobile-friendly 5-6 line summaries for Placement & IPO campaigns, facilitating direct sharing with clients.
 
 ---
 
@@ -38,6 +39,46 @@ The **Sensitive** badge is not our judgement — it is the ASX's own flag, the s
 The ratio climbs through August because FY results season floods the market with Appendix 4E filings, which companies routinely flag as price sensitive.
 
 > **If the count looks too low, check the clock.** The day builds up as it goes: on 27 Aug there were only 57 sensitive announcements by 8:00 AM AEST, 258 by 10:00 AM, and 314 by the close. A morning snapshot is not a short day.
+
+---
+
+## The Clients Ticker tab
+
+A normal trading day carries 300–800 announcements. Almost none of them are about a company your clients own. This tab answers one question — **is there news today on anything we hold?** — and nothing else.
+
+Measured over the last six sessions:
+
+| Date (2026) | Announcements | On held stock | Tickers |
+| --- | --- | --- | --- |
+| 10 Sep | 328 | 31 | 20 |
+| 11 Sep | 298 | 14 | 12 |
+| 14 Sep | 386 | 24 | 20 |
+| 15 Sep | 307 | 22 | 17 |
+| 16 Sep | 312 | 22 | 15 |
+| 17 Sep | 303 | 30 | 21 |
+
+It is the same feed as the Announcements tab — same search, same filters, same Grid/List toggle, same screener columns — with one filter already applied. Everything you can do there works here.
+
+**Where the list comes from.** The client dashboard imports broker holdings from the mail each weekday morning. This tab reads the ASX codes out of that book directly, so it follows the holdings automatically: buy a stock and its news appears the next morning, sell out and it stops. Nothing to maintain by hand.
+
+**Codes only.** The dashboard receives a list of tickers and nothing else — no client names, no quantities, no valuations. It can tell you *that* a held company filed, never *who* holds it. That is deliberate, not an omission.
+
+**Two things the list does on the way in:**
+- **Options are folded into their underlying.** A holding in `HYDOC` (a Hydrix option) counts as a holding in `HYD`, because that is who files the announcements. 146 lines in the book become **118 ASX codes**.
+- **Foreign listings are dropped.** `RKLB:NAS` and `KRI:TSXV` are Nasdaq and TSXV listings; no ASX announcement will ever carry them.
+
+**If the list cannot be fetched, the tab says so.** It shows a "Holdings Unavailable" notice rather than an empty feed, because an empty feed would read as "no client holds anything in the news today" — a statement about your book rather than about a broken connection.
+
+### Setting it up
+
+Two environment variables in `.env`:
+
+```bash
+CLIENT_DASHBOARD_URL=https://<your client dashboard host>
+CLIENT_DASHBOARD_API_KEY=<the same value as HOLDINGS_API_KEY over there>
+```
+
+The matching `HOLDINGS_API_KEY` goes in the client dashboard's own environment; it guards the `/api/holdings/codes` endpoint this tab reads. Both are already set for local development, pointing at `http://localhost:3000`. **Point `CLIENT_DASHBOARD_URL` at the deployed client dashboard before this works anywhere but your own machine.**
 
 ---
 

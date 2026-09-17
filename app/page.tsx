@@ -2,7 +2,8 @@
 
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import {
-  Announcement, DayLog, PlacementDayLog, Scorecard, ScorecardSummary, ViewKey, ViewMode,
+  Announcement, ClientTickers, DayLog, PlacementDayLog, Scorecard, ScorecardSummary,
+  ViewKey, ViewMode,
 } from '@/types';
 import { formatDateLabel, getSentiment, sentimentRank } from '@/lib/utils';
 import { ALL_CATEGORIES, VIEW_REGION, type SentimentFilter } from '@/lib/views';
@@ -103,11 +104,19 @@ export default function Dashboard() {
   const [scoreSummary, setScoreSummary] = useState<ScorecardSummary | null>(null);
   const [scoreLoading, setScoreLoading] = useState(false);
   const [scoreError, setScoreError] = useState<string | null>(null);
+  const [clientTickers, setClientTickers] = useState<ClientTickers | null>(null);
+  const [clientTickersLoading, setClientTickersLoading] = useState(false);
 
   const region = VIEW_REGION[activeView];
   const isPlacementView = region !== undefined;
   const isAccuracyView = activeView === 'accuracy';
-  const isFeedView = activeView === 'announcements';
+  const isClientsView = activeView === 'clients';
+  // Clients Ticker is the announcements feed with one more filter, not a
+  // second implementation of it. Everything below — the search, the sentiment
+  // and category filters, the grid/list toggle, the screener table — is shared,
+  // so the two views cannot drift into showing the same announcement
+  // differently.
+  const isFeedView = activeView === 'announcements' || isClientsView;
 
   useEffect(() => {
     setIsClient(true);
@@ -225,7 +234,37 @@ export default function Dashboard() {
     }
   }, []);
 
+  const fetchClientTickers = useCallback(async () => {
+    setClientTickersLoading(true);
+    try {
+      const res = await fetch('/api/client-tickers');
+      // The route answers 200 with ok:false on every failure, so the banner can
+      // say WHY the tab is empty. A thrown fetch is the one case it cannot
+      // reach us through, and it gets the same shape rather than a null the
+      // renderer would have to special-case.
+      setClientTickers(res.ok ? await res.json() : {
+        ok: false, codes: [], count: 0, generated_at: null,
+        error: 'Could not reach the holdings service',
+      });
+    } catch {
+      setClientTickers({
+        ok: false, codes: [], count: 0, generated_at: null,
+        error: 'Could not reach the holdings service',
+      });
+    } finally {
+      setClientTickersLoading(false);
+    }
+  }, []);
+
   useEffect(() => { if (isClient) fetchLog(date); }, [date, fetchLog, isClient]);
+
+  // Fetched when the tab is first opened, not on mount: most sessions never
+  // open it, and the holdings list only changes when the morning import lands.
+  // Not keyed on `date` either — the book is today's whichever day is shown.
+  useEffect(() => {
+    if (!isClient || !isClientsView || clientTickers || clientTickersLoading) return;
+    fetchClientTickers();
+  }, [isClient, isClientsView, clientTickers, clientTickersLoading, fetchClientTickers]);
 
   useEffect(() => {
     if (!isClient || !region) return; // narrows region to string
@@ -244,9 +283,23 @@ export default function Dashboard() {
     return () => clearInterval(interval);
   }, [date, fetchLog, isClient]);
 
+  // A Set, because this is asked once per announcement per render on a feed
+  // that runs to 800 rows.
+  const heldCodes = useMemo(
+    () => new Set(clientTickers?.codes ?? []),
+    [clientTickers],
+  );
+
   const filtered = useMemo<Announcement[]>(() => {
     if (!log) return [];
     return log.announcements.filter(ann => {
+      // Held-only, and only once the list has actually arrived. Filtering
+      // against an empty set while the fetch is in flight would flash "nothing
+      // held today" over a day that is full of it.
+      if (isClientsView) {
+        if (!clientTickers?.ok) return false;
+        if (!heldCodes.has(ann.ticker.toUpperCase())) return false;
+      }
       if (marketSensitiveOnly && !ann.market_sensitive) return false;
       if (sentiment !== 'all' && getSentiment(ann) !== sentiment) return false;
 
@@ -269,7 +322,8 @@ export default function Dashboard() {
       }
       return true;
     });
-  }, [log, sentiment, category, activeTags, search, marketSensitiveOnly]);
+  }, [log, sentiment, category, activeTags, search, marketSensitiveOnly,
+      isClientsView, clientTickers, heldCodes]);
 
   const tagCounts = useMemo<Record<string, number>>(() => {
     if (!log) return {};
@@ -436,9 +490,17 @@ export default function Dashboard() {
           {isFeedView && (
             <div className="max-w-[1600px] mx-auto">
               <ViewHeader
-                title="Market Activity"
+                title={isClientsView ? 'Clients Ticker' : 'Market Activity'}
                 meta={dateLabel}
-                stats={log ? [
+                stats={log ? (isClientsView ? [
+                  // The two numbers this view exists to answer: how much of
+                  // today touches the book, and how wide the book is. The
+                  // announcement total is deliberately not here — "12 of 431"
+                  // invites reading the 431 as something to work through, and
+                  // the whole point is that it is not.
+                  { value: sorted.length, label: sorted.length === 1 ? 'on held stock' : 'on held stocks' },
+                  { value: clientTickers?.count ?? '—', label: 'tickers held' },
+                ] : [
                   // Showing "48 of 400" only while a filter is on: an
                   // unfiltered feed does not need to say it is unfiltered.
                   {
@@ -446,7 +508,7 @@ export default function Dashboard() {
                     label: isNarrowed ? 'shown' : 'announcements',
                   },
                   { value: sensitiveCount, label: 'market sensitive' },
-                ] : undefined}
+                ]) : undefined}
                 actions={
                   <FeedControls
                     search={search}
@@ -471,7 +533,25 @@ export default function Dashboard() {
                 onClear={clearFilters}
               />
 
-              {loading && (
+              {isClientsView && clientTickersLoading && (
+                <Spinner title="Loading Client Holdings"
+                  message="Reading the held tickers from the client dashboard…" />
+              )}
+
+              {isClientsView && !clientTickersLoading && clientTickers && !clientTickers.ok && (
+                // Never silently show an empty feed here. Without this the tab
+                // reads as "no client holds anything in today's news", which is
+                // a statement about the book rather than about a broken link.
+                <Notice
+                  tone="error"
+                  title="Holdings Unavailable"
+                  body={`${clientTickers.error ?? 'The client dashboard could not be reached'}. Until it responds, this tab cannot tell which announcements touch client holdings.`}
+                  actionLabel="Try Again"
+                  onAction={fetchClientTickers}
+                />
+              )}
+
+              {loading && !clientTickersLoading && (
                 <Spinner title="Fetching Market Data" message={`Analysing ASX announcements for ${dateLabel}…`} />
               )}
 
@@ -487,7 +567,8 @@ export default function Dashboard() {
                 />
               )}
 
-              {!loading && !error && log && sorted.length === 0 && (
+              {!loading && !error && log && sorted.length === 0
+                && !(isClientsView && (clientTickersLoading || !clientTickers?.ok)) && (
                 <div className="flex flex-col items-center justify-center h-[46vh] gap-5 text-center px-8 animate-fade-in-up">
                   <div className="w-16 h-16 rounded-3xl flex items-center justify-center animate-float"
                     style={{ background: 'var(--accent-dim)', border: '1px solid var(--border-accent)' }}>
@@ -498,17 +579,21 @@ export default function Dashboard() {
                   </div>
                   <div>
                     <h3 className="text-[1.05rem] font-bold" style={{ color: 'var(--text-primary)' }}>
-                      No announcements match
+                      {isClientsView ? 'Nothing on held stock today' : 'No announcements match'}
                     </h3>
                     <p className="text-[0.82rem] mt-1.5 max-w-xs mx-auto leading-relaxed" style={{ color: 'var(--text-dim)' }}>
-                      Refine your search, loosen the filters, or pick a different trading date.
+                      {isClientsView
+                        ? `None of the ${clientTickers?.count ?? 0} tickers clients hold filed an announcement on ${dateLabel}. This is a quiet day for the book, not a missing feed.`
+                        : 'Refine your search, loosen the filters, or pick a different trading date.'}
                     </p>
                   </div>
-                  <button onClick={clearFilters}
-                    className="mt-1 px-5 py-2.5 rounded-xl text-[0.8rem] font-semibold transition-all duration-150 hover:-translate-y-0.5"
-                    style={{ background: 'var(--border-subtle)', border: '1px solid var(--border-med)', color: 'var(--text-secondary)' }}>
-                    Clear Filters
-                  </button>
+                  {(!isClientsView || isNarrowed) && (
+                    <button onClick={clearFilters}
+                      className="mt-1 px-5 py-2.5 rounded-xl text-[0.8rem] font-semibold transition-all duration-150 hover:-translate-y-0.5"
+                      style={{ background: 'var(--border-subtle)', border: '1px solid var(--border-med)', color: 'var(--text-secondary)' }}>
+                      Clear Filters
+                    </button>
+                  )}
                 </div>
               )}
 

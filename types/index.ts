@@ -45,7 +45,24 @@ export interface PlacementDayLog {
 export type ViewMode = 'grid' | 'list';
 
 /** Top-level sections. Distinct from the feed's filters — see lib/views.ts. */
-export type ViewKey = 'announcements' | 'accuracy' | 'whatsapp' | 'us';
+export type ViewKey = 'announcements' | 'clients' | 'accuracy' | 'whatsapp' | 'us';
+
+/**
+ * The ASX codes the firm's clients hold, proxied from the client dashboard.
+ *
+ * Codes only — no client identity, no quantities. The upstream endpoint does
+ * not serve them, which is deliberate: this dashboard has a different auth
+ * model, and "is there news on anything we hold" needs nothing more.
+ */
+export interface ClientTickers {
+  ok: boolean;
+  codes: string[];
+  count: number;
+  /** When the client dashboard built the list, not when this app asked. */
+  generated_at: string | null;
+  /** Why the list is empty. Null when the read succeeded. */
+  error: string | null;
+}
 
 // ── Sentiment scorecard (written by verify_sentiment.py after the ASX close) ──
 

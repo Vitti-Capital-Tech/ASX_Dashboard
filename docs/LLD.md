@@ -95,6 +95,20 @@ Contexts are attached at save time, so a field added to this module today is abs
     4. Fuzzy text search on `ticker`, `company`, and `headline`.
     5. Sorting weights: Market Sensitive -> `sentimentRank` (bullish, then neutral, then bearish) -> reverse chronological. This is the feed's editorial order; the table view can re-sort on any numeric column and returns to this order on a third click of the same heading.
 
+#### B2. Client Holdings Route (`/app/api/client-tickers/route.ts`)
+*   **Method:** GET. No parameters — the book is today's book whichever trading date the feed is showing.
+*   **Upstream:** `GET {CLIENT_DASHBOARD_URL}/api/holdings/codes` with `Authorization: Bearer {CLIENT_DASHBOARD_API_KEY}`, 15s timeout. The mirror of `lib/asx/news.ts` in the client dashboard, which reads this project's `/api/market-sensitive` with the same shape of contract.
+*   **Why a proxy at all:** the secret. A browser fetch would have to ship it to every visitor; this route holds the credential and the browser calls the route.
+*   **Failure contract:** always HTTP 200, with `{ ok: false, codes: [], error: "<reason>" }`. Deliberately not an error status — the page has something useful to do with the reason, and rendering an unfiltered-looking empty feed would assert something false about the book. Unset env vars, 401, non-200, timeout and an unreachable host each produce their own `error` string.
+*   **Input trust:** the payload crosses a deployment boundary, so `codes` is re-validated here — non-strings dropped, trimmed, upper-cased, de-duplicated and sorted — rather than trusted into the page.
+
+#### B3. The Clients Ticker view (`page.tsx`)
+*   **Not a second feed.** `isFeedView` is `activeView === 'announcements' || isClientsView`, so the view reuses the whole existing pipeline — `filtered` → `sorted` → grid or screener table — with one extra predicate. Search, sentiment, category, tags, the market-sensitive toggle and the Grid/List choice all work in it because none of them know it exists.
+*   **The predicate:** `heldCodes.has(ann.ticker.toUpperCase())`, against a `Set` built once per fetch — it is asked once per announcement per render on a feed that reaches 800 rows.
+*   **Guarded on arrival:** the predicate returns `false` for every row while `clientTickers?.ok` is not yet true. Filtering against an empty set during the fetch would flash "nothing held today" over a day that is full of it, so the view shows a spinner, then either the feed or the failure notice — never a silently empty one.
+*   **Fetched on first open, not on mount.** Most sessions never open the tab, and the list changes when the morning import lands rather than between requests. It is not keyed on `date` either: a held book is current whichever past day the feed is showing.
+*   **Its own empty state.** "Nothing on held stock today" names the number of held tickers and says it is a quiet day for the book rather than a missing feed, and the Clear Filters button is withheld unless a filter is actually narrowing something.
+
 #### C. Presentation Components
 *   **`Sidebar.tsx`:** Manages control inputs (Date picker, Focus Mode switch). Iterates over `tagCounts` to render the dynamic taxonomy.
 *   **`Topbar.tsx`:** Handles Global string search, grid/list layout preference, and the light/dark theme toggle integration.

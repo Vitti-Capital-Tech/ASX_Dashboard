@@ -26,6 +26,7 @@ The system is built on a **Decoupled Serverless Architecture**. It segregates th
 *   **Framework:** Built entirely on Next.js App Router with React 18.
 *   **Backend-for-Frontend (BFF):** Local API routes (`/api/logs/[date]` and `/api/placements/[date]`) act as bridges, reading local JSON logs or querying external backend APIs and serving them securely to the browser.
 *   **Client Interface:** A highly responsive dashboard using Tailwind CSS ("Midnight Intelligence" theme). It features client-side text filtering, layout toggling, theme switching, and a dedicated copy-to-clipboard system for WhatsApp messages.
+*   **Clients Ticker (`/api/client-tickers` → client dashboard):** A view over the same day's feed, narrowed to the ASX codes the firm's clients hold. The codes are read from the sibling **client dashboard**, whose morning mail ingest imports broker holdings into Supabase — the reverse of the flow already in place, where that project reads this one's `/api/market-sensitive`. The proxy route holds the shared secret so it never reaches a browser, and returns `ok: false` with a reason rather than an error status, because an empty feed and a broken link are indistinguishable on screen and the second one silently asserts that no client holds anything in the news.
 *   **Two Readings of One Feed:** The same filtered, sorted announcement list renders either as cards (**Grid** — what was announced) or as a screener table (**List** — what the company is and where the price sits). The table surfaces the `market_context` measurements as sortable columns; a measurement that could not be taken renders as a dash and sorts to the bottom in both directions, so an absent figure never competes with a real one.
 
 #### C. Placement/IPO Engine & WhatsApp Summary Generator
@@ -63,6 +64,13 @@ graph TD
     %% Frontend Layer
     BFF1 --> Dashboard[React Dashboard]
     BFF2 --> Dashboard
+
+    %% Client holdings (sibling deployment)
+    MAIL[Broker mail, each weekday] --> CD[client-dashboard ingest]
+    CD -->|positions, option_holdings| SB[(Supabase)]
+    SB --> CDAPI["client-dashboard: /api/holdings/codes<br/>codes only, shared secret"]
+    CDAPI -->|ASX codes| BFF3[Next.js API: /api/client-tickers]
+    BFF3 --> Dashboard
     Dashboard -->|Grid view| CARDS[AnnouncementCard]
     Dashboard -->|List view| TBL[AnnouncementTable: sortable screener]
     Dashboard -->|Copy to Clipboard| Clip[Clipboard / Client Sharing]
