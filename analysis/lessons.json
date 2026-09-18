@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-09-17T10:46:10.366291+00:00",
-  "next_id": 43,
+  "updated_at": "2026-09-18T06:56:09.226952+00:00",
+  "next_id": 44,
   "lessons": [
     {
       "id": "L001",
@@ -523,8 +523,8 @@
       "trigger": "Market-sensitive 'development pathway' or strategic-progress announcement on a junior at a 12-month low with near-zero median daily turnover, where volume has spiked sharply in relative terms",
       "rule": "When median daily turnover is near zero and relative volume spikes materially (e.g. 3x), even a small number of absolute trades can represent genuine accumulation by an informed party — do not dismiss the volume signal as noise purely because the base is tiny. On a market-sensitive filing at a 12-month low, a relative volume spike of this magnitude combined with a strategic-progress headline should shift the call to bullish rather than neutral, because the marginal buyer is likely informed and the downside is already largely priced.",
       "created": "2026-09-15",
-      "last_seen": "2026-09-15",
-      "times_seen": 4,
+      "last_seen": "2026-09-18",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-09-15",
@@ -553,6 +553,13 @@
           "headline": "Panther Advances Laverton Gold Development Pathway",
           "called": "neutral",
           "abnormal_pct": 20.88
+        },
+        {
+          "date": "2026-09-18",
+          "ticker": "IBR",
+          "headline": "Receipt of final development agreement notice",
+          "called": "neutral",
+          "abnormal_pct": 19.06
         }
       ]
     },
@@ -637,8 +644,8 @@
       "trigger": "Cessation of securities (options lapsing unexercised or performance rights forfeited) at a deeply de-rated micro-cap, filed in isolation with no companion capital raise filing on the same day",
       "rule": "Options lapsing unexercised at a distressed micro-cap can be read as a positive register-cleaning event — it removes a future dilution overhang without any immediate cash outflow, which on a stock already severely de-rated can be modestly constructive. Do not call bearish on cessation alone; absent a companion raise filing, default to neutral rather than bearish, and consider neutral-to-bullish when the cessation removes a meaningful dilution overhang.",
       "created": "2026-09-15",
-      "last_seen": "2026-09-15",
-      "times_seen": 4,
+      "last_seen": "2026-09-18",
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-09-15",
@@ -667,6 +674,13 @@
           "headline": "Notification of cessation of securities - GCM",
           "called": "bearish",
           "abnormal_pct": 10.88
+        },
+        {
+          "date": "2026-09-18",
+          "ticker": "NVX",
+          "headline": "Notification of cessation of securities - NVX",
+          "called": "neutral",
+          "abnormal_pct": -9.08
         }
       ]
     },
@@ -841,8 +855,8 @@
       "trigger": "Permit submission (bulk sampling, exploration, environmental) announced as market sensitive by a junior explorer 40-60% below its 12-month high, with no prior permit submission flagged",
       "rule": "A maiden permit submission flagged as market sensitive signals that management and their legal advisers regard the regulatory gate as a material project milestone, not a routine step — the market-sensitive designation is the key qualifier that distinguishes this from a generic activity statement. Do not default to neutral purely because no data has been returned; lean neutral-to-bullish when the permit is the first of its kind for the project, the stock is materially de-rated, and the market-sensitive flag is present, because approval opens the next operational phase and the flag indicates the company believes the market does not have this priced.",
       "created": "2026-09-15",
-      "last_seen": "2026-09-15",
-      "times_seen": 3,
+      "last_seen": "2026-09-18",
+      "times_seen": 4,
       "examples": [
         {
           "date": "2026-09-15",
@@ -864,6 +878,13 @@
           "headline": "MAIDEN QUINN DRILLING BULK SAMLPLING PERMIT SUBMITTED",
           "called": "neutral",
           "abnormal_pct": 9.98
+        },
+        {
+          "date": "2026-09-18",
+          "ticker": "VTX",
+          "headline": "Operational Update - Varied EPL Issued",
+          "called": "neutral",
+          "abnormal_pct": 8.71
         }
       ]
     },
@@ -1031,16 +1052,9 @@
       "trigger": "Capital raise (placement) announcement flagged market sensitive at a thinly traded micro-cap, where the raise quantum is large relative to the company's normal daily turnover (e.g. >100 trading days of normal volume), and the intended use of proceeds addresses a specific operational catalyst (named project, named programme)",
       "rule": "A large placement relative to normal liquidity, when use of proceeds is specific and operational (not generic 'working capital'), can be read as a funded-catalyst signal rather than a dilution event — the market may re-rate positively on the certainty of execution that the capital now enables; before defaulting to bearish on any placement, ask whether the proceeds are tied to a named near-term catalyst and whether the raise removes a going-concern or execution risk; if yes, call neutral-to-bullish rather than bearish.",
       "created": "2026-09-16",
-      "last_seen": "2026-09-17",
-      "times_seen": 6,
+      "last_seen": "2026-09-18",
+      "times_seen": 7,
       "examples": [
-        {
-          "date": "2026-09-16",
-          "ticker": "IOV",
-          "headline": "Proposed issue of securities - IOV",
-          "called": "bearish",
-          "abnormal_pct": 13.65
-        },
         {
           "date": "2026-09-16",
           "ticker": "IOV",
@@ -1068,6 +1082,13 @@
           "headline": "Issue of Shares and Options",
           "called": "bearish",
           "abnormal_pct": 13.87
+        },
+        {
+          "date": "2026-09-18",
+          "ticker": "NHU",
+          "headline": "Application for quotation of securities - NHU",
+          "called": "bearish",
+          "abnormal_pct": 7.59
         }
       ]
     },
@@ -1459,25 +1480,11 @@
       "trigger": "Investor presentation filed for a named sector-specialist conference (e.g. RIU Uranium Investment Day, Noosa Mining) at a deeply de-rated micro-cap (60%+ below 12-month high) where the conference is a known gathering of specialist institutional and sophisticated investors in that commodity, and the stock is flagged or is in an actively re-rating sector theme (e.g. uranium)",
       "rule": "A named specialist-sector conference presentation is not equivalent to a generic awareness-marketing filing under L010 — the audience is sector-informed and the act of presenting can itself trigger accumulation by specialist funds who were not previously holders; before applying L010's bearish default, ask whether the conference is a known catalyst event for the sector (i.e. RIU Uranium, Noosa Mining) and whether the sector is in an active thematic re-rating; if yes, downgrade from bearish to neutral, because the dilution-marketing logic of L010 does not apply when the audience is buying, not being sold to.",
       "created": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "times_seen": 3,
+      "last_seen": "2026-09-18",
+      "times_seen": 4,
       "examples": [
         {
           "date": "2026-09-17",
-          "ticker": "CR3",
-          "headline": "Investor Presentation - RIU Uranium Investment Day",
-          "called": "bearish",
-          "abnormal_pct": 16.25
-        },
-        {
-          "date": "2026-09-17",
-          "ticker": "CR3",
-          "headline": "Investor Presentation - RIU Uranium Investment Day",
-          "called": "bearish",
-          "abnormal_pct": 16.25
-        },
-        {
-          "date": "2026-09-17",
           "ticker": "I88",
           "headline": "RIU Uranium Investment Conference Presentation",
           "called": "bearish",
@@ -1496,6 +1503,20 @@
           "headline": "RIU Uranium Investment Conference Presentation",
           "called": "bearish",
           "abnormal_pct": 9.59
+        },
+        {
+          "date": "2026-09-18",
+          "ticker": "BRN",
+          "headline": "BrainChip to present in AI and Semiconductor webinar",
+          "called": "neutral",
+          "abnormal_pct": 8.01
+        },
+        {
+          "date": "2026-09-18",
+          "ticker": "TVN",
+          "headline": "Online Investor Briefing",
+          "called": "bearish",
+          "abnormal_pct": 7.91
         }
       ]
     },
@@ -1504,16 +1525,9 @@
       "trigger": "Application for quotation of securities plus same-day Issue of Shares and Options filing (L003 cluster) at a stock 40-60% below its 12-month high, where the options component of the issue is material (i.e. options are attached to placement shares at a ratio ≥1:1) and no named strategic placee is disclosed",
       "rule": "Before calling bearish on an application-for-quotation plus issue-of-shares-and-options cluster purely on dilution grounds, ask whether the options component signals that the placement was priced with significant incentive to attract buyers into a distressed stock — heavily optioned placements at de-rated micro-caps can be read by the market as a funded-catalyst signal (the raise completed despite the de-rating) rather than a pure dilution event; default to neutral rather than bearish when the cluster involves options and no strategic concerns (e.g. going-concern disclosure, asset impairment) accompany it.",
       "created": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "times_seen": 3,
+      "last_seen": "2026-09-18",
+      "times_seen": 4,
       "examples": [
-        {
-          "date": "2026-09-17",
-          "ticker": "TMX",
-          "headline": "Notification regarding unquoted securities - TMX",
-          "called": "neutral",
-          "abnormal_pct": 13.87
-        },
         {
           "date": "2026-09-17",
           "ticker": "TMX",
@@ -1541,6 +1555,13 @@
           "headline": "Application for quotation of securities - OMG",
           "called": "neutral",
           "abnormal_pct": 13.87
+        },
+        {
+          "date": "2026-09-18",
+          "ticker": "EUR",
+          "headline": "Application for quotation of securities - EUR",
+          "called": "neutral",
+          "abnormal_pct": 8.46
         }
       ]
     },
@@ -1549,8 +1570,8 @@
       "trigger": "Despatch of prospectus announcement at a stock 50%+ below its 12-month high, where the prospectus is for a rights issue or entitlement offer (not a placement) and the offer price implies existing holders can participate at current or near-current prices rather than suffering pure dilution",
       "rule": "A prospectus despatch is not uniformly bearish — distinguish between a placement prospectus (dilutive, outsiders getting shares at discount) and an entitlement offer prospectus (existing holders given the right to maintain their position); before calling bearish on despatch of prospectus at a distressed stock, ask whether the offer is a rights issue that gives existing holders a participation option, because an entitlement offer at a deeply de-rated stock can be read as a funded-catalyst signal and a floor-setting event rather than a dilution threat; default to neutral rather than bearish when the structure is participatory rather than exclusionary.",
       "created": "2026-09-17",
-      "last_seen": "2026-09-17",
-      "times_seen": 3,
+      "last_seen": "2026-09-18",
+      "times_seen": 4,
       "examples": [
         {
           "date": "2026-09-17",
@@ -1572,6 +1593,20 @@
           "headline": "Despatch of Prospectus",
           "called": "bearish",
           "abnormal_pct": 12.09
+        },
+        {
+          "date": "2026-09-18",
+          "ticker": "DBF",
+          "headline": "Supplementary Prospectus",
+          "called": "neutral",
+          "abnormal_pct": 13.06
+        },
+        {
+          "date": "2026-09-18",
+          "ticker": "ATT",
+          "headline": "Lodgement of Prospectus",
+          "called": "bearish",
+          "abnormal_pct": 9.1
         }
       ]
     },
@@ -1591,7 +1626,24 @@
           "abnormal_pct": -10.0
         }
       ]
+    },
+    {
+      "id": "L043",
+      "trigger": "Investor presentation at a named investor forum (e.g. 'Metals Investor Forum', 'RIU', 'Noosa Mining') by a junior explorer, not flagged market sensitive, with no price action data available",
+      "rule": "Before applying L010's bearish default, distinguish between a generic online awareness filing and a presentation at a named sector-specialist investor forum — the latter attracts an audience of active buyers in the commodity, not passive observers, and can itself be an accumulation catalyst; default to neutral rather than bearish when the forum is named and sector-specialist, reserving bearish only for generic non-conference online or roadshow filings with no named audience.",
+      "created": "2026-09-18",
+      "last_seen": "2026-09-18",
+      "times_seen": 1,
+      "examples": [
+        {
+          "date": "2026-09-18",
+          "ticker": "USL",
+          "headline": "Metals Investor Forum Presentation",
+          "called": "bearish",
+          "abnormal_pct": 13.22
+        }
+      ]
     }
   ],
-  "last_reflected": "2026-09-17"
+  "last_reflected": "2026-09-18"
 }
