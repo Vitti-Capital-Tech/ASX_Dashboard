@@ -328,6 +328,61 @@ actually did what we said it would. Nothing is graded by hand.
 Use **Copy post summary** for a plain-English, paste-ready recap of the day, and
 **Export CSV** for the full call-by-call detail.
 
+### Two ways to grade a call, and why it matters
+
+A switch at the top of the tab decides what every number below means.
+
+| Basis | What it measures |
+| --- | --- |
+| **Gap-inclusive** | Previous close → close, net of the index. *Was the call right?* |
+| **Intraday** | Open → close, raw. *Of that move, how much was left to trade?* |
+
+They are not close to each other, and the gap between them is the most important
+thing this tab now says. Across **1,363 directional calls over 29 sessions**:
+
+| | Hit rate | Avg move as called |
+| --- | --- | --- |
+| Gap-inclusive | **61.9%** | +1.2% |
+| Intraday | **49.3%** | ≈0.0% |
+
+The calls are right about six times in ten — and essentially all of that is gone by the
+opening bell. Trading them from the open is a coin flip with no expectancy, **before**
+any slippage or spread. Around 69% of ASX announcements are lodged pre-open, so for most
+of them the reaction happens in the overnight gap, where nobody reading the news can act.
+
+### Where the edge actually is
+
+The three breakdowns exist to find the subset where intraday still pays. On the current
+data, one pattern is clean and monotonic — **gap size versus what followed**:
+
+| Gap at the open (in the call's direction) | Intraday hit rate | Avg intraday move | n |
+| --- | --- | --- | --- |
+| Gapped **against** the call | **59.3%** | **+0.56%** | 135 |
+| Opened flat (±1%) | 48.0% | −0.03% | 298 |
+| Gapped with it, 1–5% | 44.8% | +0.07% | 221 |
+| Gapped with it, 5–15% | 42.5% | −0.84% | 106 |
+| Gapped with it, 15%+ | 17.6% | −2.86% | 17 |
+
+**The more the stock gapped your way, the worse the rest of the day went.** The only
+bucket that made money intraday is the one where the market moved *against* the call at
+the open and then came back. This is gap fade, and it is the opposite of what a
+"good news, buy the open" rule would do.
+
+Treat the extremes with care — the 15%+ bucket is 17 calls over 29 sessions.
+
+### The filters
+
+Two toggles, both on by default, because both remove results that sit in the averages
+without being tradeable:
+
+- **Exclude under 1c** — below a cent, one tick is a double-digit percentage and the
+  spread is the whole trade. Judged on the *open*, since that is the price you would
+  have paid.
+- **Exclude large caps** — over A$2bn. An announcement rarely moves one enough to trade.
+
+Nothing here subtracts slippage or spread, so every figure is gross. A real book lands
+below it.
+
 ### The price columns
 
 | Column | What it is |

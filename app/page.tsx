@@ -104,6 +104,9 @@ export default function Dashboard() {
   const [scoreSummary, setScoreSummary] = useState<ScorecardSummary | null>(null);
   const [scoreLoading, setScoreLoading] = useState(false);
   const [scoreError, setScoreError] = useState<string | null>(null);
+  /** The date the reader asked for, when the scorecard shown is an earlier
+   *  one. Null when they are looking at exactly what they picked. */
+  const [scoreFellBackTo, setScoreFellBackTo] = useState<string | null>(null);
   const [clientTickers, setClientTickers] = useState<ClientTickers | null>(null);
   const [clientTickersLoading, setClientTickersLoading] = useState(false);
 
@@ -219,15 +222,39 @@ export default function Dashboard() {
         fetch(`/api/scorecard/${d}`),
         fetch('/api/scorecard/summary'),
       ]);
+      setScoreSummary(sumRes.ok ? await sumRes.json() : null);
+
       if (dayRes.ok) {
         setScorecard(await dayRes.json());
-      } else {
-        setScorecard(null);
-        setScoreError(dayRes.status === 404 ? `No scorecard for ${d} yet.` : 'Failed to load the scorecard.');
+        setScoreFellBackTo(null);
+        return;
       }
-      setScoreSummary(sumRes.ok ? await sumRes.json() : null);
+
+      // Today's scorecard is written after the close, so for most of the
+      // trading day it does not exist. An empty tab is the wrong answer to
+      // that — the last scored session is still the best read available, and
+      // it is what a reader came for. Fall back to it and say so, rather than
+      // making them hunt for a date that works.
+      if (dayRes.status === 404) {
+        const availRes = await fetch('/api/scorecard/available');
+        const dates: string[] = availRes.ok ? (await availRes.json()).dates ?? [] : [];
+        const prior = dates.find(x => x < d);   // newest first, so this is the latest before d
+        if (prior) {
+          const priorRes = await fetch(`/api/scorecard/${prior}`);
+          if (priorRes.ok) {
+            setScorecard(await priorRes.json());
+            setScoreFellBackTo(d);              // the date that was ASKED for
+            return;
+          }
+        }
+      }
+
+      setScorecard(null);
+      setScoreFellBackTo(null);
+      setScoreError(dayRes.status === 404 ? `No scorecard for ${d} yet.` : 'Failed to load the scorecard.');
     } catch {
       setScorecard(null);
+      setScoreFellBackTo(null);
       setScoreError('Failed to load the scorecard.');
     } finally {
       setScoreLoading(false);
@@ -609,6 +636,8 @@ export default function Dashboard() {
               loading={scoreLoading}
               error={scoreError}
               date={date}
+              requestedDate={scoreFellBackTo}
+              todaysAnnouncements={log?.announcements}
               onRetry={() => fetchScorecard(date)}
             />
           )}

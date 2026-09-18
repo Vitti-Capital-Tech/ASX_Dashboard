@@ -104,10 +104,27 @@ export interface ScoredCall {
    *  `return_pct`, not instead of it: most filings land pre-open, and for those
    *  the reaction is the gap. */
   open_close_pct?: number | null;
+  /** How much of the move was already gone at the open: (open/prev_close − 1)%.
+   *  News read pre-market cannot be traded until the open, so anything inside
+   *  the gap is observable but not capturable. */
+  gap_pct?: number | null;
   index_return_pct: number | null;
   /** Move net of the benchmark. This is what the verdict is judged on. */
   abnormal_pct: number | null;
   verdict: Verdict;
+  /** The same call graded on the raw move from the OPEN — what a trader who
+   *  acted at the open actually banked. Raw, not index-adjusted: subtracting
+   *  the benchmark would describe a hedged position nobody is running. */
+  intraday_verdict?: Verdict;
+
+  // ── Carried over from the announcement's market_context, so "was this
+  //    tradeable size" can be asked of a result without loading the log. ──
+  tags?: string[];
+  avg_turnover_aud?: number | null;
+  liquid?: boolean | null;
+  avg_volume_20?: number | null;
+  rsi_14?: number | null;
+  market_cap_aud?: number | null;
 }
 
 export interface SentimentStat {
@@ -148,6 +165,9 @@ export interface Scorecard {
   benchmark: string;
   threshold_pct: number;
   stats: ScorecardStats;
+  /** The same day graded from the open. Absent on scorecards written before
+   *  the intraday basis existed. */
+  intraday_stats?: ScorecardStats;
   highlights: { best_calls: Highlight[]; worst_calls: Highlight[] };
   results: ScoredCall[];
 }
@@ -161,7 +181,33 @@ export interface ScorecardSummary {
   spread_pct: number | null;
   directional_hit_rate: number | null;
   directional_scored: number;
-  daily: { date: string; hit_rate: number | null; scored: number; spread_pct: number | null }[];
+  /** All-time totals on the intraday basis. Absent until a re-score has run. */
+  intraday?: {
+    by_sentiment: SentimentStats;
+    spread_pct: number | null;
+    directional_hit_rate: number | null;
+    directional_scored: number;
+  };
+  /** Directional accuracy per announcement type, both bases, across every
+   *  scorecard. Types with fewer than 5 settled calls are omitted rather than
+   *  published as a hit rate nobody should sort on. */
+  by_document_type?: {
+    document_type: string;
+    scored: number;
+    hit_rate: number | null;
+    intraday_scored: number;
+    intraday_hit_rate: number | null;
+    intraday_avg_as_called: number | null;
+    avg_as_called: number | null;
+  }[];
+  daily: {
+    date: string;
+    hit_rate: number | null;
+    scored: number;
+    spread_pct: number | null;
+    intraday_hit_rate?: number | null;
+    intraday_scored?: number;
+  }[];
 }
 
 // ── Market context (attached by fetch_asx.py via market_context.py) ──

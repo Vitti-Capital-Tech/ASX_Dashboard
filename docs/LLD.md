@@ -96,6 +96,33 @@ Rows are now grouped by `(ticker, session_date, unpriced)` and collapsed:
 
 Effect on the published numbers: 3,373 rows → 2,540, with daily hit rates moving a few points in both directions and mostly **down** (17 Sep: 66.7% over 72 calls → 62.1% over 58). Existing scorecard files predate the merge and must be regenerated to pick it up.
 
+#### Two grading bases
+`compute_stats(results, verdict_key, move_key)` is parameterised over what settles a call, and every scorecard carries both:
+*   **`stats`** — `verdict` / `abnormal_pct`. Previous close to close, net of the benchmark. Grades the forecast.
+*   **`intraday_stats`** — `intraday_verdict` / `open_close_pct`. Open to close, **raw**. Grades what was left to trade. Not index-adjusted on purpose: subtracting the benchmark describes a hedged position nobody is running, and a trader banks the raw move.
+
+`intraday_verdict` uses the same `THRESHOLD_PCT` dead band, so the two are directly comparable.
+
+Measured over 29 sessions and 1,363 directional calls: **61.9% gap-inclusive vs 49.3% intraday**, average move as called +1.2% vs ≈0.0%. The signal is real and almost entirely consumed by the overnight gap — which is why both are published rather than one being chosen.
+
+#### `gap_pct` and the fade
+`(open / prev_close − 1) × 100`, per row. Bucketed in the UI by the gap *in the direction of the call* so bullish and bearish are comparable. The resulting pattern is monotonic: gapped-against +0.56% intraday (n=135), flat −0.03%, with-it-1-5% +0.07%, with-it-5-15% −0.84%, with-it-15%+ −2.86% (n=17). The bigger the gap in the call's favour, the more it gives back.
+
+#### Fields carried from `market_context`
+`tags`, `avg_turnover_aud`, `liquid`, `avg_volume_20`, `rsi_14` and `market_cap_aud` are copied onto each scored row from the log's own context block. Copied rather than recomputed so the accuracy tab and the feed cannot disagree about one stock, and so "was this tradeable size" is answerable without opening a second file. They back the liquidity breakdown and the large-cap filter.
+
+#### `by_document_type` in the summary
+Per-type directional accuracy on both bases, over every scorecard on disk, computed in `build_summary()`. It lives there rather than in the browser because the answer spans all files while the tab is handed one day plus the summary. Types under 5 settled calls are dropped — one call at 100% outranks eleven at 73% in any sort, and the result would be a ranking of small samples.
+
+#### `build_summary()` reads rows, not day stats
+All-time figures are counted over calls rather than averaged across daily averages; a 12-call day and a 300-call day do not carry equal weight. It also tolerates scorecards written before a basis existed — `compute_stats` reaches every verdict with `.get`, so an older file contributes to the basis it has and is simply absent from the other.
+
+#### `VWAP_MAX_AGE_DAYS`
+Sessions older than 28 days skip the intraday fetch entirely. Yahoo's 1-minute window is ~30 days, so asking for an older session is a guaranteed miss — and on a `--force` backfill over months that is hundreds of pointless chunk requests against a host that rate-limits.
+
+#### Client-side recomputation (`AccuracyPanel`)
+`statsFor(rows, basis)` recomputes every displayed figure from the rows on screen rather than reading the precomputed `stats` block. This is required, not stylistic: the sub-cent and large-cap filters change which calls count, and a headline hit rate that ignores the filter beneath it is worse than no headline. The precomputed blocks are used only for the all-time summary.
+
 #### Price columns
 | Field | Source | Notes |
 | --- | --- | --- |

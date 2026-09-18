@@ -60,6 +60,10 @@ SCORED_LABELS = ("bullish", "bearish", "neutral")
 # yfinance rejects very long ticker lists in one call.
 CHUNK = 100
 
+# How far back Yahoo serves 1-minute bars. Slightly under the documented 30 so
+# a run near the boundary does not spend its requests discovering the edge.
+VWAP_MAX_AGE_DAYS = 28
+
 
 # ─────────────────────────────────────────────────────────────
 # Price data
@@ -179,10 +183,22 @@ def fetch_vwap(symbols: list[str], session_dates: set[str]) -> dict[tuple[str, s
     if not symbols or not session_dates:
         return out
 
+    # Yahoo's 1-minute window is about 30 days. Asking for an older session is
+    # not a slow path, it is a guaranteed miss — and on a --force backfill over
+    # months of scorecards it is hundreds of pointless chunk requests against a
+    # host that rate-limits. Skipped with a line saying so, rather than
+    # silently returning nothing.
+    oldest = (datetime.now(AEST).date() - timedelta(days=VWAP_MAX_AGE_DAYS))
+
     for session in sorted(session_dates):
         try:
             day = datetime.strptime(session, "%Y-%m-%d").date()
         except ValueError:
+            continue
+
+        if day < oldest:
+            print(f"[vwap] {session}: older than {VWAP_MAX_AGE_DAYS}d, "
+                  f"outside Yahoo's intraday window - skipped.")
             continue
 
         # Yahoo's `end` is exclusive, so one session is [day, day+1).
@@ -366,6 +382,13 @@ def score_day(date_str: str) -> dict:
         bucket = bucket_of(a)
         use_next = bucket == "post_close"
 
+        # Straight from the log's own context block, which the fetcher already
+        # computed from bars that closed BEFORE the announcement. Copied rather
+        # than recomputed so the accuracy tab and the feed cannot disagree
+        # about the same stock, and so "was this tradeable size" can be asked
+        # of a result without loading a second file.
+        ctx = a.get("market_context") or {}
+
         row = {
             "ticker": ticker,
             "company": a.get("company", ""),
@@ -377,10 +400,22 @@ def score_day(date_str: str) -> dict:
             "sentiment": a["sentiment"],
             "bucket": bucket,
             "conflict": ticker in conflicted,
+            "tags": a.get("tags") or [],
+            "avg_turnover_aud": ctx.get("avg_turnover_aud"),
+            "liquid": ctx.get("liquid"),
+            "avg_volume_20": ctx.get("avg_volume_20"),
+            "rsi_14": ctx.get("rsi_14"),
+            "market_cap_aud": ctx.get("market_cap_aud"),
             "session_date": None,
             "prev_close": None,
             "open": None,
             "vwap": None,
+            # How much of the move was already gone at the open. The number an
+            # intraday plan lives or dies on: news read pre-market cannot be
+            # traded until the open, so anything inside the gap is not
+            # capturable, only observable.
+            "gap_pct": None,
+            "intraday_verdict": "no_data",
             "close": None,
             "return_pct": None,
             "open_close_pct": None,
@@ -418,9 +453,18 @@ def score_day(date_str: str) -> dict:
             # gap — measuring from the open would miss the event and report the
             # drift that followed it.
             "open_close_pct": round((close / op - 1) * 100, 2) if op else None,
+            "gap_pct": round((op / prev_close - 1) * 100, 2) if op else None,
             "index_return_pct": round(idx_ret, 2),
             "abnormal_pct": round(abnormal, 2),
             "verdict": verdict_for(a["sentiment"], abnormal),
+            # Raw, not index-adjusted, unlike `verdict`. A trader who buys at
+            # the open and sells at the close banks the raw move; subtracting
+            # the index would describe a hedged position nobody here is
+            # running. Same dead band, so the two verdicts stay comparable.
+            "intraday_verdict": (
+                verdict_for(a["sentiment"], (close / op - 1) * 100)
+                if op else "no_data"
+            ),
         })
         results.append(row)
 
@@ -446,6 +490,11 @@ def score_day(date_str: str) -> dict:
         "benchmark": BENCHMARK,
         "threshold_pct": THRESHOLD_PCT,
         "stats": compute_stats(results),
+        # The same day graded on what a trader could have captured. A separate
+        # block rather than a replacement: the two answer different questions,
+        # and on this data they disagree sharply — the edge is mostly inside
+        # the gap, which is exactly what a reader needs to be able to see.
+        "intraday_stats": compute_stats(results, "intraday_verdict", "open_close_pct"),
         "highlights": compute_highlights(results),
         "results": results,
     }
@@ -482,19 +531,31 @@ def _headline(stats: dict) -> tuple:
     return spread, (round(cor / dec * 100, 1) if dec else None), dec
 
 
-def compute_stats(results: list[dict]) -> dict:
+def compute_stats(results: list[dict],
+                  verdict_key: str = "verdict",
+                  move_key: str = "abnormal_pct") -> dict:
     """
     Hit rate counts only calls that cleared the dead band, so a quiet day
     cannot inflate the score. Conflicted tickers are excluded outright.
+
+    Parameterised over which measure settles a call, because the tab now asks
+    the question two ways. The default pair grades the market-adjusted move
+    from the previous close, which is the AI's forecast skill. Passing
+    `intraday_verdict`/`open_close_pct` grades the move from the OPEN, which is
+    the part a trader who reads the news pre-market can actually capture — the
+    overnight gap is gone before they can act on it.
     """
     stats = {label: _blank() for label in SCORED_LABELS}
     moves: dict[str, list[float]] = {label: [] for label in SCORED_LABELS}
 
     for r in results:
-        if r["conflict"] or r["verdict"] in ("no_data", "pending"):
+        if r["conflict"] or r.get(verdict_key) in ("no_data", "pending", None):
             continue
-        stats[r["sentiment"]][r["verdict"]] += 1
-        moves[r["sentiment"]].append(r["abnormal_pct"])
+        move = r.get(move_key)
+        if move is None:
+            continue
+        stats[r["sentiment"]][r[verdict_key]] += 1
+        moves[r["sentiment"]].append(move)
 
     _finalise(stats, moves)
     # The number that actually matters: do the stocks we called bullish beat the
@@ -506,8 +567,12 @@ def compute_stats(results: list[dict]) -> dict:
         "spread_pct": spread,
         "directional_hit_rate": hit_rate,
         "directional_scored": dec,
-        "pending": sum(1 for r in results if r["verdict"] == "pending"),
-        "no_data": sum(1 for r in results if r["verdict"] == "no_data"),
+        # `.get`, because build_summary() reads every scorecard on disk and the
+        # older ones were written before this basis existed. A missing verdict
+        # counts as neither pending nor no_data — it is simply not gradeable
+        # this way, which the row count already reflects.
+        "pending": sum(1 for r in results if r.get(verdict_key) == "pending"),
+        "no_data": sum(1 for r in results if r.get(verdict_key) == "no_data"),
         "conflicts": sum(1 for r in results if r["conflict"]),
     }
 
@@ -528,10 +593,59 @@ def compute_highlights(results: list[dict], n: int = 5) -> dict:
     return {"best_calls": top("correct"), "worst_calls": top("wrong")}
 
 
+def _by_document_type(rows: list[dict], min_calls: int = 5) -> list[dict]:
+    """
+    Directional accuracy per document type, on both bases.
+
+    Types below `min_calls` settled calls are dropped rather than published
+    with a hit rate: one call at 100% outranks eleven at 73% in any sort, and
+    the resulting list is a ranking of small samples.
+    """
+    groups: dict[str, list[dict]] = {}
+    for r in rows:
+        if r.get("sentiment") == "neutral":
+            continue
+        groups.setdefault((r.get("document_type") or "Other").strip() or "Other", []).append(r)
+
+    out = []
+    for name, rs in groups.items():
+        full = compute_stats(rs)
+        intra = compute_stats(rs, "intraday_verdict", "open_close_pct")
+        if full["directional_scored"] < min_calls:
+            continue
+        out.append({
+            "document_type": name,
+            "scored": full["directional_scored"],
+            "hit_rate": full["directional_hit_rate"],
+            "intraday_scored": intra["directional_scored"],
+            "intraday_hit_rate": intra["directional_hit_rate"],
+            # Signed by the call, so bullish and bearish are comparable and a
+            # bearish call that came good reads as a win.
+            "intraday_avg_as_called": _avg_as_called(rs, "open_close_pct"),
+            "avg_as_called": _avg_as_called(rs, "abnormal_pct"),
+        })
+    return sorted(out, key=lambda x: x["scored"], reverse=True)
+
+
+def _avg_as_called(rows: list[dict], move_key: str) -> float | None:
+    vals = []
+    for r in rows:
+        v = r.get(move_key)
+        if v is None or r.get("conflict"):
+            continue
+        vals.append(-v if r["sentiment"] == "bearish" else v)
+    return round(sum(vals) / len(vals), 2) if vals else None
+
+
 def build_summary() -> dict:
-    """Rolling all-time totals across every scorecard file."""
-    stats = {label: _blank() for label in SCORED_LABELS}
-    moves: dict[str, list[float]] = {label: [] for label in SCORED_LABELS}
+    """
+    Rolling all-time totals across every scorecard file, on both bases.
+
+    Every scorecard's rows are read rather than its precomputed stats, because
+    the all-time figure has to be a count over calls, not an average of daily
+    averages — a 12-call day and a 300-call day do not carry equal weight.
+    """
+    rows: list[dict] = []
     days = []
 
     for f in sorted(SCORECARD_DIR.glob("[0-9]*.json")):
@@ -539,30 +653,45 @@ def build_summary() -> dict:
             day = json.loads(f.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError):
             continue
-        for r in day.get("results", []):
-            if r["conflict"] or r["verdict"] in ("no_data", "pending"):
-                continue
-            stats[r["sentiment"]][r["verdict"]] += 1
-            moves[r["sentiment"]].append(r["abnormal_pct"])
+        rows.extend(day.get("results", []))
+        intra = day.get("intraday_stats") or {}
         days.append({
             "date": day["date"],
             "hit_rate": day["stats"]["directional_hit_rate"],
             "scored": day["stats"]["directional_scored"],
             "spread_pct": day["stats"]["spread_pct"],
+            "intraday_hit_rate": intra.get("directional_hit_rate"),
+            "intraday_scored": intra.get("directional_scored"),
         })
 
-    _finalise(stats, moves)
-    spread, hit_rate, dec = _headline(stats)
+    full = compute_stats(rows)
+    intraday = compute_stats(rows, "intraday_verdict", "open_close_pct")
+    by_type = _by_document_type(rows)
 
     return {
         "generated_at": datetime.now(AEST).isoformat(),
         "days_scored": len(days),
         "benchmark": BENCHMARK,
         "threshold_pct": THRESHOLD_PCT,
-        "by_sentiment": stats,
-        "spread_pct": spread,
-        "directional_hit_rate": hit_rate,
-        "directional_scored": dec,
+        "by_sentiment": full["by_sentiment"],
+        "spread_pct": full["spread_pct"],
+        "directional_hit_rate": full["directional_hit_rate"],
+        "directional_scored": full["directional_scored"],
+        # The same calls graded on the move from the open. Kept as its own
+        # block so a reader can see the gap between the two rather than being
+        # handed one number and told which question it answers.
+        "intraday": {
+            "by_sentiment": intraday["by_sentiment"],
+            "spread_pct": intraday["spread_pct"],
+            "directional_hit_rate": intraday["directional_hit_rate"],
+            "directional_scored": intraday["directional_scored"],
+        },
+        # Per announcement type, both bases. Computed here rather than in the
+        # browser because the answer spans every scorecard on disk, and the tab
+        # is handed one day plus this file. It is what lets a morning list say
+        # "this kind of filing has kept running after the open 8 times out of
+        # 11" beside a ticker, instead of only what the AI thinks of it.
+        "by_document_type": by_type,
         "daily": days[-60:],
     }
 
