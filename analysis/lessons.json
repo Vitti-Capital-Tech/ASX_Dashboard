@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-18T08:49:27.314655+00:00",
+  "updated_at": "2026-09-18T10:44:50.756838+00:00",
   "next_id": 51,
   "lessons": [
     {
@@ -524,7 +524,7 @@
       "rule": "When median daily turnover is near zero and relative volume spikes materially (e.g. 3x), even a small number of absolute trades can represent genuine accumulation by an informed party — do not dismiss the volume signal as noise purely because the base is tiny. On a market-sensitive filing at a 12-month low, a relative volume spike of this magnitude combined with a strategic-progress headline should shift the call to bullish rather than neutral, because the marginal buyer is likely informed and the downside is already largely priced.",
       "created": "2026-09-15",
       "last_seen": "2026-09-18",
-      "times_seen": 7,
+      "times_seen": 8,
       "examples": [
         {
           "date": "2026-09-15",
@@ -534,11 +534,11 @@
           "abnormal_pct": 20.88
         },
         {
-          "date": "2026-09-15",
-          "ticker": "PNT",
-          "headline": "Panther Advances Laverton Gold Development Pathway",
+          "date": "2026-09-18",
+          "ticker": "IBR",
+          "headline": "Receipt of final development agreement notice",
           "called": "neutral",
-          "abnormal_pct": 20.88
+          "abnormal_pct": 19.06
         },
         {
           "date": "2026-09-18",
@@ -652,7 +652,7 @@
       "rule": "Options lapsing unexercised at a distressed micro-cap can be read as a positive register-cleaning event — it removes a future dilution overhang without any immediate cash outflow, which on a stock already severely de-rated can be modestly constructive. Do not call bearish on cessation alone; absent a companion raise filing, default to neutral rather than bearish, and consider neutral-to-bullish when the cessation removes a meaningful dilution overhang.",
       "created": "2026-09-15",
       "last_seen": "2026-09-18",
-      "times_seen": 7,
+      "times_seen": 8,
       "examples": [
         {
           "date": "2026-09-15",
@@ -662,11 +662,11 @@
           "abnormal_pct": 10.88
         },
         {
-          "date": "2026-09-15",
-          "ticker": "GCM",
-          "headline": "Notification of cessation of securities - GCM",
-          "called": "bearish",
-          "abnormal_pct": 10.88
+          "date": "2026-09-18",
+          "ticker": "NVX",
+          "headline": "Notification of cessation of securities - NVX",
+          "called": "neutral",
+          "abnormal_pct": -9.08
         },
         {
           "date": "2026-09-18",
@@ -1578,21 +1578,21 @@
       "rule": "A prospectus despatch is not uniformly bearish — distinguish between a placement prospectus (dilutive, outsiders getting shares at discount) and an entitlement offer prospectus (existing holders given the right to maintain their position); before calling bearish on despatch of prospectus at a distressed stock, ask whether the offer is a rights issue that gives existing holders a participation option, because an entitlement offer at a deeply de-rated stock can be read as a funded-catalyst signal and a floor-setting event rather than a dilution threat; default to neutral rather than bearish when the structure is participatory rather than exclusionary.",
       "created": "2026-09-17",
       "last_seen": "2026-09-18",
-      "times_seen": 6,
+      "times_seen": 7,
       "examples": [
-        {
-          "date": "2026-09-17",
-          "ticker": "AAU",
-          "headline": "Despatch of Prospectus",
-          "called": "bearish",
-          "abnormal_pct": 12.09
-        },
         {
           "date": "2026-09-18",
           "ticker": "DBF",
           "headline": "Supplementary Prospectus",
           "called": "neutral",
           "abnormal_pct": 13.06
+        },
+        {
+          "date": "2026-09-18",
+          "ticker": "ATT",
+          "headline": "Lodgement of Prospectus",
+          "called": "bearish",
+          "abnormal_pct": 9.1
         },
         {
           "date": "2026-09-18",
@@ -1640,7 +1640,7 @@
       "rule": "Before applying L010's bearish default, distinguish between a generic online awareness filing and a presentation at a named sector-specialist investor forum — the latter attracts an audience of active buyers in the commodity, not passive observers, and can itself be an accumulation catalyst; default to neutral rather than bearish when the forum is named and sector-specialist, reserving bearish only for generic non-conference online or roadshow filings with no named audience.",
       "created": "2026-09-18",
       "last_seen": "2026-09-18",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
         {
           "date": "2026-09-18",
@@ -1669,6 +1669,13 @@
           "headline": "Metals Investor Forum Presentation",
           "called": "bearish",
           "abnormal_pct": 13.22
+        },
+        {
+          "date": "2026-09-18",
+          "ticker": "USL",
+          "headline": "Metals Investor Forum Presentation",
+          "called": "bearish",
+          "abnormal_pct": 13.22
         }
       ]
     },
@@ -1678,8 +1685,15 @@
       "rule": "A supplementary prospectus is not uniformly administrative — it amends a live offer document, which means a capital raise is actively in progress and fresh capital is imminent; before calling neutral, ask whether the primary prospectus is an entitlement offer or rights issue that gives existing holders a participation right at current prices, because in a near-zero-liquidity stock even a small completed raise can function as a funded-catalyst and floor-setting signal; apply the same participatory-vs-exclusionary distinction as L041 and default to neutral-to-bullish rather than purely neutral when the structure is participatory.",
       "created": "2026-09-18",
       "last_seen": "2026-09-18",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-18",
+          "ticker": "DBF",
+          "headline": "Supplementary Prospectus",
+          "called": "neutral",
+          "abnormal_pct": 13.06
+        },
         {
           "date": "2026-09-18",
           "ticker": "DBF",
@@ -1702,8 +1716,15 @@
       "rule": "A 'varied EPL issued' or equivalent granted-licence announcement removes a specific regulatory risk and confirms the company has active, approved work authorisation — this is structurally different from a mere application or a generic operational update; before defaulting to neutral on the grounds of no assay data or prior de-rating, ask whether the varied licence now enables a specific next operational step (drill start, bulk sample, resource extension) that was previously blocked; if so, lean neutral-to-bullish rather than neutral, because the grant itself is the gating event the market was waiting for.",
       "created": "2026-09-18",
       "last_seen": "2026-09-18",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-18",
+          "ticker": "VTX",
+          "headline": "Operational Update - Varied EPL Issued",
+          "called": "neutral",
+          "abnormal_pct": 8.71
+        },
         {
           "date": "2026-09-18",
           "ticker": "VTX",
@@ -1726,8 +1747,15 @@
       "rule": "An AI or semiconductor webinar for a company with a named proprietary technology is not equivalent to a generic junior-explorer awareness filing — the audience is sector-informed and the act of presenting in an active thematic (AI, semiconductors) can itself trigger accumulation by thematic investors; before calling neutral, ask whether the sector theme is actively re-rating and whether the company's technology is the type that attracts thematic inflows independent of fundamentals; if yes, lean neutral-to-bullish rather than neutral, because thematic buying is not contingent on new fundamental disclosures.",
       "created": "2026-09-18",
       "last_seen": "2026-09-18",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-18",
+          "ticker": "BRN",
+          "headline": "BrainChip to present in AI and Semiconductor webinar",
+          "called": "neutral",
+          "abnormal_pct": 8.01
+        },
         {
           "date": "2026-09-18",
           "ticker": "BRN",
@@ -1750,8 +1778,15 @@
       "rule": "At near-zero-liquidity oil and gas juniors, a mobilisation announcement into a large relative volume spike represents a qualitatively different market dynamic than L002 assumes — the start of physical well operations at a named well in an illiquid stock is a discrete binary event that the market treats as a risk-on catalyst, not merely a programme statement; do not dismiss the volume ratio as noise purely because the absolute base is tiny when the ratio exceeds 3x and the announcement names a specific well beginning active operations; lean neutral-to-bullish rather than neutral when these conditions coincide, because the marginal buyer in an illiquid well-operations stock is typically informed about the well's prospects.",
       "created": "2026-09-18",
       "last_seen": "2026-09-18",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-18",
+          "ticker": "LIO",
+          "headline": "Bula-Karang-1 Update - Mobilisation Commences",
+          "called": "neutral",
+          "abnormal_pct": 7.71
+        },
         {
           "date": "2026-09-18",
           "ticker": "LIO",
@@ -1774,8 +1809,22 @@
       "rule": "An AGM notice is not always content-free when the stock is deeply de-rated and volume is elevated — the director nomination deadline is a governance event that can attract activist or strategic interest; before calling neutral, ask whether the volume spike coincides with a known activist position or a corporate action rumour, and if the stock has the shape of an activist target (deep de-rating, illiquid, small board), lean neutral-to-bullish rather than purely neutral. Here the volume (1.92x) into a near-zero-liquidity stock (median ~A$345/day) at a 63% de-rating was dismissed as noise, but at that liquidity level even a single informed buyer opening or building a position ahead of a nomination deadline is a material signal.",
       "created": "2026-09-18",
       "last_seen": "2026-09-18",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-09-18",
+          "ticker": "SCN",
+          "headline": "AGM Date and Closing Date for Director Nominations",
+          "called": "neutral",
+          "abnormal_pct": 11.12
+        },
+        {
+          "date": "2026-09-18",
+          "ticker": "IXR",
+          "headline": "Date of AGM and Closing Date for Director Nominations",
+          "called": "neutral",
+          "abnormal_pct": 24.69
+        },
         {
           "date": "2026-09-18",
           "ticker": "SCN",
@@ -1791,8 +1840,15 @@
       "rule": "When pre-announcement volume is suppressed (below 0.6x average) rather than elevated, the L010 pre-raise-marketing bearish logic is weakened — there is no evidence of active marketing-into-accumulation, and the low volume may simply reflect a news-starved register waiting for a briefing catalyst; before defaulting to bearish on a non-flagged briefing at a de-rated junior, ask whether the company has a specific government or policy nexus (critical minerals designation, named project in a national programme) that makes the briefing content strategically credible rather than purely dilution-preparatory; if yes, default to neutral rather than bearish, reserving bearish only for briefings with elevated volume (evidence of active distribution) or explicit placement language.",
       "created": "2026-09-18",
       "last_seen": "2026-09-18",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-09-18",
+          "ticker": "TVN",
+          "headline": "Online Investor Briefing",
+          "called": "bearish",
+          "abnormal_pct": 7.91
+        },
         {
           "date": "2026-09-18",
           "ticker": "TVN",
@@ -1808,8 +1864,22 @@
       "rule": "An application for quotation at a 12-month low on a uranium or active-thematic junior is not uniformly bearish — the raise has already completed and the new capital may fund the next operational step in a sector where thematic inflows are active; before calling bearish on quotation-of-securities at a thematic junior, ask whether the proceeds enable a named near-term catalyst (drill start, resource work, offtake) and whether the sector theme is attracting specialist fund inflows that make fresh paper absorbable; if both conditions hold, default to neutral rather than bearish, because the dilution is already done and the funded-catalyst signal may dominate the supply-overhang concern.",
       "created": "2026-09-18",
       "last_seen": "2026-09-18",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-09-18",
+          "ticker": "NHU",
+          "headline": "Application for quotation of securities - NHU",
+          "called": "bearish",
+          "abnormal_pct": 7.59
+        },
+        {
+          "date": "2026-09-18",
+          "ticker": "EUR",
+          "headline": "Application for quotation of securities - EUR",
+          "called": "neutral",
+          "abnormal_pct": 8.46
+        },
         {
           "date": "2026-09-18",
           "ticker": "NHU",
