@@ -5,7 +5,7 @@ close by `reflect.py` and read back to it the next morning. This is a ledger, no
 a rolling window — nothing here is ever deleted.
 
 - Last reflection: 2026-09-18
-- 39 active, 4 candidate, 0 dormant
+- 40 active, 7 candidate, 0 dormant
 
 A lesson enters as a **candidate** and stays out of the daily prompt until the same
 blind spot turns up on 2 separate days, because one occurrence cannot be told
@@ -34,15 +34,15 @@ _Seen 8×. First written 2026-09-14, last reinforced 2026-09-16._
 
 A large placement relative to normal liquidity, when use of proceeds is specific and operational (not generic 'working capital'), can be read as a funded-catalyst signal rather than a dilution event — the market may re-rate positively on the certainty of execution that the capital now enables; before defaulting to bearish on any placement, ask whether the proceeds are tied to a named near-term catalyst and whether the raise removes a going-concern or execution risk; if yes, call neutral-to-bullish rather than bearish.
 
-_Seen 7×. First written 2026-09-16, last reinforced 2026-09-18._
+_Seen 8×. First written 2026-09-16, last reinforced 2026-09-18._
 
 | Date | Ticker | Called | Move | Headline |
 | --- | --- | --- | ---: | --- |
 | 2026-09-18 | NHU | bearish | +7.6% | Application for quotation of securities - NHU |
+| 2026-09-18 | NHU | bearish | +7.6% | Application for quotation of securities - NHU |
 | 2026-09-17 | TMX | bearish | +13.9% | Issue of Shares and Options |
 | 2026-09-17 | TMX | bearish | +13.9% | Issue of Shares and Options |
 | 2026-09-17 | TMX | bearish | +13.9% | Application for quotation of securities - TMX |
-| 2026-09-16 | IOV | bearish | +13.7% | IOV Secures $4.25 Million Placement |
 
 ### L029 — Substantial holding filing headlined 'Becoming a substantial holder' (i.e. a new substantial holder crossing the 5% threshold for the first time) at a deeply de-rated stock, not flagged market sensitive
 
@@ -85,6 +85,34 @@ _Seen 6×. First written 2026-09-14, last reinforced 2026-09-17._
 | 2026-09-16 | LIO | neutral | -15.7% | Investor Presentation - Good Oil and Gas Conference |
 | 2026-09-15 | KAL | bearish | +10.9% | Investor Presentation |
 | 2026-09-14 | CEL | neutral | -7.1% | Investor Presentation |
+
+### L014 — Market-sensitive 'development pathway' or strategic-progress announcement on a junior at a 12-month low with near-zero median daily turnover, where volume has spiked sharply in relative terms
+
+When median daily turnover is near zero and relative volume spikes materially (e.g. 3x), even a small number of absolute trades can represent genuine accumulation by an informed party — do not dismiss the volume signal as noise purely because the base is tiny. On a market-sensitive filing at a 12-month low, a relative volume spike of this magnitude combined with a strategic-progress headline should shift the call to bullish rather than neutral, because the marginal buyer is likely informed and the downside is already largely priced.
+
+_Seen 6×. First written 2026-09-15, last reinforced 2026-09-18._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-18 | IBR | neutral | +19.1% | Receipt of final development agreement notice |
+| 2026-09-18 | IBR | neutral | +19.1% | Receipt of final development agreement notice |
+| 2026-09-15 | PNT | neutral | +20.9% | Panther Advances Laverton Gold Development Pathway |
+| 2026-09-15 | PNT | neutral | +20.9% | Panther Advances Laverton Gold Development Pathway |
+| 2026-09-15 | PNT | neutral | +20.9% | Panther Advances Laverton Gold Development Pathway |
+
+### L017 — Cessation of securities (options lapsing unexercised or performance rights forfeited) at a deeply de-rated micro-cap, filed in isolation with no companion capital raise filing on the same day
+
+Options lapsing unexercised at a distressed micro-cap can be read as a positive register-cleaning event — it removes a future dilution overhang without any immediate cash outflow, which on a stock already severely de-rated can be modestly constructive. Do not call bearish on cessation alone; absent a companion raise filing, default to neutral rather than bearish, and consider neutral-to-bullish when the cessation removes a meaningful dilution overhang.
+
+_Seen 6×. First written 2026-09-15, last reinforced 2026-09-18._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-18 | NVX | neutral | -9.1% | Notification of cessation of securities - NVX |
+| 2026-09-18 | NVX | neutral | -9.1% | Notification of cessation of securities - NVX |
+| 2026-09-15 | GCM | bearish | +10.9% | Notification of cessation of securities - GCM |
+| 2026-09-15 | GCM | bearish | +10.9% | Notification of cessation of securities - GCM |
+| 2026-09-15 | GCM | bearish | +10.9% | Notification of cessation of securities - GCM |
 
 ### L018 — Gold assay results described as 'extending' mineralisation (rather than upgrading grade or defining resource boundaries) at an explorer 60%+ below its 12-month high, with volume running materially above average into the announcement
 
@@ -156,34 +184,6 @@ _Seen 5×. First written 2026-09-14, last reinforced 2026-09-16._
 | 2026-09-14 | AA2 | neutral | +7.7% | Appointment of Executive Chairman |
 | 2026-09-14 | AA2 | neutral | +7.7% | Appointment of Executive Chairman |
 
-### L014 — Market-sensitive 'development pathway' or strategic-progress announcement on a junior at a 12-month low with near-zero median daily turnover, where volume has spiked sharply in relative terms
-
-When median daily turnover is near zero and relative volume spikes materially (e.g. 3x), even a small number of absolute trades can represent genuine accumulation by an informed party — do not dismiss the volume signal as noise purely because the base is tiny. On a market-sensitive filing at a 12-month low, a relative volume spike of this magnitude combined with a strategic-progress headline should shift the call to bullish rather than neutral, because the marginal buyer is likely informed and the downside is already largely priced.
-
-_Seen 5×. First written 2026-09-15, last reinforced 2026-09-18._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-09-18 | IBR | neutral | +19.1% | Receipt of final development agreement notice |
-| 2026-09-15 | PNT | neutral | +20.9% | Panther Advances Laverton Gold Development Pathway |
-| 2026-09-15 | PNT | neutral | +20.9% | Panther Advances Laverton Gold Development Pathway |
-| 2026-09-15 | PNT | neutral | +20.9% | Panther Advances Laverton Gold Development Pathway |
-| 2026-09-15 | PNT | neutral | +20.9% | Panther Advances Laverton Gold Development Pathway |
-
-### L017 — Cessation of securities (options lapsing unexercised or performance rights forfeited) at a deeply de-rated micro-cap, filed in isolation with no companion capital raise filing on the same day
-
-Options lapsing unexercised at a distressed micro-cap can be read as a positive register-cleaning event — it removes a future dilution overhang without any immediate cash outflow, which on a stock already severely de-rated can be modestly constructive. Do not call bearish on cessation alone; absent a companion raise filing, default to neutral rather than bearish, and consider neutral-to-bullish when the cessation removes a meaningful dilution overhang.
-
-_Seen 5×. First written 2026-09-15, last reinforced 2026-09-18._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-09-18 | NVX | neutral | -9.1% | Notification of cessation of securities - NVX |
-| 2026-09-15 | GCM | bearish | +10.9% | Notification of cessation of securities - GCM |
-| 2026-09-15 | GCM | bearish | +10.9% | Notification of cessation of securities - GCM |
-| 2026-09-15 | GCM | bearish | +10.9% | Notification of cessation of securities - GCM |
-| 2026-09-15 | GCM | bearish | +10.9% | Notification of cessation of securities - GCM |
-
 ### L020 — Cleansing statement filed by a junior at a 12-month low, accompanied on the same day by an investor presentation (identifiable via same-day filing cluster)
 
 When a cleansing statement and an investor presentation are filed together at a 12-month low, the presentation may be the use-of-proceeds marketing document for the just-completed raise rather than a pre-raise awareness filing — meaning fresh capital has arrived with a stated deployment plan. Ask whether the raise proceeds create a funded runway that removes the near-term going-concern risk; if so, the cleansing statement signals dilution already absorbed and a funded catalyst pipeline, which is neutral-to-bullish rather than bearish. Do not apply L011 in isolation when a companion presentation discloses a credible use of proceeds.
@@ -197,6 +197,34 @@ _Seen 5×. First written 2026-09-15, last reinforced 2026-09-17._
 | 2026-09-16 | IOV | bearish | +13.7% | IOV Secures $4.25 Million Placement |
 | 2026-09-15 | KAL | bearish | +10.9% | Investor Presentation |
 | 2026-09-15 | KAL | bearish | +10.9% | Cleansing Statement |
+
+### L040 — Application for quotation of securities plus same-day Issue of Shares and Options filing (L003 cluster) at a stock 40-60% below its 12-month high, where the options component of the issue is material (i.e. options are attached to placement shares at a ratio ≥1:1) and no named strategic placee is disclosed
+
+Before calling bearish on an application-for-quotation plus issue-of-shares-and-options cluster purely on dilution grounds, ask whether the options component signals that the placement was priced with significant incentive to attract buyers into a distressed stock — heavily optioned placements at de-rated micro-caps can be read by the market as a funded-catalyst signal (the raise completed despite the de-rating) rather than a pure dilution event; default to neutral rather than bearish when the cluster involves options and no strategic concerns (e.g. going-concern disclosure, asset impairment) accompany it.
+
+_Seen 5×. First written 2026-09-17, last reinforced 2026-09-18._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-18 | EUR | neutral | +8.5% | Application for quotation of securities - EUR |
+| 2026-09-18 | EUR | neutral | +8.5% | Application for quotation of securities - EUR |
+| 2026-09-17 | OMG | neutral | +13.9% | Application for quotation of securities - OMG |
+| 2026-09-17 | OMG | neutral | +13.9% | Application for quotation of securities - OMG |
+| 2026-09-17 | TMX | bearish | +13.9% | Issue of Shares and Options |
+
+### L041 — Despatch of prospectus announcement at a stock 50%+ below its 12-month high, where the prospectus is for a rights issue or entitlement offer (not a placement) and the offer price implies existing holders can participate at current or near-current prices rather than suffering pure dilution
+
+A prospectus despatch is not uniformly bearish — distinguish between a placement prospectus (dilutive, outsiders getting shares at discount) and an entitlement offer prospectus (existing holders given the right to maintain their position); before calling bearish on despatch of prospectus at a distressed stock, ask whether the offer is a rights issue that gives existing holders a participation option, because an entitlement offer at a deeply de-rated stock can be read as a funded-catalyst signal and a floor-setting event rather than a dilution threat; default to neutral rather than bearish when the structure is participatory rather than exclusionary.
+
+_Seen 5×. First written 2026-09-17, last reinforced 2026-09-18._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-18 | ATT | bearish | +9.1% | Lodgement of Prospectus |
+| 2026-09-18 | ATT | bearish | +9.1% | Lodgement of Prospectus |
+| 2026-09-18 | DBF | neutral | +13.1% | Supplementary Prospectus |
+| 2026-09-17 | AAU | bearish | +12.1% | Despatch of Prospectus |
+| 2026-09-17 | AAU | bearish | +12.1% | Despatch of Prospectus |
 
 ### L003 — Multiple administrative filings (e.g. cessation of securities plus quotation of securities) lodged by the same company on the same day
 
@@ -425,34 +453,6 @@ _Seen 4×. First written 2026-09-17, last reinforced 2026-09-18._
 | 2026-09-17 | CR3 | bearish | +16.2% | Investor Presentation - RIU Uranium Investment Day |
 | 2026-09-17 | I88 | bearish | +9.6% | RIU Uranium Investment Conference Presentation |
 
-### L040 — Application for quotation of securities plus same-day Issue of Shares and Options filing (L003 cluster) at a stock 40-60% below its 12-month high, where the options component of the issue is material (i.e. options are attached to placement shares at a ratio ≥1:1) and no named strategic placee is disclosed
-
-Before calling bearish on an application-for-quotation plus issue-of-shares-and-options cluster purely on dilution grounds, ask whether the options component signals that the placement was priced with significant incentive to attract buyers into a distressed stock — heavily optioned placements at de-rated micro-caps can be read by the market as a funded-catalyst signal (the raise completed despite the de-rating) rather than a pure dilution event; default to neutral rather than bearish when the cluster involves options and no strategic concerns (e.g. going-concern disclosure, asset impairment) accompany it.
-
-_Seen 4×. First written 2026-09-17, last reinforced 2026-09-18._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-09-18 | EUR | neutral | +8.5% | Application for quotation of securities - EUR |
-| 2026-09-17 | OMG | neutral | +13.9% | Application for quotation of securities - OMG |
-| 2026-09-17 | OMG | neutral | +13.9% | Application for quotation of securities - OMG |
-| 2026-09-17 | TMX | bearish | +13.9% | Issue of Shares and Options |
-| 2026-09-17 | TMX | bearish | +13.9% | Application for quotation of securities - TMX |
-
-### L041 — Despatch of prospectus announcement at a stock 50%+ below its 12-month high, where the prospectus is for a rights issue or entitlement offer (not a placement) and the offer price implies existing holders can participate at current or near-current prices rather than suffering pure dilution
-
-A prospectus despatch is not uniformly bearish — distinguish between a placement prospectus (dilutive, outsiders getting shares at discount) and an entitlement offer prospectus (existing holders given the right to maintain their position); before calling bearish on despatch of prospectus at a distressed stock, ask whether the offer is a rights issue that gives existing holders a participation option, because an entitlement offer at a deeply de-rated stock can be read as a funded-catalyst signal and a floor-setting event rather than a dilution threat; default to neutral rather than bearish when the structure is participatory rather than exclusionary.
-
-_Seen 4×. First written 2026-09-17, last reinforced 2026-09-18._
-
-| Date | Ticker | Called | Move | Headline |
-| --- | --- | --- | ---: | --- |
-| 2026-09-18 | ATT | bearish | +9.1% | Lodgement of Prospectus |
-| 2026-09-18 | DBF | neutral | +13.1% | Supplementary Prospectus |
-| 2026-09-17 | AAU | bearish | +12.1% | Despatch of Prospectus |
-| 2026-09-17 | AAU | bearish | +12.1% | Despatch of Prospectus |
-| 2026-09-17 | AAU | bearish | +12.1% | Despatch of Prospectus |
-
 ### L008 — Early-stage geophysical survey commencement announcement (airborne magnetic, gravity, CSAMT etc.) on an illiquid junior explorer at or near a multi-month high, not flagged market sensitive
 
 A survey commencement is a programme-activity statement with no data content — it tells the market only that fieldwork has started, which is often already anticipated after prior announcements. Treat as neutral-to-bearish when the stock is already at a local high, because speculative positioning built ahead of the announcement has no new result to feed on and is vulnerable to unwind.
@@ -536,6 +536,18 @@ _Seen 2×. First written 2026-09-16, last reinforced 2026-09-16._
 | 2026-09-16 | UM1 | bullish | -9.8% | Trenches Expose New Zones of Gold Mineralisation |
 | 2026-09-16 | UM1 | bullish | -9.8% | Trenches Expose New Zones of Gold Mineralisation |
 
+### L043 — Investor presentation at a named investor forum (e.g. 'Metals Investor Forum', 'RIU', 'Noosa Mining') by a junior explorer, not flagged market sensitive, with no price action data available
+
+Before applying L010's bearish default, distinguish between a generic online awareness filing and a presentation at a named sector-specialist investor forum — the latter attracts an audience of active buyers in the commodity, not passive observers, and can itself be an accumulation catalyst; default to neutral rather than bearish when the forum is named and sector-specialist, reserving bearish only for generic non-conference online or roadshow filings with no named audience.
+
+_Seen 2×. First written 2026-09-18, last reinforced 2026-09-18._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-18 | TVN | bearish | +7.9% | Online Investor Briefing |
+| 2026-09-18 | USL | bearish | +13.2% | Metals Investor Forum Presentation |
+| 2026-09-18 | USL | bearish | +13.2% | Metals Investor Forum Presentation |
+
 ## Candidates
 
 Seen once. Waiting to see whether they are real or were a coincidence.
@@ -570,15 +582,45 @@ _Seen 1×. First written 2026-09-17, last reinforced 2026-09-17._
 | --- | --- | --- | ---: | --- |
 | 2026-09-17 | GSS | bullish | -10.0% | Receipt of Section 249D Notice from BCAL Diagnostics |
 
-### L043 — Investor presentation at a named investor forum (e.g. 'Metals Investor Forum', 'RIU', 'Noosa Mining') by a junior explorer, not flagged market sensitive, with no price action data available
+### L044 — Supplementary prospectus filed by a deeply de-rated, near-zero-liquidity micro-cap (70%+ below 12-month high, median daily turnover <A$15,000/day), not flagged market sensitive
 
-Before applying L010's bearish default, distinguish between a generic online awareness filing and a presentation at a named sector-specialist investor forum — the latter attracts an audience of active buyers in the commodity, not passive observers, and can itself be an accumulation catalyst; default to neutral rather than bearish when the forum is named and sector-specialist, reserving bearish only for generic non-conference online or roadshow filings with no named audience.
+A supplementary prospectus is not uniformly administrative — it amends a live offer document, which means a capital raise is actively in progress and fresh capital is imminent; before calling neutral, ask whether the primary prospectus is an entitlement offer or rights issue that gives existing holders a participation right at current prices, because in a near-zero-liquidity stock even a small completed raise can function as a funded-catalyst and floor-setting signal; apply the same participatory-vs-exclusionary distinction as L041 and default to neutral-to-bullish rather than purely neutral when the structure is participatory.
 
 _Seen 1×. First written 2026-09-18, last reinforced 2026-09-18._
 
 | Date | Ticker | Called | Move | Headline |
 | --- | --- | --- | ---: | --- |
-| 2026-09-18 | USL | bearish | +13.2% | Metals Investor Forum Presentation |
+| 2026-09-18 | DBF | neutral | +13.1% | Supplementary Prospectus |
+
+### L045 — Regulatory licence variation announcement (EPL variation, exploration licence amendment, permit modification) with 'Issued' or 'Granted' language at a junior miner/explorer 60%+ below its 12-month high, not flagged market sensitive
+
+A 'varied EPL issued' or equivalent granted-licence announcement removes a specific regulatory risk and confirms the company has active, approved work authorisation — this is structurally different from a mere application or a generic operational update; before defaulting to neutral on the grounds of no assay data or prior de-rating, ask whether the varied licence now enables a specific next operational step (drill start, bulk sample, resource extension) that was previously blocked; if so, lean neutral-to-bullish rather than neutral, because the grant itself is the gating event the market was waiting for.
+
+_Seen 1×. First written 2026-09-18, last reinforced 2026-09-18._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-18 | VTX | neutral | +8.7% | Operational Update - Varied EPL Issued |
+
+### L046 — Webinar or online presentation announcement (not a named specialist-sector conference, not flagged market sensitive) at a deeply de-rated technology or semiconductor company (50%+ below 12-month high) where the presenting company has a named, distinctive technology with active sector-level investor interest (e.g. AI, neuromorphic computing)
+
+An AI or semiconductor webinar for a company with a named proprietary technology is not equivalent to a generic junior-explorer awareness filing — the audience is sector-informed and the act of presenting in an active thematic (AI, semiconductors) can itself trigger accumulation by thematic investors; before calling neutral, ask whether the sector theme is actively re-rating and whether the company's technology is the type that attracts thematic inflows independent of fundamentals; if yes, lean neutral-to-bullish rather than neutral, because thematic buying is not contingent on new fundamental disclosures.
+
+_Seen 1×. First written 2026-09-18, last reinforced 2026-09-18._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-18 | BRN | neutral | +8.0% | BrainChip to present in AI and Semiconductor webinar |
+
+### L047 — Well mobilisation or rig-move commencement announcement (L002 shape) at an oil and gas junior that is near-zero liquidity (median daily turnover <A$1,000/day) with 5-day volume running >3x the 20-day average, stock 40-60% below its 12-month high
+
+At near-zero-liquidity oil and gas juniors, a mobilisation announcement into a large relative volume spike represents a qualitatively different market dynamic than L002 assumes — the start of physical well operations at a named well in an illiquid stock is a discrete binary event that the market treats as a risk-on catalyst, not merely a programme statement; do not dismiss the volume ratio as noise purely because the absolute base is tiny when the ratio exceeds 3x and the announcement names a specific well beginning active operations; lean neutral-to-bullish rather than neutral when these conditions coincide, because the marginal buyer in an illiquid well-operations stock is typically informed about the well's prospects.
+
+_Seen 1×. First written 2026-09-18, last reinforced 2026-09-18._
+
+| Date | Ticker | Called | Move | Headline |
+| --- | --- | --- | ---: | --- |
+| 2026-09-18 | LIO | neutral | +7.7% | Bula-Karang-1 Update - Mobilisation Commences |
 
 ## Dormant
 
