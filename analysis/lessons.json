@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-21T08:52:23.792469+00:00",
+  "updated_at": "2026-09-21T10:44:34.951661+00:00",
   "next_id": 63,
   "lessons": [
     {
@@ -901,21 +901,21 @@
       "rule": "When a drill-commencement announcement is bundled with a named strategic or policy update, do not apply L002 in isolation — parse whether the secondary element contains substantive policy, offtake, or funding news that is independent of the drill result; if it does, the filing has two information layers and the policy/strategic layer can be the market-moving one. Ask: does the non-drilling component stand alone as a catalyst? If yes, upgrade from neutral toward bullish when the stock is materially de-rated and the strategic context (e.g. US critical minerals policy) is actively supportive.",
       "created": "2026-09-15",
       "last_seen": "2026-09-21",
-      "times_seen": 5,
+      "times_seen": 6,
       "examples": [
-        {
-          "date": "2026-09-15",
-          "ticker": "EV1",
-          "headline": "Chikundo RC Drilling Programme Underway",
-          "called": "neutral",
-          "abnormal_pct": 10.88
-        },
         {
           "date": "2026-09-15",
           "ticker": "JLL",
           "headline": "McDermitt Drilling Program to Commence & US Elemental Update",
           "called": "neutral",
           "abnormal_pct": 8.7
+        },
+        {
+          "date": "2026-09-21",
+          "ticker": "EPM",
+          "headline": "Drilling to Advance Greenland 208 Mt Gronnedal Resource",
+          "called": "neutral",
+          "abnormal_pct": 13.33
         },
         {
           "date": "2026-09-21",
@@ -1157,7 +1157,7 @@
       "rule": "'Becoming a substantial holder' is categorically different from a change in an existing substantial holding — it announces that a new party has crossed 5% for the first time, which is unambiguously accumulation, not a reduction; do not apply the L001 bearish default (which addresses direction ambiguity) to a maiden substantial-holder filing; call bullish or neutral-to-bullish when the headline contains 'becoming' rather than 'change in', because direction is confirmed as acquisition by the filing type itself.",
       "created": "2026-09-16",
       "last_seen": "2026-09-21",
-      "times_seen": 10,
+      "times_seen": 11,
       "examples": [
         {
           "date": "2026-09-17",
@@ -1167,11 +1167,11 @@
           "abnormal_pct": 9.59
         },
         {
-          "date": "2026-09-17",
-          "ticker": "AUQ",
+          "date": "2026-09-21",
+          "ticker": "LOT",
           "headline": "Change in substantial holding",
           "called": "neutral",
-          "abnormal_pct": 9.59
+          "abnormal_pct": 8.69
         },
         {
           "date": "2026-09-21",
@@ -1247,7 +1247,7 @@
       "rule": "L001's bearish default was designed for holders selling into strength; a director's interest notice into elevated volume on a stock that is not extended is structurally different — the director may be acquiring, and insider buying at a depressed price is a constructive signal. Do not apply the L001 bearish default to director interest notices when the stock is not near a recent high; call neutral and require confirmation of direction before leaning bearish, because the base rate for director purchases (constructive) is meaningfully higher than for sales at non-extended prices.",
       "created": "2026-09-16",
       "last_seen": "2026-09-21",
-      "times_seen": 8,
+      "times_seen": 9,
       "examples": [
         {
           "date": "2026-09-17",
@@ -1271,11 +1271,11 @@
           "abnormal_pct": 9.59
         },
         {
-          "date": "2026-09-17",
-          "ticker": "AUQ",
-          "headline": "Change of Director's Interest Notice (F Masani)",
+          "date": "2026-09-21",
+          "ticker": "MEM",
+          "headline": "Change of Director's Interest Notice",
           "called": "neutral",
-          "abnormal_pct": 9.59
+          "abnormal_pct": -16.67
         },
         {
           "date": "2026-09-21",
@@ -1361,7 +1361,7 @@
       "rule": "L018's bearish default was built for elevated-volume scenarios where sell-the-news risk is the dominant concern. When volume is suppressed ahead of an extension result, the pre-positioning argument inverts — there is no crowded long to unwind, and thin pre-positioning into a material geological result at a deeply de-rated stock can produce a relief-buying response. Do not apply L018's bearish call when pre-announcement volume is below average; default to neutral instead, and reserve bearish for extension results into elevated volume only.",
       "created": "2026-09-16",
       "last_seen": "2026-09-21",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
         {
           "date": "2026-09-16",
@@ -1369,6 +1369,13 @@
           "headline": "Racetrack drilling extends mineralised strike length to 900m",
           "called": "bearish",
           "abnormal_pct": 9.03
+        },
+        {
+          "date": "2026-09-21",
+          "ticker": "HWK",
+          "headline": "Exploration Underway at the Olympus Scandium Project, WA",
+          "called": "neutral",
+          "abnormal_pct": 8.82
         },
         {
           "date": "2026-09-21",
@@ -1951,8 +1958,15 @@
       "rule": "A market-sensitive 'first samples confirm in-situ' result is not a programme statement under L002 — it is an actual analytical result establishing primary hard-rock mineralisation for the first time, which is a genuine geological de-risking event; when pre-announcement volume is suppressed (no crowded long to unwind), do not default to neutral — lean neutral-to-bullish, because the result is real data rather than a commencement notice and the sell-the-news risk is low.",
       "created": "2026-09-21",
       "last_seen": "2026-09-21",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-21",
+          "ticker": "LIB",
+          "headline": "FIRST SAMPLES CONFIRM IN-SITU GOLD FROM HARD ROCK, OKO NORTH",
+          "called": "neutral",
+          "abnormal_pct": 24.99
+        },
         {
           "date": "2026-09-21",
           "ticker": "LIB",
@@ -1982,8 +1996,15 @@
       "rule": "A board rejection of a further-revised offer, when the stock is already near its high on elevated volume, signals that M&A optionality is fully priced and the rejection increases deal-collapse risk rather than bump probability — the market interprets the rejection as the acquirer's limit being reached rather than as leverage for a higher bid; call bearish rather than bullish when this is a second-or-subsequent rejection into an extended, pre-positioned tape.",
       "created": "2026-09-21",
       "last_seen": "2026-09-21",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-21",
+          "ticker": "PPT",
+          "headline": "Perpetual rejects further revised proposal from EQT",
+          "called": "bullish",
+          "abnormal_pct": -15.11
+        },
         {
           "date": "2026-09-21",
           "ticker": "PPT",
@@ -2013,8 +2034,15 @@
       "rule": "Apply L024's logic symmetrically to merger announcements: when a merger is announced without disclosed exchange ratio or consideration at a stock near its high on elevated volume, the market will immediately price worst-case dilution for the announcing party's shareholders; call bearish rather than bullish when terms are absent, the stock is extended, and the structure implies scrip issuance — strategic upside is not quantifiable but dilution risk is immediately visible.",
       "created": "2026-09-21",
       "last_seen": "2026-09-21",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-21",
+          "ticker": "TLX",
+          "headline": "Telix and ITM Join Forces to Create Radiopharma Powerhouse",
+          "called": "bullish",
+          "abnormal_pct": -11.72
+        },
         {
           "date": "2026-09-21",
           "ticker": "TLX",
@@ -2044,8 +2072,15 @@
       "rule": "A headline describing what was hit (mineralisation type, distance from resource) rather than how much (grade, width) is structurally an extension result without economic quantification — apply L018's logic regardless of volume data when grade and width are absent from the headline; call neutral rather than bullish, because the market cannot size the value addition without grade data and the filing confirms presence but not economics.",
       "created": "2026-09-21",
       "last_seen": "2026-09-21",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-21",
+          "ticker": "KLI",
+          "headline": "Killi Hits Coarse Magnetite 600m Outside Current Resource",
+          "called": "bullish",
+          "abnormal_pct": -9.69
+        },
         {
           "date": "2026-09-21",
           "ticker": "KLI",
@@ -2075,7 +2110,7 @@
       "rule": "A name-change resolution in an AGM notice at a deeply de-rated micro-cap is a leading indicator of a strategic pivot (new commodity, new geography, or post-restructure rebrand) that often precedes an operational announcement or capital raise; do not treat as purely administrative — lean neutral-to-bullish rather than neutral, because the name change signals management has already decided on a new direction and the AGM is the formal gate for executing it.",
       "created": "2026-09-21",
       "last_seen": "2026-09-21",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
         {
           "date": "2026-09-21",
@@ -2120,8 +2155,15 @@
       "rule": "L029 establishes a bullish prior for maiden substantial-holder filings, but before applying it, ask whether the company has a known unresolved structural problem (sovereign risk event, debt covenant breach, asset impairment) that a 5% crossing does not address — if a named adverse event is recent and unresolved, the new holder may be a distressed-debt or restructuring buyer rather than a long-only accumulator, which is not uniformly bullish for equity holders; downgrade to neutral when a recent material adverse event is known and unresolved.",
       "created": "2026-09-21",
       "last_seen": "2026-09-21",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-21",
+          "ticker": "RSG",
+          "headline": "Becoming a substantial holder",
+          "called": "bullish",
+          "abnormal_pct": -8.5
+        },
         {
           "date": "2026-09-21",
           "ticker": "RSG",
@@ -2151,8 +2193,15 @@
       "rule": "Before calling bullish on a disclosed-proceeds asset sale at a near-zero-liquidity micro-cap, ask whether the company retains any operational asset or revenue-generating activity post-sale — if the divested asset was the primary value driver, the cash proceeds may be read as a liquidation signal rather than a balance-sheet strengthening event, and the market may discount the residual entity to near-zero regardless of the cash; default to neutral rather than bullish when the sold asset appears central to the investment thesis and no retained operational catalyst is signalled in the headline.",
       "created": "2026-09-21",
       "last_seen": "2026-09-21",
-      "times_seen": 3,
+      "times_seen": 4,
       "examples": [
+        {
+          "date": "2026-09-21",
+          "ticker": "FZR",
+          "headline": "Sale of Bowdens Silver Royalty for A$17.5 million",
+          "called": "bullish",
+          "abnormal_pct": -7.47
+        },
         {
           "date": "2026-09-21",
           "ticker": "FZR",
@@ -2182,8 +2231,15 @@
       "rule": "A generic project-update headline flagged market sensitive, where the title names only the project and not a specific positive milestone (resource, permit, funding, partner), carries equal probability of containing bad news as good — the market-sensitive flag is necessary but not sufficient to infer direction; default to neutral rather than applying an asymmetric upside assumption, and require headline-level milestone specificity before leaning bullish or bearish at a depressed stock.",
       "created": "2026-09-21",
       "last_seen": "2026-09-21",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-21",
+          "ticker": "AGR",
+          "headline": "TRES ESTRADAS UPDATE",
+          "called": "neutral",
+          "abnormal_pct": -14.29
+        },
         {
           "date": "2026-09-21",
           "ticker": "AGR",
@@ -2206,8 +2262,15 @@
       "rule": "A market-sensitive debt extension at a distressed micro-cap is primarily a survival event — it removes the going-concern cliff that was the dominant overhang, and the absence of disclosed punitive terms in the headline is the key qualifier; lean neutral-to-bullish rather than neutral when the extension is flagged material and no covenant or conversion language appears in the headline, because removing an existential risk at a stock already priced for distress is asymmetrically positive even if the underlying business remains weak.",
       "created": "2026-09-21",
       "last_seen": "2026-09-21",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-21",
+          "ticker": "UNT",
+          "headline": "Unith Extends Debt Facility to 30 April 2027",
+          "called": "neutral",
+          "abnormal_pct": 9.08
+        },
         {
           "date": "2026-09-21",
           "ticker": "UNT",
@@ -2230,8 +2293,15 @@
       "rule": "L007's distress-default does not apply when the stock is at a 12-month high, but the bullish flip is not automatic when proceeds are undisclosed and the divested assets are core rather than peripheral — when the sold portfolio is the company's named primary asset, the market may read the divestment as strategic exit rather than rationalisation, creating uncertainty about what the residual entity is worth; default to neutral rather than bullish when proceeds are absent and the sold asset is central to the investment thesis, regardless of the stock's price level.",
       "created": "2026-09-21",
       "last_seen": "2026-09-21",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-21",
+          "ticker": "FMR",
+          "headline": "Sale of Canadian Assets",
+          "called": "bullish",
+          "abnormal_pct": -8.34
+        },
         {
           "date": "2026-09-21",
           "ticker": "FMR",
@@ -2254,8 +2324,15 @@
       "rule": "A generic 'Change in Board Structure' headline at a deeply de-rated micro-cap, even without named individuals or a market-sensitive flag, should not default to neutral — parse whether the headline implies a net reduction in board size (consolidation of authority, cost-cutting signal) or the departure of a named executive, both of which at a distressed company are incrementally bearish; lean bearish rather than neutral when the headline implies simplification or departure rather than addition, because at a deeply de-rated stock board shrinkage typically signals managed wind-down or cost-preservation rather than strategic renewal.",
       "created": "2026-09-21",
       "last_seen": "2026-09-21",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-09-21",
+          "ticker": "RLF",
+          "headline": "Change in Board Structure",
+          "called": "neutral",
+          "abnormal_pct": -12.51
+        },
         {
           "date": "2026-09-21",
           "ticker": "RLF",
@@ -2271,8 +2348,15 @@
       "rule": "A 'first drill hole intersects' headline without disclosed grade and width is structurally equivalent to a footprint-expansion result under L054 — the market cannot price economic value from mineralisation presence alone; before calling bullish on a maiden intercept, require that grade and width appear in the headline or are clearly implied by the market-sensitive flag and filing body; default to neutral rather than bullish when the headline names only mineralisation type and not economic parameters, because the result confirms geological presence but not project value.",
       "created": "2026-09-21",
       "last_seen": "2026-09-21",
-      "times_seen": 1,
+      "times_seen": 2,
       "examples": [
+        {
+          "date": "2026-09-21",
+          "ticker": "MEG",
+          "headline": "Megado Intersects Copper and Silver in First Drill Hole",
+          "called": "bullish",
+          "abnormal_pct": -7.7
+        },
         {
           "date": "2026-09-21",
           "ticker": "MEG",
