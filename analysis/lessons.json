@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-09-22T07:46:59.409702+00:00",
+  "updated_at": "2026-09-22T08:50:03.658897+00:00",
   "next_id": 65,
   "lessons": [
     {
@@ -1126,15 +1126,8 @@
       "rule": "L001 defaults to bearish when volume is elevated AND the stock is near a high. When the stock is not near a high, the default logic inverts — a substantial holder accumulating into a depressed, above-average-volume tape is more likely to be a strategic buyer than an exiting holder; do not apply the L001 bearish default when the stock is not extended; instead call neutral and require confirmation of direction before leaning bearish.",
       "created": "2026-09-16",
       "last_seen": "2026-09-22",
-      "times_seen": 5,
+      "times_seen": 6,
       "examples": [
-        {
-          "date": "2026-09-16",
-          "ticker": "VYS",
-          "headline": "Change in substantial holding",
-          "called": "bearish",
-          "abnormal_pct": 11.06
-        },
         {
           "date": "2026-09-16",
           "ticker": "VYS",
@@ -1148,6 +1141,13 @@
           "headline": "Change in substantial holding",
           "called": "neutral",
           "abnormal_pct": 9.59
+        },
+        {
+          "date": "2026-09-22",
+          "ticker": "DCC",
+          "headline": "Change in substantial holding",
+          "called": "bearish",
+          "abnormal_pct": 8.53
         },
         {
           "date": "2026-09-22",
@@ -1886,7 +1886,7 @@
       "rule": "An AGM notice is not always content-free when the stock is deeply de-rated and volume is elevated — the director nomination deadline is a governance event that can attract activist or strategic interest; before calling neutral, ask whether the volume spike coincides with a known activist position or a corporate action rumour, and if the stock has the shape of an activist target (deep de-rating, illiquid, small board), lean neutral-to-bullish rather than purely neutral. Here the volume (1.92x) into a near-zero-liquidity stock (median ~A$345/day) at a 63% de-rating was dismissed as noise, but at that liquidity level even a single informed buyer opening or building a position ahead of a nomination deadline is a material signal.",
       "created": "2026-09-18",
       "last_seen": "2026-09-22",
-      "times_seen": 4,
+      "times_seen": 5,
       "examples": [
         {
           "date": "2026-09-22",
@@ -1955,15 +1955,8 @@
       "rule": "An application for quotation at a 12-month low on a uranium or active-thematic junior is not uniformly bearish — the raise has already completed and the new capital may fund the next operational step in a sector where thematic inflows are active; before calling bearish on quotation-of-securities at a thematic junior, ask whether the proceeds enable a named near-term catalyst (drill start, resource work, offtake) and whether the sector theme is attracting specialist fund inflows that make fresh paper absorbable; if both conditions hold, default to neutral rather than bearish, because the dilution is already done and the funded-catalyst signal may dominate the supply-overhang concern.",
       "created": "2026-09-18",
       "last_seen": "2026-09-22",
-      "times_seen": 4,
+      "times_seen": 5,
       "examples": [
-        {
-          "date": "2026-09-18",
-          "ticker": "NHU",
-          "headline": "Application for quotation of securities - NHU",
-          "called": "bearish",
-          "abnormal_pct": 7.59
-        },
         {
           "date": "2026-09-18",
           "ticker": "EUR",
@@ -1977,6 +1970,13 @@
           "headline": "Application for quotation of securities - NHU",
           "called": "bearish",
           "abnormal_pct": 7.59
+        },
+        {
+          "date": "2026-09-22",
+          "ticker": "SQX",
+          "headline": "Application for quotation of securities - SQX",
+          "called": "bearish",
+          "abnormal_pct": 21.13
         },
         {
           "date": "2026-09-22",
@@ -2235,7 +2235,7 @@
       "rule": "Before calling bullish on a disclosed-proceeds asset sale at a near-zero-liquidity micro-cap, ask whether the company retains any operational asset or revenue-generating activity post-sale — if the divested asset was the primary value driver, the cash proceeds may be read as a liquidation signal rather than a balance-sheet strengthening event, and the market may discount the residual entity to near-zero regardless of the cash; default to neutral rather than bullish when the sold asset appears central to the investment thesis and no retained operational catalyst is signalled in the headline.",
       "created": "2026-09-21",
       "last_seen": "2026-09-22",
-      "times_seen": 6,
+      "times_seen": 7,
       "examples": [
         {
           "date": "2026-09-21",
@@ -2252,11 +2252,11 @@
           "abnormal_pct": -7.47
         },
         {
-          "date": "2026-09-21",
-          "ticker": "FZR",
-          "headline": "Sale of Bowdens Silver Royalty for A$17.5 million",
+          "date": "2026-09-22",
+          "ticker": "PGM",
+          "headline": "PGM receives final US$2 million from sale of Owendale",
           "called": "bullish",
-          "abnormal_pct": -7.47
+          "abnormal_pct": -8.99
         },
         {
           "date": "2026-09-22",
@@ -2280,7 +2280,7 @@
       "rule": "A generic project-update headline flagged market sensitive, where the title names only the project and not a specific positive milestone (resource, permit, funding, partner), carries equal probability of containing bad news as good — the market-sensitive flag is necessary but not sufficient to infer direction; default to neutral rather than applying an asymmetric upside assumption, and require headline-level milestone specificity before leaning bullish or bearish at a depressed stock.",
       "created": "2026-09-21",
       "last_seen": "2026-09-22",
-      "times_seen": 5,
+      "times_seen": 6,
       "examples": [
         {
           "date": "2026-09-21",
@@ -2297,11 +2297,11 @@
           "abnormal_pct": -14.29
         },
         {
-          "date": "2026-09-21",
-          "ticker": "AGR",
-          "headline": "TRES ESTRADAS UPDATE",
+          "date": "2026-09-22",
+          "ticker": "IRD",
+          "headline": "Corporate Update",
           "called": "neutral",
-          "abnormal_pct": -14.29
+          "abnormal_pct": -10.3
         },
         {
           "date": "2026-09-22",
@@ -2435,8 +2435,15 @@
       "rule": "When four or more director interest notices land simultaneously, the coordination itself is the signal — a company-wide vesting or grant event at a distressed stock often accompanies a performance milestone or remuneration restructure that management deems constructive; treat the cluster as a probable positive internal event (vesting on achievement, or coordinated on-market buying) and lean neutral-to-bullish rather than neutral, because the base rate for coordinated director acquisitions at heavily de-rated prices is meaningfully more constructive than a single ambiguous filing.",
       "created": "2026-09-22",
       "last_seen": "2026-09-22",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-22",
+          "ticker": "RAD",
+          "headline": "Change of Director's Interest Notices x 4",
+          "called": "neutral",
+          "abnormal_pct": 13.99
+        },
         {
           "date": "2026-09-22",
           "ticker": "RAD",
@@ -2459,8 +2466,15 @@
       "rule": "Unlocking restricted capital is a liquidity event that removes a specific constraint without the dilution of a new placement — when the quantum is material relative to the company's implied market cap and the stock is already severely de-rated, the market-sensitive flag signals that the cash accretion per share is the moving part; lean neutral-to-bullish rather than neutral, because restricted-capital releases are not dilutive and can represent a meaningful funded-runway extension at a company priced for near-insolvency.",
       "created": "2026-09-22",
       "last_seen": "2026-09-22",
-      "times_seen": 2,
+      "times_seen": 3,
       "examples": [
+        {
+          "date": "2026-09-22",
+          "ticker": "CTN",
+          "headline": "$1.29M in Restricted Capital Unlocked",
+          "called": "neutral",
+          "abnormal_pct": 8.59
+        },
         {
           "date": "2026-09-22",
           "ticker": "CTN",
