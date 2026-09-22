@@ -4,22 +4,22 @@ What the sentiment calls have actually been worth, regenerated after each
 close by `calibration.py` and pasted into the next day's prompt. Nothing
 here is hand-written; edit `calibration.py` if a finding is wrong.
 
-- Window: last 20 trading days, 4707 graded calls
+- Window: last 20 trading days, 4787 graded calls
 - Dead band: moves under 1% net of the ASX 200 count as no move
-- Generated: 2026-09-21T10:44:35.187667+00:00
+- Generated: 2026-09-22T06:58:37.951222+00:00
 
 ## Headline
 
-Directional calls (bullish/bearish): **60%** correct on 1057 graded calls.
+Directional calls (bullish/bearish): **59.9%** correct on 1101 graded calls.
 
 | Label | Graded | Hit rate |
 | --- | ---: | ---: |
-| bullish | 822 | 61.4% |
-| bearish | 235 | 54.9% |
+| bullish | 848 | 61.6% |
+| bearish | 253 | 54.5% |
 
 ## Does the label separate from the base rate?
 
-Stocks called neutral moved 1% or more anyway **54.5%** of the time (n=3045). Every graded announcement moved 58.1% of the time.
+Stocks called neutral moved 1% or more anyway **54.3%** of the time (n=3066). Every graded announcement moved 58.2% of the time.
 
 The gap between those two numbers is the whole information content of a neutral
 call. It is small. Part of that is the measurement: the grading window is the
@@ -30,17 +30,17 @@ against the label. Part of it is not.
 
 | Filing | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market sensitive | 613 | 64.6% |
-| Not flagged | 444 | 53.6% |
+| Market sensitive | 635 | 64.9% |
+| Not flagged | 466 | 53.2% |
 
 The exchange's own flag is doing more work than the model is. On unflagged
 filings the directional calls are close to a coin flip.
 
 | Document type | Graded | Hit rate |
 | --- | ---: | ---: |
-| Market Update | 858 | 62.5% |
-| Results | 53 | 45.3% |
-| Substantial Holding | 53 | 37.7% |
+| Market Update | 890 | 62.2% |
+| Substantial Holding | 61 | 39.3% |
+| Results | 54 | 46.3% |
 | Dividend | 31 | 51.6% |
 
 Document types with fewer than 30 graded calls are omitted rather
@@ -53,8 +53,8 @@ than shown with a caveat. They will appear as the sample fills in.
 | TSR | bearish | +27.9% | $1.1 Million Placement to Fund Critical Minerals Strategy |
 | REG | bullish | -27.5% | Government announces AN-ACC pricing from 1 October 2026 |
 | M2R | bearish | +24.7% | $1.25M Placement to Advance Gidji JV Gold Project |
-| OSX | bullish | -19.9% | OSX secures market access to Thailand orthopaedic market |
-| TZN | bearish | +19.1% | Finance Facility Update |
+| LMG | bullish | -21.4% | LMG Successful Equity Raise |
+| SQX | bearish | +21.1% | Application for quotation of securities - SQX |
 
 Moves beyond ±30% are excluded from this list. At that size the
 likelier explanation is a consolidation or a rights issue repricing the shares,
