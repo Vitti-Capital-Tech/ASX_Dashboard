@@ -1,17 +1,17 @@
 {
   "date": "2026-09-22",
-  "generated_at": "2026-09-22T16:56:00.760806+10:00",
+  "generated_at": "2026-09-22T17:45:04.053120+10:00",
   "benchmark": "^AXJO",
   "threshold_pct": 1.0,
   "stats": {
     "by_sentiment": {
       "bullish": {
-        "scored": 32,
+        "scored": 33,
         "correct": 17,
         "wrong": 9,
-        "flat": 6,
+        "flat": 7,
         "hit_rate": 65.4,
-        "avg_abnormal_pct": 3.44
+        "avg_abnormal_pct": 3.32
       },
       "bearish": {
         "scored": 27,
@@ -30,22 +30,22 @@
         "avg_abnormal_pct": -0.01
       }
     },
-    "spread_pct": 4.21,
+    "spread_pct": 4.09,
     "directional_hit_rate": 59.1,
     "directional_scored": 44,
     "pending": 0,
-    "no_data": 34,
+    "no_data": 33,
     "conflicts": 2
   },
   "intraday_stats": {
     "by_sentiment": {
       "bullish": {
-        "scored": 32,
+        "scored": 33,
         "correct": 10,
         "wrong": 14,
-        "flat": 8,
+        "flat": 9,
         "hit_rate": 41.7,
-        "avg_abnormal_pct": -0.21
+        "avg_abnormal_pct": -0.2
       },
       "bearish": {
         "scored": 27,
@@ -64,11 +64,11 @@
         "avg_abnormal_pct": 0.09
       }
     },
-    "spread_pct": 0.61,
+    "spread_pct": 0.62,
     "directional_hit_rate": 47.5,
     "directional_scored": 40,
     "pending": 0,
-    "no_data": 34,
+    "no_data": 33,
     "conflicts": 2
   },
   "highlights": {
@@ -6124,18 +6124,18 @@
       "avg_volume_20": 3159797,
       "rsi_14": 53.05,
       "market_cap_aud": 326127695.85,
-      "session_date": null,
-      "prev_close": null,
-      "open": null,
-      "vwap": null,
-      "gap_pct": null,
-      "intraday_verdict": "no_data",
-      "close": null,
-      "return_pct": null,
-      "open_close_pct": null,
-      "index_return_pct": null,
-      "abnormal_pct": null,
-      "verdict": "no_data",
+      "session_date": "2026-09-22",
+      "prev_close": 0.135,
+      "open": 0.135,
+      "vwap": 0.1397,
+      "gap_pct": 0.0,
+      "intraday_verdict": "flat",
+      "close": 0.135,
+      "return_pct": 0.0,
+      "open_close_pct": 0.0,
+      "index_return_pct": 0.3,
+      "abnormal_pct": -0.3,
+      "verdict": "flat",
       "announcements": 1,
       "also": []
     },
