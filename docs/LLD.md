@@ -120,6 +120,13 @@ All-time figures are counted over calls rather than averaged across daily averag
 #### `VWAP_MAX_AGE_DAYS`
 Sessions older than 28 days skip the intraday fetch entirely. Yahoo's 1-minute window is ~30 days, so asking for an older session is a guaranteed miss — and on a `--force` backfill over months that is hundreds of pointless chunk requests against a host that rate-limits.
 
+#### Layout: one card, one control, one table
+The tab reached five stacked tables and two competing stat bands. Two problems, both real:
+*   **Two different hit rates on one screen.** The "This session" band published `card.stats` — precomputed, unfiltered, always the gap basis — directly above a totals card recomputed on the chosen basis over the filtered rows. The band is gone; its per-direction detail is now a `Breakdown`, recomputed like everything else.
+*   **Filters that did not reach the table under them.** The verdict/direction chips sat immediately above the Candidates table and drove only the call-by-call one at the bottom.
+
+Now: a stats card (basis switch, price/size filters, six figures), then a `PanelView` segmented control — **Calls / Today / Where the edge is** — and exactly one section below it. The filter row follows the view: verdict chips appear only on Calls, since a candidate has no outcome to filter on; direction applies to both and now actually filters the Candidates rows; the running Σ/avg totals describe the calls table and hide elsewhere.
+
 #### Client-side recomputation (`AccuracyPanel`)
 `statsFor(rows, basis)` recomputes every displayed figure from the rows on screen rather than reading the precomputed `stats` block. This is required, not stylistic: the sub-cent and large-cap filters change which calls count, and a headline hit rate that ignores the filter beneath it is worse than no headline. The precomputed blocks are used only for the all-time summary.
 

@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import type {
-  Announcement, Scorecard, ScorecardSummary, ScoredCall, SentimentStat, Verdict,
+  Announcement, Scorecard, ScorecardSummary, ScoredCall, Verdict,
 } from '@/types';
 import { formatDateLabel, formatTime, getSentiment } from '@/lib/utils';
 import ViewHeader from './ViewHeader';
@@ -34,6 +34,9 @@ type Direction = 'all' | 'bullish' | 'bearish';
  * before the bell.
  */
 type Basis = 'gap' | 'intraday';
+
+/** Which table the tab is showing. One at a time — see the control's comment. */
+type PanelView = 'calls' | 'today' | 'breakdowns';
 
 const BASIS: Record<Basis, {
   label: string; blurb: string;
@@ -170,73 +173,7 @@ function price(v: number | null | undefined): string {
   return `$${v.toFixed(2)}`;
 }
 
-/** Horizontal stacked bar: correct | wrong | no move, as a share of all scored.
- *  Segments carry their own counts, so the split survives a colourblind reader. */
-function BreakdownBar({ stat }: { stat: SentimentStat }) {
-  const total = stat.correct + stat.wrong + stat.flat;
-  const segments = [
-    { n: stat.correct, color: OK, label: 'correct' },
-    { n: stat.wrong, color: BAD, label: 'wrong' },
-    { n: stat.flat, color: NEUTRAL, label: 'no real move' },
-  ].filter(s => s.n > 0);
 
-  if (!total) {
-    return <div className="h-2 rounded-full" style={{ background: 'var(--border-subtle)' }} />;
-  }
-
-  return (
-    // One continuous track, rounded at the two outer ends only. The segments
-    // used to be separate pills with a 2px gap between them, which read as a
-    // bar that had failed to render rather than as a split of one total.
-    <div className="flex h-2 rounded-full overflow-hidden"
-      style={{ background: 'var(--border-subtle)' }}>
-      {segments.map(s => (
-        <div key={s.label}
-          title={`${s.n} ${s.label}`}
-          style={{
-            width: `${(s.n / total) * 100}%`,
-            background: s.color,
-            opacity: s.label === 'no real move' ? 0.55 : 1,
-          }} />
-      ))}
-    </div>
-  );
-}
-
-/** One sentiment on one line: rate, split, counts, average. The three-line
- *  stacked version of this said the same thing over triple the height, which is
- *  where most of the tab's empty space was coming from. */
-function SentimentRow({ label, glyph, stat }: {
-  label: string; glyph: string; stat: SentimentStat;
-}) {
-  const decided = stat.correct + stat.wrong;
-  return (
-    <div className="flex items-center gap-3">
-      <span className="text-[0.7rem] font-bold w-[4.7rem] flex-shrink-0" style={{ color: 'var(--text-primary)' }}>
-        {glyph} {label}
-      </span>
-      <span className="font-mono text-[0.85rem] font-bold w-[3.2rem] flex-shrink-0 tabular-nums"
-        style={{ color: decided ? rateColor(stat.hit_rate) : NEUTRAL }}>
-        {decided ? rate(stat.hit_rate) : '—'}
-      </span>
-      <div className="flex-1 min-w-[60px]">
-        <BreakdownBar stat={stat} />
-      </div>
-      <span className="font-mono text-[0.65rem] whitespace-nowrap tabular-nums" style={{ color: 'var(--text-dim)' }}>
-        <b style={{ color: OK }}>{stat.correct}</b>
-        {' / '}
-        <b style={{ color: BAD }}>{stat.wrong}</b>
-        {' / '}
-        {stat.flat}
-      </span>
-      <span className="font-mono text-[0.65rem] w-[4.4rem] text-right flex-shrink-0 tabular-nums"
-        title="Average move net of the index across every call with this label"
-        style={{ color: moveColor(stat.avg_abnormal_pct) }}>
-        {pct(stat.avg_abnormal_pct, 2)}
-      </span>
-    </div>
-  );
-}
 
 /** A number with its name under it. Used wherever a figure is self-explanatory
  *  once labelled — the sentence that used to sit beside each one is a `title`
@@ -360,12 +297,12 @@ function Breakdown({ title, blurb, groups, basis, moveLabel }: {
  * being asked — of the news that landed today, which kinds still had something
  * left once the market opened.
  */
-function Candidates({ anns, summary, date, excludeSubCent, excludeLargeCaps }: {
-  anns: Announcement[];
+function Candidates({ rows: anns, summary, date }: {
+  /** Already filtered by the caller — same price, size and direction filters
+   *  the rest of the tab is under, so the chips above this table apply to it. */
+  rows: Announcement[];
   summary: ScorecardSummary | null;
   date: string;
-  excludeSubCent: boolean;
-  excludeLargeCaps: boolean;
 }) {
   const byType = useMemo(() => {
     const m = new Map<string, NonNullable<ScorecardSummary['by_document_type']>[number]>();
@@ -375,22 +312,13 @@ function Candidates({ anns, summary, date, excludeSubCent, excludeLargeCaps }: {
 
   const rows = useMemo(() => {
     return anns
-      .filter(a => getSentiment(a) !== 'neutral')
-      .filter(a => {
-        const c = a.market_context;
-        if (excludeSubCent && c?.last_close !== undefined && c.last_close < MIN_PRICE) return false;
-        if (excludeLargeCaps && (c?.market_cap_aud ?? 0) > LARGE_CAP_AUD) return false;
-        return true;
-      })
       .map(a => ({ ann: a, hist: byType.get((a.document_type || 'Other').trim()) }))
       // Types with no history sink to the bottom rather than being dropped:
       // "we have never scored this kind of filing" is itself worth seeing.
       .sort((x, y) =>
         (y.hist?.intraday_hit_rate ?? -1) - (x.hist?.intraday_hit_rate ?? -1))
       .slice(0, 40);
-  }, [anns, byType, excludeSubCent, excludeLargeCaps]);
-
-  if (!anns.length) return null;
+  }, [anns, byType]);
 
   return (
     <div className="rounded-2xl overflow-hidden mb-4"
@@ -405,6 +333,11 @@ function Candidates({ anns, summary, date, excludeSubCent, excludeLargeCaps }: {
           sample size sits beside every rate, and none of these has a price outcome yet.
         </p>
       </div>
+      {rows.length === 0 && (
+        <p className="px-5 pb-5 text-[0.78rem]" style={{ color: 'var(--text-dim)' }}>
+          No directional calls on {formatDateLabel(date)} match the current filters.
+        </p>
+      )}
       <div className="overflow-x-auto">
         <table className="w-full min-w-[900px] text-left border-collapse">
           <thead>
@@ -497,6 +430,7 @@ export default function AccuracyPanel({
   // rather than being a silent adjustment to every number on the tab.
   const [excludeSubCent, setExcludeSubCent] = useState(true);
   const [excludeLargeCaps, setExcludeLargeCaps] = useState(true);
+  const [view, setView] = useState<PanelView>('calls');
 
   const B = BASIS[basis];
 
@@ -535,6 +469,24 @@ export default function AccuracyPanel({
   const directional = useMemo(
     () => universe.filter(r => r.sentiment !== 'neutral'), [universe]);
 
+  /** Today's live feed, under the same price/size filters as everything else
+   *  and under the direction filter, so the chips above the table apply to
+   *  whichever table is showing rather than only to the call-by-call one. */
+  const candidateRows = useMemo(() => {
+    const feed = todaysAnnouncements ?? [];
+    return feed.filter(a => {
+      const sent = getSentiment(a);
+      if (sent === 'neutral') return false;
+      if (direction !== 'all' && sent !== direction) return false;
+      const c = a.market_context;
+      if (excludeSubCent && c?.last_close !== undefined && c.last_close < MIN_PRICE) return false;
+      if (excludeLargeCaps && (c?.market_cap_aud ?? 0) > LARGE_CAP_AUD) return false;
+      return true;
+    });
+  }, [todaysAnnouncements, direction, excludeSubCent, excludeLargeCaps]);
+
+  const todaysDirectional = candidateRows.length;
+
   const gapGroups = useMemo(() => GAP_BUCKETS.map(b => ({
     label: b.label,
     rows: directional.filter(r => {
@@ -555,6 +507,11 @@ export default function AccuracyPanel({
       .sort((a, b) => b.rows.length - a.rows.length)
       .slice(0, 12);
   }, [directional]);
+
+  const directionGroups = useMemo(() => ([
+    { label: '▲ Bullish', rows: universe.filter(r => r.sentiment === 'bullish') },
+    { label: '▼ Bearish', rows: universe.filter(r => r.sentiment === 'bearish') },
+  ]), [universe]);
 
   const liquidityGroups = useMemo(() => {
     const band = (r: ScoredCall): string => {
@@ -656,15 +613,11 @@ export default function AccuracyPanel({
     );
   }
 
+  // Only `conflicts` and `pending` are still read off the precomputed block;
+  // every published figure is recomputed by statsFor() so it follows the basis
+  // and the filters. The per-direction locals that used to live here went with
+  // the band they fed — that detail is a Breakdown now.
   const s = card.stats;
-  const bull = s.by_sentiment.bullish;
-  const bear = s.by_sentiment.bearish;
-  const correct = bull.correct + bear.correct;
-  const wrong = bull.wrong + bear.wrong;
-  // Every directional call of the day, including the ones that never moved enough
-  // to grade. Counted off the rows rather than the stat blocks, because those
-  // count neutral announcements in `no_data` and `conflicts` too.
-  const called = card.results.filter(r => r.sentiment !== 'neutral').length;
 
   return (
     <div className="max-w-[1400px] mx-auto animate-fade-in-up pb-4">
@@ -770,91 +723,31 @@ export default function AccuracyPanel({
         </div>
       </div>
 
-      {/* ── One band: this session on the left, the running record on the right ──
-          Four cards of prose became two columns of figures. Every sentence that
-          used to sit under a number is a tooltip on it now; the numbers are what
-          this tab is for, and they were the smallest thing on it. */}
-      <div className="grid grid-cols-1 lg:grid-cols-[1.45fr_1fr] gap-3 mb-4">
-
-        <div className="rounded-2xl px-5 py-4"
-          style={{ background: 'var(--bg-card)', border: '1px solid var(--border-subtle)', boxShadow: 'var(--shadow-card)' }}>
-          <div className="flex items-center justify-between gap-3 mb-3">
-            <span className="text-[0.6rem] font-semibold uppercase tracking-[0.12em]" style={{ color: 'var(--text-dim)' }}>
-              This session
-            </span>
-            <span className="font-mono text-[0.63rem]" style={{ color: 'var(--text-dim)' }}
-              title={`The rest of the day never moved past the ${card.threshold_pct}% threshold, or had no tradable price.`}>
-              {called} directional calls
-            </span>
-          </div>
-
-          <div className="flex items-center gap-5 mb-4">
-            <div className="flex items-baseline gap-2.5">
-              <span className="font-mono text-[2.5rem] font-bold leading-none tabular-nums"
-                style={{ color: rateColor(s.directional_hit_rate) }}>
-                {rate(s.directional_hit_rate)}
-              </span>
-              <span className="font-mono text-[0.68rem] whitespace-nowrap" style={{ color: 'var(--text-dim)' }}>
-                <b style={{ color: OK }}>✓{correct}</b> <b style={{ color: BAD }}>✗{wrong}</b>
-              </span>
-            </div>
-            <div className="flex-1 flex h-2 rounded-full overflow-hidden"
-              style={{ background: 'var(--border-subtle)' }}>
-              {correct > 0 && (
-                <div title={`${correct} correct`}
-                  style={{ width: `${(correct / (correct + wrong)) * 100}%`, background: OK }} />
-              )}
-              {wrong > 0 && (
-                <div title={`${wrong} wrong`}
-                  style={{ width: `${(wrong / (correct + wrong)) * 100}%`, background: BAD }} />
-              )}
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-2.5 pt-3.5" style={{ borderTop: '1px solid var(--border-subtle)' }}>
-            <SentimentRow label="Bullish" glyph="▲" stat={bull} />
-            <SentimentRow label="Bearish" glyph="▼" stat={bear} />
-            <span className="font-mono text-[0.58rem] text-right" style={{ color: 'var(--text-dim)' }}>
-              right / wrong / no move &nbsp;·&nbsp; avg vs index
-            </span>
-          </div>
-        </div>
-
-        <div className="rounded-2xl px-5 py-4 flex flex-col"
-          style={{ background: 'var(--bg-card)', border: '1px solid var(--border-subtle)', boxShadow: 'var(--shadow-card)' }}>
-          <div className="flex items-center justify-between gap-3 mb-3">
-            <span className="text-[0.6rem] font-semibold uppercase tracking-[0.12em]" style={{ color: 'var(--text-dim)' }}>
-              Track record
-            </span>
-            {summary && summary.days_scored > 0 && (
-              <span className="font-mono text-[0.63rem]" style={{ color: 'var(--text-dim)' }}>
-                {summary.days_scored} trading {summary.days_scored === 1 ? 'day' : 'days'}
-              </span>
-            )}
-          </div>
-
-          {summary && summary.directional_scored > 0 ? (
-            <div className="grid grid-cols-2 gap-x-5 gap-y-4 flex-1 content-center">
-              <Stat label={`across ${summary.directional_scored} calls`}
-                value={rate(summary.directional_hit_rate)}
-                color={rateColor(summary.directional_hit_rate)} />
-              <Stat label="neutral control"
-                value={pct(summary.by_sentiment.neutral.avg_abnormal_pct, 2)}
-                hint="Average move of the announcements called neutral. Bullish picks have to beat this, not zero, to mean anything." />
-              <Stat label="bullish all time" value={rate(summary.by_sentiment.bullish.hit_rate)}
-                color={rateColor(summary.by_sentiment.bullish.hit_rate)} />
-            </div>
-          ) : (
-            <span className="text-[0.75rem] my-auto" style={{ color: 'var(--text-dim)' }}>
-              Builds up one trading day at a time.
-            </span>
-          )}
-        </div>
+      {/* ── What to look at ──
+          A segmented control rather than five stacked tables. Each answers a
+          different question and only one is being asked at a time; scrolling
+          past four to reach the fifth is not a layout, it is a list. */}
+      <div className="flex flex-wrap items-center gap-2 mb-3">
+        {([
+          ['calls', `Calls (${rows.length})`],
+          ['today', `Today (${todaysDirectional})`],
+          ['breakdowns', 'Where the edge is'],
+        ] as [PanelView, string][]).map(([k, label]) => (
+          <button key={k} onClick={() => setView(k)}
+            className="px-4 py-2.5 rounded-xl text-[0.76rem] font-bold transition-all duration-150"
+            style={view === k
+              ? { background: 'var(--accent-dim)', border: '1px solid var(--border-accent)', color: 'var(--text-accent)' }
+              : { background: 'var(--bg-card)', border: '1px solid var(--border-subtle)', color: 'var(--text-dim)' }}>
+            {label}
+          </button>
+        ))}
       </div>
 
-      {/* ── Filters ── */}
+      {/* ── Filters. Verdict is meaningless on Today (no outcome yet), so it
+           only shows where it applies; direction applies to both. ── */}
+      {view !== 'breakdowns' && (
       <div className="flex flex-wrap items-center gap-2 mb-2.5">
-        {VERDICT_FILTERS.map(f => {
+        {view === 'calls' && VERDICT_FILTERS.map(f => {
           const active = filter === f.key;
           return (
             <button key={f.key} onClick={() => setFilter(f.key)}
@@ -872,7 +765,9 @@ export default function AccuracyPanel({
         {/* Direction sits in its own group, tinted to the sentiment it picks,
             because it stacks WITH the verdict filters rather than replacing
             them — "bullish" and "wrong" together is the useful combination. */}
-        <span className="mx-1 self-stretch w-px" style={{ background: 'var(--border-med)' }} />
+        {view === 'calls' && (
+          <span className="mx-1 self-stretch w-px" style={{ background: 'var(--border-med)' }} />
+        )}
         {DIRECTION_FILTERS.map(f => {
           const active = direction === f.key;
           const tint = f.key === 'bullish' ? OK : f.key === 'bearish' ? BAD : 'var(--accent)';
@@ -893,6 +788,7 @@ export default function AccuracyPanel({
             they describe the selection, and a separate strip put a whole card's
             worth of chrome around two numbers. The "not a return" caveat moved
             to the method note at the foot, where the other caveats already live. */}
+        {view === 'calls' && (
         <span className="ml-auto flex items-baseline gap-x-4 font-mono text-[0.68rem] whitespace-nowrap"
           style={{ color: 'var(--text-dim)' }}>
           <span>
@@ -925,16 +821,16 @@ export default function AccuracyPanel({
             </span>
           )}
         </span>
+        )}
       </div>
+      )}
 
-      <Candidates
-        anns={todaysAnnouncements ?? []}
-        summary={summary}
-        date={date}
-        excludeSubCent={excludeSubCent}
-        excludeLargeCaps={excludeLargeCaps}
-      />
+      {view === 'today' && (
+        <Candidates rows={candidateRows} summary={summary} date={date} />
+      )}
 
+      {view === 'breakdowns' && (
+      <>
       {/* ── Where the edge is, if anywhere ──
           Three cuts of the same calls. The averages above say whether there
           was an edge overall; these say where it sat, which is the only form
@@ -954,8 +850,21 @@ export default function AccuracyPanel({
             blurb="Which kinds of news are still worth trading after the open, and which are finished by then. Twelve most common types in view."
             groups={typeGroups} basis={basis} moveLabel={B.moveLabel} />
         </div>
+        <div className="xl:col-span-2">
+          {/* Recomputed like every other figure here, so it moves with the
+              basis and the filters. It used to be read off the precomputed
+              stats block, which meant it silently ignored both. */}
+          <Breakdown
+            title="By direction"
+            blurb="Whether the calls are better at spotting good news or bad. Neutral is the control — a bullish call has to beat it, not zero, to mean anything."
+            groups={directionGroups} basis={basis} moveLabel={B.moveLabel} />
+        </div>
       </div>
+      </>
+      )}
 
+      {view === 'calls' && (
+      <>
       {/* ── Call-by-call ── */}
       <div className="rounded-2xl overflow-hidden"
         style={{ background: 'var(--bg-card)', border: '1px solid var(--border-subtle)' }}>
@@ -1087,8 +996,13 @@ export default function AccuracyPanel({
         judged on the next session; a ticker carrying both a bullish and a bearish call the same day is
         excluded rather than guessed at. <b style={{ color: 'var(--text-secondary)' }}>Σ net is not a
         return</b> — percentage points added up across notional equal positions, with no sizing, entry
-        or costs in it.
+        or costs in it.{' '}
+        <b style={{ color: 'var(--text-secondary)' }}>On the intraday basis</b> the verdict is the raw
+        open-to-close move instead, with no index subtracted — what a position opened at the bell and
+        closed at it would have made, before slippage and spread.
       </p>
+      </>
+      )}
     </div>
   );
 }
